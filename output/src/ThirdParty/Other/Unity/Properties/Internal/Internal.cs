@@ -67,6 +67,10 @@ namespace ThirdParty.Other.Unity.Properties.Internal
 
     public class PropertyBagStore : Object
     {
+        public object s_PropertyBags;
+        public object s_RegisteredTypes;
+        public object s_PropertyBagProvider;
+
         // ── Methods ──
         public void get_ReflectedPropertyBagProvider(){} // RVA: 0x7D62610
         public void CreatePropertyBagProvider(){} // RVA: 0x7D62720
@@ -96,6 +100,17 @@ namespace ThirdParty.Other.Unity.Properties.Internal
 
     public class ReflectedPropertyBagProvider : Object
     {
+        public object m_CreatePropertyMethod;
+        public object m_CreatePropertyBagMethod;
+        public object m_CreateIndexedCollectionPropertyBagMethod;
+        public object m_CreateSetPropertyBagMethod;
+        public object m_CreateKeyValueCollectionPropertyBagMethod;
+        public object m_CreateKeyValuePairPropertyBagMethod;
+        public object m_CreateArrayPropertyBagMethod;
+        public object m_CreateListPropertyBagMethod;
+        public object m_CreateHashSetPropertyBagMethod;
+        public object m_CreateDictionaryPropertyBagMethod;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D62FA0
         public void CreatePropertyBag(){} // RVA: 0x87C0A0

@@ -7,6 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Pen : Pointer
     {
+        public object _tip;
+        public object _eraser;
+        public object _firstBarrelButton;
+        public object _secondBarrelButton;
+        public object _thirdBarrelButton;
+        public object _fourthBarrelButton;
+        public object _inRange;
+        public object _tilt;
+        public object _twist;
+        public object _current;
+
         // ── Methods ──
         public void get_tip(){} // RVA: 0x1344890
         public void set_tip(){} // RVA: 0x1662780
@@ -37,6 +48,50 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PlayerInput : MonoBehaviour
     {
+        public object DeviceLostMessage;
+        public object DeviceRegainedMessage;
+        public object ControlsChangedMessage;
+        public object m_AllMapsHashCode;
+        public object m_Actions;
+        public object m_NotificationBehavior;
+        public object m_UIInputModule;
+        public object m_DeviceLostEvent;
+        public object m_DeviceRegainedEvent;
+        public object m_ControlsChangedEvent;
+        public object m_ActionEvents;
+        public object m_NeverAutoSwitchControlSchemes;
+        public object m_DefaultControlScheme;
+        public object m_DefaultActionMap;
+        public object m_SplitScreenIndex;
+        public object m_Camera;
+        public object m_InputValueObject;
+        public object m_CurrentActionMap;
+        public object m_PlayerIndex;
+        public object m_InputActive;
+        public object m_Enabled;
+        public object m_ActionsInitialized;
+        public object m_ActionMessageNames;
+        public object m_InputUser;
+        public object m_ActionTriggeredDelegate;
+        public object m_DeviceLostCallbacks;
+        public object m_DeviceRegainedCallbacks;
+        public object m_ControlsChangedCallbacks;
+        public object m_ActionTriggeredCallbacks;
+        public object m_UnpairedDeviceUsedDelegate;
+        public object m_PreFilterUnpairedDeviceUsedDelegate;
+        public object m_OnUnpairedDeviceUsedHooked;
+        public object m_DeviceChangeDelegate;
+        public object m_OnDeviceChangeHooked;
+        public object s_AllActivePlayersCount;
+        public object s_AllActivePlayers;
+        public object s_UserChangeDelegate;
+        public object s_InitPairWithDevicesCount;
+        public object s_InitPairWithDevices;
+        public object s_InitPlayerIndex;
+        public object s_InitSplitScreenIndex;
+        public object s_InitControlScheme;
+        public object s_DestroyIfDeviceSetupUnsuccessful;
+
         // ── Methods ──
         public void get_inputIsActive(){} // RVA: 0x6DE6270
         public void get_active(){} // RVA: 0x6DE6270
@@ -123,6 +178,28 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PlayerInputManager : MonoBehaviour
     {
+        public object PlayerJoinedMessage;
+        public object PlayerLeftMessage;
+        public object _instance;
+        public object m_NotificationBehavior;
+        public object m_MaxPlayerCount;
+        public object m_AllowJoining;
+        public object m_JoinBehavior;
+        public object m_PlayerJoinedEvent;
+        public object m_PlayerLeftEvent;
+        public object m_JoinAction;
+        public object m_PlayerPrefab;
+        public object m_SplitScreen;
+        public object m_MaintainAspectRatioInSplitScreen;
+        public object m_FixedNumberOfSplitScreens;
+        public object m_SplitScreenRect;
+        public object m_JoinActionDelegateHooked;
+        public object m_UnpairedDeviceUsedDelegateHooked;
+        public object m_JoinActionDelegate;
+        public object m_UnpairedDeviceUsedDelegate;
+        public object m_PlayerJoinedCallbacks;
+        public object m_PlayerLeftCallbacks;
+
         // ── Methods ──
         public void get_splitScreen(){} // RVA: 0xB6B1A0
         public void set_splitScreen(){} // RVA: 0x78E31F0
@@ -169,6 +246,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Pointer : InputDevice
     {
+        public object _position;
+        public object _delta;
+        public object _radius;
+        public object _pressure;
+        public object _press;
+        public object _displayIndex;
+        public object _current;
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x13659D0
         public void set_position(){} // RVA: 0x166D270
@@ -217,6 +302,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class PressureSensor : Sensor
     {
+        public object _atmosphericPressure;
+        public object _current;
+
         // ── Methods ──
         public void get_atmosphericPressure(){} // RVA: 0x13659D0
         public void set_atmosphericPressure(){} // RVA: 0x166D270
@@ -230,6 +318,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class ProximitySensor : Sensor
     {
+        public object _distance;
+        public object _current;
+
         // ── Methods ──
         public void get_distance(){} // RVA: 0x13659D0
         public void set_distance(){} // RVA: 0x166D270

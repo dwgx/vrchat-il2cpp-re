@@ -78,6 +78,12 @@ namespace VRC.SDKBase
 
     public class InputManager : Object
     {
+        public object _IsUsingHandController;
+        public object _GetLastUsedInputMethod;
+        public object _GetInputSetting;
+        public object _SetInputSetting;
+        public object _EnableObjectHighlight;
+
         // ── Methods ──
         public void IsUsingHandController(){} // RVA: 0xA74A620
         public void GetLastUsedInputMethod(){} // RVA: 0xA74A680
@@ -88,6 +94,11 @@ namespace VRC.SDKBase
 
     public class MathUtil : Object
     {
+        public object PI;
+        public object TWO_PI;
+        public object HALF_PI;
+        public object QUARTER_PI;
+
         // ── Methods ──
         public void AngleBetweenTwoUnitVectors(){} // RVA: 0xA726AC0
         public void AngleClosestBetweenTwoUnitVectors(){} // RVA: 0xA0C0C00
@@ -100,6 +111,41 @@ namespace VRC.SDKBase
 
     public class Networking : Object
     {
+        public object _GetSimulationTime;
+        public object _GetUniqueName;
+        public object _RPC;
+        public object _RPCtoPlayer;
+        public object _IsNetworkSettled;
+        public object _IsMaster;
+        public object _IsSuffering;
+        public object _IsInstanceOwner;
+        public object _LocalPlayer;
+        public object _GetMaster;
+        public object _GetInstanceOwner;
+        public object _IsOwner;
+        public object _SetOwner;
+        public object _IsObjectReady;
+        public object _Instantiate;
+        public object _GetOwner;
+        public object _ParameterEncoder;
+        public object _ParameterDecoder;
+        public object _Destroy;
+        public object _SceneEventHandler;
+        public object _GoToRoom;
+        public object _GetNetworkDateTime;
+        public object _GetServerTimeInSeconds;
+        public object _GetServerTimeInMilliseconds;
+        public object _CalculateServerDeltaTime;
+        public object _SafeStartCoroutine;
+        public object _GetEventDispatcher;
+        public object _GetPlayerPersistence;
+        public object _GetPlayerDataStorageUsage;
+        public object _GetPlayerObjectStorageUsage;
+        public object _GetPlayerDataStorageLimit;
+        public object _GetPlayerObjectStorageLimit;
+        public object _FindComponentInPlayerObjects;
+        public object _RequestStorageUsageUpdate;
+
         // ── Methods ──
         public void get_SceneEventHandler(){} // RVA: 0xA725970
         public void get_IsNetworkSettled(){} // RVA: 0xA7259D0
@@ -138,6 +184,11 @@ namespace VRC.SDKBase
 
     public class RPC : Attribute
     {
+        public object allowedTargets;
+        public object shortCode;
+        public object playerRateLimit;
+        public object globalRateLimit;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7255C0
         public void SetupTargets(){} // RVA: 0xA7255E0
@@ -171,6 +222,11 @@ namespace VRC.SDKBase
 
     public class Tutorial : Object
     {
+        public object _ActivateObjectLabel;
+        public object _DeactivateObjectLabel;
+        public object _ActivateControllerLabel;
+        public object _DeactivateControllerLabel;
+
         // ── Methods ──
         public void ActivateAreaMarkerLabel(){} // RVA: 0xA744D50
         public void ActivateObjectLabel(){} // RVA: 0xA744F60
@@ -182,6 +238,8 @@ namespace VRC.SDKBase
 
     public class Utilities : Object
     {
+        public object _isClient;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xA752AD0
         public void ShuffleArray(){} // RVA: 0xA752C20
@@ -192,6 +250,13 @@ namespace VRC.SDKBase
 
     public class VRCBuiltInShaderGlobals : MonoBehaviour
     {
+        public object _vrcTimeUTCUnixSecondsID;
+        public object _vrcTimeNetworkMsID;
+        public object _vrcTimeEncoded1ID;
+        public object _vrcTimeEncoded2ID;
+        public object _instance;
+        public object _getPreferredTimezoneDelegate;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0xA72A590
         public void set_Instance(){} // RVA: 0xA72A5F0
@@ -213,6 +278,8 @@ namespace VRC.SDKBase
 
     public class VRCDroneApi : Object
     {
+        public object _GetDroneFromGameObject;
+
         // ── Methods ──
         public void TryGetDroneFromGameObject(){} // RVA: 0xA725180
         public void GetPlayer(){} // RVA: 0x87C0A0
@@ -230,6 +297,8 @@ namespace VRC.SDKBase
 
     public class VRCGraphics : Object
     {
+        public object _uiLayerMaskLazy;
+
         // ── Methods ──
         public void get_UiLayerMask(){} // RVA: 0xA72B7A0
         public void Blit(){} // RVA: 0xA72BE80
@@ -241,6 +310,109 @@ namespace VRC.SDKBase
 
     public class VRCPlayerApi : Object
     {
+        public object _isMasterDelegate;
+        public object _isInstanceOwnerDelegate;
+        public object _isModeratorDelegate;
+        public object _isSuperDelegate;
+        public object _isSuspendedDelegate;
+        public object _isVRCPlusDelegate;
+        public object isLocal;
+        public object displayName;
+        public object SetAnimatorBool;
+        public object ClaimNetworkControl;
+        public object GetLookRay;
+        public object IsGrounded;
+        public object _GetDroneApi;
+        public object sPlayers;
+        public object mPlayerId;
+        public object _GetPlayerId;
+        public object _GetPlayerByGameObject;
+        public object _GetPlayerById;
+        public object _IsOwner;
+        public object _TakeOwnership;
+        public object _GetTrackingData;
+        public object _GetBoneTransform;
+        public object _GetBonePosition;
+        public object _GetBoneRotation;
+        public object _GetPickupInHand;
+        public object _PlayHapticEventInHand;
+        public object _TeleportTo;
+        public object _TeleportToOrientation;
+        public object _TeleportToOrientationLerp;
+        public object _Respawn;
+        public object _RespawnWithIndex;
+        public object _EnablePickups;
+        public object _GetAvailableLanguages;
+        public object _GetCurrentLanguage;
+        public object _SetNamePlateColor;
+        public object _RestoreNamePlateColor;
+        public object _SetNamePlateVisibility;
+        public object _RestoreNamePlateVisibility;
+        public object _SetPlayerTag;
+        public object _GetPlayerTag;
+        public object _GetPlayersWithTag;
+        public object _ClearPlayerTags;
+        public object _SetInvisibleToTagged;
+        public object _SetInvisibleToUntagged;
+        public object _SetSilencedToTagged;
+        public object _SetSilencedToUntagged;
+        public object _ClearInvisible;
+        public object _ClearSilence;
+        public object _SetRunSpeed;
+        public object _SetWalkSpeed;
+        public object _SetStrafeSpeed;
+        public object _SetJumpImpulse;
+        public object _SetGravityStrength;
+        public object _GetRunSpeed;
+        public object _GetWalkSpeed;
+        public object _GetStrafeSpeed;
+        public object _GetJumpImpulse;
+        public object _GetGravityStrength;
+        public object _SetVoiceGain;
+        public object _SetVoiceDistanceNear;
+        public object _SetVoiceDistanceFar;
+        public object _SetVoiceVolumetricRadius;
+        public object _SetVoiceLowpass;
+        public object _GetVoiceGain;
+        public object _GetVoiceDistanceNear;
+        public object _GetVoiceDistanceFar;
+        public object _GetVoiceVolumetricRadius;
+        public object _GetVoiceLowpass;
+        public object _SetAvatarAudioGain;
+        public object _SetAvatarAudioFarRadius;
+        public object _SetAvatarAudioNearRadius;
+        public object _SetAvatarAudioVolumetricRadius;
+        public object _SetAvatarAudioForceSpatial;
+        public object _SetAvatarAudioCustomCurve;
+        public object _CombatSetup;
+        public object _CombatSetMaxHitpoints;
+        public object _CombatSetCurrentHitpoints;
+        public object _CombatGetCurrentHitpoints;
+        public object _CombatSetRespawn;
+        public object _CombatSetDamageGraphic;
+        public object _CombatGetDestructible;
+        public object _IsUserInVR;
+        public object _UseLegacyLocomotion;
+        public object _UseAttachedStation;
+        public object _PushAnimations;
+        public object _PopAnimations;
+        public object _Immobilize;
+        public object _SetVelocity;
+        public object _GetVelocity;
+        public object _GetPosition;
+        public object _GetRotation;
+        public object gameObject;
+        public object _isValid;
+        public object _GetAvatarEyeHeightAsMeters;
+        public object _GetAvatarEyeHeightMaximumAsMeters;
+        public object _GetAvatarEyeHeightMinimumAsMeters;
+        public object _GetManualAvatarScalingAllowed;
+        public object _SetAvatarEyeHeightByMeters;
+        public object _SetAvatarEyeHeightByMultiplier;
+        public object _SetAvatarEyeHeightMaximumByMeters;
+        public object _SetAvatarEyeHeightMinimumByMeters;
+        public object _SetManualAvatarScalingAllowed;
+
         // ── Methods ──
         public void get_isMaster(){} // RVA: 0xA71AFF0
         public void get_isInstanceOwner(){} // RVA: 0xA71B070
@@ -368,6 +540,9 @@ namespace VRC.SDKBase
 
     public class VRCRenderTexture : Object
     {
+        public object OnGetTemporaryRenderTexture;
+        public object OnReleaseTemporaryRenderTexture;
+
         // ── Methods ──
         public void add_OnGetTemporaryRenderTexture(){} // RVA: 0xA72CD80
         public void remove_OnGetTemporaryRenderTexture(){} // RVA: 0xA72CEB0
@@ -379,6 +554,10 @@ namespace VRC.SDKBase
 
     public class VRCShader : Object
     {
+        public object OnSetGlobalShaderVariable;
+        public object _globalVariableIDWhitelist;
+        public object _variableNameWhitelist;
+
         // ── Methods ──
         public void add_OnSetGlobalShaderVariable(){} // RVA: 0xA72D4B0
         public void remove_OnSetGlobalShaderVariable(){} // RVA: 0xA72D610
@@ -399,6 +578,18 @@ namespace VRC.SDKBase
 
     public class VRCStation : MonoBehaviour
     {
+        public object PlayerMobility;
+        public object canUseStationFromStation;
+        public object animatorController;
+        public object disableStationExit;
+        public object seated;
+        public object stationEnterPlayerLocation;
+        public object stationExitPlayerLocation;
+        public object controlsObject;
+        public object Initialize;
+        public object useStationDelegate;
+        public object exitStationDelegate;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA72E7F0
         public void UseStation(){} // RVA: 0xA72E850
@@ -428,6 +619,10 @@ namespace VRC.SDKBase
 
     public class VRCTriggerRelay : MonoBehaviour
     {
+        public object Initialize;
+        public object triggersInside;
+        public object currentIdx;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA746610
         public void OnTriggerEnter(){} // RVA: 0xA746670
@@ -437,6 +632,11 @@ namespace VRC.SDKBase
 
     public class VRCUrl : Object
     {
+        public object _empty;
+        public object _domainExplicitAllowlistDelegate;
+        public object _domainWildcardAllowlistDelegate;
+        public object url;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0xA746940
         public void TryCreateAllowlistedVRCUrl(){} // RVA: 0xA7469A0
@@ -476,6 +676,14 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorLayerControl : StateMachineBehaviour
     {
+        public object playable;
+        public object layer;
+        public object goalWeight;
+        public object blendDuration;
+        public object debugString;
+        public object Initialize;
+        public object ApplySettings;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA720A40
         public void OnStateEnter(){} // RVA: 0x624FD50
@@ -484,6 +692,11 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorLocomotionControl : StateMachineBehaviour
     {
+        public object disableLocomotion;
+        public object debugString;
+        public object Initialize;
+        public object ApplySettings;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA720AA0
         public void OnStateEnter(){} // RVA: 0x7158F20
@@ -492,6 +705,29 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorPlayAudio : StateMachineBehaviour
     {
+        public object Source;
+        public object SourcePath;
+        public object PlaybackOrder;
+        public object ParameterName;
+        public object Volume;
+        public object VolumeApplySettings;
+        public object Pitch;
+        public object PitchApplySettings;
+        public object Clips;
+        public object ClipsApplySettings;
+        public object Loop;
+        public object LoopApplySettings;
+        public object DelayInSeconds;
+        public object PlayOnEnter;
+        public object StopOnEnter;
+        public object PlayOnExit;
+        public object StopOnExit;
+        public object playbackIndex;
+        public object destParam;
+        public object Initialize;
+        public object EnterState;
+        public object ExitState;
+
         // ── Methods ──
         public void get_ShouldApplyVolume(){} // RVA: 0xA720B00
         public void get_ShouldApplyPitch(){} // RVA: 0xA720B40
@@ -506,6 +742,15 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorTemporaryPoseSpace : StateMachineBehaviour
     {
+        public object enterPoseSpace;
+        public object fixedDelay;
+        public object delayTime;
+        public object debugString;
+        public object Initialize;
+        public object ApplySettings;
+        public object applied;
+        public object enterTime;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA720CF0
         public void OnStateEnter(){} // RVA: 0xA720D50
@@ -515,6 +760,20 @@ namespace VRC.SDKBase
 
     public class VRC_AnimatorTrackingControl : StateMachineBehaviour
     {
+        public object trackingHead;
+        public object trackingLeftHand;
+        public object trackingRightHand;
+        public object trackingHip;
+        public object trackingLeftFoot;
+        public object trackingRightFoot;
+        public object trackingLeftFingers;
+        public object trackingRightFingers;
+        public object trackingEyes;
+        public object trackingMouth;
+        public object debugString;
+        public object Initialize;
+        public object ApplySettings;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA720E80
         public void OnStateEnter(){} // RVA: 0x76ACF00
@@ -523,6 +782,23 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarDescriptor : MonoBehaviour
     {
+        public object Name;
+        public object ViewPosition;
+        public object Animations;
+        public object ScaleIPD;
+        public object lipSync;
+        public object lipSyncJawBone;
+        public object lipSyncJawClosed;
+        public object lipSyncJawOpen;
+        public object VisemeSkinnedMesh;
+        public object MouthOpenBlendShapeName;
+        public object VisemeBlendShapes;
+        public object apiAvatar;
+        public object unityVersion;
+        public object portraitCameraPositionOffset;
+        public object portraitCameraRotationOffset;
+        public object networkIDs;
+
         // ── Methods ──
         public void OnDrawGizmosSelected(){} // RVA: 0xA720EE0
         public void PositionPortraitCamera(){} // RVA: 0xA721210
@@ -536,6 +812,14 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarParameterDriver : StateMachineBehaviour
     {
+        public object parameters;
+        public object localOnly;
+        public object debugString;
+        public object isLocalPlayer;
+        public object isEnabled;
+        public object initialized;
+        public object OnApplySettings;
+
         // ── Methods ──
         public void OnStateEnter(){} // RVA: 0xA721C90
         public void .ctor(){} // RVA: 0xA6D0560
@@ -563,6 +847,16 @@ namespace VRC.SDKBase
 
     public class VRC_AvatarPedestal : VRCNetworkBehaviour
     {
+        public object blueprintId;
+        public object grantBlueprintAccess;
+        public object Placement;
+        public object ChangeAvatarsOnUse;
+        public object scale;
+        public object OnReceiveAvatarImage;
+        public object avatarImage;
+        public object Instance;
+        public object Instantiate;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA726E00
         public void SwitchAvatar(){} // RVA: 0xA6E79D0
@@ -572,6 +866,13 @@ namespace VRC.SDKBase
 
     public class VRC_DataStorage : VRCNetworkBehaviour
     {
+        public object data;
+        public object Initialize;
+        public object Serialize;
+        public object Deserialize;
+        public object ElementChanged;
+        public object _GetElementIndex;
+
         // ── Methods ──
         public void GetElementIndex(){} // RVA: 0xA7476F0
         public void GetElement(){} // RVA: 0xA747760
@@ -584,6 +885,31 @@ namespace VRC.SDKBase
 
     public class VRC_DestructibleStandard : MonoBehaviour
     {
+        public object maxHealth;
+        public object currentHealth;
+        public object healable;
+        public object damageEvent;
+        public object destroyEvent;
+        public object healEvent;
+        public object fullHealthEvent;
+        public object onDamagedTrigger;
+        public object onDamagedEvent;
+        public object onDestructedTrigger;
+        public object onDestructedEvent;
+        public object onHealedTrigger;
+        public object onHealedEvent;
+        public object onFullHealedTrigger;
+        public object onFullHealedEvent;
+        public object spawnerOnDamagedTrigger;
+        public object spawnerOnDamagedEvent;
+        public object spawnerOnDestructedTrigger;
+        public object spawnerOnDestructedEvent;
+        public object spawnerOnHealedTrigger;
+        public object spawnerOnHealedEvent;
+        public object spawnerOnFullHealedTrigger;
+        public object spawnerOnFullHealedEvent;
+        public object eventHandler;
+
         // ── Methods ──
         public void GetMaxHealth(){} // RVA: 0xB6B200
         public void GetCurrentHealth(){} // RVA: 0xCBAD90
@@ -625,6 +951,13 @@ namespace VRC.SDKBase
 
     public class VRC_EventHandler : VRCNetworkBehaviour
     {
+        public object Events;
+        public object _dispatcher;
+        public object GetInstigatorId;
+        public object LogEvent;
+        public object deferredEvents;
+        public object DeferredEventProcessor;
+
         // ── Methods ──
         public void BooleanOp(){} // RVA: 0xA747A60
         public void get_Dispatcher(){} // RVA: 0xA747A80
@@ -667,12 +1000,27 @@ namespace VRC.SDKBase
 
     public class VRC_GunStats : MonoBehaviour
     {
+        public object rateOfFire;
+        public object damage;
+        public object fullAuto;
+        public object muzzleEffect;
+        public object muzzleAudio;
+        public object fireAudio;
+        public object reloadAudio;
+        public object hitEffects;
+        public object leftHandContact;
+        public object leftHandPositionOnly;
+        public object clipSize;
+        public object EmptyClipFire;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA692A70
     }
 
     public class VRC_IKFollower : MonoBehaviour
     {
+        public object Initialize;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA74A5C0
         public void .ctor(){} // RVA: 0xB43D60
@@ -680,6 +1028,13 @@ namespace VRC.SDKBase
 
     public class VRC_Interactable : VRCNetworkBehaviour
     {
+        public object interactTextPlacement;
+        public object interactText;
+        public object interactTextGO;
+        public object proximity;
+        public object Initialize;
+        public object CheckValid;
+
         // ── Methods ──
         public void get_IsInteractive(){} // RVA: 0xB43320
         public void get_Proximity(){} // RVA: 0x11E18C0
@@ -716,6 +1071,14 @@ namespace VRC.SDKBase
 
     public class VRC_KeyEvents : MonoBehaviour
     {
+        public object Key;
+        public object DownEventName;
+        public object UpEventName;
+        public object LocalOnly;
+        public object BroadcastType;
+        public object Handler;
+        public object Initialize;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA721D10
         public void Update(){} // RVA: 0xA721FB0
@@ -728,12 +1091,18 @@ namespace VRC.SDKBase
 
     public class VRC_Label : MonoBehaviour
     {
+        public object label;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA69FB20
     }
 
     public class VRC_MetadataListener : MonoBehaviour
     {
+        public object callbacks;
+        public object metadataUpdate;
+        public object _GetCurrentMetadata;
+
         // ── Methods ──
         public void get_currentMetadata(){} // RVA: 0xA72E930
         public void Awake(){} // RVA: 0xA72E990
@@ -745,6 +1114,12 @@ namespace VRC.SDKBase
 
     public class VRC_MidiNoteIn : MonoBehaviour
     {
+        public object channel;
+        public object note;
+        public object OnNoteOn;
+        public object OnNoteOff;
+        public object Initialize;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA726A00
         public void Start(){} // RVA: 0xB43310
@@ -774,6 +1149,36 @@ namespace VRC.SDKBase
 
     public class VRC_MirrorReflection : MonoBehaviour
     {
+        public object VRC_MIRROR_CAMERA_POS_PROPERTY;
+        public object VRC_MIRROR_MODE_PROPERTY;
+        public object m_DisablePixelLights;
+        public object TurnOffMirrorOcclusion;
+        public object m_ReflectLayers;
+        public object mirrorResolution;
+        public object maximumAntialiasing;
+        public object customShader;
+        public object MirrorQualityOverride;
+        public object PreRenderMirror;
+        public object PreRenderMirrorLate;
+        public object PostRenderMirror;
+        public object _currentlyRenderingMirror;
+        public object _currentMirrorCenterEyePos;
+        public object allowCustomMirrorShaders;
+        public object _temporaryRenderTexture;
+        public object _mReflections;
+        public object _mirrorRenderer;
+        public object _mirrorRendererMaterialInstance;
+        public object _mirrorCamera;
+        public object _mirrorSkybox;
+        public object _parentTransform;
+        public object _parentRotation;
+        public object _playerLocalLayer;
+        public object _texturePropertyId;
+        public object MAX_AUTO_VR_RESOLUTION;
+        public object MAX_AUTO_DESKTOP_RESOLUTION;
+        public object MAX_AUTO_RESOLUTION_UNLIMITER;
+        public object _frustumPlanes;
+
         // ── Methods ──
         public void add_PreRenderMirror(){} // RVA: 0xA72ECF0
         public void remove_PreRenderMirror(){} // RVA: 0xA72EE40
@@ -821,6 +1226,13 @@ namespace VRC.SDKBase
 
     public class VRC_NPCSpawn : MonoBehaviour
     {
+        public object npcName;
+        public object blueprintId;
+        public object customAnimation;
+        public object scale;
+        public object Initialize;
+        public object npcGameObject;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA727510
         public void .ctor(){} // RVA: 0xA693360
@@ -828,6 +1240,14 @@ namespace VRC.SDKBase
 
     public class VRC_NpcApi : MonoBehaviour
     {
+        public object Initialize;
+        public object _GetApiByGameObject;
+        public object _SetNamePlate;
+        public object _SetSocialStatus;
+        public object _SetMuteStatus;
+        public object _ActThis;
+        public object _SayThis;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA7226C0
         public void GetApiByGameObject(){} // RVA: 0xA722720
@@ -848,6 +1268,11 @@ namespace VRC.SDKBase
 
     public class VRC_ObjectSpawn : MonoBehaviour
     {
+        public object ObjectPrefab;
+        public object Initialize;
+        public object Instantiate;
+        public object ReapObjects;
+
         // ── Methods ──
         public void SpawnObject(){} // RVA: 0xA7277A0
         public void DestroySpawnedObjects(){} // RVA: 0x26AD980
@@ -858,6 +1283,11 @@ namespace VRC.SDKBase
 
     public class VRC_OscButtonIn : MonoBehaviour
     {
+        public object address;
+        public object OnButtonOn;
+        public object OnButtonOff;
+        public object Initialize;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA726A60
         public void Start(){} // RVA: 0xB43310
@@ -887,6 +1317,12 @@ namespace VRC.SDKBase
 
     public class VRC_Panorama : MonoBehaviour
     {
+        public object renderer;
+        public object panoramas;
+        public object currentlyShown;
+        public object data;
+        public object dataIndex;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA7373A0
         public void Update(){} // RVA: 0xA737590
@@ -899,6 +1335,9 @@ namespace VRC.SDKBase
 
     public class VRC_PhysicsRoot : MonoBehaviour
     {
+        public object PhysicsRoot;
+        public object PhysicsObjects;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA722B20
         public void OnDestroy(){} // RVA: 0xA723440
@@ -907,6 +1346,34 @@ namespace VRC.SDKBase
 
     public class VRC_Pickup : VRCNetworkBehaviour
     {
+        public object MomentumTransferMethod;
+        public object DisallowTheft;
+        public object ExactGun;
+        public object ExactGrip;
+        public object allowManipulationWhenEquipped;
+        public object orientation;
+        public object AutoHold;
+        public object InteractionText;
+        public object UseText;
+        public object useEventBroadcastType;
+        public object UseDownEventName;
+        public object UseUpEventName;
+        public object pickupDropEventBroadcastType;
+        public object PickupEventName;
+        public object DropEventName;
+        public object ThrowVelocityBoostMinSpeed;
+        public object ThrowVelocityBoostScale;
+        public object currentlyHeldBy;
+        public object currentLocalPlayer;
+        public object pickupable;
+        public object proximity;
+        public object OnAwake;
+        public object ForceDrop;
+        public object OnDestroyed;
+        public object HapticEvent;
+        public object _GetPickupHand;
+        public object _GetCurrentPlayer;
+
         // ── Methods ──
         public void IsGlobalAutoHoldPickup(){} // RVA: 0xA727EA0
         public void get_currentPlayer(){} // RVA: 0xA727ED0
@@ -946,6 +1413,14 @@ namespace VRC.SDKBase
 
     public class VRC_PlayableLayerControl : StateMachineBehaviour
     {
+        public object layer;
+        public object goalWeight;
+        public object blendDuration;
+        public object debugString;
+        public object Initialize;
+        public object ApplySettings;
+        public object outputParamHash;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA723530
         public void OnStateEnter(){} // RVA: 0xA723590
@@ -954,6 +1429,21 @@ namespace VRC.SDKBase
 
     public class VRC_PortalMarker : MonoBehaviour
     {
+        public object world;
+        public object roomId;
+        public object customPortalName;
+        public object sortHeading;
+        public object sortOrder;
+        public object offset;
+        public object searchTerm;
+        public object tag;
+        public object useDefaultPresentation;
+        public object effectPrefabName;
+        public object Initialize;
+        public object roomName;
+        public object updateFlag;
+        public object initializedWithRoomId;
+
         // ── Methods ──
         public void RefreshPortal(){} // RVA: 0xCFDA90
         public void Awake(){} // RVA: 0xA728CE0
@@ -963,12 +1453,22 @@ namespace VRC.SDKBase
 
     public class VRC_PropApi : MonoBehaviour
     {
+        public object mountPoint;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43D60
     }
 
     public class VRC_PropController : MonoBehaviour
     {
+        public object controllingPlayer;
+        public object inputLeftAnalog;
+        public object inputRightAnalog;
+        public object inputUseButton;
+        public object UpdateInputs;
+        public object Initialize;
+        public object Inputs;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA728DE0
         public void Update(){} // RVA: 0xA728E40
@@ -978,6 +1478,16 @@ namespace VRC.SDKBase
 
     public class VRC_PropDescriptor : MonoBehaviour
     {
+        public object apiProp;
+        public object unityVersion;
+        public object DynamicPrefabs;
+        public object sDynamicPrefabs;
+        public object DynamicMaterials;
+        public object sDynamicMaterials;
+        public object Initialize;
+        public object NetworkIDs;
+        public object _networkIDLookup;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA728FD0
         public void get_NetworkIDCollection(){} // RVA: 0xBC1B30
@@ -992,6 +1502,72 @@ namespace VRC.SDKBase
 
     public class VRC_SceneDescriptor : MonoBehaviour
     {
+        public object spawns;
+        public object spawnRadius;
+        public object spawnOrder;
+        public object spawnOrientation;
+        public object ReferenceCamera;
+        public object RespawnHeightY;
+        public object ObjectBehaviourAtRespawnHeight;
+        public object ForbidUserPortals;
+        public object interactThruLayers;
+        public object autoSpatializeAudioSources;
+        public object gravity;
+        public object layerCollisionArr;
+        public object capacity;
+        public object contentSex;
+        public object contentViolence;
+        public object contentGore;
+        public object contentOther;
+        public object releasePublic;
+        public object unityVersion;
+        public object udonProducts;
+        public object Name;
+        public object NSFW;
+        public object SpawnPosition;
+        public object SpawnLocation;
+        public object DrawDistance;
+        public object useAssignedLayers;
+        public object DynamicPrefabs;
+        public object sDynamicPrefabs;
+        public object DynamicMaterials;
+        public object sDynamicMaterials;
+        public object LightMapsNear;
+        public object LightMapsFar;
+        public object LightMode;
+        public object RenderAmbientEquatorColor;
+        public object RenderAmbientGroundColor;
+        public object RenderAmbientIntensity;
+        public object RenderAmbientLight;
+        public object RenderAmbientMode;
+        public object RenderAmbientProbe;
+        public object RenderAmbientSkyColor;
+        public object RenderFog;
+        public object RenderFogColor;
+        public object RenderFogMode;
+        public object RenderFogDensity;
+        public object RenderFogLinearStart;
+        public object RenderFogLinearEnd;
+        public object RenderHaloStrength;
+        public object RenderFlareFadeSpeed;
+        public object RenderFlareStrength;
+        public object RenderCustomReflection;
+        public object RenderDefaultReflectionMode;
+        public object RenderDefaultReflectionResolution;
+        public object RenderReflectionBounces;
+        public object RenderReflectionIntensity;
+        public object RenderSkybox;
+        public object NetworkIDs;
+        public object _networkIDLookup;
+        public object rootSceneGameObjectsBuffer;
+        public object Initialize;
+        public object apiWorld;
+        public object _instance;
+        public object _bundleUnityMajorVersion;
+        public object _scene;
+        public object portraitCameraPositionOffset;
+        public object portraitCameraRotationOffset;
+
         // ── Methods ──
         public void GetValidatedSpawnList(){} // RVA: 0xA7382A0
         public void GetPrefab(){} // RVA: 0xA738490
@@ -1019,10 +1595,6 @@ namespace VRC.SDKBase
     public class VRC_SceneDescriptor[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
         public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
         public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -1034,10 +1606,19 @@ namespace VRC.SDKBase
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
         public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
     }
 
     public class VRC_Serialization : Object
     {
+        public object _allowedTypes;
+        public object _allowedPluginTypes;
+        public object _allowPluginTypes;
+        public object _networkSurrogateSelector;
+
         // ── Methods ──
         public void get_AllowPluginTypes(){} // RVA: 0xA74AAF0
         public void set_AllowPluginTypes(){} // RVA: 0xA74AB50
@@ -1056,6 +1637,13 @@ namespace VRC.SDKBase
 
     public class VRC_SlideShow : MonoBehaviour
     {
+        public object autoplay;
+        public object shuffle;
+        public object images;
+        public object displayDuration;
+        public object imageMaterial;
+        public object showingImage;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA729E90
         public void ShowNextImage(){} // RVA: 0xA729F40
@@ -1067,6 +1655,15 @@ namespace VRC.SDKBase
 
     public class VRC_SpatialAudioSource : MonoBehaviour
     {
+        public object Gain;
+        public object Far;
+        public object Near;
+        public object VolumetricRadius;
+        public object EnableSpatialization;
+        public object UseAudioSourceVolumeCurve;
+        public object Initialize;
+        public object _source;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA71A530
         public void OnDrawGizmosSelected(){} // RVA: 0xA71A7A0
@@ -1075,6 +1672,8 @@ namespace VRC.SDKBase
 
     public class VRC_SpecialLayer : MonoBehaviour
     {
+        public object specialLayer;
+
         // ── Methods ──
         public void Apply(){} // RVA: 0xA73B3F0
         public void .ctor(){} // RVA: 0xB43D60
@@ -1102,6 +1701,8 @@ namespace VRC.SDKBase
 
     public class VRC_StereoObject : MonoBehaviour
     {
+        public object eye;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43D60
     }
@@ -1128,6 +1729,17 @@ namespace VRC.SDKBase
 
     public class VRC_TimedEvents : MonoBehaviour
     {
+        public object Repeat;
+        public object LowPeriodTime;
+        public object HighPeriodTime;
+        public object ResetOnEnable;
+        public object EventName;
+        public object BroadcastType;
+        public object EventFired;
+        public object Duration;
+        public object Timer;
+        public object Handler;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA73B5B0
         public void OnEnable(){} // RVA: 0xA73B780
@@ -1138,6 +1750,15 @@ namespace VRC.SDKBase
 
     public class VRC_Trigger : VRC_Interactable
     {
+        public object InitializeTrigger;
+        public object isHidden;
+        public object UsesAdvancedOptions;
+        public object TakesOwnershipIfNecessary;
+        public object DrawLines;
+        public object EditorGlobalTriggerLineMode;
+        public object Triggers;
+        public object ExecuteTrigger;
+
         // ── Methods ──
         public void TriggerCustom(){} // RVA: 0xA73BC30
         public void Trigger(){} // RVA: 0xA73BAA0
@@ -1168,6 +1789,15 @@ namespace VRC.SDKBase
 
     public class VRC_TriggerColliderEventTrigger : MonoBehaviour
     {
+        public object EnterEventName;
+        public object ExitEventName;
+        public object TriggerIndividuals;
+        public object layers;
+        public object Handler;
+        public object CollisionEnter;
+        public object CollisionExit;
+        public object currentOccupants;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA73EDC0
         public void OnTriggerEnter(){} // RVA: 0xA73EF80
@@ -1188,6 +1818,14 @@ namespace VRC.SDKBase
 
     public class VRC_TutorialAreaMarker : MonoBehaviour
     {
+        public object Text;
+        public object EnableDistance;
+        public object MaxVisibleDistance;
+        public object DisableWhenPlayerInRange;
+        public object _showingLabel;
+        public object _enabled;
+        public object _timeStarted;
+
         // ── Methods ──
         public void Enable(){} // RVA: 0x653CDE0
         public void Update(){} // RVA: 0xA7448E0
@@ -1197,6 +1835,15 @@ namespace VRC.SDKBase
 
     public class VRC_UiShape : MonoBehaviour
     {
+        public object GetEventCamera;
+        public object _rootCanvas;
+        public object _rootCanvasRectTransform;
+        public object AllowFocusView;
+        public object _uiCanvas;
+        public object _localRectTransform;
+        public object OnUiShapeInit;
+        public object OnUiShapeDestroy;
+
         // ── Methods ──
         public void get_RootCanvas(){} // RVA: 0xB700F0
         public void set_RootCanvas(){} // RVA: 0xB70100
@@ -1216,6 +1863,11 @@ namespace VRC.SDKBase
 
     public class VRC_UseEvents : VRC_Interactable
     {
+        public object EventName;
+        public object isHidden;
+        public object BroadcastType;
+        public object UpdateUse;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA73F200
         public void Start(){} // RVA: 0xA73F3F0
@@ -1226,6 +1878,14 @@ namespace VRC.SDKBase
 
     public class VRC_VisualDamage : MonoBehaviour
     {
+        public object fullDamageScale;
+        public object minDamageScale;
+        public object offset;
+        public object curve;
+        public object currentTime;
+        public object renderer;
+        public object initScale;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xA724670
         public void Start(){} // RVA: 0xA724700
@@ -1239,6 +1899,22 @@ namespace VRC.SDKBase
 
     public class VRC_Water : MonoBehaviour
     {
+        public object waterMode;
+        public object disablePixelLights;
+        public object textureSize;
+        public object clipPlaneOffset;
+        public object reflectLayers;
+        public object refractLayers;
+        public object TurnOffWaterOcclusion;
+        public object m_ReflectionCameras;
+        public object m_RefractionCameras;
+        public object m_ReflectionTexture;
+        public object m_RefractionTexture;
+        public object m_HardwareWaterSupport;
+        public object m_OldReflectionTextureSize;
+        public object m_OldRefractionTextureSize;
+        public object s_InsideWater;
+
         // ── Methods ──
         public void OnWillRenderObject(){} // RVA: 0xA73F9B0
         public void OnDisable(){} // RVA: 0xA740740
@@ -1254,6 +1930,31 @@ namespace VRC.SDKBase
 
     public class VRC_WebPanel : VRC_Interactable
     {
+        public object webRoot;
+        public object defaultUrl;
+        public object resolutionWidth;
+        public object resolutionHeight;
+        public object displayRegion;
+        public object interactive;
+        public object extraVideoScreens;
+        public object Initialize;
+        public object localOnly;
+        public object syncURI;
+        public object syncInput;
+        public object syncDisplayAndAudio;
+        public object cursor;
+        public object transparent;
+        public object station;
+        public object cookiesEnabled;
+        public object autoFormSubmit;
+        public object webData;
+        public object _NavigateTo;
+        public object _WebPanelForward;
+        public object _WebPanelBackward;
+        public object _WebPanelReload;
+        public object _ExecuteScript;
+        public object _BindCall;
+
         // ── Methods ──
         public void WebPanelForward(){} // RVA: 0xA742EE0
         public void WebPanelBackward(){} // RVA: 0xA742F10

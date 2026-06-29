@@ -7,6 +7,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 {
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void Purge(){} // RVA: 0x6279F50
         public void get_MaxCacheSize(){} // RVA: 0x6279240
@@ -23,6 +30,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void Purge(){} // RVA: 0x6279F50
         public void get_MaxCacheSize(){} // RVA: 0x6279240
@@ -39,6 +53,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void Purge(){} // RVA: 0x6279F50
         public void get_MaxCacheSize(){} // RVA: 0x6279240
@@ -55,6 +76,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void Purge(){} // RVA: 0x6279F50
         public void get_MaxCacheSize(){} // RVA: 0x6279240
@@ -71,6 +99,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void Purge(){} // RVA: 0x6279F50
         public void get_MaxCacheSize(){} // RVA: 0x6279240
@@ -87,6 +122,13 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class Cache`1 : Object
     {
+        public object FreeValuesLock;
+        public object IsNotificationReceiver;
+        public object FreeValues;
+        public object isFree;
+        public object maxCacheSize;
+        public object Value;
+
         // ── Methods ──
         public void get_MaxCacheSize(){} // RVA: 0x87CFE0
         public void set_MaxCacheSize(){} // RVA: 0x895710
@@ -103,6 +145,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class DoubleLookupDictionary`3 : Dictionary`2
     {
+        public object secondKeyComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void get_Item(){} // RVA: 0xA94080
@@ -117,6 +161,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class EmitUtilities : Object
     {
+        public object EngineAssembly;
+
         // ── Methods ──
         public void get_CanEmit(){} // RVA: 0xB43320
         public void EmitIsIllegalForMember(){} // RVA: 0x84E8EE0
@@ -145,6 +191,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class FastTypeComparer : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x84EA6A0
         public void GetHashCode(){} // RVA: 0xE8FE30
@@ -187,6 +235,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList : Object
     {
+        public object innerList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84EA770
         public void get_Count(){} // RVA: 0x84EA820
@@ -219,6 +269,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`1 : Object
     {
+        public object innerList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Count(){} // RVA: 0x87C130
@@ -254,6 +306,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ImmutableList`2 : Object
     {
+        public object innerList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Count(){} // RVA: 0x87C130
@@ -296,6 +350,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasFieldInfo : FieldInfo
     {
+        public object FAKE_NAME_SEPARATOR_STRING;
+        public object aliasedField;
+        public object mangledName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84EB5D0
         public void get_AliasedField(){} // RVA: 0xB5DBF0
@@ -315,6 +373,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasMethodInfo : MethodInfo
     {
+        public object FAKE_NAME_SEPARATOR_STRING;
+        public object aliasedMethod;
+        public object mangledName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84EB5D0
         public void get_AliasedMethod(){} // RVA: 0xB5DBF0
@@ -335,6 +397,10 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class MemberAliasPropertyInfo : PropertyInfo
     {
+        public object FakeNameSeparatorString;
+        public object aliasedProperty;
+        public object mangledName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84EB5D0
         public void get_AliasedProperty(){} // RVA: 0xB5DBF0
@@ -395,6 +461,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class ReferenceEqualityComparer`1 : Object
     {
+        public object Default;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA94080
         public void GetHashCode(){} // RVA: 0xA94080
@@ -411,6 +479,31 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class TypeExtensions : Object
     {
+        public object FloatEqualityComparerFunc;
+        public object DoubleEqualityComparerFunc;
+        public object QuaternionEqualityComparerFunc;
+        public object GenericConstraintsSatisfaction_LOCK;
+        public object GenericConstraintsSatisfactionInferredParameters;
+        public object GenericConstraintsSatisfactionResolvedMap;
+        public object GenericConstraintsSatisfactionProcessedParams;
+        public object GenericConstraintsSatisfactionTypesToCheck;
+        public object GenericConstraintsSatisfactionTypesToCheck_ToAdd;
+        public object GenericListInterface;
+        public object GenericCollectionInterface;
+        public object WeaklyTypedTypeCastDelegates_LOCK;
+        public object StronglyTypedTypeCastDelegates_LOCK;
+        public object WeaklyTypedTypeCastDelegates;
+        public object StronglyTypedTypeCastDelegates;
+        public object TwoLengthTypeArray_Cached;
+        public object GenericArgumentsContainsTypes_ArgsToCheckCached;
+        public object ReservedCSharpKeywords;
+        public object TypeNameAlternatives;
+        public object CachedNiceNames_LOCK;
+        public object CachedNiceNames;
+        public object VoidPointerType;
+        public object PrimitiveImplicitCasts;
+        public object ExplicitCastIntegrals;
+
         // ── Methods ──
         public void GetCachedNiceName(){} // RVA: 0x84DB6A0
         public void CreateNiceName(){} // RVA: 0x84DB910
@@ -470,6 +563,8 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityExtensions : Object
     {
+        public object UnityObjectCachedPtrFieldGetter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84E8C20
         public void SafeIsUnityNull(){} // RVA: 0x84E8DA0
@@ -477,6 +572,9 @@ namespace VRC.Udon.Serialization.OdinSerializer.Utilities
 
     public class UnityVersion : Object
     {
+        public object Major;
+        public object Minor;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84EBA40
         public void EnsureLoaded(){} // RVA: 0xB43310

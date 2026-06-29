@@ -1,21 +1,34 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 399
+// Methods: 366
 
 public class TEdge : Object
 {
+    public object Bot;
+    public object Curr;
+    public object Top;
+    public object Delta;
+    public object Dx;
+    public object PolyTyp;
+    public object Side;
+    public object WindDelta;
+    public object WindCnt;
+    public object WindCnt2;
+    public object OutIdx;
+    public object Next;
+    public object Prev;
+    public object NextInLML;
+    public object NextInAEL;
+    public object PrevInAEL;
+    public object NextInSEL;
+    public object PrevInSEL;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class TState : Object
-{
-    // ── Methods ──
-    public void V(){} // RVA: 0xD04C5C8
-}
-
-public class T[] : Array
+public class TEventType[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -35,8 +48,20 @@ public class T[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class TState : Object
+{
+    // ── Methods ──
+    public void V(){} // RVA: 0xD04C5C8
+}
+
 public class TableRange : ValueType
 {
+    public object Start;
+    public object End;
+    public object Count;
+    public object IndexStart;
+    public object IndexEnd;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8AB940
 }
@@ -63,280 +88,433 @@ public class TableRange[] : Array
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8954D0
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
-public class TagTypeInfo : Object
+public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
-    public void get_EqualityContract(){} // RVA: 0x7DC7BB0
-    public void .ctor(){} // RVA: 0x7DC7C30
-    public void ToString(){} // RVA: 0x7DC7CA0
-    public void PrintMembers(){} // RVA: 0x7DC7DE0
-    public void GetHashCode(){} // RVA: 0x7DC7FB0
-    public void Equals(){} // RVA: 0x7DC8220
+    public void .ctor(){} // RVA: 0x4BAF640
 }
 
-public class TagValue : Object
+public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
-    public void get_EqualityContract(){} // RVA: 0x7DC8410
-    public void .ctor(){} // RVA: 0x7DC84A0
-    public void get_StringValue(){} // RVA: 0x7DC8500
-    public void get_ColorValue(){} // RVA: 0x7DC8570
-    public void ToString(){} // RVA: 0x7DC85F0
-    public void PrintMembers(){} // RVA: 0xB43320
-    public void GetHashCode(){} // RVA: 0x7DC8730
-    public void Equals(){} // RVA: 0x7DC89B0
+    public void .ctor(){} // RVA: 0x4BAF640
 }
 
-public class TargetChild[] : Array
+public class TaskNode : Task`1
 {
+    public object Prev;
+    public object Next;
+
     // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0x69A4C60
+    public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x69A4CE0
+    public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0xB43310
+}
+
+public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
+{
+    public object _builder;
+    public object _accessed;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894290
+    public void GetCompletionResponsibility(){} // RVA: 0xA94080
 }
 
 public class TeleportDelegate : MulticastDelegate
@@ -350,6 +528,9 @@ public class TeleportDelegate : MulticastDelegate
 
 public class TextBackingContainer : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+
     // ── Methods ──
     public void get_Text(){} // RVA: 0x77900
     public void get_Capacity(){} // RVA: 0x318730
@@ -359,6 +540,15 @@ public class TextBackingContainer : ValueType
     public void set_Item(){} // RVA: 0x944B10
     public void .ctor(){} // RVA: 0x944B80
     public void Resize(){} // RVA: 0x944B90
+}
+
+public class TextHandleTuple : Object
+{
+    public object lastTimeUsed;
+    public object hashCode;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7C8BD30
 }
 
 public class TextOverflowProperty : InlineStyleEnumProperty`1
@@ -422,6 +612,11 @@ public class TextShadowProperty : InlineStyleTextShadowProperty
 
 public class TextureId : ValueType
 {
+    public object Empty;
+    public object Url;
+    public object FileName;
+    public object HashCode;
+
     // ── Methods ──
     public void get_IsValid(){} // RVA: 0x8E4D0
     public void .ctor(){} // RVA: 0x8E4F0
@@ -431,17 +626,11 @@ public class TextureId : ValueType
     public void .cctor(){} // RVA: 0x2661730
 }
 
-public class TextureInfo : LinkedPoolItem`1
-{
-    // ── Methods ──
-    public void Create(){} // RVA: 0x7E50380
-    public void Reset(){} // RVA: 0x7E503E0
-    public void .ctor(){} // RVA: 0x7E50470
-    public void .cctor(){} // RVA: 0x7E504A0
-}
-
 public class TextureProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -452,6 +641,9 @@ public class TextureProperty : Property`2
 
 public class TextureProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -460,20 +652,49 @@ public class TextureProperty : Property`2
     public void .ctor(){} // RVA: 0x80B3B40
 }
 
-public class ThrowObservable`1 : Object
+public class TickCallbackDelegate : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void Subscribe(){} // RVA: 0x87C540
+    public void .ctor(){} // RVA: 0xC3B2D0
+    public void Invoke(){} // RVA: 0xB9E010
+    public void BeginInvoke(){} // RVA: 0xC3B3A0
+    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
-public class Thumb : Object
+public class Time : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB8AE10
+    public void get_timeAsRational(){} // RVA: 0x7CA8400
+    public void .ctor(){} // RVA: 0xB43310
 }
 
-public class Thumb[] : Array
+public class TimeRange : ValueType
+{
+    public object Start;
+    public object End;
+
+    // ── Methods ──
+    public void get_IsEmpty(){} // RVA: 0x89450
+    public void Contains(){} // RVA: 0x7C550
+    public void get_Empty(){} // RVA: 0x25D9F20
+    public void Include(){} // RVA: 0x89460
+}
+
+public class TimelineInstance : Object
+{
+    public object _director;
+    public object _originalTimeUpdateMode;
+    public object _isControlling;
+    public object _isCapturing;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+    public void Is(){} // RVA: 0x6CE0A80
+    public void StartCapture(){} // RVA: 0x6CE0BC0
+    public void StopCapture(){} // RVA: 0x6CE0D30
+}
+
+public class TimelineInstance[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -493,42 +714,6 @@ public class Thumb[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class TickCallbackDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xC3B2D0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xC3B3A0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class TicksPerSecond : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x95EB50
-    public void Equals(){} // RVA: 0x95EB80
-    public void GetHashCode(){} // RVA: 0x95EC30
-    public void Simplify(){} // RVA: 0x7B48C90
-    public void Gcd(){} // RVA: 0x7B48D40
-    public void .cctor(){} // RVA: 0x7B48D70
-}
-
-public class Time : Object
-{
-    // ── Methods ──
-    public void get_timeAsRational(){} // RVA: 0x7CA8400
-    public void .ctor(){} // RVA: 0xB43310
-}
-
-public class TimeRange : ValueType
-{
-    // ── Methods ──
-    public void get_IsEmpty(){} // RVA: 0x89450
-    public void Contains(){} // RVA: 0x7C550
-    public void get_Empty(){} // RVA: 0x25D9F20
-    public void Include(){} // RVA: 0x89460
-}
-
 public class TimerComparer : ValueType
 {
     // ── Methods ──
@@ -536,40 +721,58 @@ public class TimerComparer : ValueType
     public void Compare(){} // RVA: 0x8C2200
 }
 
-public class ToCoroutineEnumerator : Object
+public class ToRemoveData : ValueType
 {
+    public object comp;
+    public object chainId;
+    public object executionGroup;
+    public object shape;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7767EB0
-    public void RunTask(){} // RVA: 0x7767F70
-    public void get_Current(){} // RVA: 0xDAC980
-    public void MoveNext(){} // RVA: 0x7768100
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0xB43310
+    public void .ctor(){} // RVA: 0x9CA150
 }
 
-public class ToCoroutineEnumerator`1 : Object
+public class ToRemoveData[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void RunTask(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0x87C0A0
-    public void MoveNext(){} // RVA: 0x87D280
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7EC40
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7ABD0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4700
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34D20
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7ABD0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ToUniTaskObserver`1 : Object
+public class ToggleEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x895C50
-    public void OnCanceled(){} // RVA: 0x894350
-    public void OnNext(){} // RVA: 0xA94080
-    public void OnError(){} // RVA: 0x894320
-    public void OnCompleted(){} // RVA: 0x894290
-    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x81045F0
 }
 
 public class Token : ValueType
 {
+    public object BoxedTrue;
+    public object BoxedFalse;
+    public object m_ArrayOrObject;
+    public object m_StringMemory;
+    public object m_StringInstance;
+    public object m_Number;
+    public object m_Boolean;
+    public object m_Type;
+    public object m_Flags;
+
     // ── Methods ──
+    public void FromObject(){} // RVA: 0x2C77D30
+    public void TryFromObject(){} // RVA: 0x2C7BC80
     public void get_Type(){} // RVA: 0xB1800
     public void get_IsNull(){} // RVA: 0xA71E10
     public void get_Boolean(){} // RVA: 0xA71E20
@@ -588,8 +791,6 @@ public class Token : ValueType
     public void TryGetObject(){} // RVA: 0xA722B0
     public void TryGetString(){} // RVA: 0xA72310
     public void TryGetStringInstance(){} // RVA: 0xA72440
-    public void TryFromObject(){} // RVA: 0x2C78480
-    public void FromObject(){} // RVA: 0x2C77FD0
     public void ToString(){} // RVA: 0xA724A0
     public void GetHashCode(){} // RVA: 0xA724B0
     public void ToLegacyObject(){} // RVA: 0xA724C0
@@ -599,6 +800,36 @@ public class Token : ValueType
     public void op_Equality(){} // RVA: 0xA4B1E20
     public void op_Inequality(){} // RVA: 0xA4B1EB0
     public void .cctor(){} // RVA: 0xA4B1F20
+}
+
+public class TokenHashValue : Object
+{
+    public object tokenString;
+    public object tokenType;
+    public object tokenValue;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x6269820
+}
+
+public class TokenHashValue[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class Token[] : Array
@@ -654,43 +885,27 @@ public class TrackingChangeHandler : MulticastDelegate
     // ── Methods ──
     public void .ctor(){} // RVA: 0x40E2AD0
     public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6F190D0
+    public void BeginInvoke(){} // RVA: 0x6F4EEC0
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
-public class TrackingChangeHandler : MulticastDelegate
+public class TrackingData : ValueType
 {
+    public object position;
+    public object rotation;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F62250
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6F22840
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void .ctor(){} // RVA: 0x6DE760
 }
 
 public class TransformNoiseParams : ValueType
 {
+    public object X;
+    public object Y;
+    public object Z;
+
     // ── Methods ──
     public void GetValueAt(){} // RVA: 0x89340
-}
-
-public class TransformNoiseParams[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7F2C0
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7AE10
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4AF0
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E35240
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7AE10
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class TransformOriginProperty : InlineStyleTransformOriginProperty
@@ -717,6 +932,8 @@ public class TransformOriginProperty : ResolvedVector3Property
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x8942F0
     public void Execute(){} // RVA: 0x89D2D0
@@ -725,6 +942,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F22CC0
     public void Execute(){} // RVA: 0x4F23000
@@ -733,6 +952,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F226F0
     public void Execute(){} // RVA: 0x4F22A30
@@ -741,6 +962,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F217F0
     public void Execute(){} // RVA: 0x4F21B30
@@ -749,6 +972,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F208D0
     public void Execute(){} // RVA: 0x4F20C10
@@ -757,6 +982,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F21DD0
     public void Execute(){} // RVA: 0x4F21B30
@@ -765,6 +992,8 @@ public class TransformParallelForLoopStruct`1 : ValueType
 
 public class TransformParallelForLoopStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4F22110
     public void Execute(){} // RVA: 0x4F22450
@@ -887,17 +1116,15 @@ public class TriggerEvent : UnityEvent
     public void .ctor(){} // RVA: 0x25DCF60
 }
 
-public class TrigonometricBone : Bone
+public class TriggerEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void Initiate(){} // RVA: 0xC60860
-    public void GetRotation(){} // RVA: 0xC60D80
-    public void GetBendNormalFromCurrentRotation(){} // RVA: 0xC60FA0
-    public void .ctor(){} // RVA: 0xC5B180
+    public void .ctor(){} // RVA: 0x81151D0
 }
 
-public class TypeCollections : Object
+public class TryCode : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0xA73E140
+    public void .ctor(){} // RVA: 0xBC4530
+    public void Invoke(){} // RVA: 0xB9E010
 }

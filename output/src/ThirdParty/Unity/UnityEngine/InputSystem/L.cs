@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class LightSensor : Sensor
     {
+        public object _lightLevel;
+        public object _current;
+
         // ── Methods ──
         public void get_lightLevel(){} // RVA: 0x13659D0
         public void set_lightLevel(){} // RVA: 0x166D270
@@ -20,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class LinearAccelerationSensor : Sensor
     {
+        public object _acceleration;
+        public object _current;
+
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0x13659D0
         public void set_acceleration(){} // RVA: 0x166D270

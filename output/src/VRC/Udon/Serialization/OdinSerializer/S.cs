@@ -30,6 +30,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializableFormatter`1 : BaseFormatter`1
     {
+        public object ISerializableConstructor;
+        public object ReflectionFormatter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void GetUninitializedObject(){} // RVA: 0xA94080
@@ -48,6 +51,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationConfig : Object
     {
+        public object LOCK;
+        public object serializationPolicy;
+        public object debugContext;
+        public object AllowDeserializeInvalidData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84ACEE0
         public void get_SerializationPolicy(){} // RVA: 0x84ACF70
@@ -59,6 +67,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationContext : Object
     {
+        public object config;
+        public object internalReferenceIdMap;
+        public object streamingContext;
+        public object formatterConverter;
+        public object binder;
+        public object _indexReferenceResolver;
+        public object _stringReferenceResolver;
+        public object _guidReferenceResolver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84AE080
         public void get_Binder(){} // RVA: 0x84AE320
@@ -84,6 +101,18 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationData : ValueType
     {
+        public object PrefabModificationsReferencedUnityObjectsFieldName;
+        public object PrefabModificationsFieldName;
+        public object PrefabFieldName;
+        public object SerializedFormat;
+        public object SerializedBytes;
+        public object ReferencedUnityObjects;
+        public object SerializedBytesString;
+        public object Prefab;
+        public object PrefabModificationsReferencedUnityObjects;
+        public object PrefabModifications;
+        public object SerializationNodes;
+
         // ── Methods ──
         public void get_HasEditorData(){} // RVA: 0x9DC830
         public void get_ContainsData(){} // RVA: 0x9DC9A0
@@ -92,6 +121,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationNodeDataReader : BaseDataReader
     {
+        public object peekedEntryName;
+        public object peekedEntryType;
+        public object peekedEntryData;
+        public object currentIndex;
+        public object nodes;
+        public object primitiveTypeReaders;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x848C7E0
         public void get_IndexIsValid(){} // RVA: 0x848D300
@@ -146,6 +182,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationNodeDataWriter : BaseDataWriter
     {
+        public object nodes;
+        public object primitiveTypeWriters;
+
         // ── Methods ──
         public void get_Nodes(){} // RVA: 0x8490960
         public void set_Nodes(){} // RVA: 0x8490A20
@@ -204,6 +243,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializationPolicies : Object
     {
+        public object LOCK;
+        public object everythingPolicy;
+        public object unityPolicy;
+        public object strictPolicy;
+
         // ── Methods ──
         public void TryGetByID(){} // RVA: 0x84AEBB0
         public void get_Everything(){} // RVA: 0x84AEE30
@@ -228,6 +272,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedBehaviour : Behaviour
     {
+        public object serializationData;
+
         // ── Methods ──
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x4092830
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x84CD520
@@ -240,6 +286,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedComponent : Component
     {
+        public object serializationData;
+
         // ── Methods ──
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x4092830
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x84CD520
@@ -252,6 +300,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedMonoBehaviour : MonoBehaviour
     {
+        public object serializationData;
+
         // ── Methods ──
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x5BE1D00
         public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x84CD770
@@ -264,6 +314,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedScriptableObject : ScriptableObject
     {
+        public object serializationData;
+
         // ── Methods ──
         public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x84CD8D0
         public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x84CD940
@@ -274,6 +326,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedStateMachineBehaviour : StateMachineBehaviour
     {
+        public object serializationData;
+
         // ── Methods ──
         public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x84CD9C0
         public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x84CDA30
@@ -284,6 +338,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class SerializedUnityObject : Object
     {
+        public object serializationData;
+
         // ── Methods ──
         public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x84CDAB0
         public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x84CDB20
@@ -294,6 +350,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Serializer : Object
     {
+        public object PrimitiveReaderWriterTypes;
+        public object LOCK;
+        public object Weak_ReaderWriterCache;
+        public object Strong_ReaderWriterCache;
+
         // ── Methods ──
         public void FireOnSerializedType(){} // RVA: 0xB43310
         public void GetForValue(){} // RVA: 0x84BB990
@@ -536,6 +597,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class StackFormatter`2 : BaseFormatter`1
     {
+        public object TSerializer;
+        public object IsPlainStack;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -554,6 +618,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class StrongBoxFormatter`1 : BaseFormatter`1
     {
+        public object TSerializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290

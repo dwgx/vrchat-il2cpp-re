@@ -7,207 +7,237 @@ namespace ThirdParty.DotNet.System.Text.Encodings.Web
 {
     public class AllowedBmpCodePointsBitmap : ValueType
     {
+        public object Bitmap;
+
         // ── Methods ──
-        public void AllowChar(){} // RVA: 0x7A7E6DE50
-        public void ForbidChar(){} // RVA: 0x7A7E6DE70
-        public void ForbidHtmlCharacters(){} // RVA: 0x7A7E6DE90
-        public void ForbidUndefinedCharacters(){} // RVA: 0x7A7E8CA80
-        public void IsCharAllowed(){} // RVA: 0x7A7E6DED0
-        public void IsCodePointAllowed(){} // RVA: 0x7A7E6DEF0
-        public void _GetIndexAndOffset(){} // RVA: 0x7AE0D91A0
+        public void AllowChar(){} // RVA: 0x8ECD10
+        public void ForbidChar(){} // RVA: 0x8ECD30
+        public void ForbidHtmlCharacters(){} // RVA: 0x8ECD50
+        public void ForbidUndefinedCharacters(){} // RVA: 0x90C670
+        public void IsCharAllowed(){} // RVA: 0x8ECD90
+        public void IsCodePointAllowed(){} // RVA: 0x8ECDB0
+        public void _GetIndexAndOffset(){} // RVA: 0x6D5A190
     }
 
     public class AllowedBmpCodePointsBitmap : ValueType
     {
+        public object Bitmap;
+
         // ── Methods ──
-        public void AllowChar(){} // RVA: 0x7A7E6DE50
-        public void ForbidChar(){} // RVA: 0x7A7E6DE70
-        public void ForbidHtmlCharacters(){} // RVA: 0x7A7E6DE90
-        public void ForbidUndefinedCharacters(){} // RVA: 0x7A7E6DEC0
-        public void IsCharAllowed(){} // RVA: 0x7A7E6DED0
-        public void IsCodePointAllowed(){} // RVA: 0x7A7E6DEF0
-        public void _GetIndexAndOffset(){} // RVA: 0x7AE0D91A0
+        public void AllowChar(){} // RVA: 0x8ECD10
+        public void ForbidChar(){} // RVA: 0x8ECD30
+        public void ForbidHtmlCharacters(){} // RVA: 0x8ECD50
+        public void ForbidUndefinedCharacters(){} // RVA: 0x8ECD80
+        public void IsCharAllowed(){} // RVA: 0x8ECD90
+        public void IsCodePointAllowed(){} // RVA: 0x8ECDB0
+        public void _GetIndexAndOffset(){} // RVA: 0x6D5A190
     }
 
     public class AsciiByteMap : ValueType
     {
+        public object Buffer;
+
         // ── Methods ──
-        public void InsertAsciiChar(){} // RVA: 0x7A7E6DE10
-        public void TryLookup(){} // RVA: 0x7A7E6DE30
+        public void InsertAsciiChar(){} // RVA: 0x8ECCD0
+        public void TryLookup(){} // RVA: 0x8ECCF0
     }
 
     public class AsciiByteMap : ValueType
     {
+        public object Buffer;
+
         // ── Methods ──
-        public void InsertAsciiChar(){} // RVA: 0x7A7E6DE10
-        public void TryLookup(){} // RVA: 0x7A7E6DE30
+        public void InsertAsciiChar(){} // RVA: 0x8ECCD0
+        public void TryLookup(){} // RVA: 0x8ECCF0
     }
 
     public class DefaultJavaScriptEncoder : JavaScriptEncoder
     {
+        public object BasicLatinSingleton;
+        public object UnsafeRelaxedEscapingSingleton;
+        public object _innerEncoder;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE625E00
-        public void EncodeCore(){} // RVA: 0x7AE626030
-        public void EncodeUtf8Core(){} // RVA: 0x7AE626090
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE626120
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7AE6261B0
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE6261E0
-        public void WillEncode(){} // RVA: 0x7AE626320
-        public void .cctor(){} // RVA: 0x7AE626380
+        public void .ctor(){} // RVA: 0x729CCA0
+        public void EncodeCore(){} // RVA: 0x729CED0
+        public void EncodeUtf8Core(){} // RVA: 0x729CF30
+        public void FindFirstCharacterToEncode(){} // RVA: 0x729CFC0
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x729D050
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x729D080
+        public void WillEncode(){} // RVA: 0x729D1C0
+        public void .cctor(){} // RVA: 0x729D220
     }
 
     public class DefaultJavaScriptEncoder : JavaScriptEncoder
     {
+        public object BasicLatinSingleton;
+        public object UnsafeRelaxedEscapingSingleton;
+        public object _innerEncoder;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0DA9D0
-        public void EncodeCore(){} // RVA: 0x7AE0DAD80
-        public void EncodeUtf8Core(){} // RVA: 0x7AE0DAE00
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE0DAEC0
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7AE0DAF70
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE0DB0C0
-        public void WillEncode(){} // RVA: 0x7AE0DB270
-        public void .cctor(){} // RVA: 0x7AE0DB2D0
+        public void .ctor(){} // RVA: 0x6D5B990
+        public void EncodeCore(){} // RVA: 0x6D5BD40
+        public void EncodeUtf8Core(){} // RVA: 0x6D5BDC0
+        public void FindFirstCharacterToEncode(){} // RVA: 0x6D5BE80
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x6D5BF30
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x6D5C080
+        public void WillEncode(){} // RVA: 0x6D5C230
+        public void .cctor(){} // RVA: 0x6D5C290
     }
 
     public class JavaScriptEncoder : TextEncoder
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AE627150
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x729DFF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class JavaScriptEncoder : TextEncoder
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AE0DC070
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x6D5D030
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class OptimizedInboxTextEncoder : Object
     {
+        public object _allowedAsciiCodePoints;
+        public object _asciiPreescapedData;
+        public object _allowedBmpCodePoints;
+        public object _scalarEscaper;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6249C0
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE624BC0
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE624C50
-        public void Encode(){} // RVA: 0x7AE624DA0
-        public void EncodeUtf8(){} // RVA: 0x7AE6251D0
-        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x7AE6256B0
-        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x7AE6258F0
-        public void IsScalarValueAllowed(){} // RVA: 0x7AE0DA550
-        public void _AssertThisNotNull(){} // RVA: 0x7AE625B00
+        public void .ctor(){} // RVA: 0x729B8B0
+        public void FindFirstCharacterToEncode(){} // RVA: 0x729BAB0
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x729BB40
+        public void Encode(){} // RVA: 0x729BC90
+        public void EncodeUtf8(){} // RVA: 0x729C0A0
+        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x729C580
+        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x729C7C0
+        public void IsScalarValueAllowed(){} // RVA: 0x6D5B540
+        public void _AssertThisNotNull(){} // RVA: 0x729C9D0
     }
 
     public class OptimizedInboxTextEncoder : Object
     {
+        public object _allowedAsciiCodePoints;
+        public object _asciiPreescapedData;
+        public object _allowedBmpCodePoints;
+        public object _scalarEscaper;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D91B0
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE0D93F0
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE0D9490
-        public void Encode(){} // RVA: 0x7AE0D9640
-        public void EncodeUtf8(){} // RVA: 0x7AE0D9C00
-        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x7AE0DA220
-        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x7AE0DA340
-        public void IsScalarValueAllowed(){} // RVA: 0x7AE0DA550
-        public void _AssertThisNotNull(){} // RVA: 0x7AE0DA580
+        public void .ctor(){} // RVA: 0x6D5A1A0
+        public void FindFirstCharacterToEncode(){} // RVA: 0x6D5A3E0
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x6D5A480
+        public void Encode(){} // RVA: 0x6D5A630
+        public void EncodeUtf8(){} // RVA: 0x6D5ABF0
+        public void GetIndexOfFirstByteToEncode(){} // RVA: 0x6D5B210
+        public void GetIndexOfFirstCharToEncode(){} // RVA: 0x6D5B330
+        public void IsScalarValueAllowed(){} // RVA: 0x6D5B540
+        public void _AssertThisNotNull(){} // RVA: 0x6D5B570
     }
 
     public class ScalarEscaperBase : Object
     {
         // ── Methods ──
-        public void EncodeUtf16(){} // RVA: 0x7A7E07D80
-        public void EncodeUtf8(){} // RVA: 0x7A7E07D80
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void EncodeUtf16(){} // RVA: 0x883740
+        public void EncodeUtf8(){} // RVA: 0x883740
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ScalarEscaperBase : Object
     {
         // ── Methods ──
-        public void EncodeUtf16(){} // RVA: 0x7A7E07D80
-        public void EncodeUtf8(){} // RVA: 0x7A7E07D80
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void EncodeUtf16(){} // RVA: 0x883740
+        public void EncodeUtf8(){} // RVA: 0x883740
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SpanUtility : Object
     {
         // ── Methods ──
-        public void IsValidIndex(){} // RVA: 0x7A8051B10
-        public void TryWriteUInt64LittleEndian(){} // RVA: 0x7AE0DBF90
-        public void AreValidIndexAndLength(){} // RVA: 0x7AE0DC050
+        public void IsValidIndex(){} // RVA: 0x29C1E00
+        public void TryWriteUInt64LittleEndian(){} // RVA: 0x729DF60
+        public void AreValidIndexAndLength(){} // RVA: 0x6D5D010
     }
 
     public class SpanUtility : Object
     {
         // ── Methods ──
-        public void IsValidIndex(){} // RVA: 0x7AA5965E0
-        public void TryWriteUInt64LittleEndian(){} // RVA: 0x7AE6270C0
-        public void AreValidIndexAndLength(){} // RVA: 0x7AE0DC050
+        public void IsValidIndex(){} // RVA: 0xA94080
+        public void TryWriteUInt64LittleEndian(){} // RVA: 0x6D5CF50
+        public void AreValidIndexAndLength(){} // RVA: 0x6D5D010
     }
 
     public class TextEncoder : Object
     {
         // ── Methods ──
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE6271B0
-        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x7AE627240
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE628230
-        public void WillEncode(){} // RVA: 0x7A7E01F00
-        public void EncodeUtf8(){} // RVA: 0x7AE627510
-        public void EncodeUtf8Core(){} // RVA: 0x7AE627820
-        public void Encode(){} // RVA: 0x7AE627B70
-        public void EncodeCore(){} // RVA: 0x7AE627E90
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7AE6282A0
-        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x7AE6284E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x729E050
+        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x729E0E0
+        public void FindFirstCharacterToEncode(){} // RVA: 0x729F270
+        public void WillEncode(){} // RVA: 0x87DD20
+        public void EncodeUtf8(){} // RVA: 0x729E450
+        public void EncodeUtf8Core(){} // RVA: 0x729E760
+        public void Encode(){} // RVA: 0x729EAB0
+        public void EncodeCore(){} // RVA: 0x729EDD0
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x729F2E0
+        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x729F520
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TextEncoder : Object
     {
         // ── Methods ──
-        public void TryEncodeUnicodeScalar(){} // RVA: 0x7AE0DC0D0
-        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x7AE0DC1A0
-        public void FindFirstCharacterToEncode(){} // RVA: 0x7AE0DD0B0
-        public void WillEncode(){} // RVA: 0x7A7E01F00
-        public void EncodeUtf8(){} // RVA: 0x7AE0DC590
-        public void EncodeUtf8Core(){} // RVA: 0x7AE0DC8A0
-        public void Encode(){} // RVA: 0x7AE0DCB70
-        public void EncodeCore(){} // RVA: 0x7AE0DCE80
-        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x7AE0DD160
-        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x7AE0DD280
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryEncodeUnicodeScalar(){} // RVA: 0x6D5D090
+        public void TryEncodeUnicodeScalarUtf8(){} // RVA: 0x6D5D160
+        public void FindFirstCharacterToEncode(){} // RVA: 0x6D5E070
+        public void WillEncode(){} // RVA: 0x87DD20
+        public void EncodeUtf8(){} // RVA: 0x6D5D550
+        public void EncodeUtf8Core(){} // RVA: 0x6D5D860
+        public void Encode(){} // RVA: 0x6D5DB30
+        public void EncodeCore(){} // RVA: 0x6D5DE40
+        public void FindFirstCharacterToEncodeUtf8(){} // RVA: 0x6D5E120
+        public void ThrowArgumentException_MaxOutputCharsPerInputChar(){} // RVA: 0x6D5E240
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TextEncoderSettings : Object
     {
+        public object _allowedCodePointsBitmap;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE628550
-        public void AllowRange(){} // RVA: 0x7AE628580
-        public void AllowRanges(){} // RVA: 0x7AE6285E0
-        public void GetAllowedCodePoints(){} // RVA: 0x7AE628660
-        public void GetAllowedCodePointsBitmap(){} // RVA: 0x7AE628710
+        public void .ctor(){} // RVA: 0x729F590
+        public void AllowRange(){} // RVA: 0x729F5C0
+        public void AllowRanges(){} // RVA: 0x729F620
+        public void GetAllowedCodePoints(){} // RVA: 0x729F6A0
+        public void GetAllowedCodePointsBitmap(){} // RVA: 0x729F750
     }
 
     public class TextEncoderSettings : Object
     {
+        public object _allowedCodePointsBitmap;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0DD2F0
-        public void AllowRange(){} // RVA: 0x7AE0DD370
-        public void AllowRanges(){} // RVA: 0x7AE0DD410
-        public void GetAllowedCodePoints(){} // RVA: 0x7AE0DD4D0
-        public void GetAllowedCodePointsBitmap(){} // RVA: 0x7AE0DD580
+        public void .ctor(){} // RVA: 0x6D5E2B0
+        public void AllowRange(){} // RVA: 0x6D5E330
+        public void AllowRanges(){} // RVA: 0x6D5E3D0
+        public void GetAllowedCodePoints(){} // RVA: 0x6D5E490
+        public void GetAllowedCodePointsBitmap(){} // RVA: 0x6D5E540
     }
 
     public class ThrowHelper : Object
     {
         // ── Methods ──
-        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7AE0DDA70
-        public void GetArgumentName(){} // RVA: 0x7AE0DDAD0
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x6D5E9D0
+        public void GetArgumentName(){} // RVA: 0x6D5EA30
     }
 
     public class ThrowHelper : Object
     {
         // ── Methods ──
-        public void ThrowArgumentNullException(){} // RVA: 0x7AE628B80
-        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7AE628BE0
-        public void GetArgumentName(){} // RVA: 0x7AE628C40
+        public void ThrowArgumentNullException(){} // RVA: 0x729FB30
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x729FB90
+        public void GetArgumentName(){} // RVA: 0x729FBF0
     }
 
 }

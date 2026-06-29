@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class ParticleCollisionEvent : ValueType
     {
+        public object m_Intersection;
+        public object m_Normal;
+        public object m_Velocity;
+        public object m_ColliderInstanceID;
+
         // ── Methods ──
         public void get_velocity(){} // RVA: 0x959BB0
         public void get_colliderComponent(){} // RVA: 0x9828C0
@@ -412,6 +417,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics : Object
     {
+        public object ContactModifyEvent;
+        public object ContactModifyEventCCD;
+        public object GenericContactModifyEvent;
+        public object ContactEvent;
+        public object s_ReusableCollision;
+
         // ── Methods ──
         public void OnSceneContactModify(){} // RVA: 0x7D22300
         public void PhysXOnSceneContactModify(){} // RVA: 0x7D223B0
@@ -513,6 +524,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Physics2D : Object
     {
+        public object m_LastDisabledRigidbody2D;
+
         // ── Methods ──
         public void get_defaultPhysicsScene(){} // RVA: 0x4005650
         public void get_velocityIterations(){} // RVA: 0x7CE3D50
@@ -782,6 +795,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsScene : ValueType
     {
+        public object m_index;
+        public object m_version;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x985960
         public void op_Equality(){} // RVA: 0x7D32B00
@@ -837,6 +853,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PhysicsScene2D : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x982F00
         public void op_Equality(){} // RVA: 0x7BF2630
@@ -990,6 +1008,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Plane : ValueType
     {
+        public object size;
+        public object m_Normal;
+        public object m_Distance;
+
         // ── Methods ──
         public void get_normal(){} // RVA: 0x45A590
         public void set_normal(){} // RVA: 0x45A580
@@ -1195,6 +1217,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Pose : ValueType
     {
+        public object position;
+        public object rotation;
+        public object k_Identity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DE760
         public void ToString(){} // RVA: 0x9666C0
@@ -1311,6 +1337,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PropertyAttribute : Attribute
     {
+        public object _applyToCollection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC120B0
     }
@@ -1337,6 +1365,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class PropertyName : ValueType
     {
+        public object id;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void IsNullOrEmpty(){} // RVA: 0x7BF2620

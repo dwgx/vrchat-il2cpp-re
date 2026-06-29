@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class AnimationState : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -31,6 +33,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimationStateT : Object
     {
+        public object _weight;
+        public object _time;
+        public object _name;
+
         // ── Methods ──
         public void get_Weight(){} // RVA: 0xC763E0
         public void set_Weight(){} // RVA: 0xC763F0
@@ -49,6 +55,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorBool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -62,6 +70,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorBoolT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC120A0
         public void set_Value(){} // RVA: 0xC120B0
@@ -70,6 +80,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorFloat : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -83,6 +95,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorFloatT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC763E0
         public void set_Value(){} // RVA: 0xC763F0
@@ -91,6 +105,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -104,6 +120,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorIntT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB8F8F0
         public void set_Value(){} // RVA: 0xB460A0
@@ -112,6 +130,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorLayer : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -134,6 +154,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorLayerT : Object
     {
+        public object _hash;
+        public object _weight;
+        public object _time;
+
         // ── Methods ──
         public void get_Hash(){} // RVA: 0xB8F8F0
         public void set_Hash(){} // RVA: 0xB460A0
@@ -152,6 +176,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class AnimatorParameterUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0

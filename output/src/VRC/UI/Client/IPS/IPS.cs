@@ -7,6 +7,9 @@ namespace VRC.UI.Client.IPS
 {
     public class IpsProvidedContentLoader`2 : Object
     {
+        public object _kInstanceID_None;
+        public object PAGE_SIZE;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void Initialize(){} // RVA: 0x8943B0

@@ -1,21 +1,27 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 413
+// Methods: 428
 
-public class DataElementDelegate : MulticastDelegate
+public class DPIDMipmapper : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F62250
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C551C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
+    public object _instance;
+    public object computeShader;
+    public object kernelDownsampling;
+    public object kernelGuidance;
+    public object THREADS;
+    public object TmpGuidanceProperty;
+    public object OutputProperty;
 
-public class DataStorageShadow : Object
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
+    public void get_Instance(){} // RVA: 0xA709720
+    public void get_ComputeShaderReady(){} // RVA: 0xA709810
+    public void .ctor(){} // RVA: 0xA709920
+    public void GenerateDPIDMipmaps(){} // RVA: 0xA709B90
+    public void GenerateDPIDMipmapsQuality(){} // RVA: 0xA709C80
+    public void GenerateDPIDMipmapsFast(){} // RVA: 0xA709DF0
+    public void ExecuteComputeShader(){} // RVA: 0xA709EC0
+    public void .cctor(){} // RVA: 0xA70B9F0
 }
 
 public class DeactivateControllerLabelDelegate : MulticastDelegate
@@ -56,6 +62,54 @@ public class DebugHash[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class Decoder : DecoderNLS
+{
+    public object bits;
+    public object bitCount;
+    public object firstByte;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x66C5480
+    public void Reset(){} // RVA: 0x66C78F0
+    public void get_HasState(){} // RVA: 0x66C7930
+}
+
+public class Decoder : DecoderNLS
+{
+    public object lastByte;
+    public object lastChar;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x66D0100
+    public void Reset(){} // RVA: 0x66D0110
+    public void get_HasState(){} // RVA: 0x66D0140
+}
+
+public class DecoderUTF7Fallback : DecoderFallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void CreateFallbackBuffer(){} // RVA: 0x66C79A0
+    public void get_MaxCharCount(){} // RVA: 0xC3CCE0
+    public void Equals(){} // RVA: 0x66C79E0
+    public void GetHashCode(){} // RVA: 0x66C7A40
+}
+
+public class DecoderUTF7FallbackBuffer : DecoderFallbackBuffer
+{
+    public object cFallback;
+    public object iCount;
+    public object iSize;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x66C7A50
+    public void Fallback(){} // RVA: 0x66C7A60
+    public void GetNextChar(){} // RVA: 0x66C7AB0
+    public void get_Remaining(){} // RVA: 0x66B1470
+    public void Reset(){} // RVA: 0x66B1480
+    public void InternalFallback(){} // RVA: 0x66C7AD0
+}
+
 public class DefaultComparer`1 : Object
 {
     // ── Methods ──
@@ -74,6 +128,9 @@ public class DefaultComparer`1 : Object
 
 public class DefaultCursorIdProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -84,6 +141,14 @@ public class DefaultCursorIdProperty : Property`2
 
 public class DefaultGroupInstanceSetting : Object
 {
+    public object GroupID;
+    public object Roles;
+    public object Region;
+    public object InstanceType;
+    public object QueueEnabled;
+    public object AgeGated;
+    public object AvatarPerformanceLimit;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9D9F800
 }
@@ -96,8 +161,43 @@ public class DeferBindingResolutionWrapper : Object
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class DelayFramePromise : Object
+{
+    public object pool;
+    public object nextNode;
+    public object initialFrame;
+    public object delayFrameCount;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object currentFrameCount;
+    public object core;
+
+    // ── Methods ──
+    public void get_NextNode(){} // RVA: 0x4865E00
+    public void .cctor(){} // RVA: 0x7753B50
+    public void .ctor(){} // RVA: 0xB43310
+    public void Create(){} // RVA: 0x7753C90
+    public void GetResult(){} // RVA: 0x77540B0
+    public void GetStatus(){} // RVA: 0x7754250
+    public void UnsafeGetStatus(){} // RVA: 0x77542A0
+    public void OnCompleted(){} // RVA: 0x77542E0
+    public void MoveNext(){} // RVA: 0x7754360
+    public void TryReturn(){} // RVA: 0x7754480
+}
+
 public class DelayIgnoreTimeScalePromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object delayFrameTimeSpan;
+    public object elapsed;
+    public object initialFrame;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object core;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x77552F0
@@ -113,6 +213,10 @@ public class DelayIgnoreTimeScalePromise : Object
 
 public class DelayPromise : Task`1
 {
+    public object Token;
+    public object Registration;
+    public object Timer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69C6A70
     public void Complete(){} // RVA: 0x69C6B90
@@ -120,6 +224,16 @@ public class DelayPromise : Task`1
 
 public class DelayPromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object initialFrame;
+    public object delayTimeSpan;
+    public object elapsed;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object core;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x77546C0
@@ -135,6 +249,15 @@ public class DelayPromise : Object
 
 public class DelayRealtimePromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object delayTimeSpanTicks;
+    public object stopwatch;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object core;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x7755F20
@@ -150,6 +273,8 @@ public class DelayRealtimePromise : Object
 
 public class DelegateEnumerator : FileSystemEnumerator`1
 {
+    public object _enumerable;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void TransformEntry(){} // RVA: 0xA94080
@@ -159,15 +284,8 @@ public class DelegateEnumerator : FileSystemEnumerator`1
 
 public class DelegateEnumerator : FileSystemEnumerator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35B1B10
-    public void TransformEntry(){} // RVA: 0x35B1BB0
-    public void ShouldRecurseIntoEntry(){} // RVA: 0x35B1BE0
-    public void ShouldIncludeEntry(){} // RVA: 0x35B1C20
-}
+    public object _enumerable;
 
-public class DelegateEnumerator : FileSystemEnumerator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35B1B10
     public void TransformEntry(){} // RVA: 0x35B1BB0
@@ -204,29 +322,15 @@ public class DestroyRigDelegate : MulticastDelegate
 
 public class DeviceArray : ValueType
 {
+    public object m_HaveValue;
+    public object m_DeviceCount;
+    public object m_DeviceArray;
+
     // ── Methods ──
     public void IndexOf(){} // RVA: 0x926060
     public void Remove(){} // RVA: 0x926070
     public void Get(){} // RVA: 0x926080
     public void Set(){} // RVA: 0x9260B0
-}
-
-public class DeviceConnectedChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x40E2370
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6F19220
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class DeviceConnectedChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x40E01E0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4D960
-    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class DeviceConnectedChangeHandler : MulticastDelegate
@@ -240,6 +344,10 @@ public class DeviceConnectedChangeHandler : MulticastDelegate
 
 public class DeviceJson : ValueType
 {
+    public object devicePath;
+    public object isOptional;
+    public object isOR;
+
     // ── Methods ──
     public void ToDeviceEntry(){} // RVA: 0x931860
     public void From(){} // RVA: 0x78404A0
@@ -267,6 +375,9 @@ public class DeviceJson[] : Array
 
 public class DeviceRequirement : ValueType
 {
+    public object m_ControlPath;
+    public object m_Flags;
+
     // ── Methods ──
     public void get_controlPath(){} // RVA: 0x77900
     public void set_controlPath(){} // RVA: 0x47F10
@@ -305,6 +416,8 @@ public class DeviceRequirement[] : Array
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Entry(){} // RVA: 0x87BEB0
@@ -317,278 +430,344 @@ public class DictionaryEnumerator : Object
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD800
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD800
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35C16D0
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
+    public object _enumerator;
 
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BD800
-}
-
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
-
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
-
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
-
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
-
-public class DictionaryEnumerator : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEF40
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BD800
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEF40
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BDD20
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BDD20
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
+    public object _enumerator;
 
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEA30
-}
-
-public class DictionaryEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void MoveNext(){} // RVA: 0x87D280
-    public void Reset(){} // RVA: 0x894290
-    public void get_Current(){} // RVA: 0x87C0A0
-    public void get_Entry(){} // RVA: 0x87BEB0
-    public void get_Key(){} // RVA: 0x87C0A0
-    public void get_Value(){} // RVA: 0x87C0A0
-}
-
-public class DictionaryEnumerator : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEF40
 }
 
 public class DictionaryEnumerator : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x35BEF40
-}
+    public object _enumerator;
 
-public class DictionaryEnumerator : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEF40
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD800
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD800
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEF40
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35BEA30
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryPoolImpl`2 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class DictionaryPoolImpl`2 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class DictionaryWrapper`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
-    public void GetEnumerator(){} // RVA: 0x87C0A0
-}
+    public object Dictionary;
 
-public class DictionaryWrapper`1 : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x22FFE0
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x230090
@@ -597,6 +776,18 @@ public class DictionaryWrapper`1 : ValueType
 
 public class DictionaryWrapper`1 : ValueType
 {
+    public object Dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+    public void GetEnumerator(){} // RVA: 0x87C0A0
+}
+
+public class DictionaryWrapper`1 : ValueType
+{
+    public object Dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x22FFE0
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x230090
@@ -623,6 +814,13 @@ public class DigestAlgorithm[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class Discord_FreeFn : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB9DF20
+    public void Invoke(){} // RVA: 0xB9E010
+}
+
 public class DisplayProperty : InlineStyleEnumProperty`1
 {
     // ── Methods ──
@@ -645,21 +843,19 @@ public class DisplayProperty : ResolvedEnumProperty`1
     public void .ctor(){} // RVA: 0x7ECAB20
 }
 
-public class DisplaysUpdatedDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-}
-
 public class DisposeJob : ValueType
 {
+    public object Container;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x924600
 }
 
 public class DisposingLoggerFactory : Object
 {
+    public object _loggerFactory;
+    public object _serviceProvider;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void Dispose(){} // RVA: 0x662B490
@@ -669,6 +865,9 @@ public class DisposingLoggerFactory : Object
 
 public class DoubleBufferedAwaitableList : Object
 {
+    public object _awaitables;
+    public object _scratch;
+
     // ── Methods ──
     public void SwapAndComplete(){} // RVA: 0x7BF8E90
     public void Add(){} // RVA: 0x7BF9230
@@ -679,12 +878,17 @@ public class DoubleBufferedAwaitableList : Object
 
 public class DoublePoint : ValueType
 {
+    public object X;
+    public object Y;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89C80
 }
 
 public class DpadAxisControl : AxisControl
 {
+    public object _component;
+
     // ── Methods ──
     public void get_component(){} // RVA: 0x114AC30
     public void set_component(){} // RVA: 0x1AE2D20
@@ -705,22 +909,6 @@ public class DropdownEvent : UnityEvent`1
     public void .ctor(){} // RVA: 0x7E3C130
 }
 
-public class DropdownItem : MonoBehaviour
-{
-    // ── Methods ──
-    public void get_text(){} // RVA: 0xB700F0
-    public void set_text(){} // RVA: 0xB70100
-    public void get_image(){} // RVA: 0xB70160
-    public void set_image(){} // RVA: 0xB44DC0
-    public void get_rectTransform(){} // RVA: 0xD33E60
-    public void set_rectTransform(){} // RVA: 0xB708C0
-    public void get_toggle(){} // RVA: 0xD05CA0
-    public void set_toggle(){} // RVA: 0xD09D70
-    public void OnPointerEnter(){} // RVA: 0x7E3BF00
-    public void OnCancel(){} // RVA: 0x7E3BF80
-    public void .ctor(){} // RVA: 0xB43D60
-}
-
 public class DummyJob : ValueType
 {
     // ── Methods ──
@@ -729,6 +917,42 @@ public class DummyJob : ValueType
 
 public class DynamicBone : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_7CB;
+    public object m_Root;
+    public object m_UpdateRate;
+    public object m_Damping;
+    public object m_DampingDistrib;
+    public object m_Elasticity;
+    public object m_ElasticityDistrib;
+    public object m_Stiffness;
+    public object m_StiffnessDistrib;
+    public object m_Inert;
+    public object m_InertDistrib;
+    public object m_Radius;
+    public object m_RadiusDistrib;
+    public object m_EndLength;
+    public object m_EndOffset;
+    public object m_Gravity;
+    public object m_Force;
+    public object m_Colliders;
+    public object m_Exclusions;
+    public object m_FreezeAxis;
+    public object m_DistantDisable;
+    public object m_ReferenceObject;
+    public object m_DistanceToObject;
+    public object f_1F5;
+    public object f_257;
+    public object f_367;
+    public object f_61B;
+    public object f_97F;
+    public object f_3EF;
+    public object f_1CC;
+    public object f_79C;
+    public object f_20A;
+    public object f_478;
+    public object f_766;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0xCD6B80
     public void .ctor(){} // RVA: 0xCD7BD0
@@ -760,6 +984,12 @@ public class DynamicBone : MonoBehaviour
 
 public class DynamicBoneCollider : MonoBehaviour
 {
+    public object m_Center;
+    public object m_Radius;
+    public object m_Height;
+    public object m_Direction;
+    public object m_Bound;
+
     // ── Methods ──
     public void OnValidate(){} // RVA: 0xCDFA80
     public void RaiseCancellation(){} // RVA: 0xCDFAB0
@@ -836,8 +1066,36 @@ public class DynamicBoneData[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class DynamicBone[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class DynamicPartitionEnumerator_Abstract`2 : Object
 {
+    public object _sharedReader;
+    public object s_defaultMaxChunkSize;
+    public object _currentChunkSize;
+    public object _localOffset;
+    public object _doublingCountdown;
+    public object _maxChunkSize;
+    public object _sharedIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void GrabNextChunk(){} // RVA: 0x87DD20
@@ -852,6 +1110,14 @@ public class DynamicPartitionEnumerator_Abstract`2 : Object
 
 public class DynamicPartitionEnumerator_Abstract`2 : Object
 {
+    public object _sharedReader;
+    public object s_defaultMaxChunkSize;
+    public object _currentChunkSize;
+    public object _localOffset;
+    public object _doublingCountdown;
+    public object _maxChunkSize;
+    public object _sharedIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x388D670
     public void GrabNextChunk(){} // RVA: 0x87DD20
@@ -866,6 +1132,14 @@ public class DynamicPartitionEnumerator_Abstract`2 : Object
 
 public class DynamicPartitionEnumerator_Abstract`2 : Object
 {
+    public object _sharedReader;
+    public object s_defaultMaxChunkSize;
+    public object _currentChunkSize;
+    public object _localOffset;
+    public object _doublingCountdown;
+    public object _maxChunkSize;
+    public object _sharedIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x388D1F0
     public void GrabNextChunk(){} // RVA: 0x87DD20
@@ -880,6 +1154,14 @@ public class DynamicPartitionEnumerator_Abstract`2 : Object
 
 public class DynamicPartitionEnumerator_Abstract`2 : Object
 {
+    public object _sharedReader;
+    public object s_defaultMaxChunkSize;
+    public object _currentChunkSize;
+    public object _localOffset;
+    public object _doublingCountdown;
+    public object _maxChunkSize;
+    public object _sharedIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x388D1F0
     public void GrabNextChunk(){} // RVA: 0x87DD20
@@ -894,6 +1176,9 @@ public class DynamicPartitionEnumerator_Abstract`2 : Object
 
 public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 {
+    public object _source;
+    public object _useSingleChunking;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899290
     public void GetOrderableDynamicPartitions(){} // RVA: 0x87C0A0
@@ -902,6 +1187,9 @@ public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 
 public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 {
+    public object _source;
+    public object _useSingleChunking;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x388DEB0
     public void GetOrderableDynamicPartitions(){} // RVA: 0x388DF20
@@ -910,6 +1198,9 @@ public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 
 public class DynamicPartitionerForIEnumerable`1 : OrderablePartitioner`1
 {
+    public object _source;
+    public object _useSingleChunking;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x388DEB0
     public void GetOrderableDynamicPartitions(){} // RVA: 0x388DF20

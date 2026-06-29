@@ -7,6 +7,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class BipedIK : SolverManager
     {
+        public object references;
+        public object solvers;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -37,6 +40,17 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BipedIKSolvers : Object
     {
+        public object leftFoot;
+        public object rightFoot;
+        public object leftHand;
+        public object rightHand;
+        public object spine;
+        public object lookAt;
+        public object aim;
+        public object pelvis;
+        public object _limbs;
+        public object _ikSolvers;
+
         // ── Methods ──
         public void get_limbs(){} // RVA: 0xBFAEF0
         public void get_ikSolvers(){} // RVA: 0xBFB0C0
@@ -46,6 +60,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class BodyTilt : OffsetModifier
     {
+        public object tiltSpeed;
+        public object tiltSensitivity;
+        public object poseLeft;
+        public object poseRight;
+        public object tiltAngle;
+        public object lastForward;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCBA110
         public void OnModifyOffset(){} // RVA: 0xCBA1F0

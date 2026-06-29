@@ -7,6 +7,12 @@ namespace ThirdParty.Photon.Photon.Client
 {
     public class ByteArraySlice : Object
     {
+        public object Buffer;
+        public object Offset;
+        public object Count;
+        public object returnPool;
+        public object stackIndex;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C76770
         public void Dispose(){} // RVA: 0x6C767E0
@@ -15,6 +21,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ByteArraySlicePool : Object
     {
+        public object minStackIndex;
+        public object poolTiers;
+        public object allocationCounter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C76860
         public void Acquire(){} // RVA: 0x6C76A80
@@ -44,6 +54,11 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class CustomType : Object
     {
+        public object Code;
+        public object Type;
+        public object SerializeStreamFunction;
+        public object DeserializeStreamFunction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C92A00
     }
@@ -57,6 +72,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class DictionaryEntryEnumerator : ValueType
     {
+        public object enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x216AC0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x8E45C0
@@ -68,12 +85,36 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class DisconnectMessage : Object
     {
+        public object Code;
+        public object DebugMessage;
+        public object Parameters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class EnetChannel : Object
     {
+        public object ChannelNumber;
+        public object incomingReliableCommandsList;
+        public object incomingUnreliableCommandsList;
+        public object incomingUnsequencedCommandsList;
+        public object incomingUnsequencedFragments;
+        public object outgoingReliableCommandsList;
+        public object outgoingUnreliableCommandsList;
+        public object incomingReliableSequenceNumber;
+        public object incomingUnreliableSequenceNumber;
+        public object outgoingReliableSequenceNumber;
+        public object outgoingUnreliableSequenceNumber;
+        public object outgoingReliableUnsequencedNumber;
+        public object reliableUnsequencedNumbersCompletelyReceived;
+        public object reliableUnsequencedNumbersReceived;
+        public object highestReceivedAck;
+        public object reliableCommandsInFlight;
+        public object lowestUnacknowledgedSequenceNumber;
+        public object SequencedReceived;
+        public object UnsequencedReceived;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C785E0
         public void AddSequencedIfNew(){} // RVA: 0x6C78AD0
@@ -108,6 +149,34 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EnetPeer : PeerBase
     {
+        public object nCommandPool;
+        public object sentReliableCommands;
+        public object sendWindowUpdateRequiredBackValue;
+        public object outgoingAcknowledgementsPool;
+        public object unsequencedWindow;
+        public object outgoingUnsequencedGroupNumber;
+        public object incomingUnsequencedGroupNumber;
+        public object udpCommandCount;
+        public object udpBuffer;
+        public object udpBufferIndex;
+        public object bufferForEncryption;
+        public object commandBufferSize;
+        public object challenge;
+        public object serverSentTime;
+        public object udpHeader0xF3;
+        public object datagramEncryptedConnectionBackValue;
+        public object channelArray;
+        public object commandsToRemove;
+        public object CommandQueue;
+        public object fragmentLength;
+        public object fragmentLengthDatagramEncrypt;
+        public object fragmentLengthMtuValue;
+        public object datagramAccessLockObject;
+        public object channelsToUpdateLowestSent;
+        public object lowestSentSequenceNumber;
+        public object gapBlocks;
+        public object toRemove;
+
         // ── Methods ──
         public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x6C797D0
         public void get_SendWindowUpdateRequired(){} // RVA: 0x6C79AC0
@@ -153,6 +222,13 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class EventData : Object
     {
+        public object Code;
+        public object Parameters;
+        public object SenderKey;
+        public object sender;
+        public object CustomDataKey;
+        public object customData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CA9050
         public void get_Item(){} // RVA: 0x6CA9100
@@ -208,6 +284,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class MessageProtocol : Object
     {
+        public object memFloatBlock;
+        public object memDeserialize;
+
         // ── Methods ──
         public void Serialize(){} // RVA: 0x6CA9550
         public void Deserialize(){} // RVA: 0x6CA9810
@@ -216,6 +295,66 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NCommand : Object
     {
+        public object Ack2FeatureFlag;
+        public object ReliableSendWindowFeatureFlag;
+        public object FeatureFlagsLow;
+        public object FV_UNRELIABLE;
+        public object FV_RELIABLE;
+        public object FV_UNRELIABLE_UNSEQUENCED;
+        public object FV_RELIBALE_UNSEQUENCED;
+        public object CT_NONE;
+        public object CT_ACK;
+        public object CT_CONNECT;
+        public object CT_VERIFYCONNECT;
+        public object CT_DISCONNECT;
+        public object CT_PING;
+        public object CT_SENDRELIABLE;
+        public object CT_SENDUNRELIABLE;
+        public object CT_SENDFRAGMENT;
+        public object CT_SENDUNSEQUENCED;
+        public object CT_EG_SERVERTIME;
+        public object CT_EG_SEND_UNRELIABLE_PROCESSED;
+        public object CT_EG_SEND_RELIABLE_UNSEQUENCED;
+        public object CT_EG_SEND_FRAGMENT_UNSEQUENCED;
+        public object CT_EG_ACK_UNSEQUENCED;
+        public object CT_EG_ACK_2;
+        public object CT_EG_ACK_2_UNSEQUENCED;
+        public object CT_EG_ACK_2_NULL;
+        public object HEADER_UDP_PACK_LENGTH;
+        public object CmdSizeMinimum;
+        public object CmdSizeAck;
+        public object CmdSizeConnect;
+        public object CmdSizeVerifyConnect;
+        public object CmdSizeDisconnect;
+        public object CmdSizePing;
+        public object CmdSizeReliableHeader;
+        public object CmdSizeUnreliableHeader;
+        public object CmdSizeUnsequensedHeader;
+        public object CmdSizeFragmentHeader;
+        public object CmdSizeMaxHeader;
+        public object commandFlags;
+        public object commandType;
+        public object commandChannelID;
+        public object reliableSequenceNumber;
+        public object unreliableSequenceNumber;
+        public object unsequencedGroupNumber;
+        public object reservedByte;
+        public object startSequenceNumber;
+        public object fragmentCount;
+        public object fragmentNumber;
+        public object totalLength;
+        public object fragmentOffset;
+        public object fragmentsRemaining;
+        public object commandSentTime;
+        public object commandSentCount;
+        public object roundTripTimeout;
+        public object timeoutTime;
+        public object ackReceivedReliableSequenceNumber;
+        public object ackReceivedSentTime;
+        public object TimeOfReceive;
+        public object Size;
+        public object Payload;
+
         // ── Methods ──
         public void get_SizeOfPayload(){} // RVA: 0x6C83150
         public void get_IsFlaggedUnsequenced(){} // RVA: 0x6C83170
@@ -254,6 +393,19 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NetworkSimulationSet : Object
     {
+        public object isSimulationEnabled;
+        public object outgoingLag;
+        public object outgoingJitter;
+        public object outgoingLossPercentage;
+        public object incomingLag;
+        public object incomingJitter;
+        public object incomingLossPercentage;
+        public object peerBase;
+        public object netSimThread;
+        public object NetSimManualResetEvent;
+        public object _lostPackagesOut;
+        public object _lostPackagesIn;
+
         // ── Methods ──
         public void get_IsSimulationEnabled(){} // RVA: 0xC120A0
         public void set_IsSimulationEnabled(){} // RVA: 0x6C84F10
@@ -267,6 +419,17 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NonAllocDictionary`2 : Object
     {
+        public object _primeTableUInt;
+        public object _freeHead;
+        public object _freeCount;
+        public object _usedCount;
+        public object _capacity;
+        public object _buckets;
+        public object _nodes;
+        public object isReadOnly;
+        public object keys;
+        public object values;
+
         // ── Methods ──
         public void get_Keys(){} // RVA: 0xA94080
         public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x87C0A0
@@ -297,6 +460,17 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NonAllocDictionary`2 : Object
     {
+        public object _primeTableUInt;
+        public object _freeHead;
+        public object _freeCount;
+        public object _usedCount;
+        public object _capacity;
+        public object _buckets;
+        public object _nodes;
+        public object isReadOnly;
+        public object keys;
+        public object values;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47200F0
         public void get_Keys(){} // RVA: 0x4720080
@@ -327,6 +501,17 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class NonAllocDictionary`2 : Object
     {
+        public object _primeTableUInt;
+        public object _freeHead;
+        public object _freeCount;
+        public object _usedCount;
+        public object _capacity;
+        public object _buckets;
+        public object _nodes;
+        public object isReadOnly;
+        public object keys;
+        public object values;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4721A10
         public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0xBC1B30
@@ -357,12 +542,20 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class OperationRequest : Object
     {
+        public object OperationCode;
+        public object Parameters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class OperationResponse : Object
     {
+        public object OperationCode;
+        public object ReturnCode;
+        public object DebugMessage;
+        public object Parameters;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x6CA8C70
         public void ToString(){} // RVA: 0x6CA8CE0
@@ -372,6 +565,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class ParameterDictionary : Object
     {
+        public object paramDict;
+        public object wrapperPools;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C86090
         public void op_Implicit(){} // RVA: 0x2C8D450
@@ -410,6 +606,58 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PeerBase : Object
     {
+        public object photonPeer;
+        public object SerializationProtocol;
+        public object usedTransportProtocol;
+        public object PhotonSocket;
+        public object _serverAddress;
+        public object _proxyServerAddress;
+        public object peerConnectionStateField;
+        public object ByteCountLastOperation;
+        public object ByteCountCurrentDispatch;
+        public object CommandInCurrentDispatch;
+        public object packetLossByCrc;
+        public object packetLossByChallenge;
+        public object throttledBySendWindow;
+        public object ActionQueue;
+        public object peerID;
+        public object peerCount;
+        public object serverTimeOffset;
+        public object serverTimeOffsetIsAvailable;
+        public object roundTripTime;
+        public object roundTripTimeVariance;
+        public object lastRoundTripTime;
+        public object lowestRoundTripTime;
+        public object highestRoundTripTimeVariance;
+        public object varianceJitterMin;
+        public object varianceJitterMax;
+        public object varianceJitterFactor;
+        public object PhotonToken;
+        public object CustomInitData;
+        public object AppId;
+        public object reusableEventData;
+        public object watch;
+        public object timeoutInt;
+        public object timeLastAckReceive;
+        public object longestSendCall;
+        public object timeIntCurrentSend;
+        public object ApplicationIsInitialized;
+        public object isEncryptionAvailable;
+        public object serverFeatureFlags;
+        public object _serverFeatureFlagsAvailable;
+        public object _serverFeatureAck2Available;
+        public object _serverFeatureSyncReliableQueue;
+        public object _serverMaxQueueableReliableCommands;
+        public object MessageBufferPool;
+        public object messageHeader;
+        public object prepareWebSocketUrlCount;
+        public object prepareWebSocketUrlSB;
+        public object CryptoProvider;
+        public object lagRandomizer;
+        public object NetSimListOutgoing;
+        public object NetSimListIncoming;
+        public object networkSimulationSettings;
+
         // ── Methods ──
         public void get_Stats(){} // RVA: 0x1287960
         public void get_Listener(){} // RVA: 0x13F93E0
@@ -472,6 +720,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonClientWebSocket : PhotonSocket
     {
+        public object clientWebSocket;
+        public object sendTask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C8BE10
         public void Connect(){} // RVA: 0x6C8BE90
@@ -483,12 +734,20 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonCodes : Object
     {
+        public object ClientKey;
+        public object ModeKey;
+        public object ServerKey;
+        public object InitEncryption;
+        public object Ping;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6C86BC0
     }
 
     public class PhotonHashtable : Dictionary`2
     {
+        public object boxedByte;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6C77440
         public void .ctor(){} // RVA: 0x6C776E0
@@ -502,6 +761,56 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonPeer : Object
     {
+        public object NoSocket;
+        public object DebugBuild;
+        public object NativeEncryptorApiVersion;
+        public object TargetFramework;
+        public object ClientSdkId;
+        public object clientVersion;
+        public object NoNativeCallbacks;
+        public object RemoveAppIdFromWebSocketPath;
+        public object UseInitV3;
+        public object _useAck2;
+        public object EnableEncryptedFlag;
+        public object _serializationProtocolType;
+        public object SocketImplementationConfig;
+        public object _socketImplementation;
+        public object LogLevel;
+        public object _listener;
+        public object reuseEventInstance;
+        public object useByteArraySlicePoolForEvents;
+        public object wrapIncomingStructs;
+        public object SendInCreationOrder;
+        public object SendWindowSize;
+        public object quickResendAttempts;
+        public object MaxResends;
+        public object InitialResendTimeMax;
+        public object disconnectTimeout;
+        public object crcEnabled;
+        public object PingInterval;
+        public object ChannelCount;
+        public object _transportProtocol;
+        public object OutgoingStreamBufferSize;
+        public object mtu;
+        public object AsyncKeyExchange;
+        public object RandomizeSequenceNumbers;
+        public object RandomizedSequenceNumbers;
+        public object payloadEncryptorType;
+        public object PayloadEncryptionSecret;
+        public object encryptorType;
+        public object Encryptor;
+        public object TrafficRecorder;
+        public object _enableServerTracing;
+        public object PingUsedAsInit;
+        public object _countDiscarded;
+        public object _deltaUnreliableNumber;
+        public object _stats;
+        public object TrafficStatsEnabled;
+        public object peerBase;
+        public object sendOutgoingLockObject;
+        public object dispatchLockObject;
+        public object enqueueLock;
+
         // ── Methods ──
         public void get_ClientSdkIdShifted(){} // RVA: 0x6C8DA10
         public void get_Version(){} // RVA: 0x6C8DA20
@@ -571,6 +880,20 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class PhotonSocket : Object
     {
+        public object peerBase;
+        public object Protocol;
+        public object PollReceive;
+        public object _state;
+        public object _socketErrorCode;
+        public object ConnectAddress;
+        public object _serverAddress;
+        public object _proxyServerAddress;
+        public object _serverIpAddress;
+        public object _serverPort;
+        public object _addressResolvedAsIpv6;
+        public object _urlProtocol;
+        public object _urlPath;
+
         // ── Methods ──
         public void get_Listener(){} // RVA: 0x6C90DE0
         public void get_MTU(){} // RVA: 0x6C90E10
@@ -610,6 +933,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
+        public object createFunction;
+        public object pool;
+        public object resetFunction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895FE0
         public void CreatePoolItems(){} // RVA: 0x8944F0
@@ -619,6 +946,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
+        public object createFunction;
+        public object pool;
+        public object resetFunction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4864570
         public void CreatePoolItems(){} // RVA: 0x4864740
@@ -628,6 +959,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
+        public object createFunction;
+        public object pool;
+        public object resetFunction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4864570
         public void CreatePoolItems(){} // RVA: 0x4864740
@@ -637,6 +972,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Pool`1 : Object
     {
+        public object createFunction;
+        public object pool;
+        public object resetFunction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4864570
         public void CreatePoolItems(){} // RVA: 0x4864740
@@ -652,6 +991,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol : Object
     {
+        public object ByteArraySlicePool;
+        public object TypeDict;
+        public object CodeDict;
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x87C0A0
         public void get_VersionBytes(){} // RVA: 0x87C0A0
@@ -676,6 +1019,19 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol16 : Protocol
     {
+        public object versionBytes;
+        public object memShort;
+        public object memLongBlock;
+        public object memLongBlockBytes;
+        public object memFloatBlock;
+        public object memFloatBlockBytes;
+        public object memDoubleBlock;
+        public object memDoubleBlockBytes;
+        public object memInteger;
+        public object memLong;
+        public object memFloat;
+        public object memDouble;
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x6C932A0
         public void get_VersionBytes(){} // RVA: 0xB465B0
@@ -736,6 +1092,14 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class Protocol18 : Protocol
     {
+        public object versionBytes;
+        public object boolMasks;
+        public object memDoubleBlock;
+        public object memFloatBlock;
+        public object memCustomTypeBodyLengthSerialized;
+        public object memCompressedUInt32;
+        public object memCompressedUInt64;
+
         // ── Methods ──
         public void get_ProtocolType(){} // RVA: 0x6C9C9E0
         public void get_VersionBytes(){} // RVA: 0xB465B0
@@ -838,6 +1202,12 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SendOptions : ValueType
     {
+        public object SendReliable;
+        public object SendUnreliable;
+        public object DeliveryMode;
+        public object Encrypt;
+        public object Channel;
+
         // ── Methods ──
         public void get_Reliability(){} // RVA: 0x8E53D0
         public void set_Reliability(){} // RVA: 0x8E53E0
@@ -859,6 +1229,11 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SimulationItem : Object
     {
+        public object stopw;
+        public object TimeToExecute;
+        public object DelayedData;
+        public object _delay;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C84E30
         public void get_Delay(){} // RVA: 0x1065D50
@@ -866,6 +1241,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SocketTcp : PhotonSocket
     {
+        public object sock;
+        public object syncer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CA9CF0
         public void Finalize(){} // RVA: 0x6CA9E10
@@ -880,6 +1258,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SocketTcpAsync : PhotonSocket
     {
+        public object sock;
+        public object syncer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CAB7D0
         public void Finalize(){} // RVA: 0x6CAB8F0
@@ -894,6 +1275,10 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SocketUdp : PhotonSocket
     {
+        public object sock;
+        public object syncer;
+        public object sendLockObject;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CAD770
         public void Finalize(){} // RVA: 0x6CAD900
@@ -908,6 +1293,9 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SocketUdpAsync : PhotonSocket
     {
+        public object sock;
+        public object syncer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CAF7E0
         public void Finalize(){} // RVA: 0x6CAB8F0
@@ -923,6 +1311,11 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class StreamBuffer : Object
     {
+        public object DefaultInitialSize;
+        public object pos;
+        public object len;
+        public object buf;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CB14F0
         public void ToArray(){} // RVA: 0x6CB1560
@@ -967,6 +1360,8 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class SupportClass : Object
     {
+        public object crcLookupTable;
+
         // ── Methods ──
         public void WriteStackTrace(){} // RVA: 0x6CB1C00
         public void DictionaryToString(){} // RVA: 0x6CB2740
@@ -977,6 +1372,15 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TPeer : PeerBase
     {
+        public object incomingList;
+        public object outgoingStream;
+        public object lastPingActivity;
+        public object pingRequest;
+        public object pingParamDict;
+        public object tcpFramedMessageHead;
+        public object tcpMsgHead;
+        public object DoFraming;
+
         // ── Methods ──
         public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x6CB3800
         public void .ctor(){} // RVA: 0x6CB3850
@@ -1000,6 +1404,15 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TrafficStats : TrafficStatsBase
     {
+        public object connectionStopwatch;
+        public object LastSendOutgoingTimestamp;
+        public object LastSendAckTimestamp;
+        public object _lastReceiveTimestamp;
+        public object _lastDispatchTimestamp;
+        public object _longestDeltaBetweenDispatchCalls;
+        public object _lastDispatchDuration;
+        public object _longestDeltaBetweenSendOutgoingCalls;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBE2C70
         public void get_LastReceiveTimestamp(){} // RVA: 0x19C6270
@@ -1018,6 +1431,22 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class TrafficStatsBase : Object
     {
+        public object _bytesIn;
+        public object _bytesOut;
+        public object _packagesIn;
+        public object _packagesOut;
+        public object _udpFragmentsIn;
+        public object _udpFragmentsOut;
+        public object _udpUnreliableCommandsSent;
+        public object _udpReliableCommandsSent;
+        public object _udpReliableCommandsResent;
+        public object _udpReliableCommandsInFlight;
+        public object _dispatchIncomingCommandsCalls;
+        public object _sendOutgoingCommandsCalls;
+        public object _roundtripTime;
+        public object _roundtripTimeVariance;
+        public object _lastRoundtripTime;
+
         // ── Methods ──
         public void get_BytesIn(){} // RVA: 0xB5DBF0
         public void set_BytesIn(){} // RVA: 0x2230E30
@@ -1052,12 +1481,18 @@ namespace ThirdParty.Photon.Photon.Client
 
     public class UnknownType : Object
     {
+        public object TypeCode;
+        public object Size;
+        public object Data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Version : Object
     {
+        public object clientVersion;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6CB6AC0
     }

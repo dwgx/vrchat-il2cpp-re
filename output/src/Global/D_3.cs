@@ -1,10 +1,12 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 57
-// Methods: 268
+// Classes: 56
+// Methods: 270
 
 public class DSRowDiffIdUsageSection : ValueType
 {
+    public object _targetDS;
+
     // ── Methods ──
     public void Prepare(){} // RVA: 0x902BD0
 }
@@ -51,6 +53,8 @@ public class DS[][] : Array
 
 public class DataRowReferenceComparer : Object
 {
+    public object s_default;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Equals(){} // RVA: 0x3F12D40
@@ -68,6 +72,10 @@ public class DataRowTree : RBTree`1
 
 public class DataSetRelationCollection : DataRelationCollection
 {
+    public object _dataSet;
+    public object _relations;
+    public object _delayLoadingRelations;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7166D30
     public void get_List(){} // RVA: 0xBC1B30
@@ -81,6 +89,11 @@ public class DataSetRelationCollection : DataRelationCollection
 
 public class DataTableRelationCollection : DataRelationCollection
 {
+    public object _table;
+    public object _relations;
+    public object _fParentCollection;
+    public object RelationPropertyChanged;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7166270
     public void get_List(){} // RVA: 0xBC1B30
@@ -97,6 +110,9 @@ public class DataTableRelationCollection : DataRelationCollection
 
 public class DataViewSettingsEnumerator : Object
 {
+    public object _dataViewSettings;
+    public object _tableEnumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x717B150
     public void MoveNext(){} // RVA: 0x717B360
@@ -104,14 +120,10 @@ public class DataViewSettingsEnumerator : Object
     public void get_Current(){} // RVA: 0x717B400
 }
 
-public class DateMapping : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8B3CC0
-}
-
 public class DateTime : Object
 {
+    public object ToString;
+
     // ── Methods ──
     public void TryParse(){} // RVA: 0x727EF00
     public void .cctor(){} // RVA: 0x727EF60
@@ -119,12 +131,30 @@ public class DateTime : Object
 
 public class DateTimeParseData : ValueType
 {
+    public object Year;
+    public object Month;
+    public object Day;
+    public object IsCalendarDateOnly;
+    public object Hour;
+    public object Minute;
+    public object Second;
+    public object Fraction;
+    public object OffsetHours;
+    public object OffsetMinutes;
+    public object OffsetToken;
+
     // ── Methods ──
     public void get_OffsetNegative(){} // RVA: 0x90CAB0
 }
 
 public class DbRow : ValueType
 {
+    public object Size;
+    public object _location;
+    public object _sizeOrLengthUnion;
+    public object _numberOfRowsAndTypeUnion;
+    public object UnknownSize;
+
     // ── Methods ──
     public void get_Location(){} // RVA: 0x77E60
     public void get_SizeOrLength(){} // RVA: 0x8ED510
@@ -145,6 +175,8 @@ public class DebugInfoComparer : Object
 
 public class DebugInfoExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7048F00
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -161,6 +193,8 @@ public class DebugInfoExpressionProxy : Object
 
 public class DebugView : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Json(){} // RVA: 0x35AA9C0
@@ -170,6 +204,8 @@ public class DebugView : Object
 
 public class DebugView : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Json(){} // RVA: 0x35AA9C0
@@ -179,6 +215,8 @@ public class DebugView : Object
 
 public class DebugView : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Json(){} // RVA: 0x87C0A0
@@ -188,6 +226,8 @@ public class DebugView : Object
 
 public class DebugView : Object
 {
+    public object _array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x708AA60
     public void get_A0(){} // RVA: 0x708AB90
@@ -197,6 +237,8 @@ public class DebugView : Object
 
 public class DebugView : Object
 {
+    public object _list;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7090760
     public void get_A0(){} // RVA: 0x7090840
@@ -206,12 +248,20 @@ public class DebugView : Object
 
 public class DebugViewItem : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void get_Display(){} // RVA: 0x912230
 }
 
 public class DebugViewPrinter : Object
 {
+    public object _interpreter;
+    public object _tryStart;
+    public object _handlerEnter;
+    public object _handlerExit;
+    public object _indent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70B0450
     public void Analyze(){} // RVA: 0x70B0710
@@ -225,12 +275,18 @@ public class DebugViewPrinter : Object
 
 public class DebugViewProperty : ValueType
 {
+    public object Value;
+    public object PropertyName;
+
     // ── Methods ──
     public void get_Display(){} // RVA: 0x912380
 }
 
 public class DecimalStruct : Object
 {
+    public object isDecimal;
+    public object dvalue;
+
     // ── Methods ──
     public void get_IsDecimal(){} // RVA: 0xC120A0
     public void set_IsDecimal(){} // RVA: 0xC120B0
@@ -240,6 +296,19 @@ public class DecimalStruct : Object
 
 public class DeclBaseInfo : Object
 {
+    public object _Name;
+    public object _Prefix;
+    public object _TypeName;
+    public object _TypePrefix;
+    public object _Default;
+    public object _Revises;
+    public object _MaxOccurs;
+    public object _MinOccurs;
+    public object _Checking;
+    public object _ElementDecl;
+    public object _Attdef;
+    public object _Next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73FE380
     public void Reset(){} // RVA: 0x73FE390
@@ -301,14 +370,10 @@ public class DecrementUInt64 : DecrementInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class DefaultComparer`1 : ValueType
-{
-    // ── Methods ──
-    public void Compare(){} // RVA: 0x22E600
-}
-
 public class DefaultExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049010
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -319,6 +384,9 @@ public class DefaultExpressionProxy : Object
 
 public class DefaultExtendedTypeDescriptor : ValueType
 {
+    public object _node;
+    public object _instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
     public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x91EF00
@@ -335,6 +403,10 @@ public class DefaultExtendedTypeDescriptor : ValueType
 
 public class DefaultTypeDescriptor : ValueType
 {
+    public object _node;
+    public object _objectType;
+    public object _instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x79C50
     public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x91F080
@@ -351,6 +423,8 @@ public class DefaultTypeDescriptor : ValueType
 
 public class DefaultWebProxy : Object
 {
+    public object _instance;
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x7626660
     public void get_Credentials(){} // RVA: 0x76266C0
@@ -360,8 +434,23 @@ public class DefaultWebProxy : Object
     public void .cctor(){} // RVA: 0x7626780
 }
 
+public class DelegateEnumerator : FileSystemEnumerator`1
+{
+    public object _enumerable;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x35B1B10
+    public void TransformEntry(){} // RVA: 0x35B1BB0
+    public void ShouldRecurseIntoEntry(){} // RVA: 0x35B1BE0
+    public void ShouldIncludeEntry(){} // RVA: 0x35B1C20
+}
+
 public class DerivedJsonTypeInfo : Object
 {
+    public object _jsonTypeInfo;
+    public object _derivedType;
+    public object _typeDiscriminator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6E796B0
     public void get_DerivedType(){} // RVA: 0xB465B0
@@ -371,6 +460,8 @@ public class DerivedJsonTypeInfo : Object
 
 public class DerivedTypeList : ConfigurationList`1
 {
+    public object _parent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73336F0
     public void get_IsReadOnly(){} // RVA: 0x7333850
@@ -379,6 +470,12 @@ public class DerivedTypeList : ConfigurationList`1
 
 public class DesignerOptionCollection : Object
 {
+    public object _service;
+    public object _name;
+    public object _value;
+    public object _children;
+    public object _properties;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x7711050
     public void get_Name(){} // RVA: 0xB465B0
@@ -408,6 +505,9 @@ public class DesignerWebRequestCreate : Object
 
 public class DictionaryEnumerator : ValueType
 {
+    public object _dictionary;
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Entry(){} // RVA: 0x87BEB0
@@ -420,24 +520,42 @@ public class DictionaryEnumerator : ValueType
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryNode : Object
 {
+    public object key;
+    public object value;
+    public object next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class DictionaryNode : Object
 {
+    public object key;
+    public object value;
+    public object next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class DirectToArchiveWriterStream : Stream
 {
+    public object _position;
+    public object _crcSizeStream;
+    public object _everWritten;
+    public object _isDisposed;
+    public object _entry;
+    public object _usedZip64inLH;
+    public object _canWrite;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7257C30
     public void get_Length(){} // RVA: 0x7257D50
@@ -513,6 +631,8 @@ public class DivUInt64 : DivInstruction
 
 public class DtdDefaultAttributeInfoToNodeDataComparer : Object
 {
+    public object s_instance;
+
     // ── Methods ──
     public void get_Instance(){} // RVA: 0x748EFE0
     public void Compare(){} // RVA: 0x748F040
@@ -522,6 +642,8 @@ public class DtdDefaultAttributeInfoToNodeDataComparer : Object
 
 public class DtdParserProxy : Object
 {
+    public object reader;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void System.Xml.IDtdParserAdapter.get_NameTable(){} // RVA: 0x1805370

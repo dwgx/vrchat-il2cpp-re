@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 {
     public class AccelerometerState : ValueType
     {
+        public object acceleration;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927C60
         public void get_format(){} // RVA: 0x93ABC0
@@ -14,6 +16,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class ActionEvent : ValueType
     {
+        public object baseEvent;
+        public object m_ControlIndex;
+        public object m_BindingIndex;
+        public object m_InteractionIndex;
+        public object m_StateIndex;
+        public object m_Phase;
+        public object m_StartTime;
+        public object m_ValueData;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79281F0
         public void get_startTime(){} // RVA: 0x931A60
@@ -38,6 +49,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class AttitudeState : ValueType
     {
+        public object attitude;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927C90
         public void get_format(){} // RVA: 0x93ABF0
@@ -45,6 +58,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DeltaStateEvent : ValueType
     {
+        public object Type;
+        public object baseEvent;
+        public object stateFormat;
+        public object stateOffset;
+        public object stateData;
+
         // ── Methods ──
         public void get_deltaStateSizeInBytes(){} // RVA: 0x93AED0
         public void get_deltaState(){} // RVA: 0x93AEE0
@@ -56,6 +75,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DeviceConfigurationEvent : ValueType
     {
+        public object Type;
+        public object baseEvent;
+
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x93AF00
         public void ToEventPtr(){} // RVA: 0x93ADF0
@@ -64,6 +86,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DeviceRemoveEvent : ValueType
     {
+        public object Type;
+        public object baseEvent;
+
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x93AF10
         public void ToEventPtr(){} // RVA: 0x93ADF0
@@ -72,6 +97,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DeviceResetEvent : ValueType
     {
+        public object Type;
+        public object baseEvent;
+        public object hardReset;
+
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x93AF60
         public void Create(){} // RVA: 0x7928C80
@@ -79,6 +108,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DisableDeviceCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7926EC0
         public void get_typeStatic(){} // RVA: 0x93A3B0
@@ -87,6 +119,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class DualMotorRumbleCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object lowFrequencyMotorSpeed;
+        public object highFrequencyMotorSpeed;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79278E0
         public void get_typeStatic(){} // RVA: 0x93A900
@@ -95,6 +132,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class EnableDeviceCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7926EF0
         public void get_typeStatic(){} // RVA: 0x93A3C0
@@ -103,6 +143,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class EnableIMECompositionCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object m_ImeEnabled;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7926F20
         public void get_imeEnabled(){} // RVA: 0x93A3D0
@@ -112,6 +156,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class GamepadState : ValueType
     {
+        public object ButtonSouthShortDisplayName;
+        public object ButtonNorthShortDisplayName;
+        public object ButtonWestShortDisplayName;
+        public object ButtonEastShortDisplayName;
+        public object buttons;
+        public object leftStick;
+        public object rightStick;
+        public object leftTrigger;
+        public object rightTrigger;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x79277D0
         public void get_format(){} // RVA: 0x93A7F0
@@ -121,6 +175,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class GravityState : ValueType
     {
+        public object gravity;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927C80
         public void get_format(){} // RVA: 0x93ABE0
@@ -128,6 +184,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class GyroscopeState : ValueType
     {
+        public object angularVelocity;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927C70
         public void get_format(){} // RVA: 0x93ABD0
@@ -228,6 +286,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class IMECompositionEvent : ValueType
     {
+        public object kIMECharBufferSize;
+        public object Type;
+        public object baseEvent;
+        public object compositionString;
+
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x93B090
         public void Create(){} // RVA: 0x7928D70
@@ -235,6 +298,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class IMECompositionString : ValueType
     {
+        public object size;
+        public object buffer;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x77E60
         public void get_Item(){} // RVA: 0x93B150
@@ -253,6 +319,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InitiateUserAccountPairingCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7926F70
         public void get_typeStatic(){} // RVA: 0x93A3F0
@@ -261,6 +330,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputDeviceCommand : ValueType
     {
+        public object kBaseCommandSize;
+        public object BaseCommandSize;
+        public object GenericFailure;
+        public object GenericSuccess;
+        public object type;
+        public object sizeInBytes;
+
         // ── Methods ──
         public void get_payloadSizeInBytes(){} // RVA: 0x93A400
         public void get_payloadPtr(){} // RVA: 0x93A410
@@ -289,6 +365,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEvent : ValueType
     {
+        public object kHandledMask;
+        public object kIdMask;
+        public object kBaseEventSize;
+        public object InvalidEventId;
+        public object kAlignment;
+        public object m_Event;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x77E60
         public void set_type(){} // RVA: 0x29580
@@ -313,6 +396,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventBuffer : ValueType
     {
+        public object BufferSizeUnknown;
+        public object m_Buffer;
+        public object m_SizeInBytes;
+        public object m_EventCount;
+        public object m_WeOwnTheBuffer;
+
         // ── Methods ──
         public void get_eventCount(){} // RVA: 0x8E1F0
         public void get_sizeInBytes(){} // RVA: 0x7E450
@@ -334,6 +423,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventListener : ValueType
     {
+        public object s_ObserverState;
+
         // ── Methods ──
         public void op_Addition(){} // RVA: 0x792A5B0
         public void op_Subtraction(){} // RVA: 0x792A7D0
@@ -342,6 +433,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventPtr : ValueType
     {
+        public object m_EventPtr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void get_valid(){} // RVA: 0x311760
@@ -376,6 +469,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventStream : ValueType
     {
+        public object m_NativeBuffer;
+        public object m_CurrentNativeEventReadPtr;
+        public object m_CurrentNativeEventWritePtr;
+        public object m_RemainingNativeEventCount;
+        public object m_MaxAppendedEvents;
+        public object m_AppendBuffer;
+        public object m_CurrentAppendEventReadPtr;
+        public object m_CurrentAppendEventWritePtr;
+        public object m_RemainingAppendEventCount;
+        public object m_NumEventsRetainedInBuffer;
+        public object m_IsOpen;
+
         // ── Methods ──
         public void get_isOpen(){} // RVA: 0x93C120
         public void get_remainingEventCount(){} // RVA: 0x93C130
@@ -392,6 +497,26 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputEventTrace : Object
     {
+        public object kDefaultBufferSize;
+        public object k_InputEvenTraceMarker;
+        public object m_ChangeCounter;
+        public object m_Enabled;
+        public object m_OnFilterEvent;
+        public object m_DeviceId;
+        public object m_EventListeners;
+        public object m_EventBufferSize;
+        public object m_MaxEventBufferSize;
+        public object m_GrowIncrementSize;
+        public object m_EventCount;
+        public object m_EventSizeInBytes;
+        public object m_EventBufferStorage;
+        public object m_EventBufferHeadStorage;
+        public object m_EventBufferTailStorage;
+        public object m_HasWrapped;
+        public object m_RecordFrameMarkers;
+        public object m_DeviceInfos;
+        public object kFileVersion;
+
         // ── Methods ──
         public void get_FrameMarkerEvent(){} // RVA: 0x792BF70
         public void get_deviceId(){} // RVA: 0xFEAE90
@@ -437,6 +562,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputMetrics : ValueType
     {
+        public object _maxNumDevices;
+        public object _currentNumDevices;
+        public object _maxStateSizeInBytes;
+        public object _currentStateSizeInBytes;
+        public object _currentControlCount;
+        public object _currentLayoutCount;
+        public object _totalEventBytes;
+        public object _totalEventCount;
+        public object _totalUpdateCount;
+        public object _totalEventProcessingTime;
+        public object _totalEventLagTime;
+
         // ── Methods ──
         public void get_maxNumDevices(){} // RVA: 0x77E60
         public void set_maxNumDevices(){} // RVA: 0x29580
@@ -474,12 +611,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
     public class InputState : Object
     {
         // ── Methods ──
-        public void Change(){} // RVA: 0x310AB50
         public void get_currentUpdateType(){} // RVA: 0x7933100
         public void get_updateCount(){} // RVA: 0x7933140
         public void get_currentTime(){} // RVA: 0x7933180
         public void add_onChange(){} // RVA: 0x7933200
         public void remove_onChange(){} // RVA: 0x79332B0
+        public void Change(){} // RVA: 0x310AF70
         public void IsIntegerFormat(){} // RVA: 0x7933650
         public void AddChangeMonitor(){} // RVA: 0x79339A0
         public void RemoveChangeMonitor(){} // RVA: 0x7933B30
@@ -489,6 +626,51 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputStateBlock : ValueType
     {
+        public object InvalidOffset;
+        public object AutomaticOffset;
+        public object FormatInvalid;
+        public object kFormatInvalid;
+        public object FormatBit;
+        public object kFormatBit;
+        public object FormatSBit;
+        public object kFormatSBit;
+        public object FormatInt;
+        public object kFormatInt;
+        public object FormatUInt;
+        public object kFormatUInt;
+        public object FormatShort;
+        public object kFormatShort;
+        public object FormatUShort;
+        public object kFormatUShort;
+        public object FormatByte;
+        public object kFormatByte;
+        public object FormatSByte;
+        public object kFormatSByte;
+        public object FormatLong;
+        public object kFormatLong;
+        public object FormatULong;
+        public object kFormatULong;
+        public object FormatFloat;
+        public object kFormatFloat;
+        public object FormatDouble;
+        public object kFormatDouble;
+        public object FormatVector2;
+        public object kFormatVector2;
+        public object FormatVector3;
+        public object kFormatVector3;
+        public object FormatQuaternion;
+        public object kFormatQuaternion;
+        public object FormatVector2Short;
+        public object FormatVector3Short;
+        public object FormatVector2Byte;
+        public object FormatVector3Byte;
+        public object FormatPose;
+        public object kFormatPose;
+        public object _format;
+        public object m_ByteOffset;
+        public object _bitOffset;
+        public object _sizeInBits;
+
         // ── Methods ──
         public void GetSizeOfPrimitiveFormatInBits(){} // RVA: 0x7933EC0
         public void GetPrimitiveFormatFromType(){} // RVA: 0x7934210
@@ -517,6 +699,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputStateBuffers : ValueType
     {
+        public object sizePerBuffer;
+        public object totalSize;
+        public object defaultStateBuffer;
+        public object noiseMaskBuffer;
+        public object resetMaskBuffer;
+        public object m_AllBuffers;
+        public object m_PlayerStateBuffers;
+        public object s_DefaultStateBuffer;
+        public object s_NoiseMaskBuffer;
+        public object s_ResetMaskBuffer;
+        public object s_CurrentBuffers;
+
         // ── Methods ──
         public void GetDoubleBuffersFor(){} // RVA: 0x93CA60
         public void GetFrontBufferForDevice(){} // RVA: 0x7936890
@@ -534,6 +728,21 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputStateHistory : Object
     {
+        public object kDefaultHistorySize;
+        public object _onRecordAdded;
+        public object _onShouldRecordStateChange;
+        public object m_Controls;
+        public object m_ControlCount;
+        public object m_RecordBuffer;
+        public object m_StateSizeInBytes;
+        public object m_RecordCount;
+        public object m_HistoryDepth;
+        public object m_ExtraMemoryPerRecord;
+        public object m_HeadIndex;
+        public object m_CurrentVersion;
+        public object m_UpdateMask;
+        public object m_AddNewControls;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xBE5870
         public void get_version(){} // RVA: 0x15443F0
@@ -589,6 +798,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class InputUpdate : Object
     {
+        public object s_UpdateStepCount;
+        public object s_LatestUpdateType;
+        public object s_PlayerUpdateStepCount;
+
         // ── Methods ──
         public void OnBeforeUpdate(){} // RVA: 0x7931510
         public void OnUpdate(){} // RVA: 0x7931590
@@ -609,6 +822,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class JoystickState : ValueType
     {
+        public object buttons;
+        public object stick;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927920
         public void get_format(){} // RVA: 0x93A910
@@ -616,6 +832,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class KeyboardState : ValueType
     {
+        public object kSizeInBits;
+        public object kSizeInBytes;
+        public object keys;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x7927930
         public void .ctor(){} // RVA: 0x93AA20
@@ -628,6 +848,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class LinearAccelerationState : ValueType
     {
+        public object acceleration;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927CA0
         public void get_format(){} // RVA: 0x93AC00
@@ -635,6 +857,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class MouseState : ValueType
     {
+        public object position;
+        public object delta;
+        public object scroll;
+        public object buttons;
+        public object displayIndex;
+        public object clickCount;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x7927B80
         public void WithButton(){} // RVA: 0x93AAE0
@@ -643,6 +872,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class NativeInputRuntime : Object
     {
+        public object instance;
+        public object m_RunInBackground;
+        public object m_ShutdownMethod;
+        public object m_OnUpdate;
+        public object m_OnBeforeUpdate;
+        public object m_OnShouldRunUpdate;
+        public object m_PollingFrequency;
+        public object m_DidCallOnShutdown;
+        public object m_FocusChangedMethod;
+
         // ── Methods ──
         public void AllocateDeviceId(){} // RVA: 0x7931750
         public void Update(){} // RVA: 0x79317D0
@@ -684,6 +923,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class PenState : ValueType
     {
+        public object position;
+        public object delta;
+        public object tilt;
+        public object pressure;
+        public object twist;
+        public object buttons;
+        public object displayIndex;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x7927BF0
         public void WithButton(){} // RVA: 0x93AB50
@@ -692,6 +939,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class PointerState : ValueType
     {
+        public object pointerId;
+        public object position;
+        public object delta;
+        public object pressure;
+        public object radius;
+        public object buttons;
+        public object displayIndex;
+
         // ── Methods ──
         public void get_kFormat(){} // RVA: 0x7927C50
         public void get_format(){} // RVA: 0x93ABB0
@@ -699,6 +954,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryCanRunInBackground : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object canRunInBackground;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79271A0
         public void get_typeStatic(){} // RVA: 0x93A420
@@ -707,6 +966,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryDimensionsCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object outDimensions;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79271D0
         public void get_typeStatic(){} // RVA: 0x93A430
@@ -715,6 +978,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryEnabledStateCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object isEnabled;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927210
         public void get_typeStatic(){} // RVA: 0x93A440
@@ -723,6 +990,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryKeyNameCommand : ValueType
     {
+        public object kMaxNameLength;
+        public object kSize;
+        public object baseCommand;
+        public object scanOrKeyCode;
+        public object nameBuffer;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79272F0
         public void ReadKeyName(){} // RVA: 0x93A4C0
@@ -732,6 +1005,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryKeyboardLayoutCommand : ValueType
     {
+        public object kMaxNameLength;
+        public object baseCommand;
+        public object nameBuffer;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927240
         public void ReadLayoutName(){} // RVA: 0x93A450
@@ -742,6 +1019,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryPairedUserAccountCommand : ValueType
     {
+        public object kMaxNameLength;
+        public object kMaxIdLength;
+        public object kSize;
+        public object baseCommand;
+        public object handle;
+        public object nameBuffer;
+        public object idBuffer;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927370
         public void get_id(){} // RVA: 0x93A4F0
@@ -754,6 +1039,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QuerySamplingFrequencyCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object frequency;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927640
         public void get_typeStatic(){} // RVA: 0x93A780
@@ -762,6 +1051,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class QueryUserIdCommand : ValueType
     {
+        public object kMaxIdLength;
+        public object kSize;
+        public object baseCommand;
+        public object idBuffer;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927680
         public void ReadId(){} // RVA: 0x93A450
@@ -771,6 +1065,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class RequestResetCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79276D0
         public void get_typeStatic(){} // RVA: 0x93A7A0
@@ -779,6 +1076,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class RequestSyncCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927700
         public void get_typeStatic(){} // RVA: 0x93A7B0
@@ -787,6 +1087,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class SelectObservable`2 : Object
     {
+        public object m_Source;
+        public object m_Filter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void Subscribe(){} // RVA: 0x87C540
@@ -794,6 +1097,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class SetIMECursorPositionCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object m_Position;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927730
         public void get_position(){} // RVA: 0x3647D0
@@ -803,6 +1110,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class SetSamplingFrequencyCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object frequency;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x7927760
         public void get_typeStatic(){} // RVA: 0x93A7D0
@@ -811,13 +1122,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class StateEvent : ValueType
     {
+        public object Type;
+        public object kStateDataSizeToSubtract;
+        public object baseEvent;
+        public object stateFormat;
+        public object stateData;
+
         // ── Methods ──
         public void get_stateSizeInBytes(){} // RVA: 0x93C6D0
         public void get_state(){} // RVA: 0x93C6E0
         public void ToEventPtr(){} // RVA: 0x93ADF0
         public void get_typeStatic(){} // RVA: 0x93C6F0
         public void GetState(){} // RVA: 0xA94080
-        public void GetEventSizeWithPayload(){} // RVA: 0x29C6280
+        public void GetEventSizeWithPayload(){} // RVA: 0x87CFE0
         public void From(){} // RVA: 0x7930D10
         public void FromUnchecked(){} // RVA: 0x2303260
         public void FromDefaultStateFor(){} // RVA: 0x7930CE0
@@ -825,6 +1142,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class TextEvent : ValueType
     {
+        public object Type;
+        public object baseEvent;
+        public object character;
+
         // ── Methods ──
         public void get_typeStatic(){} // RVA: 0x93C700
         public void From(){} // RVA: 0x79310D0
@@ -833,6 +1154,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class TouchState : ValueType
     {
+        public object kSizeInBytes;
+        public object touchId;
+        public object position;
+        public object delta;
+        public object pressure;
+        public object radius;
+        public object phaseId;
+        public object tapCount;
+        public object displayIndex;
+        public object flags;
+        public object updateStepCount;
+        public object startTime;
+        public object startPosition;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x7927CB0
         public void get_phase(){} // RVA: 0xA62B0
@@ -859,6 +1194,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class TouchscreenState : ValueType
     {
+        public object MaxTouches;
+        public object primaryTouchData;
+        public object kTouchDataOffset;
+        public object touchData;
+
         // ── Methods ──
         public void get_Format(){} // RVA: 0x79281E0
         public void get_primaryTouch(){} // RVA: 0x93ADF0
@@ -868,6 +1208,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.LowLevel
 
     public class WarpMousePositionCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object warpPositionInPlayerDisplaySpace;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x79277A0
         public void get_typeStatic(){} // RVA: 0x93A7E0

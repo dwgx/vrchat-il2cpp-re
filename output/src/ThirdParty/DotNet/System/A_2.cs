@@ -14,6 +14,18 @@ namespace ThirdParty.DotNet.System
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void Invoke(){} // RVA: 0x35A77C0
     }
 
@@ -185,6 +197,12 @@ namespace ThirdParty.DotNet.System
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void Invoke(){} // RVA: 0xBA1350
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
     }
 
@@ -237,24 +255,6 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0xBC4530
         public void BeginInvoke(){} // RVA: 0xB9E020
         public void EndInvoke(){} // RVA: 0xB44BE0
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
@@ -658,6 +658,9 @@ namespace ThirdParty.DotNet.System
 
     public class AppContext : Object
     {
+        public object s_switchMap;
+        public object s_defaultsInitialized;
+
         // ── Methods ──
         public void InitializeDefaultSwitchValues(){} // RVA: 0x6949490
         public void TryGetSwitch(){} // RVA: 0x6949660
@@ -666,6 +669,10 @@ namespace ThirdParty.DotNet.System
 
     public class AppContextDefaultValues : Object
     {
+        public object SwitchEnforceJapaneseEraYearRanges;
+        public object SwitchFormatJapaneseFirstYearAsANumber;
+        public object SwitchEnforceLegacyJapaneseDateParsing;
+
         // ── Methods ──
         public void PopulateDefaultValues(){} // RVA: 0xB43310
         public void TryGetSwitchOverride(){} // RVA: 0x69733E0

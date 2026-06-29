@@ -250,6 +250,16 @@ namespace ThirdParty.Other.SteamAudio
 
     public class Baker : Object
     {
+        public object sStatus;
+        public object sProgressCallback;
+        public object sProgressCallbackPointer;
+        public object sProgressCallbackHandle;
+        public object sThread;
+        public object sNumSubTasks;
+        public object sNumSubTasksCompleted;
+        public object sCancel;
+        public object sTasks;
+
         // ── Methods ──
         public void BeginBake(){} // RVA: 0x6EDF5E0
         public void EndBake(){} // RVA: 0x6EDFE10
@@ -304,6 +314,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class Context : Object
     {
+        public object mContext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE2820
         public void Finalize(){} // RVA: 0x6EE28C0
@@ -341,6 +353,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class EmbreeDevice : Object
     {
+        public object mEmbreeDevice;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE2B70
         public void Finalize(){} // RVA: 0x6EE2C10
@@ -359,6 +373,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class HRTF : Object
     {
+        public object mHRTF;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE3230
         public void Finalize(){} // RVA: 0x6EE32D0
@@ -389,6 +405,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class InstancedMesh : Object
     {
+        public object mInstancedMesh;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE35F0
         public void Finalize(){} // RVA: 0x6EE3690
@@ -410,6 +428,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class OpenCLDevice : Object
     {
+        public object mOpenCLDevice;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE3F30
         public void Finalize(){} // RVA: 0x6EE3FD0
@@ -419,6 +439,9 @@ namespace ThirdParty.Other.SteamAudio
 
     public class PanicFunction_ : Object
     {
+        public object mContext;
+        public object mStaticMesh;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE7EA0
         public void Finalize(){} // RVA: 0x6EE7F90
@@ -440,6 +463,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class ProbeArray : Object
     {
+        public object mProbeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE4130
         public void Finalize(){} // RVA: 0x6EE41D0
@@ -452,6 +477,9 @@ namespace ThirdParty.Other.SteamAudio
 
     public class ProbeBatch : Object
     {
+        public object mContext;
+        public object mProbeBatch;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE4790
         public void Finalize(){} // RVA: 0x6EE4880
@@ -476,6 +504,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class RadeonRaysDevice : Object
     {
+        public object mRadeonRaysDevice;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE4ED0
         public void Finalize(){} // RVA: 0x6EE4F70
@@ -485,6 +515,11 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SOFAFile : ScriptableObject
     {
+        public object sofaName;
+        public object data;
+        public object volume;
+        public object normType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE7140
     }
@@ -511,6 +546,10 @@ namespace ThirdParty.Other.SteamAudio
 
     public class Scene : Object
     {
+        public object mContext;
+        public object mScene;
+        public object mNumObjects;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE5750
         public void Finalize(){} // RVA: 0x6EE5840
@@ -526,6 +565,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SerializedData : ScriptableObject
     {
+        public object data;
+
         // ── Methods ──
         public void PromptForNewAsset(){} // RVA: 0xDAC980
         public void .ctor(){} // RVA: 0xDD1AC0
@@ -533,6 +574,10 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SerializedObject : Object
     {
+        public object mSerializedObject;
+        public object mDataBuffer;
+        public object sAssetsToFlush;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE5E00
         public void Finalize(){} // RVA: 0x6EE5EA0
@@ -547,6 +592,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class Simulator : Object
     {
+        public object mSimulator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE6680
         public void Finalize(){} // RVA: 0x6EE6720
@@ -564,6 +611,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class Source : Object
     {
+        public object mSource;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EE6D40
         public void Finalize(){} // RVA: 0x6EE6DE0
@@ -597,6 +646,9 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioAmbisonicSource : MonoBehaviour
     {
+        public object applyHRTF;
+        public object mAudioEngineAmbisonicSource;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x6EEEE70
         public void Start(){} // RVA: 0x6EEEF70
@@ -608,6 +660,14 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioBakedListener : MonoBehaviour
     {
+        public object influenceRadius;
+        public object useAllProbeBatches;
+        public object probeBatches;
+        public object mTotalDataSize;
+        public object mProbeDataSizes;
+        public object mIdentifier;
+        public object mProbeBatchesUsed;
+
         // ── Methods ──
         public void GetTotalDataSize(){} // RVA: 0xB9E080
         public void GetProbeDataSizes(){} // RVA: 0xD05CA0
@@ -624,6 +684,14 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioBakedSource : MonoBehaviour
     {
+        public object influenceRadius;
+        public object useAllProbeBatches;
+        public object probeBatches;
+        public object mTotalDataSize;
+        public object mProbeDataSizes;
+        public object mIdentifier;
+        public object mProbeBatchesUsed;
+
         // ── Methods ──
         public void GetTotalDataSize(){} // RVA: 0xB9E080
         public void GetProbeDataSizes(){} // RVA: 0xD05CA0
@@ -640,6 +708,9 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioDynamicObject : MonoBehaviour
     {
+        public object asset;
+        public object mInstancedMesh;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x6EF0FC0
         public void OnEnable(){} // RVA: 0x6EF0FF0
@@ -650,6 +721,10 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioGeometry : MonoBehaviour
     {
+        public object material;
+        public object exportAllChildren;
+        public object terrainSimplificationLevel;
+
         // ── Methods ──
         public void GetNumVertices(){} // RVA: 0x6EF15E0
         public void GetNumTriangles(){} // RVA: 0x6EF1770
@@ -678,6 +753,18 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioListener : MonoBehaviour
     {
+        public object currentBakedListener;
+        public object applyReverb;
+        public object reverbType;
+        public object useAllProbeBatches;
+        public object probeBatches;
+        public object mTotalDataSize;
+        public object mProbeDataSizes;
+        public object mIdentifier;
+        public object mProbeBatchesUsed;
+        public object mSimulator;
+        public object mSource;
+
         // ── Methods ──
         public void GetTotalDataSize(){} // RVA: 0xBE5850
         public void GetProbeDataSizes(){} // RVA: 0xBBF8F0
@@ -703,6 +790,43 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioManager : MonoBehaviour
     {
+        public object currentHRTF;
+        public object hrtfNames;
+        public object mNumCPUCores;
+        public object mAudioSettings;
+        public object mContext;
+        public object mHRTFs;
+        public object mEmbreeDevice;
+        public object mEmbreeInitFailed;
+        public object mOpenCLDevice;
+        public object mOpenCLInitFailed;
+        public object mRadeonRaysDevice;
+        public object mRadeonRaysInitFailed;
+        public object mTrueAudioNextDevice;
+        public object mTrueAudioNextInitFailed;
+        public object mCurrentScene;
+        public object mDynamicObjectRefCounts;
+        public object mDynamicObjects;
+        public object mSimulator;
+        public object mAudioEngineState;
+        public object mListener;
+        public object mListenerComponent;
+        public object mSources;
+        public object mListeners;
+        public object mRayHits;
+        public object mMaterialBuffer;
+        public object mSimulationThread;
+        public object mSimulationThreadWaitHandle;
+        public object mStopSimulationThread;
+        public object mSimulationCompleted;
+        public object mSimulationUpdateTimeElapsed;
+        public object mSceneCommitRequired;
+        public object mMainCamera;
+        public object hasGeometryComponentsInScene;
+        public object sSingleton;
+        public object isShuttingDown;
+        public object firstLoadComplete;
+
         // ── Methods ──
         public void get_Singleton(){} // RVA: 0x6EF30E0
         public void get_Context(){} // RVA: 0x6EF3120
@@ -782,6 +906,14 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioMaterial : ScriptableObject
     {
+        public object lowFreqAbsorption;
+        public object midFreqAbsorption;
+        public object highFreqAbsorption;
+        public object scattering;
+        public object lowFreqTransmission;
+        public object midFreqTransmission;
+        public object highFreqTransmission;
+
         // ── Methods ──
         public void GetMaterial(){} // RVA: 0x6EFF670
         public void .ctor(){} // RVA: 0x6EFF6B0
@@ -789,6 +921,16 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioProbeBatch : MonoBehaviour
     {
+        public object placementStrategy;
+        public object horizontalSpacing;
+        public object heightAboveFloor;
+        public object asset;
+        public object probeDataSize;
+        public object mProbeSpheres;
+        public object mBakedDataLayerInfo;
+        public object mProbeBatch;
+        public object kProbeDrawSize;
+
         // ── Methods ──
         public void GetAsset(){} // RVA: 0x6EFF6F0
         public void GetNumProbes(){} // RVA: 0x6EFF880
@@ -835,6 +977,15 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioReverbData : ScriptableObject
     {
+        public object reverbTimes;
+        public object reverbEnergyField;
+        public object reverbEnergyFieldNumChannels;
+        public object reverbEnergyFieldNumBands;
+        public object reverbEnergyFieldNumBins;
+        public object reverbIR;
+        public object reverbIRNumChannels;
+        public object reverbIRNumSamples;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x6F02420
         public void GetImpulseResponseSize(){} // RVA: 0x6F02580
@@ -846,6 +997,14 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioReverbDataPoint : MonoBehaviour
     {
+        public object sampleRate;
+        public object ambisonicOrder;
+        public object reverbDuration;
+        public object storeEnergyField;
+        public object storeImpulseResponse;
+        public object reverbData;
+        public object sAssetsToFlush;
+
         // ── Methods ──
         public void CreateFolderRecursively(){} // RVA: 0xB43310
         public void GetAssetFolderPath(){} // RVA: 0x6F02640
@@ -862,6 +1021,52 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioSettings : ScriptableObject
     {
+        public object audioEngine;
+        public object hrtfDisabled;
+        public object perspectiveCorrection;
+        public object perspectiveCorrectionFactor;
+        public object hrtfVolumeGainDB;
+        public object hrtfNormalizationType;
+        public object SOFAFiles;
+        public object defaultMaterial;
+        public object sceneType;
+        public object layerMask;
+        public object maxOcclusionSamples;
+        public object realTimeRays;
+        public object realTimeBounces;
+        public object realTimeDuration;
+        public object realTimeAmbisonicOrder;
+        public object realTimeMaxSources;
+        public object realTimeCPUCoresPercentage;
+        public object realTimeIrradianceMinDistance;
+        public object bakeConvolution;
+        public object bakeParametric;
+        public object bakingRays;
+        public object bakingBounces;
+        public object bakingDuration;
+        public object bakingAmbisonicOrder;
+        public object bakingCPUCoresPercentage;
+        public object bakingIrradianceMinDistance;
+        public object bakingVisibilitySamples;
+        public object bakingVisibilityRadius;
+        public object bakingVisibilityThreshold;
+        public object bakingVisibilityRange;
+        public object bakingPathRange;
+        public object bakedPathingCPUCoresPercentage;
+        public object simulationUpdateInterval;
+        public object reflectionEffectType;
+        public object hybridReverbTransitionTime;
+        public object hybridReverbOverlapPercent;
+        public object deviceType;
+        public object maxReservedComputeUnits;
+        public object fractionComputeUnitsForIRUpdate;
+        public object bakingBatchSize;
+        public object TANDuration;
+        public object TANAmbisonicOrder;
+        public object TANMaxSources;
+        public object EnableValidation;
+        public object sSingleton;
+
         // ── Methods ──
         public void get_Singleton(){} // RVA: 0x6F03870
         public void .ctor(){} // RVA: 0x6F03B70
@@ -869,6 +1074,86 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioSource : MonoBehaviour
     {
+        public object directBinaural;
+        public object perspectiveCorrection;
+        public object distanceAttenuation;
+        public object distanceAttenuationInput;
+        public object distanceAttenuationValue;
+        public object airAbsorption;
+        public object airAbsorptionInput;
+        public object airAbsorptionLow;
+        public object airAbsorptionMid;
+        public object airAbsorptionHigh;
+        public object distanceAttenuationIgnoreBlend;
+        public object preGainRaw;
+        public object preGainSpatial;
+        public object volumetricRadius;
+        public object directivity;
+        public object directivityInput;
+        public object dipoleWeightLow;
+        public object dipoleWeightMid;
+        public object dipoleWeightHigh;
+        public object dipolePowerLow;
+        public object dipolePowerMid;
+        public object dipolePowerHigh;
+        public object directivityValueLow;
+        public object directivityValueMid;
+        public object directivityValueHigh;
+        public object occlusion;
+        public object occlusionInput;
+        public object occlusionType;
+        public object occlusionRadius;
+        public object occlusionSamples;
+        public object occlusionValue;
+        public object transmission;
+        public object transmissionType;
+        public object transmissionInput;
+        public object transmissionLow;
+        public object transmissionMid;
+        public object transmissionHigh;
+        public object maxTransmissionSurfaces;
+        public object directMixLevel;
+        public object reflections;
+        public object reflectionsType;
+        public object useDistanceCurveForReflections;
+        public object currentBakedSource;
+        public object reflectionsIR;
+        public object reverbTimeLow;
+        public object reverbTimeMid;
+        public object reverbTimeHigh;
+        public object hybridReverbEQLow;
+        public object hybridReverbEQMid;
+        public object hybridReverbEQHigh;
+        public object hybridReverbDelay;
+        public object applyHRTFToReflections;
+        public object reflectionsMixLevel;
+        public object pathing;
+        public object pathingProbeBatch;
+        public object pathValidation;
+        public object findAlternatePaths;
+        public object pathingEQ;
+        public object pathingSH;
+        public object applyHRTFToPathing;
+        public object pathingMixLevel;
+        public object normalizePathingEQ;
+        public object mSimulator;
+        public object mSource;
+        public object mAudioEngineSource;
+        public object mSphereVertices;
+        public object mDeformedSphereVertices;
+        public object mDeformedSphereMeshLow;
+        public object mDeformedSphereMeshMid;
+        public object mDeformedSphereMeshHigh;
+        public object mAudioSource;
+        public object mAttenuationData;
+        public object mCurveAttenuationModel;
+        public object mSettings;
+        public object mThisHandle;
+        public object sSourceMap;
+        public object sNextSourceID;
+        public object initializedSource;
+        public object sourceAddedToSimulator;
+
         // ── Methods ──
         public void get_interpolation(){} // RVA: 0xC3CCE0
         public void Awake(){} // RVA: 0x6F03C90
@@ -896,6 +1181,11 @@ namespace ThirdParty.Other.SteamAudio
 
     public class SteamAudioStaticMesh : MonoBehaviour
     {
+        public object asset;
+        public object sceneNameWhenExported;
+        public object mStaticMesh;
+        public object mTask;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x6F07830
         public void OnDestroy(){} // RVA: 0x6F079E0
@@ -908,6 +1198,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class TrueAudioNextDevice : Object
     {
+        public object mTrueAudioNextDevice;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6F083F0
         public void Finalize(){} // RVA: 0x6F08490
@@ -917,6 +1209,8 @@ namespace ThirdParty.Other.SteamAudio
 
     public class UnityAudioEngineAmbisonicSource : AudioEngineAmbisonicSource
     {
+        public object mAudioSource;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x6F08550
         public void UpdateParameters(){} // RVA: 0x6F08600
@@ -925,6 +1219,12 @@ namespace ThirdParty.Other.SteamAudio
 
     public class UnityAudioEngineSource : AudioEngineSource
     {
+        public object mAudioSource;
+        public object mSteamAudioSource;
+        public object mHandle;
+        public object mPlayCounter;
+        public object mWasPlaying;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x6F08710
         public void Destroy(){} // RVA: 0x6F08980

@@ -7,6 +7,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class MethodInfoFormatter`1 : BaseFormatter`1
     {
+        public object StringSerializer;
+        public object TypeSerializer;
+        public object TypeArraySerializer;
+
         // ── Methods ──
         public void DeserializeImplementation(){} // RVA: 0x8943B0
         public void SerializeImplementation(){} // RVA: 0x8943B0
@@ -17,6 +21,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x87C0A0
         public void Deserialize(){} // RVA: 0xA94080
@@ -33,6 +39,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C1090
@@ -49,6 +57,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C16F0
@@ -65,6 +75,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3510
@@ -81,6 +93,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C4500
@@ -97,6 +111,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3510
@@ -113,6 +129,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3510
@@ -129,6 +147,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3510
@@ -145,6 +165,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46BF4C0
@@ -161,6 +183,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C0240
@@ -177,6 +201,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0xAD0950
@@ -193,6 +219,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46BFC40
@@ -209,6 +237,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C1C20
@@ -225,6 +255,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C2290
@@ -241,6 +273,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3510
@@ -257,6 +291,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C28E0
@@ -273,6 +309,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C2FC0
@@ -289,6 +327,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3AA0
@@ -305,6 +345,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C3FD0
@@ -321,6 +363,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C4A60
@@ -337,6 +381,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C5520
@@ -353,6 +399,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C6100
@@ -369,6 +417,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C4FC0
@@ -385,6 +435,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MinimalBaseFormatter`1 : Object
     {
+        public object IsValueType;
+
         // ── Methods ──
         public void get_SerializedType(){} // RVA: 0x3DCE540
         public void Deserialize(){} // RVA: 0x46C5B80
@@ -401,6 +453,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class MultiDimensionalArrayFormatter`2 : BaseFormatter`1
     {
+        public object RANKS_NAME;
+        public object RANKS_SEPARATOR;
+        public object ArrayRank;
+        public object ValueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void GetUninitializedObject(){} // RVA: 0xA94080

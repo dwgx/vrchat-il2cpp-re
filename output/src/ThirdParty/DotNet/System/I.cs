@@ -11,6 +11,12 @@ namespace ThirdParty.DotNet.System
         public void DisposeAsync(){} // RVA: 0x87BEB0
     }
 
+    public class IComparable
+    {
+        // ── Methods ──
+        public void CompareTo(){} // RVA: 0x87D050
+    }
+
     public class IComparable`1
     {
         // ── Methods ──
@@ -152,13 +158,19 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87DD20
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87DD20
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
@@ -236,12 +248,6 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
         public void Equals(){} // RVA: 0x87DD20
     }
 
@@ -255,12 +261,6 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Equals(){} // RVA: 0xA94080
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D910
     }
 
     public class IEquatable`1
@@ -350,7 +350,19 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x87DD20
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
         public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D310
     }
 
     public class IEquatable`1
@@ -368,67 +380,13 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
+        public void Equals(){} // RVA: 0x87D490
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
+        public void Equals(){} // RVA: 0x87D490
     }
 
     public class IEquatable`1
@@ -518,12 +476,6 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
         public void Equals(){} // RVA: 0x87DD20
     }
 
@@ -555,6 +507,54 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87DFE0
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0xA94080
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D310
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0xA94080
     }
 
     public class IEquatable`1
@@ -589,6 +589,8 @@ namespace ThirdParty.DotNet.System
 
     public class Int16 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x8B9550
         public void Equals(){} // RVA: 0x8B1570
@@ -637,6 +639,8 @@ namespace ThirdParty.DotNet.System
 
     public class Int32 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x14F6F0
         public void Equals(){} // RVA: 0x14FC80
@@ -705,6 +709,8 @@ namespace ThirdParty.DotNet.System
 
     public class Int64 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x8BA4E0
         public void Equals(){} // RVA: 0x3189D0
@@ -733,6 +739,9 @@ namespace ThirdParty.DotNet.System
 
     public class IntPtr : ValueType
     {
+        public object m_value;
+        public object Zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BEF70
         public void get_Size(){} // RVA: 0x17FCE50

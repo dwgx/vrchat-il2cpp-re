@@ -7,6 +7,9 @@ namespace VRC.Core
 {
     public class ExtensionMethods : Object
     {
+        public object _componentIndices;
+        public object _cachedStringBuilder;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0xA5DE9B0
         public void GetOrAddComponent(){} // RVA: 0x30CA960
@@ -17,7 +20,7 @@ namespace VRC.Core
         public void GetComponentsInChildrenPooled(){} // RVA: 0x30CA300
         public void GetComponentsInParentPooled(){} // RVA: 0x30CA610
         public void GetComponentInClone(){} // RVA: 0xA5DF870
-        public void Merge(){} // RVA: 0x30CAA70
+        public void Merge(){} // RVA: 0x30CB130
         public void CopyQueryParametersTo(){} // RVA: 0xA5E06C0
         public void .cctor(){} // RVA: 0xA5E0DD0
     }

@@ -7,146 +7,180 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq.JsonPath
 {
     public class ArrayIndexFilter : PathFilter
     {
+        public object _index;
+
         // ── Methods ──
-        public void get_Index(){} // RVA: 0x7A80F2570
-        public void set_Index(){} // RVA: 0x7A97242F0
-        public void ExecuteFilter(){} // RVA: 0x7ADE40360
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Index(){} // RVA: 0xB5DBF0
+        public void set_Index(){} // RVA: 0x2230E30
+        public void ExecuteFilter(){} // RVA: 0x6AC7AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ArrayMultipleIndexFilter : PathFilter
     {
+        public object Indexes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE40EC0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AC8640
     }
 
     public class ArraySliceFilter : PathFilter
     {
+        public object _start;
+        public object _end;
+        public object _step;
+
         // ── Methods ──
-        public void get_Start(){} // RVA: 0x7A80F2570
-        public void set_Start(){} // RVA: 0x7A97242F0
-        public void get_End(){} // RVA: 0x7A80DA7B0
-        public void set_End(){} // RVA: 0x7A8A224D0
-        public void get_Step(){} // RVA: 0x7A81052C0
-        public void set_Step(){} // RVA: 0x7A8884B10
-        public void ExecuteFilter(){} // RVA: 0x7ADE41960
-        public void IsValid(){} // RVA: 0x7ADE41AE0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Start(){} // RVA: 0xB5DBF0
+        public void set_Start(){} // RVA: 0x2230E30
+        public void get_End(){} // RVA: 0xB465B0
+        public void set_End(){} // RVA: 0x15428E0
+        public void get_Step(){} // RVA: 0xB700F0
+        public void set_Step(){} // RVA: 0x13B3F80
+        public void ExecuteFilter(){} // RVA: 0x6AC90E0
+        public void IsValid(){} // RVA: 0x6AC9260
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class BooleanQueryExpression : QueryExpression
     {
+        public object Left;
+        public object Right;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC6DFD0
-        public void GetResult(){} // RVA: 0x7ADE48560
-        public void IsMatch(){} // RVA: 0x7ADE48700
-        public void MatchTokens(){} // RVA: 0x7ADE48C30
-        public void RegexEquals(){} // RVA: 0x7ADE48EA0
-        public void EqualsWithStringCoercion(){} // RVA: 0x7ADE490B0
-        public void EqualsWithStrictMatch(){} // RVA: 0x7ADE49680
+        public void .ctor(){} // RVA: 0x38BA2E0
+        public void GetResult(){} // RVA: 0x6ACFC20
+        public void IsMatch(){} // RVA: 0x6ACFDC0
+        public void MatchTokens(){} // RVA: 0x6AD02F0
+        public void RegexEquals(){} // RVA: 0x6AD0560
+        public void EqualsWithStringCoercion(){} // RVA: 0x6AD0760
+        public void EqualsWithStrictMatch(){} // RVA: 0x6AD0D20
     }
 
     public class CompositeExpression : QueryExpression
     {
+        public object _expressions;
+
         // ── Methods ──
-        public void get_Expressions(){} // RVA: 0x7A80DA7B0
-        public void set_Expressions(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7ADE48190
-        public void IsMatch(){} // RVA: 0x7ADE48250
+        public void get_Expressions(){} // RVA: 0xB465B0
+        public void set_Expressions(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0x6ACF850
+        public void IsMatch(){} // RVA: 0x6ACF910
     }
 
     public class FieldFilter : PathFilter
     {
+        public object Name;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE427E0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AC9F60
     }
 
     public class FieldMultipleFilter : PathFilter
     {
+        public object Names;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE43430
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6ACABB0
     }
 
     public class JPath : Object
     {
+        public object FloatCharacters;
+        public object _expression;
+        public object _filters;
+        public object _currentIndex;
+
         // ── Methods ──
-        public void get_Filters(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7ADE443C0
-        public void ParseMain(){} // RVA: 0x7ADE44540
-        public void ParsePath(){} // RVA: 0x7ADE44730
-        public void CreatePathFilter(){} // RVA: 0x7ADE44CE0
-        public void ParseIndexer(){} // RVA: 0x7ADE44E20
-        public void ParseArrayIndexer(){} // RVA: 0x7ADE44F50
-        public void EatWhitespace(){} // RVA: 0x7ADE45970
-        public void ParseQuery(){} // RVA: 0x7ADE459C0
-        public void TryParseExpression(){} // RVA: 0x7ADE45D30
-        public void CreateUnexpectedCharacterException(){} // RVA: 0x7ADE46000
-        public void ParseSide(){} // RVA: 0x7ADE46150
-        public void ParseExpression(){} // RVA: 0x7ADE463D0
-        public void TryParseValue(){} // RVA: 0x7ADE46780
-        public void ReadQuotedString(){} // RVA: 0x7ADE46D00
-        public void ReadRegexString(){} // RVA: 0x7ADE46FD0
-        public void Match(){} // RVA: 0x7ADE47170
-        public void ParseOperator(){} // RVA: 0x7ADE47230
-        public void ParseQuotedField(){} // RVA: 0x7ADE47510
-        public void EnsureLength(){} // RVA: 0x7ADE478F0
-        public void Evaluate(){} // RVA: 0x7ADE479F0
-        public void .cctor(){} // RVA: 0x7ADE47C10
+        public void get_Filters(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6ACBB40
+        public void ParseMain(){} // RVA: 0x6ACBCC0
+        public void ParsePath(){} // RVA: 0x6ACBEA0
+        public void CreatePathFilter(){} // RVA: 0x6ACC440
+        public void ParseIndexer(){} // RVA: 0x6ACC580
+        public void ParseArrayIndexer(){} // RVA: 0x6ACC6B0
+        public void EatWhitespace(){} // RVA: 0x6ACD0A0
+        public void ParseQuery(){} // RVA: 0x6ACD0F0
+        public void TryParseExpression(){} // RVA: 0x6ACD450
+        public void CreateUnexpectedCharacterException(){} // RVA: 0x6ACD720
+        public void ParseSide(){} // RVA: 0x6ACD840
+        public void ParseExpression(){} // RVA: 0x6ACDAC0
+        public void TryParseValue(){} // RVA: 0x6ACDE70
+        public void ReadQuotedString(){} // RVA: 0x6ACE410
+        public void ReadRegexString(){} // RVA: 0x6ACE6E0
+        public void Match(){} // RVA: 0x6ACE860
+        public void ParseOperator(){} // RVA: 0x6ACE920
+        public void ParseQuotedField(){} // RVA: 0x6ACEC00
+        public void EnsureLength(){} // RVA: 0x6ACEFE0
+        public void Evaluate(){} // RVA: 0x6ACF0E0
+        public void .cctor(){} // RVA: 0x6ACF300
     }
 
     public class PathFilter : Object
     {
         // ── Methods ──
-        public void ExecuteFilter(){} // RVA: 0x7A7E06710
-        public void GetTokenIndex(){} // RVA: 0x7ADE47CF0
-        public void GetNextScanValue(){} // RVA: 0x7ADE48090
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void ExecuteFilter(){} // RVA: 0x882090
+        public void GetTokenIndex(){} // RVA: 0x6ACF3E0
+        public void GetNextScanValue(){} // RVA: 0x6ACF750
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class QueryExpression : Object
     {
+        public object Operator;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void IsMatch(){} // RVA: 0x7A7E01D90
+        public void .ctor(){} // RVA: 0xB460A0
+        public void IsMatch(){} // RVA: 0x87D710
     }
 
     public class QueryFilter : PathFilter
     {
+        public object Expression;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE497E0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AD0E80
     }
 
     public class QueryScanFilter : PathFilter
     {
+        public object Expression;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE4A280
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AD1920
     }
 
     public class RootFilter : PathFilter
     {
+        public object Instance;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void ExecuteFilter(){} // RVA: 0x7ADE4ADE0
-        public void .cctor(){} // RVA: 0x7ADE4AE80
+        public void .ctor(){} // RVA: 0xB43310
+        public void ExecuteFilter(){} // RVA: 0x6AD2480
+        public void .cctor(){} // RVA: 0x6AD2520
     }
 
     public class ScanFilter : PathFilter
     {
+        public object Name;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE4AF20
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AD25C0
     }
 
     public class ScanMultipleFilter : PathFilter
     {
+        public object _names;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ExecuteFilter(){} // RVA: 0x7ADE4B840
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ExecuteFilter(){} // RVA: 0x6AD2EE0
     }
 
 }

@@ -7,161 +7,193 @@ namespace ThirdParty.Discord.Discord.Sdk
 {
     public class Activity : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x7A9C60980
-        public void .ctor(){} // RVA: 0x7A9C60A80
-        public void Dispose(){} // RVA: 0x7A9C60B30
-        public void SetState(){} // RVA: 0x7A9C60C00
-        public void Assets(){} // RVA: 0x7A9C60E30
-        public void SetAssets(){} // RVA: 0x7A9C60F60
-        public void Timestamps(){} // RVA: 0x7A9C61080
-        public void SetTimestamps(){} // RVA: 0x7A9C611B0
-        public void Party(){} // RVA: 0x7A9C612D0
-        public void SetParty(){} // RVA: 0x7A9C61400
-        public void Secrets(){} // RVA: 0x7A9C61520
-        public void SetSecrets(){} // RVA: 0x7A9C61650
+        public void Finalize(){} // RVA: 0x26DD0E0
+        public void .ctor(){} // RVA: 0x26DD1E0
+        public void Dispose(){} // RVA: 0x26DD290
+        public void SetState(){} // RVA: 0x26DD360
+        public void Assets(){} // RVA: 0x26DD590
+        public void SetAssets(){} // RVA: 0x26DD6C0
+        public void Timestamps(){} // RVA: 0x26DD7E0
+        public void SetTimestamps(){} // RVA: 0x26DD910
+        public void Party(){} // RVA: 0x26DDA30
+        public void SetParty(){} // RVA: 0x26DDB60
+        public void Secrets(){} // RVA: 0x26DDC80
+        public void SetSecrets(){} // RVA: 0x26DDDB0
     }
 
     public class ActivityAssets : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C5F180
-        public void Finalize(){} // RVA: 0x7A9C5F080
-        public void Dispose(){} // RVA: 0x7A9C5F230
-        public void SetLargeImage(){} // RVA: 0x7A9C5F300
-        public void SetLargeText(){} // RVA: 0x7A9C5F530
-        public void SetSmallImage(){} // RVA: 0x7A9C5F760
-        public void SetSmallText(){} // RVA: 0x7A9C5F990
+        public void .ctor(){} // RVA: 0x26DB8E0
+        public void Finalize(){} // RVA: 0x26DB7E0
+        public void Dispose(){} // RVA: 0x26DB990
+        public void SetLargeImage(){} // RVA: 0x26DBA60
+        public void SetLargeText(){} // RVA: 0x26DBC90
+        public void SetSmallImage(){} // RVA: 0x26DBEC0
+        public void SetSmallText(){} // RVA: 0x26DC0F0
     }
 
     public class ActivityParty : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C60020
-        public void Finalize(){} // RVA: 0x7A9C5FF20
-        public void Dispose(){} // RVA: 0x7A9C600D0
-        public void SetId(){} // RVA: 0x7A9C601A0
-        public void SetCurrentSize(){} // RVA: 0x7A9C60370
-        public void SetMaxSize(){} // RVA: 0x7A9C60450
+        public void .ctor(){} // RVA: 0x26DC780
+        public void Finalize(){} // RVA: 0x26DC680
+        public void Dispose(){} // RVA: 0x26DC830
+        public void SetId(){} // RVA: 0x26DC900
+        public void SetCurrentSize(){} // RVA: 0x26DCAD0
+        public void SetMaxSize(){} // RVA: 0x26DCBB0
     }
 
     public class ActivitySecrets : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C60630
-        public void Finalize(){} // RVA: 0x7A9C60530
-        public void Dispose(){} // RVA: 0x7A9C606E0
-        public void SetJoin(){} // RVA: 0x7A9C607B0
+        public void .ctor(){} // RVA: 0x26DCD90
+        public void Finalize(){} // RVA: 0x26DCC90
+        public void Dispose(){} // RVA: 0x26DCE40
+        public void SetJoin(){} // RVA: 0x26DCF10
     }
 
     public class ActivityTimestamps : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C5FCC0
-        public void Finalize(){} // RVA: 0x7A9C5FBC0
-        public void Dispose(){} // RVA: 0x7A9C5FD70
-        public void SetStart(){} // RVA: 0x7A9C5FE40
+        public void .ctor(){} // RVA: 0x26DC420
+        public void Finalize(){} // RVA: 0x26DC320
+        public void Dispose(){} // RVA: 0x26DC4D0
+        public void SetStart(){} // RVA: 0x26DC5A0
     }
 
     public class AuthorizationArgs : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x7A9C61E90
-        public void .ctor(){} // RVA: 0x7A9C61F90
-        public void Dispose(){} // RVA: 0x7A9C62040
-        public void SetClientId(){} // RVA: 0x7A9C62110
-        public void SetScopes(){} // RVA: 0x7A9C621F0
+        public void Finalize(){} // RVA: 0x26DE5F0
+        public void .ctor(){} // RVA: 0x26DE6F0
+        public void Dispose(){} // RVA: 0x26DE7A0
+        public void SetClientId(){} // RVA: 0x26DE870
+        public void SetScopes(){} // RVA: 0x26DE950
     }
 
     public class Client : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x7A9C62C70
-        public void .ctor(){} // RVA: 0x7A9C62CB0
-        public void Dispose(){} // RVA: 0x7A9C62D60
-        public void GetDefaultPresenceScopes(){} // RVA: 0x7A9C62E30
-        public void Authorize(){} // RVA: 0x7A9C62F40
-        public void UpdateToken(){} // RVA: 0x7A9C631D0
-        public void AddLogCallback(){} // RVA: 0x7A9C63530
-        public void Connect(){} // RVA: 0x7A9C63790
-        public void Disconnect(){} // RVA: 0x7A9C63860
-        public void SetApplicationId(){} // RVA: 0x7A9C63930
-        public void SetStatusChangedCallback(){} // RVA: 0x7A9C63A10
-        public void ClearRichPresence(){} // RVA: 0x7A9C63C50
-        public void SendActivityInvite(){} // RVA: 0x7A9C63D20
-        public void SetActivityJoinCallback(){} // RVA: 0x7A9C64080
-        public void UpdateRichPresence(){} // RVA: 0x7A9C642C0
-        public void GetRelationships(){} // RVA: 0x7A9C64550
-        public void SetUserUpdatedCallback(){} // RVA: 0x7A9C64830
+        public void Finalize(){} // RVA: 0x26DF3D0
+        public void .ctor(){} // RVA: 0x26DF410
+        public void Dispose(){} // RVA: 0x26DF4C0
+        public void GetDefaultPresenceScopes(){} // RVA: 0x26DF590
+        public void Authorize(){} // RVA: 0x26DF6A0
+        public void UpdateToken(){} // RVA: 0x26DF930
+        public void AddLogCallback(){} // RVA: 0x26DFC90
+        public void Connect(){} // RVA: 0x26DFEF0
+        public void Disconnect(){} // RVA: 0x26DFFC0
+        public void SetApplicationId(){} // RVA: 0x26E0090
+        public void SetStatusChangedCallback(){} // RVA: 0x26E0170
+        public void ClearRichPresence(){} // RVA: 0x26E03B0
+        public void SendActivityInvite(){} // RVA: 0x26E0480
+        public void SetActivityJoinCallback(){} // RVA: 0x26E07E0
+        public void UpdateRichPresence(){} // RVA: 0x26E0A20
+        public void GetRelationships(){} // RVA: 0x26E0CB0
+        public void SetUserUpdatedCallback(){} // RVA: 0x26E0F90
     }
 
     public class ClientResult : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9725F90
-        public void Finalize(){} // RVA: 0x7A9C61770
-        public void Dispose(){} // RVA: 0x7A9C61870
-        public void ToString(){} // RVA: 0x7A9C61940
-        public void Type(){} // RVA: 0x7A9C61AB0
-        public void Error(){} // RVA: 0x7A9C61B80
-        public void ErrorCode(){} // RVA: 0x7A9C61CF0
-        public void Successful(){} // RVA: 0x7A9C61DC0
+        public void .ctor(){} // RVA: 0x2232610
+        public void Finalize(){} // RVA: 0x26DDED0
+        public void Dispose(){} // RVA: 0x26DDFD0
+        public void ToString(){} // RVA: 0x26DE0A0
+        public void Type(){} // RVA: 0x26DE210
+        public void Error(){} // RVA: 0x26DE2E0
+        public void ErrorCode(){} // RVA: 0x26DE450
+        public void Successful(){} // RVA: 0x26DE520
     }
 
     public class NativeMethods : Object
     {
+        public object UnhandledException;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A9C5B2B0
-        public void __Init(){} // RVA: 0x7A80D7310
-        public void __ReportUnhandledException(){} // RVA: 0x7A9C5B700
-        public void __OnPostConstruct(){} // RVA: 0x7A80D7310
-        public void __InitStringLocal(){} // RVA: 0x7A9C5B7B0
-        public void __InitNullableStringLocal(){} // RVA: 0x7A9C5B9A0
-        public void __FreeLocalString(){} // RVA: 0x7A9C5BA50
-        public void Discord_Free(){} // RVA: 0x7A9C5BAC0
-        public void Discord_RunCallbacks(){} // RVA: 0x7A9C5BB40
-        public void Discord_ResetCallbacks(){} // RVA: 0x7A9C5BBB0
+        public void .cctor(){} // RVA: 0x26D7A40
+        public void __Init(){} // RVA: 0xB43310
+        public void __ReportUnhandledException(){} // RVA: 0x26D7E60
+        public void __OnPostConstruct(){} // RVA: 0xB43310
+        public void __InitStringLocal(){} // RVA: 0x26D7F10
+        public void __InitNullableStringLocal(){} // RVA: 0x26D8100
+        public void __FreeLocalString(){} // RVA: 0x26D81B0
+        public void Discord_Free(){} // RVA: 0x26D8220
+        public void Discord_RunCallbacks(){} // RVA: 0x26D82A0
+        public void Discord_ResetCallbacks(){} // RVA: 0x26D8310
     }
 
     public class RelationshipHandle : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9725F90
-        public void Finalize(){} // RVA: 0x7A9C623C0
-        public void Dispose(){} // RVA: 0x7A9C624C0
-        public void DiscordRelationshipType(){} // RVA: 0x7A9C62590
-        public void User(){} // RVA: 0x7A9C62660
+        public void .ctor(){} // RVA: 0x2232610
+        public void Finalize(){} // RVA: 0x26DEB20
+        public void Dispose(){} // RVA: 0x26DEC20
+        public void DiscordRelationshipType(){} // RVA: 0x26DECF0
+        public void User(){} // RVA: 0x26DEDC0
     }
 
     public class UserHandle : Object
     {
+        public object self;
+        public object disposed_;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9725F90
-        public void Finalize(){} // RVA: 0x7A9C62790
-        public void Dispose(){} // RVA: 0x7A9C62890
-        public void DisplayName(){} // RVA: 0x7A9C62960
-        public void Id(){} // RVA: 0x7A9C62AD0
-        public void Status(){} // RVA: 0x7A9C62BA0
+        public void .ctor(){} // RVA: 0x2232610
+        public void Finalize(){} // RVA: 0x26DEEF0
+        public void Dispose(){} // RVA: 0x26DEFF0
+        public void DisplayName(){} // RVA: 0x26DF0C0
+        public void Id(){} // RVA: 0x26DF230
+        public void Status(){} // RVA: 0x26DF300
     }
 
     public class UserHandle[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
 }

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class CryptoAPITransform : Object
     {
+        public object m_disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF48510
         public void get_CanReuseTransform(){} // RVA: 0xC2E4C0
@@ -23,6 +25,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CryptoConfig : Object
     {
+        public object lockObject;
+        public object algorithms;
+
         // ── Methods ──
         public void AddOID(){} // RVA: 0x6719870
         public void CreateFromName(){} // RVA: 0x6719910
@@ -45,6 +50,21 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CryptoStream : Stream
     {
+        public object _stream;
+        public object _transform;
+        public object _transformMode;
+        public object _inputBuffer;
+        public object _inputBufferIndex;
+        public object _inputBlockSize;
+        public object _outputBuffer;
+        public object _outputBufferIndex;
+        public object _outputBlockSize;
+        public object _canRead;
+        public object _canWrite;
+        public object _finalBlockTransformed;
+        public object _lazyAsyncActiveSemaphore;
+        public object _leaveOpen;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66E5CA0
         public void get_CanRead(){} // RVA: 0xB6B1A0
@@ -83,6 +103,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CryptographicException : SystemException
     {
+        public object FORMAT_MESSAGE_IGNORE_INSERTS;
+        public object FORMAT_MESSAGE_FROM_SYSTEM;
+        public object FORMAT_MESSAGE_ARGUMENT_ARRAY;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x23022F0
         public void ThrowCryptographicException(){} // RVA: 0x66F07B0
@@ -103,6 +127,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CspKeyContainerInfo : Object
     {
+        public object _params;
+        public object _random;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x12306B0
         public void get_Accessible(){} // RVA: 0xC2E4C0
@@ -122,6 +149,15 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class CspParameters : Object
     {
+        public object ProviderType;
+        public object ProviderName;
+        public object KeyContainerName;
+        public object KeyNumber;
+        public object m_flags;
+        public object m_cryptoKeySecurity;
+        public object m_keyPassword;
+        public object m_parentWindowHandle;
+
         // ── Methods ──
         public void get_Flags(){} // RVA: 0x1AE5AC0
         public void set_Flags(){} // RVA: 0x66F09A0

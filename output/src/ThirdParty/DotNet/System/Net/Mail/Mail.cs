@@ -8,59 +8,65 @@ namespace ThirdParty.DotNet.System.Net.Mail
     public class DomainLiteralReader : Object
     {
         // ── Methods ──
-        public void ReadReverse(){} // RVA: 0x7AE9A5C20
+        public void ReadReverse(){} // RVA: 0x7617D40
     }
 
     public class DotAtomReader : Object
     {
         // ── Methods ──
-        public void ReadReverse(){} // RVA: 0x7AE9A5EE0
+        public void ReadReverse(){} // RVA: 0x7617FF0
     }
 
     public class MailAddress : Object
     {
+        public object _displayNameEncoding;
+        public object _displayName;
+        public object _userName;
+        public object _host;
+        public object s_encoderFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE9A7F20
-        public void get_DisplayName(){} // RVA: 0x7A80DA7B0
-        public void get_Address(){} // RVA: 0x7AE9A82F0
-        public void get_SmtpAddress(){} // RVA: 0x7AE9A8340
-        public void ToString(){} // RVA: 0x7AE9A83E0
-        public void Equals(){} // RVA: 0x7AE9A8530
-        public void GetHashCode(){} // RVA: 0x7A9CC18D0
-        public void .cctor(){} // RVA: 0x7AE9A8640
+        public void .ctor(){} // RVA: 0x761A130
+        public void get_DisplayName(){} // RVA: 0xB465B0
+        public void get_Address(){} // RVA: 0x761A4F0
+        public void get_SmtpAddress(){} // RVA: 0x761A540
+        public void ToString(){} // RVA: 0x761A5E0
+        public void Equals(){} // RVA: 0x761A730
+        public void GetHashCode(){} // RVA: 0x273F540
+        public void .cctor(){} // RVA: 0x761A840
     }
 
     public class MailAddressParser : Object
     {
         // ── Methods ──
-        public void ParseAddress(){} // RVA: 0x7AE9A61E0
-        public void ReadCfwsAndThrowIfIncomplete(){} // RVA: 0x7AE9A6780
-        public void ParseDomain(){} // RVA: 0x7AE9A67F0
-        public void ParseLocalPart(){} // RVA: 0x7AE9A68F0
-        public void ParseDisplayName(){} // RVA: 0x7AE9A6C90
-        public void NormalizeOrThrow(){} // RVA: 0x7AE9A6EB0
+        public void ParseAddress(){} // RVA: 0x76182E0
+        public void ReadCfwsAndThrowIfIncomplete(){} // RVA: 0x7618860
+        public void ParseDomain(){} // RVA: 0x76188D0
+        public void ParseLocalPart(){} // RVA: 0x76189D0
+        public void ParseDisplayName(){} // RVA: 0x7618D70
+        public void NormalizeOrThrow(){} // RVA: 0x76190F0
     }
 
     public class QuotedPairReader : Object
     {
         // ── Methods ──
-        public void CountQuotedChars(){} // RVA: 0x7AE9A6F40
-        public void CountBackslashes(){} // RVA: 0x7AE9A7170
+        public void CountQuotedChars(){} // RVA: 0x7619180
+        public void CountBackslashes(){} // RVA: 0x76193B0
     }
 
     public class QuotedStringFormatReader : Object
     {
         // ── Methods ──
-        public void ReadReverseQuoted(){} // RVA: 0x7AE9A7230
-        public void ReadReverseUnQuoted(){} // RVA: 0x7AE9A7480
-        public void IsValidQtext(){} // RVA: 0x7AE9A7630
+        public void ReadReverseQuoted(){} // RVA: 0x7619470
+        public void ReadReverseUnQuoted(){} // RVA: 0x76196B0
+        public void IsValidQtext(){} // RVA: 0x7619850
     }
 
     public class WhitespaceReader : Object
     {
         // ── Methods ──
-        public void ReadFwsReverse(){} // RVA: 0x7AE9A76F0
-        public void ReadCfwsReverse(){} // RVA: 0x7AE9A7970
+        public void ReadFwsReverse(){} // RVA: 0x7619910
+        public void ReadCfwsReverse(){} // RVA: 0x7619B90
     }
 
 }

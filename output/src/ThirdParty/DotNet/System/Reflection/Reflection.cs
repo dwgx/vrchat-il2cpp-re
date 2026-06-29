@@ -64,48 +64,64 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyCompanyAttribute : Attribute
     {
+        public object _company;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyConfigurationAttribute : Attribute
     {
+        public object _configuration;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyCopyrightAttribute : Attribute
     {
+        public object _copyright;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyDefaultAliasAttribute : Attribute
     {
+        public object _defaultAlias;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyDelaySignAttribute : Attribute
     {
+        public object _delaySign;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class AssemblyDescriptionAttribute : Attribute
     {
+        public object _description;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyFileVersionAttribute : Attribute
     {
+        public object _version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67D0AE0
     }
 
     public class AssemblyInformationalVersionAttribute : Attribute
     {
+        public object _informationalVersion;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_InformationalVersion(){} // RVA: 0xB5DBF0
@@ -113,12 +129,17 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyKeyFileAttribute : Attribute
     {
+        public object _keyFile;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyMetadataAttribute : Attribute
     {
+        public object _key;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void get_Key(){} // RVA: 0xB5DBF0
@@ -127,6 +148,23 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyName : Object
     {
+        public object name;
+        public object codebase;
+        public object major;
+        public object minor;
+        public object build;
+        public object revision;
+        public object cultureinfo;
+        public object flags;
+        public object hashalg;
+        public object keypair;
+        public object publicKey;
+        public object keyToken;
+        public object versioncompat;
+        public object version;
+        public object processor_architecture;
+        public object contentType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x680CDB0
         public void ParseAssemblyName(){} // RVA: 0x680CB00
@@ -177,18 +215,24 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class AssemblyProductAttribute : Attribute
     {
+        public object _product;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyTitleAttribute : Attribute
     {
+        public object _title;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AssemblyTrademarkAttribute : Attribute
     {
+        public object _trademark;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
@@ -213,6 +257,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ConstructorInfo : MethodBase
     {
+        public object ConstructorName;
+        public object TypeConstructorName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_MemberType(){} // RVA: 0xC3CCE0
@@ -246,6 +293,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeData : Object
     {
+        public object ctorInfo;
+        public object ctorArgs;
+        public object namedArgs;
+        public object lazyData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC27FD0
         public void ResolveArgumentsInternal(){} // RVA: 0x6810490
@@ -298,6 +350,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeNamedArgument : ValueType
     {
+        public object _typedValue;
+        public object _isField;
+        public object _memberName;
+        public object _attributeType;
+        public object _lazyMemberInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B21E0
         public void get_TypedValue(){} // RVA: 0x7BF80
@@ -333,6 +391,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class CustomAttributeTypedArgument : ValueType
     {
+        public object _argumentType;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B2750
         public void get_ArgumentType(){} // RVA: 0x77900
@@ -367,6 +428,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class DefaultMemberAttribute : Attribute
     {
+        public object _memberName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_MemberName(){} // RVA: 0xB5DBF0
@@ -374,6 +437,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class EventInfo : MemberInfo
     {
+        public object cached_add_event;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_MemberType(){} // RVA: 0xC50A80
@@ -414,6 +479,14 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ExceptionHandlingClause : Object
     {
+        public object catch_type;
+        public object filter_offset;
+        public object flags;
+        public object try_offset;
+        public object try_length;
+        public object handler_offset;
+        public object handler_length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void ToString(){} // RVA: 0x68122C0
@@ -498,6 +571,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class LocalVariableInfo : Object
     {
+        public object type;
+        public object is_pinned;
+        public object position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_LocalType(){} // RVA: 0xB5DBF0
@@ -506,6 +583,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ManifestResourceInfo : Object
     {
+        public object _referencedAssembly;
+        public object _fileName;
+        public object _resourceLocation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x31D5D40
         public void get_ReferencedAssembly(){} // RVA: 0xB5DBF0
@@ -541,6 +622,13 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MemberInfoSerializationHolder : Object
     {
+        public object m_memberName;
+        public object m_reflectedType;
+        public object m_signature;
+        public object m_signature2;
+        public object m_memberType;
+        public object m_info;
+
         // ── Methods ──
         public void GetSerializationInfo(){} // RVA: 0x68097D0
         public void .ctor(){} // RVA: 0x6809FE0
@@ -629,6 +717,13 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MethodBody : Object
     {
+        public object clauses;
+        public object locals;
+        public object il;
+        public object init_locals;
+        public object sig_token;
+        public object max_stack;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6812710
         public void get_LocalVariables(){} // RVA: 0x6812830
@@ -677,6 +772,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Missing : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6802080
@@ -691,6 +788,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Module : Object
     {
+        public object FilterTypeName;
+        public object FilterTypeNameIgnoreCase;
+        public object DefaultLookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Assembly(){} // RVA: 0x6802160
@@ -716,6 +817,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class MonoMethodInfo : ValueType
     {
+        public object parent;
+        public object ret;
+        public object attrs;
+        public object iattrs;
+        public object callconv;
+
         // ── Methods ──
         public void get_method_info(){} // RVA: 0x6815870
         public void get_method_attributes(){} // RVA: 0x6815A00
@@ -733,6 +840,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class NullabilityInfo : Object
     {
+        public object _type;
+        public object _readState;
+        public object _writeState;
+        public object _elementType;
+        public object _genericTypeArguments;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EC9A10
         public void get_Type(){} // RVA: 0xB5DBF0
@@ -746,6 +859,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class NullabilityInfoContext : Object
     {
+        public object CompilerServicesNameSpace;
+        public object _publicOnlyModules;
+        public object _context;
+        public object _isSupported;
+
         // ── Methods ──
         public void get_IsSupported(){} // RVA: 0x6EC9B20
         public void GetNullableContext(){} // RVA: 0x6EC9B80
@@ -776,6 +894,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ObfuscationAttribute : Attribute
     {
+        public object _stripAfterObfuscation;
+        public object _exclude;
+        public object _applyToMembers;
+        public object _feature;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6802B50
         public void set_Exclude(){} // RVA: 0xDD7A00
@@ -783,6 +906,14 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ParameterInfo : Object
     {
+        public object AttrsImpl;
+        public object ClassImpl;
+        public object DefaultValueImpl;
+        public object MemberImpl;
+        public object NameImpl;
+        public object PositionImpl;
+        public object MetadataToken_ParamDef;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Attributes(){} // RVA: 0xB8F8F0
@@ -824,6 +955,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class Pointer : Object
     {
+        public object _ptr;
+        public object _ptrType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68032D0
         public void Box(){} // RVA: 0x6803330
@@ -875,6 +1009,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class ReflectionTypeLoadException : SystemException
     {
+        public object _types;
+        public object _loaderExceptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68037E0
         public void GetObjectData(){} // RVA: 0x68039C0
@@ -895,6 +1032,17 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeAssembly : Assembly
     {
+        public object _mono_assembly;
+        public object _evidence;
+        public object resolve_event_holder;
+        public object _minimum;
+        public object _optional;
+        public object _refuse;
+        public object _granted;
+        public object _denied;
+        public object fromByteArray;
+        public object assemblyName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6812870
         public void GetObjectData(){} // RVA: 0x6812900
@@ -954,6 +1102,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeConstructorInfo : ConstructorInfo
     {
+        public object mhandle;
+        public object name;
+        public object reftype;
+
         // ── Methods ──
         public void get_Module(){} // RVA: 0x68186F0
         public void GetRuntimeModule(){} // RVA: 0x68186F0
@@ -1010,6 +1162,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeEventInfo : EventInfo
     {
+        public object klass;
+        public object handle;
+
         // ── Methods ──
         public void get_event_info(){} // RVA: 0x6813E40
         public void GetEventInfo(){} // RVA: 0x6813F50
@@ -1057,6 +1212,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeFieldInfo : RtFieldInfo
     {
+        public object klass;
+        public object fhandle;
+        public object name;
+        public object type;
+        public object attrs;
+
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0xDAC980
         public void get_Module(){} // RVA: 0x6814870
@@ -1114,6 +1275,10 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeMethodInfo : MethodInfo
     {
+        public object mhandle;
+        public object name;
+        public object reftype;
+
         // ── Methods ──
         public void get_BindingFlags(){} // RVA: 0xDAC980
         public void get_Module(){} // RVA: 0x6815E70
@@ -1193,6 +1358,14 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeModule : Module
     {
+        public object _impl;
+        public object assembly;
+        public object fqname;
+        public object name;
+        public object scopename;
+        public object is_resource;
+        public object token;
+
         // ── Methods ──
         public void get_Assembly(){} // RVA: 0xB465B0
         public void get_Name(){} // RVA: 0xB70160
@@ -1216,6 +1389,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimeParameterInfo : ParameterInfo
     {
+        public object marshalAs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681A190
         public void FormatParameters(){} // RVA: 0x6819C50
@@ -1252,6 +1427,12 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class RuntimePropertyInfo : PropertyInfo
     {
+        public object klass;
+        public object prop;
+        public object info;
+        public object cached;
+        public object cached_getter;
+
         // ── Methods ──
         public void get_property_info(){} // RVA: 0x681B740
         public void get_BindingFlags(){} // RVA: 0xDAC980
@@ -1319,6 +1500,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class SignatureArrayType : SignatureHasElementType
     {
+        public object _rank;
+        public object _isMultiDim;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6803E20
         public void IsArrayImpl(){} // RVA: 0xC2E4C0
@@ -1345,6 +1529,9 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class SignatureConstructedGenericType : SignatureType
     {
+        public object _genericTypeDefinition;
+        public object _genericTypeArguments;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6803FD0
         public void get_IsGenericTypeDefinition(){} // RVA: 0xB43320
@@ -1371,6 +1558,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class SignatureHasElementType : SignatureType
     {
+        public object _elementType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68045F0
         public void get_IsGenericTypeDefinition(){} // RVA: 0xB43320
@@ -1512,6 +1701,11 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class StrongNameKeyPair : Object
     {
+        public object _publicKey;
+        public object _keyPairContainer;
+        public object _keyPairExported;
+        public object _keyPairArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x681CA30
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x681CD70
@@ -1558,6 +1752,8 @@ namespace ThirdParty.DotNet.System.Reflection
 
     public class TypeDelegator : TypeInfo
     {
+        public object typeImpl;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6806850
         public void get_GUID(){} // RVA: 0x6806940

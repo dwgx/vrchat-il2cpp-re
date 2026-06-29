@@ -7,6 +7,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class OrgScopedID : Object
     {
+        public object ID;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B61A80
     }

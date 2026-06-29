@@ -7,6 +7,14 @@ namespace VRC.Economy.Internal
 {
     public class EconomyStoresManager : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_052;
+        public object f_A57;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB5DBF0
         public void Equals(){} // RVA: 0x125D9D0

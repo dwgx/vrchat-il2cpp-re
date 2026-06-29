@@ -31,6 +31,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class VectorscopeMonitor : Monitor
     {
+        public object size;
+        public object exposure;
+        public object m_Data;
+        public object k_ThreadGroupSizeX;
+        public object k_ThreadGroupSizeY;
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x797AFC0
         public void NeedsHalfRes(){} // RVA: 0xC2E4C0
@@ -41,6 +47,16 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class Vignette : PostProcessEffectSettings
     {
+        public object mode;
+        public object color;
+        public object center;
+        public object intensity;
+        public object smoothness;
+        public object roundness;
+        public object rounded;
+        public object mask;
+        public object opacity;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7978AA0
         public void .ctor(){} // RVA: 0x7978C00

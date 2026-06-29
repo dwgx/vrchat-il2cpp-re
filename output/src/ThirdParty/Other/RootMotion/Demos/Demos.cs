@@ -7,6 +7,21 @@ namespace ThirdParty.Other.RootMotion.Demos
 {
     public class Navigator : Object
     {
+        public object activeTargetSeeking;
+        public object cornerRadius;
+        public object recalculateOnPathDistance;
+        public object maxSampleDistance;
+        public object nextPathInterval;
+        public object _normalizedDeltaPosition;
+        public object _state;
+        public object transform;
+        public object cornerIndex;
+        public object corners;
+        public object path;
+        public object lastTargetPosition;
+        public object initiated;
+        public object nextPathTime;
+
         // ── Methods ──
         public void get_normalizedDeltaPosition(){} // RVA: 0xB9E050
         public void set_normalizedDeltaPosition(){} // RVA: 0xB9E070

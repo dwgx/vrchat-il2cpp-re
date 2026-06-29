@@ -7,6 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class DefaultIfEmpty`1 : Object
     {
+        public object source;
+        public object defaultValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +17,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctAwaitWithCancellation`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +28,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctAwait`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -28,6 +39,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctUntilChangedAwaitWithCancellation`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -35,6 +50,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctUntilChangedAwait`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -42,6 +61,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctUntilChanged`1 : Object
     {
+        public object source;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -49,6 +71,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class DistinctUntilChanged`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -56,6 +82,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Distinct`1 : Object
     {
+        public object source;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -63,6 +92,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Distinct`2 : Object
     {
+        public object source;
+        public object keySelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -70,6 +103,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Do`1 : Object
     {
+        public object source;
+        public object onNext;
+        public object onError;
+        public object onCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899870
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

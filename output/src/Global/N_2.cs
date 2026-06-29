@@ -1,16 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 796
+// Methods: 824
 
 public class NameObjectEntry : Object
 {
+    public object Key;
+    public object Value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
 }
 
 public class NameObjectKeysEnumerator : Object
 {
+    public object _pos;
+    public object _coll;
+    public object _version;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x771C240
     public void MoveNext(){} // RVA: 0x771C2C0
@@ -20,6 +27,14 @@ public class NameObjectKeysEnumerator : Object
 
 public class NamePart : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object NamePart_DefaultValue;
+    public object namePart_;
+    public object IsExtensionDefaultValue;
+    public object isExtension_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x64F1C80
     public void get_Descriptor(){} // RVA: 0x64F1CE0
@@ -47,6 +62,9 @@ public class NamePart : Object
 
 public class NameType : Object
 {
+    public object name;
+    public object type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void CompareTo(){} // RVA: 0x71A4000
@@ -54,6 +72,9 @@ public class NameType : Object
 
 public class NameType : Object
 {
+    public object name;
+    public object type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void CompareTo(){} // RVA: 0x71A4000
@@ -61,25 +82,34 @@ public class NameType : Object
 
 public class Namespace : ValueType
 {
+    public object prefix;
+    public object ns;
+    public object declared;
+    public object prevNsIndex;
+
     // ── Methods ──
     public void Set(){} // RVA: 0x915D80
 }
 
 public class Namespace : ValueType
 {
+    public object prefix;
+    public object namespaceUri;
+    public object kind;
+    public object prevNsIndex;
+
     // ── Methods ──
     public void Set(){} // RVA: 0x916330
     public void WriteDecl(){} // RVA: 0x916340
 }
 
-public class NamespaceDecl : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7361E70
-}
-
 public class NamespaceDeclaration : ValueType
 {
+    public object prefix;
+    public object uri;
+    public object scopeId;
+    public object previousNsIndex;
+
     // ── Methods ──
     public void Set(){} // RVA: 0x9172A0
 }
@@ -93,6 +123,9 @@ public class NamespaceManager : XmlNamespaceManager
 
 public class NamespacePrefixForQName : Object
 {
+    public object prefix;
+    public object ns;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69A01B0
     public void LookupNamespace(){} // RVA: 0x7404A80
@@ -102,6 +135,8 @@ public class NamespacePrefixForQName : Object
 
 public class NamespaceResolverProxy : Object
 {
+    public object wfWriter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x74A4FD0
@@ -192,6 +227,8 @@ public class Native : ValueType
 
 public class Native : ValueType
 {
+    public object _nativeFunction_UnityRenderEvent;
+
     // ── Methods ──
     public void IsChangedTracks(){} // RVA: 0x2564E30
     public void GetTrackCount(){} // RVA: 0x2564EC0
@@ -248,6 +285,9 @@ public class Native : Object
 
 public class NativeArrayHelper`1 : ValueType
 {
+    public object UnityNativeArray;
+    public object _handle;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899290
     public void Dispose(){} // RVA: 0x894290
@@ -358,12 +398,6 @@ public class NegateSingle : NegateInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class NestedBinXml : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7362130
-}
-
 public class NetworkCalling : Object
 {
     // ── Methods ──
@@ -378,6 +412,8 @@ public class NetworkCalling : Object
 
 public class NetworkSurrogateSelector : Object
 {
+    public object _next;
+
     // ── Methods ──
     public void ChainSelector(){} // RVA: 0xA74C400
     public void GetNextSelector(){} // RVA: 0xB5DBF0
@@ -388,6 +424,10 @@ public class NetworkSurrogateSelector : Object
 
 public class NeverPromise`1 : Object
 {
+    public object cancellationCallback;
+    public object cancellationToken;
+    public object core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943F0
     public void CancellationCallback(){} // RVA: 0x894350
@@ -401,6 +441,8 @@ public class NeverPromise`1 : Object
 
 public class NewArrayExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049A20
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -428,6 +470,8 @@ public class NewEventsMsg : Object
 
 public class NewExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049B00
     public void get_Arguments(){} // RVA: 0x7049BE0
@@ -448,60 +492,69 @@ public class NewLayoutMsg : Object
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899250
 }
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class NextResult : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3A130
-}
+    public object packet;
+    public object ok;
 
-public class NextResult : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3A130
-}
-
-public class NextResult : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3A130
-}
-
-public class NextResult : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class Nnapi : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object CacheDirDefaultValue;
+    public object cacheDir_;
+    public object ModelTokenDefaultValue;
+    public object modelToken_;
+    public object AcceleratorNameDefaultValue;
+    public object acceleratorName_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x65628A0
     public void get_Descriptor(){} // RVA: 0x6562900
@@ -568,18 +621,33 @@ public class NoNamespaceManager : XmlNamespaceManager
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4713130
 }
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void IsNonNullRed(){} // RVA: 0x87D390
@@ -612,6 +680,11 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Left(){} // RVA: 0xB465B0
     public void get_Right(){} // RVA: 0xB700F0
@@ -644,6 +717,33 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x47133A0
+}
+
+public class Node : Object
+{
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4712E80
+}
+
+public class Node : Object
+{
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0xB60220
     public void set_Item(){} // RVA: 0xB60240
@@ -674,30 +774,86 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4713130
 }
 
 public class Node : Object
 {
+    public object _value;
+    public object _next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
 }
 
 public class Node : Object
 {
+    public object _value;
+    public object _next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4708100
 }
 
+public class Node : Point
+{
+    public object length;
+    public object effectorPositionWeight;
+    public object effectorRotationWeight;
+    public object offset;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xC3B210
+}
+
 public class Node : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object name_;
+    public object calculator_;
+    public object _repeated_inputStream_codec;
+    public object inputStream_;
+    public object _repeated_outputStream_codec;
+    public object outputStream_;
+    public object _repeated_inputSidePacket_codec;
+    public object inputSidePacket_;
+    public object _repeated_outputSidePacket_codec;
+    public object outputSidePacket_;
+    public object options_;
+    public object _repeated_nodeOptions_codec;
+    public object nodeOptions_;
+    public object sourceLayer_;
+    public object bufferSizeHint_;
+    public object inputStreamHandler_;
+    public object outputStreamHandler_;
+    public object _repeated_inputStreamInfo_codec;
+    public object inputStreamInfo_;
+    public object executor_;
+    public object profilerConfig_;
+    public object maxInFlight_;
+    public object _repeated_optionValue_codec;
+    public object optionValue_;
+    public object _repeated_externalInput_codec;
+    public object externalInput_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6578E10
     public void get_Descriptor(){} // RVA: 0x6578E70
@@ -745,6 +901,8 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _children;
+
     // ── Methods ──
     public void get_Children(){} // RVA: 0xB5DBF0
     public void .ctor(){} // RVA: 0x649F5C0
@@ -752,12 +910,25 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object EmptyNode;
+    public object _key;
+    public object _frozen;
+    public object _height;
+    public object _count;
+    public object _left;
+    public object _right;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -779,6 +950,14 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object EmptyNode;
+    public object _key;
+    public object _value;
+    public object _frozen;
+    public object _height;
+    public object _left;
+    public object _right;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -815,8 +994,40 @@ public class Node : Object
     public void .cctor(){} // RVA: 0x8942F0
 }
 
+public class Node : Object
+{
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x47133A0
+}
+
 public class NodeData : Object
 {
+    public object s_None;
+    public object type;
+    public object localName;
+    public object prefix;
+    public object ns;
+    public object nameWPrefix;
+    public object value;
+    public object chars;
+    public object valueStartPos;
+    public object valueLength;
+    public object lineInfo;
+    public object lineInfo2;
+    public object quoteChar;
+    public object depth;
+    public object isEmptyOrDefault;
+    public object entityId;
+    public object xmlContextPushed;
+    public object nextAttrValueChunk;
+    public object schemaType;
+    public object typedValue;
+
     // ── Methods ──
     public void get_None(){} // RVA: 0x748DEF0
     public void .ctor(){} // RVA: 0x748DFE0
@@ -845,6 +1056,11 @@ public class NodeData : Object
 
 public class NodeEnumerator : Object
 {
+    public object list;
+    public object current;
+    public object version;
+    public object start;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6874400
     public void get_Current(){} // RVA: 0x68744E0
@@ -857,6 +1073,11 @@ public class NodeEnumerator : Object
 
 public class NodeEnumerator : Object
 {
+    public object _list;
+    public object _current;
+    public object _version;
+    public object _start;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6874400
     public void get_Current(){} // RVA: 0x77143B0
@@ -869,6 +1090,9 @@ public class NodeEnumerator : Object
 
 public class NodeKeyValueCollection : Object
 {
+    public object list;
+    public object isKeys;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x237A5A0
     public void System.Collections.ICollection.CopyTo(){} // RVA: 0x68748F0
@@ -880,6 +1104,9 @@ public class NodeKeyValueCollection : Object
 
 public class NodeKeyValueCollection : Object
 {
+    public object _list;
+    public object _isKeys;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x237A5A0
     public void System.Collections.ICollection.CopyTo(){} // RVA: 0x77147C0
@@ -891,6 +1118,12 @@ public class NodeKeyValueCollection : Object
 
 public class NodeKeyValueEnumerator : Object
 {
+    public object list;
+    public object current;
+    public object version;
+    public object isKeys;
+    public object start;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6874D30
     public void get_Current(){} // RVA: 0x6874E20
@@ -900,6 +1133,12 @@ public class NodeKeyValueEnumerator : Object
 
 public class NodeKeyValueEnumerator : Object
 {
+    public object _list;
+    public object _current;
+    public object _version;
+    public object _isKeys;
+    public object _start;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6874D30
     public void get_Current(){} // RVA: 0x7714B00
@@ -909,20 +1148,69 @@ public class NodeKeyValueEnumerator : Object
 
 public class NodePath : ValueType
 {
+    public object _nodeID;
+    public object _mainTreeNodeID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8965E0
 }
 
 public class NodePath : ValueType
 {
+    public object _nodeID;
+    public object _mainTreeNodeID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
 }
 
 public class NodePath : ValueType
 {
+    public object _nodeID;
+    public object _mainTreeNodeID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
+}
+
+public class Node[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class Node[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class Node[] : Array
@@ -1067,6 +1355,8 @@ public class Node[] : Array
 
 public class NoiseModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97F3B0
@@ -1201,13 +1491,6 @@ public class NotEqualBoolean : NotEqualInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class NotEqualByte : NotEqualInstruction
-{
-    // ── Methods ──
-    public void Run(){} // RVA: 0x70B9700
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class NotEqualChar : NotEqualInstruction
 {
     // ── Methods ──
@@ -1229,13 +1512,6 @@ public class NotEqualInt32 : NotEqualInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class NotEqualInt64 : NotEqualInstruction
-{
-    // ── Methods ──
-    public void Run(){} // RVA: 0x70B9630
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class NotEqualSByte : NotEqualInstruction
 {
     // ── Methods ──
@@ -1245,6 +1521,10 @@ public class NotEqualSByte : NotEqualInstruction
 
 public class NoteOnEvent : ValueType
 {
+    public object StartTimeMs;
+    public object Velocity;
+    public object Count;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0xA75C20
     public void GetHashCode(){} // RVA: 0x8BB9E0
@@ -1252,6 +1532,11 @@ public class NoteOnEvent : ValueType
 
 public class NotificationEntry : ValueType
 {
+    public object time;
+    public object payload;
+    public object notificationFired;
+    public object flags;
+
     // ── Methods ──
     public void get_triggerInEditor(){} // RVA: 0x909300
     public void get_prewarm(){} // RVA: 0x947BA0
@@ -1269,14 +1554,29 @@ public class NtDll : Object
 
 public class NullDisposable : Object
 {
+    public object Instance;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0xB43310
     public void .ctor(){} // RVA: 0xB43310
     public void .cctor(){} // RVA: 0xA7C2200
 }
 
+public class NullProgress`1 : Object
+{
+    public object Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894290
+    public void Report(){} // RVA: 0xA94080
+    public void .cctor(){} // RVA: 0x8942F0
+}
+
 public class NullableAttributeStateParser : ValueType
 {
+    public object UnknownByte;
+    public object _nullableAttributeArgument;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_Unknown(){} // RVA: 0x6ECD8E0
@@ -1286,6 +1586,12 @@ public class NullableAttributeStateParser : ValueType
 
 public class NumberBuffer : ValueType
 {
+    public object _buffer;
+    public object Kind;
+    public object DigitsCount;
+    public object Scale;
+    public object IsNegative;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x923E60
     public void GetDigitsPointer(){} // RVA: 0x77900
@@ -1293,6 +1599,12 @@ public class NumberBuffer : ValueType
 
 public class NumberBuffer : ValueType
 {
+    public object precision;
+    public object scale;
+    public object _sign;
+    public object _digits;
+    public object _allDigits;
+
     // ── Methods ──
     public void get_sign(){} // RVA: 0x6926730
     public void set_sign(){} // RVA: 0x6926740

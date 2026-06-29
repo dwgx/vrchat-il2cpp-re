@@ -1,7 +1,40 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 360
+// Methods: 364
+
+public class Label[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class LayoutCache : Object
+{
+    public object _id;
+    public object topLevel;
+    public object layoutGroups;
+    public object windows;
+
+    // ── Methods ──
+    public void set_id(){} // RVA: 0xB460A0
+    public void .ctor(){} // RVA: 0x7C7D540
+    public void ResetCursor(){} // RVA: 0x7C7D730
+}
 
 public class LayoutMatcher[] : Array
 {
@@ -23,8 +56,24 @@ public class LayoutMatcher[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class LayoutedWindow : Object
+{
+    public object m_Func;
+    public object m_ScreenRect;
+    public object m_Options;
+    public object m_Style;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7C79070
+    public void DoWindow(){} // RVA: 0x7C79180
+}
+
 public class LazyCAttrData : Object
 {
+    public object assembly;
+    public object data;
+    public object data_length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -53,6 +102,10 @@ public class LeftProperty : ResolvedFloatProperty
 
 public class LegacySignalSource : Object
 {
+    public object m_Def;
+    public object m_Velocity;
+    public object m_StartTimeOffset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25E0310
     public void get_SignalDuration(){} // RVA: 0x25E03D0
@@ -81,32 +134,44 @@ public class LetterSpacingProperty : ResolvedFloatProperty
     public void .ctor(){} // RVA: 0x7EC9CA0
 }
 
-public class Limits : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x4FE0
-}
-
 public class LinkImage : Object
 {
+    public object url;
+    public object texture;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class LinkedSlot : Object
 {
+    public object Next;
+    public object Previous;
+    public object SlotArray;
+    public object Value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
 }
 
 public class LinkedSlot : Object
 {
+    public object Next;
+    public object Previous;
+    public object SlotArray;
+    public object Value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4288530
 }
 
 public class LinkedSlot : Object
 {
+    public object Next;
+    public object Previous;
+    public object SlotArray;
+    public object Value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4288530
 }
@@ -153,6 +218,11 @@ public class LinkedSlotVolatile[] : Array
 
 public class ListBuilder`1 : ValueType
 {
+    public object _items;
+    public object _item;
+    public object _count;
+    public object _capacity;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void get_Item(){} // RVA: 0xA94080
@@ -164,6 +234,11 @@ public class ListBuilder`1 : ValueType
 
 public class ListBuilder`1 : ValueType
 {
+    public object _items;
+    public object _item;
+    public object _count;
+    public object _capacity;
+
     // ── Methods ──
     public void ToArray(){} // RVA: 0x36A400
     public void Add(){} // RVA: 0x36A420
@@ -175,6 +250,11 @@ public class ListBuilder`1 : ValueType
 
 public class ListBuilder`1 : ValueType
 {
+    public object _items;
+    public object _item;
+    public object _count;
+    public object _capacity;
+
     // ── Methods ──
     public void ToArray(){} // RVA: 0x36A400
     public void get_Count(){} // RVA: 0x8C7E0
@@ -186,37 +266,11 @@ public class ListBuilder`1 : ValueType
 
 public class ListBuilder`1 : ValueType
 {
-    // ── Methods ──
-    public void ToArray(){} // RVA: 0x36A400
-    public void get_Count(){} // RVA: 0x8C7E0
-    public void get_Item(){} // RVA: 0x36A3C0
-    public void Add(){} // RVA: 0x36A420
-    public void .ctor(){} // RVA: 0x36A3B0
-    public void CopyTo(){} // RVA: 0x36A410
-}
+    public object _items;
+    public object _item;
+    public object _count;
+    public object _capacity;
 
-public class ListBuilder`1 : ValueType
-{
-    // ── Methods ──
-    public void CopyTo(){} // RVA: 0x36A410
-    public void ToArray(){} // RVA: 0x36A400
-    public void get_Count(){} // RVA: 0x8C7E0
-    public void Add(){} // RVA: 0x36A420
-    public void .ctor(){} // RVA: 0x36A3B0
-}
-
-public class ListBuilder`1 : ValueType
-{
-    // ── Methods ──
-    public void CopyTo(){} // RVA: 0x36A410
-    public void ToArray(){} // RVA: 0x36A400
-    public void get_Count(){} // RVA: 0x8C7E0
-    public void Add(){} // RVA: 0x36A420
-    public void .ctor(){} // RVA: 0x36A3B0
-}
-
-public class ListBuilder`1 : ValueType
-{
     // ── Methods ──
     public void ToArray(){} // RVA: 0x36A400
     public void Add(){} // RVA: 0x36A420
@@ -224,10 +278,49 @@ public class ListBuilder`1 : ValueType
     public void get_Item(){} // RVA: 0x36A3C0
     public void CopyTo(){} // RVA: 0x36A410
     public void get_Count(){} // RVA: 0x8C7E0
+}
+
+public class ListBuilder`1 : ValueType
+{
+    public object _items;
+    public object _item;
+    public object _count;
+    public object _capacity;
+
+    // ── Methods ──
+    public void CopyTo(){} // RVA: 0x36A410
+    public void ToArray(){} // RVA: 0x36A400
+    public void get_Count(){} // RVA: 0x8C7E0
+    public void get_Item(){} // RVA: 0x36A3C0
+    public void Add(){} // RVA: 0x36A420
+    public void .ctor(){} // RVA: 0x36A3B0
+}
+
+public class ListBuilder`1 : ValueType
+{
+    // ── Methods ──
+    public void CopyTo(){} // RVA: 0x36A410
+    public void ToArray(){} // RVA: 0x36A400
+    public void get_Count(){} // RVA: 0x8C7E0
+    public void Add(){} // RVA: 0x36A420
+    public void .ctor(){} // RVA: 0x36A3B0
+}
+
+public class ListBuilder`1 : ValueType
+{
+    // ── Methods ──
+    public void CopyTo(){} // RVA: 0x36A410
+    public void ToArray(){} // RVA: 0x36A400
+    public void get_Count(){} // RVA: 0x8C7E0
+    public void Add(){} // RVA: 0x36A420
+    public void .ctor(){} // RVA: 0x36A3B0
 }
 
 public class ListElementProperty : Property`2
 {
+    public object m_Index;
+    public object m_IsReadOnly;
+
     // ── Methods ──
     public void get_Index(){} // RVA: 0x87C130
     public void get_Name(){} // RVA: 0x87C0A0
@@ -239,6 +332,9 @@ public class ListElementProperty : Property`2
 
 public class ListElementProperty : Property`2
 {
+    public object m_Index;
+    public object m_IsReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void get_Index(){} // RVA: 0xE62D00
@@ -250,6 +346,9 @@ public class ListElementProperty : Property`2
 
 public class ListElementProperty : Property`2
 {
+    public object m_Index;
+    public object m_IsReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void get_Index(){} // RVA: 0xE62D00
@@ -261,6 +360,9 @@ public class ListElementProperty : Property`2
 
 public class ListElementProperty : Property`2
 {
+    public object m_Index;
+    public object m_IsReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void get_Index(){} // RVA: 0xE62D00
@@ -272,270 +374,344 @@ public class ListElementProperty : Property`2
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListPoolImpl`1 : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x35CF860
-}
+    public object Pool;
 
-public class ListPoolImpl`1 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x35CF860
-}
-
-public class ListPoolImpl`1 : Object
-{
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class ListWrapper`1 : ValueType
 {
+    public object List;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void get_Item(){} // RVA: 0x87BF40
@@ -546,6 +722,20 @@ public class ListWrapper`1 : ValueType
 
 public class ListWrapper`1 : ValueType
 {
+    public object List;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x36C920
+    public void get_Count(){} // RVA: 0x36C7B0
+    public void get_Item(){} // RVA: 0x36CA20
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x36C9D0
+    public void GetEnumerator(){} // RVA: 0x36CA10
+}
+
+public class ListWrapper`1 : ValueType
+{
+    public object List;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x36C920
     public void get_Count(){} // RVA: 0x36C7B0
@@ -556,6 +746,8 @@ public class ListWrapper`1 : ValueType
 
 public class ListWrapper`1 : ValueType
 {
+    public object List;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x36C920
     public void get_Count(){} // RVA: 0x36C7B0
@@ -566,16 +758,8 @@ public class ListWrapper`1 : ValueType
 
 public class ListWrapper`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x36C920
-    public void get_Count(){} // RVA: 0x36C7B0
-    public void get_Item(){} // RVA: 0x36CA20
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x36C9D0
-    public void GetEnumerator(){} // RVA: 0x36CA10
-}
+    public object List;
 
-public class ListWrapper`1 : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x36C920
     public void get_Count(){} // RVA: 0x36C7B0
@@ -586,6 +770,9 @@ public class ListWrapper`1 : ValueType
 
 public class LiteralList : ValueType
 {
+    public object literals;
+    public object xxhash;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void GetHashCode(){} // RVA: 0xA7B350
@@ -594,6 +781,12 @@ public class LiteralList : ValueType
 
 public class LoadingInfoData : ScriptableObject
 {
+    public object _textureName;
+    public object weight;
+    public object isAnnouncement;
+    public object paragraphs;
+    public object _loadedTexture;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x209A400
     public void CreateInstance(){} // RVA: 0x209A620
@@ -611,6 +804,17 @@ public class LoadingInfoData : ScriptableObject
 
 public class LoadingInfoSet : ScriptableObject
 {
+    public object loadingInfos;
+    public object announcementLoadingInfo;
+    public object twoFactorAuthenticationLoadingInfo;
+    public object communityLabsLoadingInfo;
+    public object loadingInfoCyclesBeforeRepeat;
+    public object cyclesBeforeRepeat;
+    public object displayCommunityLabsInfo;
+    public object texts;
+    public object announcementsSeen;
+    public object _currentLoadingInfoData;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x209CCE0
     public void CreateInstance(){} // RVA: 0x209CE50
@@ -637,21 +841,21 @@ public class LoadingInfoSet : ScriptableObject
 
 public class LocalMinima : Object
 {
+    public object Y;
+    public object LeftBound;
+    public object RightBound;
+    public object Next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class LockedStack : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x465A170
-    public void TryPush(){} // RVA: 0x4659D80
-    public void TryPop(){} // RVA: 0x4659E90
-    public void Trim(){} // RVA: 0x465CDF0
-}
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
 
-public class LockedStack : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -661,6 +865,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -670,15 +878,23 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
-    public void TryPush(){} // RVA: 0x465DE20
+    public void TryPush(){} // RVA: 0x4659D80
     public void TryPop(){} // RVA: 0x4659E90
-    public void Trim(){} // RVA: 0x465DF60
+    public void Trim(){} // RVA: 0x465CDF0
 }
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -688,6 +904,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -697,6 +917,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x465DE20
@@ -706,6 +930,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -715,6 +943,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x465DE20
@@ -724,6 +956,23 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x465A170
+    public void TryPush(){} // RVA: 0x465DE20
+    public void TryPop(){} // RVA: 0x4659E90
+    public void Trim(){} // RVA: 0x465DF60
+}
+
+public class LockedStack : Object
+{
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -733,6 +982,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -742,6 +995,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x465DE20
@@ -751,6 +1008,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void TryPush(){} // RVA: 0x87D350
     public void TryPop(){} // RVA: 0x87C0A0
@@ -760,6 +1021,10 @@ public class LockedStack : Object
 
 public class LockedStack : Object
 {
+    public object _arrays;
+    public object _count;
+    public object _firstStackItemMS;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x465A170
     public void TryPush(){} // RVA: 0x4659D80
@@ -794,6 +1059,13 @@ public class LogCallback : MulticastDelegate
     public void Invoke(){} // RVA: 0xCA8D60
 }
 
+public class LogCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x26E1340
+    public void Invoke(){} // RVA: 0xCA8BF0
+}
+
 public class LogEventDelegate : MulticastDelegate
 {
     // ── Methods ──
@@ -805,31 +1077,13 @@ public class LogEventDelegate : MulticastDelegate
 
 public class LookAtBone : Bone
 {
+    public object baseForwardOffsetEuler;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC5B190
     public void Initiate(){} // RVA: 0xC5B200
     public void LookAt(){} // RVA: 0xC5B5E0
     public void get_forward(){} // RVA: 0xC5B9D0
-}
-
-public class LookAtBone[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class LowMemoryCallback : MulticastDelegate
@@ -841,6 +1095,11 @@ public class LowMemoryCallback : MulticastDelegate
 
 public class LowerCaseMapping : ValueType
 {
+    public object ChMin;
+    public object ChMax;
+    public object LcOp;
+    public object Data;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x91DCC0
 }

@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 {
     public class AccessibilityAction : Object
     {
+        public object m_Ptr;
+        public object _activated;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7AD65D0
         public void Internal_Destroy(){} // RVA: 0x7AD6640
@@ -36,6 +39,9 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityHierarchy : Object
     {
+        public object m_RootNodes;
+        public object m_Nodes;
+
         // ── Methods ──
         public void TryGetNode(){} // RVA: 0x7AD9A80
         public void FreeNative(){} // RVA: 0x7AD9B60
@@ -45,6 +51,8 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityHierarchyService : Object
     {
+        public object m_Hierarchy;
+
         // ── Methods ──
         public void get_hierarchy(){} // RVA: 0xB5DBF0
         public void Start(){} // RVA: 0xB43310
@@ -58,6 +66,10 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityManager : Object
     {
+        public object asyncNotificationContexts;
+        public object screenReaderStatusChanged;
+        public object nodeFocusChanged;
+
         // ── Methods ──
         public void add_screenReaderStatusChanged(){} // RVA: 0x7AD66D0
         public void remove_screenReaderStatusChanged(){} // RVA: 0x7AD6840
@@ -100,6 +112,27 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityNode : Object
     {
+        public object _id;
+        public object m_FrameGetter;
+        public object focusChanged;
+        public object selected;
+        public object incremented;
+        public object decremented;
+        public object dismissed;
+        public object m_Label;
+        public object m_Value;
+        public object m_Hint;
+        public object m_IsActive;
+        public object m_Role;
+        public object m_AllowsDirectInteraction;
+        public object m_State;
+        public object m_Parent;
+        public object m_Children;
+        public object m_Actions;
+        public object m_Frame;
+        public object m_Language;
+        public object m_Hierarchy;
+
         // ── Methods ──
         public void FreeNative(){} // RVA: 0x7AD9F10
         public void get_id(){} // RVA: 0xB8F8F0
@@ -131,6 +164,22 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityNodeData : ValueType
     {
+        public object _id;
+        public object _isActive;
+        public object _label;
+        public object _value;
+        public object _hint;
+        public object _role;
+        public object _allowsDirectInteraction;
+        public object _state;
+        public object _frame;
+        public object _parentId;
+        public object _childIds;
+        public object _isFocused;
+        public object _language;
+        public object _implementsSelected;
+        public object _implementsDismissed;
+
         // ── Methods ──
         public void set_id(){} // RVA: 0x29580
         public void set_isActive(){} // RVA: 0x54160
@@ -206,6 +255,13 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilityNotificationContext : ValueType
     {
+        public object _notification;
+        public object _isScreenReaderEnabled;
+        public object _announcement;
+        public object _wasAnnouncementSuccessful;
+        public object _currentNodeId;
+        public object _nextNodeId;
+
         // ── Methods ──
         public void get_notification(){} // RVA: 0x77E60
         public void set_notification(){} // RVA: 0x29580
@@ -239,6 +295,10 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AccessibilitySettings : Object
     {
+        public object fontScaleChanged;
+        public object boldTextStatusChanged;
+        public object closedCaptioningStatusChanged;
+
         // ── Methods ──
         public void Internal_OnFontScaleChanged(){} // RVA: 0x7AD8D50
         public void Internal_OnBoldTextStatusChanged(){} // RVA: 0x7AD8E10
@@ -270,6 +330,12 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class AssistiveSupport : Object
     {
+        public object nodeFocusChanged;
+        public object screenReaderStatusChanged;
+        public object _isScreenReaderEnabled;
+        public object _notificationDispatcher;
+        public object s_ServiceManager;
+
         // ── Methods ──
         public void get_isScreenReaderEnabled(){} // RVA: 0x7AD9090
         public void set_isScreenReaderEnabled(){} // RVA: 0x7AD90F0
@@ -296,6 +362,8 @@ namespace ThirdParty.Unity.UnityEngine.Accessibility
 
     public class ServiceManager : Object
     {
+        public object m_Services;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7ADB540
         public void GetService(){} // RVA: 0x29B4580

@@ -7,51 +7,86 @@ namespace ThirdParty.DotNet.System.Security.Util
 {
     public class Parser : Object
     {
+        public object _doc;
+        public object _t;
+
         // ── Methods ──
-        public void GetTopElement(){} // RVA: 0x7ADA56230
-        public void GetRequiredSizes(){} // RVA: 0x7ADA56260
-        public void DetermineFormat(){} // RVA: 0x7ADA56A30
-        public void ParseContents(){} // RVA: 0x7ADA56CC0
-        public void .ctor(){} // RVA: 0x7ADA57430
+        public void GetTopElement(){} // RVA: 0x66E08B0
+        public void GetRequiredSizes(){} // RVA: 0x66E08E0
+        public void DetermineFormat(){} // RVA: 0x66E10B0
+        public void ParseContents(){} // RVA: 0x66E1340
+        public void .ctor(){} // RVA: 0x66E1AB0
     }
 
     public class Tokenizer : Object
     {
+        public object LineNo;
+        public object _inProcessingTag;
+        public object _inBytes;
+        public object _inChars;
+        public object _inString;
+        public object _inIndex;
+        public object _inSize;
+        public object _inSavedCharacter;
+        public object _inTokenSource;
+        public object _inTokenReader;
+        public object _maker;
+        public object _searchStrings;
+        public object _replaceStrings;
+        public object _inNestedIndex;
+        public object _inNestedSize;
+        public object _inNestedString;
+
         // ── Methods ──
-        public void BasicInitialization(){} // RVA: 0x7ADA575B0
-        public void Recycle(){} // RVA: 0x7ADA57670
-        public void .ctor(){} // RVA: 0x7ADA576C0
-        public void ChangeFormat(){} // RVA: 0x7ADA57800
-        public void GetTokens(){} // RVA: 0x7ADA57AF0
-        public void GetStringToken(){} // RVA: 0x7ADA58660
+        public void BasicInitialization(){} // RVA: 0x66E1C30
+        public void Recycle(){} // RVA: 0x66E1CF0
+        public void .ctor(){} // RVA: 0x66E1D40
+        public void ChangeFormat(){} // RVA: 0x66E1E80
+        public void GetTokens(){} // RVA: 0x66E2170
+        public void GetStringToken(){} // RVA: 0x66E2CE0
     }
 
     public class TokenizerShortBlock : Object
     {
+        public object m_block;
+        public object m_next;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA58C70
+        public void .ctor(){} // RVA: 0x66E32F0
     }
 
     public class TokenizerStream : Object
     {
+        public object m_countTokens;
+        public object m_headTokens;
+        public object m_lastTokens;
+        public object m_currentTokens;
+        public object m_indexTokens;
+        public object m_headStrings;
+        public object m_currentStrings;
+        public object m_indexStrings;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA58D90
-        public void AddToken(){} // RVA: 0x7ADA58EE0
-        public void AddString(){} // RVA: 0x7ADA59070
-        public void Reset(){} // RVA: 0x7ADA591F0
-        public void GetNextFullToken(){} // RVA: 0x7ADA59310
-        public void GetNextToken(){} // RVA: 0x7ADA59440
-        public void GetNextString(){} // RVA: 0x7ADA59460
-        public void ThrowAwayNextString(){} // RVA: 0x7ADA59530
-        public void TagLastToken(){} // RVA: 0x7ADA59540
-        public void GetTokenCount(){} // RVA: 0x7A8124910
-        public void GoToPosition(){} // RVA: 0x7ADA595D0
+        public void .ctor(){} // RVA: 0x66E3410
+        public void AddToken(){} // RVA: 0x66E3560
+        public void AddString(){} // RVA: 0x66E36F0
+        public void Reset(){} // RVA: 0x66E3870
+        public void GetNextFullToken(){} // RVA: 0x66E3990
+        public void GetNextToken(){} // RVA: 0x66E3AC0
+        public void GetNextString(){} // RVA: 0x66E3AE0
+        public void ThrowAwayNextString(){} // RVA: 0x66E3BB0
+        public void TagLastToken(){} // RVA: 0x66E3BC0
+        public void GetTokenCount(){} // RVA: 0xB8F8F0
+        public void GoToPosition(){} // RVA: 0x66E3C50
     }
 
     public class TokenizerStringBlock : Object
     {
+        public object m_block;
+        public object m_next;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA58D00
+        public void .ctor(){} // RVA: 0x66E3380
     }
 
 }

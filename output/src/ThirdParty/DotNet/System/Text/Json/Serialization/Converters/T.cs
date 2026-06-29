@@ -15,6 +15,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class TimeSpanConverter : JsonPrimitiveConverter`1
     {
+        public object MinimumTimeSpanFormatLength;
+        public object MaximumTimeSpanFormatLength;
+        public object MaximumEscapedTimeSpanFormatLength;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x734A050
         public void ReadAsPropertyNameCore(){} // RVA: 0x734A080

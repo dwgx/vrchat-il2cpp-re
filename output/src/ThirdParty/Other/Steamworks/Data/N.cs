@@ -7,33 +7,47 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class NetAddress : ValueType
     {
+        public object ip;
+        public object port;
+
         // ── Methods ──
-        public void InternalClear(){} // RVA: 0x7A9EE9EE0
-        public void InternalSetIPv4(){} // RVA: 0x7A9EE9F60
-        public void InternalToString(){} // RVA: 0x7A9EEA000
-        public void From(){} // RVA: 0x7A9EEA0B0
-        public void get_Cleared(){} // RVA: 0x7A9EEA320
-        public void ToString(){} // RVA: 0x7A77286B0
+        public void InternalClear(){} // RVA: 0x295C340
+        public void InternalSetIPv4(){} // RVA: 0x295C3C0
+        public void InternalToString(){} // RVA: 0x295C460
+        public void From(){} // RVA: 0x295C510
+        public void get_Cleared(){} // RVA: 0x295C780
+        public void ToString(){} // RVA: 0x14ECD0
     }
 
     public class NetIdentity : ValueType
     {
+        public object type;
+        public object size;
+        public object steamid;
+        public object netaddress;
+
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A7728560
+        public void ToString(){} // RVA: 0x14EB80
     }
 
     public class NewUrlLaunchParameters_t : ValueType
     {
+        public object _datasize;
+
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7A7725860
-        public void .cctor(){} // RVA: 0x7A9EE3030
+        public void get_CallbackType(){} // RVA: 0x14BE80
+        public void .cctor(){} // RVA: 0x29567E0
     }
 
     public class NumberOfCurrentPlayers_t : ValueType
     {
+        public object Success;
+        public object CPlayers;
+        public object _datasize;
+
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7A77254C0
-        public void .cctor(){} // RVA: 0x7A9EE26A0
+        public void get_CallbackType(){} // RVA: 0x14BAE0
+        public void .cctor(){} // RVA: 0x2955FD0
     }
 
 }

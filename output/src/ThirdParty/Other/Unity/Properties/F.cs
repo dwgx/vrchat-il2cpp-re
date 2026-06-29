@@ -7,6 +7,9 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class FieldMember : ValueType
     {
+        public object m_FieldInfo;
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9897E0
         public void get_Name(){} // RVA: 0x77ED0

@@ -7,42 +7,55 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector.Proto
 {
     public class FaceDetectorGraphOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object baseOptions_;
+        public object MinDetectionConfidenceDefaultValue;
+        public object minDetectionConfidence_;
+        public object MinSuppressionThresholdDefaultValue;
+        public object minSuppressionThreshold_;
+        public object NumFacesDefaultValue;
+        public object numFaces_;
+
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7AD967DC0
-        public void get_Descriptor(){} // RVA: 0x7AD967E20
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD967EE0
-        public void .ctor(){} // RVA: 0x7AD94D9C0
-        public void Clone(){} // RVA: 0x7AD967FD0
-        public void get_BaseOptions(){} // RVA: 0x7A81052C0
-        public void set_BaseOptions(){} // RVA: 0x7A81052D0
-        public void get_MinDetectionConfidence(){} // RVA: 0x7AD9681B0
-        public void set_MinDetectionConfidence(){} // RVA: 0x7AD94C0B0
-        public void get_HasMinDetectionConfidence(){} // RVA: 0x7AD848D40
-        public void ClearMinDetectionConfidence(){} // RVA: 0x7AD848D50
-        public void get_MinSuppressionThreshold(){} // RVA: 0x7AD968220
-        public void set_MinSuppressionThreshold(){} // RVA: 0x7AD94DE30
-        public void get_HasMinSuppressionThreshold(){} // RVA: 0x7AD848DE0
-        public void ClearMinSuppressionThreshold(){} // RVA: 0x7AD848DF0
-        public void get_NumFaces(){} // RVA: 0x7AD968290
-        public void set_NumFaces(){} // RVA: 0x7AD84BFD0
-        public void get_HasNumFaces(){} // RVA: 0x7AD84BFE0
-        public void ClearNumFaces(){} // RVA: 0x7AD84BFF0
-        public void Equals(){} // RVA: 0x7AD968360
-        public void GetHashCode(){} // RVA: 0x7AD968510
-        public void ToString(){} // RVA: 0x7AD968660
-        public void WriteTo(){} // RVA: 0x7AD825C30
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD9686B0
-        public void CalculateSize(){} // RVA: 0x7AD968790
-        public void MergeFrom(){} // RVA: 0x7AD825F70
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD968A50
-        public void .cctor(){} // RVA: 0x7AD968B80
+        public void get_Parser(){} // RVA: 0x65F3EB0
+        public void get_Descriptor(){} // RVA: 0x65F3F10
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x65F3FD0
+        public void .ctor(){} // RVA: 0x65D9F10
+        public void Clone(){} // RVA: 0x65F40C0
+        public void get_BaseOptions(){} // RVA: 0xB700F0
+        public void set_BaseOptions(){} // RVA: 0xB70100
+        public void get_MinDetectionConfidence(){} // RVA: 0x65F42A0
+        public void set_MinDetectionConfidence(){} // RVA: 0x65D8640
+        public void get_HasMinDetectionConfidence(){} // RVA: 0x64D65D0
+        public void ClearMinDetectionConfidence(){} // RVA: 0x64D65E0
+        public void get_MinSuppressionThreshold(){} // RVA: 0x65F4310
+        public void set_MinSuppressionThreshold(){} // RVA: 0x65DA380
+        public void get_HasMinSuppressionThreshold(){} // RVA: 0x64D6670
+        public void ClearMinSuppressionThreshold(){} // RVA: 0x64D6680
+        public void get_NumFaces(){} // RVA: 0x65F4380
+        public void set_NumFaces(){} // RVA: 0x64D9860
+        public void get_HasNumFaces(){} // RVA: 0x64D9870
+        public void ClearNumFaces(){} // RVA: 0x64D9880
+        public void Equals(){} // RVA: 0x65F4450
+        public void GetHashCode(){} // RVA: 0x65F4600
+        public void ToString(){} // RVA: 0x65F4750
+        public void WriteTo(){} // RVA: 0x64B3910
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x65F47A0
+        public void CalculateSize(){} // RVA: 0x65F4880
+        public void MergeFrom(){} // RVA: 0x64B3C50
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x65F4B40
+        public void .cctor(){} // RVA: 0x65F4C70
     }
 
     public class FaceDetectorGraphOptionsReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7AD967400
-        public void .cctor(){} // RVA: 0x7AD967460
+        public void get_Descriptor(){} // RVA: 0x65F3520
+        public void .cctor(){} // RVA: 0x65F3580
     }
 
 }

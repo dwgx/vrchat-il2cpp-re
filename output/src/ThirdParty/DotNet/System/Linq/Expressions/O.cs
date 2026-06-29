@@ -7,9 +7,11 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class OpAssignMethodConversionBinaryExpression : MethodBinaryExpression
     {
+        public object _conversion;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE39F580
-        public void GetConversion(){} // RVA: 0x7A8292C30
+        public void .ctor(){} // RVA: 0x701F780
+        public void GetConversion(){} // RVA: 0xD05CA0
     }
 
 }

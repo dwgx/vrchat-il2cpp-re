@@ -47,6 +47,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class UINumericFieldsUtils : Object
     {
+        public object k_AllowedCharactersForFloat;
+        public object k_AllowedCharactersForInt;
+        public object k_DoubleFieldFormatString;
+        public object k_FloatFieldFormatString;
+        public object k_IntFieldFormatString;
+
         // ── Methods ──
         public void TryConvertStringToDouble(){} // RVA: 0x7C13AB0
         public void TryConvertStringToFloat(){} // RVA: 0x7C13C20
@@ -68,6 +74,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class UIVertex : ValueType
     {
+        public object position;
+        public object normal;
+        public object tangent;
+        public object color;
+        public object uv0;
+        public object uv1;
+        public object uv2;
+        public object uv3;
+        public object s_DefaultColor;
+        public object s_DefaultTangent;
+        public object simpleVert;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7E216C0
     }
@@ -126,6 +144,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class UnityAPICompatibilityVersionAttribute : Attribute
     {
+        public object _version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C08D70
     }
@@ -182,6 +202,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class UnitySynchronizationContext : SynchronizationContext
     {
+        public object m_AsyncWorkQueue;
+        public object m_CurrentFrameWork;
+        public object m_MainThreadID;
+        public object m_TrackedCount;
+
         // ── Methods ──
         public void get_MainThreadId(){} // RVA: 0x1065D50
         public void .ctor(){} // RVA: 0x7C0C070

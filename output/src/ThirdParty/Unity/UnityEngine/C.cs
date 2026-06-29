@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Cache : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void get_handle(){} // RVA: 0x454FE0
         public void GetHashCode(){} // RVA: 0x454FE0
@@ -24,6 +26,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CachedAssetBundle : ValueType
     {
+        public object m_Name;
+        public object m_Hash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x31FB70
         public void get_name(){} // RVA: 0x44D9F0
@@ -75,6 +80,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Camera : Behaviour
     {
+        public object kMinAperture;
+        public object kMaxAperture;
+        public object kMinBladeCount;
+        public object kMaxBladeCount;
+        public object m_NonSerializedVersion;
+        public object onPreCull;
+        public object onPreRender;
+        public object onPostRender;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43D60
         public void get_nearClipPlane(){} // RVA: 0x7B57AB0
@@ -502,6 +516,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Canvas : Behaviour
     {
+        public object preWillRenderCanvases;
+        public object willRenderCanvases;
+        public object _externBeginRenderOverlays;
+        public object _externRenderOverlaysBefore;
+        public object _externEndRenderOverlays;
+
         // ── Methods ──
         public void add_preWillRenderCanvases(){} // RVA: 0x80CB6B0
         public void remove_preWillRenderCanvases(){} // RVA: 0x80CB7C0
@@ -656,6 +676,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CanvasRenderer : Component
     {
+        public object _isMask;
+
         // ── Methods ──
         public void get_hasPopInstruction(){} // RVA: 0x80C5A50
         public void set_hasPopInstruction(){} // RVA: 0x80C5AF0
@@ -843,6 +865,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CharacterJoint : Joint
     {
+        public object targetRotation;
+        public object targetAngularVelocity;
+        public object rotationDrive;
+
         // ── Methods ──
         public void get_swingAxis(){} // RVA: 0x7D1A3F0
         public void set_swingAxis(){} // RVA: 0x7D1A4B0
@@ -925,6 +951,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Cloth : Component
     {
+        public object _useContinuousCollision;
+        public object _selfCollision;
+
         // ── Methods ──
         public void get_vertices(){} // RVA: 0x7B42F00
         public void get_normals(){} // RVA: 0x7B43040
@@ -1066,6 +1095,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ClothSphereColliderPair : ValueType
     {
+        public object _first;
+        public object _second;
+
         // ── Methods ──
         public void get_first(){} // RVA: 0x77900
         public void get_second(){} // RVA: 0x77ED0
@@ -1320,6 +1352,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ColliderDistance2D : ValueType
     {
+        public object m_PointA;
+        public object m_PointB;
+        public object m_Normal;
+        public object m_Distance;
+        public object m_IsValid;
+
         // ── Methods ──
         public void get_pointA(){} // RVA: 0x961A70
         public void set_pointA(){} // RVA: 0x93050
@@ -1355,6 +1393,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Collision : Object
     {
+        public object m_Header;
+        public object m_Pair;
+        public object m_Flipped;
+        public object m_LegacyContacts;
+
         // ── Methods ──
         public void get_impulse(){} // RVA: 0xBA9CC0
         public void get_relativeVelocity(){} // RVA: 0x7D16E50
@@ -1375,6 +1418,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Collision2D : Object
     {
+        public object m_Collider;
+        public object m_OtherCollider;
+        public object m_Rigidbody;
+        public object m_OtherRigidbody;
+        public object m_RelativeVelocity;
+        public object m_Enabled;
+        public object m_ContactCount;
+        public object m_ReusedContacts;
+        public object m_LegacyContacts;
+
         // ── Methods ──
         public void GetContacts_Internal(){} // RVA: 0x7CF4950
         public void get_collider(){} // RVA: 0x7CF4970
@@ -1414,6 +1467,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Color : ValueType
     {
+        public object r;
+        public object g;
+        public object b;
+        public object a;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x963B60
         public void ToString(){} // RVA: 0x963BA0
@@ -1453,6 +1511,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Color32 : ValueType
     {
+        public object rgba;
+        public object r;
+        public object g;
+        public object b;
+        public object a;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x923EC0
         public void op_Implicit(){} // RVA: 0x7BE1990
@@ -1507,6 +1571,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ColorUsageAttribute : PropertyAttribute
     {
+        public object showAlpha;
+        public object hdr;
+        public object minBrightness;
+        public object maxBrightness;
+        public object minExposureValue;
+        public object maxExposureValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF23F0
     }
@@ -1543,6 +1614,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CombineInstance : ValueType
     {
+        public object m_MeshInstanceID;
+        public object m_SubMeshIndex;
+        public object m_Transform;
+        public object m_LightmapScaleOffset;
+        public object m_RealtimeLightmapScaleOffset;
+
         // ── Methods ──
         public void get_mesh(){} // RVA: 0x9633A0
         public void set_mesh(){} // RVA: 0x9633B0
@@ -1579,16 +1656,16 @@ namespace ThirdParty.Unity.UnityEngine
     public class Component : Object
     {
         // ── Methods ──
+        public void GetComponentInChildren(){} // RVA: 0x30317C0
         public void get_transform(){} // RVA: 0x7BFA7C0
         public void get_gameObject(){} // RVA: 0x7BFA880
         public void GetComponent(){} // RVA: 0x30311D0
         public void GetComponentFastPath(){} // RVA: 0x7BFA970
         public void TryGetComponent(){} // RVA: 0x3032720
-        public void GetComponentInChildren(){} // RVA: 0x30317C0
-        public void GetComponentsInChildren(){} // RVA: 0x3032500
+        public void GetComponentsInChildren(){} // RVA: 0x3032390
         public void GetComponentInParent(){} // RVA: 0x3031B20
         public void GetComponentsInParent(){} // RVA: 0x3032650
-        public void GetComponents(){} // RVA: 0x3032280
+        public void GetComponents(){} // RVA: 0x30321D0
         public void GetComponentsForListInternal(){} // RVA: 0x7BFAEC0
         public void get_tag(){} // RVA: 0x7BFAF90
         public void set_tag(){} // RVA: 0x7BFAFC0
@@ -1677,6 +1754,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ComputeBuffer : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7C0D570
         public void Dispose(){} // RVA: 0x7C0D6F0
@@ -1967,6 +2046,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactFilter2D : ValueType
     {
+        public object useTriggers;
+        public object useLayerMask;
+        public object useDepth;
+        public object useOutsideDepth;
+        public object useNormalAngle;
+        public object useOutsideNormalAngle;
+        public object layerMask;
+        public object minDepth;
+        public object maxDepth;
+        public object minNormalAngle;
+        public object maxNormalAngle;
+
         // ── Methods ──
         public void NoFilter(){} // RVA: 0x9848F0
         public void CheckConsistency(){} // RVA: 0x984940
@@ -2008,6 +2099,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPair : ValueType
     {
+        public object m_ColliderID;
+        public object m_OtherColliderID;
+        public object m_StartPtr;
+        public object m_NbPoints;
+        public object m_Flags;
+        public object m_Events;
+        public object m_ImpulseSum;
+
         // ── Methods ──
         public void get_colliderInstanceID(){} // RVA: 0x77E60
         public void get_otherColliderInstanceID(){} // RVA: 0x77E50
@@ -2026,6 +2125,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPairHeader : ValueType
     {
+        public object m_BodyID;
+        public object m_OtherBodyID;
+        public object m_StartPtr;
+        public object m_NbPairs;
+        public object m_Flags;
+        public object m_RelativeVelocity;
+
         // ── Methods ──
         public void get_body(){} // RVA: 0x985760
         public void get_otherBody(){} // RVA: 0x9857B0
@@ -2056,6 +2162,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPairPoint : ValueType
     {
+        public object m_Position;
+        public object m_Separation;
+        public object m_Normal;
+        public object m_InternalFaceIndex0;
+        public object m_Impulse;
+        public object m_InternalFaceIndex1;
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x45A5B0
         public void get_separation(){} // RVA: 0xD1B00
@@ -2105,6 +2218,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint : ValueType
     {
+        public object m_Point;
+        public object m_Normal;
+        public object m_Impulse;
+        public object m_ThisColliderInstanceID;
+        public object m_OtherColliderInstanceID;
+        public object m_Separation;
+
         // ── Methods ──
         public void get_point(){} // RVA: 0x45A590
         public void get_normal(){} // RVA: 0x959B90
@@ -2117,6 +2237,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContactPoint2D : ValueType
     {
+        public object m_Point;
+        public object m_Normal;
+        public object m_RelativeVelocity;
+        public object m_Friction;
+        public object m_Bounciness;
+        public object m_Separation;
+        public object m_NormalImpulse;
+        public object m_TangentImpulse;
+        public object m_Collider;
+        public object m_OtherCollider;
+        public object m_Rigidbody;
+        public object m_OtherRigidbody;
+        public object m_Enabled;
+
         // ── Methods ──
         public void get_point(){} // RVA: 0x961A70
         public void get_normal(){} // RVA: 0x961BE0
@@ -2155,12 +2289,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ContextMenu : Attribute
     {
+        public object menuItem;
+        public object validate;
+        public object priority;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF5AE0
     }
 
     public class ContextMenuItemAttribute : PropertyAttribute
     {
+        public object name;
+        public object function;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF22C0
     }
@@ -2187,6 +2328,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ControllerColliderHit : Object
     {
+        public object m_Controller;
+        public object m_Collider;
+        public object m_Point;
+        public object m_Normal;
+        public object m_MoveDirection;
+        public object m_MoveLength;
+        public object m_Push;
+
         // ── Methods ──
         public void get_controller(){} // RVA: 0x3E42230
         public void get_collider(){} // RVA: 0x3926770
@@ -2221,6 +2370,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Coroutine : YieldInstruction
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Finalize(){} // RVA: 0x7BFB990
@@ -2249,6 +2400,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CreateAssetMenuAttribute : Attribute
     {
+        public object _menuName;
+        public object _fileName;
+        public object _order;
+
         // ── Methods ──
         public void set_menuName(){} // RVA: 0xB44D60
         public void set_fileName(){} // RVA: 0xBA9BA0
@@ -2365,6 +2520,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CullingGroup : Object
     {
+        public object m_Ptr;
+        public object m_OnStateChanged;
+
         // ── Methods ──
         public void SendEvents(){} // RVA: 0x7B65FE0
     }
@@ -2479,6 +2637,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class CustomRenderTextureManager : Object
     {
+        public object textureLoaded;
+        public object textureUnloaded;
+        public object updateTriggered;
+        public object initializeTriggered;
+
         // ── Methods ──
         public void InvokeOnTextureLoaded_Internal(){} // RVA: 0x7B78DD0
         public void InvokeOnTextureUnloaded_Internal(){} // RVA: 0x7B78E30

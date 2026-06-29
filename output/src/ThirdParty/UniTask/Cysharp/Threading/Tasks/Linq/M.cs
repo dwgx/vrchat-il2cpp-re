@@ -15,6 +15,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Merge`1 : Object
     {
+        public object sources;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

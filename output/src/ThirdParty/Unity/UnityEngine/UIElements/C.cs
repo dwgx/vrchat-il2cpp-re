@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class CallbackEventHandler : Object
     {
+        public object isIMGUIContainer;
+        public object m_CallbackRegistry;
+        public object HandleEventBubbleUpName;
+        public object HandleEventTrickleDownName;
+        public object ExecuteDefaultActionName;
+        public object ExecuteDefaultActionAtTargetName;
+
         // ── Methods ──
         public void RegisterCallback(){} // RVA: 0x3024C30
         public void AddEventCategories(){} // RVA: 0x8944F0
@@ -32,12 +39,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CanStartDragArgs : ValueType
     {
+        public object draggedElement;
+        public object id;
+        public object selectedIds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7680
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void get_previousValue(){} // RVA: 0xA94080
@@ -52,126 +66,192 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296330
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x62965A0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x62965A0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296CB0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296A80
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296A80
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6297450
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x62977E0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296A80
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x62975D0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x62977E0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296830
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6297060
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6297060
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6297250
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296A80
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296E10
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296A80
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296CB0
     }
 
     public class ChangeEvent`1 : EventBase`1
     {
+        public object _previousValue;
+        public object _newValue;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x6296E10
     }
 
     public class ClampedDragger`1 : Clickable
     {
+        public object dragging;
+        public object draggingEnded;
+        public object _dragDirection;
+        public object _slider;
+        public object _startMousePosition;
+
         // ── Methods ──
         public void add_dragging(){} // RVA: 0x894320
         public void remove_dragging(){} // RVA: 0x894320
@@ -191,6 +271,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ClampedDragger`1 : Clickable
     {
+        public object dragging;
+        public object draggingEnded;
+        public object _dragDirection;
+        public object _slider;
+        public object _startMousePosition;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x629F610
         public void get_dragDirection(){} // RVA: 0xD34760
@@ -201,6 +287,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ClampedDragger`1 : Clickable
     {
+        public object dragging;
+        public object draggingEnded;
+        public object _dragDirection;
+        public object _slider;
+        public object _startMousePosition;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x629EE40
         public void get_dragDirection(){} // RVA: 0xD34760
@@ -211,6 +303,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ClickDetector : Object
     {
+        public object m_ClickStatus;
+        public object _s_DoubleClickTime;
+
         // ── Methods ──
         public void get_s_DoubleClickTime(){} // RVA: 0x7E807B0
         public void set_s_DoubleClickTime(){} // RVA: 0x7E80810
@@ -236,6 +331,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Clickable : PointerManipulator
     {
+        public object clickedWithEventInfo;
+        public object clicked;
+        public object m_Delay;
+        public object m_Interval;
+        public object _active;
+        public object _lastMousePosition;
+        public object m_ActivePointerId;
+        public object m_AcceptClicksIfDisabled;
+        public object m_Repeater;
+        public object m_PendingActivePseudoStateReset;
+
         // ── Methods ──
         public void add_clickedWithEventInfo(){} // RVA: 0x7E7E860
         public void remove_clickedWithEventInfo(){} // RVA: 0x7E7E970
@@ -270,6 +376,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionViewController : Object
     {
+        public object m_View;
+        public object m_ItemsSource;
+        public object itemsSourceChanged;
+        public object itemIndexChanged;
+
         // ── Methods ──
         public void add_itemsSourceChanged(){} // RVA: 0x7E8AEE0
         public void remove_itemsSourceChanged(){} // RVA: 0x7E8AFD0
@@ -304,6 +415,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CollectionVirtualizationController : Object
     {
+        public object m_ScrollView;
+
         // ── Methods ──
         public void get_firstVisibleIndex(){} // RVA: 0x87C130
         public void set_firstVisibleIndex(){} // RVA: 0x8944F0
@@ -327,6 +440,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ColorPage : ValueType
     {
+        public object isValid;
+        public object pageAndID;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x80A87D0
         public void ToNativeColorPage(){} // RVA: 0x9A9C80
@@ -334,6 +450,48 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Column : Object
     {
+        public object nameProperty;
+        public object titleProperty;
+        public object iconProperty;
+        public object visibleProperty;
+        public object widthProperty;
+        public object minWidthProperty;
+        public object maxWidthProperty;
+        public object sortableProperty;
+        public object stretchableProperty;
+        public object optionalProperty;
+        public object resizableProperty;
+        public object headerTemplateProperty;
+        public object cellTemplateProperty;
+        public object m_Name;
+        public object m_Title;
+        public object m_Icon;
+        public object m_Visible;
+        public object m_Width;
+        public object m_MinWidth;
+        public object m_MaxWidth;
+        public object m_DesiredWidth;
+        public object m_Stretchable;
+        public object m_Sortable;
+        public object m_Optional;
+        public object m_Resizable;
+        public object m_HeaderTemplate;
+        public object m_CellTemplate;
+        public object m_MakeHeader;
+        public object m_BindHeader;
+        public object m_UnbindHeader;
+        public object m_DestroyHeader;
+        public object m_MakeCell;
+        public object m_BindCell;
+        public object m_UnbindCellItem;
+        public object propertyChanged;
+        public object _comparison;
+        public object _bindingPath;
+        public object _destroyCell;
+        public object _collection;
+        public object changed;
+        public object resized;
+
         // ── Methods ──
         public void add_propertyChanged(){} // RVA: 0x7FFA2C0
         public void remove_propertyChanged(){} // RVA: 0x7FFA3E0
@@ -397,6 +555,29 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ColumnLayout : Object
     {
+        public object m_StretchableColumns;
+        public object m_FixedColumns;
+        public object m_RelativeWidthColumns;
+        public object m_MixedWidthColumns;
+        public object m_Columns;
+        public object m_ColumnsWidth;
+        public object m_ColumnsWidthDirty;
+        public object m_MaxColumnsWidth;
+        public object m_MinColumnsWidth;
+        public object m_IsDirty;
+        public object m_PreviousWidth;
+        public object m_LayoutWidth;
+        public object m_DragResizeInPreviewMode;
+        public object m_DragResizing;
+        public object m_DragStartPos;
+        public object m_DragLastPos;
+        public object m_DragInitialColumnWidth;
+        public object m_DragStretchableColumns;
+        public object m_DragRelativeColumns;
+        public object m_DragFixedColumns;
+        public object m_PreviewDesiredWidths;
+        public object layoutRequested;
+
         // ── Methods ──
         public void get_columns(){} // RVA: 0xD33E60
         public void get_columnsWidth(){} // RVA: 0x7FFCB70
@@ -443,6 +624,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Columns : Object
     {
+        public object primaryColumnNameProperty;
+        public object reorderableProperty;
+        public object resizableProperty;
+        public object resizePreviewProperty;
+        public object stretchModeProperty;
+        public object m_Columns;
+        public object m_DisplayColumns;
+        public object m_VisibleColumns;
+        public object m_VisibleColumnsDirty;
+        public object m_StretchMode;
+        public object m_Reorderable;
+        public object m_Resizable;
+        public object m_ResizePreview;
+        public object m_PrimaryColumnName;
+        public object propertyChanged;
+        public object changed;
+        public object columnAdded;
+        public object columnRemoved;
+        public object columnChanged;
+        public object columnResized;
+        public object columnReordered;
+
         // ── Methods ──
         public void add_propertyChanged(){} // RVA: 0x80020B0
         public void remove_propertyChanged(){} // RVA: 0x80021C0
@@ -498,6 +701,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1 : EventBase`1
     {
+        public object m_CommandName;
+
         // ── Methods ──
         public void get_commandName(){} // RVA: 0x87C0A0
         public void set_commandName(){} // RVA: 0x894320
@@ -510,6 +715,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1 : EventBase`1
     {
+        public object m_CommandName;
+
         // ── Methods ──
         public void get_commandName(){} // RVA: 0x62AD9E0
         public void set_commandName(){} // RVA: 0xBBFFA0
@@ -522,6 +729,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CommandEventBase`1 : EventBase`1
     {
+        public object m_CommandName;
+
         // ── Methods ──
         public void get_commandName(){} // RVA: 0x62AD9E0
         public void set_commandName(){} // RVA: 0xBBFFA0
@@ -534,6 +743,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedStyle : ValueType
     {
+        public object inheritedData;
+        public object layoutData;
+        public object rareData;
+        public object transformData;
+        public object transitionData;
+        public object visualData;
+        public object customProperties;
+        public object matchingRulesHash;
+        public object dpiScaling;
+        public object computedTransitions;
+
         // ── Methods ──
         public void get_customPropertiesCount(){} // RVA: 0x9A62A0
         public void get_hasTransition(){} // RVA: 0x9A62F0
@@ -680,6 +900,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ComputedTransitionUtils : Object
     {
+        public object s_ComputedTransitionsBuffer;
+
         // ── Methods ──
         public void UpdateComputedTransitions(){} // RVA: 0x80B3E50
         public void HasTransitionProperty(){} // RVA: 0x80B3F00
@@ -703,6 +925,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ContextualMenuManager : Object
     {
+        public object _displayMenuHandledOSX;
+
         // ── Methods ──
         public void get_displayMenuHandledOSX(){} // RVA: 0xC120A0
         public void set_displayMenuHandledOSX(){} // RVA: 0xC120B0
@@ -714,6 +938,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ContextualMenuManipulator : PointerManipulator
     {
+        public object m_MenuBuilder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7E90890
         public void RegisterCallbacksOnTarget(){} // RVA: 0x7E90A90
@@ -732,6 +958,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ContextualMenuPopulateEvent : MouseEventBase`1
     {
+        public object _menu;
+        public object _triggerEvent;
+        public object m_ContextualMenuManager;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8062B90
         public void get_menu(){} // RVA: 0x106A050
@@ -747,6 +977,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ConverterGroup : Object
     {
+        public object _id;
+        public object _displayName;
+        public object _description;
+        public object _registry;
+
         // ── Methods ──
         public void get_registry(){} // RVA: 0xB70160
         public void .ctor(){} // RVA: 0x7E56240
@@ -756,6 +991,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ConverterGroups : Object
     {
+        public object s_GlobalConverters;
+        public object s_PrimitivesConverters;
+        public object s_BindingConverterGroups;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7E56DF0
         public void RegisterPrimitivesConverter(){} // RVA: 0x7E570E0
@@ -778,6 +1017,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CountingBloomFilter : ValueType
     {
+        public object m_Counters;
+
         // ── Methods ──
         public void AdjustSlot(){} // RVA: 0x9A4350
         public void Hash1(){} // RVA: 0x9A4380
@@ -790,6 +1031,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CreationContext : ValueType
     {
+        public object Default;
+        public object _target;
+        public object _veaIdsPath;
+        public object _visualTreeAsset;
+        public object _slotInsertionPoints;
+        public object _attributeOverrides;
+        public object _serializedDataOverrides;
+        public object _namesPath;
+
         // ── Methods ──
         public void get_target(){} // RVA: 0x77900
         public void set_target(){} // RVA: 0x47F10
@@ -814,6 +1064,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Cursor : ValueType
     {
+        public object _texture;
+        public object _hotspot;
+        public object _defaultCursorId;
+
         // ── Methods ──
         public void get_texture(){} // RVA: 0x77900
         public void set_texture(){} // RVA: 0x47F10
@@ -829,6 +1083,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CursorManager : Object
     {
+        public object _isCursorOverriden;
+
         // ── Methods ──
         public void get_isCursorOverriden(){} // RVA: 0xC120A0
         public void set_isCursorOverriden(){} // RVA: 0xC120B0
@@ -845,6 +1101,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class CustomStyleProperty`1 : ValueType
     {
+        public object _name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x87C0A0
         public void set_name(){} // RVA: 0x894320

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 {
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -31,6 +33,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34BCD00
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -55,6 +59,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34BCD00
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -79,6 +85,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34BCD00
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -103,6 +111,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34BC480
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -127,6 +137,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConfigurationList`1 : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34BCD00
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -151,6 +163,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ConverterList : Object
     {
+        public object _list;
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DC11B0
         public void get_Item(){} // RVA: 0x6DC1380

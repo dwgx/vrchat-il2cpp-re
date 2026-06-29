@@ -8,29 +8,34 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Internal
     public class ParameterDefaultValue : Object
     {
         // ── Methods ──
-        public void CheckHasDefaultValue(){} // RVA: 0x7AD98F910
-        public void TryGetDefaultValue(){} // RVA: 0x7AD98FA50
-        public void <TryGetDefaultValue>g__CreateValueType|1_0(){} // RVA: 0x7AD98FDA0
+        public void CheckHasDefaultValue(){} // RVA: 0x661B150
+        public void TryGetDefaultValue(){} // RVA: 0x661B1A0
+        public void <TryGetDefaultValue>g__CreateValueType|1_0(){} // RVA: 0x661B500
     }
 
     public class TypeNameHelper : Object
     {
+        public object _builtInTypeNames;
+
         // ── Methods ──
-        public void GetTypeDisplayName(){} // RVA: 0x7AD98FE90
-        public void ProcessType(){} // RVA: 0x7AD98FF90
-        public void ProcessArrayType(){} // RVA: 0x7AD990410
-        public void ProcessGenericType(){} // RVA: 0x7AD990630
-        public void .cctor(){} // RVA: 0x7AD990A40
+        public void GetTypeDisplayName(){} // RVA: 0x661B5F0
+        public void ProcessType(){} // RVA: 0x661B6E0
+        public void ProcessArrayType(){} // RVA: 0x661BB60
+        public void ProcessGenericType(){} // RVA: 0x661BD80
+        public void .cctor(){} // RVA: 0x661C1A0
     }
 
     public class TypeNameHelper : Object
     {
+        public object DefaultNestedTypeDelimiter;
+        public object _builtInTypeNames;
+
         // ── Methods ──
-        public void GetTypeDisplayName(){} // RVA: 0x7AD994B80
-        public void ProcessType(){} // RVA: 0x7AD994C80
-        public void ProcessArrayType(){} // RVA: 0x7AD995100
-        public void ProcessGenericType(){} // RVA: 0x7AD995320
-        public void .cctor(){} // RVA: 0x7AD995730
+        public void GetTypeDisplayName(){} // RVA: 0x661FF40
+        public void ProcessType(){} // RVA: 0x6620030
+        public void ProcessArrayType(){} // RVA: 0x66204B0
+        public void ProcessGenericType(){} // RVA: 0x66206D0
+        public void .cctor(){} // RVA: 0x6620AF0
     }
 
 }

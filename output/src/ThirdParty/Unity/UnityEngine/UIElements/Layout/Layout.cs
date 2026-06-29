@@ -7,18 +7,33 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 {
     public class ComponentType : ValueType
     {
+        public object Size;
+
         // ── Methods ──
         public void Create(){} // RVA: 0xA94080
     }
 
     public class FixedBuffer2`1 : ValueType
     {
+        public object __0;
+        public object __1;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x87C160
     }
 
     public class FixedBuffer9`1 : ValueType
     {
+        public object __0;
+        public object __1;
+        public object __2;
+        public object __3;
+        public object __4;
+        public object __5;
+        public object __6;
+        public object __7;
+        public object __8;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x87C160
     }
@@ -52,18 +67,47 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutCacheData : ValueType
     {
+        public object Default;
+        public object NextCachedMeasurementsIndex;
+        public object cachedMeasurements;
+        public object CachedLayout;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F848B0
     }
 
     public class LayoutCachedMeasurement : ValueType
     {
+        public object Default;
+        public object AvailableWidth;
+        public object AvailableHeight;
+        public object ParentWidth;
+        public object ParentHeight;
+        public object WidthMeasureMode;
+        public object HeightMeasureMode;
+        public object ComputedWidth;
+        public object ComputedHeight;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F849D0
     }
 
     public class LayoutComputedData : ValueType
     {
+        public object Position;
+        public object Dimensions;
+        public object Margin;
+        public object Border;
+        public object Padding;
+        public object Direction;
+        public object ComputedFlexBasisGeneration;
+        public object ComputedFlexBasis;
+        public object HadOverflow;
+        public object GenerationCount;
+        public object LastParentDirection;
+        public object LastPointScaleFactor;
+        public object MeasuredDimensions;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x7F84A30
         public void get_MarginBuffer(){} // RVA: 0x9A05B0
@@ -73,6 +117,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutConfig : ValueType
     {
+        public object m_Access;
+        public object m_Handle;
+
         // ── Methods ──
         public void get_Undefined(){} // RVA: 0x7F7EA60
         public void .ctor(){} // RVA: 0x99E8B0
@@ -82,6 +129,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutConfigData : ValueType
     {
+        public object PointScaleFactor;
+        public object ShouldLog;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x7F84C20
     }
@@ -108,6 +158,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutDataAccess : ValueType
     {
+        public object m_Manager;
+        public object m_Nodes;
+        public object m_Configs;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x9A05E0
         public void .ctor(){} // RVA: 0x9A0610
@@ -146,6 +200,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutDataStore : ValueType
     {
+        public object k_ChunkSize;
+        public object m_Allocator;
+        public object m_Data;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x367C80
         public void .ctor(){} // RVA: 0x9A06C0
@@ -163,12 +221,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutDefaults : ValueType
     {
+        public object EdgeValuesUnit;
+        public object DimensionValues;
+        public object DimensionValuesUnit;
+        public object DimensionValuesAutoUnit;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F86300
     }
 
     public class LayoutDelegates : Object
     {
+        public object s_InvokeMeasureFunctionMarker;
+        public object s_InvokeBaselineFunctionMarker;
+        public object s_InvokeMeasureDelegate;
+        public object s_InvokeBaselineDelegate;
+        public object s_InvokeMeasureFunction;
+        public object s_InvokeBaselineFunction;
+
         // ── Methods ──
         public void InvokeMeasureFunction(){} // RVA: 0x7F84070
         public void InvokeBaselineFunction(){} // RVA: 0x7F84300
@@ -177,6 +247,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutHandle : ValueType
     {
+        public object Index;
+        public object Version;
+
         // ── Methods ──
         public void get_Undefined(){} // RVA: 0xDAC980
         public void .ctor(){} // RVA: 0x2B100
@@ -186,6 +259,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutList`1 : ValueType
     {
+        public object m_Allocator;
+        public object m_Data;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void get_IsCreated(){} // RVA: 0x87D280
@@ -202,6 +278,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutManager : Object
     {
+        public object s_Initialized;
+        public object s_AppDomainUnloadRegistered;
+        public object s_SharedInstance;
+        public object s_Managers;
+        public object m_Index;
+        public object m_Nodes;
+        public object m_Configs;
+        public object m_SyncRoot;
+        public object m_NodesToFree;
+        public object m_DefaultConfig;
+        public object m_ManagedMeasureFunctions;
+        public object m_ManagedBaselineFunctions;
+        public object m_ManagedOwners;
+        public object m_HighMark;
+
         // ── Methods ──
         public void get_SharedManager(){} // RVA: 0x7F7EDD0
         public void .cctor(){} // RVA: 0x7F7EE30
@@ -236,6 +327,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutNative : Object
     {
+        public object onLayoutLog;
+
         // ── Methods ──
         public void CalculateLayout(){} // RVA: 0x7F86740
         public void LayoutLog_Internal(){} // RVA: 0x7F867D0
@@ -263,6 +356,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutNode : ValueType
     {
+        public object k_DefaultChildCapacity;
+        public object m_Access;
+        public object m_Handle;
+
         // ── Methods ──
         public void get_LayoutX(){} // RVA: 0x99EF30
         public void get_LayoutY(){} // RVA: 0x99EF50
@@ -365,6 +462,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutNodeData : ValueType
     {
+        public object ResolvedDimensions;
+        public object TargetSize;
+        public object ManagedMeasureFunctionIndex;
+        public object ManagedBaselineFunctionIndex;
+        public object ManagedOwnerIndex;
+        public object LineIndex;
+        public object Config;
+        public object Parent;
+        public object NextChild;
+        public object Children;
+        public object Status;
+
         // ── Methods ──
         public void get_HasNewLayout(){} // RVA: 0x9A0850
         public void set_HasNewLayout(){} // RVA: 0x9A0860
@@ -394,6 +503,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutProcessor : Object
     {
+        public object s_Processor;
+
         // ── Methods ──
         public void CalculateLayout(){} // RVA: 0x7F83CD0
         public void .cctor(){} // RVA: 0x7F83E20
@@ -401,6 +512,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutProcessorNative : Object
     {
+        public object m_State;
+
         // ── Methods ──
         public void UnityEngine.UIElements.Layout.ILayoutProcessor.CalculateLayout(){} // RVA: 0x7F86B90
         public void .ctor(){} // RVA: 0x7F86CC0
@@ -408,18 +521,51 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutSize : ValueType
     {
+        public object width;
+        public object height;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C540
     }
 
     public class LayoutState : ValueType
     {
+        public object measureFunctionCallback;
+        public object baselineFunctionCallback;
+        public object unusedExceptionPointer;
+        public object depth;
+        public object currentGenerationCount;
+        public object error;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x7F86B10
     }
 
     public class LayoutStyleData : ValueType
     {
+        public object Default;
+        public object Direction;
+        public object FlexDirection;
+        public object JustifyContent;
+        public object AlignContent;
+        public object AlignItems;
+        public object AlignSelf;
+        public object PositionType;
+        public object AspectRatio;
+        public object FlexWrap;
+        public object Overflow;
+        public object Display;
+        public object FlexGrow;
+        public object FlexShrink;
+        public object FlexBasis;
+        public object border;
+        public object position;
+        public object margin;
+        public object padding;
+        public object maxDimensions;
+        public object minDimensions;
+        public object dimensions;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F868E0
     }
@@ -446,6 +592,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class LayoutValue : ValueType
     {
+        public object value;
+        public object unit;
+
         // ── Methods ──
         public void get_Unit(){} // RVA: 0x77E50
         public void get_Value(){} // RVA: 0x88D10
@@ -460,6 +609,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Layout
 
     public class ManagedObjectStore`1 : Object
     {
+        public object m_Length;
+        public object m_Chunks;
+        public object m_Free;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void GetValue(){} // RVA: 0xA94080

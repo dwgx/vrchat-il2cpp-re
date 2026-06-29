@@ -7,6 +7,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class VRIK : IK
     {
+        public object references;
+        public object solver;
+        public object _isVRCAvatarMainIK;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -32,6 +36,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKLODController : MonoBehaviour
     {
+        public object LODRenderer;
+        public object LODDistance;
+        public object allowCulled;
+        public object ik;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCCC020
         public void Update(){} // RVA: 0xCCC0B0
@@ -41,6 +50,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class VRIKRootController : MonoBehaviour
     {
+        public object _pelvisTargetRight;
+        public object pelvisTarget;
+        public object leftFootTarget;
+        public object rightFootTarget;
+        public object ik;
+
         // ── Methods ──
         public void get_pelvisTargetRight(){} // RVA: 0xBA9C00
         public void set_pelvisTargetRight(){} // RVA: 0xBA9C20

@@ -7,6 +7,28 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 {
     public class AssetDatabaseRefreshAnalytic : AnalyticsEventBase
     {
+        public object isV2;
+        public object Imports_Imported;
+        public object Imports_ImportedInProcess;
+        public object Imports_ImportedOutOfProcess;
+        public object Imports_Refresh;
+        public object Imports_DomainReload;
+        public object CacheServer_MetadataRequested;
+        public object CacheServer_MetadataDownloaded;
+        public object CacheServer_MetadataFailedToDownload;
+        public object CacheServer_MetadataUploaded;
+        public object CacheServer_ArtifactsFailedToUpload;
+        public object CacheServer_MetadataVersionsDownloaded;
+        public object CacheServer_MetadataMatched;
+        public object CacheServer_ArtifactsDownloaded;
+        public object CacheServer_ArtifactFilesDownloaded;
+        public object CacheServer_ArtifactFilesFailedToDownload;
+        public object CacheServer_ArtifactsUploaded;
+        public object CacheServer_ArtifactFilesUploaded;
+        public object CacheServer_ArtifactFilesFailedToUpload;
+        public object CacheServer_Connects;
+        public object CacheServer_Disconnects;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8123EB0
         public void CreateAssetDatabaseRefreshAnalytic(){} // RVA: 0x8123F20
@@ -34,6 +56,12 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class AssetExportAnalytic : AnalyticsEventBase
     {
+        public object package_name;
+        public object error_message;
+        public object items_count;
+        public object asset_extensions;
+        public object include_upm_dependencies;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125570
         public void CreateAssetExportAnalytic(){} // RVA: 0x81255E0
@@ -61,6 +89,9 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class AssetImportAnalytic : AnalyticsEventBase
     {
+        public object package_name;
+        public object package_import_choice;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125460
         public void CreateAssetImportAnalytic(){} // RVA: 0x81254D0
@@ -88,6 +119,17 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class AssetImportStatusAnalytic : AnalyticsEventBase
     {
+        public object package_name;
+        public object package_items_count;
+        public object package_import_status;
+        public object error_message;
+        public object project_assets_count;
+        public object unselected_assets_count;
+        public object selected_new_assets_count;
+        public object selected_changed_assets_count;
+        public object unchanged_assets_count;
+        public object selected_asset_extensions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125330
         public void CreateAssetImportStatusAnalytic(){} // RVA: 0x81253B0
@@ -115,6 +157,9 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class BuildAssetBundleAnalytic : AnalyticsEventBase
     {
+        public object success;
+        public object error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8123FC0
         public void CreateBuildAssetBundleAnalytic(){} // RVA: 0x8124030
@@ -142,6 +187,12 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class CollabOperationAnalytic : AnalyticsEventBase
     {
+        public object category;
+        public object operation;
+        public object result;
+        public object start_ts;
+        public object duration;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81240D0
         public void CreateCollabOperationAnalytic(){} // RVA: 0x8124140
@@ -169,6 +220,12 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class LicensingErrorAnalytic : AnalyticsEventBase
     {
+        public object licensingErrorType;
+        public object additionalData;
+        public object errorMessage;
+        public object correlationId;
+        public object sessionId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81241E0
         public void CreateLicensingErrorAnalytic(){} // RVA: 0x8124250
@@ -196,6 +253,14 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class LicensingInitAnalytic : AnalyticsEventBase
     {
+        public object licensingProtocolVersion;
+        public object licensingClientVersion;
+        public object channelType;
+        public object initTime;
+        public object isLegacy;
+        public object sessionId;
+        public object correlationId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81242F0
         public void CreateLicensingInitAnalytic(){} // RVA: 0x8124360
@@ -250,6 +315,11 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class NavmeshBakingAnalytic : AnalyticsEventBase
     {
+        public object new_nav_api;
+        public object bake_at_runtime;
+        public object height_meshes_count;
+        public object offmesh_links_count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8124510
         public void CreateNavmeshBakingAnalytic(){} // RVA: 0x8124580
@@ -304,6 +374,13 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class PackageManagerBaseAnalytic : AnalyticsEventBase
     {
+        public object start_ts;
+        public object duration;
+        public object blocking;
+        public object package_id;
+        public object status_code;
+        public object error_message;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8124840
     }
@@ -411,6 +488,9 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class PackageManagerResolveErrorPackageAnalytic : PackageManagerBaseAnalytic
     {
+        public object reason;
+        public object action;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125090
         public void CreatePackageManagerResolveErrorPackageAnalytic(){} // RVA: 0x8125120
@@ -438,6 +518,13 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class PackageManagerResolvePackageAnalytic : PackageManagerBaseAnalytic
     {
+        public object packages;
+        public object package_registries;
+        public object package_signatures;
+        public object package_sources;
+        public object package_types;
+        public object package_compliance_statuses;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8124CA0
         public void CreatePackageManagerResolvePackageAnalytic(){} // RVA: 0x8124D30
@@ -519,6 +606,9 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class ProjectSettingsInformationAnalytic : AnalyticsEventBase
     {
+        public object agent_types_count;
+        public object areas_count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8124620
         public void CreateProjectSettingsInformationAnalytic(){} // RVA: 0x8124690
@@ -546,6 +636,8 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class SendGameBuildAnalytic : AnalyticsEventBase
     {
+        public object navmesh_count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8124730
         public void CreateSendGameBuildAnalytic(){} // RVA: 0x81247A0
@@ -573,6 +665,10 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class StallMarkerAnalytic : AnalyticsEventBase
     {
+        public object Name;
+        public object HasProgressMarkup;
+        public object Duration;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125790
         public void CreateStallMarkerAnalytic(){} // RVA: 0x8125800
@@ -600,6 +696,8 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class StallSummaryAnalytic : AnalyticsEventBase
     {
+        public object Duration;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125680
         public void CreateStallSummaryAnalytic(){} // RVA: 0x81256F0
@@ -627,6 +725,8 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class TestAnalytic : AnalyticsEventBase
     {
+        public object param;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81258A0
         public void CreateTestAnalytic(){} // RVA: 0x8125910
@@ -654,6 +754,8 @@ namespace ThirdParty.Other.UnityEditor.Analytics
 
     public class VCProviderAnalytics : AnalyticsEventBase
     {
+        public object Mode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81259B0
         public void CreateVCProviderAnalytics(){} // RVA: 0x8125A20

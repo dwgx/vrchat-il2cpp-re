@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
     public class KeyValuePairConverter`2 : SmallObjectWithParameterizedConstructorConverter`5
     {
+        public object _keyName;
+        public object _valueName;
+        public object s_constructorInfo;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x8943B0
         public void TryLookupConstructorParameter(){} // RVA: 0x87D760

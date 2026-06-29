@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 223
+// Methods: 224
 
 namespace ThirdParty.DotNet.System
 {
@@ -210,20 +210,6 @@ namespace ThirdParty.DotNet.System
         public void Invoke(){} // RVA: 0xBA10B0
         public void BeginInvoke(){} // RVA: 0xBA10C0
         public void EndInvoke(){} // RVA: 0xB44BE0
-    }
-
-    public class Func`2 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E00A90
-        public void Invoke(){} // RVA: 0x35A77C0
-    }
-
-    public class Func`2 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x23F1A30
-        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Func`2 : MulticastDelegate
@@ -473,12 +459,6 @@ namespace ThirdParty.DotNet.System
     public class Func`3 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x26DB6E0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
         public void Invoke(){} // RVA: 0xCA8BF0
     }
 
@@ -707,6 +687,27 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3E3B100
         public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class Func`3 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3A3D0
+        public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class Func`3 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3ACB0
+        public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class Func`3 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3AB40
+        public void Invoke(){} // RVA: 0x3E38920
     }
 
     public class Func`4 : MulticastDelegate

@@ -7,11 +7,15 @@ namespace ThirdParty.DotNet.System.Net
 {
     public class ValidationHelper : Object
     {
+        public object EmptyArray;
+        public object InvalidMethodChars;
+        public object InvalidParamChars;
+
         // ── Methods ──
-        public void MakeStringNull(){} // RVA: 0x7AE9108A0
-        public void IsBlankString(){} // RVA: 0x7AE9108B0
-        public void ValidateTcpPort(){} // RVA: 0x7AE9108C0
-        public void .cctor(){} // RVA: 0x7AE9108E0
+        public void MakeStringNull(){} // RVA: 0x75841D0
+        public void IsBlankString(){} // RVA: 0x75841E0
+        public void ValidateTcpPort(){} // RVA: 0x75841F0
+        public void .cctor(){} // RVA: 0x7584210
     }
 
 }

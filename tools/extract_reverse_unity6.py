@@ -31,6 +31,13 @@ MI_PTR, MI_INVOKER, MI_NAME, MI_KLASS = 0x00, 0x08, 0x10, 0x20
 CL_NS, CL_NAME = 0x18, 0x98
 CL_SELFREF = 0x10  # klass[+0x10] == klass (self-reference invariant for verify)
 CL_PARENT_CANDIDATES = list(range(0x20, 0x160, 8))  # auto-detected at runtime
+CL_FIELDS = 0xa8   # FieldInfo[] array pointer (verified vs Vector3/Color/Vector2)
+
+# FieldInfo layout (Unity 6, verified): stride 0x20, name@+0x08, parent@+0x18 (-> klass).
+# field_count in the class struct is unreliable here, so fields are enumerated by
+# walking the array while FieldInfo.parent == klass (terminates cleanly).
+FI_STRIDE, FI_NAME, FI_PARENT, FI_TYPE = 0x20, 0x08, 0x18, 0x00
+FI_MAX = 256  # safety cap per class
 
 MODULE_LO, MODULE_HI = 0x00007FF000000000, 0x00007FFFFFFFFFFF
 
@@ -139,6 +146,30 @@ def detect_parent_offset(dr, klass_vas, lo, hi):
     return best
 
 
+def extract_fields(dr, kl, lo, hi):
+    """Walk the FieldInfo array at klass+CL_FIELDS, collecting field names while
+    FieldInfo.parent == klass (clean terminator). Unity 6 layout: stride 0x20,
+    name@+0x08, parent@+0x18. Returns list of field-name strings."""
+    arr = dr.ru64(kl + CL_FIELDS)
+    if not arr or not (lo <= arr < hi):
+        return []
+    out = []
+    for k in range(FI_MAX):
+        fi = arr + k * FI_STRIDE
+        if dr.ru64(fi + FI_PARENT) != kl:
+            break
+        nm = dr.rstr_ptr(fi + FI_NAME)
+        if is_ident(nm):
+            out.append(nm)
+    return out
+
+
+def verify_fields(dr, kl, lo, hi):
+    """Ground-truth check: UnityEngine.Color must expose r/g/b/a fields."""
+    fs = set(extract_fields(dr, kl, lo, hi))
+    return {"r", "g", "b", "a"}.issubset(fs)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Reverse MethodInfo extractor for Unity 6 (6000.0.x) VRChat builds")
     ap.add_argument("dump", nargs="?", default=r"D:\Project\vrchat-il2cpp-re\dumps\VRChat_6456_20260629_163108_full.dmp")
@@ -233,26 +264,42 @@ def main():
                 seen.add(m); meths.append(m)
                 if m.endswith("_Injected"):
                     injected += 1
+        fields = extract_fields(dr, kl, lo, hi)
         namespaces.setdefault(ns, []).append({
             "name": nm, "namespace": ns, "parent": parent,
             "methods": meths, "method_pointers": e["ptrs"],
-            "fields": [], "va": f"0x{kl:X}",
+            "fields": fields, "va": f"0x{kl:X}",
         })
         resolved += 1
 
     total_methods = sum(len(c["methods"]) for cl in namespaces.values() for c in cl)
+    total_fields = sum(len(c["fields"]) for cl in namespaces.values() for c in cl)
+
+    # Field self-check: UnityEngine.Color must expose r/g/b/a. Warn loudly if the
+    # FieldInfo layout shifted (so field output is never silently trusted).
+    color_fields = set()
+    for c in namespaces.get("UnityEngine", []):
+        if c["name"] == "Color":
+            color_fields = set(c["fields"]); break
+    if {"r", "g", "b", "a"}.issubset(color_fields):
+        print("[verify] OK: UnityEngine.Color fields r/g/b/a present (FieldInfo layout valid)")
+    else:
+        print(f"[verify] WARNING: UnityEngine.Color fields look wrong ({sorted(color_fields)});"
+              " FieldInfo offsets may have shifted.")
     out = {
         "summary": {
             "total_types": resolved,
             "total_methods": total_methods,
-            "total_fields": 0,
+            "total_fields": total_fields,
             "types_with_methods": sum(1 for cl in namespaces.values() for c in cl if c["methods"]),
-            "types_with_fields": 0,
+            "types_with_fields": sum(1 for cl in namespaces.values() for c in cl if c["fields"]),
             "namespace_count": len(namespaces),
             "injected_methods": injected,
             "method": "reverse_methodinfo_enumeration",
             "build": "unity6-6000.0",
             "parent_offset": hex(cl_parent) if cl_parent else None,
+            "field_offsets": {"CL_FIELDS": hex(CL_FIELDS), "FI_STRIDE": hex(FI_STRIDE),
+                              "FI_NAME": hex(FI_NAME), "FI_PARENT": hex(FI_PARENT)},
             "generated": time.strftime("%Y-%m-%d %H:%M:%S"),
             "source_dump": os.path.basename(args.dump),
         },
@@ -260,10 +307,12 @@ def main():
     }
     with open(args.output_json, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"[done] {resolved} classes, {total_methods} methods ({injected} _Injected) -> {args.output_json}")
+    print(f"[done] {resolved} classes, {total_methods} methods ({injected} _Injected), "
+          f"{total_fields} fields -> {args.output_json}")
     for ns in ("UnityEngine", "VRC.Dynamics", "VRC.Core"):
         for c in namespaces.get(ns, [])[:1]:
-            print(f"  sample {ns}.{c['name']} parent={c['parent']} methods={len(c['methods'])} {c['methods'][:5]}")
+            print(f"  sample {ns}.{c['name']} parent={c['parent']} "
+                  f"methods={len(c['methods'])} fields={len(c['fields'])} {c['methods'][:4]}")
     return 0
 
 

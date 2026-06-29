@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class TaskAwaiter : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -22,6 +24,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_IsCompleted(){} // RVA: 0x87D280
@@ -32,6 +36,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x212FA0
@@ -42,6 +48,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -52,6 +60,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -62,6 +72,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -72,6 +84,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -82,6 +96,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -92,6 +108,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -102,6 +120,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -112,6 +132,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -122,6 +144,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -132,6 +156,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -142,6 +168,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -152,6 +180,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -162,6 +192,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -172,6 +204,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -182,6 +216,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -192,6 +228,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x212FA0
@@ -202,6 +240,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -212,6 +252,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -222,6 +264,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -232,6 +276,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -242,6 +288,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x212FA0
@@ -252,6 +300,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -262,6 +312,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void OnCompleted(){} // RVA: 0x4AC0E0
         public void UnsafeOnCompleted(){} // RVA: 0x4AC190
@@ -269,6 +321,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -279,6 +333,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -289,90 +345,136 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x47F10
+    }
+
+    public class TaskAwaiter`1 : ValueType
+    {
+        public object m_task;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x47F10
+    }
+
+    public class TaskAwaiter`1 : ValueType
+    {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -383,6 +485,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -393,6 +497,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x212FA0
@@ -403,6 +509,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -413,6 +521,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -423,6 +533,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -433,6 +545,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -443,22 +557,16 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TaskAwaiter`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x47F10
-        public void get_IsCompleted(){} // RVA: 0x214480
-        public void OnCompleted(){} // RVA: 0x4AC0E0
-        public void UnsafeOnCompleted(){} // RVA: 0x4AC190
-        public void GetResult(){} // RVA: 0x216780
-    }
+        public object m_task;
 
-    public class TaskAwaiter`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -469,6 +577,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -479,6 +589,20 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x47F10
+        public void get_IsCompleted(){} // RVA: 0x214480
+        public void OnCompleted(){} // RVA: 0x4AC0E0
+        public void UnsafeOnCompleted(){} // RVA: 0x4AC190
+        public void GetResult(){} // RVA: 0x216780
+    }
+
+    public class TaskAwaiter`1 : ValueType
+    {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x212FA0
@@ -489,6 +613,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
@@ -499,24 +625,14 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TaskAwaiter`1 : ValueType
     {
+        public object m_task;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_IsCompleted(){} // RVA: 0x214480
         public void OnCompleted(){} // RVA: 0x4AC0E0
         public void UnsafeOnCompleted(){} // RVA: 0x4AC190
         public void GetResult(){} // RVA: 0x216780
-    }
-
-    public class TaskAwaiter`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x47F10
-    }
-
-    public class TaskAwaiter`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x47F10
     }
 
     public class TrueReadOnlyCollection`1 : ReadOnlyCollection`1
@@ -527,6 +643,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TupleElementNamesAttribute : Attribute
     {
+        public object _transformNames;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67BDCD0
         public void get_TransformNames(){} // RVA: 0xB5DBF0
@@ -534,12 +652,16 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class TypeDependencyAttribute : Attribute
     {
+        public object typeName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67C1240
     }
 
     public class TypeForwardedFromAttribute : Attribute
     {
+        public object _assemblyFullName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67BDD80
         public void get_AssemblyFullName(){} // RVA: 0xB5DBF0

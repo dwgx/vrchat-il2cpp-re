@@ -7,6 +7,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class ShoulderRotator : MonoBehaviour
     {
+        public object weight;
+        public object offset;
+        public object ik;
+        public object skip;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCC53A0
         public void RotateShoulders(){} // RVA: 0xCC5570

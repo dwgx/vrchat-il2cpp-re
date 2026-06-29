@@ -7,6 +7,9 @@ namespace ThirdParty.ZLinq.ZLinq
 {
     public class ZLinqDropInAttribute : Attribute
     {
+        public object _generateNamespace;
+        public object _dropInGenerateTypes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2615F10
     }

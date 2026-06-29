@@ -7,6 +7,19 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Vector2 : ValueType
     {
+        public object x;
+        public object y;
+        public object zeroVector;
+        public object oneVector;
+        public object upVector;
+        public object downVector;
+        public object leftVector;
+        public object rightVector;
+        public object positiveInfinityVector;
+        public object negativeInfinityVector;
+        public object kEpsilon;
+        public object kEpsilonNormalSqrt;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x964CE0
         public void set_Item(){} // RVA: 0x964CF0
@@ -55,6 +68,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector2Int : ValueType
     {
+        public object m_X;
+        public object m_Y;
+        public object s_Zero;
+        public object s_One;
+        public object s_Up;
+        public object s_Down;
+        public object s_Left;
+        public object s_Right;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x454FE0
         public void set_x(){} // RVA: 0x29580
@@ -137,6 +159,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3 : ValueType
     {
+        public object kEpsilon;
+        public object kEpsilonNormalSqrt;
+        public object x;
+        public object y;
+        public object z;
+        public object zeroVector;
+        public object oneVector;
+        public object upVector;
+        public object downVector;
+        public object leftVector;
+        public object rightVector;
+        public object forwardVector;
+        public object backVector;
+        public object positiveInfinityVector;
+        public object negativeInfinityVector;
+
         // ── Methods ──
         public void Slerp(){} // RVA: 0x7BE6BD0
         public void SlerpUnclamped(){} // RVA: 0x7BE6C60
@@ -198,6 +236,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector3Int : ValueType
     {
+        public object m_X;
+        public object m_Y;
+        public object m_Z;
+        public object s_Zero;
+        public object s_One;
+        public object s_Up;
+        public object s_Down;
+        public object s_Left;
+        public object s_Right;
+        public object s_Forward;
+        public object s_Back;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x454FE0
         public void set_x(){} // RVA: 0x29580
@@ -284,6 +334,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Vector4 : ValueType
     {
+        public object kEpsilon;
+        public object x;
+        public object y;
+        public object z;
+        public object w;
+        public object zeroVector;
+        public object oneVector;
+        public object positiveInfinityVector;
+        public object negativeInfinityVector;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x9652A0
         public void set_Item(){} // RVA: 0x9652B0

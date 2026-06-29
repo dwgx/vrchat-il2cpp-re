@@ -23,33 +23,11 @@ namespace VRC.UI
         // ... 6 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÎÏÏÌÌÎÎÎÌÌÎÌÏÎÌÎÌÏÌÍÎ</summary>
-    public class InitializePotentialDragPointerDownHandlerImpl_4FD8 : InitializePotentialDragPointerDownHandler_DA28
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Handle(){} // RVA: 0x9F572D0
-    }
-
-    /// <summary>Originally: ÌÌÏÍÏÏÎÏÌÏÍÌÎÌÌÎÌÏÏÎÍÍÎ</summary>
-    public class InitializePotentialDragPointerDownHandlerImpl_5E21 : InitializePotentialDragPointerDownHandler_DA28
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x9F571F0
-        public void .ctor(){} // RVA: 0xB43D60
-    }
-
-    /// <summary>Originally: ÍÎÌÍÍÌÌÌÎÏÌÌÏÍÍÌÍÌÌÎÌÍÍ</summary>
-    public class InitializePotentialDragPointerDownHandlerImpl_C0E5 : InitializePotentialDragPointerDownHandler_DA28
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x9F57400
-        public void .ctor(){} // RVA: 0xB43D60
-    }
-
     /// <summary>Originally: ÍÌÎÎÍÍÎÎÏÏÍÏÌÎÍÍÎÍÍÏÍÎÎ</summary>
     public class InitializePotentialDragPointerDownHandler_DA28 : MonoBehaviour
     {
+        public object _dA28;
+
         // ── Methods ──
         public void OnPointerDown(){} // RVA: 0x6C48C50
         public void Start(){} // RVA: 0x9F56BE0
@@ -63,6 +41,39 @@ namespace VRC.UI
         public void StopAllCoroutines(){} // RVA: 0x5BA5570
         public void get_useGUILayout(){} // RVA: 0xB43310
         public void OnDrag(){} // RVA: 0x6C48C50
+    }
+
+    /// <summary>Originally: ÌÌÏÍÏÏÎÏÌÏÍÌÎÌÌÎÌÏÏÎÍÍÎ</summary>
+    public class InitializePotentialDragPointerDownHandler_colorPickerRectTransformcolorPicker_5E21 : InitializePotentialDragPointerDownHandler_DA28
+    {
+        public object colorPicker;
+        public object colorPickerRectTransform;
+
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x9F571F0
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÍÍÎÏÏÌÌÎÎÎÌÌÎÌÏÎÌÎÌÏÌÍÎ</summary>
+    public class InitializePotentialDragPointerDownHandler_colorPickerhueRect_4FD8 : InitializePotentialDragPointerDownHandler_DA28
+    {
+        public object colorPicker;
+        public object hueRect;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Handle(){} // RVA: 0x9F572D0
+    }
+
+    /// <summary>Originally: ÍÎÌÍÍÌÌÌÎÏÌÌÏÍÍÌÍÌÌÎÌÍÍ</summary>
+    public class InitializePotentialDragPointerDownHandler_saturationValueRectcolorPicker_C0E5 : InitializePotentialDragPointerDownHandler_DA28
+    {
+        public object colorPicker;
+        public object saturationValueRect;
+
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x9F57400
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
 }

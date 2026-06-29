@@ -7,10 +7,13 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class OverlayBrowserProtocolNavigation_t : ValueType
     {
+        public object RgchURI;
+        public object _datasize;
+
         // ── Methods ──
-        public void RgchURIUTF8(){} // RVA: 0x7A7720990
-        public void get_CallbackType(){} // RVA: 0x7A77209A0
-        public void .cctor(){} // RVA: 0x7A9EDE090
+        public void RgchURIUTF8(){} // RVA: 0x146FB0
+        public void get_CallbackType(){} // RVA: 0x146FC0
+        public void .cctor(){} // RVA: 0x29525F0
     }
 
 }

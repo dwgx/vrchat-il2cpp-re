@@ -19,6 +19,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class AnimationCurveFormatter : MinimalBaseFormatter`1
     {
+        public object KeyframeSerializer;
+        public object WrapModeSerializer;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0xDAC980
         public void Read(){} // RVA: 0x84C8610
@@ -29,6 +32,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArchitectureInfo : Object
     {
+        public object Architecture_Supports_Unaligned_Float32_Reads;
+        public object Architecture_Supports_All_Unaligned_ReadWrites;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x849C9C0
         public void SetRuntimePlatform(){} // RVA: 0x849CA60
@@ -36,6 +42,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayFormatterLocator : Object
     {
+        public object FormatterInstances;
+
         // ── Methods ──
         public void TryGetFormatter(){} // RVA: 0x8494DD0
         public void .ctor(){} // RVA: 0xB43310
@@ -44,6 +52,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayFormatter`1 : BaseFormatter`1
     {
+        public object valueReaderWriter;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x87C0A0
         public void DeserializeImplementation(){} // RVA: 0x8943B0
@@ -54,6 +64,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ArrayListFormatter : BaseFormatter`1
     {
+        public object ObjectSerializer;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0xDAC980
         public void DeserializeImplementation(){} // RVA: 0x849AA80

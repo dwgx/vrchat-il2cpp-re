@@ -1,10 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 1295
+// Methods: 1316
 
 public class ONSPAmbisonicsNative : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_885;
+    public object f_6A1;
+    public object f_019;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x192ACA0
     public void RaiseCancellation(){} // RVA: 0x192B020
@@ -22,6 +27,17 @@ public class ONSPAmbisonicsNative : MonoBehaviour
 
 public class ONSPAudioSource : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object enableSpatialization;
+    public object gain;
+    public object useInvSqr;
+    public object near;
+    public object far;
+    public object volumetricRadius;
+    public object reverbSend;
+    public object enableRfl;
+    public object f_C63;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x21E14A0
     public void RaiseCancellation(){} // RVA: 0xC120F0
@@ -61,6 +77,11 @@ public class ONSPAudioSource : MonoBehaviour
 
 public class ONSPReflectionZone : MonoBehaviour
 {
+    public object mixerSnapshot;
+    public object fadeTime;
+    public object f_F13;
+    public object f_9A1;
+
     // ── Methods ──
     public void Update(){} // RVA: 0xB43310
     public void RaiseCancellation(){} // RVA: 0x1923C10
@@ -83,6 +104,9 @@ public class ONSPReflectionZone : MonoBehaviour
 
 public class ONSPSettings : ScriptableObject
 {
+    public object voiceLimit;
+    public object instance;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x21E3200
     public void CreateInstance(){} // RVA: 0x21E34D0
@@ -98,6 +122,9 @@ public class ONSPSettings : ScriptableObject
 
 public class OVRAudioSourceTest : MonoBehaviour
 {
+    public object period;
+    public object nextActionTime;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C091C0
     public void Update(){} // RVA: 0x6C09300
@@ -114,6 +141,14 @@ public class OVRAutoDestroyInMRC : MonoBehaviour
 
 public class OVRBody : MonoBehaviour
 {
+    public object _bodyState;
+    public object _boneRotations;
+    public object _boneTranslations;
+    public object _dataChangedSinceLastQuery;
+    public object _hasData;
+    public object BodyTrackingPermission;
+    public object _onPermissionGranted;
+
     // ── Methods ──
     public void get_BodyState(){} // RVA: 0x6B72A80
     public void Awake(){} // RVA: 0x6B72B60
@@ -131,20 +166,73 @@ public class OVRBody : MonoBehaviour
     public void OVRSkeleton.IOVRSkeletonDataProvider.get_enabled(){} // RVA: 0xBA9AB0
 }
 
-public class OVRBone : Object
+public class OVRBoneCapsule : Object
+{
+    public object _boneIndex;
+    public object _capsuleRigidbody;
+    public object _capsuleCollider;
+
+    // ── Methods ──
+    public void get_BoneIndex(){} // RVA: 0x24EA1D0
+    public void set_BoneIndex(){} // RVA: 0x24EAB10
+    public void get_CapsuleRigidbody(){} // RVA: 0xB465B0
+    public void set_CapsuleRigidbody(){} // RVA: 0xBA9BA0
+    public void get_CapsuleCollider(){} // RVA: 0xB700F0
+    public void set_CapsuleCollider(){} // RVA: 0xB70100
+    public void .ctor(){} // RVA: 0x6C36960
+}
+
+public class OVRBoneCapsule[] : Array
 {
     // ── Methods ──
-    public void get_Id(){} // RVA: 0xB8F8F0
-    public void set_Id(){} // RVA: 0xB460A0
-    public void get_ParentBoneIndex(){} // RVA: 0x3927910
-    public void set_ParentBoneIndex(){} // RVA: 0x6C368F0
-    public void get_Transform(){} // RVA: 0xB465B0
-    public void set_Transform(){} // RVA: 0xBA9BA0
-    public void .ctor(){} // RVA: 0x6C36900
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class OVRCameraRig : MonoBehaviour
 {
+    public object _trackingSpace;
+    public object _leftEyeAnchor;
+    public object _centerEyeAnchor;
+    public object _rightEyeAnchor;
+    public object _leftHandAnchor;
+    public object _rightHandAnchor;
+    public object _leftControllerAnchor;
+    public object _rightControllerAnchor;
+    public object _trackerAnchor;
+    public object UpdatedAnchors;
+    public object TrackingSpaceChanged;
+    public object usePerEyeCameras;
+    public object useFixedUpdateForTracking;
+    public object disableEyeAnchorCameras;
+    public object _skipUpdate;
+    public object trackingSpaceName;
+    public object trackerAnchorName;
+    public object leftEyeAnchorName;
+    public object centerEyeAnchorName;
+    public object rightEyeAnchorName;
+    public object leftHandAnchorName;
+    public object rightHandAnchorName;
+    public object leftControllerAnchorName;
+    public object rightControllerAnchorName;
+    public object _centerEyeCamera;
+    public object _leftEyeCamera;
+    public object _rightEyeCamera;
+    public object _previousTrackingSpaceTransform;
+
     // ── Methods ──
     public void get_leftEyeCamera(){} // RVA: 0x6B74960
     public void get_rightEyeCamera(){} // RVA: 0x6B74980
@@ -187,6 +275,9 @@ public class OVRCameraRig : MonoBehaviour
 
 public class OVRChromaticAberration : MonoBehaviour
 {
+    public object toggleButton;
+    public object chromatic;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C09820
     public void Update(){} // RVA: 0x6C098D0
@@ -195,6 +286,22 @@ public class OVRChromaticAberration : MonoBehaviour
 
 public class OVRControllerHelper : MonoBehaviour
 {
+    public object m_modelOculusTouchQuestAndRiftSLeftController;
+    public object m_modelOculusTouchQuestAndRiftSRightController;
+    public object m_modelOculusTouchRiftLeftController;
+    public object m_modelOculusTouchRiftRightController;
+    public object m_modelOculusTouchQuest2LeftController;
+    public object m_modelOculusTouchQuest2RightController;
+    public object m_controller;
+    public object m_animator;
+    public object m_activeController;
+    public object m_controllerModelsInitialized;
+    public object m_hasInputFocus;
+    public object m_hasInputFocusPrev;
+    public object activeControllerType;
+    public object m_prevControllerConnected;
+    public object m_prevControllerConnectedCached;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C09A10
     public void InitializeControllerModels(){} // RVA: 0x6C09A80
@@ -206,6 +313,12 @@ public class OVRControllerHelper : MonoBehaviour
 
 public class OVRControllerTest : MonoBehaviour
 {
+    public object uiText;
+    public object monitors;
+    public object data;
+    public object prevConnected;
+    public object controllers;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C0A960
     public void Update(){} // RVA: 0x6C0CF70
@@ -215,6 +328,13 @@ public class OVRControllerTest : MonoBehaviour
 
 public class OVRCubemapCapture : MonoBehaviour
 {
+    public object autoTriggerAfterLaunch;
+    public object autoTriggerDelay;
+    public object autoTriggerElapse;
+    public object triggeredByKey;
+    public object pathName;
+    public object cubemapSize;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6C0F5B0
     public void TriggerCubemapCapture(){} // RVA: 0x6C0F830
@@ -233,6 +353,8 @@ public class OVRCursor : MonoBehaviour
 
 public class OVRCustomSkeleton : OVRSkeleton
 {
+    public object _customBones_V2;
+
     // ── Methods ──
     public void get_CustomBones(){} // RVA: 0xBAE420
     public void GetBoneTransform(){} // RVA: 0x6C10800
@@ -243,6 +365,16 @@ public class OVRCustomSkeleton : OVRSkeleton
 
 public class OVRDebugHeadController : MonoBehaviour
 {
+    public object AllowPitchLook;
+    public object AllowYawLook;
+    public object InvertPitch;
+    public object GamePad_PitchDegreesPerSec;
+    public object GamePad_YawDegreesPerSec;
+    public object AllowMovement;
+    public object ForwardSpeed;
+    public object StrafeSpeed;
+    public object CameraRig;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6B7D150
     public void Start(){} // RVA: 0xB43310
@@ -252,6 +384,35 @@ public class OVRDebugHeadController : MonoBehaviour
 
 public class OVRDebugInfo : MonoBehaviour
 {
+    public object debugUIManager;
+    public object debugUIObject;
+    public object riftPresent;
+    public object fps;
+    public object ipd;
+    public object fov;
+    public object height;
+    public object depth;
+    public object resolutionEyeTexture;
+    public object latencies;
+    public object texts;
+    public object strRiftPresent;
+    public object strFPS;
+    public object strIPD;
+    public object strFOV;
+    public object strHeight;
+    public object strDepth;
+    public object strResolutionEyeTexture;
+    public object strLatencies;
+    public object updateInterval;
+    public object accum;
+    public object frames;
+    public object timeLeft;
+    public object initUIComponent;
+    public object isInited;
+    public object offsetY;
+    public object riftPresentTimeout;
+    public object showVRVars;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6C109B0
     public void Update(){} // RVA: 0x6C10DD0
@@ -275,6 +436,20 @@ public class OVRDebugInfo : MonoBehaviour
 
 public class OVREyeGaze : MonoBehaviour
 {
+    public object Eye;
+    public object _confidence;
+    public object ConfidenceThreshold;
+    public object ApplyPosition;
+    public object ApplyRotation;
+    public object _currentEyeGazesState;
+    public object ReferenceFrame;
+    public object TrackingMode;
+    public object _initialRotationOffset;
+    public object _viewTransform;
+    public object EyeTrackingPermission;
+    public object _onPermissionGranted;
+    public object _lastEyeDataValid;
+
     // ── Methods ──
     public void get_EyeTrackingEnabled(){} // RVA: 0x6B7FFD0
     public void get_Confidence(){} // RVA: 0xCBAD90
@@ -295,6 +470,12 @@ public class OVREyeGaze : MonoBehaviour
 
 public class OVRFaceExpressions : MonoBehaviour
 {
+    public object _validExpressions;
+    public object _eyeFollowingBlendshapesValid;
+    public object _currentFaceState;
+    public object FaceTrackingPermission;
+    public object _onPermissionGranted;
+
     // ── Methods ──
     public void get_FaceTrackingEnabled(){} // RVA: 0x6B819E0
     public void get_ValidExpressions(){} // RVA: 0xC38360
@@ -323,6 +504,24 @@ public class OVRFaceExpressions : MonoBehaviour
 
 public class OVRGazePointer : OVRCursor
 {
+    public object gazeIcon;
+    public object hideByDefault;
+    public object showTimeoutPeriod;
+    public object hideTimeoutPeriod;
+    public object dimOnHideRequest;
+    public object depthScaleMultiplier;
+    public object matchNormalOnPhysicsColliders;
+    public object rayTransform;
+    public object _hidden;
+    public object _currentScale;
+    public object depth;
+    public object hideUntilTime;
+    public object positionSetsThisFrame;
+    public object lastShowRequestTime;
+    public object lastHideRequestTime;
+    public object progressIndicator;
+    public object _instance;
+
     // ── Methods ──
     public void get_hidden(){} // RVA: 0xBFDA40
     public void set_hidden(){} // RVA: 0xBFDA50
@@ -352,6 +551,15 @@ public class OVRGearVrControllerTest : MonoBehaviour
 
 public class OVRGrabbable : MonoBehaviour
 {
+    public object m_allowOffhandGrab;
+    public object m_snapPosition;
+    public object m_snapOrientation;
+    public object m_snapOffset;
+    public object m_grabPoints;
+    public object m_grabbedKinematic;
+    public object m_grabbedCollider;
+    public object m_grabbedBy;
+
     // ── Methods ──
     public void get_allowOffhandGrab(){} // RVA: 0xC38360
     public void get_isGrabbed(){} // RVA: 0x6C16010
@@ -372,6 +580,27 @@ public class OVRGrabbable : MonoBehaviour
 
 public class OVRGrabber : MonoBehaviour
 {
+    public object grabBegin;
+    public object grabEnd;
+    public object m_parentHeldObject;
+    public object m_moveHandPosition;
+    public object m_gripTransform;
+    public object m_grabVolumes;
+    public object m_controller;
+    public object m_parentTransform;
+    public object m_player;
+    public object m_grabVolumeEnabled;
+    public object m_lastPos;
+    public object m_lastRot;
+    public object m_anchorOffsetRotation;
+    public object m_anchorOffsetPosition;
+    public object m_prevFlex;
+    public object m_grabbedObj;
+    public object m_grabbedObjectPosOff;
+    public object m_grabbedObjectRotOff;
+    public object m_grabCandidates;
+    public object m_operatingWithoutOVRCameraRig;
+
     // ── Methods ──
     public void get_grabbedObject(){} // RVA: 0x106A7D0
     public void ForceRelease(){} // RVA: 0x6C16890
@@ -396,6 +625,18 @@ public class OVRGrabber : MonoBehaviour
 
 public class OVRGridCube : MonoBehaviour
 {
+    public object GridKey;
+    public object CubeGrid;
+    public object CubeGridOn;
+    public object CubeSwitchColorOld;
+    public object CubeSwitchColor;
+    public object gridSizeX;
+    public object gridSizeY;
+    public object gridSizeZ;
+    public object gridScale;
+    public object cubeScale;
+    public object CameraController;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6C1A2A0
     public void SetOVRCameraController(){} // RVA: 0x6C1A2B0
@@ -407,6 +648,20 @@ public class OVRGridCube : MonoBehaviour
 
 public class OVRHand : MonoBehaviour
 {
+    public object HandType;
+    public object _pointerPoseRoot;
+    public object _pointerPoseGO;
+    public object _handState;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _isTracked;
+    public object _isSystemGestureInProgress;
+    public object _isPointerPoseValid;
+    public object _pointerPose;
+    public object _handScale;
+    public object _handConfidence;
+    public object _isDominantHand;
+
     // ── Methods ──
     public void get_IsDataValid(){} // RVA: 0x2009180
     public void set_IsDataValid(){} // RVA: 0x20097F0
@@ -444,6 +699,22 @@ public class OVRHand : MonoBehaviour
 
 public class OVRHandTest : MonoBehaviour
 {
+    public object uiText;
+    public object monitors;
+    public object data;
+    public object hs_LH;
+    public object hs_RH;
+    public object skel_LH;
+    public object skel_RH;
+    public object mesh_LH;
+    public object mesh_RH;
+    public object result_skel_LH;
+    public object result_skel_RH;
+    public object result_mesh_LH;
+    public object result_mesh_RH;
+    public object prevConnected;
+    public object controllers;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C1BC00
     public void Update(){} // RVA: 0x6C1C110
@@ -451,8 +722,45 @@ public class OVRHandTest : MonoBehaviour
     public void .cctor(){} // RVA: 0x6C1D780
 }
 
+public class OVRHapticsClip : Object
+{
+    public object _count;
+    public object _capacity;
+    public object _samples;
+
+    // ── Methods ──
+    public void get_Count(){} // RVA: 0xB8F8F0
+    public void set_Count(){} // RVA: 0xB460A0
+    public void get_Capacity(){} // RVA: 0x116A650
+    public void set_Capacity(){} // RVA: 0x116BB10
+    public void get_Samples(){} // RVA: 0xB465B0
+    public void set_Samples(){} // RVA: 0xBA9BA0
+    public void .ctor(){} // RVA: 0x6B923B0
+    public void WriteSample(){} // RVA: 0x6B92640
+    public void Reset(){} // RVA: 0x132A2D0
+    public void InitializeFromAudioFloatTrack(){} // RVA: 0x6B92700
+}
+
 public class OVRHeadsetEmulator : MonoBehaviour
 {
+    public object opMode;
+    public object resetHmdPoseOnRelease;
+    public object resetHmdPoseByMiddleMouseButton;
+    public object activateKeys;
+    public object pitchKeys;
+    public object manager;
+    public object MOUSE_SCALE_X;
+    public object MOUSE_SCALE_X_PITCH;
+    public object MOUSE_SCALE_Y;
+    public object MOUSE_SCALE_HEIGHT;
+    public object MAX_ROLL;
+    public object lastFrameEmulationActivated;
+    public object recordedHeadPoseRelativeOffsetTranslation;
+    public object recordedHeadPoseRelativeOffsetRotation;
+    public object hasSentEvent;
+    public object emulatorHasInitialized;
+    public object previousCursorLockMode;
+
     // ── Methods ──
     public void Start(){} // RVA: 0xB43310
     public void Update(){} // RVA: 0x6B92A20
@@ -463,6 +771,12 @@ public class OVRHeadsetEmulator : MonoBehaviour
 
 public class OVRLipSync : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_7E7;
+    public object f_BD1;
+    public object f_E72;
+    public object f_CAB;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x18F40F0
     public void RaiseCancellation(){} // RVA: 0x18F4170
@@ -495,6 +809,19 @@ public class OVRLipSync : MonoBehaviour
 
 public class OVRLipSyncContext : LifecycleComponent_5798
 {
+    public object enableKeyboardInput;
+    public object enableTouchInput;
+    public object audioLoopback;
+    public object loopbackKey;
+    public object showVisemes;
+    public object debugVisemesKey;
+    public object skipAudioSource;
+    public object gain;
+    public object f_1E6;
+    public object debugLaughterKey;
+    public object showLaughter;
+    public object laughterScore;
+
     // ── Methods ──
     public void Start(){} // RVA: 0xB43310
     public void OnAudioFilterRead(){} // RVA: 0x1919700
@@ -512,6 +839,8 @@ public class OVRLipSyncContext : LifecycleComponent_5798
 
 public class OVRLipSyncContextCanned : LifecycleComponent_5798
 {
+    public object currentSequence;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x191D350
     public void .ctor(){} // RVA: 0x191D520
@@ -528,6 +857,22 @@ public class OVRLipSyncContextCanned : LifecycleComponent_5798
 
 public class OVRLipSyncContextMorphTarget : MonoBehaviour
 {
+    public object skinnedMeshRenderer;
+    public object visemeToBlendTargets;
+    public object enableVisemeTestKeys;
+    public object f_7D1;
+    public object f_5B2;
+    public object f_9D1;
+    public object f_FC3;
+    public object f_310;
+    public object laughterKey;
+    public object laughterBlendTarget;
+    public object laughterThreshold;
+    public object laughterMultiplier;
+    public object smoothAmount;
+    public object f_D98;
+    public object f_53A;
+
     // ── Methods ──
     public void StartCoroutine_Auto(){} // RVA: 0x191E2D0
     public void RaiseCancellation(){} // RVA: 0x191E5D0
@@ -549,6 +894,12 @@ public class OVRLipSyncContextMorphTarget : MonoBehaviour
 
 public class OVRLipSyncContextTextureFlip : MonoBehaviour
 {
+    public object material;
+    public object Textures;
+    public object smoothAmount;
+    public object f_D98;
+    public object f_562;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x1920C10
     public void Update(){} // RVA: 0x1920E80
@@ -564,6 +915,9 @@ public class OVRLipSyncContextTextureFlip : MonoBehaviour
 
 public class OVRLipSyncSequence : ScriptableObject
 {
+    public object entries;
+    public object length;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x1923670
     public void CreateInstance(){} // RVA: 0x1923720
@@ -578,6 +932,137 @@ public class OVRLipSyncSequence : ScriptableObject
 
 public class OVRManager : MonoBehaviour
 {
+    public object _instance;
+    public object _display;
+    public object _tracker;
+    public object _boundary;
+    public object _runtimeSettings;
+    public object _profile;
+    public object disabledCameras;
+    public object prevTimeScale;
+    public object HMDAcquired;
+    public object HMDLost;
+    public object HMDMounted;
+    public object HMDUnmounted;
+    public object VrFocusAcquired;
+    public object VrFocusLost;
+    public object InputFocusAcquired;
+    public object InputFocusLost;
+    public object AudioOutChanged;
+    public object AudioInChanged;
+    public object TrackingAcquired;
+    public object TrackingLost;
+    public object DisplayRefreshRateChanged;
+    public object SpatialAnchorCreateComplete;
+    public object SpaceSetComponentStatusComplete;
+    public object SpaceQueryResults;
+    public object SpaceQueryComplete;
+    public object SpaceSaveComplete;
+    public object SpaceEraseComplete;
+    public object SceneCaptureComplete;
+    public object HSWDismissed;
+    public object _isHmdPresentCached;
+    public object _isHmdPresent;
+    public object _wasHmdPresent;
+    public object _hasVrFocusCached;
+    public object _hasVrFocus;
+    public object _hadVrFocus;
+    public object _hadInputFocus;
+    public object useRecommendedMSAALevel;
+    public object _monoscopic;
+    public object _colorGamut;
+    public object minRenderScale;
+    public object maxRenderScale;
+    public object _headPoseRelativeOffsetRotation;
+    public object _headPoseRelativeOffsetTranslation;
+    public object profilerTcpPort;
+    public object expandMixedRealityCapturePropertySheet;
+    public object enableMixedReality;
+    public object compositionMethod;
+    public object extraHiddenLayers;
+    public object extraVisibleLayers;
+    public object dynamicCullingMask;
+    public object externalCompositionBackdropColorRift;
+    public object externalCompositionBackdropColorQuest;
+    public object capturingCameraDevice;
+    public object flipCameraFrameHorizontally;
+    public object flipCameraFrameVertically;
+    public object handPoseStateLatency;
+    public object sandwichCompositionRenderLatency;
+    public object sandwichCompositionBufferedFrames;
+    public object chromaKeyColor;
+    public object chromaKeySimilarity;
+    public object chromaKeySmoothRange;
+    public object chromaKeySpillRange;
+    public object useDynamicLighting;
+    public object depthQuality;
+    public object dynamicLightingSmoothFactor;
+    public object dynamicLightingDepthVariationClampingValue;
+    public object virtualGreenScreenType;
+    public object virtualGreenScreenTopY;
+    public object virtualGreenScreenBottomY;
+    public object virtualGreenScreenApplyDepthCulling;
+    public object virtualGreenScreenDepthTolerance;
+    public object mrcActivationMode;
+    public object instantiateMixedRealityCameraGameObject;
+    public object isInsightPassthroughEnabled;
+    public object expandFeatureFidelitySystemPropertySheet;
+    public object featureFidelitySystemActivated;
+    public object handTrackingFeatureFidelityGroup;
+    public object keyboardTrackingFeatureFidelityGroup;
+    public object eyeTrackingFeatureFidelityGroup;
+    public object faceTrackingFeatureFidelityGroup;
+    public object bodyTrackingFeatureFidelityGroup;
+    public object passthroughFeatureFidelityGroup;
+    public object gaseBasedFoveatedRenderingFeatureFidelityGroup;
+    public object handTrackingFeatureEnabled;
+    public object handTrackingFeatureFidelity;
+    public object _currentHandTrackingFeatureEnabled;
+    public object _currentHandTrackingFeatureFidelity;
+    public object requestBodyTrackingPermissionOnStartup;
+    public object requestFaceTrackingPermissionOnStartup;
+    public object requestEyeTrackingPermissionOnStartup;
+    public object OCULUS_UNITY_NAME_STR;
+    public object OPENVR_UNITY_NAME_STR;
+    public object loadedXRDevice;
+    public object OpenVRTouchRotationOffsetEulerLeft;
+    public object OpenVRTouchRotationOffsetEulerRight;
+    public object OpenVRTouchPositionOffsetLeft;
+    public object OpenVRTouchPositionOffsetRight;
+    public object m_SpaceWarpEnabled;
+    public object m_AppSpaceTransform;
+    public object m_CachedDepthTextureMode;
+    public object _localDimming;
+    public object _trackingOriginType;
+    public object usePositionTracking;
+    public object useRotationTracking;
+    public object useIPDInPositionTracking;
+    public object resetTrackerOnLoad;
+    public object AllowRecenter;
+    public object LateControllerUpdate;
+    public object LateLatching;
+    public object _isSupportedPlatform;
+    public object _isUserPresentCached;
+    public object _isUserPresent;
+    public object _wasUserPresent;
+    public object prevAudioOutIdIsCached;
+    public object prevAudioInIdIsCached;
+    public object prevAudioOutId;
+    public object prevAudioInId;
+    public object wasPositionTracked;
+    public object eventDataBuffer;
+    public object UnityAlphaOrBetaVersionWarningMessage;
+    public object OVRManagerinitialized;
+    public object featureFidelityGetFeatureStateErrorDumped;
+    public object multipleMainCameraWarningPresented;
+    public object suppressUnableToFindMainCameraMessage;
+    public object lastFoundMainCamera;
+    public object staticMixedRealityCaptureInitialized;
+    public object staticPrevEnableMixedRealityCapture;
+    public object staticMrcSettings;
+    public object suppressDisableMixedRealityBecauseOfNoMainCameraWarning;
+    public object _passthroughInitializationState;
+
     // ── Methods ──
     public void get_instance(){} // RVA: 0x6B9DB00
     public void set_instance(){} // RVA: 0x6B9DB60
@@ -808,6 +1293,11 @@ public class OVRManager : MonoBehaviour
 
 public class OVRMesh : MonoBehaviour
 {
+    public object _dataProvider;
+    public object _meshType;
+    public object _mesh;
+    public object _isInitialized;
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0xD16660
     public void set_IsInitialized(){} // RVA: 0xD14C10
@@ -821,6 +1311,19 @@ public class OVRMesh : MonoBehaviour
 
 public class OVRMeshRenderer : MonoBehaviour
 {
+    public object _dataProvider;
+    public object _ovrMesh;
+    public object _ovrSkeleton;
+    public object _confidenceBehavior;
+    public object _systemGestureBehavior;
+    public object _systemGestureMaterial;
+    public object _originalMaterial;
+    public object _skinnedMeshRenderer;
+    public object _isInitialized;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _shouldUseSystemGestureMaterial;
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0xE3F480
     public void set_IsInitialized(){} // RVA: 0x1546550
@@ -840,6 +1343,36 @@ public class OVRMeshRenderer : MonoBehaviour
 
 public class OVRMixedRealityCaptureSettings : ScriptableObject
 {
+    public object enableMixedReality;
+    public object extraHiddenLayers;
+    public object extraVisibleLayers;
+    public object dynamicCullingMask;
+    public object compositionMethod;
+    public object externalCompositionBackdropColorRift;
+    public object externalCompositionBackdropColorQuest;
+    public object capturingCameraDevice;
+    public object flipCameraFrameHorizontally;
+    public object flipCameraFrameVertically;
+    public object handPoseStateLatency;
+    public object sandwichCompositionRenderLatency;
+    public object sandwichCompositionBufferedFrames;
+    public object chromaKeyColor;
+    public object chromaKeySimilarity;
+    public object chromaKeySmoothRange;
+    public object chromaKeySpillRange;
+    public object useDynamicLighting;
+    public object depthQuality;
+    public object dynamicLightingSmoothFactor;
+    public object dynamicLightingDepthVariationClampingValue;
+    public object virtualGreenScreenType;
+    public object virtualGreenScreenTopY;
+    public object virtualGreenScreenBottomY;
+    public object virtualGreenScreenApplyDepthCulling;
+    public object virtualGreenScreenDepthTolerance;
+    public object mrcActivationMode;
+    public object _instantiateMixedRealityCameraGameObject;
+    public object configFileName;
+
     // ── Methods ──
     public void OVRMixedRealityCaptureConfiguration.get_enableMixedReality(){} // RVA: 0xB5DD50
     public void OVRMixedRealityCaptureConfiguration.set_enableMixedReality(){} // RVA: 0xB5DD60
@@ -904,6 +1437,11 @@ public class OVRMixedRealityCaptureSettings : ScriptableObject
 
 public class OVRMixedRealityCaptureTest : MonoBehaviour
 {
+    public object inited;
+    public object currentMode;
+    public object defaultExternalCamera;
+    public object defaultFov;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C227C0
     public void Initialize(){} // RVA: 0x6C22970
@@ -914,6 +1452,8 @@ public class OVRMixedRealityCaptureTest : MonoBehaviour
 
 public class OVRModeParms : MonoBehaviour
 {
+    public object resetButton;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C23E40
     public void Update(){} // RVA: 0x6C23EE0
@@ -923,6 +1463,9 @@ public class OVRModeParms : MonoBehaviour
 
 public class OVRMonoscopic : MonoBehaviour
 {
+    public object toggleButton;
+    public object monoscopic;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6C24060
     public void .ctor(){} // RVA: 0x2133820
@@ -930,6 +1473,63 @@ public class OVRMonoscopic : MonoBehaviour
 
 public class OVROverlay : MonoBehaviour
 {
+    public object currentOverlayType;
+    public object isDynamic;
+    public object isProtectedContent;
+    public object srcRectLeft;
+    public object srcRectRight;
+    public object destRectLeft;
+    public object destRectRight;
+    public object invertTextureRects;
+    public object textureRectMatrix;
+    public object overrideTextureRectMatrix;
+    public object overridePerLayerColorScaleAndOffset;
+    public object colorScale;
+    public object colorOffset;
+    public object useExpensiveSuperSample;
+    public object useExpensiveSharpen;
+    public object hidden;
+    public object isExternalSurface;
+    public object externalSurfaceWidth;
+    public object externalSurfaceHeight;
+    public object compositionDepth;
+    public object layerCompositionDepth;
+    public object noDepthBufferTesting;
+    public object layerTextureFormat;
+    public object currentOverlayShape;
+    public object prevOverlayShape;
+    public object textures;
+    public object isAlphaPremultiplied;
+    public object useBicubicFiltering;
+    public object useLegacyCubemapRotation;
+    public object useEfficientSupersample;
+    public object useEfficientSharpen;
+    public object _previewInEditor;
+    public object texturePtrs;
+    public object externalSurfaceObject;
+    public object externalSurfaceObjectCreated;
+    public object isOverridePending;
+    public object maxInstances;
+    public object instances;
+    public object _layerId;
+    public object tex2DMaterial;
+    public object cubeMaterial;
+    public object layerTextures;
+    public object layerDesc;
+    public object stageCount;
+    public object layerIndex;
+    public object layerIdHandle;
+    public object layerIdPtr;
+    public object frameIndex;
+    public object prevFrameIndex;
+    public object rend;
+    public object OpenVROverlayHandle;
+    public object OpenVRUVOffsetAndScale;
+    public object OpenVRMouseScale;
+    public object constructedOverlayXRDevice;
+    public object xrDeviceConstructed;
+    public object trackingVolumeTransform;
+
     // ── Methods ──
     public void get_previewInEditor(){} // RVA: 0x2443B90
     public void set_previewInEditor(){} // RVA: 0x6BB06A0
@@ -969,6 +1569,29 @@ public class OVROverlay : MonoBehaviour
 
 public class OVROverlayMeshGenerator : MonoBehaviour
 {
+    public object _Mesh;
+    public object _Verts;
+    public object _UV;
+    public object _Tris;
+    public object _Overlay;
+    public object _MeshFilter;
+    public object _MeshCollider;
+    public object _MeshRenderer;
+    public object _CameraRoot;
+    public object _Transform;
+    public object _LastShape;
+    public object _LastPosition;
+    public object _LastRotation;
+    public object _LastScale;
+    public object _LastDestRectLeft;
+    public object _LastDestRectRight;
+    public object _LastSrcRectLeft;
+    public object _LastTexture;
+    public object _Awake;
+    public object BottomLeft;
+    public object RightVector;
+    public object UpVector;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6BB6A80
     public void SetOverlay(){} // RVA: 0xB6A8C0
@@ -992,6 +1615,41 @@ public class OVROverlayMeshGenerator : MonoBehaviour
 
 public class OVRPassthroughLayer : MonoBehaviour
 {
+    public object projectionSurfaceType;
+    public object overlayType;
+    public object compositionDepth;
+    public object hidden;
+    public object overridePerLayerColorScaleAndOffset;
+    public object colorScale;
+    public object colorOffset;
+    public object colorMapEditorType_;
+    public object colorMapEditorGradient;
+    public object colorMapEditorGradientOld;
+    public object colorMapEditorContrast;
+    public object colorMapEditorContrast_;
+    public object colorMapEditorBrightness;
+    public object colorMapEditorBrightness_;
+    public object colorMapEditorPosterize;
+    public object colorMapEditorPosterize_;
+    public object colorMapEditorSaturation;
+    public object colorMapEditorSaturation_;
+    public object cameraRig;
+    public object cameraRigInitialized;
+    public object auxGameObject;
+    public object passthroughOverlay;
+    public object surfaceGameObjects;
+    public object deferredSurfaceGameObjects;
+    public object serializedSurfaceGeometry;
+    public object textureOpacity_;
+    public object edgeRenderingEnabled_;
+    public object edgeColor_;
+    public object colorMapType;
+    public object colorMapData;
+    public object tmpColorMapData;
+    public object colorMapDataHandle;
+    public object styleDirty;
+    public object colorMapNeutralGradient;
+
     // ── Methods ──
     public void AddSurfaceGeometry(){} // RVA: 0x6BB9C30
     public void RemoveSurfaceGeometry(){} // RVA: 0x6BB9F00
@@ -1037,6 +1695,11 @@ public class OVRPassthroughLayer : MonoBehaviour
 
 public class OVRPlatformMenu : MonoBehaviour
 {
+    public object inputCode;
+    public object shortPressHandler;
+    public object OnShortPress;
+    public object sceneStack;
+
     // ── Methods ──
     public void HandleBackButtonState(){} // RVA: 0x6BBEF90
     public void Awake(){} // RVA: 0x6BBF030
@@ -1049,6 +1712,45 @@ public class OVRPlatformMenu : MonoBehaviour
 
 public class OVRPlayerController : MonoBehaviour
 {
+    public object Acceleration;
+    public object Damping;
+    public object BackAndSideDampen;
+    public object JumpForce;
+    public object RotationAmount;
+    public object RotationRatchet;
+    public object SnapRotation;
+    public object RotateAroundGuardianCenter;
+    public object FixedSpeedSteps;
+    public object HmdResetsY;
+    public object HmdRotatesY;
+    public object GravityModifier;
+    public object useProfileData;
+    public object CameraHeight;
+    public object TransformUpdated;
+    public object Teleported;
+    public object CameraUpdated;
+    public object PreCharacterMove;
+    public object EnableLinearMovement;
+    public object EnableRotation;
+    public object RotationEitherThumbstick;
+    public object Controller;
+    public object CameraRig;
+    public object MoveScale;
+    public object MoveThrottle;
+    public object FallSpeed;
+    public object InitialPose;
+    public object _initialYRotation;
+    public object MoveScaleMultiplier;
+    public object RotationScaleMultiplier;
+    public object SkipMouseRotation;
+    public object HaltUpdateMovement;
+    public object prevHatLeft;
+    public object prevHatRight;
+    public object SimulationRate;
+    public object buttonRotation;
+    public object ReadyToSnapTurn;
+    public object playerControllerEnabled;
+
     // ── Methods ──
     public void add_TransformUpdated(){} // RVA: 0x6C26DD0
     public void remove_TransformUpdated(){} // RVA: 0x6C26EE0
@@ -1082,6 +1784,10 @@ public class OVRPlayerController : MonoBehaviour
 
 public class OVRPointerVisualizer : MonoBehaviour
 {
+    public object rayTransform;
+    public object linePointer;
+    public object rayDrawDistance;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6BF9050
     public void .ctor(){} // RVA: 0x6BF93E0
@@ -1089,6 +1795,9 @@ public class OVRPointerVisualizer : MonoBehaviour
 
 public class OVRProgressIndicator : MonoBehaviour
 {
+    public object progressImage;
+    public object currentProgress;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6C2B850
     public void Update(){} // RVA: 0x6C2B8F0
@@ -1097,6 +1806,12 @@ public class OVRProgressIndicator : MonoBehaviour
 
 public class OVRRaycaster : GraphicRaycaster
 {
+    public object pointer;
+    public object sortOrder;
+    public object m_Canvas;
+    public object m_RaycastResults;
+    public object s_SortedGraphics;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C2B9D0
     public void get_canvas(){} // RVA: 0x6C2BBA0
@@ -1115,6 +1830,8 @@ public class OVRRaycaster : GraphicRaycaster
 
 public class OVRResetOrientation : MonoBehaviour
 {
+    public object resetButton;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6C2E3D0
     public void .ctor(){} // RVA: 0x6C2E4B0
@@ -1122,6 +1839,9 @@ public class OVRResetOrientation : MonoBehaviour
 
 public class OVRResources : MonoBehaviour
 {
+    public object resourceBundle;
+    public object assetNames;
+
     // ── Methods ──
     public void Load(){} // RVA: 0xA94080
     public void SetResourceBundle(){} // RVA: 0x6BF9D40
@@ -1130,6 +1850,19 @@ public class OVRResources : MonoBehaviour
 
 public class OVRRuntimeController : MonoBehaviour
 {
+    public object m_controller;
+    public object m_controllerModelShader;
+    public object m_supportAnimation;
+    public object m_controllerObject;
+    public object leftControllerModelPath;
+    public object rightControllerModelPath;
+    public object m_controllerModelPath;
+    public object m_modelSupported;
+    public object m_hasInputFocus;
+    public object m_hasInputFocusPrev;
+    public object m_controllerConnectedPrev;
+    public object m_animationNodes;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C2E500
     public void Update(){} // RVA: 0x6C2E7C0
@@ -1145,6 +1878,8 @@ public class OVRRuntimeController : MonoBehaviour
 
 public class OVRRuntimeSettings : ScriptableObject
 {
+    public object colorSpace;
+
     // ── Methods ──
     public void GetRuntimeSettings(){} // RVA: 0x6BF9F90
     public void .ctor(){} // RVA: 0x6BFA0F0
@@ -1152,6 +1887,13 @@ public class OVRRuntimeSettings : ScriptableObject
 
 public class OVRSceneAnchor : MonoBehaviour
 {
+    public object _space;
+    public object _uuid;
+    public object RotateY180;
+    public object _pose;
+    public object AnchorReferenceCountDictionary;
+    public object SceneAnchorsList;
+
     // ── Methods ──
     public void get_Space(){} // RVA: 0xB700F0
     public void set_Space(){} // RVA: 0x13B3F80
@@ -1170,6 +1912,26 @@ public class OVRSceneAnchor : MonoBehaviour
 
 public class OVRSceneManager : MonoBehaviour
 {
+    public object PlanePrefab;
+    public object VolumePrefab;
+    public object PrefabOverrides;
+    public object VerboseLogging;
+    public object MaxSceneAnchorUpdatesPerFrame;
+    public object SceneModelLoadedSuccessfully;
+    public object NoSceneModelToLoad;
+    public object SceneCaptureReturnedWithoutError;
+    public object UnexpectedErrorWithSceneCapture;
+    public object RoomLayout;
+    public object _orderedRoomGuids;
+    public object _wallOrderComparer;
+    public object _uuidsToQuery;
+    public object _currentQueryMode;
+    public object _sceneCaptureRequestId;
+    public object _individualRequestIds;
+    public object _pendingLocatable;
+    public object _cameraRig;
+    public object _sceneAnchorUpdateIndex;
+
     // ── Methods ──
     public void get_Verbose(){} // RVA: 0x6BFB050
     public void Awake(){} // RVA: 0x6BFB0A0
@@ -1197,6 +1959,9 @@ public class OVRSceneManager : MonoBehaviour
 
 public class OVRSceneModelLoader : MonoBehaviour
 {
+    public object _sceneManager;
+    public object _sceneCaptureRequested;
+
     // ── Methods ──
     public void get_SceneManager(){} // RVA: 0xB700F0
     public void set_SceneManager(){} // RVA: 0xB70100
@@ -1212,6 +1977,9 @@ public class OVRSceneModelLoader : MonoBehaviour
 
 public class OVRScenePlane : MonoBehaviour
 {
+    public object _width;
+    public object _height;
+
     // ── Methods ──
     public void get_Width(){} // RVA: 0xB6B200
     public void set_Width(){} // RVA: 0x18AF820
@@ -1226,6 +1994,9 @@ public class OVRScenePlane : MonoBehaviour
 
 public class OVRScenePlaneMeshFilter : MonoBehaviour
 {
+    public object _meshFilter;
+    public object _mesh;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x6C01DC0
     public void CreateMeshFromBoundary(){} // RVA: 0x6C01F00
@@ -1234,6 +2005,15 @@ public class OVRScenePlaneMeshFilter : MonoBehaviour
 
 public class OVRSceneSampleController : MonoBehaviour
 {
+    public object quitKey;
+    public object fadeInTexture;
+    public object speedRotationIncrement;
+    public object playerController;
+    public object cameraController;
+    public object layerName;
+    public object visionMode;
+    public object gridCube;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6C2FA50
     public void Start(){} // RVA: 0x6C2FD20
@@ -1246,6 +2026,10 @@ public class OVRSceneSampleController : MonoBehaviour
 
 public class OVRSceneVolume : MonoBehaviour
 {
+    public object _width;
+    public object _height;
+    public object _depth;
+
     // ── Methods ──
     public void get_Width(){} // RVA: 0xB6B200
     public void set_Width(){} // RVA: 0x18AF820
@@ -1261,6 +2045,19 @@ public class OVRSceneVolume : MonoBehaviour
 
 public class OVRScreenFade : MonoBehaviour
 {
+    public object _instance;
+    public object fadeTime;
+    public object fadeColor;
+    public object fadeOnStart;
+    public object renderQueue;
+    public object explicitFadeAlpha;
+    public object animatedFadeAlpha;
+    public object uiFadeAlpha;
+    public object fadeRenderer;
+    public object fadeMesh;
+    public object fadeMaterial;
+    public object isFading;
+
     // ── Methods ──
     public void get_instance(){} // RVA: 0x6C307D0
     public void set_instance(){} // RVA: 0x6C30810
@@ -1280,6 +2077,8 @@ public class OVRScreenFade : MonoBehaviour
 
 public class OVRSemanticClassification : MonoBehaviour
 {
+    public object _labels;
+
     // ── Methods ──
     public void get_Labels(){} // RVA: 0xB700F0
     public void Contains(){} // RVA: 0x6C02AB0
@@ -1290,6 +2089,28 @@ public class OVRSemanticClassification : MonoBehaviour
 
 public class OVRSkeleton : MonoBehaviour
 {
+    public object _skeletonType;
+    public object _dataProvider;
+    public object _updateRootPose;
+    public object _updateRootScale;
+    public object _enablePhysicsCapsules;
+    public object _applyBoneTranslations;
+    public object _bonesGO;
+    public object _bindPosesGO;
+    public object _capsulesGO;
+    public object _bones;
+    public object _bindPoses;
+    public object _capsules;
+    public object _skeleton;
+    public object wristFixupRotation;
+    public object _isInitialized;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _bones2;
+    public object _bindPoses2;
+    public object _capsules2;
+    public object _skeletonChangedCount;
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0x11319D0
     public void set_IsInitialized(){} // RVA: 0x112ECB0
@@ -1326,6 +2147,28 @@ public class OVRSkeleton : MonoBehaviour
 
 public class OVRSkeletonRenderer : MonoBehaviour
 {
+    public object _dataProvider;
+    public object _confidenceBehavior;
+    public object _systemGestureBehavior;
+    public object _renderPhysicsCapsules;
+    public object _skeletonMaterial;
+    public object _skeletonDefaultMaterial;
+    public object _capsuleMaterial;
+    public object _capsuleDefaultMaterial;
+    public object _systemGestureMaterial;
+    public object _systemGestureDefaultMaterial;
+    public object LINE_RENDERER_WIDTH;
+    public object _boneVisualizations;
+    public object _capsuleVisualizations;
+    public object _ovrSkeleton;
+    public object _skeletonGO;
+    public object _scale;
+    public object _capsuleRotationOffset;
+    public object _isInitialized;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _shouldUseSystemGestureMaterial;
+
     // ── Methods ──
     public void get_IsInitialized(){} // RVA: 0xBAB4F0
     public void set_IsInitialized(){} // RVA: 0xBAB500
@@ -1347,6 +2190,8 @@ public class OVRSkeletonRenderer : MonoBehaviour
 
 public class OVRSpace : ValueType
 {
+    public object _handle;
+
     // ── Methods ──
     public void get_Handle(){} // RVA: 0x77900
     public void TryGetUuid(){} // RVA: 0x8CF720
@@ -1362,6 +2207,18 @@ public class OVRSpace : ValueType
 
 public class OVRSpatialAnchor : MonoBehaviour
 {
+    public object _startCalled;
+    public object _requestId;
+    public object _space;
+    public object _uuid;
+    public object SpatialAnchors;
+    public object CreationRequests;
+    public object SingleAnchorCompletionDelegates;
+    public object LocalizationDelegates;
+    public object Queries;
+    public object UnboundAnchorBuffer;
+    public object ComponentTypeBuffer;
+
     // ── Methods ──
     public void get_Space(){} // RVA: 0xD33E60
     public void set_Space(){} // RVA: 0x27FA7C0
@@ -1397,6 +2254,12 @@ public class OVRSpatialAnchor : MonoBehaviour
 
 public class OVRSpectatorModeDomeTest : MonoBehaviour
 {
+    public object inited;
+    public object defaultExternalCamera;
+    public object defaultFov;
+    public object SpectatorAnchor;
+    public object Head;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0xB43310
     public void Start(){} // RVA: 0x6C39C70
@@ -1452,6 +2315,32 @@ public class OVRTouchpadHelper[] : Array
 
 public class OVRVignette : MonoBehaviour
 {
+    public object QUADRATIC_FALLOFF;
+    public object VignetteShader;
+    public object MeshComplexity;
+    public object Falloff;
+    public object VignetteFieldOfView;
+    public object VignetteAspectRatio;
+    public object VignetteFalloffDegrees;
+    public object VignetteColor;
+    public object _Camera;
+    public object _OpaqueMeshFilter;
+    public object _TransparentMeshFilter;
+    public object _OpaqueMeshRenderer;
+    public object _TransparentMeshRenderer;
+    public object _OpaqueMesh;
+    public object _TransparentMesh;
+    public object _OpaqueMaterial;
+    public object _TransparentMaterial;
+    public object _ShaderScaleAndOffset0Property;
+    public object _ShaderScaleAndOffset1Property;
+    public object _TransparentScaleAndOffset0;
+    public object _TransparentScaleAndOffset1;
+    public object _OpaqueScaleAndOffset0;
+    public object _OpaqueScaleAndOffset1;
+    public object _OpaqueVignetteVisible;
+    public object _TransparentVignetteVisible;
+
     // ── Methods ──
     public void GetTriangleCount(){} // RVA: 0x6C3C940
     public void BuildMeshes(){} // RVA: 0x6C3C980
@@ -1474,21 +2363,18 @@ public class OVRVignette : MonoBehaviour
 
 public class OVRWaitCursor : MonoBehaviour
 {
+    public object rotateSpeeds;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6C3FCC0
     public void .ctor(){} // RVA: 0x6C3FD80
 }
 
-public class ObjectComparer : Object
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IEqualityComparer<System.Object>.Equals(){} // RVA: 0x7E76A40
-    public void System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode(){} // RVA: 0x3F15780
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class ObjectEnumerator : Object
 {
+    public object m_Object;
+    public object m_Index;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0xA4AD530
     public void System.Collections.IDictionaryEnumerator.get_Key(){} // RVA: 0xA4AD530
@@ -1524,25 +2410,31 @@ public class ObjectEnumerator[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ObjectReaperDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ObjectSurrogate : Object
-{
-    // ── Methods ──
-    public void GetObjectData(){} // RVA: 0xA74E670
-    public void SetObjectData(){} // RVA: 0xA74EF50
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class OculusSpatializerUnity : MonoBehaviour
 {
+    public object layerMask;
+    public object visualizeRoom;
+    public object f_F95;
+    public object raysPerSecond;
+    public object roomInterpSpeed;
+    public object maxWallDistance;
+    public object rayCacheSize;
+    public object dynamicReflectionsEnabled;
+    public object f_3C1;
+    public object f_B89;
+    public object f_9D1;
+    public object f_DEF;
+    public object f_88E;
+    public object f_A1E;
+    public object f_09A;
+    public object f_118;
+    public object f_564;
+    public object f_D1F;
+    public object f_617;
+    public object f_503;
+    public object f_748;
+    public object f_1E9;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x1926A00
     public void RaiseCancellation(){} // RVA: 0x1924AC0
@@ -1570,12 +2462,19 @@ public class OculusSpatializerUnity : MonoBehaviour
 
 public class OffsetAndRule : Object
 {
+    public object Year;
+    public object Offset;
+    public object Rule;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67E4780
 }
 
 public class OffsetProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -1586,6 +2485,9 @@ public class OffsetProperty : Property`2
 
 public class OffsetProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -1597,16 +2499,7 @@ public class OffsetProperty : Property`2
 public class OnChangeEvent : UnityEvent`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A54F00
-}
-
-public class OnDecodeError : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x828CB40
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x828CC30
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void .ctor(){} // RVA: 0xA6F8980
 }
 
 public class OnDestroyedDelegate : MulticastDelegate
@@ -1627,22 +2520,28 @@ public class OnGUIDelegate : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
-public class OnOverrideControllerDirtyCallback : MulticastDelegate
+public class OnStatusChanged : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
+    public void .ctor(){} // RVA: 0x26E1430
+    public void Invoke(){} // RVA: 0xCA8D60
 }
 
-public class OnlyValueChangedProgress`1 : Object
+public class OnValidateInput : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x8943B0
-    public void Report(){} // RVA: 0xA94080
+    public void .ctor(){} // RVA: 0x7A54D60
+    public void Invoke(){} // RVA: 0xCA8D60
+    public void BeginInvoke(){} // RVA: 0x7A54E50
+    public void EndInvoke(){} // RVA: 0x3DFBD50
 }
 
 public class Op : Object
 {
+    public object Code;
+    public object Argument;
+    public object Next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7723D20
 }
@@ -1669,14 +2568,13 @@ public class OpacityProperty : ResolvedFloatProperty
     public void .ctor(){} // RVA: 0x7EC9CA0
 }
 
-public class Operator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7B6FE30
-}
-
 public class Option : Object
 {
+    public object _kInstanceID_None;
+    public object _m_CachedPtr;
+    public object _offsetOfInstanceIDInCPlusPlusObject;
+    public object _objectIsNullMessage;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x11E1400
     public void Equals(){} // RVA: 0xBBFFA0
@@ -1697,34 +2595,91 @@ public class Option : Object
     public void set_hideFlags(){} // RVA: 0xBBFFA0
 }
 
-public class Orbit : ValueType
+public class OptionData : Object
 {
+    public object m_Text;
+    public object m_Image;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7C540
+    public void get_text(){} // RVA: 0xB5DBF0
+    public void set_text(){} // RVA: 0xB44D60
+    public void get_image(){} // RVA: 0xB465B0
+    public void set_image(){} // RVA: 0xBA9BA0
+    public void .ctor(){} // RVA: 0x17C92C0
 }
 
-public class OrderBlock[] : Array
+public class OptionDataList : Object
+{
+    public object m_Options;
+
+    // ── Methods ──
+    public void get_options(){} // RVA: 0xB5DBF0
+    public void set_options(){} // RVA: 0xB44D60
+    public void .ctor(){} // RVA: 0x7E3C070
+}
+
+public class OptionData[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
     public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
     public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
     public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
     public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
     public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
     public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
     public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
     public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class Orbit : ValueType
+{
+    public object m_Height;
+    public object m_Radius;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7C540
 }
 
 public class OscView : Object
 {
+    public object dirty;
+    public object parent;
+    public object pathName;
+    public object currentViewObject;
+    public object queuedType;
+    public object appliedType;
+    public object queuedValue;
+    public object receivedTime;
+    public object minValue;
+    public object maxValue;
+    public object valueDisplay;
+    public object minDisplay;
+    public object maxDisplay;
+    public object pulse;
+    public object checkMark;
+    public object fill;
+    public object pointDisplay;
+    public object axisDisplay;
+    public object sibling;
+    public object valueBG;
+    public object fills;
+    public object minDisplays;
+    public object maxDisplays;
+    public object valueDisplays;
+    public object queuedValues;
+    public object minValues;
+    public object maxValues;
+    public object firstValue;
+    public object secondValue;
+    public object numValuesReceived;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x1CC88D0
     public void Equals(){} // RVA: 0x1CC8AD0
@@ -1747,36 +2702,70 @@ public class OscView : Object
 
 public class OutPt : Object
 {
+    public object Idx;
+    public object Pt;
+    public object Next;
+    public object Prev;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class OutRec : Object
 {
+    public object Idx;
+    public object IsHole;
+    public object IsOpen;
+    public object FirstLeft;
+    public object Pts;
+    public object BottomPt;
+    public object PolyNode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class OutputEventArgs : ValueType
 {
+    public object packet;
+    public object timestampMicrosecond;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x260A0
 }
 
 public class OutputEventArgs : ValueType
 {
+    public object packet;
+    public object timestampMicrosecond;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x260A0
 }
 
 public class OutputEventArgs : ValueType
 {
+    public object packet;
+    public object timestampMicrosecond;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x260A0
+}
+
+public class OutputEventArgs : ValueType
+{
+    public object packet;
+    public object timestampMicrosecond;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x260A0
 }
 
 public class OutputParameter : Object
 {
+    public object address;
+    public object type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x19EC0F0
 }

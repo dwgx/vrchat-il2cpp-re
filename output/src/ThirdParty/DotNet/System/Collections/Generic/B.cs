@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class BitHelper : Object
     {
+        public object _length;
+        public object _arrayPtr;
+        public object _array;
+        public object _useStackAlloc;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6F10C90
         public void MarkBit(){} // RVA: 0x70E8170

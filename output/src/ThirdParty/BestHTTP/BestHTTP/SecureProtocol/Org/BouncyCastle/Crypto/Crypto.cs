@@ -7,474 +7,515 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto
 {
     public class AsymmetricCipherKeyPair : Object
     {
+        public object publicParameter;
+        public object privateParameter;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B133F210
-        public void get_Public(){} // RVA: 0x7A80F2570
-        public void get_Private(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0xA1AABB0
+        public void get_Public(){} // RVA: 0xB5DBF0
+        public void get_Private(){} // RVA: 0xB465B0
     }
 
     public class AsymmetricKeyParameter : Object
     {
+        public object privateKey;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
-        public void get_IsPrivate(){} // RVA: 0x7A81A2200
-        public void Equals(){} // RVA: 0x7B133F440
-        public void GetHashCode(){} // RVA: 0x7B133F460
+        public void .ctor(){} // RVA: 0xC120B0
+        public void get_IsPrivate(){} // RVA: 0xC120A0
+        public void Equals(){} // RVA: 0xA1AADE0
+        public void GetHashCode(){} // RVA: 0x6C49290
     }
 
     public class BufferedAeadBlockCipher : BufferedCipherBase
     {
+        public object cipher;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B133F4B0
-        public void get_AlgorithmName(){} // RVA: 0x7B133F5A0
-        public void Init(){} // RVA: 0x7B133F5F0
-        public void GetBlockSize(){} // RVA: 0x7B133F6E0
-        public void GetUpdateOutputSize(){} // RVA: 0x7B133F730
-        public void GetOutputSize(){} // RVA: 0x7B133F790
-        public void ProcessByte(){} // RVA: 0x7B133F8E0
-        public void ProcessBytes(){} // RVA: 0x7B133FB30
-        public void DoFinal(){} // RVA: 0x7B133FE20
-        public void Reset(){} // RVA: 0x7B133FE90
+        public void .ctor(){} // RVA: 0xA1AAE00
+        public void get_AlgorithmName(){} // RVA: 0xA1AAEF0
+        public void Init(){} // RVA: 0xA1AAF40
+        public void GetBlockSize(){} // RVA: 0xA1AB030
+        public void GetUpdateOutputSize(){} // RVA: 0xA1AB080
+        public void GetOutputSize(){} // RVA: 0xA1AB0E0
+        public void ProcessByte(){} // RVA: 0xA1AB230
+        public void ProcessBytes(){} // RVA: 0xA1AB480
+        public void DoFinal(){} // RVA: 0xA1AB770
+        public void Reset(){} // RVA: 0xA1AB7E0
     }
 
     public class BufferedAsymmetricBlockCipher : BufferedCipherBase
     {
+        public object cipher;
+        public object buffer;
+        public object bufOff;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B133FEE0
-        public void GetBufferPosition(){} // RVA: 0x7A851DB90
-        public void get_AlgorithmName(){} // RVA: 0x7B133FF80
-        public void GetBlockSize(){} // RVA: 0x7B133FFD0
-        public void GetOutputSize(){} // RVA: 0x7B1340020
-        public void GetUpdateOutputSize(){} // RVA: 0x7A82D1450
-        public void Init(){} // RVA: 0x7B1340070
-        public void ProcessByte(){} // RVA: 0x7B1340190
-        public void ProcessBytes(){} // RVA: 0x7B1340230
-        public void DoFinal(){} // RVA: 0x7B1340410
-        public void Reset(){} // RVA: 0x7B1340450
+        public void .ctor(){} // RVA: 0xA1AB830
+        public void GetBufferPosition(){} // RVA: 0xFEAE90
+        public void get_AlgorithmName(){} // RVA: 0xA1AB8D0
+        public void GetBlockSize(){} // RVA: 0xA1AB920
+        public void GetOutputSize(){} // RVA: 0xA1AB970
+        public void GetUpdateOutputSize(){} // RVA: 0xDAC980
+        public void Init(){} // RVA: 0xA1AB9C0
+        public void ProcessByte(){} // RVA: 0xA1ABAE0
+        public void ProcessBytes(){} // RVA: 0xA1ABB80
+        public void DoFinal(){} // RVA: 0xA1ABD60
+        public void Reset(){} // RVA: 0xA1ABDA0
     }
 
     public class BufferedBlockCipher : BufferedCipherBase
     {
+        public object buf;
+        public object bufOff;
+        public object forEncryption;
+        public object cipher;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13404E0
-        public void get_AlgorithmName(){} // RVA: 0x7B1340680
-        public void Init(){} // RVA: 0x7B13406D0
-        public void GetBlockSize(){} // RVA: 0x7B13407B0
-        public void GetUpdateOutputSize(){} // RVA: 0x7B1340800
-        public void GetOutputSize(){} // RVA: 0x7B1340830
-        public void ProcessByte(){} // RVA: 0x7B1340960
-        public void ProcessBytes(){} // RVA: 0x7B1340BB0
-        public void DoFinal(){} // RVA: 0x7B1341210
-        public void Reset(){} // RVA: 0x7B1341430
+        public void .ctor(){} // RVA: 0xA1ABE30
+        public void get_AlgorithmName(){} // RVA: 0xA1ABFD0
+        public void Init(){} // RVA: 0xA1AC020
+        public void GetBlockSize(){} // RVA: 0xA1AC100
+        public void GetUpdateOutputSize(){} // RVA: 0xA1AC150
+        public void GetOutputSize(){} // RVA: 0xA1AC180
+        public void ProcessByte(){} // RVA: 0xA1AC2B0
+        public void ProcessBytes(){} // RVA: 0xA1AC500
+        public void DoFinal(){} // RVA: 0xA1ACB60
+        public void Reset(){} // RVA: 0xA1ACD80
     }
 
     public class BufferedCipherBase : Object
     {
+        public object EmptyBuffer;
+
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GetBlockSize(){} // RVA: 0x7A7E00710
-        public void GetOutputSize(){} // RVA: 0x7A7E062A0
-        public void GetUpdateOutputSize(){} // RVA: 0x7A7E062A0
-        public void ProcessByte(){} // RVA: 0x7B13414B0
-        public void ProcessBytes(){} // RVA: 0x7B1341600
-        public void DoFinal(){} // RVA: 0x7B13417F0
-        public void Reset(){} // RVA: 0x7A7E18770
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1341870
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void GetBlockSize(){} // RVA: 0x87C130
+        public void GetOutputSize(){} // RVA: 0x881C20
+        public void GetUpdateOutputSize(){} // RVA: 0x881C20
+        public void ProcessByte(){} // RVA: 0xA1ACE00
+        public void ProcessBytes(){} // RVA: 0xA1ACF50
+        public void DoFinal(){} // RVA: 0xA1AD140
+        public void Reset(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA1AD1C0
     }
 
     public class BufferedIesCipher : BufferedCipherBase
     {
+        public object engine;
+        public object forEncryption;
+        public object buffer;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1341920
-        public void get_AlgorithmName(){} // RVA: 0x7B1341AB0
-        public void Init(){} // RVA: 0x7B1341AF0
-        public void GetBlockSize(){} // RVA: 0x7A82D1450
-        public void GetOutputSize(){} // RVA: 0x7B1341B40
-        public void GetUpdateOutputSize(){} // RVA: 0x7A82D1450
-        public void ProcessByte(){} // RVA: 0x7B1341BE0
-        public void ProcessBytes(){} // RVA: 0x7B1341C10
-        public void DoFinal(){} // RVA: 0x7B1340410
-        public void Reset(){} // RVA: 0x7B1341E20
+        public void .ctor(){} // RVA: 0xA1AD270
+        public void get_AlgorithmName(){} // RVA: 0xA1AD400
+        public void Init(){} // RVA: 0xA1AD440
+        public void GetBlockSize(){} // RVA: 0xDAC980
+        public void GetOutputSize(){} // RVA: 0xA1AD490
+        public void GetUpdateOutputSize(){} // RVA: 0xDAC980
+        public void ProcessByte(){} // RVA: 0xA1AD530
+        public void ProcessBytes(){} // RVA: 0xA1AD560
+        public void DoFinal(){} // RVA: 0xA1ABD60
+        public void Reset(){} // RVA: 0xA1AD770
     }
 
     public class BufferedStreamCipher : BufferedCipherBase
     {
+        public object cipher;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1341E50
-        public void get_AlgorithmName(){} // RVA: 0x7B1341F40
-        public void Init(){} // RVA: 0x7B1341F90
-        public void GetBlockSize(){} // RVA: 0x7A82D1450
-        public void GetOutputSize(){} // RVA: 0x7AB93BE00
-        public void GetUpdateOutputSize(){} // RVA: 0x7AB93BE00
-        public void ProcessByte(){} // RVA: 0x7B1342130
-        public void ProcessBytes(){} // RVA: 0x7B13422E0
-        public void DoFinal(){} // RVA: 0x7B13423F0
-        public void Reset(){} // RVA: 0x7B13424C0
+        public void .ctor(){} // RVA: 0xA1AD7A0
+        public void get_AlgorithmName(){} // RVA: 0xA1AD890
+        public void Init(){} // RVA: 0xA1AD8E0
+        public void GetBlockSize(){} // RVA: 0xDAC980
+        public void GetOutputSize(){} // RVA: 0x44E8220
+        public void GetUpdateOutputSize(){} // RVA: 0x44E8220
+        public void ProcessByte(){} // RVA: 0xA1ADA80
+        public void ProcessBytes(){} // RVA: 0xA1ADC30
+        public void DoFinal(){} // RVA: 0xA1ADD40
+        public void Reset(){} // RVA: 0xA1ADE10
     }
 
     public class Check : Object
     {
         // ── Methods ──
-        public void DataLength(){} // RVA: 0x7B1342570
-        public void OutputLength(){} // RVA: 0x7B13425E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void DataLength(){} // RVA: 0xA1ADEC0
+        public void OutputLength(){} // RVA: 0xA1ADF30
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class CipherKeyGenerator : Object
     {
+        public object random;
+        public object strength;
+        public object uninitialised;
+        public object defaultStrength;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342650
-        public void get_DefaultStrength(){} // RVA: 0x7A851DB90
-        public void Init(){} // RVA: 0x7B13426E0
-        public void engineInit(){} // RVA: 0x7B1342760
-        public void GenerateKey(){} // RVA: 0x7B13427E0
-        public void engineGenerateKey(){} // RVA: 0x7B1342910
+        public void .ctor(){} // RVA: 0xA1ADFA0
+        public void get_DefaultStrength(){} // RVA: 0xFEAE90
+        public void Init(){} // RVA: 0xA1AE030
+        public void engineInit(){} // RVA: 0xA1AE0B0
+        public void GenerateKey(){} // RVA: 0xA1AE130
+        public void engineGenerateKey(){} // RVA: 0xA1AE260
     }
 
     public class CryptoException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342A70
+        public void .ctor(){} // RVA: 0xA1AE3C0
     }
 
     public class DataLengthException : CryptoException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342AE0
+        public void .ctor(){} // RVA: 0xA1AE430
     }
 
     public class IAsymmetricBlockCipher
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GetInputBlockSize(){} // RVA: 0x7A7E00710
-        public void GetOutputBlockSize(){} // RVA: 0x7A7E00710
-        public void ProcessBlock(){} // RVA: 0x7A7E017C0
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void GetInputBlockSize(){} // RVA: 0x87C130
+        public void GetOutputBlockSize(){} // RVA: 0x87C130
+        public void ProcessBlock(){} // RVA: 0x87D1E0
     }
 
     public class IAsymmetricCipherKeyPairGenerator
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E18800
-        public void GenerateKeyPair(){} // RVA: 0x7A7E00680
+        public void Init(){} // RVA: 0x894320
+        public void GenerateKeyPair(){} // RVA: 0x87C0A0
     }
 
     public class IBasicAgreement
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E18800
-        public void GetFieldSize(){} // RVA: 0x7A7E00710
-        public void CalculateAgreement(){} // RVA: 0x7A7E00B20
+        public void Init(){} // RVA: 0x894320
+        public void GetFieldSize(){} // RVA: 0x87C130
+        public void CalculateAgreement(){} // RVA: 0x87C540
     }
 
     public class IBlockCipher
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GetBlockSize(){} // RVA: 0x7A7E00710
-        public void get_IsPartialBlockOkay(){} // RVA: 0x7A7E01900
-        public void ProcessBlock(){} // RVA: 0x7A7E0A650
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void GetBlockSize(){} // RVA: 0x87C130
+        public void get_IsPartialBlockOkay(){} // RVA: 0x87D280
+        public void ProcessBlock(){} // RVA: 0x886060
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class IBlockResult
     {
         // ── Methods ──
-        public void Collect(){} // RVA: 0x7A7E09FB0
+        public void Collect(){} // RVA: 0x885970
     }
 
     public class IBufferedCipher
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GetBlockSize(){} // RVA: 0x7A7E00710
-        public void GetOutputSize(){} // RVA: 0x7A7E062A0
-        public void GetUpdateOutputSize(){} // RVA: 0x7A7E062A0
-        public void ProcessByte(){} // RVA: 0x7A7E07990
-        public void ProcessBytes(){} // RVA: 0x7A7E0A1D0
-        public void DoFinal(){} // RVA: 0x7A7E0A1D0
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void GetBlockSize(){} // RVA: 0x87C130
+        public void GetOutputSize(){} // RVA: 0x881C20
+        public void GetUpdateOutputSize(){} // RVA: 0x881C20
+        public void ProcessByte(){} // RVA: 0x883350
+        public void ProcessBytes(){} // RVA: 0x885B90
+        public void DoFinal(){} // RVA: 0x885B90
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class ICipher
     {
         // ── Methods ──
-        public void GetMaxOutputSize(){} // RVA: 0x7A7E062A0
-        public void GetUpdateOutputSize(){} // RVA: 0x7A7E062A0
-        public void get_Stream(){} // RVA: 0x7A7E00680
+        public void GetMaxOutputSize(){} // RVA: 0x881C20
+        public void GetUpdateOutputSize(){} // RVA: 0x881C20
+        public void get_Stream(){} // RVA: 0x87C0A0
     }
 
     public class ICipherBuilder
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void GetMaxOutputSize(){} // RVA: 0x7A7E062A0
-        public void BuildCipher(){} // RVA: 0x7A7E00B20
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void GetMaxOutputSize(){} // RVA: 0x881C20
+        public void BuildCipher(){} // RVA: 0x87C540
     }
 
     public class ICipherBuilderWithKey
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7E00680
+        public void get_Key(){} // RVA: 0x87C0A0
     }
 
     public class IDecryptorBuilderProvider
     {
         // ── Methods ──
-        public void CreateDecryptorBuilder(){} // RVA: 0x7A7E00B20
+        public void CreateDecryptorBuilder(){} // RVA: 0x87C540
     }
 
     public class IDerivationFunction
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E18800
-        public void get_Digest(){} // RVA: 0x7A7E00680
-        public void GenerateBytes(){} // RVA: 0x7A7E0A0A0
+        public void Init(){} // RVA: 0x894320
+        public void get_Digest(){} // RVA: 0x87C0A0
+        public void GenerateBytes(){} // RVA: 0x885A60
     }
 
     public class IDigest
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void GetDigestSize(){} // RVA: 0x7A7E00710
-        public void GetByteLength(){} // RVA: 0x7A7E00710
-        public void Update(){} // RVA: 0x7A7E18C30
-        public void BlockUpdate(){} // RVA: 0x7A7E1E220
-        public void DoFinal(){} // RVA: 0x7A7E09FB0
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void GetDigestSize(){} // RVA: 0x87C130
+        public void GetByteLength(){} // RVA: 0x87C130
+        public void Update(){} // RVA: 0x894750
+        public void BlockUpdate(){} // RVA: 0x89B9B0
+        public void DoFinal(){} // RVA: 0x885970
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class IDsa
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GenerateSignature(){} // RVA: 0x7A7E00B20
-        public void VerifySignature(){} // RVA: 0x7A7E01D90
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void GenerateSignature(){} // RVA: 0x87C540
+        public void VerifySignature(){} // RVA: 0x87D710
     }
 
     public class IDsaExt
     {
         // ── Methods ──
-        public void get_Order(){} // RVA: 0x7A7E00680
+        public void get_Order(){} // RVA: 0x87C0A0
     }
 
     public class IEntropySource
     {
         // ── Methods ──
-        public void get_IsPredictionResistant(){} // RVA: 0x7A7E01900
-        public void GetEntropy(){} // RVA: 0x7A7E00680
-        public void get_EntropySize(){} // RVA: 0x7A7E00710
+        public void get_IsPredictionResistant(){} // RVA: 0x87D280
+        public void GetEntropy(){} // RVA: 0x87C0A0
+        public void get_EntropySize(){} // RVA: 0x87C130
     }
 
     public class IEntropySourceProvider
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7A7E00740
+        public void Get(){} // RVA: 0x87C160
     }
 
     public class IKeyUnwrapper
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void Unwrap(){} // RVA: 0x7A7E017C0
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void Unwrap(){} // RVA: 0x87D1E0
     }
 
     public class IKeyWrapper
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void Wrap(){} // RVA: 0x7A7E00B20
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void Wrap(){} // RVA: 0x87C540
     }
 
     public class IMac
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E18800
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void GetMacSize(){} // RVA: 0x7A7E00710
-        public void Update(){} // RVA: 0x7A7E18C30
-        public void BlockUpdate(){} // RVA: 0x7A7E1E220
-        public void DoFinal(){} // RVA: 0x7A7E09FB0
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void Init(){} // RVA: 0x894320
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void GetMacSize(){} // RVA: 0x87C130
+        public void Update(){} // RVA: 0x894750
+        public void BlockUpdate(){} // RVA: 0x89B9B0
+        public void DoFinal(){} // RVA: 0x885970
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class IMacDerivationFunction
     {
         // ── Methods ──
-        public void GetMac(){} // RVA: 0x7A7E00680
+        public void GetMac(){} // RVA: 0x87C0A0
     }
 
     public class IMacFactory
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void CreateCalculator(){} // RVA: 0x7A7E00680
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void CreateCalculator(){} // RVA: 0x87C0A0
     }
 
     public class IRawAgreement
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E18800
-        public void get_AgreementSize(){} // RVA: 0x7A7E00710
-        public void CalculateAgreement(){} // RVA: 0x7A7E1A470
+        public void Init(){} // RVA: 0x894320
+        public void get_AgreementSize(){} // RVA: 0x87C130
+        public void CalculateAgreement(){} // RVA: 0x895FE0
     }
 
     public class IRsa
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E19310
-        public void GetInputBlockSize(){} // RVA: 0x7A7E00710
-        public void GetOutputBlockSize(){} // RVA: 0x7A7E00710
-        public void ConvertInput(){} // RVA: 0x7A7E017C0
-        public void ProcessBlock(){} // RVA: 0x7A7E00B20
-        public void ConvertOutput(){} // RVA: 0x7A7E00B20
+        public void Init(){} // RVA: 0x894DF0
+        public void GetInputBlockSize(){} // RVA: 0x87C130
+        public void GetOutputBlockSize(){} // RVA: 0x87C130
+        public void ConvertInput(){} // RVA: 0x87D1E0
+        public void ProcessBlock(){} // RVA: 0x87C540
+        public void ConvertOutput(){} // RVA: 0x87C540
     }
 
     public class ISignatureFactory
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void CreateCalculator(){} // RVA: 0x7A7E00680
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void CreateCalculator(){} // RVA: 0x87C0A0
     }
 
     public class ISigner
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void Update(){} // RVA: 0x7A7E18C30
-        public void BlockUpdate(){} // RVA: 0x7A7E1E220
-        public void GenerateSignature(){} // RVA: 0x7A7E00680
-        public void VerifySignature(){} // RVA: 0x7A7E019D0
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void Update(){} // RVA: 0x894750
+        public void BlockUpdate(){} // RVA: 0x89B9B0
+        public void GenerateSignature(){} // RVA: 0x87C0A0
+        public void VerifySignature(){} // RVA: 0x87D350
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class ISignerWithRecovery
     {
         // ── Methods ──
-        public void HasFullMessage(){} // RVA: 0x7A7E01900
-        public void GetRecoveredMessage(){} // RVA: 0x7A7E00680
-        public void UpdateWithRecoveredMessage(){} // RVA: 0x7A7E18800
+        public void HasFullMessage(){} // RVA: 0x87D280
+        public void GetRecoveredMessage(){} // RVA: 0x87C0A0
+        public void UpdateWithRecoveredMessage(){} // RVA: 0x894320
     }
 
     public class IStreamCalculator
     {
         // ── Methods ──
-        public void get_Stream(){} // RVA: 0x7A7E00680
-        public void GetResult(){} // RVA: 0x7A7E00680
+        public void get_Stream(){} // RVA: 0x87C0A0
+        public void GetResult(){} // RVA: 0x87C0A0
     }
 
     public class IStreamCipher
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void ReturnByte(){} // RVA: 0x7A7E02010
-        public void ProcessBytes(){} // RVA: 0x7A7E20000
-        public void Reset(){} // RVA: 0x7A7E18770
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void ReturnByte(){} // RVA: 0x87D910
+        public void ProcessBytes(){} // RVA: 0x89BCC0
+        public void Reset(){} // RVA: 0x894290
     }
 
     public class IVerifier
     {
         // ── Methods ──
-        public void IsVerified(){} // RVA: 0x7A7E046D0
+        public void IsVerified(){} // RVA: 0x87FFF0
     }
 
     public class IVerifierFactory
     {
         // ── Methods ──
-        public void get_AlgorithmDetails(){} // RVA: 0x7A7E00680
-        public void CreateCalculator(){} // RVA: 0x7A7E00680
+        public void get_AlgorithmDetails(){} // RVA: 0x87C0A0
+        public void CreateCalculator(){} // RVA: 0x87C0A0
     }
 
     public class IVerifierFactoryProvider
     {
         // ── Methods ──
-        public void CreateVerifierFactory(){} // RVA: 0x7A7E00B20
+        public void CreateVerifierFactory(){} // RVA: 0x87C540
     }
 
     public class IWrapper
     {
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7A7E00680
-        public void Init(){} // RVA: 0x7A7E19310
-        public void Wrap(){} // RVA: 0x7A7E017C0
-        public void Unwrap(){} // RVA: 0x7A7E017C0
+        public void get_AlgorithmName(){} // RVA: 0x87C0A0
+        public void Init(){} // RVA: 0x894DF0
+        public void Wrap(){} // RVA: 0x87D1E0
+        public void Unwrap(){} // RVA: 0x87D1E0
     }
 
     public class IXof
     {
         // ── Methods ──
-        public void DoFinal(){} // RVA: 0x7A7E0A0A0
-        public void DoOutput(){} // RVA: 0x7A7E0A0A0
+        public void DoFinal(){} // RVA: 0x885A60
+        public void DoOutput(){} // RVA: 0x885A60
     }
 
     public class InvalidCipherTextException : CryptoException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342AE0
+        public void .ctor(){} // RVA: 0xA1AE430
     }
 
     public class KeyGenerationParameters : Object
     {
+        public object random;
+        public object strength;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342AF0
-        public void get_Random(){} // RVA: 0x7A80F2570
-        public void get_Strength(){} // RVA: 0x7A83782A0
+        public void .ctor(){} // RVA: 0xA1AE440
+        public void get_Random(){} // RVA: 0xB5DBF0
+        public void get_Strength(){} // RVA: 0xE62D00
     }
 
     public class MaxBytesExceededException : CryptoException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342AE0
+        public void .ctor(){} // RVA: 0xA1AE430
     }
 
     public class OutputLengthException : DataLengthException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1342AE0
+        public void .ctor(){} // RVA: 0xA1AE430
     }
 
     public class PbeParametersGenerator : Object
     {
+        public object mPassword;
+        public object mSalt;
+        public object mIterationCount;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Init(){} // RVA: 0x7B1342C10
-        public void get_Password(){} // RVA: 0x7B1342EA0
-        public void GetPassword(){} // RVA: 0x7A818C720
-        public void get_Salt(){} // RVA: 0x7B1342F50
-        public void GetSalt(){} // RVA: 0x7AE50A3E0
-        public void get_IterationCount(){} // RVA: 0x7A851DB90
-        public void GenerateDerivedParameters(){} // RVA: 0x7A7E017C0
-        public void GenerateDerivedMacParameters(){} // RVA: 0x7A7E00740
-        public void Pkcs5PasswordToBytes(){} // RVA: 0x7B1343170
-        public void Pkcs5PasswordToUtf8Bytes(){} // RVA: 0x7B1343240
-        public void Pkcs12PasswordToBytes(){} // RVA: 0x7B13432D0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Init(){} // RVA: 0xA1AE560
+        public void get_Password(){} // RVA: 0xA1AE7F0
+        public void GetPassword(){} // RVA: 0xBFA230
+        public void get_Salt(){} // RVA: 0xA1AE8A0
+        public void GetSalt(){} // RVA: 0x7183E10
+        public void get_IterationCount(){} // RVA: 0xFEAE90
+        public void GenerateDerivedParameters(){} // RVA: 0x87D1E0
+        public void GenerateDerivedMacParameters(){} // RVA: 0x87C160
+        public void Pkcs5PasswordToBytes(){} // RVA: 0xA1AEAC0
+        public void Pkcs5PasswordToUtf8Bytes(){} // RVA: 0xA1AEB90
+        public void Pkcs12PasswordToBytes(){} // RVA: 0xA1AEC20
     }
 
     public class SimpleBlockResult : Object
     {
+        public object result;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_Length(){} // RVA: 0x7A8D0A110
-        public void Collect(){} // RVA: 0x7B13433A0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_Length(){} // RVA: 0x17F0080
+        public void Collect(){} // RVA: 0xA1AECF0
     }
 
     public class StreamBlockCipher : Object
     {
+        public object cipher;
+        public object oneByte;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13433F0
-        public void Init(){} // RVA: 0x7B13435C0
-        public void get_AlgorithmName(){} // RVA: 0x7B1343640
-        public void ReturnByte(){} // RVA: 0x7B1343690
-        public void ProcessBytes(){} // RVA: 0x7B1343730
-        public void Reset(){} // RVA: 0x7B13438D0
+        public void .ctor(){} // RVA: 0xA1AED40
+        public void Init(){} // RVA: 0xA1AEF10
+        public void get_AlgorithmName(){} // RVA: 0xA1AEF90
+        public void ReturnByte(){} // RVA: 0xA1AEFE0
+        public void ProcessBytes(){} // RVA: 0xA1AF080
+        public void Reset(){} // RVA: 0xA1AF220
     }
 
 }

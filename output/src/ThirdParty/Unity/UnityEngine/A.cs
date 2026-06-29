@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class AddComponentMenu : Attribute
     {
+        public object m_AddComponentMenu;
+        public object m_Ordering;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2615F10
     }
@@ -312,6 +315,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaException : Exception
     {
+        public object mJavaStackTrace;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AE82D0
         public void get_StackTrace(){} // RVA: 0x7AE83A0
@@ -319,6 +324,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaObject : Object
     {
+        public object enableDebugPrints;
+        public object m_jobject;
+        public object m_jclass;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Dispose(){} // RVA: 0x7AEA990
@@ -346,6 +355,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaProxy : Object
     {
+        public object javaInterface;
+        public object proxyObject;
+        public object s_JavaLangSystemClass;
+        public object s_HashCodeMethodID;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AE8790
         public void Finalize(){} // RVA: 0x7AE87F0
@@ -367,6 +381,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidJavaRunnableProxy : AndroidJavaProxy
     {
+        public object mRunnable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AE8500
         public void run(){} // RVA: 0x7AE85C0
@@ -375,6 +391,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AndroidReflection : Object
     {
+        public object s_ReflectionHelperClass;
+        public object s_ReflectionHelperGetConstructorID;
+        public object s_ReflectionHelperGetMethodID;
+        public object s_ReflectionHelperGetFieldID;
+        public object s_ReflectionHelperGetFieldSignature;
+        public object s_ReflectionHelperNewProxyInstance;
+        public object s_ReflectionHelperCeateInvocationError;
+        public object s_FieldGetDeclaringClass;
+
         // ── Methods ──
         public void IsPrimitive(){} // RVA: 0x6A54B70
         public void IsAssignableFrom(){} // RVA: 0x7AEB130
@@ -548,6 +573,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationCurve : Object
     {
+        public object m_Ptr;
+        public object m_RequiresNativeCleanup;
+
         // ── Methods ──
         public void Internal_Destroy(){} // RVA: 0x7B51750
         public void Internal_Create(){} // RVA: 0x7B517A0
@@ -622,6 +650,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationEvent : Object
     {
+        public object m_Time;
+        public object m_FunctionName;
+        public object m_StringParameter;
+        public object m_ObjectReferenceParameter;
+        public object m_FloatParameter;
+        public object m_IntParameter;
+        public object m_MessageOptions;
+        public object m_Source;
+        public object m_StateSender;
+        public object m_AnimatorStateInfo;
+        public object m_AnimatorClipInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B02210
         public void get_stringParameter(){} // RVA: 0x7489A40
@@ -630,6 +670,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimationEventBlittable : ValueType
     {
+        public object m_Time;
+        public object m_FunctionName;
+        public object m_StringParameter;
+        public object m_ObjectReferenceParameter;
+        public object m_FloatParameter;
+        public object m_IntParameter;
+        public object m_MessageOptions;
+        public object m_Source;
+        public object m_StateSender;
+        public object m_AnimatorStateInfo;
+        public object m_AnimatorClipInfo;
+        public object s_handlePool;
+
         // ── Methods ──
         public void FromAnimationEvents(){} // RVA: 0x7B01420
         public void PointerToAnimationEvent(){} // RVA: 0x7B016A0
@@ -757,6 +810,10 @@ namespace ThirdParty.Unity.UnityEngine
     public class Animation[] : Array
     {
         // ── Methods ──
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
         public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
         public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
@@ -768,10 +825,6 @@ namespace ThirdParty.Unity.UnityEngine
         public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
         public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
         public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class Animator : Behaviour
@@ -1136,6 +1189,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorClipInfo : ValueType
     {
+        public object m_ClipInstanceID;
+        public object m_Weight;
+
         // ── Methods ──
         public void get_clip(){} // RVA: 0x9596F0
         public void get_weight(){} // RVA: 0x958940
@@ -1165,6 +1221,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorControllerParameter : Object
     {
+        public object m_Name;
+        public object m_Type;
+        public object m_DefaultFloat;
+        public object m_DefaultInt;
+        public object m_DefaultBool;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x3E42230
         public void get_nameHash(){} // RVA: 0x7B12420
@@ -1203,6 +1265,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorOverrideController : RuntimeAnimatorController
     {
+        public object OnOverrideControllerDirty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B126C0
         public void Internal_Create(){} // RVA: 0x7B12770
@@ -1256,6 +1320,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorStateInfo : ValueType
     {
+        public object m_Name;
+        public object m_Path;
+        public object m_FullPath;
+        public object m_NormalizedTime;
+        public object m_Length;
+        public object m_Speed;
+        public object m_SpeedMultiplier;
+        public object m_Tag;
+        public object m_Loop;
+
         // ── Methods ──
         public void IsName(){} // RVA: 0x959700
         public void get_fullPathHash(){} // RVA: 0x438050
@@ -1291,6 +1365,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AnimatorTransitionInfo : ValueType
     {
+        public object m_FullPath;
+        public object m_UserName;
+        public object m_Name;
+        public object m_HasFixedDuration;
+        public object m_Duration;
+        public object m_NormalizedTime;
+        public object m_AnyState;
+        public object m_TransitionType;
+
         // ── Methods ──
         public void IsName(){} // RVA: 0x959800
         public void IsUserName(){} // RVA: 0x959850
@@ -1355,6 +1438,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Application : Object
     {
+        public object lowMemory;
+        public object memoryUsageChanged;
+        public object s_LogCallbackHandler;
+        public object s_LogCallbackHandlerThreaded;
+        public object focusChanged;
+        public object deepLinkActivated;
+        public object wantsToQuit;
+        public object quitting;
+        public object unloading;
+        public object s_currentCancellationTokenSource;
+
         // ── Methods ──
         public void Quit(){} // RVA: 0x7B534A0
         public void get_isPlaying(){} // RVA: 0x7B53520
@@ -1425,6 +1519,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ApplicationMemoryUsageChange : ValueType
     {
+        public object _memoryUsage;
+
         // ── Methods ──
         public void set_memoryUsage(){} // RVA: 0x29580
         public void .ctor(){} // RVA: 0x29580
@@ -1486,6 +1582,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssemblyFullName : ValueType
     {
+        public object Name;
+        public object Version;
+        public object PublicKeyToken;
+        public object Culture;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x966130
         public void GetHashCode(){} // RVA: 0x966140
@@ -1534,6 +1635,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssemblyVersion : ValueType
     {
+        public object major;
+        public object minor;
+        public object build;
+        public object revision;
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x7BF9E70
         public void ToString(){} // RVA: 0x965E20
@@ -1688,12 +1794,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AssetFileNameExtensionAttribute : Attribute
     {
+        public object _preferredExtension;
+        public object _otherExtensions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
     }
 
     public class AsyncInstantiateOperation : AsyncOperation
     {
+        public object s_GlobalCancellation;
+        public object m_Result;
+        public object m_CancellationToken;
+
         // ── Methods ──
         public void get_Result(){} // RVA: 0x7489A40
         public void IsCancellationRequested(){} // RVA: 0x7BF43E0
@@ -1755,6 +1868,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AsyncOperation : YieldInstruction
     {
+        public object m_Ptr;
+        public object m_completeCallback;
+
         // ── Methods ──
         public void InternalDestroy(){} // RVA: 0x7BF45C0
         public void InternalSetManagedObject(){} // RVA: 0x7BF4610
@@ -1799,6 +1915,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AttributeHelperEngine : Object
     {
+        public object _disallowMultipleComponentArray;
+        public object _executeInEditModeArray;
+        public object _requireComponentArray;
+
         // ── Methods ──
         public void GetParentTypeDisallowingMultipleInclusion(){} // RVA: 0x7BF4D40
         public void GetRequiredComponents(){} // RVA: 0x7BF4EB0
@@ -1873,6 +1993,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioClip : AudioResource
     {
+        public object m_PCMReaderCallback;
+        public object m_PCMSetPositionCallback;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B30AB0
         public void GetData(){} // RVA: 0x7B31870
@@ -2187,6 +2310,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class AudioSettings : Object
     {
+        public object OnAudioConfigurationChanged;
+        public object OnAudioSystemShuttingDown;
+        public object OnAudioSystemStartedUp;
+
         // ── Methods ──
         public void GetSpeakerMode(){} // RVA: 0x7B30470
         public void SetConfiguration(){} // RVA: 0x7B304C0
@@ -2539,6 +2666,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Awaitable : Object
     {
+        public object _spinLock;
+        public object _pool;
+        public object _handle;
+        public object _exceptionToRethrow;
+        public object _managedAwaitableDone;
+        public object _completionThreadAffinity;
+        public object _continuation;
+        public object _cancelTokenRegistration;
+        public object _managedCompletionQueue;
+        public object _nextFrameAndEndOfFrameWiredUp;
+        public object _nextFrameAndEndOfFrameWiredUpCTRegistration;
+        public object _nextFrameAwaitables;
+        public object _endOfFrameAwaitables;
+        public object _synchronizationContext;
+        public object _mainThreadId;
+
         // ── Methods ──
         public void FromAsyncOperation(){} // RVA: 0x7BF5C50
         public void FromAsyncOperationInternal(){} // RVA: 0x7BF5D90
@@ -2601,6 +2744,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Awaitable`1 : Object
     {
+        public object _pool;
+        public object _awaitable;
+        public object _result;
+
         // ── Methods ──
         public void ContinueWith(){} // RVA: 0x894320
         public void GetResult(){} // RVA: 0xA94080

@@ -57,6 +57,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x87C0A0
         public void get_ConverterStrategy(){} // RVA: 0x87D280
@@ -70,198 +74,329 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converterCreator;
+        public object _converterStrategy;
+        public object _converter;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0x87C0A0
         public void get_KeyType(){} // RVA: 0x87C0A0
@@ -279,186 +414,281 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
+        public object _converter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonNodeConverter : JsonConverter`1
     {
+        public object s_nodeConverter;
+        public object s_arrayConverter;
+        public object s_objectConverter;
+        public object s_valueConverter;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6DD0420
         public void get_ArrayConverter(){} // RVA: 0x6DD0510
@@ -472,6 +702,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class JsonNodeConverter : JsonConverter`1
     {
+        public object s_nodeConverter;
+        public object s_arrayConverter;
+        public object s_objectConverter;
+        public object s_valueConverter;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x7345740
         public void get_ArrayConverter(){} // RVA: 0x7345830

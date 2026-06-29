@@ -25,6 +25,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class Constant : Object
     {
+        public object BundlePrefixBytes;
+        public object BundlePrefixLong;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6C6B520
     }
@@ -62,6 +65,11 @@ namespace ThirdParty.OscCore.OscCore
 
     public class MessageHandlerBase : MonoBehaviour
     {
+        public object m_Receiver;
+        public object m_Address;
+        public object m_ActionPair;
+        public object m_Registered;
+
         // ── Methods ──
         public void get_Receiver(){} // RVA: 0xB700F0
         public void get_Address(){} // RVA: 0xB70160
@@ -76,6 +84,12 @@ namespace ThirdParty.OscCore.OscCore
 
     public class MidiMessage : ValueType
     {
+        public object data;
+        public object PortId;
+        public object Status;
+        public object Data1;
+        public object Data2;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x8E3F10
         public void Equals(){} // RVA: 0x8E3F50
@@ -91,6 +105,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscActionPair : Object
     {
+        public object ValueRead;
+        public object MainThreadQueued;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C6D4E0
         public void op_Addition(){} // RVA: 0x6C6D630
@@ -119,6 +136,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscAddressMethods : Object
     {
+        public object defaultSize;
+        public object HandleToValue;
+        public object SourceToBlob;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C73E40
         public void Add(){} // RVA: 0x6C742C0
@@ -130,6 +151,17 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscAddressSpace : Object
     {
+        public object k_DefaultPatternCapacity;
+        public object k_DefaultCapacity;
+        public object escapedStringBuilder;
+        public object specialRegexCharacters;
+        public object AddressToMethod;
+        public object PatternCount;
+        public object Patterns;
+        public object PatternMethods;
+        public object FreedPatternIndices;
+        public object PatternStringToIndex;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C6D8B0
         public void TryAddMethod(){} // RVA: 0x6C6DE40
@@ -141,6 +173,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscBlobMessageHandler : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Buffer;
+        public object _lastReceivedBlobLength;
+
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0xBBF8F0
         public void get_LastReceivedBlobLength(){} // RVA: 0xE32C80
@@ -159,6 +195,23 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscClient : Object
     {
+        public object m_Socket;
+        public object m_Writer;
+        public object _destination;
+        public object k_Int32TypeTagBytes;
+        public object k_Float32TypeTagBytes;
+        public object k_StringTypeTagBytes;
+        public object k_BlobTypeTagBytes;
+        public object k_Int64TypeTagBytes;
+        public object k_Float64TypeTagBytes;
+        public object k_Color32TypeTagBytes;
+        public object k_MidiTypeTagBytes;
+        public object k_CharTypeTagBytes;
+        public object k_TrueTypeTagBytes;
+        public object k_FalseTypeTagBytes;
+        public object k_NilTypeTagBytes;
+        public object k_InfinitumTypeTagBytes;
+
         // ── Methods ──
         public void get_Writer(){} // RVA: 0xB465B0
         public void get_Destination(){} // RVA: 0xB700F0
@@ -204,6 +257,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x894290
         public void .ctor(){} // RVA: 0x894290
@@ -211,6 +267,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843A60
         public void .ctor(){} // RVA: 0x48439D0
@@ -218,6 +277,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843AE0
         public void .ctor(){} // RVA: 0x48439D0
@@ -225,6 +287,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x48439E0
         public void .ctor(){} // RVA: 0x48439D0
@@ -232,6 +297,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843A20
         public void .ctor(){} // RVA: 0x48439D0
@@ -239,6 +307,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843B20
         public void .ctor(){} // RVA: 0x48439D0
@@ -246,6 +317,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843B60
         public void .ctor(){} // RVA: 0x48439D0
@@ -253,6 +327,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843AA0
         public void .ctor(){} // RVA: 0x48439D0
@@ -260,6 +337,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageHandler`2 : MessageHandlerBase
     {
+        public object OnMessageReceived;
+        public object m_Value;
+
         // ── Methods ──
         public void InvokeEvent(){} // RVA: 0x4843990
         public void .ctor(){} // RVA: 0x48439D0
@@ -267,6 +347,21 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscMessageValues : Object
     {
+        public object k_ResizeByteHeadroom;
+        public object m_SharedBuffer;
+        public object SharedBufferPtr;
+        public object m_SwapBuffer32;
+        public object SwapBuffer32Ptr;
+        public object SwapBuffer32UintPtr;
+        public object SwapBufferColor32Ptr;
+        public object m_Swap32Handle;
+        public object m_SwapBuffer64;
+        public object SwapBuffer64Ptr;
+        public object m_Swap64Handle;
+        public object Tags;
+        public object Offsets;
+        public object _elementCount;
+
         // ── Methods ──
         public void ReadBlobElement(){} // RVA: 0x6C6B800
         public void ReadBooleanElement(){} // RVA: 0x1CD70A0
@@ -289,6 +384,13 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscParser : Object
     {
+        public object MaxElementsPerMessage;
+        public object MaxBlobSize;
+        public object Buffer;
+        public object BufferPtr;
+        public object BufferLongPtr;
+        public object MessageValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C6F590
         public void Parse(){} // RVA: 0x6C6F780
@@ -304,6 +406,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscReceiver : MonoBehaviour
     {
+        public object m_Port;
+        public object _running;
+        public object _server;
+
         // ── Methods ──
         public void get_Port(){} // RVA: 0xFEAE90
         public void set_Port(){} // RVA: 0x6C68B70
@@ -323,6 +429,10 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSender : MonoBehaviour
     {
+        public object m_IpAddress;
+        public object m_Port;
+        public object _client;
+
         // ── Methods ──
         public void get_IpAddress(){} // RVA: 0xB700F0
         public void set_IpAddress(){} // RVA: 0x6C68E90
@@ -340,6 +450,25 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscServer : Object
     {
+        public object k_SingleCallbackToPair;
+        public object m_Socket;
+        public object m_Disposed;
+        public object m_Started;
+        public object m_ReadBuffer;
+        public object m_BufferHandle;
+        public object m_BufferPtr;
+        public object m_MainThreadQueue;
+        public object m_MainThreadCount;
+        public object m_ByteLengthToStringBuffer;
+        public object m_MonitorCallbacks;
+        public object m_PatternMatchedMethods;
+        public object _running;
+        public object PortToServer;
+        public object _port;
+        public object _addressSpace;
+        public object _parser;
+        public object _lastBundleTimestamp;
+
         // ── Methods ──
         public void set_Running(){} // RVA: 0xB6B1B0
         public void get_Port(){} // RVA: 0xD34720
@@ -370,6 +499,15 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscSocket : Object
     {
+        public object m_Socket;
+        public object m_Thread;
+        public object m_Disposed;
+        public object m_Started;
+        public object m_ThreadWakeup;
+        public object m_CloseRequested;
+        public object _port;
+        public object _server;
+
         // ── Methods ──
         public void get_Port(){} // RVA: 0xE9CE60
         public void get_Server(){} // RVA: 0xD05CA0
@@ -396,6 +534,21 @@ namespace ThirdParty.OscCore.OscCore
 
     public class OscWriter : Object
     {
+        public object Buffer;
+        public object m_BufferPtr;
+        public object m_BufferHandle;
+        public object m_BufferMidiPtr;
+        public object m_FloatSwap;
+        public object m_FloatSwapPtr;
+        public object m_FloatSwapHandle;
+        public object m_DoubleSwap;
+        public object m_DoubleSwapPtr;
+        public object m_DoubleSwapHandle;
+        public object m_Color32Swap;
+        public object m_Color32SwapPtr;
+        public object m_Color32SwapHandle;
+        public object m_Length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x23ADD10
         public void .ctor(){} // RVA: 0x6C72E90
@@ -410,6 +563,29 @@ namespace ThirdParty.OscCore.OscCore
 
     public class PropertyOutput : MonoBehaviour
     {
+        public object m_Sender;
+        public object m_Address;
+        public object m_Object;
+        public object m_SourceComponent;
+        public object m_MemberIsProperty;
+        public object m_PropertyName;
+        public object m_PropertyTypeName;
+        public object m_SendVector2Elements;
+        public object m_SendVector3Elements;
+        public object m_PreviousBooleanValue;
+        public object m_PreviousIntValue;
+        public object m_PreviousLongValue;
+        public object m_PreviousDoubleValue;
+        public object m_PreviousSingleValue;
+        public object m_PreviousStringValue;
+        public object m_PreviousColorValue;
+        public object m_PreviousVec2Value;
+        public object m_PreviousVec3Value;
+        public object m_HasSender;
+        public object m_MemberInfo;
+        public object m_Property;
+        public object m_Field;
+
         // ── Methods ──
         public void get_Sender(){} // RVA: 0xB700F0
         public void set_Sender(){} // RVA: 0x6C69360
@@ -464,6 +640,9 @@ namespace ThirdParty.OscCore.OscCore
 
     public class Utils : Object
     {
+        public object k_TempChars;
+        public object k_Builder;
+
         // ── Methods ──
         public void PinPtr(){} // RVA: 0xA94080
         public void ValidateAddress(){} // RVA: 0x6C74BE0

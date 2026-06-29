@@ -7,6 +7,9 @@ namespace ThirdParty.Other.TMPro
 {
     public class HighlightState : ValueType
     {
+        public object color;
+        public object padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3612F0
         public void op_Equality(){} // RVA: 0x79EDF90

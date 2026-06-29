@@ -37,6 +37,9 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class GraphicsFormatUtility : Object
     {
+        public object tableNoStencil;
+        public object tableStencil;
+
         // ── Methods ──
         public void GetFormat(){} // RVA: 0x7C4FFE0
         public void GetGraphicsFormat(){} // RVA: 0x7C503B0
@@ -94,6 +97,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemSettings : Object
     {
+        public object s_Instance;
+
         // ── Methods ──
         public void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(){} // RVA: 0x7C4FCA0
         public void get_Internal_ScriptableRuntimeReflectionSystemSettings_instance(){} // RVA: 0x7C4FE10
@@ -123,6 +128,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Rendering
 
     public class ScriptableRuntimeReflectionSystemWrapper : Object
     {
+        public object _implementation;
+
         // ── Methods ──
         public void get_implementation(){} // RVA: 0xB5DBF0
         public void set_implementation(){} // RVA: 0xB44D60

@@ -7,6 +7,27 @@ namespace VRC.UserCamera
 {
     public class CameraPin : ScriptableObject
     {
+        public object Position;
+        public object Rotation;
+        public object Space;
+        public object Filter;
+        public object DofMode;
+        public object DofUV;
+        public object FocalDistance;
+        public object FocalLength;
+        public object Aperture;
+        public object LookAtMe;
+        public object Smoothed;
+        public object AutoLevelRoll;
+        public object AutoLevelPitch;
+        public object IsFlipped;
+        public object ShowUIInCamera;
+        public object ShowLocalPlayerInCamera;
+        public object ShowRemotePlayerInCamera;
+        public object ShowEnvironmentInCamera;
+        public object ShowGreenscreen;
+        public object Orientation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x10E5E70
     }
@@ -33,6 +54,21 @@ namespace VRC.UserCamera
 
     public class CameraPreset : ScriptableObject
     {
+        public object properties;
+        public object nearClipPlane;
+        public object farClipPlane;
+        public object backgroundColor;
+        public object renderingPath;
+        public object clearFlags;
+        public object cullingMask;
+        public object fieldOfView;
+        public object allowHDR;
+        public object replacementShader;
+        public object replacementShaderTag;
+        public object filterMaterial;
+        public object postEffects;
+        public object disablePostEffects;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x10E5F20
     }
@@ -59,6 +95,23 @@ namespace VRC.UserCamera
 
     public class VRCOscDollyPointMessage : ValueType
     {
+        public object IsLocal;
+        public object Position;
+        public object Rotation;
+        public object FocalDistance;
+        public object Aperture;
+        public object Hue;
+        public object Saturation;
+        public object Lightness;
+        public object LookAtMeXOffset;
+        public object LookAtMeYOffset;
+        public object Zoom;
+        public object Exposure;
+        public object Speed;
+        public object Duration;
+        public object Index;
+        public object PathIndex;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x10E73B0
         public void InternalEquals(){} // RVA: 0x10E7650

@@ -7,6 +7,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class CachedMemoryStream : Object
     {
+        public object InitialCapacity;
+        public object MaxCapacity;
+        public object memoryStream;
+
         // ── Methods ──
         public void get_MemoryStream(){} // RVA: 0x849CE10
         public void .ctor(){} // RVA: 0x849CF30
@@ -26,6 +30,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Color32Formatter : MinimalBaseFormatter`1
     {
+        public object ByteSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84C8FC0
         public void Write(){} // RVA: 0x84C90E0
@@ -42,6 +48,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorBlockFormatter`1 : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+        public object ColorSerializer;
+        public object normalColor;
+        public object highlightedColor;
+        public object pressedColor;
+        public object disabledColor;
+        public object colorMultiplier;
+        public object fadeDuration;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x8943B0
         public void Write(){} // RVA: 0x8943B0
@@ -51,6 +66,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ColorFormatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84C9650
         public void Write(){} // RVA: 0x84C9780
@@ -60,6 +77,21 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ComplexTypeSerializer`1 : Serializer`1
     {
+        public object ComplexTypeMayBeBoxedValueType;
+        public object ComplexTypeIsAbstract;
+        public object ComplexTypeIsNullable;
+        public object ComplexTypeIsValueType;
+        public object TypeOf_T;
+        public object AllowDeserializeInvalidDataForT;
+        public object FormattersByPolicy;
+        public object FormattersByPolicy_LOCK;
+        public object UnityPolicy;
+        public object StrictPolicy;
+        public object EverythingPolicy;
+        public object UnityPolicyFormatter;
+        public object StrictPolicyFormatter;
+        public object EverythingPolicyFormatter;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0xA94080
         public void GetBaseFormatter(){} // RVA: 0x87C5C0
@@ -80,18 +112,26 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomFormatterAttribute : Attribute
     {
+        public object Priority;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class CustomGenericFormatterAttribute : CustomFormatterAttribute
     {
+        public object SerializedGenericTypeDefinition;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x849D3D0
     }
 
     public class CustomLogger : Object
     {
+        public object logWarningDelegate;
+        public object logErrorDelegate;
+        public object logExceptionDelegate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x849D530
         public void LogWarning(){} // RVA: 0x31D2090
@@ -101,6 +141,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class CustomSerializationPolicy : Object
     {
+        public object id;
+        public object allowNonSerializableTypes;
+        public object shouldSerializeFunc;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x849D660
         public void get_ID(){} // RVA: 0xB5DBF0

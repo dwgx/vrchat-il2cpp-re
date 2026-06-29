@@ -13,6 +13,8 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class HashHelpers : Object
     {
+        public object Primes;
+
         // ── Methods ──
         public void IsPrime(){} // RVA: 0x26071F0
         public void GetPrime(){} // RVA: 0x26072A0
@@ -22,6 +24,13 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledList`1 : Object
     {
+        public object _pool;
+        public object _syncRoot;
+        public object _items;
+        public object _size;
+        public object _version;
+        public object _clearOnFree;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895750
         public void set_Capacity(){} // RVA: 0x8944F0
@@ -62,6 +71,19 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledSet`1 : Object
     {
+        public object s_bucketPool;
+        public object s_slotPool;
+        public object _buckets;
+        public object _slots;
+        public object _size;
+        public object _count;
+        public object _lastIndex;
+        public object _freeList;
+        public object _comparer;
+        public object _version;
+        public object _clearOnFree;
+        public object _siInfo;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x486A5C0
         public void Contains(){} // RVA: 0x486A630
@@ -89,6 +111,19 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledSet`1 : Object
     {
+        public object s_bucketPool;
+        public object s_slotPool;
+        public object _buckets;
+        public object _slots;
+        public object _size;
+        public object _count;
+        public object _lastIndex;
+        public object _freeList;
+        public object _comparer;
+        public object _version;
+        public object _clearOnFree;
+        public object _siInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0xA94080
@@ -116,6 +151,13 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledStack`1 : Object
     {
+        public object _pool;
+        public object _syncRoot;
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _clearOnFree;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895750
         public void get_Count(){} // RVA: 0x87C130
@@ -135,6 +177,13 @@ namespace ThirdParty.CollectionsPooled.Collections.Pooled
 
     public class PooledStack`1 : Object
     {
+        public object _pool;
+        public object _syncRoot;
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _clearOnFree;
+
         // ── Methods ──
         public void Pop(){} // RVA: 0x486F8C0
         public void Push(){} // RVA: 0x486F9D0

@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class EditorIK : MonoBehaviour
     {
+        public object ik;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCBA580
         public void Update(){} // RVA: 0xCBA660

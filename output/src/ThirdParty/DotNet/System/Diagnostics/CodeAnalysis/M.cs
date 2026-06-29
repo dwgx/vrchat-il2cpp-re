@@ -8,167 +8,210 @@ namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0xC120B0
+        public void get_ReturnValue(){} // RVA: 0xC120A0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0xC120B0
+        public void get_ReturnValue(){} // RVA: 0xC120A0
     }
 
     public class MaybeNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void get_Members(){} // RVA: 0x7A80F2570
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Members(){} // RVA: 0xB5DBF0
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1949390
+        public void .ctor(){} // RVA: 0xA7B5930
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void get_Members(){} // RVA: 0x7A80F2570
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Members(){} // RVA: 0xB5DBF0
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_Members(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_Members(){} // RVA: 0xB5DBF0
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD99CA40
+        public void .ctor(){} // RVA: 0x6627AE0
     }
 
     public class MemberNotNullAttribute : Attribute
     {
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_Members(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_Members(){} // RVA: 0xB5DBF0
     }
 
     public class MemberNotNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+        public object _members;
+
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void get_Members(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD993240
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void get_Members(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x661E600
     }
 
     public class MemberNotNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+        public object _members;
+
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void get_Members(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD993240
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void get_Members(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x661E600
     }
 
     public class MemberNotNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD993240
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void get_Members(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x661E600
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void get_Members(){} // RVA: 0xB465B0
     }
 
     public class MemberNotNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9A38B0
+        public void .ctor(){} // RVA: 0x662E880
     }
 
     public class MemberNotNullWhenAttribute : Attribute
     {
+        public object _returnValue;
+        public object _members;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD993240
-        public void get_ReturnValue(){} // RVA: 0x7A81A2200
-        public void get_Members(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x661E600
+        public void get_ReturnValue(){} // RVA: 0xC120A0
+        public void get_Members(){} // RVA: 0xB465B0
     }
 
 }

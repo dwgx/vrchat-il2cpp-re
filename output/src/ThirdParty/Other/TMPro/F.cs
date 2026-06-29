@@ -7,12 +7,37 @@ namespace ThirdParty.Other.TMPro
 {
     public class FaceInfo_Legacy : Object
     {
+        public object Name;
+        public object PointSize;
+        public object Scale;
+        public object CharacterCount;
+        public object LineHeight;
+        public object Baseline;
+        public object Ascender;
+        public object CapHeight;
+        public object Descender;
+        public object CenterLine;
+        public object SuperscriptOffset;
+        public object SubscriptOffset;
+        public object SubSize;
+        public object Underline;
+        public object UnderlineThickness;
+        public object strikethrough;
+        public object strikethroughThickness;
+        public object TabWidth;
+        public object Padding;
+        public object AtlasWidth;
+        public object AtlasHeight;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class FastAction : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x79CDDA0
         public void Remove(){} // RVA: 0x79CDE90
@@ -22,24 +47,21 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`1 : Object
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x894320
-        public void Remove(){} // RVA: 0x894320
-        public void Call(){} // RVA: 0xA94080
-        public void .ctor(){} // RVA: 0x894290
-    }
+        public object delegates;
+        public object lookup;
 
-    public class FastAction`1 : Object
-    {
         // ── Methods ──
-        public void Add(){} // RVA: 0x3DD8350
         public void .ctor(){} // RVA: 0x3DD8790
         public void Remove(){} // RVA: 0x3DD8420
         public void Call(){} // RVA: 0x3DD88E0
+        public void Add(){} // RVA: 0x3DD8350
     }
 
     public class FastAction`1 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DD8790
         public void Add(){} // RVA: 0x3DD8350
@@ -47,26 +69,11 @@ namespace ThirdParty.Other.TMPro
         public void Call(){} // RVA: 0x3DD8720
     }
 
-    public class FastAction`2 : Object
+    public class FastAction`1 : Object
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x3DD8350
-        public void Remove(){} // RVA: 0x3DD8420
-        public void Call(){} // RVA: 0x3DD9290
-        public void .ctor(){} // RVA: 0x3DD9140
-    }
+        public object delegates;
+        public object lookup;
 
-    public class FastAction`2 : Object
-    {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x3DD8350
-        public void Remove(){} // RVA: 0x3DD8420
-        public void Call(){} // RVA: 0x3DD90C0
-        public void .ctor(){} // RVA: 0x3DD9140
-    }
-
-    public class FastAction`2 : Object
-    {
         // ── Methods ──
         public void Add(){} // RVA: 0x894320
         public void Remove(){} // RVA: 0x894320
@@ -76,6 +83,21 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`2 : Object
     {
+        public object delegates;
+        public object lookup;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD9140
+        public void Add(){} // RVA: 0x3DD8350
+        public void Remove(){} // RVA: 0x3DD8420
+        public void Call(){} // RVA: 0x3DD9290
+    }
+
+    public class FastAction`2 : Object
+    {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DD9140
         public void Add(){} // RVA: 0x3DD8350
@@ -83,8 +105,35 @@ namespace ThirdParty.Other.TMPro
         public void Call(){} // RVA: 0x3DD90C0
     }
 
+    public class FastAction`2 : Object
+    {
+        public object delegates;
+        public object lookup;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DD9140
+        public void Add(){} // RVA: 0x3DD8350
+        public void Remove(){} // RVA: 0x3DD8420
+        public void Call(){} // RVA: 0x3DD90C0
+    }
+
+    public class FastAction`2 : Object
+    {
+        public object delegates;
+        public object lookup;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x894320
+        public void Remove(){} // RVA: 0x894320
+        public void Call(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
+    }
+
     public class FastAction`3 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DD9C00
         public void Add(){} // RVA: 0x3DD8350
@@ -94,6 +143,9 @@ namespace ThirdParty.Other.TMPro
 
     public class FastAction`3 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x894320
         public void Remove(){} // RVA: 0x894320
@@ -103,6 +155,12 @@ namespace ThirdParty.Other.TMPro
 
     public class FloatTween : ValueType
     {
+        public object m_Target;
+        public object m_StartValue;
+        public object m_TargetValue;
+        public object m_Duration;
+        public object m_IgnoreTimeScale;
+
         // ── Methods ──
         public void get_startValue(){} // RVA: 0xD1B30
         public void set_startValue(){} // RVA: 0xD1B50
@@ -121,6 +179,25 @@ namespace ThirdParty.Other.TMPro
 
     public class FontAssetCreationSettings : ValueType
     {
+        public object sourceFontFileName;
+        public object sourceFontFileGUID;
+        public object faceIndex;
+        public object pointSizeSamplingMode;
+        public object pointSize;
+        public object padding;
+        public object paddingMode;
+        public object packingMode;
+        public object atlasWidth;
+        public object atlasHeight;
+        public object characterSetSelectionMode;
+        public object characterSequence;
+        public object referencedFontAssetGUID;
+        public object referencedTextAssetGUID;
+        public object fontStyle;
+        public object fontStyleModifier;
+        public object renderMode;
+        public object includeFontFeatures;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x943FB0
     }

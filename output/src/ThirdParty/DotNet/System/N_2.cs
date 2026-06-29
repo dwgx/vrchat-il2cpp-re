@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 97
-// Methods: 881
+// Methods: 882
 
 namespace ThirdParty.DotNet.System
 {
     public class NUInt : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void op_Explicit(){} // RVA: 0x2303260
@@ -39,6 +41,8 @@ namespace ThirdParty.DotNet.System
 
     public class NullConsoleDriver : Object
     {
+        public object EmptyConsoleKeyInfo;
+
         // ── Methods ──
         public void ReadKey(){} // RVA: 0x6982DF0
         public void .ctor(){} // RVA: 0xB43310
@@ -53,21 +57,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x456360
-        public void get_HasValue(){} // RVA: 0x456470
-        public void get_Value(){} // RVA: 0x4564F0
-        public void GetValueOrDefault(){} // RVA: 0x4564F0
-        public void Equals(){} // RVA: 0x462140
-        public void GetHashCode(){} // RVA: 0x462240
-        public void ToString(){} // RVA: 0x46D2A0
-        public void Box(){} // RVA: 0x47349B0
-        public void Unbox(){} // RVA: 0x4734A30
-        public void UnboxExact(){} // RVA: 0x4734B80
-    }
+        public object hasValue;
+        public object value;
 
-    public class Nullable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x461500
         public void get_HasValue(){} // RVA: 0x461640
@@ -83,6 +75,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE90
         public void get_HasValue(){} // RVA: 0x318130
@@ -98,6 +93,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44EB10
         public void get_HasValue(){} // RVA: 0x44EC10
@@ -113,6 +111,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x462D70
         public void get_HasValue(){} // RVA: 0x462EB0
@@ -128,6 +129,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45F470
         public void get_HasValue(){} // RVA: 0x45F570
@@ -143,6 +147,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -158,6 +165,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -173,6 +183,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -188,6 +201,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45F470
         public void get_HasValue(){} // RVA: 0x45F570
@@ -203,6 +219,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x451DB0
         public void get_HasValue(){} // RVA: 0x451E90
@@ -218,6 +237,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x456360
         public void get_HasValue(){} // RVA: 0x456470
@@ -233,6 +255,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -248,6 +273,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x464790
         public void get_HasValue(){} // RVA: 0x4648D0
@@ -263,21 +291,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x93050
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x44D9F0
-        public void GetValueOrDefault(){} // RVA: 0x44D9F0
-        public void Equals(){} // RVA: 0x4558F0
-        public void GetHashCode(){} // RVA: 0x455970
-        public void ToString(){} // RVA: 0x4559A0
-        public void Box(){} // RVA: 0x472FA50
-        public void Unbox(){} // RVA: 0x47307F0
-        public void UnboxExact(){} // RVA: 0x47308B0
-    }
+        public object hasValue;
+        public object value;
 
-    public class Nullable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45A580
         public void get_HasValue(){} // RVA: 0x318130
@@ -293,6 +309,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE90
         public void get_HasValue(){} // RVA: 0x318130
@@ -308,6 +327,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46B080
         public void get_HasValue(){} // RVA: 0x46B1C0
@@ -323,6 +345,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x464240
         public void get_HasValue(){} // RVA: 0x464340
@@ -338,6 +363,45 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x44EF20
+        public void get_HasValue(){} // RVA: 0x44F000
+        public void get_Value(){} // RVA: 0x44F060
+        public void GetValueOrDefault(){} // RVA: 0x44F060
+        public void Equals(){} // RVA: 0x44FA50
+        public void GetHashCode(){} // RVA: 0x44FB30
+        public void ToString(){} // RVA: 0x450590
+        public void Box(){} // RVA: 0x472AC60
+        public void Unbox(){} // RVA: 0x472CB40
+        public void UnboxExact(){} // RVA: 0x472CC70
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -353,6 +417,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -368,6 +435,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44EB10
         public void get_HasValue(){} // RVA: 0x44EC10
@@ -383,6 +453,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -398,6 +471,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE90
         public void get_HasValue(){} // RVA: 0x318130
@@ -413,6 +489,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void get_HasValue(){} // RVA: 0x318130
@@ -428,6 +507,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -443,6 +525,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -458,6 +543,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xE32F0
         public void get_HasValue(){} // RVA: 0x318130
@@ -473,6 +561,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -488,6 +579,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -503,6 +597,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -518,6 +615,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -533,6 +633,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE90
         public void get_HasValue(){} // RVA: 0x318130
@@ -548,6 +651,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -563,6 +669,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void get_HasValue(){} // RVA: 0x318130
@@ -578,6 +687,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -593,6 +705,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -608,6 +723,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -623,6 +741,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE90
         public void get_HasValue(){} // RVA: 0x318130
@@ -638,6 +759,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -653,6 +777,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -668,6 +795,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void get_HasValue(){} // RVA: 0x318130
@@ -683,6 +813,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x456E00
         public void get_HasValue(){} // RVA: 0x318130
@@ -698,6 +831,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x456E00
         public void get_HasValue(){} // RVA: 0x318130
@@ -713,6 +849,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -728,6 +867,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -743,6 +885,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -758,13 +903,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
-        // ── Methods ──
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-    }
+        public object hasValue;
+        public object value;
 
-    public class Nullable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -780,6 +921,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x90530
         public void get_HasValue(){} // RVA: 0x318130
@@ -795,6 +939,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -810,6 +957,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x90530
         public void get_HasValue(){} // RVA: 0x318130
@@ -825,6 +975,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xE32F0
         public void get_HasValue(){} // RVA: 0x318130
@@ -840,6 +993,333 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+        public void get_HasValue(){} // RVA: 0x318130
+        public void get_Value(){} // RVA: 0x454FE0
+        public void GetValueOrDefault(){} // RVA: 0x454FE0
+        public void Equals(){} // RVA: 0x455730
+        public void GetHashCode(){} // RVA: 0x454FE0
+        public void ToString(){} // RVA: 0x4557B0
+        public void Box(){} // RVA: 0x4733470
+        public void Unbox(){} // RVA: 0x47334C0
+        public void UnboxExact(){} // RVA: 0x4733570
+    }
+
+    public class Nullable`1 : ValueType
+    {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -856,20 +1336,16 @@ namespace ThirdParty.DotNet.System
     public class Nullable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
+        public void .ctor(){} // RVA: 0x44D560
+        public void get_HasValue(){} // RVA: 0x44D640
+        public void get_Value(){} // RVA: 0x44D6A0
     }
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -885,261 +1361,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
+        public object hasValue;
+        public object value;
 
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-        public void get_HasValue(){} // RVA: 0x318130
-        public void get_Value(){} // RVA: 0x454FE0
-        public void GetValueOrDefault(){} // RVA: 0x454FE0
-        public void Equals(){} // RVA: 0x455730
-        public void GetHashCode(){} // RVA: 0x454FE0
-        public void ToString(){} // RVA: 0x4557B0
-        public void Box(){} // RVA: 0x4733470
-        public void Unbox(){} // RVA: 0x47334C0
-        public void UnboxExact(){} // RVA: 0x4733570
-    }
-
-    public class Nullable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44EB10
         public void get_HasValue(){} // RVA: 0x44EC10
@@ -1155,6 +1379,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x45F470
         public void get_HasValue(){} // RVA: 0x45F570
@@ -1170,6 +1397,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -1185,6 +1415,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -1200,6 +1433,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x451DB0
         public void get_HasValue(){} // RVA: 0x451E90
@@ -1215,6 +1451,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -1230,6 +1469,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x90530
         public void get_HasValue(){} // RVA: 0x318130
@@ -1245,6 +1487,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -1260,6 +1505,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -1275,6 +1523,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -1290,6 +1541,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_HasValue(){} // RVA: 0x318130
@@ -1305,6 +1559,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -1320,6 +1577,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44EF20
         public void get_HasValue(){} // RVA: 0x44F000
@@ -1335,6 +1595,9 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44D560
         public void get_HasValue(){} // RVA: 0x44D640
@@ -1343,12 +1606,20 @@ namespace ThirdParty.DotNet.System
 
     public class Nullable`1 : ValueType
     {
+        public object hasValue;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
     }
 
     public class Number : Object
     {
+        public object s_rgval64Power10;
+        public object s_rgexp64Power10;
+        public object s_rgval64Power10By16;
+        public object s_rgexp64Power10By16;
+
         // ── Methods ──
         public void RoundNumber(){} // RVA: 0x6D2B720
         public void NumberBufferToDouble(){} // RVA: 0x6D2B920
@@ -1364,6 +1635,60 @@ namespace ThirdParty.DotNet.System
 
     public class NumberBuffer : ValueType
     {
+        public object Scale;
+        public object IsNegative;
+        public object _b0;
+        public object _b1;
+        public object _b2;
+        public object _b3;
+        public object _b4;
+        public object _b5;
+        public object _b6;
+        public object _b7;
+        public object _b8;
+        public object _b9;
+        public object _b10;
+        public object _b11;
+        public object _b12;
+        public object _b13;
+        public object _b14;
+        public object _b15;
+        public object _b16;
+        public object _b17;
+        public object _b18;
+        public object _b19;
+        public object _b20;
+        public object _b21;
+        public object _b22;
+        public object _b23;
+        public object _b24;
+        public object _b25;
+        public object _b26;
+        public object _b27;
+        public object _b28;
+        public object _b29;
+        public object _b30;
+        public object _b31;
+        public object _b32;
+        public object _b33;
+        public object _b34;
+        public object _b35;
+        public object _b36;
+        public object _b37;
+        public object _b38;
+        public object _b39;
+        public object _b40;
+        public object _b41;
+        public object _b42;
+        public object _b43;
+        public object _b44;
+        public object _b45;
+        public object _b46;
+        public object _b47;
+        public object _b48;
+        public object _b49;
+        public object _b50;
+
         // ── Methods ──
         public void get_Digits(){} // RVA: 0x8E8290
         public void get_UnsafeDigits(){} // RVA: 0x8E8310

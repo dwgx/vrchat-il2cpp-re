@@ -7,6 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class TakeLast`1 : Object
     {
+        public object source;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +17,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeUntilCanceled`1 : Object
     {
+        public object source;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +27,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeUntil`1 : Object
     {
+        public object source;
+        public object other;
+        public object other2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -28,6 +38,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -35,6 +48,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -42,6 +58,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileIntAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -49,6 +68,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileIntAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -56,6 +78,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhileInt`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -63,6 +88,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TakeWhile`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -70,6 +98,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Take`1 : Object
     {
+        public object source;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -77,6 +108,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Throw`1 : Object
     {
+        public object exception;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -84,6 +117,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Timer : Object
     {
+        public object updateTiming;
+        public object dueTime;
+        public object period;
+        public object ignoreTimeScale;
+        public object cancelImmediately;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7789740
         public void GetAsyncEnumerator(){} // RVA: 0x7789770
@@ -91,6 +130,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class TimerFrame : Object
     {
+        public object updateTiming;
+        public object dueTimeFrameCount;
+        public object periodFrameCount;
+        public object cancelImmediately;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x778A120
         public void GetAsyncEnumerator(){} // RVA: 0x778A140
@@ -132,6 +176,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToObservable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Subscribe(){} // RVA: 0x87C540
@@ -140,6 +186,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableObservable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -147,6 +195,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableTask`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -154,6 +204,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerableUniTask`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -161,6 +213,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ToUniTaskAsyncEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

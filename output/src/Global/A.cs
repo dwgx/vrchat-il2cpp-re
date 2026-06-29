@@ -14,6 +14,8 @@ public class Action`5 : MulticastDelegate
 
 public class AlphaButtonClickMask : MonoBehaviour
 {
+    public object _image;
+
     // ── Methods ──
     public void Start(){} // RVA: 0xB43330
     public void IsRaycastLocationValid(){} // RVA: 0xB43720
@@ -22,12 +24,21 @@ public class AlphaButtonClickMask : MonoBehaviour
 
 public class AnimatedButton : Object
 {
+    public object Button;
+    public object InAnimationDuration;
+    public object OutAnimationDuration;
+    public object ScaleAnimationDuration;
+    public object OutPosition;
+    public object InPosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class ApplyToFarPlane_CameraApplier : MonoBehaviour
 {
+    public object _material;
+
     // ── Methods ──
     public void get_Material(){} // RVA: 0xB700F0
     public void set_Material(){} // RVA: 0xB70100
@@ -37,6 +48,9 @@ public class ApplyToFarPlane_CameraApplier : MonoBehaviour
 
 public class AssetBundleRequestAwaiter : ValueType
 {
+    public object asyncOperation;
+    public object continuationAction;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x54A90
     public void get_IsCompleted(){} // RVA: 0x9232C0
@@ -47,6 +61,12 @@ public class AssetBundleRequestAwaiter : ValueType
 
 public class AssetPreloader : Object
 {
+    public object _kInstanceID_None;
+    public object _m_CachedPtr;
+    public object _offsetOfInstanceIDInCPlusPlusObject;
+    public object _objectIsNullMessage;
+    public object _cloneDestroyedMessage;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x1A50A20
     public void Cleanup(){} // RVA: 0x1A50AF0
@@ -79,6 +99,8 @@ public class AssetPreloader : Object
 
 public class AutoScope : ValueType
 {
+    public object m_Ptr;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x95ED20
     public void Dispose(){} // RVA: 0x95ED80
@@ -86,6 +108,17 @@ public class AutoScope : ValueType
 
 public class AvatarCullingMonitor : Object
 {
+    public object _avatarScreenSizeThresholdLower;
+    public object _avatarScreenSizeThresholdUpper;
+    public object _validAvatarKinds;
+    public object _owningPlayer;
+    public object _hasOwningPlayer;
+    public object _isBoundToAvatarKind;
+    public object _hasValidAvatarKind;
+    public object _isBoundToAvatarScreenSize;
+    public object _aboveTriggerThreshold;
+    public object _cullingChangedCallback;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x19A0F90
     public void .ctor(){} // RVA: 0x19A1090
@@ -107,6 +140,12 @@ public class AvatarCullingMonitor : Object
 
 public class AvatarOscConfig : Object
 {
+    public object id;
+    public object name;
+    public object hash;
+    public object parameters;
+    public object _supportedTypes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x19EAF10
     public void GetByName(){} // RVA: 0x19EADF0
@@ -114,6 +153,9 @@ public class AvatarOscConfig : Object
 
 public class AwaitableAndFrameIndex : ValueType
 {
+    public object _awaitable;
+    public object _frameIndex;
+
     // ── Methods ──
     public void get_Awaitable(){} // RVA: 0x77900
     public void get_FrameIndex(){} // RVA: 0x14790
@@ -142,6 +184,10 @@ public class AwaitableAndFrameIndex[] : Array
 
 public class AwaitableHandle : ValueType
 {
+    public object _handle;
+    public object ManagedHandle;
+    public object NullHandle;
+
     // ── Methods ──
     public void get_IsNull(){} // RVA: 0x88E70
     public void get_IsManaged(){} // RVA: 0x965D50
@@ -152,6 +198,9 @@ public class AwaitableHandle : ValueType
 
 public class Awaiter : ValueType
 {
+    public object playerLoopTiming;
+    public object cancellationToken;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616C0
     public void get_IsCompleted(){} // RVA: 0x9206D0
@@ -162,6 +211,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_IsCompleted(){} // RVA: 0x87D280
@@ -173,6 +224,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x768C50
@@ -184,6 +237,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object switchToCallback;
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x20C460
     public void GetResult(){} // RVA: 0x3FC0
@@ -195,6 +250,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x920160
@@ -206,6 +263,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -217,6 +276,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -228,6 +289,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -239,6 +302,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -250,6 +315,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -261,6 +328,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -272,6 +341,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -283,6 +354,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -294,6 +367,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x747D90
@@ -305,6 +380,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -316,6 +393,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -327,6 +406,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -338,6 +419,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object timing;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x29580
     public void get_IsCompleted(){} // RVA: 0x20C460
@@ -348,6 +431,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -359,6 +444,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -370,6 +457,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -381,6 +470,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -392,6 +483,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -403,6 +496,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -414,6 +509,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -425,6 +522,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -436,6 +535,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -447,6 +548,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7467B0
@@ -458,6 +561,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x75B010
@@ -469,6 +574,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -480,6 +587,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -491,6 +600,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -502,6 +613,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -513,6 +626,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -524,6 +639,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7467B0
@@ -535,6 +652,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -546,6 +665,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7473D0
     public void get_IsCompleted(){} // RVA: 0x747440
@@ -557,6 +678,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -568,6 +691,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -579,6 +704,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7467B0
@@ -590,6 +717,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x75B010
@@ -601,6 +730,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -612,6 +743,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object _awaited;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void OnCompleted(){} // RVA: 0x965CF0
@@ -621,6 +754,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -632,6 +767,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -643,6 +780,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748B30
     public void get_IsCompleted(){} // RVA: 0x748B40
@@ -654,6 +793,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748B30
     public void get_IsCompleted(){} // RVA: 0x748B40
@@ -665,6 +806,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7473D0
     public void get_IsCompleted(){} // RVA: 0x747440
@@ -676,6 +819,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -687,6 +832,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x75B010
@@ -698,6 +845,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -709,6 +858,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748EF0
     public void get_IsCompleted(){} // RVA: 0x748F00
@@ -720,6 +871,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7473D0
     public void get_IsCompleted(){} // RVA: 0x747440
@@ -731,6 +884,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x768C50
@@ -742,6 +897,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748B30
     public void get_IsCompleted(){} // RVA: 0x748B40
@@ -753,6 +910,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -764,6 +923,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -775,6 +936,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -786,6 +949,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -797,6 +962,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -808,6 +975,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -819,6 +988,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -830,6 +1001,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -841,6 +1014,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -852,6 +1027,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7473D0
     public void get_IsCompleted(){} // RVA: 0x747440
@@ -863,6 +1040,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -874,6 +1053,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -885,6 +1066,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -896,6 +1079,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -907,6 +1092,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748EF0
     public void get_IsCompleted(){} // RVA: 0x748F00
@@ -918,6 +1105,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -929,6 +1118,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -940,6 +1131,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -951,6 +1144,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -962,6 +1157,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -973,6 +1170,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -984,6 +1183,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -995,6 +1196,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1006,6 +1209,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1017,6 +1222,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -1028,6 +1235,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1039,6 +1248,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1050,6 +1261,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1061,6 +1274,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1072,6 +1287,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -1083,6 +1300,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1094,6 +1313,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1105,6 +1326,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0

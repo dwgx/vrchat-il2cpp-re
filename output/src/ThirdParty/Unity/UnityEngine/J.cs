@@ -101,6 +101,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointAngleLimits2D : ValueType
     {
+        public object m_LowerAngle;
+        public object m_UpperAngle;
+
         // ── Methods ──
         public void get_min(){} // RVA: 0x459690
         public void set_min(){} // RVA: 0xD1B20
@@ -110,6 +113,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointDrive : ValueType
     {
+        public object m_PositionSpring;
+        public object m_PositionDamper;
+        public object m_MaximumForce;
+        public object m_UseAcceleration;
+
         // ── Methods ──
         public void get_positionSpring(){} // RVA: 0x459690
         public void set_positionSpring(){} // RVA: 0xD1B20
@@ -123,6 +131,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointLimits : ValueType
     {
+        public object m_Min;
+        public object m_Max;
+        public object m_Bounciness;
+        public object m_BounceMinVelocity;
+        public object m_ContactDistance;
+        public object minBounce;
+        public object maxBounce;
+
         // ── Methods ──
         public void get_min(){} // RVA: 0x459690
         public void set_min(){} // RVA: 0xD1B20
@@ -138,6 +154,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointMotor : ValueType
     {
+        public object m_TargetVelocity;
+        public object m_Force;
+        public object m_FreeSpin;
+
         // ── Methods ──
         public void get_targetVelocity(){} // RVA: 0x459690
         public void set_targetVelocity(){} // RVA: 0xD1B20
@@ -149,6 +169,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointMotor2D : ValueType
     {
+        public object m_MotorSpeed;
+        public object m_MaximumMotorTorque;
+
         // ── Methods ──
         public void get_motorSpeed(){} // RVA: 0x459690
         public void set_motorSpeed(){} // RVA: 0xD1B20
@@ -158,6 +181,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointSuspension2D : ValueType
     {
+        public object m_DampingRatio;
+        public object m_Frequency;
+        public object m_Angle;
+
         // ── Methods ──
         public void get_dampingRatio(){} // RVA: 0x459690
         public void set_dampingRatio(){} // RVA: 0xD1B20
@@ -169,6 +196,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class JointTranslationLimits2D : ValueType
     {
+        public object m_LowerTranslation;
+        public object m_UpperTranslation;
+
         // ── Methods ──
         public void get_min(){} // RVA: 0x459690
         public void set_min(){} // RVA: 0xD1B20

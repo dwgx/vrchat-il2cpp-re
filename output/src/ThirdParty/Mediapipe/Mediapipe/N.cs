@@ -7,6 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class NativeCategory : ValueType
     {
+        public object index;
+        public object score;
+        public object _categoryName;
+        public object _displayName;
+
         // ── Methods ──
         public void get_categoryName(){} // RVA: 0x8A5C20
         public void get_displayName(){} // RVA: 0x8A5C30
@@ -14,6 +19,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeClassificationResult : ValueType
     {
+        public object _classifications;
+        public object classificationsCount;
+        public object timestampMs;
+        public object hasTimestampMs;
+
         // ── Methods ──
         public void get_classifications(){} // RVA: 0x8A5D00
         public void Dispose(){} // RVA: 0x8A5D70
@@ -21,6 +31,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeClassifications : ValueType
     {
+        public object _categories;
+        public object categoriesCount;
+        public object headIndex;
+        public object _headName;
+
         // ── Methods ──
         public void get_categories(){} // RVA: 0x8A5C40
         public void get_headName(){} // RVA: 0x8A5CB0
@@ -28,6 +43,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeDetection : ValueType
     {
+        public object _categories;
+        public object categoriesCount;
+        public object boundingBox;
+        public object _keypoints;
+        public object keypointsCount;
+
         // ── Methods ──
         public void get_categories(){} // RVA: 0x8A5D80
         public void get_keypoints(){} // RVA: 0x8A5DF0
@@ -35,6 +56,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeDetectionResult : ValueType
     {
+        public object _detections;
+        public object detectionsCount;
+
         // ── Methods ──
         public void AsReadOnlySpan(){} // RVA: 0x8A5E60
         public void Dispose(){} // RVA: 0x8A5ED0
@@ -42,18 +66,33 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeLandmark : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object hasVisibility;
+        public object visibility;
+        public object hasPresence;
+        public object presence;
+        public object _name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x8A5F40
     }
 
     public class NativeLandmarks : ValueType
     {
+        public object _landmarks;
+        public object landmarksCount;
+
         // ── Methods ──
         public void AsReadOnlySpan(){} // RVA: 0x8A5F60
     }
 
     public class NativeLandmarksArray : ValueType
     {
+        public object _data;
+        public object size;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x8A6040
         public void AsReadOnlySpan(){} // RVA: 0x8A6050
@@ -61,24 +100,45 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NativeNormalizedKeypoint : ValueType
     {
+        public object x;
+        public object y;
+        public object _label;
+        public object score;
+        public object hasScore;
+
         // ── Methods ──
         public void get_label(){} // RVA: 0x8A5F30
     }
 
     public class NativeNormalizedLandmark : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object hasVisibility;
+        public object visibility;
+        public object hasPresence;
+        public object presence;
+        public object _name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x8A5F50
     }
 
     public class NativeNormalizedLandmarks : ValueType
     {
+        public object _landmarks;
+        public object landmarksCount;
+
         // ── Methods ──
         public void AsReadOnlySpan(){} // RVA: 0x8A5FD0
     }
 
     public class NativeNormalizedLandmarksArray : ValueType
     {
+        public object _data;
+        public object size;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x8A60C0
         public void AsReadOnlySpan(){} // RVA: 0x8A60D0
@@ -86,6 +146,25 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmark : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object XFieldNumber;
+        public object XDefaultValue;
+        public object x_;
+        public object YFieldNumber;
+        public object YDefaultValue;
+        public object y_;
+        public object ZFieldNumber;
+        public object ZDefaultValue;
+        public object z_;
+        public object VisibilityFieldNumber;
+        public object VisibilityDefaultValue;
+        public object visibility_;
+        public object PresenceFieldNumber;
+        public object PresenceDefaultValue;
+        public object presence_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658D5E0
         public void get_Descriptor(){} // RVA: 0x658D640
@@ -125,6 +204,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmarkList : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object LandmarkFieldNumber;
+        public object _repeated_landmark_codec;
+        public object landmark_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658E5B0
         public void get_Descriptor(){} // RVA: 0x658E610
@@ -145,6 +230,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedLandmarkListCollection : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_landmarkList_codec;
+        public object landmarkList_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658F520
         public void get_Descriptor(){} // RVA: 0x658F580
@@ -165,6 +255,28 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class NormalizedRect : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object XCenterFieldNumber;
+        public object XCenterDefaultValue;
+        public object xCenter_;
+        public object YCenterFieldNumber;
+        public object YCenterDefaultValue;
+        public object yCenter_;
+        public object HeightFieldNumber;
+        public object HeightDefaultValue;
+        public object height_;
+        public object WidthFieldNumber;
+        public object WidthDefaultValue;
+        public object width_;
+        public object RotationFieldNumber;
+        public object RotationDefaultValue;
+        public object rotation_;
+        public object RectIdFieldNumber;
+        public object RectIdDefaultValue;
+        public object rectId_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x659A520
         public void get_Descriptor(){} // RVA: 0x659A580

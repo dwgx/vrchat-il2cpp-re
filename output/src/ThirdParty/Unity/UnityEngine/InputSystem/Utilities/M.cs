@@ -25,7 +25,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
         public void ReadMultipleBitsAsNormalizedUInt(){} // RVA: 0x782FAE0
         public void WriteNormalizedUIntAsMultipleBits(){} // RVA: 0x782FB50
         public void SetBitsInBuffer(){} // RVA: 0x782FBC0
-        public void Swap(){} // RVA: 0x3161630
+        public void Swap(){} // RVA: 0x8945C0
         public void AlignNatural(){} // RVA: 0x782FE50
     }
 

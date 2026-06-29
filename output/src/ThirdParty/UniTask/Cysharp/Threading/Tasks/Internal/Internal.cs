@@ -1,20 +1,26 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
-// Classes: 69
-// Methods: 385
+// Classes: 68
+// Methods: 383
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 {
     public class ArrayPoolUtil : Object
     {
         // ── Methods ──
-        public void Materialize(){} // RVA: 0x2F7E930
-        public void EnsureCapacity(){} // RVA: 0x2F7D670
+        public void Materialize(){} // RVA: 0xA94080
+        public void EnsureCapacity(){} // RVA: 0x894650
         public void EnsureCapacityCore(){} // RVA: 0x894650
     }
 
     public class ArrayPool`1 : Object
     {
+        public object DefaultMaxNumberOfArraysPerBucket;
+        public object EmptyArray;
+        public object Shared;
+        public object buckets;
+        public object locks;
+
         // ── Methods ──
         public void Return(){} // RVA: 0x43D5490
         public void Rent(){} // RVA: 0x43D51A0
@@ -26,6 +32,29 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ArrayPool`1 : Object
     {
+        public object DefaultMaxNumberOfArraysPerBucket;
+        public object EmptyArray;
+        public object Shared;
+        public object buckets;
+        public object locks;
+
+        // ── Methods ──
+        public void Return(){} // RVA: 0x43D5490
+        public void Rent(){} // RVA: 0x43D51A0
+        public void .ctor(){} // RVA: 0x43D4EF0
+        public void CalculateSize(){} // RVA: 0x43D4120
+        public void GetQueueIndex(){} // RVA: 0x43D4160
+        public void .cctor(){} // RVA: 0x43D5680
+    }
+
+    public class ArrayPool`1 : Object
+    {
+        public object DefaultMaxNumberOfArraysPerBucket;
+        public object EmptyArray;
+        public object Shared;
+        public object buckets;
+        public object locks;
+
         // ── Methods ──
         public void Rent(){} // RVA: 0x43D5B80
         public void .ctor(){} // RVA: 0x43D58D0
@@ -37,13 +66,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ArrayPool`1 : Object
     {
-        // ── Methods ──
-        public void Return(){} // RVA: 0x43D5490
-        public void Rent(){} // RVA: 0x43D51A0
-    }
+        public object DefaultMaxNumberOfArraysPerBucket;
+        public object EmptyArray;
+        public object Shared;
+        public object buckets;
+        public object locks;
 
-    public class ArrayPool`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Rent(){} // RVA: 0x87C160
@@ -51,17 +79,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
         public void CalculateSize(){} // RVA: 0x883700
         public void GetQueueIndex(){} // RVA: 0x883700
         public void .cctor(){} // RVA: 0x8942F0
-    }
-
-    public class ArrayPool`1 : Object
-    {
-        // ── Methods ──
-        public void Return(){} // RVA: 0x43D5490
-        public void Rent(){} // RVA: 0x43D51A0
-        public void .ctor(){} // RVA: 0x43D4EF0
-        public void CalculateSize(){} // RVA: 0x43D4120
-        public void GetQueueIndex(){} // RVA: 0x43D4160
-        public void .cctor(){} // RVA: 0x43D5680
     }
 
     public class ArrayUtil : Object
@@ -74,6 +91,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class AsyncSubject`1 : Object
     {
+        public object observerLock;
+        public object lastValue;
+        public object hasValue;
+        public object isStopped;
+        public object isDisposed;
+        public object lastError;
+        public object outObserver;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xA94080
         public void get_HasObservers(){} // RVA: 0x87D280
@@ -89,6 +114,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ContinuationQueue : Object
     {
+        public object MaxArrayLength;
+        public object InitialSize;
+        public object timing;
+        public object gate;
+        public object dequing;
+        public object actionListCount;
+        public object actionList;
+        public object waitingListCount;
+        public object waitingList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77BA5E0
         public void Enqueue(){} // RVA: 0x77BA710
@@ -135,6 +170,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class DiagnosticsExtensions : Object
     {
+        public object displayFilenames;
+        public object typeBeautifyRegex;
+        public object builtInTypeNames;
+
         // ── Methods ──
         public void CleanupAsyncStackTrace(){} // RVA: 0x77BB190
         public void IsAsync(){} // RVA: 0x77BB990
@@ -147,6 +186,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class DisposedObserver`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void OnCompleted(){} // RVA: 0x894290
@@ -157,6 +198,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class EmptyDisposable : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Dispose(){} // RVA: 0xB43310
@@ -165,6 +208,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class EmptyObserver`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void OnCompleted(){} // RVA: 0x894290
@@ -190,6 +235,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ImmutableList`1 : Object
     {
+        public object Empty;
+        public object data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x87C0A0
         public void .ctor(){} // RVA: 0x894320
@@ -201,6 +249,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ListObserver`1 : Object
     {
+        public object _observers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void OnCompleted(){} // RVA: 0x894290
@@ -212,6 +262,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
+        public object MinimumGrow;
+        public object GrowFactor;
+        public object array;
+        public object head;
+        public object tail;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void get_Count(){} // RVA: 0x87C130
@@ -226,6 +283,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
+        public object MinimumGrow;
+        public object GrowFactor;
+        public object array;
+        public object head;
+        public object tail;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46CAC70
         public void get_Count(){} // RVA: 0xFEAE90
@@ -240,6 +304,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
+        public object MinimumGrow;
+        public object GrowFactor;
+        public object array;
+        public object head;
+        public object tail;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46CAC70
         public void get_Count(){} // RVA: 0xFEAE90
@@ -254,6 +325,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
+        public object MinimumGrow;
+        public object GrowFactor;
+        public object array;
+        public object head;
+        public object tail;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46CAC70
         public void get_Count(){} // RVA: 0xFEAE90
@@ -268,6 +346,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class MinimumQueue`1 : Object
     {
+        public object MinimumGrow;
+        public object GrowFactor;
+        public object array;
+        public object head;
+        public object tail;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46CAC70
         public void get_Count(){} // RVA: 0xFEAE90
@@ -342,6 +427,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class PlayerLoopRunner : Object
     {
+        public object InitialSize;
+        public object timing;
+        public object runningAndQueueLock;
+        public object arrayLock;
+        public object unhandledExceptionCallback;
+        public object tail;
+        public object running;
+        public object loopItems;
+        public object waitQueue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77BDB40
         public void AddAction(){} // RVA: 0x77BDED0
@@ -388,6 +483,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class PooledDelegate`1 : Object
     {
+        public object pool;
+        public object nextNode;
+        public object runDelegate;
+        public object continuation;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x4866080
         public void get_NextNode(){} // RVA: 0x4865E00
@@ -398,6 +498,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class PooledDelegate`1 : Object
     {
+        public object pool;
+        public object nextNode;
+        public object runDelegate;
+        public object continuation;
+
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x87C0A0
         public void .cctor(){} // RVA: 0x8942F0
@@ -409,12 +514,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
     public class RuntimeHelpersAbstraction : Object
     {
         // ── Methods ──
-        public void IsWellKnownNoReferenceContainsType(){} // RVA: 0x29A52C0
+        public void IsWellKnownNoReferenceContainsType(){} // RVA: 0x87D2E0
         public void WellKnownNoReferenceContainsTypeInitialize(){} // RVA: 0x77BEC70
     }
 
     public class SingleAssignmentDisposable : Object
     {
+        public object gate;
+        public object current;
+        public object disposed;
+
         // ── Methods ──
         public void get_IsDisposed(){} // RVA: 0x75BFD90
         public void get_Disposable(){} // RVA: 0xB465B0
@@ -425,6 +534,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`1 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DDF40
         public void Return(){} // RVA: 0x4B4CB90
@@ -433,6 +544,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`1 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0xA94080
         public void Return(){} // RVA: 0x894350
@@ -441,6 +554,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`1 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DDA40
         public void Return(){} // RVA: 0x4B4C9A0
@@ -449,6 +564,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`1 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DDF40
         public void Return(){} // RVA: 0x4B4CB90
@@ -457,6 +574,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`2 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DE440
         public void Return(){} // RVA: 0x4B4D360
@@ -465,6 +584,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`2 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DE440
         public void Return(){} // RVA: 0x4B4D360
@@ -473,30 +594,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`2 : Object
     {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x29DE440
-        public void Return(){} // RVA: 0x4B4D360
-        public void .cctor(){} // RVA: 0x4B4D450
-    }
+        public object queue;
 
-    public class StatePool`2 : Object
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0xA94080
-        public void Return(){} // RVA: 0x894350
-        public void .cctor(){} // RVA: 0x8942F0
-    }
-
-    public class StatePool`2 : Object
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x29DE440
-        public void Return(){} // RVA: 0x4B4D360
-        public void .cctor(){} // RVA: 0x4B4D450
-    }
-
-    public class StatePool`2 : Object
-    {
         // ── Methods ──
         public void Create(){} // RVA: 0x29DEAA0
         public void Return(){} // RVA: 0x4B4D680
@@ -505,6 +604,38 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`2 : Object
     {
+        public object queue;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x29DE440
+        public void Return(){} // RVA: 0x4B4D360
+        public void .cctor(){} // RVA: 0x4B4D450
+    }
+
+    public class StatePool`2 : Object
+    {
+        public object queue;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0xA94080
+        public void Return(){} // RVA: 0x894350
+        public void .cctor(){} // RVA: 0x8942F0
+    }
+
+    public class StatePool`2 : Object
+    {
+        public object queue;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x29DE440
+        public void Return(){} // RVA: 0x4B4D360
+        public void .cctor(){} // RVA: 0x4B4D450
+    }
+
+    public class StatePool`2 : Object
+    {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DE440
         public void Return(){} // RVA: 0x4B4D360
@@ -513,6 +644,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DF7A0
         public void Return(){} // RVA: 0x4B4E340
@@ -521,6 +654,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DF7A0
         public void Return(){} // RVA: 0x4B4E340
@@ -529,6 +664,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DF7A0
         public void Return(){} // RVA: 0x4B4E340
@@ -537,6 +674,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x29DF470
         public void Return(){} // RVA: 0x4B4E120
@@ -545,6 +684,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StatePool`3 : Object
     {
+        public object queue;
+
         // ── Methods ──
         public void Create(){} // RVA: 0xA94080
         public void Return(){} // RVA: 0x894350
@@ -559,14 +700,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`1 : Object
     {
-        // ── Methods ──
-        public void Deconstruct(){} // RVA: 0x4B4F2A0
-        public void Dispose(){} // RVA: 0x4B4F300
-        public void .ctor(){} // RVA: 0xB43310
-    }
+        public object Item1;
 
-    public class StateTuple`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4F2A0
@@ -575,6 +710,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`1 : Object
     {
+        public object Item1;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x894320
         public void Dispose(){} // RVA: 0x894290
@@ -583,14 +720,29 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`1 : Object
     {
+        public object Item1;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4EF60
         public void Dispose(){} // RVA: 0x4B4EFC0
     }
 
+    public class StateTuple`1 : Object
+    {
+        public object Item1;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Deconstruct(){} // RVA: 0x4B4F2A0
+        public void Dispose(){} // RVA: 0x4B4F300
+    }
+
     public class StateTuple`2 : Object
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4F750
@@ -599,6 +751,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4F750
@@ -607,6 +762,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Deconstruct(){} // RVA: 0x4B4FB30
+        public void Dispose(){} // RVA: 0x4B4FBF0
+    }
+
+    public class StateTuple`2 : Object
+    {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4F750
@@ -615,14 +784,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
-        // ── Methods ──
-        public void Deconstruct(){} // RVA: 0x4B4F750
-        public void Dispose(){} // RVA: 0x4B4F800
-        public void .ctor(){} // RVA: 0xB43310
-    }
+        public object Item1;
+        public object Item2;
 
-    public class StateTuple`2 : Object
-    {
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x8943B0
         public void Dispose(){} // RVA: 0x894290
@@ -631,6 +795,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B4F750
@@ -639,30 +806,21 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`2 : Object
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Deconstruct(){} // RVA: 0x4B4FB30
-        public void Dispose(){} // RVA: 0x4B4FBF0
+        public void Deconstruct(){} // RVA: 0x4B4F750
+        public void Dispose(){} // RVA: 0x4B4F800
     }
 
     public class StateTuple`3 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Deconstruct(){} // RVA: 0x4B50560
-        public void Dispose(){} // RVA: 0x4B50640
-    }
+        public object Item1;
+        public object Item2;
+        public object Item3;
 
-    public class StateTuple`3 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Deconstruct(){} // RVA: 0x4B50560
-        public void Dispose(){} // RVA: 0x4B50640
-    }
-
-    public class StateTuple`3 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B50560
@@ -671,6 +829,34 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`3 : Object
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Deconstruct(){} // RVA: 0x4B50560
+        public void Dispose(){} // RVA: 0x4B50640
+    }
+
+    public class StateTuple`3 : Object
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Deconstruct(){} // RVA: 0x4B50560
+        public void Dispose(){} // RVA: 0x4B50640
+    }
+
+    public class StateTuple`3 : Object
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Deconstruct(){} // RVA: 0x4B50360
@@ -679,6 +865,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class StateTuple`3 : Object
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x8954D0
         public void Dispose(){} // RVA: 0x894290
@@ -687,6 +877,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ThrowObserver`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void OnCompleted(){} // RVA: 0x894290
@@ -697,6 +889,33 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class UnityEqualityComparer : Object
     {
+        public object Vector2;
+        public object Vector3;
+        public object Vector4;
+        public object Color;
+        public object Color32;
+        public object Rect;
+        public object Bounds;
+        public object Quaternion;
+        public object vector2Type;
+        public object vector3Type;
+        public object vector4Type;
+        public object colorType;
+        public object color32Type;
+        public object rectType;
+        public object boundsType;
+        public object quaternionType;
+        public object Vector2Int;
+        public object Vector3Int;
+        public object RangeInt;
+        public object RectInt;
+        public object BoundsInt;
+        public object vector2IntType;
+        public object vector3IntType;
+        public object rangeIntType;
+        public object rectIntType;
+        public object boundsIntType;
+
         // ── Methods ──
         public void GetDefault(){} // RVA: 0x87C0D0
         public void GetDefaultHelper(){} // RVA: 0x77BF110
@@ -711,6 +930,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class ValueStopwatch : ValueType
     {
+        public object TimestampToTicks;
+        public object startTimestamp;
+
         // ── Methods ──
         public void StartNew(){} // RVA: 0x77C0DA0
         public void .ctor(){} // RVA: 0x93050
@@ -722,6 +944,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Internal
 
     public class WeakDictionary`2 : Object
     {
+        public object buckets;
+        public object size;
+        public object gate;
+        public object loadFactor;
+        public object keyEqualityComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x897F80
         public void TryAdd(){} // RVA: 0xA94080

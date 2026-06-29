@@ -1,904 +1,1384 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 400
+// Methods: 220
 
-public class _ClearOverlayTexture : MulticastDelegate
+public class <<InternalWriteEndAsync>g__AwaitEnd|11_2>d : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object LevelsToComplete;
+    public object CancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x22334F0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C80
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4EF0
+    public void SetStateMachine(){} // RVA: 0x8C4F00
 }
 
-public class _Close : MulticastDelegate
+public class <<InternalWriteEndAsync>g__AwaitIndent|11_1>d : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object token;
+    public object CancellationToken;
+    public object LevelsToComplete;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x22334F0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C80
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4F60
+    public void SetStateMachine(){} // RVA: 0x8C4F70
 }
 
-public class _CloseMessageOverlay : MulticastDelegate
+public class <<InternalWriteEndAsync>g__AwaitProperty|11_0>d : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object CancellationToken;
+    public object token;
+    public object LevelsToComplete;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void MoveNext(){} // RVA: 0x8C4FD0
+    public void SetStateMachine(){} // RVA: 0x8C4FE0
 }
 
-public class _ComputeOverlayIntersection : MulticastDelegate
+public class <<InternalWriteEndAsync>g__AwaitRemaining|11_3>d : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object CancellationToken;
+    public object LevelsToComplete;
+    public object <token>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52070
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C52140
-    public void EndInvoke(){} // RVA: 0x6C4A850
+    public void MoveNext(){} // RVA: 0x8C5040
+    public void SetStateMachine(){} // RVA: 0x8C5050
 }
 
-public class _CreateDashboardOverlay : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__27_0;
+    public object <>9__27_1;
+    public object <>9__27_2;
+    public object <>9__28_0;
+    public object <>9__28_1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52C50
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C52D40
-    public void EndInvoke(){} // RVA: 0x28B0CD0
+    public void .cctor(){} // RVA: 0x6A1F5F0
+    public void .ctor(){} // RVA: 0xB43310
+    public void <.ctor>b__27_0(){} // RVA: 0x1CB3B00
+    public void <.ctor>b__27_1(){} // RVA: 0xB43320
+    public void <.ctor>b__27_2(){} // RVA: 0x6A1F690
+    public void <GetRequiredProperties>b__28_0(){} // RVA: 0x6A1F6B0
+    public void <GetRequiredProperties>b__28_1(){} // RVA: 0x6A1F700
 }
 
-public class _CreateNotification : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__50_0;
+    public object <>9__50_1;
+    public object <>9__50_2;
+    public object <>9__51_0;
+    public object <>9__51_1;
+    public object <>9__51_2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53F10
-    public void Invoke(){} // RVA: 0x3E3F640
-    public void BeginInvoke(){} // RVA: 0x6C53FE0
-    public void EndInvoke(){} // RVA: 0x28B0CD0
+    public void .cctor(){} // RVA: 0x6A1F740
+    public void .ctor(){} // RVA: 0xB43310
+    public void <WriteToken>b__50_0(){} // RVA: 0x6A1F7E0
+    public void <WriteToken>b__50_1(){} // RVA: 0x6A1F690
+    public void <WriteToken>b__50_2(){} // RVA: 0x6A1F7E0
+    public void <ValidateEndObject>b__51_0(){} // RVA: 0x18AF640
+    public void <ValidateEndObject>b__51_1(){} // RVA: 0x6A1F800
+    public void <ValidateEndObject>b__51_2(){} // RVA: 0x6A1F840
 }
 
-public class _DecompressSkeletalBoneData : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__5_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4D570
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C55EB0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .cctor(){} // RVA: 0x6A30DF0
+    public void .ctor(){} // RVA: 0xB43310
+    public void <FromCanceled>b__5_0(){} // RVA: 0xB43310
 }
 
-public class _FreeRenderModel : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__29_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x26E1500
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x22335C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <GetEnumerator>b__29_0(){} // RVA: 0xA94080
 }
 
-public class _FreeTexture : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__18_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x26E1500
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x22335C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <GetArgs>b__18_0(){} // RVA: 0x87C540
 }
 
-public class _FreeTextureD3D11 : MulticastDelegate
+public class <>c : Object
 {
+    public object <>9;
+    public object <>9__3_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x26E1500
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x22335C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void .cctor(){} // RVA: 0x6A43820
+    public void .ctor(){} // RVA: 0xB43310
+    public void <InitializeValuesAndNames>b__3_0(){} // RVA: 0x14C7BC0
 }
 
-public class _GetActionHandle : MulticastDelegate
+public class <>c__1`1 : Object
 {
+    public object <>9;
+    public object <>9__1_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DC60
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4FFA0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <EnsureType>b__1_0(){} // RVA: 0x894290
 }
 
-public class _GetActionOrigins : MulticastDelegate
+public class <>c__2`1 : Object
 {
+    public object <>9;
+    public object <>9__2_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C517F0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C56160
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <EnsureList>b__2_0(){} // RVA: 0x894290
 }
 
-public class _GetActionSetHandle : MulticastDelegate
+public class <>c__3`2 : Object
 {
+    public object <>9;
+    public object <>9__3_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DC60
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4FFA0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <EnsureDictionary>b__3_0(){} // RVA: 0x894290
 }
 
-public class _GetAnalogActionData : MulticastDelegate
+public class <>c__6`1 : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C50050
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C55740
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <FromCanceled>b__6_0(){} // RVA: 0xA94080
 }
 
-public class _GetBool : MulticastDelegate
+public class <>c__DisplayClass10_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object arg;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54980
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C54A70
-    public void EndInvoke(){} // RVA: 0x6C4A640
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindBinaryOperation>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetComponentButtonMask : MulticastDelegate
+public class <>c__DisplayClass11_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53850
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0x28BB5D0
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindUnaryOperation>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetComponentCount : MulticastDelegate
+public class <>c__DisplayClass12_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object indexes;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4F6EBF0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindGetIndex>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetComponentName : MulticastDelegate
+public class <>c__DisplayClass13_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object indexes;
+    public object value;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4F160
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C4F250
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindSetIndex>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetComponentRenderModelName : MulticastDelegate
+public class <>c__DisplayClass14_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object indexes;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DB10
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C4DC00
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindDeleteIndex>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetComponentState : MulticastDelegate
+public class <>c__DisplayClass18_0 : Object
 {
+    public object postAllowListSentence;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53940
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C53B10
-    public void EndInvoke(){} // RVA: 0x6C53C00
+    public void .ctor(){} // RVA: 0xB43310
+    public void <AddMultiWordProfanities>b__0(){} // RVA: 0xCD2340
 }
 
-public class _GetComponentStateForDevicePath : MulticastDelegate
+public class <>c__DisplayClass3_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53940
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C53A30
-    public void EndInvoke(){} // RVA: 0x6C4A850
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindGetMember>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetDashboardOverlaySceneProcess : MulticastDelegate
+public class <>c__DisplayClass4_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object value;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C50CC0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindSetMember>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetDigitalActionData : MulticastDelegate
+public class <>c__DisplayClass5_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C50050
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C55670
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindDeleteMember>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetDriverCount : MulticastDelegate
+public class <>c__DisplayClass6_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x35A73E0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindConvert>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetDriverHandle : MulticastDelegate
+public class <>c__DisplayClass7_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object args;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4F6ECE0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0x28BB5D0
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindInvokeMember>b__0(){} // RVA: 0x87C540
+    public void <BindInvokeMember>b__1(){} // RVA: 0x87C540
 }
 
-public class _GetDriverName : MulticastDelegate
+public class <>c__DisplayClass8_0 : Object
 {
+    public object swearList;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4D9C0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C4DA90
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DetectAllProfanities>b__0(){} // RVA: 0xCD2480
 }
 
-public class _GetFloat : MulticastDelegate
+public class <>c__DisplayClass8_0 : Object
 {
+    public object call;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54BB0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C54CA0
-    public void EndInvoke(){} // RVA: 0x6C4B210
+    public void .ctor(){} // RVA: 0xB43310
+    public void <CreateCastConverter>b__0(){} // RVA: 0x6A3A1F0
 }
 
-public class _GetGamepadFocusOverlay : MulticastDelegate
+public class <>c__DisplayClass8_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object args;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x23F1BA0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0x28BB5D0
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindCreateInstance>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetInputSourceHandle : MulticastDelegate
+public class <>c__DisplayClass8_1 : Object
 {
+    public object x;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DC60
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4FFA0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DetectAllProfanities>b__1(){} // RVA: 0xCD25A0
 }
 
-public class _GetInt32 : MulticastDelegate
+public class <>c__DisplayClass93_0 : Object
 {
+    public object value;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4E670
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C54B10
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void .ctor(){} // RVA: 0xB43310
+    public void <set_ReferenceResolver>b__0(){} // RVA: 0xB5DBF0
 }
 
-public class _GetKeyboardText : MulticastDelegate
+public class <>c__DisplayClass9_0 : Object
 {
+    public object binder;
+    public object <>4__this;
+    public object args;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4E4A0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4E590
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void .ctor(){} // RVA: 0x894290
+    public void <BindInvoke>b__0(){} // RVA: 0x87C540
 }
 
-public class _GetOriginLocalizedName : MulticastDelegate
+public class <AutoCompleteAsync>d__1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4FDD0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C56200
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C5560
+    public void SetStateMachine(){} // RVA: 0x8C5570
 }
 
-public class _GetOriginTrackedDeviceInfo : MulticastDelegate
+public class <CloseBufferAndWriterAsync>d__9 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4FDD0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C56280
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4630
+    public void SetStateMachine(){} // RVA: 0x8C4640
 }
 
-public class _GetOverlayDualAnalogTransform : MulticastDelegate
+public class <DoCloseAsync>d__8 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C524C0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C52590
-    public void EndInvoke(){} // RVA: 0x28B0CD0
+    public void MoveNext(){} // RVA: 0x8C46A0
+    public void SetStateMachine(){} // RVA: 0x8C46B0
 }
 
-public class _GetOverlayFlags : MulticastDelegate
+public class <DoReadAsBooleanAsync>d__40 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <i>5__2;
+    public object <isTrue>5__3;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C50CC0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3300
+    public void SetStateMachine(){} // RVA: 0x8C3310
 }
 
-public class _GetOverlayMouseScale : MulticastDelegate
+public class <DoReadAsBytesAsync>d__42 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <isWrapped>5__2;
+    public object <>u__1;
+    public object <data>5__3;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C51F30
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3380
+    public void SetStateMachine(){} // RVA: 0x8C3390
 }
 
-public class _GetOverlayTexture : MulticastDelegate
+public class <DoReadAsDateTimeAsync>d__45 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C528A0
-    public void Invoke(){} // RVA: 0x3E3F960
-    public void BeginInvoke(){} // RVA: 0x6C52970
-    public void EndInvoke(){} // RVA: 0x6C52AE0
+    public void MoveNext(){} // RVA: 0x8C3400
+    public void SetStateMachine(){} // RVA: 0x8C3410
 }
 
-public class _GetOverlayTextureSize : MulticastDelegate
+public class <DoReadAsDateTimeOffsetAsync>d__47 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C50EA0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C52BC0
-    public void EndInvoke(){} // RVA: 0x28B0CD0
+    public void MoveNext(){} // RVA: 0x8C3480
+    public void SetStateMachine(){} // RVA: 0x8C3490
 }
 
-public class _GetPoseActionData : MulticastDelegate
+public class <DoReadAsDecimalAsync>d__49 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C55810
-    public void Invoke(){} // RVA: 0x6C558E0
-    public void BeginInvoke(){} // RVA: 0x6C55900
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3500
+    public void SetStateMachine(){} // RVA: 0x8C3510
 }
 
-public class _GetPrimaryDashboardDevice : MulticastDelegate
+public class <DoReadAsDoubleAsync>d__51 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x35A73E0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3580
+    public void SetStateMachine(){} // RVA: 0x8C3590
 }
 
-public class _GetRenderModelCount : MulticastDelegate
+public class <DoReadAsInt32Async>d__53 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x35A73E0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3600
+    public void SetStateMachine(){} // RVA: 0x8C3610
 }
 
-public class _GetRenderModelErrorNameFromEnum : MulticastDelegate
+public class <DoReadAsStringAsync>d__55 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E2D8E0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x6C53E90
-    public void EndInvoke(){} // RVA: 0x28BB5D0
+    public void MoveNext(){} // RVA: 0x8C3680
+    public void SetStateMachine(){} // RVA: 0x8C3690
 }
 
-public class _GetRenderModelName : MulticastDelegate
+public class <DoReadAsync>d__3 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4D9C0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C4DA90
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3700
+    public void SetStateMachine(){} // RVA: 0x8C3710
 }
 
-public class _GetRenderModelOriginalPath : MulticastDelegate
+public class <DoWriteCommentAsync>d__115 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object text;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53C40
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C53DE0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4710
+    public void SetStateMachine(){} // RVA: 0x8C4720
 }
 
-public class _GetRenderModelThumbnailURL : MulticastDelegate
+public class <DoWritePropertyNameAsync>d__30 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object name;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53C40
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C53D30
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4780
+    public void SetStateMachine(){} // RVA: 0x8C4790
 }
 
-public class _GetResourceFullPath : MulticastDelegate
+public class <DoWritePropertyNameAsync>d__32 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object name;
+    public object cancellationToken;
+    public object escape;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DB10
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C4DC00
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C47F0
+    public void SetStateMachine(){} // RVA: 0x8C4800
 }
 
-public class _GetScreenshotPropertyFilename : MulticastDelegate
+public class <DoWriteRawValueAsync>d__121 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object json;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4B970
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C552C0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4860
+    public void SetStateMachine(){} // RVA: 0x8C4870
 }
 
-public class _GetScreenshotPropertyType : MulticastDelegate
+public class <DoWriteStartArrayAsync>d__35 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E37DD0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C55220
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C48D0
+    public void SetStateMachine(){} // RVA: 0x8C48E0
 }
 
-public class _GetSettingsErrorNameFromEnum : MulticastDelegate
+public class <DoWriteStartConstructorAsync>d__40 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object name;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E2D8E0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x6C54110
-    public void EndInvoke(){} // RVA: 0x28BB5D0
+    public void MoveNext(){} // RVA: 0x8C4940
+    public void SetStateMachine(){} // RVA: 0x8C4950
 }
 
-public class _GetSkeletalActionData : MulticastDelegate
+public class <DoWriteStartObjectAsync>d__38 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C50050
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C55A10
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C49B0
+    public void SetStateMachine(){} // RVA: 0x8C49C0
 }
 
-public class _GetSkeletalBoneData : MulticastDelegate
+public class <DoWriteUndefinedAsync>d__43 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C55AE0
-    public void Invoke(){} // RVA: 0x3E3F4B0
-    public void BeginInvoke(){} // RVA: 0x6C55BB0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4A20
+    public void SetStateMachine(){} // RVA: 0x8C4A30
 }
 
-public class _GetSkeletalBoneDataCompressed : MulticastDelegate
+public class <DoWriteValueAsync>d__60 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object value;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C55CB0
-    public void Invoke(){} // RVA: 0x3E3F640
-    public void BeginInvoke(){} // RVA: 0x6C55D80
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4A90
+    public void SetStateMachine(){} // RVA: 0x8C4AA0
 }
 
-public class _GetString : MulticastDelegate
+public class <DoWriteValueAsync>d__64 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object value;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54D40
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C54E30
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C4B00
+    public void SetStateMachine(){} // RVA: 0x8C4B10
 }
 
-public class _HideKeyboard : MulticastDelegate
+public class <DoWriteValueAsync>d__78 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object value;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void MoveNext(){} // RVA: 0x8C4B70
+    public void SetStateMachine(){} // RVA: 0x8C4B80
 }
 
-public class _HookScreenshot : MulticastDelegate
+public class <DoWriteValueAsync>d__97 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object value;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4E4A0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C551C0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4BE0
+    public void SetStateMachine(){} // RVA: 0x8C4BF0
 }
 
-public class _IsActiveDashboardOverlay : MulticastDelegate
+public class <DoWriteValueAsync>d__99 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object value;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E35670
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C80
-    public void EndInvoke(){} // RVA: 0x2404860
+    public void MoveNext(){} // RVA: 0x8C4C50
+    public void SetStateMachine(){} // RVA: 0x8C4C60
 }
 
-public class _IsDashboardVisible : MulticastDelegate
+public class <EatWhitespaceAsync>d__17 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DFF2E0
-    public void Invoke(){} // RVA: 0xBA10B0
-    public void BeginInvoke(){} // RVA: 0xBA10C0
-    public void EndInvoke(){} // RVA: 0x2404860
+    public void MoveNext(){} // RVA: 0x8C3780
+    public void SetStateMachine(){} // RVA: 0x8C3790
 }
 
-public class _IsHoverTargetOverlay : MulticastDelegate
+public class <EncodeAsync>d__13 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object buffer;
+    public object index;
+    public object count;
+    public object cancellationToken;
+    public object <num4>5__2;
+    public object <length>5__3;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E35670
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C80
-    public void EndInvoke(){} // RVA: 0x2404860
+    public void MoveNext(){} // RVA: 0x8C5790
+    public void SetStateMachine(){} // RVA: 0x8C57A0
 }
 
-public class _LoadIntoTextureD3D11_Async : MulticastDelegate
+public class <HandleNullAsync>d__35 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E37DD0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C537E0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C37F0
+    public void SetStateMachine(){} // RVA: 0x8C3800
 }
 
-public class _LoadRenderModel_Async : MulticastDelegate
+public class <InternalWriteStartAsync>d__20 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object token;
+    public object cancellationToken;
+    public object container;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4DC60
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C53670
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C55D0
+    public void SetStateMachine(){} // RVA: 0x8C55E0
 }
 
-public class _LoadSharedResource : MulticastDelegate
+public class <MatchAndSetAsync>d__21 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object value;
+    public object cancellationToken;
+    public object newToken;
+    public object tokenValue;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4E3B0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C4E350
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3860
+    public void SetStateMachine(){} // RVA: 0x8C3870
 }
 
-public class _LoadTextureD3D11_Async : MulticastDelegate
+public class <MatchValueAsync>d__19 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object value;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4F2D0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C53750
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C38D0
+    public void SetStateMachine(){} // RVA: 0x8C38E0
 }
 
-public class _LoadTexture_Async : MulticastDelegate
+public class <MatchValueWithTrailingSeparatorAsync>d__20 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object value;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E37DD0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C536D0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3950
+    public void SetStateMachine(){} // RVA: 0x8C3960
 }
 
-public class _MoveGamepadFocusToNeighbor : MulticastDelegate
+public class <MoveToContentFromNonContentAsync>d__14 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E37DD0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C522A0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C2F70
+    public void SetStateMachine(){} // RVA: 0x8C2F80
 }
 
-public class _Open : MulticastDelegate
+public class <ParseCommentAsync>d__16 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object setToken;
+    public object <singlelineComment>5__2;
+    public object <initialPosition>5__3;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C56520
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C56610
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C39D0
+    public void SetStateMachine(){} // RVA: 0x8C39E0
 }
 
-public class _Read : MulticastDelegate
+public class <ParseConstructorAsync>d__25 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <initialPosition>5__2;
+    public object <endPosition>5__3;
+    public object <constructorName>5__4;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C50050
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C566E0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3A40
+    public void SetStateMachine(){} // RVA: 0x8C3A50
 }
 
-public class _ReleaseNativeOverlayHandle : MulticastDelegate
+public class <ParseNumberAsync>d__29 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object readType;
+    public object <firstChar>5__2;
+    public object <initialPosition>5__3;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C52B50
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3AB0
+    public void SetStateMachine(){} // RVA: 0x8C3AC0
 }
 
-public class _RemoveKeyInSection : MulticastDelegate
+public class <ParseNumberNaNAsync>d__26 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object readType;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>7__wrap1;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1A4CFC0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C54F80
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C3B20
+    public void SetStateMachine(){} // RVA: 0x8C3B30
 }
 
-public class _RemoveNotification : MulticastDelegate
+public class <ParseNumberNegativeInfinityAsync>d__28 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object readType;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>7__wrap1;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E2D9B0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C20
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3BA0
+    public void SetStateMachine(){} // RVA: 0x8C3BB0
 }
 
-public class _RemoveSection : MulticastDelegate
+public class <ParseNumberPositiveInfinityAsync>d__27 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object readType;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>7__wrap1;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2697880
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C54EF0
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C3C20
+    public void SetStateMachine(){} // RVA: 0x8C3C30
 }
 
-public class _RenderModelHasComponent : MulticastDelegate
+public class <ParseObjectAsync>d__15 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4F34F40
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0x2404860
+    public void MoveNext(){} // RVA: 0x8C3CA0
+    public void SetStateMachine(){} // RVA: 0x8C3CB0
 }
 
-public class _RequestScreenshot : MulticastDelegate
+public class <ParsePostValueAsync>d__4 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object ignoreComments;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C55020
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C55110
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C3D20
+    public void SetStateMachine(){} // RVA: 0x8C3D30
 }
 
-public class _SetActionManifestPath : MulticastDelegate
+public class <ParsePropertyAsync>d__31 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <quoteChar>5__2;
+    public object <propertyName>5__3;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4F6EBF0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3DA0
+    public void SetStateMachine(){} // RVA: 0x8C3DB0
 }
 
-public class _SetBool : MulticastDelegate
+public class <ParseStringAsync>d__18 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object cancellationToken;
+    public object <>4__this;
+    public object quote;
+    public object readType;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54300
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C543F0
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C3E20
+    public void SetStateMachine(){} // RVA: 0x8C3E30
 }
 
-public class _SetDashboardOverlaySceneProcess : MulticastDelegate
+public class <ParseUnicodeAsync>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4D730
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C4D800
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3E90
+    public void SetStateMachine(){} // RVA: 0x8C3EA0
 }
 
-public class _SetFloat : MulticastDelegate
+public class <ParseUnquotedPropertyAsync>d__33 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <initialPosition>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54640
-    public void Invoke(){} // RVA: 0x40E51E0
-    public void BeginInvoke(){} // RVA: 0x6C54730
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C3F10
+    public void SetStateMachine(){} // RVA: 0x8C3F20
 }
 
-public class _SetGamepadFocusOverlay : MulticastDelegate
+public class <ParseValueAsync>d__8 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+    public object <>u__4;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x22334F0
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0x35A7C80
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3F80
+    public void SetStateMachine(){} // RVA: 0x8C3F90
 }
 
-public class _SetInt32 : MulticastDelegate
+public class <ProcessCarriageReturnAsync>d__11 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C544A0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C54590
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C4000
+    public void SetStateMachine(){} // RVA: 0x8C4010
 }
 
-public class _SetKeyboardPositionForOverlay : MulticastDelegate
+public class <ReadAndMoveToContentAsync>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53210
-    public void Invoke(){} // RVA: 0x3DB9B10
-    public void BeginInvoke(){} // RVA: 0x6C532E0
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void MoveNext(){} // RVA: 0x8C2FF0
+    public void SetStateMachine(){} // RVA: 0x8C3000
 }
 
-public class _SetKeyboardTransformAbsolute : MulticastDelegate
+public class <ReadArrayIntoByteArrayAsync>d__5 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <buffer>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xCA8B20
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C53160
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C3070
+    public void SetStateMachine(){} // RVA: 0x8C3080
 }
 
-public class _SetOverlayDualAnalogTransform : MulticastDelegate
+public class <ReadCharsAsync>d__14 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object relativePosition;
+    public object append;
+    public object cancellationToken;
+    public object <charsRequired>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52330
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C52400
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4070
+    public void SetStateMachine(){} // RVA: 0x8C4080
 }
 
-public class _SetOverlayFromFile : MulticastDelegate
+public class <ReadDataAsync>d__7 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object append;
+    public object charsRequired;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C502A0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C40F0
+    public void SetStateMachine(){} // RVA: 0x8C4100
 }
 
-public class _SetOverlayIntersectionMask : MulticastDelegate
+public class <ReadFinishedAsync>d__36 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53380
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C53450
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4170
+    public void SetStateMachine(){} // RVA: 0x8C4180
 }
 
-public class _SetOverlayMouseScale : MulticastDelegate
+public class <ReadFromFinishedAsync>d__5 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C51FD0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C41E0
+    public void SetStateMachine(){} // RVA: 0x8C41F0
 }
 
-public class _SetOverlayNeighbor : MulticastDelegate
+public class <ReadIntoWrappedTypeObjectAsync>d__43 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4F2D0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C52200
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4260
+    public void SetStateMachine(){} // RVA: 0x8C4270
 }
 
-public class _SetOverlayRaw : MulticastDelegate
+public class <ReadNullCharAsync>d__34 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52710
-    public void Invoke(){} // RVA: 0x3DCCA70
-    public void BeginInvoke(){} // RVA: 0x6C527E0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C42D0
+    public void SetStateMachine(){} // RVA: 0x8C42E0
 }
 
-public class _SetOverlayTexture : MulticastDelegate
+public class <ReadNumberIntoBufferAsync>d__32 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <charPos>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C52670
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C4350
+    public void SetStateMachine(){} // RVA: 0x8C4360
 }
 
-public class _SetString : MulticastDelegate
+public class <ReadNumberValueAsync>d__38 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object readType;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C547E0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C548D0
-    public void EndInvoke(){} // RVA: 0x275FED0
+    public void MoveNext(){} // RVA: 0x8C43C0
+    public void SetStateMachine(){} // RVA: 0x8C43D0
 }
 
-public class _ShowActionOrigins : MulticastDelegate
+public class <ReadStringIntoBufferAsync>d__9 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object quote;
+    public object <charPos>5__2;
+    public object <initialPosition>5__3;
+    public object <lastWritePosition>5__4;
+    public object <escapeStartPos>5__5;
+    public object <writeChar>5__6;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+    public object <anotherHighSurrogate>5__7;
+    public object <highSurrogate>5__8;
+    public object <>u__4;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6422C10
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C56330
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4440
+    public void SetStateMachine(){} // RVA: 0x8C4450
 }
 
-public class _ShowBindingsForActionSet : MulticastDelegate
+public class <ReadStringValueAsync>d__37 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object readType;
+    public object <>u__1;
+    public object <expected>5__2;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C563A0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C56490
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C44B0
+    public void SetStateMachine(){} // RVA: 0x8C44C0
 }
 
-public class _ShowDashboard : MulticastDelegate
+public class <ReaderReadAndAssertAsync>d__2 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB9DF20
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0xB44BE0
+    public void MoveNext(){} // RVA: 0x8C30F0
+    public void SetStateMachine(){} // RVA: 0x8C3100
 }
 
-public class _ShowKeyboard : MulticastDelegate
+public class <SkipAsync>d__1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object <>u__1;
+    public object <depth>5__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52DB0
-    public void Invoke(){} // RVA: 0x6C52E80
-    public void BeginInvoke(){} // RVA: 0x6C52EA0
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C3160
+    public void SetStateMachine(){} // RVA: 0x8C3170
 }
 
-public class _ShowKeyboardForOverlay : MulticastDelegate
+public class <WriteConstructorDateAsync>d__32 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object reader;
+    public object cancellationToken;
+    public object <>4__this;
+    public object <date>5__2;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C52F80
-    public void Invoke(){} // RVA: 0x6C53050
-    public void BeginInvoke(){} // RVA: 0x6C53070
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C5640
+    public void SetStateMachine(){} // RVA: 0x8C5650
 }
 
-public class _ShowMessageOverlay : MulticastDelegate
+public class <WriteIndentAsync>d__13 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object newLineLen;
+    public object currentIndentCount;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C53520
-    public void Invoke(){} // RVA: 0x3E3F4B0
-    public void BeginInvoke(){} // RVA: 0x6C53610
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4CC0
+    public void SetStateMachine(){} // RVA: 0x8C4CD0
 }
 
-public class _SubmitScreenshot : MulticastDelegate
+public class <WriteIntegerValueAsync>d__24 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object uvalue;
+    public object negative;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4CCD0
-    public void Invoke(){} // RVA: 0x14CC9D0
-    public void BeginInvoke(){} // RVA: 0x6C55550
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4D30
+    public void SetStateMachine(){} // RVA: 0x8C4D40
 }
 
-public class _Sync : MulticastDelegate
+public class <WriteTokenAsync>d__30 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object reader;
+    public object writeDateConstructorAsDate;
+    public object cancellationToken;
+    public object writeComments;
+    public object writeChildren;
+    public object <initialDepth>5__2;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C54190
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C54260
-    public void EndInvoke(){} // RVA: 0x6C4A640
+    public void MoveNext(){} // RVA: 0x8C56B0
+    public void SetStateMachine(){} // RVA: 0x8C56C0
 }
 
-public class _TakeStereoScreenshot : MulticastDelegate
+public class <WriteTokenSyncReadingAsync>d__31 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object reader;
+    public object cancellationToken;
+    public object <initialDepth>5__2;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28B0D00
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C554E0
-    public void EndInvoke(){} // RVA: 0x277B920
+    public void MoveNext(){} // RVA: 0x8C5720
+    public void SetStateMachine(){} // RVA: 0x8C5730
 }
 
-public class _TriggerHapticVibrationAction : MulticastDelegate
+public class <WriteValueInternalAsync>d__15 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object value;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C55F90
-    public void Invoke(){} // RVA: 0x6C56060
-    public void BeginInvoke(){} // RVA: 0x6C56080
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4DA0
+    public void SetStateMachine(){} // RVA: 0x8C4DB0
 }
 
-public class _UpdateActionState : MulticastDelegate
+public class <WriteValueNonNullAsync>d__54 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object cancellationToken;
+    public object value;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x68D87B0
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6C55600
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4E10
+    public void SetStateMachine(){} // RVA: 0x8C4E20
 }
 
-public class _UpdateScreenshotProgress : MulticastDelegate
+public class <WriteValueNotNullAsync>d__110 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object value;
+    public object cancellationToken;
+    public object <>u__1;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C553A0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x6C55470
-    public void EndInvoke(){} // RVA: 0x2233620
+    public void MoveNext(){} // RVA: 0x8C4E80
+    public void SetStateMachine(){} // RVA: 0x8C4E90
 }

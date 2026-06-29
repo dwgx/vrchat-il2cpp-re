@@ -14,6 +14,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class AbuseReportOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AF49E0
         public void SetPreventPeopleChooser(){} // RVA: 0x6AF4A90
@@ -38,6 +40,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class AdvancedAbuseReportOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AF4D10
         public void SetDeveloperDefinedContext(){} // RVA: 0x6AF4DC0
@@ -76,6 +80,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class ApplicationOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AF5580
         public void SetDeeplinkMessage(){} // RVA: 0x6AF5630
@@ -114,6 +120,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class AvatarEditorOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AF5CF0
         public void SetSourceOverride(){} // RVA: 0x6AF5DA0

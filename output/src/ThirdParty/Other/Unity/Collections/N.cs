@@ -7,12 +7,17 @@ namespace ThirdParty.Other.Unity.Collections
 {
     public class NativeArrayDispose : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x95F6D0
     }
 
     public class NativeArrayDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x95F730
         public void RegisterNativeArrayDisposeJobReflectionData(){} // RVA: 0x7B4B160
@@ -47,6 +52,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void Allocate(){} // RVA: 0x896080
@@ -73,6 +82,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x437A20
         public void Allocate(){} // RVA: 0x46E44D0
@@ -99,6 +112,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4313F0
         public void Allocate(){} // RVA: 0x46D7C30
@@ -125,6 +142,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x442C20
         public void Allocate(){} // RVA: 0x46F16A0
@@ -151,6 +172,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x430D80
         public void Allocate(){} // RVA: 0x46D47B0
@@ -177,6 +202,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x433FF0
         public void Allocate(){} // RVA: 0x46D80D0
@@ -203,6 +232,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x436200
         public void Allocate(){} // RVA: 0x46E04D0
@@ -229,6 +262,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x433FF0
         public void Allocate(){} // RVA: 0x46D80D0
@@ -255,18 +292,30 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
         public void .ctor(){} // RVA: 0x433AF0
@@ -293,6 +342,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x438EE0
         public void Allocate(){} // RVA: 0x46E84E0
@@ -319,6 +372,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x430DF0
         public void Allocate(){} // RVA: 0x46D6AD0
@@ -345,6 +402,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x432B50
         public void Allocate(){} // RVA: 0x46DB740
@@ -371,6 +432,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4317D0
         public void Allocate(){} // RVA: 0x46D80D0
@@ -397,6 +462,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
         public void set_Item(){} // RVA: 0x433610
@@ -423,36 +492,60 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x14790
         public void set_Item(){} // RVA: 0x430EC0
@@ -460,6 +553,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void GetSubArray(){} // RVA: 0x436F20
     }
@@ -472,6 +569,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x42EDF0
         public void .ctor(){} // RVA: 0x42EC80
@@ -498,6 +599,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x439620
         public void Allocate(){} // RVA: 0x46E98C0
@@ -524,6 +629,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x439700
         public void Allocate(){} // RVA: 0x46E9AD0
@@ -550,6 +659,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4340E0
         public void Allocate(){} // RVA: 0x46DF260
@@ -576,6 +689,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x430DF0
         public void Allocate(){} // RVA: 0x46D6AD0
@@ -602,6 +719,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x430DF0
         public void Allocate(){} // RVA: 0x46D6AD0
@@ -628,6 +749,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x440250
         public void Allocate(){} // RVA: 0x46EB1B0
@@ -654,6 +779,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeArray`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Length;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4313F0
         public void Allocate(){} // RVA: 0x46D7C30
@@ -680,12 +809,17 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeBitArrayDispose : ValueType
     {
+        public object m_BitArrayData;
+        public object m_Allocator;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x9242E0
     }
 
     public class NativeBitArrayDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9242F0
     }
@@ -738,18 +872,25 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeHashMapDispose : ValueType
     {
+        public object m_HashMapData;
+        public object m_Allocator;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924300
     }
 
     public class NativeHashMapDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924310
     }
 
     public class NativeHashMap`2 : ValueType
     {
+        public object m_Data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Dispose(){} // RVA: 0x894290
@@ -769,6 +910,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeHashMap`2 : ValueType
     {
+        public object m_Data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x443230
         public void Dispose(){} // RVA: 0x443240
@@ -788,6 +931,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeHashMap`2 : ValueType
     {
+        public object m_Data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x442F00
         public void Dispose(){} // RVA: 0x442F10
@@ -807,12 +952,16 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeListDispose : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924320
     }
 
     public class NativeListDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924360
     }
@@ -826,6 +975,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Initialize(){} // RVA: 0x895750
@@ -850,6 +1001,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x445C40
         public void Initialize(){} // RVA: 0x191460
@@ -874,6 +1027,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x445740
         public void Initialize(){} // RVA: 0x191450
@@ -898,6 +1053,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x443C70
         public void Initialize(){} // RVA: 0x1913C0
@@ -922,6 +1079,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x444710
         public void Initialize(){} // RVA: 0x1913E0
@@ -946,6 +1105,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x446D50
         public void Initialize(){} // RVA: 0x191490
@@ -970,6 +1131,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x446100
         public void Initialize(){} // RVA: 0x191470
@@ -994,6 +1157,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4472D0
         public void Initialize(){} // RVA: 0x1914A0
@@ -1018,6 +1183,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x444130
         public void Initialize(){} // RVA: 0x1913D0
@@ -1042,6 +1209,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x446620
         public void Initialize(){} // RVA: 0x191480
@@ -1066,6 +1235,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeList`1 : ValueType
     {
+        public object m_ListData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x447860
         public void Initialize(){} // RVA: 0x1914B0
@@ -1116,6 +1287,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeParallelHashMap`2 : ValueType
     {
+        public object m_HashMapData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_IsCreated(){} // RVA: 0x87D280
@@ -1127,6 +1300,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeParallelHashMap`2 : ValueType
     {
+        public object m_HashMapData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x448100
         public void get_IsCreated(){} // RVA: 0x448110
@@ -1138,6 +1313,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeParallelMultiHashMap`2 : ValueType
     {
+        public object m_MultiHashMapData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Initialize(){} // RVA: 0x895750
@@ -1152,6 +1329,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeParallelMultiHashMap`2 : ValueType
     {
+        public object m_MultiHashMapData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4481A0
         public void Initialize(){} // RVA: 0x1914C0
@@ -1166,18 +1345,24 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeQueueDispose : ValueType
     {
+        public object m_QueueData;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924370
     }
 
     public class NativeQueueDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9243B0
     }
 
     public class NativeQueue`1 : ValueType
     {
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Enqueue(){} // RVA: 0xA94080
@@ -1190,6 +1375,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeQueue`1 : ValueType
     {
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x448520
         public void Enqueue(){} // RVA: 0x448530
@@ -1202,6 +1389,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeQueue`1 : ValueType
     {
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x448660
         public void Enqueue(){} // RVA: 0x448670
@@ -1214,6 +1403,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeQueue`1 : ValueType
     {
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x448B70
         public void Enqueue(){} // RVA: 0x448B80
@@ -1226,24 +1417,33 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeReferenceDispose : ValueType
     {
+        public object m_Data;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x9243C0
     }
 
     public class NativeReferenceDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924400
     }
 
     public class NativeRingQueueDispose : ValueType
     {
+        public object m_QueueData;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924410
     }
 
     public class NativeRingQueueDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924420
     }
@@ -1256,6 +1456,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeSlice`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Stride;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void op_Implicit(){} // RVA: 0xA94080
@@ -1273,6 +1477,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeSlice`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Stride;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44BD30
         public void op_Implicit(){} // RVA: 0x46FFF60
@@ -1290,6 +1498,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeSlice`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Stride;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x44B900
         public void op_Implicit(){} // RVA: 0x46FF920
@@ -1307,6 +1519,10 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeSlice`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_Stride;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x448D50
         public void op_Implicit(){} // RVA: 0x46FE540
@@ -1324,6 +1540,8 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeStream : ValueType
     {
+        public object m_Stream;
+
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x311760
         public void Dispose(){} // RVA: 0x924430
@@ -1332,24 +1550,32 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class NativeStreamDispose : ValueType
     {
+        public object m_StreamData;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924430
     }
 
     public class NativeStreamDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924480
     }
 
     public class NativeTextDispose : ValueType
     {
+        public object m_TextData;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924490
     }
 
     public class NativeTextDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9244A0
     }

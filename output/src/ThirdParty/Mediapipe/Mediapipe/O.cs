@@ -7,6 +7,14 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class OutputStreamHandlerConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object OutputStreamHandlerDefaultValue;
+        public object outputStreamHandler_;
+        public object _repeated_inputSidePacket_codec;
+        public object inputSidePacket_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A7110
         public void get_Descriptor(){} // RVA: 0x65A7170
@@ -42,6 +50,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
     public class OutputStreamPoller`1 : MpResourceHandle
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x4843CD0
+        public void DeleteMpPtr(){} // RVA: 0x4843CE0
+        public void Next(){} // RVA: 0x4843D40
+    }
+
+    public class OutputStreamPoller`1 : MpResourceHandle
+    {
+        // ── Methods ──
+        public void Next(){} // RVA: 0x4843D40
+        public void .ctor(){} // RVA: 0x4843CD0
+        public void DeleteMpPtr(){} // RVA: 0x4843CE0
+    }
+
+    public class OutputStreamPoller`1 : MpResourceHandle
+    {
+        // ── Methods ──
         public void Next(){} // RVA: 0x4843D40
         public void .ctor(){} // RVA: 0x4843CD0
         public void DeleteMpPtr(){} // RVA: 0x4843CE0
@@ -61,22 +85,6 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void .ctor(){} // RVA: 0x8943F0
         public void DeleteMpPtr(){} // RVA: 0x894290
         public void Next(){} // RVA: 0x87D350
-    }
-
-    public class OutputStreamPoller`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void Next(){} // RVA: 0x4843D40
-        public void .ctor(){} // RVA: 0x4843CD0
-        public void DeleteMpPtr(){} // RVA: 0x4843CE0
-    }
-
-    public class OutputStreamPoller`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void Next(){} // RVA: 0x4843D40
-        public void .ctor(){} // RVA: 0x4843CD0
-        public void DeleteMpPtr(){} // RVA: 0x4843CE0
     }
 
     public class OutputStreamPoller`1 : MpResourceHandle

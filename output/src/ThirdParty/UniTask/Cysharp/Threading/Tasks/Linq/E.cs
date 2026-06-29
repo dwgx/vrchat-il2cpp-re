@@ -13,6 +13,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Empty`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +23,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class EveryUpdate : Object
     {
+        public object updateTiming;
+        public object cancelImmediately;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x698D240
         public void GetAsyncEnumerator(){} // RVA: 0x7789020
@@ -28,6 +33,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class EveryValueChangedStandardObject`2 : Object
     {
+        public object target;
+        public object propertySelector;
+        public object equalityComparer;
+        public object monitorTiming;
+        public object cancelImmediately;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -35,6 +46,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class EveryValueChangedUnityObject`2 : Object
     {
+        public object target;
+        public object propertySelector;
+        public object equalityComparer;
+        public object monitorTiming;
+        public object cancelImmediately;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -42,6 +59,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Except`1 : Object
     {
+        public object first;
+        public object second;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

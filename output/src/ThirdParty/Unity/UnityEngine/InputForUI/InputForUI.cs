@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 {
     public class CommandEvent : ValueType
     {
+        public object type;
+        public object command;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void set_timestamp(){} // RVA: 0x990A0
         public void get_eventSource(){} // RVA: 0x8C7E0
@@ -19,6 +26,15 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class Event : ValueType
     {
+        public object TypesWithState;
+        public object _type;
+        public object _managedEvent;
+        public object _keyEvent;
+        public object _pointerEvent;
+        public object _textInputEvent;
+        public object _commandEvent;
+        public object _navigationEvent;
+
         // ── Methods ──
         public void CompareType(){} // RVA: 0x7C9EC40
         public void get_type(){} // RVA: 0x77E60
@@ -47,6 +63,8 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class EventModifiers : ValueType
     {
+        public object _state;
+
         // ── Methods ──
         public void IsPressed(){} // RVA: 0x970EE0
         public void get_isShiftPressed(){} // RVA: 0x970EF0
@@ -64,6 +82,14 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class EventProvider : Object
     {
+        public object s_impl;
+        public object s_sanitizer;
+        public object s_implMockBackup;
+        public object s_focusChangedRegistered;
+        public object m_IsEnabled;
+        public object m_IsInitialized;
+        public object _registrations;
+
         // ── Methods ──
         public void Subscribe(){} // RVA: 0x7CA1640
         public void Unsubscribe(){} // RVA: 0x7CA1A80
@@ -100,6 +126,8 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class EventSanitizer : ValueType
     {
+        public object _sanitizers;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x971F00
         public void BeforeProviderUpdate(){} // RVA: 0x971F10
@@ -145,6 +173,12 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class IMECompositionEvent : ValueType
     {
+        public object compositionString;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void set_timestamp(){} // RVA: 0x990A0
         public void get_eventSource(){} // RVA: 0x8C7E0
@@ -157,6 +191,13 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class InputEventPartialProvider : Object
     {
+        public object _ev;
+        public object _operatingSystemFamily;
+        public object _keyboardButtonsState;
+        public object _eventModifiers;
+        public object _sendNavigationEventOnTabKey;
+        public object _IMGUICommandToInputForUICommandType;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7CA29D0
         public void Shutdown(){} // RVA: 0xB43310
@@ -173,6 +214,22 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class InputManagerProvider : Object
     {
+        public object _inputEventPartialProvider;
+        public object _compositionString;
+        public object _configuration;
+        public object _input;
+        public object _time;
+        public object _navigationEventRepeatHelper;
+        public object _mouseState;
+        public object _isPenPresent;
+        public object _seenAtLeastOnePenPosition;
+        public object _lastSeenPenPositionForDetection;
+        public object _penState;
+        public object _lastPenData;
+        public object _touchFingerIdToFingerIndex;
+        public object _touchNextFingerIndex;
+        public object _touchState;
+
         // ── Methods ──
         public void get__eventModifiers(){} // RVA: 0x7CA46B0
         public void .ctor(){} // RVA: 0x7CA46D0
@@ -208,6 +265,14 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class KeyEvent : ValueType
     {
+        public object type;
+        public object keyCode;
+        public object buttonsState;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void set_timestamp(){} // RVA: 0xCF9D0
         public void get_eventSource(){} // RVA: 0xA3790
@@ -220,6 +285,14 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class NavigationEvent : ValueType
     {
+        public object type;
+        public object direction;
+        public object shouldBeUsed;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void set_timestamp(){} // RVA: 0xE1E10
         public void get_eventSource(){} // RVA: 0x8E1F0
@@ -233,6 +306,12 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class NavigationEventRepeatHelper : Object
     {
+        public object m_ConsecutiveMoveCount;
+        public object m_LastDirection;
+        public object m_PrevActionTime;
+        public object m_InitialRepeatDelay;
+        public object m_ConsecutiveRepeatDelay;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7CA8470
         public void ShouldSendMoveEvent(){} // RVA: 0x7CA84E0
@@ -241,6 +320,24 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class PointerEvent : ValueType
     {
+        public object type;
+        public object pointerIndex;
+        public object position;
+        public object deltaPosition;
+        public object scroll;
+        public object displayIndex;
+        public object tilt;
+        public object twist;
+        public object pressure;
+        public object isInverted;
+        public object button;
+        public object buttonsState;
+        public object clickCount;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void get_isPrimaryPointer(){} // RVA: 0x92EE30
         public void get_azimuth(){} // RVA: 0x971420
@@ -258,6 +355,15 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class PointerState : ValueType
     {
+        public object _lastPressedButton;
+        public object _buttonsState;
+        public object _nextPressTime;
+        public object _clickCount;
+        public object _lastPosition;
+        public object _lastDisplayIndex;
+        public object _lastPositionValid;
+        public object kClickDelay;
+
         // ── Methods ──
         public void get_LastPressedButton(){} // RVA: 0x77E60
         public void set_LastPressedButton(){} // RVA: 0x29580
@@ -282,6 +388,12 @@ namespace ThirdParty.Unity.UnityEngine.InputForUI
 
     public class TextInputEvent : ValueType
     {
+        public object character;
+        public object _timestamp;
+        public object _eventSource;
+        public object _playerId;
+        public object _eventModifiers;
+
         // ── Methods ──
         public void set_timestamp(){} // RVA: 0x990A0
         public void get_eventSource(){} // RVA: 0x8C7E0

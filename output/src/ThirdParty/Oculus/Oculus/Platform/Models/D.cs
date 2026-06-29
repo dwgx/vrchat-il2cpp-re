@@ -7,6 +7,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x87D280
@@ -33,6 +37,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -59,6 +67,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -85,6 +97,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -111,6 +127,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -137,6 +157,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -163,6 +187,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -189,6 +217,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -215,6 +247,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -241,6 +277,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -267,6 +307,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -293,6 +337,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -319,6 +367,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -345,6 +397,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -371,6 +427,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -397,6 +457,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -423,6 +487,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -449,6 +517,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -475,6 +547,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -501,6 +577,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -527,6 +607,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -553,6 +637,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -579,6 +667,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -605,6 +697,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -631,6 +727,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -657,6 +757,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -683,6 +787,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -709,6 +817,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -735,6 +847,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class DeserializableList`1 : Object
     {
+        public object _Data;
+        public object _NextUrl;
+        public object _PreviousUrl;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x17F0080
         public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
@@ -761,6 +877,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class Destination : Object
     {
+        public object ApiName;
+        public object DeeplinkMessage;
+        public object DisplayName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B5A630
     }

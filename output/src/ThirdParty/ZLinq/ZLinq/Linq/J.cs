@@ -7,6 +7,17 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class Join`6 : ValueType
     {
+        public object <outerKeySelector>P;
+        public object <innerKeySelector>P;
+        public object <resultSelector>P;
+        public object <comparer>P;
+        public object source;
+        public object inner;
+        public object innerLookup;
+        public object currentGroup;
+        public object currentGroupIndex;
+        public object currentOuter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

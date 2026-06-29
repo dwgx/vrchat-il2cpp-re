@@ -32,6 +32,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class NetSyncOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B35EC0
         public void SetVoipGroup(){} // RVA: 0x6B35F70

@@ -7,6 +7,15 @@ namespace ThirdParty.DotNet.System.Globalization
 {
     public class Bootstring : Object
     {
+        public object delimiter;
+        public object base_num;
+        public object tmin;
+        public object tmax;
+        public object skew;
+        public object damp;
+        public object initial_bias;
+        public object initial_n;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x686E190
         public void Encode(){} // RVA: 0x686E1C0
@@ -18,6 +27,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class Calendar : Object
     {
+        public object m_currentEraValue;
+        public object m_isReadOnly;
+        public object twoDigitYearMax;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x6841D70
         public void get_MaxSupportedDateTime(){} // RVA: 0x6841DD0
@@ -67,6 +80,30 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CalendarData : Object
     {
+        public object MAX_CALENDARS;
+        public object sNativeName;
+        public object saShortDates;
+        public object saYearMonths;
+        public object saLongDates;
+        public object sMonthDay;
+        public object saEraNames;
+        public object saAbbrevEraNames;
+        public object saAbbrevEnglishEraNames;
+        public object saDayNames;
+        public object saAbbrevDayNames;
+        public object saSuperShortDayNames;
+        public object saMonthNames;
+        public object saAbbrevMonthNames;
+        public object saMonthGenitiveNames;
+        public object saAbbrevMonthGenitiveNames;
+        public object saLeapYearMonthNames;
+        public object iTwoDigitYearMax;
+        public object iCurrentEra;
+        public object bUseUserOverrides;
+        public object Invariant;
+        public object HEBREW_MONTH_NAMES;
+        public object HEBREW_LEAP_MONTH_NAMES;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6844620
         public void .cctor(){} // RVA: 0x68432F0
@@ -144,6 +181,14 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CodePageDataItem : Object
     {
+        public object m_dataIndex;
+        public object m_uiFamilyCodePage;
+        public object m_webName;
+        public object m_headerName;
+        public object m_bodyName;
+        public object m_flags;
+        public object sep;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6859480
         public void CreateString(){} // RVA: 0x6859540
@@ -155,6 +200,20 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CompareInfo : Object
     {
+        public object ValidIndexMaskOffFlags;
+        public object ValidCompareMaskOffFlags;
+        public object ValidHashCodeOfStringMaskOffFlags;
+        public object ValidSortkeyCtorMaskOffFlags;
+        public object Invariant;
+        public object m_name;
+        public object _sortName;
+        public object m_SortVersion;
+        public object culture;
+        public object collator;
+        public object collators;
+        public object managedCollation;
+        public object managedCollationChecked;
+
         // ── Methods ──
         public void InvariantIndexOf(){} // RVA: 0x68255F0
         public void InvariantLastIndexOf(){} // RVA: 0x68256C0
@@ -211,6 +270,28 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureData : Object
     {
+        public object sAM1159;
+        public object sPM2359;
+        public object sTimeSeparator;
+        public object saLongTimes;
+        public object saShortTimes;
+        public object iFirstDayOfWeek;
+        public object iFirstWeekOfYear;
+        public object waCalendars;
+        public object calendars;
+        public object sISO639Language;
+        public object sRealName;
+        public object bUseOverrides;
+        public object calendarId;
+        public object numberIndex;
+        public object iDefaultAnsiCodePage;
+        public object iDefaultOemCodePage;
+        public object iDefaultMacCodePage;
+        public object iDefaultEbcdicCodePage;
+        public object isRightToLeft;
+        public object sListSeparator;
+        public object s_Invariant;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC0FFD0
         public void get_Invariant(){} // RVA: 0x6857170
@@ -264,6 +345,47 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureInfo : Object
     {
+        public object invariant_culture_info;
+        public object shared_table_lock;
+        public object default_current_culture;
+        public object m_isReadOnly;
+        public object cultureID;
+        public object parent_lcid;
+        public object datetime_index;
+        public object number_index;
+        public object default_calendar_type;
+        public object m_useUserOverride;
+        public object numInfo;
+        public object dateTimeInfo;
+        public object textInfo;
+        public object m_name;
+        public object englishname;
+        public object nativename;
+        public object iso3lang;
+        public object iso2lang;
+        public object win3lang;
+        public object territory;
+        public object native_calendar_names;
+        public object compareInfo;
+        public object textinfo_data;
+        public object m_dataItem;
+        public object calendar;
+        public object parent_culture;
+        public object constructed;
+        public object cached_serialized_form;
+        public object m_cultureData;
+        public object m_isInherited;
+        public object InvariantCultureId;
+        public object CalendarTypeBits;
+        public object LOCALE_INVARIANT;
+        public object MSG_READONLY;
+        public object s_DefaultThreadCurrentUICulture;
+        public object s_DefaultThreadCurrentCulture;
+        public object shared_by_number;
+        public object shared_by_name;
+        public object s_UserPreferredCultureInfoInAppX;
+        public object IsTaiwanSku;
+
         // ── Methods ──
         public void get__cultureData(){} // RVA: 0xBAE420
         public void get__isInherited(){} // RVA: 0x1C11610
@@ -339,6 +461,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class CultureNotFoundException : ArgumentException
     {
+        public object _invalidCultureName;
+        public object _invalidCultureId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x682B700
         public void GetObjectData(){} // RVA: 0x682B9A0
@@ -351,6 +476,89 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfo : Object
     {
+        public object s_invariantInfo;
+        public object _cultureData;
+        public object _name;
+        public object _langName;
+        public object _compareInfo;
+        public object _cultureInfo;
+        public object amDesignator;
+        public object pmDesignator;
+        public object dateSeparator;
+        public object generalShortTimePattern;
+        public object generalLongTimePattern;
+        public object timeSeparator;
+        public object monthDayPattern;
+        public object dateTimeOffsetPattern;
+        public object rfc1123Pattern;
+        public object sortableDateTimePattern;
+        public object universalSortableDateTimePattern;
+        public object calendar;
+        public object firstDayOfWeek;
+        public object calendarWeekRule;
+        public object fullDateTimePattern;
+        public object abbreviatedDayNames;
+        public object m_superShortDayNames;
+        public object dayNames;
+        public object abbreviatedMonthNames;
+        public object monthNames;
+        public object genitiveMonthNames;
+        public object m_genitiveAbbreviatedMonthNames;
+        public object leapYearMonthNames;
+        public object longDatePattern;
+        public object shortDatePattern;
+        public object yearMonthPattern;
+        public object longTimePattern;
+        public object shortTimePattern;
+        public object allYearMonthPatterns;
+        public object allShortDatePatterns;
+        public object allLongDatePatterns;
+        public object allShortTimePatterns;
+        public object allLongTimePatterns;
+        public object m_eraNames;
+        public object m_abbrevEraNames;
+        public object m_abbrevEnglishEraNames;
+        public object optionalCalendars;
+        public object DEFAULT_ALL_DATETIMES_SIZE;
+        public object _isReadOnly;
+        public object formatFlags;
+        public object s_monthSpaces;
+        public object RoundtripFormat;
+        public object RoundtripDateTimeUnfixed;
+        public object _fullTimeSpanPositivePattern;
+        public object _fullTimeSpanNegativePattern;
+        public object InvalidDateTimeStyles;
+        public object _dtfiTokenHash;
+        public object TOKEN_HASH_SIZE;
+        public object SECOND_PRIME;
+        public object dateSeparatorOrTimeZoneOffset;
+        public object invariantDateSeparator;
+        public object invariantTimeSeparator;
+        public object IgnorablePeriod;
+        public object IgnorableComma;
+        public object CJKYearSuff;
+        public object CJKMonthSuff;
+        public object CJKDaySuff;
+        public object KoreanYearSuff;
+        public object KoreanMonthSuff;
+        public object KoreanDaySuff;
+        public object KoreanHourSuff;
+        public object KoreanMinuteSuff;
+        public object KoreanSecondSuff;
+        public object CJKHourSuff;
+        public object ChineseHourSuff;
+        public object CJKMinuteSuff;
+        public object CJKSecondSuff;
+        public object JapaneseEraStart;
+        public object LocalTimeMark;
+        public object GMTName;
+        public object ZuluName;
+        public object KoreanLangName;
+        public object JapaneseLangName;
+        public object EnglishLangName;
+        public object s_jajpDTFI;
+        public object s_zhtwDTFI;
+
         // ── Methods ──
         public void get_CultureName(){} // RVA: 0x682C010
         public void get_Culture(){} // RVA: 0x682C080
@@ -452,6 +660,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DateTimeFormatInfoScanner : Object
     {
+        public object m_dateWords;
+        public object s_knownWords;
+        public object _ymdFlags;
+
         // ── Methods ──
         public void get_KnownWords(){} // RVA: 0x6834340
         public void SkipWhiteSpacesAndNonLetter(){} // RVA: 0x68349A0
@@ -473,6 +685,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DaylightTime : Object
     {
+        public object _start;
+        public object _end;
+        public object _delta;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6835D20
         public void get_Start(){} // RVA: 0xB5DBF0
@@ -482,12 +698,22 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class DaylightTimeStruct : ValueType
     {
+        public object Start;
+        public object End;
+        public object Delta;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B35F0
     }
 
     public class EncodingTable : Object
     {
+        public object encodingDataPtr;
+        public object codePageDataPtr;
+        public object lastEncodingItem;
+        public object hashByName;
+        public object hashByCodePage;
+
         // ── Methods ──
         public void GetNumEncodingItems(){} // RVA: 0x6859AF0
         public void ENC(){} // RVA: 0x6859B60
@@ -500,6 +726,15 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class EraInfo : Object
     {
+        public object era;
+        public object ticks;
+        public object yearOffset;
+        public object minEraYear;
+        public object maxEraYear;
+        public object eraName;
+        public object abbrevEraName;
+        public object englishEraName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6849180
     }
@@ -513,6 +748,8 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GlobalizationMode : Object
     {
+        public object _invariant;
+
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x6841CD0
         public void GetGlobalizationInvariantMode(){} // RVA: 0xB43320
@@ -521,6 +758,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendar : Calendar
     {
+        public object m_type;
+        public object DaysToMonth365;
+        public object DaysToMonth366;
+        public object s_defaultInstance;
+
         // ── Methods ──
         public void OnDeserialized(){} // RVA: 0x6846810
         public void get_MinSupportedDateTime(){} // RVA: 0x6846900
@@ -558,6 +800,15 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class GregorianCalendarHelper : Object
     {
+        public object DaysToMonth365;
+        public object DaysToMonth366;
+        public object m_maxYear;
+        public object m_minYear;
+        public object m_Cal;
+        public object m_EraInfo;
+        public object m_eras;
+        public object m_minDate;
+
         // ── Methods ──
         public void get_MaxYear(){} // RVA: 0xB8F8F0
         public void .ctor(){} // RVA: 0x6849390
@@ -593,6 +844,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class HebrewNumber : Object
     {
+        public object s_hebrewValues;
+        public object s_maxHebrewNumberCh;
+        public object s_numberPasingState;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x6835D50
         public void ParseByChar(){} // RVA: 0x6836170
@@ -602,12 +857,21 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class HebrewNumberParsingContext : ValueType
     {
+        public object state;
+        public object result;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B3600
     }
 
     public class HijriCalendar : Calendar
     {
+        public object HijriEra;
+        public object HijriMonthDays;
+        public object m_HijriAdvance;
+        public object calendarMinValue;
+        public object calendarMaxValue;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x684BB70
         public void get_MaxSupportedDateTime(){} // RVA: 0x684BBD0
@@ -660,6 +924,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class IdnMapping : Object
     {
+        public object allow_unassigned;
+        public object use_std3;
+        public object puny;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x686C9E0
         public void Equals(){} // RVA: 0x686CAB0
@@ -717,6 +985,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class JapaneseCalendar : Calendar
     {
+        public object calendarMinValue;
+        public object japaneseEraInfo;
+        public object s_defaultInstance;
+        public object helper;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x684DD00
         public void get_MaxSupportedDateTime(){} // RVA: 0x684DD60
@@ -755,6 +1028,43 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class NumberFormatInfo : Object
     {
+        public object invariantInfo;
+        public object numberGroupSizes;
+        public object currencyGroupSizes;
+        public object percentGroupSizes;
+        public object positiveSign;
+        public object negativeSign;
+        public object numberDecimalSeparator;
+        public object numberGroupSeparator;
+        public object currencyGroupSeparator;
+        public object currencyDecimalSeparator;
+        public object currencySymbol;
+        public object ansiCurrencySymbol;
+        public object nanSymbol;
+        public object positiveInfinitySymbol;
+        public object negativeInfinitySymbol;
+        public object percentDecimalSeparator;
+        public object percentGroupSeparator;
+        public object percentSymbol;
+        public object perMilleSymbol;
+        public object nativeDigits;
+        public object m_dataItem;
+        public object numberDecimalDigits;
+        public object currencyDecimalDigits;
+        public object currencyPositivePattern;
+        public object currencyNegativePattern;
+        public object numberNegativePattern;
+        public object percentPositivePattern;
+        public object percentNegativePattern;
+        public object percentDecimalDigits;
+        public object digitSubstitution;
+        public object isReadOnly;
+        public object m_useUserOverride;
+        public object m_isInvariant;
+        public object validForParseAsNumber;
+        public object validForParseAsCurrency;
+        public object InvalidNumberStyles;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x684F240
         public void OnSerializing(){} // RVA: 0x684F0D0
@@ -806,6 +1116,18 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class RegionInfo : Object
     {
+        public object currentRegion;
+        public object regionId;
+        public object iso2Name;
+        public object iso3Name;
+        public object win3Name;
+        public object englishName;
+        public object nativeName;
+        public object currencySymbol;
+        public object isoCurrencySymbol;
+        public object currencyEnglishName;
+        public object currencyNativeName;
+
         // ── Methods ──
         public void get_CurrentRegion(){} // RVA: 0x686EA40
         public void .ctor(){} // RVA: 0x686EEE0
@@ -832,6 +1154,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class SortKey : Object
     {
+        public object source;
+        public object key;
+        public object options;
+        public object lcid;
+
         // ── Methods ──
         public void Compare(){} // RVA: 0x6856A40
         public void .ctor(){} // RVA: 0x6857140
@@ -844,6 +1171,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class StringInfo : Object
     {
+        public object m_str;
+        public object m_indexes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68508A0
         public void OnDeserializing(){} // RVA: 0x1417AC0
@@ -860,6 +1190,11 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TaiwanCalendar : Calendar
     {
+        public object taiwanEraInfo;
+        public object s_defaultInstance;
+        public object helper;
+        public object calendarMinValue;
+
         // ── Methods ──
         public void GetDefaultInstance(){} // RVA: 0x68510E0
         public void get_MinSupportedDateTime(){} // RVA: 0x6851220
@@ -893,6 +1228,17 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TextInfo : Object
     {
+        public object m_listSeparator;
+        public object m_isReadOnly;
+        public object m_cultureName;
+        public object m_cultureData;
+        public object m_textInfoName;
+        public object m_IsAsciiCasingSameAsInvariant;
+        public object s_Invariant;
+        public object customCultureName;
+        public object m_useUserOverride;
+        public object m_win32LangID;
+
         // ── Methods ──
         public void get_Invariant(){} // RVA: 0x6851950
         public void .ctor(){} // RVA: 0x6853D60
@@ -928,18 +1274,42 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TextInfoToLowerData : Object
     {
+        public object range_00c0_0556;
+        public object range_10a0_10c5;
+        public object range_1e00_1ffc;
+        public object range_2160_216f;
+        public object range_24b6_24cf;
+        public object range_2c00_2c2e;
+        public object range_2c60_2ce2;
+        public object range_a640_a696;
+        public object range_a722_a78b;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x68642F0
     }
 
     public class TextInfoToUpperData : Object
     {
+        public object range_00e0_0586;
+        public object range_1e01_1ff3;
+        public object range_2170_2184;
+        public object range_24d0_24e9;
+        public object range_2c30_2ce3;
+        public object range_2d00_2d25;
+        public object range_a641_a697;
+        public object range_a723_a78c;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6863D90
     }
 
     public class ThaiBuddhistCalendar : Calendar
     {
+        public object thaiBuddhistEraInfo;
+        public object ThaiBuddhistEra;
+        public object helper;
+        public object DEFAULT_TWO_DIGIT_YEAR_MAX;
+
         // ── Methods ──
         public void get_MinSupportedDateTime(){} // RVA: 0x6853D90
         public void get_MaxSupportedDateTime(){} // RVA: 0x6853DF0
@@ -972,6 +1342,9 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class TimeSpanFormat : Object
     {
+        public object PositiveInvariantFormatLiterals;
+        public object NegativeInvariantFormatLiterals;
+
         // ── Methods ──
         public void AppendNonNegativeInt32(){} // RVA: 0x6836870
         public void Format(){} // RVA: 0x68369F0
@@ -1010,6 +1383,10 @@ namespace ThirdParty.DotNet.System.Globalization
 
     public class UmAlQuraCalendar : Calendar
     {
+        public object HijriYearInfo;
+        public object minDate;
+        public object maxDate;
+
         // ── Methods ──
         public void InitDateMapping(){} // RVA: 0x6854340
         public void get_MinSupportedDateTime(){} // RVA: 0x6854520

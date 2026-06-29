@@ -7,6 +7,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class CAPI : Object
     {
+        public object DLL_NAME;
+        public object nativeStringEncoding;
+        public object VoipFilterBufferSize;
+
         // ── Methods ──
         public void ArrayOfStructsToIntPtr(){} // RVA: 0x6AF72B0
         public void DictionaryToOVRKeyValuePairs(){} // RVA: 0x6AF7850
@@ -1207,6 +1211,13 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Callback : Object
     {
+        public object requestIDsToRequests;
+        public object notificationCallbacks;
+        public object hasRegisteredRoomInviteNotificationHandler;
+        public object pendingRoomInviteNotifications;
+        public object hasRegisteredJoinIntentNotificationHandler;
+        public object latestPendingJoinIntentNotifications;
+
         // ── Methods ──
         public void SetNotificationCallback(){} // RVA: 0x6AF5FD0
         public void AddRequest(){} // RVA: 0x6AF6150
@@ -1221,6 +1232,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class CallbackRunner : MonoBehaviour
     {
+        public object IsPersistantBetweenSceneLoads;
+
         // ── Methods ──
         public void ovr_UnityResetTestPlatform(){} // RVA: 0x6AF6EB0
         public void Awake(){} // RVA: 0x6AF6F20
@@ -1232,6 +1245,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class ChallengeOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B262F0
         public void SetDescription(){} // RVA: 0x6B263A0
@@ -1291,6 +1306,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Core : Object
     {
+        public object IsPlatformInitialized;
+        public object LogMessages;
+        public object PlatformUninitializedError;
+
         // ── Methods ──
         public void IsInitialized(){} // RVA: 0x6B36960
         public void ForceInitialized(){} // RVA: 0x6B369C0

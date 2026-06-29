@@ -14,6 +14,19 @@ namespace VRC.ImageProcessing
 
     public class Image : Object
     {
+        public object _handle;
+        public object _cloneMarker;
+        public object _dimensionsMarker;
+        public object _formatMarker;
+        public object _hasAlphaMarker;
+        public object _convertMarker;
+        public object _resizeMarker;
+        public object _resizeExactMarker;
+        public object _thumbnailMarker;
+        public object _flipVerticalMarker;
+        public object _asBytesMarker;
+        public object _asNativeArrayMarker;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Handle(){} // RVA: 0xB5DBF0
@@ -34,6 +47,8 @@ namespace VRC.ImageProcessing
 
     public class ImageException : Exception
     {
+        public object _error;
+
         // ── Methods ──
         public void get_Error(){} // RVA: 0x1C4D9A0
         public void .ctor(){} // RVA: 0x8305850
@@ -47,6 +62,14 @@ namespace VRC.ImageProcessing
 
     public class ImageUploader : Object
     {
+        public object _flushMarker;
+        public object _uploadMarker;
+        public object _textureUpdateCallback;
+        public object _cmd;
+        public object _cts;
+        public object _dirty;
+        public object _disposed;
+
         // ── Methods ──
         public void get_IsSupported(){} // RVA: 0x8307460
         public void ResetNativeState(){} // RVA: 0x83074B0

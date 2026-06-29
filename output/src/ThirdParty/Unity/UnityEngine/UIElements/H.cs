@@ -7,12 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class HandleDragAndDropArgs : ValueType
     {
+        public object m_DragAndDropArgs;
+        public object _position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A4C00
     }
 
     public class Hash128Field : TextInputBaseField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FE7E10
         public void get_value(){} // RVA: 0x7FE8080
@@ -28,6 +35,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class HelpBox : VisualElement
     {
+        public object textProperty;
+        public object messageTypeProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object iconUssClassName;
+        public object iconInfoUssClassName;
+        public object iconwarningUssClassName;
+        public object iconErrorUssClassName;
+        public object m_HelpBoxMessageType;
+        public object m_Icon;
+        public object m_IconClass;
+        public object m_Label;
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FE8D90
         public void set_text(){} // RVA: 0x7FE8DC0

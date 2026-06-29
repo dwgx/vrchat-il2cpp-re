@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 12
-// Methods: 198
+// Classes: 14
+// Methods: 131
 
 namespace VRC.Misc
 {
@@ -36,6 +36,21 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÏÏÏÌÌÏÏÎÌÍÌÏÏÏÌÍÎÌÏÌÏÍ</summary>
     public class Unknown17m_389D : Mono15m_CD5D
     {
+        public object categoryPrefab;
+        public object gridContainerPrefab;
+        public object itemCellPrefab;
+        public object shopUpsellPrefab;
+        public object vrcPlusWarningPrefab;
+        public object filterPanelPrefab;
+        public object f_A6A;
+        public object f_DDE;
+        public object f_1D2;
+        public object f_E29;
+        public object f_4C7;
+        public object f_730;
+        public object f_261;
+        public object f_A55;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x981A830
         public void Initialize(){} // RVA: 0x981A840
@@ -48,26 +63,11 @@ namespace VRC.Misc
         // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÌÍÍÏÎÍÌÍÏÍÎÌÍÍÏÍÌÏÍÎÌÎ</summary>
-    public class Unknown37m_A204 : Mono5m_CD40
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x983E180
-        public void OnDestroy(){} // RVA: 0x983EDE0
-        public void .ctor(){} // RVA: 0x9840750
-        public void Initialize(){} // RVA: 0x9840830
-        // ── 33 unresolved (hash) ──
-        public void m_882(){} // RVA: 0x983E130
-        public void m_0ED(){} // RVA: 0x983E3B0
-        public void m_CC5(){} // RVA: 0x983E6E0
-        public void m_BC4(){} // RVA: 0x983EA00
-        public void m_DE8(){} // RVA: 0x983EAE0
-        // ... 28 more unresolved methods
-    }
-
     /// <summary>Originally: ÏÎÌÍÏÌÌÎÍÏÍÌÎÌÌÎÍÎÌÎÎÎÍ</summary>
     public class Unknown3m_18F8 : Mono6m_951C
     {
+        public object _18F8;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x9E247B0
         public void .ctor(){} // RVA: 0x9E287A0
@@ -77,6 +77,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÏÍÍÏÏÎÏÎÎÎÌÍÍÎÏÏÍÏÏÎ</summary>
     public class Unknown3m_87A2 : Mono6mImpl_E4FF
     {
+        public object _87A2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9E287A0
         public void Initialize(){} // RVA: 0x9FCF460
@@ -84,110 +86,14 @@ namespace VRC.Misc
         public void m_A6C(){} // RVA: 0x9FCF480
     }
 
-    /// <summary>Originally: ÌÍÎÏÌÌÎÏÌÏÏÏÌÌÌÌÎÏÏÌÍÏÍ</summary>
-    public class UpdateHeightComponent_A4FF : MonoBehaviour
-    {
-        // ── Methods ──
-        public void OnDisable(){} // RVA: 0x34243A0
-        public void RaiseCancellation(){} // RVA: 0x9D578E0
-        public void IsInvoking(){} // RVA: 0xB44DC0
-        public void Awake(){} // RVA: 0x9D57AA0
-        public void OnDestroy(){} // RVA: 0x9D57AF0
-        public void InvokeRepeating(){} // RVA: 0x9D57B40
-        public void StartCoroutine(){} // RVA: 0x9D57CF0
-        public void .cctor(){} // RVA: 0x9D57ED0
-        public void OnEnable(){} // RVA: 0x9D58260
-        public void StopAllCoroutines(){} // RVA: 0xB44DC0
-        public void get_useGUILayout(){} // RVA: 0x9D58280
-        public void set_useGUILayout(){} // RVA: 0x9D583E0
-        public void get_didStart(){} // RVA: 0xB70160
-        public void get_didAwake(){} // RVA: 0x9D583F0
-        public void print(){} // RVA: 0x9D58400
-        public void Internal_CancelInvokeAll(){} // RVA: 0x9D58E90
-        public void Internal_IsInvokingAll(){} // RVA: 0x9D58FC0
-        public void UpdateHeight(){} // RVA: 0x9D596D0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x9D59990
-        public void StartCoroutineManaged(){} // RVA: 0x9D59AB0
-        public void StartCoroutineManaged2(){} // RVA: 0x9D59B70
-        public void StopCoroutineManaged(){} // RVA: 0x9D59E50
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x9D59F10
-        public void GetScriptClassName(){} // RVA: 0x9D59F80
-        public void OnCancellationTokenCreated(){} // RVA: 0x9D5A350
-        public void StopCoroutine_Injected(){} // RVA: 0x9D5AD60
-        public void Start(){} // RVA: 0x9D5B0A0
-        public void get_useGUILayout_Injected(){} // RVA: 0x9D5B460
-        public void set_useGUILayout_Injected(){} // RVA: 0xB44DC0
-        public void get_didStart_Injected(){} // RVA: 0x9D5B500
-        public void .ctor(){} // RVA: 0x9D5B620
-        public void Initialize(){} // RVA: 0x9D5B670
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x9D5B770
-        public void InvokeDelayed_Injected(){} // RVA: 0x9D5B8A0
-        public void CancelInvoke_Injected(){} // RVA: 0xB70160
-        public void IsInvoking_Injected(){} // RVA: 0x9D583E0
-        // ── Unresolved (hash) ──
-        public void m_0AA(){} // RVA: 0x9D5A4F0
-    }
-
-    /// <summary>Originally: ÏÎÎÏÍÌÎÌÌÏÌÍÎÌÏÏÏÎÎÎÎÏÎ</summary>
-    public class UpdateHeightComponent_D6B2 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x9CC20B0
-        public void RaiseCancellation(){} // RVA: 0x9CC2610
-        public void IsInvoking(){} // RVA: 0x9CC2620
-        public void CancelInvoke(){} // RVA: 0x9CC2680
-        public void Invoke(){} // RVA: 0x9CC29D0
-        public void OnEnable(){} // RVA: 0x9CC2D70
-        public void StartCoroutine(){} // RVA: 0x9CC2F80
-        public void StartCoroutine_Auto(){} // RVA: 0x9CC3810
-        public void StopCoroutine(){} // RVA: 0x9CC38C0
-        public void StopAllCoroutines(){} // RVA: 0x9CC39B0
-        public void get_useGUILayout(){} // RVA: 0x9CC3B80
-        public void OnDisable(){} // RVA: 0x9CC3F40
-        public void get_didStart(){} // RVA: 0x9CC40A0
-        public void get_didAwake(){} // RVA: 0x9CC4CE0
-        public void print(){} // RVA: 0x9CC4DB0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x9CC4E50
-        public void Internal_IsInvokingAll(){} // RVA: 0x9CC5020
-        public void InvokeDelayed(){} // RVA: 0x9CC5100
-        public void IsObjectMonoBehaviour(){} // RVA: 0x9CC51A0
-        public void Start(){} // RVA: 0x9CC54C0
-        public void StartCoroutineManaged2(){} // RVA: 0x9CC5AA0
-        public void OnDestroy(){} // RVA: 0x9CC5B60
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x9CC5CC0
-        public void GetScriptClassName(){} // RVA: 0x9CC68F0
-        public void OnCancellationTokenCreated(){} // RVA: 0x9CC69E0
-        public void OnApplicationPause(){} // RVA: 0x9CC6AC0
-        public void StopCoroutine_Injected(){} // RVA: 0x9CC6C20
-        public void StopAllCoroutines_Injected(){} // RVA: 0x135A7B0
-        public void get_useGUILayout_Injected(){} // RVA: 0x9CC6C80
-        public void set_useGUILayout_Injected(){} // RVA: 0x9CC6E30
-        public void get_didStart_Injected(){} // RVA: 0x9CC6EE0
-        public void get_didAwake_Injected(){} // RVA: 0xB813B0
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x9CC7240
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x9CC7320
-        public void InvokeDelayed_Injected(){} // RVA: 0x9CC7C30
-        public void CancelInvoke_Injected(){} // RVA: 0x9CC7DA0
-        public void IsInvoking_Injected(){} // RVA: 0x9CC8110
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x9CC8300
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x9CC9150
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x9CC9530
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x9CC9760
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x9CC9BA0
-        public void .ctor(){} // RVA: 0x9CC9C20
-        public void Initialize(){} // RVA: 0x9CCA080
-        public void UpdateHeight(){} // RVA: 0x9CCA330
-        // ── Unresolved (hash) ──
-        public void m_D41(){} // RVA: 0x9CCA1E0
-        public void m_21B(){} // RVA: 0x9CCA250
-        public void m_090(){} // RVA: 0x9CCA360
-        public void m_356(){} // RVA: 0x9CCA460
-        public void m_E61(){} // RVA: 0x9CCA540
-    }
-
     /// <summary>Originally: ÎÎÎÏÌÌÍÏÎÏÌÎÍÍÏÎÌÍÎÍÎÌÏ</summary>
     public class UpdateHeightComponent_FCB1 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_A26;
+        public object f_BA9;
+        public object f_8D8;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1F9AF00
         public void RaiseCancellation(){} // RVA: 0x1F9AF50
@@ -204,23 +110,157 @@ namespace VRC.Misc
         public void Start(){} // RVA: 0x1F9CE10
     }
 
-    /// <summary>Originally: ÏÎÎÌÌÏÍÏÎÍÎÎÏÍÍÏÎÎÎÌÎÏÍ</summary>
-    public class UpdateHeight_9A29 : ComplexComponent_38C8
+    /// <summary>Originally: ÏÌÌÏÏÍÎÍÌÎÍÎÍÏÍÎÍÎÏÍÏÌÍ</summary>
+    public class unlimitedquarterComponentSibling_EE0E : UIincreaseButtonIconStyledecreaseButtonIco_71C0
     {
+        public object f_F44;
+        public object f_4EB;
+        public object f_3A6;
+        public object f_9B0;
+
         // ── Methods ──
-        public void Start(){} // RVA: 0x998A4C0
-        public void UpdateHeight(){} // RVA: 0x998BA30
-        public void OnEnable(){} // RVA: 0x998BDE0
-        public void .ctor(){} // RVA: 0x998EF60
-        public void Initialize(){} // RVA: 0x998F170
-        public void OnDisable(){} // RVA: 0x998FF70
-        // ── 28 unresolved (hash) ──
-        public void m_CDB(){} // RVA: 0x998A1A0
-        public void m_E2A(){} // RVA: 0x998A2B0
-        public void m_129(){} // RVA: 0x998A360
-        public void m_B1D(){} // RVA: 0x998AA90
-        public void m_D9B(){} // RVA: 0x998AB30
-        // ... 23 more unresolved methods
+        public void .ctor(){} // RVA: 0x9A969C0
+        public void Initialize(){} // RVA: 0x9A96B20
+        public void Awake(){} // RVA: 0x9A96D80
+        public void OnEnable(){} // RVA: 0x9A96F20
+        public void Start(){} // RVA: 0x9A97020
+        public void Update(){} // RVA: 0xBAE5A0
+        public void LateUpdate(){} // RVA: 0x9A97530
+        public void OnDisable(){} // RVA: 0x9A97610
+        public void OnDestroy(){} // RVA: 0x9A976F0
+        public void OnApplicationPause(){} // RVA: 0x9A96B30
+        public void OnApplicationQuit(){} // RVA: 0x9A96B30
+        public void OnBecameVisible(){} // RVA: 0x9A979E0
+        public void OnBecameInvisible(){} // RVA: 0x9A97AC0
+        // ── Unresolved (hash) ──
+        public void m_D0F(){} // RVA: 0x9A96B30
+        public void m_1CD(){} // RVA: 0x9A96B70
+        public void m_07E(){} // RVA: 0x9A96B30
+        public void m_4ED(){} // RVA: 0x9A96C70
+        public void m_0C5(){} // RVA: 0x9A96D70
+        public void m_14E(){} // RVA: 0x9A971C0
+    }
+
+    /// <summary>Originally: ÌÍÌÏÍÌÎÎÍÌÌÍÍÏÎÍÌÍÎÎÌÌÏ</summary>
+    public class unlimitedquarterComponent_C24E : MonoBehaviour
+    {
+        public object _quarter;
+        public object _half;
+        public object _default;
+        public object _unlimited;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9B27350
+        public void RaiseCancellation(){} // RVA: 0x9B27500
+        public void IsInvoking(){} // RVA: 0x9B27510
+        public void CancelInvoke(){} // RVA: 0x9B276C0
+        public void Invoke(){} // RVA: 0x9B27AA0
+        public void InvokeRepeating(){} // RVA: 0x9B27E00
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9B27E10
+        public void StopCoroutine(){} // RVA: 0x9B27F90
+        public void StopAllCoroutines(){} // RVA: 0x9B27FA0
+        public void OnEnable(){} // RVA: 0x9B27F90
+        public void OnDisable(){} // RVA: 0x9B27500
+        public void get_didStart(){} // RVA: 0x9B27FB0
+        public void Start(){} // RVA: 0x9B28130
+        public void print(){} // RVA: 0x9B282B0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9B282C0
+        public void Internal_IsInvokingAll(){} // RVA: 0x9B284A0
+        public void InvokeDelayed(){} // RVA: 0x9B28550
+    }
+
+    /// <summary>Originally: ÍÎÎÌÎÏÌÏÏÎÏÌÎÌÍÏÍÍÏÎÎÏÎ</summary>
+    public class unreadIconComponent_BAC6 : MonoBehaviour
+    {
+        public object _unreadIcon;
+        public object _bAC6;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x99BD240
+        public void RaiseCancellation(){} // RVA: 0x99BD2D0
+        public void Start(){} // RVA: 0x99BD370
+        public void CancelInvoke(){} // RVA: 0x99BD2D0
+        public void Invoke(){} // RVA: 0x99BD400
+        public void .ctor(){} // RVA: 0xB43D60
+        public void OnEnable(){} // RVA: 0x99BD490
+        public void OnDisable(){} // RVA: 0x99BD4A0
+        public void StopCoroutine(){} // RVA: 0x99BD5D0
+        public void StopAllCoroutines(){} // RVA: 0x99BD670
+    }
+
+    /// <summary>Originally: ÎÍÏÌÏÎÏÌÎÏÏÌÌÍÎÏÌÌÎÌÍÌÌ</summary>
+    public class updateWhenDisabledComponeRelated_7CD9 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1DE60E0
+        public void Equals(){} // RVA: 0x1DE60E0
+        public void GetHashCode(){} // RVA: 0x1DE60E0
+        public void op_Implicit(){} // RVA: 0x1DE60E0
+        public void CompareBaseObjects(){} // RVA: 0x1DE60E0
+        public void .ctor(){} // RVA: 0x1DE6170
+        public void Initialize(){} // RVA: 0x1DE60E0
+        public void get_name(){} // RVA: 0x1DE60E0
+        public void set_name(){} // RVA: 0x1DE60E0
+    }
+
+    /// <summary>Originally: ÎÍÎÍÌÏÍÌÌÌÍÎÎÏÍÍÎÍÎÏÏÌÏ</summary>
+    public class updateWhenDisabledComponentSibling_75A4 : Object
+    {
+        public object _75A4;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x2608A60
+        public void Equals(){} // RVA: 0x2BEACA0
+        public void GetHashCode(){} // RVA: 0x2608AB0
+        public void op_Implicit(){} // RVA: 0x2608B20
+        public void CompareBaseObjects(){} // RVA: 0x2608B70
+        public void IsNativeObjectAlive(){} // RVA: 0x2608BE0
+        public void GetCachedPtr(){} // RVA: 0x2608C50
+        public void get_name(){} // RVA: 0x2608CC0
+        public void set_name(){} // RVA: 0x2608D30
+        public void Instantiate(){} // RVA: 0x2608D80
+        public void Destroy(){} // RVA: 0x2BEB270
+        public void DestroyImmediate(){} // RVA: 0x2BEA880
+        public void .ctor(){} // RVA: 0x2608DD0
+    }
+
+    /// <summary>Originally: ÍÍÌÎÎÏÎÍÍÍÏÏÎÍÎÎÌÍÏÏÎÌÍ</summary>
+    public class updateWhenDisabledComponent_004F : MonoBehaviour
+    {
+        public object _updateWhenDisabled;
+        public object f_796;
+        public object f_7AB;
+        public object f_CDA;
+        public object f_8DF;
+        public object f_F96;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x269DCC0
+        public void OnEnable(){} // RVA: 0x269DD40
+        public void IsInvoking(){} // RVA: 0x269DF50
+        public void CancelInvoke(){} // RVA: 0x2BB2F00
+        public void Invoke(){} // RVA: 0x2BAFCD0
+        public void InvokeRepeating(){} // RVA: 0x269DFC0
+        public void StartCoroutine(){} // RVA: 0x269E040
+        public void StartCoroutine_Auto(){} // RVA: 0x269E150
+        public void StopCoroutine(){} // RVA: 0x269E260
+        public void StopAllCoroutines(){} // RVA: 0x269DF50
+        public void get_useGUILayout(){} // RVA: 0x269E340
+        public void set_useGUILayout(){} // RVA: 0x269E5B0
+        public void OnDestroy(){} // RVA: 0x269E5D0
+        public void OnDisable(){} // RVA: 0x269E680
+        public void print(){} // RVA: 0x269E5B0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x269E730
+        public void Internal_IsInvokingAll(){} // RVA: 0x269E5B0
+        public void InvokeDelayed(){} // RVA: 0x269E940
+        public void IsObjectMonoBehaviour(){} // RVA: 0x269EA50
+        public void .ctor(){} // RVA: 0x269EB60
+        public void Initialize(){} // RVA: 0x269ED20
+        public void StopCoroutineManaged(){} // RVA: 0x269EE00
     }
 
 }

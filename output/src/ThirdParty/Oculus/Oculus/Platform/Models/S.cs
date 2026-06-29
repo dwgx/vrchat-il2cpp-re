@@ -7,6 +7,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class SdkAccount : Object
     {
+        public object AccountType;
+        public object UserId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B65910
     }
@@ -19,24 +22,34 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class SendInvitesResult : Object
     {
+        public object Invites;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B65E00
     }
 
     public class ShareMediaResult : Object
     {
+        public object Status;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B65F50
     }
 
     public class SupplementaryMetric : Object
     {
+        public object ID;
+        public object Metric;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B66010
     }
 
     public class SystemVoipState : Object
     {
+        public object MicrophoneMuted;
+        public object Status;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B66140
     }

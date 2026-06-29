@@ -8,14 +8,16 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal.Serialization
     public class IJsonSerializer
     {
         // ── Methods ──
-        public void DeserializeObject(){} // RVA: 0x7A8051B10
+        public void DeserializeObject(){} // RVA: 0xA94080
     }
 
     public class NewtonsoftSerializer : Object
     {
+        public object m_Serializer;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void DeserializeObject(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xB44D60
+        public void DeserializeObject(){} // RVA: 0xA94080
     }
 
 }

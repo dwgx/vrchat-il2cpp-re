@@ -1,9 +1,9 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 883
+// Methods: 916
 
-public class TEventType[] : Array
+public class T[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -65,24 +65,53 @@ public class TabbedContent[] : Array
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
-public class Tables : Object
+public class TagTypeInfo : Object
 {
+    public object TagType;
+    public object name;
+    public object valueType;
+    public object unitType;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4BAF640
+    public void get_EqualityContract(){} // RVA: 0x7DC7BB0
+    public void .ctor(){} // RVA: 0x7DC7C30
+    public void ToString(){} // RVA: 0x7DC7CA0
+    public void PrintMembers(){} // RVA: 0x7DC7DE0
+    public void GetHashCode(){} // RVA: 0x7DC7FB0
+    public void Equals(){} // RVA: 0x7DC8220
 }
 
-public class Tables : Object
+public class TagValue : Object
 {
+    public object type;
+    public object m_stringValue;
+    public object m_numericalValue;
+    public object m_colorValue;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4BAF640
+    public void get_EqualityContract(){} // RVA: 0x7DC8410
+    public void .ctor(){} // RVA: 0x7DC84A0
+    public void get_StringValue(){} // RVA: 0x7DC8500
+    public void get_ColorValue(){} // RVA: 0x7DC8570
+    public void ToString(){} // RVA: 0x7DC85F0
+    public void PrintMembers(){} // RVA: 0xB43320
+    public void GetHashCode(){} // RVA: 0x7DC8730
+    public void Equals(){} // RVA: 0x7DC89B0
 }
 
 public class Take : Object
 {
+    public object m_Observer;
+    public object m_Remaining;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void OnCompleted(){} // RVA: 0x894290
@@ -92,6 +121,10 @@ public class Take : Object
 
 public class Target : Object
 {
+    public object used;
+    public object localPosition;
+    public object localRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xCCBCB0
     public void SetTo(){} // RVA: 0xCCBED0
@@ -99,9 +132,33 @@ public class Target : Object
 
 public class TargetChild : Object
 {
+    public object t;
+    public object defaultLocalPosition;
+    public object defaultLocalRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBBA870
     public void Map(){} // RVA: 0xBBAA50
+}
+
+public class TargetChild[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class Target[] : Array
@@ -124,23 +181,11 @@ public class Target[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class TaskNode : Task`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x69A4C60
-    public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x69A4CE0
-    public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0xB43310
-}
-
 public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894290
-    public void GetCompletionResponsibility(){} // RVA: 0xA94080
-}
+    public object _builder;
+    public object _accessed;
 
-public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4CBCA50
     public void GetCompletionResponsibility(){} // RVA: 0x4CBCC00
@@ -148,6 +193,9 @@ public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
 
 public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
 {
+    public object _builder;
+    public object _accessed;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4CBCA50
     public void GetCompletionResponsibility(){} // RVA: 0x4CBCA60
@@ -155,6 +203,20 @@ public class TaskSocketAsyncEventArgs`1 : SocketAsyncEventArgs
 
 public class TensorMapping : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object DetectionsTensorIndexDefaultValue;
+    public object detectionsTensorIndex_;
+    public object ClassesTensorIndexDefaultValue;
+    public object classesTensorIndex_;
+    public object ScoresTensorIndexDefaultValue;
+    public object scoresTensorIndex_;
+    public object NumDetectionsTensorIndexDefaultValue;
+    public object numDetectionsTensorIndex_;
+    public object AnchorsTensorIndexDefaultValue;
+    public object anchorsTensorIndex_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6569410
     public void get_Descriptor(){} // RVA: 0x6569470
@@ -194,6 +256,9 @@ public class TensorMapping : Object
 
 public class TessellationJob : ValueType
 {
+    public object allocator;
+    public object jobParameters;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x99DD70
     public void ExtractHandle(){} // RVA: 0xA94080
@@ -205,14 +270,12 @@ public class TessellationJob : ValueType
 
 public class TextEvent : ValueType
 {
+    public object Time;
+    public object Type;
+    public object Value;
+
     // ── Methods ──
     public void get_TextEventType(){} // RVA: 0x9B0B0
-}
-
-public class TextHandleTuple : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7C8BD30
 }
 
 public class TextInput : TextInputBase
@@ -227,6 +290,24 @@ public class TextInput : TextInputBase
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x87C0A0
     public void set_textElement(){} // RVA: 0x894320
@@ -261,6 +342,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -295,6 +394,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -329,6 +446,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -363,6 +498,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -397,6 +550,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -431,6 +602,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -465,6 +654,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -499,6 +706,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -533,6 +758,24 @@ public class TextInputBase : VisualElement
 
 public class TextInputBase : VisualElement
 {
+    public object _textElement;
+    public object scrollView;
+    public object multilineContainer;
+    public object innerComponentsModifierName;
+    public object innerTextElementUssClassName;
+    public object innerTextElementWithScrollViewUssClassName;
+    public object horizontalVariantInnerTextElementUssClassName;
+    public object verticalVariantInnerTextElementUssClassName;
+    public object verticalHorizontalVariantInnerTextElementUssClassName;
+    public object innerScrollviewUssClassName;
+    public object innerViewportUssClassName;
+    public object innerContentContainerUssClassName;
+    public object _isDragging;
+    public object scrollOffset;
+    public object m_ScrollViewWasClamped;
+    public object lastCursorPos;
+    public object verticalScrollerVisibility;
+
     // ── Methods ──
     public void get_textElement(){} // RVA: 0x1667E80
     public void set_textElement(){} // RVA: 0x1665400
@@ -567,6 +810,8 @@ public class TextInputBase : VisualElement
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x87C0A0
     public void .ctor(){} // RVA: 0x894290
@@ -583,6 +828,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EE9D20
@@ -599,6 +846,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EEA820
@@ -615,6 +864,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EEA100
@@ -631,6 +882,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EEA490
@@ -647,6 +900,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EEABB0
@@ -663,6 +918,8 @@ public class TextValueInput : TextInputBase
 
 public class TextValueInput : TextInputBase
 {
+    public object _formatString;
+
     // ── Methods ──
     public void get_textValueFieldParent(){} // RVA: 0x4EE9C90
     public void .ctor(){} // RVA: 0x4EEAF40
@@ -697,8 +954,29 @@ public class TextureId[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class TextureInfo : LinkedPoolItem`1
+{
+    public object page;
+    public object counter;
+    public object alloc;
+    public object rect;
+    public object pool;
+
+    // ── Methods ──
+    public void Create(){} // RVA: 0x7E50380
+    public void Reset(){} // RVA: 0x7E503E0
+    public void .ctor(){} // RVA: 0x7E50470
+    public void .cctor(){} // RVA: 0x7E504A0
+}
+
 public class TextureRectMatrixf : ValueType
 {
+    public object leftRect;
+    public object rightRect;
+    public object leftScaleBias;
+    public object rightScaleBias;
+    public object zero;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA6C0
     public void .cctor(){} // RVA: 0x6BE3490
@@ -706,6 +984,9 @@ public class TextureRectMatrixf : ValueType
 
 public class TfLite : Object
 {
+    public object _parser;
+    public object _unknownFields;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x65607D0
     public void get_Descriptor(){} // RVA: 0x6560830
@@ -725,6 +1006,10 @@ public class TfLite : Object
 
 public class Theme : ApiModel
 {
+    public object _iconColor;
+    public object _buttonColor;
+    public object _subtextColor;
+
     // ── Methods ──
     public void get_iconColor(){} // RVA: 0xBBFF90
     public void set_iconColor(){} // RVA: 0xBBFFA0
@@ -737,6 +1022,8 @@ public class Theme : ApiModel
 
 public class ThreadSafeRandom : Object
 {
+    public object _r;
+
     // ── Methods ──
     public void Next(){} // RVA: 0x6CB3560
     public void .cctor(){} // RVA: 0x6CB3700
@@ -744,6 +1031,71 @@ public class ThreadSafeRandom : Object
 
 public class Threefish1024Cipher : ThreefishCipher
 {
+    public object ROTATION_0_0;
+    public object ROTATION_0_1;
+    public object ROTATION_0_2;
+    public object ROTATION_0_3;
+    public object ROTATION_0_4;
+    public object ROTATION_0_5;
+    public object ROTATION_0_6;
+    public object ROTATION_0_7;
+    public object ROTATION_1_0;
+    public object ROTATION_1_1;
+    public object ROTATION_1_2;
+    public object ROTATION_1_3;
+    public object ROTATION_1_4;
+    public object ROTATION_1_5;
+    public object ROTATION_1_6;
+    public object ROTATION_1_7;
+    public object ROTATION_2_0;
+    public object ROTATION_2_1;
+    public object ROTATION_2_2;
+    public object ROTATION_2_3;
+    public object ROTATION_2_4;
+    public object ROTATION_2_5;
+    public object ROTATION_2_6;
+    public object ROTATION_2_7;
+    public object ROTATION_3_0;
+    public object ROTATION_3_1;
+    public object ROTATION_3_2;
+    public object ROTATION_3_3;
+    public object ROTATION_3_4;
+    public object ROTATION_3_5;
+    public object ROTATION_3_6;
+    public object ROTATION_3_7;
+    public object ROTATION_4_0;
+    public object ROTATION_4_1;
+    public object ROTATION_4_2;
+    public object ROTATION_4_3;
+    public object ROTATION_4_4;
+    public object ROTATION_4_5;
+    public object ROTATION_4_6;
+    public object ROTATION_4_7;
+    public object ROTATION_5_0;
+    public object ROTATION_5_1;
+    public object ROTATION_5_2;
+    public object ROTATION_5_3;
+    public object ROTATION_5_4;
+    public object ROTATION_5_5;
+    public object ROTATION_5_6;
+    public object ROTATION_5_7;
+    public object ROTATION_6_0;
+    public object ROTATION_6_1;
+    public object ROTATION_6_2;
+    public object ROTATION_6_3;
+    public object ROTATION_6_4;
+    public object ROTATION_6_5;
+    public object ROTATION_6_6;
+    public object ROTATION_6_7;
+    public object ROTATION_7_0;
+    public object ROTATION_7_1;
+    public object ROTATION_7_2;
+    public object ROTATION_7_3;
+    public object ROTATION_7_4;
+    public object ROTATION_7_5;
+    public object ROTATION_7_6;
+    public object ROTATION_7_7;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA2D6880
     public void EncryptBlock(){} // RVA: 0xA2D8250
@@ -752,6 +1104,23 @@ public class Threefish1024Cipher : ThreefishCipher
 
 public class Threefish256Cipher : ThreefishCipher
 {
+    public object ROTATION_0_0;
+    public object ROTATION_0_1;
+    public object ROTATION_1_0;
+    public object ROTATION_1_1;
+    public object ROTATION_2_0;
+    public object ROTATION_2_1;
+    public object ROTATION_3_0;
+    public object ROTATION_3_1;
+    public object ROTATION_4_0;
+    public object ROTATION_4_1;
+    public object ROTATION_5_0;
+    public object ROTATION_5_1;
+    public object ROTATION_6_0;
+    public object ROTATION_6_1;
+    public object ROTATION_7_0;
+    public object ROTATION_7_1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA2D6880
     public void EncryptBlock(){} // RVA: 0xA2D6890
@@ -760,6 +1129,39 @@ public class Threefish256Cipher : ThreefishCipher
 
 public class Threefish512Cipher : ThreefishCipher
 {
+    public object ROTATION_0_0;
+    public object ROTATION_0_1;
+    public object ROTATION_0_2;
+    public object ROTATION_0_3;
+    public object ROTATION_1_0;
+    public object ROTATION_1_1;
+    public object ROTATION_1_2;
+    public object ROTATION_1_3;
+    public object ROTATION_2_0;
+    public object ROTATION_2_1;
+    public object ROTATION_2_2;
+    public object ROTATION_2_3;
+    public object ROTATION_3_0;
+    public object ROTATION_3_1;
+    public object ROTATION_3_2;
+    public object ROTATION_3_3;
+    public object ROTATION_4_0;
+    public object ROTATION_4_1;
+    public object ROTATION_4_2;
+    public object ROTATION_4_3;
+    public object ROTATION_5_0;
+    public object ROTATION_5_1;
+    public object ROTATION_5_2;
+    public object ROTATION_5_3;
+    public object ROTATION_6_0;
+    public object ROTATION_6_1;
+    public object ROTATION_6_2;
+    public object ROTATION_6_3;
+    public object ROTATION_7_0;
+    public object ROTATION_7_1;
+    public object ROTATION_7_2;
+    public object ROTATION_7_3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA2D6880
     public void EncryptBlock(){} // RVA: 0xA2D7270
@@ -768,35 +1170,36 @@ public class Threefish512Cipher : ThreefishCipher
 
 public class ThreefishCipher : Object
 {
+    public object t;
+    public object kw;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67462E0
     public void EncryptBlock(){} // RVA: 0x8943B0
     public void DecryptBlock(){} // RVA: 0x8943B0
 }
 
-public class TimeEventHandler : MulticastDelegate
+public class ThrowObservable`1 : Object
 {
+    public object value;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x262AF00
-    public void Invoke(){} // RVA: 0xCA8BF0
+    public void .ctor(){} // RVA: 0x894320
+    public void Subscribe(){} // RVA: 0x87C540
 }
 
-public class TimelineClipUpgrade : Object
+public class Thumb : Object
 {
+    public object metacarpal;
+    public object middle;
+    public object distal;
+    public object aux;
+
     // ── Methods ──
-    public void UpgradeClipInFromGlobalToLocal(){} // RVA: 0x7A88420
+    public void .ctor(){} // RVA: 0xB8AE10
 }
 
-public class TimelineInstance : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-    public void Is(){} // RVA: 0x6CE0A80
-    public void StartCapture(){} // RVA: 0x6CE0BC0
-    public void StopCapture(){} // RVA: 0x6CE0D30
-}
-
-public class TimelineInstance[] : Array
+public class Thumb[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -816,6 +1219,46 @@ public class TimelineInstance[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class TicksPerSecond : ValueType
+{
+    public object m_Numerator;
+    public object m_Denominator;
+    public object DefaultTicksPerSecond;
+    public object TicksPerSecond24;
+    public object TicksPerSecond25;
+    public object TicksPerSecond30;
+    public object TicksPerSecond50;
+    public object TicksPerSecond60;
+    public object TicksPerSecond120;
+    public object TicksPerSecond2397;
+    public object TicksPerSecond2425;
+    public object TicksPerSecond2997;
+    public object TicksPerSecond5994;
+    public object TicksPerSecond11988;
+    public object DiscreteTimeRate;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x95EB50
+    public void Equals(){} // RVA: 0x95EB80
+    public void GetHashCode(){} // RVA: 0x95EC30
+    public void Simplify(){} // RVA: 0x7B48C90
+    public void Gcd(){} // RVA: 0x7B48D40
+    public void .cctor(){} // RVA: 0x7B48D70
+}
+
+public class TimeEventHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x262AF00
+    public void Invoke(){} // RVA: 0xCA8BF0
+}
+
+public class TimelineClipUpgrade : Object
+{
+    // ── Methods ──
+    public void UpgradeClipInFromGlobalToLocal(){} // RVA: 0x7A88420
+}
+
 public class TimerStateScheduledItem : VisualElementScheduledItem`1
 {
     // ── Methods ──
@@ -825,6 +1268,10 @@ public class TimerStateScheduledItem : VisualElementScheduledItem`1
 
 public class TimestampedRenderTexture : Object
 {
+    public object texture;
+    public object timestamp;
+    public object used;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -869,66 +1316,65 @@ public class TimestampedRenderTexture[][] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ToRemoveData : ValueType
+public class ToCoroutineEnumerator : Object
 {
+    public object completed;
+    public object task;
+    public object exceptionHandler;
+    public object isStarted;
+    public object exception;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x9CA150
+    public void .ctor(){} // RVA: 0x7767EB0
+    public void RunTask(){} // RVA: 0x7767F70
+    public void get_Current(){} // RVA: 0xDAC980
+    public void MoveNext(){} // RVA: 0x7768100
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0xB43310
 }
 
-public class ToRemoveData[] : Array
+public class ToCoroutineEnumerator`1 : Object
 {
+    public object completed;
+    public object resultHandler;
+    public object exceptionHandler;
+    public object isStarted;
+    public object task;
+    public object current;
+    public object exception;
+
     // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7EC40
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7ABD0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4700
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34D20
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7ABD0
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0xA94080
+    public void RunTask(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0x87C0A0
+    public void MoveNext(){} // RVA: 0x87D280
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
 }
 
-public class ToggleEvent : UnityEvent`1
+public class ToUniTaskObserver`1 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x81045F0
-}
+    public object callback;
+    public object promise;
+    public object disposable;
+    public object cancellationToken;
+    public object registration;
+    public object hasValue;
+    public object latestValue;
 
-public class TokenHashValue : Object
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6269820
-}
-
-public class TokenHashValue[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0x895C50
+    public void OnCanceled(){} // RVA: 0x894350
+    public void OnNext(){} // RVA: 0xA94080
+    public void OnError(){} // RVA: 0x894320
+    public void OnCompleted(){} // RVA: 0x894290
+    public void .cctor(){} // RVA: 0x8942F0
 }
 
 public class TokenInfo : Info
 {
+    public object _tokens;
+    public object _amount;
+    public object _imageUrl;
+
     // ── Methods ──
     public void get_tokens(){} // RVA: 0xD34760
     public void set_tokens(){} // RVA: 0xD34750
@@ -941,6 +1387,10 @@ public class TokenInfo : Info
 
 public class TrackProgress : Object
 {
+    public object track;
+    public object activeBlocks;
+    public object currentBlockIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA6AEE10
 }
@@ -967,6 +1417,8 @@ public class TrackProgress[] : Array
 
 public class TrackedOptionsInstances : Object
 {
+    public object _all;
+
     // ── Methods ──
     public void get_All(){} // RVA: 0x6D995C0
     public void .cctor(){} // RVA: 0x6D99620
@@ -977,7 +1429,16 @@ public class TrackingChangeHandler : MulticastDelegate
     // ── Methods ──
     public void .ctor(){} // RVA: 0x40E2AD0
     public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6F4EEC0
+    public void BeginInvoke(){} // RVA: 0x6F190D0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class TrackingChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F22840
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
@@ -1010,20 +1471,29 @@ public class TrackingConfidence[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class TrackingData : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x6DE760
-}
-
 public class TrackingReferenceObject : Object
 {
+    public object trackedDeviceClass;
+    public object gameObject;
+    public object renderModel;
+    public object trackedObject;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class TransformData : ValueType
 {
+    public object Float3One;
+    public object localToWorld;
+    public object position;
+    public object rotation;
+    public object localPosition;
+    public object localRotation;
+    public object localScale;
+    public object prevLocalPosition;
+    public object prevLocalRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9C9FD0
     public void UpdateFromUnityTransform(){} // RVA: 0x9C9FE0
@@ -1033,8 +1503,32 @@ public class TransformData : ValueType
     public void .cctor(){} // RVA: 0x82EF110
 }
 
+public class TransformNoiseParams[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7F2C0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7AE10
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4AF0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E35240
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7AE10
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class TransformState : ValueType
 {
+    public object identity;
+    public object position;
+    public object rotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6DE760
     public void ToMatrix(){} // RVA: 0x9C9F40
@@ -1052,18 +1546,36 @@ public class TransformSurrogate : Object
 
 public class TransformToUnitySpaceJob : ValueType
 {
+    public object Vertices;
+    public object Normals;
+    public object UV;
+    public object BoneWeights;
+    public object MeshVerticesPosition;
+    public object MeshNormals;
+    public object MeshUV;
+    public object MeshBoneWeights;
+    public object MeshBoneIndices;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x8D04D0
 }
 
 public class TransformTrianglesJob : ValueType
 {
+    public object Triangles;
+    public object MeshIndices;
+    public object NumIndices;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x8D04E0
 }
 
 public class TransientBuildData : ValueType
 {
+    public object trackList;
+    public object clipList;
+    public object markerList;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x7A96140
     public void Clear(){} // RVA: 0x946E70
@@ -1071,6 +1583,12 @@ public class TransientBuildData : ValueType
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void GetPooledQueue(){} // RVA: 0x87C0D0
     public void RegisterChange(){} // RVA: 0x894290
@@ -1083,6 +1601,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F29290
     public void GetPooledQueue(){} // RVA: 0x4F28E80
@@ -1094,6 +1618,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F26AE0
     public void GetPooledQueue(){} // RVA: 0x4F266D0
@@ -1105,6 +1635,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F272D0
     public void GetPooledQueue(){} // RVA: 0x4F26EC0
@@ -1116,6 +1652,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F25B00
     public void GetPooledQueue(){} // RVA: 0x4F256F0
@@ -1127,6 +1669,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F23B40
     public void GetPooledQueue(){} // RVA: 0x4F23700
@@ -1138,6 +1686,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F262F0
     public void GetPooledQueue(){} // RVA: 0x4F25EE0
@@ -1149,6 +1703,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F27AC0
     public void GetPooledQueue(){} // RVA: 0x4F276B0
@@ -1160,6 +1720,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F29A80
     public void GetPooledQueue(){} // RVA: 0x4F29670
@@ -1171,6 +1737,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F28AA0
     public void GetPooledQueue(){} // RVA: 0x4F28690
@@ -1182,6 +1754,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F282B0
     public void GetPooledQueue(){} // RVA: 0x4F27EA0
@@ -1193,6 +1771,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F2AA60
     public void GetPooledQueue(){} // RVA: 0x4F2A650
@@ -1204,6 +1788,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F2A270
     public void GetPooledQueue(){} // RVA: 0x4F29E60
@@ -1215,6 +1805,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F24330
     public void GetPooledQueue(){} // RVA: 0x4F23F20
@@ -1226,6 +1822,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F24B20
     public void GetPooledQueue(){} // RVA: 0x4F24710
@@ -1237,6 +1839,12 @@ public class TransitionEventsFrameState : Object
 
 public class TransitionEventsFrameState : Object
 {
+    public object k_EventQueuePool;
+    public object elementPropertyStateDelta;
+    public object elementPropertyQueuedEvents;
+    public object panel;
+    public object m_ChangesCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F25310
     public void GetPooledQueue(){} // RVA: 0x4F24F00
@@ -1246,14 +1854,32 @@ public class TransitionEventsFrameState : Object
     public void Clear(){} // RVA: 0x4F24FD0
 }
 
-public class TriggerEvent : UnityEvent`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x81151D0
-}
-
 public class TriggerEvent : Object
 {
+    public object TriggerType;
+    public object BroadcastType;
+    public object Events;
+    public object Name;
+    public object Others;
+    public object Key;
+    public object TriggerIndividuals;
+    public object Layers;
+    public object Repeat;
+    public object LowPeriodTime;
+    public object HighPeriodTime;
+    public object ResetOnEnable;
+    public object EventFired;
+    public object Duration;
+    public object Timer;
+    public object DataElementIdx;
+    public object DataStorageShadowValues;
+    public object AfterSeconds;
+    public object ProbabilityLock;
+    public object Probabilities;
+    public object MidiChannel;
+    public object MidiNote;
+    public object OscAddr;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA73E620
 }
@@ -1280,6 +1906,28 @@ public class TriggerEvent[] : Array
 
 public class TriggerState : ValueType
 {
+    public object kMaxNumMaps;
+    public object kMaxNumControls;
+    public object kMaxNumBindings;
+    public object m_Phase;
+    public object m_Flags;
+    public object m_MapIndex;
+    public object m_ControlIndex;
+    public object m_Time;
+    public object m_StartTime;
+    public object m_BindingIndex;
+    public object m_InteractionIndex;
+    public object m_Magnitude;
+    public object m_LastPerformedInUpdate;
+    public object m_LastCanceledInUpdate;
+    public object m_PressedInUpdate;
+    public object m_ReleasedInUpdate;
+    public object m_LastCompletedInUpdate;
+    public object framePerformed;
+    public object framePressed;
+    public object frameReleased;
+    public object frameCompleted;
+
     // ── Methods ──
     public void get_phase(){} // RVA: 0x90520
     public void set_phase(){} // RVA: 0x90530
@@ -1329,21 +1977,55 @@ public class TriggerState : ValueType
     public void set_flags(){} // RVA: 0x541E0
 }
 
-public class TryCode : MulticastDelegate
+public class TrigonometricBone : Bone
 {
+    public object targetToLocalSpace;
+    public object defaultLocalBendNormal;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xBC4530
-    public void Invoke(){} // RVA: 0xB9E010
+    public void Initiate(){} // RVA: 0xC60860
+    public void GetRotation(){} // RVA: 0xC60D80
+    public void GetBendNormalFromCurrentRotation(){} // RVA: 0xC60FA0
+    public void .ctor(){} // RVA: 0xC5B180
 }
 
 public class TweenData : Object
 {
+    public object tween;
+    public object callback;
+    public object eventName;
+    public object rewindCallback;
+    public object rewindEventName;
+    public object target;
+    public object componentTarget;
+    public object updateCallback;
+    public object updateEventName;
+    public object updateVariableName;
+    public object restartedInCallback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class TypeCollections : Object
+{
+    public object KeyTypes;
+    public object TimerTypes;
+    public object InteractiveTypes;
+    public object ColliderTypes;
+    public object TriggerTypes;
+    public object PickupTypes;
+    public object DataStorageTypes;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0xA73E140
+}
+
 public class TypeConvertKey : ValueType
 {
+    public object _initialType;
+    public object _targetType;
+
     // ── Methods ──
     public void get_InitialType(){} // RVA: 0x77900
     public void get_TargetType(){} // RVA: 0x77ED0
@@ -1354,6 +2036,10 @@ public class TypeConvertKey : ValueType
 
 public class TypeData : Object
 {
+    public object _type;
+    public object m_FullTypeName;
+    public object m_TypeName;
+
     // ── Methods ──
     public void get_type(){} // RVA: 0xB5DBF0
     public void .ctor(){} // RVA: 0x7EC64E0
@@ -1363,6 +2049,9 @@ public class TypeData : Object
 
 public class TypeNameKey : ValueType
 {
+    public object AssemblyName;
+    public object TypeName;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
     public void GetHashCode(){} // RVA: 0x9B1B30
@@ -1371,6 +2060,9 @@ public class TypeNameKey : ValueType
 
 public class TypeSchema : Object
 {
+    public object _type;
+    public object _schema;
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0xB5DBF0
     public void get_Schema(){} // RVA: 0xB465B0

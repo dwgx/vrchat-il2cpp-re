@@ -61,6 +61,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class EnumDataUtility : Object
     {
+        public object s_EnumData;
+
         // ── Methods ──
         public void GetCachedEnumData(){} // RVA: 0x7BFBC40
         public void HandleInspectorOrderAttribute(){} // RVA: 0x7BFD730
@@ -73,6 +75,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Event : Object
     {
+        public object m_Ptr;
+        public object scrollWheelDeltaPerTick;
+        public object ignoreGuiDepth;
+        public object s_Current;
+        public object s_MasterEvent;
+
         // ── Methods ──
         public void get_rawType(){} // RVA: 0x7C61410
         public void get_mousePosition(){} // RVA: 0x7C61480
@@ -165,6 +173,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class EventInterests : ValueType
     {
+        public object _wantsMouseMove;
+        public object _wantsMouseEnterLeaveWindow;
+        public object _wantsLessLayoutEvents;
+
         // ── Methods ──
         public void get_wantsMouseMove(){} // RVA: 0x90520
         public void set_wantsMouseMove(){} // RVA: 0x90530
@@ -307,24 +319,36 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ExposedReference`1 : ValueType
     {
+        public object exposedName;
+        public object defaultValue;
+
         // ── Methods ──
         public void Resolve(){} // RVA: 0xA94080
     }
 
     public class ExposedReference`1 : ValueType
     {
+        public object exposedName;
+        public object defaultValue;
+
         // ── Methods ──
         public void Resolve(){} // RVA: 0x2A8820
     }
 
     public class ExposedReference`1 : ValueType
     {
+        public object exposedName;
+        public object defaultValue;
+
         // ── Methods ──
         public void Resolve(){} // RVA: 0x2A8820
     }
 
     public class ExpressionEvaluator : Object
     {
+        public object s_Random;
+        public object s_Operators;
+
         // ── Methods ──
         public void Evaluate(){} // RVA: 0x880B90
         public void EvaluateTokens(){} // RVA: 0xA94080

@@ -23,6 +23,16 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Default
 
     public class WinProductDescription : Object
     {
+        public object _platformSpecificID;
+        public object _price;
+        public object _title;
+        public object _description;
+        public object _iSOCurrencyCode;
+        public object _priceDecimal;
+        public object _receipt;
+        public object _transactionID;
+        public object _consumable;
+
         // ── Methods ──
         public void set_platformSpecificID(){} // RVA: 0xB44D60
         public void set_price(){} // RVA: 0xBA9BA0

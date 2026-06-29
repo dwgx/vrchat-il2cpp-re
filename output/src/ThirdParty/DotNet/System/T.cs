@@ -7,6 +7,51 @@ namespace ThirdParty.DotNet.System
 {
     public class TermInfoDriver : Object
     {
+        public object native_terminal_size;
+        public object terminal_size;
+        public object locations;
+        public object reader;
+        public object cursorLeft;
+        public object cursorTop;
+        public object title;
+        public object titleFormat;
+        public object cursorVisible;
+        public object csrVisible;
+        public object csrInvisible;
+        public object clear;
+        public object bell;
+        public object term;
+        public object stdin;
+        public object stdout;
+        public object windowWidth;
+        public object windowHeight;
+        public object bufferHeight;
+        public object bufferWidth;
+        public object buffer;
+        public object readpos;
+        public object writepos;
+        public object keypadXmit;
+        public object keypadLocal;
+        public object inited;
+        public object initLock;
+        public object initKeys;
+        public object origPair;
+        public object origColors;
+        public object cursorAddress;
+        public object fgcolor;
+        public object setfgcolor;
+        public object setbgcolor;
+        public object maxColors;
+        public object noGetPosition;
+        public object keymap;
+        public object rootmap;
+        public object rl_startx;
+        public object rl_starty;
+        public object control_characters;
+        public object _consoleColorToAnsiCode;
+        public object echobuf;
+        public object echon;
+
         // ── Methods ──
         public void TryTermInfoDir(){} // RVA: 0x6984640
         public void SearchTerminfo(){} // RVA: 0x69849B0
@@ -44,6 +89,13 @@ namespace ThirdParty.DotNet.System
 
     public class TermInfoReader : Object
     {
+        public object boolSize;
+        public object numSize;
+        public object strOffsets;
+        public object buffer;
+        public object booleansOffset;
+        public object intOffset;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x698C1C0
         public void DetermineVersion(){} // RVA: 0x698C2A0
@@ -64,7 +116,7 @@ namespace ThirdParty.DotNet.System
     public class ThrowHelper : Object
     {
         // ── Methods ──
-        public void IfNullAndNullsAreIllegalThenThrow(){} // RVA: 0x2A38B30
+        public void IfNullAndNullsAreIllegalThenThrow(){} // RVA: 0x18F3EB0
         public void ThrowArgumentNullException(){} // RVA: 0x693EB10
         public void CreateArgumentNullException(){} // RVA: 0x693EB40
         public void ThrowArrayTypeMismatchException(){} // RVA: 0x693EC00
@@ -199,6 +251,10 @@ namespace ThirdParty.DotNet.System
 
     public class TimeProvider : Object
     {
+        public object _system;
+        public object s_minDateTicks;
+        public object s_maxDateTicks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void GetUtcNow(){} // RVA: 0x6602640
@@ -208,6 +264,11 @@ namespace ThirdParty.DotNet.System
 
     public class TimeSpan : ValueType
     {
+        public object Zero;
+        public object MaxValue;
+        public object MinValue;
+        public object _ticks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BC240
         public void get_Ticks(){} // RVA: 0x77900
@@ -279,6 +340,9 @@ namespace ThirdParty.DotNet.System
 
     public class TimeZone : Object
     {
+        public object currentTimeZone;
+        public object s_InternalSyncObject;
+
         // ── Methods ──
         public void get_InternalSyncObject(){} // RVA: 0x69324C0
         public void .ctor(){} // RVA: 0xB43310
@@ -290,6 +354,21 @@ namespace ThirdParty.DotNet.System
 
     public class TimeZoneInfo : Object
     {
+        public object lazyHaveRegistry;
+        public object _id;
+        public object _displayName;
+        public object _standardDisplayName;
+        public object _daylightDisplayName;
+        public object _baseUtcOffset;
+        public object _supportsDaylightSavingTime;
+        public object _adjustmentRules;
+        public object s_utcTimeZone;
+        public object s_cachedData;
+        public object s_maxDateOnly;
+        public object s_minDateOnly;
+        public object MaxOffset;
+        public object MinOffset;
+
         // ── Methods ──
         public void GetAdjustmentRules(){} // RVA: 0x67D2130
         public void PopulateAllSystemTimeZones(){} // RVA: 0x67D21D0
@@ -416,6 +495,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xA94080
         public void get_Item2(){} // RVA: 0xA94080
@@ -433,6 +515,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -450,6 +535,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -467,6 +555,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -484,6 +575,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -501,6 +595,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -518,6 +615,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -535,6 +635,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -552,6 +655,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -569,6 +675,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xB5DBF0
         public void get_Item2(){} // RVA: 0xB465B0
@@ -586,6 +695,29 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0xB5DBF0
+        public void get_Item2(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void Equals(){} // RVA: 0x4F37100
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4F37180
+        public void System.IComparable.CompareTo(){} // RVA: 0x4F37280
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4F37300
+        public void GetHashCode(){} // RVA: 0x4F37480
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4F374F0
+        public void ToString(){} // RVA: 0x4F37580
+        public void System.ITupleInternal.ToString(){} // RVA: 0x4F37650
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xC50A80
+    }
+
+    public class Tuple`2 : Object
+    {
+        public object m_Item1;
+        public object m_Item2;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0x87C0A0
         public void get_Item2(){} // RVA: 0xAD0950
@@ -603,23 +735,9 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`2 : Object
     {
-        // ── Methods ──
-        public void get_Item1(){} // RVA: 0xB5DBF0
-        public void get_Item2(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0x17C92C0
-        public void Equals(){} // RVA: 0x4F37100
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4F37180
-        public void System.IComparable.CompareTo(){} // RVA: 0x4F37280
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4F37300
-        public void GetHashCode(){} // RVA: 0x4F37480
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4F374F0
-        public void ToString(){} // RVA: 0x4F37580
-        public void System.ITupleInternal.ToString(){} // RVA: 0x4F37650
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xC50A80
-    }
+        public object m_Item1;
+        public object m_Item2;
 
-    public class Tuple`2 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F35120
         public void get_Item1(){} // RVA: 0x22343B0
@@ -837,6 +955,10 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`3 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+        public object m_Item3;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xA94080
         public void get_Item2(){} // RVA: 0xA94080
@@ -855,6 +977,11 @@ namespace ThirdParty.DotNet.System
 
     public class Tuple`4 : Object
     {
+        public object m_Item1;
+        public object m_Item2;
+        public object m_Item3;
+        public object m_Item4;
+
         // ── Methods ──
         public void get_Item1(){} // RVA: 0xA94080
         public void get_Item2(){} // RVA: 0xA94080
@@ -874,6 +1001,15 @@ namespace ThirdParty.DotNet.System
 
     public class Type : MemberInfo
     {
+        public object s_defaultBinder;
+        public object Delimiter;
+        public object EmptyTypes;
+        public object Missing;
+        public object FilterAttribute;
+        public object FilterName;
+        public object FilterNameIgnoreCase;
+        public object _impl;
+
         // ── Methods ──
         public void IsEnumDefined(){} // RVA: 0x6932DD0
         public void GetEnumName(){} // RVA: 0x6933410
@@ -1039,6 +1175,8 @@ namespace ThirdParty.DotNet.System
 
     public class TypeInitializationException : SystemException
     {
+        public object _typeName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6938360
         public void GetObjectData(){} // RVA: 0x6938470
@@ -1047,6 +1185,11 @@ namespace ThirdParty.DotNet.System
 
     public class TypeLoadException : SystemException
     {
+        public object ClassName;
+        public object AssemblyName;
+        public object MessageArg;
+        public object ResourceId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6970DD0
         public void get_Message(){} // RVA: 0x69707D0
@@ -1068,6 +1211,14 @@ namespace ThirdParty.DotNet.System
 
     public class TypeSpec : Object
     {
+        public object name;
+        public object assembly_name;
+        public object nested;
+        public object generic_params;
+        public object modifier_spec;
+        public object is_byref;
+        public object display_fullname;
+
         // ── Methods ──
         public void get_HasModifiers(){} // RVA: 0x5BC22D0
         public void GetDisplayFullName(){} // RVA: 0x698D590
@@ -1106,6 +1257,10 @@ namespace ThirdParty.DotNet.System
 
     public class TypedReference : ValueType
     {
+        public object type;
+        public object Value;
+        public object Type;
+
         // ── Methods ──
         public void MakeTypedReference(){} // RVA: 0x696FF00
         public void InternalMakeTypedReference(){} // RVA: 0x6970530

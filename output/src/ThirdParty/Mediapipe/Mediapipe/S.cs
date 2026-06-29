@@ -32,6 +32,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class SerializedProto : ValueType
     {
+        public object _str;
+        public object _length;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x8A5990
         public void Deserialize(){} // RVA: 0xA94080
@@ -40,6 +43,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class SerializedProtoVector : ValueType
     {
+        public object _data;
+        public object _size;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x8A59F0
         public void Deserialize(){} // RVA: 0x8943B0
@@ -55,6 +61,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Status : MpResourceHandle
     {
+        public object _ok;
+        public object _rawCode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4848120
         public void DeleteMpPtr(){} // RVA: 0x6553310
@@ -68,6 +77,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusArgs : ValueType
     {
+        public object _code;
+        public object _message;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A5B90
         public void Ok(){} // RVA: 0x6553150
@@ -78,6 +90,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusHandlerConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object StatusHandlerDefaultValue;
+        public object statusHandler_;
+        public object _repeated_inputSidePacket_codec;
+        public object inputSidePacket_;
+        public object _repeated_externalInput_codec;
+        public object externalInput_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A4000
         public void get_Descriptor(){} // RVA: 0x65A4060
@@ -105,6 +127,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StatusHandlerReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x65A3980
         public void .cctor(){} // RVA: 0x65A39E0
@@ -120,6 +144,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class StreamHandlerReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x65A5620
         public void .cctor(){} // RVA: 0x65A5680

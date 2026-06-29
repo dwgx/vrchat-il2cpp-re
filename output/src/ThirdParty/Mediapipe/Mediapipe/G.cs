@@ -16,6 +16,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlContext : MpResourceHandle
     {
+        public object _sharedPtrHandle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6555910
         public void DisposeManaged(){} // RVA: 0x6555A60
@@ -24,6 +26,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlSyncPoint : MpResourceHandle
     {
+        public object _sharedPtrHandle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6555C20
         public void DisposeManaged(){} // RVA: 0x6555A60
@@ -39,33 +43,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x3F1F9A0
-        public void Remove(){} // RVA: 0x3F1FE60
-        public void TryGetValue(){} // RVA: 0x3F1FCD0
-        public void .ctor(){} // RVA: 0x3F1F790
-    }
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
 
-    public class GlobalInstanceTable`2 : Object
-    {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x3F1F9A0
-        public void Remove(){} // RVA: 0x3F1FE60
-        public void TryGetValue(){} // RVA: 0x3F1FCD0
-        public void .ctor(){} // RVA: 0x3F1F790
-    }
-
-    public class GlobalInstanceTable`2 : Object
-    {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x3F1F9A0
-        public void Remove(){} // RVA: 0x3F1FE60
-        public void TryGetValue(){} // RVA: 0x3F1FCD0
-        public void .ctor(){} // RVA: 0x3F1F790
-    }
-
-    public class GlobalInstanceTable`2 : Object
-    {
         // ── Methods ──
         public void get_maxSize(){} // RVA: 0x87C130
         public void set_maxSize(){} // RVA: 0x8944F0
@@ -78,6 +59,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -87,6 +72,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -96,6 +85,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -105,6 +98,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -114,6 +111,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -123,6 +124,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -132,6 +137,49 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GlobalInstanceTable`2 : Object
     {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x3F1F9A0
+        public void Remove(){} // RVA: 0x3F1FE60
+        public void TryGetValue(){} // RVA: 0x3F1FCD0
+        public void .ctor(){} // RVA: 0x3F1F790
+    }
+
+    public class GlobalInstanceTable`2 : Object
+    {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x3F1F9A0
+        public void Remove(){} // RVA: 0x3F1FE60
+        public void TryGetValue(){} // RVA: 0x3F1FCD0
+        public void .ctor(){} // RVA: 0x3F1F790
+    }
+
+    public class GlobalInstanceTable`2 : Object
+    {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x3F1F9A0
+        public void Remove(){} // RVA: 0x3F1FE60
+        public void TryGetValue(){} // RVA: 0x3F1FCD0
+        public void .ctor(){} // RVA: 0x3F1F790
+    }
+
+    public class GlobalInstanceTable`2 : Object
+    {
+        public object _tableLock;
+        public object _table;
+        public object _maxSize;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3F1F9A0
         public void Remove(){} // RVA: 0x3F1FE60
@@ -141,6 +189,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Glog : Object
     {
+        public object _Logtostderr;
+        public object _Stderrthreshold;
+        public object _Minloglevel;
+        public object _V;
+
         // ── Methods ──
         public void set_Logtostderr(){} // RVA: 0x654E740
         public void get_Stderrthreshold(){} // RVA: 0x654E840
@@ -162,6 +215,9 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuOrigin : Object
     {
+        public object _parser;
+        public object _unknownFields;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A8BC0
         public void get_Descriptor(){} // RVA: 0x65A8C20
@@ -181,6 +237,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuOriginReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x65A86A0
         public void .cctor(){} // RVA: 0x65A8700
@@ -188,6 +246,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class GpuResources : MpResourceHandle
     {
+        public object _sharedPtrHandle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6556020
         public void DisposeManaged(){} // RVA: 0x6555A60

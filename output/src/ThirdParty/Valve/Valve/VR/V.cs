@@ -47,6 +47,15 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VRControllerState_t_Packed : ValueType
     {
+        public object unPacketNum;
+        public object ulButtonPressed;
+        public object ulButtonTouched;
+        public object rAxis0;
+        public object rAxis1;
+        public object rAxis2;
+        public object rAxis3;
+        public object rAxis4;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8E3760
         public void Unpack(){} // RVA: 0x8E3800
@@ -54,12 +63,28 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class VREvent_Keyboard_t : ValueType
     {
+        public object cNewInput0;
+        public object cNewInput1;
+        public object cNewInput2;
+        public object cNewInput3;
+        public object cNewInput4;
+        public object cNewInput5;
+        public object cNewInput6;
+        public object cNewInput7;
+        public object uUserValue;
+        public object overlayHandle;
+
         // ── Methods ──
         public void get_cNewInput(){} // RVA: 0x9572A0
     }
 
     public class VREvent_t_Packed : ValueType
     {
+        public object eventType;
+        public object trackedDeviceIndex;
+        public object eventAgeSeconds;
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9573B0
         public void Unpack(){} // RVA: 0x9573F0

@@ -9,7 +9,7 @@ namespace VRC.Core.Networking.Tools
     {
         // ── Methods ──
         public void FromBytesInternal(){} // RVA: 0xA94080
-        public void GetBytesInternal(){} // RVA: 0x3014590
+        public void GetBytesInternal(){} // RVA: 0xA94080
         public void get_IsLittleEndian(){} // RVA: 0xC2E4C0
         public void GetBytes(){} // RVA: 0x8279620
         public void ToBool(){} // RVA: 0x8279750
@@ -24,6 +24,10 @@ namespace VRC.Core.Networking.Tools
 
     public class BunchCollection : Object
     {
+        public object _bunches;
+        public object _count;
+        public object _hash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x827A0C0
         public void AddBunch(){} // RVA: 0x827A3E0
@@ -36,6 +40,16 @@ namespace VRC.Core.Networking.Tools
 
     public class ByteManipulation : Object
     {
+        public object _oneByteArray;
+        public object _twoByteArray;
+        public object _fourByteArray;
+        public object _eightByteArray;
+        public object Uint16ToBytesHelper;
+        public object Uint32ToBytesHelper;
+        public object FloatToBytesHelper;
+        public object Uint64ToBytesHelper;
+        public object BitsToBytes;
+
         // ── Methods ──
         public void get_OneByteArray(){} // RVA: 0x827AF00
         public void get_TwoByteArray(){} // RVA: 0x827B040

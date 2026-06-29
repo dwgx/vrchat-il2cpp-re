@@ -7,6 +7,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class ATGTextEventHandler : Object
     {
+        public object m_TextElement;
+        public object m_LinkTagOnPointerDown;
+        public object m_LinkTagOnPointerUp;
+        public object m_LinkTagOnPointerMove;
+        public object m_LinkTagOnPointerOut;
+        public object m_HyperlinkOnPointerUp;
+        public object m_HyperlinkOnPointerMove;
+        public object m_HyperlinkOnPointerOver;
+        public object m_HyperlinkOnPointerOut;
+        public object isOverridingCursor;
+        public object currentLinkIDHash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EED2D0
         public void OnDestroy(){} // RVA: 0x7EED3D0
@@ -30,6 +42,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ATGTextJobSystem : Object
     {
+        public object textJobDatasHandle;
+        public object textJobDatas;
+        public object hasPendingTextWork;
+        public object s_JobDataPool;
+        public object m_GenerateTextJobifiedCallback;
+        public object m_AddDrawEntriesCallback;
+        public object k_GenerateTextMarker;
+        public object k_ATGTextJobMarker;
+        public object k_IsMultiThreaded;
+        public object atlases;
+        public object sdfScalesArray;
+        public object verticesArray;
+        public object indicesArray;
+        public object renderModes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EF31B0
         public void GenerateText(){} // RVA: 0x7EF3670
@@ -41,6 +68,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class AbstractProgressBar : BindableElement
     {
+        public object titleProperty;
+        public object lowValueProperty;
+        public object highValueProperty;
+        public object valueProperty;
+        public object ussClassName;
+        public object containerUssClassName;
+        public object titleUssClassName;
+        public object titleContainerUssClassName;
+        public object progressUssClassName;
+        public object backgroundUssClassName;
+        public object m_Background;
+        public object m_Progress;
+        public object m_Title;
+        public object m_LowValue;
+        public object m_HighValue;
+        public object m_Value;
+
         // ── Methods ──
         public void get_title(){} // RVA: 0x800E990
         public void set_title(){} // RVA: 0x800E9C0
@@ -68,6 +112,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class AncestorFilter : Object
     {
+        public object m_CountingBloomFilter;
+        public object m_HashStack;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x803D2D0
         public void AddHash(){} // RVA: 0x803D390
@@ -78,6 +125,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Angle : ValueType
     {
+        public object m_Value;
+        public object m_Unit;
+
         // ── Methods ──
         public void None(){} // RVA: 0x80B14E0
         public void get_value(){} // RVA: 0x88D10
@@ -96,6 +146,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class AtlasBase : Object
     {
+        public object textureRegistry;
+
         // ── Methods ──
         public void TryGetAtlas(){} // RVA: 0x7E4EAA0
         public void ReturnAtlas(){} // RVA: 0xB43310

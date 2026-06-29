@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Label : TextElement
     {
+        public object ussClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FF3500
         public void .cctor(){} // RVA: 0x7FF35C0
@@ -20,6 +22,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class LayoutData : ValueType
     {
+        public object alignContent;
+        public object alignItems;
+        public object alignSelf;
+        public object borderBottomWidth;
+        public object borderLeftWidth;
+        public object borderRightWidth;
+        public object borderTopWidth;
+        public object bottom;
+        public object display;
+        public object flexBasis;
+        public object flexDirection;
+        public object flexGrow;
+        public object flexShrink;
+        public object flexWrap;
+        public object height;
+        public object justifyContent;
+        public object left;
+        public object marginBottom;
+        public object marginLeft;
+        public object marginRight;
+        public object marginTop;
+        public object maxHeight;
+        public object maxWidth;
+        public object minHeight;
+        public object minWidth;
+        public object paddingBottom;
+        public object paddingLeft;
+        public object paddingRight;
+        public object paddingTop;
+        public object position;
+        public object right;
+        public object top;
+        public object width;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x9960C0
         public void CopyFrom(){} // RVA: 0x996150
@@ -30,6 +66,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Length : ValueType
     {
+        public object k_MaxValue;
+        public object m_Value;
+        public object m_Unit;
+
         // ── Methods ──
         public void Percent(){} // RVA: 0x7ED6870
         public void Auto(){} // RVA: 0x7ED68B0
@@ -51,6 +91,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListView : BaseListView
     {
+        public object itemTemplateProperty;
+        public object makeItemProperty;
+        public object bindItemProperty;
+        public object unbindItemProperty;
+        public object destroyItemProperty;
+        public object m_MakeItem;
+        public object m_TemplateMakeItem;
+        public object m_ItemTemplate;
+        public object m_BindItem;
+        public object m_UnbindItem;
+        public object m_DestroyItem;
+
         // ── Methods ──
         public void get_makeItem(){} // RVA: 0x164ECC0
         public void set_makeItem(){} // RVA: 0x7FF36D0
@@ -82,6 +134,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListViewDragger : DragEventsProcessor
     {
+        public object m_LastDragPosition;
+        public object m_DragHoverBar;
+        public object m_DragHoverItemMarker;
+        public object m_DragHoverSiblingMarker;
+        public object m_LeftIndentation;
+        public object m_SiblingBottom;
+        public object m_Enabled;
+        public object _dragAndDropController;
+
         // ── Methods ──
         public void get_targetView(){} // RVA: 0x804A010
         public void get_targetScrollView(){} // RVA: 0x804A090
@@ -114,6 +175,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListViewDraggerAnimated : ListViewDragger
     {
+        public object m_DragStartIndex;
+        public object m_CurrentIndex;
+        public object m_SelectionHeight;
+        public object m_LocalOffsetOnStart;
+        public object m_CurrentPointerPosition;
+        public object m_Item;
+        public object m_OffsetItem;
+        public object _isDragging;
+
         // ── Methods ──
         public void get_isDragging(){} // RVA: 0x2009180
         public void set_isDragging(){} // RVA: 0x20097F0
@@ -137,6 +207,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ListViewReorderableDragAndDropController : BaseReorderableDragAndDropController
     {
+        public object m_ListView;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80505B0
         public void HandleDragAndDrop(){} // RVA: 0x8050620
@@ -152,6 +224,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class LongField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_longInput(){} // RVA: 0x7FF4A60
         public void ValueToString(){} // RVA: 0x7FF4AF0

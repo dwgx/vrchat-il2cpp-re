@@ -7,6 +7,9 @@ namespace ThirdParty.Other.TMPro
 {
     public class LigatureSubstitutionRecord : ValueType
     {
+        public object m_ComponentGlyphIDs;
+        public object m_LigatureGlyphID;
+
         // ── Methods ──
         public void get_componentGlyphIDs(){} // RVA: 0x77900
         public void set_componentGlyphIDs(){} // RVA: 0x47F10

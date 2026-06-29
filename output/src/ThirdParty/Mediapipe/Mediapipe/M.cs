@@ -7,6 +7,18 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class MatrixData : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object RowsDefaultValue;
+        public object rows_;
+        public object ColsDefaultValue;
+        public object cols_;
+        public object _repeated_packedData_codec;
+        public object packedData_;
+        public object LayoutDefaultValue;
+        public object layout_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6597660
         public void get_Descriptor(){} // RVA: 0x65976C0
@@ -39,6 +51,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MatrixDataReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6596FC0
         public void .cctor(){} // RVA: 0x6597020
@@ -52,6 +66,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediaPipeOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _extensions;
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0xB465B0
         public void get_Parser(){} // RVA: 0x659BC80
@@ -83,6 +101,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MediapipeOptionsReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x659B830
         public void .cctor(){} // RVA: 0x659B890
@@ -90,6 +110,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class MpResourceHandle : DisposableObject
     {
+        public object _ptr;
+
         // ── Methods ──
         public void get_ptr(){} // RVA: 0xB465B0
         public void set_ptr(){} // RVA: 0x654DE30

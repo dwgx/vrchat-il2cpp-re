@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.Android
 {
     public class AndroidApplication : Object
     {
+        public object m_MainThreadSynchronizationContext;
+        public object m_CurrentConfiguration;
+        public object onConfigurationChanged;
+
         // ── Methods ──
         public void get_UnityPlayerRaw(){} // RVA: 0x7AFB0C0
         public void AcquireMainThreadSynchronizationContext(){} // RVA: 0x7AFB110
@@ -37,6 +41,27 @@ namespace ThirdParty.Unity.UnityEngine.Android
 
     public class AndroidConfiguration : Object
     {
+        public object _colorMode;
+        public object _densityDpi;
+        public object _fontScale;
+        public object _fontWeightAdjustment;
+        public object _keyboard;
+        public object _hardKeyboardHidden;
+        public object _keyboardHidden;
+        public object _mobileCountryCode;
+        public object _mobileNetworkCode;
+        public object _navigation;
+        public object _navigationHidden;
+        public object _orientation;
+        public object _screenHeightDp;
+        public object _screenWidthDp;
+        public object _smallestScreenWidthDp;
+        public object _screenLayout;
+        public object _touchScreen;
+        public object _uiMode;
+        public object _primaryLocaleCountry;
+        public object _primaryLocaleLanguage;
+
         // ── Methods ──
         public void get_colorMode(){} // RVA: 0xB8F8F0
         public void get_densityDpi(){} // RVA: 0x116A650
@@ -92,6 +117,9 @@ namespace ThirdParty.Unity.UnityEngine.Android
 
     public class AndroidLocale : Object
     {
+        public object _country;
+        public object _language;
+
         // ── Methods ──
         public void get_country(){} // RVA: 0xB5DBF0
         public void get_language(){} // RVA: 0xB465B0

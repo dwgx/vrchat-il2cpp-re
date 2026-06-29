@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 {
     public class Capture : Object
     {
+        public object _index;
+        public object _length;
+        public object _text;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x765D6F0
         public void get_Index(){} // RVA: 0xB8F8F0
@@ -23,6 +27,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class CaptureCollection : Object
     {
+        public object _group;
+        public object _capcount;
+        public object _captures;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x765E600
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -78,6 +86,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class ExclusiveReference : Object
     {
+        public object _ref;
+        public object _obj;
+        public object _locked;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x7662360
         public void Release(){} // RVA: 0x76623E0
@@ -86,6 +98,12 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Group : Capture
     {
+        public object s_emptyGroup;
+        public object _caps;
+        public object _capcount;
+        public object _capcoll;
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x765EB70
         public void get_Success(){} // RVA: 0x765E8A0
@@ -97,6 +115,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class GroupCollection : Object
     {
+        public object _match;
+        public object _captureMap;
+        public object _groups;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x765FF10
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -152,6 +174,17 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Match : Group
     {
+        public object _groupcoll;
+        public object _regex;
+        public object _textbeg;
+        public object _textpos;
+        public object _textend;
+        public object _textstart;
+        public object _matches;
+        public object _matchcount;
+        public object _balancing;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7661140
         public void get_Empty(){} // RVA: 0x7660260
@@ -174,6 +207,15 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class MatchCollection : Object
     {
+        public object _regex;
+        public object _matches;
+        public object _done;
+        public object _input;
+        public object _beginning;
+        public object _length;
+        public object _startat;
+        public object _prevlen;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7662260
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -216,6 +258,8 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class MatchSparse : Match
     {
+        public object _caps;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7661170
         public void get_Groups(){} // RVA: 0x7661270
@@ -243,6 +287,30 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class Regex : Object
     {
+        public object CacheDictionarySwitchLimit;
+        public object s_cacheSize;
+        public object s_cache;
+        public object s_cacheCount;
+        public object s_cacheFirst;
+        public object s_cacheLast;
+        public object s_maximumMatchTimeout;
+        public object DefaultMatchTimeout_ConfigKeyName;
+        public object s_defaultMatchTimeout;
+        public object InfiniteMatchTimeout;
+        public object internalMatchTimeout;
+        public object MaxOptionShift;
+        public object pattern;
+        public object roptions;
+        public object factory;
+        public object caps;
+        public object capnames;
+        public object capslist;
+        public object capsize;
+        public object _runnerref;
+        public object _replref;
+        public object _code;
+        public object _refsInitialized;
+
         // ── Methods ──
         public void get_CacheSize(){} // RVA: 0x76624F0
         public void set_CacheSize(){} // RVA: 0x7662550
@@ -280,6 +348,16 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexBoyerMoore : Object
     {
+        public object Positive;
+        public object NegativeASCII;
+        public object NegativeUnicode;
+        public object Pattern;
+        public object LowASCII;
+        public object HighASCII;
+        public object RightToLeft;
+        public object CaseInsensitive;
+        public object _culture;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76686C0
         public void MatchPattern(){} // RVA: 0x7668E50
@@ -289,6 +367,26 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexCharClass : Object
     {
+        public object s_internalRegexIgnoreCase;
+        public object s_space;
+        public object s_notSpace;
+        public object s_word;
+        public object s_notWord;
+        public object SpaceClass;
+        public object NotSpaceClass;
+        public object WordClass;
+        public object NotWordClass;
+        public object DigitClass;
+        public object NotDigitClass;
+        public object s_definedCategories;
+        public object s_propTable;
+        public object s_lcTable;
+        public object _rangelist;
+        public object _categories;
+        public object _canonical;
+        public object _negate;
+        public object _subtractor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76695A0
         public void get_CanMerge(){} // RVA: 0x76696C0
@@ -332,6 +430,64 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexCode : Object
     {
+        public object Onerep;
+        public object Notonerep;
+        public object Setrep;
+        public object Oneloop;
+        public object Notoneloop;
+        public object Setloop;
+        public object Onelazy;
+        public object Notonelazy;
+        public object Setlazy;
+        public object One;
+        public object Notone;
+        public object Set;
+        public object Multi;
+        public object Ref;
+        public object Bol;
+        public object Eol;
+        public object Boundary;
+        public object Nonboundary;
+        public object Beginning;
+        public object Start;
+        public object EndZ;
+        public object End;
+        public object Nothing;
+        public object Lazybranch;
+        public object Branchmark;
+        public object Lazybranchmark;
+        public object Nullcount;
+        public object Setcount;
+        public object Branchcount;
+        public object Lazybranchcount;
+        public object Nullmark;
+        public object Setmark;
+        public object Capturemark;
+        public object Getmark;
+        public object Setjump;
+        public object Backjump;
+        public object Forejump;
+        public object Testref;
+        public object Goto;
+        public object Prune;
+        public object Stop;
+        public object ECMABoundary;
+        public object NonECMABoundary;
+        public object Mask;
+        public object Rtl;
+        public object Back;
+        public object Back2;
+        public object Ci;
+        public object Codes;
+        public object Strings;
+        public object TrackCount;
+        public object Caps;
+        public object CapSize;
+        public object FCPrefix;
+        public object BMPrefix;
+        public object Anchors;
+        public object RightToLeft;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76715A0
         public void OpcodeBacktracks(){} // RVA: 0x7671800
@@ -339,6 +495,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexFC : Object
     {
+        public object _cc;
+        public object _nullable;
+        public object _caseInsensitive;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76731C0
         public void AddFC(){} // RVA: 0x76732C0
@@ -349,6 +509,12 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexFCD : ValueType
     {
+        public object _fcStack;
+        public object _intStack;
+        public object _skipAllChildren;
+        public object _skipchild;
+        public object _failed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7671860
         public void FirstChars(){} // RVA: 0x7671980
@@ -390,6 +556,13 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexInterpreter : RegexRunner
     {
+        public object _code;
+        public object _culture;
+        public object _operator;
+        public object _codepos;
+        public object _rightToLeft;
+        public object _caseInsensitive;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7673390
         public void InitTrackCount(){} // RVA: 0x7673450
@@ -426,6 +599,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexMatchTimeoutException : TimeoutException
     {
+        public object _input;
+        public object _pattern;
+        public object _matchTimeout;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7676C70
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7676F60
@@ -436,6 +613,15 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexNode : Object
     {
+        public object NType;
+        public object Children;
+        public object Str;
+        public object Ch;
+        public object M;
+        public object N;
+        public object Options;
+        public object Next;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7677480
         public void UseOptionR(){} // RVA: 0x76774A0
@@ -497,6 +683,27 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexParser : Object
     {
+        public object _stack;
+        public object _group;
+        public object _alternation;
+        public object _concatenation;
+        public object _unit;
+        public object _pattern;
+        public object _currentPos;
+        public object _culture;
+        public object _autocap;
+        public object _capcount;
+        public object _captop;
+        public object _capsize;
+        public object _caps;
+        public object _capnames;
+        public object _capnumlist;
+        public object _capnamelist;
+        public object _options;
+        public object _optionsStack;
+        public object _ignoreNextParen;
+        public object s_category;
+
         // ── Methods ──
         public void Parse(){} // RVA: 0x7678B60
         public void ParseReplacement(){} // RVA: 0x7678EC0
@@ -576,6 +783,10 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexPrefix : ValueType
     {
+        public object _caseInsensitive;
+        public object _empty;
+        public object _prefix;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x91DF80
         public void get_CaseInsensitive(){} // RVA: 0x90520
@@ -586,6 +797,15 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexReplacement : Object
     {
+        public object Specials;
+        public object LeftPortion;
+        public object RightPortion;
+        public object LastGroup;
+        public object WholeString;
+        public object _strings;
+        public object _rules;
+        public object _pattern;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7680780
         public void GetOrCreate(){} // RVA: 0x7680CA0
@@ -598,6 +818,26 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexRunner : Object
     {
+        public object runtextbeg;
+        public object runtextend;
+        public object runtextstart;
+        public object runtext;
+        public object runtextpos;
+        public object runtrack;
+        public object runtrackpos;
+        public object runstack;
+        public object runstackpos;
+        public object runcrawl;
+        public object runcrawlpos;
+        public object runtrackcount;
+        public object runmatch;
+        public object runregex;
+        public object _timeout;
+        public object _ignoreTimeout;
+        public object _timeoutOccursAt;
+        public object TimeoutCheckFrequency;
+        public object _timeoutChecksToSkip;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Scan(){} // RVA: 0x7681DB0
@@ -635,12 +875,27 @@ namespace ThirdParty.DotNet.System.Text.RegularExpressions
 
     public class RegexTree : Object
     {
+        public object Root;
+        public object Caps;
+        public object CapNumList;
+        public object CapTop;
+        public object CapNames;
+        public object CapsList;
+        public object Options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76833B0
     }
 
     public class RegexWriter : ValueType
     {
+        public object _emitted;
+        public object _intStack;
+        public object _stringHash;
+        public object _stringTable;
+        public object _caps;
+        public object _trackCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7683570
         public void Write(){} // RVA: 0x7683690

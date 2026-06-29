@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 49
-// Methods: 63
+// Classes: 45
+// Methods: 60
 
 namespace ThirdParty.DotNet.System
 {
     public class Empty : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void ToString(){} // RVA: 0x1584680
@@ -16,204 +18,232 @@ namespace ThirdParty.DotNet.System
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x3896EF0
-    }
+        public object Value;
 
-    public class EmptyArray`1 : Object
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x3896EF0
-    }
-
-    public class EmptyArray`1 : Object
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x3896EF0
-    }
-
-    public class EmptyArray`1 : Object
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x3896EF0
-    }
-
-    public class EmptyArray`1 : Object
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x3896EF0
-    }
-
-    public class EmptyArray`1 : Object
-    {
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
@@ -230,7 +260,7 @@ namespace ThirdParty.DotNet.System
         public void IsWindowsVistaOrAbove(){} // RVA: 0xC2E4C0
     }
 
-    public class EventHandler`1 : MulticastDelegate
+    public class EventHandler : MulticastDelegate
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DB94B0
@@ -254,8 +284,8 @@ namespace ThirdParty.DotNet.System
     public class EventHandler`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3DB99A0
-        public void Invoke(){} // RVA: 0x3DB9B10
+        public void .ctor(){} // RVA: 0x3DB94B0
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class EventHandler`1 : MulticastDelegate
@@ -305,6 +335,13 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DB9B40
         public void Invoke(){} // RVA: 0x3DB9CB0
+    }
+
+    public class EventHandler`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DB94B0
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class ExecutionEngineException : SystemException

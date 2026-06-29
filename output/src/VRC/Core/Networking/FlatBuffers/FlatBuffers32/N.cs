@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class NetworkCallingEntrypoint : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -33,6 +35,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingEntrypointT : Object
     {
+        public object _nameHash;
+        public object _ratelimit;
+        public object _parameters;
+
         // ── Methods ──
         public void get_NameHash(){} // RVA: 0xB8F8F0
         public void set_NameHash(){} // RVA: 0xB460A0
@@ -51,6 +57,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingParameter : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -69,6 +77,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingParameterT : Object
     {
+        public object _type;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -83,6 +93,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingView : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -109,6 +121,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class NetworkCallingViewT : Object
     {
+        public object _viewId;
+        public object _componentIndex;
+        public object _entrypoints;
+
         // ── Methods ──
         public void get_ViewId(){} // RVA: 0xB8F8F0
         public void set_ViewId(){} // RVA: 0xB460A0

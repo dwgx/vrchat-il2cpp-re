@@ -39,6 +39,10 @@ namespace ThirdParty.Unity.UnityEngine.Scripting
 
     public class RequiredByNativeCodeAttribute : Attribute
     {
+        public object _name;
+        public object _optional;
+        public object _generateProxy;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB5DD60
         public void set_Name(){} // RVA: 0xB44D60
@@ -54,6 +58,8 @@ namespace ThirdParty.Unity.UnityEngine.Scripting
 
     public class UsedByNativeCodeAttribute : Attribute
     {
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void set_Name(){} // RVA: 0xB44D60

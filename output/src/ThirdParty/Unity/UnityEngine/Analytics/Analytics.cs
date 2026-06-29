@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 {
     public class AnalyticInfoAttribute : Attribute
     {
+        public object _version;
+        public object _vendorKey;
+        public object _eventName;
+        public object _maxEventsPerHour;
+        public object _maxNumberOfElements;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8123DE0
     }
@@ -26,6 +32,11 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class AnalyticsEventBase : Object
     {
+        public object eventName;
+        public object eventVersion;
+        public object eventPrefix;
+        public object sendEventOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C33BE0
     }
@@ -52,6 +63,9 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class AnalyticsSessionInfo : Object
     {
+        public object sessionStateChanged;
+        public object identityTokenChanged;
+
         // ── Methods ──
         public void CallSessionStateChanged(){} // RVA: 0x8125C30
         public void get_userId(){} // RVA: 0x8125CC0
@@ -101,6 +115,11 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class BatchRenderGroupUsageAnalytic : AnalyticsEventBase
     {
+        public object maxBRGInstance;
+        public object maxMeshCount;
+        public object maxMaterialCount;
+        public object maxDrawCommandBatch;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C33CB0
         public void CreateBatchRenderGroupUsageAnalytic(){} // RVA: 0x7C33D20
@@ -148,6 +167,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class CustomEventData : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8125F10
         public void Finalize(){} // RVA: 0x8125F30
@@ -175,6 +196,26 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class ShaderRuntimeInfoAnalytic : AnalyticsEventBase
     {
+        public object VariantsRequested;
+        public object VariantsRequestedMissing;
+        public object VariantsRequestedUnsupported;
+        public object VariantsRequestedCompiled;
+        public object VariantsRequestedViaWarmup;
+        public object VariantsUnused;
+        public object VariantsCompilationTimeTotal;
+        public object VariantsCompilationTimeMax;
+        public object VariantsCompilationTimeMedian;
+        public object VariantsWarmupTimeTotal;
+        public object VariantsWarmupTimeMax;
+        public object VariantsWarmupTimeMedian;
+        public object UseProgressiveWarmup;
+        public object ShaderChunkSizeMin;
+        public object ShaderChunkSizeMax;
+        public object ShaderChunkSizeAvg;
+        public object ShaderChunkCountMin;
+        public object ShaderChunkCountMax;
+        public object ShaderChunkCountAvg;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C33ED0
         public void CreateShaderRuntimeInfoAnalytic(){} // RVA: 0x7C33F80
@@ -202,6 +243,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class SubsystemsAnalyticBase : AnalyticsEventBase
     {
+        public object subsystem;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81237C0
     }
@@ -228,6 +271,11 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class SubsystemsAnalyticInfo : SubsystemsAnalyticBase
     {
+        public object id;
+        public object plugin_name;
+        public object version;
+        public object library_name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8123AD0
         public void CreateSubsystemsAnalyticInfo(){} // RVA: 0x8123B60
@@ -309,6 +357,9 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class UaaLApplicationLaunchAnalytic : AnalyticsEventBase
     {
+        public object launch_type;
+        public object launch_process_type;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C33DC0
         public void CreateUaaLApplicationLaunchAnalytic(){} // RVA: 0x7C33E30
@@ -336,6 +387,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class VRDeviceActiveControllersAnalytic : VRDeviceAnalyticBase
     {
+        public object vr_active_controllers;
+
         // ── Methods ──
         public void CreateVRDeviceActiveControllersAnalytic(){} // RVA: 0x8123D90
         public void .ctor(){} // RVA: 0x8123CE0
@@ -363,6 +416,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class VRDeviceAnalyticAspect : VRDeviceAnalyticBase
     {
+        public object vr_aspect_ratio;
+
         // ── Methods ──
         public void CreateVRDeviceAnalyticAspect(){} // RVA: 0x8123C90
         public void .ctor(){} // RVA: 0x8123CE0
@@ -416,6 +471,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class VRDeviceMirrorAnalytic : VRDeviceAnalyticBase
     {
+        public object vr_device_mirror_mode;
+
         // ── Methods ──
         public void CreateVRDeviceMirrorAnalytic(){} // RVA: 0x8123CF0
         public void .ctor(){} // RVA: 0x8123CE0
@@ -443,6 +500,8 @@ namespace ThirdParty.Unity.UnityEngine.Analytics
 
     public class VRDeviceUserAnalytic : VRDeviceAnalyticBase
     {
+        public object vr_user_presence;
+
         // ── Methods ──
         public void CreateVRDeviceUserAnalytic(){} // RVA: 0x8123D40
         public void .ctor(){} // RVA: 0x8123CE0

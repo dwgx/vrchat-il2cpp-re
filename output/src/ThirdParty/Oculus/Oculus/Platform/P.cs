@@ -7,6 +7,9 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class Packet : Object
     {
+        public object size;
+        public object packetHandle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B363A0
         public void ReadBytes(){} // RVA: 0x6B36470
@@ -34,6 +37,11 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class PlatformSettings : ScriptableObject
     {
+        public object ovrAppID;
+        public object ovrMobileAppID;
+        public object ovrUseStandalonePlatform;
+        public object instance;
+
         // ── Methods ──
         public void get_AppID(){} // RVA: 0x6B4F870
         public void set_AppID(){} // RVA: 0x6B4F890

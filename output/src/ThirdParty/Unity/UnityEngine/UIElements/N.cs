@@ -7,6 +7,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class NavigateFocusRing : Object
     {
+        public object Left;
+        public object Right;
+        public object Up;
+        public object Down;
+        public object Next;
+        public object Previous;
+        public object m_Root;
+        public object m_Ring;
+
         // ── Methods ──
         public void get_focusController(){} // RVA: 0x10AE060
         public void .ctor(){} // RVA: 0x806FC90
@@ -27,6 +36,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _deviceType;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x87C130
         public void set_modifiers(){} // RVA: 0x8944F0
@@ -43,6 +55,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _deviceType;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -59,6 +74,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _deviceType;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -75,6 +93,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _deviceType;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -91,6 +112,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class NavigationMoveEvent : NavigationEventBase`1
     {
+        public object _direction;
+        public object _move;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8064460
         public void DetermineMoveDirection(){} // RVA: 0x8064550

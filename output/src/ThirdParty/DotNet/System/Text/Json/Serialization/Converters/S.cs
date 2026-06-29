@@ -55,6 +55,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class SlimObjectConverter : ObjectConverter
     {
+        public object _originatingResolver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x73469C0
         public void Read(){} // RVA: 0x7346A60

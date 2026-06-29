@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
 // Classes: 100
-// Methods: 185
+// Methods: 125
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
@@ -503,147 +503,76 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void GetResult(){} // RVA: 0x87C500
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void GetResult(){} // RVA: 0x87C500
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void GetResult(){} // RVA: 0x87C500
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
-    public class IUniTaskSource`1
+    public class ITaskPoolNode`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
-    }
-
-    public class IUniTaskSource`1
-    {
-        // ── Methods ──
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
-        public void GetResult(){} // RVA: 0x87C500
-        public void GetStatus(){} // RVA: 0x3FC9170
-        public void OnCompleted(){} // RVA: 0x3FC91D0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
+        public void get_NextNode(){} // RVA: 0x87C0A0
     }
 
     public class IUniTaskSource`1
@@ -660,12 +589,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
     public class IUniTaskSource`1
     {
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x3FC6550
+        public void GetStatus(){} // RVA: 0x3FC9170
         public void GetResult(){} // RVA: 0x87C500
-        public void OnCompleted(){} // RVA: 0x3FC65B0
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC6640
+        public void OnCompleted(){} // RVA: 0x3FC91D0
+        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
         public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
-        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC66A0
+        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
     }
 
     public class IUniTaskSource`1
@@ -688,6 +617,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void OnCompleted(){} // RVA: 0x3FCAC00
         public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA36D0
         public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FCACF0
+    }
+
+    public class IUniTaskSource`1
+    {
+        // ── Methods ──
+        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetStatus(){} // RVA: 0x3FC9260
+        public void GetResult(){} // RVA: 0x87C500
+        public void GetStatus(){} // RVA: 0x3FC9170
+        public void OnCompleted(){} // RVA: 0x3FC91D0
+        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.GetResult(){} // RVA: 0x3FA3B80
+        public void System.Threading.Tasks.Sources.IValueTaskSource<T>.OnCompleted(){} // RVA: 0x3FC92C0
     }
 
 }

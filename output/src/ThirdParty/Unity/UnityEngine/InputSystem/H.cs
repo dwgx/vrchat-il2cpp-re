@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class HingeAngle : Sensor
     {
+        public object _angle;
+        public object _current;
+
         // ── Methods ──
         public void get_angle(){} // RVA: 0x13659D0
         public void set_angle(){} // RVA: 0x166D270
@@ -20,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class HumiditySensor : Sensor
     {
+        public object _relativeHumidity;
+        public object _current;
+
         // ── Methods ──
         public void get_relativeHumidity(){} // RVA: 0x13659D0
         public void set_relativeHumidity(){} // RVA: 0x166D270

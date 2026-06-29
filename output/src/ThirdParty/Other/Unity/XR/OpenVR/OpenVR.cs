@@ -7,6 +7,12 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 {
     public class HandedViveTracker : ViveTracker
     {
+        public object _grip;
+        public object _gripPressed;
+        public object _primary;
+        public object _trackpadPressed;
+        public object _triggerPressed;
+
         // ── Methods ──
         public void get_grip(){} // RVA: 0x1344890
         public void set_grip(){} // RVA: 0x1662780
@@ -31,6 +37,18 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRControllerWMR : XRController
     {
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+        public object _touchpadClick;
+        public object _touchpadTouch;
+        public object _gripPressed;
+        public object _triggerPressed;
+        public object _menu;
+        public object _trigger;
+        public object _grip;
+        public object _touchpad;
+        public object _joystick;
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x165E8F0
         public void set_deviceVelocity(){} // RVA: 0x165C4D0
@@ -66,6 +84,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVREvents : Object
     {
+        public object instance;
+        public object events;
+        public object eventIndicies;
+        public object vrEvent;
+        public object vrEventSize;
+        public object preloadedEvents;
+        public object maxEventsPerUpdate;
+        public object debugLogAllEvents;
+        public object enabled;
+        public object exiting;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x7AD08A0
         public void IsInitialized(){} // RVA: 0x7AD0970
@@ -83,6 +112,15 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRHMD : XRHMD
     {
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+        public object _leftEyeVelocity;
+        public object _leftEyeAngularVelocity;
+        public object _rightEyeVelocity;
+        public object _rightEyeAngularVelocity;
+        public object _centerEyeVelocity;
+        public object _centerEyeAngularVelocity;
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x1184410
         public void set_deviceVelocity(){} // RVA: 0x163ACA0
@@ -118,6 +156,15 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRLoader : XRLoaderHelper
     {
+        public object s_DisplaySubsystemDescriptors;
+        public object s_InputSubsystemDescriptors;
+        public object running;
+        public object watcherFile;
+        public object watcherThread;
+        public object mirrorViewPath;
+        public object settings;
+        public object events;
+
         // ── Methods ──
         public void get_displaySubsystem(){} // RVA: 0x7AD3D90
         public void get_inputSubsystem(){} // RVA: 0x7AD3E20
@@ -145,6 +192,18 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVROculusTouchController : XRControllerWithRumble
     {
+        public object _thumbstick;
+        public object _trigger;
+        public object _grip;
+        public object _primaryButton;
+        public object _secondaryButton;
+        public object _gripPressed;
+        public object _triggerPressed;
+        public object _thumbstickClicked;
+        public object _thumbstickTouched;
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x165E8F0
         public void set_thumbstick(){} // RVA: 0x165C4D0
@@ -174,6 +233,21 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class OpenVRSettings : ScriptableObject
     {
+        public object PromptToUpgradePackage;
+        public object PromptToUpgradePreviewPackages;
+        public object SkipPromptForVersion;
+        public object StereoRenderingMode;
+        public object InitializationType;
+        public object EditorAppKey;
+        public object ActionManifestFileRelativeFilePath;
+        public object MirrorView;
+        public object DisableOpenVREvents;
+        public object PreInit;
+        public object StreamingAssetsFolderName;
+        public object ActionManifestFileName;
+        public object HasCopiedDefaults;
+        public object s_Settings;
+
         // ── Methods ──
         public void GetStreamingSteamVRPath(){} // RVA: 0x7AD5750
         public void CreateDirectory(){} // RVA: 0x7AD58B0
@@ -197,6 +271,9 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveTracker : TrackedDevice
     {
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+
         // ── Methods ──
         public void get_deviceVelocity(){} // RVA: 0x165E8F0
         public void set_deviceVelocity(){} // RVA: 0x165C4D0
@@ -208,6 +285,17 @@ namespace ThirdParty.Other.Unity.XR.OpenVR
 
     public class ViveWand : XRControllerWithRumble
     {
+        public object _grip;
+        public object _gripPressed;
+        public object _primary;
+        public object _trackpadPressed;
+        public object _trackpadTouched;
+        public object _trackpad;
+        public object _trigger;
+        public object _triggerPressed;
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+
         // ── Methods ──
         public void get_grip(){} // RVA: 0x165E8F0
         public void set_grip(){} // RVA: 0x165C4D0

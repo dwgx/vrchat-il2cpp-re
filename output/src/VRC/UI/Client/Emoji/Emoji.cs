@@ -7,12 +7,27 @@ namespace VRC.UI.Client.Emoji
 {
     public class EmojiCategoryList : ScriptableObject
     {
+        public object Categories;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xDD1AC0
     }
 
     public class EmojiData : ScriptableObject
     {
+        public object Name;
+        public object Tooltip;
+        public object Thumb;
+        public object prefabName;
+        public object f_3F1;
+        public object f_89B;
+        public object f_93A;
+        public object f_81C;
+        public object _customPrefabName;
+        public object f_951;
+        public object f_4F5;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x15843E0
         public void get_Sprite(){} // RVA: 0xBBF8F0
@@ -24,12 +39,12 @@ namespace VRC.UI.Client.Emoji
         public void get_FileId(){} // RVA: 0xDAC980
         public void set_FileId(){} // RVA: 0xC0FFD0
         public void set_FullResolutionTexture(){} // RVA: 0xB6A8C0
-        public void set_Frames(){} // RVA: 0x15846A0
-        public void GetHashCode(){} // RVA: 0x15847D0
+        public void set_EffectBundleID(){} // RVA: 0x15846A0
+        public void set_Frames(){} // RVA: 0x15847D0
         public void get_Frames(){} // RVA: 0xDAC980
         public void set_IsSpecialFX(){} // RVA: 0xC3CCE0
         public void get_FullResolutionTexture(){} // RVA: 0xBC1B30
-        public void set_FPS(){} // RVA: 0xB43320
+        public void set_IsPremium(){} // RVA: 0xB43320
         public void get_IsSpecialFX(){} // RVA: 0xB43320
         public void get_SpawnablePrefabName(){} // RVA: 0x1584A70
         public void get_IsPremium(){} // RVA: 0xB43320
@@ -55,6 +70,10 @@ namespace VRC.UI.Client.Emoji
 
     public class EmojiDataList : ScriptableObject
     {
+        public object Name;
+        public object Icon;
+        public object Data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xDD1AC0
     }

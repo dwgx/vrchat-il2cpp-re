@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class ReadOnlyCollectionBuilder`1 : Object
     {
+        public object _items;
+        public object _size;
+        public object _version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void set_Capacity(){} // RVA: 0x8944F0
@@ -45,114 +49,152 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class RefSafetyRulesAttribute : Attribute
     {
+        public object Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
@@ -171,6 +213,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class RuleCache`1 : Object
     {
+        public object _rules;
+        public object _cacheLock;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void GetRules(){} // RVA: 0x87C0A0
@@ -181,6 +226,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class RuntimeCompatibilityAttribute : Attribute
     {
+        public object _wrapNonExceptionThrows;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void set_WrapNonExceptionThrows(){} // RVA: 0xC120B0
@@ -222,6 +269,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class RuntimeWrappedException : Exception
     {
+        public object _wrappedException;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67BDCA0
         public void GetObjectData(){} // RVA: 0x67BDB10

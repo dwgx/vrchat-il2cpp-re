@@ -7,6 +7,16 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 {
     public class GearVRTrackedController : XRController
     {
+        public object _touchpad;
+        public object _trigger;
+        public object _back;
+        public object _triggerPressed;
+        public object _touchpadClicked;
+        public object _touchpadTouched;
+        public object _deviceAngularVelocity;
+        public object _deviceAcceleration;
+        public object _deviceAngularAcceleration;
+
         // ── Methods ──
         public void get_touchpad(){} // RVA: 0x165E8F0
         public void set_touchpad(){} // RVA: 0x165C4D0
@@ -32,6 +42,20 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMD : XRHMD
     {
+        public object _userPresence;
+        public object _deviceAngularVelocity;
+        public object _deviceAcceleration;
+        public object _deviceAngularAcceleration;
+        public object _leftEyeAngularVelocity;
+        public object _leftEyeAcceleration;
+        public object _leftEyeAngularAcceleration;
+        public object _rightEyeAngularVelocity;
+        public object _rightEyeAcceleration;
+        public object _rightEyeAngularAcceleration;
+        public object _centerEyeAngularVelocity;
+        public object _centerEyeAcceleration;
+        public object _centerEyeAngularAcceleration;
+
         // ── Methods ──
         public void get_userPresence(){} // RVA: 0x1184410
         public void set_userPresence(){} // RVA: 0x163ACA0
@@ -65,6 +89,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusHMDExtended : OculusHMD
     {
+        public object _back;
+        public object _touchpad;
+
         // ── Methods ──
         public void get_back(){} // RVA: 0x165DF30
         public void set_back(){} // RVA: 0x164E760
@@ -76,6 +103,10 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusRemote : InputDevice
     {
+        public object _back;
+        public object _start;
+        public object _touchpad;
+
         // ── Methods ──
         public void get_back(){} // RVA: 0x13659D0
         public void set_back(){} // RVA: 0x166D270
@@ -89,6 +120,24 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTouchController : XRControllerWithRumble
     {
+        public object _thumbstick;
+        public object _trigger;
+        public object _grip;
+        public object _primaryButton;
+        public object _secondaryButton;
+        public object _gripPressed;
+        public object _start;
+        public object _thumbstickClicked;
+        public object _primaryTouched;
+        public object _secondaryTouched;
+        public object _triggerTouched;
+        public object _triggerPressed;
+        public object _thumbstickTouched;
+        public object _deviceVelocity;
+        public object _deviceAngularVelocity;
+        public object _deviceAcceleration;
+        public object _deviceAngularAcceleration;
+
         // ── Methods ──
         public void get_thumbstick(){} // RVA: 0x165E8F0
         public void set_thumbstick(){} // RVA: 0x165C4D0
@@ -130,6 +179,9 @@ namespace ThirdParty.Other.Unity.XR.Oculus.Input
 
     public class OculusTrackingReference : TrackedDevice
     {
+        public object _trackingState;
+        public object _isTracked;
+
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0x165E8F0
         public void set_trackingState(){} // RVA: 0x165C4D0

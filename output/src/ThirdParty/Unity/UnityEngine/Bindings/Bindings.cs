@@ -15,6 +15,10 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class BlittableArrayWrapper : ValueType
     {
+        public object data;
+        public object size;
+        public object updateFlags;
+
         // ── Methods ──
         public void Unmarshal(){} // RVA: 0x894320
         public void .ctor(){} // RVA: 0x7C27FA0
@@ -22,6 +26,9 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class BlittableListWrapper : ValueType
     {
+        public object arrayWrapper;
+        public object listSize;
+
         // ── Methods ──
         public void Unmarshal(){} // RVA: 0x894320
         public void .ctor(){} // RVA: 0x425D090
@@ -29,6 +36,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class ExceptionMarshaller : Object
     {
+        public object s_pendingException;
+
         // ── Methods ──
         public void SetPendingException(){} // RVA: 0x7C27FB0
     }
@@ -61,6 +70,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class IgnoreAttribute : Attribute
     {
+        public object _doesNotContributeToSize;
+
         // ── Methods ──
         public void set_DoesNotContributeToSize(){} // RVA: 0xC120B0
         public void .ctor(){} // RVA: 0xB43310
@@ -68,6 +79,9 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class JobScheduleParameters : Attribute
     {
+        public object _name;
+        public object _type;
+
         // ── Methods ──
         public void set_Name(){} // RVA: 0xB44D60
         public void set_Type(){} // RVA: 0x1033F40
@@ -76,6 +90,9 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class ManagedSpanWrapper : ValueType
     {
+        public object begin;
+        public object length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
@@ -88,6 +105,10 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeConditionalAttribute : Attribute
     {
+        public object _condition;
+        public object _stubReturnStatement;
+        public object _enabled;
+
         // ── Methods ──
         public void set_Condition(){} // RVA: 0xB44D60
         public void set_StubReturnStatement(){} // RVA: 0xBA9BA0
@@ -97,6 +118,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeHeaderAttribute : Attribute
     {
+        public object _header;
+
         // ── Methods ──
         public void set_Header(){} // RVA: 0xB44D60
         public void .ctor(){} // RVA: 0x7DA9150
@@ -104,6 +127,12 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeMethodAttribute : Attribute
     {
+        public object _name;
+        public object _isThreadSafe;
+        public object _isFreeFunction;
+        public object _throwsException;
+        public object _hasExplicitThis;
+
         // ── Methods ──
         public void set_Name(){} // RVA: 0xB44D60
         public void set_IsThreadSafe(){} // RVA: 0xB5DD60
@@ -115,6 +144,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeNameAttribute : Attribute
     {
+        public object _name;
+
         // ── Methods ──
         public void set_Name(){} // RVA: 0xB44D60
         public void .ctor(){} // RVA: 0x7DA92C0
@@ -122,6 +153,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativePropertyAttribute : NativeMethodAttribute
     {
+        public object _targetType;
+
         // ── Methods ──
         public void set_TargetType(){} // RVA: 0x1269760
         public void .ctor(){} // RVA: 0x7DA9620
@@ -129,6 +162,8 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeThrowsAttribute : Attribute
     {
+        public object _throwsException;
+
         // ── Methods ──
         public void set_ThrowsException(){} // RVA: 0xC120B0
         public void .ctor(){} // RVA: 0xF482F0
@@ -136,6 +171,10 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
 
     public class NativeTypeAttribute : Attribute
     {
+        public object _header;
+        public object _intermediateScriptingStructName;
+        public object _codegenOptions;
+
         // ── Methods ──
         public void set_Header(){} // RVA: 0xB44D60
         public void set_IntermediateScriptingStructName(){} // RVA: 0xBA9BA0

@@ -7,12 +7,24 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class NetSyncConnection : Object
     {
+        public object ConnectionId;
+        public object DisconnectReason;
+        public object SessionId;
+        public object Status;
+        public object ZoneId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B60A30
     }
 
     public class NetSyncSession : Object
     {
+        public object ConnectionId;
+        public object Muted;
+        public object SessionId;
+        public object UserId;
+        public object VoipGroup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B60D00
     }
@@ -25,18 +37,26 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class NetSyncSessionsChangedNotification : Object
     {
+        public object ConnectionId;
+        public object Sessions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B612A0
     }
 
     public class NetSyncSetSessionPropertyResult : Object
     {
+        public object Session;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B61450
     }
 
     public class NetSyncVoipAttenuationValue : Object
     {
+        public object Decibels;
+        public object Distance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B615A0
     }
@@ -49,6 +69,9 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class NetworkingPeer : Object
     {
+        public object _iD;
+        public object _state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2232610
         public void get_ID(){} // RVA: 0xB5DBF0

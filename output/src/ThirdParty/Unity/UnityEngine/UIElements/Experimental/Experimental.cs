@@ -96,6 +96,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerDownLinkTagEvent : PointerEventBase`1
     {
+        public object _linkID;
+        public object _linkText;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FAA4A0
         public void set_linkID(){} // RVA: 0x15B42C0
@@ -108,6 +111,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerMoveLinkTagEvent : PointerEventBase`1
     {
+        public object _linkID;
+        public object _linkText;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FA9DD0
         public void set_linkID(){} // RVA: 0x15B42C0
@@ -130,6 +136,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerOverLinkTagEvent : PointerEventBase`1
     {
+        public object _linkID;
+        public object _linkText;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FA99E0
         public void set_linkID(){} // RVA: 0x15B42C0
@@ -142,6 +151,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class PointerUpLinkTagEvent : PointerEventBase`1
     {
+        public object _linkID;
+        public object _linkText;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7FAA880
         public void set_linkID(){} // RVA: 0x15B42C0
@@ -154,6 +166,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class StyleValues : ValueType
     {
+        public object m_StyleValues;
+
         // ── Methods ──
         public void set_top(){} // RVA: 0x9A1670
         public void set_left(){} // RVA: 0x9A1680
@@ -191,6 +205,22 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Experimental
 
     public class ValueAnimation`1 : Object
     {
+        public object m_StartTimeMs;
+        public object m_DurationMs;
+        public object _easingCurve;
+        public object _isRunning;
+        public object _onAnimationCompleted;
+        public object _autoRecycle;
+        public object _recycled;
+        public object sObjectPool;
+        public object _owner;
+        public object _valueUpdated;
+        public object _initialValue;
+        public object _interpolator;
+        public object _from;
+        public object fromValueSet;
+        public object _to;
+
         // ── Methods ──
         public void get_durationMs(){} // RVA: 0x87C130
         public void set_durationMs(){} // RVA: 0x8944F0

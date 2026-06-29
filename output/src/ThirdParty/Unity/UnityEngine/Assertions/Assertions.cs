@@ -7,30 +7,34 @@ namespace ThirdParty.Unity.UnityEngine.Assertions
 {
     public class Assert : Object
     {
+        public object raiseExceptions;
+
         // ── Methods ──
-        public void Fail(){} // RVA: 0x7AEF48680
-        public void IsTrue(){} // RVA: 0x7AEF48850
-        public void IsFalse(){} // RVA: 0x7AEF488C0
-        public void AreEqual(){} // RVA: 0x7AEF48CC0
-        public void IsNull(){} // RVA: 0x7AEF48AA0
-        public void IsNotNull(){} // RVA: 0x7AEF48BB0
-        public void .cctor(){} // RVA: 0x7AEF48DB0
+        public void Fail(){} // RVA: 0x7C32A90
+        public void IsTrue(){} // RVA: 0x7C32C20
+        public void IsFalse(){} // RVA: 0x7C32CF0
+        public void AreEqual(){} // RVA: 0x7C330F0
+        public void IsNull(){} // RVA: 0x7C32ED0
+        public void IsNotNull(){} // RVA: 0x7C32FE0
+        public void .cctor(){} // RVA: 0x7C331E0
     }
 
     public class AssertionException : Exception
     {
+        public object m_UserMessage;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEF48DF0
-        public void get_Message(){} // RVA: 0x7AEF48EC0
+        public void .ctor(){} // RVA: 0x7C33220
+        public void get_Message(){} // RVA: 0x7C332F0
     }
 
     public class AssertionMessageUtil : Object
     {
         // ── Methods ──
-        public void GetMessage(){} // RVA: 0x7AEF49030
-        public void GetEqualityMessage(){} // RVA: 0x7AEF492D0
-        public void NullFailureMessage(){} // RVA: 0x7AEF49520
-        public void BooleanFailureMessage(){} // RVA: 0x7AEF496C0
+        public void GetMessage(){} // RVA: 0x7C33460
+        public void GetEqualityMessage(){} // RVA: 0x7C33700
+        public void NullFailureMessage(){} // RVA: 0x7C33950
+        public void BooleanFailureMessage(){} // RVA: 0x7C33AF0
     }
 
 }

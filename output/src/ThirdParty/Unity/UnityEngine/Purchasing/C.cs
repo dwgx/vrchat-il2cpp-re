@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ConfigurationBuilder : Object
     {
+        public object _useCatalogProvider;
+        public object _logUnavailableProducts;
+        public object _products;
+        public object _factory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D66630
         public void get_useCatalogProvider(){} // RVA: 0xC120A0
@@ -19,6 +24,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class CoreServicesEnvironmentSubject : Object
     {
+        public object s_Instance;
+        public object m_LastKnownEnvironment;
+        public object m_Observers;
+
         // ── Methods ──
         public void Instance(){} // RVA: 0x7D66CC0
         public void SubscribeToUpdatesAndGetCurrent(){} // RVA: 0x7D66E40

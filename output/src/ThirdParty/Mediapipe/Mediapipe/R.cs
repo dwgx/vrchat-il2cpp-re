@@ -7,6 +7,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Rasterization : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object IntervalFieldNumber;
+        public object _repeated_interval_codec;
+        public object interval_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x657E270
         public void get_Descriptor(){} // RVA: 0x657E2D0
@@ -27,6 +33,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class RasterizationReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x657DB60
         public void .cctor(){} // RVA: 0x657DBC0
@@ -34,6 +42,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Rect : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object XCenterDefaultValue;
+        public object xCenter_;
+        public object YCenterDefaultValue;
+        public object yCenter_;
+        public object HeightDefaultValue;
+        public object height_;
+        public object WidthDefaultValue;
+        public object width_;
+        public object RotationDefaultValue;
+        public object rotation_;
+        public object RectIdDefaultValue;
+        public object rectId_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6599280
         public void get_Descriptor(){} // RVA: 0x65992E0
@@ -77,6 +101,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class RectReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6598A80
         public void .cctor(){} // RVA: 0x6598AE0
@@ -84,6 +110,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ResourceManager : Object
     {
+        public object _InitLock;
+        public object _Instance;
+        public object _pathResolver;
+        public object _resourceProvider;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65AC500
         public void PrepareAssetAsync(){} // RVA: 0x88DF10

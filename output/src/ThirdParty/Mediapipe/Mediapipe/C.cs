@@ -8,11 +8,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
     public class CalculatorGraph : MpResourceHandle
     {
         // ── Methods ──
-        public void AddOutputStreamPoller(){} // RVA: 0x30230B0
         public void .ctor(){} // RVA: 0x654F8E0
         public void DeleteMpPtr(){} // RVA: 0x654FA20
         public void Initialize(){} // RVA: 0x654FAE0
         public void ObserveOutputStream(){} // RVA: 0x654FC20
+        public void AddOutputStreamPoller(){} // RVA: 0x30230B0
         public void StartRun(){} // RVA: 0x654FDA0
         public void WaitUntilDone(){} // RVA: 0x654FED0
         public void AddPacketToInputStream(){} // RVA: 0x8943B0
@@ -22,6 +22,38 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorGraphConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_node_codec;
+        public object node_;
+        public object _repeated_packetFactory_codec;
+        public object packetFactory_;
+        public object _repeated_packetGenerator_codec;
+        public object packetGenerator_;
+        public object numThreads_;
+        public object _repeated_statusHandler_codec;
+        public object statusHandler_;
+        public object _repeated_inputStream_codec;
+        public object inputStream_;
+        public object _repeated_outputStream_codec;
+        public object outputStream_;
+        public object _repeated_inputSidePacket_codec;
+        public object inputSidePacket_;
+        public object _repeated_outputSidePacket_codec;
+        public object outputSidePacket_;
+        public object maxQueueSize_;
+        public object reportDeadlock_;
+        public object inputStreamHandler_;
+        public object outputStreamHandler_;
+        public object _repeated_executor_codec;
+        public object executor_;
+        public object profilerConfig_;
+        public object package_;
+        public object type_;
+        public object options_;
+        public object _repeated_graphOptions_codec;
+        public object graphOptions_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6575260
         public void get_Descriptor(){} // RVA: 0x65752C0
@@ -75,6 +107,13 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _extensions;
+        public object _hasBits0;
+        public object MergeFieldsDefaultValue;
+        public object mergeFields_;
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0xB465B0
         public void get_Parser(){} // RVA: 0x657CD30
@@ -104,6 +143,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorOptionsReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x657C880
         public void .cctor(){} // RVA: 0x657C8E0
@@ -111,6 +152,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class CalculatorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x656CC90
         public void .cctor(){} // RVA: 0x656CCF0
@@ -118,6 +161,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Classification : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object IndexFieldNumber;
+        public object IndexDefaultValue;
+        public object index_;
+        public object ScoreFieldNumber;
+        public object ScoreDefaultValue;
+        public object score_;
+        public object LabelFieldNumber;
+        public object LabelDefaultValue;
+        public object label_;
+        public object DisplayNameFieldNumber;
+        public object DisplayNameDefaultValue;
+        public object displayName_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6580820
         public void get_Descriptor(){} // RVA: 0x6580880
@@ -153,6 +212,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationList : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object ClassificationFieldNumber;
+        public object _repeated_classification_codec;
+        public object classification_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6581D30
         public void get_Descriptor(){} // RVA: 0x6581D90
@@ -173,6 +238,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationListCollection : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_classificationList_codec;
+        public object classificationList_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6582CA0
         public void get_Descriptor(){} // RVA: 0x6582D00
@@ -193,6 +263,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ClassificationReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x657FF60
         public void .cctor(){} // RVA: 0x657FFC0

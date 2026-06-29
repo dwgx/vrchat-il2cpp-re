@@ -13,6 +13,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class AFSDBRecord : ResourceRecord
     {
+        public object _subtype;
+        public object _target;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653C3D0
         public void get_Subtype(){} // RVA: 0x4674E80
@@ -51,6 +54,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class AddressRecord : ResourceRecord
     {
+        public object _address;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653BD40
         public void get_Address(){} // RVA: 0xD33E60
@@ -62,6 +67,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class CNAMERecord : ResourceRecord
     {
+        public object _target;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653C750
         public void get_Target(){} // RVA: 0xD33E60
@@ -72,6 +79,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DNAMERecord : ResourceRecord
     {
+        public object _target;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653C950
         public void get_Target(){} // RVA: 0xD33E60
@@ -82,6 +91,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DNSKEYRecord : ResourceRecord
     {
+        public object _flags;
+        public object _protocol;
+        public object _algorithm;
+        public object _publicKey;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653CA40
         public void get_Flags(){} // RVA: 0x4674E80
@@ -99,6 +113,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DSRecord : ResourceRecord
     {
+        public object _keyTag;
+        public object _algorithm;
+        public object _hashAlgorithm;
+        public object _digest;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653D2C0
         public void get_KeyTag(){} // RVA: 0x4674E80
@@ -115,6 +134,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DigestRegistry : Object
     {
+        public object Digests;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6532250
         public void Create(){} // RVA: 0x6532710
@@ -122,6 +143,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DnsObject : Object
     {
+        public object _creationTime;
+
         // ── Methods ──
         public void get_CreationTime(){} // RVA: 0xB5DBF0
         public void set_CreationTime(){} // RVA: 0x2230E30
@@ -155,6 +178,15 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class DomainName : Object
     {
+        public object dot;
+        public object dotChar;
+        public object escapedDot;
+        public object backslash;
+        public object backslashChar;
+        public object escapedBackslash;
+        public object Root;
+        public object labels;
+
         // ── Methods ──
         public void get_Labels(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0x6533330
@@ -197,6 +229,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsDAUOption : EdnsOption
     {
+        public object _algorithms;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6534750
         public void get_Algorithms(){} // RVA: 0xB465B0
@@ -209,6 +243,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsDHUOption : EdnsOption
     {
+        public object _algorithms;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6534DE0
         public void get_Algorithms(){} // RVA: 0xB465B0
@@ -221,6 +257,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsKeepaliveOption : EdnsOption
     {
+        public object _timeout;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6535410
         public void get_Timeout(){} // RVA: 0x125EE60
@@ -232,6 +270,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsN3UOption : EdnsOption
     {
+        public object _algorithms;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6535710
         public void get_Algorithms(){} // RVA: 0xB465B0
@@ -244,6 +284,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsNSIDOption : EdnsOption
     {
+        public object _id;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6535D40
         public void get_Id(){} // RVA: 0xB465B0
@@ -254,6 +296,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsOption : Object
     {
+        public object _type;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x24EA1D0
         public void set_Type(){} // RVA: 0x24EAB10
@@ -264,6 +308,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsOptionRegistry : Object
     {
+        public object Options;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6535E30
         public void Register(){} // RVA: 0x8942F0
@@ -291,6 +337,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class EdnsPaddingOption : EdnsOption
     {
+        public object _padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6535FB0
         public void get_Padding(){} // RVA: 0xB465B0
@@ -302,6 +350,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class HINFORecord : ResourceRecord
     {
+        public object _cpu;
+        public object _oS;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653DA80
         public void get_Cpu(){} // RVA: 0xD33E60
@@ -340,6 +391,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class MXRecord : ResourceRecord
     {
+        public object _preference;
+        public object _exchange;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653DD80
         public void get_Preference(){} // RVA: 0x4674E80
@@ -352,6 +406,24 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class Message : DnsObject
     {
+        public object opcode4;
+        public object MaxLength;
+        public object MinLength;
+        public object _id;
+        public object _qR;
+        public object _aA;
+        public object _tC;
+        public object _rD;
+        public object _rA;
+        public object _z;
+        public object _aD;
+        public object _cD;
+        public object _status;
+        public object _questions;
+        public object _answers;
+        public object _authorityRecords;
+        public object _additionalRecords;
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x31D74B0
         public void set_Id(){} // RVA: 0x6536960
@@ -398,6 +470,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSEC3PARAMRecord : ResourceRecord
     {
+        public object _hashAlgorithm;
+        public object _flags;
+        public object _iterations;
+        public object _salt;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653DDE0
         public void get_HashAlgorithm(){} // RVA: 0xB68DF0
@@ -414,6 +491,13 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSEC3Record : ResourceRecord
     {
+        public object _hashAlgorithm;
+        public object _flags;
+        public object _iterations;
+        public object _salt;
+        public object _nextHashedOwnerName;
+        public object _types;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653E2B0
         public void get_HashAlgorithm(){} // RVA: 0xB68DF0
@@ -434,6 +518,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSECRecord : ResourceRecord
     {
+        public object _nextOwnerName;
+        public object _types;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653F110
         public void get_NextOwnerName(){} // RVA: 0xD33E60
@@ -446,6 +533,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NSRecord : ResourceRecord
     {
+        public object _authority;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653FAC0
         public void get_Authority(){} // RVA: 0xD33E60
@@ -456,6 +545,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class NULLRecord : ResourceRecord
     {
+        public object _data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653FB20
         public void get_Data(){} // RVA: 0xD33E60
@@ -466,6 +557,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class OPTRecord : ResourceRecord
     {
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x653FCD0
         public void get_RequestorPayloadSize(){} // RVA: 0x653B860
@@ -485,6 +578,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class PTRRecord : ResourceRecord
     {
+        public object _domainName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65408C0
         public void get_DomainName(){} // RVA: 0xD33E60
@@ -515,6 +610,17 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class PresentationReader : Object
     {
+        public object UnixEpoch;
+        public object text;
+        public object defaultTTL;
+        public object defaultDomainName;
+        public object parenLevel;
+        public object previousChar;
+        public object eolSeen;
+        public object tokenStartsNewLine;
+        public object Position;
+        public object _origin;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6538A50
         public void get_Origin(){} // RVA: 0xBC1B30
@@ -540,6 +646,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class PresentationWriter : Object
     {
+        public object UnixEpoch;
+        public object text;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void WriteSpace(){} // RVA: 0x653A9F0
@@ -563,6 +672,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class Question : DnsObject
     {
+        public object _name;
+        public object _type;
+        public object _class;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB465B0
         public void set_Name(){} // RVA: 0xBA9BA0
@@ -598,6 +711,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class RPRecord : ResourceRecord
     {
+        public object _mailbox;
+        public object _textName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6540920
         public void get_Mailbox(){} // RVA: 0xD33E60
@@ -610,6 +726,16 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class RRSIGRecord : ResourceRecord
     {
+        public object _typeCovered;
+        public object _algorithm;
+        public object _labels;
+        public object _originalTTL;
+        public object _signatureExpiration;
+        public object _signatureInception;
+        public object _keyTag;
+        public object _signerName;
+        public object _signature;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6540D90
         public void get_TypeCovered(){} // RVA: 0x4674E80
@@ -636,6 +762,13 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class ResourceRecord : DnsObject
     {
+        public object DefaultTTL;
+        public object DefaultHostTTL;
+        public object _name;
+        public object _type;
+        public object _class;
+        public object _tTL;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB465B0
         public void set_Name(){} // RVA: 0xBA9BA0
@@ -684,6 +817,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class ResourceRegistry : Object
     {
+        public object Records;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6545630
         public void Register(){} // RVA: 0x29A3F80
@@ -692,6 +827,14 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class SOARecord : ResourceRecord
     {
+        public object _primaryName;
+        public object _mailbox;
+        public object _serialNumber;
+        public object _refresh;
+        public object _retry;
+        public object _expire;
+        public object _minimum;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6541470
         public void get_PrimaryName(){} // RVA: 0xD33E60
@@ -714,6 +857,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class SRVRecord : ResourceRecord
     {
+        public object _priority;
+        public object _weight;
+        public object _port;
+        public object _target;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6541A90
         public void get_Priority(){} // RVA: 0x4674E80
@@ -730,6 +878,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class SecurityAlgorithmRegistry : Object
     {
+        public object Algorithms;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6545AC0
         public void GetMetadata(){} // RVA: 0x65460D0
@@ -737,6 +887,15 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TKEYRecord : ResourceRecord
     {
+        public object NoData;
+        public object _algorithm;
+        public object _inception;
+        public object _expiration;
+        public object _mode;
+        public object _error;
+        public object _key;
+        public object _otherData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6541F50
         public void get_Algorithm(){} // RVA: 0xD33E60
@@ -760,6 +919,22 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TSIGRecord : ResourceRecord
     {
+        public object NoData;
+        public object HMACMD5;
+        public object GSSTSIG;
+        public object HMACSHA1;
+        public object HMACSHA224;
+        public object HMACSHA256;
+        public object HMACSHA384;
+        public object HMACSHA512;
+        public object _algorithm;
+        public object _timeSigned;
+        public object _mAC;
+        public object _fudge;
+        public object _originalMessageId;
+        public object _error;
+        public object _otherData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6542990
         public void get_Algorithm(){} // RVA: 0xD33E60
@@ -783,6 +958,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class TXTRecord : ResourceRecord
     {
+        public object _strings;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6543BE0
         public void get_Strings(){} // RVA: 0xD33E60
@@ -793,6 +970,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UnknownEdnsOption : EdnsOption
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB465B0
         public void set_Data(){} // RVA: 0xBA9BA0
@@ -804,6 +983,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UnknownRecord : ResourceRecord
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xD33E60
         public void set_Data(){} // RVA: 0xB708C0
@@ -814,6 +995,16 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class UpdateMessage : DnsObject
     {
+        public object _id;
+        public object _qR;
+        public object _opcode;
+        public object _z;
+        public object _status;
+        public object _zone;
+        public object _prerequisites;
+        public object _updates;
+        public object _additionalResources;
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x31D74A0
         public void set_Id(){} // RVA: 0x4FB44B0
@@ -856,6 +1047,11 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class WireReader : Object
     {
+        public object UnixEpoch;
+        public object stream;
+        public object names;
+        public object Position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6547BA0
         public void ReadByte(){} // RVA: 0x6547CC0
@@ -879,6 +1075,15 @@ namespace ThirdParty.Other.MeaMod.DNS.Model
 
     public class WireWriter : Object
     {
+        public object maxPointer;
+        public object uint48MaxValue;
+        public object UnixEpoch;
+        public object stream;
+        public object pointers;
+        public object scopes;
+        public object Position;
+        public object _canonicalForm;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6548CE0
         public void get_CanonicalForm(){} // RVA: 0xC27380

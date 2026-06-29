@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class ReferenceEqualityComparer : Object
     {
+        public object _instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Instance(){} // RVA: 0x6D63520
@@ -17,6 +19,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ReferenceEqualityComparer : Object
     {
+        public object _instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Instance(){} // RVA: 0x72A6830

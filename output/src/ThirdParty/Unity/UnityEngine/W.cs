@@ -7,6 +7,15 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class WWWForm : Object
     {
+        public object dDash;
+        public object crlf;
+        public object contentTypeHeader;
+        public object dispositionHeader;
+        public object endQuote;
+        public object fileNameField;
+        public object ampersand;
+        public object equal;
+
         // ── Methods ──
         public void get_DefaultEncoding(){} // RVA: 0x812A6A0
         public void .cctor(){} // RVA: 0x812A6B0
@@ -14,6 +23,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WWWTranscoder : Object
     {
+        public object ucHexChars;
+        public object lcHexChars;
+        public object urlEscapeChar;
+        public object urlSpace;
+        public object dataSpace;
+        public object urlForbidden;
+        public object qpEscapeChar;
+        public object qpSpace;
+        public object qpForbidden;
+
         // ── Methods ──
         public void Hex2Byte(){} // RVA: 0x812AC80
         public void Byte2Hex(){} // RVA: 0x812AD10
@@ -80,12 +99,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitForSeconds : YieldInstruction
     {
+        public object m_Seconds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC763F0
     }
 
     public class WaitForSecondsRealtime : CustomYieldInstruction
     {
+        public object _waitTime;
+        public object m_WaitUntilTime;
+
         // ── Methods ──
         public void get_waitTime(){} // RVA: 0xC763E0
         public void set_waitTime(){} // RVA: 0xC763F0
@@ -116,6 +140,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitUntil : CustomYieldInstruction
     {
+        public object m_Predicate;
+        public object m_TimeoutCallback;
+        public object m_TimeoutMode;
+        public object m_MaxExecutionTime;
+
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x7C0D2A0
         public void .ctor(){} // RVA: 0x7C0D390
@@ -124,6 +153,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WaitWhile : CustomYieldInstruction
     {
+        public object m_Predicate;
+        public object m_TimeoutCallback;
+        public object m_TimeoutMode;
+        public object m_MaxExecutionTime;
+
         // ── Methods ──
         public void get_keepWaiting(){} // RVA: 0x7C0D480
         public void .ctor(){} // RVA: 0x7C0D390
@@ -132,6 +166,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WebCamDevice : ValueType
     {
+        public object m_Name;
+        public object m_DepthCameraName;
+        public object m_Flags;
+        public object m_Kind;
+        public object m_Resolutions;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x44D9F0
         public void get_isFrontFacing(){} // RVA: 0x95DF50
@@ -284,6 +324,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WheelFrictionCurve : ValueType
     {
+        public object m_ExtremumSlip;
+        public object m_ExtremumValue;
+        public object m_AsymptoteSlip;
+        public object m_AsymptoteValue;
+        public object m_Stiffness;
+
         // ── Methods ──
         public void get_extremumSlip(){} // RVA: 0x459690
         public void set_extremumSlip(){} // RVA: 0xD1B20
@@ -299,6 +345,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class WheelHit : ValueType
     {
+        public object m_Point;
+        public object m_Normal;
+        public object m_ForwardDir;
+        public object m_SidewaysDir;
+        public object m_Force;
+        public object m_ForwardSlip;
+        public object m_SidewaysSlip;
+        public object m_Collider;
+
         // ── Methods ──
         public void get_collider(){} // RVA: 0x9AF750
         public void set_collider(){} // RVA: 0x63E40

@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 43
-// Methods: 170
+// Classes: 41
+// Methods: 168
 
 namespace ThirdParty.DotNet.System
 {
     public class BadImageFormatException : SystemException
     {
+        public object _fileName;
+        public object _fusionLog;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67ED140
         public void GetObjectData(){} // RVA: 0x67ED2E0
@@ -17,6 +20,8 @@ namespace ThirdParty.DotNet.System
 
     public class BitConverter : Object
     {
+        public object IsLittleEndian;
+
         // ── Methods ──
         public void GetBytes(){} // RVA: 0x67EDDC0
         public void TryWriteBytes(){} // RVA: 0x67EDC80
@@ -40,6 +45,10 @@ namespace ThirdParty.DotNet.System
 
     public class Boolean : ValueType
     {
+        public object m_value;
+        public object TrueString;
+        public object FalseString;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x8B08A0
         public void ToString(){} // RVA: 0x8B0910
@@ -109,6 +118,8 @@ namespace ThirdParty.DotNet.System
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Value(){} // RVA: 0x87C0A0
@@ -116,204 +127,256 @@ namespace ThirdParty.DotNet.System
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class ByReference`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3F2CC40
-    }
+        public object _value;
 
-    public class ByReference`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3F2CC40
-    }
-
-    public class ByReference`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2CC40
     }
 
     public class Byte : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x8B0E90
         public void Equals(){} // RVA: 0x8B0980
@@ -342,6 +405,9 @@ namespace ThirdParty.DotNet.System
 
     public class ByteMatcher : Object
     {
+        public object map;
+        public object starts;
+
         // ── Methods ──
         public void AddMapping(){} // RVA: 0x698B9D0
         public void Sort(){} // RVA: 0xB43310

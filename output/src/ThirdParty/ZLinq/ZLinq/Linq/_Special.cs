@@ -7,6 +7,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__DescendingDefaultComparer`1 : Object
     {
+        public object Default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Compare(){} // RVA: 0xA94080
@@ -25,18 +27,24 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__UnsafeFunctions`2 : Object
     {
+        public object Identity;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x396FB20
     }
 
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__UnsafeFunctions`2 : Object
     {
+        public object Identity;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x396FB20
     }
 
     public class <OrderBy>F20F22F0783C758479CC59FC23C7FEAF81F289B10B31CBE866E87C24F818E06F4__UnsafeFunctions`2 : Object
     {
+        public object Identity;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
     }

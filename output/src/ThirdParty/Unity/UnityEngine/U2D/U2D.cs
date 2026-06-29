@@ -14,6 +14,9 @@ namespace ThirdParty.Unity.UnityEngine.U2D
 
     public class SpriteAtlasManager : Object
     {
+        public object atlasRequested;
+        public object atlasRegistered;
+
         // ── Methods ──
         public void RequestAtlas(){} // RVA: 0x7C51760
         public void add_atlasRegistered(){} // RVA: 0x7C51820

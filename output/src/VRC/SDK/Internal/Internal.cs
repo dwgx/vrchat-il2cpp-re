@@ -23,6 +23,10 @@ namespace VRC.SDK.Internal
 
     public class VRCUdonAnalytics : VRCCustomAction
     {
+        public object prefix;
+        public object eventNames;
+        public object guids;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x25205D0
         public void .ctor(){} // RVA: 0x251FEF0

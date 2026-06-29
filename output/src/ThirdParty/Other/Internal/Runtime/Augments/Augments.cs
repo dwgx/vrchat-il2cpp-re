@@ -8,42 +8,47 @@ namespace ThirdParty.Other.Internal.Runtime.Augments
     public class ReflectionExecutionDomainCallbacks : Object
     {
         // ── Methods ──
-        public void CreateMissingMetadataException(){} // RVA: 0x7ADA11530
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateMissingMetadataException(){} // RVA: 0x669BF80
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class RuntimeAugments : Object
     {
+        public object s_reflectionExecutionDomainCallbacks;
+
         // ── Methods ──
-        public void ReportUnhandledException(){} // RVA: 0x7ADA113F0
-        public void get_Callbacks(){} // RVA: 0x7ADA11420
-        public void .cctor(){} // RVA: 0x7ADA11480
+        public void ReportUnhandledException(){} // RVA: 0x669BE40
+        public void get_Callbacks(){} // RVA: 0x669BE70
+        public void .cctor(){} // RVA: 0x669BED0
     }
 
     public class RuntimeThread : Object
     {
+        public object OptimalMaxSpinWaitsPerSpinIteration;
+        public object thread;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void ResetThreadPoolThread(){} // RVA: 0x7A80D7310
-        public void InitializeThreadPoolThread(){} // RVA: 0x7ADA115B0
-        public void Create(){} // RVA: 0x7ADA11640
-        public void set_IsBackground(){} // RVA: 0x7ADA117E0
-        public void Start(){} // RVA: 0x7ADA11800
-        public void Sleep(){} // RVA: 0x7ADA11820
-        public void Yield(){} // RVA: 0x7ADA11830
-        public void SpinWait(){} // RVA: 0x7A81BD750
-        public void GetCurrentProcessorId(){} // RVA: 0x7A81CA9D0
-        public void .cctor(){} // RVA: 0x7ADA11850
+        public void .ctor(){} // RVA: 0xB44D60
+        public void ResetThreadPoolThread(){} // RVA: 0xB43310
+        public void InitializeThreadPoolThread(){} // RVA: 0x669C000
+        public void Create(){} // RVA: 0x669C090
+        public void set_IsBackground(){} // RVA: 0x669C230
+        public void Start(){} // RVA: 0x669C250
+        public void Sleep(){} // RVA: 0x669C270
+        public void Yield(){} // RVA: 0x669C280
+        public void SpinWait(){} // RVA: 0xC2E4C0
+        public void GetCurrentProcessorId(){} // RVA: 0xC3CCE0
+        public void .cctor(){} // RVA: 0x669C2A0
     }
 
     public class TaskTraceCallbacks : Object
     {
         // ── Methods ──
-        public void get_Enabled(){} // RVA: 0x7A7E01900
-        public void TaskWaitBegin_Asynchronous(){} // RVA: 0x7A7E1AD90
-        public void TaskWaitBegin_Synchronous(){} // RVA: 0x7A7E1AD90
-        public void TaskWaitEnd(){} // RVA: 0x7A7E1AD90
-        public void TaskScheduled(){} // RVA: 0x7A7E1AEA0
+        public void get_Enabled(){} // RVA: 0x87D280
+        public void TaskWaitBegin_Asynchronous(){} // RVA: 0x896900
+        public void TaskWaitBegin_Synchronous(){} // RVA: 0x896900
+        public void TaskWaitEnd(){} // RVA: 0x896900
+        public void TaskScheduled(){} // RVA: 0x896A10
     }
 
 }

@@ -21,6 +21,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationEntry : Object
     {
+        public object m_Value;
+        public object m_IsReadOnly;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void get_IsReadOnly(){} // RVA: 0xB5DD50
@@ -31,6 +34,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ConfigurationUtils : Object
     {
+        public object _configurationLoader;
+
         // ── Methods ──
         public void get_ConfigurationLoader(){} // RVA: 0x79A1940
         public void .cctor(){} // RVA: 0x79A19A0
@@ -50,6 +55,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class ProjectConfiguration : Object
     {
+        public object m_ConfigValues;
+        public object _serializer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void GetString(){} // RVA: 0x79A1AE0
@@ -57,12 +65,17 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration
 
     public class SerializableProjectConfiguration : ValueType
     {
+        public object Keys;
+        public object Values;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x79A1BF0
     }
 
     public class StreamingAssetsConfigurationLoader : Object
     {
+        public object m_Serializer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void GetConfigAsync(){} // RVA: 0x79A1D10

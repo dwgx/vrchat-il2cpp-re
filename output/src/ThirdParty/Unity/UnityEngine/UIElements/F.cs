@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
+        public object m_DrivenField;
+        public object m_DragElement;
+        public object m_DragHotZone;
+        public object _dragging;
+        public object _startValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_dragging(){} // RVA: 0x87D280
@@ -26,18 +32,33 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
+        public object m_DrivenField;
+        public object m_DragElement;
+        public object m_DragHotZone;
+        public object _dragging;
+        public object _startValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DE0870
     }
 
     public class FieldMouseDragger`1 : BaseFieldMouseDragger
     {
+        public object m_DrivenField;
+        public object m_DragElement;
+        public object m_DragHotZone;
+        public object _dragging;
+        public object _startValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3DE0870
     }
 
     public class FixedHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
+        public object m_ScrolledToItemIndex;
+        public object m_ForcedScroll;
+
         // ── Methods ──
         public void get_resolvedItemHeight(){} // RVA: 0x890F90
         public void VisibleItemPredicate(){} // RVA: 0xA94080
@@ -56,6 +77,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FloatField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_floatInput(){} // RVA: 0x7FDF080
         public void ValueToString(){} // RVA: 0x7FDF110
@@ -69,6 +94,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusChangeDirection : Object
     {
+        public object _unspecified;
+        public object _none;
+        public object _lastValue;
+        public object m_Value;
+
         // ── Methods ──
         public void get_unspecified(){} // RVA: 0x806CCD0
         public void get_none(){} // RVA: 0x806CD30
@@ -83,6 +113,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusController : Object
     {
+        public object _focusRing;
+        public object m_SelectedTextElement;
+        public object m_FocusedElements;
+        public object m_LastFocusedElement;
+        public object m_LastPendingFocusedElement;
+        public object m_PendingFocusCount;
+        public object _imguiKeyboardControl;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x806D010
         public void get_focusRing(){} // RVA: 0xB5DBF0
@@ -123,6 +161,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _direction;
+        public object _focusController;
+        public object _isFocusDelegated;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0x87C0A0
         public void set_relatedTarget(){} // RVA: 0x894320
@@ -140,6 +183,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _direction;
+        public object _focusController;
+        public object _isFocusDelegated;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0xBBFF90
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
@@ -157,6 +205,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _direction;
+        public object _focusController;
+        public object _isFocusDelegated;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0xBBFF90
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
@@ -174,6 +227,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _direction;
+        public object _focusController;
+        public object _isFocusDelegated;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0xBBFF90
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
@@ -191,6 +249,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FocusEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _direction;
+        public object _focusController;
+        public object _isFocusDelegated;
+
         // ── Methods ──
         public void get_relatedTarget(){} // RVA: 0xBBFF90
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
@@ -228,6 +291,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Focusable : CallbackEventHandler
     {
+        public object focusableProperty;
+        public object tabIndexProperty;
+        public object delegatesFocusProperty;
+        public object canGrabFocusProperty;
+        public object m_Focusable;
+        public object m_TabIndex;
+        public object m_DelegatesFocus;
+        public object m_ExcludeFromFocusRing;
+        public object _isEligibleToReceiveFocusFromDisabledChild;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x806C060
         public void get_focusController(){} // RVA: 0x87C0A0
@@ -252,6 +325,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Foldout : BindableElement
     {
+        public object textProperty;
+        public object toggleOnLabelClickProperty;
+        public object valueProperty;
+        public object m_Toggle;
+        public object m_Container;
+        public object m_Value;
+        public object ussClassName;
+        public object toggleUssClassName;
+        public object contentUssClassName;
+        public object inputUssClassName;
+        public object checkmarkUssClassName;
+        public object textUssClassName;
+        public object toggleInspectorUssClassName;
+        public object ussFoldoutDepthClassName;
+        public object ussFoldoutMaxDepth;
+        public object m_NavigationManipulator;
+
         // ── Methods ──
         public void get_toggle(){} // RVA: 0x16686F0
         public void get_contentContainer(){} // RVA: 0x1653580
@@ -274,6 +364,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class FontDefinition : ValueType
     {
+        public object m_Font;
+        public object m_FontAsset;
+
         // ── Methods ──
         public void get_font(){} // RVA: 0x44D9F0
         public void set_font(){} // RVA: 0x9AA540

@@ -27,6 +27,10 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryIconsView : HeaderElementContentView`1
     {
+        public object _iconSelected;
+        public object _iconUpdated;
+        public object subNowInfo;
+
         // ── Methods ──
         public void set_ObservableList(){} // RVA: 0x9D01730
         public void get_ObservableList(){} // RVA: 0x9D01860
@@ -53,6 +57,9 @@ namespace VRC.UI.Elements.Menus
 
     public class GalleryPhotosView : HeaderElementContentView`1
     {
+        public object _menuStateController;
+        public object subNowInfo;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x9D02D50
         public void set_MaxContentCount(){} // RVA: 0x9D02E40
@@ -74,6 +81,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public object _headerPrefab;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x894290
         public void get_MaxContentCount(){} // RVA: 0x894290
@@ -85,6 +94,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public object _headerPrefab;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x3F8AD60
         public void get_MaxContentCount(){} // RVA: 0x3F8AF40
@@ -96,6 +107,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public object _headerPrefab;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x3F8AD60
         public void get_MaxContentCount(){} // RVA: 0x3F8AF40
@@ -107,6 +120,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public object _headerPrefab;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x3F8AD60
         public void get_MaxContentCount(){} // RVA: 0x3F8AF40
@@ -118,6 +133,8 @@ namespace VRC.UI.Elements.Menus
 
     public class HeaderElementContentView`1 : ListContentView`1
     {
+        public object _headerPrefab;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x3F8AD60
         public void get_MaxContentCount(){} // RVA: 0x3F8AF40
@@ -129,6 +146,24 @@ namespace VRC.UI.Elements.Menus
 
     public class KeyboardInputModalComponents : Object
     {
+        public object _keyboardGameObject;
+        public object _cancel;
+        public object _cancelText;
+        public object _submit;
+        public object _submitText;
+        public object _closeButton;
+        public object _clearButton;
+        public object _title;
+        public object _placeholder;
+        public object _charactersRemaining;
+        public object _inputField;
+        public object _maskInputToggle;
+        public object _minimizedKeyboard;
+        public object _modalBackgrounds;
+        public object _worldKeyboardBackground;
+        public object _keyboardToggleGroups;
+        public object _keyboard;
+
         // ── Methods ──
         public void get_KeyboardToggleGroups(){} // RVA: 0xB813B0
         public void get_ClearButton(){} // RVA: 0xBC1B30
@@ -159,6 +194,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x87C0A0
         public void get_MaxContentCount(){} // RVA: 0x87C130
@@ -177,6 +217,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42899F0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -195,6 +240,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42893D0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -213,6 +263,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42893D0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -231,6 +286,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42893D0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -249,6 +309,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42899F0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -267,6 +332,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42893D0
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -285,6 +355,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x428A010
         public void get_MaxContentCount(){} // RVA: 0xDAC980
@@ -303,6 +378,11 @@ namespace VRC.UI.Elements.Menus
 
     public class ListContentView`1 : MonoBehaviour
     {
+        public object _contentPrefab;
+        public object _listBinding;
+        public object _listCountBinding;
+        public object _header;
+
         // ── Methods ──
         public void get_CountFormat(){} // RVA: 0x42893D0
         public void get_MaxContentCount(){} // RVA: 0xDAC980

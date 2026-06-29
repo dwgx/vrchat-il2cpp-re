@@ -8,6 +8,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÍÎÎÍÌÌÏÏÏÌÌÌÍÌÌÌÎÏÎÍÏÌ</summary>
     public class AsyncStateMachine_0000 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_711;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x591C0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -21,6 +28,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÍÌÎÍÌÍÏÎÎÍÍÌÎÏÌÍÌÌÍÎÏ</summary>
     public class AsyncStateMachine_039D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F17;
+        public object f_286;
+        public object f_E2B;
+        public object f_C4F;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x74B0
@@ -38,6 +53,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÌÎÍÌÍÌÌÍÏÌÍÏÏÏÌÏÎÍÎÏÎÏ</summary>
     public class AsyncStateMachine_0488 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void MoveNext(){} // RVA: 0x56EB0
@@ -55,6 +75,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÍÏÏÎÌÎÎÍÌÏÏÌÍÎÏÍÌÌÍÍ</summary>
     public class AsyncStateMachine_055C : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_E25;
+        public object f_C22;
+        public object f_329;
+        public object f_7CF;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x73FA0
         public void InternalEquals(){} // RVA: 0x73FB0
@@ -68,6 +97,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÌÏÎÏÍÏÌÌÏÌÌÌÏÍÌÎÎÏÏÍÍÎ</summary>
     public class AsyncStateMachine_0AA5 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -83,6 +117,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÎÏÏÏÌÍÎÌÎÏÎÌÏÏÏÏÍÎÌÌÍ</summary>
     public class AsyncStateMachine_138A : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_37E;
+        public object f_4D4;
+        public object f_F7C;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -97,6 +139,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÎÌÏÏÌÌÌÎÎÏÎÌÌÏÏÏÍÎÍÏ</summary>
     public class AsyncStateMachine_1436 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_7CF;
+        public object f_FE3;
+        public object f_286;
+        public object f_818;
+        public object f_461;
+        public object f_575;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x74050
         public void InternalEquals(){} // RVA: 0x74060
@@ -114,6 +166,19 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÍÏÏÌÍÌÌÍÎÍÏÎÌÌÍÍÎÍÍÏÌÌ</summary>
     public class AsyncStateMachine_15E2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_4F1;
+        public object f_1F6;
+        public object f_286;
+        public object f_818;
+        public object f_F78;
+        public object f_35D;
+        public object f_C07;
+        public object f_589;
+        public object f_825;
+        public object f_5EA;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x56F30
         public void InternalEquals(){} // RVA: 0x56F40
@@ -128,6 +193,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÏÏÌÍÍÎÎÎÍÎÏÎÏÏÍÏÏÍÍÎÎ</summary>
     public class AsyncStateMachine_1B85 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_EA6;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void MoveNext(){} // RVA: 0x55B70
@@ -141,6 +213,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÌÌÍÍÍÍÏÏÎÌÏÌÍÏÎÍÎÍÏÎÎ</summary>
     public class AsyncStateMachine_1D22 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_A4D;
+        public object f_749;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x18260
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -158,6 +237,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÌÎÏÎÍÍÏÌÏÎÏÌÌÏÌÌÍÌÏÏÍÏ</summary>
     public class AsyncStateMachine_1E95 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_E25;
+        public object f_C22;
+        public object f_329;
+        public object f_FD6;
+        public object f_A2C;
+        public object f_711;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x73E70
         public void MoveNext(){} // RVA: 0x73EA0
@@ -174,6 +264,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÎÏÌÎÌÎÎÌÎÎÏÎÌÎÏÌÏÍÌÌÌ</summary>
     public class AsyncStateMachine_1FD5 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -187,6 +281,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÏÍÎÏÏÏÎÏÍÍÎÌÌÏÏÌÎÎÎÏÌÌ</summary>
     public class AsyncStateMachine_1FE2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F2C;
+        public object f_286;
+        public object f_16D;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x78720
         public void InternalEquals(){} // RVA: 0x9A60
@@ -200,6 +302,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÎÏÌÌÎÎÏÍÍÏÍÏÎÏÍÎÌÌÏÏÌ</summary>
     public class AsyncStateMachine_2390 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F2C;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x73C30
         public void InternalEquals(){} // RVA: 0x73C60
@@ -214,6 +323,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÍÏÌÏÏÏÌÏÌÌÏÌÌÌÏÎÏÎÏÌÌ</summary>
     public class AsyncStateMachine_2453 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_410;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x57C40
         public void InternalEquals(){} // RVA: 0x57C50
@@ -231,6 +345,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÍÎÌÌÌÎÏÍÎÌÎÎÏÌÌÏÎÏÏÎ</summary>
     public class AsyncStateMachine_258F : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_E77;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x4F260
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -246,6 +366,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÍÌÎÌÍÍÍÍÌÌÍÍÎÎÍÍÏÏÏÌÏ</summary>
     public class AsyncStateMachine_25C1 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_37E;
+        public object f_5A2;
+        public object f_4D4;
+        public object f_FEC;
+        public object f_C07;
+        public object f_34C;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x18330
         public void InternalEquals(){} // RVA: 0x18340
@@ -261,6 +391,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÎÍÌÎÍÏÌÎÏÎÎÌÏÌÌÏÏÍÌÍÍ</summary>
     public class AsyncStateMachine_2F9C : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_A4D;
+        public object f_711;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9A60
         public void SetStateMachine(){} // RVA: 0x9A60
@@ -274,6 +410,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÏÏÏÏÌÍÍÍÍÌÎÌÌÏÌÌÍÌÌÍÌ</summary>
     public class AsyncStateMachine_300E : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_749;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x51900
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -287,6 +430,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÏÌÍÏÌÍÏÏÌÏÌÏÏÏÎÍÎÎÍÏÌ</summary>
     public class AsyncStateMachine_3210 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F1D;
+        public object f_ACC;
+        public object f_0FA;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9A60
         public void InternalEquals(){} // RVA: 0x9A60
@@ -300,6 +450,21 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÎÏÏÍÌÍÌÌÏÎÏÌÎÎÍÎÌÌÍÍÌ</summary>
     public class AsyncStateMachine_33F2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_15A;
+        public object f_CE9;
+        public object f_329;
+        public object f_D39;
+        public object f_AA3;
+        public object f_699;
+        public object f_165;
+        public object f_487;
+        public object f_907;
+        public object f_882;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x450A0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -315,6 +480,26 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÍÍÍÌÎÍÎÍÏÎÎÎÏÍÎÎÍÏÎÍÏ</summary>
     public class AsyncStateMachine_3930 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F2C;
+        public object f_C3A;
+        public object f_013;
+        public object f_F78;
+        public object f_2D0;
+        public object f_777;
+        public object f_56E;
+        public object f_D9E;
+        public object f_BB4;
+        public object f_51C;
+        public object f_DAE;
+        public object f_20A;
+        public object f_589;
+        public object f_825;
+        public object f_5EA;
+        public object f_869;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x6DE10
         public void InternalEquals(){} // RVA: 0x6DE40
@@ -330,6 +515,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÏÏÏÏÍÏÍÌÎÌÍÌÍÍÌÏÏÍÍÎÎ</summary>
     public class AsyncStateMachine_3D61 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_777;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x18400
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -344,6 +535,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÎÏÌÌÏÍÏÍÍÏÌÌÌÍÏÏÍÏÌÏÍ</summary>
     public class AsyncStateMachine_41F9 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -357,6 +553,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÌÌÍÌÍÍÏÍÎÏÍÌÎÌÌÎÏÌÌÏÎ</summary>
     public class AsyncStateMachine_440D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_37A;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x57B20
         public void InternalEquals(){} // RVA: 0x57B50
@@ -374,6 +576,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÍÍÌÌÌÎÌÎÎÎÌÌÎÍÎÌÍÍÌÌÍ</summary>
     public class AsyncStateMachine_448D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_35D;
+        public object f_C07;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4DAF0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -389,6 +598,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÌÎÏÍÎÎÎÍÎÍÌÌÏÍÍÏÏÎÍÏÍ</summary>
     public class AsyncStateMachine_494B : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_88C;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x450F0
         public void MoveNext(){} // RVA: 0x45120
@@ -406,6 +621,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÎÏÏÍÏÏÍÎÏÎÌÎÍÎÍÎÍÏÍÌÎÏ</summary>
     public class AsyncStateMachine_529E : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_202;
+        public object f_1F7;
+        public object f_F78;
+        public object f_DD5;
+        public object f_666;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x54AA0
         public void InternalEquals(){} // RVA: 0x54AB0
@@ -420,6 +644,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÎÌÎÍÌÍÏÌÏÍÌÍÎÏÎÍÏÏÍÍÏÎ</summary>
     public class AsyncStateMachine_54F4 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_1FC;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9A60
         public void MoveNext(){} // RVA: 0x55B30
@@ -434,6 +664,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÍÎÌÎÏÌÏÎÏÎÌÏÏÏÏÍÌÎÍÎÍÏ</summary>
     public class AsyncStateMachine_5827 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x58F40
         public void InternalEquals(){} // RVA: 0x58F70
@@ -447,6 +681,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÍÏÎÎÍÌÌÏÎÍÍÌÍÎÌÎÎÍÌÏÌÍ</summary>
     public class AsyncStateMachine_5D79 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F7C;
+        public object f_286;
+        public object f_4D4;
+        public object f_C9D;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4DDD0
         public void InternalEquals(){} // RVA: 0x4DDE0
@@ -460,6 +702,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÏÏÌÌÍÌÌÏÎÏÏÎÏÌÌÏÏÏÍÌÏÌ</summary>
     public class AsyncStateMachine_5E6E : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_749;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x519D0
@@ -476,6 +725,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÎÎÌÍÏÌÎÏÌÎÎÎÏÎÌÌÌÌÎ</summary>
     public class AsyncStateMachine_5E80 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_C3A;
+        public object f_1E7;
+        public object f_F78;
+        public object f_589;
+        public object f_825;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x6D8F0
         public void InternalEquals(){} // RVA: 0x6D900
@@ -492,6 +750,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÌÎÏÎÍÌÌÎÌÏÎÌÏÏÍÎÏÏÌÍÍ</summary>
     public class AsyncStateMachine_5F32 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_1FC;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x54BB0
         public void InternalEquals(){} // RVA: 0x9A60
@@ -507,6 +771,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÍÍÏÎÍÌÏÍÍÎÏÏÍÏÌÎÍÌÌÎÍ</summary>
     public class AsyncStateMachine_5FAB : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_A03;
+        public object f_1FC;
+        public object f_286;
+        public object f_016;
+        public object f_6E3;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -524,6 +797,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÏÍÌÏÍÏÎÎÎÏÍÏÎÏÎÍÎÌÏÏ</summary>
     public class AsyncStateMachine_6408 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x53DB0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -541,6 +819,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÍÎÌÎÌÍÍÎÌÏÎÌÌÎÍÏÎÏÏÏÎ</summary>
     public class AsyncStateMachine_666A : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_D5D;
+        public object f_BE1;
+        public object f_713;
+        public object f_571;
+        public object f_4F3;
+        public object f_818;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x52620
         public void InternalEquals(){} // RVA: 0x52630
@@ -555,6 +843,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÌÌÏÌÌÎÏÍÎÏÍÌÍÎÌÍÌÏÍÌÌÎ</summary>
     public class AsyncStateMachine_688D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_749;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x51930
@@ -568,6 +863,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÎÌÏÏÍÏÎÍÏÏÎÏÌÏÎÏÏÏÌÎÎ</summary>
     public class AsyncStateMachine_6957 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_99A;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x58E60
         public void InternalEquals(){} // RVA: 0x58E90
@@ -582,6 +883,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÎÍÌÎÏÍÎÍÏÍÎÍÏÎÍÎÌÎÎÎÏ</summary>
     public class AsyncStateMachine_6A77 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -597,6 +903,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÏÌÍÍÌÌÏÏÌÎÎÎÌÍÏÏÏÍÎÎÌ</summary>
     public class AsyncStateMachine_6C43 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x65C50
         public void InternalEquals(){} // RVA: 0x65C60
@@ -611,6 +922,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÌÍÍÏÌÎÍÌÌÏÏÏÎÌÎÍÎÌÍÏÎ</summary>
     public class AsyncStateMachine_71AA : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x6DCC0
         public void InternalEquals(){} // RVA: 0x6DCF0
@@ -626,6 +942,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÌÍÎÎÎÍÌÌÎÍÌÏÍÍÎÏÏÌÍÍÏ</summary>
     public class AsyncStateMachine_74E7 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_C3A;
+        public object f_F7D;
+        public object f_1E7;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x6D950
         public void InternalEquals(){} // RVA: 0x6D980
@@ -641,6 +965,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÍÍÌÍÍÎÏÎÌÎÎÌÎÌÍÏÎÌÏÎÎÌ</summary>
     public class AsyncStateMachine_7DC5 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_41E;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x56DB0
         public void InternalEquals(){} // RVA: 0x56DC0
@@ -655,6 +985,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÏÍÌÏÌÏÎÎÍÏÌÍÍÏÌÍÎÍÎ</summary>
     public class AsyncStateMachine_7E23 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_711;
+        public object f_286;
+        public object f_0F1;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x894290
         public void InternalEquals(){} // RVA: 0x894290
@@ -669,6 +1007,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÏÌÍÍÍÍÏÎÏÏÌÌÍÌÌÎÎÎÎÎÍ</summary>
     public class AsyncStateMachine_7F1C : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_4D4;
+        public object f_F7C;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -683,6 +1028,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÌÏÏÍÎÎÏÏÌÍÍÍÏÎÎÎÍÏÏÍÏ</summary>
     public class AsyncStateMachine_7F60 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_2D1;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -697,6 +1048,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÎÎÎÌÎÎÍÌÍÎÎÌÍÎÎÌÎÍÌÍÏ</summary>
     public class AsyncStateMachine_817F : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_749;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4F150
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -712,6 +1069,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÍÏÍÏÎÏÍÌÌÌÌÍÌÌÏÏÏÌÎÎÍ</summary>
     public class AsyncStateMachine_86D8 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_844;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x34090
@@ -726,6 +1089,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÎÌÎÏÌÎÌÎÏÏÍÎÎÌÌÍÌÌÏÍÍ</summary>
     public class AsyncStateMachine_87B0 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_1FC;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x54C20
         public void InternalEquals(){} // RVA: 0x54C30
@@ -739,6 +1108,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÎÎÎÏÏÏÌÍÏÎÌÏÌÍÏÍÍÎÏÍÏ</summary>
     public class AsyncStateMachine_87D1 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F17;
+        public object f_818;
+        public object f_E2B;
+        public object f_D32;
+        public object f_216;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7560
         public void InternalEquals(){} // RVA: 0x7570
@@ -753,6 +1131,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÍÎÎÎÏÌÏÍÌÏÎÌÏÎÎÍÍÏÍÎÎ</summary>
     public class AsyncStateMachine_883C : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x78760
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -767,6 +1150,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÎÍÍÌÍÍÍÍÍÍÌÍÏÌÏÎÏÌÏÌÌÌ</summary>
     public class AsyncStateMachine_88BD : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_A65;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x56B80
@@ -784,6 +1173,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÌÍÌÌÎÌÍÌÏÍÏÏÌÏÍÍÎÎÎÏÏ</summary>
     public class AsyncStateMachine_88E4 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_C3A;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x6DBA0
         public void InternalEquals(){} // RVA: 0x6DBB0
@@ -799,6 +1195,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÌÏÍÍÏÏÎÍÌÍÎÍÎÏÏÍÏÏÌÏÎÍ</summary>
     public class AsyncStateMachine_89B8 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_C3A;
+        public object f_286;
+        public object f_977;
+        public object f_927;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x6DA80
         public void InternalEquals(){} // RVA: 0x6DA90
@@ -816,6 +1221,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÍÏÌÏÍÍÌÏÏÏÍÌÏÌÍÎÌÍÌÌÎ</summary>
     public class AsyncStateMachine_8A5F : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_329;
+        public object f_D39;
+        public object f_863;
+        public object f_917;
+        public object f_098;
+        public object f_C52;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x57E60
         public void InternalEquals(){} // RVA: 0x57E70
@@ -829,6 +1245,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÌÏÍÍÏÍÏÎÏÎÎÏÏÎÎÏÌÌÌÍÌÌ</summary>
     public class AsyncStateMachine_8C08 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_E6B;
+        public object f_818;
+        public object f_C98;
+        public object f_9F6;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x9A60
         public void InternalEquals(){} // RVA: 0x57E30
@@ -844,6 +1270,18 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÌÍÏÏÏÏÏÏÎÎÏÎÏÍÎÍÌÎÏÍÌ</summary>
     public class AsyncStateMachine_9004 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_329;
+        public object f_D39;
+        public object f_699;
+        public object f_15A;
+        public object f_CE9;
+        public object f_AA3;
+        public object f_316;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x44F20
         public void InternalEquals(){} // RVA: 0x44F50
@@ -860,6 +1298,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÌÎÌÌÍÏÎÌÎÌÎÌÍÎÍÍÏÌÎÎÌ</summary>
     public class AsyncStateMachine_99F0 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_D37;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x56290
         public void MoveNext(){} // RVA: 0x562A0
@@ -874,6 +1318,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÌÍÍÎÎÍÏÎÍÌÏÏÌÌÍÎÏÏÏÍÍÎ</summary>
     public class AsyncStateMachine_9AD9 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F7C;
+        public object f_286;
+        public object f_4D4;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x182A0
         public void InternalEquals(){} // RVA: 0x182B0
@@ -891,6 +1342,24 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÏÍÌÎÎÏÍÍÍÍÌÎÎÎÎÍÌÏÏÎ</summary>
     public class AsyncStateMachine_9E78 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_45B;
+        public object f_ED1;
+        public object f_522;
+        public object f_529;
+        public object f_19F;
+        public object f_D4A;
+        public object f_2F4;
+        public object f_A63;
+        public object f_0E3;
+        public object f_BE5;
+        public object f_93D;
+        public object f_CBD;
+        public object f_26E;
+        public object f_06C;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -905,6 +1374,18 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÏÎÎÎÍÏÏÌÎÎÏÎÍÌÍÌÏÎÌÏÏÏ</summary>
     public class AsyncStateMachine_A724 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_D12;
+        public object f_013;
+        public object f_06A;
+        public object f_A6A;
+        public object f_F78;
+        public object f_589;
+        public object f_825;
+        public object f_5EA;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x74170
         public void InternalEquals(){} // RVA: 0x741A0
@@ -919,6 +1400,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÏÏÎÍÌÍÌÏÍÍÏÎÏÎÌÏÌÍÏÍÍ</summary>
     public class AsyncStateMachine_A734 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_681;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4F190
         public void InternalEquals(){} // RVA: 0x4F1A0
@@ -933,6 +1420,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÍÏÍÏÏÍÌÎÏÎÎÌÎÎÏÌÌÌÏÎÍ</summary>
     public class AsyncStateMachine_A8A6 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_1FC;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9A60
         public void InternalEquals(){} // RVA: 0x9A60
@@ -947,6 +1440,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÏÍÍÏÌÎÍÍÌÍÎÍÍÌÍÌÌÎÌÏÌ</summary>
     public class AsyncStateMachine_B0C0 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x52700
@@ -964,6 +1463,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÏÏÎÎÏÌÏÌÎÌÌÌÎÏÏÏÎÏÏÏÌ</summary>
     public class AsyncStateMachine_B0DD : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_94F;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void MoveNext(){} // RVA: 0x3CB00
@@ -977,6 +1482,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÏÏÎÏÍÏÎÏÌÌÎÎÏÌÏÍÍÌÌÍÏÎ</summary>
     public class AsyncStateMachine_B28D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -994,6 +1504,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÏÌÌÏÌÌÌÎÎÎÏÎÌÎÏÍÎÎÏÏÏ</summary>
     public class AsyncStateMachine_B2D9 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1011,6 +1526,10 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÎÌÍÏÍÍÏÏÌÏÌÌÏÎÌÎÏÍÍÌÌ</summary>
     public class AsyncStateMachine_B460 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1026,6 +1545,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÎÍÌÏÌÎÎÎÍÏÍÎÌÏÏÎÌÎÏÏ</summary>
     public class AsyncStateMachine_B5E2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x51A30
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1042,6 +1566,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÎÍÏÏÌÍÎÎÎÏÏÏÍÏÏÏÏÌÎÍÍ</summary>
     public class AsyncStateMachine_BB07 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_C3A;
+        public object f_E77;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x240A0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1058,6 +1589,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÍÏÍÍÍÍÏÎÎÌÌÌÍÌÎÎÎÌÎÎÌ</summary>
     public class AsyncStateMachine_BB69 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_41E;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x56D00
         public void InternalEquals(){} // RVA: 0x56D10
@@ -1071,6 +1608,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÏÎÌÌÍÌÌÎÍÍÏÌÎÏÌÏÍÌÎÌÏ</summary>
     public class AsyncStateMachine_BDC3 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_C41;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x54B60
         public void InternalEquals(){} // RVA: 0x54B70
@@ -1086,6 +1629,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÌÏÏÏÍÏÏÏÏÎÌÎÏÌÏÌÍÎÏÌÎÍ</summary>
     public class AsyncStateMachine_C080 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_C3A;
+        public object f_F78;
+        public object f_35D;
+        public object f_C07;
+        public object f_DD5;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x65E10
         public void InternalEquals(){} // RVA: 0x65E40
@@ -1099,6 +1651,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÍÍÏÍÏÎÍÏÍÏÏÏÏÍÍÌÏÏÎÍÌÍ</summary>
     public class AsyncStateMachine_C5BA : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_749;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x51980
@@ -1116,6 +1675,15 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÏÌÏÍÏÏÏÍÎÌÌÍÎÍÌÎÏÌÏÏÏÏ</summary>
     public class AsyncStateMachine_C837 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_D5D;
+        public object f_BE1;
+        public object f_571;
+        public object f_4F3;
+        public object f_818;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x50680
         public void MoveNext(){} // RVA: 0x50690
@@ -1130,6 +1698,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÌÍÎÍÍÌÏÌÎÌÏÍÌÏÏÌÍÌÏÌÌÎ</summary>
     public class AsyncStateMachine_CB6F : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_4D4;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x65D50
         public void InternalEquals(){} // RVA: 0x9A60
@@ -1147,6 +1721,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÏÏÌÎÍÏÎÎÏÌÌÏÍÌÍÏÍÎÏÌÌ</summary>
     public class AsyncStateMachine_CC33 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x181E0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -1160,6 +1739,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÍÌÏÌÏÌÍÎÎÍÍÌÌÍÌÎÌÏÍÌÎÌ</summary>
     public class AsyncStateMachine_CCD7 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1177,6 +1761,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÏÌÍÍÌÏÍÎÎÏÍÍÏÎÌÍÏÌÎÎ</summary>
     public class AsyncStateMachine_D258 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_FE7;
+        public object f_D5D;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x52730
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1190,6 +1780,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÍÍÌÍÍÍÎÌÍÍÌÌÎÌÌÎÍÎÎÍÍ</summary>
     public class AsyncStateMachine_D306 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_41E;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x56FD0
         public void InternalEquals(){} // RVA: 0x56FE0
@@ -1204,6 +1800,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÌÏÏÌÎÎÍÏÌÏÌÏÌÏÌÏÍÎÌÏÎ</summary>
     public class AsyncStateMachine_D308 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x241A0
         public void InternalEquals(){} // RVA: 0x241D0
@@ -1219,6 +1821,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÏÏÌÎÌÎÍÏÌÍÍÏÏÌÎÏÏÏÌÍÏÍ</summary>
     public class AsyncStateMachine_D520 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_E7A;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x65DA0
         public void InternalEquals(){} // RVA: 0x65DB0
@@ -1234,6 +1841,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÏÌÍÎÏÎÏÍÍÏÍÏÌÍÌÎÌÍÍ</summary>
     public class AsyncStateMachine_D53D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F2C;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x73D30
         public void InternalEquals(){} // RVA: 0x73D60
@@ -1251,6 +1864,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÏÏÏÌÌÎÎÎÍÍÏÍÌÍÌÌÍÏÏÍÏÏ</summary>
     public class AsyncStateMachine_D896 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_15A;
+        public object f_CE9;
+        public object f_329;
+        public object f_D39;
+        public object f_AA3;
+        public object f_699;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void MoveNext(){} // RVA: 0x45050
@@ -1264,6 +1888,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÌÎÎÌÏÌÎÏÏÍÌÌÎÌÎÎÏÎÍÍÏÎ</summary>
     public class AsyncStateMachine_D9F2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3CB30
         public void MoveNext(){} // RVA: 0x3CB40
@@ -1277,6 +1906,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÌÌÏÎÎÎÌÍÎÍÌÍÍÍÍÎÎÍÍÎÏ</summary>
     public class AsyncStateMachine_DA05 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x56BD0
@@ -1291,6 +1926,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÌÎÏÏÎÏÎÌÍÏÍÏÍÌÎÎÌÌÌÎÍÎÍ</summary>
     public class AsyncStateMachine_DCD9 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4DB30
         public void InternalEquals(){} // RVA: 0x4DB40
@@ -1308,6 +1948,13 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÌÏÏÏÎÍÍÎÌÌÏÎÍÍÎÏÎÏÎÌÍÎ</summary>
     public class AsyncStateMachine_E0B4 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_749;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -1321,6 +1968,14 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÎÎÎÎÏÏÎÌÎÍÎÏÎÍÏÌÎÌÎÌÌ</summary>
     public class AsyncStateMachine_E0BD : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_F2C;
+        public object f_286;
+        public object f_16D;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9A60
         public void InternalEquals(){} // RVA: 0x9A60
@@ -1335,6 +1990,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÍÎÏÎÌÍÏÌÌÌÎÌÍÍÎÏÍÏÌÍÍ</summary>
     public class AsyncStateMachine_E217 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x4F1F0
         public void InternalEquals(){} // RVA: 0x4F200
@@ -1351,6 +2011,16 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÍÍÌÌÎÌÌÍÏÌÍÏÌÎÌÎÏÏÎÍÏÌ</summary>
     public class AsyncStateMachine_E233 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_CE4;
+        public object f_202;
+        public object f_F78;
+        public object f_589;
+        public object f_825;
+        public object f_5EA;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x57F40
         public void InternalEquals(){} // RVA: 0x57F50
@@ -1368,6 +2038,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÏÎÏÍÎÎÍÍÏÍÌÌÍÌÎÌÎÎÏÎÏ</summary>
     public class AsyncStateMachine_E8D1 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7520
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1383,6 +2058,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÍÌÎÌÍÎÍÌÍÎÌÍÎÎÏÏÎÍÏÌÎÍ</summary>
     public class AsyncStateMachine_F076 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x59180
@@ -1396,6 +2076,20 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÍÍÍÍÌÍÌÏÍÎÍÍÏÌÌÍÎÍÏÍÎÎ</summary>
     public class AsyncStateMachine_F1C6 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_BB5;
+        public object f_03D;
+        public object f_CBE;
+        public object f_F78;
+        public object f_589;
+        public object f_92C;
+        public object f_825;
+        public object f_5EA;
+        public object f_869;
+        public object f_EF6;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x59050
         public void InternalEquals(){} // RVA: 0x59080
@@ -1411,6 +2105,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÍÎÏÏÍÏÎÎÎÏÎÏÏÌÎÌÎÌÍÍÏÎÌ</summary>
     public class AsyncStateMachine_F342 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_41E;
+        public object f_F78;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x56FA0
         public void InternalEquals(){} // RVA: 0x3FC0
@@ -1427,6 +2127,12 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÏÍÍÏÌÍÏÌÌÏÏÏÍÏÎÏÍÎÎÎÎÎ</summary>
     public class AsyncStateMachine_F3E2 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_41E;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x56C30
         public void InternalEquals(){} // RVA: 0x56C60
@@ -1440,6 +2146,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÌÏÌÏÍÍÎÍÎÎÏÎÎÍÌÏÏÍÏÌÍÍ</summary>
     public class AsyncStateMachine_F52D : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x45230
@@ -1455,6 +2166,17 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÎÏÌÍÍÌÏÌÏÍÎÏÏÌÎÌÏÌÌÏÎÍÍ</summary>
     public class AsyncStateMachine_F58A : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_E12;
+        public object f_749;
+        public object f_7AA;
+        public object f_E7E;
+        public object f_E7A;
+        public object f_A60;
+        public object f_F78;
+        public object f_589;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x3FC0
         public void SetStateMachine(){} // RVA: 0x3FC0
@@ -1468,6 +2190,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÎÏÌÏÏÍÍÌÎÍÍÌÍÎÌÎÍÏÍÌÌÏ</summary>
     public class AsyncStateMachine_FAC0 : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0

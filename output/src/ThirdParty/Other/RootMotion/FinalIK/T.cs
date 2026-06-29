@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class TrigonometricIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -18,6 +20,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class TwistRelaxer : MonoBehaviour
     {
+        public object ik;
+        public object parent;
+        public object child;
+        public object weight;
+        public object parentChildCrossfade;
+        public object twistAngleOffset;
+        public object twistAxis;
+        public object axis;
+        public object axisRelativeToParentDefault;
+        public object axisRelativeToChildDefault;
+        public object _inited;
+
         // ── Methods ──
         public void Relax(){} // RVA: 0xC9A000
         public void Init(){} // RVA: 0xC9B270

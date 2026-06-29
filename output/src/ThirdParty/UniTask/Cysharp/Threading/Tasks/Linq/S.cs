@@ -7,6 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class SelectAwaitWithCancellation`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +17,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectAwait`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +27,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectIntAwaitWithCancellation`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -28,6 +37,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectIntAwait`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -35,6 +47,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectInt`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -42,6 +57,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectManyAwaitWithCancellation`3 : Object
     {
+        public object source;
+        public object selector1;
+        public object selector2;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -49,6 +69,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectManyAwait`3 : Object
     {
+        public object source;
+        public object selector1;
+        public object selector2;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -56,6 +81,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SelectMany`3 : Object
     {
+        public object source;
+        public object selector1;
+        public object selector2;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -63,6 +93,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Select`2 : Object
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -84,6 +117,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipLast`1 : Object
     {
+        public object source;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -91,6 +127,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipUntilCanceled`1 : Object
     {
+        public object source;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -98,6 +137,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipUntil`1 : Object
     {
+        public object source;
+        public object other;
+        public object other2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -105,6 +148,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhileAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -112,6 +158,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhileAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -119,6 +168,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhileIntAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -126,6 +178,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhileIntAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -133,6 +188,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhileInt`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -140,6 +198,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SkipWhile`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -147,6 +208,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Skip`1 : Object
     {
+        public object source;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -154,6 +218,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Subscribe : Object
     {
+        public object NopError;
+        public object NopCompleted;
+
         // ── Methods ──
         public void SubscribeCore(){} // RVA: 0xA94080
         public void SubscribeAwaitCore(){} // RVA: 0xA94080
@@ -170,6 +237,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class SyncSelectorAsyncEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DAB0
         public void ComputeKeysAsync(){} // RVA: 0x87C1A0

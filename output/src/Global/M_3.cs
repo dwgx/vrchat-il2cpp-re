@@ -1,10 +1,13 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 571
+// Methods: 572
 
 public class MROutput : Object
 {
+    public object mProvablyComposite;
+    public object mFactor;
+
     // ── Methods ──
     public void ProbablyPrime(){} // RVA: 0xA643A00
     public void ProvablyCompositeWithFactor(){} // RVA: 0xA643A90
@@ -17,6 +20,8 @@ public class MROutput : Object
 
 public class MainModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_emitterVelocity(){} // RVA: 0x972660
@@ -171,12 +176,19 @@ public class MainModule : ValueType
 
 public class Managed : Object
 {
+    public object TryFunctionDelegates;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x77D24F0
 }
 
 public class ManagedJobData : Object
 {
+    public object textElement;
+    public object node;
+    public object textInfo;
+    public object success;
+
     // ── Methods ──
     public void Release(){} // RVA: 0x7EF51C0
     public void .ctor(){} // RVA: 0xB43310
@@ -184,23 +196,26 @@ public class ManagedJobData : Object
 
 public class ManagedJobData : Object
 {
+    public object visualElement;
+    public object node;
+    public object materials;
+    public object renderModes;
+    public object vertices;
+    public object indices;
+    public object prepareSuccess;
+
     // ── Methods ──
     public void Release(){} // RVA: 0x7EFECB0
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class ManagedUserData : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-    public void .cctor(){} // RVA: 0x26D8380
-    public void UnmanagedFree(){} // RVA: 0x26D8500
-    public void DelegateFromPointer(){} // RVA: 0xA94080
-    public void CreateHandle(){} // RVA: 0x26D85C0
-}
-
 public class Map : Object
 {
+    public object bone;
+    public object target;
+    public object defaultLocalPosition;
+    public object defaultLocalRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xCAC750
     public void StoreDefaultState(){} // RVA: 0xC2EA60
@@ -228,6 +243,10 @@ public class MapAsObject : ValueType
 
 public class MapPointCallback : Object
 {
+    public object m_infoP;
+    public object m_includeNegated;
+    public object m_pointMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x64A76B0
     public void Precompute(){} // RVA: 0xA115D60
@@ -235,10 +254,34 @@ public class MapPointCallback : Object
 
 public class MapPointCallback : Object
 {
+    public object m_endomorphism;
+    public object m_point;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void Precompute(){} // RVA: 0xA118D20
     public void CheckExisting(){} // RVA: 0xA118E90
+}
+
+public class MapView`1 : Object
+{
+    public object parent;
+    public object projection;
+    public object containsCheck;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x8954D0
+    public void get_Count(){} // RVA: 0x87C130
+    public void get_IsReadOnly(){} // RVA: 0x87D280
+    public void get_IsSynchronized(){} // RVA: 0x87D280
+    public void get_SyncRoot(){} // RVA: 0x87C0A0
+    public void Add(){} // RVA: 0xA94080
+    public void Clear(){} // RVA: 0x894290
+    public void Contains(){} // RVA: 0xA94080
+    public void CopyTo(){} // RVA: 0x899290
+    public void GetEnumerator(){} // RVA: 0x87C0A0
+    public void Remove(){} // RVA: 0xA94080
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
 }
 
 public class Map[] : Array
@@ -263,6 +306,13 @@ public class Map[] : Array
 
 public class MarketplaceCategoryData : ApiModel
 {
+    public object _name;
+    public object _type;
+    public object _maxCells;
+    public object _ids;
+    public object _shuffle;
+    public object _contentList;
+
     // ── Methods ──
     public void get_name(){} // RVA: 0xBBFF90
     public void set_name(){} // RVA: 0xBBFFA0
@@ -289,39 +339,61 @@ public class MarshalerInstanceKeyComparer : Object
 
 public class MaskGeneratorShaderIds : Object
 {
+    public object _LatticeSize;
+    public object _MaskTexture;
+    public object _SobelMultiplier;
+    public object _MaskTextureTS;
+    public object _PerspectiveToSlice;
+    public object _SliceCount;
+    public object _SliceToPerspective;
+    public object _Downscaled;
+    public object _FullRes;
+    public object _PaddedUVScaleFactor;
+    public object _DownsampledMaskTexture;
+    public object _SobelInvalidateEdgeWidth;
+    public object _SobelInvalidateStrength;
+    public object _UseEdgeMask;
+    public object _DebugEdgeMask;
+    public object _DitherEdgeKW;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26B9390
 }
 
 public class MaskingMaterial : Object
 {
+    public object baseMaterial;
+    public object stencilMaterial;
+    public object count;
+    public object stencilID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MasterProps : Object
 {
+    public object normalMode;
+    public object mappingBlendSpeed;
+    public object activateOnStaticCollisions;
+    public object activateOnImpulse;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA9880
 }
 
 public class Match : ValueType
 {
+    public object m_RequirementIndex;
+    public object m_Requirements;
+    public object m_Controls;
+
     // ── Methods ──
     public void get_control(){} // RVA: 0x930C30
     public void get_device(){} // RVA: 0x930C80
     public void get_requirementIndex(){} // RVA: 0x77E60
     public void get_requirement(){} // RVA: 0x930CE0
     public void get_isOptional(){} // RVA: 0x930D20
-}
-
-public class MatchIdDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3E37B60
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x8284730
-    public void EndInvoke(){} // RVA: 0x2404860
 }
 
 public class MatchNumberDelegate : MulticastDelegate
@@ -333,6 +405,12 @@ public class MatchNumberDelegate : MulticastDelegate
 
 public class MatchResult : ValueType
 {
+    public object m_Result;
+    public object m_Score;
+    public object m_Devices;
+    public object m_Controls;
+    public object m_Requirements;
+
     // ── Methods ──
     public void get_score(){} // RVA: 0xD1B60
     public void get_isSuccessfulMatch(){} // RVA: 0x930830
@@ -347,6 +425,8 @@ public class MatchResult : ValueType
 
 public class MaterialBinding : Object
 {
+    public object materialProperty;
+
     // ── Methods ──
     public void Subscribe(){} // RVA: 0x882090
     public void .ctor(){} // RVA: 0xB43310
@@ -354,6 +434,8 @@ public class MaterialBinding : Object
 
 public class MaterialBindingColor : MaterialBinding
 {
+    public object variableLink;
+
     // ── Methods ──
     public void Subscribe(){} // RVA: 0xA6A4640
     public void .ctor(){} // RVA: 0xB43310
@@ -361,6 +443,9 @@ public class MaterialBindingColor : MaterialBinding
 
 public class MaterialBindingFloat : MaterialBinding
 {
+    public object variableLink;
+    public object curve;
+
     // ── Methods ──
     public void Subscribe(){} // RVA: 0xA6A40B0
     public void GetCurveValue(){} // RVA: 0xA6A4380
@@ -389,6 +474,8 @@ public class MaterialBinding[] : Array
 
 public class Media : Object
 {
+    public object cachedTexture;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x6BE4100
     public void Shutdown(){} // RVA: 0x6BE4290
@@ -420,6 +507,20 @@ public class Media : Object
 
 public class MediaItem : Object
 {
+    public object name;
+    public object sourceType;
+    public object mediaPath;
+    public object texture;
+    public object textureDuration;
+    public object loop;
+    public object startMode;
+    public object progressMode;
+    public object progressTimeSeconds;
+    public object isOverrideTransition;
+    public object overrideTransition;
+    public object overrideTransitionDuration;
+    public object overrideTransitionEasing;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2548910
 }
@@ -444,174 +545,337 @@ public class MediaItem[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class MemoizeSource : Object
+public class MemberDescriptorComparer : Object
 {
+    public object Instance;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-    public void GetResult(){} // RVA: 0x7751420
-    public void GetStatus(){} // RVA: 0x7751570
-    public void OnCompleted(){} // RVA: 0x77515E0
-    public void UnsafeGetStatus(){} // RVA: 0x7751680
+    public void Compare(){} // RVA: 0x77096D0
+    public void .ctor(){} // RVA: 0xB43310
+    public void .cctor(){} // RVA: 0x77098E0
 }
 
 public class MemoizeSource : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-}
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
 
-public class MemoizeSource : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-}
-
-public class MemoizeSource : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class MemoizeSource : Object
+{
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class MemoizeSource : Object
+{
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class MemoizeSource : Object
+{
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class MemoizeSource : Object
+{
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class MemoryUsageChangedCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB9DF20
+    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class MenuItem : Object
 {
+    public object name;
+    public object element;
+    public object action;
+    public object actionUserData;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MergeOptions : Object
 {
+    public object _replaceMessageFields;
+    public object _replaceRepeatedFields;
+    public object _replacePrimitiveFields;
+
     // ── Methods ──
     public void get_ReplaceMessageFields(){} // RVA: 0xC120A0
     public void get_ReplaceRepeatedFields(){} // RVA: 0xDD5C50
@@ -621,12 +885,25 @@ public class MergeOptions : Object
 
 public class Mesh : Object
 {
+    public object Type;
+    public object NumVertices;
+    public object NumIndices;
+    public object VertexPositions;
+    public object Indices;
+    public object VertexNormals;
+    public object VertexUV0;
+    public object BlendIndices;
+    public object BlendWeights;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MeshDataArray : ValueType
 {
+    public object m_Ptrs;
+    public object m_Length;
+
     // ── Methods ──
     public void ReleaseMeshDatas(){} // RVA: 0x7BC42D0
     public void CreateNewMeshDatas(){} // RVA: 0x7BC4330
@@ -636,6 +913,10 @@ public class MeshDataArray : ValueType
 
 public class MeshRendererData : ValueType
 {
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _shouldUseSystemGestureMaterial;
+
     // ── Methods ──
     public void get_IsDataValid(){} // RVA: 0x90520
     public void set_IsDataValid(){} // RVA: 0x90530
@@ -647,18 +928,26 @@ public class MeshRendererData : ValueType
 
 public class MeshSourceShaderIds : Object
 {
+    public object _RadialBiasPerspInMeters;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26BB370
 }
 
 public class MeshTransformList : ValueType
 {
+    public object m_Self;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x81451A0
 }
 
 public class Message : Object
 {
+    public object mMessageSeq;
+    public object mMsgType;
+    public object mBody;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA1CC620
     public void get_Seq(){} // RVA: 0xB8F8F0
@@ -668,6 +957,10 @@ public class Message : Object
 
 public class Message : Object
 {
+    public object function;
+    public object recipient;
+    public object empty;
+
     // ── Methods ──
     public void Send(){} // RVA: 0xCA2440
     public void .ctor(){} // RVA: 0xB43310
@@ -681,6 +974,10 @@ public class MessageEvent : UnityEvent`1
 
 public class MessageTypeSubscribers : Object
 {
+    public object m_messageTypeId;
+    public object subscriberCount;
+    public object messageCallback;
+
     // ── Methods ──
     public void get_MessageTypeId(){} // RVA: 0x7C2DFA0
     public void set_MessageTypeId(){} // RVA: 0x7C2E0D0
@@ -689,6 +986,9 @@ public class MessageTypeSubscribers : Object
 
 public class Metadata : Object
 {
+    public object _hashAlgorithm;
+    public object _otherNames;
+
     // ── Methods ──
     public void get_HashAlgorithm(){} // RVA: 0xC120A0
     public void set_HashAlgorithm(){} // RVA: 0xC120B0
@@ -699,6 +999,11 @@ public class Metadata : Object
 
 public class MetadataDb : ValueType
 {
+    public object _length;
+    public object _data;
+    public object _convertToAlloc;
+    public object _isLocked;
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x77E60
     public void set_Length(){} // RVA: 0x29580
@@ -721,24 +1026,53 @@ public class MetadataDb : ValueType
 
 public class MetadataSinglePerspective : Object
 {
+    public object _versionMajor;
+    public object _versionMinor;
+    public object format;
+    public object numAngles;
+    public object depthImageSize;
+    public object depthPrincipalPoint;
+    public object depthFocalLength;
+    public object farClip;
+    public object nearClip;
+    public object textureWidth;
+    public object textureHeight;
+    public object extrinsics;
+    public object boundsCenter;
+    public object boundsSize;
+    public object crop;
+    public object clipEpsilon;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MetadataVersion : Object
 {
+    public object _versionMajor;
+    public object _versionMinor;
+    public object format;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MicrosoftConfiguration : Object
 {
+    public object module;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MidiBlock : Object
 {
+    public object startTimeMs;
+    public object endTimeMs;
+    public object note;
+    public object velocity;
+    public object channel;
+
     // ── Methods ──
     public void get_startTimeSec(){} // RVA: 0xA6AC440
     public void get_endTimeSec(){} // RVA: 0xA6AC450
@@ -749,6 +1083,12 @@ public class MidiBlock : Object
 
 public class MidiEvent : ValueType
 {
+    public object Time;
+    public object Type;
+    public object Arg1;
+    public object Arg2;
+    public object Arg3;
+
     // ── Methods ──
     public void get_MidiEventType(){} // RVA: 0x9B0B0
     public void get_MetaEventType(){} // RVA: 0x9B0F0
@@ -762,6 +1102,10 @@ public class MidiEvent : ValueType
 
 public class MidiRawTrack : Object
 {
+    public object Index;
+    public object MidiEvents;
+    public object TextEvents;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA6AFCE0
 }
@@ -788,6 +1132,12 @@ public class MidiRawTrack[] : Array
 
 public class MidiTrack : Object
 {
+    public object blocks;
+    public object minNote;
+    public object maxNote;
+    public object minVelocity;
+    public object maxVelocity;
+
     // ── Methods ──
     public void SetBlocks(){} // RVA: 0xA6AC750
     public void .ctor(){} // RVA: 0xA6AC990
@@ -815,6 +1165,13 @@ public class MidiTrack[] : Array
 
 public class MinMaxCurve : ValueType
 {
+    public object m_Mode;
+    public object m_CurveMultiplier;
+    public object m_CurveMin;
+    public object m_CurveMax;
+    public object m_ConstantMin;
+    public object m_ConstantMax;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x979220
     public void get_mode(){} // RVA: 0x454FE0
@@ -839,6 +1196,13 @@ public class MinMaxCurve : ValueType
 
 public class MinMaxCurveBlittable : ValueType
 {
+    public object m_Mode;
+    public object m_CurveMultiplier;
+    public object m_CurveMin;
+    public object m_CurveMax;
+    public object m_ConstantMin;
+    public object m_ConstantMax;
+
     // ── Methods ──
     public void op_Implicit(){} // RVA: 0x7CC2210
     public void FromMixMaxCurve(){} // RVA: 0x7CC22B0
@@ -847,6 +1211,12 @@ public class MinMaxCurveBlittable : ValueType
 
 public class MinMaxGradient : ValueType
 {
+    public object m_Mode;
+    public object m_GradientMin;
+    public object m_GradientMax;
+    public object m_ColorMin;
+    public object m_ColorMax;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x979480
     public void get_mode(){} // RVA: 0x454FE0
@@ -869,6 +1239,12 @@ public class MinMaxGradient : ValueType
 
 public class MinMaxGradientBlittable : ValueType
 {
+    public object m_Mode;
+    public object m_GradientMin;
+    public object m_GradientMax;
+    public object m_ColorMin;
+    public object m_ColorMax;
+
     // ── Methods ──
     public void op_Implicit(){} // RVA: 0x7CC2E20
     public void FromMixMaxGradient(){} // RVA: 0x7CC2E60
@@ -893,12 +1269,26 @@ public class MissingCharacterEventCallback : MulticastDelegate
 
 public class ModulesSetup : Object
 {
+    public object showPanel;
+    public object audioEnabled;
+    public object physicsEnabled;
+    public object physics2DEnabled;
+    public object spriteEnabled;
+    public object uiEnabled;
+    public object textMeshProEnabled;
+    public object tk2DEnabled;
+    public object deAudioEnabled;
+    public object deUnityExtendedEnabled;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x272B530
 }
 
 public class ModulusRing : Object
 {
+    public object mod;
+    public object constant;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6664B30
     public void BarrettReduction(){} // RVA: 0x6664D40
@@ -909,6 +1299,9 @@ public class ModulusRing : Object
 
 public class ModulusRing : Object
 {
+    public object mod;
+    public object constant;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6693480
     public void BarrettReduction(){} // RVA: 0x6693690
@@ -924,14 +1317,14 @@ public class MonoBtlsHandle : SafeHandle
     public void get_IsInvalid(){} // RVA: 0x1825040
 }
 
-public class MoreInfo : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class MotionSettings : Object
 {
+    public object _use;
+    public object _strength;
+    public object _min;
+    public object _max;
+    public object _smoothing;
+
     // ── Methods ──
     public void get_smoothing(){} // RVA: 0xB6B200
     public void set_smoothing(){} // RVA: 0xB6B200
@@ -948,16 +1341,18 @@ public class MotionSettings : Object
     public void get_min(){} // RVA: 0xB47B50
 }
 
-public class MouseButtonEventData : Object
-{
-    // ── Methods ──
-    public void PressedThisFrame(){} // RVA: 0x811BD30
-    public void ReleasedThisFrame(){} // RVA: 0x811BD50
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class MovementSettings : Object
 {
+    public object ForwardSpeed;
+    public object BackwardSpeed;
+    public object StrafeSpeed;
+    public object RunMultiplier;
+    public object RunKey;
+    public object JumpForce;
+    public object SlopeCurveModifier;
+    public object CurrentTargetSpeed;
+    public object m_Running;
+
     // ── Methods ──
     public void UpdateDesiredTargetSpeed(){} // RVA: 0xB78C40
     public void get_Running(){} // RVA: 0xB78D60
@@ -966,6 +1361,10 @@ public class MovementSettings : Object
 
 public class Multiplier : Object
 {
+    public object curve;
+    public object multiplier;
+    public object result;
+
     // ── Methods ──
     public void GetValue(){} // RVA: 0xCA2BC0
     public void .ctor(){} // RVA: 0xC06530
@@ -973,6 +1372,9 @@ public class Multiplier : Object
 
 public class Multiplier : Object
 {
+    public object curve;
+    public object multiplier;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -1048,6 +1450,9 @@ public class MusclePropsGroup[] : Array
 
 public class MutationInput : ValueType
 {
+    public object _root;
+    public object _comparers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Root(){} // RVA: 0x87C0A0
@@ -1058,6 +1463,8 @@ public class MutationInput : ValueType
 
 public class MutexAcquired : ValueType
 {
+    public object mutex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA7B740
     public void Dispose(){} // RVA: 0xA7B750

@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class QualitySettings : Object
     {
+        public object activeQualityLevelChanged;
+
         // ── Methods ──
         public void OnActiveQualityLevelChanged(){} // RVA: 0x7B823F0
         public void IncreaseLevel(){} // RVA: 0x7B825F0
@@ -69,6 +71,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Quaternion : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object w;
+        public object identityQuaternion;
+        public object kEpsilon;
+
         // ── Methods ──
         public void FromToRotation(){} // RVA: 0x7BE8800
         public void Inverse(){} // RVA: 0x7BE8880

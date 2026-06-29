@@ -12,6 +12,10 @@ public class GCCDelegate : MulticastDelegate
 
 public class GPUBuffer`1 : Object
 {
+    public object buffer;
+    public object elemCount;
+    public object elemStride;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8965E0
     public void Dispose(){} // RVA: 0x894290
@@ -22,6 +26,10 @@ public class GPUBuffer`1 : Object
 
 public class GPUBuffer`1 : Object
 {
+    public object buffer;
+    public object elemCount;
+    public object elemStride;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3E42240
     public void get_ElementStride(){} // RVA: 0x3E42220
@@ -32,6 +40,10 @@ public class GPUBuffer`1 : Object
 
 public class GPUBuffer`1 : Object
 {
+    public object buffer;
+    public object elemCount;
+    public object elemStride;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3E42010
     public void get_ElementStride(){} // RVA: 0x3E42220
@@ -42,6 +54,18 @@ public class GPUBuffer`1 : Object
 
 public class GPlay : Object
 {
+    public object _acknowledgementState;
+    public object _autoRenewing;
+    public object _countryCode;
+    public object _expiryTimeMillis;
+    public object _kind;
+    public object _orderId;
+    public object _paymentState;
+    public object _priceAmountMicros;
+    public object _priceCurrencyCode;
+    public object _purchaseType;
+    public object _startTimeMillis;
+
     // ── Methods ──
     public void get_acknowledgementState(){} // RVA: 0xB8F8F0
     public void set_acknowledgementState(){} // RVA: 0xB460A0
@@ -80,12 +104,34 @@ public class GProperty : Property`2
 
 public class GUID : Object
 {
+    public object a;
+    public object b;
+    public object c;
+    public object d0;
+    public object d1;
+    public object d2;
+    public object d3;
+    public object d4;
+    public object d5;
+    public object d6;
+    public object d7;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class GalleryObject : ApiModel
 {
+    public object _name;
+    public object _description;
+    public object _membersOnly;
+    public object _roleIdsToView;
+    public object _roleIdsToSubmit;
+    public object _roleIdsToAutoApprove;
+    public object _roleIdsToManage;
+    public object _createdAt;
+    public object _updatedAt;
+
     // ── Methods ──
     public void get_name(){} // RVA: 0xBBFF90
     public void set_name(){} // RVA: 0xBBFFA0
@@ -138,6 +184,9 @@ public class GameObjectSurrogate : Object
 
 public class GateFitParameters : ValueType
 {
+    public object _mode;
+    public object _aspect;
+
     // ── Methods ──
     public void get_mode(){} // RVA: 0x77E60
     public void set_mode(){} // RVA: 0x29580
@@ -148,18 +197,25 @@ public class GateFitParameters : ValueType
 
 public class GenerateTextJobData : ValueType
 {
+    public object managedJobDataHandle;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x99A1E0
 }
 
 public class GenerateTextJobData : ValueType
 {
+    public object managedJobDataHandle;
+    public object alloc;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x99A740
 }
 
 public class GenericPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void Get(){} // RVA: 0xA94080
     public void Release(){} // RVA: 0xA94080
@@ -168,6 +224,8 @@ public class GenericPoolImpl`1 : Object
 
 public class GenericPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void Get(){} // RVA: 0x3F1D620
     public void Release(){} // RVA: 0x3F1D720
@@ -204,6 +262,9 @@ public class GestureIcon[] : Array
 
 public class GestureIndicator : Object
 {
+    public object Right;
+    public object Left;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -230,6 +291,23 @@ public class GestureIndicator[] : Array
 
 public class GestureInputState : Object
 {
+    public object Type;
+    public object Finger;
+    public object IsLeftHand;
+    public object IsHold;
+    public object IsImmuneToGestureLock;
+    public object IsAvailable;
+    public object StartAction;
+    public object UpdateAction;
+    public object EndAction;
+    public object PreviousActivationState;
+    public object ActivationState;
+    public object HoldTimer;
+    public object HoldDuration;
+    public object startSound;
+    public object deactivateSound;
+    public object Icon;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -265,6 +343,10 @@ public class GetAllQueuedEventsDelegate : MulticastDelegate
 
 public class GetAvatarsResult : Object
 {
+    public object Avatars;
+    public object Total;
+    public object PassedValidation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -405,6 +487,9 @@ public class GetPropFromGameObjectDelegate : MulticastDelegate
 
 public class GetPropertyVisitor : PathVisitor
 {
+    public object Pool;
+    public object Property;
+
     // ── Methods ──
     public void Reset(){} // RVA: 0x7D3E740
     public void VisitPath(){} // RVA: 0x8954D0
@@ -471,6 +556,8 @@ public class GetValue : NullableMethodCallInstruction
 
 public class GetValueOrDefault : NullableMethodCallInstruction
 {
+    public object _defaultValueType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70C2E40
     public void Run(){} // RVA: 0x70C2EC0
@@ -486,6 +573,9 @@ public class GetValueOrDefault1 : NullableMethodCallInstruction
 
 public class GetValueVisitor`1 : PathVisitor
 {
+    public object Pool;
+    public object Value;
+
     // ── Methods ──
     public void Reset(){} // RVA: 0x894290
     public void VisitPath(){} // RVA: 0x8954D0
@@ -509,6 +599,10 @@ public class Getter`2 : MulticastDelegate
 
 public class GiftDisplayReference : Object
 {
+    public object name;
+    public object hologram;
+    public object display;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -535,6 +629,9 @@ public class GiftDisplayReference[] : Array
 
 public class GiftInfo : Info
 {
+    public object _bulkSize;
+    public object _isBulkGift;
+
     // ── Methods ──
     public void get_bulkSize(){} // RVA: 0xD34760
     public void set_bulkSize(){} // RVA: 0xD34750
@@ -551,6 +648,8 @@ public class GivenName : AttributeTypeAndValue
 
 public class GotoExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70490F0
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -564,6 +663,26 @@ public class GotoExpressionProxy : Object
 
 public class Gpu : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object UseAdvancedGpuApiDefaultValue;
+    public object useAdvancedGpuApi_;
+    public object ApiDefaultValue;
+    public object api_;
+    public object AllowPrecisionLossDefaultValue;
+    public object allowPrecisionLoss_;
+    public object CachedKernelPathDefaultValue;
+    public object cachedKernelPath_;
+    public object SerializedModelDirDefaultValue;
+    public object serializedModelDir_;
+    public object CacheWritingBehaviorDefaultValue;
+    public object cacheWritingBehavior_;
+    public object ModelTokenDefaultValue;
+    public object modelToken_;
+    public object UsageDefaultValue;
+    public object usage_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6560DB0
     public void get_Descriptor(){} // RVA: 0x6560E10
@@ -615,6 +734,13 @@ public class Gpu : Object
 
 public class Grab : Object
 {
+    public object playerId;
+    public object chainId;
+    public object bone;
+    public object globalPosition;
+    public object localOffset;
+    public object pose;
+
     // ── Methods ──
     public void get_GlobalPosition(){} // RVA: 0x82FA050
     public void set_GlobalPosition(){} // RVA: 0x82FA080
@@ -799,6 +925,12 @@ public class GreaterThanUInt64 : GreaterThanInstruction
 
 public class GridCell : ValueType
 {
+    public object isValid;
+    public object position;
+    public object activeList;
+    public object records;
+    public object collisions;
+
     // ── Methods ──
     public void IsValid(){} // RVA: 0x90520
     public void Init(){} // RVA: 0x9C5E30
@@ -818,6 +950,12 @@ public class GrounderDelegate : MulticastDelegate
 
 public class GroupContent : Object
 {
+    public object _MinVal;
+    public object _MaxVal;
+    public object _HasMaxAttr;
+    public object _HasMinAttr;
+    public object _Order;
+
     // ── Methods ──
     public void Copy(){} // RVA: 0x73FE710
     public void .ctor(){} // RVA: 0xB43310
@@ -845,6 +983,13 @@ public class Group[] : Array
 
 public class Grouping : Object
 {
+    public object key;
+    public object hashCode;
+    public object elements;
+    public object count;
+    public object hashNext;
+    public object next;
+
     // ── Methods ──
     public void Add(){} // RVA: 0x3F2B5B0
     public void .ctor(){} // RVA: 0xB43310
@@ -867,6 +1012,13 @@ public class Grouping : Object
 
 public class Grouping : Object
 {
+    public object key;
+    public object hashCode;
+    public object elements;
+    public object count;
+    public object hashNext;
+    public object next;
+
     // ── Methods ──
     public void Add(){} // RVA: 0x3F2B5B0
     public void .ctor(){} // RVA: 0xB43310
@@ -889,6 +1041,13 @@ public class Grouping : Object
 
 public class Grouping : Object
 {
+    public object key;
+    public object hashCode;
+    public object elements;
+    public object count;
+    public object hashNext;
+    public object next;
+
     // ── Methods ──
     public void Add(){} // RVA: 0xA94080
     public void GetEnumerator(){} // RVA: 0x87C0A0
@@ -951,6 +1110,9 @@ public class Grouping[] : Array
 
 public class Grouping`2 : Object
 {
+    public object elements;
+    public object _key;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0xA94080
     public void set_Key(){} // RVA: 0xA94080
@@ -964,6 +1126,10 @@ public class Grouping`2 : Object
 
 public class GrowableArrayEnumerator : ValueType
 {
+    public object cur;
+    public object end;
+    public object array;
+
     // ── Methods ──
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
     public void get_Current(){} // RVA: 0xA94080
@@ -975,30 +1141,54 @@ public class GrowableArrayEnumerator : ValueType
 
 public class GrowableArrayEnumerator : ValueType
 {
+    public object cur;
+    public object end;
+    public object array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30FB20
 }
 
 public class GrowableArrayEnumerator : ValueType
 {
+    public object cur;
+    public object end;
+    public object array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30FB20
 }
 
 public class GrowableArrayEnumerator : ValueType
 {
+    public object cur;
+    public object end;
+    public object array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30FB20
 }
 
 public class GrowableArrayEnumerator : ValueType
 {
+    public object cur;
+    public object end;
+    public object array;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30FB20
 }
 
 public class GuidResult : ValueType
 {
+    public object _parsedGuid;
+    public object _throwStyle;
+    public object _failure;
+    public object _failureMessageID;
+    public object _failureMessageFormatArgument;
+    public object _failureArgumentName;
+    public object _innerException;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x8C7F0
     public void SetFailure(){} // RVA: 0x8B9330
@@ -1007,6 +1197,9 @@ public class GuidResult : ValueType
 
 public class GzipContent : HttpContent
 {
+    public object _content;
+    public object _compressionLevel;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6E99FB0
     public void TryComputeLength(){} // RVA: 0x6E9A370

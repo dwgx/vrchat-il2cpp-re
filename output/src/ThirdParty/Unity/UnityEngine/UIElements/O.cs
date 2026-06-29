@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class ObjectListPool`1 : Object
     {
+        public object pool;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x87C0D0
         public void Release(){} // RVA: 0x894350
@@ -15,6 +17,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void get_maxSize(){} // RVA: 0x87C130
         public void set_maxSize(){} // RVA: 0x8944F0
@@ -26,6 +32,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -34,6 +44,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -42,6 +56,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -50,6 +68,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -58,6 +80,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -66,6 +92,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -74,6 +104,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -82,6 +116,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -90,6 +128,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -98,6 +140,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -106,6 +152,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -114,6 +164,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -122,6 +176,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -130,6 +188,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -138,6 +200,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -146,6 +212,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -154,6 +224,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -162,6 +236,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -170,6 +248,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -178,6 +260,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -186,6 +272,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -194,6 +284,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -202,6 +296,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -210,6 +308,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -218,6 +320,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -226,6 +332,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -234,6 +344,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -242,6 +356,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -250,6 +368,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -258,6 +380,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -266,6 +392,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -274,6 +404,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -282,6 +416,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -290,6 +428,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -298,6 +440,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -306,6 +452,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -314,6 +464,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -322,6 +476,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -330,6 +488,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -338,6 +500,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -346,6 +512,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -354,6 +524,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -362,6 +536,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -370,6 +548,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -378,6 +560,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -386,6 +572,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -394,6 +584,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -402,6 +596,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -410,6 +608,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -418,6 +620,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -426,6 +632,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -434,6 +644,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -442,6 +656,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540
@@ -450,6 +668,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_MaxSize;
+        public object CreateFunc;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x47FE4E0
         public void Release(){} // RVA: 0x47FE540

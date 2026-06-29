@@ -1,25 +1,32 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 // Classes: 100
-// Methods: 811
+// Methods: 799
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
     public class AsyncUniTaskMethodBuilder : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1DF4930
         public void get_Task(){} // RVA: 0x9237C0
         public void SetException(){} // RVA: 0x9237F0
         public void SetResult(){} // RVA: 0x923800
-        public void AwaitOnCompleted(){} // RVA: 0x1CDF20
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1D70E0
-        public void Start(){} // RVA: 0x1DA870
+        public void AwaitOnCompleted(){} // RVA: 0x1CDF10
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1CF320
+        public void Start(){} // RVA: 0x1D9930
         public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0xA94080
         public void get_Task(){} // RVA: 0xA94080
@@ -33,6 +40,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -46,19 +57,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x49DF8B0
-        public void get_Task(){} // RVA: 0x743FE0
-        public void SetException(){} // RVA: 0x743620
-        public void SetResult(){} // RVA: 0x744020
-        public void AwaitOnCompleted(){} // RVA: 0x8943B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A2550
-        public void Start(){} // RVA: 0x1A42B0
-        public void SetStateMachine(){} // RVA: 0x3FC0
-    }
+        public object runnerPromise;
+        public object ex;
+        public object result;
 
-    public class AsyncUniTaskMethodBuilder`1 : ValueType
-    {
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -72,19 +74,44 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x49DF8B0
+        public void get_Task(){} // RVA: 0x743FE0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x744020
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Start(){} // RVA: 0x894320
+        public void SetStateMachine(){} // RVA: 0x3FC0
+    }
+
+    public class AsyncUniTaskMethodBuilder`1 : ValueType
+    {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743DB0
         public void SetException(){} // RVA: 0x743340
         public void SetResult(){} // RVA: 0x743DE0
         public void AwaitOnCompleted(){} // RVA: 0x8943B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A0270
-        public void Start(){} // RVA: 0x1A0DC0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A0260
+        public void Start(){} // RVA: 0x1A04C0
         public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -98,6 +125,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -111,6 +142,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743990
@@ -124,6 +159,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x744070
@@ -137,6 +176,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -150,6 +193,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -163,6 +210,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -176,6 +227,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -189,6 +244,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -202,6 +261,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743880
@@ -215,6 +278,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743F00
@@ -228,6 +295,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7436A0
@@ -241,6 +312,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -254,6 +329,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -267,6 +346,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -280,6 +363,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7436A0
@@ -293,6 +380,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -306,6 +397,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -319,6 +414,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743800
@@ -332,6 +431,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BC0
         public void get_Task(){} // RVA: 0x743790
@@ -345,6 +448,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BF0
         public void get_Task(){} // RVA: 0x7443D0
@@ -358,6 +465,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -371,6 +482,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -384,6 +499,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1D970D0
         public void get_Task(){} // RVA: 0x743D70
@@ -397,6 +516,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1D970D0
         public void get_Task(){} // RVA: 0x743D70
@@ -410,6 +533,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743EC0
@@ -423,6 +550,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743800
@@ -436,6 +567,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743EC0
@@ -449,6 +584,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -462,6 +601,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x744030
@@ -475,6 +618,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743840
@@ -488,6 +635,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743840
@@ -501,6 +652,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7436A0
@@ -514,6 +669,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743A40
@@ -527,6 +686,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7438D0
@@ -540,6 +703,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743930
@@ -553,6 +720,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -566,6 +737,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -579,6 +754,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743930
@@ -592,6 +771,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -605,6 +788,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x5E5CFD0
         public void get_Task(){} // RVA: 0x743B00
@@ -618,6 +805,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -631,6 +822,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7445F0
@@ -644,6 +839,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1D970D0
         public void get_Task(){} // RVA: 0x743B90
@@ -657,6 +856,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -670,6 +873,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -683,6 +890,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1D970D0
         public void get_Task(){} // RVA: 0x743C00
@@ -696,6 +907,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BC0
         public void get_Task(){} // RVA: 0x744390
@@ -709,6 +924,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x5E5CFD0
         public void get_Task(){} // RVA: 0x744250
@@ -722,6 +941,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -735,6 +958,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743930
@@ -748,6 +975,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -761,6 +992,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -774,6 +1009,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -787,6 +1026,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -800,19 +1043,27 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x7436A0
         public void SetException(){} // RVA: 0x743620
         public void SetResult(){} // RVA: 0x7436E0
         public void AwaitOnCompleted(){} // RVA: 0x8943B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x18D720
-        public void Start(){} // RVA: 0x18D910
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x18D730
+        public void Start(){} // RVA: 0x18D950
         public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -826,6 +1077,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -839,6 +1094,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -852,6 +1111,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -865,6 +1128,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -878,6 +1145,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743E80
@@ -891,6 +1162,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -904,6 +1179,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BF0
         public void get_Task(){} // RVA: 0x743F50
@@ -917,6 +1196,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x59D5BE0
         public void get_Task(){} // RVA: 0x743930
@@ -930,6 +1213,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -943,6 +1230,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -956,6 +1247,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -969,6 +1264,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -982,6 +1281,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -995,19 +1298,27 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x1D970D0
         public void get_Task(){} // RVA: 0x743A80
         public void SetException(){} // RVA: 0x743620
         public void SetResult(){} // RVA: 0x743630
         public void AwaitOnCompleted(){} // RVA: 0x8943B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x18E0C0
-        public void Start(){} // RVA: 0x18E0D0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Start(){} // RVA: 0x894320
         public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -1021,19 +1332,27 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
         public void SetException(){} // RVA: 0x743620
         public void SetResult(){} // RVA: 0x744020
         public void AwaitOnCompleted(){} // RVA: 0x8943B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A1E80
-        public void Start(){} // RVA: 0x1A32B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A24F0
+        public void Start(){} // RVA: 0x1A32F0
         public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -1047,6 +1366,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void get_Task(){} // RVA: 0x743FE0
@@ -1060,14 +1383,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x49DF8B0
-        public void Start(){} // RVA: 0x1A2870
-        public void get_Task(){} // RVA: 0x743FE0
-    }
+        public object runnerPromise;
+        public object ex;
+        public object result;
 
-    public class AsyncUniTaskMethodBuilder`1 : ValueType
-    {
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x894320
@@ -1081,6 +1400,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A16D0
@@ -1089,6 +1412,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A16D0
@@ -1097,6 +1424,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A16D0
@@ -1105,6 +1436,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A16D0
@@ -1113,6 +1448,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A16D0
@@ -1121,6 +1460,34 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x49DF8B0
+        public void Start(){} // RVA: 0x1A2870
+        public void get_Task(){} // RVA: 0x743FE0
+    }
+
+    public class AsyncUniTaskMethodBuilder`1 : ValueType
+    {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x49DF8B0
+        public void Start(){} // RVA: 0x1A16D0
+        public void get_Task(){} // RVA: 0x743EC0
+    }
+
+    public class AsyncUniTaskMethodBuilder`1 : ValueType
+    {
+        public object runnerPromise;
+        public object ex;
+        public object result;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x49DF8B0
         public void Start(){} // RVA: 0x1A2870
@@ -1129,9 +1496,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoidMethodBuilder : ValueType
     {
+        public object runner;
+
         // ── Methods ──
-        public void Start(){} // RVA: 0x1DE4C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1DD2F0
+        public void Start(){} // RVA: 0x1E49B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1DCF50
         public void Create(){} // RVA: 0xDAC980
         public void get_Task(){} // RVA: 0x20C460
         public void SetException(){} // RVA: 0x923C20
@@ -1142,6 +1511,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5E7E7C0
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
@@ -1159,6 +1534,35 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x5EAFAD0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5EAF990
+        public void .cctor(){} // RVA: 0x5EAFE20
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5EAFFC0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
+    }
+
+    public class AsyncUniTaskVoid`1 : Object
+    {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5EB3580
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
@@ -1176,6 +1580,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5EAE190
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
@@ -1193,32 +1603,21 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
-        // ── Methods ──
-        public void get_ReturnAction(){} // RVA: 0xB5DBF0
-        public void get_MoveNext(){} // RVA: 0xBC1B30
-        public void .ctor(){} // RVA: 0x5E88420
-        public void .cctor(){} // RVA: 0x5E888B0
-        public void get_NextNode(){} // RVA: 0x5E67FF0
-        public void Return(){} // RVA: 0x5E68000
-        public void Run(){} // RVA: 0x5E88A50
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
-        public void SetStateMachine(){} // RVA: 0x5E88560
-    }
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
 
-    public class AsyncUniTaskVoid`1 : Object
-    {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x5EC2580
+        public void SetStateMachine(){} // RVA: 0x5EAE7E0
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
         public void get_MoveNext(){} // RVA: 0xBC1B30
-        public void .ctor(){} // RVA: 0x5EC2440
-        public void .cctor(){} // RVA: 0x5EC28D0
+        public void .ctor(){} // RVA: 0x5EAE6A0
+        public void .cctor(){} // RVA: 0x5EAEB30
         public void get_NextNode(){} // RVA: 0x5E67FF0
         public void Return(){} // RVA: 0x5E68000
-        public void Run(){} // RVA: 0x5EC2A70
+        public void Run(){} // RVA: 0x5EAECD0
         public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
         public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
         public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
@@ -1227,6 +1626,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void get_ReturnAction(){} // RVA: 0x87C0A0
         public void get_MoveNext(){} // RVA: 0x87C0A0
@@ -1244,6 +1649,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5EB7490
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
@@ -1261,6 +1672,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTaskVoid`1 : Object
     {
+        public object pool;
+        public object _returnAction;
+        public object stateMachine;
+        public object _moveNext;
+        public object nextNode;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5E9EBE0
         public void get_ReturnAction(){} // RVA: 0xB5DBF0
@@ -1278,26 +1695,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 
     public class AsyncUniTask`1 : Object
     {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x5F79F20
-        public void get_MoveNext(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0x5F79DC0
-        public void get_NextNode(){} // RVA: 0x5E757B0
-        public void .cctor(){} // RVA: 0x5F7A270
-        public void Return(){} // RVA: 0x5F7A410
-        public void TryReturn(){} // RVA: 0x5F7A4F0
-        public void Run(){} // RVA: 0x5F7A5D0
-        public void get_Task(){} // RVA: 0x5F7A5F0
-        public void SetResult(){} // RVA: 0x5F7A690
-        public void SetException(){} // RVA: 0x5F7A710
-        public void GetResult(){} // RVA: 0x5F7A760
-        public void GetStatus(){} // RVA: 0x5F7A820
-        public void UnsafeGetStatus(){} // RVA: 0x5F7A870
-        public void OnCompleted(){} // RVA: 0x5F7A8B0
-    }
+        public object pool;
+        public object returnDelegate;
+        public object _moveNext;
+        public object stateMachine;
+        public object core;
+        public object nextNode;
 
-    public class AsyncUniTask`1 : Object
-    {
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x5F1D910
         public void get_MoveNext(){} // RVA: 0xB465B0

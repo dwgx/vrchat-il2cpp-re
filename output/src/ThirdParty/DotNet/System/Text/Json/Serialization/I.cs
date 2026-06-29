@@ -36,6 +36,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class IEnumerableConverterFactoryHelpers : Object
     {
+        public object ImmutableConvertersUnreferencedCodeMessage;
+
         // ── Methods ──
         public void GetImmutableEnumerableCreateRangeMethod(){} // RVA: 0x732AAD0
         public void GetImmutableDictionaryCreateRangeMethod(){} // RVA: 0x732AD80
@@ -109,6 +111,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class IgnoreReferenceResolver : ReferenceResolver
     {
+        public object _stackForCycleDetection;
+
         // ── Methods ──
         public void PopReferenceForCycleDetection(){} // RVA: 0x6DC0550
         public void ContainsReferenceForCycleDetection(){} // RVA: 0x6DC05F0
@@ -121,6 +125,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class IgnoreReferenceResolver : ReferenceResolver
     {
+        public object _stackForCycleDetection;
+
         // ── Methods ──
         public void PopReferenceForCycleDetection(){} // RVA: 0x7329DD0
         public void ContainsReferenceForCycleDetection(){} // RVA: 0x7329E70

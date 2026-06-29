@@ -7,22 +7,29 @@ namespace ThirdParty.Sentry.Sentry.Unity.Protocol
 {
     public class Unity : Object
     {
+        public object Type;
+        public object _editorVersion;
+        public object _installMode;
+        public object _copyTextureSupport;
+        public object _renderingThreadingMode;
+        public object _targetFrameRate;
+
         // ── Methods ──
-        public void get_EditorVersion(){} // RVA: 0x7A80F2570
-        public void set_EditorVersion(){} // RVA: 0x7A80D8E20
-        public void get_InstallMode(){} // RVA: 0x7A80DA7B0
-        public void set_InstallMode(){} // RVA: 0x7A813E420
-        public void get_CopyTextureSupport(){} // RVA: 0x7A81052C0
-        public void set_CopyTextureSupport(){} // RVA: 0x7A81052D0
-        public void get_RenderingThreadingMode(){} // RVA: 0x7A8105330
-        public void set_RenderingThreadingMode(){} // RVA: 0x7A80D8E80
-        public void get_TargetFrameRate(){} // RVA: 0x7A83F69F0
-        public void set_TargetFrameRate(){} // RVA: 0x7A8105A90
-        public void Clone(){} // RVA: 0x7AE171290
-        public void WriteTo(){} // RVA: 0x7AE171430
-        public void FromJson(){} // RVA: 0x7AE171600
-        public void ToJsonString(){} // RVA: 0x7AE171B80
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_EditorVersion(){} // RVA: 0xB5DBF0
+        public void set_EditorVersion(){} // RVA: 0xB44D60
+        public void get_InstallMode(){} // RVA: 0xB465B0
+        public void set_InstallMode(){} // RVA: 0xBA9BA0
+        public void get_CopyTextureSupport(){} // RVA: 0xB700F0
+        public void set_CopyTextureSupport(){} // RVA: 0xB70100
+        public void get_RenderingThreadingMode(){} // RVA: 0xB70160
+        public void set_RenderingThreadingMode(){} // RVA: 0xB44DC0
+        public void get_TargetFrameRate(){} // RVA: 0xD33E60
+        public void set_TargetFrameRate(){} // RVA: 0xB708C0
+        public void Clone(){} // RVA: 0x6DF1D10
+        public void WriteTo(){} // RVA: 0x6DF1EB0
+        public void FromJson(){} // RVA: 0x6DF2230
+        public void ToJsonString(){} // RVA: 0x6DF27B0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

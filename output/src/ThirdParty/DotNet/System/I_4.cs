@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 171
+// Methods: 157
 
 namespace ThirdParty.DotNet.System
 {
@@ -29,6 +29,12 @@ namespace ThirdParty.DotNet.System
     public class IComparable`1
     {
         // ── Methods ──
+        public void CompareTo(){} // RVA: 0x87D050
+    }
+
+    public class IComparable`1
+    {
+        // ── Methods ──
         public void CompareTo(){} // RVA: 0xA94080
     }
 
@@ -42,48 +48,6 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void ReadKey(){} // RVA: 0x87C840
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87DD20
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87DD20
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
@@ -203,18 +167,6 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
         public void Equals(){} // RVA: 0x87DD20
     }
 
@@ -299,6 +251,132 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87DD20
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
         public void Equals(){} // RVA: 0x87DD20
     }
 
@@ -317,84 +395,6 @@ namespace ThirdParty.DotNet.System
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D310
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D490
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D490
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D350
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
         public void Equals(){} // RVA: 0x87D350
     }
 
@@ -468,6 +468,12 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Equals(){} // RVA: 0x87D910
+    }
+
+    public class IEquatable`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
@@ -485,6 +491,12 @@ namespace ThirdParty.DotNet.System
 
     public class IOAsyncResult : Object
     {
+        public object async_callback;
+        public object async_state;
+        public object wait_handle;
+        public object completed_synchronously;
+        public object completed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void Init(){} // RVA: 0x765B630
@@ -506,6 +518,10 @@ namespace ThirdParty.DotNet.System
 
     public class IOSelectorJob : Object
     {
+        public object operation;
+        public object callback;
+        public object state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x38BA2E0
         public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x765B9F0
@@ -573,6 +589,8 @@ namespace ThirdParty.DotNet.System
 
     public class Index : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void get_Start(){} // RVA: 0xDAC980
@@ -591,6 +609,8 @@ namespace ThirdParty.DotNet.System
 
     public class Index : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void FromStart(){} // RVA: 0x6910B90
@@ -614,26 +634,6 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x23022F0
-    }
-
-    public class Int64[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB2570
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8560
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6D740
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class InvalidCastException : SystemException
@@ -662,6 +662,9 @@ namespace ThirdParty.DotNet.System
 
     public class InvariantComparer : Object
     {
+        public object m_compareInfo;
+        public object Default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7654110
         public void Compare(){} // RVA: 0x7654210

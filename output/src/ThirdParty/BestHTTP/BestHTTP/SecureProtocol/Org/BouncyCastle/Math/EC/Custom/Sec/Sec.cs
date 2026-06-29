@@ -7,1994 +7,2278 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.C
 {
     public class SecP128R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP128R1_DEFAULT_COORDS;
+        public object SECP128R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12AE250
-        public void CloneCurve(){} // RVA: 0x7B12AE6A0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12AE700
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12AE760
-        public void FromBigInteger(){} // RVA: 0x7B12AE7D0
-        public void CreateRawPoint(){} // RVA: 0x7B12AEA10
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12AEAB0
-        public void .cctor(){} // RVA: 0x7B12AEE50
+        public void .ctor(){} // RVA: 0xA119BC0
+        public void CloneCurve(){} // RVA: 0xA11A010
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA11A070
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA11A0D0
+        public void FromBigInteger(){} // RVA: 0xA11A140
+        public void CreateRawPoint(){} // RVA: 0xA11A380
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA11A420
+        public void .cctor(){} // RVA: 0xA11A7C0
     }
 
     public class SecP128R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P3;
+        public object PExt7;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12AF230
-        public void AddExt(){} // RVA: 0x7B12AF460
-        public void AddOne(){} // RVA: 0x7B12AF5F0
-        public void FromBigInteger(){} // RVA: 0x7B12AF7D0
-        public void Half(){} // RVA: 0x7B12AFAA0
-        public void Multiply(){} // RVA: 0x7B12AFC80
-        public void MultiplyAddToExt(){} // RVA: 0x7B12AFD40
-        public void Negate(){} // RVA: 0x7B12B0000
-        public void Reduce(){} // RVA: 0x7B12B01B0
-        public void Reduce32(){} // RVA: 0x7B12B0300
-        public void Square(){} // RVA: 0x7B12B04D0
-        public void SquareN(){} // RVA: 0x7B12B0580
-        public void Subtract(){} // RVA: 0x7B12B0680
-        public void SubtractExt(){} // RVA: 0x7B12B0820
-        public void Twice(){} // RVA: 0x7B12B0990
-        public void AddPInvTo(){} // RVA: 0x7B12B0B40
-        public void SubPInvFrom(){} // RVA: 0x7B12B0BB0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12B0C20
+        public void Add(){} // RVA: 0xA11ABA0
+        public void AddExt(){} // RVA: 0xA11ADD0
+        public void AddOne(){} // RVA: 0xA11AF60
+        public void FromBigInteger(){} // RVA: 0xA11B140
+        public void Half(){} // RVA: 0xA11B410
+        public void Multiply(){} // RVA: 0xA11B5F0
+        public void MultiplyAddToExt(){} // RVA: 0xA11B6B0
+        public void Negate(){} // RVA: 0xA11B970
+        public void Reduce(){} // RVA: 0xA11BB20
+        public void Reduce32(){} // RVA: 0xA11BC70
+        public void Square(){} // RVA: 0xA11BE40
+        public void SquareN(){} // RVA: 0xA11BEF0
+        public void Subtract(){} // RVA: 0xA11BFF0
+        public void SubtractExt(){} // RVA: 0xA11C190
+        public void Twice(){} // RVA: 0xA11C300
+        public void AddPInvTo(){} // RVA: 0xA11C4B0
+        public void SubPInvFrom(){} // RVA: 0xA11C520
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA11C590
     }
 
     public class SecP128R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12B1010
-        public void get_IsOne(){} // RVA: 0x7B12B1070
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12B1100
-        public void get_FieldName(){} // RVA: 0x7B12B1250
-        public void get_FieldSize(){} // RVA: 0x7B12B1290
-        public void Add(){} // RVA: 0x7B12B1300
-        public void AddOne(){} // RVA: 0x7B12B1470
-        public void Subtract(){} // RVA: 0x7B12B1570
-        public void Multiply(){} // RVA: 0x7B12B16E0
-        public void Divide(){} // RVA: 0x7B12B1850
-        public void Negate(){} // RVA: 0x7B12B1A10
-        public void Square(){} // RVA: 0x7B12B1B10
-        public void Invert(){} // RVA: 0x7B12B1C10
-        public void Sqrt(){} // RVA: 0x7B12B1D60
-        public void Equals(){} // RVA: 0x7B12B21E0
-        public void GetHashCode(){} // RVA: 0x7B12B2250
-        public void .cctor(){} // RVA: 0x7B12B2350
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA11C980
+        public void get_IsOne(){} // RVA: 0xA11C9E0
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA11CA70
+        public void get_FieldName(){} // RVA: 0xA11CBC0
+        public void get_FieldSize(){} // RVA: 0xA11CC00
+        public void Add(){} // RVA: 0xA11CC70
+        public void AddOne(){} // RVA: 0xA11CDE0
+        public void Subtract(){} // RVA: 0xA11CEE0
+        public void Multiply(){} // RVA: 0xA11D050
+        public void Divide(){} // RVA: 0xA11D1C0
+        public void Negate(){} // RVA: 0xA11D380
+        public void Square(){} // RVA: 0xA11D480
+        public void Invert(){} // RVA: 0xA11D580
+        public void Sqrt(){} // RVA: 0xA11D6D0
+        public void Equals(){} // RVA: 0xA11DB50
+        public void GetHashCode(){} // RVA: 0xA11DBC0
+        public void .cctor(){} // RVA: 0xA11DCC0
     }
 
     public class SecP128R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12B2580
-        public void Add(){} // RVA: 0x7B12B2690
-        public void Twice(){} // RVA: 0x7B12B3000
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12B3840
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA11DEF0
+        public void Add(){} // RVA: 0xA11E000
+        public void Twice(){} // RVA: 0xA11E970
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA11F1B0
     }
 
     public class SecP160K1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP160K1_DEFAULT_COORDS;
+        public object SECP160K1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B3940
-        public void CloneCurve(){} // RVA: 0x7B12B3CE0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12B3D30
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12B3D90
-        public void FromBigInteger(){} // RVA: 0x7B12B3E00
-        public void CreateRawPoint(){} // RVA: 0x7B12B3F50
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12B3FF0
-        public void .cctor(){} // RVA: 0x7B12B43D0
+        public void .ctor(){} // RVA: 0xA11F2B0
+        public void CloneCurve(){} // RVA: 0xA11F650
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA11F6A0
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA11F700
+        public void FromBigInteger(){} // RVA: 0xA11F770
+        public void CreateRawPoint(){} // RVA: 0xA11F8C0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA11F960
+        public void .cctor(){} // RVA: 0xA11FD40
     }
 
     public class SecP160K1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12B4880
-        public void Add(){} // RVA: 0x7B12B4990
-        public void Twice(){} // RVA: 0x7B12B5300
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12B5920
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA1201F0
+        public void Add(){} // RVA: 0xA120300
+        public void Twice(){} // RVA: 0xA120C70
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA121290
     }
 
     public class SecP160R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP160R1_DEFAULT_COORDS;
+        public object SECP160R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B5A20
-        public void CloneCurve(){} // RVA: 0x7B12B5E70
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12B5EC0
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12B5F20
-        public void FromBigInteger(){} // RVA: 0x7B12B5F90
-        public void CreateRawPoint(){} // RVA: 0x7B12B60E0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12B6180
-        public void .cctor(){} // RVA: 0x7B12B6560
+        public void .ctor(){} // RVA: 0xA121390
+        public void CloneCurve(){} // RVA: 0xA1217E0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA121830
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA121890
+        public void FromBigInteger(){} // RVA: 0xA121900
+        public void CreateRawPoint(){} // RVA: 0xA121A50
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA121AF0
+        public void .cctor(){} // RVA: 0xA121ED0
     }
 
     public class SecP160R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P4;
+        public object PExt9;
+        public object PInv;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12B6940
-        public void AddExt(){} // RVA: 0x7B12B6A90
-        public void AddOne(){} // RVA: 0x7B12B6CF0
-        public void FromBigInteger(){} // RVA: 0x7B12B6EB0
-        public void Half(){} // RVA: 0x7B12B6FC0
-        public void Multiply(){} // RVA: 0x7B12B70F0
-        public void MultiplyAddToExt(){} // RVA: 0x7B12B71B0
-        public void Negate(){} // RVA: 0x7B12B73C0
-        public void Reduce(){} // RVA: 0x7B12B74C0
-        public void Reduce32(){} // RVA: 0x7B12B7640
-        public void Square(){} // RVA: 0x7B12B77E0
-        public void SquareN(){} // RVA: 0x7B12B7890
-        public void Subtract(){} // RVA: 0x7B12B7990
-        public void SubtractExt(){} // RVA: 0x7B12B7A10
-        public void Twice(){} // RVA: 0x7B12B7BF0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12B7D60
+        public void Add(){} // RVA: 0xA1222B0
+        public void AddExt(){} // RVA: 0xA122400
+        public void AddOne(){} // RVA: 0xA122660
+        public void FromBigInteger(){} // RVA: 0xA122820
+        public void Half(){} // RVA: 0xA122930
+        public void Multiply(){} // RVA: 0xA122A60
+        public void MultiplyAddToExt(){} // RVA: 0xA122B20
+        public void Negate(){} // RVA: 0xA122D30
+        public void Reduce(){} // RVA: 0xA122E30
+        public void Reduce32(){} // RVA: 0xA122FB0
+        public void Square(){} // RVA: 0xA123150
+        public void SquareN(){} // RVA: 0xA123200
+        public void Subtract(){} // RVA: 0xA123300
+        public void SubtractExt(){} // RVA: 0xA123380
+        public void Twice(){} // RVA: 0xA123560
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA1236D0
     }
 
     public class SecP160R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12B8250
-        public void get_IsOne(){} // RVA: 0x7B12B82B0
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12B8310
-        public void get_FieldName(){} // RVA: 0x7B12B8320
-        public void get_FieldSize(){} // RVA: 0x7B12B8360
-        public void Add(){} // RVA: 0x7B12B83D0
-        public void AddOne(){} // RVA: 0x7B12B8540
-        public void Subtract(){} // RVA: 0x7B12B8640
-        public void Multiply(){} // RVA: 0x7B12B8810
-        public void Divide(){} // RVA: 0x7B12B8980
-        public void Negate(){} // RVA: 0x7B12B8B40
-        public void Square(){} // RVA: 0x7B12B8C40
-        public void Invert(){} // RVA: 0x7B12B8D40
-        public void Sqrt(){} // RVA: 0x7B12B8E90
-        public void Equals(){} // RVA: 0x7B12B92D0
-        public void GetHashCode(){} // RVA: 0x7B12B9340
-        public void .cctor(){} // RVA: 0x7B12B9440
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA123BC0
+        public void get_IsOne(){} // RVA: 0xA123C20
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA123C80
+        public void get_FieldName(){} // RVA: 0xA123C90
+        public void get_FieldSize(){} // RVA: 0xA123CD0
+        public void Add(){} // RVA: 0xA123D40
+        public void AddOne(){} // RVA: 0xA123EB0
+        public void Subtract(){} // RVA: 0xA123FB0
+        public void Multiply(){} // RVA: 0xA124180
+        public void Divide(){} // RVA: 0xA1242F0
+        public void Negate(){} // RVA: 0xA1244B0
+        public void Square(){} // RVA: 0xA1245B0
+        public void Invert(){} // RVA: 0xA1246B0
+        public void Sqrt(){} // RVA: 0xA124800
+        public void Equals(){} // RVA: 0xA124C40
+        public void GetHashCode(){} // RVA: 0xA124CB0
+        public void .cctor(){} // RVA: 0xA124DB0
     }
 
     public class SecP160R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12B9650
-        public void Add(){} // RVA: 0x7B12B9760
-        public void Twice(){} // RVA: 0x7B12BA190
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12BAA20
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA124FC0
+        public void Add(){} // RVA: 0xA1250D0
+        public void Twice(){} // RVA: 0xA125B00
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA126390
     }
 
     public class SecP160R2Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP160R2_DEFAULT_COORDS;
+        public object SECP160R2_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12BAB20
-        public void CloneCurve(){} // RVA: 0x7B12BAF70
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12BAFC0
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12BB020
-        public void FromBigInteger(){} // RVA: 0x7B12BB090
-        public void CreateRawPoint(){} // RVA: 0x7B12BB1E0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12BB280
-        public void .cctor(){} // RVA: 0x7B12BB660
+        public void .ctor(){} // RVA: 0xA126490
+        public void CloneCurve(){} // RVA: 0xA1268E0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA126930
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA126990
+        public void FromBigInteger(){} // RVA: 0xA126A00
+        public void CreateRawPoint(){} // RVA: 0xA126B50
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA126BF0
+        public void .cctor(){} // RVA: 0xA126FD0
     }
 
     public class SecP160R2Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P4;
+        public object PExt9;
+        public object PInv33;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12BBA40
-        public void AddExt(){} // RVA: 0x7B12BBBA0
-        public void AddOne(){} // RVA: 0x7B12BBE00
-        public void FromBigInteger(){} // RVA: 0x7B12BBFD0
-        public void Half(){} // RVA: 0x7B12BC0E0
-        public void Multiply(){} // RVA: 0x7B12BC210
-        public void MultiplyAddToExt(){} // RVA: 0x7B12BC2D0
-        public void Negate(){} // RVA: 0x7B12BC4E0
-        public void Reduce(){} // RVA: 0x7B12BC5E0
-        public void Reduce32(){} // RVA: 0x7B12BC7F0
-        public void Square(){} // RVA: 0x7B12BC9C0
-        public void SquareN(){} // RVA: 0x7B12BCA70
-        public void Subtract(){} // RVA: 0x7B12BCB70
-        public void SubtractExt(){} // RVA: 0x7B12BCC00
-        public void Twice(){} // RVA: 0x7B12BCDE0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12BCF70
+        public void Add(){} // RVA: 0xA1273B0
+        public void AddExt(){} // RVA: 0xA127510
+        public void AddOne(){} // RVA: 0xA127770
+        public void FromBigInteger(){} // RVA: 0xA127940
+        public void Half(){} // RVA: 0xA127A50
+        public void Multiply(){} // RVA: 0xA127B80
+        public void MultiplyAddToExt(){} // RVA: 0xA127C40
+        public void Negate(){} // RVA: 0xA127E50
+        public void Reduce(){} // RVA: 0xA127F50
+        public void Reduce32(){} // RVA: 0xA128160
+        public void Square(){} // RVA: 0xA128330
+        public void SquareN(){} // RVA: 0xA1283E0
+        public void Subtract(){} // RVA: 0xA1284E0
+        public void SubtractExt(){} // RVA: 0xA128570
+        public void Twice(){} // RVA: 0xA128750
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA1288E0
     }
 
     public class SecP160R2FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12B8250
-        public void get_IsOne(){} // RVA: 0x7B12B82B0
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12B8310
-        public void get_FieldName(){} // RVA: 0x7B12BD3D0
-        public void get_FieldSize(){} // RVA: 0x7B12BD410
-        public void Add(){} // RVA: 0x7B12BD480
-        public void AddOne(){} // RVA: 0x7B12BD5F0
-        public void Subtract(){} // RVA: 0x7B12BD6F0
-        public void Multiply(){} // RVA: 0x7B12BD8E0
-        public void Divide(){} // RVA: 0x7B12BDA50
-        public void Negate(){} // RVA: 0x7B12BDC10
-        public void Square(){} // RVA: 0x7B12BDD10
-        public void Invert(){} // RVA: 0x7B12BDE10
-        public void Sqrt(){} // RVA: 0x7B12BDF60
-        public void Equals(){} // RVA: 0x7B12B92D0
-        public void GetHashCode(){} // RVA: 0x7B12BE550
-        public void .cctor(){} // RVA: 0x7B12BE650
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA123BC0
+        public void get_IsOne(){} // RVA: 0xA123C20
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA123C80
+        public void get_FieldName(){} // RVA: 0xA128D40
+        public void get_FieldSize(){} // RVA: 0xA128D80
+        public void Add(){} // RVA: 0xA128DF0
+        public void AddOne(){} // RVA: 0xA128F60
+        public void Subtract(){} // RVA: 0xA129060
+        public void Multiply(){} // RVA: 0xA129250
+        public void Divide(){} // RVA: 0xA1293C0
+        public void Negate(){} // RVA: 0xA129580
+        public void Square(){} // RVA: 0xA129680
+        public void Invert(){} // RVA: 0xA129780
+        public void Sqrt(){} // RVA: 0xA1298D0
+        public void Equals(){} // RVA: 0xA124C40
+        public void GetHashCode(){} // RVA: 0xA129EC0
+        public void .cctor(){} // RVA: 0xA129FC0
     }
 
     public class SecP160R2Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12BE860
-        public void Add(){} // RVA: 0x7B12BE970
-        public void Twice(){} // RVA: 0x7B12BF2E0
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12BF9A0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA12A1D0
+        public void Add(){} // RVA: 0xA12A2E0
+        public void Twice(){} // RVA: 0xA12AC50
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA12B310
     }
 
     public class SecP192K1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP192K1_DEFAULT_COORDS;
+        public object SECP192K1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12BFAA0
-        public void CloneCurve(){} // RVA: 0x7B12BFE40
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12BFE90
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12BFEF0
-        public void FromBigInteger(){} // RVA: 0x7B12BFF60
-        public void CreateRawPoint(){} // RVA: 0x7B12C00B0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12C0150
-        public void .cctor(){} // RVA: 0x7B12C03F0
+        public void .ctor(){} // RVA: 0xA12B410
+        public void CloneCurve(){} // RVA: 0xA12B7B0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA12B800
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA12B860
+        public void FromBigInteger(){} // RVA: 0xA12B8D0
+        public void CreateRawPoint(){} // RVA: 0xA12BA20
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA12BAC0
+        public void .cctor(){} // RVA: 0xA12BD60
     }
 
     public class SecP192K1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P5;
+        public object PExt11;
+        public object PInv33;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12C07D0
-        public void AddExt(){} // RVA: 0x7B12C0930
-        public void AddOne(){} // RVA: 0x7B12C0B90
-        public void FromBigInteger(){} // RVA: 0x7B12C0D60
-        public void Half(){} // RVA: 0x7B12C0E70
-        public void Multiply(){} // RVA: 0x7B12C0FA0
-        public void MultiplyAddToExt(){} // RVA: 0x7B12C1060
-        public void Negate(){} // RVA: 0x7B12C1270
-        public void Reduce(){} // RVA: 0x7B12C1390
-        public void Reduce32(){} // RVA: 0x7B12C15B0
-        public void Square(){} // RVA: 0x7B12C1780
-        public void SquareN(){} // RVA: 0x7B12C1830
-        public void Subtract(){} // RVA: 0x7B12C1930
-        public void SubtractExt(){} // RVA: 0x7B12C19C0
-        public void Twice(){} // RVA: 0x7B12C1BA0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12C1D30
+        public void Add(){} // RVA: 0xA12C140
+        public void AddExt(){} // RVA: 0xA12C2A0
+        public void AddOne(){} // RVA: 0xA12C500
+        public void FromBigInteger(){} // RVA: 0xA12C6D0
+        public void Half(){} // RVA: 0xA12C7E0
+        public void Multiply(){} // RVA: 0xA12C910
+        public void MultiplyAddToExt(){} // RVA: 0xA12C9D0
+        public void Negate(){} // RVA: 0xA12CBE0
+        public void Reduce(){} // RVA: 0xA12CD00
+        public void Reduce32(){} // RVA: 0xA12CF20
+        public void Square(){} // RVA: 0xA12D0F0
+        public void SquareN(){} // RVA: 0xA12D1A0
+        public void Subtract(){} // RVA: 0xA12D2A0
+        public void SubtractExt(){} // RVA: 0xA12D330
+        public void Twice(){} // RVA: 0xA12D510
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA12D6A0
     }
 
     public class SecP192K1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12C2220
-        public void get_IsOne(){} // RVA: 0x7B12C2280
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12C22E0
-        public void get_FieldName(){} // RVA: 0x7B12C22F0
-        public void get_FieldSize(){} // RVA: 0x7B12C2330
-        public void Add(){} // RVA: 0x7B12C23A0
-        public void AddOne(){} // RVA: 0x7B12C2630
-        public void Subtract(){} // RVA: 0x7B12C2730
-        public void Multiply(){} // RVA: 0x7B12C2920
-        public void Divide(){} // RVA: 0x7B12C2A90
-        public void Negate(){} // RVA: 0x7B12C2C50
-        public void Square(){} // RVA: 0x7B12C2D50
-        public void Invert(){} // RVA: 0x7B12C2E50
-        public void Sqrt(){} // RVA: 0x7B12C2FA0
-        public void Equals(){} // RVA: 0x7B12C3500
-        public void GetHashCode(){} // RVA: 0x7B12C3570
-        public void .cctor(){} // RVA: 0x7B12C3670
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA12DB90
+        public void get_IsOne(){} // RVA: 0xA12DBF0
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA12DC50
+        public void get_FieldName(){} // RVA: 0xA12DC60
+        public void get_FieldSize(){} // RVA: 0xA12DCA0
+        public void Add(){} // RVA: 0xA12DD10
+        public void AddOne(){} // RVA: 0xA12DFA0
+        public void Subtract(){} // RVA: 0xA12E0A0
+        public void Multiply(){} // RVA: 0xA12E290
+        public void Divide(){} // RVA: 0xA12E400
+        public void Negate(){} // RVA: 0xA12E5C0
+        public void Square(){} // RVA: 0xA12E6C0
+        public void Invert(){} // RVA: 0xA12E7C0
+        public void Sqrt(){} // RVA: 0xA12E910
+        public void Equals(){} // RVA: 0xA12EE70
+        public void GetHashCode(){} // RVA: 0xA12EEE0
+        public void .cctor(){} // RVA: 0xA12EFE0
     }
 
     public class SecP192K1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12C3880
-        public void Add(){} // RVA: 0x7B12C3990
-        public void Twice(){} // RVA: 0x7B12C4300
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12C4920
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA12F1F0
+        public void Add(){} // RVA: 0xA12F300
+        public void Twice(){} // RVA: 0xA12FC70
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA130290
     }
 
     public class SecP192R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP192R1_DEFAULT_COORDS;
+        public object SECP192R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12C4A20
-        public void CloneCurve(){} // RVA: 0x7B12C4E70
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12C4EC0
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12C4F20
-        public void FromBigInteger(){} // RVA: 0x7B12C4F90
-        public void CreateRawPoint(){} // RVA: 0x7B12C50E0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12C5180
-        public void .cctor(){} // RVA: 0x7B12C5420
+        public void .ctor(){} // RVA: 0xA130390
+        public void CloneCurve(){} // RVA: 0xA1307E0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA130830
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA130890
+        public void FromBigInteger(){} // RVA: 0xA130900
+        public void CreateRawPoint(){} // RVA: 0xA130A50
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA130AF0
+        public void .cctor(){} // RVA: 0xA130D90
     }
 
     public class SecP192R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P5;
+        public object PExt11;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12C5800
-        public void AddExt(){} // RVA: 0x7B12C59A0
-        public void AddOne(){} // RVA: 0x7B12C5C00
-        public void FromBigInteger(){} // RVA: 0x7B12C5E10
-        public void Half(){} // RVA: 0x7B12C5F20
-        public void Multiply(){} // RVA: 0x7B12C6050
-        public void MultiplyAddToExt(){} // RVA: 0x7B12C6110
-        public void Negate(){} // RVA: 0x7B12C6320
-        public void Reduce(){} // RVA: 0x7B12C6440
-        public void Reduce32(){} // RVA: 0x7B12C66F0
-        public void Square(){} // RVA: 0x7B12C6870
-        public void SquareN(){} // RVA: 0x7B12C6920
-        public void Subtract(){} // RVA: 0x7B12C6A20
-        public void SubtractExt(){} // RVA: 0x7B12C6B30
-        public void Twice(){} // RVA: 0x7B12C6D10
-        public void AddPInvTo(){} // RVA: 0x7B12C6EF0
-        public void SubPInvFrom(){} // RVA: 0x7B12C6F90
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12C7020
+        public void Add(){} // RVA: 0xA131170
+        public void AddExt(){} // RVA: 0xA131310
+        public void AddOne(){} // RVA: 0xA131570
+        public void FromBigInteger(){} // RVA: 0xA131780
+        public void Half(){} // RVA: 0xA131890
+        public void Multiply(){} // RVA: 0xA1319C0
+        public void MultiplyAddToExt(){} // RVA: 0xA131A80
+        public void Negate(){} // RVA: 0xA131C90
+        public void Reduce(){} // RVA: 0xA131DB0
+        public void Reduce32(){} // RVA: 0xA132060
+        public void Square(){} // RVA: 0xA1321E0
+        public void SquareN(){} // RVA: 0xA132290
+        public void Subtract(){} // RVA: 0xA132390
+        public void SubtractExt(){} // RVA: 0xA1324A0
+        public void Twice(){} // RVA: 0xA132680
+        public void AddPInvTo(){} // RVA: 0xA132860
+        public void SubPInvFrom(){} // RVA: 0xA132900
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA132990
     }
 
     public class SecP192R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12C2220
-        public void get_IsOne(){} // RVA: 0x7B12C2280
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12C22E0
-        public void get_FieldName(){} // RVA: 0x7B12C7480
-        public void get_FieldSize(){} // RVA: 0x7B12C74C0
-        public void Add(){} // RVA: 0x7B12C7530
-        public void AddOne(){} // RVA: 0x7B12C76A0
-        public void Subtract(){} // RVA: 0x7B12C77A0
-        public void Multiply(){} // RVA: 0x7B12C7910
-        public void Divide(){} // RVA: 0x7B12C7A80
-        public void Negate(){} // RVA: 0x7B12C7C40
-        public void Square(){} // RVA: 0x7B12C7D40
-        public void Invert(){} // RVA: 0x7B12C7E40
-        public void Sqrt(){} // RVA: 0x7B12C7F90
-        public void Equals(){} // RVA: 0x7B12C3500
-        public void GetHashCode(){} // RVA: 0x7B12C83E0
-        public void .cctor(){} // RVA: 0x7B12C84E0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA12DB90
+        public void get_IsOne(){} // RVA: 0xA12DBF0
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA12DC50
+        public void get_FieldName(){} // RVA: 0xA132DF0
+        public void get_FieldSize(){} // RVA: 0xA132E30
+        public void Add(){} // RVA: 0xA132EA0
+        public void AddOne(){} // RVA: 0xA133010
+        public void Subtract(){} // RVA: 0xA133110
+        public void Multiply(){} // RVA: 0xA133280
+        public void Divide(){} // RVA: 0xA1333F0
+        public void Negate(){} // RVA: 0xA1335B0
+        public void Square(){} // RVA: 0xA1336B0
+        public void Invert(){} // RVA: 0xA1337B0
+        public void Sqrt(){} // RVA: 0xA133900
+        public void Equals(){} // RVA: 0xA12EE70
+        public void GetHashCode(){} // RVA: 0xA133D50
+        public void .cctor(){} // RVA: 0xA133E50
     }
 
     public class SecP192R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12C86F0
-        public void Add(){} // RVA: 0x7B12C8800
-        public void Twice(){} // RVA: 0x7B12C9170
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12C9830
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA134060
+        public void Add(){} // RVA: 0xA134170
+        public void Twice(){} // RVA: 0xA134AE0
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA1351A0
     }
 
     public class SecP224K1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP224K1_DEFAULT_COORDS;
+        public object SECP224K1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12C9930
-        public void CloneCurve(){} // RVA: 0x7B12C9CD0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12C9D20
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12C9D80
-        public void FromBigInteger(){} // RVA: 0x7B12C9DF0
-        public void CreateRawPoint(){} // RVA: 0x7B12C9F40
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12C9FE0
-        public void .cctor(){} // RVA: 0x7B12CA270
+        public void .ctor(){} // RVA: 0xA1352A0
+        public void CloneCurve(){} // RVA: 0xA135640
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA135690
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA1356F0
+        public void FromBigInteger(){} // RVA: 0xA135760
+        public void CreateRawPoint(){} // RVA: 0xA1358B0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA135950
+        public void .cctor(){} // RVA: 0xA135BE0
     }
 
     public class SecP224K1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P6;
+        public object PExt13;
+        public object PInv33;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12CA650
-        public void AddExt(){} // RVA: 0x7B12CA7B0
-        public void AddOne(){} // RVA: 0x7B12CAA10
-        public void FromBigInteger(){} // RVA: 0x7B12CABE0
-        public void Half(){} // RVA: 0x7B12CACF0
-        public void Multiply(){} // RVA: 0x7B12CAE20
-        public void MultiplyAddToExt(){} // RVA: 0x7B12CAEE0
-        public void Negate(){} // RVA: 0x7B12CB0F0
-        public void Reduce(){} // RVA: 0x7B12CB210
-        public void Reduce32(){} // RVA: 0x7B12CB430
-        public void Square(){} // RVA: 0x7B12CB600
-        public void SquareN(){} // RVA: 0x7B12CB6B0
-        public void Subtract(){} // RVA: 0x7B12CB7B0
-        public void SubtractExt(){} // RVA: 0x7B12CB840
-        public void Twice(){} // RVA: 0x7B12CBA20
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12CBBB0
+        public void Add(){} // RVA: 0xA135FC0
+        public void AddExt(){} // RVA: 0xA136120
+        public void AddOne(){} // RVA: 0xA136380
+        public void FromBigInteger(){} // RVA: 0xA136550
+        public void Half(){} // RVA: 0xA136660
+        public void Multiply(){} // RVA: 0xA136790
+        public void MultiplyAddToExt(){} // RVA: 0xA136850
+        public void Negate(){} // RVA: 0xA136A60
+        public void Reduce(){} // RVA: 0xA136B80
+        public void Reduce32(){} // RVA: 0xA136DA0
+        public void Square(){} // RVA: 0xA136F70
+        public void SquareN(){} // RVA: 0xA137020
+        public void Subtract(){} // RVA: 0xA137120
+        public void SubtractExt(){} // RVA: 0xA1371B0
+        public void Twice(){} // RVA: 0xA137390
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA137520
     }
 
     public class SecP224K1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object PRECOMP_POW2;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12CC0A0
-        public void get_IsOne(){} // RVA: 0x7B12CC100
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12CC160
-        public void get_FieldName(){} // RVA: 0x7B12CC170
-        public void get_FieldSize(){} // RVA: 0x7B12CC1B0
-        public void Add(){} // RVA: 0x7B12CC220
-        public void AddOne(){} // RVA: 0x7B12CC4B0
-        public void Subtract(){} // RVA: 0x7B12CC5B0
-        public void Multiply(){} // RVA: 0x7B12CC7A0
-        public void Divide(){} // RVA: 0x7B12CC910
-        public void Negate(){} // RVA: 0x7B12CCAD0
-        public void Square(){} // RVA: 0x7B12CCBD0
-        public void Invert(){} // RVA: 0x7B12CCCD0
-        public void Sqrt(){} // RVA: 0x7B12CCE20
-        public void Equals(){} // RVA: 0x7B12CD4A0
-        public void GetHashCode(){} // RVA: 0x7B12CD510
-        public void .cctor(){} // RVA: 0x7B12CD610
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA137A10
+        public void get_IsOne(){} // RVA: 0xA137A70
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA137AD0
+        public void get_FieldName(){} // RVA: 0xA137AE0
+        public void get_FieldSize(){} // RVA: 0xA137B20
+        public void Add(){} // RVA: 0xA137B90
+        public void AddOne(){} // RVA: 0xA137E20
+        public void Subtract(){} // RVA: 0xA137F20
+        public void Multiply(){} // RVA: 0xA138110
+        public void Divide(){} // RVA: 0xA138280
+        public void Negate(){} // RVA: 0xA138440
+        public void Square(){} // RVA: 0xA138540
+        public void Invert(){} // RVA: 0xA138640
+        public void Sqrt(){} // RVA: 0xA138790
+        public void Equals(){} // RVA: 0xA138E10
+        public void GetHashCode(){} // RVA: 0xA138E80
+        public void .cctor(){} // RVA: 0xA138F80
     }
 
     public class SecP224K1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12CD8F0
-        public void Add(){} // RVA: 0x7B12CDA00
-        public void Twice(){} // RVA: 0x7B12CE370
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12CE990
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA139260
+        public void Add(){} // RVA: 0xA139370
+        public void Twice(){} // RVA: 0xA139CE0
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA13A300
     }
 
     public class SecP224R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP224R1_DEFAULT_COORDS;
+        public object SECP224R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12CEA90
-        public void CloneCurve(){} // RVA: 0x7B12CEEE0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12CEF30
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12CEF90
-        public void FromBigInteger(){} // RVA: 0x7B12CF000
-        public void CreateRawPoint(){} // RVA: 0x7B12CF150
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12CF1F0
-        public void .cctor(){} // RVA: 0x7B12CF480
+        public void .ctor(){} // RVA: 0xA13A400
+        public void CloneCurve(){} // RVA: 0xA13A850
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA13A8A0
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA13A900
+        public void FromBigInteger(){} // RVA: 0xA13A970
+        public void CreateRawPoint(){} // RVA: 0xA13AAC0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA13AB60
+        public void .cctor(){} // RVA: 0xA13ADF0
     }
 
     public class SecP224R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P6;
+        public object PExt13;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12CF860
-        public void AddExt(){} // RVA: 0x7B12CF980
-        public void AddOne(){} // RVA: 0x7B12CFBE0
-        public void FromBigInteger(){} // RVA: 0x7B12CFD70
-        public void Half(){} // RVA: 0x7B12CFE80
-        public void Multiply(){} // RVA: 0x7B12CFFB0
-        public void MultiplyAddToExt(){} // RVA: 0x7B12D0070
-        public void Negate(){} // RVA: 0x7B12D0280
-        public void Reduce(){} // RVA: 0x7B12D03A0
-        public void Reduce32(){} // RVA: 0x7B12D06A0
-        public void Square(){} // RVA: 0x7B12D0830
-        public void SquareN(){} // RVA: 0x7B12D08E0
-        public void Subtract(){} // RVA: 0x7B12D09E0
-        public void SubtractExt(){} // RVA: 0x7B12D0B00
-        public void Twice(){} // RVA: 0x7B12D0CE0
-        public void AddPInvTo(){} // RVA: 0x7B12D0E40
-        public void SubPInvFrom(){} // RVA: 0x7B12D0EF0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12D0FA0
+        public void Add(){} // RVA: 0xA13B1D0
+        public void AddExt(){} // RVA: 0xA13B2F0
+        public void AddOne(){} // RVA: 0xA13B550
+        public void FromBigInteger(){} // RVA: 0xA13B6E0
+        public void Half(){} // RVA: 0xA13B7F0
+        public void Multiply(){} // RVA: 0xA13B920
+        public void MultiplyAddToExt(){} // RVA: 0xA13B9E0
+        public void Negate(){} // RVA: 0xA13BBF0
+        public void Reduce(){} // RVA: 0xA13BD10
+        public void Reduce32(){} // RVA: 0xA13C010
+        public void Square(){} // RVA: 0xA13C1A0
+        public void SquareN(){} // RVA: 0xA13C250
+        public void Subtract(){} // RVA: 0xA13C350
+        public void SubtractExt(){} // RVA: 0xA13C470
+        public void Twice(){} // RVA: 0xA13C650
+        public void AddPInvTo(){} // RVA: 0xA13C7B0
+        public void SubPInvFrom(){} // RVA: 0xA13C860
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA13C910
     }
 
     public class SecP224R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12CC0A0
-        public void get_IsOne(){} // RVA: 0x7B12CC100
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12CC160
-        public void get_FieldName(){} // RVA: 0x7B12D1400
-        public void get_FieldSize(){} // RVA: 0x7B12D1440
-        public void Add(){} // RVA: 0x7B12D14B0
-        public void AddOne(){} // RVA: 0x7B12D1620
-        public void Subtract(){} // RVA: 0x7B12D1720
-        public void Multiply(){} // RVA: 0x7B12D1890
-        public void Divide(){} // RVA: 0x7B12D1A00
-        public void Negate(){} // RVA: 0x7B12D1BC0
-        public void Square(){} // RVA: 0x7B12D1CC0
-        public void Invert(){} // RVA: 0x7B12D1DC0
-        public void Sqrt(){} // RVA: 0x7B12D1F10
-        public void Equals(){} // RVA: 0x7B12CD4A0
-        public void GetHashCode(){} // RVA: 0x7B12D2350
-        public void IsSquare(){} // RVA: 0x7B12D2450
-        public void RM(){} // RVA: 0x7B12D2740
-        public void RP(){} // RVA: 0x7B12D2930
-        public void RS(){} // RVA: 0x7B12D2D40
-        public void TrySqrt(){} // RVA: 0x7B12D2E60
-        public void .cctor(){} // RVA: 0x7B12D3370
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA137A10
+        public void get_IsOne(){} // RVA: 0xA137A70
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA137AD0
+        public void get_FieldName(){} // RVA: 0xA13CD70
+        public void get_FieldSize(){} // RVA: 0xA13CDB0
+        public void Add(){} // RVA: 0xA13CE20
+        public void AddOne(){} // RVA: 0xA13CF90
+        public void Subtract(){} // RVA: 0xA13D090
+        public void Multiply(){} // RVA: 0xA13D200
+        public void Divide(){} // RVA: 0xA13D370
+        public void Negate(){} // RVA: 0xA13D530
+        public void Square(){} // RVA: 0xA13D630
+        public void Invert(){} // RVA: 0xA13D730
+        public void Sqrt(){} // RVA: 0xA13D880
+        public void Equals(){} // RVA: 0xA138E10
+        public void GetHashCode(){} // RVA: 0xA13DCC0
+        public void IsSquare(){} // RVA: 0xA13DDC0
+        public void RM(){} // RVA: 0xA13E0B0
+        public void RP(){} // RVA: 0xA13E2A0
+        public void RS(){} // RVA: 0xA13E6B0
+        public void TrySqrt(){} // RVA: 0xA13E7D0
+        public void .cctor(){} // RVA: 0xA13ECE0
     }
 
     public class SecP224R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12D3580
-        public void Add(){} // RVA: 0x7B12D3690
-        public void Twice(){} // RVA: 0x7B12D4000
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12D46C0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA13EEF0
+        public void Add(){} // RVA: 0xA13F000
+        public void Twice(){} // RVA: 0xA13F970
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA140030
     }
 
     public class SecP256K1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP256K1_DEFAULT_COORDS;
+        public object SECP256K1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12D47C0
-        public void CloneCurve(){} // RVA: 0x7B12D4B60
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12D4BB0
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12D4C10
-        public void FromBigInteger(){} // RVA: 0x7B12D4C80
-        public void CreateRawPoint(){} // RVA: 0x7B12D4DD0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12D4E70
-        public void .cctor(){} // RVA: 0x7B12D5100
+        public void .ctor(){} // RVA: 0xA140130
+        public void CloneCurve(){} // RVA: 0xA1404D0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA140520
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA140580
+        public void FromBigInteger(){} // RVA: 0xA1405F0
+        public void CreateRawPoint(){} // RVA: 0xA140740
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA1407E0
+        public void .cctor(){} // RVA: 0xA140A70
     }
 
     public class SecP256K1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P7;
+        public object PExt15;
+        public object PInv33;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12D54E0
-        public void AddExt(){} // RVA: 0x7B12D5640
-        public void AddOne(){} // RVA: 0x7B12D58A0
-        public void FromBigInteger(){} // RVA: 0x7B12D5A70
-        public void Half(){} // RVA: 0x7B12D5B80
-        public void Multiply(){} // RVA: 0x7B12D5CB0
-        public void MultiplyAddToExt(){} // RVA: 0x7B12D5D70
-        public void Negate(){} // RVA: 0x7B12D5F80
-        public void Reduce(){} // RVA: 0x7B12D60B0
-        public void Reduce32(){} // RVA: 0x7B12D62D0
-        public void Square(){} // RVA: 0x7B12D64A0
-        public void SquareN(){} // RVA: 0x7B12D6550
-        public void Subtract(){} // RVA: 0x7B12D6650
-        public void SubtractExt(){} // RVA: 0x7B12D66E0
-        public void Twice(){} // RVA: 0x7B12D68C0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12D6A50
+        public void Add(){} // RVA: 0xA140E50
+        public void AddExt(){} // RVA: 0xA140FB0
+        public void AddOne(){} // RVA: 0xA141210
+        public void FromBigInteger(){} // RVA: 0xA1413E0
+        public void Half(){} // RVA: 0xA1414F0
+        public void Multiply(){} // RVA: 0xA141620
+        public void MultiplyAddToExt(){} // RVA: 0xA1416E0
+        public void Negate(){} // RVA: 0xA1418F0
+        public void Reduce(){} // RVA: 0xA141A20
+        public void Reduce32(){} // RVA: 0xA141C40
+        public void Square(){} // RVA: 0xA141E10
+        public void SquareN(){} // RVA: 0xA141EC0
+        public void Subtract(){} // RVA: 0xA141FC0
+        public void SubtractExt(){} // RVA: 0xA142050
+        public void Twice(){} // RVA: 0xA142230
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA1423C0
     }
 
     public class SecP256K1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12D6F40
-        public void get_IsOne(){} // RVA: 0x7B12D6FA0
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12D7000
-        public void get_FieldName(){} // RVA: 0x7B12D7010
-        public void get_FieldSize(){} // RVA: 0x7B12D7050
-        public void Add(){} // RVA: 0x7B12D70C0
-        public void AddOne(){} // RVA: 0x7B12D7350
-        public void Subtract(){} // RVA: 0x7B12D7450
-        public void Multiply(){} // RVA: 0x7B12D7640
-        public void Divide(){} // RVA: 0x7B12D77B0
-        public void Negate(){} // RVA: 0x7B12D7970
-        public void Square(){} // RVA: 0x7B12D7A70
-        public void Invert(){} // RVA: 0x7B12D7B70
-        public void Sqrt(){} // RVA: 0x7B12D7CC0
-        public void Equals(){} // RVA: 0x7B12D82C0
-        public void GetHashCode(){} // RVA: 0x7B12D8330
-        public void .cctor(){} // RVA: 0x7B12D8430
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA1428B0
+        public void get_IsOne(){} // RVA: 0xA142910
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA142970
+        public void get_FieldName(){} // RVA: 0xA142980
+        public void get_FieldSize(){} // RVA: 0xA1429C0
+        public void Add(){} // RVA: 0xA142A30
+        public void AddOne(){} // RVA: 0xA142CC0
+        public void Subtract(){} // RVA: 0xA142DC0
+        public void Multiply(){} // RVA: 0xA142FB0
+        public void Divide(){} // RVA: 0xA143120
+        public void Negate(){} // RVA: 0xA1432E0
+        public void Square(){} // RVA: 0xA1433E0
+        public void Invert(){} // RVA: 0xA1434E0
+        public void Sqrt(){} // RVA: 0xA143630
+        public void Equals(){} // RVA: 0xA143C30
+        public void GetHashCode(){} // RVA: 0xA143CA0
+        public void .cctor(){} // RVA: 0xA143DA0
     }
 
     public class SecP256K1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12D8640
-        public void Add(){} // RVA: 0x7B12D8750
-        public void Twice(){} // RVA: 0x7B12D90C0
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12D96E0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA143FB0
+        public void Add(){} // RVA: 0xA1440C0
+        public void Twice(){} // RVA: 0xA144A30
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA145050
     }
 
     public class SecP256R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP256R1_DEFAULT_COORDS;
+        public object SECP256R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12D97E0
-        public void CloneCurve(){} // RVA: 0x7B12D9C30
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12D9C80
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12D9CE0
-        public void FromBigInteger(){} // RVA: 0x7B12D9D50
-        public void CreateRawPoint(){} // RVA: 0x7B12D9EA0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12D9F40
-        public void .cctor(){} // RVA: 0x7B12DA1D0
+        public void .ctor(){} // RVA: 0xA145150
+        public void CloneCurve(){} // RVA: 0xA1455A0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA1455F0
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA145650
+        public void FromBigInteger(){} // RVA: 0xA1456C0
+        public void CreateRawPoint(){} // RVA: 0xA145810
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA1458B0
+        public void .cctor(){} // RVA: 0xA145B40
     }
 
     public class SecP256R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object P7;
+        public object PExt15;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12DA5B0
-        public void AddExt(){} // RVA: 0x7B12DA6D0
-        public void AddOne(){} // RVA: 0x7B12DA8B0
-        public void FromBigInteger(){} // RVA: 0x7B12DAA40
-        public void Half(){} // RVA: 0x7B12DAB50
-        public void Multiply(){} // RVA: 0x7B12DAC80
-        public void MultiplyAddToExt(){} // RVA: 0x7B12DAD40
-        public void Negate(){} // RVA: 0x7B12DAEC0
-        public void Reduce(){} // RVA: 0x7B12DAFF0
-        public void Reduce32(){} // RVA: 0x7B12DB260
-        public void Square(){} // RVA: 0x7B12DB430
-        public void SquareN(){} // RVA: 0x7B12DB4E0
-        public void Subtract(){} // RVA: 0x7B12DB5E0
-        public void SubtractExt(){} // RVA: 0x7B12DB720
-        public void Twice(){} // RVA: 0x7B12DB880
-        public void AddPInvTo(){} // RVA: 0x7B12DB9E0
-        public void SubPInvFrom(){} // RVA: 0x7B12DBAC0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12DBBA0
+        public void Add(){} // RVA: 0xA145F20
+        public void AddExt(){} // RVA: 0xA146040
+        public void AddOne(){} // RVA: 0xA146220
+        public void FromBigInteger(){} // RVA: 0xA1463B0
+        public void Half(){} // RVA: 0xA1464C0
+        public void Multiply(){} // RVA: 0xA1465F0
+        public void MultiplyAddToExt(){} // RVA: 0xA1466B0
+        public void Negate(){} // RVA: 0xA146830
+        public void Reduce(){} // RVA: 0xA146960
+        public void Reduce32(){} // RVA: 0xA146BD0
+        public void Square(){} // RVA: 0xA146DA0
+        public void SquareN(){} // RVA: 0xA146E50
+        public void Subtract(){} // RVA: 0xA146F50
+        public void SubtractExt(){} // RVA: 0xA147090
+        public void Twice(){} // RVA: 0xA1471F0
+        public void AddPInvTo(){} // RVA: 0xA147350
+        public void SubPInvFrom(){} // RVA: 0xA147430
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA147510
     }
 
     public class SecP256R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12D6F40
-        public void get_IsOne(){} // RVA: 0x7B12D6FA0
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12D7000
-        public void get_FieldName(){} // RVA: 0x7B12DBF60
-        public void get_FieldSize(){} // RVA: 0x7B12DBFA0
-        public void Add(){} // RVA: 0x7B12DC010
-        public void AddOne(){} // RVA: 0x7B12DC180
-        public void Subtract(){} // RVA: 0x7B12DC280
-        public void Multiply(){} // RVA: 0x7B12DC3F0
-        public void Divide(){} // RVA: 0x7B12DC560
-        public void Negate(){} // RVA: 0x7B12DC720
-        public void Square(){} // RVA: 0x7B12DC820
-        public void Invert(){} // RVA: 0x7B12DC920
-        public void Sqrt(){} // RVA: 0x7B12DCA70
-        public void Equals(){} // RVA: 0x7B12D82C0
-        public void GetHashCode(){} // RVA: 0x7B12DCEC0
-        public void .cctor(){} // RVA: 0x7B12DCFC0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA1428B0
+        public void get_IsOne(){} // RVA: 0xA142910
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA142970
+        public void get_FieldName(){} // RVA: 0xA1478D0
+        public void get_FieldSize(){} // RVA: 0xA147910
+        public void Add(){} // RVA: 0xA147980
+        public void AddOne(){} // RVA: 0xA147AF0
+        public void Subtract(){} // RVA: 0xA147BF0
+        public void Multiply(){} // RVA: 0xA147D60
+        public void Divide(){} // RVA: 0xA147ED0
+        public void Negate(){} // RVA: 0xA148090
+        public void Square(){} // RVA: 0xA148190
+        public void Invert(){} // RVA: 0xA148290
+        public void Sqrt(){} // RVA: 0xA1483E0
+        public void Equals(){} // RVA: 0xA143C30
+        public void GetHashCode(){} // RVA: 0xA148830
+        public void .cctor(){} // RVA: 0xA148930
     }
 
     public class SecP256R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12DD1D0
-        public void Add(){} // RVA: 0x7B12DD2E0
-        public void Twice(){} // RVA: 0x7B12DDDD0
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12DE5D0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA148B40
+        public void Add(){} // RVA: 0xA148C50
+        public void Twice(){} // RVA: 0xA149740
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA149F40
     }
 
     public class SecP384R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP384R1_DEFAULT_COORDS;
+        public object SECP384R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12DE6D0
-        public void CloneCurve(){} // RVA: 0x7B12DEB20
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12DEB70
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12DEBD0
-        public void FromBigInteger(){} // RVA: 0x7B12DEC40
-        public void CreateRawPoint(){} // RVA: 0x7B12DED90
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12DEE30
-        public void .cctor(){} // RVA: 0x7B12DF0E0
+        public void .ctor(){} // RVA: 0xA14A040
+        public void CloneCurve(){} // RVA: 0xA14A490
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA14A4E0
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA14A540
+        public void FromBigInteger(){} // RVA: 0xA14A5B0
+        public void CreateRawPoint(){} // RVA: 0xA14A700
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA14A7A0
+        public void .cctor(){} // RVA: 0xA14AA50
     }
 
     public class SecP384R1Field : Object
     {
+        public object P;
+        public object PExt;
+        public object PExtInv;
+        public object P11;
+        public object PExt23;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12DF4C0
-        public void AddExt(){} // RVA: 0x7B12DF640
-        public void AddOne(){} // RVA: 0x7B12DF8A0
-        public void FromBigInteger(){} // RVA: 0x7B12DFA30
-        public void Half(){} // RVA: 0x7B12DFB90
-        public void Multiply(){} // RVA: 0x7B12DFD20
-        public void Negate(){} // RVA: 0x7B12DFDE0
-        public void Reduce(){} // RVA: 0x7B12DFF40
-        public void Reduce32(){} // RVA: 0x7B12E02D0
-        public void Square(){} // RVA: 0x7B12E0480
-        public void SquareN(){} // RVA: 0x7B12E0530
-        public void Subtract(){} // RVA: 0x7B12E0630
-        public void SubtractExt(){} // RVA: 0x7B12E07D0
-        public void Twice(){} // RVA: 0x7B12E09B0
-        public void AddPInvTo(){} // RVA: 0x7B12E0B10
-        public void SubPInvFrom(){} // RVA: 0x7B12E0BE0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12E0CB0
+        public void Add(){} // RVA: 0xA14AE30
+        public void AddExt(){} // RVA: 0xA14AFB0
+        public void AddOne(){} // RVA: 0xA14B210
+        public void FromBigInteger(){} // RVA: 0xA14B3A0
+        public void Half(){} // RVA: 0xA14B500
+        public void Multiply(){} // RVA: 0xA14B690
+        public void Negate(){} // RVA: 0xA14B750
+        public void Reduce(){} // RVA: 0xA14B8B0
+        public void Reduce32(){} // RVA: 0xA14BC40
+        public void Square(){} // RVA: 0xA14BDF0
+        public void SquareN(){} // RVA: 0xA14BEA0
+        public void Subtract(){} // RVA: 0xA14BFA0
+        public void SubtractExt(){} // RVA: 0xA14C140
+        public void Twice(){} // RVA: 0xA14C320
+        public void AddPInvTo(){} // RVA: 0xA14C480
+        public void SubPInvFrom(){} // RVA: 0xA14C550
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA14C620
     }
 
     public class SecP384R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12E1200
-        public void get_IsOne(){} // RVA: 0x7B12E1260
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12E12C0
-        public void get_FieldName(){} // RVA: 0x7B12E12E0
-        public void get_FieldSize(){} // RVA: 0x7B12E1320
-        public void Add(){} // RVA: 0x7B12E1390
-        public void AddOne(){} // RVA: 0x7B12E1650
-        public void Subtract(){} // RVA: 0x7B12E1750
-        public void Multiply(){} // RVA: 0x7B12E1A30
-        public void Divide(){} // RVA: 0x7B12E1BA0
-        public void Negate(){} // RVA: 0x7B12E1D60
-        public void Square(){} // RVA: 0x7B12E1E60
-        public void Invert(){} // RVA: 0x7B12E1F60
-        public void Sqrt(){} // RVA: 0x7B12E20B0
-        public void Equals(){} // RVA: 0x7B12E2640
-        public void GetHashCode(){} // RVA: 0x7B12E26B0
-        public void .cctor(){} // RVA: 0x7B12E27B0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA14CB70
+        public void get_IsOne(){} // RVA: 0xA14CBD0
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA14CC30
+        public void get_FieldName(){} // RVA: 0xA14CC50
+        public void get_FieldSize(){} // RVA: 0xA14CC90
+        public void Add(){} // RVA: 0xA14CD00
+        public void AddOne(){} // RVA: 0xA14CFC0
+        public void Subtract(){} // RVA: 0xA14D0C0
+        public void Multiply(){} // RVA: 0xA14D3A0
+        public void Divide(){} // RVA: 0xA14D510
+        public void Negate(){} // RVA: 0xA14D6D0
+        public void Square(){} // RVA: 0xA14D7D0
+        public void Invert(){} // RVA: 0xA14D8D0
+        public void Sqrt(){} // RVA: 0xA14DA20
+        public void Equals(){} // RVA: 0xA14DFB0
+        public void GetHashCode(){} // RVA: 0xA14E020
+        public void .cctor(){} // RVA: 0xA14E120
     }
 
     public class SecP384R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12E29C0
-        public void Add(){} // RVA: 0x7B12E2AD0
-        public void Twice(){} // RVA: 0x7B12E34F0
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12E44E0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA14E330
+        public void Add(){} // RVA: 0xA14E440
+        public void Twice(){} // RVA: 0xA14EE60
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA14FE50
     }
 
     public class SecP521R1Curve : AbstractFpCurve
     {
+        public object q;
+        public object SECP521R1_DEFAULT_COORDS;
+        public object SECP521R1_FE_INTS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12E45E0
-        public void CloneCurve(){} // RVA: 0x7B12E4A30
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
-        public void get_Q(){} // RVA: 0x7B12E4A80
-        public void get_Infinity(){} // RVA: 0x7A8178B90
-        public void get_FieldSize(){} // RVA: 0x7B12E4AE0
-        public void FromBigInteger(){} // RVA: 0x7B12E4B50
-        public void CreateRawPoint(){} // RVA: 0x7B12E4CA0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12E4D40
-        public void .cctor(){} // RVA: 0x7B12E4FE0
+        public void .ctor(){} // RVA: 0xA14FF50
+        public void CloneCurve(){} // RVA: 0xA1503A0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA11A060
+        public void get_Q(){} // RVA: 0xA1503F0
+        public void get_Infinity(){} // RVA: 0xBE58B0
+        public void get_FieldSize(){} // RVA: 0xA150450
+        public void FromBigInteger(){} // RVA: 0xA1504C0
+        public void CreateRawPoint(){} // RVA: 0xA150610
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA1506B0
+        public void .cctor(){} // RVA: 0xA150950
     }
 
     public class SecP521R1Field : Object
     {
+        public object P;
+        public object P16;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12E53C0
-        public void AddOne(){} // RVA: 0x7B12E5570
-        public void FromBigInteger(){} // RVA: 0x7B12E5730
-        public void Half(){} // RVA: 0x7B12E5810
-        public void Multiply(){} // RVA: 0x7B12E58A0
-        public void Negate(){} // RVA: 0x7B12E5A30
-        public void Reduce(){} // RVA: 0x7B12E5B90
-        public void Reduce23(){} // RVA: 0x7B12E5D70
-        public void Square(){} // RVA: 0x7B12E5EF0
-        public void SquareN(){} // RVA: 0x7B12E6030
-        public void Subtract(){} // RVA: 0x7B12E6250
-        public void Twice(){} // RVA: 0x7B12E6370
-        public void ImplMultiply(){} // RVA: 0x7B12E6410
-        public void ImplSquare(){} // RVA: 0x7B12E6520
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12E65D0
+        public void Add(){} // RVA: 0xA150D30
+        public void AddOne(){} // RVA: 0xA150EE0
+        public void FromBigInteger(){} // RVA: 0xA1510A0
+        public void Half(){} // RVA: 0xA151180
+        public void Multiply(){} // RVA: 0xA151210
+        public void Negate(){} // RVA: 0xA1513A0
+        public void Reduce(){} // RVA: 0xA151500
+        public void Reduce23(){} // RVA: 0xA1516E0
+        public void Square(){} // RVA: 0xA151860
+        public void SquareN(){} // RVA: 0xA1519A0
+        public void Subtract(){} // RVA: 0xA151BC0
+        public void Twice(){} // RVA: 0xA151CE0
+        public void ImplMultiply(){} // RVA: 0xA151D80
+        public void ImplSquare(){} // RVA: 0xA151E90
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA151F40
     }
 
     public class SecP521R1FieldElement : AbstractFpFieldElement
     {
+        public object Q;
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsZero(){} // RVA: 0x7B12E6940
-        public void get_IsOne(){} // RVA: 0x7B12E69A0
-        public void TestBitZero(){} // RVA: 0x7B12B10D0
-        public void ToBigInteger(){} // RVA: 0x7B12E6A00
-        public void get_FieldName(){} // RVA: 0x7B12E6A20
-        public void get_FieldSize(){} // RVA: 0x7B12E6A60
-        public void Add(){} // RVA: 0x7B12E6AD0
-        public void AddOne(){} // RVA: 0x7B12E6DB0
-        public void Subtract(){} // RVA: 0x7B12E7070
-        public void Multiply(){} // RVA: 0x7B12E72D0
-        public void Divide(){} // RVA: 0x7B12E7440
-        public void Negate(){} // RVA: 0x7B12E7600
-        public void Square(){} // RVA: 0x7B12E7850
-        public void Invert(){} // RVA: 0x7B12E7950
-        public void Sqrt(){} // RVA: 0x7B12E7AA0
-        public void Equals(){} // RVA: 0x7B12E7E00
-        public void GetHashCode(){} // RVA: 0x7B12E7E70
-        public void .cctor(){} // RVA: 0x7B12E7F70
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsZero(){} // RVA: 0xA1522B0
+        public void get_IsOne(){} // RVA: 0xA152310
+        public void TestBitZero(){} // RVA: 0xA11CA40
+        public void ToBigInteger(){} // RVA: 0xA152370
+        public void get_FieldName(){} // RVA: 0xA152390
+        public void get_FieldSize(){} // RVA: 0xA1523D0
+        public void Add(){} // RVA: 0xA152440
+        public void AddOne(){} // RVA: 0xA152720
+        public void Subtract(){} // RVA: 0xA1529E0
+        public void Multiply(){} // RVA: 0xA152C40
+        public void Divide(){} // RVA: 0xA152DB0
+        public void Negate(){} // RVA: 0xA152F70
+        public void Square(){} // RVA: 0xA1531C0
+        public void Invert(){} // RVA: 0xA1532C0
+        public void Sqrt(){} // RVA: 0xA153410
+        public void Equals(){} // RVA: 0xA153770
+        public void GetHashCode(){} // RVA: 0xA1537E0
+        public void .cctor(){} // RVA: 0xA1538E0
     }
 
     public class SecP521R1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12E8180
-        public void Add(){} // RVA: 0x7B12E8290
-        public void Twice(){} // RVA: 0x7B12E90E0
-        public void TwicePlus(){} // RVA: 0x7B12B36C0
-        public void ThreeTimes(){} // RVA: 0x7B12B37C0
-        public void Negate(){} // RVA: 0x7B12E9C60
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA153AF0
+        public void Add(){} // RVA: 0xA153C00
+        public void Twice(){} // RVA: 0xA154A50
+        public void TwicePlus(){} // RVA: 0xA11F030
+        public void ThreeTimes(){} // RVA: 0xA11F130
+        public void Negate(){} // RVA: 0xA1555D0
     }
 
     public class SecT113Field : Object
     {
+        public object M49;
+        public object M57;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12E9D60
-        public void AddExt(){} // RVA: 0x7B12E9DD0
-        public void AddOne(){} // RVA: 0x7B12E9E80
-        public void AddTo(){} // RVA: 0x7B12E9ED0
-        public void FromBigInteger(){} // RVA: 0x7B12E9F20
-        public void HalfTrace(){} // RVA: 0x7B12E9F30
-        public void Invert(){} // RVA: 0x7B12EA200
-        public void Multiply(){} // RVA: 0x7B12EA440
-        public void MultiplyAddToExt(){} // RVA: 0x7B12EA4D0
-        public void Reduce(){} // RVA: 0x7B12EA5B0
-        public void Reduce15(){} // RVA: 0x7B12EA690
-        public void Sqrt(){} // RVA: 0x7B12EA700
-        public void Square(){} // RVA: 0x7B12EA7D0
-        public void SquareAddToExt(){} // RVA: 0x7B12EA880
-        public void SquareN(){} // RVA: 0x7B12EA990
-        public void Trace(){} // RVA: 0x7B12EAB60
-        public void ImplMultiply(){} // RVA: 0x7B12EAB90
-        public void ImplMulw(){} // RVA: 0x7B12EADA0
-        public void ImplSquare(){} // RVA: 0x7B12EAFD0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Add(){} // RVA: 0xA1556D0
+        public void AddExt(){} // RVA: 0xA155740
+        public void AddOne(){} // RVA: 0xA1557F0
+        public void AddTo(){} // RVA: 0xA155840
+        public void FromBigInteger(){} // RVA: 0xA155890
+        public void HalfTrace(){} // RVA: 0xA1558A0
+        public void Invert(){} // RVA: 0xA155B70
+        public void Multiply(){} // RVA: 0xA155DB0
+        public void MultiplyAddToExt(){} // RVA: 0xA155E40
+        public void Reduce(){} // RVA: 0xA155F20
+        public void Reduce15(){} // RVA: 0xA156000
+        public void Sqrt(){} // RVA: 0xA156070
+        public void Square(){} // RVA: 0xA156140
+        public void SquareAddToExt(){} // RVA: 0xA1561F0
+        public void SquareN(){} // RVA: 0xA156300
+        public void Trace(){} // RVA: 0xA1564D0
+        public void ImplMultiply(){} // RVA: 0xA156500
+        public void ImplMulw(){} // RVA: 0xA156710
+        public void ImplSquare(){} // RVA: 0xA156940
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SecT113FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B12EB170
-        public void get_IsZero(){} // RVA: 0x7B12EB1E0
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B12EB270
-        public void get_FieldName(){} // RVA: 0x7B12EB390
-        public void get_FieldSize(){} // RVA: 0x7A9EDBB50
-        public void Add(){} // RVA: 0x7B12EB3D0
-        public void AddOne(){} // RVA: 0x7B12EB580
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B12EB6A0
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B12EB800
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B12EBA80
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B12EBB80
-        public void SquarePow(){} // RVA: 0x7B12EBE60
-        public void HalfTrace(){} // RVA: 0x7B12EBF60
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B12EC040
-        public void Invert(){} // RVA: 0x7B12EC070
-        public void Sqrt(){} // RVA: 0x7B12EC150
-        public void get_Representation(){} // RVA: 0x7A81DDCC0
-        public void get_M(){} // RVA: 0x7A9EDBB50
-        public void get_K1(){} // RVA: 0x7A94EBBC0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7B12EC410
-        public void GetHashCode(){} // RVA: 0x7B12EC480
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA156AE0
+        public void get_IsZero(){} // RVA: 0xA156B50
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA156BE0
+        public void get_FieldName(){} // RVA: 0xA156D00
+        public void get_FieldSize(){} // RVA: 0x2950660
+        public void Add(){} // RVA: 0xA156D40
+        public void AddOne(){} // RVA: 0xA156EF0
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA157010
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA157170
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA1573F0
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA1574F0
+        public void SquarePow(){} // RVA: 0xA1577D0
+        public void HalfTrace(){} // RVA: 0xA1578D0
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA1579B0
+        public void Invert(){} // RVA: 0xA1579E0
+        public void Sqrt(){} // RVA: 0xA157AC0
+        public void get_Representation(){} // RVA: 0xC50A80
+        public void get_M(){} // RVA: 0x2950660
+        public void get_K1(){} // RVA: 0x2006E40
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0xA157D80
+        public void GetHashCode(){} // RVA: 0xA157DF0
     }
 
     public class SecT113R1Curve : AbstractF2mCurve
     {
+        public object SECT113R1_DEFAULT_COORDS;
+        public object SECT113R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12EC530
-        public void CloneCurve(){} // RVA: 0x7B12ECA10
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7A9EDBB50
-        public void FromBigInteger(){} // RVA: 0x7B12ECA70
-        public void CreateRawPoint(){} // RVA: 0x7B12ECBC0
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7A9EDBB50
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7A94EBBC0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12ECC60
+        public void .ctor(){} // RVA: 0xA157EA0
+        public void CloneCurve(){} // RVA: 0xA158380
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0x2950660
+        public void FromBigInteger(){} // RVA: 0xA1583E0
+        public void CreateRawPoint(){} // RVA: 0xA158530
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0x2950660
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0x2006E40
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA1585D0
     }
 
     public class SecT113R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12ED360
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12ED610
-        public void Twice(){} // RVA: 0x7B12EE000
-        public void TwicePlus(){} // RVA: 0x7B12EE4C0
-        public void Negate(){} // RVA: 0x7B12EEBC0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA158CD0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA158F80
+        public void Twice(){} // RVA: 0xA159970
+        public void TwicePlus(){} // RVA: 0xA159E30
+        public void Negate(){} // RVA: 0xA15A530
     }
 
     public class SecT113R2Curve : AbstractF2mCurve
     {
+        public object SECT113R2_DEFAULT_COORDS;
+        public object SECT113R2_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12EED70
-        public void CloneCurve(){} // RVA: 0x7B12EF250
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7A9EDBB50
-        public void FromBigInteger(){} // RVA: 0x7B12EF2A0
-        public void CreateRawPoint(){} // RVA: 0x7B12EF3F0
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7A9EDBB50
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7A94EBBC0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12EF490
+        public void .ctor(){} // RVA: 0xA15A6E0
+        public void CloneCurve(){} // RVA: 0xA15ABC0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0x2950660
+        public void FromBigInteger(){} // RVA: 0xA15AC10
+        public void CreateRawPoint(){} // RVA: 0xA15AD60
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0x2950660
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0x2006E40
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA15AE00
     }
 
     public class SecT113R2Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12EFB90
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12EFCA0
-        public void Twice(){} // RVA: 0x7B12F0690
-        public void TwicePlus(){} // RVA: 0x7B12F0B50
-        public void Negate(){} // RVA: 0x7B12F1250
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA15B500
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA15B610
+        public void Twice(){} // RVA: 0xA15C000
+        public void TwicePlus(){} // RVA: 0xA15C4C0
+        public void Negate(){} // RVA: 0xA15CBC0
     }
 
     public class SecT131Field : Object
     {
+        public object M03;
+        public object M44;
+        public object ROOT_Z;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12F1400
-        public void AddExt(){} // RVA: 0x7B12F1490
-        public void AddOne(){} // RVA: 0x7B12F1570
-        public void AddTo(){} // RVA: 0x7B12F15D0
-        public void FromBigInteger(){} // RVA: 0x7B12F1640
-        public void HalfTrace(){} // RVA: 0x7B12F1650
-        public void Invert(){} // RVA: 0x7B12F18E0
-        public void Multiply(){} // RVA: 0x7B12F1B50
-        public void MultiplyAddToExt(){} // RVA: 0x7B12F1C10
-        public void Reduce(){} // RVA: 0x7B12F1D40
-        public void Reduce61(){} // RVA: 0x7B12F1E80
-        public void Sqrt(){} // RVA: 0x7B12F1F10
-        public void Square(){} // RVA: 0x7B12F2090
-        public void SquareAddToExt(){} // RVA: 0x7B12F21C0
-        public void SquareN(){} // RVA: 0x7B12F2360
-        public void Trace(){} // RVA: 0x7B12F2570
-        public void ImplCompactExt(){} // RVA: 0x7B12F25C0
-        public void ImplMultiply(){} // RVA: 0x7B12F26B0
-        public void ImplMulw(){} // RVA: 0x7B12F2CB0
-        public void ImplSquare(){} // RVA: 0x7B12F2F10
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12F2FB0
+        public void Add(){} // RVA: 0xA15CD70
+        public void AddExt(){} // RVA: 0xA15CE00
+        public void AddOne(){} // RVA: 0xA15CEE0
+        public void AddTo(){} // RVA: 0xA15CF40
+        public void FromBigInteger(){} // RVA: 0xA15CFB0
+        public void HalfTrace(){} // RVA: 0xA15CFC0
+        public void Invert(){} // RVA: 0xA15D250
+        public void Multiply(){} // RVA: 0xA15D4C0
+        public void MultiplyAddToExt(){} // RVA: 0xA15D580
+        public void Reduce(){} // RVA: 0xA15D6B0
+        public void Reduce61(){} // RVA: 0xA15D7F0
+        public void Sqrt(){} // RVA: 0xA15D880
+        public void Square(){} // RVA: 0xA15DA00
+        public void SquareAddToExt(){} // RVA: 0xA15DB30
+        public void SquareN(){} // RVA: 0xA15DCD0
+        public void Trace(){} // RVA: 0xA15DEE0
+        public void ImplCompactExt(){} // RVA: 0xA15DF30
+        public void ImplMultiply(){} // RVA: 0xA15E020
+        public void ImplMulw(){} // RVA: 0xA15E620
+        public void ImplSquare(){} // RVA: 0xA15E880
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA15E920
     }
 
     public class SecT131FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B12F3210
-        public void get_IsZero(){} // RVA: 0x7B12F3280
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B12F32E0
-        public void get_FieldName(){} // RVA: 0x7B12F32F0
-        public void get_FieldSize(){} // RVA: 0x7B12F3330
-        public void Add(){} // RVA: 0x7B12F3340
-        public void AddOne(){} // RVA: 0x7B12F3540
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B12F36B0
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B12F3820
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B12F3A80
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B12F3B80
-        public void SquarePow(){} // RVA: 0x7B12F3D90
-        public void HalfTrace(){} // RVA: 0x7B12F3EC0
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B12F3FC0
-        public void Invert(){} // RVA: 0x7B12F4050
-        public void Sqrt(){} // RVA: 0x7B12F4150
-        public void get_Representation(){} // RVA: 0x7A87EE0F0
-        public void get_M(){} // RVA: 0x7B12F3330
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A87EE0F0
-        public void get_K3(){} // RVA: 0x7A88217C0
-        public void Equals(){} // RVA: 0x7B12F4500
-        public void GetHashCode(){} // RVA: 0x7B12F4570
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA15EB80
+        public void get_IsZero(){} // RVA: 0xA15EBF0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA15EC50
+        public void get_FieldName(){} // RVA: 0xA15EC60
+        public void get_FieldSize(){} // RVA: 0xA15ECA0
+        public void Add(){} // RVA: 0xA15ECB0
+        public void AddOne(){} // RVA: 0xA15EEB0
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA15F020
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA15F190
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA15F3F0
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA15F4F0
+        public void SquarePow(){} // RVA: 0xA15F700
+        public void HalfTrace(){} // RVA: 0xA15F830
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA15F930
+        public void Invert(){} // RVA: 0xA15F9C0
+        public void Sqrt(){} // RVA: 0xA15FAC0
+        public void get_Representation(){} // RVA: 0x12FC4A0
+        public void get_M(){} // RVA: 0xA15ECA0
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0x12FC4A0
+        public void get_K3(){} // RVA: 0x17FCE50
+        public void Equals(){} // RVA: 0xA15FE70
+        public void GetHashCode(){} // RVA: 0xA15FEE0
     }
 
     public class SecT131R1Curve : AbstractF2mCurve
     {
+        public object SECT131R1_DEFAULT_COORDS;
+        public object SECT131R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12F4620
-        public void CloneCurve(){} // RVA: 0x7B12F4B30
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B12F3330
-        public void FromBigInteger(){} // RVA: 0x7B12F4B80
-        public void CreateRawPoint(){} // RVA: 0x7B12F4CD0
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B12F3330
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A87EE0F0
-        public void get_K3(){} // RVA: 0x7A88217C0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12F4D70
+        public void .ctor(){} // RVA: 0xA15FF90
+        public void CloneCurve(){} // RVA: 0xA1604A0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA15ECA0
+        public void FromBigInteger(){} // RVA: 0xA1604F0
+        public void CreateRawPoint(){} // RVA: 0xA160640
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA15ECA0
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0x12FC4A0
+        public void get_K3(){} // RVA: 0x17FCE50
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA1606E0
     }
 
     public class SecT131R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12F54C0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12F55D0
-        public void Twice(){} // RVA: 0x7B12F5FC0
-        public void TwicePlus(){} // RVA: 0x7B12F6480
-        public void Negate(){} // RVA: 0x7B12F6B80
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA160E30
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA160F40
+        public void Twice(){} // RVA: 0xA161930
+        public void TwicePlus(){} // RVA: 0xA161DF0
+        public void Negate(){} // RVA: 0xA1624F0
     }
 
     public class SecT131R2Curve : AbstractF2mCurve
     {
+        public object SECT131R2_DEFAULT_COORDS;
+        public object SECT131R2_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12F6D30
-        public void CloneCurve(){} // RVA: 0x7B12F7240
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_FieldSize(){} // RVA: 0x7B12F3330
-        public void FromBigInteger(){} // RVA: 0x7B12F7290
-        public void CreateRawPoint(){} // RVA: 0x7B12F73E0
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B12F3330
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A87EE0F0
-        public void get_K3(){} // RVA: 0x7A88217C0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12F7480
+        public void .ctor(){} // RVA: 0xA1626A0
+        public void CloneCurve(){} // RVA: 0xA162BB0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_FieldSize(){} // RVA: 0xA15ECA0
+        public void FromBigInteger(){} // RVA: 0xA162C00
+        public void CreateRawPoint(){} // RVA: 0xA162D50
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA15ECA0
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0x12FC4A0
+        public void get_K3(){} // RVA: 0x17FCE50
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA162DF0
     }
 
     public class SecT131R2Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12F7BD0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12F7CE0
-        public void Twice(){} // RVA: 0x7B12F86D0
-        public void TwicePlus(){} // RVA: 0x7B12F8B90
-        public void Negate(){} // RVA: 0x7B12F9290
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA163540
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA163650
+        public void Twice(){} // RVA: 0xA164040
+        public void TwicePlus(){} // RVA: 0xA164500
+        public void Negate(){} // RVA: 0xA164C00
     }
 
     public class SecT163Field : Object
     {
+        public object M35;
+        public object M55;
+        public object ROOT_Z;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12F1400
-        public void AddExt(){} // RVA: 0x7B12F9440
-        public void AddOne(){} // RVA: 0x7B12F1570
-        public void AddTo(){} // RVA: 0x7B12F15D0
-        public void FromBigInteger(){} // RVA: 0x7B12F9550
-        public void HalfTrace(){} // RVA: 0x7B12F9560
-        public void Invert(){} // RVA: 0x7B12F97A0
-        public void Multiply(){} // RVA: 0x7B12F9A40
-        public void MultiplyAddToExt(){} // RVA: 0x7B12F9B00
-        public void Reduce(){} // RVA: 0x7B12F9BC0
-        public void Reduce29(){} // RVA: 0x7B12F9D50
-        public void Sqrt(){} // RVA: 0x7B12F9DD0
-        public void Square(){} // RVA: 0x7B12F9F50
-        public void SquareAddToExt(){} // RVA: 0x7B12FA050
-        public void SquareN(){} // RVA: 0x7B12FA150
-        public void Trace(){} // RVA: 0x7B12FA2F0
-        public void ImplCompactExt(){} // RVA: 0x7B12FA330
-        public void ImplMultiply(){} // RVA: 0x7B12FA420
-        public void ImplMulw(){} // RVA: 0x7B12FAA20
-        public void ImplSquare(){} // RVA: 0x7B12FAC20
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B12FACA0
+        public void Add(){} // RVA: 0xA15CD70
+        public void AddExt(){} // RVA: 0xA164DB0
+        public void AddOne(){} // RVA: 0xA15CEE0
+        public void AddTo(){} // RVA: 0xA15CF40
+        public void FromBigInteger(){} // RVA: 0xA164EC0
+        public void HalfTrace(){} // RVA: 0xA164ED0
+        public void Invert(){} // RVA: 0xA165110
+        public void Multiply(){} // RVA: 0xA1653B0
+        public void MultiplyAddToExt(){} // RVA: 0xA165470
+        public void Reduce(){} // RVA: 0xA165530
+        public void Reduce29(){} // RVA: 0xA1656C0
+        public void Sqrt(){} // RVA: 0xA165740
+        public void Square(){} // RVA: 0xA1658C0
+        public void SquareAddToExt(){} // RVA: 0xA1659C0
+        public void SquareN(){} // RVA: 0xA165AC0
+        public void Trace(){} // RVA: 0xA165C60
+        public void ImplCompactExt(){} // RVA: 0xA165CA0
+        public void ImplMultiply(){} // RVA: 0xA165D90
+        public void ImplMulw(){} // RVA: 0xA166390
+        public void ImplSquare(){} // RVA: 0xA166590
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA166610
     }
 
     public class SecT163FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B12F3210
-        public void get_IsZero(){} // RVA: 0x7B12F3280
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B12F32E0
-        public void get_FieldName(){} // RVA: 0x7B12FAE70
-        public void get_FieldSize(){} // RVA: 0x7A9EDC1B0
-        public void Add(){} // RVA: 0x7B12FAEB0
-        public void AddOne(){} // RVA: 0x7B12FB0B0
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B12FB220
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B12FB390
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B12FB5F0
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B12FB6F0
-        public void SquarePow(){} // RVA: 0x7B12FB9E0
-        public void HalfTrace(){} // RVA: 0x7B12FBB10
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B12FBC10
-        public void Invert(){} // RVA: 0x7B12FBC90
-        public void Sqrt(){} // RVA: 0x7B12FBD90
-        public void get_Representation(){} // RVA: 0x7A87EE0F0
-        public void get_M(){} // RVA: 0x7A9EDC1B0
-        public void get_K1(){} // RVA: 0x7A87EE0F0
-        public void get_K2(){} // RVA: 0x7A8842E60
-        public void get_K3(){} // RVA: 0x7A88258F0
-        public void Equals(){} // RVA: 0x7B12F4500
-        public void GetHashCode(){} // RVA: 0x7B12FC140
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA15EB80
+        public void get_IsZero(){} // RVA: 0xA15EBF0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA15EC50
+        public void get_FieldName(){} // RVA: 0xA1667E0
+        public void get_FieldSize(){} // RVA: 0x2950B90
+        public void Add(){} // RVA: 0xA166820
+        public void AddOne(){} // RVA: 0xA166A20
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA166B90
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA166D00
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA166F60
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA167060
+        public void SquarePow(){} // RVA: 0xA167350
+        public void HalfTrace(){} // RVA: 0xA167480
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA167580
+        public void Invert(){} // RVA: 0xA167600
+        public void Sqrt(){} // RVA: 0xA167700
+        public void get_Representation(){} // RVA: 0x12FC4A0
+        public void get_M(){} // RVA: 0x2950B90
+        public void get_K1(){} // RVA: 0x12FC4A0
+        public void get_K2(){} // RVA: 0x13510C0
+        public void get_K3(){} // RVA: 0x132D270
+        public void Equals(){} // RVA: 0xA15FE70
+        public void GetHashCode(){} // RVA: 0xA167AB0
     }
 
     public class SecT163K1Curve : AbstractF2mCurve
     {
+        public object SECT163K1_DEFAULT_COORDS;
+        public object SECT163K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12FC1F0
-        public void CloneCurve(){} // RVA: 0x7B12FC650
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B12FC6A0
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7A9EDC1B0
-        public void FromBigInteger(){} // RVA: 0x7B12FC6E0
-        public void CreateRawPoint(){} // RVA: 0x7B12FC830
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7A9EDC1B0
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A87EE0F0
-        public void get_K2(){} // RVA: 0x7A8842E60
-        public void get_K3(){} // RVA: 0x7A88258F0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12FC8D0
+        public void .ctor(){} // RVA: 0xA167B60
+        public void CloneCurve(){} // RVA: 0xA167FC0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA168010
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0x2950B90
+        public void FromBigInteger(){} // RVA: 0xA168050
+        public void CreateRawPoint(){} // RVA: 0xA1681A0
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0x2950B90
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0x12FC4A0
+        public void get_K2(){} // RVA: 0x13510C0
+        public void get_K3(){} // RVA: 0x132D270
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA168240
     }
 
     public class SecT163K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12FD020
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12FD130
-        public void Twice(){} // RVA: 0x7B12FDAC0
-        public void TwicePlus(){} // RVA: 0x7B12FDF40
-        public void Negate(){} // RVA: 0x7B12FE5B0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA168990
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA168AA0
+        public void Twice(){} // RVA: 0xA169430
+        public void TwicePlus(){} // RVA: 0xA1698B0
+        public void Negate(){} // RVA: 0xA169F20
     }
 
     public class SecT163R1Curve : AbstractF2mCurve
     {
+        public object SECT163R1_DEFAULT_COORDS;
+        public object SECT163R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12FE760
-        public void CloneCurve(){} // RVA: 0x7B12FEC70
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7A9EDC1B0
-        public void FromBigInteger(){} // RVA: 0x7B12FECC0
-        public void CreateRawPoint(){} // RVA: 0x7B12FEE10
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7A9EDC1B0
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A87EE0F0
-        public void get_K2(){} // RVA: 0x7A8842E60
-        public void get_K3(){} // RVA: 0x7A88258F0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B12FEEB0
+        public void .ctor(){} // RVA: 0xA16A0D0
+        public void CloneCurve(){} // RVA: 0xA16A5E0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0x2950B90
+        public void FromBigInteger(){} // RVA: 0xA16A630
+        public void CreateRawPoint(){} // RVA: 0xA16A780
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0x2950B90
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0x12FC4A0
+        public void get_K2(){} // RVA: 0x13510C0
+        public void get_K3(){} // RVA: 0x132D270
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA16A820
     }
 
     public class SecT163R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B12FF600
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B12FF710
-        public void Twice(){} // RVA: 0x7B1300100
-        public void TwicePlus(){} // RVA: 0x7B13005C0
-        public void Negate(){} // RVA: 0x7B1300CC0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA16AF70
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA16B080
+        public void Twice(){} // RVA: 0xA16BA70
+        public void TwicePlus(){} // RVA: 0xA16BF30
+        public void Negate(){} // RVA: 0xA16C630
     }
 
     public class SecT163R2Curve : AbstractF2mCurve
     {
+        public object SECT163R2_DEFAULT_COORDS;
+        public object SECT163R2_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1300E70
-        public void CloneCurve(){} // RVA: 0x7B1301320
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7A9EDC1B0
-        public void FromBigInteger(){} // RVA: 0x7B1301370
-        public void CreateRawPoint(){} // RVA: 0x7B13014C0
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7A9EDC1B0
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A87EE0F0
-        public void get_K2(){} // RVA: 0x7A8842E60
-        public void get_K3(){} // RVA: 0x7A88258F0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B1301560
+        public void .ctor(){} // RVA: 0xA16C7E0
+        public void CloneCurve(){} // RVA: 0xA16CC90
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0x2950B90
+        public void FromBigInteger(){} // RVA: 0xA16CCE0
+        public void CreateRawPoint(){} // RVA: 0xA16CE30
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0x2950B90
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0x12FC4A0
+        public void get_K2(){} // RVA: 0x13510C0
+        public void get_K3(){} // RVA: 0x132D270
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA16CED0
     }
 
     public class SecT163R2Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1301CB0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1301DC0
-        public void Twice(){} // RVA: 0x7B1302790
-        public void TwicePlus(){} // RVA: 0x7B1302C00
-        public void Negate(){} // RVA: 0x7B1303290
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA16D620
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA16D730
+        public void Twice(){} // RVA: 0xA16E100
+        public void TwicePlus(){} // RVA: 0xA16E570
+        public void Negate(){} // RVA: 0xA16EC00
     }
 
     public class SecT193Field : Object
     {
+        public object M01;
+        public object M49;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12E9DD0
-        public void AddExt(){} // RVA: 0x7B1303440
-        public void AddOne(){} // RVA: 0x7B1303580
-        public void AddTo(){} // RVA: 0x7B1303600
-        public void FromBigInteger(){} // RVA: 0x7B1303680
-        public void HalfTrace(){} // RVA: 0x7B1303690
-        public void Invert(){} // RVA: 0x7B1303900
-        public void Multiply(){} // RVA: 0x7B1303B50
-        public void MultiplyAddToExt(){} // RVA: 0x7B1303BE0
-        public void Reduce(){} // RVA: 0x7B1303C70
-        public void Reduce63(){} // RVA: 0x7B1303DD0
-        public void Sqrt(){} // RVA: 0x7B1303E50
-        public void Square(){} // RVA: 0x7B1303FA0
-        public void SquareAddToExt(){} // RVA: 0x7B1304090
-        public void SquareN(){} // RVA: 0x7B1304180
-        public void Trace(){} // RVA: 0x7B12EAB60
-        public void ImplCompactExt(){} // RVA: 0x7B1304320
-        public void ImplExpand(){} // RVA: 0x7B1304480
-        public void ImplMultiply(){} // RVA: 0x7B1304540
-        public void ImplMulwAcc(){} // RVA: 0x7B1304B70
-        public void ImplSquare(){} // RVA: 0x7B1304DE0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Add(){} // RVA: 0xA155740
+        public void AddExt(){} // RVA: 0xA16EDB0
+        public void AddOne(){} // RVA: 0xA16EEF0
+        public void AddTo(){} // RVA: 0xA16EF70
+        public void FromBigInteger(){} // RVA: 0xA16EFF0
+        public void HalfTrace(){} // RVA: 0xA16F000
+        public void Invert(){} // RVA: 0xA16F270
+        public void Multiply(){} // RVA: 0xA16F4C0
+        public void MultiplyAddToExt(){} // RVA: 0xA16F550
+        public void Reduce(){} // RVA: 0xA16F5E0
+        public void Reduce63(){} // RVA: 0xA16F740
+        public void Sqrt(){} // RVA: 0xA16F7C0
+        public void Square(){} // RVA: 0xA16F910
+        public void SquareAddToExt(){} // RVA: 0xA16FA00
+        public void SquareN(){} // RVA: 0xA16FAF0
+        public void Trace(){} // RVA: 0xA1564D0
+        public void ImplCompactExt(){} // RVA: 0xA16FC90
+        public void ImplExpand(){} // RVA: 0xA16FDF0
+        public void ImplMultiply(){} // RVA: 0xA16FEB0
+        public void ImplMulwAcc(){} // RVA: 0xA1704E0
+        public void ImplSquare(){} // RVA: 0xA170750
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SecT193FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B1304FC0
-        public void get_IsZero(){} // RVA: 0x7B1305030
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B1305090
-        public void get_FieldName(){} // RVA: 0x7B13050A0
-        public void get_FieldSize(){} // RVA: 0x7B13050E0
-        public void Add(){} // RVA: 0x7B13050F0
-        public void AddOne(){} // RVA: 0x7B13052F0
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B1305450
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B1305590
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B13057C0
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B13058A0
-        public void SquarePow(){} // RVA: 0x7B1305B50
-        public void HalfTrace(){} // RVA: 0x7B1305C50
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B12EC040
-        public void Invert(){} // RVA: 0x7B1305D30
-        public void Sqrt(){} // RVA: 0x7B1305E10
-        public void get_Representation(){} // RVA: 0x7A81DDCC0
-        public void get_M(){} // RVA: 0x7B13050E0
-        public void get_K1(){} // RVA: 0x7A9165BB0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7B1306160
-        public void GetHashCode(){} // RVA: 0x7B13061D0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA170930
+        public void get_IsZero(){} // RVA: 0xA1709A0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA170A00
+        public void get_FieldName(){} // RVA: 0xA170A10
+        public void get_FieldSize(){} // RVA: 0xA170A50
+        public void Add(){} // RVA: 0xA170A60
+        public void AddOne(){} // RVA: 0xA170C60
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA170DC0
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA170F00
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA171130
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA171210
+        public void SquarePow(){} // RVA: 0xA1714C0
+        public void HalfTrace(){} // RVA: 0xA1715C0
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA1579B0
+        public void Invert(){} // RVA: 0xA1716A0
+        public void Sqrt(){} // RVA: 0xA171780
+        public void get_Representation(){} // RVA: 0xC50A80
+        public void get_M(){} // RVA: 0xA170A50
+        public void get_K1(){} // RVA: 0x1C8BCF0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0xA171AD0
+        public void GetHashCode(){} // RVA: 0xA171B40
     }
 
     public class SecT193R1Curve : AbstractF2mCurve
     {
+        public object SECT193R1_DEFAULT_COORDS;
+        public object SECT193R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1306280
-        public void CloneCurve(){} // RVA: 0x7B1306760
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B13050E0
-        public void FromBigInteger(){} // RVA: 0x7B13067B0
-        public void CreateRawPoint(){} // RVA: 0x7B1306900
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B13050E0
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7A9165BB0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B13069A0
+        public void .ctor(){} // RVA: 0xA171BF0
+        public void CloneCurve(){} // RVA: 0xA1720D0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA170A50
+        public void FromBigInteger(){} // RVA: 0xA172120
+        public void CreateRawPoint(){} // RVA: 0xA172270
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA170A50
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0x1C8BCF0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA172310
     }
 
     public class SecT193R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1307130
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1307240
-        public void Twice(){} // RVA: 0x7B1307C30
-        public void TwicePlus(){} // RVA: 0x7B13080F0
-        public void Negate(){} // RVA: 0x7B13087F0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA172AA0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA172BB0
+        public void Twice(){} // RVA: 0xA1735A0
+        public void TwicePlus(){} // RVA: 0xA173A60
+        public void Negate(){} // RVA: 0xA174160
     }
 
     public class SecT193R2Curve : AbstractF2mCurve
     {
+        public object SECT193R2_DEFAULT_COORDS;
+        public object SECT193R2_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13089A0
-        public void CloneCurve(){} // RVA: 0x7B1308E80
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B13050E0
-        public void FromBigInteger(){} // RVA: 0x7B1308ED0
-        public void CreateRawPoint(){} // RVA: 0x7B1309020
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B13050E0
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7A9165BB0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B13090C0
+        public void .ctor(){} // RVA: 0xA174310
+        public void CloneCurve(){} // RVA: 0xA1747F0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA170A50
+        public void FromBigInteger(){} // RVA: 0xA174840
+        public void CreateRawPoint(){} // RVA: 0xA174990
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA170A50
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0x1C8BCF0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA174A30
     }
 
     public class SecT193R2Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1309850
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1309960
-        public void Twice(){} // RVA: 0x7B130A350
-        public void TwicePlus(){} // RVA: 0x7B130A810
-        public void Negate(){} // RVA: 0x7B130AF10
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA1751C0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA1752D0
+        public void Twice(){} // RVA: 0xA175CC0
+        public void TwicePlus(){} // RVA: 0xA176180
+        public void Negate(){} // RVA: 0xA176880
     }
 
     public class SecT233Field : Object
     {
+        public object M41;
+        public object M59;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12E9DD0
-        public void AddExt(){} // RVA: 0x7B130B0C0
-        public void AddOne(){} // RVA: 0x7B1303580
-        public void AddTo(){} // RVA: 0x7B1303600
-        public void FromBigInteger(){} // RVA: 0x7B130B220
-        public void HalfTrace(){} // RVA: 0x7B130B230
-        public void Invert(){} // RVA: 0x7B130B4A0
-        public void Multiply(){} // RVA: 0x7B130B720
-        public void MultiplyAddToExt(){} // RVA: 0x7B130B7B0
-        public void Reduce(){} // RVA: 0x7B130B840
-        public void Reduce23(){} // RVA: 0x7B130B9E0
-        public void Sqrt(){} // RVA: 0x7B130BA60
-        public void Square(){} // RVA: 0x7B130BD20
-        public void SquareAddToExt(){} // RVA: 0x7B130BE10
-        public void SquareN(){} // RVA: 0x7B130BF00
-        public void Trace(){} // RVA: 0x7B130C0B0
-        public void ImplCompactExt(){} // RVA: 0x7B130C0F0
-        public void ImplExpand(){} // RVA: 0x7B130C240
-        public void ImplMultiply(){} // RVA: 0x7B130C300
-        public void ImplMulwAcc(){} // RVA: 0x7B130C930
-        public void ImplSquare(){} // RVA: 0x7B130CB20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Add(){} // RVA: 0xA155740
+        public void AddExt(){} // RVA: 0xA176A30
+        public void AddOne(){} // RVA: 0xA16EEF0
+        public void AddTo(){} // RVA: 0xA16EF70
+        public void FromBigInteger(){} // RVA: 0xA176B90
+        public void HalfTrace(){} // RVA: 0xA176BA0
+        public void Invert(){} // RVA: 0xA176E10
+        public void Multiply(){} // RVA: 0xA177090
+        public void MultiplyAddToExt(){} // RVA: 0xA177120
+        public void Reduce(){} // RVA: 0xA1771B0
+        public void Reduce23(){} // RVA: 0xA177350
+        public void Sqrt(){} // RVA: 0xA1773D0
+        public void Square(){} // RVA: 0xA177690
+        public void SquareAddToExt(){} // RVA: 0xA177780
+        public void SquareN(){} // RVA: 0xA177870
+        public void Trace(){} // RVA: 0xA177A20
+        public void ImplCompactExt(){} // RVA: 0xA177A60
+        public void ImplExpand(){} // RVA: 0xA177BB0
+        public void ImplMultiply(){} // RVA: 0xA177C70
+        public void ImplMulwAcc(){} // RVA: 0xA1782A0
+        public void ImplSquare(){} // RVA: 0xA178490
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SecT233FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B1304FC0
-        public void get_IsZero(){} // RVA: 0x7B1305030
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B1305090
-        public void get_FieldName(){} // RVA: 0x7B130CC70
-        public void get_FieldSize(){} // RVA: 0x7B130CCB0
-        public void Add(){} // RVA: 0x7B130CCC0
-        public void AddOne(){} // RVA: 0x7B130CEC0
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B130D020
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B130D160
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B130D390
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B130D470
-        public void SquarePow(){} // RVA: 0x7B130D720
-        public void HalfTrace(){} // RVA: 0x7B130D820
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B130D900
-        public void Invert(){} // RVA: 0x7B130D940
-        public void Sqrt(){} // RVA: 0x7B130DA20
-        public void get_Representation(){} // RVA: 0x7A81DDCC0
-        public void get_M(){} // RVA: 0x7B130CCB0
-        public void get_K1(){} // RVA: 0x7B130DB00
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7B1306160
-        public void GetHashCode(){} // RVA: 0x7B130DC50
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA170930
+        public void get_IsZero(){} // RVA: 0xA1709A0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA170A00
+        public void get_FieldName(){} // RVA: 0xA1785E0
+        public void get_FieldSize(){} // RVA: 0xA178620
+        public void Add(){} // RVA: 0xA178630
+        public void AddOne(){} // RVA: 0xA178830
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA178990
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA178AD0
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA178D00
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA178DE0
+        public void SquarePow(){} // RVA: 0xA179090
+        public void HalfTrace(){} // RVA: 0xA179190
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA179270
+        public void Invert(){} // RVA: 0xA1792B0
+        public void Sqrt(){} // RVA: 0xA179390
+        public void get_Representation(){} // RVA: 0xC50A80
+        public void get_M(){} // RVA: 0xA178620
+        public void get_K1(){} // RVA: 0xA179470
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0xA171AD0
+        public void GetHashCode(){} // RVA: 0xA1795C0
     }
 
     public class SecT233K1Curve : AbstractF2mCurve
     {
+        public object SECT233K1_DEFAULT_COORDS;
+        public object SECT233K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B130DD00
-        public void CloneCurve(){} // RVA: 0x7B130E140
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B130E190
-        public void get_FieldSize(){} // RVA: 0x7B130CCB0
-        public void FromBigInteger(){} // RVA: 0x7B130E1D0
-        public void CreateRawPoint(){} // RVA: 0x7B130E320
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7B130CCB0
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7B130DB00
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B130E3C0
+        public void .ctor(){} // RVA: 0xA179670
+        public void CloneCurve(){} // RVA: 0xA179AB0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA179B00
+        public void get_FieldSize(){} // RVA: 0xA178620
+        public void FromBigInteger(){} // RVA: 0xA179B40
+        public void CreateRawPoint(){} // RVA: 0xA179C90
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0xA178620
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0xA179470
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA179D30
     }
 
     public class SecT233K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B130EB50
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B130EC60
-        public void Twice(){} // RVA: 0x7B130F5D0
-        public void TwicePlus(){} // RVA: 0x7B130FAC0
-        public void Negate(){} // RVA: 0x7B1310100
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA17A4C0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA17A5D0
+        public void Twice(){} // RVA: 0xA17AF40
+        public void TwicePlus(){} // RVA: 0xA17B430
+        public void Negate(){} // RVA: 0xA17BA70
     }
 
     public class SecT233R1Curve : AbstractF2mCurve
     {
+        public object SECT233R1_DEFAULT_COORDS;
+        public object SECT233R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13102B0
-        public void CloneCurve(){} // RVA: 0x7B1310740
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B130CCB0
-        public void FromBigInteger(){} // RVA: 0x7B1310790
-        public void CreateRawPoint(){} // RVA: 0x7B13108E0
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B130CCB0
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7B130DB00
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B1310980
+        public void .ctor(){} // RVA: 0xA17BC20
+        public void CloneCurve(){} // RVA: 0xA17C0B0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA178620
+        public void FromBigInteger(){} // RVA: 0xA17C100
+        public void CreateRawPoint(){} // RVA: 0xA17C250
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA178620
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0xA179470
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA17C2F0
     }
 
     public class SecT233R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1311110
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1311220
-        public void Twice(){} // RVA: 0x7B1311BF0
-        public void TwicePlus(){} // RVA: 0x7B1312060
-        public void Negate(){} // RVA: 0x7B13126F0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA17CA80
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA17CB90
+        public void Twice(){} // RVA: 0xA17D560
+        public void TwicePlus(){} // RVA: 0xA17D9D0
+        public void Negate(){} // RVA: 0xA17E060
     }
 
     public class SecT239Field : Object
     {
+        public object M47;
+        public object M60;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12E9DD0
-        public void AddExt(){} // RVA: 0x7B130B0C0
-        public void AddOne(){} // RVA: 0x7B1303580
-        public void AddTo(){} // RVA: 0x7B1303600
-        public void FromBigInteger(){} // RVA: 0x7B13128A0
-        public void HalfTrace(){} // RVA: 0x7B13128B0
-        public void Invert(){} // RVA: 0x7B1312B20
-        public void Multiply(){} // RVA: 0x7B1312DE0
-        public void MultiplyAddToExt(){} // RVA: 0x7B1312E70
-        public void Reduce(){} // RVA: 0x7B1312F00
-        public void Reduce17(){} // RVA: 0x7B13130A0
-        public void Sqrt(){} // RVA: 0x7B1313120
-        public void Square(){} // RVA: 0x7B1313410
-        public void SquareAddToExt(){} // RVA: 0x7B130BE10
-        public void SquareN(){} // RVA: 0x7B1313500
-        public void Trace(){} // RVA: 0x7B13136B0
-        public void ImplCompactExt(){} // RVA: 0x7B1313700
-        public void ImplExpand(){} // RVA: 0x7B1313850
-        public void ImplMultiply(){} // RVA: 0x7B1313910
-        public void ImplMulwAcc(){} // RVA: 0x7B1313F40
-        public void ImplSquare(){} // RVA: 0x7B130CB20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Add(){} // RVA: 0xA155740
+        public void AddExt(){} // RVA: 0xA176A30
+        public void AddOne(){} // RVA: 0xA16EEF0
+        public void AddTo(){} // RVA: 0xA16EF70
+        public void FromBigInteger(){} // RVA: 0xA17E210
+        public void HalfTrace(){} // RVA: 0xA17E220
+        public void Invert(){} // RVA: 0xA17E490
+        public void Multiply(){} // RVA: 0xA17E750
+        public void MultiplyAddToExt(){} // RVA: 0xA17E7E0
+        public void Reduce(){} // RVA: 0xA17E870
+        public void Reduce17(){} // RVA: 0xA17EA10
+        public void Sqrt(){} // RVA: 0xA17EA90
+        public void Square(){} // RVA: 0xA17ED80
+        public void SquareAddToExt(){} // RVA: 0xA177780
+        public void SquareN(){} // RVA: 0xA17EE70
+        public void Trace(){} // RVA: 0xA17F020
+        public void ImplCompactExt(){} // RVA: 0xA17F070
+        public void ImplExpand(){} // RVA: 0xA17F1C0
+        public void ImplMultiply(){} // RVA: 0xA17F280
+        public void ImplMulwAcc(){} // RVA: 0xA17F8B0
+        public void ImplSquare(){} // RVA: 0xA178490
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SecT239FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B1304FC0
-        public void get_IsZero(){} // RVA: 0x7B1305030
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B1305090
-        public void get_FieldName(){} // RVA: 0x7B1314220
-        public void get_FieldSize(){} // RVA: 0x7B1314260
-        public void Add(){} // RVA: 0x7B1314270
-        public void AddOne(){} // RVA: 0x7B1314470
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B13145D0
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B1314710
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B1314940
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B1314A20
-        public void SquarePow(){} // RVA: 0x7B1314CD0
-        public void HalfTrace(){} // RVA: 0x7B1314DD0
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B1314EB0
-        public void Invert(){} // RVA: 0x7B1314F00
-        public void Sqrt(){} // RVA: 0x7B1314FE0
-        public void get_Representation(){} // RVA: 0x7A81DDCC0
-        public void get_M(){} // RVA: 0x7B1314260
-        public void get_K1(){} // RVA: 0x7B13150C0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7B1306160
-        public void GetHashCode(){} // RVA: 0x7B1315210
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA170930
+        public void get_IsZero(){} // RVA: 0xA1709A0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA170A00
+        public void get_FieldName(){} // RVA: 0xA17FB90
+        public void get_FieldSize(){} // RVA: 0xA17FBD0
+        public void Add(){} // RVA: 0xA17FBE0
+        public void AddOne(){} // RVA: 0xA17FDE0
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA17FF40
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA180080
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA1802B0
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA180390
+        public void SquarePow(){} // RVA: 0xA180640
+        public void HalfTrace(){} // RVA: 0xA180740
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA180820
+        public void Invert(){} // RVA: 0xA180870
+        public void Sqrt(){} // RVA: 0xA180950
+        public void get_Representation(){} // RVA: 0xC50A80
+        public void get_M(){} // RVA: 0xA17FBD0
+        public void get_K1(){} // RVA: 0xA180A30
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0xA171AD0
+        public void GetHashCode(){} // RVA: 0xA180B80
     }
 
     public class SecT239K1Curve : AbstractF2mCurve
     {
+        public object SECT239K1_DEFAULT_COORDS;
+        public object SECT239K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13152C0
-        public void CloneCurve(){} // RVA: 0x7B1315700
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B1315750
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1314260
-        public void FromBigInteger(){} // RVA: 0x7B1315790
-        public void CreateRawPoint(){} // RVA: 0x7B1315960
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7B1314260
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7B13150C0
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B1315A00
+        public void .ctor(){} // RVA: 0xA180C30
+        public void CloneCurve(){} // RVA: 0xA181070
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA1810C0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA17FBD0
+        public void FromBigInteger(){} // RVA: 0xA181100
+        public void CreateRawPoint(){} // RVA: 0xA1812D0
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0xA17FBD0
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0xA180A30
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA181370
     }
 
     public class SecT239K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1316190
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B13162A0
-        public void Twice(){} // RVA: 0x7B1316C10
-        public void TwicePlus(){} // RVA: 0x7B1317100
-        public void Negate(){} // RVA: 0x7B1317740
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA181B00
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA181C10
+        public void Twice(){} // RVA: 0xA182580
+        public void TwicePlus(){} // RVA: 0xA182A70
+        public void Negate(){} // RVA: 0xA1830B0
     }
 
     public class SecT283Field : Object
     {
+        public object M27;
+        public object M57;
+        public object ROOT_Z;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B12F1490
-        public void AddExt(){} // RVA: 0x7B13178F0
-        public void AddOne(){} // RVA: 0x7B1317A80
-        public void AddTo(){} // RVA: 0x7B1317B10
-        public void FromBigInteger(){} // RVA: 0x7B1317BB0
-        public void HalfTrace(){} // RVA: 0x7B1317BC0
-        public void Invert(){} // RVA: 0x7B1317DD0
-        public void Multiply(){} // RVA: 0x7B13180A0
-        public void MultiplyAddToExt(){} // RVA: 0x7B1318160
-        public void Reduce(){} // RVA: 0x7B1318220
-        public void Reduce37(){} // RVA: 0x7B1318450
-        public void Sqrt(){} // RVA: 0x7B13184D0
-        public void Square(){} // RVA: 0x7B13186C0
-        public void SquareAddToExt(){} // RVA: 0x7B1318770
-        public void SquareN(){} // RVA: 0x7B1318820
-        public void Trace(){} // RVA: 0x7B1318920
-        public void ImplCompactExt(){} // RVA: 0x7B1318960
-        public void ImplExpand(){} // RVA: 0x7B1318B20
-        public void ImplMultiply(){} // RVA: 0x7B1318C20
-        public void ImplMulw(){} // RVA: 0x7B1319320
-        public void ImplSquare(){} // RVA: 0x7B1319550
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1319690
+        public void Add(){} // RVA: 0xA15CE00
+        public void AddExt(){} // RVA: 0xA183260
+        public void AddOne(){} // RVA: 0xA1833F0
+        public void AddTo(){} // RVA: 0xA183480
+        public void FromBigInteger(){} // RVA: 0xA183520
+        public void HalfTrace(){} // RVA: 0xA183530
+        public void Invert(){} // RVA: 0xA183740
+        public void Multiply(){} // RVA: 0xA183A10
+        public void MultiplyAddToExt(){} // RVA: 0xA183AD0
+        public void Reduce(){} // RVA: 0xA183B90
+        public void Reduce37(){} // RVA: 0xA183DC0
+        public void Sqrt(){} // RVA: 0xA183E40
+        public void Square(){} // RVA: 0xA184030
+        public void SquareAddToExt(){} // RVA: 0xA1840E0
+        public void SquareN(){} // RVA: 0xA184190
+        public void Trace(){} // RVA: 0xA184290
+        public void ImplCompactExt(){} // RVA: 0xA1842D0
+        public void ImplExpand(){} // RVA: 0xA184490
+        public void ImplMultiply(){} // RVA: 0xA184590
+        public void ImplMulw(){} // RVA: 0xA184C90
+        public void ImplSquare(){} // RVA: 0xA184EC0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA185000
     }
 
     public class SecT283FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B13198F0
-        public void get_IsZero(){} // RVA: 0x7B1319960
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B13199C0
-        public void get_FieldName(){} // RVA: 0x7B1319AE0
-        public void get_FieldSize(){} // RVA: 0x7B1319B20
-        public void Add(){} // RVA: 0x7B1319B30
-        public void AddOne(){} // RVA: 0x7B1319D80
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B1319F20
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B131A090
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B131A2F0
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B131A3F0
-        public void SquarePow(){} // RVA: 0x7B131A680
-        public void HalfTrace(){} // RVA: 0x7B131A7B0
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B131A8B0
-        public void Invert(){} // RVA: 0x7B131A930
-        public void Sqrt(){} // RVA: 0x7B131AA30
-        public void get_Representation(){} // RVA: 0x7A87EE0F0
-        public void get_M(){} // RVA: 0x7B1319B20
-        public void get_K1(){} // RVA: 0x7A8401A30
-        public void get_K2(){} // RVA: 0x7A88258F0
-        public void get_K3(){} // RVA: 0x7A9F22B10
-        public void Equals(){} // RVA: 0x7B131AC70
-        public void GetHashCode(){} // RVA: 0x7B131ACE0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA185260
+        public void get_IsZero(){} // RVA: 0xA1852D0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA185330
+        public void get_FieldName(){} // RVA: 0xA185450
+        public void get_FieldSize(){} // RVA: 0xA185490
+        public void Add(){} // RVA: 0xA1854A0
+        public void AddOne(){} // RVA: 0xA1856F0
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA185890
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA185A00
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA185C60
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA185D60
+        public void SquarePow(){} // RVA: 0xA185FF0
+        public void HalfTrace(){} // RVA: 0xA186120
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA186220
+        public void Invert(){} // RVA: 0xA1862A0
+        public void Sqrt(){} // RVA: 0xA1863A0
+        public void get_Representation(){} // RVA: 0x12FC4A0
+        public void get_M(){} // RVA: 0xA185490
+        public void get_K1(){} // RVA: 0xEF4110
+        public void get_K2(){} // RVA: 0x132D270
+        public void get_K3(){} // RVA: 0x2AFB6E0
+        public void Equals(){} // RVA: 0xA1865E0
+        public void GetHashCode(){} // RVA: 0xA186650
     }
 
     public class SecT283K1Curve : AbstractF2mCurve
     {
+        public object SECT283K1_DEFAULT_COORDS;
+        public object SECT283K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B131AD90
-        public void CloneCurve(){} // RVA: 0x7B131B1F0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B131B240
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1319B20
-        public void FromBigInteger(){} // RVA: 0x7B131B280
-        public void CreateRawPoint(){} // RVA: 0x7B131B3D0
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7B1319B20
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A8401A30
-        public void get_K2(){} // RVA: 0x7A88258F0
-        public void get_K3(){} // RVA: 0x7A9F22B10
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B131B470
+        public void .ctor(){} // RVA: 0xA186700
+        public void CloneCurve(){} // RVA: 0xA186B60
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA186BB0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA185490
+        public void FromBigInteger(){} // RVA: 0xA186BF0
+        public void CreateRawPoint(){} // RVA: 0xA186D40
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0xA185490
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xEF4110
+        public void get_K2(){} // RVA: 0x132D270
+        public void get_K3(){} // RVA: 0x2AFB6E0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA186DE0
     }
 
     public class SecT283K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B131BC50
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B131BD60
-        public void Twice(){} // RVA: 0x7B131C6D0
-        public void TwicePlus(){} // RVA: 0x7B131CBC0
-        public void Negate(){} // RVA: 0x7B131D200
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA1875C0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA1876D0
+        public void Twice(){} // RVA: 0xA188040
+        public void TwicePlus(){} // RVA: 0xA188530
+        public void Negate(){} // RVA: 0xA188B70
     }
 
     public class SecT283R1Curve : AbstractF2mCurve
     {
+        public object SECT283R1_DEFAULT_COORDS;
+        public object SECT283R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B131D3B0
-        public void CloneCurve(){} // RVA: 0x7B131D860
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1319B20
-        public void FromBigInteger(){} // RVA: 0x7B131D8B0
-        public void CreateRawPoint(){} // RVA: 0x7B131DA00
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B1319B20
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A8401A30
-        public void get_K2(){} // RVA: 0x7A88258F0
-        public void get_K3(){} // RVA: 0x7A9F22B10
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B131DAA0
+        public void .ctor(){} // RVA: 0xA188D20
+        public void CloneCurve(){} // RVA: 0xA1891D0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA185490
+        public void FromBigInteger(){} // RVA: 0xA189220
+        public void CreateRawPoint(){} // RVA: 0xA189370
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA185490
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xEF4110
+        public void get_K2(){} // RVA: 0x132D270
+        public void get_K3(){} // RVA: 0x2AFB6E0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA189410
     }
 
     public class SecT283R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B131E280
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B131E390
-        public void Twice(){} // RVA: 0x7B131ED60
-        public void TwicePlus(){} // RVA: 0x7B131F1D0
-        public void Negate(){} // RVA: 0x7B131F860
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA189BF0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA189D00
+        public void Twice(){} // RVA: 0xA18A6D0
+        public void TwicePlus(){} // RVA: 0xA18AB40
+        public void Negate(){} // RVA: 0xA18B1D0
     }
 
     public class SecT409Field : Object
     {
+        public object M25;
+        public object M59;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B1303440
-        public void AddExt(){} // RVA: 0x7B131FA10
-        public void AddOne(){} // RVA: 0x7B131FA90
-        public void AddTo(){} // RVA: 0x7B131FB50
-        public void FromBigInteger(){} // RVA: 0x7B131FC30
-        public void HalfTrace(){} // RVA: 0x7B131FC40
-        public void Invert(){} // RVA: 0x7B131FE80
-        public void Multiply(){} // RVA: 0x7B1320160
-        public void MultiplyAddToExt(){} // RVA: 0x7B13201F0
-        public void Reduce(){} // RVA: 0x7B13202B0
-        public void Reduce39(){} // RVA: 0x7B1320500
-        public void Sqrt(){} // RVA: 0x7B1320570
-        public void Square(){} // RVA: 0x7B13207B0
-        public void SquareAddToExt(){} // RVA: 0x7B1320830
-        public void SquareN(){} // RVA: 0x7B13208E0
-        public void Trace(){} // RVA: 0x7B12EAB60
-        public void ImplCompactExt(){} // RVA: 0x7B13209A0
-        public void ImplExpand(){} // RVA: 0x7B1320C40
-        public void ImplMultiply(){} // RVA: 0x7B1320DB0
-        public void ImplMulwAcc(){} // RVA: 0x7B1320EB0
-        public void ImplSquare(){} // RVA: 0x7B1321130
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Add(){} // RVA: 0xA16EDB0
+        public void AddExt(){} // RVA: 0xA18B380
+        public void AddOne(){} // RVA: 0xA18B400
+        public void AddTo(){} // RVA: 0xA18B4C0
+        public void FromBigInteger(){} // RVA: 0xA18B5A0
+        public void HalfTrace(){} // RVA: 0xA18B5B0
+        public void Invert(){} // RVA: 0xA18B7F0
+        public void Multiply(){} // RVA: 0xA18BAD0
+        public void MultiplyAddToExt(){} // RVA: 0xA18BB60
+        public void Reduce(){} // RVA: 0xA18BC20
+        public void Reduce39(){} // RVA: 0xA18BE70
+        public void Sqrt(){} // RVA: 0xA18BEE0
+        public void Square(){} // RVA: 0xA18C120
+        public void SquareAddToExt(){} // RVA: 0xA18C1A0
+        public void SquareN(){} // RVA: 0xA18C250
+        public void Trace(){} // RVA: 0xA1564D0
+        public void ImplCompactExt(){} // RVA: 0xA18C310
+        public void ImplExpand(){} // RVA: 0xA18C5B0
+        public void ImplMultiply(){} // RVA: 0xA18C720
+        public void ImplMulwAcc(){} // RVA: 0xA18C820
+        public void ImplSquare(){} // RVA: 0xA18CAA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SecT409FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B13213F0
-        public void get_IsZero(){} // RVA: 0x7B1321460
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B13214C0
-        public void get_FieldName(){} // RVA: 0x7B13215E0
-        public void get_FieldSize(){} // RVA: 0x7B1321620
-        public void Add(){} // RVA: 0x7B1321630
-        public void AddOne(){} // RVA: 0x7B13218B0
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B1321A60
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B1321BA0
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B1321EE0
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B1321FC0
-        public void SquarePow(){} // RVA: 0x7B13222A0
-        public void HalfTrace(){} // RVA: 0x7B13223A0
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B12EC040
-        public void Invert(){} // RVA: 0x7B1322480
-        public void Sqrt(){} // RVA: 0x7B1322560
-        public void get_Representation(){} // RVA: 0x7A81DDCC0
-        public void get_M(){} // RVA: 0x7B1321620
-        public void get_K1(){} // RVA: 0x7B1322640
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7B1322790
-        public void GetHashCode(){} // RVA: 0x7B1322800
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA18CD60
+        public void get_IsZero(){} // RVA: 0xA18CDD0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA18CE30
+        public void get_FieldName(){} // RVA: 0xA18CF50
+        public void get_FieldSize(){} // RVA: 0xA18CF90
+        public void Add(){} // RVA: 0xA18CFA0
+        public void AddOne(){} // RVA: 0xA18D220
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA18D3D0
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA18D510
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA18D850
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA18D930
+        public void SquarePow(){} // RVA: 0xA18DC10
+        public void HalfTrace(){} // RVA: 0xA18DD10
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA1579B0
+        public void Invert(){} // RVA: 0xA18DDF0
+        public void Sqrt(){} // RVA: 0xA18DED0
+        public void get_Representation(){} // RVA: 0xC50A80
+        public void get_M(){} // RVA: 0xA18CF90
+        public void get_K1(){} // RVA: 0xA18DFB0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0xA18E100
+        public void GetHashCode(){} // RVA: 0xA18E170
     }
 
     public class SecT409K1Curve : AbstractF2mCurve
     {
+        public object SECT409K1_DEFAULT_COORDS;
+        public object SECT409K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13228B0
-        public void CloneCurve(){} // RVA: 0x7B1322CF0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B1322D40
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1321620
-        public void FromBigInteger(){} // RVA: 0x7B1322D80
-        public void CreateRawPoint(){} // RVA: 0x7B1322ED0
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7B1321620
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7B1322640
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B1322F70
+        public void .ctor(){} // RVA: 0xA18E220
+        public void CloneCurve(){} // RVA: 0xA18E660
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA18E6B0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA18CF90
+        public void FromBigInteger(){} // RVA: 0xA18E6F0
+        public void CreateRawPoint(){} // RVA: 0xA18E840
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0xA18CF90
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0xA18DFB0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA18E8E0
     }
 
     public class SecT409K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B13235F0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1323700
-        public void Twice(){} // RVA: 0x7B1324070
-        public void TwicePlus(){} // RVA: 0x7B1324560
-        public void Negate(){} // RVA: 0x7B1324BA0
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA18EF60
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA18F070
+        public void Twice(){} // RVA: 0xA18F9E0
+        public void TwicePlus(){} // RVA: 0xA18FED0
+        public void Negate(){} // RVA: 0xA190510
     }
 
     public class SecT409R1Curve : AbstractF2mCurve
     {
+        public object SECT409R1_DEFAULT_COORDS;
+        public object SECT409R1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1324D50
-        public void CloneCurve(){} // RVA: 0x7B13251E0
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1321620
-        public void FromBigInteger(){} // RVA: 0x7B1325230
-        public void CreateRawPoint(){} // RVA: 0x7B1325380
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B1321620
-        public void get_IsTrinomial(){} // RVA: 0x7A81BD750
-        public void get_K1(){} // RVA: 0x7B1322640
-        public void get_K2(){} // RVA: 0x7A82D1450
-        public void get_K3(){} // RVA: 0x7A82D1450
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B1325420
+        public void .ctor(){} // RVA: 0xA1906C0
+        public void CloneCurve(){} // RVA: 0xA190B50
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA18CF90
+        public void FromBigInteger(){} // RVA: 0xA190BA0
+        public void CreateRawPoint(){} // RVA: 0xA190CF0
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA18CF90
+        public void get_IsTrinomial(){} // RVA: 0xC2E4C0
+        public void get_K1(){} // RVA: 0xA18DFB0
+        public void get_K2(){} // RVA: 0xDAC980
+        public void get_K3(){} // RVA: 0xDAC980
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA190D90
     }
 
     public class SecT409R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B1325AA0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B1325BB0
-        public void Twice(){} // RVA: 0x7B1326580
-        public void TwicePlus(){} // RVA: 0x7B13269F0
-        public void Negate(){} // RVA: 0x7B1327080
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA191410
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA191520
+        public void Twice(){} // RVA: 0xA191EF0
+        public void TwicePlus(){} // RVA: 0xA192360
+        public void Negate(){} // RVA: 0xA1929F0
     }
 
     public class SecT571Field : Object
     {
+        public object M59;
+        public object RM;
+        public object ROOT_Z;
+
         // ── Methods ──
-        public void Add(){} // RVA: 0x7B13272B0
-        public void AddBothTo(){} // RVA: 0x7B1327370
-        public void AddExt(){} // RVA: 0x7B1327440
-        public void AddOne(){} // RVA: 0x7B13274C0
-        public void AddTo(){} // RVA: 0x7B1327540
-        public void FromBigInteger(){} // RVA: 0x7B13275A0
-        public void HalfTrace(){} // RVA: 0x7B13275B0
-        public void Invert(){} // RVA: 0x7B13277F0
-        public void Multiply(){} // RVA: 0x7B1327B30
-        public void MultiplyAddToExt(){} // RVA: 0x7B1327BF0
-        public void Reduce(){} // RVA: 0x7B1327CF0
-        public void Reduce5(){} // RVA: 0x7B1327EC0
-        public void Sqrt(){} // RVA: 0x7B1327F40
-        public void Square(){} // RVA: 0x7B1328370
-        public void SquareAddToExt(){} // RVA: 0x7B1328420
-        public void SquareN(){} // RVA: 0x7B1328510
-        public void Trace(){} // RVA: 0x7B1328610
-        public void ImplMultiply(){} // RVA: 0x7B1328650
-        public void ImplMulwAcc(){} // RVA: 0x7B1328BF0
-        public void ImplSquare(){} // RVA: 0x7B1328E50
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1328F80
+        public void Add(){} // RVA: 0xA192C20
+        public void AddBothTo(){} // RVA: 0xA192CE0
+        public void AddExt(){} // RVA: 0xA192DB0
+        public void AddOne(){} // RVA: 0xA192E30
+        public void AddTo(){} // RVA: 0xA192EB0
+        public void FromBigInteger(){} // RVA: 0xA192F10
+        public void HalfTrace(){} // RVA: 0xA192F20
+        public void Invert(){} // RVA: 0xA193160
+        public void Multiply(){} // RVA: 0xA1934A0
+        public void MultiplyAddToExt(){} // RVA: 0xA193560
+        public void Reduce(){} // RVA: 0xA193660
+        public void Reduce5(){} // RVA: 0xA193830
+        public void Sqrt(){} // RVA: 0xA1938B0
+        public void Square(){} // RVA: 0xA193CE0
+        public void SquareAddToExt(){} // RVA: 0xA193D90
+        public void SquareN(){} // RVA: 0xA193E80
+        public void Trace(){} // RVA: 0xA193F80
+        public void ImplMultiply(){} // RVA: 0xA193FC0
+        public void ImplMulwAcc(){} // RVA: 0xA194560
+        public void ImplSquare(){} // RVA: 0xA1947C0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA1948F0
     }
 
     public class SecT571FieldElement : AbstractF2mFieldElement
     {
+        public object x;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsOne(){} // RVA: 0x7B13291E0
-        public void get_IsZero(){} // RVA: 0x7B1329250
-        public void TestBitZero(){} // RVA: 0x7B12EB240
-        public void ToBigInteger(){} // RVA: 0x7B13292B0
-        public void get_FieldName(){} // RVA: 0x7B13293D0
-        public void get_FieldSize(){} // RVA: 0x7B1329410
-        public void Add(){} // RVA: 0x7B1329420
-        public void AddOne(){} // RVA: 0x7B13295F0
-        public void Subtract(){} // RVA: 0x7ACF03DA0
-        public void Multiply(){} // RVA: 0x7B1329760
-        public void MultiplyMinusProduct(){} // RVA: 0x7B12EB7E0
-        public void MultiplyPlusProduct(){} // RVA: 0x7B13298D0
-        public void Divide(){} // RVA: 0x7B12EBA30
-        public void Negate(){} // RVA: 0x7A97F8BA0
-        public void Square(){} // RVA: 0x7B1329B30
-        public void SquareMinusProduct(){} // RVA: 0x7B12EBB60
-        public void SquarePlusProduct(){} // RVA: 0x7B1329C30
-        public void SquarePow(){} // RVA: 0x7B1329F00
-        public void HalfTrace(){} // RVA: 0x7B132A030
-        public void get_HasFastTrace(){} // RVA: 0x7A81BD750
-        public void Trace(){} // RVA: 0x7B132A130
-        public void Invert(){} // RVA: 0x7B132A1B0
-        public void Sqrt(){} // RVA: 0x7B132A2B0
-        public void get_Representation(){} // RVA: 0x7A87EE0F0
-        public void get_M(){} // RVA: 0x7B1329410
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A8401A30
-        public void get_K3(){} // RVA: 0x7A836B0A0
-        public void Equals(){} // RVA: 0x7B132A4F0
-        public void GetHashCode(){} // RVA: 0x7B132A560
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsOne(){} // RVA: 0xA194B50
+        public void get_IsZero(){} // RVA: 0xA194BC0
+        public void TestBitZero(){} // RVA: 0xA156BB0
+        public void ToBigInteger(){} // RVA: 0xA194C20
+        public void get_FieldName(){} // RVA: 0xA194D40
+        public void get_FieldSize(){} // RVA: 0xA194D80
+        public void Add(){} // RVA: 0xA194D90
+        public void AddOne(){} // RVA: 0xA194F60
+        public void Subtract(){} // RVA: 0x5BA5570
+        public void Multiply(){} // RVA: 0xA1950D0
+        public void MultiplyMinusProduct(){} // RVA: 0xA157150
+        public void MultiplyPlusProduct(){} // RVA: 0xA195240
+        public void Divide(){} // RVA: 0xA1573A0
+        public void Negate(){} // RVA: 0x2303260
+        public void Square(){} // RVA: 0xA1954A0
+        public void SquareMinusProduct(){} // RVA: 0xA1574D0
+        public void SquarePlusProduct(){} // RVA: 0xA1955A0
+        public void SquarePow(){} // RVA: 0xA195870
+        public void HalfTrace(){} // RVA: 0xA1959A0
+        public void get_HasFastTrace(){} // RVA: 0xC2E4C0
+        public void Trace(){} // RVA: 0xA195AA0
+        public void Invert(){} // RVA: 0xA195B20
+        public void Sqrt(){} // RVA: 0xA195C20
+        public void get_Representation(){} // RVA: 0x12FC4A0
+        public void get_M(){} // RVA: 0xA194D80
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0xEF4110
+        public void get_K3(){} // RVA: 0xE49B40
+        public void Equals(){} // RVA: 0xA195E60
+        public void GetHashCode(){} // RVA: 0xA195ED0
     }
 
     public class SecT571K1Curve : AbstractF2mCurve
     {
+        public object SECT571K1_DEFAULT_COORDS;
+        public object SECT571K1_FE_LONGS;
+        public object m_infinity;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B132A610
-        public void CloneCurve(){} // RVA: 0x7B132AA70
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void CreateDefaultMultiplier(){} // RVA: 0x7B132AAC0
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1329410
-        public void FromBigInteger(){} // RVA: 0x7B132AB00
-        public void CreateRawPoint(){} // RVA: 0x7B132AC50
-        public void get_IsKoblitz(){} // RVA: 0x7A81BD750
-        public void get_M(){} // RVA: 0x7B1329410
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A8401A30
-        public void get_K3(){} // RVA: 0x7A836B0A0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B132ACF0
+        public void .ctor(){} // RVA: 0xA195F80
+        public void CloneCurve(){} // RVA: 0xA1963E0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void CreateDefaultMultiplier(){} // RVA: 0xA196430
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA194D80
+        public void FromBigInteger(){} // RVA: 0xA196470
+        public void CreateRawPoint(){} // RVA: 0xA1965C0
+        public void get_IsKoblitz(){} // RVA: 0xC2E4C0
+        public void get_M(){} // RVA: 0xA194D80
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0xEF4110
+        public void get_K3(){} // RVA: 0xE49B40
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA196660
     }
 
     public class SecT571K1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B132B380
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B132B490
-        public void Twice(){} // RVA: 0x7B132BE00
-        public void TwicePlus(){} // RVA: 0x7B132C2F0
-        public void Negate(){} // RVA: 0x7B132C930
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA196CF0
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA196E00
+        public void Twice(){} // RVA: 0xA197770
+        public void TwicePlus(){} // RVA: 0xA197C60
+        public void Negate(){} // RVA: 0xA1982A0
     }
 
     public class SecT571R1Curve : AbstractF2mCurve
     {
+        public object SECT571R1_DEFAULT_COORDS;
+        public object SECT571R1_FE_LONGS;
+        public object m_infinity;
+        public object SecT571R1_B;
+        public object SecT571R1_B_SQRT;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B132CAE0
-        public void CloneCurve(){} // RVA: 0x7B132CF60
-        public void SupportsCoordinateSystem(){} // RVA: 0x7B12ECA60
-        public void get_Infinity(){} // RVA: 0x7A81A0050
-        public void get_FieldSize(){} // RVA: 0x7B1329410
-        public void FromBigInteger(){} // RVA: 0x7B132CFB0
-        public void CreateRawPoint(){} // RVA: 0x7B132D100
-        public void get_IsKoblitz(){} // RVA: 0x7A80D7320
-        public void get_M(){} // RVA: 0x7B1329410
-        public void get_IsTrinomial(){} // RVA: 0x7A80D7320
-        public void get_K1(){} // RVA: 0x7A81DDCC0
-        public void get_K2(){} // RVA: 0x7A8401A30
-        public void get_K3(){} // RVA: 0x7A836B0A0
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B132D1A0
-        public void .cctor(){} // RVA: 0x7B132D440
+        public void .ctor(){} // RVA: 0xA198450
+        public void CloneCurve(){} // RVA: 0xA1988D0
+        public void SupportsCoordinateSystem(){} // RVA: 0xA1583D0
+        public void get_Infinity(){} // RVA: 0xC0FFC0
+        public void get_FieldSize(){} // RVA: 0xA194D80
+        public void FromBigInteger(){} // RVA: 0xA198920
+        public void CreateRawPoint(){} // RVA: 0xA198A70
+        public void get_IsKoblitz(){} // RVA: 0xB43320
+        public void get_M(){} // RVA: 0xA194D80
+        public void get_IsTrinomial(){} // RVA: 0xB43320
+        public void get_K1(){} // RVA: 0xC50A80
+        public void get_K2(){} // RVA: 0xEF4110
+        public void get_K3(){} // RVA: 0xE49B40
+        public void CreateCacheSafeLookupTable(){} // RVA: 0xA198B10
+        public void .cctor(){} // RVA: 0xA198DB0
     }
 
     public class SecT571R1Point : AbstractF2mPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B12B2560
-        public void Detach(){} // RVA: 0x7B132DAC0
-        public void get_YCoord(){} // RVA: 0x7B12ED470
-        public void get_CompressionYTilde(){} // RVA: 0x7B12ED580
-        public void Add(){} // RVA: 0x7B132DBD0
-        public void Twice(){} // RVA: 0x7B132E580
-        public void TwicePlus(){} // RVA: 0x7B132E9F0
-        public void Negate(){} // RVA: 0x7B132F070
+        public void .ctor(){} // RVA: 0xA11DED0
+        public void Detach(){} // RVA: 0xA199430
+        public void get_YCoord(){} // RVA: 0xA158DE0
+        public void get_CompressionYTilde(){} // RVA: 0xA158EF0
+        public void Add(){} // RVA: 0xA199540
+        public void Twice(){} // RVA: 0xA199EF0
+        public void TwicePlus(){} // RVA: 0xA19A360
+        public void Negate(){} // RVA: 0xA19A9E0
     }
 
 }

@@ -7,14 +7,22 @@ namespace VRC.SDKBase.Editor.Attributes
 {
     public class CurveAttribute : PropertyAttribute
     {
+        public object PosX;
+        public object PosY;
+        public object RangeX;
+        public object RangeY;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC22E160
+        public void .ctor(){} // RVA: 0xA772B80
     }
 
     public class HelpBoxAttribute : PropertyAttribute
     {
+        public object text;
+        public object messageType;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void .ctor(){} // RVA: 0xA772BA0
     }
 
 }

@@ -7,12 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class AmazonAppStoreStoreExtensions : Object
     {
+        public object android;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class AnalyticsClient : Object
     {
+        public object m_Analytics;
+        public object m_LegacyAnalytics;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void OnPurchaseSucceeded(){} // RVA: 0x7D65730
@@ -21,6 +26,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AndroidJavaStore : Object
     {
+        public object m_Store;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void RetrieveProducts(){} // RVA: 0x7D70C20
@@ -37,12 +44,33 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class AppleProductMetadata : ProductMetadata
     {
+        public object _isFamilyShareable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D8B0A0
     }
 
     public class AppleStoreImpl : JSONStore
     {
+        public object m_DeferredCallback;
+        public object m_RevokedCallback;
+        public object m_RefreshReceiptError;
+        public object m_RefreshReceiptSuccess;
+        public object m_ObsoleteRestoreCallback;
+        public object m_RestoreCallback;
+        public object m_FetchStorePromotionOrderError;
+        public object m_FetchStorePromotionOrderSuccess;
+        public object m_PromotionalPurchaseCallback;
+        public object m_FetchStorePromotionVisibilityError;
+        public object m_FetchStorePromotionVisibilitySuccess;
+        public object m_Native;
+        public object m_TelemetryDiagnostics;
+        public object s_Util;
+        public object s_Instance;
+        public object m_CachedAppReceipt;
+        public object m_CachedAppReceiptModificationDate;
+        public object m_ProductsJson;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D8B2B0
         public void SetNativeStore(){} // RVA: 0x7D8B4B0

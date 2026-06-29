@@ -1,10 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 70
-// Methods: 354
+// Classes: 69
+// Methods: 366
 
 public class RBTreeEnumerator : ValueType
 {
+    public object _tree;
+    public object _version;
+    public object _index;
+    public object _mainTreeNodeId;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899290
     public void Dispose(){} // RVA: 0x894290
@@ -16,18 +22,36 @@ public class RBTreeEnumerator : ValueType
 
 public class RBTreeEnumerator : ValueType
 {
+    public object _tree;
+    public object _version;
+    public object _index;
+    public object _mainTreeNodeId;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x485BA0
 }
 
 public class RBTreeEnumerator : ValueType
 {
+    public object _tree;
+    public object _version;
+    public object _index;
+    public object _mainTreeNodeId;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x485A40
 }
 
 public class REG_TZI_FORMAT : ValueType
 {
+    public object Bias;
+    public object StandardBias;
+    public object DaylightBias;
+    public object StandardDate;
+    public object DaylightDate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8AAFD0
 }
@@ -52,16 +76,12 @@ public class RaiseMessageToPlayer : MulticastDelegate
 
 public class Range : ValueType
 {
+    public object Pointer;
+    public object Items;
+    public object Allocator;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x924120
-}
-
-public class RangeIntEqualityComparer : Object
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x77C0AC0
-    public void GetHashCode(){} // RVA: 0x77C0AE0
-    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Raycast2DCallback : MulticastDelegate
@@ -91,16 +111,14 @@ public class RaycastAllCallback : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
-public class RaycastHitComparer : Object
-{
-    // ── Methods ──
-    public void Compare(){} // RVA: 0x6C67430
-    public void .ctor(){} // RVA: 0xB43310
-    public void .cctor(){} // RVA: 0x8122E00
-}
-
 public class ReadBufferState : Object
 {
+    public object Buffer;
+    public object Offset;
+    public object Count;
+    public object InitialCount;
+    public object Ares;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75AB1E0
 }
@@ -125,6 +143,8 @@ public class ReadMethod : MulticastDelegate
 
 public class ReadOnlyArrayList : ArrayList
 {
+    public object _list;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68816C0
     public void get_Count(){} // RVA: 0x6881730
@@ -153,14 +173,18 @@ public class ReadOnlyArrayList : ArrayList
     public void ToArray(){} // RVA: 0x6881E40
 }
 
-public class ReadOnlyIPAddress : IPAddress
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x772D830
-}
-
 public class ReadWriteTask : Task`1
 {
+    public object _isRead;
+    public object _apm;
+    public object _stream;
+    public object _buffer;
+    public object _offset;
+    public object _count;
+    public object _callback;
+    public object _context;
+    public object s_invokeAsyncCallback;
+
     // ── Methods ──
     public void ClearBeginState(){} // RVA: 0x68CBA60
     public void .ctor(){} // RVA: 0x68CBB10
@@ -182,6 +206,8 @@ public class Reader : Object
 
 public class Reader : ValueType
 {
+    public object m_ec;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void DangerousGetRawExecutionContext(){} // RVA: 0x77900
@@ -197,6 +223,8 @@ public class Reader : ValueType
 
 public class Reader : ValueType
 {
+    public object m_ctx;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_IsNull(){} // RVA: 0x88E70
@@ -207,6 +235,9 @@ public class Reader : ValueType
 
 public class ReaderCallbackInfo : Object
 {
+    public object _sri;
+    public object _typeMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void ReadObject(){} // RVA: 0x7520290
@@ -214,6 +245,13 @@ public class ReaderCallbackInfo : Object
 
 public class ReceiveContext : Object
 {
+    public object workSocket;
+    public object ReceivedHeaderBytes;
+    public object HeaderBuffer;
+    public object ExpectedMessageBytes;
+    public object ReceivedMessageBytes;
+    public object MessageBuffer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CAD620
     public void get_ReadingHeader(){} // RVA: 0x1911560
@@ -225,12 +263,23 @@ public class ReceiveContext : Object
 
 public class ReceiveTrackingValues : Object
 {
+    public object ReceivedReliableCommandSincePreviousAck2;
+    public object receivedReliableSequenceNumbers;
+    public object reliableSequencedNumbersCompletelyReceived;
+    public object reliableSequencedNumbersHighestReceived;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C79710
 }
 
 public class ReceiverData : ValueType
 {
+    public object isValid;
+    public object shapeId;
+    public object receiverType;
+    public object collisions;
+    public object collisionValue;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x9C8650
     public void Dispose(){} // RVA: 0x9C8660
@@ -238,18 +287,13 @@ public class ReceiverData : ValueType
 
 public class RecognizedAttribute : ValueType
 {
+    public object m_name;
+    public object m_token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28E70
     public void get_Token(){} // RVA: 0x14790
     public void IsEqualTo(){} // RVA: 0x917EC0
-}
-
-public class RectIntEqualityComparer : Object
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x77C0AF0
-    public void GetHashCode(){} // RVA: 0x77C0B20
-    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Ref : CastInstructionNoT
@@ -270,6 +314,8 @@ public class Reference : InitializeLocalInstruction
 
 public class ReferenceComparer : Object
 {
+    public object _converter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void Compare(){} // RVA: 0x76D8A10
@@ -305,6 +351,15 @@ public class Reference[] : Array
 
 public class ReflectedTypeData : Object
 {
+    public object _type;
+    public object _attributes;
+    public object _events;
+    public object _properties;
+    public object _converter;
+    public object _editors;
+    public object _editorTypes;
+    public object _editorCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_IsPopulated(){} // RVA: 0x76F7B30
@@ -322,6 +377,17 @@ public class ReflectedTypeData : Object
     public void Refresh(){} // RVA: 0x76FA150
 }
 
+public class ReflectionHelper`2 : Object
+{
+    // ── Methods ──
+    public void CreateFuncIMessageInt32(){} // RVA: 0x87C540
+    public void CreateActionIMessage(){} // RVA: 0x87C540
+    public void CreateFuncIMessageObject(){} // RVA: 0x87C540
+    public void CreateActionIMessageObject(){} // RVA: 0x87C540
+    public void CreateFuncIMessageBool(){} // RVA: 0x87C540
+    public void .ctor(){} // RVA: 0x894290
+}
+
 public class Reflector : Object
 {
     // ── Methods ──
@@ -331,10 +397,18 @@ public class Reflector : Object
 
 public class RelationshipHandle : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Drop(){} // RVA: 0x26D9B00
     public void DiscordRelationshipType(){} // RVA: 0x26D9B80
     public void User(){} // RVA: 0x26D9C00
+}
+
+public class ReleaseEvent : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x65CEB00
 }
 
 public class RemoveAcesCallback`1 : MulticastDelegate
@@ -346,6 +420,9 @@ public class RemoveAcesCallback`1 : MulticastDelegate
 
 public class RenderModel : Object
 {
+    public object _mesh;
+    public object _material;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void get_mesh(){} // RVA: 0xB5DBF0
@@ -356,6 +433,10 @@ public class RenderModel : Object
 
 public class RenderModelInterfaceHolder : Object
 {
+    public object needsShutdown;
+    public object failedLoadInterface;
+    public object _instance;
+
     // ── Methods ──
     public void get_instance(){} // RVA: 0x6F8CB10
     public void Dispose(){} // RVA: 0x6F8CC40
@@ -391,16 +472,10 @@ public class RenewalDelegate : MulticastDelegate
     public void EndInvoke(){} // RVA: 0x28BB5D0
 }
 
-public class RentArray`1 : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x497360
-    public void Dispose(){} // RVA: 0x4973B0
-    public void DisposeManually(){} // RVA: 0x4973C0
-}
-
 public class RequestCallback : Object
 {
+    public object messageCallback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void HandleMessage(){} // RVA: 0x6AF6E90
@@ -408,6 +483,8 @@ public class RequestCallback : Object
 
 public class RequestCallback`1 : RequestCallback
 {
+    public object callback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void HandleMessage(){} // RVA: 0x894320
@@ -415,6 +492,14 @@ public class RequestCallback`1 : RequestCallback
 
 public class ReservedRange : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object StartDefaultValue;
+    public object start_;
+    public object EndDefaultValue;
+    public object end_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x64D7210
     public void get_Descriptor(){} // RVA: 0x64D7270
@@ -442,6 +527,10 @@ public class ReservedRange : Object
 
 public class ReservedWords : ValueType
 {
+    public object _word;
+    public object _token;
+    public object _op;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x426050
 }
@@ -454,6 +543,11 @@ public class ResolveEventHolder : Object
 
 public class ResourceEnumerator : Object
 {
+    public object _reader;
+    public object _currentIsValid;
+    public object _currentName;
+    public object _dataPosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67CF3E0
     public void MoveNext(){} // RVA: 0x67CF450
@@ -467,6 +561,8 @@ public class ResourceEnumerator : Object
 
 public class ResourceManagerMediator : Object
 {
+    public object _rm;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67CA8C0
     public void get_ModuleDir(){} // RVA: 0x13F92F0
@@ -504,6 +600,10 @@ public class Response : MulticastDelegate
 
 public class Result : Object
 {
+    public object _status;
+    public object _error;
+    public object _argument;
+
     // ── Methods ──
     public void get_Status(){} // RVA: 0xA94080
     public void get_Success(){} // RVA: 0x87D280
@@ -514,9 +614,20 @@ public class Result : Object
 
 public class Result : Object
 {
+    public object _status;
+    public object _error;
+    public object _argument;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void get_Error(){} // RVA: 0xB465B0
+}
+
+public class ResultCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x65D4E20
+    public void Invoke(){} // RVA: 0x65D4EF0
 }
 
 public class ResultCallback : MulticastDelegate
@@ -540,10 +651,13 @@ public class ResultCallback : MulticastDelegate
     public void Invoke(){} // RVA: 0xCA8D60
 }
 
-public class ReverseComparer : ValueType
+public class Retargetable : Object
 {
+    public object source;
+    public object destination;
+
     // ── Methods ──
-    public void Compare(){} // RVA: 0x4977C0
+    public void .ctor(){} // RVA: 0x17C92C0
 }
 
 public class RightShiftByte : RightShiftInstruction
@@ -602,8 +716,34 @@ public class RightShiftUInt64 : RightShiftInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class RigidTransform : ValueType
+{
+    public object pos;
+    public object rot;
+
+    // ── Methods ──
+    public void get_identity(){} // RVA: 0x6F0CCC0
+    public void FromLocal(){} // RVA: 0x6F0CD60
+    public void .ctor(){} // RVA: 0x8FC370
+    public void ToHmdMatrix44(){} // RVA: 0x8FC6D0
+    public void ToHmdMatrix34(){} // RVA: 0x8FC990
+    public void Equals(){} // RVA: 0x8FC9D0
+    public void GetHashCode(){} // RVA: 0x8FC9E0
+    public void op_Equality(){} // RVA: 0x6B7C4D0
+    public void op_Inequality(){} // RVA: 0x6F0E0A0
+    public void op_Multiply(){} // RVA: 0x6F0EE30
+    public void Inverse(){} // RVA: 0x8FCAC0
+    public void GetInverse(){} // RVA: 0x8FCAD0
+    public void Multiply(){} // RVA: 0x8FCB30
+    public void InverseTransformPoint(){} // RVA: 0x8FCB90
+    public void TransformPoint(){} // RVA: 0x8FCBE0
+    public void Interpolate(){} // RVA: 0x8FCC30
+}
+
 public class RotationBySpeedModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97E730
@@ -642,6 +782,8 @@ public class RotationBySpeedModule : ValueType
 
 public class RotationOverLifetimeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97E070
@@ -676,12 +818,16 @@ public class RotationOverLifetimeModule : ValueType
 
 public class RowDiffIdUsageSection : ValueType
 {
+    public object _targetTable;
+
     // ── Methods ──
     public void Prepare(){} // RVA: 0x902B00
 }
 
 public class Rune : ValueType
 {
+    public object value;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x9244B0
     public void GetHashCode(){} // RVA: 0x77E60
@@ -689,6 +835,8 @@ public class Rune : ValueType
 
 public class RuntimeVariables : Object
 {
+    public object _boxes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void System.Runtime.CompilerServices.IRuntimeVariables.get_Count(){} // RVA: 0x17F0080
@@ -698,6 +846,8 @@ public class RuntimeVariables : Object
 
 public class RuntimeVariablesExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049D10
     public void get_CanReduce(){} // RVA: 0x10AD460

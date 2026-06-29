@@ -7,20 +7,24 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 {
     public class DateTimeObject : Object
     {
+        public object dt;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97242F0
-        public void get_Value(){} // RVA: 0x7A80F2570
-        public void ToString(){} // RVA: 0x7B1520F30
+        public void .ctor(){} // RVA: 0x2230E30
+        public void get_Value(){} // RVA: 0xB5DBF0
+        public void ToString(){} // RVA: 0xA38C2A0
     }
 
     public class DateTimeUtilities : Object
     {
+        public object UnixEpoch;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void DateTimeToUnixMs(){} // RVA: 0x7B1520FC0
-        public void UnixMsToDateTime(){} // RVA: 0x7B15211E0
-        public void CurrentUnixMs(){} // RVA: 0x7B1521320
-        public void .cctor(){} // RVA: 0x7B15213A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void DateTimeToUnixMs(){} // RVA: 0xA38C330
+        public void UnixMsToDateTime(){} // RVA: 0xA38C550
+        public void CurrentUnixMs(){} // RVA: 0xA38C690
+        public void .cctor(){} // RVA: 0xA38C710
     }
 
 }

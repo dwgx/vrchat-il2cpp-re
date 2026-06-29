@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class BatchRendererGroupRuntimeAnalytic : AnalyticsEventBase
     {
+        public object brgRuntimeStatus;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B579A0
         public void CreateBatchRendererGroupRuntimeAnalytic(){} // RVA: 0x7B57A10
@@ -34,6 +36,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BeforeRenderHelper : Object
     {
+        public object s_OrderBlocks;
+
         // ── Methods ──
         public void GetUpdateOrder(){} // RVA: 0x7B77C40
         public void RegisterCallback(){} // RVA: 0x7B77DA0
@@ -44,6 +48,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BeforeRenderOrderAttribute : Attribute
     {
+        public object _order;
+
         // ── Methods ──
         public void get_order(){} // RVA: 0xB8F8F0
         public void set_order(){} // RVA: 0xB460A0
@@ -121,6 +127,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BlendShape : ValueType
     {
+        public object m_FirstVertex;
+        public object m_VertexCount;
+        public object m_HasNormals;
+        public object m_HasTangents;
+
         // ── Methods ──
         public void get_firstVertex(){} // RVA: 0x454FE0
         public void get_vertexCount(){} // RVA: 0x4A8D60
@@ -128,6 +139,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BlendShapeBufferRange : ValueType
     {
+        public object m_StartIndex;
+        public object m_EndIndex;
+
         // ── Methods ──
         public void set_startIndex(){} // RVA: 0x29580
         public void set_endIndex(){} // RVA: 0x77EE0
@@ -155,6 +169,15 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoneWeight : ValueType
     {
+        public object m_Weight0;
+        public object m_Weight1;
+        public object m_Weight2;
+        public object m_Weight3;
+        public object m_BoneIndex0;
+        public object m_BoneIndex1;
+        public object m_BoneIndex2;
+        public object m_BoneIndex3;
+
         // ── Methods ──
         public void get_weight0(){} // RVA: 0x459690
         public void set_weight0(){} // RVA: 0xD1B20
@@ -198,6 +221,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BootConfigData : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void WrapBootConfigData(){} // RVA: 0x7B56370
         public void .ctor(){} // RVA: 0x7B56400
@@ -225,12 +250,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundingSphere : ValueType
     {
+        public object position;
+        public object radius;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DEC70
     }
 
     public class Bounds : ValueType
     {
+        public object m_Center;
+        public object m_Extents;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95FF80
         public void GetHashCode(){} // RVA: 0x95FFD0
@@ -265,6 +296,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class BoundsInt : ValueType
     {
+        public object m_Position;
+        public object m_Size;
+
         // ── Methods ──
         public void get_min(){} // RVA: 0x960730
         public void get_xMin(){} // RVA: 0x960780

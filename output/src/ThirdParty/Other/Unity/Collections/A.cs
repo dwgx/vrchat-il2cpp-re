@@ -7,6 +7,17 @@ namespace ThirdParty.Other.Unity.Collections
 {
     public class AllocatorManager : Object
     {
+        public object Invalid;
+        public object None;
+        public object Temp;
+        public object TempJob;
+        public object Persistent;
+        public object AudioKernel;
+        public object NumGlobalScratchAllocators;
+        public object MaxNumGlobalAllocators;
+        public object GlobalAllocatorBaseIndex;
+        public object FirstGlobalScratchpadAllocatorIndex;
+
         // ── Methods ──
         public void AllocateBlock(){} // RVA: 0x2D571B0
         public void Allocate(){} // RVA: 0x2D56DD0

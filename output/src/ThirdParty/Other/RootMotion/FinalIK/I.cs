@@ -19,6 +19,25 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKConstraintBend : Object
     {
+        public object bone1;
+        public object bone2;
+        public object bone3;
+        public object bendGoal;
+        public object direction;
+        public object rotationOffset;
+        public object weight;
+        public object defaultLocalDirection;
+        public object defaultChildDirection;
+        public object clampF;
+        public object chainIndex1;
+        public object nodeIndex1;
+        public object chainIndex2;
+        public object nodeIndex2;
+        public object chainIndex3;
+        public object nodeIndex3;
+        public object _initiated;
+        public object limbOrientationsSet;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC27AF0
         public void get_initiated(){} // RVA: 0xC27EB0
@@ -35,6 +54,39 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKEffector : Object
     {
+        public object bone;
+        public object target;
+        public object positionWeight;
+        public object rotationWeight;
+        public object position;
+        public object rotation;
+        public object positionOffset;
+        public object _isEndEffector;
+        public object effectChildNodes;
+        public object maintainRelativePositionWeight;
+        public object childBones;
+        public object planeBone1;
+        public object planeBone2;
+        public object planeBone3;
+        public object planeRotationOffset;
+        public object posW;
+        public object rotW;
+        public object localPositions;
+        public object usePlaneNodes;
+        public object animatedPlaneRotation;
+        public object animatedPosition;
+        public object firstUpdate;
+        public object chainIndex;
+        public object nodeIndex;
+        public object plane1ChainIndex;
+        public object plane1NodeIndex;
+        public object plane2ChainIndex;
+        public object plane2NodeIndex;
+        public object plane3ChainIndex;
+        public object plane3NodeIndex;
+        public object childChainIndexes;
+        public object childNodeIndexes;
+
         // ── Methods ──
         public void GetNode(){} // RVA: 0xC2AF00
         public void get_isEndEffector(){} // RVA: 0xC00EC0
@@ -74,6 +126,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKExecutionOrder : MonoBehaviour
     {
+        public object IKComponents;
+        public object animator;
+        public object fixedFrame;
+
         // ── Methods ──
         public void get_animatePhysics(){} // RVA: 0xC17420
         public void Start(){} // RVA: 0xC17520
@@ -96,6 +152,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingBone : IKMapping
     {
+        public object bone;
+        public object maintainRotationWeight;
+        public object boneMap;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC327B0
         public void .ctor(){} // RVA: 0xC329B0
@@ -128,6 +188,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingLimb : IKMapping
     {
+        public object parentBone;
+        public object bone1;
+        public object bone2;
+        public object bone3;
+        public object maintainRotationWeight;
+        public object weight;
+        public object updatePlaneRotations;
+        public object boneMapParent;
+        public object boneMap1;
+        public object boneMap2;
+        public object boneMap3;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC32CE0
         public void GetBoneMap(){} // RVA: 0xC32D80
@@ -163,6 +235,21 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKMappingSpine : IKMapping
     {
+        public object spineBones;
+        public object leftUpperArmBone;
+        public object rightUpperArmBone;
+        public object leftThighBone;
+        public object rightThighBone;
+        public object iterations;
+        public object twistWeight;
+        public object rootNodeIndex;
+        public object spine;
+        public object leftUpperArm;
+        public object rightUpperArm;
+        public object leftThigh;
+        public object rightThigh;
+        public object useFABRIK;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC34D80
         public void .ctor(){} // RVA: 0xC35820
@@ -180,6 +267,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolver : Object
     {
+        public object IKPosition;
+        public object IKPositionWeight;
+        public object _initiated;
+        public object OnPreInitiate;
+        public object OnPostInitiate;
+        public object OnPreUpdate;
+        public object OnPostUpdate;
+        public object firstInitiation;
+        public object root;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x87D350
         public void Initiate(){} // RVA: 0xC380D0
@@ -206,6 +303,20 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverAim : IKSolverHeuristic
     {
+        public object transform;
+        public object axis;
+        public object poleAxis;
+        public object polePosition;
+        public object poleWeight;
+        public object poleTarget;
+        public object clampWeight;
+        public object clampSmoothing;
+        public object OnPreIteration;
+        public object step;
+        public object clampedIKPosition;
+        public object transformLimit;
+        public object lastTransform;
+
         // ── Methods ──
         public void GetAngle(){} // RVA: 0xC3B400
         public void get_transformAxis(){} // RVA: 0xC3B550
@@ -222,6 +333,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverArm : IKSolver
     {
+        public object IKRotationWeight;
+        public object IKRotation;
+        public object chest;
+        public object shoulder;
+        public object upperArm;
+        public object forearm;
+        public object hand;
+        public object isLeft;
+        public object arm;
+        public object positions;
+        public object rotations;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC3E820
         public void SetChain(){} // RVA: 0xC3EF10
@@ -239,6 +362,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverCCD : IKSolverHeuristic
     {
+        public object OnPreIteration;
+
         // ── Methods ──
         public void FadeOutBoneWeights(){} // RVA: 0xC41100
         public void OnInitiate(){} // RVA: 0xC411B0
@@ -249,6 +374,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIK : IKSolverHeuristic
     {
+        public object OnPreIteration;
+        public object limitedBones;
+        public object solverLocalPositions;
+
         // ── Methods ──
         public void SolveForward(){} // RVA: 0xC425F0
         public void SolveBackward(){} // RVA: 0xC426A0
@@ -279,6 +408,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFABRIKRoot : IKSolver
     {
+        public object iterations;
+        public object rootPin;
+        public object chains;
+        public object zeroWeightApplied;
+        public object isRoot;
+        public object rootDefaultPosition;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC470A0
         public void StoreDefaultLocalState(){} // RVA: 0xC47AB0
@@ -295,6 +431,22 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBody : IKSolver
     {
+        public object iterations;
+        public object chain;
+        public object effectors;
+        public object spineMapping;
+        public object boneMappings;
+        public object limbMappings;
+        public object FABRIKPass;
+        public object OnPreRead;
+        public object OnPreSolve;
+        public object OnPreIteration;
+        public object OnPostIteration;
+        public object OnPreBend;
+        public object OnPostSolve;
+        public object OnStoreDefaultLocalState;
+        public object OnFixTransforms;
+
         // ── Methods ──
         public void GetEffector(){} // RVA: 0xC48B30
         public void GetChain(){} // RVA: 0xC48CE0
@@ -317,6 +469,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverFullBodyBiped : IKSolverFullBody
     {
+        public object rootNode;
+        public object spineStiffness;
+        public object pullBodyVertical;
+        public object pullBodyHorizontal;
+        public object _pullBodyOffset;
+        public object offset;
+
         // ── Methods ──
         public void get_bodyEffector(){} // RVA: 0xC4ACC0
         public void get_leftShoulderEffector(){} // RVA: 0xC4ACF0
@@ -366,6 +525,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverHeuristic : IKSolver
     {
+        public object target;
+        public object tolerance;
+        public object maxIterations;
+        public object useRotationLimits;
+        public object XY;
+        public object bones;
+        public object lastLocalDirection;
+        public object chainLength;
+
         // ── Methods ──
         public void SetChain(){} // RVA: 0xC4FB60
         public void AddBone(){} // RVA: 0xC4FD60
@@ -389,6 +557,18 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLeg : IKSolver
     {
+        public object IKRotationWeight;
+        public object IKRotation;
+        public object pelvis;
+        public object thigh;
+        public object calf;
+        public object foot;
+        public object toe;
+        public object leg;
+        public object heelOffset;
+        public object positions;
+        public object rotations;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC51F00
         public void SetChain(){} // RVA: 0xC3EF10
@@ -406,6 +586,23 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLimb : IKSolverTrigonometric
     {
+        public object goal;
+        public object bendModifier;
+        public object maintainRotationWeight;
+        public object bendModifierWeight;
+        public object bendGoal;
+        public object maintainBendFor1Frame;
+        public object maintainRotationFor1Frame;
+        public object defaultRootRotation;
+        public object parentDefaultRotation;
+        public object bone3RotationBeforeSolve;
+        public object maintainRotation;
+        public object bone3DefaultRotation;
+        public object _bendNormal;
+        public object animationNormal;
+        public object axisDirectionsLeft;
+        public object axisDirectionsRight;
+
         // ── Methods ──
         public void MaintainRotation(){} // RVA: 0xC545B0
         public void MaintainBend(){} // RVA: 0xC546A0
@@ -440,6 +637,23 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverLookAt : IKSolver
     {
+        public object target;
+        public object spine;
+        public object head;
+        public object eyes;
+        public object bodyWeight;
+        public object headWeight;
+        public object eyesWeight;
+        public object clampWeight;
+        public object clampWeightHead;
+        public object clampWeightEyes;
+        public object clampSmoothing;
+        public object spineWeightCurve;
+        public object spineTargetOffset;
+        public object spineForwards;
+        public object headForwards;
+        public object eyeForward;
+
         // ── Methods ──
         public void SetLookAtWeight(){} // RVA: 0xC576D0
         public void StoreDefaultLocalState(){} // RVA: 0xC577B0
@@ -466,6 +680,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverTrigonometric : IKSolver
     {
+        public object target;
+        public object IKRotationWeight;
+        public object IKRotation;
+        public object bendNormal;
+        public object bone1;
+        public object bone2;
+        public object bone3;
+        public object weightIKPosition;
+        public object directHierarchy;
+
         // ── Methods ──
         public void SetBendGoalPosition(){} // RVA: 0xC5BC80
         public void SetBendPlaneToCurrent(){} // RVA: 0xC5C040
@@ -494,6 +718,45 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class IKSolverVR : IKSolver
     {
+        public object solverTransforms;
+        public object hasChest;
+        public object hasNeck;
+        public object hasShoulders;
+        public object hasToes;
+        public object hasLegs;
+        public object hasUpperChest;
+        public object readPositions;
+        public object readRotations;
+        public object solvedPositions;
+        public object solvedRotations;
+        public object defaultLocalRotations;
+        public object defaultLocalPositions;
+        public object rootV;
+        public object rootVelocity;
+        public object bodyOffset;
+        public object supportLegIndex;
+        public object lastLOD;
+        public object LOD;
+        public object plantFeet;
+        public object _rootBone;
+        public object spine;
+        public object leftArm;
+        public object rightArm;
+        public object leftLeg;
+        public object rightLeg;
+        public object locomotion;
+        public object legs;
+        public object arms;
+        public object headPosition;
+        public object headDeltaPosition;
+        public object raycastOriginPelvis;
+        public object lastOffset;
+        public object debugPos1;
+        public object debugPos2;
+        public object debugPos3;
+        public object debugPos4;
+        public object vrcLateSolve;
+
         // ── Methods ──
         public void SetToReferences(){} // RVA: 0xC61250
         public void GuessHandOrientations(){} // RVA: 0xC619E0
@@ -573,6 +836,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Inertia : OffsetModifier
     {
+        public object bodies;
+        public object limits;
+
         // ── Methods ──
         public void ResetBodies(){} // RVA: 0xCBDB80
         public void OnModifyOffset(){} // RVA: 0xCBDC30
@@ -581,6 +847,43 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionEffector : Object
     {
+        public object _effectorType;
+        public object _isPaused;
+        public object _interactionObject;
+        public object poser;
+        public object effector;
+        public object timer;
+        public object length;
+        public object weight;
+        public object fadeInSpeed;
+        public object defaultPositionWeight;
+        public object defaultRotationWeight;
+        public object defaultPull;
+        public object defaultReach;
+        public object defaultPush;
+        public object defaultPushParent;
+        public object defaultBendGoalWeight;
+        public object resetTimer;
+        public object positionWeightUsed;
+        public object rotationWeightUsed;
+        public object pullUsed;
+        public object reachUsed;
+        public object pushUsed;
+        public object pushParentUsed;
+        public object bendGoalWeightUsed;
+        public object pickedUp;
+        public object defaults;
+        public object pickUpOnPostFBBIK;
+        public object pickUpPosition;
+        public object pausePositionRelative;
+        public object pickUpRotation;
+        public object pauseRotationRelative;
+        public object interactionTarget;
+        public object target;
+        public object triggered;
+        public object interactionSystem;
+        public object started;
+
         // ── Methods ──
         public void get_effectorType(){} // RVA: 0xB8F8F0
         public void set_effectorType(){} // RVA: 0xB460A0
@@ -626,6 +929,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionLookAt : Object
     {
+        public object ik;
+        public object lerpSpeed;
+        public object weightSpeed;
+        public object isPaused;
+        public object lookAtTarget;
+        public object stopLookTime;
+        public object weight;
+        public object firstFBBIKSolve;
+
         // ── Methods ──
         public void Look(){} // RVA: 0xC9FC30
         public void OnFixTransforms(){} // RVA: 0xC9FED0
@@ -637,6 +949,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionObject : MonoBehaviour
     {
+        public object otherLookAtTarget;
+        public object otherTargetsRoot;
+        public object positionOffsetSpace;
+        public object weightCurves;
+        public object multipliers;
+        public object events;
+        public object _length;
+        public object _lastUsedInteractionSystem;
+        public object targets;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -667,6 +989,31 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionSystem : MonoBehaviour
     {
+        public object targetTag;
+        public object fadeInTime;
+        public object speed;
+        public object resetToDefaultsSpeed;
+        public object characterCollider;
+        public object FPSCamera;
+        public object camRaycastLayers;
+        public object camRaycastDistance;
+        public object _triggersInRange;
+        public object inContact;
+        public object bestRangeIndexes;
+        public object OnInteractionStart;
+        public object OnInteractionPause;
+        public object OnInteractionPickUp;
+        public object OnInteractionResume;
+        public object OnInteractionStop;
+        public object OnInteractionEvent;
+        public object raycastHit;
+        public object fullBody;
+        public object lookAt;
+        public object interactionEffectors;
+        public object initiated;
+        public object lastCollider;
+        public object c;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -727,6 +1074,17 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTarget : MonoBehaviour
     {
+        public object effectorType;
+        public object multipliers;
+        public object interactionSpeedMlp;
+        public object pivot;
+        public object twistAxis;
+        public object twistWeight;
+        public object swingWeight;
+        public object rotateOnce;
+        public object defaultLocalRotation;
+        public object lastPivot;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -764,6 +1122,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class InteractionTrigger : MonoBehaviour
     {
+        public object ranges;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310

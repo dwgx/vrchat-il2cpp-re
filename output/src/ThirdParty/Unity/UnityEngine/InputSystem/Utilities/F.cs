@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class ForDeviceEventObservable : Object
     {
+        public object m_Source;
+        public object m_Device;
+        public object m_DeviceType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7832250
         public void Subscribe(){} // RVA: 0x7832350
@@ -14,6 +18,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class FourCC : ValueType
     {
+        public object m_Code;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x92E250
         public void op_Implicit(){} // RVA: 0x294E720

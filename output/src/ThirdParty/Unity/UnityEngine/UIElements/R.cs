@@ -7,6 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class RadioButton : BaseBoolField
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object checkmarkBackgroundUssClassName;
+        public object checkmarkUssClassName;
+        public object textUssClassName;
+        public object m_CheckmarkBackground;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x8010AC0
         public void set_value(){} // RVA: 0x8010B10
@@ -24,6 +32,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RadioButtonGroup : BaseField`1
     {
+        public object choicesProperty;
+        public object ussClassName;
+        public object containerUssClassName;
+        public object containerName;
+        public object choicesContainerName;
+        public object m_ChoiceRadioButtonContainer;
+        public object m_ContentContainer;
+        public object m_GetAllRadioButtonsQuery;
+        public object m_RegisteredRadioButtons;
+        public object m_SelectedRadioButton;
+        public object m_RadioButtonValueChangedCallback;
+        public object m_UpdatingButtons;
+        public object m_Choices;
+
         // ── Methods ──
         public void get_choices(){} // RVA: 0x8011DE0
         public void set_choices(){} // RVA: 0x8011E90
@@ -47,6 +69,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RareData : ValueType
     {
+        public object cursor;
+        public object textOverflow;
+        public object unityBackgroundImageTintColor;
+        public object unityOverflowClipBox;
+        public object unitySliceBottom;
+        public object unitySliceLeft;
+        public object unitySliceRight;
+        public object unitySliceScale;
+        public object unitySliceTop;
+        public object unitySliceType;
+        public object unityTextOverflowPosition;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x461D00
         public void CopyFrom(){} // RVA: 0x996500
@@ -57,6 +91,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReadOnlyHierarchyViewModelList : Object
     {
+        public object m_HierarchyViewModel;
+
         // ── Methods ──
         public void get_IsFixedSize(){} // RVA: 0xC2E4C0
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -79,6 +115,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RectField : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD1410
         public void .ctor(){} // RVA: 0x7FD2120
@@ -87,6 +127,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RectIntField : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD2E60
         public void .ctor(){} // RVA: 0x7FD3B70
@@ -95,6 +139,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RepaintData : Object
     {
+        public object _currentOffset;
+        public object _mousePosition;
+        public object _currentWorldClip;
+        public object _repaintEvent;
+
         // ── Methods ──
         public void get_currentOffset(){} // RVA: 0x3923A30
         public void get_currentWorldClip(){} // RVA: 0x19FAA30
@@ -105,6 +154,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RepeatButton : TextElement
     {
+        public object m_Clickable;
+        public object m_AcceptClicksIfDisabled;
+        public object ussClassName;
+
         // ── Methods ──
         public void set_acceptClicksIfDisabled(){} // RVA: 0x8014DB0
         public void .ctor(){} // RVA: 0x8014E80
@@ -115,6 +168,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ResolvedStyleAccess : Object
     {
+        public object _ve;
+
         // ── Methods ──
         public void get_alignContent(){} // RVA: 0x7EA8610
         public void get_alignItems(){} // RVA: 0x7EA8660
@@ -202,6 +257,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ResolvedStyleAccessPropertyBag : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EC67F0
         public void AddProperty(){} // RVA: 0x29A3300
@@ -211,6 +269,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableCollectionItem : Object
     {
+        public object _bindableElement;
+        public object _animator;
+        public object _index;
+        public object _id;
+        public object _isDragGhost;
+        public object onGeometryChanged;
+        public object m_GeometryChangedEventCallback;
+        public object onDestroy;
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0xB5DBF0
         public void get_bindableElement(){} // RVA: 0xB5DBF0
@@ -239,6 +306,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableListViewItem : ReusableCollectionItem
     {
+        public object k_SortingDisablesReorderingTooltip;
+        public object m_Container;
+        public object m_DragHandle;
+        public object m_ItemContainer;
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0x7E8DBF0
         public void Init(){} // RVA: 0x7E8DC00
@@ -270,6 +342,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ReusableTreeViewItem : ReusableCollectionItem
     {
+        public object m_Toggle;
+        public object m_Container;
+        public object m_IndentElement;
+        public object m_BindableContainer;
+        public object m_Checkmark;
+        public object onPointerUp;
+        public object onToggleValueChanged;
+        public object m_Depth;
+        public object m_IndentWidth;
+        public object customIndentWidth;
+        public object m_PointerUpCallback;
+        public object m_ToggleValueChangedCallback;
+        public object m_ToggleGeometryChangedCallback;
+
         // ── Methods ──
         public void get_rootElement(){} // RVA: 0x7E8EC90
         public void add_onPointerUp(){} // RVA: 0x7E8ECA0
@@ -293,6 +379,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Rotate : ValueType
     {
+        public object m_Angle;
+        public object m_Axis;
+        public object m_IsNone;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x997010
         public void Initial(){} // RVA: 0x7ED7350
@@ -311,6 +401,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RuleMatcher : ValueType
     {
+        public object sheet;
+        public object complexSelector;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x99A9A0
     }
@@ -323,6 +416,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class RuntimePanel : BaseRuntimePanel
     {
+        public object s_EventDispatcher;
+        public object m_PanelSettings;
+
         // ── Methods ──
         public void get_panelSettings(){} // RVA: 0x165F4F0
         public void Create(){} // RVA: 0x8074DC0

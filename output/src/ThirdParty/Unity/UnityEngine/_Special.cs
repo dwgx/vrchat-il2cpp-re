@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class _AndroidJNIHelper : Object
     {
+        public object FRAME_SIZE_FOR_ARRAYS;
+
         // ── Methods ──
         public void CreateJavaProxy(){} // RVA: 0x7AEC1D0
         public void CreateJavaRunnable(){} // RVA: 0x7AEC370

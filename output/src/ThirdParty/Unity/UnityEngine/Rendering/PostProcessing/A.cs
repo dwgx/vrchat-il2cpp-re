@@ -7,6 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class AmbientOcclusion : PostProcessEffectSettings
     {
+        public object mode;
+        public object intensity;
+        public object color;
+        public object ambientOnly;
+        public object noiseFilterTolerance;
+        public object blurTolerance;
+        public object upsampleTolerance;
+        public object thicknessModifier;
+        public object zBias;
+        public object directLightingStrength;
+        public object radius;
+        public object quality;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7959290
         public void .ctor(){} // RVA: 0x7959640
@@ -26,6 +39,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class AmbientOcclusionRenderer : PostProcessEffectRenderer`1
     {
+        public object m_Methods;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7959D60
         public void IsAmbientOnly(){} // RVA: 0x7959F20
@@ -40,6 +55,14 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class AutoExposure : PostProcessEffectSettings
     {
+        public object filtering;
+        public object minLuminance;
+        public object maxLuminance;
+        public object keyValue;
+        public object eyeAdaptation;
+        public object speedUp;
+        public object speedDown;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x795A350
         public void .ctor(){} // RVA: 0x795A510
@@ -47,6 +70,12 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class AutoExposureRenderer : PostProcessEffectRenderer`1
     {
+        public object k_NumEyes;
+        public object k_NumAutoExposureTextures;
+        public object m_AutoExposurePool;
+        public object m_AutoExposurePingPong;
+        public object m_CurrentAutoExposure;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x795A980
         public void CheckTexture(){} // RVA: 0x795AC00

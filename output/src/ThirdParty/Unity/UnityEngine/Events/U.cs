@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Events
 // Classes: 81
-// Methods: 430
+// Methods: 429
 
 namespace ThirdParty.Unity.UnityEngine.Events
 {
@@ -43,6 +43,54 @@ namespace ThirdParty.Unity.UnityEngine.Events
     public class UnityAction`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+    }
+
+    public class UnityAction`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x35A76F0
         public void Invoke(){} // RVA: 0x35A77C0
     }
@@ -66,55 +114,6 @@ namespace ThirdParty.Unity.UnityEngine.Events
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3EFE870
         public void Invoke(){} // RVA: 0x3E2EFD0
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xBC4530
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xC3B2D0
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xBC4530
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xBC4530
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-    }
-
-    public class UnityAction`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
     }
 
     public class UnityAction`1 : MulticastDelegate
@@ -208,6 +207,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x7C27A50
@@ -219,6 +220,10 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEventBase : Object
     {
+        public object m_Calls;
+        public object m_PersistentCalls;
+        public object m_CallsDirty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C26760
         public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7C26AD0
@@ -289,6 +294,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void AddListener(){} // RVA: 0x894320
@@ -300,6 +307,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -311,6 +320,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -322,6 +333,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -333,6 +346,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -344,6 +359,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -355,6 +372,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -366,6 +385,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -377,6 +398,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -388,6 +411,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -399,17 +424,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509EE30
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x509EEC0
-        public void GetDelegate(){} // RVA: 0x509F050
-        public void Invoke(){} // RVA: 0x509F110
-    }
+        public object m_InvokeArray;
 
-    public class UnityEvent`1 : UnityEventBase
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -421,28 +437,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509BED0
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x509DB40
-        public void GetDelegate(){} // RVA: 0x509C1C0
-        public void Invoke(){} // RVA: 0x509DC50
-    }
+        public object m_InvokeArray;
 
-    public class UnityEvent`1 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509BED0
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x509DB40
-        public void GetDelegate(){} // RVA: 0x509C1C0
-        public void Invoke(){} // RVA: 0x509DC50
-    }
-
-    public class UnityEvent`1 : UnityEventBase
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -454,6 +450,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -465,6 +463,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -476,6 +476,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -487,6 +489,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -498,6 +502,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -509,6 +515,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -520,6 +528,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -531,6 +541,21 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509EE30
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x509EEC0
+        public void GetDelegate(){} // RVA: 0x509F050
+        public void Invoke(){} // RVA: 0x509F110
+    }
+
+    public class UnityEvent`1 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -542,6 +567,21 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509BED0
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x509DB40
+        public void GetDelegate(){} // RVA: 0x509C1C0
+        public void Invoke(){} // RVA: 0x509DC50
+    }
+
+    public class UnityEvent`1 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509BED0
@@ -553,6 +593,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void Invoke(){} // RVA: 0x509CD90
         public void .ctor(){} // RVA: 0x25DCF60
@@ -564,6 +606,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void Invoke(){} // RVA: 0x509D8A0
         public void .ctor(){} // RVA: 0x25DCF60
@@ -575,6 +619,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void Invoke(){} // RVA: 0x509EB60
         public void .ctor(){} // RVA: 0x25DCF60
@@ -586,6 +632,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`1 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509EE30
@@ -595,8 +643,23 @@ namespace ThirdParty.Unity.UnityEngine.Events
         public void Invoke(){} // RVA: 0x509F110
     }
 
+    public class UnityEvent`1 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509BED0
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x509DB40
+        public void GetDelegate(){} // RVA: 0x509C1C0
+        public void Invoke(){} // RVA: 0x509DC50
+    }
+
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void AddListener(){} // RVA: 0x894320
@@ -608,6 +671,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509F800
@@ -619,6 +684,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509F800
@@ -630,6 +697,21 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509F800
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A0870
+        public void GetDelegate(){} // RVA: 0x509FAA0
+        public void Invoke(){} // RVA: 0x50A0A10
+    }
+
+    public class UnityEvent`2 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509EE30
@@ -641,6 +723,21 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509F800
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A03D0
+        public void GetDelegate(){} // RVA: 0x509FAA0
+        public void Invoke(){} // RVA: 0x50A0570
+    }
+
+    public class UnityEvent`2 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509F800
@@ -652,6 +749,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`2 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x509F800
@@ -661,96 +760,10 @@ namespace ThirdParty.Unity.UnityEngine.Events
         public void Invoke(){} // RVA: 0x50A00D0
     }
 
-    public class UnityEvent`2 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509F800
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A0870
-        public void GetDelegate(){} // RVA: 0x509FAA0
-        public void Invoke(){} // RVA: 0x50A0A10
-    }
-
-    public class UnityEvent`2 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509F800
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A03D0
-        public void GetDelegate(){} // RVA: 0x509FAA0
-        public void Invoke(){} // RVA: 0x50A0570
-    }
-
     public class UnityEvent`3 : UnityEventBase
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x50A1900
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A2730
-        public void GetDelegate(){} // RVA: 0x50A1C20
-        public void Invoke(){} // RVA: 0x50A2950
-    }
+        public object m_InvokeArray;
 
-    public class UnityEvent`3 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x50A1900
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A2730
-        public void GetDelegate(){} // RVA: 0x50A1C20
-        public void Invoke(){} // RVA: 0x50A2950
-    }
-
-    public class UnityEvent`3 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x50A1900
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A2CF0
-        public void GetDelegate(){} // RVA: 0x50A1C20
-        public void Invoke(){} // RVA: 0x50A2F10
-    }
-
-    public class UnityEvent`3 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x50A1900
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A32B0
-        public void GetDelegate(){} // RVA: 0x50A1C20
-        public void Invoke(){} // RVA: 0x50A34D0
-    }
-
-    public class UnityEvent`3 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x509EE30
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A3870
-        public void GetDelegate(){} // RVA: 0x50A3B10
-        public void Invoke(){} // RVA: 0x50A3BD0
-    }
-
-    public class UnityEvent`3 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25DCF60
-        public void AddListener(){} // RVA: 0x50A1900
-        public void RemoveListener(){} // RVA: 0x509BFD0
-        public void FindMethod_Impl(){} // RVA: 0x50A1980
-        public void GetDelegate(){} // RVA: 0x50A1C20
-        public void Invoke(){} // RVA: 0x50A1D90
-    }
-
-    public class UnityEvent`3 : UnityEventBase
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void AddListener(){} // RVA: 0x894320
@@ -762,6 +775,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`3 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x50A1900
@@ -773,6 +788,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`3 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x50A1900
@@ -784,6 +801,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`3 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x50A1900
@@ -795,6 +814,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`3 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void AddListener(){} // RVA: 0x50A1900
@@ -804,8 +825,99 @@ namespace ThirdParty.Unity.UnityEngine.Events
         public void Invoke(){} // RVA: 0x50A34D0
     }
 
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x50A1900
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A2730
+        public void GetDelegate(){} // RVA: 0x50A1C20
+        public void Invoke(){} // RVA: 0x50A2950
+    }
+
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x50A1900
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A2730
+        public void GetDelegate(){} // RVA: 0x50A1C20
+        public void Invoke(){} // RVA: 0x50A2950
+    }
+
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x50A1900
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A2CF0
+        public void GetDelegate(){} // RVA: 0x50A1C20
+        public void Invoke(){} // RVA: 0x50A2F10
+    }
+
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x50A1900
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A32B0
+        public void GetDelegate(){} // RVA: 0x50A1C20
+        public void Invoke(){} // RVA: 0x50A34D0
+    }
+
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x509EE30
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A3870
+        public void GetDelegate(){} // RVA: 0x50A3B10
+        public void Invoke(){} // RVA: 0x50A3BD0
+    }
+
+    public class UnityEvent`3 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25DCF60
+        public void AddListener(){} // RVA: 0x50A1900
+        public void RemoveListener(){} // RVA: 0x509BFD0
+        public void FindMethod_Impl(){} // RVA: 0x50A1980
+        public void GetDelegate(){} // RVA: 0x50A1C20
+        public void Invoke(){} // RVA: 0x50A1D90
+    }
+
     public class UnityEvent`4 : UnityEventBase
     {
+        public object m_InvokeArray;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x894290
+        public void FindMethod_Impl(){} // RVA: 0x87C5F0
+        public void GetDelegate(){} // RVA: 0x87C5F0
+        public void Invoke(){} // RVA: 0xA94080
+    }
+
+    public class UnityEvent`4 : UnityEventBase
+    {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void FindMethod_Impl(){} // RVA: 0x50A41B0
@@ -815,6 +927,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`4 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void FindMethod_Impl(){} // RVA: 0x50A4910
@@ -824,20 +938,13 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class UnityEvent`4 : UnityEventBase
     {
+        public object m_InvokeArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25DCF60
         public void FindMethod_Impl(){} // RVA: 0x50A4FF0
         public void GetDelegate(){} // RVA: 0x50A4450
         public void Invoke(){} // RVA: 0x50A5290
-    }
-
-    public class UnityEvent`4 : UnityEventBase
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x894290
-        public void FindMethod_Impl(){} // RVA: 0x87C5F0
-        public void GetDelegate(){} // RVA: 0x87C5F0
-        public void Invoke(){} // RVA: 0xA94080
     }
 
 }

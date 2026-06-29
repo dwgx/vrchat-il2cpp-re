@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class TakeNObservable`1 : Object
     {
+        public object m_Source;
+        public object m_Count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void Subscribe(){} // RVA: 0x87C540
@@ -24,6 +27,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class TypeTable : ValueType
     {
+        public object table;
+
         // ── Methods ──
         public void get_names(){} // RVA: 0x92FC80
         public void get_internedNames(){} // RVA: 0x92FC90

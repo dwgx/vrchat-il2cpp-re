@@ -7,6 +7,17 @@ namespace ThirdParty.Other.Transmtn
 {
     public class Api : Object
     {
+        public object _websocketPipeline;
+        public object PhoneBook;
+        public object PostOffice;
+        public object GroupsWebSocketEventHandler;
+        public object QueueWebSocketEventHandler;
+        public object ContentWebSocketEventHandler;
+        public object EconomyWebSocketEventHandler;
+        public object InstanceWebSocketEventHandler;
+        public object ChallengesWebsocketEventHandler;
+        public object InventoryWebSocketEventHandler;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79AE60
         public void Dispose(){} // RVA: 0xA79BCD0
@@ -14,6 +25,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class ChallengesWebsocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA79BDA0
         public void remove_OnUpdateReceived(){} // RVA: 0xA79BEB0
@@ -23,12 +36,16 @@ namespace ThirdParty.Other.Transmtn
 
     public class ContentEvent : EventArgs
     {
+        public object ContentType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79DB40
     }
 
     public class ContentWebSocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA79C860
         public void remove_OnUpdateReceived(){} // RVA: 0xA79C970
@@ -38,12 +55,22 @@ namespace ThirdParty.Other.Transmtn
 
     public class EconomyEvent : EventArgs
     {
+        public object UpdateWallet;
+        public object WalletBalance;
+        public object DirtyPurchases;
+        public object PurchaseToken;
+        public object IsGift;
+        public object GiftBuyerId;
+        public object GiftListingId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79F1C0
     }
 
     public class EconomyWebsocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA79DB90
         public void remove_OnUpdateReceived(){} // RVA: 0xA79DCA0
@@ -53,12 +80,18 @@ namespace ThirdParty.Other.Transmtn
 
     public class GroupEvent : EventArgs
     {
+        public object groupId;
+        public object eventType;
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7A0700
     }
 
     public class GroupsWebSocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA79F210
         public void remove_OnUpdateReceived(){} // RVA: 0xA79F320
@@ -155,12 +188,17 @@ namespace ThirdParty.Other.Transmtn
 
     public class InstanceEvent : EventArgs
     {
+        public object EventType;
+        public object InstanceLocation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7A1E00
     }
 
     public class InstanceWebSocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA7A1080
         public void remove_OnUpdateReceived(){} // RVA: 0xA7A1190
@@ -171,12 +209,18 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryContentEvent : ContentEvent
     {
+        public object ItemId;
+        public object ItemType;
+        public object ActionType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79DB40
     }
 
     public class InventoryEvent : Object
     {
+        public object _type;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xB8F8F0
         public void set_Type(){} // RVA: 0xB460A0
@@ -185,6 +229,11 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryShareEvent : InventoryEvent
     {
+        public object _fromUserId;
+        public object _itemId;
+        public object _fromDisplayName;
+        public object _token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x132A2D0
         public void get_FromUserId(){} // RVA: 0xB465B0
@@ -199,6 +248,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class InventoryWebSocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA7A1E50
         public void remove_OnUpdateReceived(){} // RVA: 0xA7A1F60
@@ -208,12 +259,17 @@ namespace ThirdParty.Other.Transmtn
 
     public class LegacyContentEvent : ContentEvent
     {
+        public object FileID;
+        public object ActionType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79DB40
     }
 
     public class NotificationEvent : EventArgs
     {
+        public object _notification;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7A5EF0
         public void get_notification(){} // RVA: 0xB5DBF0
@@ -222,6 +278,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class PhoneBook : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA7A2D90
         public void remove_OnUpdateReceived(){} // RVA: 0xA7A2EA0
@@ -232,6 +290,19 @@ namespace ThirdParty.Other.Transmtn
 
     public class PostOffice : Object
     {
+        public object _httpClient;
+        public object NOTIFICATION;
+        public object NOTIFICATIONV2;
+        public object OnNotification;
+        public object maximumAllowedFileAttachmentInBytes;
+        public object _serverTimeProvider;
+        public object fiveMinutes;
+        public object _sortedNotifications;
+        public object _notificationDictionary;
+        public object _notificationsToDelete;
+        public object _notificationsToUpdate;
+        public object fetchCount;
+
         // ── Methods ──
         public void get_HttpClient(){} // RVA: 0xB5DBF0
         public void set_HttpClient(){} // RVA: 0xB44D60
@@ -275,12 +346,20 @@ namespace ThirdParty.Other.Transmtn
 
     public class QueueEvent : EventArgs
     {
+        public object EventType;
+        public object InstanceLocation;
+        public object Expiry;
+        public object Position;
+        public object QueueSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7AEF90
     }
 
     public class QueueWebSocketEventHandler : Object
     {
+        public object OnUpdateReceived;
+
         // ── Methods ──
         public void add_OnUpdateReceived(){} // RVA: 0xA7ADB70
         public void remove_OnUpdateReceived(){} // RVA: 0xA7ADC80
@@ -292,6 +371,8 @@ namespace ThirdParty.Other.Transmtn
 
     public class Router : Object
     {
+        public object _routes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7AEFE0
         public void AddRoute(){} // RVA: 0xA7AF0A0
@@ -300,6 +381,9 @@ namespace ThirdParty.Other.Transmtn
 
     public class SocketEnvelope : Object
     {
+        public object _type;
+        public object _content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7AF9F0
         public void get_type(){} // RVA: 0xB5DBF0
@@ -310,6 +394,9 @@ namespace ThirdParty.Other.Transmtn
 
     public class UpdateEvent : EventArgs
     {
+        public object _user;
+        public object _messageType;
+
         // ── Methods ──
         public void get_user(){} // RVA: 0xB5DBF0
         public void set_user(){} // RVA: 0xB44D60
@@ -320,6 +407,17 @@ namespace ThirdParty.Other.Transmtn
 
     public class WebsocketPipeline : Object
     {
+        public object OnConnectionEstablished;
+        public object OnLostConnection;
+        public object _router;
+        public object _endpoint;
+        public object _authToken;
+        public object _macAddress;
+        public object _clientVersion;
+        public object _platform;
+        public object _connectionId;
+        public object _pipeCancellationSource;
+
         // ── Methods ──
         public void add_OnConnectionEstablished(){} // RVA: 0xA7AFB50
         public void remove_OnConnectionEstablished(){} // RVA: 0xA7AFC40

@@ -33,6 +33,9 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class Long1024 : ValueType
     {
+        public object f0;
+        public object f1;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x924280
         public void ElementAt(){} // RVA: 0x924290

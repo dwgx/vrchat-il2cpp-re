@@ -15,6 +15,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void AddProperty(){} // RVA: 0x894320
@@ -25,6 +28,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -35,6 +41,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -45,6 +54,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -55,6 +67,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -65,6 +80,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -75,6 +93,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -85,6 +106,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -95,6 +119,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -105,6 +132,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -115,6 +145,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -125,6 +158,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -135,6 +171,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -145,6 +184,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -155,6 +197,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -165,6 +210,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -175,6 +223,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -185,6 +236,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -195,6 +249,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -205,6 +262,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -215,6 +275,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -225,6 +288,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -235,6 +301,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -245,6 +314,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -255,6 +327,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -265,6 +340,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -275,6 +353,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -285,6 +366,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -295,6 +379,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x894320
@@ -305,6 +392,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -315,6 +405,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -325,6 +418,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -335,6 +431,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -345,6 +444,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -355,6 +457,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -365,6 +470,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -375,6 +483,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -385,6 +496,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -395,6 +509,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -405,6 +522,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -415,6 +535,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -425,6 +548,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -435,6 +561,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -445,6 +574,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -455,6 +587,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -465,6 +600,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -475,6 +613,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -485,6 +626,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -495,6 +639,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -505,6 +652,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -515,6 +665,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -525,6 +678,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -535,6 +691,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -545,6 +704,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -555,6 +717,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -565,6 +730,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -575,6 +743,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -585,6 +756,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -595,6 +769,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -605,6 +782,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -615,6 +795,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -625,6 +808,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -635,6 +821,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -645,6 +834,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -655,6 +847,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -665,6 +860,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -675,6 +873,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -685,6 +886,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -695,6 +899,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x2D4E230
@@ -705,6 +912,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ContainerPropertyBag`1 : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void AddProperty(){} // RVA: 0x894320
@@ -715,6 +925,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class ConversionRegistry : ValueType
     {
+        public object Comparer;
+        public object m_Converters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Create(){} // RVA: 0x7D43F60
@@ -728,6 +941,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class CreatePropertyAttribute : RequiredMemberAttribute
     {
+        public object _readOnly;
+
         // ── Methods ──
         public void get_ReadOnly(){} // RVA: 0xC120A0
         public void set_ReadOnly(){} // RVA: 0xC120B0

@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 {
     public class Bone : ValueType
     {
+        public object m_DeviceId;
+        public object m_FeatureIndex;
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x44D9F0
         public void get_featureIndex(){} // RVA: 0x438050
@@ -36,12 +39,75 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class CommonUsages : Object
     {
+        public object isTracked;
+        public object primaryButton;
+        public object primaryTouch;
+        public object secondaryButton;
+        public object secondaryTouch;
+        public object gripButton;
+        public object triggerButton;
+        public object menuButton;
+        public object primary2DAxisClick;
+        public object primary2DAxisTouch;
+        public object secondary2DAxisClick;
+        public object secondary2DAxisTouch;
+        public object userPresence;
+        public object trackingState;
+        public object batteryLevel;
+        public object trigger;
+        public object grip;
+        public object primary2DAxis;
+        public object secondary2DAxis;
+        public object devicePosition;
+        public object leftEyePosition;
+        public object rightEyePosition;
+        public object centerEyePosition;
+        public object colorCameraPosition;
+        public object deviceVelocity;
+        public object deviceAngularVelocity;
+        public object leftEyeVelocity;
+        public object leftEyeAngularVelocity;
+        public object rightEyeVelocity;
+        public object rightEyeAngularVelocity;
+        public object centerEyeVelocity;
+        public object centerEyeAngularVelocity;
+        public object colorCameraVelocity;
+        public object colorCameraAngularVelocity;
+        public object deviceAcceleration;
+        public object deviceAngularAcceleration;
+        public object leftEyeAcceleration;
+        public object leftEyeAngularAcceleration;
+        public object rightEyeAcceleration;
+        public object rightEyeAngularAcceleration;
+        public object centerEyeAcceleration;
+        public object centerEyeAngularAcceleration;
+        public object colorCameraAcceleration;
+        public object colorCameraAngularAcceleration;
+        public object deviceRotation;
+        public object leftEyeRotation;
+        public object rightEyeRotation;
+        public object centerEyeRotation;
+        public object colorCameraRotation;
+        public object handData;
+        public object eyesData;
+        public object dPad;
+        public object indexFinger;
+        public object middleFinger;
+        public object ringFinger;
+        public object pinkyFinger;
+        public object thumbrest;
+        public object indexTouch;
+        public object thumbTouch;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x813F030
     }
 
     public class Eyes : ValueType
     {
+        public object m_DeviceId;
+        public object m_FeatureIndex;
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x44D9F0
         public void get_featureIndex(){} // RVA: 0x438050
@@ -71,6 +137,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class Hand : ValueType
     {
+        public object m_DeviceId;
+        public object m_FeatureIndex;
+
         // ── Methods ──
         public void get_deviceId(){} // RVA: 0x44D9F0
         public void get_featureIndex(){} // RVA: 0x438050
@@ -100,6 +169,13 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class HapticCapabilities : ValueType
     {
+        public object m_NumChannels;
+        public object m_SupportsImpulse;
+        public object m_SupportsBuffer;
+        public object m_BufferFrequencyHz;
+        public object m_BufferMaxSize;
+        public object m_BufferOptimalSize;
+
         // ── Methods ──
         public void get_numChannels(){} // RVA: 0x454FE0
         public void get_supportsImpulse(){} // RVA: 0x9AFD10
@@ -119,6 +195,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevice : ValueType
     {
+        public object s_InputSubsystemCache;
+        public object m_DeviceId;
+        public object m_Initialized;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B0080
         public void get_deviceId(){} // RVA: 0x9B0090
@@ -158,6 +238,11 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputDevices : Object
     {
+        public object s_InputDeviceList;
+        public object deviceConnected;
+        public object deviceDisconnected;
+        public object deviceConfigChanged;
+
         // ── Methods ──
         public void GetDeviceAtXRNode(){} // RVA: 0x81419A0
         public void GetDevicesAtXRNode(){} // RVA: 0x8141A20
@@ -218,6 +303,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage : ValueType
     {
+        public object m_Name;
+        public object m_InternalType;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x44D9F0
         public void get_internalType(){} // RVA: 0x438050
@@ -247,6 +335,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputFeatureUsage`1 : ValueType
     {
+        public object _name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x87C0A0
         public void set_name(){} // RVA: 0x894320
@@ -257,6 +347,11 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class InputTracking : Object
     {
+        public object trackingAcquired;
+        public object trackingLost;
+        public object nodeAdded;
+        public object nodeRemoved;
+
         // ── Methods ──
         public void InvokeTrackingEvent(){} // RVA: 0x813DE30
         public void GetLocalPosition(){} // RVA: 0x813DFF0
@@ -294,6 +389,16 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshGenerationResult : ValueType
     {
+        public object _meshId;
+        public object _mesh;
+        public object _meshCollider;
+        public object _status;
+        public object _attributes;
+        public object _timestamp;
+        public object _position;
+        public object _rotation;
+        public object _scale;
+
         // ── Methods ──
         public void get_MeshId(){} // RVA: 0x7BF80
         public void get_Mesh(){} // RVA: 0x7E450
@@ -349,6 +454,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class MeshId : ValueType
     {
+        public object s_InvalidId;
+        public object m_SubId1;
+        public object m_SubId2;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x9B07C0
         public void GetHashCode(){} // RVA: 0x963A60
@@ -398,6 +507,8 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDevice : Object
     {
+        public object deviceLoaded;
+
         // ── Methods ──
         public void GetNativePtr(){} // RVA: 0x813CDF0
         public void DisableAutoXRCameraTracking(){} // RVA: 0x813CE40
@@ -429,6 +540,9 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRDisplaySubsystem : IntegratedSubsystem`1
     {
+        public object displayFocusChanged;
+        public object m_HDROutputSettings;
+
         // ── Methods ──
         public void InvokeDisplayFocusChanged(){} // RVA: 0x7B32640
         public void get_scaleOfAllRenderTargets(){} // RVA: 0x8143F70
@@ -486,6 +600,10 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRInputSubsystem : IntegratedSubsystem`1
     {
+        public object trackingOriginUpdated;
+        public object boundaryChanged;
+        public object m_DeviceIdsCache;
+
         // ── Methods ──
         public void TryRecenter(){} // RVA: 0x8144170
         public void TrySetTrackingOriginMode(){} // RVA: 0x81441E0
@@ -603,6 +721,17 @@ namespace ThirdParty.Unity.UnityEngine.XR
 
     public class XRNodeState : ValueType
     {
+        public object m_Type;
+        public object m_AvailableFields;
+        public object m_Position;
+        public object m_Rotation;
+        public object m_Velocity;
+        public object m_AngularVelocity;
+        public object m_Acceleration;
+        public object m_AngularAcceleration;
+        public object m_Tracked;
+        public object m_UniqueID;
+
         // ── Methods ──
         public void set_uniqueID(){} // RVA: 0x9AFB70
         public void get_nodeType(){} // RVA: 0x454FE0

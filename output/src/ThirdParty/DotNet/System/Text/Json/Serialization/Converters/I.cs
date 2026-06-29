@@ -89,6 +89,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableConverterFactory : JsonConverterFactory
     {
+        public object s_converterForIDictionary;
+        public object s_converterForIEnumerable;
+        public object s_converterForIList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void CanConvert(){} // RVA: 0x6DCE4B0
@@ -98,6 +102,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableConverterFactory : JsonConverterFactory
     {
+        public object s_converterForIDictionary;
+        public object s_converterForIEnumerable;
+        public object s_converterForIList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4127AC0
         public void CanConvert(){} // RVA: 0x7343690
@@ -117,6 +125,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableConverter`1 : JsonCollectionConverter`2
     {
+        public object _isDeserializable;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x8943B0
         public void get_SupportsCreateObjectDelegate(){} // RVA: 0x87D280
@@ -128,25 +138,25 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
-        public void OnWriteResume(){} // RVA: 0x3F99170
-        public void .ctor(){} // RVA: 0x3347490
-    }
-
-    public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
-    {
-        // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
-        public void OnWriteResume(){} // RVA: 0x3F99170
-        public void .ctor(){} // RVA: 0x3347490
-    }
-
-    public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
-    {
-        // ── Methods ──
         public void get_CanHaveIdMetadata(){} // RVA: 0x87D280
         public void OnWriteResume(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x894290
+    }
+
+    public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
+    {
+        // ── Methods ──
+        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
+        public void OnWriteResume(){} // RVA: 0x3F99170
+        public void .ctor(){} // RVA: 0x3347490
+    }
+
+    public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
+    {
+        // ── Methods ──
+        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
+        public void OnWriteResume(){} // RVA: 0x3F99170
+        public void .ctor(){} // RVA: 0x3347490
     }
 
     public class IEnumerableDefaultConverter`2 : JsonCollectionConverter`2
@@ -376,6 +386,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IEnumerableOfTConverter`2 : IEnumerableDefaultConverter`2
     {
+        public object _isDeserializable;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x8943B0
         public void get_SupportsCreateObjectDelegate(){} // RVA: 0x87D280
@@ -434,6 +446,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class IReadOnlyDictionaryOfTKeyTValueConverter`3 : DictionaryDefaultConverter`3
     {
+        public object _isDeserializable;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void get_SupportsCreateObjectDelegate(){} // RVA: 0x87D280

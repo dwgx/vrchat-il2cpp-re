@@ -7,15 +7,19 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class HybridReferenceDictionary`2 : Object
     {
+        public object _keysAndValues;
+        public object _dict;
+        public object ArraySize;
+
         // ── Methods ──
-        public void TryGetValue(){} // RVA: 0x7A8051B10
-        public void Remove(){} // RVA: 0x7A8051B10
-        public void ContainsKey(){} // RVA: 0x7A8051B10
-        public void GetEnumerator(){} // RVA: 0x7A7E00680
-        public void GetEnumeratorWorker(){} // RVA: 0x7A7E00680
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void TryGetValue(){} // RVA: 0xA94080
+        public void Remove(){} // RVA: 0xA94080
+        public void ContainsKey(){} // RVA: 0xA94080
+        public void GetEnumerator(){} // RVA: 0x87C0A0
+        public void GetEnumeratorWorker(){} // RVA: 0x87C0A0
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
 }

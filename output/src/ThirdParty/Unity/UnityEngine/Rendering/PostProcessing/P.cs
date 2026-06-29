@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class ParameterOverride : Object
     {
+        public object overrideState;
+
         // ── Methods ──
         public void Interp(){} // RVA: 0x895520
         public void GetHash(){} // RVA: 0x87C130
@@ -19,6 +21,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Interp(){} // RVA: 0xA94080
@@ -30,6 +34,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -41,6 +47,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -52,6 +60,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -63,6 +73,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -74,6 +86,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -85,6 +99,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -96,6 +112,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -107,6 +125,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -118,6 +138,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -129,6 +151,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EF00
         public void Interp(){} // RVA: 0x484EFC0
@@ -140,6 +164,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E9C0
         public void Interp(){} // RVA: 0x484EA80
@@ -151,6 +177,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E620
         public void Interp(){} // RVA: 0x484E6E0
@@ -162,6 +190,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E7E0
         public void Interp(){} // RVA: 0x484E8C0
@@ -173,6 +203,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484F0E0
         public void Interp(){} // RVA: 0x484F1B0
@@ -184,6 +216,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484F330
         public void Interp(){} // RVA: 0x484F440
@@ -195,6 +229,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484E7E0
         public void Interp(){} // RVA: 0x484E8C0
@@ -206,6 +242,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EC20
         public void Interp(){} // RVA: 0x484ED30
@@ -217,6 +255,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ParameterOverride`1 : ParameterOverride
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EC20
         public void Interp(){} // RVA: 0x484ED30
@@ -228,12 +268,22 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessAttribute : Attribute
     {
+        public object renderer;
+        public object eventType;
+        public object menuItem;
+        public object allowInSceneView;
+        public object builtinEffect;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7959130
     }
 
     public class PostProcessBundle : Object
     {
+        public object _attribute;
+        public object _settings;
+        public object m_Renderer;
+
         // ── Methods ──
         public void get_attribute(){} // RVA: 0xB5DBF0
         public void set_attribute(){} // RVA: 0xB44D60
@@ -249,6 +299,16 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessDebug : MonoBehaviour
     {
+        public object postProcessLayer;
+        public object m_PreviousPostProcessLayer;
+        public object lightMeter;
+        public object histogram;
+        public object waveform;
+        public object vectorscope;
+        public object debugOverlay;
+        public object m_CurrentCamera;
+        public object m_CmdAfterEverything;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x797E0B0
         public void OnDisable(){} // RVA: 0x797E1B0
@@ -263,6 +323,18 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessDebugLayer : Object
     {
+        public object lightMeter;
+        public object histogram;
+        public object waveform;
+        public object vectorscope;
+        public object m_Monitors;
+        public object frameWidth;
+        public object frameHeight;
+        public object _debugOverlayTarget;
+        public object _debugOverlayActive;
+        public object _debugOverlay;
+        public object overlaySettings;
+
         // ── Methods ──
         public void get_debugOverlayTarget(){} // RVA: 0xBC1B30
         public void set_debugOverlayTarget(){} // RVA: 0xB6A8C0
@@ -286,6 +358,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer : Object
     {
+        public object m_ResetHistory;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xB43310
         public void GetCameraFlags(){} // RVA: 0xDAC980
@@ -324,6 +398,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xA94080
         public void set_settings(){} // RVA: 0xA94080
@@ -333,6 +409,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -342,6 +420,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -351,6 +431,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -360,6 +442,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -369,6 +453,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -378,6 +464,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -387,6 +475,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -396,6 +486,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -405,6 +497,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -414,6 +508,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -423,6 +519,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectRenderer`1 : PostProcessEffectRenderer
     {
+        public object _settings;
+
         // ── Methods ──
         public void get_settings(){} // RVA: 0xB465B0
         public void set_settings(){} // RVA: 0xBA9BA0
@@ -432,6 +530,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessEffectSettings : ScriptableObject
     {
+        public object active;
+        public object enabled;
+        public object parameters;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7980AA0
         public void OnDisable(){} // RVA: 0x7981160
@@ -471,6 +573,44 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessLayer : MonoBehaviour
     {
+        public object volumeTrigger;
+        public object volumeLayer;
+        public object stopNaNPropagation;
+        public object finalBlitToCameraTarget;
+        public object antialiasingMode;
+        public object temporalAntialiasing;
+        public object subpixelMorphologicalAntialiasing;
+        public object fastApproximateAntialiasing;
+        public object fog;
+        public object dithering;
+        public object debugLayer;
+        public object m_Resources;
+        public object m_OldResources;
+        public object m_ShowToolkit;
+        public object m_ShowCustomSorter;
+        public object breakBeforeColorGrading;
+        public object m_BeforeTransparentBundles;
+        public object m_BeforeStackBundles;
+        public object m_AfterStackBundles;
+        public object _sortedBundles;
+        public object _cameraDepthFlags;
+        public object _haveBundlesBeenInited;
+        public object m_Bundles;
+        public object m_PropertySheetFactory;
+        public object m_LegacyCmdBufferBeforeReflections;
+        public object m_LegacyCmdBufferBeforeLighting;
+        public object m_LegacyCmdBufferOpaque;
+        public object m_LegacyCmdBuffer;
+        public object m_Camera;
+        public object m_CurrentContext;
+        public object m_LogHistogram;
+        public object m_SettingsUpdateNeeded;
+        public object m_IsRenderingInSceneView;
+        public object m_TargetPool;
+        public object m_NaNKilled;
+        public object m_ActiveEffects;
+        public object m_Targets;
+
         // ── Methods ──
         public void get_sortedBundles(){} // RVA: 0x106A7D0
         public void set_sortedBundles(){} // RVA: 0xD5CC70
@@ -538,6 +678,15 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessManager : Object
     {
+        public object s_Instance;
+        public object k_MaxLayerCount;
+        public object m_SortedVolumes;
+        public object m_Volumes;
+        public object m_SortNeeded;
+        public object m_BaseSettings;
+        public object m_TempColliders;
+        public object settingsTypes;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x798B0E0
         public void .ctor(){} // RVA: 0x798B1C0
@@ -559,6 +708,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessProfile : ScriptableObject
     {
+        public object settings;
+        public object isDirty;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x798E840
         public void AddSettings(){} // RVA: 0x798EB30
@@ -571,6 +723,36 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessRenderContext : Object
     {
+        public object m_Camera;
+        public object _command;
+        public object _source;
+        public object _destination;
+        public object _sourceFormat;
+        public object _flip;
+        public object _resources;
+        public object _propertySheets;
+        public object _userData;
+        public object _debugLayer;
+        public object _width;
+        public object _height;
+        public object _stereoActive;
+        public object _xrActiveEye;
+        public object _numberOfEyes;
+        public object _stereoRenderingMode;
+        public object _screenWidth;
+        public object _screenHeight;
+        public object _isSceneView;
+        public object _antialiasing;
+        public object _temporalAntialiasing;
+        public object uberSheet;
+        public object autoExposureTexture;
+        public object logHistogram;
+        public object logLut;
+        public object autoExposure;
+        public object bloomBufferNameID;
+        public object physicalCamera;
+        public object m_sourceDescriptor;
+
         // ── Methods ──
         public void get_camera(){} // RVA: 0xB5DBF0
         public void set_camera(){} // RVA: 0x798F170
@@ -626,12 +808,28 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PostProcessResources : ScriptableObject
     {
+        public object blueNoise64;
+        public object blueNoise256;
+        public object smaaLuts;
+        public object shaders;
+        public object computeShaders;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xDD1AC0
     }
 
     public class PostProcessVolume : MonoBehaviour
     {
+        public object sharedProfile;
+        public object isGlobal;
+        public object blendDistance;
+        public object weight;
+        public object priority;
+        public object m_PreviousLayer;
+        public object m_PreviousPriority;
+        public object m_TempColliders;
+        public object m_InternalProfile;
+
         // ── Methods ──
         public void get_profile(){} // RVA: 0x7990230
         public void set_profile(){} // RVA: 0xBBF900
@@ -667,6 +865,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PropertySheet : Object
     {
+        public object _properties;
+        public object _material;
+
         // ── Methods ──
         public void get_properties(){} // RVA: 0xB5DBF0
         public void set_properties(){} // RVA: 0xB44D60
@@ -681,6 +882,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class PropertySheetFactory : Object
     {
+        public object m_Sheets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7994000
         public void Get(){} // RVA: 0x7994210

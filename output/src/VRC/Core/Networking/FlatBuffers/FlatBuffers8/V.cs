@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Vector2 : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -21,6 +23,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2Array : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -41,6 +45,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2ArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -55,6 +61,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector2T : Object
     {
+        public object _x;
+        public object _y;
+
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x3926E10
         public void op_Implicit(){} // RVA: 0x1976A90
@@ -74,6 +83,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3 : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -89,6 +100,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3Array : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -109,6 +122,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3ArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -123,6 +138,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3Bytes : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -136,6 +153,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3BytesT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60
@@ -144,6 +163,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3Half : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -157,6 +178,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3HalfT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60
@@ -165,6 +188,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3T : Object
     {
+        public object _x;
+        public object _y;
+        public object _z;
+
         // ── Methods ──
         public void ToNumerics(){} // RVA: 0x18BF490
         public void op_Implicit(){} // RVA: 0x8215BD0
@@ -186,6 +213,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3TenBit : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -199,6 +228,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector3TenBitT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60
@@ -207,6 +238,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector4 : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -223,6 +256,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector4Array : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -243,6 +278,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector4ArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -257,6 +294,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Vector4T : Object
     {
+        public object _x;
+        public object _y;
+        public object _z;
+        public object _w;
+
         // ── Methods ──
         public void get_X(){} // RVA: 0xC763E0
         public void set_X(){} // RVA: 0xC763F0

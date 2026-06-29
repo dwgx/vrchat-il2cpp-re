@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System
 {
     public class MarshalByRefObject : Object
     {
+        public object _identity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_ObjectIdentity(){} // RVA: 0x697DD10
@@ -17,6 +19,8 @@ namespace ThirdParty.DotNet.System
 
     public class Marvin : Object
     {
+        public object _defaultSeed;
+
         // ── Methods ──
         public void ComputeHash32(){} // RVA: 0x6914FF0
         public void Block(){} // RVA: 0x69154E0
@@ -28,6 +32,9 @@ namespace ThirdParty.DotNet.System
 
     public class Math : Object
     {
+        public object doubleRoundLimit;
+        public object roundPower10Double;
+
         // ── Methods ──
         public void Abs(){} // RVA: 0x6916DD0
         public void ThrowAbsOverflow(){} // RVA: 0x6915810
@@ -64,6 +71,9 @@ namespace ThirdParty.DotNet.System
 
     public class MathF : Object
     {
+        public object roundPower10Single;
+        public object singleRoundLimit;
+
         // ── Methods ──
         public void Acos(){} // RVA: 0x69171D0
         public void Atan2(){} // RVA: 0x69171E0
@@ -87,9 +97,9 @@ namespace ThirdParty.DotNet.System
         public void EqualsOrdinalIgnoreCase(){} // RVA: 0x6917730
         public void Contains(){} // RVA: 0x69177E0
         public void ToUpperInvariant(){} // RVA: 0x6917860
-        public void EndsWith(){} // RVA: 0xA94080
+        public void EndsWith(){} // RVA: 0x315B760
         public void StartsWith(){} // RVA: 0x31603B0
-        public void AsSpan(){} // RVA: 0x315A6D0
+        public void AsSpan(){} // RVA: 0x315B3B0
         public void AsMemory(){} // RVA: 0x315A350
         public void Trim(){} // RVA: 0x6918490
         public void TrimStart(){} // RVA: 0x6918640
@@ -106,6 +116,8 @@ namespace ThirdParty.DotNet.System
 
     public class MemoryExtensions : Object
     {
+        public object StringAdjustment;
+
         // ── Methods ──
         public void IndexOf(){} // RVA: 0xA94080
         public void SequenceEqual(){} // RVA: 0xA94080
@@ -130,6 +142,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89B9B0
         public void op_Implicit(){} // RVA: 0xA94080
@@ -147,6 +163,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x469D060
         public void .ctor(){} // RVA: 0x426050
@@ -164,6 +184,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x469D060
         public void get_Span(){} // RVA: 0x42B790
@@ -181,6 +205,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89B9B0
         public void op_Implicit(){} // RVA: 0xA94080
@@ -196,6 +224,10 @@ namespace ThirdParty.DotNet.System
 
     public class Memory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0xFE9840
         public void Slice(){} // RVA: 0x42B450
@@ -224,6 +256,10 @@ namespace ThirdParty.DotNet.System
 
     public class MissingMemberException : MemberAccessException
     {
+        public object ClassName;
+        public object MemberName;
+        public object Signature;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6941780
         public void GetObjectData(){} // RVA: 0x6941A80
@@ -247,12 +283,23 @@ namespace ThirdParty.DotNet.System
 
     public class MonoAsyncCall : Object
     {
+        public object msg;
+        public object cb_method;
+        public object cb_target;
+        public object state;
+        public object res;
+        public object out_args;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MonoCustomAttrs : Object
     {
+        public object corlib;
+        public object usage_cache;
+        public object DefaultAttributeUsage;
+
         // ── Methods ──
         public void IsUserCattrProvider(){} // RVA: 0x697DE10
         public void GetCustomAttributesInternal(){} // RVA: 0x697E060
@@ -281,24 +328,32 @@ namespace ThirdParty.DotNet.System
 
     public class MonoListItem : Object
     {
+        public object next;
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MonoTODOAttribute : Attribute
     {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class MonoTODOAttribute : Attribute
+    {
+        public object comment;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
-    public class MonoTODOAttribute : Attribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
     public class MonoTypeInfo : Object
     {
+        public object full_name;
+        public object default_ctor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -325,12 +380,16 @@ namespace ThirdParty.DotNet.System
 
     public class MonoUtil : Object
     {
+        public object IsUnix;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x700D420
     }
 
     public class MulticastDelegate : Delegate
     {
+        public object delegates;
+
         // ── Methods ──
         public void GetObjectData(){} // RVA: 0x697C0A0
         public void DynamicInvokeImpl(){} // RVA: 0x6982080
@@ -351,6 +410,11 @@ namespace ThirdParty.DotNet.System
 
     public class MutableDecimal : ValueType
     {
+        public object Flags;
+        public object High;
+        public object Low;
+        public object Mid;
+
         // ── Methods ──
         public void get_IsNegative(){} // RVA: 0x8BE0A0
         public void set_IsNegative(){} // RVA: 0x8BE0B0
@@ -360,6 +424,11 @@ namespace ThirdParty.DotNet.System
 
     public class MutableDecimal : ValueType
     {
+        public object Flags;
+        public object High;
+        public object Low;
+        public object Mid;
+
         // ── Methods ──
         public void get_IsNegative(){} // RVA: 0x8BE0A0
         public void set_IsNegative(){} // RVA: 0x8BE0B0

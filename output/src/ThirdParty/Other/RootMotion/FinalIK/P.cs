@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class PenetrationAvoidance : OffsetModifier
     {
+        public object avoiders;
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0xCC2140
         public void .ctor(){} // RVA: 0xB4B830
@@ -14,6 +16,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Poser : SolverManager
     {
+        public object poseRoot;
+        public object weight;
+        public object localRotationWeight;
+        public object localPositionWeight;
+        public object initiated;
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0x894290
         public void UpdateManual(){} // RVA: 0xCADE00

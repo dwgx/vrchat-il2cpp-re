@@ -7,6 +7,23 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class RuntimeUtilities : Object
     {
+        public object m_WhiteTexture;
+        public object m_WhiteTexture3D;
+        public object m_BlackTexture;
+        public object m_BlackTexture3D;
+        public object m_TransparentTexture;
+        public object m_TransparentTexture3D;
+        public object m_LutStrips;
+        public object s_Resources;
+        public object s_FullscreenTriangle;
+        public object s_CopyStdMaterial;
+        public object s_CopyStdFromDoubleWideMaterial;
+        public object s_CopyMaterial;
+        public object s_CopyFromTexArrayMaterial;
+        public object s_CopySheet;
+        public object s_CopyFromTexArraySheet;
+        public object m_AssemblyTypes;
+
         // ── Methods ──
         public void get_whiteTexture(){} // RVA: 0x7994850
         public void get_whiteTexture3D(){} // RVA: 0x7994B10

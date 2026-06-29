@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System
 {
     public class WeakReference : Object
     {
+        public object isLongReference;
+        public object gcHandle;
+
         // ── Methods ──
         public void AllocateHandle(){} // RVA: 0x6990370
         public void .ctor(){} // RVA: 0x6990400
@@ -40,6 +43,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetObjectData(){} // RVA: 0x8943B0
@@ -50,6 +56,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -60,6 +69,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -70,6 +82,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -80,6 +95,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -90,6 +108,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -100,6 +121,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -110,6 +134,9 @@ namespace ThirdParty.DotNet.System
 
     public class WeakReference`1 : Object
     {
+        public object handle;
+        public object trackResurrection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B0F0
         public void GetObjectData(){} // RVA: 0x562B240
@@ -200,6 +227,10 @@ namespace ThirdParty.DotNet.System
 
     public class WindowsConsoleDriver : Object
     {
+        public object inputHandle;
+        public object outputHandle;
+        public object defaultAttribute;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6990910
         public void ReadKey(){} // RVA: 0x6990A00

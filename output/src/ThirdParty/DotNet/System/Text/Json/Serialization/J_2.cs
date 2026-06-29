@@ -167,6 +167,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -207,6 +211,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -247,6 +255,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -287,6 +299,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -327,6 +343,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -367,6 +387,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -407,6 +431,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -447,6 +475,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -487,6 +519,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -527,6 +563,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -567,6 +607,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -607,6 +651,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -647,6 +695,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -687,6 +739,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -727,6 +783,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -767,6 +827,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -807,6 +871,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -847,6 +915,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -887,6 +959,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -927,6 +1003,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -967,6 +1047,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1007,6 +1091,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40AA640
         public void WriteCore(){} // RVA: 0x40AA7C0
@@ -1047,6 +1135,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -1087,6 +1179,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40AE2A0
         public void WriteCore(){} // RVA: 0x40AE420
@@ -1127,6 +1223,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40B2F70
         public void WriteCore(){} // RVA: 0x40B30F0
@@ -1167,6 +1267,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40BA790
         public void WriteCore(){} // RVA: 0x40BA910
@@ -1207,6 +1311,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40BDDC0
         public void WriteCore(){} // RVA: 0x40BDF40
@@ -1247,6 +1355,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40C0E90
         public void WriteCore(){} // RVA: 0x40C1010
@@ -1287,6 +1399,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40C3F60
         public void WriteCore(){} // RVA: 0x40C40E0
@@ -1327,6 +1443,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1367,6 +1487,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40C7870
         public void WriteCore(){} // RVA: 0x40C79F0
@@ -1407,6 +1531,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40CA940
         public void WriteCore(){} // RVA: 0x40CAAC0
@@ -1447,6 +1575,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40CDAA0
         public void WriteCore(){} // RVA: 0x40CDC20
@@ -1487,6 +1619,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40D2F70
         public void WriteCore(){} // RVA: 0x40D30F0
@@ -1527,6 +1663,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -1567,6 +1707,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40D78D0
         public void WriteCore(){} // RVA: 0x40D7A50
@@ -1607,6 +1751,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1647,6 +1795,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40FD330
         public void WriteCore(){} // RVA: 0x40FD4B0
@@ -1687,6 +1839,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4100490
         public void WriteCore(){} // RVA: 0x4100610
@@ -1727,6 +1883,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -1767,6 +1927,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4103970
         public void WriteCore(){} // RVA: 0x4103AF0
@@ -1807,6 +1971,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4106880
         public void WriteCore(){} // RVA: 0x4106A00
@@ -1847,6 +2015,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x41099E0
         public void WriteCore(){} // RVA: 0x4109B60
@@ -2055,6 +2227,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -2071,6 +2246,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -2087,6 +2265,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310

@@ -7,12 +7,31 @@ namespace VRC.Core.Networking.Pose
 {
     public class Configuration : Object
     {
+        public object MuscleUsed;
+        public object MuscleUsedIndices;
+        public object MuscleUsedCount;
+        public object MuscleCount;
+        public object MUSCLE_FLAGS;
+        public object FRAME_BUFFER_BONES;
+        public object FIRST_FINGER_MUSCLE;
+        public object VISEME_COUNT;
+        public object PUPPET_FLAGS;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x827D280
     }
 
     public class DirectQuantizedPose : PoseCodec`1
     {
+        public object lastEncodedMuscles;
+        public object muscleCache;
+        public object puppetValues;
+        public object spineLengthFactorEncoded;
+        public object stretchBytes;
+        public object spreadBytes;
+        public object VISEME_COUNT;
+        public object legacyFaceBytes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x827D9E0
         public void Encode(){} // RVA: 0x827DD90
@@ -36,6 +55,8 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseCodec`1 : Object
     {
+        public object poseRecorder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Encode(){} // RVA: 0x881CA0
@@ -44,6 +65,8 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseCodec`1 : Object
     {
+        public object poseRecorder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Encode(){} // RVA: 0x881CA0
@@ -52,6 +75,8 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseCodec`1 : Object
     {
+        public object poseRecorder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Encode(){} // RVA: 0x881CA0
@@ -60,6 +85,41 @@ namespace VRC.Core.Networking.Pose
 
     public class PoseEvent : TweenableValue`1
     {
+        public object _poseContents;
+        public object muscles;
+        public object bodyRotation;
+        public object standingHeight;
+        public object motionFlags;
+        public object miscFlags;
+        public object handGestureLeft;
+        public object handGestureRight;
+        public object handGestureIndexLeft;
+        public object handGestureIndexRight;
+        public object handGestureWeightLeft;
+        public object handGestureWeightRight;
+        public object leftHandPosition;
+        public object rightHandPosition;
+        public object headPosition;
+        public object leftHandRotation;
+        public object rightHandRotation;
+        public object headRotation;
+        public object leftFootPosition;
+        public object rightFootPosition;
+        public object hipPosition;
+        public object leftFootRotation;
+        public object rightFootRotation;
+        public object hipRotation;
+        public object angVelocityY;
+        public object spineLengthFactor;
+        public object fingerStretch;
+        public object fingerSpread;
+        public object eyeTargetRelativePosition01;
+        public object eyeClosedAmount;
+        public object faceTrackedVisemes;
+        public object puppetValues;
+        public object puppetIsFloat;
+        public object PositionEvent;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8280020
         public void Finalize(){} // RVA: 0x8280C60
@@ -111,6 +171,15 @@ namespace VRC.Core.Networking.Pose
 
     public class QuantizedPose : PoseCodec`1
     {
+        public object lastEncodedMuscles;
+        public object muscleCache;
+        public object puppetValues;
+        public object spineLengthFactorEncoded;
+        public object stretchBytes;
+        public object spreadBytes;
+        public object VISEME_COUNT;
+        public object legacyFaceBytes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8281FD0
         public void Encode(){} // RVA: 0x8282380

@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 {
     public class Allocator2D : Object
     {
+        public object m_MinSize;
+        public object m_MaxSize;
+        public object m_MaxAllocSize;
+        public object m_RowHeightBias;
+        public object m_Rows;
+        public object m_Areas;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F3B4B0
         public void TryAllocate(){} // RVA: 0x7F3BA10
@@ -18,6 +25,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BMPAlloc : ValueType
     {
+        public object Invalid;
+        public object page;
+        public object pageLine;
+        public object bitIndex;
+        public object ownedState;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x99E4B0
         public void IsValid(){} // RVA: 0x99E4D0
@@ -42,6 +55,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BaseShaderInfoStorage : Object
     {
+        public object s_TextureCounter;
+        public object s_MarkerCopyTexture;
+        public object s_MarkerGetTextureData;
+        public object s_MarkerUpdateTexture;
+        public object _disposed;
+
         // ── Methods ──
         public void get_texture(){} // RVA: 0x87C0A0
         public void AllocateRect(){} // RVA: 0x87E6B0
@@ -64,6 +83,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BasicNode`1 : LinkedPoolItem`1
     {
+        public object next;
+        public object data;
+
         // ── Methods ──
         public void InsertFirst(){} // RVA: 0x894320
         public void .ctor(){} // RVA: 0x894290
@@ -71,6 +93,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BasicNode`1 : LinkedPoolItem`1
     {
+        public object next;
+        public object data;
+
         // ── Methods ──
         public void InsertFirst(){} // RVA: 0x624C760
         public void .ctor(){} // RVA: 0xB43310
@@ -78,6 +103,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BestFitAllocator : Object
     {
+        public object _totalSize;
+        public object m_FirstBlock;
+        public object m_FirstAvailableBlock;
+        public object m_BlockPool;
+        public object m_HighWatermark;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F4C520
         public void get_totalSize(){} // RVA: 0xB8F8F0
@@ -91,6 +122,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class BitmapAllocator32 : ValueType
     {
+        public object m_PageHeight;
+        public object m_Pages;
+        public object m_AllocMap;
+        public object m_EntryWidth;
+        public object m_EntryHeight;
+
         // ── Methods ──
         public void Construct(){} // RVA: 0x99E6A0
         public void ForceFirstAlloc(){} // RVA: 0x99E6B0
@@ -104,6 +141,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class CommandList : Object
     {
+        public object m_Owner;
+        public object m_VertexDecl;
+        public object m_StencilState;
+        public object constantProps;
+        public object batchProps;
+        public object handle;
+        public object m_Commands;
+        public object m_GpuTextureData;
+        public object m_DrawRanges;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F3CAF0
         public void Reset(){} // RVA: 0x7F3CFC0
@@ -132,6 +180,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class DefaultElementBuilder : BaseElementBuilder
     {
+        public object m_RenderChain;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void RequiresStencilMask(){} // RVA: 0x7F41110
@@ -144,6 +194,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class DetachedAllocator : Object
     {
+        public object m_VertsPool;
+        public object m_IndexPool;
+        public object m_MeshWriteDataPool;
+        public object m_MeshWriteDataCount;
+        public object m_Disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F40380
         public void Dispose(){} // RVA: 0x7F406D0
@@ -151,6 +207,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class DrawParams : Object
     {
+        public object k_UnlimitedRect;
+        public object k_FullNormalizedRect;
+        public object view;
+        public object scissor;
+        public object renderTexture;
+        public object defaultMaterial;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F4E1C0
         public void .ctor(){} // RVA: 0x7F4E3F0
@@ -159,6 +222,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Entry : Object
     {
+        public object type;
+        public object flags;
+        public object vertices;
+        public object indices;
+        public object texture;
+        public object textScale;
+        public object fontSharpness;
+        public object gradientsOwner;
+        public object material;
+        public object immediateCallback;
+        public object nextSibling;
+        public object firstChild;
+        public object lastChild;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F561D0
         public void .ctor(){} // RVA: 0xB43310
@@ -166,6 +243,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class EntryPool : Object
     {
+        public object k_StackSize;
+        public object m_ThreadEntries;
+        public object m_SharedPool;
+        public object k_CreateAction;
+        public object k_ResetAction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F50960
         public void Get(){} // RVA: 0x7F50CE0
@@ -175,6 +258,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class EntryPreProcessor : Object
     {
+        public object m_ChildrenIndex;
+        public object m_Allocs;
+        public object m_HeadAllocs;
+        public object m_TailAllocs;
+        public object m_FlattenedEntries;
+        public object m_Pending;
+        public object m_Mask;
+        public object m_IsPushingMask;
+
         // ── Methods ──
         public void get_childrenIndex(){} // RVA: 0xB8F8F0
         public void get_headAllocs(){} // RVA: 0xB700F0
@@ -190,6 +282,49 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class EntryProcessor : Object
     {
+        public object m_PreProcessor;
+        public object m_RenderChain;
+        public object m_CurrentElement;
+        public object m_MaskDepth;
+        public object m_MaskDepthPopped;
+        public object m_MaskDepthPushed;
+        public object m_StencilRef;
+        public object m_StencilRefPopped;
+        public object m_StencilRefPushed;
+        public object m_ClipRectId;
+        public object m_ClipRectIdPopped;
+        public object m_ClipRectIdPushed;
+        public object m_IsDrawingMask;
+        public object m_MaskMeshes;
+        public object m_VertexDataComputed;
+        public object m_Transform;
+        public object m_TransformData;
+        public object m_OpacityData;
+        public object m_TextCoreSettingsPage;
+        public object m_Mesh;
+        public object m_Verts;
+        public object m_Indices;
+        public object m_IndexOffset;
+        public object m_AllocVertexCount;
+        public object m_AllocIndex;
+        public object m_VertsFilled;
+        public object m_IndicesFilled;
+        public object m_RenderType;
+        public object m_RemapUVs;
+        public object m_AtlasRect;
+        public object m_GradientSettingIndexOffset;
+        public object m_IsTail;
+        public object m_FirstCommand;
+        public object m_LastCommand;
+        public object _firstHeadCommand;
+        public object _lastHeadCommand;
+        public object _firstTailCommand;
+        public object _lastTailCommand;
+        public object s_blitMaterial_LinearToGamma;
+        public object s_blitMaterial_GammaToLinear;
+        public object s_blitMaterial_NoChange;
+        public object s_blitShader;
+
         // ── Methods ──
         public void get_firstHeadCommand(){} // RVA: 0xE3C930
         public void set_firstHeadCommand(){} // RVA: 0xE3D020
@@ -218,6 +353,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class EntryRecorder : Object
     {
+        public object m_EntryPool;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F56410
         public void DrawMesh(){} // RVA: 0x7F564C0
@@ -247,6 +384,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ExtraRenderChainVEData : LinkedPoolItem`1
     {
+        public object extraMesh;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F6FD90
         public void .ctor(){} // RVA: 0x7F6FDF0
@@ -254,6 +393,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GCHandlePool : Object
     {
+        public object m_Handles;
+        public object m_UsedHandlesCount;
+        public object k_AllocBatchSize;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F3AB90
         public void Get(){} // RVA: 0x7F3AC70
@@ -266,6 +410,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GPUBufferAllocator : Object
     {
+        public object m_Low;
+        public object m_High;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F4D7A0
         public void Allocate(){} // RVA: 0x7F4D8E0
@@ -276,6 +423,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GradientRemap : LinkedPoolItem`1
     {
+        public object origIndex;
+        public object destIndex;
+        public object location;
+        public object next;
+        public object atlas;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F79E70
         public void .ctor(){} // RVA: 0x7F79EE0
@@ -289,6 +442,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class GradientSettingsAtlas : Object
     {
+        public object s_MarkerWrite;
+        public object s_MarkerCommit;
+        public object m_Length;
+        public object m_ElemWidth;
+        public object m_Allocator;
+        public object m_Atlas;
+        public object m_RawAtlas;
+        public object s_TextureCounter;
+        public object _disposed;
+        public object _mustCommit;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x7B51740
         public void get_disposed(){} // RVA: 0xD16660
@@ -320,6 +484,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ImplicitPool`1 : Object
     {
+        public object m_StartCapacity;
+        public object m_MaxCapacity;
+        public object m_CreateAction;
+        public object m_ResetAction;
+        public object m_List;
+        public object m_UsedCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DE00
         public void Get(){} // RVA: 0xA94080
@@ -328,6 +499,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ImplicitPool`1 : Object
     {
+        public object m_StartCapacity;
+        public object m_MaxCapacity;
+        public object m_CreateAction;
+        public object m_ResetAction;
+        public object m_List;
+        public object m_UsedCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3FFF920
         public void Get(){} // RVA: 0x3FFFB30
@@ -336,6 +514,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class JobManager : Object
     {
+        public object m_NudgeJobs;
+        public object m_ConvertMeshJobs;
+        public object m_CopyMeshJobs;
+        public object m_JobMerger;
+        public object _disposed;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x7F58090
         public void CompleteNudgeJobs(){} // RVA: 0x7F580F0
@@ -349,6 +533,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class JobMerger : Object
     {
+        public object m_Jobs;
+        public object m_JobCount;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F59100
         public void Add(){} // RVA: 0x7F59220
@@ -371,72 +559,100 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPoolItem`1 : Object
     {
+        public object poolNext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class LinkedPool`1 : Object
     {
+        public object m_CreateFunc;
+        public object m_ResetAction;
+        public object m_Limit;
+        public object m_PoolFirst;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895FE0
         public void get_Count(){} // RVA: 0x87C130
@@ -448,6 +664,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class LinkedPool`1 : Object
     {
+        public object m_CreateFunc;
+        public object m_ResetAction;
+        public object m_Limit;
+        public object m_PoolFirst;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4288260
         public void get_Count(){} // RVA: 0xB9E080
@@ -459,6 +681,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class LinkedPool`1 : Object
     {
+        public object m_CreateFunc;
+        public object m_ResetAction;
+        public object m_Limit;
+        public object m_PoolFirst;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4288260
         public void get_Count(){} // RVA: 0xB9E080
@@ -470,6 +698,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class LinkedPool`1 : Object
     {
+        public object m_CreateFunc;
+        public object m_ResetAction;
+        public object m_Limit;
+        public object m_PoolFirst;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4288260
         public void get_Count(){} // RVA: 0xB9E080
@@ -481,6 +715,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class LinkedPool`1 : Object
     {
+        public object m_CreateFunc;
+        public object m_ResetAction;
+        public object m_Limit;
+        public object m_PoolFirst;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4288260
         public void get_Count(){} // RVA: 0xB9E080
@@ -499,6 +739,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class MeshGenerationDeferrer : Object
     {
+        public object m_Fork;
+        public object m_WorkThenFork;
+        public object m_Work;
+        public object m_JobDependentFork;
+        public object m_JobDependentWorkThenFork;
+        public object m_JobDependentWork;
+        public object m_Dependencies;
+        public object m_DependencyMerger;
+        public object _disposed;
+
         // ── Methods ──
         public void AddMeshGenerationJob(){} // RVA: 0x7F59560
         public void AddMeshGenerationCallback(){} // RVA: 0x7F595D0
@@ -512,6 +762,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class MeshGenerator : Object
     {
+        public object k_MarkerDrawRectangle;
+        public object k_MarkerDrawBorder;
+        public object k_MarkerDrawVectorImage;
+        public object k_MarkerDrawRectangleRepeat;
+        public object m_MeshGenerationContext;
+        public object m_RepeatRectUVList;
+        public object m_BackgroundRepeatInstanceList;
+        public object m_GCHandlePool;
+        public object m_JobParameters;
+        public object _currentElement;
+        public object _textJobSystem;
+        public object m_TextInfo;
+        public object m_Settings;
+        public object m_VerticesArray;
+        public object m_IndicesArray;
+        public object m_Atlases;
+        public object m_SdfScales;
+        public object m_RenderModes;
+        public object m_OnMeshGenerationDelegate;
+        public object m_TesselationJobParameters;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F5A2E0
         public void set_currentElement(){} // RVA: 0xB6A8C0
@@ -539,12 +811,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class MeshHandle : LinkedPoolItem`1
     {
+        public object allocVerts;
+        public object allocIndices;
+        public object triangleCount;
+        public object allocPage;
+        public object allocTime;
+        public object updateAllocID;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F43C70
     }
 
     public class MeshWriteDataPool : ImplicitPool`1
     {
+        public object k_CreateAction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F677C0
         public void .cctor(){} // RVA: 0x7F67850
@@ -552,6 +833,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class NativeList`1 : Object
     {
+        public object m_NativeArray;
+        public object m_Count;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void Expand(){} // RVA: 0x8944F0
@@ -566,6 +851,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class NativePagedList`1 : Object
     {
+        public object k_PoolCapacity;
+        public object m_Pages;
+        public object m_LastPage;
+        public object m_CountInLastPage;
+        public object m_FirstPageAllocator;
+        public object m_OtherPagesAllocator;
+        public object m_Enumerator;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x896900
         public void Add(){} // RVA: 0xA94080
@@ -579,6 +873,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class OpacityIdAccelerator : Object
     {
+        public object m_Jobs;
+        public object m_NextJobIndex;
+        public object _disposed;
+
         // ── Methods ──
         public void CreateJob(){} // RVA: 0x7F67110
         public void CompleteJobs(){} // RVA: 0x7F67310
@@ -590,6 +888,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Page : Object
     {
+        public object _disposed;
+        public object vertices;
+        public object indices;
+        public object next;
+        public object framesEmpty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F4DBE0
         public void get_disposed(){} // RVA: 0xC120A0
@@ -600,6 +904,46 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChain : Object
     {
+        public object m_FirstCommand;
+        public object m_DirtyTracker;
+        public object m_VisualChangesProcessor;
+        public object m_CommandPool;
+        public object m_ExtraDataPool;
+        public object m_MeshHandleNodePool;
+        public object m_TexturePool;
+        public object m_ExtraData;
+        public object m_MeshGenerationDeferrer;
+        public object m_DefaultMat;
+        public object m_BlockDirtyRegistration;
+        public object m_Stats;
+        public object m_StatsElementsAdded;
+        public object m_StatsElementsRemoved;
+        public object m_TextureRegistry;
+        public object _opacityIdAccelerator;
+        public object s_SharedEntryPool;
+        public object k_MarkerProcess;
+        public object k_MarkerClipProcessing;
+        public object k_MarkerOpacityProcessing;
+        public object k_MarkerColorsProcessing;
+        public object k_MarkerTransformProcessing;
+        public object k_MarkerVisualsProcessing;
+        public object k_MarkerSerialize;
+        public object _disposed;
+        public object _panel;
+        public object _device;
+        public object _atlas;
+        public object _vectorImageManager;
+        public object _tempMeshAllocator;
+        public object _meshWriteDataPool;
+        public object entryRecorder;
+        public object _meshGenerationNodeManager;
+        public object _jobManager;
+        public object shaderInfoAllocator;
+        public object _drawStats;
+        public object _drawInCameras;
+        public object _isFlat;
+        public object _forceGammaRendering;
+
         // ── Methods ──
         public void get_opacityIdAccelerator(){} // RVA: 0xBAE5A0
         public void set_opacityIdAccelerator(){} // RVA: 0xBAE5B0
@@ -665,6 +1009,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChainCommand : LinkedPoolItem`1
     {
+        public object owner;
+        public object prev;
+        public object next;
+        public object isTail;
+        public object type;
+        public object state;
+        public object mesh;
+        public object indexOffset;
+        public object indexCount;
+        public object callback;
+        public object k_ID_MainTex;
+        public object s_ImmediateOverheadMarker;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F4E8A0
         public void ExecuteNonDrawMesh(){} // RVA: 0x7F4EA50
@@ -679,6 +1036,47 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderChainVEData : ValueType
     {
+        public object prev;
+        public object next;
+        public object groupTransformAncestor;
+        public object boneTransformAncestor;
+        public object prevDirty;
+        public object nextDirty;
+        public object flags;
+        public object hierarchyDepth;
+        public object dirtiedValues;
+        public object dirtyID;
+        public object firstHeadCommand;
+        public object lastHeadCommand;
+        public object firstTailCommand;
+        public object lastTailCommand;
+        public object localFlipsWinding;
+        public object localTransformScaleZero;
+        public object worldFlipsWinding;
+        public object worldTransformScaleZero;
+        public object clipMethod;
+        public object childrenStencilRef;
+        public object childrenMaskDepth;
+        public object headMesh;
+        public object tailMesh;
+        public object verticesSpace;
+        public object transformID;
+        public object clipRectID;
+        public object opacityID;
+        public object textCoreSettingsID;
+        public object colorID;
+        public object backgroundColorID;
+        public object borderLeftColorID;
+        public object borderTopColorID;
+        public object borderRightColorID;
+        public object borderBottomColorID;
+        public object tintColorID;
+        public object compositeOpacity;
+        public object backgroundAlpha;
+        public object textures;
+        public object pendingRepaint;
+        public object pendingHierarchicalRepaint;
+
         // ── Methods ──
         public void get_lastTailOrHeadCommand(){} // RVA: 0x99E050
         public void AllocatesID(){} // RVA: 0x7F6FC90
@@ -692,6 +1090,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class RenderEvents : Object
     {
+        public object k_NudgeVerticesMarker;
+        public object VisibilityTreshold;
+
         // ── Methods ──
         public void ProcessOnClippingChanged(){} // RVA: 0x7F6FE20
         public void ProcessOnOpacityChanged(){} // RVA: 0x7F6FF40
@@ -722,6 +1123,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorageRGBAFloat : ShaderInfoStorage`1
     {
+        public object s_Convert;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F75190
         public void .cctor(){} // RVA: 0x7F75360
@@ -729,6 +1132,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorage`1 : BaseShaderInfoStorage
     {
+        public object m_InitialSize;
+        public object m_MaxSize;
+        public object m_Format;
+        public object m_Convert;
+        public object m_Allocator;
+        public object m_Texture;
+        public object m_Texels;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x897700
         public void Dispose(){} // RVA: 0x894750
@@ -742,6 +1153,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class ShaderInfoStorage`1 : BaseShaderInfoStorage
     {
+        public object m_InitialSize;
+        public object m_MaxSize;
+        public object m_Format;
+        public object m_Convert;
+        public object m_Allocator;
+        public object m_Texture;
+        public object m_Texels;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AC0150
         public void Dispose(){} // RVA: 0x4AC02D0
@@ -755,6 +1174,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Shaders : Object
     {
+        public object k_AtlasBlit;
+        public object k_Editor;
+        public object k_Runtime;
+        public object k_RuntimeWorld;
+        public object k_ColorConversionBlit;
+        public object k_ForceGammaKeyword;
+        public object s_RuntimeMaterial;
+        public object s_RuntimeWorldMaterial;
+        public object s_EditorMaterial;
+        public object s_RefCount;
+
         // ── Methods ──
         public void get_runtimeMaterial(){} // RVA: 0x7F755D0
         public void get_runtimeWorldMaterial(){} // RVA: 0x7F75630
@@ -767,6 +1197,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TempAllocator`1 : Object
     {
+        public object m_ExcessMinCapacity;
+        public object m_ExcessMaxCapacity;
+        public object m_Pool;
+        public object m_Excess;
+        public object m_NextExcessSize;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x896900
         public void get_disposed(){} // RVA: 0x87D280
@@ -780,6 +1217,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TempMeshAllocatorImpl : Object
     {
+        public object m_GCHandle;
+        public object m_ThreadData;
+        public object m_VertexPool;
+        public object m_IndexPool;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F75FE0
         public void CreateNativeHandle(){} // RVA: 0x7F76420
@@ -793,6 +1236,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TextCoreSettings : ValueType
     {
+        public object faceColor;
+        public object outlineColor;
+        public object outlineWidth;
+        public object underlayColor;
+        public object underlayOffset;
+        public object underlaySoftness;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x99E2E0
         public void GetHashCode(){} // RVA: 0x99E320
@@ -800,6 +1250,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TextureBlitter : Object
     {
+        public object k_TextureIds;
+        public object s_CommitSampler;
+        public object m_SingleBlit;
+        public object m_BlitMaterial;
+        public object m_Properties;
+        public object m_Viewport;
+        public object m_PrevRT;
+        public object m_PendingBlits;
+        public object _disposed;
+
         // ── Methods ──
         public void get_disposed(){} // RVA: 0xBFDA40
         public void set_disposed(){} // RVA: 0xBFDA50
@@ -816,6 +1276,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class TextureSlotManager : Object
     {
+        public object k_SlotCount;
+        public object k_SlotSize;
+        public object slotIds;
+        public object textureTableId;
+        public object m_Textures;
+        public object m_Tickets;
+        public object m_CurrentTicket;
+        public object m_FirstUsedTicket;
+        public object m_GpuTextures;
+        public object _freeSlots;
+        public object textureRegistry;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F78700
         public void .ctor(){} // RVA: 0x7F78920
@@ -832,6 +1304,35 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRVEShaderInfoAllocator : Object
     {
+        public object m_Storage;
+        public object m_TransformAllocator;
+        public object m_ClipRectAllocator;
+        public object m_OpacityAllocator;
+        public object m_ColorAllocator;
+        public object m_TextSettingsAllocator;
+        public object m_StorageReallyCreated;
+        public object m_ColorSpace;
+        public object identityTransformTexel;
+        public object infiniteClipRectTexel;
+        public object fullOpacityTexel;
+        public object clearColorTexel;
+        public object defaultTextCoreSettingsTexel;
+        public object identityTransformValue;
+        public object identityTransformRow0Value;
+        public object identityTransformRow1Value;
+        public object identityTransformRow2Value;
+        public object infiniteClipRectValue;
+        public object fullOpacityValue;
+        public object clearColorValue;
+        public object defaultTextCoreSettingsValue;
+        public object identityTransform;
+        public object infiniteClipRect;
+        public object fullOpacity;
+        public object clearColor;
+        public object defaultTextCoreSettings;
+        public object s_DefaultShaderInfoTextureRefCount;
+        public object s_DefaultShaderInfoTexture;
+
         // ── Methods ──
         public void get_pageWidth(){} // RVA: 0x7F7BDB0
         public void get_pageHeight(){} // RVA: 0x7F7BDC0
@@ -869,6 +1370,42 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class UIRenderDevice : Object
     {
+        public object m_MockDevice;
+        public object m_DefaultStencilState;
+        public object m_VertexDecl;
+        public object m_FirstPage;
+        public object m_NextPageVertexCount;
+        public object m_LargeMeshVertexCount;
+        public object m_IndexToVertexCountRatio;
+        public object m_DeferredFrees;
+        public object m_Updates;
+        public object m_CommandLists;
+        public object m_Fences;
+        public object m_ConstantProps;
+        public object m_BatchProps;
+        public object m_FrameIndex;
+        public object m_NextUpdateID;
+        public object m_DrawStats;
+        public object m_MeshHandles;
+        public object m_DrawParams;
+        public object m_TextureSlotManager;
+        public object m_DeviceFreeQueue;
+        public object m_ActiveDeviceCount;
+        public object m_SubscribedToNotifications;
+        public object m_SynchronousFree;
+        public object s_GradientSettingsTexID;
+        public object s_ShaderInfoTexID;
+        public object s_MarkerAllocate;
+        public object s_MarkerFree;
+        public object s_MarkerAdvanceFrame;
+        public object s_MarkerFence;
+        public object s_MarkerBeforeDraw;
+        public object _breakBatches;
+        public object _isFlat;
+        public object _drawsInCameras;
+        public object currentFrameCommandListCount;
+        public object _disposed;
+
         // ── Methods ──
         public void get_maxVerticesPerPage(){} // RVA: 0x6824720
         public void get_breakBatches(){} // RVA: 0xB63970
@@ -917,6 +1454,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class Utility : Object
     {
+        public object GraphicsResourcesRecreate;
+        public object EngineUpdate;
+        public object FlushPendingResources;
+        public object s_MarkerRaiseEngineUpdate;
+
         // ── Methods ──
         public void add_GraphicsResourcesRecreate(){} // RVA: 0x7F393F0
         public void remove_GraphicsResourcesRecreate(){} // RVA: 0x7F39550
@@ -978,6 +1520,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class VectorImageManager : Object
     {
+        public object instances;
+        public object s_MarkerRegister;
+        public object s_MarkerUnregister;
+        public object m_Atlas;
+        public object m_Registered;
+        public object m_RenderInfoPool;
+        public object m_GradientRemapPool;
+        public object m_GradientSettingsAtlas;
+        public object m_LoggedExhaustedSettingsAtlas;
+        public object _disposed;
+
         // ── Methods ──
         public void get_atlas(){} // RVA: 0x7F79F10
         public void .ctor(){} // RVA: 0x7F79F30
@@ -992,6 +1545,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.UIR
 
     public class VectorImageRenderInfo : LinkedPoolItem`1
     {
+        public object useCount;
+        public object firstGradientRemap;
+        public object gradientSettingsAlloc;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x7F799C0
         public void .ctor(){} // RVA: 0x7F79A20

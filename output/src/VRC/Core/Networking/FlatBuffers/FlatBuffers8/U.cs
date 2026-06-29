@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Udon : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -53,6 +57,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -77,6 +83,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -91,6 +99,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonBoolT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC120A0
         public void set_Value(){} // RVA: 0xC120B0
@@ -99,6 +109,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByte : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -112,6 +124,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -136,6 +150,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -150,6 +166,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonByteT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC120A0
         public void set_Value(){} // RVA: 0xC120B0
@@ -158,6 +176,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonChar : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -171,6 +191,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -195,6 +217,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -209,6 +233,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonCharT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x24EA1D0
         public void set_Value(){} // RVA: 0x24EAB10
@@ -217,6 +243,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDouble : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -230,6 +258,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -254,6 +284,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -268,6 +300,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonDoubleT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x2566C50
         public void set_Value(){} // RVA: 0x4B6F180
@@ -276,6 +310,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloat : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -289,6 +325,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -313,6 +351,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -327,6 +367,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonFloatT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC763E0
         public void set_Value(){} // RVA: 0xC763F0
@@ -335,6 +377,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -348,6 +392,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -372,6 +418,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -386,6 +434,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonIntT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB8F8F0
         public void set_Value(){} // RVA: 0xB460A0
@@ -394,6 +444,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLong : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -407,6 +459,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -431,6 +485,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -445,6 +501,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonLongT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0x2230E30
@@ -453,6 +511,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShort : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -466,6 +526,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -490,6 +552,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -504,6 +568,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonShortT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x24EA1D0
         public void set_Value(){} // RVA: 0x24EAB10
@@ -512,6 +578,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonString : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -532,6 +600,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonStringT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -546,6 +616,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60
@@ -556,6 +628,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByte : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -569,6 +643,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -593,6 +669,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -607,6 +685,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUByteT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC120A0
         public void set_Value(){} // RVA: 0xC120B0
@@ -615,6 +695,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -628,6 +710,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -652,6 +736,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -666,6 +752,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUIntT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB8F8F0
         public void set_Value(){} // RVA: 0xB460A0
@@ -674,6 +762,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULong : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -687,6 +777,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -711,6 +803,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -725,6 +819,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonULongT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0x2230E30
@@ -733,6 +829,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShort : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -746,6 +844,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -770,6 +870,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -784,6 +886,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonUShortT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x24EA1D0
         public void set_Value(){} // RVA: 0x24EAB10
@@ -792,6 +896,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class UdonValueUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0

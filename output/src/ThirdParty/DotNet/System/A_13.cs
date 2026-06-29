@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 202
+// Methods: 199
 
 namespace ThirdParty.DotNet.System
 {
@@ -38,34 +38,20 @@ namespace ThirdParty.DotNet.System
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xBA1350
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
         public void .ctor(){} // RVA: 0xBC4530
-        public void Invoke(){} // RVA: 0xB9E010
-        public void BeginInvoke(){} // RVA: 0xB9E020
-        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xC3B2D0
         public void Invoke(){} // RVA: 0xB9E010
-        public void BeginInvoke(){} // RVA: 0x4027570
-        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xC3B2D0
         public void Invoke(){} // RVA: 0xB9E010
-        public void BeginInvoke(){} // RVA: 0x4027570
-        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
@@ -89,28 +75,28 @@ namespace ThirdParty.DotNet.System
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void .ctor(){} // RVA: 0xBC4530
         public void Invoke(){} // RVA: 0xB9E010
         public void BeginInvoke(){} // RVA: 0xB9E020
         public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
@@ -232,26 +218,6 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
         public void .ctor(){} // RVA: 0xBC4530
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
         public void BeginInvoke(){} // RVA: 0xB9E020
         public void EndInvoke(){} // RVA: 0xB44BE0
     }
@@ -335,21 +301,6 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-        public void BeginInvoke(){} // RVA: 0xB9E020
-        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
@@ -559,15 +510,6 @@ namespace ThirdParty.DotNet.System
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xBC4530
-        public void Invoke(){} // RVA: 0xB9E010
-        public void BeginInvoke(){} // RVA: 0xB9E020
-        public void EndInvoke(){} // RVA: 0xB44BE0
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
     }
 
@@ -668,6 +610,52 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x3E012C0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x406F470
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Action`2 : MulticastDelegate
@@ -704,6 +692,15 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0x40E58C0
         public void Invoke(){} // RVA: 0x14CC9D0
         public void BeginInvoke(){} // RVA: 0x40E5A30
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`4 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x40E5D30
+        public void Invoke(){} // RVA: 0x40E5E00
+        public void BeginInvoke(){} // RVA: 0x40E5E80
         public void EndInvoke(){} // RVA: 0xB44BE0
     }
 

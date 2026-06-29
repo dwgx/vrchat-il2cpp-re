@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System
 {
     public class UInt16 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x8B1590
         public void Equals(){} // RVA: 0x8B1570
@@ -55,6 +57,8 @@ namespace ThirdParty.DotNet.System
 
     public class UInt32 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x14F650
         public void Equals(){} // RVA: 0x14FC80
@@ -143,6 +147,8 @@ namespace ThirdParty.DotNet.System
 
     public class UInt64 : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x14F800
         public void Equals(){} // RVA: 0x3189D0
@@ -191,6 +197,9 @@ namespace ThirdParty.DotNet.System
 
     public class UIntPtr : ValueType
     {
+        public object Zero;
+        public object _pointer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void Equals(){} // RVA: 0x8C0010
@@ -224,6 +233,9 @@ namespace ThirdParty.DotNet.System
 
     public class UnhandledExceptionEventArgs : EventArgs
     {
+        public object _exception;
+        public object _isTerminating;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693B910
         public void get_ExceptionObject(){} // RVA: 0xB5DBF0
@@ -239,6 +251,15 @@ namespace ThirdParty.DotNet.System
 
     public class UnitySerializationHolder : Object
     {
+        public object m_instantiation;
+        public object m_elementTypes;
+        public object m_genericParameterPosition;
+        public object m_declaringType;
+        public object m_declaringMethod;
+        public object m_data;
+        public object m_assemblyName;
+        public object m_unityType;
+
         // ── Methods ──
         public void AddElementTypes(){} // RVA: 0x6971490
         public void MakeElementTypes(){} // RVA: 0x6971810
@@ -251,6 +272,43 @@ namespace ThirdParty.DotNet.System
 
     public class Uri : Object
     {
+        public object UriSchemeFile;
+        public object UriSchemeFtp;
+        public object UriSchemeGopher;
+        public object UriSchemeHttp;
+        public object UriSchemeHttps;
+        public object UriSchemeWs;
+        public object UriSchemeWss;
+        public object UriSchemeMailto;
+        public object UriSchemeNews;
+        public object UriSchemeNntp;
+        public object UriSchemeNetTcp;
+        public object UriSchemeNetPipe;
+        public object SchemeDelimiter;
+        public object c_Max16BitUtf8SequenceLength;
+        public object c_MaxUriBufferSize;
+        public object c_MaxUriSchemeName;
+        public object m_String;
+        public object m_originalUnicodeString;
+        public object m_Syntax;
+        public object m_DnsSafeHost;
+        public object m_Flags;
+        public object m_Info;
+        public object m_iriParsing;
+        public object s_ConfigInitialized;
+        public object s_ConfigInitializing;
+        public object s_IdnScope;
+        public object s_IriParsing;
+        public object useDotNetRelativeOrAbsolute;
+        public object DotNetRelativeOrAbsolute;
+        public object IsWindowsFileSystem;
+        public object s_initLock;
+        public object V1ToStringUnescape;
+        public object c_DummyChar;
+        public object c_EOL;
+        public object HexLowerChars;
+        public object _WSchars;
+
         // ── Methods ──
         public void get_IsImplicitFile(){} // RVA: 0x756CA00
         public void get_IsUncOrDosPath(){} // RVA: 0x756CA10
@@ -378,6 +436,18 @@ namespace ThirdParty.DotNet.System
 
     public class UriBuilder : Object
     {
+        public object _changed;
+        public object _fragment;
+        public object _host;
+        public object _password;
+        public object _path;
+        public object _port;
+        public object _query;
+        public object _scheme;
+        public object _schemeDelimiter;
+        public object _uri;
+        public object _username;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7652820
         public void Init(){} // RVA: 0x7651F80
@@ -404,6 +474,8 @@ namespace ThirdParty.DotNet.System
 
     public class UriHelper : Object
     {
+        public object HexUpperChars;
+
         // ── Methods ──
         public void TestForSubPath(){} // RVA: 0x7655B40
         public void EscapeString(){} // RVA: 0x7655DE0
@@ -421,6 +493,49 @@ namespace ThirdParty.DotNet.System
 
     public class UriParser : Object
     {
+        public object SchemeOnlyFlags;
+        public object m_Table;
+        public object m_TempTable;
+        public object m_Flags;
+        public object m_UpdatableFlags;
+        public object m_UpdatableFlagsUsed;
+        public object c_UpdatableFlags;
+        public object m_Port;
+        public object m_Scheme;
+        public object NoDefaultPort;
+        public object c_InitialTableSize;
+        public object HttpUri;
+        public object HttpsUri;
+        public object WsUri;
+        public object WssUri;
+        public object FtpUri;
+        public object FileUri;
+        public object GopherUri;
+        public object NntpUri;
+        public object NewsUri;
+        public object MailToUri;
+        public object UuidUri;
+        public object TelnetUri;
+        public object LdapUri;
+        public object NetTcpUri;
+        public object NetPipeUri;
+        public object VsMacrosUri;
+        public object s_QuirksVersion;
+        public object c_MaxCapacity;
+        public object UnknownV1SyntaxFlags;
+        public object HttpSyntaxFlags;
+        public object FtpSyntaxFlags;
+        public object FileSyntaxFlags;
+        public object VsmacrosSyntaxFlags;
+        public object GopherSyntaxFlags;
+        public object NewsSyntaxFlags;
+        public object NntpSyntaxFlags;
+        public object TelnetSyntaxFlags;
+        public object LdapSyntaxFlags;
+        public object MailtoSyntaxFlags;
+        public object NetPipeSyntaxFlags;
+        public object NetTcpSyntaxFlags;
+
         // ── Methods ──
         public void get_SchemeName(){} // RVA: 0xB700F0
         public void get_DefaultPort(){} // RVA: 0x2244FB0

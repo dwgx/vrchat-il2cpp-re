@@ -7,6 +7,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 {
     public class Ambisonic : Object
     {
+        public object MaxCoeffs;
+        public object _weightsFuMa;
+        public object _weightsSN3D;
+
         // ── Methods ──
         public void GetNormalisationWeights(){} // RVA: 0x6CE6AA0
         public void GetCoeffCount(){} // RVA: 0x6CE6B30
@@ -24,6 +28,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AmbisonicSource : MonoBehaviour
     {
+        public object _sink;
+        public object _listener;
+        public object _position;
+        public object _order;
+        public object _channelOrder;
+        public object _normalisation;
+        public object _sourceInstance;
+        public object _activeSampleIndex;
+        public object _activeSamples;
+        public object _fullBuffers;
+        public object _emptyBuffers;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x6CC1220
         public void OnDisable(){} // RVA: 0x6CC15D0
@@ -61,6 +77,16 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AmbisonicWavWriter : MonoBehaviour
     {
+        public object _capture;
+        public object _order;
+        public object _format;
+        public object _filename;
+        public object _bufferCount;
+        public object _outSamples;
+        public object _wavWriter;
+        public object _sources;
+        public object _pendingSampleCount;
+
         // ── Methods ──
         public void get_Order(){} // RVA: 0x1065D50
         public void get_Format(){} // RVA: 0x1AE5AC0
@@ -81,6 +107,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class AudioSourceToWav : MonoBehaviour
     {
+        public object _filename;
+        public object _wavWriter;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x6CC47F0
         public void OnDisable(){} // RVA: 0x6CC49E0
@@ -90,6 +119,17 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CameraSelector : MonoBehaviour
     {
+        public object _selectBy;
+        public object _scanFrequency;
+        public object _scanHiddenCameras;
+        public object _tag;
+        public object _name;
+        public object _camera;
+        public object _cameraCache;
+        public object _cameraCount;
+        public object _cameraCacheFrame;
+        public object _selectionDirty;
+
         // ── Methods ──
         public void get_Camera(){} // RVA: 0xBC1B30
         public void set_Camera(){} // RVA: 0x6CC4B60
@@ -121,6 +161,14 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioClip : MonoBehaviour
     {
+        public object _capture;
+        public object _audioClip;
+        public object _videoOffsetInSamples;
+        public object _committedFrames;
+        public object _committedSamples;
+        public object _lastCommittedSample;
+        public object _frameBuffer;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x6CC5AD0
         public void Update(){} // RVA: 0x6CC5DF0
@@ -130,6 +178,17 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioListener : UnityAudioCapture
     {
+        public object _debugLogging;
+        public object _muteAudio;
+        public object BufferSize;
+        public object _buffer;
+        public object _readBuffer;
+        public object _bufferIndex;
+        public object _bufferHandle;
+        public object _numChannels;
+        public object _overflowCount;
+        public object _lockObject;
+
         // ── Methods ──
         public void get_Buffer(){} // RVA: 0xD33E60
         public void get_BufferLength(){} // RVA: 0x18A0130
@@ -148,6 +207,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromAudioRenderer : UnityAudioCapture
     {
+        public object _capture;
+        public object _unityAudioChannelCount;
+        public object _isRendererRecording;
+        public object _audioBuffer;
+
         // ── Methods ──
         public void get_Capture(){} // RVA: 0xB700F0
         public void set_Capture(){} // RVA: 0xB70100
@@ -165,6 +229,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureAudioFromWwise : UnityAudioCapture
     {
+        public object _capture;
+
         // ── Methods ──
         public void get_Capture(){} // RVA: 0xB700F0
         public void set_Capture(){} // RVA: 0xB70100
@@ -180,6 +246,130 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureBase : MonoBehaviour
     {
+        public object DocEditionsURL;
+        public object _encoderHintsWindows;
+        public object _encoderHintsMacOS;
+        public object _encoderHintsIOS;
+        public object _encoderHintsAndroid;
+        public object _captureKey;
+        public object _isRealTime;
+        public object _persistAcrossSceneLoads;
+        public object _startTrigger;
+        public object _startDelay;
+        public object _startDelaySeconds;
+        public object _stopMode;
+        public object _stopFrames;
+        public object _stopSeconds;
+        public object DefaultVideoCodecPriorityWindows;
+        public object DefaultVideoCodecPriorityMacOS;
+        public object DefaultVideoCodecPriorityAndroid;
+        public object DefaultAudioCodecPriorityWindows;
+        public object DefaultAudioCodecPriorityMacOS;
+        public object DefaultAudioCodecPriorityIOS;
+        public object DefaultAudioCodecPriorityAndroid;
+        public object DefaultAudioCaptureDevicePriorityWindow;
+        public object DefaultAudioCaptureDevicePriorityMacOS;
+        public object DefaultAudioCaptureDevicePriorityIOS;
+        public object DefaultAudioCaptureDevicePriorityAndroid;
+        public object _videoCodecPriorityWindows;
+        public object _videoCodecPriorityMacOS;
+        public object _videoCodecPriorityAndroid;
+        public object _audioCodecPriorityWindows;
+        public object _audioCodecPriorityMacOS;
+        public object _audioCodecPriorityAndroid;
+        public object _frameRate;
+        public object _timelapseScale;
+        public object _frameUpdateMode;
+        public object _downScale;
+        public object _maxVideoSize;
+        public object _forceVideoCodecIndexWindows;
+        public object _forceVideoCodecIndexMacOS;
+        public object _forceVideoCodecIndexIOS;
+        public object _forceVideoCodecIndexAndroid;
+        public object _forceAudioCodecIndexWindows;
+        public object _forceAudioCodecIndexMacOS;
+        public object _forceAudioCodecIndexIOS;
+        public object _forceAudioCodecIndexAndroid;
+        public object _flipVertically;
+        public object _forceGpuFlush;
+        public object _useWaitForEndOfFrame;
+        public object _androidNoCaptureRotation;
+        public object _logCaptureStartStop;
+        public object _audioCaptureSource;
+        public object _unityAudioCapture;
+        public object _forceAudioInputDeviceIndex;
+        public object _manualAudioSampleRate;
+        public object _manualAudioChannelCount;
+        public object _outputTarget;
+        public object DefaultOutputFolderType;
+        public object DefaultOutputFolderPath;
+        public object _outputFolderType;
+        public object _outputFolderPath;
+        public object _filenamePrefix;
+        public object _appendFilenameTimestamp;
+        public object _allowManualFileExtension;
+        public object _filenameExtension;
+        public object _namedPipePath;
+        public object _imageSequenceStartFrame;
+        public object _imageSequenceZeroDigits;
+        public object _imageSequenceFormatWindows;
+        public object _imageSequenceFormatMacOS;
+        public object _imageSequenceFormatIOS;
+        public object _imageSequenceFormatAndroid;
+        public object _renderResolution;
+        public object _renderSize;
+        public object _renderAntiAliasing;
+        public object _useMotionBlur;
+        public object _motionBlurSamples;
+        public object _motionBlurCameras;
+        public object _motionBlur;
+        public object _allowVSyncDisable;
+        public object _supportTextureRecreate;
+        public object _minimumDiskSpaceMB;
+        public object _timelineController;
+        public object _videoPlayerController;
+        public object _texture;
+        public object _handle;
+        public object _sourceWidth;
+        public object _sourceHeight;
+        public object _targetWidth;
+        public object _targetHeight;
+        public object _capturing;
+        public object _paused;
+        public object _filePath;
+        public object _finalFilePath;
+        public object _fileInfo;
+        public object _pixelFormat;
+        public object _selectedVideoCodec;
+        public object _selectedAudioCodec;
+        public object _selectedAudioInputDevice;
+        public object _oldVSyncCount;
+        public object _oldFixedDeltaTime;
+        public object _isTopDown;
+        public object _isDirectX11;
+        public object _queuedStartCapture;
+        public object _queuedStopCapture;
+        public object _captureStartTime;
+        public object _capturePrePauseTotalTime;
+        public object _timeSinceLastFrame;
+        public object _waitForEndOfFrame;
+        public object _freeDiskSpaceMB;
+        public object _startDelayTimer;
+        public object _startPaused;
+        public object _beginFinalFileWritingAction;
+        public object _completedFileWritingAction;
+        public object _pendingFileWrites;
+        public object _activeFilePaths;
+        public object _stats;
+        public object _isInitialised;
+        public object _isApplicationQuiting;
+        public object _waitingForAudioCaptureDeviceAuthorisation;
+        public object _hasCheckedAudioCaptureDeviceAuthorisationStatus;
+        public object _audioCaptureDeviceAuthorisationStatus;
+        public object _waitingForAuthorisationToAccessPhotos;
+        public object _hasCheckedPhotoLibraryAuthorisationStatus;
+        public object _photoLibraryAuthorisation;
+
         // ── Methods ──
         public void get_OutputTarget(){} // RVA: 0x255B920
         public void set_OutputTarget(){} // RVA: 0x6CE7A70
@@ -376,6 +566,17 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera : CaptureBase
     {
+        public object _cameraSelector;
+        public object _lastCamera;
+        public object _contribCameras;
+        public object _useContributingCameras;
+        public object _supportTransparency;
+        public object _target;
+        public object _resolveTexture;
+        public object _targetNativePointer;
+        public object _targetNativeTexture;
+        public object _previewTexture;
+
         // ── Methods ──
         public void get_CameraSelector(){} // RVA: 0x1667A40
         public void set_CameraSelector(){} // RVA: 0x163A9E0
@@ -401,6 +602,24 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera360 : CaptureBase
     {
+        public object _cameraSelector;
+        public object _cubemapResolution;
+        public object _cubemapDepth;
+        public object _supportGUI;
+        public object _supportCameraRotation;
+        public object _onlyLeftRightRotation;
+        public object _render180Degrees;
+        public object _stereoRendering;
+        public object _ipd;
+        public object _camera;
+        public object _faceTarget;
+        public object _blitMaterial;
+        public object _cubemapToEquirectangularMaterial;
+        public object _cubeTarget;
+        public object _finalTarget;
+        public object _targetNativePointer;
+        public object _propFlipX;
+
         // ── Methods ──
         public void get_CameraSelector(){} // RVA: 0x1667A40
         public void set_CameraSelector(){} // RVA: 0x163A9E0
@@ -439,6 +658,19 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromCamera360ODS : CaptureBase
     {
+        public object _settings;
+        public object _eyeWidth;
+        public object _eyeHeight;
+        public object _cameraGroup;
+        public object _leftCameraTop;
+        public object _leftCameraBot;
+        public object _rightCameraTop;
+        public object _rightCameraBot;
+        public object _final;
+        public object _targetNativePointer;
+        public object _finalMaterial;
+        public object _propSliceCenter;
+
         // ── Methods ──
         public void get_Setup(){} // RVA: 0x1667A40
         public void .ctor(){} // RVA: 0x6CD0270
@@ -458,6 +690,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromScreen : CaptureBase
     {
+        public object _captureMouseCursor;
+        public object _mouseCursor;
+        public object _targetNativePointer;
+        public object _resolveTexture;
+        public object _commandBuffer;
+
         // ── Methods ──
         public void get_CaptureMouseCursor(){} // RVA: 0x6CD4640
         public void set_CaptureMouseCursor(){} // RVA: 0x6CD4650
@@ -474,6 +712,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureFromTexture : CaptureBase
     {
+        public object _manualUpdate;
+        public object _sourceTexture;
+        public object _resolveTexture;
+        public object _targetNativePointer;
+        public object _isSourceTextureChanged;
+
         // ── Methods ──
         public void get_IsManualUpdate(){} // RVA: 0x6CD4640
         public void set_IsManualUpdate(){} // RVA: 0x6CD4650
@@ -502,6 +746,31 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureGUI : MonoBehaviour
     {
+        public object _movieCapture;
+        public object _showUI;
+        public object _whenRecordingAutoHideUI;
+        public object _guiSkin;
+        public object CommonFrameRateNames;
+        public object CommonFrameRateValues;
+        public object _shownSection;
+        public object _videoCodecNames;
+        public object _audioCodecNames;
+        public object _videoCodecConfigurable;
+        public object _audioCodecConfigurable;
+        public object _audioDeviceNames;
+        public object _downScales;
+        public object _outputType;
+        public object _downScaleIndex;
+        public object _tintableBox;
+        public object _videoPos;
+        public object _audioPos;
+        public object _audioCodecPos;
+        public object _imageCodecPos;
+        public object _lastFileSize;
+        public object _lastEncodedMinutes;
+        public object _lastEncodedSeconds;
+        public object _lastEncodedFrame;
+
         // ── Methods ──
         public void get_MovieCapture(){} // RVA: 0xB700F0
         public void set_MovieCapture(){} // RVA: 0xB70100
@@ -528,6 +797,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CaptureStats : Object
     {
+        public object _numDroppedFrames;
+        public object _numDroppedEncoderFrames;
+        public object _numEncodedFrames;
+        public object _totalEncodedSeconds;
+        public object _audioCaptureSource;
+        public object _unityAudioSampleRate;
+        public object _unityAudioChannelCount;
+        public object _fps;
+        public object _frameTotal;
+        public object _frameCount;
+        public object _startFrameTime;
+
         // ── Methods ──
         public void get_FPS(){} // RVA: 0xCD5510
         public void get_FramesTotal(){} // RVA: 0x6CE7780
@@ -552,6 +833,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class Codec : Object
     {
+        public object _codecType;
+        public object _index;
+        public object _name;
+        public object _hasConfigWindow;
+        public object _api;
+
         // ── Methods ──
         public void get_CodecType(){} // RVA: 0xB8F8F0
         public void get_Index(){} // RVA: 0x116A650
@@ -564,6 +851,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CodecList : Object
     {
+        public object _codecs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CF2620
         public void FindCodec(){} // RVA: 0x6CF2720
@@ -575,6 +864,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class CodecManager : Object
     {
+        public object _isEnumerated;
+        public object _videoCodecs;
+        public object _audioCodecs;
+
         // ── Methods ──
         public void FindCodec(){} // RVA: 0x6CF2850
         public void GetCodecCount(){} // RVA: 0x6CF2970
@@ -608,6 +901,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class Device : Object
     {
+        public object _deviceType;
+        public object _index;
+        public object _name;
+        public object _api;
+
         // ── Methods ──
         public void get_DeviceType(){} // RVA: 0xB8F8F0
         public void get_Index(){} // RVA: 0x116A650
@@ -618,6 +916,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class DeviceList : Object
     {
+        public object _devices;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CF3860
         public void FindDevice(){} // RVA: 0x6CF3960
@@ -629,6 +929,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class DeviceManager : Object
     {
+        public object _isEnumerated;
+        public object _audioInputDevices;
+
         // ── Methods ──
         public void FindDevice(){} // RVA: 0x6CF3A90
         public void GetDeviceCount(){} // RVA: 0x6CF3C00
@@ -661,6 +964,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class EncoderHints : Object
     {
+        public object videoHints;
+        public object imageHints;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CE7900
         public void SetDefaults(){} // RVA: 0x6CE7900
@@ -668,6 +974,17 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class FileWritingHandler : Object
     {
+        public object _path;
+        public object _handle;
+        public object _deleteFile;
+        public object _outputTarget;
+        public object _postOptions;
+        public object _postProcessEvent;
+        public object _completionStatus;
+        public object _finalFilePath;
+        public object _updateMediaGallery;
+        public object _completedFileWritingAction;
+
         // ── Methods ──
         public void get_Status(){} // RVA: 0xE32C80
         public void get_Path(){} // RVA: 0xB5DBF0
@@ -711,6 +1028,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class ImageEncoderHints : Object
     {
+        public object quality;
+        public object supportTransparency;
+        public object colourSpace;
+        public object sourceWidth;
+        public object sourceHeight;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CE78B0
         public void SetDefaults(){} // RVA: 0x6CE78B0
@@ -719,6 +1042,37 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MP4FileProcessing : Object
     {
+        public object ChunkHeaderSize;
+        public object ExtendedChunkHeaderSize;
+        public object CopyBufferSize;
+        public object Atom_moov;
+        public object Atom_mdat;
+        public object Atom_cmov;
+        public object Atom_trak;
+        public object Atom_mdia;
+        public object Atom_hdlr;
+        public object Atom_minf;
+        public object Atom_stbl;
+        public object Atom_stco;
+        public object Atom_co64;
+        public object Atom_stsd;
+        public object Atom_avc1;
+        public object Atom_hev1;
+        public object Atom_hvc1;
+        public object Atom_st3d;
+        public object Atom_uuid;
+        public object Atom_sv3d;
+        public object Atom_svhd;
+        public object Atom_proj;
+        public object Atom_prhd;
+        public object Atom_equi;
+        public object _reader;
+        public object _writeFile;
+        public object _options;
+        public object _requires64BitOffsets;
+        public object _offsetChunks;
+        public object _offsetUpgradeChunks;
+
         // ── Methods ──
         public void ProcessFileAsync(){} // RVA: 0x6CF4AD0
         public void ProcessFile(){} // RVA: 0x6CF5110
@@ -766,6 +1120,22 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MotionBlur : MonoBehaviour
     {
+        public object _format;
+        public object _numSamples;
+        public object _accum;
+        public object _lastComp;
+        public object _addMaterial;
+        public object _divMaterial;
+        public object _frameCount;
+        public object _targetWidth;
+        public object _targetHeight;
+        public object _isDirty;
+        public object _propNumSamples;
+        public object _propWeight;
+        public object _isFrameAccumulated;
+        public object _bias;
+        public object _total;
+
         // ── Methods ──
         public void get_IsFrameAccumulated(){} // RVA: 0x23DB790
         public void set_IsFrameAccumulated(){} // RVA: 0x23D9930
@@ -790,6 +1160,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class MouseCursor : MonoBehaviour
     {
+        public object _texture;
+        public object _hotspotOffset;
+        public object _sizeScale;
+        public object _depth;
+        public object _content;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x6CDF840
         public void SetTexture(){} // RVA: 0x6CDFA20
@@ -799,6 +1175,22 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class NativePlugin : Object
     {
+        public object ScriptVersion;
+        public object ExpectedPluginVersion;
+        public object PluginName;
+        public object PlatformNames;
+        public object VideoCodecNamesMacOS;
+        public object AudioCodecNamesMacOS;
+        public object VideoCodecNamesIOS;
+        public object AudioCodecNamesIOS;
+        public object VideoCodecNamesAndroid;
+        public object AudioCodecNamesAndroid;
+        public object MaxRenderWidth;
+        public object MaxRenderHeight;
+        public object PluginID;
+        public object _renderEventFunction;
+        public object _freeEventFunction;
+
         // ── Methods ──
         public void AddAmbisonicSourceInstance(){} // RVA: 0x6CE37F0
         public void RemoveAmbisonicSourceInstance(){} // RVA: 0x6CE3870
@@ -857,6 +1249,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class TimelineController : MonoBehaviour
     {
+        public object _scanFrequency;
+        public object _timelines;
+
         // ── Methods ──
         public void get_ScanFrequency(){} // RVA: 0xFEAE90
         public void set_ScanFrequency(){} // RVA: 0x6CDFFA0
@@ -890,6 +1285,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class Utils : Object
     {
+        public object WindowsImageSequenceFormatNames;
+        public object MacOSImageSequenceFormatNames;
+        public object IOSImageSequenceFormatNames;
+        public object AndroidImageSequenceFormatNames;
+
         // ── Methods ──
         public void GetNativeImageSequenceFormatNames(){} // RVA: 0x6CFA4F0
         public void HasAlphaChannel(){} // RVA: 0x6CFA570
@@ -910,6 +1310,24 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class VideoEncoderHints : Object
     {
+        public object averageBitrate;
+        public object maximumBitrate;
+        public object quality;
+        public object keyframeInterval;
+        public object allowFastStartStreamingPostProcess;
+        public object supportTransparency;
+        public object useHardwareEncoding;
+        public object injectStereoPacking;
+        public object stereoPacking;
+        public object injectSphericalVideoLayout;
+        public object sphericalVideoLayout;
+        public object enableFragmentedWriting;
+        public object movieFragmentInterval;
+        public object colourSpace;
+        public object sourceWidth;
+        public object sourceHeight;
+        public object androidNoCaptureRotation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CE7830
         public void SetDefaults(){} // RVA: 0x6CE7830
@@ -918,6 +1336,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class VideoPlayerController : MonoBehaviour
     {
+        public object _scanFrequency;
+        public object _instances;
+
         // ── Methods ──
         public void get_ScanFrequency(){} // RVA: 0xFEAE90
         public void set_ScanFrequency(){} // RVA: 0x6CE1030
@@ -941,6 +1362,23 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
 
     public class WavWriter : Object
     {
+        public object RIFF_HEADER;
+        public object FORMAT_WAVE;
+        public object FORMAT_TAG;
+        public object AUDIO_FORMAT_PCM;
+        public object AUDIO_FORMAT_FLOAT;
+        public object SUBCHUNK_ID;
+        public object FACTCHUNK_ID;
+        public object BufferDuration;
+        public object _stream;
+        public object _outBytes;
+        public object _byteCount;
+        public object _byteCountTotal;
+        public object _channelCount;
+        public object _sampleRate;
+        public object _sampleFormat;
+        public object _headerSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CFC750
         public void Dispose(){} // RVA: 0x6CFC8F0

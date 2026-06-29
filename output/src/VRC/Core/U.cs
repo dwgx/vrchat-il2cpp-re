@@ -7,6 +7,13 @@ namespace VRC.Core
 {
     public class UnityEventFilter : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_089;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x17072F0
         public void Equals(){} // RVA: 0x1707370
@@ -30,6 +37,13 @@ namespace VRC.Core
 
     public class UnityVersion : ValueType
     {
+        public object versionRegex;
+        public object major;
+        public object minor;
+        public object update;
+        public object revision;
+        public object patch;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA74400
         public void CompareTo(){} // RVA: 0xA74420
@@ -41,6 +55,10 @@ namespace VRC.Core
 
     public class UpdateDelegator : Object
     {
+        public object _queueLock;
+        public object _jobQueue;
+        public object MaxJobsPerFrame;
+
         // ── Methods ──
         public void Dispatch(){} // RVA: 0xA5E2130
         public void DispatchAfter(){} // RVA: 0xA5E2420
@@ -51,6 +69,8 @@ namespace VRC.Core
 
     public class UrlAllowlistConfig : Object
     {
+        public object _urlAllowlist;
+
         // ── Methods ──
         public void GetRemoteLists(){} // RVA: 0xA5D6710
         public void get_DomainExplicitAllowlist(){} // RVA: 0xA5D6C30

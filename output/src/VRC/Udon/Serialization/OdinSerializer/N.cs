@@ -7,6 +7,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class NodeInfo : ValueType
     {
+        public object Empty;
+        public object Name;
+        public object Id;
+        public object Type;
+        public object IsArray;
+        public object IsEmpty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9DC150
         public void op_Equality(){} // RVA: 0x84A6880
@@ -18,6 +25,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class NullableFormatter`1 : BaseFormatter`1
     {
+        public object TSerializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290

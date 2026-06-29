@@ -7,6 +7,14 @@ namespace ThirdParty.DotNet.System
 {
     public class ParamsArray : ValueType
     {
+        public object s_oneArgArray;
+        public object s_twoArgArray;
+        public object s_threeArgArray;
+        public object _arg0;
+        public object _arg1;
+        public object _arg2;
+        public object _args;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BB010
         public void get_Length(){} // RVA: 0x8BB020
@@ -36,19 +44,6 @@ namespace ThirdParty.DotNet.System
     public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x24046F0
         public void Invoke(){} // RVA: 0xB9E010
     }
 
@@ -259,6 +254,13 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0x24046F0
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Predicate`1 : MulticastDelegate
@@ -427,6 +429,12 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0x35A77C0
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Predicate`1 : MulticastDelegate

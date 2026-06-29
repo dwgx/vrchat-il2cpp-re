@@ -20,6 +20,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ClassInterfaceAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
@@ -32,6 +34,8 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class CollectionsMarshal : Object
     {
+        public object ListSize;
+
         // ── Methods ──
         public void AsSpan(){} // RVA: 0x302FBE0
         public void UnsafeSetCount(){} // RVA: 0x30307B0
@@ -40,12 +44,19 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ComCompatibleVersionAttribute : Attribute
     {
+        public object _major;
+        public object _minor;
+        public object _build;
+        public object _revision;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67B7600
     }
 
     public class ComDefaultInterfaceAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
@@ -58,18 +69,32 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class ComVisibleAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class DefaultDllImportSearchPathsAttribute : Attribute
     {
+        public object _paths;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class DllImportAttribute : Attribute
     {
+        public object _val;
+        public object EntryPoint;
+        public object CharSet;
+        public object SetLastError;
+        public object ExactSpelling;
+        public object PreserveSig;
+        public object CallingConvention;
+        public object BestFitMapping;
+        public object ThrowOnUnmappableChar;
+
         // ── Methods ──
         public void GetCustomAttribute(){} // RVA: 0x67B7260
         public void IsDefined(){} // RVA: 0x67B74E0
@@ -87,12 +112,16 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class FieldOffsetAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class GCHandle : ValueType
     {
+        public object handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AEC30
         public void get_IsAllocated(){} // RVA: 0x311760
@@ -139,12 +168,17 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class GuidAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class HandleRef : ValueType
     {
+        public object _wrapper;
+        public object _handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x260A0
         public void get_Handle(){} // RVA: 0x77ED0
@@ -168,12 +202,20 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class InterfaceTypeAttribute : Attribute
     {
+        public object _val;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class LibraryImportAttribute : Attribute
     {
+        public object _libraryName;
+        public object _entryPoint;
+        public object _stringMarshalling;
+        public object _stringMarshallingCustomType;
+        public object _setLastError;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_LibraryName(){} // RVA: 0xB5DBF0
@@ -189,6 +231,12 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class LibraryImportAttribute : Attribute
     {
+        public object _libraryName;
+        public object _entryPoint;
+        public object _stringMarshalling;
+        public object _stringMarshallingCustomType;
+        public object _setLastError;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_LibraryName(){} // RVA: 0xB5DBF0
@@ -204,6 +252,11 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class Marshal : Object
     {
+        public object SystemMaxDBCSCharSize;
+        public object SystemDefaultCharSize;
+        public object MarshalerInstanceCache;
+        public object MarshalerInstanceCacheLock;
+
         // ── Methods ──
         public void AllocCoTaskMem(){} // RVA: 0x67B9150
         public void AllocHGlobal(){} // RVA: 0x67B9170
@@ -258,6 +311,17 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class MarshalAsAttribute : Attribute
     {
+        public object MarshalCookie;
+        public object MarshalType;
+        public object MarshalTypeRef;
+        public object SafeArrayUserDefinedSubType;
+        public object utype;
+        public object ArraySubType;
+        public object SafeArraySubType;
+        public object SizeConst;
+        public object IidParameterIndex;
+        public object SizeParamIndex;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB9E090
         public void get_Value(){} // RVA: 0xB9E080
@@ -301,12 +365,19 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class NativeCallableAttribute : Attribute
     {
+        public object CallingConvention;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class OSPlatform : ValueType
     {
+        public object _osPlatform;
+        public object _linux;
+        public object _oSX;
+        public object _windows;
+
         // ── Methods ──
         public void get_Linux(){} // RVA: 0x67B6060
         public void get_OSX(){} // RVA: 0x67B60C0
@@ -340,6 +411,10 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class RuntimeInformation : Object
     {
+        public object _osArchitecture;
+        public object _processArchitecture;
+        public object _osPlatform;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x67B7D90
         public void GetRuntimeArchitecture(){} // RVA: 0x67B87B0
@@ -351,6 +426,9 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class SafeBuffer : SafeHandleZeroOrMinusOneIsInvalid
     {
+        public object Uninitialized;
+        public object _numBytes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67B6B40
         public void Initialize(){} // RVA: 0x67B6BC0
@@ -363,6 +441,13 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class SafeHandle : CriticalFinalizerObject
     {
+        public object handle;
+        public object _state;
+        public object _ownsHandle;
+        public object _fullyInitialized;
+        public object RefCount_Mask;
+        public object RefCount_One;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67B7620
         public void Finalize(){} // RVA: 0x67B76B0
@@ -401,12 +486,18 @@ namespace ThirdParty.DotNet.System.Runtime.InteropServices
 
     public class UnmanagedCallersOnlyAttribute : Attribute
     {
+        public object CallConvs;
+        public object EntryPoint;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UnmanagedFunctionPointerAttribute : Attribute
     {
+        public object m_callingConvention;
+        public object SetLastError;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }

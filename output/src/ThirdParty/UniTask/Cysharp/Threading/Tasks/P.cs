@@ -7,6 +7,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class PlayerLoopHelper : Object
     {
+        public object ThrowMarkerContinuationQueue;
+        public object ThrowMarkerPlayerLoopRunner;
+        public object mainThreadId;
+        public object applicationDataPath;
+        public object unitySynchronizationContext;
+        public object yielders;
+        public object runners;
+        public object _isEditorApplicationQuitting;
+
         // ── Methods ──
         public void get_UnitySynchronizationContext(){} // RVA: 0x77468E0
         public void get_MainThreadId(){} // RVA: 0x7746940
@@ -31,6 +40,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class PlayerLoopTimer : Object
     {
+        public object cancellationToken;
+        public object timerCallback;
+        public object state;
+        public object playerLoopTiming;
+        public object periodic;
+        public object isRunning;
+        public object tryStop;
+        public object isDisposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x774A370
         public void Create(){} // RVA: 0x774A480

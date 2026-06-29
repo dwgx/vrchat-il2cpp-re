@@ -7,6 +7,17 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class LeftJoin`6 : ValueType
     {
+        public object <outerKeySelector>P;
+        public object <innerKeySelector>P;
+        public object <resultSelector>P;
+        public object <comparer>P;
+        public object source;
+        public object inner;
+        public object innerLookup;
+        public object currentGroup;
+        public object currentGroupIndex;
+        public object currentOuter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -18,6 +29,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -29,6 +42,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -40,6 +55,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -51,6 +68,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -62,6 +81,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -73,6 +94,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -84,6 +107,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
@@ -95,6 +120,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -106,6 +133,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListSelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C5C0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
@@ -117,6 +148,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListSelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C5C0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
@@ -128,6 +163,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListSelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -139,6 +178,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C720
         public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
@@ -150,6 +194,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -161,6 +210,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -175,6 +228,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -189,6 +246,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -203,20 +264,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x36C750
-        public void GetSource(){} // RVA: 0x77ED0
-        public void get_Predicate(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
-        public void TryGetSpan(){} // RVA: 0x20C450
-        public void TryCopyTo(){} // RVA: 0x20C460
-        public void TryGetNext(){} // RVA: 0x36C770
-        public void Dispose(){} // RVA: 0x3FC0
-        public void Select(){} // RVA: 0xA94080
-    }
+        public object <predicate>P;
+        public object source;
+        public object index;
 
-    public class ListWhere`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -231,6 +282,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -245,6 +300,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -259,6 +318,28 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x36C770
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0xA94080
+    }
+
+    public class ListWhere`1 : ValueType
+    {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetSource(){} // RVA: 0x87C0A0
@@ -273,6 +354,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ListWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -293,6 +378,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class LookupBuilder`2 : ValueType
     {
+        public object comparer;
+        public object buckets;
+        public object bucketsLength;
+        public object last;
+        public object groupCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetBucketIndex(){} // RVA: 0x881C20
@@ -305,6 +396,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Lookup`2 : Object
     {
+        public object Empty;
+        public object groups;
+        public object last;
+        public object count;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89E220
         public void get_Item(){} // RVA: 0xA94080

@@ -7,6 +7,13 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 {
     public class AxisTouchButton : MonoBehaviour
     {
+        public object axisName;
+        public object axisValue;
+        public object responseSpeed;
+        public object returnToCentreSpeed;
+        public object m_PairedWith;
+        public object m_Axis;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB5BE70
         public void FindPairedButton(){} // RVA: 0xB5C130
@@ -18,6 +25,8 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class ButtonHandler : MonoBehaviour
     {
+        public object Name;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB43310
         public void SetDownState(){} // RVA: 0xB5C740
@@ -31,6 +40,10 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class CrossPlatformInputManager : Object
     {
+        public object activeInput;
+        public object s_TouchInput;
+        public object s_HardwareInput;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB5CB00
         public void SwitchActiveInputMethod(){} // RVA: 0xB5CCE0
@@ -60,6 +73,8 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class InputAxisScrollbar : MonoBehaviour
     {
+        public object axis;
+
         // ── Methods ──
         public void Update(){} // RVA: 0xB43310
         public void HandleInput(){} // RVA: 0xB5E100
@@ -68,6 +83,16 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class Joystick : MonoBehaviour
     {
+        public object MovementRange;
+        public object axesToUse;
+        public object horizontalAxisName;
+        public object verticalAxisName;
+        public object m_StartPos;
+        public object m_UseX;
+        public object m_UseY;
+        public object m_HorizontalVirtualAxis;
+        public object m_VerticalVirtualAxis;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB5E1D0
         public void Start(){} // RVA: 0xB5E1E0
@@ -92,6 +117,12 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class TiltInput : MonoBehaviour
     {
+        public object mapping;
+        public object tiltAroundAxis;
+        public object fullTiltAngle;
+        public object centreAngleOffset;
+        public object m_SteerAxis;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB5F0E0
         public void Update(){} // RVA: 0xB5F230
@@ -101,6 +132,25 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class TouchPad : MonoBehaviour
     {
+        public object axesToUse;
+        public object controlStyle;
+        public object horizontalAxisName;
+        public object verticalAxisName;
+        public object Xsensitivity;
+        public object Ysensitivity;
+        public object m_StartPos;
+        public object m_PreviousDelta;
+        public object m_JoytickOutput;
+        public object m_UseX;
+        public object m_UseY;
+        public object m_HorizontalVirtualAxis;
+        public object m_VerticalVirtualAxis;
+        public object m_Dragging;
+        public object m_Id;
+        public object m_PreviousTouchPos;
+        public object m_Center;
+        public object m_Image;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB5F7F0
         public void Start(){} // RVA: 0xB5F800
@@ -115,6 +165,11 @@ namespace ThirdParty.Other.UnityStandardAssets.CrossPlatformInput
 
     public class VirtualInput : Object
     {
+        public object _virtualMousePosition;
+        public object m_VirtualAxes;
+        public object m_VirtualButtons;
+        public object m_AlwaysUseVirtual;
+
         // ── Methods ──
         public void get_virtualMousePosition(){} // RVA: 0xB60220
         public void set_virtualMousePosition(){} // RVA: 0xB60240

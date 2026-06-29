@@ -1,13 +1,150 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
-// Classes: 6
-// Methods: 433
+// Classes: 10
+// Methods: 480
 
 namespace VRC.Player
 {
     /// <summary>Originally: ÌÏÌÍÏÏÎÎÍÌÍÍÍÍÌÏÎÎÏÏÍÎÎ</summary>
     public class VRCPlayer : NetworkReadyHandler_D8EE
     {
+        public object f_13C;
+        public object _player;
+        public object _serializer;
+        public object _poseRecorder;
+        public object _syncPhysics;
+        public object f_E13;
+        public object f_1E2;
+        public object f_BE5;
+        public object f_021;
+        public object f_509;
+        public object f_CF3;
+        public object f_482;
+        public object f_3B6;
+        public object f_AB3;
+        public object f_AC3;
+        public object f_BE6;
+        public object f_B6F;
+        public object f_952;
+        public object f_C53;
+        public object f_FB1;
+        public object f_D83;
+        public object f_D85;
+        public object f_B1B;
+        public object f_724;
+        public object f_1D4;
+        public object f_227;
+        public object f_367;
+        public object f_A67;
+        public object f_71E;
+        public object f_719;
+        public object f_C27;
+        public object f_CB0;
+        public object f_1CF;
+        public object f_187;
+        public object f_081;
+        public object f_3FA;
+        public object f_EFD;
+        public object f_509;
+        public object f_585;
+        public object f_939;
+        public object f_D3B;
+        public object f_51D;
+        public object f_B53;
+        public object f_04B;
+        public object f_68F;
+        public object f_B8D;
+        public object f_ECC;
+        public object f_876;
+        public object f_F5D;
+        public object f_9D2;
+        public object f_DA5;
+        public object f_BD5;
+        public object f_0AC;
+        public object f_554;
+        public object f_CE0;
+        public object f_97F;
+        public object f_D95;
+        public object f_FD0;
+        public object f_A64;
+        public object f_356;
+        public object f_28A;
+        public object f_BBF;
+        public object f_CED;
+        public object f_BE7;
+        public object f_605;
+        public object f_51F;
+        public object f_CFA;
+        public object f_37B;
+        public object f_32D;
+        public object f_067;
+        public object f_3DA;
+        public object f_76C;
+        public object f_ED9;
+        public object f_7D3;
+        public object f_A19;
+        public object f_1B9;
+        public object f_437;
+        public object f_F88;
+        public object f_8A6;
+        public object f_36A;
+        public object f_9E9;
+        public object f_033;
+        public object f_B36;
+        public object f_FAE;
+        public object f_36E;
+        public object f_575;
+        public object f_D8F;
+        public object f_73B;
+        public object f_B58;
+        public object f_F86;
+        public object f_858;
+        public object f_405;
+        public object f_9A3;
+        public object f_440;
+        public object f_C0B;
+        public object f_738;
+        public object f_798;
+        public object f_963;
+        public object f_24D;
+        public object f_CE8;
+        public object f_DD9;
+        public object f_D9F;
+        public object f_029;
+        public object f_A2E;
+        public object f_CFC;
+        public object f_276;
+        public object f_0CF;
+        public object f_F4E;
+        public object f_A9C;
+        public object f_6CB;
+        public object f_166;
+        public object f_263;
+        public object f_A38;
+        public object f_196;
+        public object f_4E4;
+        public object f_D6B;
+        public object f_6C9;
+        public object f_33A;
+        public object f_3BF;
+        public object f_B2C;
+        public object f_42A;
+        public object f_D56;
+        public object f_906;
+        public object f_A07;
+        public object f_6F5;
+        public object f_705;
+        public object f_62F;
+        public object f_9C1;
+        public object f_35C;
+        public object f_B19;
+        public object f_8A8;
+        public object f_F4E;
+        public object f_396;
+        public object f_066;
+        public object f_3D0;
+        public object f_D0C;
+
         // ── Methods ──
         public void GetGameObject_CB0(){} // RVA: 0x164D690
         public void ComputerealtimeSinceStar(){} // RVA: 0x1F6AEC0
@@ -60,6 +197,9 @@ namespace VRC.Player
     /// <summary>Originally: ÍÏÎÌÏÍÎÍÌÎÍÏÌÌÎÌÍÍÎÏÌÏÏ</summary>
     public class VRCPlayerSiblingSibling_4EE3 : Object
     {
+        public object _4EE3;
+        public object _4EE32;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB465B0
         public void Equals(){} // RVA: 0x17D74B0
@@ -161,6 +301,10 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÏÍÏÏÎÏÏÏÌÎÌÌÏÎÌÍÎÍÌÌ</summary>
     public class VRCPlayerSibling_77A9 : Object
     {
+        public object _77A9;
+        public object _77A92;
+        public object _77A93;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB667B0
         public void Equals(){} // RVA: 0x13F7D90
@@ -201,6 +345,99 @@ namespace VRC.Player
         public void m_E8C(){} // RVA: 0x87BEB0
         public void m_4C9(){} // RVA: 0x87BEB0
         // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÎÌÍÌÎÏÎÌÏÏÎÎÍÎÍÌÍÌÍÌÍ</summary>
+    public class videoPlayerControlstitleTextSiSibling_7B9C : UIsupportedPlatformsListBinPointerEnterHandler_A50E
+    {
+        public object f_DEA;
+        public object f_E1C;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9BC5EA0
+        public void Initialize(){} // RVA: 0x9BC5EB0
+        // ── Unresolved (hash) ──
+        public void m_CF8(){} // RVA: 0x9BC5310
+        public void m_9F5(){} // RVA: 0x9BC5630
+        public void m_6EF(){} // RVA: 0x9BC5880
+        public void m_781(){} // RVA: 0x9BC5910
+        public void m_548(){} // RVA: 0x9BC5A00
+        public void m_958(){} // RVA: 0x9BC5C50
+        public void m_821(){} // RVA: 0x9BC61D0
+        public void m_EB1(){} // RVA: 0x9BC62C0
+        public void m_03B(){} // RVA: 0x9BC6510
+        public void m_820(){} // RVA: 0x9BC6760
+    }
+
+    /// <summary>Originally: ÍÍÎÎÌÎÏÏÍÍÏÏÍÏÌÎÎÍÏÍÌÌÏ</summary>
+    public class videoPlayerControlstitleTextSibling_F1B0 : UIsupportedPlatformsListBinPointerEnterHandler_A50E
+    {
+        public object f_D23;
+        public object f_E1C;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9BC5EA0
+        public void Initialize(){} // RVA: 0x9BE0990
+        // ── Unresolved (hash) ──
+        public void m_2E1(){} // RVA: 0x9BE0990
+        public void m_6EF(){} // RVA: 0x9BE0A80
+        public void m_6BC(){} // RVA: 0x9BE0B20
+        public void m_3FD(){} // RVA: 0x9BE0990
+        public void m_6FD(){} // RVA: 0x9BE0990
+        public void m_D0A(){} // RVA: 0x9BE0B20
+        public void m_898(){} // RVA: 0x9BE0990
+        public void m_088(){} // RVA: 0x9BE0990
+        public void m_CF8(){} // RVA: 0x9BE0B20
+    }
+
+    /// <summary>Originally: ÎÏÌÎÍÎÌÍÍÌÏÌÎÌÎÏÎÎÏÏÌÌÍ</summary>
+    public class videoPlayerControlstitleText_921E : UIk__BackingFieldComponent_38C8
+    {
+        public object videoPlayerControls;
+        public object titleText;
+        public object target;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9B07110
+        public void Initialize(){} // RVA: 0x9B07160
+        public void Start(){} // RVA: 0x9B07390
+        // ── Unresolved (hash) ──
+        public void m_6BC(){} // RVA: 0x9B07090
+        public void m_145(){} // RVA: 0x9B071E0
+        public void m_ECE(){} // RVA: 0x9B07270
+        public void m_3FD(){} // RVA: 0x9B07090
+        public void m_57C(){} // RVA: 0x9B07300
+        public void m_D0A(){} // RVA: 0x9B07160
+        public void m_2E1(){} // RVA: 0x9B07420
+        public void m_CF8(){} // RVA: 0x9B07160
+    }
+
+    /// <summary>Originally: ÍÎÏÎÎÍÌÏÌÌÎÌÍÏÌÎÎÎÎÍÏÌÍ</summary>
+    public class vrcPlayer_CBE7 : LifecycleComponent_279E
+    {
+        public object f_C11;
+        public object f_530;
+        public object f_8A4;
+        public object f_0FD;
+        public object f_B44;
+        public object f_0F0;
+        public object vrcPlayer;
+
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x20F14B0
+        public void .ctor(){} // RVA: 0x20F1600
+        public void Start(){} // RVA: 0x20F1660
+        // ── Unresolved (hash) ──
+        public void m_FD5(){} // RVA: 0x20F1B60
+        public void m_C37(){} // RVA: 0x20F15D0
+        public void m_0B1(){} // RVA: 0x20F15E0
+        public void m_E41(){} // RVA: 0x20F1A30
+        public void m_201(){} // RVA: 0x20F1E50
+        public void m_84C(){} // RVA: 0x20F1E70
+        public void m_57C(){} // RVA: 0x20F1E90
+        public void m_ACE(){} // RVA: 0x20F2260
+        public void m_793(){} // RVA: 0x20F2550
+        public void m_DE8(){} // RVA: 0x20F2570
     }
 
 }

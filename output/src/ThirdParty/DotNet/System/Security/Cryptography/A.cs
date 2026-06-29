@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Aes : SymmetricAlgorithm
     {
+        public object s_legalBlockSizes;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66EDFB0
         public void Create(){} // RVA: 0x66EE270
@@ -60,6 +63,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AesManaged : Aes
     {
+        public object m_rijndael;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x700D490
         public void get_FeedbackSize(){} // RVA: 0x700D610
@@ -83,6 +88,21 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AesTransform : SymmetricTransform
     {
+        public object expandedKey;
+        public object Nk;
+        public object Nr;
+        public object Rcon;
+        public object SBox;
+        public object iSBox;
+        public object T0;
+        public object T1;
+        public object T2;
+        public object T3;
+        public object iT0;
+        public object iT1;
+        public object iT2;
+        public object iT3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x700E190
         public void ECB(){} // RVA: 0x700E9A0
@@ -94,6 +114,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AsnEncodedData : Object
     {
+        public object _oid;
+        public object _raw;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7693640
         public void get_Oid(){} // RVA: 0xB5DBF0
@@ -114,6 +137,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class AsymmetricAlgorithm : Object
     {
+        public object KeySizeValue;
+        public object LegalKeySizesValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Dispose(){} // RVA: 0xB43310

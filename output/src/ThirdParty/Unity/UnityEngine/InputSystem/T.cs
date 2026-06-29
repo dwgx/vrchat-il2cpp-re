@@ -7,6 +7,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Touchscreen : Pointer
     {
+        public object _primaryTouch;
+        public object _touches;
+        public object k_TouchscreenUpdateMarker;
+        public object k_TouchAllocateMarker;
+        public object _current;
+        public object s_TapTime;
+        public object s_TapDelayTime;
+        public object s_TapRadiusSquared;
+
         // ── Methods ──
         public void get_primaryTouch(){} // RVA: 0x1344890
         public void set_primaryTouch(){} // RVA: 0x1662780
@@ -34,6 +43,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class TrackedDevice : InputDevice
     {
+        public object _trackingState;
+        public object _isTracked;
+        public object _devicePosition;
+        public object _deviceRotation;
+
         // ── Methods ──
         public void get_trackingState(){} // RVA: 0x13659D0
         public void set_trackingState(){} // RVA: 0x166D270

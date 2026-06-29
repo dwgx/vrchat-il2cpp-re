@@ -7,6 +7,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class Prepend`2 : ValueType
     {
+        public object <element>P;
+        public object source;
+        public object state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

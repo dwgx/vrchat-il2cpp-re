@@ -7,6 +7,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class BaseDataReader : BaseDataReaderWriter
     {
+        public object context;
+        public object stream;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8472B40
         public void get_CurrentNodeId(){} // RVA: 0x8472BE0
@@ -49,6 +52,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataReaderWriter : Object
     {
+        public object nodes;
+        public object nodesLength;
+
         // ── Methods ──
         public void get_Binder(){} // RVA: 0x8473430
         public void set_Binder(){} // RVA: 0x8473570
@@ -67,6 +73,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseDataWriter : BaseDataReaderWriter
     {
+        public object context;
+        public object stream;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84740B0
         public void get_Stream(){} // RVA: 0xB70160
@@ -157,6 +166,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void GetCallbacks(){} // RVA: 0x88CCC0
@@ -176,6 +194,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -195,6 +222,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -214,6 +250,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -233,6 +278,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -252,6 +306,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -271,6 +334,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -290,6 +362,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -309,6 +390,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -328,6 +418,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -347,6 +446,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -366,6 +474,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -385,6 +502,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -404,6 +530,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -423,6 +558,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -442,6 +586,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -461,6 +614,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -480,6 +642,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -499,6 +670,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -518,6 +698,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -537,6 +726,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -556,6 +754,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -575,6 +782,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -594,6 +810,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -613,6 +838,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -632,6 +866,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61521D0
         public void GetCallbacks(){} // RVA: 0x6152E80
@@ -651,6 +894,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -670,6 +922,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -689,6 +950,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61A6250
         public void GetCallbacks(){} // RVA: 0x61A6F00
@@ -708,6 +978,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -727,6 +1006,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -746,6 +1034,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BaseFormatter`1 : Object
     {
+        public object OnSerializingCallbacks;
+        public object OnSerializedCallbacks;
+        public object OnDeserializingCallbacks;
+        public object OnDeserializedCallbacks;
+        public object IsValueType;
+        public object ImplementsISerializationCallbackReceiver;
+        public object ImplementsIDeserializationCallback;
+        public object ImplementsIObjectReference;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x61EAB80
         public void GetCallbacks(){} // RVA: 0x61EB8D0
@@ -765,6 +1062,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataReader : BaseDataReader
     {
+        public object PrimitiveFromByteMethods;
+        public object internalBufferBackup;
+        public object buffer;
+        public object bufferIndex;
+        public object bufferEnd;
+        public object peekedEntryType;
+        public object peekedBinaryEntryType;
+        public object peekedEntryName;
+        public object types;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8474650
         public void Dispose(){} // RVA: 0xB43310
@@ -824,6 +1131,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BinaryDataWriter : BaseDataWriter
     {
+        public object PrimitiveGetBytesMethods;
+        public object PrimitiveSizes;
+        public object small_buffer;
+        public object buffer;
+        public object bufferIndex;
+        public object types;
+        public object CompressStringsTo8BitWhenPossible;
+        public object PrimitiveArrayWriters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8479DA0
         public void BeginArrayNode(){} // RVA: 0x847A030
@@ -889,6 +1205,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BindTypeNameToTypeAttribute : Attribute
     {
+        public object NewType;
+        public object OldTypeName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67462E0
     }
@@ -903,6 +1222,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class BoundsFormatter : MinimalBaseFormatter`1
     {
+        public object Vector3Serializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84C8C50
         public void Write(){} // RVA: 0x84C8D50
@@ -912,6 +1233,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Buffer`1 : Object
     {
+        public object LOCK;
+        public object FreeBuffers;
+        public object count;
+        public object array;
+        public object isFree;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void get_Count(){} // RVA: 0x87C130

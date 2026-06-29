@@ -21,6 +21,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class PreserveReferenceResolver : ReferenceResolver
     {
+        public object _referenceCount;
+        public object _referenceIdToObjectMap;
+        public object _objectToReferenceIdMap;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DC30F0
         public void AddReference(){} // RVA: 0x6DC32F0
@@ -30,6 +34,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class PreserveReferenceResolver : ReferenceResolver
     {
+        public object _referenceCount;
+        public object _referenceIdToObjectMap;
+        public object _objectToReferenceIdMap;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x732C550
         public void AddReference(){} // RVA: 0x732C750

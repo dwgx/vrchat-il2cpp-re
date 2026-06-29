@@ -7,6 +7,19 @@ namespace VRC.SDK3.AssetCustomization
 {
     public class AssetPart : MonoBehaviour
     {
+        public object displayName;
+        public object assetId;
+        public object categories;
+        public object variables;
+        public object positionBone;
+        public object positionType;
+        public object positionRatio;
+        public object positionRaycastToSurface;
+        public object positionRaycastNormal;
+        public object rotationType;
+        public object scaleType;
+        public object scaleInnerRadius;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0xA69FC50
         public void get_AssetId(){} // RVA: 0xB70160
@@ -17,18 +30,25 @@ namespace VRC.SDK3.AssetCustomization
 
     public class BoolVariable : Variable
     {
+        public object defaultValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ColorVariable : Variable
     {
+        public object allowAlpha;
+        public object defaultValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA6A0AE0
     }
 
     public class FloatVariable : Variable
     {
+        public object defaultValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA6A0AD0
     }
@@ -53,6 +73,8 @@ namespace VRC.SDK3.AssetCustomization
 
     public class PerPlatformOverrideIgnoreIfFieldDiffersAttribute : Attribute
     {
+        public object _fieldName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
@@ -65,12 +87,19 @@ namespace VRC.SDK3.AssetCustomization
 
     public class Variable : Object
     {
+        public object id;
+        public object name;
+        public object categoryId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class VariableLink : ValueType
     {
+        public object assetId;
+        public object variableId;
+
         // ── Methods ──
         public void get_AssetId(){} // RVA: 0x77900
         public void get_VariableId(){} // RVA: 0x77ED0
@@ -80,6 +109,8 @@ namespace VRC.SDK3.AssetCustomization
 
     public class VariableTypeFilterAttribute : PropertyAttribute
     {
+        public object _variableTypes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x18F33E0
     }

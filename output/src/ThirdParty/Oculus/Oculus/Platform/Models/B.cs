@@ -7,6 +7,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class BlockedUser : Object
     {
+        public object Id;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B56C80
     }

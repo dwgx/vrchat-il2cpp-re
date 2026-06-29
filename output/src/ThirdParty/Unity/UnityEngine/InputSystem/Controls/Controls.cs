@@ -14,6 +14,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class AxisControl : InputControl`1
     {
+        public object clamp;
+        public object clampMin;
+        public object clampMax;
+        public object clampConstant;
+        public object invert;
+        public object normalize;
+        public object normalizeMin;
+        public object normalizeMax;
+        public object normalizeZero;
+        public object scale;
+        public object scaleFactor;
+
         // ── Methods ──
         public void Preprocess(){} // RVA: 0x7820980
         public void Unpreprocess(){} // RVA: 0x7820A70
@@ -28,6 +40,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class ButtonControl : AxisControl
     {
+        public object m_NeedsToCheckFramePress;
+        public object m_UpdateCountLastPressed;
+        public object m_UpdateCountLastReleased;
+        public object m_LastUpdateWasPress;
+        public object _needsToCheckFramePress;
+        public object pressPoint;
+        public object s_GlobalDefaultButtonPressPoint;
+        public object s_GlobalDefaultButtonReleaseThreshold;
+        public object kMinButtonPressPoint;
+
         // ── Methods ──
         public void get_needsToCheckFramePress(){} // RVA: 0x6EDDEC0
         public void set_needsToCheckFramePress(){} // RVA: 0x78213D0
@@ -63,6 +85,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DeltaControl : Vector2Control
     {
+        public object _up;
+        public object _down;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x114AC20
         public void set_up(){} // RVA: 0x1149C90
@@ -78,6 +105,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DiscreteButtonControl : ButtonControl
     {
+        public object minValue;
+        public object maxValue;
+        public object wrapAtValue;
+        public object nullValue;
+        public object writeMode;
+
         // ── Methods ──
         public void FinishSetup(){} // RVA: 0x7821C70
         public void ReadUnprocessedValueFromState(){} // RVA: 0x7821D90
@@ -95,6 +128,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class DpadControl : Vector2Control
     {
+        public object _up;
+        public object _down;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x114AC20
         public void set_up(){} // RVA: 0x1149C90
@@ -122,6 +160,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class KeyControl : ButtonControl
     {
+        public object _keyCode;
+        public object m_ScanCode;
+
         // ── Methods ──
         public void get_keyCode(){} // RVA: 0x1EB2410
         public void set_keyCode(){} // RVA: 0x1EABA10
@@ -152,6 +193,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class QuaternionControl : InputControl`1
     {
+        public object _x;
+        public object _y;
+        public object _z;
+        public object _w;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x114AC20
         public void set_x(){} // RVA: 0x1149C90
@@ -170,6 +216,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class StickControl : Vector2Control
     {
+        public object _up;
+        public object _down;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void get_up(){} // RVA: 0x114AC20
         public void set_up(){} // RVA: 0x1149C90
@@ -185,6 +236,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class TouchControl : InputControl`1
     {
+        public object _press;
+        public object _displayIndex;
+        public object _touchId;
+        public object _position;
+        public object _delta;
+        public object _pressure;
+        public object _radius;
+        public object _phase;
+        public object _indirectTouch;
+        public object _tap;
+        public object _tapCount;
+        public object _startTime;
+        public object _startPosition;
+
         // ── Methods ──
         public void get_press(){} // RVA: 0x10F9C30
         public void set_press(){} // RVA: 0x1659C50
@@ -258,6 +323,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector2Control : InputControl`1
     {
+        public object _x;
+        public object _y;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0xD9E3D0
         public void set_x(){} // RVA: 0xD9D290
@@ -273,6 +341,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Controls
 
     public class Vector3Control : InputControl`1
     {
+        public object _x;
+        public object _y;
+        public object _z;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0xDA0520
         public void set_x(){} // RVA: 0xD9D570

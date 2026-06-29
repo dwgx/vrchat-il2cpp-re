@@ -27,6 +27,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class NullableConverter`1 : JsonConverter`1
     {
+        public object _converter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Read(){} // RVA: 0xA94080
@@ -37,6 +39,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class NullableConverter`1 : JsonConverter`1
     {
+        public object _elementConverter;
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x87C0A0
         public void get_HandleNull(){} // RVA: 0x87D280

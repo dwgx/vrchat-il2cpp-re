@@ -153,8 +153,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void IndexOf(){} // RVA: 0x3F1B7E0
+        public void LastIndexOf(){} // RVA: 0x3F1B8A0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -163,8 +163,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void IndexOf(){} // RVA: 0x3F12B80
+        public void LastIndexOf(){} // RVA: 0x3F12BF0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -173,8 +173,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void IndexOf(){} // RVA: 0x3F10590
+        public void LastIndexOf(){} // RVA: 0x3F10670
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -183,38 +183,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void IndexOf(){} // RVA: 0x3F19A10
+        public void LastIndexOf(){} // RVA: 0x3F19AE0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -283,6 +253,56 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
         public void IndexOf(){} // RVA: 0x3F12D60
         public void LastIndexOf(){} // RVA: 0x3F12DD0
         public void .ctor(){} // RVA: 0xB43310
@@ -323,16 +343,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3EC86F0
-        public void LastIndexOf(){} // RVA: 0x3EC87E0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
         public void IndexOf(){} // RVA: 0x3F05EA0
         public void LastIndexOf(){} // RVA: 0x3F05F40
         public void .ctor(){} // RVA: 0xB43310
@@ -343,8 +353,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F077A0
-        public void LastIndexOf(){} // RVA: 0x3F07850
+        public void IndexOf(){} // RVA: 0x3EC86F0
+        public void LastIndexOf(){} // RVA: 0x3EC87E0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -365,6 +375,26 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void GetHashCode(){} // RVA: 0x3902600
         public void IndexOf(){} // RVA: 0x3EC86F0
         public void LastIndexOf(){} // RVA: 0x3EC87E0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1BAA0
+        public void LastIndexOf(){} // RVA: 0x3F1BB70
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F077A0
+        public void LastIndexOf(){} // RVA: 0x3F07850
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -395,16 +425,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void GetHashCode(){} // RVA: 0x3902600
         public void IndexOf(){} // RVA: 0x3F1CE60
         public void LastIndexOf(){} // RVA: 0x3F1CF20
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F149D0
-        public void LastIndexOf(){} // RVA: 0x3F14AE0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -473,8 +493,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F1B7E0
-        public void LastIndexOf(){} // RVA: 0x3F1B8A0
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -483,8 +503,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F12B80
-        public void LastIndexOf(){} // RVA: 0x3F12BF0
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -493,18 +513,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void Equals(){} // RVA: 0x3EC7F00
         public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F10590
-        public void LastIndexOf(){} // RVA: 0x3F10670
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F19A10
-        public void LastIndexOf(){} // RVA: 0x3F19AE0
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -525,16 +535,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void GetHashCode(){} // RVA: 0x3902600
         public void IndexOf(){} // RVA: 0x3F0FAF0
         public void LastIndexOf(){} // RVA: 0x3F0FB60
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class GenericEqualityComparer`1 : EqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x3EC7F00
-        public void GetHashCode(){} // RVA: 0x3902600
-        public void IndexOf(){} // RVA: 0x3F1BAA0
-        public void LastIndexOf(){} // RVA: 0x3F1BB70
         public void .ctor(){} // RVA: 0xB43310
     }
 

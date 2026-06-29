@@ -39,6 +39,13 @@ namespace VRC.DataModel.Challenges
 
     public class ChallengeUpdateEvent : ChallengeEvent
     {
+        public object f_BE4;
+        public object f_6E9;
+        public object f_645;
+        public object f_EAC;
+        public object f_5CE;
+        public object f_3AF;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0x1065D50

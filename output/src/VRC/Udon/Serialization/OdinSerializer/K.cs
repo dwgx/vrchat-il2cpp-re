@@ -7,6 +7,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class KeyValuePairFormatter`2 : BaseFormatter`1
     {
+        public object KeySerializer;
+        public object ValueSerializer;
+
         // ── Methods ──
         public void SerializeImplementation(){} // RVA: 0x8943B0
         public void DeserializeImplementation(){} // RVA: 0x8943B0
@@ -16,6 +19,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class KeyframeFormatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+        public object IntSerializer;
+        public object Is_In_2018_1_Or_Above;
+        public object Formatter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84CAB20
         public void Read(){} // RVA: 0x84CAF00

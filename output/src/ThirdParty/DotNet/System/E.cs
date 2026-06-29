@@ -1,469 +1,633 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 248
+// Methods: 247
 
 namespace ThirdParty.DotNet.System
 {
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x3896EF0
+    }
+
+    public class EmptyArray`1 : Object
+    {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3896EF0
     }
 
     public class Enum : ValueType
     {
+        public object enumSeperatorCharArray;
+        public object enumSeperator;
+
         // ── Methods ──
+        public void TryParse(){} // RVA: 0x3072F50
         public void GetCachedValuesAndNames(){} // RVA: 0x69567E0
         public void InternalFormattedHexString(){} // RVA: 0x6956D30
         public void InternalFormat(){} // RVA: 0x6957260
@@ -473,7 +637,6 @@ namespace ThirdParty.DotNet.System
         public void InternalGetUnderlyingType(){} // RVA: 0x69577E0
         public void GetEnumValuesAndNames(){} // RVA: 0x6957830
         public void InternalBoxEnum(){} // RVA: 0x6957870
-        public void TryParse(){} // RVA: 0x3072F50
         public void Parse(){} // RVA: 0x69578E0
         public void TryParseEnum(){} // RVA: 0x6957990
         public void GetUnderlyingType(){} // RVA: 0x69580E0
@@ -516,6 +679,10 @@ namespace ThirdParty.DotNet.System
 
     public class Environment : Object
     {
+        public object mono_corlib_version;
+        public object nl;
+        public object os;
+
         // ── Methods ──
         public void GetResourceString(){} // RVA: 0x6975350
         public void GetResourceStringEncodingName(){} // RVA: 0x69754A0
@@ -565,30 +732,11 @@ namespace ThirdParty.DotNet.System
 
     public class EventArgs : Object
     {
+        public object Empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void .cctor(){} // RVA: 0x68F6510
-    }
-
-    public class EventHandler : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3DB94B0
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class EventHandler`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3DB94B0
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class EventHandler`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3DB94B0
-        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class EventHandler`1 : MulticastDelegate
@@ -678,6 +826,20 @@ namespace ThirdParty.DotNet.System
     public class EventHandler`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DB99A0
+        public void Invoke(){} // RVA: 0x3DB9B10
+    }
+
+    public class EventHandler`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3DB94B0
+        public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class EventHandler`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x3DB94B0
         public void Invoke(){} // RVA: 0xCA8BF0
     }
@@ -712,6 +874,25 @@ namespace ThirdParty.DotNet.System
 
     public class Exception : Object
     {
+        public object s_EDILock;
+        public object _className;
+        public object _message;
+        public object _data;
+        public object _innerException;
+        public object _helpURL;
+        public object _stackTrace;
+        public object _stackTraceString;
+        public object _remoteStackTraceString;
+        public object _remoteStackIndex;
+        public object _dynamicMethods;
+        public object _HResult;
+        public object _source;
+        public object _safeSerializationManager;
+        public object captured_traces;
+        public object native_trace_ips;
+        public object caught_in_unmanaged;
+        public object _COMPlusExceptionCode;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x695CC30
         public void .ctor(){} // RVA: 0x695CF30

@@ -7,16 +7,24 @@ namespace ThirdParty.Other.Steamworks.Data
 {
     public class ValidateAuthTicketResponse_t : ValueType
     {
+        public object SteamID;
+        public object AuthSessionResponse;
+        public object OwnerSteamID;
+        public object _datasize;
+
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7A771EDB0
-        public void .cctor(){} // RVA: 0x7A9EDBE90
+        public void get_CallbackType(){} // RVA: 0x1453D0
+        public void .cctor(){} // RVA: 0x2950900
     }
 
     public class VolumeHasChanged_t : ValueType
     {
+        public object NewVolume;
+        public object _datasize;
+
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7A7725DA0
-        public void .cctor(){} // RVA: 0x7A9EE39C0
+        public void get_CallbackType(){} // RVA: 0x14C3C0
+        public void .cctor(){} // RVA: 0x2956FC0
     }
 
 }

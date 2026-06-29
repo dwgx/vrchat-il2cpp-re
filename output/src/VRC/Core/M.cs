@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class MemoryEqualityComparer`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Equals(){} // RVA: 0xA94080
@@ -16,6 +18,8 @@ namespace VRC.Core
 
     public class MemoryEqualityComparer`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Equals(){} // RVA: 0x469BC80

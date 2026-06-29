@@ -7,10 +7,15 @@ namespace ThirdParty.Other.Midi
 {
     public class ParsedMidiFile : Object
     {
+        public object Format;
+        public object TicksPerQuarterNote;
+        public object Tracks;
+        public object TracksCount;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1839A20
-        public void ParseMetaEvent(){} // RVA: 0x7B1839DD0
-        public void ParseTrack(){} // RVA: 0x7B1839FE0
+        public void .ctor(){} // RVA: 0xA6A49E0
+        public void ParseMetaEvent(){} // RVA: 0xA6A4D90
+        public void ParseTrack(){} // RVA: 0xA6A4FA0
     }
 
 }

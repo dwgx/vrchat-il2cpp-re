@@ -7,6 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Image : MpResourceHandle
     {
+        public object _VoidDeleter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6550A70
         public void DeleteMpPtr(){} // RVA: 0x6550D30
@@ -19,12 +21,18 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageArray : ValueType
     {
+        public object _data;
+        public object _size;
+
         // ── Methods ──
         public void AsReadOnlySpan(){} // RVA: 0x8A5BB0
     }
 
     public class ImageFormat : Object
     {
+        public object _parser;
+        public object _unknownFields;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65890A0
         public void get_Descriptor(){} // RVA: 0x6589100
@@ -51,6 +59,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageFormatReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6588A80
         public void .cctor(){} // RVA: 0x6588AE0
@@ -58,6 +68,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ImageFrame : MpResourceHandle
     {
+        public object DefaultAlignmentBoundary;
+        public object GlDefaultAlignmentBoundary;
+        public object _VoidDeleter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6551920
         public void DeleteMpPtr(){} // RVA: 0x6551B40
@@ -94,6 +108,19 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InferenceCalculatorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object ModelPathDefaultValue;
+        public object modelPath_;
+        public object UseGpuDefaultValue;
+        public object useGpu_;
+        public object UseNnapiDefaultValue;
+        public object useNnapi_;
+        public object CpuNumThreadDefaultValue;
+        public object cpuNumThread_;
+        public object delegate_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x655DBC0
         public void get_Descriptor(){} // RVA: 0x655DC20
@@ -131,6 +158,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InferenceCalculatorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x655C530
         public void .cctor(){} // RVA: 0x655C590
@@ -138,6 +167,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputCollection : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object _repeated_sidePacketName_codec;
+        public object sidePacketName_;
+        public object _repeated_externalInputName_codec;
+        public object externalInputName_;
+        public object inputType_;
+        public object fileName_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x656FF70
         public void get_Descriptor(){} // RVA: 0x656FFD0
@@ -165,6 +204,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputCollectionSet : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_inputCollection_codec;
+        public object inputCollection_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6571690
         public void get_Descriptor(){} // RVA: 0x65716F0
@@ -185,6 +229,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputStreamHandlerConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object InputStreamHandlerDefaultValue;
+        public object inputStreamHandler_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A5E40
         public void get_Descriptor(){} // RVA: 0x65A5EA0
@@ -210,6 +260,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class InputStreamInfo : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object tagIndex_;
+        public object backEdge_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6572600
         public void get_Descriptor(){} // RVA: 0x6572660

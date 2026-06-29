@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class SetPropertyBagBase`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xA94080
         public void GetPropertiesEnumerable(){} // RVA: 0xA94080
@@ -18,6 +20,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class SetPropertyBagBase`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xAD0950
         public void GetPropertiesEnumerable(){} // RVA: 0x4AB7EF0

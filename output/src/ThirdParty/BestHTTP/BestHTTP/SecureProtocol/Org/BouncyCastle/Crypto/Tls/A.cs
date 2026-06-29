@@ -8,187 +8,266 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
     public class AbstractTlsAgreementCredentials : AbstractTlsCredentials
     {
         // ── Methods ──
-        public void GenerateAgreement(){} // RVA: 0x7A7E00B20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GenerateAgreement(){} // RVA: 0x87C540
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsCipherFactory : Object
     {
         // ── Methods ──
-        public void CreateCipher(){} // RVA: 0x7B13475F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateCipher(){} // RVA: 0xA1B2F40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsClient : AbstractTlsPeer
     {
+        public object mCipherFactory;
+        public object mContext;
+        public object mSupportedSignatureAlgorithms;
+        public object mNamedCurves;
+        public object mClientECPointFormats;
+        public object mServerECPointFormats;
+        public object mSelectedCipherSuite;
+        public object mSelectedCompressionMethod;
+        public object _hostNames;
+
         // ── Methods ──
-        public void get_HostNames(){} // RVA: 0x7A8152D80
-        public void set_HostNames(){} // RVA: 0x7A8152D90
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void AllowUnexpectedServerExtension(){} // RVA: 0x7B13476D0
-        public void CheckForUnexpectedServerExtension(){} // RVA: 0x7B1347770
-        public void Init(){} // RVA: 0x7A813E420
-        public void GetSessionToResume(){} // RVA: 0x7A82D1450
-        public void get_ClientHelloRecordLayerVersion(){} // RVA: 0x7B1347840
-        public void get_ClientVersion(){} // RVA: 0x7B1347860
-        public void get_IsFallback(){} // RVA: 0x7A80D7320
-        public void GetClientExtensions(){} // RVA: 0x7B13478C0
-        public void get_MinimumVersion(){} // RVA: 0x7B1348150
-        public void NotifyServerVersion(){} // RVA: 0x7B13481B0
-        public void GetCipherSuites(){} // RVA: 0x7A7E00680
-        public void GetCompressionMethods(){} // RVA: 0x7B1348260
-        public void NotifySessionID(){} // RVA: 0x7A80D7310
-        public void NotifySelectedCipherSuite(){} // RVA: 0x7A8178B40
-        public void NotifySelectedCompressionMethod(){} // RVA: 0x7B13482A0
-        public void ProcessServerExtensions(){} // RVA: 0x7B13482B0
-        public void ProcessServerSupplementalData(){} // RVA: 0x7B1348420
-        public void GetKeyExchange(){} // RVA: 0x7A7E00680
-        public void GetAuthentication(){} // RVA: 0x7A7E00680
-        public void GetClientSupplementalData(){} // RVA: 0x7A82D1450
-        public void GetCompression(){} // RVA: 0x7B1348480
-        public void GetCipher(){} // RVA: 0x7B1348690
-        public void NotifyNewSessionTicket(){} // RVA: 0x7A80D7310
+        public void get_HostNames(){} // RVA: 0xBBF8F0
+        public void set_HostNames(){} // RVA: 0xBBF900
+        public void .ctor(){} // RVA: 0xB44D60
+        public void AllowUnexpectedServerExtension(){} // RVA: 0xA1B3020
+        public void CheckForUnexpectedServerExtension(){} // RVA: 0xA1B30C0
+        public void Init(){} // RVA: 0xBA9BA0
+        public void GetSessionToResume(){} // RVA: 0xDAC980
+        public void get_ClientHelloRecordLayerVersion(){} // RVA: 0xA1B3190
+        public void get_ClientVersion(){} // RVA: 0xA1B31B0
+        public void get_IsFallback(){} // RVA: 0xB43320
+        public void GetClientExtensions(){} // RVA: 0xA1B3210
+        public void get_MinimumVersion(){} // RVA: 0xA1B3B40
+        public void NotifyServerVersion(){} // RVA: 0xA1B3BA0
+        public void GetCipherSuites(){} // RVA: 0x87C0A0
+        public void GetCompressionMethods(){} // RVA: 0xA1B3C50
+        public void NotifySessionID(){} // RVA: 0xB43310
+        public void NotifySelectedCipherSuite(){} // RVA: 0xBE5860
+        public void NotifySelectedCompressionMethod(){} // RVA: 0xA1B3C90
+        public void ProcessServerExtensions(){} // RVA: 0xA1B3CA0
+        public void ProcessServerSupplementalData(){} // RVA: 0xA1B3E10
+        public void GetKeyExchange(){} // RVA: 0x87C0A0
+        public void GetAuthentication(){} // RVA: 0x87C0A0
+        public void GetClientSupplementalData(){} // RVA: 0xDAC980
+        public void GetCompression(){} // RVA: 0xA1B3E70
+        public void GetCipher(){} // RVA: 0xA1B4080
+        public void NotifyNewSessionTicket(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsContext : Object
     {
+        public object counter;
+        public object mNonceRandom;
+        public object mSecureRandom;
+        public object mSecurityParameters;
+        public object mClientVersion;
+        public object mServerVersion;
+        public object mSession;
+        public object mUserObject;
+
         // ── Methods ──
-        public void NextCounterValue(){} // RVA: 0x7B1348730
-        public void .ctor(){} // RVA: 0x7B1348790
-        public void get_NonceRandomGenerator(){} // RVA: 0x7A80F2570
-        public void get_SecureRandom(){} // RVA: 0x7A80DA7B0
-        public void get_SecurityParameters(){} // RVA: 0x7A81052C0
-        public void get_IsServer(){} // RVA: 0x7A7E01900
-        public void get_ClientVersion(){} // RVA: 0x7A8105330
-        public void SetClientVersion(){} // RVA: 0x7A80D8E80
-        public void get_ServerVersion(){} // RVA: 0x7A83F69F0
-        public void SetServerVersion(){} // RVA: 0x7A8105A90
-        public void get_ResumableSession(){} // RVA: 0x7A8292C30
-        public void SetResumableSession(){} // RVA: 0x7A8296DE0
-        public void get_UserObject(){} // RVA: 0x7A8154D80
-        public void set_UserObject(){} // RVA: 0x7A80FF440
-        public void ExportKeyingMaterial(){} // RVA: 0x7B1348AC0
-        public void .cctor(){} // RVA: 0x7B1348E30
+        public void NextCounterValue(){} // RVA: 0xA1B4120
+        public void .ctor(){} // RVA: 0xA1B4180
+        public void get_NonceRandomGenerator(){} // RVA: 0xB5DBF0
+        public void get_SecureRandom(){} // RVA: 0xB465B0
+        public void get_SecurityParameters(){} // RVA: 0xB700F0
+        public void get_IsServer(){} // RVA: 0x87D280
+        public void get_ClientVersion(){} // RVA: 0xB70160
+        public void SetClientVersion(){} // RVA: 0xB44DC0
+        public void get_ServerVersion(){} // RVA: 0xD33E60
+        public void SetServerVersion(){} // RVA: 0xB708C0
+        public void get_ResumableSession(){} // RVA: 0xD05CA0
+        public void SetResumableSession(){} // RVA: 0xD09D70
+        public void get_UserObject(){} // RVA: 0xBC1B30
+        public void set_UserObject(){} // RVA: 0xB6A8C0
+        public void ExportKeyingMaterial(){} // RVA: 0xA1B44B0
+        public void .cctor(){} // RVA: 0xA1B4820
     }
 
     public class AbstractTlsCredentials : Object
     {
         // ── Methods ──
-        public void get_Certificate(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Certificate(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsEncryptionCredentials : AbstractTlsCredentials
     {
         // ── Methods ──
-        public void DecryptPreMasterSecret(){} // RVA: 0x7A7E00B20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void DecryptPreMasterSecret(){} // RVA: 0x87C540
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsKeyExchange : Object
     {
+        public object mKeyExchange;
+        public object mSupportedSignatureAlgorithms;
+        public object mContext;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9AC8120
-        public void ParseSignature(){} // RVA: 0x7B1348EA0
-        public void Init(){} // RVA: 0x7B1348F50
-        public void SkipServerCredentials(){} // RVA: 0x7A7E18770
-        public void ProcessServerCertificate(){} // RVA: 0x7A80D7310
-        public void ProcessServerCredentials(){} // RVA: 0x7B13493B0
-        public void get_RequiresServerKeyExchange(){} // RVA: 0x7A80D7320
-        public void GenerateServerKeyExchange(){} // RVA: 0x7B1349420
-        public void SkipServerKeyExchange(){} // RVA: 0x7B1349490
-        public void ProcessServerKeyExchange(){} // RVA: 0x7B1349500
-        public void ValidateCertificateRequest(){} // RVA: 0x7A7E18800
-        public void SkipClientCredentials(){} // RVA: 0x7A80D7310
-        public void ProcessClientCredentials(){} // RVA: 0x7A7E18800
-        public void ProcessClientCertificate(){} // RVA: 0x7A80D7310
-        public void GenerateClientKeyExchange(){} // RVA: 0x7A7E18800
-        public void ProcessClientKeyExchange(){} // RVA: 0x7B1349570
-        public void GeneratePremasterSecret(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x2574280
+        public void ParseSignature(){} // RVA: 0xA1B4890
+        public void Init(){} // RVA: 0xA1B4940
+        public void SkipServerCredentials(){} // RVA: 0x894290
+        public void ProcessServerCertificate(){} // RVA: 0xB43310
+        public void ProcessServerCredentials(){} // RVA: 0xA1B4DA0
+        public void get_RequiresServerKeyExchange(){} // RVA: 0xB43320
+        public void GenerateServerKeyExchange(){} // RVA: 0xA1B4E10
+        public void SkipServerKeyExchange(){} // RVA: 0xA1B4E80
+        public void ProcessServerKeyExchange(){} // RVA: 0xA1B4EF0
+        public void ValidateCertificateRequest(){} // RVA: 0x894320
+        public void SkipClientCredentials(){} // RVA: 0xB43310
+        public void ProcessClientCredentials(){} // RVA: 0x894320
+        public void ProcessClientCertificate(){} // RVA: 0xB43310
+        public void GenerateClientKeyExchange(){} // RVA: 0x894320
+        public void ProcessClientKeyExchange(){} // RVA: 0xA1B4F60
+        public void GeneratePremasterSecret(){} // RVA: 0x87C0A0
     }
 
     public class AbstractTlsPeer : Object
     {
         // ── Methods ──
-        public void RequiresExtendedMasterSecret(){} // RVA: 0x7A80D7320
-        public void ShouldUseGmtUnixTime(){} // RVA: 0x7A80D7320
-        public void NotifySecureRenegotiation(){} // RVA: 0x7B13495C0
-        public void GetCompression(){} // RVA: 0x7A7E00680
-        public void GetCipher(){} // RVA: 0x7A7E00680
-        public void NotifyAlertRaised(){} // RVA: 0x7A80D7310
-        public void NotifyAlertReceived(){} // RVA: 0x7A80D7310
-        public void NotifyHandshakeComplete(){} // RVA: 0x7A80D7310
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void RequiresExtendedMasterSecret(){} // RVA: 0xB43320
+        public void ShouldUseGmtUnixTime(){} // RVA: 0xB43320
+        public void NotifySecureRenegotiation(){} // RVA: 0xA1B4FB0
+        public void GetCompression(){} // RVA: 0x87C0A0
+        public void GetCipher(){} // RVA: 0x87C0A0
+        public void NotifyAlertRaised(){} // RVA: 0xB43310
+        public void NotifyAlertReceived(){} // RVA: 0xB43310
+        public void NotifyHandshakeComplete(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsServer : AbstractTlsPeer
     {
+        public object mCipherFactory;
+        public object mContext;
+        public object mClientVersion;
+        public object mOfferedCipherSuites;
+        public object mOfferedCompressionMethods;
+        public object mClientExtensions;
+        public object mEncryptThenMacOffered;
+        public object mMaxFragmentLengthOffered;
+        public object mTruncatedHMacOffered;
+        public object mSupportedSignatureAlgorithms;
+        public object mEccCipherSuitesOffered;
+        public object mNamedCurves;
+        public object mClientECPointFormats;
+        public object mServerECPointFormats;
+        public object mServerVersion;
+        public object mSelectedCipherSuite;
+        public object mSelectedCompressionMethod;
+        public object mServerExtensions;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_AllowEncryptThenMac(){} // RVA: 0x7A81BD750
-        public void get_AllowTruncatedHMac(){} // RVA: 0x7A80D7320
-        public void CheckServerExtensions(){} // RVA: 0x7B13496B0
-        public void GetCipherSuites(){} // RVA: 0x7A7E00680
-        public void GetCompressionMethods(){} // RVA: 0x7B13497B0
-        public void get_MaximumVersion(){} // RVA: 0x7B13497F0
-        public void get_MinimumVersion(){} // RVA: 0x7B1349850
-        public void SupportsClientEccCapabilities(){} // RVA: 0x7B13498B0
-        public void Init(){} // RVA: 0x7A813E420
-        public void NotifyClientVersion(){} // RVA: 0x7A81052D0
-        public void NotifyFallback(){} // RVA: 0x7B1349A00
-        public void NotifyOfferedCipherSuites(){} // RVA: 0x7B1349AC0
-        public void NotifyOfferedCompressionMethods(){} // RVA: 0x7A8105A90
-        public void ProcessClientExtensions(){} // RVA: 0x7B1349B80
-        public void GetServerVersion(){} // RVA: 0x7B134A040
-        public void GetSelectedCipherSuite(){} // RVA: 0x7B134A210
-        public void GetSelectedCompressionMethod(){} // RVA: 0x7B134A440
-        public void GetServerExtensions(){} // RVA: 0x7B134A590
-        public void GetServerSupplementalData(){} // RVA: 0x7A82D1450
-        public void GetCredentials(){} // RVA: 0x7A7E00680
-        public void GetCertificateStatus(){} // RVA: 0x7A82D1450
-        public void GetKeyExchange(){} // RVA: 0x7A7E00680
-        public void GetCertificateRequest(){} // RVA: 0x7A82D1450
-        public void ProcessClientSupplementalData(){} // RVA: 0x7B134AA50
-        public void NotifyClientCertificate(){} // RVA: 0x7B134AAB0
-        public void GetCompression(){} // RVA: 0x7B134AB00
-        public void GetCipher(){} // RVA: 0x7B134AB80
-        public void GetNewSessionTicket(){} // RVA: 0x7B134AC20
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_AllowEncryptThenMac(){} // RVA: 0xC2E4C0
+        public void get_AllowTruncatedHMac(){} // RVA: 0xB43320
+        public void CheckServerExtensions(){} // RVA: 0xA1B50A0
+        public void GetCipherSuites(){} // RVA: 0x87C0A0
+        public void GetCompressionMethods(){} // RVA: 0xA1B51A0
+        public void get_MaximumVersion(){} // RVA: 0xA1B51E0
+        public void get_MinimumVersion(){} // RVA: 0xA1B5240
+        public void SupportsClientEccCapabilities(){} // RVA: 0xA1B52A0
+        public void Init(){} // RVA: 0xBA9BA0
+        public void NotifyClientVersion(){} // RVA: 0xB70100
+        public void NotifyFallback(){} // RVA: 0xA1B53F0
+        public void NotifyOfferedCipherSuites(){} // RVA: 0xA1B54B0
+        public void NotifyOfferedCompressionMethods(){} // RVA: 0xB708C0
+        public void ProcessClientExtensions(){} // RVA: 0xA1B5570
+        public void GetServerVersion(){} // RVA: 0xA1B5A30
+        public void GetSelectedCipherSuite(){} // RVA: 0xA1B5C00
+        public void GetSelectedCompressionMethod(){} // RVA: 0xA1B5E30
+        public void GetServerExtensions(){} // RVA: 0xA1B5F80
+        public void GetServerSupplementalData(){} // RVA: 0xDAC980
+        public void GetCredentials(){} // RVA: 0x87C0A0
+        public void GetCertificateStatus(){} // RVA: 0xDAC980
+        public void GetKeyExchange(){} // RVA: 0x87C0A0
+        public void GetCertificateRequest(){} // RVA: 0xDAC980
+        public void ProcessClientSupplementalData(){} // RVA: 0xA1B6410
+        public void NotifyClientCertificate(){} // RVA: 0xA1B6470
+        public void GetCompression(){} // RVA: 0xA1B64C0
+        public void GetCipher(){} // RVA: 0xA1B6540
+        public void GetNewSessionTicket(){} // RVA: 0xA1B65E0
     }
 
     public class AbstractTlsSigner : Object
     {
+        public object mContext;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A80D8E20
-        public void GenerateRawSignature(){} // RVA: 0x7A7E06710
-        public void VerifyRawSignature(){} // RVA: 0x7A7E01DE0
-        public void CreateSigner(){} // RVA: 0x7A7E00BD0
-        public void CreateVerifyer(){} // RVA: 0x7A7E00BD0
-        public void IsValidPublicKey(){} // RVA: 0x7A7E019D0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xB44D60
+        public void GenerateRawSignature(){} // RVA: 0x882090
+        public void VerifyRawSignature(){} // RVA: 0x87D760
+        public void CreateSigner(){} // RVA: 0x87C5F0
+        public void CreateVerifyer(){} // RVA: 0x87C5F0
+        public void IsValidPublicKey(){} // RVA: 0x87D350
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AbstractTlsSignerCredentials : AbstractTlsCredentials
     {
         // ── Methods ──
-        public void GenerateCertificateSignature(){} // RVA: 0x7A7E00B20
-        public void get_SignatureAndHashAlgorithm(){} // RVA: 0x7B134AD90
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GenerateCertificateSignature(){} // RVA: 0x87C540
+        public void get_SignatureAndHashAlgorithm(){} // RVA: 0xA1B6750
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AlertDescription : Object
     {
+        public object close_notify;
+        public object unexpected_message;
+        public object bad_record_mac;
+        public object decryption_failed;
+        public object record_overflow;
+        public object decompression_failure;
+        public object handshake_failure;
+        public object no_certificate;
+        public object bad_certificate;
+        public object unsupported_certificate;
+        public object certificate_revoked;
+        public object certificate_expired;
+        public object certificate_unknown;
+        public object illegal_parameter;
+        public object unknown_ca;
+        public object access_denied;
+        public object decode_error;
+        public object decrypt_error;
+        public object export_restriction;
+        public object protocol_version;
+        public object insufficient_security;
+        public object internal_error;
+        public object user_canceled;
+        public object no_renegotiation;
+        public object unsupported_extension;
+        public object certificate_unobtainable;
+        public object unrecognized_name;
+        public object bad_certificate_status_response;
+        public object bad_certificate_hash_value;
+        public object unknown_psk_identity;
+        public object inappropriate_fallback;
+
         // ── Methods ──
-        public void GetName(){} // RVA: 0x7B134ADE0
-        public void GetText(){} // RVA: 0x7B134B2E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetName(){} // RVA: 0xA1B67A0
+        public void GetText(){} // RVA: 0xA1B6CA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class AlertLevel : Object
     {
+        public object warning;
+        public object fatal;
+
         // ── Methods ──
-        public void GetName(){} // RVA: 0x7B134B360
-        public void GetText(){} // RVA: 0x7B134B3E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetName(){} // RVA: 0xA1B6D20
+        public void GetText(){} // RVA: 0xA1B6DA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

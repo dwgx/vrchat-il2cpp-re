@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class PlayerDrone : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -28,6 +30,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PlayerDroneT : Object
     {
+        public object _throttle;
+
         // ── Methods ──
         public void get_Throttle(){} // RVA: 0xC763E0
         public void set_Throttle(){} // RVA: 0xC763F0
@@ -44,6 +48,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseFingerData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -58,6 +64,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseFingerDataT : Object
     {
+        public object _fingerStretch;
+        public object _fingerSpread;
+
         // ── Methods ──
         public void get_FingerStretch(){} // RVA: 0xB5DBF0
         public void set_FingerStretch(){} // RVA: 0xB44D60
@@ -68,6 +77,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseHandGestures : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -82,6 +93,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseHandGesturesT : Object
     {
+        public object _handGestureLeft;
+        public object _handGestureRight;
+
         // ── Methods ──
         public void get_HandGestureLeft(){} // RVA: 0xC120A0
         public void set_HandGestureLeft(){} // RVA: 0xC120B0
@@ -92,6 +106,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseMuscleData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -107,6 +123,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseMuscleDataT : Object
     {
+        public object _bodyRotation;
+        public object _hipPosition;
+        public object _muscles;
+
         // ── Methods ──
         public void get_BodyRotation(){} // RVA: 0xB5DBF0
         public void set_BodyRotation(){} // RVA: 0xB44D60
@@ -119,6 +139,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PosePositionDataUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -139,6 +162,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorder : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -187,6 +212,20 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PoseRecorderT : Object
     {
+        public object _contents;
+        public object _motionFlags;
+        public object _extraFlags;
+        public object _standingHeight;
+        public object _angVelocity;
+        public object _gestures;
+        public object _fingers;
+        public object _pose;
+        public object _puppet;
+        public object _eyeLookTargetPosition;
+        public object _eyeClosedAmount;
+        public object _spineLengthFactor;
+        public object _faceTrackedVisemes;
+
         // ── Methods ──
         public void get_Contents(){} // RVA: 0x24EA1D0
         public void set_Contents(){} // RVA: 0x24EAB10
@@ -227,6 +266,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PuppetData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -240,6 +281,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class PuppetDataT : Object
     {
+        public object _channels;
+
         // ── Methods ──
         public void get_Channels(){} // RVA: 0xB5DBF0
         public void set_Channels(){} // RVA: 0xB44D60

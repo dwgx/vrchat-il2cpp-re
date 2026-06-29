@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Audio
 {
     public class AudioClipPlayable : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B40260
         public void CreateHandle(){} // RVA: 0x7B405D0
@@ -69,6 +71,8 @@ namespace ThirdParty.Unity.UnityEngine.Audio
 
     public class AudioMixerPlayable : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B41DA0
         public void CreateHandle(){} // RVA: 0x7B41E10
@@ -124,6 +128,8 @@ namespace ThirdParty.Unity.UnityEngine.Audio
 
     public class AudioPlayableOutput : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B428B0
         public void .ctor(){} // RVA: 0x95E160

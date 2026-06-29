@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class EasingFunction : ValueType
     {
+        public object m_Mode;
+
         // ── Methods ──
         public void get_mode(){} // RVA: 0x77E60
         public void set_mode(){} // RVA: 0x29580
@@ -47,6 +49,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ElementUnderPointer : Object
     {
+        public object m_PendingTopElementUnderPointer;
+        public object m_TopElementUnderPointer;
+        public object m_TriggerEvent;
+        public object m_PickingPointerPositions;
+        public object m_IsPickingPointerTemporaries;
+
         // ── Methods ──
         public void GetTopElementUnderPointer(){} // RVA: 0x753C8F0
         public void SetElementUnderPointer(){} // RVA: 0x80567A0
@@ -58,6 +66,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EnumField : BaseField`1
     {
+        public object textProperty;
+        public object m_EnumType;
+        public object m_IncludeObsoleteValues;
+        public object m_TextElement;
+        public object m_ArrowElement;
+        public object m_EnumData;
+        public object createMenuCallback;
+        public object ussClassName;
+        public object textUssClassName;
+        public object arrowUssClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_includeObsoleteValues(){} // RVA: 0x7FDD160
         public void get_text(){} // RVA: 0x7FDD170
@@ -81,6 +102,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EnumFieldHelpers : Object
     {
+        public object type;
+        public object value;
+        public object includeObsoleteValues;
+
         // ── Methods ──
         public void ExtractValue(){} // RVA: 0x7FDC5A0
         public void .cctor(){} // RVA: 0x7FDCC20
@@ -88,6 +113,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase : Object
     {
+        public object s_LastTypeId;
+        public object _eventCategories;
+        public object s_NextEventId;
+        public object _timestamp;
+        public object _eventId;
+        public object _triggerEventId;
+        public object _propagation;
+        public object _lifeCycleStatus;
+        public object _elementTarget;
+        public object _propagationPhase;
+        public object m_CurrentTarget;
+        public object m_ImguiEvent;
+        public object _originalMousePosition;
+
         // ── Methods ──
         public void RegisterEventType(){} // RVA: 0x8057B40
         public void get_eventTypeId(){} // RVA: 0x2551610
@@ -153,6 +192,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x894350
         public void .ctor(){} // RVA: 0x894290
@@ -168,6 +212,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -183,6 +232,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -198,6 +252,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -213,6 +272,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -228,6 +292,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -243,6 +312,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -258,6 +332,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -273,6 +352,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -288,6 +372,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -303,6 +392,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -318,6 +412,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -333,6 +432,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -348,6 +452,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -363,6 +472,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -378,6 +492,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -393,6 +512,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -408,6 +532,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -423,6 +552,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -438,6 +572,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -453,6 +592,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -468,6 +612,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -483,6 +632,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -498,6 +652,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -513,6 +672,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -528,6 +692,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -543,6 +712,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -558,6 +732,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -573,6 +752,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -588,6 +772,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -603,6 +792,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -618,6 +812,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -633,6 +832,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -648,6 +852,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -663,6 +872,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -678,6 +892,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -693,6 +912,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -708,6 +932,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -723,6 +952,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -738,6 +972,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -753,6 +992,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -768,6 +1012,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -783,6 +1032,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -798,6 +1052,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -813,6 +1072,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -828,6 +1092,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -843,6 +1112,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -858,6 +1132,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -873,6 +1152,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -888,6 +1172,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -903,6 +1192,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -918,6 +1212,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -933,6 +1232,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -948,6 +1252,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -963,6 +1272,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -978,6 +1292,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -993,6 +1312,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1008,6 +1332,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1023,6 +1352,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1038,6 +1372,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1053,6 +1392,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1068,6 +1412,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1083,6 +1432,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1098,6 +1452,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1113,6 +1472,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1128,6 +1492,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventBase`1 : EventBase
     {
+        public object s_TypeId;
+        public object s_Pool;
+        public object m_RefCount;
+        public object EventCategory;
+
         // ── Methods ──
         public void SetCreateFunction(){} // RVA: 0x3DB7A40
         public void .ctor(){} // RVA: 0x3DB7B40
@@ -1143,6 +1512,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctorBase : Object
     {
+        public object eventTypeId;
+        public object invokePolicy;
+
         // ── Methods ──
         public void Invoke(){} // RVA: 0x894320
         public void UnregisterCallback(){} // RVA: 0x899290
@@ -1173,6 +1545,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`1 : EventCallbackFunctorBase
     {
+        public object m_Callback;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0xA94080
         public void Dispose(){} // RVA: 0x894290
@@ -1184,6 +1558,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackFunctor`2 : EventCallbackFunctorBase
     {
+        public object m_Callback;
+        public object _userArgs;
+
         // ── Methods ──
         public void get_userArgs(){} // RVA: 0xA94080
         public void set_userArgs(){} // RVA: 0xA94080
@@ -1197,6 +1574,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackList : Object
     {
+        public object EmptyList;
+        public object EmptyArray;
+        public object m_Array;
+        public object m_Count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8058A30
         public void Find(){} // RVA: 0x8058C10
@@ -1210,6 +1592,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackListPool : Object
     {
+        public object m_Stack;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x80586B0
         public void Release(){} // RVA: 0x8058840
@@ -1218,6 +1602,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCallbackRegistry : Object
     {
+        public object s_ListPool;
+        public object m_TrickleDownCallbacks;
+        public object m_BubbleUpCallbacks;
+
         // ── Methods ──
         public void GetCallbackList(){} // RVA: 0x8059190
         public void ReleaseCallbackList(){} // RVA: 0x8059370
@@ -1306,6 +1694,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventCategoryAttribute : Attribute
     {
+        public object category;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
@@ -1339,6 +1729,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventDispatcher : Object
     {
+        public object m_ClickDetector;
+        public object k_EventQueuePool;
+        public object m_Queue;
+        public object _pointerState;
+        public object m_GateCount;
+        public object m_GateDepth;
+        public object k_MaxGateDepth;
+        public object k_NumberOfEventsWithStackInfo;
+        public object k_NumberOfEventsWithEventInfo;
+        public object m_DispatchStackFrame;
+        public object m_CurrentEvent;
+        public object m_DispatchContexts;
+        public object m_Immediate;
+        public object _processingEvents;
+
         // ── Methods ──
         public void get_pointerState(){} // RVA: 0xB700F0
         public void CreateDefault(){} // RVA: 0x8053C80
@@ -1356,6 +1761,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventDispatcherGate : ValueType
     {
+        public object m_Dispatcher;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A50C0
         public void Dispose(){} // RVA: 0x9A5180
@@ -1365,12 +1772,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class EventInterestAttribute : Attribute
     {
+        public object eventTypes;
+        public object categoryFlags;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1033F40
     }
 
     public class EventInterestReflectionUtils : Object
     {
+        public object s_DefaultEventInterests;
+        public object s_EventCategories;
+
         // ── Methods ──
         public void GetDefaultEventInterests(){} // RVA: 0x7F2DD60
         public void ComputeDefaultEventInterests(){} // RVA: 0x7F2E0E0

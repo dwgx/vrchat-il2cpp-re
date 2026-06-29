@@ -24,6 +24,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _character;
+        public object _keyCode;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x87C130
         public void set_modifiers(){} // RVA: 0x8944F0
@@ -46,6 +50,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _character;
+        public object _keyCode;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -68,6 +76,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _character;
+        public object _keyCode;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -97,6 +109,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardNavigationManipulator : Manipulator
     {
+        public object m_Action;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBA9BA0
         public void RegisterCallbacksOnTarget(){} // RVA: 0x80828C0
@@ -111,6 +125,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class KeyboardTextEditorEventHandler : TextEditorEventHandler
     {
+        public object m_ImguiEvent;
+        public object m_Changed;
+        public object m_ShouldInvokeUpdateValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FEDC00
         public void HandleEventBubbleUp(){} // RVA: 0x7FEDD50

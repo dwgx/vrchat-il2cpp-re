@@ -1,10 +1,12 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 41
-// Methods: 169
+// Classes: 40
+// Methods: 166
 
 public class MD5 : Object
 {
+    public object ToString;
+
     // ── Methods ──
     public void TryParse(){} // RVA: 0x727F590
     public void .cctor(){} // RVA: 0x727F6F0
@@ -12,20 +14,17 @@ public class MD5 : Object
 
 public class Map : ValueType
 {
+    public object match;
+    public object replacement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x360710
 }
 
-public class MemberDescriptorComparer : Object
-{
-    // ── Methods ──
-    public void Compare(){} // RVA: 0x77096D0
-    public void .ctor(){} // RVA: 0xB43310
-    public void .cctor(){} // RVA: 0x77098E0
-}
-
 public class MemberExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049780
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -38,6 +37,8 @@ public class MemberExpressionProxy : Object
 
 public class MemberInitExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049860
     public void get_Bindings(){} // RVA: 0x13F9400
@@ -50,18 +51,31 @@ public class MemberInitExpressionProxy : Object
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MergedRestriction : BindingRestrictions
 {
+    public object Left;
+    public object Right;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70CB470
     public void GetExpression(){} // RVA: 0x70CB580
@@ -69,6 +83,10 @@ public class MergedRestriction : BindingRestrictions
 
 public class MergedRuntimeVariables : Object
 {
+    public object _first;
+    public object _second;
+    public object _indexes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC27FD0
     public void get_Count(){} // RVA: 0x4F208B0
@@ -78,6 +96,9 @@ public class MergedRuntimeVariables : Object
 
 public class MergedTypeDescriptor : Object
 {
+    public object _primary;
+    public object _secondary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x7709980
@@ -94,6 +115,8 @@ public class MergedTypeDescriptor : Object
 
 public class MetaDynamic : DynamicMetaObject
 {
+    public object s_noArgs;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70CE700
     public void GetDynamicMemberNames(){} // RVA: 0x70CE7C0
@@ -143,6 +166,13 @@ public class MetaExpando : DynamicMetaObject
 
 public class MetadataDb : ValueType
 {
+    public object SizeOrLengthOffset;
+    public object NumberOfRowsOffset;
+    public object _length;
+    public object _data;
+    public object _convertToAlloc;
+    public object _isLocked;
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x77E60
     public void set_Length(){} // RVA: 0x29580
@@ -166,6 +196,8 @@ public class MetadataDb : ValueType
 
 public class MethodCallExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049940
     public void get_Arguments(){} // RVA: 0x10AD020
@@ -179,6 +211,8 @@ public class MethodCallExpressionProxy : Object
 
 public class ModifierCollection : ConfigurationList`1
 {
+    public object _resolver;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7332C20
     public void get_IsReadOnly(){} // RVA: 0x7332D80
@@ -341,6 +375,8 @@ public class MulUInt64 : MulInstruction
 
 public class MutableBox : InitializeLocalInstruction
 {
+    public object _type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void Run(){} // RVA: 0x70B3000
@@ -349,6 +385,8 @@ public class MutableBox : InitializeLocalInstruction
 
 public class MutableValue : InitializeLocalInstruction
 {
+    public object _type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void Run(){} // RVA: 0x70B2E60
@@ -358,6 +396,9 @@ public class MutableValue : InitializeLocalInstruction
 
 public class MutationInput : ValueType
 {
+    public object _root;
+    public object _comparers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Root(){} // RVA: 0x87C0A0
@@ -370,6 +411,9 @@ public class MutationInput : ValueType
 
 public class MutationResult : ValueType
 {
+    public object _root;
+    public object _countAdjustment;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899290
     public void get_Root(){} // RVA: 0x87C0A0

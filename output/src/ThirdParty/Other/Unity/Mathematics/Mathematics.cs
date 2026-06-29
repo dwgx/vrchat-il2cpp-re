@@ -7,6 +7,10 @@ namespace ThirdParty.Other.Unity.Mathematics
 {
     public class bool3 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8C060
         public void Equals(){} // RVA: 0x93EC00
@@ -16,6 +20,10 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float2 : ValueType
     {
+        public object x;
+        public object y;
+        public object zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C540
         public void op_Multiply(){} // RVA: 0x7950180
@@ -27,6 +35,11 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x90B970
         public void op_Implicit(){} // RVA: 0x2331CF0
@@ -50,6 +63,11 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float3x3 : ValueType
     {
+        public object c0;
+        public object c1;
+        public object c2;
+        public object identity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93F740
         public void op_Multiply(){} // RVA: 0x79509D0
@@ -62,6 +80,12 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object w;
+        public object zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93F790
         public void op_Implicit(){} // RVA: 0x2315EC0
@@ -91,6 +115,13 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class float4x4 : ValueType
     {
+        public object c0;
+        public object c1;
+        public object c2;
+        public object c3;
+        public object identity;
+        public object zero;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93FBF0
         public void Equals(){} // RVA: 0x93FD30
@@ -172,6 +203,9 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class quaternion : ValueType
     {
+        public object value;
+        public object identity;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0xFE9840
         public void .ctor(){} // RVA: 0x93FE90
@@ -193,6 +227,9 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint2 : ValueType
     {
+        public object x;
+        public object y;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void op_Multiply(){} // RVA: 0x7954F30
@@ -203,6 +240,10 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint3 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6E1050
         public void op_Multiply(){} // RVA: 0x79551C0
@@ -216,6 +257,11 @@ namespace ThirdParty.Other.Unity.Mathematics
 
     public class uint4 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object w;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x940570
         public void op_Multiply(){} // RVA: 0x7955520

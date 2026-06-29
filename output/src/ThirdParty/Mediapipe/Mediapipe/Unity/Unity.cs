@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 {
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x87D280
         public void set_isMirrored(){} // RVA: 0x894750
@@ -25,6 +29,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -43,6 +51,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -61,6 +73,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -79,6 +95,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -97,6 +117,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -115,6 +139,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -133,6 +161,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -151,6 +183,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -169,6 +205,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -187,6 +227,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -205,6 +249,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -223,6 +271,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AnnotationController`1 : MonoBehaviour
     {
+        public object annotation;
+        public object isStale;
+        public object _imageSize;
+
         // ── Methods ──
         public void get_isMirrored(){} // RVA: 0x13E8D50
         public void set_isMirrored(){} // RVA: 0x4219910
@@ -241,6 +293,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Arrow : MonoBehaviour
     {
+        public object _color;
+        public object _direction;
+        public object _magnitude;
+        public object _capScale;
+        public object _lineWidth;
+        public object _cone;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x65AD180
         public void get_cone(){} // RVA: 0x65AD200
@@ -264,6 +323,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class AssetBundleResourceManager : ResourceManager
     {
+        public object _TAG;
+        public object _AssetBundlePath;
+        public object _CachePathRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65CBC20
         public void PrepareAssetAsync(){} // RVA: 0x65CBEC0
@@ -275,6 +338,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class CircleAnnotation : HierarchicalAnnotation
     {
+        public object _lineRenderer;
+        public object _color;
+        public object _lineWidth;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65AE2C0
         public void OnDisable(){} // RVA: 0x65AE300
@@ -288,12 +355,17 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Connection : Object
     {
+        public object start;
+        public object end;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
     }
 
     public class ConnectionAnnotation : LineAnnotation
     {
+        public object _currentTarget;
+
         // ── Methods ──
         public void get_isEmpty(){} // RVA: 0x65AEBB0
         public void Draw(){} // RVA: 0x65AEBC0
@@ -304,6 +376,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ConnectionListAnnotation : ListAnnotation`1
     {
+        public object _color;
+        public object _lineWidth;
+
         // ── Methods ──
         public void Fill(){} // RVA: 0x65AED70
         public void SetColor(){} // RVA: 0x65AF0C0
@@ -318,6 +393,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionAnnotation : HierarchicalAnnotation
     {
+        public object _boundingBoxAnnotation;
+        public object _keypointsAnnotation;
+        public object _labelAnnotation;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65AFD80
         public void set_rotationAngle(){} // RVA: 0x65AFE10
@@ -330,6 +409,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionAnnotationController : AnnotationController`1
     {
+        public object _threshold;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B0D40
         public void DrawLater(){} // RVA: 0x65B0DB0
@@ -339,6 +421,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionListAnnotation : ListAnnotation`1
     {
+        public object _lineWidth;
+        public object _keypointRadius;
+
         // ── Methods ──
         public void SetLineWidth(){} // RVA: 0x65B0EB0
         public void SetKeypointRadius(){} // RVA: 0x65B0EC0
@@ -351,6 +436,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionListAnnotationController : AnnotationController`1
     {
+        public object _threshold;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B1A20
         public void DrawLater(){} // RVA: 0x65B1AB0
@@ -360,6 +448,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class DetectionResultAnnotationController : AnnotationController`1
     {
+        public object _threshold;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B0D40
         public void DrawLater(){} // RVA: 0x65B1BC0
@@ -369,6 +460,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListAnnotation : HierarchicalAnnotation
     {
+        public object _landmarkListAnnotation;
+        public object _connectionListAnnotation;
+        public object _LandmarkCount;
+        public object _connections;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B20C0
         public void set_rotationAngle(){} // RVA: 0x65B2130
@@ -383,6 +479,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _circleVertices;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B3E30
         public void DrawLater(){} // RVA: 0x65B3F20
@@ -392,6 +492,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkListWithIrisAnnotation : HierarchicalAnnotation
     {
+        public object _faceLandmarkListAnnotation;
+        public object _leftIrisLandmarkListAnnotation;
+        public object _rightIrisLandmarkListAnnotation;
+        public object _FaceLandmarkCount;
+        public object _IrisLandmarkCount;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65AFD80
         public void set_rotationAngle(){} // RVA: 0x65AFE10
@@ -413,6 +519,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class FaceLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B1E40
         public void DrawLater(){} // RVA: 0x65B1E80
@@ -423,6 +532,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class GpuManager : Object
     {
+        public object _SetupLock;
+        public object _CurrentContext;
+        public object _IsContextInitialized;
+        public object _gpuResources;
+        public object _glCalculatorHelper;
+        public object _isInitialized;
+
         // ── Methods ──
         public void get_GpuResources(){} // RVA: 0x65CAE50
         public void set_GpuResources(){} // RVA: 0x65CAEB0
@@ -437,6 +553,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HandLandmarkListAnnotation : HierarchicalAnnotation
     {
+        public object _landmarkListAnnotation;
+        public object _connectionListAnnotation;
+        public object _leftLandmarkColor;
+        public object _rightLandmarkColor;
+        public object _LandmarkCount;
+        public object _connections;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B20C0
         public void set_rotationAngle(){} // RVA: 0x65B2130
@@ -454,6 +577,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HandLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B47E0
         public void DrawLater(){} // RVA: 0x65B4820
@@ -464,6 +590,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HierarchicalAnnotation : MonoBehaviour
     {
+        public object _root;
+        public object _isMirrored;
+        public object _rotationAngle;
+
         // ── Methods ──
         public void get_root(){} // RVA: 0x65B5B80
         public void set_root(){} // RVA: 0xB70100
@@ -484,6 +614,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HolisticLandmarkListAnnotation : HierarchicalAnnotation
     {
+        public object _faceLandmarkListAnnotation;
+        public object _poseLandmarkListAnnotation;
+        public object _leftHandLandmarkListAnnotation;
+        public object _rightHandLandmarkListAnnotation;
+        public object _connectionListAnnotation;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B6210
         public void set_rotationAngle(){} // RVA: 0x65B62E0
@@ -495,6 +631,13 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class HolisticLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _circleVertices;
+        public object _currentFaceLandmarkList;
+        public object _currentPoseLandmarkList;
+        public object _currentLeftHandLandmarkList;
+        public object _currentRightHandLandmarkList;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B6B30
         public void DrawFaceLandmarkListLater(){} // RVA: 0x65B6D60
@@ -524,6 +667,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class IrisLandmarkListAnnotation : HierarchicalAnnotation
     {
+        public object _landmarkListAnnotation;
+        public object _circleAnnotation;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B20C0
         public void set_rotationAngle(){} // RVA: 0x65B2130
@@ -539,6 +685,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class LabelAnnotation : HierarchicalAnnotation
     {
+        public object _labelText;
+        public object _backgroundTransform;
+
         // ── Methods ──
         public void Draw(){} // RVA: 0x65B7EF0
         public void GetFontSize(){} // RVA: 0x65B8560
@@ -551,6 +700,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class LineAnnotation : HierarchicalAnnotation
     {
+        public object _lineRenderer;
+        public object _color;
+        public object _lineWidth;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65B88A0
         public void OnDisable(){} // RVA: 0x65B88E0
@@ -564,6 +717,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x87C0A0
         public void get_Item(){} // RVA: 0xA94080
@@ -580,6 +736,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -596,6 +755,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -612,6 +774,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -628,6 +793,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -644,6 +812,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -660,6 +831,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -676,6 +850,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -692,6 +869,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class ListAnnotation`1 : HierarchicalAnnotation
     {
+        public object _annotationPrefab;
+        public object _children;
+
         // ── Methods ──
         public void get_children(){} // RVA: 0x4288610
         public void get_Item(){} // RVA: 0x42886E0
@@ -708,6 +888,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class Logger : Object
     {
+        public object _minLogLevel;
+
         // ── Methods ──
         public void set_MinLogLevel(){} // RVA: 0x65CBB80
         public void .cctor(){} // RVA: 0x65CBBE0
@@ -715,6 +897,16 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskAnnotation : HierarchicalAnnotation
     {
+        public object _screen;
+        public object _maskShader;
+        public object _maskTexture;
+        public object _color;
+        public object _threshold;
+        public object _prevMaterial;
+        public object _material;
+        public object _maskBuffer;
+        public object _maskArray;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65B8F40
         public void OnDisable(){} // RVA: 0x65B8F80
@@ -733,6 +925,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskAnnotationController : AnnotationController`1
     {
+        public object _maskWidth;
+        public object _maskHeight;
+        public object _currentTarget;
+
         // ── Methods ──
         public void InitScreen(){} // RVA: 0x65B9D20
         public void DrawNow(){} // RVA: 0x65B9D50
@@ -744,6 +940,17 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MaskOverlayAnnotation : HierarchicalAnnotation
     {
+        public object _maskShader;
+        public object _maskTexture;
+        public object _color;
+        public object _threshold;
+        public object _screenObject;
+        public object _screen;
+        public object _prevMaterial;
+        public object _material;
+        public object _maskBuffer;
+        public object _maskArray;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65B9FB0
         public void OnDisable(){} // RVA: 0x65BA0C0
@@ -764,6 +971,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiFaceLandmarkListAnnotation : ListAnnotation`1
     {
+        public object _faceLandmarkColor;
+        public object _irisLandmarkColor;
+        public object _faceLandmarkRadius;
+        public object _irisLandmarkRadius;
+        public object _faceConnectionColor;
+        public object _irisCircleColor;
+        public object _faceConnectionWidth;
+        public object _irisCircleWidth;
+
         // ── Methods ──
         public void SetFaceLandmarkRadius(){} // RVA: 0x65BB3D0
         public void SetIrisLandmarkRadius(){} // RVA: 0x65BB3E0
@@ -788,6 +1004,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiFaceLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B0D40
         public void DrawLater(){} // RVA: 0x65BD060
@@ -797,6 +1016,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiHandLandmarkListAnnotation : ListAnnotation`1
     {
+        public object _leftLandmarkColor;
+        public object _rightLandmarkColor;
+        public object _landmarkRadius;
+        public object _connectionColor;
+        public object _connectionWidth;
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x65BD250
         public void SetRightLandmarkColor(){} // RVA: 0x65BD280
@@ -816,6 +1041,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiHandLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentHandLandmarkLists;
+        public object _currentHandedness;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65BEB40
         public void DrawLater(){} // RVA: 0x65BEC60
@@ -825,6 +1054,12 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiPoseLandmarkListAnnotation : ListAnnotation`1
     {
+        public object _leftLandmarkColor;
+        public object _rightLandmarkColor;
+        public object _landmarkRadius;
+        public object _connectionColor;
+        public object _connectionWidth;
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x65BEED0
         public void SetRightLandmarkColor(){} // RVA: 0x65BEF00
@@ -843,6 +1078,18 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class MultiPoseLandmarkListWithMaskAnnotation : ListAnnotation`1
     {
+        public object _leftLandmarkColor;
+        public object _rightLandmarkColor;
+        public object _landmarkRadius;
+        public object _connectionColor;
+        public object _connectionWidth;
+        public object _screen;
+        public object _maskTexture;
+        public object _color;
+        public object _maskThreshold;
+        public object _maskWidth;
+        public object _maskHeight;
+
         // ── Methods ──
         public void SetLeftLandmarkColor(){} // RVA: 0x65C0190
         public void SetRightLandmarkColor(){} // RVA: 0x65C01C0
@@ -867,6 +1114,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65C1B10
         public void DrawLater(){} // RVA: 0x65C1C10
@@ -877,6 +1127,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedRectAnnotationController : AnnotationController`1
     {
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65C2110
         public void DrawLater(){} // RVA: 0x65C2180
@@ -886,6 +1138,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class NormalizedRectListAnnotationController : AnnotationController`1
     {
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65C2110
         public void DrawLater(){} // RVA: 0x65C2280
@@ -895,84 +1149,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
-        // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x4844020
-        public void add_OnReceived(){} // RVA: 0x4844200
-        public void remove_OnReceived(){} // RVA: 0x4844310
-        public void get_referencePacket(){} // RVA: 0x4844420
-        public void .ctor(){} // RVA: 0x4844520
-        public void Dispose(){} // RVA: 0x4844830
-        public void DisposeManaged(){} // RVA: 0x4844970
-        public void DisposeUnmanaged(){} // RVA: 0x4844A60
-        public void Finalize(){} // RVA: 0x4844C20
-        public void StartPolling(){} // RVA: 0x4844CB0
-        public void AddListener(){} // RVA: 0x4844EF0
-        public void RemoveListener(){} // RVA: 0x4845100
-        public void WaitNextAsync(){} // RVA: 0x4845220
-        public void WaitNextInternal(){} // RVA: 0x4845390
-        public void StartWaitNextTask(){} // RVA: 0x4845590
-        public void Next(){} // RVA: 0x4845930
-        public void ClearWaitTask(){} // RVA: 0x4845B10
-        public void InvokeOnReceived(){} // RVA: 0x4845BE0
-        public void ThrowIfDisposed(){} // RVA: 0x4845D70
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
-        public void .cctor(){} // RVA: 0x48464F0
-    }
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
 
-    public class OutputStream`1 : Object
-    {
-        // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x4844020
-        public void add_OnReceived(){} // RVA: 0x4844200
-        public void remove_OnReceived(){} // RVA: 0x4844310
-        public void get_referencePacket(){} // RVA: 0x4844420
-        public void .ctor(){} // RVA: 0x4844520
-        public void Dispose(){} // RVA: 0x4844830
-        public void DisposeManaged(){} // RVA: 0x4844970
-        public void DisposeUnmanaged(){} // RVA: 0x4844A60
-        public void Finalize(){} // RVA: 0x4844C20
-        public void StartPolling(){} // RVA: 0x4844CB0
-        public void AddListener(){} // RVA: 0x4844EF0
-        public void RemoveListener(){} // RVA: 0x4845100
-        public void WaitNextAsync(){} // RVA: 0x4845220
-        public void WaitNextInternal(){} // RVA: 0x4845390
-        public void StartWaitNextTask(){} // RVA: 0x4845590
-        public void Next(){} // RVA: 0x4845930
-        public void ClearWaitTask(){} // RVA: 0x4845B10
-        public void InvokeOnReceived(){} // RVA: 0x4845BE0
-        public void ThrowIfDisposed(){} // RVA: 0x4845D70
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
-        public void .cctor(){} // RVA: 0x48464F0
-    }
-
-    public class OutputStream`1 : Object
-    {
-        // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x4844020
-        public void add_OnReceived(){} // RVA: 0x4844200
-        public void remove_OnReceived(){} // RVA: 0x4844310
-        public void get_referencePacket(){} // RVA: 0x4844420
-        public void .ctor(){} // RVA: 0x4844520
-        public void Dispose(){} // RVA: 0x4844830
-        public void DisposeManaged(){} // RVA: 0x4844970
-        public void DisposeUnmanaged(){} // RVA: 0x4844A60
-        public void Finalize(){} // RVA: 0x4844C20
-        public void StartPolling(){} // RVA: 0x4844CB0
-        public void AddListener(){} // RVA: 0x4844EF0
-        public void RemoveListener(){} // RVA: 0x4845100
-        public void WaitNextAsync(){} // RVA: 0x4845220
-        public void WaitNextInternal(){} // RVA: 0x4845390
-        public void StartWaitNextTask(){} // RVA: 0x4845590
-        public void Next(){} // RVA: 0x4845930
-        public void ClearWaitTask(){} // RVA: 0x4845B10
-        public void InvokeOnReceived(){} // RVA: 0x4845BE0
-        public void ThrowIfDisposed(){} // RVA: 0x4845D70
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
-        public void .cctor(){} // RVA: 0x48464F0
-    }
-
-    public class OutputStream`1 : Object
-    {
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x87C0A0
         public void add_OnReceived(){} // RVA: 0x894320
@@ -999,6 +1191,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1025,6 +1233,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1051,6 +1275,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1077,6 +1317,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1103,6 +1359,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1129,6 +1401,22 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1155,6 +1443,148 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class OutputStream`1 : Object
     {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x4844020
+        public void add_OnReceived(){} // RVA: 0x4844200
+        public void remove_OnReceived(){} // RVA: 0x4844310
+        public void get_referencePacket(){} // RVA: 0x4844420
+        public void .ctor(){} // RVA: 0x4844520
+        public void Dispose(){} // RVA: 0x4844830
+        public void DisposeManaged(){} // RVA: 0x4844970
+        public void DisposeUnmanaged(){} // RVA: 0x4844A60
+        public void Finalize(){} // RVA: 0x4844C20
+        public void StartPolling(){} // RVA: 0x4844CB0
+        public void AddListener(){} // RVA: 0x4844EF0
+        public void RemoveListener(){} // RVA: 0x4845100
+        public void WaitNextAsync(){} // RVA: 0x4845220
+        public void WaitNextInternal(){} // RVA: 0x4845390
+        public void StartWaitNextTask(){} // RVA: 0x4845590
+        public void Next(){} // RVA: 0x4845930
+        public void ClearWaitTask(){} // RVA: 0x4845B10
+        public void InvokeOnReceived(){} // RVA: 0x4845BE0
+        public void ThrowIfDisposed(){} // RVA: 0x4845D70
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
+        public void .cctor(){} // RVA: 0x48464F0
+    }
+
+    public class OutputStream`1 : Object
+    {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x4844020
+        public void add_OnReceived(){} // RVA: 0x4844200
+        public void remove_OnReceived(){} // RVA: 0x4844310
+        public void get_referencePacket(){} // RVA: 0x4844420
+        public void .ctor(){} // RVA: 0x4844520
+        public void Dispose(){} // RVA: 0x4844830
+        public void DisposeManaged(){} // RVA: 0x4844970
+        public void DisposeUnmanaged(){} // RVA: 0x4844A60
+        public void Finalize(){} // RVA: 0x4844C20
+        public void StartPolling(){} // RVA: 0x4844CB0
+        public void AddListener(){} // RVA: 0x4844EF0
+        public void RemoveListener(){} // RVA: 0x4845100
+        public void WaitNextAsync(){} // RVA: 0x4845220
+        public void WaitNextInternal(){} // RVA: 0x4845390
+        public void StartWaitNextTask(){} // RVA: 0x4845590
+        public void Next(){} // RVA: 0x4845930
+        public void ClearWaitTask(){} // RVA: 0x4845B10
+        public void InvokeOnReceived(){} // RVA: 0x4845BE0
+        public void ThrowIfDisposed(){} // RVA: 0x4845D70
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
+        public void .cctor(){} // RVA: 0x48464F0
+    }
+
+    public class OutputStream`1 : Object
+    {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
+        // ── Methods ──
+        public void get_outputPacket(){} // RVA: 0x4844020
+        public void add_OnReceived(){} // RVA: 0x4844200
+        public void remove_OnReceived(){} // RVA: 0x4844310
+        public void get_referencePacket(){} // RVA: 0x4844420
+        public void .ctor(){} // RVA: 0x4844520
+        public void Dispose(){} // RVA: 0x4844830
+        public void DisposeManaged(){} // RVA: 0x4844970
+        public void DisposeUnmanaged(){} // RVA: 0x4844A60
+        public void Finalize(){} // RVA: 0x4844C20
+        public void StartPolling(){} // RVA: 0x4844CB0
+        public void AddListener(){} // RVA: 0x4844EF0
+        public void RemoveListener(){} // RVA: 0x4845100
+        public void WaitNextAsync(){} // RVA: 0x4845220
+        public void WaitNextInternal(){} // RVA: 0x4845390
+        public void StartWaitNextTask(){} // RVA: 0x4845590
+        public void Next(){} // RVA: 0x4845930
+        public void ClearWaitTask(){} // RVA: 0x4845B10
+        public void InvokeOnReceived(){} // RVA: 0x4845BE0
+        public void ThrowIfDisposed(){} // RVA: 0x4845D70
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x4845E00
+        public void .cctor(){} // RVA: 0x48464F0
+    }
+
+    public class OutputStream`1 : Object
+    {
+        public object _Counter;
+        public object _InstanceTable;
+        public object _calculatorGraph;
+        public object _id;
+        public object streamName;
+        public object observeTimestampBounds;
+        public object _poller;
+        public object _outputPacket;
+        public object _waitTaskLock;
+        public object _waitTask;
+        public object OnReceived;
+        public object _lastTimestampMicrosec;
+        public object _referencePacket;
+        public object _disposeSignaled;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_outputPacket(){} // RVA: 0x4844020
         public void add_OnReceived(){} // RVA: 0x4844200
@@ -1181,6 +1611,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PointAnnotation : HierarchicalAnnotation
     {
+        public object _color;
+        public object _radius;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65C2510
         public void OnDisable(){} // RVA: 0x65C25A0
@@ -1195,6 +1628,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PointListAnnotation : ListAnnotation`1
     {
+        public object _color;
+        public object _radius;
+
         // ── Methods ──
         public void SetColor(){} // RVA: 0x65C3410
         public void SetRadius(){} // RVA: 0x65C3440
@@ -1207,6 +1643,15 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListAnnotation : HierarchicalAnnotation
     {
+        public object _landmarkListAnnotation;
+        public object _connectionListAnnotation;
+        public object _leftLandmarkColor;
+        public object _rightLandmarkColor;
+        public object _LandmarkCount;
+        public object _LeftLandmarks;
+        public object _RightLandmarks;
+        public object _Connections;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B20C0
         public void set_rotationAngle(){} // RVA: 0x65B2130
@@ -1227,6 +1672,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void DrawNow(){} // RVA: 0x65B3E30
         public void DrawLater(){} // RVA: 0x65C79A0
@@ -1236,6 +1684,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkListWithMaskAnnotation : HierarchicalAnnotation
     {
+        public object _poseLandmarkListAnnotation;
+        public object _maskOverlayAnnotation;
+
         // ── Methods ──
         public void set_isMirrored(){} // RVA: 0x65B20C0
         public void set_rotationAngle(){} // RVA: 0x65B2130
@@ -1254,6 +1705,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseLandmarkerResultAnnotationController : AnnotationController`1
     {
+        public object _visualizeZ;
+        public object _currentTargetLock;
+        public object _currentTarget;
+
         // ── Methods ──
         public void InitScreen(){} // RVA: 0x65C4B50
         public void DrawNow(){} // RVA: 0x65C4B80
@@ -1266,6 +1721,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class PoseWorldLandmarkListAnnotationController : AnnotationController`1
     {
+        public object _hipHeightMeter;
+        public object _scale;
+        public object _visualizeZ;
+        public object _currentTarget;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x65C7DD0
         public void DrawNow(){} // RVA: 0x65C7F40
@@ -1276,6 +1736,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class RectangleAnnotation : HierarchicalAnnotation
     {
+        public object _lineRenderer;
+        public object _color;
+        public object _lineWidth;
+        public object _EmptyPositions;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x65C8210
         public void OnDisable(){} // RVA: 0x65C8250
@@ -1290,6 +1755,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class RectangleListAnnotation : ListAnnotation`1
     {
+        public object _color;
+        public object _lineWidth;
+
         // ── Methods ──
         public void SetColor(){} // RVA: 0x65C9240
         public void SetLineWidth(){} // RVA: 0x65C9270
@@ -1310,6 +1778,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity
 
     public class StreamingAssetsResourceManager : ResourceManager
     {
+        public object _TAG;
+        public object _RelativePath;
+        public object _AssetPathRoot;
+        public object _CachePathRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x65CC850
         public void PrepareAssetAsync(){} // RVA: 0x65CC8A0

@@ -33,6 +33,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class IDs : Object
     {
+        public object m_Dic;
+
         // ── Methods ──
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7D661E0
         public void Add(){} // RVA: 0x7D662E0
@@ -196,6 +198,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class InventoryInterface : Object
     {
+        public object s_typeCache;
+
         // ── Methods ──
         public void GetClassType(){} // RVA: 0x7D89B30
         public void GetProductListMethod(){} // RVA: 0x7D89C60

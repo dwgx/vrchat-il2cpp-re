@@ -7,6 +7,9 @@ namespace VRC.Core
 {
     public class VRCCertificatePolicy : Object
     {
+        public object _vRCCertificatePolicy;
+        public object _vRCCertificatePolicy2;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1636D80
         public void Equals(){} // RVA: 0x16371A0
@@ -30,6 +33,14 @@ namespace VRC.Core
 
     public class VRCEvent : ApiModel
     {
+        public object _name;
+        public object _description;
+        public object _imageUrl;
+        public object _authorName;
+        public object _authorId;
+        public object _startTime;
+        public object _venueId;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -72,6 +83,18 @@ namespace VRC.Core
 
     public class VRCLogger : Object
     {
+        public object _initialized;
+        public object _runtimeLoggerFactory;
+        public object _currentLoggingMode;
+        public object LoggerDictionary;
+        public object _logFilePathOverride;
+        public object _logFileNamePrefix;
+        public object _globalLogger;
+        public object _zLoggerHandler;
+        public object UnityLogPrefixFormat;
+        public object LogFilePrefixFormat;
+        public object OnMessageLogged;
+
         // ── Methods ──
         public void get_IsPathOverridden(){} // RVA: 0x8318870
         public void get_LogFileNamePrefix(){} // RVA: 0x83188E0
@@ -105,6 +128,13 @@ namespace VRC.Core
 
     public class VRChatTestProtocol : Object
     {
+        public object Port;
+        public object HeartbeatInterval;
+        public object TimeoutInterval;
+        public object MaxStringLength;
+        public object MaxFileSize;
+        public object Version;
+
         // ── Methods ──
         public void ReadLimitedString(){} // RVA: 0xA5DA140
         public void WriteLimitedString(){} // RVA: 0xA5DA260

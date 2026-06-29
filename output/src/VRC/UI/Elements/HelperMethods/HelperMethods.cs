@@ -7,6 +7,8 @@ namespace VRC.UI.Elements.HelperMethods
 {
     public class UIAlert : ValueType
     {
+        public object _message;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA56110
         public void InternalEquals(){} // RVA: 0xA56250
@@ -21,6 +23,9 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIBinaryAlert : ValueType
     {
+        public object _localizedSuccess;
+        public object _localizedFail;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA569E0
         public void InternalEquals(){} // RVA: 0xA569F0
@@ -33,6 +38,9 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIConfirmDialog : ValueType
     {
+        public object _localizedTitle;
+        public object _localizedBody;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA56BA0
         public void InternalEquals(){} // RVA: 0xA56CB0
@@ -45,6 +53,9 @@ namespace VRC.UI.Elements.HelperMethods
 
     public class UIDeletePrompts : ValueType
     {
+        public object _confirmPrompt;
+        public object _resultOfActionPrompt;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA57420
         public void InternalEquals(){} // RVA: 0xA57430

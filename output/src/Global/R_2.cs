@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 682
+// Methods: 673
 
 public class RaiseDataUsage : MulticastDelegate
 {
@@ -14,6 +14,9 @@ public class RaiseDataUsage : MulticastDelegate
 
 public class Range : Object
 {
+    public object mStart;
+    public object mEnd;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F358F0
     public void get_Start(){} // RVA: 0xB8F8F0
@@ -24,9 +27,23 @@ public class Range : Object
 
 public class Range : Object
 {
+    public object name;
+    public object show;
+    public object characterPosition;
+    public object cameraPosition;
+    public object interactions;
+
     // ── Methods ──
     public void IsInRange(){} // RVA: 0xCABB00
     public void .ctor(){} // RVA: 0xCABC00
+}
+
+public class RangeIntEqualityComparer : Object
+{
+    // ── Methods ──
+    public void Equals(){} // RVA: 0x77C0AC0
+    public void GetHashCode(){} // RVA: 0x77C0AE0
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Range[] : Array
@@ -51,6 +68,10 @@ public class Range[] : Array
 
 public class RawTexture : ValueType
 {
+    public object rgba;
+    public object width;
+    public object height;
+
     // ── Methods ──
     public void WriteRawInt2Packed(){} // RVA: 0x99D050
     public void WriteRawFloat4Packed(){} // RVA: 0x99D060
@@ -63,8 +84,23 @@ public class RayHitComparer : Object
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class RaycastHitComparer : Object
+{
+    public object instance;
+
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x6C67430
+    public void .ctor(){} // RVA: 0xB43310
+    public void .cctor(){} // RVA: 0x8122E00
+}
+
 public class RaycastHitData : ValueType
 {
+    public object _graphic;
+    public object _worldHitPosition;
+    public object _screenPosition;
+    public object _distance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x937C20
     public void get_graphic(){} // RVA: 0x77900
@@ -115,6 +151,11 @@ public class RaycastHit[] : Array
 
 public class ReachCone : Object
 {
+    public object tetrahedron;
+    public object volume;
+    public object S;
+    public object B;
+
     // ── Methods ──
     public void get_o(){} // RVA: 0xCB6690
     public void get_a(){} // RVA: 0xCB66D0
@@ -147,6 +188,17 @@ public class ReachCone[] : Array
 
 public class ReadActionJson : ValueType
 {
+    public object name;
+    public object type;
+    public object id;
+    public object expectedControlType;
+    public object expectedControlLayout;
+    public object processors;
+    public object interactions;
+    public object passThrough;
+    public object initialStateCheck;
+    public object bindings;
+
     // ── Methods ──
     public void ToAction(){} // RVA: 0x927310
 }
@@ -173,6 +225,51 @@ public class ReadActionJson[] : Array
 
 public class ReadAllAsyncEnumerable : Object
 {
+    public object CancellationCallback1Delegate;
+    public object CancellationCallback2Delegate;
+    public object parent;
+    public object cancellationToken1;
+    public object cancellationToken2;
+    public object cancellationTokenRegistration1;
+    public object cancellationTokenRegistration2;
+    public object current;
+    public object cacheValue;
+    public object running;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x48E9670
+}
+
+public class ReadAllAsyncEnumerable : Object
+{
+    public object CancellationCallback1Delegate;
+    public object CancellationCallback2Delegate;
+    public object parent;
+    public object cancellationToken1;
+    public object cancellationToken2;
+    public object cancellationTokenRegistration1;
+    public object cancellationTokenRegistration2;
+    public object current;
+    public object cacheValue;
+    public object running;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x48EAC00
+}
+
+public class ReadAllAsyncEnumerable : Object
+{
+    public object CancellationCallback1Delegate;
+    public object CancellationCallback2Delegate;
+    public object parent;
+    public object cancellationToken1;
+    public object cancellationToken2;
+    public object cancellationTokenRegistration1;
+    public object cancellationTokenRegistration2;
+    public object current;
+    public object cacheValue;
+    public object running;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899C90
     public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -183,26 +280,21 @@ public class ReadAllAsyncEnumerable : Object
     public void CancellationCallback2(){} // RVA: 0x894350
 }
 
-public class ReadAllAsyncEnumerable : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x48E9670
-}
-
-public class ReadAllAsyncEnumerable : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x48EAC00
-}
-
 public class ReadFileJson : ValueType
 {
+    public object name;
+    public object maps;
+    public object controlSchemes;
+
     // ── Methods ──
     public void ToAsset(){} // RVA: 0x925F90
 }
 
 public class ReadFileJson : ValueType
 {
+    public object actions;
+    public object maps;
+
     // ── Methods ──
     public void ToMaps(){} // RVA: 0x928E00
 }
@@ -238,66 +330,104 @@ public class ReadMapJson[] : Array
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
+}
+
+public class ReadOnlyIPAddress : IPAddress
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x772D830
 }
 
 public class ReadOnlyKeyCollection : Object
 {
+    public object m_Keys;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA4ADBB0
     public void get_Count(){} // RVA: 0xA4ADC70
@@ -322,6 +452,25 @@ public class ReadPlayerDelegate : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
+public class ReaderCache : Object
+{
+    public object cache;
+
+    // ── Methods ──
+    public void TryReadTo(){} // RVA: 0xA7C6250
+    public void ReadBoxed(){} // RVA: 0x2C892D0
+    public void Register(){} // RVA: 0x2C89B70
+    public void EnumJsonWrite(){} // RVA: 0x2C82F10
+    public void EnumStringWrite(){} // RVA: 0x2C84F60
+    public void EnumUtf8Write(){} // RVA: 0x2C86AB0
+    public void GuidJsonWrite(){} // RVA: 0xA7C65A0
+    public void DateTimeOffsetJsonWrite(){} // RVA: 0xA7C6690
+    public void JsonSerialize(){} // RVA: 0x2C88490
+    public void StringAppendFormatted(){} // RVA: 0x2C8AD20
+    public void Utf8AppendFormatted(){} // RVA: 0x2C8BF30
+    public void .cctor(){} // RVA: 0xA7C6780
+}
+
 public class ReapplyDrivenProperties : MulticastDelegate
 {
     // ── Methods ──
@@ -331,6 +480,39 @@ public class ReapplyDrivenProperties : MulticastDelegate
 
 public class RebindingOperation : Object
 {
+    public object kDefaultMagnitudeThreshold;
+    public object m_ActionToRebind;
+    public object m_BindingMask;
+    public object m_ControlType;
+    public object m_ExpectedLayout;
+    public object m_IncludePathCount;
+    public object m_IncludePaths;
+    public object m_ExcludePathCount;
+    public object m_ExcludePaths;
+    public object m_TargetBindingIndex;
+    public object m_BindingGroupForNewBinding;
+    public object m_CancelBinding;
+    public object m_MagnitudeThreshold;
+    public object m_Scores;
+    public object m_Magnitudes;
+    public object m_LastMatchTime;
+    public object m_StartTime;
+    public object m_Timeout;
+    public object m_WaitSecondsAfterMatch;
+    public object m_Candidates;
+    public object m_OnComplete;
+    public object m_OnCancel;
+    public object m_OnPotentialMatch;
+    public object m_OnGeneratePath;
+    public object m_OnComputeScore;
+    public object m_OnApplyBinding;
+    public object m_OnEventDelegate;
+    public object m_OnAfterUpdateDelegate;
+    public object m_LayoutCache;
+    public object m_PathBuilder;
+    public object m_Flags;
+    public object m_StartingActuations;
+
     // ── Methods ──
     public void get_action(){} // RVA: 0xB5DBF0
     public void get_bindingMask(){} // RVA: 0x391F2B0
@@ -389,6 +571,13 @@ public class RebindingOperation : Object
 
 public class RecoilOffset : Object
 {
+    public object offset;
+    public object additivity;
+    public object maxAdditiveOffsetMag;
+    public object effectorLinks;
+    public object additiveOffset;
+    public object lastOffset;
+
     // ── Methods ──
     public void Start(){} // RVA: 0xCC4DB0
     public void Apply(){} // RVA: 0xCC4E30
@@ -417,6 +606,10 @@ public class RecoilOffset[] : Array
 
 public class Record : ValueType
 {
+    public object m_Owner;
+    public object m_IndexPlusOne;
+    public object m_Version;
+
     // ── Methods ──
     public void get_header(){} // RVA: 0xA94080
     public void get_recordIndex(){} // RVA: 0x87C130
@@ -442,6 +635,10 @@ public class Record : ValueType
 
 public class Record : ValueType
 {
+    public object m_Owner;
+    public object m_IndexPlusOne;
+    public object m_Version;
+
     // ── Methods ──
     public void get_header(){} // RVA: 0x494800
     public void get_recordIndex(){} // RVA: 0x494850
@@ -467,6 +664,10 @@ public class Record : ValueType
 
 public class Record : ValueType
 {
+    public object m_Owner;
+    public object m_IndexPlusOne;
+    public object m_Version;
+
     // ── Methods ──
     public void get_header(){} // RVA: 0x93CDD0
     public void get_recordIndex(){} // RVA: 0x494850
@@ -494,6 +695,14 @@ public class Record : ValueType
 
 public class RecordHeader : ValueType
 {
+    public object time;
+    public object version;
+    public object controlIndex;
+    public object m_StateWithoutControlIndex;
+    public object m_StateWithControlIndex;
+    public object kSizeWithControlIndex;
+    public object kSizeWithoutControlIndex;
+
     // ── Methods ──
     public void get_statePtrWithControlIndex(){} // RVA: 0x93CCF0
     public void get_statePtrWithoutControlIndex(){} // RVA: 0x93CD00
@@ -523,8 +732,49 @@ public class RectEqualityComparer : Object
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class RectIntEqualityComparer : Object
+{
+    // ── Methods ──
+    public void Equals(){} // RVA: 0x77C0AF0
+    public void GetHashCode(){} // RVA: 0x77C0B20
+    public void .ctor(){} // RVA: 0xB43310
+}
+
 public class RectangleParams : ValueType
 {
+    public object rect;
+    public object uv;
+    public object color;
+    public object subRect;
+    public object backgroundRepeatRect;
+    public object backgroundRepeatInstanceList;
+    public object backgroundRepeatInstanceListStartIndex;
+    public object backgroundRepeatInstanceListEndIndex;
+    public object backgroundPositionX;
+    public object backgroundPositionY;
+    public object backgroundRepeat;
+    public object backgroundSize;
+    public object texture;
+    public object sprite;
+    public object vectorImage;
+    public object scaleMode;
+    public object playmodeTintColor;
+    public object topLeftRadius;
+    public object topRightRadius;
+    public object bottomRightRadius;
+    public object bottomLeftRadius;
+    public object contentSize;
+    public object textureSize;
+    public object leftSlice;
+    public object topSlice;
+    public object rightSlice;
+    public object bottomSlice;
+    public object sliceScale;
+    public object spriteGeomRect;
+    public object rectInset;
+    public object colorPage;
+    public object meshFlags;
+
     // ── Methods ──
     public void AdjustUVsForScaleMode(){} // RVA: 0x7F604A0
     public void AdjustSpriteUVsForScaleMode(){} // RVA: 0x7F606B0
@@ -560,17 +810,6 @@ public class Rectf[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class RefCounted : Object
-{
-    // ── Methods ──
-    public void Acquire(){} // RVA: 0x4A047B0
-    public void Release(){} // RVA: 0x4A047C0
-    public void get_refCount(){} // RVA: 0xB8F8F0
-    public void Copy(){} // RVA: 0x4A04D70
-    public void .ctor(){} // RVA: 0x4A046F0
-    public void .cctor(){} // RVA: 0x4A04900
-}
-
 public class RefInstance : ValueType
 {
     // ── Methods ──
@@ -587,6 +826,30 @@ public class ReferenceEqualsEqualityComparer : Object
 
 public class References : Object
 {
+    public object root;
+    public object pelvis;
+    public object spine;
+    public object chest;
+    public object neck;
+    public object head;
+    public object leftShoulder;
+    public object leftUpperArm;
+    public object leftForearm;
+    public object leftHand;
+    public object rightShoulder;
+    public object rightUpperArm;
+    public object rightForearm;
+    public object rightHand;
+    public object leftThigh;
+    public object leftCalf;
+    public object leftFoot;
+    public object leftToes;
+    public object rightThigh;
+    public object rightCalf;
+    public object rightFoot;
+    public object rightToes;
+    public object upperChest;
+
     // ── Methods ──
     public void GetTransforms(){} // RVA: 0xC18390
     public void get_isFilled(){} // RVA: 0xC189F0
@@ -597,19 +860,11 @@ public class References : Object
 
 public class ReflectionData : Object
 {
+    public object texture;
+    public object propertyBlock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA737310
-}
-
-public class ReflectionHelper`2 : Object
-{
-    // ── Methods ──
-    public void CreateFuncIMessageInt32(){} // RVA: 0x87C540
-    public void CreateActionIMessage(){} // RVA: 0x87C540
-    public void CreateFuncIMessageObject(){} // RVA: 0x87C540
-    public void CreateActionIMessageObject(){} // RVA: 0x87C540
-    public void CreateFuncIMessageBool(){} // RVA: 0x87C540
-    public void .ctor(){} // RVA: 0x894290
 }
 
 public class RegionDelegate : MulticastDelegate
@@ -623,6 +878,22 @@ public class RegionDelegate : MulticastDelegate
 
 public class RelativeBoundingBox : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object XminFieldNumber;
+    public object XminDefaultValue;
+    public object xmin_;
+    public object YminFieldNumber;
+    public object YminDefaultValue;
+    public object ymin_;
+    public object WidthFieldNumber;
+    public object WidthDefaultValue;
+    public object width_;
+    public object HeightFieldNumber;
+    public object HeightDefaultValue;
+    public object height_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6593A90
     public void get_Descriptor(){} // RVA: 0x6593AF0
@@ -658,6 +929,22 @@ public class RelativeBoundingBox : Object
 
 public class RelativeKeypoint : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object XFieldNumber;
+    public object XDefaultValue;
+    public object x_;
+    public object YFieldNumber;
+    public object YDefaultValue;
+    public object y_;
+    public object KeypointLabelFieldNumber;
+    public object KeypointLabelDefaultValue;
+    public object keypointLabel_;
+    public object ScoreFieldNumber;
+    public object ScoreDefaultValue;
+    public object score_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6595BE0
     public void get_Descriptor(){} // RVA: 0x6595C40
@@ -711,12 +998,6 @@ public class RelativeKeypoint[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ReleaseEvent : UnityEvent`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x65CEB00
-}
-
 public class RemoveDeviceMsg : Object
 {
     // ── Methods ──
@@ -735,6 +1016,10 @@ public class RenderMirrorEventDelegate : MulticastDelegate
 
 public class RentArray`1 : ValueType
 {
+    public object Array;
+    public object Length;
+    public object pool;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x497360
     public void Dispose(){} // RVA: 0x4973B0
@@ -743,6 +1028,22 @@ public class RentArray`1 : ValueType
 
 public class RentArray`1 : ValueType
 {
+    public object Array;
+    public object Length;
+    public object pool;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x497360
+    public void Dispose(){} // RVA: 0x4973B0
+    public void DisposeManually(){} // RVA: 0x4973C0
+}
+
+public class RentArray`1 : ValueType
+{
+    public object Array;
+    public object Length;
+    public object pool;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x4973D0
     public void .ctor(){} // RVA: 0x497360
@@ -751,14 +1052,10 @@ public class RentArray`1 : ValueType
 
 public class RentArray`1 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x497360
-    public void Dispose(){} // RVA: 0x4973B0
-    public void DisposeManually(){} // RVA: 0x4973C0
-}
+    public object Array;
+    public object Length;
+    public object pool;
 
-public class RentArray`1 : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894600
     public void Dispose(){} // RVA: 0x894290
@@ -767,6 +1064,9 @@ public class RentArray`1 : ValueType
 
 public class ReplacementDefinition : Object
 {
+    public object original;
+    public object replacement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -793,12 +1093,29 @@ public class ReplacementDefinition[] : Array
 
 public class ReplacementList : Object
 {
+    public object items;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44C10
 }
 
 public class ReplayController : Object
 {
+    public object _finished;
+    public object _paused;
+    public object _position;
+    public object m_EventTrace;
+    public object m_Enumerator;
+    public object m_DeviceIDMappings;
+    public object m_CreateNewDevices;
+    public object m_CreatedDevices;
+    public object m_OnFinished;
+    public object m_OnEvent;
+    public object m_StartTimeAsPerFirstEvent;
+    public object m_StartTimeAsPerRuntime;
+    public object m_AllEventsByTimeIndex;
+    public object m_AllEventsByTime;
+
     // ── Methods ──
     public void get_trace(){} // RVA: 0xB465B0
     public void get_finished(){} // RVA: 0xC120A0
@@ -828,6 +1145,11 @@ public class ReplayController : Object
 
 public class Replica : Object
 {
+    public object _replicator;
+    public object _timeout;
+    public object _remainingConcurrency;
+    public object _pendingTask;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69BC200
     public void Start(){} // RVA: 0x69BC510
@@ -839,6 +1161,9 @@ public class Replica : Object
 
 public class Replica`1 : Replica
 {
+    public object _action;
+    public object _state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89BBE0
     public void CreateNewReplica(){} // RVA: 0x894290
@@ -847,6 +1172,9 @@ public class Replica`1 : Replica
 
 public class Replica`1 : Replica
 {
+    public object _action;
+    public object _state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4A72AC0
     public void CreateNewReplica(){} // RVA: 0x4A72B30
@@ -876,6 +1204,9 @@ public class RequestLightsDelegate : MulticastDelegate
 
 public class RequestObject : Object
 {
+    public object certId;
+    public object extensions;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void ToRequest(){} // RVA: 0xA62F060
@@ -883,6 +1214,9 @@ public class RequestObject : Object
 
 public class RequiredValue : ApiModel
 {
+    public object _value;
+    public object _error;
+
     // ── Methods ──
     public void get_value(){} // RVA: 0xBBFF90
     public void set_value(){} // RVA: 0xBBFFA0
@@ -893,6 +1227,9 @@ public class RequiredValue : ApiModel
 
 public class ReservedName : ApiModel
 {
+    public object _displayName;
+    public object _expires;
+
     // ── Methods ──
     public void get_displayName(){} // RVA: 0xBBFF90
     public void set_displayName(){} // RVA: 0xBBFFA0
@@ -923,6 +1260,17 @@ public class ResolutionStruct[] : Array
 
 public class ResourceRequestConfiguredSource : Object
 {
+    public object pool;
+    public object nextNode;
+    public object asyncOperation;
+    public object progress;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object completed;
+    public object core;
+    public object continuationAction;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x77985C0
@@ -960,26 +1308,21 @@ public class Resource[] : Array
 
 public class ResponseObject : Object
 {
+    public object certId;
+    public object certStatus;
+    public object thisUpdate;
+    public object nextUpdate;
+    public object extensions;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA62B6F0
     public void ToResponse(){} // RVA: 0xA62BD00
 }
 
-public class ResultCallback : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x65D4E20
-    public void Invoke(){} // RVA: 0x65D4EF0
-}
-
-public class Retargetable : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x17C92C0
-}
-
 public class Retransmit : Object
 {
+    public object mOuter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void ReceivedHandshakeRecord(){} // RVA: 0xA1CC770
@@ -987,6 +1330,8 @@ public class Retransmit : Object
 
 public class ReturnObservable`1 : Object
 {
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void Subscribe(){} // RVA: 0x87C540
@@ -996,6 +1341,12 @@ public class ReverseComparer : ValueType
 {
     // ── Methods ──
     public void Compare(){} // RVA: 0x4978A0
+}
+
+public class ReverseComparer : ValueType
+{
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x4977C0
 }
 
 public class ReverseComparer : ValueType
@@ -1012,6 +1363,8 @@ public class ReverseComparer : ValueType
 
 public class RevokedCertificatesEnumeration : Object
 {
+    public object en;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetEnumerator(){} // RVA: 0xA3E1910
@@ -1019,6 +1372,8 @@ public class RevokedCertificatesEnumeration : Object
 
 public class RevokedCertificatesEnumerator : Object
 {
+    public object e;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void MoveNext(){} // RVA: 0xA3E19D0
@@ -1026,29 +1381,20 @@ public class RevokedCertificatesEnumerator : Object
     public void get_Current(){} // RVA: 0xA3E1A70
 }
 
-public class RigidTransform : ValueType
-{
-    // ── Methods ──
-    public void get_identity(){} // RVA: 0x6F0CCC0
-    public void FromLocal(){} // RVA: 0x6F0CD60
-    public void .ctor(){} // RVA: 0x8FC370
-    public void ToHmdMatrix44(){} // RVA: 0x8FC6D0
-    public void ToHmdMatrix34(){} // RVA: 0x8FC990
-    public void Equals(){} // RVA: 0x8FC9D0
-    public void GetHashCode(){} // RVA: 0x8FC9E0
-    public void op_Equality(){} // RVA: 0x6B7C4D0
-    public void op_Inequality(){} // RVA: 0x6F0E0A0
-    public void op_Multiply(){} // RVA: 0x6F0EE30
-    public void Inverse(){} // RVA: 0x8FCAC0
-    public void GetInverse(){} // RVA: 0x8FCAD0
-    public void Multiply(){} // RVA: 0x8FCB30
-    public void InverseTransformPoint(){} // RVA: 0x8FCB90
-    public void TransformPoint(){} // RVA: 0x8FCBE0
-    public void Interpolate(){} // RVA: 0x8FCC30
-}
-
 public class Rigidbone : Object
 {
+    public object r;
+    public object t;
+    public object collider;
+    public object joint;
+    public object c;
+    public object updateAnchor;
+    public object deltaPosition;
+    public object deltaRotation;
+    public object deltaTime;
+    public object lastPosition;
+    public object lastRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xCB0220
     public void RecordVelocity(){} // RVA: 0xCB0700
@@ -1077,12 +1423,20 @@ public class Rigidbone[] : Array
 
 public class RoomLayoutInformation : Object
 {
+    public object Floor;
+    public object Ceiling;
+    public object Walls;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6BFFB00
 }
 
 public class RotationOffset : Offset
 {
+    public object curveIndex;
+    public object offsetLinks;
+    public object rigidbody;
+
     // ── Methods ──
     public void GetLength(){} // RVA: 0xCBD0D0
     public void CrossFadeStart(){} // RVA: 0xCBD200
@@ -1092,6 +1446,11 @@ public class RotationOffset : Offset
 
 public class RotationOffsetLink : Object
 {
+    public object rotationOffset;
+    public object weight;
+    public object lastValue;
+    public object current;
+
     // ── Methods ──
     public void Apply(){} // RVA: 0xCBD950
     public void CrossFadeStart(){} // RVA: 0xCBDAF0
@@ -1140,12 +1499,22 @@ public class Rotor[] : Array
 
 public class RoutePoint : ValueType
 {
+    public object position;
+    public object direction;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30D0
 }
 
 public class Row : Object
 {
+    public object s_Pool;
+    public object _offsetX;
+    public object _offsetY;
+    public object _width;
+    public object _height;
+    public object Cursor;
+
     // ── Methods ──
     public void get_offsetX(){} // RVA: 0xB8F8F0
     public void set_offsetX(){} // RVA: 0xB460A0
@@ -1162,6 +1531,13 @@ public class Row : Object
 
 public class Row : LinkedPoolItem`1
 {
+    public object rect;
+    public object area;
+    public object allocator;
+    public object alloc;
+    public object next;
+    public object pool;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x7F3C670
     public void Reset(){} // RVA: 0x7F3C6D0
@@ -1171,6 +1547,9 @@ public class Row : LinkedPoolItem`1
 
 public class RuntimePanelAccess : Object
 {
+    public object m_Settings;
+    public object m_RuntimePanel;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_isInitialized(){} // RVA: 0x25E9250

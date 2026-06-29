@@ -1,10 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 595
+// Methods: 616
 
 public class FILE_FULL_DIR_INFORMATION : ValueType
 {
+    public object NextEntryOffset;
+    public object FileIndex;
+    public object CreationTime;
+    public object LastAccessTime;
+    public object LastWriteTime;
+    public object ChangeTime;
+    public object EndOfFile;
+    public object AllocationSize;
+    public object FileAttributes;
+    public object FileNameLength;
+    public object EaSize;
+    public object _fileName;
+
     // ── Methods ──
     public void get_FileName(){} // RVA: 0x8AB220
     public void GetNextInfo(){} // RVA: 0x666BFB0
@@ -12,6 +25,9 @@ public class FILE_FULL_DIR_INFORMATION : ValueType
 
 public class FILE_TIME : ValueType
 {
+    public object dwLowDateTime;
+    public object dwHighDateTime;
+
     // ── Methods ──
     public void ToTicks(){} // RVA: 0x8AB1B0
     public void ToDateTimeOffset(){} // RVA: 0x8AB1C0
@@ -19,12 +35,19 @@ public class FILE_TIME : ValueType
 
 public class FaceExpressionStatusInternal : ValueType
 {
+    public object IsValid;
+    public object IsEyeFollowingBlendshapesValid;
+
     // ── Methods ──
     public void ToFaceExpressionStatus(){} // RVA: 0x8CE0D0
 }
 
 public class FaceExpressionsEnumerator : ValueType
 {
+    public object _faceExpressions;
+    public object _index;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8C9780
     public void MoveNext(){} // RVA: 0x8C9790
@@ -32,6 +55,47 @@ public class FaceExpressionsEnumerator : ValueType
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x8C97D0
     public void Reset(){} // RVA: 0x2750F0
     public void Dispose(){} // RVA: 0x3FC0
+}
+
+public class FacetsCompiler : ValueType
+{
+    public object datatype;
+    public object derivedRestriction;
+    public object baseFlags;
+    public object baseFixedFlags;
+    public object validRestrictionFlags;
+    public object nonNegativeInt;
+    public object builtInType;
+    public object builtInEnum;
+    public object firstPattern;
+    public object regStr;
+    public object pattern_facet;
+    public object c_map;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x917970
+    public void CompileLengthFacet(){} // RVA: 0x917980
+    public void CompileMinLengthFacet(){} // RVA: 0x917990
+    public void CompileMaxLengthFacet(){} // RVA: 0x9179A0
+    public void CompilePatternFacet(){} // RVA: 0x9179B0
+    public void CompileEnumerationFacet(){} // RVA: 0x9179C0
+    public void CompileWhitespaceFacet(){} // RVA: 0x9179D0
+    public void CompileMaxInclusiveFacet(){} // RVA: 0x9179E0
+    public void CompileMaxExclusiveFacet(){} // RVA: 0x9179F0
+    public void CompileMinInclusiveFacet(){} // RVA: 0x917A00
+    public void CompileMinExclusiveFacet(){} // RVA: 0x917A10
+    public void CompileTotalDigitsFacet(){} // RVA: 0x917A20
+    public void CompileFractionDigitsFacet(){} // RVA: 0x917A30
+    public void FinishFacetCompile(){} // RVA: 0x917A40
+    public void CheckValue(){} // RVA: 0x917A50
+    public void CompileFacetCombinations(){} // RVA: 0x917A60
+    public void CopyFacetsFromBaseType(){} // RVA: 0x917A70
+    public void ParseFacetValue(){} // RVA: 0x917A80
+    public void Preprocess(){} // RVA: 0x7568930
+    public void CheckProhibitedFlag(){} // RVA: 0x917A90
+    public void CheckDupFlag(){} // RVA: 0x917AA0
+    public void SetFlag(){} // RVA: 0x917B10
+    public void .cctor(){} // RVA: 0x7568E00
 }
 
 public class FailInfo : DerBitString
@@ -42,6 +106,8 @@ public class FailInfo : DerBitString
 
 public class FakeDelegate : Object
 {
+    public object _method;
+
     // ── Methods ──
     public void get_Method(){} // RVA: 0xB5DBF0
 }
@@ -64,6 +130,12 @@ public class FallbackKeyComparer`1 : Object
 
 public class FallbackMaterial : Object
 {
+    public object fallbackID;
+    public object sourceMaterial;
+    public object sourceMaterialCRC;
+    public object fallbackMaterial;
+    public object count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -90,6 +162,9 @@ public class FallbackMaterial[] : Array
 
 public class FallbackWrapper`1 : Object
 {
+    public object _sequence;
+    public object _collection;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -100,12 +175,23 @@ public class FallbackWrapper`1 : Object
 
 public class FeatureFidelityGroup : Object
 {
+    public object targetFeatureEnabled;
+    public object targetFeatureFidelity;
+    public object currentFeatureEnabled;
+    public object currentFeatureFidelity;
+    public object lastSetTargetFeatureEnabled;
+    public object lastSetTargetFeatureFidelity;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6BAF440
 }
 
 public class FeatureState : ValueType
 {
+    public object enableState;
+    public object fidelity;
+    public object Default;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
     public void .cctor(){} // RVA: 0x6BE24B0
@@ -113,6 +199,8 @@ public class FeatureState : ValueType
 
 public class FieldCollection : Object
 {
+    public object messageDescriptor;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void InDeclarationOrder(){} // RVA: 0x13F92F0
@@ -122,12 +210,26 @@ public class FieldCollection : Object
 
 public class FieldDescription : ValueType
 {
+    public object name;
+    public object ussName;
+    public object read;
+    public object write;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899870
 }
 
 public class FileDescriptor : ApiModel
 {
+    public object _status;
+    public object _url;
+    public object _md5;
+    public object _category;
+    public object _sizeInBytes;
+    public object _fileName;
+    public object _uploadId;
+    public object _cdns;
+
     // ── Methods ──
     public void get_status(){} // RVA: 0x2536460
     public void set_status(){} // RVA: 0x25406E0
@@ -151,6 +253,10 @@ public class FileDescriptor : ApiModel
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -167,6 +273,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -183,6 +293,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -199,6 +313,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -215,6 +333,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -231,6 +353,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -247,6 +373,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -263,6 +393,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -279,6 +413,30 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3DEDE60
+    public void set_Count(){} // RVA: 0x116BB10
+    public void get_Count(){} // RVA: 0x116A650
+    public void get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void CopyTo(){} // RVA: 0xB43310
+    public void Add(){} // RVA: 0xB43310
+    public void Clear(){} // RVA: 0xB43310
+    public void Contains(){} // RVA: 0xC2E4C0
+    public void GetEnumerator(){} // RVA: 0x3DEE0D0
+    public void Remove(){} // RVA: 0xC2E4C0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3DEE160
+}
+
+public class FillCollection`1 : Object
+{
+    public object <count>P;
+    public object Instance;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3DEDE60
     public void set_Count(){} // RVA: 0x116BB10
@@ -295,22 +453,10 @@ public class FillCollection`1 : Object
 
 public class FillCollection`1 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DEDE60
-    public void set_Count(){} // RVA: 0x116BB10
-    public void get_Count(){} // RVA: 0x116A650
-    public void get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void CopyTo(){} // RVA: 0xB43310
-    public void Add(){} // RVA: 0xB43310
-    public void Clear(){} // RVA: 0xB43310
-    public void Contains(){} // RVA: 0xC2E4C0
-    public void GetEnumerator(){} // RVA: 0x3DEE0D0
-    public void Remove(){} // RVA: 0xC2E4C0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3DEE160
-}
+    public object <count>P;
+    public object Instance;
+    public object _count;
 
-public class FillCollection`1 : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void get_Count(){} // RVA: 0x87C130
@@ -336,6 +482,9 @@ public class FilterBlockCallback : MulticastDelegate
 
 public class FilterCacheItem : Object
 {
+    public object _filterService;
+    public object FilteredMembers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void IsValid(){} // RVA: 0x6AAC4B0
@@ -352,6 +501,9 @@ public class FilterCallback : MulticastDelegate
 
 public class FilterReadDelegate : MonoBehaviour
 {
+    public object parent;
+    public object scratchBuffer;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x6B52B60
     public void OnAudioFilterRead(){} // RVA: 0x6B52C80
@@ -360,6 +512,9 @@ public class FilterReadDelegate : MonoBehaviour
 
 public class FinalizationHelper : Object
 {
+    public object SlotArray;
+    public object m_trackAllValues;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899250
     public void Finalize(){} // RVA: 0x894290
@@ -367,6 +522,9 @@ public class FinalizationHelper : Object
 
 public class FinalizationHelper : Object
 {
+    public object SlotArray;
+    public object m_trackAllValues;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x237A5A0
     public void Finalize(){} // RVA: 0x3DEE420
@@ -374,6 +532,9 @@ public class FinalizationHelper : Object
 
 public class FinalizationHelper : Object
 {
+    public object SlotArray;
+    public object m_trackAllValues;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x237A5A0
 }
@@ -383,13 +544,6 @@ public class FindPredicate : MulticastDelegate
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899C90
     public void Invoke(){} // RVA: 0x87D350
-}
-
-public class FindPredicate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DEEB00
-    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class FindPredicate : MulticastDelegate
@@ -413,21 +567,43 @@ public class FindTransform : MulticastDelegate
     public void Invoke(){} // RVA: 0xB9E010
 }
 
-public class FindTransform : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DEEBF0
-    public void Invoke(){} // RVA: 0xB9E010
-}
-
 public class Finger : Object
 {
+    public object metacarpal;
+    public object proximal;
+    public object middle;
+    public object distal;
+    public object aux;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC35B30
 }
 
 public class Finger : Object
 {
+    public object mass;
+    public object pos;
+    public object forwardAxis;
+    public object renderer;
+    public object squeezyAction;
+    public object inputSource;
+    public object bones;
+    public object referenceBone;
+    public object referenceAngles;
+    public object referenceAxis;
+    public object flexAngle;
+    public object rotation;
+    public object velocity;
+    public object boneTips;
+    public object oldTipPosition;
+    public object oldTipDelta;
+    public object inertiaSmoothing;
+    public object squeezySmooth;
+    public object inertiaSteps;
+    public object k;
+    public object damping;
+    public object startRot;
+
     // ── Methods ──
     public void ApplyForce(){} // RVA: 0x6FFF5E0
     public void Init(){} // RVA: 0x6FFF690
@@ -441,6 +617,18 @@ public class Finger : Object
 
 public class FingerAndTouchState : ValueType
 {
+    public object updateMask;
+    public object fingers;
+    public object activeFingers;
+    public object activeTouches;
+    public object activeFingerCount;
+    public object activeTouchCount;
+    public object totalFingerCount;
+    public object lastId;
+    public object haveBuiltActiveTouches;
+    public object haveActiveTouchesNeedingRefreshNextUpdate;
+    public object activeTouchState;
+
     // ── Methods ──
     public void AddFingers(){} // RVA: 0x939C50
     public void RemoveFingers(){} // RVA: 0x939C60
@@ -451,6 +639,12 @@ public class FingerAndTouchState : ValueType
 
 public class FingerColliders : Object
 {
+    public object thumbColliders;
+    public object indexColliders;
+    public object middleColliders;
+    public object ringColliders;
+    public object pinkyColliders;
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0x6FADDD0
     public void set_Item(){} // RVA: 0x6FADE10
@@ -519,6 +713,8 @@ public class Finger[] : Array
 
 public class FirstQueryMatcher : SingleQueryMatcher
 {
+    public object Instance;
+
     // ── Methods ──
     public void OnRuleMatchedElement(){} // RVA: 0x7F15140
     public void CreateNew(){} // RVA: 0x7F151A0
@@ -528,6 +724,13 @@ public class FirstQueryMatcher : SingleQueryMatcher
 
 public class FirstValueToUniTaskObserver`1 : Object
 {
+    public object callback;
+    public object promise;
+    public object disposable;
+    public object cancellationToken;
+    public object registration;
+    public object hasValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x895C50
     public void OnCanceled(){} // RVA: 0x894350
@@ -539,6 +742,8 @@ public class FirstValueToUniTaskObserver`1 : Object
 
 public class FixedPointCallback : Object
 {
+    public object m_p;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void Precompute(){} // RVA: 0xA112380
@@ -548,11 +753,26 @@ public class FixedPointCallback : Object
 
 public class Fixup : Object
 {
+    public object source;
+    public object ids;
+    public object callback;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75197E0
     public void get_Callback(){} // RVA: 0xB700F0
     public void get_Ids(){} // RVA: 0xB465B0
     public void get_Source(){} // RVA: 0xB5DBF0
+}
+
+public class FixupCallbackInfo : Object
+{
+    public object _sri;
+    public object _map;
+    public object _isValueList;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x67A2500
+    public void FixupMembers(){} // RVA: 0x7520250
 }
 
 public class FlexBasisProperty : InlineStyleLengthProperty
@@ -690,6 +910,8 @@ public class FloatTweenCallback : UnityEvent`1
 
 public class FocusBasedEventSequenceContext : ValueType
 {
+    public object es;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9A46D0
     public void Dispose(){} // RVA: 0x9A46E0
@@ -697,12 +919,22 @@ public class FocusBasedEventSequenceContext : ValueType
 
 public class FocusRingRecord : Object
 {
+    public object m_AutoIndex;
+    public object m_Focusable;
+    public object m_IsSlot;
+    public object m_ScopeNavigationOrder;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class FocusableHierarchyTraversal : ValueType
 {
+    public object currentFocusable;
+    public object validRect;
+    public object firstPass;
+    public object direction;
+
     // ── Methods ──
     public void ValidateHierarchyTraversal(){} // RVA: 0x9A5D20
     public void ValidateElement(){} // RVA: 0x9A5D30
@@ -714,6 +946,10 @@ public class FocusableHierarchyTraversal : ValueType
 
 public class FoldoutList : Object
 {
+    public object foldouts;
+    public object mainFoldout;
+    public object scrollPos;
+
     // ── Methods ──
     public void set_Item(){} // RVA: 0xCE49C0
     public void .ctor(){} // RVA: 0xCE4A50
@@ -733,6 +969,9 @@ public class FoldoutList : Object
 
 public class FontAssetProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -743,18 +982,33 @@ public class FontAssetProperty : Property`2
 
 public class FontAssetRef : ValueType
 {
+    public object nameHashCode;
+    public object familyNameHashCode;
+    public object styleNameHashCode;
+    public object familyNameAndStyleHashCode;
+    public object fontAsset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x944980
 }
 
 public class FontAssetRef : ValueType
 {
+    public object nameHashCode;
+    public object familyNameHashCode;
+    public object styleNameHashCode;
+    public object familyNameAndStyleHashCode;
+    public object fontAsset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x944980
 }
 
 public class FontProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -765,12 +1019,21 @@ public class FontProperty : Property`2
 
 public class FontReference : ValueType
 {
+    public object familyName;
+    public object styleName;
+    public object faceIndex;
+    public object filePath;
+    public object hashCode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9434F0
 }
 
 public class FontReferenceMap : ValueType
 {
+    public object font;
+    public object fontAsset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
 }
@@ -826,6 +1089,11 @@ public class FontTextureRebuildCallback : MulticastDelegate
 
 public class Foot : ValueType
 {
+    public object solver;
+    public object transform;
+    public object rotation;
+    public object leg;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x50C0
 }
@@ -852,6 +1120,21 @@ public class Foot[] : Array
 
 public class Footstep : Object
 {
+    public object stepSpeed;
+    public object characterSpaceOffset;
+    public object position;
+    public object rotation;
+    public object stepToRootRot;
+    public object isSupportLeg;
+    public object _stepProgress;
+    public object stepFrom;
+    public object stepTo;
+    public object stepFromRot;
+    public object stepToRot;
+    public object footRelativeToRoot;
+    public object supportLegW;
+    public object supportLegWV;
+
     // ── Methods ──
     public void get_isStepping(){} // RVA: 0xC76E00
     public void get_stepProgress(){} // RVA: 0xBAB430
@@ -886,6 +1169,10 @@ public class Footstep[] : Array
 
 public class ForDevice : Object
 {
+    public object m_Observer;
+    public object m_Device;
+    public object m_DeviceType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x78324E0
     public void OnCompleted(){} // RVA: 0xB43310
@@ -904,6 +1191,8 @@ public class ForceDropDelegate : MulticastDelegate
 
 public class ForceOverLifetimeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97C180
@@ -940,6 +1229,14 @@ public class ForceOverLifetimeModule : ValueType
 
 public class FormatLiterals : ValueType
 {
+    public object AppCompatLiteral;
+    public object dd;
+    public object hh;
+    public object mm;
+    public object ss;
+    public object ff;
+    public object _literals;
+
     // ── Methods ──
     public void get_Start(){} // RVA: 0x8B36D0
     public void get_DayHourSep(){} // RVA: 0x8B3700
@@ -953,6 +1250,11 @@ public class FormatLiterals : ValueType
 
 public class FormatOptions : ValueType
 {
+    public object Kind;
+    public object AlignAndSize;
+    public object Specifier;
+    public object Lowercase;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x923EC0
     public void get_Uppercase(){} // RVA: 0x912F40
@@ -962,6 +1264,9 @@ public class FormatOptions : ValueType
 
 public class FormatParam : ValueType
 {
+    public object _int32;
+    public object _string;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616C0
     public void op_Implicit(){} // RVA: 0x6621400
@@ -972,6 +1277,15 @@ public class FormatParam : ValueType
 
 public class FovCache : ValueType
 {
+    public object mFovSoftGuideRect;
+    public object mFovHardGuideRect;
+    public object mFovH;
+    public object mFov;
+    public object mOrthoSizeOverDistance;
+    public object mAspect;
+    public object mSoftGuideRect;
+    public object mHardGuideRect;
+
     // ── Methods ──
     public void UpdateCache(){} // RVA: 0x86EF0
     public void ScreenToFOV(){} // RVA: 0x86F70
@@ -999,6 +1313,11 @@ public class Fovf[] : Array
 
 public class Frame : Object
 {
+    public object frameNumber;
+    public object frameDelay;
+    public object Visemes;
+    public object laughterScore;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x18F6470
     public void Equals(){} // RVA: 0x18F64D0
@@ -1014,6 +1333,11 @@ public class Frame : Object
 
 public class FrameHeader : ValueType
 {
+    public object protocolIdentifier;
+    public object payloadType;
+    public object payloadLength;
+    public object StructSize;
+
     // ── Methods ──
     public void ToBytes(){} // RVA: 0x8D04F0
     public void FromBytes(){} // RVA: 0x6C24360
@@ -1055,6 +1379,10 @@ public class FreeHGlobalDelegate : MulticastDelegate
 
 public class FromAsyncTrimPromise`1 : Task`1
 {
+    public object s_completeFromAsyncResult;
+    public object m_thisRef;
+    public object m_endMethod;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void CompleteFromAsyncResult(){} // RVA: 0x894350
@@ -1064,6 +1392,8 @@ public class FromAsyncTrimPromise`1 : Task`1
 
 public class Frp256v1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA4A0B90
@@ -1079,6 +1409,10 @@ public class FullReaderStream : FilterStream
 
 public class ftLightmaps : Object
 {
+    public object lightmapRefCount;
+    public object globalMapsAdditional;
+    public object directionalMode;
+
     // ── Methods ──
     public void SetDirectionalMode(){} // RVA: 0x25706C0
     public void FindInScene(){} // RVA: 0x2570790
@@ -1092,6 +1426,33 @@ public class ftLightmaps : Object
 
 public class ftLightmapsStorage : MonoBehaviour
 {
+    public object externalStorage;
+    public object bakedRenderers;
+    public object nonBakedRenderers;
+    public object bakedLights;
+    public object bakedRenderersTerrain;
+    public object maps;
+    public object masks;
+    public object dirMaps;
+    public object rnmMaps0;
+    public object rnmMaps1;
+    public object rnmMaps2;
+    public object mapsMode;
+    public object bakedIDs;
+    public object bakedScaleOffset;
+    public object bakedVertexColorMesh;
+    public object bakedLightChannels;
+    public object bakedIDsTerrain;
+    public object bakedScaleOffsetTerrain;
+    public object assetList;
+    public object uvOverlapAssetList;
+    public object idremap;
+    public object usesRealtimeGI;
+    public object emptyDirectionTex;
+    public object anyVolumes;
+    public object compressedVolumes;
+    public object started;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x2573480
     public void OnDestroy(){} // RVA: 0x2573570

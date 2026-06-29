@@ -13,6 +13,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GoogleBillingClient : Object
     {
+        public object s_AndroidProductClassName;
+        public object s_AndroidQueryProductDetailsParamsClassName;
+        public object s_BillingFlowParamsClass;
+        public object s_ProductDetailsParamsClass;
+        public object s_SubscriptionUpdateParamsClass;
+        public object s_ConsumeParamsClass;
+        public object s_AcknowledgePurchaseParamsClass;
+        public object s_BillingClientClass;
+        public object m_BillingClient;
+        public object m_ObfuscatedAccountId;
+        public object m_ObfuscatedProfileId;
+        public object m_Util;
+        public object m_TelemetryDiagnostics;
+
         // ── Methods ──
         public void GetProductParamsClass(){} // RVA: 0x7DA3FB0
         public void GetQueryProductDetailsParamsParamsClass(){} // RVA: 0x7DA40C0
@@ -41,6 +55,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GoogleBillingResult : Object
     {
+        public object _responseCode;
+        public object _debugMessage;
+
         // ── Methods ──
         public void get_responseCode(){} // RVA: 0xB8F8F0
         public void get_debugMessage(){} // RVA: 0xB465B0
@@ -62,6 +79,17 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GooglePurchase : Object
     {
+        public object _isAcknowledged;
+        public object _purchaseState;
+        public object _skus;
+        public object _orderId;
+        public object _receipt;
+        public object _signature;
+        public object _originalJson;
+        public object _purchaseToken;
+        public object _obfuscatedAccountId;
+        public object _obfuscatedProfileId;
+
         // ── Methods ──
         public void get_isAcknowledged(){} // RVA: 0xC120A0
         public void get_purchaseState(){} // RVA: 0x116A650
@@ -79,6 +107,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class GooglePurchaseStateEnum : Object
     {
+        public object s_Purchased;
+        public object s_Pending;
+
         // ── Methods ──
         public void GetPurchaseStateJavaObject(){} // RVA: 0x7DA8720
         public void Purchased(){} // RVA: 0x7DA8790
@@ -102,6 +133,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
 
     public class ProductDescriptionQuery : Object
     {
+        public object products;
+        public object onProductsReceived;
+        public object onRetrieveProductsFailed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC27FD0
     }

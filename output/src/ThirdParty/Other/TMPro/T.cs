@@ -7,6 +7,14 @@ namespace ThirdParty.Other.TMPro
 {
     public class TMP_Asset : ScriptableObject
     {
+        public object m_Version;
+        public object m_InstanceID;
+        public object m_HashCode;
+        public object m_FaceInfo;
+        public object m_Material;
+        public object material;
+        public object m_MaterialHashCode;
+
         // ── Methods ──
         public void get_version(){} // RVA: 0xB465B0
         public void set_version(){} // RVA: 0xBA9BA0
@@ -90,6 +98,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ColorGradient : ScriptableObject
     {
+        public object colorMode;
+        public object topLeft;
+        public object topRight;
+        public object bottomLeft;
+        public object bottomRight;
+        public object k_DefaultColorMode;
+        public object k_DefaultColor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x79EE490
         public void .cctor(){} // RVA: 0x79EE500
@@ -123,6 +139,15 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_DefaultControls : Object
     {
+        public object kWidth;
+        public object kThickHeight;
+        public object kThinHeight;
+        public object s_TextElementSize;
+        public object s_ThickElementSize;
+        public object s_ThinElementSize;
+        public object s_DefaultSelectableColor;
+        public object s_TextColor;
+
         // ── Methods ──
         public void CreateUIElementRoot(){} // RVA: 0x79EEB80
         public void CreateUIObject(){} // RVA: 0x79EEC60
@@ -141,6 +166,28 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Dropdown : Selectable
     {
+        public object k_NothingOption;
+        public object k_EverythingOption;
+        public object k_MixedOption;
+        public object m_Template;
+        public object m_CaptionText;
+        public object m_CaptionImage;
+        public object m_Placeholder;
+        public object m_ItemText;
+        public object m_ItemImage;
+        public object m_Value;
+        public object m_MultiSelect;
+        public object m_Options;
+        public object m_OnValueChanged;
+        public object m_AlphaFadeSpeed;
+        public object m_Dropdown;
+        public object m_Blocker;
+        public object m_Items;
+        public object m_AlphaTweenRunner;
+        public object validTemplate;
+        public object m_Coroutine;
+        public object s_NoOptionData;
+
         // ── Methods ──
         public void get_template(){} // RVA: 0x10B4170
         public void set_template(){} // RVA: 0x79F2120
@@ -221,6 +268,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_DynamicFontAssetUtilities : Object
     {
+        public object s_Instance;
+        public object s_SystemFontLookup;
+        public object s_SystemFontPaths;
+        public object s_RegularStyleNameHashCode;
+
         // ── Methods ──
         public void InitializeSystemFontReferenceCache(){} // RVA: 0x79F9410
         public void TryGetSystemFontReference(){} // RVA: 0x79F9C90
@@ -231,6 +283,76 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontAsset : TMP_Asset
     {
+        public object m_SourceFontFileGUID;
+        public object m_CreationSettings;
+        public object m_SourceFontFile;
+        public object m_SourceFontFilePath;
+        public object m_AtlasPopulationMode;
+        public object InternalDynamicOS;
+        public object m_FamilyNameHashCode;
+        public object m_StyleNameHashCode;
+        public object m_GlyphTable;
+        public object m_GlyphLookupDictionary;
+        public object m_CharacterTable;
+        public object m_CharacterLookupDictionary;
+        public object m_AtlasTexture;
+        public object m_AtlasTextures;
+        public object m_AtlasTextureIndex;
+        public object m_IsMultiAtlasTexturesEnabled;
+        public object m_GetFontFeatures;
+        public object m_ClearDynamicDataOnBuild;
+        public object m_AtlasWidth;
+        public object m_AtlasHeight;
+        public object m_AtlasPadding;
+        public object m_AtlasRenderMode;
+        public object m_UsedGlyphRects;
+        public object m_FreeGlyphRects;
+        public object m_FontFeatureTable;
+        public object m_ShouldReimportFontFeatures;
+        public object m_FallbackFontAssetTable;
+        public object m_FontWeightTable;
+        public object fontWeights;
+        public object normalStyle;
+        public object normalSpacingOffset;
+        public object boldStyle;
+        public object boldSpacing;
+        public object italicStyle;
+        public object tabSize;
+        public object IsFontAssetLookupTablesDirty;
+        public object m_fontInfo;
+        public object m_glyphInfoList;
+        public object m_KerningTable;
+        public object fallbackFontAssets;
+        public object atlas;
+        public object s_CallbackInstances;
+        public object k_ReadFontAssetDefinitionMarker;
+        public object k_AddSynthesizedCharactersMarker;
+        public object k_TryAddGlyphMarker;
+        public object k_TryAddCharacterMarker;
+        public object k_TryAddCharactersMarker;
+        public object k_UpdateLigatureSubstitutionRecordsMarker;
+        public object k_UpdateGlyphAdjustmentRecordsMarker;
+        public object k_UpdateDiacriticalMarkAdjustmentRecordsMarker;
+        public object k_ClearFontAssetDataMarker;
+        public object k_UpdateFontAssetDataMarker;
+        public object s_DefaultMaterialSuffix;
+        public object k_SearchedFontAssetLookup;
+        public object k_FontAssets_FontFeaturesUpdateQueue;
+        public object k_FontAssets_FontFeaturesUpdateQueueLookup;
+        public object k_FontAssets_AtlasTexturesUpdateQueue;
+        public object k_FontAssets_AtlasTexturesUpdateQueueLookup;
+        public object m_GlyphsToRender;
+        public object m_GlyphsRendered;
+        public object m_GlyphIndexList;
+        public object m_GlyphIndexListNewlyAdded;
+        public object m_GlyphsToAdd;
+        public object m_GlyphsToAddLookup;
+        public object m_CharactersToAdd;
+        public object m_CharactersToAddLookup;
+        public object s_MissingCharacterList;
+        public object m_MissingUnicodesFromFontFile;
+        public object k_GlyphIndexArray;
+
         // ── Methods ──
         public void get_creationSettings(){} // RVA: 0x79FA6A0
         public void set_creationSettings(){} // RVA: 0x79FA6F0
@@ -346,6 +468,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontAssetUtilities : Object
     {
+        public object s_Instance;
+        public object k_SearchedAssets;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7A0A8E0
         public void get_instance(){} // RVA: 0x7A0A980
@@ -381,6 +506,16 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontFeatureTable : Object
     {
+        public object m_MultipleSubstitutionRecords;
+        public object m_LigatureSubstitutionRecords;
+        public object m_GlyphPairAdjustmentRecords;
+        public object m_MarkToBaseAdjustmentRecords;
+        public object m_MarkToMarkAdjustmentRecords;
+        public object m_LigatureSubstitutionRecordLookup;
+        public object m_GlyphPairAdjustmentRecordLookup;
+        public object m_MarkToBaseAdjustmentRecordLookup;
+        public object m_MarkToMarkAdjustmentRecordLookup;
+
         // ── Methods ──
         public void get_multipleSubstitutionRecords(){} // RVA: 0xB5DBF0
         public void set_multipleSubstitutionRecords(){} // RVA: 0xB44D60
@@ -400,6 +535,17 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontStyleStack : ValueType
     {
+        public object bold;
+        public object italic;
+        public object underline;
+        public object strikethrough;
+        public object highlight;
+        public object superscript;
+        public object subscript;
+        public object uppercase;
+        public object lowercase;
+        public object smallcaps;
+
         // ── Methods ──
         public void Clear(){} // RVA: 0x9455F0
         public void Add(){} // RVA: 0x945600
@@ -408,6 +554,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_FontUtilities : Object
     {
+        public object k_searchedFontAssets;
+
         // ── Methods ──
         public void SearchForCharacter(){} // RVA: 0x7A0A200
         public void SearchForCharacterInternal(){} // RVA: 0x7A0A710
@@ -442,6 +590,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_GlyphAdjustmentRecord : ValueType
     {
+        public object m_GlyphIndex;
+        public object m_GlyphValueRecord;
+
         // ── Methods ──
         public void get_glyphIndex(){} // RVA: 0x77E60
         public void set_glyphIndex(){} // RVA: 0x29580
@@ -452,6 +603,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_GlyphPairAdjustmentRecord : Object
     {
+        public object m_FirstAdjustmentRecord;
+        public object m_SecondAdjustmentRecord;
+        public object m_FeatureLookupFlags;
+
         // ── Methods ──
         public void get_firstAdjustmentRecord(){} // RVA: 0x391D0B0
         public void set_firstAdjustmentRecord(){} // RVA: 0x4B6F230
@@ -464,6 +619,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_GlyphValueRecord : ValueType
     {
+        public object m_XPlacement;
+        public object m_YPlacement;
+        public object m_XAdvance;
+        public object m_YAdvance;
+
         // ── Methods ──
         public void get_xPlacement(){} // RVA: 0x88D10
         public void set_xPlacement(){} // RVA: 0xD1B20
@@ -499,6 +659,109 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_InputField : Selectable
     {
+        public object m_SoftKeyboard;
+        public object kSeparators;
+        public object s_IsQuestDevice;
+        public object m_RectTransform;
+        public object m_TextViewport;
+        public object m_TextComponentRectMask;
+        public object m_TextViewportRectMask;
+        public object m_TextComponent;
+        public object m_TextComponentRectTransform;
+        public object m_Placeholder;
+        public object m_VerticalScrollbar;
+        public object m_VerticalScrollbarEventHandler;
+        public object m_IsDrivenByLayoutComponents;
+        public object m_LayoutGroup;
+        public object m_IScrollHandlerParent;
+        public object m_ScrollPosition;
+        public object m_ScrollSensitivity;
+        public object m_ContentType;
+        public object m_InputType;
+        public object m_AsteriskChar;
+        public object m_KeyboardType;
+        public object m_LineType;
+        public object m_HideMobileInput;
+        public object m_HideSoftKeyboard;
+        public object m_CharacterValidation;
+        public object m_RegexValue;
+        public object m_GlobalPointSize;
+        public object m_CharacterLimit;
+        public object m_OnEndEdit;
+        public object m_OnSubmit;
+        public object m_OnSelect;
+        public object m_OnDeselect;
+        public object m_OnTextSelection;
+        public object m_OnEndTextSelection;
+        public object m_OnValueChanged;
+        public object m_OnTouchScreenKeyboardStatusChanged;
+        public object m_OnValidateInput;
+        public object m_CaretColor;
+        public object m_CustomCaretColor;
+        public object m_SelectionColor;
+        public object m_Text;
+        public object m_CaretBlinkRate;
+        public object m_CaretWidth;
+        public object m_ReadOnly;
+        public object m_RichText;
+        public object m_StringPosition;
+        public object m_StringSelectPosition;
+        public object m_CaretPosition;
+        public object m_CaretSelectPosition;
+        public object caretRectTrans;
+        public object m_CursorVerts;
+        public object m_CachedInputRenderer;
+        public object m_LastPosition;
+        public object m_Mesh;
+        public object m_AllowInput;
+        public object m_ShouldActivateNextUpdate;
+        public object m_UpdateDrag;
+        public object m_DragPositionOutOfBounds;
+        public object kHScrollSpeed;
+        public object kVScrollSpeed;
+        public object m_CaretVisible;
+        public object m_BlinkCoroutine;
+        public object m_BlinkStartTime;
+        public object m_DragCoroutine;
+        public object m_OriginalText;
+        public object m_WasCanceled;
+        public object m_HasDoneFocusTransition;
+        public object m_WaitForSecondsRealtime;
+        public object m_PreventCallback;
+        public object m_TouchKeyboardAllowsInPlaceEditing;
+        public object m_IsTextComponentUpdateRequired;
+        public object m_HasTextBeenRemoved;
+        public object m_PointerDownClickStartTime;
+        public object m_KeyDownStartTime;
+        public object m_DoubleClickDelay;
+        public object m_IsApplePlatform;
+        public object kEmailSpecialCharacters;
+        public object kOculusQuestDeviceModel;
+        public object m_IsCompositionActive;
+        public object m_ShouldUpdateIMEWindowPosition;
+        public object m_PreviousIMEInsertionLine;
+        public object m_GlobalFontAsset;
+        public object m_OnFocusSelectAll;
+        public object m_isSelectAll;
+        public object m_ResetOnDeActivation;
+        public object m_SelectionStillActive;
+        public object m_ReleaseSelection;
+        public object m_LastKeyCode;
+        public object m_PreviouslySelectedObject;
+        public object m_KeepTextSelectionVisible;
+        public object m_RestoreOriginalTextOnEscape;
+        public object m_isRichTextEditingAllowed;
+        public object m_LineLimit;
+        public object isAlert;
+        public object m_InputValidator;
+        public object m_ShouldActivateOnSelect;
+        public object m_isSelected;
+        public object m_IsStringPositionDirty;
+        public object m_IsCaretPositionDirty;
+        public object m_forceRectTransformAdjustment;
+        public object m_IsKeyboardBeingClosedInHoloLens;
+        public object m_ProcessingEvent;
+
         // ── Methods ──
         public void get_inputSystem(){} // RVA: 0x7A0D9D0
         public void get_compositionString(){} // RVA: 0x7A0DBC0
@@ -785,6 +1048,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_LinkInfo : ValueType
     {
+        public object textComponent;
+        public object hashCode;
+        public object linkIdFirstCharacterIndex;
+        public object linkIdLength;
+        public object linkTextfirstCharacterIndex;
+        public object linkTextLength;
+        public object linkID;
+
         // ── Methods ──
         public void SetLinkID(){} // RVA: 0x942300
         public void GetLinkText(){} // RVA: 0x942310
@@ -814,6 +1085,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ListPool`1 : Object
     {
+        public object s_ListPool;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x87C0D0
         public void Release(){} // RVA: 0x894350
@@ -822,6 +1095,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ListPool`1 : Object
     {
+        public object s_ListPool;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4BA7810
         public void Release(){} // RVA: 0x4BA7940
@@ -830,6 +1105,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ListPool`1 : Object
     {
+        public object s_ListPool;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4BA7810
         public void Release(){} // RVA: 0x4BA7940
@@ -838,6 +1115,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MaterialManager : Object
     {
+        public object m_materialList;
+        public object m_fallbackMaterials;
+        public object m_fallbackMaterialLookup;
+        public object m_fallbackCleanupList;
+        public object isFallbackListDirty;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7A55740
         public void OnPreRender(){} // RVA: 0x7A55A80
@@ -862,6 +1145,15 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Math : Object
     {
+        public object FLOAT_MAX;
+        public object FLOAT_MIN;
+        public object INT_MAX;
+        public object INT_MIN;
+        public object FLOAT_UNSET;
+        public object INT_UNSET;
+        public object MAX_16BIT;
+        public object MIN_16BIT;
+
         // ── Methods ──
         public void Approximately(){} // RVA: 0x79EC9C0
         public void Mod(){} // RVA: 0x79EC9F0
@@ -870,6 +1162,22 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_MeshInfo : ValueType
     {
+        public object s_DefaultColor;
+        public object s_DefaultNormal;
+        public object s_DefaultTangent;
+        public object s_DefaultBounds;
+        public object mesh;
+        public object vertexCount;
+        public object hasUpdatedUVs;
+        public object vertices;
+        public object normals;
+        public object tangents;
+        public object uvs0;
+        public object uvs2;
+        public object colors32;
+        public object triangles;
+        public object material;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9447B0
         public void ResizeMeshInfo(){} // RVA: 0x9447D0
@@ -902,6 +1210,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_ActionOnGet;
+        public object m_ActionOnRelease;
+        public object _countAll;
+
         // ── Methods ──
         public void get_countAll(){} // RVA: 0x87C130
         public void set_countAll(){} // RVA: 0x8944F0
@@ -914,6 +1227,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_ActionOnGet;
+        public object m_ActionOnRelease;
+        public object _countAll;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4BA83E0
         public void Release(){} // RVA: 0x4BA8460
@@ -926,6 +1244,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ObjectPool`1 : Object
     {
+        public object m_Stack;
+        public object m_ActionOnGet;
+        public object m_ActionOnRelease;
+        public object _countAll;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4BA83E0
         public void Release(){} // RVA: 0x4BA8460
@@ -938,6 +1261,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Offset : ValueType
     {
+        public object m_Left;
+        public object m_Right;
+        public object m_Top;
+        public object m_Bottom;
+        public object k_ZeroOffset;
+
         // ── Methods ──
         public void get_left(){} // RVA: 0x88D10
         public void set_left(){} // RVA: 0xD1B20
@@ -983,6 +1312,13 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ResourceManager : Object
     {
+        public object s_TextSettings;
+        public object s_FontAssetReferences;
+        public object s_FontAssetNameReferenceLookup;
+        public object s_FontAssetFamilyNameAndStyleReferenceLookup;
+        public object s_FontAssetRemovalList;
+        public object k_RegularStyleHashCode;
+
         // ── Methods ──
         public void GetTextSettings(){} // RVA: 0x7A5D9F0
         public void AddFontAsset(){} // RVA: 0x7A5DBC0
@@ -997,6 +1333,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_ScrollbarEventHandler : MonoBehaviour
     {
+        public object isSelected;
+
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0x7A5F340
         public void OnSelect(){} // RVA: 0x7A5F3A0
@@ -1014,6 +1352,46 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Settings : ScriptableObject
     {
+        public object s_Instance;
+        public object assetVersion;
+        public object s_CurrentAssetVersion;
+        public object m_enableWordWrapping;
+        public object m_TextWrappingMode;
+        public object m_enableKerning;
+        public object m_ActiveFontFeatures;
+        public object m_enableExtraPadding;
+        public object m_enableTintAllSprites;
+        public object m_enableParseEscapeCharacters;
+        public object m_EnableRaycastTarget;
+        public object m_GetFontFeaturesAtRuntime;
+        public object m_missingGlyphCharacter;
+        public object m_ClearDynamicDataOnBuild;
+        public object m_warningsDisabled;
+        public object m_defaultFontAsset;
+        public object m_defaultFontAssetPath;
+        public object m_defaultFontSize;
+        public object m_defaultAutoSizeMinRatio;
+        public object m_defaultAutoSizeMaxRatio;
+        public object m_defaultTextMeshProTextContainerSize;
+        public object m_defaultTextMeshProUITextContainerSize;
+        public object m_autoSizeTextContainer;
+        public object m_IsTextObjectScaleStatic;
+        public object m_fallbackFontAssets;
+        public object m_matchMaterialPreset;
+        public object m_HideSubTextObjects;
+        public object m_defaultSpriteAsset;
+        public object m_defaultSpriteAssetPath;
+        public object m_enableEmojiSupport;
+        public object m_MissingCharacterSpriteUnicode;
+        public object m_EmojiFallbackTextAssets;
+        public object m_defaultColorGradientPresetsPath;
+        public object m_defaultStyleSheet;
+        public object m_StyleSheetsResourcePath;
+        public object m_leadingCharacters;
+        public object m_followingCharacters;
+        public object m_linebreakingRules;
+        public object m_UseModernHangulLineBreakingRules;
+
         // ── Methods ──
         public void get_version(){} // RVA: 0x7A5F520
         public void SetAssetVersion(){} // RVA: 0x7A5F560
@@ -1077,12 +1455,21 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Sprite : TMP_TextElement_Legacy
     {
+        public object name;
+        public object hashCode;
+        public object unicode;
+        public object pivot;
+        public object sprite;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TMP_SpriteAnimator : MonoBehaviour
     {
+        public object m_animations;
+        public object m_TextComponent;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x7A65750
         public void OnEnable(){} // RVA: 0xB43310
@@ -1095,6 +1482,19 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteAsset : TMP_Asset
     {
+        public object m_NameLookup;
+        public object m_GlyphIndexLookup;
+        public object spriteSheet;
+        public object m_SpriteCharacterTable;
+        public object m_SpriteCharacterLookup;
+        public object m_GlyphTable;
+        public object m_SpriteGlyphTable;
+        public object m_SpriteGlyphLookup;
+        public object spriteInfoList;
+        public object fallbackSpriteAssets;
+        public object m_IsSpriteAssetLookupTablesDirty;
+        public object k_searchedSpriteAssets;
+
         // ── Methods ──
         public void get_spriteCharacterTable(){} // RVA: 0x7A669F0
         public void set_spriteCharacterTable(){} // RVA: 0xBAE3C0
@@ -1141,6 +1541,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteCharacter : TMP_TextElement
     {
+        public object m_Name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xD33E60
         public void set_name(){} // RVA: 0xB708C0
@@ -1169,6 +1571,8 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SpriteGlyph : Glyph
     {
+        public object sprite;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7A69950
     }
@@ -1215,6 +1619,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Style : Object
     {
+        public object k_NormalStyle;
+        public object m_Name;
+        public object m_HashCode;
+        public object m_OpeningDefinition;
+        public object m_ClosingDefinition;
+        public object m_OpeningTagArray;
+        public object m_ClosingTagArray;
+
         // ── Methods ──
         public void get_NormalStyle(){} // RVA: 0x7A699D0
         public void get_name(){} // RVA: 0xB5DBF0
@@ -1231,6 +1643,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_StyleSheet : ScriptableObject
     {
+        public object m_StyleList;
+        public object m_StyleLookupDictionary;
+
         // ── Methods ──
         public void get_styles(){} // RVA: 0xB465B0
         public void Reset(){} // RVA: 0x7A69F60
@@ -1262,6 +1677,20 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMesh : MonoBehaviour
     {
+        public object m_fontAsset;
+        public object m_spriteAsset;
+        public object m_material;
+        public object m_sharedMaterial;
+        public object m_fallbackMaterial;
+        public object m_fallbackSourceMaterial;
+        public object m_isDefaultMaterial;
+        public object m_padding;
+        public object m_renderer;
+        public object m_meshFilter;
+        public object m_mesh;
+        public object m_TextComponent;
+        public object m_isRegisteredForEvents;
+
         // ── Methods ──
         public void get_fontAsset(){} // RVA: 0xB700F0
         public void set_fontAsset(){} // RVA: 0xB70100
@@ -1303,6 +1732,21 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_SubMeshUI : MaskableGraphic
     {
+        public object m_fontAsset;
+        public object m_spriteAsset;
+        public object m_material;
+        public object m_sharedMaterial;
+        public object m_fallbackMaterial;
+        public object m_fallbackSourceMaterial;
+        public object m_isDefaultMaterial;
+        public object m_padding;
+        public object m_mesh;
+        public object m_TextComponent;
+        public object m_isRegisteredForEvents;
+        public object m_materialDirty;
+        public object m_materialReferenceIndex;
+        public object m_RootCanvasTransform;
+
         // ── Methods ──
         public void get_fontAsset(){} // RVA: 0xBC5B30
         public void set_fontAsset(){} // RVA: 0xBC5B40
@@ -1394,6 +1838,247 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Text : MaskableGraphic
     {
+        public object m_text;
+        public object m_IsTextBackingStringDirty;
+        public object m_TextPreprocessor;
+        public object m_isRightToLeft;
+        public object m_fontAsset;
+        public object m_currentFontAsset;
+        public object m_isSDFShader;
+        public object m_sharedMaterial;
+        public object m_currentMaterial;
+        public object m_materialReferences;
+        public object m_materialReferenceIndexLookup;
+        public object m_materialReferenceStack;
+        public object m_currentMaterialIndex;
+        public object m_fontSharedMaterials;
+        public object m_fontMaterial;
+        public object m_useLegacyUVs;
+        public object m_fontMaterials;
+        public object m_isMaterialDirty;
+        public object m_fontColor32;
+        public object m_fontColor;
+        public object s_colorWhite;
+        public object m_underlineColor;
+        public object m_strikethroughColor;
+        public object m_HighlightState;
+        public object m_ConvertToLinearSpace;
+        public object m_enableVertexGradient;
+        public object m_colorMode;
+        public object m_fontColorGradient;
+        public object m_fontColorGradientPreset;
+        public object m_spriteAsset;
+        public object m_tintAllSprites;
+        public object m_tintSprite;
+        public object m_spriteColor;
+        public object m_StyleSheet;
+        public object m_TextStyle;
+        public object m_TextStyleHashCode;
+        public object m_overrideHtmlColors;
+        public object m_faceColor;
+        public object m_outlineColor;
+        public object m_outlineWidth;
+        public object m_currentEnvMapRotation;
+        public object m_hasEnvMapProperty;
+        public object m_fontSize;
+        public object m_currentFontSize;
+        public object m_fontSizeBase;
+        public object m_sizeStack;
+        public object m_fontWeight;
+        public object m_FontWeightInternal;
+        public object m_FontWeightStack;
+        public object m_enableAutoSizing;
+        public object m_maxFontSize;
+        public object m_minFontSize;
+        public object m_AutoSizeIterationCount;
+        public object m_AutoSizeMaxIterationCount;
+        public object m_IsAutoSizePointSizeSet;
+        public object m_fontSizeMin;
+        public object m_fontSizeMax;
+        public object m_fontStyle;
+        public object m_FontStyleInternal;
+        public object m_fontStyleStack;
+        public object m_isUsingBold;
+        public object m_HorizontalAlignment;
+        public object m_VerticalAlignment;
+        public object m_textAlignment;
+        public object m_lineJustification;
+        public object m_lineJustificationStack;
+        public object m_textContainerLocalCorners;
+        public object m_characterSpacing;
+        public object m_cSpacing;
+        public object m_monoSpacing;
+        public object m_duoSpace;
+        public object m_wordSpacing;
+        public object m_lineSpacing;
+        public object m_lineSpacingDelta;
+        public object m_lineHeight;
+        public object m_IsDrivenLineSpacing;
+        public object m_lineSpacingMax;
+        public object m_paragraphSpacing;
+        public object m_charWidthMaxAdj;
+        public object m_charWidthAdjDelta;
+        public object m_enableWordWrapping;
+        public object m_TextWrappingMode;
+        public object m_isCharacterWrappingEnabled;
+        public object m_isNonBreakingSpace;
+        public object m_isIgnoringAlignment;
+        public object m_wordWrappingRatios;
+        public object m_overflowMode;
+        public object m_firstOverflowCharacterIndex;
+        public object m_linkedTextComponent;
+        public object parentLinkedComponent;
+        public object m_isTextTruncated;
+        public object m_enableKerning;
+        public object m_LastBaseGlyphIndex;
+        public object m_ActiveFontFeatures;
+        public object m_enableExtraPadding;
+        public object checkPaddingRequired;
+        public object m_isRichText;
+        public object m_EmojiFallbackSupport;
+        public object m_parseCtrlCharacters;
+        public object m_isOverlay;
+        public object m_isOrthographic;
+        public object m_isCullingEnabled;
+        public object m_isMaskingEnabled;
+        public object isMaskUpdateRequired;
+        public object m_ignoreCulling;
+        public object m_horizontalMapping;
+        public object m_verticalMapping;
+        public object m_uvLineOffset;
+        public object m_renderMode;
+        public object m_geometrySortingOrder;
+        public object m_IsTextObjectScaleStatic;
+        public object m_VertexBufferAutoSizeReduction;
+        public object m_firstVisibleCharacter;
+        public object m_maxVisibleCharacters;
+        public object m_maxVisibleWords;
+        public object m_maxVisibleLines;
+        public object m_useMaxVisibleDescender;
+        public object m_pageToDisplay;
+        public object m_isNewPage;
+        public object m_margin;
+        public object m_marginLeft;
+        public object m_marginRight;
+        public object m_marginWidth;
+        public object m_marginHeight;
+        public object m_width;
+        public object m_textInfo;
+        public object m_havePropertiesChanged;
+        public object m_isUsingLegacyAnimationComponent;
+        public object m_transform;
+        public object m_rectTransform;
+        public object m_PreviousRectTransformSize;
+        public object m_PreviousPivotPosition;
+        public object _autoSizeTextContainer;
+        public object m_autoSizeTextContainer;
+        public object m_mesh;
+        public object m_isVolumetricText;
+        public object OnFontAssetRequest;
+        public object OnSpriteAssetRequest;
+        public object OnMissingCharacter;
+        public object OnPreRenderText;
+        public object m_spriteAnimator;
+        public object m_flexibleHeight;
+        public object m_flexibleWidth;
+        public object m_minWidth;
+        public object m_minHeight;
+        public object m_maxWidth;
+        public object m_maxHeight;
+        public object m_LayoutElement;
+        public object m_preferredWidth;
+        public object m_RenderedWidth;
+        public object m_isPreferredWidthDirty;
+        public object m_preferredHeight;
+        public object m_RenderedHeight;
+        public object m_isPreferredHeightDirty;
+        public object m_isCalculatingPreferredValues;
+        public object m_layoutPriority;
+        public object m_isLayoutDirty;
+        public object m_isAwake;
+        public object m_isWaitingOnResourceLoad;
+        public object m_inputSource;
+        public object m_fontScaleMultiplier;
+        public object m_htmlTag;
+        public object m_xmlAttribute;
+        public object m_attributeParameterValues;
+        public object tag_LineIndent;
+        public object tag_Indent;
+        public object m_indentStack;
+        public object tag_NoParsing;
+        public object m_isTextLayoutPhase;
+        public object m_FXRotation;
+        public object m_FXScale;
+        public object m_TextProcessingArray;
+        public object m_InternalTextProcessingArraySize;
+        public object m_internalCharacterInfo;
+        public object m_totalCharacterCount;
+        public object m_SavedWordWrapState;
+        public object m_SavedLineState;
+        public object m_SavedEllipsisState;
+        public object m_SavedLastValidState;
+        public object m_SavedSoftLineBreakState;
+        public object m_EllipsisInsertionCandidateStack;
+        public object m_characterCount;
+        public object m_firstCharacterOfLine;
+        public object m_firstVisibleCharacterOfLine;
+        public object m_lastCharacterOfLine;
+        public object m_lastVisibleCharacterOfLine;
+        public object m_lineNumber;
+        public object m_lineVisibleCharacterCount;
+        public object m_lineVisibleSpaceCount;
+        public object m_pageNumber;
+        public object m_PageAscender;
+        public object m_maxTextAscender;
+        public object m_maxCapHeight;
+        public object m_ElementAscender;
+        public object m_ElementDescender;
+        public object m_maxLineAscender;
+        public object m_maxLineDescender;
+        public object m_startOfLineAscender;
+        public object m_startOfLineDescender;
+        public object m_lineOffset;
+        public object m_meshExtents;
+        public object m_htmlColor;
+        public object m_colorStack;
+        public object m_underlineColorStack;
+        public object m_strikethroughColorStack;
+        public object m_HighlightStateStack;
+        public object m_colorGradientPreset;
+        public object m_colorGradientStack;
+        public object m_colorGradientPresetIsTinted;
+        public object m_tabSpacing;
+        public object m_spacing;
+        public object m_TextStyleStacks;
+        public object m_TextStyleStackDepth;
+        public object m_ItalicAngleStack;
+        public object m_ItalicAngle;
+        public object m_actionStack;
+        public object m_padding;
+        public object m_baselineOffset;
+        public object m_baselineOffsetStack;
+        public object m_xAdvance;
+        public object m_textElementType;
+        public object m_cached_TextElement;
+        public object m_Ellipsis;
+        public object m_Underline;
+        public object m_defaultSpriteAsset;
+        public object m_currentSpriteAsset;
+        public object m_spriteCount;
+        public object m_spriteIndex;
+        public object m_spriteAnimationID;
+        public object k_ParseTextMarker;
+        public object k_InsertNewLineMarker;
+        public object m_ignoreActiveState;
+        public object m_TextBackingArray;
+        public object k_Power;
+        public object k_LargePositiveVector2;
+        public object k_LargeNegativeVector2;
+        public object k_LargePositiveFloat;
+        public object k_LargeNegativeFloat;
+        public object k_LargePositiveInt;
+        public object k_LargeNegativeInt;
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x7A21FE0
         public void set_text(){} // RVA: 0x7A220C0
@@ -1673,6 +2358,13 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextElement : Object
     {
+        public object m_ElementType;
+        public object m_Unicode;
+        public object m_TextAsset;
+        public object m_Glyph;
+        public object m_GlyphIndex;
+        public object m_Scale;
+
         // ── Methods ──
         public void get_elementType(){} // RVA: 0xC120A0
         public void get_unicode(){} // RVA: 0x116A650
@@ -1690,14 +2382,42 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextElement_Legacy : Object
     {
+        public object id;
+        public object x;
+        public object y;
+        public object width;
+        public object height;
+        public object xOffset;
+        public object yOffset;
+        public object xAdvance;
+        public object scale;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TMP_TextInfo : Object
     {
+        public object k_InfinityVectorPositive;
+        public object k_InfinityVectorNegative;
+        public object textComponent;
+        public object characterCount;
+        public object spriteCount;
+        public object spaceCount;
+        public object wordCount;
+        public object linkCount;
+        public object lineCount;
+        public object pageCount;
+        public object materialCount;
+        public object characterInfo;
+        public object wordInfo;
+        public object linkInfo;
+        public object lineInfo;
+        public object pageInfo;
+        public object meshInfo;
+        public object m_CachedMeshInfo;
+
         // ── Methods ──
-        public void Resize(){} // RVA: 0x29DD5E0
         public void .ctor(){} // RVA: 0x7A6FA90
         public void Clear(){} // RVA: 0x7A6FED0
         public void ClearAllData(){} // RVA: 0x7A6FF40
@@ -1708,11 +2428,18 @@ namespace ThirdParty.Other.TMPro
         public void ClearLineInfo(){} // RVA: 0x7A70540
         public void ClearPageInfo(){} // RVA: 0x7A70870
         public void CopyMeshInfoVertexData(){} // RVA: 0x7A709B0
+        public void Resize(){} // RVA: 0x29DD5E0
         public void .cctor(){} // RVA: 0x7A71040
     }
 
     public class TMP_TextParsingUtilities : Object
     {
+        public object s_Instance;
+        public object k_LookupStringL;
+        public object k_LookupStringU;
+        public object k_EmojiLookup;
+        public object k_EmojiPresentationFormLookup;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7A42B30
         public void get_instance(){} // RVA: 0x7A710B0
@@ -1734,6 +2461,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8965E0
         public void get_Count(){} // RVA: 0x87C130
@@ -1753,6 +2488,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x8E1F0
@@ -1772,6 +2515,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x8E1F0
@@ -1791,6 +2542,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x8E1F0
@@ -1810,6 +2569,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x8E1F0
@@ -1829,6 +2596,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9AE0
         public void get_Count(){} // RVA: 0x77D20
@@ -1848,6 +2623,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AA9D0
         public void get_Count(){} // RVA: 0x93180
@@ -1867,6 +2650,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x8E1F0
@@ -1886,6 +2677,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AA260
         public void get_Count(){} // RVA: 0x4AA340
@@ -1905,6 +2704,14 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AAF80
         public void get_Count(){} // RVA: 0x4AB060
@@ -1944,6 +2751,10 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_TextUtilities : Object
     {
+        public object m_rectWorldCorners;
+        public object k_lookupStringL;
+        public object k_lookupStringU;
+
         // ── Methods ──
         public void GetCursorIndexFromPosition(){} // RVA: 0x7A72420
         public void FindNearestLine(){} // RVA: 0x7A727C0
@@ -1994,6 +2805,21 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateManager : Object
     {
+        public object s_Instance;
+        public object m_LayoutQueueLookup;
+        public object m_LayoutRebuildQueue;
+        public object m_GraphicQueueLookup;
+        public object m_GraphicRebuildQueue;
+        public object m_InternalUpdateLookup;
+        public object m_InternalUpdateQueue;
+        public object m_CullingUpdateLookup;
+        public object m_CullingUpdateQueue;
+        public object k_RegisterTextObjectForUpdateMarker;
+        public object k_RegisterTextElementForGraphicRebuildMarker;
+        public object k_RegisterTextElementForCullingUpdateMarker;
+        public object k_UnregisterTextObjectForUpdateMarker;
+        public object k_UnregisterTextElementForGraphicRebuildMarker;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7A79D30
         public void .ctor(){} // RVA: 0x7A79E50
@@ -2017,6 +2843,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_UpdateRegistry : Object
     {
+        public object s_Instance;
+        public object m_LayoutRebuildQueue;
+        public object m_LayoutQueueLookup;
+        public object m_GraphicRebuildQueue;
+        public object m_GraphicQueueLookup;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7A7B420
         public void .ctor(){} // RVA: 0x7A7B500
@@ -2033,6 +2865,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_Vertex : ValueType
     {
+        public object position;
+        public object uv;
+        public object uv2;
+        public object color;
+        public object k_Zero;
+
         // ── Methods ──
         public void get_zero(){} // RVA: 0x79EDC20
         public void .cctor(){} // RVA: 0xB43310
@@ -2040,6 +2878,11 @@ namespace ThirdParty.Other.TMPro
 
     public class TMP_WordInfo : ValueType
     {
+        public object textComponent;
+        public object firstCharacterIndex;
+        public object lastCharacterIndex;
+        public object characterCount;
+
         // ── Methods ──
         public void GetWord(){} // RVA: 0x942500
     }
@@ -2066,6 +2909,19 @@ namespace ThirdParty.Other.TMPro
 
     public class TMPro_EventManager : Object
     {
+        public object COMPUTE_DT_EVENT;
+        public object MATERIAL_PROPERTY_EVENT;
+        public object FONT_PROPERTY_EVENT;
+        public object SPRITE_ASSET_PROPERTY_EVENT;
+        public object TEXTMESHPRO_PROPERTY_EVENT;
+        public object DRAG_AND_DROP_MATERIAL_EVENT;
+        public object TEXT_STYLE_PROPERTY_EVENT;
+        public object COLOR_GRADIENT_PROPERTY_EVENT;
+        public object TMP_SETTINGS_PROPERTY_EVENT;
+        public object RESOURCE_LOAD_EVENT;
+        public object TEXTMESHPRO_UGUI_PROPERTY_EVENT;
+        public object TEXT_CHANGED_EVENT;
+
         // ── Methods ──
         public void ON_MATERIAL_PROPERTY_CHANGED(){} // RVA: 0x79EABB0
         public void ON_FONT_PROPERTY_CHANGED(){} // RVA: 0x79EAC50
@@ -2101,6 +2957,20 @@ namespace ThirdParty.Other.TMPro
 
     public class TextContainer : UIBehaviour
     {
+        public object m_hasChanged;
+        public object m_pivot;
+        public object m_anchorPosition;
+        public object m_rect;
+        public object m_isDefaultWidth;
+        public object m_isDefaultHeight;
+        public object m_isAutoFitting;
+        public object m_corners;
+        public object m_worldCorners;
+        public object m_margins;
+        public object m_rectTransform;
+        public object k_defaultSize;
+        public object m_textMeshPro;
+
         // ── Methods ──
         public void get_hasChanged(){} // RVA: 0xC38360
         public void set_hasChanged(){} // RVA: 0xC38370
@@ -2141,6 +3011,45 @@ namespace ThirdParty.Other.TMPro
 
     public class TextMeshPro : TMP_Text
     {
+        public object _SortingLayer;
+        public object _SortingLayerID;
+        public object _SortingOrder;
+        public object OnPreRenderText;
+        public object m_hasFontAssetChanged;
+        public object m_previousLossyScaleY;
+        public object m_renderer;
+        public object m_meshFilter;
+        public object m_isFirstAllocation;
+        public object m_max_characters;
+        public object m_max_numberOfLines;
+        public object m_subTextObjects;
+        public object m_maskType;
+        public object m_EnvMapMatrix;
+        public object m_RectTransformCorners;
+        public object m_isRegisteredForEvents;
+        public object k_GenerateTextMarker;
+        public object k_SetArraySizesMarker;
+        public object k_GenerateTextPhaseIMarker;
+        public object k_ParseMarkupTextMarker;
+        public object k_CharacterLookupMarker;
+        public object k_HandleGPOSFeaturesMarker;
+        public object k_CalculateVerticesPositionMarker;
+        public object k_ComputeTextMetricsMarker;
+        public object k_HandleVisibleCharacterMarker;
+        public object k_HandleWhiteSpacesMarker;
+        public object k_HandleHorizontalLineBreakingMarker;
+        public object k_HandleVerticalLineBreakingMarker;
+        public object k_SaveGlyphVertexDataMarker;
+        public object k_ComputeCharacterAdvanceMarker;
+        public object k_HandleCarriageReturnMarker;
+        public object k_HandleLineTerminationMarker;
+        public object k_SavePageInfoMarker;
+        public object k_SaveTextExtentMarker;
+        public object k_SaveProcessingStatesMarker;
+        public object k_GenerateTextPhaseIIMarker;
+        public object k_GenerateTextPhaseIIIMarker;
+        public object materialIndexPairs;
+
         // ── Methods ──
         public void get_sortingLayerID(){} // RVA: 0x79D1A30
         public void set_sortingLayerID(){} // RVA: 0x79D1B30
@@ -2219,6 +3128,50 @@ namespace ThirdParty.Other.TMPro
 
     public class TextMeshProUGUI : TMP_Text
     {
+        public object m_isRebuildingLayout;
+        public object m_DelayedGraphicRebuild;
+        public object m_DelayedMaterialRebuild;
+        public object m_ShouldUpdateCulling;
+        public object m_ClipRect;
+        public object m_ValidRect;
+        public object OnPreRenderText;
+        public object m_hasFontAssetChanged;
+        public object m_subTextObjects;
+        public object m_previousLossyScaleY;
+        public object m_RectTransformCorners;
+        public object m_canvasRenderer;
+        public object m_canvas;
+        public object m_CanvasScaleFactor;
+        public object m_isFirstAllocation;
+        public object m_max_characters;
+        public object m_baseMaterial;
+        public object m_isScrollRegionSet;
+        public object m_maskOffset;
+        public object m_EnvMapMatrix;
+        public object m_isRegisteredForEvents;
+        public object k_GenerateTextMarker;
+        public object k_SetArraySizesMarker;
+        public object k_GenerateTextPhaseIMarker;
+        public object k_ParseMarkupTextMarker;
+        public object k_CharacterLookupMarker;
+        public object k_HandleGPOSFeaturesMarker;
+        public object k_CalculateVerticesPositionMarker;
+        public object k_ComputeTextMetricsMarker;
+        public object k_HandleVisibleCharacterMarker;
+        public object k_HandleWhiteSpacesMarker;
+        public object k_HandleHorizontalLineBreakingMarker;
+        public object k_HandleVerticalLineBreakingMarker;
+        public object k_SaveGlyphVertexDataMarker;
+        public object k_ComputeCharacterAdvanceMarker;
+        public object k_HandleCarriageReturnMarker;
+        public object k_HandleLineTerminationMarker;
+        public object k_SavePageInfoMarker;
+        public object k_SaveTextExtentMarker;
+        public object k_SaveProcessingStatesMarker;
+        public object k_GenerateTextPhaseIIMarker;
+        public object k_GenerateTextPhaseIIIMarker;
+        public object materialIndexPairs;
+
         // ── Methods ──
         public void get_materialForRendering(){} // RVA: 0x79DD7E0
         public void get_autoSizeTextContainer(){} // RVA: 0x79D1E50
@@ -2317,6 +3270,12 @@ namespace ThirdParty.Other.TMPro
 
     public class TextProcessingElement : ValueType
     {
+        public object m_ElementType;
+        public object m_StartIndex;
+        public object m_Length;
+        public object m_CharacterElement;
+        public object m_MarkupElement;
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x77E60
         public void set_ElementType(){} // RVA: 0x29580
@@ -2334,6 +3293,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TweenRunner`1 : Object
     {
+        public object m_CoroutineContainer;
+        public object m_Tween;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA94080
         public void Init(){} // RVA: 0x894320
@@ -2344,6 +3306,9 @@ namespace ThirdParty.Other.TMPro
 
     public class TweenRunner`1 : Object
     {
+        public object m_CoroutineContainer;
+        public object m_Tween;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x4F3F130
         public void Init(){} // RVA: 0xB44D60

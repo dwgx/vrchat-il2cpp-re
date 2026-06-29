@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class DES : SymmetricAlgorithm
     {
+        public object s_legalBlockSizes;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F10B0
         public void get_Key(){} // RVA: 0x66F11E0
@@ -31,6 +34,20 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DESTransform : SymmetricTransform
     {
+        public object KEY_BIT_SIZE;
+        public object KEY_BYTE_SIZE;
+        public object BLOCK_BIT_SIZE;
+        public object BLOCK_BYTE_SIZE;
+        public object keySchedule;
+        public object byteBuff;
+        public object dwordBuff;
+        public object spBoxes;
+        public object PC1;
+        public object leftRotTotal;
+        public object PC2;
+        public object ipTab;
+        public object fpTab;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x671DEC0
         public void CipherFunct(){} // RVA: 0x671E330
@@ -66,6 +83,15 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DSACryptoServiceProvider : DSA
     {
+        public object PROV_DSS_DH;
+        public object store;
+        public object persistKey;
+        public object persisted;
+        public object privateKeyExportable;
+        public object m_disposed;
+        public object dsa;
+        public object useMachineKeyStore;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x671FAA0
         public void Common(){} // RVA: 0x6720120
@@ -96,6 +122,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DSASignatureDeformatter : AsymmetricSignatureDeformatter
     {
+        public object _dsaKey;
+        public object _oid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F5970
         public void SetKey(){} // RVA: 0x66F5AD0
@@ -111,6 +140,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DSASignatureFormatter : AsymmetricSignatureFormatter
     {
+        public object _dsaKey;
+        public object _oid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F5F10
         public void SetKey(){} // RVA: 0x66F6070
@@ -120,6 +152,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class DerSequenceReader : Object
     {
+        public object s_validityDateTimeFormatInfo;
+        public object s_utf8EncodingWithExceptionFallback;
+        public object s_latin1Encoding;
+        public object _data;
+        public object _end;
+        public object _position;
+        public object _contentLength;
+
         // ── Methods ──
         public void set_ContentLength(){} // RVA: 0x1269760
         public void .ctor(){} // RVA: 0x7690830

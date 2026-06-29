@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 291
+// Methods: 284
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
@@ -94,6 +94,138 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0xA94080
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x894320
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0x87D350
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0x87D350
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
         public void Add(){} // RVA: 0x894320
         public void Clear(){} // RVA: 0x894290
         public void Contains(){} // RVA: 0x87D350
@@ -118,18 +250,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0xA94080
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0xA94080
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0xA94080
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
         public void Add(){} // RVA: 0x894320
         public void Clear(){} // RVA: 0x894290
         public void Contains(){} // RVA: 0x87D350
@@ -147,138 +267,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void Contains(){} // RVA: 0xA94080
         public void CopyTo(){} // RVA: 0x899290
         public void Remove(){} // RVA: 0xA94080
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
     }
 
     public class ICollection`1
@@ -573,7 +561,25 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     public class IEnumerator`1
     {
         // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
         public void get_Current(){} // RVA: 0x87C0A0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
     }
 
     public class IEnumerator`1
@@ -603,36 +609,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     public class IEnumerator`1
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87BEB0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87BEB0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
         public void get_Current(){} // RVA: 0x87BEB0
     }
 
@@ -657,37 +633,7 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     public class IEnumerator`1
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
         public void get_Current(){} // RVA: 0x87BEB0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87BEB0
-    }
-
-    public class IEnumerator`1
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x87C0A0
     }
 
     public class IEnumerator`1
@@ -729,7 +675,19 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     public class IEnumerator`1
     {
         // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
         public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
     }
 
     public class IEnumerator`1
@@ -754,20 +712,62 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     {
         // ── Methods ──
         public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87BEB0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
+    }
+
+    public class IEnumerator`1
+    {
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x87C0A0
     }
 
     public class IEqualityComparer`1
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x882F70
-        public void Equals(){} // RVA: 0x87D5F0
+        public void GetHashCode(){} // RVA: 0x87D050
+        public void Equals(){} // RVA: 0x87D3C0
     }
 
     public class IEqualityComparer`1
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x881C20
-        public void Equals(){} // RVA: 0x87D5A0
+        public void GetHashCode(){} // RVA: 0x87D050
+        public void Equals(){} // RVA: 0x87D3C0
     }
 
     public class IEqualityComparer`1
@@ -781,13 +781,6 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     {
         // ── Methods ──
         public void Equals(){} // RVA: 0x87D5F0
-    }
-
-    public class IEqualityComparer`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x87D3C0
-        public void GetHashCode(){} // RVA: 0x87D050
     }
 
     public class ISet`1

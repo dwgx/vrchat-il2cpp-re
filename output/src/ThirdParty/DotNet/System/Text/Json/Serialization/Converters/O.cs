@@ -29,6 +29,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class ObjectConverterFactory : JsonConverterFactory
     {
+        public object _useDefaultConstructorInUnannotatedStructs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF73A60
         public void CanConvert(){} // RVA: 0xC2E4C0
@@ -38,6 +40,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class ObjectConverterFactory : JsonConverterFactory
     {
+        public object _useDefaultConstructorInUnannotatedStructs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7346E50
         public void CanConvert(){} // RVA: 0xC2E4C0

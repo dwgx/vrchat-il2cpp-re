@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 {
     public class JsonArray : JsonNode
     {
+        public object _jsonElement;
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DBACA0
         public void get_List(){} // RVA: 0x6DBADC0
@@ -31,6 +34,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonArray : JsonNode
     {
+        public object _jsonElement;
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x731CCF0
         public void GetValueKindCore(){} // RVA: 0x40A00B0
@@ -64,6 +70,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNode : Object
     {
+        public object _parent;
+        public object _options;
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x6DBBF60
         public void .ctor(){} // RVA: 0x4FB44B0
@@ -80,6 +89,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNode : Object
     {
+        public object _parent;
+        public object _options;
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x731E870
         public void .ctor(){} // RVA: 0x4FB44B0
@@ -116,6 +128,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNodeOptions : ValueType
     {
+        public object _propertyNameCaseInsensitive;
+
         // ── Methods ──
         public void get_PropertyNameCaseInsensitive(){} // RVA: 0x90520
         public void set_PropertyNameCaseInsensitive(){} // RVA: 0x90530
@@ -123,6 +137,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonNodeOptions : ValueType
     {
+        public object _propertyNameCaseInsensitive;
+
         // ── Methods ──
         public void get_PropertyNameCaseInsensitive(){} // RVA: 0x90520
         public void set_PropertyNameCaseInsensitive(){} // RVA: 0x90530
@@ -130,6 +146,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonObject : JsonNode
     {
+        public object _jsonElement;
+        public object _dictionary;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DBC9B0
         public void TryGetPropertyValue(){} // RVA: 0x6DBCAD0
@@ -156,6 +175,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonObject : JsonNode
     {
+        public object _jsonElement;
+        public object _dictionary;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7322E90
         public void Create(){} // RVA: 0x7322D70
@@ -196,6 +218,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue : JsonNode
     {
+        public object CreateUnreferencedCodeMessage;
+        public object CreateDynamicCodeMessage;
+
         // ── Methods ──
         public void Create(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x4FB44B0
@@ -206,6 +231,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueCustomized`1 : JsonValue`1
     {
+        public object _jsonTypeInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void WriteTo(){} // RVA: 0x8943B0
@@ -214,6 +241,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValuePrimitive`1 : JsonValue`1
     {
+        public object s_defaultOptions;
+        public object _converter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void WriteTo(){} // RVA: 0x8943B0
@@ -223,6 +253,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValueTrimmable`1 : JsonValue`1
     {
+        public object _jsonTypeInfo;
+        public object _converter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void WriteTo(){} // RVA: 0x8943B0
@@ -230,6 +263,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Value(){} // RVA: 0xA94080
@@ -237,6 +272,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x41FE570
         public void get_Value(){} // RVA: 0xAD0950
@@ -244,6 +281,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetValue(){} // RVA: 0xA94080
@@ -256,6 +295,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x41FE6F0
         public void GetValue(){} // RVA: 0xA94080
@@ -268,6 +309,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Nodes
 
     public class JsonValue`1 : JsonValue
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x41FE6F0
         public void GetValue(){} // RVA: 0xA94080

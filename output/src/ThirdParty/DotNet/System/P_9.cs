@@ -8,36 +8,6 @@ namespace ThirdParty.DotNet.System
     public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void Invoke(){} // RVA: 0xBA11C0
     }
 
@@ -308,24 +278,6 @@ namespace ThirdParty.DotNet.System
     public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void Invoke(){} // RVA: 0x35A77C0
     }
 
@@ -495,12 +447,6 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xBA11C0
-    }
-
-    public class Predicate`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Predicate`1 : MulticastDelegate
@@ -603,6 +549,60 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x4066A60
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xBA1350
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A77C0
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A77C0
     }
 
 }

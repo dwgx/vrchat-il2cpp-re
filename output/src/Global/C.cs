@@ -1,10 +1,29 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 591
+// Methods: 607
 
 public class COpenVRContext : Object
 {
+    public object m_pVRSystem;
+    public object m_pVRChaperone;
+    public object m_pVRChaperoneSetup;
+    public object m_pVRCompositor;
+    public object m_pVRHeadsetView;
+    public object m_pVROverlay;
+    public object m_pVROverlayView;
+    public object m_pVRRenderModels;
+    public object m_pVRExtendedDisplay;
+    public object m_pVRSettings;
+    public object m_pVRApplications;
+    public object m_pVRScreenshots;
+    public object m_pVRTrackedCamera;
+    public object m_pVRInput;
+    public object m_pVRIOBuffer;
+    public object m_pVRSpatialAnchors;
+    public object m_pVRNotifications;
+    public object m_pVRDebug;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7ACD600
     public void Clear(){} // RVA: 0x7ACD610
@@ -31,6 +50,10 @@ public class COpenVRContext : Object
 
 public class CacheCurve : Object
 {
+    public object StartTime;
+    public object StepSize;
+    public object m_Cache;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x25D8AD0
     public void .ctor(){} // RVA: 0x25D8B20
@@ -41,6 +64,9 @@ public class CacheCurve : Object
 
 public class CacheEntry : Object
 {
+    public object Curve;
+    public object RawItems;
+
     // ── Methods ──
     public void AddRawItem(){} // RVA: 0x25D9440
     public void CreateCurves(){} // RVA: 0x25D9980
@@ -49,6 +75,10 @@ public class CacheEntry : Object
 
 public class CacheEntry : ValueType
 {
+    public object obj;
+    public object id;
+    public object expiry;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA73620
     public void get_TTL(){} // RVA: 0xA73630
@@ -79,12 +109,27 @@ public class CacheEntry[] : Array
 
 public class CachedCodeEntry : Object
 {
+    public object Next;
+    public object Previous;
+    public object Key;
+    public object Code;
+    public object Caps;
+    public object Capnames;
+    public object Capslist;
+    public object Capsize;
+    public object Runnerref;
+    public object ReplRef;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7668460
 }
 
 public class CachedCodeEntryKey : ValueType
 {
+    public object _options;
+    public object _cultureKey;
+    public object _pattern;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6E7490
     public void Equals(){} // RVA: 0x91DC40
@@ -94,6 +139,12 @@ public class CachedCodeEntryKey : ValueType
 
 public class CachedData : Object
 {
+    public object _oneYearLocalFromUtc;
+    public object _localTimeZone;
+    public object _systemTimeZones;
+    public object _readOnlySystemTimeZones;
+    public object _allSystemTimeZonesRead;
+
     // ── Methods ──
     public void GetCurrentOneYearLocal(){} // RVA: 0x67E4030
     public void GetOneYearLocalFromUtc(){} // RVA: 0x67E41A0
@@ -103,56 +154,16 @@ public class CachedData : Object
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class Callback : ValueType
+public class CachedEventArgs : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x76310
-    public void Invoke(){} // RVA: 0x922CD0
-}
+    public object TaskAccept;
+    public object TaskReceive;
+    public object TaskSend;
+    public object ValueTaskReceive;
+    public object ValueTaskSend;
 
-public class CallbackContext : ValueType
-{
     // ── Methods ──
-    public void ReadValue(){} // RVA: 0xA94080
-    public void get_actionIndex(){} // RVA: 0x14790
-    public void get_bindingIndex(){} // RVA: 0x924C40
-    public void get_controlIndex(){} // RVA: 0x924C70
-    public void get_interactionIndex(){} // RVA: 0x924CB0
-    public void get_phase(){} // RVA: 0x924CF0
-    public void get_started(){} // RVA: 0x924D10
-    public void get_performed(){} // RVA: 0x924D40
-    public void get_canceled(){} // RVA: 0x924D70
-    public void get_action(){} // RVA: 0x924DA0
-    public void get_control(){} // RVA: 0x924DD0
-    public void get_interaction(){} // RVA: 0x924DE0
-    public void get_time(){} // RVA: 0x924E40
-    public void get_startTime(){} // RVA: 0x924E70
-    public void get_duration(){} // RVA: 0x924EA0
-    public void get_valueType(){} // RVA: 0x924EF0
-    public void get_valueSizeInBytes(){} // RVA: 0x924F50
-    public void ReadValueAsButton(){} // RVA: 0x924F70
-    public void ReadValueAsObject(){} // RVA: 0x924F80
-    public void ToString(){} // RVA: 0x924F90
-}
-
-public class Callback[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Callback[] : Array
@@ -184,6 +195,8 @@ public class CameraCallback : MulticastDelegate
 
 public class CanceledResultSource : Object
 {
+    public object cancellationToken;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetResult(){} // RVA: 0x7756BD0
@@ -194,26 +207,21 @@ public class CanceledResultSource : Object
 
 public class CanvasInfo : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-}
+    public object mCanvas;
+    public object mCanvasComponent;
+    public object mCanvasParent;
+    public object mViewport;
+    public object mRawImage;
 
-public class CastDataSourceVisitor : ConcreteTypeVisitor
-{
     // ── Methods ──
-    public void get_Binding(){} // RVA: 0xB5DBF0
-    public void set_Binding(){} // RVA: 0xB44D60
-    public void get_bindingContext(){} // RVA: 0x7E55C30
-    public void set_bindingContext(){} // RVA: 0x7E55CC0
-    public void get_result(){} // RVA: 0x6D09B60
-    public void set_result(){} // RVA: 0x7E55DA0
-    public void Reset(){} // RVA: 0x7E55E00
-    public void VisitContainer(){} // RVA: 0x894320
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class CategoryPrefix : ValueType
 {
+    public object PrefixPlainText;
+    public object PrefixRichText;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA743E0
 }
@@ -230,6 +238,9 @@ public class CenterProperty : Property`2
 
 public class ChainItemInfo : ValueType
 {
+    public object _order;
+    public object _implementationType;
+
     // ── Methods ──
     public void get_Order(){} // RVA: 0x77E60
     public void get_ImplementationType(){} // RVA: 0x77ED0
@@ -239,77 +250,17 @@ public class ChainItemInfo : ValueType
 public class ChangeHandler : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x40E2370
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6F15870
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5095CF0
-    public void Invoke(){} // RVA: 0x40E51E0
-    public void BeginInvoke(){} // RVA: 0x6F1D530
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBC4530
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5095E60
-    public void Invoke(){} // RVA: 0x5095FD0
-    public void BeginInvoke(){} // RVA: 0x6F3E0D0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x40E2370
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0x6F45B00
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5095CF0
-    public void Invoke(){} // RVA: 0x40E51E0
-    public void BeginInvoke(){} // RVA: 0x6F48980
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5095E60
-    public void Invoke(){} // RVA: 0x5095FD0
-    public void BeginInvoke(){} // RVA: 0x6F51210
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ChangeHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5095FF0
-    public void Invoke(){} // RVA: 0x5096160
-    public void BeginInvoke(){} // RVA: 0x6F51E10
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F4EDA0
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class ChangeTrackerDisposable : Object
 {
+    public object _listener;
+    public object _monitor;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void OnChange(){} // RVA: 0xA94080
@@ -318,41 +269,21 @@ public class ChangeTrackerDisposable : Object
 
 public class ChangeTrackerDisposable : Object
 {
+    public object _listener;
+    public object _monitor;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD5EFE0
     public void OnChange(){} // RVA: 0x5DC7240
     public void Dispose(){} // RVA: 0x62996E0
 }
 
-public class ChangesFromUI : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x991300
-    public void get_IsValid(){} // RVA: 0x991310
-}
-
-public class ChannelTransformer`2 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x899C90
-    public void Invoke(){} // RVA: 0xA94080
-}
-
-public class ChildConstraint : Object
-{
-    // ── Methods ──
-    public void get_nominalDistance(){} // RVA: 0xC27360
-    public void set_nominalDistance(){} // RVA: 0xC27370
-    public void get_isRigid(){} // RVA: 0xC27380
-    public void set_isRigid(){} // RVA: 0xC27390
-    public void .ctor(){} // RVA: 0xC273A0
-    public void Initiate(){} // RVA: 0xC27460
-    public void OnPreSolve(){} // RVA: 0xC274C0
-    public void Solve(){} // RVA: 0xC27820
-}
-
 public class ChildrenSection`1 : Object
 {
+    public object _name;
+    public object _valueToAppear;
+    public object _settingComponents;
+
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0x87C0A0
     public void .ctor(){} // RVA: 0x894290
@@ -369,6 +300,10 @@ public class ChildrenSection`1 : Object
 
 public class ChildrenSection`1 : Object
 {
+    public object _name;
+    public object _valueToAppear;
+    public object _settingComponents;
+
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0xB700F0
     public void .ctor(){} // RVA: 0xB43310
@@ -385,6 +320,10 @@ public class ChildrenSection`1 : Object
 
 public class ChildrenSection`1 : Object
 {
+    public object _name;
+    public object _valueToAppear;
+    public object _settingComponents;
+
     // ── Methods ──
     public void get_SettingComponents(){} // RVA: 0xB700F0
     public void .ctor(){} // RVA: 0xB43310
@@ -401,6 +340,10 @@ public class ChildrenSection`1 : Object
 
 public class CinemachineCameraOffset : CinemachineExtension
 {
+    public object m_Offset;
+    public object m_ApplyAfter;
+    public object m_PreserveComposition;
+
     // ── Methods ──
     public void PostPipelineStageCallback(){} // RVA: 0x2574C80
     public void .ctor(){} // RVA: 0x2575230
@@ -408,6 +351,11 @@ public class CinemachineCameraOffset : CinemachineExtension
 
 public class CinemachineMixer : PlayableBehaviour
 {
+    public object GetMasterPlayableDirector;
+    public object m_BrainOverrideStack;
+    public object m_BrainOverrideId;
+    public object m_PreviewPlay;
+
     // ── Methods ──
     public void OnPlayableDestroy(){} // RVA: 0x2575CD0
     public void PrepareFrame(){} // RVA: 0x2575D30
@@ -418,6 +366,14 @@ public class CinemachineMixer : PlayableBehaviour
 
 public class CinemachineRecomposer : CinemachineExtension
 {
+    public object m_ApplyAfter;
+    public object m_Tilt;
+    public object m_Pan;
+    public object m_Dutch;
+    public object m_ZoomScale;
+    public object m_FollowAttachment;
+    public object m_LookAtAttachment;
+
     // ── Methods ──
     public void Reset(){} // RVA: 0x25752C0
     public void OnValidate(){} // RVA: 0x25752F0
@@ -428,6 +384,9 @@ public class CinemachineRecomposer : CinemachineExtension
 
 public class CinemachineShot : PlayableAsset
 {
+    public object DisplayName;
+    public object VirtualCamera;
+
     // ── Methods ──
     public void CreatePlayable(){} // RVA: 0x2576870
     public void GatherProperties(){} // RVA: 0x2576BE0
@@ -436,6 +395,8 @@ public class CinemachineShot : PlayableAsset
 
 public class CinemachineShotPlayable : PlayableBehaviour
 {
+    public object VirtualCamera;
+
     // ── Methods ──
     public void get_IsValid(){} // RVA: 0x2576DC0
     public void .ctor(){} // RVA: 0xB43310
@@ -443,6 +404,11 @@ public class CinemachineShotPlayable : PlayableBehaviour
 
 public class CinemachineTouchInputMapper : MonoBehaviour
 {
+    public object TouchSensitivityX;
+    public object TouchSensitivityY;
+    public object TouchXInputMapTo;
+    public object TouchYInputMapTo;
+
     // ── Methods ──
     public void Start(){} // RVA: 0x2575940
     public void GetInputAxis(){} // RVA: 0x2575A40
@@ -465,8 +431,63 @@ public class ClaimNetworkControlDelegate : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
+public class CleanupCode : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E01E0
+    public void Invoke(){} // RVA: 0xCA8BF0
+}
+
+public class Client : ValueType
+{
+    public object Handle;
+
+    // ── Methods ──
+    public void AuthorizationCallback_Handler(){} // RVA: 0x26D9EA0
+    public void UpdateTokenCallback_Handler(){} // RVA: 0x26DA0E0
+    public void LogCallback_Handler(){} // RVA: 0x26DA1E0
+    public void OnStatusChanged_Handler(){} // RVA: 0x26DA3B0
+    public void SendActivityInviteCallback_Handler(){} // RVA: 0x26DA4A0
+    public void ActivityJoinCallback_Handler(){} // RVA: 0x26DA5A0
+    public void UpdateRichPresenceCallback_Handler(){} // RVA: 0x26DA750
+    public void UserUpdatedCallback_Handler(){} // RVA: 0x26DA850
+    public void Init(){} // RVA: 0x26DA910
+    public void Drop(){} // RVA: 0x26DA990
+    public void GetDefaultPresenceScopes(){} // RVA: 0x26DAA10
+    public void Authorize(){} // RVA: 0x26DAA90
+    public void UpdateToken(){} // RVA: 0x26DAB40
+    public void AddLogCallback(){} // RVA: 0x26DAC10
+    public void Connect(){} // RVA: 0x26DACC0
+    public void Disconnect(){} // RVA: 0x26DAD40
+    public void SetApplicationId(){} // RVA: 0x26DADC0
+    public void SetStatusChangedCallback(){} // RVA: 0x26DAE50
+    public void ClearRichPresence(){} // RVA: 0x26DAF00
+    public void SendActivityInvite(){} // RVA: 0x26DAF80
+    public void SetActivityJoinCallback(){} // RVA: 0x26DB060
+    public void UpdateRichPresence(){} // RVA: 0x26DB110
+    public void GetRelationships(){} // RVA: 0x26DB1C0
+    public void SetUserUpdatedCallback(){} // RVA: 0x26DB250
+}
+
 public class Clipper : ClipperBase
 {
+    public object ioReverseSolution;
+    public object ioStrictlySimple;
+    public object ioPreserveCollinear;
+    public object m_ClipType;
+    public object m_Maxima;
+    public object m_SortedEdges;
+    public object m_IntersectList;
+    public object m_IntersectNodeComparer;
+    public object m_ExecuteLocked;
+    public object m_ClipFillType;
+    public object m_SubjFillType;
+    public object m_Joins;
+    public object m_GhostJoins;
+    public object m_UsingPolyTree;
+    public object _reverseSolution;
+    public object _strictlySimple;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25E9E50
     public void InsertMaxima(){} // RVA: 0x25EA470
@@ -572,6 +593,22 @@ public class Clipper : ClipperBase
 
 public class ClipperBase : Object
 {
+    public object horizontal;
+    public object Skip;
+    public object Unassigned;
+    public object tolerance;
+    public object loRange;
+    public object hiRange;
+    public object m_MinimaList;
+    public object m_CurrentLM;
+    public object m_edges;
+    public object m_Scanbeam;
+    public object m_PolyOuts;
+    public object m_ActiveEdges;
+    public object m_UseFullRange;
+    public object m_HasOpenPaths;
+    public object _preserveCollinear;
+
     // ── Methods ──
     public void near_zero(){} // RVA: 0x25E53B0
     public void get_PreserveCollinear(){} // RVA: 0xEEA480
@@ -618,6 +655,23 @@ public class ClipperException : Exception
 
 public class ClipperOffset : Object
 {
+    public object m_destPolys;
+    public object m_srcPoly;
+    public object m_destPoly;
+    public object m_normals;
+    public object m_delta;
+    public object m_sinA;
+    public object m_sin;
+    public object m_cos;
+    public object m_miterLim;
+    public object m_StepsPerRad;
+    public object m_lowest;
+    public object m_polyNodes;
+    public object _arcTolerance;
+    public object _miterLimit;
+    public object two_pi;
+    public object def_arc_tolerance;
+
     // ── Methods ──
     public void get_ArcTolerance(){} // RVA: 0x25F8DD0
     public void set_ArcTolerance(){} // RVA: 0x25F8DE0
@@ -638,16 +692,18 @@ public class ClipperOffset : Object
     public void DoRound(){} // RVA: 0x25FD150
 }
 
-public class Codec : Object
-{
-    // ── Methods ──
-    public void get_KeyCodec(){} // RVA: 0x87C0A0
-    public void get_ValueCodec(){} // RVA: 0x87C0A0
-    public void get_MapTag(){} // RVA: 0x87C130
-}
-
 public class Collection : ValueType
 {
+    public object kBaseScoreForNonGeneratedLayouts;
+    public object layoutTypes;
+    public object layoutStrings;
+    public object layoutBuilders;
+    public object baseLayoutTable;
+    public object layoutOverrides;
+    public object layoutOverrideNames;
+    public object precompiledLayouts;
+    public object layoutMatchers;
+
     // ── Methods ──
     public void Allocate(){} // RVA: 0x93E4E0
     public void TryFindLayoutForType(){} // RVA: 0x93E4F0
@@ -667,6 +723,51 @@ public class Collection : ValueType
     public void AddMatcher(){} // RVA: 0x93EB20
 }
 
+public class ColliderConfig : ValueType
+{
+    public object isMirrored;
+    public object state;
+    public object transform;
+    public object radius;
+    public object height;
+    public object position;
+    public object rotation;
+
+    // ── Methods ──
+    public void Create(){} // RVA: 0xA6D0310
+    public void get_axis(){} // RVA: 0xA76130
+}
+
+public class ColliderToRemoveData : ValueType
+{
+    public object comp;
+    public object executionGroup;
+    public object shape;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x9CA220
+}
+
+public class ColliderToRemoveData[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class CollisionEnterDelegate : MulticastDelegate
 {
     // ── Methods ──
@@ -678,6 +779,10 @@ public class CollisionEnterDelegate : MulticastDelegate
 
 public class CollisionEventsJob : ValueType
 {
+    public object prevCollisionPairs;
+    public object collisionEvents;
+    public object gridCells;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9C61B0
 }
@@ -693,6 +798,12 @@ public class CollisionExitDelegate : MulticastDelegate
 
 public class CollisionsJob : ValueType
 {
+    public object shapeMap;
+    public object activeShapes;
+    public object shapeData;
+    public object collisions;
+    public object collisionEvents;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9C5CA0
     public void GetCollision(){} // RVA: 0x9C5CB0
@@ -702,12 +813,23 @@ public class CollisionsJob : ValueType
 
 public class ColorPaletteData : Object
 {
+    public object name;
+    public object id;
+    public object highlights;
+    public object icons;
+    public object buttons;
+    public object backgrounds;
+    public object text;
+    public object subtext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class ColorPaletteRoot : MonoBehaviour
 {
+    public object _colorPaletteRoot;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43D60
 }
@@ -736,6 +858,9 @@ public class ColorProperty : ResolvedColorProperty
 
 public class ColorProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -744,20 +869,52 @@ public class ColorProperty : Property`2
     public void .ctor(){} // RVA: 0x7F09F20
 }
 
+public class CompleteOnInvokePromise : Task`1
+{
+    public object _tasks;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x66ABAD0
+    public void Invoke(){} // RVA: 0x66ABBF0
+    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0xC2E4C0
+}
+
 public class Configuration : ValueType
 {
+    public object ActionAsset;
+    public object PointAction;
+    public object MoveAction;
+    public object SubmitAction;
+    public object CancelAction;
+    public object LeftClickAction;
+    public object MiddleClickAction;
+    public object RightClickAction;
+    public object ScrollWheelAction;
+
     // ── Methods ──
     public void GetDefaultConfiguration(){} // RVA: 0x77FD770
 }
 
 public class Configuration : ValueType
 {
+    public object HorizontalAxis;
+    public object VerticalAxis;
+    public object SubmitButton;
+    public object CancelButton;
+    public object NavigateNextButton;
+    public object NavigatePreviousButton;
+    public object InputActionsPerSecond;
+    public object RepeatDelay;
+
     // ── Methods ──
     public void GetDefaultConfiguration(){} // RVA: 0x7CA7D70
 }
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899250
     public void get_IsCompleted(){} // RVA: 0x87D280
@@ -768,6 +925,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void OnCompleted(){} // RVA: 0x212FB0
     public void UnsafeOnCompleted(){} // RVA: 0x213070
@@ -778,16 +938,34 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x212FA0
     public void OnCompleted(){} // RVA: 0x212FB0
     public void UnsafeOnCompleted(){} // RVA: 0x213070
-    public void GetResult(){} // RVA: 0x213130
+    public void GetResult(){} // RVA: 0x213320
+}
+
+public class ConfiguredTaskAwaiter : ValueType
+{
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3A130
+    public void get_IsCompleted(){} // RVA: 0x214480
+    public void OnCompleted(){} // RVA: 0x212FB0
+    public void UnsafeOnCompleted(){} // RVA: 0x213070
+    public void GetResult(){} // RVA: 0x216780
 }
 
 public class ConfiguredValueTaskAwaiter : ValueType
 {
+    public object _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_IsCompleted(){} // RVA: 0x87D280
@@ -798,6 +976,8 @@ public class ConfiguredValueTaskAwaiter : ValueType
 
 public class ConfiguredValueTaskAwaiter : ValueType
 {
+    public object _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x229E10
@@ -808,30 +988,45 @@ public class ConfiguredValueTaskAwaiter : ValueType
 
 public class ConstructJob : ValueType
 {
+    public object Container;
+    public object Length;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x924470
 }
 
 public class ConstructJob : ValueType
 {
+    public object Container;
+    public object Length;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x924470
 }
 
 public class ConstructJobList : ValueType
 {
+    public object Container;
+    public object List;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x924460
 }
 
 public class ConstructJobList : ValueType
 {
+    public object Container;
+    public object List;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x924460
 }
 
 public class ContainerHeight : Object
 {
+    public object _containerTop;
+    public object _containerBottom;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x9B1B550
     public void Equals(){} // RVA: 0x9B1B550
@@ -844,8 +1039,37 @@ public class ContainerHeight : Object
     public void set_Height(){} // RVA: 0x9B1B550
 }
 
+public class ContentType[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB23C0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7B630
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8440
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6D5F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7B630
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class ContingentProperties : Object
 {
+    public object m_capturedContext;
+    public object m_completionEvent;
+    public object m_exceptionsHolder;
+    public object m_cancellationToken;
+    public object m_cancellationRegistration;
+    public object m_internalCancellationRequested;
+    public object m_completionCountdown;
+    public object m_exceptionalChildren;
+
     // ── Methods ──
     public void SetCompleted(){} // RVA: 0x69C68E0
     public void UnregisterCancellationCallback(){} // RVA: 0x69C6910
@@ -854,6 +1078,16 @@ public class ContingentProperties : Object
 
 public class Control : Object
 {
+    public object name;
+    public object icon;
+    public object type;
+    public object parameter;
+    public object value;
+    public object style;
+    public object subMenu;
+    public object subParameters;
+    public object labels;
+
     // ── Methods ──
     public void GetSubParameter(){} // RVA: 0xA6C8490
     public void GetLabel(){} // RVA: 0xA6C84D0
@@ -862,6 +1096,11 @@ public class Control : Object
 
 public class ControlBitRangeNode : ValueType
 {
+    public object endBitOffset;
+    public object leftChildIndex;
+    public object controlStartIndex;
+    public object controlCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x933050
 }
@@ -888,18 +1127,86 @@ public class ControlBitRangeNode[] : Array
 
 public class ControlDataForExport : Object
 {
+    public object eyeControl;
+    public object eyelidBoneMode;
+    public object leftEyePath;
+    public object rightEyePath;
+    public object maxEyeUpBoneAngle;
+    public object maxEyeDownBoneAngle;
+    public object maxEyeUpEyeballAngle;
+    public object maxEyeDownEyeballAngle;
+    public object isEyeBallDefaultSet;
+    public object isEyeBoneDefaultSet;
+    public object isEyeBallLookUpSet;
+    public object isEyeBoneLookUpSet;
+    public object isEyeBallLookDownSet;
+    public object isEyeBoneLookDownSet;
+    public object leftBoneEyeRotationLimiter;
+    public object rightBoneEyeRotationLimiter;
+    public object leftEyeballEyeRotationLimiter;
+    public object rightEyeballEyeRotationLimiter;
+    public object eyelidControl;
+    public object eyelidsFollowEyesVertically;
+    public object upperEyeLidLeftPath;
+    public object upperEyeLidRightPath;
+    public object lowerEyeLidLeftPath;
+    public object lowerEyeLidRightPath;
+    public object isEyelidBonesDefaultSet;
+    public object isEyelidBonesClosedSet;
+    public object isEyelidBonesLookUpSet;
+    public object isEyelidBonesLookDownSet;
+    public object upperLeftLimiter;
+    public object upperRightLimiter;
+    public object lowerLeftLimiter;
+    public object lowerRightLimiter;
+    public object eyeWidenOrSquint;
+    public object blendshapesForBlinking;
+    public object blendshapesForLookingUp;
+    public object blendshapesForLookingDown;
+    public object blendshapesConfigs;
+    public object isEyelidBlendshapeDefaultSet;
+    public object isEyelidBlendshapeClosedSet;
+    public object isEyelidBlendshapeLookUpSet;
+    public object isEyelidBlendshapeLookDownSet;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class Control[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class ConverterKey : ValueType
 {
+    public object SourceType;
+    public object DestinationType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
 }
 
 public class ConverterKey : ValueType
 {
+    public object SourceType;
+    public object DestinationType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
 }
@@ -918,12 +1225,6 @@ public class ConverterKeyComparer : Object
     public void Equals(){} // RVA: 0x7D44640
     public void GetHashCode(){} // RVA: 0x7D446C0
     public void .ctor(){} // RVA: 0xB43310
-}
-
-public class CreateJointParams : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x4F70
 }
 
 public class CreatePipelineDelegate : MulticastDelegate
@@ -1035,11 +1336,58 @@ public class CreateValueCallback : MulticastDelegate
     public void Invoke(){} // RVA: 0xB9E010
 }
 
+public class CreateValueCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x23F1A30
+    public void Invoke(){} // RVA: 0xB9E010
+}
+
+public class CreateValueCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x899C90
+    public void Invoke(){} // RVA: 0xA94080
+}
+
+public class CreateValueCallback : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x23F1A30
+    public void Invoke(){} // RVA: 0xB9E010
+}
+
 public class CreationDelegate : MulticastDelegate
 {
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F6ECE0
     public void Invoke(){} // RVA: 0xB9E010
+}
+
+public class CreatorPropertyContext[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class CullStateChangedEvent : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x80EACC0
 }
 
 public class CursorProperty : InlineStyleCursorProperty
@@ -1053,7 +1401,7 @@ public class CursorProperty : InlineStyleCursorProperty
     public void .ctor(){} // RVA: 0x7E9F810
 }
 
-public class CustomBlend[] : Array
+public class CustomAnimLayer[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -1075,12 +1423,17 @@ public class CustomBlend[] : Array
 
 public class CustomBlendable : ValueType
 {
+    public object m_Custom;
+    public object m_Weight;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x54930
 }
 
 public class CustomEmojiParticleSystemList : ScriptableObject
 {
+    public object _emojiParticleSystems;
+
     // ── Methods ──
     public void IndexOf(){} // RVA: 0x21D26B0
     public void CreateInstance(){} // RVA: 0x21D26F0
@@ -1092,4 +1445,13 @@ public class CustomEmojiParticleSystemList : ScriptableObject
     public void get_Count(){} // RVA: 0x21D2C60
     public void Equals(){} // RVA: 0x21D2C70
     public void GetHashCode(){} // RVA: 0x21D26B0
+}
+
+public class CustomTriggerTarget : Object
+{
+    public object TriggerObject;
+    public object CustomName;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA73E0B0
 }

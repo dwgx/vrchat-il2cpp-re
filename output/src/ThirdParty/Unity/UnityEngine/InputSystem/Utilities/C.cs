@@ -17,6 +17,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x87C130
         public void get_Item(){} // RVA: 0xA94080
@@ -29,6 +34,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -41,6 +51,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -53,6 +68,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -65,6 +85,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -77,6 +102,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -89,6 +119,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -101,6 +136,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -113,6 +153,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void LockForChanges(){} // RVA: 0x77FF30
@@ -125,6 +170,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void LockForChanges(){} // RVA: 0x77FF30
@@ -137,6 +187,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -149,6 +204,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -161,6 +221,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -173,6 +238,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -185,6 +255,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -197,6 +272,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0
@@ -209,6 +289,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class CallbackArray`1 : ValueType
     {
+        public object m_CannotMutateCallbacksArray;
+        public object m_Callbacks;
+        public object m_CallbacksToAdd;
+        public object m_CallbacksToRemove;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x14790
         public void get_Item(){} // RVA: 0x77FEB0

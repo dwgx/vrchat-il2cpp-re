@@ -7,6 +7,14 @@ namespace ThirdParty.DotNet.System.Numerics
 {
     public class BigInteger : ValueType
     {
+        public object _sign;
+        public object _bits;
+        public object s_bnMinInt;
+        public object s_bnOneInt;
+        public object s_bnZeroInt;
+        public object s_bnMinusOneInt;
+        public object s_success;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x90BB50
         public void get_Zero(){} // RVA: 0x7289F60
@@ -48,6 +56,11 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class BigIntegerCalculator : Object
     {
+        public object ReducerThreshold;
+        public object SquareThreshold;
+        public object AllocationThreshold;
+        public object MultiplyThreshold;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x728E960
         public void AddSelf(){} // RVA: 0x728EA10
@@ -142,6 +155,11 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Quaternion : ValueType
     {
+        public object X;
+        public object Y;
+        public object Z;
+        public object W;
+
         // ── Methods ──
         public void Normalize(){} // RVA: 0x7286770
         public void Inverse(){} // RVA: 0x7286840
@@ -176,6 +194,9 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector2 : ValueType
     {
+        public object X;
+        public object Y;
+
         // ── Methods ──
         public void get_Zero(){} // RVA: 0x4F6B1A0
         public void GetHashCode(){} // RVA: 0x90B4E0
@@ -190,6 +211,10 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector3 : ValueType
     {
+        public object X;
+        public object Y;
+        public object Z;
+
         // ── Methods ──
         public void get_Zero(){} // RVA: 0x532A4B0
         public void get_UnitY(){} // RVA: 0x72875D0
@@ -211,6 +236,12 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector`1 : ValueType
     {
+        public object register;
+        public object s_count;
+        public object s_zero;
+        public object s_one;
+        public object s_allOnes;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87CFE0
         public void get_Zero(){} // RVA: 0xA94080
@@ -234,6 +265,12 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector`1 : ValueType
     {
+        public object register;
+        public object s_count;
+        public object s_zero;
+        public object s_one;
+        public object s_allOnes;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x2B96E20
         public void .ctor(){} // RVA: 0x7BE90
@@ -257,6 +294,12 @@ namespace ThirdParty.DotNet.System.Numerics
 
     public class Vector`1 : ValueType
     {
+        public object register;
+        public object s_count;
+        public object s_zero;
+        public object s_one;
+        public object s_allOnes;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87CFE0
         public void get_Zero(){} // RVA: 0xA94080

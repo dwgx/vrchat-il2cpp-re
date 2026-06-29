@@ -13,6 +13,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`1 : BaseFormatter`1
     {
+        public object T1Serializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -23,6 +25,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`2 : BaseFormatter`1
     {
+        public object T1Serializer;
+        public object T2Serializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -33,6 +38,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ValueTupleFormatter`3 : BaseFormatter`1
     {
+        public object T1Serializer;
+        public object T2Serializer;
+        public object T3Serializer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -53,6 +62,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector2Formatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84CC080
         public void Write(){} // RVA: 0x84CC140
@@ -62,6 +73,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector2IntFormatter : MinimalBaseFormatter`1
     {
+        public object Serializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84CCA80
         public void Write(){} // RVA: 0x84CCB40
@@ -81,6 +94,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector3Formatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84CC360
         public void Write(){} // RVA: 0x84CC450
@@ -90,6 +105,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector3IntFormatter : MinimalBaseFormatter`1
     {
+        public object Serializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84CCD60
         public void Write(){} // RVA: 0x84CCE50
@@ -109,6 +126,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class Vector4Formatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84CC6B0
         public void Write(){} // RVA: 0x84CC7E0

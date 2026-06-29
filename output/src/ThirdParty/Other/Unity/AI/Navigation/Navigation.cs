@@ -7,6 +7,28 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 {
     public class NavMeshLink : MonoBehaviour
     {
+        public object m_SerializedVersion;
+        public object m_AgentTypeID;
+        public object m_StartPoint;
+        public object m_EndPoint;
+        public object m_StartTransform;
+        public object m_EndTransform;
+        public object m_Activated;
+        public object m_Width;
+        public object m_CostModifier;
+        public object m_IsOverridingCost;
+        public object m_Bidirectional;
+        public object m_AutoUpdatePosition;
+        public object m_Area;
+        public object m_LinkInstance;
+        public object m_StartTransformWasEmpty;
+        public object m_EndTransformWasEmpty;
+        public object m_LastStartWorldPosition;
+        public object m_LastEndWorldPosition;
+        public object m_LastPosition;
+        public object m_LastRotation;
+        public object s_Tracked;
+
         // ── Methods ──
         public void get_agentTypeID(){} // RVA: 0x15AF000
         public void set_agentTypeID(){} // RVA: 0x77C1C50
@@ -80,6 +102,16 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshModifier : MonoBehaviour
     {
+        public object m_SerializedVersion;
+        public object m_OverrideArea;
+        public object m_Area;
+        public object m_OverrideGenerateLinks;
+        public object m_GenerateLinks;
+        public object m_IgnoreFromBuild;
+        public object m_ApplyToChildren;
+        public object m_AffectedAgents;
+        public object s_NavMeshModifiers;
+
         // ── Methods ──
         public void get_overrideArea(){} // RVA: 0xF45EE0
         public void set_overrideArea(){} // RVA: 0x1AD91E0
@@ -104,6 +136,13 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshModifierVolume : MonoBehaviour
     {
+        public object m_SerializedVersion;
+        public object m_Size;
+        public object m_Center;
+        public object m_Area;
+        public object m_AffectedAgents;
+        public object s_NavMeshModifiers;
+
         // ── Methods ──
         public void get_size(){} // RVA: 0xB9E050
         public void set_size(){} // RVA: 0xB9E070
@@ -162,6 +201,29 @@ namespace ThirdParty.Other.Unity.AI.Navigation
 
     public class NavMeshSurface : MonoBehaviour
     {
+        public object m_SerializedVersion;
+        public object m_AgentTypeID;
+        public object m_CollectObjects;
+        public object m_Size;
+        public object m_Center;
+        public object m_LayerMask;
+        public object m_UseGeometry;
+        public object m_DefaultArea;
+        public object m_GenerateLinks;
+        public object m_IgnoreNavMeshAgent;
+        public object m_IgnoreNavMeshObstacle;
+        public object m_OverrideTileSize;
+        public object m_TileSize;
+        public object m_OverrideVoxelSize;
+        public object m_VoxelSize;
+        public object m_MinRegionArea;
+        public object m_NavMeshData;
+        public object m_BuildHeightMesh;
+        public object m_NavMeshDataInstance;
+        public object m_LastPosition;
+        public object m_LastRotation;
+        public object s_NavMeshSurfaces;
+
         // ── Methods ──
         public void get_agentTypeID(){} // RVA: 0x15AF000
         public void set_agentTypeID(){} // RVA: 0x1FAA840

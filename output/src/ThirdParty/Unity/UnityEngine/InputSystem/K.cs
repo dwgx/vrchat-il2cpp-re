@@ -7,6 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Keyboard : InputDevice
     {
+        public object KeyCount;
+        public object ExtendedKeyCount;
+        public object _anyKey;
+        public object _shiftKey;
+        public object _ctrlKey;
+        public object _altKey;
+        public object _imeSelected;
+        public object _current;
+        public object m_TextInputListeners;
+        public object m_KeyboardLayoutName;
+        public object m_Keys;
+        public object m_ImeCompositionListeners;
+
         // ── Methods ──
         public void add_onTextInput(){} // RVA: 0x78597C0
         public void remove_onTextInput(){} // RVA: 0x78598B0

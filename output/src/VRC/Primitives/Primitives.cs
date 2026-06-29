@@ -7,6 +7,10 @@ namespace VRC.Primitives
 {
     public class Result`2 : ValueType
     {
+        public object _isSuccess;
+        public object _value;
+        public object _error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_IsSuccess(){} // RVA: 0x87D280
@@ -22,6 +26,10 @@ namespace VRC.Primitives
 
     public class Result`2 : ValueType
     {
+        public object _isSuccess;
+        public object _value;
+        public object _error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x497510
         public void get_IsSuccess(){} // RVA: 0x90520
@@ -37,6 +45,10 @@ namespace VRC.Primitives
 
     public class Result`2 : ValueType
     {
+        public object _isSuccess;
+        public object _value;
+        public object _error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x497510
         public void get_IsSuccess(){} // RVA: 0x90520

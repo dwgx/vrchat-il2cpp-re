@@ -13,6 +13,13 @@ namespace ThirdParty.DotNet.System
 
     public class __DTString : ValueType
     {
+        public object Value;
+        public object Index;
+        public object m_current;
+        public object m_info;
+        public object m_checkDigitToken;
+        public object WhiteSpaceChecks;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x6909820
         public void .ctor(){} // RVA: 0x69098F0

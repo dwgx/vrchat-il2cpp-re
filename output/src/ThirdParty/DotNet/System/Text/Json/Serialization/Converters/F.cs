@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
     public class FSharpListConverter`2 : IEnumerableDefaultConverter`2
     {
+        public object _listConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0x8943B0
@@ -16,6 +18,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpListConverter`2 : IEnumerableDefaultConverter`2
     {
+        public object _listConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0x8943B0
@@ -26,6 +30,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpMapConverter`3 : DictionaryDefaultConverter`3
     {
+        public object _mapConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0xA94080
@@ -36,6 +42,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpMapConverter`3 : DictionaryDefaultConverter`3
     {
+        public object _mapConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0xA94080
@@ -47,6 +55,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpOptionConverter`2 : JsonConverter`1
     {
+        public object _elementConverter;
+        public object _optionValueGetter;
+        public object _optionConstructor;
+        public object _converterStrategy;
+
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x87D280
         public void get_ElementType(){} // RVA: 0x87C0A0
@@ -60,6 +73,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpOptionConverter`2 : JsonConverter`1
     {
+        public object _elementConverter;
+        public object _optionValueGetter;
+        public object _optionConstructor;
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x87C0A0
         public void get_HandleNull(){} // RVA: 0x87D280
@@ -72,6 +89,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpSetConverter`2 : IEnumerableDefaultConverter`2
     {
+        public object _setConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0x8943B0
@@ -81,6 +100,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpSetConverter`2 : IEnumerableDefaultConverter`2
     {
+        public object _setConstructor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Add(){} // RVA: 0x8943B0
@@ -91,6 +112,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpTypeConverterFactory : JsonConverterFactory
     {
+        public object _recordConverterFactory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void CanConvert(){} // RVA: 0x6DCF7C0
@@ -99,6 +122,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpTypeConverterFactory : JsonConverterFactory
     {
+        public object _recordConverterFactory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4127AC0
         public void CanConvert(){} // RVA: 0x7344A70
@@ -107,6 +132,11 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpValueOptionConverter`2 : JsonConverter`1
     {
+        public object _elementConverter;
+        public object _optionValueGetter;
+        public object _optionConstructor;
+        public object _converterStrategy;
+
         // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x87D280
         public void get_ElementType(){} // RVA: 0x87C0A0
@@ -120,6 +150,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class FSharpValueOptionConverter`2 : JsonConverter`1
     {
+        public object _elementConverter;
+        public object _optionValueGetter;
+        public object _optionConstructor;
+
         // ── Methods ──
         public void get_ElementType(){} // RVA: 0x87C0A0
         public void get_HandleNull(){} // RVA: 0x87D280

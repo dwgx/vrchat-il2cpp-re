@@ -7,128 +7,144 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
 {
     public class BaseInputStream : Stream
     {
+        public object closed;
+
         // ── Methods ──
-        public void get_CanRead(){} // RVA: 0x7ABA76B70
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7A80D7320
-        public void Close(){} // RVA: 0x7B151A2D0
-        public void Flush(){} // RVA: 0x7A80D7310
-        public void get_Length(){} // RVA: 0x7B151A2E0
-        public void get_Position(){} // RVA: 0x7B151A320
-        public void set_Position(){} // RVA: 0x7B151A360
-        public void Read(){} // RVA: 0x7B151A3A0
-        public void Seek(){} // RVA: 0x7B151A470
-        public void SetLength(){} // RVA: 0x7B151A4B0
-        public void Write(){} // RVA: 0x7B151A4F0
-        public void .ctor(){} // RVA: 0x7B151A530
+        public void get_CanRead(){} // RVA: 0x470B600
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0xB43320
+        public void Close(){} // RVA: 0xA385640
+        public void Flush(){} // RVA: 0xB43310
+        public void get_Length(){} // RVA: 0xA385650
+        public void get_Position(){} // RVA: 0xA385690
+        public void set_Position(){} // RVA: 0xA3856D0
+        public void Read(){} // RVA: 0xA385710
+        public void Seek(){} // RVA: 0xA3857E0
+        public void SetLength(){} // RVA: 0xA385820
+        public void Write(){} // RVA: 0xA385860
+        public void .ctor(){} // RVA: 0xA3858A0
     }
 
     public class BaseOutputStream : Stream
     {
+        public object closed;
+
         // ── Methods ──
-        public void get_CanRead(){} // RVA: 0x7A80D7320
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7ABA76B70
-        public void Close(){} // RVA: 0x7B151A2D0
-        public void Flush(){} // RVA: 0x7A80D7310
-        public void get_Length(){} // RVA: 0x7B151A580
-        public void get_Position(){} // RVA: 0x7B151A5C0
-        public void set_Position(){} // RVA: 0x7B151A600
-        public void Read(){} // RVA: 0x7B151A640
-        public void Seek(){} // RVA: 0x7B151A680
-        public void SetLength(){} // RVA: 0x7B151A6C0
-        public void Write(){} // RVA: 0x7B1386750
-        public void WriteByte(){} // RVA: 0x7B151A790
-        public void .ctor(){} // RVA: 0x7B151A820
+        public void get_CanRead(){} // RVA: 0xB43320
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0x470B600
+        public void Close(){} // RVA: 0xA385640
+        public void Flush(){} // RVA: 0xB43310
+        public void get_Length(){} // RVA: 0xA3858F0
+        public void get_Position(){} // RVA: 0xA385930
+        public void set_Position(){} // RVA: 0xA385970
+        public void Read(){} // RVA: 0xA3859B0
+        public void Seek(){} // RVA: 0xA3859F0
+        public void SetLength(){} // RVA: 0xA385A30
+        public void Write(){} // RVA: 0xA1F1EF0
+        public void WriteByte(){} // RVA: 0xA385B00
+        public void .ctor(){} // RVA: 0xA385B90
     }
 
     public class FilterStream : Stream
     {
+        public object s;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151A870
-        public void get_CanRead(){} // RVA: 0x7AE202E50
-        public void get_CanSeek(){} // RVA: 0x7AE202E80
-        public void get_CanWrite(){} // RVA: 0x7AE87A550
-        public void get_Length(){} // RVA: 0x7AE47D2E0
-        public void get_Position(){} // RVA: 0x7AE47D310
-        public void set_Position(){} // RVA: 0x7AE804490
-        public void Close(){} // RVA: 0x7B151A910
-        public void Flush(){} // RVA: 0x7AE203670
-        public void Seek(){} // RVA: 0x7AE87A4C0
-        public void SetLength(){} // RVA: 0x7AE47D1C0
-        public void Read(){} // RVA: 0x7AE87A490
-        public void ReadByte(){} // RVA: 0x7ADBF6950
-        public void Write(){} // RVA: 0x7AE87A4F0
-        public void WriteByte(){} // RVA: 0x7AE87A520
+        public void .ctor(){} // RVA: 0xA385BE0
+        public void get_CanRead(){} // RVA: 0x6E859B0
+        public void get_CanSeek(){} // RVA: 0x6E859E0
+        public void get_CanWrite(){} // RVA: 0x74EEF10
+        public void get_Length(){} // RVA: 0x70F93D0
+        public void get_Position(){} // RVA: 0x70F9400
+        public void set_Position(){} // RVA: 0x7479BC0
+        public void Close(){} // RVA: 0xA385C80
+        public void Flush(){} // RVA: 0x6E861D0
+        public void Seek(){} // RVA: 0x74EEE80
+        public void SetLength(){} // RVA: 0x70F92B0
+        public void Read(){} // RVA: 0x74EEE50
+        public void ReadByte(){} // RVA: 0x6881B80
+        public void Write(){} // RVA: 0x74EEEB0
+        public void WriteByte(){} // RVA: 0x74EEEE0
     }
 
     public class MemoryInputStream : MemoryStream
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151A990
-        public void get_CanWrite(){} // RVA: 0x7A80D7320
+        public void .ctor(){} // RVA: 0xA385D00
+        public void get_CanWrite(){} // RVA: 0xB43320
     }
 
     public class MemoryOutputStream : MemoryStream
     {
         // ── Methods ──
-        public void get_CanRead(){} // RVA: 0x7A80D7320
-        public void .ctor(){} // RVA: 0x7B1357E90
+        public void get_CanRead(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0xA1C37E0
     }
 
     public class NullOutputStream : BaseOutputStream
     {
         // ── Methods ──
-        public void WriteByte(){} // RVA: 0x7A80D7310
-        public void Write(){} // RVA: 0x7A80D7310
-        public void .ctor(){} // RVA: 0x7B151A820
+        public void WriteByte(){} // RVA: 0xB43310
+        public void Write(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0xA385B90
     }
 
     public class PushbackStream : FilterStream
     {
+        public object buf;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151A9A0
-        public void ReadByte(){} // RVA: 0x7B151A9B0
-        public void Read(){} // RVA: 0x7B151A9F0
-        public void Unread(){} // RVA: 0x7B151AA60
+        public void .ctor(){} // RVA: 0xA385D10
+        public void ReadByte(){} // RVA: 0xA385D20
+        public void Read(){} // RVA: 0xA385D60
+        public void Unread(){} // RVA: 0xA385DD0
     }
 
     public class StreamOverflowException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADC13C20
+        public void .ctor(){} // RVA: 0x689ED90
     }
 
     public class Streams : Object
     {
+        public object BufferSize;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Drain(){} // RVA: 0x7B151AAD0
-        public void ReadAll(){} // RVA: 0x7B151AB60
-        public void ReadAllLimited(){} // RVA: 0x7B14EF960
-        public void ReadFully(){} // RVA: 0x7B151AD10
-        public void PipeAll(){} // RVA: 0x7B151ADB0
-        public void PipeAllLimited(){} // RVA: 0x7B151AE80
-        public void WriteBufTo(){} // RVA: 0x7B151AFF0
-        public void WriteZeroes(){} // RVA: 0x7B151B0D0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Drain(){} // RVA: 0xA385E40
+        public void ReadAll(){} // RVA: 0xA385ED0
+        public void ReadAllLimited(){} // RVA: 0xA35AD60
+        public void ReadFully(){} // RVA: 0xA386080
+        public void PipeAll(){} // RVA: 0xA386120
+        public void PipeAllLimited(){} // RVA: 0xA3861F0
+        public void WriteBufTo(){} // RVA: 0xA386360
+        public void WriteZeroes(){} // RVA: 0xA386440
     }
 
     public class TeeInputStream : BaseInputStream
     {
+        public object input;
+        public object tee;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151B1B0
-        public void Close(){} // RVA: 0x7B151B2C0
-        public void Read(){} // RVA: 0x7B151B360
-        public void ReadByte(){} // RVA: 0x7B151B3F0
+        public void .ctor(){} // RVA: 0xA386520
+        public void Close(){} // RVA: 0xA386630
+        public void Read(){} // RVA: 0xA3866D0
+        public void ReadByte(){} // RVA: 0xA386760
     }
 
     public class TeeOutputStream : BaseOutputStream
     {
+        public object output;
+        public object tee;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151B460
-        public void Close(){} // RVA: 0x7B151B570
-        public void Write(){} // RVA: 0x7B151B610
-        public void WriteByte(){} // RVA: 0x7B151B6A0
+        public void .ctor(){} // RVA: 0xA3867D0
+        public void Close(){} // RVA: 0xA3868E0
+        public void Write(){} // RVA: 0xA386980
+        public void WriteByte(){} // RVA: 0xA386A10
     }
 
 }

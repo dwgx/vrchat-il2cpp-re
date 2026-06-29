@@ -7,6 +7,12 @@ namespace VRC.SDK.Events
 {
     public class VRCRemoteString : VRCCustomAction
     {
+        public object urls;
+        public object behaviours;
+        public object variables;
+        public object f_954;
+        public object f_6E9;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x2516040
         public void Start(){} // RVA: 0x2516610

@@ -7,6 +7,25 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Landmark : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object XFieldNumber;
+        public object XDefaultValue;
+        public object x_;
+        public object YFieldNumber;
+        public object YDefaultValue;
+        public object y_;
+        public object ZFieldNumber;
+        public object ZDefaultValue;
+        public object z_;
+        public object VisibilityFieldNumber;
+        public object VisibilityDefaultValue;
+        public object visibility_;
+        public object PresenceFieldNumber;
+        public object PresenceDefaultValue;
+        public object presence_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658A460
         public void get_Descriptor(){} // RVA: 0x658A4C0
@@ -46,6 +65,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkList : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object LandmarkFieldNumber;
+        public object _repeated_landmark_codec;
+        public object landmark_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658B700
         public void get_Descriptor(){} // RVA: 0x658B760
@@ -66,6 +91,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkListCollection : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_landmarkList_codec;
+        public object landmarkList_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x658C670
         public void get_Descriptor(){} // RVA: 0x658C6D0
@@ -86,6 +116,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LandmarkReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6589700
         public void .cctor(){} // RVA: 0x6589760
@@ -99,6 +131,22 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LocationData : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object FormatFieldNumber;
+        public object FormatDefaultValue;
+        public object format_;
+        public object BoundingBoxFieldNumber;
+        public object boundingBox_;
+        public object RelativeBoundingBoxFieldNumber;
+        public object relativeBoundingBox_;
+        public object MaskFieldNumber;
+        public object mask_;
+        public object RelativeKeypointsFieldNumber;
+        public object _repeated_relativeKeypoints_codec;
+        public object relativeKeypoints_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6591470
         public void get_Descriptor(){} // RVA: 0x65914D0
@@ -129,6 +177,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class LocationDataReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6590490
         public void .cctor(){} // RVA: 0x65904F0

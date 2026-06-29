@@ -5,22 +5,13 @@
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0xA6E92A0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <Awake>b__2_0(){} // RVA: 0xA6E9340
-}
+    public object <>9;
+    public object <>9__16_1;
+    public object <>9__16_2;
+    public object <>9__16_3;
+    public object <>9__16_4;
+    public object <>9__16_0;
 
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
-    public void .cctor(){} // RVA: 0x31C0C90
-    public void .ctor(){} // RVA: 0xB43310
-}
-
-public class <>c : Object
-{
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x975D110
     public void Equals(){} // RVA: 0x975D130
@@ -39,6 +30,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__8_0;
+    public object <>9__8_1;
+    public object <>9__8_2;
+
     // ── Methods ──
     public void op_Implicit(){} // RVA: 0x97AF730
     public void Update(){} // RVA: 0x97AF7C0
@@ -56,6 +52,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__178_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x2553160
     public void .ctor(){} // RVA: 0xB43310
@@ -64,6 +63,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -72,6 +73,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xA7B7390
     public void .ctor(){} // RVA: 0xB43310
@@ -80,6 +83,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__61_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x6C92630
     public void .ctor(){} // RVA: 0xB43310
@@ -88,6 +94,10 @@ public class <>c : Object
 
 public class <>c__182`2 : Object
 {
+    public object <>9;
+    public object <>9__182_0;
+    public object <>9__182_1;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -97,6 +107,9 @@ public class <>c__182`2 : Object
 
 public class <>c__74`1 : Object
 {
+    public object <>9;
+    public object <>9__74_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x87D350
     public void Equals(){} // RVA: 0x87D350
@@ -112,6 +125,9 @@ public class <>c__74`1 : Object
 
 public class <>c__DisplayClass0_0 : Object
 {
+    public object val;
+    public object onVirtualUpdate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <Float>b__0(){} // RVA: 0xC763E0
@@ -121,6 +137,8 @@ public class <>c__DisplayClass0_0 : Object
 
 public class <>c__DisplayClass0_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOAspect>b__0(){} // RVA: 0x26F9E50
@@ -129,6 +147,9 @@ public class <>c__DisplayClass0_0 : Object
 
 public class <>c__DisplayClass10_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateLocalPositionTween>b__0(){} // RVA: 0xA706400
@@ -136,6 +157,8 @@ public class <>c__DisplayClass10_0 : Object
 
 public class <>c__DisplayClass10_0 : Object
 {
+    public object transform;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <FindRoot>g__MatchTransform|0(){} // RVA: 0x82D8720
@@ -143,6 +166,8 @@ public class <>c__DisplayClass10_0 : Object
 
 public class <>c__DisplayClass10_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOShakeRotation>b__0(){} // RVA: 0x26FA850
@@ -151,6 +176,9 @@ public class <>c__DisplayClass10_0 : Object
 
 public class <>c__DisplayClass11_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreatePathTween>b__0(){} // RVA: 0xA706400
@@ -158,6 +186,8 @@ public class <>c__DisplayClass11_0 : Object
 
 public class <>c__DisplayClass11_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOShakeRotation>b__0(){} // RVA: 0x26FA850
@@ -166,6 +196,8 @@ public class <>c__DisplayClass11_0 : Object
 
 public class <>c__DisplayClass128_0 : Object
 {
+    public object item;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <UpdateExecutionGroups>b__2(){} // RVA: 0x82FA1D0
@@ -173,6 +205,10 @@ public class <>c__DisplayClass128_0 : Object
 
 public class <>c__DisplayClass128_0 : Object
 {
+    public object <>4__this;
+    public object level;
+    public object debugReturn;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <EnqueueDebugReturn>b__0(){} // RVA: 0x6C8BD30
@@ -180,6 +216,9 @@ public class <>c__DisplayClass128_0 : Object
 
 public class <>c__DisplayClass128_1 : Object
 {
+    public object parent;
+    public object <>9__3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <UpdateExecutionGroups>b__3(){} // RVA: 0x82FA1F0
@@ -187,6 +226,9 @@ public class <>c__DisplayClass128_1 : Object
 
 public class <>c__DisplayClass129_0 : Object
 {
+    public object <>4__this;
+    public object statusValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <EnqueueStatusCallback>b__0(){} // RVA: 0x6C8BDA0
@@ -194,6 +236,9 @@ public class <>c__DisplayClass129_0 : Object
 
 public class <>c__DisplayClass12_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateLocalPathTween>b__0(){} // RVA: 0xA706400
@@ -201,6 +246,8 @@ public class <>c__DisplayClass12_0 : Object
 
 public class <>c__DisplayClass12_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26FAA00
@@ -209,6 +256,9 @@ public class <>c__DisplayClass12_0 : Object
 
 public class <>c__DisplayClass13_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateRotationTween>b__0(){} // RVA: 0xA706400
@@ -216,6 +266,8 @@ public class <>c__DisplayClass13_0 : Object
 
 public class <>c__DisplayClass13_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOIntensity>b__0(){} // RVA: 0x26FAB80
@@ -224,6 +276,9 @@ public class <>c__DisplayClass13_0 : Object
 
 public class <>c__DisplayClass14_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateLocalRotationTween>b__0(){} // RVA: 0xA706400
@@ -231,6 +286,8 @@ public class <>c__DisplayClass14_0 : Object
 
 public class <>c__DisplayClass14_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOShadowStrength>b__0(){} // RVA: 0x26FAC40
@@ -239,6 +296,9 @@ public class <>c__DisplayClass14_0 : Object
 
 public class <>c__DisplayClass15_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateScaleTween>b__0(){} // RVA: 0xA706400
@@ -246,6 +306,9 @@ public class <>c__DisplayClass15_0 : Object
 
 public class <>c__DisplayClass15_0 : Object
 {
+    public object startValue;
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26FAD00
@@ -254,6 +317,9 @@ public class <>c__DisplayClass15_0 : Object
 
 public class <>c__DisplayClass16_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateDelayedCallTween>b__0(){} // RVA: 0xA706400
@@ -261,6 +327,8 @@ public class <>c__DisplayClass16_0 : Object
 
 public class <>c__DisplayClass16_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26FAE60
@@ -269,6 +337,11 @@ public class <>c__DisplayClass16_0 : Object
 
 public class <>c__DisplayClass17_0 : Object
 {
+    public object target;
+    public object value;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateDelayedSetActiveTween>b__0(){} // RVA: 0xA706430
@@ -276,6 +349,9 @@ public class <>c__DisplayClass17_0 : Object
 
 public class <>c__DisplayClass17_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26FAF40
@@ -284,6 +360,10 @@ public class <>c__DisplayClass17_0 : Object
 
 public class <>c__DisplayClass18_0 : Object
 {
+    public object tweenData;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateFloatTween>b__0(){} // RVA: 0xA706530
@@ -292,6 +372,9 @@ public class <>c__DisplayClass18_0 : Object
 
 public class <>c__DisplayClass18_0 : Object
 {
+    public object target;
+    public object propertyID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26FAFC0
@@ -300,6 +383,12 @@ public class <>c__DisplayClass18_0 : Object
 
 public class <>c__DisplayClass19_0 : Object
 {
+    public object tweenData;
+    public object from;
+    public object to;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateColorTween>b__0(){} // RVA: 0xA706700
@@ -308,6 +397,8 @@ public class <>c__DisplayClass19_0 : Object
 
 public class <>c__DisplayClass1_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOColor>b__0(){} // RVA: 0x26F9F10
@@ -316,6 +407,10 @@ public class <>c__DisplayClass1_0 : Object
 
 public class <>c__DisplayClass20_0 : Object
 {
+    public object tweenData;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateIntTween>b__0(){} // RVA: 0xA706990
@@ -324,6 +419,9 @@ public class <>c__DisplayClass20_0 : Object
 
 public class <>c__DisplayClass20_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFade>b__0(){} // RVA: 0x26FAF40
@@ -332,6 +430,12 @@ public class <>c__DisplayClass20_0 : Object
 
 public class <>c__DisplayClass21_0 : Object
 {
+    public object tweenData;
+    public object from;
+    public object to;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateVector3Tween>b__0(){} // RVA: 0xA706B50
@@ -340,6 +444,9 @@ public class <>c__DisplayClass21_0 : Object
 
 public class <>c__DisplayClass21_0 : Object
 {
+    public object target;
+    public object propertyID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFade>b__0(){} // RVA: 0x26FAFC0
@@ -348,6 +455,9 @@ public class <>c__DisplayClass21_0 : Object
 
 public class <>c__DisplayClass22_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateAudioSourceVolumeTween>b__0(){} // RVA: 0xA706400
@@ -355,6 +465,9 @@ public class <>c__DisplayClass22_0 : Object
 
 public class <>c__DisplayClass22_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFloat>b__0(){} // RVA: 0x26FB0E0
@@ -363,6 +476,9 @@ public class <>c__DisplayClass22_0 : Object
 
 public class <>c__DisplayClass23_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateAudioSourcePitchTween>b__0(){} // RVA: 0xA706400
@@ -370,6 +486,9 @@ public class <>c__DisplayClass23_0 : Object
 
 public class <>c__DisplayClass23_0 : Object
 {
+    public object target;
+    public object propertyID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFloat>b__0(){} // RVA: 0x26FB170
@@ -378,6 +497,9 @@ public class <>c__DisplayClass23_0 : Object
 
 public class <>c__DisplayClass24_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateCanvasGroupFadeTween>b__0(){} // RVA: 0xA706400
@@ -385,6 +507,8 @@ public class <>c__DisplayClass24_0 : Object
 
 public class <>c__DisplayClass24_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOOffset>b__0(){} // RVA: 0x26FB1D0
@@ -393,6 +517,9 @@ public class <>c__DisplayClass24_0 : Object
 
 public class <>c__DisplayClass25_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateGraphicColorTween>b__0(){} // RVA: 0xA706400
@@ -400,6 +527,9 @@ public class <>c__DisplayClass25_0 : Object
 
 public class <>c__DisplayClass25_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOOffset>b__0(){} // RVA: 0x26FB210
@@ -408,6 +538,9 @@ public class <>c__DisplayClass25_0 : Object
 
 public class <>c__DisplayClass26_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateGraphicFadeTween>b__0(){} // RVA: 0xA706400
@@ -415,6 +548,8 @@ public class <>c__DisplayClass26_0 : Object
 
 public class <>c__DisplayClass26_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOTiling>b__0(){} // RVA: 0x26FB2A0
@@ -423,6 +558,9 @@ public class <>c__DisplayClass26_0 : Object
 
 public class <>c__DisplayClass27_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateSliderValueTween>b__0(){} // RVA: 0xA706400
@@ -430,6 +568,9 @@ public class <>c__DisplayClass27_0 : Object
 
 public class <>c__DisplayClass27_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOTiling>b__0(){} // RVA: 0x26FB2E0
@@ -438,6 +579,9 @@ public class <>c__DisplayClass27_0 : Object
 
 public class <>c__DisplayClass28_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateAnchorPosTween>b__0(){} // RVA: 0xA706400
@@ -445,6 +589,9 @@ public class <>c__DisplayClass28_0 : Object
 
 public class <>c__DisplayClass28_0 : Object
 {
+    public object target;
+    public object property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOVector>b__0(){} // RVA: 0x26FB370
@@ -453,6 +600,9 @@ public class <>c__DisplayClass28_0 : Object
 
 public class <>c__DisplayClass29_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateSizeDeltaTween>b__0(){} // RVA: 0xA706400
@@ -460,6 +610,9 @@ public class <>c__DisplayClass29_0 : Object
 
 public class <>c__DisplayClass29_0 : Object
 {
+    public object target;
+    public object propertyID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOVector>b__0(){} // RVA: 0x26FB3F0
@@ -468,6 +621,9 @@ public class <>c__DisplayClass29_0 : Object
 
 public class <>c__DisplayClass2_0 : Object
 {
+    public object motionDelay;
+    public object customEase;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <StopMotion>b__0(){} // RVA: 0x26E8040
@@ -475,6 +631,8 @@ public class <>c__DisplayClass2_0 : Object
 
 public class <>c__DisplayClass2_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFarClipPlane>b__0(){} // RVA: 0x26FA090
@@ -483,6 +641,9 @@ public class <>c__DisplayClass2_0 : Object
 
 public class <>c__DisplayClass30_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateSpriteRendererColorTween>b__0(){} // RVA: 0xA706400
@@ -490,6 +651,8 @@ public class <>c__DisplayClass30_0 : Object
 
 public class <>c__DisplayClass30_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOResize>b__0(){} // RVA: 0x26FB470
@@ -498,6 +661,9 @@ public class <>c__DisplayClass30_0 : Object
 
 public class <>c__DisplayClass31_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateSpriteRendererFadeTween>b__0(){} // RVA: 0xA706400
@@ -505,6 +671,8 @@ public class <>c__DisplayClass31_0 : Object
 
 public class <>c__DisplayClass31_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOTime>b__0(){} // RVA: 0x26FB610
@@ -513,6 +681,14 @@ public class <>c__DisplayClass31_0 : Object
 
 public class <>c__DisplayClass32_0 : Object
 {
+    public object target;
+    public object from;
+    public object to;
+    public object propertyBlock;
+    public object property;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateRendererColorTween>b__0(){} // RVA: 0xA706E10
@@ -521,6 +697,8 @@ public class <>c__DisplayClass32_0 : Object
 
 public class <>c__DisplayClass32_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOMove>b__0(){} // RVA: 0x26FB6D0
@@ -529,6 +707,12 @@ public class <>c__DisplayClass32_0 : Object
 
 public class <>c__DisplayClass33_0 : Object
 {
+    public object target;
+    public object propertyBlock;
+    public object property;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateRendererFloatTween>b__0(){} // RVA: 0xA707160
@@ -537,6 +721,8 @@ public class <>c__DisplayClass33_0 : Object
 
 public class <>c__DisplayClass33_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOMoveX>b__0(){} // RVA: 0x26FB6D0
@@ -545,6 +731,10 @@ public class <>c__DisplayClass33_0 : Object
 
 public class <>c__DisplayClass34_0 : Object
 {
+    public object target;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateLightIntensityTween>b__0(){} // RVA: 0xA707350
@@ -553,6 +743,8 @@ public class <>c__DisplayClass34_0 : Object
 
 public class <>c__DisplayClass34_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOMoveY>b__0(){} // RVA: 0x26FB6D0
@@ -561,6 +753,12 @@ public class <>c__DisplayClass34_0 : Object
 
 public class <>c__DisplayClass35_0 : Object
 {
+    public object target;
+    public object from;
+    public object to;
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateLightColorTween>b__0(){} // RVA: 0xA707450
@@ -569,36 +767,147 @@ public class <>c__DisplayClass35_0 : Object
 
 public class <>c__DisplayClass35_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOMoveZ>b__0(){} // RVA: 0x26FB6D0
     public void <DOMoveZ>b__1(){} // RVA: 0x26FB7A0
 }
 
+public class <>c__DisplayClass36_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalMove>b__0(){} // RVA: 0x26FB850
+    public void <DOLocalMove>b__1(){} // RVA: 0x26FB920
+}
+
 public class <>c__DisplayClass37_0 : Object
 {
+    public object comp;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <AddPhysBone>b__0(){} // RVA: 0x82FA440
 }
 
+public class <>c__DisplayClass37_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalMoveX>b__0(){} // RVA: 0x26FB850
+    public void <DOLocalMoveX>b__1(){} // RVA: 0x26FB920
+}
+
 public class <>c__DisplayClass38_0 : Object
 {
+    public object comp;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <RemovePhysBone>b__0(){} // RVA: 0x82FA580
 }
 
+public class <>c__DisplayClass38_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalMoveY>b__0(){} // RVA: 0x26FB850
+    public void <DOLocalMoveY>b__1(){} // RVA: 0x26FB920
+}
+
+public class <>c__DisplayClass39_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalMoveZ>b__0(){} // RVA: 0x26FB850
+    public void <DOLocalMoveZ>b__1(){} // RVA: 0x26FB920
+}
+
 public class <>c__DisplayClass3_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOFieldOfView>b__0(){} // RVA: 0x26FA150
     public void <DOFieldOfView>b__1(){} // RVA: 0x26FA1F0
 }
 
+public class <>c__DisplayClass40_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DORotate>b__0(){} // RVA: 0x26FB9D0
+    public void <DORotate>b__1(){} // RVA: 0x26FBAA0
+}
+
+public class <>c__DisplayClass41_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DORotateQuaternion>b__0(){} // RVA: 0x26FB9D0
+    public void <DORotateQuaternion>b__1(){} // RVA: 0x26FBAA0
+}
+
+public class <>c__DisplayClass42_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalRotate>b__0(){} // RVA: 0x26FBB50
+    public void <DOLocalRotate>b__1(){} // RVA: 0x26FBC20
+}
+
+public class <>c__DisplayClass43_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOLocalRotateQuaternion>b__0(){} // RVA: 0x26FBB50
+    public void <DOLocalRotateQuaternion>b__1(){} // RVA: 0x26FBC20
+}
+
+public class <>c__DisplayClass44_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOScale>b__0(){} // RVA: 0x26FBCD0
+    public void <DOScale>b__1(){} // RVA: 0x26FBDA0
+}
+
+public class <>c__DisplayClass45_0 : Object
+{
+    public object target;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <DOScale>b__0(){} // RVA: 0x26FBCD0
+    public void <DOScale>b__1(){} // RVA: 0x26FBDA0
+}
+
 public class <>c__DisplayClass46_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <SetTweenOnRewind>b__0(){} // RVA: 0xA707660
@@ -606,6 +915,8 @@ public class <>c__DisplayClass46_0 : Object
 
 public class <>c__DisplayClass4_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DONearClipPlane>b__0(){} // RVA: 0x26FA210
@@ -614,6 +925,8 @@ public class <>c__DisplayClass4_0 : Object
 
 public class <>c__DisplayClass53_0 : Object
 {
+    public object collider;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <AddCollider>b__0(){} // RVA: 0x82FA6C0
@@ -621,13 +934,8 @@ public class <>c__DisplayClass53_0 : Object
 
 public class <>c__DisplayClass5_0 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <UserEntries>b__1(){} // RVA: 0x68E52E0
-}
+    public object target;
 
-public class <>c__DisplayClass5_0 : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOOrthoSize>b__0(){} // RVA: 0x26FA2D0
@@ -636,6 +944,9 @@ public class <>c__DisplayClass5_0 : Object
 
 public class <>c__DisplayClass61_0 : Object
 {
+    public object v;
+    public object setter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <To>b__0(){} // RVA: 0xC763E0
@@ -644,6 +955,8 @@ public class <>c__DisplayClass61_0 : Object
 
 public class <>c__DisplayClass6_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOPixelRect>b__0(){} // RVA: 0x26FA390
@@ -652,6 +965,8 @@ public class <>c__DisplayClass6_0 : Object
 
 public class <>c__DisplayClass7_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DORect>b__0(){} // RVA: 0x26FA510
@@ -660,6 +975,8 @@ public class <>c__DisplayClass7_0 : Object
 
 public class <>c__DisplayClass8_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOShakePosition>b__0(){} // RVA: 0x26FA690
@@ -668,6 +985,9 @@ public class <>c__DisplayClass8_0 : Object
 
 public class <>c__DisplayClass9_0 : Object
 {
+    public object <>4__this;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreatePositionTween>b__0(){} // RVA: 0xA706400
@@ -675,32 +995,21 @@ public class <>c__DisplayClass9_0 : Object
 
 public class <>c__DisplayClass9_0 : Object
 {
+    public object target;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <DOShakePosition>b__0(){} // RVA: 0x26FA690
     public void <DOShakePosition>b__1(){} // RVA: 0x26FA780
 }
 
-public class <CaretBlink>d__172 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x371EFB0
-    public void MoveNext(){} // RVA: 0xA6F89C0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0xA6F8BA0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
-public class <DisposeInternal>d__15 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0xA75CD0
-    public void SetStateMachine(){} // RVA: 0x3FC0
-}
-
 public class <FinalRenderCapture>d__216 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <wait>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -712,6 +1021,11 @@ public class <FinalRenderCapture>d__216 : Object
 
 public class <GetChains>d__58 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -723,6 +1037,11 @@ public class <GetChains>d__58 : Object
 
 public class <GetEnumerator>d__13 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -734,6 +1053,12 @@ public class <GetEnumerator>d__13 : Object
 
 public class <GetEnumerator>d__14 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <group>5__2;
+    public object <first>5__3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -745,6 +1070,11 @@ public class <GetEnumerator>d__14 : Object
 
 public class <GetEnumerator>d__20 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -756,6 +1086,12 @@ public class <GetEnumerator>d__20 : Object
 
 public class <GetGrabs>d__154 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object <>4__this;
+    public object <i>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1093150
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -769,6 +1105,11 @@ public class <GetGrabs>d__154 : Object
 
 public class <GetShapeData>d__11 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -778,33 +1119,12 @@ public class <GetShapeData>d__11 : Object
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x82A4130
 }
 
-public class <LoadImageAsync>d__48 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0xA75C80
-    public void SetStateMachine(){} // RVA: 0xA75C90
-}
-
-public class <MouseDragOutsideRect>d__194 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x371EFB0
-    public void MoveNext(){} // RVA: 0xA6F8BE0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0xA6F9010
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
-public class <RunUdonEventOnMainThreadAndRemoveFromQueue>d__50 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0xA75CC0
-    public void SetStateMachine(){} // RVA: 0x3FC0
-}
-
 public class <SwapPlayers>d__77 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -812,18 +1132,4 @@ public class <SwapPlayers>d__77 : Object
     public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x254D400
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
-public class <UploadAllMipMapsCPU>d__25 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0xA75CE0
-    public void SetStateMachine(){} // RVA: 0x3FC0
-}
-
-public class <UploadMipMapSliced>d__24 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0xA75CF0
-    public void SetStateMachine(){} // RVA: 0xA75D00
 }

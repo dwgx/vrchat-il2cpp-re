@@ -7,6 +7,10 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class DelegateProperty`2 : Property`2
     {
+        public object m_Getter;
+        public object m_Setter;
+        public object _name;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x87C0A0
         public void get_IsReadOnly(){} // RVA: 0x87D280

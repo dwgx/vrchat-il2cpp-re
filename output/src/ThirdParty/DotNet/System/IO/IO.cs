@@ -1,12 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.IO
-// Classes: 63
-// Methods: 743
+// Classes: 62
+// Methods: 728
 
 namespace ThirdParty.DotNet.System.IO
 {
     public class BinaryReader : Object
     {
+        public object m_stream;
+        public object m_buffer;
+        public object m_decoder;
+        public object m_charBytes;
+        public object m_singleChar;
+        public object m_charBuffer;
+        public object m_maxCharsSize;
+        public object m_2BytesPerChar;
+        public object m_isMemoryStream;
+        public object m_leaveOpen;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68CF880
         public void get_BaseStream(){} // RVA: 0xB5DBF0
@@ -37,6 +48,15 @@ namespace ThirdParty.DotNet.System.IO
 
     public class BinaryWriter : Object
     {
+        public object Null;
+        public object OutStream;
+        public object _buffer;
+        public object _encoding;
+        public object _encoder;
+        public object _leaveOpen;
+        public object _largeByteBuffer;
+        public object _maxChars;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68D1BA0
         public void Close(){} // RVA: 0x25CC6C0
@@ -51,6 +71,15 @@ namespace ThirdParty.DotNet.System.IO
 
     public class BufferedStream : Stream
     {
+        public object _stream;
+        public object _buffer;
+        public object _bufferSize;
+        public object _readPos;
+        public object _readLen;
+        public object _writePos;
+        public object _lastSyncCompletedReadTask;
+        public object _asyncActiveSemaphore;
+
         // ── Methods ──
         public void LazyEnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x68BF010
         public void .ctor(){} // RVA: 0x68BF180
@@ -100,6 +129,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class CStreamReader : StreamReader
     {
+        public object driver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68E1DE0
         public void Peek(){} // RVA: 0x68E16A0
@@ -110,6 +141,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class CStreamWriter : StreamWriter
     {
+        public object driver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68E2340
         public void Write(){} // RVA: 0x68E2AA0
@@ -121,6 +154,11 @@ namespace ThirdParty.DotNet.System.IO
 
     public class DefaultWatcher : Object
     {
+        public object instance;
+        public object thread;
+        public object watches;
+        public object NoStringsArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void GetInstance(){} // RVA: 0x771D950
@@ -138,6 +176,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class DefaultWatcherData : Object
     {
+        public object FSW;
+        public object Directory;
+        public object FileMask;
+        public object IncludeSubdirs;
+        public object Enabled;
+        public object NoWildcards;
+        public object DisabledTime;
+        public object FilesLock;
+        public object Files;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x771D8C0
     }
@@ -180,6 +228,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class DisableMediaInsertionPrompt : ValueType
     {
+        public object _disableSuccess;
+        public object _oldMode;
+        public object useUWPFallback;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x6899630
         public void Dispose(){} // RVA: 0x8B5E00
@@ -199,6 +251,17 @@ namespace ThirdParty.DotNet.System.IO
 
     public class EnumerationOptions : Object
     {
+        public object _compatible;
+        public object _compatibleRecursive;
+        public object _default;
+        public object _recurseSubdirectories;
+        public object _ignoreInaccessible;
+        public object _bufferSize;
+        public object _attributesToSkip;
+        public object _matchType;
+        public object _matchCasing;
+        public object _returnSpecialDirectories;
+
         // ── Methods ──
         public void get_Compatible(){} // RVA: 0x68BAD80
         public void get_CompatibleRecursive(){} // RVA: 0x68BADE0
@@ -278,6 +341,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileData : Object
     {
+        public object Directory;
+        public object Attributes;
+        public object NotExists;
+        public object CreationTime;
+        public object LastWriteTime;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -300,6 +369,12 @@ namespace ThirdParty.DotNet.System.IO
     public class FileInfo[] : Array
     {
         // ── Methods ──
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
         public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
         public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
@@ -309,36 +384,13 @@ namespace ThirdParty.DotNet.System.IO
         public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
         public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
         public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-    }
-
-    public class FileInfo[][] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class FileLoadException : IOException
     {
+        public object _fileName;
+        public object _fusionLog;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x689DEF0
         public void get_Message(){} // RVA: 0x689DC00
@@ -351,6 +403,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileNotFoundException : IOException
     {
+        public object _fileName;
+        public object _fusionLog;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x689E8F0
         public void get_Message(){} // RVA: 0x689E4A0
@@ -363,6 +418,24 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStream : Stream
     {
+        public object buf_recycle;
+        public object buf_recycle_lock;
+        public object buf;
+        public object name;
+        public object safeHandle;
+        public object isExposed;
+        public object append_startpos;
+        public object access;
+        public object owner;
+        public object async;
+        public object canseek;
+        public object anonymous;
+        public object buf_dirty;
+        public object buf_size;
+        public object buf_length;
+        public object buf_offset;
+        public object buf_start;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68D4650
         public void Init(){} // RVA: 0x68D50C0
@@ -406,6 +479,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileStreamAsyncResult : Object
     {
+        public object state;
+        public object completed;
+        public object wh;
+        public object cb;
+        public object completedSynch;
+        public object Count;
+        public object OriginalCount;
+        public object BytesRead;
+        public object realcb;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68D8A60
         public void CBWrapper(){} // RVA: 0x68D8C90
@@ -462,6 +545,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemEventArgs : EventArgs
     {
+        public object _changeType;
+        public object _name;
+        public object _fullPath;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x771D000
         public void Combine(){} // RVA: 0x771D1A0
@@ -478,6 +565,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemInfo : MarshalByRefObject
     {
+        public object _data;
+        public object _dataInitialized;
+        public object FullPath;
+        public object OriginalPath;
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68BE4E0
         public void Create(){} // RVA: 0x68BDF50
@@ -508,6 +601,30 @@ namespace ThirdParty.DotNet.System.IO
 
     public class FileSystemWatcher : Component
     {
+        public object inited;
+        public object start_requested;
+        public object enableRaisingEvents;
+        public object filter;
+        public object includeSubdirectories;
+        public object internalBufferSize;
+        public object notifyFilter;
+        public object path;
+        public object fullpath;
+        public object synchronizingObject;
+        public object lastData;
+        public object waiting;
+        public object pattern;
+        public object disposed;
+        public object mangledFilter;
+        public object watcher;
+        public object watcher_handle;
+        public object lockobj;
+        public object Changed;
+        public object Created;
+        public object Deleted;
+        public object Error;
+        public object Renamed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7720CE0
         public void InitWatcher(){} // RVA: 0x7720FC0
@@ -573,6 +690,17 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MemoryStream : Stream
     {
+        public object _buffer;
+        public object _origin;
+        public object _position;
+        public object _length;
+        public object _capacity;
+        public object _expandable;
+        public object _writable;
+        public object _exposable;
+        public object _isOpen;
+        public object _lastReadTask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x689F190
         public void get_CanRead(){} // RVA: 0x1DE3FA0
@@ -610,6 +738,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class MonoIO : Object
     {
+        public object InvalidHandle;
+        public object dump_handles;
+
         // ── Methods ──
         public void GetException(){} // RVA: 0x68D8E50
         public void GetCurrentDirectory(){} // RVA: 0x68D96C0
@@ -646,6 +777,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class NullFileWatcher : Object
     {
+        public object instance;
+
         // ── Methods ──
         public void StartDispatching(){} // RVA: 0xB43310
         public void StopDispatching(){} // RVA: 0xB43310
@@ -656,6 +789,17 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Path : Object
     {
+        public object InvalidPathChars;
+        public object AltDirectorySeparatorChar;
+        public object DirectorySeparatorChar;
+        public object PathSeparator;
+        public object DirectorySeparatorStr;
+        public object VolumeSeparatorChar;
+        public object PathSeparatorChars;
+        public object dirEqualsVolume;
+        public object trimEndCharsWindows;
+        public object trimEndCharsUnix;
+
         // ── Methods ──
         public void ChangeExtension(){} // RVA: 0x68DAAC0
         public void Combine(){} // RVA: 0x68DF2A0
@@ -692,6 +836,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PathInternal : Object
     {
+        public object s_isCaseSensitive;
+
         // ── Methods ──
         public void IsValidDriveChar(){} // RVA: 0x68A1F50
         public void EndsWithPeriodOrSpace(){} // RVA: 0x68A1F70
@@ -718,6 +864,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PathInternal : Object
     {
+        public object s_isCaseSensitive;
+
         // ── Methods ──
         public void get_StringComparison(){} // RVA: 0x771D310
         public void GetIsCaseSensitive(){} // RVA: 0x771D370
@@ -732,6 +880,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class PinnedBufferMemoryStream : UnmanagedMemoryStream
     {
+        public object _array;
+        public object _pinningHandle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68A3800
         public void Read(){} // RVA: 0x68A3950
@@ -742,6 +893,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class RenamedEventArgs : FileSystemEventArgs
     {
+        public object _oldName;
+        public object _oldFullPath;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x771D5E0
     }
@@ -755,6 +909,13 @@ namespace ThirdParty.DotNet.System.IO
 
     public class SearchPattern2 : Object
     {
+        public object ops;
+        public object ignore;
+        public object hasWildcard;
+        public object pattern;
+        public object WildcardChars;
+        public object InvalidChars;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7723690
         public void get_HasWildcard(){} // RVA: 0xF43F30
@@ -764,6 +925,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class Stream : MarshalByRefObject
     {
+        public object Null;
+        public object _activeReadWriteTask;
+        public object _asyncActiveSemaphore;
+
         // ── Methods ──
         public void EnsureAsyncActiveSemaphoreInitialized(){} // RVA: 0x68C7D90
         public void get_CanRead(){} // RVA: 0x87D280
@@ -825,6 +990,23 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamReader : TextReader
     {
+        public object Null;
+        public object _stream;
+        public object _encoding;
+        public object _decoder;
+        public object _byteBuffer;
+        public object _charBuffer;
+        public object _charPos;
+        public object _charLen;
+        public object _byteLen;
+        public object _bytePos;
+        public object _maxCharsPerBuffer;
+        public object _detectEncoding;
+        public object _checkPreamble;
+        public object _isBlocked;
+        public object _closable;
+        public object _asyncReadTask;
+
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x68A3CE0
         public void ThrowAsyncIOInProgress(){} // RVA: 0x68A3D80
@@ -856,6 +1038,19 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StreamWriter : TextWriter
     {
+        public object Null;
+        public object _stream;
+        public object _encoding;
+        public object _encoder;
+        public object _byteBuffer;
+        public object _charBuffer;
+        public object _charPos;
+        public object _charLen;
+        public object _autoFlush;
+        public object _haveWrittenPreamble;
+        public object _closable;
+        public object _asyncWriteTask;
+
         // ── Methods ──
         public void CheckAsyncTaskInProgress(){} // RVA: 0x68AB080
         public void ThrowAsyncIOInProgress(){} // RVA: 0x68AB120
@@ -907,6 +1102,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StringReader : TextReader
     {
+        public object _s;
+        public object _pos;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68D2F10
         public void Close(){} // RVA: 0x6729490
@@ -921,6 +1120,10 @@ namespace ThirdParty.DotNet.System.IO
 
     public class StringWriter : TextWriter
     {
+        public object m_encoding;
+        public object _sb;
+        public object _isOpen;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68D3910
         public void Close(){} // RVA: 0x68D3A30
@@ -936,6 +1139,8 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextReader : MarshalByRefObject
     {
+        public object Null;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Close(){} // RVA: 0x68B0BF0
@@ -953,6 +1158,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class TextWriter : MarshalByRefObject
     {
+        public object Null;
+        public object s_coreNewLine;
+        public object CoreNewLine;
+        public object CoreNewLineStr;
+        public object _internalFormatProvider;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68B2F10
         public void get_FormatProvider(){} // RVA: 0x68B3090
@@ -973,6 +1184,9 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnexceptionalStreamReader : StreamReader
     {
+        public object newline;
+        public object newlineChar;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x68E1520
         public void .ctor(){} // RVA: 0x68E1610
@@ -993,6 +1207,14 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryAccessor : Object
     {
+        public object _buffer;
+        public object _offset;
+        public object _capacity;
+        public object _access;
+        public object _isOpen;
+        public object _canRead;
+        public object _canWrite;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2141350
         public void Initialize(){} // RVA: 0x68B57C0
@@ -1003,6 +1225,16 @@ namespace ThirdParty.DotNet.System.IO
 
     public class UnmanagedMemoryStream : Stream
     {
+        public object _buffer;
+        public object _mem;
+        public object _length;
+        public object _capacity;
+        public object _position;
+        public object _offset;
+        public object _access;
+        public object _isOpen;
+        public object _lastReadTask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68B5D60
         public void Initialize(){} // RVA: 0x68B5DF0
@@ -1033,6 +1265,12 @@ namespace ThirdParty.DotNet.System.IO
 
     public class WaitForChangedResult : ValueType
     {
+        public object TimedOutResult;
+        public object _changeType;
+        public object _name;
+        public object _oldName;
+        public object _timedOut;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x91F630
         public void set_ChangeType(){} // RVA: 0x29580

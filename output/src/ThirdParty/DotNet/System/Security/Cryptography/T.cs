@@ -7,6 +7,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class TailStream : Stream
     {
+        public object _Buffer;
+        public object _BufferSize;
+        public object _BufferIndex;
+        public object _BufferFull;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F93B0
         public void Clear(){} // RVA: 0x66E7B30
@@ -42,6 +47,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class TripleDES : SymmetricAlgorithm
     {
+        public object s_legalBlockSizes;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6716E10
         public void get_Key(){} // RVA: 0x6716F40
@@ -65,6 +73,13 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class TripleDESTransform : SymmetricTransform
     {
+        public object E1;
+        public object D2;
+        public object E3;
+        public object D1;
+        public object E2;
+        public object D3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67273F0
         public void ECB(){} // RVA: 0x6727D30

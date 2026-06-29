@@ -1,590 +1,798 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Threading.Tasks
-// Classes: 67
-// Methods: 247
+// Classes: 70
+// Methods: 246
 
 namespace ThirdParty.DotNet.System.Threading.Tasks
 {
     public class TaskAsyncEnumerableExtensions : Object
     {
         // ── Methods ──
-        public void ConfigureAwait(){} // RVA: 0x7AE0A81F0
+        public void ConfigureAwait(){} // RVA: 0x6D293E0
     }
 
     public class TaskAwaiters : Object
     {
         // ── Methods ──
-        public void ForceAsync(){} // RVA: 0x7A8DBD970
+        public void ForceAsync(){} // RVA: 0x18D7680
     }
 
     public class TaskCanceledException : OperationCanceledException
     {
+        public object _canceledTask;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABEC9BF0
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void SpinUntilCompleted(){} // RVA: 0x7ABEC9CB0
-        public void TrySetException(){} // RVA: 0x7ABEC9DC0
-        public void SetException(){} // RVA: 0x7ABEC9E20
-        public void TrySetResult(){} // RVA: 0x7ABEC9E90
-        public void SetResult(){} // RVA: 0x7ABEC9ED0
-        public void TrySetCanceled(){} // RVA: 0x7ABEC9FA0
-        public void SetCanceled(){} // RVA: 0x7ABECA030
+        public void .ctor(){} // RVA: 0x4BB8050
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void SpinUntilCompleted(){} // RVA: 0x4BB8110
+        public void TrySetException(){} // RVA: 0x4BB8220
+        public void SetException(){} // RVA: 0x4BB8280
+        public void TrySetResult(){} // RVA: 0x4BB82F0
+        public void SetResult(){} // RVA: 0x4BB8330
+        public void TrySetCanceled(){} // RVA: 0x4BB8400
+        public void SetCanceled(){} // RVA: 0x4BB8490
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECBB30
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void SpinUntilCompleted(){} // RVA: 0x7ABECBC00
-        public void TrySetException(){} // RVA: 0x7ABECBD10
-        public void SetException(){} // RVA: 0x7ABECBD90
-        public void TrySetResult(){} // RVA: 0x7ABECBDE0
-        public void SetResult(){} // RVA: 0x7ABECBEF0
-        public void TrySetCanceled(){} // RVA: 0x7ABECC000
-        public void SetCanceled(){} // RVA: 0x7ABECC0B0
+        public void .ctor(){} // RVA: 0x4BB9F90
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void SpinUntilCompleted(){} // RVA: 0x4BBA060
+        public void TrySetException(){} // RVA: 0x4BBA170
+        public void SetException(){} // RVA: 0x4BBA1F0
+        public void TrySetResult(){} // RVA: 0x4BBA240
+        public void SetResult(){} // RVA: 0x4BBA350
+        public void TrySetCanceled(){} // RVA: 0x4BBA460
+        public void SetCanceled(){} // RVA: 0x4BBA510
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECAC20
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void TrySetResult(){} // RVA: 0x7ABECAF00
+        public void .ctor(){} // RVA: 0x4BB9080
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void TrySetResult(){} // RVA: 0x4BB9360
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECBB30
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void SpinUntilCompleted(){} // RVA: 0x7ABECBC00
-        public void TrySetException(){} // RVA: 0x7ABECBD10
-        public void SetException(){} // RVA: 0x7ABECBD90
-        public void TrySetResult(){} // RVA: 0x7ABECBDE0
-        public void SetResult(){} // RVA: 0x7ABECBEF0
-        public void TrySetCanceled(){} // RVA: 0x7ABECC000
-        public void SetCanceled(){} // RVA: 0x7ABECC0B0
+        public void .ctor(){} // RVA: 0x4BB9F90
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void SpinUntilCompleted(){} // RVA: 0x4BBA060
+        public void TrySetException(){} // RVA: 0x4BBA170
+        public void SetException(){} // RVA: 0x4BBA1F0
+        public void TrySetResult(){} // RVA: 0x4BBA240
+        public void SetResult(){} // RVA: 0x4BBA350
+        public void TrySetCanceled(){} // RVA: 0x4BBA460
+        public void SetCanceled(){} // RVA: 0x4BBA510
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECB700
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void SpinUntilCompleted(){} // RVA: 0x7ABECB7C0
-        public void TrySetException(){} // RVA: 0x7ABECB8D0
-        public void SetException(){} // RVA: 0x7ABECB930
-        public void TrySetResult(){} // RVA: 0x7ABECB9A0
-        public void SetResult(){} // RVA: 0x7ABECB9E0
-        public void TrySetCanceled(){} // RVA: 0x7ABECBA30
-        public void SetCanceled(){} // RVA: 0x7ABECBAC0
+        public void .ctor(){} // RVA: 0x4BB9B60
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void SpinUntilCompleted(){} // RVA: 0x4BB9C20
+        public void TrySetException(){} // RVA: 0x4BB9D30
+        public void SetException(){} // RVA: 0x4BB9D90
+        public void TrySetResult(){} // RVA: 0x4BB9E00
+        public void SetResult(){} // RVA: 0x4BB9E40
+        public void TrySetCanceled(){} // RVA: 0x4BB9E90
+        public void SetCanceled(){} // RVA: 0x4BB9F20
     }
 
     public class TaskCompletionSource`1 : Object
     {
+        public object _task;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECA760
-        public void get_Task(){} // RVA: 0x7A80F2570
-        public void SpinUntilCompleted(){} // RVA: 0x7ABECA820
-        public void TrySetException(){} // RVA: 0x7ABECA930
-        public void SetException(){} // RVA: 0x7ABECA990
-        public void TrySetResult(){} // RVA: 0x7ABECAA00
-        public void SetResult(){} // RVA: 0x7ABECAA40
-        public void TrySetCanceled(){} // RVA: 0x7ABECAA90
-        public void SetCanceled(){} // RVA: 0x7ABECAB20
+        public void .ctor(){} // RVA: 0x4BB8BC0
+        public void get_Task(){} // RVA: 0xB5DBF0
+        public void SpinUntilCompleted(){} // RVA: 0x4BB8C80
+        public void TrySetException(){} // RVA: 0x4BB8D90
+        public void SetException(){} // RVA: 0x4BB8DF0
+        public void TrySetResult(){} // RVA: 0x4BB8E60
+        public void SetResult(){} // RVA: 0x4BB8EA0
+        public void TrySetCanceled(){} // RVA: 0x4BB8EF0
+        public void SetCanceled(){} // RVA: 0x4BB8F80
     }
 
     public class TaskFactory`1 : Object
     {
+        public object m_defaultCancellationToken;
+        public object m_defaultScheduler;
+        public object m_defaultCreationOptions;
+        public object m_defaultContinuationOptions;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECC1C0
+        public void StartNew(){} // RVA: 0x4BBBE50
+        public void .ctor(){} // RVA: 0x4BBA620
     }
 
     public class TaskFactory`1 : Object
     {
+        public object m_defaultCancellationToken;
+        public object m_defaultScheduler;
+        public object m_defaultCreationOptions;
+        public object m_defaultContinuationOptions;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABECC1C0
+        public void .ctor(){} // RVA: 0x4BBA620
+    }
+
+    public class TaskFactory`1 : Object
+    {
+        public object m_defaultCancellationToken;
+        public object m_defaultScheduler;
+        public object m_defaultCreationOptions;
+        public object m_defaultContinuationOptions;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4BBA620
     }
 
     public class TaskSchedulerException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADD308B0
+        public void .ctor(){} // RVA: 0x69B9650
+    }
+
+    public class TaskToApm : Object
+    {
+        // ── Methods ──
+        public void Begin(){} // RVA: 0x69B96D0
+        public void End(){} // RVA: 0x2A35200
+        public void InvokeCallbackWhenTaskCompletes(){} // RVA: 0x69B9980
+    }
+
+    public class TaskToApm : Object
+    {
+        // ── Methods ──
+        public void Begin(){} // RVA: 0x7248810
+        public void End(){} // RVA: 0xA94080
+        public void InvokeCallbackWhenTaskCompletes(){} // RVA: 0x7248AC0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_Factory(){} // RVA: 0x4CBDDC0
+        public void .ctor(){} // RVA: 0x4CBFFE0
+        public void StartNew(){} // RVA: 0x4CC02C0
+        public void TrySetResult(){} // RVA: 0x4CBD950
+        public void DangerousSetResult(){} // RVA: 0x4CBDAA0
+        public void get_Result(){} // RVA: 0x4CBDB30
+        public void get_ResultOnSuccess(){} // RVA: 0x4CBDC80
+        public void GetResultCore(){} // RVA: 0x4CBDC90
+        public void InnerInvoke(){} // RVA: 0x4CBE000
+        public void GetAwaiter(){} // RVA: 0x4CBE190
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
+        public void ContinueWith(){} // RVA: 0xA94080
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void get_ResultOnSuccess(){} // RVA: 0x4CD0AB0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABFDCE00
-        public void TrySetResult(){} // RVA: 0x7ABFDD750
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4CD6C30
+        public void TrySetResult(){} // RVA: 0x4CD7580
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15AAA0
-        public void TrySetResult(){} // RVA: 0x7ABFD0690
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD09C0
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABFD3990
-        public void TrySetResult(){} // RVA: 0x7ABFD4240
+        public void .ctor(){} // RVA: 0x4E54BE0
+        public void TrySetResult(){} // RVA: 0x4CBD950
+        public void get_ResultOnSuccess(){} // RVA: 0x4CBDC80
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABFD4E80
-        public void TrySetResult(){} // RVA: 0x7ABFD5730
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABFD6120
-        public void TrySetResult(){} // RVA: 0x7ABFD69D0
+        public void .ctor(){} // RVA: 0x4CCD7C0
+        public void TrySetResult(){} // RVA: 0x4CCE070
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4CCECB0
+        public void TrySetResult(){} // RVA: 0x4CCF560
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4CCFF50
+        public void TrySetResult(){} // RVA: 0x4CD0800
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4CD14D0
+        public void TrySetResult(){} // RVA: 0x4CD0800
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4CD2570
+        public void TrySetResult(){} // RVA: 0x4CCF560
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E3A820
+        public void TrySetResult(){} // RVA: 0x4E3B0D0
+        public void get_ResultOnSuccess(){} // RVA: 0x4CCE2D0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD09C0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD09C0
-        public void .ctor(){} // RVA: 0x7ABFCFD60
-        public void TrySetResult(){} // RVA: 0x7ABFD0690
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0x4CBDC80
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD09C0
+        public void get_ResultOnSuccess(){} // RVA: 0x4CBDC80
+        public void .ctor(){} // RVA: 0x4CBD020
+        public void TrySetResult(){} // RVA: 0x4CBD950
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E6A0
-        public void StartNew(){} // RVA: 0x7AC15E980
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void DangerousSetResult(){} // RVA: 0x7AC15EC60
-        public void get_Result(){} // RVA: 0x7AC15ED00
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void GetResultCore(){} // RVA: 0x7ABFDA2F0
-        public void get_Factory(){} // RVA: 0x7ABFD0B00
-        public void InnerInvoke(){} // RVA: 0x7AC15ED40
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD09C0
-        public void .ctor(){} // RVA: 0x7AC163530
-        public void TrySetResult(){} // RVA: 0x7ABFD0690
+        public void .ctor(){} // RVA: 0x4E587E0
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void get_Result(){} // RVA: 0x4E58E40
+        public void StartNew(){} // RVA: 0x4E58AC0
+        public void DangerousSetResult(){} // RVA: 0x4E58DA0
+        public void GetResultCore(){} // RVA: 0x4CD4120
+        public void get_Factory(){} // RVA: 0x4CBDDC0
+        public void InnerInvoke(){} // RVA: 0x4E58E80
+        public void GetAwaiter(){} // RVA: 0x4CBE190
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
+        public void ContinueWith(){} // RVA: 0xA94080
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC171C50
-        public void StartNew(){} // RVA: 0x7AC171F60
-        public void TrySetResult(){} // RVA: 0x7AC172130
-        public void DangerousSetResult(){} // RVA: 0x7AC1722B0
-        public void get_Result(){} // RVA: 0x7A80804D0
-        public void get_ResultOnSuccess(){} // RVA: 0x7A80804D0
-        public void GetResultCore(){} // RVA: 0x7A80804D0
-        public void get_Factory(){} // RVA: 0x7AC1726A0
-        public void InnerInvoke(){} // RVA: 0x7AC172870
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x4E587E0
+        public void StartNew(){} // RVA: 0x4E58AC0
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void DangerousSetResult(){} // RVA: 0x4E58DA0
+        public void get_Result(){} // RVA: 0x4E58E40
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void GetResultCore(){} // RVA: 0x4CD4120
+        public void get_Factory(){} // RVA: 0x4CBDDC0
+        public void InnerInvoke(){} // RVA: 0x4E58E80
+        public void GetAwaiter(){} // RVA: 0x4CBE190
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
+        public void ContinueWith(){} // RVA: 0xA94080
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC171C50
-        public void StartNew(){} // RVA: 0x7AC171F60
-        public void TrySetResult(){} // RVA: 0x7AC172130
-        public void DangerousSetResult(){} // RVA: 0x7AC1722B0
-        public void get_Result(){} // RVA: 0x7A80804D0
-        public void get_ResultOnSuccess(){} // RVA: 0x7A80804D0
-        public void GetResultCore(){} // RVA: 0x7A80804D0
-        public void get_Factory(){} // RVA: 0x7AC1726A0
-        public void InnerInvoke(){} // RVA: 0x7AC172870
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E6A0
-        public void StartNew(){} // RVA: 0x7AC15E980
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void DangerousSetResult(){} // RVA: 0x7AC15EC60
-        public void get_Result(){} // RVA: 0x7AC15ED00
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void GetResultCore(){} // RVA: 0x7ABFDA2F0
-        public void get_Factory(){} // RVA: 0x7ABFD0B00
-        public void InnerInvoke(){} // RVA: 0x7AC15ED40
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC171C50
-        public void StartNew(){} // RVA: 0x7AC171F60
-        public void TrySetResult(){} // RVA: 0x7AC172130
-        public void DangerousSetResult(){} // RVA: 0x7AC1722B0
-        public void get_Result(){} // RVA: 0x7A80804D0
-        public void get_ResultOnSuccess(){} // RVA: 0x7A80804D0
-        public void GetResultCore(){} // RVA: 0x7A80804D0
-        public void get_Factory(){} // RVA: 0x7AC1726A0
-        public void InnerInvoke(){} // RVA: 0x7AC172870
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void get_ResultOnSuccess(){} // RVA: 0x4CBDC80
+        public void .ctor(){} // RVA: 0x4E5D670
+        public void TrySetResult(){} // RVA: 0x4CBD950
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC171C50
-        public void StartNew(){} // RVA: 0x7AC171F60
-        public void TrySetResult(){} // RVA: 0x7AC172130
-        public void DangerousSetResult(){} // RVA: 0x7AC1722B0
-        public void get_Result(){} // RVA: 0x7A80804D0
-        public void get_ResultOnSuccess(){} // RVA: 0x7A80804D0
-        public void GetResultCore(){} // RVA: 0x7A80804D0
-        public void get_Factory(){} // RVA: 0x7AC1726A0
-        public void InnerInvoke(){} // RVA: 0x7AC172870
-        public void GetAwaiter(){} // RVA: 0x7ABFD0ED0
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
-        public void ContinueWith(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x4E6BD90
+        public void StartNew(){} // RVA: 0x4E6C0A0
+        public void TrySetResult(){} // RVA: 0x4E6C270
+        public void DangerousSetResult(){} // RVA: 0x4E6C3F0
+        public void get_Result(){} // RVA: 0xAD0950
+        public void get_ResultOnSuccess(){} // RVA: 0xAD0950
+        public void GetResultCore(){} // RVA: 0xAD0950
+        public void get_Factory(){} // RVA: 0x4E6C7E0
+        public void InnerInvoke(){} // RVA: 0x4E6C9B0
+        public void GetAwaiter(){} // RVA: 0x4CBE190
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
+        public void ContinueWith(){} // RVA: 0xA94080
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E6BD90
+        public void StartNew(){} // RVA: 0x4E6C0A0
+        public void TrySetResult(){} // RVA: 0x4E6C270
+        public void DangerousSetResult(){} // RVA: 0x4E6C3F0
+        public void get_Result(){} // RVA: 0xAD0950
+        public void get_ResultOnSuccess(){} // RVA: 0xAD0950
+        public void GetResultCore(){} // RVA: 0xAD0950
+        public void get_Factory(){} // RVA: 0x4E6C7E0
+        public void InnerInvoke(){} // RVA: 0x4E6C9B0
+        public void GetAwaiter(){} // RVA: 0x4CBE190
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
+        public void ContinueWith(){} // RVA: 0xA94080
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFE2270
-        public void .ctor(){} // RVA: 0x7AC13C940
-        public void TrySetResult(){} // RVA: 0x7ABFE1F20
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void get_ResultOnSuccess(){} // RVA: 0x4CDD1E0
+        public void .ctor(){} // RVA: 0x4E29030
+        public void TrySetResult(){} // RVA: 0x4CDCE90
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_Result(){} // RVA: 0x7AC15ED00
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7ABFD6C80
-        public void .ctor(){} // RVA: 0x7AC1351D0
-        public void TrySetResult(){} // RVA: 0x7AC135B20
+        public void get_Result(){} // RVA: 0x4E58E40
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0x4CD0AB0
+        public void .ctor(){} // RVA: 0x4E22EA0
+        public void TrySetResult(){} // RVA: 0x4E237F0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
-        public void get_ResultOnSuccess(){} // RVA: 0x7A8178B90
-        public void ConfigureAwait(){} // RVA: 0x7ABFD0F30
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
+        public void get_ResultOnSuccess(){} // RVA: 0xBE58B0
+        public void ConfigureAwait(){} // RVA: 0x4CBE1F0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC15E1F0
-        public void TrySetResult(){} // RVA: 0x7AC15EB20
+        public void .ctor(){} // RVA: 0x4E58330
+        public void TrySetResult(){} // RVA: 0x4E58C60
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC161350
-        public void TrySetResult(){} // RVA: 0x7AC135B20
+        public void .ctor(){} // RVA: 0x4E5B490
+        public void TrySetResult(){} // RVA: 0x4E237F0
     }
 
     public class Task`1 : Task
     {
+        public object m_result;
+        public object s_defaultFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC16F5B0
-        public void TrySetResult(){} // RVA: 0x7AC149BC0
+        public void .ctor(){} // RVA: 0x4E696F0
+        public void TrySetResult(){} // RVA: 0x4E368F0
     }
 
 }

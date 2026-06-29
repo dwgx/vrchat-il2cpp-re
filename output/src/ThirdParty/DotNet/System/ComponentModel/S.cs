@@ -8,52 +8,56 @@ namespace ThirdParty.DotNet.System.ComponentModel
     public class SByteConverter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7AEA6A980
-        public void FromString(){} // RVA: 0x7AEA6AAC0
-        public void ToString(){} // RVA: 0x7AEA6AB90
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_TargetType(){} // RVA: 0x76DACE0
+        public void FromString(){} // RVA: 0x76DADC0
+        public void ToString(){} // RVA: 0x76DAE70
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SRCategoryAttribute : CategoryAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABBDAFD0
+        public void .ctor(){} // RVA: 0x484EBC0
     }
 
     public class SettingsBindableAttribute : Attribute
     {
+        public object Yes;
+        public object No;
+        public object _bindable;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
-        public void get_Bindable(){} // RVA: 0x7A81A2200
-        public void Equals(){} // RVA: 0x7AEA6AC30
-        public void GetHashCode(){} // RVA: 0x7AEA6ACD0
-        public void .cctor(){} // RVA: 0x7AEA6AD20
+        public void .ctor(){} // RVA: 0xC120B0
+        public void get_Bindable(){} // RVA: 0xC120A0
+        public void Equals(){} // RVA: 0x76DAF00
+        public void GetHashCode(){} // RVA: 0x76ADE20
+        public void .cctor(){} // RVA: 0x76DAFA0
     }
 
     public class SingleConverter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_AllowHex(){} // RVA: 0x7A80D7320
-        public void get_TargetType(){} // RVA: 0x7AEA6AE50
-        public void FromString(){} // RVA: 0x7AEA6B000
-        public void ToString(){} // RVA: 0x7AEA6B070
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_AllowHex(){} // RVA: 0xB43320
+        public void get_TargetType(){} // RVA: 0x76DB0D0
+        public void FromString(){} // RVA: 0x76DB220
+        public void ToString(){} // RVA: 0x76DB250
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class StringConverter : TypeConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7AEA6B160
-        public void ConvertFrom(){} // RVA: 0x7AEA6B250
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CanConvertFrom(){} // RVA: 0x76B2D50
+        public void ConvertFrom(){} // RVA: 0x76DB330
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SyntaxCheck : Object
     {
         // ── Methods ──
-        public void CheckMachineName(){} // RVA: 0x7AEA6B350
-        public void CheckPath(){} // RVA: 0x7AEA6B410
-        public void CheckRootedPath(){} // RVA: 0x7AEA6B4D0
+        public void CheckMachineName(){} // RVA: 0x76DB410
+        public void CheckPath(){} // RVA: 0x76DB4A0
+        public void CheckRootedPath(){} // RVA: 0x76DB550
     }
 
 }

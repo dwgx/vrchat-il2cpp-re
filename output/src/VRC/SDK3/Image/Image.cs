@@ -44,6 +44,13 @@ namespace VRC.SDK3.Image
 
     public class ImageDownloader : Object
     {
+        public object _instance;
+        public object MAX_CACHED_IMAGES;
+        public object MIN_CACHED_IMAGES;
+        public object cachedImageQueue;
+        public object _downloadedImages;
+        public object _downloadingImages;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0xA70D700
         public void TrimCache(){} // RVA: 0xA70D7E0
@@ -57,12 +64,29 @@ namespace VRC.SDK3.Image
 
     public class TextureInfo : Object
     {
+        public object WrapModeU;
+        public object WrapModeV;
+        public object WrapModeW;
+        public object FilterMode;
+        public object AnisoLevel;
+        public object MaterialProperty;
+        public object GenerateMipMaps;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA6B5D50
     }
 
     public class VRCImageDownloader : Object
     {
+        public object _disposed;
+        public object _finalized;
+        public object _imageDownloads;
+        public object _imageDownloadQueue;
+        public object _startDownload;
+        public object _imageUploader;
+        public object CanBypassDelay;
+        public object SLICE_SIZE_BYTES;
+
         // ── Methods ──
         public void get_StartDownload(){} // RVA: 0xA6B5DF0
         public void set_StartDownload(){} // RVA: 0xA6B5E50

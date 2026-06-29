@@ -7,13 +7,16 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class TypeLimiter : Object
     {
+        public object s_activeScope;
+        public object m_instanceScope;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_IsTypeLimitingDisabled(){} // RVA: 0x7AE4D6530
-        public void Capture(){} // RVA: 0x7AE4D65A0
-        public void EnsureTypeIsAllowed(){} // RVA: 0x7AE4D66A0
-        public void EnterRestrictedScope(){} // RVA: 0x7AE4D6A00
-        public void GetPreviouslyDeclaredDataTypes(){} // RVA: 0x7AE4D6CD0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_IsTypeLimitingDisabled(){} // RVA: 0x7151A00
+        public void Capture(){} // RVA: 0x7151A70
+        public void EnsureTypeIsAllowed(){} // RVA: 0x7151B70
+        public void EnterRestrictedScope(){} // RVA: 0x7151ED0
+        public void GetPreviouslyDeclaredDataTypes(){} // RVA: 0x71521A0
     }
 
 }

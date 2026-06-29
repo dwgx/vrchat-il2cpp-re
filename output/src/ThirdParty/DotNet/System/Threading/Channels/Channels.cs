@@ -7,415 +7,546 @@ namespace ThirdParty.DotNet.System.Threading.Channels
 {
     public class AsyncOperation : Object
     {
+        public object s_availableSentinel;
+        public object s_completedSentinel;
+
         // ── Methods ──
-        public void AvailableSentinel(){} // RVA: 0x7A80D7310
-        public void CompletedSentinel(){} // RVA: 0x7A80D7310
-        public void ThrowIncompleteOperationException(){} // RVA: 0x7AE6D5ED0
-        public void ThrowMultipleContinuations(){} // RVA: 0x7AE6D5F40
-        public void ThrowIncorrectCurrentIdException(){} // RVA: 0x7AE6D5FB0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AE6D6020
+        public void AvailableSentinel(){} // RVA: 0xB43310
+        public void CompletedSentinel(){} // RVA: 0xB43310
+        public void ThrowIncompleteOperationException(){} // RVA: 0x734C040
+        public void ThrowMultipleContinuations(){} // RVA: 0x734C0B0
+        public void ThrowIncorrectCurrentIdException(){} // RVA: 0x734C120
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x734C190
     }
 
     public class AsyncOperation`1 : AsyncOperation
     {
+        public object _registration;
+        public object _pooled;
+        public object _runContinuationsAsynchronously;
+        public object _completionReserved;
+        public object _result;
+        public object _error;
+        public object _continuation;
+        public object _continuationState;
+        public object _schedulingContext;
+        public object _executionContext;
+        public object _currentId;
+        public object _next;
+        public object _cancellationToken;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_Next(){} // RVA: 0x7A7E00680
-        public void set_Next(){} // RVA: 0x7A7E18800
-        public void get_CancellationToken(){} // RVA: 0x7A8051B10
-        public void get_ValueTask(){} // RVA: 0x7A7E00490
-        public void get_ValueTaskOfT(){} // RVA: 0x7A8051B10
-        public void GetStatus(){} // RVA: 0x7A7E015F0
-        public void get_IsCompleted(){} // RVA: 0x7A7E01900
-        public void GetResult(){} // RVA: 0x7A8051B10
-        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x7A7E18950
-        public void TryOwnAndReset(){} // RVA: 0x7A7E01900
-        public void OnCompleted(){} // RVA: 0x7A7E22080
-        public void UnregisterCancellation(){} // RVA: 0x7A7E01900
-        public void TrySetResult(){} // RVA: 0x7A8051B10
-        public void TrySetException(){} // RVA: 0x7A7E019D0
-        public void TrySetCanceled(){} // RVA: 0x7A8051B10
-        public void TryReserveCompletionIfCancelable(){} // RVA: 0x7A7E01900
-        public void SignalCompletion(){} // RVA: 0x7A7E18770
-        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x7A7E18770
-        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x7A7E18770
-        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7A7E18AA0
-        public void QueueUserWorkItem(){} // RVA: 0x7A7E18AA0
-        public void UnsafeRegister(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_Next(){} // RVA: 0x87C0A0
+        public void set_Next(){} // RVA: 0x894320
+        public void get_CancellationToken(){} // RVA: 0xA94080
+        public void get_ValueTask(){} // RVA: 0x87BEB0
+        public void get_ValueTaskOfT(){} // RVA: 0xA94080
+        public void GetStatus(){} // RVA: 0x87D010
+        public void get_IsCompleted(){} // RVA: 0x87D280
+        public void GetResult(){} // RVA: 0xA94080
+        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x894470
+        public void TryOwnAndReset(){} // RVA: 0x87D280
+        public void OnCompleted(){} // RVA: 0x89DDB0
+        public void UnregisterCancellation(){} // RVA: 0x87D280
+        public void TrySetResult(){} // RVA: 0xA94080
+        public void TrySetException(){} // RVA: 0x87D350
+        public void TrySetCanceled(){} // RVA: 0xA94080
+        public void TryReserveCompletionIfCancelable(){} // RVA: 0x87D280
+        public void SignalCompletion(){} // RVA: 0x894290
+        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x894290
+        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x894290
+        public void UnsafeQueueUserWorkItem(){} // RVA: 0x8945C0
+        public void QueueUserWorkItem(){} // RVA: 0x8945C0
+        public void UnsafeRegister(){} // RVA: 0xA94080
     }
 
     public class AsyncOperation`1 : AsyncOperation
     {
+        public object _registration;
+        public object _pooled;
+        public object _runContinuationsAsynchronously;
+        public object _completionReserved;
+        public object _result;
+        public object _error;
+        public object _continuation;
+        public object _continuationState;
+        public object _schedulingContext;
+        public object _executionContext;
+        public object _currentId;
+        public object _next;
+        public object _cancellationToken;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC918080
-        public void get_Next(){} // RVA: 0x7A8153390
-        public void set_Next(){} // RVA: 0x7A81533A0
-        public void get_CancellationToken(){} // RVA: 0x7A81A00E0
-        public void get_ValueTask(){} // RVA: 0x7AC916330
-        public void get_ValueTaskOfT(){} // RVA: 0x7AC9184C0
-        public void GetStatus(){} // RVA: 0x7AC918540
-        public void get_IsCompleted(){} // RVA: 0x7AC918630
-        public void GetResult(){} // RVA: 0x7AC9186A0
-        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x7AC918790
-        public void TryOwnAndReset(){} // RVA: 0x7AC918870
-        public void OnCompleted(){} // RVA: 0x7AC918AA0
-        public void UnregisterCancellation(){} // RVA: 0x7AC918FE0
-        public void TrySetResult(){} // RVA: 0x7AC919060
-        public void TrySetException(){} // RVA: 0x7AC919110
-        public void TrySetCanceled(){} // RVA: 0x7AC919280
-        public void TryReserveCompletionIfCancelable(){} // RVA: 0x7AC919430
-        public void SignalCompletion(){} // RVA: 0x7AC9194B0
-        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x7AC919A60
-        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x7AC919D60
-        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7AC919F50
-        public void QueueUserWorkItem(){} // RVA: 0x7AC919F90
-        public void UnsafeRegister(){} // RVA: 0x7AC91A100
+        public void .ctor(){} // RVA: 0x5774080
+        public void get_Next(){} // RVA: 0xBBFF90
+        public void set_Next(){} // RVA: 0xBBFFA0
+        public void get_CancellationToken(){} // RVA: 0xC10050
+        public void get_ValueTask(){} // RVA: 0x5772340
+        public void get_ValueTaskOfT(){} // RVA: 0x57744C0
+        public void GetStatus(){} // RVA: 0x5774540
+        public void get_IsCompleted(){} // RVA: 0x5774630
+        public void GetResult(){} // RVA: 0x57746A0
+        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x5774790
+        public void TryOwnAndReset(){} // RVA: 0x5774870
+        public void OnCompleted(){} // RVA: 0x5774AA0
+        public void UnregisterCancellation(){} // RVA: 0x5774FD0
+        public void TrySetResult(){} // RVA: 0x5775050
+        public void TrySetException(){} // RVA: 0x5775100
+        public void TrySetCanceled(){} // RVA: 0x5775270
+        public void TryReserveCompletionIfCancelable(){} // RVA: 0x5775420
+        public void SignalCompletion(){} // RVA: 0x57754A0
+        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x5775A50
+        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x5775D50
+        public void UnsafeQueueUserWorkItem(){} // RVA: 0x5775F40
+        public void QueueUserWorkItem(){} // RVA: 0x5775F80
+        public void UnsafeRegister(){} // RVA: 0x57760F0
     }
 
     public class AsyncOperation`1 : AsyncOperation
     {
+        public object _registration;
+        public object _pooled;
+        public object _runContinuationsAsynchronously;
+        public object _completionReserved;
+        public object _result;
+        public object _error;
+        public object _continuation;
+        public object _continuationState;
+        public object _schedulingContext;
+        public object _executionContext;
+        public object _currentId;
+        public object _next;
+        public object _cancellationToken;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC915EF0
-        public void get_Next(){} // RVA: 0x7A8153390
-        public void set_Next(){} // RVA: 0x7A81533A0
-        public void get_CancellationToken(){} // RVA: 0x7A81A00E0
-        public void get_ValueTask(){} // RVA: 0x7AC916330
-        public void get_ValueTaskOfT(){} // RVA: 0x7AC9163A0
-        public void GetStatus(){} // RVA: 0x7AC916420
-        public void get_IsCompleted(){} // RVA: 0x7AC916510
-        public void GetResult(){} // RVA: 0x7AC916580
-        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x7AC916670
-        public void TryOwnAndReset(){} // RVA: 0x7AC916750
-        public void OnCompleted(){} // RVA: 0x7AC916980
-        public void UnregisterCancellation(){} // RVA: 0x7AC916EC0
-        public void TrySetResult(){} // RVA: 0x7AC916F40
-        public void TrySetException(){} // RVA: 0x7AC916FB0
-        public void TrySetCanceled(){} // RVA: 0x7AC917120
-        public void TryReserveCompletionIfCancelable(){} // RVA: 0x7AC9172D0
-        public void SignalCompletion(){} // RVA: 0x7AC917350
-        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x7AC917900
-        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x7AC917C00
-        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7AC917DF0
-        public void QueueUserWorkItem(){} // RVA: 0x7AC917E30
-        public void UnsafeRegister(){} // RVA: 0x7AC917FA0
+        public void .ctor(){} // RVA: 0x5771F00
+        public void get_Next(){} // RVA: 0xBBFF90
+        public void set_Next(){} // RVA: 0xBBFFA0
+        public void get_CancellationToken(){} // RVA: 0xC10050
+        public void get_ValueTask(){} // RVA: 0x5772340
+        public void get_ValueTaskOfT(){} // RVA: 0x57723B0
+        public void GetStatus(){} // RVA: 0x5772430
+        public void get_IsCompleted(){} // RVA: 0x5772520
+        public void GetResult(){} // RVA: 0x5772590
+        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x5772680
+        public void TryOwnAndReset(){} // RVA: 0x5772760
+        public void OnCompleted(){} // RVA: 0x5772990
+        public void UnregisterCancellation(){} // RVA: 0x5772EC0
+        public void TrySetResult(){} // RVA: 0x5772F40
+        public void TrySetException(){} // RVA: 0x5772FB0
+        public void TrySetCanceled(){} // RVA: 0x5773120
+        public void TryReserveCompletionIfCancelable(){} // RVA: 0x57732D0
+        public void SignalCompletion(){} // RVA: 0x5773350
+        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x5773900
+        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x5773C00
+        public void UnsafeQueueUserWorkItem(){} // RVA: 0x5773DF0
+        public void QueueUserWorkItem(){} // RVA: 0x5773E30
+        public void UnsafeRegister(){} // RVA: 0x5773FA0
     }
 
     public class AsyncOperation`1 : AsyncOperation
     {
+        public object _registration;
+        public object _pooled;
+        public object _runContinuationsAsynchronously;
+        public object _completionReserved;
+        public object _result;
+        public object _error;
+        public object _continuation;
+        public object _continuationState;
+        public object _schedulingContext;
+        public object _executionContext;
+        public object _currentId;
+        public object _next;
+        public object _cancellationToken;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC91A1E0
-        public void get_Next(){} // RVA: 0x7A8153390
-        public void set_Next(){} // RVA: 0x7A81533A0
-        public void get_CancellationToken(){} // RVA: 0x7A81A00E0
-        public void get_ValueTask(){} // RVA: 0x7AC916330
-        public void get_ValueTaskOfT(){} // RVA: 0x7AC9163A0
-        public void GetStatus(){} // RVA: 0x7AC91A620
-        public void get_IsCompleted(){} // RVA: 0x7AC91A710
-        public void GetResult(){} // RVA: 0x7AC91A780
-        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x7AC91A870
-        public void TryOwnAndReset(){} // RVA: 0x7AC91A950
-        public void OnCompleted(){} // RVA: 0x7AC91AB80
-        public void UnregisterCancellation(){} // RVA: 0x7AC91B0C0
-        public void TrySetResult(){} // RVA: 0x7AC91B140
-        public void TrySetException(){} // RVA: 0x7AC91B1B0
-        public void TrySetCanceled(){} // RVA: 0x7AC91B320
-        public void TryReserveCompletionIfCancelable(){} // RVA: 0x7AC91B4D0
-        public void SignalCompletion(){} // RVA: 0x7AC91B550
-        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x7AC91BB00
-        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x7AC91BE00
-        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7AC91BFF0
-        public void QueueUserWorkItem(){} // RVA: 0x7AC91C030
-        public void UnsafeRegister(){} // RVA: 0x7AC91C1A0
+        public void .ctor(){} // RVA: 0x57761D0
+        public void get_Next(){} // RVA: 0xBBFF90
+        public void set_Next(){} // RVA: 0xBBFFA0
+        public void get_CancellationToken(){} // RVA: 0xC10050
+        public void get_ValueTask(){} // RVA: 0x5772340
+        public void get_ValueTaskOfT(){} // RVA: 0x57723B0
+        public void GetStatus(){} // RVA: 0x5776610
+        public void get_IsCompleted(){} // RVA: 0x5776700
+        public void GetResult(){} // RVA: 0x5776770
+        public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x5776860
+        public void TryOwnAndReset(){} // RVA: 0x5776940
+        public void OnCompleted(){} // RVA: 0x5776B70
+        public void UnregisterCancellation(){} // RVA: 0x57770A0
+        public void TrySetResult(){} // RVA: 0x5777120
+        public void TrySetException(){} // RVA: 0x5777190
+        public void TrySetCanceled(){} // RVA: 0x5777300
+        public void TryReserveCompletionIfCancelable(){} // RVA: 0x57774B0
+        public void SignalCompletion(){} // RVA: 0x5777530
+        public void SetCompletionAndInvokeContinuation(){} // RVA: 0x5777AE0
+        public void UnsafeQueueSetCompletionAndInvokeContinuation(){} // RVA: 0x5777DE0
+        public void UnsafeQueueUserWorkItem(){} // RVA: 0x5777FD0
+        public void QueueUserWorkItem(){} // RVA: 0x5778010
+        public void UnsafeRegister(){} // RVA: 0x5778180
     }
 
     public class BoundedChannelOptions : ChannelOptions
     {
+        public object _capacity;
+        public object _mode;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D6320
-        public void get_Capacity(){} // RVA: 0x7A83782A0
-        public void get_FullMode(){} // RVA: 0x7A9739200
-        public void set_FullMode(){} // RVA: 0x7AE6D6390
+        public void .ctor(){} // RVA: 0x734C490
+        public void get_Capacity(){} // RVA: 0xE62D00
+        public void get_FullMode(){} // RVA: 0x2244FB0
+        public void set_FullMode(){} // RVA: 0x734C500
     }
 
     public class BoundedChannel`1 : Channel`1
     {
+        public object _mode;
+        public object _itemDropped;
+        public object _completion;
+        public object _bufferedCapacity;
+        public object _items;
+        public object _blockedReaders;
+        public object _blockedWriters;
+        public object _waitingReadersTail;
+        public object _waitingWritersTail;
+        public object _runContinuationsAsynchronously;
+        public object _doneWriting;
+
         // ── Methods ──
-        public void get_SyncObj(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A8051B10
+        public void get_SyncObj(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0xA94080
     }
 
     public class Channel : Object
     {
         // ── Methods ──
-        public void CreateUnbounded(){} // RVA: 0x7AA407670
-        public void CreateBounded(){} // RVA: 0x7AA407350
+        public void CreateUnbounded(){} // RVA: 0x3026480
+        public void CreateBounded(){} // RVA: 0x3026160
     }
 
     public class ChannelClosedException : InvalidOperationException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class ChannelOptions : Object
     {
+        public object _singleWriter;
+        public object _singleReader;
+        public object _allowSynchronousContinuations;
+
         // ── Methods ──
-        public void set_SingleWriter(){} // RVA: 0x7A81A2210
-        public void get_SingleReader(){} // RVA: 0x7A82FBFB0
-        public void set_SingleReader(){} // RVA: 0x7A82FBFC0
-        public void get_AllowSynchronousContinuations(){} // RVA: 0x7A9716B70
-        public void set_AllowSynchronousContinuations(){} // RVA: 0x7A9716BD0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void set_SingleWriter(){} // RVA: 0xC120B0
+        public void get_SingleReader(){} // RVA: 0xDD5C50
+        public void set_SingleReader(){} // RVA: 0xDD7A00
+        public void get_AllowSynchronousContinuations(){} // RVA: 0x22201E0
+        public void set_AllowSynchronousContinuations(){} // RVA: 0x22201F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryRead(){} // RVA: 0x7A7E019D0
-        public void WaitToReadAsync(){} // RVA: 0x7A7E00820
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryRead(){} // RVA: 0x7A7E019D0
-        public void WaitToReadAsync(){} // RVA: 0x7A7E00820
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryRead(){} // RVA: 0x7A7E019D0
-        public void WaitToReadAsync(){} // RVA: 0x7A7E00820
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryRead(){} // RVA: 0x7A7E019D0
-        public void WaitToReadAsync(){} // RVA: 0x7A7E00820
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryRead(){} // RVA: 0x7A7E019D0
-        public void WaitToReadAsync(){} // RVA: 0x7A7E00820
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelUtilities : Object
     {
+        public object s_doneWritingSentinel;
+        public object s_trueTask;
+        public object s_falseTask;
+        public object s_neverCompletingTask;
+
         // ── Methods ──
-        public void Complete(){} // RVA: 0x7AE6D6400
-        public void QueueWaiter(){} // RVA: 0x7AE6D65C0
-        public void WakeUpWaiters(){} // RVA: 0x7AE6D6780
-        public void FailOperations(){} // RVA: 0x7A7E18AA0
-        public void CreateInvalidCompletionException(){} // RVA: 0x7AE6D6A10
-        public void .cctor(){} // RVA: 0x7AE6D6C40
+        public void Complete(){} // RVA: 0x734C570
+        public void QueueWaiter(){} // RVA: 0x734C730
+        public void WakeUpWaiters(){} // RVA: 0x734C8F0
+        public void FailOperations(){} // RVA: 0x8945C0
+        public void CreateInvalidCompletionException(){} // RVA: 0x734CB80
+        public void .cctor(){} // RVA: 0x734CDB0
     }
 
     public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void TryComplete(){} // RVA: 0x7A7E019D0
-        public void TryWrite(){} // RVA: 0x7A8051B10
-        public void WaitToWriteAsync(){} // RVA: 0x7A7E00820
-        public void WriteAsync(){} // RVA: 0x7A8051B10
-        public void WriteAsyncCore(){} // RVA: 0x7A8051B10
-        public void Complete(){} // RVA: 0x7A7E18800
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void TryComplete(){} // RVA: 0x87D350
+        public void TryWrite(){} // RVA: 0xA94080
+        public void WaitToWriteAsync(){} // RVA: 0x87C240
+        public void WriteAsync(){} // RVA: 0xA94080
+        public void WriteAsyncCore(){} // RVA: 0xA94080
+        public void Complete(){} // RVA: 0x894320
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void TryComplete(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7A8051B10
-        public void WaitToWriteAsync(){} // RVA: 0x7A7E00820
-        public void WriteAsync(){} // RVA: 0x7AD540F00
-        public void WriteAsyncCore(){} // RVA: 0x7AD541220
-        public void Complete(){} // RVA: 0x7AD540EB0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryComplete(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0xA94080
+        public void WaitToWriteAsync(){} // RVA: 0x87C240
+        public void WriteAsync(){} // RVA: 0x629C1D0
+        public void WriteAsyncCore(){} // RVA: 0x629C4F0
+        public void Complete(){} // RVA: 0x629C180
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void TryComplete(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7A7E019D0
-        public void WaitToWriteAsync(){} // RVA: 0x7A7E00820
-        public void WriteAsync(){} // RVA: 0x7AD540A50
-        public void WriteAsyncCore(){} // RVA: 0x7AD540C80
-        public void Complete(){} // RVA: 0x7AD540EB0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryComplete(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x87D350
+        public void WaitToWriteAsync(){} // RVA: 0x87C240
+        public void WriteAsync(){} // RVA: 0x629BD20
+        public void WriteAsyncCore(){} // RVA: 0x629BF50
+        public void Complete(){} // RVA: 0x629C180
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void TryComplete(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7A8051B10
-        public void WaitToWriteAsync(){} // RVA: 0x7A7E00820
-        public void WriteAsync(){} // RVA: 0x7AD540F00
-        public void WriteAsyncCore(){} // RVA: 0x7AD541220
-        public void Complete(){} // RVA: 0x7AD540EB0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryComplete(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0xA94080
+        public void WaitToWriteAsync(){} // RVA: 0x87C240
+        public void WriteAsync(){} // RVA: 0x629C1D0
+        public void WriteAsyncCore(){} // RVA: 0x629C4F0
+        public void Complete(){} // RVA: 0x629C180
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void TryComplete(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7A8051B10
-        public void WaitToWriteAsync(){} // RVA: 0x7A7E00820
-        public void WriteAsync(){} // RVA: 0x7AD540F00
-        public void WriteAsyncCore(){} // RVA: 0x7AD541220
-        public void Complete(){} // RVA: 0x7AD540EB0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void TryComplete(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0xA94080
+        public void WaitToWriteAsync(){} // RVA: 0x87C240
+        public void WriteAsync(){} // RVA: 0x629C1D0
+        public void WriteAsyncCore(){} // RVA: 0x629C4F0
+        public void Complete(){} // RVA: 0x629C180
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC6CC10
+        public void .ctor(){} // RVA: 0x3896ED0
     }
 
     public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC6CC10
+        public void .ctor(){} // RVA: 0x3896ED0
     }
 
     public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC6CC10
+        public void .ctor(){} // RVA: 0x3896ED0
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A7E00680
-        public void set_Reader(){} // RVA: 0x7A7E18800
-        public void get_Writer(){} // RVA: 0x7A7E00680
-        public void set_Writer(){} // RVA: 0x7A7E18800
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_Reader(){} // RVA: 0x87C0A0
+        public void set_Reader(){} // RVA: 0x894320
+        public void get_Writer(){} // RVA: 0x87C0A0
+        public void set_Writer(){} // RVA: 0x894320
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void set_Reader(){} // RVA: 0x7A80D8E20
-        public void get_Writer(){} // RVA: 0x7A80DA7B0
-        public void set_Writer(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void set_Reader(){} // RVA: 0x7A80D8E20
-        public void get_Writer(){} // RVA: 0x7A80DA7B0
-        public void set_Writer(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void set_Reader(){} // RVA: 0x7A80D8E20
-        public void get_Writer(){} // RVA: 0x7A80DA7B0
-        public void set_Writer(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void set_Reader(){} // RVA: 0x7A80D8E20
-        public void get_Writer(){} // RVA: 0x7A80DA7B0
-        public void set_Writer(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void set_Reader(){} // RVA: 0x7A80D8E20
-        public void get_Writer(){} // RVA: 0x7A80DA7B0
-        public void set_Writer(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
+        public object _completion;
+        public object _items;
+        public object _runContinuationsAsynchronously;
+        public object _doneWriting;
+        public object _blockedReader;
+        public object _waitingReader;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18C30
-        public void get_SyncObj(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x894750
+        public void get_SyncObj(){} // RVA: 0x87C0A0
     }
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
+        public object _completion;
+        public object _items;
+        public object _runContinuationsAsynchronously;
+        public object _doneWriting;
+        public object _blockedReader;
+        public object _waitingReader;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ABE1D4F0
-        public void get_SyncObj(){} // RVA: 0x7A8105330
+        public void .ctor(){} // RVA: 0x4ACEF00
+        public void get_SyncObj(){} // RVA: 0xB70160
     }
 
     public class TaskCompletionSource : TaskCompletionSource`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D6F90
-        public void TrySetResult(){} // RVA: 0x7AE6D6FF0
+        public void .ctor(){} // RVA: 0x734D100
+        public void TrySetResult(){} // RVA: 0x734D160
     }
 
     public class UnboundedChannelOptions : ChannelOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UnboundedChannel`1 : Channel`1
     {
+        public object _completion;
+        public object _items;
+        public object _blockedReaders;
+        public object _runContinuationsAsynchronously;
+        public object _waitingReadersTail;
+        public object _doneWriting;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18C30
-        public void get_SyncObj(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x894750
+        public void get_SyncObj(){} // RVA: 0x87C0A0
     }
 
     public class UnboundedChannel`1 : Channel`1
     {
+        public object _completion;
+        public object _items;
+        public object _blockedReaders;
+        public object _runContinuationsAsynchronously;
+        public object _waitingReadersTail;
+        public object _doneWriting;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AC2A15E0
+        public void .ctor(){} // RVA: 0x4FEEA80
     }
 
     public class VoidAsyncOperationWithData`1 : AsyncOperation`1
     {
+        public object _item;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
     }
 
 }

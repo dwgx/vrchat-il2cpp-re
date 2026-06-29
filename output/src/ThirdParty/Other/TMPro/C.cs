@@ -7,12 +7,18 @@ namespace ThirdParty.Other.TMPro
 {
     public class CaretInfo : ValueType
     {
+        public object index;
+        public object position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
     }
 
     public class CharacterElement : ValueType
     {
+        public object m_Unicode;
+        public object m_TextElement;
+
         // ── Methods ──
         public void get_Unicode(){} // RVA: 0x77E60
         public void set_Unicode(){} // RVA: 0x29580
@@ -21,6 +27,13 @@ namespace ThirdParty.Other.TMPro
 
     public class ColorTween : ValueType
     {
+        public object m_Target;
+        public object m_StartColor;
+        public object m_TargetColor;
+        public object m_TweenMode;
+        public object m_Duration;
+        public object m_IgnoreTimeScale;
+
         // ── Methods ──
         public void get_startColor(){} // RVA: 0xCB720
         public void set_startColor(){} // RVA: 0xCFB00
@@ -41,6 +54,10 @@ namespace ThirdParty.Other.TMPro
 
     public class Compute_DT_EventArgs : Object
     {
+        public object EventType;
+        public object ProgressPercentage;
+        public object Colors;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2574280
     }

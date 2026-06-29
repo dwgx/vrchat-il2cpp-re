@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 {
     public class ColorTween : ValueType
     {
+        public object m_Target;
+        public object m_StartColor;
+        public object m_TargetColor;
+        public object m_TweenMode;
+        public object m_Duration;
+        public object m_IgnoreTimeScale;
+
         // ── Methods ──
         public void get_startColor(){} // RVA: 0xCB720
         public void set_startColor(){} // RVA: 0xCFB00
@@ -27,6 +34,12 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class FloatTween : ValueType
     {
+        public object m_Target;
+        public object m_StartValue;
+        public object m_TargetValue;
+        public object m_Duration;
+        public object m_IgnoreTimeScale;
+
         // ── Methods ──
         public void get_startValue(){} // RVA: 0xD1B30
         public void set_startValue(){} // RVA: 0xD1B50
@@ -54,6 +67,9 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class TweenRunner`1 : Object
     {
+        public object m_CoroutineContainer;
+        public object m_Tween;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xA94080
         public void Init(){} // RVA: 0x894320
@@ -64,6 +80,9 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class TweenRunner`1 : Object
     {
+        public object m_CoroutineContainer;
+        public object m_Tween;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xB44D60
         public void .ctor(){} // RVA: 0xB43310
@@ -74,6 +93,9 @@ namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 
     public class TweenRunner`1 : Object
     {
+        public object m_CoroutineContainer;
+        public object m_Tween;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x4F3F130
         public void Init(){} // RVA: 0xB44D60

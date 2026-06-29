@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class SHA256 : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -20,6 +22,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SHA256T : Object
     {
+        public object _bytes;
+
         // ── Methods ──
         public void get_Bytes(){} // RVA: 0xB5DBF0
         public void set_Bytes(){} // RVA: 0xB44D60
@@ -28,6 +32,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedObjects : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -61,6 +67,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedObjectsT : Object
     {
+        public object _objects;
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0xB5DBF0
         public void set_Objects(){} // RVA: 0xB44D60
@@ -77,6 +85,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SerializedTypeUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -109,6 +120,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SparseSerializedObjects : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -138,6 +151,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SparseSerializedObjectsT : Object
     {
+        public object _objects;
+        public object _bitmap;
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0xB5DBF0
         public void set_Objects(){} // RVA: 0xB44D60
@@ -156,6 +172,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SyncPlayable : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -181,6 +199,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class SyncPlayableT : Object
     {
+        public object _stageParamsOffset;
+        public object _puppet;
+        public object _avatarDiscriminator;
+
         // ── Methods ──
         public void get_StageParamsOffset(){} // RVA: 0xB8F8F0
         public void set_StageParamsOffset(){} // RVA: 0xB460A0

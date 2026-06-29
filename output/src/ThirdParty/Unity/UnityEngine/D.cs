@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Debug : Object
     {
+        public object s_DefaultLogger;
+        public object s_Logger;
+
         // ── Methods ──
         public void get_unityLogger(){} // RVA: 0x7B6B5E0
         public void DrawLine(){} // RVA: 0x7B6B9B0
@@ -67,6 +70,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DefaultExecutionOrder : Attribute
     {
+        public object m_Order;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
         public void get_order(){} // RVA: 0x7B51740
@@ -94,6 +99,28 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class DetailPrototype : Object
     {
+        public object DefaultHealthColor;
+        public object DefaultDryColor;
+        public object m_Prototype;
+        public object m_PrototypeTexture;
+        public object m_HealthyColor;
+        public object m_DryColor;
+        public object m_MinWidth;
+        public object m_MaxWidth;
+        public object m_MinHeight;
+        public object m_MaxHeight;
+        public object m_NoiseSeed;
+        public object m_NoiseSpread;
+        public object m_Density;
+        public object m_HoleEdgePadding;
+        public object m_RenderMode;
+        public object m_UsePrototypeMesh;
+        public object m_UseInstancing;
+        public object m_UseDensityScaling;
+        public object m_AlignToGround;
+        public object m_PositionJitter;
+        public object m_TargetCoverage;
+
         // ── Methods ──
         public void get_prototype(){} // RVA: 0x3E42230
         public void .ctor(){} // RVA: 0x7DB6030
@@ -150,6 +177,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Display : Object
     {
+        public object nativeDisplay;
+        public object displays;
+        public object _mainDisplay;
+        public object m_ActiveEditorGameViewTarget;
+        public object onDisplaysUpdated;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2230E30
         public void get_renderingWidth(){} // RVA: 0x7B78F60

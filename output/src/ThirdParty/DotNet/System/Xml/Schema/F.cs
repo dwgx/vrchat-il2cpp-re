@@ -8,25 +8,31 @@ namespace ThirdParty.DotNet.System.Xml.Schema
     public class FacetsChecker : Object
     {
         // ── Methods ──
-        public void CheckLexicalFacets(){} // RVA: 0x7AE8F0790
-        public void CheckValueFacets(){} // RVA: 0x7A82D1450
-        public void CheckWhitespaceFacets(){} // RVA: 0x7AE8F0800
-        public void CheckPatternFacets(){} // RVA: 0x7AE8F09C0
-        public void MatchEnumeration(){} // RVA: 0x7A80D7320
-        public void ConstructRestriction(){} // RVA: 0x7AE8F0BE0
-        public void Power(){} // RVA: 0x7AE8F1150
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CheckLexicalFacets(){} // RVA: 0x7563A00
+        public void CheckValueFacets(){} // RVA: 0xDAC980
+        public void CheckWhitespaceFacets(){} // RVA: 0x7563A70
+        public void CheckPatternFacets(){} // RVA: 0x7563C30
+        public void MatchEnumeration(){} // RVA: 0xB43320
+        public void ConstructRestriction(){} // RVA: 0x7563E40
+        public void Power(){} // RVA: 0x75643B0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ForwardAxis : Object
     {
+        public object _topNode;
+        public object _rootNode;
+        public object _isAttribute;
+        public object _isDss;
+        public object _isSelfAxis;
+
         // ── Methods ──
-        public void get_RootNode(){} // RVA: 0x7A80DA7B0
-        public void get_TopNode(){} // RVA: 0x7A80F2570
-        public void get_IsAttribute(){} // RVA: 0x7A81C68D0
-        public void get_IsDss(){} // RVA: 0x7A8477E00
-        public void get_IsSelfAxis(){} // RVA: 0x7A9955EA0
-        public void .ctor(){} // RVA: 0x7AE8C0B10
+        public void get_RootNode(){} // RVA: 0xB465B0
+        public void get_TopNode(){} // RVA: 0xB5DBF0
+        public void get_IsAttribute(){} // RVA: 0xC38360
+        public void get_IsDss(){} // RVA: 0xF45EE0
+        public void get_IsSelfAxis(){} // RVA: 0x246F130
+        public void .ctor(){} // RVA: 0x7534B50
     }
 
 }

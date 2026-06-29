@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 617
+// Methods: 575
 
 public class AProperty : Property`2
 {
@@ -13,15 +13,90 @@ public class AProperty : Property`2
     public void .ctor(){} // RVA: 0x7D60600
 }
 
+public class ASCIIEncodingSealed : ASCIIEncoding
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x66AFFF0
+}
+
 public class ActionSettings : ValueType
 {
+    public object m_Action;
+    public object m_Target;
+    public object m_BoostAmount;
+    public object m_StartTime;
+    public object m_Mode;
+    public object m_Event;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x898B0
     public void Invoke(){} // RVA: 0x898C0
 }
 
+public class Action`5 : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x899C90
+    public void Invoke(){} // RVA: 0xA94080
+    public void BeginInvoke(){} // RVA: 0xA94080
+    public void EndInvoke(){} // RVA: 0x894320
+}
+
+public class Action`5 : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E6890
+    public void Invoke(){} // RVA: 0x40E6A00
+    public void BeginInvoke(){} // RVA: 0x40E6A20
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class Action`5 : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E6D30
+    public void Invoke(){} // RVA: 0x40E6EA0
+    public void BeginInvoke(){} // RVA: 0x40E6F00
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class Action`5 : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E6AF0
+    public void Invoke(){} // RVA: 0x3DCCA70
+    public void BeginInvoke(){} // RVA: 0x40E6C60
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class ActivateControllerLabelDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA7454E0
+    public void Invoke(){} // RVA: 0x3DCCA70
+    public void BeginInvoke(){} // RVA: 0xA7455B0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class ActivateObjectLabelDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA7451C0
+    public void Invoke(){} // RVA: 0xA745330
+    public void BeginInvoke(){} // RVA: 0xA745350
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
 public class AdjustmentRule : Object
 {
+    public object _dateStart;
+    public object _dateEnd;
+    public object _daylightDelta;
+    public object _daylightTransitionStart;
+    public object _daylightTransitionEnd;
+    public object _baseUtcOffsetDelta;
+    public object _noDaylightTransitions;
+
     // ── Methods ──
     public void get_DateStart(){} // RVA: 0xB5DBF0
     public void get_DateEnd(){} // RVA: 0xB465B0
@@ -128,14 +203,39 @@ public class AlignSelfProperty : ResolvedEnumProperty`1
     public void .ctor(){} // RVA: 0x7EC9210
 }
 
-public class Alloc2D : ValueType
+public class AllocatorHandle : ValueType
 {
+    public object Index;
+    public object Version;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x99C0F0
+    public void get_TableEntry(){} // RVA: 0x923FE0
+    public void Rewind(){} // RVA: 0x3FC0
+    public void op_Implicit(){} // RVA: 0x77D1F50
+    public void get_Value(){} // RVA: 0xE3300
+    public void Try(){} // RVA: 0x923FF0
+    public void get_Handle(){} // RVA: 0x77E60
+    public void get_ToAllocator(){} // RVA: 0x924000
+    public void get_IsAutoDispose(){} // RVA: 0x924010
+    public void Dispose(){} // RVA: 0x924020
+    public void Equals(){} // RVA: 0x8B1570
+    public void GetHashCode(){} // RVA: 0xE3300
+    public void CompareTo(){} // RVA: 0x8B1590
+}
+
+public class AllowedAsciiCodePoints : ValueType
+{
+    public object AsBytes;
+
+    // ── Methods ──
+    public void PopulateAllowedCodePoints(){} // RVA: 0x8ECDE0
 }
 
 public class AngleProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -144,21 +244,52 @@ public class AngleProperty : Property`2
     public void .ctor(){} // RVA: 0x7ED7D00
 }
 
-public class AnonymousProgress`1 : Object
+public class ApiBundleDropNotificationDetails : ApiModel
 {
+    public object _title;
+    public object _body;
+    public object _imageUrl;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void Report(){} // RVA: 0xA94080
+    public void get_title(){} // RVA: 0xBBFF90
+    public void set_title(){} // RVA: 0xBBFFA0
+    public void get_body(){} // RVA: 0xC10050
+    public void set_body(){} // RVA: 0xC10060
+    public void get_imageUrl(){} // RVA: 0xCD3320
+    public void set_imageUrl(){} // RVA: 0xCD4740
+    public void .ctor(){} // RVA: 0xA51CB80
 }
 
 public class Appearance : Object
 {
+    public object pathColor;
+    public object inactivePathColor;
+    public object width;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25CE530
 }
 
+public class ArrayEnumerator : Object
+{
+    public object _array;
+    public object _index;
+    public object _endIndex;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x6947660
+    public void MoveNext(){} // RVA: 0x69476E0
+    public void Reset(){} // RVA: 0x2576860
+    public void Clone(){} // RVA: 0x67F43E0
+    public void get_Current(){} // RVA: 0x6947700
+}
+
 public class ArrayPoolImpl`1 : Object
 {
+    public object syncLock;
+    public object Pool;
+    public object Instance;
+
     // ── Methods ──
     public void Get(){} // RVA: 0x43CE950
     public void get_ObjectType(){} // RVA: 0x434E060
@@ -170,8 +301,21 @@ public class ArrayPoolImpl`1 : Object
     public void .cctor(){} // RVA: 0x43CF3C0
 }
 
+public class AsciiPreescapedData : ValueType
+{
+    public object Data;
+
+    // ── Methods ──
+    public void PopulatePreescapedData(){} // RVA: 0x90C680
+    public void TryGetPreescapedData(){} // RVA: 0x8ECE00
+}
+
 public class AspectStretcher : ValueType
 {
+    public object _aspect;
+    public object m_InverseAspect;
+    public object m_CenterX;
+
     // ── Methods ──
     public void get_Aspect(){} // RVA: 0x88D10
     public void .ctor(){} // RVA: 0x88D20
@@ -179,221 +323,67 @@ public class AspectStretcher : ValueType
     public void Unstretch(){} // RVA: 0x88D70
 }
 
-public class AssetBundleCreateRequestAwaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x54A90
-    public void get_IsCompleted(){} // RVA: 0x922DA0
-    public void GetResult(){} // RVA: 0x9235D0
-    public void OnCompleted(){} // RVA: 0x9235E0
-    public void UnsafeOnCompleted(){} // RVA: 0x9235F0
-}
-
-public class AssetBundleCreateRequestConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x779AB70
-    public void .ctor(){} // RVA: 0x779ACB0
-    public void Create(){} // RVA: 0x779AD70
-    public void GetResult(){} // RVA: 0x779B2E0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x779B560
-    public void GetStatus(){} // RVA: 0x779B570
-    public void UnsafeGetStatus(){} // RVA: 0x779B5C0
-    public void OnCompleted(){} // RVA: 0x779B600
-    public void MoveNext(){} // RVA: 0x779B680
-    public void TryReturn(){} // RVA: 0x779B810
-    public void Continuation(){} // RVA: 0x779B980
-}
-
-public class AssetBundleRequestAllAssetsAwaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x54A90
-    public void GetAwaiter(){} // RVA: 0x7BF80
-    public void get_IsCompleted(){} // RVA: 0x922DA0
-    public void GetResult(){} // RVA: 0x922E20
-    public void OnCompleted(){} // RVA: 0x922E30
-    public void UnsafeOnCompleted(){} // RVA: 0x922E40
-}
-
-public class AssetBundleRequestAllAssetsConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x7795280
-    public void .ctor(){} // RVA: 0x77953C0
-    public void Create(){} // RVA: 0x7795480
-    public void GetResult(){} // RVA: 0x77959F0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7795C50
-    public void GetStatus(){} // RVA: 0x7795C60
-    public void UnsafeGetStatus(){} // RVA: 0x7795CB0
-    public void OnCompleted(){} // RVA: 0x7795CF0
-    public void MoveNext(){} // RVA: 0x7795D70
-    public void TryReturn(){} // RVA: 0x7795F00
-    public void Continuation(){} // RVA: 0x7796060
-}
-
-public class AssetBundleRequestConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x7799790
-    public void .ctor(){} // RVA: 0x77998D0
-    public void Create(){} // RVA: 0x7799990
-    public void GetResult(){} // RVA: 0x7799F00
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x779A180
-    public void GetStatus(){} // RVA: 0x779A190
-    public void UnsafeGetStatus(){} // RVA: 0x779A1E0
-    public void OnCompleted(){} // RVA: 0x779A220
-    public void MoveNext(){} // RVA: 0x779A2A0
-    public void TryReturn(){} // RVA: 0x779A440
-    public void Continuation(){} // RVA: 0x779A5B0
-}
-
-public class AsyncGPUReadbackRequestAwaiterConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x7796320
-    public void .ctor(){} // RVA: 0xB43310
-    public void Create(){} // RVA: 0x7796460
-    public void GetResult(){} // RVA: 0x77968D0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7796AA0
-    public void GetStatus(){} // RVA: 0x7796AC0
-    public void UnsafeGetStatus(){} // RVA: 0x7796B10
-    public void OnCompleted(){} // RVA: 0x7796B50
-    public void MoveNext(){} // RVA: 0x7796BD0
-    public void TryReturn(){} // RVA: 0x7796D90
-}
-
-public class AsyncInstantiateOperationConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x779DA30
-    public void .ctor(){} // RVA: 0x779DB70
-    public void Create(){} // RVA: 0x779DC30
-    public void GetResult(){} // RVA: 0x779E1A0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x779E420
-    public void GetStatus(){} // RVA: 0x779E430
-    public void UnsafeGetStatus(){} // RVA: 0x779E480
-    public void OnCompleted(){} // RVA: 0x779E4C0
-    public void MoveNext(){} // RVA: 0x779E540
-    public void TryReturn(){} // RVA: 0x779E6D0
-    public void Continuation(){} // RVA: 0x779E840
-}
-
-public class AsyncInstantiateOperationConfiguredSource`1 : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x87C0A0
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void Create(){} // RVA: 0xA94080
-    public void GetResult(){} // RVA: 0x87C500
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x894470
-    public void GetStatus(){} // RVA: 0x87D010
-    public void UnsafeGetStatus(){} // RVA: 0x87C130
-    public void OnCompleted(){} // RVA: 0x89DD60
-    public void MoveNext(){} // RVA: 0x87D280
-    public void TryReturn(){} // RVA: 0x87D280
-    public void Continuation(){} // RVA: 0x894320
-}
-
-public class AsyncOperationAwaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x912A70
-    public void get_IsCompleted(){} // RVA: 0x922DA0
-    public void GetResult(){} // RVA: 0x923090
-    public void OnCompleted(){} // RVA: 0x9231E0
-    public void UnsafeOnCompleted(){} // RVA: 0x9231F0
-}
-
-public class AsyncOperationConfiguredSource : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x7797260
-    public void .ctor(){} // RVA: 0x77973A0
-    public void Create(){} // RVA: 0x7797460
-    public void GetResult(){} // RVA: 0x77979C0
-    public void GetStatus(){} // RVA: 0x7797C30
-    public void UnsafeGetStatus(){} // RVA: 0x7797C80
-    public void OnCompleted(){} // RVA: 0x7797CC0
-    public void MoveNext(){} // RVA: 0x7797D40
-    public void TryReturn(){} // RVA: 0x7797EF0
-    public void Continuation(){} // RVA: 0x7798060
-}
-
-public class AsyncTriggerEnumerator : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x899C90
-    public void OnCanceled(){} // RVA: 0x8943F0
-    public void OnNext(){} // RVA: 0xA94080
-    public void OnCompleted(){} // RVA: 0x894290
-    public void OnError(){} // RVA: 0x894320
-    public void CancellationCallback(){} // RVA: 0x894350
-    public void get_Current(){} // RVA: 0xA94080
-    public void set_Current(){} // RVA: 0xA94080
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0x87C0A0
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x894320
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0x87C0A0
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x894320
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class AsyncTriggerEnumerator : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5E25000
-}
-
-public class AsyncTriggerEnumerator : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5E25000
-}
-
-public class AsyncTriggerEnumerator : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5E25000
-}
-
-public class AttachExternalCancellationSource : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7767380
-    public void RunTask(){} // RVA: 0x7767660
-    public void CancellationCallback(){} // RVA: 0x77677F0
-    public void GetResult(){} // RVA: 0x7767870
-    public void GetStatus(){} // RVA: 0x77678C0
-    public void OnCompleted(){} // RVA: 0x7767910
-    public void UnsafeGetStatus(){} // RVA: 0x7767990
-    public void .cctor(){} // RVA: 0x77679D0
-}
-
 public class AttachExternalCancellationSource`1 : Object
 {
+    public object cancellationCallbackDelegate;
+    public object cancellationToken;
+    public object tokenRegistration;
+    public object core;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void RunTask(){} // RVA: 0xA94080
-    public void CancellationCallback(){} // RVA: 0x894350
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x894470
-    public void GetResult(){} // RVA: 0xA94080
-    public void GetStatus(){} // RVA: 0x87D010
-    public void OnCompleted(){} // RVA: 0x89DD60
-    public void UnsafeGetStatus(){} // RVA: 0x87C130
-    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x609A820
+    public void RunTask(){} // RVA: 0x609AB60
+    public void CancellationCallback(){} // RVA: 0x609ACE0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x609AD90
+    public void GetResult(){} // RVA: 0x609AD90
+    public void GetStatus(){} // RVA: 0x609ADB0
+    public void OnCompleted(){} // RVA: 0x609ADD0
+    public void UnsafeGetStatus(){} // RVA: 0x609AE00
+    public void .cctor(){} // RVA: 0x609AE20
+}
+
+public class AttrInfo : ValueType
+{
+    public object name;
+    public object val;
+    public object contentPos;
+    public object hashCode;
+    public object prevHash;
+
+    // ── Methods ──
+    public void Set(){} // RVA: 0x913600
+    public void GetLocalnameAndNamespaceUri(){} // RVA: 0x913630
+    public void GetLocalnameAndNamespaceUriAndHash(){} // RVA: 0x913640
+    public void MatchNS(){} // RVA: 0x913020
+    public void MatchHashNS(){} // RVA: 0x913650
+    public void AdjustPosition(){} // RVA: 0x913700
+}
+
+public class AttributeInfo : Object
+{
+    public object _usage;
+    public object _inheritanceLevel;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2615F10
+    public void get_Usage(){} // RVA: 0xB5DBF0
+    public void get_InheritanceLevel(){} // RVA: 0xE62D00
+}
+
+public class AudioConfigurationChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1ED7FE0
+    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class AutoDolly : ValueType
 {
+    public object m_Enabled;
+    public object m_PositionOffset;
+    public object m_SearchRadius;
+    public object m_SearchResolution;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x87790
 }
@@ -420,6 +410,8 @@ public class AvailableDevice[] : Array
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -431,23 +423,16 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
 }
 
 public class Awaiter : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x746750
-    public void get_IsCompleted(){} // RVA: 0x7705E0
-    public void GetResult(){} // RVA: 0x746AC0
-    public void OnCompleted(){} // RVA: 0x770620
-    public void UnsafeOnCompleted(){} // RVA: 0x770720
-    public void SourceOnCompleted(){} // RVA: 0x770730
-}
+    public object task;
 
-public class Awaiter : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -459,6 +444,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -470,6 +457,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -481,6 +470,21 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7467B0
@@ -492,6 +496,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -503,6 +509,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -514,6 +522,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -525,6 +535,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -536,6 +548,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -547,6 +561,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -558,6 +574,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -569,6 +587,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -580,6 +600,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -591,6 +613,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -602,6 +626,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -613,6 +639,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -624,6 +652,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -635,6 +665,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -646,6 +678,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -657,6 +691,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -668,6 +704,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD3E60
     public void get_IsCompleted(){} // RVA: 0x75B010
@@ -679,6 +717,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -690,6 +730,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -701,6 +743,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -712,6 +756,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -723,6 +769,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -734,6 +782,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -745,6 +795,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -756,6 +808,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -767,6 +821,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -778,6 +834,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -789,6 +847,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748B30
     public void get_IsCompleted(){} // RVA: 0x748B40
@@ -800,6 +860,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -811,6 +873,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -822,6 +886,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -833,6 +899,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -844,6 +912,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -855,6 +925,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -866,6 +938,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -877,6 +951,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -888,6 +964,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -899,6 +977,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -910,6 +990,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746350
     public void get_IsCompleted(){} // RVA: 0x7463B0
@@ -921,6 +1003,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -932,6 +1016,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -943,6 +1029,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -954,6 +1042,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -965,6 +1055,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -976,6 +1068,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -987,53 +1081,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
-    // ── Methods ──
-    public void get_IsCompleted(){} // RVA: 0x20C460
-    public void GetResult(){} // RVA: 0x3FC0
-    public void OnCompleted(){} // RVA: 0x9209E0
-    public void UnsafeOnCompleted(){} // RVA: 0x920B80
-    public void Callback(){} // RVA: 0x775CD20
-    public void .cctor(){} // RVA: 0x775CD90
-}
+    public object task;
 
-public class Awaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x6D3E60
-    public void get_IsCompleted(){} // RVA: 0x20C460
-    public void GetResult(){} // RVA: 0x920F70
-    public void OnCompleted(){} // RVA: 0x921020
-    public void UnsafeOnCompleted(){} // RVA: 0x9210B0
-    public void Callback(){} // RVA: 0x775D070
-    public void .cctor(){} // RVA: 0x775D0E0
-}
-
-public class Awaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x921200
-    public void GetAwaiter(){} // RVA: 0x8E1D0
-    public void get_IsCompleted(){} // RVA: 0x921320
-    public void GetResult(){} // RVA: 0x921350
-    public void OnCompleted(){} // RVA: 0x921400
-    public void UnsafeOnCompleted(){} // RVA: 0x921490
-    public void Callback(){} // RVA: 0x775D4C0
-    public void .cctor(){} // RVA: 0x775D530
-}
-
-public class Awaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x746750
-    public void get_IsCompleted(){} // RVA: 0x7467B0
-    public void GetResult(){} // RVA: 0x7467F0
-    public void OnCompleted(){} // RVA: 0x76E550
-    public void UnsafeOnCompleted(){} // RVA: 0x76E650
-    public void SourceOnCompleted(){} // RVA: 0x746A00
-}
-
-public class Awaiter : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -1043,62 +1092,161 @@ public class Awaiter : ValueType
     public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void MoveNext(){} // RVA: 0x87D280
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void SourceOnCompleted(){} // RVA: 0x769D80
+    public void .ctor(){} // RVA: 0x746350
+    public void OnCompleted(){} // RVA: 0x76DCA0
+    public void UnsafeOnCompleted(){} // RVA: 0x76DDA0
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-    public void MoveNext(){} // RVA: 0x77A9830
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AxisDirection : ValueType
+public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5160
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AxisDirection[] : Array
+public class Awaiter : ValueType
+{
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class AwakeDelegate : MulticastDelegate
 {
     // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7F0B0
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7AD50
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC49A0
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E350A0
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7AD50
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0xBC4530
+    public void Invoke(){} // RVA: 0xB9E010
+    public void BeginInvoke(){} // RVA: 0xB9E020
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class AwakeDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xBC4530
+    public void Invoke(){} // RVA: 0xB9E010
+    public void BeginInvoke(){} // RVA: 0xB9E020
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class AwakeDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xBC4530
+    public void Invoke(){} // RVA: 0xB9E010
+    public void BeginInvoke(){} // RVA: 0xB9E020
+    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class AxisInputDelegate : MulticastDelegate
@@ -1112,6 +1260,9 @@ public class AxisInputDelegate : MulticastDelegate
 
 public class AxisProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360

@@ -1,528 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.MajorSystem
-// Classes: 12
-// Methods: 1684
+// Classes: 2
+// Methods: 275
 
 namespace VRC.Core.MajorSystem
 {
-    /// <summary>Originally: ÌÏÍÍÎÍÌÍÌÏÏÎÎÍÌÏÍÏÌÏÎÌÍ</summary>
-    public class ComplexComponent_031C : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x1C9B6C0
-        public void RaiseCancellation(){} // RVA: 0x1C9C930
-        public void IsInvoking(){} // RVA: 0xBAE3B0
-        public void Start(){} // RVA: 0x1C9CAD0
-        public void Invoke(){} // RVA: 0x12EB090
-        public void InvokeRepeating(){} // RVA: 0x1C9CAF0
-        public void StartCoroutine(){} // RVA: 0x1C9CB00
-        public void StartCoroutine_Auto(){} // RVA: 0x1C9CB70
-        public void StopCoroutine(){} // RVA: 0x1AE6530
-        public void StopAllCoroutines(){} // RVA: 0x1C9CDF0
-        public void get_useGUILayout(){} // RVA: 0x1C9CF00
-        public void set_useGUILayout(){} // RVA: 0x12578B0
-        public void get_didStart(){} // RVA: 0x1C9CF30
-        public void get_didAwake(){} // RVA: 0x1C9CF90
-        public void print(){} // RVA: 0x1C9D190
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1C9D1A0
-        public void Internal_IsInvokingAll(){} // RVA: 0x1C9DCC0
-        public void InvokeDelayed(){} // RVA: 0x1187440
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1C9DE60
-        public void StartCoroutineManaged(){} // RVA: 0x1143F90
-        public void StartCoroutineManaged2(){} // RVA: 0xBAE5A0
-        public void StopCoroutineManaged(){} // RVA: 0xBAE3B0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1C9DFF0
-        public void GetScriptClassName(){} // RVA: 0x1C9E0E0
-        public void OnCancellationTokenCreated(){} // RVA: 0x1C9E670
-        public void StopCoroutine_Injected(){} // RVA: 0x1C9E820
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1C9E9C0
-        public void get_useGUILayout_Injected(){} // RVA: 0x1C9EB10
-        public void set_useGUILayout_Injected(){} // RVA: 0x106A050
-        public void get_didStart_Injected(){} // RVA: 0x1C9EBE0
-        public void get_didAwake_Injected(){} // RVA: 0x1C9EDB0
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1C9F080
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1C9F120
-        public void InvokeDelayed_Injected(){} // RVA: 0x106A7D0
-        public void .ctor(){} // RVA: 0x1C9F1B0
-        public void Initialize(){} // RVA: 0xBAE960
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0xBAE8F0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1CA09C0
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1CA09D0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x12CDBF0
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x10F9C30
-        public void GetScriptClassName_Injected(){} // RVA: 0x1CA1290
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x1661250
-        public void OnEnable(){} // RVA: 0x1CA5400
-        public void FixedUpdate(){} // RVA: 0x1CA58A0
-        public void Update(){} // RVA: 0x1CA5940
-        public void LateUpdate(){} // RVA: 0x1CA5D70
-        public void OnDisable(){} // RVA: 0x1CA5F00
-        public void OnApplicationPause(){} // RVA: 0x1CA8A30
-        public void OnApplicationQuit(){} // RVA: 0x1CA8A40
-        public void OnBecameVisible(){} // RVA: 0x1CA9330
-        public void OnBecameInvisible(){} // RVA: 0x1CA9510
-        public void OnCollisionEnter(){} // RVA: 0x1CA9860
-        public void OnCollisionStay(){} // RVA: 0x1CA9A00
-        public void OnCollisionExit(){} // RVA: 0x1CA9B40
-        public void OnTriggerEnter(){} // RVA: 0x1CA9BA0
-        public void OnTriggerStay(){} // RVA: 0x1667D40
-        public void OnTriggerExit(){} // RVA: 0x1CA9C90
-        public void OnDestroy(){} // RVA: 0x1CAC040
-        public void Awake(){} // RVA: 0x1CB1420
-        // ── 94 unresolved (hash) ──
-        public void m_79E(){} // RVA: 0x1C9E680
-        public void m_93E(){} // RVA: 0xB813B0
-        public void m_92F(){} // RVA: 0x1CA1470
-        public void m_2A7(){} // RVA: 0x1CA1A60
-        public void m_B39(){} // RVA: 0x1CA18C0
-        // ... 89 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÎÍÏÏÎÍÎÍÏÎÌÏÏÏÎÎÏÎ</summary>
-    public class ComplexComponent_38C8 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x98C5470
-        public void RaiseCancellation(){} // RVA: 0x98C5580
-        public void IsInvoking(){} // RVA: 0x98C5800
-        public void CancelInvoke(){} // RVA: 0x98C58C0
-        public void Invoke(){} // RVA: 0x98C5AE0
-        public void InvokeRepeating(){} // RVA: 0x98C5B30
-        public void StartCoroutine(){} // RVA: 0x98C5E70
-        public void StartCoroutine_Auto(){} // RVA: 0xB43310
-        public void OnEnable(){} // RVA: 0x98C5F70
-        public void StopAllCoroutines(){} // RVA: 0x98C5FC0
-        public void get_useGUILayout(){} // RVA: 0xC0FFC0
-        public void set_useGUILayout(){} // RVA: 0x98C6240
-        public void get_didStart(){} // RVA: 0x1A6FCB0
-        public void .ctor(){} // RVA: 0x98C6260
-        public void Initialize(){} // RVA: 0x98C6910
-        public void Internal_CancelInvokeAll(){} // RVA: 0x98C6960
-        public void Internal_IsInvokingAll(){} // RVA: 0x98C6CB0
-        public void InvokeDelayed(){} // RVA: 0x98C6D70
-        public void IsObjectMonoBehaviour(){} // RVA: 0x2BA94A0
-        public void StartCoroutineManaged(){} // RVA: 0x98C6E10
-        public void StartCoroutineManaged2(){} // RVA: 0x98C6E40
-        public void StopCoroutineManaged(){} // RVA: 0x98C6EE0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x98C6FF0
-        public void Awake(){} // RVA: 0x98C7010
-        public void OnCancellationTokenCreated(){} // RVA: 0x98CAC10
-        public void Start(){} // RVA: 0x98C7020
-        public void StopCoroutine_Injected(){} // RVA: 0x98C7140
-        public void StopAllCoroutines_Injected(){} // RVA: 0x98C7160
-        public void get_useGUILayout_Injected(){} // RVA: 0x98C7280
-        public void set_useGUILayout_Injected(){} // RVA: 0xB43310
-        public void get_didStart_Injected(){} // RVA: 0xF73960
-        public void get_didAwake_Injected(){} // RVA: 0x98C7360
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0xBE2C60
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0xB43310
-        public void InvokeDelayed_Injected(){} // RVA: 0x135EDB0
-        public void OnDestroy(){} // RVA: 0xB43310
-        public void IsInvoking_Injected(){} // RVA: 0xB43310
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x98C74F0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x14F7430
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x98C7610
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x5BC22D0
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0xF73A60
-        public void GetScriptClassName_Injected(){} // RVA: 0x98C7640
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x2BA9040
-        public void OnTriggerStay(){} // RVA: 0x98C7680
-        public void OnTriggerExit(){} // RVA: 0x28E5880
-        public void .cctor(){} // RVA: 0x98C9750
-        public void FixedUpdate(){} // RVA: 0x98C98E0
-        public void Update(){} // RVA: 0x98C9900
-        public void LateUpdate(){} // RVA: 0xBAE340
-        public void OnDisable(){} // RVA: 0x98C99F0
-        public void OnApplicationPause(){} // RVA: 0x98C9A40
-        public void OnApplicationQuit(){} // RVA: 0x114DE40
-        public void OnBecameVisible(){} // RVA: 0x98C9B50
-        public void OnBecameInvisible(){} // RVA: 0x98C9CC0
-        public void OnCollisionEnter(){} // RVA: 0x2303260
-        public void OnCollisionStay(){} // RVA: 0xB43310
-        public void OnCollisionExit(){} // RVA: 0x98C9F60
-        public void OnTriggerEnter(){} // RVA: 0xBE2C70
-        // ── 55 unresolved (hash) ──
-        public void m_818(){} // RVA: 0xB43310
-        public void m_1B3(){} // RVA: 0x23A4510
-        public void m_04A(){} // RVA: 0x98C8800
-        public void m_2CA(){} // RVA: 0x23A4120
-        public void m_7BF(){} // RVA: 0x98C8910
-        // ... 50 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÏÍÏÍÍÍÎÏÎÏÌÌÏÎÌÌÌÎÌÎÍ</summary>
-    public class ComplexComponent_65C4 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x1B50440
-        public void RaiseCancellation(){} // RVA: 0x1B504E0
-        public void IsInvoking(){} // RVA: 0x1B50590
-        public void CancelInvoke(){} // RVA: 0x1B506E0
-        public void Invoke(){} // RVA: 0x1B50750
-        public void InvokeRepeating(){} // RVA: 0x1B507A0
-        public void StartCoroutine(){} // RVA: 0x1B508C0
-        public void StartCoroutine_Auto(){} // RVA: 0x135A7B0
-        public void StopCoroutine(){} // RVA: 0x1B508E0
-        public void StopAllCoroutines(){} // RVA: 0x1B50990
-        public void get_useGUILayout(){} // RVA: 0x1A6FCB0
-        public void set_useGUILayout(){} // RVA: 0x1B50AA0
-        public void Awake(){} // RVA: 0x1B50D10
-        public void get_didAwake(){} // RVA: 0xB70100
-        public void print(){} // RVA: 0x1B513F0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1B51490
-        public void Internal_IsInvokingAll(){} // RVA: 0x1B514B0
-        public void InvokeDelayed(){} // RVA: 0x1B51500
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1B51530
-        public void StartCoroutineManaged(){} // RVA: 0x1B51590
-        public void StartCoroutineManaged2(){} // RVA: 0x1B516E0
-        public void StopCoroutineManaged(){} // RVA: 0x1B51780
-        public void .cctor(){} // RVA: 0x1B51820
-        public void GetScriptClassName(){} // RVA: 0x1B518E0
-        public void OnCancellationTokenCreated(){} // RVA: 0x1B51990
-        public void OnCollisionStay(){} // RVA: 0x1B51A90
-        public void StopCoroutine_Injected(){} // RVA: 0x1B51B90
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1B51C90
-        public void get_useGUILayout_Injected(){} // RVA: 0x1B51CB0
-        public void set_useGUILayout_Injected(){} // RVA: 0x1B51DB0
-        public void get_didStart_Injected(){} // RVA: 0x1B51E50
-        public void get_didAwake_Injected(){} // RVA: 0x1B51500
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1B52110
-        public void OnDisable(){} // RVA: 0x1B514B0
-        public void OnApplicationPause(){} // RVA: 0x1B52290
-        public void CancelInvoke_Injected(){} // RVA: 0x1B523E0
-        public void IsInvoking_Injected(){} // RVA: 0x1B52630
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1B526D0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1B52700
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1B52910
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1B52920
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x1B52A20
-        public void GetScriptClassName_Injected(){} // RVA: 0x1B52B20
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x135A170
-        public void OnTriggerExit(){} // RVA: 0x1B52C20
-        public void OnEnable(){} // RVA: 0x1B55800
-        public void Start(){} // RVA: 0x1B55900
-        public void Update(){} // RVA: 0x1B559A0
-        public void LateUpdate(){} // RVA: 0x1B55B30
-        public void OnApplicationQuit(){} // RVA: 0x1B55D60
-        public void OnBecameVisible(){} // RVA: 0x1B55D90
-        public void OnBecameInvisible(){} // RVA: 0x1B55F00
-        public void OnCollisionEnter(){} // RVA: 0x1B56660
-        public void OnCollisionExit(){} // RVA: 0x1B56870
-        public void OnTriggerEnter(){} // RVA: 0x1A6FC50
-        public void OnTriggerStay(){} // RVA: 0x1B56A40
-        public void .ctor(){} // RVA: 0x1B57DC0
-        public void Initialize(){} // RVA: 0x1B58380
-        public void FixedUpdate(){} // RVA: 0x1B58AD0
-        public void OnDestroy(){} // RVA: 0x1B597E0
-        // ── 86 unresolved (hash) ──
-        public void m_6FA(){} // RVA: 0x1B52C70
-        public void m_AD6(){} // RVA: 0x1B52D10
-        public void m_8B8(){} // RVA: 0x1B52EE0
-        public void m_425(){} // RVA: 0x1B53050
-        public void m_A1D(){} // RVA: 0x1B536A0
-        // ... 81 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÏÎÌÏÌÏÍÍÌÍÎÍÌÏÎÌÎÍÌÌÎÍ</summary>
-    public class ComplexComponent_9390 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x143DAC0
-        public void RaiseCancellation(){} // RVA: 0x143DC50
-        public void IsInvoking(){} // RVA: 0x143DE60
-        public void CancelInvoke(){} // RVA: 0x143DF10
-        public void Invoke(){} // RVA: 0x143E130
-        public void InvokeRepeating(){} // RVA: 0x143E160
-        public void StartCoroutine(){} // RVA: 0x143E210
-        public void StartCoroutine_Auto(){} // RVA: 0x143E2F0
-        public void StopCoroutine(){} // RVA: 0x143E6E0
-        public void StopAllCoroutines(){} // RVA: 0x143E870
-        public void get_useGUILayout(){} // RVA: 0x143E980
-        public void set_useGUILayout(){} // RVA: 0x143EA00
-        public void get_didStart(){} // RVA: 0x143EB00
-        public void get_didAwake(){} // RVA: 0x143EB80
-        public void print(){} // RVA: 0x143EE50
-        public void Internal_CancelInvokeAll(){} // RVA: 0x143F010
-        public void Internal_IsInvokingAll(){} // RVA: 0x143F3C0
-        public void InvokeDelayed(){} // RVA: 0x143F5A0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x143F790
-        public void StartCoroutineManaged(){} // RVA: 0x143F930
-        public void StartCoroutineManaged2(){} // RVA: 0x143FA70
-        public void Start(){} // RVA: 0x143FCD0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1440570
-        public void GetScriptClassName(){} // RVA: 0xB700F0
-        public void OnCancellationTokenCreated(){} // RVA: 0x14409E0
-        public void OnDisable(){} // RVA: 0x14493D0
-        public void StopCoroutine_Injected(){} // RVA: 0x1440CC0
-        public void StopAllCoroutines_Injected(){} // RVA: 0x144CB40
-        public void get_useGUILayout_Injected(){} // RVA: 0x12EB090
-        public void OnDestroy(){} // RVA: 0x1440F20
-        public void get_didStart_Injected(){} // RVA: 0x1441030
-        public void get_didAwake_Injected(){} // RVA: 0x1441310
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x14419E0
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1441A10
-        public void InvokeDelayed_Injected(){} // RVA: 0x1441AE0
-        public void CancelInvoke_Injected(){} // RVA: 0xD5CC10
-        public void IsInvoking_Injected(){} // RVA: 0x1441B40
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1441BC0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0xD33E60
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1441DF0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1442440
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x1442540
-        public void GetScriptClassName_Injected(){} // RVA: 0x1442550
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x14426F0
-        public void OnEnable(){} // RVA: 0xD5CBB0
-        public void FixedUpdate(){} // RVA: 0xBAE3C0
-        public void Update(){} // RVA: 0x1446DA0
-        public void LateUpdate(){} // RVA: 0x1446FE0
-        public void OnApplicationPause(){} // RVA: 0x1447880
-        public void OnApplicationQuit(){} // RVA: 0x14478C0
-        public void OnBecameVisible(){} // RVA: 0x1447EC0
-        public void OnBecameInvisible(){} // RVA: 0x1448160
-        public void OnCollisionEnter(){} // RVA: 0x14486E0
-        public void OnCollisionStay(){} // RVA: 0x1069350
-        public void OnCollisionExit(){} // RVA: 0x1448A10
-        public void Awake(){} // RVA: 0x1448FE0
-        public void .ctor(){} // RVA: 0x14495B0
-        public void Initialize(){} // RVA: 0x1449CF0
-        public void .cctor(){} // RVA: 0x144AFC0
-        public void OnTriggerEnter(){} // RVA: 0x144C750
-        public void OnTriggerStay(){} // RVA: 0xD5CC70
-        public void OnTriggerExit(){} // RVA: 0x144C800
-        // ── 43 unresolved (hash) ──
-        public void m_9BC(){} // RVA: 0x14427C0
-        public void m_7C1(){} // RVA: 0x1444810
-        public void m_C0F(){} // RVA: 0x14448C0
-        public void m_0AC(){} // RVA: 0xCD3600
-        public void m_116(){} // RVA: 0x1444A70
-        // ... 38 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÌÎÌÏÌÌÍÎÍÌÏÏÍÏÍÍÏÌÎÌÏÍ</summary>
-    public class ComplexComponent_9EDE : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x117E150
-        public void RaiseCancellation(){} // RVA: 0x117E1D0
-        public void IsInvoking(){} // RVA: 0x117E4D0
-        public void CancelInvoke(){} // RVA: 0x117E640
-        public void Invoke(){} // RVA: 0x1189120
-        public void InvokeRepeating(){} // RVA: 0x117E860
-        public void StartCoroutine(){} // RVA: 0x117FB40
-        public void StartCoroutine_Auto(){} // RVA: 0x117FC40
-        public void StopCoroutine(){} // RVA: 0x117FFD0
-        public void StopAllCoroutines(){} // RVA: 0x1182920
-        public void .ctor(){} // RVA: 0x1180790
-        public void Initialize(){} // RVA: 0x1180A70
-        public void get_didStart(){} // RVA: 0x1180AA0
-        public void get_didAwake(){} // RVA: 0x1181690
-        public void print(){} // RVA: 0xE3CFA0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1181810
-        public void Internal_IsInvokingAll(){} // RVA: 0x1181860
-        public void InvokeDelayed(){} // RVA: 0x1181990
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1181C30
-        public void StartCoroutineManaged(){} // RVA: 0x1181CD0
-        public void StartCoroutineManaged2(){} // RVA: 0x1181E50
-        public void StopCoroutineManaged(){} // RVA: 0x1182000
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1182100
-        public void GetScriptClassName(){} // RVA: 0x11821C0
-        public void OnCancellationTokenCreated(){} // RVA: 0x1182620
-        public void FixedUpdate(){} // RVA: 0x1182690
-        public void StopCoroutine_Injected(){} // RVA: 0x1184430
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1182980
-        public void get_useGUILayout_Injected(){} // RVA: 0x11829D0
-        public void OnDestroy(){} // RVA: 0x1182D00
-        public void get_didStart_Injected(){} // RVA: 0x1182E70
-        public void get_didAwake_Injected(){} // RVA: 0x1182F70
-        public void Start(){} // RVA: 0x1182FB0
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1183500
-        public void InvokeDelayed_Injected(){} // RVA: 0x1183510
-        public void CancelInvoke_Injected(){} // RVA: 0xCD5510
-        public void IsInvoking_Injected(){} // RVA: 0x118B360
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1183EB0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1183F10
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1184020
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1184410
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x1184420
-        public void GetScriptClassName_Injected(){} // RVA: 0x1184600
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x11846C0
-        public void OnCollisionExit(){} // RVA: 0x11849D0
-        public void OnTriggerEnter(){} // RVA: 0x1184B20
-        public void OnTriggerStay(){} // RVA: 0x1184B50
-        public void OnTriggerExit(){} // RVA: 0x1184D90
-        public void OnEnable(){} // RVA: 0x118BE60
-        public void Update(){} // RVA: 0x118C5A0
-        public void OnDisable(){} // RVA: 0x118CC00
-        public void OnApplicationPause(){} // RVA: 0x118CD30
-        public void OnApplicationQuit(){} // RVA: 0x118D540
-        public void OnBecameVisible(){} // RVA: 0x118D560
-        public void OnBecameInvisible(){} // RVA: 0x118D800
-        public void OnCollisionEnter(){} // RVA: 0x118D9C0
-        public void OnCollisionStay(){} // RVA: 0x118DCB0
-        public void Awake(){} // RVA: 0x118DF10
-        public void LateUpdate(){} // RVA: 0x118DFD0
-        // ── 50 unresolved (hash) ──
-        public void m_269(){} // RVA: 0x1184EF0
-        public void m_F41(){} // RVA: 0x1185000
-        public void m_CB1(){} // RVA: 0x1186650
-        public void m_5B9(){} // RVA: 0x1186750
-        public void m_DEF(){} // RVA: 0x11868E0
-        // ... 45 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÍÍÏÌÏÏÏÏÏÎÌÏÎÍÌÎÎÏÎÌÎÍ</summary>
-    public class ComplexComponent_A224 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x9E63440
-        public void RaiseCancellation(){} // RVA: 0x9E63450
-        public void IsInvoking(){} // RVA: 0x9E63490
-        public void CancelInvoke(){} // RVA: 0x9E63640
-        public void Invoke(){} // RVA: 0x9E63750
-        public void InvokeRepeating(){} // RVA: 0x9E63C20
-        public void StartCoroutine(){} // RVA: 0x9E64130
-        public void StartCoroutine_Auto(){} // RVA: 0x9E64380
-        public void StopCoroutine(){} // RVA: 0x9E64700
-        public void StopAllCoroutines(){} // RVA: 0x9E64AA0
-        public void get_useGUILayout(){} // RVA: 0x1175290
-        public void set_useGUILayout(){} // RVA: 0x9E64C00
-        public void get_didStart(){} // RVA: 0x9E64F90
-        public void get_didAwake(){} // RVA: 0x9E650C0
-        public void print(){} // RVA: 0x9E65310
-        public void Internal_CancelInvokeAll(){} // RVA: 0x9E65380
-        public void Internal_IsInvokingAll(){} // RVA: 0x9E65510
-        public void InvokeDelayed(){} // RVA: 0x9E65520
-        public void IsObjectMonoBehaviour(){} // RVA: 0x9E65530
-        public void StartCoroutineManaged(){} // RVA: 0x9E65C80
-        public void StartCoroutineManaged2(){} // RVA: 0x9E660B0
-        public void StopCoroutineManaged(){} // RVA: 0x9E661D0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x9E662F0
-        public void GetScriptClassName(){} // RVA: 0x9E66350
-        public void OnCancellationTokenCreated(){} // RVA: 0x9E663E0
-        public void StopCoroutine_Injected(){} // RVA: 0x9E668C0
-        public void StopAllCoroutines_Injected(){} // RVA: 0x9E66990
-        public void get_useGUILayout_Injected(){} // RVA: 0x9E669C0
-        public void set_useGUILayout_Injected(){} // RVA: 0x9E66AA0
-        public void get_didStart_Injected(){} // RVA: 0x9E66D00
-        public void get_didAwake_Injected(){} // RVA: 0x9E67A30
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x9E67BC0
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x9E67BE0
-        public void InvokeDelayed_Injected(){} // RVA: 0x9E67D50
-        public void CancelInvoke_Injected(){} // RVA: 0x9E680C0
-        public void IsInvoking_Injected(){} // RVA: 0x9E68150
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x9E682B0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x9E68380
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x9E68DA0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x9E69200
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x9E694B0
-        public void GetScriptClassName_Injected(){} // RVA: 0x9E69610
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x9E69750
-        public void Start(){} // RVA: 0x9E6BFC0
-        public void Update(){} // RVA: 0x60DF8A0
-        public void LateUpdate(){} // RVA: 0x9E6C940
-        public void OnDisable(){} // RVA: 0x9E6CA60
-        public void OnDestroy(){} // RVA: 0x9E6CBD0
-        public void OnApplicationPause(){} // RVA: 0x9E6CEE0
-        public void OnApplicationQuit(){} // RVA: 0x9E6D060
-        public void OnBecameVisible(){} // RVA: 0x9E6D6F0
-        public void OnBecameInvisible(){} // RVA: 0x9E6D790
-        public void OnEnable(){} // RVA: 0x9E6D800
-        public void OnCollisionStay(){} // RVA: 0x9E6D830
-        public void OnCollisionExit(){} // RVA: 0x9E6D860
-        public void OnTriggerEnter(){} // RVA: 0x9E6DD20
-        public void OnTriggerStay(){} // RVA: 0x9E6E000
-        public void OnTriggerExit(){} // RVA: 0x9E6E340
-        public void OnCollisionEnter(){} // RVA: 0x9E6F430
-        public void .ctor(){} // RVA: 0x9E70EF0
-        public void Initialize(){} // RVA: 0x9E71A00
-        public void Awake(){} // RVA: 0x9E73380
-        public void FixedUpdate(){} // RVA: 0x9E75110
-        // ── 47 unresolved (hash) ──
-        public void m_6AD(){} // RVA: 0x9E66490
-        public void m_F78(){} // RVA: 0x9E69940
-        public void m_C46(){} // RVA: 0x9E69AB0
-        public void m_B46(){} // RVA: 0x9E69B10
-        public void m_C77(){} // RVA: 0x9E69E10
-        // ... 42 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÌÌÎÍÌÍÎÌÎÏÎÌÎÏÎÍÎÏÌÏÍ</summary>
-    public class ComplexComponent_B588 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x1A705C0
-        public void RaiseCancellation(){} // RVA: 0x1A70CA0
-        public void OnEnable(){} // RVA: 0x1A70CC0
-        public void CancelInvoke(){} // RVA: 0x1A70ED0
-        public void Invoke(){} // RVA: 0x1A70F90
-        public void InvokeRepeating(){} // RVA: 0x1A71240
-        public void StartCoroutine(){} // RVA: 0x1A71470
-        public void StartCoroutine_Auto(){} // RVA: 0x1A71530
-        public void StopCoroutine(){} // RVA: 0x1A71810
-        public void StopAllCoroutines(){} // RVA: 0x1A71840
-        public void OnDisable(){} // RVA: 0x1A71850
-        public void set_useGUILayout(){} // RVA: 0x1A71900
-        public void get_didStart(){} // RVA: 0x1A71920
-        public void get_didAwake(){} // RVA: 0x1A719C0
-        public void print(){} // RVA: 0x1A72030
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1A72090
-        public void Internal_IsInvokingAll(){} // RVA: 0x1A72380
-        public void InvokeDelayed(){} // RVA: 0x1A723C0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1A724C0
-        public void StartCoroutineManaged(){} // RVA: 0x1A72520
-        public void StartCoroutineManaged2(){} // RVA: 0x1A72660
-        public void StopCoroutineManaged(){} // RVA: 0x1A72730
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1A727C0
-        public void GetScriptClassName(){} // RVA: 0x1A72960
-        public void OnCancellationTokenCreated(){} // RVA: 0xB43310
-        public void StopCoroutine_Injected(){} // RVA: 0x1A72DB0
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1A72EE0
-        public void Update(){} // RVA: 0x1A73050
-        public void set_useGUILayout_Injected(){} // RVA: 0x1A73150
-        public void get_didStart_Injected(){} // RVA: 0x1A73330
-        public void get_didAwake_Injected(){} // RVA: 0x1A73430
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1A73440
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1A73460
-        public void InvokeDelayed_Injected(){} // RVA: 0x1A73640
-        public void CancelInvoke_Injected(){} // RVA: 0x1A73440
-        public void IsInvoking_Injected(){} // RVA: 0x1A736E0
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1A742F0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1A74450
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1A74A10
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1A74AB0
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x1A82DE0
-        public void GetScriptClassName_Injected(){} // RVA: 0x1A758B0
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x1A76590
-        public void Awake(){} // RVA: 0x1A80B30
-        public void OnDestroy(){} // RVA: 0x1A8B440
-        public void Start(){} // RVA: 0x1A84F30
-        public void FixedUpdate(){} // RVA: 0x1A80FB0
-        public void LateUpdate(){} // RVA: 0x1A815A0
-        public void OnApplicationPause(){} // RVA: 0x1A821D0
-        public void OnApplicationQuit(){} // RVA: 0x1A82260
-        public void OnBecameVisible(){} // RVA: 0x1A82900
-        public void .cctor(){} // RVA: 0x1A82990
-        public void OnCollisionEnter(){} // RVA: 0x1A82F00
-        public void OnCollisionStay(){} // RVA: 0x1A83250
-        public void OnCollisionExit(){} // RVA: 0x1A833A0
-        public void OnTriggerEnter(){} // RVA: 0x1A83930
-        public void OnTriggerStay(){} // RVA: 0x1A839C0
-        public void OnTriggerExit(){} // RVA: 0x1A83A40
-        public void Reset(){} // RVA: 0x1A85C40
-        public void .ctor(){} // RVA: 0x1A85DD0
-        public void Initialize(){} // RVA: 0x1A86F60
-        // ── 120 unresolved (hash) ──
-        public void m_47B(){} // RVA: 0x1A72A20
-        public void m_1FD(){} // RVA: 0x12EB090
-        public void m_739(){} // RVA: 0x1A76620
-        public void m_56F(){} // RVA: 0x1A76E00
-        public void m_11D(){} // RVA: 0x1A76F90
-        // ... 115 more unresolved methods
-    }
-
     /// <summary>Originally: ÎÏÏÎÌÍÌÎÏÌÌÎÍÏÎÏÎÍÏÌÎÌÏ</summary>
     public class ComplexComponent_D3AA : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_52B;
+        public object f_28B;
+        public object f_602;
+        public object f_AA8;
+        public object f_FE9;
+        public object f_E92;
+        public object f_27C;
+        public object f_942;
+        public object f_5E8;
+        public object f_D29;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x2033170
         public void RaiseCancellation(){} // RVA: 0x2033240
@@ -593,305 +90,159 @@ namespace VRC.Core.MajorSystem
         // ... 56 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÏÍÏÍÍÌÍÎÎÍÎÍÏÏÍÎÌÌÎÌÍÎ</summary>
-    public class ComplexComponent_F1B2 : MonoBehaviour
+    /// <summary>Originally: ÍÍÎÏÏÎÍÏÌÌÏÍÍÏÍÏÍÎÍÎÍÍÎ</summary>
+    public class Major153m_7407 : Object
     {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0xC0FFD0
-        public void RaiseCancellation(){} // RVA: 0x1E930E0
-        public void IsInvoking(){} // RVA: 0x1E93230
-        public void CancelInvoke(){} // RVA: 0xC0FFC0
-        public void Invoke(){} // RVA: 0x1E93240
-        public void InvokeRepeating(){} // RVA: 0x1E93A00
-        public void StartCoroutine(){} // RVA: 0x1E93B50
-        public void StartCoroutine_Auto(){} // RVA: 0x1E93E30
-        public void StopCoroutine(){} // RVA: 0xB43310
-        public void StopAllCoroutines(){} // RVA: 0xBC5AD0
-        public void get_useGUILayout(){} // RVA: 0xBE2C70
-        public void .cctor(){} // RVA: 0x1E93E40
-        public void get_didStart(){} // RVA: 0x1E93F80
-        public void get_didAwake(){} // RVA: 0xCA4D90
-        public void .ctor(){} // RVA: 0x1E93FA0
-        public void Initialize(){} // RVA: 0x1E94140
-        public void Internal_IsInvokingAll(){} // RVA: 0x1E94290
-        public void InvokeDelayed(){} // RVA: 0xB43310
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1E94500
-        public void StartCoroutineManaged(){} // RVA: 0xBAE430
-        public void StartCoroutineManaged2(){} // RVA: 0x1E94650
-        public void StopCoroutineManaged(){} // RVA: 0x1E947E0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1E94930
-        public void GetScriptClassName(){} // RVA: 0xBC5B40
-        public void OnCancellationTokenCreated(){} // RVA: 0xD05CA0
-        public void StopCoroutine_Injected(){} // RVA: 0xBBF8F0
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1E94BF0
-        public void get_useGUILayout_Injected(){} // RVA: 0x1E95730
-        public void set_useGUILayout_Injected(){} // RVA: 0x1E95830
-        public void get_didStart_Injected(){} // RVA: 0xBC5BA0
-        public void get_didAwake_Injected(){} // RVA: 0xBC1B30
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0xCD4740
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x106A7D0
-        public void Awake(){} // RVA: 0x1E96050
-        public void CancelInvoke_Injected(){} // RVA: 0x1E96E70
-        public void IsInvoking_Injected(){} // RVA: 0x1E978E0
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0xBE58B0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1E97960
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1E97EE0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0xD5CCD0
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0xB6A8C0
-        public void GetScriptClassName_Injected(){} // RVA: 0xC10050
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x1E98030
-        public void OnBecameVisible(){} // RVA: 0x135D730
-        public void OnBecameInvisible(){} // RVA: 0x12EB090
-        public void OnCollisionEnter(){} // RVA: 0x1E98180
-        public void OnCollisionStay(){} // RVA: 0x1E982D0
-        public void OnCollisionExit(){} // RVA: 0x1E98390
-        public void OnTriggerEnter(){} // RVA: 0x1E98400
-        public void OnTriggerStay(){} // RVA: 0x1E98550
-        public void OnTriggerExit(){} // RVA: 0x1E985B0
-        public void LateUpdate(){} // RVA: 0x1E985C0
-        public void OnDisable(){} // RVA: 0xBC5BB0
-        public void OnDestroy(){} // RVA: 0x1E98730
-        public void OnApplicationQuit(){} // RVA: 0xBC5BA0
-        public void OnEnable(){} // RVA: 0x1E987B0
-        public void FixedUpdate(){} // RVA: 0xBBF900
-        public void OnApplicationPause(){} // RVA: 0x1E98EE0
-        public void OnApplicationFocus(){} // RVA: 0x1E99040
-        public void Update(){} // RVA: 0x1E9C700
-        public void Start(){} // RVA: 0x1E9D5B0
-        // ── 70 unresolved (hash) ──
-        public void m_01B(){} // RVA: 0x1E94AA0
-        public void m_9AF(){} // RVA: 0xBE2C60
-        public void m_B15(){} // RVA: 0xB70160
-        public void m_84A(){} // RVA: 0xB70100
-        public void m_2DF(){} // RVA: 0xBAE3B0
-        // ... 65 more unresolved methods
-    }
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_422;
+        public object f_C14;
+        public object f_3F5;
+        public object f_D22;
+        public object f_A66;
+        public object f_32C;
+        public object f_608;
+        public object f_C39;
+        public object f_432;
+        public object f_EC2;
+        public object f_318;
+        public object f_AF1;
+        public object f_E26;
+        public object f_DD3;
+        public object f_488;
+        public object f_E8E;
+        public object f_446;
+        public object f_9AD;
+        public object f_322;
+        public object f_77B;
+        public object f_66A;
+        public object f_75C;
+        public object f_AB8;
+        public object f_508;
+        public object f_326;
+        public object f_A5B;
+        public object f_FD3;
+        public object f_261;
+        public object f_97D;
+        public object f_2A9;
+        public object f_289;
+        public object f_F14;
+        public object f_99F;
+        public object f_F2B;
+        public object f_8F7;
+        public object f_E21;
+        public object f_96F;
+        public object f_F50;
+        public object f_A41;
+        public object f_C41;
+        public object f_70B;
+        public object f_079;
+        public object f_A71;
+        public object f_A22;
+        public object f_6C4;
+        public object f_5EE;
+        public object f_F61;
+        public object f_286;
+        public object f_3AE;
+        public object f_5C5;
+        public object f_FAF;
+        public object f_4C2;
+        public object f_37D;
+        public object f_7DE;
+        public object f_53F;
+        public object f_569;
+        public object f_3EF;
+        public object f_92A;
+        public object f_698;
+        public object f_900;
+        public object f_693;
+        public object f_CBA;
+        public object f_DC3;
+        public object f_7BD;
+        public object f_74D;
+        public object f_04D;
+        public object f_178;
+        public object f_079;
+        public object f_2C3;
+        public object f_C24;
+        public object f_272;
+        public object f_772;
+        public object f_A6D;
+        public object f_2F0;
+        public object f_E15;
+        public object f_4FA;
+        public object f_A8B;
+        public object f_F95;
+        public object f_FEF;
+        public object f_A76;
+        public object f_898;
+        public object f_5D5;
+        public object f_CAE;
+        public object f_268;
+        public object f_A80;
 
-    /// <summary>Originally: ÍÏÌÍÌÎÏÌÎÏÌÏÎÏÌÌÎÍÌÍÏÎÎ</summary>
-    public class ComplexComponent_FBDB : MonoBehaviour
-    {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x18605B0
-        public void RaiseCancellation(){} // RVA: 0xBE5860
-        public void IsInvoking(){} // RVA: 0x1860880
-        public void CancelInvoke(){} // RVA: 0xB43310
-        public void Invoke(){} // RVA: 0x1860A60
-        public void InvokeRepeating(){} // RVA: 0x1860AC0
-        public void StartCoroutine(){} // RVA: 0xBBFF90
-        public void StartCoroutine_Auto(){} // RVA: 0x1860EA0
-        public void StopCoroutine(){} // RVA: 0x1860F50
-        public void StopAllCoroutines(){} // RVA: 0x106A7D0
-        public void get_useGUILayout(){} // RVA: 0xC0FFC0
-        public void set_useGUILayout(){} // RVA: 0x18611C0
-        public void get_didStart(){} // RVA: 0x1861300
-        public void get_didAwake(){} // RVA: 0x1861350
-        public void print(){} // RVA: 0x18613A0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1861420
-        public void Internal_IsInvokingAll(){} // RVA: 0x1861470
-        public void InvokeDelayed(){} // RVA: 0xBAE340
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1861520
-        public void StartCoroutineManaged(){} // RVA: 0x18617C0
-        public void StartCoroutineManaged2(){} // RVA: 0x1861860
-        public void StopCoroutineManaged(){} // RVA: 0x18619F0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1861AE0
-        public void GetScriptClassName(){} // RVA: 0x1861D20
-        public void OnCancellationTokenCreated(){} // RVA: 0x1861E50
-        public void StopCoroutine_Injected(){} // RVA: 0x1862370
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1862420
-        public void get_useGUILayout_Injected(){} // RVA: 0xCD3320
-        public void set_useGUILayout_Injected(){} // RVA: 0x18634F0
-        public void get_didStart_Injected(){} // RVA: 0x1862AA0
-        public void get_didAwake_Injected(){} // RVA: 0xBAE430
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1862D90
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1862DD0
-        public void InvokeDelayed_Injected(){} // RVA: 0x1862F70
-        public void CancelInvoke_Injected(){} // RVA: 0xBAE350
-        public void IsInvoking_Injected(){} // RVA: 0xBE58B0
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0xBAE3B0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0xC10050
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1862FE0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1863170
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x18631C0
-        public void GetScriptClassName_Injected(){} // RVA: 0xB813B0
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x1863500
-        public void OnDestroy(){} // RVA: 0x1863510
-        public void OnApplicationPause(){} // RVA: 0x1863710
-        public void OnApplicationQuit(){} // RVA: 0x1863D10
-        public void OnBecameVisible(){} // RVA: 0x18640D0
-        public void OnBecameInvisible(){} // RVA: 0x18643A0
-        public void OnCollisionEnter(){} // RVA: 0xCD48B0
-        public void OnCollisionStay(){} // RVA: 0xD5CC70
-        public void OnCollisionExit(){} // RVA: 0x18646F0
-        public void OnTriggerEnter(){} // RVA: 0x18647E0
-        public void OnTriggerStay(){} // RVA: 0x1864B40
-        public void OnTriggerExit(){} // RVA: 0x18652B0
-        public void Awake(){} // RVA: 0x18664A0
-        public void OnEnable(){} // RVA: 0x1866AE0
-        public void Start(){} // RVA: 0x1866B40
-        public void Update(){} // RVA: 0x1868590
-        public void LateUpdate(){} // RVA: 0x1868770
-        public void OnDisable(){} // RVA: 0x1868AE0
-        public void .cctor(){} // RVA: 0x186B7E0
-        public void .ctor(){} // RVA: 0x186BF60
-        public void Initialize(){} // RVA: 0x186C9A0
-        // ── 40 unresolved (hash) ──
-        public void m_F14(){} // RVA: 0x1862060
-        public void m_200(){} // RVA: 0x18652E0
-        public void m_241(){} // RVA: 0x18654E0
-        public void m_9EF(){} // RVA: 0x1865910
-        public void m_EEB(){} // RVA: 0xCD4740
-        // ... 35 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÏÍÍÏÏÏÏÍÎÏÏÌÎÌÎÍÍÎÍÏÏÎ</summary>
-    public class ComplexComponent_FE47 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x113A480
-        public void RaiseCancellation(){} // RVA: 0x113A4E0
-        public void IsInvoking(){} // RVA: 0xD05CA0
-        public void CancelInvoke(){} // RVA: 0x113AEF0
-        public void Invoke(){} // RVA: 0x113AF20
-        public void InvokeRepeating(){} // RVA: 0x113AF30
-        public void StartCoroutine(){} // RVA: 0x113B350
-        public void StartCoroutine_Auto(){} // RVA: 0x113B3A0
-        public void StopCoroutine(){} // RVA: 0x113BC10
-        public void .cctor(){} // RVA: 0x113C940
-        public void get_useGUILayout(){} // RVA: 0x113CA30
-        public void set_useGUILayout(){} // RVA: 0x113CA60
-        public void get_didStart(){} // RVA: 0x113CB10
-        public void get_didAwake(){} // RVA: 0x113CCE0
-        public void print(){} // RVA: 0x113CCF0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x113D2D0
-        public void Internal_IsInvokingAll(){} // RVA: 0x113E150
-        public void InvokeDelayed(){} // RVA: 0x113E310
-        public void IsObjectMonoBehaviour(){} // RVA: 0x113E370
-        public void StartCoroutineManaged(){} // RVA: 0x113EA00
-        public void StartCoroutineManaged2(){} // RVA: 0x113EA10
-        public void StopCoroutineManaged(){} // RVA: 0x113EAB0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0xB70160
-        public void GetScriptClassName(){} // RVA: 0x113EAC0
-        public void Start(){} // RVA: 0x113EB60
-        public void Update(){} // RVA: 0x113EC00
-        public void StopCoroutine_Injected(){} // RVA: 0x113ECB0
-        public void StopAllCoroutines_Injected(){} // RVA: 0x113ECC0
-        public void get_useGUILayout_Injected(){} // RVA: 0x113EDD0
-        public void set_useGUILayout_Injected(){} // RVA: 0x113EE20
-        public void get_didStart_Injected(){} // RVA: 0x113EE80
-        public void get_didAwake_Injected(){} // RVA: 0x113F130
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x113F5E0
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x113FB70
-        public void InvokeDelayed_Injected(){} // RVA: 0x113FD10
-        public void CancelInvoke_Injected(){} // RVA: 0x11406D0
-        public void IsInvoking_Injected(){} // RVA: 0x11407F0
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1140980
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x1140E70
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0xB44DC0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x1140FA0
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x11410C0
-        public void GetScriptClassName_Injected(){} // RVA: 0x1141130
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0xB6A8C0
-        public void OnEnable(){} // RVA: 0x1141610
-        public void FixedUpdate(){} // RVA: 0x1141BC0
-        public void LateUpdate(){} // RVA: 0x1141D50
-        public void OnDisable(){} // RVA: 0x1141DF0
-        public void OnApplicationPause(){} // RVA: 0xCA4DF0
-        public void OnApplicationQuit(){} // RVA: 0x1142000
-        public void OnBecameVisible(){} // RVA: 0x1142070
-        public void OnBecameInvisible(){} // RVA: 0x1142170
-        public void OnCollisionEnter(){} // RVA: 0x11421C0
-        public void OnCollisionStay(){} // RVA: 0x1142480
-        public void OnDestroy(){} // RVA: 0x1142490
-        public void OnTriggerEnter(){} // RVA: 0x1142770
-        public void .ctor(){} // RVA: 0x11427A0
-        public void Initialize(){} // RVA: 0x1142810
-        public void OnCollisionExit(){} // RVA: 0x1142990
-        public void OnTriggerStay(){} // RVA: 0xB708C0
-        public void OnTriggerExit(){} // RVA: 0x1142AD0
-        public void Awake(){} // RVA: 0x11440C0
-        // ── 49 unresolved (hash) ──
-        public void m_FA3(){} // RVA: 0x11413A0
-        public void m_18F(){} // RVA: 0x11413C0
-        public void m_321(){} // RVA: 0xB70100
-        public void m_481(){} // RVA: 0x11413D0
-        public void m_C6D(){} // RVA: 0x11413E0
-        // ... 44 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÍÍÏÎÍÌÏÏÌÌÌÍÏÍÌÎÏÎÏÎÎÎ</summary>
-    public class MajorSystem_4634 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x19338A0
-        public void RaiseCancellation(){} // RVA: 0x1933910
-        public void IsInvoking(){} // RVA: 0x1933B70
-        public void CancelInvoke(){} // RVA: 0x1933C30
-        public void Invoke(){} // RVA: 0x1933CC0
-        public void InvokeRepeating(){} // RVA: 0x1934AE0
-        public void StartCoroutine(){} // RVA: 0x1934E50
-        public void StartCoroutine_Auto(){} // RVA: 0x1935840
-        public void StopCoroutine(){} // RVA: 0x19358A0
-        public void StopAllCoroutines(){} // RVA: 0x19359C0
-        public void get_useGUILayout(){} // RVA: 0x1935A50
-        public void set_useGUILayout(){} // RVA: 0x1935B30
-        public void get_didStart(){} // RVA: 0x194C990
-        public void get_didAwake(){} // RVA: 0x193E260
-        public void print(){} // RVA: 0x1935F40
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1936540
-        public void Internal_IsInvokingAll(){} // RVA: 0x1936660
-        public void InvokeDelayed(){} // RVA: 0x1936970
-        public void IsObjectMonoBehaviour(){} // RVA: 0x1936C70
-        public void StartCoroutineManaged(){} // RVA: 0x1936CD0
-        public void StartCoroutineManaged2(){} // RVA: 0x1936F80
-        public void StopCoroutineManaged(){} // RVA: 0x1937670
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1937E50
-        public void GetScriptClassName(){} // RVA: 0x1937FC0
-        public void OnCancellationTokenCreated(){} // RVA: 0x1938130
-        public void StopCoroutine_Injected(){} // RVA: 0x1938520
-        public void StopAllCoroutines_Injected(){} // RVA: 0x1938A00
-        public void get_useGUILayout_Injected(){} // RVA: 0x193D810
-        public void set_useGUILayout_Injected(){} // RVA: 0x1938B70
-        public void get_didStart_Injected(){} // RVA: 0x1939170
-        public void get_didAwake_Injected(){} // RVA: 0x19396A0
-        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x19397A0
-        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1939C60
-        public void InvokeDelayed_Injected(){} // RVA: 0x1939D00
-        public void CancelInvoke_Injected(){} // RVA: 0x1939E00
-        public void IsInvoking_Injected(){} // RVA: 0x1939EA0
-        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x193A3B0
-        public void StartCoroutineManaged_Injected(){} // RVA: 0x193A4A0
-        public void StartCoroutineManaged2_Injected(){} // RVA: 0x193A9B0
-        public void StopCoroutineManaged_Injected(){} // RVA: 0x193AA10
-        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x193ABA0
-        public void GetScriptClassName_Injected(){} // RVA: 0x1960540
-        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x193B870
-        public void FixedUpdate(){} // RVA: 0x1943B40
-        public void Update(){} // RVA: 0x1943BA0
-        public void LateUpdate(){} // RVA: 0x1943D40
-        public void OnApplicationPause(){} // RVA: 0x19441E0
-        public void OnApplicationQuit(){} // RVA: 0x1944320
-        public void OnBecameVisible(){} // RVA: 0x1944460
-        public void OnBecameInvisible(){} // RVA: 0x195CBC0
-        public void OnCollisionEnter(){} // RVA: 0x1944900
-        public void OnCollisionStay(){} // RVA: 0x1944B90
-        public void OnCollisionExit(){} // RVA: 0x1944BA0
-        public void OnTriggerEnter(){} // RVA: 0x1944C50
-        public void OnTriggerStay(){} // RVA: 0x1944D80
-        public void OnTriggerExit(){} // RVA: 0x1945070
-        public void OnEnable(){} // RVA: 0x19505D0
-        public void Awake(){} // RVA: 0x1952240
-        public void OnDisable(){} // RVA: 0x1953140
-        public void OnDestroy(){} // RVA: 0x1953620
-        public void .cctor(){} // RVA: 0x1954150
-        public void .ctor(){} // RVA: 0x1963430
-        public void Start(){} // RVA: 0x1963650
-        // ── 222 unresolved (hash) ──
-        public void m_791(){} // RVA: 0x19384C0
-        public void m_A47(){} // RVA: 0x1966370
-        public void m_7FD(){} // RVA: 0x193EB00
-        public void m_BF7(){} // RVA: 0x193BEA0
-        public void m_D41(){} // RVA: 0x193E410
-        // ... 217 more unresolved methods
+        public void GetInstanceID(){} // RVA: 0x16A61E0
+        public void Equals(){} // RVA: 0x16A6350
+        public void GetHashCode(){} // RVA: 0x16A63D0
+        public void op_Implicit(){} // RVA: 0x16A6420
+        public void CompareBaseObjects(){} // RVA: 0x16A6480
+        public void IsNativeObjectAlive(){} // RVA: 0x16A6500
+        public void GetCachedPtr(){} // RVA: 0x16A65A0
+        public void get_name(){} // RVA: 0x16A6600
+        public void set_name(){} // RVA: 0x16A6680
+        public void Instantiate(){} // RVA: 0x16A6740
+        public void Destroy(){} // RVA: 0x16A67C0
+        public void DestroyImmediate(){} // RVA: 0x16A6810
+        public void FindObjectsOfType(){} // RVA: 0x16A6970
+        public void FindObjectsByType(){} // RVA: 0x16A6A00
+        public void DontDestroyOnLoad(){} // RVA: 0x16A6AB0
+        public void get_hideFlags(){} // RVA: 0xB70100
+        public void set_hideFlags(){} // RVA: 0x16A6B00
+        public void FindObjectOfType(){} // RVA: 0x16A6E00
+        public void FindFirstObjectByType(){} // RVA: 0x16A6F20
+        public void CheckNullArgument(){} // RVA: 0x16A6FC0
+        public void ToString(){} // RVA: 0x16A7020
+        public void op_Equality(){} // RVA: 0x16A7080
+        public void op_Inequality(){} // RVA: 0x16A7290
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x16AA6D0
+        public void Internal_CloneSingle(){} // RVA: 0xB43320
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x16A7620
+        public void Internal_InstantiateSingle(){} // RVA: 0xB70160
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x16A7680
+        public void GetName(){} // RVA: 0x16A7780
+        public void IsPersistent(){} // RVA: 0x16A7830
+        public void SetName(){} // RVA: 0x16A7880
+        public void FindObjectFromInstanceID(){} // RVA: 0x16A7C30
+        public void ForceLoadFromInstanceID(){} // RVA: 0x16A7CE0
+        public void Destroy_Injected(){} // RVA: 0x16A7E70
+        public void DestroyImmediate_Injected(){} // RVA: 0x16A86F0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0x16A8A60
+        public void get_hideFlags_Injected(){} // RVA: 0x16A8D80
+        public void set_hideFlags_Injected(){} // RVA: 0x16A8DD0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x16A8E30
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x16A8EF0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x16A9B90
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x16A9BE0
+        public void ToString_Injected(){} // RVA: 0x16A9CC0
+        public void GetName_Injected(){} // RVA: 0x16A9D20
+        public void IsPersistent_Injected(){} // RVA: 0x16A9DE0
+        public void .cctor(){} // RVA: 0x16A9EC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x16AA550
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x16AA5D0
+        public void h(){} // RVA: 0x16AA630
+        public void .ctor(){} // RVA: 0x16ACF10
+        public void Initialize(){} // RVA: 0x16ACFD0
+        // ── 101 unresolved (hash) ──
+        public void m_C9B(){} // RVA: 0x16A7D70
+        public void m_3B1(){} // RVA: 0x16A7DD0
+        public void m_27D(){} // RVA: 0x16AA7B0
+        public void m_77E(){} // RVA: 0x16AA850
+        public void m_60A(){} // RVA: 0x16AF970
+        // ... 96 more unresolved methods
     }
 
 }

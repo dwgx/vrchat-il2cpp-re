@@ -8,79 +8,101 @@ namespace VRC.SDK3.StringLoading
     public class IVRCStringDownload
     {
         // ── Methods ──
-        public void get_Result(){} // RVA: 0x7A7E00680
-        public void get_ResultBytes(){} // RVA: 0x7A7E00680
-        public void get_Error(){} // RVA: 0x7A7E00680
-        public void get_ErrorCode(){} // RVA: 0x7A7E00710
-        public void get_Url(){} // RVA: 0x7A7E00680
-        public void get_UdonBehaviour(){} // RVA: 0x7A7E00680
-        public void StartDownload(){} // RVA: 0x7A7E18770
-        public void CancelDownload(){} // RVA: 0x7A7E18770
+        public void get_Result(){} // RVA: 0x87C0A0
+        public void get_ResultBytes(){} // RVA: 0x87C0A0
+        public void get_Error(){} // RVA: 0x87C0A0
+        public void get_ErrorCode(){} // RVA: 0x87C130
+        public void get_Url(){} // RVA: 0x87C0A0
+        public void get_UdonBehaviour(){} // RVA: 0x87C0A0
+        public void StartDownload(){} // RVA: 0x894290
+        public void CancelDownload(){} // RVA: 0x894290
     }
 
     public class IVRCStringDownload[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class MaxBufferDownloadHandler : DownloadHandlerScript
     {
+        public object _max;
+        public object _current;
+        public object _buffer;
+        public object lengthFail;
+
         // ── Methods ──
-        public void get_downloadedBytes(){} // RVA: 0x7B1848920
-        public void .ctor(){} // RVA: 0x7B1848A80
-        public void ReceiveContentLengthHeader(){} // RVA: 0x7B1848BF0
-        public void ReceiveData(){} // RVA: 0x7B1848C60
+        public void get_downloadedBytes(){} // RVA: 0xA6B33A0
+        public void .ctor(){} // RVA: 0xA6B3500
+        public void ReceiveContentLengthHeader(){} // RVA: 0xA6B3670
+        public void ReceiveData(){} // RVA: 0xA6B36E0
     }
 
     public class VRCStringDownload : Object
     {
+        public object MINIMUM_DELAY_BETWEEN_REQUESTS;
+        public object MAXIMUM_DOWNLOAD_SIZE_MB;
+        public object _lastStringRequest;
+        public object _result;
+        public object _resultBytes;
+        public object _error;
+        public object _errorCode;
+        public object _url;
+        public object _udonBehaviour;
+        public object _webRequest;
+        public object _DownloadHandler;
+        public object _asyncOperation;
+        public object _cancellationTokenSource;
+
         // ── Methods ──
-        public void get_Result(){} // RVA: 0x7B1848D80
-        public void get_ResultBytes(){} // RVA: 0x7A80DA7B0
-        public void set_ResultBytes(){} // RVA: 0x7A813E420
-        public void get_Error(){} // RVA: 0x7A81052C0
-        public void set_Error(){} // RVA: 0x7A81052D0
-        public void get_ErrorCode(){} // RVA: 0x7A854FDE0
-        public void set_ErrorCode(){} // RVA: 0x7A8810F60
-        public void get_Url(){} // RVA: 0x7A83F69F0
-        public void set_Url(){} // RVA: 0x7A8105A90
-        public void get_UdonBehaviour(){} // RVA: 0x7A8292C30
-        public void set_UdonBehaviour(){} // RVA: 0x7A8296DE0
-        public void .ctor(){} // RVA: 0x7B1848E30
-        public void StartDownload(){} // RVA: 0x7B1848FA0
-        public void StartAtCorrectTime(){} // RVA: 0x7B18497C0
-        public void CompletedRequest(){} // RVA: 0x7B1849970
-        public void CancelDownload(){} // RVA: 0x7B1849DD0
-        public void .cctor(){} // RVA: 0x7B184A020
-        public void <StartAtCorrectTime>b__32_1(){} // RVA: 0x7B184A060
+        public void get_Result(){} // RVA: 0xA6B3800
+        public void get_ResultBytes(){} // RVA: 0xB465B0
+        public void set_ResultBytes(){} // RVA: 0xBA9BA0
+        public void get_Error(){} // RVA: 0xB700F0
+        public void set_Error(){} // RVA: 0xB70100
+        public void get_ErrorCode(){} // RVA: 0x1065D50
+        public void set_ErrorCode(){} // RVA: 0x13233D0
+        public void get_Url(){} // RVA: 0xD33E60
+        public void set_Url(){} // RVA: 0xB708C0
+        public void get_UdonBehaviour(){} // RVA: 0xD05CA0
+        public void set_UdonBehaviour(){} // RVA: 0xD09D70
+        public void .ctor(){} // RVA: 0xA6B38B0
+        public void StartDownload(){} // RVA: 0xA6B3A20
+        public void StartAtCorrectTime(){} // RVA: 0xA6B4210
+        public void CompletedRequest(){} // RVA: 0xA6B43C0
+        public void CancelDownload(){} // RVA: 0xA6B4870
+        public void .cctor(){} // RVA: 0xA6B4AD0
+        public void <StartAtCorrectTime>b__32_1(){} // RVA: 0xA6B4B10
     }
 
     public class VRCStringDownloader : Object
     {
+        public object _stringDownloads;
+        public object _startDownload;
+
         // ── Methods ──
-        public void get_StartDownload(){} // RVA: 0x7B184A810
-        public void set_StartDownload(){} // RVA: 0x7B184A870
-        public void LoadUrl(){} // RVA: 0x7B184A930
-        public void LoadUrlInternal(){} // RVA: 0x7B184A9F0
-        public void AddToManager(){} // RVA: 0x7B184AB90
-        public void RemoveFromManager(){} // RVA: 0x7B184ACA0
-        public void ClearQueue(){} // RVA: 0x7B184AD30
-        public void .cctor(){} // RVA: 0x7B184AFA0
+        public void get_StartDownload(){} // RVA: 0xA6B52C0
+        public void set_StartDownload(){} // RVA: 0xA6B5320
+        public void LoadUrl(){} // RVA: 0xA6B53E0
+        public void LoadUrlInternal(){} // RVA: 0xA6B54A0
+        public void AddToManager(){} // RVA: 0xA6B5640
+        public void RemoveFromManager(){} // RVA: 0xA6B5750
+        public void ClearQueue(){} // RVA: 0xA6B57E0
+        public void .cctor(){} // RVA: 0xA6B5A50
     }
 
 }

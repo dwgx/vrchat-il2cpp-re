@@ -8,21 +8,28 @@ namespace ThirdParty.Other.ZLogger.Formatters
     public class MessageTemplateFormatter : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class PlainTextZLoggerFormatter : Object
     {
+        public object newLine;
+        public object exceptionFormatter;
+        public object prefixTemplate;
+        public object prefixFormatter;
+        public object suffixTemplate;
+        public object suffixFormatter;
+
         // ── Methods ──
-        public void get_WithLineBreak(){} // RVA: 0x7A81BD750
-        public void SetPrefixFormatter(){} // RVA: 0x7B195AB20
-        public void FormatLogEntry(){} // RVA: 0x7AA55D070
-        public void DefaultExceptionLoggingFormatter(){} // RVA: 0x7B195AC00
-        public void WriteExceptionLoggingCore(){} // RVA: 0x7B195AE60
-        public void Write(){} // RVA: 0x7B195B510
-        public void .ctor(){} // RVA: 0x7B195B8D0
-        public void .cctor(){} // RVA: 0x7B195BA40
+        public void get_WithLineBreak(){} // RVA: 0xC2E4C0
+        public void SetPrefixFormatter(){} // RVA: 0xA7C6F40
+        public void FormatLogEntry(){} // RVA: 0x3190770
+        public void DefaultExceptionLoggingFormatter(){} // RVA: 0xA7C7020
+        public void WriteExceptionLoggingCore(){} // RVA: 0xA7C7280
+        public void Write(){} // RVA: 0xA7C7930
+        public void .ctor(){} // RVA: 0xA7C7CF0
+        public void .cctor(){} // RVA: 0xA7C7E60
     }
 
 }

@@ -7,9 +7,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
 {
     public class FiniteFieldDheGroup : Object
     {
+        public object ffdhe2432;
+        public object ffdhe3072;
+        public object ffdhe4096;
+        public object ffdhe6144;
+        public object ffdhe8192;
+
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7B1364270
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void IsValid(){} // RVA: 0xA1CFB60
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

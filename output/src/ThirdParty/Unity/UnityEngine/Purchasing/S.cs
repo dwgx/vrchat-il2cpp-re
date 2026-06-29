@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class ScriptingStoreCallback : Object
     {
+        public object m_ForwardTo;
+        public object m_Util;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void get_products(){} // RVA: 0x7D84AF0
@@ -19,6 +22,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class ScriptingUnityCallback : Object
     {
+        public object forwardTo;
+        public object util;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
     }
@@ -31,6 +37,21 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StandardPurchasingModule : AbstractPurchasingModule
     {
+        public object k_Version;
+        public object m_NativeStoreProvider;
+        public object m_RuntimePlatform;
+        public object ModuleInstance;
+        public object _util;
+        public object _logger;
+        public object _storeInstance;
+        public object _telemetryMetricsInstanceWrapper;
+        public object _telemetryDiagnosticsInstanceWrapper;
+        public object AndroidStoreNameMap;
+        public object _appStore;
+        public object _useFakeStoreUIMode;
+        public object _useFakeStoreAlways;
+        public object windowsStore;
+
         // ── Methods ──
         public void get_util(){} // RVA: 0xD33E60
         public void set_util(){} // RVA: 0xB708C0
@@ -75,6 +96,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreConfiguration : Object
     {
+        public object _androidStore;
+
         // ── Methods ──
         public void get_androidStore(){} // RVA: 0xB8F8F0
         public void set_androidStore(){} // RVA: 0xB460A0
@@ -84,6 +107,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreListenerProxy : Object
     {
+        public object m_Analytics;
+        public object m_ForwardTo;
+        public object m_Extensions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D6B860
         public void OnInitialized(){} // RVA: 0x7D6B960
@@ -95,6 +122,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class StoreServiceInterface : Object
     {
+        public object s_typeCache;
+
         // ── Methods ──
         public void GetClassType(){} // RVA: 0x7D8A510
         public void GetNameProp(){} // RVA: 0x7D8A640
@@ -109,6 +138,25 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class SubscriptionInfo : Object
     {
+        public object is_subscribed;
+        public object is_expired;
+        public object is_cancelled;
+        public object is_free_trial;
+        public object is_auto_renewing;
+        public object is_introductory_price_period;
+        public object productId;
+        public object purchaseDate;
+        public object subscriptionExpireDate;
+        public object subscriptionCancelDate;
+        public object remainedTime;
+        public object introductory_price;
+        public object introductory_price_period;
+        public object introductory_price_cycles;
+        public object freeTrialPeriod;
+        public object subscriptionPeriod;
+        public object free_trial_period_string;
+        public object sku_details;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D9C6A0
         public void isExpired(){} // RVA: 0x116A650
@@ -124,6 +172,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class SubscriptionManager : Object
     {
+        public object receipt;
+        public object productId;
+        public object intro_json;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D99B10
         public void getSubscriptionInfo(){} // RVA: 0x7D99C50

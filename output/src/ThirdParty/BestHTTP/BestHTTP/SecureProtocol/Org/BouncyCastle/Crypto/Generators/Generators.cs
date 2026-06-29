@@ -7,370 +7,526 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Ge
 {
     public class BCrypt : Object
     {
+        public object MAGIC_STRING;
+        public object MAGIC_STRING_LENGTH;
+        public object KP;
+        public object KS0;
+        public object KS1;
+        public object KS2;
+        public object KS3;
+        public object ROUNDS;
+        public object SBOX_SK;
+        public object SBOX_SK2;
+        public object SBOX_SK3;
+        public object P_SZ;
+        public object S;
+        public object P;
+        public object SALT_SIZE_BYTES;
+        public object MIN_COST;
+        public object MAX_COST;
+        public object MAX_PASSWORD_BYTES;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1406F00
-        public void F(){} // RVA: 0x7B1407010
-        public void ProcessTable(){} // RVA: 0x7B14070A0
-        public void InitState(){} // RVA: 0x7B1407200
-        public void CyclicXorKey(){} // RVA: 0x7B1407340
-        public void EncryptMagicString(){} // RVA: 0x7B1407410
-        public void ProcessTableWithSalt(){} // RVA: 0x7B1407830
-        public void DeriveRawKey(){} // RVA: 0x7B1407AE0
-        public void PasswordToByteArray(){} // RVA: 0x7B1408010
-        public void Generate(){} // RVA: 0x7B1408140
-        public void .cctor(){} // RVA: 0x7B1408480
+        public void .ctor(){} // RVA: 0xA2724E0
+        public void F(){} // RVA: 0xA2725F0
+        public void ProcessTable(){} // RVA: 0xA272680
+        public void InitState(){} // RVA: 0xA2727E0
+        public void CyclicXorKey(){} // RVA: 0xA272920
+        public void EncryptMagicString(){} // RVA: 0xA2729F0
+        public void ProcessTableWithSalt(){} // RVA: 0xA272E10
+        public void DeriveRawKey(){} // RVA: 0xA2730C0
+        public void PasswordToByteArray(){} // RVA: 0xA2735F0
+        public void Generate(){} // RVA: 0xA273720
+        public void .cctor(){} // RVA: 0xA273A60
     }
 
     public class BaseKdfBytesGenerator : Object
     {
+        public object counterStart;
+        public object digest;
+        public object shared;
+        public object iv;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9AC8120
-        public void Init(){} // RVA: 0x7B14067B0
-        public void get_Digest(){} // RVA: 0x7A80DA7B0
-        public void GenerateBytes(){} // RVA: 0x7B1406A90
+        public void .ctor(){} // RVA: 0x2574280
+        public void Init(){} // RVA: 0xA271D90
+        public void get_Digest(){} // RVA: 0xB465B0
+        public void GenerateBytes(){} // RVA: 0xA272070
     }
 
     public class DHBasicKeyPairGenerator : Object
     {
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B1408FC0
-        public void GenerateKeyPair(){} // RVA: 0x7B14090C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA2745A0
+        public void GenerateKeyPair(){} // RVA: 0xA2746A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DHKeyGeneratorHelper : Object
     {
+        public object Instance;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void CalculatePrivate(){} // RVA: 0x7B1409290
-        public void CalculatePublic(){} // RVA: 0x7B1409540
-        public void .cctor(){} // RVA: 0x7B1409570
+        public void .ctor(){} // RVA: 0xB43310
+        public void CalculatePrivate(){} // RVA: 0xA274870
+        public void CalculatePublic(){} // RVA: 0xA274B20
+        public void .cctor(){} // RVA: 0xA274B50
     }
 
     public class DHKeyPairGenerator : Object
     {
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B1409610
-        public void GenerateKeyPair(){} // RVA: 0x7B1409710
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA274BF0
+        public void GenerateKeyPair(){} // RVA: 0xA274CF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DHParametersGenerator : Object
     {
+        public object size;
+        public object certainty;
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B14098E0
-        public void GenerateParameters(){} // RVA: 0x7B1409940
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA274EC0
+        public void GenerateParameters(){} // RVA: 0xA274F20
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DHParametersHelper : Object
     {
+        public object Six;
+        public object primeLists;
+        public object primeProducts;
+        public object BigPrimeProducts;
+
         // ── Methods ──
-        public void ConstructBigPrimeProducts(){} // RVA: 0x7B1409AA0
-        public void GenerateSafePrimes(){} // RVA: 0x7B1409C30
-        public void SelectGenerator(){} // RVA: 0x7B140A3A0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B140A4E0
+        public void ConstructBigPrimeProducts(){} // RVA: 0xA275080
+        public void GenerateSafePrimes(){} // RVA: 0xA275210
+        public void SelectGenerator(){} // RVA: 0xA275980
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA275AC0
     }
 
     public class DesEdeKeyGenerator : DesKeyGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B14088A0
-        public void engineInit(){} // RVA: 0x7B14088B0
-        public void engineGenerateKey(){} // RVA: 0x7B1408AB0
+        public void .ctor(){} // RVA: 0xA273E80
+        public void engineInit(){} // RVA: 0xA273E90
+        public void engineGenerateKey(){} // RVA: 0xA274090
     }
 
     public class DesKeyGenerator : CipherKeyGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B14088A0
-        public void engineInit(){} // RVA: 0x7B1408D20
-        public void engineGenerateKey(){} // RVA: 0x7B1408E60
+        public void .ctor(){} // RVA: 0xA273E80
+        public void engineInit(){} // RVA: 0xA274300
+        public void engineGenerateKey(){} // RVA: 0xA274440
     }
 
     public class DsaKeyPairGenerator : Object
     {
+        public object One;
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B140A8B0
-        public void GenerateKeyPair(){} // RVA: 0x7B140AA10
-        public void GeneratePrivateKey(){} // RVA: 0x7B140AC80
-        public void CalculatePublicKey(){} // RVA: 0x7B140ADD0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B140AE00
+        public void Init(){} // RVA: 0xA275E90
+        public void GenerateKeyPair(){} // RVA: 0xA275FF0
+        public void GeneratePrivateKey(){} // RVA: 0xA276260
+        public void CalculatePublicKey(){} // RVA: 0xA2763B0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA2763E0
     }
 
     public class DsaParametersGenerator : Object
     {
+        public object digest;
+        public object L;
+        public object N;
+        public object certainty;
+        public object random;
+        public object use186_3;
+        public object usageIndex;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void Init(){} // RVA: 0x7B140B060
-        public void GenerateParameters(){} // RVA: 0x7B140B3A0
-        public void GenerateParameters_FIPS186_2(){} // RVA: 0x7B140B3D0
-        public void CalculateGenerator_FIPS186_2(){} // RVA: 0x7B140BCC0
-        public void GenerateParameters_FIPS186_3(){} // RVA: 0x7B140BE10
-        public void CalculateGenerator_FIPS186_3_Unverifiable(){} // RVA: 0x7AE9E7DE0
-        public void CalculateGenerator_FIPS186_3_Verifiable(){} // RVA: 0x7B140C6A0
-        public void IsValidDsaStrength(){} // RVA: 0x7B140C9F0
-        public void Hash(){} // RVA: 0x7B140CA10
-        public void GetDefaultN(){} // RVA: 0x7B140CAB0
-        public void Inc(){} // RVA: 0x7B140CAD0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void Init(){} // RVA: 0xA276640
+        public void GenerateParameters(){} // RVA: 0xA276980
+        public void GenerateParameters_FIPS186_2(){} // RVA: 0xA2769B0
+        public void CalculateGenerator_FIPS186_2(){} // RVA: 0xA2772A0
+        public void GenerateParameters_FIPS186_3(){} // RVA: 0xA2773F0
+        public void CalculateGenerator_FIPS186_3_Unverifiable(){} // RVA: 0x7659E60
+        public void CalculateGenerator_FIPS186_3_Verifiable(){} // RVA: 0xA277C80
+        public void IsValidDsaStrength(){} // RVA: 0xA277FD0
+        public void Hash(){} // RVA: 0xA277FF0
+        public void GetDefaultN(){} // RVA: 0xA278090
+        public void Inc(){} // RVA: 0xA2780B0
     }
 
     public class ECKeyPairGenerator : Object
     {
+        public object algorithm;
+        public object parameters;
+        public object publicKeyParamSet;
+        public object random;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B140CB80
-        public void Init(){} // RVA: 0x7B140CC80
-        public void GenerateKeyPair(){} // RVA: 0x7B140D360
-        public void CreateBasePointMultiplier(){} // RVA: 0x7B140D670
-        public void FindECCurveByOid(){} // RVA: 0x7B140D6B0
-        public void GetCorrespondingPublicKey(){} // RVA: 0x7B140D7D0
+        public void .ctor(){} // RVA: 0xA278160
+        public void Init(){} // RVA: 0xA278260
+        public void GenerateKeyPair(){} // RVA: 0xA278940
+        public void CreateBasePointMultiplier(){} // RVA: 0xA278C50
+        public void FindECCurveByOid(){} // RVA: 0xA278C90
+        public void GetCorrespondingPublicKey(){} // RVA: 0xA278DB0
     }
 
     public class Ed25519KeyPairGenerator : Object
     {
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A9B7BB50
-        public void GenerateKeyPair(){} // RVA: 0x7B140D8F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0x262D430
+        public void GenerateKeyPair(){} // RVA: 0xA278ED0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Ed448KeyPairGenerator : Object
     {
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A9B7BB50
-        public void GenerateKeyPair(){} // RVA: 0x7B140DAA0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0x262D430
+        public void GenerateKeyPair(){} // RVA: 0xA279080
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ElGamalKeyPairGenerator : Object
     {
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B140DC50
-        public void GenerateKeyPair(){} // RVA: 0x7B140DD50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA279230
+        public void GenerateKeyPair(){} // RVA: 0xA279330
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ElGamalParametersGenerator : Object
     {
+        public object size;
+        public object certainty;
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B14098E0
-        public void GenerateParameters(){} // RVA: 0x7B140DF50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA274EC0
+        public void GenerateParameters(){} // RVA: 0xA279530
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Gost3410KeyPairGenerator : Object
     {
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B140E040
-        public void GenerateKeyPair(){} // RVA: 0x7B140E350
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA279620
+        public void GenerateKeyPair(){} // RVA: 0xA279930
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Gost3410ParametersGenerator : Object
     {
+        public object size;
+        public object typeproc;
+        public object init_random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B14098E0
-        public void procedure_A(){} // RVA: 0x7B140E7F0
-        public void procedure_Aa(){} // RVA: 0x7B140F2C0
-        public void procedure_B(){} // RVA: 0x7B140FDC0
-        public void procedure_Bb(){} // RVA: 0x7B1410A00
-        public void procedure_C(){} // RVA: 0x7B1411640
-        public void GenerateParameters(){} // RVA: 0x7B14117F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA274EC0
+        public void procedure_A(){} // RVA: 0xA279DD0
+        public void procedure_Aa(){} // RVA: 0xA27A8A0
+        public void procedure_B(){} // RVA: 0xA27B3A0
+        public void procedure_Bb(){} // RVA: 0xA27BFE0
+        public void procedure_C(){} // RVA: 0xA27CC20
+        public void GenerateParameters(){} // RVA: 0xA27CDD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class HkdfBytesGenerator : Object
     {
+        public object hMacHash;
+        public object hashLen;
+        public object info;
+        public object currentT;
+        public object generatedBytes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1411D40
-        public void Init(){} // RVA: 0x7B1411E30
-        public void Extract(){} // RVA: 0x7B1412110
-        public void ExpandNext(){} // RVA: 0x7B1412270
-        public void get_Digest(){} // RVA: 0x7AE3C9490
-        public void GenerateBytes(){} // RVA: 0x7B14123B0
+        public void .ctor(){} // RVA: 0xA27D320
+        public void Init(){} // RVA: 0xA27D410
+        public void Extract(){} // RVA: 0xA27D6F0
+        public void ExpandNext(){} // RVA: 0xA27D850
+        public void get_Digest(){} // RVA: 0x7048FE0
+        public void GenerateBytes(){} // RVA: 0xA27D990
     }
 
     public class Kdf1BytesGenerator : BaseKdfBytesGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1412550
+        public void .ctor(){} // RVA: 0xA27DB30
     }
 
     public class Kdf2BytesGenerator : BaseKdfBytesGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE7FB640
+        public void .ctor(){} // RVA: 0x7470D50
     }
 
     public class KdfCounterBytesGenerator : Object
     {
+        public object IntegerMax;
+        public object Two;
+        public object prf;
+        public object h;
+        public object fixedInputDataCtrPrefix;
+        public object fixedInputData_afterCtr;
+        public object maxSizeExcl;
+        public object ios;
+        public object generatedBytes;
+        public object k;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B14125B0
-        public void Init(){} // RVA: 0x7B14126E0
-        public void GetMac(){} // RVA: 0x7A80F2570
-        public void get_Digest(){} // RVA: 0x7B1412BA0
-        public void GenerateBytes(){} // RVA: 0x7B1412C50
-        public void generateNext(){} // RVA: 0x7B1412E20
-        public void .cctor(){} // RVA: 0x7B1413050
+        public void .ctor(){} // RVA: 0xA27DB90
+        public void Init(){} // RVA: 0xA27DCC0
+        public void GetMac(){} // RVA: 0xB5DBF0
+        public void get_Digest(){} // RVA: 0xA27E180
+        public void GenerateBytes(){} // RVA: 0xA27E230
+        public void generateNext(){} // RVA: 0xA27E400
+        public void .cctor(){} // RVA: 0xA27E630
     }
 
     public class KdfDoublePipelineIterationBytesGenerator : Object
     {
+        public object IntegerMax;
+        public object Two;
+        public object prf;
+        public object h;
+        public object fixedInputData;
+        public object maxSizeExcl;
+        public object ios;
+        public object useCounter;
+        public object generatedBytes;
+        public object a;
+        public object k;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B14131A0
-        public void Init(){} // RVA: 0x7B1413330
-        public void generateNext(){} // RVA: 0x7B14137F0
-        public void get_Digest(){} // RVA: 0x7B1413AB0
-        public void GenerateBytes(){} // RVA: 0x7B1413B60
-        public void GetMac(){} // RVA: 0x7A80F2570
-        public void .cctor(){} // RVA: 0x7B1413D30
+        public void .ctor(){} // RVA: 0xA27E780
+        public void Init(){} // RVA: 0xA27E910
+        public void generateNext(){} // RVA: 0xA27EDD0
+        public void get_Digest(){} // RVA: 0xA27F090
+        public void GenerateBytes(){} // RVA: 0xA27F140
+        public void GetMac(){} // RVA: 0xB5DBF0
+        public void .cctor(){} // RVA: 0xA27F310
     }
 
     public class KdfFeedbackBytesGenerator : Object
     {
+        public object IntegerMax;
+        public object Two;
+        public object prf;
+        public object h;
+        public object fixedInputData;
+        public object maxSizeExcl;
+        public object ios;
+        public object iv;
+        public object useCounter;
+        public object generatedBytes;
+        public object k;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1413E80
-        public void Init(){} // RVA: 0x7B1413FB0
-        public void get_Digest(){} // RVA: 0x7B1414510
-        public void GenerateBytes(){} // RVA: 0x7B14145C0
-        public void generateNext(){} // RVA: 0x7B1414790
-        public void GetMac(){} // RVA: 0x7A80F2570
-        public void .cctor(){} // RVA: 0x7B14149F0
+        public void .ctor(){} // RVA: 0xA27F460
+        public void Init(){} // RVA: 0xA27F590
+        public void get_Digest(){} // RVA: 0xA27FAF0
+        public void GenerateBytes(){} // RVA: 0xA27FBA0
+        public void generateNext(){} // RVA: 0xA27FD70
+        public void GetMac(){} // RVA: 0xB5DBF0
+        public void .cctor(){} // RVA: 0xA27FFD0
     }
 
     public class Mgf1BytesGenerator : Object
     {
+        public object digest;
+        public object seed;
+        public object hLen;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1414B40
-        public void Init(){} // RVA: 0x7B1414BF0
-        public void get_Digest(){} // RVA: 0x7A80F2570
-        public void ItoOSP(){} // RVA: 0x7B13A8260
-        public void GenerateBytes(){} // RVA: 0x7B1414E40
+        public void .ctor(){} // RVA: 0xA280120
+        public void Init(){} // RVA: 0xA2801D0
+        public void get_Digest(){} // RVA: 0xB5DBF0
+        public void ItoOSP(){} // RVA: 0xA213980
+        public void GenerateBytes(){} // RVA: 0xA2803F0
     }
 
     public class NaccacheSternKeyPairGenerator : Object
     {
+        public object smallPrimes;
+        public object param;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B1415320
-        public void GenerateKeyPair(){} // RVA: 0x7B1415420
-        public void generatePrime(){} // RVA: 0x7B1416AB0
-        public void permuteList(){} // RVA: 0x7B1416B30
-        public void findFirstPrimes(){} // RVA: 0x7B1416F00
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1417100
+        public void Init(){} // RVA: 0xA2808D0
+        public void GenerateKeyPair(){} // RVA: 0xA2809D0
+        public void generatePrime(){} // RVA: 0xA282060
+        public void permuteList(){} // RVA: 0xA2820E0
+        public void findFirstPrimes(){} // RVA: 0xA2824B0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA2826B0
     }
 
     public class OpenBsdBCrypt : Object
     {
+        public object EncodingTable;
+        public object DecodingTable;
+        public object DefaultVersion;
+        public object AllowedVersions;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7B14171E0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void CreateBcryptString(){} // RVA: 0x7B1417610
-        public void Generate(){} // RVA: 0x7B1417970
-        public void CheckPassword(){} // RVA: 0x7B1417D30
-        public void EncodeData(){} // RVA: 0x7B14181F0
-        public void DecodeSaltString(){} // RVA: 0x7B1418620
+        public void .cctor(){} // RVA: 0xA282790
+        public void .ctor(){} // RVA: 0xB43310
+        public void CreateBcryptString(){} // RVA: 0xA282BC0
+        public void Generate(){} // RVA: 0xA282F20
+        public void CheckPassword(){} // RVA: 0xA2832E0
+        public void EncodeData(){} // RVA: 0xA2837A0
+        public void DecodeSaltString(){} // RVA: 0xA283BD0
     }
 
     public class OpenSslPbeParametersGenerator : PbeParametersGenerator
     {
+        public object digest;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1418B30
-        public void Init(){} // RVA: 0x7B1418BF0
-        public void GenerateDerivedKey(){} // RVA: 0x7B1418C10
-        public void GenerateDerivedParameters(){} // RVA: 0x7B1419220
-        public void GenerateDerivedMacParameters(){} // RVA: 0x7B1419320
+        public void .ctor(){} // RVA: 0xA2840E0
+        public void Init(){} // RVA: 0xA2841A0
+        public void GenerateDerivedKey(){} // RVA: 0xA2841C0
+        public void GenerateDerivedParameters(){} // RVA: 0xA2847B0
+        public void GenerateDerivedMacParameters(){} // RVA: 0xA2848B0
     }
 
     public class Pkcs12ParametersGenerator : PbeParametersGenerator
     {
+        public object KeyMaterial;
+        public object IVMaterial;
+        public object MacMaterial;
+        public object digest;
+        public object u;
+        public object v;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B14193B0
-        public void Adjust(){} // RVA: 0x7B1419480
-        public void GenerateDerivedKey(){} // RVA: 0x7B1419580
-        public void GenerateDerivedParameters(){} // RVA: 0x7B1419E20
-        public void GenerateDerivedMacParameters(){} // RVA: 0x7B1419F40
+        public void .ctor(){} // RVA: 0xA284940
+        public void Adjust(){} // RVA: 0xA284A10
+        public void GenerateDerivedKey(){} // RVA: 0xA284B10
+        public void GenerateDerivedParameters(){} // RVA: 0xA2853B0
+        public void GenerateDerivedMacParameters(){} // RVA: 0xA2854D0
     }
 
     public class Pkcs5S1ParametersGenerator : PbeParametersGenerator
     {
+        public object digest;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E80
-        public void GenerateDerivedKey(){} // RVA: 0x7B1419FE0
-        public void GenerateDerivedParameters(){} // RVA: 0x7B141A580
-        public void GenerateDerivedMacParameters(){} // RVA: 0x7B141A740
+        public void .ctor(){} // RVA: 0xB44DC0
+        public void GenerateDerivedKey(){} // RVA: 0xA285570
+        public void GenerateDerivedParameters(){} // RVA: 0xA285B10
+        public void GenerateDerivedMacParameters(){} // RVA: 0xA285CD0
     }
 
     public class Pkcs5S2ParametersGenerator : PbeParametersGenerator
     {
+        public object hMac;
+        public object state;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B141A8E0
-        public void F(){} // RVA: 0x7B141AA40
-        public void GenerateDerivedKey(){} // RVA: 0x7B141ACC0
-        public void GenerateDerivedParameters(){} // RVA: 0x7B141B010
-        public void GenerateDerivedMacParameters(){} // RVA: 0x7B141B110
+        public void .ctor(){} // RVA: 0xA285E70
+        public void F(){} // RVA: 0xA285FD0
+        public void GenerateDerivedKey(){} // RVA: 0xA286250
+        public void GenerateDerivedParameters(){} // RVA: 0xA2865A0
+        public void GenerateDerivedMacParameters(){} // RVA: 0xA2866A0
     }
 
     public class Poly1305KeyGenerator : CipherKeyGenerator
     {
+        public object R_MASK_LOW_2;
+        public object R_MASK_HIGH_4;
+
         // ── Methods ──
-        public void engineInit(){} // RVA: 0x7B141B1A0
-        public void engineGenerateKey(){} // RVA: 0x7B141B220
-        public void Clamp(){} // RVA: 0x7B141B370
-        public void CheckKey(){} // RVA: 0x7B141B430
-        public void CheckMask(){} // RVA: 0x7B141B540
-        public void .ctor(){} // RVA: 0x7AE8AD0C0
+        public void engineInit(){} // RVA: 0xA286730
+        public void engineGenerateKey(){} // RVA: 0xA2867B0
+        public void Clamp(){} // RVA: 0xA286900
+        public void CheckKey(){} // RVA: 0xA2869C0
+        public void CheckMask(){} // RVA: 0xA286AD0
+        public void .ctor(){} // RVA: 0x7521270
     }
 
     public class RsaBlindingFactorGenerator : Object
     {
+        public object key;
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B141B5B0
-        public void GenerateBlindingFactor(){} // RVA: 0x7B141B980
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0xA286B40
+        public void GenerateBlindingFactor(){} // RVA: 0xA286F10
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class RsaKeyPairGenerator : Object
     {
+        public object SPECIAL_E_VALUES;
+        public object SPECIAL_E_HIGHEST;
+        public object SPECIAL_E_BITS;
+        public object One;
+        public object DefaultPublicExponent;
+        public object DefaultTests;
+        public object parameters;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7B141BB40
-        public void GenerateKeyPair(){} // RVA: 0x7B141BDE0
-        public void ChooseRandomPrime(){} // RVA: 0x7B141C350
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B141C6A0
+        public void Init(){} // RVA: 0xA2870D0
+        public void GenerateKeyPair(){} // RVA: 0xA287370
+        public void ChooseRandomPrime(){} // RVA: 0xA2878E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA287C30
     }
 
     public class SCrypt : Object
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0x7B141C940
-        public void MFcrypt(){} // RVA: 0x7B141CCC0
-        public void SingleIterationPBKDF2(){} // RVA: 0x7B141D100
-        public void SMix(){} // RVA: 0x7B141D250
-        public void BlockMix(){} // RVA: 0x7B141DBE0
-        public void Xor(){} // RVA: 0x7B141DDA0
-        public void Clear(){} // RVA: 0x7B141DE40
-        public void ClearAll(){} // RVA: 0x7B141DE70
-        public void IsPowerOf2(){} // RVA: 0x7B141DEF0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Generate(){} // RVA: 0xA287ED0
+        public void MFcrypt(){} // RVA: 0xA288250
+        public void SingleIterationPBKDF2(){} // RVA: 0xA288690
+        public void SMix(){} // RVA: 0xA2887E0
+        public void BlockMix(){} // RVA: 0xA289170
+        public void Xor(){} // RVA: 0xA289330
+        public void Clear(){} // RVA: 0xA2893D0
+        public void ClearAll(){} // RVA: 0xA289400
+        public void IsPowerOf2(){} // RVA: 0xA289480
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class X25519KeyPairGenerator : Object
     {
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A9B7BB50
-        public void GenerateKeyPair(){} // RVA: 0x7B141DF00
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0x262D430
+        public void GenerateKeyPair(){} // RVA: 0xA289490
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class X448KeyPairGenerator : Object
     {
+        public object random;
+
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A9B7BB50
-        public void GenerateKeyPair(){} // RVA: 0x7B141E0A0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Init(){} // RVA: 0x262D430
+        public void GenerateKeyPair(){} // RVA: 0xA289630
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

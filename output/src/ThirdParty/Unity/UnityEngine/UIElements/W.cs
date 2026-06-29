@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class WheelEvent : MouseEventBase`1
     {
+        public object _delta;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8060D00
         public void get_delta(){} // RVA: 0x8060DF0
@@ -20,12 +22,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class WorldSpaceData : ValueType
     {
+        public object k_Empty3DBounds;
+        public object localBounds3D;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F38F70
     }
 
     public class WorldSpaceDataStore : Object
     {
+        public object m_WorldSpaceData;
+
         // ── Methods ──
         public void SetWorldSpaceData(){} // RVA: 0x7F39080
         public void GetWorldSpaceData(){} // RVA: 0x7F39150

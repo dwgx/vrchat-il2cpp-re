@@ -7,11 +7,14 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class QuoteInstruction : Instruction
     {
+        public object _operand;
+        public object _hoistedVariables;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
-        public void get_InstructionName(){} // RVA: 0x7AE447F00
-        public void Run(){} // RVA: 0x7AE447F40
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void get_ProducedStack(){} // RVA: 0xC3CCE0
+        public void get_InstructionName(){} // RVA: 0x70C4840
+        public void Run(){} // RVA: 0x70C4880
     }
 
 }

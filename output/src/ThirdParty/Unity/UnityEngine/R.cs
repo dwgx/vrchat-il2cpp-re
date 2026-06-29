@@ -27,12 +27,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RangeAttribute : PropertyAttribute
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF2390
     }
 
     public class RangeInt : ValueType
     {
+        public object start;
+        public object length;
+
         // ── Methods ──
         public void get_end(){} // RVA: 0x9662B0
         public void .ctor(){} // RVA: 0x2B100
@@ -60,6 +66,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Ray : ValueType
     {
+        public object m_Origin;
+        public object m_Direction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x961820
         public void get_origin(){} // RVA: 0x45A590
@@ -72,6 +81,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastCommand : ValueType
     {
+        public object _from;
+        public object _direction;
+        public object _physicsScene;
+        public object _distance;
+        public object queryParameters;
+
         // ── Methods ──
         public void set_from(){} // RVA: 0x45A580
         public void set_direction(){} // RVA: 0x9582E0
@@ -84,6 +99,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit : ValueType
     {
+        public object m_Point;
+        public object m_Normal;
+        public object m_FaceID;
+        public object m_Distance;
+        public object m_UV;
+        public object m_Collider;
+
         // ── Methods ──
         public void get_collider(){} // RVA: 0x986560
         public void get_colliderInstanceID(){} // RVA: 0x53FAD0
@@ -108,6 +130,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RaycastHit2D : ValueType
     {
+        public object m_Centroid;
+        public object m_Point;
+        public object m_Normal;
+        public object m_Distance;
+        public object m_Fraction;
+        public object m_Collider;
+
         // ── Methods ──
         public void get_centroid(){} // RVA: 0x961A70
         public void set_centroid(){} // RVA: 0x93050
@@ -168,6 +197,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Rect : ValueType
     {
+        public object m_XMin;
+        public object m_YMin;
+        public object m_Width;
+        public object m_Height;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9440D0
         public void get_zero(){} // RVA: 0x7B73550
@@ -213,6 +247,11 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectInt : ValueType
     {
+        public object m_XMin;
+        public object m_YMin;
+        public object m_Width;
+        public object m_Height;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x454FE0
         public void set_x(){} // RVA: 0x29580
@@ -255,6 +294,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectOffset : Object
     {
+        public object m_Ptr;
+        public object m_SourceStyle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B74B10
         public void Finalize(){} // RVA: 0x7B74A70
@@ -308,6 +350,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectTransform : Transform
     {
+        public object reapplyDrivenProperties;
+
         // ── Methods ──
         public void add_reapplyDrivenProperties(){} // RVA: 0x7C15030
         public void remove_reapplyDrivenProperties(){} // RVA: 0x7C15140
@@ -365,6 +409,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RectTransformUtility : Object
     {
+        public object s_Corners;
+
         // ── Methods ──
         public void PixelAdjustPoint(){} // RVA: 0x80C8F30
         public void PixelAdjustRect(){} // RVA: 0x80C9050
@@ -425,6 +471,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ReflectionProbe : Behaviour
     {
+        public object reflectionProbeChanged;
+        public object registeredDefaultReflectionSetActions;
+        public object registeredDefaultReflectionTextureActions;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x7B66050
         public void set_type(){} // RVA: 0x7B66110
@@ -570,6 +620,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RefreshRate : ValueType
     {
+        public object numerator;
+        public object denominator;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x962420
         public void Equals(){} // RVA: 0x962440
@@ -617,6 +670,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RemoteConfigSettings : Object
     {
+        public object m_Ptr;
+        public object Updated;
+
         // ── Methods ──
         public void RemoteConfigSettingsUpdated(){} // RVA: 0x8125C00
     }
@@ -643,6 +699,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RemoteSettings : Object
     {
+        public object Updated;
+        public object BeforeFetchFromServer;
+        public object Completed;
+
         // ── Methods ──
         public void RemoteSettingsUpdated(){} // RVA: 0x8125AC0
         public void RemoteSettingsBeforeFetchFromServer(){} // RVA: 0x8125B20
@@ -671,6 +731,23 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RenderParams : ValueType
     {
+        public object _layer;
+        public object _renderingLayerMask;
+        public object _rendererPriority;
+        public object _instanceID;
+        public object _worldBounds;
+        public object _camera;
+        public object _motionVectorMode;
+        public object _reflectionProbeUsage;
+        public object _material;
+        public object _matProps;
+        public object _shadowCastingMode;
+        public object _receiveShadows;
+        public object _lightProbeUsage;
+        public object _lightProbeProxyVolume;
+        public object _overrideSceneCullingMask;
+        public object _sceneCullingMask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x962960
         public void set_layer(){} // RVA: 0x29580
@@ -924,6 +1001,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RenderTextureDescriptor : ValueType
     {
+        public object _width;
+        public object _height;
+        public object _msaaSamples;
+        public object _volumeDepth;
+        public object _mipCount;
+        public object _graphicsFormat;
+        public object _stencilFormat;
+        public object _depthStencilFormat;
+        public object _dimension;
+        public object _shadowSamplingMode;
+        public object _vrUsage;
+        public object _flags;
+        public object _memoryless;
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x77E60
         public void set_width(){} // RVA: 0x29580
@@ -1248,6 +1339,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RenderingLayerMask : ValueType
     {
+        public object m_Bits;
+        public object _defaultRenderingLayerMask;
+
         // ── Methods ──
         public void get_defaultRenderingLayerMask(){} // RVA: 0x7BF3010
         public void op_Implicit(){} // RVA: 0x2996070
@@ -1276,6 +1370,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RequireComponent : Attribute
     {
+        public object m_Type0;
+        public object m_Type1;
+        public object m_Type2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
     }
@@ -1302,6 +1400,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Resolution : ValueType
     {
+        public object m_Width;
+        public object m_Height;
+        public object m_RefreshRate;
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x454FE0
         public void set_width(){} // RVA: 0x29580
@@ -1335,6 +1437,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ResourceRequest : AsyncOperation
     {
+        public object m_Path;
+        public object m_Type;
+
         // ── Methods ──
         public void GetResult(){} // RVA: 0x7BF30B0
         public void get_asset(){} // RVA: 0xBFA210
@@ -1377,6 +1482,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ResourcesAPI : Object
     {
+        public object s_DefaultAPI;
+        public object _overrideAPI;
+
         // ── Methods ──
         public void get_ActiveAPI(){} // RVA: 0x7BF39C0
         public void get_overrideAPI(){} // RVA: 0x7BF3A80
@@ -1874,6 +1982,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute
     {
+        public object m_LoadType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
         public void set_loadType(){} // RVA: 0xB460A0
@@ -1901,6 +2011,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class RuntimeTextSettings : TextSettings
     {
+        public object s_DefaultTextSettings;
+        public object s_FallbackOSFontAssetIMGUIInternal;
+
         // ── Methods ──
         public void get_defaultTextSettings(){} // RVA: 0x7C91770
         public void GetStaticFallbackOSFontAsset(){} // RVA: 0x7C918E0

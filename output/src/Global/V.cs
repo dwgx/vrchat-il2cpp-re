@@ -1,16 +1,51 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 314
+// Methods: 326
 
 public class VRCAnimationPreset : ScriptableObject
 {
+    public object locomotion;
+    public object idle;
+    public object hands;
+    public object face;
+    public object actions;
+    public object tpose;
+    public object sitting;
+    public object ikpose;
+    public object locomotionOff;
+    public object builtInClips;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDD1AC0
 }
 
 public class VRCApplicationSetup : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_C5D;
+    public object f_023;
+    public object f_413;
+    public object f_998;
+    public object f_2DE;
+    public object f_0C6;
+    public object f_883;
+    public object f_FB4;
+    public object f_A67;
+    public object f_790;
+    public object f_EF4;
+    public object f_9BA;
+    public object f_526;
+    public object f_BA5;
+    public object f_D8A;
+    public object f_04D;
+    public object f_1D2;
+    public object f_5D2;
+    public object f_83F;
+    public object f_DA0;
+    public object f_77F;
+    public object f_A3A;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0xB43320
     public void RaiseCancellation(){} // RVA: 0x1EA0070
@@ -62,6 +97,10 @@ public class VRCApplicationSetup : MonoBehaviour
 
 public class VRCFlowUserContextTracker : Object
 {
+    public object _kInstanceID_None;
+    public object _m_CachedPtr;
+    public object _offsetOfInstanceIDInCPlusPlusObject;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x1BD02A0
     public void Equals(){} // RVA: 0x1BD0340
@@ -71,6 +110,11 @@ public class VRCFlowUserContextTracker : Object
 
 public class VRCInitializeVRSDK : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_145;
+    public object f_4B2;
+    public object f_A91;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x205DFB0
     public void .ctor(){} // RVA: 0xB43D60
@@ -96,12 +140,29 @@ public class VRCInitializeVRSDK : MonoBehaviour
 
 public class VRCInputBindingPreset : ScriptableObject
 {
+    public object joyButtonLeftAction;
+    public object joyButtonRightAction;
+    public object aButtonLeftAction;
+    public object aButtonRightAction;
+    public object useLongPress;
+    public object useLightGrip;
+    public object useDoubleTap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xDD1AC0
 }
 
 public class VRCTime : Object
 {
+    public object _kInstanceID_None;
+    public object _m_CachedPtr;
+    public object _offsetOfInstanceIDInCPlusPlusObject;
+    public object _objectIsNullMessage;
+    public object _cloneDestroyedMessage;
+    public object f_617;
+    public object f_83A;
+    public object f_D99;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x1C59600
     public void Equals(){} // RVA: 0x1C59660
@@ -117,6 +178,8 @@ public class VRCTime : Object
 
 public class VRCUrlLauncher : VRCCustomAction
 {
+    public object urls;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x21E1350
     public void .ctor(){} // RVA: 0xB43D60
@@ -130,6 +193,14 @@ public class VRC_VisualDamage : VRC_VisualDamage
 
 public class VRC_YouTubeSync : MonoBehaviour
 {
+    public object videoID;
+    public object hideUI;
+    public object loop;
+    public object autoplay;
+    public object volume;
+    public object playlist;
+    public object _init;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0xA691140
     public void .ctor(){} // RVA: 0xA6911A0
@@ -137,30 +208,32 @@ public class VRC_YouTubeSync : MonoBehaviour
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4231550
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -180,48 +253,64 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -241,66 +330,88 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -320,6 +431,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -339,84 +452,112 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -436,144 +577,177 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0x87C0A0
     public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -584,6 +758,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -594,6 +771,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -604,6 +784,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -614,6 +797,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513B070
     public void get_Name(){} // RVA: 0xB465B0
@@ -624,6 +810,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -634,6 +823,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513B890
     public void get_Name(){} // RVA: 0xB465B0
@@ -644,6 +836,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -654,6 +849,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -664,6 +862,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -674,6 +875,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -684,6 +888,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513B9E0
     public void get_Name(){} // RVA: 0xB465B0
@@ -694,6 +901,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -704,6 +914,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513B540
     public void get_Name(){} // RVA: 0xB465B0
@@ -714,6 +927,9 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -724,6 +940,48 @@ public class ValueProperty : Property`2
 
 public class ValueProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x513AFD0
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x44E7240
+    public void SetValue(){} // RVA: 0x513AFC0
+}
+
+public class ValueProperty : Property`2
+{
+    public object _name;
+    public object _isReadOnly;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x513B2A0
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x44E9170
+    public void SetValue(){} // RVA: 0x513B220
+}
+
+public class ValueProperty : Property`2
+{
+    public object _name;
+    public object _isReadOnly;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x513B3F0
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x44E93C0
+    public void SetValue(){} // RVA: 0x513B3E0
+}
+
+public class ValueProperty : Property`2
+{
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x513AFD0
     public void get_Name(){} // RVA: 0xB465B0
@@ -734,6 +992,10 @@ public class ValueProperty : Property`2
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899B50
     public void .cctor(){} // RVA: 0x8942F0
@@ -741,18 +1003,29 @@ public class ValueTaskSourceAsTask : Task`1
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x51F0750
 }
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x51F41C0
 }
 
 public class ValuesAndNames : Object
 {
+    public object Values;
+    public object Names;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
 }
@@ -765,6 +1038,16 @@ public class VcamActivatedEvent : UnityEvent`2
 
 public class VcamExtraState : Object
 {
+    public object previousDisplacement;
+    public object previousCameraOffset;
+    public object previousCameraPosition;
+    public object previousDampTime;
+    public object targetObscured;
+    public object occlusionStartTime;
+    public object debugResolutionPath;
+    public object m_SmoothedDistance;
+    public object m_SmoothedTime;
+
     // ── Methods ──
     public void AddPointToDebugPath(){} // RVA: 0xB43310
     public void ApplyDistanceSmoothing(){} // RVA: 0x2589B60
@@ -775,24 +1058,36 @@ public class VcamExtraState : Object
 
 public class VcamExtraState : Object
 {
+    public object m_previousDisplacement;
+    public object confinerDisplacement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class VcamExtraState : Object
 {
+    public object m_PreviousDisplacement;
+    public object m_DampedDisplacement;
+    public object m_BakedSolution;
+    public object m_vcam;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class VcamExtraState : Object
 {
+    public object m_previousFrameZoom;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class VcamExtraState : Object
 {
+    public object mProfileCopy;
+
     // ── Methods ──
     public void CreateProfileCopy(){} // RVA: 0x25FFE30
     public void DestroyProfileCopy(){} // RVA: 0x26001D0
@@ -801,12 +1096,17 @@ public class VcamExtraState : Object
 
 public class Vector3andSpace : Object
 {
+    public object value;
+    public object space;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x21EAED0
 }
 
 public class VerifyKey : ValueType
 {
+    public object _key;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x77900
     public void .ctor(){} // RVA: 0x9CCB10
@@ -814,6 +1114,9 @@ public class VerifyKey : ValueType
 
 public class ViewfinderSkinMap : MonoBehaviour
 {
+    public object Renderer;
+    public object Animator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43D60
 }

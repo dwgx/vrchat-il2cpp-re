@@ -7,6 +7,12 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 {
     public class ApplyToBase : MonoBehaviour
     {
+        public object _media;
+        public object _automaticStereoPacking;
+        public object _overrideStereoPacking;
+        public object _stereoRedGreenTint;
+        public object _isDirty;
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0xB700F0
         public void set_Player(){} // RVA: 0x254F590
@@ -32,6 +38,28 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToFarPlane : ApplyToBase
     {
+        public object _mainColor;
+        public object _texture;
+        public object _chroma;
+        public object _alpha;
+        public object _camera;
+        public object _aspectRatio;
+        public object _drawOffset;
+        public object _customScaling;
+        public object _renderedObject;
+        public object _changedSkybox;
+        public object _defaultTexture;
+        public object _material;
+        public object _texturePropertyName;
+        public object _offset;
+        public object _scale;
+        public object _lastTextureApplied;
+        public object _propTexture;
+        public object _propTexture_R;
+        public object _originalTexture;
+        public object _originalScale;
+        public object _originalOffset;
+
         // ── Methods ──
         public void get_MainColor(){} // RVA: 0x2237C00
         public void set_MainColor(){} // RVA: 0x2535D70
@@ -76,6 +104,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToMaterial : ApplyToBase
     {
+        public object _defaultTexture;
+        public object _material;
+        public object _texturePropertyName;
+        public object _offset;
+        public object _scale;
+        public object _lastTextureApplied;
+        public object _propTexture;
+        public object _propTexture_R;
+        public object _originalTexture;
+        public object _originalScale;
+        public object _originalOffset;
+
         // ── Methods ──
         public void get_DefaultTexture(){} // RVA: 0xD05CA0
         public void set_DefaultTexture(){} // RVA: 0x2539E80
@@ -97,6 +137,16 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ApplyToMesh : ApplyToBase
     {
+        public object _defaultTexture;
+        public object _renderer;
+        public object _materialIndex;
+        public object _texturePropertyName;
+        public object _offset;
+        public object _scale;
+        public object _lastTextureApplied;
+        public object _propTexture;
+        public object _propTexture_R;
+
         // ── Methods ──
         public void get_DefaultTexture(){} // RVA: 0xD05CA0
         public void set_DefaultTexture(){} // RVA: 0x253BB30
@@ -123,6 +173,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioChannelMixer : MonoBehaviour
     {
+        public object MaxChannels;
+        public object _channels;
+
         // ── Methods ──
         public void get_Channel(){} // RVA: 0xB700F0
         public void set_Channel(){} // RVA: 0xB70100
@@ -134,6 +187,13 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioOutput : MonoBehaviour
     {
+        public object _mediaPlayer;
+        public object _audioOutputMode;
+        public object _channelMask;
+        public object _supportPositionalAudio;
+        public object _mediaPlayerInstanceID;
+        public object _audioSource;
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0xB700F0
         public void set_Player(){} // RVA: 0x253DC70
@@ -159,6 +219,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioOutputManager : Object
     {
+        public object _instance;
+        public object _instances;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x254FAC0
         public void .ctor(){} // RVA: 0x254FC40
@@ -171,6 +234,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AudioTrack : TrackBase
     {
+        public object _bitrate;
+        public object _channelCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2567190
         public void get_Bitrate(){} // RVA: 0x18A0130
@@ -208,6 +274,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class AuthData : Object
     {
+        public object _uRL;
+        public object _token;
+        public object _keyBytes;
+
         // ── Methods ──
         public void get_URL(){} // RVA: 0xB5DBF0
         public void set_URL(){} // RVA: 0xB44D60
@@ -223,6 +293,32 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class BaseMediaPlayer : Object
     {
+        public object _playerDescription;
+        public object _lastError;
+        public object _defaultTextureFilterMode;
+        public object _defaultTextureWrapMode;
+        public object _defaultTextureAnisoLevel;
+        public object _mediaHints;
+        public object _seekableTimes;
+        public object _bufferedTimes;
+        public object _displayRateTimer;
+        public object _displayRateLastFrameCount;
+        public object _displayRate;
+        public object _stallDetectionTimer;
+        public object _stallDetectionFrame;
+        public object _stallDetectionGuard;
+        public object _subtitles;
+        public object _currentSubtitle;
+        public object _playbackQualityStats;
+        public object _currentTextCue;
+        public object _timedMetadataItem;
+        public object _hasNewTimedMetadataItem;
+        public object _videoTracks;
+        public object _audioTracks;
+        public object _textTracks;
+        public object _trackCollections;
+        public object _variants;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2550BB0
         public void GetVersion(){} // RVA: 0x87C0A0
@@ -381,6 +477,21 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class DisplayIMGUI : MonoBehaviour
     {
+        public object _mediaPlayer;
+        public object _scaleMode;
+        public object _color;
+        public object _allowTransparency;
+        public object _useDepth;
+        public object _depth;
+        public object _isAreaFullScreen;
+        public object _areaX;
+        public object _areaY;
+        public object _areaWidth;
+        public object _areaHeight;
+        public object _showAreaInEditor;
+        public object _shaderAlphaPacking;
+        public object _material;
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0xB700F0
         public void set_Player(){} // RVA: 0x253EC80
@@ -418,6 +529,28 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class DisplayUGUI : MaskableGraphic
     {
+        public object _mediaPlayer;
+        public object _defaultTexture;
+        public object _uvRect;
+        public object _setNativeSize;
+        public object _scaleMode;
+        public object _noDefaultDisplay;
+        public object _displayInEditor;
+        public object _lastWidth;
+        public object _lastHeight;
+        public object _lastOrientation;
+        public object _flipY;
+        public object _lastTexture;
+        public object _shaderStereoPacking;
+        public object _shaderAlphaPacking;
+        public object _shaderAndroidOES;
+        public object _shaderAndroidOESAlphaPacking;
+        public object _isUserMaterial;
+        public object _material;
+        public object _vertices;
+        public object QuadIndices;
+        public object _drawingDimensions;
+
         // ── Methods ──
         public void get_Player(){} // RVA: 0xBC5B30
         public void set_Player(){} // RVA: 0x2531060
@@ -489,6 +622,16 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class Helper : Object
     {
+        public object AVProVideoVersion;
+        public object UnityBaseTextureName;
+        public object UnityBaseTextureName_URP;
+        public object UnityBaseTextureName_HDRP;
+        public object SecondsToHNS;
+        public object MilliSecondsToHNS;
+        public object PortraitMatrix;
+        public object PortraitFlippedMatrix;
+        public object LandscapeFlippedMatrix;
+
         // ── Methods ──
         public void GetPath(){} // RVA: 0x2553830
         public void GetFilePath(){} // RVA: 0x25539A0
@@ -516,6 +659,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class HttpHeader : ValueType
     {
+        public object name;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void IsComplete(){} // RVA: 0x85330
@@ -526,6 +672,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class HttpHeaderData : Object
     {
+        public object httpHeaders;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x2567D00
         public void get_Item(){} // RVA: 0x2567DE0
@@ -738,6 +886,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class KeyAuthData : Object
     {
+        public object keyServerToken;
+        public object overrideDecryptionKeyBase64;
+        public object _overrideDecryptionKey;
+
         // ── Methods ──
         public void IsModified(){} // RVA: 0x2568340
         public void get_overrideDecryptionKey(){} // RVA: 0xB700F0
@@ -749,6 +901,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class LazyShaderProperty : ValueType
     {
+        public object _name;
+        public object _id;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x853B0
         public void get_Name(){} // RVA: 0x77900
@@ -757,12 +912,24 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaCachingOptions : Object
     {
+        public object minimumRequiredBitRate;
+        public object minimumRequiredResolution;
+        public object maximumRequiredBitRate;
+        public object maximumRequiredResolution;
+        public object title;
+        public object artwork;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MediaHints : ValueType
     {
+        public object transparency;
+        public object alphaPacking;
+        public object stereoPacking;
+        public object defaultHints;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2556CE0
         public void .cctor(){} // RVA: 0xB43310
@@ -770,6 +937,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPath : Object
     {
+        public object _pathType;
+        public object _path;
+
         // ── Methods ──
         public void get_PathType(){} // RVA: 0xB8F8F0
         public void set_PathType(){} // RVA: 0xB460A0
@@ -786,6 +956,88 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPlayer : MonoBehaviour
     {
+        public object _mediaSource;
+        public object _mediaReference;
+        public object _mediaPath;
+        public object _fallbackMediaHints;
+        public object _autoOpen;
+        public object _autoPlayOnStart;
+        public object _loop;
+        public object _audioVolume;
+        public object _audioBalance;
+        public object _audioMuted;
+        public object _audioSource;
+        public object _playbackRate;
+        public object _useResampler;
+        public object _resampleMode;
+        public object _resampleBufferSize;
+        public object _resampler;
+        public object _videoMapping;
+        public object _textureFilterMode;
+        public object _textureWrapMode;
+        public object _textureAnisoLevel;
+        public object _sideloadSubtitles;
+        public object _subtitlePath;
+        public object _audioHeadTransform;
+        public object _audioFocusEnabled;
+        public object _audioFocusTransform;
+        public object _audioFocusWidthDegrees;
+        public object _audioFocusOffLevelDB;
+        public object _httpHeaders;
+        public object _keyAuth;
+        public object _events;
+        public object _eventMask;
+        public object _pauseMediaOnAppPause;
+        public object _playMediaOnAppUnpause;
+        public object _persistent;
+        public object _forceFileFormat;
+        public object _baseMediaPlayer;
+        public object _controlInterface;
+        public object _textureInterface;
+        public object _infoInterface;
+        public object _playerInterface;
+        public object _subtitlesInterface;
+        public object _cacheInterface;
+        public object _videoTracksInterface;
+        public object _audioTracksInterface;
+        public object _textTracksInterface;
+        public object _timedMetadataInterface;
+        public object _variantsInterface;
+        public object _disposeInterface;
+        public object _isMediaOpened;
+        public object _autoPlayOnStartTriggered;
+        public object _wasPlayingOnPause;
+        public object _renderingCoroutine;
+        public object s_GlobalStartup;
+        public object s_TrialVersion;
+        public object _queueSubtitlePath;
+        public object _loadSubtitlesRoutine;
+        public object enableAVProInProton;
+        public object _eventFired_MetaDataReady;
+        public object _eventFired_ReadyToPlay;
+        public object _eventFired_Started;
+        public object _eventFired_FirstFrameReady;
+        public object _eventFired_FinishedPlaying;
+        public object _eventState_PlaybackBuffering;
+        public object _eventState_PlaybackSeeking;
+        public object _eventState_PlaybackStalled;
+        public object _eventState_PreviousWidth;
+        public object _eventState_PreviousHeight;
+        public object _previousSubtitleIndex;
+        public object _finishedFrameOpenCheck;
+        public object _eventState_Paused;
+        public object _optionsWindows;
+        public object _options_macOS;
+        public object _options_iOS;
+        public object _options_tvOS;
+        public object _options_visionOS;
+        public object _optionsAndroid;
+        public object _optionsOpenHarmony;
+        public object _optionsWindowsUWP;
+        public object _optionsWebGL;
+        public object m_VideoPath;
+        public object m_VideoLocation;
+
         // ── Methods ──
         public void get_MediaSource(){} // RVA: 0xFEAE90
         public void set_MediaSource(){} // RVA: 0x1269760
@@ -947,6 +1199,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPlayerEvent : UnityEvent`3
     {
+        public object _listeners;
+
         // ── Methods ──
         public void HasListeners(){} // RVA: 0x2553310
         public void AddListener(){} // RVA: 0x25533A0
@@ -963,6 +1217,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaPlaylist : Object
     {
+        public object _items;
+
         // ── Methods ──
         public void get_Items(){} // RVA: 0xB5DBF0
         public void HasItemAt(){} // RVA: 0x2548760
@@ -971,6 +1227,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class MediaReference : ScriptableObject
     {
+        public object _alias;
+        public object _mediaPath;
+        public object _hints;
+        public object _macOS;
+        public object _windows;
+        public object _android;
+        public object _openharmony;
+        public object _iOS;
+        public object _tvOS;
+        public object _windowsUWP;
+        public object _webGL;
+
         // ── Methods ──
         public void get_Alias(){} // RVA: 0xB465B0
         public void set_Alias(){} // RVA: 0xBA9BA0
@@ -985,6 +1253,21 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class NullMediaPlayer : BaseMediaPlayer
     {
+        public object _isPlaying;
+        public object _isPaused;
+        public object _currentTime;
+        public object _volume;
+        public object _playbackRate;
+        public object _bLoop;
+        public object _Width;
+        public object _height;
+        public object _texture;
+        public object _texture_AVPro;
+        public object _texture_AVPro1;
+        public object _fakeFlipTime;
+        public object _frameCount;
+        public object FrameRate;
+
         // ── Methods ──
         public void GetVersion(){} // RVA: 0x2558120
         public void GetExpectedVersion(){} // RVA: 0x2558160
@@ -1051,6 +1334,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class PlaybackQualityStats : Object
     {
+        public object _skippedFrames;
+        public object _duplicateFrames;
+        public object _unityDroppedFrames;
+        public object _perfectFramesT;
+        public object _vSyncStatus;
+        public object _perfectFrames;
+        public object _totalFrames;
+        public object _logIssues;
+        public object _sameFrameCount;
+        public object _lastTimeStamp;
+        public object _player;
+
         // ── Methods ──
         public void get_SkippedFrames(){} // RVA: 0xB8F8F0
         public void set_SkippedFrames(){} // RVA: 0xB460A0
@@ -1077,6 +1372,36 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class PlaylistMediaPlayer : MediaPlayer
     {
+        public object _transitionShader;
+        public object _playerA;
+        public object _playerB;
+        public object _playlistAutoProgress;
+        public object _autoCloseVideo;
+        public object _playlistLoopMode;
+        public object _playlist;
+        public object _pausePreviousOnTransition;
+        public object _defaultTransition;
+        public object _defaultTransitionDuration;
+        public object _defaultTransitionEasing;
+        public object _playlistAudioVolume;
+        public object _playlistAudioMuted;
+        public object PropFromTex;
+        public object PropFade;
+        public object _isPaused;
+        public object _playlistIndex;
+        public object _nextPlayer;
+        public object _material;
+        public object _currentTransition;
+        public object _currentTransitionName;
+        public object _currentTransitionDuration;
+        public object _currentTransitionEasing;
+        public object _transitionTimer;
+        public object _easeFunc;
+        public object _rt;
+        public object _currentItem;
+        public object _nextItem;
+        public object _waitForEndOfFrame;
+
         // ── Methods ──
         public void get_CurrentPlayer(){} // RVA: 0x2548A40
         public void get_NextPlayer(){} // RVA: 0x1667A40
@@ -1142,6 +1467,30 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class Resampler : Object
     {
+        public object _buffer;
+        public object _mediaPlayer;
+        public object _outputTexture;
+        public object _start;
+        public object _end;
+        public object _bufferSize;
+        public object _baseTimestamp;
+        public object _elapsedTimeSinceBase;
+        public object _blendMat;
+        public object _resampleMode;
+        public object _name;
+        public object _lastTimeStamp;
+        public object _droppedFrames;
+        public object _lastDisplayedTimestamp;
+        public object _frameDisplayedTimer;
+        public object _currentDisplayedTimestamp;
+        public object _lastT;
+        public object _textureTimeStamp;
+        public object ShaderPropT;
+        public object ShaderPropAftertex;
+        public object _propAfterTex;
+        public object _propT;
+        public object _videoFrameRate;
+
         // ── Methods ──
         public void get_DroppedFrames(){} // RVA: 0x2536460
         public void get_FrameDisplayedTimer(){} // RVA: 0x23ADD10
@@ -1175,6 +1524,19 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class ResolveToRenderTexture : MonoBehaviour
     {
+        public object _mediaPlayer;
+        public object _options;
+        public object _resolveFlags;
+        public object _externalTexture;
+        public object _materialResolve;
+        public object _isMaterialSetup;
+        public object _isMaterialDirty;
+        public object _isMaterialOES;
+        public object _internalTexture;
+        public object _textureFrameCount;
+        public object _materialBlit;
+        public object _srcTexId;
+
         // ── Methods ──
         public void get_MediaPlayer(){} // RVA: 0xB700F0
         public void set_MediaPlayer(){} // RVA: 0x254D440
@@ -1195,6 +1557,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class Subtitle : Object
     {
+        public object index;
+        public object text;
+        public object timeStart;
+        public object timeEnd;
+
         // ── Methods ──
         public void IsBefore(){} // RVA: 0x256BB00
         public void IsTime(){} // RVA: 0x256BB20
@@ -1237,6 +1604,13 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class SubtitlesUGUI : MonoBehaviour
     {
+        public object _mediaPlayer;
+        public object _text;
+        public object _backgroundImage;
+        public object _backgroundHorizontalPadding;
+        public object _backgroundVerticalPadding;
+        public object _maxCharacters;
+
         // ── Methods ──
         public void set_Player(){} // RVA: 0x2534C80
         public void get_Player(){} // RVA: 0xB700F0
@@ -1255,6 +1629,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TextCue : Object
     {
+        public object _text;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Text(){} // RVA: 0xB5DBF0
@@ -1296,6 +1672,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TimeRange : ValueType
     {
+        public object startTime;
+        public object duration;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84FE0
         public void get_StartTime(){} // RVA: 0x84FF0
@@ -1325,6 +1704,10 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TimeRanges : Object
     {
+        public object _ranges;
+        public object _minTime;
+        public object _maxTime;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25571C0
         public void GetEnumerator(){} // RVA: 0x2556F20
@@ -1339,6 +1722,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TimedMetadataItem : Object
     {
+        public object _presentationTime;
+        public object _text;
+
         // ── Methods ──
         public void get_PresentationTime(){} // RVA: 0x2566C50
         public void get_Text(){} // RVA: 0xB465B0
@@ -1347,6 +1733,13 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackBase : Object
     {
+        public object _uid;
+        public object _trackType;
+        public object _displayName;
+        public object _name;
+        public object _language;
+        public object _isDefault;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2566CC0
         public void get_Uid(){} // RVA: 0xB8F8F0
@@ -1366,6 +1759,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection : Object
     {
+        public object _trackType;
+
         // ── Methods ──
         public void get_TrackType(){} // RVA: 0xB8F8F0
         public void set_TrackType(){} // RVA: 0xB460A0
@@ -1404,6 +1799,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection`1 : TrackCollection
     {
+        public object _activeTrack;
+        public object _tracks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void GetEnumerator(){} // RVA: 0x87C0A0
@@ -1423,6 +1821,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection`1 : TrackCollection
     {
+        public object _activeTrack;
+        public object _tracks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F20260
         public void GetEnumerator(){} // RVA: 0x4F203A0
@@ -1442,6 +1843,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection`1 : TrackCollection
     {
+        public object _activeTrack;
+        public object _tracks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F20260
         public void GetEnumerator(){} // RVA: 0x4F203A0
@@ -1461,6 +1865,9 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class TrackCollection`1 : TrackCollection
     {
+        public object _activeTrack;
+        public object _tracks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F20260
         public void GetEnumerator(){} // RVA: 0x4F203A0
@@ -1480,6 +1887,11 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class UpdateMultiPassStereo : MonoBehaviour
     {
+        public object _camera;
+        public object PropWorldCameraPosition;
+        public object PropWorldCameraRight;
+        public object _foundCamera;
+
         // ── Methods ──
         public void get_Camera(){} // RVA: 0xB700F0
         public void set_Camera(){} // RVA: 0xB70100
@@ -1494,6 +1906,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class Variant : Object
     {
+        public object m_iId;
+        public object m_iWidth;
+        public object m_iHeight;
+        public object m_iPeakDataRate;
+        public object m_iAverageDataRate;
+        public object m_VideoCodecType;
+        public object m_fFrameRate;
+        public object m_eVideoRange;
+        public object m_AudioCodecType;
+        public object m_Flags;
+        public object s_Auto;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2570340
         public void get_Id(){} // RVA: 0xB8F8F0
@@ -1534,6 +1958,42 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class VideoRender : Object
     {
+        public object Shader_IMGUI;
+        public object Shader_Resolve;
+        public object Shader_ResolveOES;
+        public object Shader_Preview;
+        public object Keyword_AlphaPackTopBottom;
+        public object Keyword_AlphaPackLeftRight;
+        public object Keyword_AlphaPackNone;
+        public object Keyword_StereoTopBottom;
+        public object Keyword_StereoLeftRight;
+        public object Keyword_StereoCustomUV;
+        public object Keyword_StereoTwoTextures;
+        public object Keyword_StereoNone;
+        public object Keyword_StereoDebug;
+        public object Keyword_LayoutEquirect180;
+        public object Keyword_LayoutNone;
+        public object Keyword_ForceEyeNone;
+        public object Keyword_ForceEyeLeft;
+        public object Keyword_ForceEyeRight;
+        public object Keyword_ApplyGamma;
+        public object PropChromaTex;
+        public object PropMainTex_R;
+        public object PropChromaTex_R;
+        public object PropVertScale;
+        public object PropApplyGamma;
+        public object PropStereo;
+        public object PropAlphaPack;
+        public object PropLayout;
+        public object PropViewMatrix;
+        public object PropTextureMatrix;
+        public object Keyword_UseHSBC;
+        public object PropHue;
+        public object PropSaturation;
+        public object PropContrast;
+        public object PropBrightness;
+        public object PropInvGamma;
+
         // ── Methods ──
         public void CreateResolveMaterial(){} // RVA: 0x256C2A0
         public void CreateIMGUIMaterial(){} // RVA: 0x256C340
@@ -1559,6 +2019,16 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class VideoResolveOptions : ValueType
     {
+        public object applyHSBC;
+        public object hue;
+        public object saturation;
+        public object brightness;
+        public object contrast;
+        public object gamma;
+        public object tint;
+        public object generateMipmaps;
+        public object aspectRatio;
+
         // ── Methods ──
         public void IsColourAdjust(){} // RVA: 0x84F50
         public void ResetColourAdjust(){} // RVA: 0x84FB0
@@ -1567,6 +2037,8 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class VideoTrack : TrackBase
     {
+        public object _bitrate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2567160
         public void get_Bitrate(){} // RVA: 0x18A0130
@@ -1602,6 +2074,51 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class WindowsMediaPlayer : BaseMediaPlayer
     {
+        public object _audioOutput;
+        public object _audioDeviceOutputName;
+        public object _preferredFilters;
+        public object _audio360ChannelMode;
+        public object _useCustomMovParser;
+        public object _useStereoDetection;
+        public object _useHapNotchLC;
+        public object _useTextTrackSupport;
+        public object _useFacebookAudio360Support;
+        public object _useAudioDelay;
+        public object _decoderParallelFrameCount;
+        public object _decodePrerollFrameCount;
+        public object _isPlaying;
+        public object _isPaused;
+        public object _isLooping;
+        public object _canPlay;
+        public object _hasMetaData;
+        public object _width;
+        public object _height;
+        public object _frameRate;
+        public object _playBackRate;
+        public object _audioMuted;
+        public object _volume;
+        public object _balance;
+        public object _hasAudio;
+        public object _hasVideo;
+        public object _isTextureTopDown;
+        public object _nativeTexture;
+        public object _texture;
+        public object _resolvedTexture;
+        public object _instance;
+        public object _videoApi;
+        public object _useHardwareDecoding;
+        public object _useRendererSync;
+        public object _useTextureMips;
+        public object _use10BitTextures;
+        public object _hintAlphaChannel;
+        public object _useLowLatency;
+        public object _supportsLinearColorSpace;
+        public object _isInitialised;
+        public object _version;
+        public object _nativeFunction_UnityRenderEvent;
+        public object _lastUpdateAllTexturesFrame;
+        public object _nextAuthData;
+
         // ── Methods ──
         public void InitialisePlatform(){} // RVA: 0x2558C80
         public void DeinitPlatform(){} // RVA: 0x2559150
@@ -1695,6 +2212,18 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProVideo
 
     public class WindowsRtMediaPlayer : BaseMediaPlayer
     {
+        public object _isMediaLoaded;
+        public object _isLooping;
+        public object _volume;
+        public object _use10BitTextures;
+        public object _useLowLiveLatency;
+        public object _nextAuthData;
+        public object _isInitialised;
+        public object _version;
+        public object _frameTimeStamp;
+        public object _playerInstance;
+        public object _eyeTextures;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2561DC0
         public void SetOptions(){} // RVA: 0x25620C0

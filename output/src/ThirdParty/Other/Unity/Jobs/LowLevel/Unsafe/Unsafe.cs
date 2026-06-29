@@ -7,24 +7,33 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
 {
     public class BatchQueryJobStruct`1 : ValueType
     {
+        public object jobReflectionData;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x87C0D0
     }
 
     public class BatchQueryJob`2 : ValueType
     {
+        public object commands;
+        public object results;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
     }
 
     public class JobProducerTypeAttribute : Attribute
     {
+        public object _producerType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class JobsUtility : Object
     {
+        public object PanicFunction;
+
         // ── Methods ──
         public void GetJobRange(){} // RVA: 0x7B47BA0
         public void GetWorkStealingRange(){} // RVA: 0x7B47BC0

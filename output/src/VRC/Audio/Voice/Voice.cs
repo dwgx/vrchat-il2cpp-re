@@ -7,6 +7,11 @@ namespace VRC.Audio.Voice
 {
     public class MicrophoneManager : Object
     {
+        public object _microphoneManager;
+        public object _microphoneManager2;
+        public object _microphoneManager3;
+        public object _microphoneManager4;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB700F0
         public void Equals(){} // RVA: 0xB5DBF0
@@ -29,6 +34,20 @@ namespace VRC.Audio.Voice
 
     public class VoicePriorityManager : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_7C4;
+        public object f_AFD;
+        public object f_B09;
+        public object f_8A3;
+        public object f_FCD;
+        public object f_9DB;
+        public object f_C1D;
+        public object f_AC7;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB5DBF0
         public void Equals(){} // RVA: 0x18A9AD0

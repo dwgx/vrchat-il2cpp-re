@@ -7,6 +7,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class WhereAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +17,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +27,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereIntAwaitWithCancellation`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -28,6 +37,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereIntAwait`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -35,6 +47,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class WhereInt`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -42,6 +57,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Where`1 : Object
     {
+        public object source;
+        public object predicate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

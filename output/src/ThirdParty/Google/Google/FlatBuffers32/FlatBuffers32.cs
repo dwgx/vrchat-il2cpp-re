@@ -7,6 +7,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 {
     public class ByteArrayAllocator : ByteBufferAllocator
     {
+        public object _buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81EC640
         public void GrowFront(){} // RVA: 0x81F46B0
@@ -19,6 +21,10 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class ByteBuffer : Object
     {
+        public object _buffer;
+        public object _pos;
+        public object genericSizes;
+
         // ── Methods ──
         public void ToArray(){} // RVA: 0x88C530
         public void ArraySize(){} // RVA: 0xA94080
@@ -69,6 +75,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class ByteBufferAllocator : Object
     {
+        public object _length;
+
         // ── Methods ──
         public void get_Span(){} // RVA: 0x87BEB0
         public void get_ReadOnlySpan(){} // RVA: 0x87BEB0
@@ -90,6 +98,19 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class FlatBufferBuilder : Object
     {
+        public object _space;
+        public object _bb;
+        public object _minAlign;
+        public object _vtable;
+        public object _vtableSize;
+        public object _objectStart;
+        public object _vtables;
+        public object _numVtables;
+        public object _vectorNumElems;
+        public object _waste;
+        public object _sharedStringMap;
+        public object _forceDefaults;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81F7270
         public void Clear(){} // RVA: 0x81F7410
@@ -146,6 +167,9 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class FlatBufferConstants : Object
     {
+        public object FileIdentifierLength;
+        public object SizePrefixLength;
+
         // ── Methods ──
         public void FLATBUFFERS_24_3_7(){} // RVA: 0xB43310
     }
@@ -159,6 +183,32 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Offset`1 : ValueType
     {
+        public object Value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+    }
+
+    public class Offset`1 : ValueType
+    {
+        public object Value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+    }
+
+    public class Offset`1 : ValueType
+    {
+        public object Value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x29580
+    }
+
+    public class Offset`1 : ValueType
+    {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
     }
@@ -213,24 +263,8 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Offset`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-    }
+        public object Value;
 
-    public class Offset`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-    }
-
-    public class Offset`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x29580
-    }
-
-    public class Offset`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
     }
@@ -317,6 +351,13 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Options : Object
     {
+        public object DEFAULT_MAX_DEPTH;
+        public object DEFAULT_MAX_TABLES;
+        public object max_depth;
+        public object max_tables;
+        public object string_end_check;
+        public object alignment_check;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81F1EC0
         public void get_maxDepth(){} // RVA: 0xB8F8F0
@@ -331,12 +372,17 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class StringOffset : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
     }
 
     public class Struct : ValueType
     {
+        public object _bb_pos;
+        public object _bb;
+
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x77E60
         public void set_bb_pos(){} // RVA: 0x29580
@@ -347,6 +393,9 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class Table : ValueType
     {
+        public object _bb_pos;
+        public object _bb;
+
         // ── Methods ──
         public void get_bb_pos(){} // RVA: 0x77E60
         public void set_bb_pos(){} // RVA: 0x29580
@@ -368,12 +417,27 @@ namespace ThirdParty.Google.Google.FlatBuffers32
 
     public class VectorOffset : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
     }
 
     public class Verifier : Object
     {
+        public object verifier_buffer;
+        public object verifier_options;
+        public object depth_cnt;
+        public object num_tables_cnt;
+        public object SIZE_BYTE;
+        public object SIZE_INT;
+        public object SIZE_U_OFFSET;
+        public object SIZE_S_OFFSET;
+        public object SIZE_V_OFFSET;
+        public object SIZE_PREFIX_LENGTH;
+        public object FLATBUFFERS_MAX_BUFFER_SIZE;
+        public object FILE_IDENTIFIER_LENGTH;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81F9DB0
         public void get_Buf(){} // RVA: 0xB5DBF0

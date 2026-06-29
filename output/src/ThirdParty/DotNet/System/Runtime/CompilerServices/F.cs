@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class FixedBufferAttribute : Attribute
     {
+        public object _elementType;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2615F10
         public void get_ElementType(){} // RVA: 0xB5DBF0

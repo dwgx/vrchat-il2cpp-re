@@ -21,6 +21,8 @@ namespace VRC.Core.Networking.FlatBuffers
 
     public class SparseOffset32 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8211C20
         public void op_Implicit(){} // RVA: 0x8211CA0
@@ -28,6 +30,8 @@ namespace VRC.Core.Networking.FlatBuffers
 
     public class SparseOffset8 : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8211AE0
         public void op_Implicit(){} // RVA: 0x8211BA0
@@ -35,6 +39,8 @@ namespace VRC.Core.Networking.FlatBuffers
 
     public class SparseUtils : Object
     {
+        public object TypeHandlers;
+
         // ── Methods ──
         public void CountSpaceNeeded(){} // RVA: 0x8211D90
         public void ComputeBitmap(){} // RVA: 0x8211EA0

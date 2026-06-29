@@ -7,6 +7,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class TakeLast`2 : ValueType
     {
+        public object source;
+        public object takeCount;
+        public object q;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -18,6 +22,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeRange`2 : ValueType
     {
+        public object source;
+        public object range;
+        public object index;
+        public object remains;
+        public object skipIndex;
+        public object fromEndQueueCount;
+        public object q;
+        public object isInitialized;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Init(){} // RVA: 0x894290
@@ -30,6 +43,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile2`2 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -41,6 +58,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class TakeWhile`2 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -52,6 +72,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Take`2 : ValueType
     {
+        public object source;
+        public object takeCount;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

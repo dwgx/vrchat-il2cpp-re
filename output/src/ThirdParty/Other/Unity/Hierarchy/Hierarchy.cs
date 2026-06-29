@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Hierarchy
 {
     public class DefaultHierarchySearchQueryParser : Object
     {
+        public object s_Filter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void .cctor(){} // RVA: 0x7C59F60
@@ -14,6 +16,11 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class Hierarchy : Object
     {
+        public object m_Ptr;
+        public object m_RootPtr;
+        public object m_VersionPtr;
+        public object m_IsOwner;
+
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x7C5A400
         public void get_Root(){} // RVA: 0x3926770
@@ -65,6 +72,9 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyCommandList : Object
     {
+        public object m_Ptr;
+        public object m_IsOwner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BE2850
         public void Finalize(){} // RVA: 0x7C5BB90
@@ -96,6 +106,13 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyFlattened : Object
     {
+        public object m_Ptr;
+        public object m_Hierarchy;
+        public object m_NodesPtr;
+        public object m_NodesCount;
+        public object m_Version;
+        public object m_IsOwner;
+
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x7C5A400
         public void get_Count(){} // RVA: 0x1065D50
@@ -128,6 +145,14 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyFlattenedNode : ValueType
     {
+        public object s_Null;
+        public object m_Node;
+        public object m_Type;
+        public object m_ParentOffset;
+        public object m_NextSiblingOffset;
+        public object m_ChildrenCount;
+        public object m_Depth;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C5CB10
         public void get_Node(){} // RVA: 0x77900
@@ -142,6 +167,11 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyFlattenedNodeChildren : ValueType
     {
+        public object m_HierarchyFlattened;
+        public object m_Node;
+        public object m_Version;
+        public object m_Count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96DC40
         public void GetEnumerator(){} // RVA: 0x96DC50
@@ -170,6 +200,10 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyNode : ValueType
     {
+        public object s_Null;
+        public object m_Id;
+        public object m_Version;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C5CE10
         public void get_Id(){} // RVA: 0x77E60
@@ -184,6 +218,11 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyNodeChildren : ValueType
     {
+        public object m_Hierarchy;
+        public object m_Ptr;
+        public object m_Version;
+        public object m_Count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96E230
         public void GetEnumerator(){} // RVA: 0x96E240
@@ -192,6 +231,9 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyNodeType : ValueType
     {
+        public object s_Null;
+        public object m_Id;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C5D130
         public void get_Id(){} // RVA: 0x77E60
@@ -203,6 +245,11 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyNodeTypeHandlerBase : Object
     {
+        public object m_Ptr;
+        public object m_Hierarchy;
+        public object m_CommandList;
+        public object s_NodeTypes;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0xB43310
         public void Dispose(){} // RVA: 0xB43310
@@ -237,6 +284,8 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyNodeTypeHandlerBaseEnumerable : ValueType
     {
+        public object m_Hierarchy;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void GetEnumerator(){} // RVA: 0x96E810
@@ -264,6 +313,9 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyPropertyDescriptor : ValueType
     {
+        public object m_Size;
+        public object m_Type;
+
         // ── Methods ──
         public void set_Size(){} // RVA: 0x29580
         public void set_Type(){} // RVA: 0x77EE0
@@ -271,6 +323,9 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyPropertyId : ValueType
     {
+        public object s_Null;
+        public object m_Id;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C5D310
         public void get_Id(){} // RVA: 0x77E60
@@ -283,6 +338,9 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyPropertyUnmanaged`1 : ValueType
     {
+        public object m_Hierarchy;
+        public object m_Property;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void SetValue(){} // RVA: 0xA94080
@@ -296,6 +354,13 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchySearchFilter : ValueType
     {
+        public object s_WhiteSpaces;
+        public object s_Invalid;
+        public object _name;
+        public object _value;
+        public object _numValue;
+        public object _op;
+
         // ── Methods ──
         public void get_Invalid(){} // RVA: 0x7C5D4F0
         public void get_IsValid(){} // RVA: 0x96F9E0
@@ -330,6 +395,15 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchySearchQueryDescriptor : Object
     {
+        public object s_SystemFilters;
+        public object s_Empty;
+        public object s_InvalidQuery;
+        public object _systemFilters;
+        public object _filters;
+        public object _textValues;
+        public object _strict;
+        public object _invalid;
+
         // ── Methods ──
         public void get_SystemFilters(){} // RVA: 0xB5DBF0
         public void set_SystemFilters(){} // RVA: 0xB44D60
@@ -371,6 +445,15 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyViewModel : Object
     {
+        public object m_Ptr;
+        public object m_Hierarchy;
+        public object m_HierarchyFlattened;
+        public object m_NodesPtr;
+        public object m_NodesCount;
+        public object m_Version;
+        public object m_IsOwner;
+        public object _queryParser;
+
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x7C5A400
         public void get_Count(){} // RVA: 0xB9E080
@@ -437,6 +520,10 @@ namespace ThirdParty.Other.Unity.Hierarchy
 
     public class HierarchyViewNodesEnumerable : ValueType
     {
+        public object m_HierarchyViewModel;
+        public object m_Predicate;
+        public object m_Flags;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96EA50
         public void GetEnumerator(){} // RVA: 0x96EA60

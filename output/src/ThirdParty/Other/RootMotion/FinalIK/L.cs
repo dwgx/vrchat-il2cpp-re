@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class LegIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -18,6 +20,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LimbIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -29,6 +33,27 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtController : MonoBehaviour
     {
+        public object ik;
+        public object target;
+        public object weight;
+        public object offset;
+        public object targetSwitchSmoothTime;
+        public object weightSmoothTime;
+        public object smoothTurnTowardsTarget;
+        public object maxRadiansDelta;
+        public object maxMagnitudeDelta;
+        public object slerpSpeed;
+        public object pivotOffsetFromRoot;
+        public object minDistance;
+        public object maxRootAngle;
+        public object lastTarget;
+        public object switchWeight;
+        public object switchWeightV;
+        public object weightV;
+        public object lastPosition;
+        public object dir;
+        public object lastSmoothTowardsTarget;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCBE630
         public void LateUpdate(){} // RVA: 0xCBE6F0
@@ -40,6 +65,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class LookAtIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310

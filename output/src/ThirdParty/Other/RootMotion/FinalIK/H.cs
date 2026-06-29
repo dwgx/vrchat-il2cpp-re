@@ -7,6 +7,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class HandPoser : Poser
     {
+        public object children;
+        public object _poseRoot;
+        public object poseChildren;
+        public object defaultLocalPositions;
+        public object defaultLocalRotations;
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0xCACE10
         public void InitiatePoser(){} // RVA: 0xCAD030
@@ -18,6 +24,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReaction : OffsetModifier
     {
+        public object effectorHitPoints;
+        public object boneHitPoints;
+
         // ── Methods ──
         public void get_inProgress(){} // RVA: 0xCBA7A0
         public void OnModifyOffset(){} // RVA: 0xCBA850
@@ -27,6 +36,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class HitReactionVRIK : OffsetModifierVRIK
     {
+        public object offsetCurves;
+        public object positionOffsets;
+        public object rotationOffsets;
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0xCBC220
         public void Hit(){} // RVA: 0xCBC300

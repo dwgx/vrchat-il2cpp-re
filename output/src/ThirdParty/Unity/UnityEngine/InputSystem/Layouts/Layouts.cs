@@ -7,6 +7,30 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 {
     public class InputControlAttribute : PropertyAttribute
     {
+        public object _layout;
+        public object _variants;
+        public object _name;
+        public object _format;
+        public object _usage;
+        public object _usages;
+        public object _parameters;
+        public object _processors;
+        public object _alias;
+        public object _aliases;
+        public object _useStateFrom;
+        public object _bit;
+        public object _offset;
+        public object _sizeInBits;
+        public object _arraySize;
+        public object _displayName;
+        public object _shortDisplayName;
+        public object _noisy;
+        public object _synthetic;
+        public object _dontReset;
+        public object _defaultState;
+        public object _minValue;
+        public object _maxValue;
+
         // ── Methods ──
         public void get_layout(){} // RVA: 0xB465B0
         public void set_layout(){} // RVA: 0xBA9BA0
@@ -59,6 +83,25 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayout : Object
     {
+        public object s_DefaultVariant;
+        public object VariantSeparator;
+        public object m_Name;
+        public object m_Type;
+        public object m_Variants;
+        public object m_StateFormat;
+        public object m_StateSizeInBytes;
+        public object m_UpdateBeforeRender;
+        public object m_BaseLayouts;
+        public object m_AppliedOverrides;
+        public object m_CommonUsages;
+        public object m_Controls;
+        public object m_DisplayName;
+        public object m_Description;
+        public object m_Flags;
+        public object s_Layouts;
+        public object s_CacheInstance;
+        public object s_CacheInstanceRef;
+
         // ── Methods ──
         public void get_DefaultVariant(){} // RVA: 0x793C650
         public void get_name(){} // RVA: 0x22343B0
@@ -111,6 +154,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputControlLayoutAttribute : Attribute
     {
+        public object _stateType;
+        public object _stateFormat;
+        public object _commonUsages;
+        public object _variants;
+        public object _isNoisy;
+        public object canRunInBackgroundInternal;
+        public object updateBeforeRenderInternal;
+        public object _isGenericTypeOfDevice;
+        public object _displayName;
+        public object _description;
+        public object _hideInUI;
+
         // ── Methods ──
         public void get_stateType(){} // RVA: 0xB5DBF0
         public void set_stateType(){} // RVA: 0xB44D60
@@ -139,6 +194,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceBuilder : ValueType
     {
+        public object m_Device;
+        public object m_LayoutCacheRef;
+        public object m_ChildControlOverrides;
+        public object m_StateOffsetToControlMap;
+        public object m_StringBuilder;
+        public object kSizeForControlUsingStateFromOtherControl;
+        public object s_Instance;
+        public object s_InstanceRef;
+
         // ── Methods ──
         public void Setup(){} // RVA: 0x92CE90
         public void Finish(){} // RVA: 0x92CF00
@@ -172,6 +236,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceDescription : ValueType
     {
+        public object m_InterfaceName;
+        public object m_DeviceClass;
+        public object m_Manufacturer;
+        public object m_Product;
+        public object m_Serial;
+        public object m_Version;
+        public object m_Capabilities;
+
         // ── Methods ──
         public void get_interfaceName(){} // RVA: 0x77900
         public void set_interfaceName(){} // RVA: 0x47F10
@@ -229,6 +301,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Layouts
 
     public class InputDeviceMatcher : ValueType
     {
+        public object m_Patterns;
+        public object kInterfaceKey;
+        public object kDeviceClassKey;
+        public object kManufacturerKey;
+        public object kManufacturerContainsKey;
+        public object kProductKey;
+        public object kVersionKey;
+
         // ── Methods ──
         public void WithCapability(){} // RVA: 0x1F9C20
         public void get_empty(){} // RVA: 0x88E70

@@ -122,6 +122,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class IMEEvent : EventBase`1
     {
+        public object _compositionString;
+
         // ── Methods ──
         public void set_compositionString(){} // RVA: 0xBBFFA0
         public void .cctor(){} // RVA: 0x805DE70
@@ -133,6 +135,35 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class IMGUIContainer : VisualElement
     {
+        public object cullingEnabledProperty;
+        public object contextTypeProperty;
+        public object m_OnGUIHandler;
+        public object m_ObjectGUIState;
+        public object useOwnerObjectGUIState;
+        public object _lastWorldClip;
+        public object m_CullingEnabled;
+        public object m_IsFocusDelegated;
+        public object m_RefreshCachedLayout;
+        public object m_Cache;
+        public object m_CachedClippingRect;
+        public object m_CachedTransform;
+        public object m_ContextType;
+        public object lostFocus;
+        public object receivedFocus;
+        public object focusChangeDirection;
+        public object hasFocusableControls;
+        public object newKeyboardFocusControlID;
+        public object _focusOnlyIfHasFocusableControls;
+        public object ussClassName;
+        public object ussFoldoutChildDepthClassName;
+        public object ussFoldoutChildDepthClassNames;
+        public object m_GUIGlobals;
+        public object k_OnGUIMarker;
+        public object k_ImmediateCallbackMarker;
+        public object s_DefaultMeasureEvent;
+        public object s_MeasureEvent;
+        public object s_CurrentEvent;
+
         // ── Methods ──
         public void get_onGUIHandler(){} // RVA: 0x807BC10
         public void set_onGUIHandler(){} // RVA: 0x807BC20
@@ -885,6 +916,29 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Image : VisualElement
     {
+        public object imageProperty;
+        public object spriteProperty;
+        public object vectorImageProperty;
+        public object sourceRectProperty;
+        public object uvProperty;
+        public object scaleModeProperty;
+        public object tintColorProperty;
+        public object m_ScaleMode;
+        public object m_Image;
+        public object m_Sprite;
+        public object m_VectorImage;
+        public object m_UV;
+        public object m_TintColor;
+        public object m_ImageIsInline;
+        public object m_ScaleModeIsInline;
+        public object m_TintColorIsInline;
+        public object ussClassName;
+        public object s_ImageProperty;
+        public object s_SpriteProperty;
+        public object s_VectorImageProperty;
+        public object s_ScaleModeProperty;
+        public object s_TintColorProperty;
+
         // ── Methods ──
         public void get_image(){} // RVA: 0x166C430
         public void set_image(){} // RVA: 0x7FEA0B0
@@ -917,6 +971,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InheritedData : ValueType
     {
+        public object color;
+        public object fontSize;
+        public object letterSpacing;
+        public object textShadow;
+        public object unityEditorTextRenderingMode;
+        public object unityFont;
+        public object unityFontDefinition;
+        public object unityFontStyleAndWeight;
+        public object unityParagraphSpacing;
+        public object unityTextAlign;
+        public object unityTextGenerator;
+        public object unityTextOutlineColor;
+        public object unityTextOutlineWidth;
+        public object visibility;
+        public object whiteSpace;
+        public object wordSpacing;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x46D8D0
         public void CopyFrom(){} // RVA: 0x995F20
@@ -927,6 +998,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InlineStyleAccess : StyleValueCollection
     {
+        public object s_StylePropertyReader;
+        public object m_ValuesManaged;
+        public object _ve;
+        public object m_HasInlineCursor;
+        public object m_InlineCursor;
+        public object m_HasInlineTextShadow;
+        public object m_InlineTextShadow;
+        public object m_HasInlineTransformOrigin;
+        public object m_InlineTransformOrigin;
+        public object m_HasInlineTranslate;
+        public object m_InlineTranslateOperation;
+        public object m_HasInlineRotate;
+        public object m_InlineRotateOperation;
+        public object m_HasInlineScale;
+        public object m_InlineScale;
+        public object m_HasInlineBackgroundSize;
+        public object m_InlineBackgroundSize;
+        public object m_InlineRule;
+
         // ── Methods ──
         public void UnityEngine.UIElements.IStyle.get_alignContent(){} // RVA: 0x80B8620
         public void UnityEngine.UIElements.IStyle.set_alignContent(){} // RVA: 0x80B8680
@@ -1136,6 +1226,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InlineStyleAccessPropertyBag : PropertyBag`1
     {
+        public object m_PropertiesList;
+        public object m_PropertiesHash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7E9A640
         public void AddProperty(){} // RVA: 0x30F4440
@@ -1145,6 +1238,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class InputEvent : EventBase`1
     {
+        public object _previousData;
+        public object _newData;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x805E3D0
         public void set_previousData(){} // RVA: 0xBBFFA0
@@ -1157,6 +1253,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class IntegerField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_integerInput(){} // RVA: 0x7FF2200
         public void ValueToString(){} // RVA: 0x7FF2290

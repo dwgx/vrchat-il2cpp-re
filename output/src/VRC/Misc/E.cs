@@ -22,6 +22,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÎÎÌÌÌÌÍÌÍÍÍÎÏÌÍÏÎÎÍÏ</summary>
     public class EncodingWrite_9489 : TextWriter
     {
+        public object _encoding;
+
         // ── Methods ──
         public void Write(){} // RVA: 0x1D55C90
         public void Flush(){} // RVA: 0x1D55A40
@@ -32,6 +34,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÌÍÍÏÎÍÍÏÌÌÌÍÏÌÏÎÍÍÏÍÌ</summary>
     public class EventArgsDerived_7C56 : EventArgs
     {
+        public object _7C56;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xCF82E0
     }
@@ -39,6 +43,11 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÎÎÎÍÌÏÎÏÍÌÎÎÏÍÏÎÌÌÏÎ</summary>
     public class EventReplicator2Derived_A21D : EventReplicator`2
     {
+        public object f_E58;
+        public object f_B98;
+        public object f_1E5;
+        public object f_DE4;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x1C90840
         public void .ctor(){} // RVA: 0x1C908A0
@@ -58,6 +67,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÏÍÌÎÎÌÎÍÌÌÏÎÍÌÏÏÏÍÌÎÎÍ</summary>
     public class ExceptionDerived_13B0 : Exception
     {
+        public object _s_EDILock;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xF3A950
         public void .ctor(){} // RVA: 0xF71620
@@ -95,6 +106,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÎÎÎÍÎÏÌÍÏÍÏÎÍÍÏÎÌÌÎÌÏ</summary>
     public class ExceptionDerived_37E4 : Exception
     {
+        public object _37E4;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xF3A950
         public void .ctor(){} // RVA: 0x22320D0
@@ -122,6 +135,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÌÌÎÌÌÍÎÍÌÎÌÌÌÎÏÍÍÍÏÍÍ</summary>
     public class ExceptionDerived_984D : Exception
     {
+        public object _s_EDILock;
+        public object __className;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xF3A940
         public void get_Message(){} // RVA: 0xF3A950
@@ -154,6 +170,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÌÍÎÌÎÏÍÌÌÎÏÍÎÌÍÌÌÎÌÍÏÎ</summary>
     public class ExceptionDerived_CE6F : Exception
     {
+        public object _cE6F;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2379480
     }
@@ -161,6 +179,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÏÌÌÌÎÌÏÏÏÏÎÎÌÎÎÎÌÏÏÍ</summary>
     public class ExceptionDerived_E0A2 : Exception
     {
+        public object _e0A2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x23795E0
     }
@@ -168,6 +188,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÏÎÏÎÏÍÍÍÍÎÏÏÏÌÏÌÌÌÏÏÌ</summary>
     public class Execute_2019 : VRCCustomAction
     {
+        public object f_B09;
+        public object f_AF9;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x21E0D00
         public void Execute(){} // RVA: 0x21E0E40
@@ -176,6 +199,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÏÏÎÎÌÎÎÎÎÌÍÏÎÏÌÌÏÏÏÏ</summary>
     public class Execute_3F40 : ValueType
     {
+        public object _3F40;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x53EF0
         public void InternalEquals(){} // RVA: 0x53EF0
@@ -188,6 +213,10 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÏÎÌÌÌÏÌÌÎÎÌÎÏÌÍÌÎÍÏÍ</summary>
     public class Execute_8BEC : ValueType
     {
+        public object f_2A5;
+        public object f_A5E;
+        public object f_E47;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x53ED0
         public void InternalEquals(){} // RVA: 0x53ED0
@@ -201,6 +230,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÍÏÌÌÏÎÏÎÍÌÌÎÎÏÌÍÌÍÍÏÌ</summary>
     public class ExtrapolateInterpolate_2146 : TweenableValue`1
     {
+        public object f_506;
+        public object _delta;
+
         // ── Methods ──
         public void get_Time(){} // RVA: 0x1713FD0
         public void set_Time(){} // RVA: 0x1710B10

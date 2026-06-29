@@ -36,6 +36,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class InviteOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B27590
         public void AddSuggestedUser(){} // RVA: 0x6B27640

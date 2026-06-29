@@ -7,20 +7,41 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x894290
-    }
+        public object items;
+        public object readerSource;
+        public object completedTaskSource;
+        public object completedTask;
+        public object completionError;
+        public object closed;
 
-    public class SingleConsumerUnboundedChannel`1 : Channel`1
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ACE1F0
     }
 
     public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
+        public object items;
+        public object readerSource;
+        public object completedTaskSource;
+        public object completedTask;
+        public object completionError;
+        public object closed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ACE760
+    }
+
+    public class SingleConsumerUnboundedChannel`1 : Channel`1
+    {
+        public object items;
+        public object readerSource;
+        public object completedTaskSource;
+        public object completedTask;
+        public object completionError;
+        public object closed;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class StateExtensions : Object
@@ -31,6 +52,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SwitchToMainThreadAwaitable : ValueType
     {
+        public object playerLoopTiming;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void GetAwaiter(){} // RVA: 0x920590
@@ -38,6 +62,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class SwitchToSynchronizationContextAwaitable : ValueType
     {
+        public object synchronizationContext;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6D3E60
         public void GetAwaiter(){} // RVA: 0x920DE0

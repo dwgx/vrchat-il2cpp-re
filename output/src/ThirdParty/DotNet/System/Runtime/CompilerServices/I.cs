@@ -47,6 +47,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class InternalsVisibleToAttribute : Attribute
     {
+        public object _assemblyName;
+        public object _allInternalsVisible;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67C11E0
         public void set_AllInternalsVisible(){} // RVA: 0xB5DD60
@@ -54,6 +57,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class InterpolatedStringHandlerArgumentAttribute : Attribute
     {
+        public object _arguments;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Arguments(){} // RVA: 0xB5DBF0
@@ -61,12 +66,16 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class InterpolatedStringHandlerArgumentAttribute : Attribute
     {
+        public object _arguments;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class InterpolatedStringHandlerArgumentAttribute : Attribute
     {
+        public object _arguments;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8314C30
     }

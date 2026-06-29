@@ -7,6 +7,13 @@ namespace ThirdParty.Other.Unity.IntegerTime
 {
     public class DiscreteTime : ValueType
     {
+        public object Value;
+        public object Zero;
+        public object MinValue;
+        public object MaxValue;
+        public object TicksPerSecondBits;
+        public object NonPow2TpsBits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void FromTicks(){} // RVA: 0x697DBA0
@@ -25,6 +32,9 @@ namespace ThirdParty.Other.Unity.IntegerTime
 
     public class RationalTime : ValueType
     {
+        public object m_Count;
+        public object m_TicksPerSecond;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x77900
         public void op_Explicit(){} // RVA: 0x7B48820

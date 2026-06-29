@@ -23,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.Jobs
 
     public class TransformAccess : ValueType
     {
+        public object hierarchy;
+        public object index;
+
         // ── Methods ──
         public void get_position(){} // RVA: 0x9667E0
         public void get_rotation(){} // RVA: 0x966860
@@ -49,6 +52,8 @@ namespace ThirdParty.Unity.UnityEngine.Jobs
 
     public class TransformAccessArray : ValueType
     {
+        public object m_TransformArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x966CE0
         public void Allocate(){} // RVA: 0x7C223C0

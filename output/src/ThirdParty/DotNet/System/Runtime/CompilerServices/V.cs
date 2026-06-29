@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class ValueTaskAwaiter : ValueType
     {
+        public object s_invokeActionDelegate;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void get_IsCompleted(){} // RVA: 0x8AF130
@@ -18,6 +21,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter : ValueType
     {
+        public object s_invokeActionDelegate;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void get_IsCompleted(){} // RVA: 0x8F2B10
@@ -29,6 +35,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_IsCompleted(){} // RVA: 0x87D280
@@ -39,6 +47,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x216AC0
         public void get_IsCompleted(){} // RVA: 0x219850
@@ -49,6 +59,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void get_IsCompleted(){} // RVA: 0x229E10
@@ -59,6 +71,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void OnCompleted(){} // RVA: 0x894320
         public void UnsafeOnCompleted(){} // RVA: 0x894320
@@ -66,6 +80,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void get_IsCompleted(){} // RVA: 0x228030
@@ -76,6 +92,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ValueTaskAwaiter`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x11E4F0
     }

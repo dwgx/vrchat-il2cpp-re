@@ -7,6 +7,23 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class RagdollUtility : MonoBehaviour
     {
+        public object ik;
+        public object ragdollToAnimationTime;
+        public object applyIkOnRagdoll;
+        public object applyVelocity;
+        public object applyAngularVelocity;
+        public object animator;
+        public object rigidbones;
+        public object children;
+        public object enableRagdollFlag;
+        public object animatorUpdateMode;
+        public object allIKComponents;
+        public object fixTransforms;
+        public object ragdollWeight;
+        public object ragdollWeightV;
+        public object fixedFrame;
+        public object disabledIKComponents;
+
         // ── Methods ──
         public void EnableRagdoll(){} // RVA: 0xCADEC0
         public void DisableRagdoll(){} // RVA: 0xCADEF0
@@ -30,6 +47,30 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Recoil : OffsetModifier
     {
+        public object aimIK;
+        public object aimIKSolvedLast;
+        public object handedness;
+        public object twoHanded;
+        public object recoilWeight;
+        public object magnitudeRandom;
+        public object rotationRandom;
+        public object handRotationOffset;
+        public object blendTime;
+        public object offsets;
+        public object rotationOffset;
+        public object magnitudeMlp;
+        public object endTime;
+        public object handRotation;
+        public object secondaryHandRelativeRotation;
+        public object randomRotation;
+        public object length;
+        public object initiated;
+        public object blendWeight;
+        public object w;
+        public object primaryHandRotation;
+        public object handRotationsSet;
+        public object aimIKAxis;
+
         // ── Methods ──
         public void get_isFinished(){} // RVA: 0xCC2BD0
         public void SetHandRotations(){} // RVA: 0xCC2C30
@@ -47,6 +88,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimit : MonoBehaviour
     {
+        public object axis;
+        public object defaultLocalRotation;
+        public object _defaultLocalRotationOverride;
+        public object initiated;
+        public object applicationQuit;
+        public object defaultLocalRotationSet;
+
         // ── Methods ──
         public void SetDefaultLocalRotation(){} // RVA: 0xCB1D80
         public void GetLimitedLocalRotation(){} // RVA: 0xCB1D90
@@ -68,6 +116,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitAngle : RotationLimit
     {
+        public object limit;
+        public object twistLimit;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -80,6 +131,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitHinge : RotationLimit
     {
+        public object useLimits;
+        public object min;
+        public object max;
+        public object zeroAxisDisplayOffset;
+        public object lastRotation;
+        public object lastAngle;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -92,6 +150,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitPolygonal : RotationLimit
     {
+        public object twistLimit;
+        public object smoothIterations;
+        public object points;
+        public object P;
+        public object reachCones;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -113,6 +177,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class RotationLimitSpline : RotationLimit
     {
+        public object twistLimit;
+        public object spline;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310

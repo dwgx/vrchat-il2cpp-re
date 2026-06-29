@@ -1,856 +1,1968 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 352
+// Methods: 294
 
-public class <>c : Object
+public class <CreateInnerHashSet>d__20 : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void Initialize(){} // RVA: 0x267AA60
-    public void Equals(){} // RVA: 0x267AA60
-    public void op_Implicit(){} // RVA: 0x267AA90
-    public void CompareBaseObjects(){} // RVA: 0x267AAC0
-    public void GetLongFromDelegate(){} // RVA: 0x267AB10
-    public void GetCachedPtr(){} // RVA: 0x267ABE0
-    public void get_name(){} // RVA: 0x267AC30
-    public void Instantiate(){} // RVA: 0x267AC70
-    public void GetHashCode(){} // RVA: 0x267AD00
-    public void Instantiate_3AAB7DFDC01E(){} // RVA: 0x1CB3B00
-    public void DestroyImmediate(){} // RVA: 0x267AD70
-    public void FindObjectsOfType(){} // RVA: 0x267AEC0
-    public void FindObjectsByType(){} // RVA: 0x267AA60
-    public void ApplyLocalPositionAndScale(){} // RVA: 0x267AF00
-    public void .cctor(){} // RVA: 0x267AFC0
-    public void GetInstanceID(){} // RVA: 0x267B060
-    public void FindObjectOfType(){} // RVA: 0x267B120
-    public void FindFirstObjectByType(){} // RVA: 0x267B170
-    public void CheckNullArgument(){} // RVA: 0x267B1C0
-    public void ToString(){} // RVA: 0x267B210
-    public void GetHashCode_93371C0CB0F8(){} // RVA: 0x267B2D0
-    public void GetLast(){} // RVA: 0x267B390
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
 
-public class <>c__10`1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894290
-    public void Initialize(){} // RVA: 0x87D490
-    public void Equals(){} // RVA: 0x87D490
-    public void op_Implicit(){} // RVA: 0x87D490
-    public void CompareBaseObjects(){} // RVA: 0x87D490
-    public void IsNativeObjectAlive(){} // RVA: 0x87D490
-    public void GetCachedPtr(){} // RVA: 0x87D490
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class <>c__128`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupBy>b__128_0(){} // RVA: 0xA94080
-}
-
-public class <>c__129`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupBy>b__129_0(){} // RVA: 0xA94080
-}
-
-public class <>c__132`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupBy>b__132_0(){} // RVA: 0xA94080
-}
-
-public class <>c__133`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupBy>b__133_0(){} // RVA: 0xA94080
-}
-
-public class <>c__136`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwait>b__136_0(){} // RVA: 0xA94080
-}
-
-public class <>c__137`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwait>b__137_0(){} // RVA: 0xA94080
-}
-
-public class <>c__140`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwait>b__140_0(){} // RVA: 0xA94080
-}
-
-public class <>c__142`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwait>b__142_0(){} // RVA: 0xA94080
-}
-
-public class <>c__144`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwaitWithCancellation>b__144_0(){} // RVA: 0xA94080
-}
-
-public class <>c__145`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwaitWithCancellation>b__145_0(){} // RVA: 0xA94080
-}
-
-public class <>c__148`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwaitWithCancellation>b__148_0(){} // RVA: 0xA94080
-}
-
-public class <>c__150`3 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <GroupByAwaitWithCancellation>b__150_0(){} // RVA: 0xA94080
-}
-
-public class <>c__309`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectMany>b__309_0(){} // RVA: 0xA94080
-}
-
-public class <>c__310`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectMany>b__310_0(){} // RVA: 0xA94080
-}
-
-public class <>c__313`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectManyAwait>b__313_0(){} // RVA: 0xA94080
-}
-
-public class <>c__314`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectManyAwait>b__314_0(){} // RVA: 0xA94080
-}
-
-public class <>c__317`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectManyAwaitWithCancellation>b__317_0(){} // RVA: 0xA94080
-}
-
-public class <>c__318`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <SelectManyAwaitWithCancellation>b__318_0(){} // RVA: 0xA94080
-}
-
-public class <>c__471`2 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <Zip>b__471_0(){} // RVA: 0xA94080
-}
-
-public class <AggregateAsync>d__0`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAsync>d__1`2 : ValueType
+public class <CreateInnerHashSet>d__24 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAsync>d__2`3 : ValueType
+public class <CreateInnerHashSet>d__24 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitAsync>d__3`1 : ValueType
+public class <CreateLookup>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitAsync>d__4`2 : ValueType
+public class <CreateLookup>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitAsync>d__5`3 : ValueType
+public class <CreateLookup>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitWithCancellationAsync>d__6`1 : ValueType
+public class <CreateLookup>d__13 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitWithCancellationAsync>d__7`2 : ValueType
+public class <CreateLookup>d__15 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AggregateAwaitWithCancellationAsync>d__8`3 : ValueType
+public class <CreateLookup>d__15 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AllAsync>d__0`1 : ValueType
+public class <CreateLookup>d__17 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AllAwaitAsync>d__1`1 : ValueType
+public class <CreateLookup>d__22 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AllAwaitWithCancellationAsync>d__2`1 : ValueType
+public class <CreateLookup>d__22 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AnyAsync>d__0`1 : ValueType
+public class <DisposeAsync>d__13 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <i>5__2;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AnyAsync>d__1`1 : ValueType
+public class <ForEachAwaitWithCancellationAsync>d__4`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object action;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AnyAwaitAsync>d__2`1 : ValueType
+public class <ForEachAwaitWithCancellationAsync>d__5`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object action;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <index>5__5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AnyAwaitWithCancellationAsync>d__3`1 : ValueType
+public class <LastAsync>d__0`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object defaultIfEmpty;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <value>5__6;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__0 : ValueType
+public class <LastAsync>d__1`1 : ValueType
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x9219E0
-    public void SetStateMachine(){} // RVA: 0x9219F0
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object defaultIfEmpty;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <value>5__6;
+    public object <found>5__7;
+    public object <>u__1;
+    public object <>u__2;
 
-public class <AverageAsync>d__12 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921A20
-    public void SetStateMachine(){} // RVA: 0x921A30
-}
-
-public class <AverageAsync>d__13`1 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x894290
-    public void SetStateMachine(){} // RVA: 0x894320
-}
-
-public class <AverageAsync>d__16 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921A60
-    public void SetStateMachine(){} // RVA: 0x921A70
-}
-
-public class <AverageAsync>d__17`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__1`1 : ValueType
+public class <LastAwaitAsync>d__2`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object defaultIfEmpty;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <value>5__6;
+    public object <found>5__7;
+    public object <v>5__8;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__20 : ValueType
+public class <LastAwaitWithCancellationAsync>d__3`1 : ValueType
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921AA0
-    public void SetStateMachine(){} // RVA: 0x921AB0
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object defaultIfEmpty;
+    public object <e>5__2;
+    public object <>7__wrap2;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <value>5__6;
+    public object <found>5__7;
+    public object <v>5__8;
+    public object <>u__1;
+    public object <>u__2;
 
-public class <AverageAsync>d__21`1 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x894290
-    public void SetStateMachine(){} // RVA: 0x894320
-}
-
-public class <AverageAsync>d__24 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921AE0
-    public void SetStateMachine(){} // RVA: 0x921AF0
-}
-
-public class <AverageAsync>d__25`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__28 : ValueType
+public class <LongCountAsync>d__0`1 : ValueType
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921B20
-    public void SetStateMachine(){} // RVA: 0x921B30
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <count>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
 
-public class <AverageAsync>d__29`1 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x894290
-    public void SetStateMachine(){} // RVA: 0x894320
-}
-
-public class <AverageAsync>d__32 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921B60
-    public void SetStateMachine(){} // RVA: 0x921B70
-}
-
-public class <AverageAsync>d__33`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__36 : ValueType
+public class <LongCountAsync>d__1`1 : ValueType
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921BA0
-    public void SetStateMachine(){} // RVA: 0x921BB0
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object <count>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
 
-public class <AverageAsync>d__37`1 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x894290
-    public void SetStateMachine(){} // RVA: 0x894320
-}
-
-public class <AverageAsync>d__4 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921BE0
-    public void SetStateMachine(){} // RVA: 0x921BF0
-}
-
-public class <AverageAsync>d__5`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAsync>d__8 : ValueType
+public class <LongCountAwaitAsync>d__2`1 : ValueType
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x921C20
-    public void SetStateMachine(){} // RVA: 0x921C30
-}
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object <count>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
 
-public class <AverageAsync>d__9`1 : ValueType
-{
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x894290
-    public void SetStateMachine(){} // RVA: 0x894320
-}
-
-public class <AverageAwaitAsync>d__10`1 : ValueType
-{
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__14`1 : ValueType
+public class <LongCountAwaitWithCancellationAsync>d__3`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object predicate;
+    public object <count>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__18`1 : ValueType
+public class <MaxAsync>d__0`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__22`1 : ValueType
+public class <MaxAsync>d__12 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921C60
+    public void SetStateMachine(){} // RVA: 0x921C70
+}
+
+public class <MaxAsync>d__13`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__26`1 : ValueType
+public class <MaxAsync>d__16 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921CA0
+    public void SetStateMachine(){} // RVA: 0x921CB0
+}
+
+public class <MaxAsync>d__17`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__2`1 : ValueType
+public class <MaxAsync>d__1`2 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__30`1 : ValueType
+public class <MaxAsync>d__20 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921CE0
+    public void SetStateMachine(){} // RVA: 0x921CF0
+}
+
+public class <MaxAsync>d__21`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__34`1 : ValueType
+public class <MaxAsync>d__24 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921D20
+    public void SetStateMachine(){} // RVA: 0x921D30
+}
+
+public class <MaxAsync>d__25`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__38`1 : ValueType
+public class <MaxAsync>d__28 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921D60
+    public void SetStateMachine(){} // RVA: 0x921D70
+}
+
+public class <MaxAsync>d__29`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitAsync>d__6`1 : ValueType
+public class <MaxAsync>d__32 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921DA0
+    public void SetStateMachine(){} // RVA: 0x921DB0
+}
+
+public class <MaxAsync>d__33`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__11`1 : ValueType
+public class <MaxAsync>d__36 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921DE0
+    public void SetStateMachine(){} // RVA: 0x921DF0
+}
+
+public class <MaxAsync>d__37`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__15`1 : ValueType
+public class <MaxAsync>d__4 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921E20
+    public void SetStateMachine(){} // RVA: 0x921E30
+}
+
+public class <MaxAsync>d__40 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921E60
+    public void SetStateMachine(){} // RVA: 0x921E70
+}
+
+public class <MaxAsync>d__41`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__19`1 : ValueType
+public class <MaxAsync>d__5`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__23`1 : ValueType
+public class <MaxAsync>d__8 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921EA0
+    public void SetStateMachine(){} // RVA: 0x921EB0
+}
+
+public class <MaxAsync>d__9`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__27`1 : ValueType
+public class <MaxAwaitAsync>d__10`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__31`1 : ValueType
+public class <MaxAwaitAsync>d__14`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__35`1 : ValueType
+public class <MaxAwaitAsync>d__18`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__39`1 : ValueType
+public class <MaxAwaitAsync>d__22`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__3`1 : ValueType
+public class <MaxAwaitAsync>d__26`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <AverageAwaitWithCancellationAsync>d__7`1 : ValueType
+public class <MaxAwaitAsync>d__2`2 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__27 : ValueType
+public class <MaxAwaitAsync>d__30`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__35 : ValueType
+public class <MaxAwaitAsync>d__34`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__43 : ValueType
+public class <MaxAwaitAsync>d__38`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__51 : ValueType
+public class <MaxAwaitAsync>d__42`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__59 : ValueType
+public class <MaxAwaitAsync>d__6`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__67 : ValueType
+public class <MaxAwaitWithCancellationAsync>d__11`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__75 : ValueType
+public class <MaxAwaitWithCancellationAsync>d__15`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__83 : ValueType
+public class <MaxAwaitWithCancellationAsync>d__19`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <DisposeAsync>d__91 : ValueType
+public class <MaxAwaitWithCancellationAsync>d__23`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x894290
     public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class <PrivateImplementationDetails> : Object
+public class <MaxAwaitWithCancellationAsync>d__27`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
     // ── Methods ──
-    public void ComputeStringHash(){} // RVA: 0x18AF930
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
 }
 
-public class _AppendPrepend : MoveNextSource
+public class <MaxAwaitWithCancellationAsync>d__31`1 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MaxAwaitWithCancellationAsync>d__35`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MaxAwaitWithCancellationAsync>d__39`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MaxAwaitWithCancellationAsync>d__3`2 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MaxAwaitWithCancellationAsync>d__43`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MaxAwaitWithCancellationAsync>d__7`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+    public object <>u__3;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__0`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__12 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921EE0
+    public void SetStateMachine(){} // RVA: 0x921EF0
+}
+
+public class <MinAsync>d__13`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__16 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921F20
+    public void SetStateMachine(){} // RVA: 0x921F30
+}
+
+public class <MinAsync>d__17`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__1`2 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <comparer>5__3;
+    public object <e>5__4;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>7__wrap6;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__20 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921F60
+    public void SetStateMachine(){} // RVA: 0x921F70
+}
+
+public class <MinAsync>d__21`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__24 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921FA0
+    public void SetStateMachine(){} // RVA: 0x921FB0
+}
+
+public class <MinAsync>d__25`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__28 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x921FE0
+    public void SetStateMachine(){} // RVA: 0x921FF0
+}
+
+public class <MinAsync>d__29`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__32 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x922020
+    public void SetStateMachine(){} // RVA: 0x922030
+}
+
+public class <MinAsync>d__33`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__36 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x922060
+    public void SetStateMachine(){} // RVA: 0x922070
+}
+
+public class <MinAsync>d__37`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class <MinAsync>d__4 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x9220A0
+    public void SetStateMachine(){} // RVA: 0x9220B0
+}
+
+public class <MinAsync>d__40 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x9220E0
+    public void SetStateMachine(){} // RVA: 0x9220F0
+}
+
+public class <MinAsync>d__41`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object source;
+    public object cancellationToken;
+    public object selector;
+    public object <value>5__2;
+    public object <e>5__3;
+    public object <>7__wrap3;
+    public object <>7__wrap4;
+    public object <>7__wrap5;
+    public object <>u__1;
+    public object <>u__2;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x894290
+    public void SetStateMachine(){} // RVA: 0x894320
+}
+
+public class _GroupBy : MoveNextSource
+{
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0x87C0A0
+    public void set_Current(){} // RVA: 0x894320
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+}
+
+public class _GroupBy : MoveNextSource
+{
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0xA94080
     public void set_Current(){} // RVA: 0xA94080
     public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void MoveNextCore(){} // RVA: 0x894350
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
     public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _Buffer : MoveNextSource
+public class _GroupByAwait : MoveNextSource
 {
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0x87C0A0
     public void set_Current(){} // RVA: 0x894320
     public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+}
+
+public class _GroupByAwait : MoveNextSource
+{
+    public object ResultSelectCoreDelegate;
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object awaiter;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void ResultSelectCore(){} // RVA: 0x894350
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+    public void .cctor(){} // RVA: 0x8942F0
+}
+
+public class _GroupByAwaitWithCancellation : MoveNextSource
+{
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0x87C0A0
+    public void set_Current(){} // RVA: 0x894320
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+}
+
+public class _GroupByAwaitWithCancellation : MoveNextSource
+{
+    public object ResultSelectCoreDelegate;
+    public object source;
+    public object keySelector;
+    public object elementSelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object groupEnumerator;
+    public object awaiter;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void ResultSelectCore(){} // RVA: 0x894350
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+    public void .cctor(){} // RVA: 0x8942F0
+}
+
+public class _GroupJoin : MoveNextSource
+{
+    public object MoveNextCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object awaiter;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
     public void SourceMoveNext(){} // RVA: 0x894290
     public void MoveNextCore(){} // RVA: 0x894350
     public void DisposeAsync(){} // RVA: 0x87BEB0
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _BufferSkip : MoveNextSource
+public class _GroupJoinAwait : MoveNextSource
 {
+    public object MoveNextCoreDelegate;
+    public object ResultSelectCoreDelegate;
+    public object OuterKeySelectCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object outerValue;
+    public object awaiter;
+    public object outerKeyAwaiter;
+    public object resultAwaiter;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0x87C0A0
-    public void set_Current(){} // RVA: 0x894320
+    public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
     public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
     public void SourceMoveNext(){} // RVA: 0x894290
     public void MoveNextCore(){} // RVA: 0x894350
+    public void OuterKeySelectCore(){} // RVA: 0x894350
+    public void ResultSelectCore(){} // RVA: 0x894350
     public void DisposeAsync(){} // RVA: 0x87BEB0
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _Cast : AsyncEnumeratorBase`2
+public class _GroupJoinAwaitWithCancellation : MoveNextSource
 {
+    public object MoveNextCoreDelegate;
+    public object ResultSelectCoreDelegate;
+    public object OuterKeySelectCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object outerValue;
+    public object awaiter;
+    public object outerKeyAwaiter;
+    public object resultAwaiter;
+    public object _current;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x899C90
-    public void TryMoveNextCore(){} // RVA: 0x87DAD0
+    public void .ctor(){} // RVA: 0xA94080
+    public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
+    public void MoveNextAsync(){} // RVA: 0x87BEB0
+    public void CreateLookup(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void MoveNextCore(){} // RVA: 0x894350
+    public void OuterKeySelectCore(){} // RVA: 0x894350
+    public void ResultSelectCore(){} // RVA: 0x894350
+    public void DisposeAsync(){} // RVA: 0x87BEB0
+    public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _CombineLatest : MoveNextSource
+public class _Intersect : AsyncEnumeratorBase`2
 {
+    public object HashSetAsyncCoreDelegate;
+    public object comparer;
+    public object second;
+    public object set;
+    public object awaiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899AC0
+    public void OnFirstIteration(){} // RVA: 0x87D280
+    public void HashSetAsyncCore(){} // RVA: 0x894350
+    public void TryMoveNextCore(){} // RVA: 0x87DAD0
+    public void .cctor(){} // RVA: 0x8942F0
+}
+
+public class _Join : MoveNextSource
+{
+    public object MoveNextCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object awaiter;
+    public object currentOuterValue;
+    public object valueEnumerator;
+    public object continueNext;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
     public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
+    public void CreateInnerHashSet(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void MoveNextCore(){} // RVA: 0x894350
     public void DisposeAsync(){} // RVA: 0x87BEB0
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _CombineLatest : MoveNextSource
+public class _JoinAwait : MoveNextSource
 {
+    public object MoveNextCoreDelegate;
+    public object OuterSelectCoreDelegate;
+    public object ResultSelectCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object awaiter;
+    public object currentOuterValue;
+    public object valueEnumerator;
+    public object resultAwaiter;
+    public object outerKeyAwaiter;
+    public object continueNext;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
     public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
+    public void CreateInnerHashSet(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void MoveNextCore(){} // RVA: 0x894350
+    public void OuterSelectCore(){} // RVA: 0x894350
+    public void ResultSelectCore(){} // RVA: 0x894350
     public void DisposeAsync(){} // RVA: 0x87BEB0
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _CombineLatest : MoveNextSource
+public class _JoinAwaitWithCancellation : MoveNextSource
 {
+    public object MoveNextCoreDelegate;
+    public object OuterSelectCoreDelegate;
+    public object ResultSelectCoreDelegate;
+    public object outer;
+    public object inner;
+    public object outerKeySelector;
+    public object innerKeySelector;
+    public object resultSelector;
+    public object comparer;
+    public object cancellationToken;
+    public object lookup;
+    public object enumerator;
+    public object awaiter;
+    public object currentOuterValue;
+    public object valueEnumerator;
+    public object resultAwaiter;
+    public object outerKeyAwaiter;
+    public object continueNext;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
     public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
+    public void CreateInnerHashSet(){} // RVA: 0x87D280
+    public void SourceMoveNext(){} // RVA: 0x894290
+    public void MoveNextCore(){} // RVA: 0x894350
+    public void OuterSelectCore(){} // RVA: 0x894350
+    public void ResultSelectCore(){} // RVA: 0x894350
     public void DisposeAsync(){} // RVA: 0x87BEB0
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class _CombineLatest : MoveNextSource
+public class _Merge : MoveNextSource
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
-    public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
+    public object GetResultAtAction;
+    public object length;
+    public object enumerators;
+    public object states;
+    public object queuedResult;
+    public object cancellationToken;
+    public object moveNextCompleted;
+    public object _current;
 
-public class _CombineLatest : MoveNextSource
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
     public void get_Current(){} // RVA: 0xA94080
+    public void set_Current(){} // RVA: 0xA94080
+    public void .ctor(){} // RVA: 0x899C90
     public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void Completed6(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
     public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class _CombineLatest : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void Completed6(){} // RVA: 0x894350
-    public void Completed7(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
-    public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class _CombineLatest : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void Completed6(){} // RVA: 0x894350
-    public void Completed7(){} // RVA: 0x894350
-    public void Completed8(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
-    public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class _CombineLatest : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void Completed6(){} // RVA: 0x894350
-    public void Completed7(){} // RVA: 0x894350
-    public void Completed8(){} // RVA: 0x894350
-    public void Completed9(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
-    public void DisposeAsync(){} // RVA: 0x87BEB0
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
-public class _CombineLatest : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA94080
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNextAsync(){} // RVA: 0x87BEB0
-    public void Completed1(){} // RVA: 0x894350
-    public void Completed2(){} // RVA: 0x894350
-    public void Completed3(){} // RVA: 0x894350
-    public void Completed4(){} // RVA: 0x894350
-    public void Completed5(){} // RVA: 0x894350
-    public void Completed6(){} // RVA: 0x894350
-    public void Completed7(){} // RVA: 0x894350
-    public void Completed8(){} // RVA: 0x894350
-    public void Completed9(){} // RVA: 0x894350
-    public void Completed10(){} // RVA: 0x894350
-    public void TrySetResult(){} // RVA: 0x87D280
-    public void DisposeAsync(){} // RVA: 0x87BEB0
+    public void GetResultAt(){} // RVA: 0xA94080
+    public void HasQueuedResult(){} // RVA: 0x87D280
+    public void IsCompletedAll(){} // RVA: 0x87D280
     public void .cctor(){} // RVA: 0x8942F0
 }

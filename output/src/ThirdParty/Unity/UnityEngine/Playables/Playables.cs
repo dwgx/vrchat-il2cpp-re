@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 {
     public class DataPlayableOutput : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x96D9C0
         public void GetHandle(){} // RVA: 0x4513B0
@@ -35,6 +37,16 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class FrameData : ValueType
     {
+        public object m_FrameID;
+        public object m_DeltaTime;
+        public object m_Weight;
+        public object m_EffectiveWeight;
+        public object m_EffectiveParentDelay;
+        public object m_EffectiveParentSpeed;
+        public object m_EffectiveSpeed;
+        public object m_Flags;
+        public object m_Output;
+
         // ── Methods ──
         public void HasFlags(){} // RVA: 0x9675E0
         public void get_deltaTime(){} // RVA: 0x9675F0
@@ -49,6 +61,16 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class FrameRate : ValueType
     {
+        public object k_24Fps;
+        public object k_23_976Fps;
+        public object k_25Fps;
+        public object k_30Fps;
+        public object k_29_97Fps;
+        public object k_50Fps;
+        public object k_60Fps;
+        public object k_59_94Fps;
+        public object m_Rate;
+
         // ── Methods ──
         public void get_dropFrame(){} // RVA: 0x8B93C0
         public void get_rate(){} // RVA: 0x967670
@@ -135,6 +157,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class Playable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C2E9E0
         public void Create(){} // RVA: 0x7C2EA50
@@ -214,6 +239,13 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableBinding : ValueType
     {
+        public object m_StreamName;
+        public object m_SourceObject;
+        public object m_SourceBindingType;
+        public object m_CreateOutputMethod;
+        public object None;
+        public object DefaultDuration;
+
         // ── Methods ──
         public void get_sourceObject(){} // RVA: 0x8C0C50
         public void CreateOutput(){} // RVA: 0x967890
@@ -223,6 +255,10 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableDirector : Behaviour
     {
+        public object played;
+        public object paused;
+        public object stopped;
+
         // ── Methods ──
         public void get_state(){} // RVA: 0x7C52190
         public void set_extrapolationMode(){} // RVA: 0x7C52230
@@ -363,6 +399,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableGraph : ValueType
     {
+        public object m_Handle;
+        public object m_Version;
+
         // ── Methods ──
         public void GetRootPlayable(){} // RVA: 0x967A20
         public void Connect(){} // RVA: 0x1FF280
@@ -424,6 +463,10 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableHandle : ValueType
     {
+        public object m_Handle;
+        public object m_Version;
+        public object m_Null;
+
         // ── Methods ──
         public void GetObject(){} // RVA: 0xA94080
         public void IsPlayableOfType(){} // RVA: 0x1FF750
@@ -494,6 +537,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutput : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayableOutput;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C319D0
         public void .ctor(){} // RVA: 0x7BE90
@@ -519,6 +565,10 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableOutputHandle : ValueType
     {
+        public object m_Handle;
+        public object m_Version;
+        public object m_Null;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7C31BE0
         public void IsPlayableOutputOfType(){} // RVA: 0x1FF920
@@ -585,6 +635,10 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class PlayableSystems : Object
     {
+        public object s_SystemTypes;
+        public object s_Delegates;
+        public object s_RWLock;
+
         // ── Methods ──
         public void CombineTypeAndIndex(){} // RVA: 0x7C55070
         public void Internal_CallSystemDelegate(){} // RVA: 0x7C55080
@@ -640,6 +694,8 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayableOutput : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7C32760
         public void .ctor(){} // RVA: 0x968F80
@@ -670,6 +726,9 @@ namespace ThirdParty.Unity.UnityEngine.Playables
 
     public class ScriptPlayable`1 : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0xA94080
         public void Create(){} // RVA: 0xA94080

@@ -7,9 +7,30 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ross
 {
     public class RosstandartObjectIdentifiers : Object
     {
+        public object rosstandart;
+        public object id_tc26;
+        public object id_tc26_gost_3411_12_256;
+        public object id_tc26_gost_3411_12_512;
+        public object id_tc26_hmac_gost_3411_12_256;
+        public object id_tc26_hmac_gost_3411_12_512;
+        public object id_tc26_gost_3410_12_256;
+        public object id_tc26_gost_3410_12_512;
+        public object id_tc26_signwithdigest_gost_3410_12_256;
+        public object id_tc26_signwithdigest_gost_3410_12_512;
+        public object id_tc26_agreement;
+        public object id_tc26_agreement_gost_3410_12_256;
+        public object id_tc26_agreement_gost_3410_12_512;
+        public object id_tc26_gost_3410_12_256_paramSet;
+        public object id_tc26_gost_3410_12_256_paramSetA;
+        public object id_tc26_gost_3410_12_512_paramSet;
+        public object id_tc26_gost_3410_12_512_paramSetA;
+        public object id_tc26_gost_3410_12_512_paramSetB;
+        public object id_tc26_gost_3410_12_512_paramSetC;
+        public object id_tc26_gost_28147_param_Z;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B15AAD30
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA4162E0
     }
 
 }

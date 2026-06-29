@@ -7,69 +7,88 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class AggregateNode : ExpressionNode
     {
+        public object _type;
+        public object _aggregate;
+        public object _local;
+        public object _relationName;
+        public object _columnName;
+        public object _childTable;
+        public object _column;
+        public object _relation;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE501DB0
-        public void Bind(){} // RVA: 0x7AE502530
-        public void Eval(){} // RVA: 0x7AE502A50
-        public void IsConstant(){} // RVA: 0x7A80D7320
-        public void IsTableConstant(){} // RVA: 0x7A81C68D0
-        public void HasLocalAggregate(){} // RVA: 0x7A81C68D0
-        public void HasRemoteAggregate(){} // RVA: 0x7A8522070
-        public void DependsOn(){} // RVA: 0x7AE502AF0
-        public void Optimize(){} // RVA: 0x7A97F8BA0
+        public void .ctor(){} // RVA: 0x717B9A0
+        public void Bind(){} // RVA: 0x717C120
+        public void Eval(){} // RVA: 0x717C640
+        public void IsConstant(){} // RVA: 0xB43320
+        public void IsTableConstant(){} // RVA: 0xC38360
+        public void HasLocalAggregate(){} // RVA: 0xC38360
+        public void HasRemoteAggregate(){} // RVA: 0xFEF690
+        public void DependsOn(){} // RVA: 0x717C6E0
+        public void Optimize(){} // RVA: 0x2303260
     }
 
     public class AutoIncrementBigInteger : AutoIncrementValue
     {
+        public object _current;
+        public object _seed;
+        public object _step;
+
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7AE4B98F0
-        public void set_Current(){} // RVA: 0x7AE4B9940
-        public void get_DataType(){} // RVA: 0x7AE4B9A00
-        public void get_Seed(){} // RVA: 0x7A8105330
-        public void set_Seed(){} // RVA: 0x7AE4B9AB0
-        public void get_Step(){} // RVA: 0x7AE4B9C90
-        public void set_Step(){} // RVA: 0x7AE4B9D00
-        public void MoveAfter(){} // RVA: 0x7AE4BA040
-        public void SetCurrent(){} // RVA: 0x7AE4BA120
-        public void SetCurrentAndIncrement(){} // RVA: 0x7AE4BA190
-        public void BoundaryCheck(){} // RVA: 0x7AE4BA2D0
-        public void .ctor(){} // RVA: 0x7AE4BA5B0
+        public void get_Current(){} // RVA: 0x7134EB0
+        public void set_Current(){} // RVA: 0x7134F00
+        public void get_DataType(){} // RVA: 0x7134FC0
+        public void get_Seed(){} // RVA: 0xB70160
+        public void set_Seed(){} // RVA: 0x7135040
+        public void get_Step(){} // RVA: 0x7135220
+        public void set_Step(){} // RVA: 0x7135290
+        public void MoveAfter(){} // RVA: 0x71355D0
+        public void SetCurrent(){} // RVA: 0x71356B0
+        public void SetCurrentAndIncrement(){} // RVA: 0x7135720
+        public void BoundaryCheck(){} // RVA: 0x7135860
+        public void .ctor(){} // RVA: 0x7135B40
     }
 
     public class AutoIncrementInt64 : AutoIncrementValue
     {
+        public object _current;
+        public object _seed;
+        public object _step;
+
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7AE4B9190
-        public void set_Current(){} // RVA: 0x7AE4B91E0
-        public void get_DataType(){} // RVA: 0x7AE4B9250
-        public void get_Seed(){} // RVA: 0x7A81052C0
-        public void set_Seed(){} // RVA: 0x7AE4B9300
-        public void get_Step(){} // RVA: 0x7A8105330
-        public void set_Step(){} // RVA: 0x7AE4B93A0
-        public void MoveAfter(){} // RVA: 0x7AE4B9430
-        public void SetCurrent(){} // RVA: 0x7AE4B9440
-        public void SetCurrentAndIncrement(){} // RVA: 0x7AE4B94B0
-        public void BoundaryCheck(){} // RVA: 0x7AE4B96B0
-        public void .ctor(){} // RVA: 0x7AE4B98E0
+        public void get_Current(){} // RVA: 0x6D1FC70
+        public void set_Current(){} // RVA: 0x7134870
+        public void get_DataType(){} // RVA: 0x71348B0
+        public void get_Seed(){} // RVA: 0xB700F0
+        public void set_Seed(){} // RVA: 0x7134910
+        public void get_Step(){} // RVA: 0xB70160
+        public void set_Step(){} // RVA: 0x71349B0
+        public void MoveAfter(){} // RVA: 0x7134A40
+        public void SetCurrent(){} // RVA: 0x7134A50
+        public void SetCurrentAndIncrement(){} // RVA: 0x7134AC0
+        public void BoundaryCheck(){} // RVA: 0x7134C70
+        public void .ctor(){} // RVA: 0x7134EA0
     }
 
     public class AutoIncrementValue : Object
     {
+        public object _auto;
+
         // ── Methods ──
-        public void get_Auto(){} // RVA: 0x7A81A2200
-        public void set_Auto(){} // RVA: 0x7A81A2210
-        public void get_Current(){} // RVA: 0x7A7E00680
-        public void set_Current(){} // RVA: 0x7A7E18800
-        public void get_Seed(){} // RVA: 0x7A7E00680
-        public void set_Seed(){} // RVA: 0x7A7E188D0
-        public void get_Step(){} // RVA: 0x7A7E00680
-        public void set_Step(){} // RVA: 0x7A7E188D0
-        public void get_DataType(){} // RVA: 0x7A7E00680
-        public void SetCurrent(){} // RVA: 0x7A7E18890
-        public void SetCurrentAndIncrement(){} // RVA: 0x7A7E18800
-        public void MoveAfter(){} // RVA: 0x7A7E18770
-        public void Clone(){} // RVA: 0x7AE4B9050
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Auto(){} // RVA: 0xC120A0
+        public void set_Auto(){} // RVA: 0xC120B0
+        public void get_Current(){} // RVA: 0x87C0A0
+        public void set_Current(){} // RVA: 0x894320
+        public void get_Seed(){} // RVA: 0x87C0A0
+        public void set_Seed(){} // RVA: 0x8943F0
+        public void get_Step(){} // RVA: 0x87C0A0
+        public void set_Step(){} // RVA: 0x8943F0
+        public void get_DataType(){} // RVA: 0x87C0A0
+        public void SetCurrent(){} // RVA: 0x8943B0
+        public void SetCurrentAndIncrement(){} // RVA: 0x894320
+        public void MoveAfter(){} // RVA: 0x894290
+        public void Clone(){} // RVA: 0x7134730
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

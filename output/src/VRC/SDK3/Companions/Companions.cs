@@ -7,6 +7,8 @@ namespace VRC.SDK3.Companions
 {
     public class VRCCompanionApi : VRCPropApi
     {
+        public object _GetCompanionApi;
+
         // ── Methods ──
         public void TryGetCompanion(){} // RVA: 0xA6B5BF0
         public void SetPlacementMode(){} // RVA: 0x894750

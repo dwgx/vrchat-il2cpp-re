@@ -67,6 +67,10 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXEventAttribute : Object
     {
+        public object m_Ptr;
+        public object m_Owner;
+        public object m_VfxAsset;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8134230
         public void CreateEventAttributeWrapper(){} // RVA: 0x8134290
@@ -103,6 +107,8 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXExpressionValues : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void CreateExpressionValuesWrapper(){} // RVA: 0x8134870
@@ -130,6 +136,8 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXManager : Object
     {
+        public object kDefaultCameraXRSettings;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x81348C0
     }
@@ -156,6 +164,9 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXOutputEventArgs : ValueType
     {
+        public object _nameId;
+        public object _eventAttribute;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
     }
@@ -217,6 +228,10 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VFXSpawnerState : Object
     {
+        public object m_Ptr;
+        public object m_Owner;
+        public object m_WrapEventAttribute;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B52A10
         public void CreateSpawnerStateWrapper(){} // RVA: 0x8134920
@@ -250,6 +265,9 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffect : Behaviour
     {
+        public object m_cachedEventAttribute;
+        public object outputEventReceived;
+
         // ── Methods ──
         public void get_visualEffectAsset(){} // RVA: 0x8134FB0
         public void CreateVFXEventAttribute(){} // RVA: 0x8135070
@@ -260,6 +278,9 @@ namespace ThirdParty.Unity.UnityEngine.VFX
 
     public class VisualEffectAsset : VisualEffectObject
     {
+        public object PlayEventID;
+        public object StopEventID;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8134F20
     }

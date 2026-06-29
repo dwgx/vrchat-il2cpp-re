@@ -7,6 +7,14 @@ namespace ThirdParty.Other.Transmtn.DTO
 {
     public class Location : Object
     {
+        public object _worldId;
+        public object _instance;
+        public object _isOffline;
+        public object _isPrivate;
+        public object _isWeb;
+        public object _isUnauthorized;
+        public object _isTraveling;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7B1A10
         public void get_WorldId(){} // RVA: 0xB5DBF0
@@ -28,6 +36,37 @@ namespace ThirdParty.Other.Transmtn.DTO
 
     public class User : Object
     {
+        public object _id;
+        public object _username;
+        public object _displayName;
+        public object _bio;
+        public object _bioLinks;
+        public object _currentAvatar;
+        public object _currentAvatarImageUrl;
+        public object _currentAvatarThumbnailImageUrl;
+        public object _currentAvatarTags;
+        public object _tags;
+        public object _developerType;
+        public object _last_login;
+        public object _last_activity;
+        public object _last_platform;
+        public object _last_mobile;
+        public object _platform;
+        public object _status;
+        public object _statusDescription;
+        public object _ageVerified;
+        public object _ageVerificationStatus;
+        public object _state;
+        public object _friendKey;
+        public object _allowAvatarCopying;
+        public object _isFriend;
+        public object _friendRequestStatus;
+        public object _location;
+        public object _profilePicOverride;
+        public object _userIcon;
+        public object _fallbackAvatar;
+        public object _pronouns;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7B1E20
         public void get_id(){} // RVA: 0xB5DBF0

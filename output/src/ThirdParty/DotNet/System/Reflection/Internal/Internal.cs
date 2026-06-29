@@ -8,210 +8,257 @@ namespace ThirdParty.DotNet.System.Reflection.Internal
     public class AbstractMemoryBlock : Object
     {
         // ── Methods ──
-        public void get_Pointer(){} // RVA: 0x7A8051B10
-        public void get_Size(){} // RVA: 0x7A7E00710
-        public void GetReader(){} // RVA: 0x7AE0D24C0
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Pointer(){} // RVA: 0xA94080
+        public void get_Size(){} // RVA: 0x87C130
+        public void GetReader(){} // RVA: 0x6D53510
+        public void Dispose(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class CriticalDisposableObject : CriticalFinalizerObject
     {
         // ── Methods ──
-        public void Release(){} // RVA: 0x7A7E18770
-        public void Dispose(){} // RVA: 0x7AE0D23E0
-        public void Finalize(){} // RVA: 0x7AE0D2450
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Release(){} // RVA: 0x894290
+        public void Dispose(){} // RVA: 0x6D53430
+        public void Finalize(){} // RVA: 0x6D534A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class EmptyArray`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class EncodingHelper : Object
     {
+        public object s_pool;
+        public object s_getStringPlatform;
+
         // ── Methods ──
-        public void DecodeUtf8(){} // RVA: 0x7AE0D3DD0
-        public void DecodeUtf8Prefixed(){} // RVA: 0x7AE0D3EB0
-        public void AcquireBuffer(){} // RVA: 0x7AE0D4110
-        public void ReleaseBuffer(){} // RVA: 0x7AE0D41C0
-        public void LoadGetStringPlatform(){} // RVA: 0x7AE0D4260
-        public void GetStringUsingCreateStringFromEncoding(){} // RVA: 0x7AE0D4A60
-        public void .cctor(){} // RVA: 0x7AE0D4B30
+        public void DecodeUtf8(){} // RVA: 0x6D54E20
+        public void DecodeUtf8Prefixed(){} // RVA: 0x6D54EF0
+        public void AcquireBuffer(){} // RVA: 0x6D55140
+        public void ReleaseBuffer(){} // RVA: 0x6D551F0
+        public void LoadGetStringPlatform(){} // RVA: 0x6D55290
+        public void GetStringUsingCreateStringFromEncoding(){} // RVA: 0x6D55A80
+        public void .cctor(){} // RVA: 0x6D55B50
     }
 
     public class ExternalMemoryBlock : AbstractMemoryBlock
     {
+        public object _memoryOwner;
+        public object _buffer;
+        public object _size;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D2540
-        public void Dispose(){} // RVA: 0x7AE0D25B0
-        public void get_Pointer(){} // RVA: 0x7A80DA7B0
-        public void get_Size(){} // RVA: 0x7A851DB90
+        public void .ctor(){} // RVA: 0x6D53590
+        public void Dispose(){} // RVA: 0x6D53600
+        public void get_Pointer(){} // RVA: 0xB465B0
+        public void get_Size(){} // RVA: 0xFEAE90
     }
 
     public class ExternalMemoryBlockProvider : MemoryBlockProvider
     {
+        public object _memory;
+        public object _size;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9725F90
-        public void get_Size(){} // RVA: 0x7A83782A0
-        public void GetMemoryBlockImpl(){} // RVA: 0x7AE0D25C0
-        public void GetStream(){} // RVA: 0x7AE0D2690
-        public void Dispose(){} // RVA: 0x7AE0D27F0
+        public void .ctor(){} // RVA: 0x2232610
+        public void get_Size(){} // RVA: 0xE62D00
+        public void GetMemoryBlockImpl(){} // RVA: 0x6D53610
+        public void GetStream(){} // RVA: 0x6D536E0
+        public void Dispose(){} // RVA: 0x6D53840
     }
 
     public class FileStreamReadLightUp : Object
     {
+        public object readFileNotAvailable;
+
         // ── Methods ──
-        public void IsFileStream(){} // RVA: 0x7AE0D50D0
-        public void GetSafeFileHandle(){} // RVA: 0x7AE0D5150
-        public void TryReadFile(){} // RVA: 0x7AE0D5210
-        public void .cctor(){} // RVA: 0x7AE0D5380
+        public void IsFileStream(){} // RVA: 0x6D560F0
+        public void GetSafeFileHandle(){} // RVA: 0x6D56170
+        public void TryReadFile(){} // RVA: 0x6D56230
+        public void .cctor(){} // RVA: 0x6D563A0
     }
 
     public class Hash : Object
     {
         // ── Methods ──
-        public void Combine(){} // RVA: 0x7AE0D5400
+        public void Combine(){} // RVA: 0x6D56420
     }
 
     public class ImmutableByteArrayInterop : Object
     {
         // ── Methods ──
-        public void DangerousCreateFromUnderlyingArray(){} // RVA: 0x7AE0D5410
+        public void DangerousCreateFromUnderlyingArray(){} // RVA: 0x6D56430
     }
 
     public class LightUpHelper : Object
     {
         // ── Methods ──
-        public void GetMethod(){} // RVA: 0x7AE0D54E0
+        public void GetMethod(){} // RVA: 0x6D56500
     }
 
     public class MemoryBlock : ValueType
     {
+        public object Pointer;
+        public object Length;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7670970
-        public void CreateChecked(){} // RVA: 0x7AE0D55C0
-        public void CheckBounds(){} // RVA: 0x7A7E6D6B0
-        public void GetMemoryBlockAt(){} // RVA: 0x7A7E6D6E0
-        public void PeekByte(){} // RVA: 0x7A7E6D730
-        public void PeekUInt32(){} // RVA: 0x7A7E6D760
-        public void PeekCompressedInteger(){} // RVA: 0x7A7E6D7B0
-        public void PeekUInt16(){} // RVA: 0x7A7E6D7C0
-        public void PeekReferenceUnchecked(){} // RVA: 0x7A7E6D800
-        public void PeekReference(){} // RVA: 0x7A7E6D810
-        public void PeekHeapReference(){} // RVA: 0x7A7E6D820
-        public void PeekUtf8(){} // RVA: 0x7A7E6D830
-        public void PeekUtf8NullTerminated(){} // RVA: 0x7A7E6D840
-        public void GetUtf8NullTerminatedLength(){} // RVA: 0x7A7E6D860
-        public void CompareUtf8NullTerminatedStringWithAsciiString(){} // RVA: 0x7A7E6D8C0
-        public void PeekBytes(){} // RVA: 0x7A7E6D8D0
-        public void IsOrderedByReferenceAscending(){} // RVA: 0x7A7E6D8E0
-        public void BuildPtrTable(){} // RVA: 0x7A7E6D8F0
-        public void ReadColumn(){} // RVA: 0x7A7E6D910
-        public void PeekHeapValueOffsetAndSize(){} // RVA: 0x7A7E6D9F0
+        public void .ctor(){} // RVA: 0x856B0
+        public void CreateChecked(){} // RVA: 0x6D565C0
+        public void CheckBounds(){} // RVA: 0x8EC570
+        public void GetMemoryBlockAt(){} // RVA: 0x8EC5A0
+        public void PeekByte(){} // RVA: 0x8EC5F0
+        public void PeekUInt32(){} // RVA: 0x8EC620
+        public void PeekCompressedInteger(){} // RVA: 0x8EC670
+        public void PeekUInt16(){} // RVA: 0x8EC680
+        public void PeekReferenceUnchecked(){} // RVA: 0x8EC6C0
+        public void PeekReference(){} // RVA: 0x8EC6D0
+        public void PeekHeapReference(){} // RVA: 0x8EC6E0
+        public void PeekUtf8(){} // RVA: 0x8EC6F0
+        public void PeekUtf8NullTerminated(){} // RVA: 0x8EC700
+        public void GetUtf8NullTerminatedLength(){} // RVA: 0x8EC720
+        public void CompareUtf8NullTerminatedStringWithAsciiString(){} // RVA: 0x8EC780
+        public void PeekBytes(){} // RVA: 0x8EC790
+        public void IsOrderedByReferenceAscending(){} // RVA: 0x8EC7A0
+        public void BuildPtrTable(){} // RVA: 0x8EC7B0
+        public void ReadColumn(){} // RVA: 0x8EC7D0
+        public void PeekHeapValueOffsetAndSize(){} // RVA: 0x8EC8B0
     }
 
     public class MemoryBlockProvider : Object
     {
         // ── Methods ──
-        public void GetMemoryBlock(){} // RVA: 0x7AE0D2800
-        public void GetMemoryBlockImpl(){} // RVA: 0x7A7E10B10
-        public void GetStream(){} // RVA: 0x7A7E00B20
-        public void get_Size(){} // RVA: 0x7A7E00710
-        public void Dispose(){} // RVA: 0x7AE0D2870
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetMemoryBlock(){} // RVA: 0x6D53850
+        public void GetMemoryBlockImpl(){} // RVA: 0x88C530
+        public void GetStream(){} // RVA: 0x87C540
+        public void get_Size(){} // RVA: 0x87C130
+        public void Dispose(){} // RVA: 0x6D538C0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MemoryMapLightUp : Object
     {
         // ── Methods ──
-        public void get_IsAvailable(){} // RVA: 0x7A81BD750
-        public void CreateMemoryMap(){} // RVA: 0x7AE0D64C0
-        public void CreateViewAccessor(){} // RVA: 0x7AE0D6560
-        public void TryGetSafeBufferAndPointerOffset(){} // RVA: 0x7AE0D6680
+        public void get_IsAvailable(){} // RVA: 0xC2E4C0
+        public void CreateMemoryMap(){} // RVA: 0x6D574B0
+        public void CreateViewAccessor(){} // RVA: 0x6D57550
+        public void TryGetSafeBufferAndPointerOffset(){} // RVA: 0x6D57670
     }
 
     public class MemoryMappedFileBlock : AbstractMemoryBlock
     {
+        public object _data;
+        public object _size;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D28E0
-        public void Dispose(){} // RVA: 0x7AE0D29D0
-        public void get_Pointer(){} // RVA: 0x7A88F38D0
-        public void get_Size(){} // RVA: 0x7A83782A0
+        public void .ctor(){} // RVA: 0x6D53930
+        public void Dispose(){} // RVA: 0x6D53A20
+        public void get_Pointer(){} // RVA: 0x13F92B0
+        public void get_Size(){} // RVA: 0xE62D00
     }
 
     public class NativeHeapMemoryBlock : AbstractMemoryBlock
     {
+        public object _data;
+        public object _size;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D2E40
-        public void Dispose(){} // RVA: 0x7AE0D29D0
-        public void get_Pointer(){} // RVA: 0x7A88F4180
-        public void get_Size(){} // RVA: 0x7A83782A0
+        public void .ctor(){} // RVA: 0x6D53E90
+        public void Dispose(){} // RVA: 0x6D53A20
+        public void get_Pointer(){} // RVA: 0x13F9340
+        public void get_Size(){} // RVA: 0xE62D00
     }
 
     public class ObjectPool`1 : Object
     {
+        public object _items;
+        public object _factory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1D590
-        public void CreateInstance(){} // RVA: 0x7A8051B10
-        public void Allocate(){} // RVA: 0x7A8051B10
-        public void Free(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x899290
+        public void CreateInstance(){} // RVA: 0xA94080
+        public void Allocate(){} // RVA: 0xA94080
+        public void Free(){} // RVA: 0xA94080
     }
 
     public class PooledStringBuilder : Object
     {
+        public object Builder;
+        public object _pool;
+        public object s_poolInstance;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D67C0
-        public void Free(){} // RVA: 0x7AE0D68D0
-        public void ToStringAndFree(){} // RVA: 0x7AE0D6950
-        public void CreatePool(){} // RVA: 0x7AE0D6A00
-        public void GetInstance(){} // RVA: 0x7AE0D6BC0
-        public void .cctor(){} // RVA: 0x7AE0D6C40
+        public void .ctor(){} // RVA: 0x6D577B0
+        public void Free(){} // RVA: 0x6D578C0
+        public void ToStringAndFree(){} // RVA: 0x6D57940
+        public void CreatePool(){} // RVA: 0x6D579F0
+        public void GetInstance(){} // RVA: 0x6D57BB0
+        public void .cctor(){} // RVA: 0x6D57C30
     }
 
     public class ReadOnlyUnmanagedMemoryStream : Stream
     {
+        public object _data;
+        public object _length;
+        public object _position;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D6FD0
-        public void ReadByte(){} // RVA: 0x7AE0D7040
-        public void Read(){} // RVA: 0x7AE0D7070
-        public void Flush(){} // RVA: 0x7A80D7310
-        public void get_CanRead(){} // RVA: 0x7A81BD750
-        public void get_CanSeek(){} // RVA: 0x7A81BD750
-        public void get_CanWrite(){} // RVA: 0x7A80D7320
-        public void get_Length(){} // RVA: 0x7AE0D7140
-        public void get_Position(){} // RVA: 0x7AE0D7150
-        public void set_Position(){} // RVA: 0x7AE0D7160
-        public void Seek(){} // RVA: 0x7AE0D7180
-        public void SetLength(){} // RVA: 0x7AE0D7380
-        public void Write(){} // RVA: 0x7AE0D73C0
+        public void .ctor(){} // RVA: 0x6D57FC0
+        public void ReadByte(){} // RVA: 0x6D58030
+        public void Read(){} // RVA: 0x6D58060
+        public void Flush(){} // RVA: 0xB43310
+        public void get_CanRead(){} // RVA: 0xC2E4C0
+        public void get_CanSeek(){} // RVA: 0xC2E4C0
+        public void get_CanWrite(){} // RVA: 0xB43320
+        public void get_Length(){} // RVA: 0x6D58130
+        public void get_Position(){} // RVA: 0x6D58140
+        public void set_Position(){} // RVA: 0x6D58150
+        public void Seek(){} // RVA: 0x6D58170
+        public void SetLength(){} // RVA: 0x6D58370
+        public void Write(){} // RVA: 0x6D583B0
     }
 
     public class StreamConstraints : ValueType
     {
+        public object GuardOpt;
+        public object ImageStart;
+        public object ImageSize;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E6D4D0
+        public void .ctor(){} // RVA: 0x8EC2F0
     }
 
     public class StreamExtensions : Object
     {
         // ── Methods ──
-        public void CopyTo(){} // RVA: 0x7AE0D7400
-        public void GetAndValidateSize(){} // RVA: 0x7AE0D75C0
+        public void CopyTo(){} // RVA: 0x6D583F0
+        public void GetAndValidateSize(){} // RVA: 0x6D585B0
     }
 
     public class StreamMemoryBlockProvider : MemoryBlockProvider
     {
+        public object _stream;
+        public object _streamGuard;
+        public object _leaveOpen;
+        public object _useMemoryMap;
+        public object _isFileStream;
+        public object _imageStart;
+        public object _imageSize;
+        public object _lazyMemoryMap;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D3150
-        public void Dispose(){} // RVA: 0x7AE0D3280
-        public void get_Size(){} // RVA: 0x7A8133100
-        public void ReadMemoryBlockNoLock(){} // RVA: 0x7AE0D3340
-        public void GetMemoryBlockImpl(){} // RVA: 0x7AE0D35C0
-        public void GetStream(){} // RVA: 0x7AE0D3780
-        public void TryCreateMemoryMappedFileBlock(){} // RVA: 0x7AE0D3870
+        public void .ctor(){} // RVA: 0x6D541A0
+        public void Dispose(){} // RVA: 0x6D542D0
+        public void get_Size(){} // RVA: 0xB9E080
+        public void ReadMemoryBlockNoLock(){} // RVA: 0x6D54390
+        public void GetMemoryBlockImpl(){} // RVA: 0x6D54610
+        public void GetStream(){} // RVA: 0x6D547D0
+        public void TryCreateMemoryMappedFileBlock(){} // RVA: 0x6D548C0
     }
 
 }

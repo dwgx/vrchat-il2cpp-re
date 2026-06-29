@@ -7,6 +7,13 @@ namespace ThirdParty.Other.Features.Sharing
 {
     public class SharableContentData : Object
     {
+        public object _pendingSave;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object _resetSequence;
+
         // ── Methods ──
         public void set_Content(){} // RVA: 0xB70100
         public void .ctor(){} // RVA: 0xB43310

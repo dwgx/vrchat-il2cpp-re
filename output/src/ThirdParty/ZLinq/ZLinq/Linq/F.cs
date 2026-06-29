@@ -7,6 +7,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetSource(){} // RVA: 0x87C0A0
@@ -19,6 +22,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -31,30 +37,19 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
-        public void TryGetSpan(){} // RVA: 0x2AA3E0
-        public void TryCopyTo(){} // RVA: 0x2AA580
-        public void TryGetNext(){} // RVA: 0x2AA5A0
-        public void Dispose(){} // RVA: 0x3FC0
+        public void .ctor(){} // RVA: 0x2A0220
     }
 
     public class FromArray`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
-        public void TryGetSpan(){} // RVA: 0x2AA3E0
-        public void TryCopyTo(){} // RVA: 0x2AA580
-        public void TryGetNext(){} // RVA: 0x2AA5A0
-        public void Dispose(){} // RVA: 0x3FC0
-    }
+        public object <source>P;
+        public object index;
 
-    public class FromArray`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -62,6 +57,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -74,6 +72,24 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
+        public void TryGetSpan(){} // RVA: 0x2AA3E0
+        public void TryCopyTo(){} // RVA: 0x2AA580
+        public void TryGetNext(){} // RVA: 0x2AA5A0
+        public void Dispose(){} // RVA: 0x3FC0
+    }
+
+    public class FromArray`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -81,6 +97,24 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
+        public void TryGetSpan(){} // RVA: 0x2AA3E0
+        public void TryCopyTo(){} // RVA: 0x2AA580
+        public void TryGetNext(){} // RVA: 0x2AA5A0
+        public void Dispose(){} // RVA: 0x3FC0
+    }
+
+    public class FromArray`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -88,6 +122,19 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromArray`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+    }
+
+    public class FromArray`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -98,22 +145,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public void Dispose(){} // RVA: 0x3FC0
     }
 
-    public class FromArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-    }
-
-    public class FromArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-    }
-
     public class FromEnumerableContent : ValueType
     {
+        public object Source;
+        public object Index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9980C0
         public void ThrowIfNoEnumerable(){} // RVA: 0xA79F30
@@ -122,6 +158,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetSource(){} // RVA: 0x87C0A0
@@ -134,6 +173,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -146,6 +188,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -158,6 +203,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -170,6 +218,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -182,6 +233,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -194,6 +248,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -206,6 +263,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -218,6 +278,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -230,6 +293,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -242,6 +308,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -254,6 +323,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -266,6 +338,114 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAC40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AABE0
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAEE0
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -278,6 +458,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -290,6 +473,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -302,6 +488,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -314,6 +503,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -326,6 +518,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -338,18 +533,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
+        public object iterator;
+        public object content;
 
-    public class FromEnumerable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -362,18 +548,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
+        public object iterator;
+        public object content;
 
-    public class FromEnumerable`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -386,6 +563,54 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromEnumerable`1 : ValueType
     {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2AA830
+        public void GetSource(){} // RVA: 0x2AA840
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
+        public void TryGetSpan(){} // RVA: 0x2AA8B0
+        public void TryCopyTo(){} // RVA: 0x2AA900
+        public void TryGetNext(){} // RVA: 0x2AA960
+        public void Dispose(){} // RVA: 0x2AAF40
+    }
+
+    public class FromEnumerable`1 : ValueType
+    {
+        public object iterator;
+        public object content;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2AA830
         public void GetSource(){} // RVA: 0x2AA840
@@ -396,80 +621,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public void Dispose(){} // RVA: 0x2AABE0
     }
 
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
-
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
-
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
-
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAF40
-    }
-
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AABE0
-    }
-
-    public class FromEnumerable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AA830
-        public void GetSource(){} // RVA: 0x2AA840
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA860
-        public void TryGetSpan(){} // RVA: 0x2AA8B0
-        public void TryCopyTo(){} // RVA: 0x2AA900
-        public void TryGetNext(){} // RVA: 0x2AA960
-        public void Dispose(){} // RVA: 0x2AAEE0
-    }
-
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -477,13 +633,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-    }
+        public object <source>P;
+        public object index;
 
-    public class FromList`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -496,6 +648,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -503,18 +658,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
-        public void TryGetSpan(){} // RVA: 0x2AB940
-        public void TryCopyTo(){} // RVA: 0x2AB950
-        public void TryGetNext(){} // RVA: 0x2AB970
-        public void Dispose(){} // RVA: 0x3FC0
-    }
+        public object <source>P;
+        public object index;
 
-    public class FromList`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -527,6 +673,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -539,6 +688,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -546,6 +698,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -553,37 +708,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
-        public void TryGetSpan(){} // RVA: 0x2AB940
-        public void TryCopyTo(){} // RVA: 0x2AB950
-        public void TryGetNext(){} // RVA: 0x2AB970
-        public void Dispose(){} // RVA: 0x3FC0
-    }
+        public object <source>P;
+        public object index;
 
-    public class FromList`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
-        public void TryGetSpan(){} // RVA: 0x2AB940
-        public void TryCopyTo(){} // RVA: 0x2AB950
-        public void TryGetNext(){} // RVA: 0x2AB970
-        public void Dispose(){} // RVA: 0x3FC0
-    }
-
-    public class FromList`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-    }
-
-    public class FromList`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -596,6 +723,29 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+    }
+
+    public class FromList`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+    }
+
+    public class FromList`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -608,6 +758,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -620,6 +773,24 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AB1E0
+        public void TryGetSpan(){} // RVA: 0x2AB940
+        public void TryCopyTo(){} // RVA: 0x2AB950
+        public void TryGetNext(){} // RVA: 0x2AB970
+        public void Dispose(){} // RVA: 0x3FC0
+    }
+
+    public class FromList`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetSource(){} // RVA: 0x87C0A0
@@ -632,6 +803,19 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2A0220
+        public void GetSource(){} // RVA: 0x77900
+    }
+
+    public class FromList`1 : ValueType
+    {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -644,13 +828,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromList`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2A0220
-        public void GetSource(){} // RVA: 0x77900
-    }
+        public object <source>P;
+        public object index;
 
-    public class FromList`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2A0220
         public void GetSource(){} // RVA: 0x77900
@@ -663,6 +843,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromMemory`1 : ValueType
     {
+        public object <source>P;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -674,6 +857,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class FromRange : ValueType
     {
+        public object count;
+        public object start;
+        public object to;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA79F50
         public void TryGetNonEnumeratedCount(){} // RVA: 0x4868A0

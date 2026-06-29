@@ -8,23 +8,29 @@ namespace ThirdParty.Other.Internal.Cryptography
     public class Helpers : Object
     {
         // ── Methods ──
-        public void CloneByteArray(){} // RVA: 0x7ADA11890
-        public void GenerateRandom(){} // RVA: 0x7ADA11910
-        public void WriteInt(){} // RVA: 0x7ADA11A00
-        public void ToHexArrayUpper(){} // RVA: 0x7ADA11A70
-        public void ToHexStringUpper(){} // RVA: 0x7ADA11B60
-        public void NibbleToHex(){} // RVA: 0x7ADA11B80
+        public void CloneByteArray(){} // RVA: 0x669C2E0
+        public void GenerateRandom(){} // RVA: 0x669C360
+        public void WriteInt(){} // RVA: 0x669C450
+        public void ToHexArrayUpper(){} // RVA: 0x669C4C0
+        public void ToHexStringUpper(){} // RVA: 0x669C5B0
+        public void NibbleToHex(){} // RVA: 0x669C5D0
     }
 
     public class OidLookup : Object
     {
+        public object s_lateBoundOidToFriendlyName;
+        public object s_lateBoundFriendlyNameToOid;
+        public object s_friendlyNameToOid;
+        public object s_oidToFriendlyName;
+        public object s_compatOids;
+
         // ── Methods ──
-        public void ToFriendlyName(){} // RVA: 0x7AE9D7000
-        public void ToOid(){} // RVA: 0x7AE9D72E0
-        public void ShouldUseCache(){} // RVA: 0x7A81BD750
-        public void NativeOidToFriendlyName(){} // RVA: 0x7AE9D7590
-        public void NativeFriendlyNameToOid(){} // RVA: 0x7AE9D7B30
-        public void .cctor(){} // RVA: 0x7AE9D80D0
+        public void ToFriendlyName(){} // RVA: 0x7649140
+        public void ToOid(){} // RVA: 0x7649420
+        public void ShouldUseCache(){} // RVA: 0xC2E4C0
+        public void NativeOidToFriendlyName(){} // RVA: 0x76496D0
+        public void NativeFriendlyNameToOid(){} // RVA: 0x7649C70
+        public void .cctor(){} // RVA: 0x764A210
     }
 
 }

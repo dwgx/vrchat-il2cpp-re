@@ -7,6 +7,9 @@ namespace VRC.Localization
 {
     public class LocalizableOptionData : ValueType
     {
+        public object _localizableText;
+        public object _image;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x8C700
         public void .ctor(){} // RVA: 0xA4F9C0
@@ -41,6 +44,14 @@ namespace VRC.Localization
 
     public class LocalizableString : ValueType
     {
+        public object VARIANT_KEY_SEPARATOR;
+        public object _localizationKey;
+        public object _fallbackText;
+        public object _arg0;
+        public object _arg1;
+        public object _arg2;
+        public object Empty;
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x651B6A0
         public void op_Inequality(){} // RVA: 0x651B730
@@ -74,6 +85,8 @@ namespace VRC.Localization
 
     public class LocalizableStringFormatter : Object
     {
+        public object _formattedStringBuilders;
+
         // ── Methods ──
         public void GetStringBuilder(){} // RVA: 0x651CB00
         public void PutStringBuilder(){} // RVA: 0x651CCC0
@@ -103,6 +116,8 @@ namespace VRC.Localization
 
     public class LocalizationAssetParser : Object
     {
+        public object TMPBuilder;
+
         // ── Methods ──
         public void SeparateCSVDataIntoFilesPerLanguage(){} // RVA: 0x6510240
         public void SplitCsvLine(){} // RVA: 0x65108F0
@@ -113,6 +128,18 @@ namespace VRC.Localization
 
     public class LocalizationAssetSource : Object
     {
+        public object BASE_FOLDER_NAME;
+        public object LANGUAGES_FILE_NAME;
+        public object KEYS_FILE_NAME;
+        public object IDS_FILE_NAME;
+        public object CLIENT_STRINGS_GROUP;
+        public object API_CONSUMER_STRINGS_GROUP;
+        public object DYNAMIC_CONTENT_STRINGS_GROUP;
+        public object DEFAULT_GROUPS;
+        public object _iD;
+        public object _folderPath;
+        public object _groups;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6511830
         public void get_ID(){} // RVA: 0xB5DBF0
@@ -150,6 +177,18 @@ namespace VRC.Localization
 
     public class LocalizationDatabase : Object
     {
+        public object DEFAULT_LANGUAGE;
+        public object _currentLanguageDictionary;
+        public object _languages;
+        public object _invalidKeysCache;
+        public object _richTextTags;
+        public object _loadedAssetSources;
+        public object TMPBuilder;
+        public object _instance;
+        public object _timestamp;
+        public object _currentLanguage;
+        public object _isRTL;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6513170
         public void set_Instance(){} // RVA: 0x65131B0
@@ -183,6 +222,17 @@ namespace VRC.Localization
 
     public class LocalizationManager : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C0;
+        public object f_2F8;
+        public object f_0D5;
+        public object f_76F;
+        public object f_C06;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2522140
         public void Equals(){} // RVA: 0xD16660
@@ -240,6 +290,8 @@ namespace VRC.Localization
 
     public class ResourcesLocalizationAssetSource : LocalizationAssetSource
     {
+        public object BaseFolder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6511B00
         public void GetAvailableLanguagesFile(){} // RVA: 0x6511D90

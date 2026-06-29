@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class HableCurve : Object
     {
+        public object _whitePoint;
+        public object _inverseWhitePoint;
+        public object _x0;
+        public object _x1;
+        public object m_Segments;
+        public object uniforms;
+
         // ── Methods ──
         public void get_whitePoint(){} // RVA: 0xC763E0
         public void set_whitePoint(){} // RVA: 0xC763F0
@@ -33,6 +40,14 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class HistogramMonitor : Monitor
     {
+        public object width;
+        public object height;
+        public object channel;
+        public object m_Data;
+        public object k_NumBins;
+        public object k_ThreadGroupSizeX;
+        public object k_ThreadGroupSizeY;
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7979810
         public void NeedsHalfRes(){} // RVA: 0xC2E4C0

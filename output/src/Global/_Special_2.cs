@@ -5,6 +5,11 @@
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__18_0;
+    public object <>9__19_0;
+    public object <>9__21_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x209F870
     public void Equals(){} // RVA: 0x209F870
@@ -22,6 +27,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__12_0;
+
     // ── Methods ──
     public void OpImplicit(){} // RVA: 0x20ADD00
     public void Equals(){} // RVA: 0x20ADDD0
@@ -38,6 +46,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__25_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x20F69C0
     public void op_Implicit(){} // RVA: 0x20F6A80
@@ -54,6 +65,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x210B9D0
     public void ToString(){} // RVA: 0x210BB10
@@ -69,6 +83,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__14_0;
+    public object <>9__14_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2117B50
     public void op_Implicit(){} // RVA: 0x2117B50
@@ -86,6 +104,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__31_7;
+    public object <>9__31_3;
+    public object <>9__32_0;
+
     // ── Methods ──
     public void CompareBaseObjects(){} // RVA: 0x1CFFC80
     public void Equals(){} // RVA: 0x1CFFC80
@@ -102,6 +125,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__4_0;
+
     // ── Methods ──
     public void GetLast(){} // RVA: 0x21302A0
     public void Equals(){} // RVA: 0x2130350
@@ -115,6 +141,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__83_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x216C000
     public void Equals(){} // RVA: 0x216C0B0
@@ -128,6 +157,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__8_1;
+    public object <>9__8_2;
+    public object <>9__8_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void .cctor(){} // RVA: 0x2176660
@@ -143,6 +177,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__17_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2177E10
     public void .ctor(){} // RVA: 0xB43310
@@ -158,6 +195,17 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__40_0;
+    public object <>9__46_0;
+    public object <>9__46_1;
+    public object <>9__54_0;
+    public object <>9__54_3;
+    public object <>9__54_4;
+    public object <>9__54_5;
+    public object <>9__54_6;
+    public object <>9__54_2;
+
     // ── Methods ──
     public void GetHashCode(){} // RVA: 0xF41D30
     public void Equals(){} // RVA: 0xF41D30
@@ -182,6 +230,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_2;
+    public object <>9__9_0;
+    public object <>9__9_1;
+
     // ── Methods ──
     public void GetHashCode(){} // RVA: 0x2181A60
     public void .cctor(){} // RVA: 0x2182000
@@ -197,6 +250,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_2;
+    public object <>9__9_0;
+    public object <>9__9_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2183E30
     public void op_Implicit(){} // RVA: 0xF41D30
@@ -215,6 +273,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__25_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xF41D30
     public void Initialize(){} // RVA: 0xF41D30
@@ -230,6 +291,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Initialize(){} // RVA: 0x2187820
@@ -244,6 +308,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__23_0;
+    public object <>9__24_0;
+    public object <>9__30_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xF41D30
     public void Equals(){} // RVA: 0xF41D30
@@ -262,6 +331,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__13_0;
+
     // ── Methods ──
     public void OnDestroy(){} // RVA: 0x21A3350
     public void Equals(){} // RVA: 0x21A3420
@@ -278,6 +350,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__19_0;
+
     // ── Methods ──
     public void op_Implicit(){} // RVA: 0x21BE3B0
     public void ProcessPropertyChanges(){} // RVA: 0x21BE400
@@ -293,6 +368,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__2_0;
+    public object <>9__2_1;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x21C14E0
     public void Equals(){} // RVA: 0x21C15D0
@@ -308,6 +387,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+
     // ── Methods ──
     public void StoreResolvedObject(){} // RVA: 0x21D1C10
     public void ToString(){} // RVA: 0x21D1D50
@@ -323,6 +405,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__19_0;
+    public object <>9__19_1;
+    public object <>9__19_2;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x21DA290
     public void Equals(){} // RVA: 0x21DA2E0
@@ -341,6 +428,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xDAC980
     public void GetGameObject(){} // RVA: 0xDAC980
@@ -357,6 +446,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__10_0;
+    public object <>9__11_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2204670
     public void CompareBaseObjects_45ECA90DF710(){} // RVA: 0x22047E0
@@ -374,6 +467,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__2_1;
+    public object <>9__4_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x221A0A0
     public void Equals(){} // RVA: 0x221A260
@@ -388,6 +485,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2231AC0
     public void .ctor(){} // RVA: 0xB43310
@@ -402,6 +501,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__13_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x1FFC880
     public void GetHashCode(){} // RVA: 0x1FFC880
@@ -415,6 +517,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x1FFC880
     public void Equals(){} // RVA: 0x1FFC880
@@ -431,6 +536,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__33_0;
+    public object <>9__48_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CompareBaseObjects(){} // RVA: 0x223E550
@@ -448,6 +557,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__39_3;
+    public object <>9__39_1;
+    public object <>9__39_2;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2248190
     public void LateUpdate(){} // RVA: 0x118FDC0
@@ -466,6 +580,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__13_0;
+    public object <>9__15_0;
+
     // ── Methods ──
     public void InverseTransformPointToLocal(){} // RVA: 0x22501E0
     public void Equals(){} // RVA: 0x2250280
@@ -480,6 +598,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x2282410
     public void get_name(){} // RVA: 0x22824B0
@@ -496,6 +617,15 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__42_0;
+    public object <>9__42_1;
+    public object <>9__42_2;
+    public object <>9__42_3;
+    public object <>9__42_4;
+    public object <>9__44_0;
+    public object <>9__44_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2287D30
     public void Equals(){} // RVA: 0x22824B0
@@ -515,6 +645,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2291CF0
     public void Equals(){} // RVA: 0x2291DA0
@@ -528,6 +661,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__12_0;
+    public object <>9__13_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void .cctor(){} // RVA: 0x2297C80
@@ -543,6 +680,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x229C5D0
     public void Equals(){} // RVA: 0x229C670
@@ -558,6 +698,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__19_0;
+    public object <>9__19_1;
+    public object <>9__19_2;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x229DFE0
     public void Instantiate(){} // RVA: 0x229E090
@@ -576,6 +721,16 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__58_0;
+    public object <>9__58_1;
+    public object <>9__58_2;
+    public object <>9__58_3;
+    public object <>9__58_4;
+    public object <>9__58_5;
+    public object <>9__58_6;
+    public object <>9__58_7;
+
     // ── Methods ──
     public void DestroyImmediate(){} // RVA: 0x22A62E0
     public void Equals(){} // RVA: 0x22A6390
@@ -599,6 +754,16 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__45_0;
+    public object <>9__45_1;
+    public object <>9__45_2;
+    public object <>9__45_3;
+    public object <>9__45_4;
+    public object <>9__45_5;
+    public object <>9__47_0;
+    public object <>9__47_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x22B3200
     public void Equals(){} // RVA: 0x22B32B0
@@ -619,6 +784,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x22BE380
     public void Equals(){} // RVA: 0x22824B0
@@ -632,6 +800,14 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__34_0;
+    public object <>9__34_1;
+    public object <>9__34_2;
+    public object <>9__34_3;
+    public object <>9__35_0;
+    public object <>9__35_1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Instantiate(){} // RVA: 0x22C37A0
@@ -651,6 +827,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__15_0;
+    public object <>9__17_0;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x22CC730
     public void .ctor(){} // RVA: 0xB43310
@@ -667,6 +847,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__22_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x22D6570
     public void Initialize_231A72D2173A(){} // RVA: 0x22D6700
@@ -681,6 +864,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__130_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x22E7F10
     public void set_name(){} // RVA: 0x22E7FB0
@@ -695,6 +881,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__8_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2348A30
     public void Equals(){} // RVA: 0x2348A80
@@ -709,6 +898,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__2_0;
+    public object <>9__19_0;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x238D7D0
     public void Instantiate(){} // RVA: 0x238D860
@@ -725,6 +918,20 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__10_0;
+    public object <>9__10_1;
+    public object <>9__10_2;
+    public object <>9__10_3;
+    public object <>9__10_4;
+    public object <>9__10_5;
+    public object <>9__10_6;
+    public object <>9__10_7;
+    public object <>9__10_8;
+    public object <>9__10_9;
+    public object <>9__10_10;
+    public object <>9__10_11;
+
     // ── Methods ──
     public void DoTransformPointInjected(){} // RVA: 0x23919F0
     public void .cctor(){} // RVA: 0x2391B80
@@ -749,6 +956,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__142_0;
+    public object <>9__142_1;
+
     // ── Methods ──
     public void ProcessFindObjectsDestroyData(){} // RVA: 0x23D8B90
     public void Equals(){} // RVA: 0x23D8BE0
@@ -766,6 +977,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+
     // ── Methods ──
     public void CheckServiceStatus(){} // RVA: 0x23DBCF0
     public void Initialize(){} // RVA: 0x23DBCF0
@@ -780,6 +994,33 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__25_0;
+    public object <>9__26_0;
+    public object <>9__26_1;
+    public object <>9__26_2;
+    public object <>9__26_3;
+    public object <>9__26_4;
+    public object <>9__26_5;
+    public object <>9__26_6;
+    public object <>9__26_7;
+    public object <>9__26_8;
+    public object <>9__27_0;
+    public object <>9__27_1;
+    public object <>9__27_2;
+    public object <>9__27_3;
+    public object <>9__27_4;
+    public object <>9__27_5;
+    public object <>9__27_6;
+    public object <>9__27_7;
+    public object <>9__27_8;
+    public object <>9__27_9;
+    public object <>9__27_10;
+    public object <>9__27_11;
+    public object <>9__32_0;
+    public object <>9__33_0;
+    public object <>9__34_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x23FBF80
     public void get_name(){} // RVA: 0x23FBFC0
@@ -817,6 +1058,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__1_0;
+    public object <>9__2_0;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x2406E00
     public void .ctor(){} // RVA: 0xB43310
@@ -832,6 +1077,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__20_0;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x87D280
     public void .ctor(){} // RVA: 0x894290
@@ -845,6 +1093,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void GetCachedPtr(){} // RVA: 0x244BB60
     public void Equals(){} // RVA: 0x244BC80
@@ -860,6 +1110,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__1_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void GetInstanceID(){} // RVA: 0x24546E0 | overloaded x2
@@ -873,6 +1126,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__1_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x24559A0
     public void .cctor(){} // RVA: 0x2455AA0
@@ -886,6 +1142,13 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__33_0;
+    public object <>9__33_1;
+    public object <>9__33_2;
+    public object <>9__33_3;
+    public object <>9__33_4;
+
     // ── Methods ──
     public void GetHashCode(){} // RVA: 0x246D2A0
     public void Equals(){} // RVA: 0x246D2B0
@@ -905,6 +1168,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__24_0;
+    public object <>9__24_1;
+
     // ── Methods ──
     public void set_name(){} // RVA: 0x247BDC0
     public void Equals(){} // RVA: 0x247BE40
@@ -921,6 +1188,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__88_0;
+    public object <>9__106_0;
+    public object <>9__106_1;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x24862E0
     public void DoOpenSubKey(){} // RVA: 0x2486380
@@ -937,6 +1209,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Initialize(){} // RVA: 0x24A9DD0
@@ -952,6 +1226,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__130_0;
+    public object <>9__130_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x24BEF00
     public void op_Implicit(){} // RVA: 0x24BEF50
@@ -967,6 +1245,15 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__33_0;
+    public object <>9__33_1;
+    public object <>9__33_2;
+    public object <>9__33_3;
+    public object <>9__33_4;
+    public object <>9__34_0;
+    public object <>9__63_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x24CA160
     public void Equals(){} // RVA: 0x24CA190
@@ -988,6 +1275,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__69_0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void GetTextureSetting(){} // RVA: 0x24BEFA0
@@ -1002,6 +1292,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__5_0;
+    public object <>9__5_1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Instantiate(){} // RVA: 0xD31350
@@ -1016,6 +1310,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__31_1;
+
     // ── Methods ──
     public void GetCachedPtr(){} // RVA: 0xD385C0
     public void FindObjectsByType(){} // RVA: 0xD38750
@@ -1032,6 +1329,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__4_0;
+    public object <>9__5_0;
+    public object <>9__5_1;
+
     // ── Methods ──
     public void Instantiate(){} // RVA: 0xD3AB90
     public void get_name(){} // RVA: 0xD3ADA0
@@ -1049,6 +1351,16 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__7_0;
+    public object <>9__14_0;
+    public object <>9__14_1;
+    public object <>9__14_2;
+    public object <>9__14_9;
+    public object <>9__14_5;
+    public object <>9__14_6;
+    public object <>9__14_7;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xD45EC0
     public void GetCachedPtr(){} // RVA: 0xD45EC0
@@ -1072,6 +1384,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__4_0;
+    public object <>9__4_1;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xB43310
     public void GetGameObject_805(){} // RVA: 0xB43310
@@ -1088,6 +1404,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__7_1;
+    public object <>9__10_3;
+    public object <>9__10_4;
+    public object <>9__10_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xD633A0
     public void IsNativeObjectAlive(){} // RVA: 0xD63440
@@ -1105,6 +1427,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__7_0;
+    public object <>9__26_0;
+    public object <>9__31_0;
+
     // ── Methods ──
     public void op_Equality(){} // RVA: 0xD7E730
     public void GetHashCode(){} // RVA: 0xD7E7A0
@@ -1120,6 +1447,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__5_0;
+
     // ── Methods ──
     public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0xD87820
     public void Equals(){} // RVA: 0xD878D0
@@ -1133,6 +1463,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0xD9C7D0
     public void .cctor(){} // RVA: 0xD9C8A0
@@ -1149,6 +1482,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__12_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDAFE90
     public void .ctor(){} // RVA: 0xB43310
@@ -1157,6 +1493,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__5_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB1590
     public void .ctor(){} // RVA: 0xB43310
@@ -1165,6 +1504,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB2560
     public void .ctor(){} // RVA: 0xB43310
@@ -1173,6 +1515,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB3900
     public void .ctor(){} // RVA: 0xB43310
@@ -1181,6 +1526,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB4F80
     public void .ctor(){} // RVA: 0xB43310
@@ -1189,6 +1537,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB6260
     public void .ctor(){} // RVA: 0xB43310
@@ -1197,6 +1548,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB8230
     public void .ctor(){} // RVA: 0xB43310
@@ -1205,6 +1559,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDB9960
     public void .ctor(){} // RVA: 0xB43310
@@ -1213,6 +1570,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDBB020
     public void .ctor(){} // RVA: 0xB43310
@@ -1221,6 +1581,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDBC550
     public void .ctor(){} // RVA: 0xB43310
@@ -1229,6 +1592,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDBCFD0
     public void .ctor(){} // RVA: 0xB43310
@@ -1237,6 +1603,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDBE460
     public void .ctor(){} // RVA: 0xB43310
@@ -1245,6 +1614,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDBF6F0
     public void .ctor(){} // RVA: 0xB43310
@@ -1253,6 +1625,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC10C0
     public void .ctor(){} // RVA: 0xB43310
@@ -1261,6 +1636,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC2030
     public void .ctor(){} // RVA: 0xB43310
@@ -1269,6 +1647,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC3090
     public void .ctor(){} // RVA: 0xB43310
@@ -1277,6 +1658,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC4150
     public void .ctor(){} // RVA: 0xB43310
@@ -1285,6 +1669,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC5630
     public void .ctor(){} // RVA: 0xB43310
@@ -1293,6 +1680,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC6F70
     public void .ctor(){} // RVA: 0xB43310
@@ -1301,6 +1691,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xDC8260
     public void .ctor(){} // RVA: 0xB43310
@@ -1309,6 +1702,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__26_0;
+    public object <>9__26_2;
+    public object <>9__26_1;
+    public object <>9__30_0;
+
     // ── Methods ──
     public void Instantiate(){} // RVA: 0xDCACA0
     public void .cctor(){} // RVA: 0xDCAE10
@@ -1327,6 +1726,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__2_0;
+    public object <>9__3_0;
+
     // ── Methods ──
     public void GetHashCode(){} // RVA: 0xDD1140
     public void Equals(){} // RVA: 0xDD1310
@@ -1342,6 +1745,13 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__34_2;
+    public object <>9__36_0;
+    public object <>9__36_1;
+    public object <>9__36_2;
+    public object <>9__36_3;
+
     // ── Methods ──
     public void IsNativeObjectAlive(){} // RVA: 0xDD9B60
     public void GetHashCode(){} // RVA: 0xDD9BC0
@@ -1361,6 +1771,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__3_1;
+    public object <>9__6_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0xE2EC70
     public void Equals(){} // RVA: 0xE2ED10
@@ -1375,6 +1789,9 @@ public class <>c : Object
 
 public class <>c__1`1 : Object
 {
+    public object <>9;
+    public object <>9__1_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x880270
     public void Equals(){} // RVA: 0x880270
@@ -1389,6 +1806,9 @@ public class <>c__1`1 : Object
 
 public class <>c__39`1 : Object
 {
+    public object <>9;
+    public object <>9__39_0;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x87C0A0
     public void Equals(){} // RVA: 0x87C0A0
@@ -1405,6 +1825,8 @@ public class <>c__39`1 : Object
 
 public class <>c__DisplayClass11_0 : Object
 {
+    public object info;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void <CreateCallback>b__0(){} // RVA: 0x8943B0
@@ -1413,6 +1835,8 @@ public class <>c__DisplayClass11_0 : Object
 
 public class <>c__DisplayClass11_0 : Object
 {
+    public object info;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <CreateCallback>b__0(){} // RVA: 0x5DCE990
@@ -1421,6 +1845,8 @@ public class <>c__DisplayClass11_0 : Object
 
 public class <>c__DisplayClass23_0 : Object
 {
+    public object profile;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <OnServiceProfileFoundFromJava>b__0(){} // RVA: 0xE318A0
@@ -1429,6 +1855,9 @@ public class <>c__DisplayClass23_0 : Object
 
 public class <MoveHaptic>d__2 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310

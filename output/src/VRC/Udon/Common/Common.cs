@@ -7,12 +7,19 @@ namespace VRC.Udon.Common
 {
     public class DeserializationResult : ValueType
     {
+        public object sendTime;
+        public object receiveTime;
+        public object isFromStorage;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9CC990
     }
 
     public class SerializationResult : ValueType
     {
+        public object success;
+        public object byteCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35D160
     }
@@ -25,12 +32,20 @@ namespace VRC.Udon.Common
 
     public class UdonGameObjectComponentHeapReference : UdonBaseHeapReference
     {
+        public object type;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class UdonHeap : Object
     {
+        public object DEFAULT_CAPACITY;
+        public object MAXIMUM_CAPACITY;
+        public object _heap;
+        public object _strongBoxOfTypeCache;
+        public object _strongBoxOfTContainedTypeCache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8335B40
         public void CheckHeapBounds(){} // RVA: 0x2AB4360
@@ -51,12 +66,26 @@ namespace VRC.Udon.Common
 
     public class UdonInputEventArgs : ValueType
     {
+        public object eventType;
+        public object boolValue;
+        public object floatValue;
+        public object handType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9CC9B0
     }
 
     public class UdonProgram : Object
     {
+        public object _instructionSetIdentifier;
+        public object _instructionSetVersion;
+        public object _byteCode;
+        public object _heap;
+        public object _entryPoints;
+        public object _symbolTable;
+        public object _syncMetadataTable;
+        public object _updateOrder;
+
         // ── Methods ──
         public void get_InstructionSetIdentifier(){} // RVA: 0xB5DBF0
         public void get_InstructionSetVersion(){} // RVA: 0xE62D00
@@ -71,6 +100,10 @@ namespace VRC.Udon.Common
 
     public class UdonSymbol : Object
     {
+        public object _name;
+        public object _type;
+        public object _address;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
         public void get_Type(){} // RVA: 0xB465B0
@@ -81,6 +114,12 @@ namespace VRC.Udon.Common
 
     public class UdonSymbolTable : Object
     {
+        public object _symbols;
+        public object _exportedSymbols;
+        public object _exportedSymbolsLookUpTable;
+        public object _addressToSymbol;
+        public object _nameToSymbol;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8339010
         public void HasAddressForSymbol(){} // RVA: 0x83388E0
@@ -98,6 +137,9 @@ namespace VRC.Udon.Common
 
     public class UdonSyncMetadata : Object
     {
+        public object _name;
+        public object _properties;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
         public void get_Properties(){} // RVA: 0xB465B0
@@ -107,6 +149,8 @@ namespace VRC.Udon.Common
 
     public class UdonSyncMetadataTable : Object
     {
+        public object _syncMetadataTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x833AF40
         public void GetAllSyncMetadata(){} // RVA: 0x833AE80
@@ -116,6 +160,9 @@ namespace VRC.Udon.Common
 
     public class UdonSyncProperty : Object
     {
+        public object _name;
+        public object _interpolationAlgorithm;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
         public void get_InterpolationAlgorithm(){} // RVA: 0xE62D00
@@ -125,6 +172,8 @@ namespace VRC.Udon.Common
 
     public class UdonVariableTable : Object
     {
+        public object _publicVariables;
+
         // ── Methods ──
         public void get_VariableSymbols(){} // RVA: 0x833B370
         public void .ctor(){} // RVA: 0x833BCD0
@@ -138,6 +187,9 @@ namespace VRC.Udon.Common
 
     public class UdonVariable`1 : Object
     {
+        public object _symbolName;
+        public object _value;
+
         // ── Methods ──
         public void get_SymbolName(){} // RVA: 0x87C0A0
         public void get_Value(){} // RVA: 0xA94080
@@ -151,6 +203,9 @@ namespace VRC.Udon.Common
 
     public class VariableChangedEvent : Object
     {
+        public object EVENT_PREFIX;
+        public object OLD_VALUE_PREFIX;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }

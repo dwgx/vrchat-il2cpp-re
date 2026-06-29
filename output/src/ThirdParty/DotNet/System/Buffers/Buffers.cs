@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Buffers
-// Classes: 97
-// Methods: 543
+// Classes: 95
+// Methods: 529
 
 namespace ThirdParty.DotNet.System.Buffers
 {
     public class ArrayBufferWriter`1 : Object
     {
+        public object _buffer;
+        public object _index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void get_WrittenSpan(){} // RVA: 0xA94080
@@ -22,6 +25,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayBufferWriter`1 : Object
     {
+        public object _buffer;
+        public object _index;
+
         // ── Methods ──
         public void Clear(){} // RVA: 0x4221150
         public void .ctor(){} // RVA: 0x4220FA0
@@ -37,6 +43,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayBufferWriter`1 : Object
     {
+        public object _buffer;
+        public object _index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void get_WrittenMemory(){} // RVA: 0xA94080
@@ -52,6 +61,11 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayBufferWriter`1 : Object
     {
+        public object ArrayMaxLength;
+        public object DefaultInitialBufferSize;
+        public object _buffer;
+        public object _index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void get_WrittenMemory(){} // RVA: 0xA94080
@@ -79,6 +93,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPoolEventSource : EventSource
     {
+        public object Log;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68888F0
         public void BufferRented(){} // RVA: 0x6888980
@@ -91,6 +107,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPoolEventSource : EventSource
     {
+        public object Log;
+
         // ── Methods ──
         public void BufferRented(){} // RVA: 0x6D29B30
         public void BufferAllocated(){} // RVA: 0x6D29BD0
@@ -101,6 +119,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x87C0D0
         public void Rent(){} // RVA: 0x87C160
@@ -111,6 +131,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Return(){} // RVA: 0x899250
@@ -122,6 +144,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Return(){} // RVA: 0x899250
@@ -129,6 +153,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Return(){} // RVA: 0x899250
@@ -136,6 +162,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Return(){} // RVA: 0x899250
@@ -143,6 +171,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Create(){} // RVA: 0x43D9E50
@@ -154,6 +184,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Create(){} // RVA: 0x43D99C0
@@ -165,6 +197,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -176,6 +210,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -187,17 +223,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
-        // ── Methods ──
-        public void get_Shared(){} // RVA: 0x2B75360
-        public void Return(){} // RVA: 0x899250
-        public void Rent(){} // RVA: 0x87C160
-        public void Create(){} // RVA: 0x43DABF0
-        public void .ctor(){} // RVA: 0xB43310
-        public void .cctor(){} // RVA: 0x43DAC90
-    }
+        public object _shared;
 
-    public class ArrayPool`1 : Object
-    {
         // ── Methods ──
         public void Rent(){} // RVA: 0x87C160
         public void Return(){} // RVA: 0x899250
@@ -209,6 +236,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -217,6 +246,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -225,36 +256,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
-        // ── Methods ──
-        public void get_Shared(){} // RVA: 0x2B75360
-        public void Rent(){} // RVA: 0x87C160
-        public void Return(){} // RVA: 0x899250
-        public void Create(){} // RVA: 0x43D6D40
-        public void .ctor(){} // RVA: 0xB43310
-        public void .cctor(){} // RVA: 0x43D6DE0
-    }
+        public object _shared;
 
-    public class ArrayPool`1 : Object
-    {
-        // ── Methods ──
-        public void get_Shared(){} // RVA: 0x2B75360
-        public void Rent(){} // RVA: 0x87C160
-        public void Return(){} // RVA: 0x899250
-        public void Create(){} // RVA: 0x43DABF0
-        public void .ctor(){} // RVA: 0xB43310
-        public void .cctor(){} // RVA: 0x43DAC90
-    }
-
-    public class ArrayPool`1 : Object
-    {
-        // ── Methods ──
-        public void get_Shared(){} // RVA: 0x2B75360
-        public void Rent(){} // RVA: 0x87C160
-        public void Return(){} // RVA: 0x899250
-    }
-
-    public class ArrayPool`1 : Object
-    {
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -266,6 +269,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -277,6 +282,54 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
+        // ── Methods ──
+        public void get_Shared(){} // RVA: 0x2B75360
+        public void Rent(){} // RVA: 0x87C160
+        public void Return(){} // RVA: 0x899250
+    }
+
+    public class ArrayPool`1 : Object
+    {
+        public object _shared;
+
+        // ── Methods ──
+        public void get_Shared(){} // RVA: 0x2B75360
+        public void Rent(){} // RVA: 0x87C160
+        public void Return(){} // RVA: 0x899250
+        public void Create(){} // RVA: 0x43D6D40
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x43D6DE0
+    }
+
+    public class ArrayPool`1 : Object
+    {
+        public object _shared;
+
+        // ── Methods ──
+        public void get_Shared(){} // RVA: 0x2B75360
+        public void Return(){} // RVA: 0x899250
+        public void Rent(){} // RVA: 0x87C160
+        public void Create(){} // RVA: 0x43DABF0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x43DAC90
+    }
+
+    public class ArrayPool`1 : Object
+    {
+        public object _shared;
+
+        // ── Methods ──
+        public void get_Shared(){} // RVA: 0x2B75360
+        public void Rent(){} // RVA: 0x87C160
+        public void Return(){} // RVA: 0x899250
+    }
+
+    public class ArrayPool`1 : Object
+    {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -288,6 +341,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -299,6 +354,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -310,6 +367,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -318,6 +377,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Create(){} // RVA: 0x43DB960
@@ -329,6 +390,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object s_sharedInstance;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x87C0D0
         public void EnsureSharedCreated(){} // RVA: 0x87C0D0
@@ -340,6 +403,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object s_sharedInstance;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x43D9700
         public void Rent(){} // RVA: 0x87C160
@@ -348,6 +413,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object s_sharedInstance;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x43DB6D0
         public void EnsureSharedCreated(){} // RVA: 0x43DB780
@@ -359,6 +426,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ArrayPool`1 : Object
     {
+        public object _shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Create(){} // RVA: 0x43DB960
@@ -386,6 +455,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8965E0
         public void get_Id(){} // RVA: 0x87C130
@@ -395,90 +466,113 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B5050
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B4970
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B2030
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34B7990
-    }
+        public object _buckets;
 
-    public class ConfigurableArrayPool`1 : ArrayPool`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34B7990
-    }
-
-    public class ConfigurableArrayPool`1 : ArrayPool`1
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B04B0
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34ABF40
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B7990
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34ABF40
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B7990
+    }
+
+    public class ConfigurableArrayPool`1 : ArrayPool`1
+    {
+        public object _buckets;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x34B7990
+    }
+
+    public class ConfigurableArrayPool`1 : ArrayPool`1
+    {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B6BD0
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34ABF40
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B7990
     }
 
     public class ConfigurableArrayPool`1 : ArrayPool`1
     {
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34B5E10
     }
 
-    public class ConfigurableArrayPool`1 : ArrayPool`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34B7990
-    }
-
     public class DefaultArrayPool`1 : ArrayPool`1
     {
+        public object s_emptyArray;
+        public object _buckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8965E0
         public void get_Id(){} // RVA: 0x87C130
@@ -523,6 +617,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryHandle : ValueType
     {
+        public object _pointer;
+        public object _handle;
+        public object _pinnable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B55B0
         public void get_Pointer(){} // RVA: 0x77900
@@ -570,6 +668,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryPool`1 : Object
     {
+        public object s_shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x87C0D0
         public void Rent(){} // RVA: 0x87C160
@@ -580,6 +680,8 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class MemoryPool`1 : Object
     {
+        public object s_shared;
+
         // ── Methods ──
         public void get_Shared(){} // RVA: 0x2B75360
         public void Rent(){} // RVA: 0x87C160
@@ -604,6 +706,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
+        public object _memory;
+        public object _next;
+        public object _runningIndex;
+
         // ── Methods ──
         public void get_Memory(){} // RVA: 0xA94080
         public void get_Next(){} // RVA: 0x87C0A0
@@ -612,6 +718,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
+        public object _memory;
+        public object _next;
+        public object _runningIndex;
+
         // ── Methods ──
         public void get_Memory(){} // RVA: 0x22343B0
         public void get_Next(){} // RVA: 0xB700F0
@@ -620,6 +730,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
+        public object _memory;
+        public object _next;
+        public object _runningIndex;
+
         // ── Methods ──
         public void get_Memory(){} // RVA: 0xA94080
         public void get_Next(){} // RVA: 0x87C0A0
@@ -628,6 +742,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequenceSegment`1 : Object
     {
+        public object _memory;
+        public object _next;
+        public object _runningIndex;
+
         // ── Methods ──
         public void get_Memory(){} // RVA: 0x22343B0
         public void get_Next(){} // RVA: 0xB700F0
@@ -636,6 +754,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
+        public object _sequenceStart;
+        public object _sequenceEnd;
+        public object Empty;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x87C0A0
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -661,6 +783,10 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
+        public object _sequenceStart;
+        public object _sequenceEnd;
+        public object Empty;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x490090
         public void get_IsEmpty(){} // RVA: 0x4900A0
@@ -686,6 +812,12 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
+        public object _startObject;
+        public object _endObject;
+        public object _startInteger;
+        public object _endInteger;
+        public object Empty;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x87C0A0
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -715,6 +847,12 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class ReadOnlySequence`1 : ValueType
     {
+        public object _startObject;
+        public object _endObject;
+        public object _startInteger;
+        public object _endInteger;
+        public object Empty;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x4902A0
         public void get_IsEmpty(){} // RVA: 0x4902B0
@@ -765,6 +903,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class StandardFormat : ValueType
     {
+        public object _format;
+        public object _precision;
+
         // ── Methods ──
         public void get_Symbol(){} // RVA: 0x90520
         public void get_Precision(){} // RVA: 0x90540
@@ -779,6 +920,9 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class StandardFormat : ValueType
     {
+        public object _format;
+        public object _precision;
+
         // ── Methods ──
         public void get_Symbol(){} // RVA: 0x90520
         public void get_Precision(){} // RVA: 0x90540
@@ -796,6 +940,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void CreatePerCoreLockedStacks(){} // RVA: 0x87C160
@@ -811,6 +962,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F0C540
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F0C6F0
@@ -826,6 +984,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F0B400
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F0B5B0
@@ -841,6 +1006,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F04C80
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F04E30
@@ -856,36 +1028,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4F12CC0
-        public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
-        public void get_Id(){} // RVA: 0x34AC300
-        public void Rent(){} // RVA: 0x4F12F60
-        public void Return(){} // RVA: 0x4F132C0
-        public void Trim(){} // RVA: 0x4F138D0
-        public void Gen2GcCallbackFunc(){} // RVA: 0x4F13CF0
-        public void GetMemoryPressure(){} // RVA: 0x4F13E00
-        public void GetTrimBuffers(){} // RVA: 0xC2E4C0
-        public void .cctor(){} // RVA: 0x4EF6A70
-    }
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
 
-    public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4F12CC0
-        public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
-        public void get_Id(){} // RVA: 0x34AC300
-        public void Rent(){} // RVA: 0x4F12F60
-        public void Return(){} // RVA: 0x4F132C0
-        public void Trim(){} // RVA: 0x4F138D0
-        public void Gen2GcCallbackFunc(){} // RVA: 0x4F13CF0
-        public void GetMemoryPressure(){} // RVA: 0x4F13E00
-        public void GetTrimBuffers(){} // RVA: 0xC2E4C0
-        public void .cctor(){} // RVA: 0x4EF6A70
-    }
-
-    public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F00780
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F00930
@@ -901,6 +1050,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF5930
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4EF5AE0
@@ -916,6 +1072,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F12CC0
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
@@ -931,6 +1094,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF5930
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4EF5AE0
@@ -946,6 +1116,57 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4F12CC0
+        public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
+        public void get_Id(){} // RVA: 0x34AC300
+        public void Rent(){} // RVA: 0x4F12F60
+        public void Return(){} // RVA: 0x4F132C0
+        public void Trim(){} // RVA: 0x4F138D0
+        public void Gen2GcCallbackFunc(){} // RVA: 0x4F13CF0
+        public void GetMemoryPressure(){} // RVA: 0x4F13E00
+        public void GetTrimBuffers(){} // RVA: 0xC2E4C0
+        public void .cctor(){} // RVA: 0x4EF6A70
+    }
+
+    public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
+    {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4F12CC0
+        public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
+        public void get_Id(){} // RVA: 0x34AC300
+        public void Rent(){} // RVA: 0x4F12F60
+        public void Return(){} // RVA: 0x4F132C0
+        public void Trim(){} // RVA: 0x4F138D0
+        public void Gen2GcCallbackFunc(){} // RVA: 0x4F13CF0
+        public void GetMemoryPressure(){} // RVA: 0x4F13E00
+        public void GetTrimBuffers(){} // RVA: 0xC2E4C0
+        public void .cctor(){} // RVA: 0x4EF6A70
+    }
+
+    public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
+    {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F10A40
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F10BF0
@@ -961,6 +1182,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF5930
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4EF5AE0
@@ -976,6 +1204,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F12CC0
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
@@ -991,6 +1226,13 @@ namespace ThirdParty.DotNet.System.Buffers
 
     public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
     {
+        public object _bucketArraySizes;
+        public object _buckets;
+        public object t_tlsBuckets;
+        public object _callbackCreated;
+        public object s_trimBuffers;
+        public object s_allTlsBuckets;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F0E7C0
         public void CreatePerCoreLockedStacks(){} // RVA: 0x4F0E970
@@ -1000,21 +1242,6 @@ namespace ThirdParty.DotNet.System.Buffers
         public void Trim(){} // RVA: 0x4F0F380
         public void Gen2GcCallbackFunc(){} // RVA: 0x4F0F7A0
         public void GetMemoryPressure(){} // RVA: 0x4F0F8B0
-        public void GetTrimBuffers(){} // RVA: 0xC2E4C0
-        public void .cctor(){} // RVA: 0x4EF6A70
-    }
-
-    public class TlsOverPerCoreLockedStacksArrayPool`1 : ArrayPool`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4F12CC0
-        public void CreatePerCoreLockedStacks(){} // RVA: 0x4F12E70
-        public void get_Id(){} // RVA: 0x34AC300
-        public void Rent(){} // RVA: 0x4F12F60
-        public void Return(){} // RVA: 0x4F132C0
-        public void Trim(){} // RVA: 0x4F138D0
-        public void Gen2GcCallbackFunc(){} // RVA: 0x4F13CF0
-        public void GetMemoryPressure(){} // RVA: 0x4F13E00
         public void GetTrimBuffers(){} // RVA: 0xC2E4C0
         public void .cctor(){} // RVA: 0x4EF6A70
     }

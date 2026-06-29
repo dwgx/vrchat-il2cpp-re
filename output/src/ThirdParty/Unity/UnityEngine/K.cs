@@ -27,6 +27,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Keyframe : ValueType
     {
+        public object m_Time;
+        public object m_Value;
+        public object m_InTangent;
+        public object m_OutTangent;
+        public object m_WeightedMode;
+        public object m_InWeight;
+        public object m_OutWeight;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95F820
         public void get_time(){} // RVA: 0x459690

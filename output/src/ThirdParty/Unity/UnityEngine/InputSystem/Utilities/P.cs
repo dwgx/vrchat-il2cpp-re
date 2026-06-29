@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class PredictiveParser : ValueType
     {
+        public object m_Position;
+
         // ── Methods ──
         public void ExpectSingleChar(){} // RVA: 0x92F1C0
         public void ExpectInt(){} // RVA: 0x92F1E0
@@ -18,6 +20,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class PrimitiveValue : ValueType
     {
+        public object m_Type;
+        public object m_BoolValue;
+        public object m_CharValue;
+        public object m_ByteValue;
+        public object m_SByteValue;
+        public object m_ShortValue;
+        public object m_UShortValue;
+        public object m_IntValue;
+        public object m_UIntValue;
+        public object m_LongValue;
+        public object m_ULongValue;
+        public object m_FloatValue;
+        public object m_DoubleValue;
+
         // ── Methods ──
         public void get_valuePtr(){} // RVA: 0x92F3C0
         public void get_type(){} // RVA: 0x77E60

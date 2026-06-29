@@ -7,6 +7,8 @@ namespace ThirdParty.Other.ProfanityFilter
 {
     public class AllowList : Object
     {
+        public object _allowList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xCCDEC0
         public void get_ToList(){} // RVA: 0xCCDF80
@@ -19,6 +21,9 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityBase : Object
     {
+        public object _profanities;
+        public object _wordList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xCCE950
         public void AddProfanity(){} // RVA: 0xCCEC50
@@ -29,6 +34,8 @@ namespace ThirdParty.Other.ProfanityFilter
 
     public class ProfanityFilter : ProfanityBase
     {
+        public object _allowList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xCCF5F0
         public void get_AllowList(){} // RVA: 0xB700F0

@@ -147,6 +147,19 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter : Object
     {
+        public object _converterStrategy;
+        public object _canUseDirectReadOrWrite;
+        public object _canBePolymorphic;
+        public object _requiresReadAhead;
+        public object _usesDefaultHandleNull;
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _isValueType;
+        public object _isInternalConverter;
+        public object _isInternalConverterForNumberType;
+        public object _constructorIsParameterized;
+        public object _constructorInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x732B390
         public void get_Type(){} // RVA: 0x87C0A0
@@ -207,6 +220,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverterAttribute : JsonAttribute
     {
+        public object _converterType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_ConverterType(){} // RVA: 0xB5DBF0
@@ -240,6 +255,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x410CB30
         public void WriteCore(){} // RVA: 0x410CCB0
@@ -280,6 +299,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -320,6 +343,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -360,6 +387,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -400,6 +431,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xA94080
         public void WriteCore(){} // RVA: 0x87D760
@@ -443,6 +477,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -487,6 +524,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -531,6 +571,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -575,6 +618,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -619,6 +665,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -663,6 +712,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -707,6 +759,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -751,6 +806,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -795,6 +853,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -839,6 +900,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -883,6 +947,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -927,6 +994,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -971,6 +1041,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1015,6 +1088,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1059,6 +1135,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1103,6 +1182,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1147,6 +1229,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1191,6 +1276,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1235,6 +1323,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1279,6 +1370,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1323,6 +1417,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1367,6 +1464,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0x40A6E30
         public void WriteCore(){} // RVA: 0x40A7180
@@ -1411,6 +1511,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0x40A1B80
         public void WriteCore(){} // RVA: 0x40A1ED0
@@ -1455,6 +1558,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0xAD0950
         public void WriteCore(){} // RVA: 0x4118160
@@ -1499,6 +1605,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _type;
+        public object _fallbackConverterForPropertyNameSerialization;
+
         // ── Methods ──
         public void ReadCore(){} // RVA: 0x40DE6C0
         public void WriteCore(){} // RVA: 0x40DE9C0
@@ -1543,6 +1652,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDerivedTypeAttribute : JsonAttribute
     {
+        public object _derivedType;
+        public object _typeDiscriminator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7329C40
         public void get_DerivedType(){} // RVA: 0xB5DBF0
@@ -1626,6 +1738,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0x8943B0
@@ -1641,6 +1756,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1656,6 +1774,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1671,6 +1792,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1692,6 +1816,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonIgnoreAttribute : JsonAttribute
     {
+        public object _condition;
+
         // ── Methods ──
         public void get_Condition(){} // RVA: 0xB8F8F0
         public void set_Condition(){} // RVA: 0xB460A0
@@ -1714,6 +1840,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonNumberHandlingAttribute : JsonAttribute
     {
+        public object _handling;
+
         // ── Methods ──
         public void get_Handling(){} // RVA: 0xB8F8F0
         public void .ctor(){} // RVA: 0x7329D20
@@ -1766,6 +1894,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonObjectCreationHandlingAttribute : JsonAttribute
     {
+        public object _handling;
+
         // ── Methods ──
         public void get_Handling(){} // RVA: 0xB8F8F0
         public void .ctor(){} // RVA: 0x7329B90
@@ -1773,6 +1903,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonPolymorphicAttribute : JsonAttribute
     {
+        public object _typeDiscriminatorPropertyName;
+        public object _unknownDerivedTypeHandling;
+        public object _ignoreUnrecognizedTypeDiscriminators;
+
         // ── Methods ──
         public void get_TypeDiscriminatorPropertyName(){} // RVA: 0xB5DBF0
         public void set_TypeDiscriminatorPropertyName(){} // RVA: 0xB44D60
@@ -1785,6 +1919,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonPropertyNameAttribute : JsonAttribute
     {
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Name(){} // RVA: 0xB5DBF0
@@ -1792,6 +1928,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonPropertyOrderAttribute : JsonAttribute
     {
+        public object _order;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
         public void get_Order(){} // RVA: 0xB8F8F0
@@ -1994,6 +2132,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonSerializableAttribute : JsonAttribute
     {
+        public object _typeInfoPropertyName;
+        public object _generationMode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_TypeInfoPropertyName(){} // RVA: 0xB5DBF0
@@ -2004,6 +2145,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonSerializerContext : Object
     {
+        public object _options;
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x732A320
         public void AssociateWithOptions(){} // RVA: 0x732A410
@@ -2016,6 +2159,26 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonSourceGenerationOptionsAttribute : JsonAttribute
     {
+        public object _allowTrailingCommas;
+        public object _converters;
+        public object _defaultBufferSize;
+        public object _defaultIgnoreCondition;
+        public object _dictionaryKeyPolicy;
+        public object _ignoreReadOnlyFields;
+        public object _ignoreReadOnlyProperties;
+        public object _includeFields;
+        public object _maxDepth;
+        public object _numberHandling;
+        public object _preferredObjectCreationHandling;
+        public object _propertyNameCaseInsensitive;
+        public object _propertyNamingPolicy;
+        public object _readCommentHandling;
+        public object _unknownTypeHandling;
+        public object _unmappedMemberHandling;
+        public object _writeIndented;
+        public object _generationMode;
+        public object _useStringEnumConverter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7329B10
         public void get_AllowTrailingCommas(){} // RVA: 0xC120A0
@@ -2060,6 +2223,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonStringEnumConverter : JsonConverterFactory
     {
+        public object _namingPolicy;
+        public object _converterOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x419AB20
         public void CanConvert(){} // RVA: 0x38BA790
@@ -2068,6 +2234,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonStringEnumConverter`1 : JsonConverterFactory
     {
+        public object _namingPolicy;
+        public object _converterOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899250
         public void CanConvert(){} // RVA: 0x87D350
@@ -2076,6 +2245,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonUnmappedMemberHandlingAttribute : JsonAttribute
     {
+        public object _unmappedMemberHandling;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
         public void get_UnmappedMemberHandling(){} // RVA: 0xB8F8F0

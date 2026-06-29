@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
-// Classes: 62
-// Methods: 634
+// Classes: 61
+// Methods: 632
 
 namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 {
@@ -14,6 +14,20 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class HashMapHelper`1 : ValueType
     {
+        public object Ptr;
+        public object Keys;
+        public object Next;
+        public object Buckets;
+        public object Count;
+        public object Capacity;
+        public object Log2MinGrowth;
+        public object BucketCapacity;
+        public object AllocatedIndex;
+        public object FirstFreeIdx;
+        public object SizeOfTValue;
+        public object Allocator;
+        public object kMinimumCapacity;
+
         // ── Methods ──
         public void CalcCapacityCeilPow2(){} // RVA: 0x881C20
         public void GetBucketSize(){} // RVA: 0x883700
@@ -37,6 +51,20 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class HashMapHelper`1 : ValueType
     {
+        public object Ptr;
+        public object Keys;
+        public object Next;
+        public object Buckets;
+        public object Count;
+        public object Capacity;
+        public object Log2MinGrowth;
+        public object BucketCapacity;
+        public object AllocatedIndex;
+        public object FirstFreeIdx;
+        public object SizeOfTValue;
+        public object Allocator;
+        public object kMinimumCapacity;
+
         // ── Methods ──
         public void u(){} // RVA: 0xCF0F568
         public void Alloc(){} // RVA: 0x3F3B270
@@ -61,6 +89,20 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class HashMapHelper`1 : ValueType
     {
+        public object Ptr;
+        public object Keys;
+        public object Next;
+        public object Buckets;
+        public object Count;
+        public object Capacity;
+        public object Log2MinGrowth;
+        public object BucketCapacity;
+        public object AllocatedIndex;
+        public object FirstFreeIdx;
+        public object SizeOfTValue;
+        public object Allocator;
+        public object kMinimumCapacity;
+
         // ── Methods ──
         public void Alloc(){} // RVA: 0x3F39790
         public void Free(){} // RVA: 0x3F39870
@@ -381,6 +423,11 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeBitArray : ValueType
     {
+        public object Ptr;
+        public object Length;
+        public object Capacity;
+        public object Allocator;
+
         // ── Methods ──
         public void Free(){} // RVA: 0x77D35F0
         public void get_IsCreated(){} // RVA: 0x311760
@@ -389,12 +436,17 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeDisposeJob : ValueType
     {
+        public object Ptr;
+        public object Allocator;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924590
     }
 
     public class UnsafeHashMap`2 : ValueType
     {
+        public object m_Data;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x894290
         public void get_IsCreated(){} // RVA: 0x87D280
@@ -411,34 +463,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
-        // ── Methods ──
-        public void u(){} // RVA: 0xACFF2C0
-        public void get_Item(){} // RVA: 0x433BA0
-        public void set_Item(){} // RVA: 0x433BB0
-        public void get_Length(){} // RVA: 0x14790
-        public void Resize(){} // RVA: 0x5AD3F0
-        public void get_Capacity(){} // RVA: 0x92DE0
-        public void Add(){} // RVA: 0x5AD4A0
-        public void AddRange(){} // RVA: 0x5AD4B0
-        public void RemoveAtSwapBack(){} // RVA: 0x5AD4C0
-        public void RemoveAt(){} // RVA: 0x5AD4E0
-        public void Destroy(){} // RVA: 0x50BA660
-        public void Clear(){} // RVA: 0x30FDC0
-        public void SetCapacity(){} // RVA: 0x1918B0
-        public void Create(){} // RVA: 0xA94080
-        public void set_Length(){} // RVA: 0x5AD340
-        public void ElementAt(){} // RVA: 0x5AD3C0
-        public void .ctor(){} // RVA: 0x5AD3D0
-        public void get_IsCreated(){} // RVA: 0x311760
-        public void Dispose(){} // RVA: 0x5AD3E0
-        public void ResizeExact(){} // RVA: 0x1918A0
-        public void AddNoResize(){} // RVA: 0x5AD450
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
-    }
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
 
-    public class UnsafeList`1 : ValueType
-    {
         // ── Methods ──
         public void get_Length(){} // RVA: 0x87C130
         public void set_Length(){} // RVA: 0x8944F0
@@ -466,6 +496,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x433600
         public void set_Item(){} // RVA: 0x433610
@@ -493,6 +529,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x4388D0
         public void set_Item(){} // RVA: 0x438920
@@ -520,6 +562,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x431880
         public void set_Item(){} // RVA: 0x431890
@@ -547,6 +595,45 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x433BA0
+        public void set_Item(){} // RVA: 0x433BB0
+        public void get_Length(){} // RVA: 0x14790
+        public void Resize(){} // RVA: 0x5AD3F0
+        public void get_Capacity(){} // RVA: 0x92DE0
+        public void Add(){} // RVA: 0x5AD4A0
+        public void AddRange(){} // RVA: 0x5AD4B0
+        public void RemoveAtSwapBack(){} // RVA: 0x5AD4C0
+        public void RemoveAt(){} // RVA: 0x5AD4E0
+        public void Destroy(){} // RVA: 0x50BA660
+        public void Clear(){} // RVA: 0x30FDC0
+        public void SetCapacity(){} // RVA: 0x1918B0
+        public void Create(){} // RVA: 0xA94080
+        public void set_Length(){} // RVA: 0x5AD340
+        public void ElementAt(){} // RVA: 0x5AD3C0
+        public void .ctor(){} // RVA: 0x5AD3D0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x5AD3E0
+        public void ResizeExact(){} // RVA: 0x1918A0
+        public void AddNoResize(){} // RVA: 0x5AD450
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+    }
+
+    public class UnsafeList`1 : ValueType
+    {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AD1E0
         public void get_Length(){} // RVA: 0x14790
@@ -574,6 +661,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AD6B0
         public void get_Length(){} // RVA: 0x14790
@@ -601,6 +694,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x441CE0
         public void set_Item(){} // RVA: 0x441D80
@@ -628,6 +727,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x4308B0
         public void set_Item(){} // RVA: 0x4308E0
@@ -655,6 +760,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x436AE0
         public void set_Item(){} // RVA: 0x436B20
@@ -682,6 +793,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x441470
         public void set_Item(){} // RVA: 0x441510
@@ -709,6 +826,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x4425D0
         public void set_Item(){} // RVA: 0x442640
@@ -736,6 +859,12 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeList`1 : ValueType
     {
+        public object Ptr;
+        public object m_length;
+        public object m_capacity;
+        public object Allocator;
+        public object padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AF3A0
         public void get_Length(){} // RVA: 0x14790
@@ -780,6 +909,14 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMapData : ValueType
     {
+        public object values;
+        public object keys;
+        public object next;
+        public object buckets;
+        public object keyCapacity;
+        public object bucketCapacityMask;
+        public object allocatedIndexLength;
+
         // ── Methods ──
         public void get_firstFreeTLS(){} // RVA: 0x9245A0
         public void GetBucketSize(){} // RVA: 0x3F39480
@@ -792,24 +929,35 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMapDataDispose : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x9245B0
     }
 
     public class UnsafeParallelHashMapDataDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9245C0
     }
 
     public class UnsafeParallelHashMapDisposeJob : ValueType
     {
+        public object Data;
+        public object Allocator;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9245C0
     }
 
     public class UnsafeParallelHashMap`2 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_IsCreated(){} // RVA: 0x87D280
@@ -822,6 +970,9 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelHashMap`2 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AFD20
         public void get_IsCreated(){} // RVA: 0x311760
@@ -834,6 +985,9 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelMultiHashMap`2 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Clear(){} // RVA: 0x894290
@@ -849,6 +1003,9 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeParallelMultiHashMap`2 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5AFD80
         public void Add(){} // RVA: 0x5AFD90
@@ -860,6 +1017,13 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeRingQueue`1 : ValueType
     {
+        public object Ptr;
+        public object Allocator;
+        public object m_Capacity;
+        public object m_Filled;
+        public object m_Write;
+        public object m_Read;
+
         // ── Methods ──
         public void Free(){} // RVA: 0xA94080
         public void get_IsCreated(){} // RVA: 0x87D280
@@ -868,6 +1032,8 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeStream : ValueType
     {
+        public object m_BlockData;
+
         // ── Methods ──
         public void AllocateForEach(){} // RVA: 0x9245E0
         public void get_IsCreated(){} // RVA: 0x311760
@@ -877,12 +1043,20 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
 
     public class UnsafeStreamBlockData : ValueType
     {
+        public object Allocator;
+        public object Blocks;
+        public object BlockCount;
+        public object Ranges;
+        public object RangeCount;
+
         // ── Methods ──
         public void Free(){} // RVA: 0x9245D0
     }
 
     public class UnsafeText : ValueType
     {
+        public object m_UntypedListData;
+
         // ── Methods ──
         public void get_IsCreated(){} // RVA: 0x924610
         public void Free(){} // RVA: 0x77D3E50
@@ -890,12 +1064,6 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
         public void GetUnsafePtr(){} // RVA: 0x77900
         public void get_Length(){} // RVA: 0x924630
         public void ToString(){} // RVA: 0x924640
-    }
-
-    public class UnsafeText*
-    {
-        // ── Methods ──
-        public void u(){} // RVA: 0xACFF2C0
     }
 
     public class UnsafeTextExtensions : Object
@@ -908,7 +1076,7 @@ namespace ThirdParty.Other.Unity.Collections.LowLevel.Unsafe
     public class UnsafeUtility : Object
     {
         // ── Methods ──
-        public void SizeOf(){} // RVA: 0x2AFB680
+        public void SizeOf(){} // RVA: 0x2AFF550
         public void LeakRecord(){} // RVA: 0x7B4B2F0
         public void LeakErase(){} // RVA: 0x7B4B360
         public void MallocTracked(){} // RVA: 0x7B4B3C0

@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 {
     public class BaseStyleMatcher : Object
     {
+        public object s_CustomIdentRegex;
+        public object m_ContextStack;
+        public object m_CurrentContext;
+
         // ── Methods ──
         public void MatchKeyword(){} // RVA: 0x87D350
         public void MatchNumber(){} // RVA: 0x87D280
@@ -50,6 +54,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class Dimension : ValueType
     {
+        public object unit;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A0C20
         public void ToLength(){} // RVA: 0x9A0C30
@@ -92,12 +99,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class ImageSource : ValueType
     {
+        public object texture;
+        public object sprite;
+        public object vectorImage;
+        public object renderTexture;
+
         // ── Methods ──
         public void IsNull(){} // RVA: 0x9A0FC0
     }
 
     public class InitialStyle : Object
     {
+        public object s_InitialStyle;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x7F86ED0
         public void Acquire(){} // RVA: 0x7F86F20
@@ -190,18 +204,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class MatchResult : ValueType
     {
+        public object errorCode;
+        public object errorValue;
+
         // ── Methods ──
         public void get_success(){} // RVA: 0x9A1330
     }
 
     public class MatchResultInfo : ValueType
     {
+        public object success;
+        public object triggerPseudoMask;
+        public object dependencyPseudoMask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A1050
     }
 
     public class ScalableImage : ValueType
     {
+        public object normalImage;
+        public object highResolutionImage;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x9A0E30
     }
@@ -228,6 +252,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class SelectorMatchRecord : ValueType
     {
+        public object sheet;
+        public object styleSheetIndexInStack;
+        public object complexSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A1120
         public void Compare(){} // RVA: 0x7F9EC00
@@ -235,6 +263,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class ShorthandApplicator : Object
     {
+        public object s_TransitionDelayList;
+        public object s_TransitionDurationList;
+        public object s_TransitionPropertyList;
+        public object s_TransitionTimingFunctionList;
+
         // ── Methods ──
         public void ApplyBackgroundPosition(){} // RVA: 0x7F8AD60
         public void ApplyBorderColor(){} // RVA: 0x7F8AE30
@@ -259,6 +292,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyCache : Object
     {
+        public object s_PropertySyntaxCache;
+        public object s_NonTerminalValues;
+
         // ── Methods ──
         public void TryGetSyntax(){} // RVA: 0x7F8E110
         public void TryGetNonTerminalValue(){} // RVA: 0x7F8E1B0
@@ -287,6 +323,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyReader : Object
     {
+        public object getCursorIdFunc;
+        public object m_Values;
+        public object m_ValueCount;
+        public object m_Resolver;
+        public object m_Sheet;
+        public object m_Properties;
+        public object m_PropertyIds;
+        public object m_CurrentValueIndex;
+        public object m_CurrentPropertyIndex;
+        public object _property;
+        public object _propertyId;
+        public object _valueCount;
+        public object _dpiScaling;
+
         // ── Methods ──
         public void get_property(){} // RVA: 0xBBF8F0
         public void set_property(){} // RVA: 0xBBF900
@@ -338,6 +388,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyUtil : Object
     {
+        public object s_NameToId;
+        public object s_IdToName;
+        public object s_UssNameToCSharpName;
+        public object s_CSharpNameToUssName;
+        public object s_AnimatableProperties;
+        public object s_AnimatableWithUsageHintProperties;
+
         // ── Methods ──
         public void TryGetEnumIntValue(){} // RVA: 0x7F903C0
         public void IsMatchingShorthand(){} // RVA: 0x7F91A70
@@ -347,6 +404,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StylePropertyValueMatcher : BaseStyleMatcher
     {
+        public object m_Values;
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x7FA4D20
         public void get_valueCount(){} // RVA: 0x7FA4DE0
@@ -379,6 +438,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StyleSheetCache : Object
     {
+        public object s_Comparer;
+        public object s_RulePropertyIdsCache;
+
         // ── Methods ──
         public void GetPropertyIds(){} // RVA: 0x7FA0530
         public void GetPropertyId(){} // RVA: 0x7FA0610
@@ -387,6 +449,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.StyleSheets
 
     public class StyleSheetColor : Object
     {
+        public object s_NameToColor;
+
         // ── Methods ──
         public void TryGetColor(){} // RVA: 0x7FA0970
         public void HexToColor32(){} // RVA: 0x7FA0AD0

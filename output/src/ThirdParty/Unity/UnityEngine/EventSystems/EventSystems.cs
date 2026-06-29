@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 {
     public class AbstractEventData : Object
     {
+        public object m_Used;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0xF48510
         public void Use(){} // RVA: 0xF482F0
@@ -16,6 +18,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class AxisEventData : BaseEventData
     {
+        public object _moveVector;
+        public object _moveDir;
+
         // ── Methods ──
         public void get_moveVector(){} // RVA: 0x13B3FB0
         public void set_moveVector(){} // RVA: 0x13B3F80
@@ -26,6 +31,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseEventData : AbstractEventData
     {
+        public object m_EventSystem;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBA9BA0
         public void get_currentInputModule(){} // RVA: 0x6AE0B90
@@ -58,6 +65,14 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class BaseInputModule : UIBehaviour
     {
+        public object m_RaycastResultCache;
+        public object m_SendPointerHoverToParent;
+        public object m_AxisEventData;
+        public object m_EventSystem;
+        public object m_BaseEventData;
+        public object m_InputOverride;
+        public object m_DefaultInput;
+
         // ── Methods ──
         public void get_sendPointerHoverToParent(){} // RVA: 0xF73960
         public void set_sendPointerHoverToParent(){} // RVA: 0xF73A60
@@ -108,6 +123,13 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
     public class BaseInput[] : Array
     {
         // ── Methods ──
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
         public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
         public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
@@ -116,17 +138,12 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
         public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
         public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class BaseRaycaster : UIBehaviour
     {
+        public object m_RootRaycaster;
+
         // ── Methods ──
         public void Raycast(){} // RVA: 0x8943B0
         public void get_eventCamera(){} // RVA: 0x87C0A0
@@ -164,6 +181,21 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventSystem : UIBehaviour
     {
+        public object m_SystemInputModules;
+        public object m_CurrentInputModule;
+        public object m_EventSystems;
+        public object m_FirstSelected;
+        public object m_sendNavigationEvents;
+        public object m_DragThreshold;
+        public object m_CurrentSelected;
+        public object m_HasFocus;
+        public object m_SelectionGuard;
+        public object m_DummyData;
+        public object s_RaycastComparer;
+        public object s_UIToolkitOverride;
+        public object m_Started;
+        public object m_IsTrackingUIToolkitPanels;
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x81113E0
         public void set_current(){} // RVA: 0x81114C0
@@ -225,6 +257,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class EventTrigger : MonoBehaviour
     {
+        public object m_Delegates;
+
         // ── Methods ──
         public void get_delegates(){} // RVA: 0x8114ED0
         public void set_delegates(){} // RVA: 0xB70100
@@ -253,14 +287,33 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class ExecuteEvents : Object
     {
+        public object s_PointerMoveHandler;
+        public object s_PointerEnterHandler;
+        public object s_PointerExitHandler;
+        public object s_PointerDownHandler;
+        public object s_PointerUpHandler;
+        public object s_PointerClickHandler;
+        public object s_InitializePotentialDragHandler;
+        public object s_BeginDragHandler;
+        public object s_DragHandler;
+        public object s_EndDragHandler;
+        public object s_DropHandler;
+        public object s_ScrollHandler;
+        public object s_UpdateSelectedHandler;
+        public object s_SelectHandler;
+        public object s_DeselectHandler;
+        public object s_MoveHandler;
+        public object s_SubmitHandler;
+        public object s_CancelHandler;
+        public object s_InternalTransformList;
+
         // ── Methods ──
-        public void GetEventList(){} // RVA: 0x30C2470
-        public void ShouldSendToComponent(){} // RVA: 0x30C2C10
-        public void ValidateEventData(){} // RVA: 0xA94080
-        public void GetEventHandler(){} // RVA: 0x87C5C0
-        public void CanHandleEvent(){} // RVA: 0x30C1270
+        public void GetEventList(){} // RVA: 0x8945C0
+        public void ShouldSendToComponent(){} // RVA: 0x87D390
         public void Execute(){} // RVA: 0x30C1470
-        public void ExecuteHierarchy(){} // RVA: 0x30C1C40
+        public void ExecuteHierarchy(){} // RVA: 0x88CCC0
+        public void GetEventHandler(){} // RVA: 0x87C5C0
+        public void ValidateEventData(){} // RVA: 0xA94080
         public void get_pointerMoveHandler(){} // RVA: 0x8115D70
         public void get_pointerEnterHandler(){} // RVA: 0x8115DD0
         public void get_pointerExitHandler(){} // RVA: 0x8115E30
@@ -280,6 +333,7 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
         public void get_submitHandler(){} // RVA: 0x8116370
         public void get_cancelHandler(){} // RVA: 0x81163D0
         public void GetEventChain(){} // RVA: 0x8116430
+        public void CanHandleEvent(){} // RVA: 0x87D390
         public void .cctor(){} // RVA: 0x8116710
     }
 
@@ -493,6 +547,32 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRInputModule : PointerInputModule
     {
+        public object rayTransform;
+        public object m_Cursor;
+        public object joyPadClickButton;
+        public object gazeClickKey;
+        public object performSphereCastForGazepointer;
+        public object useRightStickScroll;
+        public object rightStickDeadZone;
+        public object useSwipeScroll;
+        public object swipeDragThreshold;
+        public object swipeDragScale;
+        public object InvertSwipeXAxis;
+        public object activeGraphicRaycaster;
+        public object angleDragThreshold;
+        public object m_SpherecastRadius;
+        public object m_NextAction;
+        public object m_LastMousePosition;
+        public object m_MousePosition;
+        public object m_HorizontalAxis;
+        public object m_VerticalAxis;
+        public object m_SubmitButton;
+        public object m_CancelButton;
+        public object m_InputActionsPerSecond;
+        public object m_AllowActivationOnMobileDevice;
+        public object m_VRRayPointerData;
+        public object m_MouseState;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C60C50
         public void get_inputMode(){} // RVA: 0xDAC980
@@ -538,6 +618,10 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRPhysicsRaycaster : BaseRaycaster
     {
+        public object kNoEventMaskSet;
+        public object m_EventMask;
+        public object sortOrder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x192B9B0
         public void get_eventCamera(){} // RVA: 0x6C660A0
@@ -553,6 +637,9 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class OVRPointerEventData : PointerEventData
     {
+        public object worldSpaceRay;
+        public object swipeStart;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C67490
         public void ToString(){} // RVA: 0x6C674A0
@@ -560,6 +647,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class Physics2DRaycaster : PhysicsRaycaster
     {
+        public object m_Hits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2084DC0
         public void Raycast(){} // RVA: 0x8121410
@@ -567,6 +656,13 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PhysicsRaycaster : BaseRaycaster
     {
+        public object kNoEventMaskSet;
+        public object m_EventCamera;
+        public object m_EventMask;
+        public object m_MaxRayIntersections;
+        public object m_LastMaxRayIntersections;
+        public object m_Hits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2084DC0
         public void get_eventCamera(){} // RVA: 0x8121F00
@@ -582,6 +678,41 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PointerEventData : BaseEventData
     {
+        public object _pointerEnter;
+        public object m_PointerPress;
+        public object _lastPress;
+        public object _rawPointerPress;
+        public object _pointerDrag;
+        public object _pointerClick;
+        public object _pointerCurrentRaycast;
+        public object _pointerPressRaycast;
+        public object hovered;
+        public object _eligibleForClick;
+        public object _displayIndex;
+        public object _pointerId;
+        public object _position;
+        public object _delta;
+        public object _pressPosition;
+        public object _worldPosition;
+        public object _worldNormal;
+        public object _clickTime;
+        public object _clickCount;
+        public object _scrollDelta;
+        public object _useDragThreshold;
+        public object _dragging;
+        public object _button;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _altitudeAngle;
+        public object _azimuthAngle;
+        public object _twist;
+        public object _tilt;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _fullyExited;
+        public object _reentered;
+
         // ── Methods ──
         public void get_pointerEnter(){} // RVA: 0xB700F0
         public void set_pointerEnter(){} // RVA: 0xB70100
@@ -668,6 +799,13 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class PointerInputModule : BaseInputModule
     {
+        public object kMouseLeftId;
+        public object kMouseRightId;
+        public object kMouseMiddleId;
+        public object kFakeTouchesId;
+        public object m_PointerData;
+        public object m_MouseState;
+
         // ── Methods ──
         public void GetPointerData(){} // RVA: 0x8119760
         public void RemovePointerData(){} // RVA: 0x81198D0
@@ -688,6 +826,20 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class RaycastResult : ValueType
     {
+        public object m_GameObject;
+        public object module;
+        public object distance;
+        public object index;
+        public object depth;
+        public object sortingGroupID;
+        public object sortingGroupOrder;
+        public object sortingLayer;
+        public object sortingOrder;
+        public object worldPosition;
+        public object worldNormal;
+        public object screenPosition;
+        public object displayIndex;
+
         // ── Methods ──
         public void get_gameObject(){} // RVA: 0x77900
         public void set_gameObject(){} // RVA: 0x47F10
@@ -718,6 +870,8 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class RaycasterManager : Object
     {
+        public object s_Raycasters;
+
         // ── Methods ──
         public void AddRaycaster(){} // RVA: 0x8120A30
         public void GetRaycasters(){} // RVA: 0x8120B50
@@ -727,6 +881,22 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class StandaloneInputModule : PointerInputModule
     {
+        public object m_PrevActionTime;
+        public object m_LastMoveVector;
+        public object m_ConsecutiveMoveCount;
+        public object m_LastMousePosition;
+        public object m_MousePosition;
+        public object m_CurrentFocusedGameObject;
+        public object m_InputPointerEvent;
+        public object doubleClickTime;
+        public object m_HorizontalAxis;
+        public object m_VerticalAxis;
+        public object m_SubmitButton;
+        public object m_CancelButton;
+        public object m_InputActionsPerSecond;
+        public object m_RepeatDelay;
+        public object m_ForceModuleActive;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x811BD70
         public void get_inputMode(){} // RVA: 0xDAC980
@@ -767,6 +937,11 @@ namespace ThirdParty.Unity.UnityEngine.EventSystems
 
     public class TouchInputModule : PointerInputModule
     {
+        public object m_LastMousePosition;
+        public object m_MousePosition;
+        public object m_InputPointerEvent;
+        public object m_ForceModuleActive;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x811EF90
         public void get_allowActivationOnStandalone(){} // RVA: 0xE3F400

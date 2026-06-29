@@ -5,6 +5,16 @@
 
 public class HIDDeviceDescriptor : ValueType
 {
+    public object vendorId;
+    public object productId;
+    public object usage;
+    public object usagePage;
+    public object inputReportSize;
+    public object outputReportSize;
+    public object featureReportSize;
+    public object elements;
+    public object collections;
+
     // ── Methods ──
     public void ToJson(){} // RVA: 0x9387B0
     public void FromJson(){} // RVA: 0x79163E0
@@ -12,6 +22,17 @@ public class HIDDeviceDescriptor : ValueType
 
 public class HIDDeviceDescriptorBuilder : ValueType
 {
+    public object usagePage;
+    public object usage;
+    public object m_CurrentReportId;
+    public object m_CurrentReportType;
+    public object m_CurrentReportOffsetInBits;
+    public object m_Elements;
+    public object m_Collections;
+    public object m_InputReportSize;
+    public object m_OutputReportSize;
+    public object m_FeatureReportSize;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9388B0
     public void StartReport(){} // RVA: 0x9388E0
@@ -23,6 +44,23 @@ public class HIDDeviceDescriptorBuilder : ValueType
 
 public class HIDElementDescriptor : ValueType
 {
+    public object usage;
+    public object usagePage;
+    public object unit;
+    public object unitExponent;
+    public object logicalMin;
+    public object logicalMax;
+    public object physicalMin;
+    public object physicalMax;
+    public object reportType;
+    public object collectionIndex;
+    public object reportId;
+    public object reportSizeInBits;
+    public object reportOffsetInBits;
+    public object flags;
+    public object usageMin;
+    public object usageMax;
+
     // ── Methods ──
     public void get_hasNullState(){} // RVA: 0x9384F0
     public void get_hasPreferredState(){} // RVA: 0x938500
@@ -70,6 +108,17 @@ public class HIDElementDescriptor[] : Array
 
 public class HIDItemStateGlobal : ValueType
 {
+    public object usagePage;
+    public object logicalMinimum;
+    public object logicalMaximum;
+    public object physicalMinimum;
+    public object physicalMaximum;
+    public object unitExponent;
+    public object unit;
+    public object reportSize;
+    public object reportCount;
+    public object reportId;
+
     // ── Methods ──
     public void GetUsagePage(){} // RVA: 0x939090
     public void GetPhysicalMin(){} // RVA: 0x9390A0
@@ -78,6 +127,17 @@ public class HIDItemStateGlobal : ValueType
 
 public class HIDItemStateLocal : ValueType
 {
+    public object usage;
+    public object usageMinimum;
+    public object usageMaximum;
+    public object designatorIndex;
+    public object designatorMinimum;
+    public object designatorMaximum;
+    public object stringIndex;
+    public object stringMinimum;
+    public object stringMaximum;
+    public object usageList;
+
     // ── Methods ──
     public void Reset(){} // RVA: 0x791A6D0
     public void SetUsage(){} // RVA: 0x938FB0
@@ -86,6 +146,11 @@ public class HIDItemStateLocal : ValueType
 
 public class HIDLayoutBuilder : Object
 {
+    public object displayName;
+    public object hidDescriptor;
+    public object parentLayout;
+    public object deviceType;
+
     // ── Methods ──
     public void Build(){} // RVA: 0x7912B50
     public void .ctor(){} // RVA: 0xB43310
@@ -93,6 +158,9 @@ public class HIDLayoutBuilder : Object
 
 public class HIDPageUsage : ValueType
 {
+    public object page;
+    public object usage;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9390C0
 }
@@ -119,12 +187,21 @@ public class HIDPageUsage[] : Array
 
 public class HIDReportData : ValueType
 {
+    public object reportId;
+    public object reportType;
+    public object currentBitOffset;
+
     // ── Methods ──
     public void FindOrAddReport(){} // RVA: 0x791A4C0
 }
 
 public class HMacDrbgProvider : Object
 {
+    public object mHMac;
+    public object mNonce;
+    public object mPersonalizationString;
+    public object mSecurityStrength;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75A8840
     public void Get(){} // RVA: 0xA21F610
@@ -138,6 +215,8 @@ public class HTTP : Object
 
 public class HTTP_REQUEST_HEADER_ID : Object
 {
+    public object m_Strings;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x75A7860
     public void .cctor(){} // RVA: 0x75A78E0
@@ -145,6 +224,15 @@ public class HTTP_REQUEST_HEADER_ID : Object
 
 public class HandInputData : ValueType
 {
+    public object TrackedDuration;
+    public object Pinches;
+    public object FingerExtended;
+    public object FingerCurls;
+    public object FingerCurlVelocities;
+    public object PreviousWristPositionPlayspace;
+    public object WristVelocity;
+    public object WristVelocityPlayspace;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x68210
     public void InternalEquals(){} // RVA: 0x68270
@@ -169,12 +257,19 @@ public class Handler : MulticastDelegate
 
 public class Handlers : Object
 {
+    public object Utf8JsonWriter;
+    public object StringHandler;
+    public object Utf8StringWriter;
+    public object ReadBoxed;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB8AE10
 }
 
 public class HandshakeHashUpdateStream : BaseOutputStream
 {
+    public object mOuter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA1C37F0
     public void Write(){} // RVA: 0xA1D4BD0
@@ -199,6 +294,12 @@ public class HapticEventDelegate : MulticastDelegate
 
 public class HapticInfo : Object
 {
+    public object playingHaptics;
+    public object hapticsDurationPlayed;
+    public object hapticsDuration;
+    public object hapticAmplitude;
+    public object node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -215,6 +316,9 @@ public class Hash128Input : TextInputBase
 
 public class HashBucket : ValueType
 {
+    public object _firstValue;
+    public object _additionalElements;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -229,6 +333,9 @@ public class HashBucket : ValueType
 
 public class HashBucket : ValueType
 {
+    public object _firstValue;
+    public object _additionalElements;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x310880
     public void get_IsEmpty(){} // RVA: 0x310890
@@ -243,6 +350,9 @@ public class HashBucket : ValueType
 
 public class HashBucket : ValueType
 {
+    public object _firstValue;
+    public object _additionalElements;
+
     // ── Methods ──
     public void get_IsEmpty(){} // RVA: 0x87D280
     public void get_FirstValue(){} // RVA: 0xA94080
@@ -258,6 +368,8 @@ public class HashBucket : ValueType
 
 public class HashBucketByRefEqualityComparer : Object
 {
+    public object s_defaultInstance;
+
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x87C0D0
     public void .ctor(){} // RVA: 0x894290
@@ -268,6 +380,8 @@ public class HashBucketByRefEqualityComparer : Object
 
 public class HashBucketByRefEqualityComparer : Object
 {
+    public object s_defaultInstance;
+
     // ── Methods ──
     public void T(){} // RVA: 0xBC21F60
     public void get_DefaultInstance(){} // RVA: 0x3DB7BD0
@@ -279,6 +393,9 @@ public class HashBucketByRefEqualityComparer : Object
 
 public class HashBucketByValueEqualityComparer : Object
 {
+    public object s_defaultInstance;
+    public object _valueComparer;
+
     // ── Methods ──
     public void get_DefaultInstance(){} // RVA: 0x87C0D0
     public void .ctor(){} // RVA: 0x894320
@@ -289,6 +406,9 @@ public class HashBucketByValueEqualityComparer : Object
 
 public class HashBucketByValueEqualityComparer : Object
 {
+    public object s_defaultInstance;
+    public object _valueComparer;
+
     // ── Methods ──
     public void T(){} // RVA: 0xBC21AE0
     public void get_DefaultInstance(){} // RVA: 0x3DB7BD0
@@ -297,222 +417,296 @@ public class HashBucketByValueEqualityComparer : Object
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
 
 public class HashCode64`1 : ValueType
 {
+    public object Value;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x3F392E0
 }
@@ -533,6 +727,11 @@ public class HashCodeOfStringDelegate : MulticastDelegate
 
 public class HashDrbgProvider : Object
 {
+    public object mDigest;
+    public object mNonce;
+    public object mPersonalizationString;
+    public object mSecurityStrength;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75A8840
     public void Get(){} // RVA: 0xA21F570
@@ -540,30 +739,42 @@ public class HashDrbgProvider : Object
 
 public class HashSetPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class HashSetPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class HashSetPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x35CF860
 }
 
 public class HashSetPoolImpl`1 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
 }
 
 public class HashsetIterator`1 : ValueType
 {
+    public object isNull;
+    public object hashset;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -574,6 +785,14 @@ public class HashsetIterator`1 : ValueType
 
 public class HashtableEnumerator : Object
 {
+    public object _hashtable;
+    public object _bucket;
+    public object _version;
+    public object _current;
+    public object _getObjectRetType;
+    public object _currentKey;
+    public object _currentValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6887B30
     public void Clone(){} // RVA: 0x67F43E0
@@ -587,6 +806,10 @@ public class HashtableEnumerator : Object
 
 public class HeadChopBone : Object
 {
+    public object transform;
+    public object scaleFactor;
+    public object applyCondition;
+
     // ── Methods ──
     public void get_Transform(){} // RVA: 0xB5DBF0
     public void CanApply(){} // RVA: 0xA6D0F10
@@ -616,12 +839,19 @@ public class HeadChopBone[] : Array
 
 public class Heading : ValueType
 {
+    public object m_Definition;
+    public object m_VelocityFilterStrength;
+    public object m_Bias;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x86FD0
 }
 
 public class HebrewValue : ValueType
 {
+    public object token;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35D5D0
 }
@@ -677,6 +907,9 @@ public class HeightmapChangedCallback : MulticastDelegate
 
 public class HierarchicalBindingsSorter : HierarchyTraversal
 {
+    public object _boundElements;
+    public object _results;
+
     // ── Methods ──
     public void get_boundElements(){} // RVA: 0xB5DBF0
     public void set_boundElements(){} // RVA: 0xB44D60
@@ -688,6 +921,9 @@ public class HierarchicalBindingsSorter : HierarchyTraversal
 
 public class Hierarchy : ValueType
 {
+    public object k_InvalidHierarchyChangeMsg;
+    public object m_Owner;
+
     // ── Methods ──
     public void get_parent(){} // RVA: 0x995B50
     public void get_children(){} // RVA: 0x995B70
@@ -717,6 +953,14 @@ public class Hierarchy : ValueType
 
 public class HierarchyBindingTracker : Object
 {
+    public object m_Panel;
+    public object m_BindingSorter;
+    public object m_BindingDataPerElement;
+    public object m_BoundElements;
+    public object m_OrderedBindings;
+    public object m_IsDirty;
+    public object m_OnPropertyChanged;
+
     // ── Methods ──
     public void GetTrackedElementsCount(){} // RVA: 0x7E71430
     public void GetBoundElements(){} // RVA: 0x7E71480
@@ -734,6 +978,16 @@ public class HierarchyBindingTracker : Object
 
 public class HierarchyDataSourceTracker : Object
 {
+    public object m_SourceInfosPool;
+    public object m_DataBindingManager;
+    public object m_ResolvedHierarchicalDataSourceContext;
+    public object m_BindingRefCount;
+    public object m_SourceInfos;
+    public object m_SourcesToRemove;
+    public object m_InvalidateResolvedDataSources;
+    public object m_Handler;
+    public object m_VisualElementHandler;
+
     // ── Methods ──
     public void GetPooledSourceInfo(){} // RVA: 0x7E72C30
     public void ReleasePooledSourceInfo(){} // RVA: 0x7E72D20
@@ -768,6 +1022,9 @@ public class HitDelegate : MulticastDelegate
 
 public class HitInfo : ValueType
 {
+    public object target;
+    public object camera;
+
     // ── Methods ──
     public void SendMessage(){} // RVA: 0x9720C0
     public void op_Implicit(){} // RVA: 0x7CABDB0
@@ -796,6 +1053,17 @@ public class HitInfo[] : Array
 
 public class HitPoint : Object
 {
+    public object name;
+    public object collider;
+    public object crossFadeTime;
+    public object _crossFader;
+    public object _timer;
+    public object _force;
+    public object _point;
+    public object length;
+    public object crossFadeSpeed;
+    public object lastTime;
+
     // ── Methods ──
     public void get_inProgress(){} // RVA: 0xCBAD80
     public void get_crossFader(){} // RVA: 0xCBAD90
@@ -816,6 +1084,10 @@ public class HitPoint : Object
 
 public class HitPointBone : HitPoint
 {
+    public object aroundCenterOfMass;
+    public object boneLinks;
+    public object rigidbody;
+
     // ── Methods ──
     public void GetLength(){} // RVA: 0xCBB7B0
     public void CrossFadeStart(){} // RVA: 0xCBB890
@@ -845,6 +1117,10 @@ public class HitPointBone[] : Array
 
 public class HitPointEffector : HitPoint
 {
+    public object offsetInForceDirection;
+    public object offsetInUpDirection;
+    public object effectorLinks;
+
     // ── Methods ──
     public void GetLength(){} // RVA: 0xCBB100
     public void CrossFadeStart(){} // RVA: 0xCBB2D0
@@ -874,6 +1150,9 @@ public class HitPointEffector[] : Array
 
 public class HotspotProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -884,18 +1163,27 @@ public class HotspotProperty : Property`2
 
 public class HttpApi : Object
 {
+    public object m_Strings;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x75A7340
 }
 
 public class HudLayout : Object
 {
+    public object PopupTransform;
+    public object UserEventTransform;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class HumanoidMuscle : Object
 {
+    public object name;
+    public object bone;
+    public object props;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }

@@ -10,7 +10,7 @@ namespace VRC.Core.Pool
         // ── Methods ──
         public void Get(){} // RVA: 0x2F7C770
         public void Contains(){} // RVA: 0x87D390
-        public void Release(){} // RVA: 0x2F7D090
+        public void Release(){} // RVA: 0x2F7CFF0
         public void Exchange(){} // RVA: 0x2F7C2F0
     }
 

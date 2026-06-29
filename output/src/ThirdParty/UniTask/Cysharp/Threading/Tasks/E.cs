@@ -8,13 +8,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
     public class EnumerableAsyncExtensions : Object
     {
         // ── Methods ──
-        public void Select(){} // RVA: 0x30A33F0
+        public void Select(){} // RVA: 0x87C630
     }
 
     public class EnumeratorAsyncExtensions : Object
     {
         // ── Methods ──
-        public void GetAwaiter(){} // RVA: 0x30AB6D0
+        public void GetAwaiter(){} // RVA: 0xA94080
         public void WithCancellation(){} // RVA: 0x7743C90
         public void ToUniTask(){} // RVA: 0x7743EE0
         public void Core(){} // RVA: 0x7744140
@@ -28,6 +28,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ExceptionHolder : Object
     {
+        public object exception;
+        public object calledGet;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void GetException(){} // RVA: 0x775D610

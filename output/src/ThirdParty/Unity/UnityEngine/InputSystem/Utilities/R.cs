@@ -16,6 +16,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x489BD0
@@ -38,6 +42,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x489D70
         public void .ctor(){} // RVA: 0x426050
@@ -52,6 +60,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89B9B0
         public void ToArray(){} // RVA: 0x87C0A0
@@ -66,6 +78,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x48A4C0
@@ -80,6 +96,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x489D70
         public void .ctor(){} // RVA: 0x489B60
@@ -94,6 +114,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x48A4C0
@@ -108,6 +132,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x92DE0
         public void get_Item(){} // RVA: 0x48A2A0
@@ -122,6 +150,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void GetEnumerator(){} // RVA: 0x489D70
@@ -136,6 +168,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x48A4C0
@@ -150,6 +186,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x489BD0
@@ -164,6 +204,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class ReadOnlyArray`1 : ValueType
     {
+        public object m_Array;
+        public object m_StartIndex;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void ToArray(){} // RVA: 0x489FC0

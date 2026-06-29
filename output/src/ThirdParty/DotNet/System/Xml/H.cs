@@ -7,104 +7,143 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class HWStack : Object
     {
+        public object stack;
+        public object growthRate;
+        public object used;
+        public object size;
+        public object limit;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85EC20
-        public void Push(){} // RVA: 0x7AE85E870
-        public void Pop(){} // RVA: 0x7AE85E9F0
-        public void Peek(){} // RVA: 0x7AE85EA30
-        public void AddToTop(){} // RVA: 0x7AE85EA70
-        public void get_Item(){} // RVA: 0x7AE85EAF0
-        public void set_Item(){} // RVA: 0x7AE85EB70
-        public void get_Length(){} // RVA: 0x7A9739200
-        public void Clone(){} // RVA: 0x7AE85EC90
+        public void .ctor(){} // RVA: 0x74D35D0
+        public void Push(){} // RVA: 0x74D3230
+        public void Pop(){} // RVA: 0x74D33A0
+        public void Peek(){} // RVA: 0x74D33E0
+        public void AddToTop(){} // RVA: 0x74D3420
+        public void get_Item(){} // RVA: 0x74D34A0
+        public void set_Item(){} // RVA: 0x74D3520
+        public void get_Length(){} // RVA: 0x2244FB0
+        public void Clone(){} // RVA: 0x74D3640
     }
 
     public class HtmlEncodedRawTextWriter : XmlEncodedRawTextWriter
     {
+        public object elementScope;
+        public object currentElementProperties;
+        public object currentAttributeProperties;
+        public object endsWithAmpersand;
+        public object uriEscapingBuffer;
+        public object mediaType;
+        public object doNotEscapeUriAttributes;
+        public object elementPropertySearch;
+        public object attributePropertySearch;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6ED6D0
-        public void WriteXmlDeclaration(){} // RVA: 0x7A80D7310
-        public void WriteDocType(){} // RVA: 0x7AE6ED700
-        public void WriteStartElement(){} // RVA: 0x7AE6EDA00
-        public void StartElementContent(){} // RVA: 0x7AE6EDBD0
-        public void WriteEndElement(){} // RVA: 0x7AE6EDC30
-        public void WriteFullEndElement(){} // RVA: 0x7AE6EDD80
-        public void WriteStartAttribute(){} // RVA: 0x7AE6EDED0
-        public void WriteEndAttribute(){} // RVA: 0x7AE6EE070
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE6EE100
-        public void WriteString(){} // RVA: 0x7AE6EE240
-        public void WriteEntityRef(){} // RVA: 0x7AE6EE330
-        public void WriteCharEntity(){} // RVA: 0x7AE6EE390
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE6EE3F0
-        public void WriteChars(){} // RVA: 0x7AE6EE450
-        public void Init(){} // RVA: 0x7AE6EE4E0
-        public void WriteMetaElement(){} // RVA: 0x7AE6EE8E0
-        public void WriteHtmlElementTextBlock(){} // RVA: 0x7AE6EEAD0
-        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7AE6EEAF0
-        public void WriteHtmlAttributeText(){} // RVA: 0x7AE6EEB40
-        public void WriteUriAttributeText(){} // RVA: 0x7AE6EEEA0
-        public void OutputRestAmps(){} // RVA: 0x7AE6EF2D0
+        public void .ctor(){} // RVA: 0x73634B0
+        public void WriteXmlDeclaration(){} // RVA: 0xB43310
+        public void WriteDocType(){} // RVA: 0x73634E0
+        public void WriteStartElement(){} // RVA: 0x73637E0
+        public void StartElementContent(){} // RVA: 0x73639B0
+        public void WriteEndElement(){} // RVA: 0x7363A10
+        public void WriteFullEndElement(){} // RVA: 0x7363B60
+        public void WriteStartAttribute(){} // RVA: 0x7363CB0
+        public void WriteEndAttribute(){} // RVA: 0x7363E50
+        public void WriteProcessingInstruction(){} // RVA: 0x7363EE0
+        public void WriteString(){} // RVA: 0x7364020
+        public void WriteEntityRef(){} // RVA: 0x7364110
+        public void WriteCharEntity(){} // RVA: 0x7364170
+        public void WriteSurrogateCharEntity(){} // RVA: 0x73641D0
+        public void WriteChars(){} // RVA: 0x7364230
+        public void Init(){} // RVA: 0x73642C0
+        public void WriteMetaElement(){} // RVA: 0x73646C0
+        public void WriteHtmlElementTextBlock(){} // RVA: 0x73648B0
+        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x73648D0
+        public void WriteHtmlAttributeText(){} // RVA: 0x7364920
+        public void WriteUriAttributeText(){} // RVA: 0x7364C80
+        public void OutputRestAmps(){} // RVA: 0x73650B0
     }
 
     public class HtmlEncodedRawTextWriterIndent : HtmlEncodedRawTextWriter
     {
+        public object indentLevel;
+        public object endBlockPos;
+        public object indentChars;
+        public object newLineOnAttributes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6EF420
-        public void WriteDocType(){} // RVA: 0x7AE6EF4D0
-        public void WriteStartElement(){} // RVA: 0x7AE6EF500
-        public void StartElementContent(){} // RVA: 0x7AE6EF6F0
-        public void WriteEndElement(){} // RVA: 0x7AE6EF770
-        public void WriteStartAttribute(){} // RVA: 0x7AE6EF820
-        public void FlushBuffer(){} // RVA: 0x7AE6EF8C0
-        public void Init(){} // RVA: 0x7AE6EF8E0
-        public void WriteIndent(){} // RVA: 0x7AE6EF970
+        public void .ctor(){} // RVA: 0x7365200
+        public void WriteDocType(){} // RVA: 0x73652B0
+        public void WriteStartElement(){} // RVA: 0x73652E0
+        public void StartElementContent(){} // RVA: 0x73654D0
+        public void WriteEndElement(){} // RVA: 0x7365550
+        public void WriteStartAttribute(){} // RVA: 0x7365600
+        public void FlushBuffer(){} // RVA: 0x73656A0
+        public void Init(){} // RVA: 0x73656C0
+        public void WriteIndent(){} // RVA: 0x7365750
     }
 
     public class HtmlTernaryTree : Object
     {
+        public object htmlElements;
+        public object htmlAttributes;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7AE6EF9F0
+        public void .cctor(){} // RVA: 0x73657D0
     }
 
     public class HtmlUtf8RawTextWriter : XmlUtf8RawTextWriter
     {
+        public object elementScope;
+        public object currentElementProperties;
+        public object currentAttributeProperties;
+        public object endsWithAmpersand;
+        public object uriEscapingBuffer;
+        public object mediaType;
+        public object doNotEscapeUriAttributes;
+        public object elementPropertySearch;
+        public object attributePropertySearch;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6EFB90
-        public void WriteXmlDeclaration(){} // RVA: 0x7A80D7310
-        public void WriteDocType(){} // RVA: 0x7AE6EFBC0
-        public void WriteStartElement(){} // RVA: 0x7AE6EFE90
-        public void StartElementContent(){} // RVA: 0x7AE6F0020
-        public void WriteEndElement(){} // RVA: 0x7AE6F0070
-        public void WriteFullEndElement(){} // RVA: 0x7AE6F01A0
-        public void WriteStartAttribute(){} // RVA: 0x7AE6F02D0
-        public void WriteEndAttribute(){} // RVA: 0x7AE6F0450
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE6F04C0
-        public void WriteString(){} // RVA: 0x7AE6F05D0
-        public void WriteEntityRef(){} // RVA: 0x7AE6F0670
-        public void WriteCharEntity(){} // RVA: 0x7AE6F06D0
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE6F0730
-        public void WriteChars(){} // RVA: 0x7AE6F0790
-        public void Init(){} // RVA: 0x7AE6F07E0
-        public void WriteMetaElement(){} // RVA: 0x7AE6F0BE0
-        public void WriteHtmlElementTextBlock(){} // RVA: 0x7AE6F0DD0
-        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7AE6F0DF0
-        public void WriteHtmlAttributeText(){} // RVA: 0x7AE6F0E40
-        public void WriteUriAttributeText(){} // RVA: 0x7AE6F1140
-        public void OutputRestAmps(){} // RVA: 0x7AE6F1510
+        public void .ctor(){} // RVA: 0x7365970
+        public void WriteXmlDeclaration(){} // RVA: 0xB43310
+        public void WriteDocType(){} // RVA: 0x73659A0
+        public void WriteStartElement(){} // RVA: 0x7365C70
+        public void StartElementContent(){} // RVA: 0x7365E00
+        public void WriteEndElement(){} // RVA: 0x7365E50
+        public void WriteFullEndElement(){} // RVA: 0x7365F80
+        public void WriteStartAttribute(){} // RVA: 0x73660B0
+        public void WriteEndAttribute(){} // RVA: 0x7366230
+        public void WriteProcessingInstruction(){} // RVA: 0x73662A0
+        public void WriteString(){} // RVA: 0x73663B0
+        public void WriteEntityRef(){} // RVA: 0x7366450
+        public void WriteCharEntity(){} // RVA: 0x73664B0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7366510
+        public void WriteChars(){} // RVA: 0x7366570
+        public void Init(){} // RVA: 0x73665C0
+        public void WriteMetaElement(){} // RVA: 0x73669C0
+        public void WriteHtmlElementTextBlock(){} // RVA: 0x7366BB0
+        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7366BD0
+        public void WriteHtmlAttributeText(){} // RVA: 0x7366C20
+        public void WriteUriAttributeText(){} // RVA: 0x7366F20
+        public void OutputRestAmps(){} // RVA: 0x73672F0
     }
 
     public class HtmlUtf8RawTextWriterIndent : HtmlUtf8RawTextWriter
     {
+        public object indentLevel;
+        public object endBlockPos;
+        public object indentChars;
+        public object newLineOnAttributes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE803310
-        public void WriteDocType(){} // RVA: 0x7AE8033C0
-        public void WriteStartElement(){} // RVA: 0x7AE8033F0
-        public void StartElementContent(){} // RVA: 0x7AE8035B0
-        public void WriteEndElement(){} // RVA: 0x7AE803630
-        public void WriteStartAttribute(){} // RVA: 0x7AE8037D0
-        public void FlushBuffer(){} // RVA: 0x7AE803870
-        public void Init(){} // RVA: 0x7AE803890
-        public void WriteIndent(){} // RVA: 0x7AE803920
+        public void .ctor(){} // RVA: 0x7478A50
+        public void WriteDocType(){} // RVA: 0x7478B00
+        public void WriteStartElement(){} // RVA: 0x7478B30
+        public void StartElementContent(){} // RVA: 0x7478CF0
+        public void WriteEndElement(){} // RVA: 0x7478D70
+        public void WriteStartAttribute(){} // RVA: 0x7478F10
+        public void FlushBuffer(){} // RVA: 0x7478FB0
+        public void Init(){} // RVA: 0x7478FD0
+        public void WriteIndent(){} // RVA: 0x7479060
     }
 
 }

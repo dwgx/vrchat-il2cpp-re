@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq
-// Classes: 82
-// Methods: 333
+// Classes: 86
+// Methods: 342
 
 namespace ThirdParty.DotNet.System.Linq
 {
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void ToArray(){} // RVA: 0x87C0A0
@@ -14,6 +17,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FDC0
         public void ToArray(){} // RVA: 0x77ED60
@@ -21,6 +27,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE30
         public void ToArray(){} // RVA: 0x77ED60
@@ -28,20 +37,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
+        public object items;
+        public object count;
 
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE90
         public void ToArray(){} // RVA: 0x77ED60
@@ -49,55 +47,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
+        public object items;
+        public object count;
 
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x77FE20
-        public void ToArray(){} // RVA: 0x77ED60
-    }
-
-    public class Buffer`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77ED90
         public void ToArray(){} // RVA: 0x77ED60
@@ -105,6 +57,69 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77ED80
         public void ToArray(){} // RVA: 0x77ED60
@@ -112,6 +127,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -119,6 +137,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -126,6 +147,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -133,6 +157,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -140,6 +167,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -147,6 +177,29 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77EDE0
         public void ToArray(){} // RVA: 0x77ED60
@@ -154,6 +207,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -161,6 +217,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -168,6 +227,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77EDF0
         public void ToArray(){} // RVA: 0x77ED60
@@ -175,6 +237,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -182,6 +247,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77ED40
         public void ToArray(){} // RVA: 0x77EC40
@@ -189,6 +257,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE20
         public void ToArray(){} // RVA: 0x77ED60
@@ -196,6 +267,9 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77FE50
         public void ToArray(){} // RVA: 0x77ED60
@@ -203,13 +277,28 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Buffer`1 : ValueType
     {
+        public object items;
+        public object count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77EDF0
         public void ToArray(){} // RVA: 0x77ED60
     }
 
+    public class Buffer`1 : ValueType
+    {
+        public object items;
+        public object count;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x77FE20
+        public void ToArray(){} // RVA: 0x77ED60
+    }
+
     public class EmptyEnumerable`1 : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
     }
@@ -218,20 +307,20 @@ namespace ThirdParty.DotNet.System.Linq
     {
         // ── Methods ──
         public void Select(){} // RVA: 0x3093CC0
-        public void Contains(){} // RVA: 0x308A810
+        public void Contains(){} // RVA: 0x308B300
         public void Where(){} // RVA: 0x30A1FE0
         public void WhereIterator(){} // RVA: 0x87C630
         public void SelectIterator(){} // RVA: 0x3077F70
         public void CombinePredicates(){} // RVA: 0x3079D20
         public void CombineSelectors(){} // RVA: 0x87C630
-        public void SelectMany(){} // RVA: 0x30950D0
-        public void SelectManyIterator(){} // RVA: 0x3077F70
+        public void SelectMany(){} // RVA: 0x3095DC0
+        public void SelectManyIterator(){} // RVA: 0x3096230
         public void Take(){} // RVA: 0x309A680
         public void TakeIterator(){} // RVA: 0x309A880
         public void Skip(){} // RVA: 0x309A2B0
         public void SkipIterator(){} // RVA: 0x2A5A380
-        public void OrderBy(){} // RVA: 0x3092960
-        public void OrderByDescending(){} // RVA: 0x88CCC0
+        public void OrderBy(){} // RVA: 0x3092840
+        public void OrderByDescending(){} // RVA: 0x3092E90
         public void ThenBy(){} // RVA: 0x309AB90
         public void GroupBy(){} // RVA: 0x3090A40
         public void Concat(){} // RVA: 0x308A070
@@ -256,7 +345,7 @@ namespace ThirdParty.DotNet.System.Linq
         public void AsEnumerable(){} // RVA: 0x2303260
         public void ToArray(){} // RVA: 0x309B400
         public void ToList(){} // RVA: 0x30A0E20
-        public void ToDictionary(){} // RVA: 0x309BB50
+        public void ToDictionary(){} // RVA: 0x309CC10
         public void OfType(){} // RVA: 0x3092640
         public void OfTypeIterator(){} // RVA: 0x2BB74B0
         public void Cast(){} // RVA: 0x3078340
@@ -331,6 +420,12 @@ namespace ThirdParty.DotNet.System.Linq
     public class EnumerableSorter`1 : Object
     {
         // ── Methods ──
+        public void Sort(){} // RVA: 0x3909AB0
+    }
+
+    public class EnumerableSorter`1 : Object
+    {
+        // ── Methods ──
         public void ComputeKeys(){} // RVA: 0x899290
         public void CompareKeys(){} // RVA: 0x8830B0
         public void Sort(){} // RVA: 0x88B6A0
@@ -350,6 +445,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3909ED0
         public void ComputeKeys(){} // RVA: 0x390B300
@@ -358,12 +459,24 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3909ED0
     }
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3909ED0
         public void ComputeKeys(){} // RVA: 0x390B470
@@ -372,6 +485,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3909ED0
         public void ComputeKeys(){} // RVA: 0x390B300
@@ -380,6 +499,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3909ED0
         public void ComputeKeys(){} // RVA: 0x390A310
@@ -388,6 +513,24 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class EnumerableSorter`2 : EnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3909ED0
+    }
+
+    public class EnumerableSorter`2 : EnumerableSorter`1
+    {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DAB0
         public void ComputeKeys(){} // RVA: 0x899290
@@ -408,6 +551,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`3 : Object
     {
+        public object source;
+        public object keySelector;
+        public object elementSelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3F2A910
         public void GetEnumerator(){} // RVA: 0x3F2AB80
@@ -416,22 +564,38 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class GroupedEnumerable`3 : Object
     {
+        public object source;
+        public object keySelector;
+        public object elementSelector;
+        public object comparer;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3F2A910
+        public void GetEnumerator(){} // RVA: 0x3F2AB80
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3F2ABE0
+    }
+
+    public class GroupedEnumerable`3 : Object
+    {
+        public object source;
+        public object keySelector;
+        public object elementSelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899870
         public void GetEnumerator(){} // RVA: 0x87C0A0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
     }
 
-    public class GroupedEnumerable`3 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3F2A910
-        public void GetEnumerator(){} // RVA: 0x3F2AB80
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3F2ABE0
-    }
-
     public class GroupedEnumerable`4 : Object
     {
+        public object source;
+        public object keySelector;
+        public object elementSelector;
+        public object comparer;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8999E0
         public void GetEnumerator(){} // RVA: 0x87C0A0
@@ -441,13 +605,13 @@ namespace ThirdParty.DotNet.System.Linq
     public class IGrouping`2
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0xA94080
+        public void get_Key(){} // RVA: 0x87C0A0
     }
 
     public class IGrouping`2
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x87C0A0
+        public void get_Key(){} // RVA: 0xA94080
     }
 
     public class IGrouping`2[] : Array
@@ -497,17 +661,22 @@ namespace ThirdParty.DotNet.System.Linq
     public class IdentityFunction`1 : Object
     {
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x87C0D0
+        public void get_Instance(){} // RVA: 0x3FCC250
     }
 
     public class IdentityFunction`1 : Object
     {
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x3FCC250
+        public void get_Instance(){} // RVA: 0x87C0D0
     }
 
     public class Lookup`2 : Object
     {
+        public object comparer;
+        public object groupings;
+        public object lastGrouping;
+        public object count;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x88E8D0
         public void GetEnumerator(){} // RVA: 0x466CA40
@@ -522,6 +691,30 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Lookup`2 : Object
     {
+        public object comparer;
+        public object groupings;
+        public object lastGrouping;
+        public object count;
+
+        // ── Methods ──
+        public void Create(){} // RVA: 0x88E8D0
+        public void GetEnumerator(){} // RVA: 0x466CA40
+        public void .ctor(){} // RVA: 0x466D090
+        public void get_Item(){} // RVA: 0x466D1B0
+        public void ApplyResultSelector(){} // RVA: 0x87C540
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x466CAE0
+        public void InternalGetHashCode(){} // RVA: 0x3F40860
+        public void GetGrouping(){} // RVA: 0x466D240
+        public void Resize(){} // RVA: 0x466D620
+    }
+
+    public class Lookup`2 : Object
+    {
+        public object comparer;
+        public object groupings;
+        public object lastGrouping;
+        public object count;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x88E8D0
         public void .ctor(){} // RVA: 0x894320
@@ -534,22 +727,10 @@ namespace ThirdParty.DotNet.System.Linq
         public void Resize(){} // RVA: 0x894290
     }
 
-    public class Lookup`2 : Object
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x88E8D0
-        public void GetEnumerator(){} // RVA: 0x466CA40
-        public void .ctor(){} // RVA: 0x466D090
-        public void get_Item(){} // RVA: 0x466D1B0
-        public void ApplyResultSelector(){} // RVA: 0x87C540
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x466CAE0
-        public void InternalGetHashCode(){} // RVA: 0x3F40860
-        public void GetGrouping(){} // RVA: 0x466D240
-        public void Resize(){} // RVA: 0x466D620
-    }
-
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4842370
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -560,6 +741,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4842370
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -570,6 +753,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4842370
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -580,6 +765,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4842370
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -590,6 +777,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4841FE0
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -600,6 +789,20 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x4842370
+        public void GetEnumerableSorter(){} // RVA: 0x87C540
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4842400
+        public void System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable(){} // RVA: 0x88DF10
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class OrderedEnumerable`1 : Object
+    {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x87C0A0
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -610,6 +813,8 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x48424A0
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -620,6 +825,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4842B00
         public void GetEnumerableSorter(){} // RVA: 0x4842780
@@ -627,6 +837,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48430D0
         public void GetEnumerableSorter(){} // RVA: 0x4842780
@@ -634,6 +849,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4842CF0
         public void GetEnumerableSorter(){} // RVA: 0x4842780
@@ -641,6 +861,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4842B00
         public void GetEnumerableSorter(){} // RVA: 0x4842780
@@ -648,6 +873,11 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4842B00
         public void GetEnumerableSorter(){} // RVA: 0x4842780
@@ -655,6 +885,23 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class OrderedEnumerable`2 : OrderedEnumerable`1
     {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4842B00
+        public void GetEnumerableSorter(){} // RVA: 0x4842780
+    }
+
+    public class OrderedEnumerable`2 : OrderedEnumerable`1
+    {
+        public object parent;
+        public object keySelector;
+        public object comparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899AC0
         public void GetEnumerableSorter(){} // RVA: 0x87C540
@@ -662,17 +909,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4ABDD30
-        public void Add(){} // RVA: 0x4ABDED0
-        public void Remove(){} // RVA: 0x4ABDF00
-        public void Find(){} // RVA: 0x4ABE120
-        public void Resize(){} // RVA: 0x4ABE370
-        public void InternalGetHashCode(){} // RVA: 0x4ABE580
-    }
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
 
-    public class Set`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABD480
         public void Add(){} // RVA: 0x4ABD620
@@ -684,6 +926,29 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4ABDD30
+        public void Add(){} // RVA: 0x4ABDED0
+        public void Remove(){} // RVA: 0x4ABDF00
+        public void Find(){} // RVA: 0x4ABE120
+        public void Resize(){} // RVA: 0x4ABE370
+        public void InternalGetHashCode(){} // RVA: 0x4ABE580
+    }
+
+    public class Set`1 : Object
+    {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABE5E0
         public void Add(){} // RVA: 0x4ABE780
@@ -695,6 +960,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABE5E0
         public void Add(){} // RVA: 0x4ABE780
@@ -706,6 +977,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABE5E0
         public void Add(){} // RVA: 0x4ABE780
@@ -717,6 +994,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABE5E0
         public void Add(){} // RVA: 0x4ABE780
@@ -728,6 +1011,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Add(){} // RVA: 0xA94080
@@ -739,6 +1028,12 @@ namespace ThirdParty.DotNet.System.Linq
 
     public class Set`1 : Object
     {
+        public object buckets;
+        public object slots;
+        public object count;
+        public object freeList;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ABE5E0
         public void Add(){} // RVA: 0x4ABE780

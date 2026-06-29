@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 {
     public class ReadBufferState : ValueType
     {
+        public object _buffer;
+        public object _offset;
+        public object _count;
+        public object _maxCount;
+        public object _isFirstBlock;
+        public object _isFinalBlock;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x912800
         public void get_IsFinalBlock(){} // RVA: 0xEE1A0
@@ -20,6 +27,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceEqualsWrapper : ValueType
     {
+        public object _object;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Equals(){} // RVA: 0x3189D0
@@ -28,6 +37,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceEqualsWrapper : ValueType
     {
+        public object _object;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Equals(){} // RVA: 0x3189D0
@@ -36,6 +47,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceHandler : Object
     {
+        public object HandlingStrategy;
+        public object _preserve;
+        public object _ignoreCycles;
+
         // ── Methods ──
         public void get_Preserve(){} // RVA: 0x6DC3560
         public void CreateResolver(){} // RVA: 0xBFA210
@@ -45,6 +60,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class ReferenceHandler : Object
     {
+        public object HandlingStrategy;
+        public object _preserve;
+        public object _ignoreCycles;
+
         // ── Methods ──
         public void get_Preserve(){} // RVA: 0x732D970
         public void get_IgnoreCycles(){} // RVA: 0x732D9D0

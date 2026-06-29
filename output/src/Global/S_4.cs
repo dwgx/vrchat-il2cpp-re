@@ -1,24 +1,24 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 436
+// Methods: 452
 
 public class SM2P256V1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA4482A0
     public void .cctor(){} // RVA: 0xA448480
 }
 
-public class SafeModeOptions : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class Sample : Object
 {
+    public object Timestamp;
+    public object ThreadId;
+    public object StackId;
+
     // ── Methods ──
     public void WriteTo(){} // RVA: 0x6E4D880
     public void .ctor(){} // RVA: 0xB43310
@@ -26,6 +26,15 @@ public class Sample : Object
 
 public class SchemaScope : Object
 {
+    public object _tokenType;
+    public object _schemas;
+    public object _requiredProperties;
+    public object _currentPropertyName;
+    public object _arrayItemCount;
+    public object _isUniqueArray;
+    public object _uniqueArrayItems;
+    public object _currentItemWriter;
+
     // ── Methods ──
     public void get_CurrentPropertyName(){} // RVA: 0xB70160
     public void set_CurrentPropertyName(){} // RVA: 0xB44DC0
@@ -44,6 +53,10 @@ public class SchemaScope : Object
 
 public class ScopeSnapshot : Object
 {
+    public object _options;
+    public object _snapshot;
+    public object _scopeManager;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC27FD0
     public void Dispose(){} // RVA: 0x6E8C290
@@ -65,6 +78,12 @@ public class ScrollerSlider : Slider
 
 public class SearchParams : ApiModel
 {
+    public object _searchQuery;
+    public object _searchTags;
+    public object _searchContent;
+    public object _searchInFields;
+    public object _sortBy;
+
     // ── Methods ──
     public void get_searchQuery(){} // RVA: 0xBBFF90
     public void set_searchQuery(){} // RVA: 0xBBFFA0
@@ -79,40 +98,14 @@ public class SearchParams : ApiModel
     public void .ctor(){} // RVA: 0xA51C030
 }
 
-public class Secp521r1Holder : X9ECParametersHolder
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void CreateParameters(){} // RVA: 0xA411330
-    public void .cctor(){} // RVA: 0xA411560
-}
-
-public class Sect113r1Holder : X9ECParametersHolder
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void CreateParameters(){} // RVA: 0xA411600
-    public void .cctor(){} // RVA: 0xA411820
-}
-
-public class Sect113r2Holder : X9ECParametersHolder
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void CreateParameters(){} // RVA: 0xA4118C0
-    public void .cctor(){} // RVA: 0xA411AE0
-}
-
-public class Sect131r1Holder : X9ECParametersHolder
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void CreateParameters(){} // RVA: 0xA411B80
-    public void .cctor(){} // RVA: 0xA411DA0
-}
-
 public class Sect131r2Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA411E40
@@ -121,6 +114,12 @@ public class Sect131r2Holder : X9ECParametersHolder
 
 public class Sect163k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA412100
@@ -129,6 +128,12 @@ public class Sect163k1Holder : X9ECParametersHolder
 
 public class Sect163r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA412350
@@ -137,6 +142,12 @@ public class Sect163r1Holder : X9ECParametersHolder
 
 public class Sect163r2Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA412610
@@ -145,6 +156,10 @@ public class Sect163r2Holder : X9ECParametersHolder
 
 public class Sect193r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA4128C0
@@ -153,6 +168,10 @@ public class Sect193r1Holder : X9ECParametersHolder
 
 public class Sect193r2Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA412B80
@@ -161,6 +180,10 @@ public class Sect193r2Holder : X9ECParametersHolder
 
 public class Sect233k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA412E40
@@ -169,6 +192,10 @@ public class Sect233k1Holder : X9ECParametersHolder
 
 public class Sect233r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413080
@@ -177,6 +204,10 @@ public class Sect233r1Holder : X9ECParametersHolder
 
 public class Sect239k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413330
@@ -185,6 +216,12 @@ public class Sect239k1Holder : X9ECParametersHolder
 
 public class Sect283k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413570
@@ -193,6 +230,12 @@ public class Sect283k1Holder : X9ECParametersHolder
 
 public class Sect283r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA4137C0
@@ -201,6 +244,10 @@ public class Sect283r1Holder : X9ECParametersHolder
 
 public class Sect409k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413A70
@@ -209,6 +256,10 @@ public class Sect409k1Holder : X9ECParametersHolder
 
 public class Sect409r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413CB0
@@ -217,6 +268,12 @@ public class Sect409r1Holder : X9ECParametersHolder
 
 public class Sect571k1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA413F60
@@ -225,26 +282,23 @@ public class Sect571k1Holder : X9ECParametersHolder
 
 public class Sect571r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+    public object m;
+    public object k1;
+    public object k2;
+    public object k3;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA4141B0
     public void .cctor(){} // RVA: 0xA4143C0
 }
 
-public class Segment : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x4A81070
-    public void get_FreezeOffset(){} // RVA: 0x4A80900
-    public void EnsureFrozenForEnqueues(){} // RVA: 0x4A81770
-    public void TryEnqueue(){} // RVA: 0x4A81CB0
-    public void get_Capacity(){} // RVA: 0x17F0080
-    public void TryDequeue(){} // RVA: 0x4A81870
-    public void TryPeek(){} // RVA: 0x4A81AC0
-}
-
 public class Select : Object
 {
+    public object m_Observable;
+    public object m_Observer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void OnCompleted(){} // RVA: 0x894290
@@ -254,6 +308,9 @@ public class Select : Object
 
 public class Select : Object
 {
+    public object m_Observable;
+    public object m_Observer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void OnCompleted(){} // RVA: 0x894290
@@ -263,6 +320,14 @@ public class Select : Object
 
 public class Selection : Object
 {
+    public object m_IndexLookup;
+    public object m_IdLookup;
+    public object m_MinIndex;
+    public object m_MaxIndex;
+    public object _selectedIds;
+    public object indices;
+    public object items;
+
     // ── Methods ──
     public void get_selectedIds(){} // RVA: 0xB70160
     public void set_selectedIds(){} // RVA: 0xB44DC0
@@ -289,6 +354,9 @@ public class Selection : Object
 
 public class SelectorWorkItem : ValueType
 {
+    public object type;
+    public object input;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3616C0
 }
@@ -382,6 +450,10 @@ public class SerializeVector3Delegate : MulticastDelegate
 
 public class SerializedDataOverrideRange : ValueType
 {
+    public object sourceAsset;
+    public object templateId;
+    public object attributeOverrides;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x99BB10
 }
@@ -406,21 +478,6 @@ public class SerializedSurfaceGeometry[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class SetAnimatorBoolDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA720870
-    public void Invoke(){} // RVA: 0xCA8D60
-    public void BeginInvoke(){} // RVA: 0xA7209E0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class SetErrorLocation : ValueType
-{
-    // ── Methods ──
-    public void ToString(){} // RVA: 0xA79600
-}
-
 public class SetOwnerDelegate : MulticastDelegate
 {
     // ── Methods ──
@@ -432,38 +489,39 @@ public class SetOwnerDelegate : MulticastDelegate
 
 public class Settings : Object
 {
+    public object damperForSpring;
+    public object maxForceMlp;
+    public object IMlp;
+    public object velocityF;
+    public object copOffset;
+    public object torqueMlp;
+    public object maxTorqueMag;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBAB370
 }
 
 public class Settings : Object
 {
+    public object scaleMlp;
+    public object headTrackerForward;
+    public object headTrackerUp;
+    public object bodyTrackerForward;
+    public object bodyTrackerUp;
+    public object handTrackerForward;
+    public object handTrackerUp;
+    public object footTrackerForward;
+    public object footTrackerUp;
+    public object headOffset;
+    public object handOffset;
+    public object footForwardOffset;
+    public object footInwardOffset;
+    public object footHeadingOffset;
+    public object pelvisPositionWeight;
+    public object pelvisRotationWeight;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xCCBA60
-}
-
-public class Settings : Object
-{
-    // ── Methods ──
-    public void get_Default(){} // RVA: 0x64A5CD0
-    public void .cctor(){} // RVA: 0x64A5D30
-    public void get_FormatDefaultValues(){} // RVA: 0xC120A0
-    public void get_TypeRegistry(){} // RVA: 0xB465B0
-    public void get_FormatEnumsAsIntegers(){} // RVA: 0xC38360
-    public void get_PreserveProtoFieldNames(){} // RVA: 0xF45EE0
-    public void .ctor(){} // RVA: 0x64A6120
-}
-
-public class ShapeData : ValueType
-{
-    // ── Methods ──
-    public void ToCollisionShape(){} // RVA: 0x9C6500
-    public void GetMidpoint(){} // RVA: 0x9C6590
-    public void GetClosestPoint(){} // RVA: 0x9C6630
-    public void CalcVelocityAtPoint(){} // RVA: 0x9C6690
-    public void UpdateShape(){} // RVA: 0x9C66E0
-    public void GetTransformLossyScale(){} // RVA: 0x9C6710
-    public void UpdateVelocity(){} // RVA: 0x9C6720
 }
 
 public class SharedPtr : SharedPtrHandle
@@ -490,8 +548,17 @@ public class SharedPtr : SharedPtrHandle
     public void Get(){} // RVA: 0x6556450
 }
 
+public class SharedStatic : Object
+{
+    // ── Methods ──
+    public void GetOrCreateSharedStaticInternal(){} // RVA: 0x7B4B1E0
+}
+
 public class SheetHandleKey : ValueType
 {
+    public object sheetInstanceID;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9A1180
 }
@@ -506,6 +573,8 @@ public class SheetHandleKeyComparer : Object
 
 public class SigningKey : ValueType
 {
+    public object _key;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x77900
     public void .ctor(){} // RVA: 0xA73330
@@ -518,8 +587,46 @@ public class SimpleScheduledItem : VisualElementScheduledItem`1
     public void PerformTimerUpdate(){} // RVA: 0x7EC5740
 }
 
+public class SingleConsumerUnboundedChannelReader : ChannelReader`1
+{
+    public object CancellationCallbackDelegate;
+    public object parent;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object core;
+    public object isWaiting;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void get_Completion(){} // RVA: 0x87BEB0
+    public void TryRead(){} // RVA: 0x87D350
+    public void WaitToReadAsync(){} // RVA: 0x87C240
+    public void SingalContinuation(){} // RVA: 0x894290
+    public void SingalCancellation(){} // RVA: 0x8943F0
+    public void SingalCompleted(){} // RVA: 0x894320
+    public void ReadAllAsync(){} // RVA: 0x881D60
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x87D310
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x894470
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x87D010
+    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x89DD60
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x87C130
+    public void CancellationCallback(){} // RVA: 0x894350
+}
+
+public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
+{
+    public object parent;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void TryWrite(){} // RVA: 0xA94080
+    public void TryComplete(){} // RVA: 0x87D350
+}
+
 public class SingleQueryMatcher : UQueryMatcher
 {
+    public object _match;
+
     // ── Methods ──
     public void get_match(){} // RVA: 0xB465B0
     public void set_match(){} // RVA: 0xBA9BA0
@@ -531,12 +638,20 @@ public class SingleQueryMatcher : UQueryMatcher
 
 public class Size3f : ValueType
 {
+    public object w;
+    public object h;
+    public object d;
+    public object zero;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x6BE3900
 }
 
 public class SizeGroup : Object
 {
+    public object ArrayStack;
+    public object LowWaterMark;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void TryGetArray(){} // RVA: 0x87C0A0
@@ -548,12 +663,20 @@ public class SizeGroup : Object
 
 public class Sizef : ValueType
 {
+    public object w;
+    public object h;
+    public object zero;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x6BE38C0
 }
 
 public class Sizei : ValueType
 {
+    public object w;
+    public object h;
+    public object zero;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x8CAC70
     public void GetHashCode(){} // RVA: 0x8C8980
@@ -562,6 +685,14 @@ public class Sizei : ValueType
 
 public class SkeletonPoseData : ValueType
 {
+    public object _rootPose;
+    public object _rootScale;
+    public object _boneRotations;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _boneTranslations;
+    public object _skeletonChangedCount;
+
     // ── Methods ──
     public void get_RootPose(){} // RVA: 0x362E00
     public void set_RootPose(){} // RVA: 0x456E00
@@ -581,6 +712,11 @@ public class SkeletonPoseData : ValueType
 
 public class SkeletonRendererData : ValueType
 {
+    public object _rootScale;
+    public object _isDataValid;
+    public object _isDataHighConfidence;
+    public object _shouldUseSystemGestureMaterial;
+
     // ── Methods ──
     public void get_RootScale(){} // RVA: 0x88D10
     public void set_RootScale(){} // RVA: 0xD1B20
@@ -602,46 +738,6 @@ public class SkeletonsUpdatedHandler : MulticastDelegate
 }
 
 public class SlotDefinition[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class Slot[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7E130
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A850
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4020
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34460
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A850
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class Slot[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -703,8 +799,27 @@ public class Slot[] : Array
 
 public class SortedColumnState : ValueType
 {
+    public object columnDesc;
+    public object direction;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x28E70
+}
+
+public class SourceInfo : Object
+{
+    public object m_DetectedChanges;
+    public object _lastVersion;
+    public object _refCount;
+
+    // ── Methods ──
+    public void get_lastVersion(){} // RVA: 0xB465B0
+    public void set_lastVersion(){} // RVA: 0x15428E0
+    public void get_refCount(){} // RVA: 0xFEAE90
+    public void set_refCount(){} // RVA: 0x1269760
+    public void get_detectedChanges(){} // RVA: 0x7E76400
+    public void get_detectedChangesNoAlloc(){} // RVA: 0xB5DBF0
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class SourceInfo[] : Array
@@ -727,20 +842,12 @@ public class SourceInfo[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class SpecialCharacter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x98E580
-}
-
-public class Sphere : ValueType
-{
-    // ── Methods ──
-    public void ClosestPoint(){} // RVA: 0x9C6960
-}
-
 public class SpineEffector : Object
 {
+    public object effectorType;
+    public object horizontalWeight;
+    public object verticalWeight;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC06540
 }
@@ -767,36 +874,73 @@ public class SpineEffector[] : Array
 
 public class SpriteDataObject : Object
 {
+    public object frames;
+    public object meta;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class SpriteFrame : ValueType
 {
+    public object x;
+    public object y;
+    public object w;
+    public object h;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x945620
 }
 
 public class SpriteSize : ValueType
 {
+    public object w;
+    public object h;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x9457C0
 }
 
 public class StackRow : ValueType
 {
+    public object SizeOrLength;
+    public object NumberOfRows;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
 }
 
 public class StackRowStack : ValueType
 {
+    public object _rentedBuffer;
+    public object _topOfStack;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8ED960
     public void Dispose(){} // RVA: 0x8ED970
     public void Push(){} // RVA: 0x8ED980
     public void Pop(){} // RVA: 0x8ED990
     public void Enlarge(){} // RVA: 0x8ED9A0
+}
+
+public class Stage[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB23C0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7B630
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8440
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6D5F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7B630
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class StartSendingMsg : Object
@@ -807,6 +951,19 @@ public class StartSendingMsg : Object
 
 public class State : ValueType
 {
+    public object mappingWeightMlp;
+    public object pinWeightMlp;
+    public object muscleWeightMlp;
+    public object maxForceMlp;
+    public object muscleDamperMlp;
+    public object muscleDamperAdd;
+    public object immunity;
+    public object impulseMlp;
+    public object velocity;
+    public object angularVelocity;
+    public object isDisconnected;
+    public object resetFlag;
+
     // ── Methods ──
     public void get_Default(){} // RVA: 0xBBA780
     public void Clamp(){} // RVA: 0x49D0
@@ -814,17 +971,89 @@ public class State : ValueType
 
 public class StateChangeMonitorDelegate : Object
 {
+    public object valueChangeCallback;
+    public object timerExpiredCallback;
+
     // ── Methods ──
     public void NotifyControlStateChanged(){} // RVA: 0x7933E70
     public void NotifyTimerExpired(){} // RVA: 0x7933EA0
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class StateChanged : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3EF9EE0
+    public void Invoke(){} // RVA: 0xB9E010
+}
+
+public class StateDownHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F15620
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class StateDownHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F458B0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class StateHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F15740
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class StateHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F459D0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
 public class StateSettings : ValueType
 {
+    public object killDuration;
+    public object deadMuscleWeight;
+    public object deadMuscleDamper;
+    public object maxFreezeSqrVelocity;
+    public object freezePermanently;
+    public object enableAngularLimitsOnKill;
+    public object enableInternalCollisionsOnKill;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4C90
     public void get_Default(){} // RVA: 0xBE10E0
+}
+
+public class StateUpHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F156B0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class StateUpHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6F45940
+    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class StatusDelegate : MulticastDelegate
@@ -832,6 +1061,30 @@ public class StatusDelegate : MulticastDelegate
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC3B2D0
     public void Invoke(){} // RVA: 0xB9E010
+}
+
+public class SteamVR_Utils : Object
+{
+    public object secretKey;
+
+    // ── Methods ──
+    public void IsValid(){} // RVA: 0x6F097C0
+    public void Slerp(){} // RVA: 0x6F09830
+    public void Lerp(){} // RVA: 0x6F09A10
+    public void InverseLerp(){} // RVA: 0x6F09AB0
+    public void Saturate(){} // RVA: 0x6F09AE0
+    public void Abs(){} // RVA: 0x6F09B40
+    public void _copysign(){} // RVA: 0x6F09B80
+    public void GetRotation(){} // RVA: 0x6F09BC0
+    public void GetPosition(){} // RVA: 0x6F09DF0
+    public void GetScale(){} // RVA: 0x6F09E20
+    public void GetLossyScale(){} // RVA: 0x6F09FA0
+    public void GetBadMD5Hash(){} // RVA: 0x6F0A0E0
+    public void GetBadMD5HashFromFile(){} // RVA: 0x6F0A3A0
+    public void SanitizePath(){} // RVA: 0x6F0A410
+    public void FindType(){} // RVA: 0x6F0A540
+    public void CallSystemFn(){} // RVA: 0x6F0A690
+    public void TakeStereoScreenshot(){} // RVA: 0x6F0A840
 }
 
 public class StopSendingMsg : Object
@@ -856,6 +1109,9 @@ public class StructGetter`2 : MulticastDelegate
 
 public class Subscriber : Object
 {
+    public object owner;
+    public object observer;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x78B6AE0
     public void .ctor(){} // RVA: 0xB43310
@@ -863,6 +1119,9 @@ public class Subscriber : Object
 
 public class Subscriber : Object
 {
+    public object owner;
+    public object observer;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x78BAA10
     public void .ctor(){} // RVA: 0xB43310
@@ -870,6 +1129,16 @@ public class Subscriber : Object
 
 public class Subscription : ApiModel
 {
+    public object _steamItemId;
+    public object _oculusSku;
+    public object _googleProductId;
+    public object _picoSku;
+    public object _amount;
+    public object _description;
+    public object _interval;
+    public object _periodAmount;
+    public object _tier;
+
     // ── Methods ──
     public void get_steamItemId(){} // RVA: 0xBBFF90
     public void set_steamItemId(){} // RVA: 0xBBFFA0
@@ -894,6 +1163,10 @@ public class Subscription : ApiModel
 
 public class Subscription : Object
 {
+    public object gate;
+    public object parent;
+    public object unsubscribeTarget;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void Dispose(){} // RVA: 0x894290
@@ -901,24 +1174,52 @@ public class Subscription : Object
 
 public class SwitchFullInputReport : ValueType
 {
+    public object kSize;
+    public object ExpectedReportId;
+    public object reportId;
+    public object buttons0;
+    public object buttons1;
+    public object buttons2;
+    public object left0;
+    public object left1;
+    public object left2;
+    public object right0;
+    public object right1;
+    public object right2;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x937D20
 }
 
 public class SwitchHIDGenericInputReport : ValueType
 {
+    public object reportId;
+
     // ── Methods ──
     public void get_Format(){} // RVA: 0x790C340
 }
 
 public class SwitchInputOnlyReport : ValueType
 {
+    public object kSize;
+    public object buttons0;
+    public object buttons1;
+    public object hat;
+    public object leftX;
+    public object leftY;
+    public object rightX;
+    public object rightY;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x937CA0
 }
 
 public class SwitchMagicOutputHIDBluetooth : ValueType
 {
+    public object kSize;
+    public object baseCommand;
+    public object report;
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0x790C350
     public void get_typeStatic(){} // RVA: 0x937D60
@@ -927,6 +1228,10 @@ public class SwitchMagicOutputHIDBluetooth : ValueType
 
 public class SwitchMagicOutputHIDUSB : ValueType
 {
+    public object kSize;
+    public object baseCommand;
+    public object report;
+
     // ── Methods ──
     public void get_Type(){} // RVA: 0x790C350
     public void get_typeStatic(){} // RVA: 0x937D60
@@ -935,6 +1240,26 @@ public class SwitchMagicOutputHIDUSB : ValueType
 
 public class SwitchSimpleInputReport : ValueType
 {
+    public object kSize;
+    public object ExpectedReportId;
+    public object reportId;
+    public object buttons0;
+    public object buttons1;
+    public object hat;
+    public object leftX;
+    public object leftY;
+    public object rightX;
+    public object rightY;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x937CE0
+}
+
+public class SystemFn : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x46BED80
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x23E7ED0
+    public void EndInvoke(){} // RVA: 0xB44BE0
 }

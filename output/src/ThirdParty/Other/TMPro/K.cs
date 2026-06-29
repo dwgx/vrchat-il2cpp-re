@@ -7,6 +7,14 @@ namespace ThirdParty.Other.TMPro
 {
     public class KerningPair : Object
     {
+        public object m_FirstGlyph;
+        public object m_FirstGlyphAdjustments;
+        public object m_SecondGlyph;
+        public object m_SecondGlyphAdjustments;
+        public object xOffset;
+        public object empty;
+        public object m_IgnoreSpacingAdjustments;
+
         // ── Methods ──
         public void get_firstGlyph(){} // RVA: 0xB8F8F0
         public void set_firstGlyph(){} // RVA: 0xB460A0
@@ -22,6 +30,10 @@ namespace ThirdParty.Other.TMPro
 
     public class KerningPairKey : ValueType
     {
+        public object ascii_Left;
+        public object ascii_Right;
+        public object key;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x944080
     }
@@ -48,6 +60,8 @@ namespace ThirdParty.Other.TMPro
 
     public class KerningTable : Object
     {
+        public object kerningPairs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7A09450
         public void AddKerningPair(){} // RVA: 0x7A09650

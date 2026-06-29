@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Scale : ValueType
     {
+        public object m_Scale;
+        public object m_IsNone;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x997190
         public void Initial(){} // RVA: 0x7ED7EA0
@@ -22,6 +25,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Scroller : VisualElement
     {
+        public object valueProperty;
+        public object lowValueProperty;
+        public object highValueProperty;
+        public object directionProperty;
+        public object valueChanged;
+        public object _slider;
+        public object _lowButton;
+        public object _highButton;
+        public object ussClassName;
+        public object horizontalVariantUssClassName;
+        public object verticalVariantUssClassName;
+        public object sliderUssClassName;
+        public object lowButtonUssClassName;
+        public object highButtonUssClassName;
+
         // ── Methods ──
         public void add_valueChanged(){} // RVA: 0x80156B0
         public void remove_valueChanged(){} // RVA: 0x80157D0
@@ -46,12 +64,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SerializedVirtualizationData : Object
     {
+        public object scrollOffset;
+        public object firstVisibleIndex;
+        public object contentPadding;
+        public object contentHeight;
+        public object anchoredItemIndex;
+        public object anchorOffset;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Slider : BaseSlider`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80231A0
         public void ApplyInputDeviceDelta(){} // RVA: 0x8023310
@@ -65,6 +94,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescription : Object
     {
+        public object columnNameProperty;
+        public object columnIndexProperty;
+        public object directionProperty;
+        public object m_ColumnIndex;
+        public object m_ColumnName;
+        public object m_SortDirection;
+        public object propertyChanged;
+        public object _column;
+        public object changed;
+
         // ── Methods ──
         public void add_propertyChanged(){} // RVA: 0x800CD30
         public void remove_propertyChanged(){} // RVA: 0x800CE40
@@ -85,6 +124,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SortColumnDescriptions : Object
     {
+        public object m_Descriptions;
+        public object changed;
+
         // ── Methods ──
         public void add_changed(){} // RVA: 0x800D940
         public void remove_changed(){} // RVA: 0x800DA30
@@ -104,6 +146,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleBackground : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997330
         public void set_value(){} // RVA: 0x997360
@@ -119,6 +164,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleBackgroundPosition : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997660
         public void set_value(){} // RVA: 0x9976A0
@@ -134,6 +182,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleBackgroundRepeat : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997840
         public void set_value(){} // RVA: 0x997850
@@ -149,6 +200,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleBackgroundSize : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x9979B0
         public void set_value(){} // RVA: 0x9979E0
@@ -164,6 +218,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleColor : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997AE0
         public void set_value(){} // RVA: 0x997B00
@@ -179,6 +236,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleCursor : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997D00
         public void set_value(){} // RVA: 0x997D50
@@ -194,6 +254,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0xA94080
         public void Release(){} // RVA: 0x894290
@@ -209,6 +271,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -224,6 +288,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -239,6 +305,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -254,6 +322,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -269,6 +339,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -284,6 +356,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleDataRef`1 : ValueType
     {
+        public object m_Ref;
+
         // ── Methods ──
         public void Acquire(){} // RVA: 0x4A7FA0
         public void Release(){} // RVA: 0x4A7FE0
@@ -299,6 +373,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0xA94080
         public void set_value(){} // RVA: 0xA94080
@@ -315,6 +392,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -331,6 +411,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -347,6 +430,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -363,6 +449,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -379,6 +468,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -395,6 +487,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -411,6 +506,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -427,6 +525,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -443,6 +544,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -459,6 +563,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -475,6 +582,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -491,6 +601,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -507,6 +620,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -523,6 +639,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -539,6 +658,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -555,6 +677,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -571,6 +696,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -587,6 +715,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -603,6 +734,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -619,6 +753,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -635,6 +772,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleEnum`1 : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -651,6 +791,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleFloat : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997F20
         public void set_value(){} // RVA: 0x997F30
@@ -666,6 +809,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleFont : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x997840
         public void set_value(){} // RVA: 0x853B0
@@ -681,6 +827,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleFontDefinition : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x998290
         public void set_value(){} // RVA: 0x9982B0
@@ -694,6 +843,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleInt : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A8D40
         public void set_value(){} // RVA: 0x4A8D50
@@ -709,6 +861,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleLength : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x9985E0
         public void set_value(){} // RVA: 0x998600
@@ -724,6 +879,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleList`1 : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x87C0A0
         public void set_value(){} // RVA: 0x894320
@@ -739,6 +897,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleList`1 : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A9070
         public void set_value(){} // RVA: 0x4A9080
@@ -754,6 +915,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleList`1 : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A9070
         public void set_value(){} // RVA: 0x4A9080
@@ -769,6 +933,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleList`1 : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x4A9070
         public void set_value(){} // RVA: 0x4A9080
@@ -784,6 +951,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyName : ValueType
     {
+        public object _id;
+        public object _name;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x77E60
         public void get_name(){} // RVA: 0x77ED0
@@ -799,6 +969,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleRotate : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x998910
         public void set_value(){} // RVA: 0x998940
@@ -814,6 +987,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleScale : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x998B60
         public void set_value(){} // RVA: 0x997B00
@@ -829,6 +1005,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSheet : ScriptableObject
     {
+        public object m_ImportedWithErrors;
+        public object m_ImportedWithWarnings;
+        public object m_Rules;
+        public object m_ComplexSelectors;
+        public object floats;
+        public object dimensions;
+        public object colors;
+        public object strings;
+        public object assets;
+        public object imports;
+        public object m_FlattenedImportedStyleSheets;
+        public object m_ContentHash;
+        public object scalableImages;
+        public object tables;
+        public object nonEmptyTablesMask;
+        public object firstRootSelector;
+        public object firstWildCardSelector;
+        public object m_IsDefaultStyleSheet;
+        public object kCustomPropertyMarker;
+
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7B049C0
         public void set_importedWithErrors(){} // RVA: 0xB5DD60
@@ -876,6 +1072,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTextShadow : ValueType
     {
+        public object m_Keyword;
+        public object m_Value;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x998E90
         public void set_value(){} // RVA: 0x998EE0
@@ -891,6 +1090,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTransformOrigin : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x999030
         public void set_value(){} // RVA: 0x9979E0
@@ -906,6 +1108,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleTranslate : ValueType
     {
+        public object m_Value;
+        public object m_Keyword;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x998D10
         public void set_value(){} // RVA: 0x998940
@@ -921,6 +1126,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueCollection : Object
     {
+        public object m_Values;
+
         // ── Methods ──
         public void GetStyleLength(){} // RVA: 0x7ED5960
         public void GetStyleFloat(){} // RVA: 0x7ED5A10

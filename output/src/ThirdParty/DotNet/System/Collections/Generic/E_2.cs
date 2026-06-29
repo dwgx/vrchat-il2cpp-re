@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 318
+// Methods: 311
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
@@ -34,13 +34,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x3A1AB80
-        public void Equals(){} // RVA: 0x87D3C0
-    }
+        public object defaultComparer;
 
-    public class EqualityComparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -55,6 +50,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -69,6 +66,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -76,6 +75,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -83,6 +84,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -97,6 +100,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -104,6 +109,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2E1DB20
         public void Equals(){} // RVA: 0x87D3C0
@@ -111,6 +118,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x29A49C0
         public void Equals(){} // RVA: 0x87DCD0
@@ -125,6 +134,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -132,6 +143,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -139,6 +152,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -146,6 +161,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x3857970
         public void Equals(){} // RVA: 0x87D3C0
@@ -160,6 +177,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -167,6 +186,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2E21240
         public void Equals(){} // RVA: 0x87D400
@@ -181,6 +202,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x382A570
         public void Equals(){} // RVA: 0x87D3C0
@@ -188,6 +211,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -195,6 +220,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2E14EB0
         public void Equals(){} // RVA: 0x87D3C0
@@ -209,6 +236,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -216,6 +245,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -223,6 +254,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x29BE260
         public void Equals(){} // RVA: 0x87D5A0
@@ -237,6 +270,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x29BE260
         public void Equals(){} // RVA: 0x87D5A0
@@ -244,6 +279,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x3C76B00
         public void CreateComparer(){} // RVA: 0x3C76C70
@@ -258,6 +295,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -265,6 +304,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -272,6 +313,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -279,6 +322,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -286,6 +331,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -293,6 +340,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -300,6 +349,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -307,6 +358,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -314,6 +367,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -321,6 +376,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x29BE260
         public void Equals(){} // RVA: 0x87D5A0
@@ -328,6 +385,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2E1F020
         public void CreateComparer(){} // RVA: 0x3C37EC0
@@ -342,6 +401,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -349,6 +410,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2E1EED0
         public void Equals(){} // RVA: 0x87D3C0
@@ -363,6 +426,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -370,6 +435,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x37D14E0
         public void Equals(){} // RVA: 0x87D3C0
@@ -377,6 +444,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x37D1390
         public void Equals(){} // RVA: 0x87D3C0
@@ -384,6 +453,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -391,6 +462,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -398,27 +471,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x3786230
-        public void Equals(){} // RVA: 0x87D3C0
-    }
+        public object defaultComparer;
 
-    public class EqualityComparer`1 : Object
-    {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x264C3D0
-        public void CreateComparer(){} // RVA: 0x3C05AD0
-        public void Equals(){} // RVA: 0x87D3C0
-        public void GetHashCode(){} // RVA: 0x87D050
-        public void IndexOf(){} // RVA: 0x3BC99B0
-        public void LastIndexOf(){} // RVA: 0x3BC9A70
-        public void System.Collections.IEqualityComparer.GetHashCode(){} // RVA: 0x3C06690
-        public void System.Collections.IEqualityComparer.Equals(){} // RVA: 0x3C06770
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    public class EqualityComparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -426,6 +480,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -433,6 +489,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -440,6 +498,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x264C3D0
+        public void Equals(){} // RVA: 0x87D3C0
+    }
+
+    public class EqualityComparer`1 : Object
+    {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x29BE260
         public void Equals(){} // RVA: 0x87D5A0
@@ -454,6 +523,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -461,6 +532,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -468,6 +541,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -475,6 +550,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -482,6 +559,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -489,6 +568,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -496,6 +577,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -503,6 +586,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -510,6 +595,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -517,6 +604,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -524,6 +613,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -531,6 +622,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -538,6 +631,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -545,6 +640,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -552,6 +649,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -559,6 +658,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -566,6 +667,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x386B3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -580,6 +683,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -594,6 +699,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x3857580
         public void Equals(){} // RVA: 0x87D3C0
@@ -608,6 +715,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2A80B50
         public void GetHashCode(){} // RVA: 0x882E40
@@ -615,6 +724,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2A80370
         public void GetHashCode(){} // RVA: 0x87D050
@@ -622,6 +733,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x2A70C70
         public void GetHashCode(){} // RVA: 0x881C20
@@ -629,6 +742,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -636,6 +751,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -643,6 +760,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -650,6 +769,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -657,6 +778,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -664,6 +787,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -671,6 +796,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -678,6 +805,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -685,6 +814,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -692,6 +823,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -699,6 +832,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -706,6 +841,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -713,6 +850,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -720,6 +859,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -727,6 +868,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -734,6 +877,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -741,6 +886,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -748,6 +895,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -755,6 +904,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -762,6 +913,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -769,6 +922,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -776,6 +931,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -783,6 +940,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -790,6 +949,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -797,6 +958,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -804,6 +967,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -811,6 +976,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0
@@ -818,6 +985,26 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class EqualityComparer`1 : Object
     {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x264C3D0
+        public void Equals(){} // RVA: 0x87D3C0
+    }
+
+    public class EqualityComparer`1 : Object
+    {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x264C3D0
+        public void Equals(){} // RVA: 0x87D3C0
+    }
+
+    public class EqualityComparer`1 : Object
+    {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x264C3D0
         public void Equals(){} // RVA: 0x87D3C0

@@ -1,20 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
-// Classes: 93
-// Methods: 347
+// Classes: 74
+// Methods: 325
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -23,14 +19,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -39,14 +31,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -55,14 +43,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -71,14 +55,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -87,14 +67,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -103,14 +79,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -119,14 +91,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -135,14 +103,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -151,14 +115,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -167,14 +127,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -183,14 +139,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -199,14 +151,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -215,14 +163,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -231,14 +175,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -247,14 +187,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -263,14 +199,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -279,14 +211,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -295,14 +223,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -311,14 +235,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -327,14 +247,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -343,14 +259,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -359,14 +271,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -375,14 +283,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -391,14 +295,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -407,14 +307,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -423,14 +319,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
-        // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
-    }
+        public object gate;
+        public object size;
+        public object root;
 
-    public class TaskPool`1 : ValueType
-    {
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -439,6 +331,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -447,6 +343,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -455,6 +355,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -463,6 +367,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -471,6 +379,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -479,6 +391,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -487,6 +403,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -495,6 +415,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -503,6 +427,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -511,6 +439,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -519,6 +451,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -527,6 +463,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -535,6 +475,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -543,6 +487,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -551,6 +499,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -559,6 +511,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -567,6 +523,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -575,6 +535,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -583,6 +547,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -591,6 +559,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -599,6 +571,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -607,6 +583,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -615,6 +595,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
@@ -623,18 +607,29 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TaskPool`1 : ValueType
     {
+        public object gate;
+        public object size;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x4D4160
         public void TryPush(){} // RVA: 0x4D4170
         public void get_Size(){} // RVA: 0x77E50
     }
 
-    public class TaskPool`1 : ValueType
+    public class TaskTracker : Object
     {
+        public object listPool;
+        public object tracking;
+        public object dirty;
+
         // ── Methods ──
-        public void TryPop(){} // RVA: 0x4D4160
-        public void TryPush(){} // RVA: 0x4D4170
-        public void get_Size(){} // RVA: 0x77E50
+        public void TrackActiveTask(){} // RVA: 0xB43310
+        public void RemoveTracking(){} // RVA: 0xB43310
+        public void CheckAndResetDirty(){} // RVA: 0x7745950
+        public void ForEachActiveTask(){} // RVA: 0x77459B0
+        public void TypeBeautify(){} // RVA: 0x7745FE0
+        public void .cctor(){} // RVA: 0x77462D0
     }
 
     public class TextMeshProAsyncExtensions : Object
@@ -667,6 +662,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TextSelectionEventConverter : UnityEvent`1
     {
+        public object innerEvent;
+        public object invokeDelegate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x779EAA0
         public void InvokeCore(){} // RVA: 0x779ECC0
@@ -675,6 +673,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TimeoutController : Object
     {
+        public object CancelCancellationTokenSourceStateDelegate;
+        public object timeoutSource;
+        public object linkedSource;
+        public object timer;
+        public object isDisposed;
+        public object delayType;
+        public object delayTiming;
+        public object originalLinkCancellationTokenSource;
+
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x774BEE0
         public void .ctor(){} // RVA: 0x774C110
@@ -687,6 +694,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x894320
         public void SetResult(){} // RVA: 0xA94080
@@ -699,6 +710,90 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x541370
+        public void SetResult(){} // RVA: 0x542120
+        public void SetCanceled(){} // RVA: 0x542130
+        public void SetCompleted(){} // RVA: 0x542140
+        public void SetError(){} // RVA: 0x542150
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x542360
+        public void SetResult(){} // RVA: 0x5423B0
+        public void SetCanceled(){} // RVA: 0x5423C0
+        public void SetCompleted(){} // RVA: 0x5423D0
+        public void SetError(){} // RVA: 0x5423E0
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x541410
+        public void SetResult(){} // RVA: 0x5421A0
+        public void SetCanceled(){} // RVA: 0x5421B0
+        public void SetCompleted(){} // RVA: 0x5421C0
+        public void SetError(){} // RVA: 0x5421D0
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x5413C0
+        public void SetResult(){} // RVA: 0x542160
+        public void SetCanceled(){} // RVA: 0x542170
+        public void SetCompleted(){} // RVA: 0x542180
+        public void SetError(){} // RVA: 0x542190
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x5412D0
+        public void SetResult(){} // RVA: 0x542060
+        public void SetCanceled(){} // RVA: 0x542080
+        public void SetCompleted(){} // RVA: 0x542090
+        public void SetError(){} // RVA: 0x5420A0
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -711,6 +806,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -723,6 +822,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -735,6 +838,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541500
         public void SetResult(){} // RVA: 0x542320
@@ -747,6 +854,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -759,6 +870,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -771,6 +886,42 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x5414B0
+        public void SetResult(){} // RVA: 0x542220
+        public void SetCanceled(){} // RVA: 0x5422F0
+        public void SetCompleted(){} // RVA: 0x542300
+        public void SetError(){} // RVA: 0x542310
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x541320
+        public void SetResult(){} // RVA: 0x5420D0
+        public void SetCanceled(){} // RVA: 0x5420F0
+        public void SetCompleted(){} // RVA: 0x542100
+        public void SetError(){} // RVA: 0x542110
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -783,6 +934,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -795,6 +950,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0
@@ -807,6 +966,26 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class TriggerEvent`1 : ValueType
     {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
+        // ── Methods ──
+        public void LogError(){} // RVA: 0x541460
+        public void SetResult(){} // RVA: 0x5421E0
+        public void SetCanceled(){} // RVA: 0x5421F0
+        public void SetCompleted(){} // RVA: 0x542200
+        public void SetError(){} // RVA: 0x542210
+        public void Add(){} // RVA: 0x5420B0
+        public void Remove(){} // RVA: 0x5420C0
+    }
+
+    public class TriggerEvent`1 : ValueType
+    {
+        public object head;
+        public object iteratingHead;
+        public object iteratingNode;
+
         // ── Methods ──
         public void LogError(){} // RVA: 0x541460
         public void SetResult(){} // RVA: 0x5421E0

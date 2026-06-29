@@ -7,6 +7,9 @@ namespace ThirdParty.Other.Unity.Services.Core
 {
     public class ExternalUserIdProperty : Object
     {
+        public object UserIdChanged;
+        public object m_UserId;
+
         // ── Methods ──
         public void get_UserId(){} // RVA: 0xB465B0
         public void set_UserId(){} // RVA: 0x79A2520
@@ -21,6 +24,8 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class InitializationOptions : Object
     {
+        public object _values;
+
         // ── Methods ──
         public void get_Values(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0x79A2590
@@ -40,6 +45,11 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityServices : Object
     {
+        public object _instance;
+        public object _instantiationCompletion;
+        public object ExternalUserIdProperty;
+        public object _s_Services;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x79A27A0
         public void set_Instance(){} // RVA: 0x79A2800
@@ -54,12 +64,17 @@ namespace ThirdParty.Other.Unity.Services.Core
 
     public class UnityServicesBuilder : Object
     {
+        public object _instanceCreationDelegate;
+
         // ── Methods ──
         public void set_InstanceCreationDelegate(){} // RVA: 0x79A2EB0
     }
 
     public class UnityThreadUtils : Object
     {
+        public object s_UnityThreadId;
+        public object _unityThreadScheduler;
+
         // ── Methods ──
         public void set_UnityThreadScheduler(){} // RVA: 0x79A2F50
         public void CaptureUnityThreadInfo(){} // RVA: 0x79A2FF0

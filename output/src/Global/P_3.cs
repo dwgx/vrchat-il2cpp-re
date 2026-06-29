@@ -1,10 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 28
-// Methods: 127
+// Classes: 26
+// Methods: 108
+
+public class ParallelWriter : ValueType
+{
+    public object m_Buffer;
+    public object m_AllocatorLabel;
+    public object m_ThreadIndex;
+
+    // ── Methods ──
+    public void Enqueue(){} // RVA: 0xA94080
+}
 
 public class ParamInfo : Object
 {
+    public object _ftype;
+    public object _minargs;
+    public object _maxargs;
+    public object _argTypes;
+
     // ── Methods ──
     public void get_FType(){} // RVA: 0xB8F8F0
     public void get_Minargs(){} // RVA: 0x116A650
@@ -32,6 +47,8 @@ public class ParameterBox : InitializeLocalInstruction
 
 public class ParameterExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049C30
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -44,6 +61,9 @@ public class ParameterExpressionProxy : Object
 
 public class ParameterLookupKey : Object
 {
+    public object _name;
+    public object _type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void get_Name(){} // RVA: 0xB5DBF0
@@ -54,6 +74,9 @@ public class ParameterLookupKey : Object
 
 public class ParameterLookupValue : Object
 {
+    public object _duplicateName;
+    public object _jsonPropertyInfo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA9BA0
     public void get_DuplicateName(){} // RVA: 0xB5DBF0
@@ -70,14 +93,10 @@ public class ParameterizedConstructorDelegate`5 : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xA94080
 }
 
-public class ParseElementOnlyContent_LocalFrame : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x74E1600
-}
-
 public class Parser : Object
 {
+    public object json;
+
     // ── Methods ──
     public void IsWordBreak(){} // RVA: 0x6CBE7B0
     public void .ctor(){} // RVA: 0x6CBE840
@@ -98,6 +117,21 @@ public class Parser : Object
 
 public class Parser : ValueType
 {
+    public object typeCode;
+    public object year;
+    public object month;
+    public object day;
+    public object hour;
+    public object minute;
+    public object second;
+    public object fraction;
+    public object kind;
+    public object zoneHour;
+    public object zoneMinute;
+    public object text;
+    public object length;
+    public object Power10;
+
     // ── Methods ──
     public void Parse(){} // RVA: 0x914860
     public void ParseDate(){} // RVA: 0x914870
@@ -114,6 +148,28 @@ public class Parser : ValueType
 
 public class ParsingState : ValueType
 {
+    public object chars;
+    public object charPos;
+    public object charsUsed;
+    public object encoding;
+    public object appendMode;
+    public object stream;
+    public object decoder;
+    public object bytes;
+    public object bytePos;
+    public object bytesUsed;
+    public object textReader;
+    public object lineNo;
+    public object lineStartPos;
+    public object baseUriStr;
+    public object baseUri;
+    public object isEof;
+    public object isStreamEof;
+    public object entity;
+    public object entityId;
+    public object eolNormalized;
+    public object entityResolvedManually;
+
     // ── Methods ──
     public void Clear(){} // RVA: 0x915420
     public void Close(){} // RVA: 0x915430
@@ -123,6 +179,11 @@ public class ParsingState : ValueType
 
 public class PartialStateForRollback : ValueType
 {
+    public object _prevTotalConsumed;
+    public object _prevBytePositionInLine;
+    public object _prevConsumed;
+    public object _prevCurrentPosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8F1370
     public void GetStartPosition(){} // RVA: 0x8F13E0
@@ -130,43 +191,19 @@ public class PartialStateForRollback : ValueType
 
 public class PathListComparer : Object
 {
+    public object StaticInstance;
+
     // ── Methods ──
     public void System.Collections.IComparer.Compare(){} // RVA: 0x75A0AC0
     public void .ctor(){} // RVA: 0xB43310
     public void .cctor(){} // RVA: 0x75A0CB0
 }
 
-public class PerCoreLockedStacks : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x48596F0
-    public void TryPop(){} // RVA: 0x4859A60
-    public void TryPush(){} // RVA: 0x4859960
-    public void Trim(){} // RVA: 0x4859BB0
-}
-
-public class PerCoreLockedStacks[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class PipelineEntry : Object
 {
+    public object Command;
+    public object Flags;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2615F10
     public void HasFlag(){} // RVA: 0x7731690
@@ -201,6 +238,9 @@ public class PopupButtonData[] : Array
 
 public class PowerOvfl : ValueType
 {
+    public object Hi;
+    public object MidLo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8C0C60
 }
@@ -232,6 +272,9 @@ public class PreserveAttribute : Attribute
 
 public class PreviousInfo : ValueType
 {
+    public object Code;
+    public object SortKey;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8AB990
 }
@@ -245,6 +288,9 @@ public class PrintErrorsCallbackFunc : MulticastDelegate
 
 public class PropertyDescriptorEnumerator : Object
 {
+    public object _owner;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x39EC7C0
     public void get_Current(){} // RVA: 0x76D75A0
@@ -257,6 +303,10 @@ public class PropertyDescriptorEnumerator : Object
 
 public class PropertyHierarchyResolutionState : ValueType
 {
+    public object AddedProperties;
+    public object IgnoredProperties;
+    public object IsPropertyOrderSpecified;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x912D80
 }

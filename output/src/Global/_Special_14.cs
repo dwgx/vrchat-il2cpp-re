@@ -1,243 +1,32 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 265
+// Methods: 339
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A21980
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A21A20
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A8EA70
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A8EB10
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A23800
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A238A0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A3AC00
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A3ACA0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A93180
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A93220
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A9B3B0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__8_0(){} // RVA: 0x8A9B450
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AC5180
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__8_0(){} // RVA: 0x8AC5220
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AA24E0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8AA2580
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AAC040
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8AAC0E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AA6B90
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8AA6C30
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AFCE50
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__8_0(){} // RVA: 0x8AFCEF0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8B25FE0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8B26080
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8ADBD60
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__8_0(){} // RVA: 0x8ADBE00
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8B1C830
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__8_0(){} // RVA: 0x8B1C8D0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A3F500
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A3F5A0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A88140
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A881E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8B2AD00
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8B2ADA0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8A8C830
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8A8C8D0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8AA0410
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.ctor>b__6_0(){} // RVA: 0x8AA04B0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <.cctor>b__5_0(){} // RVA: 0x3CDFDB0
-    public void <.cctor>b__5_1(){} // RVA: 0x44E8170
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <.cctor>b__3_0(){} // RVA: 0x894320
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
-    public void <.cctor>b__3_0(){} // RVA: 0x31C18E0
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x80E7320
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__5_0(){} // RVA: 0x80E73C0
-    public void <.cctor>b__5_1(){} // RVA: 0x80E7400
-    public void <StripDisabledBehavioursFromList>b__10_0(){} // RVA: 0x80E7470
-    public void <Rebuild>b__12_0(){} // RVA: 0x80E7510
-    public void <Rebuild>b__12_1(){} // RVA: 0x80E7580
-    public void <Rebuild>b__12_2(){} // RVA: 0x80E75F0
-    public void <Rebuild>b__12_3(){} // RVA: 0x80E7660
-}
+    public object <>9;
 
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <.cctor>b__5_0(){} // RVA: 0x3CDFDB0
-    public void <.cctor>b__5_1(){} // RVA: 0x44E8170
-    public void .cctor(){} // RVA: 0x31C0C90
-    public void .ctor(){} // RVA: 0xB43310
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <.cctor>b__5_0(){} // RVA: 0x3CDFDB0
-    public void <.cctor>b__5_1(){} // RVA: 0x44E8170
-    public void .cctor(){} // RVA: 0x31C0C90
-    public void .ctor(){} // RVA: 0xB43310
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0xA7475B0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__21_0(){} // RVA: 0xA747650
-    public void <.cctor>b__21_1(){} // RVA: 0xA747690
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <GetOrCreateValue>b__17_0(){} // RVA: 0x44E8280
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x7752E60
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__4_0(){} // RVA: 0x7752F00
-    public void <Create>b__11_0(){} // RVA: 0x7752F70
-}
-
-public class <>c : Object
-{
     // ── Methods ──
     public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
@@ -246,509 +35,675 @@ public class <>c : Object
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0xA4A8180
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__7_0(){} // RVA: 0xA4A8220
-    public void <.cctor>b__7_1(){} // RVA: 0xA4A82D0
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
-    public void <.cctor>b__1_0(){} // RVA: 0x31C1880
-    public void <.cctor>b__1_1(){} // RVA: 0x31C18E0
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
-    public void <.cctor>b__1_0(){} // RVA: 0x31CA2D0
-    public void <.cctor>b__1_1(){} // RVA: 0x31C18E0
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0xA5E4F60
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__5_0(){} // RVA: 0xA5E5000
-    public void <.cctor>b__5_1(){} // RVA: 0x7D5EF20
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <.cctor>b__4_0(){} // RVA: 0xA94080
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <.cctor>b__4_0(){} // RVA: 0x3CDFDB0
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CE0960
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDC100
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CE3100
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CE0960
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void IsNativeObjectAlive(){} // RVA: 0x3CDD6E0
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <.cctor>b__89_0(){} // RVA: 0xA94080
-}
-
-public class <>c__51`1 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <TryFromObject>b__51_0(){} // RVA: 0x87BF80
-}
-
-public class <>c__51`1 : Object
-{
-    // ── Methods ──
-    public void <TryFromObject>b__51_0(){} // RVA: 0x58216E0
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class <>c__DisplayClass52_0 : Object
+public class <>c : Object
 {
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__17_0;
+
+    // ── Methods ──
+    public void <GetOrCreateValue>b__17_0(){} // RVA: 0x44E8280
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__2_0;
+    public object <>9__2_1;
+
+    // ── Methods ──
+    public void <.ctor>b__2_0(){} // RVA: 0x44E7D80
+    public void <.ctor>b__2_1(){} // RVA: 0x44E7EB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__3_0;
+
+    // ── Methods ──
+    public void <.ctor>b__3_0(){} // RVA: 0x3CE2360
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__1_0;
+
+    // ── Methods ──
+    public void <get_Instance>b__1_0(){} // RVA: 0x1CB3B00
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__8_0;
+
+    // ── Methods ──
+    public void <InvokeCoreAsync>b__8_0(){} // RVA: 0x3CE0400
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__3_0;
+
+    // ── Methods ──
+    public void <.ctor>b__3_0(){} // RVA: 0x3CE2360
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c__DisplayClass31_0`1 : Object
+{
+    public object onFailure;
+    public object onSuccess;
+    public object model;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
-    public void <CopyTo>b__0(){} // RVA: 0x6004540
+    public void <Fetch>b__0(){} // RVA: 0x5FEE960
+    public void <Fetch>b__1(){} // RVA: 0x5FEEA50
 }
 
-public class <>c__DisplayClass52_0 : Object
+public class <>c__DisplayClass32_0`1 : Object
 {
+    public object completionSource;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
-    public void <CopyTo>b__0(){} // RVA: 0x6004540
+    public void <FetchAsync>b__0(){} // RVA: 0x5FEED70
+    public void <FetchAsync>b__1(){} // RVA: 0x5FEEE30
 }
 
-public class <>c__DisplayClass52_0 : Object
+public class <>c__DisplayClass5_0`1 : Object
 {
+    public object type;
+    public object constructorInfo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
-    public void <CopyTo>b__0(){} // RVA: 0x6004370
+    public void <CreateDefaultConstructor>b__0(){} // RVA: 0x6163CE0
+    public void <CreateDefaultConstructor>b__1(){} // RVA: 0x6163D60
 }
 
-public class <>c__DisplayClass53_0 : Object
+public class <CastIterator>d__99`1 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <System.Collections.ICollection.CopyTo>b__0(){} // RVA: 0x60048D0
-}
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
 
-public class <>c__DisplayClass53_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <System.Collections.ICollection.CopyTo>b__0(){} // RVA: 0x60048D0
-}
-
-public class <>c__DisplayClass53_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <System.Collections.ICollection.CopyTo>b__0(){} // RVA: 0x6004750
-}
-
-public class <>c__DisplayClass85_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <RemoveWhere>b__0(){} // RVA: 0x31CF560
-}
-
-public class <>c__DisplayClass85_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <RemoveWhere>b__0(){} // RVA: 0x31CF560
-}
-
-public class <>c__DisplayClass85_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <RemoveWhere>b__0(){} // RVA: 0x31CF310
-}
-
-public class <>c__DisplayClass87_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <UpdateServer>b__4(){} // RVA: 0xA4E9360
-    public void <UpdateServer>b__5(){} // RVA: 0xA4E9390
-}
-
-public class <>c__DisplayClass87_1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <UpdateServer>b__0(){} // RVA: 0xA4E9420
-    public void <UpdateServer>b__1(){} // RVA: 0xA4E9610
-    public void <UpdateServer>b__3(){} // RVA: 0xA4E9760
-    public void <UpdateServer>b__2(){} // RVA: 0xA4E9910
-    public void <UpdateServer>b__6(){} // RVA: 0xA4E9D00
-}
-
-public class <>c__DisplayClass89_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <PostEvents>b__0(){} // RVA: 0xA4E9DE0
-    public void <PostEvents>b__1(){} // RVA: 0xA4EA130
-}
-
-public class <GetEnumerator>d__3 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8944F0
-    public void System.IDisposable.Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void <>m__Finally1(){} // RVA: 0x894290
-    public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,BestHTTP.JSON.Json.Token>>.get_Current(){} // RVA: 0x87BEB0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-}
-
-public class <GetEnumerator>d__3 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x37D1C30
-    public void MoveNext(){} // RVA: 0x37D1D60
-    public void <>m__Finally1(){} // RVA: 0x37D21E0
-    public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,BestHTTP.JSON.Json.Token>>.get_Current(){} // RVA: 0x37D2240
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x37D2260
-}
-
-public class <GetEnumerator>d__7 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8944F0
-    public void System.IDisposable.Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void <>m__Finally1(){} // RVA: 0x894290
-    public void System.Collections.Generic.IEnumerator<BestHTTP.JSON.Json.Token>.get_Current(){} // RVA: 0x87BEB0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-}
-
-public class <GetEnumerator>d__7 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x37D7310
-    public void MoveNext(){} // RVA: 0x37D7440
-    public void <>m__Finally1(){} // RVA: 0x37D77F0
-    public void System.Collections.Generic.IEnumerator<BestHTTP.JSON.Json.Token>.get_Current(){} // RVA: 0x27D0660
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x37D7850
-}
-
-public class <GetEnumerator>d__7 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x37D7310
-    public void MoveNext(){} // RVA: 0x37D7440
-    public void <>m__Finally1(){} // RVA: 0x37D77F0
-    public void System.Collections.Generic.IEnumerator<BestHTTP.JSON.Json.Token>.get_Current(){} // RVA: 0x27D0660
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x37D7850
-}
-
-public class <GetEnumerator>d__7 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0x37D6D70
-    public void MoveNext(){} // RVA: 0x37D6EA0
-    public void <>m__Finally1(){} // RVA: 0x37D7250
-    public void System.Collections.Generic.IEnumerator<BestHTTP.JSON.Json.Token>.get_Current(){} // RVA: 0x27D0660
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x37D72B0
-}
-
-public class <OfTypeIterator>d__97`1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8944F0
-    public void System.IDisposable.Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void <>m__Finally1(){} // RVA: 0x894290
-    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xA94080
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x87C0A0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
-}
-
-public class <OfTypeIterator>d__97`1 : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1093150
-    public void System.IDisposable.Dispose(){} // RVA: 0x396DE20
-    public void MoveNext(){} // RVA: 0x396DE60
-    public void <>m__Finally1(){} // RVA: 0x396E1B0
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
     public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
@@ -756,14 +711,538 @@ public class <OfTypeIterator>d__97`1 : Object
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
 }
 
-public class <System-Collections-Generic-IEnumerable<System-Object>-GetEnumerator>d__6 : Object
+public class <CastIterator>d__99`1 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x33C79F0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
+}
+
+public class <CastIterator>d__99`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x33C79F0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
+}
+
+public class <CastIterator>d__99`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x33C79F0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
+}
+
+public class <CastIterator>d__99`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x33C79F0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
+}
+
+public class <CastIterator>d__99`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x33C75E0
+    public void MoveNext(){} // RVA: 0x33C7620
+    public void <>m__Finally1(){} // RVA: 0x33C7980
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x33C79F0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33C7AD0
+}
+
+public class <ConcatIterator>d__59`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object first;
+    public object <>3__first;
+    public object second;
+    public object <>3__second;
+    public object <>7__wrap1;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x33CC1C0
+    public void System.IDisposable.Dispose(){} // RVA: 0x33CC1E0
+    public void MoveNext(){} // RVA: 0x33CC380
+    public void <>m__Finally1(){} // RVA: 0x33CC9D0
+    public void <>m__Finally2(){} // RVA: 0x33CCA30
+    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0xD34210
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x33CCA90
+    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x33CCAD0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x33CCC20
+}
+
+public class <ContinueWith>d__24`2 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object continuationFunction;
+    public object task;
+    public object <>7__wrap1;
+    public object <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x20A8D0
+    public void SetStateMachine(){} // RVA: 0x20A760
+}
+
+public class <Enumerate>d__28 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0xA4AA6D0
-    public void MoveNext(){} // RVA: 0xA4AA7F0
-    public void <>m__Finally1(){} // RVA: 0xA4AAB50
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0xA4AABB0
+}
+
+public class <Enumerate>d__28 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <Enumerate>d__28 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <Enumerate>d__28 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <Enumerate>d__28 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <ExceptIterator>d__77`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object comparer;
+    public object <>3__comparer;
+    public object second;
+    public object <>3__second;
+    public object first;
+    public object <>3__first;
+    public object <set>5__2;
+    public object <>7__wrap2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x33C7050
+    public void System.IDisposable.Dispose(){} // RVA: 0x37086A0
+    public void MoveNext(){} // RVA: 0x3708770
+    public void <>m__Finally1(){} // RVA: 0x3708E90
+    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0xC9C250
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3708EF0
+    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x3708F20
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37090C0
+}
+
+public class <FetchAsync>d__32`1 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object id;
+    public object disableCache;
+    public object jobPriority;
+    public object <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x245210
+    public void SetStateMachine(){} // RVA: 0x245220
+}
+
+public class <GetEnumerator>d__1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buffer>5__2;
+    public object <map>5__3;
+    public object <i>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+    public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+    public void MoveNext(){} // RVA: 0x371D580
+    public void System.Collections.Generic.IEnumerator<TElement>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+}
+
+public class <GetEnumerator>d__12 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <g>5__2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+    public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+    public void MoveNext(){} // RVA: 0x371ECB0
+    public void System.Collections.Generic.IEnumerator<System.Linq.IGrouping<TKey,TElement>>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+}
+
+public class <GetEnumerator>d__13 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__13 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__7 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <i>5__2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <RunTask>d__5 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x2A23B0
+    public void SetStateMachine(){} // RVA: 0x3FC0
+}
+
+public class <RunTask>d__5 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object <>4__this;
+    public object <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x2A23B0
+    public void SetStateMachine(){} // RVA: 0x3FC0
+}
+
+public class <SelectManyIterator>d__17`2 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object source;
+    public object <>3__source;
+    public object selector;
+    public object <>3__selector;
+    public object <>7__wrap1;
+    public object <>7__wrap2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1093150
+    public void System.IDisposable.Dispose(){} // RVA: 0x39D6640
+    public void MoveNext(){} // RVA: 0x39D67C0
+    public void <>m__Finally1(){} // RVA: 0x39D6C60
+    public void <>m__Finally2(){} // RVA: 0x39D6CC0
+    public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.Generic.IEnumerable<TResult>.GetEnumerator(){} // RVA: 0x31EE810
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x39D5540
+}
+
+public class <UnionIterator>d__71`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object comparer;
+    public object <>3__comparer;
+    public object first;
+    public object <>3__first;
+    public object second;
+    public object <>3__second;
+    public object <set>5__2;
+    public object <>7__wrap2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x33C7050
+    public void System.IDisposable.Dispose(){} // RVA: 0x3E2BC70
+    public void MoveNext(){} // RVA: 0x3E2BE10
+    public void <>m__Finally1(){} // RVA: 0x3E2C460
+    public void <>m__Finally2(){} // RVA: 0x3E2C4C0
+    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0xC9C250
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3E2C520
+    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x3E2C550
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3E2C6F0
+}
+
+public class <UnionIterator>d__71`1 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>l__initialThreadId;
+    public object comparer;
+    public object <>3__comparer;
+    public object first;
+    public object <>3__first;
+    public object second;
+    public object <>3__second;
+    public object <set>5__2;
+    public object <>7__wrap2;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x33C7050
+    public void System.IDisposable.Dispose(){} // RVA: 0x3E2C8A0
+    public void MoveNext(){} // RVA: 0x3E2CA40
+    public void <>m__Finally1(){} // RVA: 0x3E2D200
+    public void <>m__Finally2(){} // RVA: 0x3E2D260
+    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x3927910
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3E2D2C0
+    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x3E2C550
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3E2C6F0
 }

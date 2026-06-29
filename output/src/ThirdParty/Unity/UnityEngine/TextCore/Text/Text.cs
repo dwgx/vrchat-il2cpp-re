@@ -13,6 +13,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class CharacterSubstitution : ValueType
     {
+        public object index;
+        public object unicode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
     }
@@ -46,24 +49,36 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class Extents : ValueType
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x98CE40
     }
 
     public class FastAction : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7DC9290
     }
 
     public class FastAction`1 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
     }
 
     public class FastAction`2 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void Call(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x894290
@@ -71,12 +86,88 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FastAction`3 : Object
     {
+        public object delegates;
+        public object lookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
     }
 
     public class FontAsset : TextAsset
     {
+        public object kFontAssetByInstanceId;
+        public object m_SourceFontFileGUID;
+        public object m_fontAssetCreationEditorSettings;
+        public object m_SourceFontFile;
+        public object m_SourceFontFilePath;
+        public object m_AtlasPopulationMode;
+        public object InternalDynamicOS;
+        public object IsEditorFont;
+        public object m_FaceInfo;
+        public object m_FamilyNameHashCode;
+        public object m_StyleNameHashCode;
+        public object m_GlyphTable;
+        public object m_GlyphLookupDictionary;
+        public object m_CharacterTable;
+        public object m_CharacterLookupDictionary;
+        public object m_AtlasTexture;
+        public object m_AtlasTextures;
+        public object m_AtlasTextureIndex;
+        public object m_IsMultiAtlasTexturesEnabled;
+        public object m_GetFontFeatures;
+        public object m_ClearDynamicDataOnBuild;
+        public object m_AtlasWidth;
+        public object m_AtlasHeight;
+        public object m_AtlasPadding;
+        public object m_AtlasRenderMode;
+        public object m_UsedGlyphRects;
+        public object m_FreeGlyphRects;
+        public object m_FontFeatureTable;
+        public object m_ShouldReimportFontFeatures;
+        public object m_FallbackFontAssetTable;
+        public object m_FontWeightTable;
+        public object m_RegularStyleWeight;
+        public object m_RegularStyleSpacing;
+        public object m_BoldStyleWeight;
+        public object m_BoldStyleSpacing;
+        public object m_ItalicStyleSlant;
+        public object m_TabMultiple;
+        public object IsFontAssetLookupTablesDirty;
+        public object m_NativeFontAsset;
+        public object m_GlyphsToRender;
+        public object m_GlyphsRendered;
+        public object m_GlyphIndexList;
+        public object m_GlyphIndexListNewlyAdded;
+        public object m_GlyphsToAdd;
+        public object m_GlyphsToAddLookup;
+        public object m_CharactersToAdd;
+        public object m_CharactersToAddLookup;
+        public object s_MissingCharacterList;
+        public object m_MissingUnicodesFromFontFile;
+        public object m_VariantGlyphIndexes;
+        public object m_IsClone;
+        public object s_CallbackInstances;
+        public object k_ReadFontAssetDefinitionMarker;
+        public object k_AddSynthesizedCharactersMarker;
+        public object k_TryAddGlyphMarker;
+        public object k_TryAddCharacterMarker;
+        public object k_TryAddCharactersMarker;
+        public object k_UpdateLigatureSubstitutionRecordsMarker;
+        public object k_UpdateGlyphAdjustmentRecordsMarker;
+        public object k_UpdateDiacriticalMarkAdjustmentRecordsMarker;
+        public object k_ClearFontAssetDataMarker;
+        public object k_UpdateFontAssetDataMarker;
+        public object s_DefaultMaterialSuffix;
+        public object k_SearchedFontAssetLookup;
+        public object k_FontAssets_FontFeaturesUpdateQueue;
+        public object k_FontAssets_FontFeaturesUpdateQueueLookup;
+        public object k_FontAssets_KerningUpdateQueue;
+        public object k_FontAssets_KerningUpdateQueueLookup;
+        public object k_FontAssets_AtlasTexturesUpdateQueue;
+        public object k_FontAssets_AtlasTexturesUpdateQueueLookup;
+        public object k_GlyphIndexArray;
+        public object visitedFontAssets;
+
         // ── Methods ──
         public void EnsureAdditionalCapacity(){} // RVA: 0x89AB50
         public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7DCD620
@@ -234,6 +325,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FontAssetFactory : Object
     {
+        public object visitedFontAssets;
+
         // ── Methods ──
         public void ConvertFontToFontAsset(){} // RVA: 0x7DDE910
         public void SetupFontAssetSettings(){} // RVA: 0x7DDEC30
@@ -243,6 +336,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FontAssetUtilities : Object
     {
+        public object k_SearchedAssets;
+
         // ── Methods ──
         public void GetCharacterFromFontAsset(){} // RVA: 0x7DDEF30
         public void GetCharacterFromFontAsset_Internal(){} // RVA: 0x7DDF0B0
@@ -275,6 +370,16 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FontFeatureTable : Object
     {
+        public object m_MultipleSubstitutionRecords;
+        public object m_LigatureSubstitutionRecords;
+        public object m_GlyphPairAdjustmentRecords;
+        public object m_MarkToBaseAdjustmentRecords;
+        public object m_MarkToMarkAdjustmentRecords;
+        public object m_LigatureSubstitutionRecordLookup;
+        public object m_GlyphPairAdjustmentRecordLookup;
+        public object m_MarkToBaseAdjustmentRecordLookup;
+        public object m_MarkToMarkAdjustmentRecordLookup;
+
         // ── Methods ──
         public void get_glyphPairAdjustmentRecords(){} // RVA: 0xB700F0
         public void get_MarkToBaseAdjustmentRecords(){} // RVA: 0x7C246A0
@@ -287,6 +392,17 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class FontStyleStack : ValueType
     {
+        public object bold;
+        public object italic;
+        public object underline;
+        public object strikethrough;
+        public object highlight;
+        public object superscript;
+        public object subscript;
+        public object uppercase;
+        public object lowercase;
+        public object smallcaps;
+
         // ── Methods ──
         public void Clear(){} // RVA: 0x9455F0
         public void Add(){} // RVA: 0x945600
@@ -315,6 +431,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class HighlightState : ValueType
     {
+        public object color;
+        public object padding;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3612F0
         public void op_Equality(){} // RVA: 0x7E0C270
@@ -325,6 +444,15 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class LinkInfo : ValueType
     {
+        public object hashCode;
+        public object linkIdFirstCharacterIndex;
+        public object linkIdLength;
+        public object linkTextfirstCharacterIndex;
+        public object linkTextLength;
+        public object linkId;
+        public object m_LinkIdString;
+        public object m_LinkTextString;
+
         // ── Methods ──
         public void SetLinkId(){} // RVA: 0x98D350
         public void GetLinkText(){} // RVA: 0x98D360
@@ -333,6 +461,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class MaterialManager : Object
     {
+        public object s_FallbackMaterials;
+
         // ── Methods ──
         public void GetFallbackMaterial(){} // RVA: 0x7DCB2E0
         public void CopyMaterialPresetProperties(){} // RVA: 0x7DCB670
@@ -341,6 +471,15 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class MaterialReference : ValueType
     {
+        public object index;
+        public object fontAsset;
+        public object spriteAsset;
+        public object material;
+        public object isFallbackMaterial;
+        public object fallbackMaterial;
+        public object padding;
+        public object referenceCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98D440
         public void AddMaterialReference(){} // RVA: 0x7DCBF10
@@ -348,6 +487,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class MaterialReferenceManager : Object
     {
+        public object s_Instance;
+        public object m_FontMaterialReferenceLookup;
+        public object m_FontAssetReferenceLookup;
+        public object m_SpriteAssetReferenceLookup;
+        public object m_ColorGradientReferenceLookup;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7DCC270
         public void AddFontAsset(){} // RVA: 0x7DCC350
@@ -371,6 +516,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class MeshInfo : ValueType
     {
+        public object vertexCount;
+        public object vertexData;
+        public object material;
+        public object vertexBufferSize;
+        public object applySDF;
+        public object glyphRenderMode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98D5D0
         public void ResizeMeshInfo(){} // RVA: 0x98D5E0
@@ -400,6 +552,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class Offset : ValueType
     {
+        public object m_Left;
+        public object m_Right;
+        public object m_Top;
+        public object m_Bottom;
+        public object k_ZeroOffset;
+
         // ── Methods ──
         public void get_left(){} // RVA: 0x459690
         public void get_right(){} // RVA: 0x958940
@@ -416,6 +574,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class RenderedText : ValueType
     {
+        public object value;
+        public object valueStart;
+        public object valueLength;
+        public object suffix;
+        public object repeat;
+        public object repeatCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x98E7F0
         public void get_CharacterCount(){} // RVA: 0x98E800
@@ -427,6 +592,19 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteAsset : TextAsset
     {
+        public object m_NameLookup;
+        public object m_GlyphIndexLookup;
+        public object m_FaceInfo;
+        public object m_SpriteAtlasTexture;
+        public object _width;
+        public object _height;
+        public object m_SpriteCharacterTable;
+        public object m_SpriteCharacterLookup;
+        public object m_SpriteGlyphTable;
+        public object m_SpriteGlyphLookup;
+        public object fallbackSpriteAssets;
+        public object m_IsSpriteAssetLookupTablesDirty;
+
         // ── Methods ──
         public void get_faceInfo(){} // RVA: 0x7E01730
         public void set_faceInfo(){} // RVA: 0x7E01770
@@ -479,6 +657,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteCharacter : TextElement
     {
+        public object m_Name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x7C24F60
         public void .ctor(){} // RVA: 0x7A696C0
@@ -506,6 +686,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class SpriteGlyph : Glyph
     {
+        public object sprite;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7A69900
     }
@@ -532,6 +714,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextAsset : ScriptableObject
     {
+        public object m_Version;
+        public object m_InstanceID;
+        public object m_HashCode;
+        public object m_Material;
+        public object m_MaterialHashCode;
+
         // ── Methods ──
         public void get_version(){} // RVA: 0x3926770
         public void set_version(){} // RVA: 0xBA9BA0
@@ -547,6 +735,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextBackingContainer : ValueType
     {
+        public object m_Array;
+        public object m_Count;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x318730
         public void get_Count(){} // RVA: 0x438050
@@ -559,6 +750,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextColorGradient : ScriptableObject
     {
+        public object colorMode;
+        public object topLeft;
+        public object topRight;
+        public object bottomLeft;
+        public object bottomRight;
+        public object k_DefaultColorMode;
+        public object k_DefaultColor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x79EE490
         public void .cctor(){} // RVA: 0x7E03A30
@@ -586,6 +785,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextElement : Object
     {
+        public object m_ElementType;
+        public object m_Unicode;
+        public object m_TextAsset;
+        public object m_Glyph;
+        public object m_GlyphIndex;
+        public object m_Scale;
+
         // ── Methods ──
         public void get_elementType(){} // RVA: 0x7C7D9A0
         public void get_unicode(){} // RVA: 0x3922B50
@@ -603,12 +809,67 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextElementInfo : ValueType
     {
+        public object character;
+        public object index;
+        public object elementType;
+        public object stringLength;
+        public object textElement;
+        public object alternativeGlyph;
+        public object fontAsset;
+        public object spriteAsset;
+        public object material;
+        public object materialReferenceIndex;
+        public object isUsingAlternateTypeface;
+        public object pointSize;
+        public object lineNumber;
+        public object vertexIndex;
+        public object vertexTopLeft;
+        public object vertexBottomLeft;
+        public object vertexTopRight;
+        public object vertexBottomRight;
+        public object topLeft;
+        public object bottomLeft;
+        public object topRight;
+        public object bottomRight;
+        public object origin;
+        public object ascender;
+        public object baseLine;
+        public object descender;
+        public object adjustedAscender;
+        public object adjustedDescender;
+        public object adjustedHorizontalAdvance;
+        public object xAdvance;
+        public object aspectRatio;
+        public object scale;
+        public object color;
+        public object underlineColor;
+        public object underlineVertexIndex;
+        public object strikethroughColor;
+        public object strikethroughVertexIndex;
+        public object highlightColor;
+        public object highlightState;
+        public object style;
+        public object isVisible;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x98E4B0
     }
 
     public class TextEventManager : Object
     {
+        public object MATERIAL_PROPERTY_EVENT;
+        public object FONT_PROPERTY_EVENT;
+        public object SPRITE_ASSET_PROPERTY_EVENT;
+        public object TEXTMESHPRO_PROPERTY_EVENT;
+        public object DRAG_AND_DROP_MATERIAL_EVENT;
+        public object TEXT_STYLE_PROPERTY_EVENT;
+        public object COLOR_GRADIENT_PROPERTY_EVENT;
+        public object TMP_SETTINGS_PROPERTY_EVENT;
+        public object RESOURCE_LOAD_EVENT;
+        public object TEXTMESHPRO_UGUI_PROPERTY_EVENT;
+        public object OnPreRenderObject_Event;
+        public object TEXT_CHANGED_EVENT;
+
         // ── Methods ──
         public void ON_FONT_PROPERTY_CHANGED(){} // RVA: 0x7E08390
         public void .cctor(){} // RVA: 0x7E08480
@@ -623,6 +884,47 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGenerationSettings : Object
     {
+        public object IsEditorTextRenderingModeBitmap;
+        public object m_RenderedText;
+        public object m_CachedRenderedText;
+        public object screenRect;
+        public object pixelsPerPoint;
+        public object isEditorRenderingModeBitmap;
+        public object fontAsset;
+        public object fontStyle;
+        public object textSettings;
+        public object textAlignment;
+        public object overflowMode;
+        public object wordWrappingRatio;
+        public object color;
+        public object shouldConvertToLinearSpace;
+        public object fontSize;
+        public object autoSize;
+        public object fontSizeMin;
+        public object fontSizeMax;
+        public object fontFeatures;
+        public object emojiFallbackSupport;
+        public object richText;
+        public object isRightToLeft;
+        public object extraPadding;
+        public object parseControlCharacters;
+        public object isPlaceholder;
+        public object tagNoParsing;
+        public object characterSpacing;
+        public object wordSpacing;
+        public object lineSpacing;
+        public object paragraphSpacing;
+        public object lineSpacingMax;
+        public object textWrappingMode;
+        public object maxVisibleCharacters;
+        public object maxVisibleWords;
+        public object maxVisibleLines;
+        public object firstVisibleCharacter;
+        public object useMaxVisibleDescender;
+        public object fontWeight;
+        public object isIMGUI;
+        public object charWidthMaxAdj;
+
         // ── Methods ──
         public void get_renderedText(){} // RVA: 0x26FAD00
         public void set_renderedText(){} // RVA: 0x7E090E0
@@ -638,6 +940,170 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGenerator : Object
     {
+        public object k_Tab;
+        public object k_LineFeed;
+        public object k_VerticalTab;
+        public object k_CarriageReturn;
+        public object k_Space;
+        public object k_DoubleQuotes;
+        public object k_NumberSign;
+        public object k_PercentSign;
+        public object k_SingleQuote;
+        public object k_Plus;
+        public object k_Period;
+        public object k_LesserThan;
+        public object k_Equal;
+        public object k_GreaterThan;
+        public object k_Underline;
+        public object k_NoBreakSpace;
+        public object k_SoftHyphen;
+        public object k_HyphenMinus;
+        public object k_FigureSpace;
+        public object k_Hyphen;
+        public object k_NonBreakingHyphen;
+        public object k_ZeroWidthSpace;
+        public object k_NarrowNoBreakSpace;
+        public object k_WordJoiner;
+        public object k_HorizontalEllipsis;
+        public object k_LineSeparator;
+        public object k_ParagraphSeparator;
+        public object k_RightSingleQuote;
+        public object k_Square;
+        public object k_HangulJamoStart;
+        public object k_HangulJamoEnd;
+        public object k_CjkStart;
+        public object k_CjkEnd;
+        public object k_HangulJameExtendedStart;
+        public object k_HangulJameExtendedEnd;
+        public object k_HangulSyllablesStart;
+        public object k_HangulSyllablesEnd;
+        public object k_CjkIdeographsStart;
+        public object k_CjkIdeographsEnd;
+        public object k_CjkFormsStart;
+        public object k_CjkFormsEnd;
+        public object k_CjkHalfwidthStart;
+        public object k_CjkHalfwidthEnd;
+        public object k_EndOfText;
+        public object k_FloatUnset;
+        public object k_MaxCharacters;
+        public object s_TextGenerator;
+        public object _isExecutingJob;
+        public object m_TextBackingArray;
+        public object m_TextProcessingArray;
+        public object m_InternalTextProcessingArraySize;
+        public object m_VertexBufferAutoSizeReduction;
+        public object m_HtmlTag;
+        public object m_HighlightState;
+        public object m_IsIgnoringAlignment;
+        public object m_IsTextTruncated;
+        public object OnMissingCharacter;
+        public object m_RectTransformCorners;
+        public object m_MarginWidth;
+        public object m_MarginHeight;
+        public object m_PreferredWidth;
+        public object m_PreferredHeight;
+        public object m_CurrentFontAsset;
+        public object m_CurrentMaterial;
+        public object m_CurrentMaterialIndex;
+        public object m_MaterialReferenceStack;
+        public object m_Padding;
+        public object m_CurrentSpriteAsset;
+        public object m_TotalCharacterCount;
+        public object m_FontSize;
+        public object m_FontScaleMultiplier;
+        public object m_CurrentFontSize;
+        public object m_SizeStack;
+        public object m_TextStyleStacks;
+        public object m_TextStyleStackDepth;
+        public object m_FontStyleInternal;
+        public object m_FontStyleStack;
+        public object m_FontWeightInternal;
+        public object m_FontWeightStack;
+        public object m_LineJustification;
+        public object m_LineJustificationStack;
+        public object m_BaselineOffset;
+        public object m_BaselineOffsetStack;
+        public object m_FontColor32;
+        public object m_HtmlColor;
+        public object m_UnderlineColor;
+        public object m_StrikethroughColor;
+        public object m_ColorStack;
+        public object m_UnderlineColorStack;
+        public object m_StrikethroughColorStack;
+        public object m_HighlightColorStack;
+        public object m_HighlightStateStack;
+        public object m_ItalicAngleStack;
+        public object m_ColorGradientPreset;
+        public object m_ColorGradientStack;
+        public object m_ColorGradientPresetIsTinted;
+        public object m_ActionStack;
+        public object m_LineOffset;
+        public object m_LineHeight;
+        public object m_IsDrivenLineSpacing;
+        public object m_CSpacing;
+        public object m_MonoSpacing;
+        public object m_DuoSpace;
+        public object m_XAdvance;
+        public object m_TagLineIndent;
+        public object m_TagIndent;
+        public object m_IndentStack;
+        public object m_TagNoParsing;
+        public object m_CharacterCount;
+        public object m_FirstCharacterOfLine;
+        public object m_LastCharacterOfLine;
+        public object m_FirstVisibleCharacterOfLine;
+        public object m_LastVisibleCharacterOfLine;
+        public object m_MaxLineAscender;
+        public object m_MaxLineDescender;
+        public object m_LineNumber;
+        public object m_LineVisibleCharacterCount;
+        public object m_LineVisibleSpaceCount;
+        public object m_FirstOverflowCharacterIndex;
+        public object m_MarginLeft;
+        public object m_MarginRight;
+        public object m_Width;
+        public object m_MeshExtents;
+        public object m_MaxCapHeight;
+        public object m_MaxAscender;
+        public object m_MaxDescender;
+        public object m_IsNonBreakingSpace;
+        public object m_SavedWordWrapState;
+        public object m_SavedLineState;
+        public object m_SavedEllipsisState;
+        public object m_SavedLastValidState;
+        public object m_SavedSoftLineBreakState;
+        public object m_TextElementType;
+        public object m_isTextLayoutPhase;
+        public object m_SpriteIndex;
+        public object m_SpriteColor;
+        public object m_CachedTextElement;
+        public object m_HighlightColor;
+        public object m_CharWidthAdjDelta;
+        public object m_MaxFontSize;
+        public object m_MinFontSize;
+        public object m_AutoSizeIterationCount;
+        public object m_AutoSizeMaxIterationCount;
+        public object m_StartOfLineAscender;
+        public object m_LineSpacingDelta;
+        public object m_MaterialReferences;
+        public object m_SpriteCount;
+        public object m_StyleStack;
+        public object m_EllipsisInsertionCandidateStack;
+        public object m_SpriteAnimationId;
+        public object m_ItalicAngle;
+        public object m_FXScale;
+        public object m_FXRotation;
+        public object m_LastBaseGlyphIndex;
+        public object m_PageAscender;
+        public object m_XmlAttribute;
+        public object m_AttributeParameterValues;
+        public object m_MaterialReferenceIndexLookup;
+        public object m_IsCalculatingPreferredValues;
+        public object m_TintSprite;
+        public object m_Ellipsis;
+        public object m_Underline;
+        public object m_InternalTextElementInfo;
+
         // ── Methods ──
         public void get_IsExecutingJob(){} // RVA: 0x7DE0B40
         public void set_IsExecutingJob(){} // RVA: 0x7DE0B80
@@ -679,6 +1145,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextGeneratorUtilities : Object
     {
+        public object largePositiveVector2;
+        public object largeNegativeVector2;
+        public object k_EmojiLookup;
+        public object k_EmojiPresentationFormLookup;
+
         // ── Methods ──
         public void Approximately(){} // RVA: 0x7E0C5D0
         public void HexCharsToColor(){} // RVA: 0x7E0C600
@@ -724,6 +1195,24 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextHandle : Object
     {
+        public object s_TemporaryCache;
+        public object s_PermanentCache;
+        public object s_Settings;
+        public object s_Generators;
+        public object s_TextInfosCommon;
+        public object nativeSettings;
+        public object _preferredSize;
+        public object m_ScreenRect;
+        public object m_LineHeightDefault;
+        public object m_IsPlaceholder;
+        public object m_IsEllided;
+        public object textGenerationInfo;
+        public object _textInfoNode;
+        public object _isCachedPermanent;
+        public object _isCachedTemporary;
+        public object m_PreviousGenerationSettingsHash;
+        public object isDirty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7E12830
         public void Finalize(){} // RVA: 0x7E12900
@@ -795,6 +1284,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextHandlePermanentCache : Object
     {
+        public object s_TextInfoPool;
+        public object syncRoot;
+
         // ── Methods ──
         public void AddTextInfoToCache(){} // RVA: 0x7E16C40
         public void RemoveTextInfoFromCache(){} // RVA: 0x7E16EE0
@@ -803,6 +1295,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextHandleTemporaryCache : Object
     {
+        public object s_TextInfoPool;
+        public object s_MinFramesInCache;
+        public object currentFrame;
+        public object syncRoot;
+
         // ── Methods ──
         public void ClearTemporaryCache(){} // RVA: 0x7E17200
         public void AddTextInfoToCache(){} // RVA: 0x7E17360
@@ -815,6 +1312,24 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextInfo : Object
     {
+        public object s_InfinityVectorPositive;
+        public object s_InfinityVectorNegative;
+        public object characterCount;
+        public object spriteCount;
+        public object spaceCount;
+        public object wordCount;
+        public object linkCount;
+        public object lineCount;
+        public object materialCount;
+        public object textElementInfo;
+        public object wordInfo;
+        public object linkInfo;
+        public object lineInfo;
+        public object meshInfo;
+        public object lastTimeInCache;
+        public object removedFromCache;
+        public object hasMultipleColors;
+
         // ── Methods ──
         public void RemoveFromCache(){} // RVA: 0x7E18390
         public void .ctor(){} // RVA: 0x7E18410
@@ -846,6 +1361,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextLib : Object
     {
+        public object m_Ptr;
+        public object GetICUAssetEditorDelegate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7E10990
         public void GetInstance(){} // RVA: 0x7E10A70
@@ -862,6 +1380,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8965E0
         public void get_Count(){} // RVA: 0x87C130
@@ -878,6 +1404,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AA260
         public void get_Count(){} // RVA: 0x53FBE0
@@ -894,6 +1428,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x53FA00
@@ -910,6 +1452,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x53FA00
@@ -926,6 +1476,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x53FA00
@@ -942,6 +1500,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x53FA00
@@ -958,6 +1524,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9AE0
         public void get_Count(){} // RVA: 0x53FAD0
@@ -974,6 +1548,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A9610
         public void get_Count(){} // RVA: 0x53FA00
@@ -990,6 +1572,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AA9D0
         public void get_Count(){} // RVA: 0x53FD80
@@ -1006,6 +1596,14 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextProcessingStack`1 : ValueType
     {
+        public object itemStack;
+        public object index;
+        public object m_DefaultItem;
+        public object m_Capacity;
+        public object m_RolloverSize;
+        public object m_Count;
+        public object k_DefaultCapacity;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x53FF10
         public void get_Count(){} // RVA: 0x53FF20
@@ -1022,6 +1620,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextResourceManager : Object
     {
+        public object s_FontAssetReferences;
+        public object s_FontAssetNameReferenceLookup;
+        public object s_FontAssetFamilyNameAndStyleReferenceLookup;
+        public object s_FontAssetRemovalList;
+        public object k_RegularStyleHashCode;
+
         // ── Methods ──
         public void AddFontAsset(){} // RVA: 0x7E1A870
         public void .cctor(){} // RVA: 0x7E1B210
@@ -1059,6 +1663,31 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextSettings : ScriptableObject
     {
+        public object m_Version;
+        public object m_DefaultFontAsset;
+        public object m_DefaultFontAssetPath;
+        public object m_FallbackFontAssets;
+        public object s_FallbackOSFontAssetInternal;
+        public object m_MatchMaterialPreset;
+        public object m_MissingCharacterUnicode;
+        public object m_ClearDynamicDataOnBuild;
+        public object m_EnableEmojiSupport;
+        public object m_EmojiFallbackTextAssets;
+        public object m_DefaultSpriteAsset;
+        public object m_DefaultSpriteAssetPath;
+        public object m_FallbackSpriteAssets;
+        public object _s_GlobalSpriteAsset;
+        public object m_MissingSpriteCharacterUnicode;
+        public object m_DefaultStyleSheet;
+        public object m_StyleSheetsResourcePath;
+        public object m_DefaultColorGradientPresetsPath;
+        public object m_UnicodeLineBreakingRules;
+        public object m_DisplayWarnings;
+        public object m_FontLookup;
+        public object m_FontReferences;
+        public object m_NativeTextSettings;
+        public object m_IsNativeTextSettingsDirty;
+
         // ── Methods ──
         public void get_version(){} // RVA: 0xB465B0
         public void set_version(){} // RVA: 0xBA9BA0
@@ -1120,6 +1749,85 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextShaderUtilities : Object
     {
+        public object ID_MainTex;
+        public object ID_FaceTex;
+        public object ID_FaceColor;
+        public object ID_FaceDilate;
+        public object ID_Shininess;
+        public object ID_OutlineOffset1;
+        public object ID_OutlineOffset2;
+        public object ID_OutlineOffset3;
+        public object ID_OutlineMode;
+        public object ID_IsoPerimeter;
+        public object ID_Softness;
+        public object ID_UnderlayColor;
+        public object ID_UnderlayOffsetX;
+        public object ID_UnderlayOffsetY;
+        public object ID_UnderlayDilate;
+        public object ID_UnderlaySoftness;
+        public object ID_UnderlayOffset;
+        public object ID_UnderlayIsoPerimeter;
+        public object ID_WeightNormal;
+        public object ID_WeightBold;
+        public object ID_OutlineTex;
+        public object ID_OutlineWidth;
+        public object ID_OutlineSoftness;
+        public object ID_OutlineColor;
+        public object ID_Outline2Color;
+        public object ID_Outline2Width;
+        public object ID_Padding;
+        public object ID_GradientScale;
+        public object ID_ScaleX;
+        public object ID_ScaleY;
+        public object ID_PerspectiveFilter;
+        public object ID_Sharpness;
+        public object ID_TextureWidth;
+        public object ID_TextureHeight;
+        public object ID_BevelAmount;
+        public object ID_GlowColor;
+        public object ID_GlowOffset;
+        public object ID_GlowPower;
+        public object ID_GlowOuter;
+        public object ID_GlowInner;
+        public object ID_LightAngle;
+        public object ID_EnvMap;
+        public object ID_EnvMatrix;
+        public object ID_EnvMatrixRotation;
+        public object ID_MaskCoord;
+        public object ID_ClipRect;
+        public object ID_MaskSoftnessX;
+        public object ID_MaskSoftnessY;
+        public object ID_VertexOffsetX;
+        public object ID_VertexOffsetY;
+        public object ID_UseClipRect;
+        public object ID_StencilID;
+        public object ID_StencilOp;
+        public object ID_StencilComp;
+        public object ID_StencilReadMask;
+        public object ID_StencilWriteMask;
+        public object ID_ShaderFlags;
+        public object ID_ScaleRatio_A;
+        public object ID_ScaleRatio_B;
+        public object ID_ScaleRatio_C;
+        public object Keyword_Bevel;
+        public object Keyword_Glow;
+        public object Keyword_Underlay;
+        public object Keyword_Ratios;
+        public object Keyword_MASK_SOFT;
+        public object Keyword_MASK_HARD;
+        public object Keyword_MASK_TEX;
+        public object Keyword_Outline;
+        public object ShaderTag_ZTestMode;
+        public object ShaderTag_CullMode;
+        public object m_clamp;
+        public object isInitialized;
+        public object k_SDFText;
+        public object k_BitmapText;
+        public object k_SpriteText;
+        public object k_ShaderRef_MobileSDF;
+        public object k_ShaderRef_MobileBitmap;
+        public object k_ShaderRef_Sprite;
+
         // ── Methods ──
         public void get_ShaderRef_MobileSDF(){} // RVA: 0x7E1B630
         public void get_ShaderRef_MobileBitmap(){} // RVA: 0x7E1B770
@@ -1130,6 +1838,16 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyle : Object
     {
+        public object k_NormalStyle;
+        public object m_Name;
+        public object m_HashCode;
+        public object m_OpeningDefinition;
+        public object m_ClosingDefinition;
+        public object m_OpeningTagArray;
+        public object m_ClosingTagArray;
+        public object m_OpeningTagUnicodeArray;
+        public object m_ClosingTagUnicodeArray;
+
         // ── Methods ──
         public void get_hashCode(){} // RVA: 0x47FDFF0
         public void get_styleOpeningTagArray(){} // RVA: 0x7C24F60
@@ -1140,6 +1858,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class TextStyleSheet : ScriptableObject
     {
+        public object m_StyleList;
+        public object m_StyleLookupDictionary;
+        public object styleLookupLock;
+
         // ── Methods ──
         public void get_styles(){} // RVA: 0x3926770
         public void Reset(){} // RVA: 0x7E05E00
@@ -1179,6 +1901,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 
     public class UnicodeLineBreakingRules : Object
     {
+        public object m_UnicodeLineBreakingRules;
+        public object m_LeadingCharacters;
+        public object m_FollowingCharacters;
+        public object m_UseModernHangulLineBreakingRules;
+        public object m_LeadingCharactersLookup;
+        public object m_FollowingCharactersLookup;
+
         // ── Methods ──
         public void get_leadingCharactersLookup(){} // RVA: 0x7E1D240
         public void get_followingCharactersLookup(){} // RVA: 0x7E1D270

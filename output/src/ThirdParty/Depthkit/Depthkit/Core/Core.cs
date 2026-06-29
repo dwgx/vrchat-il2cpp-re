@@ -7,8 +7,14 @@ namespace ThirdParty.Depthkit.Depthkit.Core
 {
     public class Vertex : ValueType
     {
+        public object uv;
+        public object position;
+        public object normal;
+        public object perspectiveIndex;
+        public object valid;
+
         // ── Methods ──
-        public void Print(){} // RVA: 0x7A767CDA0
+        public void Print(){} // RVA: 0x907F0
     }
 
 }

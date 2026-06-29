@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 {
     public class AxisComposite : InputBindingComposite`1
     {
+        public object negative;
+        public object positive;
+        public object minValue;
+        public object maxValue;
+        public object whichSideWins;
+
         // ── Methods ──
         public void get_midPoint(){} // RVA: 0x7839720
         public void ReadValue(){} // RVA: 0x7839740
@@ -16,6 +22,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class ButtonWithOneModifier : InputBindingComposite`1
     {
+        public object modifier;
+        public object button;
+        public object overrideModifiersNeedToBePressedFirst;
+        public object modifiersOrder;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7839970
         public void ModifierIsPressed(){} // RVA: 0x7839A20
@@ -26,6 +37,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class ButtonWithTwoModifiers : InputBindingComposite`1
     {
+        public object modifier1;
+        public object modifier2;
+        public object button;
+        public object overrideModifiersNeedToBePressedFirst;
+        public object modifiersOrder;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x7839B40
         public void ModifiersArePressed(){} // RVA: 0x7839C30
@@ -36,6 +53,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class OneModifierComposite : InputBindingComposite
     {
+        public object modifier;
+        public object binding;
+        public object overrideModifiersNeedToBePressedFirst;
+        public object modifiersOrder;
+        public object m_ValueSizeInBytes;
+        public object m_ValueType;
+        public object m_BindingIsButton;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0xB70160
         public void get_valueSizeInBytes(){} // RVA: 0xFEAE90
@@ -50,6 +75,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class TwoModifiersComposite : InputBindingComposite
     {
+        public object modifier1;
+        public object modifier2;
+        public object binding;
+        public object overrideModifiersNeedToBePressedFirst;
+        public object modifiersOrder;
+        public object m_ValueSizeInBytes;
+        public object m_ValueType;
+        public object m_BindingIsButton;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0xB70160
         public void get_valueSizeInBytes(){} // RVA: 0x15AF000
@@ -63,6 +97,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class Vector2Composite : InputBindingComposite`1
     {
+        public object up;
+        public object down;
+        public object left;
+        public object right;
+        public object normalize;
+        public object mode;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x783A650
         public void EvaluateMagnitude(){} // RVA: 0x783A7D0
@@ -71,6 +112,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Composites
 
     public class Vector3Composite : InputBindingComposite`1
     {
+        public object up;
+        public object down;
+        public object left;
+        public object right;
+        public object forward;
+        public object backward;
+        public object mode;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0x783A840
         public void EvaluateMagnitude(){} // RVA: 0x783AB00

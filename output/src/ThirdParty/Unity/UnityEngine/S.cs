@@ -113,6 +113,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ScrollViewState : Object
     {
+        public object position;
+        public object visibleRect;
+        public object viewRect;
+        public object scrollPosition;
+        public object apply;
+        public object isDuringTouchScroll;
+        public object touchScrollStartMousePosition;
+        public object touchScrollStartPosition;
+        public object velocity;
+        public object previousTimeSinceStartup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -145,6 +156,16 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SendMouseEvents : Object
     {
+        public object s_MouseUsed;
+        public object m_LastHit;
+        public object m_MouseDownHit;
+        public object m_CurrentHit;
+        public object m_Cameras;
+        public object s_GetMouseState;
+        public object s_MousePosition;
+        public object s_MouseButtonPressedThisFrame;
+        public object s_MouseButtonIsPressed;
+
         // ── Methods ──
         public void UpdateMouse(){} // RVA: 0x7CAA440
         public void SetMouseMoved(){} // RVA: 0x7CAA740
@@ -454,6 +475,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SliderHandler : ValueType
     {
+        public object position;
+        public object currentValue;
+        public object size;
+        public object start;
+        public object end;
+        public object slider;
+        public object thumb;
+        public object thumbExtent;
+        public object horiz;
+        public object id;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x970210
         public void Handle(){} // RVA: 0x9702A0
@@ -527,6 +559,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SliderState : Object
     {
+        public object dragStartPos;
+        public object dragStartValue;
+        public object isDragging;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -559,6 +595,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SoftJointLimit : ValueType
     {
+        public object m_Limit;
+        public object m_Bounciness;
+        public object m_ContactDistance;
+
         // ── Methods ──
         public void get_limit(){} // RVA: 0x459690
         public void set_limit(){} // RVA: 0xD1B20
@@ -570,6 +610,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SoftJointLimitSpring : ValueType
     {
+        public object m_Spring;
+        public object m_Damper;
+
         // ── Methods ──
         public void get_spring(){} // RVA: 0x459690
         public void set_spring(){} // RVA: 0xD1B20
@@ -579,6 +622,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SortingLayer : ValueType
     {
+        public object m_Id;
+
         // ── Methods ──
         public void GetLayerValueFromID(){} // RVA: 0x7B51510
         public void NameToID(){} // RVA: 0x7B51560
@@ -587,6 +632,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpaceAttribute : PropertyAttribute
     {
+        public object height;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EFF0
     }
@@ -749,6 +796,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SpriteRenderer : Renderer
     {
+        public object m_SpriteChangeEvent;
+
         // ── Methods ──
         public void RegisterSpriteChangeCallback(){} // RVA: 0x7B4C0B0
         public void UnregisterSpriteChangeCallback(){} // RVA: 0x7B4C230
@@ -852,6 +901,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class StackTraceUtility : Object
     {
+        public object projectFolder;
+
         // ── Methods ──
         public void SetProjectFolder(){} // RVA: 0x7C06280
         public void ExtractStackTrace(){} // RVA: 0x7C06440
@@ -931,6 +982,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemDescriptor : Object
     {
+        public object _id;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0xB5DBF0
         public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x7183E10
@@ -968,6 +1021,14 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SubsystemManager : Object
     {
+        public object beforeReloadSubsystems;
+        public object afterReloadSubsystems;
+        public object s_IntegratedSubsystems;
+        public object s_StandaloneSubsystems;
+        public object s_DeprecatedSubsystems;
+        public object reloadSubsytemsStarted;
+        public object reloadSubsytemsCompleted;
+
         // ── Methods ──
         public void ReloadSubsystemsStarted(){} // RVA: 0x7DADB00
         public void ReloadSubsystemsCompleted(){} // RVA: 0x7DADBF0
@@ -1056,6 +1117,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class SystemClock : Object
     {
+        public object s_Epoch;
+
         // ── Methods ──
         public void get_now(){} // RVA: 0x7C11510
         public void .cctor(){} // RVA: 0x7C11560

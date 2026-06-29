@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class SerializedObjects : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedObjectsT : Object
     {
+        public object _objects;
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0xB5DBF0
         public void set_Objects(){} // RVA: 0xB44D60
@@ -56,6 +60,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SerializedTypeUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -92,6 +99,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjects : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -121,6 +130,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SparseSerializedObjectsT : Object
     {
+        public object _objects;
+        public object _bitmap;
+
         // ── Methods ──
         public void get_Objects(){} // RVA: 0xB5DBF0
         public void set_Objects(){} // RVA: 0xB44D60
@@ -139,6 +151,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnim : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -186,6 +200,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncAnimT : Object
     {
+        public object _animationIsPlaying;
+        public object _animationStates;
+        public object _animatorLayers;
+        public object _animatorParameters;
+
         // ── Methods ──
         public void get_AnimationIsPlaying(){} // RVA: 0xC120A0
         public void set_AnimationIsPlaying(){} // RVA: 0xC120B0
@@ -208,6 +227,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -223,6 +244,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsDataSparseRotation : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -238,6 +261,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsDataSparseRotationT : Object
     {
+        public object _flags;
+        public object _position;
+        public object _rotationAroundY;
+
         // ── Methods ──
         public void get_Flags(){} // RVA: 0xC120A0
         public void set_Flags(){} // RVA: 0xC120B0
@@ -250,6 +277,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncPhysicsDataT : Object
     {
+        public object _flags;
+        public object _position;
+        public object _rotation;
+
         // ── Methods ──
         public void get_Flags(){} // RVA: 0xC120A0
         public void set_Flags(){} // RVA: 0xC120B0
@@ -262,6 +293,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayer : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -286,6 +319,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoPlayerT : Object
     {
+        public object _isPlaying;
+        public object _time;
+        public object _playbackSpeed;
+        public object _currentPlaylistIndex;
+
         // ── Methods ──
         public void get_IsPlaying(){} // RVA: 0xC120A0
         public void set_IsPlaying(){} // RVA: 0xC120B0
@@ -306,6 +344,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStream : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -334,6 +374,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class SyncVideoStreamT : Object
     {
+        public object _isPlaying;
+        public object _time;
+        public object _playbackRate;
+        public object _currentPlaylistIndex;
+        public object _syncType;
+        public object _syncMinutes;
+
         // ── Methods ──
         public void get_IsPlaying(){} // RVA: 0xC120A0
         public void set_IsPlaying(){} // RVA: 0xC120B0

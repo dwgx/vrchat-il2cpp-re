@@ -7,6 +7,11 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 {
     public class ABSSequentiable : Object
     {
+        public object tweenType;
+        public object sequencedPosition;
+        public object sequencedEndPosition;
+        public object onStart;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -29,15 +34,6 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
         public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-    }
-
-    public class DOGetter`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35A74B0
-        public void Invoke(){} // RVA: 0xBA10B0
-        public void BeginInvoke(){} // RVA: 0xBA10C0
-        public void EndInvoke(){} // RVA: 0x28BB5D0
     }
 
     public class DOGetter`1 : MulticastDelegate
@@ -85,13 +81,13 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void EndInvoke(){} // RVA: 0x25CC430
     }
 
-    public class DOSetter`1 : MulticastDelegate
+    public class DOGetter`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x35A7CE0
-        public void Invoke(){} // RVA: 0xB9E010
-        public void BeginInvoke(){} // RVA: 0x35A7DB0
-        public void EndInvoke(){} // RVA: 0xB44BE0
+        public void .ctor(){} // RVA: 0x35A74B0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0x28BB5D0
     }
 
     public class DOSetter`1 : MulticastDelegate
@@ -139,8 +135,25 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
+    public class DOSetter`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35A7CE0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x35A7DB0
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
     public class DOTweenComponent : MonoBehaviour
     {
+        public object inspectorUpdater;
+        public object _unscaledTime;
+        public object _unscaledDeltaTime;
+        public object _paused;
+        public object _pausedTime;
+        public object _isQuitting;
+        public object _duplicateToDestroy;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x2728CF0
         public void Start(){} // RVA: 0x27290E0
@@ -165,6 +178,8 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class DOTweenExternalCommand : Object
     {
+        public object SetOrientationOnPath;
+
         // ── Methods ──
         public void add_SetOrientationOnPath(){} // RVA: 0x272B540
         public void remove_SetOrientationOnPath(){} // RVA: 0x272B670
@@ -173,12 +188,43 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class DOTweenSettings : ScriptableObject
     {
+        public object AssetName;
+        public object AssetFullFilename;
+        public object useSafeMode;
+        public object safeModeOptions;
+        public object timeScale;
+        public object useSmoothDeltaTime;
+        public object maxSmoothUnscaledTime;
+        public object rewindCallbackMode;
+        public object showUnityEditorReport;
+        public object logBehaviour;
+        public object drawGizmos;
+        public object defaultRecyclable;
+        public object defaultAutoPlay;
+        public object defaultUpdateType;
+        public object defaultTimeScaleIndependent;
+        public object defaultEaseType;
+        public object defaultEaseOvershootOrAmplitude;
+        public object defaultEasePeriod;
+        public object defaultAutoKill;
+        public object defaultLoopType;
+        public object debugMode;
+        public object debugStoreTargetId;
+        public object showPreviewPanel;
+        public object storeSettingsLocation;
+        public object modules;
+        public object showPlayingTweens;
+        public object showPausedTweens;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x272B3E0
     }
 
     public class Debugger : Object
     {
+        public object _logPriority;
+        public object _LogPrefix;
+
         // ── Methods ──
         public void get_logPriority(){} // RVA: 0x2728050
         public void Log(){} // RVA: 0x2728090
@@ -206,6 +252,11 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class SafeModeReport : ValueType
     {
+        public object _totMissingTargetOrFieldErrors;
+        public object _totCallbackErrors;
+        public object _totStartupErrors;
+        public object _totUnsetErrors;
+
         // ── Methods ──
         public void get_totMissingTargetOrFieldErrors(){} // RVA: 0x77E60
         public void set_totMissingTargetOrFieldErrors(){} // RVA: 0x29580
@@ -227,15 +278,58 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenLink : Object
     {
+        public object target;
+        public object behaviour;
+        public object lastSeenActive;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x272B960
     }
 
     public class TweenManager : Object
     {
+        public object _DefaultMaxTweeners;
+        public object _DefaultMaxSequences;
+        public object _MaxTweensReached;
+        public object _EpsilonVsTimeCheck;
+        public object isUnityEditor;
+        public object isDebugBuild;
+        public object maxActive;
+        public object maxTweeners;
+        public object maxSequences;
+        public object hasActiveTweens;
+        public object hasActiveDefaultTweens;
+        public object hasActiveLateTweens;
+        public object hasActiveFixedTweens;
+        public object hasActiveManualTweens;
+        public object totActiveTweens;
+        public object totActiveDefaultTweens;
+        public object totActiveLateTweens;
+        public object totActiveFixedTweens;
+        public object totActiveManualTweens;
+        public object totActiveTweeners;
+        public object totActiveSequences;
+        public object totPooledTweeners;
+        public object totPooledSequences;
+        public object totTweeners;
+        public object totSequences;
+        public object isUpdateLoop;
+        public object _activeTweens;
+        public object _pooledTweeners;
+        public object _PooledSequences;
+        public object _KillList;
+        public object _TweenLinks;
+        public object _totTweenLinks;
+        public object _maxActiveLookupId;
+        public object _requiresActiveReorganization;
+        public object _reorganizeFromId;
+        public object _minPooledTweenerId;
+        public object _maxPooledTweenerId;
+        public object _despawnAllCalledFromUpdateLoopCallback;
+
         // ── Methods ──
-        public void GetTweener(){} // RVA: 0x2A3F360
         public void .cctor(){} // RVA: 0x272BA60
+        public void GetTweener(){} // RVA: 0x2A3F360
         public void GetSequence(){} // RVA: 0x272BFA0
         public void SetUpdateType(){} // RVA: 0x272C460
         public void AddActiveTweenToSequence(){} // RVA: 0x272C740
@@ -280,21 +374,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4F41110
-        public void ChangeStartValue(){} // RVA: 0x4F4F230
-        public void ChangeEndValue(){} // RVA: 0x4F4F3F0
-        public void ChangeValues(){} // RVA: 0x4F4F4D0
-        public void SetFrom(){} // RVA: 0x4F46580
-        public void Reset(){} // RVA: 0x4F4F5C0
-        public void Validate(){} // RVA: 0x4F445C0
-        public void UpdateDelay(){} // RVA: 0x4F42240
-        public void Startup(){} // RVA: 0x4F4F6E0
-        public void ApplyTween(){} // RVA: 0x4F4F700
-    }
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
 
-    public class TweenerCore`3 : Tweener
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F41110
         public void ChangeStartValue(){} // RVA: 0x4F514B0
@@ -310,6 +398,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void ChangeStartValue(){} // RVA: 0xA94080
@@ -325,6 +422,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F41110
         public void ChangeStartValue(){} // RVA: 0x4F4C420
@@ -340,6 +446,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F41110
         public void ChangeStartValue(){} // RVA: 0x4F52660
@@ -355,6 +470,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F41110
         public void ChangeStartValue(){} // RVA: 0x4F4A2D0
@@ -370,6 +494,15 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
 
     public class TweenerCore`3 : Tweener
     {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F41110
         public void ChangeStartValue(){} // RVA: 0x4F41C90
@@ -383,8 +516,35 @@ namespace ThirdParty.DOTween.DG.Tweening.Core
         public void ApplyTween(){} // RVA: 0x4F422B0
     }
 
+    public class TweenerCore`3 : Tweener
+    {
+        public object startValue;
+        public object endValue;
+        public object changeValue;
+        public object plugOptions;
+        public object getter;
+        public object setter;
+        public object tweenPlugin;
+        public object _TxtCantChangeSequencedValues;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4F41110
+        public void ChangeStartValue(){} // RVA: 0x4F4F230
+        public void ChangeEndValue(){} // RVA: 0x4F4F3F0
+        public void ChangeValues(){} // RVA: 0x4F4F4D0
+        public void SetFrom(){} // RVA: 0x4F46580
+        public void Reset(){} // RVA: 0x4F4F5C0
+        public void Validate(){} // RVA: 0x4F445C0
+        public void UpdateDelay(){} // RVA: 0x4F42240
+        public void Startup(){} // RVA: 0x4F4F6E0
+        public void ApplyTween(){} // RVA: 0x4F4F700
+    }
+
     public class Utils : Object
     {
+        public object _loadedAssemblies;
+        public object _defAssembliesToQuery;
+
         // ── Methods ──
         public void Vector3FromAngle(){} // RVA: 0x2731D20
         public void Angle2D(){} // RVA: 0x2731D80

@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.Events
 {
     public class ArgumentCache : Object
     {
+        public object m_ObjectArgument;
+        public object m_ObjectArgumentAssemblyTypeName;
+        public object m_IntArgument;
+        public object m_FloatArgument;
+        public object m_StringArgument;
+        public object m_BoolArgument;
+
         // ── Methods ──
         public void get_unityObjectArgument(){} // RVA: 0x3E42230
         public void get_unityObjectArgumentAssemblyTypeName(){} // RVA: 0x3926770

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 774
+// Methods: 760
 
 public class $BurstDirectCallInitializer : Object
 {
@@ -11,6 +11,8 @@ public class $BurstDirectCallInitializer : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x699AC20
     public void .ctor(){} // RVA: 0xB43310
@@ -19,6 +21,14 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+    public object <>9__29_0;
+    public object <>9__35_0;
+    public object <>9__35_1;
+    public object <>9__36_0;
+    public object <>9__37_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -32,6 +42,14 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+    public object <>9__29_0;
+    public object <>9__35_0;
+    public object <>9__35_1;
+    public object <>9__36_0;
+    public object <>9__37_0;
+
     // ── Methods ──
     public void <.ctor>b__11_0(){} // RVA: 0x31CB560
     public void <OnCompleted>b__29_0(){} // RVA: 0x31CB5F0
@@ -45,6 +63,14 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__11_0;
+    public object <>9__29_0;
+    public object <>9__35_0;
+    public object <>9__35_1;
+    public object <>9__36_0;
+    public object <>9__37_0;
+
     // ── Methods ──
     public void <.ctor>b__11_0(){} // RVA: 0x3CDEFD0
     public void <OnCompleted>b__29_0(){} // RVA: 0x3CDF1E0
@@ -56,6 +82,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__8_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -64,12 +93,29 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__8_0;
+
     // ── Methods ──
     public void <InvokeCoreAsync>b__8_0(){} // RVA: 0x3CE6ED0
 }
 
 public class <>c : Object
 {
+    public object <>9;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x67BE500
+    public void .ctor(){} // RVA: 0xB43310
+    public void <.cctor>b__9_0(){} // RVA: 0x67BE5A0
+}
+
+public class <>c : Object
+{
+    public object <>9;
+    public object <>9__10_0;
+    public object <>9__22_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7D641C0
     public void .ctor(){} // RVA: 0xB43310
@@ -79,6 +125,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -90,6 +142,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -101,6 +159,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9560
     public void <.ctor>b__0_1(){} // RVA: 0x44E9580
@@ -112,6 +176,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9170
     public void <.ctor>b__0_1(){} // RVA: 0x44E91A0
@@ -123,6 +193,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E92D0
     public void <.ctor>b__0_1(){} // RVA: 0x44E9310
@@ -134,6 +210,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E93C0
     public void <.ctor>b__0_1(){} // RVA: 0x44E93D0
@@ -145,6 +227,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9470
     public void <.ctor>b__0_1(){} // RVA: 0x44E94A0
@@ -156,6 +244,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E99C0
     public void <.ctor>b__0_1(){} // RVA: 0x44E99E0
@@ -167,6 +261,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9780
     public void <.ctor>b__0_1(){} // RVA: 0x44E9790
@@ -178,6 +278,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9620
     public void <.ctor>b__0_1(){} // RVA: 0x44E9670
@@ -189,6 +295,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -200,6 +312,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -211,6 +329,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -222,6 +346,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -233,6 +363,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -244,6 +380,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -255,6 +397,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9B00
     public void <.ctor>b__0_1(){} // RVA: 0x44E9B40
@@ -266,6 +414,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9C00
     public void <.ctor>b__0_1(){} // RVA: 0x44E9580
@@ -277,6 +431,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -288,6 +448,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9C40
     public void <.ctor>b__0_1(){} // RVA: 0x44E9C90
@@ -299,6 +465,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9D50
     public void <.ctor>b__0_1(){} // RVA: 0x44E94A0
@@ -310,6 +482,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E72D0
     public void <.ctor>b__0_1(){} // RVA: 0x44E72E0
@@ -321,6 +499,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E72D0
     public void <.ctor>b__0_1(){} // RVA: 0x44E72E0
@@ -332,6 +516,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E72D0
     public void <.ctor>b__0_1(){} // RVA: 0x44E72E0
@@ -343,6 +533,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9D90
     public void <.ctor>b__0_1(){} // RVA: 0x44E9B40
@@ -354,6 +550,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -365,6 +567,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E9890
     public void <.ctor>b__0_1(){} // RVA: 0x44E98B0
@@ -376,6 +584,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E93C0
     public void <.ctor>b__0_1(){} // RVA: 0x44E97D0
@@ -387,6 +601,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -398,6 +618,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -409,6 +635,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -420,6 +652,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -431,6 +669,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -442,6 +686,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -453,6 +703,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -464,6 +720,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -475,6 +737,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void <.ctor>b__0_0(){} // RVA: 0x44E7240
     public void <.ctor>b__0_1(){} // RVA: 0x44E7250
@@ -486,6 +754,157 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__17_0;
+    public object <>9__17_1;
+    public object <>9__17_2;
+    public object <>9__17_3;
+    public object <>9__17_4;
+    public object <>9__17_5;
+    public object <>9__17_6;
+    public object <>9__17_7;
+    public object <>9__17_8;
+    public object <>9__17_9;
+    public object <>9__17_10;
+    public object <>9__17_11;
+    public object <>9__18_0;
+    public object <>9__18_1;
+    public object <>9__18_2;
+    public object <>9__18_3;
+    public object <>9__18_4;
+    public object <>9__18_5;
+    public object <>9__18_6;
+    public object <>9__18_7;
+    public object <>9__18_8;
+    public object <>9__18_9;
+    public object <>9__18_10;
+    public object <>9__18_11;
+    public object <>9__19_0;
+    public object <>9__19_1;
+    public object <>9__19_2;
+    public object <>9__19_3;
+    public object <>9__19_4;
+    public object <>9__19_5;
+    public object <>9__19_6;
+    public object <>9__19_7;
+    public object <>9__19_8;
+    public object <>9__19_9;
+    public object <>9__19_10;
+    public object <>9__19_11;
+    public object <>9__20_0;
+    public object <>9__20_1;
+    public object <>9__20_2;
+    public object <>9__20_3;
+    public object <>9__20_4;
+    public object <>9__20_5;
+    public object <>9__20_6;
+    public object <>9__20_7;
+    public object <>9__20_8;
+    public object <>9__20_9;
+    public object <>9__20_10;
+    public object <>9__20_11;
+    public object <>9__21_0;
+    public object <>9__21_1;
+    public object <>9__21_2;
+    public object <>9__21_3;
+    public object <>9__21_4;
+    public object <>9__21_5;
+    public object <>9__21_6;
+    public object <>9__21_7;
+    public object <>9__21_8;
+    public object <>9__21_9;
+    public object <>9__21_10;
+    public object <>9__21_11;
+    public object <>9__21_12;
+    public object <>9__22_0;
+    public object <>9__22_1;
+    public object <>9__22_2;
+    public object <>9__22_3;
+    public object <>9__22_4;
+    public object <>9__22_5;
+    public object <>9__22_6;
+    public object <>9__22_7;
+    public object <>9__22_8;
+    public object <>9__22_9;
+    public object <>9__22_10;
+    public object <>9__22_11;
+    public object <>9__23_0;
+    public object <>9__23_1;
+    public object <>9__23_2;
+    public object <>9__23_3;
+    public object <>9__23_4;
+    public object <>9__23_5;
+    public object <>9__23_6;
+    public object <>9__23_7;
+    public object <>9__23_8;
+    public object <>9__23_9;
+    public object <>9__23_10;
+    public object <>9__23_11;
+    public object <>9__24_0;
+    public object <>9__24_1;
+    public object <>9__24_2;
+    public object <>9__24_3;
+    public object <>9__24_4;
+    public object <>9__24_5;
+    public object <>9__24_6;
+    public object <>9__24_7;
+    public object <>9__24_8;
+    public object <>9__24_9;
+    public object <>9__24_10;
+    public object <>9__24_11;
+    public object <>9__25_0;
+    public object <>9__25_1;
+    public object <>9__25_2;
+    public object <>9__25_3;
+    public object <>9__25_4;
+    public object <>9__25_5;
+    public object <>9__25_6;
+    public object <>9__25_7;
+    public object <>9__25_8;
+    public object <>9__25_9;
+    public object <>9__25_10;
+    public object <>9__25_11;
+    public object <>9__25_12;
+    public object <>9__26_0;
+    public object <>9__26_1;
+    public object <>9__26_2;
+    public object <>9__26_3;
+    public object <>9__26_4;
+    public object <>9__26_5;
+    public object <>9__26_6;
+    public object <>9__26_7;
+    public object <>9__26_8;
+    public object <>9__26_9;
+    public object <>9__26_10;
+    public object <>9__26_11;
+    public object <>9__26_12;
+    public object <>9__27_0;
+    public object <>9__27_1;
+    public object <>9__27_2;
+    public object <>9__27_3;
+    public object <>9__27_4;
+    public object <>9__27_5;
+    public object <>9__27_6;
+    public object <>9__27_7;
+    public object <>9__27_8;
+    public object <>9__27_9;
+    public object <>9__27_10;
+    public object <>9__27_11;
+    public object <>9__28_0;
+    public object <>9__28_1;
+    public object <>9__28_2;
+    public object <>9__28_3;
+    public object <>9__28_4;
+    public object <>9__28_5;
+    public object <>9__28_6;
+    public object <>9__28_7;
+    public object <>9__28_8;
+    public object <>9__28_9;
+    public object <>9__28_10;
+    public object <>9__28_11;
+    public object <>9__29_0;
+    public object <>9__29_1;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7E6A5D0
     public void .ctor(){} // RVA: 0xB43310
@@ -642,6 +1061,191 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__1_0;
+    public object <>9__1_1;
+    public object <>9__1_2;
+    public object <>9__1_3;
+    public object <>9__1_4;
+    public object <>9__1_5;
+    public object <>9__1_6;
+    public object <>9__1_7;
+    public object <>9__1_8;
+    public object <>9__1_9;
+    public object <>9__1_10;
+    public object <>9__1_11;
+    public object <>9__2_0;
+    public object <>9__2_1;
+    public object <>9__2_2;
+    public object <>9__2_3;
+    public object <>9__2_4;
+    public object <>9__2_5;
+    public object <>9__2_6;
+    public object <>9__2_7;
+    public object <>9__2_8;
+    public object <>9__2_9;
+    public object <>9__2_10;
+    public object <>9__2_11;
+    public object <>9__3_0;
+    public object <>9__3_1;
+    public object <>9__3_2;
+    public object <>9__3_3;
+    public object <>9__3_4;
+    public object <>9__3_5;
+    public object <>9__3_6;
+    public object <>9__3_7;
+    public object <>9__3_8;
+    public object <>9__3_9;
+    public object <>9__3_10;
+    public object <>9__3_11;
+    public object <>9__4_0;
+    public object <>9__4_1;
+    public object <>9__4_2;
+    public object <>9__4_3;
+    public object <>9__4_4;
+    public object <>9__4_5;
+    public object <>9__4_6;
+    public object <>9__4_7;
+    public object <>9__4_8;
+    public object <>9__4_9;
+    public object <>9__4_10;
+    public object <>9__4_11;
+    public object <>9__5_0;
+    public object <>9__5_1;
+    public object <>9__5_2;
+    public object <>9__5_3;
+    public object <>9__5_4;
+    public object <>9__5_5;
+    public object <>9__5_6;
+    public object <>9__5_7;
+    public object <>9__5_8;
+    public object <>9__5_9;
+    public object <>9__5_10;
+    public object <>9__5_11;
+    public object <>9__6_0;
+    public object <>9__6_1;
+    public object <>9__6_2;
+    public object <>9__6_3;
+    public object <>9__6_4;
+    public object <>9__6_5;
+    public object <>9__6_6;
+    public object <>9__6_7;
+    public object <>9__6_8;
+    public object <>9__6_9;
+    public object <>9__6_10;
+    public object <>9__6_11;
+    public object <>9__7_0;
+    public object <>9__7_1;
+    public object <>9__7_2;
+    public object <>9__7_3;
+    public object <>9__7_4;
+    public object <>9__7_5;
+    public object <>9__7_6;
+    public object <>9__7_7;
+    public object <>9__7_8;
+    public object <>9__7_9;
+    public object <>9__7_10;
+    public object <>9__7_11;
+    public object <>9__8_0;
+    public object <>9__8_1;
+    public object <>9__8_2;
+    public object <>9__8_3;
+    public object <>9__8_4;
+    public object <>9__8_5;
+    public object <>9__8_6;
+    public object <>9__8_7;
+    public object <>9__8_8;
+    public object <>9__8_9;
+    public object <>9__8_10;
+    public object <>9__8_11;
+    public object <>9__9_0;
+    public object <>9__9_1;
+    public object <>9__9_2;
+    public object <>9__9_3;
+    public object <>9__9_4;
+    public object <>9__9_5;
+    public object <>9__9_6;
+    public object <>9__9_7;
+    public object <>9__9_8;
+    public object <>9__9_9;
+    public object <>9__9_10;
+    public object <>9__9_11;
+    public object <>9__10_0;
+    public object <>9__10_1;
+    public object <>9__10_2;
+    public object <>9__10_3;
+    public object <>9__10_4;
+    public object <>9__10_5;
+    public object <>9__10_6;
+    public object <>9__10_7;
+    public object <>9__10_8;
+    public object <>9__10_9;
+    public object <>9__10_10;
+    public object <>9__10_11;
+    public object <>9__11_0;
+    public object <>9__11_1;
+    public object <>9__11_2;
+    public object <>9__11_3;
+    public object <>9__11_4;
+    public object <>9__11_5;
+    public object <>9__11_6;
+    public object <>9__11_7;
+    public object <>9__11_8;
+    public object <>9__11_9;
+    public object <>9__11_10;
+    public object <>9__11_11;
+    public object <>9__12_0;
+    public object <>9__12_1;
+    public object <>9__12_2;
+    public object <>9__12_3;
+    public object <>9__12_4;
+    public object <>9__12_5;
+    public object <>9__12_6;
+    public object <>9__12_7;
+    public object <>9__12_8;
+    public object <>9__12_9;
+    public object <>9__12_10;
+    public object <>9__12_11;
+    public object <>9__12_12;
+    public object <>9__12_13;
+    public object <>9__13_0;
+    public object <>9__13_1;
+    public object <>9__13_2;
+    public object <>9__13_3;
+    public object <>9__13_4;
+    public object <>9__13_5;
+    public object <>9__13_6;
+    public object <>9__13_7;
+    public object <>9__13_8;
+    public object <>9__13_9;
+    public object <>9__13_10;
+    public object <>9__13_11;
+    public object <>9__13_12;
+    public object <>9__13_13;
+    public object <>9__13_14;
+    public object <>9__13_15;
+    public object <>9__13_16;
+    public object <>9__13_17;
+    public object <>9__13_18;
+    public object <>9__13_19;
+    public object <>9__13_20;
+    public object <>9__13_21;
+    public object <>9__13_22;
+    public object <>9__13_23;
+    public object <>9__14_0;
+    public object <>9__14_1;
+    public object <>9__14_2;
+    public object <>9__14_3;
+    public object <>9__14_4;
+    public object <>9__14_5;
+    public object <>9__14_6;
+    public object <>9__14_7;
+    public object <>9__14_8;
+    public object <>9__14_9;
+    public object <>9__14_10;
+    public object <>9__14_11;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7D5AA40
     public void .ctor(){} // RVA: 0xB43310
@@ -832,6 +1436,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7EA6230
     public void .ctor(){} // RVA: 0xB43310
@@ -841,6 +1449,16 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+    public object <>9__0_4;
+    public object <>9__0_5;
+    public object <>9__0_6;
+    public object <>9__0_7;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7EA6DC0
     public void .ctor(){} // RVA: 0xB43310
@@ -856,6 +1474,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7EA7850
     public void .ctor(){} // RVA: 0xB43310
@@ -867,6 +1491,10 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7EA7EA0
     public void .ctor(){} // RVA: 0xB43310
@@ -876,6 +1504,12 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__0_0;
+    public object <>9__0_1;
+    public object <>9__0_2;
+    public object <>9__0_3;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7EA84D0
     public void .ctor(){} // RVA: 0xB43310
@@ -887,6 +1521,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
     public void .ctor(){} // RVA: 0x894290
@@ -896,6 +1532,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void <.cctor>b__1_0(){} // RVA: 0x31C1880
     public void <.cctor>b__1_1(){} // RVA: 0x31C18E0
@@ -905,6 +1543,9 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__9_0;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x77BEB80
     public void .ctor(){} // RVA: 0xB43310
@@ -913,6 +1554,11 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__21_0;
+    public object <>9__21_1;
+    public object <>9__21_2;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x774A070
     public void .ctor(){} // RVA: 0xB43310
@@ -923,37 +1569,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
-    public void .cctor(){} // RVA: 0x31C0C90
-    public void .ctor(){} // RVA: 0xB43310
-}
+    public object <>9;
 
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <GetOrCreateValue>b__17_0(){} // RVA: 0x44E8280
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x78D21F0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <MakeDeviceNameUnique>b__184_0(){} // RVA: 0x78D2290
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x8942F0
-    public void .ctor(){} // RVA: 0x894290
-    public void <.cctor>b__5_0(){} // RVA: 0xA94080
-    public void <.cctor>b__5_1(){} // RVA: 0xA94080
-}
-
-public class <>c : Object
-{
     // ── Methods ──
     public void <.cctor>b__5_0(){} // RVA: 0x3CDFDB0
     public void <.cctor>b__5_1(){} // RVA: 0x44E8170
@@ -963,6 +1580,41 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+    public object <>9__184_0;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x78D21F0
+    public void .ctor(){} // RVA: 0xB43310
+    public void <MakeDeviceNameUnique>b__184_0(){} // RVA: 0x78D2290
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <.cctor>b__5_0(){} // RVA: 0xA94080
+    public void <.cctor>b__5_1(){} // RVA: 0xA94080
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
+    // ── Methods ──
+    public void <.cctor>b__5_0(){} // RVA: 0x3CDFDB0
+    public void <.cctor>b__5_1(){} // RVA: 0x44E8170
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class <>c : Object
+{
+    public object <>9;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x7F11890
     public void .ctor(){} // RVA: 0xB43310
@@ -976,24 +1628,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void <StartWaitNextTask>b__36_0(){} // RVA: 0x3CE0040
-}
+    public object <>9;
 
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <StartWaitNextTask>b__36_0(){} // RVA: 0x3CE0040
-}
-
-public class <>c : Object
-{
-    // ── Methods ──
-    public void <StartWaitNextTask>b__36_0(){} // RVA: 0x3CE0040
-}
-
-public class <>c : Object
-{
     // ── Methods ──
     public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
@@ -1002,6 +1638,8 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
     public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
@@ -1010,25 +1648,18 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7E78130
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__23_0(){} // RVA: 0x7E781D0
-    public void <.cctor>b__23_1(){} // RVA: 0x7E78210
-    public void <.cctor>b__23_2(){} // RVA: 0x7E78380
-    public void <.cctor>b__23_3(){} // RVA: 0x7E78500
 }
 
 public class <>c : Object
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x7E7E7A0
-    public void .ctor(){} // RVA: 0xB43310
-    public void <ProcessDataSourceChangedRequests>b__29_0(){} // RVA: 0x7E7E840
-}
+    public object <>9;
 
-public class <>c : Object
-{
     // ── Methods ──
     public void <.cctor>b__12_0(){} // RVA: 0x31C0DB0
     public void .cctor(){} // RVA: 0x31C0C90
@@ -1037,39 +1668,89 @@ public class <>c : Object
 
 public class <>c : Object
 {
+    public object <>9;
+
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7B6FE50
+    public void <.cctor>b__10_0(){} // RVA: 0x31C0DB0
+    public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
-    public void <ExpressionToTokens>b__14_0(){} // RVA: 0x7B6FEF0
 }
 
-public class <>c : Object
+public class <>c__3`1 : Object
 {
+    public object <>9;
+    public object <>9__3_0;
+
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7C44340
-    public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__34_0(){} // RVA: 0x7C443E0
-    public void <.cctor>b__34_1(){} // RVA: 0x7C44880
+    public void .cctor(){} // RVA: 0x8942F0
+    public void .ctor(){} // RVA: 0x894290
+    public void <GetOrAdd>b__3_0(){} // RVA: 0xA94080
 }
 
-public class <>c : Object
+public class <>c__3`1 : Object
 {
+    public object <>9;
+    public object <>9__3_0;
+
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7C4F320
+    public void <GetOrAdd>b__3_0(){} // RVA: 0x4B85F50
+    public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__7_0(){} // RVA: 0x7C4F3C0
 }
 
-public class <>c : Object
+public class <>c__51`1 : Object
 {
+    public object <>9;
+    public object <>9__51_0;
+
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7744E00
+    public void <TryFromObject>b__51_0(){} // RVA: 0x58217E0
+}
+
+public class <>c__51`1 : Object
+{
+    public object <>9;
+    public object <>9__51_0;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x31C0C90
     public void .ctor(){} // RVA: 0xB43310
-    public void <.cctor>b__4_0(){} // RVA: 0x7744EA0
+    public void <TryFromObject>b__51_0(){} // RVA: 0x58216E0
+}
+
+public class <>c__51`1 : Object
+{
+    public object <>9;
+    public object <>9__51_0;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x31C0C90
+    public void .ctor(){} // RVA: 0xB43310
+    public void <TryFromObject>b__51_0(){} // RVA: 0x58216E0
+}
+
+public class <>c__DisplayClass0_0`1 : Object
+{
+    public object listener;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894290
+    public void <OnChange>b__0(){} // RVA: 0xA94080
+}
+
+public class <>c__DisplayClass0_0`1 : Object
+{
+    public object listener;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <OnChange>b__0(){} // RVA: 0x31D2090
 }
 
 public class <>c__DisplayClass10_0 : Object
 {
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <set_onBeforeUpdate>b__0(){} // RVA: 0x31D2090
@@ -1077,63 +1758,79 @@ public class <>c__DisplayClass10_0 : Object
 
 public class <>c__DisplayClass20_0 : Object
 {
+    public object loopRunnerYieldType;
+    public object loopRunnerType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <RemoveRunner>b__0(){} // RVA: 0x774A2F0
 }
 
-public class <>c__DisplayClass30_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <AddListener>b__0(){} // RVA: 0x5FEE7C0
-}
-
-public class <>c__DisplayClass30_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <AddListener>b__0(){} // RVA: 0x5FEE7C0
-}
-
-public class <>c__DisplayClass30_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <AddListener>b__0(){} // RVA: 0x5FEE7C0
-}
-
 public class <>c__DisplayClass3_0 : Object
 {
+    public object systemType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <GetLoopIndexByType>b__0(){} // RVA: 0xA4EDD50
 }
 
+public class <>c__DisplayClass3_0`1 : Object
+{
+    public object localCreateOptions;
+    public object localName;
+    public object localFactoryArgument;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894290
+    public void <GetOrAdd>b__1(){} // RVA: 0xA94080
+}
+
+public class <>c__DisplayClass3_0`1 : Object
+{
+    public object localCreateOptions;
+    public object localName;
+    public object localFactoryArgument;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <GetOrAdd>b__1(){} // RVA: 0x6000B30
+}
+
+public class <>c__DisplayClass3_1`1 : Object
+{
+    public object arg;
+    public object name;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894290
+    public void <GetOrAdd>b__2(){} // RVA: 0xA94080
+}
+
+public class <>c__DisplayClass3_1`1 : Object
+{
+    public object arg;
+    public object name;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void <GetOrAdd>b__2(){} // RVA: 0x6001670
+}
+
 public class <>c__DisplayClass8_0 : Object
 {
+    public object pool;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void <AddPool>b__0(){} // RVA: 0xA5E4650
 }
 
-public class <>c__DisplayClass95_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <add_defaultReflectionSet>b__1(){} // RVA: 0x7B6AEB0
-    public void <add_defaultReflectionSet>b__0(){} // RVA: 0x7B6AF60
-}
-
-public class <>c__DisplayClass98_0 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void <add_defaultReflectionTexture>b__0(){} // RVA: 0x7B6AEB0
-}
-
 public class <CleanupTask>d__13 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0x371EFB0
@@ -1143,19 +1840,14 @@ public class <CleanupTask>d__13 : Object
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
 }
 
-public class <ConsumeEnumerator>d__19 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    public void MoveNext(){} // RVA: 0x7744F10
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7745460
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
 public class <ContinueWith>d__26 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object task;
+    public object continuationFunction;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0x921540
     public void SetStateMachine(){} // RVA: 0x3FC0
@@ -1163,6 +1855,18 @@ public class <ContinueWith>d__26 : ValueType
 
 public class <Enumerate>d__28 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -1174,41 +1878,61 @@ public class <Enumerate>d__28 : Object
 
 public class <Enumerate>d__28 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object head;
+    public object tail;
+    public object tailTail;
+    public object headHead;
+    public object <>4__this;
+    public object <headTail>5__2;
+    public object <i>5__3;
+    public object <s>5__4;
+    public object <i>5__5;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
 }
 
-public class <GetEnumerator>d__28 : Object
+public class <GetEnumerator>d__3 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8944F0
-    public void System.IDisposable.Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xA94080
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-}
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <>7__wrap1;
 
-public class <GetEnumerator>d__28 : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
+    public void System.IDisposable.Dispose(){} // RVA: 0x37D2A30
+    public void MoveNext(){} // RVA: 0x37D2B60
+    public void <>m__Finally1(){} // RVA: 0x37D3160
+    public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,BestHTTP.JSON.Json.Token>>.get_Current(){} // RVA: 0x37D2240
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x37D31C0
 }
 
-public class <GetEnumerator>d__28 : Object
+public class <GetEnumerator>d__35 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
 }
 
 public class <GetEnumerator>d__35 : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-}
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
 
-public class <GetEnumerator>d__35 : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
@@ -1220,18 +1944,113 @@ public class <GetEnumerator>d__35 : Object
 
 public class <GetEnumerator>d__35 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
 }
 
 public class <GetEnumerator>d__35 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
 }
 
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <GetEnumerator>d__35 : Object
+{
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+    public object <buckets>5__2;
+    public object <i>5__3;
+    public object <current>5__4;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB460A0
+}
+
+public class <LoadDefaultAssets>d__30 : ValueType
+{
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <>u__1;
+
+    // ── Methods ──
+    public void MoveNext(){} // RVA: 0x8A4230
+    public void SetStateMachine(){} // RVA: 0x3FC0
+}
+
 public class <PoolCleanupTask>d__6 : Object
 {
+    public object <>1__state;
+    public object <>2__current;
+    public object <>4__this;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void System.IDisposable.Dispose(){} // RVA: 0x371EFB0
@@ -1241,30 +2060,18 @@ public class <PoolCleanupTask>d__6 : Object
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
 }
 
-public class <UnwrapWaitAsyncOperation>d__22 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    public void MoveNext(){} // RVA: 0x77454A0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x77455B0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
-public class <UnwrapWaitForSeconds>d__21 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB460A0
-    public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    public void MoveNext(){} // RVA: 0x77455F0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7745790
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-}
-
 public class <WriteLoop>d__14 : ValueType
 {
+    public object <>1__state;
+    public object <>t__builder;
+    public object <>4__this;
+    public object <writer>5__2;
+    public object <formatter>5__3;
+    public object <withLineBreak>5__4;
+    public object <requireFilterCheck>5__5;
+    public object <reader>5__6;
+    public object <>u__1;
+
     // ── Methods ──
     public void MoveNext(){} // RVA: 0xA7A4C0
     public void SetStateMachine(){} // RVA: 0xA7A4D0

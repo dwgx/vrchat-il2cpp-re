@@ -5,6 +5,8 @@
 
 public class X509CertificateEnumerator : Object
 {
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6645BE0
     public void get_Current(){} // RVA: 0x6645C90
@@ -16,6 +18,8 @@ public class X509CertificateEnumerator : Object
 
 public class X509CertificateEnumerator : Object
 {
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x769F100
     public void get_Current(){} // RVA: 0x769F1B0
@@ -27,6 +31,10 @@ public class X509CertificateEnumerator : Object
 
 public class X509CrlEntry : Object
 {
+    public object sn;
+    public object revocationDate;
+    public object extensions;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6642900
     public void get_SerialNumber(){} // RVA: 0x6642B10
@@ -36,6 +44,11 @@ public class X509CrlEntry : Object
 
 public class XHashtableState : Object
 {
+    public object _buckets;
+    public object _entries;
+    public object _numEntries;
+    public object _extractKey;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899290
     public void Resize(){} // RVA: 0x87C0A0
@@ -117,6 +130,9 @@ public class XProperty : Property`2
 
 public class XProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -127,6 +143,9 @@ public class XProperty : Property`2
 
 public class XProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -137,6 +156,9 @@ public class XProperty : Property`2
 
 public class XProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -147,6 +169,9 @@ public class XProperty : Property`2
 
 public class XProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -166,6 +191,13 @@ public class XSODictionaryEnumerator : XSOEnumerator
 
 public class XSOEnumerator : Object
 {
+    public object entries;
+    public object enumType;
+    public object currentIndex;
+    public object size;
+    public object currentKey;
+    public object currentValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x74124C0
     public void get_Current(){} // RVA: 0x7412530
@@ -175,6 +207,11 @@ public class XSOEnumerator : Object
 
 public class XdrAttributeEntry : Object
 {
+    public object _Attribute;
+    public object _SchemaFlags;
+    public object _Datatype;
+    public object _BuildFunc;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73FE860
 }
@@ -202,6 +239,14 @@ public class XdrEndChildFunction : MulticastDelegate
 
 public class XdrEntry : Object
 {
+    public object _Name;
+    public object _NextStates;
+    public object _Attributes;
+    public object _InitFunc;
+    public object _BeginChildFunc;
+    public object _EndChildFunc;
+    public object _AllowText;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x73FE950
 }
@@ -215,12 +260,23 @@ public class XdrInitFunction : MulticastDelegate
 
 public class XmlContext : Object
 {
+    public object xmlSpace;
+    public object xmlLang;
+    public object defaultNamespace;
+    public object previousContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748D3B0
 }
 
 public class XmlEvent : ValueType
 {
+    public object eventType;
+    public object s1;
+    public object s2;
+    public object s3;
+    public object o;
+
     // ── Methods ──
     public void InitEvent(){} // RVA: 0x915300
     public void get_EventType(){} // RVA: 0x77E60
@@ -232,6 +288,8 @@ public class XmlEvent : ValueType
 
 public class XmlNodeIdHashtable : Hashtable
 {
+    public object _id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x71C48F0
     public void get_Item(){} // RVA: 0x71C4DE0
@@ -239,6 +297,9 @@ public class XmlNodeIdHashtable : Hashtable
 
 public class XmlNodeIdentety : Object
 {
+    public object LocalName;
+    public object NamespaceURI;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void GetHashCode(){} // RVA: 0x1269730
@@ -247,12 +308,21 @@ public class XmlNodeIdentety : Object
 
 public class XmlSchemaObjectEntry : ValueType
 {
+    public object qname;
+    public object xso;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
 }
 
 public class Xnnpack : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object NumThreadsDefaultValue;
+    public object numThreads_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6563C10
     public void get_Descriptor(){} // RVA: 0x6563C70
@@ -276,6 +346,8 @@ public class Xnnpack : Object
 
 public class XrInitializeAnalytic : Object
 {
+    public object data;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7AB45C0
     public void TryGatherData(){} // RVA: 0x7AB46F0
@@ -283,6 +355,9 @@ public class XrInitializeAnalytic : Object
 
 public class XsdAttributeEntry : Object
 {
+    public object Attribute;
+    public object BuildFunc;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
 }
@@ -303,6 +378,14 @@ public class XsdEndChildFunction : MulticastDelegate
 
 public class XsdEntry : Object
 {
+    public object Name;
+    public object CurrentState;
+    public object NextStates;
+    public object Attributes;
+    public object InitFunc;
+    public object EndChildFunc;
+    public object ParseContent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x74623F0
 }

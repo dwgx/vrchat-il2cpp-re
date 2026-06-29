@@ -62,6 +62,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Font : Object
     {
+        public object textureRebuilt;
+        public object m_FontTextureRebuildCallback;
+
         // ── Methods ──
         public void add_textureRebuilt(){} // RVA: 0x7E21910
         public void remove_textureRebuilt(){} // RVA: 0x7E21A40

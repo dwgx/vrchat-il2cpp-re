@@ -15,6 +15,10 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class <EnumDictionary>FADF3D51B83FF80D45F581868D8BC170BC1D06511D1532EA8388B7F748A636021__EnumName : Object
     {
+        public object Name;
+        public object Utf8Name;
+        public object JsonEncoded;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7C4890
         public void ToString(){} // RVA: 0xB5DBF0
@@ -28,6 +32,8 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class CodeGeneratorUtil : Object
     {
+        public object utf8JsonWriter;
+
         // ── Methods ──
         public void GetThreadStaticUtf8JsonWriter(){} // RVA: 0xA7C4560
         public void AppendAsJson(){} // RVA: 0x3028030
@@ -35,6 +41,11 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class EnumDictionary`1 : Object
     {
+        public object dictionary;
+        public object GetStringName;
+        public object GetUtf8Name;
+        public object GetJsonEncodedName;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void GetStringNameCore(){} // RVA: 0xA94080
@@ -62,19 +73,25 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class MagicalBox : ValueType
     {
+        public object storage;
+        public object written;
+
         // ── Methods ──
-        public void TryWrite(){} // RVA: 0x1FC5D0
-        public void IsSupportedType(){} // RVA: 0xC2E4C0
         public void .ctor(){} // RVA: 0x9980C0
+        public void TryWrite(){} // RVA: 0x1FC5D0
         public void TryRead(){} // RVA: 0x1FC470
         public void Read(){} // RVA: 0x1FC200
         public void ReadBoxed(){} // RVA: 0xA7BA70
         public void TryReadTo(){} // RVA: 0xA7BA90
+        public void IsSupportedType(){} // RVA: 0xC2E4C0
         public void ThrowArgumentOutOfRangeException(){} // RVA: 0xA7C6050
     }
 
     public class ObjectPool`1 : Object
     {
+        public object gate;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x87D350
         public void TryPush(){} // RVA: 0xA94080
@@ -83,6 +100,9 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class ObjectPool`1 : Object
     {
+        public object gate;
+        public object root;
+
         // ── Methods ──
         public void V(){} // RVA: 0xCFC8B68
         public void .ctor(){} // RVA: 0xB43310
@@ -92,6 +112,9 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class ObjectPool`1 : Object
     {
+        public object gate;
+        public object root;
+
         // ── Methods ──
         public void TryPop(){} // RVA: 0x47FFB60
         public void TryPush(){} // RVA: 0x47FFCB0
@@ -100,6 +123,11 @@ namespace ThirdParty.Other.ZLogger.Internal
 
     public class StreamBufferWriter : Object
     {
+        public object stream;
+        public object buffer;
+        public object defaultBuffer;
+        public object written;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA7C6860
         public void Advance(){} // RVA: 0xA7C69B0

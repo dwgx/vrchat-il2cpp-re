@@ -30,6 +30,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class GroupPresenceOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B26E30
         public void SetDeeplinkMessageOverride(){} // RVA: 0x6B26EE0

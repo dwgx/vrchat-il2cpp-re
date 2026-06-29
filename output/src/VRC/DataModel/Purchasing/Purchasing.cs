@@ -7,6 +7,8 @@ namespace VRC.DataModel.Purchasing
 {
     public class ValidationParams : Object
     {
+        public object _kInstanceID_None;
+
         // ── Methods ──
         public void get_RequiresStoring(){} // RVA: 0x87D280
         public void set_RequiresStoring(){} // RVA: 0xB5DBF0

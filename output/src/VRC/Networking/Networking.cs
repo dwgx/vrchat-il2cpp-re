@@ -7,6 +7,9 @@ namespace VRC.Networking
 {
     public class SerializationRecoveryHandler : Object
     {
+        public object _serializationRecoveryHandler;
+        public object _serializationRecoveryHandler2;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xE900B0
         public void .ctor(){} // RVA: 0xE90150
@@ -31,6 +34,8 @@ namespace VRC.Networking
 
     public class UdonClientStringDownloader : Object
     {
+        public object _udonClientStringDownloader;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xEE1A10
         public void Equals(){} // RVA: 0xEE1B50
@@ -48,6 +53,22 @@ namespace VRC.Networking
 
     public class VRCPhotonEventSequence : Object
     {
+        public object Reserved;
+        public object InterestRequestChannel;
+        public object UdonSerializationDataChannelStart;
+        public object UdonSerializationDataChannelEnd;
+        public object PlayerSerializationDataChannelStart;
+        public object PlayerSerializationDataChannelEnd;
+        public object UnreliableSerializationDataChannelStart;
+        public object UnreliableSerializationDataChannelEnd;
+        public object ReliableSerializationDataChannelStart;
+        public object ReliableSerializationDataChannelEnd;
+        public object ChannelCount;
+        public object sNextUnreliableSerializationChannel;
+        public object sNextReliableSerializationChannel;
+        public object sNextPlayerSerializationChannel;
+        public object sNextUdonSerializationChannel;
+
         // ── Methods ──
         public void GetNextReliableSerializationChannel(){} // RVA: 0x81FC050
         public void GetNextUnreliableSerializationChannel(){} // RVA: 0x81FC0F0

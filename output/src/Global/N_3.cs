@@ -1,16 +1,29 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 32
-// Methods: 108
+// Methods: 96
 
 public class NamespaceDeclaration : Object
 {
+    public object prefix;
+    public object ns;
+    public object scope;
+    public object prev;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Node : Object
 {
+    public object EmptyNode;
+    public object _key;
+    public object _value;
+    public object _frozen;
+    public object _height;
+    public object _left;
+    public object _right;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -32,32 +45,6 @@ public class Node : Object
     public void .cctor(){} // RVA: 0x8942F0
 }
 
-public class Node : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x47133A0
-}
-
-public class Node[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class NotBoolean : NotInstruction
 {
     // ── Methods ──
@@ -69,6 +56,13 @@ public class NotByte : NotInstruction
 {
     // ── Methods ──
     public void Run(){} // RVA: 0x70BB270
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class NotEqualByte : NotEqualInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B9700
     public void .ctor(){} // RVA: 0xB43310
 }
 
@@ -111,6 +105,13 @@ public class NotEqualInt32LiftedToNull : NotEqualInstruction
 {
     // ── Methods ──
     public void Run(){} // RVA: 0x70B9F40
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class NotEqualInt64 : NotEqualInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B9630
     public void .ctor(){} // RVA: 0xB43310
 }
 
@@ -242,6 +243,13 @@ public class NotUInt64 : NotInstruction
 
 public class Number : Object
 {
+    public object s_posCurrencyFormats;
+    public object s_negCurrencyFormats;
+    public object s_posPercentFormats;
+    public object s_negPercentFormats;
+    public object s_negNumberFormats;
+    public object s_posNumberFormat;
+
     // ── Methods ──
     public void IsWhite(){} // RVA: 0x7295780
     public void MatchChars(){} // RVA: 0x7295860
@@ -267,6 +275,11 @@ public class Number : Object
 
 public class NumberBuffer : ValueType
 {
+    public object precision;
+    public object scale;
+    public object sign;
+    public object overrideDigits;
+
     // ── Methods ──
     public void get_digits(){} // RVA: 0x7E450
 }

@@ -26,6 +26,8 @@ namespace ThirdParty.DotNet.System
 
     public class ObjectDisposedException : InvalidOperationException
     {
+        public object _objectName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6926880
         public void GetObjectData(){} // RVA: 0x6926990
@@ -75,6 +77,9 @@ namespace ThirdParty.DotNet.System
 
     public class ObsoleteAttribute : Attribute
     {
+        public object _message;
+        public object _error;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x237A5A0
         public void get_Message(){} // RVA: 0xB5DBF0
@@ -83,6 +88,11 @@ namespace ThirdParty.DotNet.System
 
     public class ObsoleteAttribute : Attribute
     {
+        public object _message;
+        public object _isError;
+        public object _diagnosticId;
+        public object _urlFormat;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x237A5A0
         public void set_DiagnosticId(){} // RVA: 0xB70100
@@ -91,6 +101,11 @@ namespace ThirdParty.DotNet.System
 
     public class ObsoleteAttribute : Attribute
     {
+        public object _message;
+        public object _isError;
+        public object _diagnosticId;
+        public object _urlFormat;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x237A5A0
         public void get_Message(){} // RVA: 0xB5DBF0
@@ -103,6 +118,11 @@ namespace ThirdParty.DotNet.System
 
     public class OperatingSystem : Object
     {
+        public object _version;
+        public object _platform;
+        public object _servicePack;
+        public object _versionString;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6940FB0
         public void GetObjectData(){} // RVA: 0x6941100
@@ -115,6 +135,8 @@ namespace ThirdParty.DotNet.System
 
     public class OperationCanceledException : SystemException
     {
+        public object _cancellationToken;
+
         // ── Methods ──
         public void get_CancellationToken(){} // RVA: 0x1069350
         public void set_CancellationToken(){} // RVA: 0xD5CC10
@@ -133,6 +155,8 @@ namespace ThirdParty.DotNet.System
 
     public class OrdinalComparer : StringComparer
     {
+        public object _ignoreCase;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x692FC00
         public void Compare(){} // RVA: 0x692FC60

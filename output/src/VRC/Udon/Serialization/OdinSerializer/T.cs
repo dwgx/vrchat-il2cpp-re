@@ -15,6 +15,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class TwoWaySerializationBinder : Object
     {
+        public object Default;
+
         // ── Methods ──
         public void BindToName(){} // RVA: 0x87C5F0
         public void BindToType(){} // RVA: 0x87C5F0

@@ -7,6 +7,9 @@ namespace VRC.Profiling
 {
     public class ProfilerMarker : ValueType
     {
+        public object f_758;
+        public object f_06F;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x10BD0
         public void InternalEquals(){} // RVA: 0x10BD0

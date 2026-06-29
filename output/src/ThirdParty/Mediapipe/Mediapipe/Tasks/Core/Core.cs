@@ -7,6 +7,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 {
     public class BaseOptions : Object
     {
+        public object _delegateCase;
+        public object _modelAssetPath;
+        public object _modelAssetBuffer;
+
         // ── Methods ──
         public void get_delegateCase(){} // RVA: 0xB8F8F0
         public void get_modelAssetPath(){} // RVA: 0xB465B0
@@ -25,6 +29,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 
     public class PacketsCallbackTable : Object
     {
+        public object _Counter;
+        public object _Table;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x65F5780
         public void TryGetValue(){} // RVA: 0x65F5A10
@@ -34,6 +41,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 
     public class TaskInfo`1 : Object
     {
+        public object _taskGraph;
+        public object _inputStreams;
+        public object _outputStreams;
+        public object _taskOptions;
+
         // ── Methods ──
         public void get_taskGraph(){} // RVA: 0x87C0A0
         public void get_inputStreams(){} // RVA: 0x87C0A0

@@ -7,6 +7,11 @@ namespace VRC.Udon.Wrapper.Modules
 {
     public class ExternVRCSDK3InternalEventPortalsVRCEventPortalManager : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8320500
         public void .ctor(){} // RVA: 0x8320540
@@ -62,6 +67,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x86655C0
         public void .ctor(){} // RVA: 0x8665600
@@ -111,6 +121,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiTrackingData : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x866A380
         public void .ctor(){} // RVA: 0x866A3C0
@@ -127,6 +142,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCPlayerApiTrackingDataArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x866B610
         public void .ctor(){} // RVA: 0x866B650
@@ -176,6 +196,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCRenderTexture : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x86704D0
         public void .ctor(){} // RVA: 0x8670510
@@ -192,6 +217,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCShader : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8671CD0
         public void .ctor(){} // RVA: 0x8671D10
@@ -216,6 +246,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCUrl : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x86742D0
         public void .ctor(){} // RVA: 0x8674310
@@ -234,6 +269,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternVRCSDKBaseVRCUrlArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8675860
         public void .ctor(){} // RVA: 0x86758A0

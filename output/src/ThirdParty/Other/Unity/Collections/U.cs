@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Collections
-// Classes: 8
+// Classes: 9
 // Methods: 49
 
 namespace ThirdParty.Other.Unity.Collections
@@ -18,6 +18,13 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class UnsafeQueueData : ValueType
     {
+        public object m_BlockSize;
+        public object m_FirstBlock;
+        public object m_LastBlock;
+        public object m_MaxItems;
+        public object m_CurrentRead;
+        public object m_CurrentWriteBlockTLS;
+
         // ── Methods ──
         public void GetCurrentWriteBlockTLS(){} // RVA: 0x924540
         public void SetCurrentWriteBlockTLS(){} // RVA: 0x924550
@@ -26,34 +33,34 @@ namespace ThirdParty.Other.Unity.Collections
         public void DeallocateQueue(){} // RVA: 0x77D3470
     }
 
+    public class UnsafeQueueData*
+    {
+        // ── Methods ──
+        public void u(){} // RVA: 0xACFF2C0
+    }
+
     public class UnsafeQueueDispose : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x924560
     }
 
     public class UnsafeQueueDisposeJob : ValueType
     {
+        public object Data;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x924570
     }
 
     public class UnsafeQueue`1 : ValueType
     {
-        // ── Methods ──
-        public void u(){} // RVA: 0xACFF2C0
-        public void Alloc(){} // RVA: 0x50C50E0
-        public void .ctor(){} // RVA: 0x5B0060
-        public void Enqueue(){} // RVA: 0x5B0070
-        public void TryDequeue(){} // RVA: 0x5B0080
-        public void Clear(){} // RVA: 0x5B0090
-        public void get_IsCreated(){} // RVA: 0x311760
-        public void Free(){} // RVA: 0x50C5150
-        public void AsParallelWriter(){} // RVA: 0x5B00E0
-    }
+        public object m_Buffer;
+        public object m_AllocatorLabel;
 
-    public class UnsafeQueue`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Alloc(){} // RVA: 0xA94080
@@ -68,6 +75,25 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class UnsafeQueue`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
+        // ── Methods ──
+        public void Alloc(){} // RVA: 0x50C50E0
+        public void .ctor(){} // RVA: 0x5B0060
+        public void Enqueue(){} // RVA: 0x5B0070
+        public void TryDequeue(){} // RVA: 0x5B0080
+        public void Clear(){} // RVA: 0x5B0090
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Free(){} // RVA: 0x50C5150
+        public void AsParallelWriter(){} // RVA: 0x5B00E0
+    }
+
+    public class UnsafeQueue`1 : ValueType
+    {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Alloc(){} // RVA: 0x50C50E0
         public void .ctor(){} // RVA: 0x5B0110
@@ -82,6 +108,9 @@ namespace ThirdParty.Other.Unity.Collections
 
     public class UnsafeQueue`1 : ValueType
     {
+        public object m_Buffer;
+        public object m_AllocatorLabel;
+
         // ── Methods ──
         public void Alloc(){} // RVA: 0x50C50E0
         public void .ctor(){} // RVA: 0x5B03A0

@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.ZLinq.ZLinq.Linq
-// Classes: 41
-// Methods: 210
+// Classes: 43
+// Methods: 220
 
 namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class Cast`3 : ValueType
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x11E4F0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x31F300
@@ -18,6 +20,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Cast`3 : ValueType
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x216E20
         public void TryGetNonEnumeratedCount(){} // RVA: 0x478C90
@@ -29,6 +33,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Cast`3 : ValueType
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x11E4F0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x31F300
@@ -40,6 +46,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Cast`3 : ValueType
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -51,6 +59,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Chunk`2 : ValueType
     {
+        public object <size>P;
+        public object source;
+        public object index;
+        public object isInitialized;
+        public object isCompleted;
+        public object isCanGetSpan;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -215,15 +230,6 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public void TryGetSpan(){} // RVA: 0x62A0530
         public void TryCopyTo(){} // RVA: 0xB43320
         public void TryGetNext(){} // RVA: 0x87D3C0
-    }
-
-    public class CollectionIterator`1 : Object
-    {
-        // ── Methods ──
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
-        public void TryGetSpan(){} // RVA: 0x62A0530
-        public void TryCopyTo(){} // RVA: 0xB43320
-        public void TryGetNext(){} // RVA: 0x87D3C0
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -255,6 +261,35 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public void TryCopyTo(){} // RVA: 0xB43320
         public void TryGetNext(){} // RVA: 0x87D3C0
         public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class CollectionIterator`1 : Object
+    {
+        // ── Methods ──
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
+        public void TryGetSpan(){} // RVA: 0x62A0530
+        public void TryCopyTo(){} // RVA: 0xB43320
+        public void TryGetNext(){} // RVA: 0x87D3C0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class CollectionIterator`1 : Object
+    {
+        // ── Methods ──
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
+        public void TryGetSpan(){} // RVA: 0x62A0530
+        public void TryCopyTo(){} // RVA: 0xB43320
+        public void TryGetNext(){} // RVA: 0x87D3C0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class CollectionIterator`1 : Object
+    {
+        // ── Methods ──
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
+        public void TryGetSpan(){} // RVA: 0x62A0530
+        public void TryCopyTo(){} // RVA: 0xB43320
+        public void TryGetNext(){} // RVA: 0x87D3C0
     }
 
     public class CollectionIterator`1 : Object
@@ -399,6 +434,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Concat`3 : ValueType
     {
+        public object first;
+        public object second;
+        public object firstCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -410,6 +449,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class CountBy`3 : ValueType
     {
+        public object <keySelector>P;
+        public object <keyComparer>P;
+        public object source;
+        public object dictionary;
+        public object enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

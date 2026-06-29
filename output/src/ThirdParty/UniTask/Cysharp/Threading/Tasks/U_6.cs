@@ -1,10 +1,26 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
-// Classes: 94
-// Methods: 408
+// Classes: 87
+// Methods: 422
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
+    public class UniTaskAsyncEnumerableExtensions : Object
+    {
+        // ── Methods ──
+        public void WithCancellation(){} // RVA: 0xA94080
+    }
+
+    public class UniTaskCancelableAsyncEnumerable`1 : ValueType
+    {
+        public object enumerable;
+        public object cancellationToken;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x899C90
+        public void GetAsyncEnumerator(){} // RVA: 0xA94080
+    }
+
     public class UniTaskCancellationExtensions : Object
     {
         // ── Methods ──
@@ -13,6 +29,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x55A110
         public void ReportUnhandledError(){} // RVA: 0x55A120
@@ -30,6 +54,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x55A510
         public void ReportUnhandledError(){} // RVA: 0x55A520
@@ -47,6 +79,164 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x559FF0
+        public void ReportUnhandledError(){} // RVA: 0x55A000
+        public void MarkHandled(){} // RVA: 0x54C6C0
+        public void TrySetResult(){} // RVA: 0x55A010
+        public void TrySetException(){} // RVA: 0x55A030
+        public void TrySetCanceled(){} // RVA: 0x55A040
+        public void get_Version(){} // RVA: 0x54C840
+        public void GetStatus(){} // RVA: 0x55A050
+        public void UnsafeGetStatus(){} // RVA: 0x55A060
+        public void GetResult(){} // RVA: 0x54C870
+        public void OnCompleted(){} // RVA: 0x55A070
+        public void ValidateToken(){} // RVA: 0x54A150
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x558320
+        public void ReportUnhandledError(){} // RVA: 0x558460
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x558470
+        public void TrySetException(){} // RVA: 0x558480
+        public void TrySetCanceled(){} // RVA: 0x558490
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x5585D0
+        public void UnsafeGetStatus(){} // RVA: 0x5585E0
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x5585F0
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x54DE50
         public void ReportUnhandledError(){} // RVA: 0x54DE60
@@ -64,6 +254,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x55AAE0
         public void ReportUnhandledError(){} // RVA: 0x55AAF0
@@ -81,6 +279,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
+        public object result;
+        public object error;
+        public object version;
+        public object hasUnhandledError;
+        public object completedCount;
+        public object continuation;
+        public object continuationState;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x55AAE0
         public void ReportUnhandledError(){} // RVA: 0x55AAF0
@@ -96,25 +302,18 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void ValidateToken(){} // RVA: 0x5481A0
     }
 
-    public class UniTaskCompletionSourceCore`1 : ValueType
-    {
-        // ── Methods ──
-        public void Reset(){} // RVA: 0x54DA80
-        public void ReportUnhandledError(){} // RVA: 0x54DBD0
-        public void MarkHandled(){} // RVA: 0x54DBE0
-        public void TrySetResult(){} // RVA: 0x54DBF0
-        public void TrySetException(){} // RVA: 0x54DC30
-        public void TrySetCanceled(){} // RVA: 0x54DC40
-        public void get_Version(){} // RVA: 0x425380
-        public void GetStatus(){} // RVA: 0x54DD80
-        public void UnsafeGetStatus(){} // RVA: 0x54DD90
-        public void GetResult(){} // RVA: 0x54DDA0
-        public void OnCompleted(){} // RVA: 0x54DDE0
-        public void ValidateToken(){} // RVA: 0x54DDF0
-    }
-
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -122,6 +321,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -129,6 +338,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -136,6 +355,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -143,6 +372,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -150,6 +389,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -157,6 +406,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -164,176 +423,52 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskObservableExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
+        public void ToUniTask(){} // RVA: 0xA94080
+        public void ToObservable(){} // RVA: 0x778EA90
+        public void Fire(){} // RVA: 0x778EF80
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskScheduler : Object
     {
+        public object UnobservedTaskException;
+        public object PropagateOperationCanceledException;
+        public object UnobservedExceptionWriteLogType;
+        public object DispatchUnityMainThread;
+        public object handleExceptionInvoke;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
+        public void add_UnobservedTaskException(){} // RVA: 0x778F470
+        public void remove_UnobservedTaskException(){} // RVA: 0x778F5D0
+        public void InvokeUnobservedTaskException(){} // RVA: 0x778F730
+        public void PublishUnobservedTaskException(){} // RVA: 0x778F800
+        public void .cctor(){} // RVA: 0x778FBB0
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskStatusExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-        public void MarkHandled(){} // RVA: 0x5028DB0
-        public void TrySetResult(){} // RVA: 0x502B700
-        public void TrySetCanceled(){} // RVA: 0x502B770
-        public void TrySetException(){} // RVA: 0x502B7E0
-        public void GetResult(){} // RVA: 0x502AD00
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
-        public void GetStatus(){} // RVA: 0xBE5890
-        public void UnsafeGetStatus(){} // RVA: 0xBE5890
-        public void OnCompleted(){} // RVA: 0x502B9F0
-        public void TrySignalCompletion(){} // RVA: 0x502BDE0
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5026580
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x502A960
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void get_Task(){} // RVA: 0x5029BD0
-        public void MarkHandled(){} // RVA: 0x5028DB0
-        public void TrySetResult(){} // RVA: 0x5029C30
-        public void TrySetCanceled(){} // RVA: 0x5029C60
-        public void TrySetException(){} // RVA: 0x5029CD0
-        public void GetResult(){} // RVA: 0x5029F60
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
-        public void GetStatus(){} // RVA: 0xBE5890
-        public void UnsafeGetStatus(){} // RVA: 0xBE5890
-        public void OnCompleted(){} // RVA: 0x502A050
-        public void TrySignalCompletion(){} // RVA: 0x502A440
+        public void IsCompleted(){} // RVA: 0x67F67A0
+        public void IsCompletedSuccessfully(){} // RVA: 0x22403A0
+        public void IsCanceled(){} // RVA: 0x7746690
+        public void IsFaulted(){} // RVA: 0x77466A0
     }
 
     public class UniTaskValueTaskExtensions : Object
@@ -343,46 +478,28 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void AsUniTask(){} // RVA: 0x774CC80
     }
 
+    public class UniTaskVoid : ValueType
+    {
+        // ── Methods ──
+        public void Forget(){} // RVA: 0x3FC0
+    }
+
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x508CBF0
-        public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
-        public void GetAwaiter(){} // RVA: 0x561430
-        public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
-    }
+        public object source;
+        public object result;
+        public object token;
 
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x508CBF0
-        public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
-        public void GetAwaiter(){} // RVA: 0x561430
-        public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x508CB90
-    }
-
-    public class UniTask`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -396,12 +513,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -415,12 +540,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -434,12 +567,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -453,12 +594,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -472,12 +621,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -491,12 +648,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -510,12 +675,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -529,12 +702,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -548,12 +729,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -567,12 +756,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -586,25 +783,47 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x508CBF0
         public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
+        public void get_Status(){} // RVA: 0x561420
         public void GetAwaiter(){} // RVA: 0x561430
         public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
+        public void AsUniTask(){} // RVA: 0x5A04A0
+        public void op_Implicit(){} // RVA: 0x5032500
+        public void SuppressCancellationThrow(){} // RVA: 0x561560
+        public void ToString(){} // RVA: 0x5A04D0
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x562B90
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -618,18 +837,57 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x560F00
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -643,12 +901,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -662,12 +928,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -681,12 +955,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -700,12 +982,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A0CB0
         public void get_Status(){} // RVA: 0x5A0CC0
@@ -719,12 +1009,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x59B6B0
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562290
         public void get_Status(){} // RVA: 0x5622A0
@@ -738,24 +1036,40 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x563B60
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -769,18 +1083,30 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -794,6 +1120,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -807,60 +1137,82 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x560F00
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x561420
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A0130
+        public void op_Implicit(){} // RVA: 0x5032500
+        public void SuppressCancellationThrow(){} // RVA: 0x561560
+        public void ToString(){} // RVA: 0x5A0160
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x562B90
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x508CB90
     }
 
-    public class UniTask`1[] : Array
+    public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+        public void .ctor(){} // RVA: 0x560F00
     }
 
-    public class UniTask`1[] : Array
+    public class UnityAsyncExtensions : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+        public void AwaitForAllAssets(){} // RVA: 0x7790C70
+        public void GetAwaiter(){} // RVA: 0x77927C0
+        public void WithCancellation(){} // RVA: 0x7792280
+        public void ToUniTask(){} // RVA: 0x77929C0
+        public void WaitAsync(){} // RVA: 0x7792640
+        public void StartAsyncCoroutine(){} // RVA: 0x7792AF0
+        public void GetAsyncEventHandler(){} // RVA: 0x882000
+        public void OnInvokeAsync(){} // RVA: 0xA94080
+        public void OnInvokeAsAsyncEnumerable(){} // RVA: 0x882000
+        public void GetAsyncClickEventHandler(){} // RVA: 0x7792D70
+        public void OnClickAsync(){} // RVA: 0x7792EC0
+        public void OnClickAsAsyncEnumerable(){} // RVA: 0x7793000
+        public void GetAsyncValueChangedEventHandler(){} // RVA: 0x7794AF0
+        public void OnValueChangedAsync(){} // RVA: 0x7794C70
+        public void OnValueChangedAsAsyncEnumerable(){} // RVA: 0x7794DF0
+        public void GetAsyncEndEditEventHandler(){} // RVA: 0x7794230
+        public void OnEndEditAsync(){} // RVA: 0x77943C0
+        public void OnEndEditAsAsyncEnumerable(){} // RVA: 0x7794550
     }
 
     public class UnityAwaitableExtensions : Object
@@ -869,8 +1221,18 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void AsUniTask(){} // RVA: 0xA94080
     }
 
+    public class UnityBindingExtensions : Object
+    {
+        // ── Methods ──
+        public void BindTo(){} // RVA: 0xA94080
+        public void BindToCore(){} // RVA: 0xA94080
+    }
+
     public class UnityEventHandlerAsyncEnumerable : Object
     {
+        public object unityEvent;
+        public object cancellationToken1;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x391B550
         public void GetAsyncEnumerator(){} // RVA: 0x779F680
@@ -878,9 +1240,33 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UnityEventHandlerAsyncEnumerable`1 : Object
     {
+        public object unityEvent;
+        public object cancellationToken1;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
+    }
+
+    public class UnityWebRequestException : Exception
+    {
+        public object _unityWebRequest;
+        public object _result;
+        public object _error;
+        public object _text;
+        public object _responseCode;
+        public object _responseHeaders;
+        public object msg;
+
+        // ── Methods ──
+        public void get_UnityWebRequest(){} // RVA: 0x1069350
+        public void get_Result(){} // RVA: 0x262A930
+        public void get_Error(){} // RVA: 0x106A050
+        public void get_Text(){} // RVA: 0x12EB090
+        public void get_ResponseCode(){} // RVA: 0xBAE340
+        public void get_ResponseHeaders(){} // RVA: 0xBAE3B0
+        public void .ctor(){} // RVA: 0x77A1ED0
+        public void get_Message(){} // RVA: 0x77A21F0
     }
 
 }

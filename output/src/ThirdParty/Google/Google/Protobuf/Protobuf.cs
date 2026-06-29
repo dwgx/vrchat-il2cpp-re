@@ -7,6 +7,9 @@ namespace ThirdParty.Google.Google.Protobuf
 {
     public class ByteString : Object
     {
+        public object empty;
+        public object bytes;
+
         // ── Methods ──
         public void AttachBytes(){} // RVA: 0x6498D50
         public void .ctor(){} // RVA: 0x27FE060
@@ -47,6 +50,11 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class CodedInputStream : Object
     {
+        public object leaveOpen;
+        public object buffer;
+        public object input;
+        public object state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x649A1E0
         public void set_DiscardUnknownFields(){} // RVA: 0x649A3A0
@@ -62,6 +70,12 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class CodedOutputStream : Object
     {
+        public object DefaultBufferSize;
+        public object leaveOpen;
+        public object buffer;
+        public object state;
+        public object output;
+
         // ── Methods ──
         public void ComputeUInt64Size(){} // RVA: 0x649A580
         public void ComputeInt64Size(){} // RVA: 0x649A5D0
@@ -91,6 +105,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class Extension : Object
     {
+        public object _fieldNumber;
+
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x87C0A0
         public void .ctor(){} // RVA: 0xB460A0
@@ -101,6 +117,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionRegistry : Object
     {
+        public object extensions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x649B300
         public void get_Count(){} // RVA: 0x649B760
@@ -133,6 +151,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionSet`1 : Object
     {
+        public object _valuesByNumber;
+
         // ── Methods ──
         public void get_ValuesByNumber(){} // RVA: 0x87C0A0
         public void GetHashCode(){} // RVA: 0x87C130
@@ -144,6 +164,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ExtensionValue`1 : Object
     {
+        public object field;
+        public object codec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void CalculateSize(){} // RVA: 0x87C130
@@ -158,6 +181,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class Extension`2 : Extension
     {
+        public object codec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895750
         public void get_DefaultValue(){} // RVA: 0xA94080
@@ -178,6 +203,49 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
+        // ── Methods ──
+        public void get_ValueReader(){} // RVA: 0xB70160
+        public void IsPackedRepeatedField(){} // RVA: 0x3DDB980
+        public void get_FixedSize(){} // RVA: 0xBE5850
+        public void get_Tag(){} // RVA: 0xBE5870
+        public void get_PackedRepeatedField(){} // RVA: 0xC120A0
+        public void get_ValueSizeCalculator(){} // RVA: 0xB700F0
+        public void get_EndTag(){} // RVA: 0xBE5890
+        public void get_ValueWriter(){} // RVA: 0xB465B0
+    }
+
+    public class FieldCodec`1 : Object
+    {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void IsPackedRepeatedField(){} // RVA: 0x87DD60
@@ -201,6 +269,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
         // ── Methods ──
         public void get_ValueReader(){} // RVA: 0xB70160
         public void IsPackedRepeatedField(){} // RVA: 0x3DDB980
@@ -214,6 +297,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
         // ── Methods ──
         public void get_ValueReader(){} // RVA: 0xB70160
         public void IsPackedRepeatedField(){} // RVA: 0x3DDA5A0
@@ -227,6 +325,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
         // ── Methods ──
         public void get_ValueReader(){} // RVA: 0xB70160
         public void IsPackedRepeatedField(){} // RVA: 0x3DDA5A0
@@ -240,6 +353,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
+
         // ── Methods ──
         public void get_ValueReader(){} // RVA: 0xB70160
         public void IsPackedRepeatedField(){} // RVA: 0x3DDB980
@@ -253,19 +381,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldCodec`1 : Object
     {
-        // ── Methods ──
-        public void get_ValueReader(){} // RVA: 0xB70160
-        public void IsPackedRepeatedField(){} // RVA: 0x3DDB980
-        public void get_FixedSize(){} // RVA: 0xBE5850
-        public void get_Tag(){} // RVA: 0xBE5870
-        public void get_PackedRepeatedField(){} // RVA: 0xC120A0
-        public void get_ValueSizeCalculator(){} // RVA: 0xB700F0
-        public void get_EndTag(){} // RVA: 0xBE5890
-        public void get_ValueWriter(){} // RVA: 0xB465B0
-    }
+        public object EqualityComparer;
+        public object DefaultDefault;
+        public object TypeSupportsPacking;
+        public object _packedRepeatedField;
+        public object _valueWriter;
+        public object _valueSizeCalculator;
+        public object _valueReader;
+        public object _valueMerger;
+        public object _fieldMerger;
+        public object _fixedSize;
+        public object _tag;
+        public object _endTag;
+        public object _defaultValue;
+        public object tagSize;
 
-    public class FieldCodec`1 : Object
-    {
         // ── Methods ──
         public void get_ValueReader(){} // RVA: 0xB70160
         public void IsPackedRepeatedField(){} // RVA: 0x3DDB980
@@ -279,6 +409,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FieldMaskTree : Object
     {
+        public object root;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x649DC80
         public void ToString(){} // RVA: 0x649DD40
@@ -292,6 +424,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class FrameworkPortability : Object
     {
+        public object CompiledRegexWhereAvailable;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x649F680
     }
@@ -307,6 +441,12 @@ namespace ThirdParty.Google.Google.Protobuf
     {
         // ── Methods ──
         public void ToDiagnosticString(){} // RVA: 0x87C0A0
+    }
+
+    public class IDeepCloneable`1
+    {
+        // ── Methods ──
+        public void Clone(){} // RVA: 0x87C0A0
     }
 
     public class IDeepCloneable`1
@@ -331,12 +471,6 @@ namespace ThirdParty.Google.Google.Protobuf
     {
         // ── Methods ──
         public void Clone(){} // RVA: 0x890F90
-    }
-
-    public class IDeepCloneable`1
-    {
-        // ── Methods ──
-        public void Clone(){} // RVA: 0x87C0A0
     }
 
     public class IDeepCloneable`1
@@ -401,6 +535,11 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class JsonFormatter : Object
     {
+        public object _default;
+        public object diagnosticFormatter;
+        public object CommonRepresentations;
+        public object settings;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x649FBF0
         public void .cctor(){} // RVA: 0x649FC50
@@ -440,6 +579,10 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser : Object
     {
+        public object factory;
+        public object _discardUnknownFields;
+        public object _extensions;
+
         // ── Methods ──
         public void get_DiscardUnknownFields(){} // RVA: 0xB5DD50
         public void get_Extensions(){} // RVA: 0xB700F0
@@ -450,6 +593,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class MessageParser`1 : MessageParser
     {
+        public object factory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89A3D0
         public void CreateTemplate(){} // RVA: 0xA94080
@@ -459,6 +604,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ObjectIntPair`1 : ValueType
     {
+        public object number;
+        public object obj;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Equals(){} // RVA: 0x87D350
@@ -467,6 +615,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ParseContext : ValueType
     {
+        public object buffer;
+        public object state;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x64A7B00
         public void get_LastTag(){} // RVA: 0xCFAF0
@@ -495,6 +646,21 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ParserInternalState : ValueType
     {
+        public object bufferPos;
+        public object bufferSize;
+        public object bufferSizeAfterLimit;
+        public object currentLimit;
+        public object totalBytesRetired;
+        public object recursionDepth;
+        public object segmentedBufferHelper;
+        public object lastTag;
+        public object nextTag;
+        public object hasNextTag;
+        public object sizeLimit;
+        public object recursionLimit;
+        public object _discardUnknownFields;
+        public object _extensionRegistry;
+
         // ── Methods ──
         public void get_CodedInputStream(){} // RVA: 0xC5D60
         public void get_DiscardUnknownFields(){} // RVA: 0x7848D0
@@ -537,6 +703,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class ParsingPrimitivesMessages : Object
     {
+        public object ZeroLengthMessageStreamData;
+
         // ── Methods ──
         public void SkipLastField(){} // RVA: 0x64AA360
         public void SkipGroup(){} // RVA: 0x64AA680
@@ -552,12 +720,15 @@ namespace ThirdParty.Google.Google.Protobuf
     public class ProtoPreconditions : Object
     {
         // ── Methods ──
-        public void CheckNotNull(){} // RVA: 0x2996010
         public void CheckNotNullUnconstrained(){} // RVA: 0x2996010
+        public void CheckNotNull(){} // RVA: 0x2996010
     }
 
     public class RepeatedExtensionValue`1 : Object
     {
+        public object field;
+        public object codec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void CalculateSize(){} // RVA: 0x87C130
@@ -571,6 +742,8 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class RepeatedExtension`2 : Extension
     {
+        public object codec;
+
         // ── Methods ──
         public void get_TargetType(){} // RVA: 0x87C0A0
         public void get_IsRepeated(){} // RVA: 0x87D280
@@ -579,6 +752,10 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class SegmentedBufferHelper : ValueType
     {
+        public object totalLength;
+        public object readOnlySequenceEnumerator;
+        public object codedInputStream;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x64AAE60
         public void RefillBuffer(){} // RVA: 0x7849C0
@@ -596,6 +773,12 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class UnknownField : Object
     {
+        public object varintList;
+        public object fixed32List;
+        public object fixed64List;
+        public object lengthDelimitedList;
+        public object groupList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Equals(){} // RVA: 0x64AB810
@@ -614,6 +797,10 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class UnknownFieldSet : Object
     {
+        public object fields;
+        public object lastFieldNumber;
+        public object lastField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x64AD6D0
         public void HasField(){} // RVA: 0x64AD790
@@ -653,6 +840,12 @@ namespace ThirdParty.Google.Google.Protobuf
     public class ValueReader`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class ValueReader`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void Invoke(){} // RVA: 0xA94080
     }
@@ -685,25 +878,19 @@ namespace ThirdParty.Google.Google.Protobuf
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class ValueReader`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class ValueWriter`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x899C90
-        public void Invoke(){} // RVA: 0xA94080
     }
 
     public class ValueWriter`1 : MulticastDelegate
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class ValueWriter`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
     }
 
     public class ValueWriter`1 : MulticastDelegate
@@ -746,6 +933,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class WriteBufferHelper : ValueType
     {
+        public object bufferWriter;
+        public object codedOutputStream;
+
         // ── Methods ──
         public void get_CodedOutputStream(){} // RVA: 0x77ED0
         public void Initialize(){} // RVA: 0x64AF2C0
@@ -758,6 +948,9 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class WriteContext : ValueType
     {
+        public object buffer;
+        public object state;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x64AF780
         public void WriteDouble(){} // RVA: 0x784B90
@@ -783,12 +976,18 @@ namespace ThirdParty.Google.Google.Protobuf
 
     public class WriterInternalState : ValueType
     {
+        public object limit;
+        public object position;
+        public object writeBufferHelper;
+
         // ── Methods ──
         public void get_CodedOutputStream(){} // RVA: 0x7E450
     }
 
     public class WritingPrimitives : Object
     {
+        public object Utf8Encoding;
+
         // ── Methods ──
         public void WriteDouble(){} // RVA: 0x64B0670
         public void WriteFloat(){} // RVA: 0x64B06E0

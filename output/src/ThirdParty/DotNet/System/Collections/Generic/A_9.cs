@@ -7,600 +7,800 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x46B02F0
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4613F70
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x5221A50
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x5355E90
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x46157B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46B4330
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46B4330
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4613F70
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46157B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46AA7B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4613F70
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46B02F0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46157B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46B4330
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46AA7B0
     }
 
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x495BEC0
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4613F70
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46A4960
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4613F70
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B15040
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
-
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x50A69B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4613F70
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46A4960
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4F8FF10
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4619730
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46A7CD0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46AA7B0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4CC6240
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4610A20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x46A5EA0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x488EAB0
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
-        // ── Methods ──
-        public void Sort(){} // RVA: 0x4B13B20
-    }
+        public object s_defaultArraySortHelper;
 
-    public class ArraySortHelper`1 : Object
-    {
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B15040
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }
 
     public class ArraySortHelper`1 : Object
     {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x495BEC0
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4610A20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x46A7CD0
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x4B13B20
+    }
+
+    public class ArraySortHelper`1 : Object
+    {
+        public object s_defaultArraySortHelper;
+
         // ── Methods ──
         public void Sort(){} // RVA: 0x4B13B20
     }

@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 {
     public class SubsystemDescriptorStore : Object
     {
+        public object s_IntegratedDescriptors;
+        public object s_StandaloneDescriptors;
+        public object s_DeprecatedDescriptors;
+
         // ── Methods ──
         public void InitializeManagedDescriptor(){} // RVA: 0x7DAE7F0
         public void ClearManagedDescriptors(){} // RVA: 0x7DAE8D0
@@ -41,6 +45,8 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 
     public class SubsystemDescriptorWithProvider : Object
     {
+        public object _id;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0xB5DBF0
         public void CreateImpl(){} // RVA: 0x87C0A0
@@ -70,6 +76,9 @@ namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 
     public class SubsystemWithProvider : Object
     {
+        public object _running;
+        public object _providerBase;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x7DAEF40
         public void OnStart(){} // RVA: 0x894290

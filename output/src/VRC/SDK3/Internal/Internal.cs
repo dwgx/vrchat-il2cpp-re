@@ -7,6 +7,12 @@ namespace VRC.SDK3.Internal
 {
     public class BestInstancesListener : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object resultInstances;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xD42D30
         public void IndexOf(){} // RVA: 0xB700F0
@@ -23,6 +29,8 @@ namespace VRC.SDK3.Internal
 
     public class ChangeSettings : Object
     {
+        public object _changeSettings;
+
         // ── Methods ──
         public void SetComfortMode(){} // RVA: 0xD43350
         public void GetComfortMode(){} // RVA: 0xD43410
@@ -47,6 +55,10 @@ namespace VRC.SDK3.Internal
 
     public class PedestalPreviewListener : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetAvatarPreview(){} // RVA: 0xD5EC90
         public void IndexOf(){} // RVA: 0xD5ECF0
@@ -65,6 +77,11 @@ namespace VRC.SDK3.Internal
 
     public class PlatformChecker : Object
     {
+        public object _platformChecker;
+        public object _platformChecker2;
+        public object _platformChecker3;
+        public object _platformChecker4;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB5DBF0
         public void Equals(){} // RVA: 0xD6C130
@@ -85,12 +102,16 @@ namespace VRC.SDK3.Internal
 
     public class VRCAnalyticEventsInternal : Object
     {
+        public object _vRCAnalyticEventsInternal;
+
         // ── Methods ──
         public void SendEvent(){} // RVA: 0xD3C990
     }
 
     public class VRCAvatarsInternal : Object
     {
+        public object _vRCAvatarsInternal;
+
         // ── Methods ──
         public void IsAvatarFavorited(){} // RVA: 0xD3CE10
         public void FavoriteAvatar(){} // RVA: 0xD3CEB0
@@ -100,12 +121,22 @@ namespace VRC.SDK3.Internal
 
     public class VRCBestInstances : Object
     {
+        public object _vRCBestInstances;
+
         // ── Methods ──
         public void GetBestInstances(){} // RVA: 0xD42C90
     }
 
     public class VRCEventPortalManagerInternal : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_F77;
+        public object f_BAC;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xD43B10
         public void Equals(){} // RVA: 0xD43CF0
@@ -130,6 +161,8 @@ namespace VRC.SDK3.Internal
 
     public class VRCExperiments : Object
     {
+        public object _vRCExperiments;
+
         // ── Methods ──
         public void IsInExperimentSegment(){} // RVA: 0xD5D920
         public void GetExperimentPayload(){} // RVA: 0xD5DC50
@@ -137,12 +170,16 @@ namespace VRC.SDK3.Internal
 
     public class VRCInternalAvatarPedestal : Object
     {
+        public object _vRCInternalAvatarPedestal;
+
         // ── Methods ──
         public void GetPedestalListener(){} // RVA: 0xD5EC00
     }
 
     public class VRCOpenMenu : Object
     {
+        public object _vRCOpenMenu;
+
         // ── Methods ──
         public void OpenFriendsList(){} // RVA: 0xD5DD20
         public void OpenMassGifting(){} // RVA: 0xD5DDE0
@@ -152,6 +189,14 @@ namespace VRC.SDK3.Internal
 
     public class VRCPrideCampaign : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_7FD;
+        public object f_EA6;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xD5F820
         public void Equals(){} // RVA: 0xD5FA30
@@ -174,6 +219,10 @@ namespace VRC.SDK3.Internal
 
     public class VRCUrlConstructor : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetUrl(){} // RVA: 0xD6AF80
         public void GetAllowlistedUrl(){} // RVA: 0xD6B050
@@ -182,12 +231,16 @@ namespace VRC.SDK3.Internal
 
     public class VRCUserFirstJoin : Object
     {
+        public object _vRCUserFirstJoin;
+
         // ── Methods ──
         public void GetIsNewUser(){} // RVA: 0xD6B930
     }
 
     public class VRCWorldPlatformChecker : Object
     {
+        public object _vRCWorldPlatformChecker;
+
         // ── Methods ──
         public void GetPlatformChecker(){} // RVA: 0xD6C0A0
     }

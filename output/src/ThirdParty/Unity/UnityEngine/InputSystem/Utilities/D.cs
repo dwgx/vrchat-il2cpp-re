@@ -16,6 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class DisplayStringFormatAttribute : Attribute
     {
+        public object _formatString;
+
         // ── Methods ──
         public void get_formatString(){} // RVA: 0xB5DBF0
         public void set_formatString(){} // RVA: 0xB44D60

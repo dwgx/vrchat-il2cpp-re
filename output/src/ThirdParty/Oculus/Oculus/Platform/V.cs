@@ -29,6 +29,13 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipAudioSourceHiLevel : MonoBehaviour
     {
+        public object initialPlaybackDelayMS;
+        public object audioSource;
+        public object peakAmplitude;
+        public object pcmSource;
+        public object audioSystemPlaybackFrequency;
+        public object verboseLogging;
+
         // ── Methods ──
         public void set_senderID(){} // RVA: 0x6B52250
         public void Stop(){} // RVA: 0xB43310
@@ -43,6 +50,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B531A0
         public void SetBitrateForNewConnections(){} // RVA: 0x6B53250
@@ -53,6 +62,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class VoipPCMSourceNative : Object
     {
+        public object senderID;
+
         // ── Methods ──
         public void GetPCM(){} // RVA: 0x6B534C0
         public void SetSenderID(){} // RVA: 0x2230E30

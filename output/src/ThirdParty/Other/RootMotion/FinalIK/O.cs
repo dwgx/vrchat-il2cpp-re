@@ -7,6 +7,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class OffsetModifier : MonoBehaviour
     {
+        public object weight;
+        public object ik;
+        public object lastTime;
+
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0xCBFF10
         public void OnModifyOffset(){} // RVA: 0x894290
@@ -20,6 +24,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetModifierVRIK : MonoBehaviour
     {
+        public object weight;
+        public object ik;
+        public object lastTime;
+
         // ── Methods ──
         public void get_deltaTime(){} // RVA: 0xCBFF10
         public void OnModifyOffset(){} // RVA: 0x894290
@@ -32,6 +40,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class OffsetPose : MonoBehaviour
     {
+        public object effectorLinks;
+
         // ── Methods ──
         public void Apply(){} // RVA: 0xCC19A0
         public void .ctor(){} // RVA: 0xCC1A60

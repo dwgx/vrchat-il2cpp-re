@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class SortedDictionary`2 : Object
     {
+        public object _keys;
+        public object _values;
+        public object _set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ADAAD0
         public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x4AD8C40
@@ -50,6 +54,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedDictionary`2 : Object
     {
+        public object _keys;
+        public object _values;
+        public object _set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0xA94080
@@ -93,6 +101,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedDictionary`2 : Object
     {
+        public object _keys;
+        public object _values;
+        public object _set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AD89F0
         public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x4AD8C40
@@ -136,6 +148,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedDictionary`2 : Object
     {
+        public object _keys;
+        public object _values;
+        public object _set;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4ADCD70
         public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x4ADCFC0
@@ -179,6 +195,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedList`2 : Object
     {
+        public object keys;
+        public object values;
+        public object _size;
+        public object version;
+        public object comparer;
+        public object keyList;
+        public object valueList;
+        public object _syncRoot;
+        public object DefaultCapacity;
+        public object MaxArrayLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Add(){} // RVA: 0xA94080
@@ -233,6 +260,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedList`2 : Object
     {
+        public object keys;
+        public object values;
+        public object _size;
+        public object version;
+        public object comparer;
+        public object keyList;
+        public object valueList;
+        public object _syncRoot;
+        public object DefaultCapacity;
+        public object MaxArrayLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AEDA60
         public void Add(){} // RVA: 0x4AEDAE0
@@ -287,6 +325,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedList`2 : Object
     {
+        public object keys;
+        public object values;
+        public object _size;
+        public object version;
+        public object comparer;
+        public object keyList;
+        public object valueList;
+        public object _syncRoot;
+        public object DefaultCapacity;
+        public object MaxArrayLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AF23F0
         public void Add(){} // RVA: 0x4AF4540
@@ -341,6 +390,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x4AFB4C0
         public void FindNode(){} // RVA: 0x4AFCCB0
@@ -380,6 +450,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x4AFB4C0
         public void FindNode(){} // RVA: 0x4AFCCB0
@@ -419,6 +510,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB708C0
         public void InOrderTreeWalk(){} // RVA: 0x4B04250
@@ -458,6 +570,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB708C0
         public void InOrderTreeWalk(){} // RVA: 0x4B073F0
@@ -497,6 +630,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB708C0
         public void InOrderTreeWalk(){} // RVA: 0x4B073F0
@@ -536,6 +690,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB708C0
         public void InOrderTreeWalk(){} // RVA: 0x4B01F80
@@ -575,6 +750,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x4005630
         public void .ctor(){} // RVA: 0xB708C0
@@ -614,6 +810,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void InOrderTreeWalk(){} // RVA: 0x87D350
@@ -653,6 +870,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB708C0
         public void InOrderTreeWalk(){} // RVA: 0x4B01F80
@@ -692,6 +930,27 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class SortedSet`1 : Object
     {
+        public object root;
+        public object comparer;
+        public object count;
+        public object version;
+        public object _syncRoot;
+        public object siInfo;
+        public object ComparerName;
+        public object CountName;
+        public object ItemsName;
+        public object VersionName;
+        public object TreeName;
+        public object NodeValueName;
+        public object EnumStartName;
+        public object ReverseName;
+        public object EnumVersionName;
+        public object MinName;
+        public object MaxName;
+        public object LowerBoundActiveName;
+        public object UpperBoundActiveName;
+        public object StackAllocThreshold;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x4B00090
         public void FindNode(){} // RVA: 0x4B011B0
@@ -731,6 +990,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void Push(){} // RVA: 0x4B48AD0
@@ -740,6 +1004,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8944F0
         public void get_Count(){} // RVA: 0x87C130
@@ -761,6 +1030,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -782,6 +1056,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xE62D00
         public void Pop(){} // RVA: 0x4B47210
@@ -803,6 +1082,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -824,6 +1108,37 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48C5450
+        public void get_Count(){} // RVA: 0xE62D00
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Pop(){} // RVA: 0x4B47210
+        public void TryPop(){} // RVA: 0x4B47290
+        public void Push(){} // RVA: 0x4B48AD0
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void Push(){} // RVA: 0x4B48AD0
@@ -833,6 +1148,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -854,6 +1174,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -875,6 +1200,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void Push(){} // RVA: 0x4B48AD0
@@ -884,6 +1214,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void Push(){} // RVA: 0x4B48AD0
@@ -893,6 +1228,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xE62D00
         public void .ctor(){} // RVA: 0x48C5450
@@ -914,6 +1254,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -935,6 +1280,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -956,6 +1306,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -977,6 +1332,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -998,6 +1358,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1019,6 +1384,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void Push(){} // RVA: 0x4B48AD0
@@ -1040,6 +1410,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -1049,6 +1424,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -1058,9 +1438,20 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void Push(){} // RVA: 0x4B48AD0
+        public void Pop(){} // RVA: 0x4B47210
+        public void get_Count(){} // RVA: 0xE62D00
         public void Clear(){} // RVA: 0x4B46CB0
-        public void .ctor(){} // RVA: 0x48C5450
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
         public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
         public void Contains(){} // RVA: 0x4B489F0
@@ -1069,16 +1460,15 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
         public void Peek(){} // RVA: 0x4B471B0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-        public void Push(){} // RVA: 0x4B48AD0
-        public void Pop(){} // RVA: 0x4B47210
-        public void get_Count(){} // RVA: 0xE62D00
     }
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1100,27 +1490,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
 
-    public class Stack`1 : Object
-    {
         // ── Methods ──
         public void get_Count(){} // RVA: 0xE62D00
         public void .ctor(){} // RVA: 0x48C5450
@@ -1142,6 +1516,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1163,6 +1542,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1184,48 +1568,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
 
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -1247,6 +1594,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1268,6 +1620,63 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -1289,6 +1698,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void Push(){} // RVA: 0x4B48AD0
@@ -1310,6 +1724,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1331,6 +1750,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1352,6 +1776,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1373,6 +1802,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1394,6 +1828,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1415,6 +1854,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1436,6 +1880,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1457,6 +1906,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1478,6 +1932,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1499,6 +1958,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1520,6 +1984,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1541,6 +2010,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1562,6 +2036,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1583,6 +2062,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1604,6 +2088,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1625,27 +2114,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        // ── Methods ──
-        public void Pop(){} // RVA: 0x4B47210
-        public void get_Count(){} // RVA: 0xE62D00
-        public void .ctor(){} // RVA: 0x48C5450
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void Push(){} // RVA: 0x4B48AD0
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
 
-    public class Stack`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -1667,300 +2140,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
 
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Push(){} // RVA: 0x4B48AD0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void .ctor(){} // RVA: 0x48C5450
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
-        public void get_Count(){} // RVA: 0xE62D00
-        public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void Push(){} // RVA: 0x4B48AD0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void TryPop(){} // RVA: 0x4B47290
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
-
-    public class Stack`1 : Object
-    {
         // ── Methods ──
         public void get_Count(){} // RVA: 0xE62D00
         public void Pop(){} // RVA: 0x4B47210
@@ -1982,6 +2166,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2003,6 +2192,37 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void Pop(){} // RVA: 0x4B47210
+        public void get_Count(){} // RVA: 0xE62D00
+        public void .ctor(){} // RVA: 0x48C5450
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void Push(){} // RVA: 0x4B48AD0
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2024,6 +2244,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2045,6 +2270,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2066,6 +2296,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2087,6 +2322,193 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0xE62D00
         public void Pop(){} // RVA: 0x4B47210
@@ -2108,6 +2530,193 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48CBB20
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void Push(){} // RVA: 0x4B48AD0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0xE62D00
+        public void Pop(){} // RVA: 0x4B47210
+        public void Push(){} // RVA: 0x4B48AD0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void .ctor(){} // RVA: 0x48C5450
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void TryPop(){} // RVA: 0x4B47290
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2129,6 +2738,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2150,6 +2764,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
@@ -2171,20 +2790,25 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x48CBB20
         public void get_Count(){} // RVA: 0xE62D00
         public void Pop(){} // RVA: 0x4B47210
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Contains(){} // RVA: 0x4B489F0
         public void Push(){} // RVA: 0x4B48AD0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void .ctor(){} // RVA: 0x48C5450
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
         public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void Clear(){} // RVA: 0x4B46CB0
         public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
         public void GetEnumerator(){} // RVA: 0x4B47060
         public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void Peek(){} // RVA: 0x4B471B0
         public void TryPop(){} // RVA: 0x4B47290
         public void PushWithResize(){} // RVA: 0x4B48B40
         public void ThrowForEmptyStack(){} // RVA: 0x4B47420
@@ -2192,6 +2816,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2213,6 +2842,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2234,6 +2868,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2255,6 +2894,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void Push(){} // RVA: 0x4B48AD0
@@ -2264,27 +2908,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x48C5450
-        public void get_Count(){} // RVA: 0xE62D00
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
-        public void Clear(){} // RVA: 0x4B46CB0
-        public void Contains(){} // RVA: 0x4B489F0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
-        public void GetEnumerator(){} // RVA: 0x4B47060
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
-        public void Peek(){} // RVA: 0x4B471B0
-        public void Pop(){} // RVA: 0x4B47210
-        public void TryPop(){} // RVA: 0x4B47290
-        public void Push(){} // RVA: 0x4B48AD0
-        public void PushWithResize(){} // RVA: 0x4B48B40
-        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
-    }
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
 
-    public class Stack`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2306,6 +2934,37 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x48C5450
+        public void get_Count(){} // RVA: 0xE62D00
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4B48940
+        public void Clear(){} // RVA: 0x4B46CB0
+        public void Contains(){} // RVA: 0x4B489F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4B46DC0
+        public void GetEnumerator(){} // RVA: 0x4B47060
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4B470F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4B470F0
+        public void Peek(){} // RVA: 0x4B471B0
+        public void Pop(){} // RVA: 0x4B47210
+        public void TryPop(){} // RVA: 0x4B47290
+        public void Push(){} // RVA: 0x4B48AD0
+        public void PushWithResize(){} // RVA: 0x4B48B40
+        public void ThrowForEmptyStack(){} // RVA: 0x4B47420
+    }
+
+    public class Stack`1 : Object
+    {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2327,6 +2986,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00
@@ -2348,6 +3012,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Stack`1 : Object
     {
+        public object _array;
+        public object _size;
+        public object _version;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48C5450
         public void get_Count(){} // RVA: 0xE62D00

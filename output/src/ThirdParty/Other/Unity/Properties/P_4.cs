@@ -7,6 +7,12 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class PathVisitor : Object
     {
+        public object m_PathIndex;
+        public object _path;
+        public object _property;
+        public object _readonlyVisit;
+        public object _returnCode;
+
         // ── Methods ──
         public void get_Path(){} // RVA: 0x4FDE250
         public void set_Path(){} // RVA: 0x7D43C60
@@ -25,6 +31,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -42,6 +50,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -59,6 +69,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -76,6 +88,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -93,6 +107,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -110,6 +126,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -127,6 +145,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -144,6 +164,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -161,6 +183,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -178,6 +202,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -195,6 +221,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -212,6 +240,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -229,6 +259,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x48813F0
         public void .ctor(){} // RVA: 0x47EB50
@@ -236,6 +272,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x48813F0
         public void .ctor(){} // RVA: 0x47EB50
@@ -243,6 +285,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0x48813F0
         public void .ctor(){} // RVA: 0x47EB50
@@ -266,6 +314,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyMember : ValueType
     {
+        public object m_PropertyInfo;
+        public object _name;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x77ED0
         public void get_IsReadOnly(){} // RVA: 0x989970
@@ -278,6 +329,14 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyPath : ValueType
     {
+        public object k_InlineCount;
+        public object m_Part0;
+        public object m_Part1;
+        public object m_Part2;
+        public object m_Part3;
+        public object m_AdditionalParts;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x93D820
         public void get_IsEmpty(){} // RVA: 0x9895E0
@@ -304,6 +363,11 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyPathPart : ValueType
     {
+        public object m_Kind;
+        public object m_Name;
+        public object m_Index;
+        public object m_Key;
+
         // ── Methods ──
         public void get_IsName(){} // RVA: 0x8E95B0
         public void get_IsIndex(){} // RVA: 0x8E53D0
@@ -347,6 +411,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -368,6 +434,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -389,6 +457,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -410,6 +480,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -431,6 +503,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -452,6 +526,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -473,6 +549,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -494,6 +572,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -515,6 +595,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -536,6 +618,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -557,6 +641,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -578,6 +664,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0x87D280
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
@@ -599,6 +687,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -620,6 +710,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -641,6 +733,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -662,6 +756,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -683,6 +779,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -704,6 +802,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0x87D280
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
@@ -725,6 +825,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -746,6 +848,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -767,6 +871,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -788,6 +894,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -809,6 +917,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0x87D280
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
@@ -830,6 +940,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -851,6 +963,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -872,6 +986,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -893,6 +1009,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -914,6 +1032,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -935,6 +1055,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -956,6 +1078,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -977,6 +1101,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -998,6 +1124,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1019,6 +1147,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1040,6 +1170,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1061,6 +1193,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1082,6 +1216,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1103,6 +1239,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1124,6 +1262,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1145,6 +1285,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1166,6 +1308,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1187,6 +1331,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1208,6 +1354,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1229,6 +1377,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1250,6 +1400,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1271,6 +1423,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1292,6 +1446,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1313,6 +1469,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1334,6 +1492,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1355,6 +1515,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60

@@ -16,6 +16,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class AttributesScope : ValueType
     {
+        public object m_Target;
+        public object m_Previous;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x988AA0
         public void Dispose(){} // RVA: 0x988AB0

@@ -39,6 +39,25 @@ namespace VRC.Core
 
     public class InstanceAccessTypeExtensions : Object
     {
+        public object PUBLIC_API_STRING;
+        public object HIDDEN_API_STRING;
+        public object FRIENDS_ONLY_API_STRING;
+        public object INVITE_ONLY_API_STRING;
+        public object INVITE_PLUS_API_STRING;
+        public object GROUP_ONLY_API_STRING;
+        public object PUBLIC_SHORT_STRING;
+        public object HIDDEN_SHORT_STRING;
+        public object FRIENDS_ONLY_SHORT_STRING;
+        public object INVITE_ONLY_SHORT_STRING;
+        public object INVITE_PLUS_SHORT_STRING;
+        public object GROUP_ONLY_SHORT_STRING;
+        public object PUBLIC_DISPLAY_STRING;
+        public object HIDDEN_DISPLAY_STRING;
+        public object FRIENDS_ONLY_DISPLAY_STRING;
+        public object INVITE_ONLY_DISPLAY_STRING;
+        public object INVITE_PLUS_DISPLAY_STRING;
+        public object GROUP_ONLY_DISPLAY_STRING;
+
         // ── Methods ──
         public void ToInstanceAccessType(){} // RVA: 0xA5C06D0
         public void ToApiString(){} // RVA: 0xA5C0930

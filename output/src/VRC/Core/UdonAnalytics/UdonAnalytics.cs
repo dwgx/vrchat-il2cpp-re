@@ -7,6 +7,8 @@ namespace VRC.Core.UdonAnalytics
 {
     public class AggregateUdonAnalyticsEvent : UdonAnalyticsEvent
     {
+        public object _aggregatedEvents;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5E5050
         public void AggregateEvents(){} // RVA: 0xA5E50F0
@@ -46,6 +48,13 @@ namespace VRC.Core.UdonAnalytics
 
     public class UdonAnalyticsCache : Object
     {
+        public object Instance;
+        public object MaxBatchSize;
+        public object ProcessDelaySeconds;
+        public object fetchTimer;
+        public object _eventQueue;
+        public object _batchQueue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5E5370
         public void Update(){} // RVA: 0xA5E5550
@@ -59,6 +68,12 @@ namespace VRC.Core.UdonAnalytics
 
     public class UdonAnalyticsEvent : Object
     {
+        public object _worldId;
+        public object _metricId;
+        public object _position;
+        public object _timestamp;
+        public object _count;
+
         // ── Methods ──
         public void CreateEvent(){} // RVA: 0xA5E6850
         public void .ctor(){} // RVA: 0xA5E6900

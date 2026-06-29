@@ -11,6 +11,9 @@ public class IInputAxisProvider
 
 public class Icons : Object
 {
+    public object key;
+    public object sprite;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x15D3630
     public void Equals(){} // RVA: 0x15D3750
@@ -23,6 +26,18 @@ public class Icons : Object
 
 public class ImpulseEvent : Object
 {
+    public object m_StartTime;
+    public object m_Envelope;
+    public object m_SignalSource;
+    public object m_Position;
+    public object m_Radius;
+    public object m_DirectionMode;
+    public object m_Channel;
+    public object m_DissipationMode;
+    public object m_DissipationDistance;
+    public object m_CustomDissipation;
+    public object m_PropagationSpeed;
+
     // ── Methods ──
     public void get_Expired(){} // RVA: 0x25E24F0
     public void Cancel(){} // RVA: 0x25E25A0
@@ -34,6 +49,16 @@ public class ImpulseEvent : Object
 
 public class ImpulseReaction : ValueType
 {
+    public object m_SecondaryNoise;
+    public object m_AmplitudeGain;
+    public object m_FrequencyGain;
+    public object m_Duration;
+    public object m_CurrentAmount;
+    public object m_CurrentTime;
+    public object m_CurrentDamping;
+    public object m_Initialized;
+    public object m_NoiseOffsets;
+
     // ── Methods ──
     public void ReSeed(){} // RVA: 0x89990
     public void GetReaction(){} // RVA: 0x899A0
@@ -348,6 +373,9 @@ public class Input : Object
 
 public class Int128 : ValueType
 {
+    public object hi;
+    public object lo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89CD0
     public void IsNegative(){} // RVA: 0x89CF0
@@ -372,6 +400,9 @@ public class IntChildrenSection : ChildrenSection`1
 
 public class IntPoint : ValueType
 {
+    public object X;
+    public object Y;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89CD0
     public void op_Equality(){} // RVA: 0x25E5200
@@ -382,12 +413,20 @@ public class IntPoint : ValueType
 
 public class IntRect : ValueType
 {
+    public object left;
+    public object top;
+    public object right;
+    public object bottom;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89EF0
 }
 
 public class InternalEnumerator`1 : ValueType
 {
+    public object array;
+    public object idx;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void Dispose(){} // RVA: 0x894290
@@ -399,6 +438,9 @@ public class InternalEnumerator`1 : ValueType
 
 public class InternalEnumerator`1 : ValueType
 {
+    public object array;
+    public object idx;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3303A0
     public void Dispose(){} // RVA: 0x3FC0
@@ -410,6 +452,9 @@ public class InternalEnumerator`1 : ValueType
 
 public class InternalEnumerator`1 : ValueType
 {
+    public object array;
+    public object idx;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3303A0
     public void Dispose(){} // RVA: 0x3FC0
@@ -421,264 +466,355 @@ public class InternalEnumerator`1 : ValueType
 
 public class IntersectNode : Object
 {
+    public object Edge1;
+    public object Edge2;
+    public object Pt;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class Item : ValueType
 {
+    public object Pos;
+    public object Rot;
+
     // ── Methods ──
     public void Lerp(){} // RVA: 0x25D9280
     public void get_Empty(){} // RVA: 0x25D93E0

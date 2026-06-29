@@ -7,6 +7,11 @@ namespace VRC.Core
 {
     public class DiscordAccessDataObject : ApiModel
     {
+        public object _accessToken;
+        public object _tokenType;
+        public object _expiresIn;
+        public object _scope;
+
         // ── Methods ──
         public void get_accessToken(){} // RVA: 0xBBFF90
         public void set_accessToken(){} // RVA: 0xBBFFA0
@@ -21,6 +26,13 @@ namespace VRC.Core
 
     public class DiscordDeviceCodeResponse : ApiModel
     {
+        public object _device_code;
+        public object _user_code;
+        public object _verification_uri;
+        public object _verification_uri_complete;
+        public object _expires_in;
+        public object _interval;
+
         // ── Methods ──
         public void get_device_code(){} // RVA: 0xBBFF90
         public void set_device_code(){} // RVA: 0xBBFFA0
@@ -39,6 +51,10 @@ namespace VRC.Core
 
     public class DiscordLoginResponse : ApiModel
     {
+        public object _user;
+        public object _discordAccessData;
+        public object _userNewlyAcceptedSocialSDKPerms;
+
         // ── Methods ──
         public void get_user(){} // RVA: 0xBBFF90
         public void set_user(){} // RVA: 0xBBFFA0

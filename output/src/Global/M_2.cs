@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 291
+// Methods: 292
 
 public class MajorProperty : Property`2
 {
@@ -13,21 +13,17 @@ public class MajorProperty : Property`2
     public void SetValue(){} // RVA: 0xB43310
 }
 
-public class MapView`1 : Object
+public class ManagedUserData : Object
 {
+    public object managedCallback;
+    public object Free;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x8954D0
-    public void get_Count(){} // RVA: 0x87C130
-    public void get_IsReadOnly(){} // RVA: 0x87D280
-    public void get_IsSynchronized(){} // RVA: 0x87D280
-    public void get_SyncRoot(){} // RVA: 0x87C0A0
-    public void Add(){} // RVA: 0xA94080
-    public void Clear(){} // RVA: 0x894290
-    public void Contains(){} // RVA: 0xA94080
-    public void CopyTo(){} // RVA: 0x899290
-    public void GetEnumerator(){} // RVA: 0x87C0A0
-    public void Remove(){} // RVA: 0xA94080
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+    public void .ctor(){} // RVA: 0xB44D60
+    public void .cctor(){} // RVA: 0x26D8380
+    public void UnmanagedFree(){} // RVA: 0x26D8500
+    public void DelegateFromPointer(){} // RVA: 0xA94080
+    public void CreateHandle(){} // RVA: 0x26D85C0
 }
 
 public class MarginBottomProperty : InlineStyleLengthProperty
@@ -149,6 +145,17 @@ public class MasterDirectorDelegate : MulticastDelegate
 
 public class MatEntry : Object
 {
+    public object baseMat;
+    public object customMat;
+    public object count;
+    public object stencilId;
+    public object operation;
+    public object compareFunction;
+    public object readMask;
+    public object writeMask;
+    public object useAlphaClip;
+    public object colorMask;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8101250
 }
@@ -173,8 +180,30 @@ public class MatEntry[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class MatchIdDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3E37B60
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x8284730
+    public void EndInvoke(){} // RVA: 0x2404860
+}
+
 public class MatcherJson : ValueType
 {
+    public object interface;
+    public object interfaces;
+    public object deviceClass;
+    public object deviceClasses;
+    public object manufacturer;
+    public object manufacturerContains;
+    public object manufacturers;
+    public object product;
+    public object products;
+    public object version;
+    public object versions;
+    public object capabilities;
+
     // ── Methods ──
     public void FromMatcher(){} // RVA: 0x781F4A0
     public void ToMatcher(){} // RVA: 0x92DC50
@@ -226,108 +255,197 @@ public class MaxWidthProperty : ResolvedStyleFloatProperty
 
 public class Maxima : Object
 {
+    public object X;
+    public object Next;
+    public object Prev;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetResult(){} // RVA: 0x46999D0
@@ -339,264 +457,463 @@ public class MemoizeSource : Object
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
+    public object source;
+    public object result;
+    public object exception;
+    public object status;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-}
+    public object source;
+    public object exception;
+    public object status;
 
-public class MemoizeSource : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
-}
-
-public class MemoizeSource : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
+    public void GetResult(){} // RVA: 0x7751420
+    public void GetStatus(){} // RVA: 0x7751570
+    public void OnCompleted(){} // RVA: 0x77515E0
+    public void UnsafeGetStatus(){} // RVA: 0x7751680
 }
 
 public class Memory : ValueType
 {
+    public object BufferBag;
+    public object _ptr;
+
     // ── Methods ──
     public void get_Ptr(){} // RVA: 0x77900
     public void set_Ptr(){} // RVA: 0x93050
@@ -604,13 +921,6 @@ public class Memory : ValueType
     public void Take(){} // RVA: 0x294F6C0
     public void Dispose(){} // RVA: 0x145360
     public void .cctor(){} // RVA: 0x294FC80
-}
-
-public class MemoryUsageChangedCallback : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB9DF20
-    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class MetadataCallback : MulticastDelegate
@@ -678,6 +988,9 @@ public class MinorProperty : Property`2
 
 public class ModeProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -686,8 +999,34 @@ public class ModeProperty : Property`2
     public void .ctor(){} // RVA: 0x80B7400
 }
 
+public class MoreInfo : Object
+{
+    public object Path;
+    public object Query;
+    public object Fragment;
+    public object AbsoluteUri;
+    public object Hash;
+    public object RemoteUrl;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MouseButtonEventData : Object
+{
+    public object buttonState;
+    public object buttonData;
+
+    // ── Methods ──
+    public void PressedThisFrame(){} // RVA: 0x811BD30
+    public void ReleasedThisFrame(){} // RVA: 0x811BD50
+    public void .ctor(){} // RVA: 0xB43310
+}
+
 public class MouseState : Object
 {
+    public object m_TrackedButtons;
+
     // ── Methods ──
     public void AnyPressesThisFrame(){} // RVA: 0x811B820
     public void AnyReleasesThisFrame(){} // RVA: 0x811B8F0
@@ -698,6 +1037,10 @@ public class MouseState : Object
 
 public class MoveNextRunner : Object
 {
+    public object m_context;
+    public object m_stateMachine;
+    public object s_invokeMoveNext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void Run(){} // RVA: 0x67C05F0
@@ -706,6 +1049,14 @@ public class MoveNextRunner : Object
 
 public class MoveShapesJob : ValueType
 {
+    public object VelocityLerpSpeed;
+    public object transformData;
+    public object transformLookup;
+    public object activeShapes;
+    public object shapeData;
+    public object shapesToUpdate;
+    public object deltaTime;
+
     // ── Methods ──
     public void GetTransform(){} // RVA: 0x9C5A40
     public void Execute(){} // RVA: 0x9C5A70
@@ -714,6 +1065,14 @@ public class MoveShapesJob : ValueType
 
 public class MoveShapesJob : ValueType
 {
+    public object VelocityLerpSpeed;
+    public object transformData;
+    public object transformLookup;
+    public object activeShapes;
+    public object shapeData;
+    public object shapesToUpdate;
+    public object deltaTime;
+
     // ── Methods ──
     public void GetTransform(){} // RVA: 0x9C5A40
     public void Execute(){} // RVA: 0x9C5F30
@@ -722,6 +1081,11 @@ public class MoveShapesJob : ValueType
 
 public class MutationInput : ValueType
 {
+    public object _root;
+    public object _equalityComparer;
+    public object _count;
+    public object _hashBucketEqualityComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Root(){} // RVA: 0x87C0A0
@@ -732,6 +1096,11 @@ public class MutationInput : ValueType
 
 public class MutationInput : ValueType
 {
+    public object _root;
+    public object _equalityComparer;
+    public object _count;
+    public object _hashBucketEqualityComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x42E800
     public void get_EqualityComparer(){} // RVA: 0x77ED0
@@ -742,6 +1111,10 @@ public class MutationInput : ValueType
 
 public class MutationResult : ValueType
 {
+    public object _root;
+    public object _count;
+    public object _countType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Root(){} // RVA: 0x87C0A0
@@ -752,6 +1125,10 @@ public class MutationResult : ValueType
 
 public class MutationResult : ValueType
 {
+    public object _root;
+    public object _count;
+    public object _countType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x42EAE0
     public void Finalize(){} // RVA: 0x42EAF0

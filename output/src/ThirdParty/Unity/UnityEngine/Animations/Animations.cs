@@ -96,6 +96,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationClipPlayable : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1AAF0
         public void CreateHandle(){} // RVA: 0x7B1ACD0
@@ -137,6 +139,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationHumanStream : ValueType
     {
+        public object stream;
+
         // ── Methods ──
         public void get_isValid(){} // RVA: 0x95AA70
         public void ThrowIfInvalid(){} // RVA: 0x95AA80
@@ -170,6 +174,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationLayerMixerPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1B7A0
         public void CreateHandle(){} // RVA: 0x7B1B870
@@ -210,6 +217,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationMixerPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1C680
         public void CreateHandle(){} // RVA: 0x7B1C730
@@ -244,6 +254,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationMotionXToDeltaPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1CDA0
         public void CreateHandle(){} // RVA: 0x7B1CE40
@@ -280,6 +293,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationOffsetPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1D5B0
         public void CreateHandle(){} // RVA: 0x7B1D6A0
@@ -336,6 +352,8 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationPlayableOutput : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1E020
         public void .ctor(){} // RVA: 0x95AF60
@@ -373,6 +391,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationPosePlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x95AFA0
         public void GetHandle(){} // RVA: 0x4513B0
@@ -402,6 +423,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationRemoveScalePlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x7B1E8B0
         public void CreateHandle(){} // RVA: 0x7B1E960
@@ -436,6 +460,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationScriptPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x2D70930
         public void CreateHandle(){} // RVA: 0x2D70E10
@@ -472,6 +499,14 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimationStream : ValueType
     {
+        public object m_AnimatorBindingsVersion;
+        public object constant;
+        public object input;
+        public object output;
+        public object workspace;
+        public object inputStreamAccessor;
+        public object animationHandleBinder;
+
         // ── Methods ──
         public void get_animatorBindingsVersion(){} // RVA: 0x454FE0
         public void get_isValid(){} // RVA: 0x95B250
@@ -505,6 +540,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class AnimatorControllerPlayable : ValueType
     {
+        public object m_Handle;
+        public object m_NullPlayable;
+
         // ── Methods ──
         public void get_Null(){} // RVA: 0x7B1FB50
         public void Create(){} // RVA: 0x7B1FBC0
@@ -641,6 +679,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ConstraintSource : ValueType
     {
+        public object m_SourceTransform;
+        public object m_Weight;
+
         // ── Methods ──
         public void get_sourceTransform(){} // RVA: 0x44D9F0
         public void set_sourceTransform(){} // RVA: 0x47F10
@@ -810,6 +851,9 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class MuscleHandle : ValueType
     {
+        public object _humanPartDof;
+        public object _dof;
+
         // ── Methods ──
         public void get_muscleHandleCount(){} // RVA: 0x7B2C070
         public void GetMuscleHandles(){} // RVA: 0x7B2C0C0
@@ -1009,6 +1053,17 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ProcessAnimationJobStruct`1 : ValueType
     {
+        public object jobReflectionData;
+
+        // ── Methods ──
+        public void GetJobReflectionData(){} // RVA: 0x87C0D0
+        public void Execute(){} // RVA: 0x89D2D0
+    }
+
+    public class ProcessAnimationJobStruct`1 : ValueType
+    {
+        public object jobReflectionData;
+
         // ── Methods ──
         public void GetJobReflectionData(){} // RVA: 0x487C3B0
         public void Execute(){} // RVA: 0x487C770
@@ -1016,16 +1071,11 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class ProcessAnimationJobStruct`1 : ValueType
     {
+        public object jobReflectionData;
+
         // ── Methods ──
         public void GetJobReflectionData(){} // RVA: 0x487C3B0
         public void Execute(){} // RVA: 0x487C640
-    }
-
-    public class ProcessAnimationJobStruct`1 : ValueType
-    {
-        // ── Methods ──
-        public void GetJobReflectionData(){} // RVA: 0x87C0D0
-        public void Execute(){} // RVA: 0x89D2D0
     }
 
     public class RotationConstraint : Behaviour
@@ -1168,6 +1218,10 @@ namespace ThirdParty.Unity.UnityEngine.Animations
 
     public class TransformStreamHandle : ValueType
     {
+        public object m_AnimatorBindingsVersion;
+        public object handleIndex;
+        public object skeletonIndex;
+
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x95B360
         public void get_createdByNative(){} // RVA: 0x95B3A0

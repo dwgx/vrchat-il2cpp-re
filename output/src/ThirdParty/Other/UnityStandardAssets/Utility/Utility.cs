@@ -7,6 +7,13 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 {
     public class ActivateTrigger : MonoBehaviour
     {
+        public object action;
+        public object target;
+        public object source;
+        public object triggerCount;
+        public object repeatTrigger;
+        public object Instantiate;
+
         // ── Methods ──
         public void DoActivateTrigger(){} // RVA: 0xB440E0
         public void OnTriggerEnter(){} // RVA: 0xB44850
@@ -15,6 +22,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class AutoMobileShaderSwitch : MonoBehaviour
     {
+        public object m_ReplacementList;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB43310
         public void .ctor(){} // RVA: 0xB43D60
@@ -22,6 +31,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class CameraRefocus : Object
     {
+        public object Camera;
+        public object Lookatpoint;
+        public object Parent;
+        public object m_OrigCameraPos;
+        public object m_Refocus;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44CA0
         public void ChangeCamera(){} // RVA: 0xB44D60
@@ -32,6 +47,16 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class CurveControlledBob : Object
     {
+        public object HorizontalBobRange;
+        public object VerticalBobRange;
+        public object Bobcurve;
+        public object VerticaltoHorizontalRatio;
+        public object m_CyclePositionX;
+        public object m_CyclePositionY;
+        public object m_BobBaseInterval;
+        public object m_OriginalCameraPosition;
+        public object m_Time;
+
         // ── Methods ──
         public void Setup(){} // RVA: 0xB45140
         public void DoHeadBob(){} // RVA: 0xB45330
@@ -40,6 +65,14 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class DragRigidbody : MonoBehaviour
     {
+        public object k_Spring;
+        public object k_Damper;
+        public object k_Drag;
+        public object k_AngularDrag;
+        public object k_Distance;
+        public object k_AttachToCenterOfMass;
+        public object m_SpringJoint;
+
         // ── Methods ──
         public void Update(){} // RVA: 0xB457A0
         public void DragObject(){} // RVA: 0xB45ED0
@@ -49,6 +82,18 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class DynamicShadowSettings : MonoBehaviour
     {
+        public object sunLight;
+        public object minHeight;
+        public object minShadowDistance;
+        public object minShadowBias;
+        public object maxHeight;
+        public object maxShadowDistance;
+        public object maxShadowBias;
+        public object adaptTime;
+        public object m_SmoothHeight;
+        public object m_ChangeSpeed;
+        public object m_OriginalStrength;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB46600
         public void Update(){} // RVA: 0xB466B0
@@ -57,6 +102,13 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FOVKick : Object
     {
+        public object Camera;
+        public object originalFov;
+        public object FOVIncrease;
+        public object TimeToIncrease;
+        public object TimeToDecrease;
+        public object IncreaseCurve;
+
         // ── Methods ──
         public void Setup(){} // RVA: 0xB46F30
         public void CheckStatus(){} // RVA: 0xB47180
@@ -68,6 +120,13 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FPSCounter : MonoBehaviour
     {
+        public object fpsMeasurePeriod;
+        public object m_FpsAccumulator;
+        public object m_FpsNextPeriod;
+        public object m_CurrentFps;
+        public object display;
+        public object m_Text;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB47940
         public void Update(){} // RVA: 0xB47A10
@@ -76,6 +135,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class FollowTarget : MonoBehaviour
     {
+        public object target;
+        public object offset;
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0xB46C70
         public void .ctor(){} // RVA: 0xB46ED0
@@ -83,6 +145,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class LerpControlledBob : Object
     {
+        public object BobDuration;
+        public object BobAmount;
+        public object m_Offset;
+
         // ── Methods ──
         public void Offset(){} // RVA: 0xB47B50
         public void DoBobCycle(){} // RVA: 0xB47B60
@@ -91,6 +157,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class ObjectResetter : MonoBehaviour
     {
+        public object originalPosition;
+        public object originalRotation;
+        public object originalStructure;
+        public object Rigidbody;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB47F00
         public void DelayedReset(){} // RVA: 0xB481E0
@@ -100,6 +171,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class ParticleSystemDestroyer : MonoBehaviour
     {
+        public object minDuration;
+        public object maxDuration;
+        public object m_MaxLifetime;
+        public object m_EarlyStop;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB48AB0
         public void Stop(){} // RVA: 0xB48B50
@@ -108,6 +184,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class PlatformSpecificContent : MonoBehaviour
     {
+        public object m_BuildTargetGroup;
+        public object m_Content;
+        public object m_MonoBehaviours;
+        public object m_ChildrenOfThisObject;
+
         // ── Methods ──
         public void OnEnable(){} // RVA: 0xB49390
         public void CheckEnableContent(){} // RVA: 0xB49390
@@ -117,6 +198,17 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SimpleMouseRotator : MonoBehaviour
     {
+        public object rotationRange;
+        public object rotationSpeed;
+        public object dampingTime;
+        public object autoZeroVerticalOnMobile;
+        public object autoZeroHorizontalOnMobile;
+        public object relative;
+        public object m_TargetAngles;
+        public object m_FollowAngles;
+        public object m_FollowVelocity;
+        public object m_OriginalRotation;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB49B10
         public void Update(){} // RVA: 0xB49BE0
@@ -125,6 +217,12 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class SmoothFollow : MonoBehaviour
     {
+        public object target;
+        public object distance;
+        public object height;
+        public object rotationDamping;
+        public object heightDamping;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB43310
         public void LateUpdate(){} // RVA: 0xB4A480
@@ -133,6 +231,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class TimedObjectActivator : MonoBehaviour
     {
+        public object entries;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB4AF50
         public void Activate(){} // RVA: 0xB4B090
@@ -143,6 +243,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class TimedObjectDestructor : MonoBehaviour
     {
+        public object m_TimeOut;
+        public object m_DetachChildren;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB4B720
         public void DestroyNow(){} // RVA: 0xB4B770
@@ -151,6 +254,23 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointCircuit : MonoBehaviour
     {
+        public object waypointList;
+        public object smoothRoute;
+        public object numPoints;
+        public object points;
+        public object distances;
+        public object editorVisualisationSubsteps;
+        public object _length;
+        public object p0n;
+        public object p1n;
+        public object p2n;
+        public object p3n;
+        public object i;
+        public object P0;
+        public object P1;
+        public object P2;
+        public object P3;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0xB4B880
         public void set_Length(){} // RVA: 0xB4B890
@@ -168,6 +288,22 @@ namespace ThirdParty.Other.UnityStandardAssets.Utility
 
     public class WaypointProgressTracker : MonoBehaviour
     {
+        public object circuit;
+        public object lookAheadForTargetOffset;
+        public object lookAheadForTargetFactor;
+        public object lookAheadForSpeedOffset;
+        public object lookAheadForSpeedFactor;
+        public object progressStyle;
+        public object pointToPointThreshold;
+        public object _targetPoint;
+        public object _speedPoint;
+        public object _progressPoint;
+        public object target;
+        public object progressDistance;
+        public object progressNum;
+        public object lastPosition;
+        public object speed;
+
         // ── Methods ──
         public void get_targetPoint(){} // RVA: 0xB4CDC0
         public void set_targetPoint(){} // RVA: 0xB4CDE0

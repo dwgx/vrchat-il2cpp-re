@@ -7,6 +7,9 @@ namespace VRC.Core
 {
     public class PagedApiCalendarResult : ApiModel
     {
+        public object _results;
+        public object _nextCursor;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -17,6 +20,9 @@ namespace VRC.Core
 
     public class PagedApiGroupResult : ApiModel
     {
+        public object _results;
+        public object _nextCursor;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -27,6 +33,16 @@ namespace VRC.Core
 
     public class PipelineManager : MonoBehaviour
     {
+        public object BlueprintIdPrefixMap;
+        public object launchedFromSDKPipeline;
+        public object completedSDKPipeline;
+        public object blueprintId;
+        public object user;
+        public object contentType;
+        public object assetBundleUnityVersion;
+        public object fallbackStatus;
+        public object owned;
+
         // ── Methods ──
         public void IsMyContent(){} // RVA: 0xA0C49F0
         public void AssignId(){} // RVA: 0xA0C4CC0
@@ -40,6 +56,10 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
+        public object data;
+        public object concatBuffer;
+        public object reverseComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x487A190
         public void get_Data(){} // RVA: 0xB5DBF0
@@ -60,6 +80,10 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
+        public object data;
+        public object concatBuffer;
+        public object reverseComparer;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0x87C0A0
         public void get_Count(){} // RVA: 0x87C130
@@ -80,6 +104,10 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
+        public object data;
+        public object concatBuffer;
+        public object reverseComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48779C0
         public void get_Data(){} // RVA: 0xB5DBF0
@@ -100,6 +128,10 @@ namespace VRC.Core
 
     public class PriorityQueue`1 : Object
     {
+        public object data;
+        public object concatBuffer;
+        public object reverseComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x487A190
         public void get_Data(){} // RVA: 0xB5DBF0

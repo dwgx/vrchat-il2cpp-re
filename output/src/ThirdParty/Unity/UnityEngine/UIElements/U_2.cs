@@ -7,6 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class UITKTextHandle : TextHandle
     {
+        public object m_ATGTextEventHandler;
+        public object m_Links;
+        public object atgHyperlinkColor;
+        public object s_TextLib;
+        public object _measuredSizes;
+        public object _roundedSizes;
+        public object _aTGMeasuredSizes;
+        public object _aTGRoundedSizes;
+        public object m_TextEventHandler;
+        public object m_TextElement;
+        public object k_MinPadding;
+        public object wasAdvancedTextEnabledForElement;
+
         // ── Methods ──
         public void get_Links(){} // RVA: 0x7EEF200
         public void ComputeNativeTextSize(){} // RVA: 0x7EEF2D0
@@ -49,6 +62,22 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UITKTextJobSystem : Object
     {
+        public object k_ExecuteMarker;
+        public object k_UpdateMainThreadMarker;
+        public object k_PrepareMainThreadMarker;
+        public object k_PrepareJobifiedMarker;
+        public object textJobDatasHandle;
+        public object textJobDatas;
+        public object hasPendingTextWork;
+        public object s_JobDataPool;
+        public object s_MaterialsPool;
+        public object s_RenderModesPool;
+        public object s_VerticesPool;
+        public object s_IndicesPool;
+        public object m_PrepareTextJobifiedCallback;
+        public object m_GenerateTextJobifiedCallback;
+        public object m_AddDrawEntriesCallback;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EFBC20
         public void OnGetManagedJob(){} // RVA: 0x7EFBE80
@@ -62,6 +91,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryExtensions : Object
     {
+        public object SingleElementEmptyQuery;
+        public object SingleElementNameQuery;
+        public object SingleElementClassQuery;
+        public object SingleElementNameAndClassQuery;
+        public object SingleElementTypeQuery;
+        public object SingleElementTypeAndNameQuery;
+        public object SingleElementTypeAndClassQuery;
+        public object SingleElementTypeAndNameAndClassQuery;
+
         // ── Methods ──
         public void Q(){} // RVA: 0x7F153D0
         public void Query(){} // RVA: 0xA94080
@@ -78,6 +116,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAttributeDescription : Object
     {
+        public object _name;
+        public object m_ObsoleteNames;
+        public object _type;
+        public object _typeNamespace;
+        public object _use;
+        public object _restriction;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4FADD60
         public void get_name(){} // RVA: 0xB5DBF0
@@ -106,6 +151,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAttributeOverridesTraits : UxmlTraits
     {
+        public object m_ElementName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F17900
     }
@@ -128,6 +175,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlElementAttribute : Attribute
     {
+        public object name;
+        public object visibility;
+        public object supportedChildTypes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F1CF30
     }
@@ -145,6 +196,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlEnumeration : UxmlTypeRestriction
     {
+        public object m_Values;
+
         // ── Methods ──
         public void get_values(){} // RVA: 0x3E42230
         public void set_values(){} // RVA: 0x7F1EE00
@@ -210,6 +263,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlImageAttributeDescription : UxmlAttributeDescription
     {
+        public object m_AssetType;
+        public object _defaultValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F1CFF0
         public void set_defaultValue(){} // RVA: 0x7F1D1A0
@@ -235,6 +291,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectAsset : UxmlAsset
     {
+        public object m_IsField;
+
         // ── Methods ──
         public void get_isField(){} // RVA: 0xBFDA40
         public void .ctor(){} // RVA: 0x7F1DF10
@@ -249,6 +307,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectAttributeDescription`1 : Object
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void get_defaultValue(){} // RVA: 0xA94080
         public void GetValueFromBag(){} // RVA: 0xA94080
@@ -257,6 +317,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectAttributeDescription`1 : Object
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void get_defaultValue(){} // RVA: 0xB5DBF0
         public void GetValueFromBag(){} // RVA: 0x50F17D0
@@ -265,6 +327,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlObjectFactoryRegistry : Object
     {
+        public object s_Factories;
+
         // ── Methods ──
         public void get_factories(){} // RVA: 0x7F1E180
         public void RegisterFactory(){} // RVA: 0x7F1E2A0
@@ -290,12 +354,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlRootElementTraits : UxmlTraits
     {
+        public object m_Name;
+        public object m_Class;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F16DA0
     }
 
     public class UxmlSerializedData : Object
     {
+        public object AttributeFlagSuffix;
+        public object k_DefaultFlags;
+        public object uxmlAssetId;
+        public object s_CurrentDeserializeFlags;
+
         // ── Methods ──
         public void CreateInstance(){} // RVA: 0x87C0A0
         public void Deserialize(){} // RVA: 0x894320
@@ -322,6 +394,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlStyleTraits : UxmlTraits
     {
+        public object m_Name;
+        public object m_Path;
+        public object m_Src;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F170D0
     }
@@ -337,6 +413,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlTemplateTraits : UxmlTraits
     {
+        public object m_Name;
+        public object m_Path;
+        public object m_Src;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F174E0
     }

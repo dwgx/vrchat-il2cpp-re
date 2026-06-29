@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class FABRIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -18,6 +20,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKChain : Object
     {
+        public object ik;
+        public object pull;
+        public object pin;
+        public object children;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xC1AA00
         public void Initiate(){} // RVA: 0xC1AB90
@@ -49,6 +56,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FABRIKRoot : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -60,6 +69,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKArmBending : MonoBehaviour
     {
+        public object ik;
+        public object bendDirectionOffsetLeft;
+        public object bendDirectionOffsetRight;
+        public object characterSpaceBendOffsetLeft;
+        public object characterSpaceBendOffsetRight;
+        public object leftHandTargetRotation;
+        public object rightHandTargetRotation;
+        public object initiated;
+        public object OnPostArmBend;
+
         // ── Methods ──
         public void LateUpdate(){} // RVA: 0xC1B450
         public void OnPostFBBIK(){} // RVA: 0xC1BFC0
@@ -69,6 +88,54 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBBIKHeadEffector : MonoBehaviour
     {
+        public object ik;
+        public object positionWeight;
+        public object bodyWeight;
+        public object thighWeight;
+        public object handsPullBody;
+        public object rotationWeight;
+        public object bodyClampWeight;
+        public object headClampWeight;
+        public object bendWeight;
+        public object bendBones;
+        public object CCDWeight;
+        public object roll;
+        public object damper;
+        public object CCDBones;
+        public object postStretchWeight;
+        public object maxStretch;
+        public object stretchDamper;
+        public object fixHead;
+        public object stretchBones;
+        public object chestDirection;
+        public object chestDirectionWeight;
+        public object chestBones;
+        public object OnPostHeadEffectorFK;
+        public object offset;
+        public object headToBody;
+        public object shoulderCenterToHead;
+        public object headToLeftThigh;
+        public object headToRightThigh;
+        public object leftShoulderPos;
+        public object rightShoulderPos;
+        public object shoulderDist;
+        public object leftShoulderDist;
+        public object rightShoulderDist;
+        public object chestRotation;
+        public object headRotationRelativeToRoot;
+        public object ccdDefaultLocalRotations;
+        public object headLocalPosition;
+        public object headLocalRotation;
+        public object stretchLocalPositions;
+        public object stretchLocalRotations;
+        public object chestLocalPositions;
+        public object chestLocalRotations;
+        public object bendBonesCount;
+        public object ccdBonesCount;
+        public object stretchBonesCount;
+        public object chestBonesCount;
+        public object _isVRCAvatarMainIK;
+
         // ── Methods ──
         public void VRCInitialize(){} // RVA: 0xC1C790
         public void VRCSetAvatarMainIK(){} // RVA: 0xC1C7A0
@@ -91,6 +158,30 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FBIKChain : Object
     {
+        public object pin;
+        public object pull;
+        public object push;
+        public object pushParent;
+        public object reach;
+        public object reachSmoothing;
+        public object pushSmoothing;
+        public object nodes;
+        public object children;
+        public object childConstraints;
+        public object bendConstraint;
+        public object rootLength;
+        public object initiated;
+        public object length;
+        public object distance;
+        public object p;
+        public object reachForce;
+        public object pullParentSum;
+        public object crossFades;
+        public object sqrMag1;
+        public object sqrMag2;
+        public object sqrMagDif;
+        public object maxLimbLength;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC23540
         public void SetNodes(){} // RVA: 0xC23830
@@ -135,6 +226,24 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Finger : Object
     {
+        public object weight;
+        public object rotationWeight;
+        public object rotationDOF;
+        public object fixBone1Twist;
+        public object bone1;
+        public object bone2;
+        public object bone3;
+        public object tip;
+        public object target;
+        public object _initiated;
+        public object solver;
+        public object bone3RelativeToTarget;
+        public object bone3DefaultLocalPosition;
+        public object bone3DefaultLocalRotation;
+        public object bone1Axis;
+        public object tipAxis;
+        public object bone1TwistAxis;
+
         // ── Methods ──
         public void get_initiated(){} // RVA: 0xBFDA40
         public void set_initiated(){} // RVA: 0xBFDA50
@@ -152,6 +261,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FingerRig : SolverManager
     {
+        public object weight;
+        public object fingers;
+        public object _initiated;
+
         // ── Methods ──
         public void get_initiated(){} // RVA: 0xC00EC0
         public void set_initiated(){} // RVA: 0xC00ED0
@@ -191,6 +304,10 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class FullBodyBipedIK : IK
     {
+        public object _isVRCAvatarMainIK;
+        public object references;
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310

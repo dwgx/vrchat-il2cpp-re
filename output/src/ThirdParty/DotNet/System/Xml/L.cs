@@ -7,9 +7,12 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class LineInfo : ValueType
     {
+        public object lineNo;
+        public object linePos;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7615330
-        public void Set(){} // RVA: 0x7A7615330
+        public void .ctor(){} // RVA: 0x2B100
+        public void Set(){} // RVA: 0x2B100
     }
 
 }

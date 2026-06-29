@@ -75,6 +75,9 @@ public class YProperty : Property`2
 
 public class YProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -85,6 +88,9 @@ public class YProperty : Property`2
 
 public class YProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -95,6 +101,9 @@ public class YProperty : Property`2
 
 public class YProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -105,6 +114,9 @@ public class YProperty : Property`2
 
 public class YProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -115,6 +127,9 @@ public class YProperty : Property`2
 
 public class YieldAwaiter : ValueType
 {
+    public object s_waitCallbackRunAction;
+    public object s_sendOrPostCallbackRunAction;
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x20C460
     public void OnCompleted(){} // RVA: 0x8AF7A0
@@ -127,6 +142,13 @@ public class YieldAwaiter : ValueType
 
 public class YieldPromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object core;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x7751A20

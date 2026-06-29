@@ -7,239 +7,274 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security
 {
     public class AgreementUtilities : Object
     {
+        public object algorithms;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1790440
-        public void GetBasicAgreement(){} // RVA: 0x7B1790810
-        public void GetBasicAgreementWithKdf(){} // RVA: 0x7B1790BC0
-        public void GetRawAgreement(){} // RVA: 0x7B1791170
-        public void GetAlgorithmName(){} // RVA: 0x7B1791310
-        public void GetMechanism(){} // RVA: 0x7B17913E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA5FC680
+        public void GetBasicAgreement(){} // RVA: 0xA5FCA50
+        public void GetBasicAgreementWithKdf(){} // RVA: 0xA5FCE00
+        public void GetRawAgreement(){} // RVA: 0xA5FD3B0
+        public void GetAlgorithmName(){} // RVA: 0xA5FD550
+        public void GetMechanism(){} // RVA: 0xA5FD610
     }
 
     public class CipherUtilities : Object
     {
+        public object algorithms;
+        public object oids;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7B17914D0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void GetObjectIdentifier(){} // RVA: 0x7B1793320
-        public void get_Algorithms(){} // RVA: 0x7B1793520
-        public void GetCipher(){} // RVA: 0x7B1793600
-        public void GetAlgorithmName(){} // RVA: 0x7B1795AC0
-        public void GetDigitIndex(){} // RVA: 0x7B1795B90
-        public void CreateBlockCipher(){} // RVA: 0x7B1795C50
+        public void .cctor(){} // RVA: 0xA5FD6F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void GetObjectIdentifier(){} // RVA: 0xA5FF4D0
+        public void get_Algorithms(){} // RVA: 0xA5FF6C0
+        public void GetCipher(){} // RVA: 0xA5FF7A0
+        public void GetAlgorithmName(){} // RVA: 0xA601C50
+        public void GetDigitIndex(){} // RVA: 0xA601D10
+        public void CreateBlockCipher(){} // RVA: 0xA601DF0
     }
 
     public class DigestUtilities : Object
     {
+        public object algorithms;
+        public object oids;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1796240
-        public void GetObjectIdentifier(){} // RVA: 0x7B17983C0
-        public void get_Algorithms(){} // RVA: 0x7B17985C0
-        public void GetDigest(){} // RVA: 0x7B17986A0
-        public void GetAlgorithmName(){} // RVA: 0x7B17995E0
-        public void CalculateDigest(){} // RVA: 0x7B1799720
-        public void DoFinal(){} // RVA: 0x7B17998F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA6023E0
+        public void GetObjectIdentifier(){} // RVA: 0xA604530
+        public void get_Algorithms(){} // RVA: 0xA604720
+        public void GetDigest(){} // RVA: 0xA604800
+        public void GetAlgorithmName(){} // RVA: 0xA605700
+        public void CalculateDigest(){} // RVA: 0xA605830
+        public void DoFinal(){} // RVA: 0xA605A00
     }
 
     public class DotNetUtilities : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void ToX509Certificate(){} // RVA: 0x7B1799A90
-        public void FromX509Certificate(){} // RVA: 0x7B1799B10
-        public void GetDsaKeyPair(){} // RVA: 0x7B1799C00
-        public void GetDsaPublicKey(){} // RVA: 0x7B179A040
-        public void GetRsaKeyPair(){} // RVA: 0x7B179A3E0
-        public void GetRsaPublicKey(){} // RVA: 0x7B179A860
-        public void GetKeyPair(){} // RVA: 0x7B179A970
-        public void ToRSA(){} // RVA: 0x7B179B140
-        public void ToRSAParameters(){} // RVA: 0x7B179B8F0
-        public void ConvertRSAParametersField(){} // RVA: 0x7B179BCA0
-        public void CreateRSAProvider(){} // RVA: 0x7B179C130
+        public void .ctor(){} // RVA: 0xB43310
+        public void ToX509Certificate(){} // RVA: 0xA605BA0
+        public void FromX509Certificate(){} // RVA: 0xA605C20
+        public void GetDsaKeyPair(){} // RVA: 0xA605D10
+        public void GetDsaPublicKey(){} // RVA: 0xA606150
+        public void GetRsaKeyPair(){} // RVA: 0xA6064F0
+        public void GetRsaPublicKey(){} // RVA: 0xA606970
+        public void GetKeyPair(){} // RVA: 0xA606A80
+        public void ToRSA(){} // RVA: 0xA607250
+        public void ToRSAParameters(){} // RVA: 0xA607A00
+        public void ConvertRSAParametersField(){} // RVA: 0xA607DB0
+        public void CreateRSAProvider(){} // RVA: 0xA608240
     }
 
     public class EncryptionException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADC13C20
+        public void .ctor(){} // RVA: 0x689ED90
     }
 
     public class GeneralSecurityException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B179C340
+        public void .ctor(){} // RVA: 0xA608450
     }
 
     public class GeneratorUtilities : Object
     {
+        public object kgAlgorithms;
+        public object kpgAlgorithms;
+        public object defaultKeySizes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B179C3B0
-        public void AddDefaultKeySizeEntries(){} // RVA: 0x7B179FAB0
-        public void AddKgAlgorithm(){} // RVA: 0x7B179FC50
-        public void AddKpgAlgorithm(){} // RVA: 0x7B179FE80
-        public void AddHMacKeyGenerator(){} // RVA: 0x7B17A00B0
-        public void GetCanonicalKeyGeneratorAlgorithm(){} // RVA: 0x7B17A0390
-        public void GetCanonicalKeyPairGeneratorAlgorithm(){} // RVA: 0x7B17A0490
-        public void GetKeyGenerator(){} // RVA: 0x7B17A05F0
-        public void GetKeyPairGenerator(){} // RVA: 0x7B17A09A0
-        public void GetDefaultKeySize(){} // RVA: 0x7B17A10F0
-        public void FindDefaultKeySize(){} // RVA: 0x7B17A12F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA6084C0
+        public void AddDefaultKeySizeEntries(){} // RVA: 0xA60BBC0
+        public void AddKgAlgorithm(){} // RVA: 0xA60BD50
+        public void AddKpgAlgorithm(){} // RVA: 0xA60BF80
+        public void AddHMacKeyGenerator(){} // RVA: 0xA60C1B0
+        public void GetCanonicalKeyGeneratorAlgorithm(){} // RVA: 0xA60C490
+        public void GetCanonicalKeyPairGeneratorAlgorithm(){} // RVA: 0xA60C580
+        public void GetKeyGenerator(){} // RVA: 0xA60C6D0
+        public void GetKeyPairGenerator(){} // RVA: 0xA60CA80
+        public void GetDefaultKeySize(){} // RVA: 0xA60D1C0
+        public void FindDefaultKeySize(){} // RVA: 0xA60D3C0
     }
 
     public class InvalidKeyException : KeyException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B15335C0
+        public void .ctor(){} // RVA: 0xA39E870
     }
 
     public class InvalidParameterException : KeyException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B15335C0
+        public void .ctor(){} // RVA: 0xA39E870
     }
 
     public class KeyException : GeneralSecurityException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B15335C0
+        public void .ctor(){} // RVA: 0xA39E870
     }
 
     public class MacUtilities : Object
     {
+        public object algorithms;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B17A1410
-        public void GetMac(){} // RVA: 0x7B17A2610
-        public void GetAlgorithmName(){} // RVA: 0x7B17A3720
-        public void CalculateMac(){} // RVA: 0x7B17A37F0
-        public void DoFinal(){} // RVA: 0x7B17A39D0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA60D4D0
+        public void GetMac(){} // RVA: 0xA60E6D0
+        public void GetAlgorithmName(){} // RVA: 0xA60F7D0
+        public void CalculateMac(){} // RVA: 0xA60F890
+        public void DoFinal(){} // RVA: 0xA60FA70
     }
 
     public class NoSuchAlgorithmException : GeneralSecurityException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B15335C0
+        public void .ctor(){} // RVA: 0xA39E870
     }
 
     public class ParameterUtilities : Object
     {
+        public object algorithms;
+        public object basicIVSizes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B17A3AF0
-        public void AddAlgorithm(){} // RVA: 0x7B17A5730
-        public void AddBasicIVSizeEntries(){} // RVA: 0x7B17A5910
-        public void GetCanonicalAlgorithmName(){} // RVA: 0x7B17A5AB0
-        public void CreateKeyParameter(){} // RVA: 0x7B17A5D50
-        public void GetCipherParameters(){} // RVA: 0x7B17A6230
-        public void GenerateParameters(){} // RVA: 0x7B17A6810
-        public void WithRandom(){} // RVA: 0x7B17A7070
-        public void CreateIVOctetString(){} // RVA: 0x7B17A70F0
-        public void CreateIV(){} // RVA: 0x7B17A7260
-        public void FindBasicIVSize(){} // RVA: 0x7B17A72E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA60FB90
+        public void AddAlgorithm(){} // RVA: 0xA6117D0
+        public void AddBasicIVSizeEntries(){} // RVA: 0xA6119B0
+        public void GetCanonicalAlgorithmName(){} // RVA: 0xA611B40
+        public void CreateKeyParameter(){} // RVA: 0xA611DD0
+        public void GetCipherParameters(){} // RVA: 0xA6122B0
+        public void GenerateParameters(){} // RVA: 0xA612890
+        public void WithRandom(){} // RVA: 0xA6130F0
+        public void CreateIVOctetString(){} // RVA: 0xA613170
+        public void CreateIV(){} // RVA: 0xA6132E0
+        public void FindBasicIVSize(){} // RVA: 0xA613360
     }
 
     public class PasswordException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADC13C20
+        public void .ctor(){} // RVA: 0x689ED90
     }
 
     public class PbeUtilities : Object
     {
+        public object Pkcs5S1;
+        public object Pkcs5S2;
+        public object Pkcs12;
+        public object OpenSsl;
+        public object algorithms;
+        public object algorithmType;
+        public object oids;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B17A7400
-        public void MakePbeGenerator(){} // RVA: 0x7B17AA610
-        public void GetObjectIdentifier(){} // RVA: 0x7B17AA9E0
-        public void get_Algorithms(){} // RVA: 0x7B17AAB90
-        public void IsPkcs12(){} // RVA: 0x7B17AAC10
-        public void IsPkcs5Scheme1(){} // RVA: 0x7B17AAD90
-        public void IsPkcs5Scheme2(){} // RVA: 0x7B17AAF10
-        public void IsOpenSsl(){} // RVA: 0x7B17AB090
-        public void IsPbeAlgorithm(){} // RVA: 0x7B17AB210
-        public void GenerateAlgorithmParameters(){} // RVA: 0x7B17AB3E0
-        public void GenerateCipherParameters(){} // RVA: 0x7B17AB870
-        public void CreateEngine(){} // RVA: 0x7B17AD080
-        public void GetEncodingName(){} // RVA: 0x7B17AD5E0
-        public void FixDesParity(){} // RVA: 0x7B17AD6B0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA613470
+        public void MakePbeGenerator(){} // RVA: 0xA616680
+        public void GetObjectIdentifier(){} // RVA: 0xA616A50
+        public void get_Algorithms(){} // RVA: 0xA616BF0
+        public void IsPkcs12(){} // RVA: 0xA616C70
+        public void IsPkcs5Scheme1(){} // RVA: 0xA616DE0
+        public void IsPkcs5Scheme2(){} // RVA: 0xA616F50
+        public void IsOpenSsl(){} // RVA: 0xA6170C0
+        public void IsPbeAlgorithm(){} // RVA: 0xA617230
+        public void GenerateAlgorithmParameters(){} // RVA: 0xA6173F0
+        public void GenerateCipherParameters(){} // RVA: 0xA617880
+        public void CreateEngine(){} // RVA: 0xA619050
+        public void GetEncodingName(){} // RVA: 0xA6195A0
+        public void FixDesParity(){} // RVA: 0xA619660
     }
 
     public class PrivateKeyFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void CreateKey(){} // RVA: 0x7B17AD9A0
-        public void GetRawKey(){} // RVA: 0x7B17AF9A0
-        public void DecryptKey(){} // RVA: 0x7B17AFAF0
-        public void EncryptKey(){} // RVA: 0x7B17AFBB0
+        public void .ctor(){} // RVA: 0xB43310
+        public void CreateKey(){} // RVA: 0xA619950
+        public void GetRawKey(){} // RVA: 0xA61B950
+        public void DecryptKey(){} // RVA: 0xA61BAA0
+        public void EncryptKey(){} // RVA: 0xA61BB60
     }
 
     public class PublicKeyFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void CreateKey(){} // RVA: 0x7B17AFC90
-        public void GetRawKey(){} // RVA: 0x7B17B1BE0
-        public void IsPkcsDHParam(){} // RVA: 0x7B17B1C70
-        public void ReadPkcsDHParam(){} // RVA: 0x7B17B1DF0
+        public void .ctor(){} // RVA: 0xB43310
+        public void CreateKey(){} // RVA: 0xA61BC40
+        public void GetRawKey(){} // RVA: 0xA61DB90
+        public void IsPkcsDHParam(){} // RVA: 0xA61DC20
+        public void ReadPkcsDHParam(){} // RVA: 0xA61DDA0
     }
 
     public class SecureRandom : Random
     {
+        public object counter;
+        public object master;
+        public object generator;
+        public object DoubleScale;
+
         // ── Methods ──
-        public void NextCounterValue(){} // RVA: 0x7B17B1FD0
-        public void get_Master(){} // RVA: 0x7B17B2030
-        public void CreatePrng(){} // RVA: 0x7B17B2090
-        public void GetNextBytes(){} // RVA: 0x7B17B2270
-        public void GetInstance(){} // RVA: 0x7B17B2350
-        public void GetSeed(){} // RVA: 0x7B17B24E0
-        public void .ctor(){} // RVA: 0x7B17B26F0
-        public void GenerateSeed(){} // RVA: 0x7B17B27A0
-        public void SetSeed(){} // RVA: 0x7B17B28F0
-        public void Next(){} // RVA: 0x7B17B2A60
-        public void NextBytes(){} // RVA: 0x7B17B2BA0
-        public void NextDouble(){} // RVA: 0x7B17B2C30
-        public void NextInt(){} // RVA: 0x7B17B2D00
-        public void NextLong(){} // RVA: 0x7B17B2DB0
-        public void .cctor(){} // RVA: 0x7B17B2E00
+        public void NextCounterValue(){} // RVA: 0xA61DF80
+        public void get_Master(){} // RVA: 0xA61DFE0
+        public void CreatePrng(){} // RVA: 0xA61E040
+        public void GetNextBytes(){} // RVA: 0xA61E220
+        public void GetInstance(){} // RVA: 0xA61E300
+        public void GetSeed(){} // RVA: 0xA61E490
+        public void .ctor(){} // RVA: 0xA61E6A0
+        public void GenerateSeed(){} // RVA: 0xA61E750
+        public void SetSeed(){} // RVA: 0xA61E8A0
+        public void Next(){} // RVA: 0xA61EA10
+        public void NextBytes(){} // RVA: 0xA61EB50
+        public void NextDouble(){} // RVA: 0xA61EBE0
+        public void NextInt(){} // RVA: 0xA61ECB0
+        public void NextLong(){} // RVA: 0xA61ED60
+        public void .cctor(){} // RVA: 0xA61EDB0
     }
 
     public class SecurityUtilityException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B17B3090
+        public void .ctor(){} // RVA: 0xA61F040
     }
 
     public class SignatureException : GeneralSecurityException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B15335C0
+        public void .ctor(){} // RVA: 0xA39E870
     }
 
     public class SignerUtilities : Object
     {
+        public object algorithms;
+        public object oids;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B17B3100
-        public void GetObjectIdentifier(){} // RVA: 0x7B17B9700
-        public void get_Algorithms(){} // RVA: 0x7B17B9900
-        public void GetDefaultX509Parameters(){} // RVA: 0x7B17B99E0
-        public void GetPssX509Parameters(){} // RVA: 0x7B17B9C90
-        public void GetSigner(){} // RVA: 0x7B17B9F00
-        public void GetEncodingName(){} // RVA: 0x7B17BB9F0
-        public void InitSigner(){} // RVA: 0x7B17BBB60
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA61F0B0
+        public void GetObjectIdentifier(){} // RVA: 0xA6256B0
+        public void get_Algorithms(){} // RVA: 0xA6258A0
+        public void GetDefaultX509Parameters(){} // RVA: 0xA625980
+        public void GetPssX509Parameters(){} // RVA: 0xA625C10
+        public void GetSigner(){} // RVA: 0xA625E80
+        public void GetEncodingName(){} // RVA: 0xA627960
+        public void InitSigner(){} // RVA: 0xA627AC0
     }
 
     public class WrapperUtilities : Object
     {
+        public object algorithms;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B17BBC90
-        public void GetWrapper(){} // RVA: 0x7B17BC360
-        public void GetAlgorithmName(){} // RVA: 0x7B17BCB30
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA627BF0
+        public void GetWrapper(){} // RVA: 0xA628290
+        public void GetAlgorithmName(){} // RVA: 0xA628A20
     }
 
 }

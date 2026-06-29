@@ -7,6 +7,14 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class PrefabModification : Object
     {
+        public object ModificationType;
+        public object Path;
+        public object ReferencePaths;
+        public object ModifiedValue;
+        public object NewLength;
+        public object DictionaryKeysAdded;
+        public object DictionaryKeysRemoved;
+
         // ── Methods ──
         public void Apply(){} // RVA: 0x84A6D70
         public void ApplyValue(){} // RVA: 0x84A6E30
@@ -22,6 +30,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class PreviouslySerializedAsAttribute : Attribute
     {
+        public object _name;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
         public void set_Name(){} // RVA: 0xB44D60
@@ -39,6 +49,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class ProperBitConverter : Object
     {
+        public object ByteToHexCharLookupLowerCase;
+        public object ByteToHexCharLookupUpperCase;
+        public object HexToByteLookup;
+
         // ── Methods ──
         public void CreateByteToHexLookup(){} // RVA: 0x84AB420
         public void BytesToHexString(){} // RVA: 0x84AB780

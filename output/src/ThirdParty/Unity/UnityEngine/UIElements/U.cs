@@ -7,6 +7,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class UIDocument : MonoBehaviour
     {
+        public object k_RootStyleClassName;
+        public object k_VisualElementNameSuffix;
+        public object k_DefaultSortingOrder;
+        public object s_CurrentUIDocumentCounter;
+        public object m_UIDocumentCreationIndex;
+        public object m_PanelSettings;
+        public object m_PreviousPanelSettings;
+        public object m_ParentUI;
+        public object m_ChildrenContent;
+        public object m_ChildrenContentCopy;
+        public object sourceAsset;
+        public object m_RootVisualElement;
+        public object m_RuntimePanel;
+        public object m_FirstChildInsertIndex;
+        public object m_SortingOrder;
+        public object m_WorldSpaceSizeMode;
+        public object m_WorldSpaceWidth;
+        public object m_WorldSpaceHeight;
+        public object m_RootHasWorldTransform;
+
         // ── Methods ──
         public void get_panelSettings(){} // RVA: 0x7C246A0
         public void set_panelSettings(){} // RVA: 0x8075E60
@@ -53,6 +73,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIDocumentList : Object
     {
+        public object m_AttachedUIDocuments;
+
         // ── Methods ──
         public void RemoveFromListAndFromVisualTree(){} // RVA: 0x8075940
         public void AddToListAndToVisualTree(){} // RVA: 0x80759B0
@@ -115,6 +137,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsRuntimeUtility : Object
     {
+        public object onCreatePanel;
+        public object s_RegisteredPlayerloopCallback;
+        public object s_SortedRuntimePanels;
+        public object s_PanelOrderingDirty;
+        public object s_ResolvedSortingIndexMax;
+        public object s_RepaintProfilerMarkerName;
+        public object s_RepaintProfilerMarker;
+        public object currentOverlayIndex;
+        public object _activeEventSystem;
+        public object s_DefaultEventSystem;
+        public object s_PotentiallyEmptyPanelSettings;
+
         // ── Methods ──
         public void add_onCreatePanel(){} // RVA: 0x7F0BE20
         public void remove_onCreatePanel(){} // RVA: 0x7F0BF80
@@ -156,6 +190,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsRuntimeUtilityNative : Object
     {
+        public object UpdatePanelsCallback;
+        public object RepaintPanelsCallback;
+        public object RenderOffscreenPanelsCallback;
+
         // ── Methods ──
         public void UpdatePanels(){} // RVA: 0x80845E0
         public void RepaintPanels(){} // RVA: 0x8084640
@@ -187,6 +225,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIElementsUtility : Object
     {
+        public object s_ContainerStack;
+        public object s_UIElementsCache;
+        public object s_EventInstance;
+        public object editorPlayModeTintColor;
+        public object singleLineHeight;
+        public object s_EnableOSXContextualMenuEventsOnNonOSXPlatforms;
+        public object s_Instance;
+        public object s_PanelsIterationList;
+        public object s_RepaintProfilerMarkerName;
+        public object s_EventProfilerMarkerName;
+        public object s_RepaintProfilerMarker;
+        public object s_EventProfilerMarker;
+        public object s_Modifiers;
+
         // ── Methods ──
         public void get_isOSXContextualMenuPlatform(){} // RVA: 0x7F11B20
         public void .ctor(){} // RVA: 0x7F11BF0
@@ -212,6 +264,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIEventRegistration : Object
     {
+        public object s_Utilities;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F10330
         public void RegisterUIElementSystem(){} // RVA: 0x7F10CD0
@@ -236,6 +290,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRAtlasAllocator : Object
     {
+        public object _maxAtlasSize;
+        public object _maxImageWidth;
+        public object _maxImageHeight;
+        public object _virtualWidth;
+        public object _virtualHeight;
+        public object _physicalWidth;
+        public object _physicalHeight;
+        public object m_FirstUnpartitionedArea;
+        public object m_OpenRows;
+        public object m_1SidePadding;
+        public object m_2SidePadding;
+        public object s_MarkerTryAllocate;
+        public object _disposed;
+
         // ── Methods ──
         public void get_maxAtlasSize(){} // RVA: 0xB8F8F0
         public void get_maxImageWidth(){} // RVA: 0x116A650
@@ -261,6 +329,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRLayoutUpdater : BaseVisualTreeUpdater
     {
+        public object s_Description;
+        public object s_ProfilerMarker;
+        public object k_ComputeLayoutMarker;
+        public object k_UpdateSubTreeMarker;
+        public object k_DispatchChangeEventsMarker;
+        public object changeEventsList;
+        public object missedHierarchyChangeEventsList;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x80A6D10
         public void OnVersionChanged(){} // RVA: 0x80A6D70
@@ -275,6 +351,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRRepaintUpdater : BaseVisualTreeUpdater
     {
+        public object attachedPanel;
+        public object renderChain;
+        public object s_Description;
+        public object s_ProfilerMarker;
+        public object m_ForceGammaRendering;
+        public object m_VertexBudget;
+        public object _drawStats;
+        public object _breakBatches;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80ABCE0
         public void get_profilerMarker(){} // RVA: 0x80ABD60
@@ -308,6 +394,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRUtility : Object
     {
+        public object k_ComputeTransformMatrixMarker;
+        public object k_DefaultShaderName;
+        public object k_DefaultWorldSpaceShaderName;
+        public object s_ThreadIndex;
+
         // ── Methods ──
         public void ShapeWindingIsClockwise(){} // RVA: 0x80AF020
         public void GetVerticesTransformInfo(){} // RVA: 0x80AF0A0
@@ -324,6 +415,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UIRenderer : Renderer
     {
+        public object commandLists;
+        public object skipRendering;
+
         // ── Methods ──
         public void SetNativeData(){} // RVA: 0x8083BF0
         public void OnRenderNodeExecute(){} // RVA: 0x8083CF0
@@ -353,6 +447,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryBuilder`1 : ValueType
     {
+        public object m_StyleSelectors;
+        public object m_Parts;
+        public object m_Element;
+        public object m_Matchers;
+        public object m_Relationship;
+        public object pseudoStatesMask;
+        public object negatedPseudoStatesMask;
+
         // ── Methods ──
         public void get_styleSelectors(){} // RVA: 0x87C0A0
         public void get_parts(){} // RVA: 0x87C0A0
@@ -379,6 +481,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryBuilder`1 : ValueType
     {
+        public object m_StyleSelectors;
+        public object m_Parts;
+        public object m_Element;
+        public object m_Matchers;
+        public object m_Relationship;
+        public object pseudoStatesMask;
+        public object negatedPseudoStatesMask;
+
         // ── Methods ──
         public void get_styleSelectors(){} // RVA: 0x546AF0
         public void get_parts(){} // RVA: 0x546B00
@@ -405,6 +515,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryState`1 : ValueType
     {
+        public object s_Action;
+        public object m_Element;
+        public object m_Matchers;
+        public object s_List;
+        public object s_EnumerationList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void RebuildOn(){} // RVA: 0xA94080
@@ -422,6 +538,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UQueryState`1 : ValueType
     {
+        public object s_Action;
+        public object m_Element;
+        public object m_Matchers;
+        public object s_List;
+        public object s_EnumerationList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3201C0
         public void ToList(){} // RVA: 0x5474F0
@@ -430,6 +552,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UnsafeMeshGenerationNode : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void GetManaged(){} // RVA: 0x9A9CD0
         public void Create(){} // RVA: 0x80A98A0
@@ -441,6 +565,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UnsignedIntegerField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_integerInput(){} // RVA: 0x803AB30
         public void ValueToString(){} // RVA: 0x803ABC0
@@ -453,6 +581,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UnsignedLongField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_unsignedLongInput(){} // RVA: 0x803BE00
         public void ValueToString(){} // RVA: 0x803BE90
@@ -465,6 +597,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlAsset : Object
     {
+        public object NullNodeType;
+        public object m_FullTypeName;
+        public object m_XmlNamespace;
+        public object m_Id;
+        public object m_OrderInDocument;
+        public object m_ParentId;
+        public object m_NamespaceDefinitions;
+        public object m_Properties;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4F36130
         public void get_fullTypeName(){} // RVA: 0xB5DBF0
@@ -858,6 +999,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class UxmlNamespaceDefinition : ValueType
     {
+        public object _empty;
+        public object prefix;
+        public object resolvedNamespace;
+
         // ── Methods ──
         public void op_Equality(){} // RVA: 0x7F1D410
         public void Equals(){} // RVA: 0x99AB80

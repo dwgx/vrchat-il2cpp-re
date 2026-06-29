@@ -7,557 +7,812 @@ namespace ThirdParty.DotNet.System.IO.Compression
 {
     public class CheckSumAndSizeWriteStream : Stream
     {
+        public object _baseStream;
+        public object _baseBaseStream;
+        public object _position;
+        public object _checksum;
+        public object _leaveOpenOnClose;
+        public object _canWrite;
+        public object _isDisposed;
+        public object _everWritten;
+        public object _initialPosition;
+        public object _zipArchiveEntry;
+        public object _onClose;
+        public object _saveCrcAndSizes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5E5830
-        public void get_Length(){} // RVA: 0x7AE5E5A50
-        public void get_Position(){} // RVA: 0x7AE5E5AB0
-        public void set_Position(){} // RVA: 0x7AE5E5AD0
-        public void get_CanRead(){} // RVA: 0x7A80D7320
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7A9A933F0
-        public void ThrowIfDisposed(){} // RVA: 0x7AE5E5B30
-        public void Read(){} // RVA: 0x7AE5E5BC0
-        public void Seek(){} // RVA: 0x7AE5E5C20
-        public void SetLength(){} // RVA: 0x7AE5E5C80
-        public void Write(){} // RVA: 0x7AE5E5CE0
-        public void Flush(){} // RVA: 0x7AE5E5F90
-        public void Dispose(){} // RVA: 0x7AE5E5FD0
+        public void .ctor(){} // RVA: 0x725C740
+        public void get_Length(){} // RVA: 0x725C960
+        public void get_Position(){} // RVA: 0x725C9C0
+        public void set_Position(){} // RVA: 0x725C9E0
+        public void get_CanRead(){} // RVA: 0xB43320
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0x2540270
+        public void ThrowIfDisposed(){} // RVA: 0x725CA40
+        public void Read(){} // RVA: 0x725CAD0
+        public void Seek(){} // RVA: 0x725CB30
+        public void SetLength(){} // RVA: 0x725CB90
+        public void Write(){} // RVA: 0x725CBF0
+        public void Flush(){} // RVA: 0x725CEA0
+        public void Dispose(){} // RVA: 0x725CEE0
     }
 
     public class CopyEncoder : Object
     {
         // ── Methods ──
-        public void GetBlock(){} // RVA: 0x7AE5D1E10
-        public void WriteLenNLen(){} // RVA: 0x7A97E8FC0
+        public void GetBlock(){} // RVA: 0x7248D20
+        public void WriteLenNLen(){} // RVA: 0x22F5910
     }
 
     public class Crc32Helper : Object
     {
+        public object s_crcTable_0;
+        public object s_crcTable_1;
+        public object s_crcTable_2;
+        public object s_crcTable_3;
+        public object s_crcTable_4;
+        public object s_crcTable_5;
+        public object s_crcTable_6;
+        public object s_crcTable_7;
+
         // ── Methods ──
-        public void UpdateCrc32(){} // RVA: 0x7AE5E69D0
-        public void ManagedCrc32(){} // RVA: 0x7AE5E6A60
-        public void .cctor(){} // RVA: 0x7AE5E6E20
+        public void UpdateCrc32(){} // RVA: 0x725D8E0
+        public void ManagedCrc32(){} // RVA: 0x725D970
+        public void .cctor(){} // RVA: 0x725DD30
     }
 
     public class DeflateInput : Object
     {
+        public object _buffer;
+        public object _count;
+        public object _startIndex;
+
         // ── Methods ──
-        public void get_Buffer(){} // RVA: 0x7A80F2570
-        public void set_Buffer(){} // RVA: 0x7A80D8E20
-        public void get_Count(){} // RVA: 0x7A83782A0
-        public void set_Count(){} // RVA: 0x7A84385B0
-        public void get_StartIndex(){} // RVA: 0x7A9739200
-        public void set_StartIndex(){} // RVA: 0x7A9746990
-        public void ConsumeBytes(){} // RVA: 0x7A97E9720
-        public void DumpState(){} // RVA: 0x7A97E9700
-        public void RestoreState(){} // RVA: 0x7A97E9730
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Buffer(){} // RVA: 0xB5DBF0
+        public void set_Buffer(){} // RVA: 0xB44D60
+        public void get_Count(){} // RVA: 0xE62D00
+        public void set_Count(){} // RVA: 0x1033F40
+        public void get_StartIndex(){} // RVA: 0x2244FB0
+        public void set_StartIndex(){} // RVA: 0x22735B0
+        public void ConsumeBytes(){} // RVA: 0x22F5B90
+        public void DumpState(){} // RVA: 0x22F5BA0
+        public void RestoreState(){} // RVA: 0x22F5BC0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeflateManagedStream : Stream
     {
+        public object _stream;
+        public object _mode;
+        public object _leaveOpen;
+        public object _inflater;
+        public object _deflater;
+        public object _buffer;
+        public object _asyncOperations;
+        public object _formatWriter;
+        public object _wroteHeader;
+        public object _wroteBytes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5D20B0
-        public void InitializeInflater(){} // RVA: 0x7AE5D2210
-        public void get_CanRead(){} // RVA: 0x7A97EAC70
-        public void get_CanWrite(){} // RVA: 0x7A97EC2C0
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_Length(){} // RVA: 0x7AE5D2460
-        public void get_Position(){} // RVA: 0x7AE5D24B0
-        public void set_Position(){} // RVA: 0x7AE5D2500
-        public void Flush(){} // RVA: 0x7AE5D2550
-        public void FlushAsync(){} // RVA: 0x7AE5D2570
-        public void Seek(){} // RVA: 0x7AE5D2670
-        public void SetLength(){} // RVA: 0x7AE5D26C0
-        public void Read(){} // RVA: 0x7AE5D2710
-        public void ValidateParameters(){} // RVA: 0x7AE5D2910
-        public void EnsureNotDisposed(){} // RVA: 0x7AE5D2550
-        public void ThrowStreamClosedException(){} // RVA: 0x7AE5D2A70
-        public void EnsureDecompressionMode(){} // RVA: 0x7AE5D2AD0
-        public void ThrowCannotReadFromDeflateManagedStreamException(){} // RVA: 0x7AE5D2AF0
-        public void EnsureCompressionMode(){} // RVA: 0x7AE5D2B40
-        public void ThrowCannotWriteToDeflateManagedStreamException(){} // RVA: 0x7AE5D2B60
-        public void BeginRead(){} // RVA: 0x7AE5D2BB0
-        public void EndRead(){} // RVA: 0x7AE5D2C60
-        public void ReadAsync(){} // RVA: 0x7AE5D2CA0
-        public void ReadAsyncCore(){} // RVA: 0x7AE5D3050
-        public void Write(){} // RVA: 0x7AE5D3310
-        public void WriteDeflaterOutput(){} // RVA: 0x7AE5D34F0
-        public void DoMaintenance(){} // RVA: 0x7AE5D3580
-        public void PurgeBuffers(){} // RVA: 0x7AE5D3660
-        public void Dispose(){} // RVA: 0x7AE5D3890
-        public void WriteAsync(){} // RVA: 0x7AE5D3C00
-        public void WriteAsyncCore(){} // RVA: 0x7AE5D3D90
-        public void BeginWrite(){} // RVA: 0x7AE5D4020
-        public void EndWrite(){} // RVA: 0x7AE5D40D0
-        public void <>n__0(){} // RVA: 0x7ADC4D1F0
+        public void .ctor(){} // RVA: 0x7248FC0
+        public void InitializeInflater(){} // RVA: 0x7249120
+        public void get_CanRead(){} // RVA: 0x22F74C0
+        public void get_CanWrite(){} // RVA: 0x22F8FE0
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_Length(){} // RVA: 0x7249370
+        public void get_Position(){} // RVA: 0x72493C0
+        public void set_Position(){} // RVA: 0x7249410
+        public void Flush(){} // RVA: 0x7249460
+        public void FlushAsync(){} // RVA: 0x7249480
+        public void Seek(){} // RVA: 0x7249580
+        public void SetLength(){} // RVA: 0x72495D0
+        public void Read(){} // RVA: 0x7249620
+        public void ValidateParameters(){} // RVA: 0x7249820
+        public void EnsureNotDisposed(){} // RVA: 0x7249460
+        public void ThrowStreamClosedException(){} // RVA: 0x7249980
+        public void EnsureDecompressionMode(){} // RVA: 0x72499E0
+        public void ThrowCannotReadFromDeflateManagedStreamException(){} // RVA: 0x7249A00
+        public void EnsureCompressionMode(){} // RVA: 0x7249A50
+        public void ThrowCannotWriteToDeflateManagedStreamException(){} // RVA: 0x7249A70
+        public void BeginRead(){} // RVA: 0x7249AC0
+        public void EndRead(){} // RVA: 0x7249B70
+        public void ReadAsync(){} // RVA: 0x7249BB0
+        public void ReadAsyncCore(){} // RVA: 0x7249F60
+        public void Write(){} // RVA: 0x724A220
+        public void WriteDeflaterOutput(){} // RVA: 0x724A400
+        public void DoMaintenance(){} // RVA: 0x724A490
+        public void PurgeBuffers(){} // RVA: 0x724A570
+        public void Dispose(){} // RVA: 0x724A7A0
+        public void WriteAsync(){} // RVA: 0x724AB10
+        public void WriteAsyncCore(){} // RVA: 0x724ACA0
+        public void BeginWrite(){} // RVA: 0x724AF30
+        public void EndWrite(){} // RVA: 0x724AFE0
+        public void <>n__0(){} // RVA: 0x68D7C90
     }
 
     public class DeflateStream : Stream
     {
+        public object base_stream;
+        public object mode;
+        public object leaveOpen;
+        public object disposed;
+        public object native;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEAB5570
-        public void Finalize(){} // RVA: 0x7ADAA0970
-        public void Dispose(){} // RVA: 0x7AEAB5590
-        public void ReadInternal(){} // RVA: 0x7AEAB5650
-        public void ReadAsyncMemory(){} // RVA: 0x7AEAB5760
-        public void ReadCore(){} // RVA: 0x7AEAB57A0
-        public void Read(){} // RVA: 0x7AEAB5930
-        public void WriteInternal(){} // RVA: 0x7AEAB5C50
-        public void WriteAsyncMemory(){} // RVA: 0x7AEAB5D50
-        public void WriteCore(){} // RVA: 0x7AEAB5D90
-        public void Write(){} // RVA: 0x7AEAB5E20
-        public void Flush(){} // RVA: 0x7AEAB6140
-        public void BeginRead(){} // RVA: 0x7AEAB62C0
-        public void BeginWrite(){} // RVA: 0x7AEAB66A0
-        public void EndRead(){} // RVA: 0x7AEAB6A80
-        public void EndWrite(){} // RVA: 0x7AEAB6C70
-        public void Seek(){} // RVA: 0x7AEAB6E50
-        public void SetLength(){} // RVA: 0x7AEAB6E90
-        public void get_CanRead(){} // RVA: 0x7AEAB6ED0
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7AEAB6F10
-        public void get_Length(){} // RVA: 0x7AEAB6F50
-        public void get_Position(){} // RVA: 0x7AEAB6F90
-        public void set_Position(){} // RVA: 0x7AEAB6FD0
+        public void .ctor(){} // RVA: 0x7724EE0
+        public void Finalize(){} // RVA: 0x672B280
+        public void Dispose(){} // RVA: 0x7724F00
+        public void ReadInternal(){} // RVA: 0x7724FC0
+        public void ReadAsyncMemory(){} // RVA: 0x77250D0
+        public void ReadCore(){} // RVA: 0x7725110
+        public void Read(){} // RVA: 0x77252A0
+        public void WriteInternal(){} // RVA: 0x77255C0
+        public void WriteAsyncMemory(){} // RVA: 0x77256C0
+        public void WriteCore(){} // RVA: 0x7725700
+        public void Write(){} // RVA: 0x7725790
+        public void Flush(){} // RVA: 0x7725AB0
+        public void BeginRead(){} // RVA: 0x7725C30
+        public void BeginWrite(){} // RVA: 0x7725FF0
+        public void EndRead(){} // RVA: 0x77263B0
+        public void EndWrite(){} // RVA: 0x77265A0
+        public void Seek(){} // RVA: 0x7726780
+        public void SetLength(){} // RVA: 0x77267C0
+        public void get_CanRead(){} // RVA: 0x7726800
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0x7726840
+        public void get_Length(){} // RVA: 0x7726880
+        public void get_Position(){} // RVA: 0x77268C0
+        public void set_Position(){} // RVA: 0x7726900
     }
 
     public class DeflateStreamNative : Object
     {
+        public object feeder;
+        public object base_stream;
+        public object z_stream;
+        public object data;
+        public object disposed;
+        public object io_buffer;
+        public object last_error;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Create(){} // RVA: 0x7AEAB7150
-        public void Finalize(){} // RVA: 0x7AEAB7410
-        public void Dispose(){} // RVA: 0x7AEAB7460
-        public void Flush(){} // RVA: 0x7AEAB8030
-        public void ReadZStream(){} // RVA: 0x7AEAB80D0
-        public void WriteZStream(){} // RVA: 0x7AEAB8150
-        public void UnmanagedRead(){} // RVA: 0x7AEAB79F0
-        public void UnmanagedWrite(){} // RVA: 0x7AEAB7CA0
-        public void CheckResult(){} // RVA: 0x7AEAB7E20
-        public void CreateZStream(){} // RVA: 0x7AEAB7F60
-        public void CloseZStream(){} // RVA: 0x7AEAB8020
+        public void .ctor(){} // RVA: 0xB43310
+        public void Create(){} // RVA: 0x7726940
+        public void Finalize(){} // RVA: 0x7726C00
+        public void Dispose(){} // RVA: 0x7726C50
+        public void Flush(){} // RVA: 0x7727820
+        public void ReadZStream(){} // RVA: 0x77278C0
+        public void WriteZStream(){} // RVA: 0x7727940
+        public void UnmanagedRead(){} // RVA: 0x77271E0
+        public void UnmanagedWrite(){} // RVA: 0x7727490
+        public void CheckResult(){} // RVA: 0x7727610
+        public void CreateZStream(){} // RVA: 0x7727750
+        public void CloseZStream(){} // RVA: 0x7727810
     }
 
     public class DeflaterManaged : Object
     {
+        public object _deflateEncoder;
+        public object _copyEncoder;
+        public object _input;
+        public object _output;
+        public object _processingState;
+        public object _inputFromHistory;
+
         // ── Methods ──
-        public void NeedsInput(){} // RVA: 0x7A97E9F30
-        public void SetInput(){} // RVA: 0x7A97EA0C0
-        public void GetDeflateOutput(){} // RVA: 0x7AE5D4D30
-        public void Finish(){} // RVA: 0x7AE5D5240
-        public void UseCompressed(){} // RVA: 0x7A97E9F20
-        public void FlushInputWindows(){} // RVA: 0x7AE5D52F0
-        public void WriteFinal(){} // RVA: 0x7AE5D5310
-        public void Dispose(){} // RVA: 0x7A80D7310
+        public void NeedsInput(){} // RVA: 0x22F5C80
+        public void SetInput(){} // RVA: 0x22F5D00
+        public void GetDeflateOutput(){} // RVA: 0x724BC40
+        public void Finish(){} // RVA: 0x724C150
+        public void UseCompressed(){} // RVA: 0x22F6340
+        public void FlushInputWindows(){} // RVA: 0x724C200
+        public void WriteFinal(){} // RVA: 0x724C220
+        public void Dispose(){} // RVA: 0xB43310
     }
 
     public class FastEncoder : Object
     {
+        public object _inputWindow;
+        public object _currentMatch;
+        public object _lastCompressionRatio;
+
         // ── Methods ──
-        public void get_BytesInHistory(){} // RVA: 0x7A97EDC30
-        public void get_UnprocessedInput(){} // RVA: 0x7AE5D5350
-        public void FlushInput(){} // RVA: 0x7AE5D5410
-        public void get_LastCompressionRatio(){} // RVA: 0x7A97EDE10
-        public void GetBlock(){} // RVA: 0x7AE5D55B0
-        public void GetCompressedData(){} // RVA: 0x7AE5D5690
-        public void GetBlockHeader(){} // RVA: 0x7AE5D56B0
-        public void GetBlockFooter(){} // RVA: 0x7AE5D56C0
-        public void GetCompressedOutput(){} // RVA: 0x7AE5D59D0
-        public void InputAvailable(){} // RVA: 0x7A97EE670
-        public void SafeToWriteTo(){} // RVA: 0x7A97EE070
-        public void WriteEndOfBlock(){} // RVA: 0x7AE5D56C0
-        public void WriteMatch(){} // RVA: 0x7AE5D5AD0
-        public void WriteChar(){} // RVA: 0x7AE5D5D50
-        public void WriteDeflatePreamble(){} // RVA: 0x7AE5D5DF0
+        public void get_BytesInHistory(){} // RVA: 0x22F9CD0
+        public void get_UnprocessedInput(){} // RVA: 0x724C260
+        public void FlushInput(){} // RVA: 0x724C320
+        public void get_LastCompressionRatio(){} // RVA: 0x22F9F60
+        public void GetBlock(){} // RVA: 0x724C4C0
+        public void GetCompressedData(){} // RVA: 0x724C5A0
+        public void GetBlockHeader(){} // RVA: 0x724C5C0
+        public void GetBlockFooter(){} // RVA: 0x724C5D0
+        public void GetCompressedOutput(){} // RVA: 0x724C8E0
+        public void InputAvailable(){} // RVA: 0x22FA350
+        public void SafeToWriteTo(){} // RVA: 0x22FAD00
+        public void WriteEndOfBlock(){} // RVA: 0x724C5D0
+        public void WriteMatch(){} // RVA: 0x724C9E0
+        public void WriteChar(){} // RVA: 0x724CC60
+        public void WriteDeflatePreamble(){} // RVA: 0x724CD00
     }
 
     public class FastEncoderStatics : Object
     {
+        public object FastEncoderTreeStructureData;
+        public object BFinalFastEncoderTreeStructureData;
+        public object FastEncoderLiteralCodeInfo;
+        public object FastEncoderDistanceCodeInfo;
+        public object BitMask;
+        public object ExtraLengthBits;
+        public object ExtraDistanceBits;
+        public object s_distLookup;
+
         // ── Methods ──
-        public void CreateDistanceLookup(){} // RVA: 0x7AE5D5F00
-        public void GetSlot(){} // RVA: 0x7AE5D60C0
-        public void BitReverse(){} // RVA: 0x7A97EEDD0
-        public void .cctor(){} // RVA: 0x7AE5D6150
+        public void CreateDistanceLookup(){} // RVA: 0x724CE10
+        public void GetSlot(){} // RVA: 0x724CFD0
+        public void BitReverse(){} // RVA: 0x22FB450
+        public void .cctor(){} // RVA: 0x724D060
     }
 
     public class FastEncoderWindow : Object
     {
+        public object _window;
+        public object _bufPos;
+        public object _bufEnd;
+        public object _prev;
+        public object _lookup;
+
         // ── Methods ──
-        public void get_BytesAvailable(){} // RVA: 0x7A97EF4E0
-        public void get_UnprocessedInput(){} // RVA: 0x7AE5D6820
-        public void FlushWindow(){} // RVA: 0x7AE5D68E0
-        public void ResetWindow(){} // RVA: 0x7AE5D68E0
-        public void get_FreeWindowSpace(){} // RVA: 0x7A97EF740
-        public void CopyBytes(){} // RVA: 0x7A97EFB10
-        public void MoveWindows(){} // RVA: 0x7A97EF750
-        public void HashValue(){} // RVA: 0x7A97EFF40
-        public void InsertString(){} // RVA: 0x7A97EFCD0
-        public void InsertStrings(){} // RVA: 0x7A97EEDF0
-        public void GetNextSymbolOrMatch(){} // RVA: 0x7A97EEEB0
-        public void FindMatch(){} // RVA: 0x7A97EFB60
+        public void get_BytesAvailable(){} // RVA: 0x22FB6F0
+        public void get_UnprocessedInput(){} // RVA: 0x724D730
+        public void FlushWindow(){} // RVA: 0x724D7F0
+        public void ResetWindow(){} // RVA: 0x724D7F0
+        public void get_FreeWindowSpace(){} // RVA: 0x22FB470
+        public void CopyBytes(){} // RVA: 0x22FB700
+        public void MoveWindows(){} // RVA: 0x22FBE40
+        public void HashValue(){} // RVA: 0x22FB7F0
+        public void InsertString(){} // RVA: 0x22FB750
+        public void InsertStrings(){} // RVA: 0x22FBD80
+        public void GetNextSymbolOrMatch(){} // RVA: 0x22FB800
+        public void FindMatch(){} // RVA: 0x22FBF30
     }
 
     public class GZipStream : Stream
     {
+        public object _deflateStream;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEAB44E0
-        public void get_CanRead(){} // RVA: 0x7AEAB45E0
-        public void get_CanWrite(){} // RVA: 0x7AEAB4600
-        public void get_CanSeek(){} // RVA: 0x7AEAB4620
-        public void get_Length(){} // RVA: 0x7AEAB4640
-        public void get_Position(){} // RVA: 0x7AEAB4690
-        public void set_Position(){} // RVA: 0x7AEAB46E0
-        public void Flush(){} // RVA: 0x7AEAB4730
-        public void Seek(){} // RVA: 0x7AEAB4760
-        public void SetLength(){} // RVA: 0x7AEAB47B0
-        public void ReadByte(){} // RVA: 0x7AEAB4800
-        public void BeginRead(){} // RVA: 0x7AEAB4830
-        public void EndRead(){} // RVA: 0x7AEAB48E0
-        public void Read(){} // RVA: 0x7AEAB4960
-        public void BeginWrite(){} // RVA: 0x7AEAB4BF0
-        public void EndWrite(){} // RVA: 0x7ADA5CD30
-        public void Write(){} // RVA: 0x7AEAB4CE0
-        public void CopyTo(){} // RVA: 0x7AEAB4E70
-        public void Dispose(){} // RVA: 0x7A97F24D0
-        public void ReadAsync(){} // RVA: 0x7AEAB4EE0
-        public void WriteAsync(){} // RVA: 0x7AEAB5060
-        public void FlushAsync(){} // RVA: 0x7AEAB51A0
-        public void CopyToAsync(){} // RVA: 0x7AEAB51D0
-        public void CheckDeflateStream(){} // RVA: 0x7AEAB5210
-        public void ThrowStreamClosedException(){} // RVA: 0x7AEAB5230
+        public void .ctor(){} // RVA: 0x7723F10
+        public void get_CanRead(){} // RVA: 0x7724010
+        public void get_CanWrite(){} // RVA: 0x7724030
+        public void get_CanSeek(){} // RVA: 0x7724050
+        public void get_Length(){} // RVA: 0x7724070
+        public void get_Position(){} // RVA: 0x77240C0
+        public void set_Position(){} // RVA: 0x7724110
+        public void Flush(){} // RVA: 0x7724160
+        public void Seek(){} // RVA: 0x7724190
+        public void SetLength(){} // RVA: 0x77241E0
+        public void ReadByte(){} // RVA: 0x7724230
+        public void BeginRead(){} // RVA: 0x7724260
+        public void EndRead(){} // RVA: 0x7724310
+        public void Read(){} // RVA: 0x7724390
+        public void BeginWrite(){} // RVA: 0x77245F0
+        public void EndWrite(){} // RVA: 0x66E7340
+        public void Write(){} // RVA: 0x77246E0
+        public void CopyTo(){} // RVA: 0x7724840
+        public void Dispose(){} // RVA: 0x22FDF00
+        public void ReadAsync(){} // RVA: 0x77248B0
+        public void WriteAsync(){} // RVA: 0x7724A00
+        public void FlushAsync(){} // RVA: 0x7724B10
+        public void CopyToAsync(){} // RVA: 0x7724B40
+        public void CheckDeflateStream(){} // RVA: 0x7724B80
+        public void ThrowStreamClosedException(){} // RVA: 0x7724BA0
     }
 
     public class HuffmanTree : Object
     {
+        public object _tableBits;
+        public object _table;
+        public object _left;
+        public object _right;
+        public object _codeLengthArray;
+        public object _tableMask;
+        public object _staticLiteralLengthTree;
+        public object _staticDistanceTree;
+
         // ── Methods ──
-        public void get_StaticLiteralLengthTree(){} // RVA: 0x7AE5D6A70
-        public void get_StaticDistanceTree(){} // RVA: 0x7AE5D6AD0
-        public void .ctor(){} // RVA: 0x7AE5D6B30
-        public void GetStaticLiteralTreeLength(){} // RVA: 0x7AE5D6D50
-        public void GetStaticDistanceTreeLength(){} // RVA: 0x7AE5D6E20
-        public void CalculateHuffmanCode(){} // RVA: 0x7AE5D6E90
-        public void CreateTable(){} // RVA: 0x7AE5D70D0
-        public void GetNextSymbol(){} // RVA: 0x7AE5D7330
-        public void .cctor(){} // RVA: 0x7AE5D7510
+        public void get_StaticLiteralLengthTree(){} // RVA: 0x724D980
+        public void get_StaticDistanceTree(){} // RVA: 0x724D9E0
+        public void .ctor(){} // RVA: 0x724DA40
+        public void GetStaticLiteralTreeLength(){} // RVA: 0x724DC60
+        public void GetStaticDistanceTreeLength(){} // RVA: 0x724DD30
+        public void CalculateHuffmanCode(){} // RVA: 0x724DDA0
+        public void CreateTable(){} // RVA: 0x724DFE0
+        public void GetNextSymbol(){} // RVA: 0x724E240
+        public void .cctor(){} // RVA: 0x724E420
     }
 
     public class IFileFormatReader
     {
         // ── Methods ──
-        public void ReadHeader(){} // RVA: 0x7A7E019D0
-        public void ReadFooter(){} // RVA: 0x7A7E019D0
-        public void UpdateWithBytesRead(){} // RVA: 0x7A7E1E220
-        public void Validate(){} // RVA: 0x7A7E18770
+        public void ReadHeader(){} // RVA: 0x87D350
+        public void ReadFooter(){} // RVA: 0x87D350
+        public void UpdateWithBytesRead(){} // RVA: 0x89B9B0
+        public void Validate(){} // RVA: 0x894290
     }
 
     public class IFileFormatWriter
     {
         // ── Methods ──
-        public void GetHeader(){} // RVA: 0x7A7E00680
-        public void UpdateWithBytesRead(){} // RVA: 0x7A7E1E220
-        public void GetFooter(){} // RVA: 0x7A7E00680
+        public void GetHeader(){} // RVA: 0x87C0A0
+        public void UpdateWithBytesRead(){} // RVA: 0x89B9B0
+        public void GetFooter(){} // RVA: 0x87C0A0
     }
 
     public class InflaterManaged : Object
     {
+        public object s_extraLengthBits;
+        public object s_lengthBase;
+        public object s_distanceBasePosition;
+        public object s_codeOrder;
+        public object s_staticDistanceTreeTable;
+        public object _output;
+        public object _input;
+        public object _literalLengthTree;
+        public object _distanceTree;
+        public object _state;
+        public object _hasFormatReader;
+        public object _bfinal;
+        public object _blockType;
+        public object _blockLengthBuffer;
+        public object _blockLength;
+        public object _length;
+        public object _distanceCode;
+        public object _extraBits;
+        public object _loopCounter;
+        public object _literalLengthCodeCount;
+        public object _distanceCodeCount;
+        public object _codeLengthCodeCount;
+        public object _codeArraySize;
+        public object _lengthCode;
+        public object _codeList;
+        public object _codeLengthTreeCodeLength;
+        public object _deflate64;
+        public object _codeLengthTree;
+        public object _formatReader;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5D77C0
-        public void Reset(){} // RVA: 0x7AE5D7B20
-        public void SetInput(){} // RVA: 0x7A97F5210
-        public void Finished(){} // RVA: 0x7A97F71A0
-        public void Inflate(){} // RVA: 0x7AE5D7B40
-        public void Decode(){} // RVA: 0x7AE5D7D60
-        public void DecodeUncompressedBlock(){} // RVA: 0x7AE5D80E0
-        public void DecodeBlock(){} // RVA: 0x7AE5D8370
-        public void DecodeDynamicBlockHeader(){} // RVA: 0x7AE5D8810
-        public void Dispose(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AE5D9090
+        public void .ctor(){} // RVA: 0x724E6D0
+        public void Reset(){} // RVA: 0x724EA30
+        public void SetInput(){} // RVA: 0x2300230
+        public void Finished(){} // RVA: 0x2300340
+        public void Inflate(){} // RVA: 0x724EA50
+        public void Decode(){} // RVA: 0x724EC70
+        public void DecodeUncompressedBlock(){} // RVA: 0x724EFF0
+        public void DecodeBlock(){} // RVA: 0x724F280
+        public void DecodeDynamicBlockHeader(){} // RVA: 0x724F720
+        public void Dispose(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x724FFA0
     }
 
     public class InputBuffer : Object
     {
+        public object _buffer;
+        public object _start;
+        public object _end;
+        public object _bitBuffer;
+        public object _bitsInBuffer;
+
         // ── Methods ──
-        public void get_AvailableBits(){} // RVA: 0x7A8AB15F0
-        public void get_AvailableBytes(){} // RVA: 0x7A97F74A0
-        public void EnsureBitsAvailable(){} // RVA: 0x7A97F72B0
-        public void TryLoad16Bits(){} // RVA: 0x7A97F7560
-        public void GetBitMask(){} // RVA: 0x7A97F7800
-        public void GetBits(){} // RVA: 0x7A97F7500
-        public void CopyTo(){} // RVA: 0x7A97F7620
-        public void NeedsInput(){} // RVA: 0x7A97F71E0
-        public void SetInput(){} // RVA: 0x7A97F7360
-        public void SkipBits(){} // RVA: 0x7A97F71F0
-        public void SkipToByteBoundary(){} // RVA: 0x7A97F74C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_AvailableBits(){} // RVA: 0x15AF000
+        public void get_AvailableBytes(){} // RVA: 0x2301EE0
+        public void EnsureBitsAvailable(){} // RVA: 0x2301E20
+        public void TryLoad16Bits(){} // RVA: 0x2301F00
+        public void GetBitMask(){} // RVA: 0x2301ED0
+        public void GetBits(){} // RVA: 0x23021D0
+        public void CopyTo(){} // RVA: 0x2301FC0
+        public void NeedsInput(){} // RVA: 0x2301D80
+        public void SetInput(){} // RVA: 0x2302080
+        public void SkipBits(){} // RVA: 0x2302100
+        public void SkipToByteBoundary(){} // RVA: 0x2302290
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Match : Object
     {
+        public object _state;
+        public object _position;
+        public object _length;
+        public object _symbol;
+
         // ── Methods ──
-        public void get_State(){} // RVA: 0x7A8124910
-        public void set_State(){} // RVA: 0x7A80DA0C0
-        public void get_Position(){} // RVA: 0x7A8668BC0
-        public void set_Position(){} // RVA: 0x7A8669360
-        public void get_Length(){} // RVA: 0x7A83782A0
-        public void set_Length(){} // RVA: 0x7A84385B0
-        public void get_Symbol(){} // RVA: 0x7A80F2580
-        public void set_Symbol(){} // RVA: 0x7A80F2590
+        public void get_State(){} // RVA: 0xB8F8F0
+        public void set_State(){} // RVA: 0xB460A0
+        public void get_Position(){} // RVA: 0x116A650
+        public void set_Position(){} // RVA: 0x116BB10
+        public void get_Length(){} // RVA: 0xE62D00
+        public void set_Length(){} // RVA: 0x1033F40
+        public void get_Symbol(){} // RVA: 0xB5DC00
+        public void set_Symbol(){} // RVA: 0xB5DC10
     }
 
     public class OutputBuffer : Object
     {
+        public object _byteBuffer;
+        public object _pos;
+        public object _bitBuf;
+        public object _bitCount;
+
         // ── Methods ──
-        public void UpdateBuffer(){} // RVA: 0x7A97F7CC0
-        public void get_BytesWritten(){} // RVA: 0x7A83782A0
-        public void get_FreeBytes(){} // RVA: 0x7A97F7A90
-        public void WriteUInt16(){} // RVA: 0x7A97F7A30
-        public void WriteBits(){} // RVA: 0x7A97F7D40
-        public void FlushBits(){} // RVA: 0x7A97F7AB0
-        public void WriteBytes(){} // RVA: 0x7A97F7BD0
-        public void WriteBytesUnaligned(){} // RVA: 0x7A97F7900
-        public void WriteByteUnaligned(){} // RVA: 0x7A97F7C80
-        public void get_BitsInBuffer(){} // RVA: 0x7A97F7D30
-        public void DumpState(){} // RVA: 0x7A97F7980
-        public void RestoreState(){} // RVA: 0x7A97F7CA0
+        public void UpdateBuffer(){} // RVA: 0x23025E0
+        public void get_BytesWritten(){} // RVA: 0xE62D00
+        public void get_FreeBytes(){} // RVA: 0x2302720
+        public void WriteUInt16(){} // RVA: 0x2302740
+        public void WriteBits(){} // RVA: 0x23027A0
+        public void FlushBits(){} // RVA: 0x2302690
+        public void WriteBytes(){} // RVA: 0x23024F0
+        public void WriteBytesUnaligned(){} // RVA: 0x2302840
+        public void WriteByteUnaligned(){} // RVA: 0x23025C0
+        public void get_BitsInBuffer(){} // RVA: 0x2302440
+        public void DumpState(){} // RVA: 0x23025A0
+        public void RestoreState(){} // RVA: 0x2302670
     }
 
     public class OutputWindow : Object
     {
+        public object _window;
+        public object _end;
+        public object _bytesUsed;
+
         // ── Methods ──
-        public void Write(){} // RVA: 0x7AE5D9420
-        public void WriteLengthDistance(){} // RVA: 0x7AE5D9460
-        public void CopyFrom(){} // RVA: 0x7AE5D95A0
-        public void get_FreeBytes(){} // RVA: 0x7AE5D9820
-        public void get_AvailableBytes(){} // RVA: 0x7A9739200
-        public void CopyTo(){} // RVA: 0x7AE5D9830
-        public void .ctor(){} // RVA: 0x7AE5D98F0
+        public void Write(){} // RVA: 0x7250330
+        public void WriteLengthDistance(){} // RVA: 0x7250370
+        public void CopyFrom(){} // RVA: 0x72504B0
+        public void get_FreeBytes(){} // RVA: 0x7250730
+        public void get_AvailableBytes(){} // RVA: 0x2244FB0
+        public void CopyTo(){} // RVA: 0x7250740
+        public void .ctor(){} // RVA: 0x7250800
     }
 
     public class PositionPreservingWriteOnlyStreamWrapper : Stream
     {
+        public object _stream;
+        public object _position;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5D9980
-        public void get_CanRead(){} // RVA: 0x7A80D7320
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7A81BD750
-        public void get_Position(){} // RVA: 0x7A83F69F0
-        public void set_Position(){} // RVA: 0x7AE5D9A20
-        public void Write(){} // RVA: 0x7AE5D9A70
-        public void BeginWrite(){} // RVA: 0x7AE5D9AB0
-        public void EndWrite(){} // RVA: 0x7AE5D9AF0
-        public void WriteByte(){} // RVA: 0x7AE5D9B20
-        public void WriteAsync(){} // RVA: 0x7AE5D9B50
-        public void get_CanTimeout(){} // RVA: 0x7AE47D240
-        public void get_ReadTimeout(){} // RVA: 0x7AE47D380
-        public void set_ReadTimeout(){} // RVA: 0x7AE47D3B0
-        public void get_WriteTimeout(){} // RVA: 0x7AE47D3E0
-        public void set_WriteTimeout(){} // RVA: 0x7AE47D410
-        public void Flush(){} // RVA: 0x7AE203670
-        public void FlushAsync(){} // RVA: 0x7AE5D9B90
-        public void Close(){} // RVA: 0x7AE5D9BC0
-        public void Dispose(){} // RVA: 0x7AE5D9BF0
-        public void get_Length(){} // RVA: 0x7AE5D9C30
-        public void Seek(){} // RVA: 0x7AE5D9C80
-        public void SetLength(){} // RVA: 0x7AE5D9CD0
-        public void Read(){} // RVA: 0x7AE5D9D20
+        public void .ctor(){} // RVA: 0x7250890
+        public void get_CanRead(){} // RVA: 0xB43320
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0xC2E4C0
+        public void get_Position(){} // RVA: 0xD33E60
+        public void set_Position(){} // RVA: 0x7250930
+        public void Write(){} // RVA: 0x7250980
+        public void BeginWrite(){} // RVA: 0x72509C0
+        public void EndWrite(){} // RVA: 0x7250A00
+        public void WriteByte(){} // RVA: 0x7250A30
+        public void WriteAsync(){} // RVA: 0x7250A60
+        public void get_CanTimeout(){} // RVA: 0x70F9330
+        public void get_ReadTimeout(){} // RVA: 0x70F9470
+        public void set_ReadTimeout(){} // RVA: 0x70F94A0
+        public void get_WriteTimeout(){} // RVA: 0x70F94D0
+        public void set_WriteTimeout(){} // RVA: 0x70F9500
+        public void Flush(){} // RVA: 0x6E861D0
+        public void FlushAsync(){} // RVA: 0x7250AA0
+        public void Close(){} // RVA: 0x7250AD0
+        public void Dispose(){} // RVA: 0x7250B00
+        public void get_Length(){} // RVA: 0x7250B40
+        public void Seek(){} // RVA: 0x7250B90
+        public void SetLength(){} // RVA: 0x7250BE0
+        public void Read(){} // RVA: 0x7250C30
     }
 
     public class SubReadStream : Stream
     {
+        public object _startInSuperStream;
+        public object _positionInSuperStream;
+        public object _endInSuperStream;
+        public object _superStream;
+        public object _canRead;
+        public object _isDisposed;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5E5290
-        public void get_Length(){} // RVA: 0x7AE5E5360
-        public void get_Position(){} // RVA: 0x7AE5E5380
-        public void set_Position(){} // RVA: 0x7AE5E53A0
-        public void get_CanRead(){} // RVA: 0x7AE5E5400
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7A80D7320
-        public void ThrowIfDisposed(){} // RVA: 0x7AE5E5440
-        public void ThrowIfCantRead(){} // RVA: 0x7AE5E54D0
-        public void Read(){} // RVA: 0x7AE5E5550
-        public void Seek(){} // RVA: 0x7AE5E5690
-        public void SetLength(){} // RVA: 0x7AE5E56F0
-        public void Write(){} // RVA: 0x7AE5E5750
-        public void Flush(){} // RVA: 0x7AE5E57B0
-        public void Dispose(){} // RVA: 0x7AE5E5810
+        public void .ctor(){} // RVA: 0x725C1A0
+        public void get_Length(){} // RVA: 0x725C270
+        public void get_Position(){} // RVA: 0x725C290
+        public void set_Position(){} // RVA: 0x725C2B0
+        public void get_CanRead(){} // RVA: 0x725C310
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0xB43320
+        public void ThrowIfDisposed(){} // RVA: 0x725C350
+        public void ThrowIfCantRead(){} // RVA: 0x725C3E0
+        public void Read(){} // RVA: 0x725C460
+        public void Seek(){} // RVA: 0x725C5A0
+        public void SetLength(){} // RVA: 0x725C600
+        public void Write(){} // RVA: 0x725C660
+        public void Flush(){} // RVA: 0x725C6C0
+        public void Dispose(){} // RVA: 0x725C720
     }
 
     public class WrappedStream : Stream
     {
+        public object _baseStream;
+        public object _closeBaseStream;
+        public object _onClosed;
+        public object _zipArchiveEntry;
+        public object _isDisposed;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5E4BE0
-        public void get_Length(){} // RVA: 0x7AE5E4C10
-        public void get_Position(){} // RVA: 0x7AE5E4C50
-        public void set_Position(){} // RVA: 0x7AE5E4C90
-        public void get_CanRead(){} // RVA: 0x7AE5E4CF0
-        public void get_CanSeek(){} // RVA: 0x7AE5E4D30
-        public void get_CanWrite(){} // RVA: 0x7AE5E4D70
-        public void ThrowIfDisposed(){} // RVA: 0x7AE5E4DB0
-        public void ThrowIfCantRead(){} // RVA: 0x7AE5E4E40
-        public void ThrowIfCantWrite(){} // RVA: 0x7AE5E4EC0
-        public void ThrowIfCantSeek(){} // RVA: 0x7AE5E4F40
-        public void Read(){} // RVA: 0x7AE5E4FC0
-        public void Seek(){} // RVA: 0x7AE5E5090
-        public void SetLength(){} // RVA: 0x7AE5E5100
-        public void Write(){} // RVA: 0x7AE5E5160
-        public void Flush(){} // RVA: 0x7AE5E51E0
-        public void Dispose(){} // RVA: 0x7AE5E5230
+        public void .ctor(){} // RVA: 0x725BAF0
+        public void get_Length(){} // RVA: 0x725BB20
+        public void get_Position(){} // RVA: 0x725BB60
+        public void set_Position(){} // RVA: 0x725BBA0
+        public void get_CanRead(){} // RVA: 0x725BC00
+        public void get_CanSeek(){} // RVA: 0x725BC40
+        public void get_CanWrite(){} // RVA: 0x725BC80
+        public void ThrowIfDisposed(){} // RVA: 0x725BCC0
+        public void ThrowIfCantRead(){} // RVA: 0x725BD50
+        public void ThrowIfCantWrite(){} // RVA: 0x725BDD0
+        public void ThrowIfCantSeek(){} // RVA: 0x725BE50
+        public void Read(){} // RVA: 0x725BED0
+        public void Seek(){} // RVA: 0x725BFA0
+        public void SetLength(){} // RVA: 0x725C010
+        public void Write(){} // RVA: 0x725C070
+        public void Flush(){} // RVA: 0x725C0F0
+        public void Dispose(){} // RVA: 0x725C140
     }
 
     public class Zip64EndOfCentralDirectoryLocator : ValueType
     {
+        public object NumberOfDiskWithZip64EOCD;
+        public object OffsetOfZip64EOCD;
+        public object TotalNumberOfDisks;
+
         // ── Methods ──
-        public void TryReadBlock(){} // RVA: 0x7AE5E3530
-        public void WriteBlock(){} // RVA: 0x7AE5E35E0
+        public void TryReadBlock(){} // RVA: 0x725A440
+        public void WriteBlock(){} // RVA: 0x725A4F0
     }
 
     public class Zip64EndOfCentralDirectoryRecord : ValueType
     {
+        public object SizeOfThisRecord;
+        public object VersionMadeBy;
+        public object VersionNeededToExtract;
+        public object NumberOfThisDisk;
+        public object NumberOfDiskWithStartOfCD;
+        public object NumberOfEntriesOnThisDisk;
+        public object NumberOfEntriesTotal;
+        public object SizeOfCentralDirectory;
+        public object OffsetOfCentralDirectory;
+
         // ── Methods ──
-        public void TryReadBlock(){} // RVA: 0x7AE5E36C0
-        public void WriteBlock(){} // RVA: 0x7AE5E3820
+        public void TryReadBlock(){} // RVA: 0x725A5D0
+        public void WriteBlock(){} // RVA: 0x725A730
     }
 
     public class Zip64ExtraField : ValueType
     {
+        public object _size;
+        public object _uncompressedSize;
+        public object _compressedSize;
+        public object _localHeaderOffset;
+        public object _startDiskNumber;
+
         // ── Methods ──
-        public void get_TotalSize(){} // RVA: 0x7A7E8A800
-        public void get_UncompressedSize(){} // RVA: 0x7A76B2030
-        public void set_UncompressedSize(){} // RVA: 0x7A7E8A810
-        public void get_CompressedSize(){} // RVA: 0x7A76D9A20
-        public void set_CompressedSize(){} // RVA: 0x7A7E8A830
-        public void get_LocalHeaderOffset(){} // RVA: 0x7A7827F80
-        public void set_LocalHeaderOffset(){} // RVA: 0x7A7E8A850
-        public void get_StartDiskNumber(){} // RVA: 0x7A768E4B0
-        public void UpdateSize(){} // RVA: 0x7A7E8A870
-        public void GetJustZip64Block(){} // RVA: 0x7AE5E20B0
-        public void TryGetZip64BlockFromGenericExtraField(){} // RVA: 0x7AE5E2310
-        public void GetAndRemoveZip64Block(){} // RVA: 0x7AE5E28A0
-        public void RemoveZip64Blocks(){} // RVA: 0x7AE5E2EC0
-        public void WriteBlock(){} // RVA: 0x7A7E8A880
+        public void get_TotalSize(){} // RVA: 0x90A3D0
+        public void get_UncompressedSize(){} // RVA: 0xCB720
+        public void set_UncompressedSize(){} // RVA: 0x90A3E0
+        public void get_CompressedSize(){} // RVA: 0xF7220
+        public void set_CompressedSize(){} // RVA: 0x90A400
+        public void get_LocalHeaderOffset(){} // RVA: 0x2698F0
+        public void set_LocalHeaderOffset(){} // RVA: 0x90A420
+        public void get_StartDiskNumber(){} // RVA: 0xA3280
+        public void UpdateSize(){} // RVA: 0x90A440
+        public void GetJustZip64Block(){} // RVA: 0x7258FC0
+        public void TryGetZip64BlockFromGenericExtraField(){} // RVA: 0x7259220
+        public void GetAndRemoveZip64Block(){} // RVA: 0x72597B0
+        public void RemoveZip64Blocks(){} // RVA: 0x7259DD0
+        public void WriteBlock(){} // RVA: 0x90A450
     }
 
     public class ZipArchive : Object
     {
+        public object _archiveStream;
+        public object _archiveStreamOwner;
+        public object _archiveReader;
+        public object _mode;
+        public object _entries;
+        public object _entriesCollection;
+        public object _entriesDictionary;
+        public object _readEntries;
+        public object _leaveOpen;
+        public object _centralDirectoryStart;
+        public object _isDisposed;
+        public object _numberOfThisDisk;
+        public object _expectedNumberOfEntries;
+        public object _backingStream;
+        public object _archiveComment;
+        public object _entryNameEncoding;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5D9E40
-        public void get_Mode(){} // RVA: 0x7A854FDE0
-        public void CreateEntry(){} // RVA: 0x7AE5DA000
-        public void Dispose(){} // RVA: 0x7AE5DA1A0
-        public void get_ArchiveReader(){} // RVA: 0x7A81052C0
-        public void get_ArchiveStream(){} // RVA: 0x7A80F2570
-        public void get_NumberOfThisDisk(){} // RVA: 0x7A835E820
-        public void get_EntryNameEncoding(){} // RVA: 0x7A82C2060
-        public void set_EntryNameEncoding(){} // RVA: 0x7AE5DA210
-        public void DoCreateEntry(){} // RVA: 0x7AE5DA320
-        public void AcquireArchiveStream(){} // RVA: 0x7AE5DA530
-        public void AddEntry(){} // RVA: 0x7AE5DA650
-        public void ReleaseArchiveStream(){} // RVA: 0x7AA4BE520
-        public void RemoveEntry(){} // RVA: 0x7AE5DA750
-        public void ThrowIfDisposed(){} // RVA: 0x7AE5DA7E0
-        public void CloseStreams(){} // RVA: 0x7AE5DA870
-        public void EnsureCentralDirectoryRead(){} // RVA: 0x7AE5DA910
-        public void Init(){} // RVA: 0x7AE5DA930
-        public void ReadCentralDirectory(){} // RVA: 0x7AE5DB390
-        public void ReadEndOfCentralDirectory(){} // RVA: 0x7AE5DB620
-        public void WriteFile(){} // RVA: 0x7AE5DBEF0
-        public void WriteArchiveEpilogue(){} // RVA: 0x7AE5DC650
+        public void .ctor(){} // RVA: 0x7250D50
+        public void get_Mode(){} // RVA: 0x1065D50
+        public void CreateEntry(){} // RVA: 0x7250F10
+        public void Dispose(){} // RVA: 0x72510B0
+        public void get_ArchiveReader(){} // RVA: 0xB700F0
+        public void get_ArchiveStream(){} // RVA: 0xB5DBF0
+        public void get_NumberOfThisDisk(){} // RVA: 0xE36310
+        public void get_EntryNameEncoding(){} // RVA: 0xCD3320
+        public void set_EntryNameEncoding(){} // RVA: 0x7251120
+        public void DoCreateEntry(){} // RVA: 0x7251230
+        public void AcquireArchiveStream(){} // RVA: 0x7251440
+        public void AddEntry(){} // RVA: 0x7251560
+        public void ReleaseArchiveStream(){} // RVA: 0x30FBB60
+        public void RemoveEntry(){} // RVA: 0x7251660
+        public void ThrowIfDisposed(){} // RVA: 0x72516F0
+        public void CloseStreams(){} // RVA: 0x7251780
+        public void EnsureCentralDirectoryRead(){} // RVA: 0x7251820
+        public void Init(){} // RVA: 0x7251840
+        public void ReadCentralDirectory(){} // RVA: 0x72522A0
+        public void ReadEndOfCentralDirectory(){} // RVA: 0x7252530
+        public void WriteFile(){} // RVA: 0x7252E00
+        public void WriteArchiveEpilogue(){} // RVA: 0x7253560
     }
 
     public class ZipArchiveEntry : Object
     {
+        public object _archive;
+        public object _originallyInArchive;
+        public object _diskNumberStart;
+        public object _versionMadeByPlatform;
+        public object _versionMadeBySpecification;
+        public object _versionToExtract;
+        public object _generalPurposeBitFlag;
+        public object _storedCompressionMethod;
+        public object _lastModified;
+        public object _compressedSize;
+        public object _uncompressedSize;
+        public object _offsetOfLocalHeader;
+        public object _storedOffsetOfCompressedData;
+        public object _crc32;
+        public object _compressedBytes;
+        public object _storedUncompressedData;
+        public object _currentlyOpenForWrite;
+        public object _everOpenedForWrite;
+        public object _outstandingWriteStream;
+        public object _externalFileAttr;
+        public object _storedEntryName;
+        public object _storedEntryNameBytes;
+        public object _cdUnknownExtraFields;
+        public object _lhUnknownExtraFields;
+        public object _fileComment;
+        public object _compressionLevel;
+        public object s_allowLargeZipArchiveEntriesInUpdateMode;
+        public object CurrentZipPlatform;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE5DCE80
-        public void get_FullName(){} // RVA: 0x7A87D9C10
-        public void set_FullName(){} // RVA: 0x7AE5DD3F0
-        public void set_LastWriteTime(){} // RVA: 0x7AE5DD6E0
-        public void Delete(){} // RVA: 0x7AE5DD9A0
-        public void Open(){} // RVA: 0x7AE5DDB20
-        public void ToString(){} // RVA: 0x7A87D9C10
-        public void get_EverOpenedForWrite(){} // RVA: 0x7A8358B70
-        public void get_OffsetOfCompressedData(){} // RVA: 0x7AE5DDB80
-        public void get_UncompressedData(){} // RVA: 0x7AE5DDCE0
-        public void get_CompressionMethod(){} // RVA: 0x7AC2A83C0
-        public void set_CompressionMethod(){} // RVA: 0x7AE5DDF00
-        public void DecodeEntryName(){} // RVA: 0x7AE5DDF50
-        public void EncodeEntryName(){} // RVA: 0x7AE5DDFB0
-        public void WriteAndFinishLocalEntry(){} // RVA: 0x7AE5DE0E0
-        public void WriteCentralDirectoryFileHeader(){} // RVA: 0x7AE5DE130
-        public void LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded(){} // RVA: 0x7AE5DE790
-        public void ThrowIfNotOpenable(){} // RVA: 0x7AE5DECD0
-        public void GetDataCompressor(){} // RVA: 0x7AE5DED50
-        public void GetDataDecompressor(){} // RVA: 0x7AE5DF020
-        public void OpenInReadMode(){} // RVA: 0x7AE5DF220
-        public void OpenInWriteMode(){} // RVA: 0x7AE5DF2F0
-        public void OpenInUpdateMode(){} // RVA: 0x7AE5DF5C0
-        public void IsOpenable(){} // RVA: 0x7AE5DF810
-        public void SizesTooLarge(){} // RVA: 0x7AE5DFB90
-        public void WriteLocalFileHeader(){} // RVA: 0x7AE5DFBB0
-        public void WriteLocalFileHeaderAndDataIfNeeded(){} // RVA: 0x7AE5E0100
-        public void WriteCrcAndSizesInLocalHeader(){} // RVA: 0x7AE5E03F0
-        public void WriteDataDescriptor(){} // RVA: 0x7AE5E0740
-        public void UnloadStreams(){} // RVA: 0x7AE5E0880
-        public void CloseStreams(){} // RVA: 0x7AE5E0970
-        public void VersionToExtractAtLeast(){} // RVA: 0x7AE5E09A0
-        public void ThrowIfInvalidArchive(){} // RVA: 0x7AE5E09C0
-        public void GetFileName_Windows(){} // RVA: 0x7AE5E0A30
-        public void GetFileName_Unix(){} // RVA: 0x7AE5E0AB0
-        public void ParseFileName(){} // RVA: 0x7AE5E0B20
-        public void .cctor(){} // RVA: 0x7AE5E0C80
+        public void .ctor(){} // RVA: 0x7253D90
+        public void get_FullName(){} // RVA: 0x106A7D0
+        public void set_FullName(){} // RVA: 0x7254300
+        public void set_LastWriteTime(){} // RVA: 0x72545F0
+        public void Delete(){} // RVA: 0x72548B0
+        public void Open(){} // RVA: 0x7254A30
+        public void ToString(){} // RVA: 0x106A7D0
+        public void get_EverOpenedForWrite(){} // RVA: 0xE3A050
+        public void get_OffsetOfCompressedData(){} // RVA: 0x7254A90
+        public void get_UncompressedData(){} // RVA: 0x7254BF0
+        public void get_CompressionMethod(){} // RVA: 0x4FF5720
+        public void set_CompressionMethod(){} // RVA: 0x7254E10
+        public void DecodeEntryName(){} // RVA: 0x7254E60
+        public void EncodeEntryName(){} // RVA: 0x7254EC0
+        public void WriteAndFinishLocalEntry(){} // RVA: 0x7254FF0
+        public void WriteCentralDirectoryFileHeader(){} // RVA: 0x7255040
+        public void LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded(){} // RVA: 0x72556A0
+        public void ThrowIfNotOpenable(){} // RVA: 0x7255BE0
+        public void GetDataCompressor(){} // RVA: 0x7255C60
+        public void GetDataDecompressor(){} // RVA: 0x7255F30
+        public void OpenInReadMode(){} // RVA: 0x7256130
+        public void OpenInWriteMode(){} // RVA: 0x7256200
+        public void OpenInUpdateMode(){} // RVA: 0x72564D0
+        public void IsOpenable(){} // RVA: 0x7256720
+        public void SizesTooLarge(){} // RVA: 0x7256AA0
+        public void WriteLocalFileHeader(){} // RVA: 0x7256AC0
+        public void WriteLocalFileHeaderAndDataIfNeeded(){} // RVA: 0x7257010
+        public void WriteCrcAndSizesInLocalHeader(){} // RVA: 0x7257300
+        public void WriteDataDescriptor(){} // RVA: 0x7257650
+        public void UnloadStreams(){} // RVA: 0x7257790
+        public void CloseStreams(){} // RVA: 0x7257880
+        public void VersionToExtractAtLeast(){} // RVA: 0x72578B0
+        public void ThrowIfInvalidArchive(){} // RVA: 0x72578D0
+        public void GetFileName_Windows(){} // RVA: 0x7257940
+        public void GetFileName_Unix(){} // RVA: 0x72579C0
+        public void ParseFileName(){} // RVA: 0x7257A30
+        public void .cctor(){} // RVA: 0x7257B90
     }
 
     public class ZipCentralDirectoryFileHeader : ValueType
     {
+        public object VersionMadeByCompatibility;
+        public object VersionMadeBySpecification;
+        public object VersionNeededToExtract;
+        public object GeneralPurposeBitFlag;
+        public object CompressionMethod;
+        public object LastModified;
+        public object Crc32;
+        public object CompressedSize;
+        public object UncompressedSize;
+        public object FilenameLength;
+        public object ExtraFieldLength;
+        public object FileCommentLength;
+        public object DiskNumberStart;
+        public object InternalFileAttributes;
+        public object ExternalFileAttributes;
+        public object RelativeOffsetOfLocalHeader;
+        public object Filename;
+        public object FileComment;
+        public object ExtraFields;
+
         // ── Methods ──
-        public void TryReadBlock(){} // RVA: 0x7AE5E3DF0
+        public void TryReadBlock(){} // RVA: 0x725AD00
     }
 
     public class ZipEndOfCentralDirectoryBlock : ValueType
     {
+        public object Signature;
+        public object NumberOfThisDisk;
+        public object NumberOfTheDiskWithTheStartOfTheCentralDirectory;
+        public object NumberOfEntriesInTheCentralDirectoryOnThisDisk;
+        public object NumberOfEntriesInTheCentralDirectory;
+        public object SizeOfCentralDirectory;
+        public object OffsetOfStartOfCentralDirectoryWithRespectToTheStartingDiskNumber;
+        public object ArchiveComment;
+
         // ── Methods ──
-        public void WriteBlock(){} // RVA: 0x7AE5E4710
-        public void TryReadBlock(){} // RVA: 0x7AE5E48C0
+        public void WriteBlock(){} // RVA: 0x725B620
+        public void TryReadBlock(){} // RVA: 0x725B7D0
     }
 
     public class ZipFileExtensions : Object
     {
         // ── Methods ──
-        public void CreateEntryFromFile(){} // RVA: 0x7AE5E7890
-        public void DoCreateEntryFromFile(){} // RVA: 0x7AE5E78B0
+        public void CreateEntryFromFile(){} // RVA: 0x725E290
+        public void DoCreateEntryFromFile(){} // RVA: 0x725E2B0
     }
 
     public class ZipGenericExtraField : ValueType
     {
+        public object _tag;
+        public object _size;
+        public object _data;
+
         // ── Methods ──
-        public void get_Tag(){} // RVA: 0x7A76C87F0
-        public void get_Size(){} // RVA: 0x7A76C8820
-        public void get_Data(){} // RVA: 0x7A765F080
-        public void WriteBlock(){} // RVA: 0x7A7E8A7D0
-        public void TryReadBlock(){} // RVA: 0x7AE5E1890
-        public void ParseExtraField(){} // RVA: 0x7AE5E1A00
-        public void TotalSize(){} // RVA: 0x7AE5E1C90
-        public void WriteAllBlocks(){} // RVA: 0x7AE5E1DF0
+        public void get_Tag(){} // RVA: 0xE3300
+        public void get_Size(){} // RVA: 0xE32E0
+        public void get_Data(){} // RVA: 0x77ED0
+        public void WriteBlock(){} // RVA: 0x90A300
+        public void TryReadBlock(){} // RVA: 0x72587A0
+        public void ParseExtraField(){} // RVA: 0x7258910
+        public void TotalSize(){} // RVA: 0x7258BA0
+        public void WriteAllBlocks(){} // RVA: 0x7258D00
     }
 
     public class ZipHelper : Object
     {
+        public object s_invalidDateIndicator;
+
         // ── Methods ──
-        public void RequiresUnicode(){} // RVA: 0x7AE5E60C0
-        public void ReadBytes(){} // RVA: 0x7AE5E6120
-        public void DosTimeToDateTime(){} // RVA: 0x7AE5E61F0
-        public void DateTimeToDosTime(){} // RVA: 0x7AE5E62A0
-        public void SeekBackwardsToSignature(){} // RVA: 0x7AE5E6430
-        public void AdvanceToPosition(){} // RVA: 0x7AE5E66A0
-        public void SeekBackwardsAndRead(){} // RVA: 0x7AE5E67A0
-        public void .cctor(){} // RVA: 0x7AE5E6930
+        public void RequiresUnicode(){} // RVA: 0x725CFD0
+        public void ReadBytes(){} // RVA: 0x725D030
+        public void DosTimeToDateTime(){} // RVA: 0x725D100
+        public void DateTimeToDosTime(){} // RVA: 0x725D1B0
+        public void SeekBackwardsToSignature(){} // RVA: 0x725D340
+        public void AdvanceToPosition(){} // RVA: 0x725D5B0
+        public void SeekBackwardsAndRead(){} // RVA: 0x725D6B0
+        public void .cctor(){} // RVA: 0x725D840
     }
 
     public class ZipLocalFileHeader : ValueType
     {
         // ── Methods ──
-        public void GetExtraFields(){} // RVA: 0x7AE5E39B0
-        public void TrySkipBlock(){} // RVA: 0x7AE5E3BE0
+        public void GetExtraFields(){} // RVA: 0x725A8C0
+        public void TrySkipBlock(){} // RVA: 0x725AAF0
     }
 
 }

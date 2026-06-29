@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class NameAndParameters : ValueType
     {
+        public object _name;
+        public object _parameters;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x77900
         public void set_name(){} // RVA: 0x47F10
@@ -41,6 +44,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class NamedValue : ValueType
     {
+        public object Separator;
+        public object _name;
+        public object _value;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x77900
         public void set_name(){} // RVA: 0x47F10

@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class FastKeyboard : Keyboard
     {
+        public object metadata;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x785D9B0
         public void Initialize_ctrlKeyboardanyKey(){} // RVA: 0x7862720
@@ -140,6 +142,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class FastMouse : Mouse
     {
+        public object metadata;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x78AE630
         public void Initialize_ctrlMouseposition(){} // RVA: 0x78B0090
@@ -182,6 +186,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class FastTouchscreen : Touchscreen
     {
+        public object metadata;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7879070
         public void Initialize_ctrlTouchscreenprimaryTouch(){} // RVA: 0x787E490

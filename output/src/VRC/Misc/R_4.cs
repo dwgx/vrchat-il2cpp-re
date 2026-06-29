@@ -5,9 +5,46 @@
 
 namespace VRC.Misc
 {
-    /// <summary>Originally: ÎÏÌÍÌÎÍÎÏÍÎÌÏÍÍÏÍÏÍÏÎÌÍ</summary>
-    public class RequiresStoringSiblingRelRelated_5A0D : ValueType
+    /// <summary>Originally: ÌÏÍÌÏÌÍÏÍÎÎÎÌÎÎÍÎÌÎÌÌÌÌ</summary>
+    public class RequiresStoring_23C2 : ValidationParams
     {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2691C70
+        public void Initialize(){} // RVA: 0x2693280
+        public void get_RequiresStoring(){} // RVA: 0xB43320
+    }
+
+    /// <summary>Originally: ÍÌÌÎÏÌÎÍÌÌÍÏÍÌÍÏÍÏÏÎÍÌÎ</summary>
+    public class RequiresStoringk__BackingField_8E83 : ValidationParams
+    {
+        public object f_BCB;
+
+        // ── Methods ──
+        public void set_RequiresStoring(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x2691C70
+        public void get_RequiresStoring(){} // RVA: 0xC2E4C0
+        // ── Unresolved (hash) ──
+        public void m_73B(){} // RVA: 0x26933B0
+        public void m_2F5(){} // RVA: 0xBA9BA0
+        public void m_0D9(){} // RVA: 0xBA9BA0
+        public void m_F92(){} // RVA: 0xB465B0
+        public void m_FC6(){} // RVA: 0xBA9BA0
+        public void m_53E(){} // RVA: 0xB465B0
+        public void m_BB3(){} // RVA: 0xBA9BA0
+        public void m_35F(){} // RVA: 0x2693800
+        public void m_805(){} // RVA: 0x2693870
+    }
+
+    /// <summary>Originally: ÎÏÌÍÌÎÍÎÏÍÎÌÏÍÍÏÍÏÍÏÎÌÍ</summary>
+    public class RequiresStoringk__BackingRelated_5A0D : ValueType
+    {
+        public object f_97F;
+        public object f_BF5;
+        public object f_5AF;
+        public object f_91C;
+        public object f_139;
+        public object f_F11;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x99090
@@ -27,8 +64,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÎÏÎÏÍÍÎÏÏÍÌÏÍÏÌÎÎÌÍÌÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_B4E4 : ValueType
+    public class RequiresStoringk__BackingRelated_B4E4 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_5AF;
+        public object f_91C;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77900
@@ -49,8 +91,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÎÎÎÌÎÏÍÎÎÎÏÍÍÏÏÌÎÌÏÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_BAA8 : ValueType
+    public class RequiresStoringk__BackingRelated_BAA8 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_5AF;
+        public object f_91C;
+        public object f_2F6;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xC53B0
         public void InternalEquals(){} // RVA: 0x77900
@@ -74,8 +122,17 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÏÍÍÌÌÌÏÍÌÌÍÍÍÌÏÌÌÎÏÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_BCAD : ValueType
+    public class RequiresStoringk__BackingRelated_BCAD : ValueType
     {
+        public object f_BF5;
+        public object f_5AF;
+        public object f_91C;
+        public object f_6F3;
+        public object f_040;
+        public object f_18E;
+        public object f_F31;
+        public object f_F55;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xE31B0
         public void InternalEquals(){} // RVA: 0x77900
@@ -92,34 +149,6 @@ namespace VRC.Misc
         public void m_D41(){} // RVA: 0xE3280
         public void m_2E2(){} // RVA: 0x77E70
         // ... 10 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÏÌÍÏÍÎÎÎÌÎÎÍÎÌÎÌÌÌÌ</summary>
-    public class RequiresStoring_23C2 : ValidationParams
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2691C70
-        public void Initialize(){} // RVA: 0x2693280
-        public void get_RequiresStoring(){} // RVA: 0xB43320
-    }
-
-    /// <summary>Originally: ÍÌÌÎÏÌÎÍÌÌÍÏÍÌÍÏÍÏÏÎÍÌÎ</summary>
-    public class RequiresStoring_8E83 : ValidationParams
-    {
-        // ── Methods ──
-        public void set_RequiresStoring(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0x2691C70
-        public void get_RequiresStoring(){} // RVA: 0xC2E4C0
-        // ── Unresolved (hash) ──
-        public void m_73B(){} // RVA: 0x26933B0
-        public void m_2F5(){} // RVA: 0xBA9BA0
-        public void m_0D9(){} // RVA: 0xBA9BA0
-        public void m_F92(){} // RVA: 0xB465B0
-        public void m_FC6(){} // RVA: 0xBA9BA0
-        public void m_53E(){} // RVA: 0xB465B0
-        public void m_BB3(){} // RVA: 0xBA9BA0
-        public void m_35F(){} // RVA: 0x2693800
-        public void m_805(){} // RVA: 0x2693870
     }
 
 }

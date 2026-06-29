@@ -14,6 +14,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Vector2Field : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD4870
         public void .ctor(){} // RVA: 0x7FD4FF0
@@ -22,6 +26,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Vector2IntField : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD8730
         public void .ctor(){} // RVA: 0x7FD8EB0
@@ -30,6 +38,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Vector3Field : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD5820
         public void .ctor(){} // RVA: 0x7FD6130
@@ -38,6 +50,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Vector3IntField : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD9940
         public void .ctor(){} // RVA: 0x7FDA250
@@ -46,6 +62,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Vector4Field : BaseCompositeField`3
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void DescribeFields(){} // RVA: 0x7FD6D10
         public void .ctor(){} // RVA: 0x7FD7A00
@@ -54,6 +74,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VectorImage : ScriptableObject
     {
+        public object version;
+        public object atlas;
+        public object vertices;
+        public object indices;
+        public object settings;
+        public object size;
+
         // ── Methods ──
         public void get_width(){} // RVA: 0xD344A0
         public void get_height(){} // RVA: 0xB4B880
@@ -82,6 +109,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1 : CollectionVirtualizationController
     {
+        public object m_Pool;
+        public object m_CollectionView;
+        public object m_ActiveItems;
+        public object m_DraggedItem;
+        public object m_DeferredScrollToItemIndex;
+        public object m_PerformDeferredScrollToItem;
+        public object m_ScheduleDeferredScrollToItem;
+        public object m_ScrollScheduledItem;
+        public object m_ScrollCallback;
+        public object m_LastFocusedElementIndex;
+        public object m_LastFocusedElementTreeChildIndexes;
+        public object m_VisibleItemPredicateDelegate;
+        public object m_ScrollInsertionList;
+        public object m_EmptyRows;
+
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0x87C0A0
         public void get_itemsCount(){} // RVA: 0x87C130
@@ -118,6 +160,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1 : CollectionVirtualizationController
     {
+        public object m_Pool;
+        public object m_CollectionView;
+        public object m_ActiveItems;
+        public object m_DraggedItem;
+        public object m_DeferredScrollToItemIndex;
+        public object m_PerformDeferredScrollToItem;
+        public object m_ScheduleDeferredScrollToItem;
+        public object m_ScrollScheduledItem;
+        public object m_ScrollCallback;
+        public object m_LastFocusedElementIndex;
+        public object m_LastFocusedElementTreeChildIndexes;
+        public object m_VisibleItemPredicateDelegate;
+        public object m_ScrollInsertionList;
+        public object m_EmptyRows;
+
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0xB70160
         public void get_itemsCount(){} // RVA: 0x561C7A0
@@ -154,6 +211,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VerticalVirtualizationController`1 : CollectionVirtualizationController
     {
+        public object m_Pool;
+        public object m_CollectionView;
+        public object m_ActiveItems;
+        public object m_DraggedItem;
+        public object m_DeferredScrollToItemIndex;
+        public object m_PerformDeferredScrollToItem;
+        public object m_ScheduleDeferredScrollToItem;
+        public object m_ScrollScheduledItem;
+        public object m_ScrollCallback;
+        public object m_LastFocusedElementIndex;
+        public object m_LastFocusedElementTreeChildIndexes;
+        public object m_VisibleItemPredicateDelegate;
+        public object m_ScrollInsertionList;
+        public object m_EmptyRows;
+
         // ── Methods ──
         public void get_activeItems(){} // RVA: 0xB70160
         public void get_itemsCount(){} // RVA: 0x561C7A0
@@ -190,6 +262,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualData : ValueType
     {
+        public object backgroundColor;
+        public object backgroundImage;
+        public object backgroundPositionX;
+        public object backgroundPositionY;
+        public object backgroundRepeat;
+        public object backgroundSize;
+        public object borderBottomColor;
+        public object borderBottomLeftRadius;
+        public object borderBottomRightRadius;
+        public object borderLeftColor;
+        public object borderRightColor;
+        public object borderTopColor;
+        public object borderTopLeftRadius;
+        public object borderTopRightRadius;
+        public object opacity;
+        public object overflow;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x9960C0
         public void CopyFrom(){} // RVA: 0x996C40
@@ -200,6 +289,111 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElement : Focusable
     {
+        public object _runningAnimationCount;
+        public object _completedAnimationCount;
+        public object s_NextId;
+        public object s_EmptyClassList;
+        public object userDataPropertyKey;
+        public object disabledUssClassName;
+        public object m_Name;
+        public object m_ClassList;
+        public object m_PropertyBag;
+        public object m_Flags;
+        public object m_ViewDataKey;
+        public object m_RenderHints;
+        public object lastLayout;
+        public object lastPseudoPadding;
+        public object renderChainData;
+        public object shouldCutRenderChain;
+        public object uiRenderer;
+        public object m_Layout;
+        public object m_BoundingBox;
+        public object worldBoundingBoxDirtyDependencies;
+        public object m_WorldBoundingBox;
+        public object worldTransformInverseDirtyDependencies;
+        public object m_WorldTransformCache;
+        public object m_WorldTransformInverseCache;
+        public object m_WorldClip;
+        public object m_WorldClipMinusGroup;
+        public object m_WorldClipIsInfinite;
+        public object s_InfiniteRect;
+        public object triggerPseudoMask;
+        public object dependencyPseudoMask;
+        public object m_PseudoStates;
+        public object _containedPointerIds;
+        public object m_PickingMode;
+        public object m_LayoutNode;
+        public object m_Style;
+        public object variableContext;
+        public object inheritedStylesHash;
+        public object controlid;
+        public object imguiContainerDescendantCount;
+        public object m_EnabledSelf;
+        public object m_LanguageDirection;
+        public object m_LocalLanguageDirection;
+        public object _generateVisualContent;
+        public object k_GenerateVisualContentMarker;
+        public object m_SubRenderTargetMode;
+        public object s_runtimeMaterial;
+        public object m_defaultMaterial;
+        public object m_RunningAnimations;
+        public object childCountProperty;
+        public object contentRectProperty;
+        public object dataSourcePathProperty;
+        public object dataSourceProperty;
+        public object disablePlayModeTintProperty;
+        public object enabledInHierarchyProperty;
+        public object enabledSelfProperty;
+        public object layoutProperty;
+        public object languageDirectionProperty;
+        public object localBoundProperty;
+        public object nameProperty;
+        public object panelProperty;
+        public object pickingModeProperty;
+        public object styleSheetsProperty;
+        public object tooltipProperty;
+        public object usageHintsProperty;
+        public object userDataProperty;
+        public object viewDataKeyProperty;
+        public object visibleProperty;
+        public object visualTreeAssetSourceProperty;
+        public object worldBoundProperty;
+        public object worldTransformProperty;
+        public object m_DataSource;
+        public object m_DataSourcePath;
+        public object m_Bindings;
+        public object _dataSourceType;
+        public object m_TrickleDownHandleEventCategories;
+        public object m_BubbleUpHandleEventCategories;
+        public object m_BubbleUpEventCallbackCategories;
+        public object m_TrickleDownEventCallbackCategories;
+        public object m_EventInterestSelfCategories;
+        public object m_CachedEventInterestParentCategories;
+        public object s_NextParentVersion;
+        public object m_NextParentCachedVersion;
+        public object m_NextParentRequiredVersion;
+        public object m_CachedNextParentWithEventInterests;
+        public object k_RootVisualContainerName;
+        public object _hierarchy;
+        public object _isRootVisualContainer;
+        public object _cacheAsBitmap;
+        public object m_PhysicalParent;
+        public object m_LogicalParent;
+        public object elementAdded;
+        public object elementRemoved;
+        public object s_EmptyList;
+        public object m_Children;
+        public object _elementPanel;
+        public object m_VisualTreeAssetSource;
+        public object s_CustomStyleAccess;
+        public object inlineStyleAccess;
+        public object resolvedStyleAccess;
+        public object styleSheetList;
+        public object s_InternalStyleSheetPath;
+        public object tooltipPropertyKey;
+        public object s_TypeData;
+        public object m_TypeData;
+
         // ── Methods ──
         public void UnityEngine.UIElements.IResolvedStyle.get_alignContent(){} // RVA: 0x7EAA0A0
         public void UnityEngine.UIElements.IResolvedStyle.get_alignItems(){} // RVA: 0x7EAA100
@@ -578,6 +772,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementAnimationSystem : BaseVisualTreeUpdater
     {
+        public object m_Animations;
+        public object m_IterationList;
+        public object m_HasNewAnimations;
+        public object m_IterationListDirty;
+        public object s_Description;
+        public object s_ProfilerMarker;
+        public object s_StylePropertyAnimationDescription;
+        public object s_StylePropertyAnimationProfilerMarker;
+        public object lastUpdate;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x7F31B90
         public void get_stylePropertyAnimationProfilerMarker(){} // RVA: 0x7F31BF0
@@ -593,6 +797,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementAsset : UxmlAsset
     {
+        public object m_Name;
+        public object m_RuleIndex;
+        public object m_Text;
+        public object m_PickingMode;
+        public object m_Classes;
+        public object m_StylesheetPaths;
+        public object m_Stylesheets;
+        public object m_SerializedData;
+        public object m_SkipClone;
+
         // ── Methods ──
         public void get_ruleIndex(){} // RVA: 0x4ED9D20
         public void get_classes(){} // RVA: 0x7C7E290
@@ -642,6 +856,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFactoryRegistry : Object
     {
+        public object s_Factories;
+        public object s_MovedTypesFactories;
+
         // ── Methods ──
         public void GetMovedUIControlTypeName(){} // RVA: 0x7F20050
         public void get_factories(){} // RVA: 0x7F20160
@@ -653,6 +870,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusChangeDirection : FocusChangeDirection
     {
+        public object s_Left;
+        public object s_Right;
+
         // ── Methods ──
         public void get_left(){} // RVA: 0x7F2E8C0
         public void get_right(){} // RVA: 0x7F2E920
@@ -662,6 +882,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusChangeTarget : FocusChangeDirection
     {
+        public object Pool;
+        public object _target;
+
         // ── Methods ──
         public void GetPooled(){} // RVA: 0x7F2EC70
         public void Dispose(){} // RVA: 0x7F2ED90
@@ -674,6 +897,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementFocusRing : Object
     {
+        public object root;
+        public object _defaultFocusOrder;
+        public object m_FocusRing;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F2F250
         public void get_focusController(){} // RVA: 0x10AE060
@@ -693,6 +920,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementListPool : Object
     {
+        public object pool;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x7F2C320
         public void Get(){} // RVA: 0x7F2C3F0
@@ -702,6 +931,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementStyleSheetSet : ValueType
     {
+        public object m_Element;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Add(){} // RVA: 0x99BE80
@@ -714,6 +945,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualElementUtils : Object
     {
+        public object s_usedNames;
+        public object s_FoldoutType;
+        public object s_InspectorElementUssClassName;
+
         // ── Methods ──
         public void GetUniqueName(){} // RVA: 0x7F313D0
         public void GetFoldoutDepth(){} // RVA: 0x7F31590
@@ -743,6 +978,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeAsset : ScriptableObject
     {
+        public object LinkedVEAInTemplatePropertyName;
+        public object NoRegisteredFactoryErrorMessage;
+        public object m_ImportedWithErrors;
+        public object m_HasUpdatedUrls;
+        public object m_ImportedWithWarnings;
+        public object s_TemporarySlotInsertionPoints;
+        public object s_VeaIdsPath;
+        public object m_Usings;
+        public object inlineSheet;
+        public object m_VisualElementAssets;
+        public object m_TemplateAssets;
+        public object m_UxmlObjectEntries;
+        public object m_UxmlObjectIds;
+        public object m_AssetEntries;
+        public object m_Slots;
+        public object m_ContentContainerId;
+        public object m_ContentHash;
+
         // ── Methods ──
         public void get_importedWithErrors(){} // RVA: 0x7B049C0
         public void set_importedWithErrors(){} // RVA: 0xB5DD60
@@ -797,6 +1050,22 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeBindingsUpdater : BaseVisualTreeHierarchyTrackerUpdater
     {
+        public object s_BindingRequestObjectVEPropertyName;
+        public object s_AdditionalBindingObjectVEPropertyName;
+        public object s_Description;
+        public object s_ProfilerMarker;
+        public object s_ProfilerBindingRequestsMarker;
+        public object s_MarkerUpdate;
+        public object s_MarkerPoll;
+        public object _disableBindingsThrottling;
+        public object m_ElementsWithBindings;
+        public object m_ElementsToAdd;
+        public object m_ElementsToRemove;
+        public object m_LastUpdateTime;
+        public object m_ElementsToBind;
+        public object _temporaryObjectCache;
+        public object updatedBindings;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x7E78B80
         public void get_disableBindingsThrottling(){} // RVA: 0x7E78BE0
@@ -821,6 +1090,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeDataBindingsUpdater : BaseVisualTreeUpdater
     {
+        public object s_UpdateProfilerMarker;
+        public object s_ProcessBindingRequestsProfilerMarker;
+        public object s_ProcessDataSourcesProfilerMarker;
+        public object s_ShouldUpdateBindingProfilerMarker;
+        public object s_UpdateBindingProfilerMarker;
+        public object m_Updater;
+        public object m_BindingRegistrationRequests;
+        public object m_DataSourceChangedRequests;
+        public object m_RemovedElements;
+        public object m_BoundsElement;
+        public object m_VersionChanges;
+        public object m_TrackedObjects;
+        public object m_RanUpdate;
+        public object m_KnownSources;
+        public object m_DirtyBindings;
+        public object m_AttachedPanel;
+
         // ── Methods ──
         public void get_bindingManager(){} // RVA: 0x7E7AB30
         public void get_profilerMarker(){} // RVA: 0x7E7AB60
@@ -843,6 +1129,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeHierarchyFlagsUpdater : BaseVisualTreeUpdater
     {
+        public object m_Version;
+        public object m_LastVersion;
+        public object s_Description;
+        public object s_ProfilerMarker;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x7F32840
         public void OnVersionChanged(){} // RVA: 0x7F328A0
@@ -857,6 +1148,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeStyleUpdater : BaseVisualTreeUpdater
     {
+        public object m_ApplyStyleUpdateList;
+        public object m_TransitionPropertyUpdateList;
+        public object m_IsApplyingStyles;
+        public object m_Version;
+        public object m_LastVersion;
+        public object m_StyleContextHierarchyTraversal;
+        public object s_Description;
+        public object s_ProfilerMarker;
+        public object _disposed;
+
         // ── Methods ──
         public void get_profilerMarker(){} // RVA: 0x7F34260
         public void OnVersionChanged(){} // RVA: 0x7F342C0
@@ -871,6 +1172,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeStyleUpdaterTraversal : HierarchyTraversal
     {
+        public object m_ProcessVarContext;
+        public object m_UpdateList;
+        public object m_ParentList;
+        public object m_TempMatchResults;
+        public object _currentPixelsPerPoint;
+        public object m_StyleMatchingContext;
+        public object m_StylePropertyReader;
+        public object _currentPanel;
+        public object m_AnimatedProperties;
+
         // ── Methods ──
         public void get_currentPixelsPerPoint(){} // RVA: 0xCD64A0
         public void set_currentPixelsPerPoint(){} // RVA: 0xD96F20
@@ -894,6 +1205,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class VisualTreeUpdater : Object
     {
+        public object m_Panel;
+        public object m_UpdaterArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7F381F0
         public void Dispose(){} // RVA: 0x7F38480

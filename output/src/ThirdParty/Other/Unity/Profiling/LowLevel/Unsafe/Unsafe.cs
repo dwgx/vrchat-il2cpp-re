@@ -7,6 +7,14 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 {
     public class ProfilerRecorderDescription : ValueType
     {
+        public object category;
+        public object flags;
+        public object dataType;
+        public object unitType;
+        public object reserved0;
+        public object nameUtf8Len;
+        public object nameUtf8;
+
         // ── Methods ──
         public void get_Category(){} // RVA: 0xE3300
         public void get_Name(){} // RVA: 0x95EE50
@@ -34,6 +42,8 @@ namespace ThirdParty.Other.Unity.Profiling.LowLevel.Unsafe
 
     public class ProfilerRecorderHandle : ValueType
     {
+        public object handle;
+
         // ── Methods ──
         public void get_Valid(){} // RVA: 0x95EE60
         public void GetDescription(){} // RVA: 0x7B49A50

@@ -7,12 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 {
     public class LoadSceneParameters : ValueType
     {
+        public object m_LoadSceneMode;
+        public object m_LocalPhysicsMode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4A8D50
     }
 
     public class Scene : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void IsValidInternal(){} // RVA: 0x7C28350
         public void GetNameInternal(){} // RVA: 0x7C283A0
@@ -36,6 +41,11 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class SceneManager : Object
     {
+        public object s_AllowLoadScene;
+        public object sceneLoaded;
+        public object sceneUnloaded;
+        public object activeSceneChanged;
+
         // ── Methods ──
         public void get_sceneCount(){} // RVA: 0x7C292B0
         public void get_sceneCountInBuildSettings(){} // RVA: 0x7C29300
@@ -65,6 +75,9 @@ namespace ThirdParty.Unity.UnityEngine.SceneManagement
 
     public class SceneManagerAPI : Object
     {
+        public object s_DefaultAPI;
+        public object _overrideAPI;
+
         // ── Methods ──
         public void get_ActiveAPI(){} // RVA: 0x7C29000
         public void get_overrideAPI(){} // RVA: 0x7C290C0

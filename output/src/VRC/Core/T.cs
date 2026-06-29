@@ -7,6 +7,12 @@ namespace VRC.Core
 {
     public class TextureDestructionFlusher : Object
     {
+        public object KEEP_FRAMES;
+        public object _registered;
+        public object _cts;
+        public object _destructionCmd;
+        public object _pinned;
+
         // ── Methods ──
         public void EnqueueHandle(){} // RVA: 0xA7161B0
         public void EnsureRegistered(){} // RVA: 0xA716260
@@ -18,6 +24,13 @@ namespace VRC.Core
 
     public class TextureDirectCopy : Object
     {
+        public object NATIVE_LIB;
+        public object _initialized;
+        public object _available;
+        public object _renderEventCallback;
+        public object _textureHandles;
+        public object _destructionQueue;
+
         // ── Methods ──
         public void VRCTexCopy_Initialize(){} // RVA: 0xA717950
         public void VRCTexCopy_Shutdown(){} // RVA: 0xA7179D0

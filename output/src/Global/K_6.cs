@@ -1,29 +1,20 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 1222
+// Methods: 1264
 
-public class Kernel : Object
+public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
-    public void AddSameSign(){} // RVA: 0x6665890
-    public void Subtract(){} // RVA: 0x6665A90
-    public void MinusEq(){} // RVA: 0x6665C70
-    public void PlusEq(){} // RVA: 0x6665D90
-    public void Compare(){} // RVA: 0x6665F50
-    public void SingleByteDivideInPlace(){} // RVA: 0x66660A0
-    public void DwordMod(){} // RVA: 0x66631B0
-    public void DwordDivMod(){} // RVA: 0x6666150
-    public void multiByteDivide(){} // RVA: 0x6666380
-    public void LeftShift(){} // RVA: 0x6666B30
-    public void RightShift(){} // RVA: 0x6666E30
-    public void Multiply(){} // RVA: 0x6667050
-    public void MultiplyMod2p32pmod(){} // RVA: 0x6667170
-    public void modInverse(){} // RVA: 0x66673E0
+    public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -43,24 +34,50 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x423A2F0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x423A400
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x423E890
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x423EB50
 }
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x423A2F0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x423A400
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4241540
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4241800
 }
 
 public class KeyCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class KeyCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -80,25 +97,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4207A20
-    public void CopyTo(){} // RVA: 0x420A310
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x420A420
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4231210
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4231500
-}
+    public object _dictionary;
 
-public class KeyCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -118,6 +118,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -137,6 +139,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -156,6 +160,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -175,6 +181,50 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x420A310
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x420A420
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4231210
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4231500
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x420A310
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x420A420
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x4231210
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x4231500
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -194,6 +244,29 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x423A2F0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x423A400
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x423F6A0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x423F8E0
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -213,6 +286,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -232,6 +307,16 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -251,6 +336,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -270,6 +357,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -289,6 +378,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -308,6 +399,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -327,6 +420,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -346,6 +441,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -365,6 +462,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -384,6 +483,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -403,6 +504,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -422,6 +525,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -441,6 +546,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -460,6 +567,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -479,6 +588,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -498,6 +609,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -517,6 +630,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -536,6 +651,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -555,6 +672,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -574,6 +693,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -593,6 +714,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -612,6 +735,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -631,6 +756,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -650,6 +777,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -669,6 +798,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -688,6 +819,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -707,6 +840,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -726,6 +861,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -745,6 +882,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -764,6 +903,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -783,6 +924,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -802,6 +945,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -821,6 +966,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -840,12 +987,16 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -865,6 +1016,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -884,6 +1037,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -903,6 +1058,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -922,6 +1079,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -941,6 +1100,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -960,6 +1121,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -979,6 +1142,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -998,6 +1163,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1017,6 +1184,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1036,6 +1205,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1055,6 +1226,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1074,6 +1247,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1093,6 +1268,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1112,6 +1289,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1131,12 +1310,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class KeyCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -1156,6 +1331,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -1175,6 +1352,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1194,6 +1373,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -1213,6 +1394,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1232,6 +1415,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1251,6 +1436,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1270,6 +1457,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1289,6 +1478,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1308,6 +1499,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1327,12 +1520,16 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1352,6 +1549,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1371,6 +1570,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _parent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -1386,12 +1587,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class KeyCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1411,6 +1608,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1430,6 +1629,29 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x423A2F0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x423A400
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x41FFD50
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x423F6A0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x423F8E0
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1449,6 +1671,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1468,12 +1692,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class KeyCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1493,6 +1713,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1512,6 +1734,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1531,6 +1755,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1550,6 +1776,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1569,6 +1797,16 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1588,6 +1826,16 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class KeyCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1607,6 +1855,8 @@ public class KeyCollection : Object
 
 public class KeyCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1626,6 +1876,9 @@ public class KeyCollection : Object
 
 public class KeyComparer`1 : Object
 {
+    public object Default;
+    public object actualComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void Compare(){} // RVA: 0xA94080
@@ -1634,20 +1887,13 @@ public class KeyComparer`1 : Object
 
 public class KeyEnumerator : ValueType
 {
+    public object m_Enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xED390
     public void get_Current(){} // RVA: 0x8D1180
     public void MoveNext(){} // RVA: 0x8D10B0
     public void GetEnumerator(){} // RVA: 0xED360
-}
-
-public class KeyEnumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894320
-    public void get_Current(){} // RVA: 0xA94080
-    public void MoveNext(){} // RVA: 0x87D280
-    public void Reset(){} // RVA: 0x894290
 }
 
 public class KeyGeneratedEventHandler : MulticastDelegate
@@ -1659,6 +1905,8 @@ public class KeyGeneratedEventHandler : MulticastDelegate
 
 public class KeyList : Object
 {
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Count(){} // RVA: 0x4256270
@@ -1680,21 +1928,11 @@ public class KeyList : Object
     public void RemoveAt(){} // RVA: 0x42562E0
 }
 
-public class KeyValuePairProperty : Property`2
-{
-    // ── Methods ──
-    public void get_Name(){} // RVA: 0x87C0A0
-    public void get_IsReadOnly(){} // RVA: 0x87D280
-    public void GetValue(){} // RVA: 0xA94080
-    public void SetValue(){} // RVA: 0xA94080
-    public void get_Key(){} // RVA: 0xA94080
-    public void set_Key(){} // RVA: 0xA94080
-    public void get_ObjectKey(){} // RVA: 0x87C0A0
-    public void .ctor(){} // RVA: 0x894290
-}
-
 public class KeyableListEnumerator : ValueType
 {
+    public object _keyableList;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9C8350
     public void MoveNext(){} // RVA: 0x9C8360
@@ -1706,6 +1944,9 @@ public class KeyableListEnumerator : ValueType
 
 public class Keypair : ValueType
 {
+    public object _signingKey;
+    public object _verifyKey;
+
     // ── Methods ──
     public void get_SigningKey(){} // RVA: 0x77900
     public void get_VerifyKey(){} // RVA: 0x77ED0

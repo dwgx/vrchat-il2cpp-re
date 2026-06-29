@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class FastApproximateAntialiasing : Object
     {
+        public object fastMode;
+        public object keepAlpha;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -20,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class Fog : Object
     {
+        public object enabled;
+        public object excludeSkybox;
+
         // ── Methods ──
         public void GetCameraFlags(){} // RVA: 0xC3CCE0
         public void IsEnabledAndSupported(){} // RVA: 0x7968120

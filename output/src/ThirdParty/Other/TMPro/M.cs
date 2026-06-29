@@ -7,6 +7,9 @@ namespace ThirdParty.Other.TMPro
 {
     public class MarkPositionAdjustment : ValueType
     {
+        public object m_XPositionAdjustment;
+        public object m_YPositionAdjustment;
+
         // ── Methods ──
         public void get_xPositionAdjustment(){} // RVA: 0x88D10
         public void set_xPositionAdjustment(){} // RVA: 0xD1B20
@@ -17,6 +20,11 @@ namespace ThirdParty.Other.TMPro
 
     public class MarkToBaseAdjustmentRecord : ValueType
     {
+        public object m_BaseGlyphID;
+        public object m_BaseGlyphAnchorPoint;
+        public object m_MarkGlyphID;
+        public object m_MarkPositionAdjustment;
+
         // ── Methods ──
         public void get_baseGlyphID(){} // RVA: 0x77E60
         public void set_baseGlyphID(){} // RVA: 0x29580
@@ -50,6 +58,11 @@ namespace ThirdParty.Other.TMPro
 
     public class MarkToMarkAdjustmentRecord : ValueType
     {
+        public object m_BaseMarkGlyphID;
+        public object m_BaseMarkGlyphAnchorPoint;
+        public object m_CombiningMarkGlyphID;
+        public object m_CombiningMarkPositionAdjustment;
+
         // ── Methods ──
         public void get_baseMarkGlyphID(){} // RVA: 0x77E60
         public void set_baseMarkGlyphID(){} // RVA: 0x29580
@@ -83,6 +96,11 @@ namespace ThirdParty.Other.TMPro
 
     public class MarkupAttribute : ValueType
     {
+        public object m_NameHashCode;
+        public object m_ValueHashCode;
+        public object m_ValueStartIndex;
+        public object m_ValueLength;
+
         // ── Methods ──
         public void get_NameHashCode(){} // RVA: 0x77E60
         public void set_NameHashCode(){} // RVA: 0x29580
@@ -96,6 +114,8 @@ namespace ThirdParty.Other.TMPro
 
     public class MarkupElement : ValueType
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void get_NameHashCode(){} // RVA: 0x944EA0
         public void set_NameHashCode(){} // RVA: 0x944ED0
@@ -112,6 +132,16 @@ namespace ThirdParty.Other.TMPro
 
     public class MaterialReference : ValueType
     {
+        public object index;
+        public object fontAsset;
+        public object spriteAsset;
+        public object material;
+        public object isDefaultMaterial;
+        public object isFallbackMaterial;
+        public object fallbackMaterial;
+        public object padding;
+        public object referenceCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x941C00
         public void Contains(){} // RVA: 0x79CFBA0
@@ -120,6 +150,12 @@ namespace ThirdParty.Other.TMPro
 
     public class MaterialReferenceManager : Object
     {
+        public object s_Instance;
+        public object m_FontMaterialReferenceLookup;
+        public object m_FontAssetReferenceLookup;
+        public object m_SpriteAssetReferenceLookup;
+        public object m_ColorGradientReferenceLookup;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x79CE4E0
         public void AddFontAsset(){} // RVA: 0x79CE5C0
@@ -164,6 +200,9 @@ namespace ThirdParty.Other.TMPro
 
     public class Mesh_Extents : ValueType
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DB0
         public void ToString(){} // RVA: 0x9427B0
@@ -171,6 +210,9 @@ namespace ThirdParty.Other.TMPro
 
     public class MultipleSubstitutionRecord : ValueType
     {
+        public object m_TargetGlyphID;
+        public object m_SubstituteGlyphIDs;
+
         // ── Methods ──
         public void get_targetGlyphID(){} // RVA: 0x77E60
         public void set_targetGlyphID(){} // RVA: 0x29580

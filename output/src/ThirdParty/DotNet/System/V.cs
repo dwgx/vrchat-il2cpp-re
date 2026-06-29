@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System
 {
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void Equals(){} // RVA: 0x6D3540
@@ -25,6 +28,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Equals(){} // RVA: 0xA94080
@@ -43,6 +49,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3FD0
         public void Equals(){} // RVA: 0x6BC580
@@ -61,6 +70,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -79,42 +91,27 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35CE80
-        public void Equals(){} // RVA: 0x6BFC70
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6BFC90
-        public void System.IComparable.CompareTo(){} // RVA: 0x6BFCA0
-        public void CompareTo(){} // RVA: 0x6BFCB0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6BFCD0
-        public void GetHashCode(){} // RVA: 0x6BFCE0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6BFCF0
-        public void GetHashCodeCore(){} // RVA: 0x6BFD40
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6BFCF0
-        public void ToString(){} // RVA: 0x6BFD50
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6BFD60
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35CE80
-    }
-
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -133,24 +130,66 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
+        public void Equals(){} // RVA: 0x6BFC70
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6BFC90
+        public void System.IComparable.CompareTo(){} // RVA: 0x6BFCA0
+        public void CompareTo(){} // RVA: 0x6BFCB0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6BFCD0
+        public void GetHashCode(){} // RVA: 0x6BFCE0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6BFCF0
+        public void GetHashCodeCore(){} // RVA: 0x6BFD40
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6BFCF0
+        public void ToString(){} // RVA: 0x6BFD50
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6BFD60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35D230
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DEC70
         public void Equals(){} // RVA: 0x6DECA0
@@ -169,42 +208,63 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x666AD0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -223,6 +283,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -241,36 +304,54 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void Equals(){} // RVA: 0x6CBAD0
@@ -289,24 +370,36 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6639B0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35D160
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -325,36 +418,54 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6639B0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -373,30 +484,45 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x664320
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AEC30
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35D160
         public void Equals(){} // RVA: 0x6BF2A0
@@ -415,24 +541,36 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6639B0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BAAA0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x662C10
         public void Equals(){} // RVA: 0x6D9690
@@ -451,6 +589,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void Equals(){} // RVA: 0x6CA050
@@ -469,12 +610,18 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BAAA0
         public void Equals(){} // RVA: 0x6C1CE0
@@ -493,6 +640,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AEC30
         public void Equals(){} // RVA: 0x6B5810
@@ -511,30 +661,45 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A4DA0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x666040
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BAAA0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35D160
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void Equals(){} // RVA: 0x6CA050
@@ -553,30 +718,45 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C1260
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6AEC30
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B2620
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BE9A0
         public void Equals(){} // RVA: 0x6BEAC0
@@ -595,6 +775,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x664830
         public void Equals(){} // RVA: 0x6C0450
@@ -613,18 +796,27 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x666040
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void Equals(){} // RVA: 0x6CB890
@@ -643,6 +835,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void Equals(){} // RVA: 0x6CB890
@@ -661,36 +856,54 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B3850
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -709,6 +922,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -727,24 +943,36 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B8C90
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B8C90
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -763,6 +991,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x362B00
         public void Equals(){} // RVA: 0x662F70
@@ -781,6 +1012,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -799,6 +1033,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -817,18 +1054,27 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x664830
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B8C90
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DE760
         public void Equals(){} // RVA: 0x6DE8A0
@@ -847,42 +1093,63 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6BA580
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -901,6 +1168,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void Equals(){} // RVA: 0x6D3540
@@ -919,18 +1189,27 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CDE20
         public void Equals(){} // RVA: 0x6CDE60
@@ -969,6 +1248,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Equals(){} // RVA: 0xA94080
@@ -987,6 +1270,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x79C50
         public void Equals(){} // RVA: 0x6E5B40
@@ -1005,6 +1292,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DFDF0
         public void Equals(){} // RVA: 0x6DFE60
@@ -1023,6 +1314,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6E4F10
         public void Equals(){} // RVA: 0x6E4F70
@@ -1055,6 +1350,11 @@ namespace ThirdParty.DotNet.System
 
     public class Version : Object
     {
+        public object _Major;
+        public object _Minor;
+        public object _Build;
+        public object _Revision;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693C680
         public void Clone(){} // RVA: 0x693C6C0

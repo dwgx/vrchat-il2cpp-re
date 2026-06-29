@@ -1,10 +1,13 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 634
+// Methods: 645
 
 public class PackageEntry : ValueType
 {
+    public object _packageId;
+    public object _packageVersion;
+
     // ── Methods ──
     public void get_packageId(){} // RVA: 0x77900
     public void set_packageId(){} // RVA: 0x47F10
@@ -22,68 +25,100 @@ public class PacketsCallback : MulticastDelegate
 
 public class PagedGroupResult : Object
 {
+    public object Groups;
+    public object NextCursor;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Painter2DJob : ValueType
 {
+    public object painterHandle;
+    public object allocator;
+    public object jobParameters;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9A9E00
 }
 
 public class Pair : ValueType
 {
+    public object shapeA;
+    public object isReceiverA;
+    public object shapeB;
+    public object isReceiverB;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9C5EC0
     public void Equals(){} // RVA: 0x9C5F00
     public void GetHashCode(){} // RVA: 0x9C5F20
 }
 
-public class ParallelWriter : ValueType
+public class PanicFunction_ : MulticastDelegate
 {
     // ── Methods ──
-    public void Enqueue(){} // RVA: 0xA94080
+    public void .ctor(){} // RVA: 0xBA0FE0
+    public void Invoke(){} // RVA: 0xBA10B0
+}
+
+public class PanoSpec[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
 public class ParallelWriter : ValueType
 {
+    public object unsafeWriter;
+
     // ── Methods ──
     public void Enqueue(){} // RVA: 0xA94080
 }
 
 public class Parameter : Object
 {
+    public object name;
+    public object valueType;
+    public object saved;
+    public object defaultValue;
+    public object networkSynced;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA6C83B0
 }
 
 public class Parameter : Object
 {
-    // ── Methods ──
-    public void get_hash(){} // RVA: 0xA6C8530
-    public void IsNull(){} // RVA: 0xA6C8560
-    public void .ctor(){} // RVA: 0xB43310
-}
+    public object Value;
 
-public class Parameter : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class Parameter : Object
 {
+    public object type;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void get_Type(){} // RVA: 0xB8F8F0
     public void get_Value(){} // RVA: 0xB465B0
-}
-
-public class Parameter : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA721D00
 }
 
 public class ParameterConfig[] : Array
@@ -108,6 +143,10 @@ public class ParameterConfig[] : Array
 
 public class ParameterEnumerable : ValueType
 {
+    public object m_State;
+    public object m_Parameter;
+    public object m_MapIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x928F90
     public void GetEnumerator(){} // RVA: 0x929010
@@ -117,6 +156,24 @@ public class ParameterEnumerable : ValueType
 
 public class ParameterEnumerator : ValueType
 {
+    public object m_State;
+    public object m_MapIndex;
+    public object m_BindingCurrentIndex;
+    public object m_BindingEndIndex;
+    public object m_InteractionCurrentIndex;
+    public object m_InteractionEndIndex;
+    public object m_ProcessorCurrentIndex;
+    public object m_ProcessorEndIndex;
+    public object m_BindingMask;
+    public object m_ObjectType;
+    public object m_ParameterName;
+    public object m_MayBeInteraction;
+    public object m_MayBeProcessor;
+    public object m_MayBeComposite;
+    public object m_CurrentBindingIsComposite;
+    public object m_CurrentObject;
+    public object m_CurrentParameter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x929300
     public void MoveToNextBinding(){} // RVA: 0x929380
@@ -132,6 +189,9 @@ public class ParameterEnumerator : ValueType
 
 public class ParameterLookupKey : Object
 {
+    public object _name;
+    public object _type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void get_Name(){} // RVA: 0xB5DBF0
@@ -142,11 +202,28 @@ public class ParameterLookupKey : Object
 
 public class ParameterLookupValue : Object
 {
+    public object _duplicateName;
+    public object _jsonPropertyInfo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBA9BA0
     public void get_DuplicateName(){} // RVA: 0xB5DBF0
     public void set_DuplicateName(){} // RVA: 0xB44D60
     public void get_JsonPropertyInfo(){} // RVA: 0xB465B0
+}
+
+public class ParameterOverride : ValueType
+{
+    public object objectRegistrationName;
+    public object parameter;
+    public object bindingMask;
+    public object value;
+
+    // ── Methods ──
+    public void get_objectType(){} // RVA: 0x9298E0
+    public void .ctor(){} // RVA: 0x929970
+    public void Find(){} // RVA: 0x77F2760
+    public void PickMoreSpecificOne(){} // RVA: 0x77F2C50
 }
 
 public class ParameterOverride[] : Array
@@ -209,38 +286,11 @@ public class Parameter[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class Parameter[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class ParameterizedConstructorDelegate`5 : MulticastDelegate
 {
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899C90
     public void Invoke(){} // RVA: 0xA94080
-}
-
-public class ParentClipScope : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x96FE00
-    public void Dispose(){} // RVA: 0x96FEB0
 }
 
 public class ParentHash[] : Array
@@ -263,8 +313,27 @@ public class ParentHash[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class ParseError : Object
+{
+    public object position;
+    public object message;
+
+    // ── Methods ──
+    public void get_EqualityContract(){} // RVA: 0x7DC8BC0
+    public void .ctor(){} // RVA: 0x6CB6BA0
+    public void ToString(){} // RVA: 0x7DC8C40
+    public void PrintMembers(){} // RVA: 0x7DC8D80
+    public void GetHashCode(){} // RVA: 0x7DC8E50
+    public void Equals(){} // RVA: 0x7DC9010
+}
+
 public class ParsedPathComponent : ValueType
 {
+    public object m_Layout;
+    public object m_Usages;
+    public object m_Name;
+    public object m_DisplayName;
+
     // ── Methods ──
     public void get_layout(){} // RVA: 0x92FB70
     public void get_usages(){} // RVA: 0x932930
@@ -279,6 +348,11 @@ public class ParsedPathComponent : ValueType
 
 public class PartialStateForRollback : ValueType
 {
+    public object _prevTotalConsumed;
+    public object _prevBytePositionInLine;
+    public object _prevConsumed;
+    public object _prevCurrentPosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8F1370
     public void GetStartPosition(){} // RVA: 0x8F13E0
@@ -286,6 +360,9 @@ public class PartialStateForRollback : ValueType
 
 public class PassthroughCapabilities : Object
 {
+    public object _supportsPassthrough;
+    public object _supportsColorPassthrough;
+
     // ── Methods ──
     public void get_SupportsPassthrough(){} // RVA: 0xC120A0
     public void get_SupportsColorPassthrough(){} // RVA: 0xDD5C50
@@ -294,6 +371,12 @@ public class PassthroughCapabilities : Object
 
 public class PathParser : ValueType
 {
+    public object path;
+    public object length;
+    public object leftIndexInPath;
+    public object rightIndexInPath;
+    public object current;
+
     // ── Methods ──
     public void get_isAtEnd(){} // RVA: 0x932D50
     public void .ctor(){} // RVA: 0x932D60
@@ -315,8 +398,29 @@ public class PayloadBuffer : MemoryStream
     public void .ctor(){} // RVA: 0xA1C37E0
 }
 
+public class PcgRandom : ValueType
+{
+    public object increment;
+    public object state;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x95FEE0
+    public void GetUInt(){} // RVA: 0x95FF10
+    public void RotateRight(){} // RVA: 0x67114B0
+    public void XshRr(){} // RVA: 0x7B6FDE0
+    public void Step(){} // RVA: 0x95FF60
+}
+
 public class Pelvis : Object
 {
+    public object _iKOffset;
+    public object _heightOffset;
+    public object grounding;
+    public object lastRootPosition;
+    public object damperF;
+    public object initiated;
+    public object lastTime;
+
     // ── Methods ──
     public void get_IKOffset(){} // RVA: 0xB60220
     public void set_IKOffset(){} // RVA: 0xB60240
@@ -331,6 +435,10 @@ public class Pelvis : Object
 
 public class PerTypeValues`1 : Object
 {
+    public object IsReferenceOrContainsReferences;
+    public object EmptyArray;
+    public object ArrayAdjustment;
+
     // ── Methods ──
     public void MeasureArrayAdjustment(){} // RVA: 0x87C0D0
     public void .cctor(){} // RVA: 0x8942F0
@@ -338,6 +446,38 @@ public class PerTypeValues`1 : Object
 
 public class PerfMetrics : Object
 {
+    public object frameCount;
+    public object frameTime;
+    public object deltaFrameTime;
+    public object appCpuTime_IsValid;
+    public object appCpuTime;
+    public object appGpuTime_IsValid;
+    public object appGpuTime;
+    public object compositorCpuTime_IsValid;
+    public object compositorCpuTime;
+    public object compositorGpuTime_IsValid;
+    public object compositorGpuTime;
+    public object compositorDroppedFrameCount_IsValid;
+    public object compositorDroppedFrameCount;
+    public object compositorSpaceWarpMode_IsValid;
+    public object compositorSpaceWarpMode;
+    public object systemGpuUtilPercentage_IsValid;
+    public object systemGpuUtilPercentage;
+    public object systemCpuUtilAveragePercentage_IsValid;
+    public object systemCpuUtilAveragePercentage;
+    public object systemCpuUtilWorstPercentage_IsValid;
+    public object systemCpuUtilWorstPercentage;
+    public object deviceCpuClockFrequencyInMHz_IsValid;
+    public object deviceCpuClockFrequencyInMHz;
+    public object deviceGpuClockFrequencyInMHz_IsValid;
+    public object deviceGpuClockFrequencyInMHz;
+    public object deviceCpuClockLevel_IsValid;
+    public object deviceCpuClockLevel;
+    public object deviceGpuClockLevel_IsValid;
+    public object deviceGpuClockLevel;
+    public object deviceCpuCoreUtilPercentage_IsValid;
+    public object deviceCpuCoreUtilPercentage;
+
     // ── Methods ──
     public void ToJSON(){} // RVA: 0x6C3AB10
     public void LoadFromJSON(){} // RVA: 0x6C3B1E0
@@ -346,6 +486,18 @@ public class PerfMetrics : Object
 
 public class Perspective : Object
 {
+    public object depthImageSize;
+    public object depthPrincipalPoint;
+    public object depthFocalLength;
+    public object farClip;
+    public object nearClip;
+    public object extrinsics;
+    public object extrinsicsInv;
+    public object crop;
+    public object clipEpsilon;
+    public object cameraNormal;
+    public object cameraCenter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -394,6 +546,15 @@ public class Physics : Object
 
 public class Pico : ApiModel
 {
+    public object _sku;
+    public object _user_id;
+    public object _subscription_start_time;
+    public object _subscription_end_time;
+    public object _subscription_type;
+    public object _status;
+    public object _free_trial;
+    public object _next_period;
+
     // ── Methods ──
     public void get_sku(){} // RVA: 0xBBFF90
     public void set_sku(){} // RVA: 0xBBFFA0
@@ -436,6 +597,8 @@ public class PinchData[] : Array
 
 public class PinnedArray`1 : ValueType
 {
+    public object _handle;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void Dispose(){} // RVA: 0x894290
@@ -444,17 +607,12 @@ public class PinnedArray`1 : ValueType
 
 public class PinnedBlob : ValueType
 {
+    public object Handle;
+    public object Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
     public void GetMemoryBlock(){} // RVA: 0x8E9DD0
-}
-
-public class PinnedHandle : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xA77730
-    public void Dispose(){} // RVA: 0xA77760
-    public void CanFree(){} // RVA: 0xA77770
 }
 
 public class PipelineSaver : MonoBehaviour
@@ -465,12 +623,18 @@ public class PipelineSaver : MonoBehaviour
 
 public class Plane : ValueType
 {
+    public object position;
+    public object normal;
+
     // ── Methods ──
     public void ClosestPoint(){} // RVA: 0x9C6C80
 }
 
 public class PlatformOptions : Object
 {
+    public object httpHeaders;
+    public object keyAuth;
+
     // ── Methods ──
     public void IsModified(){} // RVA: 0x25477F0
     public void HasChanged(){} // RVA: 0xB43320
@@ -484,6 +648,8 @@ public class PlatformOptions : Object
 
 public class PlayerActions : ValueType
 {
+    public object m_Wrapper;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_Move(){} // RVA: 0x4F850
@@ -508,6 +674,10 @@ public class PlayerBucketRestoredDelegate : MulticastDelegate
 
 public class PlayerInstance : Object
 {
+    public object outputs;
+    public object pcmData;
+    public object isPcmDataReady;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -535,6 +705,13 @@ public class PlayerStorageIdDelegate : MulticastDelegate
 
 public class Point : Object
 {
+    public object transform;
+    public object weight;
+    public object solverPosition;
+    public object solverRotation;
+    public object defaultLocalPosition;
+    public object defaultLocalRotation;
+
     // ── Methods ──
     public void StoreDefaultLocalState(){} // RVA: 0xC38BB0
     public void FixTransform(){} // RVA: 0xC38D20
@@ -547,30 +724,52 @@ public class Point : Object
 
 public class PointAccum : Object
 {
+    public object x;
+    public object y;
+    public object z;
+    public object u;
+    public object v;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA686F60
 }
 
 public class PointExt : Object
 {
+    public object x;
+    public object y;
+    public object z;
+    public object t;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA687240
 }
 
 public class PointExt : Object
 {
+    public object x;
+    public object y;
+    public object z;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA68E5D0
 }
 
 public class PointPrecomp : Object
 {
+    public object ypx_h;
+    public object ymx_h;
+    public object xyd;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA6874A0
 }
 
 public class PointPrecomp : Object
 {
+    public object x;
+    public object y;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA68E780
 }
@@ -597,6 +796,27 @@ public class Point[] : Array
 
 public class PointerEvent : Object
 {
+    public object _pointerId;
+    public object _pointerType;
+    public object _isPrimary;
+    public object _button;
+    public object _pressedButtons;
+    public object _position;
+    public object _localPosition;
+    public object _deltaPosition;
+    public object _deltaTime;
+    public object _clickCount;
+    public object _pressure;
+    public object _tangentialPressure;
+    public object _altitudeAngle;
+    public object _azimuthAngle;
+    public object _twist;
+    public object _tilt;
+    public object _penStatus;
+    public object _radius;
+    public object _radiusVariance;
+    public object _modifiers;
+
     // ── Methods ──
     public void get_pointerId(){} // RVA: 0xB8F8F0
     public void set_pointerId(){} // RVA: 0xB460A0
@@ -651,6 +871,10 @@ public class PointerEvent : Object
 
 public class PointerLocation : ValueType
 {
+    public object _position;
+    public object _panel;
+    public object _flags;
+
     // ── Methods ──
     public void get_Position(){} // RVA: 0x45E460
     public void set_Position(){} // RVA: 0x93050
@@ -663,6 +887,9 @@ public class PointerLocation : ValueType
 
 public class PolarCoord : ValueType
 {
+    public object azimuth;
+    public object elevation;
+
     // ── Methods ──
     public void FromCart(){} // RVA: 0x8E5A00
 }
@@ -689,6 +916,12 @@ public class PolyNode[] : Array
 
 public class PolyfillExtensions : Object
 {
+    public object parameterCache;
+    public object propertyCache;
+    public object eventCache;
+    public object fieldCache;
+    public object TicksPerMicrosecond;
+
     // ── Methods ──
     public void GetNullabilityInfo(){} // RVA: 0x6CFE7B0
     public void GetNullability(){} // RVA: 0x6CFE960
@@ -764,6 +997,13 @@ public class PolygonSolution[] : Array
 
 public class PopupButtonData : ApiModel
 {
+    public object _text;
+    public object _capture;
+    public object _requiredCaptures;
+    public object _completePromotionOnPress;
+    public object _analyticsEventTag;
+    public object _onPressed;
+
     // ── Methods ──
     public void get_text(){} // RVA: 0xBBFF90
     public void set_text(){} // RVA: 0xBBFFA0
@@ -795,6 +1035,13 @@ public class PopupTextElement : TextElement
 
 public class Pose : Object
 {
+    public object visualize;
+    public object name;
+    public object direction;
+    public object yaw;
+    public object pitch;
+    public object angleBuffer;
+
     // ── Methods ──
     public void IsInDirection(){} // RVA: 0xCB9460
     public void SetAngleBuffer(){} // RVA: 0xC12100
@@ -803,6 +1050,19 @@ public class Pose : Object
 
 public class PoseBlendingBehaviour : Object
 {
+    public object name;
+    public object enabled;
+    public object influence;
+    public object pose;
+    public object value;
+    public object action_single;
+    public object action_bool;
+    public object smoothingSpeed;
+    public object type;
+    public object useMask;
+    public object mask;
+    public object previewEnabled;
+
     // ── Methods ──
     public void Update(){} // RVA: 0x6F64FF0
     public void ApplyBlending(){} // RVA: 0x6F65150
@@ -851,6 +1111,14 @@ public class PoseData[] : Array
 
 public class PoseStatef : ValueType
 {
+    public object Pose;
+    public object Velocity;
+    public object Acceleration;
+    public object AngularVelocity;
+    public object AngularAcceleration;
+    public object Time;
+    public object identity;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x6BE34F0
 }
@@ -877,6 +1145,10 @@ public class Pose[] : Array
 
 public class Posef : ValueType
 {
+    public object Orientation;
+    public object Position;
+    public object identity;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA6B0
     public void .cctor(){} // RVA: 0x6BE30F0
@@ -893,6 +1165,10 @@ public class PosesUpdatedHandler : MulticastDelegate
 
 public class PositionOffset : Offset
 {
+    public object forceDirCurveIndex;
+    public object upDirCurveIndex;
+    public object offsetLinks;
+
     // ── Methods ──
     public void GetLength(){} // RVA: 0xCBC9E0
     public void CrossFadeStart(){} // RVA: 0xCBCC20
@@ -902,6 +1178,11 @@ public class PositionOffset : Offset
 
 public class PositionOffsetLink : Object
 {
+    public object positionOffset;
+    public object weight;
+    public object lastValue;
+    public object current;
+
     // ── Methods ──
     public void Apply(){} // RVA: 0xCBD000
     public void CrossFadeStart(){} // RVA: 0xCBB790
@@ -930,6 +1211,10 @@ public class PositionOffset[] : Array
 
 public class PrecomputeCallback : Object
 {
+    public object m_p;
+    public object m_minWidth;
+    public object m_includeNegated;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6956580
     public void Precompute(){} // RVA: 0xA116200
@@ -939,6 +1224,11 @@ public class PrecomputeCallback : Object
 
 public class PrecomputeWithPointMapCallback : Object
 {
+    public object m_point;
+    public object m_pointMap;
+    public object m_fromWNaf;
+    public object m_includeNegated;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA116F30
     public void Precompute(){} // RVA: 0xA117040
@@ -948,12 +1238,16 @@ public class PrecomputeWithPointMapCallback : Object
 
 public class PrepareTextJobData : ValueType
 {
+    public object managedJobDataHandle;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x99A1F0
 }
 
 public class Prime192v1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BAB90
@@ -962,6 +1256,8 @@ public class Prime192v1Holder : X9ECParametersHolder
 
 public class Prime192v2Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BAEB0
@@ -970,6 +1266,8 @@ public class Prime192v2Holder : X9ECParametersHolder
 
 public class Prime192v3Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BB1D0
@@ -978,6 +1276,8 @@ public class Prime192v3Holder : X9ECParametersHolder
 
 public class Prime239v1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BB4F0
@@ -986,6 +1286,8 @@ public class Prime239v1Holder : X9ECParametersHolder
 
 public class Prime239v2Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BB810
@@ -994,6 +1296,8 @@ public class Prime239v2Holder : X9ECParametersHolder
 
 public class Prime239v3Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BBB30
@@ -1002,6 +1306,8 @@ public class Prime239v3Holder : X9ECParametersHolder
 
 public class Prime256v1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void CreateParameters(){} // RVA: 0xA3BBE50
@@ -1030,6 +1336,9 @@ public class PrimitiveConverters : Object
 
 public class PrintFile : ApiModel
 {
+    public object _fileId;
+    public object _image;
+
     // ── Methods ──
     public void get_fileId(){} // RVA: 0xBBFF90
     public void set_fileId(){} // RVA: 0xBBFFA0
@@ -1040,6 +1349,11 @@ public class PrintFile : ApiModel
 
 public class PrivateKeyInfo : Object
 {
+    public object _version;
+    public object _algorithm;
+    public object _key;
+    public object _list;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6658C70
     public void get_Algorithm(){} // RVA: 0xB465B0
@@ -1066,6 +1380,20 @@ public class ProcessExtractedFrame : MulticastDelegate
 
 public class Promotion : ApiModel
 {
+    public object _type;
+    public object _imageUrl;
+    public object _position;
+    public object _displayDelay;
+    public object _impressions;
+    public object _hoursBetweenImpressions;
+    public object _fallback;
+    public object _fallbackPosition;
+    public object _popupId;
+    public object _onPressed;
+    public object _popupCommand;
+    public object _recipes;
+    public object _notification;
+
     // ── Methods ──
     public void get_type(){} // RVA: 0xBBFF90
     public void set_type(){} // RVA: 0xBBFFA0
@@ -1098,12 +1426,37 @@ public class Promotion : ApiModel
 
 public class PropBuilderSessionData : Object
 {
+    public object PropName;
+    public object PropID;
+    public object PropDesc;
+    public object PropTags;
+    public object PropThumbPath;
+    public object PropReleaseStatus;
+    public object PropSpawnType;
+    public object PropWorldPlacementMask;
+    public object PropKind;
+    public object PropScaleWithAvatar;
+    public object PropVisibilityType;
+    public object PropAbilities;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class PropDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xBC4530
+    public void Invoke(){} // RVA: 0xB9E010
+    public void BeginInvoke(){} // RVA: 0xB9E020
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
 public class PropertyScope : ValueType
 {
+    public object m_Visitor;
+    public object m_Property;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x989B00
     public void Dispose(){} // RVA: 0x989B10
@@ -1111,6 +1464,15 @@ public class PropertyScope : ValueType
 
 public class Props : Object
 {
+    public object group;
+    public object mappingWeight;
+    public object pinWeight;
+    public object muscleWeight;
+    public object muscleDamper;
+    public object mapPosition;
+    public object internalCollisionIgnores;
+    public object animatedTargetChildren;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBBA560
     public void Clamp(){} // RVA: 0xBBA700
@@ -1118,12 +1480,20 @@ public class Props : Object
 
 public class PseudoStateData : ValueType
 {
+    public object state;
+    public object negate;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x295B0
 }
 
 public class PuppetEvent : ValueType
 {
+    public object switchToBehaviour;
+    public object animations;
+    public object unityEvent;
+    public object empty;
+
     // ── Methods ──
     public void get_switchBehaviour(){} // RVA: 0x4390
     public void Trigger(){} // RVA: 0x43A0
@@ -1131,6 +1501,9 @@ public class PuppetEvent : ValueType
 
 public class PuppetUpdateLimit : Object
 {
+    public object puppetsPerFrame;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBE5FA0
     public void Step(){} // RVA: 0xBE5FB0

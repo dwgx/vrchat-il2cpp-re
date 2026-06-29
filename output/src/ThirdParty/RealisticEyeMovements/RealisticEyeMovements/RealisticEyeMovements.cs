@@ -7,6 +7,48 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 {
     public class ControlData : Object
     {
+        public object eyeControl;
+        public object leftEye;
+        public object rightEye;
+        public object maxEyeUpBoneAngle;
+        public object maxEyeDownBoneAngle;
+        public object maxEyeUpEyeballAngle;
+        public object maxEyeDownEyeballAngle;
+        public object isEyeBallDefaultSet;
+        public object isEyeBoneDefaultSet;
+        public object isEyeBallLookUpSet;
+        public object isEyeBoneLookUpSet;
+        public object isEyeBallLookDownSet;
+        public object isEyeBoneLookDownSet;
+        public object leftBoneEyeRotationLimiter;
+        public object rightBoneEyeRotationLimiter;
+        public object leftEyeballEyeRotationLimiter;
+        public object rightEyeballEyeRotationLimiter;
+        public object eyelidControl;
+        public object eyelidBoneMode;
+        public object eyelidsFollowEyesVertically;
+        public object upperEyeLidLeft;
+        public object upperEyeLidRight;
+        public object lowerEyeLidLeft;
+        public object lowerEyeLidRight;
+        public object isEyelidBonesDefaultSet;
+        public object isEyelidBonesClosedSet;
+        public object isEyelidBonesLookUpSet;
+        public object isEyelidBonesLookDownSet;
+        public object upperLeftLimiter;
+        public object upperRightLimiter;
+        public object lowerLeftLimiter;
+        public object lowerRightLimiter;
+        public object eyeWidenOrSquint;
+        public object blendshapesForBlinking;
+        public object blendshapesForLookingUp;
+        public object blendshapesForLookingDown;
+        public object blendshapesConfigs;
+        public object isEyelidBlendshapeDefaultSet;
+        public object isEyelidBlendshapeClosedSet;
+        public object isEyelidBlendshapeLookUpSet;
+        public object isEyelidBlendshapeLookDownSet;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x230B910
         public void Equals(){} // RVA: 0x230C890
@@ -39,6 +81,127 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyeAndHeadAnimator : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_04F;
+        public object f_A58;
+        public object f_626;
+        public object f_D56;
+        public object headSpeedModifier;
+        public object headWeight;
+        public object headBoneNonMecanimXform;
+        public object f_984;
+        public object f_1C1;
+        public object useMicroSaccades;
+        public object useMacroSaccades;
+        public object kDrawSightlinesInEditor;
+        public object controlData;
+        public object kMinNextBlinkTime;
+        public object kMaxNextBlinkTime;
+        public object eyelidsFollowEyesVertically;
+        public object f_35A;
+        public object f_3FB;
+        public object f_2C3;
+        public object f_711;
+        public object f_717;
+        public object f_774;
+        public object f_E01;
+        public object f_ED5;
+        public object f_F51;
+        public object f_B18;
+        public object f_752;
+        public object f_D53;
+        public object f_05E;
+        public object f_BA2;
+        public object f_147;
+        public object f_BA8;
+        public object maxEyeHorizAngle;
+        public object maxEyeHorizAngleTowardsNose;
+        public object crossEyeCorrection;
+        public object nervousness;
+        public object limitHeadAngle;
+        public object f_C68;
+        public object f_5EC;
+        public object f_FBA;
+        public object f_3F1;
+        public object f_8BF;
+        public object f_571;
+        public object f_BEE;
+        public object f_60B;
+        public object f_C85;
+        public object f_F12;
+        public object f_7A4;
+        public object f_419;
+        public object f_C76;
+        public object f_773;
+        public object f_4F9;
+        public object f_94B;
+        public object f_1B1;
+        public object f_121;
+        public object f_D07;
+        public object f_29B;
+        public object f_27C;
+        public object f_EE6;
+        public object f_4F0;
+        public object f_F1E;
+        public object f_E5A;
+        public object f_94F;
+        public object f_A5E;
+        public object f_B27;
+        public object f_A5A;
+        public object f_B35;
+        public object f_0BC;
+        public object f_93F;
+        public object f_4FC;
+        public object f_FB0;
+        public object f_0C5;
+        public object f_C7E;
+        public object f_0E7;
+        public object useFinalIK;
+        public object f_0E7;
+        public object f_201;
+        public object f_BD1;
+        public object f_2C8;
+        public object f_286;
+        public object f_506;
+        public object f_5AA;
+        public object f_8B1;
+        public object f_149;
+        public object f_4B5;
+        public object f_75E;
+        public object f_BBF;
+        public object f_257;
+        public object f_95F;
+        public object f_A1F;
+        public object f_FDD;
+        public object f_532;
+        public object f_449;
+        public object f_B51;
+        public object f_E29;
+        public object f_EE0;
+        public object f_B69;
+        public object f_38E;
+        public object f_1CD;
+        public object f_918;
+        public object f_515;
+        public object f_A81;
+        public object f_55C;
+        public object f_33B;
+        public object f_A17;
+        public object f_A28;
+        public object f_B4E;
+        public object f_CD1;
+        public object f_698;
+        public object f_181;
+        public object f_67B;
+        public object f_5EC;
+        public object f_8F5;
+        public object f_978;
+        public object f_876;
+        public object f_275;
+        public object f_A6D;
+        public object f_9D2;
+        public object f_EEB;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x2317100
         public void RaiseCancellation(){} // RVA: 0xB6B1E0
@@ -112,12 +275,37 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyeAndHeadAnimatorForExport : Object
     {
+        public object headBonePath;
+        public object headSpeedModifier;
+        public object headWeight;
+        public object useMicroSaccades;
+        public object useMacroSaccades;
+        public object kDrawSightlinesInEditor;
+        public object controlData;
+        public object kMinNextBlinkTime;
+        public object kMaxNextBlinkTime;
+        public object eyelidsFollowEyesVertically;
+        public object maxEyeHorizAngle;
+        public object maxEyeHorizAngleTowardsNose;
+        public object crossEyeCorrection;
+        public object nervousness;
+        public object limitHeadAngle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class EyeRotationLimiter : Object
     {
+        public object transform;
+        public object defaultQ;
+        public object lookUpQ;
+        public object lookDownQ;
+        public object maxUpAngle;
+        public object maxDownAngle;
+        public object isLookUpSet;
+        public object isLookDownSet;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2306FA0
         public void Equals(){} // RVA: 0x2307150
@@ -145,6 +333,24 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class EyelidRotationLimiter : Object
     {
+        public object transform;
+        public object defaultQ;
+        public object closedQ;
+        public object lookUpQ;
+        public object lookDownQ;
+        public object eyeMaxDownAngle;
+        public object eyeMaxUpAngle;
+        public object defaultPos;
+        public object closedPos;
+        public object lookUpPos;
+        public object lookDownPos;
+        public object isLookUpSet;
+        public object isLookDownSet;
+        public object isDefaultPosSet;
+        public object isClosedPosSet;
+        public object isLookUpPosSet;
+        public object isLookDownPosSet;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2308F40
         public void Equals(){} // RVA: 0x23090D0
@@ -170,6 +376,53 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class LookTargetController : MonoBehaviour
     {
+        public object pointsOfInterest;
+        public object lookAtPlayerRatio;
+        public object stareBackFactor;
+        public object noticePlayerDistance;
+        public object personalSpaceDistance;
+        public object minLookTime;
+        public object maxLookTime;
+        public object playerEyeCenter;
+        public object keepTargetEvenWhenLost;
+        public object OnStartLookingAtPlayer;
+        public object OnStopLookingAtPlayer;
+        public object f_1A5;
+        public object f_EAA;
+        public object f_A6E;
+        public object f_79D;
+        public object f_B43;
+        public object f_FD3;
+        public object f_E97;
+        public object f_2E6;
+        public object f_EED;
+        public object f_5F5;
+        public object f_D01;
+        public object f_BFE;
+        public object f_E54;
+        public object f_ED7;
+        public object f_5BF;
+        public object f_76A;
+        public object f_A0F;
+        public object f_BAA;
+        public object f_2C8;
+        public object f_9D6;
+        public object f_956;
+        public object f_5FF;
+        public object f_6A4;
+        public object f_564;
+        public object isLocal;
+        public object f_585;
+        public object f_571;
+        public object f_D2C;
+        public object f_F68;
+        public object f_1CB;
+        public object f_E4F;
+        public object f_CC6;
+        public object f_844;
+        public object f_339;
+        public object f_E58;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x2327A80
         public void OnDestroy(){} // RVA: 0x2327DD0
@@ -210,6 +463,11 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class SerializableQuaternion : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+        public object w;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4FE0
         public void Initialize(){} // RVA: 0x2315EC0
@@ -227,6 +485,10 @@ namespace ThirdParty.RealisticEyeMovements.RealisticEyeMovements
 
     public class SerializableVector3 : ValueType
     {
+        public object x;
+        public object y;
+        public object z;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x2331CF0
         public void InternalEquals(){} // RVA: 0x2331CF0

@@ -1,10 +1,13 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 952
+// Methods: 936
 
 public class NameProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -13,8 +16,39 @@ public class NameProperty : Property`2
     public void .ctor(){} // RVA: 0x7EE64E0
 }
 
+public class NamespaceDecl : Object
+{
+    public object prefix;
+    public object uri;
+    public object scopeLink;
+    public object prevLink;
+    public object scope;
+    public object implied;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7361E70
+}
+
+public class NestedBinXml : Object
+{
+    public object symbolTables;
+    public object docState;
+    public object next;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7362130
+}
+
 public class NextFramePromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object frameCount;
+    public object core;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x7752480
@@ -30,18 +64,56 @@ public class NextFramePromise : Object
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class NextResult : ValueType
 {
+    public object packet;
+    public object ok;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3A130
+}
+
+public class NextResult : ValueType
+{
+    public object packet;
+    public object ok;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3A130
+}
+
+public class NextResult : ValueType
+{
+    public object packet;
+    public object ok;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3A130
+}
+
+public class NextResult : ValueType
+{
+    public object packet;
+    public object ok;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
 }
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0x22343B0
     public void set_Item(){} // RVA: 0x4701F50
@@ -74,134 +146,176 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712CE0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712CE0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47176C0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x47133A0
+    public void .ctor(){} // RVA: 0x4712F40
 }
 
 public class Node : Object
 {
-    // ── Methods ──
-    public void IsNullOrBlack(){} // RVA: 0x470B5C0
-    public void set_Item(){} // RVA: 0xB44D60
-    public void get_IsBlack(){} // RVA: 0x470B600
-    public void get_Left(){} // RVA: 0xB465B0
-    public void get_Right(){} // RVA: 0xB700F0
-    public void .ctor(){} // RVA: 0x470B520
-    public void get_Item(){} // RVA: 0xB5DBF0
-    public void ColorBlack(){} // RVA: 0x1D9AEF0
-    public void get_Is4Node(){} // RVA: 0x470B6E0
-    public void Split4Node(){} // RVA: 0x470B810
-    public void IsNonNullRed(){} // RVA: 0x470B580
-    public void set_Right(){} // RVA: 0xB70100
-    public void set_Left(){} // RVA: 0xBA9BA0
-    public void get_IsRed(){} // RVA: 0x470B610
-    public void get_Is2Node(){} // RVA: 0x470B620
-    public void ColorRed(){} // RVA: 0x1D9AAA0
-    public void GetSibling(){} // RVA: 0x470B800
-    public void RotateLeft(){} // RVA: 0x470B8C0
-    public void RotateRight(){} // RVA: 0x470BB20
-    public void Merge2Nodes(){} // RVA: 0x470BD80
-    public void GetRotation(){} // RVA: 0x470B780
-    public void Rotate(){} // RVA: 0x470B840
-    public void get_Color(){} // RVA: 0xF73960
-    public void set_Color(){} // RVA: 0xF73A60
-    public void RotateRightLeft(){} // RVA: 0x470BBF0
-    public void RotateLeftRight(){} // RVA: 0x470B990
-    public void ReplaceChild(){} // RVA: 0x470BDB0
-}
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
 
-public class Node : Point
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xC3B210
-}
-
-public class Node : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712CE0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0x22343B0
     public void set_Item(){} // RVA: 0x4701F50
@@ -232,48 +346,88 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712E80
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4717930
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712E10
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Left(){} // RVA: 0xD33E60
     public void get_Right(){} // RVA: 0xD05CA0
@@ -303,6 +457,11 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Left(){} // RVA: 0xD33E60
     public void get_Right(){} // RVA: 0xD05CA0
@@ -332,6 +491,51 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
+    // ── Methods ──
+    public void get_Left(){} // RVA: 0xB465B0
+    public void get_Right(){} // RVA: 0xB700F0
+    public void .ctor(){} // RVA: 0x470B520
+    public void get_Item(){} // RVA: 0xB5DBF0
+    public void ColorBlack(){} // RVA: 0x1D9AEF0
+    public void get_Is4Node(){} // RVA: 0x470B6E0
+    public void Split4Node(){} // RVA: 0x470B810
+    public void IsNonNullRed(){} // RVA: 0x470B580
+    public void set_Right(){} // RVA: 0xB70100
+    public void set_Left(){} // RVA: 0xBA9BA0
+    public void get_IsRed(){} // RVA: 0x470B610
+    public void get_Is2Node(){} // RVA: 0x470B620
+    public void ColorRed(){} // RVA: 0x1D9AAA0
+    public void GetSibling(){} // RVA: 0x470B800
+    public void RotateLeft(){} // RVA: 0x470B8C0
+    public void RotateRight(){} // RVA: 0x470BB20
+    public void Merge2Nodes(){} // RVA: 0x470BD80
+    public void GetRotation(){} // RVA: 0x470B780
+    public void Rotate(){} // RVA: 0x470B840
+    public void get_Color(){} // RVA: 0xF73960
+    public void set_Color(){} // RVA: 0xF73A60
+    public void RotateRightLeft(){} // RVA: 0x470BBF0
+    public void RotateLeftRight(){} // RVA: 0x470B990
+    public void ReplaceChild(){} // RVA: 0x470BDB0
+    public void IsNullOrBlack(){} // RVA: 0x470B5C0
+    public void set_Item(){} // RVA: 0xB44D60
+    public void get_IsBlack(){} // RVA: 0x470B600
+}
+
+public class Node : Object
+{
+    public object EmptyNode;
+    public object _key;
+    public object _frozen;
+    public object _height;
+    public object _count;
+    public object _left;
+    public object _right;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -368,6 +572,14 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object EmptyNode;
+    public object _key;
+    public object _frozen;
+    public object _height;
+    public object _count;
+    public object _left;
+    public object _right;
+
     // ── Methods ──
     public void IndexOf(){} // RVA: 0x4709C20
     public void Add(){} // RVA: 0x4709710
@@ -404,90 +616,132 @@ public class Node : Object
 
 public class Node : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x47133A0
-}
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
 
-public class Node : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x4712E80
-}
-
-public class Node : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x4712F40
-}
-
-public class Node : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4713200
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4713130
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712CE0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4712CE0
 }
 
 public class Node : Object
 {
+    public object _item;
+    public object _left;
+    public object _right;
+    public object _color;
+
     // ── Methods ──
     public void get_Left(){} // RVA: 0xB465B0
     public void get_Right(){} // RVA: 0xB700F0
@@ -520,12 +774,33 @@ public class Node : Object
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
 
 public class Node : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x47133A0
+}
+
+public class Node : Object
+{
+    public object _key;
+    public object _value;
+    public object _next;
+    public object _hashcode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47133A0
 }
@@ -855,26 +1130,6 @@ public class Node[] : Array
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
     public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class Node[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
     public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
     public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
     public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
@@ -1275,26 +1530,6 @@ public class Node[] : Array
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
     public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class Node[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
     public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
     public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
     public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
@@ -1307,6 +1542,26 @@ public class Node[] : Array
     public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
     public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
     public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class Node[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
@@ -1332,12 +1587,27 @@ public class Node[] : Array
 
 public class NoiseParams : ValueType
 {
+    public object Frequency;
+    public object Amplitude;
+    public object Constant;
+
     // ── Methods ──
     public void GetValueAt(){} // RVA: 0x89270
 }
 
 public class NotificationContext : ValueType
 {
+    public object _notification;
+    public object _isScreenReaderEnabled;
+    public object _announcement;
+    public object _wasAnnouncementSuccessful;
+    public object _currentNode;
+    public object _nextNode;
+    public object _fontScale;
+    public object _isBoldTextEnabled;
+    public object _isClosedCaptioningEnabled;
+    public object _nativeContext;
+
     // ── Methods ──
     public void get_notification(){} // RVA: 0x77E60
     public void set_notification(){} // RVA: 0x29580
@@ -1386,16 +1656,10 @@ public class NotificationDispatcher : Object
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class NullProgress`1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x894290
-    public void Report(){} // RVA: 0xA94080
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
 public class NullStream : Stream
 {
+    public object s_zeroTask;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68CC200
     public void get_CanRead(){} // RVA: 0xC2E4C0

@@ -31,6 +31,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AppendPrepend`1 : Object
     {
+        public object source;
+        public object element;
+        public object append;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -78,6 +82,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void TransformAsync(){} // RVA: 0xA94080
@@ -101,6 +115,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -124,6 +148,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -147,6 +181,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -170,6 +214,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -193,6 +247,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -216,6 +280,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -239,6 +313,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -262,6 +346,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -285,6 +379,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -308,6 +412,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorAwaitSelectorBase`3 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object setCurrentCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object resultAwaiter;
+        public object _sourceCurrent;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D3120
         public void TransformAsync(){} // RVA: 0xA94080
@@ -331,6 +445,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899C90
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -347,6 +468,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -363,6 +491,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -379,6 +514,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -395,6 +537,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -411,6 +560,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -427,6 +583,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -443,6 +606,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -459,6 +629,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -475,6 +652,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -491,6 +675,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -507,6 +698,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncEnumeratorBase`2 : MoveNextSource
     {
+        public object moveNextCallbackDelegate;
+        public object source;
+        public object cancellationToken;
+        public object enumerator;
+        public object sourceMoveNext;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x55D4DC0
         public void TryMoveNextCore(){} // RVA: 0x87DAD0
@@ -523,6 +721,12 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DAB0
         public void ComputeKeysAsync(){} // RVA: 0x87C1A0
@@ -531,6 +735,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class AsyncSelectorWithCancellationEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
+        public object keySelector;
+        public object comparer;
+        public object descending;
+        public object next;
+        public object cancellationToken;
+        public object keys;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void ComputeKeysAsync(){} // RVA: 0x87C1A0

@@ -7,8 +7,10 @@ namespace VRC.UI.Dev
 {
     public class EditorFragmentDataState : ScriptableObject
     {
+        public object data;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void .ctor(){} // RVA: 0xDD1AC0
     }
 
 }

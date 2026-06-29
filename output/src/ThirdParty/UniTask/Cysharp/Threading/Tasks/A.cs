@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
-// Classes: 11
-// Methods: 111
+// Classes: 10
+// Methods: 94
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
@@ -14,6 +14,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy : Object
     {
+        public object continuation;
+        public object taskFactory;
+        public object completionSource;
+        public object awaiter;
+        public object syncLock;
+        public object initialized;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77413A0
         public void get_Task(){} // RVA: 0x7741730
@@ -26,6 +33,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncLazy`1 : Object
     {
+        public object continuation;
+        public object taskFactory;
+        public object completionSource;
+        public object awaiter;
+        public object syncLock;
+        public object initialized;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Task(){} // RVA: 0xA94080
@@ -38,6 +52,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncReactiveProperty`1 : Object
     {
+        public object triggerEvent;
+        public object latestValue;
+        public object isValueType;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xA94080
         public void set_Value(){} // RVA: 0xA94080
@@ -53,6 +71,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnit : ValueType
     {
+        public object Default;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x99090
         public void Equals(){} // RVA: 0x318130
@@ -62,6 +82,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnityEventHandler : Object
     {
+        public object cancellationCallback;
+        public object action;
+        public object unityEvent;
+        public object cancellationToken;
+        public object registration;
+        public object isDisposed;
+        public object callOnce;
+        public object core;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x779EE30
         public void OnInvokeAsync(){} // RVA: 0x779F120
@@ -78,6 +107,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AsyncUnityEventHandler`1 : Object
     {
+        public object cancellationCallback;
+        public object action;
+        public object unityEvent;
+        public object cancellationToken;
+        public object registration;
+        public object isDisposed;
+        public object callOnce;
+        public object core;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void OnInvokeAsync(){} // RVA: 0xA94080
@@ -101,6 +139,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource : Object
     {
+        public object pool;
+        public object nextNode;
+        public object core;
+        public object version;
+
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x4865E00
         public void .cctor(){} // RVA: 0x775D840
@@ -122,6 +165,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class AutoResetUniTaskCompletionSource`1 : Object
     {
+        public object pool;
+        public object nextNode;
+        public object core;
+        public object version;
+
         // ── Methods ──
         public void get_NextNode(){} // RVA: 0x87C0A0
         public void .cctor(){} // RVA: 0x8942F0
@@ -142,30 +190,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void TryReturn(){} // RVA: 0x87D280
     }
 
-    public class AutoResetUniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void CreateFromCanceled(){} // RVA: 0x609D4F0
-        public void get_NextNode(){} // RVA: 0x4865E00
-        public void .cctor(){} // RVA: 0x609D1F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Create(){} // RVA: 0x609D390
-        public void CreateFromException(){} // RVA: 0x609D600
-        public void CreateFromResult(){} // RVA: 0x609D710
-        public void get_Task(){} // RVA: 0x609D820
-        public void TrySetResult(){} // RVA: 0x609D890
-        public void TrySetCanceled(){} // RVA: 0x609D8C0
-        public void TrySetException(){} // RVA: 0x609D8F0
-        public void GetResult(){} // RVA: 0x609D920
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x609DA80
-        public void GetStatus(){} // RVA: 0x609DAA0
-        public void UnsafeGetStatus(){} // RVA: 0x609DAC0
-        public void OnCompleted(){} // RVA: 0x609DAE0
-        public void TryReturn(){} // RVA: 0x609DB10
-    }
-
     public class AwaiterActions : Object
     {
+        public object InvokeContinuationDelegate;
+
         // ── Methods ──
         public void Continuation(){} // RVA: 0x775B9F0
         public void .cctor(){} // RVA: 0x775BA60

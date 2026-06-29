@@ -1,16 +1,24 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 458
+// Methods: 448
 
 public class Entry : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
 }
 
 public class Entry : Object
 {
+    public object _key;
+    public object _value;
+    public object _next;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -417,6 +425,23 @@ public class Entry[] : Array
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x28B090
+}
+
+public class Enumerator : ValueType
+{
+    public object _set;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x264890
     public void Dispose(){} // RVA: 0x3FC0
@@ -428,12 +453,22 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25FE90
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -446,12 +481,22 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25FE90
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -464,109 +509,154 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x289100
-}
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
 
-public class Enumerator : ValueType
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2867A0
-    public void MoveNext(){} // RVA: 0x29A170
-    public void get_Current(){} // RVA: 0xDA1B0
     public void Dispose(){} // RVA: 0x3FC0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x29B0C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x286850
-    public void System.Collections.IDictionaryEnumerator.get_Entry(){} // RVA: 0x294BC0
-    public void System.Collections.IDictionaryEnumerator.get_Key(){} // RVA: 0x294590
-    public void System.Collections.IDictionaryEnumerator.get_Value(){} // RVA: 0x288090
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x264890
+    public void MoveNext(){} // RVA: 0x2738B0
     public void get_Current(){} // RVA: 0x7E450
-    public void MoveNext(){} // RVA: 0x273000
-    public void Dispose(){} // RVA: 0x3FC0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x273010
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x264AB0
+    public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x272570
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x27E410
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x26F790
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x27E830
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x269920
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x26C080
 }
 
 public class Enumerator : ValueType
 {
+    public object m_Array;
+    public object m_Index;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x26A880
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x289100
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -579,6 +669,11 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -591,12 +686,23 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -609,18 +715,34 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _q;
+    public object _version;
+    public object _index;
+    public object _currentElement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x27A1E0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -633,180 +755,357 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2867A0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2867A0
 }
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x261000
+}
+
+public class Enumerator : ValueType
+{
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }

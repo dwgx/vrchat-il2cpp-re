@@ -1,13 +1,52 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 54
-// Methods: 1002
+// Methods: 1006
 
 namespace VRC.Network
 {
     /// <summary>Originally: ÍÌÎÍÎÌÌÍÌÎÌÏÎÍÌÏÏÏÎÏÏÏÏ</summary>
     public class FlatBufferNetworkSerializer : NetworkReadyHandler_D8EE
     {
+        public object _useDirectPoseCodec;
+        public object _typeId;
+        public object f_5A9;
+        public object f_799;
+        public object f_3C1;
+        public object f_0E7;
+        public object f_B94;
+        public object f_779;
+        public object f_B4E;
+        public object f_A02;
+        public object f_589;
+        public object f_C80;
+        public object f_FF2;
+        public object f_F8C;
+        public object f_0B7;
+        public object f_777;
+        public object f_3FF;
+        public object f_120;
+        public object f_3F9;
+        public object f_1E6;
+        public object f_C34;
+        public object f_74F;
+        public object f_373;
+        public object f_8BE;
+        public object f_194;
+        public object f_DA2;
+        public object f_EF8;
+        public object f_700;
+        public object f_BAB;
+        public object f_960;
+        public object f_8D2;
+        public object f_1F8;
+        public object f_379;
+        public object f_C46;
+        public object f_5D4;
+        public object f_132;
+        public object f_D1A;
+        public object f_529;
+
         // ── Methods ──
         public void Encode(){} // RVA: 0xEF25F0
         public void Awake(){} // RVA: 0xEF2E60
@@ -39,6 +78,35 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÌÎÎÎÍÌÏÎÏÍÍÏÏÍÎÎÌÎÎÍÌ</summary>
     public class NetworkCancelRPCComponent_5DF9 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_A99;
+        public object f_9A5;
+        public object f_8FE;
+        public object f_238;
+        public object f_288;
+        public object f_018;
+        public object f_F7E;
+        public object f_FFD;
+        public object f_871;
+        public object f_AD5;
+        public object f_1F9;
+        public object f_BCE;
+        public object f_551;
+        public object f_54A;
+        public object f_A30;
+        public object f_00D;
+        public object f_010;
+        public object f_016;
+        public object f_53A;
+        public object f_D9A;
+        public object f_7BC;
+        public object f_613;
+        public object f_82D;
+        public object f_77B;
+        public object f_D4C;
+        public object f_0A6;
+        public object f_4A2;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x19A64E0
         public void RaiseCancellation(){} // RVA: 0xB43320
@@ -74,6 +142,8 @@ namespace VRC.Network
     /// <summary>Originally: ÍÎÍÍÌÏÎÍÏÏÏÍÏÎÏÏÏÍÎÍÍÌÍ</summary>
     public class NetworkDeserializeImplementationSerializeImplem_F1B4 : BaseFormatter`1
     {
+        public object _f1B4;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0xDAC980
         public void SerializeImplementation(){} // RVA: 0xDAC990
@@ -82,206 +152,13 @@ namespace VRC.Network
         public void DeserializeImplementation(){} // RVA: 0xDACBD0
     }
 
-    /// <summary>Originally: ÏÍÏÏÍÌÎÏÏÏÍÏÌÍÏÎÎÍÎÌÏÏÎ</summary>
-    public class NetworkDisposeAsyncImplSibling_12FB
-    {
-        // ── Unresolved (hash) ──
-        public void m_8C6(){} // RVA: 0x87C0A0
-        public void m_44E(){} // RVA: 0x87C0A0
-        public void m_D1F(){} // RVA: 0x894290
-        public void m_9D4(){} // RVA: 0x87C130
-        public void m_B49(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÌÏÍÏÎÏÎÌÌÎÍÍÎÍÎÍÌÌÍÌÌÍÍ</summary>
-    public class NetworkDisposeAsyncImplSibling_6F38
-    {
-        // ── Unresolved (hash) ──
-        public void m_244(){} // RVA: 0x87C0A0
-        public void m_E86(){} // RVA: 0x894320
-        public void m_161(){} // RVA: 0x894320
-        public void m_B49(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÍÎÎÌÍÏÍÌÎÌÏÍÎÎÏÌÎÏÏÍÌÏÎ</summary>
-    public class NetworkDisposeAsyncImplSibling_CC8B
-    {
-        // ── Unresolved (hash) ──
-        public void m_244(){} // RVA: 0x87C0A0
-        public void m_7CC(){} // RVA: 0x87C130
-        public void m_B36(){} // RVA: 0x87C0A0
-        public void m_358(){} // RVA: 0x87C0A0
-        public void m_192(){} // RVA: 0x899290
-        public void m_E86(){} // RVA: 0x894320
-        public void m_161(){} // RVA: 0x894320
-        public void m_B49(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÍÌÍÍÍÎÎÏÎÍÎÍÎÎÎÎÍÌÌÎÏÍÎ</summary>
-    public class NetworkDisposeAsyncImplSibling_CF98
-    {
-        // ── Unresolved (hash) ──
-        public void m_244(){} // RVA: 0x87C0A0
-        public void m_E86(){} // RVA: 0x894320
-        public void m_161(){} // RVA: 0x894320
-        public void m_B49(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÎÎÌÍÏÏÌÍÍÏÌÎÎÎÌÌÍÍÏÍÍÎÏ</summary>
-    public class NetworkDisposeAsyncImpl_3424 : NetworkDisposeAsync_C6C4
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x249AA50
-        public void Initialize(){} // RVA: 0x249AA90
-        // ── 18 unresolved (hash) ──
-        public void m_437(){} // RVA: 0x249A690
-        public void m_358(){} // RVA: 0x249A7D0
-        public void m_E86(){} // RVA: 0x249A850
-        public void m_233(){} // RVA: 0x249A8F0
-        public void m_C3C(){} // RVA: 0x249ABF0
-        // ... 13 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÌÎÏÍÌÍÎÍÏÎÏÌÏÏÏÍÏÏÍÍÍ</summary>
-    public class NetworkDisposeAsyncImpl_641A : NetworkDisposeAsync_C6C4
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1ADA0B0
-        public void Initialize(){} // RVA: 0x24A2F60
-        // ── 12 unresolved (hash) ──
-        public void m_A86(){} // RVA: 0x24A2AF0
-        public void m_E68(){} // RVA: 0x24A2AF0
-        public void m_490(){} // RVA: 0x24A2C00
-        public void m_5CE(){} // RVA: 0x24A2DA0
-        public void m_161(){} // RVA: 0x24A2EB0
-        // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÏÏÎÏÏÍÎÎÏÌÎÎÎÌÌÏÍÍÏÎÎÏ</summary>
-    public class NetworkDisposeAsyncImpl_BA26 : NetworkDisposeAsync_C6C4
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1ADA0B0
-        public void Initialize(){} // RVA: 0x1B482A0
-        // ── 11 unresolved (hash) ──
-        public void m_6E8(){} // RVA: 0x1B47D40
-        public void m_8C6(){} // RVA: 0x1B47D50
-        public void m_D91(){} // RVA: 0x1B47EF0
-        public void m_15F(){} // RVA: 0x1B48000
-        public void m_44E(){} // RVA: 0x1B48110
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÌÎÎÏÏÍÍÌÏÍÎÎÍÌÌÍÌÎÏÌÌÍ</summary>
-    public class NetworkDisposeAsyncImpl_BF4E : NetworkDisposeAsync_C6C4
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1ADA0B0
-        public void Initialize(){} // RVA: 0x1ADA0C0
-        // ── Unresolved (hash) ──
-        public void m_664(){} // RVA: 0x1AD92A0
-        public void m_3C2(){} // RVA: 0x1AD9440
-        public void m_B49(){} // RVA: 0x1AD95E0
-        public void m_FB2(){} // RVA: 0x1AD96F0
-        public void m_218(){} // RVA: 0x1AD9890
-        public void m_589(){} // RVA: 0x1AD9A30
-        public void m_301(){} // RVA: 0x1AD9BD0
-        public void m_AC5(){} // RVA: 0x1AD9D70
-        public void m_DBD(){} // RVA: 0x1AD9F10
-    }
-
-    /// <summary>Originally: ÏÎÌÍÏÌÍÍÎÌÌÌÎÎÎÌÍÏÌÏÎÌÎ</summary>
-    public class NetworkDisposeAsyncImpl_C193 : NetworkDisposeAsync_C6C4
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1ADA0B0
-        public void Initialize(){} // RVA: 0x249B880
-        // ── Unresolved (hash) ──
-        public void m_AFF(){} // RVA: 0x249B520
-        public void m_B40(){} // RVA: 0x249B5D0
-        public void m_5CE(){} // RVA: 0x249B770
-        public void m_B49(){} // RVA: 0x249B920
-        public void m_8B8(){} // RVA: 0x249B920
-        public void m_B7A(){} // RVA: 0x249B930
-        public void m_E86(){} // RVA: 0x249BA40
-        public void m_D37(){} // RVA: 0x249BAE0
-        public void m_244(){} // RVA: 0x249BC80
-        public void m_161(){} // RVA: 0x249BE20
-    }
-
-    /// <summary>Originally: ÍÌÏÎÎÍÎÎÎÌÏÍÎÏÍÍÎÏÌÌÏÌÍ</summary>
-    public class NetworkDisposeAsyncSibling_4E6F
-    {
-        // ── Unresolved (hash) ──
-        public void m_399(){} // RVA: 0x87C0A0
-        public void m_B62(){} // RVA: 0x87C0A0
-        public void m_0ED(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÎÏÌÎÍÏÏÍÏÍÎÍÍÏÌÌÌÍÎÏÍÎÎ</summary>
-    public class NetworkDisposeAsyncSibling_73C8
-    {
-        // ── Unresolved (hash) ──
-        public void m_437(){} // RVA: 0x87C130
-        public void m_233(){} // RVA: 0x87C130
-        public void m_51E(){} // RVA: 0x87C0A0
-        public void m_C89(){} // RVA: 0x87BEB0
-        public void m_327(){} // RVA: 0x87BEB0
-        public void m_4A1(){} // RVA: 0x87BEB0
-        public void m_B49(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÏÏÌÌÎÎÎÏÎÍÌÏÏÎÍÌÌÍÎÎÎÎÌ</summary>
-    public class NetworkDisposeAsync_C6C4 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void Equals(){} // RVA: 0xBA9BA0
-        public void GetHashCode(){} // RVA: 0xC38360
-        public void op_Implicit(){} // RVA: 0xC38370
-        public void CompareBaseObjects(){} // RVA: 0x249BED0
-        public void IsNativeObjectAlive(){} // RVA: 0x249BFE0
-        public void GetCachedPtr(){} // RVA: 0x249C0F0
-        public void get_name(){} // RVA: 0x249C200
-        public void set_name(){} // RVA: 0x249C3E0
-        public void Instantiate(){} // RVA: 0x249C580
-        public void Destroy(){} // RVA: 0x87C0A0
-        public void .ctor(){} // RVA: 0x249C750
-        public void Initialize(){} // RVA: 0x249C890
-        public void Dispose(){} // RVA: 0x249C9E0
-        public void DisposeAsync(){} // RVA: 0x249CA60
-        public void Finalize(){} // RVA: 0x249CBF0
-    }
-
-    /// <summary>Originally: ÎÎÍÎÏÍÎÏÍÍÏÌÎÌÎÎÌÏÍÎÍÏÎ</summary>
-    public class NetworkDisposeAsync_EB3E : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB70160
-        public void Equals(){} // RVA: 0x1765410
-        public void Finalize(){} // RVA: 0x1765620
-        public void op_Implicit(){} // RVA: 0xB70100
-        public void CompareBaseObjects(){} // RVA: 0x1765810
-        public void IsNativeObjectAlive(){} // RVA: 0x17658D0
-        public void DisposeAsync(){} // RVA: 0x1765B30
-        public void get_name(){} // RVA: 0x1765CC0
-        public void Dispose(){} // RVA: 0x1765F20
-        public void Cleanup(){} // RVA: 0xB700F0
-        public void Destroy(){} // RVA: 0x1765FC0
-        public void .ctor(){} // RVA: 0x17660F0
-        public void Initialize(){} // RVA: 0x1766980
-        public void FindObjectsByType(){} // RVA: 0x1766A40
-        public void DontDestroyOnLoad(){} // RVA: 0x1766CA0
-        public void get_hideFlags(){} // RVA: 0xB44DC0
-        public void set_hideFlags(){} // RVA: 0x1766D60
-        public void FindObjectOfType(){} // RVA: 0xB70100
-        public void FindFirstObjectByType(){} // RVA: 0xB44DC0
-        public void CheckNullArgument(){} // RVA: 0x1766E90
-    }
-
     /// <summary>Originally: ÌÏÌÍÌÎÎÏÎÏÎÍÎÍÏÍÌÍÌÍÌÍÏ</summary>
     public class NetworkEnableMeshRPCSetPresetRPCComponent_8E22 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_E88;
+        public object f_332;
+
         // ── Methods ──
         public void EnableMeshRPC(){} // RVA: 0x13064B0
         public void RaiseCancellation(){} // RVA: 0x1306580
@@ -317,6 +194,14 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÍÏÎÏÌÏÍÌÎÎÏÏÎÌÍÏÌÍÎÏÎ</summary>
     public class NetworkInternalApplyOverrideRPCPlayerJoinedHandler_264D : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_3BD;
+        public object f_43E;
+        public object f_976;
+        public object f_9F6;
+        public object f_B40;
+        public object f_491;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1F97B70
         public void RaiseCancellation(){} // RVA: 0x1F97F60
@@ -337,19 +222,21 @@ namespace VRC.Network
         public void Internal_IsInvokingAll(){} // RVA: 0x1F9AC80
     }
 
-    /// <summary>Originally: ÍÎÌÎÌÏÏÍÎÏÌÍÏÍÌÎÏÏÎÍÏÎÌ</summary>
-    public class NetworkReadyHandlerImplSibling_AA97
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x87C0A0
-        public void Process(){} // RVA: 0x87C0A0
-        public void OnReceive(){} // RVA: 0x87C0A0
-        public void OnEvent(){} // RVA: 0x87C0A0
-    }
-
     /// <summary>Originally: ÍÍÌÎÌÎÍÍÎÌÎÏÏÏÍÎÏÏÌÌÍÏÍ</summary>
     public class NetworkReadyHandlerImpl_5D72 : NetworkReadyHandler_D8EE
     {
+        public object f_B1D;
+        public object f_13D;
+        public object f_C68;
+        public object f_AD1;
+        public object f_4BC;
+        public object f_E58;
+        public object f_97D;
+        public object f_840;
+        public object f_13C;
+        public object f_486;
+        public object f_711;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x1C8B2A0
         public void .cctor(){} // RVA: 0x1C8B5B0
@@ -369,6 +256,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÌÎÎÌÌÌÌÌÍÏÌÎÌÎÌÍÍÍÌÏÍ</summary>
     public class NetworkReadyHandlerRelated_0025 : Object
     {
+        public object _0025;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x166EEC0
         public void Equals(){} // RVA: 0x166F630
@@ -383,6 +272,45 @@ namespace VRC.Network
     /// <summary>Originally: ÌÌÎÎÌÎÎÏÎÌÎÎÎÏÌÏÌÎÎÍÎÎÍ</summary>
     public class NetworkReadyHandler_2E70 : NetworkReadyHandler_D8EE
     {
+        public object f_2AE;
+        public object f_424;
+        public object f_351;
+        public object f_D3F;
+        public object f_00D;
+        public object f_CFE;
+        public object f_47B;
+        public object f_44A;
+        public object f_5E3;
+        public object f_C20;
+        public object f_C40;
+        public object f_0BA;
+        public object f_187;
+        public object f_773;
+        public object f_7D8;
+        public object f_575;
+        public object f_F6B;
+        public object f_1A1;
+        public object f_3C2;
+        public object f_578;
+        public object f_9CD;
+        public object f_A2B;
+        public object f_D98;
+        public object f_E50;
+        public object f_A4A;
+        public object f_74D;
+        public object f_201;
+        public object f_D1D;
+        public object f_FF2;
+        public object f_5B6;
+        public object f_BD6;
+        public object f_0D1;
+        public object f_B84;
+        public object f_E02;
+        public object f_B16;
+        public object f_811;
+        public object f_560;
+        public object f_F1B;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x1A405F0
         public void .ctor(){} // RVA: 0x1A422B0
@@ -403,6 +331,22 @@ namespace VRC.Network
     /// <summary>Originally: ÍÌÍÌÏÎÌÏÍÍÎÏÎÌÏÎÏÎÍÎÍÎÏ</summary>
     public class NetworkReadyHandler_3819 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_E2F;
+        public object target;
+        public object dataStorage;
+        public object _collider;
+        public object hasTimerTriggers;
+        public object hasColliderTriggers;
+        public object hasKeyTriggers;
+        public object f_A31;
+        public object f_F7D;
+        public object f_DB4;
+        public object f_9E4;
+        public object f_C24;
+        public object f_0B8;
+        public object f_FB0;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x2024350
         public void RaiseCancellation(){} // RVA: 0x2024430
@@ -446,8 +390,10 @@ namespace VRC.Network
     }
 
     /// <summary>Originally: ÍÎÌÏÏÏÍÌÎÍÍÌÌÎÍÍÏÌÍÎÌÍÎ</summary>
-    public class NetworkReadyHandler_739B : WorldProximityExitStation_6D00
+    public class NetworkReadyHandler_739B : Worldk__BackingField_6D00
     {
+        public object _739B;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1FEDF40
         public void OnNetworkReady(){} // RVA: 0x1FEDF90
@@ -464,7 +410,7 @@ namespace VRC.Network
     }
 
     /// <summary>Originally: ÏÍÎÌÎÍÍÎÍÌÏÏÏÍÏÌÎÎÍÎÌÍÎ</summary>
-    public class NetworkReadyHandler_9E00 : WorldProximityExitStation_6D00
+    public class NetworkReadyHandler_9E00 : Worldk__BackingField_6D00
     {
         // ── Methods ──
         public void ProvideEvents(){} // RVA: 0x1FE92F0
@@ -482,6 +428,15 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÍÌÍÍÍÎÌÎÎÎÏÎÌÍÏÎÍÌÍÍÎ</summary>
     public class NetworkReadyHandler_D8EE : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_D1E;
+        public object f_4A0;
+        public object f_0B8;
+        public object f_05B;
+        public object f_F36;
+        public object f_942;
+        public object pvCache;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1C57760
         public void RaiseCancellation(){} // RVA: 0xC38360
@@ -519,6 +474,19 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÎÍÌÌÏÏÎÏÎÍÍÌÌÍÍÍÌÌÏÌ</summary>
     public class NetworkReadyHandler_FE35 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_E7F;
+        public object f_04F;
+        public object invalidAvatarGraphics;
+        public object loadingTexture;
+        public object f_2C9;
+        public object f_1EE;
+        public object f_8D8;
+        public object f_F92;
+        public object f_A8B;
+        public object f_B79;
+        public object f_66C;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1F9D430
         public void OnNetworkReady(){} // RVA: 0x1F9D510
@@ -549,8 +517,20 @@ namespace VRC.Network
     }
 
     /// <summary>Originally: ÎÏÏÍÎÏÍÌÏÎÎÏÎÎÍÎÏÌÍÏÎÌÎ</summary>
-    public class NetworkShouldBroadcastInstigator_CC98 : Object
+    public class NetworkShouldBroadcastk__BackingField_CC98 : Object
     {
+        public object _instigator;
+        public object _serialize;
+        public object _shouldBroadcast;
+        public object _time;
+        public object _sender;
+        public object _store;
+        public object f_519;
+        public object f_1C7;
+        public object f_D46;
+        public object f_4A1;
+        public object f_B82;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1C914E0
         public void Equals(){} // RVA: 0x116A650
@@ -601,9 +581,21 @@ namespace VRC.Network
         // ... 6 more unresolved methods
     }
 
+    /// <summary>Originally: ÎÍÏÏÏÏÎÌÎÏÏÎÎÍÎÏÍÏÍÌÍÎÏ</summary>
+    public class NetworkSyncableRelated_FFD3
+    {
+        // ── Unresolved (hash) ──
+        public void m_02C(){} // RVA: 0x87D280
+        public void m_F31(){} // RVA: 0x8A2920
+    }
+
     /// <summary>Originally: ÌÏÏÍÏÎÌÍÎÌÏÌÌÏÏÏÏÏÎÏÍÍÏ</summary>
     public class NetworkSyncableSibling_202E : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9F31540
         public void Initialize(){} // RVA: 0x9F31660
@@ -625,6 +617,14 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÍÏÏÎÍÎÌÍÏÌÌÎÍÌÍÎÍÏÎÎÌ</summary>
     public class NetworkSyncableSibling_4255 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_0EB;
+        public object f_C11;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1634100
         public void Equals(){} // RVA: 0x1634480
@@ -709,6 +709,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÍÌÏÏÏÌÌÌÎÍÌÌÎÏÏÏÍÏÎÎÏ</summary>
     public class NetworkSyncable_4C00 : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_7F9;
+        public object f_D2A;
+        public object f_DA5;
+        public object f_AD7;
+
         // ── Methods ──
         public void set_TypeId(){} // RVA: 0xE855D0
         public void get_TypeId(){} // RVA: 0xD354C0
@@ -737,6 +743,15 @@ namespace VRC.Network
     /// <summary>Originally: ÏÍÎÍÎÎÌÏÌÍÎÎÎÍÍÌÏÌÍÏÏÏÌ</summary>
     public class NetworkSyncable_73F9 : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object _uniqueHash;
+        public object f_9F7;
+        public object f_E3F;
+        public object f_84A;
+        public object f_1AD;
+        public object f_1E9;
+        public object f_0F6;
+
         // ── Methods ──
         public void set_TypeId(){} // RVA: 0xED3280
         public void Start(){} // RVA: 0xED3640
@@ -768,6 +783,18 @@ namespace VRC.Network
     /// <summary>Originally: ÍÏÎÍÏÎÍÌÎÍÍÏÍÌÎÌÌÏÎÍÌÌÎ</summary>
     public class NetworkSyncable_AE24 : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_206;
+        public object f_840;
+        public object f_BF6;
+        public object f_C6C;
+        public object f_093;
+        public object f_E82;
+        public object f_6F8;
+        public object f_268;
+        public object f_91F;
+        public object f_788;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x172F200
         public void Decode(){} // RVA: 0x1732CF0
@@ -795,6 +822,15 @@ namespace VRC.Network
     /// <summary>Originally: ÎÌÌÌÌÍÍÍÍÎÍÏÍÏÌÌÍÏÍÍÌÌÎ</summary>
     public class NetworkSyncable_C803 : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_DAC;
+        public object f_6E1;
+        public object f_19F;
+        public object f_001;
+        public object f_E44;
+        public object f_7C7;
+        public object f_46A;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1FFFE10
         public void Initialize(){} // RVA: 0x1FFFFC0
@@ -819,22 +855,239 @@ namespace VRC.Network
         // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÎÎÏÍÏÎÎÎÎÏÍÍÌÍÍÌÍÍÏÌÍÎ</summary>
-    public class OVRLipSyncContextCannedSibling_813C : ComplexComponentImpl_D8C9
+    /// <summary>Originally: ÎÏÏÎÎÍÌÎÍÌÌÌÎÏÏÌÍÍÍÍÏÌÍ</summary>
+    public class NetworkiconTakePhotoiconStopPhoto_5EC5 : PointerEnterPointerExitHandler_1D19
+    {
+        public object iconTakePhoto;
+        public object iconStopPhoto;
+        public object button;
+        public object icon;
+        public object disabled;
+        public object label;
+        public object f_368;
+
+        // ── Methods ──
+        public void OnDisable(){} // RVA: 0x22E98E0
+        public void OnEnable(){} // RVA: 0x22E98F0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Start(){} // RVA: 0x22E9A30
+        // ── 13 unresolved (hash) ──
+        public void m_5B9(){} // RVA: 0x22E97D0
+        public void m_028(){} // RVA: 0x22E98E0
+        public void m_9F3(){} // RVA: 0x22E9900
+        public void m_8E0(){} // RVA: 0x22E99A0
+        public void m_513(){} // RVA: 0x22E9AC0
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÏÏÍÌÎÏÏÏÍÏÌÍÏÎÎÍÎÌÏÏÎ</summary>
+    public class Networkk__BackingFieldImplSibling_12FB
+    {
+        // ── Unresolved (hash) ──
+        public void m_8C6(){} // RVA: 0x87C0A0
+        public void m_44E(){} // RVA: 0x87C0A0
+        public void m_D1F(){} // RVA: 0x894290
+        public void m_9D4(){} // RVA: 0x87C130
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÌÎÌÎÏÍÌÍÎÍÏÎÏÌÏÏÏÍÏÏÍÍÍ</summary>
+    public class Networkk__BackingFieldImpl_641A : Networkk__BackingField_C6C4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9E17130
-        public void Initialize(){} // RVA: 0x9E171A0
-        public void Update(){} // RVA: 0x9E17350
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x24A2F60
+        // ── 12 unresolved (hash) ──
+        public void m_A86(){} // RVA: 0x24A2AF0
+        public void m_E68(){} // RVA: 0x24A2AF0
+        public void m_490(){} // RVA: 0x24A2C00
+        public void m_5CE(){} // RVA: 0x24A2DA0
+        public void m_161(){} // RVA: 0x24A2EB0
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÏÎÏÏÍÎÎÏÌÎÎÎÌÌÏÍÍÏÎÎÏ</summary>
+    public class Networkk__BackingFieldImpl_BA26 : Networkk__BackingField_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x1B482A0
+        // ── 11 unresolved (hash) ──
+        public void m_6E8(){} // RVA: 0x1B47D40
+        public void m_8C6(){} // RVA: 0x1B47D50
+        public void m_D91(){} // RVA: 0x1B47EF0
+        public void m_15F(){} // RVA: 0x1B48000
+        public void m_44E(){} // RVA: 0x1B48110
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÎÎÏÏÍÍÌÏÍÎÎÍÌÌÍÌÎÏÌÌÍ</summary>
+    public class Networkk__BackingFieldImpl_BF4E : Networkk__BackingField_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x1ADA0C0
         // ── Unresolved (hash) ──
-        public void m_1A5(){} // RVA: 0x9E17230
-        public void m_582(){} // RVA: 0x9E172C0
-        public void m_0A6(){} // RVA: 0x9E173E0
-        public void m_27D(){} // RVA: 0x9E17470
-        public void m_155(){} // RVA: 0x9E17530
-        public void m_79A(){} // RVA: 0x9E175C0
-        public void m_FD2(){} // RVA: 0x9E17650
-        public void m_828(){} // RVA: 0x9E176E0
+        public void m_664(){} // RVA: 0x1AD92A0
+        public void m_3C2(){} // RVA: 0x1AD9440
+        public void m_B49(){} // RVA: 0x1AD95E0
+        public void m_FB2(){} // RVA: 0x1AD96F0
+        public void m_218(){} // RVA: 0x1AD9890
+        public void m_589(){} // RVA: 0x1AD9A30
+        public void m_301(){} // RVA: 0x1AD9BD0
+        public void m_AC5(){} // RVA: 0x1AD9D70
+        public void m_DBD(){} // RVA: 0x1AD9F10
+    }
+
+    /// <summary>Originally: ÏÎÌÍÏÌÍÍÎÌÌÌÎÎÎÌÍÏÌÏÎÌÎ</summary>
+    public class Networkk__BackingFieldImpl_C193 : Networkk__BackingField_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x249B880
+        // ── Unresolved (hash) ──
+        public void m_AFF(){} // RVA: 0x249B520
+        public void m_B40(){} // RVA: 0x249B5D0
+        public void m_5CE(){} // RVA: 0x249B770
+        public void m_B49(){} // RVA: 0x249B920
+        public void m_8B8(){} // RVA: 0x249B920
+        public void m_B7A(){} // RVA: 0x249B930
+        public void m_E86(){} // RVA: 0x249BA40
+        public void m_D37(){} // RVA: 0x249BAE0
+        public void m_244(){} // RVA: 0x249BC80
+        public void m_161(){} // RVA: 0x249BE20
+    }
+
+    /// <summary>Originally: ÍÌÏÎÎÍÎÎÎÌÏÍÎÏÍÍÎÏÌÌÏÌÍ</summary>
+    public class Networkk__BackingFieldSibling_4E6F
+    {
+        // ── Unresolved (hash) ──
+        public void m_399(){} // RVA: 0x87C0A0
+        public void m_B62(){} // RVA: 0x87C0A0
+        public void m_0ED(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÎÏÌÎÍÏÏÍÏÍÎÍÍÏÌÌÌÍÎÏÍÎÎ</summary>
+    public class Networkk__BackingFieldSibling_73C8
+    {
+        // ── Unresolved (hash) ──
+        public void m_437(){} // RVA: 0x87C130
+        public void m_233(){} // RVA: 0x87C130
+        public void m_51E(){} // RVA: 0x87C0A0
+        public void m_C89(){} // RVA: 0x87BEB0
+        public void m_327(){} // RVA: 0x87BEB0
+        public void m_4A1(){} // RVA: 0x87BEB0
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÏÏÌÌÎÎÎÏÎÍÌÏÏÎÍÌÌÍÎÎÎÎÌ</summary>
+    public class Networkk__BackingField_C6C4 : Object
+    {
+        public object _c6C4;
+        public object _c6C42;
+        public object _c6C43;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xC38360
+        public void op_Implicit(){} // RVA: 0xC38370
+        public void CompareBaseObjects(){} // RVA: 0x249BED0
+        public void IsNativeObjectAlive(){} // RVA: 0x249BFE0
+        public void GetCachedPtr(){} // RVA: 0x249C0F0
+        public void get_name(){} // RVA: 0x249C200
+        public void set_name(){} // RVA: 0x249C3E0
+        public void Instantiate(){} // RVA: 0x249C580
+        public void Destroy(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x249C750
+        public void Initialize(){} // RVA: 0x249C890
+        public void Dispose(){} // RVA: 0x249C9E0
+        public void DisposeAsync(){} // RVA: 0x249CA60
+        public void Finalize(){} // RVA: 0x249CBF0
+    }
+
+    /// <summary>Originally: ÎÎÍÎÏÍÎÏÍÍÏÌÎÌÎÎÌÏÍÎÍÏÎ</summary>
+    public class Networkk__BackingField_EB3E : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB70160
+        public void Equals(){} // RVA: 0x1765410
+        public void Finalize(){} // RVA: 0x1765620
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x1765810
+        public void IsNativeObjectAlive(){} // RVA: 0x17658D0
+        public void DisposeAsync(){} // RVA: 0x1765B30
+        public void get_name(){} // RVA: 0x1765CC0
+        public void Dispose(){} // RVA: 0x1765F20
+        public void Cleanup(){} // RVA: 0xB700F0
+        public void Destroy(){} // RVA: 0x1765FC0
+        public void .ctor(){} // RVA: 0x17660F0
+        public void Initialize(){} // RVA: 0x1766980
+        public void FindObjectsByType(){} // RVA: 0x1766A40
+        public void DontDestroyOnLoad(){} // RVA: 0x1766CA0
+        public void get_hideFlags(){} // RVA: 0xB44DC0
+        public void set_hideFlags(){} // RVA: 0x1766D60
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB44DC0
+        public void CheckNullArgument(){} // RVA: 0x1766E90
+    }
+
+    /// <summary>Originally: ÌÏÍÏÎÏÎÌÌÎÍÍÎÍÎÍÌÌÍÌÌÍÍ</summary>
+    public class Networkk__BackingField_k__BackSibling_6F38
+    {
+        // ── Unresolved (hash) ──
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÍÎÎÌÍÏÍÌÎÌÏÍÎÎÏÌÎÏÏÍÌÏÎ</summary>
+    public class Networkk__BackingField_k__BackSibling_CC8B
+    {
+        // ── Unresolved (hash) ──
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_7CC(){} // RVA: 0x87C130
+        public void m_B36(){} // RVA: 0x87C0A0
+        public void m_358(){} // RVA: 0x87C0A0
+        public void m_192(){} // RVA: 0x899290
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÍÌÍÍÍÎÎÏÎÍÎÍÎÎÎÎÍÌÌÎÏÍÎ</summary>
+    public class Networkk__BackingField_k__BackSibling_CF98
+    {
+        // ── Unresolved (hash) ──
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÎÎÌÍÏÏÌÍÍÏÌÎÎÎÌÌÍÍÏÍÍÎÏ</summary>
+    public class Networkk__BackingField_k__BackingField_3424 : Networkk__BackingField_C6C4
+    {
+        public object _3424;
+        public object _34242;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x249AA50
+        public void Initialize(){} // RVA: 0x249AA90
+        // ── 18 unresolved (hash) ──
+        public void m_437(){} // RVA: 0x249A690
+        public void m_358(){} // RVA: 0x249A7D0
+        public void m_E86(){} // RVA: 0x249A850
+        public void m_233(){} // RVA: 0x249A8F0
+        public void m_C3C(){} // RVA: 0x249ABF0
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÌÌÎÏÍÎÌÎÍÌÌÌÌÌÌÌÏÎÍÏÎ</summary>
@@ -852,6 +1105,18 @@ namespace VRC.Network
     /// <summary>Originally: ÏÌÏÌÌÎÎÌÏÌÌÌÍÌÏÍÏÍÎÍÍÎÎ</summary>
     public class PhotonConnectionHandlerSibling_81C7 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_1A0;
+        public object f_5C1;
+        public object f_13A;
+        public object f_490;
+        public object f_943;
+        public object f_4FB;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x13F2C70
         public void Equals(){} // RVA: 0xBBF900
@@ -905,28 +1170,41 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÏÍÍÌÎÍÎÎÌÍÏÏÌÎÌÎÏÎÍÎ</summary>
     public class PhotonConnectionHandler_A349 : List`1
     {
+        public object _a349;
+
         // ── Methods ──
-        public void RemoveAt(){} // RVA: 0x237A600
-        public void get_Count(){} // RVA: 0x237A910
+        public void IndexOf(){} // RVA: 0x237A600
+        public void get_Capacity(){} // RVA: 0x237A910
         public void OnCustomAuthenticationFailed(){} // RVA: 0x237AC20
         public void .ctor(){} // RVA: 0x237AFA0
         public void Initialize(){} // RVA: 0xB43310
         public void OnCustomAuthenticationResponse(){} // RVA: 0x237B060
-        public void IndexOf(){} // RVA: 0xB43310
+        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0xB43310
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x237B370
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x237B690
+        public void get_Item(){} // RVA: 0xB43310
+        public void set_Item(){} // RVA: 0xB43310
+        public void IsCompatibleObject(){} // RVA: 0x237BA20
+        public void System.Collections.IList.get_Item(){} // RVA: 0x237BD40
+        public void System.Collections.IList.set_Item(){} // RVA: 0x237C0D0
         public void OnConnectedToMaster(){} // RVA: 0x237C460
-        // ── Unresolved (hash) ──
-        public void m_153(){} // RVA: 0x237B370
-        public void m_BAD(){} // RVA: 0x237B690
-        public void m_903(){} // RVA: 0xB43310
-        public void m_C02(){} // RVA: 0xB43310
-        public void m_901(){} // RVA: 0x237BA20
-        public void m_5FC(){} // RVA: 0x237BD40
-        public void m_584(){} // RVA: 0x237C0D0
     }
 
     /// <summary>Originally: ÌÎÍÍÍÌÍÏÎÍÌÎÍÏÏÏÍÍÍÌÌÎÍ</summary>
     public class PhotonConnectionHandler_BE8D : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_F85;
+        public object f_1A3;
+        public object f_D8B;
+        public object f_039;
+        public object f_296;
+        public object f_E48;
+        public object f_823;
+        public object f_B62;
+        public object f_19B;
+        public object f_97A;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1BBBC60
         public void OnConnectedToMaster(){} // RVA: 0x1BBC1A0
@@ -987,21 +1265,22 @@ namespace VRC.Network
     /// <summary>Originally: ÎÍÌÌÌÌÏÌÍÏÍÏÎÏÍÌÍÎÌÏÍÎÎ</summary>
     public class PhotonMasterHandler_26A5 : List`1
     {
+        public object _26A5;
+
         // ── Methods ──
-        public void RemoveAt(){} // RVA: 0x237F300
-        public void get_Count(){} // RVA: 0x237F5F0
-        public void get_Item(){} // RVA: 0x237F8F0
-        public void IndexOf(){} // RVA: 0x237FBF0
+        public void IndexOf(){} // RVA: 0x237F300
+        public void get_Capacity(){} // RVA: 0x237F5F0
+        public void set_Capacity(){} // RVA: 0x237F8F0
+        public void get_Count(){} // RVA: 0x237FBF0
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x237FF60
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2380250
         public void OnMasterClientSwitched(){} // RVA: 0x2380550
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2380850
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x2380B50
+        public void get_Item(){} // RVA: 0x2380E40
         public void .ctor(){} // RVA: 0x2381140
         public void Initialize(){} // RVA: 0x2381200
-        // ── Unresolved (hash) ──
-        public void m_7A0(){} // RVA: 0x237FF60
-        public void m_1C6(){} // RVA: 0x2380250
-        public void m_225(){} // RVA: 0x2380850
-        public void m_075(){} // RVA: 0x2380B50
-        public void m_AF1(){} // RVA: 0x2380E40
-        public void m_FA5(){} // RVA: 0x23814F0
+        public void System.Collections.IList.get_Item(){} // RVA: 0x23814F0
     }
 
     /// <summary>Originally: ÏÏÍÎÍÍÍÎÎÎÌÎÍÏÌÏÍÍÎÏÎÏÌ</summary>
@@ -1030,6 +1309,11 @@ namespace VRC.Network
     /// <summary>Originally: ÍÍÍÏÍÌÎÎÎÎÌÌÍÌÌÌÏÍÏÏÍÏÍ</summary>
     public class PhotonRoomHandlerSibling_10F3 : Object
     {
+        public object _10F3;
+        public object _10F32;
+        public object _10F33;
+        public object _10F34;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB5DBF0
         public void Equals(){} // RVA: 0xBA9BA0
@@ -1052,6 +1336,18 @@ namespace VRC.Network
     /// <summary>Originally: ÌÏÍÌÌÎÍÎÎÌÏÍÏÎÌÌÎÏÌÏÎÏÍ</summary>
     public class PhotonRoomHandler_3D91 : ConnectionHandler
     {
+        public object f_13C;
+        public object f_7E6;
+        public object f_AC0;
+        public object f_887;
+        public object f_E9E;
+        public object f_565;
+        public object f_A50;
+        public object f_33A;
+        public object f_90C;
+        public object f_C0B;
+        public object f_F9A;
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x23472A0
         public void OnLeftRoom(){} // RVA: 0xB43310
@@ -1091,28 +1387,34 @@ namespace VRC.Network
     /// <summary>Originally: ÏÎÏÏÌÏÌÌÌÌÍÎÏÌÏÍÍÌÌÎÍÎÏ</summary>
     public class PhotonRoomHandler_FAEE : List`1
     {
+        public object _fAEE;
+
         // ── Methods ──
         public void OnJoinedRoom(){} // RVA: 0x237C6E0
-        public void get_Count(){} // RVA: 0x237C960
-        public void get_Item(){} // RVA: 0x237CC50
+        public void get_Capacity(){} // RVA: 0x237C960
+        public void set_Capacity(){} // RVA: 0x237CC50
         public void OnLeftRoom(){} // RVA: 0x237D050
-        public void IndexOf(){} // RVA: 0x237D2D0
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x237D2D0
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x237D550
+        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x237D950
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x237DC70
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x237DEF0
+        public void get_Item(){} // RVA: 0x237E1E0
+        public void set_Item(){} // RVA: 0x237E4D0
         public void OnCreatedRoom(){} // RVA: 0x237E8D0
         public void .ctor(){} // RVA: 0x237EB50
         public void Initialize(){} // RVA: 0x237EC10
-        // ── Unresolved (hash) ──
-        public void m_AF2(){} // RVA: 0x237D550
-        public void m_47C(){} // RVA: 0x237D950
-        public void m_CD6(){} // RVA: 0x237DC70
-        public void m_09E(){} // RVA: 0x237DEF0
-        public void m_96E(){} // RVA: 0x237E1E0
-        public void m_894(){} // RVA: 0x237E4D0
-        public void m_565(){} // RVA: 0x237EF00
+        public void Add(){} // RVA: 0x237EF00
     }
 
     /// <summary>Originally: ÎÏÌÏÌÌÍÏÎÌÍÌÎÎÏÏÎÌÍÍÌÍÌ</summary>
     public class VRCNetworkBehaviour : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_EC1;
+        public object f_CFE;
+        public object f_302;
+
         // ── Methods ──
         public void Encode(){} // RVA: 0x2023730
         public void OnNetworkReady(){} // RVA: 0x2021B30
@@ -1147,6 +1449,10 @@ namespace VRC.Network
     /// <summary>Originally: ÎÏÌÍÎÌÌÎÍÏÌÏÏÏÏÍÏÎÍÌÎÏÍ</summary>
     public class VRCNetworkBehaviourBase : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object _uniqueHash;
+        public object f_302;
+
         // ── Methods ──
         public void Decode(){} // RVA: 0x1FD9050
         public void set_TypeId(){} // RVA: 0x1FD6E00

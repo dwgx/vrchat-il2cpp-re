@@ -7,6 +7,17 @@ namespace VRC.Core
 {
     public class FavoriteArea : AreaBase
     {
+        public object MAX_FAVORITES_PER_LIST;
+        public object MAX_FAVORITES_LISTS;
+        public object MIN_FAVORITES_LISTS;
+        public object DEFAULT_FAVORITES_LIST_NAME;
+        public object DefaultLists;
+        public object DefaultListSorting;
+        public object _worlds;
+        public object _vrcPlusWorlds;
+        public object _avatars;
+        public object _friends;
+
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0xA5B42F0
         public void get_Worlds(){} // RVA: 0xB700F0
@@ -41,6 +52,20 @@ namespace VRC.Core
 
     public class FavoriteListModel : ApiModel
     {
+        public object MAX_GROUP_NAME_LENGTH;
+        public object MAX_PAGE_SIZE;
+        public object _ownerId;
+        public object _ownerDisplayName;
+        public object _name;
+        public object _displayName;
+        public object _type;
+        public object _visibility;
+        public object _tags;
+        public object _requiresSubscription;
+        public object _favorites;
+        public object _favoritesById;
+        public object _favoritesByContentId;
+
         // ── Methods ──
         public void get_Endpoint(){} // RVA: 0xA5CD8C0
         public void get_ownerId(){} // RVA: 0xBBFF90
@@ -102,6 +127,10 @@ namespace VRC.Core
 
     public class FavoriteModel : ApiModel
     {
+        public object _type;
+        public object _contentId;
+        public object _tags;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x2536460
         public void set_type(){} // RVA: 0x25406E0

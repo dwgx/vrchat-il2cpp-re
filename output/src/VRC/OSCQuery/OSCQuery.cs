@@ -7,6 +7,26 @@ namespace VRC.OSCQuery
 {
     public class Attributes : Object
     {
+        public object _oscTypeLookup;
+        public object CONTENTS;
+        public object HOST_INFO;
+        public object FULL_PATH;
+        public object TYPE;
+        public object ACCESS;
+        public object CLIPMODE;
+        public object CRITICAL;
+        public object DESCRIPTION;
+        public object EXTENDED_TYPE;
+        public object HTML;
+        public object OVERLOADS;
+        public object RANGE;
+        public object TAGS;
+        public object UNIT;
+        public object VALUE;
+        public object SERVICE_OSCJSON_TCP;
+        public object SERVICE_OSC_UDP;
+        public object EXPLORER;
+
         // ── Methods ──
         public void OSCTypeFor(){} // RVA: 0x81BE070
         public void .cctor(){} // RVA: 0x81BE1E0
@@ -14,6 +34,9 @@ namespace VRC.OSCQuery
 
     public class Extensions : Object
     {
+        public object _client;
+        public object DefaultLoopbackEndpoint;
+
         // ── Methods ──
         public void SkipLast(){} // RVA: 0x88B6E0
         public void GetAvailableTcpPort(){} // RVA: 0x81BE880
@@ -26,6 +49,12 @@ namespace VRC.OSCQuery
 
     public class HostInfo : Object
     {
+        public object name;
+        public object extensions;
+        public object oscIP;
+        public object oscPort;
+        public object oscTransport;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81C08B0
         public void ToString(){} // RVA: 0x81C0B60
@@ -47,6 +76,15 @@ namespace VRC.OSCQuery
 
     public class MeaModDiscovery : Object
     {
+        public object _discovery;
+        public object _mdns;
+        public object Logger;
+        public object _oscQueryServices;
+        public object _oscServices;
+        public object OnOscServiceAdded;
+        public object OnOscQueryServiceAdded;
+        public object _profiles;
+
         // ── Methods ──
         public void GetOSCQueryServices(){} // RVA: 0xB700F0
         public void GetOSCServices(){} // RVA: 0xB70160
@@ -66,6 +104,15 @@ namespace VRC.OSCQuery
 
     public class OSCQueryHttpServer : Object
     {
+        public object _listener;
+        public object _shouldProcessHttp;
+        public object _preMiddleware;
+        public object _middleware;
+        public object _postMiddleware;
+        public object Logger;
+        public object _oscQuery;
+        public object _pathToResources;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81C0BB0
         public void AddMiddleware(){} // RVA: 0x81C1160
@@ -80,6 +127,14 @@ namespace VRC.OSCQuery
 
     public class OSCQueryNode : Object
     {
+        public object Description;
+        public object FullPath;
+        public object Access;
+        public object Contents;
+        public object OscType;
+        public object Value;
+        public object WriteSettings;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBA9BA0
         public void get_ParentPath(){} // RVA: 0x81C63F0
@@ -91,6 +146,8 @@ namespace VRC.OSCQuery
 
     public class OSCQueryRootNode : OSCQueryNode
     {
+        public object _pathLookup;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x81C55B0
         public void GetNodeWithPath(){} // RVA: 0x81C5700
@@ -103,6 +160,24 @@ namespace VRC.OSCQuery
 
     public class OSCQueryService : Object
     {
+        public object _tcpPort;
+        public object _hostIP;
+        public object _oscIP;
+        public object _logger;
+        public object _localIp;
+        public object DefaultPortHttp;
+        public object DefaultPortOsc;
+        public object DefaultServerName;
+        public object _localOscUdpServiceName;
+        public object _localOscJsonServiceName;
+        public object MatchedNames;
+        public object _discovery;
+        public object OnOscServiceAdded;
+        public object OnOscQueryServiceAdded;
+        public object _http;
+        public object _hostInfo;
+        public object _rootNode;
+
         // ── Methods ──
         public void AddEndpoint(){} // RVA: 0x880310
         public void .ctor(){} // RVA: 0x81C8730
@@ -148,6 +223,9 @@ namespace VRC.OSCQuery
 
     public class OSCQueryServiceBuilder : Object
     {
+        public object _service;
+        public object _customStartup;
+
         // ── Methods ──
         public void Build(){} // RVA: 0x81C9010
         public void WithDefaults(){} // RVA: 0x81C90F0
@@ -168,6 +246,11 @@ namespace VRC.OSCQuery
 
     public class OSCQueryServiceProfile : Object
     {
+        public object port;
+        public object name;
+        public object address;
+        public object serviceType;
+
         // ── Methods ──
         public void GetServiceTypeString(){} // RVA: 0x81C9990
         public void .ctor(){} // RVA: 0x81C9A10

@@ -7,6 +7,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class OfType`3 : ValueType
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -18,6 +20,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparable`2 : Object
     {
+        public object <keySelector>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x480D570
         public void GetComparer(){} // RVA: 0x480D6C0
@@ -25,6 +32,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparable`2 : Object
     {
+        public object <keySelector>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x480D420
         public void GetComparer(){} // RVA: 0x480D140
@@ -32,6 +44,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparable`2 : Object
     {
+        public object <keySelector>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899AC0
         public void GetComparer(){} // RVA: 0xA94080
@@ -39,6 +56,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparer`2 : Object
     {
+        public object keys;
+        public object comparer;
+        public object childComparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x48102C0
         public void Compare(){} // RVA: 0x4810540
@@ -47,6 +69,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparer`2 : Object
     {
+        public object keys;
+        public object comparer;
+        public object childComparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x480F5D0
         public void Compare(){} // RVA: 0x480FFF0
@@ -55,6 +82,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderByComparer`2 : Object
     {
+        public object keys;
+        public object comparer;
+        public object childComparer;
+        public object descending;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void Compare(){} // RVA: 0x8830B0
@@ -63,6 +95,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBySkipTake`3 : ValueType
     {
+        public object source;
+        public object comparable;
+        public object minIndexInclusive;
+        public object maxIndexInclusive;
+        public object buffer;
+        public object indexMap;
+        public object maxIndex;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -76,6 +117,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBy`3 : ValueType
     {
+        public object <keySelector>P;
+        public object <comparer>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object source;
+        public object comparable;
+        public object buffer;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x477B50
         public void TryGetNonEnumeratedCount(){} // RVA: 0x478C90
@@ -91,6 +141,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBy`3 : ValueType
     {
+        public object <keySelector>P;
+        public object <comparer>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object source;
+        public object comparable;
+        public object buffer;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4785A0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x4781F0
@@ -106,6 +165,15 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class OrderBy`3 : ValueType
     {
+        public object <keySelector>P;
+        public object <comparer>P;
+        public object <parent>P;
+        public object <descending>P;
+        public object source;
+        public object comparable;
+        public object buffer;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

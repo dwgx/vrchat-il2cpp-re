@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class Pairwise`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +16,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Publish`1 : Object
     {
+        public object source;
+        public object cancellationTokenSource;
+        public object trigger;
+        public object enumerator;
+        public object connectedDisposable;
+        public object isCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Connect(){} // RVA: 0x87C0A0

@@ -7,16 +7,18 @@ namespace ThirdParty.DOTween.DG.Tweening.CustomPlugins
 {
     public class PureQuaternionPlugin : ABSTweenPlugin`3
     {
+        public object _plug;
+
         // ── Methods ──
-        public void Plug(){} // RVA: 0x7A9CAA250
-        public void Reset(){} // RVA: 0x7A80D7310
-        public void SetFrom(){} // RVA: 0x7A9CAA560
-        public void ConvertToStartValue(){} // RVA: 0x7A9C9B0A0
-        public void SetRelativeEndValue(){} // RVA: 0x7A9CAA8A0
-        public void SetChangeValue(){} // RVA: 0x7A9CAAA20
-        public void GetSpeedBasedDuration(){} // RVA: 0x7A9CAAA50
-        public void EvaluateAndApply(){} // RVA: 0x7A9CAAAA0
-        public void .ctor(){} // RVA: 0x7A9CAABC0
+        public void Plug(){} // RVA: 0x27276B0
+        public void Reset(){} // RVA: 0xB43310
+        public void SetFrom(){} // RVA: 0x27279C0
+        public void ConvertToStartValue(){} // RVA: 0x2717C70
+        public void SetRelativeEndValue(){} // RVA: 0x2727D00
+        public void SetChangeValue(){} // RVA: 0x2727E80
+        public void GetSpeedBasedDuration(){} // RVA: 0x2727EB0
+        public void EvaluateAndApply(){} // RVA: 0x2727F00
+        public void .ctor(){} // RVA: 0x2728020
     }
 
 }

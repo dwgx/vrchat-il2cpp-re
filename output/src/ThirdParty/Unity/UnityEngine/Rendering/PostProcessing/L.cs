@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class LensDistortion : PostProcessEffectSettings
     {
+        public object intensity;
+        public object intensityX;
+        public object intensityY;
+        public object centerX;
+        public object centerY;
+        public object scale;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7969700
         public void .ctor(){} // RVA: 0x79697C0
@@ -21,6 +28,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class LightMeterMonitor : Monitor
     {
+        public object width;
+        public object height;
+        public object showCurves;
+
         // ── Methods ──
         public void ShaderResourcesAvailable(){} // RVA: 0x797A310
         public void Render(){} // RVA: 0x797A440
@@ -29,6 +40,11 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class LogHistogram : Object
     {
+        public object rangeMin;
+        public object rangeMax;
+        public object k_Bins;
+        public object _data;
+
         // ── Methods ──
         public void get_data(){} // RVA: 0xB5DBF0
         public void set_data(){} // RVA: 0xB44D60

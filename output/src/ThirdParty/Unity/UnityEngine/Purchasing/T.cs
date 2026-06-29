@@ -7,12 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class TimeSpanUnits : Object
     {
+        public object days;
+        public object months;
+        public object years;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D99B00
     }
 
     public class TransactionLog : Object
     {
+        public object logger;
+        public object persistentDataPath;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D6BC70
         public void HasRecordOf(){} // RVA: 0x7D6BDE0

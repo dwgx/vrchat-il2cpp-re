@@ -8,28 +8,28 @@ namespace ThirdParty.DotNet.System.ComponentModel
     public class UInt16Converter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7AEA6D720
-        public void FromString(){} // RVA: 0x7AEA6D860
-        public void ToString(){} // RVA: 0x7AEA6D930
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_TargetType(){} // RVA: 0x76DD3A0
+        public void FromString(){} // RVA: 0x76DD480
+        public void ToString(){} // RVA: 0x76DD530
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UInt32Converter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7AEA6DA70
-        public void FromString(){} // RVA: 0x7AEA6DBB0
-        public void ToString(){} // RVA: 0x7AEA6DC20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_TargetType(){} // RVA: 0x76DD660
+        public void FromString(){} // RVA: 0x76DD740
+        public void ToString(){} // RVA: 0x76DD770
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UInt64Converter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7AEA6DD60
-        public void FromString(){} // RVA: 0x7AEA6DEA0
-        public void ToString(){} // RVA: 0x7AEA6DF10
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_TargetType(){} // RVA: 0x76DD890
+        public void FromString(){} // RVA: 0x76DD970
+        public void ToString(){} // RVA: 0x76DD9A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

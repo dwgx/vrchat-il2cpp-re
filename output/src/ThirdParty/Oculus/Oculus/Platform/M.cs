@@ -7,6 +7,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class MatchmakingOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B278C0
         public void SetCreateRoomDataStore(){} // RVA: 0x6B27970
@@ -25,6 +27,11 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message : Object
     {
+        public object type;
+        public object requestID;
+        public object error;
+        public object _handleExtraMessageTypes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B28670
         public void Finalize(){} // RVA: 0x18D9F00
@@ -516,6 +523,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943F0
         public void get_Data(){} // RVA: 0xA94080
@@ -524,6 +533,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -532,6 +543,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -540,6 +553,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -548,6 +563,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -556,6 +573,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -564,6 +583,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -572,6 +593,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -580,6 +603,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -588,6 +613,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -596,6 +623,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -604,6 +633,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -612,6 +643,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -620,6 +653,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -628,6 +663,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -636,6 +673,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -644,6 +683,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -652,6 +693,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -660,6 +703,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -668,6 +713,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -676,6 +723,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -684,6 +733,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -692,6 +743,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -700,6 +753,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -708,6 +763,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -716,6 +773,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -724,6 +783,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -732,6 +793,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -740,6 +803,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -748,6 +813,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -756,6 +823,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -764,6 +833,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -772,6 +843,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -780,6 +853,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -788,6 +863,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -796,6 +873,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -804,6 +883,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -812,6 +893,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -820,6 +903,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -828,6 +913,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -836,6 +923,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -844,6 +933,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -852,6 +943,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -860,6 +953,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -868,6 +963,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -876,6 +973,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -884,6 +983,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -892,6 +993,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160
@@ -900,6 +1003,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Message`1 : Message
     {
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x46BEB30
         public void get_Data(){} // RVA: 0xB70160

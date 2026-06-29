@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class FromBase64Transform : Object
     {
+        public object _inputBuffer;
+        public object _inputIndex;
+        public object _whitespaces;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66EF650
         public void get_InputBlockSize(){} // RVA: 0xC3CCE0

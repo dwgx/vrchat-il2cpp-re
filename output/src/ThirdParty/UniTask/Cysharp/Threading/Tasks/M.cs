@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class MoveNextSource : Object
     {
+        public object completionSource;
+
         // ── Methods ──
         public void GetResult(){} // RVA: 0x77466B0
         public void GetStatus(){} // RVA: 0x7746700

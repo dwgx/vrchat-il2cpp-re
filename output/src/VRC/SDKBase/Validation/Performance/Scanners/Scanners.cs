@@ -7,6 +7,12 @@ namespace VRC.SDKBase.Validation.Performance.Scanners
 {
     public class AbstractPerformanceScanner : Object
     {
+        public object MAXIMUM_COMPONENT_SCANS_PER_FRAME;
+        public object _componentScansThisFrame;
+        public object _componentScansFrameNumber;
+        public object _coroutines;
+        public object _limitComponentScansPerFrame;
+
         // ── Methods ──
         public void ScanAvatarForComponentsOfType(){} // RVA: 0x87C5F0
         public void RunPerformanceScanEnumerator(){} // RVA: 0x882090
@@ -74,6 +80,11 @@ namespace VRC.SDKBase.Validation.Performance.Scanners
 
     public class MeshPerformanceScanner : AbstractPerformanceScanner
     {
+        public object TEXTURE_2D_MAXIMUM_BYTES_PER_PIXEL;
+        public object _texture2DBytesPerPixelLookup;
+        public object RENDER_TEXTURE_2D_MAXIMUM_BYTES_PER_PIXEL;
+        public object _renderTextureBytesPerPixelLookup;
+
         // ── Methods ──
         public void RunPerformanceScanEnumerator(){} // RVA: 0xA767690
         public void CalculateRendererPolyCount(){} // RVA: 0xA767850

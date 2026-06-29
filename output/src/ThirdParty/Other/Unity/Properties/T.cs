@@ -623,6 +623,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsValueType(){} // RVA: 0x87D2E0
         public void get_IsPrimitive(){} // RVA: 0x87D2E0
@@ -642,6 +660,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -661,6 +697,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -680,6 +734,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -699,6 +771,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -718,6 +808,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -737,6 +845,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -756,6 +882,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -775,6 +919,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -794,6 +956,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -813,6 +993,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0
@@ -832,6 +1030,24 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class TypeTraits`1 : Object
     {
+        public object _isValueType;
+        public object _isPrimitive;
+        public object _isInterface;
+        public object _isAbstract;
+        public object _isArray;
+        public object _isMultidimensionalArray;
+        public object _isEnum;
+        public object _isEnumFlags;
+        public object _isNullable;
+        public object _isObject;
+        public object _isString;
+        public object _isContainer;
+        public object _canBeNull;
+        public object _isPrimitiveOrString;
+        public object _isAbstractOrInterface;
+        public object _isUnityObject;
+        public object _isLazyLoadReference;
+
         // ── Methods ──
         public void get_IsContainer(){} // RVA: 0x4F6F4B0
         public void get_IsAbstractOrInterface(){} // RVA: 0x4F6F5F0

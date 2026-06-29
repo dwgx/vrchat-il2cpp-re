@@ -7,6 +7,11 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class Team : Object
     {
+        public object AssignedUsers;
+        public object MaxUsers;
+        public object MinUsers;
+        public object Name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B66270
     }

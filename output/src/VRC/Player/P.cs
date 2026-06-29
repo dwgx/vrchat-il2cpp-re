@@ -1,13 +1,17 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
 // Classes: 100
-// Methods: 1745
+// Methods: 2119
 
 namespace VRC.Player
 {
     /// <summary>Originally: ÎÌÌÏÎÌÎÍÌÎÌÏÍÌÌÎÏÌÌÌÏÍÌ</summary>
     public class PlayerCalculateLayoutInputHorizCalculateLayout_2476 : GridLayoutGroup
     {
+        public object _2476;
+        public object _flexibleWidth;
+        public object _flexibleHeight;
+
         // ── Methods ──
         public void CalculateLayoutInputHorizontal(){} // RVA: 0x139E680
         public void .ctor(){} // RVA: 0x139E8F0
@@ -17,6 +21,17 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÌÍÍÍÍÎÌÏÏÍÎÎÎÎÌÍÎÌÎÎÎ</summary>
     public class PlayerCalculateLayoutInputHorizCalculateLayout_F3BF : LayoutGroup
     {
+        public object _m_Padding;
+        public object _m_ChildAlignment;
+        public object _m_Rect;
+        public object _m_Tracker;
+        public object _m_TotalMinSize;
+        public object _m_TotalPreferredSize;
+        public object _m_TotalFlexibleSize;
+        public object _m_RectChildren;
+        public object m_StartAxis;
+        public object f_A8E;
+
         // ── Methods ──
         public void get_padding(){} // RVA: 0x21E8630
         public void set_padding(){} // RVA: 0x21E8690
@@ -48,9 +63,77 @@ namespace VRC.Player
         public void m_7B7(){} // RVA: 0x21EA410
     }
 
-    /// <summary>Originally: ÍÎÏÎÏÎÍÍÌÏÎÌÏÏÎÍÎÍÍÌÍÏÏ</summary>
-    public class PlayerControllerColliderHitHandler_D500 : MonoBehaviour
+    /// <summary>Originally: ÏÍÍÌÍÏÏÌÌÏÍÎÍÍÌÍÏÎÎÏÏÏÏ</summary>
+    public class PlayerCanvasHierarchyChangeddefaultUserIconTex_555D : UIBehaviour
     {
+        public object userProfileButton;
+        public object userIconGameObject;
+        public object defaultUserIcon;
+        public object defaultUserIconText;
+        public object userIconImage;
+        public object userNameText;
+        public object userStatusText;
+        public object userStatusIcon;
+        public object f_92A;
+
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x9B8E540
+        public void OnEnable(){} // RVA: 0x9B8EAA0
+        public void OnDisable(){} // RVA: 0x9B8F560
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9B8FAB0
+        public void Start(){} // RVA: 0x9B90000
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x9B906A0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x9B90C00
+        public void OnDestroy(){} // RVA: 0x9B90CF0
+        public void OnCanvasGroupChanged(){} // RVA: 0x9B90DF0
+        public void OnApplicationQuit(){} // RVA: 0x9B91350
+        // ── Unresolved (hash) ──
+        public void m_BB3(){} // RVA: 0x9B8F000
+    }
+
+    /// <summary>Originally: ÍÎÏÎÏÎÍÍÌÏÎÌÏÏÎÍÎÍÍÌÍÏÏ</summary>
+    public class PlayerControllerColliderHitk__BackingFieldHandler_D500 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_4C0;
+        public object f_A04;
+        public object f_65F;
+        public object f_7C4;
+        public object f_85B;
+        public object f_271;
+        public object f_071;
+        public object f_046;
+        public object f_D6D;
+        public object f_D6B;
+        public object f_AA0;
+        public object f_C66;
+        public object f_0F1;
+        public object f_5D4;
+        public object f_933;
+        public object f_CD4;
+        public object f_FEC;
+        public object f_79A;
+        public object f_1C0;
+        public object f_2FF;
+        public object f_46D;
+        public object f_854;
+        public object f_00C;
+        public object f_35F;
+        public object f_1D1;
+        public object f_BEE;
+        public object f_DE1;
+        public object f_717;
+        public object f_146;
+        public object f_6C0;
+        public object f_020;
+        public object f_A30;
+        public object f_3CF;
+        public object f_CFF;
+        public object f_A09;
+        public object f_A2F;
+        public object f_1CD;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xD94470
         public void RaiseCancellation(){} // RVA: 0xD944C0
@@ -110,8 +193,14 @@ namespace VRC.Player
     }
 
     /// <summary>Originally: ÎÏÎÌÎÍÎÍÎÎÌÎÌÏÎÌÌÎÍÎÌÎÍ</summary>
-    public class PlayerCustomInputTextEdited_6927 : ComplexComponentImpl_07B6
+    public class PlayerCustomInputTextEditedcustomInputPlacehol_6927 : UIscrollRectfootnote_07B6
     {
+        public object customInputText;
+        public object _customInputPlaceholderText;
+        public object _editTextButton;
+        public object f_A7B;
+        public object f_866;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x985FB90
         public void Awake(){} // RVA: 0x9D10540
@@ -126,9 +215,60 @@ namespace VRC.Player
         // ... 7 more unresolved methods
     }
 
+    /// <summary>Originally: ÌÌÎÎÎÌÌÍÍÌÌÍÎÍÏÌÍÎÎÎÌÏÏ</summary>
+    public class PlayerDisconnectedUsersHeaderBlockedByUsersHea_AC35 : UIk__BackingFieldComponent_38C8
+    {
+        public object BackButton;
+        public object ViewReports;
+        public object ReportUser;
+        public object ReportAvatar;
+        public object ReportWorld;
+        public object ReportGroup;
+        public object ReportInstance;
+        public object ReportSticker;
+        public object ReportEmoji;
+        public object ReportPrint;
+        public object ButtonSection;
+        public object UserSection;
+        public object GroupSection;
+        public object NoUsersMessage;
+        public object UserCellPrefab;
+        public object UsersHeader;
+        public object Users;
+        public object DisconnectedUsersHeader;
+        public object DisconnectedUsers;
+        public object BlockedUsersHeader;
+        public object BlockedUsers;
+        public object BlockedByUsersHeader;
+        public object BlockedByUsers;
+        public object InstanceGroupHeader;
+        public object InstanceGroupCell;
+        public object GroupCellPrefab;
+        public object UserGroups;
+
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x9E13770
+        public void OnDisable(){} // RVA: 0x1659CB0
+        public void Start(){} // RVA: 0x9E13890
+        public void .ctor(){} // RVA: 0x9E14790
+        public void Initialize(){} // RVA: 0x1659CB0
+        // ── 21 unresolved (hash) ──
+        public void m_9CD(){} // RVA: 0x9E13400
+        public void m_DA3(){} // RVA: 0x9E134E0
+        public void m_2AC(){} // RVA: 0x9E135D0
+        public void m_EFD(){} // RVA: 0x9E136A0
+        public void m_C25(){} // RVA: 0x1659CB0
+        // ... 16 more unresolved methods
+    }
+
     /// <summary>Originally: ÍÍÌÎÏÏÏÍÎÏÌÎÎÍÍÌÌÎÍÎÌÏÏ</summary>
     public class PlayerIsInteractivePickupUseDown_CCD0 : VRCInteractable
     {
+        public object _isInteractive;
+        public object f_55F;
+        public object InteractableType;
+        public object f_1A2;
+
         // ── Methods ──
         public void set_IsInteractive(){} // RVA: 0x10F64A0
         public void get_IsInteractive(){} // RVA: 0xC2E4C0
@@ -149,84 +289,13 @@ namespace VRC.Player
         public void m_F5D(){} // RVA: 0x10F7040
     }
 
-    /// <summary>Originally: ÌÏÍÌÍÎÏÎÎÌÎÌÎÍÏÏÏÌÌÌÍÎÎ</summary>
-    public class PlayerLeftHandlerImpl_9FA9 : PlayerLeftHandler_92A6
-    {
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x2141E20
-        public void .ctor(){} // RVA: 0x21422F0
-        public void Initialize(){} // RVA: 0x141EFA0
-        public void Awake(){} // RVA: 0x141EFA0
-        // ── 11 unresolved (hash) ──
-        public void m_6F3(){} // RVA: 0x2141D40
-        public void m_2A4(){} // RVA: 0x2141EF0
-        public void m_BBB(){} // RVA: 0x2141FB0
-        public void m_A19(){} // RVA: 0x21422E0
-        public void m_269(){} // RVA: 0x21422E0
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÍÍÍÌÍÍÌÎÍÍÌÌÍÏÎÎÏÎÎÏÌÍ</summary>
-    public class PlayerLeftHandlerImpl_A339 : PlayerLeftHandler_92A6
-    {
-        // ── Methods ──
-        public void OnEnable(){} // RVA: 0x2149C00
-        public void .ctor(){} // RVA: 0x214A900
-        public void OnDisable(){} // RVA: 0x214A920
-        public void Awake(){} // RVA: 0x141EFA0
-        public void OnDestroy(){} // RVA: 0x214AA30
-        public void LateUpdate(){} // RVA: 0x214AF60
-        // ── 11 unresolved (hash) ──
-        public void m_BCA(){} // RVA: 0x2149CF0
-        public void m_320(){} // RVA: 0x2149F10
-        public void m_926(){} // RVA: 0x2149F50
-        public void m_FD8(){} // RVA: 0x2149F80
-        public void m_325(){} // RVA: 0x214A070
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÍÌÌÏÌÏÌÍÏÍÎÌÎÏÌÏÍÍÎÌÏÌ</summary>
-    public class PlayerLeftHandlerImpl_AD2B : PlayerLeftHandler_92A6
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2147DD0
-        public void Initialize(){} // RVA: 0x2147E60
-        public void LateUpdate(){} // RVA: 0x2148D40
-        public void Awake(){} // RVA: 0x141EFA0
-        // ── Unresolved (hash) ──
-        public void m_841(){} // RVA: 0x2146F00
-        public void m_325(){} // RVA: 0x21474B0
-        public void m_320(){} // RVA: 0x2147810
-        public void m_22E(){} // RVA: 0x141EFA0
-        public void m_270(){} // RVA: 0x2148750
-        public void m_F9A(){} // RVA: 0x141EFA0
-        public void m_6EF(){} // RVA: 0x21492E0
-    }
-
-    /// <summary>Originally: ÏÍÍÏÌÌÌÎÌÍÎÌÍÍÌÏÎÎÍÎÌÍÌ</summary>
-    public class PlayerLeftHandlerImpl_D1E8 : PlayerLeftHandler_92A6
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x141ED80
-        public void Awake(){} // RVA: 0x141EFA0
-        public void OnEnable(){} // RVA: 0x141EFC0
-        public void OnDisable(){} // RVA: 0x141EFD0
-        public void .cctor(){} // RVA: 0x141F1C0
-        // ── Unresolved (hash) ──
-        public void m_FA3(){} // RVA: 0x141F0B0
-        public void m_325(){} // RVA: 0x141F200
-        public void m_6EF(){} // RVA: 0x14201B0
-        public void m_D84(){} // RVA: 0x1420230
-        public void m_CBC(){} // RVA: 0x141EFA0
-        public void m_CD7(){} // RVA: 0x1420330
-        public void m_AD9(){} // RVA: 0x1420410
-        public void m_E57(){} // RVA: 0x1420520
-        public void m_4A3(){} // RVA: 0x1420600
-    }
-
     /// <summary>Originally: ÌÌÎÍÍÌÍÎÏÎÎÍÏÏÎÎÎÏÏÏÌÍÌ</summary>
     public class PlayerLeftHandler_7C4D : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_265;
+        public object f_793;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1288420
         public void OnPlayerLeft(){} // RVA: 0x1288800
@@ -275,47 +344,25 @@ namespace VRC.Player
         public void m_F90(){} // RVA: 0x1289A00
     }
 
-    /// <summary>Originally: ÎÍÌÍÍÏÎÌÍÌÎÌÍÏÎÍÎÍÍÌÍÌÌ</summary>
-    public class PlayerLeftHandler_92A6 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x894290
-        public void RaiseCancellation(){} // RVA: 0xF45EE0
-        public void IsInvoking(){} // RVA: 0x1AD91E0
-        public void CancelInvoke(){} // RVA: 0xCD48B0
-        public void Invoke(){} // RVA: 0xCD3600
-        public void InvokeRepeating(){} // RVA: 0x2154E50
-        public void StartCoroutine(){} // RVA: 0x2154E90
-        public void StartCoroutine_Auto(){} // RVA: 0x2154ED0
-        public void StopCoroutine(){} // RVA: 0x2154EF0
-        public void StopAllCoroutines(){} // RVA: 0x2155010
-        public void get_useGUILayout(){} // RVA: 0x2155130
-        public void set_useGUILayout(){} // RVA: 0x2155250
-        public void get_didStart(){} // RVA: 0x2155370
-        public void get_didAwake(){} // RVA: 0x1D65050
-        public void print(){} // RVA: 0x1D65EC0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x1D5B300
-        public void Internal_IsInvokingAll(){} // RVA: 0x899250
-        public void InvokeDelayed(){} // RVA: 0x2155380
-        public void IsObjectMonoBehaviour(){} // RVA: 0x2156760
-        public void StartCoroutineManaged(){} // RVA: 0x2158020
-        public void StartCoroutineManaged2(){} // RVA: 0x2158380
-        public void StopCoroutineManaged(){} // RVA: 0x2158780
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x2159F40
-        public void OnPlayerLeft(){} // RVA: 0x215A060
-        public void OnCancellationTokenCreated(){} // RVA: 0x215A0E0
-        public void StopCoroutine_Injected(){} // RVA: 0x215A210
-        public void StopAllCoroutines_Injected(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0x215A240
-        public void Initialize(){} // RVA: 0x215A680
-        public void get_didStart_Injected(){} // RVA: 0x215A900
-        // ── Unresolved (hash) ──
-        public void m_A4C(){} // RVA: 0x215A0F0
-    }
-
     /// <summary>Originally: ÎÏÍÍÌÍÍÎÎÌÍÍÍÌÌÍÏÏÏÏÎÎÎ</summary>
     public class PlayerModComponentHealth : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_257;
+        public object f_62E;
+        public object f_C48;
+        public object f_CD0;
+        public object f_975;
+        public object f_BDC;
+        public object f_9A3;
+        public object f_CBD;
+        public object f_8F5;
+        public object f_BFD;
+        public object f_BDA;
+        public object f_24E;
+        public object f_7E8;
+        public object f_AF6;
+
         // ── Methods ──
         public void GetMaxHealth(){} // RVA: 0xC5C4A0
         public void CanSerialize32Bit(){} // RVA: 0xB43320
@@ -363,212 +410,13 @@ namespace VRC.Player
         public void m_CDB(){} // RVA: 0x1CFB520
     }
 
-    /// <summary>Originally: ÌÌÎÌÌÎÍÌÏÍÏÎÍÎÏÍÍÏÌÍÌÏÎ</summary>
-    public class PlayerMoveNext_03D3 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1BB2FD0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1BB3350
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB3390
-        public void GetCachedPtr(){} // RVA: 0x1BB33D0
-        public void get_name(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BB3410
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0x1BB37A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsByType(){} // RVA: 0x1BB37E0
-    }
-
-    /// <summary>Originally: ÎÌÍÍÎÌÍÌÏÌÎÌÎÎÍÍÍÎÎÏÏÏÍ</summary>
-    public class PlayerMoveNext_0783 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0xD124B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD12B70
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÌÌÎÎÍÌÎÍÍÌÌÍÎÏÎÏÎÏÌÌÍÌ</summary>
-    public class PlayerMoveNext_0B0A : Object
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB43310
-        public void Equals(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x225DA00
-        public void MoveNext(){} // RVA: 0x225DA40
-        public void get_name(){} // RVA: 0xB43310
-        public void set_name(){} // RVA: 0x225DCA0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÏÎÎÌÍÌÎÌÎÌÍÏÏÍÍÍÌÌÎÏÎÎÎ</summary>
-    public class PlayerMoveNext_0C0D : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B720E0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x1B72A00
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B73320
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÍÏÌÍÍÍÍÍÎÏÍÌÎÏÏÌÏÏÎÌÎÌÎ</summary>
-    public class PlayerMoveNext_0D3D : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x1BB9260
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BB9370
-        public void get_name(){} // RVA: 0x1BB9480
-        public void set_name(){} // RVA: 0x1BB94C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB9500
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0x1BB9540
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÍÍÏÌÌÌÍÏÌÏÎÎÎÌÌÍÌÌÏÍÍÎÏ</summary>
-    public class PlayerMoveNext_0E66 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B9DF90
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0x1B9DFD0
-        public void MoveNext(){} // RVA: 0x1B9F720
-        public void Destroy(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÍÏÏÍÌÍÌÎÌÍÏÎÎÌÏÌÏÍÍÌÏÌ</summary>
-    public class PlayerMoveNext_11CF : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1A331B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A33470
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0x1A334B0
-        public void MoveNext(){} // RVA: 0x1A33770
-        public void Instantiate(){} // RVA: 0x1A33A30
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0x1A33CE0
-    }
-
-    /// <summary>Originally: ÎÏÎÍÌÎÌÍÍÍÏÌÌÍÍÎÌÏÏÍÍÍÌ</summary>
-    public class PlayerMoveNext_1246 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B70770
-        public void get_Current(){} // RVA: 0x1B70AF0
-        public void MoveNext(){} // RVA: 0x1B70E70
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1B711F0
-        public void IsNativeObjectAlive(){} // RVA: 0x1B71230
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B715C0
-        public void Destroy(){} // RVA: 0x1B71600
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÎÌÎÎÌÎÌÍÎÍÏÌÌÍÏÏÌÏÍÍÏÌÍ</summary>
-    public class PlayerMoveNext_1440 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B6CD40
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B6CD40
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x1B6CE50
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B6CF50
-    }
-
-    /// <summary>Originally: ÎÏÏÍÌÏÎÌÎÍÍÌÌÍÌÏÍÏÏÎÌÎÍ</summary>
-    public class PlayerMoveNext_1687 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0xD2C340
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD2C700
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0xD2C740
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xD2C780
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xD2C7C0
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÍÎÍÌÍÍÎÌÎÌÍÎÍÎÍÍÌÎÏÍÍÌ</summary>
-    public class PlayerMoveNext_1D60 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18769F0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void MoveNext(){} // RVA: 0x1876A30
-        public void op_Implicit(){} // RVA: 0x1876CA0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0x1876EE0
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x1876F20
-        public void DestroyImmediate(){} // RVA: 0xB43310
-    }
-
     /// <summary>Originally: ÍÌÏÎÏÏÌÎÌÌÍÍÍÏÍÏÌÎÎÌÏÏÏ</summary>
     public class PlayerMoveNext_28B6 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD017B0
         public void MoveNext(){} // RVA: 0xD017F0
@@ -583,100 +431,13 @@ namespace VRC.Player
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÎÍÍÎÌÏÍÎÎÏÎÏÎÎÌÌÏÎÏÌÏÍÎ</summary>
-    public class PlayerMoveNext_28F2 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x1B6CF90
-        public void Equals(){} // RVA: 0x1B6CFD0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B6DC90
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B6E950
-    }
-
-    /// <summary>Originally: ÏÎÎÎÏÌÎÎÌÏÏÌÍÌÌÎÍÌÎÏÍÎÍ</summary>
-    public class PlayerMoveNext_3279 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B97E60
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B98010
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B98050
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B98210
-    }
-
-    /// <summary>Originally: ÏÍÏÏÍÍÍÌÍÏÍÏÍÍÎÏÌÍÌÎÍÏÎ</summary>
-    public class PlayerMoveNext_33A6 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B7DBE0
-        public void get_Current(){} // RVA: 0x1B7E4D0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x1B7E510
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B7E550
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B7F080
-    }
-
-    /// <summary>Originally: ÎÎÌÎÏÏÌÍÎÍÍÎÎÍÍÍÏÌÏÏÎÎÎ</summary>
-    public class PlayerMoveNext_356C : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB87B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0x1BB87F0
-        public void MoveNext(){} // RVA: 0x1BB8B50
-        public void set_name(){} // RVA: 0x1BB8EB0
-        public void Instantiate(){} // RVA: 0x1BB9220
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÌÎÎÌÌÍÍÍÍÎÎÍÎÎÍÍÏÍÍÏÏÌÏ</summary>
-    public class PlayerMoveNext_35D2 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB43310
-        public void get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B86D30
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0x1B86D70
-        public void MoveNext(){} // RVA: 0x1B86E10
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B86EB0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
     /// <summary>Originally: ÍÏÎÌÍÌÍÎÍÌÎÌÌÏÍÍÍÍÌÍÍÎÏ</summary>
     public class PlayerMoveNext_3769 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0xCF68A0
         public void get_Current(){} // RVA: 0xCF68E0
@@ -691,148 +452,13 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÎÍÎÏÏÌÌÍÌÏÌÏÏÏÏÎÌÎÍÎÌÎÍ</summary>
-    public class PlayerMoveNext_3AA5 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1A323C0
-        public void get_Current(){} // RVA: 0x1A32670
-        public void Equals(){} // RVA: 0x1A32920
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x1A32BD0
-        public void GetCachedPtr(){} // RVA: 0x1A32E80
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1A32EC0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A33170
-    }
-
-    /// <summary>Originally: ÎÏÎÌÏÎÎÌÍÎÎÌÎÏÏÌÏÎÏÎÏÏÎ</summary>
-    public class PlayerMoveNext_3DE3 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B77800
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x1B77C60
-        public void GetCachedPtr(){} // RVA: 0x1B77CA0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B77CE0
-        public void set_name(){} // RVA: 0x1B77D20
-        public void Instantiate(){} // RVA: 0x1B77D60
-        public void Destroy(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB43310
-        public void FindObjectsByType(){} // RVA: 0x1B781D0
-    }
-
-    /// <summary>Originally: ÍÌÎÎÌÍÎÌÍÍÌÎÏÏÏÌÍÍÏÏÌÏÌ</summary>
-    public class PlayerMoveNext_3DF9 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x23C4EC0
-        public void get_Current(){} // RVA: 0x23C5310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x23C5350
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x23C5390
-        public void Destroy(){} // RVA: 0x23C53D0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x23C56A0
-    }
-
-    /// <summary>Originally: ÌÎÎÍÌÍÌÎÍÍÍÌÏÏÍÌÍÏÏÎÏÏÍ</summary>
-    public class PlayerMoveNext_3F36 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0x1BBA1A0
-        public void MoveNext(){} // RVA: 0x1BBA550
-        public void GetCachedPtr(){} // RVA: 0x1BBA910
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BBACD0
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsByType(){} // RVA: 0x1BBAD10
-    }
-
-    /// <summary>Originally: ÏÍÏÏÌÎÎÏÌÏÎÍÎÏÏÍÌÎÍÌÏÌÌ</summary>
-    public class PlayerMoveNext_412D : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x1B98B70
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B98C60
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B98CA0
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B98D90
-        public void DestroyImmediate(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÎÎÎÏÌÎÍÎÌÎÍÏÏÍÏÏÌÍÌÌÏÍÍ</summary>
-    public class PlayerMoveNext_437A : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x137C6C0
-        public void MoveNext(){} // RVA: 0x137C9C0
-        public void GetEnumerator(){} // RVA: 0x137CCB0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x137CD00
-        public void CompareBaseObjects(){} // RVA: 0x137CD40
-        public void .ctor(){} // RVA: 0x1093150
-        public void System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x137CE00
-        public void Destroy(){} // RVA: 0x137CEC0
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0x137CF40
-        public void FindObjectsByType(){} // RVA: 0x137CF80
-        public void System.Collections.Generic.IEnumerable<VRC.Playables.AvatarParameter>.GetEnumerator(){} // RVA: 0x137D280
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x137D280
-        public void set_hideFlags(){} // RVA: 0x137D350
-    }
-
-    /// <summary>Originally: ÌÌÍÍÍÎÌÍÎÌÌÌÌÎÎÌÏÍÌÌÌÌÎ</summary>
-    public class PlayerMoveNext_4A1D : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1BB3820
-        public void get_Current(){} // RVA: 0x1BB3AF0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BB3B30
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB3E00
-        public void set_name(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x1BB3E40
-        public void DestroyImmediate(){} // RVA: 0x1BB4100
-        public void FindObjectsOfType(){} // RVA: 0xB43310
-        public void FindObjectsByType(){} // RVA: 0x1BB4140
-    }
-
     /// <summary>Originally: ÌÌÎÌÍÏÌÎÎÍÌÍÍÎÏÎÏÏÏÏÎÏÏ</summary>
     public class PlayerMoveNext_4E3D : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x190B480
         public void get_Current(){} // RVA: 0xB465B0
@@ -850,6 +476,10 @@ namespace VRC.Player
     /// <summary>Originally: ÏÌÎÌÏÎÍÍÏÎÏÌÎÏÌÌÍÎÎÎÌÎÎ</summary>
     public class PlayerMoveNext_4F3F : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xD047D0
         public void get_Current(){} // RVA: 0xD04810
@@ -867,414 +497,13 @@ namespace VRC.Player
         public void FindObjectsByType(){} // RVA: 0xD04AF0
     }
 
-    /// <summary>Originally: ÎÏÌÍÎÌÏÎÌÌÎÎÌÌÍÎÎÍÌÎÍÍÍ</summary>
-    public class PlayerMoveNext_50A1 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B9BE30
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0x1B9BE70
-        public void set_name(){} // RVA: 0x1B9BEB0
-        public void MoveNext(){} // RVA: 0x1B9C2D0
-        public void Destroy(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÌÏÎÍÌÌÍÍÎÏÌÍÍÎÏÎÌÌÌÌÎÍ</summary>
-    public class PlayerMoveNext_515F : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x2269350
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x2269390
-        public void CompareBaseObjects(){} // RVA: 0x2269410
-        public void System.IDisposable.Dispose(){} // RVA: 0x22697C0
-        public void GetCachedPtr(){} // RVA: 0x2269800
-        public void MoveNext(){} // RVA: 0x2269B90
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x2269F40
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x2269F80
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÌÎÎÌÍÍÌÌÏÍÏÎÍÏÏÍÎÌÍÏÌÍÌ</summary>
-    public class PlayerMoveNext_5A5C : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x225A3B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x225A3F0
-        public void MoveNext(){} // RVA: 0x225A430
-        public void CompareBaseObjects(){} // RVA: 0x225A9D0
-        public void IsNativeObjectAlive(){} // RVA: 0x225AF20
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x225AF60
-        public void Instantiate(){} // RVA: 0x225B4B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÌÏÎÎÍÎÏÎÌÌÏÌÍÍÎÍÏÌÎÏÎÌ</summary>
-    public class PlayerMoveNext_5C04 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1BAEB80
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x1BAEBC0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1BAEC00
-        public void IsNativeObjectAlive(){} // RVA: 0x1BAEC40
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BAEC80
-        public void MoveNext(){} // RVA: 0x1BAECC0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÎÌÎÌÌÍÎÌÍÍÏÍÎÏÏÌÍÌÍÎÏÍÌ</summary>
-    public class PlayerMoveNext_61B5 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18756F0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1875730
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0x1875BD0
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÌÏÎÍÌÌÎÌÍÍÍÍÌÎÎÍÏÍÏÎÏÏÎ</summary>
-    public class PlayerMoveNext_629E : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BA0E60
-        public void IsNativeObjectAlive(){} // RVA: 0x1BA13E0
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BA1420
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÎÏÍÌÎÍÌÌÎÌÎÏÍÌÌÌÏÎÏÌÍÍÎ</summary>
-    public class PlayerMoveNext_64D6 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB460A0
-        public void MoveNext(){} // RVA: 0x1987EB0
-        public void get_Current(){} // RVA: 0x1988320
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1988360
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x19883A0
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0x19883E0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0x1988850
-    }
-
-    /// <summary>Originally: ÎÏÌÌÍÌÌÍÍÎÏÌÍÎÍÍÎÏÍÍÏÌÏ</summary>
-    public class PlayerMoveNext_650C : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x225CBD0
-        public void Equals(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x225D030
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x225D500
-        public void Destroy(){} // RVA: 0x225D540
-    }
-
-    /// <summary>Originally: ÍÌÎÌÏÌÌÎÎÎÌÍÏÌÏÏÍÏÎÎÏÎÏ</summary>
-    public class PlayerMoveNext_662B : Object
-    {
-        // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void get_Current(){} // RVA: 0x1B73360
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x1B73C80
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B745A0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B74EC0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÏÏÎÎÍÍÏÏÍÌÌÍÏÍÏÍÎÍÌÌÍÎÌ</summary>
-    public class PlayerMoveNext_705E : Object
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0x1B86180
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B86340
-        public void Instantiate(){} // RVA: 0x1B86500
-        public void Destroy(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B86540
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÌÏÎÌÏÎÍÏÏÌÏÍÎÎÌÍÍÍÎÏÏÍÌ</summary>
-    public class PlayerMoveNext_7169 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xD18780
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD187C0
-        public void MoveNext(){} // RVA: 0xD18800
-        public void get_name(){} // RVA: 0xD18B30
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xD18B70
-        public void Destroy(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÌÍÏÍÎÏÍÎÌÍÌÎÌÏÌÏÎÏÎÌÎÍ</summary>
-    public class PlayerMoveNext_7420 : Object
-    {
-        // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x1B7F0C0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B7F130
-        public void MoveNext(){} // RVA: 0x1B7F170
-        public void set_name(){} // RVA: 0x1B7F1F0
-        public void Instantiate(){} // RVA: 0x1B7F230
-        public void Destroy(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÏÍÎÌÌÎÍÌÍÏÎÎÎÍÎÍÌÍÌÌÏÌ</summary>
-    public class PlayerMoveNext_756D : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x225B4F0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0x225BC60
-        public void set_name(){} // RVA: 0x225BCA0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x225C420
-        public void MoveNext(){} // RVA: 0x225C460
-    }
-
-    /// <summary>Originally: ÎÌÎÎÍÍÍÏÍÏÍÍÌÍÌÏÍÎÏÎÎÎÎ</summary>
-    public class PlayerMoveNext_8145 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BCDF10
-        public void get_Current(){} // RVA: 0xB43310
-        public void Equals(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void MoveNext(){} // RVA: 0x1BCDF50
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0x1BCE720
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x1BCE760
-    }
-
-    /// <summary>Originally: ÍÍÎÌÍÍÏÎÍÏÌÎÌÍÎÎÎÍÍÌÌÎÎ</summary>
-    public class PlayerMoveNext_8160 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B6BC60
-        public void get_Current(){} // RVA: 0x1B6BCA0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B6BCE0
-        public void op_Implicit(){} // RVA: 0x1B6BD20
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B6BD60
-        public void GetCachedPtr(){} // RVA: 0x1B6C530
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void set_name(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B6C570
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÏÍÌÍÍÌÎÌÌÍÍÎÌÍÏÍÎÍÍÏÍÎ</summary>
-    public class PlayerMoveNext_8857 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x11EF060
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x11EF910
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x11F0160
-        public void set_name(){} // RVA: 0x11F09A0
-        public void Instantiate(){} // RVA: 0x11F09E0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x11F0A20
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x11F0A60
-    }
-
-    /// <summary>Originally: ÌÎÍÏÌÏÍÎÌÍÍÎÎÍÍÌÏÌÏÌÏÎÎ</summary>
-    public class PlayerMoveNext_8D18 : Object
-    {
-        // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x20E4AE0
-        public void get_Current(){} // RVA: 0x20E4BC0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0x20E4C10
-        public void GetCachedPtr(){} // RVA: 0x20E5630
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0x20E5670
-        public void Instantiate(){} // RVA: 0x20E56C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x20E5710
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x20E5750
-    }
-
-    /// <summary>Originally: ÌÌÎÎÌÌÎÍÌÎÎÌÏÏÍÌÎÏÎÎÍÎÌ</summary>
-    public class PlayerMoveNext_8DA5 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B71980
-        public void get_Current(){} // RVA: 0x1B719C0
-        public void Equals(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B71A00
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x1B71D70
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÍÍÎÍÍÎÏÍÌÍÌÎÎÌÎÎÍÏÌÏÏÍ</summary>
-    public class PlayerMoveNext_8FFD : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x23BE7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x23BE7F0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x23BE830
-        public void MoveNext(){} // RVA: 0x23BF2B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÌÏÏÍÍÎÎÎÎÎÎÍÎÎÎÌÍÎÏÎÎÎ</summary>
-    public class PlayerMoveNext_902E : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BCE7A0
-        public void MoveNext(){} // RVA: 0x1BCE7E0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1BCEEF0
-        public void IsNativeObjectAlive(){} // RVA: 0x1BCEF30
-        public void GetCachedPtr(){} // RVA: 0x1BCEF70
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÏÍÎÌÌÌÌÌÍÏÏÎÏÎÍÏÍÏÎÍÏÏÎ</summary>
-    public class PlayerMoveNext_90C8 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1875D80
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void op_Implicit(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1876170
-        public void GetCachedPtr(){} // RVA: 0x1876560
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1876970
-        public void set_name(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x18769B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÌÏÌÍÌÎÏÌÏÏÌÍÏÍÎÍÏÍÌÎÏÌ</summary>
-    public class PlayerMoveNext_973B : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB2E60
-        public void MoveNext(){} // RVA: 0x1BB2EA0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0x1BB2F90
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
     /// <summary>Originally: ÌÍÏÏÍÏÎÏÍÍÏÎÎÎÏÍÎÏÏÏÍÎÍ</summary>
     public class PlayerMoveNext_98D8 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD02B50
         public void get_Current(){} // RVA: 0xB465B0
@@ -1295,6 +524,10 @@ namespace VRC.Player
     /// <summary>Originally: ÎÎÍÍÌÍÏÌÏÎÏÎÏÎÎÍÍÌÎÎÍÍÎ</summary>
     public class PlayerMoveNext_994E : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xCF1210
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0xCF1530
@@ -1312,378 +545,13 @@ namespace VRC.Player
         public void FindObjectsByType(){} // RVA: 0xCF1B90
     }
 
-    /// <summary>Originally: ÎÌÌÍÎÍÏÌÎÌÏÏÌÎÍÎÎÎÍÎÎÌÏ</summary>
-    public class PlayerMoveNext_9ABA : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-        public void GetEnumerator(){} // RVA: 0x894290
-        public void op_Implicit(){} // RVA: 0x894290
-        public void CompareBaseObjects(){} // RVA: 0x894290
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
-        public void .ctor(){} // RVA: 0x8944F0
-        public void GetCachedPtr(){} // RVA: 0x894290
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-        public void MoveNext(){} // RVA: 0x87D280
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xA94080
-        public void Destroy(){} // RVA: 0x87D280
-        public void System.IDisposable.Dispose(){} // RVA: 0x894290
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x87C0A0
-    }
-
-    /// <summary>Originally: ÏÌÌÏÍÌÏÎÌÍÎÎÏÏÌÌÍÏÌÏÌÎÍ</summary>
-    public class PlayerMoveNext_9AF1 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0x19DE200
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x19DE240
-        public void Instantiate(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x19DE280
-    }
-
-    /// <summary>Originally: ÍÌÍÎÌÌÎÌÌÏÌÏÎÏÍÏÌÏÏÌÎÌÏ</summary>
-    public class PlayerMoveNext_A2A9 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x11EE300
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x11EEE30
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x11EEE80
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x11EEF40
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x11EEF80
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x11EEFD0
-        public void FindObjectsOfType(){} // RVA: 0x11EF010
-    }
-
-    /// <summary>Originally: ÌÌÍÏÍÍÍÎÌÌÍÎÎÌÍÍÍÌÌÎÌÍÎ</summary>
-    public class PlayerMoveNext_A5EE : Object
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x23B9AA0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0x23B9DB0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x23BA0C0
-        public void set_name(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÏÏÍÏÎÌÌÏÎÌÌÍÏÏÌÏÏÎÎÎÌÎ</summary>
-    public class PlayerMoveNext_AA05 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BA2500
-        public void MoveNext(){} // RVA: 0x1BA2540
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0x1BA28B0
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÎÍÎÎÎÌÌÏÎÏÏÎÎÍÍÌÌÎÏÏÎÏ</summary>
-    public class PlayerMoveNext_AC34 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BCC0E0
-        public void MoveNext(){} // RVA: 0x1BCC120
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1BCCB70
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0x1BCD630
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÌÏÌÌÍÌÎÍÎÏÍÏÌÍÍÏÎÍÎÌÎÏ</summary>
-    public class PlayerMoveNext_ACB9 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B6E990
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0x1B6E9D0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B6EA10
-    }
-
-    /// <summary>Originally: ÌÍÏÏÎÎÌÌÎÍÌÎÌÎÎÍÍÎÌÏÍÎÌ</summary>
-    public class PlayerMoveNext_ADA2 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1A4AE10
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0x1A4BE60
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1A4BEA0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A4BEE0
-        public void DestroyImmediate(){} // RVA: 0x1A4BF20
-        public void FindObjectsOfType(){} // RVA: 0x1A4CF80
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÎÎÍÏÎÌÎÌÎÎÌÍÎÌÌÏÏÍÎÌÌÌ</summary>
-    public class PlayerMoveNext_B017 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B989B0
-        public void op_Implicit(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B989F0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÎÍÏÎÏÍÏÌÌÏÎÎÎÌÍÌÍÍÍÍÍÌ</summary>
-    public class PlayerMoveNext_C0A9 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x137D3A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x137D3E0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x137D560
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void set_name(){} // RVA: 0xB43310
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x137D700
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÍÏÌÍÌÏÏÌÏÌÏÎÍÍÌÏÌÎÌÌÍÍ</summary>
-    public class PlayerMoveNext_C1AB : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B6AC40
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B6B410
-        public void set_name(){} // RVA: 0x1B6B450
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B6BC20
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÌÌÏÍÌÎÍÍÌÏÎÍÏÎÍÌÏÎÌÎÏÎÍ</summary>
-    public class PlayerMoveNext_C62C : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B6F470
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1B6F4B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void GetCachedPtr(){} // RVA: 0x1B6FDE0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B706F0
-        public void set_name(){} // RVA: 0x1B70730
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÎÍÌÌÏÍÎÏÌÎÍÍÍÎÎÏÌÌÏÍÎÎ</summary>
-    public class PlayerMoveNext_CC9A : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB9640
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void op_Implicit(){} // RVA: 0x1BB9680
-        public void CompareBaseObjects(){} // RVA: 0x1BB9A30
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BB9DE0
-        public void DestroyImmediate(){} // RVA: 0xB43310
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÌÌÍÍÌÎÎÎÍÎÌÌÎÍÌÍÏÏÌÎÍÎÏ</summary>
-    public class PlayerMoveNext_CE23 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x1BB4180
-        public void get_Current(){} // RVA: 0xB465B0
-        public void Equals(){} // RVA: 0x1BB85F0
-        public void op_Implicit(){} // RVA: 0x1BB8630
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0x1BB85F0
-        public void set_name(){} // RVA: 0x1BB85F0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0x1BB86F0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB8770
-    }
-
-    /// <summary>Originally: ÌÎÌÏÍÌÎÍÍÎÍÍÏÎÏÌÎÎÎÎÍÍÌ</summary>
-    public class PlayerMoveNext_CFF5 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B953F0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B95710
-        public void Instantiate(){} // RVA: 0x1B95750
-        public void Destroy(){} // RVA: 0x1B95A60
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÏÌÏÏÍÎÍÏÎÌÎÏÎÎÌÍÌÌÌÎÏÎ</summary>
-    public class PlayerMoveNext_D055 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BBAD50
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void GetCachedPtr(){} // RVA: 0x1BBAD90
-        public void MoveNext(){} // RVA: 0x1BBADD0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0x1BBB170
-        public void DestroyImmediate(){} // RVA: 0x1BBB500
-        public void FindObjectsOfType(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÎÎÍÍÌÍÏÏÎÌÎÍÍÌÎÍÍÌÌÍÍÌÍ</summary>
-    public class PlayerMoveNext_D389 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BCD670
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0x1BCD6B0
-        public void MoveNext(){} // RVA: 0x1BCD6F0
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0x1BCDA60
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0x1BCDED0
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÌÏÌÌÍÎÍÌÌÍÍÍÍÍÍÎÎÌÏÍÍÌÏ</summary>
-    public class PlayerMoveNext_D682 : Object
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x1B98250
-        public void Equals(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B98290
-        public void GetCachedPtr(){} // RVA: 0x1B982D0
-        public void get_name(){} // RVA: 0x1B98310
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0x1B98350
-        public void Destroy(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void MoveNext(){} // RVA: 0x1B98680
-    }
-
-    /// <summary>Originally: ÎÍÍÎÎÍÎÌÎÌÏÎÎÍÏÍÏÍÏÏÎÌÍ</summary>
-    public class PlayerMoveNext_DB78 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1A3FD80
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A3FDC0
-        public void get_Current(){} // RVA: 0x1A3FE00
-        public void .ctor(){} // RVA: 0xB460A0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1A3FE40
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÎÌÏÍÌÍÍÌÏÏÌÏÍÏÍÍÌÎÏÎÎÎÌ</summary>
-    public class PlayerMoveNext_DE2C : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1A080A0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void IsNativeObjectAlive(){} // RVA: 0x1A080E0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1A081D0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A08C70
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
     /// <summary>Originally: ÍÍÌÍÏÎÎÎÌÏÏÌÎÎÎÎÍÍÏÏÎÌÏ</summary>
     public class PlayerMoveNext_E1B5 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xB465B0
         public void MoveNext(){} // RVA: 0xCF6A30
@@ -1701,158 +569,49 @@ namespace VRC.Player
         public void FindObjectsByType(){} // RVA: 0xCF6CA0
     }
 
-    /// <summary>Originally: ÌÌÏÎÎÌÌÍÏÎÌÎÍÎÍÎÎÌÍÏÏÎÌ</summary>
-    public class PlayerMoveNext_E890 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B86580
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B86930
-        public void get_Current(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1B86970
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB43310
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÍÏÏÎÍÎÌÌÏÎÌÍÍÍÌÍÏÍÍÍÍÏÌ</summary>
-    public class PlayerMoveNext_EFED : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0x1B79DD0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B79E10
-        public void MoveNext(){} // RVA: 0x1B79F90
-        public void get_name(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B7A100
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÏÌÍÌÍÌÍÌÏÎÌÌÏÍÍÏÍÎÏÍÎÏ</summary>
-    public class PlayerMoveNext_F0A7 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x1B9B6F0
-        public void get_Current(){} // RVA: 0x1B9B9D0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B9BA10
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void set_name(){} // RVA: 0x1B9BA50
-        public void Instantiate(){} // RVA: 0x1B9BA90
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÏÍÎÎÎÍÌÌÌÍÎÍÎÏÍÎÎÎÏÏÍÎ</summary>
-    public class PlayerMoveNext_F58C : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BBB8A0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1BBB8E0
-        public void IsNativeObjectAlive(){} // RVA: 0x1BBBA30
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void MoveNext(){} // RVA: 0x1BBBA70
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1BBBC20
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void DestroyImmediate(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÍÍÏÍÏÌÌÏÎÎÎÌÍÍÏÎÏÏÍÎÎÎÎ</summary>
-    public class PlayerMoveNext_F8A5 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1B74F00
-        public void MoveNext(){} // RVA: 0x1B75490
-        public void get_Current(){} // RVA: 0x1B75A20
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B75A60
-        public void IsNativeObjectAlive(){} // RVA: 0x1B75AA0
-        public void GetCachedPtr(){} // RVA: 0xB43310
-        public void get_name(){} // RVA: 0xB43310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0x1B76030
-        public void FindObjectsByType(){} // RVA: 0xB465B0
-    }
-
-    /// <summary>Originally: ÏÏÍÎÏÎÏÌÎÎÏÌÌÍÌÏÏÎÍÏÍÎÍ</summary>
-    public class PlayerMoveNext_FA2D : Object
-    {
-        // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0xB460A0
-        public void Initialize(){} // RVA: 0xB43310
-        public void MoveNext(){} // RVA: 0x1BB2630
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB43310
-        public void Destroy(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BB2A20
-        public void FindObjectsOfType(){} // RVA: 0x1BB2A60
-    }
-
-    /// <summary>Originally: ÏÎÏÌÏÍÏÎÎÎÍÌÌÎÌÎÎÌÍÏÍÏÏ</summary>
-    public class PlayerMoveNext_FB64 : Object
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x1BAD850
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1BADE30
-        public void get_Current(){} // RVA: 0xB43310
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB465B0
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0x1BADE70
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0x1BAE460
-        public void .ctor(){} // RVA: 0xB460A0
-    }
-
-    /// <summary>Originally: ÌÌÌÎÌÏÎÎÎÍÏÌÍÌÎÌÎÍÌÌÎÏÏ</summary>
-    public class PlayerMoveNext_FFA9 : Object
-    {
-        // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
-        public void get_Current(){} // RVA: 0xB465B0
-        public void Equals(){} // RVA: 0x1B8A850
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0x1B8A890
-        public void IsNativeObjectAlive(){} // RVA: 0xB43310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1B8AD40
-        public void get_name(){} // RVA: 0x1B8AD80
-        public void .ctor(){} // RVA: 0xB460A0
-        public void MoveNext(){} // RVA: 0x1B8ADC0
-        public void Destroy(){} // RVA: 0x1B8B280
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-        public void FindObjectsOfType(){} // RVA: 0xB465B0
-    }
-
     /// <summary>Originally: ÌÏÏÎÍÌÏÏÌÏÎÏÍÍÌÏÎÌÏÍÎÏÍ</summary>
     public class PlayerNet : NetworkReadyHandler_D8EE
     {
+        public object _typeId;
+        public object f_8B8;
+        public object f_034;
+        public object f_83F;
+        public object f_3F0;
+        public object f_420;
+        public object f_5CF;
+        public object f_E51;
+        public object f_016;
+        public object f_559;
+        public object f_208;
+        public object f_B79;
+        public object pickupCollider;
+        public object physicsColliders;
+        public object customizationHandler;
+        public object f_3F1;
+        public object f_87C;
+        public object f_DA9;
+        public object f_AF9;
+        public object f_CE7;
+        public object f_FF4;
+        public object f_635;
+        public object f_94E;
+        public object f_69F;
+        public object f_F8E;
+        public object f_85C;
+        public object f_ECD;
+        public object f_EA5;
+        public object f_14C;
+        public object f_2AA;
+        public object f_C61;
+        public object f_9FD;
+        public object f_631;
+        public object _selector;
+        public object visualsParent;
+        public object f_297;
+        public object f_0FB;
+        public object f_DEF;
+        public object f_E35;
+
         // ── Methods ──
         public void CanSerialize32Bit(){} // RVA: 0xB43320
         public void set_ShouldUseSystemGestureMaterial(){} // RVA: 0x12CA690
@@ -1892,34 +651,110 @@ namespace VRC.Player
         // ... 107 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ</summary>
-    public class PlayerPickupUseDownInteract_4C1B : VRC_Interactable
+    /// <summary>Originally: ÎÌÏÎÏÎÏÌÎÍÌÌÍÌÏÏÍÏÍÏÍÎÏ</summary>
+    public class PlayerPopulateMeshgeometryColor_A1F0 : MaskableGraphic
     {
+        public object _geometryColor;
+        public object _inputMesh;
+        public object _yScalingRatio;
+        public object _m_Maskable;
+        public object _m_IsMaskingGraphic;
+        public object _m_IncludeForMasking;
+        public object _m_OnCullStateChanged;
+        public object _m_ShouldRecalculate;
+
         // ── Methods ──
-        public void get_IsInteractive(){} // RVA: 0xB6B170
-        public void get_Proximity(){} // RVA: 0x18BB250
-        public void Awake(){} // RVA: 0x18BB280
-        public void OnPickupUseUp(){} // RVA: 0x18BB930
-        public void Update(){} // RVA: 0x18BCFF0
-        public void Start(){} // RVA: 0x18BDC30
-        public void OnDrop(){} // RVA: 0x18BDF60
-        public void OnPickupUseDown(){} // RVA: 0x18BE1D0
-        public void Interact(){} // RVA: 0xB43310
-        public void OnPickup(){} // RVA: 0x18BE660
-        public void .ctor(){} // RVA: 0x18BF380
-        public void Initialize(){} // RVA: 0x18BF450
-        // ── 59 unresolved (hash) ──
-        public void m_0C7(){} // RVA: 0xB6B1E0
-        public void m_466(){} // RVA: 0xB6B1F0
-        public void m_77E(){} // RVA: 0x18BB980
-        public void m_AE3(){} // RVA: 0xBE5870
-        public void m_E35(){} // RVA: 0x18BCCC0
-        // ... 54 more unresolved methods
+        public void get_onCullStateChanged(){} // RVA: 0x139D390
+        public void set_onCullStateChanged(){} // RVA: 0x139D3E0
+        public void get_maskable(){} // RVA: 0x139D420
+        public void set_maskable(){} // RVA: 0x139D470
+        public void get_isMaskingGraphic(){} // RVA: 0x139D4C0
+        public void .ctor(){} // RVA: 0x139D510
+        public void .cctor(){} // RVA: 0x139D530
+        public void OnEnable(){} // RVA: 0x139D7B0
+        public void OnPopulateMesh(){} // RVA: 0x139E290
+        public void SetClipRect(){} // RVA: 0x139E590
+        public void SetClipSoftness(){} // RVA: 0x139E5E0
+        public void LateUpdate(){} // RVA: 0x139E630
+    }
+
+    /// <summary>Originally: ÏÎÍÌÎÏÎÎÏÏÏÏÏÍÍÏÍÏÏÍÌÎÌ</summary>
+    public class PlayerPopulateMeshuseRadialFill_D6D2 : Image
+    {
+        public object _sides;
+        public object _radius;
+        public object _thickness;
+        public object _uvRangeX;
+        public object _useRadialFill;
+        public object f_CA4;
+
+        // ── Methods ──
+        public void DeleteMpPtr(){} // RVA: 0x13B49A0
+        public void Width(){} // RVA: 0x13B4E30
+        public void Height(){} // RVA: 0x13B52A0
+        public void Step(){} // RVA: 0x13B56E0
+        public void .ctor(){} // RVA: 0x13B5B60
+        public void OnPopulateMesh(){} // RVA: 0x13B5C20
+        // ── Unresolved (hash) ──
+        public void m_824(){} // RVA: 0x13B4950
+        public void m_A08(){} // RVA: 0x13B5E80
+        public void m_EFA(){} // RVA: 0x13B62C0
+        public void m_1C0(){} // RVA: 0x13B6700
+        public void m_373(){} // RVA: 0x139D3E0
     }
 
     /// <summary>Originally: ÍÏÎÌÍÌÏÏÎÌÍÌÍÎÌÍÏÍÏÎÌÎÌ</summary>
-    public class PlayerRectTransformDimensionsChCalculateLayout_BB74 : PointerEnterPointerClickImpl_DB00
+    public class PlayerRectTransformDimensionsChCalculateLayout_BB74 : Pointerk__BackingFieldImpl_DB00
     {
+        public object f_332;
+        public object f_469;
+        public object _scrollbarPrefab;
+        public object f_F83;
+        public object f_3A9;
+        public object f_D05;
+        public object f_E4C;
+        public object f_685;
+        public object f_E48;
+        public object f_60B;
+        public object f_840;
+        public object f_8EE;
+        public object f_C96;
+        public object f_B65;
+        public object f_D11;
+        public object f_B5C;
+        public object f_7AE;
+        public object f_27F;
+        public object f_EC7;
+        public object f_89C;
+        public object _layoutMode;
+        public object f_43E;
+        public object f_077;
+        public object useControlPreferredSizes;
+        public object _shouldWrap;
+        public object _maxPreferredSize;
+        public object _scrollable;
+        public object f_7A9;
+        public object f_EB7;
+        public object f_538;
+        public object _showScrollbars;
+        public object f_C50;
+        public object _cullingEnabled;
+        public object _additionalCullingRange;
+        public object _spacing;
+        public object _padding;
+        public object _xAlign;
+        public object _yAlign;
+        public object _fillX;
+        public object _fillY;
+        public object _gridCellSize;
+        public object _gridStartAxis;
+        public object _gridConstraint;
+        public object _gridConstraintCount;
+        public object _gridAlignAlignLastRowOrCol;
+        public object f_300;
+        public object f_617;
+        public object f_57D;
+
         // ── Methods ──
         public void SetLayoutVertical(){} // RVA: 0xA09CD30
         public void UnityEngine.UI.ILayoutElement.get_flexibleHeight(){} // RVA: 0x13CD2E0
@@ -1947,9 +782,75 @@ namespace VRC.Player
         // ... 90 more unresolved methods
     }
 
+    /// <summary>Originally: ÌÎÍÌÎÎÌÌÍÏÎÌÍÍÎÎÏÎÎÎÌÎÍ</summary>
+    public class PlayerRectTransformDimensionsChMilestoneContai_857F : UIBehaviour
+    {
+        public object f_E37;
+        public object f_B37;
+        public object _milestoneValues;
+        public object _barGraphic;
+        public object _milestoneObject;
+        public object _container;
+        public object _MilestoneContainer;
+        public object _handle;
+        public object f_989;
+        public object f_ED3;
+        public object f_49F;
+
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x9892E00
+        public void OnEnable(){} // RVA: 0x9892EE0
+        public void Start(){} // RVA: 0x9893390
+        public void OnDestroy(){} // RVA: 0x98933A0
+        public void IsActive(){} // RVA: 0x98938F0
+        public void LateUpdate(){} // RVA: 0x9893FC0
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x2536460
+        public void OnTransformParentChanged(){} // RVA: 0x9894600
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x98946A0
+        public void OnCanvasGroupChanged(){} // RVA: 0x98946D0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x9894B50
+        public void .ctor(){} // RVA: 0x9894FD0
+        public void Initialize(){} // RVA: 0x9895030
+        public void OnCollisionStay(){} // RVA: 0x2536460
+        public void OnCollisionExit(){} // RVA: 0x9895520
+        // ── Unresolved (hash) ──
+        public void m_E18(){} // RVA: 0x9892F10
+    }
+
     /// <summary>Originally: ÍÏÎÍÍÍÍÌÍÎÍÎÎÌÍÎÏÌÏÏÏÍÍ</summary>
     public class PlayerShouldActivateModuleIsModuleSupported_794F : PointerInputModule
     {
+        public object _kMouseLeftId;
+        public object _kMouseRightId;
+        public object _kMouseMiddleId;
+        public object _kFakeTouchesId;
+        public object m_HorizontalAxis;
+        public object m_VerticalAxis;
+        public object m_InputActionsPerSecond;
+        public object m_RepeatDelay;
+        public object m_ForceModuleActive;
+        public object f_D88;
+        public object f_4D4;
+        public object f_D59;
+        public object f_195;
+        public object f_612;
+        public object f_8DE;
+        public object f_B35;
+        public object f_707;
+        public object f_61D;
+        public object f_CA1;
+        public object f_8A9;
+        public object f_47E;
+        public object f_538;
+        public object f_CCC;
+        public object f_5B4;
+        public object f_843;
+        public object f_0B7;
+        public object f_562;
+        public object f_8A2;
+        public object f_B7C;
+        public object f_39B;
+
         // ── Methods ──
         public void GetPointerData(){} // RVA: 0xB6B270
         public void RemovePointerData(){} // RVA: 0x214B1C0
@@ -1981,29 +882,126 @@ namespace VRC.Player
         // ... 22 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÍÌÍÎÏÌÏÍÏÌÍÏÌÍÍÌÏÎÎÏÌÏ</summary>
-    public class PlayercontrolPathInternalSibling_82FE : PlayercontrolPathInternal_B9CF
+    /// <summary>Originally: ÏÏÏÌÌÎÌÏÌÍÏÏÏÎÌÎÎÌÏÎÍÍÍ</summary>
+    public class PlayerShouldActivateModuleIsModuleSupported_E0E8 : BaseInputModule
     {
+        public object _m_RaycastResultCache;
+        public object _m_SendPointerHoverToParent;
+        public object _m_AxisEventData;
+        public object _m_EventSystem;
+        public object _m_BaseEventData;
+        public object _m_InputOverride;
+        public object m_InputActionsPerSecond;
+
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x13B0490
-        public void .ctor(){} // RVA: 0x13A1C00
-        public void Initialize(){} // RVA: 0x13B0A60
-        public void Start(){} // RVA: 0x13B0B40
+        public void Start(){} // RVA: 0x211CEF0
+        public void set_sendPointerHoverToParent(){} // RVA: 0x211D110
+        public void get_input(){} // RVA: 0xB6B2B0
+        public void get_inputOverride(){} // RVA: 0xB6B2A0
+        public void set_inputOverride(){} // RVA: 0x211D120
+        public void get_eventSystem(){} // RVA: 0x211D110
+        public void OnEnable(){} // RVA: 0x211D2B0
+        public void IsModuleSupported(){} // RVA: 0x211D320
+        public void .ctor(){} // RVA: 0x211D580
+        public void Initialize(){} // RVA: 0xB6B2B0
+        public void FindCommonRoot(){} // RVA: 0x211D5A0
+        public void HandlePointerExitAndEnter(){} // RVA: 0x211D2B0
+        public void ActivateModule(){} // RVA: 0x211D7C0
+        public void GetBaseEventData(){} // RVA: 0xB6B2B0
+        public void Process(){} // RVA: 0x211D860
+        public void ShouldActivateModule(){} // RVA: 0x211DCB0
+        public void DeactivateModule(){} // RVA: 0x211D2B0
         // ── Unresolved (hash) ──
-        public void m_5F9(){} // RVA: 0x13B0590
-        public void m_65A(){} // RVA: 0x13B05B0
-        public void m_BD5(){} // RVA: 0x13B0690
-        public void m_178(){} // RVA: 0x13B0860
-        public void m_D1B(){} // RVA: 0x13B0880
-        public void m_176(){} // RVA: 0x13B0960
-        public void m_820(){} // RVA: 0x13B0CF0
-        public void m_935(){} // RVA: 0x13B0D00
-        public void m_9AD(){} // RVA: 0x13B0F40
+        public void m_C13(){} // RVA: 0x211D3A0
+    }
+
+    /// <summary>Originally: ÌÌÏÌÎÍÎÌÎÎÏÎÎÏÍÏÏÍÌÏÎÍÌ</summary>
+    public class PlayerblockedByUsersFoldoutblockedUsersFoldoutComponent_558D : MonoBehaviour
+    {
+        public object _blockedUsersFoldout;
+        public object _blockedUsers;
+        public object _blockedByUsersFoldout;
+        public object _blockedByUsers;
+        public object _558D;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9CF0290
+        public void RaiseCancellation(){} // RVA: 0x9CF0300
+        public void IsInvoking(){} // RVA: 0x9CF0480
+        public void CancelInvoke(){} // RVA: 0x9CF05B0
+        public void Invoke(){} // RVA: 0x9CF0850
+        public void InvokeRepeating(){} // RVA: 0x9CF09D0
+        public void StartCoroutine(){} // RVA: 0x98A1410
+        public void StartCoroutine_Auto(){} // RVA: 0x9CF0A00
+        public void OnDisable(){} // RVA: 0x9CF0B40
+        public void StopAllCoroutines(){} // RVA: 0x9CF0290
+        public void get_useGUILayout(){} // RVA: 0x9CF0CF0
+        public void set_useGUILayout(){} // RVA: 0x9CF0E20
+        public void get_didStart(){} // RVA: 0x9CF0E60
+        public void Awake(){} // RVA: 0x9CF0ED0
+        public void OnDestroy(){} // RVA: 0x9CF11C0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9CF1340
+        public void Internal_IsInvokingAll(){} // RVA: 0x9CF0E20
+        public void OnEnable(){} // RVA: 0x9CF1630
+        public void IsObjectMonoBehaviour(){} // RVA: 0x9CF17A0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9CF18D0
+    }
+
+    /// <summary>Originally: ÌÌÏÏÎÍÏÍÍÏÍÎÌÎÌÎÌÎÎÎÍÍÎ</summary>
+    public class PlayercanvasGroupeaseInSineComponent_84A9 : MonoBehaviour
+    {
+        public object _canvasGroup;
+        public object easeInSine;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9AAE210
+        public void RaiseCancellation(){} // RVA: 0x9AAE3B0
+        public void OnDestroy(){} // RVA: 0x9AAE5C0
+        public void CancelInvoke(){} // RVA: 0x9AAE760
+        public void Invoke(){} // RVA: 0x9AAE820
+        public void InvokeRepeating(){} // RVA: 0x9AAE8E0
+        public void StartCoroutine(){} // RVA: 0x9AAE9A0
+        public void StartCoroutine_Auto(){} // RVA: 0x9AAEBB0
+        public void Awake(){} // RVA: 0x9AAEC70
+        public void StopAllCoroutines(){} // RVA: 0x9AAED30
+        public void .ctor(){} // RVA: 0xB79A60
+    }
+
+    /// <summary>Originally: ÎÍÍÌÏÏÌÍÌÍÍÎÎÏÏÍÍÍÍÎÍÏÌ</summary>
+    public class PlayercollapsableStyleComponentparentContainerComponent_74B3 : MonoBehaviour
+    {
+        public object _74B3;
+        public object _collapsableStyleComponentController;
+        public object _gameObjects;
+        public object _contentPanel;
+        public object _parentContainer;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9E599C0
+        public void RaiseCancellation(){} // RVA: 0x9E599F0
+        public void IsInvoking(){} // RVA: 0x9E59A20
+        public void Awake(){} // RVA: 0x9E59A70
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9E59A80
+        public void StartCoroutine(){} // RVA: 0x9E59B90
+        public void StartCoroutine_Auto(){} // RVA: 0x9E59A20
+        public void StopCoroutine(){} // RVA: 0x9E59C90
+        public void StopAllCoroutines(){} // RVA: 0x9E59D70
+        public void get_useGUILayout(){} // RVA: 0x9E59F50
+        public void set_useGUILayout(){} // RVA: 0x9E5A0B0
+        public void get_didStart(){} // RVA: 0x9E5A110
+        public void get_didAwake(){} // RVA: 0x9E5A0B0
+        public void print(){} // RVA: 0x9E5A220
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9E59A70
+        public void Internal_IsInvokingAll(){} // RVA: 0x9E599F0
     }
 
     /// <summary>Originally: ÏÍÌÏÏÌÍÎÍÍÎÎÏÌÌÎÎÍÏÍÍÎÎ</summary>
     public class PlayercontrolPathInternal_8C19 : OnScreenControl
     {
+        public object m_ControlPath;
+
         // ── Methods ──
         public void get_controlPath(){} // RVA: 0x13A17B0
         public void .ctor(){} // RVA: 0xB43D60
@@ -2021,6 +1019,14 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÍÍÍÎÌÍÎÎÎÎÍÎÍÍÍÏÍÍÌÌ</summary>
     public class PlayercontrolPathInternal_B9CF : OnScreenControl
     {
+        public object _controlPathInternal;
+        public object m_MovementRange;
+        public object m_ControlPath;
+        public object _s_nbActiveInstances;
+        public object _s_OnScreenDevices;
+        public object f_6F0;
+        public object f_55F;
+
         // ── Methods ──
         public void get_controlPath(){} // RVA: 0x12CA360
         public void set_controlPath(){} // RVA: 0x12C9F10
@@ -2045,39 +1051,2458 @@ namespace VRC.Player
         public void m_5F9(){} // RVA: 0x13A2580
     }
 
-    /// <summary>Originally: ÍÏÏÏÍÌÍÍÎÏÍÎÍÏÏÏÍÎÏÎÍÌÎ</summary>
-    public class PlayercontrolSchemesbindingMask_E2B0 : Object
+    /// <summary>Originally: ÏÏÏÏÌÌÏÏÎÍÎÏÍÍÏÎÍÏÎÎÍÌÏ</summary>
+    public class PlayercursorHandler_404C : MonoBehaviour
+    {
+        public object cursorHandler;
+
+        // ── Methods ──
+        public void Start(){} // RVA: 0x140DA40
+        public void RaiseCancellation(){} // RVA: 0x140DB40
+        public void IsInvoking(){} // RVA: 0x140DF50
+        public void CancelInvoke(){} // RVA: 0x140E050
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x140E150
+        public void StartCoroutine(){} // RVA: 0x140E560
+        public void StartCoroutine_Auto(){} // RVA: 0x140E660
+        public void StopCoroutine(){} // RVA: 0x140E760
+        public void StopAllCoroutines(){} // RVA: 0x140E860
+        public void get_useGUILayout(){} // RVA: 0x140EC70
+        public void OnDestroy(){} // RVA: 0x140ED70
+    }
+
+    /// <summary>Originally: ÌÌÎÎÎÎÎÏÍÌÏÏÏÍÎÌÎÌÍÌÍÍÍ</summary>
+    public class PlayerdrawHandTrackingSkeletondrawPersistentSk_69F0 : ControllerRightBase_0185
+    {
+        public object f_F4E;
+        public object f_914;
+        public object f_6D5;
+        public object f_5B2;
+        public object f_F8C;
+        public object f_15C;
+        public object f_B4D;
+        public object f_E44;
+        public object f_DE6;
+        public object f_5C3;
+        public object f_B3A;
+        public object f_D52;
+        public object f_D7A;
+        public object f_5EE;
+        public object f_C88;
+        public object f_6DB;
+        public object f_CBB;
+        public object f_7D2;
+        public object f_A87;
+        public object f_011;
+        public object f_BCE;
+        public object f_B85;
+        public object f_9E1;
+        public object f_917;
+        public object f_16B;
+        public object f_7B9;
+        public object f_9C5;
+        public object f_B0D;
+        public object f_849;
+        public object f_57A;
+        public object f_7B7;
+        public object f_078;
+        public object f_992;
+        public object f_E07;
+        public object f_5D8;
+        public object f_5E5;
+        public object f_7D9;
+        public object f_290;
+        public object f_B95;
+        public object f_930;
+        public object f_21E;
+        public object f_B29;
+        public object f_612;
+        public object f_DE6;
+        public object f_575;
+        public object f_81C;
+        public object f_C7B;
+        public object f_CD8;
+        public object f_6EC;
+        public object f_1FD;
+        public object f_672;
+        public object f_649;
+        public object f_608;
+        public object f_AAB;
+        public object f_4B2;
+        public object f_6DB;
+        public object f_939;
+        public object f_C67;
+        public object f_30C;
+        public object f_6A7;
+        public object f_281;
+        public object f_870;
+        public object f_34D;
+        public object f_A9C;
+        public object f_25F;
+        public object f_0C3;
+        public object f_6B5;
+        public object f_5DF;
+        public object f_9D3;
+        public object f_F61;
+        public object f_523;
+        public object f_6C2;
+        public object f_845;
+        public object f_411;
+        public object f_EBF;
+        public object f_FA9;
+        public object f_45B;
+        public object f_B86;
+        public object f_259;
+        public object f_1A9;
+        public object f_6EA;
+        public object f_303;
+        public object f_9DC;
+        public object f_467;
+        public object f_B19;
+        public object f_07B;
+        public object f_34D;
+        public object f_C3A;
+        public object f_27A;
+        public object f_1D3;
+        public object f_E4B;
+        public object f_68B;
+        public object f_986;
+        public object f_DD7;
+        public object f_9EB;
+        public object f_96A;
+        public object f_BE8;
+        public object f_831;
+        public object f_3AB;
+        public object f_D48;
+        public object drawPalmGizmos;
+        public object drawHandTrackingSkeleton;
+        public object drawPersistentSkeleton;
+        public object f_EE5;
+        public object f_EC6;
+        public object f_CE4;
+        public object f_E8B;
+        public object f_41A;
+        public object f_E6A;
+        public object f_5CC;
+        public object f_D42;
+        public object f_341;
+        public object f_4C8;
+        public object f_96A;
+        public object f_D55;
+        public object f_17D;
+        public object f_52A;
+        public object f_A81;
+        public object f_486;
+        public object f_1E1;
+        public object f_FCE;
+        public object f_3C6;
+        public object f_D13;
+        public object f_74D;
+        public object f_F4E;
+        public object f_975;
+        public object f_306;
+        public object f_1E1;
+        public object f_19B;
+        public object f_39D;
+        public object f_271;
+        public object f_04E;
+        public object f_922;
+        public object f_42D;
+        public object f_46B;
+        public object f_981;
+        public object f_F8E;
+        public object f_31A;
+        public object f_83D;
+        public object f_4F5;
+        public object f_9D3;
+        public object f_087;
+        public object f_D2B;
+        public object f_B5C;
+        public object f_45F;
+        public object f_A5C;
+        public object f_CE8;
+        public object f_407;
+        public object f_277;
+        public object f_3AD;
+        public object f_9CE;
+        public object f_105;
+        public object f_E3C;
+        public object f_153;
+
+        // ── Methods ──
+        public void LateUpdate(){} // RVA: 0x1E67060
+        public void OnEnable(){} // RVA: 0x1E6B730
+        public void Awake(){} // RVA: 0x1E6E2A0
+        public void OnDestroy(){} // RVA: 0x1E71170
+        public void OnDrawGizmos(){} // RVA: 0x1E72DF0
+        public void Start(){} // RVA: 0x1E756B0
+        public void OnDisable(){} // RVA: 0x1E77820
+        public void Update(){} // RVA: 0x1E79310
+        public void .ctor(){} // RVA: 0x1E7DA80
+        public void Initialize(){} // RVA: 0x1E7E540
+        public void .cctor(){} // RVA: 0x1E822A0
+        // ── 90 unresolved (hash) ──
+        public void m_425(){} // RVA: 0x1E65610
+        public void m_BC9(){} // RVA: 0x1E54A40
+        public void m_9EF(){} // RVA: 0x1E65630
+        public void m_9D4(){} // RVA: 0x1E68EC0
+        public void m_389(){} // RVA: 0x1E69830
+        // ... 85 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÎÍÌÏÎÎÍÍÏÎÎÌÏÏÏÍÌÍÎÌÏ</summary>
+    public class PlayereventCountBindingeventListBindingComponent_0151 : MonoBehaviour
+    {
+        public object _header;
+        public object _headerText;
+        public object _eventCountBinding;
+        public object _eventListBinding;
+        public object _instancePrefab;
+        public object _raycaster;
+        public object _canvas;
+        public object f_1B1;
+
+        // ── Methods ──
+        public void Start(){} // RVA: 0x99FC090
+        public void RaiseCancellation(){} // RVA: 0xBC1B30
+        public void IsInvoking(){} // RVA: 0x99FC120
+        public void CancelInvoke(){} // RVA: 0xBC1B30
+        public void Invoke(){} // RVA: 0x99FC420
+        public void InvokeRepeating(){} // RVA: 0x99FC470
+        public void StartCoroutine(){} // RVA: 0x99FC4C0
+        public void StartCoroutine_Auto(){} // RVA: 0x99FC510
+        public void StopCoroutine(){} // RVA: 0x99FC810
+        public void StopAllCoroutines(){} // RVA: 0x99FC8A0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x99FC8F0
+        public void get_didStart(){} // RVA: 0xBC1B30
+    }
+
+    /// <summary>Originally: ÏÏÎÌÍÏÍÍÎÏÏÎÏÍÍÎÍÌÎÍÎÍÏ</summary>
+    public class PlayerfingerDebugPlaceForwardOfcursorDirection_913D : Mono7m_C0AE
+    {
+        public object useDebugInputs;
+        public object f_8A9;
+        public object f_C28;
+        public object f_0EE;
+        public object fingerDebugPlaceForwardOffset;
+        public object f_3B5;
+        public object f_83D;
+        public object f_A6B;
+        public object f_446;
+        public object f_492;
+        public object f_407;
+        public object f_413;
+        public object f_191;
+        public object f_646;
+        public object f_762;
+        public object f_1A9;
+        public object f_3B1;
+        public object f_B19;
+        public object f_C3A;
+        public object f_09B;
+        public object f_12E;
+        public object f_1AC;
+        public object f_597;
+        public object headOffset;
+        public object startAngle;
+        public object zoneAngle;
+        public object planeViewRadius;
+        public object planeDetectRadius;
+        public object attachedRight;
+        public object f_1E9;
+        public object f_004;
+        public object socketImage;
+        public object f_F9C;
+        public object f_0B0;
+        public object f_380;
+        public object f_C05;
+        public object dotStartColor;
+        public object dotEndColor;
+        public object f_604;
+        public object f_53B;
+        public object socketLocalPosition;
+        public object socketRadius;
+        public object socketActivationRadius;
+        public object socketPullRadius;
+        public object socketOpenFillAmt;
+        public object socketEntryClip;
+        public object completeClip;
+        public object cursorDirectionIndicator;
+        public object cursorDirectionIndicatorIcon;
+        public object f_1D0;
+        public object cursorDirectionIndicatorArrow;
+        public object f_605;
+        public object f_4CE;
+        public object f_8FA;
+        public object f_863;
+        public object f_09D;
+        public object f_BA3;
+        public object f_943;
+        public object f_B8A;
+        public object f_AE9;
+        public object f_F6E;
+        public object f_B50;
+        public object f_A54;
+        public object f_28B;
+        public object f_C6A;
+
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x1425300
+        public void OnDrawGizmos(){} // RVA: 0x1425930
+        public void .ctor(){} // RVA: 0x142C0F0
+        public void Update(){} // RVA: 0x142C240
+        public void Start(){} // RVA: 0x142E890
+        public void Awake(){} // RVA: 0x142EB40
+        // ── 36 unresolved (hash) ──
+        public void m_4DA(){} // RVA: 0x1424E20
+        public void m_355(){} // RVA: 0x1425470
+        public void m_C37(){} // RVA: 0x142A180
+        public void m_29B(){} // RVA: 0x1427C80
+        public void m_F77(){} // RVA: 0x1427F80
+        // ... 31 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÏÎÌÌÌÎÎÏÌÌÏÏÌÌÌÏÏÌÏÏÌ</summary>
+    public class PlayerforceLayoutRebuildenableWhenEmptyComponentImpl_8B4E : PlayerforceLayoutRebuildenableWhenEmptyComponent_4A4A
+    {
+        public object f_E99;
+        public object f_8A4;
+        public object f_972;
+        public object f_1FB;
+        public object f_CD4;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F3C360
+        public void Initialize(){} // RVA: 0x9F3C430
+        // ── 11 unresolved (hash) ──
+        public void m_188(){} // RVA: 0x9F3AE50
+        public void m_4E3(){} // RVA: 0x9F3B220
+        public void m_F56(){} // RVA: 0x9F3B270
+        public void m_915(){} // RVA: 0x9F3B4E0
+        public void m_5F7(){} // RVA: 0x9F3B740
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÌÍÎÌÏÍÎÎÌÍÏÌÎÏÏÍÍÏÎÏÍ</summary>
+    public class PlayerforceLayoutRebuildenableWhenEmptyComponentImpl_B3AC : PlayerforceLayoutRebuildenableWhenEmptyComponent_4A4A
+    {
+        public object _b3AC;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F2E520
+        public void Initialize(){} // RVA: 0xCA4D80
+        // ── Unresolved (hash) ──
+        public void m_0A9(){} // RVA: 0x8943B0
+        public void m_4BB(){} // RVA: 0x9F2E220
+        public void m_0B2(){} // RVA: 0x9F2E2E0
+        public void m_1CD(){} // RVA: 0x9F2E3A0
+        public void m_4ED(){} // RVA: 0x9F2E460
+        public void m_EA8(){} // RVA: 0xCA4D80
+        public void m_DE5(){} // RVA: 0xCA4D80
+        public void m_C39(){} // RVA: 0xCA4D80
+        public void m_56E(){} // RVA: 0xCA4D80
+    }
+
+    /// <summary>Originally: ÏÏÍÌÌÎÎÎÍÎÌÍÎÏÏÎÌÌÏÌÍÍÍ</summary>
+    public class PlayerforceLayoutRebuildenableWhenEmptyComponent_4A4A : MonoBehaviour
+    {
+        public object _controlName;
+        public object _container;
+        public object _enableWhenEmpty;
+        public object _forceLayoutRebuild;
+        public object f_11D;
+        public object f_205;
+        public object f_779;
+        public object f_038;
+        public object f_BE7;
+        public object f_B3F;
+        public object f_835;
+        public object f_E86;
+        public object f_DDC;
+        public object f_735;
+        public object f_8C6;
+        public object f_DCF;
+        public object f_3B8;
+        public object f_137;
+        public object f_B72;
+        public object f_B4B;
+        public object f_ED6;
+        public object f_C34;
+        public object f_B93;
+        public object f_84E;
+        public object f_51C;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9F3F0A0
+        public void RaiseCancellation(){} // RVA: 0x9F3F370
+        public void IsInvoking(){} // RVA: 0x9F3F420
+        public void CancelInvoke(){} // RVA: 0x9F3F530
+        public void Invoke(){} // RVA: 0x9F3F6E0
+        public void InvokeRepeating(){} // RVA: 0x9F3F7D0
+        public void StartCoroutine(){} // RVA: 0x9F3F8C0
+        public void OnEnable(){} // RVA: 0x9F40320
+        public void OnDisable(){} // RVA: 0x9F40360
+        public void StopAllCoroutines(){} // RVA: 0x9F40470
+        public void get_useGUILayout(){} // RVA: 0x9F40560
+        public void set_useGUILayout(){} // RVA: 0x9F40650
+        public void get_didStart(){} // RVA: 0x9F40880
+        public void get_didAwake(){} // RVA: 0x2C709D0
+        public void print(){} // RVA: 0x114DE40
+        public void OnDestroy(){} // RVA: 0x9F40990
+        public void Internal_IsInvokingAll(){} // RVA: 0x9F40B50
+        public void InvokeDelayed(){} // RVA: 0x9F40BA0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x9F40CB0
+        public void StartCoroutineManaged(){} // RVA: 0x9F40DA0
+        public void StartCoroutineManaged2(){} // RVA: 0x9F410F0
+        public void .ctor(){} // RVA: 0x9F412C0
+        public void Initialize(){} // RVA: 0x686F7D0
+        public void GetScriptClassName(){} // RVA: 0x9F41460
+        public void OnCancellationTokenCreated(){} // RVA: 0xB70100
+        public void OnTriggerExit(){} // RVA: 0xB70160
+        public void StopCoroutine_Injected(){} // RVA: 0x9F41770
+        public void StopAllCoroutines_Injected(){} // RVA: 0x9F41860
+        public void get_useGUILayout_Injected(){} // RVA: 0x9F41950
+        public void set_useGUILayout_Injected(){} // RVA: 0x9F41C90
+        public void get_didStart_Injected(){} // RVA: 0x9F41CB0
+        public void get_didAwake_Injected(){} // RVA: 0x9B4EA90
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0xB70160
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x114DE50
+        public void InvokeDelayed_Injected(){} // RVA: 0x9F41D20
+        public void CancelInvoke_Injected(){} // RVA: 0x9F41D90
+        public void IsInvoking_Injected(){} // RVA: 0x9F41EA0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x9F41F90
+        public void Awake(){} // RVA: 0x9F42070
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x9C53880
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x9F42290
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x9F425B0
+        public void GetScriptClassName_Injected(){} // RVA: 0x9F426A0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0xB700F0
+        public void OnApplicationPause(){} // RVA: 0x9F426A0
+        public void OnApplicationQuit(){} // RVA: 0x9F42B80
+        public void OnBecameVisible(){} // RVA: 0x9F42BE0
+        public void OnBecameInvisible(){} // RVA: 0x686F7D0
+        // ── Unresolved (hash) ──
+        public void m_5AC(){} // RVA: 0x9F426B0
+        public void m_0AA(){} // RVA: 0x9F42B40
+    }
+
+    /// <summary>Originally: ÎÌÎÍÌÎÏÍÌÍÏÌÏÏÏÍÏÎÌÎÍÌÏ</summary>
+    public class PlayerforceLayoutRebuildenableWhenEmptyComponent_headerElement_E425 : PlayerforceLayoutRebuildenableWhenEmptyComponent_4A4A
+    {
+        public object _headerElement;
+        public object _e425;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F2E520
+        public void Initialize(){} // RVA: 0x9F3D870
+        // ── 12 unresolved (hash) ──
+        public void m_CC5(){} // RVA: 0x9F3C750
+        public void m_7D2(){} // RVA: 0x9F3C8F0
+        public void m_4E3(){} // RVA: 0x9F3CA90
+        public void m_0AA(){} // RVA: 0x9F3CC00
+        public void m_3F4(){} // RVA: 0x9F3CD20
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÌÍÌÌÏÌÎÍÎÍÎÏÌÌÌÌÌÎÍÍÍ</summary>
+    public class PlayergraspDisableOppositeHanddisableOnGrasperComponent_3D48 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_B19;
+        public object f_C3A;
+        public object f_779;
+        public object f_601;
+        public object f_09B;
+        public object f_12E;
+        public object f_3CA;
+        public object f_D00;
+        public object f_287;
+        public object f_228;
+        public object f_ADF;
+        public object f_C2E;
+        public object f_985;
+        public object f_E75;
+        public object f_9A0;
+        public object f_DC4;
+        public object offset;
+        public object autoSelectHand;
+        public object preferLeft;
+        public object tweenToFaceUser;
+        public object disableOnGrasperHeld;
+        public object graspDisableOppositeHand;
+        public object f_933;
+        public object f_1A3;
+        public object f_55E;
+        public object f_3BF;
+        public object f_CCC;
+        public object f_064;
+        public object f_05E;
+        public object f_8BB;
+        public object f_875;
+        public object f_CFA;
+        public object f_8DE;
+        public object f_86D;
+        public object f_2A7;
+        public object f_275;
+        public object f_4A3;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1433AE0
+        public void RaiseCancellation(){} // RVA: 0x1435340
+        public void IsInvoking(){} // RVA: 0x14354E0
+        public void CancelInvoke(){} // RVA: 0x14354F0
+        public void Invoke(){} // RVA: 0x1435AD0
+        public void InvokeRepeating(){} // RVA: 0x1436000
+        public void StartCoroutine(){} // RVA: 0x14364D0
+        public void StartCoroutine_Auto(){} // RVA: 0x1436860
+        public void StopCoroutine(){} // RVA: 0x1436DA0
+        public void Awake(){} // RVA: 0x1436F60
+        public void OnDestroy(){} // RVA: 0xB63BA0
+        public void set_useGUILayout(){} // RVA: 0x1437220
+        public void get_didStart(){} // RVA: 0x14372A0
+        public void get_didAwake(){} // RVA: 0x14372D0
+        public void print(){} // RVA: 0x14376C0
+        public void .ctor(){} // RVA: 0x14378F0
+        public void Initialize(){} // RVA: 0x1437950
+        public void InvokeDelayed(){} // RVA: 0xB63BA0
+        public void FixedUpdate(){} // RVA: 0x1437E80
+        public void StartCoroutineManaged(){} // RVA: 0x14354E0
+        public void StartCoroutineManaged2(){} // RVA: 0x14383A0
+    }
+
+    /// <summary>Originally: ÍÎÍÎÎÌÌÎÏÍÎÍÌÎÍÎÎÎÎÌÏÍÎ</summary>
+    public class PlayerheaderLayoutElementeventsListBindingComponent_3934 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object _dateHeaderText;
+        public object _gridLayoutGroup;
+        public object _eventsListBinding;
+        public object _canvas;
+        public object _raycaster;
+        public object _headerLayoutElement;
+        public object _foldout;
+        public object _eventPrefab;
+        public object f_934;
+        public object f_9F9;
+        public object f_1E8;
+        public object f_BC1;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x99F0F50
+        public void RaiseCancellation(){} // RVA: 0x99F10F0
+        public void IsInvoking(){} // RVA: 0xC0FFC0
+        public void CancelInvoke(){} // RVA: 0x99F1130
+        public void .ctor(){} // RVA: 0x99F1170
+        public void Start(){} // RVA: 0x99F1320
+        public void StartCoroutine(){} // RVA: 0x99F1710
+        public void StartCoroutine_Auto(){} // RVA: 0xC0FFC0
+        public void StopCoroutine(){} // RVA: 0x99F1740
+        public void StopAllCoroutines(){} // RVA: 0x99F1950
+        public void get_useGUILayout(){} // RVA: 0x99F1990
+        public void set_useGUILayout(){} // RVA: 0xC0FFC0
+        public void get_didStart(){} // RVA: 0xC0FFC0
+        public void get_didAwake(){} // RVA: 0x99F1950
+        public void print(){} // RVA: 0x99F1710
+        public void Internal_CancelInvokeAll(){} // RVA: 0x99F1D80
+    }
+
+    /// <summary>Originally: ÌÌÏÏÎÎÌÎÏÌÌÍÍÏÍÌÎÌÏÌÏÏÎ</summary>
+    public class PlayerheaderText_1499 : SeparatorsVisibilityBase_67C2
+    {
+        public object f_D42;
+        public object f_65C;
+        public object f_C03;
+        public object _headerText;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EB22D0
+        public void Start(){} // RVA: 0x9EB2430
+        // ── 12 unresolved (hash) ──
+        public void m_629(){} // RVA: 0x9EB1E20
+        public void m_E34(){} // RVA: 0x9EB2040
+        public void m_858(){} // RVA: 0x9EB22D0
+        public void m_75C(){} // RVA: 0x9EB2310
+        public void m_0C4(){} // RVA: 0x9EB2430
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÎÌÌÍÍÎÏÌÏÍÌÏÌÌÎÌÏÌÍÌÎÌ</summary>
+    public class PlayerheaderText_allowOverrideWithShowAvatalwaysShowFrien_7BAD : PlayerheaderText_1499
+    {
+        public object _hideBeyondSetting;
+        public object _showNearestSetting;
+        public object _alwaysShowFriendAvatarsSetting;
+        public object _allowOverrideWithShowAvatarSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EB8910
+    }
+
+    /// <summary>Originally: ÏÎÍÏÍÎÍÎÏÏÏÏÍÏÏÌÎÍÌÏÌÎÌ</summary>
+    public class PlayerheaderText_autoCenterOSCTrackersSettcalibrateTracke_0819 : PlayerheaderText_1499
+    {
+        public object _userRealHeightSetting;
+        public object _avatarMeasurementSetting;
+        public object _allowFBTSetting;
+        public object _calibrateFBTSetting;
+        public object _calibrateTrackersSetting;
+        public object _calibrateTrackersSeparator;
+        public object _fbtSpineModeSetting;
+        public object _locomotionAnimationSetting;
+        public object _autoCenterOSCTrackersSetting;
+        public object _adjustmentButtons;
+        public object _advancedOptionsFoldout;
+        public object f_8C0;
+        public object f_F9E;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EBEB30
+        // ── 14 unresolved (hash) ──
+        public void m_E64(){} // RVA: 0x9EBE7A0
+        public void m_0DE(){} // RVA: 0x9EC0EA0
+        public void m_838(){} // RVA: 0x9EC1230
+        public void m_CF7(){} // RVA: 0x9EC15C0
+        public void m_425(){} // RVA: 0x9EC1950
+        // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÌÏÌÎÌÏÍÏÏÎÎÎÎÌÎÎÏÎÎÍÏ</summary>
+    public class PlayerheaderText_avatarItemAllowedToInteraautoDisableAvat_D75F : PlayerheaderText_1499
+    {
+        public object _allowAvatarCloningSetting;
+        public object _autoDisableAvatarCloningSetting;
+        public object _avatarGesturesSetting;
+        public object _avatarItemInteractionsSetting;
+        public object _avatarItemAllowedToInteractSetting;
+        public object _avatarItemSelfInteractSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EC5450
+        // ── Unresolved (hash) ──
+        public void m_D40(){} // RVA: 0x9EC4FD0
+        public void m_06F(){} // RVA: 0x9EC50F0
+        public void m_2CD(){} // RVA: 0x9EC5210
+        public void m_0B4(){} // RVA: 0x9EC5330
+        public void m_6F4(){} // RVA: 0x9EC5570
+        public void m_F7A(){} // RVA: 0x9EC5690
+        public void m_1A4(){} // RVA: 0x9EC57B0
+        public void m_B13(){} // RVA: 0x9EC58D0
+        public void m_8EF(){} // RVA: 0x9EC59F0
+    }
+
+    /// <summary>Originally: ÎÌÍÎÍÌÍÏÌÍÏÏÌÌÍÏÎÌÏÌÌÍÎ</summary>
+    public class PlayerheaderText_chatboxNotificationVolumelocalChatboxVis_A813 : PlayerheaderText_1499
+    {
+        public object _chatboxFunctionTitle;
+        public object _chatboxFunctionSetting;
+        public object _localChatboxVisibilitySetting;
+        public object _chatboxPositionSetting;
+        public object _chatboxHeightSetting;
+        public object _chatboxSizeSetting;
+        public object _chatboxOpacitySetting;
+        public object _chatboxDisplayDurationSetting;
+        public object _chatboxNotificationVolumeSetting;
+        public object _showOwnChatboxSetting;
+        public object _chatboxAutoSendSetting;
+        public object _advancedSettingsSection;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EB9830
+    }
+
+    /// <summary>Originally: ÍÌÏÍÏÌÌÍÌÍÌÏÎÌÎÍÏÎÌÌÎÏÎ</summary>
+    public class PlayerheaderText_chatboxNotificationVolumelocalChatboxVis_D033 : PlayerheaderText_1499
+    {
+        public object _localChatboxVisibility;
+        public object _chatboxPositions;
+        public object _chatboxHeight;
+        public object _chatboxOpacity;
+        public object _chatboxSize;
+        public object _chatboxDisplayDuration;
+        public object _chatboxNotificationVolume;
+        public object _showOwnChatbox;
+        public object _chatboxAutoSendSetting;
+        public object _chatboxButtons;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x994C2C0
+    }
+
+    /// <summary>Originally: ÏÍÎÏÌÏÎÍÌÏÏÎÏÎÎÍÍÍÏÏÌÎÏ</summary>
+    public class PlayerheaderText_fingerTrackingExclusiveMoavatarsUseFinge_8DE2 : PlayerheaderText_1499
+    {
+        public object _steamBindings;
+        public object _fingerTrackingExclusiveMode;
+        public object _avatarsUseFingerTracking;
+        public object _doubleTapForMainMenu;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x9953000
+    }
+
+    /// <summary>Originally: ÍÏÎÌÌÍÌÎÏÏÌÎÏÏÏÏÏÍÍÏÍÏÌ</summary>
+    public class PlayerheaderText_fingerTrackingExclusiveMosearchModeDepen_84CD : PlayerheaderText_1499
+    {
+        public object _mouseSensitivity;
+        public object _invertedMouseLook;
+        public object _fingerTrackingExclusiveMode;
+        public object _searchModeDependantObjects;
+        public object _84CD;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9952440
+        // ── Unresolved (hash) ──
+        public void m_03E(){} // RVA: 0x9952540
+        public void m_DDB(){} // RVA: 0x9952440
+        public void m_D27(){} // RVA: 0x9952440
+        public void m_31B(){} // RVA: 0x9952660
+        public void m_021(){} // RVA: 0x9952740
+        public void m_8EF(){} // RVA: 0x9952860
+        public void m_80F(){} // RVA: 0x9952660
+        public void m_CF5(){} // RVA: 0x9952F00
+        public void m_F4F(){} // RVA: 0x9952660
+        public void m_12D(){} // RVA: 0x9952440
+    }
+
+    /// <summary>Originally: ÌÌÎÌÌÎÌÍÎÏÏÎÏÍÍÎÌÌÍÎÏÏÌ</summary>
+    public class PlayerheaderText_horizonAdjustWarningMessaallowHorizonAdj_1123 : PlayerheaderText_1499
+    {
+        public object _allowHorizonAdjustSetting;
+        public object _horizonAdjustWarningMessageSetting;
+        public object _horizonAdjustSnapSetting;
+        public object _setHorizonAdjustSetting;
+        public object _additionalButtonsSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x9EB7DD0
+    }
+
+    /// <summary>Originally: ÏÏÌÍÎÌÏÎÏÌÌÌÏÍÏÌÏÍÌÏÍÌÍ</summary>
+    public class PlayerheaderText_locomotionTunnelingSettinholoportLocomot_AF02 : PlayerheaderText_1499
+    {
+        public object _holoportLocomotionSetting;
+        public object _locomotionTunnelingSetting;
+        public object _responsiveMenuSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EBCE30
+        // ── Unresolved (hash) ──
+        public void m_303(){} // RVA: 0x9EBB930
+        public void m_8EF(){} // RVA: 0x9EBBAD0
+        public void m_A60(){} // RVA: 0x9EBC610
+        public void m_584(){} // RVA: 0x9EBC7B0
+        public void m_B78(){} // RVA: 0x9EBC950
+        public void m_2B7(){} // RVA: 0x9EBCAF0
+        public void m_65F(){} // RVA: 0x9EBCC90
+        public void m_857(){} // RVA: 0x9EBCFD0
+        public void m_106(){} // RVA: 0x9EBD170
+    }
+
+    /// <summary>Originally: ÌÍÍÍÍÍÌÎÏÍÏÎÎÎÏÏÍÌÎÌÎÌÍ</summary>
+    public class PlayerheaderText_lookSensitivitySettingautoRotateSpeedSet_8359 : PlayerheaderText_1499
+    {
+        public object _lookSensitivitySetting;
+        public object _portraitFOVSetting;
+        public object _landscapeFOVSetting;
+        public object _autoRotateSpeedSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EBE750
+    }
+
+    /// <summary>Originally: ÎÎÍÍÏÏÏÏÍÌÏÎÍÎÎÌÏÍÌÎÍÍÏ</summary>
+    public class PlayerheaderText_nameplateVisibilitySettinshowAdditionalI_F89B : PlayerheaderText_1499
+    {
+        public object _nameplateVisibilitySetting;
+        public object _showGroupBannerSetting;
+        public object _showAdditionalInfoSetting;
+        public object _hudDetailLevelSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EC3FA0
+    }
+
+    /// <summary>Originally: ÏÎÏÍÏÎÌÎÍÌÎÎÏÎÌÍÍÏÍÌÌÍÏ</summary>
+    public class PlayerheaderText_pedestalSharingVisibilitydirectSharingVi_D166 : PlayerheaderText_1499
+    {
+        public object allowDirectSharing;
+        public object directSharingVisibility;
+        public object allowPedestalSharing;
+        public object pedestalSharingVisibility;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x9B1F470
+    }
+
+    /// <summary>Originally: ÎÏÍÍÌÎÍÏÍÍÍÌÏÌÏÏÌÌÌÍÏÍÏ</summary>
+    public class PlayerheaderText_pinFPSAndPingSettingloggingSetting_D024 : PlayerheaderText_1499
+    {
+        public object _loggingSetting;
+        public object _pinFPSAndPingSetting;
+        public object _debugButtons;
+        public object _d024;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EBD3F0
+        // ── Unresolved (hash) ──
+        public void m_E5B(){} // RVA: 0x9EBD310
+        public void m_E5D(){} // RVA: 0x9EBD4C0
+        public void m_108(){} // RVA: 0x9EBD5A0
+        public void m_BF8(){} // RVA: 0x9EBD680
+        public void m_EDC(){} // RVA: 0x9EBD750
+        public void m_920(){} // RVA: 0x9EBD820
+        public void m_841(){} // RVA: 0x9EBD900
+        public void m_44E(){} // RVA: 0x9EBD9D0
+        public void m_8EF(){} // RVA: 0x9EBDAA0
+        public void m_C30(){} // RVA: 0x9EBE680
+    }
+
+    /// <summary>Originally: ÎÏÎÏÍÍÌÍÎÌÌÎÍÌÎÍÎÍÌÎÌÎÌ</summary>
+    public class PlayerheaderText_printsVisibilityallowPrints_C247 : PlayerheaderText_1499
+    {
+        public object allowPrints;
+        public object printsVisibility;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9B1EE10
+    }
+
+    /// <summary>Originally: ÏÌÎÍÍÍÌÏÎÎÏÌÍÎÍÍÎÌÏÌÎÎÏ</summary>
+    public class PlayerheaderText_screenBrightnessreduceAnimations_E464 : PlayerheaderText_1499
+    {
+        public object _screenBrightness;
+        public object _bloomIntensity;
+        public object _reduceAnimations;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x994F860
+    }
+
+    /// <summary>Originally: ÌÎÎÌÏÍÌÌÎÍÌÎÍÏÍÍÍÎÍÍÍÎÏ</summary>
+    public class PlayerheaderText_screenEdgeRotateSpeedlookSensitivity_0C88 : PlayerheaderText_1499
+    {
+        public object _lookSensitivity;
+        public object _screenEdgeRotateSpeed;
+        public object _showSecondaryUI;
+        public object _enableAutoWalk;
+        public object _enableAutoHold;
+        public object _invertedLook;
+        public object _enableFocusView;
+        public object _interactionMode;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x99539E0
+    }
+
+    /// <summary>Originally: ÎÍÎÎÌÌÍÏÌÏÏÎÎÍÏÍÎÍÍÎÏÏÍ</summary>
+    public class PlayerheaderText_shapeFollowsCameraRotatioalwaysShowVisua_950E : PlayerheaderText_1499
+    {
+        public object _earmuffMode;
+        public object _distance;
+        public object _falloffDistance;
+        public object _outsideVolume;
+        public object _alwaysShowVisualAide;
+        public object _includeAvatarAudio;
+        public object _forwardCone;
+        public object _falloffForwardShift;
+        public object _shapeFollowsCameraRotation;
+        public object _lockShapeRotation;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9E2BDA0
+    }
+
+    /// <summary>Originally: ÏÌÏÎÏÏÍÌÌÏÎÌÍÏÎÏÍÍÎÏÌÌÎ</summary>
+    public class PlayerheaderText_simulateColorBlindnessfilterIntensity_365B : PlayerheaderText_1499
+    {
+        public object _colorFilters;
+        public object _filterIntensity;
+        public object _applyToWorld;
+        public object _simulateColorBlindness;
+        public object _colorFilter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x994F570
+        // ── Unresolved (hash) ──
+        public void m_8EF(){} // RVA: 0x994E1F0
+        public void m_74D(){} // RVA: 0x994F460
+        public void m_997(){} // RVA: 0x994F4E0
+        public void m_048(){} // RVA: 0x994F5F0
+        public void m_999(){} // RVA: 0x994F670
+        public void m_E16(){} // RVA: 0x994F700
+        public void m_2C3(){} // RVA: 0x994F7E0
+    }
+
+    /// <summary>Originally: ÌÏÌÏÎÎÍÎÌÍÍÏÏÏÍÍÍÍÏÎÎÏÏ</summary>
+    public class PlayerheaderText_useRecommendedSettingsfingerTrackingType_F27B : PlayerheaderText_1499
+    {
+        public object _fingerTrackingType;
+        public object _showPinchUI;
+        public object _useRecommendedSettings;
+        public object _qmOpenerMode;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x99515E0
+        // ── Unresolved (hash) ──
+        public void m_ABC(){} // RVA: 0x994FEE0
+        public void m_E70(){} // RVA: 0x994FFB0
+        public void m_C7B(){} // RVA: 0x9950080
+        public void m_8EF(){} // RVA: 0x9950150
+        public void m_CC2(){} // RVA: 0x9951130
+        public void m_B0A(){} // RVA: 0x9951200
+        public void m_034(){} // RVA: 0x9951370
+        public void m_CA8(){} // RVA: 0x9951440
+        public void m_B65(){} // RVA: 0x9951510
+    }
+
+    /// <summary>Originally: ÎÎÏÏÍÌÎÏÎÏÏÏÏÏÎÎÍÌÎÌÌÏÍ</summary>
+    public class PlayerheaderText_userVolumeOverridesSettinavatarsVolumeSe_8B60 : PlayerheaderText_1499
+    {
+        public object _masterVolumeSetting;
+        public object _uiMenuVolumeSetting;
+        public object _worldVolumeSetting;
+        public object _voicesVolumeSetting;
+        public object _avatarsVolumeSetting;
+        public object _droneVolumeSetting;
+        public object _userVolumeOverridesSetting;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9E28810
+    }
+
+    /// <summary>Originally: ÌÎÍÌÎÌÌÏÏÌÎÏÎÍÍÍÎÍÏÎÎÏÍ</summary>
+    public class PlayerinputActionTypefallbackComponent_EB1C : MonoBehaviour
+    {
+        public object _inputActionType;
+        public object _fallback;
+        public object _eB1C;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x13BDE60
+        public void RaiseCancellation(){} // RVA: 0x13BE130
+        public void Awake(){} // RVA: 0x13BE400
+        public void OnDestroy(){} // RVA: 0x13BE490
+        public void Invoke(){} // RVA: 0x13BE760
+        public void InvokeRepeating(){} // RVA: 0x13BEA30
+        public void StartCoroutine(){} // RVA: 0x13BED00
+        public void StartCoroutine_Auto(){} // RVA: 0x13BEFD0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x13BF2A0
+    }
+
+    /// <summary>Originally: ÎÎÌÎÌÍÏÌÌÎÏÍÏÌÌÏÍÎÍÍÏÌÌ</summary>
+    public class Playerk__BackingFieldComponentSibling_1EFB : Object
+    {
+        public object _1EFB;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x894290
+        public void Dispose(){} // RVA: 0x894290
+        public void Cleanup(){} // RVA: 0x894290
+        public void CompareBaseObjects(){} // RVA: 0x87C540
+        public void IsNativeObjectAlive(){} // RVA: 0x87C540
+        public void GetCachedPtr(){} // RVA: 0x894320
+        public void get_name(){} // RVA: 0x894320
+        public void set_name(){} // RVA: 0x894320
+        public void Instantiate(){} // RVA: 0x894320
+        public void Destroy(){} // RVA: 0x894320
+        public void DestroyImmediate(){} // RVA: 0x894320
+        public void FindObjectsOfType(){} // RVA: 0x894320
+        public void FindObjectsByType(){} // RVA: 0x87C0A0
+        public void DontDestroyOnLoad(){} // RVA: 0x8943B0
+        public void get_hideFlags(){} // RVA: 0x87BEB0
+        public void set_hideFlags(){} // RVA: 0xA94080
+        public void FindObjectOfType(){} // RVA: 0xA94080
+        public void FindFirstObjectByType(){} // RVA: 0x8943B0
+        public void CheckNullArgument(){} // RVA: 0x894320
+        public void Equals(){} // RVA: 0x87C6B0
+    }
+
+    /// <summary>Originally: ÎÎÌÎÏÌÌÍÏÎÍÌÎÍÏÌÍÍÌÌÌÎÌ</summary>
+    public class Playerk__BackingFieldComponent_2CD4 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_EC4;
+        public object _vrcplayer;
+        public object _laserSelectRegion;
+        public object f_BD7;
+        public object f_602;
+        public object f_09A;
+        public object f_399;
+        public object f_49E;
+        public object f_5E4;
+        public object f_DE1;
+        public object f_1E1;
+        public object f_FCC;
+        public object f_787;
+        public object f_920;
+        public object f_0DB;
+        public object _USpeaker;
+        public object f_0D5;
+        public object f_BB3;
+        public object f_0AD;
+        public object f_211;
+        public object f_020;
+        public object f_F42;
+        public object f_3AE;
+        public object f_798;
+        public object f_491;
+        public object f_675;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x24BA220
+        public void RaiseCancellation(){} // RVA: 0x24BA230
+        public void IsInvoking(){} // RVA: 0x24BA240
+        public void CancelInvoke(){} // RVA: 0x24BA450
+        public void Invoke(){} // RVA: 0x24BA470
+        public void InvokeRepeating(){} // RVA: 0xB813B0
+        public void StartCoroutine(){} // RVA: 0x24BA480
+        public void StartCoroutine_Auto(){} // RVA: 0x24BB270
+        public void StopCoroutine(){} // RVA: 0x24BB3A0
+        public void StopAllCoroutines(){} // RVA: 0x24BB3B0
+        public void get_useGUILayout(){} // RVA: 0xD33E60
+        public void set_useGUILayout(){} // RVA: 0xCD48B0
+        public void get_didStart(){} // RVA: 0xD33E60
+        public void get_didAwake(){} // RVA: 0x24BB3C0
+        public void print(){} // RVA: 0x24BB4D0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x24BB4E0
+        public void Internal_IsInvokingAll(){} // RVA: 0x24BB650
+        public void InvokeDelayed(){} // RVA: 0x24BB660
+        public void IsObjectMonoBehaviour(){} // RVA: 0xC00EC0
+        public void StartCoroutineManaged(){} // RVA: 0x24BB680
+        public void StartCoroutineManaged2(){} // RVA: 0x24BB6B0
+        public void StopCoroutineManaged(){} // RVA: 0x24BB720
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0xBE2C60
+        public void GetScriptClassName(){} // RVA: 0xC00ED0
+        public void OnCancellationTokenCreated(){} // RVA: 0xC0FFC0
+        public void OnDisable(){} // RVA: 0x24BB840
+        public void OnDestroy(){} // RVA: 0x24BB850
+        public void ToString(){} // RVA: 0x24BB8A0
+        public void get_useGUILayout_Injected(){} // RVA: 0x24BB9B0
+        public void set_useGUILayout_Injected(){} // RVA: 0xBBFFA0
+        public void get_didStart_Injected(){} // RVA: 0x24BBA20
+        public void get_didAwake_Injected(){} // RVA: 0xC10050
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0xBBF900
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x24BBAC0
+        public void InvokeDelayed_Injected(){} // RVA: 0x24BBD60
+        public void CancelInvoke_Injected(){} // RVA: 0xBE2C70
+        public void IsInvoking_Injected(){} // RVA: 0xB700F0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x24BBE40
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x24BBE70
+        public void .ctor(){} // RVA: 0x24BBE90
+        public void Initialize(){} // RVA: 0x24BB3B0
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0xCD4740
+        public void GetScriptClassName_Injected(){} // RVA: 0x24BC1D0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0xBE2C60
+        public void Awake(){} // RVA: 0x24BC320
+        public void OnEnable(){} // RVA: 0x24BC910
+        public void FixedUpdate(){} // RVA: 0x24BC920
+        public void Update(){} // RVA: 0xB70100
+        public void LateUpdate(){} // RVA: 0xBBFF90
+        public void OnApplicationPause(){} // RVA: 0x24BCA10
+        public void OnApplicationQuit(){} // RVA: 0x1C4D9A0
+        public void OnBecameVisible(){} // RVA: 0x24BCC10
+        public void OnBecameInvisible(){} // RVA: 0x24BD0B0
+        public void OnCollisionEnter(){} // RVA: 0x24BD460
+        public void OnCollisionStay(){} // RVA: 0x24BDC90
+        public void Start(){} // RVA: 0x24BDCB0
+        public void OnTriggerEnter(){} // RVA: 0x24BDD50
+        public void OnTriggerStay(){} // RVA: 0x24BDE60
+        public void OnTriggerExit(){} // RVA: 0xCD3600
+        public void OnCollisionExit(){} // RVA: 0x24BE5F0
+        // ── 25 unresolved (hash) ──
+        public void m_E81(){} // RVA: 0x24BC290
+        public void m_FAB(){} // RVA: 0xBBF8F0
+        public void m_E47(){} // RVA: 0x24BC2B0
+        public void m_7D4(){} // RVA: 0x24BC2D0
+        public void m_76B(){} // RVA: 0x1D61360
+        // ... 20 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÌÏÌÏÍÌÎÌÍÎÌÎÏÌÏÎÌÍÌÌÌ</summary>
+    public class Playerk__BackingFieldComponent_4522 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object debugUIHolder;
+        public object debugUIRootTransform;
+        public object debugDrawHMDHolder;
+        public object debugNetworkObjectInfo;
+        public object debugPlayerInfo;
+        public object debugVRCUiShapes;
+        public object f_13F;
+        public object f_DAF;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1308C50
+        public void Update(){} // RVA: 0x1308CF0
+        public void IsInvoking(){} // RVA: 0x13095F0
+        public void CancelInvoke(){} // RVA: 0x13096A0
+        public void Invoke(){} // RVA: 0x1309BA0
+        public void InvokeRepeating(){} // RVA: 0xCA4DF0
+        public void StartCoroutine(){} // RVA: 0x1309CD0
+        public void StartCoroutine_Auto(){} // RVA: 0x1309D10
+        public void StopCoroutine(){} // RVA: 0x1309E30
+        public void StopAllCoroutines(){} // RVA: 0xBE58B0
+        public void get_useGUILayout(){} // RVA: 0x1309F40
+        public void set_useGUILayout(){} // RVA: 0x130A430
+        public void get_didStart(){} // RVA: 0x130A540
+        public void .ctor(){} // RVA: 0x130A640
+        public void Initialize(){} // RVA: 0xBE58B0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x13095F0
+        public void Internal_IsInvokingAll(){} // RVA: 0x130A790
+        public void Start(){} // RVA: 0x130A890
+    }
+
+    /// <summary>Originally: ÏÎÌÍÌÍÍÏÏÍÍÎÏÌÍÍÌÎÍÌÍÍÍ</summary>
+    public class Playerk__BackingFieldComponent_7F2F : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_C64;
+        public object f_2CF;
+        public object f_833;
+        public object f_987;
+        public object f_E12;
+        public object f_D7D;
+        public object f_69F;
+        public object _interactableMask;
+        public object _playerMask;
+        public object _touchMove;
+        public object _selectRightButton;
+        public object f_FDC;
+        public object f_6B3;
+        public object f_FB6;
+        public object f_243;
+        public object f_25F;
+        public object f_833;
+        public object f_1A8;
+        public object f_5BC;
+        public object f_AAA;
+        public object f_4C6;
+        public object f_106;
+        public object f_956;
+        public object f_BB5;
+        public object f_3A0;
+        public object f_EA3;
+        public object f_062;
+        public object f_210;
+        public object f_56E;
+        public object f_998;
+        public object f_78E;
+        public object f_A9B;
+
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x13A9DD0
+        public void RaiseCancellation(){} // RVA: 0x13AA640
+        public void IsInvoking(){} // RVA: 0x13AA650
+        public void CancelInvoke(){} // RVA: 0x13AA720
+        public void Update(){} // RVA: 0x13AA860
+        public void InvokeRepeating(){} // RVA: 0x13AA910
+        public void StartCoroutine(){} // RVA: 0x13AA640
+        public void .ctor(){} // RVA: 0x13AAFF0
+        public void Initialize(){} // RVA: 0x13AB2F0
+        public void StopAllCoroutines(){} // RVA: 0x13AB4B0
+        public void get_useGUILayout(){} // RVA: 0x13AB5E0
+        public void set_useGUILayout(){} // RVA: 0x13AB720
+        public void get_didStart(){} // RVA: 0x13AB770
+        public void get_didAwake(){} // RVA: 0x13AB790
+        public void print(){} // RVA: 0x13AB860
+        public void Internal_CancelInvokeAll(){} // RVA: 0x13AC020
+        public void Internal_IsInvokingAll(){} // RVA: 0x13AC0D0
+        public void InvokeDelayed(){} // RVA: 0x13AC120
+        public void IsObjectMonoBehaviour(){} // RVA: 0x13AC1E0
+        public void StartCoroutineManaged(){} // RVA: 0x13AD3A0
+        public void StartCoroutineManaged2(){} // RVA: 0x13AC420
+        public void StopCoroutineManaged(){} // RVA: 0x13AA640
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x13AC4F0
+        public void GetScriptClassName(){} // RVA: 0x13ACE90
+        public void OnCancellationTokenCreated(){} // RVA: 0x13AD0C0
+        public void OnDestroy(){} // RVA: 0x13AD220
+        public void StopAllCoroutines_Injected(){} // RVA: 0x13AD810
+        public void get_useGUILayout_Injected(){} // RVA: 0xBAB510
+        public void set_useGUILayout_Injected(){} // RVA: 0x13AE090
+        public void get_didStart_Injected(){} // RVA: 0x13AE0F0
+        public void get_didAwake_Injected(){} // RVA: 0x13AA640
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x13AE110
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x13AE1C0
+        public void InvokeDelayed_Injected(){} // RVA: 0x13AE220
+        public void CancelInvoke_Injected(){} // RVA: 0x13AE270
+        public void IsInvoking_Injected(){} // RVA: 0xBAB520
+        public void .cctor(){} // RVA: 0x13AE550
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x13AE610
+        public void OnDisable(){} // RVA: 0x13AE650
+        // ── Unresolved (hash) ──
+        public void m_A54(){} // RVA: 0x13AC420
+    }
+
+    /// <summary>Originally: ÍÏÌÍÌÎÏÌÎÏÌÏÎÏÌÌÎÍÌÍÏÎÎ</summary>
+    public class Playerk__BackingFieldComponent_FBDB : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object layerMask;
+        public object f_3F8;
+        public object f_265;
+        public object f_582;
+        public object f_BB5;
+        public object f_421;
+        public object f_349;
+        public object f_7CC;
+        public object f_24E;
+        public object f_BD8;
+        public object f_B8E;
+        public object f_14F;
+        public object f_697;
+        public object f_357;
+        public object f_74E;
+        public object f_E3C;
+        public object f_AB1;
+        public object f_86B;
+        public object f_AFB;
+        public object f_66F;
+        public object f_0C9;
+        public object f_F17;
+        public object f_1BD;
+        public object f_393;
+        public object f_B79;
+        public object f_31D;
+        public object f_778;
+        public object f_4B3;
+        public object f_435;
+        public object f_B65;
+        public object f_78E;
+        public object f_2FF;
+        public object f_471;
+        public object f_B52;
+        public object f_978;
+        public object f_A0B;
+        public object f_4CE;
+        public object f_9FF;
+        public object f_C33;
+        public object f_D05;
+        public object f_15E;
+        public object f_F26;
+        public object f_F29;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x18605B0
+        public void RaiseCancellation(){} // RVA: 0xBE5860
+        public void IsInvoking(){} // RVA: 0x1860880
+        public void CancelInvoke(){} // RVA: 0xB43310
+        public void Invoke(){} // RVA: 0x1860A60
+        public void InvokeRepeating(){} // RVA: 0x1860AC0
+        public void StartCoroutine(){} // RVA: 0xBBFF90
+        public void StartCoroutine_Auto(){} // RVA: 0x1860EA0
+        public void StopCoroutine(){} // RVA: 0x1860F50
+        public void StopAllCoroutines(){} // RVA: 0x106A7D0
+        public void get_useGUILayout(){} // RVA: 0xC0FFC0
+        public void set_useGUILayout(){} // RVA: 0x18611C0
+        public void get_didStart(){} // RVA: 0x1861300
+        public void get_didAwake(){} // RVA: 0x1861350
+        public void print(){} // RVA: 0x18613A0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1861420
+        public void Internal_IsInvokingAll(){} // RVA: 0x1861470
+        public void InvokeDelayed(){} // RVA: 0xBAE340
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1861520
+        public void StartCoroutineManaged(){} // RVA: 0x18617C0
+        public void StartCoroutineManaged2(){} // RVA: 0x1861860
+        public void StopCoroutineManaged(){} // RVA: 0x18619F0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1861AE0
+        public void GetScriptClassName(){} // RVA: 0x1861D20
+        public void OnCancellationTokenCreated(){} // RVA: 0x1861E50
+        public void StopCoroutine_Injected(){} // RVA: 0x1862370
+        public void StopAllCoroutines_Injected(){} // RVA: 0x1862420
+        public void get_useGUILayout_Injected(){} // RVA: 0xCD3320
+        public void set_useGUILayout_Injected(){} // RVA: 0x18634F0
+        public void get_didStart_Injected(){} // RVA: 0x1862AA0
+        public void get_didAwake_Injected(){} // RVA: 0xBAE430
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1862D90
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x1862DD0
+        public void InvokeDelayed_Injected(){} // RVA: 0x1862F70
+        public void CancelInvoke_Injected(){} // RVA: 0xBAE350
+        public void IsInvoking_Injected(){} // RVA: 0xBE58B0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0xBAE3B0
+        public void StartCoroutineManaged_Injected(){} // RVA: 0xC10050
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1862FE0
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x1863170
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x18631C0
+        public void GetScriptClassName_Injected(){} // RVA: 0xB813B0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x1863500
+        public void OnDestroy(){} // RVA: 0x1863510
+        public void OnApplicationPause(){} // RVA: 0x1863710
+        public void OnApplicationQuit(){} // RVA: 0x1863D10
+        public void OnBecameVisible(){} // RVA: 0x18640D0
+        public void OnBecameInvisible(){} // RVA: 0x18643A0
+        public void OnCollisionEnter(){} // RVA: 0xCD48B0
+        public void OnCollisionStay(){} // RVA: 0xD5CC70
+        public void OnCollisionExit(){} // RVA: 0x18646F0
+        public void OnTriggerEnter(){} // RVA: 0x18647E0
+        public void OnTriggerStay(){} // RVA: 0x1864B40
+        public void OnTriggerExit(){} // RVA: 0x18652B0
+        public void Awake(){} // RVA: 0x18664A0
+        public void OnEnable(){} // RVA: 0x1866AE0
+        public void Start(){} // RVA: 0x1866B40
+        public void Update(){} // RVA: 0x1868590
+        public void LateUpdate(){} // RVA: 0x1868770
+        public void OnDisable(){} // RVA: 0x1868AE0
+        public void .cctor(){} // RVA: 0x186B7E0
+        public void .ctor(){} // RVA: 0x186BF60
+        public void Initialize(){} // RVA: 0x186C9A0
+        // ── 40 unresolved (hash) ──
+        public void m_F14(){} // RVA: 0x1862060
+        public void m_200(){} // RVA: 0x18652E0
+        public void m_241(){} // RVA: 0x18654E0
+        public void m_9EF(){} // RVA: 0x1865910
+        public void m_EEB(){} // RVA: 0xCD4740
+        // ... 35 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÍÌÍÎÏÎÎÌÎÌÎÍÏÏÏÌÌÌÍÎÎ</summary>
+    public class Playerk__BackingFieldHandlerImpl_9FA9 : Playerk__BackingFieldHandler_92A6
+    {
+        public object f_A91;
+        public object f_EB1;
+        public object f_423;
+        public object f_34C;
+        public object f_279;
+        public object f_39F;
+
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x2141E20
+        public void .ctor(){} // RVA: 0x21422F0
+        public void Initialize(){} // RVA: 0x141EFA0
+        public void Awake(){} // RVA: 0x141EFA0
+        // ── 11 unresolved (hash) ──
+        public void m_6F3(){} // RVA: 0x2141D40
+        public void m_2A4(){} // RVA: 0x2141EF0
+        public void m_BBB(){} // RVA: 0x2141FB0
+        public void m_A19(){} // RVA: 0x21422E0
+        public void m_269(){} // RVA: 0x21422E0
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÌÌÏÌÏÌÍÏÍÎÌÎÏÌÏÍÍÎÌÏÌ</summary>
+    public class Playerk__BackingFieldHandlerImpl_AD2B : Playerk__BackingFieldHandler_92A6
+    {
+        public object f_2CA;
+        public object f_151;
+        public object f_423;
+        public object f_BD1;
+        public object f_1FF;
+        public object f_F89;
+        public object f_2E8;
+        public object f_6D4;
+        public object f_A17;
+        public object f_F4D;
+        public object f_B5A;
+        public object f_530;
+        public object f_34C;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x2147DD0
+        public void Initialize(){} // RVA: 0x2147E60
+        public void LateUpdate(){} // RVA: 0x2148D40
+        public void Awake(){} // RVA: 0x141EFA0
+        // ── Unresolved (hash) ──
+        public void m_841(){} // RVA: 0x2146F00
+        public void m_325(){} // RVA: 0x21474B0
+        public void m_320(){} // RVA: 0x2147810
+        public void m_22E(){} // RVA: 0x141EFA0
+        public void m_270(){} // RVA: 0x2148750
+        public void m_F9A(){} // RVA: 0x141EFA0
+        public void m_6EF(){} // RVA: 0x21492E0
+    }
+
+    /// <summary>Originally: ÏÍÍÏÌÌÌÎÌÍÎÌÍÍÌÏÎÎÍÎÌÍÌ</summary>
+    public class Playerk__BackingFieldHandlerImpl_D1E8 : Playerk__BackingFieldHandler_92A6
+    {
+        public object f_147;
+        public object f_4CE;
+        public object f_237;
+        public object f_E99;
+        public object f_646;
+        public object f_64E;
+        public object f_EFD;
+        public object f_C1A;
+        public object f_49F;
+        public object f_59F;
+        public object f_880;
+        public object f_680;
+        public object f_554;
+        public object f_3E8;
+        public object f_296;
+        public object f_E70;
+        public object f_6FD;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x141ED80
+        public void Awake(){} // RVA: 0x141EFA0
+        public void OnEnable(){} // RVA: 0x141EFC0
+        public void OnDisable(){} // RVA: 0x141EFD0
+        public void .cctor(){} // RVA: 0x141F1C0
+        // ── Unresolved (hash) ──
+        public void m_FA3(){} // RVA: 0x141F0B0
+        public void m_325(){} // RVA: 0x141F200
+        public void m_6EF(){} // RVA: 0x14201B0
+        public void m_D84(){} // RVA: 0x1420230
+        public void m_CBC(){} // RVA: 0x141EFA0
+        public void m_CD7(){} // RVA: 0x1420330
+        public void m_AD9(){} // RVA: 0x1420410
+        public void m_E57(){} // RVA: 0x1420520
+        public void m_4A3(){} // RVA: 0x1420600
+    }
+
+    /// <summary>Originally: ÎÍÌÍÍÏÎÌÍÌÎÌÍÏÎÍÎÍÍÌÍÌÌ</summary>
+    public class Playerk__BackingFieldHandler_92A6 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_E1A;
+        public object f_06E;
+        public object f_AA9;
+        public object f_1D2;
+        public object f_5D9;
+        public object f_4DE;
+        public object f_1E2;
+        public object f_D8F;
+        public object f_C58;
+        public object f_011;
+        public object f_D96;
+        public object f_C14;
+        public object f_CEE;
+        public object f_381;
+        public object f_C9F;
+        public object f_1DE;
+        public object f_5A9;
+        public object f_ADF;
+        public object f_185;
+        public object f_D6C;
+        public object f_E31;
+        public object f_BF0;
+        public object f_1EB;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x894290
+        public void RaiseCancellation(){} // RVA: 0xF45EE0
+        public void IsInvoking(){} // RVA: 0x1AD91E0
+        public void CancelInvoke(){} // RVA: 0xCD48B0
+        public void Invoke(){} // RVA: 0xCD3600
+        public void InvokeRepeating(){} // RVA: 0x2154E50
+        public void StartCoroutine(){} // RVA: 0x2154E90
+        public void StartCoroutine_Auto(){} // RVA: 0x2154ED0
+        public void StopCoroutine(){} // RVA: 0x2154EF0
+        public void StopAllCoroutines(){} // RVA: 0x2155010
+        public void get_useGUILayout(){} // RVA: 0x2155130
+        public void set_useGUILayout(){} // RVA: 0x2155250
+        public void get_didStart(){} // RVA: 0x2155370
+        public void get_didAwake(){} // RVA: 0x1D65050
+        public void print(){} // RVA: 0x1D65EC0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1D5B300
+        public void Internal_IsInvokingAll(){} // RVA: 0x899250
+        public void InvokeDelayed(){} // RVA: 0x2155380
+        public void IsObjectMonoBehaviour(){} // RVA: 0x2156760
+        public void StartCoroutineManaged(){} // RVA: 0x2158020
+        public void StartCoroutineManaged2(){} // RVA: 0x2158380
+        public void StopCoroutineManaged(){} // RVA: 0x2158780
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x2159F40
+        public void OnPlayerLeft(){} // RVA: 0x215A060
+        public void OnCancellationTokenCreated(){} // RVA: 0x215A0E0
+        public void StopCoroutine_Injected(){} // RVA: 0x215A210
+        public void StopAllCoroutines_Injected(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0x215A240
+        public void Initialize(){} // RVA: 0x215A680
+        public void get_didStart_Injected(){} // RVA: 0x215A900
+        // ── Unresolved (hash) ──
+        public void m_A4C(){} // RVA: 0x215A0F0
+    }
+
+    /// <summary>Originally: ÏÍÍÎÏÎÌÏÌÍÍÍÎÎÌÎÌÌÏÍÌÌÌ</summary>
+    public class Playerk__BackingFieldloadingVisualizerPrefabComponent_A2D4 : MonoBehaviour
+    {
+        public object spawnPrefab;
+        public object loadingVisualizerPrefab;
+        public object orbitRingPrefab;
+        public object propPlacementCursor;
+        public object placementLayerMask;
+        public object f_4C8;
+        public object f_5D8;
+        public object f_C0A;
+        public object f_CD7;
+        public object f_F9F;
+        public object f_94A;
+        public object f_708;
+        public object f_475;
+        public object f_4BD;
+        public object f_F8F;
+        public object f_394;
+        public object f_168;
+        public object f_6EB;
+        public object f_348;
+        public object f_D96;
+        public object f_F7A;
+        public object f_282;
+        public object f_909;
+        public object f_401;
+        public object f_AB6;
+        public object f_438;
+        public object f_0ED;
+        public object f_66D;
+        public object f_2CD;
+        public object f_C1D;
+        public object f_6E5;
+        public object f_819;
+        public object f_1F1;
+        public object f_B38;
+        public object f_618;
+        public object f_2FF;
+        public object f_471;
+        public object f_C35;
+        public object f_F6F;
+        public object localPropIcon;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1074200
+        public void RaiseCancellation(){} // RVA: 0x10742F0
+        public void IsInvoking(){} // RVA: 0x1074480
+        public void CancelInvoke(){} // RVA: 0x1074570
+        public void Invoke(){} // RVA: 0x10746D0
+        public void InvokeRepeating(){} // RVA: 0x107BB90
+        public void StartCoroutine(){} // RVA: 0x10748D0
+        public void StartCoroutine_Auto(){} // RVA: 0x10749C0
+        public void StopCoroutine(){} // RVA: 0x1074A20
+        public void StopAllCoroutines(){} // RVA: 0xCD48B0
+        public void get_useGUILayout(){} // RVA: 0x1074E20
+        public void set_useGUILayout(){} // RVA: 0x1075430
+        public void get_didStart(){} // RVA: 0x1075520
+        public void get_didAwake(){} // RVA: 0x1075530
+        public void print(){} // RVA: 0x1075970
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1075980
+        public void Internal_IsInvokingAll(){} // RVA: 0x1075B30
+        public void InvokeDelayed(){} // RVA: 0x1075BC0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1075CD0
+        public void .cctor(){} // RVA: 0x1075E00
+        public void .ctor(){} // RVA: 0x10761D0
+        public void Initialize(){} // RVA: 0x1076490
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x10809E0
+        public void GetScriptClassName(){} // RVA: 0x1076720
+        public void OnCancellationTokenCreated(){} // RVA: 0x10767A0
+        public void LateUpdate(){} // RVA: 0x1076C40
+        public void StopCoroutine_Injected(){} // RVA: 0x1077090
+        public void OnDestroy(){} // RVA: 0x1077610
+        public void get_useGUILayout_Injected(){} // RVA: 0x1077960
+        public void set_useGUILayout_Injected(){} // RVA: 0x1077F60
+        public void get_didStart_Injected(){} // RVA: 0x1079860
+        public void get_didAwake_Injected(){} // RVA: 0x1079B10
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1079D60
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x107A1B0
+        public void InvokeDelayed_Injected(){} // RVA: 0x107A900
+        public void CancelInvoke_Injected(){} // RVA: 0x107ADE0
+        public void IsInvoking_Injected(){} // RVA: 0x1082EA0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x107B410
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x107B500
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x107B5D0
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x107B630
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x107B6E0
+        public void GetScriptClassName_Injected(){} // RVA: 0x107B890
+        public void Awake(){} // RVA: 0x107B8A0
+        public void OnEnable(){} // RVA: 0x107BA00
+        public void FixedUpdate(){} // RVA: 0x107BC90
+        public void Update(){} // RVA: 0x107BD40
+        public void OnDisable(){} // RVA: 0x107C2D0
+        public void OnApplicationPause(){} // RVA: 0x107C820
+        public void OnApplicationQuit(){} // RVA: 0x107CBA0
+        public void OnBecameVisible(){} // RVA: 0x107CBB0
+        public void OnBecameInvisible(){} // RVA: 0x107CC80
+        public void OnCollisionEnter(){} // RVA: 0x107CEA0
+        public void OnCollisionStay(){} // RVA: 0x107CF90
+        public void OnCollisionExit(){} // RVA: 0x107D1D0
+        public void OnTriggerEnter(){} // RVA: 0x107D530
+        public void OnTriggerStay(){} // RVA: 0x107D620
+        public void OnTriggerExit(){} // RVA: 0x107D770
+        public void Start(){} // RVA: 0x10816A0
+        // ── 32 unresolved (hash) ──
+        public void m_C86(){} // RVA: 0x107BBD0
+        public void m_2D5(){} // RVA: 0x107C100
+        public void m_B4D(){} // RVA: 0x107F330
+        public void m_D95(){} // RVA: 0x107D930
+        public void m_0ED(){} // RVA: 0x107DD70
+        // ... 27 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÎÌÌÌÏÎÏÎÎÏÏÎÏÎÍÎÌÏÎÍÍÏ</summary>
+    public class PlayerlistCountBindingemptyHeaderComponent_66F9 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_757;
+        public object f_F68;
+        public object _listCountBinding;
+        public object _header;
+        public object _emptyHeader;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x996E820
+        public void RaiseCancellation(){} // RVA: 0x996E910
+        public void IsInvoking(){} // RVA: 0x996EC00
+        public void CancelInvoke(){} // RVA: 0x996ED40
+        public void Invoke(){} // RVA: 0x996EE30
+        public void InvokeRepeating(){} // RVA: 0x996EF00
+        public void StartCoroutine(){} // RVA: 0x996EFD0
+        public void Awake(){} // RVA: 0x996F130
+        public void OnEnable(){} // RVA: 0x996F1C0
+        public void OnDisable(){} // RVA: 0xB70160
+        public void get_useGUILayout(){} // RVA: 0x996F320
+        public void set_useGUILayout(){} // RVA: 0x996F410
+        public void get_didStart(){} // RVA: 0xB70160
+        public void Start(){} // RVA: 0x996F5B0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0xB70160
+    }
+
+    /// <summary>Originally: ÍÏÍÎÎÌÍÎÎÌÌÎÌÌÌÍÎÎÎÌÌÏÍ</summary>
+    public class PlayerlistEntryPrefabdateHeaderStyleComponent_3B0C : MonoBehaviour
+    {
+        public object _dateHeader;
+        public object _eventList;
+        public object _listEntryPrefab;
+        public object _dateHeaderStyle;
+        public object _dividerStyle;
+        public object f_5A3;
+
+        // ── Methods ──
+        public void Start(){} // RVA: 0x15B0760
+        public void .ctor(){} // RVA: 0x15B07F0
+        public void Initialize(){} // RVA: 0x15B0910
+        public void CancelInvoke(){} // RVA: 0x15B09A0
+        public void Invoke(){} // RVA: 0x15B1040
+        public void InvokeRepeating(){} // RVA: 0xD33E60
+        public void StartCoroutine(){} // RVA: 0xD33E60
+        public void StartCoroutine_Auto(){} // RVA: 0x15B10D0
+        public void StopCoroutine(){} // RVA: 0xD33E60
+        public void StopAllCoroutines(){} // RVA: 0x15B1160
+        public void get_useGUILayout(){} // RVA: 0x15B1800
+        public void set_useGUILayout(){} // RVA: 0x15B1EA0
+        public void get_didStart(){} // RVA: 0xD33E60
+    }
+
+    /// <summary>Originally: ÎÎÎÌÌÏÎÏÍÎÎÌÌÌÍÏÏÏÏÍÏÏÎ</summary>
+    public class Playerm_CurrentTrackingOriginMom_SupportedTracComponent_BDD4 : MonoBehaviour
+    {
+        public object m_RecenteredImage;
+        public object m_RecenteredOffColor;
+        public object m_RecenteredColor;
+        public object m_RecenteredColorResetTime;
+        public object f_DAF;
+        public object m_CurrentTrackingOriginMode;
+        public object m_CurrentTrackingOriginModeDisplay;
+        public object m_DesiredTrackingOriginMode;
+        public object m_SupportedTrackingOriginModes;
+        public object f_8F4;
+
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0xE324B0
+        public void .ctor(){} // RVA: 0xE326A0
+        public void Initialize(){} // RVA: 0xD34740
+        public void Update(){} // RVA: 0xE32710
+        public void Invoke(){} // RVA: 0xD34720
+        public void InvokeRepeating(){} // RVA: 0xE32C80
+        public void StartCoroutine(){} // RVA: 0xD347A0
+        public void StartCoroutine_Auto(){} // RVA: 0xE32C90
+        public void StopCoroutine(){} // RVA: 0xE33210
+        public void StopAllCoroutines(){} // RVA: 0xE33230
+        public void get_useGUILayout(){} // RVA: 0xD347A0
+        public void set_useGUILayout(){} // RVA: 0xE33290
+        public void get_didStart(){} // RVA: 0xE32C80
+        public void get_didAwake(){} // RVA: 0xD34740
+        public void OnDisable(){} // RVA: 0xE332C0
+        public void Internal_CancelInvokeAll(){} // RVA: 0xE33590
+        public void .cctor(){} // RVA: 0xE33B10
+        public void InvokeDelayed(){} // RVA: 0xD34740
+        public void IsObjectMonoBehaviour(){} // RVA: 0xE33BF0
+    }
+
+    /// <summary>Originally: ÎÍÍÍÏÏÏÏÏÎÎÌÍÌÎÌÏÌÎÍÍÎÌ</summary>
+    public class PlayerminHandDetectionConfidencminHandPresence_4EFD : ConfidenceInputBase_8042
+    {
+        public object _delegateInput;
+        public object _runningModeInput;
+        public object _numHandsInput;
+        public object _minHandDetectionConfidenceInput;
+        public object _minHandPresenceConfidenceInput;
+        public object _minTrackingConfidenceInput;
+        public object f_A16;
+        public object f_408;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x22791A0
+        public void Start(){} // RVA: 0x2279680
+        // ── 24 unresolved (hash) ──
+        public void m_A06(){} // RVA: 0x2278880
+        public void m_D35(){} // RVA: 0x22788B0
+        public void m_7DF(){} // RVA: 0x2278980
+        public void m_B0E(){} // RVA: 0x2278A50
+        public void m_190(){} // RVA: 0x2278A60
+        // ... 19 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÌÎÎÍÌÎÍÌÏÌÌÎÌÌÎÌÍÏÎÏÌ</summary>
+    public class PlayerminPoseDetectionConfidencminPosePresence_0740 : ConfidenceInputBase_8042
+    {
+        public object _delegateInput;
+        public object _modelSelectionInput;
+        public object _runningModeInput;
+        public object _numPosesInput;
+        public object _minPoseDetectionConfidenceInput;
+        public object _minPosePresenceConfidenceInput;
+        public object _minTrackingConfidenceInput;
+        public object _outputSegmentationMasksInput;
+        public object f_A16;
+        public object f_408;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Start(){} // RVA: 0x22759A0
+        // ── 34 unresolved (hash) ──
+        public void m_963(){} // RVA: 0x2274C10
+        public void m_425(){} // RVA: 0x2274D00
+        public void m_A5A(){} // RVA: 0x2274E70
+        public void m_5FD(){} // RVA: 0x2274EA0
+        public void m_A99(){} // RVA: 0x2274F70
+        // ... 29 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÏÍÍÏÌÏÍÏÏÎÌÍÍÍÌÎÏÏÍÌÍÌ</summary>
+    public class PlayerminSuppressionThresholdInminDetectionCon_9A2C : ConfidenceInputBase_8042
+    {
+        public object _delegateInput;
+        public object _modelSelectionInput;
+        public object _runningModeInput;
+        public object _minDetectionConfidenceInput;
+        public object _minSuppressionThresholdInput;
+        public object _numFacesInput;
+        public object f_A16;
+        public object f_408;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x22D28E0
+        public void Start(){} // RVA: 0x22D2B50
+        // ── 26 unresolved (hash) ──
+        public void m_65A(){} // RVA: 0x2278C30
+        public void m_439(){} // RVA: 0x22D2520
+        public void m_859(){} // RVA: 0x2278C00
+        public void m_CC1(){} // RVA: 0x2278C30
+        public void m_724(){} // RVA: 0x2278C00
+        // ... 21 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÎÎÏÌÌÌÍÏÌÏÍÌÏÎÍÎÏÍÌÏÌ</summary>
+    public class PlayeroutputFacialTransformatiominFaceDetectio_4178 : ConfidenceInputBase_8042
+    {
+        public object _delegateInput;
+        public object _runningModeInput;
+        public object _numFacesInput;
+        public object _minFaceDetectionConfidenceInput;
+        public object _minFacePresenceConfidenceInput;
+        public object _minTrackingConfidenceInput;
+        public object _outputFaceBlendshapesInput;
+        public object _outputFacialTransformationMatrixesInput;
+        public object f_A16;
+        public object f_408;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Start(){} // RVA: 0x2280370
+        // ── 33 unresolved (hash) ──
+        public void m_162(){} // RVA: 0x227FCE0
+        public void m_849(){} // RVA: 0x2275180
+        public void m_AA6(){} // RVA: 0x2276880
+        public void m_239(){} // RVA: 0x227FD10
+        public void m_A5A(){} // RVA: 0x2274E70
+        // ... 28 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÍÏÎÍÏÌÍÎÌÎÎÏÍÏÌÏÍÌÏÎÌ</summary>
+    public class PlayerpinnedCategoryHeaderTextpinnedCategoryHeComponent_28D1 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_563;
+        public object _scrollRect;
+        public object _pinnedCategoryHeader;
+        public object _pinnedCategoryHeaderText;
+        public object _graphic;
+        public object _canvasGroup;
+        public object f_491;
+        public object f_BCF;
+        public object f_56A;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9B7B260
+        public void RaiseCancellation(){} // RVA: 0x12BB630
+        public void IsInvoking(){} // RVA: 0x9B7B300
+        public void Awake(){} // RVA: 0x9B7B420
+        public void OnDestroy(){} // RVA: 0x9B7B4D0
+        public void InvokeRepeating(){} // RVA: 0x9B7B570
+        public void StartCoroutine(){} // RVA: 0x12BB630
+        public void StartCoroutine_Auto(){} // RVA: 0x9B7B690
+        public void StopCoroutine(){} // RVA: 0x9B7BA50
+        public void StopAllCoroutines(){} // RVA: 0x9B7B4D0
+        public void .ctor(){} // RVA: 0x9B7BE20
+        public void Initialize(){} // RVA: 0x9B7BEF0
+    }
+
+    /// <summary>Originally: ÎÎÍÍÍÌÍÍÎÎÌÌÏÎÍÎÎÍÎÍÏÍÏ</summary>
+    public class PlayerquickSearchCellPrefabquickSearchHeaderComponent_7D79 : MonoBehaviour
+    {
+        public object _quickSearchList;
+        public object _quickSearchHeader;
+        public object _quickSearchCellPrefab;
+        public object _7D79;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9958520
+        public void RaiseCancellation(){} // RVA: 0xB43310
+        public void Start(){} // RVA: 0x9958750
+        public void CancelInvoke(){} // RVA: 0x99587E0
+        public void Invoke(){} // RVA: 0x99589E0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9958A70
+        public void StartCoroutine_Auto(){} // RVA: 0x9958B00
+        public void Reset(){} // RVA: 0x9958D30
+        public void OnEnable(){} // RVA: 0x9958D40
+        public void OnDisable(){} // RVA: 0xD33E60
+        public void set_useGUILayout(){} // RVA: 0xB43310
+        public void get_didStart(){} // RVA: 0x9958DD0
+        public void get_didAwake(){} // RVA: 0xD33E60
+    }
+
+    /// <summary>Originally: ÏÍÎÎÏÍÏÎÎÎÍÎÍÍÎÍÌÌÎÎÏÍÍ</summary>
+    public class PlayerrecentlyVisitedUsersListBrecentlyVisitedComponent_FA39 : MonoBehaviour
+    {
+        public object recentlyVisitedUsersLabel;
+        public object recentlyVisitedUsersListBinding;
+        public object f_CBF;
+        public object f_00C;
+        public object f_29A;
+        public object userCellPrefab;
+        public object viewMorePrefab;
+        public object f_AF1;
+
+        // ── Methods ──
+        public void OnDisable(){} // RVA: 0x9895600
+        public void RaiseCancellation(){} // RVA: 0x9895700
+        public void IsInvoking(){} // RVA: 0x9895770
+        public void OnEnable(){} // RVA: 0x9895C80
+        public void Start(){} // RVA: 0x9895E30
+        public void InvokeRepeating(){} // RVA: 0x9895E40
+        public void StartCoroutine(){} // RVA: 0x9895F80
+        public void StartCoroutine_Auto(){} // RVA: 0x9896490
+        public void StopCoroutine(){} // RVA: 0x98969A0
+        public void StopAllCoroutines(){} // RVA: 0x9896AE0
+        public void get_useGUILayout(){} // RVA: 0x9896FF0
+        public void set_useGUILayout(){} // RVA: 0x98971A0
+        public void get_didStart(){} // RVA: 0x98976B0
+        public void .ctor(){} // RVA: 0x9897720
+        public void Initialize(){} // RVA: 0x98978D0
+    }
+
+    /// <summary>Originally: ÏÏÍÎÌÍÏÌÎÎÍÍÍÏÎÌÎÎÏÌÏÌÌ</summary>
+    public class PlayerspherecastForwardOffsetignoreLayerMasksComponent_F066 : MonoBehaviour
+    {
+        public object outline;
+        public object ignoreLayerMasks;
+        public object spherecastForwardOffset;
+        public object f_141;
+        public object f_31A;
+        public object f_A2E;
+        public object f_487;
+        public object f_1C8;
+        public object f_C25;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x216F5C0
+        public void RaiseCancellation(){} // RVA: 0x216FA20
+        public void .ctor(){} // RVA: 0x2170330
+        public void Update(){} // RVA: 0x2170510
+        public void Invoke(){} // RVA: 0x2170F10
+        public void InvokeRepeating(){} // RVA: 0x21713D0
+        public void StartCoroutine(){} // RVA: 0x21716A0
+        public void Start(){} // RVA: 0x19269A0
+        public void StopCoroutine(){} // RVA: 0x2171970
+        public void StopAllCoroutines(){} // RVA: 0x2172230
+        public void get_useGUILayout(){} // RVA: 0x2172B70
+        public void OnDestroy(){} // RVA: 0xB43310
+        public void get_didStart(){} // RVA: 0x2172B70
+    }
+
+    /// <summary>Originally: ÏÏÌÌÎÍÏÌÌÏÌÎÌÍÌÍÌÌÎÍÎÏÎ</summary>
+    public class PlayerstreamerModeOverlayprintImageComponent_1D50 : MonoBehaviour
+    {
+        public object printImage;
+        public object userData;
+        public object streamerModeOverlay;
+        public object _1D50;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x15162A0
+        public void RaiseCancellation(){} // RVA: 0x1516410
+        public void IsInvoking(){} // RVA: 0x1516470
+        public void Start(){} // RVA: 0x15164D0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1516640
+        public void OnDestroy(){} // RVA: 0x15168E0
+        public void StartCoroutine_Auto(){} // RVA: 0x15169E0
+        public void StopCoroutine(){} // RVA: 0x1516C80
+        public void StopAllCoroutines(){} // RVA: 0x1516F20
+    }
+
+    /// <summary>Originally: ÌÏÏÎÌÍÎÎÏÍÍÏÌÏÌÏÍÍÎÍÌÌÍ</summary>
+    public class PlayersubscriptionOptionsListBiupdateSubscript_1C00 : UIscrollRectfootnote_07B6
+    {
+        public object _productTitleText;
+        public object _expirationText;
+        public object _expirationHeader;
+        public object _addSubscriptionHeader;
+        public object _updateSubscriptionHeader;
+        public object _chooseSubscriptionHeader;
+        public object _addTimeHeader;
+        public object _subscriptionOptions;
+        public object _subscriptionOptionsListBinding;
+        public object _subscriptionPrefab;
+        public object f_07A;
+        public object f_4CD;
+        public object f_FCF;
+        public object f_3E6;
+        public object f_920;
+
+        // ── Methods ──
+        public void IndexOf(){} // RVA: 0x9DD8F30
+        public void Start(){} // RVA: 0x9DD9180
+        public void .ctor(){} // RVA: 0x9DD9A50
+        public void Initialize(){} // RVA: 0x1649580
+        public void OnEnable(){} // RVA: 0x9DD9CA0
+        public void Awake(){} // RVA: 0x9DD9D30
+        public void OnDestroy(){} // RVA: 0x1649580
+        // ── 11 unresolved (hash) ──
+        public void m_9B8(){} // RVA: 0x1649580
+        public void m_6E4(){} // RVA: 0x9DD9060
+        public void m_C7D(){} // RVA: 0x9DD92B0
+        public void m_AAA(){} // RVA: 0x9DD93D0
+        public void m_CF8(){} // RVA: 0x9DD9C30
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÌÏÌÍÍÎÌÍÍÍÏÎÍÎÎÍÍÌÍÌÌ</summary>
+    public class PlayersupportedDevicesvrcPlusOnlyComponent_6011 : MonoBehaviour
+    {
+        public object key;
+        public object target;
+        public object vrcPlusOnly;
+        public object reset;
+        public object supportedDevices;
+        public object f_ECB;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9F061F0
+        public void RaiseCancellation(){} // RVA: 0x9F063C0
+        public void IsInvoking(){} // RVA: 0x9F06410
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9F06590
+        public void InvokeRepeating(){} // RVA: 0x9F065E0
+        public void StartCoroutine(){} // RVA: 0x9F06630
+        public void StartCoroutine_Auto(){} // RVA: 0x9F06680
+        public void Start(){} // RVA: 0x9F066D0
+        public void StopAllCoroutines(){} // RVA: 0x9F06770
+        public void get_useGUILayout(){} // RVA: 0x9F06940
+        public void set_useGUILayout(){} // RVA: 0x9F06990
+        public void Update(){} // RVA: 0x9F069E0
+    }
+
+    /// <summary>Originally: ÍÍÏÏÌÍÏÍÎÏÍÍÍÏÏÎÏÎÎÍÎÏÎ</summary>
+    public class PlayertargetUserTypeComponent_3EF5 : MonoBehaviour
+    {
+        public object _targetUserType;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9EED830
+        public void RaiseCancellation(){} // RVA: 0x9EED980
+        public void IsInvoking(){} // RVA: 0x9EEDB10
+        public void CancelInvoke(){} // RVA: 0x1269760
+        public void Invoke(){} // RVA: 0x1269760
+        public void InvokeRepeating(){} // RVA: 0x9EEDC60
+        public void StartCoroutine(){} // RVA: 0xFEAE90
+        public void Awake(){} // RVA: 0x9EEDDF0
+        public void OnDestroy(){} // RVA: 0x1269760
+        public void StopAllCoroutines(){} // RVA: 0x9EEDF40
+        public void get_useGUILayout(){} // RVA: 0x9EEDF80
+        public void set_useGUILayout(){} // RVA: 0x9EEE0D0
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÏÌÏÌÍÌÏÎÌÏÌÎÏÍÎÎÏÍÎÌÌÎÌ</summary>
+    public class Playertext_presentEnabledInputMinputRowDisplayComponent_5E7F : MonoBehaviour
+    {
+        public object displayed;
+        public object inputNames;
+        public object inputRowDisplayPrefab;
+        public object layout_inputList;
+        public object minTimeToDisplayInput;
+        public object text_presentEnabledInputMethods;
+        public object f_9AB;
+        public object f_61E;
+        public object f_A53;
+        public object f_0D8;
+        public object f_340;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x24F4200
+        public void RaiseCancellation(){} // RVA: 0x24F45C0
+        public void IsInvoking(){} // RVA: 0x24F4810
+        public void CancelInvoke(){} // RVA: 0x24F4840
+        public void Invoke(){} // RVA: 0x24F4C60
+        public void Update(){} // RVA: 0x24F4810
+        public void StartCoroutine(){} // RVA: 0x24F4FB0
+        public void .ctor(){} // RVA: 0x24F5370
+        public void Initialize(){} // RVA: 0x24F58F0
+        public void Awake(){} // RVA: 0x24F59D0
+        public void OnDestroy(){} // RVA: 0x24F5BC0
+        public void set_useGUILayout(){} // RVA: 0x24F5CA0
+        public void get_didStart(){} // RVA: 0x24F5CD0
+    }
+
+    /// <summary>Originally: ÎÏÌÎÏÌÍÍÌÎÌÎÏÌÎÌÎÎÌÎÏÍÏ</summary>
+    public class PlayertransparentHandMaterialfingerTrackingTutComponent_6F8B : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_CB6;
+        public object f_FF2;
+        public object f_878;
+        public object f_657;
+        public object GhostHandsRig;
+        public object GhostHandLeftMesh;
+        public object GhostHandRightMesh;
+        public object transparentHandMaterial;
+        public object f_AD6;
+        public object f_958;
+        public object f_CAE;
+        public object f_EF3;
+        public object f_DAE;
+        public object f_DF4;
+        public object f_D3F;
+        public object hasMetacarpals;
+        public object f_FAE;
+        public object f_553;
+        public object f_C84;
+        public object f_CFD;
+        public object f_C88;
+        public object f_DCA;
+        public object f_2B9;
+        public object f_611;
+        public object f_D01;
+        public object f_1ED;
+        public object f_697;
+        public object f_12E;
+        public object f_841;
+        public object f_4FC;
+        public object f_646;
+        public object f_762;
+        public object f_03B;
+        public object f_1A9;
+        public object f_BF6;
+        public object f_E8E;
+        public object drawGizmos;
+        public object fingerTrackingTutorial;
+
+        // ── Methods ──
+        public void Update(){} // RVA: 0x1253260
+        public void RaiseCancellation(){} // RVA: 0x1253480
+        public void IsInvoking(){} // RVA: 0x1253A00
+        public void CancelInvoke(){} // RVA: 0x1253BC0
+        public void .ctor(){} // RVA: 0x1255680
+        public void Initialize(){} // RVA: 0x1255790
+        public void StartCoroutine(){} // RVA: 0x1255950
+        public void OnDestroy(){} // RVA: 0x1255FC0
+        public void StopCoroutine(){} // RVA: 0x1256080
+        public void StopAllCoroutines(){} // RVA: 0x1184420
+        public void get_useGUILayout(){} // RVA: 0x12566F0
+        public void Awake(){} // RVA: 0x1256720
+        public void get_didStart(){} // RVA: 0x1256BE0
+        public void get_didAwake(){} // RVA: 0x12578B0
+        public void print(){} // RVA: 0x12578C0
+        public void Internal_CancelInvokeAll(){} // RVA: 0xB70100
+        public void Internal_IsInvokingAll(){} // RVA: 0x1257970
+        public void Start(){} // RVA: 0x1257F30
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1258450
+        public void StartCoroutineManaged(){} // RVA: 0xEA0050
+        public void StartCoroutineManaged2(){} // RVA: 0x12585F0
+        public void StopCoroutineManaged(){} // RVA: 0x12587A0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1258D00
+        public void GetScriptClassName(){} // RVA: 0x1259020
+        public void OnCancellationTokenCreated(){} // RVA: 0x12590C0
+        public void OnCollisionExit(){} // RVA: 0x12592E0
+        public void StopCoroutine_Injected(){} // RVA: 0x12597B0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x1259E10
+        public void get_useGUILayout_Injected(){} // RVA: 0x125A000
+        public void set_useGUILayout_Injected(){} // RVA: 0x125A0C0
+        public void get_didStart_Injected(){} // RVA: 0x125A720
+        public void OnDisable(){} // RVA: 0x125A910
+        public void OnDrawGizmos(){} // RVA: 0x125A940
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x125A910
+        public void InvokeDelayed_Injected(){} // RVA: 0x125AAF0
+    }
+
+    /// <summary>Originally: ÏÏÌÌÍÏÎÌÎÎÎÍÌÍÍÎÏÎÎÍÏÎÏ</summary>
+    public class PlayeruseLastSearchContentTypecontentType_4945 : PointerEnterPointerExitHandler_0E52
+    {
+        public object _contentType;
+        public object _useLastSearchContentType;
+        public object _4945;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9955080
+        public void Awake(){} // RVA: 0x99553F0
+        public void OnDestroy(){} // RVA: 0x9955480
+        // ── Unresolved (hash) ──
+        public void m_6E1(){} // RVA: 0x9955110
+        public void m_394(){} // RVA: 0x9955360
+        public void m_1A7(){} // RVA: 0x9955510
+        public void m_22E(){} // RVA: 0x99555A0
+        public void m_8A2(){} // RVA: 0x9955630
+        public void m_CBC(){} // RVA: 0x99556C0
+    }
+
+    /// <summary>Originally: ÍÍÏÎÎÌÍÏÌÍÎÏÌÌÎÎÍÍÎÏÌÎÍ</summary>
+    public class PlayeruserData_7A5C : UIk__BackingFieldComponent_38C8
+    {
+        public object userData;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9D0EF10
+        public void Start(){} // RVA: 0x9D0EF60
+        // ── Unresolved (hash) ──
+        public void m_676(){} // RVA: 0x9D0EE80
+        public void m_66A(){} // RVA: 0x9D0EFF0
+        public void m_51D(){} // RVA: 0x9D0F080
+        public void m_B67(){} // RVA: 0x9D0F110
+        public void m_735(){} // RVA: 0x9D0F1A0
+        public void m_C63(){} // RVA: 0x9D0F230
+        public void m_E65(){} // RVA: 0x9D0F2C0
+        public void m_145(){} // RVA: 0x9D0F350
+        public void m_999(){} // RVA: 0x9D0F3E0
+    }
+
+    /// <summary>Originally: ÌÎÎÏÍÏÎÎÎÎÏÍÍÌÍÍÌÍÍÏÌÍÎ</summary>
+    public class PlayeruserData_813C : UIviewUserProfileButtonvisibilityButton_D8C9
+    {
+        public object userData;
+        public object _813C;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9E17130
+        public void Initialize(){} // RVA: 0x9E171A0
+        public void Update(){} // RVA: 0x9E17350
+        // ── Unresolved (hash) ──
+        public void m_1A5(){} // RVA: 0x9E17230
+        public void m_582(){} // RVA: 0x9E172C0
+        public void m_0A6(){} // RVA: 0x9E173E0
+        public void m_27D(){} // RVA: 0x9E17470
+        public void m_155(){} // RVA: 0x9E17530
+        public void m_79A(){} // RVA: 0x9E175C0
+        public void m_FD2(){} // RVA: 0x9E17650
+        public void m_828(){} // RVA: 0x9E176E0
+    }
+
+    /// <summary>Originally: ÌÏÌÍÎÏÌÏÏÍÏÍÌÌÌÌÍÎÍÎÎÍÏ</summary>
+    public class PlayeruserEventPrefabComponent_5BBC : MonoBehaviour
+    {
+        public object userEventPrefab;
+        public object f_A40;
+        public object f_364;
+        public object f_B48;
+        public object f_DBD;
+        public object f_483;
+        public object f_AE9;
+        public object f_0AF;
+        public object f_25F;
+        public object f_F76;
+        public object f_547;
+        public object f_E58;
+        public object f_61E;
+        public object f_FCA;
+        public object f_F83;
+        public object f_738;
+        public object f_6F8;
+        public object f_0A0;
+        public object f_3D1;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x15E98D0
+        public void IsInvoking(){} // RVA: 0x15E9C80
+        public void CancelInvoke(){} // RVA: 0x15EA390
+        public void Invoke(){} // RVA: 0x15EAD20
+        public void InvokeRepeating(){} // RVA: 0x15EB100
+        public void Awake(){} // RVA: 0x15EB4A0
+        public void OnDestroy(){} // RVA: 0x15EBAA0
+        public void StopCoroutine(){} // RVA: 0x15EC470
+        public void StopAllCoroutines(){} // RVA: 0x15EC5F0
+        public void get_useGUILayout(){} // RVA: 0x15EC830
+        public void set_useGUILayout(){} // RVA: 0x15ECBD0
+        public void get_didStart(){} // RVA: 0x15ECDD0
+        public void get_didAwake(){} // RVA: 0x15ED170
+    }
+
+    /// <summary>Originally: ÌÏÎÏÏÍÌÏÏÏÏÌÍÎÍÎÍÏÍÌÏÍÎ</summary>
+    public class PlayerviewportContainerheaderContainerComponent_DB2D : MonoBehaviour
+    {
+        public object _headerContainer;
+        public object _viewportContainer;
+        public object _buttonHeight;
+        public object _upgradeAccount;
+        public object _exit;
+        public object _logout;
+        public object _linkDiscord;
+        public object f_0BC;
+        public object f_150;
+        public object f_3FA;
+        public object f_589;
+        public object f_D10;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x98B1570
+        public void Initialize(){} // RVA: 0x98B15C0
+        public void IsInvoking(){} // RVA: 0x98B1920
+        public void CancelInvoke(){} // RVA: 0x98B1C60
+        public void Invoke(){} // RVA: 0xB43310
+        public void InvokeRepeating(){} // RVA: 0x98B1F80
+        public void Awake(){} // RVA: 0xB43310
+        public void OnDestroy(){} // RVA: 0x98B22A0
+        public void StopCoroutine(){} // RVA: 0xB43310
+        public void StopAllCoroutines(){} // RVA: 0x98B25C0
+    }
+
+    /// <summary>Originally: ÏÎÎÍÎÌÎÌÏÎÎÏÌÍÌÏÏÌÍÍÌÍÏ</summary>
+    public class PlayerviewportHudnonVrFpvHudComponent_30CF : MonoBehaviour
+    {
+        public object viewportHud;
+        public object nonVrFpvHud;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x13047B0
+        public void RaiseCancellation(){} // RVA: 0x1304850
+        public void IsInvoking(){} // RVA: 0x13048F0
+        public void OnDestroy(){} // RVA: 0x1304A80
+        public void Invoke(){} // RVA: 0x1304BE0
+        public void InvokeRepeating(){} // RVA: 0x1304D70
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Start(){} // RVA: 0x1304F00
+        public void StopCoroutine(){} // RVA: 0x1304FA0
+        public void StopAllCoroutines(){} // RVA: 0x1305100
+        public void get_useGUILayout(){} // RVA: 0x1305260
+    }
+
+    /// <summary>Originally: ÎÎÌÌÍÌÏÍÌÏÍÎÌÌÎÏÍÏÌÎÏÌÏ</summary>
+    public class PlayervrcInputFieldbuttonComponent_63F8 : MonoBehaviour
+    {
+        public object _label;
+        public object _button;
+        public object _vrcInputField;
+        public object f_8C0;
+        public object f_CF1;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9EF8D30
+        public void Awake(){} // RVA: 0x9EF8DF0
+        public void OnDestroy(){} // RVA: 0x9EF8FD0
+        public void CancelInvoke(){} // RVA: 0x9EF9350
+        public void Invoke(){} // RVA: 0x9EF9B20
+        public void InvokeRepeating(){} // RVA: 0x9EF9C90
+        public void Start(){} // RVA: 0x9EF9DC0
+        public void StartCoroutine_Auto(){} // RVA: 0x9EF9F10
+        public void StopCoroutine(){} // RVA: 0x9EFA080
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9EFA140
+        public void set_useGUILayout(){} // RVA: 0x9EFA330
+        public void get_didStart(){} // RVA: 0x9EFA6B0
+        public void get_didAwake(){} // RVA: 0x9EFA820
+        public void print(){} // RVA: 0x9EFA990
+    }
+
+    /// <summary>Originally: ÎÏÍÏÏÍÌÏÌÏÌÏÎÌÌÍÍÏÌÍÏÌÌ</summary>
+    public class PlayervrcPlusExclusiveItemsCallaccessoriesShop_4631 : UIk__BackingFieldComponent_38C8
+    {
+        public object f_E05;
+        public object f_A0A;
+        public object f_2E3;
+        public object f_579;
+        public object f_827;
+        public object f_067;
+        public object f_5F9;
+        public object f_DB6;
+        public object f_FD8;
+        public object f_99A;
+        public object f_6CE;
+        public object f_3E9;
+        public object _bannerCarousel;
+        public object _storeNewShelfBadge;
+        public object _accessoriesShopCallout;
+        public object _newContentShopCallout;
+        public object _vrcPlusExclusiveItemsCallout;
+        public object f_09C;
+        public object f_B77;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9D3E9A0
+        public void Initialize(){} // RVA: 0x9D3E9F0
+        public void OnEnable(){} // RVA: 0x9D3EF60
+        public void OnDisable(){} // RVA: 0x9D3F050
+        public void .cctor(){} // RVA: 0x9D3F1C0
+        public void Start(){} // RVA: 0x9D3FFD0
+        // ── 11 unresolved (hash) ──
+        public void m_6D1(){} // RVA: 0x9D3DB40
+        public void m_679(){} // RVA: 0x9D3DCB0
+        public void m_25C(){} // RVA: 0x9D3EE40
+        public void m_E2F(){} // RVA: 0x9D3F3A0
+        public void m_5FF(){} // RVA: 0x9D3F7F0
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÎÌÍÍÌÎÏÍÏÍÌÏÎÏÍÌÎÏÌÎÏ</summary>
+    public class PlayervrcPlusLockIconvrcPlusIconComponent_E40F : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_E87;
+        public object f_696;
+        public object _icon;
+        public object _vrcPlusIcon;
+        public object _vrcPlusLockIcon;
+        public object f_900;
+        public object f_539;
+        public object f_90B;
+        public object f_300;
+        public object f_6B6;
+        public object f_4AB;
+        public object f_BE5;
+        public object f_3AE;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9BDDBD0
+        public void RaiseCancellation(){} // RVA: 0x9BDDD10
+        public void IsInvoking(){} // RVA: 0x9BDDD40
+        public void CancelInvoke(){} // RVA: 0x9BDE0F0
+        public void .ctor(){} // RVA: 0x9BDEC00
+        public void Initialize(){} // RVA: 0x9BDF050
+        public void StartCoroutine(){} // RVA: 0x9BDF390
+        public void StartCoroutine_Auto(){} // RVA: 0x9BDF670
+        public void StopCoroutine(){} // RVA: 0x9BDF760
+        public void StopAllCoroutines(){} // RVA: 0xD2E040
+        public void OnDestroy(){} // RVA: 0x9BDF860
+        public void set_useGUILayout(){} // RVA: 0x9BDF900
+        public void get_didStart(){} // RVA: 0x9BDFB80
+        public void get_didAwake(){} // RVA: 0x9BDFC70
+        public void print(){} // RVA: 0x9BDFD50
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9BDFE90
+        public void Start(){} // RVA: 0x9BDFFD0
+        public void InvokeDelayed(){} // RVA: 0x9BE0070
+        public void IsObjectMonoBehaviour(){} // RVA: 0xB43310
+        public void StartCoroutineManaged(){} // RVA: 0x9BDFC70
+        public void StartCoroutineManaged2(){} // RVA: 0x9BE0350
+        public void StopCoroutineManaged(){} // RVA: 0x9BE0370
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x9BE0450
+        public void GetScriptClassName(){} // RVA: 0x9BE0550
+        public void OnCancellationTokenCreated(){} // RVA: 0x9BE0650
+    }
+
+    /// <summary>Originally: ÎÌÎÌÎÏÎÏÍÌÎÌÍÌÎÌÏÍÏÏÎÎÌ</summary>
+    public class PlayervrcPlusLogocanImpl_6748 : PlayervrcPlusLogocanvasGroupComponent_253E
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x18D7500
-        public void set_bindings(){} // RVA: 0x18D7680
-        public void Equals(){} // RVA: 0x18D7680
-        public void GetEnumerator(){} // RVA: 0x18D76E0
-        public void get_bindings(){} // RVA: 0x18D7700
-        public void IsNativeObjectAlive(){} // RVA: 0x18D7720
-        public void set_devices(){} // RVA: 0x18D7780
-        public void FindBinding(){} // RVA: 0x18D7800
-        public void Contains(){} // RVA: 0x18D7860
-        public void Instantiate(){} // RVA: 0x18D7680
-        public void Destroy(){} // RVA: 0x18D7880
-        public void Dispose(){} // RVA: 0x18D7A00
-        public void FindAction(){} // RVA: 0x18D7A90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x18D76E0
-        public void Enable(){} // RVA: 0x18D7AB0
-        public void get_hideFlags(){} // RVA: 0x18D7680
-        public void set_hideFlags(){} // RVA: 0x18D7680
-        public void set_controlSchemes(){} // RVA: 0xB5DBF0
-        public void get_controlSchemes(){} // RVA: 0x18D7AD0
-        public void set_bindingMask(){} // RVA: 0x18D7720
-        public void Disable(){} // RVA: 0x18D7B10
-        public void op_Equality(){} // RVA: 0x18D7B30
-        public void op_Inequality(){} // RVA: 0x18D7CB0
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x18D76E0
-        public void .ctor(){} // RVA: 0x18D7E30
-        public void get_bindingMask(){} // RVA: 0x18D9E60
-        public void get_devices(){} // RVA: 0x18D9EB0
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x18D7700
-        public void Finalize(){} // RVA: 0x18D9F00
+        public void .ctor(){} // RVA: 0xB9C2F0
+        // ── Unresolved (hash) ──
+        public void m_A4B(){} // RVA: 0x146FF60
+    }
+
+    /// <summary>Originally: ÏÍÌÍÌÌÍÍÌÍÍÍÏÌÌÎÌÍÏÌÏÏÍ</summary>
+    public class PlayervrcPlusLogocanvasGroupComponent_253E : MonoBehaviour
+    {
+        public object hideSelf;
+        public object vrcPlusLogo;
+        public object canvasGroup;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x14749F0
+        public void .ctor(){} // RVA: 0xB9C2F0
+        public void Start(){} // RVA: 0x1474C40
+        public void CancelInvoke(){} // RVA: 0x1474CE0
+        public void Invoke(){} // RVA: 0x1474D80
+        public void InvokeRepeating(){} // RVA: 0x1474EC0
+        public void OnDestroy(){} // RVA: 0x1475110
+        public void StartCoroutine_Auto(){} // RVA: 0x1475200
+        public void StopCoroutine(){} // RVA: 0x1475340
+        public void StopAllCoroutines(){} // RVA: 0x1475590
+    }
+
+    /// <summary>Originally: ÏÎÍÍÌÍÎÏÏÎÍÍÏÌÎÍÍÎÌÍÌÏÏ</summary>
+    public class PlayervrcPlusThirdPersonViewCalComponent_928F : MonoBehaviour
+    {
+        public object _vrcPlusThirdPersonViewCallout;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9BC21A0
+        public void RaiseCancellation(){} // RVA: 0x9BC21F0
+        public void IsInvoking(){} // RVA: 0x9BC21F0
+        public void CancelInvoke(){} // RVA: 0x9BC2240
+        public void Awake(){} // RVA: 0x9BC2240
+        public void OnDestroy(){} // RVA: 0x9BC21A0
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÏÏÍÌÍÍÎÎÏÌÌÍÎÍÌÍÎÎÌÌÏÍÏ</summary>
+    public class PlayervrchatPlusIconbuttonComponent_674C : MonoBehaviour
+    {
+        public object button;
+        public object vrchatPlusIcon;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9A654B0
+        public void RaiseCancellation(){} // RVA: 0x9A659D0
+        public void IsInvoking(){} // RVA: 0x9A65A60
+        public void CancelInvoke(){} // RVA: 0x9A65AF0
+        public void Start(){} // RVA: 0x9A65BA0
+        public void InvokeRepeating(){} // RVA: 0x9A65C50
+        public void StartCoroutine(){} // RVA: 0x9A66170
+        public void StartCoroutine_Auto(){} // RVA: 0x9A66220
+        public void Reset(){} // RVA: 0x9A66550
+        public void StopAllCoroutines(){} // RVA: 0x9A665E0
+        public void get_useGUILayout(){} // RVA: 0x9A66910
+        public void set_useGUILayout(){} // RVA: 0x9A66C40
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
 }

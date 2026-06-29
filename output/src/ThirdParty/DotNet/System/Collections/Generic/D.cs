@@ -7,6 +7,81 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x366D890
+        public void .ctor(){} // RVA: 0x366D7D0
+        public void get_Comparer(){} // RVA: 0x3652CA0
+        public void get_Count(){} // RVA: 0x35D9E70
+        public void get_Keys(){} // RVA: 0x35D9E80
+        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
+        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
+        public void get_Values(){} // RVA: 0x35D9F90
+        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
+        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
+        public void get_Item(){} // RVA: 0x366AE90
+        public void set_Item(){} // RVA: 0x366D860
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x366D8C0
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(){} // RVA: 0x366D910
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(){} // RVA: 0x366D9D0
+        public void Clear(){} // RVA: 0x35DA3F0
+        public void ContainsKey(){} // RVA: 0x3658710
+        public void ContainsValue(){} // RVA: 0x366DAB0
+        public void CopyTo(){} // RVA: 0x366B180
+        public void GetEnumerator(){} // RVA: 0x3603560
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x36035F0
+        public void GetObjectData(){} // RVA: 0x366DB80
+        public void FindEntry(){} // RVA: 0x3658CC0
+        public void Initialize(){} // RVA: 0x366DF10
+        public void TryInsert(){} // RVA: 0x366E090
+        public void OnDeserialization(){} // RVA: 0x366E4F0
+        public void Resize(){} // RVA: 0x366EA20
+        public void Remove(){} // RVA: 0x366C330
+        public void TryGetValue(){} // RVA: 0x366C560
+        public void TryAdd(){} // RVA: 0x366EC10
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly(){} // RVA: 0xB43320
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(){} // RVA: 0x366C600
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x366EC40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x36035F0
+        public void EnsureCapacity(){} // RVA: 0x366F030
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x366F120
+        public void System.Collections.IDictionary.get_IsFixedSize(){} // RVA: 0xB43320
+        public void System.Collections.IDictionary.get_IsReadOnly(){} // RVA: 0xB43320
+        public void System.Collections.IDictionary.get_Keys(){} // RVA: 0x35DCE90
+        public void System.Collections.IDictionary.get_Values(){} // RVA: 0x35DCFB0
+        public void System.Collections.IDictionary.get_Item(){} // RVA: 0x366CBA0
+        public void System.Collections.IDictionary.set_Item(){} // RVA: 0x366F1D0
+        public void IsCompatibleKey(){} // RVA: 0x35DD3B0
+        public void System.Collections.IDictionary.Add(){} // RVA: 0x366F370
+        public void System.Collections.IDictionary.Contains(){} // RVA: 0x365AB70
+        public void System.Collections.IDictionary.GetEnumerator(){} // RVA: 0x3605A40
+        public void System.Collections.IDictionary.Remove(){} // RVA: 0x365AC80
+    }
+
+    public class Dictionary`2 : Object
+    {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -60,112 +135,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x373FD30
-        public void .ctor(){} // RVA: 0x373FC70
-        public void get_Comparer(){} // RVA: 0x36DE260
-        public void get_Count(){} // RVA: 0x35D9E70
-        public void get_Keys(){} // RVA: 0x35D9E80
-        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
-        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
-        public void get_Values(){} // RVA: 0x35D9F90
-        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
-        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
-        public void get_Item(){} // RVA: 0x373AEA0
-        public void set_Item(){} // RVA: 0x373FD00
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x373FD60
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(){} // RVA: 0x373FDB0
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(){} // RVA: 0x373FE70
-        public void Clear(){} // RVA: 0x35DA3F0
-        public void ContainsKey(){} // RVA: 0x36DE540
-        public void ContainsValue(){} // RVA: 0x3606CD0
-        public void CopyTo(){} // RVA: 0x373FF50
-        public void GetEnumerator(){} // RVA: 0x3606F40
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x3606FD0
-        public void GetObjectData(){} // RVA: 0x37400F0
-        public void FindEntry(){} // RVA: 0x36DEB50
-        public void Initialize(){} // RVA: 0x3740490
-        public void TryInsert(){} // RVA: 0x3740610
-        public void OnDeserialization(){} // RVA: 0x3740A90
-        public void Resize(){} // RVA: 0x3740FE0
-        public void Remove(){} // RVA: 0x36DFE10
-        public void TryGetValue(){} // RVA: 0x36E0090
-        public void TryAdd(){} // RVA: 0x3741270
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly(){} // RVA: 0xB43320
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(){} // RVA: 0x37412A0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37412C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3606FD0
-        public void EnsureCapacity(){} // RVA: 0x3741650
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x3741740
-        public void System.Collections.IDictionary.get_IsFixedSize(){} // RVA: 0xB43320
-        public void System.Collections.IDictionary.get_IsReadOnly(){} // RVA: 0xB43320
-        public void System.Collections.IDictionary.get_Keys(){} // RVA: 0x3615600
-        public void System.Collections.IDictionary.get_Values(){} // RVA: 0x3608F10
-        public void System.Collections.IDictionary.get_Item(){} // RVA: 0x37417F0
-        public void System.Collections.IDictionary.set_Item(){} // RVA: 0x3741910
-        public void IsCompatibleKey(){} // RVA: 0x35DD3B0
-        public void System.Collections.IDictionary.Add(){} // RVA: 0x3741AC0
-        public void System.Collections.IDictionary.Contains(){} // RVA: 0x36E0BA0
-        public void System.Collections.IDictionary.GetEnumerator(){} // RVA: 0x36094C0
-        public void System.Collections.IDictionary.Remove(){} // RVA: 0x36E0CC0
-    }
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
 
-    public class Dictionary`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x373FC70
-        public void get_Comparer(){} // RVA: 0x36DE260
-        public void get_Count(){} // RVA: 0x35D9E70
-        public void get_Keys(){} // RVA: 0x35D9E80
-        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
-        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
-        public void get_Values(){} // RVA: 0x35D9F90
-        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
-        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
-        public void get_Item(){} // RVA: 0x373AEA0
-        public void set_Item(){} // RVA: 0x373FD00
-        public void Add(){} // RVA: 0x373FD30
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x373FD60
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(){} // RVA: 0x373FDB0
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(){} // RVA: 0x373FE70
-        public void Clear(){} // RVA: 0x35DA3F0
-        public void ContainsKey(){} // RVA: 0x36DE540
-        public void ContainsValue(){} // RVA: 0x3606CD0
-        public void CopyTo(){} // RVA: 0x373FF50
-        public void GetEnumerator(){} // RVA: 0x3606F40
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x3606FD0
-        public void GetObjectData(){} // RVA: 0x37400F0
-        public void FindEntry(){} // RVA: 0x36DEB50
-        public void Initialize(){} // RVA: 0x3740490
-        public void TryInsert(){} // RVA: 0x3740610
-        public void OnDeserialization(){} // RVA: 0x3740A90
-        public void Resize(){} // RVA: 0x3740FE0
-        public void Remove(){} // RVA: 0x36DFE10
-        public void TryGetValue(){} // RVA: 0x36E0090
-        public void TryAdd(){} // RVA: 0x3741270
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly(){} // RVA: 0xB43320
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(){} // RVA: 0x37412A0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37412C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3606FD0
-        public void EnsureCapacity(){} // RVA: 0x3741650
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x3741740
-        public void System.Collections.IDictionary.get_IsFixedSize(){} // RVA: 0xB43320
-        public void System.Collections.IDictionary.get_IsReadOnly(){} // RVA: 0xB43320
-        public void System.Collections.IDictionary.get_Keys(){} // RVA: 0x3615600
-        public void System.Collections.IDictionary.get_Values(){} // RVA: 0x3608F10
-        public void System.Collections.IDictionary.get_Item(){} // RVA: 0x37417F0
-        public void System.Collections.IDictionary.set_Item(){} // RVA: 0x3741910
-        public void IsCompatibleKey(){} // RVA: 0x35DD3B0
-        public void System.Collections.IDictionary.Add(){} // RVA: 0x3741AC0
-        public void System.Collections.IDictionary.Contains(){} // RVA: 0x36E0BA0
-        public void System.Collections.IDictionary.GetEnumerator(){} // RVA: 0x36094C0
-        public void System.Collections.IDictionary.Remove(){} // RVA: 0x36E0CC0
-    }
-
-    public class Dictionary`2 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void get_Comparer(){} // RVA: 0x87C0A0
@@ -219,6 +199,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -272,6 +263,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -325,6 +327,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x36E0090
         public void .ctor(){} // RVA: 0x373FC70
@@ -378,6 +391,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x36E0090
         public void .ctor(){} // RVA: 0x373FC70
@@ -431,6 +455,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void set_Item(){} // RVA: 0x3672F00
@@ -484,6 +519,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x3672F30
         public void TryGetValue(){} // RVA: 0x3674810
@@ -537,6 +583,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3736290
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -590,6 +647,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -643,6 +711,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -696,6 +775,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -749,6 +839,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C9FA0
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -802,6 +903,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C9FA0
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -855,6 +967,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36CD710
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -908,6 +1031,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C9FA0
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -961,6 +1095,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C6590
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -1014,6 +1159,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C9FA0
         public void get_Comparer(){} // RVA: 0x36C6620
@@ -1067,6 +1223,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x35D9E70
         public void ContainsKey(){} // RVA: 0x3670060
@@ -1120,6 +1287,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -1173,6 +1351,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x384E3F0
         public void get_Comparer(){} // RVA: 0x384E480
@@ -1226,6 +1415,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void .ctor(){} // RVA: 0x373FC70
@@ -1279,6 +1479,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x366AE00
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -1332,6 +1543,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x381ED10
         public void get_Comparer(){} // RVA: 0x381BDA0
@@ -1385,6 +1607,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3824E00
         public void get_Comparer(){} // RVA: 0x381BDA0
@@ -1438,6 +1671,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x381ED10
         public void get_Comparer(){} // RVA: 0x381BDA0
@@ -1491,6 +1735,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x381ED10
         public void get_Comparer(){} // RVA: 0x381BDA0
@@ -1544,6 +1799,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x362AEE0
         public void get_Comparer(){} // RVA: 0x3627610
@@ -1597,6 +1863,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3696F00
         public void get_Comparer(){} // RVA: 0x3691360
@@ -1650,6 +1927,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void set_Item(){} // RVA: 0x3691420
         public void Add(){} // RVA: 0x3691450
@@ -1703,6 +1991,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -1756,6 +2055,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -1809,6 +2119,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -1862,6 +2183,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -1915,6 +2247,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -1968,6 +2311,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2021,6 +2375,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x36E0090
         public void Add(){} // RVA: 0x373FD30
@@ -2074,6 +2439,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3738820
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2127,6 +2503,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37BA540
         public void get_Comparer(){} // RVA: 0x37BA5D0
@@ -2180,6 +2567,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37C1C90
         public void get_Comparer(){} // RVA: 0x37BE3A0
@@ -2233,6 +2631,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x37BE310
         public void get_Comparer(){} // RVA: 0x37BE3A0
@@ -2286,6 +2695,81 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void TryGetValue(){} // RVA: 0x36E0090
+        public void .ctor(){} // RVA: 0x373FC70
+        public void get_Comparer(){} // RVA: 0x36DE260
+        public void get_Count(){} // RVA: 0x35D9E70
+        public void get_Keys(){} // RVA: 0x35D9E80
+        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
+        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Keys(){} // RVA: 0x35D9E80
+        public void get_Values(){} // RVA: 0x35D9F90
+        public void System.Collections.Generic.IDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
+        public void System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.get_Values(){} // RVA: 0x35D9F90
+        public void get_Item(){} // RVA: 0x373AEA0
+        public void set_Item(){} // RVA: 0x373FD00
+        public void Add(){} // RVA: 0x373FD30
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(){} // RVA: 0x373FD60
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(){} // RVA: 0x373FDB0
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(){} // RVA: 0x373FE70
+        public void Clear(){} // RVA: 0x35DA3F0
+        public void ContainsKey(){} // RVA: 0x36DE540
+        public void ContainsValue(){} // RVA: 0x3606CD0
+        public void CopyTo(){} // RVA: 0x373FF50
+        public void GetEnumerator(){} // RVA: 0x3606F40
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x3606FD0
+        public void GetObjectData(){} // RVA: 0x37400F0
+        public void FindEntry(){} // RVA: 0x36DEB50
+        public void Initialize(){} // RVA: 0x3740490
+        public void TryInsert(){} // RVA: 0x3740610
+        public void OnDeserialization(){} // RVA: 0x3740A90
+        public void Resize(){} // RVA: 0x3740FE0
+        public void Remove(){} // RVA: 0x36DFE10
+        public void TryAdd(){} // RVA: 0x3741270
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly(){} // RVA: 0xB43320
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(){} // RVA: 0x37412A0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37412C0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3606FD0
+        public void EnsureCapacity(){} // RVA: 0x3741650
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x3741740
+        public void System.Collections.IDictionary.get_IsFixedSize(){} // RVA: 0xB43320
+        public void System.Collections.IDictionary.get_IsReadOnly(){} // RVA: 0xB43320
+        public void System.Collections.IDictionary.get_Keys(){} // RVA: 0x3615600
+        public void System.Collections.IDictionary.get_Values(){} // RVA: 0x3608F10
+        public void System.Collections.IDictionary.get_Item(){} // RVA: 0x37417F0
+        public void System.Collections.IDictionary.set_Item(){} // RVA: 0x3741910
+        public void IsCompatibleKey(){} // RVA: 0x35DD3B0
+        public void System.Collections.IDictionary.Add(){} // RVA: 0x3741AC0
+        public void System.Collections.IDictionary.Contains(){} // RVA: 0x36E0BA0
+        public void System.Collections.IDictionary.GetEnumerator(){} // RVA: 0x36094C0
+        public void System.Collections.IDictionary.Remove(){} // RVA: 0x36E0CC0
+    }
+
+    public class Dictionary`2 : Object
+    {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x367AB00
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -2339,6 +2823,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3780250
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2392,6 +2887,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2445,6 +2951,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2498,6 +3015,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x369CBA0
         public void .ctor(){} // RVA: 0x369CA40
@@ -2551,6 +3079,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x36947C0
         public void .ctor(){} // RVA: 0x3694660
@@ -2604,6 +3143,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3672E70
         public void get_Comparer(){} // RVA: 0x3652CA0
@@ -2657,6 +3207,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x373FC70
         public void get_Comparer(){} // RVA: 0x36DE260
@@ -2710,6 +3271,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -2763,6 +3335,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -2816,6 +3399,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -2869,6 +3463,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -2922,6 +3527,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -2975,6 +3591,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3028,6 +3655,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3081,6 +3719,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3134,6 +3783,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3187,6 +3847,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3240,6 +3911,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3293,6 +3975,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3346,6 +4039,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3399,6 +4103,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3452,6 +4167,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3505,6 +4231,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3558,6 +4295,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3611,6 +4359,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3664,6 +4423,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3717,6 +4487,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3770,6 +4551,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3823,6 +4615,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3876,6 +4679,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3929,6 +4743,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -3982,6 +4807,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4035,6 +4871,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4088,6 +4935,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4141,6 +4999,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4194,6 +5063,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4247,6 +5127,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4300,6 +5191,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4353,6 +5255,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4406,6 +5319,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4459,6 +5383,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4512,6 +5447,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4565,6 +5511,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4618,6 +5575,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4671,6 +5639,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4724,6 +5703,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4777,6 +5767,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4830,6 +5831,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4883,6 +5895,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4936,6 +5959,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -4989,6 +6023,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -5042,6 +6087,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -5095,6 +6151,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -5148,6 +6215,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090
@@ -5201,6 +6279,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Dictionary`2 : Object
     {
+        public object _buckets;
+        public object _entries;
+        public object _count;
+        public object _freeList;
+        public object _freeCount;
+        public object _version;
+        public object _comparer;
+        public object _keys;
+        public object _values;
+        public object _syncRoot;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x373FD30
         public void TryGetValue(){} // RVA: 0x36E0090

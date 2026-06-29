@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class LegacyAnalyticsAdapter : Object
     {
+        public object m_LegacyAnalytics;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void SendTransactionEvent(){} // RVA: 0x7D65860
@@ -15,6 +17,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LegacyAnalyticsWrapper : Object
     {
+        public object m_Enabled;
+        public object m_LegacyAdapter;
+        public object m_EmptyAdapter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D65C40
         public void SendTransactionEvent(){} // RVA: 0x7D65E20
@@ -33,6 +39,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LifecycleNotifier : MonoBehaviour
     {
+        public object OnDestroyCallback;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0xF15890
         public void .ctor(){} // RVA: 0xB43D60
@@ -47,6 +55,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class LocalizedProductDescription : Object
     {
+        public object googleLocale;
+        public object title;
+        public object description;
+
         // ── Methods ──
         public void get_Title(){} // RVA: 0x7D954D0
         public void get_Description(){} // RVA: 0x7D954E0

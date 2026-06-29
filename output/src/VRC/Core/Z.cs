@@ -7,6 +7,11 @@ namespace VRC.Core
 {
     public class ZLoggerHandlerLogger : Object
     {
+        public object _onMessageLogged;
+        public object _unityHandler;
+        public object _profilerMarkerLogFormat;
+        public object _profilerMarkerLogException;
+
         // ── Methods ──
         public void get_UnityHandler(){} // RVA: 0x831F610
         public void EnsureCapturedUnityHandler(){} // RVA: 0x831F670

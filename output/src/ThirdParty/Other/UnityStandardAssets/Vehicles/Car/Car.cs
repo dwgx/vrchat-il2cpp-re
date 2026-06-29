@@ -7,6 +7,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 {
     public class BrakeLight : MonoBehaviour
     {
+        public object car;
+        public object m_Renderer;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB61B20
         public void Update(){} // RVA: 0xB61BB0
@@ -15,6 +18,29 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarAIControl : MonoBehaviour
     {
+        public object m_CautiousSpeedFactor;
+        public object m_CautiousMaxAngle;
+        public object m_CautiousMaxDistance;
+        public object m_CautiousAngularVelocityFactor;
+        public object m_SteerSensitivity;
+        public object m_AccelSensitivity;
+        public object m_BrakeSensitivity;
+        public object m_LateralWanderDistance;
+        public object m_LateralWanderSpeed;
+        public object m_AccelWanderAmount;
+        public object m_AccelWanderSpeed;
+        public object m_BrakeCondition;
+        public object m_Driving;
+        public object m_Target;
+        public object m_StopWhenTargetReached;
+        public object m_ReachTargetThreshold;
+        public object m_RandomPerlin;
+        public object m_CarController;
+        public object m_AvoidOtherCarTime;
+        public object m_AvoidOtherCarSlowdown;
+        public object m_AvoidPathOffset;
+        public object m_Rigidbody;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB61BF0
         public void FixedUpdate(){} // RVA: 0xB61D60
@@ -25,6 +51,25 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarAudio : MonoBehaviour
     {
+        public object engineSoundStyle;
+        public object lowAccelClip;
+        public object lowDecelClip;
+        public object highAccelClip;
+        public object highDecelClip;
+        public object pitchMultiplier;
+        public object lowPitchMin;
+        public object lowPitchMax;
+        public object highPitchMultiplier;
+        public object maxRolloffDistance;
+        public object dopplerLevel;
+        public object useDoppler;
+        public object m_LowAccel;
+        public object m_LowDecel;
+        public object m_HighAccel;
+        public object m_HighDecel;
+        public object m_StartedSound;
+        public object m_CarController;
+
         // ── Methods ──
         public void StartSound(){} // RVA: 0xB62D30
         public void StopSound(){} // RVA: 0xB62F70
@@ -36,6 +81,39 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarController : MonoBehaviour
     {
+        public object m_CarDriveType;
+        public object m_WheelColliders;
+        public object m_WheelMeshes;
+        public object m_WheelEffects;
+        public object m_CentreOfMassOffset;
+        public object m_MaximumSteerAngle;
+        public object m_SteerHelper;
+        public object m_TractionControl;
+        public object m_FullTorqueOverAllWheels;
+        public object m_ReverseTorque;
+        public object m_MaxHandbrakeTorque;
+        public object m_Downforce;
+        public object m_SpeedType;
+        public object m_Topspeed;
+        public object NoOfGears;
+        public object m_RevRangeBoundary;
+        public object m_SlipLimit;
+        public object m_BrakeTorque;
+        public object m_WheelMeshLocalRotations;
+        public object m_Prevpos;
+        public object m_Pos;
+        public object m_SteerAngle;
+        public object m_GearNum;
+        public object m_GearFactor;
+        public object m_OldRotation;
+        public object m_CurrentTorque;
+        public object m_Rigidbody;
+        public object k_ReversingThreshold;
+        public object _skidding;
+        public object _brakeInput;
+        public object _revs;
+        public object _accelInput;
+
         // ── Methods ──
         public void get_Skidding(){} // RVA: 0xB63970
         public void set_Skidding(){} // RVA: 0xB63980
@@ -69,6 +147,11 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarSelfRighting : MonoBehaviour
     {
+        public object m_WaitTime;
+        public object m_VelocityThreshold;
+        public object m_LastOkTime;
+        public object m_Rigidbody;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB67B50
         public void Update(){} // RVA: 0xB67BE0
@@ -78,6 +161,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class CarUserControl : MonoBehaviour
     {
+        public object m_Car;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB68140
         public void FixedUpdate(){} // RVA: 0xB681D0
@@ -86,6 +171,9 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class Mudguard : MonoBehaviour
     {
+        public object carController;
+        public object m_OriginalRotation;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB68380
         public void Update(){} // RVA: 0xB68450
@@ -94,6 +182,8 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class SkidTrail : MonoBehaviour
     {
+        public object m_PersistTime;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB686F0
         public void .ctor(){} // RVA: 0xB43D60
@@ -101,6 +191,10 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class Suspension : MonoBehaviour
     {
+        public object wheel;
+        public object m_TargetOriginalPosition;
+        public object m_Origin;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB689B0
         public void Update(){} // RVA: 0xB68B50
@@ -109,6 +203,16 @@ namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Car
 
     public class WheelEffects : MonoBehaviour
     {
+        public object SkidTrailPrefab;
+        public object skidTrailsDetachedParent;
+        public object skidParticles;
+        public object _skidding;
+        public object _playingAudio;
+        public object m_AudioSource;
+        public object m_SkidTrail;
+        public object m_WheelCollider;
+        public object Instantiate;
+
         // ── Methods ──
         public void get_skidding(){} // RVA: 0xB68DF0
         public void set_skidding(){} // RVA: 0xB68E00

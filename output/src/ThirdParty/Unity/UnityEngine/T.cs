@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class TagHandle : ValueType
     {
+        public object _tagIndex;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x9662C0
         public void TagToString(){} // RVA: 0x7C07920
@@ -250,6 +252,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainCallbacks : Object
     {
+        public object heightmapChanged;
+        public object textureChanged;
+
         // ── Methods ──
         public void InvokeHeightmapChangedCallback(){} // RVA: 0x7DB59F0
         public void InvokeTextureChangedCallback(){} // RVA: 0x7DB5AF0
@@ -289,6 +294,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TerrainData : Object
     {
+        public object k_ScriptingInterfaceName;
+        public object k_ScriptingInterfacePrefix;
+        public object k_HeightmapPrefix;
+        public object k_DetailDatabasePrefix;
+        public object k_TreeDatabasePrefix;
+        public object k_SplatDatabasePrefix;
+        public object k_MaximumResolution;
+        public object k_MinimumDetailResolutionPerPatch;
+        public object k_MaximumDetailResolutionPerPatch;
+        public object k_MaximumDetailPatchCount;
+        public object k_MinimumAlphamapResolution;
+        public object k_MaximumAlphamapResolution;
+        public object k_MinimumBaseMapResolution;
+        public object k_MaximumBaseMapResolution;
+
         // ── Methods ──
         public void GetBoundaryValue(){} // RVA: 0x7DB6640
         public void .ctor(){} // RVA: 0x7DB6690
@@ -369,6 +389,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextAreaAttribute : PropertyAttribute
     {
+        public object minLines;
+        public object maxLines;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF23B0
     }
@@ -391,6 +414,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditingUtilities : Object
     {
+        public object m_TextSelectingUtility;
+        public object textHandle;
+        public object m_CursorIndexSavedState;
+        public object isCompositionActive;
+        public object m_UpdateImeWindowPosition;
+        public object OnTextChanged;
+        public object multiline;
+        public object m_Text;
+        public object s_KeyEditOps;
+        public object m_HighSurrogate;
+
         // ── Methods ──
         public void get_hasSelection(){} // RVA: 0x7C93C50
         public void set_revealCursor(){} // RVA: 0x7C93C70
@@ -435,6 +469,26 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextEditor : Object
     {
+        public object m_Content;
+        public object m_TextSelecting;
+        public object m_TextEditing;
+        public object m_TextHandle;
+        public object keyboardOnScreen;
+        public object controlID;
+        public object style;
+        public object hasHorizontalCursorPos;
+        public object isPasswordField;
+        public object scrollOffset;
+        public object focus;
+        public object m_TextWithWhitespace;
+        public object _position;
+        public object graphicalCursorPos;
+        public object lastCursorPos;
+        public object previousContentSize;
+        public object oldText;
+        public object oldPos;
+        public object oldSelectPos;
+
         // ── Methods ──
         public void set_isMultiline(){} // RVA: 0x7C96970
         public void get_showCursor(){} // RVA: 0x7C96990
@@ -499,6 +553,25 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerationSettings : ValueType
     {
+        public object font;
+        public object color;
+        public object fontSize;
+        public object lineSpacing;
+        public object richText;
+        public object scaleFactor;
+        public object fontStyle;
+        public object textAnchor;
+        public object alignByGeometry;
+        public object resizeTextForBestFit;
+        public object resizeTextMinSize;
+        public object resizeTextMaxSize;
+        public object updateBounds;
+        public object verticalOverflow;
+        public object horizontalOverflow;
+        public object generationExtents;
+        public object pivot;
+        public object generateOutOfBounds;
+
         // ── Methods ──
         public void CompareColors(){} // RVA: 0x98F0D0
         public void CompareVector2(){} // RVA: 0x98F160
@@ -507,6 +580,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextGenerator : Object
     {
+        public object m_Ptr;
+        public object m_LastString;
+        public object m_LastSettings;
+        public object m_HasGenerated;
+        public object m_LastValid;
+        public object m_Verts;
+        public object m_Characters;
+        public object m_Lines;
+        public object m_CachedVerts;
+        public object m_CachedCharacters;
+        public object m_CachedLines;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7E1DC40
         public void Finalize(){} // RVA: 0x7E1DF30
@@ -620,6 +705,24 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TextSelectingUtilities : Object
     {
+        public object dblClickSnap;
+        public object iAltCursorPos;
+        public object hasHorizontalCursorPos;
+        public object m_bJustSelected;
+        public object m_MouseDragSelectsWholeWords;
+        public object m_DblClickInitPosStart;
+        public object m_DblClickInitPosEnd;
+        public object textHandle;
+        public object kMoveDownHeight;
+        public object kNewLineChar;
+        public object m_RevealCursor;
+        public object m_CursorIndex;
+        public object m_SelectIndex;
+        public object s_KeySelectOps;
+        public object OnCursorIndexChange;
+        public object OnSelectIndexChange;
+        public object OnRevealCursorChange;
+
         // ── Methods ──
         public void get_hasSelection(){} // RVA: 0x7C98A90
         public void get_revealCursor(){} // RVA: 0xB68DF0
@@ -701,6 +804,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture : Object
     {
+        public object GenerateAllMips;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BC4A30
         public void get_mipmapCount(){} // RVA: 0x7BC4A80
@@ -776,6 +881,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Texture2D : Texture
     {
+        public object streamingMipmapsPriorityMin;
+        public object streamingMipmapsPriorityMax;
+
         // ── Methods ──
         public void get_format(){} // RVA: 0x7BC7150
         public void IgnoreMipmapLimit(){} // RVA: 0x7BC71F0
@@ -1087,12 +1195,29 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TooltipAttribute : PropertyAttribute
     {
+        public object tooltip;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x18F33E0
     }
 
     public class Touch : ValueType
     {
+        public object m_FingerId;
+        public object m_Position;
+        public object m_RawPosition;
+        public object m_PositionDelta;
+        public object m_TimeDelta;
+        public object m_TapCount;
+        public object m_Phase;
+        public object m_Type;
+        public object m_Pressure;
+        public object m_maximumPossiblePressure;
+        public object m_Radius;
+        public object m_RadiusVariance;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+
         // ── Methods ──
         public void get_fingerId(){} // RVA: 0x454FE0
         public void get_position(){} // RVA: 0x971F40
@@ -1115,6 +1240,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TouchScreenKeyboard : Object
     {
+        public object m_Ptr;
+        public object _disableInPlaceEditing;
+
         // ── Methods ──
         public void Internal_Destroy(){} // RVA: 0x7C12430
         public void Destroy(){} // RVA: 0x7C12480
@@ -1153,6 +1281,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TrackedReference : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void op_Equality(){} // RVA: 0x7C08910
@@ -1481,6 +1611,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TransformDispatchData : ValueType
     {
+        public object transformedID;
+        public object parentID;
+        public object localToWorldMatrices;
+        public object positions;
+        public object rotations;
+        public object scales;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x965730
     }
@@ -1543,6 +1680,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TreePrototype : Object
     {
+        public object m_Prefab;
+        public object m_BendFactor;
+        public object m_NavMeshLod;
+
         // ── Methods ──
         public void get_prefab(){} // RVA: 0x3E42230
         public void get_bendFactor(){} // RVA: 0x7AE80D0
@@ -1574,6 +1715,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class TypeDispatchData : ValueType
     {
+        public object changed;
+        public object changedID;
+        public object destroyedID;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x965680
     }

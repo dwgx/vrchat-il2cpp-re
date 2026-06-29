@@ -7,6 +7,32 @@ namespace VRC.Impostors
 {
     public class Impostor : MonoBehaviour
     {
+        public object imposterMeshes;
+        public object meshFilter;
+        public object material;
+        public object meshRenderer;
+        public object initialRotation;
+        public object childTransform;
+        public object projectedChildPoint;
+        public object impostorAvatar;
+        public object Data;
+        public object f_736;
+        public object f_BC0;
+        public object f_68F;
+        public object f_131;
+        public object f_CC1;
+        public object f_6C6;
+        public object f_4DD;
+        public object f_537;
+        public object f_3FC;
+        public object f_127;
+        public object f_B3B;
+        public object f_961;
+        public object f_679;
+        public object f_50B;
+        public object f_AFA;
+        public object f_1D9;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1717A80
         public void RaiseCancellation(){} // RVA: 0x1717E10
@@ -37,6 +63,14 @@ namespace VRC.Impostors
 
     public class ImpostorAvatar : MonoBehaviour
     {
+        public object animator;
+        public object f_E03;
+        public object f_47D;
+        public object f_FDA;
+        public object f_3AB;
+        public object f_B8F;
+        public object f_8EE;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x171D460
         public void RaiseCancellation(){} // RVA: 0x171D6C0

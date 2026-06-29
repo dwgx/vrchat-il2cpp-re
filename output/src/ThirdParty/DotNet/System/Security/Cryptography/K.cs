@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class KeySizes : Object
     {
+        public object m_minSize;
+        public object m_maxSize;
+        public object m_skipSize;
+
         // ── Methods ──
         public void get_MinSize(){} // RVA: 0xB8F8F0
         public void get_MaxSize(){} // RVA: 0x116A650
@@ -38,6 +42,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class KeyedHashAlgorithm : HashAlgorithm
     {
+        public object KeyValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Dispose(){} // RVA: 0x66F8110

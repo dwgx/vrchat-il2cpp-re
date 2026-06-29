@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 {
     public class Bone : ValueType
     {
+        public object m_ParentBoneIndex;
+        public object m_Position;
+        public object m_Rotation;
+
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0x77E60
         public void set_parentBoneIndex(){} // RVA: 0x29580
@@ -18,6 +22,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class BoneControl : InputControl`1
     {
+        public object _parentBoneIndex;
+        public object _position;
+        public object _rotation;
+
         // ── Methods ──
         public void get_parentBoneIndex(){} // RVA: 0xBAE8F0
         public void set_parentBoneIndex(){} // RVA: 0xBAE900
@@ -33,6 +41,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class Eyes : ValueType
     {
+        public object m_LeftEyePosition;
+        public object m_LeftEyeRotation;
+        public object m_RightEyePosition;
+        public object m_RightEyeRotation;
+        public object m_FixationPoint;
+        public object m_LeftEyeOpenAmount;
+        public object m_RightEyeOpenAmount;
+
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x45A5B0
         public void set_leftEyePosition(){} // RVA: 0x45A580
@@ -52,6 +68,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class EyesControl : InputControl`1
     {
+        public object _leftEyePosition;
+        public object _leftEyeRotation;
+        public object _rightEyePosition;
+        public object _rightEyeRotation;
+        public object _fixationPoint;
+        public object _leftEyeOpenAmount;
+        public object _rightEyeOpenAmount;
+
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x135C160
         public void set_leftEyePosition(){} // RVA: 0x16614A0
@@ -75,6 +99,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseControl : InputControl`1
     {
+        public object _isTracked;
+        public object _trackingState;
+        public object _position;
+        public object _rotation;
+        public object _velocity;
+        public object _angularVelocity;
+
         // ── Methods ──
         public void get_isTracked(){} // RVA: 0x10F9390
         public void set_isTracked(){} // RVA: 0x165AF80
@@ -97,6 +128,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class PoseState : ValueType
     {
+        public object kSizeInBytes;
+        public object s_Format;
+        public object isTracked;
+        public object trackingState;
+        public object position;
+        public object rotation;
+        public object velocity;
+        public object angularVelocity;
+
         // ── Methods ──
         public void get_format(){} // RVA: 0x935520
         public void .ctor(){} // RVA: 0x935580
@@ -105,6 +145,22 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class TrackedPoseDriver : MonoBehaviour
     {
+        public object m_TrackingType;
+        public object m_UpdateType;
+        public object m_IgnoreTrackingState;
+        public object m_PositionInput;
+        public object m_RotationInput;
+        public object m_TrackingStateInput;
+        public object m_CurrentPosition;
+        public object m_CurrentRotation;
+        public object m_CurrentTrackingState;
+        public object m_RotationBound;
+        public object m_PositionBound;
+        public object m_TrackingStateBound;
+        public object m_IsFirstUpdate;
+        public object m_PositionAction;
+        public object m_RotationAction;
+
         // ── Methods ──
         public void get_trackingType(){} // RVA: 0xFEAE90
         public void set_trackingType(){} // RVA: 0x1269760
@@ -173,6 +229,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRDeviceDescriptor : Object
     {
+        public object deviceName;
+        public object manufacturer;
+        public object serialNumber;
+        public object characteristics;
+        public object deviceId;
+        public object inputFeatures;
+
         // ── Methods ──
         public void ToJson(){} // RVA: 0x78EC3F0
         public void FromJson(){} // RVA: 0x78EC400
@@ -181,6 +244,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRHMD : TrackedDevice
     {
+        public object _leftEyePosition;
+        public object _leftEyeRotation;
+        public object _rightEyePosition;
+        public object _rightEyeRotation;
+        public object _centerEyePosition;
+        public object _centerEyeRotation;
+
         // ── Methods ──
         public void get_leftEyePosition(){} // RVA: 0x165E8F0
         public void set_leftEyePosition(){} // RVA: 0x165C4D0
@@ -200,6 +270,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR
 
     public class XRLayoutBuilder : Object
     {
+        public object parentLayout;
+        public object interfaceName;
+        public object descriptor;
+        public object poseSubControlNames;
+        public object poseSubControlTypes;
+
         // ── Methods ──
         public void GetSizeOfFeature(){} // RVA: 0x78EA410
         public void SanitizeString(){} // RVA: 0x78EA4D0

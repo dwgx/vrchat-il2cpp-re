@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class Object : Object
     {
+        public object kInstanceID_None;
+        public object m_CachedPtr;
+        public object OffsetOfInstanceIDInCPlusPlusObject;
+        public object objectIsNullMessage;
+        public object cloneDestroyedMessage;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x7C08E20
         public void GetHashCode(){} // RVA: 0x7C08E90
@@ -63,6 +69,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ObjectDispatcher : Object
     {
+        public object m_Ptr;
+        public object s_TypeDispatch;
+        public object s_TransformDispatch;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7BEFA80
     }
@@ -89,6 +99,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class ObjectGUIState : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C91570
         public void Dispose(){} // RVA: 0x7C915C0

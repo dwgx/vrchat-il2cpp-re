@@ -7,2383 +7,3030 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class XmlAsyncCheckReader : XmlReader
     {
+        public object coreReader;
+        public object lastTask;
+
         // ── Methods ──
-        public void get_CoreReader(){} // RVA: 0x7A80F2570
-        public void CreateAsyncCheckWrapper(){} // RVA: 0x7AE805E60
-        public void .ctor(){} // RVA: 0x7AE806200
-        public void CheckAsync(){} // RVA: 0x7AE806340
-        public void get_Settings(){} // RVA: 0x7AE806410
-        public void get_NodeType(){} // RVA: 0x7AE8064E0
-        public void get_Name(){} // RVA: 0x7AE806520
-        public void get_LocalName(){} // RVA: 0x7AE806560
-        public void get_NamespaceURI(){} // RVA: 0x7AE8065A0
-        public void get_Prefix(){} // RVA: 0x7AE8065E0
-        public void get_Value(){} // RVA: 0x7AE806620
-        public void get_Depth(){} // RVA: 0x7AE806660
-        public void get_BaseURI(){} // RVA: 0x7AE8066A0
-        public void get_IsEmptyElement(){} // RVA: 0x7AE8066E0
-        public void get_IsDefault(){} // RVA: 0x7AE806720
-        public void get_QuoteChar(){} // RVA: 0x7AE806760
-        public void get_XmlSpace(){} // RVA: 0x7AE8067A0
-        public void get_XmlLang(){} // RVA: 0x7AE8067E0
-        public void get_SchemaInfo(){} // RVA: 0x7AE806820
-        public void get_ValueType(){} // RVA: 0x7AE806860
-        public void get_AttributeCount(){} // RVA: 0x7AE8068A0
-        public void GetAttribute(){} // RVA: 0x7AE806990
-        public void MoveToAttribute(){} // RVA: 0x7AE806A30
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE806A80
-        public void MoveToNextAttribute(){} // RVA: 0x7AE806AC0
-        public void MoveToElement(){} // RVA: 0x7AE806B00
-        public void ReadAttributeValue(){} // RVA: 0x7AE806B40
-        public void Read(){} // RVA: 0x7AE806B80
-        public void get_EOF(){} // RVA: 0x7AE806BC0
-        public void Close(){} // RVA: 0x7AE806C00
-        public void get_ReadState(){} // RVA: 0x7AE806C40
-        public void Skip(){} // RVA: 0x7AE806C80
-        public void get_NameTable(){} // RVA: 0x7AE806CC0
-        public void LookupNamespace(){} // RVA: 0x7AE806D00
-        public void get_CanResolveEntity(){} // RVA: 0x7AE806D50
-        public void ResolveEntity(){} // RVA: 0x7AE806D90
-        public void get_CanReadValueChunk(){} // RVA: 0x7AE806DD0
-        public void ReadValueChunk(){} // RVA: 0x7AE806E10
-        public void ReadString(){} // RVA: 0x7AE806E80
-        public void MoveToContent(){} // RVA: 0x7AE806EC0
-        public void ReadStartElement(){} // RVA: 0x7AE806F00
-        public void ReadElementString(){} // RVA: 0x7AE806F40
-        public void ReadEndElement(){} // RVA: 0x7AE806F80
-        public void IsStartElement(){} // RVA: 0x7AE806FC0
-        public void ReadInnerXml(){} // RVA: 0x7AE807020
-        public void get_HasAttributes(){} // RVA: 0x7AE807060
-        public void Dispose(){} // RVA: 0x7AE8070A0
-        public void get_NamespaceManager(){} // RVA: 0x7AE8070E0
-        public void get_DtdInfo(){} // RVA: 0x7AE807120
+        public void get_CoreReader(){} // RVA: 0xB5DBF0
+        public void CreateAsyncCheckWrapper(){} // RVA: 0x747B510
+        public void .ctor(){} // RVA: 0x747B8B0
+        public void CheckAsync(){} // RVA: 0x747B9F0
+        public void get_Settings(){} // RVA: 0x747BAC0
+        public void get_NodeType(){} // RVA: 0x747BB90
+        public void get_Name(){} // RVA: 0x747BBD0
+        public void get_LocalName(){} // RVA: 0x747BC10
+        public void get_NamespaceURI(){} // RVA: 0x747BC50
+        public void get_Prefix(){} // RVA: 0x747BC90
+        public void get_Value(){} // RVA: 0x747BCD0
+        public void get_Depth(){} // RVA: 0x747BD10
+        public void get_BaseURI(){} // RVA: 0x747BD50
+        public void get_IsEmptyElement(){} // RVA: 0x747BD90
+        public void get_IsDefault(){} // RVA: 0x747BDD0
+        public void get_QuoteChar(){} // RVA: 0x747BE10
+        public void get_XmlSpace(){} // RVA: 0x747BE50
+        public void get_XmlLang(){} // RVA: 0x747BE90
+        public void get_SchemaInfo(){} // RVA: 0x747BED0
+        public void get_ValueType(){} // RVA: 0x747BF10
+        public void get_AttributeCount(){} // RVA: 0x747BF50
+        public void GetAttribute(){} // RVA: 0x747C040
+        public void MoveToAttribute(){} // RVA: 0x747C0E0
+        public void MoveToFirstAttribute(){} // RVA: 0x747C130
+        public void MoveToNextAttribute(){} // RVA: 0x747C170
+        public void MoveToElement(){} // RVA: 0x747C1B0
+        public void ReadAttributeValue(){} // RVA: 0x747C1F0
+        public void Read(){} // RVA: 0x747C230
+        public void get_EOF(){} // RVA: 0x747C270
+        public void Close(){} // RVA: 0x747C2B0
+        public void get_ReadState(){} // RVA: 0x747C2F0
+        public void Skip(){} // RVA: 0x747C330
+        public void get_NameTable(){} // RVA: 0x747C370
+        public void LookupNamespace(){} // RVA: 0x747C3B0
+        public void get_CanResolveEntity(){} // RVA: 0x747C400
+        public void ResolveEntity(){} // RVA: 0x747C440
+        public void get_CanReadValueChunk(){} // RVA: 0x747C480
+        public void ReadValueChunk(){} // RVA: 0x747C4C0
+        public void ReadString(){} // RVA: 0x747C530
+        public void MoveToContent(){} // RVA: 0x747C570
+        public void ReadStartElement(){} // RVA: 0x747C5B0
+        public void ReadElementString(){} // RVA: 0x747C5F0
+        public void ReadEndElement(){} // RVA: 0x747C630
+        public void IsStartElement(){} // RVA: 0x747C670
+        public void ReadInnerXml(){} // RVA: 0x747C6D0
+        public void get_HasAttributes(){} // RVA: 0x747C710
+        public void Dispose(){} // RVA: 0x747C750
+        public void get_NamespaceManager(){} // RVA: 0x747C790
+        public void get_DtdInfo(){} // RVA: 0x747C7D0
     }
 
     public class XmlAsyncCheckReaderWithLineInfo : XmlAsyncCheckReader
     {
+        public object readerAsIXmlLineInfo;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE807380
-        public void HasLineInfo(){} // RVA: 0x7AE807480
-        public void get_LineNumber(){} // RVA: 0x7AE8074D0
-        public void get_LinePosition(){} // RVA: 0x7AE807520
+        public void .ctor(){} // RVA: 0x747CA30
+        public void HasLineInfo(){} // RVA: 0x747CB30
+        public void get_LineNumber(){} // RVA: 0x747CB80
+        public void get_LinePosition(){} // RVA: 0x747CBD0
     }
 
     public class XmlAsyncCheckReaderWithLineInfoNS : XmlAsyncCheckReaderWithLineInfo
     {
+        public object readerAsIXmlNamespaceResolver;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE807570
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE807670
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE8076D0
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE807730
+        public void .ctor(){} // RVA: 0x747CC20
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x747CD20
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x747CD80
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x747CDE0
     }
 
     public class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWithLineInfoNS
     {
+        public object readerAsIXmlSchemaInfo;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE807790
-        public void System.Xml.Schema.IXmlSchemaInfo.get_Validity(){} // RVA: 0x7AE807890
-        public void System.Xml.Schema.IXmlSchemaInfo.get_IsDefault(){} // RVA: 0x7AE8078E0
-        public void System.Xml.Schema.IXmlSchemaInfo.get_IsNil(){} // RVA: 0x7AE807930
-        public void System.Xml.Schema.IXmlSchemaInfo.get_MemberType(){} // RVA: 0x7AE807980
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaType(){} // RVA: 0x7AE8079D0
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement(){} // RVA: 0x7AE807A20
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute(){} // RVA: 0x7AE807A70
+        public void .ctor(){} // RVA: 0x747CE40
+        public void System.Xml.Schema.IXmlSchemaInfo.get_Validity(){} // RVA: 0x747CF40
+        public void System.Xml.Schema.IXmlSchemaInfo.get_IsDefault(){} // RVA: 0x747CF90
+        public void System.Xml.Schema.IXmlSchemaInfo.get_IsNil(){} // RVA: 0x747CFE0
+        public void System.Xml.Schema.IXmlSchemaInfo.get_MemberType(){} // RVA: 0x747D030
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaType(){} // RVA: 0x747D080
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement(){} // RVA: 0x747D0D0
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute(){} // RVA: 0x747D120
     }
 
     public class XmlAsyncCheckReaderWithNS : XmlAsyncCheckReader
     {
+        public object readerAsIXmlNamespaceResolver;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE807160
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE807260
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE8072C0
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE807320
+        public void .ctor(){} // RVA: 0x747C810
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x747C910
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x747C970
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x747C9D0
     }
 
     public class XmlAsyncCheckWriter : XmlWriter
     {
+        public object coreWriter;
+        public object lastTask;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE807AC0
-        public void CheckAsync(){} // RVA: 0x7AE807BE0
-        public void WriteStartDocument(){} // RVA: 0x7AE807CF0
-        public void WriteEndDocument(){} // RVA: 0x7AE807D40
-        public void WriteDocType(){} // RVA: 0x7AE807D80
-        public void WriteStartElement(){} // RVA: 0x7AE807DF0
-        public void WriteEndElement(){} // RVA: 0x7AE807E60
-        public void WriteFullEndElement(){} // RVA: 0x7AE807EA0
-        public void WriteStartAttribute(){} // RVA: 0x7AE807EE0
-        public void WriteEndAttribute(){} // RVA: 0x7AE807F50
-        public void WriteCData(){} // RVA: 0x7AE807F90
-        public void WriteComment(){} // RVA: 0x7AE807FE0
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE808030
-        public void WriteEntityRef(){} // RVA: 0x7AE808090
-        public void WriteCharEntity(){} // RVA: 0x7AE8080E0
-        public void WriteWhitespace(){} // RVA: 0x7AE808130
-        public void WriteString(){} // RVA: 0x7AE808180
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE8081D0
-        public void WriteChars(){} // RVA: 0x7AE808230
-        public void WriteRaw(){} // RVA: 0x7AE808310
-        public void WriteBase64(){} // RVA: 0x7AE808360
-        public void WriteBinHex(){} // RVA: 0x7AE8083D0
-        public void get_WriteState(){} // RVA: 0x7AE808440
-        public void Close(){} // RVA: 0x7AE808480
-        public void Flush(){} // RVA: 0x7AE8084C0
-        public void LookupPrefix(){} // RVA: 0x7AE808500
-        public void WriteValue(){} // RVA: 0x7AE808550
-        public void WriteAttributes(){} // RVA: 0x7AE8085A0
-        public void WriteNode(){} // RVA: 0x7AE808600
-        public void Dispose(){} // RVA: 0x7AE808660
+        public void .ctor(){} // RVA: 0x747D170
+        public void CheckAsync(){} // RVA: 0x747D290
+        public void WriteStartDocument(){} // RVA: 0x747D3A0
+        public void WriteEndDocument(){} // RVA: 0x747D3F0
+        public void WriteDocType(){} // RVA: 0x747D430
+        public void WriteStartElement(){} // RVA: 0x747D4A0
+        public void WriteEndElement(){} // RVA: 0x747D510
+        public void WriteFullEndElement(){} // RVA: 0x747D550
+        public void WriteStartAttribute(){} // RVA: 0x747D590
+        public void WriteEndAttribute(){} // RVA: 0x747D600
+        public void WriteCData(){} // RVA: 0x747D640
+        public void WriteComment(){} // RVA: 0x747D690
+        public void WriteProcessingInstruction(){} // RVA: 0x747D6E0
+        public void WriteEntityRef(){} // RVA: 0x747D740
+        public void WriteCharEntity(){} // RVA: 0x747D790
+        public void WriteWhitespace(){} // RVA: 0x747D7E0
+        public void WriteString(){} // RVA: 0x747D830
+        public void WriteSurrogateCharEntity(){} // RVA: 0x747D880
+        public void WriteChars(){} // RVA: 0x747D8E0
+        public void WriteRaw(){} // RVA: 0x747D9C0
+        public void WriteBase64(){} // RVA: 0x747DA10
+        public void WriteBinHex(){} // RVA: 0x747DA80
+        public void get_WriteState(){} // RVA: 0x747DAF0
+        public void Close(){} // RVA: 0x747DB30
+        public void Flush(){} // RVA: 0x747DB70
+        public void LookupPrefix(){} // RVA: 0x747DBB0
+        public void WriteValue(){} // RVA: 0x747DC00
+        public void WriteAttributes(){} // RVA: 0x747DC50
+        public void WriteNode(){} // RVA: 0x747DCB0
+        public void Dispose(){} // RVA: 0x747DD10
     }
 
     public class XmlAttribute : XmlNode
     {
+        public object name;
+        public object lastChild;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83C930
-        public void get_LocalNameHash(){} // RVA: 0x7AE83C910
-        public void get_XmlName(){} // RVA: 0x7A80DA7B0
-        public void set_XmlName(){} // RVA: 0x7A813E420
-        public void CloneNode(){} // RVA: 0x7AE83C980
-        public void get_ParentNode(){} // RVA: 0x7A82D1450
-        public void get_Name(){} // RVA: 0x7AE83CA70
-        public void get_LocalName(){} // RVA: 0x7ADE59500
-        public void get_NamespaceURI(){} // RVA: 0x7A9A9B340
-        public void get_Prefix(){} // RVA: 0x7A8D68680
-        public void set_Prefix(){} // RVA: 0x7AE83CA90
-        public void get_NodeType(){} // RVA: 0x7A81DDCC0
-        public void get_OwnerDocument(){} // RVA: 0x7ADE59620
-        public void get_Value(){} // RVA: 0x7AE83CBA0
-        public void set_Value(){} // RVA: 0x7AE83CBC0
-        public void get_SchemaInfo(){} // RVA: 0x7A80DA7B0
-        public void set_InnerText(){} // RVA: 0x7AE83CBE0
-        public void PrepareOwnerElementInElementIdAttrMap(){} // RVA: 0x7AE83CC50
-        public void ResetOwnerElementInElementIdAttrMap(){} // RVA: 0x7AE83CE40
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void AppendChildForLoad(){} // RVA: 0x7AE83CF80
-        public void get_LastNode(){} // RVA: 0x7A81052C0
-        public void set_LastNode(){} // RVA: 0x7A81052D0
-        public void IsValidChildType(){} // RVA: 0x7AE83D340
-        public void get_Specified(){} // RVA: 0x7A81BD750
-        public void InsertBefore(){} // RVA: 0x7AE83D350
-        public void InsertAfter(){} // RVA: 0x7AE83D3F0
-        public void RemoveChild(){} // RVA: 0x7AE83D490
-        public void PrependChild(){} // RVA: 0x7AE83D510
-        public void AppendChild(){} // RVA: 0x7AE83D5E0
-        public void get_OwnerElement(){} // RVA: 0x7AE83D660
-        public void set_InnerXml(){} // RVA: 0x7AE83D6E0
-        public void WriteTo(){} // RVA: 0x7AE83D770
-        public void WriteContentTo(){} // RVA: 0x7AE83D850
-        public void get_BaseURI(){} // RVA: 0x7AE83D8D0
-        public void SetParent(){} // RVA: 0x7A80D8E20
-        public void get_XmlSpace(){} // RVA: 0x7AE83D970
-        public void get_XmlLang(){} // RVA: 0x7AE83D9E0
+        public void .ctor(){} // RVA: 0x74B18C0
+        public void get_LocalNameHash(){} // RVA: 0x74B18A0
+        public void get_XmlName(){} // RVA: 0xB465B0
+        public void set_XmlName(){} // RVA: 0xBA9BA0
+        public void CloneNode(){} // RVA: 0x74B1910
+        public void get_ParentNode(){} // RVA: 0xDAC980
+        public void get_Name(){} // RVA: 0x74B1A00
+        public void get_LocalName(){} // RVA: 0x6AE0A90
+        public void get_NamespaceURI(){} // RVA: 0x2547880
+        public void get_Prefix(){} // RVA: 0x1853320
+        public void set_Prefix(){} // RVA: 0x74B1A20
+        public void get_NodeType(){} // RVA: 0xC50A80
+        public void get_OwnerDocument(){} // RVA: 0x6AE0BB0
+        public void get_Value(){} // RVA: 0x74B1B30
+        public void set_Value(){} // RVA: 0x74B1B50
+        public void get_SchemaInfo(){} // RVA: 0xB465B0
+        public void set_InnerText(){} // RVA: 0x74B1B70
+        public void PrepareOwnerElementInElementIdAttrMap(){} // RVA: 0x74B1BE0
+        public void ResetOwnerElementInElementIdAttrMap(){} // RVA: 0x74B1DD0
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void AppendChildForLoad(){} // RVA: 0x74B1F10
+        public void get_LastNode(){} // RVA: 0xB700F0
+        public void set_LastNode(){} // RVA: 0xB70100
+        public void IsValidChildType(){} // RVA: 0x74B22D0
+        public void get_Specified(){} // RVA: 0xC2E4C0
+        public void InsertBefore(){} // RVA: 0x74B22E0
+        public void InsertAfter(){} // RVA: 0x74B2380
+        public void RemoveChild(){} // RVA: 0x74B2420
+        public void PrependChild(){} // RVA: 0x74B24A0
+        public void AppendChild(){} // RVA: 0x74B2570
+        public void get_OwnerElement(){} // RVA: 0x74B25F0
+        public void set_InnerXml(){} // RVA: 0x74B2670
+        public void WriteTo(){} // RVA: 0x74B2700
+        public void WriteContentTo(){} // RVA: 0x74B27E0
+        public void get_BaseURI(){} // RVA: 0x74B2860
+        public void SetParent(){} // RVA: 0xB44D60
+        public void get_XmlSpace(){} // RVA: 0x74B28E0
+        public void get_XmlLang(){} // RVA: 0x74B2950
     }
 
     public class XmlAttributeCollection : XmlNamedNodeMap
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_ItemOf(){} // RVA: 0x7AE83DD30
-        public void FindNodeOffsetNS(){} // RVA: 0x7AE83DF30
-        public void SetNamedItem(){} // RVA: 0x7AE83E120
-        public void Append(){} // RVA: 0x7AE83E2C0
-        public void Remove(){} // RVA: 0x7AE83E510
-        public void RemoveAt(){} // RVA: 0x7AE83E5B0
-        public void RemoveAll(){} // RVA: 0x7AE83E670
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AE83E750
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A97F8BA0
-        public void System.Collections.ICollection.get_Count(){} // RVA: 0x7AE83E7E0
-        public void AddNode(){} // RVA: 0x7AE83E7F0
-        public void InsertNodeAt(){} // RVA: 0x7AE83E9F0
-        public void RemoveNodeAt(){} // RVA: 0x7AE83EAA0
-        public void Detach(){} // RVA: 0x7AE83EC80
-        public void InsertParentIntoElementIdAttrMap(){} // RVA: 0x7AE83ED60
-        public void RemoveParentFromElementIdAttrMap(){} // RVA: 0x7AE83EF50
-        public void RemoveDuplicateAttribute(){} // RVA: 0x7AE83F140
-        public void PrepareParentInElementIdAttrMap(){} // RVA: 0x7AE83F250
-        public void ResetParentInElementIdAttrMap(){} // RVA: 0x7AE83F3B0
-        public void InternalAppendAttribute(){} // RVA: 0x7AE83F490
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_ItemOf(){} // RVA: 0x74B2C80
+        public void FindNodeOffsetNS(){} // RVA: 0x74B2E80
+        public void SetNamedItem(){} // RVA: 0x74B3070
+        public void Append(){} // RVA: 0x74B3210
+        public void Remove(){} // RVA: 0x74B3460
+        public void RemoveAt(){} // RVA: 0x74B3500
+        public void RemoveAll(){} // RVA: 0x74B35C0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x74B36A0
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x2303260
+        public void System.Collections.ICollection.get_Count(){} // RVA: 0x74B3730
+        public void AddNode(){} // RVA: 0x74B3740
+        public void InsertNodeAt(){} // RVA: 0x74B3940
+        public void RemoveNodeAt(){} // RVA: 0x74B39F0
+        public void Detach(){} // RVA: 0x74B3BD0
+        public void InsertParentIntoElementIdAttrMap(){} // RVA: 0x74B3CB0
+        public void RemoveParentFromElementIdAttrMap(){} // RVA: 0x74B3EA0
+        public void RemoveDuplicateAttribute(){} // RVA: 0x74B4090
+        public void PrepareParentInElementIdAttrMap(){} // RVA: 0x74B41A0
+        public void ResetParentInElementIdAttrMap(){} // RVA: 0x74B4300
+        public void InternalAppendAttribute(){} // RVA: 0x74B43E0
     }
 
     public class XmlAutoDetectWriter : XmlRawWriter
     {
+        public object wrapped;
+        public object onRemove;
+        public object writerSettings;
+        public object eventCache;
+        public object textWriter;
+        public object strm;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE8089E0
-        public void WriteDocType(){} // RVA: 0x7AE808A60
-        public void WriteStartElement(){} // RVA: 0x7AE808AE0
-        public void WriteStartAttribute(){} // RVA: 0x7AE808BC0
-        public void WriteEndAttribute(){} // RVA: 0x7AE47D310
-        public void WriteCData(){} // RVA: 0x7AE808C40
-        public void WriteComment(){} // RVA: 0x7AE808CA0
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE808CE0
-        public void WriteWhitespace(){} // RVA: 0x7AE808D20
-        public void WriteString(){} // RVA: 0x7AE808D60
-        public void WriteChars(){} // RVA: 0x7A9240680
-        public void WriteRaw(){} // RVA: 0x7AE808E10
-        public void WriteEntityRef(){} // RVA: 0x7AE808E70
-        public void WriteCharEntity(){} // RVA: 0x7AE808ED0
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE808F30
-        public void WriteBase64(){} // RVA: 0x7AE808FA0
-        public void WriteBinHex(){} // RVA: 0x7AE809020
-        public void Close(){} // RVA: 0x7AE8090A0
-        public void Flush(){} // RVA: 0x7AE8090F0
-        public void WriteValue(){} // RVA: 0x7AE809140
-        public void set_NamespaceResolver(){} // RVA: 0x7AE8091A0
-        public void WriteXmlDeclaration(){} // RVA: 0x7AE809280
-        public void StartElementContent(){} // RVA: 0x7AE804330
-        public void WriteEndElement(){} // RVA: 0x7AE8092E0
-        public void WriteFullEndElement(){} // RVA: 0x7AE809310
-        public void WriteNamespaceDeclaration(){} // RVA: 0x7AE809340
-        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0x7AE804400
-        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7AE8093B0
-        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7AE804460
-        public void IsHtmlTag(){} // RVA: 0x7AE809410
-        public void EnsureWrappedWriter(){} // RVA: 0x7AE809470
-        public void TextBlockCreatesWriter(){} // RVA: 0x7AE809480
-        public void CreateWrappedWriter(){} // RVA: 0x7AE809530
+        public void .ctor(){} // RVA: 0x747E080
+        public void WriteDocType(){} // RVA: 0x747E100
+        public void WriteStartElement(){} // RVA: 0x747E180
+        public void WriteStartAttribute(){} // RVA: 0x747E260
+        public void WriteEndAttribute(){} // RVA: 0x70F9400
+        public void WriteCData(){} // RVA: 0x747E2E0
+        public void WriteComment(){} // RVA: 0x747E340
+        public void WriteProcessingInstruction(){} // RVA: 0x747E380
+        public void WriteWhitespace(){} // RVA: 0x747E3C0
+        public void WriteString(){} // RVA: 0x747E400
+        public void WriteChars(){} // RVA: 0x1D55C90
+        public void WriteRaw(){} // RVA: 0x747E4B0
+        public void WriteEntityRef(){} // RVA: 0x747E510
+        public void WriteCharEntity(){} // RVA: 0x747E570
+        public void WriteSurrogateCharEntity(){} // RVA: 0x747E5D0
+        public void WriteBase64(){} // RVA: 0x747E640
+        public void WriteBinHex(){} // RVA: 0x747E6C0
+        public void Close(){} // RVA: 0x747E740
+        public void Flush(){} // RVA: 0x747E790
+        public void WriteValue(){} // RVA: 0x747E7E0
+        public void set_NamespaceResolver(){} // RVA: 0x747E840
+        public void WriteXmlDeclaration(){} // RVA: 0x747E920
+        public void StartElementContent(){} // RVA: 0x7479A60
+        public void WriteEndElement(){} // RVA: 0x747E980
+        public void WriteFullEndElement(){} // RVA: 0x747E9B0
+        public void WriteNamespaceDeclaration(){} // RVA: 0x747E9E0
+        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0x7479B30
+        public void WriteStartNamespaceDeclaration(){} // RVA: 0x747EA50
+        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7479B90
+        public void IsHtmlTag(){} // RVA: 0x747EAB0
+        public void EnsureWrappedWriter(){} // RVA: 0x747EB10
+        public void TextBlockCreatesWriter(){} // RVA: 0x747EB20
+        public void CreateWrappedWriter(){} // RVA: 0x747EBD0
     }
 
     public class XmlCDataSection : XmlCharacterData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83F550
-        public void get_Name(){} // RVA: 0x7AE83F560
-        public void get_LocalName(){} // RVA: 0x7AE83F560
-        public void get_NodeType(){} // RVA: 0x7A883BE70
-        public void get_ParentNode(){} // RVA: 0x7AE83F590
-        public void CloneNode(){} // RVA: 0x7AE83F630
-        public void WriteTo(){} // RVA: 0x7AE83F6A0
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_IsText(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x74B44A0
+        public void get_Name(){} // RVA: 0x74B44B0
+        public void get_LocalName(){} // RVA: 0x74B44B0
+        public void get_NodeType(){} // RVA: 0x1347420
+        public void get_ParentNode(){} // RVA: 0x74B44E0
+        public void CloneNode(){} // RVA: 0x74B4580
+        public void WriteTo(){} // RVA: 0x74B45F0
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_IsText(){} // RVA: 0xC2E4C0
     }
 
     public class XmlCachedStream : MemoryStream
     {
+        public object uri;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE87A580
+        public void .ctor(){} // RVA: 0x74EEF40
     }
 
     public class XmlCharType : ValueType
     {
+        public object s_Lock;
+        public object s_CharProperties;
+        public object charProperties;
+
         // ── Methods ──
-        public void get_StaticLock(){} // RVA: 0x7AE86DA10
-        public void InitInstance(){} // RVA: 0x7AE86DAE0
-        public void SetProperties(){} // RVA: 0x7AE86E320
-        public void .ctor(){} // RVA: 0x7A7637E60
-        public void get_Instance(){} // RVA: 0x7AE86E3F0
-        public void IsWhiteSpace(){} // RVA: 0x7A7E96D00
-        public void IsNCNameSingleChar(){} // RVA: 0x7A7E96D40
-        public void IsStartNCNameSingleChar(){} // RVA: 0x7A7E96D80
-        public void IsNameSingleChar(){} // RVA: 0x7A7E96DC0
-        public void IsCharData(){} // RVA: 0x7A7E96E00
-        public void IsPubidChar(){} // RVA: 0x7A7E96E40
-        public void IsTextChar(){} // RVA: 0x7A7E96E50
-        public void IsLetter(){} // RVA: 0x7A7E96E90
-        public void IsNCNameCharXml4e(){} // RVA: 0x7A7E96ED0
-        public void IsStartNCNameCharXml4e(){} // RVA: 0x7A7E96F10
-        public void IsNameCharXml4e(){} // RVA: 0x7A7E96F50
-        public void IsDigit(){} // RVA: 0x7ADC72E50
-        public void IsHighSurrogate(){} // RVA: 0x7AE86E7C0
-        public void IsLowSurrogate(){} // RVA: 0x7AE86E7D0
-        public void IsSurrogate(){} // RVA: 0x7AE0D8040
-        public void CombineSurrogateChar(){} // RVA: 0x7AE86E7E0
-        public void SplitSurrogateChar(){} // RVA: 0x7AE86E800
-        public void IsOnlyWhitespace(){} // RVA: 0x7A7E96F90
-        public void IsOnlyWhitespaceWithPos(){} // RVA: 0x7A7E97010
-        public void IsOnlyCharData(){} // RVA: 0x7A7E97090
-        public void IsOnlyDigits(){} // RVA: 0x7AE86EA30
-        public void IsPublicId(){} // RVA: 0x7A7E970A0
-        public void InRange(){} // RVA: 0x7ADA3F790
+        public void get_StaticLock(){} // RVA: 0x74E2500
+        public void InitInstance(){} // RVA: 0x74E25D0
+        public void SetProperties(){} // RVA: 0x74E2E10
+        public void .ctor(){} // RVA: 0x47F10
+        public void get_Instance(){} // RVA: 0x74E2EE0
+        public void IsWhiteSpace(){} // RVA: 0x916E00
+        public void IsNCNameSingleChar(){} // RVA: 0x916E40
+        public void IsStartNCNameSingleChar(){} // RVA: 0x916E80
+        public void IsNameSingleChar(){} // RVA: 0x916EC0
+        public void IsCharData(){} // RVA: 0x916F00
+        public void IsPubidChar(){} // RVA: 0x916F40
+        public void IsTextChar(){} // RVA: 0x916F50
+        public void IsLetter(){} // RVA: 0x916F90
+        public void IsNCNameCharXml4e(){} // RVA: 0x916FD0
+        public void IsStartNCNameCharXml4e(){} // RVA: 0x917010
+        public void IsNameCharXml4e(){} // RVA: 0x917050
+        public void IsDigit(){} // RVA: 0x68FD610
+        public void IsHighSurrogate(){} // RVA: 0x74E32B0
+        public void IsLowSurrogate(){} // RVA: 0x74E32C0
+        public void IsSurrogate(){} // RVA: 0x6D59050
+        public void CombineSurrogateChar(){} // RVA: 0x74E32D0
+        public void SplitSurrogateChar(){} // RVA: 0x74E32F0
+        public void IsOnlyWhitespace(){} // RVA: 0x917090
+        public void IsOnlyWhitespaceWithPos(){} // RVA: 0x917110
+        public void IsOnlyCharData(){} // RVA: 0x917190
+        public void IsOnlyDigits(){} // RVA: 0x74E3520
+        public void IsPublicId(){} // RVA: 0x9171A0
+        public void InRange(){} // RVA: 0x66C9800
     }
 
     public class XmlCharacterData : XmlLinkedNode
     {
+        public object data;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83F6F0
-        public void get_Value(){} // RVA: 0x7ADCAB740
-        public void set_Value(){} // RVA: 0x7AE83F770
-        public void get_InnerText(){} // RVA: 0x7A9AA40B0
-        public void set_InnerText(){} // RVA: 0x7ABE84300
-        public void get_Data(){} // RVA: 0x7AE83F790
-        public void set_Data(){} // RVA: 0x7AE83F7F0
-        public void CheckOnData(){} // RVA: 0x7AE83F900
+        public void .ctor(){} // RVA: 0x74B4640
+        public void get_Value(){} // RVA: 0x69358F0
+        public void set_Value(){} // RVA: 0x74B46C0
+        public void get_InnerText(){} // RVA: 0x254FA90
+        public void set_InnerText(){} // RVA: 0x4B52F00
+        public void get_Data(){} // RVA: 0x74B46E0
+        public void set_Data(){} // RVA: 0x74B4700
+        public void CheckOnData(){} // RVA: 0x74B4810
     }
 
     public class XmlChildEnumerator : Object
     {
+        public object container;
+        public object child;
+        public object isFirst;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83F980
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7AE83FA70
-        public void MoveNext(){} // RVA: 0x7AE83FA70
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AE83FBA0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7AE83FC20
-        public void get_Current(){} // RVA: 0x7AE83FC20
+        public void .ctor(){} // RVA: 0x74B4890
+        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x74B4980
+        public void MoveNext(){} // RVA: 0x74B4980
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x74B4AB0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x74B4B30
+        public void get_Current(){} // RVA: 0x74B4B30
     }
 
     public class XmlChildNodes : XmlNodeList
     {
+        public object container;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void Item(){} // RVA: 0x7AE83FCB0
-        public void get_Count(){} // RVA: 0x7AE83FD20
-        public void GetEnumerator(){} // RVA: 0x7AE83FD80
+        public void .ctor(){} // RVA: 0xB44D60
+        public void Item(){} // RVA: 0x74B4BC0
+        public void get_Count(){} // RVA: 0x74B4C30
+        public void GetEnumerator(){} // RVA: 0x74B4C90
     }
 
     public class XmlComment : XmlCharacterData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83F550
-        public void get_Name(){} // RVA: 0x7AE83FE50
-        public void get_LocalName(){} // RVA: 0x7AE83FE50
-        public void get_NodeType(){} // RVA: 0x7A88217C0
-        public void CloneNode(){} // RVA: 0x7AE83FE80
-        public void WriteTo(){} // RVA: 0x7AE83FEF0
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x74B44A0
+        public void get_Name(){} // RVA: 0x74B4D60
+        public void get_LocalName(){} // RVA: 0x74B4D60
+        public void get_NodeType(){} // RVA: 0x17FCE50
+        public void CloneNode(){} // RVA: 0x74B4D90
+        public void WriteTo(){} // RVA: 0x74B4E00
+        public void WriteContentTo(){} // RVA: 0xB43310
     }
 
     public class XmlComplianceUtil : Object
     {
         // ── Methods ──
-        public void NonCDataNormalize(){} // RVA: 0x7AE86EB10
-        public void CDataNormalize(){} // RVA: 0x7AE86EDD0
+        public void NonCDataNormalize(){} // RVA: 0x74E3600
+        public void CDataNormalize(){} // RVA: 0x74E38B0
     }
 
     public class XmlConvert : Object
     {
+        public object xmlCharType;
+        public object crt;
+        public object c_EncodedCharLength;
+        public object c_EncodeCharPattern;
+        public object c_DecodeCharPattern;
+        public object s_allDateTimeFormats;
+        public object WhitespaceChars;
+
         // ── Methods ──
-        public void EncodeName(){} // RVA: 0x7AE86F980
-        public void EncodeLocalName(){} // RVA: 0x7AE86F050
-        public void DecodeName(){} // RVA: 0x7AE86F0B0
-        public void FromHex(){} // RVA: 0x7AE8704E0
-        public void FromBinHexString(){} // RVA: 0x7AE8705C0
-        public void ToBinHexString(){} // RVA: 0x7AE870640
-        public void VerifyName(){} // RVA: 0x7AE8707C0
-        public void TryVerifyName(){} // RVA: 0x7AE870930
-        public void VerifyQName(){} // RVA: 0x7AE870B00
-        public void VerifyNCName(){} // RVA: 0x7AE870DF0
-        public void TryVerifyNCName(){} // RVA: 0x7AE870F60
-        public void VerifyTOKEN(){} // RVA: 0x7AE871040
-        public void TryVerifyTOKEN(){} // RVA: 0x7AE871340
-        public void TryVerifyNMTOKEN(){} // RVA: 0x7AE871650
-        public void TryVerifyNormalizedString(){} // RVA: 0x7AE871890
-        public void ToString(){} // RVA: 0x7AE872600
-        public void ToBoolean(){} // RVA: 0x7AE872650
-        public void TryToBoolean(){} // RVA: 0x7AE8728C0
-        public void ToChar(){} // RVA: 0x7AE872BC0
-        public void TryToChar(){} // RVA: 0x7AE872C90
-        public void ToDecimal(){} // RVA: 0x7AE872E30
-        public void TryToDecimal(){} // RVA: 0x7AE872EC0
-        public void ToInteger(){} // RVA: 0x7AE873080
-        public void TryToInteger(){} // RVA: 0x7AE873110
-        public void ToSByte(){} // RVA: 0x7AE8732D0
-        public void TryToSByte(){} // RVA: 0x7AE873370
-        public void ToInt16(){} // RVA: 0x7AE8735D0
-        public void TryToInt16(){} // RVA: 0x7AE873670
-        public void ToInt32(){} // RVA: 0x7AE8738C0
-        public void TryToInt32(){} // RVA: 0x7AE8738F0
-        public void ToInt64(){} // RVA: 0x7AE873A70
-        public void TryToInt64(){} // RVA: 0x7AE873AA0
-        public void ToByte(){} // RVA: 0x7AE873C20
-        public void TryToByte(){} // RVA: 0x7AE873CC0
-        public void ToUInt16(){} // RVA: 0x7AE873EB0
-        public void TryToUInt16(){} // RVA: 0x7AE873F50
-        public void ToUInt32(){} // RVA: 0x7AE874140
-        public void TryToUInt32(){} // RVA: 0x7AE874170
-        public void ToUInt64(){} // RVA: 0x7AE8742F0
-        public void TryToUInt64(){} // RVA: 0x7AE874320
-        public void ToSingle(){} // RVA: 0x7AE8744A0
-        public void TryToSingle(){} // RVA: 0x7AE874600
-        public void ToDouble(){} // RVA: 0x7AE8748D0
-        public void TryToDouble(){} // RVA: 0x7AE874A30
-        public void ToXPathDouble(){} // RVA: 0x7AE874D10
-        public void ToTimeSpan(){} // RVA: 0x7AE874F80
-        public void TryToTimeSpan(){} // RVA: 0x7AE875190
-        public void get_AllDateTimeFormats(){} // RVA: 0x7AE875250
-        public void CreateAllDateTimeFormats(){} // RVA: 0x7AE875300
-        public void ToDateTime(){} // RVA: 0x7AE8759D0
-        public void ToDateTimeOffset(){} // RVA: 0x7AE875C70
-        public void ToGuid(){} // RVA: 0x7AE875D60
-        public void TryToGuid(){} // RVA: 0x7AE875D80
-        public void SwitchToLocalTime(){} // RVA: 0x7AE8760B0
-        public void SwitchToUtcTime(){} // RVA: 0x7AE876240
-        public void ToUri(){} // RVA: 0x7AE876390
-        public void TryToUri(){} // RVA: 0x7AE8767E0
-        public void StrEqual(){} // RVA: 0x7AE876C80
-        public void TrimString(){} // RVA: 0x7AE876D30
-        public void TrimStringStart(){} // RVA: 0x7AE876DF0
-        public void TrimStringEnd(){} // RVA: 0x7AE876EA0
-        public void SplitString(){} // RVA: 0x7AE876F60
-        public void IsNegativeZero(){} // RVA: 0x7AE877060
-        public void DoubleToInt64Bits(){} // RVA: 0x7ADB63230
-        public void VerifyCharData(){} // RVA: 0x7AE8770E0
-        public void CreateException(){} // RVA: 0x7AE877680
-        public void CreateInvalidSurrogatePairException(){} // RVA: 0x7AE877890
-        public void CreateInvalidHighSurrogateCharException(){} // RVA: 0x7AE877CC0
-        public void CreateInvalidCharException(){} // RVA: 0x7AE878100
-        public void CreateInvalidNameCharException(){} // RVA: 0x7AE8781E0
-        public void CreateInvalidNameArgumentException(){} // RVA: 0x7AE878300
-        public void .cctor(){} // RVA: 0x7AE878400
+        public void EncodeName(){} // RVA: 0x74E4450
+        public void EncodeLocalName(){} // RVA: 0x74E3B20
+        public void DecodeName(){} // RVA: 0x74E3B80
+        public void FromHex(){} // RVA: 0x74E4FB0
+        public void FromBinHexString(){} // RVA: 0x74E5090
+        public void ToBinHexString(){} // RVA: 0x74E5110
+        public void VerifyName(){} // RVA: 0x74E5290
+        public void TryVerifyName(){} // RVA: 0x74E5400
+        public void VerifyQName(){} // RVA: 0x74E55C0
+        public void VerifyNCName(){} // RVA: 0x74E58B0
+        public void TryVerifyNCName(){} // RVA: 0x74E5A20
+        public void VerifyTOKEN(){} // RVA: 0x74E5B00
+        public void TryVerifyTOKEN(){} // RVA: 0x74E5E00
+        public void TryVerifyNMTOKEN(){} // RVA: 0x74E6110
+        public void TryVerifyNormalizedString(){} // RVA: 0x74E6340
+        public void ToString(){} // RVA: 0x74E7020
+        public void ToBoolean(){} // RVA: 0x74E7070
+        public void TryToBoolean(){} // RVA: 0x74E72E0
+        public void ToChar(){} // RVA: 0x74E75E0
+        public void TryToChar(){} // RVA: 0x74E76B0
+        public void ToDecimal(){} // RVA: 0x74E7840
+        public void TryToDecimal(){} // RVA: 0x74E78D0
+        public void ToInteger(){} // RVA: 0x74E7A90
+        public void TryToInteger(){} // RVA: 0x74E7B20
+        public void ToSByte(){} // RVA: 0x74E7CE0
+        public void TryToSByte(){} // RVA: 0x74E7D80
+        public void ToInt16(){} // RVA: 0x74E7FE0
+        public void TryToInt16(){} // RVA: 0x74E8080
+        public void ToInt32(){} // RVA: 0x74E82D0
+        public void TryToInt32(){} // RVA: 0x74E8300
+        public void ToInt64(){} // RVA: 0x74E8480
+        public void TryToInt64(){} // RVA: 0x74E84B0
+        public void ToByte(){} // RVA: 0x74E8630
+        public void TryToByte(){} // RVA: 0x74E86D0
+        public void ToUInt16(){} // RVA: 0x74E88C0
+        public void TryToUInt16(){} // RVA: 0x74E8960
+        public void ToUInt32(){} // RVA: 0x74E8B50
+        public void TryToUInt32(){} // RVA: 0x74E8B80
+        public void ToUInt64(){} // RVA: 0x74E8D00
+        public void TryToUInt64(){} // RVA: 0x74E8D30
+        public void ToSingle(){} // RVA: 0x74E8EB0
+        public void TryToSingle(){} // RVA: 0x74E9010
+        public void ToDouble(){} // RVA: 0x74E92E0
+        public void TryToDouble(){} // RVA: 0x74E9440
+        public void ToXPathDouble(){} // RVA: 0x74E9720
+        public void ToTimeSpan(){} // RVA: 0x74E9960
+        public void TryToTimeSpan(){} // RVA: 0x74E9B70
+        public void get_AllDateTimeFormats(){} // RVA: 0x74E9C30
+        public void CreateAllDateTimeFormats(){} // RVA: 0x74E9CE0
+        public void ToDateTime(){} // RVA: 0x74EA3B0
+        public void ToDateTimeOffset(){} // RVA: 0x74EA650
+        public void ToGuid(){} // RVA: 0x74EA740
+        public void TryToGuid(){} // RVA: 0x74EA760
+        public void SwitchToLocalTime(){} // RVA: 0x74EAA90
+        public void SwitchToUtcTime(){} // RVA: 0x74EAC20
+        public void ToUri(){} // RVA: 0x74EAD70
+        public void TryToUri(){} // RVA: 0x74EB1C0
+        public void StrEqual(){} // RVA: 0x74EB660
+        public void TrimString(){} // RVA: 0x74EB710
+        public void TrimStringStart(){} // RVA: 0x74EB7D0
+        public void TrimStringEnd(){} // RVA: 0x74EB880
+        public void SplitString(){} // RVA: 0x74EB940
+        public void IsNegativeZero(){} // RVA: 0x74EBA40
+        public void DoubleToInt64Bits(){} // RVA: 0x67EE620
+        public void VerifyCharData(){} // RVA: 0x74EBAC0
+        public void CreateException(){} // RVA: 0x74EC040
+        public void CreateInvalidSurrogatePairException(){} // RVA: 0x74EC250
+        public void CreateInvalidHighSurrogateCharException(){} // RVA: 0x74EC680
+        public void CreateInvalidCharException(){} // RVA: 0x74ECAC0
+        public void CreateInvalidNameCharException(){} // RVA: 0x74ECBA0
+        public void CreateInvalidNameArgumentException(){} // RVA: 0x74ECCC0
+        public void .cctor(){} // RVA: 0x74ECDC0
     }
 
     public class XmlDeclaration : XmlLinkedNode
     {
+        public object version;
+        public object encoding;
+        public object standalone;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83FF40
-        public void get_Version(){} // RVA: 0x7A81052C0
-        public void set_Version(){} // RVA: 0x7A81052D0
-        public void get_Encoding(){} // RVA: 0x7A8105330
-        public void set_Encoding(){} // RVA: 0x7AE8402A0
-        public void get_Standalone(){} // RVA: 0x7A83F69F0
-        public void set_Standalone(){} // RVA: 0x7AE840350
-        public void get_Value(){} // RVA: 0x7AE83CBA0
-        public void set_Value(){} // RVA: 0x7AE83CBC0
-        public void get_InnerText(){} // RVA: 0x7AE8405A0
-        public void set_InnerText(){} // RVA: 0x7AE840740
-        public void get_Name(){} // RVA: 0x7AE8409C0
-        public void get_LocalName(){} // RVA: 0x7AE50A3E0
-        public void get_NodeType(){} // RVA: 0x7ADE594F0
-        public void CloneNode(){} // RVA: 0x7AE840A00
-        public void WriteTo(){} // RVA: 0x7AE840A60
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void IsValidXmlVersion(){} // RVA: 0x7AE840AE0
+        public void .ctor(){} // RVA: 0x74B4E50
+        public void get_Version(){} // RVA: 0xB700F0
+        public void set_Version(){} // RVA: 0xB70100
+        public void get_Encoding(){} // RVA: 0xB70160
+        public void set_Encoding(){} // RVA: 0x74B5190
+        public void get_Standalone(){} // RVA: 0xD33E60
+        public void set_Standalone(){} // RVA: 0x74B5210
+        public void get_Value(){} // RVA: 0x74B1B30
+        public void set_Value(){} // RVA: 0x74B1B50
+        public void get_InnerText(){} // RVA: 0x74B5440
+        public void set_InnerText(){} // RVA: 0x74B55E0
+        public void get_Name(){} // RVA: 0x74B5A40
+        public void get_LocalName(){} // RVA: 0x7183E10
+        public void get_NodeType(){} // RVA: 0x6AE0A80
+        public void CloneNode(){} // RVA: 0x74B5A80
+        public void WriteTo(){} // RVA: 0x74B5AE0
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void IsValidXmlVersion(){} // RVA: 0x74B5B60
     }
 
     public class XmlDocument : XmlNode
     {
+        public object implementation;
+        public object domNameTable;
+        public object lastChild;
+        public object entities;
+        public object htElementIdMap;
+        public object htElementIDAttrDecl;
+        public object schemaInfo;
+        public object schemas;
+        public object reportValidity;
+        public object actualLoadingStatus;
+        public object onNodeInsertingDelegate;
+        public object onNodeInsertedDelegate;
+        public object onNodeRemovingDelegate;
+        public object onNodeRemovedDelegate;
+        public object onNodeChangingDelegate;
+        public object onNodeChangedDelegate;
+        public object fEntRefNodesPresent;
+        public object fCDataNodesPresent;
+        public object preserveWhitespace;
+        public object isLoading;
+        public object strDocumentName;
+        public object strDocumentFragmentName;
+        public object strCommentName;
+        public object strTextName;
+        public object strCDataSectionName;
+        public object strEntityName;
+        public object strID;
+        public object strXmlns;
+        public object strXml;
+        public object strSpace;
+        public object strLang;
+        public object strEmpty;
+        public object strNonSignificantWhitespaceName;
+        public object strSignificantWhitespaceName;
+        public object strReservedXmlns;
+        public object strReservedXml;
+        public object baseURI;
+        public object resolver;
+        public object bSetResolver;
+        public object objLock;
+        public object EmptyEnumerator;
+        public object NotKnownSchemaInfo;
+        public object ValidSchemaInfo;
+        public object InvalidSchemaInfo;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE840CE0
-        public void get_DtdSchemaInfo(){} // RVA: 0x7A8152D80
-        public void set_DtdSchemaInfo(){} // RVA: 0x7A8152D90
-        public void CheckName(){} // RVA: 0x7AE841870
-        public void AddXmlName(){} // RVA: 0x7AE841940
-        public void GetXmlName(){} // RVA: 0x7AE841970
-        public void AddAttrXmlName(){} // RVA: 0x7AE8419A0
-        public void AddIdInfo(){} // RVA: 0x7AE841AE0
-        public void GetIDInfoByElement_(){} // RVA: 0x7AE841C10
-        public void GetIDInfoByElement(){} // RVA: 0x7AE841D30
-        public void GetElement(){} // RVA: 0x7AE841E50
-        public void AddElementWithId(){} // RVA: 0x7AE8422E0
-        public void RemoveElementWithId(){} // RVA: 0x7AE842550
-        public void CloneNode(){} // RVA: 0x7AE8426B0
-        public void get_NodeType(){} // RVA: 0x7A94EBBC0
-        public void get_ParentNode(){} // RVA: 0x7A82D1450
-        public void get_DocumentType(){} // RVA: 0x7AE8427F0
-        public void get_Declaration(){} // RVA: 0x7AE842880
-        public void get_Implementation(){} // RVA: 0x7A80DA7B0
-        public void get_Name(){} // RVA: 0x7A87D9C10
-        public void get_LocalName(){} // RVA: 0x7A87D9C10
-        public void get_DocumentElement(){} // RVA: 0x7AE842930
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void get_LastNode(){} // RVA: 0x7A8105330
-        public void set_LastNode(){} // RVA: 0x7A80D8E80
-        public void get_OwnerDocument(){} // RVA: 0x7A82D1450
-        public void set_Schemas(){} // RVA: 0x7A8230620
-        public void get_CanReportValidity(){} // RVA: 0x7A8359360
-        public void get_HasSetResolver(){} // RVA: 0x7A858F1D0
-        public void GetResolver(){} // RVA: 0x7A8357A90
-        public void set_XmlResolver(){} // RVA: 0x7AE8429C0
-        public void IsValidChildType(){} // RVA: 0x7AE842D20
-        public void HasNodeTypeInPrevSiblings(){} // RVA: 0x7AE842EF0
-        public void HasNodeTypeInNextSiblings(){} // RVA: 0x7AE842FE0
-        public void CanInsertBefore(){} // RVA: 0x7AE843060
-        public void CanInsertAfter(){} // RVA: 0x7AE843220
-        public void CreateAttribute(){} // RVA: 0x7AE844D40
-        public void SetDefaultNamespace(){} // RVA: 0x7AE843450
-        public void CreateCDataSection(){} // RVA: 0x7AE843620
-        public void CreateComment(){} // RVA: 0x7AE843690
-        public void CreateDocumentType(){} // RVA: 0x7AE843700
-        public void CreateDocumentFragment(){} // RVA: 0x7AE8437A0
-        public void CreateElement(){} // RVA: 0x7AE844E90
-        public void AddDefaultAttributes(){} // RVA: 0x7AE843950
-        public void GetSchemaElementDecl(){} // RVA: 0x7AE843D00
-        public void PrepareDefaultAttribute(){} // RVA: 0x7AE843E30
-        public void CreateEntityReference(){} // RVA: 0x7AE843F70
-        public void CreateProcessingInstruction(){} // RVA: 0x7AE843FE0
-        public void CreateXmlDeclaration(){} // RVA: 0x7AE844060
-        public void CreateTextNode(){} // RVA: 0x7AE844100
-        public void CreateSignificantWhitespace(){} // RVA: 0x7AE844170
-        public void CreateWhitespace(){} // RVA: 0x7AE8441E0
-        public void ImportNodeInternal(){} // RVA: 0x7AE8443D0
-        public void ImportAttributes(){} // RVA: 0x7AE844B10
-        public void ImportChildren(){} // RVA: 0x7AE844C80
-        public void get_NameTable(){} // RVA: 0x7A8D68680
-        public void CreateDefaultAttribute(){} // RVA: 0x7AE844DE0
-        public void get_IsReadOnly(){} // RVA: 0x7A80D7320
-        public void get_Entities(){} // RVA: 0x7AE844F60
-        public void set_Entities(){} // RVA: 0x7A8105A90
-        public void get_IsLoading(){} // RVA: 0x7AE4B4A60
-        public void set_IsLoading(){} // RVA: 0x7AE845060
-        public void get_ActualLoadingStatus(){} // RVA: 0x7ACDBE8E0
-        public void ReadNode(){} // RVA: 0x7AE845070
-        public void SetupReader(){} // RVA: 0x7AE845130
-        public void Load(){} // RVA: 0x7AE8451A0
-        public void LoadXml(){} // RVA: 0x7AE8452C0
-        public void set_InnerText(){} // RVA: 0x7AE8455A0
-        public void set_InnerXml(){} // RVA: 0x7ADD9F5D0
-        public void Save(){} // RVA: 0x7AE845600
-        public void WriteTo(){} // RVA: 0x7AE8458C0
-        public void WriteContentTo(){} // RVA: 0x7AE8458E0
-        public void GetEventArgs(){} // RVA: 0x7AE845B30
-        public void GetInsertEventArgsForLoad(){} // RVA: 0x7AE845C30
-        public void BeforeEvent(){} // RVA: 0x7AE845D00
-        public void AfterEvent(){} // RVA: 0x7AE845D80
-        public void GetDefaultAttribute(){} // RVA: 0x7AE845E00
-        public void get_Version(){} // RVA: 0x7AE846150
-        public void get_Encoding(){} // RVA: 0x7AE846180
-        public void get_Standalone(){} // RVA: 0x7AE8461B0
-        public void GetEntityNode(){} // RVA: 0x7AE8461E0
-        public void get_SchemaInfo(){} // RVA: 0x7AE8462D0
-        public void get_BaseURI(){} // RVA: 0x7A864CFF0
-        public void SetBaseURI(){} // RVA: 0x7A864C880
-        public void AppendChildForLoad(){} // RVA: 0x7AE846400
-        public void .cctor(){} // RVA: 0x7AE8466B0
+        public void .ctor(){} // RVA: 0x74B5D60
+        public void get_DtdSchemaInfo(){} // RVA: 0xBBF8F0
+        public void set_DtdSchemaInfo(){} // RVA: 0xBBF900
+        public void CheckName(){} // RVA: 0x74B68E0
+        public void AddXmlName(){} // RVA: 0x74B69B0
+        public void GetXmlName(){} // RVA: 0x74B69E0
+        public void AddAttrXmlName(){} // RVA: 0x74B6A10
+        public void AddIdInfo(){} // RVA: 0x74B6B50
+        public void GetIDInfoByElement_(){} // RVA: 0x74B6C80
+        public void GetIDInfoByElement(){} // RVA: 0x74B6D90
+        public void GetElement(){} // RVA: 0x74B6EA0
+        public void AddElementWithId(){} // RVA: 0x74B7330
+        public void RemoveElementWithId(){} // RVA: 0x74B75A0
+        public void CloneNode(){} // RVA: 0x74B7700
+        public void get_NodeType(){} // RVA: 0x2006E40
+        public void get_ParentNode(){} // RVA: 0xDAC980
+        public void get_DocumentType(){} // RVA: 0x74B7840
+        public void get_Declaration(){} // RVA: 0x74B78D0
+        public void get_Implementation(){} // RVA: 0xB465B0
+        public void get_Name(){} // RVA: 0x106A7D0
+        public void get_LocalName(){} // RVA: 0x106A7D0
+        public void get_DocumentElement(){} // RVA: 0x74B7980
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void get_LastNode(){} // RVA: 0xB70160
+        public void set_LastNode(){} // RVA: 0xB44DC0
+        public void get_OwnerDocument(){} // RVA: 0xDAC980
+        public void set_Schemas(){} // RVA: 0xCA4DF0
+        public void get_CanReportValidity(){} // RVA: 0xE3F480
+        public void get_HasSetResolver(){} // RVA: 0x186B250
+        public void GetResolver(){} // RVA: 0x114AC20
+        public void set_XmlResolver(){} // RVA: 0x74B7A10
+        public void IsValidChildType(){} // RVA: 0x74B7D50
+        public void HasNodeTypeInPrevSiblings(){} // RVA: 0x74B7F20
+        public void HasNodeTypeInNextSiblings(){} // RVA: 0x74B8010
+        public void CanInsertBefore(){} // RVA: 0x74B8090
+        public void CanInsertAfter(){} // RVA: 0x74B8250
+        public void CreateAttribute(){} // RVA: 0x74B9D30
+        public void SetDefaultNamespace(){} // RVA: 0x74B8460
+        public void CreateCDataSection(){} // RVA: 0x74B8630
+        public void CreateComment(){} // RVA: 0x74B86A0
+        public void CreateDocumentType(){} // RVA: 0x74B8710
+        public void CreateDocumentFragment(){} // RVA: 0x74B87B0
+        public void CreateElement(){} // RVA: 0x74B9E80
+        public void AddDefaultAttributes(){} // RVA: 0x74B8930
+        public void GetSchemaElementDecl(){} // RVA: 0x74B8CB0
+        public void PrepareDefaultAttribute(){} // RVA: 0x74B8EA0
+        public void CreateEntityReference(){} // RVA: 0x74B8FC0
+        public void CreateProcessingInstruction(){} // RVA: 0x74B9030
+        public void CreateXmlDeclaration(){} // RVA: 0x74B90B0
+        public void CreateTextNode(){} // RVA: 0x74B9150
+        public void CreateSignificantWhitespace(){} // RVA: 0x74B91C0
+        public void CreateWhitespace(){} // RVA: 0x74B9230
+        public void ImportNodeInternal(){} // RVA: 0x74B93C0
+        public void ImportAttributes(){} // RVA: 0x74B9B00
+        public void ImportChildren(){} // RVA: 0x74B9C70
+        public void get_NameTable(){} // RVA: 0x1853320
+        public void CreateDefaultAttribute(){} // RVA: 0x74B9DD0
+        public void get_IsReadOnly(){} // RVA: 0xB43320
+        public void get_Entities(){} // RVA: 0x74B9F50
+        public void set_Entities(){} // RVA: 0xB708C0
+        public void get_IsLoading(){} // RVA: 0x7130170
+        public void set_IsLoading(){} // RVA: 0x74BA050
+        public void get_ActualLoadingStatus(){} // RVA: 0x5C8BB10
+        public void ReadNode(){} // RVA: 0x74BA060
+        public void SetupReader(){} // RVA: 0x74BA120
+        public void Load(){} // RVA: 0x74BA190
+        public void LoadXml(){} // RVA: 0x74BA2B0
+        public void set_InnerText(){} // RVA: 0x74BA570
+        public void set_InnerXml(){} // RVA: 0x6A27B90
+        public void Save(){} // RVA: 0x74BA5D0
+        public void WriteTo(){} // RVA: 0x74BA890
+        public void WriteContentTo(){} // RVA: 0x74BA8B0
+        public void GetEventArgs(){} // RVA: 0x74BAB00
+        public void GetInsertEventArgsForLoad(){} // RVA: 0x74BAC00
+        public void BeforeEvent(){} // RVA: 0x74BACD0
+        public void AfterEvent(){} // RVA: 0x74BAD50
+        public void GetDefaultAttribute(){} // RVA: 0x74BADD0
+        public void get_Version(){} // RVA: 0x74BB120
+        public void get_Encoding(){} // RVA: 0x74BB150
+        public void get_Standalone(){} // RVA: 0x74BB180
+        public void GetEntityNode(){} // RVA: 0x74BB1B0
+        public void get_SchemaInfo(){} // RVA: 0x74BB2A0
+        public void get_BaseURI(){} // RVA: 0xDA0520
+        public void SetBaseURI(){} // RVA: 0xD9D570
+        public void AppendChildForLoad(){} // RVA: 0x74BB3D0
+        public void .cctor(){} // RVA: 0x74BB680
     }
 
     public class XmlDocumentFragment : XmlNode
     {
+        public object lastChild;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE846940
-        public void get_Name(){} // RVA: 0x7AE846A10
-        public void get_LocalName(){} // RVA: 0x7AE846A10
-        public void get_NodeType(){} // RVA: 0x7ADC89490
-        public void get_ParentNode(){} // RVA: 0x7A82D1450
-        public void get_OwnerDocument(){} // RVA: 0x7AE846A40
-        public void set_InnerXml(){} // RVA: 0x7AE846AC0
-        public void CloneNode(){} // RVA: 0x7AE846B50
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void get_LastNode(){} // RVA: 0x7A80DA7B0
-        public void set_LastNode(){} // RVA: 0x7A813E420
-        public void IsValidChildType(){} // RVA: 0x7AE846BF0
-        public void CanInsertAfter(){} // RVA: 0x7AE846CB0
-        public void CanInsertBefore(){} // RVA: 0x7AE846D30
-        public void WriteTo(){} // RVA: 0x7AE8458C0
-        public void WriteContentTo(){} // RVA: 0x7AE846DB0
+        public void .ctor(){} // RVA: 0x74BB910
+        public void get_Name(){} // RVA: 0x74BB9E0
+        public void get_LocalName(){} // RVA: 0x74BB9E0
+        public void get_NodeType(){} // RVA: 0x6913E80
+        public void get_ParentNode(){} // RVA: 0xDAC980
+        public void get_OwnerDocument(){} // RVA: 0x74BBA10
+        public void set_InnerXml(){} // RVA: 0x74BBA90
+        public void CloneNode(){} // RVA: 0x74BBB20
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void get_LastNode(){} // RVA: 0xB465B0
+        public void set_LastNode(){} // RVA: 0xBA9BA0
+        public void IsValidChildType(){} // RVA: 0x74BBBC0
+        public void CanInsertAfter(){} // RVA: 0x74BBC80
+        public void CanInsertBefore(){} // RVA: 0x74BBD00
+        public void WriteTo(){} // RVA: 0x74BA890
+        public void WriteContentTo(){} // RVA: 0x74BBD80
     }
 
     public class XmlDocumentType : XmlLinkedNode
     {
+        public object name;
+        public object publicId;
+        public object systemId;
+        public object internalSubset;
+        public object namespaces;
+        public object entities;
+        public object notations;
+        public object schemaInfo;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE847000
-        public void get_Name(){} // RVA: 0x7A81052C0
-        public void get_LocalName(){} // RVA: 0x7A81052C0
-        public void get_NodeType(){} // RVA: 0x7A836B0A0
-        public void CloneNode(){} // RVA: 0x7AE847260
-        public void get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void get_Entities(){} // RVA: 0x7AE8472C0
-        public void get_Notations(){} // RVA: 0x7AE8473C0
-        public void get_PublicId(){} // RVA: 0x7A8105330
-        public void get_SystemId(){} // RVA: 0x7A83F69F0
-        public void get_InternalSubset(){} // RVA: 0x7A8292C30
-        public void get_ParseWithNamespaces(){} // RVA: 0x7A8193790
-        public void WriteTo(){} // RVA: 0x7AE8474C0
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_DtdSchemaInfo(){} // RVA: 0x7A81A0050
-        public void set_DtdSchemaInfo(){} // RVA: 0x7A81A0060
+        public void .ctor(){} // RVA: 0x74BBFD0
+        public void get_Name(){} // RVA: 0xB700F0
+        public void get_LocalName(){} // RVA: 0xB700F0
+        public void get_NodeType(){} // RVA: 0xE49B40
+        public void CloneNode(){} // RVA: 0x74BC230
+        public void get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void get_Entities(){} // RVA: 0x74BC290
+        public void get_Notations(){} // RVA: 0x74BC390
+        public void get_PublicId(){} // RVA: 0xB70160
+        public void get_SystemId(){} // RVA: 0xD33E60
+        public void get_InternalSubset(){} // RVA: 0xD05CA0
+        public void get_ParseWithNamespaces(){} // RVA: 0xC02470
+        public void WriteTo(){} // RVA: 0x74BC490
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_DtdSchemaInfo(){} // RVA: 0xC0FFC0
+        public void set_DtdSchemaInfo(){} // RVA: 0xC0FFD0
     }
 
     public class XmlDownloadManager : Object
     {
+        public object connections;
+
         // ── Methods ──
-        public void GetStream(){} // RVA: 0x7AE878620
-        public void GetNonFileStream(){} // RVA: 0x7AE878760
-        public void Remove(){} // RVA: 0x7AE878D90
-        public void GetStreamAsync(){} // RVA: 0x7AE878F50
-        public void GetNonFileStreamAsync(){} // RVA: 0x7AE879130
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetStream(){} // RVA: 0x74ECFE0
+        public void GetNonFileStream(){} // RVA: 0x74ED120
+        public void Remove(){} // RVA: 0x74ED750
+        public void GetStreamAsync(){} // RVA: 0x74ED910
+        public void GetNonFileStreamAsync(){} // RVA: 0x74EDAF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlElement : XmlLinkedNode
     {
+        public object name;
+        public object attributes;
+        public object lastChild;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE847740
-        public void get_XmlName(){} // RVA: 0x7A81052C0
-        public void set_XmlName(){} // RVA: 0x7A81052D0
-        public void CloneNode(){} // RVA: 0x7AE8477B0
-        public void get_Name(){} // RVA: 0x7AE847C90
-        public void get_LocalName(){} // RVA: 0x7A80DF920
-        public void get_NamespaceURI(){} // RVA: 0x7AE847CB0
-        public void get_Prefix(){} // RVA: 0x7A8D68180
-        public void set_Prefix(){} // RVA: 0x7AE847CD0
-        public void get_NodeType(){} // RVA: 0x7A81CA9D0
-        public void get_ParentNode(){} // RVA: 0x7A80F2570
-        public void get_OwnerDocument(){} // RVA: 0x7AE847DF0
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void AppendChildForLoad(){} // RVA: 0x7AE847E10
-        public void get_IsEmpty(){} // RVA: 0x7AE8481D0
-        public void set_IsEmpty(){} // RVA: 0x7AE8481E0
-        public void get_LastNode(){} // RVA: 0x7AE8482C0
-        public void set_LastNode(){} // RVA: 0x7A8105A90
-        public void IsValidChildType(){} // RVA: 0x7AE8482D0
-        public void get_Attributes(){} // RVA: 0x7AE848330
-        public void get_HasAttributes(){} // RVA: 0x7AE848560
-        public void GetAttribute(){} // RVA: 0x7AE8488D0
-        public void SetAttribute(){} // RVA: 0x7AE848980
-        public void GetAttributeNode(){} // RVA: 0x7AE848AC0
-        public void SetAttributeNode(){} // RVA: 0x7AE848B50
-        public void HasAttribute(){} // RVA: 0x7AE848C50
-        public void WriteTo(){} // RVA: 0x7AE848C80
-        public void WriteElementTo(){} // RVA: 0x7AE848DE0
-        public void WriteStartElement(){} // RVA: 0x7AE849060
-        public void WriteContentTo(){} // RVA: 0x7AE83D850
-        public void RemoveAllAttributes(){} // RVA: 0x7AE8491A0
-        public void RemoveAll(){} // RVA: 0x7AE8492B0
-        public void RemoveAllChildren(){} // RVA: 0x7AE8492E0
-        public void get_SchemaInfo(){} // RVA: 0x7A81052C0
-        public void set_InnerXml(){} // RVA: 0x7AE8492F0
-        public void get_InnerText(){} // RVA: 0x7AE8494E0
-        public void set_InnerText(){} // RVA: 0x7AE8494F0
-        public void get_NextSibling(){} // RVA: 0x7AE8495E0
-        public void SetParent(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x74BC710
+        public void get_XmlName(){} // RVA: 0xB700F0
+        public void set_XmlName(){} // RVA: 0xB70100
+        public void CloneNode(){} // RVA: 0x74BC780
+        public void get_Name(){} // RVA: 0x74BCC60
+        public void get_LocalName(){} // RVA: 0xB4B8A0
+        public void get_NamespaceURI(){} // RVA: 0x74BCC80
+        public void get_Prefix(){} // RVA: 0x1853470
+        public void set_Prefix(){} // RVA: 0x74BCCA0
+        public void get_NodeType(){} // RVA: 0xC3CCE0
+        public void get_ParentNode(){} // RVA: 0xB5DBF0
+        public void get_OwnerDocument(){} // RVA: 0x74BCDC0
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void AppendChildForLoad(){} // RVA: 0x74BCDE0
+        public void get_IsEmpty(){} // RVA: 0x74BD1A0
+        public void set_IsEmpty(){} // RVA: 0x74BD1B0
+        public void get_LastNode(){} // RVA: 0x74BD290
+        public void set_LastNode(){} // RVA: 0xB708C0
+        public void IsValidChildType(){} // RVA: 0x74BD2A0
+        public void get_Attributes(){} // RVA: 0x74BD300
+        public void get_HasAttributes(){} // RVA: 0x74BD530
+        public void GetAttribute(){} // RVA: 0x74BD860
+        public void SetAttribute(){} // RVA: 0x74BD8B0
+        public void GetAttributeNode(){} // RVA: 0x74BD9D0
+        public void SetAttributeNode(){} // RVA: 0x74BDA60
+        public void HasAttribute(){} // RVA: 0x74BDB30
+        public void WriteTo(){} // RVA: 0x74BDB60
+        public void WriteElementTo(){} // RVA: 0x74BDC90
+        public void WriteStartElement(){} // RVA: 0x74BDED0
+        public void WriteContentTo(){} // RVA: 0x74B27E0
+        public void RemoveAllAttributes(){} // RVA: 0x74BE010
+        public void RemoveAll(){} // RVA: 0x74BE120
+        public void RemoveAllChildren(){} // RVA: 0x74BE150
+        public void get_SchemaInfo(){} // RVA: 0xB700F0
+        public void set_InnerXml(){} // RVA: 0x74BE160
+        public void get_InnerText(){} // RVA: 0x74BE350
+        public void set_InnerText(){} // RVA: 0x74BE360
+        public void get_NextSibling(){} // RVA: 0x74BE450
+        public void SetParent(){} // RVA: 0xB44D60
     }
 
     public class XmlEncodedRawTextWriter : XmlRawWriter
     {
+        public object useAsync;
+        public object bufBytes;
+        public object stream;
+        public object encoding;
+        public object xmlCharType;
+        public object bufPos;
+        public object textPos;
+        public object contentPos;
+        public object cdataPos;
+        public object attrEndPos;
+        public object bufLen;
+        public object writeToNull;
+        public object hadDoubleBracket;
+        public object inAttributeValue;
+        public object bufBytesUsed;
+        public object bufChars;
+        public object encoder;
+        public object writer;
+        public object trackTextContent;
+        public object inTextContent;
+        public object lastMarkPos;
+        public object textContentMarks;
+        public object charEntityFallback;
+        public object newLineHandling;
+        public object closeOutput;
+        public object omitXmlDeclaration;
+        public object newLineChars;
+        public object checkCharacters;
+        public object standalone;
+        public object outputMethod;
+        public object autoXmlDeclaration;
+        public object mergeCDataSections;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE809C10
-        public void WriteXmlDeclaration(){} // RVA: 0x7AE80A3D0
-        public void WriteDocType(){} // RVA: 0x7AE80A440
-        public void WriteStartElement(){} // RVA: 0x7AE80A6E0
-        public void StartElementContent(){} // RVA: 0x7AE80A7C0
-        public void WriteEndElement(){} // RVA: 0x7AE80A800
-        public void WriteFullEndElement(){} // RVA: 0x7AE80A980
-        public void WriteStartAttribute(){} // RVA: 0x7AE80AAA0
-        public void WriteEndAttribute(){} // RVA: 0x7AE80ABC0
-        public void WriteNamespaceDeclaration(){} // RVA: 0x7AE80AC20
-        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0x7A81BD750
-        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7AE80AC80
-        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7AE80ADE0
-        public void WriteCData(){} // RVA: 0x7AE80AE40
-        public void WriteComment(){} // RVA: 0x7AE80B080
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE80B1E0
-        public void WriteEntityRef(){} // RVA: 0x7AE80B330
-        public void WriteCharEntity(){} // RVA: 0x7AE80B400
-        public void WriteWhitespace(){} // RVA: 0x7AE80B680
-        public void WriteString(){} // RVA: 0x7AE80B700
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE80B780
-        public void WriteChars(){} // RVA: 0x7AE6EE450
-        public void WriteRaw(){} // RVA: 0x7AE805550
-        public void Close(){} // RVA: 0x7AE80BA10
-        public void Flush(){} // RVA: 0x7AE80BCF0
-        public void FlushBuffer(){} // RVA: 0x7AE80BD80
-        public void EncodeChars(){} // RVA: 0x7AE80C2E0
-        public void FlushEncoder(){} // RVA: 0x7AE80C460
-        public void WriteAttributeTextBlock(){} // RVA: 0x7AE80C540
-        public void WriteElementTextBlock(){} // RVA: 0x7AE80C850
-        public void RawText(){} // RVA: 0x7AE80CBB0
-        public void WriteRawWithCharChecking(){} // RVA: 0x7AE80CD50
-        public void WriteCommentOrPi(){} // RVA: 0x7AE80CFE0
-        public void WriteCDataSection(){} // RVA: 0x7AE80D370
-        public void EncodeSurrogate(){} // RVA: 0x7AE80D6F0
-        public void InvalidXmlChar(){} // RVA: 0x7AE80D870
-        public void EncodeChar(){} // RVA: 0x7AE80DA20
-        public void ChangeTextContentMark(){} // RVA: 0x7AE80DB00
-        public void GrowTextContentMarks(){} // RVA: 0x7AE80DB80
-        public void WriteNewLine(){} // RVA: 0x7AE80DD20
-        public void LtEntity(){} // RVA: 0x7AE80DDA0
-        public void GtEntity(){} // RVA: 0x7AE80DDC0
-        public void AmpEntity(){} // RVA: 0x7AE80DDE0
-        public void QuoteEntity(){} // RVA: 0x7AE80DE00
-        public void TabEntity(){} // RVA: 0x7AE80DE20
-        public void LineFeedEntity(){} // RVA: 0x7AE80DE40
-        public void CarriageReturnEntity(){} // RVA: 0x7AE80DE60
-        public void CharEntity(){} // RVA: 0x7AE80DE80
-        public void RawStartCData(){} // RVA: 0x7AE80DFD0
-        public void RawEndCData(){} // RVA: 0x7AE80E000
-        public void ValidateContentChars(){} // RVA: 0x7AE80E020
+        public void .ctor(){} // RVA: 0x747F2B0
+        public void WriteXmlDeclaration(){} // RVA: 0x747FA70
+        public void WriteDocType(){} // RVA: 0x747FAE0
+        public void WriteStartElement(){} // RVA: 0x747FD80
+        public void StartElementContent(){} // RVA: 0x747FE60
+        public void WriteEndElement(){} // RVA: 0x747FEA0
+        public void WriteFullEndElement(){} // RVA: 0x7480020
+        public void WriteStartAttribute(){} // RVA: 0x7480140
+        public void WriteEndAttribute(){} // RVA: 0x7480260
+        public void WriteNamespaceDeclaration(){} // RVA: 0x74802C0
+        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0xC2E4C0
+        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7480320
+        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7480480
+        public void WriteCData(){} // RVA: 0x74804E0
+        public void WriteComment(){} // RVA: 0x7480720
+        public void WriteProcessingInstruction(){} // RVA: 0x7480880
+        public void WriteEntityRef(){} // RVA: 0x74809D0
+        public void WriteCharEntity(){} // RVA: 0x7480AA0
+        public void WriteWhitespace(){} // RVA: 0x7480D20
+        public void WriteString(){} // RVA: 0x7480DA0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7480E20
+        public void WriteChars(){} // RVA: 0x7364230
+        public void WriteRaw(){} // RVA: 0x747AC70
+        public void Close(){} // RVA: 0x74810B0
+        public void Flush(){} // RVA: 0x7481390
+        public void FlushBuffer(){} // RVA: 0x7481420
+        public void EncodeChars(){} // RVA: 0x7481980
+        public void FlushEncoder(){} // RVA: 0x7481B00
+        public void WriteAttributeTextBlock(){} // RVA: 0x7481BE0
+        public void WriteElementTextBlock(){} // RVA: 0x7481EF0
+        public void RawText(){} // RVA: 0x7482250
+        public void WriteRawWithCharChecking(){} // RVA: 0x74823F0
+        public void WriteCommentOrPi(){} // RVA: 0x7482680
+        public void WriteCDataSection(){} // RVA: 0x7482A10
+        public void EncodeSurrogate(){} // RVA: 0x7482D90
+        public void InvalidXmlChar(){} // RVA: 0x7482F10
+        public void EncodeChar(){} // RVA: 0x74830C0
+        public void ChangeTextContentMark(){} // RVA: 0x74831A0
+        public void GrowTextContentMarks(){} // RVA: 0x7483220
+        public void WriteNewLine(){} // RVA: 0x74833C0
+        public void LtEntity(){} // RVA: 0x7483440
+        public void GtEntity(){} // RVA: 0x7483460
+        public void AmpEntity(){} // RVA: 0x7483480
+        public void QuoteEntity(){} // RVA: 0x74834A0
+        public void TabEntity(){} // RVA: 0x74834C0
+        public void LineFeedEntity(){} // RVA: 0x74834E0
+        public void CarriageReturnEntity(){} // RVA: 0x7483500
+        public void CharEntity(){} // RVA: 0x7483520
+        public void RawStartCData(){} // RVA: 0x7483670
+        public void RawEndCData(){} // RVA: 0x74836A0
+        public void ValidateContentChars(){} // RVA: 0x74836C0
     }
 
     public class XmlEncodedRawTextWriterIndent : XmlEncodedRawTextWriter
     {
+        public object indentLevel;
+        public object newLineOnAttributes;
+        public object indentChars;
+        public object mixedContent;
+        public object mixedContentStack;
+        public object conformanceLevel;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE80E450
-        public void WriteDocType(){} // RVA: 0x7AE80E480
-        public void WriteStartElement(){} // RVA: 0x7AE80E4F0
-        public void StartElementContent(){} // RVA: 0x7AE80E630
-        public void OnRootElement(){} // RVA: 0x7A9B14860
-        public void WriteEndElement(){} // RVA: 0x7AE80E6A0
-        public void WriteFullEndElement(){} // RVA: 0x7AE80E780
-        public void WriteStartAttribute(){} // RVA: 0x7AE80E860
-        public void WriteCData(){} // RVA: 0x7AE80E8C0
-        public void WriteComment(){} // RVA: 0x7AE80E8D0
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE80E910
-        public void WriteEntityRef(){} // RVA: 0x7AE80E960
-        public void WriteCharEntity(){} // RVA: 0x7AE80EA30
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE80EA40
-        public void WriteWhitespace(){} // RVA: 0x7AE80EA50
-        public void WriteString(){} // RVA: 0x7AE80EAD0
-        public void WriteChars(){} // RVA: 0x7AE80EB50
-        public void WriteRaw(){} // RVA: 0x7AE80EC80
-        public void WriteBase64(){} // RVA: 0x7AE80ECF0
-        public void Init(){} // RVA: 0x7AE80ED10
-        public void WriteIndent(){} // RVA: 0x7AE80EEF0
+        public void .ctor(){} // RVA: 0x7483AF0
+        public void WriteDocType(){} // RVA: 0x7483B20
+        public void WriteStartElement(){} // RVA: 0x7483B90
+        public void StartElementContent(){} // RVA: 0x7483CD0
+        public void OnRootElement(){} // RVA: 0x25C0CE0
+        public void WriteEndElement(){} // RVA: 0x7483D40
+        public void WriteFullEndElement(){} // RVA: 0x7483E20
+        public void WriteStartAttribute(){} // RVA: 0x7483F00
+        public void WriteCData(){} // RVA: 0x7483F60
+        public void WriteComment(){} // RVA: 0x7483F70
+        public void WriteProcessingInstruction(){} // RVA: 0x7483FB0
+        public void WriteEntityRef(){} // RVA: 0x7484000
+        public void WriteCharEntity(){} // RVA: 0x74840D0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x74840E0
+        public void WriteWhitespace(){} // RVA: 0x74840F0
+        public void WriteString(){} // RVA: 0x7484170
+        public void WriteChars(){} // RVA: 0x74841F0
+        public void WriteRaw(){} // RVA: 0x7484320
+        public void WriteBase64(){} // RVA: 0x7484390
+        public void Init(){} // RVA: 0x74843B0
+        public void WriteIndent(){} // RVA: 0x7484590
     }
 
     public class XmlEntity : XmlNode
     {
+        public object publicId;
+        public object systemId;
+        public object notationName;
+        public object name;
+        public object unparsedReplacementStr;
+        public object baseURI;
+        public object lastChild;
+        public object childrenFoliating;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE849620
-        public void CloneNode(){} // RVA: 0x7AE849930
-        public void get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void get_Name(){} // RVA: 0x7A83F69F0
-        public void get_LocalName(){} // RVA: 0x7A83F69F0
-        public void get_InnerText(){} // RVA: 0x7AE8494E0
-        public void set_InnerText(){} // RVA: 0x7AE849990
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void get_LastNode(){} // RVA: 0x7AE8499F0
-        public void set_LastNode(){} // RVA: 0x7A8152D90
-        public void IsValidChildType(){} // RVA: 0x7AE849B00
-        public void get_NodeType(){} // RVA: 0x7A8842E60
-        public void get_SystemId(){} // RVA: 0x7A81052C0
-        public void set_InnerXml(){} // RVA: 0x7AE849B20
-        public void WriteTo(){} // RVA: 0x7A80D7310
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_BaseURI(){} // RVA: 0x7A8154D80
-        public void SetBaseURI(){} // RVA: 0x7A80FF440
+        public void .ctor(){} // RVA: 0x74BE490
+        public void CloneNode(){} // RVA: 0x74BE7A0
+        public void get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void get_Name(){} // RVA: 0xD33E60
+        public void get_LocalName(){} // RVA: 0xD33E60
+        public void get_InnerText(){} // RVA: 0x74BE350
+        public void set_InnerText(){} // RVA: 0x74BE800
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void get_LastNode(){} // RVA: 0x74BE860
+        public void set_LastNode(){} // RVA: 0xBBF900
+        public void IsValidChildType(){} // RVA: 0x74BE970
+        public void get_NodeType(){} // RVA: 0x13510C0
+        public void get_SystemId(){} // RVA: 0xB700F0
+        public void set_InnerXml(){} // RVA: 0x74BE990
+        public void WriteTo(){} // RVA: 0xB43310
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_BaseURI(){} // RVA: 0xBC1B30
+        public void SetBaseURI(){} // RVA: 0xB6A8C0
     }
 
     public class XmlEntityReference : XmlLinkedNode
     {
+        public object name;
+        public object lastChild;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE849B80
-        public void get_Name(){} // RVA: 0x7A81052C0
-        public void get_LocalName(){} // RVA: 0x7A81052C0
-        public void get_Value(){} // RVA: 0x7A82D1450
-        public void set_Value(){} // RVA: 0x7AE849CC0
-        public void get_NodeType(){} // RVA: 0x7A8401A30
-        public void CloneNode(){} // RVA: 0x7AE849D20
-        public void get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void get_IsContainer(){} // RVA: 0x7A81BD750
-        public void SetParent(){} // RVA: 0x7AE849D70
-        public void SetParentForLoad(){} // RVA: 0x7AE849EF0
-        public void get_LastNode(){} // RVA: 0x7A8105330
-        public void set_LastNode(){} // RVA: 0x7A80D8E80
-        public void IsValidChildType(){} // RVA: 0x7AE8482D0
-        public void WriteTo(){} // RVA: 0x7AE849F10
-        public void WriteContentTo(){} // RVA: 0x7AE849F50
-        public void get_BaseURI(){} // RVA: 0x7AE84A1A0
-        public void ConstructBaseURI(){} // RVA: 0x7AE84A1E0
-        public void get_ChildBaseURI(){} // RVA: 0x7AE84A2B0
+        public void .ctor(){} // RVA: 0x74BE9F0
+        public void get_Name(){} // RVA: 0xB700F0
+        public void get_LocalName(){} // RVA: 0xB700F0
+        public void get_Value(){} // RVA: 0xDAC980
+        public void set_Value(){} // RVA: 0x74BEB30
+        public void get_NodeType(){} // RVA: 0xEF4110
+        public void CloneNode(){} // RVA: 0x74BEB90
+        public void get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void get_IsContainer(){} // RVA: 0xC2E4C0
+        public void SetParent(){} // RVA: 0x74BEBE0
+        public void SetParentForLoad(){} // RVA: 0x74BED60
+        public void get_LastNode(){} // RVA: 0xB70160
+        public void set_LastNode(){} // RVA: 0xB44DC0
+        public void IsValidChildType(){} // RVA: 0x74BD2A0
+        public void WriteTo(){} // RVA: 0x74BED80
+        public void WriteContentTo(){} // RVA: 0x74BEDC0
+        public void get_BaseURI(){} // RVA: 0x74BF010
+        public void ConstructBaseURI(){} // RVA: 0x74BF050
+        public void get_ChildBaseURI(){} // RVA: 0x74BF120
     }
 
     public class XmlEventCache : XmlRawWriter
     {
+        public object pages;
+        public object pageCurr;
+        public object pageSize;
+        public object hasRootNode;
+        public object singleText;
+        public object baseUri;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE80EF70
-        public void EndEvents(){} // RVA: 0x7AE80EFD0
-        public void EventsToWriter(){} // RVA: 0x7AE80F020
-        public void WriteDocType(){} // RVA: 0x7AE80FB60
-        public void WriteStartElement(){} // RVA: 0x7AE80FBF0
-        public void WriteStartAttribute(){} // RVA: 0x7AE80FC80
-        public void WriteEndAttribute(){} // RVA: 0x7AE80FD10
-        public void WriteCData(){} // RVA: 0x7AE80FD50
-        public void WriteComment(){} // RVA: 0x7AE80FD60
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE80FD70
-        public void WriteWhitespace(){} // RVA: 0x7AE80FDA0
-        public void WriteString(){} // RVA: 0x7AE80FDB0
-        public void WriteChars(){} // RVA: 0x7A9240680
-        public void WriteRaw(){} // RVA: 0x7AE80FDE0
-        public void WriteEntityRef(){} // RVA: 0x7AE80FDF0
-        public void WriteCharEntity(){} // RVA: 0x7AE80FE00
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE80FE70
-        public void WriteBase64(){} // RVA: 0x7AE80FF10
-        public void WriteBinHex(){} // RVA: 0x7AE80FF50
-        public void Close(){} // RVA: 0x7AE80FF90
-        public void Flush(){} // RVA: 0x7AE80FFD0
-        public void WriteValue(){} // RVA: 0x7AE810010
-        public void Dispose(){} // RVA: 0x7AE810030
-        public void WriteXmlDeclaration(){} // RVA: 0x7AE8101A0
-        public void StartElementContent(){} // RVA: 0x7AE8101B0
-        public void WriteEndElement(){} // RVA: 0x7AE8101F0
-        public void WriteFullEndElement(){} // RVA: 0x7AE810280
-        public void WriteNamespaceDeclaration(){} // RVA: 0x7AE810310
-        public void WriteEndBase64(){} // RVA: 0x7AE810340
-        public void AddEvent(){} // RVA: 0x7AE810600
-        public void NewEvent(){} // RVA: 0x7AE8106B0
-        public void ToBytes(){} // RVA: 0x7AE810970
+        public void .ctor(){} // RVA: 0x7484610
+        public void EndEvents(){} // RVA: 0x7484670
+        public void EventsToWriter(){} // RVA: 0x74846C0
+        public void WriteDocType(){} // RVA: 0x74851E0
+        public void WriteStartElement(){} // RVA: 0x7485270
+        public void WriteStartAttribute(){} // RVA: 0x7485300
+        public void WriteEndAttribute(){} // RVA: 0x7485390
+        public void WriteCData(){} // RVA: 0x74853D0
+        public void WriteComment(){} // RVA: 0x74853E0
+        public void WriteProcessingInstruction(){} // RVA: 0x74853F0
+        public void WriteWhitespace(){} // RVA: 0x7485420
+        public void WriteString(){} // RVA: 0x7485430
+        public void WriteChars(){} // RVA: 0x1D55C90
+        public void WriteRaw(){} // RVA: 0x7485460
+        public void WriteEntityRef(){} // RVA: 0x7485470
+        public void WriteCharEntity(){} // RVA: 0x7485480
+        public void WriteSurrogateCharEntity(){} // RVA: 0x74854C0
+        public void WriteBase64(){} // RVA: 0x7485560
+        public void WriteBinHex(){} // RVA: 0x74855A0
+        public void Close(){} // RVA: 0x74855E0
+        public void Flush(){} // RVA: 0x7485620
+        public void WriteValue(){} // RVA: 0x7485660
+        public void Dispose(){} // RVA: 0x7485680
+        public void WriteXmlDeclaration(){} // RVA: 0x74857F0
+        public void StartElementContent(){} // RVA: 0x7485800
+        public void WriteEndElement(){} // RVA: 0x7485840
+        public void WriteFullEndElement(){} // RVA: 0x74858D0
+        public void WriteNamespaceDeclaration(){} // RVA: 0x7485960
+        public void WriteEndBase64(){} // RVA: 0x7485990
+        public void AddEvent(){} // RVA: 0x7485C50
+        public void NewEvent(){} // RVA: 0x7485D00
+        public void ToBytes(){} // RVA: 0x7485FC0
     }
 
     public class XmlException : SystemException
     {
+        public object res;
+        public object args;
+        public object lineNumber;
+        public object linePosition;
+        public object sourceUri;
+        public object message;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE87E370
-        public void GetObjectData(){} // RVA: 0x7AE87D1D0
-        public void FormatUserMessage(){} // RVA: 0x7AE87E500
-        public void CreateMessage(){} // RVA: 0x7AE87E610
-        public void BuildCharExceptionArgs(){} // RVA: 0x7AE87E860
-        public void get_LineNumber(){} // RVA: 0x7A9B79A40
-        public void get_LinePosition(){} // RVA: 0x7ABA390E0
-        public void get_Message(){} // RVA: 0x7AE87EB80
-        public void get_ResString(){} // RVA: 0x7A8555100
+        public void .ctor(){} // RVA: 0x74F2BE0
+        public void GetObjectData(){} // RVA: 0x74F1A60
+        public void FormatUserMessage(){} // RVA: 0x74F2D70
+        public void CreateMessage(){} // RVA: 0x74F2E80
+        public void BuildCharExceptionArgs(){} // RVA: 0x74F30D0
+        public void get_LineNumber(){} // RVA: 0x262A8F0
+        public void get_LinePosition(){} // RVA: 0x6C8E620
+        public void get_Message(){} // RVA: 0x74F33B0
+        public void get_ResString(){} // RVA: 0x1069350
     }
 
     public class XmlImplementation : Object
     {
+        public object nameTable;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void CreateDocument(){} // RVA: 0x7AE84A5A0
-        public void get_NameTable(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0xB44D60
+        public void CreateDocument(){} // RVA: 0x74BF3F0
+        public void get_NameTable(){} // RVA: 0xB5DBF0
     }
 
     public class XmlLinkedNode : XmlNode
     {
+        public object next;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE84A600
-        public void get_PreviousSibling(){} // RVA: 0x7AE84A730
-        public void get_NextSibling(){} // RVA: 0x7AE84A7C0
+        public void .ctor(){} // RVA: 0x74BF450
+        public void get_PreviousSibling(){} // RVA: 0x74BF580
+        public void get_NextSibling(){} // RVA: 0x74BF610
     }
 
     public class XmlLoader : Object
     {
+        public object doc;
+        public object reader;
+        public object preserveWhitespace;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Load(){} // RVA: 0x7AE84A820
-        public void LoadDocSequence(){} // RVA: 0x7AE84AC60
-        public void ReadCurrentNode(){} // RVA: 0x7AE84ACE0
-        public void LoadNode(){} // RVA: 0x7AE84AF20
-        public void LoadAttributeNode(){} // RVA: 0x7AE84B6D0
-        public void LoadDefaultAttribute(){} // RVA: 0x7AE84BA80
-        public void LoadAttributeValue(){} // RVA: 0x7AE84BCB0
-        public void LoadEntityReferenceNode(){} // RVA: 0x7AE84C000
-        public void LoadDeclarationNode(){} // RVA: 0x7AE84C260
-        public void LoadDocumentTypeNode(){} // RVA: 0x7AE84C4E0
-        public void LoadNodeDirect(){} // RVA: 0x7AE84C780
-        public void LoadAttributeNodeDirect(){} // RVA: 0x7AE84CD90
-        public void ParseDocumentType(){} // RVA: 0x7AE84D000
-        public void LoadDocumentType(){} // RVA: 0x7AE84D3A0
-        public void GetContext(){} // RVA: 0x7AE84E510
-        public void ParsePartialContent(){} // RVA: 0x7AE84EF90
-        public void LoadInnerXmlElement(){} // RVA: 0x7AE84F2A0
-        public void LoadInnerXmlAttribute(){} // RVA: 0x7AE84F440
-        public void RemoveDuplicateNamespace(){} // RVA: 0x7AE84F460
-        public void EntitizeName(){} // RVA: 0x7AE84F830
-        public void ExpandEntity(){} // RVA: 0x7AE84F890
-        public void ExpandEntityReference(){} // RVA: 0x7AE84F950
-        public void CreateInnerXmlReader(){} // RVA: 0x7AE8500C0
-        public void ParseXmlDeclarationValue(){} // RVA: 0x7AE850360
-        public void UnexpectedNodeType(){} // RVA: 0x7AE8508A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Load(){} // RVA: 0x74BF670
+        public void LoadDocSequence(){} // RVA: 0x74BFA80
+        public void ReadCurrentNode(){} // RVA: 0x74BFB00
+        public void LoadNode(){} // RVA: 0x74BFD40
+        public void LoadAttributeNode(){} // RVA: 0x74C04F0
+        public void LoadDefaultAttribute(){} // RVA: 0x74C0880
+        public void LoadAttributeValue(){} // RVA: 0x74C0AB0
+        public void LoadEntityReferenceNode(){} // RVA: 0x74C0DF0
+        public void LoadDeclarationNode(){} // RVA: 0x74C1040
+        public void LoadDocumentTypeNode(){} // RVA: 0x74C12C0
+        public void LoadNodeDirect(){} // RVA: 0x74C1560
+        public void LoadAttributeNodeDirect(){} // RVA: 0x74C1B70
+        public void ParseDocumentType(){} // RVA: 0x74C1DE0
+        public void LoadDocumentType(){} // RVA: 0x74C2170
+        public void GetContext(){} // RVA: 0x74C3310
+        public void ParsePartialContent(){} // RVA: 0x74C3D80
+        public void LoadInnerXmlElement(){} // RVA: 0x74C4090
+        public void LoadInnerXmlAttribute(){} // RVA: 0x74C4230
+        public void RemoveDuplicateNamespace(){} // RVA: 0x74C4250
+        public void EntitizeName(){} // RVA: 0x74C4620
+        public void ExpandEntity(){} // RVA: 0x74C4680
+        public void ExpandEntityReference(){} // RVA: 0x74C4740
+        public void CreateInnerXmlReader(){} // RVA: 0x74C4EB0
+        public void ParseXmlDeclarationValue(){} // RVA: 0x74C5150
+        public void UnexpectedNodeType(){} // RVA: 0x74C5670
     }
 
     public class XmlName : Object
     {
+        public object prefix;
+        public object localName;
+        public object ns;
+        public object name;
+        public object hashCode;
+        public object ownerDoc;
+        public object next;
+
         // ── Methods ──
-        public void Create(){} // RVA: 0x7AE850A10
-        public void .ctor(){} // RVA: 0x7AE850B30
-        public void get_LocalName(){} // RVA: 0x7A80DA7B0
-        public void get_NamespaceURI(){} // RVA: 0x7A81052C0
-        public void get_Prefix(){} // RVA: 0x7A80F2570
-        public void get_HashCode(){} // RVA: 0x7A8133100
-        public void get_OwnerDocument(){} // RVA: 0x7A8292C30
-        public void get_Name(){} // RVA: 0x7AE850D50
-        public void get_Validity(){} // RVA: 0x7A82D1450
-        public void get_IsDefault(){} // RVA: 0x7A80D7320
-        public void get_IsNil(){} // RVA: 0x7A80D7320
-        public void get_MemberType(){} // RVA: 0x7A82D1450
-        public void get_SchemaType(){} // RVA: 0x7A82D1450
-        public void get_SchemaElement(){} // RVA: 0x7A82D1450
-        public void get_SchemaAttribute(){} // RVA: 0x7A82D1450
-        public void Equals(){} // RVA: 0x7A9203000
-        public void GetHashCode(){} // RVA: 0x7AE850FE0
+        public void Create(){} // RVA: 0x74C57E0
+        public void .ctor(){} // RVA: 0x74C5900
+        public void get_LocalName(){} // RVA: 0xB465B0
+        public void get_NamespaceURI(){} // RVA: 0xB700F0
+        public void get_Prefix(){} // RVA: 0xB5DBF0
+        public void get_HashCode(){} // RVA: 0xB9E080
+        public void get_OwnerDocument(){} // RVA: 0xD05CA0
+        public void get_Name(){} // RVA: 0x74C5B20
+        public void get_Validity(){} // RVA: 0xDAC980
+        public void get_IsDefault(){} // RVA: 0xB43320
+        public void get_IsNil(){} // RVA: 0xB43320
+        public void get_MemberType(){} // RVA: 0xDAC980
+        public void get_SchemaType(){} // RVA: 0xDAC980
+        public void get_SchemaElement(){} // RVA: 0xDAC980
+        public void get_SchemaAttribute(){} // RVA: 0xDAC980
+        public void Equals(){} // RVA: 0x1D16BD0
+        public void GetHashCode(){} // RVA: 0x74C5DB0
     }
 
     public class XmlNameEx : XmlName
     {
+        public object flags;
+        public object memberType;
+        public object schemaType;
+        public object decl;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE851050
-        public void get_Validity(){} // RVA: 0x7AE8512B0
-        public void get_IsDefault(){} // RVA: 0x7AE8512E0
-        public void get_IsNil(){} // RVA: 0x7AE8512F0
-        public void get_MemberType(){} // RVA: 0x7A8178B90
-        public void get_SchemaType(){} // RVA: 0x7A81A0050
-        public void get_SchemaElement(){} // RVA: 0x7AE851300
-        public void get_SchemaAttribute(){} // RVA: 0x7AE851380
-        public void SetValidity(){} // RVA: 0x7AE851400
-        public void SetIsDefault(){} // RVA: 0x7AE851410
-        public void SetIsNil(){} // RVA: 0x7AE851440
-        public void Equals(){} // RVA: 0x7AE851470
+        public void .ctor(){} // RVA: 0x74C5E20
+        public void get_Validity(){} // RVA: 0x74C6080
+        public void get_IsDefault(){} // RVA: 0x74C60B0
+        public void get_IsNil(){} // RVA: 0x74C60C0
+        public void get_MemberType(){} // RVA: 0xBE58B0
+        public void get_SchemaType(){} // RVA: 0xC0FFC0
+        public void get_SchemaElement(){} // RVA: 0x74C60D0
+        public void get_SchemaAttribute(){} // RVA: 0x74C6150
+        public void SetValidity(){} // RVA: 0x74C61D0
+        public void SetIsDefault(){} // RVA: 0x74C61E0
+        public void SetIsNil(){} // RVA: 0x74C6210
+        public void Equals(){} // RVA: 0x74C6240
     }
 
     public class XmlNameTable : Object
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7A7E00B20
-        public void Add(){} // RVA: 0x7A7E00B20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Get(){} // RVA: 0x87C540
+        public void Add(){} // RVA: 0x87C540
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlNamedNodeMap : Object
     {
+        public object parent;
+        public object nodes;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void GetNamedItem(){} // RVA: 0x7AE851630
-        public void SetNamedItem(){} // RVA: 0x7AE8517E0
-        public void get_Count(){} // RVA: 0x7AE83E7E0
-        public void GetEnumerator(){} // RVA: 0x7AE8518C0
-        public void FindNodeOffset(){} // RVA: 0x7AE851A00
-        public void AddNode(){} // RVA: 0x7AE851B90
-        public void AddNodeForLoad(){} // RVA: 0x7AE851D40
-        public void RemoveNodeAt(){} // RVA: 0x7AE851E10
-        public void ReplaceNodeAt(){} // RVA: 0x7AE851F90
-        public void InsertNodeAt(){} // RVA: 0x7AE852000
+        public void .ctor(){} // RVA: 0xB44D60
+        public void GetNamedItem(){} // RVA: 0x74C6400
+        public void SetNamedItem(){} // RVA: 0x74C65B0
+        public void get_Count(){} // RVA: 0x74B3730
+        public void GetEnumerator(){} // RVA: 0x74C6690
+        public void FindNodeOffset(){} // RVA: 0x74C67D0
+        public void AddNode(){} // RVA: 0x74C6960
+        public void AddNodeForLoad(){} // RVA: 0x74C6B10
+        public void RemoveNodeAt(){} // RVA: 0x74C6BE0
+        public void ReplaceNodeAt(){} // RVA: 0x74C6D60
+        public void InsertNodeAt(){} // RVA: 0x74C6DD0
     }
 
     public class XmlNamespaceManager : Object
     {
+        public object nsdecls;
+        public object lastDecl;
+        public object nameTable;
+        public object scopeId;
+        public object hashTable;
+        public object useHashtable;
+        public object xml;
+        public object xmlNs;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE87EBA0
-        public void get_NameTable(){} // RVA: 0x7A81052C0
-        public void get_DefaultNamespace(){} // RVA: 0x7AE87EF20
-        public void PushScope(){} // RVA: 0x7AC20FD40
-        public void PopScope(){} // RVA: 0x7AE87EF90
-        public void AddNamespace(){} // RVA: 0x7AE87F0A0
-        public void RemoveNamespace(){} // RVA: 0x7AE87F560
-        public void GetEnumerator(){} // RVA: 0x7AE87F720
-        public void GetNamespacesInScope(){} // RVA: 0x7AE87F920
-        public void LookupNamespace(){} // RVA: 0x7AE87FAF0
-        public void LookupNamespaceDecl(){} // RVA: 0x7AE87FB40
-        public void LookupPrefix(){} // RVA: 0x7AE87FD60
+        public void .ctor(){} // RVA: 0x74F33D0
+        public void get_NameTable(){} // RVA: 0xB700F0
+        public void get_DefaultNamespace(){} // RVA: 0x74F3740
+        public void PushScope(){} // RVA: 0x4F237D0
+        public void PopScope(){} // RVA: 0x74F3790
+        public void AddNamespace(){} // RVA: 0x74F38A0
+        public void RemoveNamespace(){} // RVA: 0x74F3D60
+        public void GetEnumerator(){} // RVA: 0x74F3F20
+        public void GetNamespacesInScope(){} // RVA: 0x74F4120
+        public void LookupNamespace(){} // RVA: 0x74F42F0
+        public void LookupNamespaceDecl(){} // RVA: 0x74F4340
+        public void LookupPrefix(){} // RVA: 0x74F4560
     }
 
     public class XmlNode : Object
     {
+        public object parentNode;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE852AE0
-        public void get_Name(){} // RVA: 0x7A7E00680
-        public void get_Value(){} // RVA: 0x7A82D1450
-        public void set_Value(){} // RVA: 0x7AE852BB0
-        public void get_NodeType(){} // RVA: 0x7A7E00710
-        public void get_ParentNode(){} // RVA: 0x7AE852C90
-        public void get_ChildNodes(){} // RVA: 0x7AE852D90
-        public void get_PreviousSibling(){} // RVA: 0x7A82D1450
-        public void get_NextSibling(){} // RVA: 0x7A82D1450
-        public void get_Attributes(){} // RVA: 0x7A82D1450
-        public void get_OwnerDocument(){} // RVA: 0x7AE852E20
-        public void get_FirstChild(){} // RVA: 0x7AE852EF0
-        public void get_LastChild(){} // RVA: 0x7AB65E3A0
-        public void get_IsContainer(){} // RVA: 0x7A80D7320
-        public void get_LastNode(){} // RVA: 0x7A82D1450
-        public void set_LastNode(){} // RVA: 0x7A80D7310
-        public void AncestorNode(){} // RVA: 0x7AE852F20
-        public void InsertBefore(){} // RVA: 0x7AE852FA0
-        public void InsertAfter(){} // RVA: 0x7AE853930
-        public void RemoveChild(){} // RVA: 0x7AE8542B0
-        public void PrependChild(){} // RVA: 0x7AE854870
-        public void AppendChild(){} // RVA: 0x7AE8548C0
-        public void AppendChildForLoad(){} // RVA: 0x7AE854F70
-        public void IsValidChildType(){} // RVA: 0x7A80D7320
-        public void CanInsertBefore(){} // RVA: 0x7A81BD750
-        public void CanInsertAfter(){} // RVA: 0x7A81BD750
-        public void get_HasChildNodes(){} // RVA: 0x7AE8552B0
-        public void CloneNode(){} // RVA: 0x7A7E063A0
-        public void CopyChildren(){} // RVA: 0x7AE8552E0
-        public void get_NamespaceURI(){} // RVA: 0x7AE8553A0
-        public void get_Prefix(){} // RVA: 0x7AE8553E0
-        public void set_Prefix(){} // RVA: 0x7A80D7310
-        public void get_LocalName(){} // RVA: 0x7A7E00680
-        public void get_IsReadOnly(){} // RVA: 0x7AE855420
-        public void HasReadOnlyParent(){} // RVA: 0x7AE855500
-        public void System.ICloneable.Clone(){} // RVA: 0x7AE8555E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AE855600
-        public void GetEnumerator(){} // RVA: 0x7AE855660
-        public void AppendChildText(){} // RVA: 0x7AE8556C0
-        public void get_InnerText(){} // RVA: 0x7AE8557F0
-        public void set_InnerText(){} // RVA: 0x7AE855930
-        public void set_InnerXml(){} // RVA: 0x7AE855A40
-        public void get_SchemaInfo(){} // RVA: 0x7AE855AA0
-        public void get_BaseURI(){} // RVA: 0x7AE855B00
-        public void WriteTo(){} // RVA: 0x7A7E18800
-        public void WriteContentTo(){} // RVA: 0x7A7E18800
-        public void RemoveAll(){} // RVA: 0x7AE855C20
-        public void get_Document(){} // RVA: 0x7AE855CA0
-        public void GetPrefixOfNamespace(){} // RVA: 0x7AE855D40
-        public void GetPrefixOfNamespaceStrict(){} // RVA: 0x7AE855DA0
-        public void SetParent(){} // RVA: 0x7AE856260
-        public void SetParentForLoad(){} // RVA: 0x7A80D8E20
-        public void SplitName(){} // RVA: 0x7AE856340
-        public void FindChild(){} // RVA: 0x7AE8564C0
-        public void GetEventArgs(){} // RVA: 0x7AE856550
-        public void BeforeEvent(){} // RVA: 0x7AE856690
-        public void AfterEvent(){} // RVA: 0x7AE8566E0
-        public void get_XmlSpace(){} // RVA: 0x7AE856730
-        public void get_XmlLang(){} // RVA: 0x7AE8569C0
-        public void get_IsText(){} // RVA: 0x7A80D7320
-        public void NestTextNodes(){} // RVA: 0x7AE856AC0
-        public void UnnestTextNodes(){} // RVA: 0x7AE856B20
+        public void .ctor(){} // RVA: 0x74C78B0
+        public void get_Name(){} // RVA: 0x87C0A0
+        public void get_Value(){} // RVA: 0xDAC980
+        public void set_Value(){} // RVA: 0x74C7980
+        public void get_NodeType(){} // RVA: 0x87C130
+        public void get_ParentNode(){} // RVA: 0x74C7A60
+        public void get_ChildNodes(){} // RVA: 0x74C7B60
+        public void get_PreviousSibling(){} // RVA: 0xDAC980
+        public void get_NextSibling(){} // RVA: 0xDAC980
+        public void get_Attributes(){} // RVA: 0xDAC980
+        public void get_OwnerDocument(){} // RVA: 0x74C7BF0
+        public void get_FirstChild(){} // RVA: 0x74C7CC0
+        public void get_LastChild(){} // RVA: 0x42E82B0
+        public void get_IsContainer(){} // RVA: 0xB43320
+        public void get_LastNode(){} // RVA: 0xDAC980
+        public void set_LastNode(){} // RVA: 0xB43310
+        public void AncestorNode(){} // RVA: 0x74C7CF0
+        public void InsertBefore(){} // RVA: 0x74C7D70
+        public void InsertAfter(){} // RVA: 0x74C8700
+        public void RemoveChild(){} // RVA: 0x74C9080
+        public void PrependChild(){} // RVA: 0x74C9640
+        public void AppendChild(){} // RVA: 0x74C9690
+        public void AppendChildForLoad(){} // RVA: 0x74C9D40
+        public void IsValidChildType(){} // RVA: 0xB43320
+        public void CanInsertBefore(){} // RVA: 0xC2E4C0
+        public void CanInsertAfter(){} // RVA: 0xC2E4C0
+        public void get_HasChildNodes(){} // RVA: 0x74CA080
+        public void CloneNode(){} // RVA: 0x881D20
+        public void CopyChildren(){} // RVA: 0x74CA0B0
+        public void get_NamespaceURI(){} // RVA: 0x1584680
+        public void get_Prefix(){} // RVA: 0x1584680
+        public void set_Prefix(){} // RVA: 0xB43310
+        public void get_LocalName(){} // RVA: 0x87C0A0
+        public void get_IsReadOnly(){} // RVA: 0x74CA170
+        public void HasReadOnlyParent(){} // RVA: 0x74CA250
+        public void System.ICloneable.Clone(){} // RVA: 0x74CA330
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x74CA350
+        public void GetEnumerator(){} // RVA: 0x74CA3B0
+        public void AppendChildText(){} // RVA: 0x74CA410
+        public void get_InnerText(){} // RVA: 0x74CA540
+        public void set_InnerText(){} // RVA: 0x74CA670
+        public void set_InnerXml(){} // RVA: 0x74CA780
+        public void get_SchemaInfo(){} // RVA: 0x74CA7E0
+        public void get_BaseURI(){} // RVA: 0x74CA840
+        public void WriteTo(){} // RVA: 0x894320
+        public void WriteContentTo(){} // RVA: 0x894320
+        public void RemoveAll(){} // RVA: 0x74CA950
+        public void get_Document(){} // RVA: 0x74CA9D0
+        public void GetPrefixOfNamespace(){} // RVA: 0x74CAA70
+        public void GetPrefixOfNamespaceStrict(){} // RVA: 0x74CAAA0
+        public void SetParent(){} // RVA: 0x74CAF50
+        public void SetParentForLoad(){} // RVA: 0xB44D60
+        public void SplitName(){} // RVA: 0x74CB030
+        public void FindChild(){} // RVA: 0x74CB1A0
+        public void GetEventArgs(){} // RVA: 0x74CB230
+        public void BeforeEvent(){} // RVA: 0x74CB370
+        public void AfterEvent(){} // RVA: 0x74CB3C0
+        public void get_XmlSpace(){} // RVA: 0x74CB410
+        public void get_XmlLang(){} // RVA: 0x74CB6A0
+        public void get_IsText(){} // RVA: 0xB43320
+        public void NestTextNodes(){} // RVA: 0x74CB790
+        public void UnnestTextNodes(){} // RVA: 0x74CB7F0
     }
 
     public class XmlNodeChangedEventArgs : EventArgs
     {
+        public object action;
+        public object node;
+        public object oldParent;
+        public object newParent;
+        public object oldValue;
+        public object newValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE856BA0
-        public void get_Action(){} // RVA: 0x7A8124910
+        public void .ctor(){} // RVA: 0x74CB870
+        public void get_Action(){} // RVA: 0xB8F8F0
     }
 
     public class XmlNodeChangedEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98B8320
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void .ctor(){} // RVA: 0x23E7D60
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class XmlNodeList : Object
     {
         // ── Methods ──
-        public void Item(){} // RVA: 0x7A7E00740
-        public void get_Count(){} // RVA: 0x7A7E00710
-        public void GetEnumerator(){} // RVA: 0x7A7E00680
-        public void get_ItemOf(){} // RVA: 0x7ABE04E20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7AB5DC320
-        public void PrivateDisposeNodeList(){} // RVA: 0x7A80D7310
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Item(){} // RVA: 0x87C160
+        public void get_Count(){} // RVA: 0x87C130
+        public void GetEnumerator(){} // RVA: 0x87C0A0
+        public void get_ItemOf(){} // RVA: 0x4AB63B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x11F4110
+        public void PrivateDisposeNodeList(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlNodeReader : XmlReader
     {
+        public object readerNav;
+        public object nodeType;
+        public object curDepth;
+        public object readState;
+        public object fEOF;
+        public object bResolveEntity;
+        public object bStartFromDocument;
+        public object bInReadBinary;
+        public object readBinaryHelper;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85BA60
-        public void IsInReadingStates(){} // RVA: 0x7ADF5D750
-        public void get_NodeType(){} // RVA: 0x7AE85BBA0
-        public void get_Name(){} // RVA: 0x7AE85BBB0
-        public void get_LocalName(){} // RVA: 0x7AE85BC20
-        public void get_NamespaceURI(){} // RVA: 0x7AE85BD50
-        public void get_Prefix(){} // RVA: 0x7AE85BDD0
-        public void get_Value(){} // RVA: 0x7AE85BE50
-        public void get_Depth(){} // RVA: 0x7A9739200
-        public void get_BaseURI(){} // RVA: 0x7AE85BEC0
-        public void get_CanResolveEntity(){} // RVA: 0x7A81BD750
-        public void get_IsEmptyElement(){} // RVA: 0x7AE85BF00
-        public void get_IsDefault(){} // RVA: 0x7AE85BF30
-        public void get_XmlSpace(){} // RVA: 0x7AE85C010
-        public void get_XmlLang(){} // RVA: 0x7AE85C060
-        public void get_SchemaInfo(){} // RVA: 0x7AE85C0E0
-        public void get_AttributeCount(){} // RVA: 0x7AE85C130
-        public void GetAttribute(){} // RVA: 0x7AE85C240
-        public void MoveToAttribute(){} // RVA: 0x7AE85C400
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE85C5C0
-        public void MoveToNextAttribute(){} // RVA: 0x7AE85C6B0
-        public void MoveToElement(){} // RVA: 0x7AE85C7C0
-        public void Read(){} // RVA: 0x7AE85C930
-        public void ReadNextNode(){} // RVA: 0x7AE85CB00
-        public void SetEndOfFile(){} // RVA: 0x7AE85CDC0
-        public void ReadAtZeroLevel(){} // RVA: 0x7AE85CDE0
-        public void ReadForward(){} // RVA: 0x7AE85CE80
-        public void ReSetReadingMarks(){} // RVA: 0x7AE85D070
-        public void get_EOF(){} // RVA: 0x7AE85D0A0
-        public void Close(){} // RVA: 0x7AE85D0B0
-        public void get_ReadState(){} // RVA: 0x7A851DB90
-        public void Skip(){} // RVA: 0x7AE85D0C0
-        public void ReadString(){} // RVA: 0x7AE85D0D0
-        public void get_HasAttributes(){} // RVA: 0x7AE8137B0
-        public void get_NameTable(){} // RVA: 0x7A88F42F0
-        public void LookupNamespace(){} // RVA: 0x7AE85D180
-        public void ResolveEntity(){} // RVA: 0x7AE85D1C0
-        public void ReadAttributeValue(){} // RVA: 0x7AE85D250
-        public void FinishReadBinary(){} // RVA: 0x7AE85D2A0
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE85D2D0
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE85D2F0
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE85D310
-        public void get_DtdInfo(){} // RVA: 0x7AE85D380
+        public void .ctor(){} // RVA: 0x74D0640
+        public void IsInReadingStates(){} // RVA: 0x6BE40F0
+        public void get_NodeType(){} // RVA: 0x74D0780
+        public void get_Name(){} // RVA: 0x74D0790
+        public void get_LocalName(){} // RVA: 0x74D07D0
+        public void get_NamespaceURI(){} // RVA: 0x74D08D0
+        public void get_Prefix(){} // RVA: 0x74D0920
+        public void get_Value(){} // RVA: 0x74D0970
+        public void get_Depth(){} // RVA: 0x2244FB0
+        public void get_BaseURI(){} // RVA: 0x74D09B0
+        public void get_CanResolveEntity(){} // RVA: 0xC2E4C0
+        public void get_IsEmptyElement(){} // RVA: 0x74D09F0
+        public void get_IsDefault(){} // RVA: 0x74D0A20
+        public void get_XmlSpace(){} // RVA: 0x74D0B00
+        public void get_XmlLang(){} // RVA: 0x74D0B50
+        public void get_SchemaInfo(){} // RVA: 0x74D0BA0
+        public void get_AttributeCount(){} // RVA: 0x74D0BF0
+        public void GetAttribute(){} // RVA: 0x74D0CB0
+        public void MoveToAttribute(){} // RVA: 0x74D0E20
+        public void MoveToFirstAttribute(){} // RVA: 0x74D0FE0
+        public void MoveToNextAttribute(){} // RVA: 0x74D10D0
+        public void MoveToElement(){} // RVA: 0x74D11E0
+        public void Read(){} // RVA: 0x74D1350
+        public void ReadNextNode(){} // RVA: 0x74D1520
+        public void SetEndOfFile(){} // RVA: 0x74D17E0
+        public void ReadAtZeroLevel(){} // RVA: 0x74D1800
+        public void ReadForward(){} // RVA: 0x74D18A0
+        public void ReSetReadingMarks(){} // RVA: 0x74D1A90
+        public void get_EOF(){} // RVA: 0x74D1AC0
+        public void Close(){} // RVA: 0x74D1AD0
+        public void get_ReadState(){} // RVA: 0xFEAE90
+        public void Skip(){} // RVA: 0x74D1AE0
+        public void ReadString(){} // RVA: 0x74D1AF0
+        public void get_HasAttributes(){} // RVA: 0x7488C90
+        public void get_NameTable(){} // RVA: 0x13F9420
+        public void LookupNamespace(){} // RVA: 0x74D1BA0
+        public void ResolveEntity(){} // RVA: 0x74D1BE0
+        public void ReadAttributeValue(){} // RVA: 0x74D1C70
+        public void FinishReadBinary(){} // RVA: 0x74D1CC0
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x74D1CF0
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x74D1D10
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x74D1D30
+        public void get_DtdInfo(){} // RVA: 0x74D1DA0
     }
 
     public class XmlNodeReaderNavigator : Object
     {
+        public object curNode;
+        public object elemNode;
+        public object logNode;
+        public object attrIndex;
+        public object logAttrIndex;
+        public object nameTable;
+        public object doc;
+        public object nAttrInd;
+        public object nDeclarationAttrCount;
+        public object nDocTypeAttrCount;
+        public object nLogLevel;
+        public object nLogAttrInd;
+        public object bLogOnAttrVal;
+        public object bCreatedOnAttribute;
+        public object decNodeAttributes;
+        public object docTypeNodeAttributes;
+        public object bOnAttrVal;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE856DB0
-        public void get_NodeType(){} // RVA: 0x7AE8577A0
-        public void get_NamespaceURI(){} // RVA: 0x7ADE59400
-        public void get_Name(){} // RVA: 0x7AE8577F0
-        public void get_LocalName(){} // RVA: 0x7AE857930
-        public void get_CreatedOnAttribute(){} // RVA: 0x7A98A9E50
-        public void IsLocalNameEmpty(){} // RVA: 0x7AE857A10
-        public void get_Prefix(){} // RVA: 0x7AE5621F0
-        public void get_Value(){} // RVA: 0x7AE857A60
-        public void get_BaseURI(){} // RVA: 0x7AE5622B0
-        public void get_XmlSpace(){} // RVA: 0x7AE857D40
-        public void get_XmlLang(){} // RVA: 0x7AE857D70
-        public void get_IsEmptyElement(){} // RVA: 0x7AE857DA0
-        public void get_IsDefault(){} // RVA: 0x7AE857E50
-        public void get_SchemaInfo(){} // RVA: 0x7AE791460
-        public void get_NameTable(){} // RVA: 0x7A83F69F0
-        public void get_AttributeCount(){} // RVA: 0x7AE857F10
-        public void CheckIndexCondition(){} // RVA: 0x7AE858060
-        public void InitDecAttr(){} // RVA: 0x7AE8580D0
-        public void GetDeclarationAttr(){} // RVA: 0x7AE858660
-        public void GetDecAttrInd(){} // RVA: 0x7AE8586B0
-        public void InitDocTypeAttr(){} // RVA: 0x7AE858780
-        public void GetDocumentTypeAttr(){} // RVA: 0x7AE858B00
-        public void GetDocTypeAttrInd(){} // RVA: 0x7AE858B50
-        public void GetAttributeFromElement(){} // RVA: 0x7AE858FC0
-        public void GetAttribute(){} // RVA: 0x7AE859390
-        public void LogMove(){} // RVA: 0x7AE8595F0
-        public void RollBackMove(){} // RVA: 0x7AE859660
-        public void get_IsOnDeclOrDocType(){} // RVA: 0x7AE8596E0
-        public void ResetToAttribute(){} // RVA: 0x7AE859720
-        public void ResetMove(){} // RVA: 0x7AE859850
-        public void MoveToAttribute(){} // RVA: 0x7AE859FA0
-        public void MoveToAttributeFromElement(){} // RVA: 0x7AE859B70
-        public void MoveToNextAttribute(){} // RVA: 0x7AE85A170
-        public void MoveToParent(){} // RVA: 0x7AE85A370
-        public void MoveToFirstChild(){} // RVA: 0x7AE85A410
-        public void MoveToNextSibling(){} // RVA: 0x7AE85A4B0
-        public void MoveToNext(){} // RVA: 0x7AE85A550
-        public void MoveToElement(){} // RVA: 0x7AE85A5B0
-        public void LookupNamespace(){} // RVA: 0x7AE85A640
-        public void DefaultLookupNamespace(){} // RVA: 0x7AE85A9E0
-        public void LookupPrefix(){} // RVA: 0x7AE85AC00
-        public void GetNamespacesInScope(){} // RVA: 0x7AE85B1B0
-        public void ReadAttributeValue(){} // RVA: 0x7AE85B830
-        public void get_Document(){} // RVA: 0x7A8292C30
+        public void .ctor(){} // RVA: 0x74CBA80
+        public void get_NodeType(){} // RVA: 0x74CC470
+        public void get_NamespaceURI(){} // RVA: 0x6AE0990
+        public void get_Name(){} // RVA: 0x74CC4C0
+        public void get_LocalName(){} // RVA: 0x74CC5E0
+        public void get_CreatedOnAttribute(){} // RVA: 0x23DB790
+        public void IsLocalNameEmpty(){} // RVA: 0x74CC6A0
+        public void get_Prefix(){} // RVA: 0x71DA5A0
+        public void get_Value(){} // RVA: 0x74CC6F0
+        public void get_BaseURI(){} // RVA: 0x71DA660
+        public void get_XmlSpace(){} // RVA: 0x74CC9C0
+        public void get_XmlLang(){} // RVA: 0x74CC9F0
+        public void get_IsEmptyElement(){} // RVA: 0x74CCA20
+        public void get_IsDefault(){} // RVA: 0x74CCAD0
+        public void get_SchemaInfo(){} // RVA: 0x7408590
+        public void get_NameTable(){} // RVA: 0xD33E60
+        public void get_AttributeCount(){} // RVA: 0x74CCB90
+        public void CheckIndexCondition(){} // RVA: 0x74CCCE0
+        public void InitDecAttr(){} // RVA: 0x74CCD50
+        public void GetDeclarationAttr(){} // RVA: 0x74CD2E0
+        public void GetDecAttrInd(){} // RVA: 0x74CD330
+        public void InitDocTypeAttr(){} // RVA: 0x74CD400
+        public void GetDocumentTypeAttr(){} // RVA: 0x74CD780
+        public void GetDocTypeAttrInd(){} // RVA: 0x74CD7D0
+        public void GetAttributeFromElement(){} // RVA: 0x74CDC40
+        public void GetAttribute(){} // RVA: 0x74CE010
+        public void LogMove(){} // RVA: 0x74CE270
+        public void RollBackMove(){} // RVA: 0x74CE2E0
+        public void get_IsOnDeclOrDocType(){} // RVA: 0x74CE360
+        public void ResetToAttribute(){} // RVA: 0x74CE3A0
+        public void ResetMove(){} // RVA: 0x74CE4D0
+        public void MoveToAttribute(){} // RVA: 0x74CEBE0
+        public void MoveToAttributeFromElement(){} // RVA: 0x74CE7B0
+        public void MoveToNextAttribute(){} // RVA: 0x74CEDB0
+        public void MoveToParent(){} // RVA: 0x74CEFB0
+        public void MoveToFirstChild(){} // RVA: 0x74CF050
+        public void MoveToNextSibling(){} // RVA: 0x74CF0F0
+        public void MoveToNext(){} // RVA: 0x74CF190
+        public void MoveToElement(){} // RVA: 0x74CF1F0
+        public void LookupNamespace(){} // RVA: 0x74CF280
+        public void DefaultLookupNamespace(){} // RVA: 0x74CF600
+        public void LookupPrefix(){} // RVA: 0x74CF800
+        public void GetNamespacesInScope(){} // RVA: 0x74CFDA0
+        public void ReadAttributeValue(){} // RVA: 0x74D0410
+        public void get_Document(){} // RVA: 0xD05CA0
     }
 
     public class XmlNotation : XmlNode
     {
+        public object publicId;
+        public object systemId;
+        public object name;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85D3B0
-        public void get_Name(){} // RVA: 0x7A8105330
-        public void get_LocalName(){} // RVA: 0x7A8105330
-        public void get_NodeType(){} // RVA: 0x7A9F22B10
-        public void CloneNode(){} // RVA: 0x7AE85D600
-        public void get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void set_InnerXml(){} // RVA: 0x7AE85D660
-        public void WriteTo(){} // RVA: 0x7A80D7310
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x74D1DD0
+        public void get_Name(){} // RVA: 0xB70160
+        public void get_LocalName(){} // RVA: 0xB70160
+        public void get_NodeType(){} // RVA: 0x2AFB6E0
+        public void CloneNode(){} // RVA: 0x74D2020
+        public void get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void set_InnerXml(){} // RVA: 0x74D2080
+        public void WriteTo(){} // RVA: 0xB43310
+        public void WriteContentTo(){} // RVA: 0xB43310
     }
 
     public class XmlParserContext : Object
     {
+        public object _nt;
+        public object _nsMgr;
+        public object _docTypeName;
+        public object _pubId;
+        public object _sysId;
+        public object _internalSubset;
+        public object _xmlLang;
+        public object _xmlSpace;
+        public object _baseURI;
+        public object _encoding;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE810E00
-        public void get_NameTable(){} // RVA: 0x7A80F2570
-        public void get_NamespaceManager(){} // RVA: 0x7A80DA7B0
-        public void get_DocTypeName(){} // RVA: 0x7A81052C0
-        public void get_PublicId(){} // RVA: 0x7A8105330
-        public void get_SystemId(){} // RVA: 0x7A83F69F0
-        public void get_BaseURI(){} // RVA: 0x7A8178B90
-        public void get_InternalSubset(){} // RVA: 0x7A8292C30
-        public void get_XmlLang(){} // RVA: 0x7A8154D80
-        public void get_XmlSpace(){} // RVA: 0x7A8178B70
-        public void get_Encoding(){} // RVA: 0x7A81A0050
-        public void get_HasDtdInfo(){} // RVA: 0x7AE811530
+        public void .ctor(){} // RVA: 0x7486400
+        public void get_NameTable(){} // RVA: 0xB5DBF0
+        public void get_NamespaceManager(){} // RVA: 0xB465B0
+        public void get_DocTypeName(){} // RVA: 0xB700F0
+        public void get_PublicId(){} // RVA: 0xB70160
+        public void get_SystemId(){} // RVA: 0xD33E60
+        public void get_BaseURI(){} // RVA: 0xBE58B0
+        public void get_InternalSubset(){} // RVA: 0xD05CA0
+        public void get_XmlLang(){} // RVA: 0xBC1B30
+        public void get_XmlSpace(){} // RVA: 0xBE5890
+        public void get_Encoding(){} // RVA: 0xC0FFC0
+        public void get_HasDtdInfo(){} // RVA: 0x7486B00
     }
 
     public class XmlProcessingInstruction : XmlLinkedNode
     {
+        public object target;
+        public object data;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85D6C0
-        public void get_Name(){} // RVA: 0x7AE85D7A0
-        public void get_LocalName(){} // RVA: 0x7AE50A3E0
-        public void get_Value(){} // RVA: 0x7A8105330
-        public void set_Value(){} // RVA: 0x7AE85D800
-        public void set_Data(){} // RVA: 0x7AE85D810
-        public void get_InnerText(){} // RVA: 0x7A8105330
-        public void set_InnerText(){} // RVA: 0x7AE85D800
-        public void get_NodeType(){} // RVA: 0x7A88258F0
-        public void CloneNode(){} // RVA: 0x7AE85D920
-        public void WriteTo(){} // RVA: 0x7AE85D970
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x74D20E0
+        public void get_Name(){} // RVA: 0x74B46E0
+        public void get_LocalName(){} // RVA: 0x7183E10
+        public void get_Value(){} // RVA: 0xB70160
+        public void set_Value(){} // RVA: 0x74D21C0
+        public void set_Data(){} // RVA: 0x74D21D0
+        public void get_InnerText(){} // RVA: 0xB70160
+        public void set_InnerText(){} // RVA: 0x74D21C0
+        public void get_NodeType(){} // RVA: 0x132D270
+        public void CloneNode(){} // RVA: 0x74D22E0
+        public void WriteTo(){} // RVA: 0x74D2330
+        public void WriteContentTo(){} // RVA: 0xB43310
     }
 
     public class XmlQualifiedName : Object
     {
+        public object hashCodeDelegate;
+        public object name;
+        public object ns;
+        public object hash;
+        public object Empty;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE880220
-        public void get_Namespace(){} // RVA: 0x7A80DA7B0
-        public void get_Name(){} // RVA: 0x7A80F2570
-        public void GetHashCode(){} // RVA: 0x7AE880350
-        public void get_IsEmpty(){} // RVA: 0x7AE880490
-        public void ToString(){} // RVA: 0x7AE880890
-        public void Equals(){} // RVA: 0x7AE880540
-        public void op_Equality(){} // RVA: 0x7AE8806D0
-        public void op_Inequality(){} // RVA: 0x7AE880790
-        public void GetHashCodeDelegate(){} // RVA: 0x7AE880900
-        public void IsRandomizedHashingDisabled(){} // RVA: 0x7A80D7320
-        public void GetHashCodeOfString(){} // RVA: 0x7AA8B33C0
-        public void Init(){} // RVA: 0x7AE880BE0
-        public void SetNamespace(){} // RVA: 0x7A813E420
-        public void Verify(){} // RVA: 0x7AE880CA0
-        public void Atomize(){} // RVA: 0x7AE880D40
-        public void Parse(){} // RVA: 0x7AE880E50
-        public void Clone(){} // RVA: 0x7AE880FC0
-        public void .cctor(){} // RVA: 0x7AE881040
+        public void .ctor(){} // RVA: 0x74F4940
+        public void get_Namespace(){} // RVA: 0xB465B0
+        public void get_Name(){} // RVA: 0xB5DBF0
+        public void GetHashCode(){} // RVA: 0x74F4A40
+        public void get_IsEmpty(){} // RVA: 0x74F4B80
+        public void ToString(){} // RVA: 0x74F4F80
+        public void Equals(){} // RVA: 0x74F4C30
+        public void op_Equality(){} // RVA: 0x74F4DC0
+        public void op_Inequality(){} // RVA: 0x74F4E80
+        public void GetHashCodeDelegate(){} // RVA: 0x74F4FF0
+        public void IsRandomizedHashingDisabled(){} // RVA: 0xB43320
+        public void GetHashCodeOfString(){} // RVA: 0x34AC300
+        public void Init(){} // RVA: 0x74F52F0
+        public void SetNamespace(){} // RVA: 0xBA9BA0
+        public void Verify(){} // RVA: 0x74F53B0
+        public void Atomize(){} // RVA: 0x74F5450
+        public void Parse(){} // RVA: 0x74F5560
+        public void Clone(){} // RVA: 0x74F57A0
+        public void .cctor(){} // RVA: 0x74F5820
     }
 
     public class XmlRawWriter : XmlWriter
     {
+        public object base64Encoder;
+        public object resolver;
+
         // ── Methods ──
-        public void WriteStartDocument(){} // RVA: 0x7AE8116C0
-        public void WriteEndDocument(){} // RVA: 0x7AE811720
-        public void WriteDocType(){} // RVA: 0x7A80D7310
-        public void WriteEndElement(){} // RVA: 0x7A7E1DDC0
-        public void WriteFullEndElement(){} // RVA: 0x7AE811C60
-        public void WriteBase64(){} // RVA: 0x7AE811840
-        public void LookupPrefix(){} // RVA: 0x7AE8119A0
-        public void get_WriteState(){} // RVA: 0x7AE811A00
-        public void WriteCData(){} // RVA: 0x7AE810010
-        public void WriteCharEntity(){} // RVA: 0x7AE811A60
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE811AF0
-        public void WriteWhitespace(){} // RVA: 0x7AE810010
-        public void WriteChars(){} // RVA: 0x7A9240680
-        public void WriteRaw(){} // RVA: 0x7AE810010
-        public void WriteValue(){} // RVA: 0x7AE810010
-        public void WriteAttributes(){} // RVA: 0x7AE811BA0
-        public void WriteNode(){} // RVA: 0x7AE811C00
-        public void set_NamespaceResolver(){} // RVA: 0x7A81052D0
-        public void WriteXmlDeclaration(){} // RVA: 0x7A80D7310
-        public void StartElementContent(){} // RVA: 0x7A7E18770
-        public void OnRootElement(){} // RVA: 0x7A80D7310
-        public void WriteNamespaceDeclaration(){} // RVA: 0x7A7E18890
-        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0x7A80D7320
-        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7AE811C80
-        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7AE811CC0
-        public void WriteEndBase64(){} // RVA: 0x7AE811D00
-        public void Close(){} // RVA: 0x7ADB87DC0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void WriteStartDocument(){} // RVA: 0x7486C70
+        public void WriteEndDocument(){} // RVA: 0x7486CD0
+        public void WriteDocType(){} // RVA: 0xB43310
+        public void WriteEndElement(){} // RVA: 0x8954D0
+        public void WriteFullEndElement(){} // RVA: 0x7487210
+        public void WriteBase64(){} // RVA: 0x7486DF0
+        public void LookupPrefix(){} // RVA: 0x7486F50
+        public void get_WriteState(){} // RVA: 0x7486FB0
+        public void WriteCData(){} // RVA: 0x7485660
+        public void WriteCharEntity(){} // RVA: 0x7487010
+        public void WriteSurrogateCharEntity(){} // RVA: 0x74870A0
+        public void WriteWhitespace(){} // RVA: 0x7485660
+        public void WriteChars(){} // RVA: 0x1D55C90
+        public void WriteRaw(){} // RVA: 0x7485660
+        public void WriteValue(){} // RVA: 0x7485660
+        public void WriteAttributes(){} // RVA: 0x7487150
+        public void WriteNode(){} // RVA: 0x74871B0
+        public void set_NamespaceResolver(){} // RVA: 0xB70100
+        public void WriteXmlDeclaration(){} // RVA: 0xB43310
+        public void StartElementContent(){} // RVA: 0x894290
+        public void OnRootElement(){} // RVA: 0xB43310
+        public void WriteNamespaceDeclaration(){} // RVA: 0x8943B0
+        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0xB43320
+        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7487230
+        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7487270
+        public void WriteEndBase64(){} // RVA: 0x74872B0
+        public void Close(){} // RVA: 0x6812E50
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlRawWriterBase64Encoder : Base64Encoder
     {
+        public object rawWriter;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D7A90
-        public void WriteChars(){} // RVA: 0x7AE6D7B00
+        public void .ctor(){} // RVA: 0x734DC00
+        public void WriteChars(){} // RVA: 0x734DC70
     }
 
     public class XmlReader : Object
     {
+        public object IsTextualNodeBitmap;
+        public object CanReadContentAsBitmap;
+        public object HasValueBitmap;
+
         // ── Methods ──
-        public void get_Settings(){} // RVA: 0x7A82D1450
-        public void get_NodeType(){} // RVA: 0x7A7E00710
-        public void get_Name(){} // RVA: 0x7AE811D20
-        public void get_LocalName(){} // RVA: 0x7A7E00680
-        public void get_NamespaceURI(){} // RVA: 0x7A7E00680
-        public void get_Prefix(){} // RVA: 0x7A7E00680
-        public void get_Value(){} // RVA: 0x7A7E00680
-        public void get_Depth(){} // RVA: 0x7A7E00710
-        public void get_BaseURI(){} // RVA: 0x7A7E00680
-        public void get_IsEmptyElement(){} // RVA: 0x7A7E01900
-        public void get_IsDefault(){} // RVA: 0x7A80D7320
-        public void get_QuoteChar(){} // RVA: 0x7AE811E30
-        public void get_XmlSpace(){} // RVA: 0x7A82D1450
-        public void get_XmlLang(){} // RVA: 0x7AE811E40
-        public void get_SchemaInfo(){} // RVA: 0x7AE811E80
-        public void get_ValueType(){} // RVA: 0x7AE811EC0
-        public void get_AttributeCount(){} // RVA: 0x7A7E00710
-        public void GetAttribute(){} // RVA: 0x7A7E00740
-        public void MoveToAttribute(){} // RVA: 0x7AE811F70
-        public void MoveToFirstAttribute(){} // RVA: 0x7A7E01900
-        public void MoveToNextAttribute(){} // RVA: 0x7A7E01900
-        public void MoveToElement(){} // RVA: 0x7A7E01900
-        public void ReadAttributeValue(){} // RVA: 0x7A7E01900
-        public void Read(){} // RVA: 0x7A7E01900
-        public void get_EOF(){} // RVA: 0x7A7E01900
-        public void Close(){} // RVA: 0x7A80D7310
-        public void get_ReadState(){} // RVA: 0x7A7E00710
-        public void Skip(){} // RVA: 0x7AE812040
-        public void get_NameTable(){} // RVA: 0x7A7E00680
-        public void LookupNamespace(){} // RVA: 0x7A7E00B20
-        public void get_CanResolveEntity(){} // RVA: 0x7A80D7320
-        public void ResolveEntity(){} // RVA: 0x7A7E18770
-        public void get_CanReadValueChunk(){} // RVA: 0x7A80D7320
-        public void ReadValueChunk(){} // RVA: 0x7AE812150
-        public void ReadString(){} // RVA: 0x7AE8121B0
-        public void MoveToContent(){} // RVA: 0x7AE812420
-        public void ReadStartElement(){} // RVA: 0x7AE8124C0
-        public void ReadElementString(){} // RVA: 0x7AE8125C0
-        public void ReadEndElement(){} // RVA: 0x7AE812880
-        public void IsStartElement(){} // RVA: 0x7AE812980
-        public void ReadInnerXml(){} // RVA: 0x7AE812A80
-        public void WriteNode(){} // RVA: 0x7AE812F20
-        public void WriteAttributeValue(){} // RVA: 0x7AE813480
-        public void CreateWriterForInnerOuterXml(){} // RVA: 0x7AE8135A0
-        public void SetNamespacesFlag(){} // RVA: 0x7AE8136D0
-        public void get_HasAttributes(){} // RVA: 0x7AE8137B0
-        public void Dispose(){} // RVA: 0x7AE813800
-        public void get_NamespaceManager(){} // RVA: 0x7A82D1450
-        public void IsTextualNode(){} // RVA: 0x7AE813840
-        public void HasValueInternal(){} // RVA: 0x7AE8138B0
-        public void SkipSubtree(){} // RVA: 0x7AE813920
-        public void get_IsDefaultInternal(){} // RVA: 0x7AE813A10
-        public void get_DtdInfo(){} // RVA: 0x7A82D1450
-        public void Create(){} // RVA: 0x7AE813E30
-        public void CreateSqlReader(){} // RVA: 0x7AE813FB0
-        public void CalcBufferSize(){} // RVA: 0x7AE8142F0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AE814390
+        public void get_Settings(){} // RVA: 0xDAC980
+        public void get_NodeType(){} // RVA: 0x87C130
+        public void get_Name(){} // RVA: 0x74872D0
+        public void get_LocalName(){} // RVA: 0x87C0A0
+        public void get_NamespaceURI(){} // RVA: 0x87C0A0
+        public void get_Prefix(){} // RVA: 0x87C0A0
+        public void get_Value(){} // RVA: 0x87C0A0
+        public void get_Depth(){} // RVA: 0x87C130
+        public void get_BaseURI(){} // RVA: 0x87C0A0
+        public void get_IsEmptyElement(){} // RVA: 0x87D280
+        public void get_IsDefault(){} // RVA: 0xB43320
+        public void get_QuoteChar(){} // RVA: 0x74873E0
+        public void get_XmlSpace(){} // RVA: 0xDAC980
+        public void get_XmlLang(){} // RVA: 0x1584680
+        public void get_SchemaInfo(){} // RVA: 0x74873F0
+        public void get_ValueType(){} // RVA: 0x7487430
+        public void get_AttributeCount(){} // RVA: 0x87C130
+        public void GetAttribute(){} // RVA: 0x87C160
+        public void MoveToAttribute(){} // RVA: 0x7487490
+        public void MoveToFirstAttribute(){} // RVA: 0x87D280
+        public void MoveToNextAttribute(){} // RVA: 0x87D280
+        public void MoveToElement(){} // RVA: 0x87D280
+        public void ReadAttributeValue(){} // RVA: 0x87D280
+        public void Read(){} // RVA: 0x87D280
+        public void get_EOF(){} // RVA: 0x87D280
+        public void Close(){} // RVA: 0xB43310
+        public void get_ReadState(){} // RVA: 0x87C130
+        public void Skip(){} // RVA: 0x7487560
+        public void get_NameTable(){} // RVA: 0x87C0A0
+        public void LookupNamespace(){} // RVA: 0x87C540
+        public void get_CanResolveEntity(){} // RVA: 0xB43320
+        public void ResolveEntity(){} // RVA: 0x894290
+        public void get_CanReadValueChunk(){} // RVA: 0xB43320
+        public void ReadValueChunk(){} // RVA: 0x7487670
+        public void ReadString(){} // RVA: 0x74876D0
+        public void MoveToContent(){} // RVA: 0x7487930
+        public void ReadStartElement(){} // RVA: 0x74879D0
+        public void ReadElementString(){} // RVA: 0x7487AD0
+        public void ReadEndElement(){} // RVA: 0x7487D70
+        public void IsStartElement(){} // RVA: 0x7487E70
+        public void ReadInnerXml(){} // RVA: 0x7487F70
+        public void WriteNode(){} // RVA: 0x7488400
+        public void WriteAttributeValue(){} // RVA: 0x7488960
+        public void CreateWriterForInnerOuterXml(){} // RVA: 0x7488A80
+        public void SetNamespacesFlag(){} // RVA: 0x7488BB0
+        public void get_HasAttributes(){} // RVA: 0x7488C90
+        public void Dispose(){} // RVA: 0x7488CE0
+        public void get_NamespaceManager(){} // RVA: 0xDAC980
+        public void IsTextualNode(){} // RVA: 0x7488D20
+        public void HasValueInternal(){} // RVA: 0x7488D90
+        public void SkipSubtree(){} // RVA: 0x7488E00
+        public void get_IsDefaultInternal(){} // RVA: 0x7488EF0
+        public void get_DtdInfo(){} // RVA: 0xDAC980
+        public void Create(){} // RVA: 0x74892E0
+        public void CreateSqlReader(){} // RVA: 0x7489450
+        public void CalcBufferSize(){} // RVA: 0x7489780
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x7489820
     }
 
     public class XmlReaderSettings : Object
     {
+        public object useAsync;
+        public object nameTable;
+        public object xmlResolver;
+        public object lineNumberOffset;
+        public object linePositionOffset;
+        public object conformanceLevel;
+        public object checkCharacters;
+        public object maxCharactersInDocument;
+        public object maxCharactersFromEntities;
+        public object ignoreWhitespace;
+        public object ignorePIs;
+        public object ignoreComments;
+        public object dtdProcessing;
+        public object validationType;
+        public object validationFlags;
+        public object schemas;
+        public object valEventHandler;
+        public object closeInput;
+        public object isReadOnly;
+        public object _isXmlResolverSet;
+        public object s_enableLegacyXmlSettings;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE814400
-        public void get_Async(){} // RVA: 0x7A81A2200
-        public void set_Async(){} // RVA: 0x7AE814410
-        public void get_NameTable(){} // RVA: 0x7A80DA7B0
-        public void set_NameTable(){} // RVA: 0x7AE814470
-        public void get_IsXmlResolverSet(){} // RVA: 0x7AD8E6CE0
-        public void set_IsXmlResolverSet(){} // RVA: 0x7AD8E6CF0
-        public void set_XmlResolver(){} // RVA: 0x7AE814510
-        public void GetXmlResolver(){} // RVA: 0x7A81052C0
-        public void GetXmlResolver_CheckConfig(){} // RVA: 0x7AE8145B0
-        public void get_LineNumberOffset(){} // RVA: 0x7A854FDE0
-        public void set_LineNumberOffset(){} // RVA: 0x7AE8145C0
-        public void get_LinePositionOffset(){} // RVA: 0x7A8F9ACE0
-        public void set_LinePositionOffset(){} // RVA: 0x7AE814610
-        public void get_ConformanceLevel(){} // RVA: 0x7A8133100
-        public void set_ConformanceLevel(){} // RVA: 0x7AE814660
-        public void get_CheckCharacters(){} // RVA: 0x7A810DDD0
-        public void set_CheckCharacters(){} // RVA: 0x7AE814700
-        public void get_MaxCharactersInDocument(){} // RVA: 0x7A8292C30
-        public void set_MaxCharactersInDocument(){} // RVA: 0x7AE814760
-        public void get_MaxCharactersFromEntities(){} // RVA: 0x7A8154D80
-        public void set_MaxCharactersFromEntities(){} // RVA: 0x7AE814800
-        public void get_IgnoreWhitespace(){} // RVA: 0x7A818F850
-        public void set_IgnoreWhitespace(){} // RVA: 0x7AE8148A0
-        public void get_IgnoreProcessingInstructions(){} // RVA: 0x7A9107BC0
-        public void set_IgnoreProcessingInstructions(){} // RVA: 0x7AE814900
-        public void get_IgnoreComments(){} // RVA: 0x7A9476890
-        public void set_IgnoreComments(){} // RVA: 0x7AE814960
-        public void get_DtdProcessing(){} // RVA: 0x7A9231EA0
-        public void set_DtdProcessing(){} // RVA: 0x7AE8149C0
-        public void get_CloseInput(){} // RVA: 0x7A81A00C0
-        public void set_CloseInput(){} // RVA: 0x7AE814A60
-        public void get_ValidationType(){} // RVA: 0x7A8355950
-        public void set_ValidationType(){} // RVA: 0x7AE814AC0
-        public void get_ValidationFlags(){} // RVA: 0x7A8A22410
-        public void set_ValidationFlags(){} // RVA: 0x7AE814B60
-        public void get_Schemas(){} // RVA: 0x7AE814C00
-        public void set_Schemas(){} // RVA: 0x7AE814CB0
-        public void Clone(){} // RVA: 0x7AE814D50
-        public void GetEventHandler(){} // RVA: 0x7A8175DF0
-        public void CreateReader(){} // RVA: 0x7AE814F50
-        public void set_ReadOnly(){} // RVA: 0x7ACF040C0
-        public void CheckReadOnly(){} // RVA: 0x7AE815090
-        public void Initialize(){} // RVA: 0x7AE815140
-        public void CreateDefaultResolver(){} // RVA: 0x7AE815360
-        public void AddValidation(){} // RVA: 0x7AE8153A0
-        public void CreateDtdValidatingReader(){} // RVA: 0x7AE8154D0
-        public void EnableLegacyXmlSettings(){} // RVA: 0x7AE815560
+        public void .ctor(){} // RVA: 0x7489890
+        public void get_Async(){} // RVA: 0xC120A0
+        public void set_Async(){} // RVA: 0x74898A0
+        public void get_NameTable(){} // RVA: 0xB465B0
+        public void set_NameTable(){} // RVA: 0x7489900
+        public void get_IsXmlResolverSet(){} // RVA: 0x6573C70
+        public void set_IsXmlResolverSet(){} // RVA: 0x6573C80
+        public void set_XmlResolver(){} // RVA: 0x74899A0
+        public void GetXmlResolver(){} // RVA: 0xB700F0
+        public void GetXmlResolver_CheckConfig(){} // RVA: 0x7489A40
+        public void get_LineNumberOffset(){} // RVA: 0x1065D50
+        public void set_LineNumberOffset(){} // RVA: 0x7489A50
+        public void get_LinePositionOffset(){} // RVA: 0x1AE5AC0
+        public void set_LinePositionOffset(){} // RVA: 0x7489AA0
+        public void get_ConformanceLevel(){} // RVA: 0xB9E080
+        public void set_ConformanceLevel(){} // RVA: 0x7489AF0
+        public void get_CheckCharacters(){} // RVA: 0xB78D60
+        public void set_CheckCharacters(){} // RVA: 0x7489B90
+        public void get_MaxCharactersInDocument(){} // RVA: 0xD05CA0
+        public void set_MaxCharactersInDocument(){} // RVA: 0x7489BF0
+        public void get_MaxCharactersFromEntities(){} // RVA: 0xBC1B30
+        public void set_MaxCharactersFromEntities(){} // RVA: 0x7489C90
+        public void get_IgnoreWhitespace(){} // RVA: 0xBFDA40
+        public void set_IgnoreWhitespace(){} // RVA: 0x7489D30
+        public void get_IgnoreProcessingInstructions(){} // RVA: 0x1C58C80
+        public void set_IgnoreProcessingInstructions(){} // RVA: 0x7489D90
+        public void get_IgnoreComments(){} // RVA: 0x1FA9920
+        public void set_IgnoreComments(){} // RVA: 0x7489DF0
+        public void get_DtdProcessing(){} // RVA: 0x1D46130
+        public void set_DtdProcessing(){} // RVA: 0x7489E50
+        public void get_CloseInput(){} // RVA: 0xC10030
+        public void set_CloseInput(){} // RVA: 0x7489EF0
+        public void get_ValidationType(){} // RVA: 0xE32C80
+        public void set_ValidationType(){} // RVA: 0x7489F50
+        public void get_ValidationFlags(){} // RVA: 0x15443F0
+        public void set_ValidationFlags(){} // RVA: 0x7489FF0
+        public void get_Schemas(){} // RVA: 0x748A090
+        public void set_Schemas(){} // RVA: 0x748A140
+        public void Clone(){} // RVA: 0x748A1E0
+        public void GetEventHandler(){} // RVA: 0xBE2C60
+        public void CreateReader(){} // RVA: 0x748A3D0
+        public void set_ReadOnly(){} // RVA: 0x6296250
+        public void CheckReadOnly(){} // RVA: 0x748A500
+        public void Initialize(){} // RVA: 0x748A5B0
+        public void CreateDefaultResolver(){} // RVA: 0x748A7D0
+        public void AddValidation(){} // RVA: 0x748A810
+        public void CreateDtdValidatingReader(){} // RVA: 0x748A940
+        public void EnableLegacyXmlSettings(){} // RVA: 0x748A9D0
     }
 
     public class XmlRegisteredNonCachedStream : Stream
     {
+        public object stream;
+        public object downloadManager;
+        public object host;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE87A090
-        public void Finalize(){} // RVA: 0x7AE87A1F0
-        public void Dispose(){} // RVA: 0x7AE87A2A0
-        public void BeginRead(){} // RVA: 0x7AE87A3E0
-        public void BeginWrite(){} // RVA: 0x7AE87A420
-        public void EndRead(){} // RVA: 0x7AE87A460
-        public void EndWrite(){} // RVA: 0x7AE5D9AF0
-        public void Flush(){} // RVA: 0x7AE203670
-        public void Read(){} // RVA: 0x7AE87A490
-        public void ReadByte(){} // RVA: 0x7ADBF6950
-        public void Seek(){} // RVA: 0x7AE87A4C0
-        public void SetLength(){} // RVA: 0x7AE47D1C0
-        public void Write(){} // RVA: 0x7AE87A4F0
-        public void WriteByte(){} // RVA: 0x7AE87A520
-        public void get_CanRead(){} // RVA: 0x7AE202E50
-        public void get_CanSeek(){} // RVA: 0x7AE202E80
-        public void get_CanWrite(){} // RVA: 0x7AE87A550
-        public void get_Length(){} // RVA: 0x7AE47D2E0
-        public void get_Position(){} // RVA: 0x7AE47D310
-        public void set_Position(){} // RVA: 0x7AE804490
+        public void .ctor(){} // RVA: 0x74EEA50
+        public void Finalize(){} // RVA: 0x74EEBB0
+        public void Dispose(){} // RVA: 0x74EEC60
+        public void BeginRead(){} // RVA: 0x74EEDA0
+        public void BeginWrite(){} // RVA: 0x74EEDE0
+        public void EndRead(){} // RVA: 0x74EEE20
+        public void EndWrite(){} // RVA: 0x7250A00
+        public void Flush(){} // RVA: 0x6E861D0
+        public void Read(){} // RVA: 0x74EEE50
+        public void ReadByte(){} // RVA: 0x6881B80
+        public void Seek(){} // RVA: 0x74EEE80
+        public void SetLength(){} // RVA: 0x70F92B0
+        public void Write(){} // RVA: 0x74EEEB0
+        public void WriteByte(){} // RVA: 0x74EEEE0
+        public void get_CanRead(){} // RVA: 0x6E859B0
+        public void get_CanSeek(){} // RVA: 0x6E859E0
+        public void get_CanWrite(){} // RVA: 0x74EEF10
+        public void get_Length(){} // RVA: 0x70F93D0
+        public void get_Position(){} // RVA: 0x70F9400
+        public void set_Position(){} // RVA: 0x7479BC0
     }
 
     public class XmlResolver : Object
     {
         // ── Methods ──
-        public void GetEntity(){} // RVA: 0x7A7E06710
-        public void ResolveUri(){} // RVA: 0x7AE8811B0
-        public void SupportsType(){} // RVA: 0x7AE881450
-        public void GetEntityAsync(){} // RVA: 0x7AE881570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetEntity(){} // RVA: 0x882090
+        public void ResolveUri(){} // RVA: 0x74F5980
+        public void SupportsType(){} // RVA: 0x74F5C80
+        public void GetEntityAsync(){} // RVA: 0x74F5DC0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlSignificantWhitespace : XmlCharacterData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85D9B0
-        public void get_Name(){} // RVA: 0x7AE85DAB0
-        public void get_LocalName(){} // RVA: 0x7AE85DAB0
-        public void get_NodeType(){} // RVA: 0x7A95096B0
-        public void get_ParentNode(){} // RVA: 0x7AE85DAE0
-        public void CloneNode(){} // RVA: 0x7AE85DB90
-        public void get_Value(){} // RVA: 0x7ADCAB740
-        public void set_Value(){} // RVA: 0x7AE85DC00
-        public void WriteTo(){} // RVA: 0x7AE85DD00
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_IsText(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x74D2370
+        public void get_Name(){} // RVA: 0x74D2470
+        public void get_LocalName(){} // RVA: 0x74D2470
+        public void get_NodeType(){} // RVA: 0x20237F0
+        public void get_ParentNode(){} // RVA: 0x74D24A0
+        public void CloneNode(){} // RVA: 0x74D2550
+        public void get_Value(){} // RVA: 0x69358F0
+        public void set_Value(){} // RVA: 0x74D25C0
+        public void WriteTo(){} // RVA: 0x74D26C0
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_IsText(){} // RVA: 0xC2E4C0
     }
 
     public class XmlSqlBinaryReader : XmlReader
     {
+        public object TypeOfObject;
+        public object TypeOfString;
+        public object TokenTypeMap;
+        public object XsdKatmaiTimeScaleToValueLengthMap;
+        public object ScanState2ReadState;
+        public object inStrm;
+        public object data;
+        public object pos;
+        public object mark;
+        public object end;
+        public object offset;
+        public object eof;
+        public object sniffed;
+        public object isEmpty;
+        public object docState;
+        public object symbolTables;
+        public object xnt;
+        public object xntFromSettings;
+        public object xml;
+        public object xmlns;
+        public object nsxmlns;
+        public object baseUri;
+        public object state;
+        public object nodetype;
+        public object token;
+        public object attrIndex;
+        public object qnameOther;
+        public object qnameElement;
+        public object parentNodeType;
+        public object elementStack;
+        public object elemDepth;
+        public object attributes;
+        public object attrHashTbl;
+        public object attrCount;
+        public object posAfterAttrs;
+        public object xmlspacePreserve;
+        public object tokLen;
+        public object tokDataPos;
+        public object hasTypedValue;
+        public object valueType;
+        public object stringValue;
+        public object namespaces;
+        public object prevNameInfo;
+        public object textXmlReader;
+        public object closeInput;
+        public object checkCharacters;
+        public object ignoreWhitespace;
+        public object ignorePIs;
+        public object ignoreComments;
+        public object dtdProcessing;
+        public object hasher;
+        public object xmlCharType;
+        public object unicode;
+        public object version;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6DD5F0
-        public void get_Settings(){} // RVA: 0x7AE6DE0B0
-        public void get_NodeType(){} // RVA: 0x7A846C750
-        public void get_LocalName(){} // RVA: 0x7A87D9480
-        public void get_NamespaceURI(){} // RVA: 0x7A8142610
-        public void get_Prefix(){} // RVA: 0x7A87C5850
-        public void get_Value(){} // RVA: 0x7AE6DE350
-        public void get_Depth(){} // RVA: 0x7AE6DE7B0
-        public void get_BaseURI(){} // RVA: 0x7A81163D0
-        public void get_IsEmptyElement(){} // RVA: 0x7AE6DE880
-        public void get_XmlSpace(){} // RVA: 0x7AE6DE8A0
-        public void get_XmlLang(){} // RVA: 0x7AE6DE930
-        public void get_ValueType(){} // RVA: 0x7A884F050
-        public void get_AttributeCount(){} // RVA: 0x7AE6DEA00
-        public void GetAttribute(){} // RVA: 0x7AE6DECB0
-        public void MoveToAttribute(){} // RVA: 0x7AE6DEDF0
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE6DEEA0
-        public void MoveToNextAttribute(){} // RVA: 0x7AE6DEF30
-        public void MoveToElement(){} // RVA: 0x7AE6DEFE0
-        public void get_EOF(){} // RVA: 0x7AE6DF190
-        public void ReadAttributeValue(){} // RVA: 0x7AE6DF1A0
-        public void Close(){} // RVA: 0x7AE6DF3E0
-        public void get_NameTable(){} // RVA: 0x7A8175DF0
-        public void LookupNamespace(){} // RVA: 0x7AE6DF570
-        public void ResolveEntity(){} // RVA: 0x7AE6DF640
-        public void get_ReadState(){} // RVA: 0x7AE6DF680
-        public void Read(){} // RVA: 0x7AE6DF700
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE6DF880
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE6DFD40
-        public void VerifyVersion(){} // RVA: 0x7AE6DFED0
-        public void AddInitNamespace(){} // RVA: 0x7AE6DFF20
-        public void AddName(){} // RVA: 0x7AE6E0090
-        public void AddQName(){} // RVA: 0x7AE6E01E0
-        public void NameFlush(){} // RVA: 0x7AE6E0570
-        public void SkipExtn(){} // RVA: 0x7AE6E05D0
-        public void ReadQNameRef(){} // RVA: 0x7AE6E0710
-        public void ReadNameRef(){} // RVA: 0x7AE6E07E0
-        public void FillAllowEOF(){} // RVA: 0x7AE6E08B0
-        public void Fill_(){} // RVA: 0x7AE6E0B00
-        public void Fill(){} // RVA: 0x7AE6E0B80
-        public void ReadByte(){} // RVA: 0x7AE6E0C10
-        public void ReadUShort(){} // RVA: 0x7AE6E0C60
-        public void ParseMB32(){} // RVA: 0x7AE6E0E80
-        public void ParseMB32_(){} // RVA: 0x7AE6E0D20
-        public void ParseMB64(){} // RVA: 0x7AE6E0CC0
-        public void PeekToken(){} // RVA: 0x7AE6E0FA0
-        public void ReadToken(){} // RVA: 0x7AE6E1220
-        public void NextToken2(){} // RVA: 0x7AE6E14A0
-        public void NextToken1(){} // RVA: 0x7AE6E17E0
-        public void NextToken(){} // RVA: 0x7AE6E1850
-        public void PeekNextToken(){} // RVA: 0x7AE6E18F0
-        public void RescanNextToken(){} // RVA: 0x7AE6E1910
-        public void ParseText(){} // RVA: 0x7AE6E1BC0
-        public void ScanText(){} // RVA: 0x7AE6E1C80
-        public void GetString(){} // RVA: 0x7AE6E1DE0
-        public void GetStringAligned(){} // RVA: 0x7AE6E1FB0
-        public void GetAttributeText(){} // RVA: 0x7AE6E1FF0
-        public void LocateAttribute(){} // RVA: 0x7AE6E2280
-        public void PositionOnAttribute(){} // RVA: 0x7AE6E23E0
-        public void GrowElements(){} // RVA: 0x7AE6E25D0
-        public void GrowAttributes(){} // RVA: 0x7AE6E26D0
-        public void ClearAttributes(){} // RVA: 0x7AE6E27B0
-        public void PushNamespace(){} // RVA: 0x7AE6E27D0
-        public void PopNamespaces(){} // RVA: 0x7AE6E2B20
-        public void GenerateImpliedXmlnsAttrs(){} // RVA: 0x7AE6E2C20
-        public void ReadInit(){} // RVA: 0x7AE6E2DD0
-        public void ScanAttributes(){} // RVA: 0x7AE6E3410
-        public void SimpleCheckForDuplicateAttributes(){} // RVA: 0x7AE6E3B40
-        public void HashCheckForDuplicateAttributes(){} // RVA: 0x7AE6E3E40
-        public void XmlDeclValue(){} // RVA: 0x7AE6E4300
-        public void CDATAValue(){} // RVA: 0x7AE6E4470
-        public void FinishCDATA(){} // RVA: 0x7AE6E45F0
-        public void FinishEndElement(){} // RVA: 0x7AE6E4690
-        public void ReadDoc(){} // RVA: 0x7AE6E4810
-        public void ImplReadData(){} // RVA: 0x7AE6E5040
-        public void ImplReadElement(){} // RVA: 0x7AE6E5290
-        public void ImplReadEndElement(){} // RVA: 0x7AE6E5720
-        public void ImplReadDoctype(){} // RVA: 0x7AE6E5850
-        public void ImplReadPI(){} // RVA: 0x7AE6E5C60
-        public void ImplReadComment(){} // RVA: 0x7AE6E5D20
-        public void ImplReadCDATA(){} // RVA: 0x7AE6E5D60
-        public void ImplReadNest(){} // RVA: 0x7AE6E5DF0
-        public void ImplReadEndNest(){} // RVA: 0x7AE6E5FE0
-        public void ImplReadXmlText(){} // RVA: 0x7AE6E60D0
-        public void UpdateFromTextReader(){} // RVA: 0x7AE6E6A70
-        public void CheckAllowContent(){} // RVA: 0x7AE6E6A90
-        public void GenerateTokenTypeMap(){} // RVA: 0x7AE6E6AF0
-        public void GetValueType(){} // RVA: 0x7AE6E7ED0
-        public void ReScanOverValue(){} // RVA: 0x7AE6E7FC0
-        public void ScanOverValue(){} // RVA: 0x7AE6E7FE0
-        public void ScanOverAnyValue(){} // RVA: 0x7AE6E8200
-        public void CheckText(){} // RVA: 0x7AE6E8890
-        public void CheckTextIsWS(){} // RVA: 0x7AE6E8AD0
-        public void CheckValueTokenBounds(){} // RVA: 0x7AE6E8B70
-        public void GetXsdKatmaiTokenLength(){} // RVA: 0x7AE6E8BD0
-        public void XsdKatmaiTimeScaleToValueLength(){} // RVA: 0x7AE6E8D30
-        public void ValueAsLong(){} // RVA: 0x7AE6E8E00
-        public void ValueAsULong(){} // RVA: 0x7AE6E9390
-        public void ValueAsDecimal(){} // RVA: 0x7AE6E9430
-        public void ValueAsDouble(){} // RVA: 0x7AE6E9750
-        public void ValueAsDateTimeString(){} // RVA: 0x7AE6E9950
-        public void ValueAsString(){} // RVA: 0x7AE6E9F60
-        public void GetInt16(){} // RVA: 0x7AE6EA8E0
-        public void GetUInt16(){} // RVA: 0x7AE6EA8E0
-        public void GetInt32(){} // RVA: 0x7AE6EA930
-        public void GetUInt32(){} // RVA: 0x7AE6EA930
-        public void GetInt64(){} // RVA: 0x7AE6EA9B0
-        public void GetUInt64(){} // RVA: 0x7AE6EA9B0
-        public void GetSingle(){} // RVA: 0x7AE6EAAD0
-        public void GetDouble(){} // RVA: 0x7AE6EAB50
-        public void ThrowUnexpectedToken(){} // RVA: 0x7AE6EACB0
-        public void ThrowXmlException(){} // RVA: 0x7AE6EAD80
-        public void ThrowNotSupported(){} // RVA: 0x7AE6EAE70
-        public void .cctor(){} // RVA: 0x7AE6EAEE0
+        public void .ctor(){} // RVA: 0x73537E0
+        public void get_Settings(){} // RVA: 0x7354290
+        public void get_NodeType(){} // RVA: 0xF3A940
+        public void get_LocalName(){} // RVA: 0x12EB090
+        public void get_NamespaceURI(){} // RVA: 0xBAE340
+        public void get_Prefix(){} // RVA: 0x106A050
+        public void get_Value(){} // RVA: 0x7354530
+        public void get_Depth(){} // RVA: 0x7354960
+        public void get_BaseURI(){} // RVA: 0xB813B0
+        public void get_IsEmptyElement(){} // RVA: 0x7354A30
+        public void get_XmlSpace(){} // RVA: 0x7354A50
+        public void get_XmlLang(){} // RVA: 0x7354AE0
+        public void get_ValueType(){} // RVA: 0xD9E3D0
+        public void get_AttributeCount(){} // RVA: 0x7354B80
+        public void GetAttribute(){} // RVA: 0x7354E00
+        public void MoveToAttribute(){} // RVA: 0x7354F40
+        public void MoveToFirstAttribute(){} // RVA: 0x7354FF0
+        public void MoveToNextAttribute(){} // RVA: 0x7355080
+        public void MoveToElement(){} // RVA: 0x7355130
+        public void get_EOF(){} // RVA: 0x73552E0
+        public void ReadAttributeValue(){} // RVA: 0x73552F0
+        public void Close(){} // RVA: 0x7355530
+        public void get_NameTable(){} // RVA: 0xBE2C60
+        public void LookupNamespace(){} // RVA: 0x73556C0
+        public void ResolveEntity(){} // RVA: 0x7355790
+        public void get_ReadState(){} // RVA: 0x73557D0
+        public void Read(){} // RVA: 0x7355850
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x73559D0
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7355E90
+        public void VerifyVersion(){} // RVA: 0x7356020
+        public void AddInitNamespace(){} // RVA: 0x7356070
+        public void AddName(){} // RVA: 0x73561E0
+        public void AddQName(){} // RVA: 0x7356330
+        public void NameFlush(){} // RVA: 0x73566B0
+        public void SkipExtn(){} // RVA: 0x7356710
+        public void ReadQNameRef(){} // RVA: 0x7356850
+        public void ReadNameRef(){} // RVA: 0x7356920
+        public void FillAllowEOF(){} // RVA: 0x73569F0
+        public void Fill_(){} // RVA: 0x7356C40
+        public void Fill(){} // RVA: 0x7356CC0
+        public void ReadByte(){} // RVA: 0x7356D50
+        public void ReadUShort(){} // RVA: 0x7356DA0
+        public void ParseMB32(){} // RVA: 0x7356FC0
+        public void ParseMB32_(){} // RVA: 0x7356E60
+        public void ParseMB64(){} // RVA: 0x7356E00
+        public void PeekToken(){} // RVA: 0x73570E0
+        public void ReadToken(){} // RVA: 0x7357360
+        public void NextToken2(){} // RVA: 0x73575E0
+        public void NextToken1(){} // RVA: 0x7357920
+        public void NextToken(){} // RVA: 0x7357990
+        public void PeekNextToken(){} // RVA: 0x7357A30
+        public void RescanNextToken(){} // RVA: 0x7357A50
+        public void ParseText(){} // RVA: 0x7357D00
+        public void ScanText(){} // RVA: 0x7357DC0
+        public void GetString(){} // RVA: 0x7357F20
+        public void GetStringAligned(){} // RVA: 0x73580E0
+        public void GetAttributeText(){} // RVA: 0x7358120
+        public void LocateAttribute(){} // RVA: 0x73583B0
+        public void PositionOnAttribute(){} // RVA: 0x7358510
+        public void GrowElements(){} // RVA: 0x7358700
+        public void GrowAttributes(){} // RVA: 0x7358800
+        public void ClearAttributes(){} // RVA: 0x73588E0
+        public void PushNamespace(){} // RVA: 0x7358900
+        public void PopNamespaces(){} // RVA: 0x7358C50
+        public void GenerateImpliedXmlnsAttrs(){} // RVA: 0x7358D50
+        public void ReadInit(){} // RVA: 0x7358ED0
+        public void ScanAttributes(){} // RVA: 0x7359500
+        public void SimpleCheckForDuplicateAttributes(){} // RVA: 0x7359C20
+        public void HashCheckForDuplicateAttributes(){} // RVA: 0x7359F20
+        public void XmlDeclValue(){} // RVA: 0x735A3E0
+        public void CDATAValue(){} // RVA: 0x735A550
+        public void FinishCDATA(){} // RVA: 0x735A6D0
+        public void FinishEndElement(){} // RVA: 0x735A770
+        public void ReadDoc(){} // RVA: 0x735A8F0
+        public void ImplReadData(){} // RVA: 0x735B120
+        public void ImplReadElement(){} // RVA: 0x735B370
+        public void ImplReadEndElement(){} // RVA: 0x735B970
+        public void ImplReadDoctype(){} // RVA: 0x735BAA0
+        public void ImplReadPI(){} // RVA: 0x735BEA0
+        public void ImplReadComment(){} // RVA: 0x735BF60
+        public void ImplReadCDATA(){} // RVA: 0x735BFA0
+        public void ImplReadNest(){} // RVA: 0x735C030
+        public void ImplReadEndNest(){} // RVA: 0x735C220
+        public void ImplReadXmlText(){} // RVA: 0x735C310
+        public void UpdateFromTextReader(){} // RVA: 0x735CC70
+        public void CheckAllowContent(){} // RVA: 0x735CC90
+        public void GenerateTokenTypeMap(){} // RVA: 0x735CCF0
+        public void GetValueType(){} // RVA: 0x735DE10
+        public void ReScanOverValue(){} // RVA: 0x735DEF0
+        public void ScanOverValue(){} // RVA: 0x735DF10
+        public void ScanOverAnyValue(){} // RVA: 0x735E130
+        public void CheckText(){} // RVA: 0x735E7C0
+        public void CheckTextIsWS(){} // RVA: 0x735EA00
+        public void CheckValueTokenBounds(){} // RVA: 0x735EAA0
+        public void GetXsdKatmaiTokenLength(){} // RVA: 0x735EB00
+        public void XsdKatmaiTimeScaleToValueLength(){} // RVA: 0x735EC60
+        public void ValueAsLong(){} // RVA: 0x735ED30
+        public void ValueAsULong(){} // RVA: 0x735F2C0
+        public void ValueAsDecimal(){} // RVA: 0x735F360
+        public void ValueAsDouble(){} // RVA: 0x735F680
+        public void ValueAsDateTimeString(){} // RVA: 0x735F880
+        public void ValueAsString(){} // RVA: 0x735FE90
+        public void GetInt16(){} // RVA: 0x7360810
+        public void GetUInt16(){} // RVA: 0x7360810
+        public void GetInt32(){} // RVA: 0x7360860
+        public void GetUInt32(){} // RVA: 0x7360860
+        public void GetInt64(){} // RVA: 0x73608E0
+        public void GetUInt64(){} // RVA: 0x73608E0
+        public void GetSingle(){} // RVA: 0x7360A00
+        public void GetDouble(){} // RVA: 0x7360A80
+        public void ThrowUnexpectedToken(){} // RVA: 0x7360BE0
+        public void ThrowXmlException(){} // RVA: 0x7360CB0
+        public void ThrowNotSupported(){} // RVA: 0x7360DA0
+        public void .cctor(){} // RVA: 0x7360E10
     }
 
     public class XmlText : XmlCharacterData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83F550
-        public void get_Name(){} // RVA: 0x7AE85DD60
-        public void get_LocalName(){} // RVA: 0x7AE85DD60
-        public void get_NodeType(){} // RVA: 0x7A87EE0F0
-        public void get_ParentNode(){} // RVA: 0x7AE83F590
-        public void CloneNode(){} // RVA: 0x7AE85DD90
-        public void get_Value(){} // RVA: 0x7ADCAB740
-        public void set_Value(){} // RVA: 0x7AE85DE00
-        public void WriteTo(){} // RVA: 0x7AE85DD00
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_IsText(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x74B44A0
+        public void get_Name(){} // RVA: 0x74D2720
+        public void get_LocalName(){} // RVA: 0x74D2720
+        public void get_NodeType(){} // RVA: 0x12FC4A0
+        public void get_ParentNode(){} // RVA: 0x74B44E0
+        public void CloneNode(){} // RVA: 0x74D2750
+        public void get_Value(){} // RVA: 0x69358F0
+        public void set_Value(){} // RVA: 0x74D27C0
+        public void WriteTo(){} // RVA: 0x74D26C0
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_IsText(){} // RVA: 0xC2E4C0
     }
 
     public class XmlTextEncoder : Object
     {
+        public object textWriter;
+        public object inAttribute;
+        public object quoteChar;
+        public object attrValue;
+        public object cacheAttrValue;
+        public object xmlCharType;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE815610
-        public void set_QuoteChar(){} // RVA: 0x7AD8A9500
-        public void StartAttribute(){} // RVA: 0x7AE8156F0
-        public void EndAttribute(){} // RVA: 0x7AE8157C0
-        public void get_AttributeValue(){} // RVA: 0x7AE815800
-        public void WriteSurrogateChar(){} // RVA: 0x7AE815870
-        public void Write(){} // RVA: 0x7AE8160C0
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE815E80
-        public void WriteRawWithSurrogateChecking(){} // RVA: 0x7AE816650
-        public void WriteRaw(){} // RVA: 0x7AE8168A0
-        public void WriteCharEntity(){} // RVA: 0x7AE816A60
-        public void WriteEntityRef(){} // RVA: 0x7AE816C50
-        public void WriteStringFragment(){} // RVA: 0x7AE816CD0
-        public void WriteCharEntityImpl(){} // RVA: 0x7AE816E90
-        public void WriteEntityRefImpl(){} // RVA: 0x7AE816F40
+        public void .ctor(){} // RVA: 0x748AA80
+        public void set_QuoteChar(){} // RVA: 0x6536960
+        public void StartAttribute(){} // RVA: 0x748AB60
+        public void EndAttribute(){} // RVA: 0x748AC30
+        public void get_AttributeValue(){} // RVA: 0x748AC70
+        public void WriteSurrogateChar(){} // RVA: 0x748ACC0
+        public void Write(){} // RVA: 0x748B510
+        public void WriteSurrogateCharEntity(){} // RVA: 0x748B2D0
+        public void WriteRawWithSurrogateChecking(){} // RVA: 0x748BAA0
+        public void WriteRaw(){} // RVA: 0x748BCF0
+        public void WriteCharEntity(){} // RVA: 0x748BEB0
+        public void WriteEntityRef(){} // RVA: 0x748C0A0
+        public void WriteStringFragment(){} // RVA: 0x748C120
+        public void WriteCharEntityImpl(){} // RVA: 0x748C2E0
+        public void WriteEntityRefImpl(){} // RVA: 0x748C390
     }
 
     public class XmlTextReader : XmlReader
     {
+        public object impl;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE8174E0
-        public void get_NodeType(){} // RVA: 0x7A858ABB0
-        public void get_Name(){} // RVA: 0x7ADE59240
-        public void get_LocalName(){} // RVA: 0x7A856A750
-        public void get_NamespaceURI(){} // RVA: 0x7ADB00ED0
-        public void get_Prefix(){} // RVA: 0x7ADB00F00
-        public void get_Value(){} // RVA: 0x7A972BF20
-        public void get_Depth(){} // RVA: 0x7AE3C9490
-        public void get_BaseURI(){} // RVA: 0x7A858ABE0
-        public void get_IsEmptyElement(){} // RVA: 0x7A858AB50
-        public void get_IsDefault(){} // RVA: 0x7A858AA50
-        public void get_QuoteChar(){} // RVA: 0x7A858AB80
-        public void get_XmlSpace(){} // RVA: 0x7A858AA20
-        public void get_XmlLang(){} // RVA: 0x7A858AC40
-        public void get_AttributeCount(){} // RVA: 0x7AE1E3E00
-        public void GetAttribute(){} // RVA: 0x7AE562100
-        public void MoveToAttribute(){} // RVA: 0x7AE562160
-        public void MoveToFirstAttribute(){} // RVA: 0x7ADB010B0
-        public void MoveToNextAttribute(){} // RVA: 0x7ADBF0670
-        public void MoveToElement(){} // RVA: 0x7A8555880
-        public void ReadAttributeValue(){} // RVA: 0x7ADE58970
-        public void Read(){} // RVA: 0x7AE562190
-        public void get_EOF(){} // RVA: 0x7AE5621C0
-        public void Close(){} // RVA: 0x7ADE59400
-        public void get_ReadState(){} // RVA: 0x7AE5621F0
-        public void Skip(){} // RVA: 0x7ADA26BF0
-        public void get_NameTable(){} // RVA: 0x7ADE584C0
-        public void LookupNamespace(){} // RVA: 0x7AE817680
-        public void get_CanResolveEntity(){} // RVA: 0x7A81BD750
-        public void ResolveEntity(){} // RVA: 0x7AE562280
-        public void get_CanReadValueChunk(){} // RVA: 0x7A80D7320
-        public void ReadString(){} // RVA: 0x7AE8176C0
-        public void HasLineInfo(){} // RVA: 0x7A81BD750
-        public void get_LineNumber(){} // RVA: 0x7AE8176F0
-        public void get_LinePosition(){} // RVA: 0x7AE817720
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE817750
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE562220
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE817790
-        public void get_Namespaces(){} // RVA: 0x7A8D77920
-        public void get_Normalization(){} // RVA: 0x7AE8177D0
-        public void set_Normalization(){} // RVA: 0x7AE8177F0
-        public void set_WhitespaceHandling(){} // RVA: 0x7AE8178D0
-        public void set_EntityHandling(){} // RVA: 0x7AE8179D0
-        public void set_XmlResolver(){} // RVA: 0x7AE817A70
-        public void get_Impl(){} // RVA: 0x7A80F2570
-        public void get_NamespaceManager(){} // RVA: 0x7AE817A90
-        public void set_XmlValidatingReaderCompatibilityMode(){} // RVA: 0x7AE817AC0
-        public void get_DtdInfo(){} // RVA: 0x7AE817AE0
+        public void .ctor(){} // RVA: 0x748C910
+        public void get_NodeType(){} // RVA: 0x10AD460
+        public void get_Name(){} // RVA: 0x6AE07D0
+        public void get_LocalName(){} // RVA: 0x1085C80
+        public void get_NamespaceURI(){} // RVA: 0x678C220
+        public void get_Prefix(){} // RVA: 0x678C250
+        public void get_Value(){} // RVA: 0x22368C0
+        public void get_Depth(){} // RVA: 0x7048FE0
+        public void get_BaseURI(){} // RVA: 0x10ADE70
+        public void get_IsEmptyElement(){} // RVA: 0x10AD020
+        public void get_IsDefault(){} // RVA: 0x10AE060
+        public void get_QuoteChar(){} // RVA: 0x10AD890
+        public void get_XmlSpace(){} // RVA: 0x10ACFC0
+        public void get_XmlLang(){} // RVA: 0x10AC4B0
+        public void get_AttributeCount(){} // RVA: 0x6E669C0
+        public void GetAttribute(){} // RVA: 0x71DA4B0
+        public void MoveToAttribute(){} // RVA: 0x71DA510
+        public void MoveToFirstAttribute(){} // RVA: 0x678C400
+        public void MoveToNextAttribute(){} // RVA: 0x687B750
+        public void MoveToElement(){} // RVA: 0x687B780
+        public void ReadAttributeValue(){} // RVA: 0x6ADFF00
+        public void Read(){} // RVA: 0x71DA540
+        public void get_EOF(){} // RVA: 0x71DA570
+        public void Close(){} // RVA: 0x6AE0990
+        public void get_ReadState(){} // RVA: 0x71DA5A0
+        public void Skip(){} // RVA: 0x66B0FE0
+        public void get_NameTable(){} // RVA: 0x6ADFA50
+        public void LookupNamespace(){} // RVA: 0x748CA90
+        public void get_CanResolveEntity(){} // RVA: 0xC2E4C0
+        public void ResolveEntity(){} // RVA: 0x71DA630
+        public void get_CanReadValueChunk(){} // RVA: 0xB43320
+        public void ReadString(){} // RVA: 0x748CAD0
+        public void HasLineInfo(){} // RVA: 0xC2E4C0
+        public void get_LineNumber(){} // RVA: 0x748CB00
+        public void get_LinePosition(){} // RVA: 0x748CB30
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x748CB60
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x71DA5D0
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x748CBA0
+        public void get_Namespaces(){} // RVA: 0x1890380
+        public void get_Normalization(){} // RVA: 0x748CBE0
+        public void set_Normalization(){} // RVA: 0x748CC00
+        public void set_WhitespaceHandling(){} // RVA: 0x748CCE0
+        public void set_EntityHandling(){} // RVA: 0x748CDE0
+        public void set_XmlResolver(){} // RVA: 0x748CE80
+        public void get_Impl(){} // RVA: 0xB5DBF0
+        public void get_NamespaceManager(){} // RVA: 0x748CEA0
+        public void set_XmlValidatingReaderCompatibilityMode(){} // RVA: 0x748CED0
+        public void get_DtdInfo(){} // RVA: 0x748CEF0
     }
 
     public class XmlTextReaderImpl : XmlReader
     {
+        public object useAsync;
+        public object laterInitParam;
+        public object xmlCharType;
+        public object ps;
+        public object parsingFunction;
+        public object nextParsingFunction;
+        public object nextNextParsingFunction;
+        public object nodes;
+        public object curNode;
+        public object index;
+        public object curAttrIndex;
+        public object attrCount;
+        public object attrHashtable;
+        public object attrDuplWalkCount;
+        public object attrNeedNamespaceLookup;
+        public object fullAttrCleanup;
+        public object attrDuplSortingArray;
+        public object nameTable;
+        public object nameTableFromSettings;
+        public object xmlResolver;
+        public object url;
+        public object normalize;
+        public object supportNamespaces;
+        public object whitespaceHandling;
+        public object dtdProcessing;
+        public object entityHandling;
+        public object ignorePIs;
+        public object ignoreComments;
+        public object checkCharacters;
+        public object lineNumberOffset;
+        public object linePositionOffset;
+        public object closeInput;
+        public object maxCharactersInDocument;
+        public object maxCharactersFromEntities;
+        public object v1Compat;
+        public object namespaceManager;
+        public object lastPrefix;
+        public object xmlContext;
+        public object parsingStatesStack;
+        public object parsingStatesStackTop;
+        public object reportedBaseUri;
+        public object reportedEncoding;
+        public object dtdInfo;
+        public object fragmentType;
+        public object fragmentParserContext;
+        public object fragment;
+        public object incReadDecoder;
+        public object incReadState;
+        public object incReadLineInfo;
+        public object incReadDepth;
+        public object incReadLeftStartPos;
+        public object incReadLeftEndPos;
+        public object attributeValueBaseEntityId;
+        public object emptyEntityInAttributeResolved;
+        public object validationEventHandling;
+        public object onDefaultAttributeUse;
+        public object validatingReaderCompatFlag;
+        public object addDefaultAttributesAndNormalize;
+        public object stringBuilder;
+        public object rootElementParsed;
+        public object standalone;
+        public object nextEntityId;
+        public object parsingMode;
+        public object readState;
+        public object lastEntity;
+        public object afterResetState;
+        public object documentStartBytePos;
+        public object readValueOffset;
+        public object charactersInDocument;
+        public object charactersFromEntities;
+        public object currentEntities;
+        public object disableUndeclaredEntityCheck;
+        public object outerReader;
+        public object xmlResolverIsSet;
+        public object Xml;
+        public object XmlNs;
+        public object parseText_dummyTask;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE7036F0
-        public void FinishInitUriString(){} // RVA: 0x7AE7028C0
-        public void FinishInitStream(){} // RVA: 0x7AE7031E0
-        public void FinishInitTextReader(){} // RVA: 0x7AE7035B0
-        public void get_Settings(){} // RVA: 0x7AE703850
-        public void get_NodeType(){} // RVA: 0x7AE703C10
-        public void get_Name(){} // RVA: 0x7AE703C30
-        public void get_LocalName(){} // RVA: 0x7AE703C60
-        public void get_NamespaceURI(){} // RVA: 0x7AE703C80
-        public void get_Prefix(){} // RVA: 0x7AE703CA0
-        public void get_Value(){} // RVA: 0x7AE703CC0
-        public void get_Depth(){} // RVA: 0x7AE703E40
-        public void get_BaseURI(){} // RVA: 0x7A863E8E0
-        public void get_IsEmptyElement(){} // RVA: 0x7AE703E60
-        public void get_IsDefault(){} // RVA: 0x7AE703E90
-        public void get_QuoteChar(){} // RVA: 0x7AE703EC0
-        public void get_XmlSpace(){} // RVA: 0x7AE703EF0
-        public void get_XmlLang(){} // RVA: 0x7AE703F10
-        public void get_ReadState(){} // RVA: 0x7AE703F30
-        public void get_EOF(){} // RVA: 0x7AE703F40
-        public void get_NameTable(){} // RVA: 0x7A8158F50
-        public void get_CanResolveEntity(){} // RVA: 0x7A81BD750
-        public void get_AttributeCount(){} // RVA: 0x7A87BD4F0
-        public void GetAttribute(){} // RVA: 0x7AE704150
-        public void MoveToAttribute(){} // RVA: 0x7AE704310
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE704440
-        public void MoveToNextAttribute(){} // RVA: 0x7AE704500
-        public void MoveToElement(){} // RVA: 0x7AE7045E0
-        public void FinishInit(){} // RVA: 0x7AE7046B0
-        public void Read(){} // RVA: 0x7AE704700
-        public void Close(){} // RVA: 0x7AE70B090
-        public void Skip(){} // RVA: 0x7AE704FB0
-        public void LookupNamespace(){} // RVA: 0x7AE718470
-        public void ReadAttributeValue(){} // RVA: 0x7AE705210
-        public void ResolveEntity(){} // RVA: 0x7AE705540
-        public void set_OuterReader(){} // RVA: 0x7A8B56C80
-        public void MoveOffEntityReference(){} // RVA: 0x7AE7057F0
-        public void ReadString(){} // RVA: 0x7AE7058C0
-        public void get_CanReadValueChunk(){} // RVA: 0x7A81BD750
-        public void ReadValueChunk(){} // RVA: 0x7AE7058E0
-        public void HasLineInfo(){} // RVA: 0x7A81BD750
-        public void get_LineNumber(){} // RVA: 0x7AE705EC0
-        public void get_LinePosition(){} // RVA: 0x7AE705EE0
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE705F00
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE4A5120
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE705F30
-        public void GetNamespacesInScope(){} // RVA: 0x7AE705F00
-        public void LookupPrefix(){} // RVA: 0x7AE705F30
-        public void get_Namespaces(){} // RVA: 0x7A9906080
-        public void set_Namespaces(){} // RVA: 0x7AE705F60
-        public void get_Normalization(){} // RVA: 0x7A8F95140
-        public void set_Normalization(){} // RVA: 0x7AE706260
-        public void set_WhitespaceHandling(){} // RVA: 0x7AE706340
-        public void set_EntityHandling(){} // RVA: 0x7AE706430
-        public void get_IsResolverSet(){} // RVA: 0x7AE7064C0
-        public void set_XmlResolver(){} // RVA: 0x7AE7064D0
-        public void get_DtdParserProxy_NameTable(){} // RVA: 0x7A8158F50
-        public void get_DtdParserProxy_NamespaceResolver(){} // RVA: 0x7A8850FF0
-        public void get_DtdParserProxy_DtdValidation(){} // RVA: 0x7AE706650
-        public void get_DtdParserProxy_Normalization(){} // RVA: 0x7A8F95140
-        public void get_DtdParserProxy_Namespaces(){} // RVA: 0x7A9906080
-        public void get_DtdParserProxy_V1CompatibilityMode(){} // RVA: 0x7AE706660
-        public void get_DtdParserProxy_BaseUri(){} // RVA: 0x7AE706670
-        public void get_DtdParserProxy_IsEof(){} // RVA: 0x7A90FA160
-        public void get_DtdParserProxy_ParsingBuffer(){} // RVA: 0x7A8105330
-        public void get_DtdParserProxy_ParsingBufferLength(){} // RVA: 0x7A82C2070
-        public void get_DtdParserProxy_CurrentPosition(){} // RVA: 0x7A8133100
-        public void set_DtdParserProxy_CurrentPosition(){} // RVA: 0x7A8133110
-        public void get_DtdParserProxy_EntityStackLength(){} // RVA: 0x7AE706730
-        public void get_DtdParserProxy_IsEntityEolNormalized(){} // RVA: 0x7AE1658B0
-        public void get_DtdParserProxy_ValidationEventHandling(){} // RVA: 0x7A8B772D0
-        public void DtdParserProxy_OnNewLine(){} // RVA: 0x7AE706740
-        public void get_DtdParserProxy_LineNo(){} // RVA: 0x7A8EA8210
-        public void get_DtdParserProxy_LineStartPosition(){} // RVA: 0x7A96E4F70
-        public void DtdParserProxy_ReadData(){} // RVA: 0x7AE706750
-        public void DtdParserProxy_ParseNumericCharRef(){} // RVA: 0x7AE706760
-        public void DtdParserProxy_ParseNamedCharRef(){} // RVA: 0x7AE706810
-        public void DtdParserProxy_ParsePI(){} // RVA: 0x7AE706820
-        public void DtdParserProxy_ParseComment(){} // RVA: 0x7AE706870
-        public void get_IsResolverNull(){} // RVA: 0x7AE707070
-        public void GetTempResolver(){} // RVA: 0x7AE707080
-        public void DtdParserProxy_PushEntity(){} // RVA: 0x7AE7070E0
-        public void DtdParserProxy_PopEntity(){} // RVA: 0x7AE7071A0
-        public void DtdParserProxy_PushExternalSubset(){} // RVA: 0x7AE707290
-        public void DtdParserProxy_PushInternalDtd(){} // RVA: 0x7AE707430
-        public void DtdParserProxy_Throw(){} // RVA: 0x7AE707510
-        public void DtdParserProxy_OnSystemId(){} // RVA: 0x7AE707520
-        public void DtdParserProxy_OnPublicId(){} // RVA: 0x7AE707600
-        public void Throw(){} // RVA: 0x7AE707B90
-        public void ReThrow(){} // RVA: 0x7AE707C30
-        public void ThrowWithoutLineInfo(){} // RVA: 0x7AE707DF0
-        public void ThrowInvalidChar(){} // RVA: 0x7AE707E80
-        public void SetErrorState(){} // RVA: 0x7AE707EF0
-        public void SendValidationEvent(){} // RVA: 0x7AE708000
-        public void get_InAttributeValueIterator(){} // RVA: 0x7AE708070
-        public void FinishAttributeValueIterator(){} // RVA: 0x7AE708090
-        public void get_DtdValidation(){} // RVA: 0x7AE706650
-        public void InitStreamInput(){} // RVA: 0x7AE7082B0
-        public void InitTextReaderInput(){} // RVA: 0x7AE708990
-        public void InitStringInput(){} // RVA: 0x7AE708C00
-        public void InitFragmentReader(){} // RVA: 0x7AE708E40
-        public void ProcessDtdFromParserContext(){} // RVA: 0x7AE709420
-        public void OpenUrl(){} // RVA: 0x7AE709490
-        public void OpenUrlDelegate(){} // RVA: 0x7AE709740
-        public void DetectEncoding(){} // RVA: 0x7AE709970
-        public void SetupEncoding(){} // RVA: 0x7AE709BB0
-        public void SwitchEncoding(){} // RVA: 0x7AE709EC0
-        public void CheckEncoding(){} // RVA: 0x7AE70A080
-        public void UnDecodeChars(){} // RVA: 0x7AE70A750
-        public void SwitchEncodingToUTF8(){} // RVA: 0x7AE70A800
-        public void ReadData(){} // RVA: 0x7AE70A8A0
-        public void GetChars(){} // RVA: 0x7AE70AE40
-        public void InvalidCharRecovery(){} // RVA: 0x7AE70AF20
-        public void ShiftBuffer(){} // RVA: 0x7AE70B3E0
-        public void ParseXmlDeclaration(){} // RVA: 0x7AE70B410
-        public void ParseDocumentContent(){} // RVA: 0x7AE70C850
-        public void ParseElementContent(){} // RVA: 0x7AE70CEA0
-        public void ThrowUnclosedElements(){} // RVA: 0x7AE70D280
-        public void ParseElement(){} // RVA: 0x7AE70D470
-        public void AddDefaultAttributesAndNormalize(){} // RVA: 0x7AE70DAB0
-        public void ParseEndElement(){} // RVA: 0x7AE70E160
-        public void ThrowTagMismatch(){} // RVA: 0x7AE70E6C0
-        public void ParseAttributes(){} // RVA: 0x7AE70E8A0
-        public void ElementNamespaceLookup(){} // RVA: 0x7AE70EEE0
-        public void AttributeNamespaceLookup(){} // RVA: 0x7AE70F010
-        public void AttributeDuplCheck(){} // RVA: 0x7AE70F0E0
-        public void OnDefaultNamespaceDecl(){} // RVA: 0x7AE70F500
-        public void OnNamespaceDecl(){} // RVA: 0x7AE70F6F0
-        public void OnXmlReservedAttribute(){} // RVA: 0x7AE70F7E0
-        public void ParseAttributeValueSlow(){} // RVA: 0x7AE70FB00
-        public void AddAttributeChunkToList(){} // RVA: 0x7AE710E10
-        public void ParseText(){} // RVA: 0x7AE7113F0
-        public void FinishPartialValue(){} // RVA: 0x7AE711AF0
-        public void FinishOtherValueIterator(){} // RVA: 0x7AE712040
-        public void SkipPartialTextValue(){} // RVA: 0x7AE712190
-        public void FinishReadValueChunk(){} // RVA: 0x7AE7121F0
-        public void FinishReadContentAsBinary(){} // RVA: 0x7AE712230
-        public void FinishReadElementContentAsBinary(){} // RVA: 0x7AE712390
-        public void ParseRootLevelWhitespace(){} // RVA: 0x7AE712460
-        public void ParseEntityReference(){} // RVA: 0x7AE712690
-        public void HandleEntityReference(){} // RVA: 0x7AE712740
-        public void HandleGeneralEntityReference(){} // RVA: 0x7AE7129E0
-        public void get_InEntity(){} // RVA: 0x7AE712E30
-        public void HandleEntityEnd(){} // RVA: 0x7AE712E40
-        public void SetupEndEntityNodeInContent(){} // RVA: 0x7AE7130D0
-        public void SetupEndEntityNodeInAttribute(){} // RVA: 0x7AE713310
-        public void ParsePI(){} // RVA: 0x7AE7133F0
-        public void ParsePIValue(){} // RVA: 0x7AE713C10
-        public void ParseComment(){} // RVA: 0x7AE713FA0
-        public void ParseCData(){} // RVA: 0x7AE714540
-        public void ParseCDataOrComment(){} // RVA: 0x7AE714A70
-        public void ParseDoctypeDecl(){} // RVA: 0x7AE714EA0
-        public void ParseDtd(){} // RVA: 0x7AE7151F0
-        public void SkipDtd(){} // RVA: 0x7AE715570
-        public void SkipPublicOrSystemIdLiteral(){} // RVA: 0x7AE715F80
-        public void SkipUntil(){} // RVA: 0x7AE716020
-        public void EatWhitespaces(){} // RVA: 0x7AE7164D0
-        public void ParseCharRefInline(){} // RVA: 0x7AE716720
-        public void ParseNumericCharRef(){} // RVA: 0x7AE7167A0
-        public void ParseNumericCharRefInline(){} // RVA: 0x7AE716870
-        public void ParseNamedCharRef(){} // RVA: 0x7AE717060
-        public void ParseNamedCharRefInline(){} // RVA: 0x7AE7173A0
-        public void ParseName(){} // RVA: 0x7AE7176B0
-        public void ParseQName(){} // RVA: 0x7AE717700
-        public void ReadDataInName(){} // RVA: 0x7AE7179A0
-        public void ParseEntityName(){} // RVA: 0x7AE7179E0
-        public void AddNode(){} // RVA: 0x7AE717AE0
-        public void AllocNode(){} // RVA: 0x7AE717B30
-        public void AddAttributeNoChecks(){} // RVA: 0x7AE717CF0
-        public void AddAttribute(){} // RVA: 0x7AE7180D0
-        public void PopElementContext(){} // RVA: 0x7AE718270
-        public void OnNewLine(){} // RVA: 0x7AE706740
-        public void OnEof(){} // RVA: 0x7AE718330
-        public void AddNamespace(){} // RVA: 0x7AE718550
-        public void ResetAttributes(){} // RVA: 0x7AE718810
-        public void FullAttributeCleanup(){} // RVA: 0x7AE718940
-        public void PushXmlContext(){} // RVA: 0x7AE718A40
-        public void PopXmlContext(){} // RVA: 0x7AE718C00
-        public void GetWhitespaceType(){} // RVA: 0x7AE718C90
-        public void GetTextNodeType(){} // RVA: 0x7AE718CE0
-        public void PushExternalEntityOrSubset(){} // RVA: 0x7AE718D40
-        public void OpenAndPush(){} // RVA: 0x7AE7190A0
-        public void PushExternalEntity(){} // RVA: 0x7AE7193B0
-        public void PushInternalEntity(){} // RVA: 0x7AE7195B0
-        public void PopEntity(){} // RVA: 0x7AE719730
-        public void RegisterEntity(){} // RVA: 0x7AE7197D0
-        public void UnregisterEntity(){} // RVA: 0x7AE719AE0
-        public void PushParsingState(){} // RVA: 0x7AE719B50
-        public void PopParsingState(){} // RVA: 0x7AE719DE0
-        public void IncrementalRead(){} // RVA: 0x7AE719F20
-        public void FinishIncrementalRead(){} // RVA: 0x7AE71ACB0
-        public void ParseFragmentAttribute(){} // RVA: 0x7AE71ADC0
-        public void ParseAttributeValueChunk(){} // RVA: 0x7AE71AE60
-        public void ParseXmlDeclarationFragment(){} // RVA: 0x7AE71B5F0
-        public void ThrowUnexpectedToken(){} // RVA: 0x7AE71B6D0
-        public void ParseUnexpectedToken(){} // RVA: 0x7AE71B850
-        public void ThrowExpectingWhitespace(){} // RVA: 0x7AE71B930
-        public void GetIndexOfAttributeWithoutPrefix(){} // RVA: 0x7AE71B9C0
-        public void GetIndexOfAttributeWithPrefix(){} // RVA: 0x7AE71BAA0
-        public void ZeroEndingStream(){} // RVA: 0x7AE71BB80
-        public void ParseDtdFromParserContext(){} // RVA: 0x7AE71BBF0
-        public void MoveToNextContentNode(){} // RVA: 0x7AE71BE50
-        public void SetupFromParserContext(){} // RVA: 0x7AE71BF60
-        public void get_DtdInfo(){} // RVA: 0x7A85ECF50
-        public void SetDtdInfo(){} // RVA: 0x7AE71C3A0
-        public void set_ValidationEventHandling(){} // RVA: 0x7A8B58850
-        public void set_OnDefaultAttributeUse(){} // RVA: 0x7A8B58420
-        public void set_XmlValidatingReaderCompatibilityMode(){} // RVA: 0x7AE71C4A0
-        public void get_FragmentType(){} // RVA: 0x7A8637490
-        public void ChangeCurrentNodeType(){} // RVA: 0x7AE71C590
-        public void GetResolver(){} // RVA: 0x7AE71C5B0
-        public void set_InternalSchemaType(){} // RVA: 0x7AE71C5D0
-        public void get_InternalTypedValue(){} // RVA: 0x7AE71C640
-        public void set_InternalTypedValue(){} // RVA: 0x7AE71C670
-        public void get_StandAlone(){} // RVA: 0x7A9A9D040
-        public void get_NamespaceManager(){} // RVA: 0x7A8850FF0
-        public void get_V1Compat(){} // RVA: 0x7AE706660
-        public void AddDefaultAttributeDtd(){} // RVA: 0x7AE71C6E0
-        public void AddDefaultAttributeNonDtd(){} // RVA: 0x7AE71CAA0
-        public void AddDefaultAttributeInternal(){} // RVA: 0x7AE71CE60
-        public void set_DisableUndeclaredEntityCheck(){} // RVA: 0x7AE71D1C0
-        public void UriEqual(){} // RVA: 0x7AE71D1D0
-        public void RegisterConsumedCharacters(){} // RVA: 0x7AE71D2E0
-        public void StripSpaces(){} // RVA: 0x7AE71D670
-        public void BlockCopyChars(){} // RVA: 0x7ADD5D2A0
-        public void BlockCopy(){} // RVA: 0x7AE71D7D0
+        public void .ctor(){} // RVA: 0x73794B0
+        public void FinishInitUriString(){} // RVA: 0x7378650
+        public void FinishInitStream(){} // RVA: 0x7378FA0
+        public void FinishInitTextReader(){} // RVA: 0x7379370
+        public void get_Settings(){} // RVA: 0x73795F0
+        public void get_NodeType(){} // RVA: 0x73799B0
+        public void get_Name(){} // RVA: 0x73799D0
+        public void get_LocalName(){} // RVA: 0x7379A00
+        public void get_NamespaceURI(){} // RVA: 0x7379A20
+        public void get_Prefix(){} // RVA: 0x7379A40
+        public void get_Value(){} // RVA: 0x7379A60
+        public void get_Depth(){} // RVA: 0x7379BC0
+        public void get_BaseURI(){} // RVA: 0x1143F90
+        public void get_IsEmptyElement(){} // RVA: 0x7379BE0
+        public void get_IsDefault(){} // RVA: 0x7379C10
+        public void get_QuoteChar(){} // RVA: 0x7379C40
+        public void get_XmlSpace(){} // RVA: 0x7379C70
+        public void get_XmlLang(){} // RVA: 0x7379C90
+        public void get_ReadState(){} // RVA: 0x7379CB0
+        public void get_EOF(){} // RVA: 0x7379CC0
+        public void get_NameTable(){} // RVA: 0xBC5B30
+        public void get_CanResolveEntity(){} // RVA: 0xC2E4C0
+        public void get_AttributeCount(){} // RVA: 0x12CE7D0
+        public void GetAttribute(){} // RVA: 0x7379EB0
+        public void MoveToAttribute(){} // RVA: 0x737A070
+        public void MoveToFirstAttribute(){} // RVA: 0x737A1A0
+        public void MoveToNextAttribute(){} // RVA: 0x737A260
+        public void MoveToElement(){} // RVA: 0x737A340
+        public void FinishInit(){} // RVA: 0x737A410
+        public void Read(){} // RVA: 0x737A460
+        public void Close(){} // RVA: 0x7380C90
+        public void Skip(){} // RVA: 0x737ACF0
+        public void LookupNamespace(){} // RVA: 0x738DC50
+        public void ReadAttributeValue(){} // RVA: 0x737AF50
+        public void ResolveEntity(){} // RVA: 0x737B280
+        public void set_OuterReader(){} // RVA: 0x163A9E0
+        public void MoveOffEntityReference(){} // RVA: 0x737B520
+        public void ReadString(){} // RVA: 0x737B5F0
+        public void get_CanReadValueChunk(){} // RVA: 0xC2E4C0
+        public void ReadValueChunk(){} // RVA: 0x737B610
+        public void HasLineInfo(){} // RVA: 0xC2E4C0
+        public void get_LineNumber(){} // RVA: 0x737BBE0
+        public void get_LinePosition(){} // RVA: 0x737BC00
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x737BC20
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7120CC0
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x737BC50
+        public void GetNamespacesInScope(){} // RVA: 0x737BC20
+        public void LookupPrefix(){} // RVA: 0x737BC50
+        public void get_Namespaces(){} // RVA: 0x24440E0
+        public void set_Namespaces(){} // RVA: 0x737BC80
+        public void get_Normalization(){} // RVA: 0x2443BA0
+        public void set_Normalization(){} // RVA: 0x737BF70
+        public void set_WhitespaceHandling(){} // RVA: 0x737C050
+        public void set_EntityHandling(){} // RVA: 0x737C130
+        public void get_IsResolverSet(){} // RVA: 0x737C1C0
+        public void set_XmlResolver(){} // RVA: 0x737C1D0
+        public void get_DtdParserProxy_NameTable(){} // RVA: 0xBC5B30
+        public void get_DtdParserProxy_NamespaceResolver(){} // RVA: 0x135A170
+        public void get_DtdParserProxy_DtdValidation(){} // RVA: 0x737C350
+        public void get_DtdParserProxy_Normalization(){} // RVA: 0x2443BA0
+        public void get_DtdParserProxy_Namespaces(){} // RVA: 0x24440E0
+        public void get_DtdParserProxy_V1CompatibilityMode(){} // RVA: 0x737C360
+        public void get_DtdParserProxy_BaseUri(){} // RVA: 0x737C370
+        public void get_DtdParserProxy_IsEof(){} // RVA: 0x1C556E0
+        public void get_DtdParserProxy_ParsingBuffer(){} // RVA: 0xB70160
+        public void get_DtdParserProxy_ParsingBufferLength(){} // RVA: 0xE9CE60
+        public void get_DtdParserProxy_CurrentPosition(){} // RVA: 0xB9E080
+        public void set_DtdParserProxy_CurrentPosition(){} // RVA: 0xB9E090
+        public void get_DtdParserProxy_EntityStackLength(){} // RVA: 0x737C430
+        public void get_DtdParserProxy_IsEntityEolNormalized(){} // RVA: 0x6DE6270
+        public void get_DtdParserProxy_ValidationEventHandling(){} // RVA: 0x1659CB0
+        public void DtdParserProxy_OnNewLine(){} // RVA: 0x737C440
+        public void get_DtdParserProxy_LineNo(){} // RVA: 0x19C6270
+        public void get_DtdParserProxy_LineStartPosition(){} // RVA: 0x21EA4F0
+        public void DtdParserProxy_ReadData(){} // RVA: 0x737C450
+        public void DtdParserProxy_ParseNumericCharRef(){} // RVA: 0x737C460
+        public void DtdParserProxy_ParseNamedCharRef(){} // RVA: 0x737C510
+        public void DtdParserProxy_ParsePI(){} // RVA: 0x737C520
+        public void DtdParserProxy_ParseComment(){} // RVA: 0x737C570
+        public void get_IsResolverNull(){} // RVA: 0x737CD70
+        public void GetTempResolver(){} // RVA: 0x737CD80
+        public void DtdParserProxy_PushEntity(){} // RVA: 0x737CDE0
+        public void DtdParserProxy_PopEntity(){} // RVA: 0x737CEA0
+        public void DtdParserProxy_PushExternalSubset(){} // RVA: 0x737CF90
+        public void DtdParserProxy_PushInternalDtd(){} // RVA: 0x737D130
+        public void DtdParserProxy_Throw(){} // RVA: 0x737D210
+        public void DtdParserProxy_OnSystemId(){} // RVA: 0x737D220
+        public void DtdParserProxy_OnPublicId(){} // RVA: 0x737D300
+        public void Throw(){} // RVA: 0x737D830
+        public void ReThrow(){} // RVA: 0x737D8D0
+        public void ThrowWithoutLineInfo(){} // RVA: 0x737DA80
+        public void ThrowInvalidChar(){} // RVA: 0x737DB10
+        public void SetErrorState(){} // RVA: 0x737DB80
+        public void SendValidationEvent(){} // RVA: 0x737DC90
+        public void get_InAttributeValueIterator(){} // RVA: 0x737DD00
+        public void FinishAttributeValueIterator(){} // RVA: 0x737DD20
+        public void get_DtdValidation(){} // RVA: 0x737C350
+        public void InitStreamInput(){} // RVA: 0x737DF00
+        public void InitTextReaderInput(){} // RVA: 0x737E5E0
+        public void InitStringInput(){} // RVA: 0x737E850
+        public void InitFragmentReader(){} // RVA: 0x737EA90
+        public void ProcessDtdFromParserContext(){} // RVA: 0x737F060
+        public void OpenUrl(){} // RVA: 0x737F0D0
+        public void OpenUrlDelegate(){} // RVA: 0x737F380
+        public void DetectEncoding(){} // RVA: 0x737F570
+        public void SetupEncoding(){} // RVA: 0x737F7B0
+        public void SwitchEncoding(){} // RVA: 0x737FAC0
+        public void CheckEncoding(){} // RVA: 0x737FC80
+        public void UnDecodeChars(){} // RVA: 0x7380350
+        public void SwitchEncodingToUTF8(){} // RVA: 0x7380400
+        public void ReadData(){} // RVA: 0x73804A0
+        public void GetChars(){} // RVA: 0x7380A40
+        public void InvalidCharRecovery(){} // RVA: 0x7380B20
+        public void ShiftBuffer(){} // RVA: 0x7380FB0
+        public void ParseXmlDeclaration(){} // RVA: 0x7380FE0
+        public void ParseDocumentContent(){} // RVA: 0x7382430
+        public void ParseElementContent(){} // RVA: 0x7382A80
+        public void ThrowUnclosedElements(){} // RVA: 0x7382E60
+        public void ParseElement(){} // RVA: 0x7383050
+        public void AddDefaultAttributesAndNormalize(){} // RVA: 0x7383650
+        public void ParseEndElement(){} // RVA: 0x7383D00
+        public void ThrowTagMismatch(){} // RVA: 0x7384260
+        public void ParseAttributes(){} // RVA: 0x7384440
+        public void ElementNamespaceLookup(){} // RVA: 0x7384A80
+        public void AttributeNamespaceLookup(){} // RVA: 0x7384BB0
+        public void AttributeDuplCheck(){} // RVA: 0x7384C80
+        public void OnDefaultNamespaceDecl(){} // RVA: 0x73850A0
+        public void OnNamespaceDecl(){} // RVA: 0x7385280
+        public void OnXmlReservedAttribute(){} // RVA: 0x7385370
+        public void ParseAttributeValueSlow(){} // RVA: 0x7385690
+        public void AddAttributeChunkToList(){} // RVA: 0x7386960
+        public void ParseText(){} // RVA: 0x7386F40
+        public void FinishPartialValue(){} // RVA: 0x7387640
+        public void FinishOtherValueIterator(){} // RVA: 0x7387B90
+        public void SkipPartialTextValue(){} // RVA: 0x7387CC0
+        public void FinishReadValueChunk(){} // RVA: 0x7387D20
+        public void FinishReadContentAsBinary(){} // RVA: 0x7387D60
+        public void FinishReadElementContentAsBinary(){} // RVA: 0x7387EC0
+        public void ParseRootLevelWhitespace(){} // RVA: 0x7387F90
+        public void ParseEntityReference(){} // RVA: 0x73881C0
+        public void HandleEntityReference(){} // RVA: 0x7388240
+        public void HandleGeneralEntityReference(){} // RVA: 0x73884E0
+        public void get_InEntity(){} // RVA: 0x7388920
+        public void HandleEntityEnd(){} // RVA: 0x7388930
+        public void SetupEndEntityNodeInContent(){} // RVA: 0x7388BC0
+        public void SetupEndEntityNodeInAttribute(){} // RVA: 0x7388DE0
+        public void ParsePI(){} // RVA: 0x7388EC0
+        public void ParsePIValue(){} // RVA: 0x7389700
+        public void ParseComment(){} // RVA: 0x7389A90
+        public void ParseCData(){} // RVA: 0x738A030
+        public void ParseCDataOrComment(){} // RVA: 0x738A560
+        public void ParseDoctypeDecl(){} // RVA: 0x738A990
+        public void ParseDtd(){} // RVA: 0x738ACE0
+        public void SkipDtd(){} // RVA: 0x738B050
+        public void SkipPublicOrSystemIdLiteral(){} // RVA: 0x738B790
+        public void SkipUntil(){} // RVA: 0x738B830
+        public void EatWhitespaces(){} // RVA: 0x738BCE0
+        public void ParseCharRefInline(){} // RVA: 0x738BF30
+        public void ParseNumericCharRef(){} // RVA: 0x738BFB0
+        public void ParseNumericCharRefInline(){} // RVA: 0x738C080
+        public void ParseNamedCharRef(){} // RVA: 0x738C870
+        public void ParseNamedCharRefInline(){} // RVA: 0x738CBB0
+        public void ParseName(){} // RVA: 0x738CEC0
+        public void ParseQName(){} // RVA: 0x738CF10
+        public void ReadDataInName(){} // RVA: 0x738D1B0
+        public void ParseEntityName(){} // RVA: 0x738D1F0
+        public void AddNode(){} // RVA: 0x738D2F0
+        public void AllocNode(){} // RVA: 0x738D340
+        public void AddAttributeNoChecks(){} // RVA: 0x738D500
+        public void AddAttribute(){} // RVA: 0x738D8B0
+        public void PopElementContext(){} // RVA: 0x738DA50
+        public void OnNewLine(){} // RVA: 0x737C440
+        public void OnEof(){} // RVA: 0x738DB10
+        public void AddNamespace(){} // RVA: 0x738DD30
+        public void ResetAttributes(){} // RVA: 0x738DFF0
+        public void FullAttributeCleanup(){} // RVA: 0x738E120
+        public void PushXmlContext(){} // RVA: 0x738E220
+        public void PopXmlContext(){} // RVA: 0x738E3E0
+        public void GetWhitespaceType(){} // RVA: 0x738E470
+        public void GetTextNodeType(){} // RVA: 0x738E4C0
+        public void PushExternalEntityOrSubset(){} // RVA: 0x738E520
+        public void OpenAndPush(){} // RVA: 0x738E870
+        public void PushExternalEntity(){} // RVA: 0x738EBA0
+        public void PushInternalEntity(){} // RVA: 0x738ED90
+        public void PopEntity(){} // RVA: 0x738EF00
+        public void RegisterEntity(){} // RVA: 0x738EFA0
+        public void UnregisterEntity(){} // RVA: 0x738F2B0
+        public void PushParsingState(){} // RVA: 0x738F320
+        public void PopParsingState(){} // RVA: 0x738F5B0
+        public void IncrementalRead(){} // RVA: 0x738F6F0
+        public void FinishIncrementalRead(){} // RVA: 0x7390480
+        public void ParseFragmentAttribute(){} // RVA: 0x7390590
+        public void ParseAttributeValueChunk(){} // RVA: 0x7390630
+        public void ParseXmlDeclarationFragment(){} // RVA: 0x7390D90
+        public void ThrowUnexpectedToken(){} // RVA: 0x7390E70
+        public void ParseUnexpectedToken(){} // RVA: 0x7390FF0
+        public void ThrowExpectingWhitespace(){} // RVA: 0x73910D0
+        public void GetIndexOfAttributeWithoutPrefix(){} // RVA: 0x7391160
+        public void GetIndexOfAttributeWithPrefix(){} // RVA: 0x7391240
+        public void ZeroEndingStream(){} // RVA: 0x7391320
+        public void ParseDtdFromParserContext(){} // RVA: 0x7391390
+        public void MoveToNextContentNode(){} // RVA: 0x73915F0
+        public void SetupFromParserContext(){} // RVA: 0x7391700
+        public void get_DtdInfo(){} // RVA: 0x10F9C30
+        public void SetDtdInfo(){} // RVA: 0x7391B20
+        public void set_ValidationEventHandling(){} // RVA: 0x163A980
+        public void set_OnDefaultAttributeUse(){} // RVA: 0x1662780
+        public void set_XmlValidatingReaderCompatibilityMode(){} // RVA: 0x7391C20
+        public void get_FragmentType(){} // RVA: 0x113AF20
+        public void ChangeCurrentNodeType(){} // RVA: 0x7391D10
+        public void GetResolver(){} // RVA: 0x7391D30
+        public void set_InternalSchemaType(){} // RVA: 0x7391D50
+        public void get_InternalTypedValue(){} // RVA: 0x7391DC0
+        public void set_InternalTypedValue(){} // RVA: 0x7391DF0
+        public void get_StandAlone(){} // RVA: 0x7391E60
+        public void get_NamespaceManager(){} // RVA: 0x135A170
+        public void get_V1Compat(){} // RVA: 0x737C360
+        public void AddDefaultAttributeDtd(){} // RVA: 0x7391E70
+        public void AddDefaultAttributeNonDtd(){} // RVA: 0x7392230
+        public void AddDefaultAttributeInternal(){} // RVA: 0x7392590
+        public void set_DisableUndeclaredEntityCheck(){} // RVA: 0x73928F0
+        public void UriEqual(){} // RVA: 0x7392900
+        public void RegisterConsumedCharacters(){} // RVA: 0x7392A10
+        public void StripSpaces(){} // RVA: 0x7392D80
+        public void BlockCopyChars(){} // RVA: 0x69E5CD0
+        public void BlockCopy(){} // RVA: 0x7392EE0
     }
 
     public class XmlTextWriter : XmlWriter
     {
+        public object textWriter;
+        public object xmlEncoder;
+        public object encoding;
+        public object formatting;
+        public object indented;
+        public object indentation;
+        public object indentChar;
+        public object stack;
+        public object top;
+        public object stateTable;
+        public object currentState;
+        public object lastToken;
+        public object base64Encoder;
+        public object quoteChar;
+        public object curQuoteChar;
+        public object namespaces;
+        public object specialAttr;
+        public object prefixForXmlNs;
+        public object flush;
+        public object nsStack;
+        public object nsTop;
+        public object nsHashtable;
+        public object useNsHashtable;
+        public object xmlCharType;
+        public object stateName;
+        public object tokenName;
+        public object stateTableDefault;
+        public object stateTableDocument;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE81A780
-        public void get_BaseStream(){} // RVA: 0x7AE81A940
-        public void set_Namespaces(){} // RVA: 0x7AE81A9C0
-        public void set_Formatting(){} // RVA: 0x7AE81AA40
-        public void set_QuoteChar(){} // RVA: 0x7AE81AA50
-        public void WriteStartDocument(){} // RVA: 0x7AE81AB00
-        public void WriteEndDocument(){} // RVA: 0x7AE81AB20
-        public void WriteDocType(){} // RVA: 0x7AE81AD10
-        public void WriteStartElement(){} // RVA: 0x7AE81B200
-        public void WriteEndElement(){} // RVA: 0x7AE81B790
-        public void WriteFullEndElement(){} // RVA: 0x7AE81B7A0
-        public void WriteStartAttribute(){} // RVA: 0x7AE81B7B0
-        public void WriteEndAttribute(){} // RVA: 0x7AE81BFA0
-        public void WriteCData(){} // RVA: 0x7AE81BFF0
-        public void WriteComment(){} // RVA: 0x7AE81C330
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE81C6A0
-        public void WriteEntityRef(){} // RVA: 0x7AE81CAA0
-        public void WriteCharEntity(){} // RVA: 0x7AE81CB80
-        public void WriteWhitespace(){} // RVA: 0x7AE81CBF0
-        public void WriteString(){} // RVA: 0x7AE81CD60
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE81CDE0
-        public void WriteChars(){} // RVA: 0x7AE81CE70
-        public void WriteRaw(){} // RVA: 0x7AE81CFB0
-        public void WriteBase64(){} // RVA: 0x7AE81D020
-        public void WriteBinHex(){} // RVA: 0x7AE81D1D0
-        public void get_WriteState(){} // RVA: 0x7AE81D260
-        public void Close(){} // RVA: 0x7AE81D2D0
-        public void Flush(){} // RVA: 0x7AE81D3E0
-        public void LookupPrefix(){} // RVA: 0x7AE81D410
-        public void StartDocument(){} // RVA: 0x7AE81D550
-        public void AutoComplete(){} // RVA: 0x7AE81D980
-        public void AutoCompleteAll(){} // RVA: 0x7AE81DFA0
-        public void InternalWriteEndElement(){} // RVA: 0x7AE81E000
-        public void WriteEndStartTag(){} // RVA: 0x7AE81E420
-        public void WriteEndAttributeQuote(){} // RVA: 0x7AE81E880
-        public void Indent(){} // RVA: 0x7AE81E900
-        public void PushNamespace(){} // RVA: 0x7AE81E9F0
-        public void AddNamespace(){} // RVA: 0x7AE81ED30
-        public void AddToNamespaceHashtable(){} // RVA: 0x7AE81F0B0
-        public void PopNamespaces(){} // RVA: 0x7AE81F1F0
-        public void GeneratePrefix(){} // RVA: 0x7AE81F320
-        public void InternalWriteProcessingInstruction(){} // RVA: 0x7AE81F560
-        public void LookupNamespace(){} // RVA: 0x7AE81F680
-        public void LookupNamespaceInCurrentScope(){} // RVA: 0x7AE81F7E0
-        public void FindPrefix(){} // RVA: 0x7AE81F9A0
-        public void ValidateName(){} // RVA: 0x7AE81FAB0
-        public void HandleSpecialAttribute(){} // RVA: 0x7AE81FD30
-        public void VerifyPrefixXml(){} // RVA: 0x7AE820060
-        public void PushStack(){} // RVA: 0x7AE820160
-        public void FlushEncoders(){} // RVA: 0x7AE820390
-        public void .cctor(){} // RVA: 0x7AE8203D0
+        public void .ctor(){} // RVA: 0x748F9B0
+        public void get_BaseStream(){} // RVA: 0x748FB70
+        public void set_Namespaces(){} // RVA: 0x748FBF0
+        public void set_Formatting(){} // RVA: 0x748FC70
+        public void set_QuoteChar(){} // RVA: 0x748FC80
+        public void WriteStartDocument(){} // RVA: 0x748FD30
+        public void WriteEndDocument(){} // RVA: 0x748FD50
+        public void WriteDocType(){} // RVA: 0x748FF40
+        public void WriteStartElement(){} // RVA: 0x74903A0
+        public void WriteEndElement(){} // RVA: 0x7490930
+        public void WriteFullEndElement(){} // RVA: 0x7490940
+        public void WriteStartAttribute(){} // RVA: 0x7490950
+        public void WriteEndAttribute(){} // RVA: 0x7491130
+        public void WriteCData(){} // RVA: 0x7491180
+        public void WriteComment(){} // RVA: 0x74914C0
+        public void WriteProcessingInstruction(){} // RVA: 0x7491830
+        public void WriteEntityRef(){} // RVA: 0x7491C30
+        public void WriteCharEntity(){} // RVA: 0x7491D10
+        public void WriteWhitespace(){} // RVA: 0x7491D80
+        public void WriteString(){} // RVA: 0x7491EC0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7491F40
+        public void WriteChars(){} // RVA: 0x7491FD0
+        public void WriteRaw(){} // RVA: 0x7492110
+        public void WriteBase64(){} // RVA: 0x7492180
+        public void WriteBinHex(){} // RVA: 0x7492330
+        public void get_WriteState(){} // RVA: 0x74923C0
+        public void Close(){} // RVA: 0x7492430
+        public void Flush(){} // RVA: 0x7492540
+        public void LookupPrefix(){} // RVA: 0x7492570
+        public void StartDocument(){} // RVA: 0x7492680
+        public void AutoComplete(){} // RVA: 0x7492A50
+        public void AutoCompleteAll(){} // RVA: 0x7493070
+        public void InternalWriteEndElement(){} // RVA: 0x74930D0
+        public void WriteEndStartTag(){} // RVA: 0x74934F0
+        public void WriteEndAttributeQuote(){} // RVA: 0x7493950
+        public void Indent(){} // RVA: 0x74939D0
+        public void PushNamespace(){} // RVA: 0x7493AC0
+        public void AddNamespace(){} // RVA: 0x7493E00
+        public void AddToNamespaceHashtable(){} // RVA: 0x7494180
+        public void PopNamespaces(){} // RVA: 0x74942C0
+        public void GeneratePrefix(){} // RVA: 0x74943F0
+        public void InternalWriteProcessingInstruction(){} // RVA: 0x7494630
+        public void LookupNamespace(){} // RVA: 0x7494750
+        public void LookupNamespaceInCurrentScope(){} // RVA: 0x74948B0
+        public void FindPrefix(){} // RVA: 0x7494A70
+        public void ValidateName(){} // RVA: 0x7494B80
+        public void HandleSpecialAttribute(){} // RVA: 0x7494E00
+        public void VerifyPrefixXml(){} // RVA: 0x7495110
+        public void PushStack(){} // RVA: 0x7495210
+        public void FlushEncoders(){} // RVA: 0x7495440
+        public void .cctor(){} // RVA: 0x7495480
     }
 
     public class XmlTextWriterBase64Encoder : Base64Encoder
     {
+        public object xmlTextEncoder;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D7A90
-        public void WriteChars(){} // RVA: 0x7AE6D7B30
+        public void .ctor(){} // RVA: 0x734DC00
+        public void WriteChars(){} // RVA: 0x734DCA0
     }
 
     public class XmlUnspecifiedAttribute : XmlAttribute
     {
+        public object fSpecified;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE83C930
-        public void get_Specified(){} // RVA: 0x7A84A5BD0
-        public void CloneNode(){} // RVA: 0x7AE85DEC0
-        public void set_InnerText(){} // RVA: 0x7AE85E010
-        public void InsertBefore(){} // RVA: 0x7AE85E090
-        public void InsertAfter(){} // RVA: 0x7AE85E120
-        public void RemoveChild(){} // RVA: 0x7AE85E1B0
-        public void AppendChild(){} // RVA: 0x7AE85E240
-        public void WriteTo(){} // RVA: 0x7AE85E2D0
-        public void SetSpecified(){} // RVA: 0x7A84A5CD0
+        public void .ctor(){} // RVA: 0x74B18C0
+        public void get_Specified(){} // RVA: 0xF73960
+        public void CloneNode(){} // RVA: 0x74D2880
+        public void set_InnerText(){} // RVA: 0x74D29D0
+        public void InsertBefore(){} // RVA: 0x74D2A50
+        public void InsertAfter(){} // RVA: 0x74D2AE0
+        public void RemoveChild(){} // RVA: 0x74D2B70
+        public void AppendChild(){} // RVA: 0x74D2C00
+        public void WriteTo(){} // RVA: 0x74D2C90
+        public void SetSpecified(){} // RVA: 0xF73A60
     }
 
     public class XmlUrlResolver : XmlResolver
     {
+        public object s_DownloadManager;
+        public object _credentials;
+        public object _proxy;
+        public object _cachePolicy;
+
         // ── Methods ──
-        public void get_DownloadManager(){} // RVA: 0x7AE8815B0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void GetEntity(){} // RVA: 0x7AE8816C0
-        public void ResolveUri(){} // RVA: 0x7AE881930
-        public void GetEntityAsync(){} // RVA: 0x7AE881940
+        public void get_DownloadManager(){} // RVA: 0x74F5E00
+        public void .ctor(){} // RVA: 0xB43310
+        public void GetEntity(){} // RVA: 0x74F5F10
+        public void ResolveUri(){} // RVA: 0x74F61B0
+        public void GetEntityAsync(){} // RVA: 0x74F61C0
     }
 
     public class XmlUtf8RawTextWriter : XmlRawWriter
     {
+        public object useAsync;
+        public object bufBytes;
+        public object stream;
+        public object encoding;
+        public object xmlCharType;
+        public object bufPos;
+        public object textPos;
+        public object contentPos;
+        public object cdataPos;
+        public object attrEndPos;
+        public object bufLen;
+        public object writeToNull;
+        public object hadDoubleBracket;
+        public object inAttributeValue;
+        public object newLineHandling;
+        public object closeOutput;
+        public object omitXmlDeclaration;
+        public object newLineChars;
+        public object checkCharacters;
+        public object standalone;
+        public object outputMethod;
+        public object autoXmlDeclaration;
+        public object mergeCDataSections;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE820D90
-        public void WriteXmlDeclaration(){} // RVA: 0x7AE821370
-        public void WriteDocType(){} // RVA: 0x7AE8213E0
-        public void WriteStartElement(){} // RVA: 0x7AE821650
-        public void StartElementContent(){} // RVA: 0x7AE821700
-        public void WriteEndElement(){} // RVA: 0x7AE821740
-        public void WriteFullEndElement(){} // RVA: 0x7AE821890
-        public void WriteStartAttribute(){} // RVA: 0x7AE821990
-        public void WriteEndAttribute(){} // RVA: 0x7AE821A90
-        public void WriteNamespaceDeclaration(){} // RVA: 0x7AE80AC20
-        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0x7A81BD750
-        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7AE821AD0
-        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7AE821C00
-        public void WriteCData(){} // RVA: 0x7AE821C40
-        public void WriteComment(){} // RVA: 0x7AE821E30
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE821F50
-        public void WriteEntityRef(){} // RVA: 0x7AE822070
-        public void WriteCharEntity(){} // RVA: 0x7AE822110
-        public void WriteWhitespace(){} // RVA: 0x7AE822360
-        public void WriteString(){} // RVA: 0x7AE822360
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE8223A0
-        public void WriteChars(){} // RVA: 0x7AE6F0790
-        public void WriteRaw(){} // RVA: 0x7AE8056D0
-        public void Close(){} // RVA: 0x7AE8225D0
-        public void Flush(){} // RVA: 0x7AE822720
-        public void FlushBuffer(){} // RVA: 0x7AE822770
-        public void FlushEncoder(){} // RVA: 0x7A80D7310
-        public void WriteAttributeTextBlock(){} // RVA: 0x7AE822AE0
-        public void WriteElementTextBlock(){} // RVA: 0x7AE822DA0
-        public void RawText(){} // RVA: 0x7AE8230C0
-        public void WriteRawWithCharChecking(){} // RVA: 0x7AE823250
-        public void WriteCommentOrPi(){} // RVA: 0x7AE8234E0
-        public void WriteCDataSection(){} // RVA: 0x7AE8238D0
-        public void IsSurrogateByte(){} // RVA: 0x7AE823C80
-        public void EncodeSurrogate(){} // RVA: 0x7AE823C90
-        public void InvalidXmlChar(){} // RVA: 0x7AE823E40
-        public void EncodeChar(){} // RVA: 0x7AE824050
-        public void EncodeMultibyteUTF8(){} // RVA: 0x7AE824120
-        public void CharToUTF8(){} // RVA: 0x7AE824170
-        public void WriteNewLine(){} // RVA: 0x7AE824230
-        public void LtEntity(){} // RVA: 0x7AE8242A0
-        public void GtEntity(){} // RVA: 0x7AE8242B0
-        public void AmpEntity(){} // RVA: 0x7AE8242C0
-        public void QuoteEntity(){} // RVA: 0x7AE8242D0
-        public void TabEntity(){} // RVA: 0x7AE8242F0
-        public void LineFeedEntity(){} // RVA: 0x7AE824300
-        public void CarriageReturnEntity(){} // RVA: 0x7AE824310
-        public void CharEntity(){} // RVA: 0x7AE824320
-        public void RawStartCData(){} // RVA: 0x7AE824460
-        public void RawEndCData(){} // RVA: 0x7AE824480
-        public void ValidateContentChars(){} // RVA: 0x7AE824490
+        public void .ctor(){} // RVA: 0x7495E20
+        public void WriteXmlDeclaration(){} // RVA: 0x7496400
+        public void WriteDocType(){} // RVA: 0x7496470
+        public void WriteStartElement(){} // RVA: 0x74966E0
+        public void StartElementContent(){} // RVA: 0x7496790
+        public void WriteEndElement(){} // RVA: 0x74967D0
+        public void WriteFullEndElement(){} // RVA: 0x7496920
+        public void WriteStartAttribute(){} // RVA: 0x7496A20
+        public void WriteEndAttribute(){} // RVA: 0x7496B20
+        public void WriteNamespaceDeclaration(){} // RVA: 0x74802C0
+        public void get_SupportsNamespaceDeclarationInChunks(){} // RVA: 0xC2E4C0
+        public void WriteStartNamespaceDeclaration(){} // RVA: 0x7496B60
+        public void WriteEndNamespaceDeclaration(){} // RVA: 0x7496C90
+        public void WriteCData(){} // RVA: 0x7496CD0
+        public void WriteComment(){} // RVA: 0x7496EC0
+        public void WriteProcessingInstruction(){} // RVA: 0x7496FE0
+        public void WriteEntityRef(){} // RVA: 0x7497100
+        public void WriteCharEntity(){} // RVA: 0x74971A0
+        public void WriteWhitespace(){} // RVA: 0x74973F0
+        public void WriteString(){} // RVA: 0x74973F0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7497430
+        public void WriteChars(){} // RVA: 0x7366570
+        public void WriteRaw(){} // RVA: 0x747ADF0
+        public void Close(){} // RVA: 0x7497660
+        public void Flush(){} // RVA: 0x74977B0
+        public void FlushBuffer(){} // RVA: 0x7497800
+        public void FlushEncoder(){} // RVA: 0xB43310
+        public void WriteAttributeTextBlock(){} // RVA: 0x7497B70
+        public void WriteElementTextBlock(){} // RVA: 0x7497E30
+        public void RawText(){} // RVA: 0x7498150
+        public void WriteRawWithCharChecking(){} // RVA: 0x74982E0
+        public void WriteCommentOrPi(){} // RVA: 0x7498570
+        public void WriteCDataSection(){} // RVA: 0x7498960
+        public void IsSurrogateByte(){} // RVA: 0x7498D10
+        public void EncodeSurrogate(){} // RVA: 0x7498D20
+        public void InvalidXmlChar(){} // RVA: 0x7498ED0
+        public void EncodeChar(){} // RVA: 0x74990E0
+        public void EncodeMultibyteUTF8(){} // RVA: 0x74991B0
+        public void CharToUTF8(){} // RVA: 0x7499200
+        public void WriteNewLine(){} // RVA: 0x74992C0
+        public void LtEntity(){} // RVA: 0x7499330
+        public void GtEntity(){} // RVA: 0x7499340
+        public void AmpEntity(){} // RVA: 0x7499350
+        public void QuoteEntity(){} // RVA: 0x7499360
+        public void TabEntity(){} // RVA: 0x7499380
+        public void LineFeedEntity(){} // RVA: 0x7499390
+        public void CarriageReturnEntity(){} // RVA: 0x74993A0
+        public void CharEntity(){} // RVA: 0x74993B0
+        public void RawStartCData(){} // RVA: 0x74994F0
+        public void RawEndCData(){} // RVA: 0x7499510
+        public void ValidateContentChars(){} // RVA: 0x7499520
     }
 
     public class XmlUtf8RawTextWriterIndent : XmlUtf8RawTextWriter
     {
+        public object indentLevel;
+        public object newLineOnAttributes;
+        public object indentChars;
+        public object mixedContent;
+        public object mixedContentStack;
+        public object conformanceLevel;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE824890
-        public void WriteDocType(){} // RVA: 0x7AE824A70
-        public void WriteStartElement(){} // RVA: 0x7AE824AE0
-        public void StartElementContent(){} // RVA: 0x7AE824C00
-        public void OnRootElement(){} // RVA: 0x7ADE0AE80
-        public void WriteEndElement(){} // RVA: 0x7AE824C70
-        public void WriteFullEndElement(){} // RVA: 0x7AE824D50
-        public void WriteStartAttribute(){} // RVA: 0x7AE824ED0
-        public void WriteCData(){} // RVA: 0x7AE824FE0
-        public void WriteComment(){} // RVA: 0x7AE824FF0
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE825030
-        public void WriteEntityRef(){} // RVA: 0x7AE825170
-        public void WriteCharEntity(){} // RVA: 0x7AE825220
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE825230
-        public void WriteWhitespace(){} // RVA: 0x7AE825240
-        public void WriteString(){} // RVA: 0x7AE825240
-        public void WriteChars(){} // RVA: 0x7AE825290
-        public void WriteRaw(){} // RVA: 0x7AE825330
-        public void WriteBase64(){} // RVA: 0x7AE825380
-        public void Init(){} // RVA: 0x7AE8253A0
-        public void WriteIndent(){} // RVA: 0x7AE825580
+        public void .ctor(){} // RVA: 0x7499920
+        public void WriteDocType(){} // RVA: 0x7499B00
+        public void WriteStartElement(){} // RVA: 0x7499B70
+        public void StartElementContent(){} // RVA: 0x7499C90
+        public void OnRootElement(){} // RVA: 0x6A92F20
+        public void WriteEndElement(){} // RVA: 0x7499D00
+        public void WriteFullEndElement(){} // RVA: 0x7499DE0
+        public void WriteStartAttribute(){} // RVA: 0x7499F60
+        public void WriteCData(){} // RVA: 0x749A070
+        public void WriteComment(){} // RVA: 0x749A080
+        public void WriteProcessingInstruction(){} // RVA: 0x749A0C0
+        public void WriteEntityRef(){} // RVA: 0x749A200
+        public void WriteCharEntity(){} // RVA: 0x749A2B0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x749A2C0
+        public void WriteWhitespace(){} // RVA: 0x749A2D0
+        public void WriteString(){} // RVA: 0x749A2D0
+        public void WriteChars(){} // RVA: 0x749A320
+        public void WriteRaw(){} // RVA: 0x749A3C0
+        public void WriteBase64(){} // RVA: 0x749A410
+        public void Init(){} // RVA: 0x749A430
+        public void WriteIndent(){} // RVA: 0x749A610
     }
 
     public class XmlValidatingReader : XmlReader
     {
+        public object impl;
+
         // ── Methods ──
-        public void get_NodeType(){} // RVA: 0x7A858ABB0
-        public void get_LocalName(){} // RVA: 0x7A856A750
-        public void get_NamespaceURI(){} // RVA: 0x7ADB00ED0
-        public void get_Prefix(){} // RVA: 0x7ADB00F00
-        public void get_Value(){} // RVA: 0x7A972BF20
-        public void get_Depth(){} // RVA: 0x7AE3C9490
-        public void get_BaseURI(){} // RVA: 0x7A858ABE0
-        public void get_IsEmptyElement(){} // RVA: 0x7A858AB50
-        public void get_AttributeCount(){} // RVA: 0x7AE1E3E00
-        public void GetAttribute(){} // RVA: 0x7AE562100
-        public void MoveToAttribute(){} // RVA: 0x7AE562130
-        public void MoveToFirstAttribute(){} // RVA: 0x7ADB010B0
-        public void MoveToNextAttribute(){} // RVA: 0x7ADBF0670
-        public void MoveToElement(){} // RVA: 0x7A8555880
-        public void ReadAttributeValue(){} // RVA: 0x7ADE58970
-        public void Read(){} // RVA: 0x7AE562190
-        public void get_EOF(){} // RVA: 0x7AE5621C0
-        public void get_ReadState(){} // RVA: 0x7AE5621F0
-        public void get_NameTable(){} // RVA: 0x7ADE584C0
-        public void LookupNamespace(){} // RVA: 0x7AE817680
-        public void ResolveEntity(){} // RVA: 0x7AE562280
-        public void get_Namespaces(){} // RVA: 0x7AE825600
+        public void get_NodeType(){} // RVA: 0x10AD460
+        public void get_LocalName(){} // RVA: 0x1085C80
+        public void get_NamespaceURI(){} // RVA: 0x678C220
+        public void get_Prefix(){} // RVA: 0x678C250
+        public void get_Value(){} // RVA: 0x22368C0
+        public void get_Depth(){} // RVA: 0x7048FE0
+        public void get_BaseURI(){} // RVA: 0x10ADE70
+        public void get_IsEmptyElement(){} // RVA: 0x10AD020
+        public void get_AttributeCount(){} // RVA: 0x6E669C0
+        public void GetAttribute(){} // RVA: 0x71DA4B0
+        public void MoveToAttribute(){} // RVA: 0x71DA4E0
+        public void MoveToFirstAttribute(){} // RVA: 0x678C400
+        public void MoveToNextAttribute(){} // RVA: 0x687B750
+        public void MoveToElement(){} // RVA: 0x687B780
+        public void ReadAttributeValue(){} // RVA: 0x6ADFF00
+        public void Read(){} // RVA: 0x71DA540
+        public void get_EOF(){} // RVA: 0x71DA570
+        public void get_ReadState(){} // RVA: 0x71DA5A0
+        public void get_NameTable(){} // RVA: 0x6ADFA50
+        public void LookupNamespace(){} // RVA: 0x748CA90
+        public void ResolveEntity(){} // RVA: 0x71DA630
+        public void get_Namespaces(){} // RVA: 0x749A690
     }
 
     public class XmlValidatingReaderImpl : XmlReader
     {
+        public object coreReader;
+        public object coreReaderImpl;
+        public object coreReaderNSResolver;
+        public object validationType;
+        public object validator;
+        public object schemaCollection;
+        public object processIdentityConstraints;
+        public object parsingFunction;
+        public object eventHandling;
+        public object parserContext;
+        public object readBinaryHelper;
+        public object outerReader;
+        public object s_tempResolver;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE825630
-        public void get_Settings(){} // RVA: 0x7AE825DE0
-        public void get_NodeType(){} // RVA: 0x7A858ABB0
-        public void get_Name(){} // RVA: 0x7ADE59240
-        public void get_LocalName(){} // RVA: 0x7A856A750
-        public void get_NamespaceURI(){} // RVA: 0x7ADB00ED0
-        public void get_Prefix(){} // RVA: 0x7ADB00F00
-        public void get_Value(){} // RVA: 0x7A972BF20
-        public void get_Depth(){} // RVA: 0x7AE3C9490
-        public void get_BaseURI(){} // RVA: 0x7A858ABE0
-        public void get_IsEmptyElement(){} // RVA: 0x7A858AB50
-        public void get_IsDefault(){} // RVA: 0x7A858AA50
-        public void get_QuoteChar(){} // RVA: 0x7A858AB80
-        public void get_XmlSpace(){} // RVA: 0x7A858AA20
-        public void get_XmlLang(){} // RVA: 0x7A858AC40
-        public void get_ReadState(){} // RVA: 0x7AE825EF0
-        public void get_EOF(){} // RVA: 0x7AE5621C0
-        public void get_NameTable(){} // RVA: 0x7ADE584C0
-        public void get_AttributeCount(){} // RVA: 0x7AE1E3E00
-        public void GetAttribute(){} // RVA: 0x7AE562100
-        public void MoveToAttribute(){} // RVA: 0x7AE825F80
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE825FC0
-        public void MoveToNextAttribute(){} // RVA: 0x7AE826010
-        public void MoveToElement(){} // RVA: 0x7AE826060
-        public void Read(){} // RVA: 0x7AE8260B0
-        public void Close(){} // RVA: 0x7AE826380
-        public void LookupNamespace(){} // RVA: 0x7AE8263C0
-        public void ReadAttributeValue(){} // RVA: 0x7AE8263F0
-        public void get_CanResolveEntity(){} // RVA: 0x7A81BD750
-        public void ResolveEntity(){} // RVA: 0x7AE826460
-        public void MoveOffEntityReference(){} // RVA: 0x7AE8264A0
-        public void ReadString(){} // RVA: 0x7AE826560
-        public void HasLineInfo(){} // RVA: 0x7A81BD750
-        public void get_LineNumber(){} // RVA: 0x7AE826630
-        public void get_LinePosition(){} // RVA: 0x7AE8266D0
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE826770
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE4A5120
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE8267D0
-        public void GetNamespacesInScope(){} // RVA: 0x7AE826770
-        public void LookupPrefix(){} // RVA: 0x7AE8267D0
-        public void get_ValidationType(){} // RVA: 0x7A854FDE0
-        public void get_Schemas(){} // RVA: 0x7A8292C30
-        public void get_Namespaces(){} // RVA: 0x7AE826830
-        public void ParseDtdFromParserContext(){} // RVA: 0x7AE826850
-        public void ValidateDtd(){} // RVA: 0x7AE8269A0
-        public void ResolveEntityInternally(){} // RVA: 0x7AE826B30
-        public void SetupValidation(){} // RVA: 0x7AE826BE0
-        public void GetResolver(){} // RVA: 0x7AE826EF0
-        public void ProcessCoreReaderEvent(){} // RVA: 0x7AE826FE0
-        public void get_Validator(){} // RVA: 0x7A83F69F0
-        public void set_Validator(){} // RVA: 0x7A8105A90
-        public void get_NamespaceManager(){} // RVA: 0x7AE827100
-        public void get_StandAlone(){} // RVA: 0x7AE827130
-        public void set_SchemaTypeObject(){} // RVA: 0x7AE827150
-        public void get_TypedValueObject(){} // RVA: 0x7AE827170
-        public void set_TypedValueObject(){} // RVA: 0x7AE8271A0
-        public void AddDefaultAttribute(){} // RVA: 0x7AE8271C0
-        public void get_DtdInfo(){} // RVA: 0x7AE8271E0
-        public void ValidateDefaultAttributeOnUse(){} // RVA: 0x7AE827210
+        public void .ctor(){} // RVA: 0x749A6C0
+        public void get_Settings(){} // RVA: 0x749AE70
+        public void get_NodeType(){} // RVA: 0x10AD460
+        public void get_Name(){} // RVA: 0x6AE07D0
+        public void get_LocalName(){} // RVA: 0x1085C80
+        public void get_NamespaceURI(){} // RVA: 0x678C220
+        public void get_Prefix(){} // RVA: 0x678C250
+        public void get_Value(){} // RVA: 0x22368C0
+        public void get_Depth(){} // RVA: 0x7048FE0
+        public void get_BaseURI(){} // RVA: 0x10ADE70
+        public void get_IsEmptyElement(){} // RVA: 0x10AD020
+        public void get_IsDefault(){} // RVA: 0x10AE060
+        public void get_QuoteChar(){} // RVA: 0x10AD890
+        public void get_XmlSpace(){} // RVA: 0x10ACFC0
+        public void get_XmlLang(){} // RVA: 0x10AC4B0
+        public void get_ReadState(){} // RVA: 0x749AF80
+        public void get_EOF(){} // RVA: 0x71DA570
+        public void get_NameTable(){} // RVA: 0x6ADFA50
+        public void get_AttributeCount(){} // RVA: 0x6E669C0
+        public void GetAttribute(){} // RVA: 0x71DA4B0
+        public void MoveToAttribute(){} // RVA: 0x749B010
+        public void MoveToFirstAttribute(){} // RVA: 0x749B050
+        public void MoveToNextAttribute(){} // RVA: 0x749B0A0
+        public void MoveToElement(){} // RVA: 0x749B0F0
+        public void Read(){} // RVA: 0x749B140
+        public void Close(){} // RVA: 0x749B410
+        public void LookupNamespace(){} // RVA: 0x749B450
+        public void ReadAttributeValue(){} // RVA: 0x749B480
+        public void get_CanResolveEntity(){} // RVA: 0xC2E4C0
+        public void ResolveEntity(){} // RVA: 0x749B4F0
+        public void MoveOffEntityReference(){} // RVA: 0x749B530
+        public void ReadString(){} // RVA: 0x749B5F0
+        public void HasLineInfo(){} // RVA: 0xC2E4C0
+        public void get_LineNumber(){} // RVA: 0x749B6C0
+        public void get_LinePosition(){} // RVA: 0x749B760
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x749B800
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7120CC0
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x749B860
+        public void GetNamespacesInScope(){} // RVA: 0x749B800
+        public void LookupPrefix(){} // RVA: 0x749B860
+        public void get_ValidationType(){} // RVA: 0x1065D50
+        public void get_Schemas(){} // RVA: 0xD05CA0
+        public void get_Namespaces(){} // RVA: 0x749B8C0
+        public void ParseDtdFromParserContext(){} // RVA: 0x749B8E0
+        public void ValidateDtd(){} // RVA: 0x749BA30
+        public void ResolveEntityInternally(){} // RVA: 0x749BBB0
+        public void SetupValidation(){} // RVA: 0x749BC60
+        public void GetResolver(){} // RVA: 0x749C080
+        public void ProcessCoreReaderEvent(){} // RVA: 0x749C170
+        public void get_Validator(){} // RVA: 0xD33E60
+        public void set_Validator(){} // RVA: 0xB708C0
+        public void get_NamespaceManager(){} // RVA: 0x749C290
+        public void get_StandAlone(){} // RVA: 0x749C2C0
+        public void set_SchemaTypeObject(){} // RVA: 0x749C2E0
+        public void get_TypedValueObject(){} // RVA: 0x749C300
+        public void set_TypedValueObject(){} // RVA: 0x749C330
+        public void AddDefaultAttribute(){} // RVA: 0x749C350
+        public void get_DtdInfo(){} // RVA: 0x749C370
+        public void ValidateDefaultAttributeOnUse(){} // RVA: 0x749C3A0
     }
 
     public class XmlWellFormedWriter : XmlWriter
     {
+        public object writer;
+        public object rawWriter;
+        public object predefinedNamespaces;
+        public object nsStack;
+        public object nsTop;
+        public object nsHashtable;
+        public object useNsHashtable;
+        public object elemScopeStack;
+        public object elemTop;
+        public object attrStack;
+        public object attrCount;
+        public object attrHashTable;
+        public object specAttr;
+        public object attrValueCache;
+        public object curDeclPrefix;
+        public object stateTable;
+        public object currentState;
+        public object checkCharacters;
+        public object omitDuplNamespaces;
+        public object writeEndDocumentOnClose;
+        public object conformanceLevel;
+        public object dtdWritten;
+        public object xmlDeclFollows;
+        public object xmlCharType;
+        public object hasher;
+        public object stateName;
+        public object tokenName;
+        public object state2WriteState;
+        public object StateTableDocument;
+        public object StateTableAuto;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE827580
-        public void get_WriteState(){} // RVA: 0x7AE827D70
-        public void WriteStartDocument(){} // RVA: 0x7AE827E10
-        public void WriteEndDocument(){} // RVA: 0x7AE827E40
-        public void WriteDocType(){} // RVA: 0x7AE827F50
-        public void WriteStartElement(){} // RVA: 0x7AE8284D0
-        public void WriteEndElement(){} // RVA: 0x7AE828850
-        public void WriteFullEndElement(){} // RVA: 0x7AE828A20
-        public void WriteStartAttribute(){} // RVA: 0x7AE828BF0
-        public void WriteEndAttribute(){} // RVA: 0x7AE8294E0
-        public void WriteCData(){} // RVA: 0x7AE82A7E0
-        public void WriteComment(){} // RVA: 0x7AE82A8A0
-        public void WriteProcessingInstruction(){} // RVA: 0x7AE82A960
-        public void WriteEntityRef(){} // RVA: 0x7AE82AC50
-        public void WriteCharEntity(){} // RVA: 0x7AE82AD60
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7AE82AF20
-        public void WriteWhitespace(){} // RVA: 0x7AE82B130
-        public void WriteString(){} // RVA: 0x7AE82B310
-        public void WriteChars(){} // RVA: 0x7AE82B450
-        public void WriteRaw(){} // RVA: 0x7AE82BA10
-        public void WriteBase64(){} // RVA: 0x7AE82BAF0
-        public void Close(){} // RVA: 0x7AE82BCD0
-        public void Flush(){} // RVA: 0x7AE82C320
-        public void LookupPrefix(){} // RVA: 0x7AE82C380
-        public void WriteValue(){} // RVA: 0x7AE82C580
-        public void WriteBinHex(){} // RVA: 0x7AE82C670
-        public void get_RawWriter(){} // RVA: 0x7A81052C0
-        public void get_SaveAttrValue(){} // RVA: 0x7AE73AFC0
-        public void get_InBase64(){} // RVA: 0x7AE82C760
-        public void SetSpecialAttribute(){} // RVA: 0x7AE82C780
-        public void WriteStartDocumentImpl(){} // RVA: 0x7AE82C900
-        public void StartFragment(){} // RVA: 0x7AE82CAE0
-        public void PushNamespaceImplicit(){} // RVA: 0x7AE82CAF0
-        public void PushNamespaceExplicit(){} // RVA: 0x7AE82D110
-        public void AddNamespace(){} // RVA: 0x7AE82D820
-        public void AddToNamespaceHashtable(){} // RVA: 0x7AE82DB60
-        public void LookupNamespaceIndex(){} // RVA: 0x7AE82DC90
-        public void PopNamespaces(){} // RVA: 0x7AE82DDE0
-        public void DupAttrException(){} // RVA: 0x7AE82DF10
-        public void AdvanceState(){} // RVA: 0x7AE82E020
-        public void StartElementContent(){} // RVA: 0x7AE82E450
-        public void GetStateName(){} // RVA: 0x7AE82E540
-        public void LookupNamespace(){} // RVA: 0x7AE82E5E0
-        public void LookupLocalNamespace(){} // RVA: 0x7AE82E6F0
-        public void GeneratePrefix(){} // RVA: 0x7AE82E800
-        public void CheckNCName(){} // RVA: 0x7AE82EAD0
-        public void InvalidCharsException(){} // RVA: 0x7AE82EC00
-        public void ThrowInvalidStateTransition(){} // RVA: 0x7AE82ED70
-        public void get_IsClosedOrErrorState(){} // RVA: 0x7AE82EF70
-        public void AddAttribute(){} // RVA: 0x7AE82EF80
-        public void AddToAttrHashTable(){} // RVA: 0x7AE82F510
-        public void .cctor(){} // RVA: 0x7AE82F6B0
+        public void .ctor(){} // RVA: 0x749C710
+        public void get_WriteState(){} // RVA: 0x749CEF0
+        public void WriteStartDocument(){} // RVA: 0x749CF90
+        public void WriteEndDocument(){} // RVA: 0x749CFC0
+        public void WriteDocType(){} // RVA: 0x749D0D0
+        public void WriteStartElement(){} // RVA: 0x749D650
+        public void WriteEndElement(){} // RVA: 0x749D9C0
+        public void WriteFullEndElement(){} // RVA: 0x749DB80
+        public void WriteStartAttribute(){} // RVA: 0x749DD40
+        public void WriteEndAttribute(){} // RVA: 0x749E620
+        public void WriteCData(){} // RVA: 0x749F900
+        public void WriteComment(){} // RVA: 0x749F9A0
+        public void WriteProcessingInstruction(){} // RVA: 0x749FA40
+        public void WriteEntityRef(){} // RVA: 0x749FD20
+        public void WriteCharEntity(){} // RVA: 0x749FE30
+        public void WriteSurrogateCharEntity(){} // RVA: 0x749FFB0
+        public void WriteWhitespace(){} // RVA: 0x74A01A0
+        public void WriteString(){} // RVA: 0x74A0360
+        public void WriteChars(){} // RVA: 0x74A04A0
+        public void WriteRaw(){} // RVA: 0x74A0A60
+        public void WriteBase64(){} // RVA: 0x74A0B40
+        public void Close(){} // RVA: 0x74A0D20
+        public void Flush(){} // RVA: 0x74A1370
+        public void LookupPrefix(){} // RVA: 0x74A13D0
+        public void WriteValue(){} // RVA: 0x74A15D0
+        public void WriteBinHex(){} // RVA: 0x74A16C0
+        public void get_RawWriter(){} // RVA: 0xB700F0
+        public void get_SaveAttrValue(){} // RVA: 0x73B1790
+        public void get_InBase64(){} // RVA: 0x74A17B0
+        public void SetSpecialAttribute(){} // RVA: 0x74A17D0
+        public void WriteStartDocumentImpl(){} // RVA: 0x74A1950
+        public void StartFragment(){} // RVA: 0x74A1B30
+        public void PushNamespaceImplicit(){} // RVA: 0x74A1B40
+        public void PushNamespaceExplicit(){} // RVA: 0x74A2160
+        public void AddNamespace(){} // RVA: 0x74A2870
+        public void AddToNamespaceHashtable(){} // RVA: 0x74A2BB0
+        public void LookupNamespaceIndex(){} // RVA: 0x74A2CE0
+        public void PopNamespaces(){} // RVA: 0x74A2E30
+        public void DupAttrException(){} // RVA: 0x74A2F60
+        public void AdvanceState(){} // RVA: 0x74A3070
+        public void StartElementContent(){} // RVA: 0x74A34A0
+        public void GetStateName(){} // RVA: 0x74A3680
+        public void LookupNamespace(){} // RVA: 0x74A3720
+        public void LookupLocalNamespace(){} // RVA: 0x74A3830
+        public void GeneratePrefix(){} // RVA: 0x74A3940
+        public void CheckNCName(){} // RVA: 0x74A3C10
+        public void InvalidCharsException(){} // RVA: 0x74A3D40
+        public void ThrowInvalidStateTransition(){} // RVA: 0x74A3EB0
+        public void get_IsClosedOrErrorState(){} // RVA: 0x74A40B0
+        public void AddAttribute(){} // RVA: 0x74A40C0
+        public void AddToAttrHashTable(){} // RVA: 0x74A4650
+        public void .cctor(){} // RVA: 0x74A47F0
     }
 
     public class XmlWhitespace : XmlCharacterData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE85E3B0
-        public void get_Name(){} // RVA: 0x7AE85E4B0
-        public void get_LocalName(){} // RVA: 0x7AE85E4B0
-        public void get_NodeType(){} // RVA: 0x7A8F279F0
-        public void get_ParentNode(){} // RVA: 0x7AE85DAE0
-        public void get_Value(){} // RVA: 0x7ADCAB740
-        public void set_Value(){} // RVA: 0x7AE85E4E0
-        public void CloneNode(){} // RVA: 0x7AE85E5E0
-        public void WriteTo(){} // RVA: 0x7AE85E650
-        public void WriteContentTo(){} // RVA: 0x7A80D7310
-        public void get_IsText(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x74D2D70
+        public void get_Name(){} // RVA: 0x74D2E70
+        public void get_LocalName(){} // RVA: 0x74D2E70
+        public void get_NodeType(){} // RVA: 0x1A45300
+        public void get_ParentNode(){} // RVA: 0x74D24A0
+        public void get_Value(){} // RVA: 0x69358F0
+        public void set_Value(){} // RVA: 0x74D2EA0
+        public void CloneNode(){} // RVA: 0x74D2FA0
+        public void WriteTo(){} // RVA: 0x74D3010
+        public void WriteContentTo(){} // RVA: 0xB43310
+        public void get_IsText(){} // RVA: 0xC2E4C0
     }
 
     public class XmlWriter : Object
     {
+        public object writeNodeBuffer;
+
         // ── Methods ──
-        public void WriteStartDocument(){} // RVA: 0x7A7E18C30
-        public void WriteEndDocument(){} // RVA: 0x7A7E18770
-        public void WriteDocType(){} // RVA: 0x7A7E1DB70
-        public void WriteStartElement(){} // RVA: 0x7A7E1DDC0
-        public void WriteEndElement(){} // RVA: 0x7A7E18770
-        public void WriteFullEndElement(){} // RVA: 0x7A7E18770
-        public void WriteAttributeString(){} // RVA: 0x7AE831E70
-        public void WriteStartAttribute(){} // RVA: 0x7A7E1DDC0
-        public void WriteEndAttribute(){} // RVA: 0x7A7E18770
-        public void WriteCData(){} // RVA: 0x7A7E18800
-        public void WriteComment(){} // RVA: 0x7A7E18800
-        public void WriteProcessingInstruction(){} // RVA: 0x7A7E18890
-        public void WriteEntityRef(){} // RVA: 0x7A7E18800
-        public void WriteCharEntity(){} // RVA: 0x7A7E18950
-        public void WriteWhitespace(){} // RVA: 0x7A7E18800
-        public void WriteString(){} // RVA: 0x7A7E18800
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7A7E26DB0
-        public void WriteChars(){} // RVA: 0x7A7E1E220
-        public void WriteRaw(){} // RVA: 0x7A7E18800
-        public void WriteBase64(){} // RVA: 0x7A7E1E220
-        public void WriteBinHex(){} // RVA: 0x7AE831ED0
-        public void get_WriteState(){} // RVA: 0x7A7E00710
-        public void Close(){} // RVA: 0x7A80D7310
-        public void Flush(){} // RVA: 0x7A7E18770
-        public void LookupPrefix(){} // RVA: 0x7A7E00B20
-        public void WriteValue(){} // RVA: 0x7AE831F00
-        public void WriteAttributes(){} // RVA: 0x7AE831F20
-        public void WriteNode(){} // RVA: 0x7AE832290
-        public void WriteElementString(){} // RVA: 0x7AE832870
-        public void Dispose(){} // RVA: 0x7AE832910
-        public void Create(){} // RVA: 0x7AE8329D0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void WriteStartDocument(){} // RVA: 0x894750
+        public void WriteEndDocument(){} // RVA: 0x894290
+        public void WriteDocType(){} // RVA: 0x899870
+        public void WriteStartElement(){} // RVA: 0x8954D0
+        public void WriteEndElement(){} // RVA: 0x894290
+        public void WriteFullEndElement(){} // RVA: 0x894290
+        public void WriteAttributeString(){} // RVA: 0x74A6F40
+        public void WriteStartAttribute(){} // RVA: 0x8954D0
+        public void WriteEndAttribute(){} // RVA: 0x894290
+        public void WriteCData(){} // RVA: 0x894320
+        public void WriteComment(){} // RVA: 0x894320
+        public void WriteProcessingInstruction(){} // RVA: 0x8943B0
+        public void WriteEntityRef(){} // RVA: 0x894320
+        public void WriteCharEntity(){} // RVA: 0x894470
+        public void WriteWhitespace(){} // RVA: 0x894320
+        public void WriteString(){} // RVA: 0x894320
+        public void WriteSurrogateCharEntity(){} // RVA: 0x8A2F90
+        public void WriteChars(){} // RVA: 0x89B9B0
+        public void WriteRaw(){} // RVA: 0x894320
+        public void WriteBase64(){} // RVA: 0x89B9B0
+        public void WriteBinHex(){} // RVA: 0x74A6FA0
+        public void get_WriteState(){} // RVA: 0x87C130
+        public void Close(){} // RVA: 0xB43310
+        public void Flush(){} // RVA: 0x894290
+        public void LookupPrefix(){} // RVA: 0x87C540
+        public void WriteValue(){} // RVA: 0x74A6FD0
+        public void WriteAttributes(){} // RVA: 0x74A6FF0
+        public void WriteNode(){} // RVA: 0x74A7360
+        public void WriteElementString(){} // RVA: 0x74A7940
+        public void Dispose(){} // RVA: 0x74A79E0
+        public void Create(){} // RVA: 0x74A7AA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class XmlWriterSettings : Object
     {
+        public object useAsync;
+        public object encoding;
+        public object omitXmlDecl;
+        public object newLineHandling;
+        public object newLineChars;
+        public object indent;
+        public object indentChars;
+        public object newLineOnAttributes;
+        public object closeOutput;
+        public object namespaceHandling;
+        public object conformanceLevel;
+        public object checkCharacters;
+        public object writeEndDocumentOnClose;
+        public object outputMethod;
+        public object cdataSections;
+        public object doNotEscapeUriAttributes;
+        public object mergeCDataSections;
+        public object mediaType;
+        public object docTypeSystem;
+        public object docTypePublic;
+        public object standalone;
+        public object autoXmlDecl;
+        public object isReadOnly;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE832A50
-        public void get_Async(){} // RVA: 0x7A81A2200
-        public void get_Encoding(){} // RVA: 0x7A80DA7B0
-        public void get_OmitXmlDeclaration(){} // RVA: 0x7A81C68D0
-        public void set_OmitXmlDeclaration(){} // RVA: 0x7AE832B20
-        public void get_NewLineHandling(){} // RVA: 0x7A8AB15F0
-        public void get_NewLineChars(){} // RVA: 0x7A8105330
-        public void get_Indent(){} // RVA: 0x7AE1B2EC0
-        public void set_Indent(){} // RVA: 0x7AE832B80
-        public void get_IndentChars(){} // RVA: 0x7A8292C30
-        public void get_NewLineOnAttributes(){} // RVA: 0x7A8193790
-        public void get_CloseOutput(){} // RVA: 0x7A83F3AD0
-        public void get_ConformanceLevel(){} // RVA: 0x7A8178B70
-        public void set_ConformanceLevel(){} // RVA: 0x7AE832BE0
-        public void get_CheckCharacters(){} // RVA: 0x7A9471CE0
-        public void get_NamespaceHandling(){} // RVA: 0x7A8178B50
-        public void set_NamespaceHandling(){} // RVA: 0x7AE832C80
-        public void get_WriteEndDocumentOnClose(){} // RVA: 0x7AE832D20
-        public void get_OutputMethod(){} // RVA: 0x7A8355950
-        public void set_OutputMethod(){} // RVA: 0x7A83F4180
-        public void Clone(){} // RVA: 0x7AE832D30
-        public void get_CDataSectionElements(){} // RVA: 0x7A81A0050
-        public void get_DoNotEscapeUriAttributes(){} // RVA: 0x7A8100260
-        public void get_MergeCDataSections(){} // RVA: 0x7A8F1FD00
-        public void get_MediaType(){} // RVA: 0x7A8153390
-        public void get_DocTypeSystem(){} // RVA: 0x7A81A00E0
-        public void get_DocTypePublic(){} // RVA: 0x7A82C2060
-        public void get_Standalone(){} // RVA: 0x7A8D6DF30
-        public void get_AutoXmlDeclaration(){} // RVA: 0x7A81B7B30
-        public void get_IndentInternal(){} // RVA: 0x7A8133100
-        public void get_IsQuerySpecific(){} // RVA: 0x7AE832E50
-        public void CreateWriter(){} // RVA: 0x7AE8334B0
-        public void set_ReadOnly(){} // RVA: 0x7AE165890
-        public void CheckReadOnly(){} // RVA: 0x7AE8338B0
-        public void Initialize(){} // RVA: 0x7AE833960
+        public void .ctor(){} // RVA: 0x74A7B20
+        public void get_Async(){} // RVA: 0xC120A0
+        public void get_Encoding(){} // RVA: 0xB465B0
+        public void get_OmitXmlDeclaration(){} // RVA: 0xC38360
+        public void set_OmitXmlDeclaration(){} // RVA: 0x74A7BF0
+        public void get_NewLineHandling(){} // RVA: 0x15AF000
+        public void get_NewLineChars(){} // RVA: 0xB70160
+        public void get_Indent(){} // RVA: 0x6E349A0
+        public void set_Indent(){} // RVA: 0x74A7C50
+        public void get_IndentChars(){} // RVA: 0xD05CA0
+        public void get_NewLineOnAttributes(){} // RVA: 0xC02470
+        public void get_CloseOutput(){} // RVA: 0xEEA010
+        public void get_ConformanceLevel(){} // RVA: 0xBE5890
+        public void set_ConformanceLevel(){} // RVA: 0x74A7CB0
+        public void get_CheckCharacters(){} // RVA: 0x1FAA110
+        public void get_NamespaceHandling(){} // RVA: 0xBE5870
+        public void set_NamespaceHandling(){} // RVA: 0x74A7D50
+        public void get_WriteEndDocumentOnClose(){} // RVA: 0x74A7DF0
+        public void get_OutputMethod(){} // RVA: 0xE32C80
+        public void set_OutputMethod(){} // RVA: 0xEEA060
+        public void Clone(){} // RVA: 0x74A7E00
+        public void get_CDataSectionElements(){} // RVA: 0xC0FFC0
+        public void get_DoNotEscapeUriAttributes(){} // RVA: 0xB6B1A0
+        public void get_MergeCDataSections(){} // RVA: 0x1A1E0A0
+        public void get_MediaType(){} // RVA: 0xBBFF90
+        public void get_DocTypeSystem(){} // RVA: 0xC10050
+        public void get_DocTypePublic(){} // RVA: 0xCD3320
+        public void get_Standalone(){} // RVA: 0xD34760
+        public void get_AutoXmlDeclaration(){} // RVA: 0xC27EB0
+        public void get_IndentInternal(){} // RVA: 0xB9E080
+        public void get_IsQuerySpecific(){} // RVA: 0x74A7F20
+        public void CreateWriter(){} // RVA: 0x74A8580
+        public void set_ReadOnly(){} // RVA: 0x6DE6250
+        public void CheckReadOnly(){} // RVA: 0x74A8980
+        public void Initialize(){} // RVA: 0x74A8A30
     }
 
     public class XsdCachingReader : XmlReader
     {
+        public object coreReader;
+        public object coreReaderNameTable;
+        public object contentEvents;
+        public object attributeEvents;
+        public object cachedNode;
+        public object cacheState;
+        public object contentIndex;
+        public object attributeCount;
+        public object returnOriginalStringValues;
+        public object cacheHandler;
+        public object currentAttrIndex;
+        public object currentContentIndex;
+        public object readAhead;
+        public object lineInfo;
+        public object textNode;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE833C30
-        public void Init(){} // RVA: 0x7AE833E70
-        public void Reset(){} // RVA: 0x7AE834110
-        public void get_Settings(){} // RVA: 0x7A858AB20
-        public void get_NodeType(){} // RVA: 0x7AE834170
-        public void get_Name(){} // RVA: 0x7AE834190
-        public void get_LocalName(){} // RVA: 0x7AE8341C0
-        public void get_NamespaceURI(){} // RVA: 0x7A87E1E40
-        public void get_Prefix(){} // RVA: 0x7AE8341E0
-        public void get_Value(){} // RVA: 0x7AE834200
-        public void get_Depth(){} // RVA: 0x7AE834230
-        public void get_BaseURI(){} // RVA: 0x7A858ABE0
-        public void get_IsEmptyElement(){} // RVA: 0x7A80D7320
-        public void get_IsDefault(){} // RVA: 0x7A80D7320
-        public void get_QuoteChar(){} // RVA: 0x7A858AB80
-        public void get_XmlSpace(){} // RVA: 0x7A858AA20
-        public void get_XmlLang(){} // RVA: 0x7A858AC40
-        public void get_AttributeCount(){} // RVA: 0x7A8178B30
-        public void GetAttribute(){} // RVA: 0x7AE834480
-        public void MoveToAttribute(){} // RVA: 0x7AE834670
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE834760
-        public void MoveToNextAttribute(){} // RVA: 0x7AE8347F0
-        public void MoveToElement(){} // RVA: 0x7AE834890
-        public void Read(){} // RVA: 0x7AE8348E0
-        public void RecordTextNode(){} // RVA: 0x7AE834CA0
-        public void SwitchTextNodeAndEndElement(){} // RVA: 0x7AE834D20
-        public void RecordEndElementNode(){} // RVA: 0x7AE834E70
-        public void get_EOF(){} // RVA: 0x7AE835020
-        public void Close(){} // RVA: 0x7AE835060
-        public void get_ReadState(){} // RVA: 0x7AE5621F0
-        public void Skip(){} // RVA: 0x7AE8350A0
-        public void get_NameTable(){} // RVA: 0x7A80DA7B0
-        public void LookupNamespace(){} // RVA: 0x7AE562220
-        public void ResolveEntity(){} // RVA: 0x7AE8351E0
-        public void ReadAttributeValue(){} // RVA: 0x7AE835220
-        public void System.Xml.IXmlLineInfo.HasLineInfo(){} // RVA: 0x7A81BD750
-        public void System.Xml.IXmlLineInfo.get_LineNumber(){} // RVA: 0x7AE8353E0
-        public void System.Xml.IXmlLineInfo.get_LinePosition(){} // RVA: 0x7AE835400
-        public void SetToReplayMode(){} // RVA: 0x7AE835420
-        public void GetCoreReader(){} // RVA: 0x7A80F2570
-        public void GetLineInfo(){} // RVA: 0x7A8175DF0
-        public void ClearAttributesInfo(){} // RVA: 0x7AE835450
-        public void AddAttribute(){} // RVA: 0x7AE835460
-        public void AddContent(){} // RVA: 0x7AE835640
-        public void RecordAttributes(){} // RVA: 0x7AE835810
-        public void GetAttributeIndexWithoutPrefix(){} // RVA: 0x7AE835A80
-        public void GetAttributeIndexWithPrefix(){} // RVA: 0x7AE835B20
-        public void CreateDummyTextNode(){} // RVA: 0x7AE835BD0
+        public void .ctor(){} // RVA: 0x74A8D00
+        public void Init(){} // RVA: 0x74A8F40
+        public void Reset(){} // RVA: 0x74A91E0
+        public void get_Settings(){} // RVA: 0x10ACB60
+        public void get_NodeType(){} // RVA: 0x74A9240
+        public void get_Name(){} // RVA: 0x74A9260
+        public void get_LocalName(){} // RVA: 0x74A9290
+        public void get_NamespaceURI(){} // RVA: 0x12EEB90
+        public void get_Prefix(){} // RVA: 0x74A92B0
+        public void get_Value(){} // RVA: 0x74A92D0
+        public void get_Depth(){} // RVA: 0x74A9300
+        public void get_BaseURI(){} // RVA: 0x10ADE70
+        public void get_IsEmptyElement(){} // RVA: 0xB43320
+        public void get_IsDefault(){} // RVA: 0xB43320
+        public void get_QuoteChar(){} // RVA: 0x10AD890
+        public void get_XmlSpace(){} // RVA: 0x10ACFC0
+        public void get_XmlLang(){} // RVA: 0x10AC4B0
+        public void get_AttributeCount(){} // RVA: 0xBE5850
+        public void GetAttribute(){} // RVA: 0x74A9530
+        public void MoveToAttribute(){} // RVA: 0x74A9720
+        public void MoveToFirstAttribute(){} // RVA: 0x74A9810
+        public void MoveToNextAttribute(){} // RVA: 0x74A98A0
+        public void MoveToElement(){} // RVA: 0x74A9940
+        public void Read(){} // RVA: 0x74A9990
+        public void RecordTextNode(){} // RVA: 0x74A9D50
+        public void SwitchTextNodeAndEndElement(){} // RVA: 0x74A9DD0
+        public void RecordEndElementNode(){} // RVA: 0x74A9F20
+        public void get_EOF(){} // RVA: 0x74AA0D0
+        public void Close(){} // RVA: 0x74AA110
+        public void get_ReadState(){} // RVA: 0x71DA5A0
+        public void Skip(){} // RVA: 0x74AA150
+        public void get_NameTable(){} // RVA: 0xB465B0
+        public void LookupNamespace(){} // RVA: 0x71DA5D0
+        public void ResolveEntity(){} // RVA: 0x74AA290
+        public void ReadAttributeValue(){} // RVA: 0x74AA2D0
+        public void System.Xml.IXmlLineInfo.HasLineInfo(){} // RVA: 0xC2E4C0
+        public void System.Xml.IXmlLineInfo.get_LineNumber(){} // RVA: 0x74AA490
+        public void System.Xml.IXmlLineInfo.get_LinePosition(){} // RVA: 0x74AA4B0
+        public void SetToReplayMode(){} // RVA: 0x74AA4D0
+        public void GetCoreReader(){} // RVA: 0xB5DBF0
+        public void GetLineInfo(){} // RVA: 0xBE2C60
+        public void ClearAttributesInfo(){} // RVA: 0x74AA500
+        public void AddAttribute(){} // RVA: 0x74AA510
+        public void AddContent(){} // RVA: 0x74AA6F0
+        public void RecordAttributes(){} // RVA: 0x74AA8C0
+        public void GetAttributeIndexWithoutPrefix(){} // RVA: 0x74AAB30
+        public void GetAttributeIndexWithPrefix(){} // RVA: 0x74AABD0
+        public void CreateDummyTextNode(){} // RVA: 0x74AAC80
     }
 
     public class XsdValidatingReader : XmlReader
     {
+        public object coreReader;
+        public object coreReaderNSResolver;
+        public object thisNSResolver;
+        public object validator;
+        public object xmlResolver;
+        public object validationEvent;
+        public object validationState;
+        public object valueGetter;
+        public object nsManager;
+        public object manageNamespaces;
+        public object processInlineSchema;
+        public object replayCache;
+        public object cachedNode;
+        public object attributePSVI;
+        public object attributeCount;
+        public object coreReaderAttributeCount;
+        public object currentAttrIndex;
+        public object attributePSVINodes;
+        public object defaultAttributes;
+        public object inlineSchemaParser;
+        public object atomicValue;
+        public object xmlSchemaInfo;
+        public object originalAtomicValueString;
+        public object coreReaderNameTable;
+        public object cachingReader;
+        public object textNode;
+        public object NsXmlNs;
+        public object NsXs;
+        public object NsXsi;
+        public object XsiType;
+        public object XsiNil;
+        public object XsdSchema;
+        public object XsiSchemaLocation;
+        public object XsiNoNamespaceSchemaLocation;
+        public object xmlCharType;
+        public object lineInfo;
+        public object readBinaryHelper;
+        public object savedState;
+        public object TypeOfString;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE8363A0
-        public void Init(){} // RVA: 0x7AE8363C0
-        public void SetupValidator(){} // RVA: 0x7AE836BC0
-        public void get_Settings(){} // RVA: 0x7AE8372D0
-        public void get_NodeType(){} // RVA: 0x7AE837460
-        public void get_Name(){} // RVA: 0x7AE837530
-        public void get_LocalName(){} // RVA: 0x7AE837660
-        public void get_NamespaceURI(){} // RVA: 0x7AE8376B0
-        public void get_Prefix(){} // RVA: 0x7AE837700
-        public void get_Value(){} // RVA: 0x7AE837750
-        public void get_Depth(){} // RVA: 0x7AE8377A0
-        public void get_BaseURI(){} // RVA: 0x7A858ABE0
-        public void get_IsEmptyElement(){} // RVA: 0x7A858AB50
-        public void get_IsDefault(){} // RVA: 0x7AE8377F0
-        public void get_QuoteChar(){} // RVA: 0x7A858AB80
-        public void get_XmlSpace(){} // RVA: 0x7A858AA20
-        public void get_XmlLang(){} // RVA: 0x7A858AC40
-        public void get_SchemaInfo(){} // RVA: 0x7A97F8BA0
-        public void get_ValueType(){} // RVA: 0x7AE837830
-        public void get_AttributeCount(){} // RVA: 0x7A8EA8210
-        public void GetAttribute(){} // RVA: 0x7AE837AC0
-        public void MoveToAttribute(){} // RVA: 0x7AE837CD0
-        public void MoveToFirstAttribute(){} // RVA: 0x7AE837EF0
-        public void MoveToNextAttribute(){} // RVA: 0x7AE838210
-        public void MoveToElement(){} // RVA: 0x7AE838520
-        public void Read(){} // RVA: 0x7AE838580
-        public void get_EOF(){} // RVA: 0x7AE5621C0
-        public void Close(){} // RVA: 0x7AE838860
-        public void get_ReadState(){} // RVA: 0x7AE8388A0
-        public void Skip(){} // RVA: 0x7AE8388E0
-        public void get_NameTable(){} // RVA: 0x7A8142610
-        public void LookupNamespace(){} // RVA: 0x7AE838A90
-        public void ResolveEntity(){} // RVA: 0x7AE838AF0
-        public void ReadAttributeValue(){} // RVA: 0x7AE838B30
-        public void System.Xml.Schema.IXmlSchemaInfo.get_IsDefault(){} // RVA: 0x7AE838D70
-        public void System.Xml.Schema.IXmlSchemaInfo.get_IsNil(){} // RVA: 0x7AE838E00
-        public void System.Xml.Schema.IXmlSchemaInfo.get_Validity(){} // RVA: 0x7AE838E50
-        public void System.Xml.Schema.IXmlSchemaInfo.get_MemberType(){} // RVA: 0x7AE838F00
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaType(){} // RVA: 0x7AE8390E0
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement(){} // RVA: 0x7AE839140
-        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute(){} // RVA: 0x7AE8391A0
-        public void HasLineInfo(){} // RVA: 0x7A81BD750
-        public void get_LineNumber(){} // RVA: 0x7AE8391F0
-        public void get_LinePosition(){} // RVA: 0x7AE839250
-        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x7AE8392B0
-        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x7AE839340
-        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x7AE8393D0
-        public void GetStringValue(){} // RVA: 0x7A972BF20
-        public void get_AttributeSchemaInfo(){} // RVA: 0x7AE839460
-        public void ProcessReaderEvent(){} // RVA: 0x7AE839480
-        public void ProcessElementEvent(){} // RVA: 0x7AE839740
-        public void ProcessEndElementEvent(){} // RVA: 0x7AE839E90
-        public void ValidateAttributes(){} // RVA: 0x7AE83A160
-        public void ClearAttributesInfo(){} // RVA: 0x7AE83A4C0
-        public void GetAttributePSVI(){} // RVA: 0x7AE83A710
-        public void GetDefaultAttribute(){} // RVA: 0x7AE83A900
-        public void AddAttributePSVI(){} // RVA: 0x7AE83AA50
-        public void IsXSDRoot(){} // RVA: 0x7AE83AC90
-        public void ProcessInlineSchema(){} // RVA: 0x7AE83ACB0
-        public void ReadAheadForMemberType(){} // RVA: 0x7AE83ADF0
-        public void GetIsDefault(){} // RVA: 0x7AE83B130
-        public void GetMemberType(){} // RVA: 0x7AE83B5B0
-        public void GetCachingReader(){} // RVA: 0x7AE83B6F0
-        public void CreateDummyTextNode(){} // RVA: 0x7AE83B8F0
-        public void CachingCallBack(){} // RVA: 0x7AE83BA50
-        public void GetOriginalAtomicValueStringOfElement(){} // RVA: 0x7AE83BB30
+        public void .ctor(){} // RVA: 0x74AB430
+        public void Init(){} // RVA: 0x74AB450
+        public void SetupValidator(){} // RVA: 0x74ABC10
+        public void get_Settings(){} // RVA: 0x74AC320
+        public void get_NodeType(){} // RVA: 0x74AC4B0
+        public void get_Name(){} // RVA: 0x74AC580
+        public void get_LocalName(){} // RVA: 0x74AC6B0
+        public void get_NamespaceURI(){} // RVA: 0x74AC700
+        public void get_Prefix(){} // RVA: 0x74AC750
+        public void get_Value(){} // RVA: 0x74AC7A0
+        public void get_Depth(){} // RVA: 0x74AC7F0
+        public void get_BaseURI(){} // RVA: 0x10ADE70
+        public void get_IsEmptyElement(){} // RVA: 0x10AD020
+        public void get_IsDefault(){} // RVA: 0x74AC840
+        public void get_QuoteChar(){} // RVA: 0x10AD890
+        public void get_XmlSpace(){} // RVA: 0x10ACFC0
+        public void get_XmlLang(){} // RVA: 0x10AC4B0
+        public void get_SchemaInfo(){} // RVA: 0x2303260
+        public void get_ValueType(){} // RVA: 0x74AC880
+        public void get_AttributeCount(){} // RVA: 0x19C6270
+        public void GetAttribute(){} // RVA: 0x74ACAF0
+        public void MoveToAttribute(){} // RVA: 0x74ACD00
+        public void MoveToFirstAttribute(){} // RVA: 0x74ACF20
+        public void MoveToNextAttribute(){} // RVA: 0x74AD240
+        public void MoveToElement(){} // RVA: 0x74AD550
+        public void Read(){} // RVA: 0x74AD5B0
+        public void get_EOF(){} // RVA: 0x71DA570
+        public void Close(){} // RVA: 0x74AD890
+        public void get_ReadState(){} // RVA: 0x74AD8D0
+        public void Skip(){} // RVA: 0x74AD910
+        public void get_NameTable(){} // RVA: 0xBAE340
+        public void LookupNamespace(){} // RVA: 0x74ADAC0
+        public void ResolveEntity(){} // RVA: 0x74ADB20
+        public void ReadAttributeValue(){} // RVA: 0x74ADB60
+        public void System.Xml.Schema.IXmlSchemaInfo.get_IsDefault(){} // RVA: 0x74ADDA0
+        public void System.Xml.Schema.IXmlSchemaInfo.get_IsNil(){} // RVA: 0x74ADE30
+        public void System.Xml.Schema.IXmlSchemaInfo.get_Validity(){} // RVA: 0x74ADE80
+        public void System.Xml.Schema.IXmlSchemaInfo.get_MemberType(){} // RVA: 0x74ADF30
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaType(){} // RVA: 0x74AE110
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement(){} // RVA: 0x74AE170
+        public void System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute(){} // RVA: 0x74AE1D0
+        public void HasLineInfo(){} // RVA: 0xC2E4C0
+        public void get_LineNumber(){} // RVA: 0x74AE220
+        public void get_LinePosition(){} // RVA: 0x74AE280
+        public void System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(){} // RVA: 0x74AE2E0
+        public void System.Xml.IXmlNamespaceResolver.LookupNamespace(){} // RVA: 0x74AE370
+        public void System.Xml.IXmlNamespaceResolver.LookupPrefix(){} // RVA: 0x74AE400
+        public void GetStringValue(){} // RVA: 0x22368C0
+        public void get_AttributeSchemaInfo(){} // RVA: 0x74AE490
+        public void ProcessReaderEvent(){} // RVA: 0x74AE4B0
+        public void ProcessElementEvent(){} // RVA: 0x74AE770
+        public void ProcessEndElementEvent(){} // RVA: 0x74AEEB0
+        public void ValidateAttributes(){} // RVA: 0x74AF180
+        public void ClearAttributesInfo(){} // RVA: 0x74AF4E0
+        public void GetAttributePSVI(){} // RVA: 0x74AF720
+        public void GetDefaultAttribute(){} // RVA: 0x74AF900
+        public void AddAttributePSVI(){} // RVA: 0x74AFA50
+        public void IsXSDRoot(){} // RVA: 0x74AFC90
+        public void ProcessInlineSchema(){} // RVA: 0x74AFCB0
+        public void ReadAheadForMemberType(){} // RVA: 0x74AFDF0
+        public void GetIsDefault(){} // RVA: 0x74B0130
+        public void GetMemberType(){} // RVA: 0x74B05B0
+        public void GetCachingReader(){} // RVA: 0x74B06F0
+        public void CreateDummyTextNode(){} // RVA: 0x74B08F0
+        public void CachingCallBack(){} // RVA: 0x74B0A50
+        public void GetOriginalAtomicValueStringOfElement(){} // RVA: 0x74B0B30
     }
 
 }

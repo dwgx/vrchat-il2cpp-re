@@ -7,6 +7,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 {
     public class CinemachineDebug : Object
     {
+        public object mClients;
+        public object OnGUIHandlers;
+        public object mAvailableStringBuilders;
+
         // ── Methods ──
         public void ReleaseScreenPos(){} // RVA: 0x2600410
         public void GetScreenPos(){} // RVA: 0x26004C0
@@ -17,6 +21,10 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class Damper : Object
     {
+        public object Epsilon;
+        public object kNegligibleResidual;
+        public object kLogNegligibleResidual;
+
         // ── Methods ──
         public void DecayConstant(){} // RVA: 0x2601C80
         public void DecayedRemainder(){} // RVA: 0x2601CB0
@@ -46,6 +54,11 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
+        public object mData;
+        public object mKernel;
+        public object mCurrentPos;
+        public object _sigma;
+
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0x890F90
         public void set_Sigma(){} // RVA: 0x8A23A0
@@ -65,6 +78,11 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
+        public object mData;
+        public object mKernel;
+        public object mCurrentPos;
+        public object _sigma;
+
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0xCBAD90
         public void set_Sigma(){} // RVA: 0xCBADA0
@@ -84,6 +102,11 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
+        public object mData;
+        public object mKernel;
+        public object mCurrentPos;
+        public object _sigma;
+
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0xCBAD90
         public void set_Sigma(){} // RVA: 0xCBADA0
@@ -103,6 +126,11 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class GaussianWindow1d`1 : Object
     {
+        public object mData;
+        public object mKernel;
+        public object mCurrentPos;
+        public object _sigma;
+
         // ── Methods ──
         public void get_Sigma(){} // RVA: 0xCBAD90
         public void set_Sigma(){} // RVA: 0xCBADA0
@@ -122,6 +150,16 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class HeadingTracker : Object
     {
+        public object mHistory;
+        public object mTop;
+        public object mBottom;
+        public object mCount;
+        public object mHeadingSum;
+        public object mWeightSum;
+        public object mWeightTime;
+        public object mLastGoodHeading;
+        public object mDecayExponent;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2602160
         public void get_FilterSize(){} // RVA: 0x17F0080
@@ -135,6 +173,12 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class PositionPredictor : Object
     {
+        public object m_Velocity;
+        public object m_SmoothDampVelocity;
+        public object m_Pos;
+        public object m_HavePos;
+        public object Smoothing;
+
         // ── Methods ──
         public void IsEmpty(){} // RVA: 0x2601940
         public void ApplyTransformDelta(){} // RVA: 0x2601950
@@ -174,6 +218,8 @@ namespace ThirdParty.Cinemachine.Cinemachine.Utility
 
     public class UnityVectorExtensions : Object
     {
+        public object Epsilon;
+
         // ── Methods ──
         public void IsNaN(){} // RVA: 0x2603FF0
         public void ClosestPointOnSegment(){} // RVA: 0x2604110

@@ -7,6 +7,17 @@ namespace VRC.UI.Elements
 {
     public class MainMenuPlacementData : Object
     {
+        public object _scaleContainer;
+        public object Z_DEPTH_MOVEMENT_SPEED_MULTIPLIER;
+        public object MIN_Z_DEPTH_VR;
+        public object MAX_Z_DEPTH_VR;
+        public object _menuPlacementZDepthVR;
+        public object f_02A;
+        public object f_9F4;
+        public object f_CA1;
+        public object f_7CD;
+        public object f_5FD;
+
         // ── Methods ──
         public void get_ScaleContainer(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0x98428D0

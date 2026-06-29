@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class CancellationTokenAwaitable : ValueType
     {
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void GetAwaiter(){} // RVA: 0x91FD60
@@ -14,6 +16,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenEqualityComparer : Object
     {
+        public object Default;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7741FF0
         public void GetHashCode(){} // RVA: 0x7742050
@@ -23,6 +27,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenExtensions : Object
     {
+        public object cancellationTokenCallback;
+        public object disposeCallback;
+
         // ── Methods ──
         public void ToCancellationToken(){} // RVA: 0xA94080
         public void ToCancellationTokenCore(){} // RVA: 0x77423F0
@@ -37,6 +44,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class CancellationTokenSourceExtensions : Object
     {
+        public object CancelCancellationTokenSourceStateDelegate;
+
         // ── Methods ──
         public void CancelCancellationTokenSourceState(){} // RVA: 0x77434F0
         public void CancelAfterSlim(){} // RVA: 0x7743740
@@ -54,18 +63,6 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6914700
-    }
-
-    public class ChannelReader`1 : Object
-    {
-        // ── Methods ──
-        public void TryRead(){} // RVA: 0x87D350
-        public void WaitToReadAsync(){} // RVA: 0x87C240
-        public void get_Completion(){} // RVA: 0x87BEB0
-        public void ReadAsync(){} // RVA: 0xAD0950
-        public void ReadAsyncCore(){} // RVA: 0xAD0950
-        public void ReadAllAsync(){} // RVA: 0x881D60
-        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ChannelReader`1 : Object
@@ -104,12 +101,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void .ctor(){} // RVA: 0x894290
     }
 
-    public class ChannelWriter`1 : Object
+    public class ChannelReader`1 : Object
     {
         // ── Methods ──
-        public void TryWrite(){} // RVA: 0xA94080
-        public void TryComplete(){} // RVA: 0x87D350
-        public void Complete(){} // RVA: 0x629BCC0
+        public void TryRead(){} // RVA: 0x87D350
+        public void WaitToReadAsync(){} // RVA: 0x87C240
+        public void get_Completion(){} // RVA: 0x87BEB0
+        public void ReadAsync(){} // RVA: 0xAD0950
+        public void ReadAsyncCore(){} // RVA: 0xAD0950
+        public void ReadAllAsync(){} // RVA: 0x881D60
         public void .ctor(){} // RVA: 0xB43310
     }
 
@@ -140,10 +140,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void .ctor(){} // RVA: 0x894290
     }
 
-    public class Channel`1 : Channel`2
+    public class ChannelWriter`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3896ED0
+        public void TryWrite(){} // RVA: 0xA94080
+        public void TryComplete(){} // RVA: 0x87D350
+        public void Complete(){} // RVA: 0x629BCC0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Channel`1 : Channel`2
@@ -170,19 +173,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    public class Channel`2 : Object
+    public class Channel`1 : Channel`2
     {
         // ── Methods ──
-        public void get_Reader(){} // RVA: 0xB5DBF0
-        public void set_Reader(){} // RVA: 0xB44D60
-        public void get_Writer(){} // RVA: 0xB465B0
-        public void set_Writer(){} // RVA: 0xBA9BA0
-        public void op_Implicit(){} // RVA: 0x629C980
-        public void .ctor(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0x3896ED0
     }
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
         public void get_Reader(){} // RVA: 0x87C0A0
         public void set_Reader(){} // RVA: 0x894320
@@ -194,6 +195,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
         public void get_Reader(){} // RVA: 0xB5DBF0
         public void set_Reader(){} // RVA: 0xB44D60
@@ -205,6 +209,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
         public void get_Reader(){} // RVA: 0xB5DBF0
         public void set_Reader(){} // RVA: 0xB44D60
@@ -216,6 +223,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
         public void get_Reader(){} // RVA: 0xB5DBF0
         public void set_Reader(){} // RVA: 0xB44D60
@@ -227,17 +237,41 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class Channel`2 : Object
     {
+        public object _reader;
+        public object _writer;
+
         // ── Methods ──
         public void get_Reader(){} // RVA: 0xB5DBF0
         public void set_Reader(){} // RVA: 0xB44D60
         public void get_Writer(){} // RVA: 0xB465B0
         public void set_Writer(){} // RVA: 0xBA9BA0
         public void op_Implicit(){} // RVA: 0x629C8D0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class Channel`2 : Object
+    {
+        public object _reader;
+        public object _writer;
+
+        // ── Methods ──
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void set_Reader(){} // RVA: 0xB44D60
+        public void get_Writer(){} // RVA: 0xB465B0
+        public void set_Writer(){} // RVA: 0xBA9BA0
+        public void op_Implicit(){} // RVA: 0x629C980
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class CompletedTasks : Object
     {
+        public object AsyncUnit;
+        public object True;
+        public object False;
+        public object Zero;
+        public object MinusOne;
+        public object One;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x775BCA0
     }

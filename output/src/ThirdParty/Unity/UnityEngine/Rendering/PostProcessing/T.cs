@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class TargetPool : Object
     {
+        public object m_Pool;
+        public object m_Current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x799D450
         public void Get(){} // RVA: 0x799D540
@@ -15,6 +18,21 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TemporalAntialiasing : Object
     {
+        public object jitterSpread;
+        public object sharpness;
+        public object stationaryBlending;
+        public object motionBlending;
+        public object jitteredMatrixFunc;
+        public object _jitter;
+        public object m_Mrt;
+        public object m_ResetHistory;
+        public object k_SampleCount;
+        public object _sampleIndex;
+        public object k_NumEyes;
+        public object k_NumHistoryTextures;
+        public object m_HistoryTextures;
+        public object m_HistoryPingPong;
+
         // ── Methods ──
         public void get_jitter(){} // RVA: 0x21B8D30
         public void set_jitter(){} // RVA: 0x116B360
@@ -36,6 +54,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TextureFormatUtilities : Object
     {
+        public object s_FormatAliasMap;
+        public object s_SupportedRenderTextureFormats;
+        public object s_SupportedTextureFormats;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x799D740
         public void IsObsolete(){} // RVA: 0x799E840
@@ -45,6 +67,13 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TextureLerper : Object
     {
+        public object m_Instance;
+        public object m_Command;
+        public object m_PropertySheets;
+        public object m_Resources;
+        public object m_Recycled;
+        public object m_Actives;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x799ED70
         public void .ctor(){} // RVA: 0x799EF70
@@ -57,6 +86,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TextureParameter : ParameterOverride`1
     {
+        public object defaultState;
+
         // ── Methods ──
         public void Interp(){} // RVA: 0x797D220
         public void .ctor(){} // RVA: 0x797DCF0
@@ -70,6 +101,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class TrackballAttribute : Attribute
     {
+        public object mode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }

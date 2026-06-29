@@ -1,7 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 1077
+// Methods: 1073
+
+public class ValidPoseChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E2370
+    public void Invoke(){} // RVA: 0xCA8D60
+    public void BeginInvoke(){} // RVA: 0x6F19180
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class ValidPoseChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E01E0
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6C4D960
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
 
 public class ValidPoseChangeHandler : MulticastDelegate
 {
@@ -12,27 +30,19 @@ public class ValidPoseChangeHandler : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
-public class ValueCollection : Object
+public class ValidPoseChangeHandler : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4207A20
-    public void CopyTo(){} // RVA: 0x5101EA0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51034F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x51035D0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51038C0
+    public void .ctor(){} // RVA: 0x40E2370
+    public void Invoke(){} // RVA: 0xCA8D60
+    public void BeginInvoke(){} // RVA: 0x6F4EF70
+    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -52,25 +62,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x512FEE0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51301A0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -90,6 +83,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -109,6 +104,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -128,6 +125,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -147,6 +146,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4202580
@@ -166,6 +167,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -185,6 +188,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -204,6 +209,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -223,12 +230,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -248,6 +251,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -267,6 +272,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x5125ED0
@@ -286,6 +293,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -305,6 +314,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -324,6 +335,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -343,6 +356,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -362,6 +377,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -381,6 +398,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -400,6 +419,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -419,12 +440,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -444,6 +469,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -463,6 +490,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _parent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -478,12 +507,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -503,6 +528,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -522,6 +549,29 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -541,6 +591,8 @@ public class ValueCollection : Object
 
 public class ValueEnumerator : ValueType
 {
+    public object m_Enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xED390
     public void get_Current(){} // RVA: 0x8D1060
@@ -584,6 +636,8 @@ public class ValuesBackgroundRepeat : ValuesDiscrete`1
 
 public class ValuesBackgroundSize : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE5490
@@ -596,6 +650,8 @@ public class ValuesBackgroundSize : Values`1
 
 public class ValuesColor : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE1BC0
@@ -607,6 +663,8 @@ public class ValuesColor : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0x87C0A0
     public void IsSame(){} // RVA: 0xA94080
@@ -617,6 +675,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x5587AC0
@@ -627,6 +687,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x5586E80
@@ -637,6 +699,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x5587790
@@ -647,6 +711,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x5587CC0
@@ -657,6 +723,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x55871F0
@@ -667,6 +735,8 @@ public class ValuesDiscrete`1 : Values`1
 
 public class ValuesDiscrete`1 : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x55874F0
@@ -684,6 +754,8 @@ public class ValuesEnum : ValuesDiscrete`1
 
 public class ValuesFloat : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE10C0
@@ -709,6 +781,8 @@ public class ValuesFontDefinition : ValuesDiscrete`1
 
 public class ValuesInt : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x2AFE580
@@ -720,6 +794,8 @@ public class ValuesInt : Values`1
 
 public class ValuesLength : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE16F0
@@ -732,6 +808,8 @@ public class ValuesLength : Values`1
 
 public class ValuesRotate : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE3770
@@ -743,6 +821,8 @@ public class ValuesRotate : Values`1
 
 public class ValuesScale : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE3290
@@ -754,6 +834,8 @@ public class ValuesScale : Values`1
 
 public class ValuesTextShadow : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE2B50
@@ -765,6 +847,8 @@ public class ValuesTextShadow : Values`1
 
 public class ValuesTransformOrigin : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EDD530
@@ -777,6 +861,8 @@ public class ValuesTransformOrigin : Values`1
 
 public class ValuesTranslate : Values`1
 {
+    public object _sameFunc;
+
     // ── Methods ──
     public void get_SameFunc(){} // RVA: 0xB813B0
     public void IsSame(){} // RVA: 0x7EE3F30
@@ -789,6 +875,12 @@ public class ValuesTranslate : Values`1
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x87D280
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -818,6 +910,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -847,6 +945,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -876,6 +980,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -905,6 +1015,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -934,6 +1050,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -963,6 +1085,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -992,6 +1120,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1021,6 +1155,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1050,6 +1190,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1079,6 +1225,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1108,6 +1260,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1137,6 +1295,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1166,6 +1330,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1195,6 +1365,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1224,6 +1400,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1253,6 +1435,12 @@ public class Values`1 : Values
 
 public class Values`1 : Values
 {
+    public object m_CurrentTimeMs;
+    public object m_CurrentFrameEventsState;
+    public object m_NextFrameEventsState;
+    public object running;
+    public object completed;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x55888B0
     public void get_SameFunc(){} // RVA: 0x87C0A0
@@ -1326,6 +1514,8 @@ public class Vector3EqualityComparer : Object
 
 public class Vector3IntEqualityComparer : Object
 {
+    public object Default;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x77C09E0
     public void GetHashCode(){} // RVA: 0x77C0A00
@@ -1363,6 +1553,12 @@ public class Vector4EqualityComparer : Object
 
 public class Vector4f : ValueType
 {
+    public object x;
+    public object y;
+    public object z;
+    public object w;
+    public object zero;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA680
     public void .cctor(){} // RVA: 0x6BE2940
@@ -1390,6 +1586,12 @@ public class Vector4f[] : Array
 
 public class Vector4s : ValueType
 {
+    public object x;
+    public object y;
+    public object z;
+    public object w;
+    public object zero;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA690
     public void .cctor(){} // RVA: 0x6BE2C30
@@ -1417,6 +1619,11 @@ public class Vector4s[] : Array
 
 public class VideoStream : Object
 {
+    public object _deviceIndex;
+    public object _handle;
+    public object _hasCamera;
+    public object refCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6F90F00
     public void get_deviceIndex(){} // RVA: 0xB8F8F0
@@ -1429,6 +1636,14 @@ public class VideoStream : Object
 
 public class VideoStreamTexture : Object
 {
+    public object _undistorted;
+    public object _frameBounds;
+    public object _texture;
+    public object prevFrameCount;
+    public object glTextureId;
+    public object videostream;
+    public object header;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6F90460
     public void get_undistorted(){} // RVA: 0xC120A0
@@ -1452,6 +1667,10 @@ public class VideoStreamTexture : Object
 
 public class ViewState : Object
 {
+    public object m_HasPersistedData;
+    public object m_SortDescriptions;
+    public object m_OrderedColumnStates;
+
     // ── Methods ──
     public void Save(){} // RVA: 0x7FB8370
     public void Apply(){} // RVA: 0x7FB8B20
@@ -1460,6 +1679,10 @@ public class ViewState : Object
 
 public class VirtualAxis : Object
 {
+    public object _name;
+    public object m_Value;
+    public object _matchWithInputManager;
+
     // ── Methods ──
     public void get_name(){} // RVA: 0xB5DBF0
     public void set_name(){} // RVA: 0xB44D60
@@ -1474,6 +1697,20 @@ public class VirtualAxis : Object
 
 public class VirtualAxis1DMap : Object
 {
+    public object None;
+    public object PrimaryIndexTrigger;
+    public object PrimaryHandTrigger;
+    public object SecondaryIndexTrigger;
+    public object SecondaryHandTrigger;
+    public object PrimaryIndexTriggerCurl;
+    public object PrimaryIndexTriggerSlide;
+    public object PrimaryTouchpadForce;
+    public object PrimaryStylusForce;
+    public object SecondaryIndexTriggerCurl;
+    public object SecondaryIndexTriggerSlide;
+    public object SecondaryTouchpadForce;
+    public object SecondaryStylusForce;
+
     // ── Methods ──
     public void ToRawMask(){} // RVA: 0x6B9B860
     public void .ctor(){} // RVA: 0xB43310
@@ -1481,6 +1718,12 @@ public class VirtualAxis1DMap : Object
 
 public class VirtualAxis2DMap : Object
 {
+    public object None;
+    public object PrimaryThumbstick;
+    public object PrimaryTouchpad;
+    public object SecondaryThumbstick;
+    public object SecondaryTouchpad;
+
     // ── Methods ──
     public void ToRawMask(){} // RVA: 0x6B9B8D0
     public void .ctor(){} // RVA: 0xB43310
@@ -1488,6 +1731,12 @@ public class VirtualAxis2DMap : Object
 
 public class VirtualButton : Object
 {
+    public object _name;
+    public object _matchWithInputManager;
+    public object m_LastPressedFrame;
+    public object m_ReleasedFrame;
+    public object m_Pressed;
+
     // ── Methods ──
     public void get_name(){} // RVA: 0xB5DBF0
     public void set_name(){} // RVA: 0xB44D60
@@ -1504,6 +1753,40 @@ public class VirtualButton : Object
 
 public class VirtualButtonMap : Object
 {
+    public object None;
+    public object One;
+    public object Two;
+    public object Three;
+    public object Four;
+    public object Start;
+    public object Back;
+    public object PrimaryShoulder;
+    public object PrimaryIndexTrigger;
+    public object PrimaryHandTrigger;
+    public object PrimaryThumbstick;
+    public object PrimaryThumbstickUp;
+    public object PrimaryThumbstickDown;
+    public object PrimaryThumbstickLeft;
+    public object PrimaryThumbstickRight;
+    public object PrimaryTouchpad;
+    public object SecondaryShoulder;
+    public object SecondaryIndexTrigger;
+    public object SecondaryHandTrigger;
+    public object SecondaryThumbstick;
+    public object SecondaryThumbstickUp;
+    public object SecondaryThumbstickDown;
+    public object SecondaryThumbstickLeft;
+    public object SecondaryThumbstickRight;
+    public object SecondaryTouchpad;
+    public object DpadUp;
+    public object DpadDown;
+    public object DpadLeft;
+    public object DpadRight;
+    public object Up;
+    public object Down;
+    public object Left;
+    public object Right;
+
     // ── Methods ──
     public void ToRawMask(){} // RVA: 0x6B9B690
     public void .ctor(){} // RVA: 0xB43310
@@ -1511,6 +1794,12 @@ public class VirtualButtonMap : Object
 
 public class VirtualNearTouchMap : Object
 {
+    public object None;
+    public object PrimaryIndexTrigger;
+    public object PrimaryThumbButtons;
+    public object SecondaryIndexTrigger;
+    public object SecondaryThumbButtons;
+
     // ── Methods ──
     public void ToRawMask(){} // RVA: 0x6B9B830
     public void .ctor(){} // RVA: 0xB43310
@@ -1518,6 +1807,20 @@ public class VirtualNearTouchMap : Object
 
 public class VirtualTouchMap : Object
 {
+    public object None;
+    public object One;
+    public object Two;
+    public object Three;
+    public object Four;
+    public object PrimaryIndexTrigger;
+    public object PrimaryThumbstick;
+    public object PrimaryThumbRest;
+    public object PrimaryTouchpad;
+    public object SecondaryIndexTrigger;
+    public object SecondaryThumbstick;
+    public object SecondaryThumbRest;
+    public object SecondaryTouchpad;
+
     // ── Methods ──
     public void ToRawMask(){} // RVA: 0x6B9B7C0
     public void .ctor(){} // RVA: 0xB43310
@@ -1525,6 +1828,11 @@ public class VirtualTouchMap : Object
 
 public class VisitContext : Object
 {
+    public object _propertyPathInfos;
+    public object _types;
+    public object _current;
+    public object _currentDepth;
+
     // ── Methods ──
     public void get_propertyPathInfos(){} // RVA: 0xB5DBF0
     public void set_propertyPathInfos(){} // RVA: 0xB44D60
@@ -1538,6 +1846,8 @@ public class VisitContext : Object
 
 public class VisitedPropertyScope : ValueType
 {
+    public object m_VisitContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9A1B60
     public void Dispose(){} // RVA: 0x9A1B70
@@ -1545,6 +1855,16 @@ public class VisitedPropertyScope : ValueType
 
 public class VisualChangesProcessor : Object
 {
+    public object k_GenerateEntriesMarker;
+    public object k_ConvertEntriesToCommandsMarker;
+    public object k_UpdateOpacityIdMarker;
+    public object m_RenderChain;
+    public object m_MeshGenerationContext;
+    public object m_ElementBuilder;
+    public object m_EntryProcessingList;
+    public object m_Processors;
+    public object _disposed;
+
     // ── Methods ──
     public void get_elementBuilder(){} // RVA: 0xB700F0
     public void get_meshGenerationContext(){} // RVA: 0xB465B0
@@ -1564,18 +1884,24 @@ public class VisualChangesProcessor : Object
 
 public class VisualElementScheduledItem`1 : BaseVisualElementScheduledItem
 {
+    public object updateEvent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
 }
 
 public class VisualElementScheduledItem`1 : BaseVisualElementScheduledItem
 {
+    public object updateEvent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5620150
 }
 
 public class VisualElementScheduledItem`1 : BaseVisualElementScheduledItem
 {
+    public object updateEvent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5620150
 }

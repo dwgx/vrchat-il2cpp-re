@@ -7,6 +7,8 @@ namespace VRC.UI.Client.Groups
 {
     public class GroupCache : Object
     {
+        public object _groupDataDictionary;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1540460
         public void Equals(){} // RVA: 0x15404B0
@@ -24,6 +26,10 @@ namespace VRC.UI.Client.Groups
 
     public class GroupsStorage : Object
     {
+        public object _local;
+        public object _userMembershipDictionary;
+        public object _userRepresentationDictionary;
+
         // ── Methods ──
         public void get_Local(){} // RVA: 0x15785C0
         public void set_Local(){} // RVA: 0x1578910

@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class RC2 : SymmetricAlgorithm
     {
+        public object EffectiveKeySizeValue;
+        public object s_legalBlockSizes;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66FC800
         public void get_EffectiveKeySize(){} // RVA: 0x66FC930
@@ -19,6 +23,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RC2CryptoServiceProvider : RC2
     {
+        public object m_use40bitSalt;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66FCEC0
         public void get_EffectiveKeySize(){} // RVA: 0x18A0130
@@ -34,6 +41,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RC2Transform : SymmetricTransform
     {
+        public object R0;
+        public object R1;
+        public object R2;
+        public object R3;
+        public object K;
+        public object j;
+        public object pitable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6722EF0
         public void ECB(){} // RVA: 0x67235A0
@@ -49,6 +64,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RIPEMD160Managed : RIPEMD160
     {
+        public object _buffer;
+        public object _count;
+        public object _stateMD160;
+        public object _blockDWords;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6702900
         public void Initialize(){} // RVA: 0x6702AB0
@@ -67,6 +87,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RNGCryptoServiceProvider : RandomNumberGenerator
     {
+        public object _lock;
+        public object _handle;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x67241C0
         public void .ctor(){} // RVA: 0x6724420
@@ -118,6 +141,17 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSACryptoServiceProvider : RSA
     {
+        public object s_UseMachineKeyStore;
+        public object PROV_RSA_FULL;
+        public object AT_KEYEXCHANGE;
+        public object AT_SIGNATURE;
+        public object store;
+        public object persistKey;
+        public object persisted;
+        public object privateKeyExportable;
+        public object m_disposed;
+        public object rsa;
+
         // ── Methods ──
         public void get_SignatureAlgorithm(){} // RVA: 0x67094A0
         public void get_UseMachineKeyStore(){} // RVA: 0x67094E0
@@ -156,6 +190,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAEncryptionPadding : Object
     {
+        public object s_pkcs1;
+        public object s_oaepSHA1;
+        public object s_oaepSHA256;
+        public object s_oaepSHA384;
+        public object s_oaepSHA512;
+        public object _mode;
+        public object _oaepHashAlgorithm;
+
         // ── Methods ──
         public void get_Pkcs1(){} // RVA: 0x66ED260
         public void get_OaepSHA1(){} // RVA: 0x66ED2C0
@@ -177,6 +219,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAOAEPKeyExchangeDeformatter : AsymmetricKeyExchangeDeformatter
     {
+        public object _rsaKey;
+        public object _rsaOverridesDecrypt;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670CDB0
         public void get_Parameters(){} // RVA: 0xDAC980
@@ -188,6 +233,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
     {
+        public object ParameterValue;
+        public object _rsaKey;
+        public object _rsaOverridesEncrypt;
+        public object RngValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670D500
         public void get_Parameter(){} // RVA: 0x670D660
@@ -202,6 +252,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1KeyExchangeDeformatter : AsymmetricKeyExchangeDeformatter
     {
+        public object _rsaKey;
+        public object _rsaOverridesDecrypt;
+        public object RngValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670DDF0
         public void get_RNG(){} // RVA: 0xB700F0
@@ -215,6 +269,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1KeyExchangeFormatter : AsymmetricKeyExchangeFormatter
     {
+        public object RngValue;
+        public object _rsaKey;
+        public object _rsaOverridesEncrypt;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670E560
         public void get_Parameters(){} // RVA: 0x670E6C0
@@ -251,6 +309,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1SignatureDeformatter : AsymmetricSignatureDeformatter
     {
+        public object rsa;
+        public object hashName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6724DF0
         public void SetHashAlgorithm(){} // RVA: 0x6724E10
@@ -260,6 +321,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1SignatureDescription : SignatureDescription
     {
+        public object _hashAlgorithm;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6715820
         public void CreateDeformatter(){} // RVA: 0x6715A50
@@ -268,6 +331,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSAPKCS1SignatureFormatter : AsymmetricSignatureFormatter
     {
+        public object rsa;
+        public object hash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6724DF0
         public void CreateSignature(){} // RVA: 0x6725210
@@ -277,6 +343,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RSASignaturePadding : Object
     {
+        public object s_pkcs1;
+        public object s_pss;
+        public object _mode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66EDF80
         public void get_Pkcs1(){} // RVA: 0x66EDB70
@@ -305,6 +375,18 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class Rfc2898DeriveBytes : DeriveBytes
     {
+        public object MinimumSaltSize;
+        public object _password;
+        public object _salt;
+        public object _iterations;
+        public object _hmac;
+        public object _blockSize;
+        public object _buffer;
+        public object _block;
+        public object _startIndex;
+        public object _endIndex;
+        public object _hashAlgorithm;
+
         // ── Methods ──
         public void get_HashAlgorithm(){} // RVA: 0xBE58B0
         public void .ctor(){} // RVA: 0x66E4B20
@@ -323,6 +405,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class Rijndael : SymmetricAlgorithm
     {
+        public object s_legalBlockSizes;
+        public object s_legalKeySizes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66FD680
         public void Create(){} // RVA: 0x66FD800
@@ -342,6 +427,31 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class RijndaelManagedTransform : Object
     {
+        public object m_cipherMode;
+        public object m_paddingValue;
+        public object m_transformMode;
+        public object m_blockSizeBits;
+        public object m_blockSizeBytes;
+        public object m_inputBlockSize;
+        public object m_outputBlockSize;
+        public object m_encryptKeyExpansion;
+        public object m_decryptKeyExpansion;
+        public object m_Nr;
+        public object m_Nb;
+        public object m_Nk;
+        public object m_encryptindex;
+        public object m_decryptindex;
+        public object m_IV;
+        public object m_lastBlockBuffer;
+        public object m_depadBuffer;
+        public object m_shiftRegister;
+        public object s_Sbox;
+        public object s_Rcon;
+        public object s_T;
+        public object s_TF;
+        public object s_iT;
+        public object s_iTF;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6702790
         public void Dispose(){} // RVA: 0x66FEB10

@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.CompilerServices
-// Classes: 77
-// Methods: 313
+// Classes: 76
+// Methods: 301
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class CallSite : Object
     {
+        public object s_siteCtors;
+        public object _binder;
+        public object _match;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Binder(){} // RVA: 0xB5DBF0
@@ -15,6 +19,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallSiteBinder : Object
     {
+        public object Cache;
+        public object _updateLabel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_UpdateLabel(){} // RVA: 0x70C9F50
@@ -45,6 +52,11 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallSite`1 : CallSite
     {
+        public object Target;
+        public object Rules;
+        public object s_cachedUpdate;
+        public object s_cachedNoMatch;
+
         // ── Methods ──
         public void get_Update(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x894290
@@ -61,6 +73,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_ParameterName(){} // RVA: 0xB5DBF0
@@ -68,18 +82,24 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_ParameterName(){} // RVA: 0xB5DBF0
@@ -87,18 +107,24 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CallerArgumentExpressionAttribute : Attribute
     {
+        public object _parameterName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
@@ -123,6 +149,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CompilationRelaxationsAttribute : Attribute
     {
+        public object m_relaxations;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
         public void get_CompilationRelaxations(){} // RVA: 0xB8F8F0
@@ -130,6 +158,11 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CompilerFeatureRequiredAttribute : Attribute
     {
+        public object _featureName;
+        public object _isOptional;
+        public object RefStructs;
+        public object RequiredMembers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_FeatureName(){} // RVA: 0xB5DBF0
@@ -139,18 +172,24 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class CompilerFeatureRequiredAttribute : Attribute
     {
+        public object _featureName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CompilerFeatureRequiredAttribute : Attribute
     {
+        public object _featureName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class CompilerFeatureRequiredAttribute : Attribute
     {
+        public object _featureName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
     }
@@ -163,23 +202,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34AA4B0
-        public void Finalize(){} // RVA: 0x34AA600
-        public void RehashWithoutResize(){} // RVA: 0x34AA640
-        public void RecomputeSize(){} // RVA: 0x34AA8F0
-        public void Rehash(){} // RVA: 0x34AA960
-        public void Remove(){} // RVA: 0x34AB1D0
-        public void TryGetValue(){} // RVA: 0x34AB580
-        public void GetOrCreateValue(){} // RVA: 0x34AB8C0
-        public void GetValue(){} // RVA: 0x34ABAD0
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x34ABCF0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34ABEF0
-        public void Add(){} // RVA: 0x34AAD60
-    }
+        public object data;
+        public object _lock;
+        public object size;
 
-    public class ConditionalWeakTable`2 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34AA4B0
         public void Finalize(){} // RVA: 0x34AA600
@@ -197,6 +223,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -214,6 +244,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -231,6 +265,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x34AA4B0
         public void Finalize(){} // RVA: 0x34AA600
@@ -248,6 +286,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -265,6 +307,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -282,6 +328,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -299,6 +349,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -316,6 +370,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -333,6 +391,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -350,6 +412,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -367,6 +433,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -384,6 +454,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -401,6 +475,31 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
+        public object data;
+        public object _lock;
+        public object size;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x34AAD60
+        public void .ctor(){} // RVA: 0x34AA4B0
+        public void Finalize(){} // RVA: 0x34AA600
+        public void RehashWithoutResize(){} // RVA: 0x34AA640
+        public void RecomputeSize(){} // RVA: 0x34AA8F0
+        public void Rehash(){} // RVA: 0x34AA960
+        public void Remove(){} // RVA: 0x34AB1D0
+        public void TryGetValue(){} // RVA: 0x34AB580
+        public void GetOrCreateValue(){} // RVA: 0x34AB8C0
+        public void GetValue(){} // RVA: 0x34ABAD0
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x34ABCF0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34ABEF0
+    }
+
+    public class ConditionalWeakTable`2 : Object
+    {
+        public object data;
+        public object _lock;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void Finalize(){} // RVA: 0x894290
@@ -418,23 +517,10 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConditionalWeakTable`2 : Object
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x34AAD60
-        public void .ctor(){} // RVA: 0x34AA4B0
-        public void Finalize(){} // RVA: 0x34AA600
-        public void RehashWithoutResize(){} // RVA: 0x34AA640
-        public void RecomputeSize(){} // RVA: 0x34AA8F0
-        public void Rehash(){} // RVA: 0x34AA960
-        public void Remove(){} // RVA: 0x34AB1D0
-        public void TryGetValue(){} // RVA: 0x34AB580
-        public void GetOrCreateValue(){} // RVA: 0x34AB8C0
-        public void GetValue(){} // RVA: 0x34ABAD0
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x34ABCF0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34ABEF0
-    }
+        public object data;
+        public object _lock;
+        public object size;
 
-    public class ConditionalWeakTable`2 : Object
-    {
         // ── Methods ──
         public void Add(){} // RVA: 0x34AAD60
         public void .ctor(){} // RVA: 0x34AA4B0
@@ -452,6 +538,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredAsyncDisposable : ValueType
     {
+        public object _source;
+        public object _continueOnCapturedContext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void DisposeAsync(){} // RVA: 0x8E7C10
@@ -459,6 +548,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8AF3B0
         public void GetAwaiter(){} // RVA: 0x7BF80
@@ -466,6 +557,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899250
         public void GetAwaiter(){} // RVA: 0xA94080
@@ -473,6 +566,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
         public void GetAwaiter(){} // RVA: 0x7BF80
@@ -480,24 +575,32 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
         public void GetAwaiter(){} // RVA: 0x7BF80
@@ -505,24 +608,56 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void GetAwaiter(){} // RVA: 0x7BF80
         public void .ctor(){} // RVA: 0x212F90
@@ -530,102 +665,32 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
+        public object m_configuredTaskAwaiter;
 
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void GetAwaiter(){} // RVA: 0x7BF80
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x212F90
-    }
-
-    public class ConfiguredTaskAwaitable`1 : ValueType
-    {
         // ── Methods ──
         public void GetAwaiter(){} // RVA: 0x7BF80
         public void .ctor(){} // RVA: 0x212F90
@@ -633,6 +698,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void GetAwaiter(){} // RVA: 0x7BF80
         public void .ctor(){} // RVA: 0x212F90
@@ -640,18 +707,104 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredTaskAwaitable`1 : ValueType
     {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x212F90
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
+        // ── Methods ──
+        public void GetAwaiter(){} // RVA: 0x7BF80
+    }
+
+    public class ConfiguredTaskAwaitable`1 : ValueType
+    {
+        public object m_configuredTaskAwaiter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x212F90
     }
 
     public class ConfiguredValueTaskAwaitable : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void GetAwaiter(){} // RVA: 0x8AEF40
@@ -659,6 +812,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredValueTaskAwaitable : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void GetAwaiter(){} // RVA: 0x8AEF40
@@ -666,6 +821,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetAwaiter(){} // RVA: 0xA94080
@@ -673,12 +830,16 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x216AC0
     }
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
         public void GetAwaiter(){} // RVA: 0x218490
@@ -686,12 +847,16 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ConfiguredValueTaskAwaitable`1 : ValueType
     {
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x11E4F0
     }

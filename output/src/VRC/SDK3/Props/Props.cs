@@ -7,6 +7,9 @@ namespace VRC.SDK3.Props
 {
     public class VRCPropApi : Object
     {
+        public object _GetPropFromGameObject;
+        public object _GetPropApi;
+
         // ── Methods ──
         public void TryGetPropFromGameObject(){} // RVA: 0x1AA30E0
         public void TryGetProp(){} // RVA: 0xA6B5CA0
@@ -33,6 +36,13 @@ namespace VRC.SDK3.Props
 
     public class VRCPropUtilities : Object
     {
+        public object API_VISIBILITY_TYPE_EVERYONE;
+        public object API_VISIBILITY_TYPE_ITEM_OWNER_ONLY;
+        public object _cachedPermissions;
+        public object _hasOngoingPermissionsFetchTask;
+        public object _ongoingPermissionsFetchTask;
+        public object _permissionsFetchCancellationSource;
+
         // ── Methods ──
         public void DoesLocalPropFolderExist(){} // RVA: 0xA4F4040
         public void GetLocalPropFolderPath(){} // RVA: 0xA4F4060

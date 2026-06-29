@@ -7,6 +7,8 @@ namespace VRC.Networking.Pose
 {
     public class PoseAV2Update : PoseRemoteUpdate
     {
+        public object _poseAV2Update;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0xEFB4C0
         public void LateUpdate(){} // RVA: 0xEFB4C0
@@ -23,6 +25,8 @@ namespace VRC.Networking.Pose
 
     public class PoseAV3Update : PoseRemoteUpdate
     {
+        public object _poseAV3Update;
+
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0xEFB970
         public void Update(){} // RVA: 0xEFBA60
@@ -40,6 +44,9 @@ namespace VRC.Networking.Pose
 
     public class PoseLocalUpdate : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_8B9;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xEFBC40
         public void RaiseCancellation(){} // RVA: 0xEFBD70
@@ -52,6 +59,8 @@ namespace VRC.Networking.Pose
 
     public class PoseRemoteUpdate : MonoBehaviour
     {
+        public object _poseRemoteUpdate;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xEFADC0
         public void RaiseCancellation(){} // RVA: 0xEFAF20

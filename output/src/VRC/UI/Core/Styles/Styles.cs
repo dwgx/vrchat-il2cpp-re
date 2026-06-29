@@ -7,6 +7,8 @@ namespace VRC.UI.Core.Styles
 {
     public class StyleClass : MonoBehaviour
     {
+        public object _styleClass;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43D60
         public void Initialize(){} // RVA: 0xB700F0
@@ -20,6 +22,57 @@ namespace VRC.UI.Core.Styles
 
     public class StyleElement : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_BC1;
+        public object f_5FC;
+        public object f_C86;
+        public object f_C41;
+        public object f_13E;
+        public object f_F85;
+        public object f_FA7;
+        public object f_908;
+        public object f_9ED;
+        public object f_40B;
+        public object f_CE5;
+        public object f_59C;
+        public object f_523;
+        public object f_B2F;
+        public object f_AC0;
+        public object f_821;
+        public object f_A12;
+        public object f_0E7;
+        public object f_74E;
+        public object f_C51;
+        public object f_1A3;
+        public object f_575;
+        public object f_4E0;
+        public object f_56B;
+        public object f_0FD;
+        public object f_D5D;
+        public object f_166;
+        public object f_D92;
+        public object f_FE7;
+        public object f_3FA;
+        public object f_8F4;
+        public object f_EFA;
+        public object f_0D9;
+        public object f_820;
+        public object f_7F9;
+        public object f_EC7;
+        public object f_12F;
+        public object f_FD0;
+        public object f_C31;
+        public object f_FF3;
+        public object f_8BA;
+        public object f_EE9;
+        public object f_784;
+        public object f_B5B;
+        public object f_CAF;
+        public object f_692;
+        public object f_E4E;
+        public object f_D2D;
+        public object f_BCC;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x977F740
         public void RaiseCancellation(){} // RVA: 0x977D220
@@ -107,6 +160,20 @@ namespace VRC.UI.Core.Styles
 
     public class StyleEngine : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_23F;
+        public object f_989;
+        public object f_915;
+        public object f_DFE;
+        public object f_C8D;
+        public object f_0D5;
+        public object f_8D0;
+        public object f_396;
+        public object f_FAF;
+        public object f_34D;
+        public object f_6F8;
+        public object f_0DA;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x9784CC0
         public void RaiseCancellation(){} // RVA: 0xC02470
@@ -146,6 +213,9 @@ namespace VRC.UI.Core.Styles
 
     public class StyleResource : ScriptableObject
     {
+        public object resources;
+        public object includes;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x97A8B80
         public void .ctor(){} // RVA: 0x97A8C60

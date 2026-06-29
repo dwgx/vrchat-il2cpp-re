@@ -1,18 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 946
+// Methods: 870
 
 namespace ThirdParty.DotNet.System
 {
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x76310
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -31,6 +28,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x295B0
         public void Equals(){} // RVA: 0x6C8E40
@@ -49,6 +49,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -67,6 +70,18 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6B8C90
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -97,6 +112,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -115,6 +133,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -133,6 +154,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -152,17 +176,14 @@ namespace ThirdParty.DotNet.System
     public class ValueTuple`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3616C0
-    }
-
-    public class ValueTuple`2 : ValueType
-    {
-        // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void Equals(){} // RVA: 0x6CB3E0
@@ -181,78 +202,117 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x664320
     }
@@ -260,11 +320,23 @@ namespace ThirdParty.DotNet.System
     public class ValueTuple`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6639B0
+        public void .ctor(){} // RVA: 0x295B0
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CD550
         public void Equals(){} // RVA: 0x6CD5A0
@@ -283,18 +355,27 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6D8110
         public void Equals(){} // RVA: 0x6D8130
@@ -314,11 +395,20 @@ namespace ThirdParty.DotNet.System
     public class ValueTuple`2 : ValueType
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x3616C0
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void Equals(){} // RVA: 0x6CF7F0
@@ -337,12 +427,18 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
     }
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -367,12 +463,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35CE80
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void Equals(){} // RVA: 0x6CA050
@@ -391,6 +484,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -409,26 +505,11 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x260A0
-        public void Equals(){} // RVA: 0x6D3780
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6D37A0
-        public void System.IComparable.CompareTo(){} // RVA: 0x6D37B0
-        public void CompareTo(){} // RVA: 0x6D37C0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6D37E0
-        public void GetHashCode(){} // RVA: 0x6D37F0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6D3800
-        public void GetHashCodeCore(){} // RVA: 0x6D3850
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6D3800
-        public void ToString(){} // RVA: 0x6D3860
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6D39B0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x22C190
+        public void .ctor(){} // RVA: 0x28E70
     }
 
     public class ValueTuple`2 : ValueType
@@ -439,6 +520,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -457,54 +541,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35CE80
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x28E70
-    }
-
-    public class ValueTuple`2 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x365260
-        public void Equals(){} // RVA: 0x6D62E0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6D6310
-        public void System.IComparable.CompareTo(){} // RVA: 0x6D6320
-        public void CompareTo(){} // RVA: 0x6D6330
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6D6360
-        public void GetHashCode(){} // RVA: 0x6D6370
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6D6380
-        public void GetHashCodeCore(){} // RVA: 0x6D63D0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6D6380
-        public void ToString(){} // RVA: 0x6D63E0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6D6560
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
-    }
-
-    public class ValueTuple`2 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x76310
-        public void Equals(){} // RVA: 0x6D3AA0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6D3AC0
-        public void System.IComparable.CompareTo(){} // RVA: 0x6D3C10
-        public void CompareTo(){} // RVA: 0x6D3C20
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6D3C40
-        public void GetHashCode(){} // RVA: 0x6D3C50
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6D3C60
-        public void GetHashCodeCore(){} // RVA: 0x6D3D00
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6D3C60
-        public void ToString(){} // RVA: 0x6D3D90
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6D3DA0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
-    }
-
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3A130
         public void Equals(){} // RVA: 0x6CE210
@@ -523,12 +562,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6B8C90
-    }
+        public object Item1;
+        public object Item2;
 
-    public class ValueTuple`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6D7580
         public void Equals(){} // RVA: 0x6D75C0
@@ -547,6 +583,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void Equals(){} // RVA: 0x6C9840
@@ -565,6 +604,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -583,6 +625,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x31F970
         public void Equals(){} // RVA: 0x6D5FC0
@@ -601,6 +646,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -619,6 +667,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3665D0
         public void Equals(){} // RVA: 0x6D6DF0
@@ -637,6 +688,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void Equals(){} // RVA: 0x6D3AA0
@@ -655,6 +709,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void Equals(){} // RVA: 0x6D8B00
@@ -673,6 +730,9 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`2 : ValueType
     {
+        public object Item1;
+        public object Item2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35CE80
         public void Equals(){} // RVA: 0x6BFC70
@@ -687,6 +747,90 @@ namespace ThirdParty.DotNet.System
         public void ToString(){} // RVA: 0x6BFD50
         public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6BFD60
         public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
+        public void Equals(){} // RVA: 0x6BFC70
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6BFC90
+        public void System.IComparable.CompareTo(){} // RVA: 0x6BFCA0
+        public void CompareTo(){} // RVA: 0x6BFCB0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6BFCD0
+        public void GetHashCode(){} // RVA: 0x6BFCE0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6BFCF0
+        public void GetHashCodeCore(){} // RVA: 0x6BFD40
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6BFCF0
+        public void ToString(){} // RVA: 0x6BFD50
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6BFD60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4237C0
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6B3850
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x664320
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x664320
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x664320
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6B3850
+    }
+
+    public class ValueTuple`2 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35CE80
     }
 
     public class ValueTuple`2[] : Array
@@ -814,26 +958,6 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
         public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EA4F00
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E52020
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-    }
-
-    public class ValueTuple`2[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
         public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EA4780
         public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
         public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
@@ -894,18 +1018,18 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
         public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EA5220
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A900
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4160
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EA4F00
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
         public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
         public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
         public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
         public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
         public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E52270
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E52020
         public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A900
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
@@ -1091,6 +1215,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void Equals(){} // RVA: 0x6E5620
@@ -1115,102 +1243,114 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E4D90
-        public void Equals(){} // RVA: 0x6E4E10
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
-        public void CompareTo(){} // RVA: 0x6E4E50
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
-        public void GetHashCode(){} // RVA: 0x6E4E80
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
-        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
-        public void ToString(){} // RVA: 0x6E4EF0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
-    }
+        public object Item1;
+        public object Item2;
+        public object Item3;
 
-    public class ValueTuple`3 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E4D90
-        public void Equals(){} // RVA: 0x6E4E10
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
-        public void CompareTo(){} // RVA: 0x6E4E50
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
-        public void GetHashCode(){} // RVA: 0x6E4E80
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
-        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
-        public void ToString(){} // RVA: 0x6E4EF0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
-    }
-
-    public class ValueTuple`3 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E4D90
-        public void Equals(){} // RVA: 0x6E4E10
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
-        public void CompareTo(){} // RVA: 0x6E4E50
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
-        public void GetHashCode(){} // RVA: 0x6E4E80
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
-        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
-        public void ToString(){} // RVA: 0x6E4EF0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
-    }
-
-    public class ValueTuple`3 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E4D90
-        public void Equals(){} // RVA: 0x6E4E10
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
-        public void CompareTo(){} // RVA: 0x6E4E50
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
-        public void GetHashCode(){} // RVA: 0x6E4E80
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
-        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
-        public void ToString(){} // RVA: 0x6E4EF0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
-    }
-
-    public class ValueTuple`3 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
     }
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E0CC0
-        public void Equals(){} // RVA: 0x6E0CE0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E0CF0
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E0D00
-        public void CompareTo(){} // RVA: 0x6E0D10
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E0D20
-        public void GetHashCode(){} // RVA: 0x6E0D30
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E0D40
-        public void GetHashCodeCore(){} // RVA: 0x6E0D90
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E0D40
-        public void ToString(){} // RVA: 0x6E0DA0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E0DB0
+        public void .ctor(){} // RVA: 0x6E4D90
+        public void Equals(){} // RVA: 0x6E4E10
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
+        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
+        public void CompareTo(){} // RVA: 0x6E4E50
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
+        public void GetHashCode(){} // RVA: 0x6E4E80
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
+        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
+        public void ToString(){} // RVA: 0x6E4EF0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
         public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
     }
 
     public class ValueTuple`3 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6E4D90
+        public void Equals(){} // RVA: 0x6E4E10
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
+        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
+        public void CompareTo(){} // RVA: 0x6E4E50
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
+        public void GetHashCode(){} // RVA: 0x6E4E80
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
+        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
+        public void ToString(){} // RVA: 0x6E4EF0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
+    }
+
+    public class ValueTuple`3 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6E4D90
+        public void Equals(){} // RVA: 0x6E4E10
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
+        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
+        public void CompareTo(){} // RVA: 0x6E4E50
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
+        public void GetHashCode(){} // RVA: 0x6E4E80
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
+        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
+        public void ToString(){} // RVA: 0x6E4EF0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
+    }
+
+    public class ValueTuple`3 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6E4D90
+        public void Equals(){} // RVA: 0x6E4E10
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E4E30
+        public void System.IComparable.CompareTo(){} // RVA: 0x6E4E40
+        public void CompareTo(){} // RVA: 0x6E4E50
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E4E70
+        public void GetHashCode(){} // RVA: 0x6E4E80
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E4E90
+        public void GetHashCodeCore(){} // RVA: 0x6E4EE0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E4E90
+        public void ToString(){} // RVA: 0x6E4EF0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E4F00
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
+    }
+
+    public class ValueTuple`3 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6E1300
+    }
+
+    public class ValueTuple`3 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6E5750
         public void Equals(){} // RVA: 0x6E5770
@@ -1229,24 +1369,10 @@ namespace ThirdParty.DotNet.System
 
     public class ValueTuple`3 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6E1E40
-        public void Equals(){} // RVA: 0x6E1E90
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E1ED0
-        public void System.IComparable.CompareTo(){} // RVA: 0x6E1EE0
-        public void CompareTo(){} // RVA: 0x6E1EF0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E1F30
-        public void GetHashCode(){} // RVA: 0x6E1F40
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E1F50
-        public void GetHashCodeCore(){} // RVA: 0x6E1FA0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E1F50
-        public void ToString(){} // RVA: 0x6E1FB0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E1FC0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
-    }
+        public object Item1;
+        public object Item2;
+        public object Item3;
 
-    public class ValueTuple`3 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6E16F0
         public void Equals(){} // RVA: 0x6E1720
@@ -1260,6 +1386,28 @@ namespace ThirdParty.DotNet.System
         public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E17C0
         public void ToString(){} // RVA: 0x6E1820
         public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E1830
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
+    }
+
+    public class ValueTuple`3 : ValueType
+    {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6E04B0
+        public void Equals(){} // RVA: 0x6E04D0
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6E0500
+        public void System.IComparable.CompareTo(){} // RVA: 0x6E0510
+        public void CompareTo(){} // RVA: 0x6E0520
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6E0550
+        public void GetHashCode(){} // RVA: 0x6E0560
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6E0570
+        public void GetHashCodeCore(){} // RVA: 0x6E05C0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6E0570
+        public void ToString(){} // RVA: 0x6E05D0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6E05E0
         public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x4238F0
     }
 
@@ -1363,44 +1511,6 @@ namespace ThirdParty.DotNet.System
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
-    public class ValueTuple`3[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EA7700
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7AC90
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4850
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E53DE0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7AC90
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-    }
-
-    public class ValueTuple`4 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6EA1B0
-        public void Equals(){} // RVA: 0x6EA2D0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x6EA300
-        public void System.IComparable.CompareTo(){} // RVA: 0x6EA310
-        public void CompareTo(){} // RVA: 0x6EA320
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x6EA350
-        public void GetHashCode(){} // RVA: 0x6EA360
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x6EA430
-        public void GetHashCodeCore(){} // RVA: 0x6EA480
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x6EA430
-        public void ToString(){} // RVA: 0x6EA490
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x6EA4A0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x178950
-    }
-
     public class ValueTuple`4 : ValueType
     {
         // ── Methods ──
@@ -1413,8 +1523,22 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0x6EC390
     }
 
+    public class ValueTuple`6 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6EC9A0
+    }
+
     public class ValueTuple`7 : ValueType
     {
+        public object Item1;
+        public object Item2;
+        public object Item3;
+        public object Item4;
+        public object Item5;
+        public object Item6;
+        public object Item7;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6ED210
         public void Equals(){} // RVA: 0x6ED230

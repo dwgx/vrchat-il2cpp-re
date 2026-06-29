@@ -13,6 +13,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Intersect`1 : Object
     {
+        public object first;
+        public object second;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System
 {
     public class GC : Object
     {
+        public object EPHEMERON_TOMBSTONE;
+
         // ── Methods ──
         public void GetCollectionCount(){} // RVA: 0x695F9D0
         public void GetMaxGeneration(){} // RVA: 0xDAC980
@@ -31,6 +33,9 @@ namespace ThirdParty.DotNet.System
 
     public class Gen2GcCallback : CriticalFinalizerObject
     {
+        public object _callback;
+        public object _weakTargetObj;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Register(){} // RVA: 0x68F68B0
@@ -40,6 +45,19 @@ namespace ThirdParty.DotNet.System
 
     public class Guid : ValueType
     {
+        public object Empty;
+        public object _a;
+        public object _b;
+        public object _c;
+        public object _d;
+        public object _e;
+        public object _f;
+        public object _g;
+        public object _h;
+        public object _i;
+        public object _j;
+        public object _k;
+
         // ── Methods ──
         public void NewGuid(){} // RVA: 0x690BE60
         public void .ctor(){} // RVA: 0x8B8FD0

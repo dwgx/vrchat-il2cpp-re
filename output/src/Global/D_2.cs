@@ -1,31 +1,47 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 564
+// Methods: 546
 
 public class DESEncryption : Object
 {
+    public object Iterations;
+
     // ── Methods ──
     public void Encrypt(){} // RVA: 0xA0C5590
     public void TryDecrypt(){} // RVA: 0xA0C5A60
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class DPIDMipmapper : Object
-{
-    // ── Methods ──
-    public void get_Instance(){} // RVA: 0xA709720
-    public void get_ComputeShaderReady(){} // RVA: 0xA709810
-    public void .ctor(){} // RVA: 0xA709920
-    public void GenerateDPIDMipmaps(){} // RVA: 0xA709B90
-    public void GenerateDPIDMipmapsQuality(){} // RVA: 0xA709C80
-    public void GenerateDPIDMipmapsFast(){} // RVA: 0xA709DF0
-    public void ExecuteComputeShader(){} // RVA: 0xA709EC0
-    public void .cctor(){} // RVA: 0xA70B9F0
-}
-
 public class Data : ApiModel
 {
+    public object _name;
+    public object _shortName;
+    public object _template;
+    public object _thumbnailImageUrl;
+    public object _imageUrl;
+    public object _iconImageUrl;
+    public object _description;
+    public object _tooltipDescription;
+    public object _taglineText;
+    public object _version;
+    public object _isNew;
+    public object _onPressed;
+    public object _disclaimerText;
+    public object _worldTag;
+    public object _hoverToJoin;
+    public object _contentList;
+    public object _domainList;
+    public object _search;
+    public object _ipsQuery;
+    public object _article;
+    public object _categories;
+    public object _promotion;
+    public object _featuredAvatarCategoryId;
+    public object _listingIds;
+    public object _weight;
+    public object _category;
+
     // ── Methods ──
     public void get_name(){} // RVA: 0xBBFF90
     public void set_name(){} // RVA: 0xBBFFA0
@@ -82,8 +98,20 @@ public class Data : ApiModel
     public void set_category(){} // RVA: 0x1658000
 }
 
+public class DataElementDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x1F62250
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6C551C0
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
 public class DataPlayableOutputEnumerator : Object
 {
+    public object m_List;
+    public object m_Index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67F4370
     public void get_Current(){} // RVA: 0x7C556F0
@@ -95,6 +123,9 @@ public class DataPlayableOutputEnumerator : Object
 
 public class DataPlayableOutputList : Object
 {
+    public object m_Outputs;
+    public object m_Count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2232610
     public void get_Item(){} // RVA: 0x7C55500
@@ -105,6 +136,19 @@ public class DataPlayableOutputList : Object
 
 public class DataSet`1 : Object
 {
+    public object _disposed;
+    public object gpuData;
+    public object cpuData;
+    public object updateRanges;
+    public object allocator;
+    public object m_UpdateRangePoolSize;
+    public object m_ElemStride;
+    public object m_UpdateRangeMin;
+    public object m_UpdateRangeMax;
+    public object m_UpdateRangesEnqueued;
+    public object m_UpdateRangesBatchStart;
+    public object m_UpdateRangesSaturated;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_disposed(){} // RVA: 0x87D280
@@ -120,6 +164,19 @@ public class DataSet`1 : Object
 
 public class DataSet`1 : Object
 {
+    public object _disposed;
+    public object gpuData;
+    public object cpuData;
+    public object updateRanges;
+    public object allocator;
+    public object m_UpdateRangePoolSize;
+    public object m_ElemStride;
+    public object m_UpdateRangeMin;
+    public object m_UpdateRangeMax;
+    public object m_UpdateRangesEnqueued;
+    public object m_UpdateRangesBatchStart;
+    public object m_UpdateRangesSaturated;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35A9090
     public void get_disposed(){} // RVA: 0xC120A0
@@ -135,6 +192,19 @@ public class DataSet`1 : Object
 
 public class DataSet`1 : Object
 {
+    public object _disposed;
+    public object gpuData;
+    public object cpuData;
+    public object updateRanges;
+    public object allocator;
+    public object m_UpdateRangePoolSize;
+    public object m_ElemStride;
+    public object m_UpdateRangeMin;
+    public object m_UpdateRangeMax;
+    public object m_UpdateRangesEnqueued;
+    public object m_UpdateRangesBatchStart;
+    public object m_UpdateRangesSaturated;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35A8260
     public void get_disposed(){} // RVA: 0xC120A0
@@ -148,8 +218,21 @@ public class DataSet`1 : Object
     public void ResetUpdateState(){} // RVA: 0x35A9060
 }
 
+public class DataStorageShadow : Object
+{
+    public object ParameterString;
+    public object ParameterBoolOp;
+    public object ParameterFloat;
+    public object ParameterInt;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+}
+
 public class DataTokenFormatter : BaseFormatter`1
 {
+    public object _referenceReaderWriter;
+
     // ── Methods ──
     public void DeserializeImplementation(){} // RVA: 0x833C5C0
     public void SerializeImplementation(){} // RVA: 0x833CD10
@@ -157,14 +240,38 @@ public class DataTokenFormatter : BaseFormatter`1
     public void .cctor(){} // RVA: 0x833D2A0
 }
 
+public class DateMapping : ValueType
+{
+    public object HijriMonthsLengthFlags;
+    public object GregorianDate;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x8B3CC0
+}
+
 public class DateTimeParseData : ValueType
 {
+    public object Year;
+    public object Month;
+    public object Day;
+    public object Hour;
+    public object Minute;
+    public object Second;
+    public object Fraction;
+    public object OffsetHours;
+    public object OffsetMinutes;
+    public object OffsetToken;
+
     // ── Methods ──
     public void get_OffsetNegative(){} // RVA: 0x8ED310
 }
 
 public class DbRow : ValueType
 {
+    public object _location;
+    public object _sizeOrLengthUnion;
+    public object _numberOfRowsAndTypeUnion;
+
     // ── Methods ──
     public void get_Location(){} // RVA: 0x77E60
     public void get_SizeOrLength(){} // RVA: 0x8ED510
@@ -178,6 +285,10 @@ public class DbRow : ValueType
 
 public class DebugImageInfo : Object
 {
+    public object Image;
+    public object StartAddress;
+    public object EndAddress;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6DDB830
     public void ContainsAddress(){} // RVA: 0x6DDB970
@@ -185,6 +296,16 @@ public class DebugImageInfo : Object
 
 public class DecCalc : ValueType
 {
+    public object uflags;
+    public object uhi;
+    public object ulo;
+    public object umid;
+    public object ulomidLE;
+    public object s_powers10;
+    public object s_ulongPowers10;
+    public object s_doublePowers10;
+    public object PowerOvflValues;
+
     // ── Methods ──
     public void get_High(){} // RVA: 0x77E50
     public void set_High(){} // RVA: 0x77EE0
@@ -230,43 +351,6 @@ public class DecCalc : ValueType
     public void .cctor(){} // RVA: 0x6999620
 }
 
-public class Decoder : DecoderNLS
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x66C5480
-    public void Reset(){} // RVA: 0x66C78F0
-    public void get_HasState(){} // RVA: 0x66C7930
-}
-
-public class Decoder : DecoderNLS
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x66D0100
-    public void Reset(){} // RVA: 0x66D0110
-    public void get_HasState(){} // RVA: 0x66D0140
-}
-
-public class DecoderUTF7Fallback : DecoderFallback
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void CreateFallbackBuffer(){} // RVA: 0x66C79A0
-    public void get_MaxCharCount(){} // RVA: 0xC3CCE0
-    public void Equals(){} // RVA: 0x66C79E0
-    public void GetHashCode(){} // RVA: 0x66C7A40
-}
-
-public class DecoderUTF7FallbackBuffer : DecoderFallbackBuffer
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x66C7A50
-    public void Fallback(){} // RVA: 0x66C7A60
-    public void GetNextChar(){} // RVA: 0x66C7AB0
-    public void get_Remaining(){} // RVA: 0x66B1470
-    public void Reset(){} // RVA: 0x66B1480
-    public void InternalFallback(){} // RVA: 0x66C7AD0
-}
-
 public class DefaultComparer`1 : ValueType
 {
     // ── Methods ──
@@ -275,6 +359,9 @@ public class DefaultComparer`1 : ValueType
 
 public class DefaultDecoder : Decoder
 {
+    public object m_encoding;
+    public object m_hasInitializedEncoding;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66D68B0
     public void GetRealObject(){} // RVA: 0x66D6C40
@@ -285,6 +372,10 @@ public class DefaultDecoder : Decoder
 
 public class DefaultEncoder : Encoder
 {
+    public object m_encoding;
+    public object m_hasInitializedEncoding;
+    public object charLeftOver;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66D6030
     public void GetRealObject(){} // RVA: 0x66D6450
@@ -295,6 +386,10 @@ public class DefaultEncoder : Encoder
 
 public class DefaultF2mLookupTable : Object
 {
+    public object m_outer;
+    public object m_table;
+    public object m_size;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x31D5D40
     public void get_Size(){} // RVA: 0xFEAE90
@@ -303,6 +398,10 @@ public class DefaultF2mLookupTable : Object
 
 public class DefaultLookupTable : Object
 {
+    public object m_outer;
+    public object m_table;
+    public object m_size;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x31D5D40
     public void get_Size(){} // RVA: 0xFEAE90
@@ -311,6 +410,8 @@ public class DefaultLookupTable : Object
 
 public class DefaultRuntimeFactory : Object
 {
+    public object Default;
+
     // ── Methods ──
     public void CreateGameObject(){} // RVA: 0x7E36320
     public void .ctor(){} // RVA: 0xB43310
@@ -319,6 +420,10 @@ public class DefaultRuntimeFactory : Object
 
 public class DeferPromise : Object
 {
+    public object factory;
+    public object task;
+    public object awaiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetResult(){} // RVA: 0x7756C20
@@ -329,6 +434,11 @@ public class DeferPromise : Object
 
 public class DeferPromiseWithState`1 : Object
 {
+    public object factory;
+    public object argument;
+    public object task;
+    public object awaiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void GetResult(){} // RVA: 0x894470
@@ -339,6 +449,11 @@ public class DeferPromiseWithState`1 : Object
 
 public class DeferPromiseWithState`2 : Object
 {
+    public object factory;
+    public object argument;
+    public object task;
+    public object awaiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void GetResult(){} // RVA: 0xA94080
@@ -350,6 +465,10 @@ public class DeferPromiseWithState`2 : Object
 
 public class DeferPromise`1 : Object
 {
+    public object factory;
+    public object task;
+    public object awaiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetResult(){} // RVA: 0xA94080
@@ -386,23 +505,13 @@ public class DeflateOutputStream : ZOutputStream
     public void Flush(){} // RVA: 0xB43310
 }
 
-public class DelayFramePromise : Object
-{
-    // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x4865E00
-    public void .cctor(){} // RVA: 0x7753B50
-    public void .ctor(){} // RVA: 0xB43310
-    public void Create(){} // RVA: 0x7753C90
-    public void GetResult(){} // RVA: 0x77540B0
-    public void GetStatus(){} // RVA: 0x7754250
-    public void UnsafeGetStatus(){} // RVA: 0x77542A0
-    public void OnCompleted(){} // RVA: 0x77542E0
-    public void MoveNext(){} // RVA: 0x7754360
-    public void TryReturn(){} // RVA: 0x7754480
-}
-
 public class Delegate : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object delegate_;
+    public object delegateCase_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x655ED80
     public void get_Descriptor(){} // RVA: 0x655EDE0
@@ -432,6 +541,14 @@ public class Delegate : Object
 
 public class DelegateEntry : Object
 {
+    public object type;
+    public object assembly;
+    public object target;
+    public object targetTypeAssembly;
+    public object targetTypeName;
+    public object methodName;
+    public object delegateEntry;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x697D190
     public void DeserializeDelegate(){} // RVA: 0x697D570
@@ -453,6 +570,12 @@ public class DeletionCallback : MulticastDelegate
 
 public class DepthOrderedDirtyTracking : ValueType
 {
+    public object heads;
+    public object tails;
+    public object minDepths;
+    public object maxDepths;
+    public object dirtyID;
+
     // ── Methods ──
     public void EnsureFits(){} // RVA: 0x99DE90
     public void RegisterDirty(){} // RVA: 0x99DEA0
@@ -469,6 +592,14 @@ public class DerComparer : Object
 
 public class DeriveBytes : Object
 {
+    public object keyDiversifier;
+    public object ivDiversifier;
+    public object macDiversifier;
+    public object _hashName;
+    public object _iterations;
+    public object _password;
+    public object _salt;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void set_HashName(){} // RVA: 0xB44D60
@@ -577,6 +708,8 @@ public class Development : Object
 
 public class DeviceBuilder : ValueType
 {
+    public object _device;
+
     // ── Methods ──
     public void get_device(){} // RVA: 0x77900
     public void set_device(){} // RVA: 0x47F10
@@ -599,6 +732,24 @@ public class DeviceConnectedChangeHandler : MulticastDelegate
     // ── Methods ──
     public void .ctor(){} // RVA: 0x40E2370
     public void Invoke(){} // RVA: 0xCA8D60
+    public void BeginInvoke(){} // RVA: 0x6F19220
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class DeviceConnectedChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E01E0
+    public void Invoke(){} // RVA: 0xCA8BF0
+    public void BeginInvoke(){} // RVA: 0x6C4D960
+    public void EndInvoke(){} // RVA: 0xB44BE0
+}
+
+public class DeviceConnectedChangeHandler : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x40E2370
+    public void Invoke(){} // RVA: 0xCA8D60
     public void BeginInvoke(){} // RVA: 0x6F47EA0
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
@@ -614,6 +765,12 @@ public class DeviceIndexChangedHandler : MulticastDelegate
 
 public class DeviceInfo : ValueType
 {
+    public object m_DeviceId;
+    public object m_Layout;
+    public object m_StateFormat;
+    public object m_StateSizeInBytes;
+    public object m_FullLayoutJson;
+
     // ── Methods ──
     public void get_deviceId(){} // RVA: 0x77E60
     public void set_deviceId(){} // RVA: 0x29580
@@ -639,6 +796,10 @@ public class DeviceRegainedEvent : UnityEvent`1
 
 public class DeviceToFree : ValueType
 {
+    public object handle;
+    public object page;
+    public object commandLists;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x99CB30
 }
@@ -673,18 +834,40 @@ public class DictationResultDelegate : MulticastDelegate
 
 public class DictionaryEnumerator : Object
 {
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEF40
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void MoveNext(){} // RVA: 0x87D280
+    public void Reset(){} // RVA: 0x894290
+    public void get_Current(){} // RVA: 0x87C0A0
+    public void get_Entry(){} // RVA: 0x87BEB0
+    public void get_Key(){} // RVA: 0x87C0A0
+    public void get_Value(){} // RVA: 0x87C0A0
+}
+
+public class DictionaryEnumerator : Object
+{
+    public object _enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BEA30
 }
 
 public class DictionaryEnumerator : Object
 {
+    public object _methodDictionary;
+    public object _hashtableEnum;
+    public object _posMethod;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6778D90
     public void get_Current(){} // RVA: 0x6778EC0
@@ -697,6 +880,8 @@ public class DictionaryEnumerator : Object
 
 public class DictionaryEnumerator`2 : ValueType
 {
+    public object _e;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Entry(){} // RVA: 0x87BEB0
@@ -709,6 +894,8 @@ public class DictionaryEnumerator`2 : ValueType
 
 public class DictionaryEnumerator`2 : ValueType
 {
+    public object _e;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Entry(){} // RVA: 0x87BEB0
@@ -721,6 +908,10 @@ public class DictionaryEnumerator`2 : ValueType
 
 public class DictionaryIterator`2 : ValueType
 {
+    public object dictionary;
+    public object enumerator;
+    public object isNull;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -731,12 +922,18 @@ public class DictionaryIterator`2 : ValueType
 
 public class DictionaryPoolImpl`2 : Object
 {
+    public object Pool;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x8942F0
 }
 
 public class DictionaryValueIterator`2 : ValueType
 {
+    public object dictionary;
+    public object enumerator;
+    public object isNull;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -747,6 +944,8 @@ public class DictionaryValueIterator`2 : ValueType
 
 public class DigStream : BaseOutputStream
 {
+    public object d;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA1C37F0
     public void WriteByte(){} // RVA: 0xA1C3890
@@ -755,6 +954,9 @@ public class DigStream : BaseOutputStream
 
 public class DigestAndSignerInfoGeneratorHolder : Object
 {
+    public object signerInf;
+    public object digestOID;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void get_DigestAlgorithm(){} // RVA: 0xA34C9E0
@@ -766,15 +968,11 @@ public class DisconnectMsg : Object
     public void Process(){} // RVA: 0x78B6BD0
 }
 
-public class Discord_FreeFn : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB9DF20
-    public void Invoke(){} // RVA: 0xB9E010
-}
-
 public class Display : ATypeName
 {
+    public object displayName;
+    public object internal_name;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4708100
     public void get_DisplayName(){} // RVA: 0xB5DBF0
@@ -784,6 +982,9 @@ public class Display : ATypeName
 
 public class DisplayNameOptions : ValueType
 {
+    public object _fullName;
+    public object _includeGenericParameterNames;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3FD0
     public void get_FullName(){} // RVA: 0x90520
@@ -792,6 +993,11 @@ public class DisplayNameOptions : ValueType
 
 public class DisplayNameOptions : ValueType
 {
+    public object _fullName;
+    public object _includeGenericParameters;
+    public object _includeGenericParameterNames;
+    public object _nestedTypeDelimiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8A9030
     public void get_FullName(){} // RVA: 0x90520
@@ -802,6 +1008,11 @@ public class DisplayNameOptions : ValueType
 
 public class DisplayNameOptions : ValueType
 {
+    public object _fullName;
+    public object _includeGenericParameters;
+    public object _includeGenericParameterNames;
+    public object _nestedTypeDelimiter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8A9030
     public void get_FullName(){} // RVA: 0x90520
@@ -810,8 +1021,19 @@ public class DisplayNameOptions : ValueType
     public void get_NestedTypeDelimiter(){} // RVA: 0x360EF0
 }
 
+public class DisplaysUpdatedDelegate : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xBA0FE0
+    public void Invoke(){} // RVA: 0xBA10B0
+}
+
 public class DisposableData : CriticalDisposableObject
 {
+    public object _accessor;
+    public object _safeBuffer;
+    public object _pointer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D53A90
     public void Release(){} // RVA: 0x6D53C50
@@ -820,6 +1042,8 @@ public class DisposableData : CriticalDisposableObject
 
 public class DisposableData : CriticalDisposableObject
 {
+    public object _pointer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D53F50
     public void Release(){} // RVA: 0x6D54050
@@ -828,6 +1052,8 @@ public class DisposableData : CriticalDisposableObject
 
 public class DisposableObserver : Object
 {
+    public object observer;
+
     // ── Methods ──
     public void Dispose(){} // RVA: 0x792AF10
     public void .ctor(){} // RVA: 0xB43310
@@ -835,6 +1061,8 @@ public class DisposableObserver : Object
 
 public class DisposeHandle : Object
 {
+    public object _localHub;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void Dispose(){} // RVA: 0x6E219C0
@@ -848,6 +1076,8 @@ public class DnQualifier : AttributeTypeAndValue
 
 public class Domain : ApiModel
 {
+    public object _domain;
+
     // ── Methods ──
     public void get_domain(){} // RVA: 0xBBFF90
     public void set_domain(){} // RVA: 0xBBFFA0
@@ -862,6 +1092,9 @@ public class DomainComponent : AttributeTypeAndValue
 
 public class DoubleBuffers : ValueType
 {
+    public object deviceToBufferMapping;
+    public object deviceCount;
+
     // ── Methods ──
     public void get_valid(){} // RVA: 0x311760
     public void SetFrontBuffer(){} // RVA: 0x93CB00
@@ -911,12 +1144,21 @@ public class DoublePoint[] : Array
 
 public class DownloadContext : Object
 {
+    public object OnSuccess;
+    public object OnError;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
 }
 
 public class DragPosition : ValueType
 {
+    public object insertAtIndex;
+    public object parentId;
+    public object childIndex;
+    public object recycledItem;
+    public object dropPosition;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x9A4E80
     public void GetHashCode(){} // RVA: 0x9A4F80
@@ -931,6 +1173,12 @@ public class Drone : Object
 
 public class DropData : Object
 {
+    public object expandedIdsBeforeDrag;
+    public object draggedIds;
+    public object lastItemId;
+    public object expandItemBeginTimerMs;
+    public object expandItemBeginPosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3928BD0
 }
@@ -943,6 +1191,32 @@ public class DropdownEvent : UnityEvent`1
 
 public class DropdownItem : MonoBehaviour
 {
+    public object m_Text;
+    public object m_Image;
+    public object m_RectTransform;
+    public object m_Toggle;
+
+    // ── Methods ──
+    public void get_text(){} // RVA: 0xB700F0
+    public void set_text(){} // RVA: 0xB70100
+    public void get_image(){} // RVA: 0xB70160
+    public void set_image(){} // RVA: 0xB44DC0
+    public void get_rectTransform(){} // RVA: 0xD33E60
+    public void set_rectTransform(){} // RVA: 0xB708C0
+    public void get_toggle(){} // RVA: 0xD05CA0
+    public void set_toggle(){} // RVA: 0xD09D70
+    public void OnPointerEnter(){} // RVA: 0x7E3BF00
+    public void OnCancel(){} // RVA: 0x7E3BF80
+    public void .ctor(){} // RVA: 0xB43D60
+}
+
+public class DropdownItem : MonoBehaviour
+{
+    public object m_Text;
+    public object m_Image;
+    public object m_RectTransform;
+    public object m_Toggle;
+
     // ── Methods ──
     public void get_text(){} // RVA: 0xB700F0
     public void set_text(){} // RVA: 0xB70100
@@ -999,18 +1273,45 @@ public class DropdownItem[] : Array
 
 public class DualSenseHIDBluetoothInputReport : ValueType
 {
+    public object ExpectedReportId;
+    public object reportId;
+    public object leftStickX;
+    public object leftStickY;
+    public object rightStickX;
+    public object rightStickY;
+    public object leftTrigger;
+    public object rightTrigger;
+    public object buttons0;
+    public object buttons1;
+    public object buttons2;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x939E30
 }
 
 public class DualSenseHIDGenericInputReport : ValueType
 {
+    public object reportId;
+
     // ── Methods ──
     public void get_Format(){} // RVA: 0x790C340
 }
 
 public class DualSenseHIDMinimalInputReport : ValueType
 {
+    public object ExpectedSize1;
+    public object ExpectedSize2;
+    public object reportId;
+    public object leftStickX;
+    public object leftStickY;
+    public object rightStickX;
+    public object rightStickY;
+    public object buttons0;
+    public object buttons1;
+    public object buttons2;
+    public object leftTrigger;
+    public object rightTrigger;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x939E90
     public void .cctor(){} // RVA: 0x7924D10
@@ -1018,39 +1319,47 @@ public class DualSenseHIDMinimalInputReport : ValueType
 
 public class DualSenseHIDUSBInputReport : ValueType
 {
+    public object ExpectedReportId;
+    public object reportId;
+    public object leftStickX;
+    public object leftStickY;
+    public object rightStickX;
+    public object rightStickY;
+    public object leftTrigger;
+    public object rightTrigger;
+    public object buttons0;
+    public object buttons1;
+    public object buttons2;
+
     // ── Methods ──
     public void ToHIDInputReport(){} // RVA: 0x939DD0
 }
 
 public class DualShock4HIDGenericInputReport : ValueType
 {
+    public object leftStickX;
+    public object leftStickY;
+    public object rightStickX;
+    public object rightStickY;
+    public object buttons0;
+    public object buttons1;
+    public object buttons2;
+    public object leftTrigger;
+    public object rightTrigger;
+
     // ── Methods ──
     public void get_Format(){} // RVA: 0x790C340
     public void ToHIDInputReport(){} // RVA: 0x939EF0
 }
 
-public class DynamicBone[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class DynamicCallbackList : ValueType
 {
+    public object m_UseTrickleDown;
+    public object m_Callbacks;
+    public object m_TemporaryCallbacks;
+    public object m_UnregisteredCallbacksDuringInvoke;
+    public object m_IsInvoking;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x80596E0
     public void GetCallbackListForWriting(){} // RVA: 0x9A53F0
@@ -1063,6 +1372,9 @@ public class DynamicCallbackList : ValueType
 
 public class DynamicPropertyReg : Object
 {
+    public object Property;
+    public object Sink;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }

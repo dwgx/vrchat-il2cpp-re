@@ -7,55 +7,80 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Interactions
 {
     public class HoldInteraction : Object
     {
+        public object duration;
+        public object pressPoint;
+        public object m_TimePressed;
+
         // ── Methods ──
-        public void get_durationOrDefault(){} // RVA: 0x7AEBB60A0
-        public void get_pressPointOrDefault(){} // RVA: 0x7AEBB6120
-        public void Process(){} // RVA: 0x7AEBB6180
-        public void Reset(){} // RVA: 0x7A9ABB7F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_durationOrDefault(){} // RVA: 0x78258A0
+        public void get_pressPointOrDefault(){} // RVA: 0x7825920
+        public void Process(){} // RVA: 0x7825980
+        public void Reset(){} // RVA: 0x2566C40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MultiTapInteraction : Object
     {
+        public object tapTime;
+        public object tapDelay;
+        public object tapCount;
+        public object pressPoint;
+        public object m_CurrentTapPhase;
+        public object m_CurrentTapCount;
+        public object m_CurrentTapStartTime;
+        public object m_LastTapReleaseTime;
+
         // ── Methods ──
-        public void get_tapTimeOrDefault(){} // RVA: 0x7AEBB6310
-        public void get_tapDelayOrDefault(){} // RVA: 0x7AEBB6390
-        public void get_pressPointOrDefault(){} // RVA: 0x7AEBB6410
-        public void get_releasePointOrDefault(){} // RVA: 0x7AEBB6470
-        public void Process(){} // RVA: 0x7AEBB64F0
-        public void Reset(){} // RVA: 0x7AEBB67B0
-        public void .ctor(){} // RVA: 0x7AEBB67C0
+        public void get_tapTimeOrDefault(){} // RVA: 0x7825B10
+        public void get_tapDelayOrDefault(){} // RVA: 0x7825B90
+        public void get_pressPointOrDefault(){} // RVA: 0x7825C10
+        public void get_releasePointOrDefault(){} // RVA: 0x7825C70
+        public void Process(){} // RVA: 0x7825CF0
+        public void Reset(){} // RVA: 0x7825FB0
+        public void .ctor(){} // RVA: 0x7825FC0
     }
 
     public class PressInteraction : Object
     {
+        public object pressPoint;
+        public object behavior;
+        public object m_WaitingForRelease;
+
         // ── Methods ──
-        public void get_pressPointOrDefault(){} // RVA: 0x7AEBB67D0
-        public void get_releasePointOrDefault(){} // RVA: 0x7AEBB6830
-        public void Process(){} // RVA: 0x7AEBB68B0
-        public void Reset(){} // RVA: 0x7AEBB6B10
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_pressPointOrDefault(){} // RVA: 0x7825FD0
+        public void get_releasePointOrDefault(){} // RVA: 0x7826030
+        public void Process(){} // RVA: 0x78260B0
+        public void Reset(){} // RVA: 0x7826310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class SlowTapInteraction : Object
     {
+        public object duration;
+        public object pressPoint;
+        public object m_SlowTapStartTime;
+
         // ── Methods ──
-        public void get_durationOrDefault(){} // RVA: 0x7AEBB6B20
-        public void get_pressPointOrDefault(){} // RVA: 0x7AEBB6BA0
-        public void Process(){} // RVA: 0x7AEBB6C00
-        public void Reset(){} // RVA: 0x7A9ABB7F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_durationOrDefault(){} // RVA: 0x7826320
+        public void get_pressPointOrDefault(){} // RVA: 0x78263A0
+        public void Process(){} // RVA: 0x7826400
+        public void Reset(){} // RVA: 0x2566C40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TapInteraction : Object
     {
+        public object duration;
+        public object pressPoint;
+        public object m_TapStartTime;
+
         // ── Methods ──
-        public void get_durationOrDefault(){} // RVA: 0x7AEBB6DD0
-        public void get_pressPointOrDefault(){} // RVA: 0x7AEBB6E50
-        public void get_releasePointOrDefault(){} // RVA: 0x7AEBB6EB0
-        public void Process(){} // RVA: 0x7AEBB6F30
-        public void Reset(){} // RVA: 0x7A9ABB7F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_durationOrDefault(){} // RVA: 0x78265D0
+        public void get_pressPointOrDefault(){} // RVA: 0x7826650
+        public void get_releasePointOrDefault(){} // RVA: 0x78266B0
+        public void Process(){} // RVA: 0x7826730
+        public void Reset(){} // RVA: 0x2566C40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

@@ -7,6 +7,9 @@ namespace VRC
 {
     public class AssetCache : Object
     {
+        public object _assetCache;
+        public object _assetCache2;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2499710
         public void Equals(){} // RVA: 0x2499770
@@ -29,6 +32,14 @@ namespace VRC
 
     public class BackgroundOption : Object
     {
+        public object _id;
+        public object _backgroundName;
+        public object _materialName;
+        public object _preview;
+        public object _isVRCPlus;
+        public object _loadedMaterial;
+        public object _type;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xC00EC0
         public void .ctor(){} // RVA: 0xB43310
@@ -72,6 +83,8 @@ namespace VRC
 
     public class BackgroundOptions : ScriptableObject
     {
+        public object _options;
+
         // ── Methods ──
         public void set_Options(){} // RVA: 0xB465B0
         public void .ctor(){} // RVA: 0xDD1AC0
@@ -85,6 +98,8 @@ namespace VRC
 
     public class ClientPlayerLoop : Object
     {
+        public object _clientPlayerLoop;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x246D390
         public void Equals(){} // RVA: 0x246D4A0
@@ -95,6 +110,16 @@ namespace VRC
 
     public class FileSizeUnitExtensions : Object
     {
+        public object UnitPostfixB;
+        public object UnitPostfixKB;
+        public object UnitPostfixMB;
+        public object UnitPostfixGB;
+        public object UnitPostfixTB;
+        public object KBInBytes;
+        public object MBInBytes;
+        public object GBInBytes;
+        public object TBInBytes;
+
         // ── Methods ──
         public void TryParse(){} // RVA: 0xA70BC20
         public void GetUnitSize(){} // RVA: 0xA70BE70
@@ -103,6 +128,8 @@ namespace VRC
 
     public class GiftDisplayReferences : ScriptableObject
     {
+        public object giftDisplayReferences;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x2452230
         public void CreateInstance(){} // RVA: 0x24522D0
@@ -115,6 +142,8 @@ namespace VRC
 
     public class HttpRequest : Object
     {
+        public object InternalRequest;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Abort(){} // RVA: 0xA4F3FE0
@@ -122,6 +151,19 @@ namespace VRC
 
     public class IMDraw : MonoBehaviour
     {
+        public object line2D;
+        public object line3D;
+        public object sphere;
+        public object cone;
+        public object MaxBuffer;
+        public object Color;
+        public object Alpha;
+        public object LineWidth;
+        public object DEFAULT_LINE_WIDTH;
+        public object Layer;
+        public object ClearEachFrame;
+        public object DrawToMainCamera;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x830E8A0
         public void OnDestroy(){} // RVA: 0x830EAC0
@@ -145,6 +187,11 @@ namespace VRC
 
     public class InputLatencyTracker : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x246D9D0
         public void Equals(){} // RVA: 0x246DBA0
@@ -166,12 +213,25 @@ namespace VRC
 
     public class StickerCollectionPrefab : ScriptableObject
     {
+        public object icon;
+        public object stickers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xDD1AC0
     }
 
     public class StickerPrefab : ScriptableObject
     {
+        public object texture;
+        public object isAnimated;
+        public object frames;
+        public object fps;
+        public object loopStyle;
+        public object f_93A;
+        public object f_0E0;
+        public object f_3F1;
+        public object f_89B;
+
         // ── Methods ──
         public void set_MaskTag(){} // RVA: 0x24666E0
         public void CreateInstance(){} // RVA: 0x15AF000
@@ -190,8 +250,8 @@ namespace VRC
         public void get_FileId(){} // RVA: 0xDAC980
         public void get_IsAnimated(){} // RVA: 0xC38360
         public void set_IsAnimated(){} // RVA: 0xC2E4C0
-        public void set_LoopStyle(){} // RVA: 0xD09D70
-        public void set_Frames(){} // RVA: 0x2466B40
+        public void set_FileId(){} // RVA: 0xD09D70
+        public void set_LoopStyle(){} // RVA: 0x2466B40
         public void get_Sprite(){} // RVA: 0xD05CA0
         public void get_LoopStyle(){} // RVA: 0xD33E60
         public void get_Frames(){} // RVA: 0x15AF000
@@ -226,6 +286,10 @@ namespace VRC
 
     public class SystemsPlayerLoop : Object
     {
+        public object _initialized;
+        public object OnAvatarClone;
+        public object OnAvatarHeadChop;
+
         // ── Methods ──
         public void add_OnAvatarClone(){} // RVA: 0xA4EDD90
         public void remove_OnAvatarClone(){} // RVA: 0xA4EDEA0
@@ -242,6 +306,14 @@ namespace VRC
 
     public class Tools : Object
     {
+        public object _isClient;
+        public object _gameServerVersion;
+        public object _clientVersion;
+        public object _sdkVersion;
+        public object _unityVersion;
+        public object _platform;
+        public object random;
+
         // ── Methods ──
         public void get_isClient(){} // RVA: 0xA4EF640
         public void SetGameServerVersion(){} // RVA: 0xA4EF6C0
@@ -292,6 +364,11 @@ namespace VRC
 
     public class VRCFastCrypto : Object
     {
+        public object NATIVE_LIB;
+        public object publicKeyLength;
+        public object secretKeyLength;
+        public object signatureLength;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xA4EEBF0
         public void GetSizes(){} // RVA: 0xA4EEC70
@@ -302,6 +379,11 @@ namespace VRC
 
     public class VRCFastCrypto_Client : Object
     {
+        public object NATIVE_LIB;
+        public object publicKeyLength;
+        public object secretKeyLength;
+        public object signatureLength;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x833D4F0
         public void GetSizes(){} // RVA: 0x833D570
@@ -312,6 +394,20 @@ namespace VRC
 
     public class ValidationHelpers : Object
     {
+        public object BYTES_TO_MB;
+        public object CONTENT_WORLD_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_WORLD_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_AVATAR_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_AVATAR_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_PROP_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_PROP_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_PC;
+        public object CONTENT_WORLD_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+        public object CONTENT_WORLD_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+        public object CONTENT_AVATAR_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+        public object CONTENT_AVATAR_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+        public object CONTENT_PROP_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+        public object CONTENT_PROP_UNCOMPRESSED_ASSET_BUNDLE_SIZE_LIMIT_MOBILE;
+
         // ── Methods ──
         public void GetAssetBundleSizeLimit(){} // RVA: 0xA70C0B0
         public void GetAssetBundleOverSizeLimitMessage(){} // RVA: 0xA70C170

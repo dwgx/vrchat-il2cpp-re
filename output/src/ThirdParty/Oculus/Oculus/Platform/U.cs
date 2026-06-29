@@ -20,6 +20,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class UserOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B51DB0
         public void SetMaxUsers(){} // RVA: 0x6B51E60

@@ -36,6 +36,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MatchTargetWeightMask : ValueType
     {
+        public object m_PositionXYZWeight;
+        public object m_RotationWeight;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DEC70
         public void get_positionXYZWeight(){} // RVA: 0x45A590
@@ -46,6 +49,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Material : Object
     {
+        public object k_ColorId;
+        public object k_MainTexId;
+
         // ── Methods ──
         public void CreateWithShader(){} // RVA: 0x7B9AF90
         public void CreateWithMaterial(){} // RVA: 0x7B9B090
@@ -273,6 +279,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MaterialPropertyBlock : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void GetIntImpl(){} // RVA: 0x7B8A6E0
         public void GetFloatImpl(){} // RVA: 0x7B8A760
@@ -437,6 +445,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Mathf : ValueType
     {
+        public object Epsilon;
+
         // ── Methods ──
         public void GammaToLinearSpace(){} // RVA: 0x7BE9FC0
         public void LinearToGammaSpace(){} // RVA: 0x7BEA020
@@ -498,6 +508,25 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Matrix4x4 : ValueType
     {
+        public object m00;
+        public object m10;
+        public object m20;
+        public object m30;
+        public object m01;
+        public object m11;
+        public object m21;
+        public object m31;
+        public object m02;
+        public object m12;
+        public object m22;
+        public object m32;
+        public object m03;
+        public object m13;
+        public object m23;
+        public object m33;
+        public object zeroMatrix;
+        public object identityMatrix;
+
         // ── Methods ──
         public void GetRotation(){} // RVA: 0x963E90
         public void GetLossyScale(){} // RVA: 0x963F10
@@ -963,12 +992,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MinAttribute : PropertyAttribute
     {
+        public object min;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EEF0
     }
 
     public class MipmapLimitDescriptor : ValueType
     {
+        public object _useMipmapLimit;
+        public object _groupName;
+
         // ── Methods ──
         public void get_useMipmapLimit(){} // RVA: 0x90520
         public void get_groupName(){} // RVA: 0x77ED0
@@ -982,6 +1016,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MonoBehaviour : Behaviour
     {
+        public object m_CancellationTokenSource;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7C03E80
         public void RaiseCancellation(){} // RVA: 0x7C040C0
@@ -1051,6 +1087,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Motion : Object
     {
+        public object _isAnimatorMotion;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B17DF0
         public void get_averageDuration(){} // RVA: 0x7B17E40
@@ -1069,6 +1107,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class MultilineAttribute : PropertyAttribute
     {
+        public object lines;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF23A0
     }

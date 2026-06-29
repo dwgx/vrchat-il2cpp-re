@@ -8,17 +8,17 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class ArrayBuilderExtensions : Object
     {
         // ── Methods ──
-        public void ToReadOnly(){} // RVA: 0x7A8051B10
+        public void ToReadOnly(){} // RVA: 0xA94080
     }
 
     public class AssignBinaryExpression : BinaryExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE39F430
-        public void Make(){} // RVA: 0x7AE39F440
-        public void get_IsByRef(){} // RVA: 0x7A80D7320
-        public void get_Type(){} // RVA: 0x7AE39F4D0
-        public void get_NodeType(){} // RVA: 0x7AE39F500
+        public void .ctor(){} // RVA: 0x701F630
+        public void Make(){} // RVA: 0x701F640
+        public void get_IsByRef(){} // RVA: 0xB43320
+        public void get_Type(){} // RVA: 0x701F6D0
+        public void get_NodeType(){} // RVA: 0x701F700
     }
 
 }

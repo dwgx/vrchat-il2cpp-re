@@ -8,318 +8,405 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
     public class DatagramTransport
     {
         // ── Methods ──
-        public void GetReceiveLimit(){} // RVA: 0x7A7E00710
-        public void GetSendLimit(){} // RVA: 0x7A7E00710
-        public void Receive(){} // RVA: 0x7A7E09B00
-        public void Send(){} // RVA: 0x7A7E1E220
-        public void Close(){} // RVA: 0x7A7E18770
+        public void GetReceiveLimit(){} // RVA: 0x87C130
+        public void GetSendLimit(){} // RVA: 0x87C130
+        public void Receive(){} // RVA: 0x8854C0
+        public void Send(){} // RVA: 0x89B9B0
+        public void Close(){} // RVA: 0x894290
     }
 
     public class DefaultTlsAgreementCredentials : AbstractTlsAgreementCredentials
     {
+        public object mCertificate;
+        public object mPrivateKey;
+        public object mBasicAgreement;
+        public object mTruncateAgreement;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1351DB0
-        public void get_Certificate(){} // RVA: 0x7A80F2570
-        public void GenerateAgreement(){} // RVA: 0x7B13520F0
+        public void .ctor(){} // RVA: 0xA1BD770
+        public void get_Certificate(){} // RVA: 0xB5DBF0
+        public void GenerateAgreement(){} // RVA: 0xA1BDAB0
     }
 
     public class DefaultTlsCipherFactory : AbstractTlsCipherFactory
     {
         // ── Methods ──
-        public void CreateCipher(){} // RVA: 0x7B13521B0
-        public void CreateAESCipher(){} // RVA: 0x7B1352510
-        public void CreateCamelliaCipher(){} // RVA: 0x7B1352620
-        public void CreateChaCha20Poly1305(){} // RVA: 0x7B1352730
-        public void CreateCipher_Aes_Ccm(){} // RVA: 0x7B1352790
-        public void CreateCipher_Aes_Gcm(){} // RVA: 0x7B1352860
-        public void CreateCipher_Aes_Ocb(){} // RVA: 0x7B1352930
-        public void CreateCipher_Camellia_Gcm(){} // RVA: 0x7B1352A00
-        public void CreateDesEdeCipher(){} // RVA: 0x7B1352AD0
-        public void CreateNullCipher(){} // RVA: 0x7B1352BE0
-        public void CreateRC4Cipher(){} // RVA: 0x7B1352CA0
-        public void CreateSeedCipher(){} // RVA: 0x7B1352DC0
-        public void CreateAesEngine(){} // RVA: 0x7B1352ED0
-        public void CreateCamelliaEngine(){} // RVA: 0x7B1352F10
-        public void CreateAesBlockCipher(){} // RVA: 0x7B1352F60
-        public void CreateAeadBlockCipher_Aes_Ccm(){} // RVA: 0x7B1352FE0
-        public void CreateAeadBlockCipher_Aes_Gcm(){} // RVA: 0x7B1353060
-        public void CreateAeadBlockCipher_Aes_Ocb(){} // RVA: 0x7B13530E0
-        public void CreateAeadBlockCipher_Camellia_Gcm(){} // RVA: 0x7B1353180
-        public void CreateCamelliaBlockCipher(){} // RVA: 0x7B1353200
-        public void CreateDesEdeBlockCipher(){} // RVA: 0x7B1353280
-        public void CreateRC4StreamCipher(){} // RVA: 0x7B1353330
-        public void CreateSeedBlockCipher(){} // RVA: 0x7B1353370
-        public void CreateHMacDigest(){} // RVA: 0x7B13533F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateCipher(){} // RVA: 0xA1BDB70
+        public void CreateAESCipher(){} // RVA: 0xA1BDED0
+        public void CreateCamelliaCipher(){} // RVA: 0xA1BDFE0
+        public void CreateChaCha20Poly1305(){} // RVA: 0xA1BE0F0
+        public void CreateCipher_Aes_Ccm(){} // RVA: 0xA1BE150
+        public void CreateCipher_Aes_Gcm(){} // RVA: 0xA1BE220
+        public void CreateCipher_Aes_Ocb(){} // RVA: 0xA1BE2F0
+        public void CreateCipher_Camellia_Gcm(){} // RVA: 0xA1BE3C0
+        public void CreateDesEdeCipher(){} // RVA: 0xA1BE490
+        public void CreateNullCipher(){} // RVA: 0xA1BE5A0
+        public void CreateRC4Cipher(){} // RVA: 0xA1BE660
+        public void CreateSeedCipher(){} // RVA: 0xA1BE780
+        public void CreateAesEngine(){} // RVA: 0xA1BE890
+        public void CreateCamelliaEngine(){} // RVA: 0xA1BE8D0
+        public void CreateAesBlockCipher(){} // RVA: 0xA1BE920
+        public void CreateAeadBlockCipher_Aes_Ccm(){} // RVA: 0xA1BE9A0
+        public void CreateAeadBlockCipher_Aes_Gcm(){} // RVA: 0xA1BEA20
+        public void CreateAeadBlockCipher_Aes_Ocb(){} // RVA: 0xA1BEAA0
+        public void CreateAeadBlockCipher_Camellia_Gcm(){} // RVA: 0xA1BEB40
+        public void CreateCamelliaBlockCipher(){} // RVA: 0xA1BEBC0
+        public void CreateDesEdeBlockCipher(){} // RVA: 0xA1BEC40
+        public void CreateRC4StreamCipher(){} // RVA: 0xA1BECF0
+        public void CreateSeedBlockCipher(){} // RVA: 0xA1BED30
+        public void CreateHMacDigest(){} // RVA: 0xA1BEDB0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DefaultTlsClient : AbstractTlsClient
     {
+        public object mDHVerifier;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13537A0
-        public void GetCipherSuites(){} // RVA: 0x7B1353850
-        public void GetKeyExchange(){} // RVA: 0x7B13538C0
-        public void CreateDHKeyExchange(){} // RVA: 0x7B1353A80
-        public void CreateDheKeyExchange(){} // RVA: 0x7B1353B10
-        public void CreateECDHKeyExchange(){} // RVA: 0x7B1353BA0
-        public void CreateECDheKeyExchange(){} // RVA: 0x7B1353C40
-        public void CreateRsaKeyExchange(){} // RVA: 0x7B1353CE0
+        public void .ctor(){} // RVA: 0xA1BF160
+        public void GetCipherSuites(){} // RVA: 0xA1BF210
+        public void GetKeyExchange(){} // RVA: 0xA1BF280
+        public void CreateDHKeyExchange(){} // RVA: 0xA1BF440
+        public void CreateDheKeyExchange(){} // RVA: 0xA1BF4D0
+        public void CreateECDHKeyExchange(){} // RVA: 0xA1BF560
+        public void CreateECDheKeyExchange(){} // RVA: 0xA1BF600
+        public void CreateRsaKeyExchange(){} // RVA: 0xA1BF6A0
     }
 
     public class DefaultTlsDHVerifier : Object
     {
+        public object DefaultMinimumPrimeBits;
+        public object DefaultGroups;
+        public object mGroups;
+        public object mMinimumPrimeBits;
+
         // ── Methods ──
-        public void AddDefaultGroup(){} // RVA: 0x7B1353D80
-        public void .cctor(){} // RVA: 0x7B1353E10
-        public void .ctor(){} // RVA: 0x7A9B6A000
-        public void Accept(){} // RVA: 0x7B1354700
-        public void get_MinimumPrimeBits(){} // RVA: 0x7A83782A0
-        public void AreGroupsEqual(){} // RVA: 0x7B1354760
-        public void AreParametersEqual(){} // RVA: 0x7B1354800
-        public void CheckGroup(){} // RVA: 0x7B1354840
-        public void CheckMinimumPrimeBits(){} // RVA: 0x7B1354A30
+        public void AddDefaultGroup(){} // RVA: 0xA1BF740
+        public void .cctor(){} // RVA: 0xA1BF7D0
+        public void .ctor(){} // RVA: 0x2615F10
+        public void Accept(){} // RVA: 0xA1C00C0
+        public void get_MinimumPrimeBits(){} // RVA: 0xE62D00
+        public void AreGroupsEqual(){} // RVA: 0xA1C0120
+        public void AreParametersEqual(){} // RVA: 0xA1C01C0
+        public void CheckGroup(){} // RVA: 0xA1C0200
+        public void CheckMinimumPrimeBits(){} // RVA: 0xA1C03F0
     }
 
     public class DefaultTlsEncryptionCredentials : AbstractTlsEncryptionCredentials
     {
+        public object mContext;
+        public object mCertificate;
+        public object mPrivateKey;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1354A90
-        public void get_Certificate(){} // RVA: 0x7A80DA7B0
-        public void DecryptPreMasterSecret(){} // RVA: 0x7B1354D50
+        public void .ctor(){} // RVA: 0xA1C0450
+        public void get_Certificate(){} // RVA: 0xB465B0
+        public void DecryptPreMasterSecret(){} // RVA: 0xA1C0710
     }
 
     public class DefaultTlsServer : AbstractTlsServer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void GetDsaSignerCredentials(){} // RVA: 0x7B1354DE0
-        public void GetECDsaSignerCredentials(){} // RVA: 0x7B1354E30
-        public void GetRsaEncryptionCredentials(){} // RVA: 0x7B1354E80
-        public void GetRsaSignerCredentials(){} // RVA: 0x7B1354ED0
-        public void GetDHParameters(){} // RVA: 0x7B1354F20
-        public void GetCipherSuites(){} // RVA: 0x7B1354F80
-        public void GetCredentials(){} // RVA: 0x7B1354FF0
-        public void GetKeyExchange(){} // RVA: 0x7B1355160
-        public void CreateDHKeyExchange(){} // RVA: 0x7B1355320
-        public void CreateDheKeyExchange(){} // RVA: 0x7B13553C0
-        public void CreateECDHKeyExchange(){} // RVA: 0x7B1355460
-        public void CreateECDheKeyExchange(){} // RVA: 0x7B1355500
-        public void CreateRsaKeyExchange(){} // RVA: 0x7B13555A0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void GetDsaSignerCredentials(){} // RVA: 0xA1C07A0
+        public void GetECDsaSignerCredentials(){} // RVA: 0xA1C07F0
+        public void GetRsaEncryptionCredentials(){} // RVA: 0xA1C0840
+        public void GetRsaSignerCredentials(){} // RVA: 0xA1C0890
+        public void GetDHParameters(){} // RVA: 0xA1C08E0
+        public void GetCipherSuites(){} // RVA: 0xA1C0940
+        public void GetCredentials(){} // RVA: 0xA1C09B0
+        public void GetKeyExchange(){} // RVA: 0xA1C0B20
+        public void CreateDHKeyExchange(){} // RVA: 0xA1C0CE0
+        public void CreateDheKeyExchange(){} // RVA: 0xA1C0D80
+        public void CreateECDHKeyExchange(){} // RVA: 0xA1C0E20
+        public void CreateECDheKeyExchange(){} // RVA: 0xA1C0EC0
+        public void CreateRsaKeyExchange(){} // RVA: 0xA1C0F60
     }
 
     public class DefaultTlsSignerCredentials : AbstractTlsSignerCredentials
     {
+        public object mContext;
+        public object mCertificate;
+        public object mPrivateKey;
+        public object mSignatureAndHashAlgorithm;
+        public object mSigner;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1355660
-        public void get_Certificate(){} // RVA: 0x7A80DA7B0
-        public void GenerateCertificateSignature(){} // RVA: 0x7B1355AE0
-        public void get_SignatureAndHashAlgorithm(){} // RVA: 0x7A8105330
+        public void .ctor(){} // RVA: 0xA1C1020
+        public void get_Certificate(){} // RVA: 0xB465B0
+        public void GenerateCertificateSignature(){} // RVA: 0xA1C14A0
+        public void get_SignatureAndHashAlgorithm(){} // RVA: 0xB70160
     }
 
     public class DefaultTlsSrpGroupVerifier : Object
     {
+        public object DefaultGroups;
+        public object mGroups;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7B1355CF0
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void Accept(){} // RVA: 0x7B1356080
-        public void AreGroupsEqual(){} // RVA: 0x7B1356250
-        public void AreParametersEqual(){} // RVA: 0x7B1354800
+        public void .cctor(){} // RVA: 0xA1C16B0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void Accept(){} // RVA: 0xA1C1A40
+        public void AreGroupsEqual(){} // RVA: 0xA1C1C10
+        public void AreParametersEqual(){} // RVA: 0xA1C01C0
     }
 
     public class DeferredHash : Object
     {
+        public object BUFFERING_HASH_LIMIT;
+        public object mContext;
+        public object mBuf;
+        public object mHashes;
+        public object mPrfHashAlgorithm;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1356480
-        public void Init(){} // RVA: 0x7A80D8E20
-        public void NotifyPrfDetermined(){} // RVA: 0x7B1356650
-        public void TrackHashAlgorithm(){} // RVA: 0x7B13567A0
-        public void SealHashAlgorithms(){} // RVA: 0x7B1356820
-        public void StopTracking(){} // RVA: 0x7B1356840
-        public void ForkPrfHash(){} // RVA: 0x7B1356B40
-        public void GetFinalHash(){} // RVA: 0x7B1356CC0
-        public void get_AlgorithmName(){} // RVA: 0x7B1356EA0
-        public void GetByteLength(){} // RVA: 0x7B1356EF0
-        public void GetDigestSize(){} // RVA: 0x7B1356F40
-        public void Update(){} // RVA: 0x7B1356F90
-        public void BlockUpdate(){} // RVA: 0x7B13572C0
-        public void DoFinal(){} // RVA: 0x7B1357610
-        public void Reset(){} // RVA: 0x7B1357660
-        public void CheckStopBuffering(){} // RVA: 0x7B1357970
-        public void CheckTrackingHash(){} // RVA: 0x7B1357C70
+        public void .ctor(){} // RVA: 0xA1C1E40
+        public void Init(){} // RVA: 0xB44D60
+        public void NotifyPrfDetermined(){} // RVA: 0xA1C2000
+        public void TrackHashAlgorithm(){} // RVA: 0xA1C2150
+        public void SealHashAlgorithms(){} // RVA: 0xA1C21D0
+        public void StopTracking(){} // RVA: 0xA1C21F0
+        public void ForkPrfHash(){} // RVA: 0xA1C24D0
+        public void GetFinalHash(){} // RVA: 0xA1C2640
+        public void get_AlgorithmName(){} // RVA: 0xA1C2810
+        public void GetByteLength(){} // RVA: 0xA1C2860
+        public void GetDigestSize(){} // RVA: 0xA1C28B0
+        public void Update(){} // RVA: 0xA1C2900
+        public void BlockUpdate(){} // RVA: 0xA1C2C30
+        public void DoFinal(){} // RVA: 0xA1C2F80
+        public void Reset(){} // RVA: 0xA1C2FD0
+        public void CheckStopBuffering(){} // RVA: 0xA1C32E0
+        public void CheckTrackingHash(){} // RVA: 0xA1C35E0
     }
 
     public class DigestInputBuffer : MemoryStream
     {
         // ── Methods ──
-        public void UpdateDigest(){} // RVA: 0x7B1357D90
-        public void .ctor(){} // RVA: 0x7B1357E90
+        public void UpdateDigest(){} // RVA: 0xA1C36E0
+        public void .ctor(){} // RVA: 0xA1C37E0
     }
 
     public class DigitallySigned : Object
     {
+        public object mAlgorithm;
+        public object mSignature;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1358030
-        public void get_Algorithm(){} // RVA: 0x7A80F2570
-        public void get_Signature(){} // RVA: 0x7A80DA7B0
-        public void Encode(){} // RVA: 0x7B1358140
-        public void Parse(){} // RVA: 0x7B13581D0
+        public void .ctor(){} // RVA: 0xA1C3980
+        public void get_Algorithm(){} // RVA: 0xB5DBF0
+        public void get_Signature(){} // RVA: 0xB465B0
+        public void Encode(){} // RVA: 0xA1C3A90
+        public void Parse(){} // RVA: 0xA1C3B20
     }
 
     public class DtlsClientProtocol : DtlsProtocol
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13582A0
-        public void Connect(){} // RVA: 0x7B1358350
-        public void AbortClientHandshake(){} // RVA: 0x7B1358910
-        public void ClientHandshake(){} // RVA: 0x7B1358970
-        public void GenerateCertificateVerify(){} // RVA: 0x7B1359980
-        public void GenerateClientHello(){} // RVA: 0x7B1359A20
-        public void GenerateClientKeyExchange(){} // RVA: 0x7B135A2C0
-        public void InvalidateSession(){} // RVA: 0x7B135A370
-        public void ProcessCertificateRequest(){} // RVA: 0x7B135A4A0
-        public void ProcessCertificateStatus(){} // RVA: 0x7B135A650
-        public void ProcessHelloVerifyRequest(){} // RVA: 0x7B135A7E0
-        public void ProcessNewSessionTicket(){} // RVA: 0x7B135AAA0
-        public void ProcessServerCertificate(){} // RVA: 0x7B135ABC0
-        public void ProcessServerHello(){} // RVA: 0x7B135ADD0
-        public void ProcessServerKeyExchange(){} // RVA: 0x7B135B990
-        public void ProcessServerSupplementalData(){} // RVA: 0x7B135BAC0
-        public void ReportServerVersion(){} // RVA: 0x7B135BB70
-        public void PatchClientHelloWithCookie(){} // RVA: 0x7B135BC70
+        public void .ctor(){} // RVA: 0xA1C3BF0
+        public void Connect(){} // RVA: 0xA1C3CA0
+        public void AbortClientHandshake(){} // RVA: 0xA1C4260
+        public void ClientHandshake(){} // RVA: 0xA1C42C0
+        public void GenerateCertificateVerify(){} // RVA: 0xA1C52D0
+        public void GenerateClientHello(){} // RVA: 0xA1C5370
+        public void GenerateClientKeyExchange(){} // RVA: 0xA1C5C10
+        public void InvalidateSession(){} // RVA: 0xA1C5CC0
+        public void ProcessCertificateRequest(){} // RVA: 0xA1C5DF0
+        public void ProcessCertificateStatus(){} // RVA: 0xA1C5FA0
+        public void ProcessHelloVerifyRequest(){} // RVA: 0xA1C6130
+        public void ProcessNewSessionTicket(){} // RVA: 0xA1C63F0
+        public void ProcessServerCertificate(){} // RVA: 0xA1C6510
+        public void ProcessServerHello(){} // RVA: 0xA1C6720
+        public void ProcessServerKeyExchange(){} // RVA: 0xA1C72C0
+        public void ProcessServerSupplementalData(){} // RVA: 0xA1C73F0
+        public void ReportServerVersion(){} // RVA: 0xA1C74A0
+        public void PatchClientHelloWithCookie(){} // RVA: 0xA1C75A0
     }
 
     public class DtlsEpoch : Object
     {
+        public object mReplayWindow;
+        public object mEpoch;
+        public object mCipher;
+        public object mSequenceNumber;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B135BDC0
-        public void AllocateSequenceNumber(){} // RVA: 0x7B135BF80
-        public void get_Cipher(){} // RVA: 0x7A81052C0
-        public void get_Epoch(){} // RVA: 0x7A83782A0
-        public void get_ReplayWindow(){} // RVA: 0x7A80F2570
-        public void get_SequenceNumber(){} // RVA: 0x7B135C0F0
+        public void .ctor(){} // RVA: 0xA1C76F0
+        public void AllocateSequenceNumber(){} // RVA: 0xA1C78B0
+        public void get_Cipher(){} // RVA: 0xB700F0
+        public void get_Epoch(){} // RVA: 0xE62D00
+        public void get_ReplayWindow(){} // RVA: 0xB5DBF0
+        public void get_SequenceNumber(){} // RVA: 0xA1C7A20
     }
 
     public class DtlsHandshakeRetransmit
     {
         // ── Methods ──
-        public void ReceivedHandshakeRecord(){} // RVA: 0x7A7E1BAC0
+        public void ReceivedHandshakeRecord(){} // RVA: 0x897700
     }
 
     public class DtlsProtocol : Object
     {
+        public object mSecureRandom;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B13582A0
-        public void ProcessFinished(){} // RVA: 0x7B135C1F0
-        public void ApplyMaxFragmentLengthExtension(){} // RVA: 0x7B135C3F0
-        public void EvaluateMaxFragmentLengthExtension(){} // RVA: 0x7B135C490
-        public void GenerateCertificate(){} // RVA: 0x7B135C540
-        public void GenerateSupplementalData(){} // RVA: 0x7B135C5E0
-        public void ValidateSelectedCipherSuite(){} // RVA: 0x7B135C670
+        public void .ctor(){} // RVA: 0xA1C3BF0
+        public void ProcessFinished(){} // RVA: 0xA1C7B20
+        public void ApplyMaxFragmentLengthExtension(){} // RVA: 0xA1C7D20
+        public void EvaluateMaxFragmentLengthExtension(){} // RVA: 0xA1C7DC0
+        public void GenerateCertificate(){} // RVA: 0xA1C7E70
+        public void GenerateSupplementalData(){} // RVA: 0xA1C7F10
+        public void ValidateSelectedCipherSuite(){} // RVA: 0xA1C7FA0
     }
 
     public class DtlsReassembler : Object
     {
+        public object mMsgType;
+        public object mBody;
+        public object mMissing;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B135C710
-        public void get_MsgType(){} // RVA: 0x7A81A2200
-        public void GetBodyIfComplete(){} // RVA: 0x7B135C8E0
-        public void ContributeFragment(){} // RVA: 0x7B135C940
-        public void Reset(){} // RVA: 0x7B135CC80
+        public void .ctor(){} // RVA: 0xA1C8040
+        public void get_MsgType(){} // RVA: 0xC120A0
+        public void GetBodyIfComplete(){} // RVA: 0xA1C8210
+        public void ContributeFragment(){} // RVA: 0xA1C8270
+        public void Reset(){} // RVA: 0xA1C85B0
     }
 
     public class DtlsRecordLayer : Object
     {
+        public object RECORD_HEADER_LENGTH;
+        public object MAX_FRAGMENT_LENGTH;
+        public object TCP_MSL;
+        public object RETRANSMIT_TIMEOUT;
+        public object mTransport;
+        public object mContext;
+        public object mPeer;
+        public object mRecordQueue;
+        public object mClosed;
+        public object mFailed;
+        public object mReadVersion;
+        public object mWriteVersion;
+        public object mInHandshake;
+        public object mPlaintextLimit;
+        public object mCurrentEpoch;
+        public object mPendingEpoch;
+        public object mReadEpoch;
+        public object mWriteEpoch;
+        public object mRetransmit;
+        public object mRetransmitEpoch;
+        public object mRetransmitExpiry;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B135CD30
-        public void SetPlaintextLimit(){} // RVA: 0x7B135D0B0
-        public void get_ReadEpoch(){} // RVA: 0x7B135D0C0
-        public void get_ReadVersion(){} // RVA: 0x7B135D0E0
-        public void set_ReadVersion(){} // RVA: 0x7B135D0F0
-        public void SetWriteVersion(){} // RVA: 0x7AE2057F0
-        public void InitPendingEpoch(){} // RVA: 0x7B135D150
-        public void HandshakeSuccessful(){} // RVA: 0x7B135D260
-        public void ResetWriteEpoch(){} // RVA: 0x7B135D3F0
-        public void GetReceiveLimit(){} // RVA: 0x7B135D4C0
-        public void GetSendLimit(){} // RVA: 0x7B135D590
-        public void Receive(){} // RVA: 0x7B135D670
-        public void Send(){} // RVA: 0x7B135E090
-        public void Close(){} // RVA: 0x7B135E280
-        public void Failed(){} // RVA: 0x7B135E300
-        public void Fail(){} // RVA: 0x7B135E330
-        public void Warn(){} // RVA: 0x7B135E390
-        public void CloseTransport(){} // RVA: 0x7B135E3C0
-        public void RaiseAlert(){} // RVA: 0x7B135E460
-        public void ReceiveRecord(){} // RVA: 0x7B135E550
-        public void SendRecord(){} // RVA: 0x7B135E820
-        public void GetMacSequenceNumber(){} // RVA: 0x7B135EB70
+        public void .ctor(){} // RVA: 0xA1C8660
+        public void SetPlaintextLimit(){} // RVA: 0xA1C89E0
+        public void get_ReadEpoch(){} // RVA: 0xA1C89F0
+        public void get_ReadVersion(){} // RVA: 0xA1C8A10
+        public void set_ReadVersion(){} // RVA: 0xA1C8A20
+        public void SetWriteVersion(){} // RVA: 0x6E882F0
+        public void InitPendingEpoch(){} // RVA: 0xA1C8A80
+        public void HandshakeSuccessful(){} // RVA: 0xA1C8B90
+        public void ResetWriteEpoch(){} // RVA: 0xA1C8D20
+        public void GetReceiveLimit(){} // RVA: 0xA1C8DF0
+        public void GetSendLimit(){} // RVA: 0xA1C8EC0
+        public void Receive(){} // RVA: 0xA1C8FA0
+        public void Send(){} // RVA: 0xA1C99C0
+        public void Close(){} // RVA: 0xA1C9BB0
+        public void Failed(){} // RVA: 0xA1C9C30
+        public void Fail(){} // RVA: 0xA1C9C60
+        public void Warn(){} // RVA: 0xA1C9CC0
+        public void CloseTransport(){} // RVA: 0xA1C9CF0
+        public void RaiseAlert(){} // RVA: 0xA1C9D90
+        public void ReceiveRecord(){} // RVA: 0xA1C9E80
+        public void SendRecord(){} // RVA: 0xA1CA150
+        public void GetMacSequenceNumber(){} // RVA: 0xA1CA4A0
     }
 
     public class DtlsReliableHandshake : Object
     {
+        public object MaxReceiveAhead;
+        public object MessageHeaderLength;
+        public object mRecordLayer;
+        public object mHandshakeHash;
+        public object mCurrentInboundFlight;
+        public object mPreviousInboundFlight;
+        public object mOutboundFlight;
+        public object mSending;
+        public object mMessageSeq;
+        public object mNextReceiveSeq;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B135EB80
-        public void NotifyHelloComplete(){} // RVA: 0x7B135EE30
-        public void get_HandshakeHash(){} // RVA: 0x7A80DA7B0
-        public void PrepareToFinish(){} // RVA: 0x7B135EED0
-        public void SendMessage(){} // RVA: 0x7B135EF80
-        public void ReceiveMessageBody(){} // RVA: 0x7B135F110
-        public void ReceiveMessage(){} // RVA: 0x7B135F180
-        public void Finish(){} // RVA: 0x7B135F410
-        public void ResetHandshakeMessagesDigest(){} // RVA: 0x7B135F4F0
-        public void BackOff(){} // RVA: 0x7B135F540
-        public void CheckInboundFlight(){} // RVA: 0x7B135F5A0
-        public void GetPendingMessage(){} // RVA: 0x7B135F790
-        public void PrepareInboundFlight(){} // RVA: 0x7B135F9A0
-        public void ProcessRecord(){} // RVA: 0x7B135FA80
-        public void ResendOutboundFlight(){} // RVA: 0x7B135FF80
-        public void UpdateHandshakeMessagesDigest(){} // RVA: 0x7B13601B0
-        public void WriteMessage(){} // RVA: 0x7B13603B0
-        public void WriteHandshakeFragment(){} // RVA: 0x7B1360500
-        public void CheckAll(){} // RVA: 0x7B13607E0
-        public void ResetAll(){} // RVA: 0x7B1360A30
+        public void .ctor(){} // RVA: 0xA1CA4B0
+        public void NotifyHelloComplete(){} // RVA: 0xA1CA760
+        public void get_HandshakeHash(){} // RVA: 0xB465B0
+        public void PrepareToFinish(){} // RVA: 0xA1CA800
+        public void SendMessage(){} // RVA: 0xA1CA8B0
+        public void ReceiveMessageBody(){} // RVA: 0xA1CAA40
+        public void ReceiveMessage(){} // RVA: 0xA1CAAB0
+        public void Finish(){} // RVA: 0xA1CAD40
+        public void ResetHandshakeMessagesDigest(){} // RVA: 0xA1CAE20
+        public void BackOff(){} // RVA: 0xA1CAE70
+        public void CheckInboundFlight(){} // RVA: 0xA1CAED0
+        public void GetPendingMessage(){} // RVA: 0xA1CB0B0
+        public void PrepareInboundFlight(){} // RVA: 0xA1CB2B0
+        public void ProcessRecord(){} // RVA: 0xA1CB390
+        public void ResendOutboundFlight(){} // RVA: 0xA1CB880
+        public void UpdateHandshakeMessagesDigest(){} // RVA: 0xA1CBAB0
+        public void WriteMessage(){} // RVA: 0xA1CBCB0
+        public void WriteHandshakeFragment(){} // RVA: 0xA1CBE00
+        public void CheckAll(){} // RVA: 0xA1CC0E0
+        public void ResetAll(){} // RVA: 0xA1CC330
     }
 
     public class DtlsReplayWindow : Object
     {
+        public object VALID_SEQ_MASK;
+        public object WINDOW_SIZE;
+        public object mLatestConfirmedSeq;
+        public object mBitmap;
+
         // ── Methods ──
-        public void ShouldDiscard(){} // RVA: 0x7B1360EB0
-        public void ReportAuthenticated(){} // RVA: 0x7B1360F00
-        public void Reset(){} // RVA: 0x7B1360FF0
-        public void .ctor(){} // RVA: 0x7B1361010
+        public void ShouldDiscard(){} // RVA: 0xA1CC7B0
+        public void ReportAuthenticated(){} // RVA: 0xA1CC800
+        public void Reset(){} // RVA: 0xA1CC8F0
+        public void .ctor(){} // RVA: 0xA1CC910
     }
 
     public class DtlsServerProtocol : DtlsProtocol
     {
+        public object mVerifyRequests;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1361020
-        public void get_VerifyRequests(){} // RVA: 0x7A80F26D0
-        public void set_VerifyRequests(){} // RVA: 0x7A80F26E0
-        public void Accept(){} // RVA: 0x7B13610E0
-        public void AbortServerHandshake(){} // RVA: 0x7B1361620
-        public void ServerHandshake(){} // RVA: 0x7B1361680
-        public void InvalidateSession(){} // RVA: 0x7B1362220
-        public void GenerateCertificateRequest(){} // RVA: 0x7B1362350
-        public void GenerateCertificateStatus(){} // RVA: 0x7B13623F0
-        public void GenerateNewSessionTicket(){} // RVA: 0x7B1362490
-        public void GenerateServerHello(){} // RVA: 0x7B1362530
-        public void NotifyClientCertificate(){} // RVA: 0x7B1362DB0
-        public void ProcessClientCertificate(){} // RVA: 0x7B1362FD0
-        public void ProcessCertificateVerify(){} // RVA: 0x7B1363120
-        public void ProcessClientHello(){} // RVA: 0x7B1363580
-        public void ProcessClientKeyExchange(){} // RVA: 0x7B1363BF0
-        public void ProcessClientSupplementalData(){} // RVA: 0x7B1363D20
-        public void ExpectCertificateVerifyMessage(){} // RVA: 0x7B1363DD0
+        public void .ctor(){} // RVA: 0xA1CC920
+        public void get_VerifyRequests(){} // RVA: 0xB5DD50
+        public void set_VerifyRequests(){} // RVA: 0xB5DD60
+        public void Accept(){} // RVA: 0xA1CC9E0
+        public void AbortServerHandshake(){} // RVA: 0xA1CCF20
+        public void ServerHandshake(){} // RVA: 0xA1CCF80
+        public void InvalidateSession(){} // RVA: 0xA1CDB20
+        public void GenerateCertificateRequest(){} // RVA: 0xA1CDC50
+        public void GenerateCertificateStatus(){} // RVA: 0xA1CDCF0
+        public void GenerateNewSessionTicket(){} // RVA: 0xA1CDD90
+        public void GenerateServerHello(){} // RVA: 0xA1CDE30
+        public void NotifyClientCertificate(){} // RVA: 0xA1CE6A0
+        public void ProcessClientCertificate(){} // RVA: 0xA1CE8C0
+        public void ProcessCertificateVerify(){} // RVA: 0xA1CEA10
+        public void ProcessClientHello(){} // RVA: 0xA1CEE70
+        public void ProcessClientKeyExchange(){} // RVA: 0xA1CF4E0
+        public void ProcessClientSupplementalData(){} // RVA: 0xA1CF610
+        public void ExpectCertificateVerifyMessage(){} // RVA: 0xA1CF6C0
     }
 
     public class DtlsTransport : Object
     {
+        public object mRecordLayer;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void GetReceiveLimit(){} // RVA: 0x7A858AA20
-        public void GetSendLimit(){} // RVA: 0x7A858AC40
-        public void Receive(){} // RVA: 0x7B1363E60
-        public void Send(){} // RVA: 0x7B1363FE0
-        public void Close(){} // RVA: 0x7AE1E3E00
+        public void .ctor(){} // RVA: 0xB44D60
+        public void GetReceiveLimit(){} // RVA: 0x10ACFC0
+        public void GetSendLimit(){} // RVA: 0x10AC4B0
+        public void Receive(){} // RVA: 0xA1CF750
+        public void Send(){} // RVA: 0xA1CF8D0
+        public void Close(){} // RVA: 0x6E669C0
     }
 
 }

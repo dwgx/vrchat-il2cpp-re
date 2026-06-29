@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 737
+// Methods: 719
 
 public class BProperty : Property`2
 {
@@ -147,6 +147,14 @@ public class BackgroundSizeProperty : ResolvedBackgroundSizeProperty
 
 public class BakedSolution : Object
 {
+    public object m_FrustumSizeIntSpace;
+    public object m_AspectStretcher;
+    public object m_HasBones;
+    public object m_SqrPolygonDiagonal;
+    public object m_OriginalPolygon;
+    public object m_Solution;
+    public object k_ClipperEpsilon;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x25D3E10
     public void IsValid(){} // RVA: 0x25D3F40
@@ -161,6 +169,10 @@ public class BakedSolution : Object
 
 public class BasicEntropySource : Object
 {
+    public object mSecureRandom;
+    public object mPredictionResistant;
+    public object mEntropySize;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7BF5AE0
     public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant(){} // RVA: 0xB5DD50
@@ -170,6 +182,10 @@ public class BasicEntropySource : Object
 
 public class BendBone : Object
 {
+    public object transform;
+    public object weight;
+    public object defaultLocalRotation;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC230B0
     public void StoreDefaultLocalState(){} // RVA: 0xC23170
@@ -198,6 +214,18 @@ public class BendBone[] : Array
 
 public class BinaryMask : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object WidthFieldNumber;
+    public object WidthDefaultValue;
+    public object width_;
+    public object HeightFieldNumber;
+    public object HeightDefaultValue;
+    public object height_;
+    public object RasterizationFieldNumber;
+    public object rasterization_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6594AC0
     public void get_Descriptor(){} // RVA: 0x6594B20
@@ -227,34 +255,26 @@ public class BinaryMask : Object
 
 public class BinderState : Object
 {
+    public object m_argsMap;
+    public object m_originalSize;
+    public object m_isParamArray;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6956580
 }
 
-public class BindingData : Object
-{
-    // ── Methods ──
-    public void get_localDataSource(){} // RVA: 0x1661250
-    public void set_localDataSource(){} // RVA: 0x166A5F0
-    public void Reset(){} // RVA: 0x7E70E50
-    public void set_context(){} // RVA: 0x7E70FA0
-    public void .ctor(){} // RVA: 0xB43310
-}
-
-public class BindingDataCollection : ValueType
-{
-    // ── Methods ──
-    public void Create(){} // RVA: 0x7E70500
-    public void AddBindingData(){} // RVA: 0x9911B0
-    public void TryGetBindingData(){} // RVA: 0x9911C0
-    public void RemoveBindingData(){} // RVA: 0x9911D0
-    public void GetBindings(){} // RVA: 0x8C0C50
-    public void GetBindingCount(){} // RVA: 0x9911E0
-    public void Dispose(){} // RVA: 0x991230
-}
-
 public class BindingJson : ValueType
 {
+    public object name;
+    public object id;
+    public object path;
+    public object interactions;
+    public object processors;
+    public object groups;
+    public object action;
+    public object isComposite;
+    public object isPartOfComposite;
+
     // ── Methods ──
     public void ToBinding(){} // RVA: 0x926B00
     public void FromBinding(){} // RVA: 0x77E6E00
@@ -280,15 +300,23 @@ public class BindingJson[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class BindingRequest : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x991050
-    public void CancelRequest(){} // RVA: 0x991060
-}
-
 public class BindingState : ValueType
 {
+    public object m_ControlCount;
+    public object m_InteractionCount;
+    public object m_ProcessorCount;
+    public object m_MapIndex;
+    public object m_Flags;
+    public object m_PartIndex;
+    public object m_ActionIndex;
+    public object m_CompositeOrCompositeBindingIndex;
+    public object m_ProcessorStartIndex;
+    public object m_InteractionStartIndex;
+    public object m_ControlStartIndex;
+    public object m_PressTime;
+    public object m_TriggerEventIdForComposite;
+    public object __padding;
+
     // ── Methods ──
     public void get_controlStartIndex(){} // RVA: 0x92AE80
     public void set_controlStartIndex(){} // RVA: 0x92AE90
@@ -334,7 +362,30 @@ public class BindingState : ValueType
 public class BindingsMarshaller : Object
 {
     // ── Methods ──
-    public void ConvertToManaged(){} // RVA: 0x7B53400
+    public void ConvertToNative(){} // RVA: 0x2C8D450
+}
+
+public class BindingsMarshaller : Object
+{
+    // ── Methods ──
+    public void ConvertToNative(){} // RVA: 0x2C8D450
+}
+
+public class BindingsMarshaller : Object
+{
+    // ── Methods ──
+    public void ConvertToNative(){} // RVA: 0x2C8D450
+}
+
+public class BindingsMarshaller : Object
+{
+    // ── Methods ──
+    public void ConvertToNative(){} // RVA: 0x2C8D450
+}
+
+public class BindingsMarshaller : Object
+{
+    // ── Methods ──
     public void ConvertToNative(){} // RVA: 0x2C8D450
 }
 
@@ -346,6 +397,9 @@ public class BindingsMarshaller : Object
 
 public class BitRegion : ValueType
 {
+    public object bitOffset;
+    public object sizeInBits;
+
     // ── Methods ──
     public void get_isEmpty(){} // RVA: 0x92EE30
     public void .ctor(){} // RVA: 0x92EE40
@@ -372,40 +426,13 @@ public class BitRegion[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class BitwiseDoubleEqualityComparerImpl : EqualityComparer`1
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x6508840
-    public void GetHashCode(){} // RVA: 0x6508860
-    public void .ctor(){} // RVA: 0x6508870
-}
-
-public class BitwiseNullableDoubleEqualityComparerImpl : EqualityComparer`1
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x6508910
-    public void GetHashCode(){} // RVA: 0x65089F0
-    public void .ctor(){} // RVA: 0x6508AA0
-}
-
-public class BitwiseNullableSingleEqualityComparerImpl : EqualityComparer`1
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x6508AD0
-    public void GetHashCode(){} // RVA: 0x6508BC0
-    public void .ctor(){} // RVA: 0x6508C70
-}
-
-public class BitwiseSingleEqualityComparerImpl : EqualityComparer`1
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x65088A0
-    public void GetHashCode(){} // RVA: 0x65088C0
-    public void .ctor(){} // RVA: 0x65088E0
-}
-
 public class BlendshapesConfig : Object
 {
+    public object skinnedMeshRenderer;
+    public object blendShapeCount;
+    public object blendshapeNames;
+    public object blendshapeWeights;
+
     // ── Methods ──
     public void GetInstanceID(){} // RVA: 0x2314DF0
     public void Equals(){} // RVA: 0x2314FD0
@@ -420,6 +447,11 @@ public class BlendshapesConfig : Object
 
 public class BlendshapesConfigForExport : Object
 {
+    public object skinnedMeshRendererPath;
+    public object blendShapeCount;
+    public object blendshapeNames;
+    public object blendshapeWeights;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -466,6 +498,9 @@ public class BlendshapesConfig[] : Array
 
 public class BlurRadiusProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -476,6 +511,15 @@ public class BlurRadiusProperty : Property`2
 
 public class BodyPart : Object
 {
+    public object _sqrMag;
+    public object _mag;
+    public object bones;
+    public object initiated;
+    public object rootPosition;
+    public object rootRotation;
+    public object index;
+    public object LOD;
+
     // ── Methods ──
     public void OnRead(){} // RVA: 0x89D910
     public void PreSolve(){} // RVA: 0x894290
@@ -499,6 +543,12 @@ public class BodyPart : Object
 
 public class Bone : Point
 {
+    public object length;
+    public object sqrMag;
+    public object axis;
+    public object _rotationLimit;
+    public object isLimited;
+
     // ── Methods ──
     public void get_rotationLimit(){} // RVA: 0xC39550
     public void set_rotationLimit(){} // RVA: 0xC39760
@@ -531,6 +581,29 @@ public class BoneCapsule[] : Array
 
 public class BoneMap : Object
 {
+    public object transform;
+    public object chainIndex;
+    public object nodeIndex;
+    public object defaultLocalPosition;
+    public object defaultLocalRotation;
+    public object localSwingAxis;
+    public object localTwistAxis;
+    public object planePosition;
+    public object ikPosition;
+    public object defaultLocalTargetRotation;
+    public object maintainRotation;
+    public object length;
+    public object animatedRotation;
+    public object planeBone1;
+    public object planeBone2;
+    public object planeBone3;
+    public object plane1ChainIndex;
+    public object plane1NodeIndex;
+    public object plane2ChainIndex;
+    public object plane2NodeIndex;
+    public object plane3ChainIndex;
+    public object plane3NodeIndex;
+
     // ── Methods ──
     public void Initiate(){} // RVA: 0xC2E720
     public void get_swingDirection(){} // RVA: 0xC2E7B0
@@ -583,26 +656,6 @@ public class Bone[] : Array
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
     public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class Bone[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
     public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7F2C0
     public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7AE10
     public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4AF0
@@ -615,6 +668,26 @@ public class Bone[] : Array
     public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
     public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
     public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7AE10
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class Bone[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
@@ -947,6 +1020,22 @@ public class BottomProperty : ResolvedFloatProperty
 
 public class BoundingBox : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object XminFieldNumber;
+    public object XminDefaultValue;
+    public object xmin_;
+    public object YminFieldNumber;
+    public object YminDefaultValue;
+    public object ymin_;
+    public object WidthFieldNumber;
+    public object WidthDefaultValue;
+    public object width_;
+    public object HeightFieldNumber;
+    public object HeightDefaultValue;
+    public object height_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x6592CF0
     public void get_Descriptor(){} // RVA: 0x6592D50
@@ -980,13 +1069,6 @@ public class BoundingBox : Object
     public void .cctor(){} // RVA: 0x65937F0
 }
 
-public class BoxAvoidance : Object
-{
-    // ── Methods ──
-    public void ToInt(){} // RVA: 0xA94080
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
 public class BrainEvent : UnityEvent`1
 {
     // ── Methods ──
@@ -995,33 +1077,63 @@ public class BrainEvent : UnityEvent`1
 
 public class BrainFrame : Object
 {
+    public object id;
+    public object blend;
+    public object workingBlend;
+    public object workingBlendSource;
+    public object deltaTimeOverride;
+    public object blendStartPosition;
+
     // ── Methods ──
     public void get_Active(){} // RVA: 0x2580340
     public void .ctor(){} // RVA: 0x2580360
 }
 
-public class BrainFrame[] : Array
+public class BrainpoolP160r1Holder : X9ECParametersHolder
 {
+    public object Instance;
+
     // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    public void .ctor(){} // RVA: 0xB43310
+    public void CreateParameters(){} // RVA: 0xA4046A0
+    public void .cctor(){} // RVA: 0xA4048F0
+}
+
+public class BrainpoolP160t1Holder : X9ECParametersHolder
+{
+    public object Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void CreateParameters(){} // RVA: 0xA404990
+    public void .cctor(){} // RVA: 0xA404BE0
+}
+
+public class BrainpoolP192r1Holder : X9ECParametersHolder
+{
+    public object Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void CreateParameters(){} // RVA: 0xA404C80
+    public void .cctor(){} // RVA: 0xA404ED0
+}
+
+public class BrainpoolP192t1Holder : X9ECParametersHolder
+{
+    public object Instance;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB43310
+    public void CreateParameters(){} // RVA: 0xA404F70
+    public void .cctor(){} // RVA: 0xA4051C0
 }
 
 public class BucketInfo : Object
 {
+    public object bucket;
+    public object idMatch;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -1073,15 +1185,25 @@ public class Buffer : MemoryStream
     public void .ctor(){} // RVA: 0xA1C37E0
 }
 
-public class BufferedAsyncEnumerable : Object
+public class BufferedBerOctetStream : BaseOutputStream
 {
+    public object _buf;
+    public object _off;
+    public object _gen;
+    public object _derOut;
+
     // ── Methods ──
-    public void GetAsyncEnumerator(){} // RVA: 0x881D60
-    public void .ctor(){} // RVA: 0x894290
+    public void .ctor(){} // RVA: 0xA375FD0
+    public void WriteByte(){} // RVA: 0xA3761C0
+    public void Write(){} // RVA: 0xA3762A0
+    public void Close(){} // RVA: 0xA3763E0
 }
 
 public class BufferedCipherWrapper : Object
 {
+    public object cipher;
+    public object forWrapping;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_AlgorithmName(){} // RVA: 0xA628AE0
@@ -1102,30 +1224,47 @@ public class BuildProperty : Property`2
 
 public class Builder : Object
 {
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x87C130
 }
 
 public class Builder : Object
 {
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0xB8F8F0
 }
 
 public class Builder : Object
 {
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x87C130
 }
 
 public class Builder : Object
 {
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0xB8F8F0
 }
 
 public class Builder : Object
 {
+    public object mCipherSuite;
+    public object mCompressionAlgorithm;
+    public object mMasterSecret;
+    public object mPeerCertificate;
+    public object mPskIdentity;
+    public object mSrpIdentity;
+    public object mEncodedServerExtensions;
+    public object mExtendedMasterSecret;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA1D66F0
     public void Build(){} // RVA: 0xA1D6700
@@ -1138,6 +1277,21 @@ public class Builder : Object
     public void SetSrpIdentity(){} // RVA: 0x26FEDF0
     public void SetServerExtensions(){} // RVA: 0xA1D68F0
     public void Validate(){} // RVA: 0xA1D6A70
+}
+
+public class Builder : Object
+{
+    public object parameters;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA236A50
+    public void Set(){} // RVA: 0xA236E70
+    public void SetKey(){} // RVA: 0xA237050
+    public void SetPersonalisation(){} // RVA: 0xA2372A0
+    public void SetPublicKey(){} // RVA: 0xA237690
+    public void SetKeyIdentifier(){} // RVA: 0xA237770
+    public void SetNonce(){} // RVA: 0xA237850
+    public void Build(){} // RVA: 0xA237930
 }
 
 public class Burst[] : Array
@@ -1168,12 +1322,35 @@ public class ButtonClickedEvent : UnityEvent
 
 public class ButtonState : Object
 {
+    public object scale;
+    public object size;
+    public object offset;
+    public object duration;
+    public object ease;
+    public object overshoot;
+    public object foldout;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x211CE00
 }
 
 public class ButtonState : ValueType
 {
+    public object m_IsPressed;
+    public object m_FramePressState;
+    public object m_PressTime;
+    public object m_PressRaycast;
+    public object m_PressObject;
+    public object m_RawPressObject;
+    public object m_LastPressObject;
+    public object m_DragObject;
+    public object m_PressPosition;
+    public object m_ClickTime;
+    public object m_ClickCount;
+    public object m_Dragging;
+    public object m_ClickedOnSameGameObject;
+    public object m_IgnoreNextClick;
+
     // ── Methods ──
     public void get_isPressed(){} // RVA: 0x90520
     public void set_isPressed(){} // RVA: 0x937A60
@@ -1192,6 +1369,9 @@ public class ButtonState : ValueType
 
 public class ButtonState : Object
 {
+    public object m_Button;
+    public object m_EventData;
+
     // ── Methods ──
     public void get_eventData(){} // RVA: 0xB465B0
     public void set_eventData(){} // RVA: 0xBA9BA0

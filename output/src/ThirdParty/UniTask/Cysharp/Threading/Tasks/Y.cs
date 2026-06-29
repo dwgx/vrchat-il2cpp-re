@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class YieldAwaitable : ValueType
     {
+        public object timing;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x29580
         public void GetAwaiter(){} // RVA: 0x77E60

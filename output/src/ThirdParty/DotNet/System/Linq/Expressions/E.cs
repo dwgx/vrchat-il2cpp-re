@@ -7,667 +7,690 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class ElementInit : Object
     {
+        public object _addMethod;
+        public object _arguments;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE3D9E20
-        public void get_AddMethod(){} // RVA: 0x7A80F2570
-        public void get_Arguments(){} // RVA: 0x7A80DA7B0
-        public void GetArgument(){} // RVA: 0x7AE3D9C00
-        public void get_ArgumentCount(){} // RVA: 0x7AE3D9C90
-        public void ToString(){} // RVA: 0x7AE3D9D10
-        public void Update(){} // RVA: 0x7AE3D9DA0
+        public void .ctor(){} // RVA: 0x70594E0
+        public void get_AddMethod(){} // RVA: 0xB5DBF0
+        public void get_Arguments(){} // RVA: 0xB465B0
+        public void GetArgument(){} // RVA: 0x70592C0
+        public void get_ArgumentCount(){} // RVA: 0x7059350
+        public void ToString(){} // RVA: 0x70593D0
+        public void Update(){} // RVA: 0x7059460
     }
 
     public class Error : Object
     {
         // ── Methods ──
-        public void ReducibleMustOverrideReduce(){} // RVA: 0x7AE3D9E50
-        public void ArgCntMustBeGreaterThanNameCnt(){} // RVA: 0x7AE3D9EE0
-        public void InvalidMetaObjectCreated(){} // RVA: 0x7AE3D9F70
-        public void AmbiguousMatchInExpandoObject(){} // RVA: 0x7AE3DA010
-        public void SameKeyExistsInExpando(){} // RVA: 0x7AE3DA0B0
-        public void KeyDoesNotExistInExpando(){} // RVA: 0x7AE3DA160
-        public void CollectionModifiedWhileEnumerating(){} // RVA: 0x7AE3DA200
-        public void CollectionReadOnly(){} // RVA: 0x7AE3DA290
-        public void MustReduceToDifferent(){} // RVA: 0x7AE3DA320
-        public void BinderNotCompatibleWithCallSite(){} // RVA: 0x7AE3DA3B0
-        public void DynamicBindingNeedsRestrictions(){} // RVA: 0x7AE3DA470
-        public void DynamicObjectResultNotAssignable(){} // RVA: 0x7AE3DA510
-        public void DynamicBinderResultNotAssignable(){} // RVA: 0x7AE3DA5B0
-        public void BindingCannotBeNull(){} // RVA: 0x7AE3DA670
-        public void ReducedNotCompatible(){} // RVA: 0x7AE3DA700
-        public void SetterHasNoParams(){} // RVA: 0x7AE3DA790
-        public void PropertyCannotHaveRefType(){} // RVA: 0x7AE3DA820
-        public void IndexesOfSetGetMustMatch(){} // RVA: 0x7AE3DA8B0
-        public void TypeParameterIsNotDelegate(){} // RVA: 0x7AE3DA940
-        public void FirstArgumentMustBeCallSite(){} // RVA: 0x7AE3DA9E0
-        public void AccessorsCannotHaveVarArgs(){} // RVA: 0x7AE3DAA70
-        public void AccessorsCannotHaveByRefArgs(){} // RVA: 0x7AE3DAB90
-        public void TypeMustBeDerivedFromSystemDelegate(){} // RVA: 0x7AE3DAC30
-        public void NoOrInvalidRuleProduced(){} // RVA: 0x7AE3DACC0
-        public void BoundsCannotBeLessThanOne(){} // RVA: 0x7AE3DAD50
-        public void TypeMustNotBeByRef(){} // RVA: 0x7AE3DADE0
-        public void TypeMustNotBePointer(){} // RVA: 0x7AE3DAE70
-        public void SetterMustBeVoid(){} // RVA: 0x7AE3DAF00
-        public void PropertyTypeMustMatchGetter(){} // RVA: 0x7AE3DAF90
-        public void PropertyTypeMustMatchSetter(){} // RVA: 0x7AE3DB020
-        public void BothAccessorsMustBeStatic(){} // RVA: 0x7AE3DB0B0
-        public void OnlyStaticFieldsHaveNullInstance(){} // RVA: 0x7AE3DB140
-        public void OnlyStaticPropertiesHaveNullInstance(){} // RVA: 0x7AE3DB1D0
-        public void OnlyStaticMethodsHaveNullInstance(){} // RVA: 0x7AE3DB260
-        public void PropertyTypeCannotBeVoid(){} // RVA: 0x7AE3DB2F0
-        public void InvalidUnboxType(){} // RVA: 0x7AE3DB380
-        public void ExpressionMustBeWriteable(){} // RVA: 0x7AE3DB410
-        public void ArgumentMustNotHaveValueType(){} // RVA: 0x7AE3DB4A0
-        public void MustBeReducible(){} // RVA: 0x7AE3DB530
-        public void AllTestValuesMustHaveSameType(){} // RVA: 0x7AE3DB5C0
-        public void AllCaseBodiesMustHaveSameType(){} // RVA: 0x7AE3DB650
-        public void DefaultBodyMustBeSupplied(){} // RVA: 0x7AE3DB6E0
-        public void LabelMustBeVoidOrHaveExpression(){} // RVA: 0x7AE3DB770
-        public void LabelTypeMustBeVoid(){} // RVA: 0x7AE3DB800
-        public void QuotedExpressionMustBeLambda(){} // RVA: 0x7AE3DB890
-        public void VariableMustNotBeByRef(){} // RVA: 0x7AE3DB9D0
-        public void DuplicateVariable(){} // RVA: 0x7AE3DBAB0
-        public void StartEndMustBeOrdered(){} // RVA: 0x7AE3DBB70
-        public void FaultCannotHaveCatchOrFinally(){} // RVA: 0x7AE3DBC00
-        public void TryMustHaveCatchFinallyOrFault(){} // RVA: 0x7AE3DBC90
-        public void BodyOfCatchMustHaveSameTypeAsBodyOfTry(){} // RVA: 0x7AE3DBD20
-        public void ExtensionNodeMustOverrideProperty(){} // RVA: 0x7AE3DBDB0
-        public void UserDefinedOperatorMustBeStatic(){} // RVA: 0x7AE3DBE50
-        public void UserDefinedOperatorMustNotBeVoid(){} // RVA: 0x7AE3DBEF0
-        public void CoercionOperatorNotDefined(){} // RVA: 0x7AE3DBF90
-        public void UnaryOperatorNotDefined(){} // RVA: 0x7AE3DC030
-        public void BinaryOperatorNotDefined(){} // RVA: 0x7AE3DC0D0
-        public void ReferenceEqualityNotDefined(){} // RVA: 0x7AE3DC190
-        public void OperandTypesDoNotMatchParameters(){} // RVA: 0x7AE3DC230
-        public void OverloadOperatorTypeDoesNotMatchConversionType(){} // RVA: 0x7AE3DC2D0
-        public void ConversionIsNotSupportedForArithmeticTypes(){} // RVA: 0x7AE3DC370
-        public void ArgumentTypeCannotBeVoid(){} // RVA: 0x7AE3DC400
-        public void ArgumentMustBeArray(){} // RVA: 0x7AE3DC490
-        public void ArgumentMustBeBoolean(){} // RVA: 0x7AE3DC520
-        public void EqualityMustReturnBoolean(){} // RVA: 0x7AE3DC5B0
-        public void ArgumentMustBeFieldInfoOrPropertyInfo(){} // RVA: 0x7AE3DC650
-        public void ArgumentMustBeFieldInfoOrPropertyInfoOrMethod(){} // RVA: 0x7AE3DC770
-        public void ArgumentMustBeInstanceMember(){} // RVA: 0x7AE3DC8A0
-        public void ArgumentMustBeInteger(){} // RVA: 0x7AE3DC9D0
-        public void ArgumentMustBeArrayIndexType(){} // RVA: 0x7AE3DCB00
-        public void ArgumentMustBeSingleDimensionalArrayType(){} // RVA: 0x7AE3DCB20
-        public void ArgumentTypesMustMatch(){} // RVA: 0x7AE3DCC40
-        public void CannotAutoInitializeValueTypeElementThroughProperty(){} // RVA: 0x7AE3DCCD0
-        public void CannotAutoInitializeValueTypeMemberThroughProperty(){} // RVA: 0x7AE3DCD70
-        public void IncorrectTypeForTypeAs(){} // RVA: 0x7AE3DCE10
-        public void CoalesceUsedOnNonNullType(){} // RVA: 0x7AE3DCEB0
-        public void ExpressionTypeCannotInitializeArrayType(){} // RVA: 0x7AE3DCF40
-        public void ArgumentTypeDoesNotMatchMember(){} // RVA: 0x7AE3DD090
-        public void ArgumentMemberNotDeclOnType(){} // RVA: 0x7AE3DD200
-        public void ExpressionTypeDoesNotMatchReturn(){} // RVA: 0x7AE3DD2C0
-        public void ExpressionTypeDoesNotMatchAssignment(){} // RVA: 0x7AE3DD360
-        public void ExpressionTypeDoesNotMatchLabel(){} // RVA: 0x7AE3DD400
-        public void ExpressionTypeNotInvocable(){} // RVA: 0x7AE3DD4A0
-        public void FieldNotDefinedForType(){} // RVA: 0x7AE3DD540
-        public void InstanceFieldNotDefinedForType(){} // RVA: 0x7AE3DD5E0
-        public void FieldInfoNotDefinedForType(){} // RVA: 0x7AE3DD680
-        public void IncorrectNumberOfIndexes(){} // RVA: 0x7AE3DD740
-        public void IncorrectNumberOfLambdaDeclarationParameters(){} // RVA: 0x7AE3DD7D0
-        public void IncorrectNumberOfMembersForGivenConstructor(){} // RVA: 0x7AE3DD860
-        public void IncorrectNumberOfArgumentsForMembers(){} // RVA: 0x7AE3DD8F0
-        public void LambdaTypeMustBeDerivedFromSystemDelegate(){} // RVA: 0x7AE3DD980
-        public void MemberNotFieldOrProperty(){} // RVA: 0x7AE3DDA10
-        public void MethodContainsGenericParameters(){} // RVA: 0x7AE3DDAB0
-        public void MethodIsGeneric(){} // RVA: 0x7AE3DDB50
-        public void MethodNotPropertyAccessor(){} // RVA: 0x7AE3DDCA0
-        public void PropertyDoesNotHaveGetter(){} // RVA: 0x7AE3DDE00
-        public void PropertyDoesNotHaveSetter(){} // RVA: 0x7AE3DDE30
-        public void PropertyDoesNotHaveAccessor(){} // RVA: 0x7AE3DDED0
-        public void NotAMemberOfType(){} // RVA: 0x7AE3DE020
-        public void NotAMemberOfAnyType(){} // RVA: 0x7AE3DE060
-        public void ParameterExpressionNotValidAsDelegate(){} // RVA: 0x7AE3DE100
-        public void PropertyNotDefinedForType(){} // RVA: 0x7AE3DE1A0
-        public void InstancePropertyNotDefinedForType(){} // RVA: 0x7AE3DE250
-        public void InstancePropertyWithoutParameterNotDefinedForType(){} // RVA: 0x7AE3DE300
-        public void InstancePropertyWithSpecifiedParametersNotDefinedForType(){} // RVA: 0x7AE3DE3A0
-        public void InstanceAndMethodTypeMismatch(){} // RVA: 0x7AE3DE460
-        public void TypeMissingDefaultConstructor(){} // RVA: 0x7AE3DE520
-        public void ElementInitializerMethodNotAdd(){} // RVA: 0x7AE3DE5C0
-        public void ElementInitializerMethodNoRefOutParam(){} // RVA: 0x7AE3DE650
-        public void ElementInitializerMethodWithZeroArgs(){} // RVA: 0x7AE3DE700
-        public void ElementInitializerMethodStatic(){} // RVA: 0x7AE3DE790
-        public void TypeNotIEnumerable(){} // RVA: 0x7AE3DE820
-        public void UnhandledBinary(){} // RVA: 0x7AE3DE8C0
-        public void UnhandledBinding(){} // RVA: 0x7AE3DE960
-        public void UnhandledBindingType(){} // RVA: 0x7AE3DE9F0
-        public void UnhandledUnary(){} // RVA: 0x7AE3DEA90
-        public void UnknownBindingType(){} // RVA: 0x7AE3DEB30
-        public void UserDefinedOpMustHaveConsistentTypes(){} // RVA: 0x7AE3DEC50
-        public void UserDefinedOpMustHaveValidReturnType(){} // RVA: 0x7AE3DECF0
-        public void LogicalOperatorMustHaveBooleanOperators(){} // RVA: 0x7AE3DED90
-        public void MethodWithArgsDoesNotExistOnType(){} // RVA: 0x7AE3DEE30
-        public void GenericMethodWithArgsDoesNotExistOnType(){} // RVA: 0x7AE3DEED0
-        public void MethodWithMoreThanOneMatch(){} // RVA: 0x7AE3DEF70
-        public void PropertyWithMoreThanOneMatch(){} // RVA: 0x7AE3DF010
-        public void IncorrectNumberOfTypeArgsForFunc(){} // RVA: 0x7AE3DF0B0
-        public void IncorrectNumberOfTypeArgsForAction(){} // RVA: 0x7AE3DF140
-        public void ArgumentCannotBeOfTypeVoid(){} // RVA: 0x7AE3DF1D0
-        public void OutOfRange(){} // RVA: 0x7AE3DF260
-        public void LabelTargetAlreadyDefined(){} // RVA: 0x7AE3DF310
-        public void LabelTargetUndefined(){} // RVA: 0x7AE3DF3B0
-        public void ControlCannotLeaveFinally(){} // RVA: 0x7AE3DF450
-        public void ControlCannotLeaveFilterTest(){} // RVA: 0x7AE3DF4E0
-        public void AmbiguousJump(){} // RVA: 0x7AE3DF570
-        public void ControlCannotEnterTry(){} // RVA: 0x7AE3DF610
-        public void ControlCannotEnterExpression(){} // RVA: 0x7AE3DF6A0
-        public void NonLocalJumpWithValue(){} // RVA: 0x7AE3DF730
-        public void InvalidLvalue(){} // RVA: 0x7AE3DF7D0
-        public void UndefinedVariable(){} // RVA: 0x7AE3DF890
-        public void CannotCloseOverByRef(){} // RVA: 0x7AE3DF950
-        public void UnexpectedVarArgsCall(){} // RVA: 0x7AE3DF9F0
-        public void RethrowRequiresCatch(){} // RVA: 0x7AE3DFA90
-        public void TryNotAllowedInFilter(){} // RVA: 0x7AE3DFB20
-        public void MustRewriteToSameNode(){} // RVA: 0x7AE3DFBB0
-        public void MustRewriteChildToSameType(){} // RVA: 0x7AE3DFC70
-        public void MustRewriteWithoutMethod(){} // RVA: 0x7AE3DFD30
-        public void TryNotSupportedForMethodsWithRefArgs(){} // RVA: 0x7AE3DFDD0
-        public void TryNotSupportedForValueTypeInstances(){} // RVA: 0x7AE3DFE70
-        public void TestValueTypeDoesNotMatchComparisonMethodParameter(){} // RVA: 0x7AE3DFF10
-        public void SwitchValueTypeDoesNotMatchComparisonMethodParameter(){} // RVA: 0x7AE3DFFB0
-        public void ArgumentOutOfRange(){} // RVA: 0x7AE3E0050
-        public void NotSupported(){} // RVA: 0x7AE3E00E0
-        public void NonStaticConstructorRequired(){} // RVA: 0x7AE3E0160
-        public void NonAbstractConstructorRequired(){} // RVA: 0x7AE3E01F0
-        public void InvalidProgram(){} // RVA: 0x7AE3E0280
-        public void EnumerationIsDone(){} // RVA: 0x7AE3E0300
-        public void TypeContainsGenericParameters(){} // RVA: 0x7AE3E0430
-        public void TypeIsGeneric(){} // RVA: 0x7AE3E0590
-        public void IncorrectNumberOfConstructorArguments(){} // RVA: 0x7AE3E0650
-        public void ExpressionTypeDoesNotMatchMethodParameter(){} // RVA: 0x7AE3E07A0
-        public void ExpressionTypeDoesNotMatchParameter(){} // RVA: 0x7AE3E0920
-        public void IncorrectNumberOfLambdaArguments(){} // RVA: 0x7AE3E09E0
-        public void IncorrectNumberOfMethodCallArguments(){} // RVA: 0x7AE3E0A70
-        public void ExpressionTypeDoesNotMatchConstructorParameter(){} // RVA: 0x7AE3E0BC0
-        public void ExpressionMustBeReadable(){} // RVA: 0x7AE3E0D10
-        public void InvalidArgumentValue(){} // RVA: 0x7AE3E0DB0
-        public void NonEmptyCollectionRequired(){} // RVA: 0x7AE3E0E40
-        public void InvalidNullValue(){} // RVA: 0x7AE3E0ED0
-        public void InvalidTypeException(){} // RVA: 0x7AE3E0F70
-        public void GetParamName(){} // RVA: 0x7AE3E1050
+        public void ReducibleMustOverrideReduce(){} // RVA: 0x7059510
+        public void ArgCntMustBeGreaterThanNameCnt(){} // RVA: 0x70595A0
+        public void InvalidMetaObjectCreated(){} // RVA: 0x7059630
+        public void AmbiguousMatchInExpandoObject(){} // RVA: 0x70596D0
+        public void SameKeyExistsInExpando(){} // RVA: 0x7059770
+        public void KeyDoesNotExistInExpando(){} // RVA: 0x7059820
+        public void CollectionModifiedWhileEnumerating(){} // RVA: 0x70598C0
+        public void CollectionReadOnly(){} // RVA: 0x7059950
+        public void MustReduceToDifferent(){} // RVA: 0x70599E0
+        public void BinderNotCompatibleWithCallSite(){} // RVA: 0x7059A70
+        public void DynamicBindingNeedsRestrictions(){} // RVA: 0x7059B30
+        public void DynamicObjectResultNotAssignable(){} // RVA: 0x7059BD0
+        public void DynamicBinderResultNotAssignable(){} // RVA: 0x7059C70
+        public void BindingCannotBeNull(){} // RVA: 0x7059D30
+        public void ReducedNotCompatible(){} // RVA: 0x7059DC0
+        public void SetterHasNoParams(){} // RVA: 0x7059E50
+        public void PropertyCannotHaveRefType(){} // RVA: 0x7059EE0
+        public void IndexesOfSetGetMustMatch(){} // RVA: 0x7059F70
+        public void TypeParameterIsNotDelegate(){} // RVA: 0x705A000
+        public void FirstArgumentMustBeCallSite(){} // RVA: 0x705A0A0
+        public void AccessorsCannotHaveVarArgs(){} // RVA: 0x705A130
+        public void AccessorsCannotHaveByRefArgs(){} // RVA: 0x705A250
+        public void TypeMustBeDerivedFromSystemDelegate(){} // RVA: 0x705A2F0
+        public void NoOrInvalidRuleProduced(){} // RVA: 0x705A380
+        public void BoundsCannotBeLessThanOne(){} // RVA: 0x705A410
+        public void TypeMustNotBeByRef(){} // RVA: 0x705A4A0
+        public void TypeMustNotBePointer(){} // RVA: 0x705A530
+        public void SetterMustBeVoid(){} // RVA: 0x705A5C0
+        public void PropertyTypeMustMatchGetter(){} // RVA: 0x705A650
+        public void PropertyTypeMustMatchSetter(){} // RVA: 0x705A6E0
+        public void BothAccessorsMustBeStatic(){} // RVA: 0x705A770
+        public void OnlyStaticFieldsHaveNullInstance(){} // RVA: 0x705A800
+        public void OnlyStaticPropertiesHaveNullInstance(){} // RVA: 0x705A890
+        public void OnlyStaticMethodsHaveNullInstance(){} // RVA: 0x705A920
+        public void PropertyTypeCannotBeVoid(){} // RVA: 0x705A9B0
+        public void InvalidUnboxType(){} // RVA: 0x705AA40
+        public void ExpressionMustBeWriteable(){} // RVA: 0x705AAD0
+        public void ArgumentMustNotHaveValueType(){} // RVA: 0x705AB60
+        public void MustBeReducible(){} // RVA: 0x705ABF0
+        public void AllTestValuesMustHaveSameType(){} // RVA: 0x705AC80
+        public void AllCaseBodiesMustHaveSameType(){} // RVA: 0x705AD10
+        public void DefaultBodyMustBeSupplied(){} // RVA: 0x705ADA0
+        public void LabelMustBeVoidOrHaveExpression(){} // RVA: 0x705AE30
+        public void LabelTypeMustBeVoid(){} // RVA: 0x705AEC0
+        public void QuotedExpressionMustBeLambda(){} // RVA: 0x705AF50
+        public void VariableMustNotBeByRef(){} // RVA: 0x705B090
+        public void DuplicateVariable(){} // RVA: 0x705B170
+        public void StartEndMustBeOrdered(){} // RVA: 0x705B230
+        public void FaultCannotHaveCatchOrFinally(){} // RVA: 0x705B2C0
+        public void TryMustHaveCatchFinallyOrFault(){} // RVA: 0x705B350
+        public void BodyOfCatchMustHaveSameTypeAsBodyOfTry(){} // RVA: 0x705B3E0
+        public void ExtensionNodeMustOverrideProperty(){} // RVA: 0x705B470
+        public void UserDefinedOperatorMustBeStatic(){} // RVA: 0x705B510
+        public void UserDefinedOperatorMustNotBeVoid(){} // RVA: 0x705B5B0
+        public void CoercionOperatorNotDefined(){} // RVA: 0x705B650
+        public void UnaryOperatorNotDefined(){} // RVA: 0x705B6F0
+        public void BinaryOperatorNotDefined(){} // RVA: 0x705B790
+        public void ReferenceEqualityNotDefined(){} // RVA: 0x705B850
+        public void OperandTypesDoNotMatchParameters(){} // RVA: 0x705B8F0
+        public void OverloadOperatorTypeDoesNotMatchConversionType(){} // RVA: 0x705B990
+        public void ConversionIsNotSupportedForArithmeticTypes(){} // RVA: 0x705BA30
+        public void ArgumentTypeCannotBeVoid(){} // RVA: 0x705BAC0
+        public void ArgumentMustBeArray(){} // RVA: 0x705BB50
+        public void ArgumentMustBeBoolean(){} // RVA: 0x705BBE0
+        public void EqualityMustReturnBoolean(){} // RVA: 0x705BC70
+        public void ArgumentMustBeFieldInfoOrPropertyInfo(){} // RVA: 0x705BD10
+        public void ArgumentMustBeFieldInfoOrPropertyInfoOrMethod(){} // RVA: 0x705BE30
+        public void ArgumentMustBeInstanceMember(){} // RVA: 0x705BF60
+        public void ArgumentMustBeInteger(){} // RVA: 0x705C090
+        public void ArgumentMustBeArrayIndexType(){} // RVA: 0x705C1C0
+        public void ArgumentMustBeSingleDimensionalArrayType(){} // RVA: 0x705C1E0
+        public void ArgumentTypesMustMatch(){} // RVA: 0x705C300
+        public void CannotAutoInitializeValueTypeElementThroughProperty(){} // RVA: 0x705C390
+        public void CannotAutoInitializeValueTypeMemberThroughProperty(){} // RVA: 0x705C430
+        public void IncorrectTypeForTypeAs(){} // RVA: 0x705C4D0
+        public void CoalesceUsedOnNonNullType(){} // RVA: 0x705C570
+        public void ExpressionTypeCannotInitializeArrayType(){} // RVA: 0x705C600
+        public void ArgumentTypeDoesNotMatchMember(){} // RVA: 0x705C750
+        public void ArgumentMemberNotDeclOnType(){} // RVA: 0x705C8C0
+        public void ExpressionTypeDoesNotMatchReturn(){} // RVA: 0x705C980
+        public void ExpressionTypeDoesNotMatchAssignment(){} // RVA: 0x705CA20
+        public void ExpressionTypeDoesNotMatchLabel(){} // RVA: 0x705CAC0
+        public void ExpressionTypeNotInvocable(){} // RVA: 0x705CB60
+        public void FieldNotDefinedForType(){} // RVA: 0x705CC00
+        public void InstanceFieldNotDefinedForType(){} // RVA: 0x705CCA0
+        public void FieldInfoNotDefinedForType(){} // RVA: 0x705CD40
+        public void IncorrectNumberOfIndexes(){} // RVA: 0x705CE00
+        public void IncorrectNumberOfLambdaDeclarationParameters(){} // RVA: 0x705CE90
+        public void IncorrectNumberOfMembersForGivenConstructor(){} // RVA: 0x705CF20
+        public void IncorrectNumberOfArgumentsForMembers(){} // RVA: 0x705CFB0
+        public void LambdaTypeMustBeDerivedFromSystemDelegate(){} // RVA: 0x705D040
+        public void MemberNotFieldOrProperty(){} // RVA: 0x705D0D0
+        public void MethodContainsGenericParameters(){} // RVA: 0x705D170
+        public void MethodIsGeneric(){} // RVA: 0x705D210
+        public void MethodNotPropertyAccessor(){} // RVA: 0x705D360
+        public void PropertyDoesNotHaveGetter(){} // RVA: 0x705D4C0
+        public void PropertyDoesNotHaveSetter(){} // RVA: 0x705D4F0
+        public void PropertyDoesNotHaveAccessor(){} // RVA: 0x705D590
+        public void NotAMemberOfType(){} // RVA: 0x705D6E0
+        public void NotAMemberOfAnyType(){} // RVA: 0x705D720
+        public void ParameterExpressionNotValidAsDelegate(){} // RVA: 0x705D7C0
+        public void PropertyNotDefinedForType(){} // RVA: 0x705D860
+        public void InstancePropertyNotDefinedForType(){} // RVA: 0x705D910
+        public void InstancePropertyWithoutParameterNotDefinedForType(){} // RVA: 0x705D9C0
+        public void InstancePropertyWithSpecifiedParametersNotDefinedForType(){} // RVA: 0x705DA60
+        public void InstanceAndMethodTypeMismatch(){} // RVA: 0x705DB20
+        public void TypeMissingDefaultConstructor(){} // RVA: 0x705DBE0
+        public void ElementInitializerMethodNotAdd(){} // RVA: 0x705DC80
+        public void ElementInitializerMethodNoRefOutParam(){} // RVA: 0x705DD10
+        public void ElementInitializerMethodWithZeroArgs(){} // RVA: 0x705DDC0
+        public void ElementInitializerMethodStatic(){} // RVA: 0x705DE50
+        public void TypeNotIEnumerable(){} // RVA: 0x705DEE0
+        public void UnhandledBinary(){} // RVA: 0x705DF80
+        public void UnhandledBinding(){} // RVA: 0x705E020
+        public void UnhandledBindingType(){} // RVA: 0x705E0B0
+        public void UnhandledUnary(){} // RVA: 0x705E150
+        public void UnknownBindingType(){} // RVA: 0x705E1F0
+        public void UserDefinedOpMustHaveConsistentTypes(){} // RVA: 0x705E300
+        public void UserDefinedOpMustHaveValidReturnType(){} // RVA: 0x705E3A0
+        public void LogicalOperatorMustHaveBooleanOperators(){} // RVA: 0x705E440
+        public void MethodWithArgsDoesNotExistOnType(){} // RVA: 0x705E4E0
+        public void GenericMethodWithArgsDoesNotExistOnType(){} // RVA: 0x705E580
+        public void MethodWithMoreThanOneMatch(){} // RVA: 0x705E620
+        public void PropertyWithMoreThanOneMatch(){} // RVA: 0x705E6C0
+        public void IncorrectNumberOfTypeArgsForFunc(){} // RVA: 0x705E760
+        public void IncorrectNumberOfTypeArgsForAction(){} // RVA: 0x705E7F0
+        public void ArgumentCannotBeOfTypeVoid(){} // RVA: 0x705E880
+        public void OutOfRange(){} // RVA: 0x705E910
+        public void LabelTargetAlreadyDefined(){} // RVA: 0x705E9C0
+        public void LabelTargetUndefined(){} // RVA: 0x705EA60
+        public void ControlCannotLeaveFinally(){} // RVA: 0x705EB00
+        public void ControlCannotLeaveFilterTest(){} // RVA: 0x705EB90
+        public void AmbiguousJump(){} // RVA: 0x705EC20
+        public void ControlCannotEnterTry(){} // RVA: 0x705ECC0
+        public void ControlCannotEnterExpression(){} // RVA: 0x705ED50
+        public void NonLocalJumpWithValue(){} // RVA: 0x705EDE0
+        public void InvalidLvalue(){} // RVA: 0x705EE80
+        public void UndefinedVariable(){} // RVA: 0x705EF40
+        public void CannotCloseOverByRef(){} // RVA: 0x705F000
+        public void UnexpectedVarArgsCall(){} // RVA: 0x705F0A0
+        public void RethrowRequiresCatch(){} // RVA: 0x705F140
+        public void TryNotAllowedInFilter(){} // RVA: 0x705F1D0
+        public void MustRewriteToSameNode(){} // RVA: 0x705F260
+        public void MustRewriteChildToSameType(){} // RVA: 0x705F320
+        public void MustRewriteWithoutMethod(){} // RVA: 0x705F3E0
+        public void TryNotSupportedForMethodsWithRefArgs(){} // RVA: 0x705F480
+        public void TryNotSupportedForValueTypeInstances(){} // RVA: 0x705F520
+        public void TestValueTypeDoesNotMatchComparisonMethodParameter(){} // RVA: 0x705F5C0
+        public void SwitchValueTypeDoesNotMatchComparisonMethodParameter(){} // RVA: 0x705F660
+        public void ArgumentOutOfRange(){} // RVA: 0x705F700
+        public void NotSupported(){} // RVA: 0x705F790
+        public void NonStaticConstructorRequired(){} // RVA: 0x705F810
+        public void NonAbstractConstructorRequired(){} // RVA: 0x705F8A0
+        public void InvalidProgram(){} // RVA: 0x705F930
+        public void EnumerationIsDone(){} // RVA: 0x705F9B0
+        public void TypeContainsGenericParameters(){} // RVA: 0x705FAE0
+        public void TypeIsGeneric(){} // RVA: 0x705FC40
+        public void IncorrectNumberOfConstructorArguments(){} // RVA: 0x705FD00
+        public void ExpressionTypeDoesNotMatchMethodParameter(){} // RVA: 0x705FE50
+        public void ExpressionTypeDoesNotMatchParameter(){} // RVA: 0x705FFD0
+        public void IncorrectNumberOfLambdaArguments(){} // RVA: 0x7060090
+        public void IncorrectNumberOfMethodCallArguments(){} // RVA: 0x7060120
+        public void ExpressionTypeDoesNotMatchConstructorParameter(){} // RVA: 0x7060270
+        public void ExpressionMustBeReadable(){} // RVA: 0x70603C0
+        public void InvalidArgumentValue(){} // RVA: 0x7060460
+        public void NonEmptyCollectionRequired(){} // RVA: 0x70604F0
+        public void InvalidNullValue(){} // RVA: 0x7060580
+        public void InvalidTypeException(){} // RVA: 0x7060620
+        public void GetParamName(){} // RVA: 0x7060700
     }
 
     public class Expression : Object
     {
+        public object s_lambdaDelegateCache;
+        public object s_lambdaFactories;
+        public object s_legacyCtorSupportTable;
+
         // ── Methods ──
-        public void Assign(){} // RVA: 0x7AE39F750
-        public void GetUserDefinedBinaryOperator(){} // RVA: 0x7AE3A0C70
-        public void GetMethodBasedBinaryOperator(){} // RVA: 0x7AE39FDC0
-        public void GetMethodBasedAssignOperator(){} // RVA: 0x7AE3A0460
-        public void GetUserDefinedBinaryOperatorOrThrow(){} // RVA: 0x7AE3A0730
-        public void GetUserDefinedAssignOperatorOrThrow(){} // RVA: 0x7AE3A09A0
-        public void IsLiftingConditionalLogicalOperator(){} // RVA: 0x7AE3A1050
-        public void ParameterIsAssignable(){} // RVA: 0x7AE3A1110
-        public void ValidateParamswithOperandsOrThrow(){} // RVA: 0x7AE3A11D0
-        public void ValidateOperator(){} // RVA: 0x7AE3A12C0
-        public void ValidateMethodInfo(){} // RVA: 0x7AE3A14A0
-        public void IsNullComparison(){} // RVA: 0x7AE3A1530
-        public void IsNullConstant(){} // RVA: 0x7AE3A1770
-        public void ValidateUserDefinedConditionalLogicOperator(){} // RVA: 0x7AE3A17E0
-        public void VerifyOpTrueFalse(){} // RVA: 0x7AE3A20E0
-        public void IsValidLiftedConditionalLogicalOperator(){} // RVA: 0x7AE3A22D0
-        public void MakeBinary(){} // RVA: 0x7AE3A25A0
-        public void Equal(){} // RVA: 0x7AE3A2F70
-        public void ReferenceEqual(){} // RVA: 0x7AE3A30A0
-        public void NotEqual(){} // RVA: 0x7AE3A32C0
-        public void ReferenceNotEqual(){} // RVA: 0x7AE3A33F0
-        public void GetEqualityComparisonOperator(){} // RVA: 0x7AE3A35A0
-        public void GreaterThan(){} // RVA: 0x7AE3A3AA0
-        public void LessThan(){} // RVA: 0x7AE3A3C40
-        public void GreaterThanOrEqual(){} // RVA: 0x7AE3A3DE0
-        public void LessThanOrEqual(){} // RVA: 0x7AE3A3F80
-        public void GetComparisonOperator(){} // RVA: 0x7AE3A40B0
-        public void AndAlso(){} // RVA: 0x7AE3A4380
-        public void OrElse(){} // RVA: 0x7AE3A4B10
-        public void Coalesce(){} // RVA: 0x7AE3A5260
-        public void ValidateCoalesceArgTypes(){} // RVA: 0x7AE3A5800
-        public void Add(){} // RVA: 0x7AE3A5AB0
-        public void AddAssign(){} // RVA: 0x7AE3A5E00
-        public void ValidateOpAssignConversionLambda(){} // RVA: 0x7AE3A60D0
-        public void AddAssignChecked(){} // RVA: 0x7AE3A6570
-        public void AddChecked(){} // RVA: 0x7AE3A68B0
-        public void Subtract(){} // RVA: 0x7AE3A6B90
-        public void SubtractAssign(){} // RVA: 0x7AE3A6EF0
-        public void SubtractAssignChecked(){} // RVA: 0x7AE3A72F0
-        public void SubtractChecked(){} // RVA: 0x7AE3A7630
-        public void Divide(){} // RVA: 0x7AE3A7910
-        public void DivideAssign(){} // RVA: 0x7AE3A7C70
-        public void Modulo(){} // RVA: 0x7AE3A7FB0
-        public void ModuloAssign(){} // RVA: 0x7AE3A8310
-        public void Multiply(){} // RVA: 0x7AE3A8650
-        public void MultiplyAssign(){} // RVA: 0x7AE3A89B0
-        public void MultiplyAssignChecked(){} // RVA: 0x7AE3A8DB0
-        public void MultiplyChecked(){} // RVA: 0x7AE3A90F0
-        public void IsSimpleShift(){} // RVA: 0x7AE3A9360
-        public void GetResultTypeOfShift(){} // RVA: 0x7AE3A9440
-        public void LeftShift(){} // RVA: 0x7AE3A9630
-        public void LeftShiftAssign(){} // RVA: 0x7AE3A9980
-        public void RightShift(){} // RVA: 0x7AE3A9CA0
-        public void RightShiftAssign(){} // RVA: 0x7AE3A9FF0
-        public void And(){} // RVA: 0x7AE3AA310
-        public void AndAssign(){} // RVA: 0x7AE3AA670
-        public void Or(){} // RVA: 0x7AE3AA9B0
-        public void OrAssign(){} // RVA: 0x7AE3AAD10
-        public void ExclusiveOr(){} // RVA: 0x7AE3AB050
-        public void ExclusiveOrAssign(){} // RVA: 0x7AE3AB3B0
-        public void Power(){} // RVA: 0x7AE3AB6F0
-        public void PowerAssign(){} // RVA: 0x7AE3ABC00
-        public void ArrayIndex(){} // RVA: 0x7AE3BF260
-        public void Block(){} // RVA: 0x7AE3ACA70
-        public void BlockCore(){} // RVA: 0x7AE3ACD90
-        public void ValidateVariables(){} // RVA: 0x7AE3AD200
-        public void GetOptimizedBlockExpression(){} // RVA: 0x7AE3AD4A0
-        public void Catch(){} // RVA: 0x7AE3ADB70
-        public void MakeCatchBlock(){} // RVA: 0x7AE3ADC70
-        public void Condition(){} // RVA: 0x7AE3AE3D0
-        public void IfThen(){} // RVA: 0x7AE3AE710
-        public void IfThenElse(){} // RVA: 0x7AE3AE830
-        public void Constant(){} // RVA: 0x7AE3AE9B0
-        public void DebugInfo(){} // RVA: 0x7AE3AEC30
-        public void ClearDebugInfo(){} // RVA: 0x7AE3AEDB0
-        public void ValidateSpan(){} // RVA: 0x7AE3AEE70
-        public void Empty(){} // RVA: 0x7AE3AF060
-        public void Default(){} // RVA: 0x7AE3AF150
-        public void ElementInit(){} // RVA: 0x7AE3AF2B0
-        public void ValidateElementInitAddMethodInfo(){} // RVA: 0x7AE3AF520
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_NodeType(){} // RVA: 0x7AE3AFAB0
-        public void get_Type(){} // RVA: 0x7AE3AFBB0
-        public void get_CanReduce(){} // RVA: 0x7A80D7320
-        public void Reduce(){} // RVA: 0x7AE3AFCB0
-        public void VisitChildren(){} // RVA: 0x7AE3AFD00
-        public void Accept(){} // RVA: 0x7AE3AFD90
-        public void ReduceAndCheck(){} // RVA: 0x7AE3AFDC0
-        public void ReduceExtensions(){} // RVA: 0x7AE3AFF20
-        public void ToString(){} // RVA: 0x7AE3AFF80
-        public void get_DebugView(){} // RVA: 0x7AE3B0010
-        public void RequiresCanRead(){} // RVA: 0x7AE3B01A0
-        public void RequiresCanWrite(){} // RVA: 0x7AE3B02D0
-        public void Dynamic(){} // RVA: 0x7AE3B0550
-        public void MakeDynamic(){} // RVA: 0x7AE3B05F0
-        public void Break(){} // RVA: 0x7AE3B08E0
-        public void Continue(){} // RVA: 0x7AE3B0A60
-        public void Return(){} // RVA: 0x7AE3B0D50
-        public void Goto(){} // RVA: 0x7AE3B1050
-        public void MakeGoto(){} // RVA: 0x7AE3B10D0
-        public void ValidateGoto(){} // RVA: 0x7AE3B12E0
-        public void ValidateGotoType(){} // RVA: 0x7AE3B14A0
-        public void MakeIndex(){} // RVA: 0x7AE3B1660
-        public void ArrayAccess(){} // RVA: 0x7AE3B1760
-        public void Property(){} // RVA: 0x7AE3B9AF0
-        public void FindInstanceProperty(){} // RVA: 0x7AE3B1E20
-        public void GetArgTypesString(){} // RVA: 0x7AE3B1F70
-        public void FindProperty(){} // RVA: 0x7AE3B2140
-        public void IsCompatible(){} // RVA: 0x7AE3BEE80
-        public void MakeIndexProperty(){} // RVA: 0x7AE3B2690
-        public void ValidateIndexedProperty(){} // RVA: 0x7AE3B2760
-        public void ValidateAccessor(){} // RVA: 0x7AE3B2E00
-        public void ValidateAccessorArgumentTypes(){} // RVA: 0x7AE3B30D0
-        public void Invoke(){} // RVA: 0x7AE3B4930
-        public void GetInvokeMethod(){} // RVA: 0x7AE3B4DE0
-        public void Label(){} // RVA: 0x7AE3B5480
-        public void CreateLambda(){} // RVA: 0x7AE3B5620
-        public void Lambda(){} // RVA: 0x7AE3B66D0
-        public void ValidateLambdaArgs(){} // RVA: 0x7AE3B67C0
-        public void ValidateTryGetFuncActionArgs(){} // RVA: 0x7AE3B70C0
-        public void GetFuncType(){} // RVA: 0x7AE3B71F0
-        public void TryGetFuncType(){} // RVA: 0x7AE3B7360
-        public void GetActionType(){} // RVA: 0x7AE3B74D0
-        public void TryGetActionType(){} // RVA: 0x7AE3B7640
-        public void GetDelegateType(){} // RVA: 0x7AE3B77B0
-        public void ListInit(){} // RVA: 0x7AE3B8290
-        public void Loop(){} // RVA: 0x7AE3B8530
-        public void Bind(){} // RVA: 0x7AE3B89E0
-        public void ValidateSettableFieldOrPropertyMember(){} // RVA: 0x7AE3B8B90
-        public void Field(){} // RVA: 0x7AE3B91D0
-        public void GetProperty(){} // RVA: 0x7AE3B9C40
-        public void CheckMethod(){} // RVA: 0x7AE3B9EB0
-        public void PropertyOrField(){} // RVA: 0x7AE3BA090
-        public void MakeMemberAccess(){} // RVA: 0x7AE3BA360
-        public void MemberInit(){} // RVA: 0x7AE3BA570
-        public void ListBind(){} // RVA: 0x7AE3BAC00
-        public void ValidateListInitArgs(){} // RVA: 0x7AE3BAD50
-        public void MemberBind(){} // RVA: 0x7AE3BB3B0
-        public void ValidateGettableFieldOrPropertyMember(){} // RVA: 0x7AE3BB490
-        public void ValidateMemberInitArgs(){} // RVA: 0x7AE3BB6F0
-        public void Call(){} // RVA: 0x7AE3BDFD0
-        public void ValidateMethodAndGetParameters(){} // RVA: 0x7AE3BE600
-        public void ValidateStaticOrInstanceMethod(){} // RVA: 0x7AE3BE840
-        public void ValidateCallInstanceType(){} // RVA: 0x7AE3BE960
-        public void ValidateArgumentTypes(){} // RVA: 0x7AE3BEA10
-        public void GetParametersForValidation(){} // RVA: 0x7AE3BEA20
-        public void ValidateArgumentCount(){} // RVA: 0x7AE3BEA30
-        public void ValidateOneArgument(){} // RVA: 0x7AE3BEA40
-        public void TryQuote(){} // RVA: 0x7AE3BEA80
-        public void FindMethod(){} // RVA: 0x7AE3BEA90
-        public void ApplyTypeArgs(){} // RVA: 0x7AE3BF130
-        public void NewArrayInit(){} // RVA: 0x7AE3BF760
-        public void NewArrayBounds(){} // RVA: 0x7AE3BFD80
-        public void New(){} // RVA: 0x7AE3C0880
-        public void ValidateNewArgs(){} // RVA: 0x7AE3C0CF0
-        public void ValidateAnonymousTypeMember(){} // RVA: 0x7AE3C1810
-        public void ValidateConstructor(){} // RVA: 0x7AE3C1B80
-        public void Parameter(){} // RVA: 0x7AE3C1CA0
-        public void Variable(){} // RVA: 0x7AE3C1D60
-        public void Validate(){} // RVA: 0x7AE3C1DD0
-        public void RuntimeVariables(){} // RVA: 0x7AE3C1FC0
-        public void SwitchCase(){} // RVA: 0x7AE3C22B0
-        public void Switch(){} // RVA: 0x7AE3C27B0
-        public void ValidateSwitchCaseType(){} // RVA: 0x7AE3C3580
-        public void SymbolDocument(){} // RVA: 0x7AE3C3B90
-        public void TryFault(){} // RVA: 0x7AE3C3D10
-        public void TryFinally(){} // RVA: 0x7AE3C3D80
-        public void TryCatch(){} // RVA: 0x7AE3C3DF0
-        public void TryCatchFinally(){} // RVA: 0x7AE3C3E60
-        public void MakeTry(){} // RVA: 0x7AE3C3EE0
-        public void ValidateTryAndCatchHaveSameType(){} // RVA: 0x7AE3C4160
-        public void TypeIs(){} // RVA: 0x7AE3C47F0
-        public void TypeEqual(){} // RVA: 0x7AE3C4950
-        public void MakeUnary(){} // RVA: 0x7AE3C4B30
-        public void GetUserDefinedUnaryOperatorOrThrow(){} // RVA: 0x7AE3C5230
-        public void GetUserDefinedUnaryOperator(){} // RVA: 0x7AE3C53D0
-        public void GetMethodBasedUnaryOperator(){} // RVA: 0x7AE3C5770
-        public void GetUserDefinedCoercionOrThrow(){} // RVA: 0x7AE3C5BC0
-        public void GetUserDefinedCoercion(){} // RVA: 0x7AE3C5D30
-        public void GetMethodBasedCoercionOperator(){} // RVA: 0x7AE3C5E30
-        public void Negate(){} // RVA: 0x7AE3C6340
-        public void UnaryPlus(){} // RVA: 0x7AE3C6590
-        public void NegateChecked(){} // RVA: 0x7AE3C67A0
-        public void Not(){} // RVA: 0x7AE3C69F0
-        public void IsFalse(){} // RVA: 0x7AE3C6C40
-        public void IsTrue(){} // RVA: 0x7AE3C6E50
-        public void OnesComplement(){} // RVA: 0x7AE3C7060
-        public void TypeAs(){} // RVA: 0x7AE3C7210
-        public void Unbox(){} // RVA: 0x7AE3C73D0
-        public void Convert(){} // RVA: 0x7AE3C76B0
-        public void ConvertChecked(){} // RVA: 0x7AE3C7970
-        public void ArrayLength(){} // RVA: 0x7AE3C7BF0
-        public void Quote(){} // RVA: 0x7AE3C7E40
-        public void Rethrow(){} // RVA: 0x7AE3C8090
-        public void Throw(){} // RVA: 0x7AE3C81E0
-        public void Increment(){} // RVA: 0x7AE3C8400
-        public void Decrement(){} // RVA: 0x7AE3C8610
-        public void PreIncrementAssign(){} // RVA: 0x7AE3C8820
-        public void PreDecrementAssign(){} // RVA: 0x7AE3C88F0
-        public void PostIncrementAssign(){} // RVA: 0x7AE3C89C0
-        public void PostDecrementAssign(){} // RVA: 0x7AE3C8A90
-        public void MakeOpAssignUnary(){} // RVA: 0x7AE3C8B00
-        public void .cctor(){} // RVA: 0x7AE3C8DC0
+        public void Assign(){} // RVA: 0x701F950
+        public void GetUserDefinedBinaryOperator(){} // RVA: 0x7020E30
+        public void GetMethodBasedBinaryOperator(){} // RVA: 0x701FFA0
+        public void GetMethodBasedAssignOperator(){} // RVA: 0x7020620
+        public void GetUserDefinedBinaryOperatorOrThrow(){} // RVA: 0x70208F0
+        public void GetUserDefinedAssignOperatorOrThrow(){} // RVA: 0x7020B60
+        public void IsLiftingConditionalLogicalOperator(){} // RVA: 0x70211E0
+        public void ParameterIsAssignable(){} // RVA: 0x70212A0
+        public void ValidateParamswithOperandsOrThrow(){} // RVA: 0x7021360
+        public void ValidateOperator(){} // RVA: 0x7021450
+        public void ValidateMethodInfo(){} // RVA: 0x7021630
+        public void IsNullComparison(){} // RVA: 0x70216C0
+        public void IsNullConstant(){} // RVA: 0x7021900
+        public void ValidateUserDefinedConditionalLogicOperator(){} // RVA: 0x7021970
+        public void VerifyOpTrueFalse(){} // RVA: 0x7022210
+        public void IsValidLiftedConditionalLogicalOperator(){} // RVA: 0x7022400
+        public void MakeBinary(){} // RVA: 0x7022690
+        public void Equal(){} // RVA: 0x7023060
+        public void ReferenceEqual(){} // RVA: 0x7023190
+        public void NotEqual(){} // RVA: 0x70233B0
+        public void ReferenceNotEqual(){} // RVA: 0x70234E0
+        public void GetEqualityComparisonOperator(){} // RVA: 0x7023690
+        public void GreaterThan(){} // RVA: 0x7023C20
+        public void LessThan(){} // RVA: 0x7023DC0
+        public void GreaterThanOrEqual(){} // RVA: 0x7023F60
+        public void LessThanOrEqual(){} // RVA: 0x7024100
+        public void GetComparisonOperator(){} // RVA: 0x7024230
+        public void AndAlso(){} // RVA: 0x70244F0
+        public void OrElse(){} // RVA: 0x7024C90
+        public void Coalesce(){} // RVA: 0x70253F0
+        public void ValidateCoalesceArgTypes(){} // RVA: 0x70259C0
+        public void Add(){} // RVA: 0x7025C70
+        public void AddAssign(){} // RVA: 0x7025FB0
+        public void ValidateOpAssignConversionLambda(){} // RVA: 0x7026270
+        public void AddAssignChecked(){} // RVA: 0x70266D0
+        public void AddChecked(){} // RVA: 0x7026A00
+        public void Subtract(){} // RVA: 0x7026CD0
+        public void SubtractAssign(){} // RVA: 0x7027020
+        public void SubtractAssignChecked(){} // RVA: 0x7027410
+        public void SubtractChecked(){} // RVA: 0x7027740
+        public void Divide(){} // RVA: 0x7027A10
+        public void DivideAssign(){} // RVA: 0x7027D60
+        public void Modulo(){} // RVA: 0x7028090
+        public void ModuloAssign(){} // RVA: 0x70283E0
+        public void Multiply(){} // RVA: 0x7028710
+        public void MultiplyAssign(){} // RVA: 0x7028A60
+        public void MultiplyAssignChecked(){} // RVA: 0x7028E50
+        public void MultiplyChecked(){} // RVA: 0x7029180
+        public void IsSimpleShift(){} // RVA: 0x70293E0
+        public void GetResultTypeOfShift(){} // RVA: 0x70294E0
+        public void LeftShift(){} // RVA: 0x70296E0
+        public void LeftShiftAssign(){} // RVA: 0x7029A30
+        public void RightShift(){} // RVA: 0x7029D50
+        public void RightShiftAssign(){} // RVA: 0x702A0A0
+        public void And(){} // RVA: 0x702A3C0
+        public void AndAssign(){} // RVA: 0x702A710
+        public void Or(){} // RVA: 0x702AA40
+        public void OrAssign(){} // RVA: 0x702AD90
+        public void ExclusiveOr(){} // RVA: 0x702B0C0
+        public void ExclusiveOrAssign(){} // RVA: 0x702B410
+        public void Power(){} // RVA: 0x702B740
+        public void PowerAssign(){} // RVA: 0x702BC40
+        public void ArrayIndex(){} // RVA: 0x703EF00
+        public void Block(){} // RVA: 0x702CA70
+        public void BlockCore(){} // RVA: 0x702CD80
+        public void ValidateVariables(){} // RVA: 0x702D230
+        public void GetOptimizedBlockExpression(){} // RVA: 0x702D4D0
+        public void Catch(){} // RVA: 0x702DB80
+        public void MakeCatchBlock(){} // RVA: 0x702DC80
+        public void Condition(){} // RVA: 0x702E370
+        public void IfThen(){} // RVA: 0x702E690
+        public void IfThenElse(){} // RVA: 0x702E770
+        public void Constant(){} // RVA: 0x702E8B0
+        public void DebugInfo(){} // RVA: 0x702EB30
+        public void ClearDebugInfo(){} // RVA: 0x702ECB0
+        public void ValidateSpan(){} // RVA: 0x702ED70
+        public void Empty(){} // RVA: 0x702EF40
+        public void Default(){} // RVA: 0x702EFF0
+        public void ElementInit(){} // RVA: 0x702F150
+        public void ValidateElementInitAddMethodInfo(){} // RVA: 0x702F3C0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_NodeType(){} // RVA: 0x702F950
+        public void get_Type(){} // RVA: 0x702FA50
+        public void get_CanReduce(){} // RVA: 0xB43320
+        public void Reduce(){} // RVA: 0x702FB50
+        public void VisitChildren(){} // RVA: 0x702FBA0
+        public void Accept(){} // RVA: 0x702FC30
+        public void ReduceAndCheck(){} // RVA: 0x702FC60
+        public void ReduceExtensions(){} // RVA: 0x702FDC0
+        public void ToString(){} // RVA: 0x702FE20
+        public void get_DebugView(){} // RVA: 0x702FEB0
+        public void RequiresCanRead(){} // RVA: 0x7030040
+        public void RequiresCanWrite(){} // RVA: 0x7030170
+        public void Dynamic(){} // RVA: 0x70303F0
+        public void MakeDynamic(){} // RVA: 0x7030490
+        public void Break(){} // RVA: 0x7030700
+        public void Continue(){} // RVA: 0x7030840
+        public void Return(){} // RVA: 0x7030AB0
+        public void Goto(){} // RVA: 0x7030D30
+        public void MakeGoto(){} // RVA: 0x7030DB0
+        public void ValidateGoto(){} // RVA: 0x7030FC0
+        public void ValidateGotoType(){} // RVA: 0x70312E0
+        public void MakeIndex(){} // RVA: 0x7031460
+        public void ArrayAccess(){} // RVA: 0x7031560
+        public void Property(){} // RVA: 0x70397F0
+        public void FindInstanceProperty(){} // RVA: 0x7031BE0
+        public void GetArgTypesString(){} // RVA: 0x7031D30
+        public void FindProperty(){} // RVA: 0x7031F00
+        public void IsCompatible(){} // RVA: 0x703EB30
+        public void MakeIndexProperty(){} // RVA: 0x7032450
+        public void ValidateIndexedProperty(){} // RVA: 0x7032520
+        public void ValidateAccessor(){} // RVA: 0x7032BD0
+        public void ValidateAccessorArgumentTypes(){} // RVA: 0x7032EA0
+        public void Invoke(){} // RVA: 0x7034700
+        public void GetInvokeMethod(){} // RVA: 0x7034BB0
+        public void Label(){} // RVA: 0x70351D0
+        public void CreateLambda(){} // RVA: 0x7035370
+        public void Lambda(){} // RVA: 0x7036450
+        public void ValidateLambdaArgs(){} // RVA: 0x7036540
+        public void ValidateTryGetFuncActionArgs(){} // RVA: 0x7036E20
+        public void GetFuncType(){} // RVA: 0x7036F30
+        public void TryGetFuncType(){} // RVA: 0x7037090
+        public void GetActionType(){} // RVA: 0x70371F0
+        public void TryGetActionType(){} // RVA: 0x7037350
+        public void GetDelegateType(){} // RVA: 0x70374B0
+        public void ListInit(){} // RVA: 0x7037F90
+        public void Loop(){} // RVA: 0x7038230
+        public void Bind(){} // RVA: 0x70386F0
+        public void ValidateSettableFieldOrPropertyMember(){} // RVA: 0x70388A0
+        public void Field(){} // RVA: 0x7038ED0
+        public void GetProperty(){} // RVA: 0x7039940
+        public void CheckMethod(){} // RVA: 0x7039BA0
+        public void PropertyOrField(){} // RVA: 0x7039D80
+        public void MakeMemberAccess(){} // RVA: 0x703A050
+        public void MemberInit(){} // RVA: 0x703A260
+        public void ListBind(){} // RVA: 0x703A8F0
+        public void ValidateListInitArgs(){} // RVA: 0x703AA40
+        public void MemberBind(){} // RVA: 0x703B070
+        public void ValidateGettableFieldOrPropertyMember(){} // RVA: 0x703B150
+        public void ValidateMemberInitArgs(){} // RVA: 0x703B3A0
+        public void Call(){} // RVA: 0x703DC80
+        public void ValidateMethodAndGetParameters(){} // RVA: 0x703E2B0
+        public void ValidateStaticOrInstanceMethod(){} // RVA: 0x703E4F0
+        public void ValidateCallInstanceType(){} // RVA: 0x703E610
+        public void ValidateArgumentTypes(){} // RVA: 0x703E6C0
+        public void GetParametersForValidation(){} // RVA: 0x703E6D0
+        public void ValidateArgumentCount(){} // RVA: 0x703E6E0
+        public void ValidateOneArgument(){} // RVA: 0x703E6F0
+        public void TryQuote(){} // RVA: 0x703E730
+        public void FindMethod(){} // RVA: 0x703E740
+        public void ApplyTypeArgs(){} // RVA: 0x703EDD0
+        public void NewArrayInit(){} // RVA: 0x703F3C0
+        public void NewArrayBounds(){} // RVA: 0x703F9A0
+        public void New(){} // RVA: 0x7040460
+        public void ValidateNewArgs(){} // RVA: 0x7040890
+        public void ValidateAnonymousTypeMember(){} // RVA: 0x7041450
+        public void ValidateConstructor(){} // RVA: 0x70417C0
+        public void Parameter(){} // RVA: 0x70418E0
+        public void Variable(){} // RVA: 0x70419A0
+        public void Validate(){} // RVA: 0x7041A10
+        public void RuntimeVariables(){} // RVA: 0x7041BC0
+        public void SwitchCase(){} // RVA: 0x7041EB0
+        public void Switch(){} // RVA: 0x70423B0
+        public void ValidateSwitchCaseType(){} // RVA: 0x7043130
+        public void SymbolDocument(){} // RVA: 0x7043730
+        public void TryFault(){} // RVA: 0x70438B0
+        public void TryFinally(){} // RVA: 0x7043920
+        public void TryCatch(){} // RVA: 0x7043990
+        public void TryCatchFinally(){} // RVA: 0x7043A00
+        public void MakeTry(){} // RVA: 0x7043A80
+        public void ValidateTryAndCatchHaveSameType(){} // RVA: 0x7043D00
+        public void TypeIs(){} // RVA: 0x7044390
+        public void TypeEqual(){} // RVA: 0x70444F0
+        public void MakeUnary(){} // RVA: 0x70446D0
+        public void GetUserDefinedUnaryOperatorOrThrow(){} // RVA: 0x7044DD0
+        public void GetUserDefinedUnaryOperator(){} // RVA: 0x7044F70
+        public void GetMethodBasedUnaryOperator(){} // RVA: 0x7045310
+        public void GetUserDefinedCoercionOrThrow(){} // RVA: 0x7045760
+        public void GetUserDefinedCoercion(){} // RVA: 0x70458D0
+        public void GetMethodBasedCoercionOperator(){} // RVA: 0x70459D0
+        public void Negate(){} // RVA: 0x7045EC0
+        public void UnaryPlus(){} // RVA: 0x7046110
+        public void NegateChecked(){} // RVA: 0x7046320
+        public void Not(){} // RVA: 0x7046570
+        public void IsFalse(){} // RVA: 0x70467C0
+        public void IsTrue(){} // RVA: 0x70469D0
+        public void OnesComplement(){} // RVA: 0x7046BE0
+        public void TypeAs(){} // RVA: 0x7046D90
+        public void Unbox(){} // RVA: 0x7046F50
+        public void Convert(){} // RVA: 0x7047240
+        public void ConvertChecked(){} // RVA: 0x7047500
+        public void ArrayLength(){} // RVA: 0x7047780
+        public void Quote(){} // RVA: 0x7047A10
+        public void Rethrow(){} // RVA: 0x7047C20
+        public void Throw(){} // RVA: 0x7047D30
+        public void Increment(){} // RVA: 0x7047F50
+        public void Decrement(){} // RVA: 0x7048160
+        public void PreIncrementAssign(){} // RVA: 0x7048370
+        public void PreDecrementAssign(){} // RVA: 0x7048440
+        public void PostIncrementAssign(){} // RVA: 0x7048510
+        public void PostDecrementAssign(){} // RVA: 0x70485E0
+        public void MakeOpAssignUnary(){} // RVA: 0x7048650
+        public void .cctor(){} // RVA: 0x7048910
     }
 
     public class Expression0`1 : Expression`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void get_ParameterCount(){} // RVA: 0x7A7E00710
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void GetParameter(){} // RVA: 0x7A7E00740
-        public void GetOrMakeParameters(){} // RVA: 0x7A7E00680
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
+        public void .ctor(){} // RVA: 0x894320
+        public void get_ParameterCount(){} // RVA: 0x87C130
+        public void SameParameters(){} // RVA: 0x87D350
+        public void GetParameter(){} // RVA: 0x87C160
+        public void GetOrMakeParameters(){} // RVA: 0x87C0A0
+        public void Rewrite(){} // RVA: 0x87C5F0
     }
 
     public class Expression1`1 : Expression`1
     {
+        public object _par0;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18890
-        public void get_ParameterCount(){} // RVA: 0x7A7E00710
-        public void GetParameter(){} // RVA: 0x7A7E00740
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void GetOrMakeParameters(){} // RVA: 0x7A7E00680
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
+        public void .ctor(){} // RVA: 0x8943B0
+        public void get_ParameterCount(){} // RVA: 0x87C130
+        public void GetParameter(){} // RVA: 0x87C160
+        public void SameParameters(){} // RVA: 0x87D350
+        public void GetOrMakeParameters(){} // RVA: 0x87C0A0
+        public void Rewrite(){} // RVA: 0x87C5F0
     }
 
     public class Expression2`1 : Expression`1
     {
+        public object _par0;
+        public object _par1;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DDC0
-        public void get_ParameterCount(){} // RVA: 0x7A7E00710
-        public void GetParameter(){} // RVA: 0x7A7E00740
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void GetOrMakeParameters(){} // RVA: 0x7A7E00680
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
+        public void .ctor(){} // RVA: 0x8954D0
+        public void get_ParameterCount(){} // RVA: 0x87C130
+        public void GetParameter(){} // RVA: 0x87C160
+        public void SameParameters(){} // RVA: 0x87D350
+        public void GetOrMakeParameters(){} // RVA: 0x87C0A0
+        public void Rewrite(){} // RVA: 0x87C5F0
     }
 
     public class Expression3`1 : Expression`1
     {
+        public object _par0;
+        public object _par1;
+        public object _par2;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DB70
-        public void get_ParameterCount(){} // RVA: 0x7A7E00710
-        public void GetParameter(){} // RVA: 0x7A7E00740
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void GetOrMakeParameters(){} // RVA: 0x7A7E00680
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
+        public void .ctor(){} // RVA: 0x899870
+        public void get_ParameterCount(){} // RVA: 0x87C130
+        public void GetParameter(){} // RVA: 0x87C160
+        public void SameParameters(){} // RVA: 0x87D350
+        public void GetOrMakeParameters(){} // RVA: 0x87C0A0
+        public void Rewrite(){} // RVA: 0x87C5F0
     }
 
     public class ExpressionCreator`1 : Object
     {
         // ── Methods ──
-        public void CreateExpressionFunc(){} // RVA: 0x7A7E12660
+        public void CreateExpressionFunc(){} // RVA: 0x88E0F0
     }
 
     public class ExpressionExtension : Object
     {
         // ── Methods ──
-        public void MakeDynamic(){} // RVA: 0x7AE3D9430
-        public void GetValidMethodForDynamic(){} // RVA: 0x7AE3D8300
-        public void Dynamic(){} // RVA: 0x7AE3D9240
-        public void ValidateDynamicArgument(){} // RVA: 0x7AE3D99B0
+        public void MakeDynamic(){} // RVA: 0x7058B30
+        public void GetValidMethodForDynamic(){} // RVA: 0x7057AA0
+        public void Dynamic(){} // RVA: 0x7058940
+        public void ValidateDynamicArgument(){} // RVA: 0x70590B0
     }
 
     public class ExpressionN`1 : Expression`1
     {
+        public object _parameters;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18890
-        public void get_ParameterCount(){} // RVA: 0x7A7E00710
-        public void GetParameter(){} // RVA: 0x7A7E00740
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void GetOrMakeParameters(){} // RVA: 0x7A7E00680
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
+        public void .ctor(){} // RVA: 0x8943B0
+        public void get_ParameterCount(){} // RVA: 0x87C130
+        public void GetParameter(){} // RVA: 0x87C160
+        public void SameParameters(){} // RVA: 0x87D350
+        public void GetOrMakeParameters(){} // RVA: 0x87C0A0
+        public void Rewrite(){} // RVA: 0x87C5F0
     }
 
     public class ExpressionN`1 : Expression`1
     {
+        public object _parameters;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB1131E0
-        public void get_ParameterCount(){} // RVA: 0x7AB114700
-        public void GetParameter(){} // RVA: 0x7AB114750
-        public void SameParameters(){} // RVA: 0x7AB1147B0
-        public void GetOrMakeParameters(){} // RVA: 0x7AB114890
-        public void Rewrite(){} // RVA: 0x7AB1148D0
+        public void .ctor(){} // RVA: 0x3DCCD50
+        public void get_ParameterCount(){} // RVA: 0x3DCE270
+        public void GetParameter(){} // RVA: 0x3DCE2C0
+        public void SameParameters(){} // RVA: 0x3DCE320
+        public void GetOrMakeParameters(){} // RVA: 0x3DCE400
+        public void Rewrite(){} // RVA: 0x3DCE440
     }
 
     public class ExpressionStringBuilder : ExpressionVisitor
     {
+        public object _out;
+        public object _ids;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE3E1110
-        public void ToString(){} // RVA: 0x7A8E1FCB0
-        public void GetLabelId(){} // RVA: 0x7AE3E11B0
-        public void GetParamId(){} // RVA: 0x7AE3E11B0
-        public void GetId(){} // RVA: 0x7AE3E11C0
-        public void Out(){} // RVA: 0x7AE3E1390
-        public void ExpressionToString(){} // RVA: 0x7AE3AFF80
-        public void CatchBlockToString(){} // RVA: 0x7AE3CDEF0
-        public void SwitchCaseToString(){} // RVA: 0x7AE3E13B0
-        public void MemberBindingToString(){} // RVA: 0x7AE3E1440
-        public void ElementInitBindingToString(){} // RVA: 0x7AE3D9D10
-        public void VisitExpressions(){} // RVA: 0x7A8051B10
-        public void VisitBinary(){} // RVA: 0x7AE3E14D0
-        public void VisitParameter(){} // RVA: 0x7AE3E1D80
-        public void VisitLambda(){} // RVA: 0x7A7E00B20
-        public void VisitListInit(){} // RVA: 0x7AE3E1EF0
-        public void VisitConditional(){} // RVA: 0x7AE3E20C0
-        public void VisitConstant(){} // RVA: 0x7AE3E2240
-        public void VisitDebugInfo(){} // RVA: 0x7AE3E2520
-        public void VisitRuntimeVariables(){} // RVA: 0x7AE3E28A0
-        public void OutMember(){} // RVA: 0x7AE3E2910
-        public void VisitMember(){} // RVA: 0x7AE3E2A30
-        public void VisitMemberInit(){} // RVA: 0x7AE3E2BA0
-        public void VisitMemberAssignment(){} // RVA: 0x7AE3E2EC0
-        public void VisitMemberListBinding(){} // RVA: 0x7AE3E2F70
-        public void VisitMemberMemberBinding(){} // RVA: 0x7AE3E3160
-        public void VisitElementInit(){} // RVA: 0x7AE3E3350
-        public void VisitInvocation(){} // RVA: 0x7AE3E3580
-        public void VisitMethodCall(){} // RVA: 0x7AE3E3710
-        public void VisitNewArray(){} // RVA: 0x7AE3E3A50
-        public void VisitNew(){} // RVA: 0x7AE3E3BA0
-        public void VisitTypeBinary(){} // RVA: 0x7AE3E3E60
-        public void VisitUnary(){} // RVA: 0x7AE3E4030
-        public void VisitBlock(){} // RVA: 0x7AE3E4790
-        public void VisitDefault(){} // RVA: 0x7AE3E4B20
-        public void VisitLabel(){} // RVA: 0x7AE3E4C40
-        public void VisitGoto(){} // RVA: 0x7AE3E4D20
-        public void VisitLoop(){} // RVA: 0x7AE3E4F20
-        public void VisitSwitchCase(){} // RVA: 0x7AE3E4F80
-        public void VisitSwitch(){} // RVA: 0x7AE3E5040
-        public void VisitCatchBlock(){} // RVA: 0x7AE3E5150
-        public void VisitTry(){} // RVA: 0x7AE3E52C0
-        public void VisitIndex(){} // RVA: 0x7AE3E5320
-        public void VisitExtension(){} // RVA: 0x7AE3E55F0
-        public void DumpLabel(){} // RVA: 0x7AE3E5940
-        public void IsBool(){} // RVA: 0x7AE3E5A70
+        public void .ctor(){} // RVA: 0x70607B0
+        public void ToString(){} // RVA: 0x1910690
+        public void GetLabelId(){} // RVA: 0x7060850
+        public void GetParamId(){} // RVA: 0x7060850
+        public void GetId(){} // RVA: 0x7060860
+        public void Out(){} // RVA: 0x7060A30
+        public void ExpressionToString(){} // RVA: 0x702FE20
+        public void CatchBlockToString(){} // RVA: 0x704DA40
+        public void SwitchCaseToString(){} // RVA: 0x7060A50
+        public void MemberBindingToString(){} // RVA: 0x7060AE0
+        public void ElementInitBindingToString(){} // RVA: 0x70593D0
+        public void VisitExpressions(){} // RVA: 0xA94080
+        public void VisitBinary(){} // RVA: 0x7060B70
+        public void VisitParameter(){} // RVA: 0x7061420
+        public void VisitLambda(){} // RVA: 0x87C540
+        public void VisitListInit(){} // RVA: 0x7061590
+        public void VisitConditional(){} // RVA: 0x7061760
+        public void VisitConstant(){} // RVA: 0x70618E0
+        public void VisitDebugInfo(){} // RVA: 0x7061BB0
+        public void VisitRuntimeVariables(){} // RVA: 0x7061F20
+        public void OutMember(){} // RVA: 0x7061F90
+        public void VisitMember(){} // RVA: 0x70620B0
+        public void VisitMemberInit(){} // RVA: 0x7062220
+        public void VisitMemberAssignment(){} // RVA: 0x7062540
+        public void VisitMemberListBinding(){} // RVA: 0x70625F0
+        public void VisitMemberMemberBinding(){} // RVA: 0x70627E0
+        public void VisitElementInit(){} // RVA: 0x70629D0
+        public void VisitInvocation(){} // RVA: 0x7062C00
+        public void VisitMethodCall(){} // RVA: 0x7062D90
+        public void VisitNewArray(){} // RVA: 0x7063090
+        public void VisitNew(){} // RVA: 0x70631E0
+        public void VisitTypeBinary(){} // RVA: 0x70634A0
+        public void VisitUnary(){} // RVA: 0x7063670
+        public void VisitBlock(){} // RVA: 0x7063DD0
+        public void VisitDefault(){} // RVA: 0x7064160
+        public void VisitLabel(){} // RVA: 0x7064280
+        public void VisitGoto(){} // RVA: 0x7064360
+        public void VisitLoop(){} // RVA: 0x7064560
+        public void VisitSwitchCase(){} // RVA: 0x70645C0
+        public void VisitSwitch(){} // RVA: 0x7064680
+        public void VisitCatchBlock(){} // RVA: 0x7064790
+        public void VisitTry(){} // RVA: 0x7064900
+        public void VisitIndex(){} // RVA: 0x7064960
+        public void VisitExtension(){} // RVA: 0x7064C30
+        public void DumpLabel(){} // RVA: 0x7064F50
+        public void IsBool(){} // RVA: 0x7065080
     }
 
     public class ExpressionVisitor : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Visit(){} // RVA: 0x7A7E00C10
-        public void VisitArguments(){} // RVA: 0x7AE3E5F50
-        public void VisitParameters(){} // RVA: 0x7AE3E5F60
-        public void VisitAndConvert(){} // RVA: 0x7A7E00BD0
-        public void VisitBinary(){} // RVA: 0x7AE3E5F70
-        public void VisitBlock(){} // RVA: 0x7AE3E6080
-        public void VisitConditional(){} // RVA: 0x7AE3E6180
-        public void VisitConstant(){} // RVA: 0x7A9194610
-        public void VisitDebugInfo(){} // RVA: 0x7A9194610
-        public void VisitDefault(){} // RVA: 0x7A9194610
-        public void VisitExtension(){} // RVA: 0x7AE3CEB30
-        public void VisitGoto(){} // RVA: 0x7AE3E62D0
-        public void VisitInvocation(){} // RVA: 0x7AE3E63D0
-        public void VisitLabelTarget(){} // RVA: 0x7A9194610
-        public void VisitLabel(){} // RVA: 0x7AE3E6470
-        public void VisitLambda(){} // RVA: 0x7A7E00B20
-        public void VisitLoop(){} // RVA: 0x7AE3E6540
-        public void VisitMember(){} // RVA: 0x7AE3E6640
-        public void VisitIndex(){} // RVA: 0x7AE3E66F0
-        public void VisitMethodCall(){} // RVA: 0x7AE3E6830
-        public void VisitNewArray(){} // RVA: 0x7AE3E6900
-        public void VisitNew(){} // RVA: 0x7AE3E6940
-        public void VisitParameter(){} // RVA: 0x7A9194610
-        public void VisitRuntimeVariables(){} // RVA: 0x7AE3E6A70
-        public void VisitSwitchCase(){} // RVA: 0x7AE3E6B70
-        public void VisitSwitch(){} // RVA: 0x7AE3E6C70
-        public void VisitCatchBlock(){} // RVA: 0x7AE3E6EA0
-        public void VisitTry(){} // RVA: 0x7AE3E6FF0
-        public void VisitTypeBinary(){} // RVA: 0x7AE3E71D0
-        public void VisitUnary(){} // RVA: 0x7AE3E72B0
-        public void VisitMemberInit(){} // RVA: 0x7AE3E7490
-        public void VisitListInit(){} // RVA: 0x7AE3E7630
-        public void VisitElementInit(){} // RVA: 0x7AE3E77D0
-        public void VisitMemberBinding(){} // RVA: 0x7AE3E7860
-        public void VisitMemberAssignment(){} // RVA: 0x7AE3E7A00
-        public void VisitMemberMemberBinding(){} // RVA: 0x7AE3E7AA0
-        public void VisitMemberListBinding(){} // RVA: 0x7AE3E7BF0
-        public void ValidateUnary(){} // RVA: 0x7AE3E7D40
-        public void ValidateBinary(){} // RVA: 0x7AE3E7E50
-        public void ValidateSwitch(){} // RVA: 0x7AE3E7FF0
-        public void ValidateChildType(){} // RVA: 0x7AE3E8070
-        public void VisitDynamic(){} // RVA: 0x7AE3D9BB0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Visit(){} // RVA: 0x87C630
+        public void VisitArguments(){} // RVA: 0x7065550
+        public void VisitParameters(){} // RVA: 0x7065560
+        public void VisitAndConvert(){} // RVA: 0x87C5F0
+        public void VisitBinary(){} // RVA: 0x7065570
+        public void VisitBlock(){} // RVA: 0x7065680
+        public void VisitConditional(){} // RVA: 0x7065780
+        public void VisitConstant(){} // RVA: 0x1CB3B00
+        public void VisitDebugInfo(){} // RVA: 0x1CB3B00
+        public void VisitDefault(){} // RVA: 0x1CB3B00
+        public void VisitExtension(){} // RVA: 0x704E690
+        public void VisitGoto(){} // RVA: 0x70658D0
+        public void VisitInvocation(){} // RVA: 0x70659D0
+        public void VisitLabelTarget(){} // RVA: 0x1CB3B00
+        public void VisitLabel(){} // RVA: 0x7065A70
+        public void VisitLambda(){} // RVA: 0x87C540
+        public void VisitLoop(){} // RVA: 0x7065B40
+        public void VisitMember(){} // RVA: 0x7065C40
+        public void VisitIndex(){} // RVA: 0x7065CF0
+        public void VisitMethodCall(){} // RVA: 0x7065E30
+        public void VisitNewArray(){} // RVA: 0x7065F00
+        public void VisitNew(){} // RVA: 0x7065F40
+        public void VisitParameter(){} // RVA: 0x1CB3B00
+        public void VisitRuntimeVariables(){} // RVA: 0x7066070
+        public void VisitSwitchCase(){} // RVA: 0x7066170
+        public void VisitSwitch(){} // RVA: 0x7066270
+        public void VisitCatchBlock(){} // RVA: 0x70664A0
+        public void VisitTry(){} // RVA: 0x70665F0
+        public void VisitTypeBinary(){} // RVA: 0x70667D0
+        public void VisitUnary(){} // RVA: 0x70668B0
+        public void VisitMemberInit(){} // RVA: 0x7066A90
+        public void VisitListInit(){} // RVA: 0x7066C30
+        public void VisitElementInit(){} // RVA: 0x7066DD0
+        public void VisitMemberBinding(){} // RVA: 0x7066E60
+        public void VisitMemberAssignment(){} // RVA: 0x7067000
+        public void VisitMemberMemberBinding(){} // RVA: 0x70670A0
+        public void VisitMemberListBinding(){} // RVA: 0x70671F0
+        public void ValidateUnary(){} // RVA: 0x7067340
+        public void ValidateBinary(){} // RVA: 0x7067450
+        public void ValidateSwitch(){} // RVA: 0x70675F0
+        public void ValidateChildType(){} // RVA: 0x7067670
+        public void VisitDynamic(){} // RVA: 0x7059270
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void get_TypeCore(){} // RVA: 0x7A7E00680
-        public void get_PublicType(){} // RVA: 0x7A7E00680
-        public void Compile(){} // RVA: 0x7A8051B10
-        public void Update(){} // RVA: 0x7A7E00BD0
-        public void SameParameters(){} // RVA: 0x7A7E019D0
-        public void Rewrite(){} // RVA: 0x7A7E00BD0
-        public void Accept(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x894290
+        public void get_TypeCore(){} // RVA: 0x87C0A0
+        public void get_PublicType(){} // RVA: 0x87C0A0
+        public void Compile(){} // RVA: 0xA94080
+        public void Update(){} // RVA: 0x87C5F0
+        public void SameParameters(){} // RVA: 0x87D350
+        public void Rewrite(){} // RVA: 0x87C5F0
+        public void Accept(){} // RVA: 0x87C540
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
     public class Expression`1 : LambdaExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB114F50
-        public void get_TypeCore(){} // RVA: 0x7AB114F60
-        public void get_PublicType(){} // RVA: 0x7AB115010
-        public void Compile(){} // RVA: 0x7A80804D0
-        public void Update(){} // RVA: 0x7AB115370
-        public void SameParameters(){} // RVA: 0x7AB114E60
-        public void Rewrite(){} // RVA: 0x7AB114E80
-        public void Accept(){} // RVA: 0x7AB114EA0
+        public void .ctor(){} // RVA: 0x3DCEA40
+        public void get_TypeCore(){} // RVA: 0x3DCE540
+        public void get_PublicType(){} // RVA: 0x3DCE5B0
+        public void Compile(){} // RVA: 0xAD0950
+        public void Update(){} // RVA: 0x3DCED00
+        public void SameParameters(){} // RVA: 0x3DCE950
+        public void Rewrite(){} // RVA: 0x3DCE970
+        public void Accept(){} // RVA: 0x3DCE990
     }
 
 }

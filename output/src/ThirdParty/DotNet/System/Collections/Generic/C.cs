@@ -1,12 +1,21 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 218
+// Methods: 221
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
+    public class CollectionExtensions : Object
+    {
+        // ── Methods ──
+        public void GetValueOrDefault(){} // RVA: 0x3028B20
+        public void Remove(){} // RVA: 0xA94080
+    }
+
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x62B4160
         public void CreateComparer(){} // RVA: 0x62B42B0
@@ -17,6 +26,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void CreateComparer(){} // RVA: 0x637FD40
@@ -27,6 +38,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -34,6 +47,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -41,6 +56,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x87C0D0
         public void CreateComparer(){} // RVA: 0x87C0D0
@@ -51,12 +68,16 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63C2630
         public void Compare(){} // RVA: 0x881CA0
@@ -64,6 +85,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63B1D10
         public void Compare(){} // RVA: 0x888F10
@@ -71,6 +94,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6365C00
         public void Compare(){} // RVA: 0x883060
@@ -78,6 +103,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -85,6 +112,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -95,6 +124,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -102,6 +133,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -109,6 +142,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -116,6 +151,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63BD930
         public void Compare(){} // RVA: 0x8830B0
@@ -123,6 +160,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -130,6 +169,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -137,6 +178,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637F4F0
         public void Compare(){} // RVA: 0x8830B0
@@ -147,6 +190,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63BEE30
         public void Compare(){} // RVA: 0x881CA0
@@ -154,6 +199,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -161,6 +208,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -168,6 +217,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6414100
         public void Compare(){} // RVA: 0x881CA0
@@ -175,6 +226,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6341CA0
         public void Compare(){} // RVA: 0x881CA0
@@ -182,6 +235,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -189,6 +244,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6371480
         public void Compare(){} // RVA: 0x882E80
@@ -199,6 +256,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63B9820
         public void Compare(){} // RVA: 0x881CA0
@@ -206,6 +265,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -213,6 +274,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -220,6 +283,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -227,6 +292,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -234,6 +301,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -241,6 +310,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -248,6 +319,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -255,6 +328,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -262,6 +337,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x634C4A0
         public void Compare(){} // RVA: 0x881CA0
@@ -269,6 +346,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x634C4A0
         public void Compare(){} // RVA: 0x881CA0
@@ -276,6 +355,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63A6520
         public void Compare(){} // RVA: 0x881CA0
@@ -283,6 +364,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x638DBF0
         public void Compare(){} // RVA: 0x881CA0
@@ -290,6 +373,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -297,6 +382,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -304,6 +391,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x62C6D40
         public void Compare(){} // RVA: 0x881CA0
@@ -311,6 +400,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -318,6 +409,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -325,6 +418,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -332,6 +427,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -339,6 +436,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -346,6 +445,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -353,6 +454,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -360,6 +463,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -367,6 +472,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x62C39F0
         public void Compare(){} // RVA: 0x881CA0
@@ -374,6 +481,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -381,6 +490,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -388,6 +499,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -395,6 +508,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -402,6 +517,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -409,6 +526,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -416,6 +535,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63A9620
         public void Compare(){} // RVA: 0x881CA0
@@ -423,6 +544,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63C1830
         public void Compare(){} // RVA: 0x8835D0
@@ -430,12 +553,16 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63F7A00
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63BE730
         public void CreateComparer(){} // RVA: 0x63BE880
@@ -446,6 +573,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -453,6 +582,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -460,6 +591,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -467,18 +600,42 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x62B2340
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
+    }
+
+    public class Comparer`1 : Object
+    {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
+    }
+
+    public class Comparer`1 : Object
+    {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x3C76B00
         public void CreateComparer(){} // RVA: 0x63C75E0
@@ -489,12 +646,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x63A8F20
-    }
+        public object defaultComparer;
 
-    public class Comparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -502,6 +655,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -509,6 +664,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -516,6 +673,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -523,6 +682,17 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
+    }
+
+    public class Comparer`1 : Object
+    {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x3C76B00
         public void CreateComparer(){} // RVA: 0x63C75E0
@@ -533,6 +703,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x62B2340
         public void CreateComparer(){} // RVA: 0x62B2490
@@ -543,6 +715,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6367800
         public void Compare(){} // RVA: 0x883060
@@ -550,6 +724,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -557,6 +733,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -564,18 +742,24 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63FFF00
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6400600
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -583,6 +767,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -590,30 +776,24 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x639B4F0
-    }
+        public object defaultComparer;
 
-    public class Comparer`1 : Object
-    {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x639B4F0
-    }
-
-    public class Comparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -621,6 +801,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -628,6 +810,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -635,6 +819,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -642,6 +828,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -649,6 +837,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -656,6 +846,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -663,6 +855,8 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x637FBF0
         public void Compare(){} // RVA: 0x8830B0
@@ -670,18 +864,16 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x639B4F0
-    }
+        public object defaultComparer;
 
-    public class Comparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x6401400
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void Compare(){} // RVA: 0x881CA0
@@ -689,13 +881,32 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x6338E00
-        public void Compare(){} // RVA: 0x882F20
+        public void get_Default(){} // RVA: 0x63D2590
     }
 
     public class Comparer`1 : Object
     {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x639B4F0
+    }
+
+    public class Comparer`1 : Object
+    {
+        public object defaultComparer;
+
+        // ── Methods ──
+        public void get_Default(){} // RVA: 0x639B4F0
+    }
+
+    public class Comparer`1 : Object
+    {
+        public object defaultComparer;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x639B4F0
         public void CreateComparer(){} // RVA: 0x639B640
@@ -706,21 +917,11 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class Comparer`1 : Object
     {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x639B4F0
-    }
+        public object defaultComparer;
 
-    public class Comparer`1 : Object
-    {
         // ── Methods ──
         public void get_Default(){} // RVA: 0x63BCB30
         public void Compare(){} // RVA: 0x882F20
-    }
-
-    public class Comparer`1 : Object
-    {
-        // ── Methods ──
-        public void get_Default(){} // RVA: 0x639B4F0
     }
 
 }

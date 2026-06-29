@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.Events
 {
     public class PersistentCall : Object
     {
+        public object m_Target;
+        public object m_TargetAssemblyTypeName;
+        public object m_MethodName;
+        public object m_Mode;
+        public object m_Arguments;
+        public object m_CallState;
+
         // ── Methods ──
         public void get_target(){} // RVA: 0x3E42230
         public void get_targetAssemblyTypeName(){} // RVA: 0x7C24DE0
@@ -24,6 +31,8 @@ namespace ThirdParty.Unity.UnityEngine.Events
 
     public class PersistentCallGroup : Object
     {
+        public object m_Calls;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C25AF0
         public void get_Count(){} // RVA: 0x7C25BB0

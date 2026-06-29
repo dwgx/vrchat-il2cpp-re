@@ -7,6 +7,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 {
     public class Any : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object typeUrl_;
+        public object value_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64B2CF0
         public void get_Descriptor(){} // RVA: 0x64B2D50
@@ -36,6 +41,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class AnyReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64B2790
         public void .cctor(){} // RVA: 0x64B27F0
@@ -43,6 +50,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Duration : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object seconds_;
+        public object nanos_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64B4A60
         public void get_Descriptor(){} // RVA: 0x64B4AC0
@@ -76,6 +88,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class DurationReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64B44E0
         public void .cctor(){} // RVA: 0x64B4540
@@ -83,6 +97,9 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Empty : Object
     {
+        public object _parser;
+        public object _unknownFields;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64B6A20
         public void get_Descriptor(){} // RVA: 0x64B6A80
@@ -102,6 +119,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class EmptyReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64B6530
         public void .cctor(){} // RVA: 0x64B6590
@@ -109,6 +128,16 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Enum : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object _repeated_enumvalue_codec;
+        public object enumvalue_;
+        public object _repeated_options_codec;
+        public object options_;
+        public object sourceContext_;
+        public object syntax_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C7130
         public void get_Descriptor(){} // RVA: 0x64C7190
@@ -136,6 +165,13 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class EnumValue : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object number_;
+        public object _repeated_options_codec;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C88C0
         public void get_Descriptor(){} // RVA: 0x64C8920
@@ -160,6 +196,20 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Field : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object kind_;
+        public object cardinality_;
+        public object number_;
+        public object name_;
+        public object typeUrl_;
+        public object oneofIndex_;
+        public object packed_;
+        public object _repeated_options_codec;
+        public object options_;
+        public object jsonName_;
+        public object defaultValue_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C5400
         public void get_Descriptor(){} // RVA: 0x64C5460
@@ -198,6 +248,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class FieldMask : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_paths_codec;
+        public object paths_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64B7900
         public void get_Descriptor(){} // RVA: 0x64B7960
@@ -230,6 +285,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class FieldMaskReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64B73C0
         public void .cctor(){} // RVA: 0x64B7420
@@ -237,6 +294,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class ListValue : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_values_codec;
+        public object values_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64BF270
         public void get_Descriptor(){} // RVA: 0x64BF2D0
@@ -257,6 +319,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Option : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object value_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C9B30
         public void get_Descriptor(){} // RVA: 0x64C9B90
@@ -280,6 +347,10 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class SourceContext : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object fileName_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64B9F50
         public void get_Descriptor(){} // RVA: 0x64B9FB0
@@ -301,6 +372,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class SourceContextReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64B99F0
         public void .cctor(){} // RVA: 0x64B9A50
@@ -308,6 +381,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Struct : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _map_fields_codec;
+        public object fields_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64BB850
         public void get_Descriptor(){} // RVA: 0x64BB8B0
@@ -328,6 +406,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class StructReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64BAD50
         public void .cctor(){} // RVA: 0x64BADB0
@@ -335,6 +415,12 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Timestamp : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object seconds_;
+        public object nanos_;
+        public object UnixEpoch;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C06C0
         public void get_Descriptor(){} // RVA: 0x64C0720
@@ -375,6 +461,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class TimestampReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64C0140
         public void .cctor(){} // RVA: 0x64C01A0
@@ -382,6 +470,18 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Type : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object _repeated_fields_codec;
+        public object fields_;
+        public object _repeated_oneofs_codec;
+        public object oneofs_;
+        public object _repeated_options_codec;
+        public object options_;
+        public object sourceContext_;
+        public object syntax_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64C3930
         public void get_Descriptor(){} // RVA: 0x64C3990
@@ -410,6 +510,8 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class TypeReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x64C2530
         public void .cctor(){} // RVA: 0x64C2590
@@ -417,6 +519,11 @@ namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 
     public class Value : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object kind_;
+        public object kindCase_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x64BC800
         public void get_Descriptor(){} // RVA: 0x64BC860

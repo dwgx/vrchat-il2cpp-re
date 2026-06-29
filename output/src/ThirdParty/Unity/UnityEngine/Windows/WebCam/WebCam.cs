@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.Windows.WebCam
 {
     public class PhotoCapture : Object
     {
+        public object m_NativePtr;
+        public object HR_SUCCESS;
+
         // ── Methods ──
         public void MakeCaptureResult(){} // RVA: 0x7C23390
         public void InvokeOnCreatedResourceDelegate(){} // RVA: 0x7C23400
@@ -25,6 +28,11 @@ namespace ThirdParty.Unity.UnityEngine.Windows.WebCam
 
     public class PhotoCaptureFrame : Object
     {
+        public object m_NativePtr;
+        public object _dataLength;
+        public object _hasLocationData;
+        public object _pixelFormat;
+
         // ── Methods ──
         public void get_dataLength(){} // RVA: 0xE62D00
         public void set_dataLength(){} // RVA: 0x1033F40
@@ -66,6 +74,9 @@ namespace ThirdParty.Unity.UnityEngine.Windows.WebCam
 
     public class VideoCapture : Object
     {
+        public object m_NativePtr;
+        public object HR_SUCCESS;
+
         // ── Methods ──
         public void MakeCaptureResult(){} // RVA: 0x7C24010
         public void InvokeOnCreatedVideoCaptureResourceDelegate(){} // RVA: 0x7C24080

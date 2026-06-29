@@ -5,9 +5,262 @@
 
 namespace VRC.Misc
 {
-    /// <summary>Originally: ÌÌÍÌÏÌÌÌÌÏÎÍÏÌÍÍÏÎÍÏÎÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_08A5 : ValueType
+    /// <summary>Originally: ÍÏÎÍÎÎÍÏÌÎÍÍÏÎÏÏÏÏÏÎÎÍÍ</summary>
+    public class RequiresStoringk__BackingFieldSibling_20C8 : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7E450
+        public void InternalEquals(){} // RVA: 0x47F10
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x7E450
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77E70
+        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
+        public void x(){} // RVA: 0x7E450
+        // ── Unresolved (hash) ──
+        public void m_FBA(){} // RVA: 0x47F10
+        public void m_054(){} // RVA: 0x77900
+        public void m_2F5(){} // RVA: 0x7E3E0
+        public void m_993(){} // RVA: 0x47F10
+        public void m_D8F(){} // RVA: 0x47F10
+        public void m_4E7(){} // RVA: 0x47F10
+    }
+
+    /// <summary>Originally: ÎÍÏÏÏÌÍÍÍÏÍÍÏÏÎÎÎÌÎÏÍÎÎ</summary>
+    public class RequiresStoringk__BackingFieldSibling_30F7 : ValueType
+    {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x7E450
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x47F10
+        public void ToString(){} // RVA: 0x77ED0
+        public void GetHashCodeOfPtr(){} // RVA: 0x77E70
+        public void x(){} // RVA: 0x77900
+        // ── Unresolved (hash) ──
+        public void m_548(){} // RVA: 0x7E450
+        public void m_ACF(){} // RVA: 0x77E70
+        public void m_B8F(){} // RVA: 0x77900
+        public void m_2F5(){} // RVA: 0x7E3E0
+    }
+
+    /// <summary>Originally: ÍÎÌÏÌÍÎÏÏÌÌÏÎÏÏÎÎÍÎÏÏÏÏ</summary>
+    public class RequiresStoringk__BackingFieldSibling_59FB : ValueType
+    {
+        public object f_BEF;
+        public object f_BCB;
+        public object f_FE0;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x47F10
+        public void InternalEquals(){} // RVA: 0x47F10
+        public void DefaultEquals(){} // RVA: 0x77E70
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77E70
+        public void GetHashCodeOfPtr(){} // RVA: 0xB1800
+        public void x(){} // RVA: 0xB1810
+        // ── Unresolved (hash) ──
+        public void m_548(){} // RVA: 0x77ED0
+        public void m_886(){} // RVA: 0x47F10
+        public void m_D8C(){} // RVA: 0xB1800
+        public void m_798(){} // RVA: 0xB1800
+    }
+
+    /// <summary>Originally: ÍÌÍÍÌÏÌÎÎÏÌÎÌÏÎÎÍÎÎÏÍÎÌ</summary>
+    public class RequiresStoringk__BackingFieldSibling_6412 : ValueType
+    {
+        public object f_BCB;
+        public object f_93E;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x47F10
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x14790
+        public void GetHashCode(){} // RVA: 0x77900
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x14790
+        // ── Unresolved (hash) ──
+        public void m_134(){} // RVA: 0x47F10
+        public void m_AFB(){} // RVA: 0x92DD0
+        public void m_8CC(){} // RVA: 0x92DD0
+        public void m_F92(){} // RVA: 0x77900
+    }
+
+    /// <summary>Originally: ÎÎÏÍÏÌÍÌÍÎÎÏÌÎÍÍÍÌÎÏÏÍÏ</summary>
+    public class RequiresStoringk__BackingFieldSibling_9075 : ValueType
+    {
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x47F10
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x77900
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_590(){} // RVA: 0x77900
+    }
+
+    /// <summary>Originally: ÎÍÌÏÎÏÍÍÌÎÏÎÌÌÌÍÍÍÏÌÍÌÌ</summary>
+    public class RequiresStoringk__BackingFieldSibling_90FD : ValueType
+    {
+        public object f_BF5;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77E70
+        public void InternalEquals(){} // RVA: 0x77E70
+        public void DefaultEquals(){} // RVA: 0x77900
+        public void GetHashCode(){} // RVA: 0x77E70
+        public void InternalGetHashCode(){} // RVA: 0x77E70
+        public void ToString(){} // RVA: 0x47F10
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x77900
+        // ── Unresolved (hash) ──
+        public void m_548(){} // RVA: 0x77ED0
+    }
+
+    /// <summary>Originally: ÏÍÎÏÎÌÎÎÍÍÍÏÏÍÏÎÎÍÎÌÌÏÍ</summary>
+    public class RequiresStoringk__BackingFieldSibling_95D3 : ValueType
+    {
+        public object f_BF5;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77ED0
+        public void InternalEquals(){} // RVA: 0x77E70
+        public void DefaultEquals(){} // RVA: 0x77E70
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x77E70
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x77ED0
+        // ── Unresolved (hash) ──
+        public void m_587(){} // RVA: 0x77E70
+        public void m_C40(){} // RVA: 0x47F10
+        public void m_091(){} // RVA: 0x77E70
+        public void m_548(){} // RVA: 0x77ED0
+    }
+
+    /// <summary>Originally: ÍÌÍÎÎÍÍÍÎÍÎÏÎÏÌÌÍÍÍÎÏÎÌ</summary>
+    public class RequiresStoringk__BackingFieldSibling_ABDA : ValueType
+    {
+        public object f_BF5;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77ED0
+        public void InternalEquals(){} // RVA: 0x77E70
+        public void DefaultEquals(){} // RVA: 0x77E70
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77ED0
+        public void GetHashCodeOfPtr(){} // RVA: 0x47F10
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_587(){} // RVA: 0x77E70
+    }
+
+    /// <summary>Originally: ÎÍÏÌÍÎÍÎÎÍÍÌÎÏÍÌÎÎÎÌÌÌÎ</summary>
+    public class RequiresStoringk__BackingFieldSibling_B828 : ValueType
+    {
+        public object f_BF5;
+        public object f_BB8;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x47F10
+        public void InternalEquals(){} // RVA: 0x47F10
+        public void DefaultEquals(){} // RVA: 0x77ED0
+        public void GetHashCode(){} // RVA: 0x77E70
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77ED0
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_9F8(){} // RVA: 0x77900
+        public void m_2C1(){} // RVA: 0x77E70
+        public void m_A95(){} // RVA: 0x77ED0
+        public void m_AA1(){} // RVA: 0x77ED0
+    }
+
+    /// <summary>Originally: ÏÌÌÍÏÏÏÌÌÌÌÎÍÍÍÎÏÍÌÎÏÌÍ</summary>
+    public class RequiresStoringk__BackingFieldSibling_CFFB : ValueType
+    {
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x47F10
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x47F10
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_1BF(){} // RVA: 0x77900
+        public void m_590(){} // RVA: 0x77900
+    }
+
+    /// <summary>Originally: ÍÎÍÌÌÌÌÏÎÍÍÍÏÏÎÏÎÏÍÌÌÌÌ</summary>
+    public class RequiresStoringk__BackingFieldSibling_D700 : ValueType
+    {
+        public object f_BCB;
+        public object f_E99;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x77900
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x77E70
+        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_D62(){} // RVA: 0x77E70
+        public void m_B17(){} // RVA: 0x77E70
+        public void m_FC6(){} // RVA: 0x47F10
+        public void m_CEC(){} // RVA: 0x77E70
+    }
+
+    /// <summary>Originally: ÍÎÌÎÎÎÏÍÍÍÎÍÎÌÌÎÌÏÎÍÏÎÎ</summary>
+    public class RequiresStoringk__BackingFieldSibling_E670 : ValueType
+    {
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x47F10
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x77900
+        public void InternalGetHashCode(){} // RVA: 0x47F10
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        // ── Unresolved (hash) ──
+        public void m_1BF(){} // RVA: 0x77900
+    }
+
+    /// <summary>Originally: ÌÌÍÌÏÌÌÌÌÏÎÍÏÌÍÍÏÎÍÏÎÎÍ</summary>
+    public class RequiresStoringk__BackingRelated_08A5 : ValueType
+    {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77900
@@ -21,8 +274,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÏÎÏÌÎÎÎÎÎÌÏÍÏÌÌÍÌÌÏÌÎ</summary>
-    public class RequiresStoringSiblingRelRelated_08B6 : ValueType
+    public class RequiresStoringk__BackingRelated_08B6 : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77900
@@ -36,8 +291,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÌÍÍÎÎÌÏÎÌÏÎÎÏÏÌÎÏÎÏÍÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_0BFF : ValueType
+    public class RequiresStoringk__BackingRelated_0BFF : ValueType
     {
+        public object f_0E0;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x47F10
@@ -49,8 +306,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÍÎÍÌÎÎÎÍÍÌÌÎÎÌÎÏÍÏÍÎÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_0EA3 : ValueType
+    public class RequiresStoringk__BackingRelated_0EA3 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x29580
         public void InternalEquals(){} // RVA: 0x77E60
@@ -69,8 +330,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÎÎÎÎÌÎÍÏÎÌÍÍÍÏÌÏÌÏÏÎÌ</summary>
-    public class RequiresStoringSiblingRelRelated_116B : ValueType
+    public class RequiresStoringk__BackingRelated_116B : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -87,8 +351,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÏÍÌÍÌÏÎÏÍÎÎÏÏÍÎÍÌÌÏÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_12A8 : ValueType
+    public class RequiresStoringk__BackingRelated_12A8 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x931A0
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -110,8 +379,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÌÎÍÍÎÍÍÎÎÎÍÏÍÍÎÍÏÏÎÍÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_1316 : ValueType
+    public class RequiresStoringk__BackingRelated_1316 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x77E70
@@ -132,8 +405,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÏÏÎÌÌÍÍÎÌÌÎÌÍÌÌÍÎÏÎÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_14BB : ValueType
+    public class RequiresStoringk__BackingRelated_14BB : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77900
@@ -148,8 +423,17 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÌÌÏÏÌÍÍÎÏÎÎÎÌÏÌÎÌÍÌÍÌÎ</summary>
-    public class RequiresStoringSiblingRelRelated_15DF : ValueType
+    public class RequiresStoringk__BackingRelated_15DF : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+        public object f_4C1;
+        public object f_9D8;
+        public object f_364;
+        public object f_9CA;
+        public object f_21E;
+        public object f_C3A;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x8C630
@@ -169,8 +453,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÌÏÍÏÍÍÎÍÏÎÏÎÌÌÎÌÏÌÍÌÍ</summary>
-    public class RequiresStoringSiblingRelRelated_18A5 : ValueType
+    public class RequiresStoringk__BackingRelated_18A5 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -190,8 +478,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÍÍÎÎÏÎÌÏÏÎÍÎÌÏÍÎÏÌÌÌÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_1A40 : ValueType
+    public class RequiresStoringk__BackingRelated_1A40 : ValueType
     {
+        public object f_97F;
+        public object f_0E0;
+        public object f_BF5;
+        public object f_BCB;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x93120
         public void InternalEquals(){} // RVA: 0x7E450
@@ -215,8 +509,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÎÏÎÍÏÏÎÏÌÌÏÍÍÎÌÌÍÏÌÎÍÍ</summary>
-    public class RequiresStoringSiblingRelRelated_1AF9 : ValueType
+    public class RequiresStoringk__BackingRelated_1AF9 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+        public object f_773;
+        public object f_AA4;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E3E0
         public void InternalEquals(){} // RVA: 0x931A0
@@ -237,8 +536,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÎÍÌÏÏÏÌÍÍÎÌÌÎÏÍÎÌÏÏÎÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_1C26 : ValueType
+    public class RequiresStoringk__BackingRelated_1C26 : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -257,8 +560,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÏÎÏÍÏÌÎÏÎÌÎÍÌÌÎÌÎÍÎÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_2075 : ValueType
+    public class RequiresStoringk__BackingRelated_2075 : ValueType
     {
+        public object f_BF5;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -273,8 +579,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÌÎÌÍÏÍÎÏÏÎÍÎÌÏÌÏÍÍÎÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_2711 : ValueType
+    public class RequiresStoringk__BackingRelated_2711 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_837;
+        public object f_02C;
+        public object f_2FE;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x8E1F0
         public void InternalEquals(){} // RVA: 0x77E70
@@ -294,8 +606,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÍÎÎÎÏÏÎÌÎÎÍÌÎÏÍÌÎÍÎÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_2A16 : ValueType
+    public class RequiresStoringk__BackingRelated_2A16 : ValueType
     {
+        public object f_BF5;
+        public object f_9E2;
+        public object f_B5A;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x11BF00
         public void InternalEquals(){} // RVA: 0xE3200
@@ -315,8 +631,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÌÏÏÏÎÌÌÌÌÍÎÌÍÏÎÎÍÎÌÏÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_2BDE : ValueType
+    public class RequiresStoringk__BackingRelated_2BDE : ValueType
     {
+        public object f_C9F;
+        public object f_BF5;
+        public object f_97F;
+        public object f_9E2;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x29580
         public void InternalEquals(){} // RVA: 0x11BC60
@@ -337,8 +658,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÎÍÎÏÏÌÍÎÏÎÍÎÏÎÎÏÏÍÌÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_350D : ValueType
+    public class RequiresStoringk__BackingRelated_350D : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_0E0;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x29580
@@ -360,8 +685,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÎÍÏÏÏÏÎÏÎÎÌÌÍÌÌÏÌÍÏÌÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_357F : ValueType
+    public class RequiresStoringk__BackingRelated_357F : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77E60
@@ -378,8 +706,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÎÏÏÍÌÍÏÍÍÏÍÏÏÎÎÏÎÎÌÍÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_3798 : ValueType
+    public class RequiresStoringk__BackingRelated_3798 : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_F8D;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xDA1B0
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -396,8 +728,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÎÍÏÌÎÍÌÍÍÏÌÌÍÌÎÌÍÍÌÌÎ</summary>
-    public class RequiresStoringSiblingRelRelated_38AB : ValueType
+    public class RequiresStoringk__BackingRelated_38AB : ValueType
     {
+        public object f_0E0;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -413,8 +748,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÌÏÌÌÌÌÌÎÍÎÎÎÌÎÌÌÎÌÌÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_391D : ValueType
+    public class RequiresStoringk__BackingRelated_391D : ValueType
     {
+        public object f_C9F;
+        public object f_47A;
+        public object f_97F;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x29580
         public void InternalEquals(){} // RVA: 0x77EE0
@@ -433,8 +772,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÏÌÍÍÍÌÏÏÏÍÎÎÎÎÌÌÍÏÏÏÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_398A : ValueType
+    public class RequiresStoringk__BackingRelated_398A : ValueType
     {
+        public object f_BF5;
+        public object f_837;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -451,8 +793,15 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÌÏÎÌÏÏÎÍÎÍÎÌÌÎÍÍÎÏÍÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_3FCD : ValueType
+    public class RequiresStoringk__BackingRelated_3FCD : ValueType
     {
+        public object f_97F;
+        public object f_562;
+        public object f_BF5;
+        public object f_C3D;
+        public object f_B00;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x93120
         public void InternalEquals(){} // RVA: 0x8C670
@@ -472,8 +821,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÎÏÌÌÏÎÎÏÏÍÍÎÎÍÎÎÎÏÍÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_43B2 : ValueType
+    public class RequiresStoringk__BackingRelated_43B2 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+        public object f_364;
+        public object f_5C1;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E3E0
         public void InternalEquals(){} // RVA: 0x8C6E0
@@ -495,8 +849,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÍÍÌÏÌÌÍÎÌÍÍÍÎÌÎÎÏÏÌÎÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_4BE5 : ValueType
+    public class RequiresStoringk__BackingRelated_4BE5 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x931A0
@@ -520,8 +879,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÎÎÎÍÎÏÌÏÏÎÏÎÏÍÏÎÏÏÍÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_4E19 : ValueType
+    public class RequiresStoringk__BackingRelated_4E19 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -540,8 +903,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÎÎÏÍÍÏÎÍÌÌÏÏÏÏÏÏÏÌÌÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_5393 : ValueType
+    public class RequiresStoringk__BackingRelated_5393 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x125A10
         public void InternalEquals(){} // RVA: 0x125A60
@@ -563,8 +931,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÎÎÌÏÍÎÏÏÍÍÏÍÎÏÏÎÍÏÎÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_548C : ValueType
+    public class RequiresStoringk__BackingRelated_548C : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -579,8 +949,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÍÍÍÌÍÎÌÏÎÍÍÌÍÏÏÏÌÌÎÎÏ</summary>
-    public class RequiresStoringSiblingRelRelated_595F : ValueType
+    public class RequiresStoringk__BackingRelated_595F : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E60
         public void InternalEquals(){} // RVA: 0x77E60
@@ -602,8 +976,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÎÏÍÍÌÍÎÎÏÎÏÏÎÍÌÏÎÏÏÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_5C50 : ValueType
+    public class RequiresStoringk__BackingRelated_5C50 : ValueType
     {
+        public object f_2D3;
+        public object f_88B;
+        public object f_837;
+        public object f_93A;
+        public object f_662;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77E60
@@ -624,8 +1004,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÎÍÎÍÎÎÎÎÍÍÏÍÍÏÎÎÎÌÌÌÍ</summary>
-    public class RequiresStoringSiblingRelRelated_63A1 : ValueType
+    public class RequiresStoringk__BackingRelated_63A1 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x128A90
@@ -647,8 +1031,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÎÏÏÌÎÌÏÌÌÍÏÌÎÌÏÍÏÌÎÍÌ</summary>
-    public class RequiresStoringSiblingRelRelated_6509 : ValueType
+    public class RequiresStoringk__BackingRelated_6509 : ValueType
     {
+        public object f_BF5;
+        public object f_9E2;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x11BF00
@@ -663,8 +1050,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÌÌÏÌÌÏÎÎÎÍÌÍÍÍÎÍÌÍÌÍÌ</summary>
-    public class RequiresStoringSiblingRelRelated_65A0 : ValueType
+    public class RequiresStoringk__BackingRelated_65A0 : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77900
@@ -680,8 +1069,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÏÍÌÎÌÎÌÌÍÎÎÎÏÌÌÍÏÎÏÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_6740 : ValueType
+    public class RequiresStoringk__BackingRelated_6740 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E60
         public void InternalEquals(){} // RVA: 0x29580
@@ -703,8 +1096,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÌÌÏÏÌÌÌÍÏÍÏÏÌÍÍÍÌÎÏÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_67C0 : ValueType
+    public class RequiresStoringk__BackingRelated_67C0 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+        public object f_29F;
+        public object f_B71;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x93120
@@ -723,8 +1121,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÌÍÏÎÏÌÎÏÌÏÍÍÏÍÌÎÍÏÌÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_68C4 : ValueType
+    public class RequiresStoringk__BackingRelated_68C4 : ValueType
     {
+        public object f_97F;
+        public object f_BB8;
+        public object f_BCB;
+        public object f_092;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -746,8 +1149,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÏÍÍÏÌÍÎÎÎÌÎÍÌÌÌÎÎÏÍÍÍ</summary>
-    public class RequiresStoringSiblingRelRelated_716D : ValueType
+    public class RequiresStoringk__BackingRelated_716D : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+        public object f_59E;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x8C670
         public void InternalEquals(){} // RVA: 0x7E450
@@ -771,8 +1180,15 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÍÌÍÌÌÏÌÏÍÍÍÏÎÍÏÍÌÌÎÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_71DB : ValueType
+    public class RequiresStoringk__BackingRelated_71DB : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BEF;
+        public object f_4C1;
+        public object f_F6D;
+        public object f_BD1;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0xE1E00
@@ -792,8 +1208,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÏÏÎÏÌÎÏÌÌÏÍÍÌÍÍÏÌÏÏÍÍ</summary>
-    public class RequiresStoringSiblingRelRelated_7280 : ValueType
+    public class RequiresStoringk__BackingRelated_7280 : ValueType
     {
+        public object f_97F;
+        public object f_5F3;
+        public object f_BF5;
+        public object f_BCB;
+        public object f_562;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xABFA0
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -813,8 +1235,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÎÌÌÌÍÍÎÌÎÍÍÍÍÏÌÎÏÍÌÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_74C2 : ValueType
+    public class RequiresStoringk__BackingRelated_74C2 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+        public object f_8E3;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x93120
         public void InternalEquals(){} // RVA: 0x77E70
@@ -836,8 +1263,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÌÍÏÍÎÏÍÎÍÏÌÌÏÍÎÌÎÍÏÎÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_7989 : ValueType
+    public class RequiresStoringk__BackingRelated_7989 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x77E60
@@ -859,8 +1290,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÌÎÍÏÏÏÏÎÏÏÍÍÎÌÍÌÏÎÏÎÌÍ</summary>
-    public class RequiresStoringSiblingRelRelated_83B0 : ValueType
+    public class RequiresStoringk__BackingRelated_83B0 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77E60
@@ -882,8 +1317,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÌÌÎÎÌÍÌÍÌÎÌÌÎÍÌÌÌÌÍÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_85D7 : ValueType
+    public class RequiresStoringk__BackingRelated_85D7 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x123A30
         public void InternalEquals(){} // RVA: 0x77E70
@@ -905,8 +1344,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÏÎÌÎÎÏÎÏÌÎÎÌÎÌÎÏÏÍÏÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_8B25 : ValueType
+    public class RequiresStoringk__BackingRelated_8B25 : ValueType
     {
+        public object f_BF5;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77E70
@@ -922,8 +1364,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÏÍÏÏÎÏÏÌÌÌÏÍÏÏÏÏÎÎÏÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_8C89 : ValueType
+    public class RequiresStoringk__BackingRelated_8C89 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -944,8 +1390,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÏÏÏÍÎÍÏÎÍÏÍÌÎÌÍÍÎÌÍÌÏ</summary>
-    public class RequiresStoringSiblingRelRelated_9188 : ValueType
+    public class RequiresStoringk__BackingRelated_9188 : ValueType
     {
+        public object f_BF5;
+        public object f_837;
+        public object f_E39;
+        public object f_021;
+        public object f_F28;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77E70
@@ -968,8 +1420,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÎÍÌÌÍÎÌÌÍÍÎÌÍÏÏÍÍÍÌÎÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_92F3 : ValueType
+    public class RequiresStoringk__BackingRelated_92F3 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x47F10
@@ -984,8 +1439,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÏÌÏÌÏÏÌÎÏÌÌÍÎÌÌÎÎÍÏÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_937E : ValueType
+    public class RequiresStoringk__BackingRelated_937E : ValueType
     {
+        public object f_97F;
+        public object f_BB8;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x99090
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1007,8 +1466,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÏÌÌÎÎÌÎÍÏÏÍÌÎÏÎÌÍÏÎÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_9A7E : ValueType
+    public class RequiresStoringk__BackingRelated_9A7E : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77E60
@@ -1025,8 +1487,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÎÍÎÎÏÌÍÏÏÏÎÏÏÎÏÏÌÎÎÌÌÎ</summary>
-    public class RequiresStoringSiblingRelRelated_9C49 : ValueType
+    public class RequiresStoringk__BackingRelated_9C49 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x99090
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -1047,8 +1513,15 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÌÏÍÏÎÌÍÍÍÏÌÎÌÌÍÎÏÌÍÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_9DBA : ValueType
+    public class RequiresStoringk__BackingRelated_9DBA : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+        public object f_364;
+        public object f_5C1;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x108720
         public void InternalEquals(){} // RVA: 0x931A0
@@ -1068,8 +1541,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÍÌÎÍÌÌÎÎÍÎÏÎÌÎÎÏÍÏÏÌÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_A399 : ValueType
+    public class RequiresStoringk__BackingRelated_A399 : ValueType
     {
+        public object f_97F;
+        public object f_0E0;
+        public object f_BF5;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1092,8 +1570,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÎÏÍÏÌÍÏÎÌÏÍÎÏÎÌÏÍÏÏÏÌÍ</summary>
-    public class RequiresStoringSiblingRelRelated_A63D : ValueType
+    public class RequiresStoringk__BackingRelated_A63D : ValueType
     {
+        public object f_BF5;
+        public object f_837;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77900
@@ -1111,8 +1592,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÎÎÏÎÏÌÏÌÎÌÎÍÎÎÌÎÍÌÍÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_A748 : ValueType
+    public class RequiresStoringk__BackingRelated_A748 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1130,8 +1614,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÍÎÎÍÏÏÌÏÌÌÍÎÍÎÌÎÎÌÏÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_A89D : ValueType
+    public class RequiresStoringk__BackingRelated_A89D : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1143,8 +1629,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÍÏÍÏÎÍÏÏÏÎÌÍÌÍÌÌÎÌÎÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_AA69 : ValueType
+    public class RequiresStoringk__BackingRelated_AA69 : ValueType
     {
+        public object f_BF5;
+        public object f_9E2;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x11BF20
@@ -1159,8 +1648,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÎÌÌÌÎÍÌÏÏÎÏÍÎÍÌÌÍÎÎÏÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_AC96 : ValueType
+    public class RequiresStoringk__BackingRelated_AC96 : ValueType
     {
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1178,8 +1670,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÎÍÌÌÏÎÍÏÏÌÌÌÌÌÍÎÏÎÏÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_AD5A : ValueType
+    public class RequiresStoringk__BackingRelated_AD5A : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x77E60
@@ -1201,8 +1697,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÎÌÌÌÌÍÏÍÌÍÍÎÏÌÎÏÏÍÏÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_ADA3 : ValueType
+    public class RequiresStoringk__BackingRelated_ADA3 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_EF0;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7E450
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1223,8 +1723,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÏÌÍÍÎÎÍÍÏÌÍÌÍÎÏÌÏÏÌÎÏ</summary>
-    public class RequiresStoringSiblingRelRelated_ADDB : ValueType
+    public class RequiresStoringk__BackingRelated_ADDB : ValueType
     {
+        public object f_C9F;
+        public object f_BF5;
+        public object f_97F;
+        public object f_9E2;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1246,8 +1751,16 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÎÍÍÍÌÍÏÌÌÍÎÍÏÍÌÎÏÍÌÏÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_AFD1 : ValueType
+    public class RequiresStoringk__BackingRelated_AFD1 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+        public object f_364;
+        public object f_DCC;
+        public object f_F43;
+        public object f_7EC;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x7E450
@@ -1267,8 +1780,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÌÏÌÎÎÎÍÌÏÎÌÏÎÏÏÎÍÌÏÎÍÌ</summary>
-    public class RequiresStoringSiblingRelRelated_B68C : ValueType
+    public class RequiresStoringk__BackingRelated_B68C : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1280,8 +1795,15 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÎÎÏÍÏÌÍÏÏÌÌÎÍÍÌÎÌÎÌÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_C084 : ValueType
+    public class RequiresStoringk__BackingRelated_C084 : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_837;
+        public object f_2FE;
+        public object f_78C;
+        public object f_098;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0xA11A0
         public void InternalEquals(){} // RVA: 0x77900
@@ -1301,8 +1823,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÏÎÏÎÏÎÍÎÏÍÌÎÌÎÍÏÌÏÎÏÎÌ</summary>
-    public class RequiresStoringSiblingRelRelated_C266 : ValueType
+    public class RequiresStoringk__BackingRelated_C266 : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1319,8 +1844,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÍÌÌÏÎÍÌÌÍÏÍÍÍÍÏÎÎÌÍÌÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_C26A : ValueType
+    public class RequiresStoringk__BackingRelated_C26A : ValueType
     {
+        public object f_BF5;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1336,8 +1864,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÌÌÍÎÌÎÏÌÌÎÎÏÌÎÌÍÏÏÎÎÎ</summary>
-    public class RequiresStoringSiblingRelRelated_C70A : ValueType
+    public class RequiresStoringk__BackingRelated_C70A : ValueType
     {
+        public object f_C9F;
+        public object f_BF5;
+        public object f_97F;
+        public object f_9E2;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x29580
         public void InternalEquals(){} // RVA: 0x7E450
@@ -1358,8 +1891,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÌÎÎÏÏÎÏÎÏÌÏÎÎÍÌÌÌÍÎÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_CF3E : ValueType
+    public class RequiresStoringk__BackingRelated_CF3E : ValueType
     {
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1375,8 +1910,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÎÎÌÏÏÏÏÎÎÏÎÏÎÌÎÎÏÌÎÍÎ</summary>
-    public class RequiresStoringSiblingRelRelated_D0CD : ValueType
+    public class RequiresStoringk__BackingRelated_D0CD : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x29580
         public void InternalEquals(){} // RVA: 0x131CC0
@@ -1397,8 +1936,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÏÎÌÏÎÎÌÌÍÍÏÍÌÏÏÌÏÍÌÏÌ</summary>
-    public class RequiresStoringSiblingRelRelated_D0F4 : ValueType
+    public class RequiresStoringk__BackingRelated_D0F4 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E60
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1420,8 +1963,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÎÌÏÎÌÍÌÏÌÌÌÏÏÍÏÍÍÍÌÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_D4C2 : ValueType
+    public class RequiresStoringk__BackingRelated_D4C2 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_837;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x931A0
@@ -1443,8 +1991,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÌÍÎÌÎÎÎÎÌÎÍÎÎÎÍÏÎÍÏÍÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_D716 : ValueType
+    public class RequiresStoringk__BackingRelated_D716 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_837;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E60
         public void InternalEquals(){} // RVA: 0x93120
@@ -1467,8 +2020,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÍÌÌÌÎÍÏÏÏÎÌÎÌÏÎÎÏÎÌÌÏÎ</summary>
-    public class RequiresStoringSiblingRelRelated_DBA5 : ValueType
+    public class RequiresStoringk__BackingRelated_DBA5 : ValueType
     {
+        public object f_97F;
+        public object f_0E0;
+        public object f_BF5;
+        public object f_BCB;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x8C670
         public void InternalEquals(){} // RVA: 0x93120
@@ -1491,8 +2050,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÏÏÎÍÏÌÌÌÏÍÌÎÎÏÎÎÏÍÎÍÍ</summary>
-    public class RequiresStoringSiblingRelRelated_DFA9 : ValueType
+    public class RequiresStoringk__BackingRelated_DFA9 : ValueType
     {
+        public object f_97F;
+        public object f_BB8;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1511,8 +2073,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÎÏÏÌÌÍÎÌÍÎÍÍÍÌÌÌÎÏÏÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_E219 : ValueType
+    public class RequiresStoringk__BackingRelated_E219 : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77900
@@ -1526,8 +2090,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÍÌÏÌÎÍÎÍÏÌÌÍÌÎÎÌÌÌÍÌÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_E4AF : ValueType
+    public class RequiresStoringk__BackingRelated_E4AF : ValueType
     {
+        public object f_97F;
+        public object f_BB8;
+        public object f_BF5;
+        public object f_845;
+        public object f_79B;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1547,8 +2117,10 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÍÍÌÏÎÍÍÏÎÍÌÌÌÍÎÎÎÏÏÌÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_E687 : ValueType
+    public class RequiresStoringk__BackingRelated_E687 : ValueType
     {
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1563,8 +2135,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÏÎÍÎÍÍÍÌÌÌÌÌÌÎÌÎÌÏÎÎÎÏ</summary>
-    public class RequiresStoringSiblingRelRelated_E7EA : ValueType
+    public class RequiresStoringk__BackingRelated_E7EA : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_BCB;
+        public object f_395;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x7E450
@@ -1585,8 +2162,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÎÎÌÎÏÎÏÌÎÍÌÏÎÍÏÍÎÎÌÍÍÌ</summary>
-    public class RequiresStoringSiblingRelRelated_E91E : ValueType
+    public class RequiresStoringk__BackingRelated_E91E : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1603,8 +2183,14 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÍÌÌÍÍÌÍÌÏÎÎÍÍÍÎÌÍÏÏÌÍÍ</summary>
-    public class RequiresStoringSiblingRelRelated_EF11 : ValueType
+    public class RequiresStoringk__BackingRelated_EF11 : ValueType
     {
+        public object f_BF5;
+        public object f_837;
+        public object f_11B;
+        public object f_304;
+        public object f_F28;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x47F10
@@ -1626,8 +2212,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÏÏÎÌÌÍÍÍÏÎÌÏÍÏÎÎÌÌÎÏÏÍ</summary>
-    public class RequiresStoringSiblingRelRelated_F05D : ValueType
+    public class RequiresStoringk__BackingRelated_F05D : ValueType
     {
+        public object f_97F;
+        public object f_BF5;
+        public object f_837;
+        public object f_A7D;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77E70
         public void InternalEquals(){} // RVA: 0x77900
@@ -1650,8 +2241,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÌÎÎÌÍÏÌÌÎÎÍÏÍÌÍÎÎÍÏÍÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_F204 : ValueType
+    public class RequiresStoringk__BackingRelated_F204 : ValueType
     {
+        public object f_BF5;
+        public object f_BCB;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1669,8 +2263,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÍÌÏÎÌÌÌÏÎÎÏÎÎÌÏÌÎÎÍÌÍÌ</summary>
-    public class RequiresStoringSiblingRelRelated_F76E : ValueType
+    public class RequiresStoringk__BackingRelated_F76E : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77900
@@ -1686,8 +2283,12 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÎÏÍÌÎÍÎÌÎÍÏÌÍÌÏÍÌÍÎÏÍÏÏ</summary>
-    public class RequiresStoringSiblingRelRelated_F79A : ValueType
+    public class RequiresStoringk__BackingRelated_F79A : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x115670
         public void InternalEquals(){} // RVA: 0x77E60
@@ -1709,8 +2310,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÍÏÌÎÍÏÎÌÎÏÏÎÏÍÌÌÏÍÌÌÌÌ</summary>
-    public class RequiresStoringSiblingRelRelated_F9DD : ValueType
+    public class RequiresStoringk__BackingRelated_F9DD : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_412;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x9E810
         public void InternalEquals(){} // RVA: 0x7E3E0
@@ -1731,8 +2337,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÌÌÎÎÎÎÎÍÌÎÍÎÏÌÎÎÌÏÍÍÏÎÍ</summary>
-    public class RequiresStoringSiblingRelRelated_FA47 : ValueType
+    public class RequiresStoringk__BackingRelated_FA47 : ValueType
     {
+        public object f_BB8;
+        public object f_BF5;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77900
         public void InternalEquals(){} // RVA: 0x77E70
@@ -1748,8 +2357,13 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÍÏÎÍÍÏÏÎÍÌÎÍÌÍÌÍÏÎÏÌÎÍÏ</summary>
-    public class RequiresStoringSiblingRelRelated_FD58 : ValueType
+    public class RequiresStoringk__BackingRelated_FD58 : ValueType
     {
+        public object f_C9F;
+        public object f_97F;
+        public object f_BF5;
+        public object f_BEF;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x77ED0
         public void InternalEquals(){} // RVA: 0x77ED0
@@ -1772,8 +2386,11 @@ namespace VRC.Misc
     }
 
     /// <summary>Originally: ÏÏÏÍÎÎÌÎÏÌÎÍÍÌÍÎÍÏÍÎÌÎÏ</summary>
-    public class RequiresStoringSiblingRelRelated_FD70 : ValueType
+    public class RequiresStoringk__BackingRelated_FD70 : ValueType
     {
+        public object f_BF5;
+        public object f_837;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x47F10
         public void InternalEquals(){} // RVA: 0x77900
@@ -1787,221 +2404,6 @@ namespace VRC.Misc
         public void m_C4F(){} // RVA: 0x77ED0
         public void m_B95(){} // RVA: 0x47F10
         public void m_834(){} // RVA: 0x47F10
-    }
-
-    /// <summary>Originally: ÍÏÎÍÎÎÍÏÌÎÍÍÏÎÏÏÏÏÏÎÎÍÍ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_20C8 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7E450
-        public void InternalEquals(){} // RVA: 0x47F10
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x7E450
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77E70
-        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
-        public void x(){} // RVA: 0x7E450
-        // ── Unresolved (hash) ──
-        public void m_FBA(){} // RVA: 0x47F10
-        public void m_054(){} // RVA: 0x77900
-        public void m_2F5(){} // RVA: 0x7E3E0
-        public void m_993(){} // RVA: 0x47F10
-        public void m_D8F(){} // RVA: 0x47F10
-        public void m_4E7(){} // RVA: 0x47F10
-    }
-
-    /// <summary>Originally: ÎÍÏÏÏÌÍÍÍÏÍÍÏÏÎÎÎÌÎÏÍÎÎ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_30F7 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x7E450
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x47F10
-        public void ToString(){} // RVA: 0x77ED0
-        public void GetHashCodeOfPtr(){} // RVA: 0x77E70
-        public void x(){} // RVA: 0x77900
-        // ── Unresolved (hash) ──
-        public void m_548(){} // RVA: 0x7E450
-        public void m_ACF(){} // RVA: 0x77E70
-        public void m_B8F(){} // RVA: 0x77900
-        public void m_2F5(){} // RVA: 0x7E3E0
-    }
-
-    /// <summary>Originally: ÎÎÏÍÏÌÍÌÍÎÎÏÌÎÍÍÍÌÎÏÏÍÏ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_9075 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x47F10
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x77900
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_590(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÍÌÍÎÎÍÍÍÎÍÎÏÎÏÌÌÍÍÍÎÏÎÌ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_ABDA : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77ED0
-        public void InternalEquals(){} // RVA: 0x77E70
-        public void DefaultEquals(){} // RVA: 0x77E70
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77ED0
-        public void GetHashCodeOfPtr(){} // RVA: 0x47F10
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_587(){} // RVA: 0x77E70
-    }
-
-    /// <summary>Originally: ÎÍÏÌÍÎÍÎÎÍÍÌÎÏÍÌÎÎÎÌÌÌÎ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_B828 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x47F10
-        public void InternalEquals(){} // RVA: 0x47F10
-        public void DefaultEquals(){} // RVA: 0x77ED0
-        public void GetHashCode(){} // RVA: 0x77E70
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77ED0
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_9F8(){} // RVA: 0x77900
-        public void m_2C1(){} // RVA: 0x77E70
-        public void m_A95(){} // RVA: 0x77ED0
-        public void m_AA1(){} // RVA: 0x77ED0
-    }
-
-    /// <summary>Originally: ÏÌÌÍÏÏÏÌÌÌÌÎÍÍÍÎÏÍÌÎÏÌÍ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_CFFB : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x47F10
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x47F10
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_1BF(){} // RVA: 0x77900
-        public void m_590(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÍÎÌÎÎÎÏÍÍÍÎÍÎÌÌÎÌÏÎÍÏÎÎ</summary>
-    public class RequiresStoringSiblingSiblingSSibling_E670 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x47F10
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x77900
-        public void InternalGetHashCode(){} // RVA: 0x47F10
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        // ── Unresolved (hash) ──
-        public void m_1BF(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÍÎÌÏÌÍÎÏÏÌÌÏÎÏÏÎÎÍÎÏÏÏÏ</summary>
-    public class RequiresStoringSiblingSiblingSibling_59FB : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x47F10
-        public void InternalEquals(){} // RVA: 0x47F10
-        public void DefaultEquals(){} // RVA: 0x77E70
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77E70
-        public void GetHashCodeOfPtr(){} // RVA: 0xB1800
-        public void x(){} // RVA: 0xB1810
-        // ── Unresolved (hash) ──
-        public void m_548(){} // RVA: 0x77ED0
-        public void m_886(){} // RVA: 0x47F10
-        public void m_D8C(){} // RVA: 0xB1800
-        public void m_798(){} // RVA: 0xB1800
-    }
-
-    /// <summary>Originally: ÍÌÍÍÌÏÌÎÎÏÌÎÌÏÎÎÍÎÎÏÍÎÌ</summary>
-    public class RequiresStoringSiblingSiblingSibling_6412 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x47F10
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x14790
-        public void GetHashCode(){} // RVA: 0x77900
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x14790
-        // ── Unresolved (hash) ──
-        public void m_134(){} // RVA: 0x47F10
-        public void m_AFB(){} // RVA: 0x92DD0
-        public void m_8CC(){} // RVA: 0x92DD0
-        public void m_F92(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÎÍÌÏÎÏÍÍÌÎÏÎÌÌÌÍÍÍÏÌÍÌÌ</summary>
-    public class RequiresStoringSiblingSiblingSibling_90FD : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77E70
-        public void InternalEquals(){} // RVA: 0x77E70
-        public void DefaultEquals(){} // RVA: 0x77900
-        public void GetHashCode(){} // RVA: 0x77E70
-        public void InternalGetHashCode(){} // RVA: 0x77E70
-        public void ToString(){} // RVA: 0x47F10
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x77900
-        // ── Unresolved (hash) ──
-        public void m_548(){} // RVA: 0x77ED0
-    }
-
-    /// <summary>Originally: ÏÍÎÏÎÌÎÎÍÍÍÏÏÍÏÎÎÍÎÌÌÏÍ</summary>
-    public class RequiresStoringSiblingSiblingSibling_95D3 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77ED0
-        public void InternalEquals(){} // RVA: 0x77E70
-        public void DefaultEquals(){} // RVA: 0x77E70
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x77E70
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x77ED0
-        // ── Unresolved (hash) ──
-        public void m_587(){} // RVA: 0x77E70
-        public void m_C40(){} // RVA: 0x47F10
-        public void m_091(){} // RVA: 0x77E70
-        public void m_548(){} // RVA: 0x77ED0
-    }
-
-    /// <summary>Originally: ÍÎÍÌÌÌÌÏÎÍÍÍÏÏÎÏÎÏÍÌÌÌÌ</summary>
-    public class RequiresStoringSiblingSiblingSibling_D700 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x77900
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x77ED0
-        public void ToString(){} // RVA: 0x77E70
-        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_D62(){} // RVA: 0x77E70
-        public void m_B17(){} // RVA: 0x77E70
-        public void m_FC6(){} // RVA: 0x47F10
-        public void m_CEC(){} // RVA: 0x77E70
     }
 
 }

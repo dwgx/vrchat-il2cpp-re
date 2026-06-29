@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 {
     public class BufferedRumble : ValueType
     {
+        public object _capabilities;
+        public object _device;
+
         // ── Methods ──
         public void get_capabilities(){} // RVA: 0x935840
         public void set_capabilities(){} // RVA: 0x935860
@@ -18,6 +21,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetCurrentHapticStateCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object samplesQueued;
+        public object samplesAvailable;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x78EEFA0
         public void get_typeStatic(){} // RVA: 0x935C30
@@ -27,6 +35,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class GetHapticCapabilitiesCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object numChannels;
+        public object supportsImpulse;
+        public object supportsBuffer;
+        public object frequencyHz;
+        public object maxBufferSize;
+        public object optimalBufferSize;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x78EF040
         public void get_typeStatic(){} // RVA: 0x935D80
@@ -36,6 +53,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class HapticCapabilities : ValueType
     {
+        public object _numChannels;
+        public object _supportsImpulse;
+        public object _supportsBuffer;
+        public object _frequencyHz;
+        public object _maxBufferSize;
+        public object _optimalBufferSize;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x935CF0
         public void get_numChannels(){} // RVA: 0x77E60
@@ -48,6 +72,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class HapticState : ValueType
     {
+        public object _samplesQueued;
+        public object _samplesAvailable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void get_samplesQueued(){} // RVA: 0x77E60
@@ -58,6 +85,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendBufferedHapticCommand : ValueType
     {
+        public object kMaxHapticBufferSize;
+        public object kSize;
+        public object baseCommand;
+        public object channel;
+        public object bufferSize;
+        public object buffer;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x78EF0B0
         public void get_typeStatic(){} // RVA: 0x935DE0
@@ -66,6 +100,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XR.Haptics
 
     public class SendHapticImpulseCommand : ValueType
     {
+        public object kSize;
+        public object baseCommand;
+        public object channel;
+        public object amplitude;
+        public object duration;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0x78EF250
         public void get_typeStatic(){} // RVA: 0x935DF0

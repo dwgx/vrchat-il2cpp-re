@@ -7,30 +7,34 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class ParameterExpression : Expression
     {
+        public object _name;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE3F0450
-        public void Make(){} // RVA: 0x7AE3EFE00
-        public void get_Type(){} // RVA: 0x7AE3F0360
-        public void get_NodeType(){} // RVA: 0x7AE3F0410
-        public void get_Name(){} // RVA: 0x7A80F2570
-        public void get_IsByRef(){} // RVA: 0x7AB5DC320
-        public void GetIsByRef(){} // RVA: 0x7A80D7320
-        public void Accept(){} // RVA: 0x7AE3F0420
+        public void .ctor(){} // RVA: 0x706F9B0
+        public void Make(){} // RVA: 0x706F3F0
+        public void get_Type(){} // RVA: 0x6AAD9D0
+        public void get_NodeType(){} // RVA: 0x706F970
+        public void get_Name(){} // RVA: 0xB5DBF0
+        public void get_IsByRef(){} // RVA: 0x11F4110
+        public void GetIsByRef(){} // RVA: 0xB43320
+        public void Accept(){} // RVA: 0x706F980
     }
 
     public class PrimitiveParameterExpression`1 : ParameterExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void get_Type(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x894320
+        public void get_Type(){} // RVA: 0x87C0A0
     }
 
     public class PropertyExpression : MemberExpression
     {
+        public object _property;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE3EB040
-        public void GetMember(){} // RVA: 0x7A80DA7B0
-        public void get_Type(){} // RVA: 0x7AE3EB0E0
+        public void .ctor(){} // RVA: 0x706A630
+        public void GetMember(){} // RVA: 0xB465B0
+        public void get_Type(){} // RVA: 0x706A6D0
     }
 
 }

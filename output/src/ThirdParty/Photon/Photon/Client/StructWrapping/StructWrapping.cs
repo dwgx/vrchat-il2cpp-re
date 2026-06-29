@@ -7,6 +7,9 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 {
     public class StructWrapper : Object
     {
+        public object wrappedType;
+        public object ttype;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6CB6BA0
         public void Dispose(){} // RVA: 0x894290
@@ -22,6 +25,12 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
+        public object GROWBY;
+        public object tType;
+        public object wType;
+        public object pool;
+        public object isStaticPool;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894750
         public void Acquire(){} // RVA: 0xA94080
@@ -30,6 +39,12 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
+        public object GROWBY;
+        public object tType;
+        public object wType;
+        public object pool;
+        public object isStaticPool;
+
         // ── Methods ──
         public void Release(){} // RVA: 0x4B72AD0
         public void .ctor(){} // RVA: 0x4B72700
@@ -38,6 +53,12 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
+        public object GROWBY;
+        public object tType;
+        public object wType;
+        public object pool;
+        public object isStaticPool;
+
         // ── Methods ──
         public void Release(){} // RVA: 0x4B72AD0
         public void .ctor(){} // RVA: 0x4B72700
@@ -46,6 +67,12 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
+        public object GROWBY;
+        public object tType;
+        public object wType;
+        public object pool;
+        public object isStaticPool;
+
         // ── Methods ──
         public void Release(){} // RVA: 0x4B72AD0
         public void .ctor(){} // RVA: 0x4B72700
@@ -53,6 +80,12 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPool`1 : StructWrapperPool
     {
+        public object GROWBY;
+        public object tType;
+        public object wType;
+        public object pool;
+        public object isStaticPool;
+
         // ── Methods ──
         public void Release(){} // RVA: 0x4B72AD0
         public void .ctor(){} // RVA: 0x4B72700
@@ -60,6 +93,11 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapperPools : Object
     {
+        public object mappedByteWrappers;
+        public object mappedBoolWrappers;
+        public object pools;
+        public object used;
+
         // ── Methods ──
         public void GetPoolForType(){} // RVA: 0x87C0A0
         public void Acquire(){} // RVA: 0x29D1990
@@ -71,12 +109,17 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
     public class StructWrapperUtility : Object
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0xA94080
-        public void Unwrap(){} // RVA: 0x29D26D0
+        public void Unwrap(){} // RVA: 0xA94080
+        public void Get(){} // RVA: 0x29D2410
     }
 
     public class StructWrapper`1 : StructWrapper
     {
+        public object _returnPool;
+        public object pooling;
+        public object value;
+        public object staticPool;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0x87C0A0
         public void set_ReturnPool(){} // RVA: 0x894320
@@ -89,6 +132,11 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
+        public object _returnPool;
+        public object pooling;
+        public object value;
+        public object staticPool;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0xB700F0
         public void set_ReturnPool(){} // RVA: 0xB70100
@@ -101,6 +149,11 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
+        public object _returnPool;
+        public object pooling;
+        public object value;
+        public object staticPool;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0xB700F0
         public void set_ReturnPool(){} // RVA: 0xB70100
@@ -113,6 +166,11 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
+        public object _returnPool;
+        public object pooling;
+        public object value;
+        public object staticPool;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0xB700F0
         public void set_ReturnPool(){} // RVA: 0xB70100
@@ -125,6 +183,11 @@ namespace ThirdParty.Photon.Photon.Client.StructWrapping
 
     public class StructWrapper`1 : StructWrapper
     {
+        public object _returnPool;
+        public object pooling;
+        public object value;
+        public object staticPool;
+
         // ── Methods ──
         public void get_ReturnPool(){} // RVA: 0xB700F0
         public void set_ReturnPool(){} // RVA: 0xB70100

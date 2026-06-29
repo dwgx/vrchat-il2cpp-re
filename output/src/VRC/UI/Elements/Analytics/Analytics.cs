@@ -7,8 +7,11 @@ namespace VRC.UI.Elements.Analytics
 {
     public class AnalyticsControllerSavedData : ScriptableObject
     {
+        public object AssetPath;
+        public object Entries;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B105BC30
+        public void .ctor(){} // RVA: 0x9E93B00
     }
 
 }

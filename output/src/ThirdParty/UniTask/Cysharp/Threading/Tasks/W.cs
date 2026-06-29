@@ -7,6 +7,8 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class WhenEachEnumerable`1 : Object
     {
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +16,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class WhenEachResult`1 : ValueType
     {
+        public object _result;
+        public object _exception;
+
         // ── Methods ──
         public void get_Result(){} // RVA: 0xA94080
         public void get_Exception(){} // RVA: 0x87C0A0

@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class KeyValueCollectionPropertyBag`3 : PropertyBag`1
     {
+        public object m_KeyValuePairProperty;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xA94080
         public void Unity.Properties.ICollectionPropertyBagAccept<TDictionary>.Accept(){} // RVA: 0x8943B0
@@ -17,6 +19,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class KeyValueCollectionPropertyBag`3 : PropertyBag`1
     {
+        public object m_KeyValuePairProperty;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xAD0950
         public void Unity.Properties.ICollectionPropertyBagAccept<TDictionary>.Accept(){} // RVA: 0x4257490
@@ -27,6 +31,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class KeyValuePairPropertyBag`2 : PropertyBag`1
     {
+        public object s_KeyProperty;
+        public object s_ValueProperty;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xA94080
         public void GetPropertiesEnumerable(){} // RVA: 0x87C0D0

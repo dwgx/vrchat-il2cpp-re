@@ -104,6 +104,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class UnsupportedTypeConverter`1 : JsonConverter`1
     {
+        public object _errorMessage;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_ErrorMessage(){} // RVA: 0x87C0A0

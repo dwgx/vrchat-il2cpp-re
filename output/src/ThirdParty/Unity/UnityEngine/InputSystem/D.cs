@@ -7,6 +7,30 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class DefaultInputActions : Object
     {
+        public object _asset;
+        public object m_Player;
+        public object m_PlayerActionsCallbackInterface;
+        public object m_Player_Move;
+        public object m_Player_Look;
+        public object m_Player_Fire;
+        public object m_UI;
+        public object m_UIActionsCallbackInterface;
+        public object m_UI_Navigate;
+        public object m_UI_Submit;
+        public object m_UI_Cancel;
+        public object m_UI_Point;
+        public object m_UI_Click;
+        public object m_UI_ScrollWheel;
+        public object m_UI_MiddleClick;
+        public object m_UI_RightClick;
+        public object m_UI_TrackedDevicePosition;
+        public object m_UI_TrackedDeviceOrientation;
+        public object m_KeyboardMouseSchemeIndex;
+        public object m_GamepadSchemeIndex;
+        public object m_TouchSchemeIndex;
+        public object m_JoystickSchemeIndex;
+        public object m_XRSchemeIndex;
+
         // ── Methods ──
         public void get_asset(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0x78D4860
@@ -35,6 +59,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class DynamicBitfield : ValueType
     {
+        public object array;
+        public object length;
+
         // ── Methods ──
         public void SetLength(){} // RVA: 0x935430
         public void SetBit(){} // RVA: 0x935440

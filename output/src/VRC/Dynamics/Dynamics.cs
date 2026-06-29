@@ -7,6 +7,12 @@ namespace VRC.Dynamics
 {
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0x87C0A0
         public void get_ApplicationVrcConstraint(){} // RVA: 0x87C0A0
@@ -21,6 +27,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -35,6 +47,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -49,6 +67,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -63,6 +87,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -77,6 +107,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -91,6 +127,12 @@ namespace VRC.Dynamics
 
     public class AbstractVRCConstraintBinding`2 : Object
     {
+        public object UnityConstraint;
+        public object VrcConstraint;
+        public object _unityConstraintPendingReEnable;
+        public object _hasEverFullySynced;
+        public object _isDisposed;
+
         // ── Methods ──
         public void get_ApplicationUnityConstraint(){} // RVA: 0xB5DBF0
         public void get_ApplicationVrcConstraint(){} // RVA: 0xB465B0
@@ -113,6 +155,11 @@ namespace VRC.Dynamics
 
     public class AnimParameterAccessAvatarSDK : Object
     {
+        public object animator;
+        public object paramHash;
+        public object paramType;
+        public object valid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82C9250
         public void get_boolVal(){} // RVA: 0x82C9570
@@ -125,6 +172,11 @@ namespace VRC.Dynamics
 
     public class BoneBuffer : Object
     {
+        public object bones;
+        public object transformData;
+        public object transformAccess;
+        public object transformArray;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82D96C0
         public void get_Length(){} // RVA: 0x82D9850
@@ -137,6 +189,9 @@ namespace VRC.Dynamics
 
     public class ChainBuffer : Object
     {
+        public object chains;
+        public object comps;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82D8870
         public void get_Length(){} // RVA: 0x82D89B0
@@ -152,6 +207,10 @@ namespace VRC.Dynamics
 
     public class ChainId : ValueType
     {
+        public object Null;
+        public object a;
+        public object b;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DB0
         public void Equals(){} // RVA: 0x9C8920
@@ -186,6 +245,18 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HashGrid : Object
     {
+        public object SHAPE_BATCH_COUNT;
+        public object GRID_SIZE;
+        public object GRID_MULTI;
+        public object MAX_COLLISIONS_PER_SHAPE;
+        public object MAX_COLLISIONS;
+        public object MAX_SHAPE_UPDATE;
+        public object MAP_START_CAPACITY;
+        public object _scene;
+        public object shapeMap;
+        public object shapesToUpdate;
+        public object collisions;
+
         // ── Methods ──
         public void get_scene(){} // RVA: 0xB5DBF0
         public void set_scene(){} // RVA: 0xB44D60
@@ -202,6 +273,24 @@ namespace VRC.Dynamics
 
     public class CollisionBroadphase_HybridSAP : Object
     {
+        public object SHAPE_BATCH_COUNT;
+        public object CELL_BATCH_COUNT;
+        public object GRID_SIZE;
+        public object GRID_MULTI;
+        public object GRID_MAP_START_CAPACITY;
+        public object GRID_CELL_MAX_CACHE;
+        public object GRID_CELL_MAX_ACTIVE_LIST;
+        public object MAX_COLLISION_PAIRS;
+        public object INITIAL_COLLISIONS_PER_CELL;
+        public object MAX_COLLISIONS_PER_CELL;
+        public object _scene;
+        public object shapesToUpdate;
+        public object collisionPairs;
+        public object prevCollisionPairs;
+        public object gridMap;
+        public object gridCells;
+        public object cellCache;
+
         // ── Methods ──
         public void get_scene(){} // RVA: 0xB5DBF0
         public void set_scene(){} // RVA: 0xB44D60
@@ -218,6 +307,27 @@ namespace VRC.Dynamics
 
     public class CollisionScene : Object
     {
+        public object broadphase;
+        public object CastBuffer;
+        public object deadShapes;
+        public object MAX_SHAPES_NONWORLD;
+        public object MAX_SHAPES_WORLD;
+        public object MAX_SHAPES;
+        public object MAX_TRANSFORMS;
+        public object MAX_COLLISION_EVENTS;
+        public object shapes;
+        public object shapesToAdd;
+        public object shapesToRemove;
+        public object activeShapes;
+        public object shapeData;
+        public object totalActiveNonWorldShapes;
+        public object totalActiveWorldShapes;
+        public object collisionEvents;
+        public object transforms;
+        public object transformData;
+        public object jobHandle;
+        public object jobHandlePendingCompletion;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x829D520
         public void SetBroadphase(){} // RVA: 0x829DBB0
@@ -263,6 +373,8 @@ namespace VRC.Dynamics
 
     public class ConstraintHasSingleLowWeightSource_000000C8$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B1990
         public void GetFunctionPointer(){} // RVA: 0x82B1B60
@@ -280,6 +392,29 @@ namespace VRC.Dynamics
 
     public class ContactBase : DynamicsComponent
     {
+        public object MAX_SIZE;
+        public object MAX_COLLISION_TAGS;
+        public object OnInitialize;
+        public object rootTransform;
+        public object shapeType;
+        public object radius;
+        public object height;
+        public object size;
+        public object position;
+        public object rotation;
+        public object localOnly;
+        public object contentTypes;
+        public object collisionTags;
+        public object manager;
+        public object allowInit;
+        public object hasInitParams;
+        public object hasInit;
+        public object shape;
+        public object getPlayerIdCallback;
+        public object playerId;
+        public object pendingShapeUpdate;
+        public object OnValidatePlayers;
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x82C9B90
         public void get_axis(){} // RVA: 0x82C9C80
@@ -307,6 +442,9 @@ namespace VRC.Dynamics
 
     public class ContactBaseProxy`2 : Object
     {
+        public object Component;
+        public object _ownerPlayerApi;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_isValid(){} // RVA: 0x87D280
@@ -321,6 +459,9 @@ namespace VRC.Dynamics
 
     public class ContactBaseProxy`2 : Object
     {
+        public object Component;
+        public object _ownerPlayerApi;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void get_isValid(){} // RVA: 0x35732D0
@@ -335,6 +476,9 @@ namespace VRC.Dynamics
 
     public class ContactBaseProxy`2 : Object
     {
+        public object Component;
+        public object _ownerPlayerApi;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void get_isValid(){} // RVA: 0x35732D0
@@ -369,6 +513,12 @@ namespace VRC.Dynamics
 
     public class ContactEnterInfo : ValueType
     {
+        public object _contactSender;
+        public object _contactReceiver;
+        public object _enterVelocity;
+        public object _contactPoint;
+        public object _matchingTags;
+
         // ── Methods ──
         public void get_contactSender(){} // RVA: 0x77900
         public void set_contactSender(){} // RVA: 0x47F10
@@ -384,6 +534,10 @@ namespace VRC.Dynamics
 
     public class ContactExitInfo : ValueType
     {
+        public object _contactSender;
+        public object _contactReceiver;
+        public object _matchingTags;
+
         // ── Methods ──
         public void get_contactSender(){} // RVA: 0x77900
         public void set_contactSender(){} // RVA: 0x47F10
@@ -395,6 +549,25 @@ namespace VRC.Dynamics
 
     public class ContactManager : MonoBehaviour
     {
+        public object Inst;
+        public object collision;
+        public object contacts;
+        public object updateList;
+        public object Marker_CollisionScene;
+        public object Marker_CopyShapeIds;
+        public object Marker_Trigger;
+        public object _timer;
+        public object FRAME_TIME;
+        public object performanceTimeMs;
+        public object _stopwatch;
+        public object _jobState;
+        public object drawGizmos;
+        public object MAX_COLLISION_RECORDS;
+        public object THREAD_BATCH_SIZE;
+        public object receivesToUpdate;
+        public object receiverData;
+        public object needsShapeID;
+
         // ── Methods ──
         public void AddContact(){} // RVA: 0x82CB300
         public void RemoveContact(){} // RVA: 0x82CB880
@@ -414,6 +587,24 @@ namespace VRC.Dynamics
 
     public class ContactReceiver : ContactBase
     {
+        public object allowSelf;
+        public object allowOthers;
+        public object useFaceProximity;
+        public object receiverType;
+        public object parameter;
+        public object minVelocity;
+        public object receiverId;
+        public object _udonEmitter;
+        public object collisionRecords;
+        public object unvalidatedCollisionRecords;
+        public object collisionValue;
+        public object TagIntersectionSet;
+        public object hasTriggered;
+        public object paramValue;
+        public object restoreParamValue;
+        public object paramAccess;
+        public object collisionTagsHash;
+
         // ── Methods ──
         public void get_EffectiveReceiverType(){} // RVA: 0x82D0030
         public void IsReceiver(){} // RVA: 0xC2E4C0
@@ -459,6 +650,10 @@ namespace VRC.Dynamics
 
     public class ContactReceiverUdonEmitter : Object
     {
+        public object _udonBehaviours;
+        public object EventOnContactEnter;
+        public object EventOnContactExit;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8357080
         public void OnContactEnter(){} // RVA: 0x8357130
@@ -505,6 +700,8 @@ namespace VRC.Dynamics
 
     public class CorrectQuaternion_000000CA$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B43C0
         public void GetFunctionPointer(){} // RVA: 0x82B4590
@@ -522,6 +719,9 @@ namespace VRC.Dynamics
 
     public class DynamicsComponent : MonoBehaviour
     {
+        public object _defaultUsage;
+        public object _assignedUsage;
+
         // ── Methods ──
         public void get_DefaultUsage(){} // RVA: 0x82A7E80
         public void set_DefaultUsage(){} // RVA: 0x82A7EC0
@@ -550,6 +750,12 @@ namespace VRC.Dynamics
 
     public class FixedTransformAccessArray : Object
     {
+        public object transformArray;
+        public object lookupToId;
+        public object lookupFromId;
+        public object emptyQueue;
+        public object length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82D3790
         public void Add(){} // RVA: 0x82D3A40
@@ -565,6 +771,8 @@ namespace VRC.Dynamics
 
     public class FromToRotation_000000CC$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B4750
         public void GetFunctionPointer(){} // RVA: 0x82B4920
@@ -680,6 +888,8 @@ namespace VRC.Dynamics
 
     public class IsAnyAxisZero_000000C6$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B1310
         public void GetFunctionPointer(){} // RVA: 0x82B14E0
@@ -697,6 +907,8 @@ namespace VRC.Dynamics
 
     public class IsLowWeightSource_000000C9$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B1DD0
         public void GetFunctionPointer(){} // RVA: 0x82B1FA0
@@ -714,6 +926,8 @@ namespace VRC.Dynamics
 
     public class IsValidTrsMatrix_000000C7$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B1650
         public void GetFunctionPointer(){} // RVA: 0x82B1820
@@ -759,6 +973,12 @@ namespace VRC.Dynamics
 
     public class MemoryBuffer : Object
     {
+        public object usedSpace;
+        public object spanMap;
+        public object spans;
+        public object spanList;
+        public object dataList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82D6370
         public void Dispose(){} // RVA: 0x82D6510
@@ -774,6 +994,8 @@ namespace VRC.Dynamics
 
     public class ParentChangeDetector : MonoBehaviour
     {
+        public object OnParentChanged;
+
         // ── Methods ──
         public void add_OnParentChanged(){} // RVA: 0x82A7FC0
         public void remove_OnParentChanged(){} // RVA: 0x82A80B0
@@ -791,12 +1013,23 @@ namespace VRC.Dynamics
 
     public class PhysBoneGrabbedInfo : ValueType
     {
+        public object player;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class PhysBoneGroup : Object
     {
+        public object MIN_CHAINS_CAPACITY;
+        public object manager;
+        public object groupIndex;
+        public object chainIds;
+        public object indexList;
+        public object isListDirty;
+        public object MIN_SHAPES_CAPACITY;
+        public object shapes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82DA390
         public void Dispose(){} // RVA: 0x82DA580
@@ -831,6 +1064,71 @@ namespace VRC.Dynamics
 
     public class PhysBoneManager : MonoBehaviour
     {
+        public object Inst;
+        public object distanceCullOrigin;
+        public object IsSDK;
+        public object rootsToUpdate;
+        public object compsToAdd;
+        public object compsToRemove;
+        public object MAX_BOUNDS_SIZE;
+        public object MIN_BONE_LENGTH;
+        public object MIN_SIMULATE_BONE;
+        public object DebugLineAxis;
+        public object DisableTiming;
+        public object DebugTimeElapsed;
+        public object DebugDraw;
+        public object buffer;
+        public object chainBuffer;
+        public object boneBuffer;
+        public object rootBuffer;
+        public object editorInfo;
+        public object errorBuffer;
+        public object THREAD_BATCH_SIZE;
+        public object MAX_TRANSFORMS_PER_CHAIN;
+        public object MAX_DELTA_TIME;
+        public object INITIAL_CAPACITY_ROOTS;
+        public object INITIAL_CAPACITY_CHAINS;
+        public object INITIAL_CAPACITY_BONES;
+        public object COLLISION_FRICTION;
+        public object EXTRA_TRANSFORM_COUNT;
+        public object EXTRA_TRANSFORM_ROOT_PARENT;
+        public object EXTRA_TRANSFORM_SCENE_ROOT;
+        public object colliderComponents;
+        public object collidersToAdd;
+        public object collidersToRemove;
+        public object CUSTOM_EPSILON;
+        public object QUATERNION_EPSILON;
+        public object MATRIX_EPSILON;
+        public object hasInit;
+        public object Marker_UpdateRoots;
+        public object Marker_AddRemoveChains;
+        public object Marker_AddRemoveColliders;
+        public object Marker_UpdateStaleGroups;
+        public object Marker_UpdateChains;
+        public object Marker_UpdateColliders;
+        public object Marker_JobsTotal;
+        public object FRAME_TIME;
+        public object fixedTimeElapsed;
+        public object realTimeElapsed;
+        public object hasReportedCriticalError;
+        public object fullFrameTimeElapsed;
+        public object executeShapeUpdates;
+        public object drawGizmos;
+        public object MAX_EXECUTION_GROUPS;
+        public object MAX_EXECUTION_GROUPS_NONWORLD;
+        public object executionGroups;
+        public object _staleGroupPhysBones;
+        public object _staleGroupPhysBoneColliders;
+        public object _staleGroupRoots;
+        public object _formerExecutionGroupBuffer;
+        public object sortingData;
+        public object collision;
+        public object MAX_COLLIDERS_PER_CHAIN;
+        public object grabs;
+        public object GRAB_RAY_LENGTH;
+        public object GrabBuffer;
+        public object poses;
+
         // ── Methods ──
         public void AddPhysBone(){} // RVA: 0x82DAF10
         public void RemovePhysBone(){} // RVA: 0x82DB1A0
@@ -913,18 +1211,25 @@ namespace VRC.Dynamics
 
     public class PhysBonePosedInfo : ValueType
     {
+        public object player;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class PhysBoneReleasedInfo : ValueType
     {
+        public object player;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class PhysBoneRoot : MonoBehaviour
     {
+        public object timing;
+        public object _rootDefinition;
+
         // ── Methods ──
         public void get_RootDefinition(){} // RVA: 0xB70160
         public void set_RootDefinition(){} // RVA: 0xB44DC0
@@ -937,6 +1242,14 @@ namespace VRC.Dynamics
 
     public class PhysBoneRootDefinition : Object
     {
+        public object NullId;
+        public object chainCount;
+        public object bufferIndex;
+        public object avatarId;
+        public object _transform;
+        public object _autoEvaluateFixedTime;
+        public object _useFixedTime;
+
         // ── Methods ──
         public void get_Transform(){} // RVA: 0xB700F0
         public void get_AutoEvaluateFixedTime(){} // RVA: 0xF73960
@@ -968,6 +1281,12 @@ namespace VRC.Dynamics
 
     public class PhysBoneUdonEmitter : Object
     {
+        public object _udonBehaviours;
+        public object EventOnPhysBoneGrabbed;
+        public object EventOnPhysBoneReleased;
+        public object EventOnPhysBonePosed;
+        public object EventOnPhysBoneUnPosed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8357760
         public void OnPhysBoneGrabbed(){} // RVA: 0x8357810
@@ -978,6 +1297,8 @@ namespace VRC.Dynamics
 
     public class PhysBoneUnPosedInfo : ValueType
     {
+        public object player;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
@@ -991,12 +1312,19 @@ namespace VRC.Dynamics
 
     public class ReadTransformJob : ValueType
     {
+        public object transformDataBuffer;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9C6D20
     }
 
     public class RootsBuffer : Object
     {
+        public object roots;
+        public object comps;
+        public object rootTransformsArray;
+        public object available;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82D7530
         public void Dispose(){} // RVA: 0x82D7730
@@ -1023,6 +1351,8 @@ namespace VRC.Dynamics
 
     public class TransformPoint_000000C4$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B0BF0
         public void GetFunctionPointer(){} // RVA: 0x82B0DC0
@@ -1040,6 +1370,8 @@ namespace VRC.Dynamics
 
     public class TransformPoint_000000C5$BurstDirectCall : Object
     {
+        public object Pointer;
+
         // ── Methods ──
         public void GetFunctionPointerDiscard(){} // RVA: 0x82B0FA0
         public void GetFunctionPointer(){} // RVA: 0x82B1170
@@ -1057,6 +1389,54 @@ namespace VRC.Dynamics
 
     public class VRCConstraintBase : DynamicsComponent
     {
+        public object IsActive;
+        public object GlobalWeight;
+        public object TargetTransform;
+        public object SolveInLocalSpace;
+        public object FreezeToWorld;
+        public object RebakeOffsetsWhenUnfrozen;
+        public object Locked;
+        public object Sources;
+        public object _nativeIndex;
+        public object cachedExecutionGroupIndex;
+        public object latestValidExecutionGroupIndex;
+        public object _runtimeTargetTransform;
+        public object _isRuntimeTargetTransformAssigned;
+        public object _cachedTargetTransform;
+        public object _hasCachedTargetParentTransform;
+        public object _cachedTargetParentTransform;
+        public object _assignedDependencyRoot;
+        public object _initialRegistrationComplete;
+        public object _cachedTransformCount;
+        public object _constraintBinding;
+        public object _fullNativeUpdatePending;
+        public object _pendingReallocation;
+        public object _sourceDestroySentinels;
+        public object _sourceDestructionTriggered;
+        public object _containingAnimator;
+        public object _hasContainingAnimator;
+        public object _containingAnimatorLatestActiveState;
+        public object _isAttachedToClone;
+        public object _monitoredPhysBones;
+        public object _playerLoopStage;
+        public object _physBoneDependency;
+        public object _dependsOnLocalAvatarProcessing;
+        public object _registeredBakeListeners;
+        public object OrderInfoPerGameObject;
+        public object _localGameObjectOrder;
+        public object _isInLocalGameObjectOrder;
+        public object _isPendingUnprocessed;
+        public object _dependents;
+        public object _rootNodes;
+        public object _dependencyTraversalMarks;
+        public object _dependencyTraversalMarksCounter;
+        public object _dependencyTraversalMarkIndex;
+        public object _dependencyActiveMark;
+        public object MAX_TRAVERSAL_STEPS;
+        public object _dependencyTraversalTotalSteps;
+        public object _dependencyTraversalHighestDepth;
+        public object MAX_DEPENDENCY_DEPTH;
+
         // ── Methods ──
         public void get_PositionMode(){} // RVA: 0x87C130
         public void get_RotationMode(){} // RVA: 0x87C130
@@ -1156,6 +1536,9 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGroup : Object
     {
+        public object MinGroupCapacity;
+        public object MemberConstraintIndices;
+
         // ── Methods ──
         public void get_MemberCount(){} // RVA: 0x82A9680
         public void .ctor(){} // RVA: 0x82A96C0
@@ -1169,6 +1552,13 @@ namespace VRC.Dynamics
 
     public class VRCConstraintGrouper : Object
     {
+        public object _executionGroups;
+        public object _staleRootTransforms;
+        public object _objectDisposed;
+        public object _unprocessedConstraints;
+        public object RemovedGroupIndicesBuffer;
+        public object _reorganizeGroupsProfilerMarker;
+
         // ── Methods ──
         public void get_GroupsAreStale(){} // RVA: 0x82A9E20
         public void get_ExecutionGroups(){} // RVA: 0x82A9EA0
@@ -1185,6 +1575,16 @@ namespace VRC.Dynamics
 
     public class VRCConstraintJob : ValueType
     {
+        public object playerLoopStage;
+        public object targetConstraintIndices;
+        public object constraints;
+        public object transformDataBuffer;
+        public object Float3Right;
+        public object Float3Up;
+        public object Float3Forward;
+        public object Float3One;
+        public object QuaternionZero;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x9C71A0
         public void ProcessSource(){} // RVA: 0x9C71B0
@@ -1211,6 +1611,25 @@ namespace VRC.Dynamics
 
     public class VRCConstraintManager : Object
     {
+        public object JobBatchCount;
+        public object MinArrayCapacity;
+        public object _instanceInitialized;
+        public object _canExecuteConstraintJobsInEditMode;
+        public object _isEditor;
+        public object _constraintsManaged;
+        public object _constraintsManagedSet;
+        public object _constraintsNative;
+        public object _transformBuffer;
+        public object _transformBufferOnlyTargets;
+        public object _transformDataBuffer;
+        public object _emptyTransformRanges;
+        public object _constraintTransformsBuffer;
+        public object _updateConstraintsProfilerMarkerSync;
+        public object _updateConstraintsProfilerMarkerReAlloc;
+        public object _updateConstraintsProfilerMarkerJobData;
+        public object _constraintGrouper;
+        public object UpdatedConstraintsBuffer;
+
         // ── Methods ──
         public void get_IsInitialized(){} // RVA: 0x82BDED0
         public void get_CanExecuteConstraintJobsInEditMode(){} // RVA: 0x82BDF30
@@ -1235,6 +1654,10 @@ namespace VRC.Dynamics
 
     public class VRCConstraintOffsetBaker : Object
     {
+        public object _targetTransform;
+        public object _weightSum;
+        public object _bakeOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82C26E0
         public void get_ShouldBakeAtRest(){} // RVA: 0x7362290
@@ -1249,6 +1672,11 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSource : ValueType
     {
+        public object SourceTransform;
+        public object Weight;
+        public object ParentPositionOffset;
+        public object ParentRotationOffset;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9C79C0
         public void CreateDefault(){} // RVA: 0x82C51D0
@@ -1256,6 +1684,8 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSourceDestroySentinel : MonoBehaviour
     {
+        public object _constraintsToNotify;
+
         // ── Methods ──
         public void RegisterConstraint(){} // RVA: 0x82C52E0
         public void UnregisterConstraint(){} // RVA: 0x82C5340
@@ -1285,6 +1715,27 @@ namespace VRC.Dynamics
 
     public class VRCConstraintSourceKeyableList : ValueType
     {
+        public object MaxFlatLength;
+        public object source0;
+        public object source1;
+        public object source2;
+        public object source3;
+        public object source4;
+        public object source5;
+        public object source6;
+        public object source7;
+        public object source8;
+        public object source9;
+        public object source10;
+        public object source11;
+        public object source12;
+        public object source13;
+        public object source14;
+        public object source15;
+        public object totalLength;
+        public object overflowList;
+        public object _valueEnumerator;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x9C7B00
         public void get_OverflowList(){} // RVA: 0x9C7B10
@@ -1341,6 +1792,8 @@ namespace VRC.Dynamics
 
     public class VRCDynamicsLoop : Object
     {
+        public object _vRCDynamicsLoop;
+
         // ── Methods ──
         public void Initialize(){} // RVA: 0x1733CD0
         public void Equals(){} // RVA: 0x1733E20
@@ -1349,6 +1802,12 @@ namespace VRC.Dynamics
 
     public class VRCDynamicsScheduler : Object
     {
+        public object _currentDynamicsJobHandle;
+        public object OnPreScheduleComplete;
+        public object OnFrameComplete;
+        public object OnFrameCompleteLate;
+        public object _latestCompletedFrameNumber;
+
         // ── Methods ──
         public void add_OnPreScheduleComplete(){} // RVA: 0x82A81B0
         public void remove_OnPreScheduleComplete(){} // RVA: 0x82A8300
@@ -1371,6 +1830,108 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneBase : DynamicsComponent
     {
+        public object foldout_transforms;
+        public object foldout_forces;
+        public object foldout_collision;
+        public object foldout_stretchsquish;
+        public object foldout_limits;
+        public object foldout_grabpose;
+        public object foldout_options;
+        public object foldout_gizmos;
+        public object PARAM_ISGRABBED;
+        public object PARAM_ISPOSED;
+        public object PARAM_ANGLE;
+        public object PARAM_STRETCH;
+        public object PARAM_SQUISH;
+        public object version;
+        public object LatestVersion;
+        public object integrationType;
+        public object rootTransform;
+        public object ignoreTransforms;
+        public object ignoreOtherPhysBones;
+        public object endpointPosition;
+        public object multiChildType;
+        public object pull;
+        public object pullCurve;
+        public object spring;
+        public object springCurve;
+        public object stiffness;
+        public object stiffnessCurve;
+        public object gravity;
+        public object gravityCurve;
+        public object gravityFalloff;
+        public object gravityFalloffCurve;
+        public object immobileType;
+        public object immobile;
+        public object immobileCurve;
+        public object allowCollision;
+        public object collisionFilter;
+        public object radius;
+        public object radiusCurve;
+        public object colliders;
+        public object limitType;
+        public object maxAngleX;
+        public object maxAngleXCurve;
+        public object maxAngleZ;
+        public object maxAngleZCurve;
+        public object limitRotation;
+        public object limitRotationXCurve;
+        public object limitRotationYCurve;
+        public object limitRotationZCurve;
+        public object staticFreezeAxis;
+        public object allowGrabbing;
+        public object grabFilter;
+        public object allowPosing;
+        public object poseFilter;
+        public object snapToHand;
+        public object grabMovement;
+        public object maxStretch;
+        public object maxStretchCurve;
+        public object maxSquish;
+        public object maxSquishCurve;
+        public object stretchMotion;
+        public object stretchMotionCurve;
+        public object isAnimated;
+        public object resetWhenDisabled;
+        public object parameter;
+        public object showGizmos;
+        public object boneOpacity;
+        public object limitOpacity;
+        public object configHasUpdated;
+        public object bones;
+        public object maxBoneChainIndex;
+        public object chainId;
+        public object OnNeedsNetworkSync;
+        public object getPlayerIdCallback;
+        public object playerId;
+        public object netId;
+        public object netSubId;
+        public object collidersHaveUpdated;
+        public object worldImmobileTransform;
+        public object grab;
+        public object root;
+        public object _parentChangeDetector;
+        public object _executionGroup;
+        public object OnPoseUpdated;
+        public object OnInitialize;
+        public object hasInitParams;
+        public object hasInitTransform;
+        public object OnVerifyCollision;
+        public object shape;
+        public object collisionRecords;
+        public object param_IsGrabbedValue;
+        public object param_IsPosedValue;
+        public object param_AngleValue;
+        public object param_StretchValue;
+        public object param_SquishValue;
+        public object param_IsGrabbed;
+        public object param_IsPosed;
+        public object param_Angle;
+        public object param_Stretch;
+        public object param_Squish;
+        public object _udonEmitter;
+        public object MAX_STRETCH;
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x82FB0F0
         public void IsCollisionAllowed(){} // RVA: 0x82FB270
@@ -1458,6 +2019,28 @@ namespace VRC.Dynamics
 
     public class VRCPhysBoneColliderBase : DynamicsComponent
     {
+        public object rootTransform;
+        public object shapeType;
+        public object insideBounds;
+        public object radius;
+        public object height;
+        public object position;
+        public object rotation;
+        public object bonesAsSpheres;
+        public object globalCollision;
+        public object globalCollisionAllowSelf;
+        public object globalCollisionAllowOthers;
+        public object globalCollisionFlags;
+        public object _globalCollisionSerializationVersion;
+        public object GlobalCollisionCurrentSerializationVersion;
+        public object getPlayerIdCallback;
+        public object playerId;
+        public object shape;
+        public object CollidersPendingShapeUpdate;
+        public object _parentChangeDetector;
+        public object _executionGroup;
+        public object OnPreShapeInitialize;
+
         // ── Methods ──
         public void GetRootTransform(){} // RVA: 0x82FF940
         public void get_axis(){} // RVA: 0x82FFA30

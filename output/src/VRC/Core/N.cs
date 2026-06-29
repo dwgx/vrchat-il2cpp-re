@@ -14,6 +14,27 @@ namespace VRC.Core
 
     public class NetworkRegionExtensions : Object
     {
+        public object US_WEST_API_STRING;
+        public object US_EAST_API_STRING;
+        public object JAPAN_API_STRING;
+        public object EUROPE_API_STRING;
+        public object US_WEST_NETWORK_STRING;
+        public object US_EAST_NETWORK_STRING;
+        public object JAPAN_NETWORK_STRING;
+        public object EUROPE_NETWORK_STRING;
+        public object US_WEST_SHORT_DISPLAY_STRING;
+        public object US_EAST_SHORT_DISPLAY_STRING;
+        public object JAPAN_SHORT_DISPLAY_STRING;
+        public object EUROPE_SHORT_DISPLAY_STRING;
+        public object US_WEST_DISPLAY_STRING;
+        public object US_EAST_DISPLAY_STRING;
+        public object JAPAN_DISPLAY_STRING;
+        public object EUROPE_DISPLAY_STRING;
+        public object US_WEST_ICON_STRING;
+        public object US_EAST_ICON_STRING;
+        public object JAPAN_ICON_STRING;
+        public object EUROPE_ICON_STRING;
+
         // ── Methods ──
         public void ToNetworkRegion(){} // RVA: 0xA5C0DD0
         public void ToApiString(){} // RVA: 0xA5C0F60

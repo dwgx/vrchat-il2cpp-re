@@ -7,12 +7,29 @@ namespace VRC.UI.Client.OSCAutomation
 {
     public class ScrollLogic : Object
     {
+        public object Distance;
+        public object Duration;
+        public object ScrollDirection;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x14E9690
     }
 
     public class UIAutomationCommand : Object
     {
+        public object Container;
+        public object Control;
+        public object ChildControl;
+        public object ActionDelay;
+        public object StartDelay;
+        public object OpenQuickMenu;
+        public object CloseMenu;
+        public object ShallowSearch;
+        public object PointerAction;
+        public object SliderValue;
+        public object ToggleValue;
+        public object ScrollLogic;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }

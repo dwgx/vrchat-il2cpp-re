@@ -7,6 +7,28 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Plugins.InputForUI
 {
     public class InputSystemProvider : Object
     {
+        public object m_Cfg;
+        public object m_InputEventPartialProvider;
+        public object m_InputActionAsset;
+        public object m_PointAction;
+        public object m_MoveAction;
+        public object m_SubmitAction;
+        public object m_CancelAction;
+        public object m_LeftClickAction;
+        public object m_MiddleClickAction;
+        public object m_RightClickAction;
+        public object m_ScrollWheelAction;
+        public object m_NextPreviousAction;
+        public object m_Events;
+        public object m_MouseState;
+        public object m_PenState;
+        public object m_SeenPenEvents;
+        public object m_TouchState;
+        public object m_SeenTouchEvents;
+        public object m_RepeatHelper;
+        public object m_ResetSeenEventsOnUpdate;
+        public object s_OnRegisterActions;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x77F73E0
         public void Bootstrap(){} // RVA: 0xB43310

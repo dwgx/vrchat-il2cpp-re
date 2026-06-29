@@ -7,12 +7,16 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Mozi
 {
     public class PublicKeyAndChallenge : Asn1Encodable
     {
+        public object pkacSeq;
+        public object spki;
+        public object challenge;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15CB950
-        public void .ctor(){} // RVA: 0x7B15CBCA0
-        public void ToAsn1Object(){} // RVA: 0x7A80F2570
-        public void get_SubjectPublicKeyInfo(){} // RVA: 0x7A80DA7B0
-        public void get_Challenge(){} // RVA: 0x7A81052C0
+        public void GetInstance(){} // RVA: 0xA436EF0
+        public void .ctor(){} // RVA: 0xA437240
+        public void ToAsn1Object(){} // RVA: 0xB5DBF0
+        public void get_SubjectPublicKeyInfo(){} // RVA: 0xB465B0
+        public void get_Challenge(){} // RVA: 0xB700F0
     }
 
 }

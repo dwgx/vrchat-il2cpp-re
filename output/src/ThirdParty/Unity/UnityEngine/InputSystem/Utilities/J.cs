@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class JsonParser : ValueType
     {
+        public object m_Text;
+        public object m_Length;
+        public object m_Position;
+        public object m_MatchAnyElementInArray;
+        public object m_DryRun;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x92E4B0
         public void Reset(){} // RVA: 0x92E570

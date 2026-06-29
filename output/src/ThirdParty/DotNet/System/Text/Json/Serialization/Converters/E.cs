@@ -27,6 +27,13 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class EnumConverter`1 : JsonConverter`1
     {
+        public object s_enumTypeCode;
+        public object s_negativeSign;
+        public object _converterOptions;
+        public object _namingPolicy;
+        public object _nameCache;
+        public object _dictionaryKeyPolicyCache;
+
         // ── Methods ──
         public void CanConvert(){} // RVA: 0x87D350
         public void .ctor(){} // RVA: 0x897330
@@ -43,6 +50,15 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class EnumConverter`1 : JsonPrimitiveConverter`1
     {
+        public object s_enumTypeCode;
+        public object s_isSignedEnum;
+        public object ValueSeparator;
+        public object _converterOptions;
+        public object _namingPolicy;
+        public object _nameCacheForWriting;
+        public object _nameCacheForReading;
+        public object NameCacheSizeSoftLimit;
+
         // ── Methods ──
         public void CanConvert(){} // RVA: 0x87D350
         public void .ctor(){} // RVA: 0x897330

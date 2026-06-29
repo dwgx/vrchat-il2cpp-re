@@ -7,6 +7,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 {
     public class CachedAttributeGetter`1 : Object
     {
+        public object TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x627A450
         public void .cctor(){} // RVA: 0x627A540
@@ -14,6 +16,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class CachedAttributeGetter`1 : Object
     {
+        public object TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x627A450
         public void .cctor(){} // RVA: 0x627A540
@@ -21,6 +25,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class CachedAttributeGetter`1 : Object
     {
+        public object TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x627A450
         public void .cctor(){} // RVA: 0x627A540
@@ -28,6 +34,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class CachedAttributeGetter`1 : Object
     {
+        public object TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0x627A450
         public void .cctor(){} // RVA: 0x627A540
@@ -35,6 +43,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class CachedAttributeGetter`1 : Object
     {
+        public object TypeAttributeCache;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0xA94080
         public void .cctor(){} // RVA: 0x8942F0
@@ -49,6 +59,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class CamelCasePropertyNamesContractResolver : DefaultContractResolver
     {
+        public object TypeContractCacheLock;
+        public object NameTable;
+        public object _contractCache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A55130
         public void ResolveContract(){} // RVA: 0x6A55200
@@ -58,6 +72,19 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultContractResolver : Object
     {
+        public object _instance;
+        public object BlacklistedTypeNames;
+        public object BuiltInConverters;
+        public object _nameTable;
+        public object _contractCache;
+        public object _defaultMembersSearchFlags;
+        public object _serializeCompilerGeneratedMembers;
+        public object _ignoreSerializableInterface;
+        public object _ignoreSerializableAttribute;
+        public object _ignoreIsSpecifiedMembers;
+        public object _ignoreShouldSerializeMembers;
+        public object _namingStrategy;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6A55950
         public void get_DynamicCodeGeneration(){} // RVA: 0x6A559B0
@@ -135,6 +162,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultReferenceResolver : Object
     {
+        public object _referenceCount;
+
         // ── Methods ──
         public void GetMappings(){} // RVA: 0x6A607D0
         public void ResolveReference(){} // RVA: 0x6A60A30
@@ -146,6 +175,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DefaultSerializationBinder : SerializationBinder
     {
+        public object Instance;
+        public object _typeCache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A60D90
         public void GetTypeFromTypeNameKey(){} // RVA: 0x6A60EA0
@@ -158,6 +190,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class DiagnosticsTraceWriter : Object
     {
+        public object _levelFilter;
+
         // ── Methods ──
         public void get_LevelFilter(){} // RVA: 0xB8F8F0
         public void set_LevelFilter(){} // RVA: 0xB460A0
@@ -168,6 +202,13 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ErrorContext : Object
     {
+        public object _traced;
+        public object _error;
+        public object _originalObject;
+        public object _member;
+        public object _path;
+        public object _handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A61F70
         public void get_Traced(){} // RVA: 0xC120A0
@@ -182,6 +223,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ErrorEventArgs : EventArgs
     {
+        public object _currentObject;
+        public object _errorContext;
+
         // ── Methods ──
         public void get_CurrentObject(){} // RVA: 0xB5DBF0
         public void get_ErrorContext(){} // RVA: 0xB465B0
@@ -250,6 +294,20 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonArrayContract : JsonContainerContract
     {
+        public object _collectionItemType;
+        public object _isMultidimensionalArray;
+        public object _genericCollectionDefinitionType;
+        public object _genericWrapperType;
+        public object _genericWrapperCreator;
+        public object _genericTemporaryCollectionCreator;
+        public object _isArray;
+        public object _shouldCreateWrapper;
+        public object _canDeserialize;
+        public object _parameterizedConstructor;
+        public object _parameterizedCreator;
+        public object _overrideCreator;
+        public object _hasParameterizedCreator;
+
         // ── Methods ──
         public void get_CollectionItemType(){} // RVA: 0xBAE420
         public void get_IsMultidimensionalArray(){} // RVA: 0x1C11610
@@ -271,6 +329,13 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonContainerContract : JsonContract
     {
+        public object _itemContract;
+        public object _finalItemContract;
+        public object _itemConverter;
+        public object _itemIsReference;
+        public object _itemReferenceLoopHandling;
+        public object _itemTypeNameHandling;
+
         // ── Methods ──
         public void get_ItemContract(){} // RVA: 0x1069350
         public void set_ItemContract(){} // RVA: 0x6A64870
@@ -288,6 +353,28 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonContract : Object
     {
+        public object IsNullable;
+        public object IsConvertable;
+        public object IsEnum;
+        public object NonNullableUnderlyingType;
+        public object InternalReadType;
+        public object ContractType;
+        public object IsReadOnlyOrFixedSize;
+        public object IsSealed;
+        public object IsInstantiable;
+        public object _onDeserializedCallbacks;
+        public object _onDeserializingCallbacks;
+        public object _onSerializedCallbacks;
+        public object _onSerializingCallbacks;
+        public object _onErrorCallbacks;
+        public object _createdType;
+        public object _underlyingType;
+        public object _isReference;
+        public object _converter;
+        public object _internalConverter;
+        public object _defaultCreator;
+        public object _defaultCreatorNonPublic;
+
         // ── Methods ──
         public void get_UnderlyingType(){} // RVA: 0xBE2C60
         public void get_CreatedType(){} // RVA: 0xC0FFC0
@@ -319,6 +406,20 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonDictionaryContract : JsonContainerContract
     {
+        public object _dictionaryKeyResolver;
+        public object _dictionaryKeyType;
+        public object _dictionaryValueType;
+        public object _keyContract;
+        public object _genericCollectionDefinitionType;
+        public object _genericWrapperType;
+        public object _genericWrapperCreator;
+        public object _genericTemporaryDictionaryCreator;
+        public object _shouldCreateWrapper;
+        public object _parameterizedConstructor;
+        public object _overrideCreator;
+        public object _parameterizedCreator;
+        public object _hasParameterizedCreator;
+
         // ── Methods ──
         public void get_DictionaryKeyResolver(){} // RVA: 0xBAE420
         public void set_DictionaryKeyResolver(){} // RVA: 0xBAE430
@@ -340,6 +441,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonDynamicContract : JsonContainerContract
     {
+        public object _properties;
+        public object _propertyNameResolver;
+        public object _callSiteGetters;
+        public object _callSiteSetters;
+
         // ── Methods ──
         public void get_Properties(){} // RVA: 0xBAE420
         public void get_PropertyNameResolver(){} // RVA: 0xCA4D80
@@ -353,6 +459,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonFormatterConverter : Object
     {
+        public object _reader;
+        public object _contract;
+        public object _member;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A68B30
         public void GetTokenValue(){} // RVA: 0xA94080
@@ -376,6 +486,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonISerializableContract : JsonContainerContract
     {
+        public object _iSerializableCreator;
+
         // ── Methods ──
         public void get_ISerializableCreator(){} // RVA: 0xBAE420
         public void set_ISerializableCreator(){} // RVA: 0xBAE430
@@ -390,6 +502,21 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonObjectContract : JsonContainerContract
     {
+        public object _memberSerialization;
+        public object _missingMemberHandling;
+        public object _itemRequired;
+        public object _itemNullValueHandling;
+        public object _properties;
+        public object _extensionDataSetter;
+        public object _extensionDataGetter;
+        public object _extensionDataNameResolver;
+        public object ExtensionDataIsJToken;
+        public object _hasRequiredOrDefaultValueProperties;
+        public object _overrideCreator;
+        public object _parameterizedCreator;
+        public object _creatorParameters;
+        public object _extensionDataValueType;
+
         // ── Methods ──
         public void get_MemberSerialization(){} // RVA: 0xE35F30
         public void set_MemberSerialization(){} // RVA: 0xE3CFA0
@@ -420,6 +547,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonPrimitiveContract : JsonContract
     {
+        public object _typeCode;
+        public object ReadTypeMap;
+
         // ── Methods ──
         public void get_TypeCode(){} // RVA: 0xF3A950
         public void set_TypeCode(){} // RVA: 0x17AFA20
@@ -429,6 +559,39 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonProperty : Object
     {
+        public object _required;
+        public object _hasExplicitDefaultValue;
+        public object _defaultValue;
+        public object _hasGeneratedDefaultValue;
+        public object _propertyName;
+        public object _skipPropertyNameEscape;
+        public object _propertyType;
+        public object _propertyContract;
+        public object _declaringType;
+        public object _order;
+        public object _underlyingName;
+        public object _valueProvider;
+        public object _attributeProvider;
+        public object _converter;
+        public object _ignored;
+        public object _readable;
+        public object _writable;
+        public object _hasMemberAttribute;
+        public object _isReference;
+        public object _nullValueHandling;
+        public object _defaultValueHandling;
+        public object _referenceLoopHandling;
+        public object _objectCreationHandling;
+        public object _typeNameHandling;
+        public object _shouldSerialize;
+        public object _shouldDeserialize;
+        public object _getIsSpecified;
+        public object _setIsSpecified;
+        public object _itemConverter;
+        public object _itemIsReference;
+        public object _itemTypeNameHandling;
+        public object _itemReferenceLoopHandling;
+
         // ── Methods ──
         public void get_PropertyContract(){} // RVA: 0xBBF8F0
         public void set_PropertyContract(){} // RVA: 0xBBF900
@@ -499,6 +662,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonPropertyCollection : KeyedCollection`2
     {
+        public object _type;
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6A900
         public void GetKeyForItem(){} // RVA: 0x13874F0
@@ -530,6 +696,12 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonSerializerInternalBase : Object
     {
+        public object _currentErrorContext;
+        public object _mappings;
+        public object Serializer;
+        public object TraceWriter;
+        public object InternalSerializer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A6B250
         public void get_DefaultReferenceMappings(){} // RVA: 0x6A6B3A0
@@ -594,6 +766,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonSerializerInternalWriter : JsonSerializerInternalBase
     {
+        public object _rootType;
+        public object _rootLevel;
+        public object _serializeStack;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A7ABB0
         public void Serialize(){} // RVA: 0x6A7AC80
@@ -636,6 +812,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonSerializerProxy : JsonSerializer
     {
+        public object _serializerReader;
+        public object _serializerWriter;
+        public object _serializer;
+
         // ── Methods ──
         public void add_Error(){} // RVA: 0x6A83480
         public void remove_Error(){} // RVA: 0x6A834B0
@@ -713,6 +893,20 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class JsonTypeReflector : Object
     {
+        public object _dynamicCodeGeneration;
+        public object _fullyTrusted;
+        public object IdPropertyName;
+        public object RefPropertyName;
+        public object TypePropertyName;
+        public object ValuePropertyName;
+        public object ArrayValuesPropertyName;
+        public object ShouldSerializePrefix;
+        public object SpecifiedPostfix;
+        public object ConcurrentDictionaryTypeName;
+        public object CreatorCache;
+        public object AssociatedMetadataTypesCache;
+        public object _metadataTypeAttributeReflectionObject;
+
         // ── Methods ──
         public void GetCachedAttribute(){} // RVA: 0xA94080
         public void GetAttribute(){} // RVA: 0xA94080
@@ -744,6 +938,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class MemoryTraceWriter : Object
     {
+        public object _traceMessages;
+        public object _lock;
+        public object _levelFilter;
+
         // ── Methods ──
         public void get_LevelFilter(){} // RVA: 0xFEAE90
         public void set_LevelFilter(){} // RVA: 0x1269760
@@ -755,6 +953,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class NamingStrategy : Object
     {
+        public object _processDictionaryKeys;
+        public object _processExtensionDataNames;
+        public object _overrideSpecifiedNames;
+
         // ── Methods ──
         public void get_ProcessDictionaryKeys(){} // RVA: 0xC120A0
         public void set_ProcessDictionaryKeys(){} // RVA: 0xC120B0
@@ -797,6 +999,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ReflectionAttributeProvider : Object
     {
+        public object _attributeProvider;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A86D10
         public void GetAttributes(){} // RVA: 0x6A86E60
@@ -804,6 +1008,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class ReflectionValueProvider : Object
     {
+        public object _memberInfo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A86EE0
         public void SetValue(){} // RVA: 0x6A86FC0
@@ -812,6 +1018,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class SerializationBinderAdapter : Object
     {
+        public object SerializationBinder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void BindToType(){} // RVA: 0x6A87370
@@ -845,6 +1053,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class TraceJsonReader : JsonReader
     {
+        public object _innerReader;
+        public object _textWriter;
+        public object _sw;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A873E0
         public void GetDeserializedJsonMessage(){} // RVA: 0x6A876D0
@@ -873,6 +1085,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Serialization
 
     public class TraceJsonWriter : JsonWriter
     {
+        public object _innerWriter;
+        public object _textWriter;
+        public object _sw;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A87D70
         public void GetSerializedJsonMessage(){} // RVA: 0x6A88270

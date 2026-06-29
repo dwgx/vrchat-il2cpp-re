@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
     public class LargeJsonObjectExtensionDataSerializationState : Object
     {
+        public object _tempDictionary;
+        public object _destination;
+
         // ── Methods ──
         public void get_Destination(){} // RVA: 0xB465B0
         public void .ctor(){} // RVA: 0x6DCE030

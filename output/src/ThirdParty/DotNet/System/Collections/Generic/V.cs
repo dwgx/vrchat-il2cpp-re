@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class ValueListBuilder`1 : ValueType
     {
+        public object _span;
+        public object _arrayFromPool;
+        public object _pos;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Length(){} // RVA: 0x87C130
@@ -18,6 +22,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ValueListBuilder`1 : ValueType
     {
+        public object _span;
+        public object _arrayFromPool;
+        public object _pos;
+
         // ── Methods ──
         public void AsSpan(){} // RVA: 0x5139D00
         public void Dispose(){} // RVA: 0x5139DD0
@@ -29,6 +37,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ValueListBuilder`1 : ValueType
     {
+        public object _span;
+        public object _arrayFromPool;
+        public object _pos;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Length(){} // RVA: 0x87C130
@@ -42,6 +54,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class ValueListBuilder`1 : ValueType
     {
+        public object _span;
+        public object _arrayFromPool;
+        public object _pos;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5139C40
         public void Append(){} // RVA: 0x5139C70

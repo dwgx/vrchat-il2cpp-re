@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Color : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -23,6 +25,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32 : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -39,6 +43,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32Array : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -59,6 +65,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32ArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -73,6 +81,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class Color32T : Object
     {
+        public object _r;
+        public object _g;
+        public object _b;
+        public object _a;
+
         // ── Methods ──
         public void get_R(){} // RVA: 0xC120A0
         public void set_R(){} // RVA: 0xC120B0
@@ -87,6 +100,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -107,6 +122,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -121,6 +138,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ColorT : Object
     {
+        public object _r;
+        public object _g;
+        public object _b;
+        public object _a;
+
         // ── Methods ──
         public void get_R(){} // RVA: 0xC763E0
         public void set_R(){} // RVA: 0xC763F0

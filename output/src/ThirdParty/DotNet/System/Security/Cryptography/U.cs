@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Utils : Object
     {
+        public object DefaultRsaProviderType;
+        public object _rng;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB43310
         public void get_StaticRandomNumberGenerator(){} // RVA: 0x6718010

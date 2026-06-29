@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 58
-// Methods: 267
+// Classes: 57
+// Methods: 265
 
 namespace ThirdParty.DotNet.System
 {
     public class CLSCompliantAttribute : Attribute
     {
+        public object _compliant;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC120B0
     }
@@ -19,6 +21,9 @@ namespace ThirdParty.DotNet.System
 
     public class Char : ValueType
     {
+        public object m_value;
+        public object s_categoryForLatin1;
+
         // ── Methods ──
         public void IsLatin1(){} // RVA: 0x67F0A30
         public void IsAscii(){} // RVA: 0x67F0A40
@@ -81,6 +86,10 @@ namespace ThirdParty.DotNet.System
 
     public class CharEnumerator : Object
     {
+        public object _str;
+        public object _index;
+        public object _currentElement;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67F4690
         public void Clone(){} // RVA: 0x67F43E0
@@ -129,6 +138,13 @@ namespace ThirdParty.DotNet.System
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
         public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    }
+
+    public class Comparison`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3B100
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Comparison`1 : MulticastDelegate
@@ -245,6 +261,20 @@ namespace ThirdParty.DotNet.System
     public class Comparison`1 : MulticastDelegate
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3B100
+        public void Invoke(){} // RVA: 0xCA8BF0
+    }
+
+    public class Comparison`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6421480
+        public void Invoke(){} // RVA: 0x3E3C390
+    }
+
+    public class Comparison`1 : MulticastDelegate
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x6421480
         public void Invoke(){} // RVA: 0x3E3C390
     }
@@ -280,22 +310,15 @@ namespace ThirdParty.DotNet.System
     public class Comparison`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3B100
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Comparison`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3B100
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Comparison`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void .ctor(){} // RVA: 0x64213B0
         public void Invoke(){} // RVA: 0x3E374F0
+    }
+
+    public class Comparison`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E3B100
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Comparison`1 : MulticastDelegate
@@ -350,29 +373,8 @@ namespace ThirdParty.DotNet.System
     public class Comparison`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3B100
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Comparison`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3B100
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Comparison`1 : MulticastDelegate
-    {
-        // ── Methods ──
         public void .ctor(){} // RVA: 0x6421AC0
         public void Invoke(){} // RVA: 0x6421B90
-    }
-
-    public class Comparison`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3B100
-        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Comparison`1 : MulticastDelegate
@@ -413,12 +415,20 @@ namespace ThirdParty.DotNet.System
     public class Comparison`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6421480
-        public void Invoke(){} // RVA: 0x3E3C390
+        public void .ctor(){} // RVA: 0x3E3B100
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Console : Object
     {
+        public object stdout;
+        public object stderr;
+        public object stdin;
+        public object IsRunningOnAndroid;
+        public object inputEncoding;
+        public object outputEncoding;
+        public object cancel_event;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x69779C0
         public void SetupStreams(){} // RVA: 0x6977C20
@@ -439,6 +449,9 @@ namespace ThirdParty.DotNet.System
 
     public class ConsoleCancelEventArgs : EventArgs
     {
+        public object _type;
+        public object _cancel;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x693E4B0
         public void get_Cancel(){} // RVA: 0xC9C250
@@ -453,6 +466,10 @@ namespace ThirdParty.DotNet.System
 
     public class ConsoleDriver : Object
     {
+        public object driver;
+        public object is_console;
+        public object called_isatty;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6979270
         public void CreateNullConsoleDriver(){} // RVA: 0x69793C0
@@ -468,6 +485,10 @@ namespace ThirdParty.DotNet.System
 
     public class ConsoleKeyInfo : ValueType
     {
+        public object _keyChar;
+        public object _key;
+        public object _mods;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BE120
         public void get_KeyChar(){} // RVA: 0xE3300
@@ -490,6 +511,12 @@ namespace ThirdParty.DotNet.System
 
     public class Convert : Object
     {
+        public object s_decodingMap;
+        public object ConvertTypes;
+        public object EnumType;
+        public object base64Table;
+        public object DBNull;
+
         // ── Methods ──
         public void TryDecodeFromUtf16(){} // RVA: 0x67F46C0
         public void Decode(){} // RVA: 0x67F4A50
@@ -544,6 +571,9 @@ namespace ThirdParty.DotNet.System
 
     public class CultureAwareComparer : StringComparer
     {
+        public object _compareInfo;
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x692F2A0
         public void Compare(){} // RVA: 0x692F570
@@ -554,6 +584,11 @@ namespace ThirdParty.DotNet.System
 
     public class CurrentSystemTimeZone : TimeZone
     {
+        public object m_ticksOffset;
+        public object m_standardName;
+        public object m_daylightName;
+        public object m_CachedDaylightChanges;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68E6640
         public void GetDaylightChanges(){} // RVA: 0x68E6860

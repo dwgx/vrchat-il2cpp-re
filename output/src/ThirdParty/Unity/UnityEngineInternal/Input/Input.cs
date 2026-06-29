@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngineInternal.Input
 {
     public class NativeInputSystem : Object
     {
+        public object onUpdate;
+        public object onBeforeUpdate;
+        public object onShouldRunUpdate;
+        public object s_OnDeviceDiscoveredCallback;
+
         // ── Methods ──
         public void get_onDeviceDiscovered(){} // RVA: 0x7CAD0D0
         public void set_onDeviceDiscovered(){} // RVA: 0x7CAD130

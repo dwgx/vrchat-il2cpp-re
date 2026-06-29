@@ -7,6 +7,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class Select2`3 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -18,6 +22,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`3 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -29,6 +39,12 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany2`4 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -40,6 +56,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`4 : ValueType
     {
+        public object <collectionSelector>P;
+        public object <resultSelector>P;
+        public object source;
+        public object innerEnumerator;
+        public object currentSource;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -51,6 +74,13 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany3`5 : ValueType
     {
+        public object <collectionSelector>P;
+        public object <resultSelector>P;
+        public object source;
+        public object innerEnumerator;
+        public object currentSource;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -62,6 +92,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`4 : ValueType
     {
+        public object <collectionSelector>P;
+        public object <resultSelector>P;
+        public object source;
+        public object innerEnumerator;
+        public object currentSource;
+        public object index;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -73,6 +111,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany4`5 : ValueType
     {
+        public object <collectionSelector>P;
+        public object <resultSelector>P;
+        public object source;
+        public object innerEnumerator;
+        public object currentSource;
+        public object index;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -84,6 +130,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`3 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x498FC0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
@@ -95,6 +146,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`3 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x498EE0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
@@ -106,6 +162,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`3 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -117,6 +178,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectMany`4 : ValueType
     {
+        public object <selector>P;
+        public object source;
+        public object innerEnumerator;
+        public object hasInner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -128,12 +194,20 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SelectWhere`3 : ValueType
     {
+        public object <selector>P;
+        public object <predicate>P;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x499760
     }
 
     public class SelectWhere`3 : ValueType
     {
+        public object <selector>P;
+        public object <predicate>P;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -145,6 +219,9 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select`3 : ValueType
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35C0C0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x49A150
@@ -157,12 +234,18 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Select`3 : ValueType
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x49BDF0
     }
 
     public class Select`3 : ValueType
     {
+        public object source;
+        public object selector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -175,6 +258,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Shuffle`2 : ValueType
     {
+        public object source;
+        public object buffer;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -187,6 +274,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipLast`2 : ValueType
     {
+        public object source;
+        public object skipCount;
+        public object buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -198,6 +289,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipLast`2 : ValueType
     {
+        public object source;
+        public object skipCount;
+        public object buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x49CB40
         public void TryGetNonEnumeratedCount(){} // RVA: 0x49CB70
@@ -209,6 +304,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile2`2 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object skippingDone;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -220,6 +320,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class SkipWhile`2 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object skippingDone;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -231,6 +335,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Skip`2 : ValueType
     {
+        public object source;
+        public object skipCount;
+        public object skipped;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350

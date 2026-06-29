@@ -7,22 +7,29 @@ namespace ThirdParty.BestHTTP.BestHTTP.Decompression.Crc
 {
     public class CRC32 : Object
     {
+        public object dwPolynomial;
+        public object _TotalBytesRead;
+        public object reverseBits;
+        public object crc32Table;
+        public object BUFFER_SIZE;
+        public object _register;
+
         // ── Methods ──
-        public void get_TotalBytesRead(){} // RVA: 0x7A80DA7B0
-        public void get_Crc32Result(){} // RVA: 0x7B1665B30
-        public void GetCrc32(){} // RVA: 0x7B1665B40
-        public void GetCrc32AndCopy(){} // RVA: 0x7B1665B50
-        public void ComputeCrc32(){} // RVA: 0x7B1665DD0
-        public void _InternalComputeCrc32(){} // RVA: 0x7B1665DD0
-        public void SlurpBlock(){} // RVA: 0x7B1665E10
-        public void UpdateCRC(){} // RVA: 0x7B1665F90
-        public void ReverseBits(){} // RVA: 0x7B1666040
-        public void GenerateLookupTable(){} // RVA: 0x7B1666070
-        public void gf2_matrix_times(){} // RVA: 0x7B16661D0
-        public void gf2_matrix_square(){} // RVA: 0x7B1666220
-        public void Combine(){} // RVA: 0x7B16662C0
-        public void .ctor(){} // RVA: 0x7B1666620
-        public void Reset(){} // RVA: 0x7AECB3380
+        public void get_TotalBytesRead(){} // RVA: 0xB465B0
+        public void get_Crc32Result(){} // RVA: 0xA4D0ED0
+        public void GetCrc32(){} // RVA: 0xA4D0EE0
+        public void GetCrc32AndCopy(){} // RVA: 0xA4D0EF0
+        public void ComputeCrc32(){} // RVA: 0xA4D1170
+        public void _InternalComputeCrc32(){} // RVA: 0xA4D1170
+        public void SlurpBlock(){} // RVA: 0xA4D11B0
+        public void UpdateCRC(){} // RVA: 0xA4D1330
+        public void ReverseBits(){} // RVA: 0xA4D13E0
+        public void GenerateLookupTable(){} // RVA: 0xA4D1410
+        public void gf2_matrix_times(){} // RVA: 0xA4D1570
+        public void gf2_matrix_square(){} // RVA: 0xA4D15C0
+        public void Combine(){} // RVA: 0xA4D1660
+        public void .ctor(){} // RVA: 0xA4D19C0
+        public void Reset(){} // RVA: 0x7921150
     }
 
 }

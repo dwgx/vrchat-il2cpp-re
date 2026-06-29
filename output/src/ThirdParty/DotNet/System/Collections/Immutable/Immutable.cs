@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 {
     public class AllocFreeConcurrentStack`1 : Object
     {
+        public object s_typeOfT;
+
         // ── Methods ──
         public void TryAdd(){} // RVA: 0xA94080
         public void TryTake(){} // RVA: 0x87D390
@@ -16,6 +18,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class AllocFreeConcurrentStack`1 : Object
     {
+        public object s_typeOfT;
+
         // ── Methods ──
         public void TryAdd(){} // RVA: 0xA94080
         public void TryTake(){} // RVA: 0x87D390
@@ -25,6 +29,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DictionaryEnumerator`2 : Object
     {
+        public object _inner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Entry(){} // RVA: 0x87BEB0
@@ -37,6 +43,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DictionaryEnumerator`2 : Object
     {
+        public object _inner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Entry(){} // RVA: 0x87BEB0
@@ -49,6 +57,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DisposableEnumeratorAdapter`2 : ValueType
     {
+        public object _enumeratorObject;
+        public object _enumeratorStruct;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Current(){} // RVA: 0xA94080
@@ -59,6 +70,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class DisposableEnumeratorAdapter`2 : ValueType
     {
+        public object _enumeratorObject;
+        public object _enumeratorStruct;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x25A0A0
         public void get_Current(){} // RVA: 0x25A070
@@ -136,6 +150,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray : Object
     {
+        public object TwoElementArray;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x30ED0C0
         public void ToImmutableArray(){} // RVA: 0x30EDB80
@@ -145,6 +161,8 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray : Object
     {
+        public object TwoElementArray;
+
         // ── Methods ──
         public void CreateBuilder(){} // RVA: 0x881E70
         public void .cctor(){} // RVA: 0x6D2A7E0
@@ -158,6 +176,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x319BF0
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0x318120
@@ -208,6 +229,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x318730
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x318050
@@ -258,6 +282,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x31A480
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x31D860
@@ -308,6 +335,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0xA94080
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0xA94080
@@ -358,6 +388,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x319BF0
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0x318120
@@ -408,12 +441,18 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0xA94080
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0xA94080
@@ -465,6 +504,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x318B10
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0x318120
@@ -516,6 +558,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x31DC80
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0x31DD80
@@ -567,6 +612,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableArray`1 : ValueType
     {
+        public object Empty;
+        public object array;
+
         // ── Methods ──
         public void System.Collections.Generic.IList<T>.get_Item(){} // RVA: 0x31D860
         public void System.Collections.Generic.IList<T>.set_Item(){} // RVA: 0x318120
@@ -629,6 +677,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableDictionary`2 : Object
     {
+        public object Empty;
+        public object s_FreezeBucketAction;
+        public object _count;
+        public object _root;
+        public object _comparers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Count(){} // RVA: 0x87C130
@@ -675,6 +729,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableDictionary`2 : Object
     {
+        public object Empty;
+        public object s_FreezeBucketAction;
+        public object _count;
+        public object _root;
+        public object _comparers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Clear(){} // RVA: 0x87C0A0
@@ -754,6 +814,13 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableHashSet`1 : Object
     {
+        public object Empty;
+        public object s_FreezeBucketAction;
+        public object _equalityComparer;
+        public object _count;
+        public object _root;
+        public object _hashBucketEqualityComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x895FE0
         public void get_Count(){} // RVA: 0x87C130
@@ -784,6 +851,13 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableHashSet`1 : Object
     {
+        public object Empty;
+        public object s_FreezeBucketAction;
+        public object _equalityComparer;
+        public object _count;
+        public object _root;
+        public object _hashBucketEqualityComparer;
+
         // ── Methods ──
         public void WithComparer(){} // RVA: 0x3FEB0D0
         public void Union(){} // RVA: 0x3FECD40
@@ -826,6 +900,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableList`1 : Object
     {
+        public object Empty;
+        public object _root;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -866,6 +943,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableList`1 : Object
     {
+        public object Empty;
+        public object _root;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -911,6 +991,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableSortedDictionary`2 : Object
     {
+        public object Empty;
+        public object _root;
+        public object _count;
+        public object _keyComparer;
+        public object _valueComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89C2D0
         public void Clear(){} // RVA: 0x87C0A0
@@ -963,6 +1049,12 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class ImmutableSortedDictionary`2 : Object
     {
+        public object Empty;
+        public object _root;
+        public object _count;
+        public object _keyComparer;
+        public object _valueComparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -1021,6 +1113,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void D(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x426AFF0
@@ -1041,6 +1136,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -1060,6 +1158,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426AFF0
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -1079,6 +1180,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void T(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x426B8D0
@@ -1099,6 +1203,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -1118,6 +1225,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class KeysOrValuesCollectionAccessor`3 : Object
     {
+        public object _dictionary;
+        public object _keysOrValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426B8D0
         public void get_IsReadOnly(){} // RVA: 0xC2E4C0
@@ -1137,24 +1247,32 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class RefAsValueType`1 : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
     }
 
     public class RefAsValueType`1 : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class RefAsValueType`1 : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
     }
 
     public class RefAsValueType`1 : ValueType
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
     }
@@ -1186,12 +1304,16 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecureObjectPool : Object
     {
+        public object s_poolUserIdCounter;
+
         // ── Methods ──
         public void NewId(){} // RVA: 0x6D2A8A0
     }
 
     public class SecureObjectPool : Object
     {
+        public object s_poolUserIdCounter;
+
         // ── Methods ──
         public void NewId(){} // RVA: 0x700B860
     }
@@ -1231,6 +1353,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
+        public object _value;
+        public object _owner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Owner(){} // RVA: 0x87C130
@@ -1242,6 +1367,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
+        public object _value;
+        public object _owner;
+
         // ── Methods ──
         public void TryUse(){} // RVA: 0x2CFBCB0
         public void Use(){} // RVA: 0x2CFBE30
@@ -1250,6 +1378,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
+        public object _value;
+        public object _owner;
+
         // ── Methods ──
         public void TryUse(){} // RVA: 0x2CFBD70
         public void Use(){} // RVA: 0x2CFBEC0
@@ -1258,6 +1389,9 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SecurePooledObject`1 : Object
     {
+        public object _value;
+        public object _owner;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Owner(){} // RVA: 0x87C130
@@ -1269,6 +1403,14 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SortedInt32KeyNode`1 : Object
     {
+        public object EmptyNode;
+        public object _key;
+        public object _value;
+        public object _frozen;
+        public object _height;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -1298,6 +1440,14 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SortedInt32KeyNode`1 : Object
     {
+        public object EmptyNode;
+        public object _key;
+        public object _value;
+        public object _frozen;
+        public object _height;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void Freeze(){} // RVA: 0x4AE2A10
         public void get_IsEmpty(){} // RVA: 0x4AE2770
@@ -1327,6 +1477,14 @@ namespace ThirdParty.DotNet.System.Collections.Immutable
 
     public class SortedInt32KeyNode`1 : Object
     {
+        public object EmptyNode;
+        public object _key;
+        public object _value;
+        public object _frozen;
+        public object _height;
+        public object _left;
+        public object _right;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void get_IsEmpty(){} // RVA: 0x87D280

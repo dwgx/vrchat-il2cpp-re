@@ -14,6 +14,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class NativeClassAttribute : Attribute
     {
+        public object _qualifiedNativeName;
+        public object _declaration;
+
         // ── Methods ──
         public void set_QualifiedNativeName(){} // RVA: 0xB44D60
         public void set_Declaration(){} // RVA: 0xBA9BA0
@@ -38,6 +41,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class NumericFieldDraggerUtility : Object
     {
+        public object s_UseYSign;
+
         // ── Methods ──
         public void Acceleration(){} // RVA: 0x7BF0050
         public void NiceDelta(){} // RVA: 0x7BF0090

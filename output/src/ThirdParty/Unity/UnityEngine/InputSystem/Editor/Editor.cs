@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Editor
 {
     public class SampleFrequencyCalculator : ValueType
     {
+        public object m_LastUpdateTime;
+        public object m_SampleCount;
+        public object _targetFrequency;
+        public object _frequency;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93A0F0
         public void get_targetFrequency(){} // RVA: 0xD1B00

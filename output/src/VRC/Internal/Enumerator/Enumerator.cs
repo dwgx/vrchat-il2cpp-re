@@ -8,6 +8,10 @@ namespace VRC.Internal.Enumerator
     /// <summary>Originally: ÎÎÍÌÌÏÎÌÎÍÎÎÍÍÏÎÌÎÎÌÌÎÍ</summary>
     public class Enumerator_6679 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x87C130
         public void MoveNext(){} // RVA: 0x87C130

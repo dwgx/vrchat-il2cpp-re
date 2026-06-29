@@ -7,6 +7,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 {
     public class AggregateBy2`4 : ValueType
     {
+        public object <keySelector>P;
+        public object <seedSelector>P;
+        public object <func>P;
+        public object <keyComparer>P;
+        public object source;
+        public object dictionary;
+        public object enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -19,6 +27,14 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class AggregateBy`4 : ValueType
     {
+        public object <keySelector>P;
+        public object <seed>P;
+        public object <func>P;
+        public object <keyComparer>P;
+        public object source;
+        public object dictionary;
+        public object enumerator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -31,17 +47,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Append`2 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x35AD70
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x35AD90
-        public void TryGetSpan(){} // RVA: 0x20C450
-        public void TryCopyTo(){} // RVA: 0x35ADA0
-        public void TryGetNext(){} // RVA: 0x35ADC0
-        public void Dispose(){} // RVA: 0x35ADD0
-    }
+        public object <element>P;
+        public object source;
+        public object state;
 
-    public class Append`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35AEB0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x35AEE0
@@ -53,6 +62,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Append`2 : ValueType
     {
+        public object <element>P;
+        public object source;
+        public object state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35ADF0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x35AE60
@@ -64,6 +77,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class Append`2 : ValueType
     {
+        public object <element>P;
+        public object source;
+        public object state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -73,8 +90,25 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
         public void Dispose(){} // RVA: 0x894290
     }
 
+    public class Append`2 : ValueType
+    {
+        public object <element>P;
+        public object source;
+        public object state;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x35AD70
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x35AD90
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x35ADA0
+        public void TryGetNext(){} // RVA: 0x35ADC0
+        public void Dispose(){} // RVA: 0x35ADD0
+    }
+
     public class ArrayIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
@@ -86,6 +120,8 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayIterator`1 : CollectionIterator`1
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
@@ -97,6 +133,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArraySelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
@@ -108,12 +148,20 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArraySelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C5C0
     }
 
     public class ArraySelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C5C0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
@@ -125,6 +173,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArraySelect`2 : ValueType
     {
+        public object source;
+        public object selector;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C5C0
         public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
@@ -136,6 +188,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C720
         public void GetSource(){} // RVA: 0x931A0
@@ -150,6 +207,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C720
         public void GetSource(){} // RVA: 0x931A0
@@ -164,6 +226,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C720
         public void get_Predicate(){} // RVA: 0x77900
@@ -173,6 +240,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C720
         public void GetSource(){} // RVA: 0x931A0
@@ -187,6 +259,11 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhereSelect`2 : ValueType
     {
+        public object <predicate>P;
+        public object <selector>P;
+        public object index;
+        public object source;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetSource(){} // RVA: 0x87C0A0
@@ -201,6 +278,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -215,6 +296,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -229,6 +314,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -243,6 +332,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -257,6 +350,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x36C750
         public void GetSource(){} // RVA: 0x77ED0
@@ -271,6 +368,10 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
 
     public class ArrayWhere`1 : ValueType
     {
+        public object <predicate>P;
+        public object source;
+        public object index;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetSource(){} // RVA: 0x87C0A0

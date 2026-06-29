@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class PhysBoneChain : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -23,6 +25,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneChainT : Object
     {
+        public object _chainIdA;
+        public object _chainIdB;
+        public object _boneOffset;
+        public object _boneCount;
+
         // ── Methods ──
         public void get_ChainIdA(){} // RVA: 0xB5DBF0
         public void set_ChainIdA(){} // RVA: 0x2230E30
@@ -37,6 +44,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrab : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -53,6 +62,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneGrabT : Object
     {
+        public object _chainIdA;
+        public object _chainIdB;
+        public object _bone;
+        public object _offset;
+
         // ── Methods ──
         public void get_ChainIdA(){} // RVA: 0xB5DBF0
         public void set_ChainIdA(){} // RVA: 0x2230E30
@@ -67,6 +81,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneRecorder : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -98,6 +114,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneRecorderT : Object
     {
+        public object _chains;
+        public object _bones;
+        public object _grabL;
+        public object _grabR;
+
         // ── Methods ──
         public void get_Chains(){} // RVA: 0xB5DBF0
         public void set_Chains(){} // RVA: 0xB44D60
@@ -120,6 +141,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneTransform : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -135,6 +158,10 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PhysBoneTransformT : Object
     {
+        public object _boneId;
+        public object _position;
+        public object _rotation;
+
         // ── Methods ──
         public void get_BoneId(){} // RVA: 0xC120A0
         public void set_BoneId(){} // RVA: 0xC120B0
@@ -147,6 +174,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -169,6 +198,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPair : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -212,6 +243,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataPairT : Object
     {
+        public object _key;
+        public object _value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0xB5DBF0
         public void set_Key(){} // RVA: 0xB44D60
@@ -228,6 +262,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataT : Object
     {
+        public object _pairs;
+
         // ── Methods ──
         public void get_Pairs(){} // RVA: 0xB5DBF0
         public void set_Pairs(){} // RVA: 0xB44D60
@@ -236,6 +272,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerDataTypeUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -298,6 +337,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -322,6 +363,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PlayerStationStateDataT : Object
     {
+        public object _activeStations;
+
         // ── Methods ──
         public void get_ActiveStations(){} // RVA: 0xB5DBF0
         public void set_ActiveStations(){} // RVA: 0xB44D60
@@ -336,6 +379,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PuppetData : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -349,6 +394,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class PuppetDataT : Object
     {
+        public object _channels;
+
         // ── Methods ──
         public void get_Channels(){} // RVA: 0xB5DBF0
         public void set_Channels(){} // RVA: 0xB44D60

@@ -7,84 +7,109 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ess
 {
     public class ContentHints : Asn1Encodable
     {
+        public object contentDescription;
+        public object contentType;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15DF9A0
-        public void .ctor(){} // RVA: 0x7ADABAF10
-        public void get_ContentType(){} // RVA: 0x7A80DA7B0
-        public void get_ContentDescription(){} // RVA: 0x7A80F2570
-        public void ToAsn1Object(){} // RVA: 0x7B15DFDE0
+        public void GetInstance(){} // RVA: 0xA44AF30
+        public void .ctor(){} // RVA: 0x67462E0
+        public void get_ContentType(){} // RVA: 0xB465B0
+        public void get_ContentDescription(){} // RVA: 0xB5DBF0
+        public void ToAsn1Object(){} // RVA: 0xA44B370
     }
 
     public class ContentIdentifier : Asn1Encodable
     {
+        public object value;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15DFF90
-        public void .ctor(){} // RVA: 0x7B15E0160
-        public void get_Value(){} // RVA: 0x7A80F2570
-        public void ToAsn1Object(){} // RVA: 0x7A80F2570
+        public void GetInstance(){} // RVA: 0xA44B520
+        public void .ctor(){} // RVA: 0xA44B6F0
+        public void get_Value(){} // RVA: 0xB5DBF0
+        public void ToAsn1Object(){} // RVA: 0xB5DBF0
     }
 
     public class EssCertID : Asn1Encodable
     {
+        public object certHash;
+        public object issuerSerial;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E02B0
-        public void .ctor(){} // RVA: 0x7B15E0780
-        public void GetCertHash(){} // RVA: 0x7ADB00F00
-        public void get_IssuerSerial(){} // RVA: 0x7A80DA7B0
-        public void ToAsn1Object(){} // RVA: 0x7B15E0930
+        public void GetInstance(){} // RVA: 0xA44B840
+        public void .ctor(){} // RVA: 0xA44BD10
+        public void GetCertHash(){} // RVA: 0x678C250
+        public void get_IssuerSerial(){} // RVA: 0xB465B0
+        public void ToAsn1Object(){} // RVA: 0xA44BEC0
     }
 
     public class EssCertIDv2 : Asn1Encodable
     {
+        public object hashAlgorithm;
+        public object certHash;
+        public object issuerSerial;
+        public object DefaultAlgID;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E0B40
-        public void .ctor(){} // RVA: 0x7B15E1080
-        public void get_HashAlgorithm(){} // RVA: 0x7A80F2570
-        public void GetCertHash(){} // RVA: 0x7B15E1270
-        public void get_IssuerSerial(){} // RVA: 0x7A81052C0
-        public void ToAsn1Object(){} // RVA: 0x7B15E1320
-        public void .cctor(){} // RVA: 0x7B15E1640
+        public void GetInstance(){} // RVA: 0xA44C0D0
+        public void .ctor(){} // RVA: 0xA44C610
+        public void get_HashAlgorithm(){} // RVA: 0xB5DBF0
+        public void GetCertHash(){} // RVA: 0xA44C800
+        public void get_IssuerSerial(){} // RVA: 0xB700F0
+        public void ToAsn1Object(){} // RVA: 0xA44C8B0
+        public void .cctor(){} // RVA: 0xA44CBD0
     }
 
     public class OtherCertID : Asn1Encodable
     {
+        public object otherCertHash;
+        public object issuerSerial;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E1790
-        public void .ctor(){} // RVA: 0x7B15E1C50
-        public void get_AlgorithmHash(){} // RVA: 0x7B15E1D80
-        public void GetCertHash(){} // RVA: 0x7B15E1EE0
-        public void get_IssuerSerial(){} // RVA: 0x7A80DA7B0
-        public void ToAsn1Object(){} // RVA: 0x7B15E2010
+        public void GetInstance(){} // RVA: 0xA44CD20
+        public void .ctor(){} // RVA: 0xA44D1E0
+        public void get_AlgorithmHash(){} // RVA: 0xA44D310
+        public void GetCertHash(){} // RVA: 0xA44D470
+        public void get_IssuerSerial(){} // RVA: 0xB465B0
+        public void ToAsn1Object(){} // RVA: 0xA44D5A0
     }
 
     public class OtherSigningCertificate : Asn1Encodable
     {
+        public object certs;
+        public object policies;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E2220
-        public void .ctor(){} // RVA: 0x7B15E25A0
-        public void GetCerts(){} // RVA: 0x7B15E2660
-        public void GetPolicies(){} // RVA: 0x7B15E2810
-        public void ToAsn1Object(){} // RVA: 0x7B15E29C0
+        public void GetInstance(){} // RVA: 0xA44D7B0
+        public void .ctor(){} // RVA: 0xA44DB30
+        public void GetCerts(){} // RVA: 0xA44DBF0
+        public void GetPolicies(){} // RVA: 0xA44DDA0
+        public void ToAsn1Object(){} // RVA: 0xA44DF50
     }
 
     public class SigningCertificate : Asn1Encodable
     {
+        public object certs;
+        public object policies;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E2BD0
-        public void .ctor(){} // RVA: 0x7B15E2F50
-        public void GetCerts(){} // RVA: 0x7B15E3010
-        public void GetPolicies(){} // RVA: 0x7B15E31C0
-        public void ToAsn1Object(){} // RVA: 0x7B15E3370
+        public void GetInstance(){} // RVA: 0xA44E160
+        public void .ctor(){} // RVA: 0xA44E4E0
+        public void GetCerts(){} // RVA: 0xA44E5A0
+        public void GetPolicies(){} // RVA: 0xA44E750
+        public void ToAsn1Object(){} // RVA: 0xA44E900
     }
 
     public class SigningCertificateV2 : Asn1Encodable
     {
+        public object certs;
+        public object policies;
+
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7B15E3580
-        public void .ctor(){} // RVA: 0x7B15E3AC0
-        public void GetCerts(){} // RVA: 0x7B15E3C10
-        public void GetPolicies(){} // RVA: 0x7B15E3E60
-        public void ToAsn1Object(){} // RVA: 0x7B15E4010
+        public void GetInstance(){} // RVA: 0xA44EB10
+        public void .ctor(){} // RVA: 0xA44F050
+        public void GetCerts(){} // RVA: 0xA44F1A0
+        public void GetPolicies(){} // RVA: 0xA44F3F0
+        public void ToAsn1Object(){} // RVA: 0xA44F5A0
     }
 
 }

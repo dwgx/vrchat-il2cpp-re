@@ -7,6 +7,8 @@ namespace VRC.DataModel.Textures
 {
     public class Base64TextureLoader : Object
     {
+        public object BASE_64_PNG_PREFIX;
+
         // ── Methods ──
         public void CanLoad(){} // RVA: 0x264F9D0
         public void LoadAsync(){} // RVA: 0x264FA20
@@ -16,6 +18,10 @@ namespace VRC.DataModel.Textures
 
     public class BaseTextureResource : Object
     {
+        public object _texture;
+        public object _refCount;
+        public object _textureId;
+
         // ── Methods ──
         public void get_Texture(){} // RVA: 0xB5DBF0
         public void get_RefCount(){} // RVA: 0xE62D00
@@ -85,6 +91,8 @@ namespace VRC.DataModel.Textures
 
     public class LocalTexturesLoader : Object
     {
+        public object RESOURCES_PREFIX;
+
         // ── Methods ──
         public void CanLoad(){} // RVA: 0x26502A0
         public void LoadAsync(){} // RVA: 0x26502F0
@@ -93,6 +101,12 @@ namespace VRC.DataModel.Textures
 
     public class NativeTextureDownloader : Object
     {
+        public object MAX_CONCURRENT_SMALL_IMAGE_GPU_UPLOADS;
+        public object MAX_CONCURRENT_LARGE_IMAGE_GPU_UPLOADS;
+        public object _smallImageUploadSemaphore;
+        public object _largeImageUploadSemaphore;
+        public object _uploader;
+
         // ── Methods ──
         public void DownloadTexture(){} // RVA: 0x2654A50
         public void LoadImageToTextureAsync(){} // RVA: 0x2654CF0
@@ -105,6 +119,12 @@ namespace VRC.DataModel.Textures
 
     public class TextureCache : Object
     {
+        public object MAX_MEMORY_CACHED_SIZE;
+        public object _textureResourceCache;
+        public object _cachedImageQueue;
+        public object _cachedImageRemoval;
+        public object _inMemoryTotalSize;
+
         // ── Methods ──
         public void get_InMemoryTotalSize(){} // RVA: 0xB70160
         public void get_Count(){} // RVA: 0x265EF10
@@ -120,6 +140,12 @@ namespace VRC.DataModel.Textures
 
     public class TextureDownloadDiskCache : Object
     {
+        public object MAX_DISK_CACHED_SIZE;
+        public object MAX_CONCURRENT_DISK_OPS;
+        public object TRIM_DELAY_MS;
+        public object _semaphore;
+        public object _trimInProgress;
+
         // ── Methods ──
         public void TryGet(){} // RVA: 0x2650B90
         public void SaveInBackground(){} // RVA: 0x2650FE0
@@ -137,12 +163,21 @@ namespace VRC.DataModel.Textures
 
     public class TextureHandle : ValueType
     {
+        public object id;
+        public object texture;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8E0E0
     }
 
     public class TextureLoadRequest : ValueType
     {
+        public object _id;
+        public object _size;
+        public object _generateMipMaps;
+        public object _skipCompression;
+        public object _cancellationToken;
+
         // ── Methods ──
         public void get_Id(){} // RVA: 0x8E1D0
         public void get_Size(){} // RVA: 0x8E1F0
@@ -154,6 +189,14 @@ namespace VRC.DataModel.Textures
 
     public class TextureManager : MonoBehaviour
     {
+        public object ErrorImagePath;
+        public object _errorImage;
+        public object _loaders;
+        public object _webLoader;
+        public object _cache;
+        public object _inProgressLoads;
+        public object _logger;
+
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x2661800
         public void Awake(){} // RVA: 0x2661940
@@ -172,6 +215,12 @@ namespace VRC.DataModel.Textures
 
     public class WebTexturesLoader : Object
     {
+        public object _textureDownloaderHandler;
+        public object _uploader;
+        public object MAX_CONCURRENT_DOWNLOADS;
+        public object _semaphore;
+        public object _diskCache;
+
         // ── Methods ──
         public void get_DiskCache(){} // RVA: 0xB70160
         public void CanLoad(){} // RVA: 0x265A2F0

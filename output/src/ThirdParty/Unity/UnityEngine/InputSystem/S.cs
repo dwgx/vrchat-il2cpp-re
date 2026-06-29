@@ -15,6 +15,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class StepCounter : Sensor
     {
+        public object _stepCounter;
+        public object _current;
+
         // ── Methods ──
         public void get_stepCounter(){} // RVA: 0x13659D0
         public void set_stepCounter(){} // RVA: 0x166D270

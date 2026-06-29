@@ -7,6 +7,8 @@ namespace VRC.Core
 {
     public class LazySingleton`1 : MonoBehaviour
     {
+        public object LazyInstance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0xA94080
         public void CreateSingleton(){} // RVA: 0xA94080
@@ -16,6 +18,9 @@ namespace VRC.Core
 
     public class LegacyTMPHelpers : Object
     {
+        public object CaretWidth;
+        public object BuiltInTMPShaderTag;
+
         // ── Methods ──
         public void IsBuiltInTMProShader(){} // RVA: 0xA5E1020
         public void IsPreU6Bundle(){} // RVA: 0xA5E1260
@@ -24,6 +29,9 @@ namespace VRC.Core
 
     public class LocalConfig : BaseConfig
     {
+        public object configPath;
+        public object autosave;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5D5780
         public void SetValue(){} // RVA: 0xA5D58C0
@@ -33,6 +41,15 @@ namespace VRC.Core
 
     public class Logger : Object
     {
+        public object _assignedLoggerReceiver;
+        public object _enabledCategories;
+        public object _treatAllCategoriesAsEnabled;
+        public object _timeLastLogPrintedForHash;
+        public object _categoryPrefixMap;
+        public object GlobalLoggerCategoryName;
+        public object _forcePassAllWarnings;
+        public object _forcePassAllErrors;
+
         // ── Methods ──
         public void AssignLoggerProvider(){} // RVA: 0xA5D6F50
         public void get_KnownLevels(){} // RVA: 0xA5D7000

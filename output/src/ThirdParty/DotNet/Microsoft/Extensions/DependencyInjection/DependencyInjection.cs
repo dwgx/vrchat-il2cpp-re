@@ -7,184 +7,217 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection
 {
     public class CallSiteJsonFormatter : CallSiteVisitor`2
     {
+        public object Instance;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD97B400
-        public void Format(){} // RVA: 0x7AD97B4B0
-        public void VisitConstructor(){} // RVA: 0x7AD97B680
-        public void VisitCallSiteMain(){} // RVA: 0x7AD97B8C0
-        public void VisitConstant(){} // RVA: 0x7AD97BAF0
-        public void VisitServiceProvider(){} // RVA: 0x7A82D1450
-        public void VisitIEnumerable(){} // RVA: 0x7AD97BB70
-        public void VisitFactory(){} // RVA: 0x7AD97BE00
-        public void .cctor(){} // RVA: 0x7AD97BE80
+        public void .ctor(){} // RVA: 0x66071F0
+        public void Format(){} // RVA: 0x66072A0
+        public void VisitConstructor(){} // RVA: 0x6607470
+        public void VisitCallSiteMain(){} // RVA: 0x66076B0
+        public void VisitConstant(){} // RVA: 0x66078E0
+        public void VisitServiceProvider(){} // RVA: 0xDAC980
+        public void VisitIEnumerable(){} // RVA: 0x6607960
+        public void VisitFactory(){} // RVA: 0x6607BE0
+        public void .cctor(){} // RVA: 0x6607C60
     }
 
     public class DependencyInjectionEventSource : EventSource
     {
+        public object Log;
+        public object _providers;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD97C5E0
-        public void CallSiteBuilt(){} // RVA: 0x7AD97CF00
-        public void ServiceResolved(){} // RVA: 0x7A8DD7270
-        public void DynamicMethodBuilt(){} // RVA: 0x7A8DD7270
-        public void ScopeDisposed(){} // RVA: 0x7AD97CA50
-        public void ServiceRealizationFailed(){} // RVA: 0x7A8DD7270
-        public void ServiceProviderBuilt(){} // RVA: 0x7AD97CF40
-        public void ServiceProviderDescriptors(){} // RVA: 0x7AD97CD40
-        public void ServiceProviderDisposed(){} // RVA: 0x7AD97D1A0
-        public void WriteServiceProviderBuilt(){} // RVA: 0x7AD97D3D0
-        public void AppendServiceDescriptor(){} // RVA: 0x7AD97D450
-        public void .cctor(){} // RVA: 0x7AD97D800
+        public void .ctor(){} // RVA: 0x66083C0
+        public void CallSiteBuilt(){} // RVA: 0x6608CA0
+        public void ServiceResolved(){} // RVA: 0x18F3EB0
+        public void DynamicMethodBuilt(){} // RVA: 0x18F3EB0
+        public void ScopeDisposed(){} // RVA: 0x6608810
+        public void ServiceRealizationFailed(){} // RVA: 0x18F3EB0
+        public void ServiceProviderBuilt(){} // RVA: 0x6608CE0
+        public void ServiceProviderDescriptors(){} // RVA: 0x6608AF0
+        public void ServiceProviderDisposed(){} // RVA: 0x6608F40
+        public void WriteServiceProviderBuilt(){} // RVA: 0x6609170
+        public void AppendServiceDescriptor(){} // RVA: 0x66091F0
+        public void .cctor(){} // RVA: 0x6609580
     }
 
     public class FromKeyedServicesAttribute : Attribute
     {
+        public object _key;
+
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A80F2570
+        public void get_Key(){} // RVA: 0xB5DBF0
     }
 
     public class ISupportRequiredService
     {
         // ── Methods ──
-        public void GetRequiredService(){} // RVA: 0x7A7E00B20
+        public void GetRequiredService(){} // RVA: 0x87C540
     }
 
     public class KeyedService : Object
     {
+        public object _anyKey;
+
         // ── Methods ──
-        public void get_AnyKey(){} // RVA: 0x7AD9776A0
-        public void .cctor(){} // RVA: 0x7AD977700
+        public void get_AnyKey(){} // RVA: 0x6603590
+        public void .cctor(){} // RVA: 0x66035F0
     }
 
     public class LoggingServiceCollectionExtensions : Object
     {
         // ── Methods ──
-        public void AddLogging(){} // RVA: 0x7AD99CB00
+        public void AddLogging(){} // RVA: 0x6627BA0
     }
 
     public class OptionsServiceCollectionExtensions : Object
     {
         // ── Methods ──
-        public void AddOptions(){} // RVA: 0x7AD9A3980
-        public void Configure(){} // RVA: 0x7AA552D00
+        public void AddOptions(){} // RVA: 0x662E950
+        public void Configure(){} // RVA: 0x317BAE0
     }
 
     public class ServiceCollection : Object
     {
+        public object _descriptors;
+        public object _isReadOnly;
+
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7AD9777F0
-        public void get_IsReadOnly(){} // RVA: 0x7A80F26D0
-        public void get_Item(){} // RVA: 0x7AD977840
-        public void set_Item(){} // RVA: 0x7AD9778C0
-        public void Clear(){} // RVA: 0x7AD977950
-        public void Contains(){} // RVA: 0x7AD9779D0
-        public void CopyTo(){} // RVA: 0x7AD977A80
-        public void Remove(){} // RVA: 0x7AD977B00
-        public void GetEnumerator(){} // RVA: 0x7AD977B70
-        public void System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(){} // RVA: 0x7AD977C60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AD977B70
-        public void IndexOf(){} // RVA: 0x7AD977CC0
-        public void Insert(){} // RVA: 0x7AD977D40
-        public void RemoveAt(){} // RVA: 0x7AD977DC0
-        public void CheckReadOnly(){} // RVA: 0x7AD977E30
-        public void ThrowReadOnlyException(){} // RVA: 0x7AD977E50
-        public void .ctor(){} // RVA: 0x7AD977EC0
+        public void get_Count(){} // RVA: 0x66036E0
+        public void get_IsReadOnly(){} // RVA: 0xB5DD50
+        public void get_Item(){} // RVA: 0x6603730
+        public void set_Item(){} // RVA: 0x66037B0
+        public void Clear(){} // RVA: 0x6603840
+        public void Contains(){} // RVA: 0x66038C0
+        public void CopyTo(){} // RVA: 0x6603970
+        public void Remove(){} // RVA: 0x66039F0
+        public void GetEnumerator(){} // RVA: 0x6603A60
+        public void System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(){} // RVA: 0x6603B50
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x6603A60
+        public void IndexOf(){} // RVA: 0x6603BB0
+        public void Insert(){} // RVA: 0x6603C30
+        public void RemoveAt(){} // RVA: 0x6603CB0
+        public void CheckReadOnly(){} // RVA: 0x6603D20
+        public void ThrowReadOnlyException(){} // RVA: 0x6603D40
+        public void .ctor(){} // RVA: 0x6603DB0
     }
 
     public class ServiceCollectionContainerBuilderExtensions : Object
     {
         // ── Methods ──
-        public void BuildServiceProvider(){} // RVA: 0x7AD97DAD0
+        public void BuildServiceProvider(){} // RVA: 0x6609850
     }
 
     public class ServiceCollectionServiceExtensions : Object
     {
         // ── Methods ──
-        public void AddSingleton(){} // RVA: 0x7AA58A150
-        public void Add(){} // RVA: 0x7AD9782D0
+        public void AddSingleton(){} // RVA: 0x29B3F70
+        public void Add(){} // RVA: 0x66041C0
     }
 
     public class ServiceDescriptor : Object
     {
+        public object _lifetime;
+        public object _serviceKey;
+        public object _serviceType;
+        public object _implementationType;
+        public object _implementationInstance;
+        public object _implementationFactory;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD978930
-        public void get_Lifetime(){} // RVA: 0x7A8124910
-        public void get_ServiceKey(){} // RVA: 0x7A80DA7B0
-        public void get_ServiceType(){} // RVA: 0x7A81052C0
-        public void get_ImplementationType(){} // RVA: 0x7AD9789F0
-        public void get_KeyedImplementationType(){} // RVA: 0x7AD978A10
-        public void get_ImplementationInstance(){} // RVA: 0x7AD978A30
-        public void get_KeyedImplementationInstance(){} // RVA: 0x7AD978A50
-        public void get_ImplementationFactory(){} // RVA: 0x7AD978A70
-        public void get_KeyedImplementationFactory(){} // RVA: 0x7AD978AF0
-        public void get_IsKeyedService(){} // RVA: 0x7A9B3D890
-        public void ToString(){} // RVA: 0x7AD978B70
-        public void GetImplementationType(){} // RVA: 0x7AD9790B0
-        public void Transient(){} // RVA: 0x7AD979290
-        public void Scoped(){} // RVA: 0x7AD979320
-        public void Singleton(){} // RVA: 0x7AA58A5F0
-        public void DescribeKeyed(){} // RVA: 0x7AA58A3C0
-        public void Describe(){} // RVA: 0x7AD979510
-        public void ThrowKeyedDescriptor(){} // RVA: 0x7AD979770
-        public void ThrowNonKeyedDescriptor(){} // RVA: 0x7AD9797E0
+        public void .ctor(){} // RVA: 0x6604820
+        public void get_Lifetime(){} // RVA: 0xB8F8F0
+        public void get_ServiceKey(){} // RVA: 0xB465B0
+        public void get_ServiceType(){} // RVA: 0xB700F0
+        public void get_ImplementationType(){} // RVA: 0x66048E0
+        public void get_KeyedImplementationType(){} // RVA: 0x6604900
+        public void get_ImplementationInstance(){} // RVA: 0x6604920
+        public void get_KeyedImplementationInstance(){} // RVA: 0x6604940
+        public void get_ImplementationFactory(){} // RVA: 0x6604960
+        public void get_KeyedImplementationFactory(){} // RVA: 0x66049E0
+        public void get_IsKeyedService(){} // RVA: 0x25E9250
+        public void ToString(){} // RVA: 0x6604A60
+        public void GetImplementationType(){} // RVA: 0x6604F90
+        public void Transient(){} // RVA: 0x6605150
+        public void Scoped(){} // RVA: 0x66051E0
+        public void Singleton(){} // RVA: 0x29B4380
+        public void DescribeKeyed(){} // RVA: 0x29B41B0
+        public void Describe(){} // RVA: 0x66053D0
+        public void ThrowKeyedDescriptor(){} // RVA: 0x6605630
+        public void ThrowNonKeyedDescriptor(){} // RVA: 0x66056A0
     }
 
     public class ServiceDescriptor[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class ServiceProvider : Object
     {
+        public object _callSiteValidator;
+        public object _createServiceAccessor;
+        public object _engine;
+        public object _disposed;
+        public object _serviceAccessors;
+        public object _callSiteFactory;
+        public object _root;
+        public object _verifyOpenGenericServiceTrimmability;
+        public object _disableDynamicEngine;
+
         // ── Methods ──
-        public void get_CallSiteFactory(){} // RVA: 0x7A8292C30
-        public void get_Root(){} // RVA: 0x7A8154D80
-        public void get_VerifyOpenGenericServiceTrimmability(){} // RVA: 0x7AD97DBE0
-        public void get_DisableDynamicEngine(){} // RVA: 0x7AD97DC40
-        public void get_VerifyAotCompatibility(){} // RVA: 0x7A81BD750
-        public void .ctor(){} // RVA: 0x7AD97DCA0
-        public void GetService(){} // RVA: 0x7AD97F0C0
-        public void IsDisposed(){} // RVA: 0x7A84A5BD0
-        public void Dispose(){} // RVA: 0x7AD97EEA0
-        public void DisposeAsync(){} // RVA: 0x7AD97EED0
-        public void DisposeCore(){} // RVA: 0x7AD97EF20
-        public void OnCreate(){} // RVA: 0x7AD97EFA0
-        public void OnResolve(){} // RVA: 0x7AD97F090
-        public void ValidateService(){} // RVA: 0x7AD97F1F0
-        public void CreateServiceAccessor(){} // RVA: 0x7AD97F380
-        public void ReplaceServiceAccessor(){} // RVA: 0x7AD97F8D0
-        public void GetEngine(){} // RVA: 0x7AD97FB00
-        public void .cctor(){} // RVA: 0x7AD97FBB0
-        public void <GetEngine>g__CreateDynamicEngine|36_0(){} // RVA: 0x7AD97FCB0
+        public void get_CallSiteFactory(){} // RVA: 0xD05CA0
+        public void get_Root(){} // RVA: 0xBC1B30
+        public void get_VerifyOpenGenericServiceTrimmability(){} // RVA: 0x6609960
+        public void get_DisableDynamicEngine(){} // RVA: 0x66099C0
+        public void get_VerifyAotCompatibility(){} // RVA: 0xC2E4C0
+        public void .ctor(){} // RVA: 0x6609A20
+        public void GetService(){} // RVA: 0x660AD20
+        public void IsDisposed(){} // RVA: 0xF73960
+        public void Dispose(){} // RVA: 0x660AB10
+        public void DisposeAsync(){} // RVA: 0x660AB40
+        public void DisposeCore(){} // RVA: 0x660AB90
+        public void OnCreate(){} // RVA: 0x660AC10
+        public void OnResolve(){} // RVA: 0x660ACF0
+        public void ValidateService(){} // RVA: 0x660AE50
+        public void CreateServiceAccessor(){} // RVA: 0x660AFE0
+        public void ReplaceServiceAccessor(){} // RVA: 0x660B530
+        public void GetEngine(){} // RVA: 0x660B760
+        public void .cctor(){} // RVA: 0x660B810
+        public void <GetEngine>g__CreateDynamicEngine|36_0(){} // RVA: 0x660B910
     }
 
     public class ServiceProviderOptions : Object
     {
+        public object Default;
+        public object _validateScopes;
+        public object _validateOnBuild;
+
         // ── Methods ──
-        public void get_ValidateScopes(){} // RVA: 0x7A81A2200
-        public void get_ValidateOnBuild(){} // RVA: 0x7A82FBFB0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AD97FE90
+        public void get_ValidateScopes(){} // RVA: 0xC120A0
+        public void get_ValidateOnBuild(){} // RVA: 0xDD5C50
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x660BAF0
     }
 
     public class ServiceProviderServiceExtensions : Object
     {
         // ── Methods ──
-        public void GetRequiredService(){} // RVA: 0x7AA58A820
+        public void GetRequiredService(){} // RVA: 0x29B5030
     }
 
 }

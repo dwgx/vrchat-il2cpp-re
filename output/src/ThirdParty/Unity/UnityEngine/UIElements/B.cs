@@ -7,6 +7,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Background : ValueType
     {
+        public object m_Texture;
+        public object m_Sprite;
+        public object m_RenderTexture;
+        public object m_VectorImage;
+
         // ── Methods ──
         public void get_texture(){} // RVA: 0x44D9F0
         public void set_texture(){} // RVA: 0x9AA1E0
@@ -32,6 +37,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundPosition : ValueType
     {
+        public object keyword;
+        public object offset;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3608B0
         public void Initial(){} // RVA: 0x7E50640
@@ -53,6 +61,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundRepeat : ValueType
     {
+        public object x;
+        public object y;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2B100
         public void Initial(){} // RVA: 0x4F6B1A0
@@ -65,6 +76,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BackgroundSize : ValueType
     {
+        public object m_SizeType;
+        public object m_X;
+        public object m_Y;
+
         // ── Methods ──
         public void get_sizeType(){} // RVA: 0x454FE0
         public void set_sizeType(){} // RVA: 0x9908A0
@@ -83,6 +98,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseBoolField : BaseField`1
     {
+        public object textProperty;
+        public object toggleOnLabelClickProperty;
+        public object m_Label;
+        public object m_CheckMark;
+        public object m_Clickable;
+        public object _toggleOnLabelClick;
+        public object _toggleOnTextClick;
+        public object m_OriginalText;
+
         // ── Methods ──
         public void set_acceptClicksIfDisabled(){} // RVA: 0x7E91C40
         public void get_toggleOnLabelClick(){} // RVA: 0x7E91CB0
@@ -106,6 +130,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x87C0A0
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -119,6 +156,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60CEA10
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -132,6 +182,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D0570
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -145,6 +208,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D1EA0
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -158,6 +234,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D5250
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -171,6 +260,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D8510
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -184,6 +286,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D3970
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -197,6 +312,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseCompositeField`3 : BaseField`1
     {
+        public object m_Fields;
+        public object m_ShouldUpdateDisplay;
+        public object m_ForceUpdateDisplay;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object spacerUssClassName;
+        public object multilineVariantUssClassName;
+        public object fieldGroupUssClassName;
+        public object fieldUssClassName;
+        public object firstFieldVariantUssClassName;
+        public object twoLinesVariantUssClassName;
+
         // ── Methods ──
         public void GetSpacer(){} // RVA: 0x60D6BB0
         public void DescribeFields(){} // RVA: 0x87C0A0
@@ -210,6 +338,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x8954D0
         public void .ctor(){} // RVA: 0x894290
@@ -217,6 +347,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DEBD0
         public void .ctor(){} // RVA: 0x60DEE10
@@ -224,6 +356,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DEBD0
         public void .ctor(){} // RVA: 0x60DEE10
@@ -231,6 +365,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DCD30
         public void .ctor(){} // RVA: 0x60DD010
@@ -238,6 +374,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DCD30
         public void .ctor(){} // RVA: 0x60DE480
@@ -245,6 +383,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DD280
         public void .ctor(){} // RVA: 0x60DD5F0
@@ -252,6 +392,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DE1A0
         public void .ctor(){} // RVA: 0x60DE350
@@ -259,6 +401,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x894320
         public void remove_viewDataRestored(){} // RVA: 0x894320
@@ -305,6 +481,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x60DEF50
         public void remove_viewDataRestored(){} // RVA: 0x60DF050
@@ -351,6 +561,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -397,6 +641,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -443,6 +721,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -489,6 +801,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60E41C0
         public void add_viewDataRestored(){} // RVA: 0x60E3270
@@ -535,6 +881,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60E41C0
         public void add_viewDataRestored(){} // RVA: 0x60E7BD0
@@ -581,6 +961,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x60F36E0
@@ -627,6 +1041,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x60FE7A0
@@ -673,6 +1121,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_onValidateValue(){} // RVA: 0x60DF8B0
@@ -719,6 +1201,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x6102270
@@ -765,6 +1281,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x61146E0
@@ -811,6 +1361,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x611BD20
@@ -857,6 +1441,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x6123490
@@ -903,6 +1521,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x6118300
@@ -949,6 +1601,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x611F9C0
@@ -995,6 +1681,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x60EB780
@@ -1041,6 +1761,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -1087,6 +1841,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -1133,6 +1921,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x60FAC90
@@ -1179,6 +2001,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void add_viewDataRestored(){} // RVA: 0x6126F60
         public void remove_viewDataRestored(){} // RVA: 0x61270B0
@@ -1225,6 +2081,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x60FAC90
@@ -1271,6 +2161,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x60EF2D0
@@ -1317,6 +2241,77 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseListView : BaseVerticalCollectionView
     {
+        public object k_SizeFieldLabel;
+        public object showBoundCollectionSizeProperty;
+        public object showFoldoutHeaderProperty;
+        public object headerTitleProperty;
+        public object makeHeaderProperty;
+        public object makeFooterProperty;
+        public object showAddRemoveFooterProperty;
+        public object bindingSourceSelectionModeProperty;
+        public object reorderModeProperty;
+        public object makeNoneElementProperty;
+        public object allowAddProperty;
+        public object overridingAddButtonBehaviorProperty;
+        public object onAddProperty;
+        public object allowRemoveProperty;
+        public object onRemoveProperty;
+        public object m_ShowBoundCollectionSize;
+        public object m_ShowFoldoutHeader;
+        public object m_HeaderTitle;
+        public object drawnHeader;
+        public object m_MakeHeader;
+        public object drawnFooter;
+        public object m_MakeFooter;
+        public object m_ShowAddRemoveFooter;
+        public object itemsAdded;
+        public object itemsRemoved;
+        public object itemsSourceSizeChanged;
+        public object m_TrackedItem;
+        public object m_TrackCount;
+        public object m_WhileAutoAssign;
+        public object m_BindingSourceSelectionMode;
+        public object m_ListViewLabel;
+        public object m_Foldout;
+        public object m_ArraySizeField;
+        public object m_IsOverMultiEditLimit;
+        public object m_Footer;
+        public object m_AddButton;
+        public object m_RemoveButton;
+        public object m_ItemAddedCallback;
+        public object m_ItemRemovedCallback;
+        public object m_ItemsSourceSizeChangedCallback;
+        public object m_ReorderMode;
+        public object reorderModeChanged;
+        public object m_NoneElement;
+        public object m_MakeNoneElement;
+        public object m_AllowAdd;
+        public object m_OverridingAddButtonBehavior;
+        public object m_OnAdd;
+        public object m_AllowRemove;
+        public object m_OnRemove;
+        public object ussClassName;
+        public object itemUssClassName;
+        public object emptyLabelUssClassName;
+        public object overMaxMultiEditLimitClassName;
+        public object reorderableUssClassName;
+        public object reorderableItemUssClassName;
+        public object reorderableItemContainerUssClassName;
+        public object reorderableItemHandleUssClassName;
+        public object reorderableItemHandleBarUssClassName;
+        public object footerUssClassName;
+        public object foldoutHeaderUssClassName;
+        public object arraySizeFieldUssClassName;
+        public object arraySizeFieldWithHeaderUssClassName;
+        public object arraySizeFieldWithFooterUssClassName;
+        public object listViewWithHeaderUssClassName;
+        public object listViewWithFooterUssClassName;
+        public object scrollViewWithFooterUssClassName;
+        public object footerAddButtonName;
+        public object footerRemoveButtonName;
+        public object m_MaxMultiEditStr;
+        public object k_EmptyListStr;
+
         // ── Methods ──
         public void get_showBoundCollectionSize(){} // RVA: 0x7E932E0
         public void set_showBoundCollectionSize(){} // RVA: 0x7E932F0
@@ -1382,6 +2377,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseListViewController : CollectionViewController
     {
+        public object itemsSourceSizeChanged;
+        public object itemsAdded;
+        public object itemsRemoved;
+
         // ── Methods ──
         public void add_itemsSourceSizeChanged(){} // RVA: 0x7E81720
         public void remove_itemsSourceSizeChanged(){} // RVA: 0x7E81810
@@ -1413,6 +2412,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
+        public object choicesProperty;
+        public object textProperty;
+        public object m_Choices;
+        public object m_TextElement;
+        public object m_ArrowElement;
+        public object m_ScheduledShowMenuItem;
+        public object m_FormatSelectedValueCallback;
+        public object m_FormatListItemCallback;
+        public object createMenuCallback;
+        public object m_GenericMenu;
+        public object m_AutoCloseMenu;
+        public object ussClassName;
+        public object textUssClassName;
+        public object arrowUssClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_textElement(){} // RVA: 0x87C0A0
         public void GetValueToDisplay(){} // RVA: 0x87C0A0
@@ -1436,6 +2452,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
+        public object choicesProperty;
+        public object textProperty;
+        public object m_Choices;
+        public object m_TextElement;
+        public object m_ArrowElement;
+        public object m_ScheduledShowMenuItem;
+        public object m_FormatSelectedValueCallback;
+        public object m_FormatListItemCallback;
+        public object createMenuCallback;
+        public object m_GenericMenu;
+        public object m_AutoCloseMenu;
+        public object ussClassName;
+        public object textUssClassName;
+        public object arrowUssClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_textElement(){} // RVA: 0x62331C0
         public void GetValueToDisplay(){} // RVA: 0x87C0A0
@@ -1459,6 +2492,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BasePopupField`2 : BaseField`1
     {
+        public object choicesProperty;
+        public object textProperty;
+        public object m_Choices;
+        public object m_TextElement;
+        public object m_ArrowElement;
+        public object m_ScheduledShowMenuItem;
+        public object m_FormatSelectedValueCallback;
+        public object m_FormatListItemCallback;
+        public object createMenuCallback;
+        public object m_GenericMenu;
+        public object m_AutoCloseMenu;
+        public object ussClassName;
+        public object textUssClassName;
+        public object arrowUssClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_textElement(){} // RVA: 0x6231860
         public void GetValueToDisplay(){} // RVA: 0x87C0A0
@@ -1482,6 +2532,21 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseRuntimePanel : Panel
     {
+        public object m_SelectableGameObject;
+        public object s_CurrentRuntimePanelCounter;
+        public object m_RuntimePanelCreationIndex;
+        public object m_SortingPriority;
+        public object resolvedSortingIndex;
+        public object destroyed;
+        public object drawsInCamerasChanged;
+        public object m_DrawsInCameras;
+        public object m_PixelsPerUnit;
+        public object targetTexture;
+        public object worldSpaceLayer;
+        public object _targetDisplay;
+        public object DefaultScreenToPanelSpace;
+        public object m_ScreenToPanelSpace;
+
         // ── Methods ──
         public void get_selectableGameObject(){} // RVA: 0x1659CB0
         public void set_selectableGameObject(){} // RVA: 0x8088700
@@ -1517,6 +2582,46 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
+        public object lowValueProperty;
+        public object highValueProperty;
+        public object rangeProperty;
+        public object pageSizeProperty;
+        public object showInputFieldProperty;
+        public object directionProperty;
+        public object invertedProperty;
+        public object fillProperty;
+        public object _dragContainer;
+        public object _dragElement;
+        public object _trackElement;
+        public object _dragBorderElement;
+        public object _inputTextField;
+        public object _fillElement;
+        public object m_AdjustedPageSizeFromClick;
+        public object m_IsEditingTextField;
+        public object m_Fill;
+        public object m_LowValue;
+        public object m_HighValue;
+        public object m_PageSize;
+        public object m_ShowInputField;
+        public object _clamped;
+        public object _clampedDragger;
+        public object m_DragElementStartPos;
+        public object onSetValueWithoutNotify;
+        public object m_Direction;
+        public object m_Inverted;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object horizontalVariantUssClassName;
+        public object verticalVariantUssClassName;
+        public object dragContainerUssClassName;
+        public object trackerUssClassName;
+        public object draggerUssClassName;
+        public object draggerBorderUssClassName;
+        public object textFieldClassName;
+        public object fillUssClassName;
+        public object movableUssClassName;
+
         // ── Methods ──
         public void get_dragContainer(){} // RVA: 0x87C0A0
         public void set_dragContainer(){} // RVA: 0x894320
@@ -1599,6 +2704,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseTreeView : BaseVerticalCollectionView
     {
+        public object autoExpandProperty;
+        public object s_TreeViewIndentProperty;
+        public object invalidId;
+        public object ussClassName;
+        public object itemUssClassName;
+        public object itemToggleUssClassName;
+        public object itemIndentsContainerUssClassName;
+        public object itemIndentUssClassName;
+        public object itemContentContainerUssClassName;
+        public object itemExpandedChanged;
+        public object m_AutoExpand;
+        public object m_ExpandedItemIds;
+        public object _customIdent;
+
         // ── Methods ──
         public void get_itemsSource(){} // RVA: 0x7FBE6F0
         public void set_itemsSource(){} // RVA: 0x7FBE720
@@ -1633,6 +2752,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseTreeViewController : CollectionViewController
     {
+        public object m_Hierarchy;
+        public object m_HierarchyFlattened;
+        public object m_HierarchyViewModel;
+        public object m_IdToNodeDictionary;
+        public object m_TreeViewDataProperty;
+        public object m_HierarchyHasPendingChanged;
+        public object itemExpandedChanged;
+        public object K_ExpandItemByIndex;
+
         // ── Methods ──
         public void get_baseTreeView(){} // RVA: 0x7E846C0
         public void add_itemExpandedChanged(){} // RVA: 0x7E84740
@@ -1692,6 +2820,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894290
         public void get_uxmlName(){} // RVA: 0x87C0A0
@@ -1703,6 +2833,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1714,6 +2846,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1725,6 +2859,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1736,6 +2872,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1747,6 +2885,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1758,6 +2898,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1769,6 +2911,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1780,6 +2924,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1791,6 +2937,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1802,6 +2950,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1813,6 +2963,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1824,6 +2976,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1835,6 +2989,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1846,6 +3002,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1857,6 +3015,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1868,6 +3028,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1879,6 +3041,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1890,6 +3054,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1901,6 +3067,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1912,6 +3080,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1923,6 +3093,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1934,6 +3106,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1945,6 +3119,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1956,6 +3132,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1967,6 +3145,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1978,6 +3158,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -1989,6 +3171,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlTraits : Object
     {
+        public object _canHaveAnyAttribute;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xF482F0
         public void set_canHaveAnyAttribute(){} // RVA: 0xC120B0
@@ -1996,6 +3180,68 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVerticalCollectionView : BindableElement
     {
+        public object itemsSourceProperty;
+        public object selectionTypeProperty;
+        public object selectedItemProperty;
+        public object selectedItemsProperty;
+        public object selectedIndexProperty;
+        public object selectedIndicesProperty;
+        public object showBorderProperty;
+        public object reorderableProperty;
+        public object horizontalScrollingEnabledProperty;
+        public object showAlternatingRowBackgroundsProperty;
+        public object virtualizationMethodProperty;
+        public object fixedItemHeightProperty;
+        public object k_RefreshMarker;
+        public object k_RebuildMarker;
+        public object itemsChosen;
+        public object selectionChanged;
+        public object selectedIndicesChanged;
+        public object itemIndexChanged;
+        public object itemsSourceChanged;
+        public object m_SelectionNotChanged;
+        public object canStartDrag;
+        public object setupDragAndDrop;
+        public object dragAndDropUpdate;
+        public object handleDrop;
+        public object m_SelectionType;
+        public object k_EmptyItems;
+        public object allowSingleClickChoice;
+        public object m_HorizontalScrollingEnabled;
+        public object m_ShowAlternatingRowBackgrounds;
+        public object k_InvalidTemplateError;
+        public object m_FixedItemHeight;
+        public object m_ItemHeightIsInline;
+        public object m_VirtualizationMethod;
+        public object m_ScrollView;
+        public object m_ViewController;
+        public object m_VirtualizationController;
+        public object m_NavigationManipulator;
+        public object serializedVirtualizationData;
+        public object m_SelectedIds;
+        public object m_Selection;
+        public object m_LastHeight;
+        public object m_IsRangeSelectionDirectionUp;
+        public object m_Dragger;
+        public object s_ItemHeightProperty;
+        public object m_ItemIndexChangedCallback;
+        public object m_ItemsSourceChangedCallback;
+        public object m_RebuildScheduled;
+        public object ussClassName;
+        public object borderUssClassName;
+        public object itemUssClassName;
+        public object dragHoverBarUssClassName;
+        public object dragHoverMarkerUssClassName;
+        public object itemDragHoverUssClassName;
+        public object itemSelectedVariantUssClassName;
+        public object itemAlternativeBackgroundUssClassName;
+        public object listScrollViewUssClassName;
+        public object backgroundFillUssClassName;
+        public object m_PreviousRefreshedCount;
+        public object m_TouchDownPosition;
+        public object m_LastPointerDownTimeStamp;
+        public object m_PointerDownCount;
+
         // ── Methods ──
         public void HasCanStartDrag(){} // RVA: 0x7FC0C40
         public void RaiseCanStartDrag(){} // RVA: 0x7FC0C50
@@ -2095,6 +3341,27 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVisualElementPanel : Object
     {
+        public object panelDisposed;
+        public object m_UIElementsBridge;
+        public object m_Scale;
+        public object layoutConfig;
+        public object m_PixelsPerPoint;
+        public object _referenceSpritePixelsPerUnit;
+        public object _clearSettings;
+        public object panelRenderer;
+        public object _duringLayoutPhase;
+        public object _repaintData;
+        public object _cursorManager;
+        public object _contextualMenuManager;
+        public object _dataBindingManager;
+        public object _disposed;
+        public object m_TopElementUnderPointers;
+        public object isFlatChanged;
+        public object m_IsFlat;
+        public object atlasChanged;
+        public object hierarchyChanged;
+        public object beforeUpdate;
+
         // ── Methods ──
         public void get_IMGUIEventInterests(){} // RVA: 0x87BEB0
         public void set_IMGUIEventInterests(){} // RVA: 0x894320
@@ -2179,6 +3446,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVisualTreeHierarchyTrackerUpdater : BaseVisualTreeUpdater
     {
+        public object m_State;
+        public object m_CurrentChangeElement;
+        public object m_CurrentChangeParent;
+
         // ── Methods ──
         public void OnHierarchyChange(){} // RVA: 0x899290
         public void OnVersionChanged(){} // RVA: 0x7F333D0
@@ -2191,6 +3462,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseVisualTreeUpdater : Object
     {
+        public object frameCount;
+        public object panelChanged;
+        public object m_Panel;
+
         // ── Methods ──
         public void UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount(){} // RVA: 0x3E42230
         public void UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount(){} // RVA: 0x2230E30
@@ -2208,6 +3483,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindableElement : VisualElement
     {
+        public object k_BindingPathTooltip;
+        public object _binding;
+        public object _bindingPath;
+
         // ── Methods ──
         public void get_binding(){} // RVA: 0x1667E80
         public void set_bindingPath(){} // RVA: 0x1657E60
@@ -2216,6 +3495,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindablePropertyChangedEventArgs : ValueType
     {
+        public object m_PropertyName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x992540
         public void get_propertyName(){} // RVA: 0x35CA60
@@ -2223,6 +3504,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Binding : Object
     {
+        public object m_Dirty;
+        public object m_UpdateTrigger;
+        public object _property;
+        public object k_UpdateTriggerTooltip;
+
         // ── Methods ──
         public void SetGlobalLogLevel(){} // RVA: 0x7E52740
         public void SetPanelLogLevel(){} // RVA: 0x7E527A0
@@ -2240,12 +3526,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindingActivationContext : ValueType
     {
+        public object m_TargetElement;
+        public object m_BindingId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x990BB0
     }
 
     public class BindingContext : ValueType
     {
+        public object m_TargetElement;
+        public object m_BindingId;
+        public object m_DataSourcePath;
+        public object m_DataSource;
+
         // ── Methods ──
         public void get_targetElement(){} // RVA: 0x77900
         public void get_bindingId(){} // RVA: 0x364170
@@ -2256,6 +3550,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindingId : ValueType
     {
+        public object Invalid;
+        public object m_PropertyPath;
+        public object m_Path;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x99BD00
         public void op_Implicit(){} // RVA: 0x7F2D200
@@ -2269,6 +3567,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindingInfo : ValueType
     {
+        public object _targetElement;
+        public object _bindingId;
+        public object _binding;
+
         // ── Methods ──
         public void get_binding(){} // RVA: 0x3518C0
         public void .ctor(){} // RVA: 0x991730
@@ -2278,6 +3580,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindingResult : ValueType
     {
+        public object _status;
+        public object _message;
+
         // ── Methods ──
         public void get_status(){} // RVA: 0x77E60
         public void get_message(){} // RVA: 0x77ED0
@@ -2286,12 +3591,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BindingTarget : ValueType
     {
+        public object element;
+        public object bindingId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x990BB0
     }
 
     public class BindingUpdater : Object
     {
+        public object s_VisitDataSourceAsRootVisitor;
+        public object s_VisitDataSourceAtPathVisitor;
+
         // ── Methods ──
         public void ShouldProcessBindingAtStage(){} // RVA: 0x7E531A0
         public void UpdateUI(){} // RVA: 0x7E53CF0
@@ -2309,6 +3620,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BoundsField : BaseField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object centerFieldUssClassName;
+        public object extentsFieldUssClassName;
+        public object m_CenterField;
+        public object m_ExtentsField;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FCC100
         public void SetValueWithoutNotify(){} // RVA: 0x7FCC6F0
@@ -2320,6 +3639,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BoundsIntField : BaseField`1
     {
+        public object m_PositionField;
+        public object m_SizeField;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object positionUssClassName;
+        public object sizeUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FCDA10
         public void SetValueWithoutNotify(){} // RVA: 0x7FCE000
@@ -2331,6 +3658,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Box : VisualElement
     {
+        public object ussClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FCF2A0
         public void .cctor(){} // RVA: 0x7FCF340
@@ -2338,6 +3667,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Button : TextElement
     {
+        public object iconImageProperty;
+        public object ussClassName;
+        public object iconUssClassName;
+        public object iconOnlyUssClassName;
+        public object imageUSSClassName;
+        public object m_Clickable;
+        public object m_TextElement;
+        public object m_ImageElement;
+        public object m_IconImage;
+        public object m_Text;
+        public object NonEmptyString;
+
         // ── Methods ──
         public void get_clickable(){} // RVA: 0x7FCF450
         public void set_clickable(){} // RVA: 0x7FCF460
@@ -2355,6 +3696,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ButtonStripField : BaseField`1
     {
+        public object m_Buttons;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FD1050
         public void SetValueWithoutNotify(){} // RVA: 0x7FD1160

@@ -1,207 +1,289 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Threading.Tasks
-// Classes: 32
-// Methods: 39
+// Classes: 34
+// Methods: 42
 
 namespace ThirdParty.DotNet.System.Threading.Tasks
 {
     public class CompletionActionInvoker : Object
     {
+        public object m_action;
+        public object m_completingTask;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7ADD3E6D0
-        public void MarkAborted(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x69C7480
+        public void MarkAborted(){} // RVA: 0xB43310
     }
 
     public class ContinuationResultTaskFromResultTask`2 : Task`1
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E23210
-        public void InnerInvoke(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x89EE80
+        public void InnerInvoke(){} // RVA: 0x894290
     }
 
     public class ContinuationResultTaskFromResultTask`2 : Task`1
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA954B10
-        public void InnerInvoke(){} // RVA: 0x7AA954C50
+        public void .ctor(){} // RVA: 0x3574490
+        public void InnerInvoke(){} // RVA: 0x35745D0
     }
 
     public class ContinuationResultTaskFromTask`1 : Task`1
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E23210
-        public void InnerInvoke(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x89EE80
+        public void InnerInvoke(){} // RVA: 0x894290
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E23210
-        public void InnerInvoke(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x89EE80
+        public void InnerInvoke(){} // RVA: 0x894290
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA97FB10
+        public void .ctor(){} // RVA: 0x359F290
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA982310
+        public void .ctor(){} // RVA: 0x35A1A90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA982710
+        public void .ctor(){} // RVA: 0x35A1E90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA97E310
+        public void .ctor(){} // RVA: 0x359DA90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA97F910
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA97A510
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x35A1290
+        public void InnerInvoke(){} // RVA: 0x3575920
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359F090
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x3576890
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359A090
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956310
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA980710
+        public void .ctor(){} // RVA: 0x3575C90
     }
 
     public class ContinuationTaskFromResultTask`1 : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA956F10
+        public void .ctor(){} // RVA: 0x3575C90
+    }
+
+    public class ContinuationTaskFromResultTask`1 : Task
+    {
+        public object m_antecedent;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x359FE90
+    }
+
+    public class ContinuationTaskFromResultTask`1 : Task
+    {
+        public object m_antecedent;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x359FE90
     }
 
     public class ContinuationTaskFromTask : Task
     {
+        public object m_antecedent;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADD3E740
-        public void InnerInvoke(){} // RVA: 0x7ADD3E940
+        public void .ctor(){} // RVA: 0x69C74F0
+        public void InnerInvoke(){} // RVA: 0x69C76F0
     }
 
 }

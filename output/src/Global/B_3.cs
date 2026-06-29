@@ -11,6 +11,8 @@ public class BCrypt : Object
 
 public class BaggageLinkedList : Object
 {
+    public object _first;
+
     // ── Methods ──
     public void get_First(){} // RVA: 0xB5DBF0
     public void GetEnumerator(){} // RVA: 0x72416E0
@@ -20,12 +22,19 @@ public class BaggageLinkedList : Object
 
 public class BigNumberBuffer : ValueType
 {
+    public object digits;
+    public object precision;
+    public object scale;
+    public object sign;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x7294F20
 }
 
 public class BinaryExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70489F0
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -38,6 +47,12 @@ public class BinaryExpressionProxy : Object
     public void get_NodeType(){} // RVA: 0x10AD380
     public void get_Right(){} // RVA: 0x13F9340
     public void get_Type(){} // RVA: 0x10ACB60
+}
+
+public class BindingsMarshaller : Object
+{
+    // ── Methods ──
+    public void ConvertToNative(){} // RVA: 0x2C8D450
 }
 
 public class BindingsMarshaller : Object
@@ -112,6 +127,11 @@ public class BioWriteFunc : MulticastDelegate
 
 public class BitArrayEnumeratorSimple : Object
 {
+    public object bitarray;
+    public object index;
+    public object version;
+    public object currentElement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x687E000
     public void Clone(){} // RVA: 0x67F43E0
@@ -122,6 +142,9 @@ public class BitArrayEnumeratorSimple : Object
 
 public class BitsBuffer : ValueType
 {
+    public object _bits;
+    public object _length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x90C010
     public void MultiplySelf(){} // RVA: 0x90C020
@@ -154,6 +177,8 @@ public class BlendshapeBinding[] : Array
 
 public class BlockExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7048B30
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -231,6 +256,8 @@ public class BoringX509LookupMonoHandle : MonoBtlsHandle
 
 public class BoringX509NameHandle : MonoBtlsHandle
 {
+    public object dontFree;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7641A60
     public void ReleaseHandle(){} // RVA: 0x7641A90
@@ -238,6 +265,8 @@ public class BoringX509NameHandle : MonoBtlsHandle
 
 public class BoringX509StoreCtxHandle : MonoBtlsHandle
 {
+    public object dontFree;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7641A60
     public void ReleaseHandle(){} // RVA: 0x7644010
@@ -259,6 +288,10 @@ public class BoringX509VerifyParamHandle : MonoBtlsHandle
 
 public class BoundedChannelReader : ChannelReader`1
 {
+    public object _parent;
+    public object _readerSingleton;
+    public object _waiterSingleton;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void TryRead(){} // RVA: 0x87D350
@@ -268,6 +301,10 @@ public class BoundedChannelReader : ChannelReader`1
 
 public class BoundedChannelWriter : ChannelWriter`1
 {
+    public object _parent;
+    public object _writerSingleton;
+    public object _waiterSingleton;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void TryComplete(){} // RVA: 0x87D350
@@ -278,6 +315,12 @@ public class BoundedChannelWriter : ChannelWriter`1
 
 public class Bucket : Object
 {
+    public object _bufferLength;
+    public object _buffers;
+    public object _poolId;
+    public object _lock;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x896900
     public void get_Id(){} // RVA: 0x87C130
@@ -287,6 +330,12 @@ public class Bucket : Object
 
 public class Bucket : Object
 {
+    public object _bufferLength;
+    public object _buffers;
+    public object _poolId;
+    public object _lock;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x896900
     public void get_Id(){} // RVA: 0x87C130
@@ -296,6 +345,12 @@ public class Bucket : Object
 
 public class Buf12 : ValueType
 {
+    public object U0;
+    public object U1;
+    public object U2;
+    public object ulo64LE;
+    public object uhigh64LE;
+
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x44D9F0
     public void set_Low64(){} // RVA: 0x93050
@@ -305,6 +360,13 @@ public class Buf12 : ValueType
 
 public class Buf16 : ValueType
 {
+    public object U0;
+    public object U1;
+    public object U2;
+    public object U3;
+    public object ulo64LE;
+    public object uhigh64LE;
+
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x44D9F0
     public void set_Low64(){} // RVA: 0x93050
@@ -314,6 +376,16 @@ public class Buf16 : ValueType
 
 public class Buf24 : ValueType
 {
+    public object U0;
+    public object U1;
+    public object U2;
+    public object U3;
+    public object U4;
+    public object U5;
+    public object ulo64LE;
+    public object umid64LE;
+    public object uhigh64LE;
+
     // ── Methods ──
     public void get_Low64(){} // RVA: 0x44D9F0
     public void set_Low64(){} // RVA: 0x93050
@@ -323,18 +395,28 @@ public class Buf24 : ValueType
 
 public class BufferChunk : Object
 {
+    public object buffer;
+    public object index;
+    public object count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6269820
 }
 
 public class BufferState : ValueType
 {
+    public object _pos;
+    public object _bitBuf;
+    public object _bitCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6E1050
 }
 
 public class BufferedAsyncEnumerable : Object
 {
+    public object _buffer;
+
     // ── Methods ──
     public void GetAsyncEnumerator(){} // RVA: 0x881D60
     public void .ctor(){} // RVA: 0x894290
@@ -342,6 +424,12 @@ public class BufferedAsyncEnumerable : Object
 
 public class Builder : Object
 {
+    public object _root;
+    public object _comparers;
+    public object _count;
+    public object _immutable;
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x87C130
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -352,21 +440,20 @@ public class Builder : Object
 
 public class Builder : Object
 {
+    public object _version;
+
     // ── Methods ──
     public void get_Version(){} // RVA: 0x87C130
 }
 
 public class BuilderNamespaceManager : XmlNamespaceManager
 {
+    public object nsMgr;
+    public object reader;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7462570
     public void LookupNamespace(){} // RVA: 0x7462620
-}
-
-public class BuiltInUriParser : UriParser
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7659F00
 }
 
 public class BySubjectFunc : MulticastDelegate

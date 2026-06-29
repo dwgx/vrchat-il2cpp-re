@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 71
-// Methods: 506
+// Classes: 72
+// Methods: 504
 
 public class VBCallSiteDelegate0`1 : MulticastDelegate
 {
@@ -77,6 +77,9 @@ public class VBCallSiteDelegate7`1 : MulticastDelegate
 
 public class ValidationEventHandling : Object
 {
+    public object reader;
+    public object eventHandler;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void System.Xml.IValidationEventHandling.get_EventHandler(){} // RVA: 0xB465B0
@@ -93,6 +96,8 @@ public class Value : CastInstructionNoT
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -112,12 +117,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -137,6 +138,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -156,6 +159,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -175,6 +180,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -194,6 +201,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -213,6 +222,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -232,6 +251,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -251,6 +280,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -270,6 +301,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -289,6 +322,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -308,6 +343,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -327,6 +364,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -346,6 +385,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -365,6 +406,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -384,6 +427,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -403,6 +448,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _hashtable;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void CopyTo(){} // RVA: 0x68869C0
@@ -414,6 +461,9 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _collection;
+    public object _syncRoot;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0xA94080
@@ -432,6 +482,40 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _parent;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -452,6 +536,11 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _expando;
+    public object _expandoVersion;
+    public object _expandoCount;
+    public object _expandoData;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70D4A40
     public void CheckVersion(){} // RVA: 0x70D5550
@@ -468,132 +557,112 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-}
-
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x4200E70
     public void .ctor(){} // RVA: 0x41FFAF0
@@ -601,12 +670,45 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
@@ -622,6 +724,8 @@ public class ValueFoundDelegate : MulticastDelegate
 
 public class ValueList : Object
 {
+    public object sortedList;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Count(){} // RVA: 0x4256270
@@ -644,6 +748,10 @@ public class ValueList : Object
 
 public class ValueTaskSourceAsTask : TaskCompletionSource`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6DD7060
     public void .cctor(){} // RVA: 0x6DD7190
@@ -651,6 +759,10 @@ public class ValueTaskSourceAsTask : TaskCompletionSource`1
 
 public class ValueTaskSourceAsTask : TaskCompletionSource`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x899B50
     public void .cctor(){} // RVA: 0x8942F0
@@ -658,6 +770,10 @@ public class ValueTaskSourceAsTask : TaskCompletionSource`1
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69BA630
     public void .cctor(){} // RVA: 0x69BA790
@@ -665,12 +781,30 @@ public class ValueTaskSourceAsTask : Task`1
 
 public class ValueTaskSourceAsTask : Task`1
 {
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x51F6BD0
+    public void .cctor(){} // RVA: 0x51F6D50
+}
+
+public class ValueTaskSourceAsTask : Task`1
+{
+    public object s_completionAction;
+    public object _source;
+    public object _token;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x51F7C10
 }
 
 public class ValuesCollection : Object
 {
+    public object entries;
+    public object size;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2615F10
     public void get_Count(){} // RVA: 0xE62D00
@@ -689,18 +823,32 @@ public class ValuesMerger : MulticastDelegate
 
 public class VariableScope : Object
 {
+    public object Start;
+    public object Stop;
+    public object Variable;
+    public object Parent;
+    public object ChildScopes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70B41C0
 }
 
 public class Variation : Object
 {
+    public object name;
+    public object variationType;
+    public object renderers;
+    public object replacementMaterial;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class VariationCategory : Object
 {
+    public object name;
+    public object variations;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -725,8 +873,34 @@ public class VariationCategory[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class Vector2Surrogate : Object
+{
+    // ── Methods ──
+    public void GetObjectData(){} // RVA: 0xA74CF00
+    public void SetObjectData(){} // RVA: 0xA74CFD0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class Vector3Surrogate : Object
+{
+    // ── Methods ──
+    public void GetObjectData(){} // RVA: 0xA74D0B0
+    public void SetObjectData(){} // RVA: 0xA74D1A0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class Vector4Surrogate : Object
+{
+    // ── Methods ──
+    public void GetObjectData(){} // RVA: 0xA74D2D0
+    public void SetObjectData(){} // RVA: 0xA74D3F0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
 public class VelocityOverLifetimeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x979C10
@@ -823,43 +997,11 @@ public class VelocityOverLifetimeModule : ValueType
     public void set_speedModifierBlittable_Injected(){} // RVA: 0x7CC6670
 }
 
-public class VideoPlayerInstance : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB44D60
-    public void Is(){} // RVA: 0x6CE2250
-    public void StartCapture(){} // RVA: 0x6CE2390
-    public void IsSeekPending(){} // RVA: 0x6CE2480
-    public void TryTakeControl(){} // RVA: 0x6CE24F0
-    public void VideoFrameReady(){} // RVA: 0x6CE2B00
-    public void VideoSeekCompleted(){} // RVA: 0x6CE2BE0
-    public void ReleaseControl(){} // RVA: 0x6CE2ED0
-    public void Update(){} // RVA: 0x6CE3040
-    public void StopCapture(){} // RVA: 0x6CE34D0
-}
-
-public class VideoPlayerInstance[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class VirtualAttribute : ValueType
 {
+    public object name;
+    public object value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76310
 }

@@ -19,6 +19,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Observer`1 : Object
     {
+        public object m_OnNext;
+        public object m_OnCompleted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void OnCompleted(){} // RVA: 0x894290
@@ -28,6 +31,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class OneOrMore`2 : ValueType
     {
+        public object m_IsSingle;
+        public object m_Single;
+        public object m_Multiple;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void get_Item(){} // RVA: 0xA94080
@@ -39,6 +46,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class OneOrMore`2 : ValueType
     {
+        public object m_IsSingle;
+        public object m_Single;
+        public object m_Multiple;
+
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0x4759B0
         public void op_Implicit(){} // RVA: 0x4808A60

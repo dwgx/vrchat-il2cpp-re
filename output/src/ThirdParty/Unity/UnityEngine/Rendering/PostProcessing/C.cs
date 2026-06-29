@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class ChromaticAberration : PostProcessEffectSettings
     {
+        public object spectralLut;
+        public object intensity;
+        public object fastMode;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x795DE40
         public void .ctor(){} // RVA: 0x795DE80
@@ -14,6 +18,8 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ChromaticAberrationRenderer : PostProcessEffectRenderer`1
     {
+        public object m_InternalSpectralLut;
+
         // ── Methods ──
         public void Render(){} // RVA: 0x795E0F0
         public void Release(){} // RVA: 0x795E640
@@ -22,6 +28,46 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ColorGrading : PostProcessEffectSettings
     {
+        public object gradingMode;
+        public object externalLut;
+        public object tonemapper;
+        public object toneCurveToeStrength;
+        public object toneCurveToeLength;
+        public object toneCurveShoulderStrength;
+        public object toneCurveShoulderLength;
+        public object toneCurveShoulderAngle;
+        public object toneCurveGamma;
+        public object ldrLut;
+        public object ldrLutContribution;
+        public object temperature;
+        public object tint;
+        public object colorFilter;
+        public object hueShift;
+        public object saturation;
+        public object brightness;
+        public object postExposure;
+        public object contrast;
+        public object mixerRedOutRedIn;
+        public object mixerRedOutGreenIn;
+        public object mixerRedOutBlueIn;
+        public object mixerGreenOutRedIn;
+        public object mixerGreenOutGreenIn;
+        public object mixerGreenOutBlueIn;
+        public object mixerBlueOutRedIn;
+        public object mixerBlueOutGreenIn;
+        public object mixerBlueOutBlueIn;
+        public object lift;
+        public object gamma;
+        public object gain;
+        public object masterCurve;
+        public object redCurve;
+        public object greenCurve;
+        public object blueCurve;
+        public object hueVsHueCurve;
+        public object hueVsSatCurve;
+        public object satVsSatCurve;
+        public object lumVsSatCurve;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x795E7D0
         public void .ctor(){} // RVA: 0x795E890
@@ -29,6 +75,14 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ColorGradingRenderer : PostProcessEffectRenderer`1
     {
+        public object m_GradingCurves;
+        public object m_Pixels;
+        public object m_InternalLdrLut;
+        public object m_InternalLogLut;
+        public object k_Lut2DSize;
+        public object k_Lut3DSize;
+        public object m_HableCurve;
+
         // ── Methods ──
         public void Render(){} // RVA: 0x79600C0
         public void RenderExternalPipeline3D(){} // RVA: 0x79602F0
@@ -55,6 +109,14 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class ColorUtilities : Object
     {
+        public object logC_cut;
+        public object logC_a;
+        public object logC_b;
+        public object logC_c;
+        public object logC_d;
+        public object logC_e;
+        public object logC_f;
+
         // ── Methods ──
         public void StandardIlluminantY(){} // RVA: 0x7991900
         public void CIExyToLMS(){} // RVA: 0x7991930

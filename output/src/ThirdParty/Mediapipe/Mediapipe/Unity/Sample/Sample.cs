@@ -7,6 +7,19 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Sample
 {
     public class AppSettings : ScriptableObject
     {
+        public object _defaultImageSource;
+        public object _preferableInferenceMode;
+        public object _assetLoaderType;
+        public object _logLevel;
+        public object _glogMinloglevel;
+        public object _glogStderrthreshold;
+        public object _glogV;
+        public object _preferredDefaultWebCamWidth;
+        public object _defaultAvailableWebCamResolutions;
+        public object _availableStaticImageSources;
+        public object _defaultAvailableStaticImageResolutions;
+        public object _availableVideoSources;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x22447F0
         public void CreateInstance(){} // RVA: 0xFEAE90

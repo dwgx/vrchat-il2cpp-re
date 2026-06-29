@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 34
-// Methods: 239
+// Classes: 33
+// Methods: 224
 
 namespace ThirdParty.Unity.UnityEngine
 {
@@ -9,26 +9,6 @@ namespace ThirdParty.Unity.UnityEngine
     {
         // ── Methods ──
         public void IsRaycastLocationValid(){} // RVA: 0x8819D0
-    }
-
-    public class ICanvasRaycastFilter[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class IExposedPropertyTable
@@ -60,6 +40,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IMGUITextHandle : TextHandle
     {
+        public object tuple;
+        public object textHandles;
+        public object textHandlesTuple;
+        public object lastCleanupTime;
+        public object newHandlesSinceCleanup;
+        public object isCachedOnNative;
+
         // ── Methods ──
         public void EmptyManagedCache(){} // RVA: 0x7C8A3D0
         public void GetTextHandle(){} // RVA: 0x7C8AA10
@@ -181,6 +168,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Input : Object
     {
+        public object _simulateTouchEnabled;
+
         // ── Methods ──
         public void GetAxis(){} // RVA: 0x7CA9420
         public void GetAxisRaw(){} // RVA: 0x7CA9430
@@ -235,6 +224,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class InspectorNameAttribute : PropertyAttribute
     {
+        public object displayName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EDA0
     }
@@ -261,6 +252,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class InspectorOrderAttribute : PropertyAttribute
     {
+        public object _m_inspectorSort;
+        public object _m_sortDirection;
+
         // ── Methods ──
         public void get_m_inspectorSort(){} // RVA: 0xE62D00
         public void get_m_sortDirection(){} // RVA: 0x2244FB0
@@ -268,6 +262,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystem : Object
     {
+        public object m_Ptr;
+        public object m_SubsystemDescriptor;
+
         // ── Methods ──
         public void SetHandle(){} // RVA: 0x7DAD1C0
         public void Start(){} // RVA: 0x7DAD240
@@ -285,6 +282,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class IntegratedSubsystemDescriptor : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x7DAD7E0
         public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x7183E10

@@ -1,10 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 34
-// Methods: 168
+// Classes: 33
+// Methods: 165
 
 public class CacheEntry : Object
 {
+    public object HasResult;
+    public object TypeInfo;
+    public object ExceptionDispatchInfo;
+    public object IsNearestAncestorResolved;
+    public object NearestAncestor;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7312D20
     public void GetResult(){} // RVA: 0x7312D80
@@ -12,6 +18,11 @@ public class CacheEntry : Object
 
 public class CachingContext : Object
 {
+    public object _cache;
+    public object _cacheEntryFactory;
+    public object _options;
+    public object _hashCode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7312180
     public void get_Options(){} // RVA: 0xB700F0
@@ -36,12 +47,21 @@ public class Callback : MulticastDelegate
 
 public class CallbackContext : Object
 {
+    public object request;
+    public object certificate;
+    public object chain;
+    public object sslPolicyErrors;
+    public object result;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75A8840
 }
 
 public class CallbackInfo : Object
 {
+    public object _swi;
+    public object _typeMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void WriteObject(){} // RVA: 0x7529330
@@ -50,6 +70,8 @@ public class CallbackInfo : Object
 
 public class CastInstructionNoT : CastInstruction
 {
+    public object _t;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void Create(){} // RVA: 0x70C3DB0
@@ -66,6 +88,8 @@ public class CastInstructionT`1 : CastInstruction
 
 public class CatchBlockProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7048C60
     public void get_Body(){} // RVA: 0x13F92B0
@@ -88,6 +112,9 @@ public class Checked : NumericConvertInstruction
 
 public class Chunk : Object
 {
+    public object Bytes;
+    public object Offset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void Read(){} // RVA: 0x75CED20
@@ -95,6 +122,11 @@ public class Chunk : Object
 
 public class CollectionFixup : Object
 {
+    public object callback;
+    public object collection;
+    public object collectionItems;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x75196D0
     public void get_Callback(){} // RVA: 0xB5DBF0
@@ -106,6 +138,10 @@ public class CollectionFixup : Object
 
 public class CollectionHeaderTypeInfo`2 : HeaderTypeInfo`2
 {
+    public object minimalCount;
+    public object separator;
+    public object parser;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x89E120
     public void get_Separator(){} // RVA: 0x87C0A0
@@ -114,6 +150,10 @@ public class CollectionHeaderTypeInfo`2 : HeaderTypeInfo`2
 
 public class CollectionItemFixup : Object
 {
+    public object list;
+    public object index;
+    public object id;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x69C9EA0
     public void get_Collection(){} // RVA: 0xB5DBF0
@@ -121,8 +161,23 @@ public class CollectionItemFixup : Object
     public void get_Id(){} // RVA: 0xB700F0
 }
 
+public class ComNativeDescriptionProvider : TypeDescriptionProvider
+{
+    public object _handler;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB70100
+    public void get_Handler(){} // RVA: 0xB700F0
+    public void set_Handler(){} // RVA: 0xB70100
+    public void GetTypeDescriptor(){} // RVA: 0x7708E00
+}
+
 public class Comparers : Object
 {
+    public object Default;
+    public object _keyComparer;
+    public object _valueComparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void get_KeyComparer(){} // RVA: 0x87C0A0
@@ -140,6 +195,8 @@ public class Comparers : Object
 
 public class ConditionalExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7048D40
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -153,6 +210,8 @@ public class ConditionalExpressionProxy : Object
 
 public class ConfigurationListDebugView : Object
 {
+    public object <collection>P;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Items(){} // RVA: 0x87C0A0
@@ -160,6 +219,9 @@ public class ConfigurationListDebugView : Object
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -170,6 +232,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -180,6 +245,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -190,6 +258,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -200,6 +271,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -210,6 +284,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -220,16 +297,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3A130
-    public void get_IsCompleted(){} // RVA: 0x214480
-    public void OnCompleted(){} // RVA: 0x212FB0
-    public void UnsafeOnCompleted(){} // RVA: 0x213070
-    public void GetResult(){} // RVA: 0x216780
-}
+    public object m_task;
+    public object m_continueOnCapturedContext;
 
-public class ConfiguredTaskAwaiter : ValueType
-{
     // ── Methods ──
     public void OnCompleted(){} // RVA: 0x212FB0
     public void UnsafeOnCompleted(){} // RVA: 0x213070
@@ -237,6 +307,9 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredTaskAwaiter : ValueType
 {
+    public object m_task;
+    public object m_continueOnCapturedContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3A130
     public void get_IsCompleted(){} // RVA: 0x214480
@@ -247,6 +320,8 @@ public class ConfiguredTaskAwaiter : ValueType
 
 public class ConfiguredValueTaskAwaiter : ValueType
 {
+    public object _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x11E4F0
     public void get_IsCompleted(){} // RVA: 0x219990
@@ -257,6 +332,13 @@ public class ConfiguredValueTaskAwaiter : ValueType
 
 public class ConnectionGroup : Object
 {
+    public object _scheduler;
+    public object _name;
+    public object nextId;
+    public object ID;
+    public object connections;
+    public object queue;
+
     // ── Methods ──
     public void get_Scheduler(){} // RVA: 0xB5DBF0
     public void .ctor(){} // RVA: 0x75D6D00
@@ -272,6 +354,8 @@ public class ConnectionGroup : Object
 
 public class ConstantExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7048E20
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -303,6 +387,12 @@ public class ContentBlock[] : Array
 
 public class ContentReader : Object
 {
+    public object _eCache;
+    public object _aCache;
+    public object _lineInfo;
+    public object _currentContainer;
+    public object _baseUri;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x736BD40
     public void ReadContentFrom(){} // RVA: 0x736C830
@@ -310,6 +400,8 @@ public class ContentReader : Object
 
 public class ConverterList : ConfigurationList`1
 {
+    public object _options;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7313C90
     public void get_IsReadOnly(){} // RVA: 0x7313E30
@@ -318,6 +410,11 @@ public class ConverterList : ConfigurationList`1
 
 public class CookieCollectionEnumerator : Object
 {
+    public object m_cookies;
+    public object m_count;
+    public object m_index;
+    public object m_version;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x759BDE0
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x759BE80
@@ -325,15 +422,10 @@ public class CookieCollectionEnumerator : Object
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x759C030
 }
 
-public class CreateValueCallback : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x23F1A30
-    public void Invoke(){} // RVA: 0xB9E010
-}
-
 public class CustomRestriction : BindingRestrictions
 {
+    public object _expression;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70CB760
     public void Equals(){} // RVA: 0x70CB800

@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class DateTimeConstantAttribute : CustomConstantAttribute
     {
+        public object _date;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x67BD580
     }
@@ -33,6 +35,8 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DecimalConstantAttribute : Attribute
     {
+        public object _dec;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67BD5D0
         public void get_Value(){} // RVA: 0x22343B0
@@ -60,15 +64,23 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DefaultDependencyAttribute : Attribute
     {
+        public object loadHint;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class DefaultInterpolatedStringHandler : ValueType
     {
+        public object _provider;
+        public object _arrayToReturnToPool;
+        public object _chars;
+        public object _pos;
+        public object _hasCustomFormatter;
+
         // ── Methods ──
-        public void AppendFormatted(){} // RVA: 0xA7B8200
-        public void AppendCustomFormatter(){} // RVA: 0xA94080
+        public void AppendFormatted(){} // RVA: 0x304C470
+        public void AppendCustomFormatter(){} // RVA: 0x304A860
         public void .ctor(){} // RVA: 0xA7B7B50
         public void GetDefaultLength(){} // RVA: 0xA7B7CB0
         public void ToString(){} // RVA: 0xA7B7D10
@@ -85,6 +97,9 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 
     public class DependencyAttribute : Attribute
     {
+        public object dependentAssembly;
+        public object loadHint;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2615F10
     }

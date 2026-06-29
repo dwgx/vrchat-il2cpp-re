@@ -7,8 +7,11 @@ namespace ThirdParty.DotNet.System.CodeDom.Compiler
 {
     public class GeneratedCodeAttribute : Attribute
     {
+        public object tool;
+        public object version;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void .ctor(){} // RVA: 0x17C92C0
     }
 
 }

@@ -21,6 +21,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object PacketFactoryDefaultValue;
+        public object packetFactory_;
+        public object OutputSidePacketDefaultValue;
+        public object outputSidePacket_;
+        public object ExternalOutputDefaultValue;
+        public object externalOutput_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x659DD30
         public void get_Descriptor(){} // RVA: 0x659DD90
@@ -54,6 +64,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _extensions;
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0xB465B0
         public void get_Parser(){} // RVA: 0x659D1A0
@@ -79,6 +93,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketFactoryReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x659C920
         public void .cctor(){} // RVA: 0x659C980
@@ -86,6 +102,20 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object PacketGeneratorDefaultValue;
+        public object packetGenerator_;
+        public object _repeated_inputSidePacket_codec;
+        public object inputSidePacket_;
+        public object _repeated_externalInput_codec;
+        public object externalInput_;
+        public object _repeated_outputSidePacket_codec;
+        public object outputSidePacket_;
+        public object _repeated_externalOutput_codec;
+        public object externalOutput_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A1B20
         public void get_Descriptor(){} // RVA: 0x65A1B80
@@ -115,6 +145,13 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _extensions;
+        public object _hasBits0;
+        public object MergeFieldsDefaultValue;
+        public object mergeFields_;
+
         // ── Methods ──
         public void get__Extensions(){} // RVA: 0xB465B0
         public void get_Parser(){} // RVA: 0x65A0CF0
@@ -144,6 +181,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketGeneratorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x65A0520
         public void .cctor(){} // RVA: 0x65A0580
@@ -158,6 +197,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class PacketManagerConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_packet_codec;
+        public object packet_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x659F5B0
         public void get_Descriptor(){} // RVA: 0x659F610
@@ -183,39 +227,6 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void DeleteMpPtr(){} // RVA: 0x65529A0
         public void At(){} // RVA: 0x87C540
         public void Emplace(){} // RVA: 0x8943B0
-    }
-
-    public class Packet`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4848120
-        public void CreateForReference(){} // RVA: 0x48482A0
-        public void IsEmpty(){} // RVA: 0x4848200
-        public void TimestampMicroseconds(){} // RVA: 0x48488E0
-        public void SwitchNativePtr(){} // RVA: 0x4848230
-        public void DeleteMpPtr(){} // RVA: 0x4848880
-    }
-
-    public class Packet`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4848120
-        public void CreateForReference(){} // RVA: 0x48482A0
-        public void IsEmpty(){} // RVA: 0x4848200
-        public void TimestampMicroseconds(){} // RVA: 0x48488E0
-        public void SwitchNativePtr(){} // RVA: 0x4848230
-        public void DeleteMpPtr(){} // RVA: 0x4848880
-    }
-
-    public class Packet`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4848120
-        public void CreateForReference(){} // RVA: 0x48482A0
-        public void IsEmpty(){} // RVA: 0x4848200
-        public void TimestampMicroseconds(){} // RVA: 0x48488E0
-        public void SwitchNativePtr(){} // RVA: 0x4848230
-        public void DeleteMpPtr(){} // RVA: 0x4848880
     }
 
     public class Packet`1 : MpResourceHandle
@@ -254,6 +265,50 @@ namespace ThirdParty.Mediapipe.Mediapipe
     public class Packet`1 : MpResourceHandle
     {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x4848740
+        public void DeleteMpPtr(){} // RVA: 0x4848880
+        public void CreateForReference(){} // RVA: 0x48482A0
+        public void IsEmpty(){} // RVA: 0x4848200
+        public void TimestampMicroseconds(){} // RVA: 0x48488E0
+        public void SwitchNativePtr(){} // RVA: 0x4848230
+    }
+
+    public class Packet`1 : MpResourceHandle
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4848120
+        public void CreateForReference(){} // RVA: 0x48482A0
+        public void IsEmpty(){} // RVA: 0x4848200
+        public void TimestampMicroseconds(){} // RVA: 0x48488E0
+        public void SwitchNativePtr(){} // RVA: 0x4848230
+        public void DeleteMpPtr(){} // RVA: 0x4848880
+    }
+
+    public class Packet`1 : MpResourceHandle
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4848120
+        public void CreateForReference(){} // RVA: 0x48482A0
+        public void IsEmpty(){} // RVA: 0x4848200
+        public void TimestampMicroseconds(){} // RVA: 0x48488E0
+        public void SwitchNativePtr(){} // RVA: 0x4848230
+        public void DeleteMpPtr(){} // RVA: 0x4848880
+    }
+
+    public class Packet`1 : MpResourceHandle
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4848120
+        public void CreateForReference(){} // RVA: 0x48482A0
+        public void IsEmpty(){} // RVA: 0x4848200
+        public void TimestampMicroseconds(){} // RVA: 0x48488E0
+        public void SwitchNativePtr(){} // RVA: 0x4848230
+        public void DeleteMpPtr(){} // RVA: 0x4848880
+    }
+
+    public class Packet`1 : MpResourceHandle
+    {
+        // ── Methods ──
         public void .ctor(){} // RVA: 0x4848120
         public void CreateForReference(){} // RVA: 0x48482A0
         public void IsEmpty(){} // RVA: 0x4848200
@@ -282,17 +337,6 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public void IsEmpty(){} // RVA: 0x4848200
         public void SwitchNativePtr(){} // RVA: 0x4848230
         public void CreateForReference(){} // RVA: 0x48482A0
-    }
-
-    public class Packet`1 : MpResourceHandle
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4848120
-        public void CreateForReference(){} // RVA: 0x48482A0
-        public void IsEmpty(){} // RVA: 0x4848200
-        public void TimestampMicroseconds(){} // RVA: 0x48488E0
-        public void SwitchNativePtr(){} // RVA: 0x4848230
-        public void DeleteMpPtr(){} // RVA: 0x4848880
     }
 
     public class Packet`1 : MpResourceHandle
@@ -327,6 +371,28 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ProfilerConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object histogramIntervalSizeUsec_;
+        public object numHistogramIntervals_;
+        public object enableInputOutputLatency_;
+        public object enableProfiler_;
+        public object enableStreamLatency_;
+        public object usePacketTimestampForAddedPacket_;
+        public object traceLogCapacity_;
+        public object _repeated_traceEventTypesDisabled_codec;
+        public object traceEventTypesDisabled_;
+        public object traceLogPath_;
+        public object traceLogCount_;
+        public object traceLogIntervalUsec_;
+        public object traceLogMarginUsec_;
+        public object traceLogDurationEvents_;
+        public object traceLogIntervalCount_;
+        public object traceLogDisabled_;
+        public object traceEnabled_;
+        public object traceLogInstantEvents_;
+        public object calculatorFilter_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65734A0
         public void get_Descriptor(){} // RVA: 0x6573500
@@ -387,6 +453,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Protobuf : Object
     {
+        public object DefaultLogHandler;
+
         // ── Methods ──
         public void SetLogHandler(){} // RVA: 0x654EE60
         public void ResetLogHandler(){} // RVA: 0x654EF30

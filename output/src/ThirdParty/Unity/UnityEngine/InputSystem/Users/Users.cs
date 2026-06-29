@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 {
     public class InputUser : ValueType
     {
+        public object InvalidId;
+        public object k_InputUserOnChangeMarker;
+        public object k_InputCheckForUnpairMarker;
+        public object m_Id;
+        public object s_GlobalState;
+
         // ── Methods ──
         public void get_valid(){} // RVA: 0x935E40
         public void get_index(){} // RVA: 0x935E50
@@ -77,6 +83,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserAccountHandle : ValueType
     {
+        public object m_ApiName;
+        public object m_Handle;
+
         // ── Methods ──
         public void get_apiName(){} // RVA: 0x77900
         public void get_handle(){} // RVA: 0x77ED0
@@ -90,6 +99,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Users
 
     public class InputUserSettings : Object
     {
+        public object _customBindings;
+        public object _invertMouseX;
+        public object _invertMouseY;
+        public object _mouseSmoothing;
+        public object _mouseSensitivity;
+        public object _invertStickX;
+        public object _invertStickY;
+        public object _swapSticks;
+        public object _swapBumpers;
+        public object _swapTriggers;
+        public object _swapDpadAndLeftStick;
+        public object _vibrationStrength;
+        public object m_CustomBindings;
+
         // ── Methods ──
         public void get_customBindings(){} // RVA: 0xB5DBF0
         public void set_customBindings(){} // RVA: 0xB44D60

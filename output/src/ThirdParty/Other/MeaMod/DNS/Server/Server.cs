@@ -29,6 +29,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class ConcurrentSet`1 : Object
     {
+        public object DefaultConcurrencyLevel;
+        public object DefaultCapacity;
+        public object _dictionary;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x34A7390
         public void Remove(){} // RVA: 0x34A75D0
@@ -49,6 +53,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class ConcurrentSet`1 : Object
     {
+        public object DefaultConcurrencyLevel;
+        public object DefaultCapacity;
+        public object _dictionary;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_Count(){} // RVA: 0x87C130
@@ -69,6 +77,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class NameServer : Object
     {
+        public object _catalog;
+        public object _answerAllQuestions;
+
         // ── Methods ──
         public void get_Catalog(){} // RVA: 0xB5DBF0
         public void set_Catalog(){} // RVA: 0xB44D60
@@ -86,6 +97,10 @@ namespace ThirdParty.Other.MeaMod.DNS.Server
 
     public class Node : Object
     {
+        public object _name;
+        public object _resources;
+        public object _authoritative;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
         public void set_Name(){} // RVA: 0xB44D60

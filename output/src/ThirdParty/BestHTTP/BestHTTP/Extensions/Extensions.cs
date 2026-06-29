@@ -7,6 +7,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 {
     public class BufferDesc : ValueType
     {
+        public object Empty;
+        public object buffer;
+        public object released;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA72980
         public void .cctor(){} // RVA: 0xA4BA5A0
@@ -14,6 +18,17 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class BufferPoolMemoryStream : Stream
     {
+        public object canWrite;
+        public object allowGetBuffer;
+        public object capacity;
+        public object length;
+        public object internalBuffer;
+        public object initialIndex;
+        public object expandable;
+        public object streamClosed;
+        public object position;
+        public object dirty_bytes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA4B4010
         public void InternalConstructor(){} // RVA: 0xA4B40B0
@@ -43,6 +58,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class BufferStore : ValueType
     {
+        public object Size;
+        public object buffers;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA728B0
     }
@@ -69,6 +87,12 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class CircularBuffer`1 : Object
     {
+        public object _capacity;
+        public object _count;
+        public object buffer;
+        public object startIdx;
+        public object endIdx;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x87C130
         public void set_Capacity(){} // RVA: 0x8944F0
@@ -90,6 +114,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class Extensions : Object
     {
+        public object validIpV4AddressRegex;
+
         // ── Methods ──
         public void AsciiToString(){} // RVA: 0xA4B5590
         public void GetASCIIBytes(){} // RVA: 0xA4B5670
@@ -128,6 +154,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class HeaderValue : Object
     {
+        public object _key;
+        public object _value;
+        public object _options;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0xB5DBF0
         public void set_Key(){} // RVA: 0xB44D60
@@ -165,6 +195,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class HeartbeatManager : Object
     {
+        public object rwLock;
+        public object Heartbeats;
+        public object UpdateArray;
+        public object LastUpdate;
+
         // ── Methods ──
         public void Subscribe(){} // RVA: 0xA4B8A50
         public void Unsubscribe(){} // RVA: 0xA4B8BF0
@@ -180,6 +215,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class KeyValuePairList : Object
     {
+        public object _values;
+
         // ── Methods ──
         public void get_Values(){} // RVA: 0xB5DBF0
         public void set_Values(){} // RVA: 0xB44D60
@@ -189,12 +226,21 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class PooledBuffer : ValueType
     {
+        public object Data;
+        public object Length;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0xA72730
     }
 
     public class ReadOnlyBufferedStream : Stream
     {
+        public object stream;
+        public object READBUFFER;
+        public object buf;
+        public object available;
+        public object pos;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA4B94A0
         public void Read(){} // RVA: 0xA4B95E0
@@ -214,6 +260,9 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class StreamList : Stream
     {
+        public object Streams;
+        public object CurrentIdx;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA4B9B50
         public void get_CanRead(){} // RVA: 0xA4B9C00
@@ -232,6 +281,23 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class VariableSizedBufferPool : Object
     {
+        public object NoData;
+        public object _isEnabled;
+        public object RemoveOlderThan;
+        public object RunMaintenanceEvery;
+        public object MinBufferSize;
+        public object MaxBufferSize;
+        public object MaxPoolSize;
+        public object RemoveEmptyLists;
+        public object IsDoubleReleaseCheckEnabled;
+        public object FreeBuffers;
+        public object lastMaintenance;
+        public object PoolSize;
+        public object GetBuffers;
+        public object ReleaseBuffers;
+        public object statiscticsBuilder;
+        public object rwLock;
+
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0xA4BA6E0
         public void set_IsEnabled(){} // RVA: 0xA4BA740
@@ -257,6 +323,10 @@ namespace ThirdParty.BestHTTP.BestHTTP.Extensions
 
     public class WriteOnlyBufferedStream : Stream
     {
+        public object _position;
+        public object buffer;
+        public object stream;
+
         // ── Methods ──
         public void get_CanRead(){} // RVA: 0xB43320
         public void get_CanSeek(){} // RVA: 0xB43320

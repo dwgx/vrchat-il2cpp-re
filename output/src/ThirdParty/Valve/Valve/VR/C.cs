@@ -7,6 +7,8 @@ namespace ThirdParty.Valve.Valve.VR
 {
     public class CVRApplications : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC0AF0
         public void AddApplicationManifest(){} // RVA: 0x7AC0CD0
@@ -43,6 +45,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRBlockQueue : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC8470
         public void Create(){} // RVA: 0x7AC85F0
@@ -58,6 +62,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperone : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC1FB0
         public void GetCalibrationState(){} // RVA: 0x1B68170
@@ -73,6 +79,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRChaperoneSetup : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC2160
         public void CommitWorkingCopy(){} // RVA: 0x31D2090
@@ -99,6 +107,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRCompositor : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC2660
         public void SetTrackingSpace(){} // RVA: 0x31D2090
@@ -157,6 +167,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDebug : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC7BF0
         public void EmitVrProfilerEvent(){} // RVA: 0x7AC7D50
@@ -167,6 +179,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRDriverManager : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC6B00
         public void GetDriverCount(){} // RVA: 0x1B68170
@@ -177,6 +191,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRExtendedDisplay : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC06F0
         public void GetWindowBounds(){} // RVA: 0x6C583E0
@@ -186,6 +202,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRHeadsetView : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC4440
         public void SetHeadsetViewSize(){} // RVA: 0x5DC7240
@@ -201,6 +219,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRIOBuffer : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC7770
         public void Open(){} // RVA: 0x7AC78D0
@@ -213,6 +233,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRInput : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC6D20
         public void SetActionManifestPath(){} // RVA: 0x7AC6ED0
@@ -251,6 +273,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRNotifications : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC5500
         public void CreateNotification(){} // RVA: 0x7AC5650
@@ -259,6 +283,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlay : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC2CF0
         public void FindOverlay(){} // RVA: 0x7AC2EA0
@@ -345,6 +371,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVROverlayView : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC42E0
         public void AcquireOverlayView(){} // RVA: 0x7100410
@@ -355,6 +383,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRPaths : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC8200
         public void ReadPathBatch(){} // RVA: 0x6C5C670
@@ -365,6 +395,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRProperties : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC7FF0
         public void ReadPropertyBatch(){} // RVA: 0x6C5C670
@@ -375,6 +407,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRRenderModels : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC4650
         public void LoadRenderModel_Async(){} // RVA: 0x7AC4810
@@ -400,6 +434,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRResources : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC67D0
         public void LoadSharedResource(){} // RVA: 0x7AC6920
@@ -408,6 +444,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRScreenshots : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC6350
         public void RequestScreenshot(){} // RVA: 0x7AC64C0
@@ -421,6 +459,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSettings : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC5770
         public void GetSettingsErrorNameFromEnum(){} // RVA: 0x7AC5900
@@ -438,6 +478,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSpatialAnchors : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC79C0
         public void CreateSpatialAnchorFromDescriptor(){} // RVA: 0x7AC7B20
@@ -448,6 +490,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRSystem : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7ABF3C0
         public void GetRecommendedRenderTargetSize(){} // RVA: 0x6C56C10
@@ -500,6 +544,8 @@ namespace ThirdParty.Valve.Valve.VR
 
     public class CVRTrackedCamera : Object
     {
+        public object FnTable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AC0850
         public void GetCameraErrorNameFromEnum(){} // RVA: 0x7AC09E0

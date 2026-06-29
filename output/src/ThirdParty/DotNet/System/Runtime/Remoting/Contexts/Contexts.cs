@@ -7,134 +7,152 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Contexts
 {
     public class Context : Object
     {
+        public object domain_id;
+        public object context_id;
+        public object static_data;
+        public object data;
+        public object local_slots;
+        public object default_server_context_sink;
+        public object server_context_sink_chain;
+        public object client_context_sink_chain;
+        public object context_properties;
+        public object global_count;
+        public object _localDataStore;
+        public object _localDataStoreMgr;
+        public object global_dynamic_properties;
+        public object context_dynamic_properties;
+        public object callback_object;
+
         // ── Methods ──
-        public void RegisterContext(){} // RVA: 0x7ADAD4880
-        public void ReleaseContext(){} // RVA: 0x7ADAD4890
-        public void .ctor(){} // RVA: 0x7ADAD48A0
-        public void Finalize(){} // RVA: 0x7ADAD4900
-        public void get_DefaultContext(){} // RVA: 0x7ADAD4970
-        public void get_ContextID(){} // RVA: 0x7A8668BC0
-        public void get_ContextProperties(){} // RVA: 0x7ADAD49B0
-        public void get_IsDefaultContext(){} // RVA: 0x7ADAD4A20
-        public void get_NeedsContextSink(){} // RVA: 0x7ADAD4A30
-        public void RegisterDynamicProperty(){} // RVA: 0x7ADAD4B20
-        public void UnregisterDynamicProperty(){} // RVA: 0x7ADAD4D30
-        public void GetDynamicPropertyCollection(){} // RVA: 0x7ADAD4F40
-        public void NotifyGlobalDynamicSinks(){} // RVA: 0x7ADAD5100
-        public void get_HasGlobalDynamicSinks(){} // RVA: 0x7ADAD5230
-        public void NotifyDynamicSinks(){} // RVA: 0x7ADAD52E0
-        public void get_HasDynamicSinks(){} // RVA: 0x7ADAD5380
-        public void get_HasExitSinks(){} // RVA: 0x7ADAD53D0
-        public void GetProperty(){} // RVA: 0x7ADAD54A0
-        public void SetProperty(){} // RVA: 0x7ADAD5660
-        public void Freeze(){} // RVA: 0x7ADAD5850
-        public void ToString(){} // RVA: 0x7ADAD5A50
-        public void GetServerContextSinkChain(){} // RVA: 0x7ADAD5AA0
-        public void GetClientContextSinkChain(){} // RVA: 0x7ADAD5D30
-        public void CreateServerObjectSinkChain(){} // RVA: 0x7ADAD5FB0
-        public void CreateEnvoySink(){} // RVA: 0x7ADAD6270
-        public void SwitchToContext(){} // RVA: 0x7ADAD6460
-        public void CreateNewContext(){} // RVA: 0x7ADAD6470
-        public void DoCallBack(){} // RVA: 0x7ADAD64F0
-        public void get_MyLocalStore(){} // RVA: 0x7ADAD6650
-        public void AllocateDataSlot(){} // RVA: 0x7ADAD6880
-        public void AllocateNamedDataSlot(){} // RVA: 0x7ADAD68F0
-        public void FreeNamedDataSlot(){} // RVA: 0x7ADAD6960
-        public void GetNamedDataSlot(){} // RVA: 0x7ADAD69D0
-        public void GetData(){} // RVA: 0x7ADAD6A40
-        public void SetData(){} // RVA: 0x7ADAD6BB0
-        public void .cctor(){} // RVA: 0x7ADAD6C30
+        public void RegisterContext(){} // RVA: 0x675F960
+        public void ReleaseContext(){} // RVA: 0x675F970
+        public void .ctor(){} // RVA: 0x675F980
+        public void Finalize(){} // RVA: 0x675F9E0
+        public void get_DefaultContext(){} // RVA: 0x675FA50
+        public void get_ContextID(){} // RVA: 0x116A650
+        public void get_ContextProperties(){} // RVA: 0x675FA90
+        public void get_IsDefaultContext(){} // RVA: 0x675FB00
+        public void get_NeedsContextSink(){} // RVA: 0x675FB10
+        public void RegisterDynamicProperty(){} // RVA: 0x675FC00
+        public void UnregisterDynamicProperty(){} // RVA: 0x675FE10
+        public void GetDynamicPropertyCollection(){} // RVA: 0x6760020
+        public void NotifyGlobalDynamicSinks(){} // RVA: 0x67601E0
+        public void get_HasGlobalDynamicSinks(){} // RVA: 0x6760310
+        public void NotifyDynamicSinks(){} // RVA: 0x67603C0
+        public void get_HasDynamicSinks(){} // RVA: 0x6760460
+        public void get_HasExitSinks(){} // RVA: 0x67604B0
+        public void GetProperty(){} // RVA: 0x6760580
+        public void SetProperty(){} // RVA: 0x6760740
+        public void Freeze(){} // RVA: 0x6760930
+        public void ToString(){} // RVA: 0x6760B30
+        public void GetServerContextSinkChain(){} // RVA: 0x6760B80
+        public void GetClientContextSinkChain(){} // RVA: 0x6760E10
+        public void CreateServerObjectSinkChain(){} // RVA: 0x6761090
+        public void CreateEnvoySink(){} // RVA: 0x6761350
+        public void SwitchToContext(){} // RVA: 0x6761540
+        public void CreateNewContext(){} // RVA: 0x6761550
+        public void DoCallBack(){} // RVA: 0x67615D0
+        public void get_MyLocalStore(){} // RVA: 0x6761730
+        public void AllocateDataSlot(){} // RVA: 0x6761960
+        public void AllocateNamedDataSlot(){} // RVA: 0x67619D0
+        public void FreeNamedDataSlot(){} // RVA: 0x6761A40
+        public void GetNamedDataSlot(){} // RVA: 0x6761AB0
+        public void GetData(){} // RVA: 0x6761B20
+        public void SetData(){} // RVA: 0x6761C90
+        public void .cctor(){} // RVA: 0x6761D10
     }
 
     public class ContextCallbackObject : ContextBoundObject
     {
         // ── Methods ──
-        public void DoCallBack(){} // RVA: 0x7A80D7310
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void DoCallBack(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class CrossContextChannel : Object
     {
         // ── Methods ──
-        public void SyncProcessMessage(){} // RVA: 0x7ADAD7900
-        public void AsyncProcessMessage(){} // RVA: 0x7ADAD7CA0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void SyncProcessMessage(){} // RVA: 0x67629E0
+        public void AsyncProcessMessage(){} // RVA: 0x6762D80
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class CrossContextDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
     }
 
     public class DynamicPropertyCollection : Object
     {
+        public object _properties;
+
         // ── Methods ──
-        public void get_HasProperties(){} // RVA: 0x7ADAD6D00
-        public void RegisterDynamicProperty(){} // RVA: 0x7ADAD6D30
-        public void UnregisterDynamicProperty(){} // RVA: 0x7ADAD70C0
-        public void NotifyMessage(){} // RVA: 0x7ADAD7280
-        public void FindProperty(){} // RVA: 0x7ADAD76F0
-        public void .ctor(){} // RVA: 0x7ADAD7860
+        public void get_HasProperties(){} // RVA: 0x6761DE0
+        public void RegisterDynamicProperty(){} // RVA: 0x6761E10
+        public void UnregisterDynamicProperty(){} // RVA: 0x67621A0
+        public void NotifyMessage(){} // RVA: 0x6762360
+        public void FindProperty(){} // RVA: 0x67627D0
+        public void .ctor(){} // RVA: 0x6762940
     }
 
     public class IContextAttribute
     {
         // ── Methods ──
-        public void GetPropertiesForNewContext(){} // RVA: 0x7A7E18800
-        public void IsContextOK(){} // RVA: 0x7A7E01A40
+        public void GetPropertiesForNewContext(){} // RVA: 0x894320
+        public void IsContextOK(){} // RVA: 0x87D3C0
     }
 
     public class IContextProperty
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7A7E00680
-        public void Freeze(){} // RVA: 0x7A7E18800
-        public void IsNewContextOK(){} // RVA: 0x7A7E019D0
+        public void get_Name(){} // RVA: 0x87C0A0
+        public void Freeze(){} // RVA: 0x894320
+        public void IsNewContextOK(){} // RVA: 0x87D350
     }
 
     public class IContributeClientContextSink
     {
         // ── Methods ──
-        public void GetClientContextSink(){} // RVA: 0x7A7E00B20
+        public void GetClientContextSink(){} // RVA: 0x87C540
     }
 
     public class IContributeDynamicSink
     {
         // ── Methods ──
-        public void GetDynamicSink(){} // RVA: 0x7A7E00680
+        public void GetDynamicSink(){} // RVA: 0x87C0A0
     }
 
     public class IContributeEnvoySink
     {
         // ── Methods ──
-        public void GetEnvoySink(){} // RVA: 0x7A7E00BD0
+        public void GetEnvoySink(){} // RVA: 0x87C5F0
     }
 
     public class IContributeObjectSink
     {
         // ── Methods ──
-        public void GetObjectSink(){} // RVA: 0x7A7E00BD0
+        public void GetObjectSink(){} // RVA: 0x87C5F0
     }
 
     public class IContributeServerContextSink
     {
         // ── Methods ──
-        public void GetServerContextSink(){} // RVA: 0x7A7E00B20
+        public void GetServerContextSink(){} // RVA: 0x87C540
     }
 
     public class IDynamicMessageSink
     {
         // ── Methods ──
-        public void ProcessMessageFinish(){} // RVA: 0x7A7E1E3B0
-        public void ProcessMessageStart(){} // RVA: 0x7A7E1E3B0
+        public void ProcessMessageFinish(){} // RVA: 0x899F80
+        public void ProcessMessageStart(){} // RVA: 0x899F80
     }
 
     public class IDynamicProperty
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_Name(){} // RVA: 0x87C0A0
     }
 
 }

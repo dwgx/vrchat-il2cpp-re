@@ -14,6 +14,11 @@ namespace VRC.Core
 
     public class ConfigManager : Object
     {
+        public object KEY_DISABLE_UPGRADE_ACCOUNT;
+        public object _localConfig;
+        public object _worldConfig;
+        public object _remoteConfig;
+
         // ── Methods ──
         public void get_LocalConfig(){} // RVA: 0xA5D5100
         public void set_LocalConfig(){} // RVA: 0xA5D5140

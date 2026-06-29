@@ -7,6 +7,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class UniTask : ValueType
     {
+        public object source;
+        public object token;
+        public object CanceledUniTask;
+        public object CompletedTask;
+
         // ── Methods ──
         public void ToCoroutine(){} // RVA: 0x774D080
         public void .ctor(){} // RVA: 0x91FF40
@@ -26,10 +31,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void Delay(){} // RVA: 0x774E7A0
         public void FromException(){} // RVA: 0x2AC3530
         public void FromResult(){} // RVA: 0x2AC5290
-        public void FromCanceled(){} // RVA: 0x2AC1F70
+        public void FromCanceled(){} // RVA: 0x2AC2A90
         public void Create(){} // RVA: 0xA94080
         public void Lazy(){} // RVA: 0x87C5C0
-        public void Void(){} // RVA: 0x2AC6530
+        public void Void(){} // RVA: 0xA94080
         public void Action(){} // RVA: 0xA94080
         public void UnityAction(){} // RVA: 0x882000
         public void Defer(){} // RVA: 0xA94080
@@ -48,14 +53,24 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
         public void WaitWhile(){} // RVA: 0xA94080
         public void WaitUntilCanceled(){} // RVA: 0x7750780
         public void WaitUntilValueChanged(){} // RVA: 0xA94080
-        public void WhenAll(){} // RVA: 0x2AC6C60
-        public void WhenAny(){} // RVA: 0x2ADB380
+        public void WhenAll(){} // RVA: 0x2AC7B80
+        public void WhenAny(){} // RVA: 0x2ADB610
         public void WhenEach(){} // RVA: 0x87C5C0
         public void .cctor(){} // RVA: 0x7750E00
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -63,6 +78,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -70,6 +95,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -77,6 +112,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -84,6 +129,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x5026580
@@ -91,6 +146,16 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTaskCompletionSource`1 : Object
     {
+        public object cancellationToken;
+        public object result;
+        public object exception;
+        public object gate;
+        public object singleContinuation;
+        public object singleState;
+        public object secondaryContinuationList;
+        public object intStatus;
+        public object handled;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Task(){} // RVA: 0x502A960
@@ -108,6 +173,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x508CBF0
         public void .ctor(){} // RVA: 0x5A3D80
@@ -121,6 +190,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899B50
         public void get_Status(){} // RVA: 0x87C130
@@ -134,6 +207,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5A1E10
         public void get_Status(){} // RVA: 0x59C6A0
@@ -147,6 +224,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x59C640
         public void get_Status(){} // RVA: 0x59C6A0
@@ -160,6 +241,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -173,6 +258,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -186,6 +275,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -199,12 +292,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -218,12 +319,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -237,51 +346,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x560F00
-        public void get_Status(){} // RVA: 0x560F60
-        public void GetAwaiter(){} // RVA: 0x560F70
-        public void Preserve(){} // RVA: 0x561020
-        public void AsUniTask(){} // RVA: 0x59D320
-        public void op_Implicit(){} // RVA: 0x507E8B0
-        public void SuppressCancellationThrow(){} // RVA: 0x59D350
-        public void ToString(){} // RVA: 0x59D390
-    }
+        public object source;
+        public object result;
+        public object token;
 
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
-        public void GetAwaiter(){} // RVA: 0x561430
-        public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void op_Implicit(){} // RVA: 0x508CBF0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x560F00
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
-        public void GetAwaiter(){} // RVA: 0x561430
-        public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void op_Implicit(){} // RVA: 0x508CBF0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
-    }
-
-    public class UniTask`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -295,6 +363,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -308,12 +380,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -327,12 +407,81 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x560F00
+        public void get_Status(){} // RVA: 0x560F60
+        public void GetAwaiter(){} // RVA: 0x560F70
+        public void Preserve(){} // RVA: 0x561020
+        public void AsUniTask(){} // RVA: 0x59D320
+        public void op_Implicit(){} // RVA: 0x507E8B0
+        public void SuppressCancellationThrow(){} // RVA: 0x59D350
+        public void ToString(){} // RVA: 0x59D390
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x560F00
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B90
         public void get_Status(){} // RVA: 0x562C00
@@ -346,12 +495,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -365,12 +522,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x568290
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -384,12 +549,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -403,12 +576,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -422,12 +603,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -441,12 +630,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -460,12 +657,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -479,6 +684,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -492,6 +701,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -505,12 +718,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -524,12 +745,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -543,12 +772,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -562,12 +799,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -581,12 +826,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x561420
@@ -600,12 +853,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B90
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x586340
         public void get_Status(){} // RVA: 0x5863A0
@@ -619,31 +880,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
     }
 
     public class UniTask`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5613C0
-        public void get_Status(){} // RVA: 0x5A3D90
-        public void GetAwaiter(){} // RVA: 0x561430
-        public void Preserve(){} // RVA: 0x5614F0
-        public void AsUniTask(){} // RVA: 0x5A3DA0
-        public void op_Implicit(){} // RVA: 0x508CBF0
-        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
-        public void ToString(){} // RVA: 0x5A3E10
-    }
+        public object source;
+        public object result;
+        public object token;
 
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x560F00
-    }
-
-    public class UniTask`1 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -657,12 +907,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -676,12 +934,47 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x560F00
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -695,12 +988,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -714,12 +1015,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x561420
@@ -733,12 +1042,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B90
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -752,12 +1069,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
         public void get_Status(){} // RVA: 0x561EB0
@@ -771,12 +1096,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x563690
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -790,12 +1123,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x5A3D90
@@ -809,12 +1150,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
         public void get_Status(){} // RVA: 0x561420
@@ -828,12 +1177,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562B90
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x586340
         public void get_Status(){} // RVA: 0x5863A0
@@ -847,6 +1204,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -860,12 +1221,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -879,12 +1248,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -898,12 +1275,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x563690
         public void get_Status(){} // RVA: 0x5636A0
@@ -917,12 +1302,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562290
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x563690
         public void get_Status(){} // RVA: 0x5636A0
@@ -936,12 +1329,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x562290
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
         public void get_Status(){} // RVA: 0x561EB0
@@ -955,6 +1356,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
         public void get_Status(){} // RVA: 0x560A60
@@ -968,12 +1373,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x586340
         public void get_Status(){} // RVA: 0x5863A0
@@ -987,12 +1400,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5613C0
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560F00
         public void get_Status(){} // RVA: 0x560F60
@@ -1006,12 +1427,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x563B60
         public void get_Status(){} // RVA: 0x563B70
@@ -1025,12 +1454,20 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x5679C0
     }
 
     public class UniTask`1 : ValueType
     {
+        public object source;
+        public object result;
+        public object token;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x561E40
         public void get_Status(){} // RVA: 0x561EB0

@@ -1,10 +1,17 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 342
+// Methods: 339
 
 public class WIN32_FILE_ATTRIBUTE_DATA : ValueType
 {
+    public object dwFileAttributes;
+    public object ftCreationTime;
+    public object ftLastAccessTime;
+    public object ftLastWriteTime;
+    public object nFileSizeHigh;
+    public object nFileSizeLow;
+
     // ── Methods ──
     public void PopulateFrom(){} // RVA: 0x8AB1F0
 }
@@ -21,6 +28,14 @@ public class WProperty : Property`2
 
 public class WaitUntilPromise : Object
 {
+    public object pool;
+    public object nextNode;
+    public object predicate;
+    public object cancellationToken;
+    public object cancellationTokenRegistration;
+    public object cancelImmediately;
+    public object core;
+
     // ── Methods ──
     public void get_NextNode(){} // RVA: 0x4865E00
     public void .cctor(){} // RVA: 0x7756FA0
@@ -36,25 +51,68 @@ public class WaitUntilPromise : Object
 
 public class Waypoint : ValueType
 {
+    public object position;
+    public object roll;
+
     // ── Methods ──
     public void get_AsVector4(){} // RVA: 0x86D50
     public void FromVector4(){} // RVA: 0x259A160
 }
 
-public class WebFile : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class WellKnownNoReferenceContainsType`1 : Object
 {
+    public object IsWellKnownType;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x562D0B0
 }
 
+public class WellKnownNoReferenceContainsType`1 : Object
+{
+    public object IsWellKnownType;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x562D0B0
+}
+
+public class WellKnownNoReferenceContainsType`1 : Object
+{
+    public object IsWellKnownType;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x562D0B0
+}
+
+public class WhenAllPromise : Task`1
+{
+    public object m_tasks;
+    public object m_count;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x69C6CB0
+    public void Invoke(){} // RVA: 0x69C6EF0
+    public void get_ShouldNotifyDebuggerOfWaitCompletion(){} // RVA: 0x69C7210
+    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0xC2E4C0
+}
+
+public class WhenAllPromise`1 : Task`1
+{
+    public object m_tasks;
+    public object m_count;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void Invoke(){} // RVA: 0x894320
+    public void get_ShouldNotifyDebuggerOfWaitCompletion(){} // RVA: 0x87D280
+    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0x87D280
+}
+
 public class WhenAllPromise`1 : Object
 {
+    public object result;
+    public object completeCount;
+    public object core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x562DF20
     public void TryInvokeContinuation(){} // RVA: 0x562E3B0
@@ -67,6 +125,10 @@ public class WhenAllPromise`1 : Object
 
 public class WhenAllPromise`1 : Object
 {
+    public object result;
+    public object completeCount;
+    public object core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x562DF20
     public void TryInvokeContinuation(){} // RVA: 0x562E3B0
@@ -79,18 +141,25 @@ public class WhenAllPromise`1 : Object
 
 public class WhenAllPromise`1 : Object
 {
+    public object result;
+    public object completeCount;
+    public object core;
+
     // ── Methods ──
+    public void .ctor(){} // RVA: 0x562DF20
     public void TryInvokeContinuation(){} // RVA: 0x562E3B0
     public void GetResult(){} // RVA: 0x562E4E0
     public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x562E570
     public void GetStatus(){} // RVA: 0x562D870
     public void UnsafeGetStatus(){} // RVA: 0x562D890
     public void OnCompleted(){} // RVA: 0x562D8B0
-    public void .ctor(){} // RVA: 0x562DF20
 }
 
 public class WhenAnyPromise`2 : Object
 {
+    public object completedCount;
+    public object core;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x5733950
     public void TryInvokeContinuationT1(){} // RVA: 0x5733FD0
@@ -102,21 +171,12 @@ public class WhenAnyPromise`2 : Object
     public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x57342D0
 }
 
-public class WhenAnyPromise`2 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x5732360
-    public void TryInvokeContinuationT1(){} // RVA: 0x57329E0
-    public void TryInvokeContinuationT2(){} // RVA: 0x5732AE0
-    public void GetResult(){} // RVA: 0x5732C00
-    public void GetStatus(){} // RVA: 0x5732C90
-    public void OnCompleted(){} // RVA: 0x5732CB0
-    public void UnsafeGetStatus(){} // RVA: 0x5732CE0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5732CF0
-}
-
 public class WhereArrayIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void Clone(){} // RVA: 0x87C0A0
@@ -127,6 +187,10 @@ public class WhereArrayIterator`1 : Iterator`1
 
 public class WhereArrayIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575F560
     public void Clone(){} // RVA: 0x575F640
@@ -137,60 +201,20 @@ public class WhereArrayIterator`1 : Iterator`1
 
 public class WhereArrayIterator`1 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-    public void Clone(){} // RVA: 0x575F070
-    public void MoveNext(){} // RVA: 0x575F440
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x575F4E0
-}
+    public object source;
+    public object predicate;
+    public object index;
 
-public class WhereArrayIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-    public void Clone(){} // RVA: 0x575F070
-    public void MoveNext(){} // RVA: 0x575F440
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x575F4E0
-}
-
-public class WhereArrayIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereArrayIterator`1 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EB70
 }
 
 public class WhereArrayIterator`1 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
+    public object source;
+    public object predicate;
+    public object index;
 
-public class WhereArrayIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-    public void Clone(){} // RVA: 0x575F070
-    public void MoveNext(){} // RVA: 0x575F440
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x575F4E0
-}
-
-public class WhereArrayIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereArrayIterator`1 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
     public void Clone(){} // RVA: 0x575F070
@@ -201,24 +225,122 @@ public class WhereArrayIterator`1 : Iterator`1
 
 public class WhereArrayIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void MoveNext(){} // RVA: 0x575F440
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x575F4E0
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EB70
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void MoveNext(){} // RVA: 0x575F440
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x575F4E0
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void MoveNext(){} // RVA: 0x575F440
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x575F4E0
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereArrayIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575E780
 }
 
-public class WhereArrayIterator`1 : Iterator`1
+public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
+    public object source;
+    public object predicate;
+    public object enumerator;
 
-public class WhereEnumerableIterator`1 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void Clone(){} // RVA: 0x87C0A0
@@ -230,41 +352,65 @@ public class WhereEnumerableIterator`1 : Iterator`1
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575F560
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
+    public void .ctor(){} // RVA: 0x575E780
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EB70
     public void Clone(){} // RVA: 0x575EC50
     public void Dispose(){} // RVA: 0x57614D0
     public void MoveNext(){} // RVA: 0x5761580
     public void Select(){} // RVA: 0x87C540
     public void Where(){} // RVA: 0x5760E90
-    public void .ctor(){} // RVA: 0x575EB70
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EB70
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
     public void Clone(){} // RVA: 0x575F070
@@ -276,6 +422,10 @@ public class WhereEnumerableIterator`1 : Iterator`1
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EB70
     public void Clone(){} // RVA: 0x575EC50
@@ -287,6 +437,10 @@ public class WhereEnumerableIterator`1 : Iterator`1
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
     public void Clone(){} // RVA: 0x575F070
@@ -298,76 +452,100 @@ public class WhereEnumerableIterator`1 : Iterator`1
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereEnumerableIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575E780
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x575E780
-    public void Clone(){} // RVA: 0x575E860
-    public void Dispose(){} // RVA: 0x57602D0
-    public void MoveNext(){} // RVA: 0x5760380
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x5760570
+    public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereEnumerableIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void Dispose(){} // RVA: 0x5766360
+    public void MoveNext(){} // RVA: 0x5766410
+    public void Select(){} // RVA: 0x2D2CA40
+    public void Where(){} // RVA: 0x57665C0
+}
+
+public class WhereEnumerableIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
     public void Clone(){} // RVA: 0x575F070
     public void Dispose(){} // RVA: 0x5766360
     public void MoveNext(){} // RVA: 0x5766410
     public void Select(){} // RVA: 0x87C540
     public void Where(){} // RVA: 0x57665C0
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereEnumerableIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereEnumerableIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EB70
-}
-
-public class WhereEnumerableIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575E780
-}
-
-public class WhereEnumerableIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereListIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void Clone(){} // RVA: 0x87C0A0
@@ -378,52 +556,30 @@ public class WhereListIterator`1 : Iterator`1
 
 public class WhereListIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575F560
 }
 
 public class WhereListIterator`1 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
+    public object source;
+    public object predicate;
+    public object enumerator;
 
-public class WhereListIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-    public void Clone(){} // RVA: 0x575F070
-    public void MoveNext(){} // RVA: 0x576A260
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x576A420
-}
-
-public class WhereListIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereListIterator`1 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EB70
 }
 
 public class WhereListIterator`1 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
+    public object source;
+    public object predicate;
+    public object enumerator;
 
-public class WhereListIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-}
-
-public class WhereListIterator`1 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
     public void Clone(){} // RVA: 0x575F070
@@ -434,74 +590,164 @@ public class WhereListIterator`1 : Iterator`1
 
 public class WhereListIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void MoveNext(){} // RVA: 0x576A260
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x576A420
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575EF90
 }
 
 public class WhereListIterator`1 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EB70
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+    public void Clone(){} // RVA: 0x575F070
+    public void MoveNext(){} // RVA: 0x576A260
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x576A420
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x575EF90
+}
+
+public class WhereListIterator`1 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x575E780
 }
 
-public class WhereListIterator`1 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x575EF90
-    public void Clone(){} // RVA: 0x575F070
-    public void MoveNext(){} // RVA: 0x576A260
-    public void Select(){} // RVA: 0x2D2CA40
-    public void Where(){} // RVA: 0x576A420
-}
-
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B820
-    public void Clone(){} // RVA: 0x576B950
-    public void MoveNext(){} // RVA: 0x579B2F0
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x576BAB0
-}
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
 
-public class WhereSelectArrayIterator`2 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B400
-}
-
-public class WhereSelectArrayIterator`2 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B820
-}
-
-public class WhereSelectArrayIterator`2 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B0D0
 }
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B400
 }
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x576B820
+}
+
+public class WhereSelectArrayIterator`2 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B0D0
 }
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
     public void Clone(){} // RVA: 0x576B950
@@ -512,12 +758,33 @@ public class WhereSelectArrayIterator`2 : Iterator`1
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectArrayIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x576B820
+}
+
+public class WhereSelectArrayIterator`2 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object selector;
+    public object index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
     public void Clone(){} // RVA: 0x576B950
@@ -528,35 +795,22 @@ public class WhereSelectArrayIterator`2 : Iterator`1
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B820
-}
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
 
-public class WhereSelectEnumerableIterator`2 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B400
-}
-
-public class WhereSelectEnumerableIterator`2 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B820
-    public void Clone(){} // RVA: 0x576B950
-    public void Dispose(){} // RVA: 0x5806C40
-    public void MoveNext(){} // RVA: 0x5806CF0
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x57A0960
-}
-
-public class WhereSelectEnumerableIterator`2 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B0D0
     public void Clone(){} // RVA: 0x576B200
@@ -568,12 +822,38 @@ public class WhereSelectEnumerableIterator`2 : Iterator`1
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B400
 }
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x576B820
+    public void Clone(){} // RVA: 0x576B950
+    public void Dispose(){} // RVA: 0x5806C40
+    public void MoveNext(){} // RVA: 0x5806CF0
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x57A0960
+}
+
+public class WhereSelectEnumerableIterator`2 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B0D0
     public void Clone(){} // RVA: 0x576B200
@@ -585,24 +865,60 @@ public class WhereSelectEnumerableIterator`2 : Iterator`1
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x576B820
+    public void Clone(){} // RVA: 0x576B950
+    public void Dispose(){} // RVA: 0x5806C40
+    public void MoveNext(){} // RVA: 0x5806CF0
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x57A0960
+}
+
+public class WhereSelectEnumerableIterator`2 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
     public void Clone(){} // RVA: 0x576B950
@@ -613,12 +929,22 @@ public class WhereSelectListIterator`2 : Iterator`1
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B820
+    public void .ctor(){} // RVA: 0x576B0D0
 }
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B400
     public void Clone(){} // RVA: 0x576B530
@@ -629,40 +955,55 @@ public class WhereSelectListIterator`2 : Iterator`1
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B0D0
 }
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B400
-    public void Clone(){} // RVA: 0x576B530
-    public void MoveNext(){} // RVA: 0x585B070
-    public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x581AD00
-}
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
 
-public class WhereSelectListIterator`2 : Iterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x576B0D0
-}
-
-public class WhereSelectListIterator`2 : Iterator`1
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x576B820
+}
+
+public class WhereSelectListIterator`2 : Iterator`1
+{
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
     public void Clone(){} // RVA: 0x576B950
@@ -673,6 +1014,11 @@ public class WhereSelectListIterator`2 : Iterator`1
 
 public class WhereSelectListIterator`2 : Iterator`1
 {
+    public object source;
+    public object predicate;
+    public object selector;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x576B820
 }
@@ -748,6 +1094,13 @@ public class WillRenderCanvases : MulticastDelegate
     public void Invoke(){} // RVA: 0xBA10B0
 }
 
+public class WindowFunction : MulticastDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xC3B2D0
+    public void Invoke(){} // RVA: 0xB9E010
+}
+
 public class WindowsCancelHandler : MulticastDelegate
 {
     // ── Methods ──
@@ -757,6 +1110,9 @@ public class WindowsCancelHandler : MulticastDelegate
 
 public class WindowsConsole : Object
 {
+    public object ctrlHandlerAdded;
+    public object cancelHandler;
+
     // ── Methods ──
     public void GetConsoleCP(){} // RVA: 0x6978E40
     public void GetConsoleOutputCP(){} // RVA: 0x6978EB0
@@ -790,6 +1146,10 @@ public class WordSpacingProperty : ResolvedFloatProperty
 
 public class WorkRequest : ValueType
 {
+    public object m_DelagateCallback;
+    public object m_DelagateState;
+    public object m_WaitHandle;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x79C50
     public void Invoke(){} // RVA: 0x966390
@@ -817,6 +1177,12 @@ public class WorkRequest[] : Array
 
 public class WorkStealingQueue : Object
 {
+    public object m_array;
+    public object m_mask;
+    public object m_headIndex;
+    public object m_tailIndex;
+    public object m_foreignLock;
+
     // ── Methods ──
     public void LocalPush(){} // RVA: 0x69AFD70
     public void LocalFindAndPop(){} // RVA: 0x69B0450

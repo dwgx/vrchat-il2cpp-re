@@ -7,14 +7,19 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class UserFeedback : Object
     {
+        public object _eventId;
+        public object _name;
+        public object _email;
+        public object _comments;
+
         // ── Methods ──
-        public void get_EventId(){} // RVA: 0x7A97277F0
-        public void get_Name(){} // RVA: 0x7A81052C0
-        public void get_Email(){} // RVA: 0x7A8105330
-        public void get_Comments(){} // RVA: 0x7A83F69F0
-        public void .ctor(){} // RVA: 0x7AE1B90F0
-        public void WriteTo(){} // RVA: 0x7AE1B9200
-        public void FromJson(){} // RVA: 0x7AE1B93D0
+        public void get_EventId(){} // RVA: 0x22343B0
+        public void get_Name(){} // RVA: 0xB700F0
+        public void get_Email(){} // RVA: 0xB70160
+        public void get_Comments(){} // RVA: 0xD33E60
+        public void .ctor(){} // RVA: 0x6E3AB60
+        public void WriteTo(){} // RVA: 0x6E3AC70
+        public void FromJson(){} // RVA: 0x6E3AF40
     }
 
 }

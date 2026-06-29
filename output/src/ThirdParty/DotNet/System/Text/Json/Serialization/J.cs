@@ -14,70 +14,6 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
     public class JsonCollectionConverter`2 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x409AC90
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void Add(){} // RVA: 0x8943B0
-        public void CreateCollection(){} // RVA: 0x8954D0
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void GetElementConverter(){} // RVA: 0x409AD70
-        public void OnTryRead(){} // RVA: 0x409D1E0
-        public void OnTryWrite(){} // RVA: 0x409DB80
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
-        public void .ctor(){} // RVA: 0x409DEC0
-    }
-
-    public class JsonCollectionConverter`2 : JsonResumableConverter`1
-    {
-        // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x409AC90
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void Add(){} // RVA: 0x8943B0
-        public void CreateCollection(){} // RVA: 0x8954D0
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void GetElementConverter(){} // RVA: 0x409AD70
-        public void OnTryRead(){} // RVA: 0x409D1E0
-        public void OnTryWrite(){} // RVA: 0x409DB80
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
-        public void .ctor(){} // RVA: 0x409DEC0
-    }
-
-    public class JsonCollectionConverter`2 : JsonResumableConverter`1
-    {
-        // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x409AC90
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void Add(){} // RVA: 0x8943B0
-        public void CreateCollection(){} // RVA: 0x8954D0
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void GetElementConverter(){} // RVA: 0x409AD70
-        public void OnTryRead(){} // RVA: 0x409D1E0
-        public void OnTryWrite(){} // RVA: 0x409DB80
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
-        public void .ctor(){} // RVA: 0x409DEC0
-    }
-
-    public class JsonCollectionConverter`2 : JsonResumableConverter`1
-    {
-        // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x409AC90
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void Add(){} // RVA: 0x8943B0
-        public void CreateCollection(){} // RVA: 0x8954D0
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void GetElementConverter(){} // RVA: 0x409AD70
-        public void OnTryRead(){} // RVA: 0x409D1E0
-        public void OnTryWrite(){} // RVA: 0x409DB80
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
-        public void .ctor(){} // RVA: 0x409DEC0
-    }
-
-    public class JsonCollectionConverter`2 : JsonResumableConverter`1
-    {
-        // ── Methods ──
         public void get_ConverterStrategy(){} // RVA: 0x87D280
         public void get_ElementType(){} // RVA: 0x87C0A0
         public void Add(){} // RVA: 0x8943B0
@@ -187,8 +123,81 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public void .ctor(){} // RVA: 0x409DEC0
     }
 
+    public class JsonCollectionConverter`2 : JsonResumableConverter`1
+    {
+        // ── Methods ──
+        public void get_ConverterStrategy(){} // RVA: 0x409AC90
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void GetElementConverter(){} // RVA: 0x409AD70
+        public void OnTryRead(){} // RVA: 0x409D1E0
+        public void OnTryWrite(){} // RVA: 0x409DB80
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
+        public void .ctor(){} // RVA: 0x409DEC0
+    }
+
+    public class JsonCollectionConverter`2 : JsonResumableConverter`1
+    {
+        // ── Methods ──
+        public void get_ConverterStrategy(){} // RVA: 0x409AC90
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void GetElementConverter(){} // RVA: 0x409AD70
+        public void OnTryRead(){} // RVA: 0x409D1E0
+        public void OnTryWrite(){} // RVA: 0x409DB80
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
+        public void .ctor(){} // RVA: 0x409DEC0
+    }
+
+    public class JsonCollectionConverter`2 : JsonResumableConverter`1
+    {
+        // ── Methods ──
+        public void get_ConverterStrategy(){} // RVA: 0x409AC90
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void GetElementConverter(){} // RVA: 0x409AD70
+        public void OnTryRead(){} // RVA: 0x409D1E0
+        public void OnTryWrite(){} // RVA: 0x409DB80
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
+        public void .ctor(){} // RVA: 0x409DEC0
+    }
+
+    public class JsonCollectionConverter`2 : JsonResumableConverter`1
+    {
+        // ── Methods ──
+        public void get_ConverterStrategy(){} // RVA: 0x409AC90
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void GetElementConverter(){} // RVA: 0x409AD70
+        public void OnTryRead(){} // RVA: 0x409D1E0
+        public void OnTryWrite(){} // RVA: 0x409DB80
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x409B7C0
+        public void .ctor(){} // RVA: 0x409DEC0
+    }
+
     public class JsonConverter : Object
     {
+        public object _canUseDirectReadOrWrite;
+        public object _canBePolymorphic;
+        public object _isValueType;
+        public object _isInternalConverter;
+        public object IsInternalConverterForNumberType;
+        public object _constructorIsParameterized;
+        public object _constructorInfo;
+        public object _requiresDynamicMemberAccessors;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void CanConvert(){} // RVA: 0x87D350
@@ -227,6 +236,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverterAttribute : JsonAttribute
     {
+        public object _converterType;
+
         // ── Methods ──
         public void get_ConverterType(){} // RVA: 0xB5DBF0
         public void CreateConverter(){} // RVA: 0xDAC980
@@ -252,246 +263,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
 
-    public class JsonConverter`1 : JsonConverter
-    {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
-
-    public class JsonConverter`1 : JsonConverter
-    {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
-
-    public class JsonConverter`1 : JsonConverter
-    {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
-
-    public class JsonConverter`1 : JsonConverter
-    {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
-
-    public class JsonConverter`1 : JsonConverter
-    {
-        // ── Methods ──
-        public void WriteCoreAsObject(){} // RVA: 0x4114E90
-        public void WriteCore(){} // RVA: 0x4115140
-        public void .ctor(){} // RVA: 0x4115250
-        public void CanConvert(){} // RVA: 0x40A0020
-        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
-        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
-        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
-        public void get_KeyType(){} // RVA: 0xDAC980
-        public void get_ElementType(){} // RVA: 0xDAC980
-        public void get_HandleNull(){} // RVA: 0x41155F0
-        public void get_HandleNullOnRead(){} // RVA: 0xF73960
-        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
-        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
-        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
-        public void get_CanBeNull(){} // RVA: 0x28E58A0
-        public void TryWriteAsObject(){} // RVA: 0x4115660
-        public void OnTryWrite(){} // RVA: 0x4115840
-        public void OnTryRead(){} // RVA: 0x4115930
-        public void Read(){} // RVA: 0xA94080
-        public void TryRead(){} // RVA: 0x4115A40
-        public void TryReadAsObject(){} // RVA: 0x4116340
-        public void IsNull(){} // RVA: 0x41164C0
-        public void TryWrite(){} // RVA: 0x41165D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
-        public void get_TypeToConvert(){} // RVA: 0x40A1380
-        public void VerifyRead(){} // RVA: 0x4117190
-        public void VerifyWrite(){} // RVA: 0x40A1460
-        public void Write(){} // RVA: 0xA94080
-        public void ReadAsPropertyName(){} // RVA: 0xAD0950
-        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
-        public void WriteAsPropertyName(){} // RVA: 0x41175B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
-    }
-
-    public class JsonConverter`1 : JsonConverter
-    {
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x87D760
         public void WriteCore(){} // RVA: 0x87D760
@@ -532,6 +307,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40D6410
         public void WriteCore(){} // RVA: 0x40D6590
@@ -572,6 +351,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40A3F20
         public void WriteCore(){} // RVA: 0x40A4100
@@ -612,6 +395,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -652,6 +439,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x410FC90
         public void WriteCore(){} // RVA: 0x410FE10
@@ -692,6 +483,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40A5760
         public void WriteCore(){} // RVA: 0x40A5940
@@ -732,6 +527,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -772,6 +571,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -812,6 +615,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -852,6 +659,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -892,6 +703,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -932,6 +747,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -972,6 +791,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1012,6 +835,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1052,6 +879,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1092,6 +923,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1132,6 +967,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1172,6 +1011,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1212,6 +1055,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1252,6 +1099,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1292,6 +1143,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1332,6 +1187,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1372,6 +1231,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1412,6 +1275,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x4114E90
         public void WriteCore(){} // RVA: 0x4115140
@@ -1452,6 +1319,10 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
         public void WriteCoreAsObject(){} // RVA: 0x40DCF60
         public void WriteCore(){} // RVA: 0x40DD0F0
@@ -1490,20 +1361,268 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
-    public class JsonDictionaryConverter`1 : JsonResumableConverter`1
+    public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x411CB90
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void .ctor(){} // RVA: 0x3896ED0
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
-    public class JsonDictionaryConverter`1 : JsonResumableConverter`1
+    public class JsonConverter`1 : JsonConverter
     {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
         // ── Methods ──
-        public void get_ConverterStrategy(){} // RVA: 0x411CB90
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void .ctor(){} // RVA: 0x3896ED0
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
+    }
+
+    public class JsonConverter`1 : JsonConverter
+    {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
+        // ── Methods ──
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
+    }
+
+    public class JsonConverter`1 : JsonConverter
+    {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
+        // ── Methods ──
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
+    }
+
+    public class JsonConverter`1 : JsonConverter
+    {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
+        // ── Methods ──
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
+    }
+
+    public class JsonConverter`1 : JsonConverter
+    {
+        public object _handleNullOnRead;
+        public object _handleNullOnWrite;
+        public object _canBeNull;
+
+        // ── Methods ──
+        public void WriteCoreAsObject(){} // RVA: 0x4114E90
+        public void WriteCore(){} // RVA: 0x4115140
+        public void .ctor(){} // RVA: 0x4115250
+        public void CanConvert(){} // RVA: 0x40A0020
+        public void get_ConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonPropertyInfo(){} // RVA: 0x3CE77F0
+        public void CreateJsonParameterInfo(){} // RVA: 0x4115590
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x41155F0
+        public void get_HandleNullOnRead(){} // RVA: 0xF73960
+        public void set_HandleNullOnRead(){} // RVA: 0xF73A60
+        public void get_HandleNullOnWrite(){} // RVA: 0x14F7430
+        public void set_HandleNullOnWrite(){} // RVA: 0x21CBB70
+        public void get_CanBeNull(){} // RVA: 0x28E58A0
+        public void TryWriteAsObject(){} // RVA: 0x4115660
+        public void OnTryWrite(){} // RVA: 0x4115840
+        public void OnTryRead(){} // RVA: 0x4115930
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4115A40
+        public void TryReadAsObject(){} // RVA: 0x4116340
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x41165D0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4116E40
+        public void get_TypeToConvert(){} // RVA: 0x40A1380
+        public void VerifyRead(){} // RVA: 0x4117190
+        public void VerifyWrite(){} // RVA: 0x40A1460
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x41175B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x41177F0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4117A60
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
@@ -1576,40 +1695,27 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public void .ctor(){} // RVA: 0x3896ED0
     }
 
-    public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
+    public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x899870
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void CreateCollection(){} // RVA: 0xB43310
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void get_KeyType(){} // RVA: 0x3DCE5B0
-        public void GetConverter(){} // RVA: 0x87C5C0
-        public void OnTryRead(){} // RVA: 0x41200E0
-        public void OnTryWrite(){} // RVA: 0x4121060
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x411DC70
-        public void .ctor(){} // RVA: 0x4121390
-        public void <OnTryRead>g__ReadDictionaryKey|10_0(){} // RVA: 0x882090
+        public void get_ConverterStrategy(){} // RVA: 0x411CB90
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x3896ED0
+    }
+
+    public class JsonDictionaryConverter`1 : JsonResumableConverter`1
+    {
+        // ── Methods ──
+        public void get_ConverterStrategy(){} // RVA: 0x411CB90
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x3896ED0
     }
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
-        // ── Methods ──
-        public void Add(){} // RVA: 0xA94080
-        public void ConvertCollection(){} // RVA: 0xB43310
-        public void CreateCollection(){} // RVA: 0xB43310
-        public void get_ElementType(){} // RVA: 0x3DCE540
-        public void get_KeyType(){} // RVA: 0x3DCE5B0
-        public void GetConverter(){} // RVA: 0x87C5C0
-        public void OnTryRead(){} // RVA: 0x41200E0
-        public void OnTryWrite(){} // RVA: 0x4121060
-        public void CreateInstanceForReferenceResolver(){} // RVA: 0x411DC70
-        public void .ctor(){} // RVA: 0x4121390
-        public void <OnTryRead>g__ReadDictionaryKey|10_0(){} // RVA: 0xAD0950
-    }
+        public object _keyConverter;
+        public object _valueConverter;
 
-    public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
-    {
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0x8943B0
@@ -1626,6 +1732,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1642,6 +1751,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1658,6 +1770,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
     {
+        public object _keyConverter;
+        public object _valueConverter;
+
         // ── Methods ──
         public void Add(){} // RVA: 0xA94080
         public void ConvertCollection(){} // RVA: 0xB43310
@@ -1670,16 +1785,58 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public void CreateInstanceForReferenceResolver(){} // RVA: 0x411DC70
         public void .ctor(){} // RVA: 0x4121390
         public void <OnTryRead>g__ReadDictionaryKey|10_0(){} // RVA: 0xAD0950
+    }
+
+    public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
+    {
+        public object _keyConverter;
+        public object _valueConverter;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0xA94080
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void CreateCollection(){} // RVA: 0xB43310
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void get_KeyType(){} // RVA: 0x3DCE5B0
+        public void GetConverter(){} // RVA: 0x87C5C0
+        public void OnTryRead(){} // RVA: 0x41200E0
+        public void OnTryWrite(){} // RVA: 0x4121060
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x411DC70
+        public void .ctor(){} // RVA: 0x4121390
+        public void <OnTryRead>g__ReadDictionaryKey|10_0(){} // RVA: 0xAD0950
+    }
+
+    public class JsonDictionaryConverter`3 : JsonDictionaryConverter`1
+    {
+        public object _keyConverter;
+        public object _valueConverter;
+
+        // ── Methods ──
+        public void Add(){} // RVA: 0x899870
+        public void ConvertCollection(){} // RVA: 0xB43310
+        public void CreateCollection(){} // RVA: 0xB43310
+        public void get_ElementType(){} // RVA: 0x3DCE540
+        public void get_KeyType(){} // RVA: 0x3DCE5B0
+        public void GetConverter(){} // RVA: 0x87C5C0
+        public void OnTryRead(){} // RVA: 0x41200E0
+        public void OnTryWrite(){} // RVA: 0x4121060
+        public void CreateInstanceForReferenceResolver(){} // RVA: 0x411DC70
+        public void .ctor(){} // RVA: 0x4121390
+        public void <OnTryRead>g__ReadDictionaryKey|10_0(){} // RVA: 0x882090
     }
 
     public class JsonIgnoreAttribute : JsonAttribute
     {
+        public object _condition;
+
         // ── Methods ──
         public void get_Condition(){} // RVA: 0xB8F8F0
     }
 
     public class JsonNumberHandlingAttribute : JsonAttribute
     {
+        public object _handling;
+
         // ── Methods ──
         public void get_Handling(){} // RVA: 0xB8F8F0
     }
@@ -1726,68 +1883,18 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonPropertyNameAttribute : JsonAttribute
     {
+        public object _name;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0xB5DBF0
     }
 
     public class JsonPropertyOrderAttribute : JsonAttribute
     {
+        public object _order;
+
         // ── Methods ──
         public void get_Order(){} // RVA: 0xB8F8F0
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
-    }
-
-    public class JsonResumableConverter`1 : JsonConverter`1
-    {
-        // ── Methods ──
-        public void Read(){} // RVA: 0xAD0950
-        public void Write(){} // RVA: 0x419A280
-        public void get_HandleNull(){} // RVA: 0xB43320
-        public void .ctor(){} // RVA: 0x3494230
     }
 
     public class JsonResumableConverter`1 : JsonConverter`1
@@ -1961,6 +2068,60 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
         public void .ctor(){} // RVA: 0x4196DE0
     }
 
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
+    public class JsonResumableConverter`1 : JsonConverter`1
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0xAD0950
+        public void Write(){} // RVA: 0x419A280
+        public void get_HandleNull(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x3494230
+    }
+
     public class JsonSerializableAttribute : JsonAttribute
     {
         // ── Methods ──
@@ -1969,6 +2130,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
 
     public class JsonSerializerContext : Object
     {
+        public object _canUseSerializationLogic;
+        public object _options;
+
         // ── Methods ──
         public void get_Options(){} // RVA: 0x6DC0AA0
         public void get_CanUseSerializationLogic(){} // RVA: 0x6DC0BC0

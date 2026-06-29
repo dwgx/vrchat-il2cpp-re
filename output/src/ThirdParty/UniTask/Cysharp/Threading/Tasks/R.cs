@@ -7,6 +7,11 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class ReadOnlyAsyncReactiveProperty`1 : Object
     {
+        public object triggerEvent;
+        public object latestValue;
+        public object enumerator;
+        public object isValueType;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x899C90
@@ -22,6 +27,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class RealtimePlayerLoopTimer : PlayerLoopTimer
     {
+        public object stopwatch;
+        public object intervalTicks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x774AFC0
         public void MoveNextCore(){} // RVA: 0x774B090
@@ -30,6 +38,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ReturnToMainThread : ValueType
     {
+        public object playerLoopTiming;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void DisposeAsync(){} // RVA: 0x920590
@@ -37,6 +48,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 
     public class ReturnToSynchronizationContext : ValueType
     {
+        public object syncContext;
+        public object dontPostWhenSameContext;
+        public object cancellationToken;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x921200
         public void DisposeAsync(){} // RVA: 0x921210

@@ -1,12 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 77
-// Methods: 598
+// Classes: 75
+// Methods: 590
 
 namespace ThirdParty.DotNet.System
 {
     public class Random : Object
     {
+        public object _inext;
+        public object _inextp;
+        public object _seedArray;
+        public object t_threadRandom;
+        public object s_globalRandom;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6929310
         public void Sample(){} // RVA: 0x6929590
@@ -22,6 +28,9 @@ namespace ThirdParty.DotNet.System
 
     public class Range : Object
     {
+        public object _start;
+        public object _end;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6EBD350
         public void get_EqualityContract(){} // RVA: 0x6EBCC40
@@ -45,6 +54,9 @@ namespace ThirdParty.DotNet.System
 
     public class Range : ValueType
     {
+        public object _start;
+        public object _end;
+
         // ── Methods ──
         public void get_Start(){} // RVA: 0x77E60
         public void get_End(){} // RVA: 0x77E50
@@ -61,6 +73,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89B9B0
         public void op_Implicit(){} // RVA: 0xA94080
@@ -80,6 +96,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void op_Implicit(){} // RVA: 0x49B6DF0
@@ -99,6 +119,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void op_Implicit(){} // RVA: 0x49B6DF0
@@ -118,6 +142,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89B9B0
         public void op_Implicit(){} // RVA: 0xA94080
@@ -136,6 +164,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlyMemory`1 : ValueType
     {
+        public object _object;
+        public object _index;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x426050
         public void op_Implicit(){} // RVA: 0x469CFC0
@@ -154,6 +186,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void get_Item(){} // RVA: 0x87C160
@@ -174,6 +209,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x49D37F0
         public void .ctor(){} // RVA: 0x25742E0
@@ -194,6 +232,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x272B890
         public void .ctor(){} // RVA: 0x49D38B0
@@ -214,6 +255,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x272B890
         public void op_Implicit(){} // RVA: 0x49D37F0
@@ -234,6 +278,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x272B890
         public void get_Item(){} // RVA: 0x49D38D0
@@ -241,6 +288,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x49D37F0
         public void CopyTo(){} // RVA: 0x49D3220
@@ -261,36 +311,80 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void get_Length(){} // RVA: 0x272B890
+        public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
+        public void CopyTo(){} // RVA: 0x49D3220
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void get_Length(){} // RVA: 0x272B890
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void CopyTo(){} // RVA: 0x49D3220
+        public void .ctor(){} // RVA: 0x25742E0
+        public void get_Length(){} // RVA: 0x272B890
+        public void Slice(){} // RVA: 0x49D3CD0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x49D38B0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -298,6 +392,18 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
@@ -310,6 +416,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
         public void get_Length(){} // RVA: 0x272B890
@@ -317,26 +426,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x49D37F0
-        public void CopyTo(){} // RVA: 0x49D3220
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-        public void .ctor(){} // RVA: 0x49D31A0
-        public void GetPinnableReference(){} // RVA: 0x49D3210
-        public void TryCopyTo(){} // RVA: 0x49D32B0
-        public void op_Equality(){} // RVA: 0x49D3340
-        public void ToString(){} // RVA: 0x49EB8B0
-        public void Slice(){} // RVA: 0x49D3CD0
-        public void ToArray(){} // RVA: 0x49DA210
-        public void get_IsEmpty(){} // RVA: 0x3F2EED0
-        public void Equals(){} // RVA: 0x49D3750
-        public void GetHashCode(){} // RVA: 0x49D37A0
-        public void get_Empty(){} // RVA: 0x1DF4930
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -344,6 +436,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void get_Item(){} // RVA: 0x49D38D0
@@ -353,12 +448,18 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -366,6 +467,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x49D37F0
         public void CopyTo(){} // RVA: 0x49D3220
@@ -386,12 +490,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void CopyTo(){} // RVA: 0x49D3220
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x25742E0
@@ -401,27 +502,49 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
+        public void .ctor(){} // RVA: 0x25742E0
+        public void get_Length(){} // RVA: 0x272B890
+        public void Slice(){} // RVA: 0x49D3CD0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
-        public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -442,6 +565,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x25742E0
@@ -451,34 +577,112 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void get_Length(){} // RVA: 0x272B890
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25742E0
+        public void get_Length(){} // RVA: 0x272B890
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void CopyTo(){} // RVA: 0x49D3220
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void get_Length(){} // RVA: 0x272B890
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void get_Item(){} // RVA: 0x49D31F0
+        public void get_Length(){} // RVA: 0x272B890
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x49D37F0
+        public void CopyTo(){} // RVA: 0x49D3220
+        public void get_Item(){} // RVA: 0x49D38D0
+        public void get_Length(){} // RVA: 0x272B890
+        public void .ctor(){} // RVA: 0x49D31A0
+        public void GetPinnableReference(){} // RVA: 0x49D3210
+        public void TryCopyTo(){} // RVA: 0x49D32B0
+        public void op_Equality(){} // RVA: 0x49D3340
+        public void ToString(){} // RVA: 0x49EB8B0
         public void Slice(){} // RVA: 0x49D3CD0
+        public void ToArray(){} // RVA: 0x49DA210
+        public void get_IsEmpty(){} // RVA: 0x3F2EED0
+        public void Equals(){} // RVA: 0x49D3750
+        public void GetHashCode(){} // RVA: 0x49D37A0
+        public void get_Empty(){} // RVA: 0x1DF4930
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25742E0
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void CopyTo(){} // RVA: 0x49D3220
-        public void .ctor(){} // RVA: 0x25742E0
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25742E0
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -486,36 +690,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25742E0
-        public void get_Length(){} // RVA: 0x272B890
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void CopyTo(){} // RVA: 0x49D3220
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Length(){} // RVA: 0x272B890
         public void get_Item(){} // RVA: 0x49D38D0
@@ -523,6 +700,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x49D31A0
@@ -543,6 +723,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -550,6 +733,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x25742E0
@@ -557,6 +743,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -564,6 +753,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x49D37F0
         public void get_Item(){} // RVA: 0x49D38D0
@@ -584,18 +776,27 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -603,24 +804,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void CopyTo(){} // RVA: 0x49D3220
-        public void .ctor(){} // RVA: 0x25742E0
-        public void get_Length(){} // RVA: 0x272B890
-        public void Slice(){} // RVA: 0x49D3CD0
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void CopyTo(){} // RVA: 0x49D3220
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-        public void .ctor(){} // RVA: 0x25742E0
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D31F0
         public void get_Length(){} // RVA: 0x272B890
@@ -628,21 +814,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D31F0
-        public void get_Length(){} // RVA: 0x272B890
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-        public void .ctor(){} // RVA: 0x25742E0
-    }
-
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D38D0
         public void get_Length(){} // RVA: 0x272B890
@@ -650,6 +824,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pinnable;
+        public object _byteOffset;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x87C130
         public void get_IsEmpty(){} // RVA: 0x87D280
@@ -672,6 +850,10 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pinnable;
+        public object _byteOffset;
+        public object _length;
+
         // ── Methods ──
         public void get_Length(){} // RVA: 0x8C7E0
         public void get_IsEmpty(){} // RVA: 0x491D80
@@ -694,27 +876,37 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pinnable;
+        public object _byteOffset;
+        public object _length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x491DB0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
+        public object _pointer;
+        public object _length;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25742E0
+    }
+
+    public class ReadOnlySpan`1 : ValueType
+    {
+        public object _pointer;
+        public object _length;
+
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-        public void .ctor(){} // RVA: 0x25742E0
     }
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25742E0
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void CopyTo(){} // RVA: 0x49D3220
         public void .ctor(){} // RVA: 0x25742E0
@@ -724,13 +916,9 @@ namespace ThirdParty.DotNet.System
 
     public class ReadOnlySpan`1 : ValueType
     {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x49D38D0
-        public void get_Length(){} // RVA: 0x272B890
-    }
+        public object _pointer;
+        public object _length;
 
-    public class ReadOnlySpan`1 : ValueType
-    {
         // ── Methods ──
         public void get_Item(){} // RVA: 0x49D31F0
         public void get_Length(){} // RVA: 0x272B890
@@ -745,6 +933,9 @@ namespace ThirdParty.DotNet.System
 
     public class ResolveEventArgs : EventArgs
     {
+        public object _name;
+        public object _requestingAssembly;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x692A230
     }
@@ -758,6 +949,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeFieldHandle : ValueType
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BFB00
         public void get_Value(){} // RVA: 0x77900
@@ -771,6 +964,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeMethodHandle : ValueType
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BFC20
         public void get_Value(){} // RVA: 0x77900
@@ -783,6 +978,28 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeType : TypeInfo
     {
+        public object ValueType;
+        public object EnumType;
+        public object ObjectType;
+        public object StringType;
+        public object DelegateType;
+        public object s_SICtorParamTypes;
+        public object MakeTypeBuilderInstantiation;
+        public object MemberBindingMask;
+        public object InvocationMask;
+        public object BinderNonCreateInstance;
+        public object BinderGetSetProperty;
+        public object BinderSetInvokeProperty;
+        public object BinderGetSetField;
+        public object BinderSetInvokeField;
+        public object BinderNonFieldGetSet;
+        public object ClassicBindingMask;
+        public object s_typedRef;
+        public object type_info;
+        public object GenericCache;
+        public object m_serializationCtor;
+        public object GenericParameterCountAny;
+
         // ── Methods ──
         public void GetType(){} // RVA: 0x6960770
         public void ThrowIfTypeNeverValidGenericArgument(){} // RVA: 0x69607F0
@@ -927,6 +1144,8 @@ namespace ThirdParty.DotNet.System
 
     public class RuntimeTypeHandle : ValueType
     {
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8BFD60
         public void get_Value(){} // RVA: 0x77900

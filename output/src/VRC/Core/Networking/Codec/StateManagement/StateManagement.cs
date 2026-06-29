@@ -7,6 +7,17 @@ namespace VRC.Core.Networking.Codec.StateManagement
 {
     public class AbstractObjectStateManager : Object
     {
+        public object _maximumViewID;
+        public object _minimumViewID;
+        public object _sendEventToAllPlayers;
+        public object _sendEventToPlayer;
+        public object _setOwner;
+        public object _listPlayers;
+        public object _log;
+        public object _warn;
+        public object _error;
+        public object _managedPlayerViews;
+
         // ── Methods ──
         public void SerializationHeaderLength(){} // RVA: 0x8284110
         public void get_SerializationHeaderLengthSingleBunch(){} // RVA: 0x7F7BDC0
@@ -39,6 +50,45 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class PersistenceObjectStateManager : AbstractObjectStateManager
     {
+        public object _onDecodeError;
+        public object _getBucketLimits;
+        public object _instanceStorageId;
+        public object _playerStorageId;
+        public object _enablePlayerPersistence;
+        public object _enableInstancePersistence;
+        public object _didSendPersistenceRecoveredMessage;
+        public object _serializationRecoveryID;
+        public object _instancePersistenceRecoveredID;
+        public object _playerPersistenceRecoveredID;
+        public object _didSendPlayerPersistenceRecoveredMessage;
+        public object _maximumBunchSize;
+        public object _playerPersistenceMinID;
+        public object _playerPersistenceMaxID;
+        public object _writeInstance;
+        public object _readInstance;
+        public object _writePlayer;
+        public object _readPlayer;
+        public object _raiseDataUsage;
+        public object _metadataBuilder;
+        public object _activeMetadataSize;
+        public object ReceivedMetadata;
+        public object BaseWorldMetadata;
+        public object ActiveStateLookup;
+        public object IncompleteStateLookup;
+        public object RecoveredStateLookup;
+        public object PlayerPersistenceViewIDs;
+        public object _lastUsage;
+        public object raiseSizeRequestLock;
+        public object raiseSizeRequested;
+        public object PLAYER_STORAGE_BUCKET;
+        public object PLAYER_OBJECTS_BUCKET;
+        public object INSTANCE_OBJECTS_BUCKET;
+        public object AllBuckets;
+        public object HashBuckets;
+        public object DeHashBuckets;
+        public object PlayerBucketFilters;
+        public object InstanceBucketFilter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x82847A0
         public void InstanceStorageId(){} // RVA: 0x82851F0
@@ -92,6 +142,8 @@ namespace VRC.Core.Networking.Codec.StateManagement
 
     public class SimpleObjectStateManager : AbstractObjectStateManager
     {
+        public object latestBunches;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x828F750
         public void get_ObjectStateSizeBytes(){} // RVA: 0x828F860

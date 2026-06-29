@@ -7,6 +7,8 @@ namespace VRC.Core.Pool
 {
     public class StringBuilderPool : Object
     {
+        public object Pool;
+
         // ── Methods ──
         public void GetObjectPool(){} // RVA: 0xA5E4B60
         public void Get(){} // RVA: 0xA5E4C40

@@ -7,6 +7,39 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class Detection : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object LabelFieldNumber;
+        public object _repeated_label_codec;
+        public object label_;
+        public object LabelIdFieldNumber;
+        public object _repeated_labelId_codec;
+        public object labelId_;
+        public object ScoreFieldNumber;
+        public object _repeated_score_codec;
+        public object score_;
+        public object LocationDataFieldNumber;
+        public object locationData_;
+        public object FeatureTagFieldNumber;
+        public object FeatureTagDefaultValue;
+        public object featureTag_;
+        public object TrackIdFieldNumber;
+        public object TrackIdDefaultValue;
+        public object trackId_;
+        public object DetectionIdFieldNumber;
+        public object DetectionIdDefaultValue;
+        public object detectionId_;
+        public object AssociatedDetectionsFieldNumber;
+        public object _repeated_associatedDetections_codec;
+        public object associatedDetections_;
+        public object DisplayNameFieldNumber;
+        public object _repeated_displayName_codec;
+        public object displayName_;
+        public object TimestampUsecFieldNumber;
+        public object TimestampUsecDefaultValue;
+        public object timestampUsec_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6584720
         public void get_Descriptor(){} // RVA: 0x6584780
@@ -49,6 +82,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DetectionList : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _repeated_detection_codec;
+        public object detection_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6587B10
         public void get_Descriptor(){} // RVA: 0x6587B70
@@ -69,6 +107,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DetectionReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6583C10
         public void .cctor(){} // RVA: 0x6583C70
@@ -76,6 +116,11 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class DisposableObject : Object
     {
+        public object _disposeSignaled;
+        public object _isLocked;
+        public object _isDisposed;
+        public object _isOwner;
+
         // ── Methods ──
         public void get_isDisposed(){} // RVA: 0xE2F5E0
         public void set_isDisposed(){} // RVA: 0x2220220

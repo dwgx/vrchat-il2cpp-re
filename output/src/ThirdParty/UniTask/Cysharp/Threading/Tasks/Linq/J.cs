@@ -7,6 +7,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class JoinAwaitWithCancellation`4 : Object
     {
+        public object outer;
+        public object inner;
+        public object outerKeySelector;
+        public object innerKeySelector;
+        public object resultSelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899560
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +21,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class JoinAwait`4 : Object
     {
+        public object outer;
+        public object inner;
+        public object outerKeySelector;
+        public object innerKeySelector;
+        public object resultSelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899560
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +35,13 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Join`4 : Object
     {
+        public object outer;
+        public object inner;
+        public object outerKeySelector;
+        public object innerKeySelector;
+        public object resultSelector;
+        public object comparer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899560
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

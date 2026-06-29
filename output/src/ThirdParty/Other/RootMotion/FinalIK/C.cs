@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class CCDIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -18,6 +20,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraint : Object
     {
+        public object transform;
+        public object weight;
+
         // ── Methods ──
         public void get_isValid(){} // RVA: 0xBFB9C0
         public void UpdateConstraint(){} // RVA: 0x894290
@@ -26,6 +31,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPosition : Constraint
     {
+        public object position;
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0xBFBA90
         public void .ctor(){} // RVA: 0xB44D60
@@ -33,6 +40,11 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintPositionOffset : Constraint
     {
+        public object offset;
+        public object defaultLocalPosition;
+        public object lastLocalPosition;
+        public object initiated;
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0xBFBC80
         public void .ctor(){} // RVA: 0xB44D60
@@ -41,6 +53,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotation : Constraint
     {
+        public object rotation;
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0xBFC390
         public void .ctor(){} // RVA: 0xB44D60
@@ -48,6 +62,13 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ConstraintRotationOffset : Constraint
     {
+        public object offset;
+        public object defaultRotation;
+        public object defaultLocalRotation;
+        public object lastLocalRotation;
+        public object defaultTargetLocalRotation;
+        public object initiated;
+
         // ── Methods ──
         public void UpdateConstraint(){} // RVA: 0xBFC590
         public void .ctor(){} // RVA: 0xB44D60
@@ -56,6 +77,15 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Constraints : Object
     {
+        public object transform;
+        public object target;
+        public object positionOffset;
+        public object position;
+        public object positionWeight;
+        public object rotationOffset;
+        public object rotation;
+        public object rotationWeight;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0xBFCCC0
         public void Initiate(){} // RVA: 0xBFCD90

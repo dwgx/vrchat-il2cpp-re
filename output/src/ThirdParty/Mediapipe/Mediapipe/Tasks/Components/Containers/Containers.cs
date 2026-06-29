@@ -7,6 +7,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 {
     public class Category : ValueType
     {
+        public object index;
+        public object score;
+        public object categoryName;
+        public object displayName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7470
         public void ToString(){} // RVA: 0x8A75B0
@@ -14,6 +19,9 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class ClassificationResult : ValueType
     {
+        public object classifications;
+        public object timestampMs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x31FB70
         public void Copy(){} // RVA: 0x65FE970
@@ -22,6 +30,10 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Classifications : ValueType
     {
+        public object categories;
+        public object headIndex;
+        public object headName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7680
         public void Copy(){} // RVA: 0x65FE320
@@ -50,6 +62,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Detection : ValueType
     {
+        public object _DefaultCategoryIndex;
+        public object categories;
+        public object boundingBox;
+        public object keypoints;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7830
         public void Copy(){} // RVA: 0x65FF050
@@ -58,6 +75,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class DetectionResult : ValueType
     {
+        public object detections;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Alloc(){} // RVA: 0x65FF990
@@ -87,6 +106,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Landmark : ValueType
     {
+        public object _LandmarkTolerance;
+        public object x;
+        public object y;
+        public object z;
+        public object visibility;
+        public object presence;
+        public object name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7C60
         public void Equals(){} // RVA: 0x8A7CA0
@@ -97,6 +124,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Landmarks : ValueType
     {
+        public object landmarks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Copy(){} // RVA: 0x6600D40
@@ -131,6 +160,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class NormalizedKeypoint : ValueType
     {
+        public object x;
+        public object y;
+        public object label;
+        public object score;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7AE0
         public void ToString(){} // RVA: 0x8A7B10
@@ -138,6 +172,14 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class NormalizedLandmark : ValueType
     {
+        public object _LandmarkTolerance;
+        public object x;
+        public object y;
+        public object z;
+        public object visibility;
+        public object presence;
+        public object name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A7DF0
         public void Equals(){} // RVA: 0x8A7E30
@@ -148,6 +190,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class NormalizedLandmarks : ValueType
     {
+        public object landmarks;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Copy(){} // RVA: 0x6601120
@@ -182,6 +226,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class Rect : ValueType
     {
+        public object left;
+        public object top;
+        public object right;
+        public object bottom;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A8020
         public void ToString(){} // RVA: 0x8A8050
@@ -189,6 +238,11 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 
     public class RectF : ValueType
     {
+        public object left;
+        public object top;
+        public object right;
+        public object bottom;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x8A8060
         public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x8A8070

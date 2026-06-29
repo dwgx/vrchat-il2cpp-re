@@ -14,6 +14,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DD860
         public void .ctor(){} // RVA: 0x60DDB30
@@ -21,6 +23,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DDC60
         public void .ctor(){} // RVA: 0x60DDF30
@@ -28,6 +32,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DC7E0
         public void .ctor(){} // RVA: 0x60DCAC0
@@ -35,6 +41,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DD860
         public void .ctor(){} // RVA: 0x60DE6F0
@@ -42,6 +50,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
+        public object m_Value;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x60DDC60
         public void .ctor(){} // RVA: 0x60DE960
@@ -49,6 +59,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x60F7170
@@ -95,6 +139,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60F01B0
         public void add_viewDataRestored(){} // RVA: 0x61097D0
@@ -141,6 +219,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x610D2A0
@@ -187,6 +299,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseField`1 : BindableElement
     {
+        public object valueProperty;
+        public object labelProperty;
+        public object showMixedValueProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noLabelVariantUssClassName;
+        public object labelDraggerVariantUssClassName;
+        public object mixedValueLabelUssClassName;
+        public object alignedFieldUssClassName;
+        public object inspectorFieldUssClassName;
+        public object mixedValueString;
+        public object serializedPropertyCopyName;
+        public object s_LabelWidthRatioProperty;
+        public object s_LabelExtraPaddingProperty;
+        public object s_LabelBaseMinWidthProperty;
+        public object m_LabelWidthRatio;
+        public object m_LabelExtraPadding;
+        public object m_LabelBaseMinWidth;
+        public object m_VisualInput;
+        public object expressionEvaluated;
+        public object viewDataRestored;
+        public object m_Value;
+        public object onValidateValue;
+        public object _dispatchMode;
+        public object _labelElement;
+        public object m_ShowMixedValue;
+        public object m_MixedValueLabel;
+        public object m_SkipValidation;
+        public object m_CachedContextWidthElement;
+        public object m_CachedInspectorElement;
+        public object _editingStarted;
+        public object _editingEnded;
+
         // ── Methods ──
         public void set_label(){} // RVA: 0x60DFE00
         public void add_viewDataRestored(){} // RVA: 0x6110CC0
@@ -233,6 +379,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseReorderableDragAndDropController : Object
     {
+        public object m_View;
+        public object m_SortedSelectedIds;
+        public object _enableReordering;
+
         // ── Methods ──
         public void GetSortedSelectedIds(){} // RVA: 0xB465B0
         public void .ctor(){} // RVA: 0x8046B20
@@ -250,6 +400,46 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
+        public object lowValueProperty;
+        public object highValueProperty;
+        public object rangeProperty;
+        public object pageSizeProperty;
+        public object showInputFieldProperty;
+        public object directionProperty;
+        public object invertedProperty;
+        public object fillProperty;
+        public object _dragContainer;
+        public object _dragElement;
+        public object _trackElement;
+        public object _dragBorderElement;
+        public object _inputTextField;
+        public object _fillElement;
+        public object m_AdjustedPageSizeFromClick;
+        public object m_IsEditingTextField;
+        public object m_Fill;
+        public object m_LowValue;
+        public object m_HighValue;
+        public object m_PageSize;
+        public object m_ShowInputField;
+        public object _clamped;
+        public object _clampedDragger;
+        public object m_DragElementStartPos;
+        public object onSetValueWithoutNotify;
+        public object m_Direction;
+        public object m_Inverted;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object horizontalVariantUssClassName;
+        public object verticalVariantUssClassName;
+        public object dragContainerUssClassName;
+        public object trackerUssClassName;
+        public object draggerUssClassName;
+        public object draggerBorderUssClassName;
+        public object textFieldClassName;
+        public object fillUssClassName;
+        public object movableUssClassName;
+
         // ── Methods ──
         public void get_dragContainer(){} // RVA: 0x166DF20
         public void set_dragContainer(){} // RVA: 0x1649450
@@ -333,6 +523,46 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseSlider`1 : BaseField`1
     {
+        public object lowValueProperty;
+        public object highValueProperty;
+        public object rangeProperty;
+        public object pageSizeProperty;
+        public object showInputFieldProperty;
+        public object directionProperty;
+        public object invertedProperty;
+        public object fillProperty;
+        public object _dragContainer;
+        public object _dragElement;
+        public object _trackElement;
+        public object _dragBorderElement;
+        public object _inputTextField;
+        public object _fillElement;
+        public object m_AdjustedPageSizeFromClick;
+        public object m_IsEditingTextField;
+        public object m_Fill;
+        public object m_LowValue;
+        public object m_HighValue;
+        public object m_PageSize;
+        public object m_ShowInputField;
+        public object _clamped;
+        public object _clampedDragger;
+        public object m_DragElementStartPos;
+        public object onSetValueWithoutNotify;
+        public object m_Direction;
+        public object m_Inverted;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object horizontalVariantUssClassName;
+        public object verticalVariantUssClassName;
+        public object dragContainerUssClassName;
+        public object trackerUssClassName;
+        public object draggerUssClassName;
+        public object draggerBorderUssClassName;
+        public object textFieldClassName;
+        public object fillUssClassName;
+        public object movableUssClassName;
+
         // ── Methods ──
         public void get_dragContainer(){} // RVA: 0x166DF20
         public void set_dragContainer(){} // RVA: 0x1649450
@@ -416,6 +646,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -427,6 +659,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -438,6 +672,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -449,6 +685,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -460,6 +698,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -471,6 +711,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -482,6 +724,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -493,6 +737,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -504,6 +750,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -515,6 +763,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -526,6 +776,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -537,6 +789,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -548,6 +802,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -559,6 +815,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -570,6 +828,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -581,6 +841,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -592,6 +854,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -603,6 +867,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -614,6 +880,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -625,6 +893,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -636,6 +906,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -647,6 +919,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -658,6 +932,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -669,6 +945,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -680,6 +958,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -691,6 +971,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -702,6 +984,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -713,6 +997,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -724,6 +1010,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -735,6 +1023,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -746,6 +1036,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -757,6 +1049,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -768,6 +1062,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -779,6 +1075,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -790,6 +1088,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -801,6 +1101,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -812,6 +1114,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -823,6 +1127,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -834,6 +1140,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020
@@ -845,6 +1153,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class BaseUxmlFactory`2 : Object
     {
+        public object m_Traits;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x624BFB0
         public void get_uxmlName(){} // RVA: 0x624C020

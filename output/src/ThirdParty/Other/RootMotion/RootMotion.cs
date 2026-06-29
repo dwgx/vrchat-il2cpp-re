@@ -28,6 +28,21 @@ namespace ThirdParty.Other.RootMotion
 
     public class Baker : MonoBehaviour
     {
+        public object frameRate;
+        public object keyReductionError;
+        public object mode;
+        public object animationClips;
+        public object animationStates;
+        public object loop;
+        public object saveToFolder;
+        public object appendName;
+        public object saveName;
+        public object _isBaking;
+        public object _bakingProgress;
+        public object animator;
+        public object director;
+        public object _clipLength;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -52,6 +67,25 @@ namespace ThirdParty.Other.RootMotion
 
     public class BakerHumanoidQT : Object
     {
+        public object transform;
+        public object Qx;
+        public object Qy;
+        public object Qz;
+        public object Qw;
+        public object Tx;
+        public object Ty;
+        public object Tz;
+        public object rotX;
+        public object rotY;
+        public object rotZ;
+        public object rotW;
+        public object posX;
+        public object posY;
+        public object posZ;
+        public object goal;
+        public object lastQ;
+        public object lastQSet;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB83480
         public void Reset(){} // RVA: 0xB83850
@@ -66,6 +100,10 @@ namespace ThirdParty.Other.RootMotion
 
     public class BakerMuscle : Object
     {
+        public object curve;
+        public object muscleIndex;
+        public object propertyName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB84F00
         public void MuscleNameToPropertyName(){} // RVA: 0xB84FE0
@@ -98,6 +136,20 @@ namespace ThirdParty.Other.RootMotion
 
     public class BakerTransform : Object
     {
+        public object transform;
+        public object posX;
+        public object posY;
+        public object posZ;
+        public object rotX;
+        public object rotY;
+        public object rotZ;
+        public object rotW;
+        public object relativePath;
+        public object recordPosition;
+        public object relativePosition;
+        public object isRootNode;
+        public object relativeRotation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB86550
         public void SetRelativeSpace(){} // RVA: 0xB86630
@@ -141,6 +193,11 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedLimbOrientations : Object
     {
+        public object leftArm;
+        public object rightArm;
+        public object leftLeg;
+        public object rightLeg;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB8AE10
         public void get_UMA(){} // RVA: 0xB8AF60
@@ -149,6 +206,25 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedNaming : Object
     {
+        public object typeLeft;
+        public object typeRight;
+        public object typeSpine;
+        public object typeHead;
+        public object typeArm;
+        public object typeLeg;
+        public object typeTail;
+        public object typeEye;
+        public object typeExclude;
+        public object typeExcludeSpine;
+        public object typeExcludeHead;
+        public object typeExcludeArm;
+        public object typeExcludeLeg;
+        public object typeExcludeTail;
+        public object typeExcludeEye;
+        public object pelvis;
+        public object hand;
+        public object foot;
+
         // ── Methods ──
         public void GetBonesOfType(){} // RVA: 0xB8B880
         public void GetBonesOfSide(){} // RVA: 0xB8BAA0
@@ -178,6 +254,24 @@ namespace ThirdParty.Other.RootMotion
 
     public class BipedReferences : Object
     {
+        public object root;
+        public object pelvis;
+        public object leftThigh;
+        public object leftCalf;
+        public object leftFoot;
+        public object rightThigh;
+        public object rightCalf;
+        public object rightFoot;
+        public object leftUpperArm;
+        public object leftForearm;
+        public object leftHand;
+        public object rightUpperArm;
+        public object rightForearm;
+        public object rightHand;
+        public object head;
+        public object spine;
+        public object eyes;
+
         // ── Methods ──
         public void get_isFilled(){} // RVA: 0xB8FA00
         public void get_isEmpty(){} // RVA: 0xB90310
@@ -207,12 +301,17 @@ namespace ThirdParty.Other.RootMotion
 
     public class Comments : MonoBehaviour
     {
+        public object text;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43D60
     }
 
     public class DemoGUIMessage : MonoBehaviour
     {
+        public object text;
+        public object color;
+
         // ── Methods ──
         public void OnGUI(){} // RVA: 0xB96650
         public void .ctor(){} // RVA: 0xB967E0
@@ -220,6 +319,15 @@ namespace ThirdParty.Other.RootMotion
 
     public class GenericBaker : Baker
     {
+        public object markAsLegacy;
+        public object root;
+        public object rootNode;
+        public object ignoreList;
+        public object bakePositionList;
+        public object children;
+        public object rootChild;
+        public object rootChildIndex;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB80ED0
         public void GetCharacterRoot(){} // RVA: 0xB813B0
@@ -249,6 +357,23 @@ namespace ThirdParty.Other.RootMotion
 
     public class HumanoidBaker : Baker
     {
+        public object bakeHandIK;
+        public object IKKeyReductionError;
+        public object muscleFrameRateDiv;
+        public object bakerMuscles;
+        public object rootQT;
+        public object leftFootQT;
+        public object rightFootQT;
+        public object leftHandQT;
+        public object rightHandQT;
+        public object muscles;
+        public object pose;
+        public object handler;
+        public object bodyPosition;
+        public object bodyRotation;
+        public object mN;
+        public object lastBodyRotation;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0xB87FE0
         public void OnDestroy(){} // RVA: 0xB88BB0
@@ -263,6 +388,9 @@ namespace ThirdParty.Other.RootMotion
 
     public class InspectorComment : PropertyAttribute
     {
+        public object name;
+        public object color;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB98400
     }
@@ -305,6 +433,9 @@ namespace ThirdParty.Other.RootMotion
 
     public class LargeHeader : PropertyAttribute
     {
+        public object name;
+        public object color;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB996E0
     }
@@ -343,6 +474,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class Singleton`1 : MonoBehaviour
     {
+        public object sInstance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0xA94080
         public void Awake(){} // RVA: 0x894290
@@ -351,6 +484,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class Singleton`1 : MonoBehaviour
     {
+        public object sInstance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x4AD0FE0
         public void Awake(){} // RVA: 0x4AD1030
@@ -359,6 +494,15 @@ namespace ThirdParty.Other.RootMotion
 
     public class SolverManager : MonoBehaviour
     {
+        public object StatPerfBegin;
+        public object StatPerfEnd;
+        public object fixTransforms;
+        public object animator;
+        public object legacy;
+        public object updateFrame;
+        public object componentInitiated;
+        public object skipSolverUpdate;
+
         // ── Methods ──
         public void Disable(){} // RVA: 0xB9B670
         public void InitiateSolver(){} // RVA: 0xB43310
@@ -399,12 +543,17 @@ namespace ThirdParty.Other.RootMotion
 
     public class TQ : Object
     {
+        public object t;
+        public object q;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB81AB0
     }
 
     public class TriggerEventBroadcaster : MonoBehaviour
     {
+        public object target;
+
         // ── Methods ──
         public void OnTriggerEnter(){} // RVA: 0xB9C340
         public void OnTriggerStay(){} // RVA: 0xB9C460
@@ -428,6 +577,8 @@ namespace ThirdParty.Other.RootMotion
 
     public class Warning : Object
     {
+        public object logged;
+
         // ── Methods ──
         public void Log(){} // RVA: 0xB9DE10
     }

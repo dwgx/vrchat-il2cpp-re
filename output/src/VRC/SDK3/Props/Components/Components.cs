@@ -7,6 +7,14 @@ namespace VRC.SDK3.Props.Components
 {
     public class CustomAttribute : Object
     {
+        public object name;
+        public object type;
+        public object boolValue;
+        public object intValue;
+        public object floatValue;
+        public object stringValue;
+        public object colorValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -33,6 +41,15 @@ namespace VRC.SDK3.Props.Components
 
     public class VRCPropDescriptor : VRC_PropDescriptor
     {
+        public object selectorLocalPosition;
+        public object selectorRadius;
+        public object customAttributes;
+        public object spawnBearingOffset;
+        public object previewBearingOffset;
+        public object previewBehaviour;
+        public object skipBuiltInSpawnAnimation;
+        public object skipBuiltInDespawnAnimation;
+
         // ── Methods ──
         public void OnDrawGizmosSelected(){} // RVA: 0xA6D0FC0
         public void DrawSelectorGizmos(){} // RVA: 0xA6D10B0

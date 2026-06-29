@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class SafeHandleAccess : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x93050
         public void IsNull(){} // RVA: 0x9A9C70
@@ -22,6 +24,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScheduledItem : Object
     {
+        public object timerUpdateStopCondition;
+        public object OnceCondition;
+        public object ForeverCondition;
+        public object _startMs;
+        public object _delayMs;
+        public object _intervalMs;
+        public object _endTimeMs;
+
         // ── Methods ──
         public void get_startMs(){} // RVA: 0xB465B0
         public void set_startMs(){} // RVA: 0x15428E0
@@ -40,6 +50,80 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ScrollView : VisualElement
     {
+        public object horizontalScrollerVisibilityProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object scrollOffsetProperty;
+        public object horizontalPageSizeProperty;
+        public object verticalPageSizeProperty;
+        public object mouseWheelScrollSizeProperty;
+        public object scrollDecelerationRateProperty;
+        public object elasticityProperty;
+        public object touchScrollBehaviorProperty;
+        public object nestedInteractionKindProperty;
+        public object modeProperty;
+        public object elasticAnimationIntervalMsProperty;
+        public object m_FirstLayoutPass;
+        public object m_HorizontalScrollerVisibility;
+        public object m_VerticalScrollerVisibility;
+        public object m_ElasticAnimationIntervalMs;
+        public object m_AttachedRootVisualContainer;
+        public object m_SingleLineHeight;
+        public object m_SingleLineHeightDirtyFlag;
+        public object m_MouseWheelScrollSizeIsInline;
+        public object m_ScrollOffset;
+        public object m_HorizontalPageSize;
+        public object m_VerticalPageSize;
+        public object m_MouseWheelScrollSize;
+        public object k_DefaultScrollDecelerationRate;
+        public object m_ScrollDecelerationRate;
+        public object k_ScaledPixelsPerPointMultiplier;
+        public object k_TouchScrollInertiaBaseTimeInterval;
+        public object k_DefaultElasticity;
+        public object m_Elasticity;
+        public object m_TouchScrollBehavior;
+        public object m_NestedInteractionKind;
+        public object _contentViewport;
+        public object _horizontalScroller;
+        public object _verticalScroller;
+        public object m_ContentContainer;
+        public object m_ContentAndVerticalScrollContainer;
+        public object previousVerticalTouchScrollTimeStamp;
+        public object previousHorizontalTouchScrollTimeStamp;
+        public object elapsedTimeSinceLastVerticalTouchScroll;
+        public object elapsedTimeSinceLastHorizontalTouchScroll;
+        public object ussClassName;
+        public object viewportUssClassName;
+        public object horizontalVariantViewportUssClassName;
+        public object verticalVariantViewportUssClassName;
+        public object verticalHorizontalVariantViewportUssClassName;
+        public object contentAndVerticalScrollUssClassName;
+        public object contentUssClassName;
+        public object horizontalVariantContentUssClassName;
+        public object verticalVariantContentUssClassName;
+        public object verticalHorizontalVariantContentUssClassName;
+        public object hScrollerUssClassName;
+        public object vScrollerUssClassName;
+        public object horizontalVariantUssClassName;
+        public object verticalVariantUssClassName;
+        public object verticalHorizontalVariantUssClassName;
+        public object scrollVariantUssClassName;
+        public object m_Mode;
+        public object m_ScheduledLayoutPassResetItem;
+        public object m_StartPosition;
+        public object m_PointerStartPosition;
+        public object m_Velocity;
+        public object m_SpringBackVelocity;
+        public object m_LowBounds;
+        public object m_HighBounds;
+        public object m_LastVelocityLerpTime;
+        public object m_StartedMoving;
+        public object m_TouchPointerMoveAllowed;
+        public object m_TouchStoppedVelocity;
+        public object m_CapturedTarget;
+        public object m_CapturedTargetPointerMoveCallback;
+        public object m_CapturedTargetPointerUpCallback;
+        public object m_PostPointerUpAnimation;
+
         // ── Methods ──
         public void get_horizontalScrollerVisibility(){} // RVA: 0x8017C10
         public void set_horizontalScrollerVisibility(){} // RVA: 0x8017C20
@@ -132,6 +216,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SetValueVisitor`1 : PathVisitor
     {
+        public object Pool;
+        public object Value;
+        public object _group;
+
         // ── Methods ──
         public void get_group(){} // RVA: 0x87C0A0
         public void set_group(){} // RVA: 0x894320
@@ -143,12 +231,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class SetupDragAndDropArgs : ValueType
     {
+        public object draggedElement;
+        public object selectedIds;
+        public object startDragArgs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A4AF0
     }
 
     public class SliderInt : BaseSlider`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80248F0
         public void get_pageSize(){} // RVA: 0x8024A60
@@ -165,6 +261,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Spacing : ValueType
     {
+        public object left;
+        public object top;
+        public object right;
+        public object bottom;
+
         // ── Methods ──
         public void get_horizontal(){} // RVA: 0x961C60
         public void get_vertical(){} // RVA: 0x961C80
@@ -174,6 +275,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StartDragArgs : ValueType
     {
+        public object _title;
+        public object _visualMode;
+        public object _genericData;
+        public object _unityObjectReferences;
+        public object _assetPaths;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A4D20
         public void get_title(){} // RVA: 0x77900
@@ -189,6 +296,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleCache : Object
     {
+        public object s_ComputedStyleCache;
+        public object s_StyleVariableContextCache;
+        public object s_ComputedTransitionsCache;
+
         // ── Methods ──
         public void TryGetValue(){} // RVA: 0x7F33E50
         public void SetValue(){} // RVA: 0x7F33EF0
@@ -197,6 +308,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleComplexSelector : Object
     {
+        public object ancestorHashes;
+        public object m_Specificity;
+        public object _rule;
+        public object m_isSimple;
+        public object m_Selectors;
+        public object ruleIndex;
+        public object nextInTable;
+        public object orderInStyleSheet;
+        public object s_PseudoStates;
+        public object m_HashList;
+
         // ── Methods ──
         public void get_specificity(){} // RVA: 0x4EDA0B0
         public void get_rule(){} // RVA: 0xB70160
@@ -236,6 +358,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleMatchingContext : Object
     {
+        public object m_StyleSheetStack;
+        public object variableContext;
+        public object currentElement;
+        public object processResult;
+        public object ancestorFilter;
+
         // ── Methods ──
         public void get_styleSheetCount(){} // RVA: 0x7F34CE0
         public void .ctor(){} // RVA: 0x7F34D30
@@ -246,6 +374,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleProperty : Object
     {
+        public object m_Name;
+        public object m_Line;
+        public object m_Values;
+        public object isCustomProperty;
+        public object requireVariableResolve;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x3E42230
         public void get_values(){} // RVA: 0x7489A40
@@ -254,6 +388,26 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyAnimationSystem : Object
     {
+        public object m_CurrentTimeMs;
+        public object m_Floats;
+        public object m_Ints;
+        public object m_Lengths;
+        public object m_Colors;
+        public object m_Enums;
+        public object m_Backgrounds;
+        public object m_FontDefinitions;
+        public object m_Fonts;
+        public object m_TextShadows;
+        public object m_Scale;
+        public object m_Rotate;
+        public object m_Translate;
+        public object m_TransformOrigin;
+        public object m_BackgroundPosition;
+        public object m_BackgroundRepeat;
+        public object m_BackgroundSize;
+        public object m_AllValues;
+        public object m_PropertyToValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EDE990
         public void GetOrCreate(){} // RVA: 0xA94080
@@ -270,6 +424,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StylePropertyNameCollection : ValueType
     {
+        public object propertiesList;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void GetEnumerator(){} // RVA: 0x9A58A0
@@ -319,6 +475,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleRule : Object
     {
+        public object m_Properties;
+        public object line;
+        public object customPropertiesCount;
+
         // ── Methods ──
         public void get_properties(){} // RVA: 0x3E42230
         public void .ctor(){} // RVA: 0xB43310
@@ -346,6 +506,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSelector : Object
     {
+        public object m_Parts;
+        public object m_PreviousRelationship;
+        public object pseudoStateMask;
+        public object negatedPseudoStateMask;
+
         // ── Methods ──
         public void get_parts(){} // RVA: 0x3E42230
         public void set_parts(){} // RVA: 0xB44D60
@@ -357,6 +522,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleSelectorPart : ValueType
     {
+        public object m_Value;
+        public object m_Type;
+        public object tempData;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x44D9F0
         public void get_type(){} // RVA: 0x438050
@@ -415,6 +584,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleValueHandle : ValueType
     {
+        public object m_ValueType;
+        public object valueIndex;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x454FE0
         public void set_valueType(){} // RVA: 0x29580
@@ -428,6 +600,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleVariable : ValueType
     {
+        public object name;
+        public object sheet;
+        public object handles;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x79C50
         public void GetHashCode(){} // RVA: 0x99A110
@@ -435,6 +611,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleVariableContext : Object
     {
+        public object none;
+        public object m_VariableHash;
+        public object m_Variables;
+        public object m_SortedHash;
+        public object m_UnsortedHash;
+
         // ── Methods ──
         public void Add(){} // RVA: 0x7EEA180
         public void AddInitialRange(){} // RVA: 0x7EEA480
@@ -448,6 +630,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class StyleVariableResolver : Object
     {
+        public object kMaxResolves;
+        public object s_SyntaxParser;
+        public object m_Matcher;
+        public object m_ResolvedValues;
+        public object m_ResolvedVarStack;
+        public object m_Property;
+        public object m_ContextStack;
+        public object m_CurrentContext;
+        public object _variableContext;
+
         // ── Methods ──
         public void get_currentSheet(){} // RVA: 0xD05CA0
         public void get_currentHandles(){} // RVA: 0xBC1B30

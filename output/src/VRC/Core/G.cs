@@ -7,6 +7,18 @@ namespace VRC.Core
 {
     public class GC : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_7CB;
+        public object f_8EA;
+        public object f_7EC;
+        public object f_EC2;
+        public object f_E05;
+        public object f_20C;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x162FAC0
         public void Equals(){} // RVA: 0x162FB80
@@ -18,6 +30,30 @@ namespace VRC.Core
 
     public class GPUTextureCompressor : Object
     {
+        public object _instance;
+        public object _computeShader;
+        public object _kernelCompressASTC;
+        public object _kernelCompressBC7;
+        public object _kernelExtendEdgesASTC;
+        public object _kernelExtendEdgesBC7;
+        public object THREADS;
+        public object BLOCK_SIZE;
+        public object BYTES_PER_BLOCK;
+        public object InputProperty;
+        public object OutputProperty;
+        public object TransparencyFlagsProperty;
+        public object WidthProperty;
+        public object HeightProperty;
+        public object BlocksWideProperty;
+        public object BlocksHighProperty;
+        public object MipLevelProperty;
+        public object BlockOffsetProperty;
+        public object IsSRGBProperty;
+        public object OriginalWidthProperty;
+        public object OriginalHeightProperty;
+        public object PadLeftProperty;
+        public object PadTopProperty;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0xA70ED60
         public void CalculatePadding(){} // RVA: 0xA70EE50
@@ -46,6 +82,12 @@ namespace VRC.Core
 
     public class GoogleDeviceCodeResponse : ApiModel
     {
+        public object _device_code;
+        public object _user_code;
+        public object _verification_url;
+        public object _expires_in;
+        public object _interval;
+
         // ── Methods ──
         public void get_device_code(){} // RVA: 0xBBFF90
         public void set_device_code(){} // RVA: 0xBBFFA0
@@ -62,6 +104,8 @@ namespace VRC.Core
 
     public class GoogleLoginResponse : ApiModel
     {
+        public object _user;
+
         // ── Methods ──
         public void get_user(){} // RVA: 0xBBFF90
         public void set_user(){} // RVA: 0xBBFFA0
@@ -70,6 +114,10 @@ namespace VRC.Core
 
     public class GroupInstanceAccessType : Object
     {
+        public object Public;
+        public object Plus;
+        public object Members;
+
         // ── Methods ──
         public void GetInstanceWithAccessType(){} // RVA: 0xA5C05C0
     }

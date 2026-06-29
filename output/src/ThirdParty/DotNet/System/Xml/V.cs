@@ -7,45 +7,59 @@ namespace ThirdParty.DotNet.System.Xml
 {
     public class ValidateNames : Object
     {
+        public object xmlCharType;
+
         // ── Methods ──
-        public void ParseNmtoken(){} // RVA: 0x7AE86CAF0
-        public void ParseNmtokenNoNamespaces(){} // RVA: 0x7AE86CBD0
-        public void ParseNameNoNamespaces(){} // RVA: 0x7AE86CCB0
-        public void IsNameNoNamespaces(){} // RVA: 0x7AE86CE00
-        public void ParseNCName(){} // RVA: 0x7AE86CFB0
-        public void ParseQName(){} // RVA: 0x7AE86D010
-        public void ParseQNameThrow(){} // RVA: 0x7AE86D100
-        public void ThrowInvalidName(){} // RVA: 0x7AE86D2C0
-        public void GetInvalidNameException(){} // RVA: 0x7AE86D4B0
-        public void SplitQName(){} // RVA: 0x7AE86D770
-        public void .cctor(){} // RVA: 0x7AE86D970
+        public void ParseNmtoken(){} // RVA: 0x74E1610
+        public void ParseNmtokenNoNamespaces(){} // RVA: 0x74E16F0
+        public void ParseNameNoNamespaces(){} // RVA: 0x74E17D0
+        public void IsNameNoNamespaces(){} // RVA: 0x74E1920
+        public void ParseNCName(){} // RVA: 0x74E1AD0
+        public void ParseQName(){} // RVA: 0x74E1B30
+        public void ParseQNameThrow(){} // RVA: 0x74E1C20
+        public void ThrowInvalidName(){} // RVA: 0x74E1DE0
+        public void GetInvalidNameException(){} // RVA: 0x74E1FD0
+        public void SplitQName(){} // RVA: 0x74E2280
+        public void .cctor(){} // RVA: 0x74E2460
     }
 
     public class ValidatingReaderNodeData : Object
     {
+        public object localName;
+        public object namespaceUri;
+        public object prefix;
+        public object nameWPrefix;
+        public object rawValue;
+        public object originalStringValue;
+        public object depth;
+        public object attributePSVIInfo;
+        public object nodeType;
+        public object lineNo;
+        public object linePos;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE8057C0
-        public void get_LocalName(){} // RVA: 0x7A80F2570
-        public void set_LocalName(){} // RVA: 0x7A80D8E20
-        public void get_Namespace(){} // RVA: 0x7A80DA7B0
-        public void set_Namespace(){} // RVA: 0x7A813E420
-        public void get_Prefix(){} // RVA: 0x7A81052C0
-        public void set_Prefix(){} // RVA: 0x7A81052D0
-        public void GetAtomizedNameWPrefix(){} // RVA: 0x7AE8057D0
-        public void get_Depth(){} // RVA: 0x7A8178B30
-        public void set_Depth(){} // RVA: 0x7A8178B40
-        public void get_RawValue(){} // RVA: 0x7A83F69F0
-        public void set_RawValue(){} // RVA: 0x7A8105A90
-        public void get_OriginalStringValue(){} // RVA: 0x7A8292C30
-        public void get_NodeType(){} // RVA: 0x7A8355950
-        public void set_NodeType(){} // RVA: 0x7A83F4180
-        public void get_AttInfo(){} // RVA: 0x7A8152D80
-        public void set_AttInfo(){} // RVA: 0x7A8152D90
-        public void get_LineNumber(){} // RVA: 0x7A8A22410
-        public void get_LinePosition(){} // RVA: 0x7A87A7DA0
-        public void Clear(){} // RVA: 0x7AE805930
-        public void SetLineInfo(){} // RVA: 0x7AE805B70
-        public void SetItemData(){} // RVA: 0x7AE805DB0
+        public void .ctor(){} // RVA: 0x747AEE0
+        public void get_LocalName(){} // RVA: 0xB5DBF0
+        public void set_LocalName(){} // RVA: 0xB44D60
+        public void get_Namespace(){} // RVA: 0xB465B0
+        public void set_Namespace(){} // RVA: 0xBA9BA0
+        public void get_Prefix(){} // RVA: 0xB700F0
+        public void set_Prefix(){} // RVA: 0xB70100
+        public void GetAtomizedNameWPrefix(){} // RVA: 0x747AEF0
+        public void get_Depth(){} // RVA: 0xBE5850
+        public void set_Depth(){} // RVA: 0xBE5860
+        public void get_RawValue(){} // RVA: 0xD33E60
+        public void set_RawValue(){} // RVA: 0xB708C0
+        public void get_OriginalStringValue(){} // RVA: 0xD05CA0
+        public void get_NodeType(){} // RVA: 0xE32C80
+        public void set_NodeType(){} // RVA: 0xEEA060
+        public void get_AttInfo(){} // RVA: 0xBBF8F0
+        public void set_AttInfo(){} // RVA: 0xBBF900
+        public void get_LineNumber(){} // RVA: 0x15443F0
+        public void get_LinePosition(){} // RVA: 0x12BB630
+        public void Clear(){} // RVA: 0x747B050
+        public void SetLineInfo(){} // RVA: 0x747B270
+        public void SetItemData(){} // RVA: 0x747B460
     }
 
 }

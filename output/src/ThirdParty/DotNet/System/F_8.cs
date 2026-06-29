@@ -1,10 +1,34 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 132
+// Methods: 134
 
 namespace ThirdParty.DotNet.System
 {
+    public class Func`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A7130
+    }
+
+    public class Func`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A7130
+    }
+
+    public class Func`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A7130
+    }
+
+    public class Func`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x35A7130
+    }
+
     public class Func`1 : MulticastDelegate
     {
         // ── Methods ──
@@ -341,22 +365,57 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0x23F1BA0
     }
 
-    public class Func`1 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x23F1BA0
+        public void .ctor(){} // RVA: 0x3E2F800
+        public void Invoke(){} // RVA: 0x3E02F60
     }
 
-    public class Func`1 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x23F1BA0
+        public void .ctor(){} // RVA: 0x3E2F800
+        public void Invoke(){} // RVA: 0x3E02F60
     }
 
-    public class Func`1 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0xBA10B0
+        public void .ctor(){} // RVA: 0x3E2F800
+        public void Invoke(){} // RVA: 0x3E02F60
+    }
+
+    public class Func`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Func`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Func`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Func`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E2F800
+        public void Invoke(){} // RVA: 0x3E02F60
+    }
+
+    public class Func`2 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x3E2F800
+        public void Invoke(){} // RVA: 0x3E02F60
     }
 
     public class Func`2 : MulticastDelegate
@@ -578,63 +637,6 @@ namespace ThirdParty.DotNet.System
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3E3A9D0
         public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xCA8BF0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E374F0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E36E50
-        public void .ctor(){} // RVA: 0x3E36D80
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E374F0
-        public void .ctor(){} // RVA: 0x3E37420
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xCA8BF0
-        public void .ctor(){} // RVA: 0x3E3A9D0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E3C730
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E374F0
-    }
-
-    public class Func`3 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0x3E3C390
     }
 
 }

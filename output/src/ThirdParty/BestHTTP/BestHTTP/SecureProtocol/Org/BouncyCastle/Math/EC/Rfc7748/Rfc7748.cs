@@ -7,104 +7,123 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.R
 {
     public class X25519 : Object
     {
+        public object PointSize;
+        public object ScalarSize;
+        public object C_A;
+        public object C_A24;
+
         // ── Methods ──
-        public void CalculateAgreement(){} // RVA: 0x7B1822A40
-        public void Decode32(){} // RVA: 0x7B129EA60
-        public void DecodeScalar(){} // RVA: 0x7B1822B30
-        public void GeneratePrivateKey(){} // RVA: 0x7B1822C10
-        public void GeneratePublicKey(){} // RVA: 0x7B1822C70
-        public void PointDouble(){} // RVA: 0x7B1822C80
-        public void Precompute(){} // RVA: 0x7B1822EC0
-        public void ScalarMult(){} // RVA: 0x7B1822F10
-        public void ScalarMultBase(){} // RVA: 0x7B18237B0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CalculateAgreement(){} // RVA: 0xA68E8B0
+        public void Decode32(){} // RVA: 0xA10A3D0
+        public void DecodeScalar(){} // RVA: 0xA68E9A0
+        public void GeneratePrivateKey(){} // RVA: 0xA68EA80
+        public void GeneratePublicKey(){} // RVA: 0xA68EAE0
+        public void PointDouble(){} // RVA: 0xA68EAF0
+        public void Precompute(){} // RVA: 0xA68ED30
+        public void ScalarMult(){} // RVA: 0xA68ED80
+        public void ScalarMultBase(){} // RVA: 0xA68F620
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class X25519Field : Object
     {
+        public object Size;
+        public object M24;
+        public object M25;
+        public object M26;
+        public object RootNegOne;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Add(){} // RVA: 0x7B129E110
-        public void AddOne(){} // RVA: 0x7B129E1C0
-        public void Apm(){} // RVA: 0x7B129E1F0
-        public void Carry(){} // RVA: 0x7B129E2B0
-        public void CMov(){} // RVA: 0x7B129E480
-        public void CNegate(){} // RVA: 0x7B129E520
-        public void Copy(){} // RVA: 0x7B129E570
-        public void Create(){} // RVA: 0x7B129E5F0
-        public void CreateTable(){} // RVA: 0x7B129E630
-        public void CSwap(){} // RVA: 0x7B129E670
-        public void Decode(){} // RVA: 0x7B129E700
-        public void Decode128(){} // RVA: 0x7B129E7B0
-        public void Decode32(){} // RVA: 0x7B129EA60
-        public void Encode(){} // RVA: 0x7B129EAD0
-        public void Encode128(){} // RVA: 0x7B129EB70
-        public void Encode32(){} // RVA: 0x7B129EDD0
-        public void Inv(){} // RVA: 0x7B129EE40
-        public void IsZero(){} // RVA: 0x7B129EF50
-        public void IsZeroVar(){} // RVA: 0x7B129EFB0
-        public void Mul(){} // RVA: 0x7B129F290
-        public void Negate(){} // RVA: 0x7B129FAC0
-        public void Normalize(){} // RVA: 0x7B129FB20
-        public void One(){} // RVA: 0x7B129FBB0
-        public void PowPm5d8(){} // RVA: 0x7B129FC00
-        public void Reduce(){} // RVA: 0x7B129FEA0
-        public void Sqr(){} // RVA: 0x7B12A0530
-        public void SqrtRatioVar(){} // RVA: 0x7B12A05E0
-        public void Sub(){} // RVA: 0x7B12A0B10
-        public void SubOne(){} // RVA: 0x7B12A0B90
-        public void Zero(){} // RVA: 0x7B12A0BC0
-        public void .cctor(){} // RVA: 0x7B12A0C10
+        public void .ctor(){} // RVA: 0xB43310
+        public void Add(){} // RVA: 0xA109A80
+        public void AddOne(){} // RVA: 0xA109B30
+        public void Apm(){} // RVA: 0xA109B60
+        public void Carry(){} // RVA: 0xA109C20
+        public void CMov(){} // RVA: 0xA109DF0
+        public void CNegate(){} // RVA: 0xA109E90
+        public void Copy(){} // RVA: 0xA109EE0
+        public void Create(){} // RVA: 0xA109F60
+        public void CreateTable(){} // RVA: 0xA109FA0
+        public void CSwap(){} // RVA: 0xA109FE0
+        public void Decode(){} // RVA: 0xA10A070
+        public void Decode128(){} // RVA: 0xA10A120
+        public void Decode32(){} // RVA: 0xA10A3D0
+        public void Encode(){} // RVA: 0xA10A440
+        public void Encode128(){} // RVA: 0xA10A4E0
+        public void Encode32(){} // RVA: 0xA10A740
+        public void Inv(){} // RVA: 0xA10A7B0
+        public void IsZero(){} // RVA: 0xA10A8C0
+        public void IsZeroVar(){} // RVA: 0xA10A920
+        public void Mul(){} // RVA: 0xA10AC00
+        public void Negate(){} // RVA: 0xA10B430
+        public void Normalize(){} // RVA: 0xA10B490
+        public void One(){} // RVA: 0xA10B520
+        public void PowPm5d8(){} // RVA: 0xA10B570
+        public void Reduce(){} // RVA: 0xA10B810
+        public void Sqr(){} // RVA: 0xA10BEA0
+        public void SqrtRatioVar(){} // RVA: 0xA10BF50
+        public void Sub(){} // RVA: 0xA10C480
+        public void SubOne(){} // RVA: 0xA10C500
+        public void Zero(){} // RVA: 0xA10C530
+        public void .cctor(){} // RVA: 0xA10C580
     }
 
     public class X448 : Object
     {
+        public object PointSize;
+        public object ScalarSize;
+        public object C_A;
+        public object C_A24;
+
         // ── Methods ──
-        public void CalculateAgreement(){} // RVA: 0x7B12A0CF0
-        public void Decode32(){} // RVA: 0x7B129EA60
-        public void DecodeScalar(){} // RVA: 0x7B12A0DE0
-        public void GeneratePrivateKey(){} // RVA: 0x7B12A0EB0
-        public void GeneratePublicKey(){} // RVA: 0x7B12A0F00
-        public void PointDouble(){} // RVA: 0x7B12A1040
-        public void Precompute(){} // RVA: 0x7B12A1200
-        public void ScalarMult(){} // RVA: 0x7B12A1250
-        public void ScalarMultBase(){} // RVA: 0x7B12A0F00
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CalculateAgreement(){} // RVA: 0xA10C660
+        public void Decode32(){} // RVA: 0xA10A3D0
+        public void DecodeScalar(){} // RVA: 0xA10C750
+        public void GeneratePrivateKey(){} // RVA: 0xA10C820
+        public void GeneratePublicKey(){} // RVA: 0xA10C870
+        public void PointDouble(){} // RVA: 0xA10C9B0
+        public void Precompute(){} // RVA: 0xA10CB70
+        public void ScalarMult(){} // RVA: 0xA10CBC0
+        public void ScalarMultBase(){} // RVA: 0xA10C870
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class X448Field : Object
     {
+        public object Size;
+        public object M28;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Add(){} // RVA: 0x7B12A1950
-        public void AddOne(){} // RVA: 0x7B129E1C0
-        public void Carry(){} // RVA: 0x7B12A19D0
-        public void CMov(){} // RVA: 0x7B12A1CF0
-        public void CNegate(){} // RVA: 0x7B12A1D90
-        public void Copy(){} // RVA: 0x7B12A1E50
-        public void Create(){} // RVA: 0x7B12A1ED0
-        public void CSwap(){} // RVA: 0x7B12A1F10
-        public void Decode(){} // RVA: 0x7B12A1FA0
-        public void Decode24(){} // RVA: 0x7B12A25C0
-        public void Decode32(){} // RVA: 0x7B129EA60
-        public void Decode56(){} // RVA: 0x7B12A2620
-        public void Encode(){} // RVA: 0x7B12A2720
-        public void Encode24(){} // RVA: 0x7B12A2CC0
-        public void Encode32(){} // RVA: 0x7B129EDD0
-        public void Encode56(){} // RVA: 0x7B12A2D20
-        public void Inv(){} // RVA: 0x7B12A2E00
-        public void IsZero(){} // RVA: 0x7B12A2EB0
-        public void IsZeroVar(){} // RVA: 0x7B12A2F10
-        public void Mul(){} // RVA: 0x7B12A3310
-        public void Negate(){} // RVA: 0x7B12A4650
-        public void Normalize(){} // RVA: 0x7B12A46B0
-        public void One(){} // RVA: 0x7B12A47A0
-        public void PowPm3d4(){} // RVA: 0x7B12A47F0
-        public void Reduce(){} // RVA: 0x7B12A4D10
-        public void Sqr(){} // RVA: 0x7B12A58B0
-        public void SqrtRatioVar(){} // RVA: 0x7B12A58F0
-        public void Sub(){} // RVA: 0x7B12A5B50
-        public void Zero(){} // RVA: 0x7B12A5FD0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Add(){} // RVA: 0xA10D2C0
+        public void AddOne(){} // RVA: 0xA109B30
+        public void Carry(){} // RVA: 0xA10D340
+        public void CMov(){} // RVA: 0xA10D660
+        public void CNegate(){} // RVA: 0xA10D700
+        public void Copy(){} // RVA: 0xA10D7C0
+        public void Create(){} // RVA: 0xA10D840
+        public void CSwap(){} // RVA: 0xA10D880
+        public void Decode(){} // RVA: 0xA10D910
+        public void Decode24(){} // RVA: 0xA10DF30
+        public void Decode32(){} // RVA: 0xA10A3D0
+        public void Decode56(){} // RVA: 0xA10DF90
+        public void Encode(){} // RVA: 0xA10E090
+        public void Encode24(){} // RVA: 0xA10E630
+        public void Encode32(){} // RVA: 0xA10A740
+        public void Encode56(){} // RVA: 0xA10E690
+        public void Inv(){} // RVA: 0xA10E770
+        public void IsZero(){} // RVA: 0xA10E820
+        public void IsZeroVar(){} // RVA: 0xA10E880
+        public void Mul(){} // RVA: 0xA10EC80
+        public void Negate(){} // RVA: 0xA10FFC0
+        public void Normalize(){} // RVA: 0xA110020
+        public void One(){} // RVA: 0xA110110
+        public void PowPm3d4(){} // RVA: 0xA110160
+        public void Reduce(){} // RVA: 0xA110680
+        public void Sqr(){} // RVA: 0xA111220
+        public void SqrtRatioVar(){} // RVA: 0xA111260
+        public void Sub(){} // RVA: 0xA1114C0
+        public void Zero(){} // RVA: 0xA111940
     }
 
 }

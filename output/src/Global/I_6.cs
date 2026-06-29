@@ -1,10 +1,12 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 34
-// Methods: 196
+// Classes: 29
+// Methods: 163
 
 public class ImmutableBox : InitializeLocalInstruction
 {
+    public object _defaultValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void Run(){} // RVA: 0x70B29B0
@@ -21,6 +23,8 @@ public class ImmutableRefBox : InitializeLocalInstruction
 
 public class ImmutableValue : InitializeLocalInstruction
 {
+    public object _defaultValue;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
     public void Run(){} // RVA: 0x70B2840
@@ -86,6 +90,8 @@ public class IncrementUInt64 : IncrementInstruction
 
 public class IndexExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70491D0
     public void get_Arguments(){} // RVA: 0x70492B0
@@ -97,22 +103,20 @@ public class IndexExpressionProxy : Object
     public void get_Type(){} // RVA: 0x10ACB60
 }
 
-public class IndexTree : RBTree`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x719B850
-    public void CompareNode(){} // RVA: 0x719B900
-    public void CompareSateliteTreeNode(){} // RVA: 0x719B920
-}
-
 public class InputState : ValueType
 {
+    public object _count;
+    public object _startIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
 }
 
 public class InstanceRestriction : BindingRestrictions
 {
+    public object _expression;
+    public object _instance;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70CBB60
     public void Equals(){} // RVA: 0x70CBC70
@@ -122,6 +126,12 @@ public class InstanceRestriction : BindingRestrictions
 
 public class InstructionView : ValueType
 {
+    public object _index;
+    public object _stackDepth;
+    public object _continuationsDepth;
+    public object _name;
+    public object _instruction;
+
     // ── Methods ──
     public void GetName(){} // RVA: 0x8FE690
     public void GetValue(){} // RVA: 0x7E450
@@ -135,30 +145,10 @@ public class Int : Object
     public void TryParse(){} // RVA: 0x727F410
 }
 
-public class InternalEnumerator`1 : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3303A0
-    public void Dispose(){} // RVA: 0x3FC0
-    public void MoveNext(){} // RVA: 0x3303B0
-    public void get_Current(){} // RVA: 0x3304C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x330430
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3385F0
-}
-
-public class InternalEnumerator`1 : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3303A0
-    public void Dispose(){} // RVA: 0x3FC0
-    public void MoveNext(){} // RVA: 0x3303B0
-    public void get_Current(){} // RVA: 0x3304C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x330430
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3385F0
-}
-
 public class InvocationExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049300
     public void get_Arguments(){} // RVA: 0x7048FE0
@@ -171,30 +161,26 @@ public class InvocationExpressionProxy : Object
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
-    public void GetResult(){} // RVA: 0x408FF50
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4090120
-    public void GetStatus(){} // RVA: 0x4081450
-    public void UnsafeGetStatus(){} // RVA: 0x4092040
-    public void OnCompleted(){} // RVA: 0x4081500
-}
-
-public class Item : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xB43310
-    public void Set(){} // RVA: 0x2574280
 }
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4092900
     public void get_Current(){} // RVA: 0xAD0950
@@ -211,6 +197,10 @@ public class Iterator`1 : Object
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4092900
     public void get_Current(){} // RVA: 0xAD0950
@@ -227,56 +217,71 @@ public class Iterator`1 : Object
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4092900
-    public void get_Current(){} // RVA: 0xAD0950
+    public void Where(){} // RVA: 0x87C540
+    public void .ctor(){} // RVA: 0x4092210
+    public void get_Current(){} // RVA: 0xB465B0
     public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x4092AB0
-    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void Dispose(){} // RVA: 0x40925D0
+    public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
     public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4092900
-    public void get_Current(){} // RVA: 0xAD0950
+    public void Where(){} // RVA: 0x87C540
+    public void .ctor(){} // RVA: 0x4092210
+    public void get_Current(){} // RVA: 0xB465B0
     public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x4092AB0
-    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void Dispose(){} // RVA: 0x40925D0
+    public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
     public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4092900
-    public void get_Current(){} // RVA: 0xAD0950
+    public void Where(){} // RVA: 0x87C540
+    public void .ctor(){} // RVA: 0x4092210
+    public void get_Current(){} // RVA: 0xB465B0
     public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x4092AB0
-    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void Dispose(){} // RVA: 0x40925D0
+    public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
     public void Select(){} // RVA: 0x87C540
-    public void Where(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void Where(){} // RVA: 0x87C540
     public void .ctor(){} // RVA: 0x4092210
     public void get_Current(){} // RVA: 0x125EE60
     public void Clone(){} // RVA: 0x87C0A0
@@ -284,6 +289,7 @@ public class Iterator`1 : Object
     public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
     public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x87C540
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x40924A0
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
@@ -291,6 +297,10 @@ public class Iterator`1 : Object
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
     public void Where(){} // RVA: 0x87C540
     public void .ctor(){} // RVA: 0x4092210
@@ -307,22 +317,10 @@ public class Iterator`1 : Object
 
 public class Iterator`1 : Object
 {
-    // ── Methods ──
-    public void Where(){} // RVA: 0x87C540
-    public void .ctor(){} // RVA: 0x4092210
-    public void get_Current(){} // RVA: 0xB465B0
-    public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x40925D0
-    public void GetEnumerator(){} // RVA: 0x40922B0
-    public void MoveNext(){} // RVA: 0x87D280
-    public void Select(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
-}
+    public object threadId;
+    public object state;
+    public object current;
 
-public class Iterator`1 : Object
-{
     // ── Methods ──
     public void Select(){} // RVA: 0x87C540
     public void .ctor(){} // RVA: 0x4092210
@@ -339,32 +337,40 @@ public class Iterator`1 : Object
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void Where(){} // RVA: 0x87C540
+    public void Select(){} // RVA: 0x87C540
     public void .ctor(){} // RVA: 0x4092210
-    public void get_Current(){} // RVA: 0xB465B0
+    public void get_Current(){} // RVA: 0x31D74A0
     public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x40925D0
+    public void Dispose(){} // RVA: 0x4092750
     public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
-    public void Select(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void Where(){} // RVA: 0x87C540
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092760
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }
 
 public class Iterator`1 : Object
 {
+    public object threadId;
+    public object state;
+    public object current;
+
     // ── Methods ──
-    public void Select(){} // RVA: 0x87C540
     public void .ctor(){} // RVA: 0x4092210
-    public void get_Current(){} // RVA: 0xB465B0
+    public void get_Current(){} // RVA: 0x31D74A0
     public void Clone(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x40925D0
+    public void Dispose(){} // RVA: 0x4092750
     public void GetEnumerator(){} // RVA: 0x40922B0
     public void MoveNext(){} // RVA: 0x87D280
+    public void Select(){} // RVA: 0x87C540
     public void Where(){} // RVA: 0x87C540
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092760
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x40923C0
     public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }

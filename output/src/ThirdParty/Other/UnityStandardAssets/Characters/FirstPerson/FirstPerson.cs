@@ -7,6 +7,37 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
 {
     public class FirstPersonController : MonoBehaviour
     {
+        public object m_IsWalking;
+        public object m_WalkSpeed;
+        public object m_RunSpeed;
+        public object m_RunstepLenghten;
+        public object m_JumpSpeed;
+        public object m_StickToGroundForce;
+        public object m_GravityMultiplier;
+        public object m_MouseLook;
+        public object m_UseFovKick;
+        public object m_FovKick;
+        public object m_UseHeadBob;
+        public object m_HeadBob;
+        public object m_JumpBob;
+        public object m_StepInterval;
+        public object m_FootstepSounds;
+        public object m_JumpSound;
+        public object m_LandSound;
+        public object m_Camera;
+        public object m_Jump;
+        public object m_YRotation;
+        public object m_Input;
+        public object m_MoveDir;
+        public object m_CharacterController;
+        public object m_CollisionFlags;
+        public object m_PreviouslyGrounded;
+        public object m_OriginalCameraPosition;
+        public object m_StepCycle;
+        public object m_NextStep;
+        public object m_Jumping;
+        public object m_AudioSource;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB73310
         public void Update(){} // RVA: 0xB73600
@@ -24,6 +55,15 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
 
     public class HeadBob : MonoBehaviour
     {
+        public object Camera;
+        public object motionBob;
+        public object jumpAndLandingBob;
+        public object rigidbodyFirstPersonController;
+        public object StrideInterval;
+        public object RunningStrideLengthen;
+        public object m_PreviouslyGrounded;
+        public object m_OriginalCameraPosition;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xB75630
         public void Update(){} // RVA: 0xB75730
@@ -32,6 +72,18 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
 
     public class MouseLook : Object
     {
+        public object XSensitivity;
+        public object YSensitivity;
+        public object clampVerticalRotation;
+        public object MinimumX;
+        public object MaximumX;
+        public object smooth;
+        public object smoothTime;
+        public object lockCursor;
+        public object m_CharacterTargetRot;
+        public object m_CameraTargetRot;
+        public object m_cursorIsLocked;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xB75DA0
         public void LookRotation(){} // RVA: 0xB75F10
@@ -44,6 +96,19 @@ namespace ThirdParty.Other.UnityStandardAssets.Characters.FirstPerson
 
     public class RigidbodyFirstPersonController : MonoBehaviour
     {
+        public object cam;
+        public object movementSettings;
+        public object mouseLook;
+        public object advancedSettings;
+        public object m_RigidBody;
+        public object m_Capsule;
+        public object m_YRotation;
+        public object m_GroundContactNormal;
+        public object m_Jump;
+        public object m_PreviouslyGrounded;
+        public object m_Jumping;
+        public object m_IsGrounded;
+
         // ── Methods ──
         public void get_Velocity(){} // RVA: 0xB76CC0
         public void get_Grounded(){} // RVA: 0xB76D90

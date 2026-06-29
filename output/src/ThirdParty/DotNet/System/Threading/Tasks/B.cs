@@ -7,8 +7,10 @@ namespace ThirdParty.DotNet.System.Threading.Tasks
 {
     public class Box`1 : Object
     {
+        public object Value;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xA94080
     }
 
 }

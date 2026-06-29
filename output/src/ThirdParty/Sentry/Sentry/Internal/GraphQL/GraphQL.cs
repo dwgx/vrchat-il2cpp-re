@@ -7,8 +7,11 @@ namespace ThirdParty.Sentry.Sentry.Internal.GraphQL
 {
     public class GraphQLRequestContentReader : Object
     {
+        public object OperationNameKey;
+        public object QueryKey;
+
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE21B660
+        public void Read(){} // RVA: 0x6E9E0A0
     }
 
 }

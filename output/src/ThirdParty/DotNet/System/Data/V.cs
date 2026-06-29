@@ -8,7 +8,7 @@ namespace ThirdParty.DotNet.System.Data
     public class VersionNotFoundException : DataException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE4BAB10
+        public void .ctor(){} // RVA: 0x71360A0
     }
 
 }

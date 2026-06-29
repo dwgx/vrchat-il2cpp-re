@@ -7,36 +7,43 @@ namespace VRC.Udon.Wrapper
 {
     public class UdonDefaultWrapperFactory : Object
     {
+        public object _wrapperModuleTypes;
+        public object _udonWrapper;
+        public object _filter;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF93D730
-        public void GetWrapperModuleTypesFromAttribute(){} // RVA: 0x7AF93DC30
-        public void GetWrapper(){} // RVA: 0x7A80DA7B0
-        public void RegisterWrapperModule(){} // RVA: 0x7AF93DF90
-        public void CreateWrapperModule(){} // RVA: 0x7AF93E1C0
+        public void .ctor(){} // RVA: 0x87A8FC0
+        public void GetWrapperModuleTypesFromAttribute(){} // RVA: 0x87A94C0
+        public void GetWrapper(){} // RVA: 0xB465B0
+        public void RegisterWrapperModule(){} // RVA: 0x87A97D0
+        public void CreateWrapperModule(){} // RVA: 0x87A99E0
     }
 
     public class UdonWrapper : Object
     {
+        public object _wrapperModulesByName;
+        public object _componentGetterModules;
+
         // ── Methods ──
-        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF93E320
-        public void GetExternFunctionDelegate(){} // RVA: 0x7AF93E530
-        public void RegisterWrapperModule(){} // RVA: 0x7AF93E740
-        public void GetWrapperModuleByName(){} // RVA: 0x7AF93EB80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponent__T(){} // RVA: 0x7AF93ECB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInChildren__T(){} // RVA: 0x7AF93EE00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AF93EF50
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInParent__T(){} // RVA: 0x7AF93F0A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AF93F1F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponents__TArray(){} // RVA: 0x7AF93F340
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AF93F490
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AF93F5E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF93F730
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__TArray(){} // RVA: 0x7AF93F880
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AF93F9D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF93FB20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AF93FC70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__TArray(){} // RVA: 0x7AF93FDC0
-        public void .ctor(){} // RVA: 0x7AF93FF10
+        public void GetExternFunctionParameterCount(){} // RVA: 0x87A9B40
+        public void GetExternFunctionDelegate(){} // RVA: 0x87A9D50
+        public void RegisterWrapperModule(){} // RVA: 0x87A9F60
+        public void GetWrapperModuleByName(){} // RVA: 0x87AA390
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponent__T(){} // RVA: 0x87AA4C0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInChildren__T(){} // RVA: 0x87AA610
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x87AA760
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInParent__T(){} // RVA: 0x87AA8B0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x87AAA00
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponents__TArray(){} // RVA: 0x87AAB50
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponents__ListT__SystemVoid(){} // RVA: 0x87AACA0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x87AADF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x87AAF40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__TArray(){} // RVA: 0x87AB090
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x87AB1E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x87AB330
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x87AB480
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetter.GetComponentsInParent__TArray(){} // RVA: 0x87AB5D0
+        public void .ctor(){} // RVA: 0x87AB720
     }
 
 }

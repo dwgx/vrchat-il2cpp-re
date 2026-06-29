@@ -1517,6 +1517,9 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBagEnumerable`1 : ValueType
     {
+        public object m_Impl;
+        public object m_Container;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetEnumerator(){} // RVA: 0xA94080
@@ -1524,24 +1527,38 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBagEnumerable`1 : ValueType
     {
+        public object m_Impl;
+        public object m_Container;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3201C0
     }
 
     public class IndexedCollectionPropertyBagEnumerable`1 : ValueType
     {
+        public object m_Impl;
+        public object m_Container;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3201C0
     }
 
     public class IndexedCollectionPropertyBagEnumerable`1 : ValueType
     {
+        public object m_Impl;
+        public object m_Container;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3201C0
     }
 
     public class IndexedCollectionPropertyBagEnumerator`1 : ValueType
     {
+        public object m_Impl;
+        public object m_Previous;
+        public object m_Container;
+        public object m_Position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Current(){} // RVA: 0x87C0A0
@@ -1553,6 +1570,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xA94080
         public void TryGetProperty(){} // RVA: 0x880270
@@ -1570,6 +1589,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xAD0950
         public void TryGetProperty(){} // RVA: 0x4005B50
@@ -1587,6 +1608,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0x40053D0
         public void TryGetProperty(){} // RVA: 0x4005450
@@ -1604,6 +1627,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0x40053D0
         public void TryGetProperty(){} // RVA: 0x4005450
@@ -1621,6 +1646,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0x40053D0
         public void TryGetProperty(){} // RVA: 0x4005450
@@ -1638,6 +1665,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class IndexedCollectionPropertyBag`2 : PropertyBag`1
     {
+        public object m_Property;
+
         // ── Methods ──
         public void GetProperties(){} // RVA: 0xAD0950
         public void TryGetProperty(){} // RVA: 0x4005B50

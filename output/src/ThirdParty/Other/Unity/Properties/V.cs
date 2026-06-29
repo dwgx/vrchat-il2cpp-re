@@ -7,6 +7,8 @@ namespace ThirdParty.Other.Unity.Properties
 {
     public class VisitParameters : ValueType
     {
+        public object _ignoreExceptions;
+
         // ── Methods ──
         public void get_IgnoreExceptions(){} // RVA: 0x77E60
     }

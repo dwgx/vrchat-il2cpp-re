@@ -7,6 +7,11 @@ namespace VRC.DataModel
 {
     public class CalendarSearchFilters : Object
     {
+        public object Categories;
+        public object Platforms;
+        public object Languages;
+        public object WeekDay;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x26394F0
         public void .ctor(){} // RVA: 0xB43310
@@ -21,6 +26,10 @@ namespace VRC.DataModel
 
     public class EmojiMask : Object
     {
+        public object Tag;
+        public object Mask;
+        public object Overlay;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -47,6 +56,27 @@ namespace VRC.DataModel
 
     public class KeyboardData : Object
     {
+        public object _title;
+        public object _placeholderText;
+        public object _keyboardType;
+        public object _keyboardRadioButtonGroup;
+        public object _defaultRadioButtonGroupValue;
+        public object _inputType;
+        public object _contentType;
+        public object _characterLimit;
+        public object _multiline;
+        public object _readOnly;
+        public object _submitLabel;
+        public object _cancelLabel;
+        public object _isWorldKeyboard;
+        public object f_9D9;
+        public object f_E6A;
+        public object f_C87;
+        public object f_CF2;
+        public object f_325;
+        public object f_D3E;
+        public object _stayOpenAfterSubmit;
+
         // ── Methods ──
         public void get_Title(){} // RVA: 0x11E18A0
         public void get_OnRadioOptionSet(){} // RVA: 0x10B4170
@@ -93,6 +123,12 @@ namespace VRC.DataModel
 
     public class QuitHandler : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1808650
         public void Equals(){} // RVA: 0x18086B0
@@ -112,6 +148,12 @@ namespace VRC.DataModel
 
     public class SearchInFieldsUser : Object
     {
+        public object Name;
+        public object Bio;
+        public object DefaultName;
+        public object DefaultBio;
+        public object SearchContentType;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x26388D0
         public void Equals(){} // RVA: 0x2638900
@@ -129,6 +171,16 @@ namespace VRC.DataModel
 
     public class SearchInFieldsWorld : Object
     {
+        public object Title;
+        public object Tags;
+        public object Description;
+        public object Author;
+        public object DefaultTitle;
+        public object DefaultTags;
+        public object DefaultDescription;
+        public object DefaultAuthor;
+        public object SearchContentType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2638210
         public void Initialize(){} // RVA: 0x2637B40
@@ -149,6 +201,26 @@ namespace VRC.DataModel
 
     public class SearchParameters : Object
     {
+        public object SEARCH_TITLE_OVERFLOW_SUFFIX;
+        public object SearchContentType;
+        public object SearchInvokedFrom;
+        public object SearchQuery;
+        public object SearchTitle;
+        public object SearchQueryInitial;
+        public object SearchQuerySimilarity;
+        public object SearchCount;
+        public object WorldSort;
+        public object UserSort;
+        public object GroupSort;
+        public object WorldSearchInFields;
+        public object UserSearchInFields;
+        public object CalendarSearchFilters;
+        public object IncludeCommunityLabs;
+        public object IsRefined;
+        public object DefaultUserSort;
+        public object DefaultWorldSort;
+        public object DefaultGroupSort;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2639C20
         public void set_IsWorldsSearch(){} // RVA: 0x2639C30
@@ -195,6 +267,8 @@ namespace VRC.DataModel
 
     public class SupportedPlatformData : Object
     {
+        public object Platform;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -221,6 +295,117 @@ namespace VRC.DataModel
 
     public class VRCData : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_0BE;
+        public object f_EAA;
+        public object f_BA8;
+        public object f_A98;
+        public object f_15B;
+        public object f_44E;
+        public object f_F66;
+        public object f_D5C;
+        public object f_6FC;
+        public object f_E2A;
+        public object f_A5A;
+        public object f_4D4;
+        public object f_14F;
+        public object f_6F7;
+        public object f_356;
+        public object f_0E8;
+        public object f_A69;
+        public object f_C50;
+        public object f_CC1;
+        public object f_CA9;
+        public object f_5B7;
+        public object f_371;
+        public object f_4A4;
+        public object f_274;
+        public object f_8A2;
+        public object f_9E6;
+        public object f_17C;
+        public object f_AD9;
+        public object f_447;
+        public object f_ECA;
+        public object f_714;
+        public object f_2BB;
+        public object f_35A;
+        public object f_07A;
+        public object f_E17;
+        public object f_463;
+        public object f_E34;
+        public object f_0B1;
+        public object f_73C;
+        public object f_907;
+        public object f_CAF;
+        public object f_7BE;
+        public object f_E16;
+        public object f_CCF;
+        public object f_635;
+        public object f_684;
+        public object f_2AE;
+        public object f_A93;
+        public object f_CE5;
+        public object f_D40;
+        public object f_197;
+        public object f_4C7;
+        public object f_D13;
+        public object f_AB4;
+        public object f_679;
+        public object f_7DC;
+        public object f_E8B;
+        public object f_81E;
+        public object f_AC2;
+        public object f_B31;
+        public object f_9BC;
+        public object f_C01;
+        public object f_2CB;
+        public object f_F2B;
+        public object f_879;
+        public object f_021;
+        public object f_095;
+        public object f_1DC;
+        public object f_6F1;
+        public object f_1B0;
+        public object f_48B;
+        public object f_D2B;
+        public object f_00A;
+        public object f_9CC;
+        public object f_D55;
+        public object f_98A;
+        public object f_ACB;
+        public object f_8A1;
+        public object f_E16;
+        public object f_B7A;
+        public object f_718;
+        public object f_73C;
+        public object f_0F2;
+        public object f_37A;
+        public object f_AE8;
+        public object f_F21;
+        public object f_94F;
+        public object f_8E2;
+        public object f_B0E;
+        public object f_CE8;
+        public object f_3EC;
+        public object f_B99;
+        public object f_545;
+        public object f_938;
+        public object f_459;
+        public object f_8B6;
+        public object f_521;
+        public object f_CBD;
+        public object f_D0A;
+        public object f_BE7;
+        public object f_6C1;
+        public object f_9DC;
+        public object f_0F7;
+        public object f_E2A;
+        public object f_86D;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2646FA0
         public void Equals(){} // RVA: 0x2647000

@@ -13,6 +13,11 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompileAttribute : Attribute
     {
+        public object _floatMode;
+        public object _floatPrecision;
+        public object _compileSynchronously;
+        public object _options;
+
         // ── Methods ──
         public void set_FloatMode(){} // RVA: 0xB460A0
         public void set_FloatPrecision(){} // RVA: 0x116BB10
@@ -23,6 +28,10 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompiler : Object
     {
+        public object _IsEnabled;
+        public object Options;
+        public object DummyMethodInfo;
+
         // ── Methods ──
         public void get_IsEnabled(){} // RVA: 0x77C9F60
         public void CompileFunctionPointer(){} // RVA: 0xA94080
@@ -33,6 +42,14 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstCompilerOptions : Object
     {
+        public object ForceDisableBurstCompilation;
+        public object ForceBurstCompilationSynchronously;
+        public object IsSecondaryUnityProcess;
+        public object _enableBurstCompilation;
+        public object _enableBurstSafetyChecks;
+        public object _isGlobal;
+        public object _optionsChanged;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x77CB7E0
         public void get_IsGlobal(){} // RVA: 0x22201E0
@@ -65,6 +82,12 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class BurstString : Object
     {
+        public object SplitByColon;
+        public object logTable;
+        public object g_PowerOf10_U32;
+        public object InfinityString;
+        public object NanString;
+
         // ── Methods ──
         public void CopyFixedString(){} // RVA: 0x77CC4D0
         public void Format(){} // RVA: 0x77CCF40
@@ -103,6 +126,8 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class FunctionPointer`1 : ValueType
     {
+        public object _ptr;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943F0
         public void get_Value(){} // RVA: 0x87C0A0
@@ -123,6 +148,8 @@ namespace ThirdParty.Other.Unity.Burst
 
     public class SharedStatic`1 : ValueType
     {
+        public object _buffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Data(){} // RVA: 0x87C0A0

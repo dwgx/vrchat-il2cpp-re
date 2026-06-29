@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class Quaternion : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -23,6 +25,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionArray : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -43,6 +47,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionArrayT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -57,6 +63,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionHalf : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -70,6 +78,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionHalfT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60
@@ -78,6 +88,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionT : Object
     {
+        public object _x;
+        public object _y;
+        public object _z;
+        public object _w;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8215970
         public void CopyFrom(){} // RVA: 0x82153A0
@@ -102,6 +117,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionTenBit : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -115,6 +132,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class QuaternionTenBitT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60

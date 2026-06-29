@@ -7,6 +7,8 @@ namespace VRC.SDKBase.Validation
 {
     public class TypeUtils : Object
     {
+        public object _typeCache;
+
         // ── Methods ──
         public void GetTypeFromName(){} // RVA: 0xA752FA0
         public void FindDerivedTypes(){} // RVA: 0xA7534C0
@@ -16,6 +18,8 @@ namespace VRC.SDKBase.Validation
 
     public class VRCSdkWhitelistAttribute : Attribute
     {
+        public object _name;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xB8F8F0
         public void .ctor(){} // RVA: 0xB460A0
@@ -43,8 +47,13 @@ namespace VRC.SDKBase.Validation
 
     public class ValidationUtils : Object
     {
+        public object _componentCache;
+        public object EDITOR_ONLY_TAG;
+        public object _whitelistCache;
+        public object _requireComponentsCache;
+
         // ── Methods ──
-        public void RemoveComponentsOfType(){} // RVA: 0x899E00
+        public void RemoveComponentsOfType(){} // RVA: 0x2B08350
         public void RemoveIllegalComponents(){} // RVA: 0xA753890
         public void FindIllegalComponents(){} // RVA: 0xA753ED0
         public void IsIllegalComponent(){} // RVA: 0xA754220

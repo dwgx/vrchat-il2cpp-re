@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 {
     public class CertificateHandler : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x812BBF0
         public void ReleaseFromScripting(){} // RVA: 0x812BC40
@@ -40,6 +42,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandler : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void ReleaseFromScripting(){} // RVA: 0x812BE10
         public void .ctor(){} // RVA: 0xB43310
@@ -87,6 +91,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandlerBuffer : DownloadHandler
     {
+        public object m_NativeData;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x812CA90
         public void InternalCreateBuffer(){} // RVA: 0x812CAE0
@@ -117,6 +123,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadHandlerTexture : DownloadHandler
     {
+        public object m_NativeData;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x8131730
         public void InternalCreateTexture(){} // RVA: 0x8131790
@@ -152,6 +160,9 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class DownloadedTextureParams : ValueType
     {
+        public object flags;
+        public object mipmapCount;
+
         // ── Methods ──
         public void get_Default(){} // RVA: 0x8131710
         public void set_readable(){} // RVA: 0x9AF670
@@ -180,6 +191,21 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequest : Object
     {
+        public object m_Ptr;
+        public object m_DownloadHandler;
+        public object m_UploadHandler;
+        public object m_CertificateHandler;
+        public object m_Uri;
+        public object kHttpVerbGET;
+        public object kHttpVerbHEAD;
+        public object kHttpVerbPOST;
+        public object kHttpVerbPUT;
+        public object kHttpVerbCREATE;
+        public object kHttpVerbDELETE;
+        public object _disposeCertificateHandlerOnDispose;
+        public object _disposeDownloadHandlerOnDispose;
+        public object _disposeUploadHandlerOnDispose;
+
         // ── Methods ──
         public void GetWebErrorString(){} // RVA: 0x812D220
         public void GetHTTPStatusString(){} // RVA: 0x812D2F0
@@ -273,6 +299,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UnityWebRequestAsyncOperation : AsyncOperation
     {
+        public object _webRequest;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B30300
         public void get_webRequest(){} // RVA: 0xB700F0
@@ -307,6 +335,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UploadHandler : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void ReleaseFromScripting(){} // RVA: 0x81311D0
         public void .ctor(){} // RVA: 0xB43310
@@ -317,6 +347,8 @@ namespace ThirdParty.Unity.UnityEngine.Networking
 
     public class UploadHandlerRaw : UploadHandler
     {
+        public object m_Payload;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x8131300
         public void .ctor(){} // RVA: 0x8131580

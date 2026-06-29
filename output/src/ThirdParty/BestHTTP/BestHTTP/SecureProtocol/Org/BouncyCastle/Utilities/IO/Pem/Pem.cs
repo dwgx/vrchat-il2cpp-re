@@ -8,60 +8,76 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
     public class PemGenerationException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151B7B0
+        public void .ctor(){} // RVA: 0xA386B20
     }
 
     public class PemHeader : Object
     {
+        public object name;
+        public object val;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void get_Name(){} // RVA: 0x7A80F2570
-        public void get_Value(){} // RVA: 0x7A80DA7B0
-        public void GetHashCode(){} // RVA: 0x7B151B9C0
-        public void Equals(){} // RVA: 0x7B151B890
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void get_Name(){} // RVA: 0xB5DBF0
+        public void get_Value(){} // RVA: 0xB465B0
+        public void GetHashCode(){} // RVA: 0xA386D30
+        public void Equals(){} // RVA: 0xA386C00
     }
 
     public class PemObject : Object
     {
+        public object type;
+        public object headers;
+        public object content;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151BAB0
-        public void get_Type(){} // RVA: 0x7A80F2570
-        public void get_Headers(){} // RVA: 0x7A80DA7B0
-        public void get_Content(){} // RVA: 0x7A81052C0
-        public void Generate(){} // RVA: 0x7A97F8BA0
+        public void .ctor(){} // RVA: 0xA386E20
+        public void get_Type(){} // RVA: 0xB5DBF0
+        public void get_Headers(){} // RVA: 0xB465B0
+        public void get_Content(){} // RVA: 0xB700F0
+        public void Generate(){} // RVA: 0x2303260
     }
 
     public class PemObjectGenerator
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0x7A7E00680
+        public void Generate(){} // RVA: 0x87C0A0
     }
 
     public class PemObjectParser
     {
         // ── Methods ──
-        public void ParseObject(){} // RVA: 0x7A7E00B20
+        public void ParseObject(){} // RVA: 0x87C540
     }
 
     public class PemReader : Object
     {
+        public object BeginString;
+        public object EndString;
+        public object reader;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151BC60
-        public void get_Reader(){} // RVA: 0x7A80F2570
-        public void ReadPemObject(){} // RVA: 0x7B151BD10
-        public void LoadObject(){} // RVA: 0x7B151BE40
+        public void .ctor(){} // RVA: 0xA386FD0
+        public void get_Reader(){} // RVA: 0xB5DBF0
+        public void ReadPemObject(){} // RVA: 0xA387080
+        public void LoadObject(){} // RVA: 0xA3871B0
     }
 
     public class PemWriter : Object
     {
+        public object LineLength;
+        public object writer;
+        public object nlLength;
+        public object buf;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B151C310
-        public void get_Writer(){} // RVA: 0x7A80F2570
-        public void GetOutputSize(){} // RVA: 0x7B151C4B0
-        public void WriteObject(){} // RVA: 0x7B151C830
-        public void WriteEncoded(){} // RVA: 0x7B151CD90
-        public void WritePreEncapsulationBoundary(){} // RVA: 0x7B151CE70
-        public void WritePostEncapsulationBoundary(){} // RVA: 0x7B151CF00
+        public void .ctor(){} // RVA: 0xA387680
+        public void get_Writer(){} // RVA: 0xB5DBF0
+        public void GetOutputSize(){} // RVA: 0xA387820
+        public void WriteObject(){} // RVA: 0xA387BA0
+        public void WriteEncoded(){} // RVA: 0xA388100
+        public void WritePreEncapsulationBoundary(){} // RVA: 0xA3881E0
+        public void WritePostEncapsulationBoundary(){} // RVA: 0xA388270
     }
 
 }

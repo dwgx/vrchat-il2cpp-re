@@ -8,14 +8,16 @@ namespace ThirdParty.DotNet.System.Xml
     public class OnRemoveWriter : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class OpenedHost : Object
     {
+        public object nonCachedConnectionsCount;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

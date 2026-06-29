@@ -7,6 +7,32 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class GenericDropdownMenu : Object
     {
+        public object ussClassName;
+        public object itemUssClassName;
+        public object itemContentUssClassName;
+        public object labelUssClassName;
+        public object containerInnerUssClassName;
+        public object containerOuterUssClassName;
+        public object checkmarkUssClassName;
+        public object separatorUssClassName;
+        public object contentWidthUssClassName;
+        public object m_Items;
+        public object m_MenuContainer;
+        public object m_OuterContainer;
+        public object m_ScrollView;
+        public object m_PanelRootVisualContainer;
+        public object m_TargetElement;
+        public object m_DesiredRect;
+        public object m_NavigationManipulator;
+        public object m_PositionTop;
+        public object m_PositionLeft;
+        public object m_ContentWidth;
+        public object m_FitContentWidth;
+        public object m_ShownAboveTarget;
+        public object _isSingleSelectionDropdown;
+        public object _closeOnParentResize;
+        public object m_MousePosition;
+
         // ── Methods ──
         public void get_isSingleSelectionDropdown(){} // RVA: 0x7171AF0
         public void set_isSingleSelectionDropdown(){} // RVA: 0x726F080
@@ -41,6 +67,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class GeometryChangedEvent : EventBase`1
     {
+        public object _oldRect;
+        public object _newRect;
+        public object _layoutPass;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x805F9E0
         public void GetPooled(){} // RVA: 0x805FAD0
@@ -84,6 +114,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class GroupBox : BindableElement
     {
+        public object textProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object m_TitleLabel;
+
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FE7400
         public void set_text(){} // RVA: 0x7FE7430
@@ -95,6 +130,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class GroupBoxUtility : Object
     {
+        public object s_GroupManagers;
+        public object s_GroupOptionManagerCache;
+        public object k_GenericGroupBoxType;
+
         // ── Methods ──
         public void RegisterGroupBoxOption(){} // RVA: 0xA94080
         public void UnregisterGroupBoxOption(){} // RVA: 0xA94080

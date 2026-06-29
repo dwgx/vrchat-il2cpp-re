@@ -7,8 +7,18 @@ namespace ThirdParty.DotNet.System
 {
     public class HashCode : ValueType
     {
+        public object s_seed;
+        public object _v1;
+        public object _v2;
+        public object _v3;
+        public object _v4;
+        public object _queue1;
+        public object _queue2;
+        public object _queue3;
+        public object _length;
+
         // ── Methods ──
-        public void Combine(){} // RVA: 0x30DF680
+        public void Combine(){} // RVA: 0xA94080
         public void GenerateGlobalSeed(){} // RVA: 0x69104A0
         public void Rol(){} // RVA: 0x69104D0
         public void Initialize(){} // RVA: 0x69104F0

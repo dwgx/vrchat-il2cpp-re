@@ -7,12 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class MaxAttribute : Attribute
     {
+        public object max;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC763F0
     }
 
     public class MeshUtilities : Object
     {
+        public object s_Primitives;
+        public object s_ColliderPrimitives;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7993450
         public void GetColliderMesh(){} // RVA: 0x79937C0
@@ -22,18 +27,26 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MinAttribute : Attribute
     {
+        public object min;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC763F0
     }
 
     public class MinMaxAttribute : Attribute
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x1976A80
     }
 
     public class Monitor : Object
     {
+        public object _output;
+        public object requested;
+
         // ── Methods ──
         public void get_output(){} // RVA: 0xB5DBF0
         public void set_output(){} // RVA: 0xB44D60
@@ -49,6 +62,9 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MotionBlur : PostProcessEffectSettings
     {
+        public object shutterAngle;
+        public object sampleCount;
+
         // ── Methods ──
         public void IsEnabledAndSupported(){} // RVA: 0x7969FA0
         public void .ctor(){} // RVA: 0x796A0A0
@@ -65,6 +81,22 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 
     public class MultiScaleVO : Object
     {
+        public object m_SampleThickness;
+        public object m_InvThicknessTable;
+        public object m_SampleWeightTable;
+        public object m_Widths;
+        public object m_Heights;
+        public object m_ScaledWidths;
+        public object m_ScaledHeights;
+        public object m_Settings;
+        public object m_PropertySheet;
+        public object m_Resources;
+        public object m_AmbientOnlyAO;
+        public object m_R8Format;
+        public object m_R16Format;
+        public object float4Texture;
+        public object m_MRT;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x796B570
         public void GetCameraFlags(){} // RVA: 0xC3CCE0

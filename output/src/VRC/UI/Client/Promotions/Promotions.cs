@@ -7,6 +7,9 @@ namespace VRC.UI.Client.Promotions
 {
     public class PromotionDataManager : Object
     {
+        public object PromotionDataHandlers;
+        public object Instance;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x14E3790
         public void Equals(){} // RVA: 0x14E3910

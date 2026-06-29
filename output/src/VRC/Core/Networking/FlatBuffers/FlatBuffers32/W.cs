@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class WorldMetadata : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x9BBA50
         public void ComputeHash(){} // RVA: 0x9BBBD0
@@ -57,6 +59,16 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WorldMetadataT : Object
     {
+        public object _hash;
+        public object _playerPersistenceGuid;
+        public object _playerPersistenceMetadatas;
+        public object _objectMetadatas;
+        public object _maximumViewIDs;
+        public object _minimumViewID;
+        public object _firstPlayerPersistenceID;
+        public object _maxPlayerPersistenceID;
+        public object _networkCallingViews;
+
         // ── Methods ──
         public void CompareHash(){} // RVA: 0x8245230
         public void ComputeHash(){} // RVA: 0x8245420
@@ -92,6 +104,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -105,6 +119,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBoolT : Object
     {
+        public object _b;
+
         // ── Methods ──
         public void get_B(){} // RVA: 0xC120A0
         public void set_B(){} // RVA: 0xC120B0
@@ -113,6 +129,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedByte : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -126,6 +144,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedByteT : Object
     {
+        public object _b;
+
         // ── Methods ──
         public void get_B(){} // RVA: 0xC120A0
         public void set_B(){} // RVA: 0xC120B0
@@ -134,6 +154,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBytes : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -158,6 +180,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedBytesT : Object
     {
+        public object _b;
+
         // ── Methods ──
         public void get_B(){} // RVA: 0xB5DBF0
         public void set_B(){} // RVA: 0xB44D60
@@ -172,6 +196,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedDouble : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -185,6 +211,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedDoubleT : Object
     {
+        public object _d;
+
         // ── Methods ──
         public void get_D(){} // RVA: 0x2566C50
         public void set_D(){} // RVA: 0x4B6F180
@@ -193,6 +221,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedFloat : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -206,6 +236,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedFloatT : Object
     {
+        public object _f;
+
         // ── Methods ──
         public void get_F(){} // RVA: 0xC763E0
         public void set_F(){} // RVA: 0xC763F0
@@ -214,6 +246,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -227,6 +261,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedIntT : Object
     {
+        public object _i;
+
         // ── Methods ──
         public void get_I(){} // RVA: 0xB8F8F0
         public void set_I(){} // RVA: 0xB460A0
@@ -235,6 +271,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLong : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -253,6 +291,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedLongT : Object
     {
+        public object _l;
+
         // ── Methods ──
         public void get_L(){} // RVA: 0xB5DBF0
         public void set_L(){} // RVA: 0x2230E30
@@ -267,6 +307,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedShort : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -280,6 +322,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedShortT : Object
     {
+        public object _s;
+
         // ── Methods ──
         public void get_S(){} // RVA: 0x24EA1D0
         public void set_S(){} // RVA: 0x24EAB10
@@ -288,6 +332,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedString : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -308,6 +354,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedStringT : Object
     {
+        public object _s;
+
         // ── Methods ──
         public void get_S(){} // RVA: 0xB5DBF0
         public void set_S(){} // RVA: 0xB44D60
@@ -322,6 +370,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUByte : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -335,6 +385,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUByteT : Object
     {
+        public object _u;
+
         // ── Methods ──
         public void get_U(){} // RVA: 0xC120A0
         public void set_U(){} // RVA: 0xC120B0
@@ -343,6 +395,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -356,6 +410,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUIntT : Object
     {
+        public object _u;
+
         // ── Methods ──
         public void get_U(){} // RVA: 0xB8F8F0
         public void set_U(){} // RVA: 0xB460A0
@@ -364,6 +420,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedULong : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -382,6 +440,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedULongT : Object
     {
+        public object _u;
+
         // ── Methods ──
         public void get_U(){} // RVA: 0xB5DBF0
         public void set_U(){} // RVA: 0x2230E30
@@ -396,6 +456,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUShort : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -409,6 +471,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class WrappedUShortT : Object
     {
+        public object _u;
+
         // ── Methods ──
         public void get_U(){} // RVA: 0x24EA1D0
         public void set_U(){} // RVA: 0x24EAB10

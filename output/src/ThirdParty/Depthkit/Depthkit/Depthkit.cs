@@ -7,6 +7,24 @@ namespace ThirdParty.Depthkit.Depthkit
 {
     public class Clip : MonoBehaviour
     {
+        public object newFrame;
+        public object newPoster;
+        public object m_newMetadata;
+        public object m_metadataFilePath;
+        public object m_metadataFile;
+        public object m_metadataSourceType;
+        public object m_metadata;
+        public object m_perspectiveDataBuffer;
+        public object m_player;
+        public object m_lastFrame;
+        public object m_currentCPPTexture;
+        public object m_poster;
+        public object m_disablePoster;
+        public object m_dataSourceRoots;
+        public object m_doResizeData;
+        public object m_doGenerateData;
+        public object s_edgeChoke;
+
         // ── Methods ──
         public void add_newFrame(){} // RVA: 0x26AD0D0
         public void remove_newFrame(){} // RVA: 0x26AD1C0
@@ -73,6 +91,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class ClipPlayer : MonoBehaviour
     {
+        public object _videoLoaded;
+        public object events;
+
         // ── Methods ──
         public void get_videoLoaded(){} // RVA: 0xC38360
         public void set_videoLoaded(){} // RVA: 0xC38370
@@ -117,6 +138,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class CoreLook : ProceduralLook
     {
+        public object s_defaultUnlitPhotoLookShader;
+        public object s_defaultUnlitPhotoLookMaterial;
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x26BC1D0
         public void GetLookName(){} // RVA: 0x26BC4B0
@@ -127,6 +151,22 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class CoreMeshSource : MeshSource
     {
+        public object surfaceTriangleCountPercent;
+        public object m_meshDensity;
+        public object m_latticeResolution;
+        public object m_latticeMaxTriangles;
+        public object normalGenerationTechnique;
+        public object adjustableNormalSlope;
+        public object edgeCompressionNoiseThreshold;
+        public object clipThreshold;
+        public object ditherEdge;
+        public object ditherWidth;
+        public object vertexCount;
+        public object m_vertexBuffer;
+        public object m_vertexBufferSlices;
+        public object m_generateDataCompute;
+        public object maskGenerator;
+
         // ── Methods ──
         public void get_meshDensity(){} // RVA: 0x26B1B90
         public void set_meshDensity(){} // RVA: 0x26B1BB0
@@ -158,6 +198,14 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class DataSource : MonoBehaviour
     {
+        public object events;
+        public object m_bIsSetup;
+        public object m_clip;
+        public object m_parent;
+        public object m_doUpdate;
+        public object m_doResize;
+        public object m_children;
+
         // ── Methods ──
         public void get_clip(){} // RVA: 0xD33E60
         public void get_dataSourceParent(){} // RVA: 0xD05CA0
@@ -203,6 +251,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class DataSourceEvents : Object
     {
+        public object m_dataGenerated;
+        public object m_dataResized;
+
         // ── Methods ──
         public void add_m_dataGenerated(){} // RVA: 0x26B5D40
         public void remove_m_dataGenerated(){} // RVA: 0x26B5E30
@@ -228,6 +279,16 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class GaussianBlurFilter : Object
     {
+        public object radius;
+        public object reductionFactor;
+        public object slices;
+        public object m_prevReductionFactor;
+        public object m_textures;
+        public object m_currentTexture;
+        public object m_blurCompute;
+        public object s_defaultComputeBlurShaderName;
+        public object m_pongSize;
+
         // ── Methods ──
         public void get_hasTexture(){} // RVA: 0x26C1120
         public void get_texture(){} // RVA: 0x26C1130
@@ -255,6 +316,8 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Info : Object
     {
+        public object Version;
+
         // ── Methods ──
         public void IsPlatformValid(){} // RVA: 0x26C2B20
         public void .ctor(){} // RVA: 0xB43310
@@ -263,6 +326,15 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Look : MonoBehaviour
     {
+        public object depthkitClip;
+        public object showPerViewColorDebug;
+        public object showCameraFrustums;
+        public object onUpdated;
+        public object m_materialPropertyBlock;
+        public object meshSource;
+        public object m_collider;
+        public object m_bIsInit;
+
         // ── Methods ──
         public void EnsureMaterialPropertyBlock(){} // RVA: 0x26BC7C0
         public void get_materialPropertyBlock(){} // RVA: 0x26BC8D0
@@ -290,6 +362,27 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class MaskGenerator : Object
     {
+        public object clip;
+        public object scale;
+        public object invalidateEdgeWidth;
+        public object invalidateStrength;
+        public object m_maskGeneratorCompute;
+        public object m_maskTextureFormat;
+        public object m_maskTexture;
+        public object m_maskTextureTS;
+        public object m_perspectivesToSlice;
+        public object m_sliceToPerspective;
+        public object enableBlur;
+        public object enableMaskDebug;
+        public object m_blurFilter;
+        public object sobelMultiplier;
+        public object m_sobelFilterCompute;
+        public object m_sobelFilterKId;
+        public object m_downScale;
+        public object m_downScaleCompute;
+        public object m_downScaleKId;
+        public object m_downScaledMaskTexture;
+
         // ── Methods ──
         public void get_perspectivesToSlice(){} // RVA: 0xBE58B0
         public void set_perspectivesToSlice(){} // RVA: 0xCA4DF0
@@ -318,6 +411,25 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class MeshSource : DataSource
     {
+        public object recalculateCurrentSurfaceTriangleCount;
+        public object m_subMeshes;
+        public object m_subMeshMaxTriangles;
+        public object m_forceStereo;
+        public object m_currentSubmeshIndex;
+        public object m_useTriangleMesh;
+        public object radialBiasMin;
+        public object radialBiasMax;
+        public object radialBiasDefault;
+        public object radialBias;
+        public object radialBiasPersp;
+        public object radialBiasPerspInMeters;
+        public object pauseDataGenerationWhenInvisible;
+        public object pausePlayerWhenInvisible;
+        public object m_wasPlaying;
+        public object m_doGeneration;
+        public object m_pausedFromRenderer;
+        public object m_seenOnce;
+
         // ── Methods ──
         public void GetSubMesh(){} // RVA: 0xA94080
         public void CurrentSubMesh(){} // RVA: 0xA94080
@@ -353,6 +465,22 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Metadata : Object
     {
+        public object MaxPerspectives;
+        public object MAX_PERSPECTIVES;
+        public object eps;
+        public object _versionMajor;
+        public object _versionMinor;
+        public object format;
+        public object textureWidth;
+        public object textureHeight;
+        public object boundsCenter;
+        public object boundsSize;
+        public object perspectives;
+        public object perspectivesCount;
+        public object numRows;
+        public object numColumns;
+        public object numAngles;
+
         // ── Methods ──
         public void Valid(){} // RVA: 0x26C2FA0
         public void get_perspectiveCPPResolution(){} // RVA: 0x26C2FC0
@@ -373,6 +501,15 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class PerspectiveColorBlending : ValueType
     {
+        public object enabled;
+        public object edgeMaskEnabled;
+        public object edgeMaskBlendEdgeMin;
+        public object edgeMaskBlendEdgeMax;
+        public object edgeMaskStrength;
+        public object viewWeightPowerContribution;
+        public object pad0;
+        public object pad1;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x26D2CB0
     }
@@ -417,12 +554,24 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class PerspectiveGeometry : ValueType
     {
+        public object enabled;
+        public object overrideWeightUnknown;
+        public object weightUnknown;
+        public object viewDependentUnseenAmount;
+        public object viewDependentInFrontAmount;
+        public object viewDependentWeight;
+        public object pad2;
+        public object pad1;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x26D35E0
     }
 
     public class PerspectiveGeometryData : SyncedStructuredBuffer`1
     {
+        public object m_geometryMatchesColorWeights;
+        public object m_viewDependentContributions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26D36B0
         public void EnableGeometry(){} // RVA: 0x26D3A50
@@ -470,6 +619,12 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class PlayerEvents : Object
     {
+        public object playbackStarted;
+        public object playbackPaused;
+        public object playbackStopped;
+        public object loadingStarted;
+        public object loadingFinished;
+
         // ── Methods ──
         public void add_playbackStarted(){} // RVA: 0x26BEEC0
         public void remove_playbackStarted(){} // RVA: 0x26BEFB0
@@ -491,6 +646,12 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class ProceduralLook : Look
     {
+        public object shadowCastingMode;
+        public object receiveShadows;
+        public object interpolateLightProbes;
+        public object anchorOverride;
+        public object lookMaterial;
+
         // ── Methods ──
         public void UsesMaterial(){} // RVA: 0xC2E4C0
         public void GetMaterial(){} // RVA: 0xBBFF90
@@ -502,6 +663,10 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SetCaptureFrameRate : MonoBehaviour
     {
+        public object onFrameBegin;
+        public object onFrameEnd;
+        public object captureFramteRate;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x26C4670
         public void Update(){} // RVA: 0x26C4680
@@ -511,6 +676,29 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLiteLook : ProceduralLook
     {
+        public object s_defaultMainStencilShader;
+        public object s_defaultMainStencilMaterial;
+        public object s_defaultMainShader;
+        public object s_defaultMainMaterial;
+        public object s_defaultMainEdgeStencilShader;
+        public object s_defaultMainEdgeStencilMaterial;
+        public object s_defaultMainEdgeShader;
+        public object s_defaultMainEdgeMaterial;
+        public object s_defaultFillShader;
+        public object s_defaultFillMaterial;
+        public object s_defaultFillEdgeShader;
+        public object s_defaultFillEdgeMaterial;
+        public object mainPerspectiveStencil;
+        public object mainPerspectiveEdgeStencil;
+        public object mainPerspective;
+        public object mainPerspectiveEdge;
+        public object fillPerspectives;
+        public object fillPerspectivesEdges;
+        public object showMain;
+        public object showMainEdge;
+        public object showFill;
+        public object showFillEdge;
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x26D6020
         public void GetLookName(){} // RVA: 0x26D6CD0
@@ -522,6 +710,13 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLiteMeshSource : CoreMeshSource
     {
+        public object volumeViewpoint;
+        public object maxPerspectivesToRender;
+        public object enableAdaptiveThreshold;
+        public object maxViewAngleCosThreshold;
+        public object minClipThreshold;
+        public object minDitherWidth;
+
         // ── Methods ──
         public void GetComputeShaderName(){} // RVA: 0x26D4120
         public void GetKernelNamePostfix(){} // RVA: 0x26D4160
@@ -535,6 +730,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioLook : ProceduralLook
     {
+        public object s_defaultUnlitPhotoLookShader;
+        public object s_defaultUnlitPhotoLookMaterial;
+
         // ── Methods ──
         public void GetDefaultMaterial(){} // RVA: 0x26D2710
         public void GetLookName(){} // RVA: 0x26D29F0
@@ -545,6 +743,86 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class StudioMeshSource : MeshSource
     {
+        public object generationMethod;
+        public object m_generateVolumeCompute;
+        public object m_generateVolumePreviewCompute;
+        public object m_extractSurfaceCompute;
+        public object m_sdfFilterCompute;
+        public object m_generateNormalWeightsCompute;
+        public object showVolumePreview;
+        public object m_volumePreviewMaterial;
+        public object volumePreviewAlpha;
+        public object volumePreviewPointSize;
+        public object automaticLevelOfDetail;
+        public object levelOfDetailDistance;
+        public object m_currentLODLevel;
+        public object m_currentLODIsoScalar;
+        public object m_mainCamera;
+        public object m_volumeBounds;
+        public object m_volumeDensity;
+        public object m_voxelGridDimensions;
+        public object _numLevelOfDetailLevels;
+        public object m_totalVoxelCount;
+        public object surfaceSmoothingRadius;
+        public object enableSurfaceSmoothing;
+        public object m_surfaceSensitivityThreshold;
+        public object surfaceSensitivityDefault;
+        public object weightUnknownDefault;
+        public object weightUnseenMaxDefault;
+        public object weightUnseenMinDefault;
+        public object weightUnseenFalloffPowerDefault;
+        public object weightInFrontMaxDefault;
+        public object weightInFrontMinDefault;
+        public object surfaceSensitivity;
+        public object weightUnknown;
+        public object weightUnseenMax;
+        public object weightUnseenMin;
+        public object weightUnseenFalloffPower;
+        public object weightInFrontMax;
+        public object weightInFrontMin;
+        public object volumeViewpoint;
+        public object surfaceNormalColorBlendingPower;
+        public object perViewDisparityThreshold;
+        public object perViewDisparityBlendWidth;
+        public object disparityMin;
+        public object globalViewDependentColorBlendWeight;
+        public object globalViewDependentGeometryBlendWeight;
+        public object enableViewDependentGeometry;
+        public object untexturedFragmentSetting;
+        public object untexturedColor;
+        public object m_sdfBuffers;
+        public object m_currentSdfBuffer;
+        public object m_pointsBuffer;
+        public object m_triangleConnectionTableSize;
+        public object m_triangleOffsetsSize;
+        public object m_numberOfTrianglesSize;
+        public object m_triangleBufferSize;
+        public object m_triangleBuffer;
+        public object m_halfBlitMaterial;
+        public object m_normalWeightTexture;
+        public object m_normalWeightTextureTexelSize;
+        public object m_normalWeightGenerationMaterial;
+        public object m_generateVolumeKernelGroupSize;
+        public object m_extractSurfaceKernelGroupSize;
+        public object m_extractSurfaceKId;
+        public object m_normalWeightKId;
+        public object m_generateVolumeSinglePassKId;
+        public object m_generateVolumeMultiPassInitKId;
+        public object m_generateVolumeMultiPassAccumulateKId;
+        public object m_generateVolumeMultiPassResolveKId;
+        public object m_generateVolumePreviewKId;
+        public object perspectiveColorBlendingData;
+        public object perspectiveGeometryData;
+        public object overrideRadialBias;
+        public object perspectivesCount;
+        public object normalWeightResolutionReduction;
+        public object m_useTextureAtlas;
+        public object triangleOffsets;
+        public object triangleConnectionTable;
+        public object nrOfTriangles;
+        public object maskGenerator;
+        public object m_enableEdgeMask;
+
         // ── Methods ──
         public void set_currentLevelOfDetailLevel(){} // RVA: 0x26CA660
         public void get_currentLevelOfDetailLevel(){} // RVA: 0x25C0CD0
@@ -600,6 +878,15 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SubMesh : Object
     {
+        public object maxTriangles;
+        public object m_triangleBuffer;
+        public object m_trianglesCount;
+        public object m_dispatchIndirectArgs;
+        public object m_drawIndirectArgs;
+        public object m_source;
+        public object useTriangleMesh;
+        public object m_triangleMesh;
+
         // ── Methods ──
         public void GetDataTypeSizeInBytes(){} // RVA: 0x87C130
         public void get_triangleBuffer(){} // RVA: 0xB465B0
@@ -662,6 +949,11 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SyncedStructuredBuffer`1 : Object
     {
+        public object buffer;
+        public object m_data;
+        public object m_dirty;
+        public object m_name;
+
         // ── Methods ──
         public void F(){} // RVA: 0xD06C518
         public void .ctor(){} // RVA: 0x4BA5BD0
@@ -673,6 +965,11 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SyncedStructuredBuffer`1 : Object
     {
+        public object buffer;
+        public object m_data;
+        public object m_dirty;
+        public object m_name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894600
         public void get_Length(){} // RVA: 0x87C130
@@ -683,6 +980,11 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SyncedStructuredBuffer`1 : Object
     {
+        public object buffer;
+        public object m_data;
+        public object m_dirty;
+        public object m_name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4BA5BD0
         public void get_Length(){} // RVA: 0x4BA5D40
@@ -693,6 +995,11 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class SyncedStructuredBuffer`1 : Object
     {
+        public object buffer;
+        public object m_data;
+        public object m_dirty;
+        public object m_name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4BA5BD0
         public void get_Length(){} // RVA: 0x4BA5D40
@@ -703,6 +1010,12 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class TriangleMesh : Object
     {
+        public object source;
+        public object m_mesh;
+        public object m_triangleCount;
+        public object s_cubeVerts;
+        public object s_cubeTriangles;
+
         // ── Methods ──
         public void get_TriangleCount(){} // RVA: 0xFEAE90
         public void set_TriangleCount(){} // RVA: 0x26C4710
@@ -722,6 +1035,9 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class UnityVideoPlayer : ClipPlayer
     {
+        public object m_mediaPlayer;
+        public object m_audioSource;
+
         // ── Methods ──
         public void CreatePlayer(){} // RVA: 0x26BF820
         public void IsPlayerCreated(){} // RVA: 0x26BFDC0
@@ -784,6 +1100,10 @@ namespace ThirdParty.Depthkit.Depthkit
 
     public class Version : ValueType
     {
+        public object _major;
+        public object _minor;
+        public object _patch;
+
         // ── Methods ──
         public void get_major(){} // RVA: 0x90520
         public void set_major(){} // RVA: 0x90530

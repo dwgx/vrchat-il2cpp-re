@@ -1,10 +1,13 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 91
-// Methods: 383
+// Classes: 88
+// Methods: 366
 
 public class AABB : ValueType
 {
+    public object pos0;
+    public object pos1;
+
     // ── Methods ──
     public void ClosestPoint(){} // RVA: 0x9C68E0
 }
@@ -21,12 +24,6 @@ public class AOTEmittedFormatter`1 : EasyBaseFormatter`1
     public void .ctor(){} // RVA: 0x3896ED0
 }
 
-public class ASCIIEncodingSealed : ASCIIEncoding
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x66AFFF0
-}
-
 public class ATypeName : Object
 {
     // ── Methods ──
@@ -34,6 +31,46 @@ public class ATypeName : Object
     public void Equals(){} // RVA: 0x698CDB0
     public void GetHashCode(){} // RVA: 0x698CD70
     public void .ctor(){} // RVA: 0xB43310
+}
+
+public class Action`1 : Action
+{
+    public object _event;
+    public object action;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void Enable(){} // RVA: 0x3EF9520
+}
+
+public class Action`1 : Action
+{
+    public object _event;
+    public object action;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void Enable(){} // RVA: 0x3EF9520
+}
+
+public class Action`1 : Action
+{
+    public object _event;
+    public object action;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void Enable(){} // RVA: 0x3EF95C0
+}
+
+public class Action`2 : Action
+{
+    public object _event;
+    public object action;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void Enable(){} // RVA: 0x406E930
 }
 
 public class Action`4 : MulticastDelegate
@@ -45,6 +82,8 @@ public class Action`4 : MulticastDelegate
 
 public class ActivityAssets : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x26D8670
     public void Drop(){} // RVA: 0x26D86F0
@@ -56,6 +95,9 @@ public class ActivityAssets : ValueType
 
 public class ActivityBaggageLogScopeWrapper : Object
 {
+    public object _items;
+    public object _stringBuilder;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetEnumerator(){} // RVA: 0x662C5A0
@@ -65,6 +107,10 @@ public class ActivityBaggageLogScopeWrapper : Object
 
 public class ActivityLogScope : Object
 {
+    public object _cachedToString;
+    public object _items;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x662B960
     public void get_Count(){} // RVA: 0xFEAE90
@@ -76,6 +122,8 @@ public class ActivityLogScope : Object
 
 public class ActivityParty : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x26D8B40
     public void Drop(){} // RVA: 0x26D8BC0
@@ -86,6 +134,8 @@ public class ActivityParty : ValueType
 
 public class ActivitySecrets : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x26D8E00
     public void Drop(){} // RVA: 0x26D8E80
@@ -94,6 +144,8 @@ public class ActivitySecrets : ValueType
 
 public class ActivityTimestamps : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x26D89B0
     public void Drop(){} // RVA: 0x26D8A30
@@ -207,6 +259,14 @@ public class AddUInt64 : AddInstruction
 
 public class AdvancedPerspectiveSettings : Object
 {
+    public object perspectiveColorEnabled;
+    public object enablePerspectiveGeometry;
+    public object colorWeightContribution;
+    public object overrideRadialBias;
+    public object depthBiasCompensation;
+    public object overrideWeightUnknown;
+    public object weightUnknown;
+
     // ── Methods ──
     public void CopyTo(){} // RVA: 0x8326A50
 }
@@ -231,6 +291,8 @@ public class Advapi32 : Object
 
 public class AllowedAsciiCodePoints : ValueType
 {
+    public object AsBytes;
+
     // ── Methods ──
     public void PopulateAllowedCodePoints(){} // RVA: 0x8ECDE0
 }
@@ -334,6 +396,18 @@ public class AnimationTrackUpgrade : Object
 
 public class Annotation : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _hasBits0;
+    public object _repeated_path_codec;
+    public object path_;
+    public object SourceFileDefaultValue;
+    public object sourceFile_;
+    public object BeginDefaultValue;
+    public object begin_;
+    public object EndDefaultValue;
+    public object end_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x64F6420
     public void get_Descriptor(){} // RVA: 0x64F6480
@@ -391,139 +465,7 @@ public class ApiPopupBuilderData[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ApplySettingsDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DB94B0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ApplySettingsDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DB94B0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ApplySettingsDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DB94B0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ApplySettingsDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DB94B0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ApplySettingsDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x3DB94B0
-    public void Invoke(){} // RVA: 0xCA8BF0
-    public void BeginInvoke(){} // RVA: 0x23E7ED0
-    public void EndInvoke(){} // RVA: 0xB44BE0
-}
-
-public class ArgsBufferPrep : Object
-{
-    // ── Methods ──
-    public void Setup(){} // RVA: 0x26C95D0
-    public void PrepareDispatchArgs(){} // RVA: 0x26C9A30
-    public void PrepareDrawArgs(){} // RVA: 0x26C9C70
-    public void .cctor(){} // RVA: 0x26C9F00
-}
-
-public class Array : ValueType
-{
-    // ── Methods ──
-    public void IsCustom(){} // RVA: 0x77D1CB0
-    public void CustomResize(){} // RVA: 0x77D26B0
-    public void Resize(){} // RVA: 0xA94080
-}
-
-public class Array32768`1 : ValueType
-{
-    // ── Methods ──
-    public void get_Length(){} // RVA: 0x87C130
-    public void ElementAt(){} // RVA: 0x87C160
-}
-
-public class ArrayEnumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x90E1B0
-    public void get_Current(){} // RVA: 0x8EE3F0
-    public void GetEnumerator(){} // RVA: 0x8EE490
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x90E1D0
-    public void System.Collections.Generic.IEnumerable<System.Text.Json.JsonElement>.GetEnumerator(){} // RVA: 0x90E240
-    public void Dispose(){} // RVA: 0x8EE5B0
-    public void Reset(){} // RVA: 0x267910
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x90E2B0
-    public void MoveNext(){} // RVA: 0x90E370
-}
-
-public class ArrayListEnumeratorSimple : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x6881E70
-    public void Clone(){} // RVA: 0x67F43E0
-    public void MoveNext(){} // RVA: 0x6882030
-    public void get_Current(){} // RVA: 0x6882230
-    public void Reset(){} // RVA: 0x6882330
-    public void .cctor(){} // RVA: 0x6882440
-}
-
-public class ArrayMemoryPoolBuffer : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8944F0
-    public void get_Memory(){} // RVA: 0xA94080
-    public void Dispose(){} // RVA: 0x894290
-}
-
-public class ArrayPoolImpl`1 : Object
-{
-    // ── Methods ──
-    public void Get(){} // RVA: 0x43CF840
-    public void get_ObjectType(){} // RVA: 0x43CF670
-    public void get_CountInactive(){} // RVA: 0x434E0A0
-    public void .ctor(){} // RVA: 0x43CF6B0
-    public void Contains(){} // RVA: 0x434E870
-    public void Release(){} // RVA: 0x434EA80
-    public void Cleanup(){} // RVA: 0x43CFB90
-    public void .cctor(){} // RVA: 0x43D02B0
-}
-
-public class ArrayPropertyDescriptor : SimplePropertyDescriptor
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x76B1020
-    public void GetValue(){} // RVA: 0x76B10E0
-    public void SetValue(){} // RVA: 0x76B1170
-}
-
-public class ArraySubsetEnumerator : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x76C44E0
-    public void MoveNext(){} // RVA: 0x76C4550
-    public void Reset(){} // RVA: 0x759C030
-    public void get_Current(){} // RVA: 0x76C4570
-}
-
-public class ArticleContent[] : Array
+public class ApiPopupBuilderRecipe[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -543,8 +485,142 @@ public class ArticleContent[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class ArgsBufferPrep : Object
+{
+    public object s_prepareArgsComputeName;
+    public object s_prepareArgsCompute;
+    public object s_prepareDrawIndirectArgsKernelId;
+    public object s_prepareDispatchIndirectArgsKernelId;
+
+    // ── Methods ──
+    public void Setup(){} // RVA: 0x26C95D0
+    public void PrepareDispatchArgs(){} // RVA: 0x26C9A30
+    public void PrepareDrawArgs(){} // RVA: 0x26C9C70
+    public void .cctor(){} // RVA: 0x26C9F00
+}
+
+public class Array : ValueType
+{
+    // ── Methods ──
+    public void IsCustom(){} // RVA: 0x77D1CB0
+    public void CustomResize(){} // RVA: 0x77D26B0
+    public void Resize(){} // RVA: 0xA94080
+}
+
+public class Array32768`1 : ValueType
+{
+    public object f0;
+    public object f1;
+    public object f2;
+    public object f3;
+    public object f4;
+    public object f5;
+    public object f6;
+    public object f7;
+
+    // ── Methods ──
+    public void get_Length(){} // RVA: 0x87C130
+    public void ElementAt(){} // RVA: 0x87C160
+}
+
+public class ArrayEnumerator : ValueType
+{
+    public object _target;
+    public object _curIdx;
+    public object _endIdxOrVersion;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x90E1B0
+    public void get_Current(){} // RVA: 0x8EE3F0
+    public void GetEnumerator(){} // RVA: 0x8EE490
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x90E1D0
+    public void System.Collections.Generic.IEnumerable<System.Text.Json.JsonElement>.GetEnumerator(){} // RVA: 0x90E240
+    public void Dispose(){} // RVA: 0x8EE5B0
+    public void Reset(){} // RVA: 0x267910
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x90E2B0
+    public void MoveNext(){} // RVA: 0x90E370
+}
+
+public class ArrayListEnumeratorSimple : Object
+{
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _currentElement;
+    public object _isArrayList;
+    public object s_dummyObject;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x6881E70
+    public void Clone(){} // RVA: 0x67F43E0
+    public void MoveNext(){} // RVA: 0x6882030
+    public void get_Current(){} // RVA: 0x6882230
+    public void Reset(){} // RVA: 0x6882330
+    public void .cctor(){} // RVA: 0x6882440
+}
+
+public class ArrayMemoryPoolBuffer : Object
+{
+    public object _array;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x8944F0
+    public void get_Memory(){} // RVA: 0xA94080
+    public void Dispose(){} // RVA: 0x894290
+}
+
+public class ArrayPoolImpl`1 : Object
+{
+    public object syncLock;
+    public object Pool;
+    public object Instance;
+
+    // ── Methods ──
+    public void Get(){} // RVA: 0x43CF840
+    public void get_ObjectType(){} // RVA: 0x43CF670
+    public void get_CountInactive(){} // RVA: 0x434E0A0
+    public void .ctor(){} // RVA: 0x43CF6B0
+    public void Contains(){} // RVA: 0x434E870
+    public void Release(){} // RVA: 0x434EA80
+    public void Cleanup(){} // RVA: 0x43CFB90
+    public void .cctor(){} // RVA: 0x43D02B0
+}
+
+public class ArrayPropertyDescriptor : SimplePropertyDescriptor
+{
+    public object _index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x76B1020
+    public void GetValue(){} // RVA: 0x76B10E0
+    public void SetValue(){} // RVA: 0x76B1170
+}
+
+public class ArraySubsetEnumerator : Object
+{
+    public object _array;
+    public object _total;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x76C44E0
+    public void MoveNext(){} // RVA: 0x76C4550
+    public void Reset(){} // RVA: 0x759C030
+    public void get_Current(){} // RVA: 0x76C4570
+}
+
+public class ArraySurrogate : Object
+{
+    // ── Methods ──
+    public void GetObjectData(){} // RVA: 0xA74F860
+    public void SetObjectData(){} // RVA: 0xA7503C0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
 public class AsciiPreescapedData : ValueType
 {
+    public object Data;
+
     // ── Methods ──
     public void PopulatePreescapedData(){} // RVA: 0x8ECDF0
     public void TryGetPreescapedData(){} // RVA: 0x8ECE00
@@ -552,6 +628,8 @@ public class AsciiPreescapedData : ValueType
 
 public class AsyncManualResetEvent : Object
 {
+    public object m_tcs;
+
     // ── Methods ──
     public void WaitAsync(){} // RVA: 0x75D7F60
     public void Set(){} // RVA: 0x75D7FC0
@@ -559,19 +637,11 @@ public class AsyncManualResetEvent : Object
     public void .ctor(){} // RVA: 0x75D8560
 }
 
-public class AttrInfo : ValueType
-{
-    // ── Methods ──
-    public void Set(){} // RVA: 0x913600
-    public void GetLocalnameAndNamespaceUri(){} // RVA: 0x913630
-    public void GetLocalnameAndNamespaceUriAndHash(){} // RVA: 0x913640
-    public void MatchNS(){} // RVA: 0x913020
-    public void MatchHashNS(){} // RVA: 0x913650
-    public void AdjustPosition(){} // RVA: 0x913700
-}
-
 public class AttrListImpl : Object
 {
+    public object attrNames;
+    public object attrValues;
+
     // ── Methods ──
     public void get_Length(){} // RVA: 0x66722E0
     public void GetName(){} // RVA: 0x6672330
@@ -585,6 +655,11 @@ public class AttrListImpl : Object
 
 public class AttrName : ValueType
 {
+    public object prefix;
+    public object namespaceUri;
+    public object localName;
+    public object prev;
+
     // ── Methods ──
     public void Set(){} // RVA: 0x916810
     public void IsDuplicate(){} // RVA: 0x916820
@@ -592,12 +667,28 @@ public class AttrName : ValueType
 
 public class AttributeContent : Object
 {
+    public object _AttDef;
+    public object _Name;
+    public object _Prefix;
+    public object _Required;
+    public object _MinVal;
+    public object _MaxVal;
+    public object _MaxLength;
+    public object _MinLength;
+    public object _EnumerationRequired;
+    public object _HasDataType;
+    public object _Global;
+    public object _Default;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class AttributeFilterCacheItem : Object
 {
+    public object _filter;
+    public object FilteredMembers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void IsValid(){} // RVA: 0x7709660
@@ -605,6 +696,8 @@ public class AttributeFilterCacheItem : Object
 
 public class AttributeProvider : TypeDescriptionProvider
 {
+    public object _attrs;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6EC9750
     public void GetTypeDescriptor(){} // RVA: 0x7708890
@@ -612,6 +705,11 @@ public class AttributeProvider : TypeDescriptionProvider
 
 public class AttributeTypeAndValue : Object
 {
+    public object oid;
+    public object attrValue;
+    public object upperBound;
+    public object encoding;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6649700
     public void set_Value(){} // RVA: 0x6649770
@@ -621,6 +719,8 @@ public class AttributeTypeAndValue : Object
 
 public class AttributeTypeDescriptor : CustomTypeDescriptor
 {
+    public object _attributeArray;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xD5EFE0
     public void GetAttributes(){} // RVA: 0x7708A70
@@ -628,6 +728,12 @@ public class AttributeTypeDescriptor : CustomTypeDescriptor
 
 public class AttributeValueCache : Object
 {
+    public object stringValue;
+    public object singleStringValue;
+    public object items;
+    public object firstItem;
+    public object lastItem;
+
     // ── Methods ──
     public void get_StringValue(){} // RVA: 0x74A5670
     public void WriteEntityRef(){} // RVA: 0x74A56B0
@@ -648,6 +754,8 @@ public class AttributeValueCache : Object
 
 public class AuthorizationArgs : ValueType
 {
+    public object Handle;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x26D98D0
     public void Drop(){} // RVA: 0x26D9950
@@ -671,6 +779,11 @@ public class AuthorizationCallback : MulticastDelegate
 
 public class AuthorizationState : ValueType
 {
+    public object request;
+    public object isProxy;
+    public object isCompleted;
+    public object ntlm_auth_state;
+
     // ── Methods ──
     public void get_IsCompleted(){} // RVA: 0x7E240
     public void get_NtlmAuthState(){} // RVA: 0x92DE0
@@ -683,17 +796,8 @@ public class AuthorizationState : ValueType
 
 public class Awaiter : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x746750
-    public void get_IsCompleted(){} // RVA: 0x7705E0
-    public void GetResult(){} // RVA: 0x746AC0
-    public void OnCompleted(){} // RVA: 0x770620
-    public void UnsafeOnCompleted(){} // RVA: 0x770720
-    public void SourceOnCompleted(){} // RVA: 0x770730
-}
+    public object task;
 
-public class Awaiter : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -705,6 +809,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -716,6 +822,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -727,6 +835,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746010
     public void get_IsCompleted(){} // RVA: 0x746020
@@ -738,6 +848,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76EBE0
     public void get_IsCompleted(){} // RVA: 0x76EBF0
@@ -749,6 +861,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x747690
     public void get_IsCompleted(){} // RVA: 0x7476A0
@@ -760,6 +874,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -771,6 +887,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -782,6 +900,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -793,6 +913,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -804,6 +926,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -815,6 +939,8 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -826,6 +952,21 @@ public class Awaiter : ValueType
 
 public class Awaiter : ValueType
 {
+    public object task;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7467B0
+    public void GetResult(){} // RVA: 0x7467F0
+    public void OnCompleted(){} // RVA: 0x76E330
+    public void UnsafeOnCompleted(){} // RVA: 0x76E430
+    public void SourceOnCompleted(){} // RVA: 0x746A00
+}
+
+public class Awaiter : ValueType
+{
+    public object task;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x746750
     public void get_IsCompleted(){} // RVA: 0x7705E0
@@ -833,10 +974,4 @@ public class Awaiter : ValueType
     public void OnCompleted(){} // RVA: 0x770620
     public void UnsafeOnCompleted(){} // RVA: 0x770720
     public void SourceOnCompleted(){} // RVA: 0x770730
-}
-
-public class Awaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x746010
 }

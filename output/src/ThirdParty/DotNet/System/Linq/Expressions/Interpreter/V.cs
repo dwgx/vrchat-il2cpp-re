@@ -7,13 +7,15 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
     public class ValueTypeCopyInstruction : Instruction
     {
+        public object Instruction;
+
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
-        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
-        public void get_InstructionName(){} // RVA: 0x7AE434930
-        public void Run(){} // RVA: 0x7AE434970
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AE434A50
+        public void get_ConsumedStack(){} // RVA: 0xC3CCE0
+        public void get_ProducedStack(){} // RVA: 0xC3CCE0
+        public void get_InstructionName(){} // RVA: 0x70B2560
+        public void Run(){} // RVA: 0x70B25A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x70B2680
     }
 
 }

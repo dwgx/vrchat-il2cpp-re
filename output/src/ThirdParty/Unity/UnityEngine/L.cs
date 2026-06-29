@@ -92,6 +92,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LayerMask : ValueType
     {
+        public object m_Mask;
+
         // ── Methods ──
         public void op_Implicit(){} // RVA: 0x2996070
         public void get_value(){} // RVA: 0x454FE0
@@ -125,6 +127,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LazyLoadReference`1 : ValueType
     {
+        public object kInstanceID_None;
+        public object m_InstanceID;
+
         // ── Methods ──
         public void get_isSet(){} // RVA: 0x87D280
         public void get_asset(){} // RVA: 0xA94080
@@ -134,6 +139,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LazyLoadReference`1 : ValueType
     {
+        public object kInstanceID_None;
+        public object m_InstanceID;
+
         // ── Methods ──
         public void get_isSet(){} // RVA: 0x368020
         public void get_asset(){} // RVA: 0x368030
@@ -165,6 +173,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Light : Behaviour
     {
+        public object _shape;
+        public object m_BakedIndex;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0x7BAA4E0
         public void set_type(){} // RVA: 0x7BAA580
@@ -439,6 +450,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LightProbes : Object
     {
+        public object lightProbesUpdated;
+        public object tetrahedralizationCompleted;
+        public object needsRetetrahedralization;
+
         // ── Methods ──
         public void Internal_CallLightProbesUpdatedFunction(){} // RVA: 0x7B817A0
         public void Internal_CallTetrahedralizationCompletedFunction(){} // RVA: 0x7B81800
@@ -516,6 +531,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class LightmapData : Object
     {
+        public object m_Light;
+        public object m_Dir;
+        public object m_ShadowMask;
+
         // ── Methods ──
         public void get_lightmapColor(){} // RVA: 0x3E42230
         public void set_lightmapColor(){} // RVA: 0xB44D60
@@ -699,6 +718,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Logger : Object
     {
+        public object _logHandler;
+        public object _logEnabled;
+        public object _filterLogType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BDFA40
         public void get_logHandler(){} // RVA: 0xB5DBF0

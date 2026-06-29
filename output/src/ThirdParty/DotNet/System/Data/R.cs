@@ -7,257 +7,303 @@ namespace ThirdParty.DotNet.System.Data
 {
     public class RBTree`1 : Object
     {
+        public object _pageTable;
+        public object _pageTableMap;
+        public object _inUsePageCount;
+        public object _nextFreePageLine;
+        public object root;
+        public object _version;
+        public object _inUseNodeCount;
+        public object _inUseSatelliteTreeCount;
+        public object _accessMethod;
+
         // ── Methods ──
-        public void CompareNode(){} // RVA: 0x7A8051B10
-        public void CompareSateliteTreeNode(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E189D0
-        public void InitTree(){} // RVA: 0x7A7E18770
-        public void FreePage(){} // RVA: 0x7A7E18800
-        public void AllocPage(){} // RVA: 0x7A7E00740
-        public void MarkPageFull(){} // RVA: 0x7A7E18800
-        public void MarkPageFree(){} // RVA: 0x7A7E18800
-        public void GetIntValueFromBitMap(){} // RVA: 0x7A7E07D40
-        public void FreeNode(){} // RVA: 0x7A7E189D0
-        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x7A7E075B0
-        public void get_Count(){} // RVA: 0x7A7E00710
-        public void get_HasDuplicates(){} // RVA: 0x7A7E01900
-        public void GetNewNode(){} // RVA: 0x7A8051B10
-        public void Successor(){} // RVA: 0x7A7E01A40
-        public void Minimum(){} // RVA: 0x7A7E062A0
-        public void LeftRotate(){} // RVA: 0x7A7E07F10
-        public void RightRotate(){} // RVA: 0x7A7E07F10
-        public void RBInsert(){} // RVA: 0x7A8051B10
-        public void UpdateNodeKey(){} // RVA: 0x7A8051B10
-        public void DeleteByIndex(){} // RVA: 0x7A8051B10
-        public void RBDelete(){} // RVA: 0x7A7E062A0
-        public void RBDeleteX(){} // RVA: 0x7A7E07F10
-        public void RBDeleteFixup(){} // RVA: 0x7A8051B10
-        public void SearchSubTree(){} // RVA: 0x7A8051B10
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void GetNodeByKey(){} // RVA: 0x7A8051B10
-        public void GetIndexByKey(){} // RVA: 0x7A8051B10
-        public void GetIndexByNode(){} // RVA: 0x7A7E062A0
-        public void GetIndexByNodePath(){} // RVA: 0x7A8051B10
-        public void ComputeIndexByNode(){} // RVA: 0x7A7E062A0
-        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x7A7E062A0
-        public void GetNodeByIndex(){} // RVA: 0x7A8051B10
-        public void ComputeNodeByIndex(){} // RVA: 0x7A7E076F0
-        public void Insert(){} // RVA: 0x7A8051B10
-        public void Add(){} // RVA: 0x7A8051B10
-        public void GetEnumerator(){} // RVA: 0x7A7E00680
-        public void IndexOf(){} // RVA: 0x7A8051B10
-        public void InsertAt(){} // RVA: 0x7A8051B10
-        public void RemoveAt(){} // RVA: 0x7A7E189D0
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void CopyTo(){} // RVA: 0x7A7E1D590
-        public void SetRight(){} // RVA: 0x7A7E1ABE0
-        public void SetLeft(){} // RVA: 0x7A7E1ABE0
-        public void SetParent(){} // RVA: 0x7A7E1ABE0
-        public void SetColor(){} // RVA: 0x7A8051B10
-        public void SetKey(){} // RVA: 0x7A8051B10
-        public void SetNext(){} // RVA: 0x7A7E1ABE0
-        public void SetSubTreeSize(){} // RVA: 0x7A7E1ABE0
-        public void IncreaseSize(){} // RVA: 0x7A7E189D0
-        public void RecomputeSize(){} // RVA: 0x7A7E189D0
-        public void DecreaseSize(){} // RVA: 0x7A7E189D0
-        public void Right(){} // RVA: 0x7A7E062A0
-        public void Left(){} // RVA: 0x7A7E062A0
-        public void Parent(){} // RVA: 0x7A7E062A0
-        public void color(){} // RVA: 0x7A8051B10
-        public void Next(){} // RVA: 0x7A7E062A0
-        public void SubTreeSize(){} // RVA: 0x7A7E062A0
-        public void Key(){} // RVA: 0x7A8051B10
+        public void CompareNode(){} // RVA: 0xA94080
+        public void CompareSateliteTreeNode(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x8944F0
+        public void InitTree(){} // RVA: 0x894290
+        public void FreePage(){} // RVA: 0x894320
+        public void AllocPage(){} // RVA: 0x87C160
+        public void MarkPageFull(){} // RVA: 0x894320
+        public void MarkPageFree(){} // RVA: 0x894320
+        public void GetIntValueFromBitMap(){} // RVA: 0x883700
+        public void FreeNode(){} // RVA: 0x8944F0
+        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x882F70
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_HasDuplicates(){} // RVA: 0x87D280
+        public void GetNewNode(){} // RVA: 0xA94080
+        public void Successor(){} // RVA: 0x87D3C0
+        public void Minimum(){} // RVA: 0x881C20
+        public void LeftRotate(){} // RVA: 0x8838D0
+        public void RightRotate(){} // RVA: 0x8838D0
+        public void RBInsert(){} // RVA: 0xA94080
+        public void UpdateNodeKey(){} // RVA: 0xA94080
+        public void DeleteByIndex(){} // RVA: 0xA94080
+        public void RBDelete(){} // RVA: 0x881C20
+        public void RBDeleteX(){} // RVA: 0x8838D0
+        public void RBDeleteFixup(){} // RVA: 0xA94080
+        public void SearchSubTree(){} // RVA: 0xA94080
+        public void get_Item(){} // RVA: 0xA94080
+        public void GetNodeByKey(){} // RVA: 0xA94080
+        public void GetIndexByKey(){} // RVA: 0xA94080
+        public void GetIndexByNode(){} // RVA: 0x881C20
+        public void GetIndexByNodePath(){} // RVA: 0xA94080
+        public void ComputeIndexByNode(){} // RVA: 0x881C20
+        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x881C20
+        public void GetNodeByIndex(){} // RVA: 0xA94080
+        public void ComputeNodeByIndex(){} // RVA: 0x8830B0
+        public void Insert(){} // RVA: 0xA94080
+        public void Add(){} // RVA: 0xA94080
+        public void GetEnumerator(){} // RVA: 0x87C0A0
+        public void IndexOf(){} // RVA: 0xA94080
+        public void InsertAt(){} // RVA: 0xA94080
+        public void RemoveAt(){} // RVA: 0x8944F0
+        public void Clear(){} // RVA: 0x894290
+        public void CopyTo(){} // RVA: 0x899290
+        public void SetRight(){} // RVA: 0x8965E0
+        public void SetLeft(){} // RVA: 0x8965E0
+        public void SetParent(){} // RVA: 0x8965E0
+        public void SetColor(){} // RVA: 0xA94080
+        public void SetKey(){} // RVA: 0xA94080
+        public void SetNext(){} // RVA: 0x8965E0
+        public void SetSubTreeSize(){} // RVA: 0x8965E0
+        public void IncreaseSize(){} // RVA: 0x8944F0
+        public void RecomputeSize(){} // RVA: 0x8944F0
+        public void DecreaseSize(){} // RVA: 0x8944F0
+        public void Right(){} // RVA: 0x881C20
+        public void Left(){} // RVA: 0x881C20
+        public void Parent(){} // RVA: 0x881C20
+        public void color(){} // RVA: 0xA94080
+        public void Next(){} // RVA: 0x881C20
+        public void SubTreeSize(){} // RVA: 0x881C20
+        public void Key(){} // RVA: 0xA94080
     }
 
     public class RBTree`1 : Object
     {
+        public object _pageTable;
+        public object _pageTableMap;
+        public object _inUsePageCount;
+        public object _nextFreePageLine;
+        public object root;
+        public object _version;
+        public object _inUseNodeCount;
+        public object _inUseSatelliteTreeCount;
+        public object _accessMethod;
+
         // ── Methods ──
-        public void CompareNode(){} // RVA: 0x7A7E06320
-        public void CompareSateliteTreeNode(){} // RVA: 0x7A7E06320
-        public void .ctor(){} // RVA: 0x7ABC32E10
-        public void InitTree(){} // RVA: 0x7ABC32E30
-        public void FreePage(){} // RVA: 0x7ABC1DB00
-        public void AllocPage(){} // RVA: 0x7ABC33040
-        public void MarkPageFull(){} // RVA: 0x7ABC1DE90
-        public void MarkPageFree(){} // RVA: 0x7ABC1DEF0
-        public void GetIntValueFromBitMap(){} // RVA: 0x7ABC1DF50
-        public void FreeNode(){} // RVA: 0x7ABC33350
-        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x7ABC1E120
-        public void get_Count(){} // RVA: 0x7ABC1E2C0
-        public void get_HasDuplicates(){} // RVA: 0x7ABC1E2D0
-        public void GetNewNode(){} // RVA: 0x7ABC334B0
-        public void Successor(){} // RVA: 0x7ABC33850
-        public void Minimum(){} // RVA: 0x7ABC33970
-        public void LeftRotate(){} // RVA: 0x7ABC33A00
-        public void RightRotate(){} // RVA: 0x7ABC341C0
-        public void RBInsert(){} // RVA: 0x7ABC34980
-        public void UpdateNodeKey(){} // RVA: 0x7ABC35780
-        public void DeleteByIndex(){} // RVA: 0x7ABC35830
-        public void RBDelete(){} // RVA: 0x7ABC358F0
-        public void RBDeleteX(){} // RVA: 0x7ABC35920
-        public void RBDeleteFixup(){} // RVA: 0x7ABC36980
-        public void SearchSubTree(){} // RVA: 0x7ABC36F00
-        public void get_Item(){} // RVA: 0x7ABC36FC0
-        public void GetNodeByKey(){} // RVA: 0x7ABC37030
-        public void GetIndexByKey(){} // RVA: 0x7ABC371C0
-        public void GetIndexByNode(){} // RVA: 0x7ABC372E0
-        public void GetIndexByNodePath(){} // RVA: 0x7ABC37480
-        public void ComputeIndexByNode(){} // RVA: 0x7ABC37540
-        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x7ABC376B0
-        public void GetNodeByIndex(){} // RVA: 0x7ABC37870
-        public void ComputeNodeByIndex(){} // RVA: 0x7ABC37AE0
-        public void Insert(){} // RVA: 0x7ABC37E30
-        public void Add(){} // RVA: 0x7ABC37BC0
-        public void GetEnumerator(){} // RVA: 0x7ABC37C40
-        public void IndexOf(){} // RVA: 0x7ABC37D10
-        public void InsertAt(){} // RVA: 0x7ABC37ED0
-        public void RemoveAt(){} // RVA: 0x7ABC37F70
-        public void Clear(){} // RVA: 0x7ABC38020
-        public void CopyTo(){} // RVA: 0x7ABC381D0
-        public void SetRight(){} // RVA: 0x7ABC383B0
-        public void SetLeft(){} // RVA: 0x7ABC38400
-        public void SetParent(){} // RVA: 0x7ABC38450
-        public void SetColor(){} // RVA: 0x7ABC384A0
-        public void SetKey(){} // RVA: 0x7ABC384F0
-        public void SetNext(){} // RVA: 0x7ABC385B0
-        public void SetSubTreeSize(){} // RVA: 0x7ABC38600
-        public void IncreaseSize(){} // RVA: 0x7ABC38650
-        public void RecomputeSize(){} // RVA: 0x7ABC386A0
-        public void DecreaseSize(){} // RVA: 0x7ABC38860
-        public void Right(){} // RVA: 0x7ABC388B0
-        public void Left(){} // RVA: 0x7ABC38910
-        public void Parent(){} // RVA: 0x7ABC38970
-        public void color(){} // RVA: 0x7ABC389D0
-        public void Next(){} // RVA: 0x7ABC38A30
-        public void SubTreeSize(){} // RVA: 0x7ABC38A90
-        public void Key(){} // RVA: 0x7ABC38AF0
+        public void CompareNode(){} // RVA: 0x881CA0
+        public void CompareSateliteTreeNode(){} // RVA: 0x881CA0
+        public void .ctor(){} // RVA: 0x48D9500
+        public void InitTree(){} // RVA: 0x48D9520
+        public void FreePage(){} // RVA: 0x48D3880
+        public void AllocPage(){} // RVA: 0x48D9730
+        public void MarkPageFull(){} // RVA: 0x48D3C10
+        public void MarkPageFree(){} // RVA: 0x48D3C70
+        public void GetIntValueFromBitMap(){} // RVA: 0x48D3CD0
+        public void FreeNode(){} // RVA: 0x48D9A40
+        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x48D3EA0
+        public void get_Count(){} // RVA: 0x48D4040
+        public void get_HasDuplicates(){} // RVA: 0x48D4050
+        public void GetNewNode(){} // RVA: 0x48D9BA0
+        public void Successor(){} // RVA: 0x48D9F40
+        public void Minimum(){} // RVA: 0x48DA060
+        public void LeftRotate(){} // RVA: 0x48DA0F0
+        public void RightRotate(){} // RVA: 0x48DA8B0
+        public void RBInsert(){} // RVA: 0x48DB070
+        public void UpdateNodeKey(){} // RVA: 0x48DBE70
+        public void DeleteByIndex(){} // RVA: 0x48DBF20
+        public void RBDelete(){} // RVA: 0x48DBFE0
+        public void RBDeleteX(){} // RVA: 0x48DC010
+        public void RBDeleteFixup(){} // RVA: 0x48DD070
+        public void SearchSubTree(){} // RVA: 0x48DD5F0
+        public void get_Item(){} // RVA: 0x48DD6B0
+        public void GetNodeByKey(){} // RVA: 0x48DD720
+        public void GetIndexByKey(){} // RVA: 0x48DD8B0
+        public void GetIndexByNode(){} // RVA: 0x48DD9D0
+        public void GetIndexByNodePath(){} // RVA: 0x48DDB70
+        public void ComputeIndexByNode(){} // RVA: 0x48DDC30
+        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x48DDDA0
+        public void GetNodeByIndex(){} // RVA: 0x48DDF60
+        public void ComputeNodeByIndex(){} // RVA: 0x48DE1D0
+        public void Insert(){} // RVA: 0x48DE520
+        public void Add(){} // RVA: 0x48DE2B0
+        public void GetEnumerator(){} // RVA: 0x48DE330
+        public void IndexOf(){} // RVA: 0x48DE400
+        public void InsertAt(){} // RVA: 0x48DE5C0
+        public void RemoveAt(){} // RVA: 0x48DE660
+        public void Clear(){} // RVA: 0x48DE710
+        public void CopyTo(){} // RVA: 0x48DE8C0
+        public void SetRight(){} // RVA: 0x48DEAA0
+        public void SetLeft(){} // RVA: 0x48DEAF0
+        public void SetParent(){} // RVA: 0x48DEB40
+        public void SetColor(){} // RVA: 0x48DEB90
+        public void SetKey(){} // RVA: 0x48DEBE0
+        public void SetNext(){} // RVA: 0x48DECA0
+        public void SetSubTreeSize(){} // RVA: 0x48DECF0
+        public void IncreaseSize(){} // RVA: 0x48DED40
+        public void RecomputeSize(){} // RVA: 0x48DED90
+        public void DecreaseSize(){} // RVA: 0x48DEF50
+        public void Right(){} // RVA: 0x48DEFA0
+        public void Left(){} // RVA: 0x48DF000
+        public void Parent(){} // RVA: 0x48DF060
+        public void color(){} // RVA: 0x48DF0C0
+        public void Next(){} // RVA: 0x48DF120
+        public void SubTreeSize(){} // RVA: 0x48DF180
+        public void Key(){} // RVA: 0x48DF1E0
     }
 
     public class RBTree`1 : Object
     {
+        public object _pageTable;
+        public object _pageTableMap;
+        public object _inUsePageCount;
+        public object _nextFreePageLine;
+        public object root;
+        public object _version;
+        public object _inUseNodeCount;
+        public object _inUseSatelliteTreeCount;
+        public object _accessMethod;
+
         // ── Methods ──
-        public void CompareNode(){} // RVA: 0x7A7E076F0
-        public void CompareSateliteTreeNode(){} // RVA: 0x7A7E076F0
-        public void .ctor(){} // RVA: 0x7ABC1D8D0
-        public void InitTree(){} // RVA: 0x7ABC1D8F0
-        public void FreePage(){} // RVA: 0x7ABC1DB00
-        public void AllocPage(){} // RVA: 0x7ABC1DB80
-        public void MarkPageFull(){} // RVA: 0x7ABC1DE90
-        public void MarkPageFree(){} // RVA: 0x7ABC1DEF0
-        public void GetIntValueFromBitMap(){} // RVA: 0x7ABC1DF50
-        public void FreeNode(){} // RVA: 0x7ABC1DFC0
-        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x7ABC1E120
-        public void get_Count(){} // RVA: 0x7ABC1E2C0
-        public void get_HasDuplicates(){} // RVA: 0x7ABC1E2D0
-        public void GetNewNode(){} // RVA: 0x7ABC1E2E0
-        public void Successor(){} // RVA: 0x7ABC1E610
-        public void Minimum(){} // RVA: 0x7ABC1E730
-        public void LeftRotate(){} // RVA: 0x7ABC1E7C0
-        public void RightRotate(){} // RVA: 0x7ABC1EEC0
-        public void RBInsert(){} // RVA: 0x7ABC1F5C0
-        public void UpdateNodeKey(){} // RVA: 0x7ABC20400
-        public void DeleteByIndex(){} // RVA: 0x7ABC204E0
-        public void RBDelete(){} // RVA: 0x7ABC205A0
-        public void RBDeleteX(){} // RVA: 0x7ABC205D0
-        public void RBDeleteFixup(){} // RVA: 0x7ABC21640
-        public void SearchSubTree(){} // RVA: 0x7ABC21BC0
-        public void get_Item(){} // RVA: 0x7ABC21C80
-        public void GetNodeByKey(){} // RVA: 0x7ABC21CF0
-        public void GetIndexByKey(){} // RVA: 0x7ABC21EF0
-        public void GetIndexByNode(){} // RVA: 0x7ABC22010
-        public void GetIndexByNodePath(){} // RVA: 0x7ABC221B0
-        public void ComputeIndexByNode(){} // RVA: 0x7ABC22270
-        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x7ABC223E0
-        public void GetNodeByIndex(){} // RVA: 0x7ABC225A0
-        public void ComputeNodeByIndex(){} // RVA: 0x7ABC22820
-        public void Insert(){} // RVA: 0x7ABC22BC0
-        public void Add(){} // RVA: 0x7ABC22900
-        public void GetEnumerator(){} // RVA: 0x7ABC22980
-        public void IndexOf(){} // RVA: 0x7ABC22A50
-        public void InsertAt(){} // RVA: 0x7ABC22BF0
-        public void RemoveAt(){} // RVA: 0x7ABC22C90
-        public void Clear(){} // RVA: 0x7ABC22CB0
-        public void CopyTo(){} // RVA: 0x7ABC22E80
-        public void SetRight(){} // RVA: 0x7ABC22FF0
-        public void SetLeft(){} // RVA: 0x7ABC23050
-        public void SetParent(){} // RVA: 0x7ABC230B0
-        public void SetColor(){} // RVA: 0x7ABC23110
-        public void SetKey(){} // RVA: 0x7ABC23170
-        public void SetNext(){} // RVA: 0x7ABC231D0
-        public void SetSubTreeSize(){} // RVA: 0x7ABC23230
-        public void IncreaseSize(){} // RVA: 0x7ABC23290
-        public void RecomputeSize(){} // RVA: 0x7ABC232F0
-        public void DecreaseSize(){} // RVA: 0x7ABC234B0
-        public void Right(){} // RVA: 0x7ABC23510
-        public void Left(){} // RVA: 0x7ABC23570
-        public void Parent(){} // RVA: 0x7ABC235D0
-        public void color(){} // RVA: 0x7ABC23630
-        public void Next(){} // RVA: 0x7ABC23690
-        public void SubTreeSize(){} // RVA: 0x7ABC236F0
-        public void Key(){} // RVA: 0x7ABC23750
+        public void CompareNode(){} // RVA: 0x8830B0
+        public void CompareSateliteTreeNode(){} // RVA: 0x8830B0
+        public void .ctor(){} // RVA: 0x48D3650
+        public void InitTree(){} // RVA: 0x48D3670
+        public void FreePage(){} // RVA: 0x48D3880
+        public void AllocPage(){} // RVA: 0x48D3900
+        public void MarkPageFull(){} // RVA: 0x48D3C10
+        public void MarkPageFree(){} // RVA: 0x48D3C70
+        public void GetIntValueFromBitMap(){} // RVA: 0x48D3CD0
+        public void FreeNode(){} // RVA: 0x48D3D40
+        public void GetIndexOfPageWithFreeSlot(){} // RVA: 0x48D3EA0
+        public void get_Count(){} // RVA: 0x48D4040
+        public void get_HasDuplicates(){} // RVA: 0x48D4050
+        public void GetNewNode(){} // RVA: 0x48D4060
+        public void Successor(){} // RVA: 0x48D4390
+        public void Minimum(){} // RVA: 0x48D44B0
+        public void LeftRotate(){} // RVA: 0x48D4540
+        public void RightRotate(){} // RVA: 0x48D4C40
+        public void RBInsert(){} // RVA: 0x48D5340
+        public void UpdateNodeKey(){} // RVA: 0x48D6180
+        public void DeleteByIndex(){} // RVA: 0x48D6260
+        public void RBDelete(){} // RVA: 0x48D6320
+        public void RBDeleteX(){} // RVA: 0x48D6350
+        public void RBDeleteFixup(){} // RVA: 0x48D73C0
+        public void SearchSubTree(){} // RVA: 0x48D7940
+        public void get_Item(){} // RVA: 0x48D7A00
+        public void GetNodeByKey(){} // RVA: 0x48D7A70
+        public void GetIndexByKey(){} // RVA: 0x48D7C40
+        public void GetIndexByNode(){} // RVA: 0x48D7D60
+        public void GetIndexByNodePath(){} // RVA: 0x48D7F00
+        public void ComputeIndexByNode(){} // RVA: 0x48D7FC0
+        public void ComputeIndexWithSatelliteByNode(){} // RVA: 0x48D8130
+        public void GetNodeByIndex(){} // RVA: 0x48D82F0
+        public void ComputeNodeByIndex(){} // RVA: 0x48D8570
+        public void Insert(){} // RVA: 0x48D8910
+        public void Add(){} // RVA: 0x48D8650
+        public void GetEnumerator(){} // RVA: 0x48D86D0
+        public void IndexOf(){} // RVA: 0x48D87A0
+        public void InsertAt(){} // RVA: 0x48D8940
+        public void RemoveAt(){} // RVA: 0x48D89E0
+        public void Clear(){} // RVA: 0x48D8A00
+        public void CopyTo(){} // RVA: 0x48D8BD0
+        public void SetRight(){} // RVA: 0x48D8D40
+        public void SetLeft(){} // RVA: 0x48D8DA0
+        public void SetParent(){} // RVA: 0x48D8E00
+        public void SetColor(){} // RVA: 0x48D8E60
+        public void SetKey(){} // RVA: 0x48D8EC0
+        public void SetNext(){} // RVA: 0x48D8F20
+        public void SetSubTreeSize(){} // RVA: 0x48D8F80
+        public void IncreaseSize(){} // RVA: 0x48D8FE0
+        public void RecomputeSize(){} // RVA: 0x48D9040
+        public void DecreaseSize(){} // RVA: 0x48D9200
+        public void Right(){} // RVA: 0x48D9260
+        public void Left(){} // RVA: 0x48D92C0
+        public void Parent(){} // RVA: 0x48D9320
+        public void color(){} // RVA: 0x48D9380
+        public void Next(){} // RVA: 0x48D93E0
+        public void SubTreeSize(){} // RVA: 0x48D9440
+        public void Key(){} // RVA: 0x48D94A0
     }
 
     public class Range : ValueType
     {
+        public object _min;
+        public object _max;
+        public object _isNotNull;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E839F0
-        public void get_Count(){} // RVA: 0x7A7E83A40
-        public void get_IsNull(){} // RVA: 0x7A7E83A60
-        public void get_Min(){} // RVA: 0x7A7E83A70
-        public void CheckNull(){} // RVA: 0x7A7E83AB0
+        public void .ctor(){} // RVA: 0x9033E0
+        public void get_Count(){} // RVA: 0x903430
+        public void get_IsNull(){} // RVA: 0x903450
+        public void get_Min(){} // RVA: 0x903460
+        public void CheckNull(){} // RVA: 0x9034A0
     }
 
     public class ReadOnlyException : DataException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE4BAA30
+        public void .ctor(){} // RVA: 0x7135FC0
     }
 
     public class RecordManager : Object
     {
+        public object _table;
+        public object _lastFreeRecord;
+        public object _minimumCapacity;
+        public object _recordCapacity;
+        public object _freeRecordList;
+        public object _rows;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE51B6F0
-        public void GrowRecordCapacity(){} // RVA: 0x7AE51B850
-        public void get_LastFreeRecord(){} // RVA: 0x7A83782A0
-        public void get_MinimumCapacity(){} // RVA: 0x7A9739200
-        public void set_MinimumCapacity(){} // RVA: 0x7AE51BAB0
-        public void get_RecordCapacity(){} // RVA: 0x7A851DB90
-        public void set_RecordCapacity(){} // RVA: 0x7AE51BAF0
-        public void NewCapacity(){} // RVA: 0x7AE51BBD0
-        public void NormalizedMinimumCapacity(){} // RVA: 0x7AE51BBE0
-        public void NewRecordBase(){} // RVA: 0x7AE51BC20
-        public void FreeRecord(){} // RVA: 0x7AE51BD00
-        public void Clear(){} // RVA: 0x7AE51BE80
-        public void get_Item(){} // RVA: 0x7AE51C120
-        public void set_Item(){} // RVA: 0x7AE51C150
-        public void ImportRecord(){} // RVA: 0x7AE51C1C0
-        public void CopyRecord(){} // RVA: 0x7AE51C1E0
-        public void SetRowCache(){} // RVA: 0x7AE51C4F0
+        public void .ctor(){} // RVA: 0x7194BF0
+        public void GrowRecordCapacity(){} // RVA: 0x7194D50
+        public void get_LastFreeRecord(){} // RVA: 0xE62D00
+        public void get_MinimumCapacity(){} // RVA: 0x2244FB0
+        public void set_MinimumCapacity(){} // RVA: 0x7194FB0
+        public void get_RecordCapacity(){} // RVA: 0xFEAE90
+        public void set_RecordCapacity(){} // RVA: 0x7194FF0
+        public void NewCapacity(){} // RVA: 0x71950D0
+        public void NormalizedMinimumCapacity(){} // RVA: 0x71950E0
+        public void NewRecordBase(){} // RVA: 0x7195120
+        public void FreeRecord(){} // RVA: 0x7195200
+        public void Clear(){} // RVA: 0x7195380
+        public void get_Item(){} // RVA: 0x7195620
+        public void set_Item(){} // RVA: 0x7195650
+        public void ImportRecord(){} // RVA: 0x71956C0
+        public void CopyRecord(){} // RVA: 0x71956E0
+        public void SetRowCache(){} // RVA: 0x7195950
     }
 
     public class RelatedView : DataView
     {
+        public object _parentKey;
+        public object _childKey;
+        public object _parentRowView;
+        public object _filterValues;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE51C7A0
-        public void GetParentValues(){} // RVA: 0x7AE51CA50
-        public void Invoke(){} // RVA: 0x7AE51CB60
-        public void GetFilter(){} // RVA: 0x7A97F8BA0
-        public void AddNew(){} // RVA: 0x7AE51CCF0
-        public void SetIndex(){} // RVA: 0x7AE51CD60
+        public void .ctor(){} // RVA: 0x7195C00
+        public void GetParentValues(){} // RVA: 0x7195EB0
+        public void Invoke(){} // RVA: 0x7195FC0
+        public void GetFilter(){} // RVA: 0x2303260
+        public void AddNew(){} // RVA: 0x7196150
+        public void SetIndex(){} // RVA: 0x71961C0
     }
 
     public class RelationshipConverter : ExpandableObjectConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void CanConvertTo(){} // RVA: 0x7AE51CDB0
-        public void ConvertTo(){} // RVA: 0x7AE51CEA0
+        public void .ctor(){} // RVA: 0xB43310
+        public void CanConvertTo(){} // RVA: 0x7196210
+        public void ConvertTo(){} // RVA: 0x7196310
     }
 
     public class RowNotInTableException : DataException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE4BAAA0
+        public void .ctor(){} // RVA: 0x7136030
     }
 
 }

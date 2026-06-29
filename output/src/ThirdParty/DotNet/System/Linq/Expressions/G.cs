@@ -7,15 +7,20 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class GotoExpression : Expression
     {
+        public object _type;
+        public object _value;
+        public object _target;
+        public object _kind;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE3E83F0
-        public void get_Type(){} // RVA: 0x7A80F2570
-        public void get_NodeType(){} // RVA: 0x7A8D8FC40
-        public void get_Value(){} // RVA: 0x7A80DA7B0
-        public void get_Target(){} // RVA: 0x7A81052C0
-        public void get_Kind(){} // RVA: 0x7A854FDE0
-        public void Accept(){} // RVA: 0x7AE3E8300
-        public void Update(){} // RVA: 0x7AE3E8330
+        public void .ctor(){} // RVA: 0x70679E0
+        public void get_Type(){} // RVA: 0xB5DBF0
+        public void get_NodeType(){} // RVA: 0x70678E0
+        public void get_Value(){} // RVA: 0xB465B0
+        public void get_Target(){} // RVA: 0xB700F0
+        public void get_Kind(){} // RVA: 0x1065D50
+        public void Accept(){} // RVA: 0x70678F0
+        public void Update(){} // RVA: 0x7067920
     }
 
 }

@@ -23,6 +23,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DebugContext : Object
     {
+        public object LOCK;
+        public object logger;
+        public object loggingPolicy;
+        public object errorHandlingPolicy;
+
         // ── Methods ──
         public void get_Logger(){} // RVA: 0x84AD7C0
         public void set_Logger(){} // RVA: 0x84AD130
@@ -47,6 +52,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DefaultLoggers : Object
     {
+        public object LOCK;
+        public object unityLogger;
+
         // ── Methods ──
         public void get_DefaultLogger(){} // RVA: 0x849D7D0
         public void get_UnityLogger(){} // RVA: 0x849D820
@@ -55,6 +63,17 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DefaultSerializationBinder : TwoWaySerializationBinder
     {
+        public object ASSEMBLY_LOOKUP_LOCK;
+        public object assemblyNameLookUp;
+        public object customTypeNameToTypeBindings;
+        public object TYPETONAME_LOCK;
+        public object nameMap;
+        public object NAMETOTYPE_LOCK;
+        public object typeMap;
+        public object ASSEMBLY_REGISTER_QUEUE_LOCK;
+        public object assembliesQueuedForRegister;
+        public object assemblyLoadEventsQueuedForRegister;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x849DD40
         public void RegisterAllQueuedAssembliesRepeating(){} // RVA: 0x849E980
@@ -82,6 +101,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DelegateFormatter`1 : BaseFormatter`1
     {
+        public object DelegateType;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void DeserializeImplementation(){} // RVA: 0x8943B0
@@ -91,6 +112,12 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DerivedDictionaryFormatter`3 : BaseFormatter`1
     {
+        public object KeyIsValueType;
+        public object EqualityComparerSerializer;
+        public object KeyReaderWriter;
+        public object ValueReaderWriter;
+        public object ComparerConstructor;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -101,6 +128,15 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DeserializationContext : Object
     {
+        public object config;
+        public object internalIdReferenceMap;
+        public object streamingContext;
+        public object formatterConverter;
+        public object binder;
+        public object _stringReferenceResolver;
+        public object _guidReferenceResolver;
+        public object _indexReferenceResolver;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84A1F70
         public void get_Binder(){} // RVA: 0x84A21F0
@@ -125,6 +161,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryFormatter`2 : BaseFormatter`1
     {
+        public object KeyIsValueType;
+        public object EqualityComparerSerializer;
+        public object KeyReaderWriter;
+        public object ValueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -135,6 +176,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DictionaryKeyUtility : Object
     {
+        public object GetSupportedDictionaryKeyTypesResults;
+        public object BaseSupportedDictionaryKeyTypes;
+        public object AllowedSpecialKeyStrChars;
+        public object TypeToKeyPathProviders;
+        public object IDToKeyPathProviders;
+        public object ProviderToID;
+        public object ObjectsToTempKeys;
+        public object TempKeysToObjects;
+        public object tempKeyCounter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84C24B0
         public void LogInvalidKeyPathProvider(){} // RVA: 0x84C4250
@@ -148,6 +199,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class DoubleLookupDictionaryFormatter`3 : BaseFormatter`1
     {
+        public object PrimaryReaderWriter;
+        public object InnerReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290

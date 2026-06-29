@@ -7,195 +7,291 @@ namespace ThirdParty.DotNet.Mono.Security.X509
 {
     public class PKCS12 : Object
     {
+        public object _password;
+        public object _keyBags;
+        public object _secretBags;
+        public object _certs;
+        public object _keyBagsChanged;
+        public object _secretBagsChanged;
+        public object _certsChanged;
+        public object _iterations;
+        public object _safeBags;
+        public object _rng;
+        public object password_max_length;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9A91C0
-        public void Decode(){} // RVA: 0x7AD9A9210
-        public void Finalize(){} // RVA: 0x7AD9A9CC0
-        public void set_Password(){} // RVA: 0x7AD9A9D70
-        public void get_IterationCount(){} // RVA: 0x7A82C2070
-        public void set_IterationCount(){} // RVA: 0x7A82C0430
-        public void get_Keys(){} // RVA: 0x7AD9A9FF0
-        public void get_Certificates(){} // RVA: 0x7AD9AA6F0
-        public void get_RNG(){} // RVA: 0x7AD9AAB60
-        public void Compare(){} // RVA: 0x7AD9AABE0
-        public void GetSymmetricAlgorithm(){} // RVA: 0x7AD9AAC60
-        public void Decrypt(){} // RVA: 0x7AD9AB750
-        public void Encrypt(){} // RVA: 0x7AD9AB890
-        public void GetExistingParameters(){} // RVA: 0x7AD9ABA00
-        public void AddPrivateKey(){} // RVA: 0x7AD9ABC60
-        public void ReadSafeBag(){} // RVA: 0x7AD9ABF70
-        public void Pkcs8ShroudedKeyBagSafeBag(){} // RVA: 0x7AD9ACA30
-        public void CertificateSafeBag(){} // RVA: 0x7AD9AD850
-        public void MAC(){} // RVA: 0x7AD9AE2F0
-        public void GetBytes(){} // RVA: 0x7AD9AE560
-        public void EncryptedContentInfo(){} // RVA: 0x7AD9B08D0
-        public void AddCertificate(){} // RVA: 0x7AD9B0FF0
-        public void RemoveCertificate(){} // RVA: 0x7AD9B1320
-        public void CompareAsymmetricAlgorithm(){} // RVA: 0x7AD9B19C0
-        public void AddPkcs8ShroudedKeyBag(){} // RVA: 0x7AD9B1AC0
-        public void Clone(){} // RVA: 0x7AD9B1ED0
-        public void get_MaximumPasswordLength(){} // RVA: 0x7AD9B1FE0
-        public void .cctor(){} // RVA: 0x7AD9B2040
+        public void .ctor(){} // RVA: 0x6633FF0
+        public void Decode(){} // RVA: 0x6634040
+        public void Finalize(){} // RVA: 0x6634AF0
+        public void set_Password(){} // RVA: 0x6634BA0
+        public void get_IterationCount(){} // RVA: 0xE9CE60
+        public void set_IterationCount(){} // RVA: 0xEA1260
+        public void get_Keys(){} // RVA: 0x6634E20
+        public void get_Certificates(){} // RVA: 0x6635520
+        public void get_RNG(){} // RVA: 0x6635990
+        public void Compare(){} // RVA: 0x6635A10
+        public void GetSymmetricAlgorithm(){} // RVA: 0x6635A90
+        public void Decrypt(){} // RVA: 0x6636580
+        public void Encrypt(){} // RVA: 0x66366C0
+        public void GetExistingParameters(){} // RVA: 0x6636830
+        public void AddPrivateKey(){} // RVA: 0x6636A90
+        public void ReadSafeBag(){} // RVA: 0x6636DA0
+        public void Pkcs8ShroudedKeyBagSafeBag(){} // RVA: 0x6637860
+        public void CertificateSafeBag(){} // RVA: 0x6638670
+        public void MAC(){} // RVA: 0x6639100
+        public void GetBytes(){} // RVA: 0x6639370
+        public void EncryptedContentInfo(){} // RVA: 0x663B6E0
+        public void AddCertificate(){} // RVA: 0x663BE00
+        public void RemoveCertificate(){} // RVA: 0x663C130
+        public void CompareAsymmetricAlgorithm(){} // RVA: 0x663C7D0
+        public void AddPkcs8ShroudedKeyBag(){} // RVA: 0x663C8D0
+        public void Clone(){} // RVA: 0x663CCE0
+        public void get_MaximumPasswordLength(){} // RVA: 0x663CDF0
+        public void .cctor(){} // RVA: 0x663CE50
     }
 
     public class SafeBag : Object
     {
+        public object _bagOID;
+        public object _asn1;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void get_BagOID(){} // RVA: 0x7A80F2570
-        public void get_ASN1(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void get_BagOID(){} // RVA: 0xB5DBF0
+        public void get_ASN1(){} // RVA: 0xB465B0
     }
 
     public class X501 : Object
     {
+        public object countryName;
+        public object organizationName;
+        public object organizationalUnitName;
+        public object commonName;
+        public object localityName;
+        public object stateOrProvinceName;
+        public object streetAddress;
+        public object serialNumber;
+        public object domainComponent;
+        public object userid;
+        public object email;
+        public object dnQualifier;
+        public object title;
+        public object surname;
+        public object givenName;
+        public object initial;
+
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7AD9B2E30
-        public void AppendEntry(){} // RVA: 0x7AD9B3020
-        public void GetAttributeFromOid(){} // RVA: 0x7AD9B3A00
-        public void IsOid(){} // RVA: 0x7AD9B4B60
-        public void ReadAttribute(){} // RVA: 0x7AD9B4C50
-        public void IsHex(){} // RVA: 0x7AD9B4E00
-        public void ReadHex(){} // RVA: 0x7AD9B4F60
-        public void ReadEscaped(){} // RVA: 0x7AD9B5260
-        public void ReadQuoted(){} // RVA: 0x7AD9B5410
-        public void ReadValue(){} // RVA: 0x7AD9B5580
-        public void FromString(){} // RVA: 0x7AD9B5850
-        public void .cctor(){} // RVA: 0x7AD9B5B60
+        public void ToString(){} // RVA: 0x663DC40
+        public void AppendEntry(){} // RVA: 0x663DE30
+        public void GetAttributeFromOid(){} // RVA: 0x663E810
+        public void IsOid(){} // RVA: 0x663F970
+        public void ReadAttribute(){} // RVA: 0x663FA60
+        public void IsHex(){} // RVA: 0x663FC10
+        public void ReadHex(){} // RVA: 0x663FD90
+        public void ReadEscaped(){} // RVA: 0x66400B0
+        public void ReadQuoted(){} // RVA: 0x6640260
+        public void ReadValue(){} // RVA: 0x66403D0
+        public void FromString(){} // RVA: 0x6640690
+        public void .cctor(){} // RVA: 0x6640990
     }
 
     public class X509Certificate : Object
     {
+        public object decoder;
+        public object m_encodedcert;
+        public object m_from;
+        public object m_until;
+        public object issuer;
+        public object m_issuername;
+        public object m_keyalgo;
+        public object m_keyalgoparams;
+        public object subject;
+        public object m_subject;
+        public object m_publickey;
+        public object signature;
+        public object m_signaturealgo;
+        public object m_signaturealgoparams;
+        public object certhash;
+        public object _rsa;
+        public object _dsa;
+        public object version;
+        public object serialnumber;
+        public object issuerUniqueID;
+        public object subjectUniqueID;
+        public object extensions;
+        public object encoding_error;
+
         // ── Methods ──
-        public void Parse(){} // RVA: 0x7AD9B7D60
-        public void .ctor(){} // RVA: 0x7AD9B8720
-        public void GetUnsignedBigInteger(){} // RVA: 0x7AD9B8850
-        public void get_DSA(){} // RVA: 0x7AD9B8900
-        public void set_DSA(){} // RVA: 0x7AD9B8E20
-        public void get_Extensions(){} // RVA: 0x7A8142680
-        public void get_Hash(){} // RVA: 0x7AD9B8EF0
-        public void get_IssuerName(){} // RVA: 0x7A8292C30
-        public void get_KeyAlgorithm(){} // RVA: 0x7A8154D80
-        public void get_KeyAlgorithmParameters(){} // RVA: 0x7AD9B9140
-        public void set_KeyAlgorithmParameters(){} // RVA: 0x7A8152D90
-        public void get_PublicKey(){} // RVA: 0x7AD9B91C0
-        public void get_RSA(){} // RVA: 0x7AD9B9240
-        public void set_RSA(){} // RVA: 0x7AD9B9530
-        public void get_RawData(){} // RVA: 0x7AD9B95F0
-        public void get_SerialNumber(){} // RVA: 0x7AD9B9670
-        public void get_Signature(){} // RVA: 0x7AD9B9700
-        public void get_SubjectName(){} // RVA: 0x7A81A0050
-        public void get_ValidFrom(){} // RVA: 0x7A81052C0
-        public void get_ValidUntil(){} // RVA: 0x7A8105330
-        public void get_Version(){} // RVA: 0x7A9B79A20
-        public void get_IsCurrent(){} // RVA: 0x7AD9B9C10
-        public void WasCurrent(){} // RVA: 0x7AD9B9D20
-        public void VerifySignature(){} // RVA: 0x7AD9BA050
-        public void get_IsSelfSigned(){} // RVA: 0x7AD9BA250
-        public void GetObjectData(){} // RVA: 0x7AD9BA320
-        public void PEM(){} // RVA: 0x7AD9BA560
-        public void .cctor(){} // RVA: 0x7AD9BA7E0
+        public void Parse(){} // RVA: 0x6642B90
+        public void .ctor(){} // RVA: 0x6643550
+        public void GetUnsignedBigInteger(){} // RVA: 0x6643680
+        public void get_DSA(){} // RVA: 0x6643730
+        public void set_DSA(){} // RVA: 0x6643C50
+        public void get_Extensions(){} // RVA: 0xBAE3B0
+        public void get_Hash(){} // RVA: 0x6643D20
+        public void get_IssuerName(){} // RVA: 0xD05CA0
+        public void get_KeyAlgorithm(){} // RVA: 0xBC1B30
+        public void get_KeyAlgorithmParameters(){} // RVA: 0x6643F70
+        public void set_KeyAlgorithmParameters(){} // RVA: 0xBBF900
+        public void get_PublicKey(){} // RVA: 0x6643FF0
+        public void get_RSA(){} // RVA: 0x6644070
+        public void set_RSA(){} // RVA: 0x6644360
+        public void get_RawData(){} // RVA: 0x6644420
+        public void get_SerialNumber(){} // RVA: 0x66444A0
+        public void get_Signature(){} // RVA: 0x6644530
+        public void get_SubjectName(){} // RVA: 0xC0FFC0
+        public void get_ValidFrom(){} // RVA: 0xB700F0
+        public void get_ValidUntil(){} // RVA: 0xB70160
+        public void get_Version(){} // RVA: 0x262A930
+        public void get_IsCurrent(){} // RVA: 0x6644A40
+        public void WasCurrent(){} // RVA: 0x6644B50
+        public void VerifySignature(){} // RVA: 0x6644E80
+        public void get_IsSelfSigned(){} // RVA: 0x6645080
+        public void GetObjectData(){} // RVA: 0x6645150
+        public void PEM(){} // RVA: 0x6645390
+        public void .cctor(){} // RVA: 0x6645610
     }
 
     public class X509CertificateCollection : CollectionBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9BA890
-        public void get_Item(){} // RVA: 0x7AD9BA8A0
-        public void Add(){} // RVA: 0x7AD9BA940
-        public void AddRange(){} // RVA: 0x7AD9BA9D0
-        public void Contains(){} // RVA: 0x7AD9BAAB0
-        public void GetEnumerator(){} // RVA: 0x7AD9BAAD0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AD9BABB0
-        public void GetHashCode(){} // RVA: 0x7A8738190
-        public void IndexOf(){} // RVA: 0x7AD9BABE0
-        public void Compare(){} // RVA: 0x7AD9B70B0
+        public void .ctor(){} // RVA: 0x66456C0
+        public void get_Item(){} // RVA: 0x66456D0
+        public void Add(){} // RVA: 0x6645770
+        public void AddRange(){} // RVA: 0x6645800
+        public void Contains(){} // RVA: 0x66458E0
+        public void GetEnumerator(){} // RVA: 0x6645900
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x66459E0
+        public void GetHashCode(){} // RVA: 0x1269730
+        public void IndexOf(){} // RVA: 0x6645A10
+        public void Compare(){} // RVA: 0x6641EE0
     }
 
     public class X509Chain : Object
     {
+        public object roots;
+        public object certs;
+        public object _root;
+        public object _chain;
+        public object _status;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9BB040
-        public void get_TrustAnchors(){} // RVA: 0x7AD9BB0E0
-        public void LoadCertificates(){} // RVA: 0x7AD9BB270
-        public void Build(){} // RVA: 0x7AD9BB290
-        public void Reset(){} // RVA: 0x7AD9BB740
-        public void IsValid(){} // RVA: 0x7AD9BB860
-        public void FindCertificateParent(){} // RVA: 0x7AD9BB9D0
-        public void FindCertificateRoot(){} // RVA: 0x7AD9BBB50
-        public void IsTrusted(){} // RVA: 0x7AD9BBD60
-        public void IsParent(){} // RVA: 0x7AD9BBDA0
+        public void .ctor(){} // RVA: 0x6645E70
+        public void get_TrustAnchors(){} // RVA: 0x6645F10
+        public void LoadCertificates(){} // RVA: 0x66460A0
+        public void Build(){} // RVA: 0x66460C0
+        public void Reset(){} // RVA: 0x6646570
+        public void IsValid(){} // RVA: 0x6646690
+        public void FindCertificateParent(){} // RVA: 0x6646800
+        public void FindCertificateRoot(){} // RVA: 0x6646980
+        public void IsTrusted(){} // RVA: 0x6646B90
+        public void IsParent(){} // RVA: 0x6646BD0
     }
 
     public class X509Crl : Object
     {
+        public object issuer;
+        public object version;
+        public object thisUpdate;
+        public object nextUpdate;
+        public object entries;
+        public object signatureOID;
+        public object signature;
+        public object extensions;
+        public object encoded;
+        public object hash_value;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9B65D0
-        public void Parse(){} // RVA: 0x7AD9B6720
-        public void get_Extensions(){} // RVA: 0x7A8152D80
-        public void get_Hash(){} // RVA: 0x7AD9B6DE0
-        public void get_IssuerName(){} // RVA: 0x7A80F2570
-        public void get_NextUpdate(){} // RVA: 0x7A8105330
-        public void Compare(){} // RVA: 0x7AD9B70B0
-        public void GetCrlEntry(){} // RVA: 0x7AD9B71B0
-        public void VerifySignature(){} // RVA: 0x7AD9B7800
+        public void .ctor(){} // RVA: 0x6641400
+        public void Parse(){} // RVA: 0x6641550
+        public void get_Extensions(){} // RVA: 0xBBF8F0
+        public void get_Hash(){} // RVA: 0x6641C10
+        public void get_IssuerName(){} // RVA: 0xB5DBF0
+        public void get_NextUpdate(){} // RVA: 0xB70160
+        public void Compare(){} // RVA: 0x6641EE0
+        public void GetCrlEntry(){} // RVA: 0x6641FE0
+        public void VerifySignature(){} // RVA: 0x6642630
     }
 
     public class X509Extension : Object
     {
+        public object extnOid;
+        public object extnCritical;
+        public object extnValue;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9BC280
-        public void Decode(){} // RVA: 0x7A80D7310
-        public void Encode(){} // RVA: 0x7A80D7310
-        public void get_Oid(){} // RVA: 0x7A80F2570
-        public void get_Critical(){} // RVA: 0x7A80F26D0
-        public void get_Value(){} // RVA: 0x7AD9BC400
-        public void Equals(){} // RVA: 0x7AD9BC440
-        public void GetHashCode(){} // RVA: 0x7A8738190
-        public void WriteLine(){} // RVA: 0x7AD9BC5D0
-        public void ToString(){} // RVA: 0x7AD9BC820
+        public void .ctor(){} // RVA: 0x66470B0
+        public void Decode(){} // RVA: 0xB43310
+        public void Encode(){} // RVA: 0xB43310
+        public void get_Oid(){} // RVA: 0xB5DBF0
+        public void get_Critical(){} // RVA: 0xB5DD50
+        public void get_Value(){} // RVA: 0x6647230
+        public void Equals(){} // RVA: 0x6647270
+        public void GetHashCode(){} // RVA: 0x1269730
+        public void WriteLine(){} // RVA: 0x6647400
+        public void ToString(){} // RVA: 0x6647650
     }
 
     public class X509ExtensionCollection : CollectionBase
     {
+        public object readOnly;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9BC950
-        public void IndexOf(){} // RVA: 0x7AD9BCAA0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AD9BABB0
-        public void get_Item(){} // RVA: 0x7AD9BCC30
+        public void .ctor(){} // RVA: 0x6647780
+        public void IndexOf(){} // RVA: 0x66478D0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x66459E0
+        public void get_Item(){} // RVA: 0x6647A60
     }
 
     public class X509Store : Object
     {
+        public object _storePath;
+        public object _certificates;
+        public object _crls;
+        public object _crl;
+        public object _newFormat;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD9BCE60
-        public void get_Certificates(){} // RVA: 0x7AD9BCED0
-        public void get_Crls(){} // RVA: 0x7AD9BCF50
-        public void Load(){} // RVA: 0x7AD9BD070
-        public void LoadCertificate(){} // RVA: 0x7AD9BD1F0
-        public void LoadCrl(){} // RVA: 0x7AD9BD260
-        public void CheckStore(){} // RVA: 0x7AD9BD400
-        public void BuildCertificatesCollection(){} // RVA: 0x7AD9BD460
-        public void BuildCrlsCollection(){} // RVA: 0x7AD9BD640
+        public void .ctor(){} // RVA: 0x6647C90
+        public void get_Certificates(){} // RVA: 0x6647D00
+        public void get_Crls(){} // RVA: 0x6647D80
+        public void Load(){} // RVA: 0x6647EA0
+        public void LoadCertificate(){} // RVA: 0x6648020
+        public void LoadCrl(){} // RVA: 0x6648090
+        public void CheckStore(){} // RVA: 0x6648230
+        public void BuildCertificatesCollection(){} // RVA: 0x6648290
+        public void BuildCrlsCollection(){} // RVA: 0x6648470
     }
 
     public class X509StoreManager : Object
     {
+        public object _userPath;
+        public object _localMachinePath;
+        public object _newUserPath;
+        public object _newLocalMachinePath;
+        public object _userStore;
+        public object _machineStore;
+
         // ── Methods ──
-        public void get_CurrentUserPath(){} // RVA: 0x7AD9BD7A0
-        public void get_LocalMachinePath(){} // RVA: 0x7AD9BD960
-        public void get_NewCurrentUserPath(){} // RVA: 0x7AD9BDB30
-        public void get_NewLocalMachinePath(){} // RVA: 0x7AD9BDD00
-        public void get_CurrentUser(){} // RVA: 0x7AD9BDED0
-        public void get_LocalMachine(){} // RVA: 0x7AD9BE1C0
-        public void get_TrustedRootCertificates(){} // RVA: 0x7AD9BE4C0
+        public void get_CurrentUserPath(){} // RVA: 0x66485D0
+        public void get_LocalMachinePath(){} // RVA: 0x6648790
+        public void get_NewCurrentUserPath(){} // RVA: 0x6648960
+        public void get_NewLocalMachinePath(){} // RVA: 0x6648B30
+        public void get_CurrentUser(){} // RVA: 0x6648D00
+        public void get_LocalMachine(){} // RVA: 0x6648FF0
+        public void get_TrustedRootCertificates(){} // RVA: 0x66492F0
     }
 
     public class X509Stores : Object
     {
+        public object _storePath;
+        public object _newFormat;
+        public object _trusted;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A986DB30
-        public void get_TrustedRoot(){} // RVA: 0x7AD9BE580
-        public void Open(){} // RVA: 0x7AD9BE6F0
+        public void .ctor(){} // RVA: 0x237A5A0
+        public void get_TrustedRoot(){} // RVA: 0x66493B0
+        public void Open(){} // RVA: 0x6649520
     }
 
 }

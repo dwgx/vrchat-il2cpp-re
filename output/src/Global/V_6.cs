@@ -1,16 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 1258
+// Methods: 1233
 
 public class VRCProjectSettings : MonoBehaviour
 {
+    public object layers;
+    public object numLayers;
+    public object layerCollisionArr;
+    public object queriesHitTriggers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43D60
 }
 
 public class ValidityCallback : Object
 {
+    public object m_outer;
+    public object m_decompressed;
+    public object m_checkOrder;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA66E0D0
     public void Precompute(){} // RVA: 0xA66E140
@@ -18,6 +27,8 @@ public class ValidityCallback : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -37,6 +48,50 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510C070
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x510C330
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -56,6 +111,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4239570
@@ -75,6 +132,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -94,6 +153,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -113,253 +174,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4239570
-    public void CopyTo(){} // RVA: 0x51137B0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51286F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4239790
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4239790
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5128810
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5128B50
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4207A20
-    public void CopyTo(){} // RVA: 0x51041A0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51042B0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510FD70
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5110070
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x5127EB0
-    public void CopyTo(){} // RVA: 0x5127EF0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5128060
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x5128200
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5128200
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5128320
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51286A0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x51291D0
-    public void CopyTo(){} // RVA: 0x5129210
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51293A0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x5129540
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5129540
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5129650
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5129A00
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4204BE0
-    public void CopyTo(){} // RVA: 0x51095A0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51096B0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4204DD0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4204DD0
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x51097A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5109AA0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x51088F0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5108BB0
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510C070
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x510C330
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
-}
-
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -379,6 +195,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -398,50 +216,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4203290
-    public void CopyTo(){} // RVA: 0x511A180
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511A290
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4203480
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4203480
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511A360
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511A660
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4207A20
-    public void CopyTo(){} // RVA: 0x5114940
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5114A50
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511D020
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511D310
-}
-
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -461,6 +245,134 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x5127EB0
+    public void CopyTo(){} // RVA: 0x5127EF0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5128060
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x5128200
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5128200
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5128320
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51286A0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x51291D0
+    public void CopyTo(){} // RVA: 0x5129210
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51293A0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x5129540
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5129540
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5129650
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5129A00
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4203290
+    public void CopyTo(){} // RVA: 0x511A180
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511A290
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4203480
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4203480
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511A360
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511A660
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x5114940
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5114A50
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511D020
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511D310
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x510D5D0
@@ -480,6 +392,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -499,6 +413,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -518,6 +434,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -537,6 +455,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -556,6 +476,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -565,35 +487,18 @@ public class ValueCollection : Object
     public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
     public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
     public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
     public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510C070
     public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x510C330
 }
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x5115EB0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5115FC0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5137180
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5137450
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -613,6 +518,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -632,6 +539,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x41FFB60
@@ -651,18 +568,50 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x5114940
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5114A50
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511D020
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511D310
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x5114940
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x5120730
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5120810
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x5120B00
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -682,25 +631,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x41FFAF0
-    public void GetEnumerator(){} // RVA: 0x4200E70
-    public void CopyTo(){} // RVA: 0x51046E0
-    public void get_Count(){} // RVA: 0x41FFD30
-    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
-    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
-    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510C070
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x510C330
-}
+    public object _dictionary;
 
-public class ValueCollection : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -720,6 +652,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -739,6 +673,29 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x511DFA0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x511DFD0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x511E210
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -758,6 +715,29 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x510C070
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x510C330
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -777,6 +757,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -796,6 +778,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -815,6 +799,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -834,6 +820,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -853,6 +849,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -872,6 +870,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -891,6 +891,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -910,6 +912,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -929,6 +933,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x5112070
@@ -948,6 +954,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -967,6 +975,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -986,6 +996,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -1005,6 +1017,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1024,6 +1038,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4207A20
@@ -1043,6 +1059,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1062,6 +1080,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1081,6 +1101,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -1100,6 +1122,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1119,6 +1143,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1138,6 +1164,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1157,6 +1185,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1176,6 +1206,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x5110410
@@ -1195,6 +1227,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1214,6 +1248,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1233,6 +1269,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1252,6 +1290,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1271,6 +1311,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1290,6 +1332,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1309,6 +1353,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4203290
@@ -1328,6 +1374,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1347,6 +1395,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1366,6 +1416,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1385,6 +1437,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1404,6 +1458,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1423,6 +1479,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1442,12 +1500,16 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
 }
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1467,6 +1529,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4200E70
@@ -1486,6 +1550,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -1505,6 +1571,8 @@ public class ValueCollection : Object
 
 public class ValueCollection : Object
 {
+    public object _dictionary;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x41FFAF0
     public void GetEnumerator(){} // RVA: 0x4205530
@@ -1522,8 +1590,52 @@ public class ValueCollection : Object
     public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x512FE90
 }
 
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4207A20
+    public void CopyTo(){} // RVA: 0x5101EA0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51034F0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4207C10
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x51035D0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51038C0
+}
+
+public class ValueCollection : Object
+{
+    public object _dictionary;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x41FFAF0
+    public void GetEnumerator(){} // RVA: 0x4200E70
+    public void CopyTo(){} // RVA: 0x51046E0
+    public void get_Count(){} // RVA: 0x41FFD30
+    public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection<TValue>.Add(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Remove(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Clear(){} // RVA: 0x5101110
+    public void System.Collections.Generic.ICollection<TValue>.Contains(){} // RVA: 0x51047F0
+    public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4201060
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x512FEE0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x51301A0
+}
+
 public class ValueList : Object
 {
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -1547,6 +1659,8 @@ public class ValueList : Object
 
 public class ValueList : Object
 {
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Count(){} // RVA: 0x4256270
@@ -1570,6 +1684,8 @@ public class ValueList : Object
 
 public class ValueList : Object
 {
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void get_Count(){} // RVA: 0x4256270
@@ -1593,6 +1709,12 @@ public class ValueList : Object
 
 public class Variable : ApiModel
 {
+    public object _variableId;
+    public object _boolValue;
+    public object _floatValue;
+    public object _stringValue;
+    public object _vectorValue;
+
     // ── Methods ──
     public void get_variableId(){} // RVA: 0xBBFF90
     public void set_variableId(){} // RVA: 0xBBFFA0
@@ -1609,6 +1731,11 @@ public class Variable : ApiModel
 
 public class Vector3f : ValueType
 {
+    public object x;
+    public object y;
+    public object z;
+    public object zero;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA540
     public void .cctor(){} // RVA: 0x6BE2640
@@ -1616,6 +1743,8 @@ public class Vector3f : ValueType
 
 public class VendorData : ApiModel
 {
+    public object _purchaseToken;
+
     // ── Methods ──
     public void get_purchaseToken(){} // RVA: 0xBBFF90
     public void set_purchaseToken(){} // RVA: 0xBBFFA0
@@ -1624,6 +1753,8 @@ public class VendorData : ApiModel
 
 public class VerifyKey : ValueType
 {
+    public object _key;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x77900
     public void .ctor(){} // RVA: 0xA73320
@@ -1631,6 +1762,14 @@ public class VerifyKey : ValueType
 
 public class Version : ApiModel
 {
+    public object _version;
+    public object _status;
+    public object _created_at;
+    public object _file;
+    public object _signature;
+    public object _delta;
+    public object _deleted;
+
     // ── Methods ──
     public void get_version(){} // RVA: 0x2536460
     public void set_version(){} // RVA: 0x25406E0
@@ -1649,6 +1788,15 @@ public class Version : ApiModel
     public void .ctor(){} // RVA: 0xA518630
     public void Init(){} // RVA: 0xA518800
     public void GetFileDescriptor(){} // RVA: 0xA5188A0
+}
+
+public class VersionInfo : ValueType
+{
+    public object source;
+    public object version;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x260A0
 }
 
 public class Version[] : Array
@@ -1673,12 +1821,25 @@ public class Version[] : Array
 
 public class VideoEntry : Object
 {
+    public object Source;
+    public object AspectRatio;
+    public object PlaybackSpeed;
+    public object VideoClip;
+    public object URL;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA696200
 }
 
 public class VideoEntry : Object
 {
+    public object Source;
+    public object VideoClip;
+    public object PlaybackSpeed;
+    public object URL;
+    public object SyncType;
+    public object SyncMinutes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA697F30
 }
@@ -1725,6 +1886,10 @@ public class VideoEntry[] : Array
 
 public class ViewState : Object
 {
+    public object m_HasPersistedData;
+    public object m_TabOrder;
+    public object m_ActiveTabKey;
+
     // ── Methods ──
     public void Save(){} // RVA: 0x802F410
     public void Apply(){} // RVA: 0x802F6D0
@@ -1735,6 +1900,19 @@ public class ViewState : Object
 
 public class VrcDataElement : Object
 {
+    public object name;
+    public object mirror;
+    public object type;
+    public object serializeComponent;
+    public object valueBool;
+    public object valueInt;
+    public object valueFloat;
+    public object valueString;
+    public object valueSerializedBytes;
+    public object modified;
+    public object added;
+    public object dataStorage;
+
     // ── Methods ──
     public void Serialize(){} // RVA: 0xA94080
     public void Deserialize(){} // RVA: 0x87D350
@@ -1742,6 +1920,45 @@ public class VrcDataElement : Object
 }
 
 public class VrcDataElement[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class VrcEvent : Object
+{
+    public object Name;
+    public object EventType;
+    public object ParameterString;
+    public object ParameterBoolOp;
+    public object ParameterBool;
+    public object ParameterFloat;
+    public object ParameterInt;
+    public object ParameterObject;
+    public object ParameterObjects;
+    public object ParameterBytes;
+    public object ParameterBytesVersion;
+    public object TakeOwnershipOfTarget;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA749D20
+}
+
+public class VrcEvent[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20

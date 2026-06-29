@@ -7,6 +7,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class JsonDataReader : BaseDataReader
     {
+        public object reader;
+        public object peekedEntryType;
+        public object peekedEntryName;
+        public object peekedEntryContent;
+        public object seenTypes;
+        public object primitiveArrayReaders;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8481240
         public void get_Stream(){} // RVA: 0xB70160
@@ -59,6 +66,17 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonDataWriter : BaseDataWriter
     {
+        public object ByteToHexCharLookup;
+        public object NEW_LINE;
+        public object justStarted;
+        public object forceNoSeparatorNextLine;
+        public object primitiveTypeWriters;
+        public object seenTypes;
+        public object buffer;
+        public object bufferIndex;
+        public object FormatAsReadable;
+        public object EnableTypeOptimization;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8485720
         public void MarkJustStarted(){} // RVA: 0x21B8CE0
@@ -101,6 +119,16 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class JsonTextReader : Object
     {
+        public object EntryDelineators;
+        public object UnescapeDictionary;
+        public object reader;
+        public object bufferIndex;
+        public object buffer;
+        public object lastReadChar;
+        public object peekedChar;
+        public object emergencyPlayback;
+        public object _context;
+
         // ── Methods ──
         public void get_Context(){} // RVA: 0xD05CA0
         public void set_Context(){} // RVA: 0xD09D70

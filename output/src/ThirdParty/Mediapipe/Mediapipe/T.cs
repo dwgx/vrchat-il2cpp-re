@@ -7,6 +7,55 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class TensorsToDetectionsCalculatorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object NumClassesDefaultValue;
+        public object numClasses_;
+        public object NumBoxesDefaultValue;
+        public object numBoxes_;
+        public object NumCoordsDefaultValue;
+        public object numCoords_;
+        public object KeypointCoordOffsetDefaultValue;
+        public object keypointCoordOffset_;
+        public object NumKeypointsDefaultValue;
+        public object numKeypoints_;
+        public object NumValuesPerKeypointDefaultValue;
+        public object numValuesPerKeypoint_;
+        public object BoxCoordOffsetDefaultValue;
+        public object boxCoordOffset_;
+        public object XScaleDefaultValue;
+        public object xScale_;
+        public object YScaleDefaultValue;
+        public object yScale_;
+        public object WScaleDefaultValue;
+        public object wScale_;
+        public object HScaleDefaultValue;
+        public object hScale_;
+        public object ApplyExponentialOnBoxSizeDefaultValue;
+        public object applyExponentialOnBoxSize_;
+        public object ReverseOutputOrderDefaultValue;
+        public object reverseOutputOrder_;
+        public object _repeated_ignoreClasses_codec;
+        public object ignoreClasses_;
+        public object _repeated_allowClasses_codec;
+        public object allowClasses_;
+        public object SigmoidScoreDefaultValue;
+        public object sigmoidScore_;
+        public object ScoreClippingThreshDefaultValue;
+        public object scoreClippingThresh_;
+        public object FlipVerticallyDefaultValue;
+        public object flipVertically_;
+        public object MinScoreThreshDefaultValue;
+        public object minScoreThresh_;
+        public object MaxResultsDefaultValue;
+        public object maxResults_;
+        public object tensorMapping_;
+        public object BoxFormatDefaultValue;
+        public object boxFormat_;
+        public object boxIndices_;
+        public object boxIndicesCase_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x6565D70
         public void get_Descriptor(){} // RVA: 0x6565DD0
@@ -110,6 +159,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class TensorsToDetectionsCalculatorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x6564AB0
         public void .cctor(){} // RVA: 0x6564B10
@@ -123,6 +174,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ThresholdingCalculatorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object ThresholdDefaultValue;
+        public object threshold_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x656BE50
         public void get_Descriptor(){} // RVA: 0x656BEB0
@@ -146,6 +203,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class ThresholdingCalculatorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x656B770
         public void .cctor(){} // RVA: 0x656B7D0
@@ -153,6 +212,10 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class Tool : Object
     {
+        public object _TagAndNameRegex;
+        public object _TagIndexNameRegex;
+        public object _TagIndexRegex;
+
         // ── Methods ──
         public void GetUnusedSidePacketName(){} // RVA: 0x65539D0
         public void ParseNameFromStream(){} // RVA: 0x6553DE0

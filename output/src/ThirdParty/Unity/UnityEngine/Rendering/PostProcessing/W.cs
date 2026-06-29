@@ -7,6 +7,13 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
     public class WaveformMonitor : Monitor
     {
+        public object exposure;
+        public object height;
+        public object m_Data;
+        public object k_ThreadGroupSize;
+        public object k_ThreadGroupSizeX;
+        public object k_ThreadGroupSizeY;
+
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x797AFC0
         public void NeedsHalfRes(){} // RVA: 0xC2E4C0

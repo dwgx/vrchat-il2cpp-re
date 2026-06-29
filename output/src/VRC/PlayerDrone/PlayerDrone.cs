@@ -7,6 +7,16 @@ namespace VRC.PlayerDrone
 {
     public class PIDController : ValueType
     {
+        public object pFactor;
+        public object iFactor;
+        public object dFactor;
+        public object integral;
+        public object lastValue;
+        public object finalValue;
+        public object limit;
+        public object derivativeInitialized;
+        public object kReferenceDeltaTime;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x31BB0
         public void InternalEquals(){} // RVA: 0x31C70
@@ -23,6 +33,13 @@ namespace VRC.PlayerDrone
 
     public class PIDControllerQuaternion : ValueType
     {
+        public object pFactor;
+        public object iFactor;
+        public object dFactor;
+        public object integral;
+        public object lastError;
+        public object kReferenceDeltaTime;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x31EB0
         public void InternalEquals(){} // RVA: 0x31EC0

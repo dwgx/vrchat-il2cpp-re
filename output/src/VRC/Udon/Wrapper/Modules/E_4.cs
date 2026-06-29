@@ -1,12 +1,244 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Wrapper.Modules
 // Classes: 100
-// Methods: 4860
+// Methods: 5072
 
 namespace VRC.Udon.Wrapper.Modules
 {
+    public class ExternUnityEngineDistanceJoint2DArray : Object
+    {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x8E88A30
+        public void .ctor(){} // RVA: 0x8E88A70
+        public void GetExternFunctionParameterCount(){} // RVA: 0x8E88E40
+        public void GetExternFunctionDelegate(){} // RVA: 0x8E88F70
+        public void __Clone__SystemObject(){} // RVA: 0x8E89080
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8E89170
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8E89250
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8E89320
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8E89470
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x8E89510
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8E89620
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8E89740
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8E89850
+        public void __GetType__SystemType(){} // RVA: 0x8E89970
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8E89A60
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8E89B40
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8E89C70
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8E89E00
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8E89F50
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8E8A080
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8E8A1B0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8E8A330
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8E8A480
+        public void __Get__SystemInt32__UnityEngineDistanceJoint2D(){} // RVA: 0x8E8A5B0
+        public void __Initialize__SystemVoid(){} // RVA: 0x8E8A700
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8E8A770
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8E8A8A0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8E8AA20
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8E8AB80
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8E8ACB0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8E8ADE0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8E8AF50
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8E8B0A0
+        public void __Set__SystemInt32_UnityEngineDistanceJoint2D__SystemVoid(){} // RVA: 0x8E8B1D0
+        public void __ToString__SystemString(){} // RVA: 0x8E8B370
+        public void __ctor__SystemInt32__UnityEngineDistanceJoint2DArray(){} // RVA: 0x8E8B470
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8E8B570
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8E8B610
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8E8B6B0
+        public void __get_Length__SystemInt32(){} // RVA: 0x8E8B750
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x8E8B7F0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x8E8B890
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8E8B930
+        public void <.ctor>b__6_1(){} // RVA: 0x8E8BA10
+    }
+
+    public class ExternUnityEngineEdgeCollider2D : Object
+    {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x8E8D930
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8E8D970
+        public void .ctor(){} // RVA: 0x8E8D9F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x8E8DDC0
+        public void GetExternFunctionDelegate(){} // RVA: 0x8E8DEF0
+        public void __Cast__UnityEngineVector2_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8E000
+        public void __Cast__UnityEngineVector2_SystemSingle_UnityEngineVector2_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8E1F0
+        public void __Cast__UnityEngineVector2_SystemSingle_UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8E450
+        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8E750
+        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8E9E0
+        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8E8EC70
+        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8E8EEB0
+        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8E8F0B0
+        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8E8F290
+        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8E8F430
+        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x8E8F590
+        public void __CreateMesh__SystemBoolean_SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x8E8F6F0
+        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x8E8F8A0
+        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x8E8FA20
+        public void __Distance__UnityEngineVector2_SystemSingle_UnityEngineCollider2D_UnityEngineVector2_SystemSingle__UnityEngineColliderDistance2D(){} // RVA: 0x8E8FBC0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8E8FE20
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8E90000
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8E900F0
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8E90380
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8E90500
+        public void __GetComponentInChildren__T(){} // RVA: 0x8E90640
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8E90730
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8E90980
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8E90A70
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8E90D00
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8E90E80
+        public void __GetComponentInParent__T(){} // RVA: 0x8E90FC0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8E910B0
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8E91300
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8E91430
+        public void __GetComponent__T(){} // RVA: 0x8E91570
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8E91650
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8E91880
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8E91970
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8E91C80
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8E91D70
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8E920A0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8E92190
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8E92480
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8E92620
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8E92770
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8E92860
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8E92B10
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8E92C00
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8E92F30
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8E93020
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8E93310
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8E934B0
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x8E93600
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8E936F0
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8E939A0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8E93A90
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8E93D60
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8E93EB0
+        public void __GetComponents__TArray(){} // RVA: 0x8E94000
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8E940F0
+        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E943B0
+        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x8E94510
+        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x8E94630
+        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E94790
+        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x8E949D0
+        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x8E94B60
+        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x8E94DA0
+        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x8E94F30
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x8E95050
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8E951C0
+        public void __GetPoints__SystemCollectionsGenericListUnityEngineVector2__SystemInt32(){} // RVA: 0x8E95320
+        public void __GetShapeBounds__SystemCollectionsGenericListUnityEngineBounds_SystemBoolean_SystemBoolean__UnityEngineBounds(){} // RVA: 0x8E95440
+        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x8E95600
+        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x8E95770
+        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x8E95900
+        public void __GetType__SystemType(){} // RVA: 0x8E95A20
+        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x8E95B10
+        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x8E95C00
+        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8E95D20
+        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x8E95F90
+        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8E960C0
+        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x8E96280
+        public void __Overlap__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E963A0
+        public void __Overlap__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E96500
+        public void __Overlap__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x8E967C0
+        public void __Overlap__UnityEngineVector2_SystemSingle_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E96A80
+        public void __Overlap__UnityEngineVector2_SystemSingle_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8E96C70
+        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x8E96F00
+        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8E97130
+        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8E97360
+        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x8E97550
+        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x8E977B0
+        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x8E979C0
+        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8E97BA0
+        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8E97D40
+        public void __Reset__SystemVoid(){} // RVA: 0x8E97EA0
+        public void __SetPoints__SystemCollectionsGenericListUnityEngineVector2__SystemBoolean(){} // RVA: 0x8E97FD0
+        public void __ToString__SystemString(){} // RVA: 0x8E980F0
+        public void __get_adjacentEndPoint__UnityEngineVector2(){} // RVA: 0x8E98260
+        public void __get_adjacentStartPoint__UnityEngineVector2(){} // RVA: 0x8E983D0
+        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8E98540
+        public void __get_bounceCombine__UnityEnginePhysicsMaterialCombine2D(){} // RVA: 0x8E98650
+        public void __get_bounciness__SystemSingle(){} // RVA: 0x8E987C0
+        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8E98930
+        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x8E98AD0
+        public void __get_compositeCapable__SystemBoolean(){} // RVA: 0x8E98BB0
+        public void __get_compositeOperation__UnityEngineCollider2DCompositeOperation(){} // RVA: 0x8E98D20
+        public void __get_compositeOrder__SystemInt32(){} // RVA: 0x8E98E90
+        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x8E99000
+        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x8E99110
+        public void __get_density__SystemSingle(){} // RVA: 0x8E991F0
+        public void __get_edgeCount__SystemInt32(){} // RVA: 0x8E99360
+        public void __get_edgeRadius__SystemSingle(){} // RVA: 0x8E994D0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x8E99640
+        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x8E997B0
+        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8E99920
+        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x8E99A00
+        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x8E99AE0
+        public void __get_frictionCombine__UnityEnginePhysicsMaterialCombine2D(){} // RVA: 0x8E99BC0
+        public void __get_friction__SystemSingle(){} // RVA: 0x8E99D30
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8E99EA0
+        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x8E99FB0
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8E9A090
+        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8E9A200
+        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8E9A370
+        public void __get_localToWorldMatrix__UnityEngineMatrix4x4(){} // RVA: 0x8E9A4E0
+        public void __get_name__SystemString(){} // RVA: 0x8E9A6B0
+        public void __get_offset__UnityEngineVector2(){} // RVA: 0x8E9A810
+        public void __get_pointCount__SystemInt32(){} // RVA: 0x8E9A8F0
+        public void __get_points__UnityEngineVector2Array(){} // RVA: 0x8E9AA60
+        public void __get_shapeCount__SystemInt32(){} // RVA: 0x8E9AB40
+        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x8E9ACB0
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8E9ADC0
+        public void __get_useAdjacentEndPoint__SystemBoolean(){} // RVA: 0x8E9AED0
+        public void __get_useAdjacentStartPoint__SystemBoolean(){} // RVA: 0x8E9B040
+        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x8E9B1B0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8E9B320
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8E9B620
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8E9B820
+        public void __set_adjacentEndPoint__UnityEngineVector2__SystemVoid(){} // RVA: 0x8E9BB00
+        public void __set_adjacentStartPoint__UnityEngineVector2__SystemVoid(){} // RVA: 0x8E9BC70
+        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9BDE0
+        public void __set_compositeOperation__UnityEngineCollider2DCompositeOperation__SystemVoid(){} // RVA: 0x8E9BEC0
+        public void __set_compositeOrder__SystemInt32__SystemVoid(){} // RVA: 0x8E9BFB0
+        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9C0A0
+        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x8E9C180
+        public void __set_edgeRadius__SystemSingle__SystemVoid(){} // RVA: 0x8E9C270
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8E9C3E0
+        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9C4D0
+        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9C5B0
+        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9C690
+        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8E9C770
+        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8E9C850
+        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8E9C940
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8E9CA30
+        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x8E9CB90
+        public void __set_points__UnityEngineVector2Array__SystemVoid(){} // RVA: 0x8E9CC70
+        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x8E9CE50
+        public void __set_useAdjacentEndPoint__SystemBoolean__SystemVoid(){} // RVA: 0x8E9CF60
+        public void __set_useAdjacentStartPoint__SystemBoolean__SystemVoid(){} // RVA: 0x8E9D0D0
+        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x8E9D240
+        public void <.ctor>b__8_1(){} // RVA: 0x8E9D330
+    }
+
     public class ExternUnityEngineEdgeCollider2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EA4050
         public void .ctor(){} // RVA: 0x8EA4090
@@ -56,6 +288,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineEffector2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EA8F50
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8EA8F90
@@ -126,6 +363,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineEffector2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EB19C0
         public void .ctor(){} // RVA: 0x8EB1A00
@@ -175,6 +417,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFixedJoint : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EB68F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8EB6930
@@ -264,6 +511,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFixedJoint2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EC19B0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8EC19F0
@@ -356,6 +608,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFixedJoint2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8ECCE40
         public void .ctor(){} // RVA: 0x8ECCE80
@@ -405,6 +662,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFixedJointArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8ED1D40
         public void .ctor(){} // RVA: 0x8ED1D80
@@ -454,6 +716,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFrictionJoint2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8ED6D40
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8ED6D80
@@ -545,6 +812,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFrictionJoint2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EE1FA0
         public void .ctor(){} // RVA: 0x8EE1FE0
@@ -594,6 +866,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFrustumPlanes : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EE6EA0
         public void .ctor(){} // RVA: 0x8EE6EE0
@@ -620,6 +897,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineFrustumPlanesArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EE9270
         public void .ctor(){} // RVA: 0x8EE92B0
@@ -669,6 +951,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGameObject : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EEE130
         public void .ctor(){} // RVA: 0x8EEE170
@@ -725,6 +1012,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGameObjectArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EF4610
         public void .ctor(){} // RVA: 0x8EF4650
@@ -774,6 +1066,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGeometryUtility : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EF94B0
         public void .ctor(){} // RVA: 0x8EF94F0
@@ -795,6 +1092,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGizmos : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8EFB320
         public void .ctor(){} // RVA: 0x8EFB360
@@ -838,6 +1140,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradient : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F00740
         public void .ctor(){} // RVA: 0x8F00780
@@ -864,6 +1171,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradientAlphaKey : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F029F0
         public void .ctor(){} // RVA: 0x8F02A30
@@ -883,6 +1195,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradientAlphaKeyArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F04090
         public void .ctor(){} // RVA: 0x8F040D0
@@ -932,6 +1249,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradientArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F08E30
         public void .ctor(){} // RVA: 0x8F08E70
@@ -981,6 +1303,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradientColorKey : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F0DD30
         public void .ctor(){} // RVA: 0x8F0DD70
@@ -1000,6 +1327,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineGradientColorKeyArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F0F480
         public void .ctor(){} // RVA: 0x8F0F4C0
@@ -1049,6 +1381,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHingeJoint : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F14230
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8F14270
@@ -1156,6 +1493,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHingeJoint2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F21B00
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8F21B40
@@ -1258,6 +1600,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHingeJoint2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F2E5A0
         public void .ctor(){} // RVA: 0x8F2E5E0
@@ -1307,6 +1654,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHingeJointArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F334A0
         public void .ctor(){} // RVA: 0x8F334E0
@@ -1356,6 +1708,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanBone : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F383D0
         public void .ctor(){} // RVA: 0x8F38410
@@ -1376,6 +1733,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanBoneArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F39DF0
         public void .ctor(){} // RVA: 0x8F39E30
@@ -1425,6 +1787,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanDescription : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F3EC40
         public void .ctor(){} // RVA: 0x8F3EC80
@@ -1459,6 +1826,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanDescriptionArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F71E80
         public void .ctor(){} // RVA: 0x8F71EC0
@@ -1508,6 +1880,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanLimit : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F76DC0
         public void .ctor(){} // RVA: 0x8F76E00
@@ -1532,6 +1909,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanLimitArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F78E00
         public void .ctor(){} // RVA: 0x8F78E40
@@ -1581,6 +1963,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanPose : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F7DCD0
         public void .ctor(){} // RVA: 0x8F7DD10
@@ -1601,6 +1988,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanPoseArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F7F780
         public void .ctor(){} // RVA: 0x8F7F7C0
@@ -1650,6 +2042,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanPoseHandler : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F846B0
         public void .ctor(){} // RVA: 0x8F846F0
@@ -1671,6 +2068,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanPoseHandlerArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F86490
         public void .ctor(){} // RVA: 0x8F864D0
@@ -1720,6 +2122,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanTrait : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F8B390
         public void .ctor(){} // RVA: 0x8F8B3D0
@@ -1747,6 +2154,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineHumanTraitArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F8D860
         public void .ctor(){} // RVA: 0x8F8D8A0
@@ -1796,6 +2208,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJoint : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F92830
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8F92870
@@ -1885,6 +2302,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJoint2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8F9D8F0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8F9D930
@@ -1966,6 +2388,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJoint2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FA7830
         public void .ctor(){} // RVA: 0x8FA7870
@@ -2015,6 +2442,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointAngleLimits2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FAC760
         public void .ctor(){} // RVA: 0x8FAC7A0
@@ -2033,6 +2465,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointAngleLimits2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FADC00
         public void .ctor(){} // RVA: 0x8FADC40
@@ -2082,6 +2519,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FB2A90
         public void .ctor(){} // RVA: 0x8FB2AD0
@@ -2131,6 +2573,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointDrive : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FB79C0
         public void .ctor(){} // RVA: 0x8FB7A00
@@ -2153,6 +2600,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointDriveArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FB9490
         public void .ctor(){} // RVA: 0x8FB94D0
@@ -2202,6 +2654,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointLimits : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FBE320
         public void .ctor(){} // RVA: 0x8FBE360
@@ -2226,6 +2683,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointLimitsArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FC01E0
         public void .ctor(){} // RVA: 0x8FC0220
@@ -2275,6 +2737,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointMotor : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FC50A0
         public void .ctor(){} // RVA: 0x8FC50E0
@@ -2295,6 +2762,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointMotor2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FC68D0
         public void .ctor(){} // RVA: 0x8FC6910
@@ -2313,6 +2785,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointMotor2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FC7D70
         public void .ctor(){} // RVA: 0x8FC7DB0
@@ -2362,6 +2839,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointMotorArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FCCC00
         public void .ctor(){} // RVA: 0x8FCCC40
@@ -2411,6 +2893,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointSpring : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FD1AC0
         public void .ctor(){} // RVA: 0x8FD1B00
@@ -2431,6 +2918,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointSpringArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FD33D0
         public void .ctor(){} // RVA: 0x8FD3410
@@ -2480,6 +2972,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointSuspension2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FD8290
         public void .ctor(){} // RVA: 0x8FD82D0
@@ -2500,6 +2997,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointSuspension2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FD9AB0
         public void .ctor(){} // RVA: 0x8FD9AF0
@@ -2549,6 +3051,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointTranslationLimits2D : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FDE970
         public void .ctor(){} // RVA: 0x8FDE9B0
@@ -2567,6 +3074,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineJointTranslationLimits2DArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FDFE10
         public void .ctor(){} // RVA: 0x8FDFE50
@@ -2616,6 +3128,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLayerMask : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FE4CA0
         public void .ctor(){} // RVA: 0x8FE4CE0
@@ -2637,6 +3154,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLayerMaskArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FE6590
         public void .ctor(){} // RVA: 0x8FE65D0
@@ -2686,6 +3208,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLight : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FEB400
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8FEB440
@@ -2820,6 +3347,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLightArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x8FFCBC0
         public void .ctor(){} // RVA: 0x8FFCC00
@@ -2869,6 +3401,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLightBakingOutput : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9001AC0
         public void .ctor(){} // RVA: 0x9001B00
@@ -2893,6 +3430,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLightBakingOutputArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9003A70
         public void .ctor(){} // RVA: 0x9003AB0
@@ -2942,6 +3484,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLineRenderer : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9008910
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x9008950
@@ -3118,6 +3665,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineLineRendererArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x901EC80
         public void .ctor(){} // RVA: 0x901ECC0
@@ -3167,6 +3719,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMatchTargetWeightMask : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9023B20
         public void .ctor(){} // RVA: 0x9023B60
@@ -3186,6 +3743,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMatchTargetWeightMaskArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90251E0
         public void .ctor(){} // RVA: 0x9025220
@@ -3235,6 +3797,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMaterial : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x902A070
         public void .ctor(){} // RVA: 0x902A0B0
@@ -3393,6 +3960,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMaterialArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x903D2B0
         public void .ctor(){} // RVA: 0x903D2F0
@@ -3442,6 +4014,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMaterialPropertyBlock : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9042190
         public void .ctor(){} // RVA: 0x90421D0
@@ -3541,6 +4118,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMaterialPropertyBlockArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x904DC40
         public void .ctor(){} // RVA: 0x904DC80
@@ -3590,6 +4172,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMathf : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9052B10
         public void .ctor(){} // RVA: 0x9052B50
@@ -3671,6 +4258,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMathfArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x905A8E0
         public void .ctor(){} // RVA: 0x905A920
@@ -3720,6 +4312,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMatrix4x4 : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x905F910
         public void .ctor(){} // RVA: 0x905F950
@@ -3811,6 +4408,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMatrix4x4Array : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x906AE00
         public void .ctor(){} // RVA: 0x906AE40
@@ -3860,6 +4462,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMesh : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x906FBF0
         public void .ctor(){} // RVA: 0x906FC30
@@ -4067,6 +4674,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x908BEC0
         public void .ctor(){} // RVA: 0x908BF00
@@ -4116,6 +4728,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshCollider : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9090E20
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x9090E60
@@ -4211,6 +4828,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshColliderArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x909CC10
         public void .ctor(){} // RVA: 0x909CC50
@@ -4260,6 +4882,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshFilter : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90A1B40
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x90A1B80
@@ -4327,6 +4954,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshFilterArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90A9FD0
         public void .ctor(){} // RVA: 0x90AA010
@@ -4376,6 +5008,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshRenderer : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90AEED0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x90AEF10
@@ -4514,6 +5151,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMeshRendererArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90C0210
         public void .ctor(){} // RVA: 0x90C0250
@@ -4563,6 +5205,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMotion : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90C50F0
         public void .ctor(){} // RVA: 0x90C5130
@@ -4589,6 +5236,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineMotionArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90C7FA0
         public void .ctor(){} // RVA: 0x90C7FE0
@@ -4638,6 +5290,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineObject : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90CD050
         public void .ctor(){} // RVA: 0x90CD090
@@ -4662,6 +5319,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineObjectArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90CFB10
         public void .ctor(){} // RVA: 0x90CFB50
@@ -4711,6 +5373,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineOcclusionPortal : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90D4AB0
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x90D4AF0
@@ -4776,6 +5443,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineOcclusionPortalArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x90DCBC0
         public void .ctor(){} // RVA: 0x90DCC00
@@ -4825,6 +5497,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystem : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9103440
         public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x9103480
@@ -4963,6 +5640,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9114D20
         public void .ctor(){} // RVA: 0x9114D60
@@ -5012,6 +5694,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemBurst : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9119C20
         public void .ctor(){} // RVA: 0x9119C60
@@ -5045,6 +5732,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemBurstArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x911D020
         public void .ctor(){} // RVA: 0x911D060
@@ -5094,6 +5786,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemCollisionModule : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x9121F00
         public void .ctor(){} // RVA: 0x9121F40
@@ -5158,6 +5855,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemCollisionModuleArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x91288E0
         public void .ctor(){} // RVA: 0x9128920
@@ -5207,6 +5909,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemColorBySpeedModule : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x912D750
         public void .ctor(){} // RVA: 0x912D790
@@ -5227,6 +5934,11 @@ namespace VRC.Udon.Wrapper.Modules
 
     public class ExternUnityEngineParticleSystemColorBySpeedModuleArray : Object
     {
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x912F0D0
         public void .ctor(){} // RVA: 0x912F110
@@ -5274,95 +5986,95 @@ namespace VRC.Udon.Wrapper.Modules
         public void <.ctor>b__6_1(){} // RVA: 0x9132020
     }
 
-    public class ExternUnityEngineParticleSystemColorOverLifetimeModule : Object
+    public class ExternUnityEnginePointEffector2D : Object
     {
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x9133F40
-        public void .ctor(){} // RVA: 0x9133F80
-        public void GetExternFunctionParameterCount(){} // RVA: 0x9134350
-        public void GetExternFunctionDelegate(){} // RVA: 0x9134480
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x9134590
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x91346D0
-        public void __GetType__SystemType(){} // RVA: 0x9134780
-        public void __ToString__SystemString(){} // RVA: 0x9134870
-        public void __get_color__UnityEngineParticleSystemMinMaxGradient(){} // RVA: 0x9134920
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x9134A10
-        public void __set_color__UnityEngineParticleSystemMinMaxGradient__SystemVoid(){} // RVA: 0x9134B00
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x9134C20
-        public void <.ctor>b__6_1(){} // RVA: 0x9134D50
-    }
+        public object _parameterCounts;
+        public object _functionDelegates;
+        public object _componentGetter;
+        public object _filter;
 
-    public class ExternUnityEngineParticleSystemColorOverLifetimeModuleArray : Object
-    {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x9135530
-        public void .ctor(){} // RVA: 0x9135570
-        public void GetExternFunctionParameterCount(){} // RVA: 0x9135940
-        public void GetExternFunctionDelegate(){} // RVA: 0x9135A70
-        public void __Clone__SystemObject(){} // RVA: 0x9135B80
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x9135C70
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x9135D50
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x9135E20
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x9135F70
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x9136010
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x9136120
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x9136240
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x9136350
-        public void __GetType__SystemType(){} // RVA: 0x9136470
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x9136560
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x9136640
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x9136770
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x9136900
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x9136A50
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x9136B80
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x9136CB0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x9136E30
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x9136F80
-        public void __Get__SystemInt32__UnityEngineParticleSystemColorOverLifetimeModule(){} // RVA: 0x91370B0
-        public void __Initialize__SystemVoid(){} // RVA: 0x9137190
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x9137200
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x9137330
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x91374B0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x9137610
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x9137740
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x9137870
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x91379E0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x9137B30
-        public void __Set__SystemInt32_UnityEngineParticleSystemColorOverLifetimeModule__SystemVoid(){} // RVA: 0x9137C60
-        public void __ToString__SystemString(){} // RVA: 0x9137D40
-        public void __ctor__SystemInt32__UnityEngineParticleSystemColorOverLifetimeModuleArray(){} // RVA: 0x9137E40
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x9137FE0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x9138080
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x9138120
-        public void __get_Length__SystemInt32(){} // RVA: 0x91381C0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x9138260
-        public void __get_Rank__SystemInt32(){} // RVA: 0x9138300
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x91383A0
-        public void <.ctor>b__6_1(){} // RVA: 0x9138480
-    }
-
-    public class ExternUnityEngineParticleSystemCustomDataModule : Object
-    {
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x913A3A0
-        public void .ctor(){} // RVA: 0x913A3E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x913A7B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x913A8E0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x913A9F0
-        public void __GetColor__UnityEngineParticleSystemCustomData__UnityEngineParticleSystemMinMaxGradient(){} // RVA: 0x913AB30
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x913AC50
-        public void __GetMode__UnityEngineParticleSystemCustomData__UnityEngineParticleSystemCustomDataMode(){} // RVA: 0x913AD00
-        public void __GetType__SystemType(){} // RVA: 0x913AE30
-        public void __GetVectorComponentCount__UnityEngineParticleSystemCustomData__SystemInt32(){} // RVA: 0x913AF20
-        public void __GetVector__UnityEngineParticleSystemCustomData_SystemInt32__UnityEngineParticleSystemMinMaxCurve(){} // RVA: 0x913B050
-        public void __SetColor__UnityEngineParticleSystemCustomData_UnityEngineParticleSystemMinMaxGradient__SystemVoid(){} // RVA: 0x913B210
-        public void __SetMode__UnityEngineParticleSystemCustomData_UnityEngineParticleSystemCustomDataMode__SystemVoid(){} // RVA: 0x913B410
-        public void __SetVectorComponentCount__UnityEngineParticleSystemCustomData_SystemInt32__SystemVoid(){} // RVA: 0x913B540
-        public void __SetVector__UnityEngineParticleSystemCustomData_SystemInt32_UnityEngineParticleSystemMinMaxCurve__SystemVoid(){} // RVA: 0x913B670
-        public void __ToString__SystemString(){} // RVA: 0x913B7E0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x913B890
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x913B980
-        public void <.ctor>b__6_1(){} // RVA: 0x913BAB0
+        public void get_Name(){} // RVA: 0x92EE1D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x92EE210
+        public void .ctor(){} // RVA: 0x92EE290
+        public void GetExternFunctionParameterCount(){} // RVA: 0x92EE660
+        public void GetExternFunctionDelegate(){} // RVA: 0x92EE790
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x92EE8A0
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x92EEA80
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x92EEB70
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x92EEE00
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x92EEF80
+        public void __GetComponentInChildren__T(){} // RVA: 0x92EF0C0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x92EF1B0
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x92EF400
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x92EF4F0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x92EF780
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x92EF900
+        public void __GetComponentInParent__T(){} // RVA: 0x92EFA40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x92EFB30
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x92EFD80
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x92EFEB0
+        public void __GetComponent__T(){} // RVA: 0x92EFFF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x92F00D0
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x92F0300
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x92F03F0
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x92F0700
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x92F07F0
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x92F0B20
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x92F0C10
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x92F0F00
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x92F10A0
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x92F11F0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x92F12E0
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x92F1590
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x92F1680
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x92F19B0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x92F1AA0
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x92F1D90
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x92F1F30
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x92F2080
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x92F2170
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x92F2420
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x92F2510
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x92F27E0
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x92F2930
+        public void __GetComponents__TArray(){} // RVA: 0x92F2A80
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x92F2B70
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x92F2E30
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x92F2FA0
+        public void __GetType__SystemType(){} // RVA: 0x92F3100
+        public void __ToString__SystemString(){} // RVA: 0x92F31F0
+        public void __get_angularDrag__SystemSingle(){} // RVA: 0x92F3360
+        public void __get_colliderMask__SystemInt32(){} // RVA: 0x92F34D0
+        public void __get_distanceScale__SystemSingle(){} // RVA: 0x92F3640
+        public void __get_drag__SystemSingle(){} // RVA: 0x92F37B0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x92F3920
+        public void __get_forceMagnitude__SystemSingle(){} // RVA: 0x92F3A90
+        public void __get_forceMode__UnityEngineEffectorForceMode2D(){} // RVA: 0x92F3C00
+        public void __get_forceSource__UnityEngineEffectorSelection2D(){} // RVA: 0x92F3D70
+        public void __get_forceTarget__UnityEngineEffectorSelection2D(){} // RVA: 0x92F3EE0
+        public void __get_forceVariation__SystemSingle(){} // RVA: 0x92F4050
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x92F41C0
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x92F42D0
+        public void __get_name__SystemString(){} // RVA: 0x92F4440
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x92F45A0
+        public void __get_useColliderMask__SystemBoolean(){} // RVA: 0x92F46B0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x92F4820
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x92F4B20
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x92F4D20
+        public void __set_angularDrag__SystemSingle__SystemVoid(){} // RVA: 0x92F5000
+        public void __set_colliderMask__SystemInt32__SystemVoid(){} // RVA: 0x92F5170
+        public void __set_distanceScale__SystemSingle__SystemVoid(){} // RVA: 0x92F5260
+        public void __set_drag__SystemSingle__SystemVoid(){} // RVA: 0x92F53D0
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x92F5540
+        public void __set_forceMagnitude__SystemSingle__SystemVoid(){} // RVA: 0x92F5630
+        public void __set_forceMode__UnityEngineEffectorForceMode2D__SystemVoid(){} // RVA: 0x92F57A0
+        public void __set_forceSource__UnityEngineEffectorSelection2D__SystemVoid(){} // RVA: 0x92F5910
+        public void __set_forceTarget__UnityEngineEffectorSelection2D__SystemVoid(){} // RVA: 0x92F5A80
+        public void __set_forceVariation__SystemSingle__SystemVoid(){} // RVA: 0x92F5BF0
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x92F5D60
+        public void __set_useColliderMask__SystemBoolean__SystemVoid(){} // RVA: 0x92F5EC0
+        public void <.ctor>b__8_1(){} // RVA: 0x92F5FB0
     }
 
 }

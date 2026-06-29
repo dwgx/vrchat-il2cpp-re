@@ -55,6 +55,27 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputAction : Object
     {
+        public object k_InputActionEnableProfilerMarker;
+        public object k_InputActionDisableProfilerMarker;
+        public object m_Name;
+        public object m_Type;
+        public object m_ExpectedControlType;
+        public object m_Id;
+        public object m_Processors;
+        public object m_Interactions;
+        public object m_SingletonActionBindings;
+        public object m_Flags;
+        public object m_BindingMask;
+        public object m_BindingsStartIndex;
+        public object m_BindingsCount;
+        public object m_ControlStartIndex;
+        public object m_ControlCount;
+        public object m_ActionIndexInState;
+        public object m_ActionMap;
+        public object m_OnStarted;
+        public object m_OnCanceled;
+        public object m_OnPerformed;
+
         // ── Methods ──
         public void ReadValue(){} // RVA: 0xA94080
         public void get_name(){} // RVA: 0xB5DBF0
@@ -122,6 +143,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionAsset : ScriptableObject
     {
+        public object Extension;
+        public object kDefaultAssetLayoutJson;
+        public object m_ActionMaps;
+        public object m_ControlSchemes;
+        public object m_IsProjectWide;
+        public object m_SharedStateForAllMaps;
+        public object m_BindingMask;
+        public object m_ParameterOverridesCount;
+        public object m_ParameterOverrides;
+        public object m_Devices;
+
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x77DD630
         public void get_actionMaps(){} // RVA: 0x77DD810
@@ -178,6 +210,28 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionMap : Object
     {
+        public object k_ResolveBindingsProfilerMarker;
+        public object m_Name;
+        public object m_Id;
+        public object m_Asset;
+        public object m_Actions;
+        public object m_Bindings;
+        public object m_BindingsForEachAction;
+        public object m_ControlsForEachAction;
+        public object m_EnabledActionsCount;
+        public object m_SingletonAction;
+        public object m_MapIndexInState;
+        public object m_State;
+        public object m_BindingMask;
+        public object m_Flags;
+        public object m_ParameterOverridesCount;
+        public object m_ParameterOverrides;
+        public object m_Devices;
+        public object m_ActionCallbacks;
+        public object m_ActionIndexByNameOrId;
+        public object s_DeferBindingResolution;
+        public object s_NeedToResolveBindings;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xB5DBF0
         public void get_asset(){} // RVA: 0xB700F0
@@ -260,6 +314,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionProperty : ValueType
     {
+        public object m_UseReference;
+        public object m_Action;
+        public object m_Reference;
+
         // ── Methods ──
         public void get_action(){} // RVA: 0x929BE0
         public void get_reference(){} // RVA: 0x929BF0
@@ -274,6 +332,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionRebindingExtensions : Object
     {
+        public object s_DeferBindingResolutionWrapper;
+
         // ── Methods ──
         public void GetParameterValue(){} // RVA: 0xA94080
         public void ApplyParameterOverride(){} // RVA: 0x77EACA0
@@ -298,6 +358,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionReference : ScriptableObject
     {
+        public object m_Asset;
+        public object m_ActionId;
+        public object m_Action;
+
         // ── Methods ──
         public void get_asset(){} // RVA: 0xB465B0
         public void get_action(){} // RVA: 0x77FEAF0
@@ -341,6 +405,27 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputActionState : Object
     {
+        public object kInvalidIndex;
+        public object maps;
+        public object controls;
+        public object interactions;
+        public object processors;
+        public object composites;
+        public object totalProcessorCount;
+        public object memory;
+        public object m_OnBeforeUpdateHooked;
+        public object m_OnAfterUpdateHooked;
+        public object m_InProcessControlStateChange;
+        public object m_CurrentlyProcessingThisEvent;
+        public object m_OnBeforeUpdateDelegate;
+        public object m_OnAfterUpdateDelegate;
+        public object k_InputInitialActionStateCheckMarker;
+        public object k_InputActionResolveConflictMarker;
+        public object k_InputActionCallbackMarker;
+        public object k_InputOnActionChangeMarker;
+        public object k_InputOnDeviceChangeMarker;
+        public object s_GlobalState;
+
         // ── Methods ──
         public void get_totalCompositeCount(){} // RVA: 0xE36310
         public void get_totalMapCount(){} // RVA: 0xBE5890
@@ -425,11 +510,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
         public void GetValueSizeInBytes(){} // RVA: 0x780F800
         public void GetValueType(){} // RVA: 0x780F8B0
         public void IsActuated(){} // RVA: 0x780F960
-        public void ReadValue(){} // RVA: 0x30F8170
-        public void ApplyProcessors(){} // RVA: 0x30F6690
+        public void ReadValue(){} // RVA: 0x30F8810
+        public void ApplyProcessors(){} // RVA: 0x30F67F0
         public void EvaluateCompositePartMagnitude(){} // RVA: 0x780FCB0
         public void GetCompositePartPressTime(){} // RVA: 0x780FDA0
-        public void ReadCompositePartValue(){} // RVA: 0x30F6CF0
+        public void ReadCompositePartValue(){} // RVA: 0x780FE20
         public void ReadCompositePartValueAsObject(){} // RVA: 0x780FF80
         public void ReadValueAsObject(){} // RVA: 0x78100C0
         public void ReadValueAsButton(){} // RVA: 0x7810350
@@ -469,6 +554,20 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBinding : ValueType
     {
+        public object Separator;
+        public object kSeparatorString;
+        public object m_Name;
+        public object m_Id;
+        public object m_Path;
+        public object m_Interactions;
+        public object m_Processors;
+        public object m_Groups;
+        public object m_Action;
+        public object m_Flags;
+        public object m_OverridePath;
+        public object m_OverrideInteractions;
+        public object m_OverrideProcessors;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x77900
         public void set_name(){} // RVA: 0x47F10
@@ -517,6 +616,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingComposite : Object
     {
+        public object s_Composites;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x87C0A0
         public void get_valueSizeInBytes(){} // RVA: 0x87C130
@@ -534,10 +635,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingCompositeContext : ValueType
     {
+        public object m_State;
+        public object m_BindingIndex;
+
         // ── Methods ──
         public void get_controls(){} // RVA: 0x92FE00
         public void EvaluateMagnitude(){} // RVA: 0x92FE10
-        public void ReadValue(){} // RVA: 0x1F8F10
+        public void ReadValue(){} // RVA: 0x92FE30
         public void ReadValueAsButton(){} // RVA: 0x92FE20
         public void ReadValueAsObject(){} // RVA: 0x92FE40
         public void GetPressTime(){} // RVA: 0x92FE50
@@ -605,6 +709,19 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputBindingResolver : ValueType
     {
+        public object totalProcessorCount;
+        public object totalCompositeCount;
+        public object totalInteractionCount;
+        public object maps;
+        public object controls;
+        public object memory;
+        public object interactions;
+        public object processors;
+        public object composites;
+        public object bindingMask;
+        public object m_IsControlOnlyResolve;
+        public object m_Parameters;
+
         // ── Methods ──
         public void get_totalMapCount(){} // RVA: 0x77D20
         public void get_totalActionCount(){} // RVA: 0x13F8C0
@@ -641,6 +758,31 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl : Object
     {
+        public object m_StateBlock;
+        public object m_Name;
+        public object m_Path;
+        public object m_DisplayName;
+        public object m_DisplayNameFromLayout;
+        public object m_ShortDisplayName;
+        public object m_ShortDisplayNameFromLayout;
+        public object m_Layout;
+        public object m_Variants;
+        public object m_Device;
+        public object m_Parent;
+        public object m_UsageCount;
+        public object m_UsageStartIndex;
+        public object m_AliasCount;
+        public object m_AliasStartIndex;
+        public object m_ChildCount;
+        public object m_ChildStartIndex;
+        public object m_ControlFlags;
+        public object m_CachedValueIsStale;
+        public object m_UnprocessedCachedValueIsStale;
+        public object m_DefaultState;
+        public object m_MinValue;
+        public object m_MaxValue;
+        public object m_OptimizedControlDataType;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x67D9AE0
         public void get_displayName(){} // RVA: 0x7848F40
@@ -750,6 +892,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlList`1 : ValueType
     {
+        public object m_Count;
+        public object m_Indices;
+        public object m_Allocator;
+        public object kInvalidIndex;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x87C130
         public void get_Capacity(){} // RVA: 0x87C130
@@ -783,6 +930,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlList`1 : ValueType
     {
+        public object m_Count;
+        public object m_Indices;
+        public object m_Allocator;
+        public object kInvalidIndex;
+
         // ── Methods ──
         public void Dispose(){} // RVA: 0x32DE30
         public void .ctor(){} // RVA: 0x32DA10
@@ -816,6 +968,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlList`1 : ValueType
     {
+        public object m_Count;
+        public object m_Indices;
+        public object m_Allocator;
+        public object kInvalidIndex;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x77E60
         public void get_Capacity(){} // RVA: 0x32D920
@@ -849,6 +1006,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlPath : Object
     {
+        public object Wildcard;
+        public object DoubleWildcard;
+        public object Separator;
+        public object SeparatorReplacement;
+
         // ── Methods ──
         public void CleanSlashes(){} // RVA: 0x784FA10
         public void Combine(){} // RVA: 0x784FA40
@@ -876,6 +1038,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControlScheme : ValueType
     {
+        public object m_Name;
+        public object m_BindingGroup;
+        public object m_DeviceRequirements;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0x77900
         public void get_bindingGroup(){} // RVA: 0x77ED0
@@ -936,6 +1102,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x87C0A0
         public void get_valueSizeInBytes(){} // RVA: 0x87C130
@@ -966,6 +1137,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x1347420
@@ -996,6 +1172,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x1347420
@@ -1026,6 +1207,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x17FCE50
@@ -1056,6 +1242,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x17FCE50
@@ -1086,6 +1277,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFB6E0
@@ -1116,6 +1312,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFB680
@@ -1146,6 +1347,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFF440
@@ -1176,6 +1382,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x1347420
@@ -1206,6 +1417,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFF560
@@ -1236,6 +1452,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFBE90
@@ -1266,6 +1487,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputControl`1 : InputControl
     {
+        public object m_ProcessorStack;
+        public object m_CachedValue;
+        public object m_UnprocessedCachedValue;
+        public object evaluateProcessorsEveryRead;
+
         // ── Methods ──
         public void get_valueType(){} // RVA: 0x3DCE540
         public void get_valueSizeInBytes(){} // RVA: 0x2AFF510
@@ -1296,6 +1522,31 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputDevice : InputControl
     {
+        public object InvalidDeviceId;
+        public object kLocalParticipantId;
+        public object kInvalidDeviceIndex;
+        public object m_DeviceFlags;
+        public object m_DeviceId;
+        public object m_ParticipantId;
+        public object m_DeviceIndex;
+        public object m_CurrentProcessedEventBytesOnUpdate;
+        public object m_Description;
+        public object m_LastUpdateTimeInternal;
+        public object m_CurrentUpdateStepCount;
+        public object m_AliasesForEachControl;
+        public object m_UsagesForEachControl;
+        public object m_UsageToControl;
+        public object m_ChildrenForEachControl;
+        public object m_UpdatedButtons;
+        public object m_ButtonControlsCheckingPressState;
+        public object m_UseCachePathForButtonPresses;
+        public object m_StateOffsetToControlMap;
+        public object m_ControlTreeNodes;
+        public object m_ControlTreeIndices;
+        public object kControlIndexBits;
+        public object kStateOffsetBits;
+        public object kStateSizeBits;
+
         // ── Methods ──
         public void Build(){} // RVA: 0xA94080
         public void get_description(){} // RVA: 0x78560D0
@@ -1392,6 +1643,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputInteraction : Object
     {
+        public object s_Interactions;
+
         // ── Methods ──
         public void GetValueType(){} // RVA: 0x77D9250
         public void GetDisplayName(){} // RVA: 0x77D9550
@@ -1399,6 +1652,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputInteractionContext : ValueType
     {
+        public object m_State;
+        public object m_Flags;
+        public object m_TriggerState;
+
         // ── Methods ──
         public void get_action(){} // RVA: 0x9319D0
         public void get_control(){} // RVA: 0x931A00
@@ -1428,6 +1685,63 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputManager : Object
     {
+        public object k_InputUpdateProfilerMarker;
+        public object k_InputTryFindMatchingControllerMarker;
+        public object k_InputAddDeviceMarker;
+        public object k_InputRestoreDevicesAfterReloadMarker;
+        public object k_InputRegisterCustomTypesMarker;
+        public object k_InputOnBeforeUpdateMarker;
+        public object k_InputOnAfterUpdateMarker;
+        public object k_InputOnSettingsChangeMarker;
+        public object k_InputOnDeviceSettingsChangeMarker;
+        public object k_InputOnEventMarker;
+        public object k_InputOnLayoutChangeMarker;
+        public object k_InputOnDeviceChangeMarker;
+        public object k_InputOnActionsChangeMarker;
+        public object m_LayoutRegistrationVersion;
+        public object m_PollingFrequency;
+        public object m_Layouts;
+        public object m_Processors;
+        public object m_Interactions;
+        public object m_Composites;
+        public object m_DevicesCount;
+        public object m_Devices;
+        public object m_DevicesById;
+        public object m_AvailableDeviceCount;
+        public object m_AvailableDevices;
+        public object m_DisconnectedDevicesCount;
+        public object m_DisconnectedDevices;
+        public object m_UpdateMask;
+        public object m_CurrentUpdate;
+        public object m_StateBuffers;
+        public object m_ScrollDeltaBehavior;
+        public object m_DeviceChangeListeners;
+        public object m_DeviceStateChangeListeners;
+        public object m_DeviceFindLayoutCallbacks;
+        public object m_DeviceCommandCallbacks;
+        public object m_LayoutChangeListeners;
+        public object m_EventListeners;
+        public object m_BeforeUpdateListeners;
+        public object m_AfterUpdateListeners;
+        public object m_SettingsChangedListeners;
+        public object m_ActionsChangedListeners;
+        public object m_NativeBeforeUpdateHooked;
+        public object m_HaveDevicesWithStateCallbackReceivers;
+        public object m_HasFocus;
+        public object m_InputEventStream;
+        public object m_DeviceFindExecuteCommandDelegate;
+        public object m_DeviceFindExecuteCommandDeviceId;
+        public object m_Runtime;
+        public object m_Metrics;
+        public object m_Settings;
+        public object m_OptimizedControlsFeatureEnabled;
+        public object m_ReadValueCachingFeatureEnabled;
+        public object m_ParanoidReadValueCachingChecksEnabled;
+        public object m_Actions;
+        public object m_ShouldMakeCurrentlyUpdatingDeviceCurrent;
+        public object m_StateChangeMonitors;
+        public object m_StateChangeMonitorTimeouts;
+
         // ── Methods ──
         public void get_devices(){} // RVA: 0x78BEAD0
         public void get_processors(){} // RVA: 0xC0FFC0
@@ -1563,6 +1877,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputProcessor : Object
     {
+        public object s_Processors;
+
         // ── Methods ──
         public void ProcessAsObject(){} // RVA: 0x87C5F0
         public void Process(){} // RVA: 0xA94080
@@ -1803,6 +2119,11 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputRemoting : Object
     {
+        public object m_Flags;
+        public object m_LocalManager;
+        public object m_Subscribers;
+        public object m_Senders;
+
         // ── Methods ──
         public void get_sending(){} // RVA: 0x69AADC0
         public void set_sending(){} // RVA: 0x78B5330
@@ -1834,6 +2155,29 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputSettings : ScriptableObject
     {
+        public object m_SupportedDevices;
+        public object m_UpdateMode;
+        public object m_ScrollDeltaBehavior;
+        public object m_MaxEventBytesPerUpdate;
+        public object m_MaxQueuedEventsPerUpdate;
+        public object m_CompensateForScreenOrientation;
+        public object m_BackgroundBehavior;
+        public object m_EditorInputBehaviorInPlayMode;
+        public object m_InputActionPropertyDrawerMode;
+        public object m_DefaultDeadzoneMin;
+        public object m_DefaultDeadzoneMax;
+        public object m_DefaultButtonPressPoint;
+        public object m_ButtonReleaseThreshold;
+        public object m_DefaultTapTime;
+        public object m_DefaultSlowTapTime;
+        public object m_DefaultHoldTime;
+        public object m_TapRadius;
+        public object m_MultiTapDelayTime;
+        public object m_DisableRedundantEventsMerging;
+        public object m_ShortcutKeysConsumeInputs;
+        public object m_FeatureFlags;
+        public object s_OldUnsupportedFixedAndDynamicUpdateSetting;
+
         // ── Methods ──
         public void get_updateMode(){} // RVA: 0xFEAE90
         public void set_updateMode(){} // RVA: 0x78D3750
@@ -1909,6 +2253,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputSystem : Object
     {
+        public object kAssemblyVersion;
+        public object kDocUrl;
+        public object k_InputResetMarker;
+        public object s_Manager;
+        public object s_Remote;
+
         // ── Methods ──
         public void add_onLayoutChange(){} // RVA: 0x78409D0
         public void remove_onLayoutChange(){} // RVA: 0x7840B90
@@ -2005,6 +2355,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class InputValue : Object
     {
+        public object m_Context;
+
         // ── Methods ──
         public void Get(){} // RVA: 0xA94080
         public void get_isPressed(){} // RVA: 0x78D9B10

@@ -7,6 +7,37 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class FaceDetectionOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object ModelPathDefaultValue;
+        public object modelPath_;
+        public object GpuOriginDefaultValue;
+        public object gpuOrigin_;
+        public object TensorWidthDefaultValue;
+        public object tensorWidth_;
+        public object TensorHeightDefaultValue;
+        public object tensorHeight_;
+        public object NumLayersDefaultValue;
+        public object numLayers_;
+        public object _repeated_strides_codec;
+        public object strides_;
+        public object InterpolatedScaleAspectRatioDefaultValue;
+        public object interpolatedScaleAspectRatio_;
+        public object NumBoxesDefaultValue;
+        public object numBoxes_;
+        public object XScaleDefaultValue;
+        public object xScale_;
+        public object YScaleDefaultValue;
+        public object yScale_;
+        public object WScaleDefaultValue;
+        public object wScale_;
+        public object HScaleDefaultValue;
+        public object hScale_;
+        public object MinScoreThreshDefaultValue;
+        public object minScoreThresh_;
+        public object delegate_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x65A9D70
         public void get_Descriptor(){} // RVA: 0x65A9DD0
@@ -77,6 +108,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FaceDetectionReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x65A9220
         public void .cctor(){} // RVA: 0x65A9280
@@ -84,6 +117,16 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FlowLimiterCalculatorOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object MaxInFlightDefaultValue;
+        public object maxInFlight_;
+        public object MaxInQueueDefaultValue;
+        public object maxInQueue_;
+        public object InFlightTimeoutDefaultValue;
+        public object inFlightTimeout_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x655B480
         public void get_Descriptor(){} // RVA: 0x655B4E0
@@ -115,6 +158,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 
     public class FlowLimiterCalculatorReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
         public void get_Descriptor(){} // RVA: 0x655ACF0
         public void .cctor(){} // RVA: 0x655AD50

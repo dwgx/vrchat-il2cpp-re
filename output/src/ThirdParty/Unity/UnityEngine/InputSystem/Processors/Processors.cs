@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 {
     public class AxisDeadzoneProcessor : InputProcessor`1
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void get_minOrDefault(){} // RVA: 0x793A9E0
         public void get_maxOrDefault(){} // RVA: 0x793AA60
@@ -17,6 +20,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class ClampProcessor : InputProcessor`1
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793ACC0
         public void ToString(){} // RVA: 0x793ACE0
@@ -51,6 +57,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class InvertVector2Processor : InputProcessor`1
     {
+        public object invertX;
+        public object invertY;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793B630
         public void ToString(){} // RVA: 0x793B690
@@ -59,6 +68,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class InvertVector3Processor : InputProcessor`1
     {
+        public object invertX;
+        public object invertY;
+        public object invertZ;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793B7A0
         public void ToString(){} // RVA: 0x793B800
@@ -67,6 +80,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class NormalizeProcessor : InputProcessor`1
     {
+        public object min;
+        public object max;
+        public object zero;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793B940
         public void Normalize(){} // RVA: 0x793B970
@@ -93,6 +110,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class ScaleProcessor : InputProcessor`1
     {
+        public object factor;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793BCC0
         public void ToString(){} // RVA: 0x793BCD0
@@ -101,6 +120,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class ScaleVector2Processor : InputProcessor`1
     {
+        public object x;
+        public object y;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793BDC0
         public void ToString(){} // RVA: 0x793BDF0
@@ -109,6 +131,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class ScaleVector3Processor : InputProcessor`1
     {
+        public object x;
+        public object y;
+        public object z;
+
         // ── Methods ──
         public void Process(){} // RVA: 0x793BF20
         public void ToString(){} // RVA: 0x793BF60
@@ -117,6 +143,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 
     public class StickDeadzoneProcessor : InputProcessor`1
     {
+        public object min;
+        public object max;
+
         // ── Methods ──
         public void get_minOrDefault(){} // RVA: 0x793C0C0
         public void get_maxOrDefault(){} // RVA: 0x793C140

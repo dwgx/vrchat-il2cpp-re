@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class MagneticFieldSensor : Sensor
     {
+        public object _magneticField;
+        public object _current;
+
         // ── Methods ──
         public void get_magneticField(){} // RVA: 0x13659D0
         public void set_magneticField(){} // RVA: 0x166D270
@@ -20,6 +23,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Mouse : Pointer
     {
+        public object _scroll;
+        public object _leftButton;
+        public object _middleButton;
+        public object _rightButton;
+        public object _backButton;
+        public object _forwardButton;
+        public object _clickCount;
+        public object _current;
+        public object s_PlatformMouseDevice;
+
         // ── Methods ──
         public void get_scroll(){} // RVA: 0x1344890
         public void set_scroll(){} // RVA: 0x1662780

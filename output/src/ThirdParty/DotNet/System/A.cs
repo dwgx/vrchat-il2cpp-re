@@ -22,6 +22,30 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
@@ -34,9 +58,12 @@ namespace ThirdParty.DotNet.System
     {
         // ── Methods ──
         public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-        public void BeginInvoke(){} // RVA: 0xB9E020
-        public void EndInvoke(){} // RVA: 0xB44BE0
+    }
+
+    public class Action`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
@@ -64,21 +91,6 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0xBC4530
         public void BeginInvoke(){} // RVA: 0xB9E020
         public void EndInvoke(){} // RVA: 0xB44BE0
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-        public void .ctor(){} // RVA: 0xBC4530
-        public void BeginInvoke(){} // RVA: 0xB9E020
-        public void EndInvoke(){} // RVA: 0xB44BE0
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
@@ -534,18 +546,6 @@ namespace ThirdParty.DotNet.System
         public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
-    public class Action`1 : MulticastDelegate
-    {
-        // ── Methods ──
-        public void Invoke(){} // RVA: 0xB9E010
-    }
-
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
@@ -637,6 +637,28 @@ namespace ThirdParty.DotNet.System
 
     public class AppDomain : MarshalByRefObject
     {
+        public object _mono_app_domain;
+        public object _process_guid;
+        public object type_resolve_in_progress;
+        public object assembly_resolve_in_progress;
+        public object assembly_resolve_in_progress_refonly;
+        public object _evidence;
+        public object _granted;
+        public object _principalPolicy;
+        public object AssemblyLoad;
+        public object AssemblyResolve;
+        public object DomainUnload;
+        public object ProcessExit;
+        public object ResourceResolve;
+        public object TypeResolve;
+        public object UnhandledException;
+        public object FirstChanceException;
+        public object _domain_manager;
+        public object ReflectionOnlyAssemblyResolve;
+        public object _activation;
+        public object _applicationIdentity;
+        public object compatibility_switch;
+
         // ── Methods ──
         public void IsAppXModel(){} // RVA: 0xB43320
         public void .ctor(){} // RVA: 0xB43310
@@ -684,12 +706,41 @@ namespace ThirdParty.DotNet.System
 
     public class AppDomainSetup : Object
     {
+        public object application_base;
+        public object application_name;
+        public object cache_path;
+        public object configuration_file;
+        public object dynamic_base;
+        public object license_file;
+        public object private_bin_path;
+        public object private_bin_path_probe;
+        public object shadow_copy_directories;
+        public object shadow_copy_files;
+        public object publisher_policy;
+        public object path_changed;
+        public object loader_optimization;
+        public object disallow_binding_redirects;
+        public object disallow_code_downloads;
+        public object _activationArguments;
+        public object domain_initializer;
+        public object application_trust;
+        public object domain_initializer_args;
+        public object disallow_appbase_probe;
+        public object configuration_bytes;
+        public object serialized_non_primitives;
+        public object manager_assembly;
+        public object manager_type;
+        public object partial_visible_assemblies;
+        public object _targetFrameworkName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ArgumentException : SystemException
     {
+        public object _paramName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67EC510
         public void GetObjectData(){} // RVA: 0x67EC620
@@ -715,8 +766,6 @@ namespace ThirdParty.DotNet.System
         public void Reverse(){} // RVA: 0x2F359D0
         public void Sort(){} // RVA: 0x2F52090
         public void Empty(){} // RVA: 0xBBA050
-        public void FindIndex(){} // RVA: 0x2DADF10
-        public void UnsafeMov(){} // RVA: 0x294E720
         public void CreateInstance(){} // RVA: 0x6946480
         public void AsReadOnly(){} // RVA: 0x2D73880
         public void Resize(){} // RVA: 0x2F30210
@@ -753,6 +802,7 @@ namespace ThirdParty.DotNet.System
         public void Fill(){} // RVA: 0xA94080
         public void Find(){} // RVA: 0xA94080
         public void FindAll(){} // RVA: 0x87C630
+        public void FindIndex(){} // RVA: 0x2DADD10
         public void FindLast(){} // RVA: 0xA94080
         public void FindLastIndex(){} // RVA: 0x886010
         public void TrueForAll(){} // RVA: 0x87D880
@@ -788,10 +838,16 @@ namespace ThirdParty.DotNet.System
         public void SortImpl(){} // RVA: 0x6947540
         public void UnsafeLoad(){} // RVA: 0xA94080
         public void UnsafeStore(){} // RVA: 0xA94080
+        public void UnsafeMov(){} // RVA: 0x2F70100
     }
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x89B9B0
@@ -824,6 +880,11 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void get_Array(){} // RVA: 0x77900
         public void get_Offset(){} // RVA: 0x14790
@@ -832,6 +893,11 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void get_Array(){} // RVA: 0x77900
         public void get_Offset(){} // RVA: 0x14790
@@ -840,6 +906,11 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void get_Array(){} // RVA: 0x77900
         public void get_Offset(){} // RVA: 0x14790
@@ -872,18 +943,33 @@ namespace ThirdParty.DotNet.System
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x38B900
     }
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x38B900
     }
 
     public class ArraySegment`1 : ValueType
     {
+        public object _empty;
+        public object _array;
+        public object _offset;
+        public object _count;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x38B900
     }
@@ -909,6 +995,11 @@ namespace ThirdParty.DotNet.System
 
     public class AttributeUsageAttribute : Attribute
     {
+        public object _attributeTarget;
+        public object _allowMultiple;
+        public object _inherited;
+        public object Default;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67ECF70
         public void get_AllowMultiple(){} // RVA: 0xC9C250

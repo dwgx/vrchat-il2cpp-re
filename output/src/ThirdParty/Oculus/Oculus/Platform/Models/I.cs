@@ -7,6 +7,12 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class InstalledApplication : Object
     {
+        public object ApplicationId;
+        public object PackageName;
+        public object Status;
+        public object VersionCode;
+        public object VersionName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B5B7C0
     }
@@ -19,6 +25,8 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 
     public class InvitePanelResultInfo : Object
     {
+        public object InvitesSent;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B5BF20
     }

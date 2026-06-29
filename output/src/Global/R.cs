@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 264
+// Methods: 258
 
 public class RProperty : Property`2
 {
@@ -15,12 +15,17 @@ public class RProperty : Property`2
 
 public class ReadBoneJob : ValueType
 {
+    public object transformData;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9C6740
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Length(){} // RVA: 0x87C130
@@ -36,24 +41,36 @@ public class ReadOnly : ValueType
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
     public void get_Length(){} // RVA: 0x438050
@@ -69,71 +86,86 @@ public class ReadOnly : ValueType
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadOnly : ValueType
 {
+    public object m_Buffer;
+    public object m_Length;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x856B0
 }
 
 public class ReadTransformJob : ValueType
 {
+    public object transformData;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9C6740
 }
 
-public class ReaderCache : Object
-{
-    // ── Methods ──
-    public void Register(){} // RVA: 0x2C89B70
-    public void TryReadTo(){} // RVA: 0xA7C6250
-    public void ReadBoxed(){} // RVA: 0x2C892D0
-    public void EnumJsonWrite(){} // RVA: 0x2C82F10
-    public void EnumStringWrite(){} // RVA: 0x2C84F60
-    public void EnumUtf8Write(){} // RVA: 0x2C86AB0
-    public void GuidJsonWrite(){} // RVA: 0xA7C65A0
-    public void DateTimeOffsetJsonWrite(){} // RVA: 0xA7C6690
-    public void JsonSerialize(){} // RVA: 0x2C88490
-    public void StringAppendFormatted(){} // RVA: 0x2C8B080
-    public void Utf8AppendFormatted(){} // RVA: 0x2C8C220
-    public void .cctor(){} // RVA: 0xA7C6780
-}
-
 public class Recentering : ValueType
 {
+    public object m_enabled;
+    public object m_WaitTime;
+    public object m_RecenteringTime;
+    public object m_LastUpdateTime;
+    public object mLastAxisInputTime;
+    public object mRecenteringVelocity;
+    public object m_LegacyHeadingDefinition;
+    public object m_LegacyVelocityFilterStrength;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x87A60
     public void Validate(){} // RVA: 0x87A80
@@ -146,6 +178,11 @@ public class Recentering : ValueType
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void get_refCount(){} // RVA: 0x87C130
     public void .ctor(){} // RVA: 0x894290
@@ -157,6 +194,11 @@ public class RefCounted : Object
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void Acquire(){} // RVA: 0x4A047B0
     public void Release(){} // RVA: 0x4A047C0
@@ -168,6 +210,11 @@ public class RefCounted : Object
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void Acquire(){} // RVA: 0x4A047B0
     public void Release(){} // RVA: 0x4A047C0
@@ -179,6 +226,11 @@ public class RefCounted : Object
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void Acquire(){} // RVA: 0x4A047B0
     public void Release(){} // RVA: 0x4A047C0
@@ -190,6 +242,11 @@ public class RefCounted : Object
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void Acquire(){} // RVA: 0x4A047B0
     public void Release(){} // RVA: 0x4A047C0
@@ -201,11 +258,32 @@ public class RefCounted : Object
 
 public class RefCounted : Object
 {
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
     // ── Methods ──
     public void Acquire(){} // RVA: 0x4A047B0
     public void Release(){} // RVA: 0x4A047C0
     public void get_refCount(){} // RVA: 0xB8F8F0
     public void Copy(){} // RVA: 0x4A04C80
+    public void .ctor(){} // RVA: 0x4A046F0
+    public void .cctor(){} // RVA: 0x4A04900
+}
+
+public class RefCounted : Object
+{
+    public object m_NextId;
+    public object m_RefCount;
+    public object m_Id;
+    public object value;
+
+    // ── Methods ──
+    public void Acquire(){} // RVA: 0x4A047B0
+    public void Release(){} // RVA: 0x4A047C0
+    public void get_refCount(){} // RVA: 0xB8F8F0
+    public void Copy(){} // RVA: 0x4A04D70
     public void .ctor(){} // RVA: 0x4A046F0
     public void .cctor(){} // RVA: 0x4A04900
 }
@@ -232,6 +310,9 @@ public class Registration[] : Array
 
 public class RenderTextureProperty : Property`2
 {
+    public object _name;
+    public object _isReadOnly;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0xB465B0
     public void get_IsReadOnly(){} // RVA: 0xC38360
@@ -242,6 +323,10 @@ public class RenderTextureProperty : Property`2
 
 public class ResolutionStruct : ValueType
 {
+    public object width;
+    public object height;
+    public object frameRate;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x77FA0
     public void .ctor(){} // RVA: 0x77FF0
@@ -693,6 +778,9 @@ public class ResolvedVector3Property : ResolvedStyleProperty`1
 
 public class ResourceRequestAwaiter : ValueType
 {
+    public object asyncOperation;
+    public object continuationAction;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x54A90
     public void get_IsCompleted(){} // RVA: 0x9232C0
@@ -757,6 +845,12 @@ public class RotateProperty : ResolvedRotateProperty
 
 public class Rotor : ValueType
 {
+    public object transform;
+    public object pitchModifier;
+    public object rollModifier;
+    public object maxSpeed;
+    public object startingRotation;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x31030
     public void InternalEquals(){} // RVA: 0x31040

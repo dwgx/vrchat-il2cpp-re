@@ -16,12 +16,21 @@ namespace ThirdParty.Unity.UnityEngine.Networking.PlayerConnection
 
     public class MessageEventArgs : Object
     {
+        public object playerId;
+        public object data;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class PlayerConnection : ScriptableObject
     {
+        public object connectionNative;
+        public object m_PlayerEditorConnectionEvents;
+        public object m_connectedPlayers;
+        public object m_IsInitilized;
+        public object s_Instance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x7C2B640
         public void get_isConnected(){} // RVA: 0x7C2B810
@@ -66,6 +75,11 @@ namespace ThirdParty.Unity.UnityEngine.Networking.PlayerConnection
 
     public class PlayerEditorConnectionEvents : Object
     {
+        public object m_MessageTypeSubscribers;
+        public object m_SubscriberLookup;
+        public object connectionEvent;
+        public object disconnectionEvent;
+
         // ── Methods ──
         public void get_messageTypeSubscribers(){} // RVA: 0xB5DBF0
         public void BuildLookup(){} // RVA: 0x7C2D150

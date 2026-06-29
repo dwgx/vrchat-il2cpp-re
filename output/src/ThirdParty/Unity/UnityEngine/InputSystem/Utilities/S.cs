@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
     public class SavedStructState`1 : Object
     {
+        public object m_State;
+        public object m_RestoreAction;
+        public object m_StaticDisposeCurrentState;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void StaticDisposeCurrentState(){} // RVA: 0x894290
@@ -15,6 +19,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class SelectManyObservable`2 : Object
     {
+        public object m_Source;
+        public object m_Filter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943B0
         public void Subscribe(){} // RVA: 0x87C540
@@ -52,6 +59,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class Substring : ValueType
     {
+        public object m_String;
+        public object m_Index;
+        public object m_Length;
+
         // ── Methods ──
         public void get_isEmpty(){} // RVA: 0x92F800
         public void .ctor(){} // RVA: 0x92F880

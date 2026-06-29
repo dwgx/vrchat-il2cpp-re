@@ -7,6 +7,8 @@ namespace ThirdParty.Klak.Klak.Spout
 {
     public class Blitter : Object
     {
+        public object _material;
+
         // ── Methods ──
         public void Blit(){} // RVA: 0x650D910
         public void BlitVFlip(){} // RVA: 0x650D870
@@ -16,12 +18,18 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class EventData : ValueType
     {
+        public object instancePointer;
+        public object texturePointer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8A3D80
     }
 
     public class EventKicker : Object
     {
+        public object _cmdBuffer;
+        public object _dataMem;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x650BE10
         public void Dispose(){} // RVA: 0x650BE80
@@ -30,6 +38,8 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class MemoryPool : Object
     {
+        public object _toBeFreed;
+
         // ── Methods ──
         public void FreeOnEndOfFrame(){} // RVA: 0x650C200
         public void OnEndOfFrame(){} // RVA: 0x650C2C0
@@ -49,6 +59,10 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class Receiver : Object
     {
+        public object _plugin;
+        public object _event;
+        public object _texture;
+
         // ── Methods ──
         public void get_Texture(){} // RVA: 0xB700F0
         public void .ctor(){} // RVA: 0x650CDF0
@@ -58,12 +72,17 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class RendererOverride : Object
     {
+        public object _block;
+
         // ── Methods ──
         public void SetTexture(){} // RVA: 0x650D5A0
     }
 
     public class Sender : Object
     {
+        public object _plugin;
+        public object _event;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x650D310
         public void Dispose(){} // RVA: 0x650D530
@@ -78,6 +97,14 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutReceiver : MonoBehaviour
     {
+        public object _receiver;
+        public object _buffer;
+        public object _sourceName;
+        public object _targetTexture;
+        public object _targetRenderer;
+        public object _targetMaterialProperty;
+        public object _resources;
+
         // ── Methods ──
         public void ReleaseReceiver(){} // RVA: 0x650E0D0
         public void PrepareBuffer(){} // RVA: 0x650E210
@@ -100,12 +127,24 @@ namespace ThirdParty.Klak.Klak.Spout
 
     public class SpoutResources : ScriptableObject
     {
+        public object blitShader;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xDD1AC0
     }
 
     public class SpoutSender : MonoBehaviour
     {
+        public object _sender;
+        public object _buffer;
+        public object _attachedCamera;
+        public object _spoutName;
+        public object _keepAlpha;
+        public object _captureMethod;
+        public object _sourceCamera;
+        public object _sourceTexture;
+        public object _resources;
+
         // ── Methods ──
         public void ReleaseSender(){} // RVA: 0x650EEF0
         public void PrepareBuffer(){} // RVA: 0x650EFB0

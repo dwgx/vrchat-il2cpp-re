@@ -44,6 +44,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class FakeStore : JSONStore
     {
+        public object m_Biller;
+        public object m_PurchasedProducts;
+        public object purchaseCalled;
+        public object _unavailableProductId;
+        public object UIMode;
+
         // ── Methods ──
         public void get_unavailableProductId(){} // RVA: 0xBE2C60
         public void Initialize(){} // RVA: 0x7D91320

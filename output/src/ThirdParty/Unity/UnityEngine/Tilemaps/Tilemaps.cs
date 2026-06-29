@@ -7,6 +7,12 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 {
     public class ITilemap : Object
     {
+        public object s_Instance;
+        public object m_Tilemap;
+        public object m_AddToList;
+        public object m_RefreshCount;
+        public object m_RefreshPos;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void RefreshTile(){} // RVA: 0x7E22350
@@ -37,6 +43,13 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tile : TileBase
     {
+        public object m_Sprite;
+        public object m_Color;
+        public object m_Transform;
+        public object m_InstancedGameObject;
+        public object m_Flags;
+        public object m_ColliderType;
+
         // ── Methods ──
         public void get_sprite(){} // RVA: 0x3926770
         public void set_sprite(){} // RVA: 0xBA9BA0
@@ -130,6 +143,14 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class TileData : ValueType
     {
+        public object m_Sprite;
+        public object m_Color;
+        public object m_Transform;
+        public object m_GameObject;
+        public object m_Flags;
+        public object m_ColliderType;
+        public object Default;
+
         // ── Methods ──
         public void set_sprite(){} // RVA: 0x98F380
         public void set_color(){} // RVA: 0x944100
@@ -203,6 +224,11 @@ namespace ThirdParty.Unity.UnityEngine.Tilemaps
 
     public class Tilemap : GridLayout
     {
+        public object tilemapTileChanged;
+        public object tilemapPositionsChanged;
+        public object loopEndedForTileAnimation;
+        public object m_BufferSyncTile;
+
         // ── Methods ──
         public void add_tilemapTileChanged(){} // RVA: 0x7E231C0
         public void remove_tilemapTileChanged(){} // RVA: 0x7E232F0

@@ -752,25 +752,25 @@ namespace ThirdParty.DotNet.System
         public void .ctor(){} // RVA: 0x3E2D8E0
     }
 
-    public class Func`3 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3A3D0
-        public void Invoke(){} // RVA: 0xCA8BF0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0x3E33B10
     }
 
-    public class Func`3 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3ACB0
-        public void Invoke(){} // RVA: 0xCA8BF0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0x3E2D8E0
     }
 
-    public class Func`3 : MulticastDelegate
+    public class Func`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3E3AB40
-        public void Invoke(){} // RVA: 0x3E38920
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0x3E33B10
     }
 
     public class Func`3 : MulticastDelegate

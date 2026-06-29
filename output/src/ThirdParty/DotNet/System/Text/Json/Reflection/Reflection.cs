@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Reflection
 {
     public class ReflectionExtensions : Object
     {
+        public object s_nullableType;
+
         // ── Methods ──
         public void GetCompatibleGenericBaseClass(){} // RVA: 0x6DBE750
         public void GetCompatibleGenericInterface(){} // RVA: 0x6DBE920
@@ -30,6 +32,30 @@ namespace ThirdParty.DotNet.System.Text.Json.Reflection
 
     public class ReflectionExtensions : Object
     {
+        public object ImmutableArrayGenericTypeName;
+        public object ImmutableListGenericTypeName;
+        public object ImmutableListGenericInterfaceTypeName;
+        public object ImmutableStackGenericTypeName;
+        public object ImmutableStackGenericInterfaceTypeName;
+        public object ImmutableQueueGenericTypeName;
+        public object ImmutableQueueGenericInterfaceTypeName;
+        public object ImmutableSortedSetGenericTypeName;
+        public object ImmutableHashSetGenericTypeName;
+        public object ImmutableSetGenericInterfaceTypeName;
+        public object ImmutableDictionaryGenericTypeName;
+        public object ImmutableDictionaryGenericInterfaceTypeName;
+        public object ImmutableSortedDictionaryGenericTypeName;
+        public object ImmutableArrayTypeName;
+        public object ImmutableListTypeName;
+        public object ImmutableStackTypeName;
+        public object ImmutableQueueTypeName;
+        public object ImmutableSortedSetTypeName;
+        public object ImmutableHashSetTypeName;
+        public object ImmutableDictionaryTypeName;
+        public object ImmutableSortedDictionaryTypeName;
+        public object CreateRangeMethodName;
+        public object s_nullableType;
+
         // ── Methods ──
         public void GetCompatibleGenericBaseClass(){} // RVA: 0x7326B90
         public void GetCompatibleGenericInterface(){} // RVA: 0x7326CB0

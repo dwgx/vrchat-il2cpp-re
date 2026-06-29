@@ -17,6 +17,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x894290
@@ -34,6 +36,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -51,6 +55,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487EC80
@@ -68,6 +74,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487E940
@@ -85,6 +93,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487ECF0
@@ -102,6 +112,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F690
@@ -119,6 +131,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F620
@@ -136,6 +150,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -153,6 +169,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880AA0
@@ -170,6 +188,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x48807D0
@@ -187,6 +207,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880B80
@@ -204,6 +226,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880B10
@@ -221,6 +245,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880BF0
@@ -238,6 +264,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -255,6 +283,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880610
@@ -272,6 +302,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487DE20
@@ -289,6 +321,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880090
@@ -306,6 +340,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F290
@@ -323,6 +359,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487E1F0
@@ -340,6 +378,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487DDB0
@@ -357,6 +397,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487E570
@@ -374,6 +416,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F000
@@ -391,6 +435,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F770
@@ -408,6 +454,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F700
@@ -425,6 +473,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880760
@@ -442,6 +492,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487EF90
@@ -459,6 +511,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F300
@@ -476,6 +530,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880680
@@ -493,6 +549,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487E500
@@ -510,6 +568,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x48806F0
@@ -527,6 +587,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487F370
@@ -544,6 +606,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880C60
@@ -561,6 +625,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -578,6 +644,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -595,6 +663,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -612,6 +682,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D950
@@ -629,6 +701,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -646,6 +720,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487FF40
@@ -663,6 +739,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -680,6 +758,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -697,6 +777,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -714,6 +796,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -731,6 +815,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x4880020
@@ -748,6 +834,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -765,6 +853,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487FD80
@@ -782,6 +872,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyBag`1 : Object
     {
+        public object _instantiationKind;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x3573B40
         public void Unity.Properties.Internal.IPropertyBagRegister.Register(){} // RVA: 0x487D460
@@ -799,6 +891,12 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void get_Empty(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0xA94080
@@ -810,246 +908,488 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47EB40
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DA00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DA00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D680
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47D340
     }
 
     public class PropertyCollection`1 : ValueType
     {
+        public object m_Type;
+        public object m_Enumerable;
+        public object m_Properties;
+        public object m_IndexedCollectionPropertyBag;
+        public object _empty;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47DF00
     }
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0x87C0A0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0x894320
@@ -1071,6 +1411,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1092,6 +1434,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1113,6 +1457,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1134,6 +1480,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1155,6 +1503,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1176,6 +1526,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1197,6 +1549,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1218,6 +1572,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1239,6 +1595,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1260,6 +1618,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60
@@ -1281,6 +1641,8 @@ namespace ThirdParty.Other.Unity.Properties
 
     public class Property`2 : Object
     {
+        public object m_Attributes;
+
         // ── Methods ──
         public void Unity.Properties.Internal.IAttributes.get_Attributes(){} // RVA: 0xB5DBF0
         public void Unity.Properties.Internal.IAttributes.set_Attributes(){} // RVA: 0xB44D60

@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 {
     public class EnhancedTouchSupport : Object
     {
+        public object s_Enabled;
+        public object s_UpdateMode;
+
         // ── Methods ──
         public void get_enabled(){} // RVA: 0x791B240
         public void Enable(){} // RVA: 0x791B280
@@ -21,6 +24,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Finger : Object
     {
+        public object _screen;
+        public object _index;
+        public object m_StateHistory;
+
         // ── Methods ──
         public void get_screen(){} // RVA: 0xB5DBF0
         public void get_index(){} // RVA: 0xE62D00
@@ -38,6 +45,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class Touch : ValueType
     {
+        public object m_Finger;
+        public object m_TouchRecord;
+        public object s_GlobalState;
+
         // ── Methods ──
         public void get_valid(){} // RVA: 0x939190
         public void get_finger(){} // RVA: 0x77900
@@ -88,6 +99,12 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchHistory : ValueType
     {
+        public object m_History;
+        public object m_Finger;
+        public object m_Count;
+        public object m_StartIndex;
+        public object m_Version;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x939D60
         public void GetEnumerator(){} // RVA: 0x939D70
@@ -99,6 +116,18 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.EnhancedTouch
 
     public class TouchSimulation : MonoBehaviour
     {
+        public object _simulatedTouchscreen;
+        public object m_NumPointers;
+        public object m_Pointers;
+        public object m_CurrentPositions;
+        public object m_CurrentDisplayIndices;
+        public object m_Touches;
+        public object m_TouchIds;
+        public object m_LastTouchId;
+        public object m_OnDeviceChange;
+        public object m_OnEvent;
+        public object s_Instance;
+
         // ── Methods ──
         public void get_simulatedTouchscreen(){} // RVA: 0xB700F0
         public void set_simulatedTouchscreen(){} // RVA: 0xB70100

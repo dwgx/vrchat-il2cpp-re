@@ -7,6 +7,9 @@ namespace ThirdParty.Oculus.Oculus.Platform
 {
     public class Request : Object
     {
+        public object callback_;
+        public object _requestID;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x15428E0
         public void get_RequestID(){} // RVA: 0xB465B0
@@ -18,6 +21,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class Request`1 : Request
     {
+        public object callback_;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8943F0
         public void OnComplete(){} // RVA: 0x87C540
@@ -35,6 +40,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RichPresenceOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B500D0
         public void SetApiName(){} // RVA: 0x6B50180
@@ -53,6 +60,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RoomOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B50C10
         public void SetDataStore(){} // RVA: 0x6B50CC0
@@ -98,6 +107,8 @@ namespace ThirdParty.Oculus.Oculus.Platform
 
     public class RosterOptions : Object
     {
+        public object Handle;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B51470
         public void AddSuggestedUser(){} // RVA: 0x6B51520

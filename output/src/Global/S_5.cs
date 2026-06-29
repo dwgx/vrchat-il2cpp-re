@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 648
+// Methods: 636
 
 public class SCNetworkReachabilityCallback : MulticastDelegate
 {
@@ -12,6 +12,9 @@ public class SCNetworkReachabilityCallback : MulticastDelegate
 
 public class SMAALuts : Object
 {
+    public object area;
+    public object search;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -27,25 +30,21 @@ public class SR : Object
 public class SR : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x666D430
-}
-
-public class SR : Object
-{
-    // ── Methods ──
-    public void GetString(){} // RVA: 0x2303260
-    public void Format(){} // RVA: 0x712C830
-}
-
-public class SR : Object
-{
-    // ── Methods ──
     public void GetString(){} // RVA: 0x2303260
     public void Format(){} // RVA: 0x700CF00
 }
 
 public class SYSTEMTIME : ValueType
 {
+    public object Year;
+    public object Month;
+    public object DayOfWeek;
+    public object Day;
+    public object Hour;
+    public object Minute;
+    public object Second;
+    public object Milliseconds;
+
     // ── Methods ──
     public void Equals(){} // RVA: 0x8AB000
 }
@@ -67,18 +66,32 @@ public class SampleFramesHandler : MulticastDelegate
 
 public class ScheduledFrameEvent : ValueType
 {
+    public object udonEventReceiver;
+    public object eventName;
+    public object eventFrame;
+    public object eventId;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9CC970
 }
 
 public class ScheduledTimeEvent : ValueType
 {
+    public object udonEventReceiver;
+    public object eventName;
+    public object eventTime;
+    public object eventId;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x9CC8A0
 }
 
 public class SchemaDatatypeMap : Object
 {
+    public object name;
+    public object type;
+    public object parentIndex;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x31D5D40
     public void op_Explicit(){} // RVA: 0x18E1A10
@@ -89,6 +102,11 @@ public class SchemaDatatypeMap : Object
 
 public class Scope : Object
 {
+    public object _provider;
+    public object _isDisposed;
+    public object _parent;
+    public object _state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6623A50
     public void get_Parent(){} // RVA: 0xB700F0
@@ -99,6 +117,11 @@ public class Scope : Object
 
 public class Scope : Object
 {
+    public object _isDisposed;
+    public object _disposable0;
+    public object _disposable1;
+    public object _disposable;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6628710
     public void SetDisposable(){} // RVA: 0x66287B0
@@ -107,6 +130,11 @@ public class Scope : Object
 
 public class Scope : Object
 {
+    public object _provider;
+    public object _isDisposed;
+    public object _parent;
+    public object _state;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6623A50
     public void get_Parent(){} // RVA: 0xB700F0
@@ -117,6 +145,10 @@ public class Scope : Object
 
 public class Scope : Object
 {
+    public object s_allowedTypes;
+    public object m_allowedTypes;
+    public object m_previousScope;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7152360
     public void Dispose(){} // RVA: 0x7152600
@@ -141,6 +173,9 @@ public class SecureStringHelper : Object
 
 public class SecurityAttribute : Object
 {
+    public object _name;
+    public object _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66E0080
     public void get_Name(){} // RVA: 0xB5DBF0
@@ -149,6 +184,13 @@ public class SecurityAttribute : Object
 
 public class Segment : Object
 {
+    public object offsetX;
+    public object offsetY;
+    public object scaleX;
+    public object scaleY;
+    public object lnA;
+    public object B;
+
     // ── Methods ──
     public void Eval(){} // RVA: 0x79929F0
     public void .ctor(){} // RVA: 0xB43310
@@ -170,6 +212,12 @@ public class SendActivityInviteCallback : MulticastDelegate
 
 public class SequenceConstructPosContext : ValueType
 {
+    public object this_;
+    public object firstpos;
+    public object lastpos;
+    public object lastposLeft;
+    public object firstposRight;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x917760
 }
@@ -203,6 +251,9 @@ public class SerializationCallback : MulticastDelegate
 
 public class SerializedBundleRef : Object
 {
+    public object assemblyQualifiedName;
+    public object bundle;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -229,6 +280,8 @@ public class SerializedBundleRef[] : Array
 
 public class Serializer : Object
 {
+    public object builder;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CBFE30
     public void Serialize(){} // RVA: 0x6CBE6A0
@@ -241,6 +294,11 @@ public class Serializer : Object
 
 public class SerializerData : Object
 {
+    public object ReaderMethod;
+    public object WriterType;
+    public object WriterMethod;
+    public object Implementation;
+
     // ── Methods ──
     public void CreateWriter(){} // RVA: 0x752A800
 }
@@ -261,6 +319,8 @@ public class SetClassValueAction : MulticastDelegate
 
 public class SetElementProperty : Property`2
 {
+    public object m_Value;
+
     // ── Methods ──
     public void get_Name(){} // RVA: 0x87C0A0
     public void get_IsReadOnly(){} // RVA: 0x87D280
@@ -268,6 +328,16 @@ public class SetElementProperty : Property`2
     public void SetValue(){} // RVA: 0xA94080
     public void get_ObjectKey(){} // RVA: 0x87C0A0
     public void .ctor(){} // RVA: 0x894290
+}
+
+public class SetErrorLocation : ValueType
+{
+    public object error;
+    public object location;
+    public object relatedLocation;
+
+    // ── Methods ──
+    public void ToString(){} // RVA: 0xA79600
 }
 
 public class SetStructValueAction : MulticastDelegate
@@ -279,31 +349,142 @@ public class SetStructValueAction : MulticastDelegate
 
 public class Settings : Object
 {
+    public object _default;
+    public object _formatDefaultValues;
+    public object _typeRegistry;
+    public object _formatEnumsAsIntegers;
+    public object _preserveProtoFieldNames;
+
+    // ── Methods ──
+    public void get_Default(){} // RVA: 0x64A5CD0
+    public void .cctor(){} // RVA: 0x64A5D30
+    public void get_FormatDefaultValues(){} // RVA: 0xC120A0
+    public void get_TypeRegistry(){} // RVA: 0xB465B0
+    public void get_FormatEnumsAsIntegers(){} // RVA: 0xC38360
+    public void get_PreserveProtoFieldNames(){} // RVA: 0xF45EE0
+    public void .ctor(){} // RVA: 0x64A6120
+}
+
+public class Settings : Object
+{
+    public object camera;
+    public object cameraSelector;
+    public object render180Degrees;
+    public object ipd;
+    public object pixelSliceSize;
+    public object paddingSize;
+    public object cameraClearMode;
+    public object cameraClearColor;
+    public object cameraImageEffects;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6CD4520
 }
 
 public class ShaderIds : Object
 {
+    public object _CPPTexture;
+    public object _CPPTexture_TexelSize;
+    public object _EdgeChoke;
+    public object _TextureFlipped;
+    public object _ColorSpaceCorrectionDepth;
+    public object _ColorSpaceCorrectionColor;
+    public object _PerspectivesCount;
+    public object _PerspectivesInX;
+    public object _PerspectivesInY;
+    public object _PerspectiveDataStructuredBuffer;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26B1840
 }
 
 public class ShaderIds : Object
 {
+    public object _GroupSize;
+    public object _DispatchY;
+    public object _DispatchZ;
+    public object _SinglePassStereo;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26CA050
 }
 
 public class Shaders : Object
 {
+    public object bloom;
+    public object copy;
+    public object copyStd;
+    public object copyStdFromTexArray;
+    public object copyStdFromDoubleWide;
+    public object discardAlpha;
+    public object depthOfField;
+    public object finalPass;
+    public object grainBaker;
+    public object motionBlur;
+    public object temporalAntialiasing;
+    public object subpixelMorphologicalAntialiasing;
+    public object texture2dLerp;
+    public object uber;
+    public object lut2DBaker;
+    public object lightMeter;
+    public object gammaHistogram;
+    public object waveform;
+    public object vectorscope;
+    public object debugOverlays;
+    public object deferredFog;
+    public object scalableAO;
+    public object multiScaleAO;
+    public object screenSpaceReflections;
+
     // ── Methods ──
     public void Clone(){} // RVA: 0x7990170
     public void .ctor(){} // RVA: 0xB43310
 }
 
+public class ShapeData : ValueType
+{
+    public object shapeType;
+    public object center;
+    public object inputRotationOffset;
+    public object radius;
+    public object height;
+    public object boxSize;
+    public object axis;
+    public object maxSize;
+    public object boxUseFaceProximity;
+    public object isReceiver;
+    public object isCollider;
+    public object bounds;
+    public object boundsMin;
+    public object boundsMax;
+    public object nextBoundsMin;
+    public object nextBoundsMax;
+    public object velocity;
+    public object angularNormal;
+    public object angularSpeed;
+    public object lastPosition;
+    public object lastRotation;
+    public object outPos0;
+    public object outPos1;
+    public object outRadius;
+    public object outRotation;
+    public object collisionCount;
+    public object VelocityLerpSpeed;
+
+    // ── Methods ──
+    public void ToCollisionShape(){} // RVA: 0x9C6500
+    public void GetMidpoint(){} // RVA: 0x9C6590
+    public void GetClosestPoint(){} // RVA: 0x9C6630
+    public void CalcVelocityAtPoint(){} // RVA: 0x9C6690
+    public void UpdateShape(){} // RVA: 0x9C66E0
+    public void GetTransformLossyScale(){} // RVA: 0x9C6710
+    public void UpdateVelocity(){} // RVA: 0x9C6720
+}
+
 public class ShapeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x974F20
@@ -432,6 +613,14 @@ public class ShapeModule : ValueType
 
 public class SignedData : Object
 {
+    public object version;
+    public object hashAlgorithm;
+    public object contentInfo;
+    public object certs;
+    public object crls;
+    public object signerInfo;
+    public object mda;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6632A80
     public void get_Certificates(){} // RVA: 0xB70160
@@ -443,6 +632,15 @@ public class SignedData : Object
 
 public class SignerInfo : Object
 {
+    public object version;
+    public object hashAlgorithm;
+    public object authenticatedAttributes;
+    public object unauthenticatedAttributes;
+    public object signature;
+    public object issuer;
+    public object serial;
+    public object ski;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66337C0
     public void get_IssuerName(){} // RVA: 0xD05CA0
@@ -457,6 +655,8 @@ public class SignerInfo : Object
 
 public class SigningKey : ValueType
 {
+    public object _key;
+
     // ── Methods ──
     public void get_Key(){} // RVA: 0x77900
     public void .ctor(){} // RVA: 0x9CCB20
@@ -464,6 +664,9 @@ public class SigningKey : ValueType
 
 public class SimplePropertyDescriptor : PropertyDescriptor
 {
+    public object componentType;
+    public object propertyType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76FB9A0
     public void get_ComponentType(){} // RVA: 0xB813B0
@@ -476,6 +679,9 @@ public class SimplePropertyDescriptor : PropertyDescriptor
 
 public class SingleObjectEnumerator : Object
 {
+    public object loneValue;
+    public object position;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x39EC7C0
     public void get_Current(){} // RVA: 0x74C7830
@@ -485,6 +691,10 @@ public class SingleObjectEnumerator : Object
 
 public class Site : Object
 {
+    public object _name;
+    public object _component;
+    public object _container;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76D1DE0
     public void get_Component(){} // RVA: 0xB465B0
@@ -498,6 +708,10 @@ public class Site : Object
 
 public class Site : Object
 {
+    public object component;
+    public object container;
+    public object name;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC27FD0
     public void get_Component(){} // RVA: 0xB5DBF0
@@ -510,6 +724,8 @@ public class Site : Object
 
 public class SizeBySpeedModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97D780
@@ -556,6 +772,8 @@ public class SizeBySpeedModule : ValueType
 
 public class SizeOverLifetimeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97CF00
@@ -594,51 +812,6 @@ public class SizeOverLifetimeModule : ValueType
     public void set_yBlittable_Injected(){} // RVA: 0x7CCAF50
     public void get_zBlittable_Injected(){} // RVA: 0x7CCAFB0
     public void set_zBlittable_Injected(){} // RVA: 0x7CCB010
-}
-
-public class SkinChangedDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-}
-
-public class SlideMovement : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x9850B0
-    public void get_maxIterations(){} // RVA: 0x77E60
-    public void set_maxIterations(){} // RVA: 0x29580
-    public void get_surfaceSlideAngle(){} // RVA: 0xD1B60
-    public void set_surfaceSlideAngle(){} // RVA: 0xD1B40
-    public void get_gravitySlipAngle(){} // RVA: 0xD1B30
-    public void set_gravitySlipAngle(){} // RVA: 0xD1B50
-    public void get_surfaceUp(){} // RVA: 0x985210
-    public void set_surfaceUp(){} // RVA: 0x971F80
-    public void get_surfaceAnchor(){} // RVA: 0x27A900
-    public void set_surfaceAnchor(){} // RVA: 0x971DD0
-    public void get_gravity(){} // RVA: 0x985230
-    public void set_gravity(){} // RVA: 0x985250
-    public void get_startPosition(){} // RVA: 0x985260
-    public void set_startPosition(){} // RVA: 0x985280
-    public void get_selectedCollider(){} // RVA: 0xA6BB0
-    public void set_selectedCollider(){} // RVA: 0xA6B00
-    public void set_layerMask(){} // RVA: 0xA37A0
-    public void set_useLayerMask(){} // RVA: 0x958A40
-    public void get_useStartPosition(){} // RVA: 0x985290
-    public void set_useStartPosition(){} // RVA: 0x9852A0
-    public void get_useNoMove(){} // RVA: 0x9852B0
-    public void set_useNoMove(){} // RVA: 0x9852C0
-    public void get_useSimulationMove(){} // RVA: 0x9852D0
-    public void set_useSimulationMove(){} // RVA: 0x9852E0
-    public void set_useAttachedTriggers(){} // RVA: 0xC8BC0
-}
-
-public class SlideResults : ValueType
-{
-    // ── Methods ──
-    public void set_remainingVelocity(){} // RVA: 0x93050
-    public void set_position(){} // RVA: 0x990A0
 }
 
 public class Slot[] : Array
@@ -703,6 +876,8 @@ public class Slot[] : Array
 
 public class SmallXmlNodeList : ValueType
 {
+    public object field;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x916B20
     public void get_Item(){} // RVA: 0x916B30
@@ -712,8 +887,88 @@ public class SmallXmlNodeList : ValueType
     public void GetEnumerator(){} // RVA: 0x916B70
 }
 
+public class Snapshot : ValueType
+{
+    public object avatarName;
+    public object polyCount;
+    public object aabb;
+    public object skinnedMeshCount;
+    public object meshCount;
+    public object materialCount;
+    public object animatorCount;
+    public object boneCount;
+    public object lightCount;
+    public object particleSystemCount;
+    public object particleTotalCount;
+    public object particleMaxMeshPolyCount;
+    public object particleTrailsEnabled;
+    public object particleCollisionEnabled;
+    public object trailRendererCount;
+    public object lineRendererCount;
+    public object physBone;
+    public object contactCount;
+    public object contactCompleteCount;
+    public object clothCount;
+    public object clothMaxVertices;
+    public object physicsColliderCount;
+    public object physicsRigidbodyCount;
+    public object audioSourceCount;
+    public object textureMegabytes;
+    public object downloadSizeBytes;
+    public object uncompressedSizeBytes;
+    public object constraintsCount;
+    public object constraintDepth;
+    public object raycastCount;
+    public object overallRating;
+    public object polyCountRating;
+    public object aabbRating;
+    public object skinnedMeshCountRating;
+    public object meshCountRating;
+    public object materialCountRating;
+    public object animatorCountRating;
+    public object boneCountRating;
+    public object lightCountRating;
+    public object particleSystemCountRating;
+    public object particleTotalCountRating;
+    public object particleMaxMeshPolyCountRating;
+    public object particleTrailsEnabledRating;
+    public object particleCollisionEnabledRating;
+    public object trailRendererCountRating;
+    public object lineRendererCountRating;
+    public object physBoneComponentCountRating;
+    public object physBoneTransformCountRating;
+    public object physBoneColliderCountRating;
+    public object physBoneCollisionCheckCountRating;
+    public object contactCountRating;
+    public object clothCountRating;
+    public object clothMaxVerticesRating;
+    public object physicsColliderCountRating;
+    public object physicsRigidbodyCountRating;
+    public object audioSourceCountRating;
+    public object textureMegabytesRating;
+    public object downloadSizeRating;
+    public object uncompressedSizeRating;
+    public object constraintsCountRating;
+
+    // ── Methods ──
+    public void get_downloadSize(){} // RVA: 0xA78ED0
+    public void get_uncompressedSize(){} // RVA: 0xA78F70
+    public void .ctor(){} // RVA: 0xA79010
+    public void ToString(){} // RVA: 0xA79020
+}
+
 public class SortedListEnumerator : Object
 {
+    public object _sortedList;
+    public object _key;
+    public object _value;
+    public object _index;
+    public object _startIndex;
+    public object _endIndex;
+    public object _version;
+    public object _current;
+    public object _getObjectRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x687AFD0
     public void Clone(){} // RVA: 0x67F43E0
@@ -727,6 +982,10 @@ public class SortedListEnumerator : Object
 
 public class SorterGenericArray : ValueType
 {
+    public object keys;
+    public object items;
+    public object comparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8BE8B0
     public void SwapIfGreaterWithItems(){} // RVA: 0x8BE8C0
@@ -742,6 +1001,10 @@ public class SorterGenericArray : ValueType
 
 public class SorterObjectArray : ValueType
 {
+    public object keys;
+    public object items;
+    public object comparer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8BE750
     public void SwapIfGreaterWithItems(){} // RVA: 0x8BE760
@@ -755,8 +1018,33 @@ public class SorterObjectArray : ValueType
     public void InsertionSort(){} // RVA: 0x8BE7E0
 }
 
+public class SpecialCharacter : ValueType
+{
+    public object character;
+    public object fontAsset;
+    public object material;
+    public object materialIndex;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x98E580
+}
+
+public class Sphere : ValueType
+{
+    public object position;
+    public object radius;
+
+    // ── Methods ──
+    public void ClosestPoint(){} // RVA: 0x9C6960
+}
+
 public class StackEnumerator : Object
 {
+    public object _stack;
+    public object _index;
+    public object _version;
+    public object _currentElement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x687CAD0
     public void Clone(){} // RVA: 0x67F43E0
@@ -767,12 +1055,19 @@ public class StackEnumerator : Object
 
 public class StackRow : ValueType
 {
+    public object Size;
+    public object SizeOrLength;
+    public object NumberOfRows;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
 }
 
 public class StackRowStack : ValueType
 {
+    public object _rentedBuffer;
+    public object _topOfStack;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x90CC70
     public void Dispose(){} // RVA: 0x90CC80
@@ -783,6 +1078,9 @@ public class StackRowStack : ValueType
 
 public class StandardValuesCollection : Object
 {
+    public object values;
+    public object valueArray;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76FBE50
     public void get_Count(){} // RVA: 0x76FBF90
@@ -811,6 +1109,9 @@ public class StaticGetter`1 : MulticastDelegate
 
 public class StoreInstance : Object
 {
+    public object _storeName;
+    public object _instance;
+
     // ── Methods ──
     public void get_storeName(){} // RVA: 0xB5DBF0
     public void get_instance(){} // RVA: 0xB465B0
@@ -819,6 +1120,9 @@ public class StoreInstance : Object
 
 public class StreamTokenReader : Object
 {
+    public object _in;
+    public object _numCharRead;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x23025E0
     public void Read(){} // RVA: 0x66E32B0
@@ -827,6 +1131,13 @@ public class StreamTokenReader : Object
 
 public class StringMaker : Object
 {
+    public object aStrings;
+    public object cStringsMax;
+    public object cStringsUsed;
+    public object _outStringBuilder;
+    public object _outChars;
+    public object _outIndex;
+
     // ── Methods ──
     public void HashString(){} // RVA: 0x66E2D00
     public void HashCharArray(){} // RVA: 0x66E2D60
@@ -837,6 +1148,11 @@ public class StringMaker : Object
 
 public class StringParser : ValueType
 {
+    public object _str;
+    public object _ch;
+    public object _pos;
+    public object _len;
+
     // ── Methods ──
     public void NextChar(){} // RVA: 0x6841420
     public void NextNonDigit(){} // RVA: 0x6841460
@@ -848,6 +1164,10 @@ public class StringParser : ValueType
 
 public class StringSerializer : ValueType
 {
+    public object _serializedText;
+    public object _currentTokenStartIndex;
+    public object _state;
+
     // ── Methods ──
     public void GetSerializedString(){} // RVA: 0x67E67B0
     public void GetDeserializedTimeZoneInfo(){} // RVA: 0x67E7320
@@ -883,6 +1203,20 @@ public class StructGetter`2 : MulticastDelegate
 
 public class StructuredPerspectiveData : ValueType
 {
+    public object size;
+    public object depthImageSize;
+    public object depthPrincipalPoint;
+    public object depthFocalLength;
+    public object farClip;
+    public object nearClip;
+    public object extrinsics;
+    public object extrinsicsInverse;
+    public object crop;
+    public object clipEpsilon;
+    public object cameraPosition;
+    public object cameraNormal;
+    public object padding;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x90660
 }
@@ -909,36 +1243,141 @@ public class StructuredPerspectiveData[] : Array
 
 public class StudioLiteLookData : Object
 {
+    public object shadowCastingMode;
+    public object receiveShadows;
+    public object interpolateLightProbes;
+    public object showMain;
+    public object showMainEdge;
+    public object showFill;
+    public object showFillEdge;
+
     // ── Methods ──
     public void CopyTo(){} // RVA: 0x8326F80
 }
 
 public class StudioLiteMeshData : Object
 {
+    public object perspectiveLimit;
+    public object normalGenerationTechnique;
+    public object meshDensity;
+    public object enableAdaptiveClipThresholding;
+    public object clippingThreshold;
+    public object ditheringWidth;
+    public object invalidEdgeWidth;
+    public object invalidStrength;
+    public object sobelFilterMultiplier;
+    public object blurFilterEnable;
+    public object blurFilterRadius;
+    public object depthBiasCompensation;
+    public object edgeCompressionNoiseThreshold;
+    public object pausePlayerWhenInvisible;
+    public object pauseDataGenerationWhenInvisible;
+
     // ── Methods ──
     public void CopyTo(){} // RVA: 0x8326DB0
 }
 
 public class StudioLiteMeshSourceShaderIds : Object
 {
+    public object _EdgeTriangleBuffer;
+    public object _MainPerspectiveIndex;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26D5F90
 }
 
 public class StudioLookData : Object
 {
+    public object shadowCastingMode;
+    public object receiveShadows;
+    public object interpolateLightProbes;
+
     // ── Methods ──
     public void CopyTo(){} // RVA: 0x8326F50
 }
 
 public class StudioMeshData : Object
 {
+    public object volumeDensity;
+    public object surfaceSensitivity;
+    public object depthBiasCompensation;
+    public object weightUnknown;
+    public object weightUnseenMax;
+    public object weightUnseenMin;
+    public object weightUnseenFalloffPower;
+    public object weightInFrontMax;
+    public object weightInFrontMin;
+    public object normalWeightResolutionReduction;
+    public object pausePlayerWhenInvisible;
+    public object pauseDataGenerationWhenInvisible;
+    public object enableSurfaceSmoothing;
+    public object surfaceSmoothingRadius;
+    public object surfaceBufferCapacity;
+    public object viewDependentColorBlendWeight;
+    public object surfaceNormalColorBlendWeight;
+    public object surfaceDisparityColorThreshold;
+    public object disparityBlendWidth;
+    public object untexturedGeometrySettings;
+    public object enableEdgeMask;
+    public object perspective0Settings;
+    public object perspective1Settings;
+
     // ── Methods ──
     public void CopyTo(){} // RVA: 0x8326860
 }
 
 public class StudioMeshSourceShaderIds : Object
 {
+    public object _GlobalViewDependentColorBlendWeight;
+    public object _SurfaceNormalColorBlendingPower;
+    public object _PerViewDisparityThreshold;
+    public object _PerViewDisparityBlendWidth;
+    public object _PerspectiveColorBlending;
+    public object _UntexturedFragDefaultColor;
+    public object _UntexturedFragmentInfer;
+    public object _UntexturedFragmentColorize;
+    public object _UntexturedFragmentClip;
+    public object _SdfBuffer;
+    public object _SdfWeightBuffer;
+    public object _VoxelGridX;
+    public object _VoxelGridY;
+    public object _VoxelGridZ;
+    public object _VoxelGridf;
+    public object _BoundsSize;
+    public object _BoundsCenter;
+    public object _IsoLODScalar;
+    public object _SdfSensitivity;
+    public object _WeightUnknown;
+    public object _WeightUnseenMax;
+    public object _WeightUnseenMin;
+    public object _WeightUnseenFalloffPower;
+    public object _WeightInFrontMax;
+    public object _WeightInFrontMin;
+    public object _NormalTexture;
+    public object _NormalTexture_TexelSize;
+    public object _NormalWeights;
+    public object _PerspectiveGeometryData;
+    public object _WSDepth;
+    public object _CurrentPerspective;
+    public object _DispatchSize;
+    public object _MainTex;
+    public object _Points;
+    public object _SdfAlpha;
+    public object _PointSize;
+    public object _LocalToWorldMatrix;
+    public object _PingData;
+    public object _PongData;
+    public object _DataSize;
+    public object _Axis;
+    public object _PowerAmount;
+    public object _GaussianNormalization;
+    public object _GaussianExponential;
+    public object _TriangleDataBuffer;
+    public object _SdfThreshold;
+    public object _TriangleBuffer;
+    public object _TriangleCullingThreshold;
+    public object _IndirectArgs;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26D1C70
 }
@@ -952,6 +1391,8 @@ public class SubDouble : SubInstruction
 
 public class SubEmittersModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x977B40
@@ -995,13 +1436,6 @@ public class SubInt64 : SubInstruction
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class SubOvfInt16 : SubOvfInstruction
-{
-    // ── Methods ──
-    public void Run(){} // RVA: 0x70C13C0
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class SubSingle : SubInstruction
 {
     // ── Methods ──
@@ -1038,6 +1472,8 @@ public class Surname : AttributeTypeAndValue
 
 public class SwitchCaseProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049DF0
     public void get_Body(){} // RVA: 0x13F9400
@@ -1046,6 +1482,8 @@ public class SwitchCaseProxy : Object
 
 public class SwitchExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049ED0
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -1058,14 +1496,10 @@ public class SwitchExpressionProxy : Object
     public void get_Type(){} // RVA: 0x10ACB60
 }
 
-public class SymbolTables : ValueType
-{
-    // ── Methods ──
-    public void Init(){} // RVA: 0x9137D0
-}
-
 public class SyncHashtable : Hashtable
 {
+    public object _table;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6886CD0
     public void GetObjectData(){} // RVA: 0x6886D30
@@ -1092,6 +1526,9 @@ public class SyncHashtable : Hashtable
 
 public class SyncSortedList : SortedList
 {
+    public object _list;
+    public object _root;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68796D0
     public void get_Count(){} // RVA: 0x68797D0
@@ -1121,6 +1558,13 @@ public class SyncSortedList : SortedList
 
 public class SynchronousAsyncResult : Object
 {
+    public object _stateObject;
+    public object _isWrite;
+    public object _waitHandle;
+    public object _exceptionInfo;
+    public object _endXxxCalled;
+    public object _bytesRead;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x68CCD70
     public void get_IsCompleted(){} // RVA: 0xC2E4C0
@@ -1130,6 +1574,14 @@ public class SynchronousAsyncResult : Object
     public void ThrowIfError(){} // RVA: 0x68CD070
     public void EndRead(){} // RVA: 0x68CB2A0
     public void EndWrite(){} // RVA: 0x68CB500
+}
+
+public class SystemObjectSurrogate : Object
+{
+    // ── Methods ──
+    public void GetObjectData(){} // RVA: 0xB43310
+    public void SetObjectData(){} // RVA: 0xA74E630
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class SystemTimeProvider : TimeProvider
@@ -1147,6 +1599,9 @@ public class sentry_logger_function_t : MulticastDelegate
 
 public class sockaddr_in : ValueType
 {
+    public object sin_len;
+    public object sin_family;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x75F3A80
 }

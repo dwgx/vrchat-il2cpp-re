@@ -1,13 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
-// Classes: 6
-// Methods: 76
+// Classes: 8
+// Methods: 136
 
 namespace VRC.Core.Transform
 {
     /// <summary>Originally: ÏÎÌÍÌÏÏÏÎÌÍÎÍÌÌÍÎÏÏÌÎÌÏ</summary>
     public class RectTransformDimensionsCh_3B42 : UIBehaviour
     {
+        public object f_EF7;
+        public object f_FB1;
+        public object f_45F;
+        public object f_CF0;
+
         // ── Methods ──
         public void Awake(){} // RVA: 0x9F0B4F0
         public void OnRectTransformDimensionsChange(){} // RVA: 0x9F0B610
@@ -28,8 +33,12 @@ namespace VRC.Core.Transform
     }
 
     /// <summary>Originally: ÏÍÍÌÎÌÌÌÌÍÍÌÎÎÏÍÍÎÍÍÍÎÎ</summary>
-    public class RectTransformDimensionsCh_77D7 : ContentSizeFitter
+    public class RectTransformDimensionsChparent_77D7 : ContentSizeFitter
     {
+        public object _parent;
+        public object _root;
+        public object _this;
+
         // ── Methods ──
         public void get_horizontalFit(){} // RVA: 0x9B38160
         public void set_horizontalFit(){} // RVA: 0x9B38160
@@ -42,29 +51,6 @@ namespace VRC.Core.Transform
         public void HandleSelfFittingAlongAxis(){} // RVA: 0x9B38160
         // ── Unresolved (hash) ──
         public void m_707(){} // RVA: 0x9B38160
-    }
-
-    /// <summary>Originally: ÌÎÍÌÎÎÌÌÍÏÎÌÍÍÎÎÏÎÎÎÌÎÍ</summary>
-    public class RectTransformDimensionsCh_857F : UIBehaviour
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x9892E00
-        public void OnEnable(){} // RVA: 0x9892EE0
-        public void Start(){} // RVA: 0x9893390
-        public void OnDestroy(){} // RVA: 0x98933A0
-        public void IsActive(){} // RVA: 0x98938F0
-        public void LateUpdate(){} // RVA: 0x9893FC0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2536460
-        public void OnTransformParentChanged(){} // RVA: 0x9894600
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x98946A0
-        public void OnCanvasGroupChanged(){} // RVA: 0x98946D0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x9894B50
-        public void .ctor(){} // RVA: 0x9894FD0
-        public void Initialize(){} // RVA: 0x9895030
-        public void OnCollisionStay(){} // RVA: 0x2536460
-        public void OnCollisionExit(){} // RVA: 0x9895520
-        // ── Unresolved (hash) ──
-        public void m_E18(){} // RVA: 0x9892F10
     }
 
     /// <summary>Originally: ÍÏÏÍÌÏÌÎÏÍÌÎÌÏÍÌÌÎÏÏÍÏÎ</summary>
@@ -86,6 +72,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÌÍÌÎÏÌÏÎÌÏÎÏÏÌÌÎÌÏÏÏÏÍÎ</summary>
     public class TransformChildrenChangedSetLayoutHorizonHandler_0D18 : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_7C7;
+        public object f_F85;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0xF15890
         public void SetLayoutVertical(){} // RVA: 0x101EE20
@@ -101,8 +91,13 @@ namespace VRC.Core.Transform
     }
 
     /// <summary>Originally: ÍÏÍÍÌÌÍÏÍÎÏÏÍÍÍÎÎÎÏÎÍÌÍ</summary>
-    public class TransformParentChangedHandler_8FD6 : MonoBehaviour
+    public class TransformParentChangedresizeLayoutElemenHandler_8FD6 : MonoBehaviour
     {
+        public object _resizeLayoutElement;
+        public object f_6B5;
+        public object f_900;
+        public object f_9E6;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x9AE3A60
         public void Start(){} // RVA: 0x9AE3B70
@@ -117,6 +112,124 @@ namespace VRC.Core.Transform
         public void Awake(){} // RVA: 0x9AE4DE0
         public void OnDestroy(){} // RVA: 0x9AE4FB0
         public void get_didStart(){} // RVA: 0x9AE5190
+    }
+
+    /// <summary>Originally: ÍÎÎÎÍÌÏÎÍÍÍÍÌÏÏÎÍÌÍÏÍÎÎ</summary>
+    public class backgroundTransformlineComponent_08C9 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_68F;
+        public object f_C23;
+        public object f_3FE;
+        public object f_ADC;
+        public object f_601;
+        public object f_ADC;
+        public object f_8A2;
+        public object f_714;
+        public object f_575;
+        public object f_D81;
+        public object backgroundTransform;
+        public object line;
+        public object mask;
+        public object f_9A2;
+        public object f_6D9;
+        public object f_8AA;
+        public object f_8B5;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0xD1FBA0
+        public void RaiseCancellation(){} // RVA: 0xD20320
+        public void OnDisable(){} // RVA: 0xD20530
+        public void CancelInvoke(){} // RVA: 0xD20750
+        public void Invoke(){} // RVA: 0xD20A30
+        public void InvokeRepeating(){} // RVA: 0xD20A40
+        public void StartCoroutine(){} // RVA: 0xD20C40
+        public void StartCoroutine_Auto(){} // RVA: 0xD20E60
+        public void Update(){} // RVA: 0xD21080
+        public void StopAllCoroutines(){} // RVA: 0xD21170
+        public void get_useGUILayout(){} // RVA: 0xD21320
+        public void set_useGUILayout(){} // RVA: 0xD21520
+        public void get_didStart(){} // RVA: 0xD21530
+        public void .ctor(){} // RVA: 0xD21730
+        public void Initialize(){} // RVA: 0xD217A0
+        public void Internal_CancelInvokeAll(){} // RVA: 0xD219A0
+        public void Internal_IsInvokingAll(){} // RVA: 0xD20750
+    }
+
+    /// <summary>Originally: ÎÏÍÎÌÏÏÎÌÍÏÎÏÎÎÏÌÍÌÌÏÍÌ</summary>
+    public class cameraTransform_DA62 : ControllerRightBase_0185
+    {
+        public object f_975;
+        public object _cameraTransform;
+        public object f_EEA;
+        public object f_39D;
+        public object f_C0B;
+        public object f_04E;
+        public object f_E3C;
+        public object f_153;
+
+        // ── Methods ──
+        public void Update(){} // RVA: 0x1E91C60
+        public void .ctor(){} // RVA: 0x1E92020
+        public void Initialize(){} // RVA: 0x1E92070
+        public void Start(){} // RVA: 0x1E921E0
+        public void Awake(){} // RVA: 0x1E929D0
+        public void OnDestroy(){} // RVA: 0x1E92A60
+        // ── 27 unresolved (hash) ──
+        public void m_15E(){} // RVA: 0xB43310
+        public void m_493(){} // RVA: 0xDAC980
+        public void m_A84(){} // RVA: 0x1E91BF0
+        public void m_4B4(){} // RVA: 0x1E76420
+        public void m_739(){} // RVA: 0x1DF7CC0
+        // ... 22 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÎÏÎÎÌÏÍÏÏÍÍÏÌÌÌÌÌÌÎÎÎ</summary>
+    public class contentTransformToRebuildsubscriptionEleComponent_AC67 : MonoBehaviour
+    {
+        public object _contentTransformToRebuild;
+        public object _activeFoldout;
+        public object _expiredFoldout;
+        public object _activeSubscriptions;
+        public object _expiredSubscriptions;
+        public object _expiredScroll;
+        public object _subscriptionElementPrefab;
+        public object sortActiveDropdown;
+        public object sortExpiredDropdown;
+        public object _canvas;
+        public object _raycaster;
+        public object f_23A;
+        public object f_529;
+        public object f_54E;
+        public object f_E18;
+
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x984CF60
+        public void OnDisable(){} // RVA: 0x984D070
+        public void Start(){} // RVA: 0x984D080
+        public void .ctor(){} // RVA: 0x984DFE0
+        public void Initialize(){} // RVA: 0x984E190
+        public void InvokeRepeating(){} // RVA: 0x984E2A0
+        public void StartCoroutine(){} // RVA: 0xBE58B0
+        public void StartCoroutine_Auto(){} // RVA: 0x984D070
+        public void StopCoroutine(){} // RVA: 0xBE58B0
+        public void StopAllCoroutines(){} // RVA: 0x984E460
+        public void get_useGUILayout(){} // RVA: 0x984D070
+        public void set_useGUILayout(){} // RVA: 0x984E500
+        public void get_didStart(){} // RVA: 0x984E510
+        public void Awake(){} // RVA: 0x984E620
+        public void OnDestroy(){} // RVA: 0x984E700
+        public void Internal_CancelInvokeAll(){} // RVA: 0x984E740
+        public void Internal_IsInvokingAll(){} // RVA: 0x984D070
+        public void InvokeDelayed(){} // RVA: 0x984E790
+        public void IsObjectMonoBehaviour(){} // RVA: 0x984E870
+        public void StartCoroutineManaged(){} // RVA: 0x984EB00
+        public void StartCoroutineManaged2(){} // RVA: 0x984D070
+        public void StopCoroutineManaged(){} // RVA: 0x984ED30
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x984D070
+        public void GetScriptClassName(){} // RVA: 0x984EE40
+        public void OnCancellationTokenCreated(){} // RVA: 0x984F0F0
+        public void OnCollisionEnter(){} // RVA: 0x984F3A0
     }
 
 }

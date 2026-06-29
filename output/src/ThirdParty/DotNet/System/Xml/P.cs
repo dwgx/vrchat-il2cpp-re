@@ -8,11 +8,11 @@ namespace ThirdParty.DotNet.System.Xml
     public class PositionInfo : Object
     {
         // ── Methods ──
-        public void HasLineInfo(){} // RVA: 0x7A80D7320
-        public void get_LineNumber(){} // RVA: 0x7A82D1450
-        public void get_LinePosition(){} // RVA: 0x7A82D1450
-        public void GetPositionInfo(){} // RVA: 0x7AE85EDC0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void HasLineInfo(){} // RVA: 0xB43320
+        public void get_LineNumber(){} // RVA: 0xDAC980
+        public void get_LinePosition(){} // RVA: 0xDAC980
+        public void GetPositionInfo(){} // RVA: 0x74D3770
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

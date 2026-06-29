@@ -7,6 +7,10 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
     public class Error : Object
     {
+        public object Code;
+        public object HttpCode;
+        public object Message;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6B5AD60
     }

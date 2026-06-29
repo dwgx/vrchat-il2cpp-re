@@ -13,6 +13,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Manipulator : Object
     {
+        public object m_Target;
+
         // ── Methods ──
         public void RegisterCallbacksOnTarget(){} // RVA: 0x894290
         public void UnregisterCallbacksFromTarget(){} // RVA: 0x894290
@@ -23,6 +25,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ManipulatorActivationFilter : ValueType
     {
+        public object _button;
+        public object _modifiers;
+        public object _clickCount;
+
         // ── Methods ──
         public void get_button(){} // RVA: 0x77E60
         public void set_button(){} // RVA: 0x29580
@@ -53,6 +59,19 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MeshGenerationContext : Object
     {
+        public object _visualElement;
+        public object m_Painter2D;
+        public object m_MeshWriteDataPool;
+        public object m_Allocator;
+        public object m_MeshGenerationDeferrer;
+        public object m_MeshGenerationNodeManager;
+        public object _meshGenerator;
+        public object _entryRecorder;
+        public object _parentEntry;
+        public object k_AllocateMarker;
+        public object k_DrawVectorImageMarker;
+        public object _disposed;
+
         // ── Methods ──
         public void get_visualElement(){} // RVA: 0xB5DBF0
         public void set_visualElement(){} // RVA: 0xB44D60
@@ -80,6 +99,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MeshGenerationNode : ValueType
     {
+        public object m_UnsafeNode;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x80A98A0
         public void GetParentEntry(){} // RVA: 0x9A9CA0
@@ -87,6 +108,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MeshGenerationNodeImpl : Object
     {
+        public object m_SelfHandle;
+        public object m_ParentEntry;
+        public object m_EntryRecorder;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80A9BF0
         public void Init(){} // RVA: 0x80A9C30
@@ -103,6 +129,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MeshGenerationNodeManager : Object
     {
+        public object m_Nodes;
+        public object m_UsedCounter;
+        public object m_EntryRecorder;
+        public object _disposed;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80AA250
         public void CreateNode(){} // RVA: 0x80AA3F0
@@ -116,12 +147,40 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MeshWriteData : Object
     {
+        public object m_Vertices;
+        public object m_Indices;
+        public object currentIndex;
+        public object currentVertex;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class MinMaxSlider : BaseField`1
     {
+        public object minValueProperty;
+        public object maxValueProperty;
+        public object rangeProperty;
+        public object lowLimitProperty;
+        public object highLimitProperty;
+        public object _dragElement;
+        public object _dragMinThumb;
+        public object _dragMaxThumb;
+        public object _clampedDragger;
+        public object m_DragElementStartPos;
+        public object m_ValueStartPos;
+        public object m_DragState;
+        public object m_MinLimit;
+        public object m_MaxLimit;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object trackerUssClassName;
+        public object draggerUssClassName;
+        public object minThumbUssClassName;
+        public object maxThumbUssClassName;
+        public object movableUssClassName;
+
         // ── Methods ──
         public void get_dragElement(){} // RVA: 0x166DF20
         public void set_dragElement(){} // RVA: 0x1649450
@@ -240,6 +299,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x87C130
         public void set_modifiers(){} // RVA: 0x8944F0
@@ -274,6 +343,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -308,6 +387,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -342,6 +431,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -376,6 +475,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -410,6 +519,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -444,6 +563,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -478,6 +607,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -512,6 +651,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -546,6 +695,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -580,6 +739,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -614,6 +783,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -648,6 +827,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseEventBase`1 : EventBase`1
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _mouseDelta;
+        public object _clickCount;
+        public object _button;
+        public object _pressedButtons;
+        public object _triggeredByOS;
+        public object _sourcePointerEvent;
+
         // ── Methods ──
         public void get_modifiers(){} // RVA: 0x2536460
         public void set_modifiers(){} // RVA: 0x25406E0
@@ -711,6 +900,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MouseManipulator : Manipulator
     {
+        public object _activators;
+
         // ── Methods ──
         public void get_activators(){} // RVA: 0xB465B0
         public void set_activators(){} // RVA: 0xBA9BA0
@@ -758,6 +949,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnController : Object
     {
+        public object k_BoundColumnVePropertyName;
+        public object bindableElementPropertyName;
+        public object baseUssClassName;
+        public object k_HeaderContainerViewDataKey;
+        public object headerContainerUssClassName;
+        public object rowContainerUssClassName;
+        public object cellUssClassName;
+        public object cellLabelUssClassName;
+        public object k_HeaderViewDataKey;
+        public object columnSortingChanged;
+        public object headerContextMenuPopulateEvent;
+        public object m_SortedToSourceIndex;
+        public object m_SourceToSortedIndex;
+        public object m_SortingMode;
+        public object m_View;
+        public object m_HeaderContainer;
+        public object m_MultiColumnHeader;
+
         // ── Methods ──
         public void add_columnSortingChanged(){} // RVA: 0x8005540
         public void remove_columnSortingChanged(){} // RVA: 0x8005630
@@ -801,6 +1010,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnListView : BaseListView
     {
+        public object columnsProperty;
+        public object sortColumnDescriptionsProperty;
+        public object sortingModeProperty;
+        public object m_Columns;
+        public object m_SortingMode;
+        public object m_SortColumnDescriptions;
+        public object m_SortedColumns;
+        public object columnSortingChanged;
+        public object headerContextMenuPopulateEvent;
+
         // ── Methods ──
         public void get_viewController(){} // RVA: 0x8009FE0
         public void get_columns(){} // RVA: 0x164ECC0
@@ -821,6 +1040,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnListViewController : BaseListViewController
     {
+        public object m_ColumnController;
+
         // ── Methods ──
         public void get_columnController(){} // RVA: 0xBBF8F0
         public void .ctor(){} // RVA: 0x7E8BE40
@@ -842,6 +1063,16 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnTreeView : BaseTreeView
     {
+        public object columnsProperty;
+        public object sortColumnDescriptionsProperty;
+        public object sortingModeProperty;
+        public object m_Columns;
+        public object m_SortingMode;
+        public object m_SortColumnDescriptions;
+        public object m_SortedColumns;
+        public object columnSortingChanged;
+        public object headerContextMenuPopulateEvent;
+
         // ── Methods ──
         public void get_viewController(){} // RVA: 0x800B750
         public void get_columns(){} // RVA: 0x16535F0
@@ -862,6 +1093,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class MultiColumnTreeViewController : BaseTreeViewController
     {
+        public object m_ColumnController;
+
         // ── Methods ──
         public void get_columnController(){} // RVA: 0xBBFF90
         public void .ctor(){} // RVA: 0x7E8C950

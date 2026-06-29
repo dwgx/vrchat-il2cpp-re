@@ -7,6 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Joystick : InputDevice
     {
+        public object _trigger;
+        public object _stick;
+        public object _twist;
+        public object _hatswitch;
+        public object _current;
+        public object s_JoystickCount;
+        public object s_Joysticks;
+
         // ── Methods ──
         public void get_trigger(){} // RVA: 0x13659D0
         public void set_trigger(){} // RVA: 0x166D270

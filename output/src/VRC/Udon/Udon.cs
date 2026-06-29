@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon
-// Classes: 34
-// Methods: 819
+// Classes: 39
+// Methods: 901
 
 namespace VRC.Udon
 {
@@ -19,6 +19,8 @@ namespace VRC.Udon
 
     public class AbstractUdonBehaviourEventProxy : MonoBehaviour
     {
+        public object _eventReceiver;
+
         // ── Methods ──
         public void get_EventReceiver(){} // RVA: 0xB700F0
         public void set_EventReceiver(){} // RVA: 0xB70100
@@ -134,6 +136,47 @@ namespace VRC.Udon
 
     public class UdonBehaviour : AbstractUdonBehaviour
     {
+        public object publicVariables;
+        public object SynchronizePosition;
+        public object SynchronizeAnimation;
+        public object AllowCollisionOwnershipTransfer;
+        public object Reliable;
+        public object _syncMethod;
+        public object serializedProgramAsset;
+        public object _onInit;
+        public object _requestSerializationHook;
+        public object _disableInteractive;
+        public object ReturnVariableName;
+        public object _disableEventProcessing;
+        public object _componentIndexFixed;
+        public object _udonManager;
+        public object _program;
+        public object _udonVM;
+        public object _isReady;
+        public object _categoryName;
+        public object _hasError;
+        public object _hasDoneStart;
+        public object _initialized;
+        public object _isNetworkingSupported;
+        public object _hasInteractiveEvents;
+        public object _hasUpdateEvent;
+        public object _hasLateUpdateEvent;
+        public object _hasFixedUpdateEvent;
+        public object _hasPostLateUpdateEvent;
+        public object _eventTable;
+        public object _symbolNameCache;
+        public object _managedUpdateProfilerMarker;
+        public object _managedLateUpdateProfilerMarker;
+        public object _managedFixedUpdateProfilerMarker;
+        public object _postLateUpdateProfilerMarker;
+        public object _variableToChangeEvent;
+        public object _eventProxies;
+        public object serializedPublicVariablesBytesString;
+        public object publicVariablesUnityEngineObjects;
+        public object publicVariablesSerializationDataFormat;
+        public object _preloadUdonProgramProfilerMarker;
+        public object _initializeUdonContentProfilerMarker;
+
         // ── Methods ──
         public void get_SyncMethod(){} // RVA: 0x833E280
         public void set_SyncMethod(){} // RVA: 0x833E2A0
@@ -258,32 +301,6 @@ namespace VRC.Udon
         public void .cctor(){} // RVA: 0x8349990
     }
 
-    /// <summary>Originally: ÎÏÍÌÎÍÎÎÎÎÎÎÏÏÍÏÏÌÏÎÍÍÌ</summary>
-    public class UdonBehaviourResultBytes_7ED1 : Object
-    {
-        // ── Methods ──
-        public void set_Result(){} // RVA: 0xB9E090
-        public void get_Result(){} // RVA: 0xEE26C0
-        public void Equals(){} // RVA: 0xB70100
-        public void op_Implicit(){} // RVA: 0xEE2770
-        public void CompareBaseObjects(){} // RVA: 0xD09D70
-        public void IsNativeObjectAlive(){} // RVA: 0xD09D70
-        public void set_UdonBehaviour(){} // RVA: 0xEE27E0
-        public void get_UdonBehaviour(){} // RVA: 0xBC1B30
-        public void set_name(){} // RVA: 0xB6A8C0
-        public void Instantiate(){} // RVA: 0xB44DC0
-        public void Destroy(){} // RVA: 0xB44DC0
-        public void CancelDownload(){} // RVA: 0xEE2770
-        public void StartDownload(){} // RVA: 0xEE2A00
-        public void get_ErrorCode(){} // RVA: 0xB9E080
-        public void set_ErrorCode(){} // RVA: 0xEE2E00
-        public void set_ResultBytes(){} // RVA: 0xEE3020
-        public void get_ResultBytes(){} // RVA: 0xB700F0
-        public void get_Url(){} // RVA: 0xD05CA0
-        public void get_Error(){} // RVA: 0xB70160
-        public void .ctor(){} // RVA: 0xEE34A0
-    }
-
     public class UdonBehaviour[] : Array
     {
         // ── Methods ──
@@ -307,6 +324,13 @@ namespace VRC.Udon
     /// <summary>Originally: ÏÏÏÌÌÍÍÏÌÎÎÎÎÎÏÎÏÍÎÌÌÎÏ</summary>
     public class UdonClientStringDownloaderSibling_9BAC : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_06B;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xD6C620
         public void Equals(){} // RVA: 0xD6CDB0
@@ -325,6 +349,17 @@ namespace VRC.Udon
     /// <summary>Originally: ÍÎÌÏÎÎÏÎÍÎÌÍÏÏÍÎÌÏÏÏÎÏÌ</summary>
     public class UdonDisableEventProcessing_6F62 : AbstractUdonBehaviour
     {
+        public object f_89F;
+        public object f_71F;
+        public object f_FBC;
+        public object f_489;
+        public object f_1C1;
+        public object f_913;
+        public object _disableEventProcessing;
+        public object _syncMethod;
+        public object _interactionText;
+        public object f_9A5;
+
         // ── Methods ──
         public void Interact(){} // RVA: 0xB43310
         public void RunEventAdvanced(){} // RVA: 0xEEA6D0
@@ -370,6 +405,72 @@ namespace VRC.Udon
 
     public class UdonManager : MonoBehaviour
     {
+        public object OnUdonProgramLoaded;
+        public object OnUdonReady;
+        public object currentlyExecuting;
+        public object _hasLoaded;
+        public object _instance;
+        public object _udonBehaviourUpdateOrderComparer;
+        public object _isUdonEnabled;
+        public object _isRunningEvent;
+        public object _sceneUdonBehaviourDirectories;
+        public object _udonBehavioursToRegister;
+        public object _udonRunProgramDepth;
+        public object _updateUdonBehaviours;
+        public object _lateUpdateUdonBehaviours;
+        public object _fixedUpdateUdonBehaviours;
+        public object _postLateUpdateUdonBehaviours;
+        public object _updateUdonBehavioursRegistrationQueue;
+        public object _lateUpdateUdonBehavioursRegistrationQueue;
+        public object _fixedUpdateUdonBehavioursRegistrationQueue;
+        public object _postLateUpdateUdonBehavioursRegistrationQueue;
+        public object _postLateUpdater;
+        public object _inputUdonBehaviours;
+        public object _inputUpdateUdonBehavioursRegistrationQueue;
+        public object UDON_EVENT_ONPLAYERRESPAWN;
+        public object UDON_EVENT_ONPLAYERDATAUPDATED;
+        public object UDON_EVENT_ONPLAYERRESTORED;
+        public object UDON_EVENT_ONINSTANCERESTORED;
+        public object UDON_EVENT_ONDESERIALIZATION;
+        public object UDON_EVENT_ONSCREENUPDATE;
+        public object UDON_MAX_RUNPROGRAM_DEPTH;
+        public object UDON_EVENT_ONPOSTSERIALIZATION;
+        public object UDON_EVENT_ONPRESERIALIZATION;
+        public object UDON_EVENT_ONPERSISTENCEUSAGEUPDATED;
+        public object UDON_EVENT_ONPLAYERDATASTORAGEEXCEEDED;
+        public object UDON_EVENT_ONPLAYERDATASTORAGEWARNING;
+        public object UDON_EVENT_ONPLAYEROBJECTSTORAGEEXCEEDED;
+        public object UDON_EVENT_ONPLAYEROBJECTSTORAGEWARNING;
+        public object UDON_EVENT_ONINSTANCESTORAGEEXCEEDED;
+        public object UDON_EVENT_ONINSTANCESTORAGEWARNING;
+        public object _inputActionNames;
+        public object UDON_INPUT_JUMP;
+        public object UDON_INPUT_USE;
+        public object UDON_INPUT_GRAB;
+        public object UDON_INPUT_DROP;
+        public object UDON_MOVE_VERTICAL;
+        public object UDON_MOVE_HORIZONTAL;
+        public object UDON_LOOK_VERTICAL;
+        public object UDON_LOOK_HORIZONTAL;
+        public object UDON_EVENT_ONINPUTMETHODCHANGED;
+        public object UDON_EVENT_ONLANGUAGECHANGED;
+        public object UDON_EVENT_ONVRCPLUSMASSGIFT;
+        public object _udonTimeSource;
+        public object _blacklist;
+        public object _udonClientInterface;
+        public object _udonEventScheduler;
+        public object _signatureVerificationFailed;
+        public object _signatureVerificationSuccess;
+        public object _signatureVerificationSkipped;
+        public object _worldSignatureVerificationEnabled;
+        public object _signatureVerificationKey;
+        public object _verificationCache;
+        public object _triggerEventConsumers;
+        public object _preloadProfilerMarker;
+        public object _initializeProfilerMarker;
+        public object _isSceneLoading;
+        public object UdonBehavioursInScene;
+
         // ── Methods ──
         public void add_OnUdonProgramLoaded(){} // RVA: 0x8349BA0
         public void remove_OnUdonProgramLoaded(){} // RVA: 0x8349D00
@@ -443,24 +544,254 @@ namespace VRC.Udon
         public void <OnSceneLoaded>b__102_0(){} // RVA: 0x83538A0
     }
 
-    /// <summary>Originally: ÏÎÌÌÏÏÌÎÌÏÎÏÎÎÏÌÎÏÎÍÏÎÌ</summary>
-    public class UdonOperationResponsImpl_3634 : UdonOperationResponseDisconnecSibling_36BD
+    /// <summary>Originally: ÍÍÍÎÎÍÏÎÏÌÌÍÏÌÏÌÍÌÍÍÎÏÌ</summary>
+    public class UdonOperationResponseStatusChanged_B71F : Udonk__BackingField_1EC0
+    {
+        public object f_13C;
+        public object f_6AA;
+        public object f_C7A;
+        public object f_A55;
+        public object f_4E1;
+
+        // ── Methods ──
+        public void OnStatusChanged(){} // RVA: 0x1672950
+        public void OnEvent(){} // RVA: 0x16732B0
+        public void .ctor(){} // RVA: 0x1673D10
+        public void Initialize(){} // RVA: 0x16740B0
+        public void OnOperationResponse(){} // RVA: 0x1674BD0
+        // ── 11 unresolved (hash) ──
+        public void m_626(){} // RVA: 0x16728C0
+        public void m_791(){} // RVA: 0x1672940
+        public void m_EBD(){} // RVA: 0x1672B00
+        public void m_DDF(){} // RVA: 0x1672940
+        public void m_DA9(){} // RVA: 0x1672940
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÍÏÍÍÎÌÍÍÌÍÏÏÏÍÌÏÌÎÎÍÍ</summary>
+    public class UdonUnregisterEventHandlerRegisterEventHandl_B974 : VRC_EventDispatcher
+    {
+        public object f_475;
+        public object f_065;
+        public object f_AC0;
+        public object f_337;
+        public object f_C99;
+        public object f_AC4;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x1C7DB00
+        public void FindGameObject(){} // RVA: 0x1C7FB80
+        public void OnDestroy(){} // RVA: 0x1C7FBE0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1C81450
+        public void GetGameObjectPath(){} // RVA: 0x1C830F0
+        public void RegisterEventHandler(){} // RVA: 0x1C83140
+        public void UnregisterEventHandler(){} // RVA: 0x1C85980
+        public void Awake(){} // RVA: 0x1C86EF0
+        public void TriggerEvent(){} // RVA: 0x1C88AB0
+        // ── 44 unresolved (hash) ──
+        public void m_65C(){} // RVA: 0x1C7D4A0
+        public void m_313(){} // RVA: 0x1C7D500
+        public void m_BF1(){} // RVA: 0x1C7D520
+        public void m_362(){} // RVA: 0x1C7D8D0
+        public void m_CD7(){} // RVA: 0x1C7E420
+        // ... 39 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÌÌÎÍÌÍÎÎÎÎÎÌÏÍÎÏÎÌÍÍÎ</summary>
+    public class UdoneventHighlightTransformfollowingCountComponent_A8AD : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object _date;
+        public object _followingCount;
+        public object _featuredCount;
+        public object _groupsCount;
+        public object _eventHighlight;
+        public object _eventHighlightTransform;
+        public object _dateHighlight;
+        public object _badge;
+        public object _border;
+        public object _tooltip;
+        public object f_900;
+        public object f_BC1;
+        public object f_D08;
+        public object f_88E;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9A93870
+        public void RaiseCancellation(){} // RVA: 0x9A938E0
+        public void IsInvoking(){} // RVA: 0x9A93970
+        public void CancelInvoke(){} // RVA: 0x9A93D70
+        public void Invoke(){} // RVA: 0x9A93DE0
+        public void InvokeRepeating(){} // RVA: 0x9A94100
+        public void StartCoroutine(){} // RVA: 0x9A942A0
+        public void Start(){} // RVA: 0x9A94D60
+        public void StopCoroutine(){} // RVA: 0x9A95010
+        public void StopAllCoroutines(){} // RVA: 0x9A950A0
+        public void get_useGUILayout(){} // RVA: 0x9A954D0
+        public void set_useGUILayout(){} // RVA: 0x9A957F0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9A95860
+        public void print(){} // RVA: 0x9A958D0
+    }
+
+    /// <summary>Originally: ÎÎÎÌÎÎÏÎÎÏÏÍÏÏÎÎÎÌÎÎÌÍÏ</summary>
+    public class UdoneventListBindingeventCellPSibling_D347
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x17107B0
-        public void Initialize(){} // RVA: 0x17107C0
+        public void IndexOf(){} // RVA: 0x894320
+        // ── Unresolved (hash) ──
+        public void m_CF6(){} // RVA: 0x894320
+        public void m_99C(){} // RVA: 0x894320
+        public void m_DC9(){} // RVA: 0x894320
+        public void m_802(){} // RVA: 0x894320
+        public void m_92D(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÏÎÏÏÍÍÍÏÍÎÏÍÍÎÏÎÎÌÎÏÍÌÍ</summary>
+    public class UdoneventListBindingeventCellPrefabComponent_75B9 : MonoBehaviour
+    {
+        public object _nameText;
+        public object _eventCellPrefab;
+        public object _eventListBinding;
+        public object f_4AD;
+        public object f_E75;
+        public object f_BA4;
+        public object f_90A;
+        public object f_589;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x99CDB60
+        public void RaiseCancellation(){} // RVA: 0x99CDE70
+        public void IsInvoking(){} // RVA: 0x99CE0F0
+        public void CancelInvoke(){} // RVA: 0xB70160
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x99CE200
+        public void StartCoroutine(){} // RVA: 0x99CE310
+        public void StartCoroutine_Auto(){} // RVA: 0x99CE590
+        public void StopCoroutine(){} // RVA: 0x8004CA0
+        public void StopAllCoroutines(){} // RVA: 0x99CE800
+        public void get_useGUILayout(){} // RVA: 0x99CEA80
+        public void set_useGUILayout(){} // RVA: 0x8004CA0
+        public void get_didStart(){} // RVA: 0x99CEB90
+        public void get_didAwake(){} // RVA: 0x99CED00
+        public void Awake(){} // RVA: 0x99CEE10
+        public void OnDestroy(){} // RVA: 0x8004CA0
+        public void Internal_IsInvokingAll(){} // RVA: 0x99CF010
+        public void InvokeDelayed(){} // RVA: 0x99CF140
+        public void IsObjectMonoBehaviour(){} // RVA: 0x99CF250
+        public void StartCoroutineManaged(){} // RVA: 0x99CF4E0
+        public void StartCoroutineManaged2(){} // RVA: 0x99CF7E0
+        public void StopCoroutineManaged(){} // RVA: 0x99CF8F0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x99CFA00
+    }
+
+    /// <summary>Originally: ÍÏÏÏÏÍÍÏÎÍÎÏÌÏÌÌÌÌÏÌÍÌÌ</summary>
+    public class UdonfillGraphicminWidthComponent_7ED6 : MonoBehaviour
+    {
+        public object minWidth;
+        public object text;
+        public object fill;
+        public object fillGraphic;
+        public object f_4C7;
+        public object f_B5C;
+        public object f_4B9;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0xB43310
+        public void RaiseCancellation(){} // RVA: 0x11E0310
+        public void IsInvoking(){} // RVA: 0x11E0620
+        public void CancelInvoke(){} // RVA: 0x11E0710
+        public void .cctor(){} // RVA: 0x11E0800
+        public void InvokeRepeating(){} // RVA: 0x11E0850
+        public void OnDestroy(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0x11E08E0
+        public void LateUpdate(){} // RVA: 0x11E09E0
+        public void StopAllCoroutines(){} // RVA: 0x11E0D00
+        public void Start(){} // RVA: 0x11E0D40
+        public void set_useGUILayout(){} // RVA: 0x11E0E20
+        public void get_didStart(){} // RVA: 0x11E0D00
+        public void get_didAwake(){} // RVA: 0xB43310
+        public void print(){} // RVA: 0x11E0E70
+        public void Internal_CancelInvokeAll(){} // RVA: 0x11E1180
+    }
+
+    /// <summary>Originally: ÏÍÌÌÏÍÏÏÌÏÏÍÍÎÍÌÍÏÏÍÌÎÍ</summary>
+    public class Udonk__BackingFieldComponent_4F71 : MonoBehaviour
+    {
+        public object _eventList;
+        public object _headerPrefab;
+        public object _noEventsPanel;
+        public object _noEventsText;
+        public object _iconBinding;
+        public object _loadingOverlay;
+        public object f_5A3;
+        public object f_89B;
+        public object f_920;
+        public object f_D55;
+        public object f_B58;
+        public object f_5AC;
+        public object f_C1B;
+        public object f_5A3;
+        public object f_AE2;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x97CB9E0
+        public void RaiseCancellation(){} // RVA: 0x97CBAB0
+        public void IsInvoking(){} // RVA: 0xCD48B0
+        public void Start(){} // RVA: 0x97CBBA0
+        public void Invoke(){} // RVA: 0x97CBCA0
+        public void InvokeRepeating(){} // RVA: 0xBBFF90
+        public void StartCoroutine(){} // RVA: 0x1C556E0
+        public void StartCoroutine_Auto(){} // RVA: 0x1165710
+        public void StopCoroutine(){} // RVA: 0x97CBCE0
+        public void StopAllCoroutines(){} // RVA: 0x97CBDB0
+        public void get_useGUILayout(){} // RVA: 0xC10050
+        public void set_useGUILayout(){} // RVA: 0x114DE40
+        public void get_didStart(){} // RVA: 0x97CBEA0
+        public void .ctor(){} // RVA: 0x97CBFA0
+        public void Initialize(){} // RVA: 0xB70160
+        public void Internal_CancelInvokeAll(){} // RVA: 0xBBFF90
+        public void Internal_IsInvokingAll(){} // RVA: 0x97CC0C0
+        public void InvokeDelayed(){} // RVA: 0x97CBCA0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x97CC1B0
+        public void StartCoroutineManaged(){} // RVA: 0x1C4D0B0
+        public void StartCoroutineManaged2(){} // RVA: 0x97CC2A0
+        public void StopCoroutineManaged(){} // RVA: 0x97CC550
     }
 
     /// <summary>Originally: ÎÌÎÏÌÏÌÏÌÏÎÍÍÎÏÍÌÎÍÌÌÍÌ</summary>
-    public class UdonOperationResponsImpl_DA81 : UdonOperationResponseDisconnectMessage_1EC0
+    public class Udonk__BackingFieldImpl_DA81 : Udonk__BackingField_1EC0
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x23E22B0
     }
 
-    /// <summary>Originally: ÏÎÎÏÌÌÍÎÎÍÌÍÌÍÏÌÎÎÌÍÌÏÍ</summary>
-    public class UdonOperationResponseDisconnecSibling_36BD : UdonOperationResponseDisconnecSibling_735C
+    /// <summary>Originally: ÏÎÌÌÏÏÌÎÌÏÎÏÎÎÏÌÎÏÎÍÏÎÌ</summary>
+    public class Udonk__BackingFieldSImpl_3634 : Udonk__BackingFieldSiblingSiblSibling_36BD
     {
+        public object f_CF6;
+        public object f_23B;
+        public object f_473;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x17107B0
+        public void Initialize(){} // RVA: 0x17107C0
+    }
+
+    /// <summary>Originally: ÏÎÎÏÌÌÍÎÎÍÌÍÌÍÏÌÎÎÌÍÌÏÍ</summary>
+    public class Udonk__BackingFieldSiblingSiblSibling_36BD : Udonk__BackingFieldSiblingSibling_735C
+    {
+        public object f_A94;
+        public object f_23E;
+        public object f_7A2;
+        public object f_501;
+        public object f_291;
+        public object f_2AC;
+        public object f_7B2;
+        public object f_6D3;
+        public object f_6FC;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x23E02E0
         public void .ctor(){} // RVA: 0x23E0760
@@ -474,51 +805,24 @@ namespace VRC.Udon
         // ... 50 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÌÍÌÎÎÏÏÌÌÍÍÌÍÌÎÎÌÍÏÎÎ</summary>
-    public class UdonOperationResponseDisconnecSibling_454E : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x93050
-        public void InternalEquals(){} // RVA: 0x7E450
-        public void DefaultEquals(){} // RVA: 0x77D20
-        public void GetHashCode(){} // RVA: 0x77CF0
-        public void InternalGetHashCode(){} // RVA: 0x93050
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x8C630
-        public void x(){} // RVA: 0x14790
-        // ── 13 unresolved (hash) ──
-        public void m_D64(){} // RVA: 0x8C670
-        public void m_ECD(){} // RVA: 0x931A0
-        public void m_BE8(){} // RVA: 0x7E450
-        public void m_0AD(){} // RVA: 0x92DD0
-        public void m_A2B(){} // RVA: 0x92DE0
-        // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÏÏÍÍÍÍÍÌÍÍÎÎÍÍÎÏÍÌÏÌÏ</summary>
-    public class UdonOperationResponseDisconnecSibling_4E83 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB700F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0xB8F8F0
-        public void op_Implicit(){} // RVA: 0xBA9BA0
-        public void CompareBaseObjects(){} // RVA: 0xB8F8F0
-        public void IsNativeObjectAlive(){} // RVA: 0x2624220
-        public void GetCachedPtr(){} // RVA: 0xB8F8F0
-        public void get_name(){} // RVA: 0xB70160
-        public void set_name(){} // RVA: 0xB70100
-        public void Instantiate(){} // RVA: 0xB44DC0
-        public void Destroy(){} // RVA: 0xB465B0
-        public void DestroyImmediate(){} // RVA: 0xBA9BA0
-        public void FindObjectsOfType(){} // RVA: 0xB460A0
-        public void FindObjectsByType(){} // RVA: 0xB70100
-        public void DontDestroyOnLoad(){} // RVA: 0xB700F0
-    }
-
     /// <summary>Originally: ÏÏÏÎÌÎÌÌÎÏÍÏÎÌÏÎÎÌÍÌÎÍÍ</summary>
-    public class UdonOperationResponseDisconnecSibling_66E0 : Object
+    public class Udonk__BackingFieldSiblingSiblSibling_66E0 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_883;
+        public object f_53C;
+        public object f_DB2;
+        public object f_4E3;
+        public object f_291;
+        public object f_2AC;
+        public object f_7B2;
+        public object f_6D3;
+        public object f_E32;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xEEA000
         public void Equals(){} // RVA: 0x23E2270
@@ -544,36 +848,8 @@ namespace VRC.Udon
         public void op_Equality(){} // RVA: 0x23E2280
     }
 
-    /// <summary>Originally: ÌÎÏÎÍÌÎÍÍÏÎÎÏÌÍÎÏÎÎÌÍÍÌ</summary>
-    public class UdonOperationResponseDisconnecSibling_735C : Object
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x23E0D60
-        public void op_Implicit(){} // RVA: 0x12BB640
-        public void CompareBaseObjects(){} // RVA: 0xFEAE90
-        public void IsNativeObjectAlive(){} // RVA: 0xFEAE90
-        public void GetCachedPtr(){} // RVA: 0x12BB630
-        public void get_name(){} // RVA: 0x12BB630
-        public void set_name(){} // RVA: 0xBC1B30
-        public void Instantiate(){} // RVA: 0x23E12F0
-        public void Destroy(){} // RVA: 0x23E1610
-        public void .ctor(){} // RVA: 0x23E1930
-        public void Initialize(){} // RVA: 0xD16660
-        public void FindObjectsByType(){} // RVA: 0xFEAE90
-        public void DontDestroyOnLoad(){} // RVA: 0xB465B0
-        public void get_hideFlags(){} // RVA: 0xD16660
-        public void set_hideFlags(){} // RVA: 0x23E1A60
-        public void ToString(){} // RVA: 0x23E1F20
-        public void FindFirstObjectByType(){} // RVA: 0xFEAE90
-        public void GetHashCode(){} // RVA: 0x23E2240
-        // ── Unresolved (hash) ──
-        public void m_C5A(){} // RVA: 0x23E0E30
-        public void m_77F(){} // RVA: 0x12BB640
-        public void m_B5E(){} // RVA: 0xD15320
-    }
-
     /// <summary>Originally: ÍÍÏÏÌÍÍÎÍÍÍÏÍÌÎÎÎÎÌÍÎÌÎ</summary>
-    public class UdonOperationResponseDisconnecSibling_8C4D
+    public class Udonk__BackingFieldSiblingSiblSibling_8C4D
     {
         // ── Unresolved (hash) ──
         public void m_73D(){} // RVA: 0x87C160
@@ -586,8 +862,21 @@ namespace VRC.Udon
     }
 
     /// <summary>Originally: ÎÎÏÌÍÌÌÍÏÎÎÎÌÍÎÏÌÍÎÌÎÌÍ</summary>
-    public class UdonOperationResponseDisconnecSibling_9C43 : Object
+    public class Udonk__BackingFieldSiblingSiblSibling_9C43 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_03E;
+        public object f_09E;
+        public object f_257;
+        public object f_6E5;
+        public object f_812;
+        public object f_3C0;
+        public object f_6AF;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x24C9820
         public void Equals(){} // RVA: 0x24C01C0
@@ -648,9 +937,165 @@ namespace VRC.Udon
         public void m_85A(){} // RVA: 0x24C9DE0
     }
 
-    /// <summary>Originally: ÎÌÌÌÎÎÍÏÎÌÌÍÍÏÍÍÏÏÌÎÏÌÍ</summary>
-    public class UdonOperationResponseDisconnecSibling_B262 : Object
+    /// <summary>Originally: ÏÌÏÍÎÌÌÍÌÌÍÌÎÎÏÌÏÏÎÌÌÎÍ</summary>
+    public class Udonk__BackingFieldSiblingSiblSibling_B489 : ValueType
     {
+        public object f_983;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x29580
+        public void InternalEquals(){} // RVA: 0x29580
+        public void DefaultEquals(){} // RVA: 0x77E60
+        public void GetHashCode(){} // RVA: 0x29580
+        public void InternalGetHashCode(){} // RVA: 0x29580
+        public void ToString(){} // RVA: 0x77E60
+        public void GetHashCodeOfPtr(){} // RVA: 0x77E60
+        public void x(){} // RVA: 0x29580
+        // ── Unresolved (hash) ──
+        public void m_217(){} // RVA: 0x29580
+        public void m_8D7(){} // RVA: 0x77E60
+    }
+
+    /// <summary>Originally: ÌÎÏÎÍÌÎÍÍÏÎÎÏÌÍÎÏÎÎÌÍÍÌ</summary>
+    public class Udonk__BackingFieldSiblingSibling_735C : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_26E;
+        public object f_21F;
+        public object f_E5D;
+        public object f_957;
+        public object f_150;
+        public object f_319;
+        public object f_C6D;
+        public object f_3DE;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x23E0D60
+        public void op_Implicit(){} // RVA: 0x12BB640
+        public void CompareBaseObjects(){} // RVA: 0xFEAE90
+        public void IsNativeObjectAlive(){} // RVA: 0xFEAE90
+        public void GetCachedPtr(){} // RVA: 0x12BB630
+        public void get_name(){} // RVA: 0x12BB630
+        public void set_name(){} // RVA: 0xBC1B30
+        public void Instantiate(){} // RVA: 0x23E12F0
+        public void Destroy(){} // RVA: 0x23E1610
+        public void .ctor(){} // RVA: 0x23E1930
+        public void Initialize(){} // RVA: 0xD16660
+        public void FindObjectsByType(){} // RVA: 0xFEAE90
+        public void DontDestroyOnLoad(){} // RVA: 0xB465B0
+        public void get_hideFlags(){} // RVA: 0xD16660
+        public void set_hideFlags(){} // RVA: 0x23E1A60
+        public void ToString(){} // RVA: 0x23E1F20
+        public void FindFirstObjectByType(){} // RVA: 0xFEAE90
+        public void GetHashCode(){} // RVA: 0x23E2240
+        // ── Unresolved (hash) ──
+        public void m_C5A(){} // RVA: 0x23E0E30
+        public void m_77F(){} // RVA: 0x12BB640
+        public void m_B5E(){} // RVA: 0xD15320
+    }
+
+    /// <summary>Originally: ÏÍÍÏÌÏÏÎÌÏÎÎÌÎÏÎÌÍÏÎÎÌÏ</summary>
+    public class Udonk__BackingFieldSiblingSibling_D2E8 : ValueType
+    {
+        public object f_B09;
+        public object f_0DB;
+        public object f_FBB;
+        public object f_198;
+        public object f_8D4;
+        public object f_9DF;
+        public object f_092;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x8C7F0
+        public void InternalEquals(){} // RVA: 0x8C630
+        public void DefaultEquals(){} // RVA: 0x92DD0
+        public void GetHashCode(){} // RVA: 0x8C700
+        public void InternalGetHashCode(){} // RVA: 0x92DF0
+        public void ToString(){} // RVA: 0x8C700
+        public void GetHashCodeOfPtr(){} // RVA: 0x93050
+        public void x(){} // RVA: 0x92DD0
+        // ── 13 unresolved (hash) ──
+        public void m_9C1(){} // RVA: 0x93120
+        public void m_E90(){} // RVA: 0x8C7E0
+        public void m_F55(){} // RVA: 0x77900
+        public void m_50E(){} // RVA: 0x8C670
+        public void m_935(){} // RVA: 0x93050
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÌÍÌÎÎÏÏÌÌÍÍÌÍÌÎÎÌÍÏÎÎ</summary>
+    public class Udonk__BackingFieldSibling_454E : ValueType
+    {
+        public object f_37A;
+        public object f_0DB;
+        public object f_FBB;
+        public object f_8D4;
+        public object f_9DF;
+        public object f_5BB;
+        public object f_25D;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x93050
+        public void InternalEquals(){} // RVA: 0x7E450
+        public void DefaultEquals(){} // RVA: 0x77D20
+        public void GetHashCode(){} // RVA: 0x77CF0
+        public void InternalGetHashCode(){} // RVA: 0x93050
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x8C630
+        public void x(){} // RVA: 0x14790
+        // ── 13 unresolved (hash) ──
+        public void m_D64(){} // RVA: 0x8C670
+        public void m_ECD(){} // RVA: 0x931A0
+        public void m_BE8(){} // RVA: 0x7E450
+        public void m_0AD(){} // RVA: 0x92DD0
+        public void m_A2B(){} // RVA: 0x92DE0
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÌÏÏÍÍÍÍÍÌÍÍÎÎÍÍÎÏÍÌÏÌÏ</summary>
+    public class Udonk__BackingFieldSibling_4E83 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0xB8F8F0
+        public void op_Implicit(){} // RVA: 0xBA9BA0
+        public void CompareBaseObjects(){} // RVA: 0xB8F8F0
+        public void IsNativeObjectAlive(){} // RVA: 0x2624220
+        public void GetCachedPtr(){} // RVA: 0xB8F8F0
+        public void get_name(){} // RVA: 0xB70160
+        public void set_name(){} // RVA: 0xB70100
+        public void Instantiate(){} // RVA: 0xB44DC0
+        public void Destroy(){} // RVA: 0xB465B0
+        public void DestroyImmediate(){} // RVA: 0xBA9BA0
+        public void FindObjectsOfType(){} // RVA: 0xB460A0
+        public void FindObjectsByType(){} // RVA: 0xB70100
+        public void DontDestroyOnLoad(){} // RVA: 0xB700F0
+    }
+
+    /// <summary>Originally: ÎÌÌÌÎÎÍÏÎÌÌÍÍÏÍÍÏÏÌÎÏÌÍ</summary>
+    public class Udonk__BackingFieldSibling_B262 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_765;
+        public object f_5BB;
+        public object f_8AB;
+        public object f_822;
+        public object f_BE8;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xBBF900
         public void op_Implicit(){} // RVA: 0x21CBB70
@@ -688,47 +1133,60 @@ namespace VRC.Udon
         public void m_D56(){} // RVA: 0xC02480
     }
 
-    /// <summary>Originally: ÏÌÏÍÎÌÌÍÌÌÍÌÎÎÏÌÏÏÎÌÌÎÍ</summary>
-    public class UdonOperationResponseDisconnecSibling_B489 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x29580
-        public void InternalEquals(){} // RVA: 0x29580
-        public void DefaultEquals(){} // RVA: 0x77E60
-        public void GetHashCode(){} // RVA: 0x29580
-        public void InternalGetHashCode(){} // RVA: 0x29580
-        public void ToString(){} // RVA: 0x77E60
-        public void GetHashCodeOfPtr(){} // RVA: 0x77E60
-        public void x(){} // RVA: 0x29580
-        // ── Unresolved (hash) ──
-        public void m_217(){} // RVA: 0x29580
-        public void m_8D7(){} // RVA: 0x77E60
-    }
-
-    /// <summary>Originally: ÏÍÍÏÌÏÏÎÌÏÎÎÌÎÏÎÌÍÏÎÎÌÏ</summary>
-    public class UdonOperationResponseDisconnecSibling_D2E8 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x8C7F0
-        public void InternalEquals(){} // RVA: 0x8C630
-        public void DefaultEquals(){} // RVA: 0x92DD0
-        public void GetHashCode(){} // RVA: 0x8C700
-        public void InternalGetHashCode(){} // RVA: 0x92DF0
-        public void ToString(){} // RVA: 0x8C700
-        public void GetHashCodeOfPtr(){} // RVA: 0x93050
-        public void x(){} // RVA: 0x92DD0
-        // ── 13 unresolved (hash) ──
-        public void m_9C1(){} // RVA: 0x93120
-        public void m_E90(){} // RVA: 0x8C7E0
-        public void m_F55(){} // RVA: 0x77900
-        public void m_50E(){} // RVA: 0x8C670
-        public void m_935(){} // RVA: 0x93050
-        // ... 8 more unresolved methods
-    }
-
     /// <summary>Originally: ÍÏÎÍÌÌÌÍÎÏÎÏÍÏÏÏÎÏÍÌÍÎÏ</summary>
-    public class UdonOperationResponseDisconnectMessage_1EC0 : Object
+    public class Udonk__BackingField_1EC0 : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_D29;
+        public object f_0DB;
+        public object f_042;
+        public object f_44D;
+        public object f_C89;
+        public object f_DB2;
+        public object f_7D2;
+        public object f_F9C;
+        public object f_368;
+        public object f_46B;
+        public object f_CC6;
+        public object f_967;
+        public object f_5F7;
+        public object f_821;
+        public object f_407;
+        public object f_7F7;
+        public object f_381;
+        public object f_3DE;
+        public object f_123;
+        public object f_6C0;
+        public object f_EBC;
+        public object f_E39;
+        public object f_14F;
+        public object f_219;
+        public object f_744;
+        public object f_D8C;
+        public object f_BA8;
+        public object f_F81;
+        public object f_A8F;
+        public object f_656;
+        public object f_233;
+        public object f_8E1;
+        public object f_AE9;
+        public object f_727;
+        public object f_5F9;
+        public object f_55C;
+        public object f_224;
+        public object f_89A;
+        public object f_D1C;
+        public object f_D5F;
+        public object f_1A5;
+        public object f_2BB;
+        public object f_486;
+        public object f_734;
+        public object f_A89;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x23A40A0
         public void Equals(){} // RVA: 0x23A4120
@@ -792,45 +1250,41 @@ namespace VRC.Udon
         // ... 78 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÍÎÎÍÏÎÏÌÌÍÏÌÏÌÍÌÍÍÎÏÌ</summary>
-    public class UdonOperationResponseStatusChanged_B71F : UdonOperationResponseDisconnectMessage_1EC0
+    /// <summary>Originally: ÎÏÍÌÎÍÎÎÎÎÎÎÏÏÍÏÏÌÏÎÍÍÌ</summary>
+    public class Udonk__BackingField_7ED1 : Object
     {
-        // ── Methods ──
-        public void OnStatusChanged(){} // RVA: 0x1672950
-        public void OnEvent(){} // RVA: 0x16732B0
-        public void .ctor(){} // RVA: 0x1673D10
-        public void Initialize(){} // RVA: 0x16740B0
-        public void OnOperationResponse(){} // RVA: 0x1674BD0
-        // ── 11 unresolved (hash) ──
-        public void m_626(){} // RVA: 0x16728C0
-        public void m_791(){} // RVA: 0x1672940
-        public void m_EBD(){} // RVA: 0x1672B00
-        public void m_DDF(){} // RVA: 0x1672940
-        public void m_DA9(){} // RVA: 0x1672940
-        // ... 6 more unresolved methods
-    }
+        public object _result;
+        public object _udonBehaviour;
+        public object _errorCode;
+        public object _resultBytes;
+        public object _url;
+        public object f_A4D;
+        public object f_CF0;
+        public object f_043;
+        public object f_62D;
+        public object f_45B;
 
-    /// <summary>Originally: ÍÎÍÏÍÍÎÌÍÍÌÍÏÏÏÍÌÏÌÎÎÍÍ</summary>
-    public class UdonUnregisterEventHandlerRegisterEventHandl_B974 : VRC_EventDispatcher
-    {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x1C7DB00
-        public void FindGameObject(){} // RVA: 0x1C7FB80
-        public void OnDestroy(){} // RVA: 0x1C7FBE0
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Initialize(){} // RVA: 0x1C81450
-        public void GetGameObjectPath(){} // RVA: 0x1C830F0
-        public void RegisterEventHandler(){} // RVA: 0x1C83140
-        public void UnregisterEventHandler(){} // RVA: 0x1C85980
-        public void Awake(){} // RVA: 0x1C86EF0
-        public void TriggerEvent(){} // RVA: 0x1C88AB0
-        // ── 44 unresolved (hash) ──
-        public void m_65C(){} // RVA: 0x1C7D4A0
-        public void m_313(){} // RVA: 0x1C7D500
-        public void m_BF1(){} // RVA: 0x1C7D520
-        public void m_362(){} // RVA: 0x1C7D8D0
-        public void m_CD7(){} // RVA: 0x1C7E420
-        // ... 39 more unresolved methods
+        public void set_Result(){} // RVA: 0xB9E090
+        public void get_Result(){} // RVA: 0xEE26C0
+        public void Equals(){} // RVA: 0xB70100
+        public void op_Implicit(){} // RVA: 0xEE2770
+        public void CompareBaseObjects(){} // RVA: 0xD09D70
+        public void IsNativeObjectAlive(){} // RVA: 0xD09D70
+        public void set_UdonBehaviour(){} // RVA: 0xEE27E0
+        public void get_UdonBehaviour(){} // RVA: 0xBC1B30
+        public void set_name(){} // RVA: 0xB6A8C0
+        public void Instantiate(){} // RVA: 0xB44DC0
+        public void Destroy(){} // RVA: 0xB44DC0
+        public void CancelDownload(){} // RVA: 0xEE2770
+        public void StartDownload(){} // RVA: 0xEE2A00
+        public void get_ErrorCode(){} // RVA: 0xB9E080
+        public void set_ErrorCode(){} // RVA: 0xEE2E00
+        public void set_ResultBytes(){} // RVA: 0xEE3020
+        public void get_ResultBytes(){} // RVA: 0xB700F0
+        public void get_Url(){} // RVA: 0xD05CA0
+        public void get_Error(){} // RVA: 0xB70160
+        public void .ctor(){} // RVA: 0xEE34A0
     }
 
 }

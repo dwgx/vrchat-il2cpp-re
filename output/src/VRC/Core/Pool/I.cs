@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Pool
-// Classes: 56
-// Methods: 168
+// Classes: 55
+// Methods: 165
 
 namespace VRC.Core.Pool
 {
@@ -11,14 +11,6 @@ namespace VRC.Core.Pool
         public void Clear(){} // RVA: 0x894290
         public void Get(){} // RVA: 0xA94080
         public void Release(){} // RVA: 0xA94080
-    }
-
-    public class IObjectPool`1
-    {
-        // ── Methods ──
-        public void Release(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Get(){} // RVA: 0xA94080
     }
 
     public class IObjectPool`1

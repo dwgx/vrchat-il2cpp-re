@@ -8,6 +8,11 @@ namespace VRC.Internal.Async
     /// <summary>Originally: ÏÍÏÍÏÍÌÏÌÌÏÍÏÏÌÍÏÏÎÎÍÍÏ</summary>
     public class MachineStateBaseAsyncStateMachine_D35E : ValueType
     {
+        public object f_51E;
+        public object f_B9D;
+        public object f_286;
+        public object f_F78;
+
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x3FC0
         public void InternalEquals(){} // RVA: 0x3FC0

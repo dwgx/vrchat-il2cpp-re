@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class ObjectPool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -34,6 +36,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 
     public class ObjectPoolT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60

@@ -7,6 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class DataBinding : Binding
     {
+        public object s_UpdateUIMethodInfo;
+        public object m_BindingMode;
+        public object m_SourceToUiConverters;
+        public object m_UiToSourceConverters;
+        public object _dataSource;
+        public object _dataSourceType;
+        public object _dataSourcePath;
+
         // ── Methods ──
         public void get_updateUIMethod(){} // RVA: 0x7E6B940
         public void CacheReflectionInfo(){} // RVA: 0x7E6B9F0
@@ -29,6 +37,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DataBindingManager : Object
     {
+        public object m_BindingDataLocalPool;
+        public object k_RequestBindingPropertyName;
+        public object k_ClearBindingsToken;
+        public object globalLogLevel;
+        public object m_LogLevel;
+        public object s_Empty;
+        public object m_Panel;
+        public object m_DataSourceTracker;
+        public object m_BindingsTracker;
+        public object m_DetectedChangesFromUI;
+        public object m_IgnoreUIChangesData;
+
         // ── Methods ──
         public void get_logLevel(){} // RVA: 0x7E6C000
         public void set_logLevel(){} // RVA: 0x7E6C090
@@ -70,6 +90,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DataBindingUtility : Object
     {
+        public object k_TypeVisitors;
+        public object k_AutoCompleteVisitors;
+        public object s_ReplaceIndices;
+
         // ── Methods ──
         public void TryGetBinding(){} // RVA: 0x7E77750
         public void .cctor(){} // RVA: 0x7E77C80
@@ -77,6 +101,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DataSourceContext : ValueType
     {
+        public object _dataSource;
+        public object _dataSourcePath;
+
         // ── Methods ──
         public void get_dataSource(){} // RVA: 0x77900
         public void get_dataSourcePath(){} // RVA: 0x9920F0
@@ -85,12 +112,22 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DataSourceContextChanged : ValueType
     {
+        public object m_TargetElement;
+        public object m_BindingId;
+        public object m_PreviousContext;
+        public object m_NewContext;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x992220
     }
 
     public class DefaultDragAndDropClient : DragAndDropData
     {
+        public object m_GenericData;
+        public object m_DraggedInfoLabel;
+        public object m_VisualMode;
+        public object m_UnityObjectReferences;
+
         // ── Methods ──
         public void get_source(){} // RVA: 0x8047310
         public void GetGenericData(){} // RVA: 0x8047360
@@ -105,6 +142,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultEventSystem : Object
     {
+        public object IsEditorRemoteConnected;
+        public object m_FocusedPanel;
+        public object m_PreviousFocusedPanel;
+        public object m_PreviousFocusedElement;
+        public object m_LegacyInputProcessor;
+        public object m_InputForUIProcessor;
+        public object m_IsInputReady;
+        public object m_UseInputForUI;
+        public object m_IsInputForUIActive;
+        public object verbose;
+        public object logToGameScreen;
+        public object m_LogLabel;
+        public object m_LogLines;
+
         // ── Methods ──
         public void get_isAppFocused(){} // RVA: 0x803E5E0
         public void ShouldIgnoreEventsOnAppNotFocused(){} // RVA: 0x803E660
@@ -132,6 +183,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultGroupManager : Object
     {
+        public object m_GroupOptions;
+        public object m_SelectedOption;
+        public object m_GroupBox;
+
         // ── Methods ──
         public void Init(){} // RVA: 0xB70100
         public void OnOptionSelectionChanged(){} // RVA: 0x807B700
@@ -142,6 +197,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultMultiColumnTreeViewController`1 : MultiColumnTreeViewController
     {
+        public object m_TreeDataController;
+
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x87C0A0
         public void .ctor(){} // RVA: 0x8954D0
@@ -155,6 +212,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DefaultTreeViewController`1 : TreeViewController
     {
+        public object m_TreeDataController;
+
         // ── Methods ──
         public void get_treeDataController(){} // RVA: 0x87C0A0
         public void get_itemsSource(){} // RVA: 0x87C0A0
@@ -181,6 +240,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DoubleField : TextValueField`1
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_doubleInput(){} // RVA: 0x7FDAE10
         public void ValueToString(){} // RVA: 0x7FDAEA0
@@ -193,6 +256,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DragAndDropArgs : ValueType
     {
+        public object _target;
+        public object _insertAtIndex;
+        public object _parentId;
+        public object _childIndex;
+        public object _dragAndDropPosition;
+        public object _dragAndDropData;
+
         // ── Methods ──
         public void set_target(){} // RVA: 0x47F10
         public void get_insertAtIndex(){} // RVA: 0x14790
@@ -209,6 +279,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DragAndDropData : Object
     {
+        public object _paths;
+
         // ── Methods ──
         public void GetGenericData(){} // RVA: 0x87C540
         public void get_source(){} // RVA: 0x87C0A0
@@ -218,12 +290,22 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DragAndDropUtility : Object
     {
+        public object s_MakeDragAndDropClientFunc;
+        public object s_DragAndDropEditor;
+        public object s_DragAndDropPlayMode;
+
         // ── Methods ──
         public void GetDragAndDrop(){} // RVA: 0x8047110
     }
 
     public class DragEventsProcessor : Object
     {
+        public object m_IsRegistered;
+        public object m_DragState;
+        public object m_Start;
+        public object m_PendingPerformDrag;
+        public object m_Target;
+
         // ── Methods ──
         public void get_supportsDragEvents(){} // RVA: 0xC2E4C0
         public void get_useDragEvents(){} // RVA: 0x8047EB0
@@ -257,6 +339,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownMenu : Object
     {
+        public object m_MenuItems;
+        public object m_DropdownMenuEventInfo;
+
         // ── Methods ──
         public void get_Count(){} // RVA: 0x8052CC0
         public void MenuItems(){} // RVA: 0x3E42230
@@ -269,6 +354,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownMenuAction : DropdownMenuItem
     {
+        public object _name;
+        public object _status;
+        public object _eventInfo;
+        public object _userData;
+        public object actionCallback;
+        public object actionStatusCallback;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xB5DBF0
         public void set_status(){} // RVA: 0x1033F40
@@ -282,6 +374,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownMenuEventInfo : Object
     {
+        public object _modifiers;
+        public object _mousePosition;
+        public object _localMousePosition;
+        public object _character;
+        public object _keyCode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8052880
     }
@@ -294,6 +392,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownMenuSeparator : DropdownMenuItem
     {
+        public object _subMenuPath;
+
         // ── Methods ──
         public void get_subMenuPath(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0xB44D60
@@ -301,12 +401,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DropdownUtility : Object
     {
+        public object MakeDropdownFunc;
+
         // ── Methods ──
         public void CreateDropdown(){} // RVA: 0x8053A30
     }
 
     public class DynamicAtlas : AtlasBase
     {
+        public object m_Database;
+        public object m_PointPage;
+        public object m_BilinearPage;
+        public object m_ColorSpace;
+        public object m_Panels;
+        public object m_MinAtlasSize;
+        public object m_MaxAtlasSize;
+        public object m_MaxSubTextureSize;
+        public object m_ActiveFilters;
+        public object m_CustomFilter;
+
         // ── Methods ──
         public void get_isInitialized(){} // RVA: 0x7E4EE30
         public void OnAssignedToPanel(){} // RVA: 0x7E4EE50
@@ -338,6 +451,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicAtlasPage : Object
     {
+        public object _textureId;
+        public object _atlas;
+        public object _format;
+        public object _filterMode;
+        public object _minSize;
+        public object _maxSize;
+        public object m_1Padding;
+        public object m_2Padding;
+        public object m_Allocator;
+        public object m_Blitter;
+        public object m_CurrentSize;
+        public object s_TextureCounter;
+        public object _disposed;
+
         // ── Methods ──
         public void get_textureId(){} // RVA: 0xB8F8F0
         public void set_textureId(){} // RVA: 0xB460A0
@@ -359,6 +486,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicAtlasSettings : Object
     {
+        public object m_MinAtlasSize;
+        public object m_MaxAtlasSize;
+        public object m_MaxSubTextureSize;
+        public object m_ActiveFilters;
+        public object m_CustomFilter;
+
         // ── Methods ──
         public void get_minAtlasSize(){} // RVA: 0xB8F8F0
         public void set_minAtlasSize(){} // RVA: 0xB460A0
@@ -377,6 +510,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class DynamicHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
+        public object m_HighestCachedIndex;
+        public object m_ItemHeightCache;
+        public object m_ContentHeightCache;
+        public object m_WaitingCache;
+        public object m_ScrolledToItemIndex;
+        public object m_ForcedFirstVisibleItem;
+        public object m_ForcedLastVisibleItem;
+        public object m_StickToBottom;
+        public object m_LastChange;
+        public object m_ScrollDirection;
+        public object m_DelayedScrollOffset;
+        public object m_AccumulatedHeight;
+        public object m_MinimumItemHeight;
+        public object m_FillCallback;
+        public object m_ScrollResetCallback;
+        public object m_GeometryChangedCallback;
+        public object m_ScheduledItem;
+        public object m_ScrollResetScheduledItem;
+        public object m_IndexOutOfBoundsPredicate;
+        public object m_FillExecuted;
+        public object m_TimeSinceFillScheduledMs;
+
         // ── Methods ──
         public void get_defaultExpectedHeight(){} // RVA: 0x890F90
         public void get_contentPadding(){} // RVA: 0x890F90

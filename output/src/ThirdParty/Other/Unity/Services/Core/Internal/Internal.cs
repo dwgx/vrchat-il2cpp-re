@@ -20,6 +20,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ComponentRegistry : Object
     {
+        public object _componentTypeHashToInstance;
+
         // ── Methods ──
         public void get_ComponentTypeHashToInstance(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0x79A3D40
@@ -31,6 +33,10 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreDiagnostics : Object
     {
+        public object _instance;
+        public object _coreTags;
+        public object _diagnosticsComponentProvider;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x79A94E0
         public void set_Instance(){} // RVA: 0x79A9520
@@ -48,6 +54,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreMetrics : Object
     {
+        public object _instance;
+        public object _allPackageMetrics;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x79A9680
         public void set_Instance(){} // RVA: 0x79A96C0
@@ -56,6 +65,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CorePackageRegistry : Object
     {
+        public object _instance;
+        public object _registry;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x79A3FC0
         public void set_Instance(){} // RVA: 0x79A4000
@@ -68,6 +80,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistration : ValueType
     {
+        public object m_Registry;
+        public object m_PackageHash;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void DependsOn(){} // RVA: 0x1F21A0
@@ -77,6 +92,14 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistry : Object
     {
+        public object _instance;
+        public object _instanceId;
+        public object _type;
+        public object _options;
+        public object _packageRegistry;
+        public object _componentRegistry;
+        public object _serviceRegistry;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x79A42E0
         public void set_Instance(){} // RVA: 0x79A4320
@@ -97,6 +120,9 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class CoreRegistryInitializer : Object
     {
+        public object m_Registry;
+        public object m_SortedPackageTypeHashes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void InitializeRegistryAsync(){} // RVA: 0x79A4810
@@ -104,6 +130,11 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTree : Object
     {
+        public object PackageTypeHashToInstance;
+        public object ComponentTypeHashToPackageTypeHash;
+        public object PackageTypeHashToComponentTypeHashDependencies;
+        public object ComponentTypeHashToInstance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB8AE10
     }
@@ -127,6 +158,10 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class DependencyTreeInitializeOrderSorter : ValueType
     {
+        public object Tree;
+        public object Target;
+        public object m_PackageTypeHashExplorationHistory;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x940E80
         public void SortRegisteredPackagesIntoTarget(){} // RVA: 0x940E90
@@ -161,6 +196,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class HashException : Exception
     {
+        public object _hash;
+
         // ── Methods ──
         public void get_Hash(){} // RVA: 0xF3A950
         public void .ctor(){} // RVA: 0x79A91F0
@@ -198,6 +235,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedComponentRegistry : Object
     {
+        public object _registry;
+
         // ── Methods ──
         public void get_Registry(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0xB44D60
@@ -208,6 +247,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class LockedPackageRegistry : Object
     {
+        public object _registry;
+
         // ── Methods ──
         public void get_Registry(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0xB44D60
@@ -220,6 +261,8 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class MissingComponent : Object
     {
+        public object _intendedType;
+
         // ── Methods ──
         public void get_IntendedType(){} // RVA: 0xB5DBF0
         public void .ctor(){} // RVA: 0xB44D60
@@ -227,12 +270,17 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class PackageInitializationInfo : Object
     {
+        public object PackageType;
+        public object InitializationTimeInSeconds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class PackageRegistry : Object
     {
+        public object _tree;
+
         // ── Methods ──
         public void get_Tree(){} // RVA: 0xB5DBF0
         public void set_Tree(){} // RVA: 0xB44D60
@@ -246,12 +294,17 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class ServiceRegistry : Object
     {
+        public object _serviceTypeHashToInstance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x79A9420
     }
 
     public class TaskAsyncOperation : AsyncOperationBase
     {
+        public object Scheduler;
+        public object m_Task;
+
         // ── Methods ──
         public void get_IsCompleted(){} // RVA: 0x2283E50
         public void SetScheduler(){} // RVA: 0x79A39D0
@@ -267,6 +320,13 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
 
     public class UnityServicesInternal : Object
     {
+        public object _state;
+        public object CanInitialize;
+        public object m_Initialization;
+        public object _registry;
+        public object _metrics;
+        public object _diagnostics;
+
         // ── Methods ──
         public void get_State(){} // RVA: 0xB8F8F0
         public void set_State(){} // RVA: 0xB460A0

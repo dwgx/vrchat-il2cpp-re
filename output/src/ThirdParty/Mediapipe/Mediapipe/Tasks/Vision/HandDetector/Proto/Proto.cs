@@ -7,38 +7,49 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandDetector.Proto
 {
     public class HandDetectorGraphOptions : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object _hasBits0;
+        public object baseOptions_;
+        public object MinDetectionConfidenceDefaultValue;
+        public object minDetectionConfidence_;
+        public object NumHandsDefaultValue;
+        public object numHands_;
+
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7AD955800
-        public void get_Descriptor(){} // RVA: 0x7AD955860
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD955920
-        public void .ctor(){} // RVA: 0x7AD955A10
-        public void Clone(){} // RVA: 0x7AD955BC0
-        public void get_BaseOptions(){} // RVA: 0x7A81052C0
-        public void set_BaseOptions(){} // RVA: 0x7A81052D0
-        public void get_MinDetectionConfidence(){} // RVA: 0x7AD955DA0
-        public void set_MinDetectionConfidence(){} // RVA: 0x7AD94C0B0
-        public void get_HasMinDetectionConfidence(){} // RVA: 0x7AD848D40
-        public void ClearMinDetectionConfidence(){} // RVA: 0x7AD848D50
-        public void get_NumHands(){} // RVA: 0x7AD955E10
-        public void set_NumHands(){} // RVA: 0x7AD84BF50
-        public void get_HasNumHands(){} // RVA: 0x7AD848DE0
-        public void ClearNumHands(){} // RVA: 0x7AD848DF0
-        public void Equals(){} // RVA: 0x7AD956010
-        public void GetHashCode(){} // RVA: 0x7AD956160
-        public void ToString(){} // RVA: 0x7AD956260
-        public void WriteTo(){} // RVA: 0x7AD825C30
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD9562B0
-        public void CalculateSize(){} // RVA: 0x7AD956360
-        public void MergeFrom(){} // RVA: 0x7AD825F70
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD956600
-        public void .cctor(){} // RVA: 0x7AD956700
+        public void get_Parser(){} // RVA: 0x65E1C00
+        public void get_Descriptor(){} // RVA: 0x65E1C60
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x65E1D20
+        public void .ctor(){} // RVA: 0x65E1E10
+        public void Clone(){} // RVA: 0x65E1FC0
+        public void get_BaseOptions(){} // RVA: 0xB700F0
+        public void set_BaseOptions(){} // RVA: 0xB70100
+        public void get_MinDetectionConfidence(){} // RVA: 0x65E21A0
+        public void set_MinDetectionConfidence(){} // RVA: 0x65D8640
+        public void get_HasMinDetectionConfidence(){} // RVA: 0x64D65D0
+        public void ClearMinDetectionConfidence(){} // RVA: 0x64D65E0
+        public void get_NumHands(){} // RVA: 0x65E2210
+        public void set_NumHands(){} // RVA: 0x64D97E0
+        public void get_HasNumHands(){} // RVA: 0x64D6670
+        public void ClearNumHands(){} // RVA: 0x64D6680
+        public void Equals(){} // RVA: 0x65E2410
+        public void GetHashCode(){} // RVA: 0x65E2560
+        public void ToString(){} // RVA: 0x65E2660
+        public void WriteTo(){} // RVA: 0x64B3910
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x65E26B0
+        public void CalculateSize(){} // RVA: 0x65E2760
+        public void MergeFrom(){} // RVA: 0x64B3C50
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x65E2A00
+        public void .cctor(){} // RVA: 0x65E2B00
     }
 
     public class HandDetectorGraphOptionsReflection : Object
     {
+        public object descriptor;
+
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7AD954E90
-        public void .cctor(){} // RVA: 0x7AD954EF0
+        public void get_Descriptor(){} // RVA: 0x65E12C0
+        public void .cctor(){} // RVA: 0x65E1320
     }
 
 }

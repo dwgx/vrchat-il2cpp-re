@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class MetricizedAppleStoreImpl : AppleStoreImpl
     {
+        public object m_TelemetryMetricsService;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D8F290
         public void RetrieveProducts(){} // RVA: 0x7D8F4E0
@@ -17,12 +19,17 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class MetricizedGooglePlayStoreExtensions : GooglePlayStoreExtensions
     {
+        public object m_TelemetryMetricsService;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D7FC00
     }
 
     public class MetricizedGooglePlayStoreService : GooglePlayStoreService
     {
+        public object m_TelemetryMetricsService;
+        public object m_TelemetryDiagnostics;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D7A6F0
         public void DequeueQueryProducts(){} // RVA: 0x7D7A840
@@ -36,6 +43,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class MetricizedJsonStore : JSONStore
     {
+        public object m_TelemetryMetricsService;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D904E0
         public void RetrieveProducts(){} // RVA: 0x7D90550

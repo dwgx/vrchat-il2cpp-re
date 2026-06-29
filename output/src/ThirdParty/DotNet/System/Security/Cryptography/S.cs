@@ -14,6 +14,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA1CryptoServiceProvider : SHA1
     {
+        public object sha;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6726F50
         public void Finalize(){} // RVA: 0x6721500
@@ -25,6 +27,13 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA1Internal : Object
     {
+        public object BLOCK_SIZE_BYTES;
+        public object _H;
+        public object count;
+        public object _ProcessingBuffer;
+        public object _ProcessingBufferCount;
+        public object buff;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67255B0
         public void HashCore(){} // RVA: 0x6725730
@@ -39,6 +48,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA1Managed : SHA1
     {
+        public object _buffer;
+        public object _count;
+        public object _stateSHA1;
+        public object _expandedBuffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670EEF0
         public void Initialize(){} // RVA: 0x670F0A0
@@ -60,6 +74,12 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA256Managed : SHA256
     {
+        public object _buffer;
+        public object _count;
+        public object _stateSHA256;
+        public object _W;
+        public object _K;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x670FF10
         public void Initialize(){} // RVA: 0x67100C0
@@ -89,6 +109,12 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA384Managed : SHA384
     {
+        public object _buffer;
+        public object _count;
+        public object _stateSHA384;
+        public object _W;
+        public object _K;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67119D0
         public void Initialize(){} // RVA: 0x6711B80
@@ -118,6 +144,12 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SHA512Managed : SHA512
     {
+        public object _buffer;
+        public object _count;
+        public object _stateSHA512;
+        public object _W;
+        public object _K;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67136E0
         public void Initialize(){} // RVA: 0x6713890
@@ -140,6 +172,11 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SignatureDescription : Object
     {
+        public object _strKey;
+        public object _strDigest;
+        public object _strFormatter;
+        public object _strDeformatter;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67152C0
         public void get_KeyAlgorithm(){} // RVA: 0xB5DBF0
@@ -157,6 +194,16 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class SymmetricAlgorithm : Object
     {
+        public object BlockSizeValue;
+        public object FeedbackSizeValue;
+        public object IVValue;
+        public object KeyValue;
+        public object LegalBlockSizesValue;
+        public object LegalKeySizesValue;
+        public object KeySizeValue;
+        public object ModeValue;
+        public object PaddingValue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6716010
         public void Dispose(){} // RVA: 0x67160D0

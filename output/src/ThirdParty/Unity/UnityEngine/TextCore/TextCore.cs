@@ -7,6 +7,28 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 {
     public class FaceInfo : ValueType
     {
+        public object m_FaceIndex;
+        public object m_FamilyName;
+        public object m_StyleName;
+        public object m_PointSize;
+        public object m_Scale;
+        public object m_UnitsPerEM;
+        public object m_LineHeight;
+        public object m_AscentLine;
+        public object m_CapLine;
+        public object m_MeanLine;
+        public object m_Baseline;
+        public object m_DescentLine;
+        public object m_SuperscriptOffset;
+        public object m_SuperscriptSize;
+        public object m_SubscriptOffset;
+        public object m_SubscriptSize;
+        public object m_UnderlineOffset;
+        public object m_UnderlineThickness;
+        public object m_StrikethroughOffset;
+        public object m_StrikethroughThickness;
+        public object m_TabWidth;
+
         // ── Methods ──
         public void get_faceIndex(){} // RVA: 0x454FE0
         public void get_familyName(){} // RVA: 0x8C0C50
@@ -57,6 +79,13 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class Glyph : Object
     {
+        public object m_Index;
+        public object m_Metrics;
+        public object m_GlyphRect;
+        public object m_Scale;
+        public object m_AtlasIndex;
+        public object m_ClassDefinitionType;
+
         // ── Methods ──
         public void get_index(){} // RVA: 0x7B51740
         public void set_index(){} // RVA: 0xB460A0
@@ -73,6 +102,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphMetrics : ValueType
     {
+        public object m_Width;
+        public object m_Height;
+        public object m_HorizontalBearingX;
+        public object m_HorizontalBearingY;
+        public object m_HorizontalAdvance;
+
         // ── Methods ──
         public void get_width(){} // RVA: 0x459690
         public void get_height(){} // RVA: 0x958940
@@ -106,6 +141,12 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class GlyphRect : ValueType
     {
+        public object m_X;
+        public object m_Y;
+        public object m_Width;
+        public object m_Height;
+        public object s_ZeroGlyphRect;
+
         // ── Methods ──
         public void get_x(){} // RVA: 0x454FE0
         public void get_y(){} // RVA: 0x4A8D60
@@ -160,6 +201,26 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class NativeTextGenerationSettings : ValueType
     {
+        public object fontAsset;
+        public object textSettings;
+        public object text;
+        public object screenWidth;
+        public object screenHeight;
+        public object wordWrap;
+        public object overflow;
+        public object languageDirection;
+        public object vertexPadding;
+        public object horizontalAlignment;
+        public object verticalAlignment;
+        public object fontSize;
+        public object fontStyle;
+        public object fontWeight;
+        public object textSpans;
+        public object color;
+        public object characterSpacing;
+        public object wordSpacing;
+        public object paragraphSpacing;
+
         // ── Methods ──
         public void get_hasLink(){} // RVA: 0x98CB70
         public void CreateTextSpan(){} // RVA: 0x98CB80
@@ -209,6 +270,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class RichTextTagParser : Object
     {
+        public object TagsInfo;
+
         // ── Methods ──
         public void tagMatch(){} // RVA: 0x7DC3400
         public void SpanToEnum(){} // RVA: 0x7DC35C0
@@ -224,6 +287,15 @@ namespace ThirdParty.Unity.UnityEngine.TextCore
 
     public class TextSpan : ValueType
     {
+        public object startIndex;
+        public object length;
+        public object fontAsset;
+        public object fontSize;
+        public object color;
+        public object fontStyle;
+        public object fontWeight;
+        public object linkID;
+
         // ── Methods ──
         public void ToString(){} // RVA: 0x98CBF0
     }

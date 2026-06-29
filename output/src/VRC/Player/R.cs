@@ -8,6 +8,10 @@ namespace VRC.Player
     /// <summary>Originally: ÏÏÏÏÎÏÎÌÌÎÎÌÌÍÍÏÌÍÍÍÏÌÎ</summary>
     public class RemovePlayerModsAddPlayerModsComponent_39AD : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_E2D;
+        public object f_8AB;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x1CF9650
         public void RaiseCancellation(){} // RVA: 0x1CF96E0

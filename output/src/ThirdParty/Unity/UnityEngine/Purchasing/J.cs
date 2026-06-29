@@ -20,6 +20,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JSONStore : AbstractStore
     {
+        public object unity;
+        public object m_Store;
+        public object m_Module;
+        public object m_Logger;
+        public object m_ProductDescriptionsDeserializer;
+        public object m_LastPurchaseFailureDescription;
+        public object m_LastPurchaseErrorCode;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D8FA30
         public void SetNativeStore(){} // RVA: 0xBA9BA0
@@ -37,6 +45,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class JavaBridge : AndroidJavaProxy
     {
+        public object forwardTo;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D82F50
     }

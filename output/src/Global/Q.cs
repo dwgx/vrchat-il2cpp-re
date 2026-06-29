@@ -5,6 +5,10 @@
 
 public class QName : ValueType
 {
+    public object prefix;
+    public object localname;
+    public object namespaceUri;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x79C50
     public void Set(){} // RVA: 0x79C50
@@ -21,6 +25,10 @@ public class QName : ValueType
 
 public class QualityPreset : Object
 {
+    public object maximumIterationCount;
+    public object thickness;
+    public object downsampling;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -43,6 +51,12 @@ public class QuaternionSurrogate : Object
 
 public class Quatf : ValueType
 {
+    public object x;
+    public object y;
+    public object z;
+    public object w;
+    public object identity;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CA6A0
     public void .cctor(){} // RVA: 0x6BE2F30
@@ -70,6 +84,8 @@ public class Quatf[] : Array
 
 public class Queue : Object
 {
+    public object m_DurationMilliseconds;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB460A0
     public void get_Duration(){} // RVA: 0xB8F8F0
@@ -78,6 +94,11 @@ public class Queue : Object
 
 public class QueueEnumerator : Object
 {
+    public object _q;
+    public object _index;
+    public object _version;
+    public object _currentElement;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6877540
     public void Clone(){} // RVA: 0x67F43E0
@@ -88,6 +109,10 @@ public class QueueEnumerator : Object
 
 public class QueueSegment : Object
 {
+    public object nodes;
+    public object indexes;
+    public object Next;
+
     // ── Methods ──
     public void GetIndexes(){} // RVA: 0x69B10E0
     public void CompareExchangeIndexes(){} // RVA: 0x69B1100
@@ -99,6 +124,11 @@ public class QueueSegment : Object
 
 public class QueuedJob : ValueType
 {
+    public object _job;
+    public object _priority;
+    public object _id;
+    public object _nextId;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA745D0
     public void Invoke(){} // RVA: 0xA745E0
@@ -147,6 +177,9 @@ public class QuickButton[] : Array
 
 public class QuoteVisitor : ExpressionVisitor
 {
+    public object _definedParameters;
+    public object _hoistedParameters;
+
     // ── Methods ──
     public void VisitParameter(){} // RVA: 0x70AC630
     public void VisitBlock(){} // RVA: 0x70AC6E0

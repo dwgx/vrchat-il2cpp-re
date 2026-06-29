@@ -7,6 +7,10 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class Oid : Object
     {
+        public object _value;
+        public object _friendlyName;
+        public object _group;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x31D5D40
         public void FromOidValue(){} // RVA: 0x7692C30
@@ -17,6 +21,8 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class OidCollection : Object
     {
+        public object _list;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7692F00
         public void Add(){} // RVA: 0x7692FC0
@@ -31,6 +37,9 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class OidEnumerator : Object
     {
+        public object _oids;
+        public object _current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67F4370
         public void get_Current(){} // RVA: 0x7693490

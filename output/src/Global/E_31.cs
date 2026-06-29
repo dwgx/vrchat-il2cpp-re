@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 384
+// Methods: 382
 
 public class EarlyInitFunction : MulticastDelegate
 {
@@ -10,21 +10,36 @@ public class EarlyInitFunction : MulticastDelegate
     public void Invoke(){} // RVA: 0xBA10B0
 }
 
-public class ElemInfo : ValueType
-{
-    // ── Methods ──
-    public void Set(){} // RVA: 0x913310
-    public void Clear(){} // RVA: 0x913340
-}
-
 public class ElementContent : Object
 {
+    public object _ElementDecl;
+    public object _ContentAttr;
+    public object _OrderAttr;
+    public object _MasterGroupRequired;
+    public object _ExistTerminal;
+    public object _AllowDataType;
+    public object _HasDataType;
+    public object _HasType;
+    public object _EnumerationRequired;
+    public object _MinVal;
+    public object _MaxVal;
+    public object _MaxLength;
+    public object _MinLength;
+    public object _AttDefList;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class ElementScope : ValueType
 {
+    public object prevNSTop;
+    public object prefix;
+    public object localName;
+    public object namespaceUri;
+    public object xmlSpace;
+    public object xmlLang;
+
     // ── Methods ──
     public void Set(){} // RVA: 0x9160F0
     public void WriteEndElement(){} // RVA: 0x916100
@@ -43,18 +58,6 @@ public class EmptyCustomTypeDescriptor : CustomTypeDescriptor
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class EmptyInternalEnumerator`1 : Object
-{
-    // ── Methods ──
-    public void Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void get_Current(){} // RVA: 0xA94080
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
-    public void .ctor(){} // RVA: 0x894290
-    public void .cctor(){} // RVA: 0x8942F0
-}
-
 public class EmptyParticle : XmlSchemaParticle
 {
     // ── Methods ──
@@ -68,16 +71,19 @@ public class EmptyStream : MemoryStream
     public void .ctor(){} // RVA: 0x7580140
 }
 
-public class Encoder : EncoderNLS
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x66C7940
-    public void Reset(){} // RVA: 0x66C7950
-    public void get_HasState(){} // RVA: 0x66C7980
-}
-
 public class EncodingByteBuffer : Object
 {
+    public object bytes;
+    public object byteStart;
+    public object byteEnd;
+    public object chars;
+    public object charStart;
+    public object charEnd;
+    public object byteCountResult;
+    public object enc;
+    public object encoder;
+    public object fallbackBuffer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66D7640
     public void AddByte(){} // RVA: 0x66D7B90
@@ -90,6 +96,17 @@ public class EncodingByteBuffer : Object
 
 public class EncodingCharBuffer : Object
 {
+    public object chars;
+    public object charStart;
+    public object charEnd;
+    public object charCountResult;
+    public object enc;
+    public object decoder;
+    public object byteStart;
+    public object byteEnd;
+    public object bytes;
+    public object fallbackBuffer;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66D7040
     public void AddChar(){} // RVA: 0x66D7320
@@ -103,12 +120,10 @@ public class EncodingCharBuffer : Object
 
 public class Entry : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x69C9EA0
-}
+    public object _hash;
+    public object _key;
+    public object _value;
 
-public class Entry : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
 }
@@ -138,18 +153,18 @@ public class Entry[] : Array
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
     public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7E320
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A900
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4160
     public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
     public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
     public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
     public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
     public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E345E0
     public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
     public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A900
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
@@ -175,6 +190,10 @@ public class Entry[] : Array
 
 public class EnumMapMember : Object
 {
+    public object _xmlName;
+    public object _enumName;
+    public object _value;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7532C90
     public void get_XmlName(){} // RVA: 0xB5DBF0
@@ -184,6 +203,14 @@ public class EnumMapMember : Object
 
 public class EnumResult : ValueType
 {
+    public object parsedEnum;
+    public object canThrow;
+    public object m_failure;
+    public object m_failureMessageID;
+    public object m_failureParameter;
+    public object m_failureMessageFormatArgument;
+    public object m_innerException;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x8BEA10
     public void SetFailure(){} // RVA: 0x8BEA90
@@ -192,65 +219,11 @@ public class EnumResult : ValueType
 
 public class Enumerator : ValueType
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
+    public object _builder;
+    public object _mapEnumerator;
+    public object _bucketEnumerator;
+    public object _enumeratingBuilderVersion;
 
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x2895F0
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x93CC50
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xA7B860
-    public void MoveNext(){} // RVA: 0x268A80
-    public void Reset(){} // RVA: 0x2750F0
-    public void get_Current(){} // RVA: 0xA7B8C0
-    public void Dispose(){} // RVA: 0x3FC0
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x286C30
-}
-
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x263EA0
-}
-
-public class Enumerator : ValueType
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void get_Current(){} // RVA: 0xA94080
@@ -263,6 +236,10 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _bucket;
+    public object _currentPosition;
+    public object _additionalEnumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
@@ -274,6 +251,18 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object s_EnumeratingStacks;
+    public object _builder;
+    public object _poolUserId;
+    public object _startIndex;
+    public object _count;
+    public object _remainingCount;
+    public object _reversed;
+    public object _root;
+    public object _stack;
+    public object _current;
+    public object _enumeratingBuilderVersion;
+
     // ── Methods ──
     public void System.Collections.Immutable.ISecurePooledObjectUser.get_PoolUserId(){} // RVA: 0x87C130
     public void get_Current(){} // RVA: 0xA94080
@@ -292,6 +281,14 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object s_enumeratingStacks;
+    public object _builder;
+    public object _poolUserId;
+    public object _root;
+    public object _stack;
+    public object _current;
+    public object _enumeratingBuilderVersion;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void get_Current(){} // RVA: 0xA94080
@@ -308,6 +305,12 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object s_enumeratingStacks;
+    public object _poolUserId;
+    public object _root;
+    public object _stack;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Current(){} // RVA: 0xA94080
@@ -323,6 +326,21 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x261000
+}
+
+public class Enumerator : ValueType
+{
+    public object m_Handlers;
+    public object m_Count;
+    public object m_Index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x96E910
     public void Dispose(){} // RVA: 0x96E920
@@ -332,6 +350,14 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object m_HierarchyFlattened;
+    public object m_Predicate;
+    public object m_Flags;
+    public object m_NodesPtr;
+    public object m_NodesCount;
+    public object m_Version;
+    public object m_Index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x96ECD0
     public void get_Current(){} // RVA: 0x96ED00
@@ -341,12 +367,22 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -359,6 +395,11 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _set;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void System.IDisposable.Dispose(){} // RVA: 0x894290
@@ -370,12 +411,20 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _array;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x268A40
 }
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -388,6 +437,11 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -400,12 +454,43 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
+}
+
+public class Enumerator : ValueType
+{
+    public object _stack;
+    public object _version;
+    public object _index;
+    public object _currentElement;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x263EA0
+}
+
+public class Enumerator : ValueType
+{
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2895F0
 }
 
 public class Enumerator : Object
 {
+    public object _collection;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67F4370
     public void MoveNext(){} // RVA: 0x765E630
@@ -417,6 +502,9 @@ public class Enumerator : Object
 
 public class Enumerator : Object
 {
+    public object _collection;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67F4370
     public void MoveNext(){} // RVA: 0x765FF40
@@ -428,6 +516,9 @@ public class Enumerator : Object
 
 public class Enumerator : Object
 {
+    public object _collection;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67F4370
     public void MoveNext(){} // RVA: 0x7662290
@@ -437,8 +528,36 @@ public class Enumerator : Object
     public void System.IDisposable.Dispose(){} // RVA: 0xB43310
 }
 
+public class Enumerator : ValueType
+{
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2895F0
+}
+
+public class Enumerator : ValueType
+{
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2867A0
+}
+
 public class Enumerator : Object
 {
+    public object _array;
+    public object _current;
+    public object _index;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void MoveNext(){} // RVA: 0x87D280
@@ -450,6 +569,34 @@ public class Enumerator : Object
 
 public class Enumerator : ValueType
 {
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x261000
+}
+
+public class Enumerator : ValueType
+{
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2895F0
+}
+
+public class Enumerator : ValueType
+{
+    public object _list;
+    public object _index;
+    public object _version;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x261000
     public void Dispose(){} // RVA: 0x3FC0
@@ -462,6 +609,11 @@ public class Enumerator : ValueType
 
 public class Enumerator : Object
 {
+    public object _builder;
+    public object _version;
+    public object _index;
+    public object _current;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Current(){} // RVA: 0xA94080
@@ -473,6 +625,12 @@ public class Enumerator : Object
 
 public class Enumerator : ValueType
 {
+    public object _dictionary;
+    public object _version;
+    public object _index;
+    public object _current;
+    public object _getEnumeratorRetType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2895F0
     public void MoveNext(){} // RVA: 0x297820
@@ -487,6 +645,11 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _builder;
+    public object _mapEnumerator;
+    public object _bucketEnumerator;
+    public object _enumeratingBuilderVersion;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8943B0
     public void get_Current(){} // RVA: 0xA94080
@@ -499,6 +662,10 @@ public class Enumerator : ValueType
 
 public class Enumerator : ValueType
 {
+    public object _bucket;
+    public object _currentPosition;
+    public object _additionalEnumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
@@ -508,23 +675,10 @@ public class Enumerator : ValueType
     public void Dispose(){} // RVA: 0x894290
 }
 
-public class Enumerator : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x8943B0
-    public void get_Current(){} // RVA: 0xA94080
-    public void System.Collections.Immutable.ISecurePooledObjectUser.get_PoolUserId(){} // RVA: 0x87C130
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
-    public void Dispose(){} // RVA: 0x894290
-    public void MoveNext(){} // RVA: 0x87D280
-    public void Reset(){} // RVA: 0x894290
-    public void ThrowIfDisposed(){} // RVA: 0x894290
-    public void ThrowIfChanged(){} // RVA: 0x894290
-    public void PushLeft(){} // RVA: 0x894320
-}
-
 public class EnumeratorDropIndices : Object
 {
+    public object _source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void MoveNext(){} // RVA: 0x87D280
@@ -536,6 +690,10 @@ public class EnumeratorDropIndices : Object
 
 public class EnumeratorObject : Object
 {
+    public object s_EmptyEnumerator;
+    public object _array;
+    public object _index;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x39EC990
 }
@@ -728,6 +886,8 @@ public class EqualityComparer : Object
 
 public class EqualityWeakReference : WeakReference
 {
+    public object _hashCode;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7710130
     public void Equals(){} // RVA: 0x7710190
@@ -744,6 +904,10 @@ public class EqualsClass : NullableMethodCallInstruction
 
 public class EscaperImplementation : ScalarEscaperBase
 {
+    public object Singleton;
+    public object SingletonMinimallyEscaped;
+    public object _preescapedMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D5C5F0
     public void EncodeUtf8(){} // RVA: 0x6D5C610
@@ -755,14 +919,85 @@ public class EscaperImplementation : ScalarEscaperBase
 
 public class EventData : ValueType
 {
+    public object _dataPointer;
+    public object _size;
+    public object _reserved;
+
     // ── Methods ──
     public void set_DataPointer(){} // RVA: 0x93050
     public void set_Size(){} // RVA: 0x92DD0
     public void set_Reserved(){} // RVA: 0x92DF0
 }
 
+public class Event`1 : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4A20
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC4A50
+}
+
+public class Event`1 : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4960
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC4A80
+}
+
+public class Event`1 : UnityEvent`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4960
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC49F0
+}
+
+public class Event`1 : UnityEvent`1
+{
+    // ── Methods ──
+    public void Listen(){} // RVA: 0x3DC4960
+    public void Remove(){} // RVA: 0x3DC4990
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Send(){} // RVA: 0x3DC4AB0
+}
+
+public class Event`2 : UnityEvent`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4C40
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC4CD0
+}
+
+public class Event`2 : UnityEvent`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4C40
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC4D00
+}
+
+public class Event`3 : UnityEvent`3
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x25DCF60
+    public void Listen(){} // RVA: 0x3DC4EC0
+    public void Remove(){} // RVA: 0x3DC4990
+    public void Send(){} // RVA: 0x3DC4F50
+}
+
 public class EvidenceEnumerator : Object
 {
+    public object currentEnum;
+    public object hostEnum;
+    public object assemblyEnum;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x66E3F70
     public void MoveNext(){} // RVA: 0x66E4070
@@ -779,6 +1014,8 @@ public class ExceptionFromErrorCode : MulticastDelegate
 
 public class ExclusiveLock : Object
 {
+    public object m_Disposed;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7AD8200
     public void Finalize(){} // RVA: 0x7AD8280
@@ -851,12 +1088,22 @@ public class ExclusiveOrUInt64 : ExclusiveOrInstruction
 
 public class ExecutionContextCallbackArgs : Object
 {
+    public object _errorCode;
+    public object _bytesWritten;
+    public object _overlapped;
+    public object _data;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class ExpandoData : Object
 {
+    public object Empty;
+    public object Class;
+    public object _dataArray;
+    public object _version;
+
     // ── Methods ──
     public void get_Item(){} // RVA: 0x677E590
     public void set_Item(){} // RVA: 0x70D8340
@@ -870,6 +1117,10 @@ public class ExpandoData : Object
 
 public class ExpressionQuoter : ExpressionVisitor
 {
+    public object _variables;
+    public object _frame;
+    public object _shadowedVars;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70C4AC0
     public void VisitLambda(){} // RVA: 0x87C540
@@ -883,6 +1134,9 @@ public class ExpressionQuoter : ExpressionVisitor
 
 public class ExtensionInfo : Object
 {
+    public object NodeType;
+    public object Type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2574280
 }

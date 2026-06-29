@@ -7,6 +7,45 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 {
     public class TunnellingPreset : TunnellingPresetBase
     {
+        public object _effectOverlay;
+        public object _overrideEffectOverlay;
+        public object _backgroundMode;
+        public object _overrideBackgroundMode;
+        public object _cageDownsample;
+        public object _overrideCageDownsample;
+        public object _cageAntiAliasing;
+        public object _overrideCageAntiAliasing;
+        public object _cageUpdateEveryFrame;
+        public object _overrideCageUpdateEveryFrame;
+        public object _cageFogDensity;
+        public object _overrideCageFogDensity;
+        public object _cageFogPower;
+        public object _overrideCageFogPower;
+        public object _cageFogBlend;
+        public object _overrideCageFogBlend;
+        public object _maskMode;
+        public object _overrideMaskMode;
+        public object _blurDownsample;
+        public object _overrideBlurDownsample;
+        public object _blurDistance;
+        public object _overrideBlurDistance;
+        public object _blurPasses;
+        public object _overrideBlurPasses;
+        public object _blurSamples;
+        public object _overrideBlurSamples;
+        public object _counterVelocityMode;
+        public object _overrideCounterVelocityMode;
+        public object _counterVelocityResetDistance;
+        public object _overrideCounterVelocityResetDistance;
+        public object _counterVelocityResetTime;
+        public object _overrideCounterVelocityResetTime;
+        public object _counterVelocityStrength;
+        public object _overrideCounterVelocityStrength;
+        public object _counterVelocityPerAxis;
+        public object _overrideCounterVelocityPerAxis;
+        public object _irisZRejection;
+        public object _overrideIrisZRejection;
+
         // ── Methods ──
         public void get_overrideBlurDownsample(){} // RVA: 0x6EDDCF0
         public void get_overrideCounterVelocityResetDistance(){} // RVA: 0x6EDDD00
@@ -56,6 +95,42 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 
     public class TunnellingPresetBase : ScriptableObject
     {
+        public object _overrideAll;
+        public object _effectCoverage;
+        public object _overrideEffectCoverage;
+        public object _effectColor;
+        public object _overrideEffectColor;
+        public object _effectFeather;
+        public object _overrideEffectFeather;
+        public object _applyColorToBackground;
+        public object _overrideApplyColorToBackground;
+        public object _skybox;
+        public object _overrideSkybox;
+        public object _angularVelocity;
+        public object _overrideAngularVelocity;
+        public object _acceleration;
+        public object _overrideAcceleration;
+        public object _velocity;
+        public object _overrideVelocity;
+        public object _useCounterMotion;
+        public object _overrideUseCounterMotion;
+        public object _counterRotationStrength;
+        public object _overrideCounterRotationStrength;
+        public object _counterRotationPerAxis;
+        public object _overrideCounterRotationPerAxis;
+        public object _useArtificialTilt;
+        public object _overrideUseArtificialTilt;
+        public object _framerateDivision;
+        public object _overrideFramerateDivision;
+        public object _divideTranslation;
+        public object _overrideDivideTranslation;
+        public object _divideRotation;
+        public object _overrideDivideRotation;
+        public object _forceVignetteMode;
+        public object _overrideForceVignetteMode;
+        public object _forceVignetteValue;
+        public object _overrideForceVignetteValue;
+
         // ── Methods ──
         public void get_overrideAll(){} // RVA: 0xB5DD50
         public void get_effectCoverage(){} // RVA: 0xC152D0
@@ -97,6 +172,19 @@ namespace ThirdParty.VrTunnellingPro.Sigtrap.VrTunnellingPro
 
     public class TunnellingPresetMobile : TunnellingPresetBase
     {
+        public object _drawSkybox;
+        public object _overrideDrawSkybox;
+        public object _drawBeforeTransparent;
+        public object _overrideDrawBeforeTransparent;
+        public object _useMask;
+        public object _overrideUseMask;
+        public object _stencilReference;
+        public object _overrideStencilReference;
+        public object _stencilMask;
+        public object _overrideStencilMask;
+        public object _stencilBias;
+        public object _overrideStencilBias;
+
         // ── Methods ──
         public void set_stencilReference(){} // RVA: 0x12CE7D0
         public void get_stencilReference(){} // RVA: 0x215C150

@@ -7,6 +7,9 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
     public class CastingConverter`1 : JsonConverter`1
     {
+        public object _sourceConverter;
+        public object _handleNull;
+
         // ── Methods ──
         public void get_KeyType(){} // RVA: 0x87C0A0
         public void get_ElementType(){} // RVA: 0x87C0A0
@@ -38,6 +41,8 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 
     public class CharConverter : JsonPrimitiveConverter`1
     {
+        public object MaxEscapedCharacterLength;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x7347AA0
         public void Write(){} // RVA: 0x7347BB0

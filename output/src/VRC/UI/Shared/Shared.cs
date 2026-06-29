@@ -7,6 +7,11 @@ namespace VRC.UI.Shared
 {
     public class SerializableVector4 : Object
     {
+        public object X;
+        public object Y;
+        public object Z;
+        public object W;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x1C25040
         public void Equals(){} // RVA: 0x1C25040

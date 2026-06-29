@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class GCHandlePool : Object
     {
+        public object m_handles;
+        public object m_current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7B04460
         public void Alloc(){} // RVA: 0x7B044F0
@@ -54,6 +57,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUI : Object
     {
+        public object s_ScrollControlId;
+        public object s_HotTextField;
+        public object s_BoxHash;
+        public object s_ButonHash;
+        public object s_RepeatButtonHash;
+        public object s_ToggleHash;
+        public object s_ButtonGridHash;
+        public object s_SliderHash;
+        public object s_BeginGroupHash;
+        public object s_ScrollviewHash;
+        public object _scrollTroughSide;
+        public object _nextScrollStepTime;
+        public object s_Skin;
+        public object s_ToolTipRect;
+        public object _scrollViewStates;
+
         // ── Methods ──
         public void get_color(){} // RVA: 0x7C670C0
         public void set_color(){} // RVA: 0x7C67150
@@ -163,6 +182,17 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIContent : Object
     {
+        public object m_Text;
+        public object m_Image;
+        public object m_Tooltip;
+        public object m_TextWithWhitespace;
+        public object OnTextChanged;
+        public object s_Text;
+        public object s_Image;
+        public object s_TextImage;
+        public object k_ZeroWidthSpace;
+        public object none;
+
         // ── Methods ──
         public void add_OnTextChanged(){} // RVA: 0x7C740C0
         public void remove_OnTextChanged(){} // RVA: 0x7C741B0
@@ -209,6 +239,13 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIGridSizer : GUILayoutEntry
     {
+        public object m_Count;
+        public object m_XCount;
+        public object m_MinButtonWidth;
+        public object m_MaxButtonWidth;
+        public object m_MinButtonHeight;
+        public object m_MaxButtonHeight;
+
         // ── Methods ──
         public void GetRect(){} // RVA: 0x7C8CE60
         public void .ctor(){} // RVA: 0x7C8D0A0
@@ -257,6 +294,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutEntry : Object
     {
+        public object minWidth;
+        public object maxWidth;
+        public object minHeight;
+        public object maxHeight;
+        public object rect;
+        public object stretchWidth;
+        public object stretchHeight;
+        public object consideredForMargin;
+        public object m_Style;
+        public object kDummyRect;
+        public object indent;
+
         // ── Methods ──
         public void get_style(){} // RVA: 0x7C7DFA0
         public void set_style(){} // RVA: 0x7C8BD40
@@ -299,6 +348,28 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutGroup : GUILayoutEntry
     {
+        public object entries;
+        public object isVertical;
+        public object resetCoords;
+        public object spacing;
+        public object sameSize;
+        public object isWindow;
+        public object windowID;
+        public object m_Cursor;
+        public object m_StretchableCountX;
+        public object m_StretchableCountY;
+        public object m_UserSpecifiedWidth;
+        public object m_UserSpecifiedHeight;
+        public object m_ChildMinWidth;
+        public object m_ChildMaxWidth;
+        public object m_ChildMinHeight;
+        public object m_ChildMaxHeight;
+        public object m_MarginLeft;
+        public object m_MarginRight;
+        public object m_MarginTop;
+        public object m_MarginBottom;
+        public object none;
+
         // ── Methods ──
         public void get_marginLeft(){} // RVA: 0xD34760
         public void get_marginRight(){} // RVA: 0xD34730
@@ -340,12 +411,22 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUILayoutOption : Object
     {
+        public object type;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2574280
     }
 
     public class GUILayoutUtility : Object
     {
+        public object s_StoredLayouts;
+        public object s_StoredWindows;
+        public object current;
+        public object kDummyRect;
+        public object _unbalancedgroupscount;
+        public object s_SpaceStyle;
+
         // ── Methods ──
         public void Internal_GetWindowRect(){} // RVA: 0x7C79310
         public void Internal_MoveWindow(){} // RVA: 0x7C793B0
@@ -377,6 +458,19 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIScrollGroup : GUILayoutGroup
     {
+        public object calcMinWidth;
+        public object calcMaxWidth;
+        public object calcMinHeight;
+        public object calcMaxHeight;
+        public object clientWidth;
+        public object clientHeight;
+        public object allowHorizontalScroll;
+        public object allowVerticalScroll;
+        public object needsHorizontalScrollbar;
+        public object needsVerticalScrollbar;
+        public object horizontalScrollbar;
+        public object verticalScrollbar;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C90E60
         public void CalcWidth(){} // RVA: 0x7C90EC0
@@ -407,6 +501,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUISettings : Object
     {
+        public object m_DoubleClickSelectsWord;
+        public object m_TripleClickSelectsLine;
+        public object m_CursorColor;
+        public object m_CursorFlashSpeed;
+        public object m_SelectionColor;
+
         // ── Methods ──
         public void Internal_GetCursorFlashSpeed(){} // RVA: 0x7C7D950
         public void get_doubleClickSelectsWord(){} // RVA: 0x7C7D9A0
@@ -419,6 +519,37 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUISkin : ScriptableObject
     {
+        public object m_Font;
+        public object m_box;
+        public object m_button;
+        public object m_toggle;
+        public object m_label;
+        public object m_textField;
+        public object m_textArea;
+        public object m_window;
+        public object m_horizontalSlider;
+        public object m_horizontalSliderThumb;
+        public object m_horizontalSliderThumbExtent;
+        public object m_verticalSlider;
+        public object m_verticalSliderThumb;
+        public object m_verticalSliderThumbExtent;
+        public object m_SliderMixed;
+        public object m_horizontalScrollbar;
+        public object m_horizontalScrollbarThumb;
+        public object m_horizontalScrollbarLeftButton;
+        public object m_horizontalScrollbarRightButton;
+        public object m_verticalScrollbar;
+        public object m_verticalScrollbarThumb;
+        public object m_verticalScrollbarUpButton;
+        public object m_verticalScrollbarDownButton;
+        public object m_ScrollView;
+        public object m_CustomStyles;
+        public object m_Settings;
+        public object ms_Error;
+        public object m_Styles;
+        public object m_SkinChanged;
+        public object current;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C7DA70
         public void OnEnable(){} // RVA: 0x7C7DC20
@@ -505,6 +636,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStateObjects : Object
     {
+        public object s_StateCache;
+
         // ── Methods ──
         public void GetStateObject(){} // RVA: 0x7C80CE0
         public void .cctor(){} // RVA: 0x7C80E50
@@ -512,6 +645,23 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStyle : Object
     {
+        public object m_Ptr;
+        public object m_Normal;
+        public object m_Hover;
+        public object m_Active;
+        public object m_Focused;
+        public object m_OnNormal;
+        public object m_OnHover;
+        public object m_OnActive;
+        public object m_OnFocused;
+        public object m_Border;
+        public object m_Padding;
+        public object m_Margin;
+        public object m_Overflow;
+        public object m_Name;
+        public object showKeyboardFocus;
+        public object s_None;
+
         // ── Methods ──
         public void get_rawName(){} // RVA: 0x7C81400
         public void set_rawName(){} // RVA: 0x7C81540
@@ -619,6 +769,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIStyleState : Object
     {
+        public object m_Ptr;
+        public object m_SourceStyle;
+
         // ── Methods ──
         public void set_background(){} // RVA: 0x7C80F30
         public void set_textColor(){} // RVA: 0x7C81000
@@ -654,6 +807,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUITargetAttribute : Attribute
     {
+        public object displayMask;
+
         // ── Methods ──
         public void GetGUITargetAttrValue(){} // RVA: 0x7C87040
     }
@@ -692,6 +847,20 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIUtility : Object
     {
+        public object s_ControlCount;
+        public object s_SkinMode;
+        public object s_OriginalID;
+        public object takeCapture;
+        public object releaseCapture;
+        public object processEvent;
+        public object cleanupRoots;
+        public object endContainerGUIFromException;
+        public object guiChanged;
+        public object beforeEventProcessed;
+        public object m_Event;
+        public object _guiIsExiting;
+        public object s_HasCurrentWindowKeyFocusFunc;
+
         // ── Methods ──
         public void get_pixelsPerPoint(){} // RVA: 0x7C87270
         public void set_pixelsPerPoint(){} // RVA: 0x7C872C0
@@ -781,6 +950,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GUIWordWrapSizer : GUILayoutEntry
     {
+        public object m_Content;
+        public object m_ForcedMinHeight;
+        public object m_ForcedMaxHeight;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C8D750
         public void CalcWidth(){} // RVA: 0x7C8D880
@@ -810,16 +983,16 @@ namespace ThirdParty.Unity.UnityEngine
     public class GameObject : Object
     {
         // ── Methods ──
-        public void CreatePrimitive(){} // RVA: 0x7BFEE10
         public void GetComponent(){} // RVA: 0x30DA9F0
+        public void CreatePrimitive(){} // RVA: 0x7BFEE10
         public void GetComponentFastPath(){} // RVA: 0x7BFEF60
         public void GetComponentByName(){} // RVA: 0x7BFF020
         public void GetComponentByNameWithCase(){} // RVA: 0x7BFF200
         public void GetComponentInChildren(){} // RVA: 0x30DAF50
-        public void GetComponentInParent(){} // RVA: 0x30DB2C0
+        public void GetComponentInParent(){} // RVA: 0x30DB280
         public void GetComponentsInternal(){} // RVA: 0x7BFF5E0
-        public void GetComponents(){} // RVA: 0x30DB770
-        public void GetComponentsInChildren(){} // RVA: 0x30DB9C0
+        public void GetComponents(){} // RVA: 0x30DB5F0
+        public void GetComponentsInChildren(){} // RVA: 0x30DB860
         public void GetComponentsInParent(){} // RVA: 0x30DBAC0
         public void TryGetComponent(){} // RVA: 0x30DBC90
         public void TryGetComponentInternal(){} // RVA: 0x7BFFB90
@@ -984,6 +1157,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GlobalJavaObjectRef : Object
     {
+        public object m_disposed;
+        public object m_jobject;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7AE83D0
         public void Finalize(){} // RVA: 0x7AE8450
@@ -993,6 +1169,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Gradient : Object
     {
+        public object m_Ptr;
+        public object m_RequiresNativeCleanup;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x7BE26B0
         public void Cleanup(){} // RVA: 0x7BE2700
@@ -1027,6 +1206,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GradientAlphaKey : ValueType
     {
+        public object alpha;
+        public object time;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7C540
     }
@@ -1053,6 +1235,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GradientColorKey : ValueType
     {
+        public object color;
+        public object time;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x963E80
     }
@@ -1099,6 +1284,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Graphics : Object
     {
+        public object kMaxDrawMeshInstanceCount;
+        public object s_RenderInstancedDataLayouts;
+
         // ── Methods ──
         public void Internal_GetMaxDrawMeshInstanceCount(){} // RVA: 0x7B7A830
         public void Internal_SetNullRT(){} // RVA: 0x7B7A880
@@ -1165,6 +1353,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GraphicsBuffer : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void Finalize(){} // RVA: 0x7BA71D0
         public void Dispose(){} // RVA: 0x7BA7350
@@ -1203,6 +1393,8 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class GraphicsBufferHandle : ValueType
     {
+        public object value;
+
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x454FE0
         public void Equals(){} // RVA: 0x95FA90

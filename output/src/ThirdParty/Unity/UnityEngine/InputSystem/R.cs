@@ -7,6 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class RemoteInputPlayerConnection : ScriptableObject
     {
+        public object kNewDeviceMsg;
+        public object kNewLayoutMsg;
+        public object kNewEventsMsg;
+        public object kRemoveDeviceMsg;
+        public object kChangeUsagesMsg;
+        public object kStartSendingMsg;
+        public object kStopSendingMsg;
+        public object m_Connection;
+        public object m_Subscribers;
+        public object m_ConnectedIds;
+
         // ── Methods ──
         public void Bind(){} // RVA: 0x78B93B0
         public void Subscribe(){} // RVA: 0x78B98D0

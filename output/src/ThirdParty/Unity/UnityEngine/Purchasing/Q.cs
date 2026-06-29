@@ -7,6 +7,14 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
     public class QueryProductDetailsService : Object
     {
+        public object m_BillingClient;
+        public object m_GoogleCachedQueryProductDetailsService;
+        public object m_ProductDetailsConverter;
+        public object m_RetryPolicy;
+        public object m_GoogleProductCallback;
+        public object m_Util;
+        public object m_TelemetryDiagnostics;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x62ACED0
         public void QueryAsyncProduct(){} // RVA: 0x7D7CAD0

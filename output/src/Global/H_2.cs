@@ -12,6 +12,9 @@ public class HasValue : NullableMethodCallInstruction
 
 public class HashBucket : ValueType
 {
+    public object _firstValue;
+    public object _additionalElements;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_IsEmpty(){} // RVA: 0x87D280
@@ -29,6 +32,8 @@ public class HashBucket : ValueType
 
 public class HashCode : ValueType
 {
+    public object _hashCode;
+
     // ── Methods ──
     public void Add(){} // RVA: 0xA94080
     public void ToHashCode(){} // RVA: 0x77E60
@@ -36,6 +41,10 @@ public class HashCode : ValueType
 
 public class HeaderBucket : Object
 {
+    public object Parsed;
+    public object values;
+    public object CustomToString;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6EC9750
     public void get_HasStringValues(){} // RVA: 0x7278BA0
@@ -46,6 +55,8 @@ public class HeaderBucket : Object
 
 public class HeaderTypeInfo`2 : HeaderInfo
 {
+    public object parser;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x895FE0
     public void AddToCollection(){} // RVA: 0x8943B0
@@ -56,6 +67,8 @@ public class HeaderTypeInfo`2 : HeaderInfo
 
 public class HeaderTypeInfo`2 : HeaderInfo
 {
+    public object parser;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x3F8B390
     public void AddToCollection(){} // RVA: 0x3F8B450

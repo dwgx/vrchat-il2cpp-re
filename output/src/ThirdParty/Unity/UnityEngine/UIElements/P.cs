@@ -7,6 +7,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Painter2D : Object
     {
+        public object m_Ctx;
+        public object m_DetachedAllocator;
+        public object m_Handle;
+        public object m_JobSnapshots;
+        public object m_JobParameters;
+        public object m_Disposed;
+        public object _isPainterActive;
+        public object s_StrokeMarker;
+        public object s_FillMarker;
+        public object m_OnMeshGenerationDelegate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80AACB0
         public void Reset(){} // RVA: 0x80AAF10
@@ -19,6 +30,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Panel : BaseVisualElementPanel
     {
+        public object k_DefaultPixelsPerUnit;
+        public object m_RootContainer;
+        public object m_VisualTreeUpdater;
+        public object m_StylePropertyAnimationSystem;
+        public object m_PanelName;
+        public object m_Version;
+        public object m_RepaintVersion;
+        public object m_HierarchyVersion;
+        public object m_MarkerBeforeUpdate;
+        public object m_MarkerUpdate;
+        public object m_MarkerRender;
+        public object m_MarkerLayout;
+        public object m_MarkerBindings;
+        public object m_MarkerDataBinding;
+        public object m_MarkerAnimations;
+        public object m_MarkerPanelChangeReceiver;
+        public object s_MarkerPickAll;
+        public object _dispatcher;
+        public object m_Scheduler;
+        public object _ownerObject;
+        public object _contextType;
+        public object _saveViewData;
+        public object _getViewDataDictionary;
+        public object _focusController;
+        public object _iMGUIEventInterests;
+        public object _loadResourceFunc;
+        public object m_JustReceivedFocus;
+        public object m_PanelChangeReceiver;
+        public object _timeSinceStartup;
+        public object _iMGUIContainersCount;
+        public object _rootIMGUIContainer;
+        public object m_Atlas;
+        public object m_ValidatingLayout;
+        public object beforeAnyRepaint;
+
         // ── Methods ──
         public void get_visualTree(){} // RVA: 0x7C7E920
         public void get_dispatcher(){} // RVA: 0x12CDBF0
@@ -77,6 +123,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1 : EventBase`1
     {
+        public object _originPanel;
+        public object _destinationPanel;
+
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0x87C0A0
         public void set_originPanel(){} // RVA: 0x894320
@@ -90,6 +139,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1 : EventBase`1
     {
+        public object _originPanel;
+        public object _destinationPanel;
+
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0xBBFF90
         public void set_originPanel(){} // RVA: 0xBBFFA0
@@ -103,6 +155,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelChangedEventBase`1 : EventBase`1
     {
+        public object _originPanel;
+        public object _destinationPanel;
+
         // ── Methods ──
         public void get_originPanel(){} // RVA: 0xBBFF90
         public void set_originPanel(){} // RVA: 0xBBFFA0
@@ -116,6 +171,13 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelEventHandler : UIBehaviour
     {
+        public object m_Panel;
+        public object m_PointerEvent;
+        public object m_LastClickTime;
+        public object m_Selecting;
+        public object m_Event;
+        public object s_Modifiers;
+
         // ── Methods ──
         public void get_panel(){} // RVA: 0xB700F0
         public void set_panel(){} // RVA: 0x810BBD0
@@ -157,6 +219,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelRaycaster : BaseRaycaster
     {
+        public object m_Panel;
+
         // ── Methods ──
         public void get_panel(){} // RVA: 0xB70160
         public void set_panel(){} // RVA: 0x810F1C0
@@ -179,6 +243,50 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelSettings : ScriptableObject
     {
+        public object k_DefaultSortingOrder;
+        public object k_DefaultScaleValue;
+        public object k_DefaultStyleSheetPath;
+        public object themeUss;
+        public object m_DisableNoThemeWarning;
+        public object m_TargetTexture;
+        public object m_RenderMode;
+        public object m_WorldSpaceLayer;
+        public object m_ScaleMode;
+        public object m_ReferenceSpritePixelsPerUnit;
+        public object m_PixelsPerUnit;
+        public object m_Scale;
+        public object DefaultDpi;
+        public object m_ReferenceDpi;
+        public object m_FallbackDpi;
+        public object m_ReferenceResolution;
+        public object m_ScreenMatchMode;
+        public object m_Match;
+        public object m_SortingOrder;
+        public object m_TargetDisplay;
+        public object m_BindingLogLevel;
+        public object m_ClearDepthStencil;
+        public object m_ClearColor;
+        public object m_ColorClearValue;
+        public object m_VertexBudget;
+        public object m_PanelAccess;
+        public object m_AttachedUIDocumentsList;
+        public object m_DynamicAtlasSettings;
+        public object m_AtlasBlitShader;
+        public object m_RuntimeShader;
+        public object m_RuntimeWorldShader;
+        public object m_SDFShader;
+        public object m_BitmapShader;
+        public object m_SpriteShader;
+        public object m_ICUDataAsset;
+        public object forceGammaRendering;
+        public object textSettings;
+        public object m_TargetRect;
+        public object m_ResolvedScale;
+        public object m_OldThemeUss;
+        public object _screenDPI;
+        public object m_PanelChangeReceiver;
+        public object m_AssignedScreenToPanel;
+
         // ── Methods ──
         public void get_themeStyleSheet(){} // RVA: 0x3926770
         public void set_themeStyleSheet(){} // RVA: 0x8071AA0
@@ -270,6 +378,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PanelTextSettings : TextSettings
     {
+        public object s_DefaultPanelTextSettings;
+
         // ── Methods ──
         public void get_defaultPanelTextSettings(){} // RVA: 0x7EF5610
         public void InitializeDefaultPanelTextSettingsIfNull(){} // RVA: 0x7EF5660
@@ -317,6 +427,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0x894320
         public void get_pointerId(){} // RVA: 0x87C130
@@ -329,6 +442,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
         public void get_pointerId(){} // RVA: 0x19C6270
@@ -341,6 +457,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
         public void get_pointerId(){} // RVA: 0x19C6270
@@ -353,6 +472,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
         public void get_pointerId(){} // RVA: 0x19C6270
@@ -365,6 +487,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
         public void get_pointerId(){} // RVA: 0x19C6270
@@ -377,6 +502,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerCaptureEventBase`1 : EventBase`1
     {
+        public object _relatedTarget;
+        public object _pointerId;
+
         // ── Methods ──
         public void set_relatedTarget(){} // RVA: 0xBBFFA0
         public void get_pointerId(){} // RVA: 0x19C6270
@@ -411,6 +539,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerDeviceState : Object
     {
+        public object s_PlayerPointerLocations;
+        public object s_PressedButtons;
+        public object s_PlayerPanelWithSoftPointerCapture;
+
         // ── Methods ──
         public void RemovePanelData(){} // RVA: 0x8065800
         public void SavePointerPosition(){} // RVA: 0x80659E0
@@ -430,6 +562,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerDispatchState : Object
     {
+        public object m_PendingPointerCapture;
+        public object m_PointerCapture;
+        public object m_ShouldSendCompatibilityMouseEvents;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x80A2B10
         public void Reset(){} // RVA: 0x80A2E10
@@ -467,6 +603,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0x87C130
         public void set_pointerId(){} // RVA: 0x8944F0
@@ -536,6 +700,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -612,6 +804,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -681,6 +901,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -750,6 +998,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -819,6 +1095,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -888,6 +1192,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -957,6 +1289,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1026,6 +1386,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1095,6 +1483,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1164,6 +1580,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1233,6 +1677,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1302,6 +1774,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1371,6 +1871,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1440,6 +1968,34 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerEventBase`1 : EventBase`1
     {
+        public object k_DefaultButtonPressure;
+        public object m_AltitudeNeedsConversion;
+        public object m_AzimuthNeedsConversion;
+        public object m_AltitudeAngle;
+        public object m_AzimuthAngle;
+        public object m_TiltNeeded;
+        public object m_Tilt;
+        public object _pointerId;
+        public object _pointerType;
+        public object _isPrimary;
+        public object _button;
+        public object _pressedButtons;
+        public object _position;
+        public object _localPosition;
+        public object _deltaPosition;
+        public object _deltaTime;
+        public object _clickCount;
+        public object _pressure;
+        public object _tangentialPressure;
+        public object _twist;
+        public object _penStatus;
+        public object _radius;
+        public object _radiusVariance;
+        public object _modifiers;
+        public object _triggeredByOS;
+        public object _compatibilityMouseEvent;
+        public object _displayIndex;
+
         // ── Methods ──
         public void get_pointerId(){} // RVA: 0xD34760
         public void set_pointerId(){} // RVA: 0xD34750
@@ -1522,6 +2078,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerId : Object
     {
+        public object maxPointers;
+        public object invalidPointerId;
+        public object mousePointerId;
+        public object touchPointerIdBase;
+        public object touchPointerCount;
+        public object penPointerIdBase;
+        public object penPointerCount;
+        public object hoveringPointers;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8066860
     }
@@ -1539,6 +2104,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerManipulator : MouseManipulator
     {
+        public object m_CurrentPointerId;
+
         // ── Methods ──
         public void CanStartManipulation(){} // RVA: 0x80A3760
         public void CanStopManipulation(){} // RVA: 0x80A39A0
@@ -1547,6 +2114,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerMoveEvent : PointerEventBase`1
     {
+        public object _isHandledByDraggable;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8067150
         public void get_isHandledByDraggable(){} // RVA: 0x2443BA0
@@ -1578,6 +2147,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PointerType : Object
     {
+        public object mouse;
+        public object touch;
+        public object pen;
+        public object unknown;
+
         // ── Methods ──
         public void GetPointerType(){} // RVA: 0x8066490
         public void IsDirectManipulationDevice(){} // RVA: 0x80665A0
@@ -1597,6 +2171,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PopupField`1 : BasePopupField`2
     {
+        public object indexProperty;
+        public object m_Index;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void GetValueToDisplay(){} // RVA: 0x87C0A0
         public void GetListItemToDisplay(){} // RVA: 0xA94080
@@ -1613,6 +2193,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PopupField`1 : BasePopupField`2
     {
+        public object indexProperty;
+        public object m_Index;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void GetValueToDisplay(){} // RVA: 0x4870860
         public void GetListItemToDisplay(){} // RVA: 0x4870970
@@ -1629,6 +2215,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PopupWindow : TextElement
     {
+        public object m_ContentContainer;
+        public object ussClassName;
+        public object contentUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x800E5C0
         public void get_contentContainer(){} // RVA: 0x7FCF450
@@ -1649,6 +2239,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PropagationPaths : Object
     {
+        public object s_Pool;
+        public object trickleDownPath;
+        public object bubbleUpPath;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x806A1F0
         public void Build(){} // RVA: 0x806A410
@@ -1658,6 +2252,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PropertyChangedEvent : EventBase`1
     {
+        public object _property;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7F2D800
         public void get_property(){} // RVA: 0x7F2D8F0
@@ -1668,6 +2264,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class PropertyPathInfo : ValueType
     {
+        public object propertyPath;
+        public object type;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x991800
     }

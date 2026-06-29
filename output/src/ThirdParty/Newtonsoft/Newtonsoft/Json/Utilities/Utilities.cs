@@ -1,12 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
-// Classes: 63
-// Methods: 496
+// Classes: 64
+// Methods: 521
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 {
     public class AotHelper : Object
     {
+        public object s_alwaysFalse;
+
         // ── Methods ──
         public void Ensure(){} // RVA: 0x6A301A0
         public void EnsureType(){} // RVA: 0x8942F0
@@ -18,6 +20,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class AsyncUtils : Object
     {
+        public object False;
+        public object True;
+        public object CompletedTask;
+
         // ── Methods ──
         public void ToAsync(){} // RVA: 0x6A303E0
         public void CancelIfRequestedAsync(){} // RVA: 0x882880
@@ -30,6 +36,13 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class Base64Encoder : Object
     {
+        public object Base64LineSize;
+        public object LineSizeInBytes;
+        public object _charsLine;
+        public object _writer;
+        public object _leftOverBytes;
+        public object _leftOverBytesCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A30E90
         public void ValidateEncode(){} // RVA: 0x6A30FF0
@@ -45,6 +58,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class BidirectionalDictionary`2 : Object
     {
+        public object _firstToSecond;
+        public object _secondToFirst;
+        public object _duplicateFirstErrorMessage;
+        public object _duplicateSecondErrorMessage;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899870
         public void Set(){} // RVA: 0xA94080
@@ -54,6 +72,34 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class BoxedPrimitives : Object
     {
+        public object BooleanTrue;
+        public object BooleanFalse;
+        public object Int32_M1;
+        public object Int32_0;
+        public object Int32_1;
+        public object Int32_2;
+        public object Int32_3;
+        public object Int32_4;
+        public object Int32_5;
+        public object Int32_6;
+        public object Int32_7;
+        public object Int32_8;
+        public object Int64_M1;
+        public object Int64_0;
+        public object Int64_1;
+        public object Int64_2;
+        public object Int64_3;
+        public object Int64_4;
+        public object Int64_5;
+        public object Int64_6;
+        public object Int64_7;
+        public object Int64_8;
+        public object DecimalZero;
+        public object DoubleNaN;
+        public object DoublePositiveInfinity;
+        public object DoubleNegativeInfinity;
+        public object DoubleZero;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x6A32740
         public void .cctor(){} // RVA: 0x6A328B0
@@ -71,8 +117,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
     {
         // ── Methods ──
         public void AddRange(){} // RVA: 0x8945C0
-        public void IndexOf(){} // RVA: 0x881CE0
         public void ArrayEmpty(){} // RVA: 0x87C0D0
+        public void IndexOf(){} // RVA: 0x881CE0
         public void IsNullOrEmpty(){} // RVA: 0x87D390
         public void Contains(){} // RVA: 0xA94080
         public void IsDictionaryType(){} // RVA: 0x6A338F0
@@ -90,6 +136,44 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class CollectionWrapper`1 : Object
     {
+        public object _list;
+        public object _genericCollection;
+        public object _syncRoot;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x62A0A20
+        public void Add(){} // RVA: 0x62A0B00
+        public void Clear(){} // RVA: 0x62A0C70
+        public void Contains(){} // RVA: 0x62A0D20
+        public void CopyTo(){} // RVA: 0x62A0E90
+        public void get_Count(){} // RVA: 0x62A0F50
+        public void get_IsReadOnly(){} // RVA: 0x62A1000
+        public void Remove(){} // RVA: 0x62A10B0
+        public void GetEnumerator(){} // RVA: 0x62A12A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x62A1320
+        public void System.Collections.IList.Add(){} // RVA: 0x62A1380
+        public void System.Collections.IList.Contains(){} // RVA: 0x62A1570
+        public void System.Collections.IList.IndexOf(){} // RVA: 0x62A1760
+        public void System.Collections.IList.RemoveAt(){} // RVA: 0x62A19A0
+        public void System.Collections.IList.Insert(){} // RVA: 0x62A1A50
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x62A1C90
+        public void System.Collections.IList.Remove(){} // RVA: 0x62A1D40
+        public void System.Collections.IList.get_Item(){} // RVA: 0x62A1F10
+        public void System.Collections.IList.set_Item(){} // RVA: 0x62A1FC0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x62A2200
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xB43320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x62A22A0
+        public void VerifyValueType(){} // RVA: 0x62A2350
+        public void IsCompatibleObject(){} // RVA: 0x62A2490
+        public void get_UnderlyingCollection(){} // RVA: 0x62A2640
+    }
+
+    public class CollectionWrapper`1 : Object
+    {
+        public object _list;
+        public object _genericCollection;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Add(){} // RVA: 0xA94080
@@ -120,6 +204,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ConvertUtils : Object
     {
+        public object TypeCodeMap;
+        public object PrimitiveTypeCodes;
+        public object CastConverters;
+
         // ── Methods ──
         public void GetTypeCode(){} // RVA: 0x6A34950
         public void GetTypeInformation(){} // RVA: 0x6A34C60
@@ -154,6 +242,34 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DateTimeParser : ValueType
     {
+        public object Year;
+        public object Month;
+        public object Day;
+        public object Hour;
+        public object Minute;
+        public object Second;
+        public object Fraction;
+        public object ZoneHour;
+        public object ZoneMinute;
+        public object Zone;
+        public object _text;
+        public object _end;
+        public object Power10;
+        public object Lzyyyy;
+        public object Lzyyyy_;
+        public object Lzyyyy_MM;
+        public object Lzyyyy_MM_;
+        public object Lzyyyy_MM_dd;
+        public object Lzyyyy_MM_ddT;
+        public object LzHH;
+        public object LzHH_;
+        public object LzHH_mm;
+        public object LzHH_mm_;
+        public object LzHH_mm_ss;
+        public object Lz_;
+        public object Lz_zz;
+        public object MaxFractionDigits;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6A3A2B0
         public void Parse(){} // RVA: 0x8C5A40
@@ -168,6 +284,16 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DateTimeUtils : Object
     {
+        public object InitialJavaScriptDateTicks;
+        public object IsoDateFormat;
+        public object DaysPer100Years;
+        public object DaysPer400Years;
+        public object DaysPer4Years;
+        public object DaysPerYear;
+        public object TicksPerDay;
+        public object DaysToMonth365;
+        public object DaysToMonth366;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6A3B2C0
         public void GetUtcOffset(){} // RVA: 0x6A3B480
@@ -200,6 +326,11 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DictionaryWrapper`2 : Object
     {
+        public object _dictionary;
+        public object _genericDictionary;
+        public object _readOnlyDictionary;
+        public object _syncRoot;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void get_GenericDictionary(){} // RVA: 0x87C0A0
@@ -234,6 +365,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class DynamicProxyMetaObject`1 : DynamicMetaObject
     {
+        public object _proxy;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void IsOverridden(){} // RVA: 0x87D350
@@ -326,12 +459,22 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class EnumInfo : Object
     {
+        public object IsFlags;
+        public object Values;
+        public object Names;
+        public object ResolvedNames;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A419C0
     }
 
     public class EnumUtils : Object
     {
+        public object EnumSeparatorChar;
+        public object EnumSeparatorString;
+        public object ValuesAndNamesPerEnum;
+        public object _camelCaseNamingStrategy;
+
         // ── Methods ──
         public void InitializeValuesAndNames(){} // RVA: 0x6A41AC0
         public void GetFlagsValues(){} // RVA: 0xA94080
@@ -347,6 +490,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class FSharpFunction : Object
     {
+        public object _instance;
+        public object _invoker;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void Invoke(){} // RVA: 0x6A438C0
@@ -354,6 +500,24 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class FSharpUtils : Object
     {
+        public object Lock;
+        public object _instance;
+        public object _ofSeq;
+        public object _mapType;
+        public object _fSharpCoreAssembly;
+        public object _isUnion;
+        public object _getUnionCases;
+        public object _preComputeUnionTagReader;
+        public object _preComputeUnionReader;
+        public object _preComputeUnionConstructor;
+        public object _getUnionCaseInfoDeclaringType;
+        public object _getUnionCaseInfoName;
+        public object _getUnionCaseInfoTag;
+        public object _getUnionCaseInfoFields;
+        public object FSharpSetTypeName;
+        public object FSharpListTypeName;
+        public object FSharpMapTypeName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A438F0
         public void get_Instance(){} // RVA: 0x6A444C0
@@ -400,6 +564,30 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ImmutableCollectionsUtils : Object
     {
+        public object ImmutableListGenericInterfaceTypeName;
+        public object ImmutableQueueGenericInterfaceTypeName;
+        public object ImmutableStackGenericInterfaceTypeName;
+        public object ImmutableSetGenericInterfaceTypeName;
+        public object ImmutableArrayTypeName;
+        public object ImmutableArrayGenericTypeName;
+        public object ImmutableListTypeName;
+        public object ImmutableListGenericTypeName;
+        public object ImmutableQueueTypeName;
+        public object ImmutableQueueGenericTypeName;
+        public object ImmutableStackTypeName;
+        public object ImmutableStackGenericTypeName;
+        public object ImmutableSortedSetTypeName;
+        public object ImmutableSortedSetGenericTypeName;
+        public object ImmutableHashSetTypeName;
+        public object ImmutableHashSetGenericTypeName;
+        public object ArrayContractImmutableCollectionDefinitions;
+        public object ImmutableDictionaryGenericInterfaceTypeName;
+        public object ImmutableDictionaryTypeName;
+        public object ImmutableDictionaryGenericTypeName;
+        public object ImmutableSortedDictionaryTypeName;
+        public object ImmutableSortedDictionaryGenericTypeName;
+        public object DictionaryContractImmutableCollectionDefinitions;
+
         // ── Methods ──
         public void TryBuildImmutableForArrayContract(){} // RVA: 0x6A451C0
         public void TryBuildImmutableForDictionaryContract(){} // RVA: 0x6A457A0
@@ -408,6 +596,12 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class JavaScriptUtils : Object
     {
+        public object SingleQuoteCharEscapeFlags;
+        public object DoubleQuoteCharEscapeFlags;
+        public object HtmlCharEscapeFlags;
+        public object UnicodeTextLength;
+        public object EscapedUnicodeText;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6A468B0
         public void GetCharEscapeFlags(){} // RVA: 0x6A47490
@@ -434,6 +628,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
+        public object _instance;
+
         // ── Methods ──
         public void CreateDefaultConstructor(){} // RVA: 0x87C540
         public void get_Instance(){} // RVA: 0x6A4B2E0
@@ -480,6 +676,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class NoThrowExpressionVisitor : ExpressionVisitor
     {
+        public object ErrorResult;
+
         // ── Methods ──
         public void VisitConditional(){} // RVA: 0x6A416B0
         public void .ctor(){} // RVA: 0xB43310
@@ -488,6 +686,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class NoThrowGetBinderMember : GetMemberBinder
     {
+        public object _innerBinder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A41210
         public void FallbackGetMember(){} // RVA: 0x6A412A0
@@ -495,6 +695,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class NoThrowSetBinderMember : SetMemberBinder
     {
+        public object _innerBinder;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6A413B0
         public void FallbackSetMember(){} // RVA: 0x6A41550
@@ -513,6 +715,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionMember : Object
     {
+        public object _memberType;
+        public object _getter;
+        public object _setter;
+
         // ── Methods ──
         public void get_MemberType(){} // RVA: 0xB5DBF0
         public void set_MemberType(){} // RVA: 0xB44D60
@@ -525,6 +731,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionObject : Object
     {
+        public object _creator;
+        public object _members;
+
         // ── Methods ──
         public void get_Creator(){} // RVA: 0xB5DBF0
         public void get_Members(){} // RVA: 0xB465B0
@@ -537,6 +746,8 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ReflectionUtils : Object
     {
+        public object EmptyTypes;
+
         // ── Methods ──
         public void GetAttribute(){} // RVA: 0xA94080
         public void GetAttributes(){} // RVA: 0x6A509A0
@@ -583,6 +794,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringBuffer : ValueType
     {
+        public object _buffer;
+        public object _position;
+
         // ── Methods ──
         public void get_Position(){} // RVA: 0x14790
         public void set_Position(){} // RVA: 0x92DD0
@@ -597,6 +811,10 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringReference : ValueType
     {
+        public object _chars;
+        public object _startIndex;
+        public object _length;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x8C6720
         public void get_Chars(){} // RVA: 0x77900
@@ -616,6 +834,12 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StringUtils : Object
     {
+        public object CarriageReturnLineFeed;
+        public object Empty;
+        public object CarriageReturn;
+        public object LineFeed;
+        public object Tab;
+
         // ── Methods ──
         public void ForgivingCaseSensitiveFind(){} // RVA: 0xA94080
         public void IsNullOrEmpty(){} // RVA: 0x6A532E0
@@ -639,6 +863,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
+        public object Value1;
+        public object Value2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void GetHashCode(){} // RVA: 0x87C130
@@ -647,6 +874,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
+        public object Value1;
+        public object Value2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void GetHashCode(){} // RVA: 0x4A33C0
@@ -655,6 +885,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
+        public object Value1;
+        public object Value2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void GetHashCode(){} // RVA: 0x4A33C0
@@ -663,6 +896,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class StructMultiKey`2 : ValueType
     {
+        public object Value1;
+        public object Value2;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void GetHashCode(){} // RVA: 0x4A33C0
@@ -671,6 +907,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void Get(){} // RVA: 0xA94080
@@ -678,6 +917,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF0F70
         public void Get(){} // RVA: 0x4EF11A0
@@ -685,6 +927,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF11E0
         public void Get(){} // RVA: 0x4EF1370
@@ -692,6 +937,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF11E0
         public void Get(){} // RVA: 0x4EF1370
@@ -699,6 +947,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF11E0
         public void Get(){} // RVA: 0x4EF1370
@@ -706,6 +957,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF11E0
         public void Get(){} // RVA: 0x4EF1370
@@ -713,6 +967,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF0F70
         public void Get(){} // RVA: 0x4EF11A0
@@ -720,6 +977,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF11E0
         public void Get(){} // RVA: 0x4EF1370
@@ -727,6 +987,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4EF1370
         public void .ctor(){} // RVA: 0x4EF11E0
@@ -734,6 +997,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4EF1370
         public void .ctor(){} // RVA: 0x4EF11E0
@@ -741,6 +1007,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4EF1370
         public void .ctor(){} // RVA: 0x4EF11E0
@@ -748,6 +1017,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void Get(){} // RVA: 0x4EF1370
         public void .ctor(){} // RVA: 0x4EF11E0
@@ -755,6 +1027,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class ThreadSafeStore`2 : Object
     {
+        public object _concurrentStore;
+        public object _creator;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4EF0F70
         public void Get(){} // RVA: 0x4EF11A0
@@ -784,6 +1059,9 @@ namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Utilities
 
     public class TypeInformation : Object
     {
+        public object _type;
+        public object _typeCode;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xB5DBF0
         public void get_TypeCode(){} // RVA: 0xE62D00

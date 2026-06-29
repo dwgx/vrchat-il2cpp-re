@@ -7,6 +7,11 @@ namespace VRC.SDK.Experimental
 {
     public class VRCImageSaver : VRCCustomAction
     {
+        public object textures;
+        public object useAlpha;
+        public object f_0CF;
+        public object f_DBD;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2518830
         public void Initialize(){} // RVA: 0x25189A0
@@ -23,6 +28,8 @@ namespace VRC.SDK.Experimental
 
     public class VRCUdonMovieCapture : VRCCustomAction
     {
+        public object Cameras;
+
         // ── Methods ──
         public void Execute(){} // RVA: 0x251E190
         public void Start(){} // RVA: 0xD93530

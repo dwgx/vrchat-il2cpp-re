@@ -1,12 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.ZLinq.ZLinq
 // Classes: 9
-// Methods: 38
+// Methods: 37
 
 namespace ThirdParty.ZLinq.ZLinq
 {
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x899290
         public void get_Memory(){} // RVA: 0xA94080
@@ -19,6 +22,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void get_Memory(){} // RVA: 0x47B280
@@ -31,6 +37,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void get_Memory(){} // RVA: 0x47B280
@@ -43,6 +52,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x28E70
         public void get_Memory(){} // RVA: 0x47B280
@@ -55,6 +67,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x47B4E0
         public void .ctor(){} // RVA: 0x28E70
@@ -62,6 +77,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x47B4E0
         public void .ctor(){} // RVA: 0x28E70
@@ -69,6 +87,9 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x47B4E0
         public void .ctor(){} // RVA: 0x28E70
@@ -76,13 +97,18 @@ namespace ThirdParty.ZLinq.ZLinq
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x47B4E0
-        public void .ctor(){} // RVA: 0x28E70
     }
 
     public class PooledArray`1 : ValueType
     {
+        public object array;
+        public object size;
+
         // ── Methods ──
         public void Deconstruct(){} // RVA: 0x47B4E0
         public void .ctor(){} // RVA: 0x28E70

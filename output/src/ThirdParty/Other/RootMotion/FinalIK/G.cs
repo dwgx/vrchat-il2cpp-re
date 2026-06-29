@@ -7,6 +7,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class GenericPoser : Poser
     {
+        public object maps;
+
         // ── Methods ──
         public void AutoMapping(){} // RVA: 0xCABC10
         public void InitiatePoser(){} // RVA: 0xCAC0C0
@@ -19,6 +21,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounder : MonoBehaviour
     {
+        public object weight;
+        public object solver;
+        public object OnPreGrounder;
+        public object OnPostGrounder;
+        public object _initiated;
+
         // ── Methods ──
         public void ResetPosition(){} // RVA: 0x894290
         public void get_initiated(){} // RVA: 0xC02470
@@ -34,6 +42,16 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderBipedIK : Grounder
     {
+        public object ik;
+        public object spineBend;
+        public object spineSpeed;
+        public object feet;
+        public object footRotations;
+        public object animatedPelvisLocalPosition;
+        public object solvedPelvisLocalPosition;
+        public object spineOffset;
+        public object lastWeight;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -51,6 +69,14 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderFBBIK : Grounder
     {
+        public object ik;
+        public object spineBend;
+        public object spineSpeed;
+        public object spine;
+        public object feet;
+        public object spineOffset;
+        public object firstSolve;
+
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0xB43310
         public void OpenUserManual(){} // RVA: 0xB43310
@@ -70,6 +96,21 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderIK : Grounder
     {
+        public object legs;
+        public object pelvis;
+        public object characterRoot;
+        public object rootRotationWeight;
+        public object rootRotationSpeed;
+        public object maxRootRotationAngle;
+        public object feet;
+        public object footRotations;
+        public object animatedPelvisLocalPosition;
+        public object solvedPelvisLocalPosition;
+        public object solvedFeet;
+        public object solved;
+        public object lastWeight;
+        public object characterRootRigidbody;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -87,6 +128,36 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderQuadruped : Grounder
     {
+        public object forelegSolver;
+        public object rootRotationWeight;
+        public object minRootRotation;
+        public object maxRootRotation;
+        public object rootRotationSpeed;
+        public object maxLegOffset;
+        public object maxForeLegOffset;
+        public object maintainHeadRotationWeight;
+        public object characterRoot;
+        public object pelvis;
+        public object lastSpineBone;
+        public object head;
+        public object legs;
+        public object forelegs;
+        public object gravity;
+        public object feet;
+        public object animatedPelvisLocalPosition;
+        public object animatedPelvisLocalRotation;
+        public object animatedHeadLocalRotation;
+        public object solvedPelvisLocalPosition;
+        public object solvedPelvisLocalRotation;
+        public object solvedHeadLocalRotation;
+        public object solvedFeet;
+        public object solved;
+        public object angle;
+        public object forefeetRoot;
+        public object headRotation;
+        public object lastWeight;
+        public object characterRootRigidbody;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -110,6 +181,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class GrounderVRIK : Grounder
     {
+        public object ik;
+        public object feet;
+
         // ── Methods ──
         public void OpenTutorial(){} // RVA: 0xB43310
         public void OpenUserManual(){} // RVA: 0xB43310
@@ -128,6 +202,31 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Grounding : Object
     {
+        public object layers;
+        public object maxStep;
+        public object heightOffset;
+        public object footSpeed;
+        public object footRadius;
+        public object footCenterOffset;
+        public object prediction;
+        public object footRotationWeight;
+        public object footRotationSpeed;
+        public object maxFootRotationAngle;
+        public object rotateSolver;
+        public object pelvisSpeed;
+        public object pelvisDamper;
+        public object lowerPelvisWeight;
+        public object liftPelvisWeight;
+        public object rootSphereCastRadius;
+        public object overstepFallsDown;
+        public object quality;
+        public object _legs;
+        public object _pelvis;
+        public object _isGrounded;
+        public object _root;
+        public object _rootHit;
+        public object initiated;
+
         // ── Methods ──
         public void get_legs(){} // RVA: 0xC0FFC0
         public void set_legs(){} // RVA: 0xC0FFD0

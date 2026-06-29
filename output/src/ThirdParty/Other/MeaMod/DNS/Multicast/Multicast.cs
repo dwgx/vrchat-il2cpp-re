@@ -7,6 +7,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 {
     public class MessageEventArgs : EventArgs
     {
+        public object _message;
+        public object _remoteEndPoint;
+
         // ── Methods ──
         public void get_Message(){} // RVA: 0xB5DBF0
         public void set_Message(){} // RVA: 0xB44D60
@@ -18,6 +21,16 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class MulticastClient : Object
     {
+        public object MulticastPort;
+        public object MulticastAddressIp4;
+        public object MulticastAddressIp6;
+        public object MdnsEndpointIp6;
+        public object MdnsEndpointIp4;
+        public object receivers;
+        public object senders;
+        public object MessageReceived;
+        public object disposedValue;
+
         // ── Methods ──
         public void add_MessageReceived(){} // RVA: 0x6525A40
         public void remove_MessageReceived(){} // RVA: 0x6525B50
@@ -32,6 +45,26 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class MulticastService : Object
     {
+        public object packetOverhead;
+        public object maxDatagramSize;
+        public object maxLegacyUnicastTTL;
+        public object knownNics;
+        public object maxPacketSize;
+        public object sentMessages;
+        public object receivedMessages;
+        public object client;
+        public object unicastClientIp4;
+        public object unicastClientIp6;
+        public object networkInterfacesFilter;
+        public object QueryReceived;
+        public object AnswerReceived;
+        public object MalformedMessage;
+        public object NetworkInterfaceDiscovered;
+        public object _useIpv4;
+        public object _useIpv6;
+        public object _ignoreDuplicateMessages;
+        public object _networkInterfaceDiscoveryInterval;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x6528B90
         public void add_QueryReceived(){} // RVA: 0x6528D30
@@ -70,6 +103,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class NetworkInterfaceEventArgs : EventArgs
     {
+        public object _networkInterfaces;
+
         // ── Methods ──
         public void get_NetworkInterfaces(){} // RVA: 0xB5DBF0
         public void set_NetworkInterfaces(){} // RVA: 0xB44D60
@@ -78,6 +113,9 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class RecentMessages : Object
     {
+        public object Messages;
+        public object _interval;
+
         // ── Methods ──
         public void get_Interval(){} // RVA: 0xB465B0
         public void set_Interval(){} // RVA: 0x15428E0
@@ -89,6 +127,18 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceDiscovery : Object
     {
+        public object LocalDomain;
+        public object SubName;
+        public object ServiceName;
+        public object ownsMdns;
+        public object profiles;
+        public object _mdns;
+        public object _answersContainsAdditionalRecords;
+        public object _nameServer;
+        public object ServiceDiscovered;
+        public object ServiceInstanceDiscovered;
+        public object ServiceInstanceShutdown;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x652DA70
         public void get_Mdns(){} // RVA: 0xB700F0
@@ -118,6 +168,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceInstanceDiscoveryEventArgs : MessageEventArgs
     {
+        public object _serviceInstanceName;
+
         // ── Methods ──
         public void get_ServiceInstanceName(){} // RVA: 0xB700F0
         public void set_ServiceInstanceName(){} // RVA: 0xB70100
@@ -126,6 +178,8 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceInstanceShutdownEventArgs : MessageEventArgs
     {
+        public object _serviceInstanceName;
+
         // ── Methods ──
         public void get_ServiceInstanceName(){} // RVA: 0xB700F0
         public void set_ServiceInstanceName(){} // RVA: 0xB70100
@@ -134,6 +188,13 @@ namespace ThirdParty.Other.MeaMod.DNS.Multicast
 
     public class ServiceProfile : Object
     {
+        public object _domain;
+        public object _serviceName;
+        public object _instanceName;
+        public object _hostName;
+        public object _resources;
+        public object _subtypes;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0xB43310
         public void .ctor(){} // RVA: 0x65311F0

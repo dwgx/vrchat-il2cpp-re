@@ -7,16 +7,22 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2B100
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77E50
+        public void .ctor(){} // RVA: 0x2B100
         public void Deconstruct(){} // RVA: 0x361450
         public void ToString(){} // RVA: 0x3614C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x77ED0
         public void .ctor(){} // RVA: 0x3616C0
@@ -27,6 +33,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -35,14 +44,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
-        // ── Methods ──
-        public void get_Key(){} // RVA: 0x77900
-        public void get_Value(){} // RVA: 0x77ED0
-        public void .ctor(){} // RVA: 0x76310
-    }
+        public object key;
+        public object value;
 
-    public class KeyValuePair`2 : ValueType
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA94080
         public void get_Key(){} // RVA: 0xA94080
@@ -53,6 +57,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -61,6 +68,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -69,6 +79,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -77,6 +90,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -85,6 +101,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -93,6 +112,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -101,6 +123,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -109,6 +134,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x14790
@@ -119,6 +147,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -127,6 +158,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -135,6 +169,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -145,6 +182,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0xD1A70
@@ -153,6 +193,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -161,6 +204,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0xD1A70
@@ -169,6 +215,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -179,6 +228,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -189,6 +241,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void get_Key(){} // RVA: 0x77E60
@@ -199,6 +254,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -209,6 +267,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void get_Key(){} // RVA: 0x77900
@@ -219,6 +280,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -229,6 +293,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
         public void get_Key(){} // RVA: 0x77900
@@ -239,6 +306,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void get_Key(){} // RVA: 0x77E60
@@ -249,6 +319,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3616C0
         public void get_Key(){} // RVA: 0x77E60
@@ -259,6 +332,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x35C0C0
         public void get_Key(){} // RVA: 0x7BF80
@@ -269,6 +345,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x8E1D0
         public void get_Value(){} // RVA: 0x931A0
@@ -277,6 +356,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77E50
@@ -287,6 +369,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0xCB720
@@ -295,6 +380,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -303,6 +391,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -311,6 +402,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -319,6 +413,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -327,6 +424,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77E50
@@ -335,6 +435,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x9B0B0
@@ -343,6 +446,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -351,6 +457,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -359,6 +468,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -367,6 +479,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -375,6 +490,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -383,6 +501,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -391,6 +512,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -399,6 +523,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -407,6 +534,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x14790
@@ -415,6 +545,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -423,6 +556,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x8E1D0
         public void get_Value(){} // RVA: 0x931A0
@@ -431,6 +567,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -439,6 +578,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x8E1D0
         public void get_Value(){} // RVA: 0x931A0
@@ -447,6 +589,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0xD1A70
@@ -455,6 +600,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0xD1A70
@@ -463,6 +611,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x77ED0
         public void .ctor(){} // RVA: 0x3616C0
@@ -473,6 +624,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -481,6 +635,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -491,24 +648,22 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
-        // ── Methods ──
-        public void get_Key(){} // RVA: 0x77E60
-        public void get_Value(){} // RVA: 0xD1B60
-        public void .ctor(){} // RVA: 0x295C0
-    }
+        public object key;
+        public object value;
 
-    public class KeyValuePair`2 : ValueType
-    {
         // ── Methods ──
+        public void .ctor(){} // RVA: 0x76310
         public void get_Key(){} // RVA: 0x77900
-        public void get_Value(){} // RVA: 0xCB720
-        public void .ctor(){} // RVA: 0x363660
-        public void ToString(){} // RVA: 0x363680
-        public void Deconstruct(){} // RVA: 0x363710
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x364630
+        public void Deconstruct(){} // RVA: 0x364690
     }
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -517,6 +672,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -525,14 +683,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
-        // ── Methods ──
-        public void get_Key(){} // RVA: 0x77900
-        public void get_Value(){} // RVA: 0x77ED0
-        public void .ctor(){} // RVA: 0x76310
-    }
+        public object key;
+        public object value;
 
-    public class KeyValuePair`2 : ValueType
-    {
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -541,6 +694,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77E50
@@ -549,6 +705,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77E60
         public void get_Value(){} // RVA: 0x77ED0
@@ -557,6 +716,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -565,6 +727,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -573,6 +738,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -581,6 +749,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -589,6 +760,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -597,6 +771,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -605,6 +782,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -613,6 +793,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -621,6 +804,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -629,6 +815,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -637,6 +826,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -645,6 +837,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -653,6 +848,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -661,6 +859,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -669,6 +870,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -677,6 +881,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -685,6 +892,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x7BF80
         public void get_Value(){} // RVA: 0x7E450
@@ -693,6 +903,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -701,6 +914,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -709,6 +925,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -717,6 +936,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -725,6 +947,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -733,6 +958,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -741,6 +969,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -749,6 +980,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -757,6 +991,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -765,6 +1002,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -773,6 +1013,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -781,6 +1024,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -789,6 +1035,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -797,6 +1046,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -805,6 +1057,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -813,6 +1068,9 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0
@@ -821,6 +1079,42 @@ namespace ThirdParty.DotNet.System.Collections.Generic
 
     public class KeyValuePair`2 : ValueType
     {
+        public object key;
+        public object value;
+
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        public object key;
+        public object value;
+
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        public object key;
+        public object value;
+
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        public object key;
+        public object value;
+
         // ── Methods ──
         public void get_Key(){} // RVA: 0x77900
         public void get_Value(){} // RVA: 0x77ED0

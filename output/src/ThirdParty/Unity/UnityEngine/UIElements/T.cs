@@ -7,6 +7,39 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Tab : VisualElement
     {
+        public object labelProperty;
+        public object iconImageProperty;
+        public object closeableProperty;
+        public object ussClassName;
+        public object tabHeaderUssClassName;
+        public object tabHeaderImageUssClassName;
+        public object tabHeaderEmptyImageUssClassName;
+        public object tabHeaderStandaloneImageUssClassName;
+        public object tabHeaderLabelUssClassName;
+        public object tabHeaderEmptyLabeUssClassName;
+        public object tabHeaderUnderlineUssClassName;
+        public object contentUssClassName;
+        public object draggingUssClassName;
+        public object reorderableUssClassName;
+        public object reorderableItemHandleUssClassName;
+        public object reorderableItemHandleBarUssClassName;
+        public object closeableUssClassName;
+        public object closeButtonUssClassName;
+        public object selected;
+        public object closing;
+        public object closed;
+        public object m_Label;
+        public object m_IconImage;
+        public object m_Closeable;
+        public object m_ContentContainer;
+        public object m_DragHandle;
+        public object m_CloseButton;
+        public object m_TabHeader;
+        public object m_TabHeaderImage;
+        public object m_TabHeaderLabel;
+        public object _dragger;
+        public object _index;
+
         // ── Methods ──
         public void add_selected(){} // RVA: 0x8026300
         public void remove_selected(){} // RVA: 0x8026420
@@ -39,6 +72,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TabDragLocationPreview : VisualElement
     {
+        public object ussClassName;
+        public object visualUssClassName;
+        public object verticalUssClassName;
+        public object horizontalUssClassName;
+        public object m_Preview;
+
         // ── Methods ──
         public void get_preview(){} // RVA: 0x1667E80
         public void .ctor(){} // RVA: 0x8029C90
@@ -47,6 +86,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TabDragPreview : VisualElement
     {
+        public object ussClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8029A70
         public void .cctor(){} // RVA: 0x8029BA0
@@ -54,6 +95,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TabDragger : PointerManipulator
     {
+        public object m_StartPos;
+        public object m_LastPos;
+        public object m_Moving;
+        public object m_Cancelled;
+        public object m_Header;
+        public object m_TabView;
+        public object m_PreviewElement;
+        public object m_LocationPreviewElement;
+        public object m_TabToMove;
+        public object m_TabToMovePos;
+        public object m_DestinationTab;
+        public object m_MoveBeforeDestination;
+        public object m_DraggingPointerId;
+        public object _tabLayout;
+        public object _active;
+        public object _isVertical;
+
         // ── Methods ──
         public void get_tabLayout(){} // RVA: 0xCD3320
         public void set_tabLayout(){} // RVA: 0xCD4740
@@ -85,6 +143,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TabLayout : Object
     {
+        public object m_TabView;
+        public object m_TabHeaders;
+        public object m_IsVertical;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x802A170
         public void GetHeight(){} // RVA: 0x802A250
@@ -96,6 +158,25 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TabView : VisualElement
     {
+        public object reorderableProperty;
+        public object ussClassName;
+        public object headerContainerClassName;
+        public object contentContainerUssClassName;
+        public object reorderableUssClassName;
+        public object verticalUssClassName;
+        public object m_HeaderContainer;
+        public object m_ContentContainer;
+        public object m_Tabs;
+        public object m_TabHeaders;
+        public object m_ActiveTab;
+        public object m_ViewState;
+        public object m_ApplyingViewState;
+        public object m_Reordering;
+        public object activeTabChanged;
+        public object tabReordered;
+        public object tabClosed;
+        public object m_Reorderable;
+
         // ── Methods ──
         public void get_contentContainer(){} // RVA: 0x166C430
         public void get_header(){} // RVA: 0x1667E80
@@ -120,6 +201,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TempMeshAllocator : ValueType
     {
+        public object m_Handle;
+
         // ── Methods ──
         public void Create(){} // RVA: 0x80A98A0
         public void AllocateTempMesh(){} // RVA: 0x9A9E10
@@ -127,6 +210,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TemplateAsset : VisualElementAsset
     {
+        public object m_TemplateAlias;
+        public object m_AttributeOverrides;
+        public object m_SerializedDataOverride;
+        public object m_SlotUsages;
+
         // ── Methods ──
         public void get_attributeOverrides(){} // RVA: 0x106A7D0
         public void get_serializedDataOverrides(){} // RVA: 0x106A050
@@ -156,6 +244,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TemplateContainer : BindableElement
     {
+        public object templateIdProperty;
+        public object templateSourceProperty;
+        public object _templateId;
+        public object m_ContentContainer;
+        public object m_TemplateSource;
+
         // ── Methods ──
         public void get_templateId(){} // RVA: 0x16686F0
         public void set_templateId(){} // RVA: 0x166E540
@@ -169,6 +263,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextEditingManipulator : Object
     {
+        public object m_TextElement;
+        public object m_EditingEventHandler;
+        public object editingUtilities;
+        public object m_TouchScreenTextFieldInitialized;
+        public object m_HardwareKeyboardPoller;
+
         // ── Methods ──
         public void get_editingEventHandler(){} // RVA: 0xB465B0
         public void set_editingEventHandler(){} // RVA: 0x7EF57C0
@@ -184,6 +284,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextEditorEventHandler : Object
     {
+        public object textElement;
+        public object editingUtilities;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void RegisterCallbacksOnTarget(){} // RVA: 0xB43310
@@ -193,6 +296,76 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextElement : BindableElement
     {
+        public object displayTooltipWhenElidedProperty;
+        public object emojiFallbackSupportProperty;
+        public object enableRichTextProperty;
+        public object isElidedProperty;
+        public object parseEscapeSequencesProperty;
+        public object textProperty;
+        public object valueProperty;
+        public object ussClassName;
+        public object selectableUssClassName;
+        public object _uitkTextHandle;
+        public object m_Text;
+        public object m_EnableRichText;
+        public object m_EmojiFallbackSupport;
+        public object m_ParseEscapeSequences;
+        public object m_DisplayTooltipWhenElided;
+        public object _isElided;
+        public object k_EllipsisText;
+        public object elidedText;
+        public object m_WasElided;
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordProperty;
+        public object maxLengthProperty;
+        public object maskCharProperty;
+        public object _editingManipulator;
+        public object isInputField;
+        public object m_Multiline;
+        public object m_TouchScreenKeyboard;
+        public object onIsReadOnlyChanged;
+        public object m_KeyboardType;
+        public object m_HideMobileInput;
+        public object m_IsReadOnly;
+        public object m_MaxLength;
+        public object m_PlaceholderText;
+        public object _isDelayed;
+        public object _acceptCharacter;
+        public object _updateScrollOffset;
+        public object _updateValueFromText;
+        public object _updateTextFromValue;
+        public object _moveFocusToCompositeRoot;
+        public object _onPlaceholderChanged;
+        public object _getDefaultValueType;
+        public object ZeroWidthSpace;
+        public object m_RenderedText;
+        public object m_OriginalText;
+        public object m_MaskChar;
+        public object m_IsPassword;
+        public object m_HidePlaceholderTextOnFocus;
+        public object m_AutoCorrection;
+        public object isSelectableProperty;
+        public object cursorIndexProperty;
+        public object selectIndexProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object cursorPositionProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object selectionProperty;
+        public object m_SelectingManipulator;
+        public object m_IsSelectable;
+        public object m_DoubleClickSelectsWord;
+        public object m_TripleClickSelectsLine;
+        public object m_SelectAllOnFocus;
+        public object m_SelectAllOnMouseUp;
+        public object m_SelectionColor;
+        public object m_CursorColor;
+        public object m_CursorWidth;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7EFF880
         public void GetDefaultValueType(){} // RVA: 0x7EFFE20
@@ -350,6 +523,20 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextEventHandler : Object
     {
+        public object m_TextElement;
+        public object m_LinkTagOnPointerDown;
+        public object m_LinkTagOnPointerUp;
+        public object m_LinkTagOnPointerMove;
+        public object m_LinkTagOnPointerOut;
+        public object m_ATagOnPointerUp;
+        public object m_ATagOnPointerMove;
+        public object m_ATagOnPointerOver;
+        public object m_ATagOnPointerOut;
+        public object isOverridingCursor;
+        public object currentLinkIDHash;
+        public object hasLinkTag;
+        public object hasATag;
+
         // ── Methods ──
         public void get_textInfo(){} // RVA: 0x7EF62D0
         public void .ctor(){} // RVA: 0x7EF6300
@@ -373,6 +560,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextField : TextInputBaseField`1
     {
+        public object multilineProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+
         // ── Methods ──
         public void get_textInput(){} // RVA: 0x7FEF390
         public void get_multiline(){} // RVA: 0x7FEF420
@@ -391,6 +583,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void set_password(){} // RVA: 0x894750
         public void set_readOnly(){} // RVA: 0x894750
@@ -454,6 +681,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4EA5A50
@@ -517,6 +779,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void set_password(){} // RVA: 0x4ED30B0
         public void set_readOnly(){} // RVA: 0x4ED3140
@@ -580,6 +877,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4EC2A40
@@ -643,6 +975,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EAB850
         public void set_isReadOnly(){} // RVA: 0x4EAB990
@@ -706,6 +1073,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void set_maxLength(){} // RVA: 0x4EBD750
         public void set_password(){} // RVA: 0x4EBC550
@@ -769,6 +1171,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4EB1890
@@ -832,6 +1269,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4EB7300
@@ -895,6 +1367,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4EC8430
@@ -958,6 +1465,41 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextInputBaseField`1 : BaseField`1
     {
+        public object autoCorrectionProperty;
+        public object hideMobileInputProperty;
+        public object hidePlaceholderOnFocusProperty;
+        public object keyboardTypeProperty;
+        public object isReadOnlyProperty;
+        public object isPasswordFieldProperty;
+        public object textSelectionProperty;
+        public object textEditionProperty;
+        public object placeholderTextProperty;
+        public object cursorIndexProperty;
+        public object cursorPositionProperty;
+        public object selectIndexProperty;
+        public object selectAllOnFocusProperty;
+        public object selectAllOnMouseUpProperty;
+        public object maxLengthProperty;
+        public object doubleClickSelectsWordProperty;
+        public object tripleClickSelectsLineProperty;
+        public object emojiFallbackSupportProperty;
+        public object isDelayedProperty;
+        public object maskCharProperty;
+        public object verticalScrollerVisibilityProperty;
+        public object s_SelectionColorProperty;
+        public object s_CursorColorProperty;
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object multilineContainerClassName;
+        public object singleLineInputUssClassName;
+        public object multilineInputUssClassName;
+        public object placeholderUssClassName;
+        public object multilineInputWithScrollViewUssClassName;
+        public object textInputUssName;
+        public object m_TextInputBase;
+        public object m_UpdateTextFromValue;
+
         // ── Methods ──
         public void get_textEdition(){} // RVA: 0x4EA5910
         public void set_isReadOnly(){} // RVA: 0x4ECDEE0
@@ -1021,6 +1563,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextJobSystem : Object
     {
+        public object m_UITKTextJobSystem;
+        public object m_ATGTextJobSystem;
+
         // ── Methods ──
         public void GenerateText(){} // RVA: 0x7EF8FB0
         public void .ctor(){} // RVA: 0xB43310
@@ -1028,6 +1573,17 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextSelectingManipulator : Object
     {
+        public object m_SelectingUtilities;
+        public object selectAllOnMouseUp;
+        public object m_TextElement;
+        public object m_ClickStartPosition;
+        public object m_Dragged;
+        public object m_IsClicking;
+        public object k_DragThresholdSqr;
+        public object m_ConsecutiveMouseDownCount;
+        public object m_LastMouseDownTimeStamp;
+        public object m_ImguiEvent;
+
         // ── Methods ──
         public void get_isClicking(){} // RVA: 0xB68E10
         public void set_isClicking(){} // RVA: 0x7EF9150
@@ -1056,6 +1612,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextShadow : ValueType
     {
+        public object offset;
+        public object blurRadius;
+        public object color;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x99A760
         public void GetHashCode(){} // RVA: 0x99A7A0
@@ -1080,6 +1640,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x8954D0
         public void .ctor(){} // RVA: 0x894290
@@ -1087,6 +1652,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDC3C0
         public void .ctor(){} // RVA: 0x4EDC7C0
@@ -1094,6 +1664,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDE500
         public void .ctor(){} // RVA: 0x4EDE900
@@ -1101,6 +1676,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDCC10
         public void .ctor(){} // RVA: 0x4EDD010
@@ -1108,6 +1688,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDD460
         public void .ctor(){} // RVA: 0x4EDD860
@@ -1115,6 +1700,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDDCB0
         public void .ctor(){} // RVA: 0x4EDE0B0
@@ -1122,6 +1712,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDED50
         public void .ctor(){} // RVA: 0x4EDF150
@@ -1129,6 +1724,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueFieldTraits`2 : BaseFieldTraits`2
     {
+        public object m_PlaceholderText;
+        public object m_HidePlaceholderOnFocus;
+        public object m_IsReadOnly;
+        public object m_IsDelayed;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x4EDF5A0
         public void .ctor(){} // RVA: 0x4EDF9A0
@@ -1136,6 +1736,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x87C0A0
         public void get_formatString(){} // RVA: 0x87C0A0
@@ -1160,6 +1764,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1184,6 +1792,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1208,6 +1820,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1232,6 +1848,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1256,6 +1876,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1280,6 +1904,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextValueField`1 : TextInputBaseField`1
     {
+        public object formatStringProperty;
+        public object m_Dragger;
+        public object m_ForceUpdateDisplay;
+
         // ── Methods ──
         public void get_textValueInput(){} // RVA: 0x4EE0550
         public void get_formatString(){} // RVA: 0x4EE05E0
@@ -1304,6 +1932,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextureId : ValueType
     {
+        public object m_Index;
+        public object invalid;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A9E20
         public void get_index(){} // RVA: 0x9A9E30
@@ -1317,6 +1948,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TextureRegistry : Object
     {
+        public object m_Textures;
+        public object m_TextureToId;
+        public object m_FreeIds;
+        public object maxTextures;
+        public object _instance;
+
         // ── Methods ──
         public void get_instance(){} // RVA: 0x80ADC50
         public void GetTexture(){} // RVA: 0x80ADCB0
@@ -1345,6 +1982,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TimeValue : ValueType
     {
+        public object m_Value;
+        public object m_Unit;
+
         // ── Methods ──
         public void get_value(){} // RVA: 0x88D10
         public void set_value(){} // RVA: 0xD1B20
@@ -1381,6 +2021,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TimerEventScheduler : Object
     {
+        public object m_ScheduledItems;
+        public object m_TransactionMode;
+        public object m_ScheduleTransactions;
+        public object m_UnscheduleTransactions;
+        public object disableThrottling;
+        public object m_LastUpdatedIndex;
+        public object frameCount;
+
         // ── Methods ──
         public void Schedule(){} // RVA: 0x80B00E0
         public void RemovedScheduledItemAt(){} // RVA: 0x80B02A0
@@ -1394,6 +2042,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TimerState : ValueType
     {
+        public object _start;
+        public object _now;
+
         // ── Methods ──
         public void get_start(){} // RVA: 0x77900
         public void set_start(){} // RVA: 0x93050
@@ -1406,6 +2057,14 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Toggle : BaseBoolField
     {
+        public object ussClassName;
+        public object labelUssClassName;
+        public object inputUssClassName;
+        public object noTextVariantUssClassName;
+        public object checkmarkUssClassName;
+        public object textUssClassName;
+        public object mixedValuesUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x802FB00
         public void InitLabel(){} // RVA: 0x802FC40
@@ -1415,6 +2074,24 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ToggleButtonGroup : BaseField`1
     {
+        public object k_MaxToggleButtonGroupMessage;
+        public object isMultipleSelectionProperty;
+        public object allowEmptySelectionProperty;
+        public object ussClassName;
+        public object containerUssClassName;
+        public object buttonGroupClassName;
+        public object buttonClassName;
+        public object buttonLeftClassName;
+        public object buttonMidClassName;
+        public object buttonRightClassName;
+        public object buttonStandaloneClassName;
+        public object emptyStateLabelClassName;
+        public object m_ButtonGroupContainer;
+        public object m_Buttons;
+        public object m_EmptyLabel;
+        public object m_IsMultipleSelection;
+        public object m_AllowEmptySelection;
+
         // ── Methods ──
         public void get_isMultipleSelection(){} // RVA: 0x80305E0
         public void set_isMultipleSelection(){} // RVA: 0x80305F0
@@ -1435,6 +2112,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class ToggleButtonGroupState : ValueType
     {
+        public object m_Data;
+        public object m_Length;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9A40F0
         public void get_length(){} // RVA: 0x14790
@@ -1455,6 +2135,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TooltipEvent : EventBase`1
     {
+        public object _tooltip;
+        public object _rect;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x806AC30
         public void set_tooltip(){} // RVA: 0xBBFFA0
@@ -1466,6 +2149,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TouchScreenTextEditorEventHandler : TextEditorEventHandler
     {
+        public object m_TouchKeyboardPoller;
+        public object m_TouchKeyboardAllowsInPlaceEditing;
+        public object m_IsClicking;
+        public object _frame;
+        public object _activeTouchScreenKeyboard;
+
         // ── Methods ──
         public void get_Frame(){} // RVA: 0x7FF0AF0
         public void set_Frame(){} // RVA: 0x7FF0B30
@@ -1485,6 +2174,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransformData : ValueType
     {
+        public object rotate;
+        public object scale;
+        public object transformOrigin;
+        public object translate;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x9967E0
         public void CopyFrom(){} // RVA: 0x996820
@@ -1495,6 +2189,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransformOrigin : ValueType
     {
+        public object m_X;
+        public object m_Y;
+        public object m_Z;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9992F0
         public void Initial(){} // RVA: 0x7EDD4B0
@@ -1520,6 +2218,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionData : ValueType
     {
+        public object transitionDelay;
+        public object transitionDuration;
+        public object transitionProperty;
+        public object transitionTimingFunction;
+
         // ── Methods ──
         public void Copy(){} // RVA: 0x996A40
         public void CopyFrom(){} // RVA: 0x996A70
@@ -1537,6 +2240,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
+        public object _stylePropertyNames;
+        public object _elapsedTime;
+
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0xA94080
         public void set_elapsedTime(){} // RVA: 0x895980
@@ -1548,6 +2254,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
+        public object _stylePropertyNames;
+        public object _elapsedTime;
+
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0xBBFF90
         public void set_elapsedTime(){} // RVA: 0x4F23290
@@ -1559,6 +2268,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
+        public object _stylePropertyNames;
+        public object _elapsedTime;
+
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0xBBFF90
         public void set_elapsedTime(){} // RVA: 0x4F23290
@@ -1570,6 +2282,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
+        public object _stylePropertyNames;
+        public object _elapsedTime;
+
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0xBBFF90
         public void set_elapsedTime(){} // RVA: 0x4F23290
@@ -1581,6 +2296,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TransitionEventBase`1 : EventBase`1
     {
+        public object _stylePropertyNames;
+        public object _elapsedTime;
+
         // ── Methods ──
         public void get_stylePropertyNames(){} // RVA: 0xBBFF90
         public void set_elapsedTime(){} // RVA: 0x4F23290
@@ -1606,6 +2324,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class Translate : ValueType
     {
+        public object m_X;
+        public object m_Y;
+        public object m_Z;
+        public object m_isNone;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x999570
         public void None(){} // RVA: 0x7EDDFF0
@@ -1624,6 +2347,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeDataController`1 : Object
     {
+        public object m_NodeToItemDataDictionary;
+        public object m_ItemStack;
+        public object m_NodeStack;
+
         // ── Methods ──
         public void GetDataForNode(){} // RVA: 0xA94080
         public void ConvertTreeViewItemDataToHierarchy(){} // RVA: 0x8954D0
@@ -1634,6 +2361,18 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeView : BaseTreeView
     {
+        public object itemTemplateProperty;
+        public object makeItemProperty;
+        public object bindItemProperty;
+        public object unbindItemProperty;
+        public object destroyItemProperty;
+        public object m_MakeItem;
+        public object m_TemplateMakeItem;
+        public object m_ItemTemplate;
+        public object m_BindItem;
+        public object m_UnbindItem;
+        public object m_DestroyItem;
+
         // ── Methods ──
         public void get_makeItem(){} // RVA: 0x16535F0
         public void set_makeItem(){} // RVA: 0x8033E90
@@ -1665,6 +2404,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeViewExpansionChangedArgs : Object
     {
+        public object _id;
+        public object _isExpanded;
+        public object _isAppliedToAllChildren;
+
         // ── Methods ──
         public void set_id(){} // RVA: 0xB460A0
         public void set_isExpanded(){} // RVA: 0xC9C260
@@ -1674,6 +2417,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeViewItemData`1 : ValueType
     {
+        public object _id;
+        public object m_Data;
+        public object m_Children;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0x87C130
         public void get_data(){} // RVA: 0xA94080
@@ -1682,6 +2429,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TreeViewReorderableDragAndDropController : BaseReorderableDragAndDropController
     {
+        public object m_DropData;
+        public object m_TreeView;
+        public object m_ExpandDropItemScheduledItem;
+        public object m_ExpandDropItemCallback;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8050A60
         public void CompareId(){} // RVA: 0x8050C10
@@ -1698,6 +2450,35 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TwoPaneSplitView : VisualElement
     {
+        public object fixedPaneIndexProperty;
+        public object fixedPaneInitialDimensionProperty;
+        public object orientationProperty;
+        public object s_UssClassName;
+        public object s_ContentContainerClassName;
+        public object s_HandleDragLineClassName;
+        public object s_HandleDragLineVerticalClassName;
+        public object s_HandleDragLineHorizontalClassName;
+        public object s_HandleDragLineAnchorClassName;
+        public object s_HandleDragLineAnchorVerticalClassName;
+        public object s_HandleDragLineAnchorHorizontalClassName;
+        public object s_VerticalClassName;
+        public object s_HorizontalClassName;
+        public object m_LeftPane;
+        public object m_RightPane;
+        public object m_FixedPane;
+        public object m_FlexedPane;
+        public object m_FixedPaneDimension;
+        public object m_DragLine;
+        public object m_DragLineAnchor;
+        public object m_CollapseMode;
+        public object m_PendingCollapseToExecute;
+        public object m_CollapsedChildIndex;
+        public object m_Content;
+        public object m_Orientation;
+        public object m_FixedPaneIndex;
+        public object m_FixedPaneInitialDimension;
+        public object m_Resizer;
+
         // ── Methods ──
         public void get_fixedPane(){} // RVA: 0x16686F0
         public void get_flexedPane(){} // RVA: 0x1653580
@@ -1729,6 +2510,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TwoPaneSplitViewResizer : PointerManipulator
     {
+        public object m_Start;
+        public object m_Active;
+        public object m_SplitView;
+        public object m_Direction;
+        public object m_Delta;
+
         // ── Methods ──
         public void get_orientation(){} // RVA: 0x80391F0
         public void get_fixedPane(){} // RVA: 0x8039210
@@ -1749,6 +2536,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypeConverterRegistry : ValueType
     {
+        public object k_Comparer;
+        public object m_Converters;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void Create(){} // RVA: 0x7E56540
@@ -1763,6 +2553,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0xA94080
         public void get_defaultValue(){} // RVA: 0xA94080
@@ -1772,6 +2564,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x882520
         public void get_defaultValue(){} // RVA: 0x27EAE50
@@ -1781,6 +2575,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x891760
         public void get_defaultValue(){} // RVA: 0xD344A0
@@ -1790,6 +2586,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87C6B0
         public void get_defaultValue(){} // RVA: 0x16DCC90
@@ -1799,6 +2597,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87C5F0
         public void get_defaultValue(){} // RVA: 0xBC1B30
@@ -1808,6 +2608,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x881CA0
         public void get_defaultValue(){} // RVA: 0xBE5850
@@ -1817,6 +2619,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87C5F0
         public void get_defaultValue(){} // RVA: 0xBC1B30
@@ -1826,6 +2630,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87D3C0
         public void get_defaultValue(){} // RVA: 0xC02470
@@ -1835,6 +2641,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x881CA0
         public void get_defaultValue(){} // RVA: 0xBE5850
@@ -1844,6 +2652,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87C5F0
         public void get_defaultValue(){} // RVA: 0xBC1B30
@@ -1853,6 +2663,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0xA94080
         public void get_defaultValue(){} // RVA: 0xAD0950
@@ -1862,6 +2674,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0x87C5F0
         public void get_defaultValue(){} // RVA: 0xBC1B30
@@ -1871,6 +2685,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements
 
     public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
     {
+        public object _defaultValue;
+
         // ── Methods ──
         public void GetValueFromBag(){} // RVA: 0xA94080
         public void get_defaultValue(){} // RVA: 0xAD0950

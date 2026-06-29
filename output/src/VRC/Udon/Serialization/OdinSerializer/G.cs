@@ -20,6 +20,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GenericCollectionFormatter`2 : BaseFormatter`1
     {
+        public object valueReaderWriter;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x8942F0
         public void .ctor(){} // RVA: 0x894290
@@ -30,6 +32,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GlobalSerializationConfig : Object
     {
+        public object instance;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x84729F0
         public void get_Logger(){} // RVA: 0x8472A50
@@ -45,6 +49,8 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientAlphaKeyFormatter : MinimalBaseFormatter`1
     {
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84C9AA0
         public void Write(){} // RVA: 0x84C9B60
@@ -54,6 +60,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientColorKeyFormatter : MinimalBaseFormatter`1
     {
+        public object ColorSerializer;
+        public object FloatSerializer;
+
         // ── Methods ──
         public void Read(){} // RVA: 0x84C9D80
         public void Write(){} // RVA: 0x84C9E50
@@ -63,6 +72,11 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class GradientFormatter : MinimalBaseFormatter`1
     {
+        public object AlphaKeysSerializer;
+        public object ColorKeysSerializer;
+        public object ModeProperty;
+        public object EnumSerializer;
+
         // ── Methods ──
         public void GetUninitializedObject(){} // RVA: 0x84CA120
         public void Read(){} // RVA: 0x84CA1B0

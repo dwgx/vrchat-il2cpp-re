@@ -7,9 +7,12 @@ namespace ThirdParty.Sentry.Sentry
 {
     public class FileAttachmentContent : Object
     {
+        public object _filePath;
+        public object _readFileAsynchronously;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A986DB30
-        public void GetStream(){} // RVA: 0x7AE08E970
+        public void .ctor(){} // RVA: 0x237A5A0
+        public void GetStream(){} // RVA: 0x6D0FBF0
     }
 
 }

@@ -80,17 +80,17 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
-        public void OnWriteResume(){} // RVA: 0x35BC5C0
-        public void .ctor(){} // RVA: 0x35BCED0
+        public void get_CanHaveIdMetadata(){} // RVA: 0x87D280
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x87D280
-        public void OnWriteResume(){} // RVA: 0xA94080
-        public void .ctor(){} // RVA: 0x894290
+        public void get_CanHaveIdMetadata(){} // RVA: 0xC2E4C0
+        public void OnWriteResume(){} // RVA: 0x35BC5C0
+        public void .ctor(){} // RVA: 0x35BCED0
     }
 
     public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3

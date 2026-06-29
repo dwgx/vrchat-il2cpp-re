@@ -19,6 +19,8 @@ namespace ThirdParty.Other.Utf8StringInterpolation
 
     public class Utf8StringBuffer : ValueType
     {
+        public object innerBuffer;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x47F10
         public void get_WrittenCount(){} // RVA: 0x9B0EA0
@@ -29,46 +31,14 @@ namespace ThirdParty.Other.Utf8StringInterpolation
 
     public class Utf8StringWriter`1 : ValueType
     {
-        // ── Methods ──
-        public void AppendFormattedCore(){} // RVA: 0x2D250E0
-        public void AppendUtf8(){} // RVA: 0x50D8840
-        public void Flush(){} // RVA: 0x50D9800
-        public void .ctor(){} // RVA: 0x50D8500
-        public void AppendFormatted(){} // RVA: 0x2D14B80
-        public void AppendFormattedAlignment(){} // RVA: 0x50D7DF0
-        public void GetBufferWriter(){} // RVA: 0xB465B0
-        public void AppendLiteral(){} // RVA: 0x50D85D0
-        public void AppendWhitespace(){} // RVA: 0x50D86D0
-        public void AppendString(){} // RVA: 0x50D89A0
-        public void TryGrow(){} // RVA: 0x50D94A0
-        public void GrowCore(){} // RVA: 0x50D9550
-        public void ClearState(){} // RVA: 0x50D96B0
-        public void GetStringByteCount(){} // RVA: 0x50D9750
-        public void .cctor(){} // RVA: 0x50D9860
-    }
+        public object NewLineUtf8Bytes;
+        public object destination;
+        public object allocatedDestinationSize;
+        public object bufferWriter;
+        public object currentWritten;
+        public object formatProvider;
+        public object calculateStringJustSize;
 
-    public class Utf8StringWriter`1 : ValueType
-    {
-        // ── Methods ──
-        public void AppendFormatted(){} // RVA: 0x2D14B80
-        public void Flush(){} // RVA: 0x50D9800
-        public void AppendFormattedAlignment(){} // RVA: 0x50D7DF0
-        public void GetBufferWriter(){} // RVA: 0xB465B0
-        public void .ctor(){} // RVA: 0x50D8500
-        public void AppendLiteral(){} // RVA: 0x50D85D0
-        public void AppendWhitespace(){} // RVA: 0x50D86D0
-        public void AppendUtf8(){} // RVA: 0x50D8840
-        public void AppendString(){} // RVA: 0x50D89A0
-        public void AppendFormattedCore(){} // RVA: 0xA94080
-        public void TryGrow(){} // RVA: 0x50D94A0
-        public void GrowCore(){} // RVA: 0x50D9550
-        public void ClearState(){} // RVA: 0x50D96B0
-        public void GetStringByteCount(){} // RVA: 0x50D9750
-        public void .cctor(){} // RVA: 0x50D9860
-    }
-
-    public class Utf8StringWriter`1 : ValueType
-    {
         // ── Methods ──
         public void AppendFormatted(){} // RVA: 0x894600
         public void AppendFormattedAlignment(){} // RVA: 0xA94080
@@ -85,6 +55,62 @@ namespace ThirdParty.Other.Utf8StringInterpolation
         public void GetStringByteCount(){} // RVA: 0x87D050
         public void Flush(){} // RVA: 0x894290
         public void .cctor(){} // RVA: 0x8942F0
+    }
+
+    public class Utf8StringWriter`1 : ValueType
+    {
+        public object NewLineUtf8Bytes;
+        public object destination;
+        public object allocatedDestinationSize;
+        public object bufferWriter;
+        public object currentWritten;
+        public object formatProvider;
+        public object calculateStringJustSize;
+
+        // ── Methods ──
+        public void AppendUtf8(){} // RVA: 0x50D8840
+        public void Flush(){} // RVA: 0x50D9800
+        public void .ctor(){} // RVA: 0x50D8500
+        public void AppendFormatted(){} // RVA: 0x2D14B80
+        public void AppendFormattedAlignment(){} // RVA: 0x50D7DF0
+        public void GetBufferWriter(){} // RVA: 0xB465B0
+        public void AppendLiteral(){} // RVA: 0x50D85D0
+        public void AppendWhitespace(){} // RVA: 0x50D86D0
+        public void AppendString(){} // RVA: 0x50D89A0
+        public void AppendFormattedCore(){} // RVA: 0x2D262A0
+        public void TryGrow(){} // RVA: 0x50D94A0
+        public void GrowCore(){} // RVA: 0x50D9550
+        public void ClearState(){} // RVA: 0x50D96B0
+        public void GetStringByteCount(){} // RVA: 0x50D9750
+        public void .cctor(){} // RVA: 0x50D9860
+    }
+
+    public class Utf8StringWriter`1 : ValueType
+    {
+        public object NewLineUtf8Bytes;
+        public object destination;
+        public object allocatedDestinationSize;
+        public object bufferWriter;
+        public object currentWritten;
+        public object formatProvider;
+        public object calculateStringJustSize;
+
+        // ── Methods ──
+        public void Flush(){} // RVA: 0x50D9800
+        public void AppendFormatted(){} // RVA: 0x2D14B80
+        public void AppendFormattedAlignment(){} // RVA: 0x50D7DF0
+        public void GetBufferWriter(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x50D8500
+        public void AppendLiteral(){} // RVA: 0x50D85D0
+        public void AppendWhitespace(){} // RVA: 0x50D86D0
+        public void AppendUtf8(){} // RVA: 0x50D8840
+        public void AppendString(){} // RVA: 0x50D89A0
+        public void AppendFormattedCore(){} // RVA: 0xA94080
+        public void TryGrow(){} // RVA: 0x50D94A0
+        public void GrowCore(){} // RVA: 0x50D9550
+        public void ClearState(){} // RVA: 0x50D96B0
+        public void GetStringByteCount(){} // RVA: 0x50D9750
+        public void .cctor(){} // RVA: 0x50D9860
     }
 
 }

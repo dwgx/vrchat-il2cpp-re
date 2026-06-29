@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 420
+// Methods: 409
 
 public class IActivationFactory : Object
 {
@@ -37,13 +37,6 @@ public class IContentHandler
     public void OnIgnorableWhitespace(){} // RVA: 0x894320
 }
 
-public class IEncryption
-{
-    // ── Methods ──
-    public void Encrypt(){} // RVA: 0x87C5F0
-    public void TryDecrypt(){} // RVA: 0x87D710
-}
-
 public class IEventSanitizer
 {
     // ── Methods ──
@@ -53,29 +46,20 @@ public class IEventSanitizer
     public void Inspect(){} // RVA: 0x894320
 }
 
+public class IExtensionReflectionHelper
+{
+    // ── Methods ──
+    public void GetExtension(){} // RVA: 0x87C540
+    public void SetExtension(){} // RVA: 0x8943B0
+    public void HasExtension(){} // RVA: 0x87D350
+    public void ClearExtension(){} // RVA: 0x894320
+    public void h(){} // RVA: 0xCFA58F8
+}
+
 public class IFactoryControls
 {
     // ── Methods ──
     public void CreateGameObject(){} // RVA: 0x87C5F0
-}
-
-public class IInput
-{
-    // ── Methods ──
-    public void GetButtonDown(){} // RVA: 0x87D350
-    public void GetAxisRaw(){} // RVA: 0x891020
-    public void ClearLastPenContactEvent(){} // RVA: 0x894290
-    public void GetLastPenContactEvent(){} // RVA: 0x87BEB0
-    public void get_touchCount(){} // RVA: 0x87C130
-    public void GetTouch(){} // RVA: 0x87BF40
-    public void get_mousePresent(){} // RVA: 0x87D280
-    public void GetMouseButtonDown(){} // RVA: 0x87DD20
-    public void GetMouseButtonUp(){} // RVA: 0x87DD20
-    public void get_mousePosition(){} // RVA: 0x87BEB0
-    public void get_mouseButtonCount(){} // RVA: 0x87C130
-    public void get_anyKey(){} // RVA: 0x87D280
-    public void get_unscaledTime(){} // RVA: 0x890F90
-    public void get_doubleClickTime(){} // RVA: 0x890F90
 }
 
 public class IInput
@@ -109,12 +93,17 @@ public class IJobSortable
 
 public class ILEmitResolverBuilderRuntimeContext : Object
 {
+    public object Constants;
+    public object Factories;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class IListWrapper : ArrayList
 {
+    public object _list;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x687FE00
     public void set_Capacity(){} // RVA: 0x687FE80
@@ -173,22 +162,22 @@ public class IOVRSkeletonRendererDataProvider
     public void GetSkeletonRendererData(){} // RVA: 0x87C0A0
 }
 
-public class IPSQuery : ApiModel
-{
-    // ── Methods ──
-    public void get_require(){} // RVA: 0xBBFF90
-    public void set_require(){} // RVA: 0xBBFFA0
-    public void get_include(){} // RVA: 0xC10050
-    public void set_include(){} // RVA: 0xC10060
-    public void .ctor(){} // RVA: 0xA51C0D0
-}
-
 public class IPlayerActions
 {
     // ── Methods ──
     public void OnMove(){} // RVA: 0x894320
     public void OnLook(){} // RVA: 0x894320
     public void OnFire(){} // RVA: 0x894320
+}
+
+public class IReflectionHelper
+{
+    // ── Methods ──
+    public void CreateFuncIMessageInt32(){} // RVA: 0x87C540
+    public void CreateActionIMessage(){} // RVA: 0x87C540
+    public void CreateFuncIMessageObject(){} // RVA: 0x87C540
+    public void CreateActionIMessageObject(){} // RVA: 0x87C540
+    public void CreateFuncIMessageBool(){} // RVA: 0x87C540
 }
 
 public class ITime
@@ -244,32 +233,11 @@ public class IWebSocketReceiveResultGetter`1
     public void GetResult(){} // RVA: 0xA94080
 }
 
-public class Icon : ApiModel
-{
-    // ── Methods ──
-    public void get_imageUrl(){} // RVA: 0xBBFF90
-    public void set_imageUrl(){} // RVA: 0xBBFFA0
-    public void .ctor(){} // RVA: 0xA59A7B0
-}
-
 public class IdentityTokenChanged : MulticastDelegate
 {
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB9DF20
     public void Invoke(){} // RVA: 0xB9E010
-}
-
-public class IgnoresCaseHashtable : Object
-{
-    // ── Methods ──
-    public void Clear(){} // RVA: 0xA55CDC0
-    public void GetEnumerator(){} // RVA: 0xA55CE30
-    public void get_Keys(){} // RVA: 0xA55CE80
-    public void Remove(){} // RVA: 0xA55CED0
-    public void get_Item(){} // RVA: 0xA55D000
-    public void set_Item(){} // RVA: 0xA55D0E0
-    public void get_Values(){} // RVA: 0xA55D210
-    public void .ctor(){} // RVA: 0xA55D260
 }
 
 public class ImageHandle : SafeHandleZeroOrMinusOneIsInvalid
@@ -281,6 +249,10 @@ public class ImageHandle : SafeHandleZeroOrMinusOneIsInvalid
 
 public class ImmutableCollectionTypeInfo : Object
 {
+    public object _contractTypeName;
+    public object _createdTypeName;
+    public object _builderTypeName;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xC27FD0
     public void get_ContractTypeName(){} // RVA: 0xB5DBF0
@@ -311,6 +283,16 @@ public class ImportStruct[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
+public class IndexTree : RBTree`1
+{
+    public object _index;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x719B850
+    public void CompareNode(){} // RVA: 0x719B900
+    public void CompareSateliteTreeNode(){} // RVA: 0x719B920
+}
+
 public class IndexedConverter`2 : MulticastDelegate
 {
     // ── Methods ──
@@ -320,6 +302,13 @@ public class IndexedConverter`2 : MulticastDelegate
 
 public class IndirectDrawIndexedArgs : ValueType
 {
+    public object size;
+    public object _indexCountPerInstance;
+    public object _instanceCount;
+    public object _startIndex;
+    public object _baseVertexIndex;
+    public object _startInstance;
+
     // ── Methods ──
     public void set_indexCountPerInstance(){} // RVA: 0x29580
     public void set_instanceCount(){} // RVA: 0x77EE0
@@ -330,6 +319,8 @@ public class IndirectDrawIndexedArgs : ValueType
 
 public class InfiniteTimer : Timer
 {
+    public object cancelled;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7595300
     public void get_HasExpired(){} // RVA: 0xB43320
@@ -343,19 +334,10 @@ public class InfiniteTimerQueue : Queue
     public void CreateTimer(){} // RVA: 0x7594C10
 }
 
-public class Info : ApiModel
-{
-    // ── Methods ──
-    public void get_period(){} // RVA: 0xBBFF90
-    public void set_period(){} // RVA: 0xBBFFA0
-    public void get_periodAmount(){} // RVA: 0x19C6270
-    public void set_periodAmount(){} // RVA: 0xCE5450
-    public void get_Period(){} // RVA: 0xA59AB60
-    public void .ctor(){} // RVA: 0xA59AC40
-}
-
 public class InheritVelocityModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97BD30
@@ -378,28 +360,13 @@ public class Initial : AttributeTypeAndValue
     public void .ctor(){} // RVA: 0x664A5E0
 }
 
-public class Input : Object
-{
-    // ── Methods ──
-    public void GetButtonDown(){} // RVA: 0xB618B0
-    public void GetAxisRaw(){} // RVA: 0x8045DD0
-    public void ClearLastPenContactEvent(){} // RVA: 0x7CA9790
-    public void GetLastPenContactEvent(){} // RVA: 0x7CA8110
-    public void get_touchCount(){} // RVA: 0x7CA81A0
-    public void GetTouch(){} // RVA: 0x7CA81F0
-    public void get_mousePresent(){} // RVA: 0x7CA82A0
-    public void GetMouseButtonDown(){} // RVA: 0x7CA8300
-    public void GetMouseButtonUp(){} // RVA: 0x7CA8350
-    public void get_mousePosition(){} // RVA: 0xB61AB0
-    public void get_mouseButtonCount(){} // RVA: 0x12FC4A0
-    public void get_anyKey(){} // RVA: 0x7CA9810
-    public void get_unscaledTime(){} // RVA: 0x7932A40
-    public void get_doubleClickTime(){} // RVA: 0x8045DE0
-    public void .ctor(){} // RVA: 0xB43310
-}
-
 public class InputEventControlCollection : ValueType
 {
+    public object m_Device;
+    public object m_EventPtr;
+    public object m_Flags;
+    public object m_MagnitudeThreshold;
+
     // ── Methods ──
     public void get_eventPtr(){} // RVA: 0x77ED0
     public void GetEnumerator(){} // RVA: 0x931E00
@@ -409,6 +376,23 @@ public class InputEventControlCollection : ValueType
 
 public class InputEventControlEnumerator : ValueType
 {
+    public object m_Flags;
+    public object m_Device;
+    public object m_StateOffsetToControlIndex;
+    public object m_StateOffsetToControlIndexLength;
+    public object m_AllControls;
+    public object m_DefaultState;
+    public object m_CurrentState;
+    public object m_NoiseMask;
+    public object m_EventPtr;
+    public object m_CurrentControl;
+    public object m_CurrentIndexInStateOffsetToControlIndexMap;
+    public object m_CurrentControlStateBitOffset;
+    public object m_EventState;
+    public object m_CurrentBitOffset;
+    public object m_EndBitOffset;
+    public object m_MagnitudeThreshold;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x932190
     public void CheckDefault(){} // RVA: 0x9321A0
@@ -420,21 +404,6 @@ public class InputEventControlEnumerator : ValueType
     public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xC26F0
 }
 
-public class InputForUIProcessor : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x803FDE0
-    public void OnEvent(){} // RVA: 0x803FFB0
-    public void ProcessInputForUIEvents(){} // RVA: 0x8040060
-    public void GetModifiers(){} // RVA: 0x80408C0
-    public void ProcessPointerEvent(){} // RVA: 0x8040930
-    public void ProcessNavigationEvent(){} // RVA: 0x8041580
-    public void ProcessKeyEvent(){} // RVA: 0x8041D70
-    public void ProcessTextInputEvent(){} // RVA: 0x80420D0
-    public void ProcessCommandEvent(){} // RVA: 0x8042400
-    public void ProcessIMECompositionEvent(){} // RVA: 0x8042490
-}
-
 public class InputMerger : MulticastDelegate
 {
     // ── Methods ──
@@ -444,6 +413,12 @@ public class InputMerger : MulticastDelegate
 
 public class InputPairing : Object
 {
+    public object name;
+    public object unityKeys;
+    public object cInputKeys;
+    public object value;
+    public object lastValue;
+
     // ── Methods ──
     public void GetKeyDown(){} // RVA: 0xA694D20
     public void .ctor(){} // RVA: 0xB43310
@@ -471,6 +446,8 @@ public class InputPairing[] : Array
 
 public class InspectedTypeScope`1 : ValueType
 {
+    public object m_VisitContext;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void Dispose(){} // RVA: 0x894290
@@ -563,19 +540,11 @@ public class IntPoint[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class IntegerInput : TextValueInput
-{
-    // ── Methods ──
-    public void get_parentIntegerField(){} // RVA: 0x7FF2EE0
-    public void .ctor(){} // RVA: 0x7FF2F60
-    public void get_allowedCharacters(){} // RVA: 0x7FF3120
-    public void ApplyInputDeviceDelta(){} // RVA: 0x7FF3180
-    public void ValueToString(){} // RVA: 0x7FF33B0
-    public void StringToValue(){} // RVA: 0x7FF34A0
-}
-
 public class Interaction : Object
 {
+    public object interactionObject;
+    public object effectors;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -591,6 +560,13 @@ public class InteractionDelegate : MulticastDelegate
 
 public class InteractionEvent : Object
 {
+    public object time;
+    public object pause;
+    public object pickUp;
+    public object animations;
+    public object messages;
+    public object unityEvent;
+
     // ── Methods ──
     public void Activate(){} // RVA: 0xCA2360
     public void .ctor(){} // RVA: 0xB43310
@@ -627,6 +603,17 @@ public class InteractionEvent[] : Array
 
 public class InteractionState : ValueType
 {
+    public object m_TriggerControlIndex;
+    public object m_Phase;
+    public object m_Flags;
+    public object m_TimerDuration;
+    public object m_StartTime;
+    public object m_TimerStartTime;
+    public object m_PerformedTime;
+    public object m_TotalTimeoutCompletionTimeDone;
+    public object m_TotalTimeoutCompletionTimeRemaining;
+    public object m_TimerMonitorIndex;
+
     // ── Methods ──
     public void get_triggerControlIndex(){} // RVA: 0x92ADE0
     public void set_triggerControlIndex(){} // RVA: 0x92AE00
@@ -652,6 +639,10 @@ public class InteractionState : ValueType
 
 public class InternalCollisionIgnoreSettings : Object
 {
+    public object ignoreAll;
+    public object muscles;
+    public object groups;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xBBA2E0
 }
@@ -665,6 +656,9 @@ public class Interop : Object
 
 public class InvocationContext : Object
 {
+    public object m_Delegate;
+    public object m_State;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void Invoke(){} // RVA: 0x5DC5120
@@ -679,6 +673,8 @@ public class InvocationEntryDelegate : MulticastDelegate
 
 public class IsAutoDispose : Object
 {
+    public object Ref;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x77D2400
 }
@@ -692,6 +688,8 @@ public class IsBurstEnabledDelegate : MulticastDelegate
 
 public class IsBurstEnabled_00000145$BurstDirectCall : Object
 {
+    public object Pointer;
+
     // ── Methods ──
     public void GetFunctionPointerDiscard(){} // RVA: 0x77CB0A0
     public void GetFunctionPointer(){} // RVA: 0x77CB260
@@ -707,72 +705,96 @@ public class IsBurstEnabled_00000145$PostfixBurstDelegate : MulticastDelegate
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void GetResult(){} // RVA: 0x77511D0
@@ -784,84 +806,136 @@ public class IsCanceledSource : Object
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsCanceledSource : Object
 {
+    public object source;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class IsCanceledSource : Object
+{
+    public object source;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class IsCanceledSource : Object
+{
+    public object source;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xB44D60
+}
+
+public class IsCanceledSource : Object
+{
+    public object source;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class IsOfType`1 : Object
 {
+    public object s_Instance;
+
     // ── Methods ──
     public void Predicate(){} // RVA: 0x87D350
     public void .ctor(){} // RVA: 0x894290
@@ -870,30 +944,116 @@ public class IsOfType`1 : Object
 
 public class IsolatingRunSequence : Object
 {
+    public object level;
+    public object sos;
+    public object eos;
+    public object length;
+    public object indexes;
+    public object types;
+    public object resolvedLevels;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x651B3C0
 }
 
-public class ItemAttribute : ApiModel
+public class Item : Object
 {
+    public object type;
+    public object data;
+
     // ── Methods ──
-    public void get_defaultValue(){} // RVA: 0xBBFF90
-    public void set_defaultValue(){} // RVA: 0xBBFFA0
-    public void get_validator(){} // RVA: 0xC10050
-    public void set_validator(){} // RVA: 0xC10060
-    public void .ctor(){} // RVA: 0xA522E50
+    public void .ctor(){} // RVA: 0xB43310
+    public void Set(){} // RVA: 0x2574280
 }
 
-public class ItemAttributeValidation : ApiModel
+public class Item[] : Array
 {
     // ── Methods ──
-    public void get_type(){} // RVA: 0xBBFF90
-    public void set_type(){} // RVA: 0xBBFFA0
-    public void .ctor(){} // RVA: 0xA522EA0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7E520
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A9B0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC42A0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34760
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A9B0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class Iterator`1 : Object
+{
+    public object threadId;
+    public object state;
+    public object current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4092900
+    public void get_Current(){} // RVA: 0xAD0950
+    public void Clone(){} // RVA: 0x87C0A0
+    public void Dispose(){} // RVA: 0x4092AB0
+    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void MoveNext(){} // RVA: 0x87D280
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x87C540
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
+}
+
+public class Iterator`1 : Object
+{
+    public object threadId;
+    public object state;
+    public object current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4092900
+    public void get_Current(){} // RVA: 0xAD0950
+    public void Clone(){} // RVA: 0x87C0A0
+    public void Dispose(){} // RVA: 0x4092AB0
+    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void MoveNext(){} // RVA: 0x87D280
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x87C540
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
+}
+
+public class Iterator`1 : Object
+{
+    public object threadId;
+    public object state;
+    public object current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4092900
+    public void get_Current(){} // RVA: 0xAD0950
+    public void Clone(){} // RVA: 0x87C0A0
+    public void Dispose(){} // RVA: 0x4092AB0
+    public void GetEnumerator(){} // RVA: 0x4092B90
+    public void MoveNext(){} // RVA: 0x87D280
+    public void Select(){} // RVA: 0x87C540
+    public void Where(){} // RVA: 0x87C540
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x4092D50
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4092E00
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x40066C0
 }
 
 public class iOSInfo : Object
 {
+    public object _hasFetchedInfo;
+    public object LowMemoryThreshold;
+    public object _pollMemoryStatusThread;
+    public object _cachedMemoryAvailable;
+    public object _cacheDir;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x650B2C0
     public void FetchInfo(){} // RVA: 0x650B2D0
@@ -908,6 +1068,8 @@ public class iOSInfo : Object
 
 public class iOSVibration : Object
 {
+    public object SupportsVibration;
+
     // ── Methods ──
     public void Vibrate(){} // RVA: 0xB43000
     public void VibrateSimple(){} // RVA: 0xB43080
@@ -916,6 +1078,10 @@ public class iOSVibration : Object
 
 public class image_load_settings_t : ValueType
 {
+    public object _flags;
+    public object _allocationLimit;
+    public object _resolutionLimit;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6E1050
     public void SetAllocationLimit(){} // RVA: 0x9CAAD0

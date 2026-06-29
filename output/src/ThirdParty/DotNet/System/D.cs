@@ -7,6 +7,8 @@ namespace ThirdParty.DotNet.System
 {
     public class DBNull : Object
     {
+        public object Value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x68E70B0
         public void GetObjectData(){} // RVA: 0x68E7100
@@ -32,12 +34,66 @@ namespace ThirdParty.DotNet.System
 
     public class DTSubString : ValueType
     {
+        public object s;
+        public object index;
+        public object length;
+        public object type;
+        public object value;
+
         // ── Methods ──
         public void get_Item(){} // RVA: 0x690BC40
     }
 
     public class DateTime : ValueType
     {
+        public object TicksPerMillisecond;
+        public object TicksPerSecond;
+        public object TicksPerMinute;
+        public object TicksPerHour;
+        public object TicksPerDay;
+        public object MillisPerSecond;
+        public object MillisPerMinute;
+        public object MillisPerHour;
+        public object MillisPerDay;
+        public object DaysPerYear;
+        public object DaysPer4Years;
+        public object DaysPer100Years;
+        public object DaysPer400Years;
+        public object DaysTo1601;
+        public object DaysTo1899;
+        public object DaysTo1970;
+        public object DaysTo10000;
+        public object MinTicks;
+        public object MaxTicks;
+        public object MaxMillis;
+        public object UnixEpochTicks;
+        public object FileTimeOffset;
+        public object DoubleDateOffset;
+        public object OADateMinAsTicks;
+        public object OADateMinAsDouble;
+        public object OADateMaxAsDouble;
+        public object DatePartYear;
+        public object DatePartDayOfYear;
+        public object DatePartMonth;
+        public object DatePartDay;
+        public object s_daysToMonth365;
+        public object s_daysToMonth366;
+        public object MinValue;
+        public object MaxValue;
+        public object UnixEpoch;
+        public object TicksMask;
+        public object FlagsMask;
+        public object LocalMask;
+        public object TicksCeiling;
+        public object KindUnspecified;
+        public object KindUtc;
+        public object KindLocal;
+        public object KindLocalAmbiguousDst;
+        public object KindShift;
+        public object TicksField;
+        public object DateDataField;
+        public object _dateData;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B6E00
         public void get_InternalTicks(){} // RVA: 0x8B6E20
@@ -137,6 +193,13 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeFormat : Object
     {
+        public object NullOffset;
+        public object allStandardFormats;
+        public object InvariantFormatInfo;
+        public object InvariantAbbreviatedMonthNames;
+        public object InvariantAbbreviatedDayNames;
+        public object fixedNumberFormats;
+
         // ── Methods ──
         public void FormatDigits(){} // RVA: 0x68F6B70
         public void HebrewFormatDigits(){} // RVA: 0x68F6C70
@@ -168,6 +231,12 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeOffset : ValueType
     {
+        public object MinValue;
+        public object MaxValue;
+        public object UnixEpoch;
+        public object _dateTime;
+        public object _offsetMinutes;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8B7E50
         public void get_Now(){} // RVA: 0x68EEE70
@@ -240,6 +309,9 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeParse : Object
     {
+        public object m_hebrewNumberParser;
+        public object dateParsingStates;
+
         // ── Methods ──
         public void ParseExact(){} // RVA: 0x68FC1D0
         public void TryParseExact(){} // RVA: 0x68FC8C0
@@ -319,6 +391,16 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeRawInfo : ValueType
     {
+        public object num;
+        public object numCount;
+        public object month;
+        public object year;
+        public object dayOfWeek;
+        public object era;
+        public object timeMark;
+        public object fraction;
+        public object hasSameDateAndTimeSeparators;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x8B8CB0
         public void AddNumber(){} // RVA: 0x8B8CE0
@@ -327,6 +409,25 @@ namespace ThirdParty.DotNet.System
 
     public class DateTimeResult : ValueType
     {
+        public object Year;
+        public object Month;
+        public object Day;
+        public object Hour;
+        public object Minute;
+        public object Second;
+        public object fraction;
+        public object era;
+        public object flags;
+        public object timeZoneOffset;
+        public object calendar;
+        public object parsedDate;
+        public object failure;
+        public object failureMessageID;
+        public object failureMessageFormatArgument;
+        public object failureArgumentName;
+        public object originalDateTimeString;
+        public object failedFormatSpecifier;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x690BCC0
         public void SetDate(){} // RVA: 0x54DE400
@@ -357,6 +458,17 @@ namespace ThirdParty.DotNet.System
 
     public class Decimal : ValueType
     {
+        public object Zero;
+        public object One;
+        public object MinusOne;
+        public object MaxValue;
+        public object MinValue;
+        public object flags;
+        public object hi;
+        public object lo;
+        public object mid;
+        public object ulomidLE;
+
         // ── Methods ──
         public void get_High(){} // RVA: 0x77E50
         public void get_Low(){} // RVA: 0x14790
@@ -485,6 +597,8 @@ namespace ThirdParty.DotNet.System
 
     public class DefaultBinder : Binder
     {
+        public object _primitiveConversions;
+
         // ── Methods ──
         public void BindToMethod(){} // RVA: 0x694F730
         public void BindToField(){} // RVA: 0x6951D30
@@ -515,6 +629,20 @@ namespace ThirdParty.DotNet.System
 
     public class Delegate : Object
     {
+        public object method_ptr;
+        public object invoke_impl;
+        public object m_target;
+        public object method;
+        public object delegate_trampoline;
+        public object extra_arg;
+        public object method_code;
+        public object interp_method;
+        public object interp_invoke_impl;
+        public object method_info;
+        public object original_method_info;
+        public object data;
+        public object method_is_virtual;
+
         // ── Methods ──
         public void get_Method(){} // RVA: 0x2538380
         public void GetVirtualMethod_internal(){} // RVA: 0x6979910
@@ -546,12 +674,18 @@ namespace ThirdParty.DotNet.System
 
     public class DelegateData : Object
     {
+        public object target_type;
+        public object method_name;
+        public object curried_first_arg;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DelegateSerializationHolder : Object
     {
+        public object _delegate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x697C770
         public void GetDelegateData(){} // RVA: 0x697CAE0
@@ -606,6 +740,8 @@ namespace ThirdParty.DotNet.System
 
     public class Double : ValueType
     {
+        public object m_value;
+
         // ── Methods ──
         public void IsFinite(){} // RVA: 0x68F5130
         public void IsInfinity(){} // RVA: 0x68F5160

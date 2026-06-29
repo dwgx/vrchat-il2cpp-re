@@ -7,6 +7,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class BadStatusException : Exception
     {
+        public object _statusCode;
+
         // ── Methods ──
         public void set_statusCode(){} // RVA: 0x17AFA20
         public void .ctor(){} // RVA: 0x654DAB0

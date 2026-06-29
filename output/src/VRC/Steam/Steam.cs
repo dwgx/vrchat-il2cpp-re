@@ -7,6 +7,15 @@ namespace VRC.Steam
 {
     public class SteamManager : Object
     {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_9EC;
+        public object f_574;
+        public object f_253;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xDC84F0
         public void Equals(){} // RVA: 0xDC8C70

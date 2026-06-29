@@ -1,22 +1,10 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 275
+// Methods: 274
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class ICollection`1
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x87C130
-        public void get_IsReadOnly(){} // RVA: 0x87D280
-        public void Add(){} // RVA: 0x894320
-        public void Clear(){} // RVA: 0x894290
-        public void Contains(){} // RVA: 0x87D350
-        public void CopyTo(){} // RVA: 0x899290
-        public void Remove(){} // RVA: 0x87D350
-    }
-
     public class ICollection`1
     {
         // ── Methods ──
@@ -327,6 +315,18 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void Contains(){} // RVA: 0x87D490
         public void CopyTo(){} // RVA: 0x899290
         public void Remove(){} // RVA: 0x87D490
+    }
+
+    public class ICollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_IsReadOnly(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0xA94080
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0xA94080
+        public void CopyTo(){} // RVA: 0x899290
+        public void Remove(){} // RVA: 0xA94080
     }
 
     public class IComparer`1
@@ -701,11 +701,10 @@ namespace ThirdParty.DotNet.System.Collections.Generic
         public void get_Current(){} // RVA: 0x87C0A0
     }
 
-    public class IEqualityComparer`1
+    public class IEnumerator`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x87D3C0
-        public void GetHashCode(){} // RVA: 0x87D050
+        public void get_Current(){} // RVA: 0x87C0A0
     }
 
     public class IEqualityComparer`1

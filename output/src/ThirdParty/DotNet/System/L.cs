@@ -7,6 +7,14 @@ namespace ThirdParty.DotNet.System
 {
     public class LazyHelper : Object
     {
+        public object NoneViaConstructor;
+        public object NoneViaFactory;
+        public object PublicationOnlyViaConstructor;
+        public object PublicationOnlyViaFactory;
+        public object PublicationOnlyWaitForOtherThreadToPublish;
+        public object _state;
+        public object _exceptionDispatch;
+
         // ── Methods ──
         public void get_State(){} // RVA: 0xB8F8F0
         public void .ctor(){} // RVA: 0x6914930
@@ -19,6 +27,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void CreateViaDefaultConstructor(){} // RVA: 0xA94080
         public void .ctor(){} // RVA: 0x89B4A0
@@ -37,6 +49,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -55,6 +71,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -73,6 +93,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -91,6 +115,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -109,6 +137,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -127,6 +159,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -145,6 +181,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -163,6 +203,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -181,6 +225,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -199,6 +247,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4274360
         public void CreateViaDefaultConstructor(){} // RVA: 0x42740E0
@@ -217,6 +269,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0x4278690
         public void .ctor(){} // RVA: 0x4277CF0
@@ -235,6 +291,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -253,6 +313,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -271,6 +335,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -289,6 +357,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -307,6 +379,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -325,24 +401,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x4277CF0
-        public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
-        public void ViaConstructor(){} // RVA: 0x4277E70
-        public void ViaFactory(){} // RVA: 0x4272540
-        public void ExecutionAndPublication(){} // RVA: 0x4277F50
-        public void PublicationOnly(){} // RVA: 0x42780E0
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x42782C0
-        public void PublicationOnlyViaFactory(){} // RVA: 0x4278320
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x42783A0
-        public void CreateValue(){} // RVA: 0x4278460
-        public void ToString(){} // RVA: 0x42785F0
-        public void get_IsValueCreated(){} // RVA: 0x4272EA0
-        public void get_Value(){} // RVA: 0x4278690
-    }
+        public object _state;
+        public object _factory;
+        public object _value;
 
-    public class Lazy`1 : Object
-    {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x42722E0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4272060
@@ -361,6 +423,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -379,6 +445,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -397,6 +467,32 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x4277CF0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
+        public void ViaConstructor(){} // RVA: 0x4277E70
+        public void ViaFactory(){} // RVA: 0x4272540
+        public void ExecutionAndPublication(){} // RVA: 0x4277F50
+        public void PublicationOnly(){} // RVA: 0x42780E0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x42782C0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x4278320
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x42783A0
+        public void CreateValue(){} // RVA: 0x4278460
+        public void ToString(){} // RVA: 0x42785F0
+        public void get_IsValueCreated(){} // RVA: 0x4272EA0
+        public void get_Value(){} // RVA: 0x4278690
+    }
+
+    public class Lazy`1 : Object
+    {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4276120
         public void CreateViaDefaultConstructor(){} // RVA: 0x4275EA0
@@ -415,6 +511,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4277CF0
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
@@ -433,6 +533,10 @@ namespace ThirdParty.DotNet.System
 
     public class Lazy`1 : Object
     {
+        public object _state;
+        public object _factory;
+        public object _value;
+
         // ── Methods ──
         public void CreateViaDefaultConstructor(){} // RVA: 0x4277A50
         public void .ctor(){} // RVA: 0x4277CF0
@@ -451,6 +555,10 @@ namespace ThirdParty.DotNet.System
 
     public class LocalAppContext : Object
     {
+        public object s_isDisableCachingInitialized;
+        public object s_disableCaching;
+        public object s_syncObject;
+
         // ── Methods ──
         public void GetCachedSwitchValue(){} // RVA: 0x712C980
         public void GetCachedSwitchValueInternal(){} // RVA: 0x712C9A0
@@ -459,12 +567,17 @@ namespace ThirdParty.DotNet.System
 
     public class LocalAppContextSwitches : Object
     {
+        public object s_allowArbitraryTypeInstantiation;
+
         // ── Methods ──
         public void get_AllowArbitraryTypeInstantiation(){} // RVA: 0x712C910
     }
 
     public class LocalDataStore : Object
     {
+        public object m_DataTable;
+        public object m_Manager;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6949CD0
         public void Dispose(){} // RVA: 0x6949DD0
@@ -476,6 +589,9 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreElement : Object
     {
+        public object m_value;
+        public object m_cookie;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x15428E0
         public void get_Value(){} // RVA: 0xB5DBF0
@@ -485,6 +601,8 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreHolder : Object
     {
+        public object m_Store;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Finalize(){} // RVA: 0x6949C70
@@ -493,6 +611,12 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreMgr : Object
     {
+        public object m_SlotInfoTable;
+        public object m_FirstAvailableSlot;
+        public object m_ManagedLocalDataStores;
+        public object m_KeyToSlotMap;
+        public object m_CookieGenerator;
+
         // ── Methods ──
         public void CreateLocalDataStore(){} // RVA: 0x694A650
         public void DeleteLocalDataStore(){} // RVA: 0x694A980
@@ -508,6 +632,10 @@ namespace ThirdParty.DotNet.System
 
     public class LocalDataStoreSlot : Object
     {
+        public object m_mgr;
+        public object m_slot;
+        public object m_cookie;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x694A580
         public void get_Manager(){} // RVA: 0xB5DBF0

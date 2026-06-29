@@ -43,6 +43,34 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCAvatarDescriptor : VRC_AvatarDescriptor
     {
+        public object customExpressions;
+        public object expressionsMenu;
+        public object expressionParameters;
+        public object enableEyeLook;
+        public object customEyeLookSettings;
+        public object customizeAnimationLayers;
+        public object baseAnimationLayers;
+        public object specialAnimationLayers;
+        public object AnimationPreset;
+        public object animationHashSet;
+        public object autoFootsteps;
+        public object autoLocomotion;
+        public object COLLIDER_MAX_SIZE;
+        public object collider_head;
+        public object collider_torso;
+        public object collider_footR;
+        public object collider_footL;
+        public object collider_handR;
+        public object collider_handL;
+        public object collider_fingerIndexL;
+        public object collider_fingerMiddleL;
+        public object collider_fingerRingL;
+        public object collider_fingerLittleL;
+        public object collider_fingerIndexR;
+        public object collider_fingerMiddleR;
+        public object collider_fingerRingR;
+        public object collider_fingerLittleR;
+
         // ── Methods ──
         public void GetExpressionParameterCount(){} // RVA: 0xA6CB510
         public void GetExpressionParameter(){} // RVA: 0xA6CB610
@@ -65,6 +93,11 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCHeadChop : MonoBehaviour
     {
+        public object targetBones;
+        public object globalScaleFactor;
+        public object MaxBoneCount;
+        public object MaxComponentCount;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0xA6D0630
         public void Start(){} // RVA: 0xB43310
@@ -94,12 +127,21 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCImpostorEnvironment : MonoBehaviour
     {
+        public object SkyColor;
+        public object EquatorColor;
+        public object GroundColor;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA6D0F50
     }
 
     public class VRCImpostorSettings : MonoBehaviour
     {
+        public object resolutionScale;
+        public object transformsToIgnore;
+        public object extraChildTransforms;
+        public object reparentHere;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB4B830
     }
@@ -112,6 +154,38 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycast : MonoBehaviour
     {
+        public object rootTransform;
+        public object raycastDirection;
+        public object distance;
+        public object applyTransformScale;
+        public object collisionMode;
+        public object customCollisionLayers;
+        public object _worldLayerMask;
+        public object _playerLayerMask;
+        public object _cachedEffectiveTransform;
+        public object resultTransform;
+        public object applyRotation;
+        public object alignmentAxis;
+        public object behaviorOnMiss;
+        public object parameter;
+        public object _hasInitializedAnimatorParameters;
+        public object _submittedWorldSpaceDirection;
+        public object MaximumAllowedDistance;
+        public object _defaultPhysicsScene;
+        public object _commandIndex;
+        public object _startCompleted;
+        public object _initExternallyBlocked;
+        public object OnInitializeParameters;
+        public object PARAM_HIT;
+        public object PARAM_RATIO;
+        public object PARAM_DISTANCE;
+        public object param_HitValue;
+        public object param_Hit;
+        public object param_RatioValue;
+        public object param_Ratio;
+        public object param_DistanceValue;
+        public object param_Distance;
+
         // ── Methods ──
         public void get_RootTransform(){} // RVA: 0xB700F0
         public void set_RootTransform(){} // RVA: 0xB70100
@@ -162,6 +236,16 @@ namespace VRC.SDK3.Avatars.Components
 
     public class VRCRaycastHandler : Object
     {
+        public object _activeRaycastComponents;
+        public object _pendingAddSet;
+        public object _pendingRemoveSet;
+        public object _batchHandle;
+        public object _commandBuffer;
+        public object _resultBuffer;
+        public object _currentBatchSize;
+        public object _bufferCapacity;
+        public object _isInitialized;
+
         // ── Methods ──
         public void get_ProcessingRaycasts(){} // RVA: 0xA6C9EB0
         public void Initialize(){} // RVA: 0xA6C9EF0

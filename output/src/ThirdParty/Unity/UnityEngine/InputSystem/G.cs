@@ -7,6 +7,26 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Gamepad : InputDevice
     {
+        public object _buttonWest;
+        public object _buttonNorth;
+        public object _buttonSouth;
+        public object _buttonEast;
+        public object _leftStickButton;
+        public object _rightStickButton;
+        public object _startButton;
+        public object _selectButton;
+        public object _dpad;
+        public object _leftShoulder;
+        public object _rightShoulder;
+        public object _leftStick;
+        public object _rightStick;
+        public object _leftTrigger;
+        public object _rightTrigger;
+        public object _current;
+        public object m_Rumble;
+        public object s_GamepadCount;
+        public object s_Gamepads;
+
         // ── Methods ──
         public void get_buttonWest(){} // RVA: 0x13659D0
         public void set_buttonWest(){} // RVA: 0x166D270
@@ -63,6 +83,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class GravitySensor : Sensor
     {
+        public object _gravity;
+        public object _current;
+
         // ── Methods ──
         public void get_gravity(){} // RVA: 0x13659D0
         public void set_gravity(){} // RVA: 0x166D270
@@ -76,6 +99,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class Gyroscope : Sensor
     {
+        public object _angularVelocity;
+        public object _current;
+
         // ── Methods ──
         public void get_angularVelocity(){} // RVA: 0x13659D0
         public void set_angularVelocity(){} // RVA: 0x166D270

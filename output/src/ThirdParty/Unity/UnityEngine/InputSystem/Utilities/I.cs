@@ -14,6 +14,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x87C130
         public void .ctor(){} // RVA: 0x894320
@@ -41,6 +45,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -68,6 +76,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -95,6 +107,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -122,6 +138,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -149,6 +169,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -176,6 +200,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -203,6 +231,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -230,6 +262,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x32C460
         public void .ctor(){} // RVA: 0x32C640
@@ -257,6 +293,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x3259F0
         public void get_Item(){} // RVA: 0x325A00
@@ -284,6 +324,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -311,6 +355,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -338,6 +386,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -365,6 +417,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -392,6 +448,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -419,6 +479,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -446,6 +510,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -473,6 +541,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -500,6 +572,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -527,6 +603,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -554,6 +634,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x3252B0
         public void .ctor(){} // RVA: 0x3253B0
@@ -581,6 +665,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x326660
         public void .ctor(){} // RVA: 0x326910
@@ -608,6 +696,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -635,6 +727,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -662,6 +758,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -689,6 +789,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void RemoveAtWithCapacity(){} // RVA: 0x3251A0
         public void get_Item(){} // RVA: 0x324DC0
@@ -716,6 +820,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x32BF90
@@ -743,6 +851,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -770,6 +882,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -797,6 +913,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -824,6 +944,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x3258D0
         public void .ctor(){} // RVA: 0x3277E0
@@ -851,6 +975,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -878,6 +1006,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x3258D0
         public void .ctor(){} // RVA: 0x32CDF0
@@ -905,6 +1037,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -932,6 +1068,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -959,6 +1099,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -986,6 +1130,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1013,6 +1161,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1040,6 +1192,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1067,6 +1223,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x324780
@@ -1094,6 +1254,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1121,6 +1285,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1148,6 +1316,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1175,6 +1347,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1202,6 +1378,10 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InlinedArray`1 : ValueType
     {
+        public object length;
+        public object firstValue;
+        public object additionalValues;
+
         // ── Methods ──
         public void get_Capacity(){} // RVA: 0x324680
         public void .ctor(){} // RVA: 0x326230
@@ -1229,6 +1409,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InputActionTrace : Object
     {
+        public object m_SubscribedToAll;
+        public object m_OnActionChangeHooked;
+        public object m_SubscribedActions;
+        public object m_SubscribedActionMaps;
+        public object m_EventBuffer;
+        public object m_ActionMapStates;
+        public object m_ActionMapStateClones;
+        public object m_CallbackDelegate;
+        public object m_ActionChangeDelegate;
+
         // ── Methods ──
         public void get_buffer(){} // RVA: 0x7826920
         public void get_count(){} // RVA: 0xD347A0
@@ -1261,6 +1451,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 
     public class InternedString : ValueType
     {
+        public object m_StringOriginalCase;
+        public object m_StringLowerCase;
+
         // ── Methods ──
         public void get_length(){} // RVA: 0x92E300
         public void .ctor(){} // RVA: 0x92E310

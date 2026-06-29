@@ -7,6 +7,10 @@ namespace ThirdParty.Unity.UnityEngine
 {
     public class HDROutputSettings : Object
     {
+        public object m_DisplayIndex;
+        public object displays;
+        public object _mainDisplay;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x132A2D0
         public void .cctor(){} // RVA: 0x7B81CE0
@@ -40,6 +44,9 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class Hash128 : ValueType
     {
+        public object u64_0;
+        public object u64_1;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x89DB0
         public void CompareTo(){} // RVA: 0x963A80
@@ -77,12 +84,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HeaderAttribute : PropertyAttribute
     {
+        public object header;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x484EDA0
     }
 
     public class HelpURLAttribute : Attribute
     {
+        public object m_Url;
+        public object m_Dispatcher;
+        public object m_DispatchingFieldName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7BF5B50
     }
@@ -259,6 +272,10 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanBone : ValueType
     {
+        public object m_BoneName;
+        public object m_HumanName;
+        public object limit;
+
         // ── Methods ──
         public void get_boneName(){} // RVA: 0x44D9F0
         public void set_boneName(){} // RVA: 0x47F10
@@ -288,6 +305,21 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanDescription : ValueType
     {
+        public object human;
+        public object skeleton;
+        public object m_ArmTwist;
+        public object m_ForeArmTwist;
+        public object m_UpperLegTwist;
+        public object m_LegTwist;
+        public object m_ArmStretch;
+        public object m_LegStretch;
+        public object m_FeetSpacing;
+        public object m_GlobalScale;
+        public object m_RootMotionBoneName;
+        public object m_HasTranslationDoF;
+        public object m_HasExtraRoot;
+        public object m_SkeletonHasParents;
+
         // ── Methods ──
         public void get_upperArmTwist(){} // RVA: 0x958970
         public void set_upperArmTwist(){} // RVA: 0xFF760
@@ -309,6 +341,12 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanLimit : ValueType
     {
+        public object m_Min;
+        public object m_Max;
+        public object m_Center;
+        public object m_AxisLength;
+        public object m_UseDefaultValues;
+
         // ── Methods ──
         public void get_useDefaultValues(){} // RVA: 0x9589C0
         public void set_useDefaultValues(){} // RVA: 0x9589D0
@@ -324,12 +362,18 @@ namespace ThirdParty.Unity.UnityEngine
 
     public class HumanPose : ValueType
     {
+        public object bodyPosition;
+        public object bodyRotation;
+        public object muscles;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x95A940
     }
 
     public class HumanPoseHandler : Object
     {
+        public object m_Ptr;
+
         // ── Methods ──
         public void Internal_CreateFromRoot(){} // RVA: 0x7B16170
         public void Internal_CreateFromJointPaths(){} // RVA: 0x7B16250

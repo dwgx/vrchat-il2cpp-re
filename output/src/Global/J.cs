@@ -5,6 +5,9 @@
 
 public class JArray : Object
 {
+    public object Empty;
+    public object m_Values;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA4A8360
     public void ToLegacyList(){} // RVA: 0xA4A8420
@@ -58,6 +61,14 @@ public class JArray : Object
 
 public class JObject : Object
 {
+    public object MIN_SORT_SIZE;
+    public object Empty;
+    public object m_Keys;
+    public object m_Values;
+    public object m_KeysCollection;
+    public object m_ValuesCollection;
+    public object objectValueCollection;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA4AABF0
     public void get_Count(){} // RVA: 0x17F0080
@@ -132,6 +143,8 @@ public class JObjectDynamicProxy : DynamicProxy`1
 
 public class JPropertyList : Object
 {
+    public object _token;
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x6AAC410
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x6AAC410
@@ -152,6 +165,8 @@ public class JPropertyList : Object
 
 public class JPropertyList : Object
 {
+    public object _token;
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x81AB090
     public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x81AB090
@@ -172,6 +187,11 @@ public class JPropertyList : Object
 
 public class JStringBinding : ValueType
 {
+    public object javaString;
+    public object chars;
+    public object length;
+    public object ownsRef;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x958F00
     public void Dispose(){} // RVA: 0x958F50
@@ -187,6 +207,9 @@ public class JValueDynamicProxy : DynamicProxy`1
 
 public class JobHandlePromise : Object
 {
+    public object jobHandle;
+    public object core;
+
     // ── Methods ──
     public void Create(){} // RVA: 0x779D280
     public void GetResult(){} // RVA: 0x779D300
@@ -199,12 +222,19 @@ public class JobHandlePromise : Object
 
 public class JobScheduleParameters : ValueType
 {
+    public object Dependency;
+    public object ScheduleMode;
+    public object ReflectionData;
+    public object JobDataPtr;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x95E8E0
 }
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x8942F0
     public void Execute(){} // RVA: 0x89D2D0
@@ -213,6 +243,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4097280
     public void Execute(){} // RVA: 0x40975C0
@@ -221,6 +253,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4094440
     public void Execute(){} // RVA: 0x4094780
@@ -229,6 +263,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x40947C0
     public void Execute(){} // RVA: 0x4094B00
@@ -237,6 +273,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4094B40
     public void Execute(){} // RVA: 0x4094E80
@@ -245,6 +283,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4094EC0
     public void Execute(){} // RVA: 0x4095200
@@ -253,6 +293,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4095240
     public void Execute(){} // RVA: 0x4095580
@@ -261,6 +303,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x40955C0
     public void Execute(){} // RVA: 0x4095900
@@ -269,6 +313,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x40983E0
     public void Execute(){} // RVA: 0x4098720
@@ -277,6 +323,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4098060
     public void Execute(){} // RVA: 0x40983A0
@@ -285,6 +333,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4095940
     public void Execute(){} // RVA: 0x4095C80
@@ -293,6 +343,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4095CC0
     public void Execute(){} // RVA: 0x4096000
@@ -301,6 +353,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4096A80
     public void Execute(){} // RVA: 0x4096DC0
@@ -309,6 +363,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4096040
     public void Execute(){} // RVA: 0x4096380
@@ -317,6 +373,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x40963C0
     public void Execute(){} // RVA: 0x4096700
@@ -325,6 +383,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4096740
     public void Execute(){} // RVA: 0x4096700
@@ -333,6 +393,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4098DE0
     public void Execute(){} // RVA: 0x4099120
@@ -341,6 +403,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4098AA0
     public void Execute(){} // RVA: 0x4098720
@@ -349,6 +413,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4098760
     public void Execute(){} // RVA: 0x40983A0
@@ -357,6 +423,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x40975E0
     public void Execute(){} // RVA: 0x4097920
@@ -365,6 +433,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4097CE0
     public void Execute(){} // RVA: 0x4098020
@@ -373,6 +443,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4097960
     public void Execute(){} // RVA: 0x4097CA0
@@ -381,6 +453,8 @@ public class JobStruct`1 : ValueType
 
 public class JobStruct`1 : ValueType
 {
+    public object jobReflectionData;
+
     // ── Methods ──
     public void Initialize(){} // RVA: 0x4093F40
     public void Execute(){} // RVA: 0x4094280
@@ -389,6 +463,10 @@ public class JobStruct`1 : ValueType
 
 public class Join : Object
 {
+    public object OutPt1;
+    public object OutPt2;
+    public object OffPt;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -415,6 +493,8 @@ public class JointData[] : Array
 
 public class JsonPropertyInfoList : ConfigurationList`1
 {
+    public object _jsonTypeInfo;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7340410
     public void get_IsReadOnly(){} // RVA: 0x7340570
@@ -426,6 +506,9 @@ public class JsonPropertyInfoList : ConfigurationList`1
 
 public class JsonString : ValueType
 {
+    public object text;
+    public object hasEscapes;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x92E9A0
     public void Equals(){} // RVA: 0x92E9E0
@@ -437,6 +520,15 @@ public class JsonString : ValueType
 
 public class JsonValue : ValueType
 {
+    public object type;
+    public object boolValue;
+    public object realValue;
+    public object integerValue;
+    public object stringValue;
+    public object arrayValue;
+    public object objectValue;
+    public object anyValue;
+
     // ── Methods ──
     public void ToBoolean(){} // RVA: 0x92EB90
     public void ToInteger(){} // RVA: 0x92EC60

@@ -7,6 +7,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class ZipAwaitWithCancellation`3 : Object
     {
+        public object first;
+        public object second;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -14,6 +18,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class ZipAwait`3 : Object
     {
+        public object first;
+        public object second;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60
@@ -21,6 +29,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 
     public class Zip`3 : Object
     {
+        public object first;
+        public object second;
+        public object resultSelector;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x8954D0
         public void GetAsyncEnumerator(){} // RVA: 0x881D60

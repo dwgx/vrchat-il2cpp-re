@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 {
     public class AbstractPurchasingModule : Object
     {
+        public object m_Binder;
+
         // ── Methods ──
         public void Configure(){} // RVA: 0x894290
         public void RegisterStore(){} // RVA: 0x7D70200
@@ -67,6 +69,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class ProductDescription : Object
     {
+        public object _storeSpecificId;
+        public object type;
+        public object _metadata;
+        public object _receipt;
+        public object _transactionId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D703F0
         public void get_storeSpecificId(){} // RVA: 0xB5DBF0
@@ -81,6 +89,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class PurchaseFailureDescription : Object
     {
+        public object _productId;
+        public object _reason;
+        public object _message;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x69C9EA0
         public void get_productId(){} // RVA: 0xB5DBF0
@@ -93,6 +105,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Extension
 
     public class UnityUtil : MonoBehaviour
     {
+        public object s_Callbacks;
+        public object s_CallbacksPending;
+        public object s_PcControlledPlatforms;
+        public object pauseListeners;
+
         // ── Methods ──
         public void GetAnyComponentsOfType(){} // RVA: 0x87C0A0
         public void get_currentTime(){} // RVA: 0x7D9FCB0

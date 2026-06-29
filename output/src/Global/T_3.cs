@@ -5,12 +5,30 @@
 
 public class TIME_DYNAMIC_ZONE_INFORMATION : ValueType
 {
+    public object Bias;
+    public object StandardName;
+    public object StandardDate;
+    public object StandardBias;
+    public object DaylightName;
+    public object DaylightDate;
+    public object DaylightBias;
+    public object TimeZoneKeyName;
+    public object DynamicDaylightTimeDisabled;
+
     // ── Methods ──
     public void GetTimeZoneKeyName(){} // RVA: 0x8AB060
 }
 
 public class TIME_ZONE_INFORMATION : ValueType
 {
+    public object Bias;
+    public object StandardName;
+    public object StandardDate;
+    public object StandardBias;
+    public object DaylightName;
+    public object DaylightDate;
+    public object DaylightBias;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8AB080
     public void GetStandardName(){} // RVA: 0x8AB190
@@ -19,36 +37,61 @@ public class TIME_ZONE_INFORMATION : ValueType
 
 public class TableEntry : Object
 {
+    public object Ref;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x77D2310
 }
 
 public class TableSchemaInfo : Object
 {
+    public object TableSchema;
+    public object ColumnsSchemaMap;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x71C4EE0
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class Tables : Object
 {
+    public object _buckets;
+    public object _locks;
+    public object _countPerLock;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4BAF640
 }
 
 public class TagInfo : ValueType
 {
+    public object name;
+    public object prefix;
+    public object defaultNs;
+    public object defaultNsState;
+    public object xmlSpace;
+    public object xmlLang;
+    public object prevNsTop;
+    public object prefixCount;
+    public object mixed;
+
     // ── Methods ──
     public void Init(){} // RVA: 0x915BC0
 }
 
 public class TagsLinkedList : Object
 {
+    public object _first;
+
     // ── Methods ──
     public void GetEnumerator(){} // RVA: 0x7241860
     public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator(){} // RVA: 0x72418C0
@@ -57,6 +100,10 @@ public class TagsLinkedList : Object
 
 public class TaskWrapperAsyncResult : Object
 {
+    public object Task;
+    public object _state;
+    public object _completedSynchronously;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67A2500
     public void System.IAsyncResult.get_AsyncState(){} // RVA: 0xB465B0
@@ -67,6 +114,10 @@ public class TaskWrapperAsyncResult : Object
 
 public class TaskWrapperAsyncResult : Object
 {
+    public object Task;
+    public object _state;
+    public object _completedSynchronously;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x67A2500
     public void System.IAsyncResult.get_AsyncState(){} // RVA: 0xB465B0
@@ -77,6 +128,8 @@ public class TaskWrapperAsyncResult : Object
 
 public class TempAssemblyComparer : Object
 {
+    public object s_default;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
     public void Equals(){} // RVA: 0x72018B0
@@ -86,6 +139,9 @@ public class TempAssemblyComparer : Object
 
 public class TestBuilder : Object
 {
+    public object _unique;
+    public object _tests;
+
     // ── Methods ──
     public void Append(){} // RVA: 0x70CAB80
     public void ToExpression(){} // RVA: 0x70CAC20
@@ -102,6 +158,8 @@ public class TextureChangedCallback : MulticastDelegate
 
 public class TextureSheetAnimationModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x977EE0
@@ -158,18 +216,46 @@ public class TextureSheetAnimationModule : ValueType
 
 public class ThreadContext : Object
 {
+    public object m_NestedIOCount;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class ThreadLocalState : Object
 {
+    public object BufferWriter;
+    public object Writer;
+    public object RentedWriters;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x730ED00
 }
 
 public class TimeSpanRawInfo : ValueType
 {
+    public object _lastSeenTTT;
+    public object _tokenCount;
+    public object _sepCount;
+    public object _numCount;
+    public object _posLoc;
+    public object _negLoc;
+    public object _posLocInit;
+    public object _negLocInit;
+    public object _fullPosPattern;
+    public object _fullNegPattern;
+    public object _numbers0;
+    public object _numbers1;
+    public object _numbers2;
+    public object _numbers3;
+    public object _numbers4;
+    public object _literals0;
+    public object _literals1;
+    public object _literals2;
+    public object _literals3;
+    public object _literals4;
+    public object _literals5;
+
     // ── Methods ──
     public void get_PositiveInvariant(){} // RVA: 0x683F100
     public void get_NegativeInvariant(){} // RVA: 0x683F180
@@ -192,6 +278,9 @@ public class TimeSpanRawInfo : ValueType
 
 public class TimeSpanResult : ValueType
 {
+    public object parsedTimeSpan;
+    public object _throwOnFailure;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8B3AE0
     public void SetFailure(){} // RVA: 0x8B3AF0
@@ -205,6 +294,14 @@ public class TimeSpanSeconds : Object
 
 public class TimeSpanSplitter : ValueType
 {
+    public object V1;
+    public object V2;
+    public object V3;
+    public object V4;
+    public object V5;
+    public object IsNegative;
+    public object Separators;
+
     // ── Methods ──
     public void TrySplitTimeSpan(){} // RVA: 0x8E8590
     public void ParseComponent(){} // RVA: 0x6D3EC00
@@ -212,6 +309,14 @@ public class TimeSpanSplitter : ValueType
 
 public class TimeSpanSplitter : ValueType
 {
+    public object V1;
+    public object V2;
+    public object V3;
+    public object V4;
+    public object V5;
+    public object IsNegative;
+    public object Separators;
+
     // ── Methods ──
     public void TrySplitTimeSpan(){} // RVA: 0x8B5AD0
     public void ParseComponent(){} // RVA: 0x6897DA0
@@ -219,6 +324,11 @@ public class TimeSpanSplitter : ValueType
 
 public class TimeSpanToken : ValueType
 {
+    public object _ttt;
+    public object _num;
+    public object _zeroes;
+    public object _sep;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x683ED90
     public void IsInvalidFraction(){} // RVA: 0x683EDB0
@@ -226,6 +336,9 @@ public class TimeSpanToken : ValueType
 
 public class TimeSpanTokenizer : ValueType
 {
+    public object _value;
+    public object _pos;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x425D090
     public void GetNextToken(){} // RVA: 0x683EE20
@@ -236,6 +349,9 @@ public class TimeSpanTokenizer : ValueType
 
 public class TimeoutTracker : ValueType
 {
+    public object m_total;
+    public object m_start;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8FEE00
     public void get_RemainingMilliseconds(){} // RVA: 0x8FEE10
@@ -244,6 +360,9 @@ public class TimeoutTracker : ValueType
 
 public class Timer : Object
 {
+    public object m_StartTimeMilliseconds;
+    public object m_DurationMilliseconds;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7594300
     public void get_StartTime(){} // RVA: 0xB8F8F0
@@ -255,6 +374,13 @@ public class Timer : Object
 
 public class TimerNode : Timer
 {
+    public object m_TimerState;
+    public object m_Callback;
+    public object m_Context;
+    public object m_QueueLock;
+    public object next;
+    public object prev;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7594DB0
     public void get_HasExpired(){} // RVA: 0x7594DE0
@@ -268,6 +394,9 @@ public class TimerNode : Timer
 
 public class TimerQueue : Queue
 {
+    public object m_ThisHandle;
+    public object m_Timers;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7594330
     public void CreateTimer(){} // RVA: 0x75944B0
@@ -304,6 +433,8 @@ public class Token : Object
 
 public class TopLevelAssemblyTypeResolver : Object
 {
+    public object m_topLevelAssembly;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44D60
     public void ResolveType(){} // RVA: 0x67A7D50
@@ -311,6 +442,8 @@ public class TopLevelAssemblyTypeResolver : Object
 
 public class TrackCacheManager : ValueType
 {
+    public object trackCache;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x947C80
     public void Dispose(){} // RVA: 0x947CE0
@@ -319,6 +452,10 @@ public class TrackCacheManager : ValueType
 
 public class TrackedCachingContexts : Object
 {
+    public object MaxTrackedContexts;
+    public object s_trackedContexts;
+    public object s_optionsComparer;
+
     // ── Methods ──
     public void GetOrCreate(){} // RVA: 0x7312DB0
     public void TryGetContext(){} // RVA: 0x7313180
@@ -327,6 +464,8 @@ public class TrackedCachingContexts : Object
 
 public class TrackedOptionsInstances : Object
 {
+    public object _all;
+
     // ── Methods ──
     public void get_All(){} // RVA: 0x7313B50
     public void .cctor(){} // RVA: 0x7313BB0
@@ -334,6 +473,8 @@ public class TrackedOptionsInstances : Object
 
 public class TrailModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x9813A0
@@ -402,12 +543,27 @@ public class TrailModule : ValueType
 
 public class Trails : ValueType
 {
+    public object positions;
+    public object frontPositions;
+    public object backPositions;
+    public object positionCounts;
+    public object textureOffsets;
+    public object maxTrailCount;
+    public object maxPositionsPerTrailCount;
+
     // ── Methods ──
     public void Allocate(){} // RVA: 0x979B40
 }
 
 public class TransitionTime : ValueType
 {
+    public object _timeOfDay;
+    public object _month;
+    public object _week;
+    public object _day;
+    public object _dayOfWeek;
+    public object _isFixedDateRule;
+
     // ── Methods ──
     public void get_TimeOfDay(){} // RVA: 0x77900
     public void get_Month(){} // RVA: 0x7E230
@@ -428,6 +584,12 @@ public class TransitionTime : ValueType
 
 public class TreePage : Object
 {
+    public object _slots;
+    public object _slotMap;
+    public object _inUseCount;
+    public object _pageId;
+    public object _nextFreeSlotLine;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8944F0
     public void AllocSlot(){} // RVA: 0x87D050
@@ -439,6 +601,12 @@ public class TreePage : Object
 
 public class TreePage : Object
 {
+    public object _slots;
+    public object _slotMap;
+    public object _inUseCount;
+    public object _pageId;
+    public object _nextFreeSlotLine;
+
     // ── Methods ──
     public void set_InUseCount(){} // RVA: 0x1269760
     public void get_PageId(){} // RVA: 0x15AF000
@@ -450,6 +618,12 @@ public class TreePage : Object
 
 public class TreePage : Object
 {
+    public object _slots;
+    public object _slotMap;
+    public object _inUseCount;
+    public object _pageId;
+    public object _nextFreeSlotLine;
+
     // ── Methods ──
     public void set_InUseCount(){} // RVA: 0x1269760
     public void get_PageId(){} // RVA: 0x15AF000
@@ -461,12 +635,19 @@ public class TreePage : Object
 
 public class TriangleDataShaderIds : Object
 {
+    public object _TriangleBuffer;
+    public object _TrianglesDispatchIndirectArgs;
+    public object _TrianglesCount;
+    public object _TrianglesDrawIndirectArgs;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26BC0E0
 }
 
 public class TriggerModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x977550
@@ -497,6 +678,8 @@ public class TriggerModule : ValueType
 
 public class TryExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7049FB0
     public void get_Body(){} // RVA: 0x13F9400
@@ -518,6 +701,8 @@ public class TryFunction : MulticastDelegate
 
 public class TypeBinaryExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x704A090
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -530,6 +715,8 @@ public class TypeBinaryExpressionProxy : Object
 
 public class TypeConstructorVisitor : Object
 {
+    public object TypeConstructor;
+
     // ── Methods ──
     public void Visit(){} // RVA: 0x894290
     public void .ctor(){} // RVA: 0xB43310
@@ -537,6 +724,10 @@ public class TypeConstructorVisitor : Object
 
 public class TypeConstructor`1 : Object
 {
+    public object m_ExplicitConstructor;
+    public object m_ImplicitConstructor;
+    public object m_OverrideConstructor;
+
     // ── Methods ──
     public void Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated(){} // RVA: 0x87D280
     public void .ctor(){} // RVA: 0x894290
@@ -551,6 +742,9 @@ public class TypeConstructor`1 : Object
 
 public class TypeDescriptionNode : TypeDescriptionProvider
 {
+    public object Next;
+    public object Provider;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB44DC0
     public void CreateInstance(){} // RVA: 0x7709EE0
@@ -578,24 +772,36 @@ public class TypeDescriptorInterface : Object
 
 public class TypeInfo : Object
 {
+    public object Attributes;
+    public object Elements;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class TypeInfo : Object
 {
+    public object DelegateType;
+    public object TypeChain;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class TypeNAssembly : Object
 {
+    public object type;
+    public object assemblyName;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class TypeRestriction : BindingRestrictions
 {
+    public object _expression;
+    public object _type;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70CB8A0
     public void Equals(){} // RVA: 0x70CB9B0
@@ -605,6 +811,9 @@ public class TypeRestriction : BindingRestrictions
 
 public class tBigInt : ValueType
 {
+    public object m_length;
+    public object m_blocks;
+
     // ── Methods ──
     public void GetLength(){} // RVA: 0x77E60
     public void GetBlock(){} // RVA: 0x923F10
@@ -615,6 +824,9 @@ public class tBigInt : ValueType
 
 public class tFloatUnion32 : ValueType
 {
+    public object m_floatingPoint;
+    public object m_integer;
+
     // ── Methods ──
     public void IsNegative(){} // RVA: 0x8BE0A0
     public void GetExponent(){} // RVA: 0x923F70
@@ -623,6 +835,9 @@ public class tFloatUnion32 : ValueType
 
 public class tFloatUnion64 : ValueType
 {
+    public object m_floatingPoint;
+    public object m_integer;
+
     // ── Methods ──
     public void IsNegative(){} // RVA: 0x923F90
     public void GetExponent(){} // RVA: 0x923FB0

@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class DataStorage : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -40,6 +42,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -53,6 +57,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBoolT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC120A0
         public void set_Value(){} // RVA: 0xC120B0
@@ -61,6 +67,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBytes : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -85,6 +93,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageBytesT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -99,6 +109,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageEntryUnion : Object
     {
+        public object _type;
+        public object _value;
+
         // ── Methods ──
         public void get_Type(){} // RVA: 0xC120A0
         public void set_Type(){} // RVA: 0xC120B0
@@ -127,6 +140,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageFloat : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -140,6 +155,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageFloatT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xC763E0
         public void set_Value(){} // RVA: 0xC763F0
@@ -148,6 +165,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageInt : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void __init(){} // RVA: 0x9B5420
@@ -161,6 +180,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageIntT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB8F8F0
         public void set_Value(){} // RVA: 0xB460A0
@@ -169,6 +190,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageString : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -189,6 +212,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageStringT : Object
     {
+        public object _value;
+
         // ── Methods ──
         public void get_Value(){} // RVA: 0xB5DBF0
         public void set_Value(){} // RVA: 0xB44D60
@@ -203,6 +228,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class DataStorageT : Object
     {
+        public object _entries;
+
         // ── Methods ──
         public void get_Entries(){} // RVA: 0xB5DBF0
         public void set_Entries(){} // RVA: 0xB44D60

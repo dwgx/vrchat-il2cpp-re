@@ -103,6 +103,15 @@ namespace ThirdParty.Unity.UnityEngine.Video
 
     public class VideoPlayer : Behaviour
     {
+        public object prepareCompleted;
+        public object loopPointReached;
+        public object started;
+        public object frameDropped;
+        public object errorReceived;
+        public object seekCompleted;
+        public object clockResyncOccurred;
+        public object frameReady;
+
         // ── Methods ──
         public void get_source(){} // RVA: 0x8135AD0
         public void set_source(){} // RVA: 0x8135B70

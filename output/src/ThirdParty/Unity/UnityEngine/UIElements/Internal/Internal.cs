@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 {
     public class AutoCompletePathVisitor : Object
     {
+        public object m_VisitContext;
+        public object _maxDepth;
+
         // ── Methods ──
         public void get_maxDepth(){} // RVA: 0xE62D00
         public void HasReachedEnd(){} // RVA: 0x7FABFA0
@@ -21,6 +24,23 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class ColumnMover : PointerManipulator
     {
+        public object m_StartPos;
+        public object m_LastPos;
+        public object m_Active;
+        public object m_Moving;
+        public object m_Cancelled;
+        public object m_Header;
+        public object m_PreviewElement;
+        public object m_LocationPreviewElement;
+        public object m_ColumnToMove;
+        public object m_ColumnToMovePos;
+        public object m_ColumnToMoveWidth;
+        public object m_DestinationColumn;
+        public object m_MoveBeforeDestination;
+        public object _columnLayout;
+        public object activeChanged;
+        public object movingChanged;
+
         // ── Methods ──
         public void get_columnLayout(){} // RVA: 0xC10050
         public void set_columnLayout(){} // RVA: 0xC10060
@@ -54,6 +74,15 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class ColumnResizer : PointerManipulator
     {
+        public object m_Start;
+        public object m_Active;
+        public object m_Resizing;
+        public object m_Header;
+        public object m_Column;
+        public object m_PreviewElement;
+        public object _columnLayout;
+        public object _preview;
+
         // ── Methods ──
         public void get_columnLayout(){} // RVA: 0xBE58B0
         public void set_columnLayout(){} // RVA: 0xCA4DF0
@@ -74,6 +103,28 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnCollectionHeader : VisualElement
     {
+        public object ussClassName;
+        public object columnContainerUssClassName;
+        public object handleContainerUssClassName;
+        public object reorderableUssClassName;
+        public object m_SortingEnabled;
+        public object m_SortedColumns;
+        public object m_SortDescriptions;
+        public object m_OldSortedColumnStates;
+        public object m_SortingUpdatesTemporarilyDisabled;
+        public object m_ViewState;
+        public object m_ApplyingViewState;
+        public object m_DoLayoutScheduled;
+        public object _columnDataMap;
+        public object _columnLayout;
+        public object _columnContainer;
+        public object _resizeHandleContainer;
+        public object _columns;
+        public object columnResized;
+        public object columnSortingChanged;
+        public object contextMenuPopulateEvent;
+        public object viewDataRestored;
+
         // ── Methods ──
         public void get_isApplyingViewState(){} // RVA: 0x7FB1DE0
         public void get_columnDataMap(){} // RVA: 0x163D1E0
@@ -127,6 +178,31 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumn : VisualElement
     {
+        public object ussClassName;
+        public object sortableUssClassName;
+        public object sortedAscendingUssClassName;
+        public object sortedDescendingUssClassName;
+        public object movingUssClassName;
+        public object contentContainerUssClassName;
+        public object contentUssClassName;
+        public object defaultContentUssClassName;
+        public object hasIconUssClassName;
+        public object hasTitleUssClassName;
+        public object titleUssClassName;
+        public object iconElementName;
+        public object titleElementName;
+        public object s_BoundVEPropertyName;
+        public object s_BindingCallbackVEPropertyName;
+        public object s_UnbindingCallbackVEPropertyName;
+        public object s_DestroyCallbackVEPropertyName;
+        public object m_ContentContainer;
+        public object m_Content;
+        public object m_SortIndicatorContainer;
+        public object m_ScheduledHeaderTemplateUpdate;
+        public object _clickable;
+        public object _mover;
+        public object _column;
+
         // ── Methods ──
         public void get_clickable(){} // RVA: 0x1667CC0
         public void set_clickable(){} // RVA: 0x1649C60
@@ -158,6 +234,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnIcon : Image
     {
+        public object ussClassName;
+        public object _isImageInline;
+
         // ── Methods ──
         public void get_isImageInline(){} // RVA: 0x7FB97D0
         public void set_isImageInline(){} // RVA: 0x7FB97E0
@@ -169,6 +248,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnMoveLocationPreview : VisualElement
     {
+        public object ussClassName;
+        public object visualUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FAD780
         public void .cctor(){} // RVA: 0x7FAD910
@@ -176,6 +258,8 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnMovePreview : VisualElement
     {
+        public object ussClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FAD560
         public void .cctor(){} // RVA: 0x7FAD690
@@ -183,6 +267,10 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnResizeHandle : VisualElement
     {
+        public object ussClassName;
+        public object dragAreaUssClassName;
+        public object _dragArea;
+
         // ── Methods ──
         public void get_dragArea(){} // RVA: 0x1667E80
         public void .ctor(){} // RVA: 0x7FBD370
@@ -191,6 +279,9 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnResizePreview : VisualElement
     {
+        public object ussClassName;
+        public object visualUssClassName;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FB0650
         public void .cctor(){} // RVA: 0x7FB07E0
@@ -198,6 +289,11 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class MultiColumnHeaderColumnSortIndicator : VisualElement
     {
+        public object ussClassName;
+        public object arrowUssClassName;
+        public object indexLabelUssClassName;
+        public object m_IndexLabel;
+
         // ── Methods ──
         public void set_sortOrderLabel(){} // RVA: 0x7FB92F0
         public void .ctor(){} // RVA: 0x7FB9320
@@ -206,6 +302,12 @@ namespace ThirdParty.Unity.UnityEngine.UIElements.Internal
 
     public class TypePathVisitor : Object
     {
+        public object _path;
+        public object _resolvedType;
+        public object _returnCode;
+        public object m_LastType;
+        public object m_PathIndex;
+
         // ── Methods ──
         public void get_Path(){} // RVA: 0x3931470
         public void set_Path(){} // RVA: 0x7FAD0A0

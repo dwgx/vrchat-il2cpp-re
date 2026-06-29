@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 663
+// Methods: 652
 
 public class PCMReaderCallback : MulticastDelegate
 {
@@ -107,6 +107,9 @@ public class PaddingTopProperty : ResolvedFloatProperty
 
 public class PairIterator : ValueType
 {
+    public object _index;
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void Reset(){} // RVA: 0x894290
@@ -118,6 +121,9 @@ public class PairIterator : ValueType
 
 public class PairIterator : ValueType
 {
+    public object _index;
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD10
     public void Dispose(){} // RVA: 0x3FC0
@@ -129,24 +135,161 @@ public class PairIterator : ValueType
 
 public class PairIterator : ValueType
 {
+    public object _index;
+    public object _dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x35BD10
 }
 
-public class PanicFunction_ : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBA0FE0
-    public void Invoke(){} // RVA: 0xBA10B0
-}
-
 public class PanoSpec : Object
 {
+    public object url;
+    public object texture;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
-public class PanoSpec[] : Array
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x8942F0
+    public void Execute(){} // RVA: 0x89D2D0
+    public void .cctor(){} // RVA: 0x8942F0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484A9C0
+    public void Execute(){} // RVA: 0x484AD00
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484A590
+    public void Execute(){} // RVA: 0x484A8D0
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484ADF0
+    public void Execute(){} // RVA: 0x484B130
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484B220
+    public void Execute(){} // RVA: 0x484B560
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484B650
+    public void Execute(){} // RVA: 0x484B990
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x4849890
+    public void Execute(){} // RVA: 0x4849BD0
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484BAB0
+    public void Execute(){} // RVA: 0x484BDF0
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class ParallelForJobStruct`1 : ValueType
+{
+    public object jobReflectionData;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x484D3D0
+    public void Execute(){} // RVA: 0x484D710
+    public void .cctor(){} // RVA: 0x40942C0
+}
+
+public class Parameter : Object
+{
+    public object name;
+    public object _hash;
+
+    // ── Methods ──
+    public void get_hash(){} // RVA: 0xA6C8530
+    public void IsNull(){} // RVA: 0xA6C8560
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class Parameter : Object
+{
+    public object type;
+    public object name;
+    public object source;
+    public object value;
+    public object valueMin;
+    public object valueMax;
+    public object chance;
+    public object preventRepeats;
+    public object convertRange;
+    public object sourceMin;
+    public object sourceMax;
+    public object destMin;
+    public object destMax;
+    public object sourceParam;
+    public object destParam;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA721D00
+}
+
+public class ParameterConfig : Object
+{
+    public object name;
+    public object input;
+    public object output;
+    public object stringType;
+    public object parameterType;
+    public object hash;
+
+    // ── Methods ──
+    public void Initialize(){} // RVA: 0x19EB690
+    public void GetDefaultAddressFor(){} // RVA: 0x19EBA90
+    public void .ctor(){} // RVA: 0x19EBB10
+}
+
+public class Parameter[] : Array
 {
     // ── Methods ──
     public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
@@ -166,114 +309,38 @@ public class PanoSpec[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class ParallelForJobStruct`1 : ValueType
+public class ParentClipScope : ValueType
 {
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x8942F0
-    public void Execute(){} // RVA: 0x89D2D0
-    public void .cctor(){} // RVA: 0x8942F0
-}
+    public object m_Disposed;
 
-public class ParallelForJobStruct`1 : ValueType
-{
     // ── Methods ──
-    public void Initialize(){} // RVA: 0x484A9C0
-    public void Execute(){} // RVA: 0x484AD00
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484A590
-    public void Execute(){} // RVA: 0x484A8D0
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484ADF0
-    public void Execute(){} // RVA: 0x484B130
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484B220
-    public void Execute(){} // RVA: 0x484B560
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484B650
-    public void Execute(){} // RVA: 0x484B990
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x4849890
-    public void Execute(){} // RVA: 0x4849BD0
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484BAB0
-    public void Execute(){} // RVA: 0x484BDF0
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParallelForJobStruct`1 : ValueType
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x484D3D0
-    public void Execute(){} // RVA: 0x484D710
-    public void .cctor(){} // RVA: 0x40942C0
-}
-
-public class ParameterConfig : Object
-{
-    // ── Methods ──
-    public void Initialize(){} // RVA: 0x19EB690
-    public void GetDefaultAddressFor(){} // RVA: 0x19EBA90
-    public void .ctor(){} // RVA: 0x19EBB10
-}
-
-public class ParameterOverride : ValueType
-{
-    // ── Methods ──
-    public void get_objectType(){} // RVA: 0x9298E0
-    public void .ctor(){} // RVA: 0x929970
-    public void Find(){} // RVA: 0x77F2760
-    public void PickMoreSpecificOne(){} // RVA: 0x77F2C50
+    public void .ctor(){} // RVA: 0x96FE00
+    public void Dispose(){} // RVA: 0x96FEB0
 }
 
 public class ParentHash : ValueType
 {
+    public object m_Hash;
+    public object m_ParentHash;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2B100
 }
 
-public class ParseError : Object
+public class ParseElementOnlyContent_LocalFrame : Object
 {
+    public object startParenEntityId;
+    public object parsingSchema;
+
     // ── Methods ──
-    public void get_EqualityContract(){} // RVA: 0x7DC8BC0
-    public void .ctor(){} // RVA: 0x6CB6BA0
-    public void ToString(){} // RVA: 0x7DC8C40
-    public void PrintMembers(){} // RVA: 0x7DC8D80
-    public void GetHashCode(){} // RVA: 0x7DC8E50
-    public void Equals(){} // RVA: 0x7DC9010
+    public void .ctor(){} // RVA: 0x74E1600
 }
 
 public class PartBinding : ValueType
 {
+    public object _part;
+    public object _control;
+
     // ── Methods ──
     public void get_part(){} // RVA: 0x77E60
     public void set_part(){} // RVA: 0x29580
@@ -283,6 +350,24 @@ public class PartBinding : ValueType
 
 public class Particle : ValueType
 {
+    public object m_Position;
+    public object m_Velocity;
+    public object m_AnimatedVelocity;
+    public object m_InitialVelocity;
+    public object m_AxisOfRotation;
+    public object m_Rotation;
+    public object m_AngularVelocity;
+    public object m_StartSize;
+    public object m_StartColor;
+    public object m_RandomSeed;
+    public object m_ParentRandomSeed;
+    public object m_Lifetime;
+    public object m_StartLifetime;
+    public object m_MeshIndex;
+    public object m_EmitAccumulator0;
+    public object m_EmitAccumulator1;
+    public object m_Flags;
+
     // ── Methods ──
     public void set_lifetime(){} // RVA: 0x978AA0
     public void get_position(){} // RVA: 0x45A590
@@ -340,27 +425,10 @@ public class Particle[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class PcgRandom : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x95FEE0
-    public void GetUInt(){} // RVA: 0x95FF10
-    public void RotateRight(){} // RVA: 0x67114B0
-    public void XshRr(){} // RVA: 0x7B6FDE0
-    public void Step(){} // RVA: 0x95FF60
-}
-
 public class PerCoreLockedStacks : Object
 {
-    // ── Methods ──
-    public void TryPush(){} // RVA: 0x4857200
-    public void Trim(){} // RVA: 0x4857450
-    public void .ctor(){} // RVA: 0x4856F90
-    public void TryPop(){} // RVA: 0x4857300
-}
+    public object _perCoreStacks;
 
-public class PerCoreLockedStacks : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4854DD0
     public void TryPop(){} // RVA: 0x4855140
@@ -370,6 +438,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4857530
     public void TryPop(){} // RVA: 0x48578A0
@@ -379,24 +449,19 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x48596F0
-    public void TryPop(){} // RVA: 0x4859A60
-    public void TryPush(){} // RVA: 0x4859960
-    public void Trim(){} // RVA: 0x4859BB0
+    public void .ctor(){} // RVA: 0x4856F90
+    public void TryPop(){} // RVA: 0x4857300
+    public void TryPush(){} // RVA: 0x4857200
+    public void Trim(){} // RVA: 0x4857450
 }
 
 public class PerCoreLockedStacks : Object
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x48596F0
-    public void TryPop(){} // RVA: 0x4859A60
-    public void TryPush(){} // RVA: 0x4859960
-    public void Trim(){} // RVA: 0x4859BB0
-}
+    public object _perCoreStacks;
 
-public class PerCoreLockedStacks : Object
-{
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4853750
     public void TryPop(){} // RVA: 0x4853AC0
@@ -406,6 +471,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x484FF10
     public void TryPop(){} // RVA: 0x4850280
@@ -415,6 +482,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x48596F0
     public void TryPop(){} // RVA: 0x4859A60
@@ -424,6 +493,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x484FF10
     public void TryPop(){} // RVA: 0x4850280
@@ -433,6 +504,30 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x48596F0
+    public void TryPop(){} // RVA: 0x4859A60
+    public void TryPush(){} // RVA: 0x4859960
+    public void Trim(){} // RVA: 0x4859BB0
+}
+
+public class PerCoreLockedStacks : Object
+{
+    public object _perCoreStacks;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x48596F0
+    public void TryPop(){} // RVA: 0x4859A60
+    public void TryPush(){} // RVA: 0x4859960
+    public void Trim(){} // RVA: 0x4859BB0
+}
+
+public class PerCoreLockedStacks : Object
+{
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4858BB0
     public void TryPop(){} // RVA: 0x4858F20
@@ -442,6 +537,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x484FF10
     public void TryPop(){} // RVA: 0x4850280
@@ -451,6 +548,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x48596F0
     public void TryPop(){} // RVA: 0x4859A60
@@ -460,6 +559,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894290
     public void TryPush(){} // RVA: 0x894320
@@ -469,6 +570,8 @@ public class PerCoreLockedStacks : Object
 
 public class PerCoreLockedStacks : Object
 {
+    public object _perCoreStacks;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4858070
     public void TryPop(){} // RVA: 0x48583E0
@@ -738,6 +841,10 @@ public class PerCoreLockedStacks[] : Array
 
 public class PermissionFilter : ValueType
 {
+    public object allowSelf;
+    public object allowOthers;
+    public object contentTypes;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x78140
     public void IsAllowed(){} // RVA: 0x9CA7D0
@@ -745,6 +852,19 @@ public class PermissionFilter : ValueType
 
 public class PhysBoneJob : ValueType
 {
+    public object currentTime;
+    public object distanceCullOrigin;
+    public object chainIndices;
+    public object roots;
+    public object chains;
+    public object bones;
+    public object transformAccess;
+    public object transformData;
+    public object shapeData;
+    public object errorBuffer;
+    public object FABRIK_MAX_ITERATIONS;
+    public object FABRIK_SOLVED_MARGIN;
+
     // ── Methods ──
     public void Execute(){} // RVA: 0x9CA230
     public void InitializeChain(){} // RVA: 0x9CA240
@@ -782,6 +902,20 @@ public class PictureManager : Object
     public void FindFirstObjectByType(){} // RVA: 0x20BE800
 }
 
+public class PinnedHandle : ValueType
+{
+    public object Handle;
+    public object TextureHandle;
+    public object GraphicsBuffer;
+    public object ComputeBuffer;
+    public object FrameEnqueued;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xA77730
+    public void Dispose(){} // RVA: 0xA77760
+    public void CanFree(){} // RVA: 0xA77770
+}
+
 public class PinnedHandle[] : Array
 {
     // ── Methods ──
@@ -804,6 +938,10 @@ public class PinnedHandle[] : Array
 
 public class PlatformAsset : Object
 {
+    public object Platform;
+    public object Icon;
+    public object Color;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -830,6 +968,14 @@ public class PlatformAsset[] : Array
 
 public class PlayerModComponentHealth : NetworkReadyHandler_D8EE
 {
+    public object f_CB8;
+    public object f_080;
+    public object f_277;
+    public object f_2EB;
+    public object f_7DF;
+    public object f_C48;
+    public object f_CD0;
+
     // ── Methods ──
     public void Awake(){} // RVA: 0x1CF1120
     public void OnEnable(){} // RVA: 0x1CF1150
@@ -863,6 +1009,11 @@ public class PlayerModComponentHealth : NetworkReadyHandler_D8EE
 
 public class PlayerModComponentJump : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_D0E;
+    public object f_41F;
+    public object f_E71;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x1CF5160
     public void RaiseCancellation(){} // RVA: 0x1CF5260
@@ -882,6 +1033,15 @@ public class PlayerModComponentJump : MonoBehaviour
 
 public class PlayerModComponentSpeed : MonoBehaviour
 {
+    public object _m_CancellationTokenSource;
+    public object f_60C;
+    public object f_9D0;
+    public object f_9E2;
+    public object f_455;
+    public object f_7B7;
+    public object f_7EE;
+    public object f_682;
+
     // ── Methods ──
     public void get_destroyCancellationToken(){} // RVA: 0x1CF6230
     public void RaiseCancellation(){} // RVA: 0x1CF6350
@@ -900,6 +1060,9 @@ public class PlayerModComponentSpeed : MonoBehaviour
 
 public class Point : Object
 {
+    public object frequency;
+    public object data;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x1976A80
     public void Initialize(){} // RVA: 0x1976A90
@@ -914,6 +1077,14 @@ public class Point : Object
 
 public class PolyNode : Object
 {
+    public object m_Parent;
+    public object m_polygon;
+    public object m_Index;
+    public object m_jointype;
+    public object m_endtype;
+    public object m_Childs;
+    public object _isOpen;
+
     // ── Methods ──
     public void IsHoleNode(){} // RVA: 0x25E48E0
     public void get_ChildCount(){} // RVA: 0x25E4900
@@ -931,6 +1102,8 @@ public class PolyNode : Object
 
 public class PolyTree : PolyNode
 {
+    public object m_AllPolys;
+
     // ── Methods ──
     public void Clear(){} // RVA: 0x25E45A0
     public void GetFirst(){} // RVA: 0x25E46D0
@@ -940,6 +1113,9 @@ public class PolyTree : PolyNode
 
 public class PolygonSolution : ValueType
 {
+    public object polygons;
+    public object frustumHeight;
+
     // ── Methods ──
     public void StateChanged(){} // RVA: 0x88E60
     public void get_IsNull(){} // RVA: 0x88E70
@@ -947,12 +1123,25 @@ public class PolygonSolution : ValueType
 
 public class PortalSkinMap : MonoBehaviour
 {
+    public object Animator;
+    public object ThumbnailRenderer;
+    public object DespawnDuration;
+    public object PortalUIOverridePosition;
+    public object PortalPlatformBadgesOverridePosition;
+    public object PortalLabsBadgeOverridePosition;
+    public object PreviewScale;
+    public object PreviewOffset;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8312AD0
 }
 
 public class Pose : Object
 {
+    public object chainId;
+    public object prevIsAnimated;
+    public object prevData;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x82FA110
 }
@@ -1011,6 +1200,8 @@ public class PositionProperty : ResolvedEnumProperty`1
 
 public class PostLateUpdater : MonoBehaviour
 {
+    public object udonManager;
+
     // ── Methods ──
     public void LateUpdate(){} // RVA: 0x833C5A0
     public void .ctor(){} // RVA: 0xB43D60
@@ -1018,6 +1209,9 @@ public class PostLateUpdater : MonoBehaviour
 
 public class PresetSaveData : Object
 {
+    public object SelectedPreset;
+    public object Presets;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
@@ -1040,15 +1234,6 @@ public class Primitives[] : Array
     public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
     public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7B630
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
-public class PropDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0xBC4530
-    public void Invoke(){} // RVA: 0xB9E010
-    public void BeginInvoke(){} // RVA: 0xB9E020
-    public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
 public class PropertyBag : ContainerPropertyBag`1

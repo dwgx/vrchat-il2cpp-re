@@ -1,12 +1,47 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core
-// Classes: 27
-// Methods: 466
+// Classes: 23
+// Methods: 440
 
 namespace VRC.Core
 {
     public class APIGroup : ApiModel
     {
+        public object _ownerId;
+        public object _name;
+        public object _shortCode;
+        public object _discriminator;
+        public object _description;
+        public object _iconUrl;
+        public object _bannerUrl;
+        public object _memberCount;
+        public object _onlineMemberCount;
+        public object _memberCountSyncedAt;
+        public object _privacy;
+        public object _joinState;
+        public object _myMember;
+        public object _createdAt;
+        public object _updatedAt;
+        public object _membershipStatus;
+        public object _bannerId;
+        public object _iconId;
+        public object _rules;
+        public object _initialRoleIds;
+        public object _isSystemGroup;
+        public object _isVerified;
+        public object _galleries;
+        public object _tags;
+        public object _isSearchable;
+        public object _sizeQuality;
+        public object _activityQuality;
+        public object _engagementQuality;
+        public object _contentQuality;
+        public object _roles;
+        public object _links;
+        public object _languages;
+        public object _lastPostCreatedAt;
+        public object _storeId;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5C2330
         public void get_ownerId(){} // RVA: 0xBBFF90
@@ -104,6 +139,16 @@ namespace VRC.Core
 
     public class APIGroupAnnouncement : ApiModel
     {
+        public object _groupId;
+        public object _authorId;
+        public object _title;
+        public object _text;
+        public object _imageUrl;
+        public object _visibility;
+        public object _createdAt;
+        public object _updatedAt;
+        public object _roleIds;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -136,6 +181,10 @@ namespace VRC.Core
 
     public class APIGroupInvite : ApiModel
     {
+        public object _groupId;
+        public object _userId;
+        public object _state;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -149,6 +198,17 @@ namespace VRC.Core
 
     public class APIGroupJoinResponse : ApiModel
     {
+        public object _groupId;
+        public object _userId;
+        public object _createdAt;
+        public object _isOnProfile;
+        public object _isOnNameplate;
+        public object _joinedAt;
+        public object _updatedAt;
+        public object _isActive;
+        public object _requestedJoin;
+        public object _inviteId;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -175,12 +235,19 @@ namespace VRC.Core
 
     public class APIGroupList : ApiModel
     {
+        public object ownerId;
+        public object groups;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5CB3E0
     }
 
     public class APIGroupLocations : ApiModel
     {
+        public object _fetchedAt;
+        public object _instances;
+        public object sortedLocations;
+
         // ── Methods ──
         public void get_fetchedAt(){} // RVA: 0xBBFF90
         public void set_fetchedAt(){} // RVA: 0x278E9A0
@@ -192,6 +259,33 @@ namespace VRC.Core
 
     public class APIGroupMember : ApiModel
     {
+        public object _groupId;
+        public object _userId;
+        public object _roleIds;
+        public object _mRoleIds;
+        public object _permissions;
+        public object _memberVisibility;
+        public object _membershipStatus;
+        public object _isRepresenting;
+        public object _mutualGroup;
+        public object _name;
+        public object _ownerId;
+        public object _shortCode;
+        public object _discriminator;
+        public object _iconUrl;
+        public object _bannerUrl;
+        public object _privacy;
+        public object _visibility;
+        public object _isSubscribedToAnnouncements;
+        public object _isSubscribedToEventAnnouncements;
+        public object _memberCount;
+        public object _joinedAt;
+        public object _bannedAt;
+        public object _lastPostReadAt;
+        public object _lastPostCreatedAt;
+        public object _user;
+        public object _group;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5CBCB0
         public void get_groupId(){} // RVA: 0xBBFF90
@@ -254,6 +348,9 @@ namespace VRC.Core
 
     public class APIGroupMemberList : ApiModel
     {
+        public object _groupId;
+        public object _members;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -264,6 +361,9 @@ namespace VRC.Core
 
     public class APIGroupPosts : ApiModel
     {
+        public object _total;
+        public object _posts;
+
         // ── Methods ──
         public void get_total(){} // RVA: 0x2536460
         public void set_total(){} // RVA: 0x25406E0
@@ -274,6 +374,19 @@ namespace VRC.Core
 
     public class APIGroupRole : ApiModel
     {
+        public object _groupId;
+        public object _name;
+        public object _description;
+        public object _isSelfAssignable;
+        public object _requiresTwoFactor;
+        public object _isManagementRole;
+        public object _requiresPurchase;
+        public object _createdAt;
+        public object _updatedAt;
+        public object _defaultRole;
+        public object _order;
+        public object _permissions;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -304,6 +417,9 @@ namespace VRC.Core
 
     public class APIGroupRoleList : ApiModel
     {
+        public object _groupId;
+        public object _roles;
+
         // ── Methods ──
         public void get_groupId(){} // RVA: 0xBBFF90
         public void set_groupId(){} // RVA: 0xBBFFA0
@@ -334,6 +450,41 @@ namespace VRC.Core
 
     public class AnalyticsSDK : Object
     {
+        public object _isInitialized;
+        public object _lastLoggedInUserId;
+        public object API_KEY;
+        public object API_KEY_DEV;
+        public object EVENT_NAME_LOGIN_SUCCESS;
+        public object EVENT_NAME_UPDATE_AVATAR_FAILED;
+        public object EVENT_NAME_CREATE_AVATAR_FAILED;
+        public object EVENT_NAME_UPDATE_WORLD_FAILED;
+        public object EVENT_NAME_CREATE_WORLD_FAILED;
+        public object EVENT_NAME_UPDATE_PROP_FAILED;
+        public object EVENT_NAME_CREATE_PROP_FAILED;
+        public object EVENT_NAME_EXAMPLE_CENTRAL_OPENED;
+        public object EVENT_NAME_EXAMPLE_DOWNLOADED;
+        public object EVENT_NAME_EXAMPLE_PREVIEWED;
+        public object EVENT_NAME_BUILD_AND_TEST_LAUNCHED;
+        public object EVENT_PROP_USER_ID;
+        public object EVENT_PROP_SDK_VERSION;
+        public object EVENT_PROP_UNITY_VERSION;
+        public object EVENT_PROP_MODEL_ID;
+        public object EVENT_PROP_EXAMPLE_NAME;
+        public object EVENT_PROP_EXAMPLE_VERSION;
+        public object EVENT_PROP_TEST_PLATFORM_NAME;
+        public object EVENT_PROP_DEVICE;
+        public object EVENT_PROP_CONTENT_TYPE;
+        public object EVENT_PROP_PACKAGES;
+        public object EVENT_PROP_PACKAGE_ID;
+        public object EVENT_PROP_PACKAGE_VERSION;
+        public object EVENT_PROP_CONTENT_ID;
+        public object EVENT_PROP_PROJECT_TYPE;
+        public object EVENT_NAME_PROJECT_PUBLISHED;
+        public object EVENT_LIMIT_EXAMPLE_PREVIEWED;
+        public object TIME_LIMIT_EXAMPLE_PREVIEWED;
+        public object eventCounterExamplePreviewed;
+        public object lastResetTimeExamplePreviewed;
+
         // ── Methods ──
         public void GetProjectTypeString(){} // RVA: 0xA5DCB80
         public void Initialize(){} // RVA: 0xA5DCC30
@@ -372,18 +523,11 @@ namespace VRC.Core
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
-    public class ApiEconomyAccountStatus : ApiModel
-    {
-        // ── Methods ──
-        public void get_UserID(){} // RVA: 0xBBFF90
-        public void set_UserID(){} // RVA: 0xBBFFA0
-        public void get_Blocked(){} // RVA: 0xBC03E0
-        public void set_Blocked(){} // RVA: 0xBC03F0
-        public void .ctor(){} // RVA: 0xA5BFF60
-    }
-
     public class ApiEconomyStatus : ApiModel
     {
+        public object _economyIsOnline;
+        public object _economyState;
+
         // ── Methods ──
         public void get_EconomyIsOnline(){} // RVA: 0xC10030
         public void set_EconomyIsOnline(){} // RVA: 0xC10040
@@ -394,6 +538,18 @@ namespace VRC.Core
 
     public class ApiGroupGalleryImage : ApiModel
     {
+        public object _name;
+        public object _groupId;
+        public object _galleryId;
+        public object _fileId;
+        public object _imageUrl;
+        public object _createdAt;
+        public object _approved;
+        public object _approvedAt;
+        public object _approvedByUserId;
+        public object _submittedByUserId;
+        public object _file;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -422,6 +578,11 @@ namespace VRC.Core
 
     public class ApiGroupInstanceAnnouncement : ApiModel
     {
+        public object _title;
+        public object _message;
+        public object _imageId;
+        public object _imageVersion;
+
         // ── Methods ──
         public void get_title(){} // RVA: 0xBBFF90
         public void set_title(){} // RVA: 0xBBFFA0
@@ -435,24 +596,10 @@ namespace VRC.Core
         public void SendAnnouncement(){} // RVA: 0xA5C1B30
     }
 
-    public class ApiModelContainer`1 : ApiDictContainer
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x421DB10
-        public void ValidModelData(){} // RVA: 0x421DCD0
-        public void Validate(){} // RVA: 0x421DDA0
-    }
-
-    public class ApiModelContainer`1 : ApiDictContainer
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x421DC80
-        public void ValidModelData(){} // RVA: 0x421DCD0
-        public void Validate(){} // RVA: 0x421DDA0
-    }
-
     public class ApiModelListContainer`1 : ApiListContainer
     {
+        public object _responseModels;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x421DF50
         public void get_ResponseModels(){} // RVA: 0xBBFF90
@@ -462,6 +609,22 @@ namespace VRC.Core
 
     public class ApiMutualFriend : ApiModel
     {
+        public object _displayName;
+        public object _status;
+        public object _statusDescription;
+        public object _currentAvatarImageUrl;
+        public object _avatarThumbnail;
+        public object _currentAvatarTags;
+        public object _profilePicOverride;
+        public object _userIcon;
+        public object _world;
+        public object _instance;
+        public object _instanceType;
+        public object _travelingToWorld;
+        public object _travelingToInstance;
+        public object _platform;
+        public object _groups;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0xB5DBF0
         public void set_id(){} // RVA: 0xB44D60
@@ -503,6 +666,19 @@ namespace VRC.Core
 
     public class ApiMutualGroup : ApiModel
     {
+        public object _name;
+        public object _discriminator;
+        public object _ownerId;
+        public object _privacy;
+        public object _memberCount;
+        public object _shortCode;
+        public object _description;
+        public object _bannerId;
+        public object _bannerUrl;
+        public object _iconId;
+        public object _iconUrl;
+        public object _lastPostCreatedAt;
+
         // ── Methods ──
         public void get_id(){} // RVA: 0xB5DBF0
         public void set_id(){} // RVA: 0xB44D60
@@ -534,28 +710,12 @@ namespace VRC.Core
         public void .ctor(){} // RVA: 0xA5D22B0
     }
 
-    public class ApiPlayerModeration[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-    }
-
     public class ApiSharedConnectionCounts : ApiModel
     {
+        public object DefaultCacheLifetime;
+        public object _friends;
+        public object _groups;
+
         // ── Methods ──
         public void get_CacheLifetime(){} // RVA: 0xA5D2FA0
         public void get_friends(){} // RVA: 0x2536460
@@ -569,6 +729,22 @@ namespace VRC.Core
 
     public class ApiStoreShelf : ApiModel
     {
+        public object _shelfTitle;
+        public object _shelfDescription;
+        public object _shelfLayout;
+        public object _updatedAt;
+        public object _createdAt;
+        public object _listingIds;
+        public object _shelfVisibility;
+        public object _storeId;
+        public object _sellerId;
+        public object _highlightListingId;
+        public object _shelfTabBackgroundImageId;
+        public object _shelfBackgroundImageId;
+        public object _shelfIconImageId;
+        public object _listings;
+        public object _highlightListing;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5CD7F0
         public void get_ShelfTitle(){} // RVA: 0xBBFF90

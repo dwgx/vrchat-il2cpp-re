@@ -7,6 +7,34 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 {
     public class AimController : MonoBehaviour
     {
+        public object ik;
+        public object weight;
+        public object target;
+        public object targetSwitchSmoothTime;
+        public object weightSmoothTime;
+        public object smoothTurnTowardsTarget;
+        public object maxRadiansDelta;
+        public object maxMagnitudeDelta;
+        public object slerpSpeed;
+        public object pivotOffsetFromRoot;
+        public object minDistance;
+        public object offset;
+        public object maxRootAngle;
+        public object turnToTarget;
+        public object turnToTargetTime;
+        public object useAnimatedAimDirection;
+        public object animatedAimDirection;
+        public object lastTarget;
+        public object switchWeight;
+        public object switchWeightV;
+        public object weightV;
+        public object lastPosition;
+        public object dir;
+        public object lastSmoothTowardsTarget;
+        public object turningToTarget;
+        public object turnToTargetMlp;
+        public object turnToTargetMlpV;
+
         // ── Methods ──
         public void Start(){} // RVA: 0xCB7450
         public void LateUpdate(){} // RVA: 0xCB7580
@@ -19,6 +47,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -51,6 +81,9 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class AimPoser : MonoBehaviour
     {
+        public object angleBuffer;
+        public object poses;
+
         // ── Methods ──
         public void GetPose(){} // RVA: 0xCB9220
         public void SetPoseActive(){} // RVA: 0xCB9310
@@ -59,6 +92,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class Amplifier : OffsetModifier
     {
+        public object bodies;
+
         // ── Methods ──
         public void OnModifyOffset(){} // RVA: 0xCB97D0
         public void .ctor(){} // RVA: 0xB4B830
@@ -66,6 +101,8 @@ namespace ThirdParty.Other.RootMotion.FinalIK
 
     public class ArmIK : IK
     {
+        public object solver;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310

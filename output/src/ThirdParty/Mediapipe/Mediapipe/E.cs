@@ -7,6 +7,12 @@ namespace ThirdParty.Mediapipe.Mediapipe
 {
     public class ExecutorConfig : Object
     {
+        public object _parser;
+        public object _unknownFields;
+        public object name_;
+        public object type_;
+        public object options_;
+
         // ── Methods ──
         public void get_Parser(){} // RVA: 0x656EDF0
         public void get_Descriptor(){} // RVA: 0x656EE50

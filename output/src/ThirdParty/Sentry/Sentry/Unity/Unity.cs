@@ -7,6 +7,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 {
     public class AnrIntegration : Object
     {
+        public object Lock;
+        public object Watchdog;
+        public object _monoBehaviour;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Register(){} // RVA: 0x6DDCE70
@@ -15,6 +19,13 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class AnrWatchDog : Object
     {
+        public object DetectionTimeoutMs;
+        public object SleepIntervalMs;
+        public object Logger;
+        public object MonoBehaviour;
+        public object OnApplicationNotResponding;
+        public object _paused;
+
         // ── Methods ──
         public void add_OnApplicationNotResponding(){} // RVA: 0x6DDD6F0
         public void remove_OnApplicationNotResponding(){} // RVA: 0x6DDD800
@@ -30,6 +41,11 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class AnrWatchDogMultiThreaded : AnrWatchDog
     {
+        public object _ticksSinceUiUpdate;
+        public object _reported;
+        public object _stop;
+        public object _thread;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DDE050
         public void Stop(){} // RVA: 0x6DDE320
@@ -39,6 +55,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class AnrWatchDogSingleThreaded : AnrWatchDog
     {
+        public object _watch;
+        public object _stop;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DDE900
         public void Stop(){} // RVA: 0x26B4710
@@ -152,6 +171,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class Il2CppMethods : Object
     {
+        public object _il2CppGcHandleGetTarget;
+        public object _il2CppNativeStackTrace;
+        public object _il2CppFree;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xC27FD0
         public void get_Il2CppGcHandleGetTarget(){} // RVA: 0xB5DBF0
@@ -176,6 +199,40 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class MainThreadData : Object
     {
+        public object _mainThreadId;
+        public object _operatingSystem;
+        public object _processorCount;
+        public object _supportsVibration;
+        public object _deviceType;
+        public object _cpuDescription;
+        public object _deviceName;
+        public object _deviceUniqueIdentifier;
+        public object _deviceModel;
+        public object _systemMemorySize;
+        public object _graphicsDeviceId;
+        public object _graphicsDeviceName;
+        public object _graphicsDeviceVendorId;
+        public object _graphicsDeviceVendor;
+        public object _graphicsMemorySize;
+        public object _graphicsMultiThreaded;
+        public object _npotSupport;
+        public object _graphicsDeviceVersion;
+        public object _graphicsDeviceType;
+        public object _maxTextureSize;
+        public object _supportsDrawCallInstancing;
+        public object _supportsRayTracing;
+        public object _supportsComputeShaders;
+        public object _supportsGeometryShaders;
+        public object _graphicsShaderLevel;
+        public object _isDebugBuild;
+        public object _editorVersion;
+        public object _installMode;
+        public object _targetFrameRate;
+        public object _copyTextureSupport;
+        public object _renderingThreadingMode;
+        public object _startTime;
+        public object _sentrySystemInfo;
+
         // ── Methods ──
         public void get_MainThreadId(){} // RVA: 0x6DE1D30
         public void set_MainThreadId(){} // RVA: 0x6DE1D70
@@ -249,6 +306,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class NativeStackTrace : Object
     {
+        public object _frames;
+        public object _imageUuid;
+        public object _imageName;
+
         // ── Methods ──
         public void get_Frames(){} // RVA: 0xB5DBF0
         public void set_Frames(){} // RVA: 0xB44D60
@@ -261,6 +322,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneAdapter : ValueType
     {
+        public object _name;
+
         // ── Methods ──
         public void get_Name(){} // RVA: 0x77900
         public void .ctor(){} // RVA: 0x47F10
@@ -268,6 +331,11 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneManagerAdapter : Object
     {
+        public object SceneLoaded;
+        public object SceneUnloaded;
+        public object ActiveSceneChanged;
+        public object Instance;
+
         // ── Methods ──
         public void add_SceneLoaded(){} // RVA: 0x6DDED80
         public void remove_SceneLoaded(){} // RVA: 0x6DDEE90
@@ -284,6 +352,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneManagerTracingAPI : SceneManagerAPI
     {
+        public object _logger;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x650AC60
         public void LoadSceneAsyncByNameOrIndex(){} // RVA: 0x650AD00
@@ -291,6 +361,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SceneManagerTracingIntegration : Object
     {
+        public object Logger;
+
         // ── Methods ──
         public void Register(){} // RVA: 0x650A970
         public void .ctor(){} // RVA: 0xB43310
@@ -298,6 +370,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class ScopeObserver : Object
     {
+        public object _options;
+        public object _name;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67462E0
         public void AddBreadcrumb(){} // RVA: 0x6DE4950
@@ -321,6 +396,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class ScreenshotAttachmentContent : Object
     {
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void GetStream(){} // RVA: 0x6DE5560
@@ -330,6 +407,69 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class ScriptableSentryUnityOptions : ScriptableObject
     {
+        public object ConfigRootFolder;
+        public object ConfigName;
+        public object _enabled;
+        public object _dsn;
+        public object _captureInEditor;
+        public object _enableLogDebouncing;
+        public object _debounceTimeLog;
+        public object _debounceTimeWarning;
+        public object _debounceTimeError;
+        public object _tracesSampleRate;
+        public object _autoStartupTraces;
+        public object _autoSceneLoadTraces;
+        public object _autoAwakeTraces;
+        public object _autoSessionTracking;
+        public object _autoSessionTrackingInterval;
+        public object _releaseOverride;
+        public object _environmentOverride;
+        public object _attachStacktrace;
+        public object _attachScreenshot;
+        public object _screenshotQuality;
+        public object _screenshotCompression;
+        public object _attachViewHierarchy;
+        public object _maxViewHierarchyRootObjects;
+        public object _maxViewHierarchyObjectChildCount;
+        public object _maxViewHierarchyDepth;
+        public object _breadcrumbsForLogs;
+        public object _breadcrumbsForWarnings;
+        public object _breadcrumbsForAsserts;
+        public object _breadcrumbsForErrors;
+        public object _breadcrumbsForExceptions;
+        public object _maxBreadcrumbs;
+        public object _reportAssembliesMode;
+        public object _sendDefaultPii;
+        public object _isEnvironmentUser;
+        public object _enableOfflineCaching;
+        public object _maxCacheItems;
+        public object _initCacheFlushTimeout;
+        public object _sampleRate;
+        public object _shutdownTimeout;
+        public object _maxQueueItems;
+        public object _anrDetectionEnabled;
+        public object _anrTimeout;
+        public object _captureFailedRequests;
+        public object _failedRequestStatusCodes;
+        public object _filterBadGatewayExceptions;
+        public object _filterWebExceptions;
+        public object _filterSocketExceptions;
+        public object _iosNativeSupportEnabled;
+        public object _androidNativeSupportEnabled;
+        public object _ndkIntegrationEnabled;
+        public object _ndkScopeSyncEnabled;
+        public object _postGenerateGradleProjectCallbackOrder;
+        public object _windowsNativeSupportEnabled;
+        public object _macosNativeSupportEnabled;
+        public object _linuxNativeSupportEnabled;
+        public object _il2CppLineNumberSupportEnabled;
+        public object _runtimeOptionsConfiguration;
+        public object _buildTimeOptionsConfiguration;
+        public object _optionsConfiguration;
+        public object _debug;
+        public object _debugOnlyInEditor;
+        public object _diagnosticLevel;
+
         // ── Methods ──
         public void GetConfigPath(){} // RVA: 0x6DE6190
         public void get_Enabled(){} // RVA: 0xB5DD50
@@ -469,6 +609,18 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryCliOptions : ScriptableObject
     {
+        public object ConfigName;
+        public object EditorMenuPath;
+        public object _uploadSymbols;
+        public object _uploadDevelopmentSymbols;
+        public object _uploadSources;
+        public object _urlOverride;
+        public object _auth;
+        public object _organization;
+        public object _project;
+        public object _ignoreCliErrors;
+        public object _cliOptionsConfiguration;
+
         // ── Methods ──
         public void get_UploadSymbols(){} // RVA: 0xB5DD50
         public void set_UploadSymbols(){} // RVA: 0xB5DD60
@@ -496,6 +648,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryCliOptionsConfiguration : ScriptableObject
     {
+        public object Template;
+
         // ── Methods ──
         public void GetAssetPath(){} // RVA: 0x6DE7E70
         public void Configure(){} // RVA: 0x894320
@@ -505,6 +659,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryInitialization : Object
     {
+        public object InitSpan;
+        public object SubSystemRegistrationSpan;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x6508CA0
     }
@@ -517,6 +674,12 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryMonoBehaviour : MonoBehaviour
     {
+        public object _instance;
+        public object ApplicationResuming;
+        public object ApplicationPausing;
+        public object _isRunning;
+        public object _application;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x6DE7F80
         public void StartAwakeSpan(){} // RVA: 0x6DE81A0
@@ -537,6 +700,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryOptionsConfiguration : ScriptableObject
     {
+        public object Template;
+
         // ── Methods ──
         public void GetAssetPath(){} // RVA: 0x6DE8980
         public void Configure(){} // RVA: 0x894320
@@ -553,6 +718,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentrySystemInfoAdapter : Object
     {
+        public object Instance;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_MainThreadId(){} // RVA: 0x6DEBC20
@@ -593,6 +760,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnity : Object
     {
+        public object UnitySdk;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x6DE8B80
         public void Close(){} // RVA: 0x6DE8C80
@@ -600,6 +769,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityInfo : Object
     {
+        public object _il2CppMethods;
+
         // ── Methods ──
         public void get_IL2CPP(){} // RVA: 0xC2E4C0
         public void get_Il2CppMethods(){} // RVA: 0xB5DBF0
@@ -619,6 +790,42 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnityOptions : SentryOptions
     {
+        public object PackageName;
+        public object _enabled;
+        public object _autoStartupTraces;
+        public object _autoSceneLoadTraces;
+        public object _captureInEditor;
+        public object _enableLogDebouncing;
+        public object _debounceTimeLog;
+        public object _debounceTimeWarning;
+        public object _debounceTimeError;
+        public object _requestBodyCompressionLevel;
+        public object _attachScreenshot;
+        public object _attachViewHierarchy;
+        public object _maxViewHierarchyRootObjects;
+        public object _maxViewHierarchyObjectChildCount;
+        public object _maxViewHierarchyDepth;
+        public object _screenshotQuality;
+        public object _screenshotCompression;
+        public object _addBreadcrumbsForLogType;
+        public object _anrTimeout;
+        public object _filterBadGatewayExceptions;
+        public object _iosNativeSupportEnabled;
+        public object _androidNativeSupportEnabled;
+        public object _ndkIntegrationEnabled;
+        public object _ndkScopeSyncEnabled;
+        public object _windowsNativeSupportEnabled;
+        public object _macosNativeSupportEnabled;
+        public object _linuxNativeSupportEnabled;
+        public object _il2CppLineNumberSupportEnabled;
+        public object _performanceAutoInstrumentationEnabled;
+        public object _stackTraceMode;
+        public object _defaultUserId;
+        public object MultiThreading;
+        public object _nativeContextWriter;
+        public object _nativeSupportCloseCallback;
+        public object _sdkIntegrationNames;
+
         // ── Methods ──
         public void get_Enabled(){} // RVA: 0x6DE8D40
         public void set_Enabled(){} // RVA: 0x6DE8D50
@@ -706,6 +913,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class SentryUnitySdk : Object
     {
+        public object _options;
+        public object _dotnetSdk;
+        public object _lockFile;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Init(){} // RVA: 0x6DEAB60
@@ -714,6 +925,13 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class StartupTracingIntegration : Object
     {
+        public object AfterAssembliesSpan;
+        public object SplashScreenSpan;
+        public object FirstSceneLoadSpan;
+        public object StartupAlreadyCaptured;
+        public object IntegrationRegistered;
+        public object Logger;
+
         // ── Methods ──
         public void Register(){} // RVA: 0x6509DF0
         public void AfterAssembliesLoaded(){} // RVA: 0x6509ED0
@@ -731,6 +949,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class TimeDebounceBase : Object
     {
+        public object DebounceOffset;
+        public object _barrierOffset;
+
         // ── Methods ──
         public void get_Now(){} // RVA: 0x6DEDE30
         public void Debounced(){} // RVA: 0x6DEDEE0
@@ -739,6 +960,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityEventProcessor : Object
     {
+        public object _sentryOptions;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Process(){} // RVA: 0x6DEE060
@@ -749,6 +972,11 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityIl2CppEventExceptionProcessor : Object
     {
+        public object Options;
+        public object UnityInfo;
+        public object _il2CppMethods;
+        public object DebugImagesSorted;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DD97B0
         public void Process(){} // RVA: 0x6DD9AA0
@@ -761,6 +989,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityLogger : Object
     {
+        public object LogTag;
+        public object _sentryOptions;
+        public object _logger;
+
         // ── Methods ──
         public void IsEnabled(){} // RVA: 0x6DEE720
         public void .ctor(){} // RVA: 0x6DEE860
@@ -771,6 +1003,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityScopeIntegration : Object
     {
+        public object _application;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void Register(){} // RVA: 0x6DDFD00
@@ -778,6 +1012,9 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityScopeUpdater : Object
     {
+        public object _options;
+        public object _application;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
         public void ConfigureScope(){} // RVA: 0x6DDFEB0
@@ -793,6 +1030,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnitySdkInfo : Object
     {
+        public object _version;
+        public object Name;
+        public object PackageName;
+
         // ── Methods ──
         public void get_Version(){} // RVA: 0x6DDFA20
         public void .cctor(){} // RVA: 0x6DDFA80
@@ -800,6 +1041,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityViewHierarchyAttachmentContent : Object
     {
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void GetStream(){} // RVA: 0x6DEEC30
@@ -810,6 +1053,13 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityViewHierarchyNode : ViewHierarchyNode
     {
+        public object _tag;
+        public object _position;
+        public object _rotation;
+        public object _scale;
+        public object _active;
+        public object _extras;
+
         // ── Methods ──
         public void get_Tag(){} // RVA: 0xB700F0
         public void set_Tag(){} // RVA: 0xB70100
@@ -829,6 +1079,8 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class UnityWebRequestTransport : HttpTransportBase
     {
+        public object _options;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DF05F0
         public void SendEnvelopeAsync(){} // RVA: 0x6DF0670
@@ -844,6 +1096,10 @@ namespace ThirdParty.Sentry.Sentry.Unity
 
     public class WebBackgroundWorker : Object
     {
+        public object _behaviour;
+        public object _transport;
+        public object _queuedItems;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6DF0280
         public void EnqueueEnvelope(){} // RVA: 0x6DF0410

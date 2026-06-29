@@ -7,6 +7,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
     public class ObjectBunch : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -37,6 +39,11 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectBunchT : Object
     {
+        public object _time;
+        public object _sender;
+        public object _index;
+        public object _data;
+
         // ── Methods ──
         public void get_Time(){} // RVA: 0xB8F8F0
         public void set_Time(){} // RVA: 0xB460A0
@@ -77,6 +84,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadata : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x9BB700
         public void AreCompatible(){} // RVA: 0x9BB710
@@ -117,6 +126,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataPair : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -137,6 +148,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataPairT : Object
     {
+        public object _viewId;
+        public object _metadata;
+
         // ── Methods ──
         public void get_ViewId(){} // RVA: 0xB8F8F0
         public void set_ViewId(){} // RVA: 0xB460A0
@@ -173,6 +187,13 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectMetadataT : Object
     {
+        public object _is8Bit;
+        public object _doNotPersist;
+        public object _code;
+        public object _componentInfo;
+        public object _payload;
+        public object _initialPath;
+
         // ── Methods ──
         public void ComputeHash(){} // RVA: 0x8241060
         public void AreCompatible(){} // RVA: 0x8241550
@@ -199,6 +220,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPool : ValueType
     {
+        public object __p;
+
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x77ED0
         public void ValidateVersion(){} // RVA: 0xB43310
@@ -226,6 +249,8 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 
     public class ObjectPoolT : Object
     {
+        public object _data;
+
         // ── Methods ──
         public void get_Data(){} // RVA: 0xB5DBF0
         public void set_Data(){} // RVA: 0xB44D60

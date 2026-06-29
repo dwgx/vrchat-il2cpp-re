@@ -7,6 +7,13 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 {
     public class MACTripleDES : KeyedHashAlgorithm
     {
+        public object m_encryptor;
+        public object _cs;
+        public object _ts;
+        public object m_bitsPerByte;
+        public object m_bytesPerBlock;
+        public object des;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x66F8800
         public void Initialize(){} // RVA: 0x64E2420
@@ -26,6 +33,14 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
 
     public class MD5CryptoServiceProvider : MD5
     {
+        public object BLOCK_SIZE_BYTES;
+        public object _H;
+        public object buff;
+        public object count;
+        public object _ProcessingBuffer;
+        public object _ProcessingBufferCount;
+        public object K;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6721370
         public void Finalize(){} // RVA: 0x6721500

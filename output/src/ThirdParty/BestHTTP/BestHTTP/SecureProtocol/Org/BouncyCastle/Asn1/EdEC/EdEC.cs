@@ -7,9 +7,15 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.EdEC
 {
     public class EdECObjectIdentifiers : Object
     {
+        public object id_edwards_curve_algs;
+        public object id_X25519;
+        public object id_X448;
+        public object id_Ed25519;
+        public object id_Ed448;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B15F3950
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA45EF70
     }
 
 }

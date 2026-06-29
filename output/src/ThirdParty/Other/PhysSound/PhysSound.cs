@@ -7,6 +7,14 @@ namespace ThirdParty.Other.PhysSound
 {
     public class PhysSoundAudioContainer : Object
     {
+        public object KeyIndex;
+        public object SlideAudio;
+        public object mat;
+        public object targetVolume;
+        public object baseVol;
+        public object basePitch;
+        public object basePitchRand;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x233C590
         public void Equals(){} // RVA: 0x233C710
@@ -48,6 +56,10 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundAudioSet : Object
     {
+        public object Key;
+        public object Impacts;
+        public object Slide;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x2335D40
         public void Equals(){} // RVA: 0x2335D40
@@ -89,6 +101,20 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundMaterial : ScriptableObject
     {
+        public object MaterialTypeKey;
+        public object FallbackTypeIndex;
+        public object FallbackTypeKey;
+        public object RelativeVelocityThreshold;
+        public object PitchRandomness;
+        public object SlidePitchMod;
+        public object SlideVolMultiplier;
+        public object ImpactNormalBias;
+        public object CollisionMask;
+        public object UseCollisionVelocity;
+        public object ScaleImpactVolume;
+        public object AudioSets;
+        public object audioSetDic;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x2333EB0
         public void CreateInstance(){} // RVA: 0x2334020
@@ -131,6 +157,22 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundObject : PhysSoundBase
     {
+        public object SoundMaterial;
+        public object ImpactAudio;
+        public object f_9F5;
+        public object f_8E9;
+        public object AutoCreateSources;
+        public object PlayClipAtPoint;
+        public object AudioContainers;
+        public object f_7E9;
+        public object f_D41;
+        public object f_A58;
+        public object f_12D;
+        public object f_F9C;
+        public object f_BA9;
+        public object f_E30;
+        public object f_245;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2336C00
         public void OnCollisionEnter2D(){} // RVA: 0x2336D40
@@ -154,6 +196,12 @@ namespace ThirdParty.Other.PhysSound
 
     public class PhysSoundTerrain : PhysSoundBase
     {
+        public object Terrain;
+        public object SoundMaterials;
+        public object f_CFE;
+        public object f_AA9;
+        public object f_E96;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2341F10
         public void Initialize(){} // RVA: 0x23420A0
@@ -172,6 +220,9 @@ namespace ThirdParty.Other.PhysSound
 
     public class Range : ValueType
     {
+        public object Min;
+        public object Max;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7C400
         public void InternalEquals(){} // RVA: 0x7C420

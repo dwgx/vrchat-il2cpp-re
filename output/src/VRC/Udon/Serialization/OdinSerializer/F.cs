@@ -15,12 +15,24 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class FormatterEmitter : Object
     {
+        public object helperFormatterNameId;
+        public object PRE_EMITTED_ASSEMBLY_NAME;
+        public object RUNTIME_EMITTED_ASSEMBLY_NAME;
+
         // ── Methods ──
         public void GetEmittedFormatter(){} // RVA: 0x849BC60
     }
 
     public class FormatterLocator : Object
     {
+        public object StrongFormatters_LOCK;
+        public object WeakFormatters_LOCK;
+        public object FormatterInstances;
+        public object StrongTypeFormatterMap;
+        public object WeakTypeFormatterMap;
+        public object FormatterLocators;
+        public object FormatterInfos;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84957E0
         public void add_FormatterResolve(){} // RVA: 0x8496CA0
@@ -35,6 +47,13 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class FormatterUtilities : Object
     {
+        public object MemberArrayCache;
+        public object MemberMapCache;
+        public object LOCK;
+        public object PrimitiveArrayTypes;
+        public object UnityObjectRuntimeErrorStringField;
+        public object UnityObjectRuntimeErrorString;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x84A2C90
         public void GetSerializableMembersMap(){} // RVA: 0x84A35A0

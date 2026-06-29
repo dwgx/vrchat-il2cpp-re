@@ -50,6 +50,14 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class LinuxNetworkChange : Object
     {
+        public object _lock;
+        public object nl_sock;
+        public object nl_args;
+        public object pending_events;
+        public object timer;
+        public object AddressChanged;
+        public object AvailabilityChanged;
+
         // ── Methods ──
         public void add_NetworkAddressChanged(){} // RVA: 0x75F3AA0
         public void remove_NetworkAddressChanged(){} // RVA: 0x75F3B90
@@ -73,6 +81,14 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class MacNetworkChange : Object
     {
+        public object handle;
+        public object runLoopMode;
+        public object callback;
+        public object scheduledWithRunLoop;
+        public object flags;
+        public object networkAddressChanged;
+        public object networkAvailabilityChanged;
+
         // ── Methods ──
         public void dlopen(){} // RVA: 0x75F25E0
         public void dlsym(){} // RVA: 0x75F2690
@@ -112,12 +128,16 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class NetworkAvailabilityEventArgs : EventArgs
     {
+        public object isAvailable;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75F1290
     }
 
     public class NetworkChange : Object
     {
+        public object networkChange;
+
         // ── Methods ──
         public void add_NetworkAddressChanged(){} // RVA: 0x75F1E70
         public void remove_NetworkAddressChanged(){} // RVA: 0x75F2040
@@ -181,6 +201,11 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class PhysicalAddress : Object
     {
+        public object address;
+        public object changed;
+        public object hash;
+        public object None;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x67C11E0
         public void GetHashCode(){} // RVA: 0x75F1540
@@ -191,6 +216,12 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Ping : Component
     {
+        public object PingBinPaths;
+        public object PingBinPath;
+        public object canSendPrivileged;
+        public object identifier;
+        public object default_buffer;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x75F4D00
         public void .ctor(){} // RVA: 0x75F50F0
@@ -201,6 +232,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class SystemNetworkInterface : Object
     {
+        public object nif;
+
         // ── Methods ──
         public void GetNetworkInterfaces(){} // RVA: 0x75F49E0
         public void .cctor(){} // RVA: 0x75F4A70
@@ -214,6 +247,8 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class UnicastIPAddressInformationCollection : Object
     {
+        public object addresses;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75F1A00
         public void CopyTo(){} // RVA: 0x75F1AC0
@@ -275,6 +310,10 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32IPInterfaceProperties2 : IPInterfaceProperties
     {
+        public object addr;
+        public object mib4;
+        public object mib6;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75F5460
         public void get_UnicastAddresses(){} // RVA: 0x75F5690
@@ -283,12 +322,17 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32IPv4InterfaceStatistics : IPv4InterfaceStatistics
     {
+        public object info;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75F5900
     }
 
     public class Win32NetworkInterface : Object
     {
+        public object fixedInfo;
+        public object initialized;
+
         // ── Methods ──
         public void GetNetworkParams(){} // RVA: 0x75F6EB0
         public void MultiByteToWideChar(){} // RVA: 0x75F6F50
@@ -298,6 +342,12 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32NetworkInterface2 : NetworkInterface
     {
+        public object addr;
+        public object mib4;
+        public object mib6;
+        public object ip4stats;
+        public object ip_if_props;
+
         // ── Methods ──
         public void GetIfEntry(){} // RVA: 0x75F63F0
         public void .ctor(){} // RVA: 0x75F6570
@@ -324,6 +374,9 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32UnicastIPAddressInformation : UnicastIPAddressInformation
     {
+        public object info;
+        public object ipv4Mask;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x75F79A0
         public void get_Address(){} // RVA: 0x75F7BC0
@@ -352,6 +405,9 @@ namespace ThirdParty.DotNet.System.Net.NetworkInformation
 
     public class Win32_SOCKET_ADDRESS : ValueType
     {
+        public object Sockaddr;
+        public object SockaddrLength;
+
         // ── Methods ──
         public void GetIPAddress(){} // RVA: 0x91B630
     }

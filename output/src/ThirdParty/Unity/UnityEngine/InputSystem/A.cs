@@ -7,6 +7,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 {
     public class Accelerometer : Sensor
     {
+        public object _acceleration;
+        public object _current;
+
         // ── Methods ──
         public void get_acceleration(){} // RVA: 0x13659D0
         public void set_acceleration(){} // RVA: 0x166D270
@@ -20,6 +23,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AmbientTemperatureSensor : Sensor
     {
+        public object _ambientTemperature;
+        public object _current;
+
         // ── Methods ──
         public void get_ambientTemperature(){} // RVA: 0x13659D0
         public void set_ambientTemperature(){} // RVA: 0x166D270
@@ -33,6 +39,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
 
     public class AttitudeSensor : Sensor
     {
+        public object _attitude;
+        public object _current;
+
         // ── Methods ──
         public void get_attitude(){} // RVA: 0x13659D0
         public void set_attitude(){} // RVA: 0x166D270

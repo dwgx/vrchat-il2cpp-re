@@ -7,6 +7,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 {
     public class BaseInputOverride : BaseInput
     {
+        public object _compositionString;
+
         // ── Methods ──
         public void get_compositionString(){} // RVA: 0xB700F0
         public void .ctor(){} // RVA: 0xB43D60
@@ -14,6 +16,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedAxisEventData : AxisEventData
     {
+        public object _device;
+
         // ── Methods ──
         public void get_device(){} // RVA: 0xD33E60
         public void set_device(){} // RVA: 0xB708C0
@@ -23,6 +27,14 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedPointerEventData : PointerEventData
     {
+        public object _control;
+        public object _device;
+        public object _touchId;
+        public object _pointerType;
+        public object _uiToolkitPointerId;
+        public object _trackedDevicePosition;
+        public object _trackedDeviceOrientation;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x6C67490
         public void get_control(){} // RVA: 0x165EBC0
@@ -49,6 +61,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class ExtendedSubmitCancelEventData : BaseEventData
     {
+        public object _device;
+
         // ── Methods ──
         public void get_device(){} // RVA: 0xB700F0
         public void set_device(){} // RVA: 0xB70100
@@ -63,6 +77,50 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class InputSystemUIInputModule : BaseInputModule
     {
+        public object kClickSpeed;
+        public object m_MoveRepeatDelay;
+        public object m_MoveRepeatRate;
+        public object m_TrackedDeviceDragThresholdMultiplier;
+        public object m_XRTrackingOrigin;
+        public object defaultActions;
+        public object kSmallestScrollDeltaPerTick;
+        public object m_ActionsAsset;
+        public object m_PointAction;
+        public object m_MoveAction;
+        public object m_SubmitAction;
+        public object m_CancelAction;
+        public object m_LeftClickAction;
+        public object m_MiddleClickAction;
+        public object m_RightClickAction;
+        public object m_ScrollWheelAction;
+        public object m_TrackedDevicePositionAction;
+        public object m_TrackedDeviceOrientationAction;
+        public object m_DeselectOnBackgroundClick;
+        public object m_PointerBehavior;
+        public object m_CursorLockBehavior;
+        public object m_ScrollDeltaPerTick;
+        public object s_InputActionReferenceCounts;
+        public object m_ActionsHooked;
+        public object m_NeedToPurgeStalePointers;
+        public object m_OnPointDelegate;
+        public object m_OnMoveDelegate;
+        public object m_OnSubmitCancelDelegate;
+        public object m_OnLeftClickDelegate;
+        public object m_OnRightClickDelegate;
+        public object m_OnMiddleClickDelegate;
+        public object m_OnScrollWheelDelegate;
+        public object m_OnTrackedDevicePositionDelegate;
+        public object m_OnTrackedDeviceOrientationDelegate;
+        public object m_OnControlsChangedDelegate;
+        public object m_CurrentPointerId;
+        public object m_CurrentPointerIndex;
+        public object m_CurrentPointerType;
+        public object m_PointerIds;
+        public object m_PointerStates;
+        public object m_NavigationState;
+        public object m_SubmitCancelState;
+        public object m_LocalMultiPlayerRoot;
+
         // ── Methods ──
         public void get_deselectOnBackgroundClick(){} // RVA: 0x1C11610
         public void set_deselectOnBackgroundClick(){} // RVA: 0x1C10980
@@ -174,6 +232,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class MultiplayerEventSystem : EventSystem
     {
+        public object m_PlayerRoot;
+
         // ── Methods ──
         public void get_playerRoot(){} // RVA: 0xBE2C60
         public void set_playerRoot(){} // RVA: 0x7905660
@@ -186,12 +246,34 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class NavigationModel : ValueType
     {
+        public object move;
+        public object consecutiveMoveCount;
+        public object lastMoveDirection;
+        public object lastMoveTime;
+        public object eventData;
+        public object device;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x937400
     }
 
     public class PointerModel : ValueType
     {
+        public object changedThisFrame;
+        public object leftButton;
+        public object rightButton;
+        public object middleButton;
+        public object eventData;
+        public object m_ScreenPosition;
+        public object m_ScrollDelta;
+        public object m_WorldPosition;
+        public object m_WorldOrientation;
+        public object m_Pressure;
+        public object m_AzimuthAngle;
+        public object m_AltitudeAngle;
+        public object m_Twist;
+        public object m_Radius;
+
         // ── Methods ──
         public void get_pointerType(){} // RVA: 0x9375E0
         public void get_screenPosition(){} // RVA: 0x937610
@@ -239,6 +321,16 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class TrackedDeviceRaycaster : BaseRaycaster
     {
+        public object m_RaycastResultsCache;
+        public object s_Instances;
+        public object s_SortedGraphics;
+        public object m_IgnoreReversedGraphics;
+        public object m_CheckFor2DOcclusion;
+        public object m_CheckFor3DOcclusion;
+        public object m_MaxDistance;
+        public object m_BlockingMask;
+        public object m_Canvas;
+
         // ── Methods ──
         public void get_eventCamera(){} // RVA: 0x7906790
         public void get_blockingMask(){} // RVA: 0x18A0130
@@ -264,6 +356,26 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.UI
 
     public class VirtualMouseInput : MonoBehaviour
     {
+        public object m_CursorMode;
+        public object m_CursorGraphic;
+        public object m_CursorTransform;
+        public object m_CursorSpeed;
+        public object m_ScrollSpeed;
+        public object m_StickAction;
+        public object m_LeftButtonAction;
+        public object m_MiddleButtonAction;
+        public object m_RightButtonAction;
+        public object m_ForwardButtonAction;
+        public object m_BackButtonAction;
+        public object m_ScrollWheelAction;
+        public object m_Canvas;
+        public object m_VirtualMouse;
+        public object m_SystemMouse;
+        public object m_AfterInputUpdateDelegate;
+        public object m_ButtonActionTriggeredDelegate;
+        public object m_LastTime;
+        public object m_LastStickValue;
+
         // ── Methods ──
         public void get_cursorTransform(){} // RVA: 0xD33E60
         public void set_cursorTransform(){} // RVA: 0xB708C0

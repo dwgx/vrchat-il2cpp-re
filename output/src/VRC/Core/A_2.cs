@@ -1,12 +1,16 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core
 // Classes: 100
-// Methods: 1343
+// Methods: 1338
 
 namespace VRC.Core
 {
     public class APIActivationSuccessfulTargetResult : ApiModel
     {
+        public object _userId;
+        public object _gifts;
+        public object _isFriend;
+
         // ── Methods ──
         public void get_userId(){} // RVA: 0xBBFF90
         public void set_userId(){} // RVA: 0xBBFFA0
@@ -19,6 +23,32 @@ namespace VRC.Core
 
     public class APICalendarEntry : ApiModel
     {
+        public object _ownerId;
+        public object _accessType;
+        public object _startsAt;
+        public object _endsAt;
+        public object _title;
+        public object _description;
+        public object _category;
+        public object _shortCode;
+        public object _type;
+        public object _isDraft;
+        public object _imageId;
+        public object _imageUrl;
+        public object _roleIds;
+        public object _tags;
+        public object _platforms;
+        public object _languages;
+        public object _parentId;
+        public object _hostEarlyJoinMinutes;
+        public object _guestEarlyJoinMinutes;
+        public object _closeInstanceAfterEndMinutes;
+        public object _usesInstanceOverflow;
+        public object _deletedAt;
+        public object _userInterest;
+        public object _featured;
+        public object _interestedUserCount;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA5BDB70
         public void get_ownerId(){} // RVA: 0xBBFF90
@@ -77,6 +107,10 @@ namespace VRC.Core
 
     public class APICalendarEntryUserInterest : ApiModel
     {
+        public object _isFollowing;
+        public object _createdAt;
+        public object _updatedAt;
+
         // ── Methods ──
         public void get_isFollowing(){} // RVA: 0xC10030
         public void set_isFollowing(){} // RVA: 0xC10040
@@ -89,6 +123,20 @@ namespace VRC.Core
 
     public class APIEmoji : ApiModel
     {
+        public object _fileId;
+        public object _imageUrl;
+        public object _animationStyle;
+        public object _maskTag;
+        public object _animated;
+        public object _frames;
+        public object _framesOverTime;
+        public object _loopStyle;
+        public object _assetBundleId;
+        public object _premium;
+        public object endpoint;
+        public object LOOP_STYLE_LINEAR;
+        public object LOOP_STYLE_PINGPONG;
+
         // ── Methods ──
         public void get_fileId(){} // RVA: 0xBBFF90
         public void set_fileId(){} // RVA: 0xBBFFA0
@@ -118,6 +166,10 @@ namespace VRC.Core
 
     public class APIGiftActivationResult : ApiModel
     {
+        public object _dropValidationToken;
+        public object _giftValidationToken;
+        public object _successfulGifts;
+
         // ── Methods ──
         public void get_dropValidationToken(){} // RVA: 0xBBFF90
         public void set_dropValidationToken(){} // RVA: 0xBBFFA0
@@ -130,6 +182,20 @@ namespace VRC.Core
 
     public class APIGiftBundle : ApiModel
     {
+        public object _steamItemId;
+        public object _oculusSku;
+        public object _googleProductId;
+        public object _googlePlanId;
+        public object _picoSku;
+        public object _amount;
+        public object _description;
+        public object _period;
+        public object _periodAmount;
+        public object _tier;
+        public object _bulkSize;
+        public object _discountPercentage;
+        public object _licenseGroups;
+
         // ── Methods ──
         public void get_steamItemId(){} // RVA: 0xBBFF90
         public void set_steamItemId(){} // RVA: 0xBBFFA0
@@ -168,6 +234,11 @@ namespace VRC.Core
 
     public class APIProductGiftingCheck : ApiModel
     {
+        public object _eligible;
+        public object _reason;
+        public object _eligibleProducts;
+        public object _ineligibleProducts;
+
         // ── Methods ──
         public void get_Eligible(){} // RVA: 0xC10030
         public void set_Eligible(){} // RVA: 0xC10040
@@ -183,6 +254,28 @@ namespace VRC.Core
 
     public class APIPurchasedGiftBundle : ApiModel
     {
+        public object _transactionId;
+        public object _store;
+        public object _steamItemId;
+        public object _oculusSku;
+        public object _googleProductId;
+        public object _googlePlanId;
+        public object _picoSku;
+        public object _amount;
+        public object _description;
+        public object _period;
+        public object _consumed;
+        public object _status;
+        public object _created_at;
+        public object _updated_at;
+        public object _isBulkGift;
+        public object _targets;
+        public object _bulkSize;
+        public object _discountPercentage;
+        public object _totalConsumed;
+        public object _totalUnconsumed;
+        public object _failures;
+
         // ── Methods ──
         public void get_transactionId(){} // RVA: 0xBBFF90
         public void set_transactionId(){} // RVA: 0xBBFFA0
@@ -231,6 +324,12 @@ namespace VRC.Core
 
     public class APIResponseHandler : Object
     {
+        public object _connectionTimedOutProfilerMarker;
+        public object _responseTimedOutProfilerMarker;
+        public object _abortedProfilerMarker;
+        public object _errorProfilerMarker;
+        public object _offMainResponseSemaphore;
+
         // ── Methods ──
         public void HandleResponse(){} // RVA: 0xA574F50
         public void extractResponseErrorMessage(){} // RVA: 0xA575180
@@ -240,6 +339,18 @@ namespace VRC.Core
 
     public class APISticker : ApiModel
     {
+        public object _fileId;
+        public object _imageUrl;
+        public object _specialEffect;
+        public object _animationStyle;
+        public object _maskTag;
+        public object _animated;
+        public object _frames;
+        public object _framesOverTime;
+        public object _loopStyle;
+        public object _assetBundleId;
+        public object endpoint;
+
         // ── Methods ──
         public void get_fileId(){} // RVA: 0xBBFF90
         public void set_fileId(){} // RVA: 0xBBFFA0
@@ -267,6 +378,8 @@ namespace VRC.Core
 
     public class APISubscription : ApiModel
     {
+        public object _response;
+
         // ── Methods ──
         public void get_response(){} // RVA: 0xBBFF90
         public void set_response(){} // RVA: 0xBBFFA0
@@ -275,6 +388,11 @@ namespace VRC.Core
 
     public class APITutorial : ApiModel
     {
+        public object VRCHAT_GET_TUTORIAL_ENDPOINT;
+        public object _isTutorialCompleted;
+        public object _completedAnyTutorial;
+        public object _tutorialKey;
+
         // ── Methods ──
         public void get_IsTutorialCompleted(){} // RVA: 0xC10030
         public void set_IsTutorialCompleted(){} // RVA: 0xC10040
@@ -288,6 +406,12 @@ namespace VRC.Core
 
     public class ApiAvatarPart : ApiContentModel`1
     {
+        public object __created_at;
+        public object __updated_at;
+        public object _unityPackages;
+        public object AvatarPartEndpoint;
+        public object _bundleSignature;
+
         // ── Methods ──
         public void get__created_at(){} // RVA: 0x135D730
         public void set__created_at(){} // RVA: 0x485FCF0
@@ -308,6 +432,8 @@ namespace VRC.Core
 
     public class ApiAvatarPartItemMetadata : ApiModel
     {
+        public object _avatarPartId;
+
         // ── Methods ──
         public void get_avatarPartId(){} // RVA: 0xBBFF90
         public void set_avatarPartId(){} // RVA: 0xBBFFA0
@@ -316,6 +442,12 @@ namespace VRC.Core
 
     public class ApiAvatarStyle : ApiModel
     {
+        public object _styleName;
+        public object _lastModifiedById;
+        public object _lastModifiedByDisplayName;
+        public object _created_at;
+        public object _updated_at;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA50BA20
         public void get_styleName(){} // RVA: 0xBBFF90
@@ -332,6 +464,10 @@ namespace VRC.Core
 
     public class ApiBindingCommandReference : ApiModel
     {
+        public object _command;
+        public object _parameters;
+        public object _name;
+
         // ── Methods ──
         public void get_command(){} // RVA: 0xBBFF90
         public void set_command(){} // RVA: 0xBBFFA0
@@ -351,17 +487,13 @@ namespace VRC.Core
         public void .ctor(){} // RVA: 0xA573C70
     }
 
-    public class ApiCacheObject
-    {
-        // ── Methods ──
-        public void ShouldCache(){} // RVA: 0x87D280
-        public void GetLifeSpan(){} // RVA: 0x890F90
-        public void Clone(){} // RVA: 0x87C0A0
-        public void set_ExpiryTime(){} // RVA: 0x894320
-    }
-
     public class ApiCalendarEntriesContainer : ApiModel
     {
+        public object _hasNext;
+        public object _results;
+        public object _totalCount;
+        public object _nextCursor;
+
         // ── Methods ──
         public void get_hasNext(){} // RVA: 0xC10030
         public void set_hasNext(){} // RVA: 0xC10040
@@ -376,6 +508,9 @@ namespace VRC.Core
 
     public class ApiCalendarResults : ApiModel
     {
+        public object _results;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -386,6 +521,15 @@ namespace VRC.Core
 
     public class ApiCampaign : ApiModel
     {
+        public object _participantCount;
+        public object _friendsContributing;
+        public object _endsAt;
+        public object _raisedAmountUsd;
+        public object _userGiftCount;
+        public object _giftGoalUsd;
+        public object _goalSuccess;
+        public object _rewards;
+
         // ── Methods ──
         public void get_participantCount(){} // RVA: 0x2536460
         public void set_participantCount(){} // RVA: 0x25406E0
@@ -409,6 +553,12 @@ namespace VRC.Core
 
     public class ApiCampaignReward : ApiModel
     {
+        public object _title;
+        public object _description;
+        public object _imageUrl;
+        public object _unlocked;
+        public object _progress;
+
         // ── Methods ──
         public void get_title(){} // RVA: 0xBBFF90
         public void set_title(){} // RVA: 0xBBFFA0
@@ -425,6 +575,9 @@ namespace VRC.Core
 
     public class ApiCampaignRewardProgress : ApiModel
     {
+        public object _current;
+        public object _max;
+
         // ── Methods ──
         public void get_current(){} // RVA: 0x2536460
         public void set_current(){} // RVA: 0x25406E0
@@ -435,6 +588,19 @@ namespace VRC.Core
 
     public class ApiContainer : Object
     {
+        public object _cookies;
+        public object _populated;
+        public object _passedValidation;
+        public object _code;
+        public object _text;
+        public object _data;
+        public object _dataTimestamp;
+        public object _createdAt;
+        public object responseError;
+        public object _model;
+        public object OnError;
+        public object OnSuccess;
+
         // ── Methods ──
         public void get_Cookies(){} // RVA: 0xB5DBF0
         public void set_Cookies(){} // RVA: 0xB44D60
@@ -465,6 +631,27 @@ namespace VRC.Core
 
     public class ApiContentModel`1 : ApiModel
     {
+        public object _VERSION;
+        public object MIN_LOADABLE_VERSION;
+        public object ListCacheTime;
+        public object SingleRecordCacheTime;
+        public object localContent;
+        public object _name;
+        public object _imageUrl;
+        public object _authorName;
+        public object _authorId;
+        public object _assetUrl;
+        public object _description;
+        public object _tags;
+        public object _thumbnailImageUrl;
+        public object _version;
+        public object _releaseStatus;
+        public object _featured;
+        public object _unityPackageUpdated;
+        public object _unityVersion;
+        public object _apiVersion;
+        public object _platform;
+
         // ── Methods ──
         public void get_VERSION(){} // RVA: 0x4219EB0
         public void ShouldCache(){} // RVA: 0x421A1C0
@@ -521,6 +708,16 @@ namespace VRC.Core
 
     public class ApiCredentials : Object
     {
+        public object SECURE_PLAYER_PREFS_PW;
+        public object authToken;
+        public object authTokenCookie;
+        public object twoFactorAuthToken;
+        public object twoFactorAuthTokenCookie;
+        public object provider;
+        public object providerUserId;
+        public object humanName;
+        public object index;
+
         // ── Methods ──
         public void Clear(){} // RVA: 0xA5BE870
         public void SetProfileIndex(){} // RVA: 0xA5BE8A0
@@ -543,6 +740,11 @@ namespace VRC.Core
 
     public class ApiDictContainer : ApiContainer
     {
+        public object _cacheLifetime;
+        public object _expiryTime;
+        public object _requiredFields;
+        public object EmptyDictionary;
+
         // ── Methods ──
         public void get_cacheLifetime(){} // RVA: 0xC5C4A0
         public void set_cacheLifetime(){} // RVA: 0x18AD0F0
@@ -561,8 +763,32 @@ namespace VRC.Core
         public void <Validate>b__17_0(){} // RVA: 0xA573810
     }
 
+    public class ApiEconomyAccountStatus : ApiModel
+    {
+        public object _userID;
+        public object _blocked;
+
+        // ── Methods ──
+        public void get_UserID(){} // RVA: 0xBBFF90
+        public void set_UserID(){} // RVA: 0xBBFFA0
+        public void get_Blocked(){} // RVA: 0xBC03E0
+        public void set_Blocked(){} // RVA: 0xBC03F0
+        public void .ctor(){} // RVA: 0xA5BFF60
+    }
+
     public class ApiEconomyStore : ApiModel
     {
+        public object _sellerId;
+        public object _sellerDisplayName;
+        public object _worldId;
+        public object _groupId;
+        public object _storeStatus;
+        public object _displayName;
+        public object _description;
+        public object _tags;
+        public object _listings;
+        public object _listingIDs;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA50EFA0
         public void get_SellerId(){} // RVA: 0xBBFF90
@@ -600,6 +826,9 @@ namespace VRC.Core
 
     public class ApiImage : ApiFile
     {
+        public object MAX_IMAGES;
+        public object endpoint;
+
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0xB43320
         public void FetchList(){} // RVA: 0xA51A2F0
@@ -609,6 +838,13 @@ namespace VRC.Core
 
     public class ApiInventoryAsset : ApiModel
     {
+        public object TYPE_BASE;
+        public object _type;
+        public object _url;
+        public object _animated;
+        public object _animationDuration;
+        public object _animationFramesPerSecond;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0xBBFF90
         public void set_type(){} // RVA: 0xBBFFA0
@@ -625,6 +861,9 @@ namespace VRC.Core
 
     public class ApiInventoryBundle : ApiModel
     {
+        public object _inventoryItemsToInstantiate;
+        public object _notificationDetails;
+
         // ── Methods ──
         public void get_inventoryItemsToInstantiate(){} // RVA: 0xBBFF90
         public void set_inventoryItemsToInstantiate(){} // RVA: 0xBBFFA0
@@ -635,6 +874,20 @@ namespace VRC.Core
 
     public class ApiInventoryBundleDrop : ApiModel
     {
+        public object ENDPOINT;
+        public object _name;
+        public object _authorId;
+        public object _targetGroup;
+        public object _templateIds;
+        public object _startDropDate;
+        public object _endDropDate;
+        public object _dropExpiryDate;
+        public object _status;
+        public object _tags;
+        public object _created_at;
+        public object _updated_at;
+        public object _notificationDetails;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -666,6 +919,9 @@ namespace VRC.Core
 
     public class ApiInventoryItemContainer : ApiModel
     {
+        public object _data;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_data(){} // RVA: 0xBBFF90
         public void set_data(){} // RVA: 0xBBFFA0
@@ -676,6 +932,9 @@ namespace VRC.Core
 
     public class ApiJweToken : ApiModel
     {
+        public object _token;
+        public object _version;
+
         // ── Methods ──
         public void get_token(){} // RVA: 0xBBFF90
         public void set_token(){} // RVA: 0xBBFFA0
@@ -686,6 +945,9 @@ namespace VRC.Core
 
     public class ApiLeaderboard : ApiModel
     {
+        public object _userStats;
+        public object _leaderboard;
+
         // ── Methods ──
         public void get_userStats(){} // RVA: 0xBBFF90
         public void set_userStats(){} // RVA: 0xBBFFA0
@@ -700,6 +962,9 @@ namespace VRC.Core
 
     public class ApiLeaderboardAnonymizationStatus : ApiModel
     {
+        public object _state;
+        public object _displayName;
+
         // ── Methods ──
         public void get_state(){} // RVA: 0xC10030
         public void set_state(){} // RVA: 0xC10040
@@ -710,6 +975,10 @@ namespace VRC.Core
 
     public class ApiLeaderboardData : ApiModel
     {
+        public object _startedAt;
+        public object _endsAt;
+        public object _ranks;
+
         // ── Methods ──
         public void get_startedAt(){} // RVA: 0xBBFF90
         public void set_startedAt(){} // RVA: 0x278E9A0
@@ -722,6 +991,12 @@ namespace VRC.Core
 
     public class ApiLeaderboardRank : ApiModel
     {
+        public object _displayName;
+        public object _iconUrl;
+        public object _gifts;
+        public object _isAnonymized;
+        public object _isSelf;
+
         // ── Methods ──
         public void get_displayName(){} // RVA: 0xBBFF90
         public void set_displayName(){} // RVA: 0xBBFFA0
@@ -738,6 +1013,11 @@ namespace VRC.Core
 
     public class ApiLeaderboardUserStats : ApiModel
     {
+        public object _rank;
+        public object _gifts;
+        public object _isAnonymized;
+        public object _anonymizedDisplayName;
+
         // ── Methods ──
         public void get_rank(){} // RVA: 0x2536460
         public void set_rank(){} // RVA: 0x25406E0
@@ -752,6 +1032,23 @@ namespace VRC.Core
 
     public class ApiLedgerTransaction : ApiModel
     {
+        public object _amount;
+        public object _runningBalance;
+        public object _date;
+        public object _listingDisplayName;
+        public object _listingID;
+        public object _listingType;
+        public object _platform;
+        public object _purchaseId;
+        public object _reason;
+        public object _reasonLabel;
+        public object _toUserId;
+        public object _toUserDisplayName;
+        public object _fromUserId;
+        public object _fromUserDisplayName;
+        public object _transactionId;
+        public object _transactionLineId;
+
         // ── Methods ──
         public void get_Amount(){} // RVA: 0x2536460
         public void set_Amount(){} // RVA: 0x25406E0
@@ -791,6 +1088,10 @@ namespace VRC.Core
 
     public class ApiLedgerTransactions : ApiModel
     {
+        public object _startDate;
+        public object _endDate;
+        public object _transactions;
+
         // ── Methods ──
         public void get_StartDate(){} // RVA: 0xBBFF90
         public void set_StartDate(){} // RVA: 0x278E9A0
@@ -803,6 +1104,9 @@ namespace VRC.Core
 
     public class ApiLicenseNote : ApiModel
     {
+        public object _createdAt;
+        public object _note;
+
         // ── Methods ──
         public void get_CreatedAt(){} // RVA: 0xBBFF90
         public void set_CreatedAt(){} // RVA: 0x278E9A0
@@ -813,6 +1117,8 @@ namespace VRC.Core
 
     public class ApiListContainer : ApiContainer
     {
+        public object _totalCount;
+
         // ── Methods ──
         public void get_ResponseList(){} // RVA: 0xA573880
         public void get_TotalCount(){} // RVA: 0xD347A0
@@ -823,6 +1129,9 @@ namespace VRC.Core
 
     public class ApiLoadingScreen : ApiModel
     {
+        public object _name;
+        public object _assetBundleId;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -833,6 +1142,9 @@ namespace VRC.Core
 
     public class ApiLocalizableString : Object
     {
+        public object key;
+        public object fallback;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x17C92C0
     }
@@ -847,12 +1159,37 @@ namespace VRC.Core
 
     public class ApiModelListContainer`1 : ApiListContainer
     {
+        public object _responseModels;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x421DF50
+    }
+
+    public class ApiModelListContainer`1 : ApiListContainer
+    {
+        public object _responseModels;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x421DF50
     }
 
     public class ApiModeration : ApiModel
     {
+        public object ListCacheTime;
+        public object _moderationType;
+        public object _moderatorUserId;
+        public object _moderatorDisplayName;
+        public object _targetUserId;
+        public object _targetDisplayName;
+        public object _reasonMessage;
+        public object _details;
+        public object _created;
+        public object _expires;
+        public object expiresRange;
+        public object _isPermanent;
+        public object _worldId;
+        public object _instanceId;
+
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x2536460
         public void set_moderationType(){} // RVA: 0x25406E0
@@ -892,6 +1229,8 @@ namespace VRC.Core
 
     public class ApiModerationResult : Object
     {
+        public object fields;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -911,6 +1250,36 @@ namespace VRC.Core
 
     public class ApiNotification : ApiModel
     {
+        public object _version;
+        public object _notificationType;
+        public object _category;
+        public object _isSystem;
+        public object _senderUserId;
+        public object _senderUsername;
+        public object _receiverUserId;
+        public object _relatedNotificationsId;
+        public object _title;
+        public object _titleKey;
+        public object _message;
+        public object _messageKey;
+        public object _imageUrl;
+        public object _link;
+        public object _linkText;
+        public object _linkTextKey;
+        public object _responses;
+        public object _expiresAt;
+        public object _expiryAfterSeen;
+        public object _seen;
+        public object _ignoreDND;
+        public object _canDelete;
+        public object _created_at;
+        public object _createdAt;
+        public object _updatedAt;
+        public object _details;
+        public object _data;
+        public object _jobName;
+        public object _jobColor;
+
         // ── Methods ──
         public void get_version(){} // RVA: 0x2536460
         public void set_version(){} // RVA: 0x25406E0
@@ -978,6 +1347,9 @@ namespace VRC.Core
 
     public class ApiPagedTransactions : ApiModel
     {
+        public object _transactions;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_Transactions(){} // RVA: 0xBBFF90
         public void set_Transactions(){} // RVA: 0xBBFFA0
@@ -989,6 +1361,14 @@ namespace VRC.Core
 
     public class ApiPlayerModeration : ApiModel
     {
+        public object ListCacheTime;
+        public object _moderationType;
+        public object _targetUserId;
+        public object _targetDisplayName;
+        public object _sourceUserId;
+        public object _sourceDisplayName;
+        public object _created;
+
         // ── Methods ──
         public void get_moderationType(){} // RVA: 0x2536460
         public void set_moderationType(){} // RVA: 0x25406E0
@@ -1017,6 +1397,16 @@ namespace VRC.Core
 
     public class ApiPrint : ApiModel
     {
+        public object _note;
+        public object _authorId;
+        public object _authorName;
+        public object _worldId;
+        public object _worldName;
+        public object _ownerId;
+        public object _timestamp;
+        public object _files;
+        public object _createdAt;
+
         // ── Methods ──
         public void get_note(){} // RVA: 0xBBFF90
         public void set_note(){} // RVA: 0xBBFFA0
@@ -1047,6 +1437,10 @@ namespace VRC.Core
 
     public class ApiProductPurchaseStatus : ApiModel
     {
+        public object _productId;
+        public object _licenseId;
+        public object _expiry;
+
         // ── Methods ──
         public void get_ProductId(){} // RVA: 0xBBFF90
         public void set_ProductId(){} // RVA: 0xBBFFA0
@@ -1060,6 +1454,12 @@ namespace VRC.Core
 
     public class ApiProductVariant : ApiModel
     {
+        public object _listingVariantID;
+        public object _quantity;
+        public object _unitPriceTokens;
+        public object _nonRefundable;
+        public object _effectiveFrom;
+
         // ── Methods ──
         public void get_ListingVariantID(){} // RVA: 0xBBFF90
         public void set_ListingVariantID(){} // RVA: 0xBBFFA0
@@ -1082,6 +1482,8 @@ namespace VRC.Core
 
     public class ApiProfileBanner : ApiFile
     {
+        public object MAX_USER_BANNERS;
+
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0xB43320
         public void FetchList(){} // RVA: 0xA56C4F0
@@ -1096,6 +1498,9 @@ namespace VRC.Core
 
     public class ApiProfileInventoryMetadata : ApiModel
     {
+        public object _assets;
+        public object _animated;
+
         // ── Methods ──
         public void get_assets(){} // RVA: 0xBBFF90
         public void set_assets(){} // RVA: 0xBBFFA0
@@ -1107,6 +1512,11 @@ namespace VRC.Core
 
     public class ApiProfileTheme : ApiModel
     {
+        public object _name;
+        public object _iconColor;
+        public object _buttonColor;
+        public object _subtextColor;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -1124,6 +1534,17 @@ namespace VRC.Core
 
     public class ApiProp : ApiContentModel`1
     {
+        public object __created_at;
+        public object __updated_at;
+        public object _unityPackages;
+        public object _spawnType;
+        public object _worldPlacementMask;
+        public object _kind;
+        public object _scaleWithAvatar;
+        public object _visibilityType;
+        public object PropsEndpoint;
+        public object _bundleSignature;
+
         // ── Methods ──
         public void get__created_at(){} // RVA: 0x135D730
         public void set__created_at(){} // RVA: 0x485FCF0
@@ -1153,6 +1574,10 @@ namespace VRC.Core
 
     public class ApiPropItemMetadata : ApiModel
     {
+        public object _propId;
+        public object _worldPlacementMask;
+        public object _kind;
+
         // ── Methods ──
         public void get_propId(){} // RVA: 0xBBFF90
         public void set_propId(){} // RVA: 0xBBFFA0
@@ -1165,6 +1590,85 @@ namespace VRC.Core
 
     public class ApiPurchase : ApiModel
     {
+        public object _listingId;
+        public object _listingDisplayName;
+        public object _listingImageId;
+        public object _listingType;
+        public object _listingVariantId;
+        public object _sellerId;
+        public object _sellerDisplayName;
+        public object _buyerId;
+        public object _buyerDisplayName;
+        public object _receiverId;
+        public object _receiverDisplayName;
+        public object _price;
+        public object _quantity;
+        public object _duration;
+        public object _durationType;
+        public object _purchaseDate;
+        public object _purchaseStartDate;
+        public object _purchaseEndDate;
+        public object _purchaseActive;
+        public object _purchaseLatest;
+        public object _products;
+        public object _isStackable;
+        public object _isRecurrable;
+        public object _purchaseToken;
+        public object _isVoided;
+        public object _isGift;
+        public object _purchaseUnitPrice;
+        public object _isRefundable;
+        public object _stackDurationType;
+        public object _stackDuration;
+        public object _stackPrice;
+        public object _stackQuantity;
+        public object _stackQuantityConsumed;
+        public object _stackQuantityConsumedAtPurchase;
+        public object _stackQuantityUnconsumed;
+        public object _stackQuantityUnconsumedAtPurchase;
+        public object _tiliaTransactionId;
+        public object _willRecur;
+        public object _listingCurrentlyAvailable;
+        public object _createdAtDate;
+        public object _purchaseID;
+        public object _updatedAtDate;
+        public object _purchaseOriginalEndDate;
+        public object _buyerIP;
+        public object _isRecur;
+        public object _isUnityLocalTest;
+        public object _licenseID;
+        public object _purchaseStacks;
+        public object _purchaseTiliaFee;
+        public object _purchaseType;
+        public object _purchaseValue;
+        public object _purchaseVrcFee;
+        public object _refundStatus;
+        public object _sellerIP;
+        public object _stackTiliaFee;
+        public object _stackValue;
+        public object _stackVrcFee;
+        public object _stackQuantityVoided;
+        public object _voidedBy;
+        public object _voidedByAdmin;
+        public object _voidedOnDate;
+        public object _purchaseTiliaFeeBasedOnStack;
+        public object _purchaseTiliaFeeDrift;
+        public object _purchaseVrcFeeBasedOnStack;
+        public object _refunded;
+        public object _refundedBy;
+        public object _refundedByAdmin;
+        public object _refundedOnDate;
+        public object _refundedStacks;
+        public object _refundReason;
+        public object _refundReasonType;
+        public object _refundTiliaTransactionId;
+        public object _refundTokenComponents;
+        public object _refundTokens;
+        public object _refundTokenSources;
+        public object _refundType;
+        public object _voidedStacks;
+        public object _voidedCompletely;
+
         // ── Methods ──
         public void get_ListingId(){} // RVA: 0xBBFF90
         public void set_ListingId(){} // RVA: 0xBBFFA0
@@ -1336,6 +1840,11 @@ namespace VRC.Core
 
     public class ApiPurchaseCancelSubscriptionInfo : ApiModel
     {
+        public object _refundableAmount;
+        public object _nonRefundableAmount;
+        public object _totalStacksToCancel;
+        public object _newExpirationDate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA56E240
         public void get_RefundableAmount(){} // RVA: 0x2536460
@@ -1350,6 +1859,10 @@ namespace VRC.Core
 
     public class ApiPurchaseSubscriptionCancelledInfo : ApiModel
     {
+        public object _amountRefunded;
+        public object _totalStacksCancelled;
+        public object _newExpirationDate;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xA56E290
         public void get_AmountRefunded(){} // RVA: 0x2536460
@@ -1362,6 +1875,15 @@ namespace VRC.Core
 
     public class ApiReport : ApiModel
     {
+        public object _type;
+        public object _category;
+        public object _reason;
+        public object _contentId;
+        public object _description;
+        public object _details;
+        public object _contentName;
+        public object _contentThumbnailImageUrl;
+
         // ── Methods ──
         public void get_type(){} // RVA: 0xBBFF90
         public void set_type(){} // RVA: 0xBBFFA0
@@ -1387,6 +1909,15 @@ namespace VRC.Core
 
     public class ApiReportDetails : ApiModel
     {
+        public object _suggestedWarnings;
+        public object _instanceType;
+        public object _instanceAgeGated;
+        public object _userInSameInstance;
+        public object _imageType;
+        public object _fileId;
+        public object _holderId;
+        public object _targetUserId;
+
         // ── Methods ──
         public void get_suggestedWarnings(){} // RVA: 0xBBFF90
         public void set_suggestedWarnings(){} // RVA: 0xBBFFA0
@@ -1409,6 +1940,9 @@ namespace VRC.Core
 
     public class ApiReportResponse : ApiModel
     {
+        public object _evidenceRequired;
+        public object _supportRequired;
+
         // ── Methods ──
         public void get_evidenceRequired(){} // RVA: 0xC10030
         public void set_evidenceRequired(){} // RVA: 0xC10040
@@ -1419,6 +1953,10 @@ namespace VRC.Core
 
     public class ApiReportsContainer : ApiModel
     {
+        public object _hasNext;
+        public object _results;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_hasNext(){} // RVA: 0xC10030
         public void set_hasNext(){} // RVA: 0xC10040
@@ -1431,6 +1969,9 @@ namespace VRC.Core
 
     public class ApiSearchGroupResults : ApiModel
     {
+        public object _results;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -1441,6 +1982,9 @@ namespace VRC.Core
 
     public class ApiSearchUserResults : ApiModel
     {
+        public object _results;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -1451,6 +1995,9 @@ namespace VRC.Core
 
     public class ApiSearchWorldResults : ApiModel
     {
+        public object _results;
+        public object _totalCount;
+
         // ── Methods ──
         public void get_results(){} // RVA: 0xBBFF90
         public void set_results(){} // RVA: 0xBBFFA0
@@ -1461,6 +2008,10 @@ namespace VRC.Core
 
     public class ApiSteamVRChatFinalizeTransactionResponse : ApiVRChatSubscriptionBaseResponse
     {
+        public object _status;
+        public object _giftValidationToken;
+        public object _subscription;
+
         // ── Methods ──
         public void get_status(){} // RVA: 0xC10050
         public void set_status(){} // RVA: 0xC10060
@@ -1473,6 +2024,12 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionSteamTransaction : ApiModel
     {
+        public object _walletInfo;
+        public object _steamId;
+        public object _orderId;
+        public object _steamUrl;
+        public object _transId;
+
         // ── Methods ──
         public void get_walletInfo(){} // RVA: 0xBBFF90
         public void set_walletInfo(){} // RVA: 0xBBFFA0
@@ -1489,6 +2046,13 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionTransaction : ApiVRChatSubscriptionBaseResponse
     {
+        public object _status;
+        public object _subscription;
+        public object _sandbox;
+        public object _created_at;
+        public object _updated_at;
+        public object _steam;
+
         // ── Methods ──
         public void get_status(){} // RVA: 0xC10050
         public void set_status(){} // RVA: 0xC10060
@@ -1507,6 +2071,11 @@ namespace VRC.Core
 
     public class ApiSteamVRChatSubscriptionWalletInformation : ApiModel
     {
+        public object _state;
+        public object _country;
+        public object _currency;
+        public object _status;
+
         // ── Methods ──
         public void get_state(){} // RVA: 0xBBFF90
         public void set_state(){} // RVA: 0xBBFFA0
@@ -1537,6 +2106,15 @@ namespace VRC.Core
 
     public class ApiTokenBundle : ApiModel
     {
+        public object _steamItemId;
+        public object _oculusSku;
+        public object _googleProductId;
+        public object _picoSku;
+        public object _amount;
+        public object _description;
+        public object _tokens;
+        public object _imageUrl;
+
         // ── Methods ──
         public void get_steamItemId(){} // RVA: 0x2536460
         public void set_steamItemId(){} // RVA: 0x25406E0
@@ -1560,6 +2138,8 @@ namespace VRC.Core
 
     public class ApiTokenPurchase : ApiTokenBundle
     {
+        public object _purchaseDate;
+
         // ── Methods ──
         public void get_PurchaseDate(){} // RVA: 0x12EB090
         public void set_PurchaseDate(){} // RVA: 0x24440F0
@@ -1568,6 +2148,21 @@ namespace VRC.Core
 
     public class ApiTransaction : ApiModel
     {
+        public object _listingID;
+        public object _name;
+        public object _sellerId;
+        public object _fromUserDisplayName;
+        public object _sellerDisplayName;
+        public object _buyerId;
+        public object _buyerDisplayName;
+        public object _type;
+        public object _date;
+        public object _amount;
+        public object _runningBalance;
+        public object _imageId;
+        public object _purchaseId;
+        public object _tiliaRef;
+
         // ── Methods ──
         public void get_ListingID(){} // RVA: 0xBBFF90
         public void set_ListingID(){} // RVA: 0xBBFFA0
@@ -1604,6 +2199,9 @@ namespace VRC.Core
 
     public class ApiUserIcon : ApiFile
     {
+        public object MAX_USER_ICONS;
+        public object endpoint;
+
         // ── Methods ──
         public void ShouldCache(){} // RVA: 0xB43320
         public void FetchList(){} // RVA: 0xA597E10
@@ -1613,6 +2211,10 @@ namespace VRC.Core
 
     public class ApiUserPermission : ApiModel
     {
+        public object _ownerId;
+        public object _name;
+        public object _data;
+
         // ── Methods ──
         public void get_ownerId(){} // RVA: 0xBBFF90
         public void set_ownerId(){} // RVA: 0xBBFFA0
@@ -1625,6 +2227,8 @@ namespace VRC.Core
 
     public class ApiUserPlatformList : ApiModel
     {
+        public object _platforms;
+
         // ── Methods ──
         public void get_platforms(){} // RVA: 0xBBFF90
         public void set_platforms(){} // RVA: 0xBBFFA0
@@ -1633,6 +2237,9 @@ namespace VRC.Core
 
     public class ApiUserPlatforms : Object
     {
+        public object _platforms;
+        public object _currentUserPlatforms;
+
         // ── Methods ──
         public void get_platforms(){} // RVA: 0xB8F8F0
         public void set_platforms(){} // RVA: 0xB460A0
@@ -1648,6 +2255,28 @@ namespace VRC.Core
 
     public class ApiUserProfile : ApiModel
     {
+        public object _displayName;
+        public object _bio;
+        public object _pronouns;
+        public object _status;
+        public object _statusDescription;
+        public object _location;
+        public object _badges;
+        public object _trustTags;
+        public object _bioLinks;
+        public object _languageTags;
+        public object _hasVrcPlus;
+        public object _isSeller;
+        public object _ageVerified;
+        public object _ageVerificationStatus;
+        public object _note;
+        public object _icon;
+        public object _banner;
+        public object _background;
+        public object _theme;
+        public object _iconFrame;
+        public object _profileEffect;
+
         // ── Methods ──
         public void get_displayName(){} // RVA: 0xBBFF90
         public void set_displayName(){} // RVA: 0xBBFFA0
@@ -1698,6 +2327,11 @@ namespace VRC.Core
 
     public class ApiVRChatAdminSubscriptionTransaction : ApiVRChatSubscriptionBaseResponse
     {
+        public object _userId;
+        public object _adminUserId;
+        public object _expiry;
+        public object _subscription;
+
         // ── Methods ──
         public void get_userId(){} // RVA: 0xC10050
         public void set_userId(){} // RVA: 0xC10060
@@ -1712,6 +2346,8 @@ namespace VRC.Core
 
     public class ApiVRChatGiftTransactionResponse : ApiVRChatSubscriptionBaseResponse
     {
+        public object _giftValidationToken;
+
         // ── Methods ──
         public void get_giftValidationToken(){} // RVA: 0xC10050
         public void set_giftValidationToken(){} // RVA: 0xC10060
@@ -1720,6 +2356,16 @@ namespace VRC.Core
 
     public class ApiVRChatProductDetails : ApiModel
     {
+        public object _enabled;
+        public object _productType;
+        public object productTypeEnum;
+        public object _endpoint;
+        public object _stores;
+        public object _subscriptionInfo;
+        public object _giftInfo;
+        public object _tokenInfo;
+        public object _description;
+
         // ── Methods ──
         public void get_enabled(){} // RVA: 0xC10030
         public void set_enabled(){} // RVA: 0xC10040
@@ -1743,6 +2389,26 @@ namespace VRC.Core
 
     public class ApiVRChatSubscription : ApiModel
     {
+        public object _transactionId;
+        public object _steamItemId;
+        public object _amount;
+        public object _description;
+        public object _store;
+        public object _period;
+        public object _active;
+        public object _status;
+        public object _tier;
+        public object _starts;
+        public object _expires;
+        public object _created_at;
+        public object _updated_at;
+        public object _isGift;
+        public object _isBulkGift;
+        public object _giftedBy;
+        public object _giftedByDisplayName;
+        public object _licenseGroups;
+        public object _vendorData;
+
         // ── Methods ──
         public void get_transactionId(){} // RVA: 0xBBFF90
         public void set_transactionId(){} // RVA: 0xBBFFA0
@@ -1788,6 +2454,8 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionBaseResponse : ApiModel
     {
+        public object _error;
+
         // ── Methods ──
         public void get_error(){} // RVA: 0xBBFF90
         public void set_error(){} // RVA: 0xBBFFA0
@@ -1796,6 +2464,10 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionDetails : ApiModel
     {
+        public object _amount;
+        public object _description;
+        public object _period;
+
         // ── Methods ──
         public void get_amount(){} // RVA: 0x2536460
         public void set_amount(){} // RVA: 0x25406E0
@@ -1808,6 +2480,9 @@ namespace VRC.Core
 
     public class ApiVRChatSubscriptionError : Object
     {
+        public object _status_code;
+        public object _message;
+
         // ── Methods ──
         public void get_status_code(){} // RVA: 0xB8F8F0
         public void set_status_code(){} // RVA: 0xB460A0
@@ -1818,6 +2493,9 @@ namespace VRC.Core
 
     public class ApiViewfinderSkin : ApiModel
     {
+        public object _name;
+        public object _assetBundleId;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
@@ -1828,24 +2506,15 @@ namespace VRC.Core
 
     public class ApiWarpEffectSkin : ApiModel
     {
+        public object _name;
+        public object _assetBundleId;
+
         // ── Methods ──
         public void get_name(){} // RVA: 0xBBFF90
         public void set_name(){} // RVA: 0xBBFFA0
         public void get_assetBundleId(){} // RVA: 0xC10050
         public void set_assetBundleId(){} // RVA: 0xC10060
         public void .ctor(){} // RVA: 0xA59B3E0
-    }
-
-    public class AssetVersion : Object
-    {
-        // ── Methods ──
-        public void get_UnityVersion(){} // RVA: 0xA5BD840
-        public void set_UnityVersion(){} // RVA: 0xB44D60
-        public void get_UnityVersionObj(){} // RVA: 0xA5BD8F0
-        public void get_ApiVersion(){} // RVA: 0x1AE5AC0
-        public void set_ApiVersion(){} // RVA: 0x23E55F0
-        public void .ctor(){} // RVA: 0xA5BDAB0
-        public void ToString(){} // RVA: 0xA5BDB10
     }
 
 }

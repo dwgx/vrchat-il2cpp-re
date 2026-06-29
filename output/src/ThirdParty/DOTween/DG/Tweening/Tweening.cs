@@ -7,6 +7,9 @@ namespace ThirdParty.DOTween.DG.Tweening
 {
     public class Color2 : ValueType
     {
+        public object ca;
+        public object cb;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x92320
         public void op_Addition(){} // RVA: 0x26E17D0
@@ -16,8 +19,37 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class DOTween : Object
     {
+        public object Version;
+        public object useSafeMode;
+        public object nestedTweenFailureBehaviour;
+        public object showUnityEditorReport;
+        public object timeScale;
+        public object useSmoothDeltaTime;
+        public object maxSmoothUnscaledTime;
+        public object rewindCallbackMode;
+        public object _logBehaviour;
+        public object onWillLog;
+        public object drawGizmos;
+        public object debugMode;
+        public object _fooDebugStoreTargetId;
+        public object defaultUpdateType;
+        public object defaultTimeScaleIndependent;
+        public object defaultAutoPlay;
+        public object defaultAutoKill;
+        public object defaultLoopType;
+        public object defaultRecyclable;
+        public object defaultEaseType;
+        public object defaultEaseOvershootOrAmplitude;
+        public object defaultEasePeriod;
+        public object instance;
+        public object maxActiveTweenersReached;
+        public object maxActiveSequencesReached;
+        public object safeModeReport;
+        public object GizmosDelegates;
+        public object initialized;
+        public object isQuitting;
+
         // ── Methods ──
-        public void ApplyTo(){} // RVA: 0xA94080
         public void get_logBehaviour(){} // RVA: 0x26E1C60
         public void set_logBehaviour(){} // RVA: 0x26E1CC0
         public void get_debugStoreTargetId(){} // RVA: 0x26E1D80
@@ -69,6 +101,7 @@ namespace ThirdParty.DOTween.DG.Tweening
         public void TweensById(){} // RVA: 0x26E6EB0
         public void TweensByTarget(){} // RVA: 0x26E6F70
         public void InitCheck(){} // RVA: 0x26E7020
+        public void ApplyTo(){} // RVA: 0x303C680
         public void .ctor(){} // RVA: 0xB43310
         public void .cctor(){} // RVA: 0x26E72B0
     }
@@ -186,6 +219,8 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class DOTweenModuleUtils : Object
     {
+        public object _initialized;
+
         // ── Methods ──
         public void Init(){} // RVA: 0x27141F0
         public void Preserver(){} // RVA: 0x2714460
@@ -223,6 +258,10 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Sequence : Tween
     {
+        public object sequencedTweens;
+        public object _sequencedObjs;
+        public object lastTweenInsertTime;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26EAFC0
         public void DoPrepend(){} // RVA: 0x26EB170
@@ -314,6 +353,57 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Tween : ABSSequentiable
     {
+        public object timeScale;
+        public object isBackwards;
+        public object id;
+        public object stringId;
+        public object intId;
+        public object target;
+        public object updateType;
+        public object isIndependentUpdate;
+        public object onPlay;
+        public object onPause;
+        public object onRewind;
+        public object onUpdate;
+        public object onStepComplete;
+        public object onComplete;
+        public object onKill;
+        public object onWaypointChange;
+        public object isFrom;
+        public object isBlendable;
+        public object isRecyclable;
+        public object isSpeedBased;
+        public object autoKill;
+        public object duration;
+        public object loops;
+        public object loopType;
+        public object delay;
+        public object _isRelative;
+        public object easeType;
+        public object customEase;
+        public object easeOvershootOrAmplitude;
+        public object easePeriod;
+        public object debugTargetId;
+        public object typeofT1;
+        public object typeofT2;
+        public object typeofTPlugOptions;
+        public object _active;
+        public object isSequenced;
+        public object sequenceParent;
+        public object activeId;
+        public object specialStartupMode;
+        public object creationLocked;
+        public object startupDone;
+        public object _playedOnce;
+        public object _position;
+        public object fullDuration;
+        public object completedLoops;
+        public object isPlaying;
+        public object isComplete;
+        public object elapsedDelay;
+        public object delayComplete;
+        public object miscInt;
+
         // ── Methods ──
         public void get_isRelative(){} // RVA: 0x2009180
         public void set_isRelative(){} // RVA: 0x20097F0
@@ -386,13 +476,13 @@ namespace ThirdParty.DOTween.DG.Tweening
     public class TweenExtensions : Object
     {
         // ── Methods ──
-        public void Play(){} // RVA: 0xA94080
         public void Complete(){} // RVA: 0x26E80D0
         public void Flip(){} // RVA: 0x26E8280
         public void ForceInit(){} // RVA: 0x26E83F0
         public void Goto(){} // RVA: 0x26E8560
         public void Kill(){} // RVA: 0x26E8740
         public void Pause(){} // RVA: 0xA94080
+        public void Play(){} // RVA: 0x2A3DDF0
         public void PlayBackwards(){} // RVA: 0x26E8930
         public void PlayForward(){} // RVA: 0x26E8AA0
         public void Restart(){} // RVA: 0x26E8C10
@@ -426,6 +516,31 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class TweenParams : Object
     {
+        public object Params;
+        public object id;
+        public object target;
+        public object updateType;
+        public object isIndependentUpdate;
+        public object onStart;
+        public object onPlay;
+        public object onRewind;
+        public object onUpdate;
+        public object onStepComplete;
+        public object onComplete;
+        public object onKill;
+        public object onWaypointChange;
+        public object isRecyclable;
+        public object isSpeedBased;
+        public object autoKill;
+        public object loops;
+        public object loopType;
+        public object delay;
+        public object isRelative;
+        public object easeType;
+        public object customEase;
+        public object easeOvershootOrAmplitude;
+        public object easePeriod;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x26FE420
         public void Clear(){} // RVA: 0x26FE430
@@ -453,24 +568,22 @@ namespace ThirdParty.DOTween.DG.Tweening
     public class TweenSettingsExtensions : Object
     {
         // ── Methods ──
-        public void SetEase(){} // RVA: 0xA94080
-        public void SetRecyclable(){} // RVA: 0xA94080
-        public void SetTarget(){} // RVA: 0x2A416F0
-        public void OnComplete(){} // RVA: 0xA94080
-        public void SetDelay(){} // RVA: 0xA94080
-        public void OnKill(){} // RVA: 0xA94080
-        public void OnUpdate(){} // RVA: 0xA94080
-        public void SetLoops(){} // RVA: 0xA94080
-        public void SetRelative(){} // RVA: 0xA94080
         public void SetAutoKill(){} // RVA: 0xA94080
-        public void SetId(){} // RVA: 0x2A41110
+        public void SetId(){} // RVA: 0xA94080
         public void SetLink(){} // RVA: 0xA94080
+        public void SetTarget(){} // RVA: 0x2A416F0
+        public void SetLoops(){} // RVA: 0x2A41560
+        public void SetEase(){} // RVA: 0x2A40ED0
+        public void SetRecyclable(){} // RVA: 0x2A415F0
         public void SetUpdate(){} // RVA: 0xA94080
         public void OnStart(){} // RVA: 0xA94080
         public void OnPlay(){} // RVA: 0xA94080
         public void OnPause(){} // RVA: 0xA94080
         public void OnRewind(){} // RVA: 0xA94080
+        public void OnUpdate(){} // RVA: 0x2A40630
         public void OnStepComplete(){} // RVA: 0xA94080
+        public void OnComplete(){} // RVA: 0x2A40320
+        public void OnKill(){} // RVA: 0x2A40390
         public void OnWaypointChange(){} // RVA: 0xA94080
         public void SetAs(){} // RVA: 0xA94080
         public void Append(){} // RVA: 0x26FF170
@@ -483,6 +596,8 @@ namespace ThirdParty.DOTween.DG.Tweening
         public void PrependCallback(){} // RVA: 0x26FF580
         public void InsertCallback(){} // RVA: 0x26FF5C0
         public void From(){} // RVA: 0x26FF700
+        public void SetDelay(){} // RVA: 0x2A40C50
+        public void SetRelative(){} // RVA: 0x2A41610
         public void SetSpeedBased(){} // RVA: 0xA94080
         public void SetOptions(){} // RVA: 0x26FFA20
         public void SetLookAt(){} // RVA: 0x26FFE90
@@ -511,15 +626,18 @@ namespace ThirdParty.DOTween.DG.Tweening
 
     public class Tweener : Tween
     {
+        public object hasManuallySetStartValue;
+        public object isFromAllowed;
+
         // ── Methods ──
-        public void Setup(){} // RVA: 0xA94080
-        public void DOStartupSpecials(){} // RVA: 0x87D390
-        public void DOStartupDurationBased(){} // RVA: 0x894350
-        public void DoChangeStartValue(){} // RVA: 0x2A490A0
-        public void DoChangeEndValue(){} // RVA: 0x2A44D80
-        public void DoChangeValues(){} // RVA: 0x2A4A5C0
+        public void Setup(){} // RVA: 0x2A518E0
+        public void DOStartupSpecials(){} // RVA: 0x2A42780
+        public void DOStartupDurationBased(){} // RVA: 0x2A41B90
+        public void DoChangeStartValue(){} // RVA: 0x2A49E40
+        public void DoChangeEndValue(){} // RVA: 0x2A47970
+        public void DoChangeValues(){} // RVA: 0x2A4B670
         public void DoUpdateDelay(){} // RVA: 0x2A4F990
-        public void DoStartup(){} // RVA: 0x2A4C020
+        public void DoStartup(){} // RVA: 0x2A4E500
         public void .ctor(){} // RVA: 0x2700EF0
         public void ChangeStartValue(){} // RVA: 0x890390
         public void ChangeEndValue(){} // RVA: 0x87D1A0

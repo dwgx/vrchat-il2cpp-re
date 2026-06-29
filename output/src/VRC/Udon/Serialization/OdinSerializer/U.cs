@@ -39,6 +39,9 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnityReferenceResolver : Object
     {
+        public object referenceIndexMapping;
+        public object referencedUnityObjects;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x84CDE20
         public void GetReferencedUnityObjects(){} // RVA: 0xB465B0
@@ -52,6 +55,10 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnitySerializationInitializer : Object
     {
+        public object LOCK;
+        public object initialized;
+        public object _currentPlatform;
+
         // ── Methods ──
         public void get_Initialized(){} // RVA: 0x84CE660
         public void get_CurrentPlatform(){} // RVA: 0x84CE6C0
@@ -63,6 +70,24 @@ namespace VRC.Udon.Serialization.OdinSerializer
 
     public class UnitySerializationUtility : Object
     {
+        public object SerializeReferenceAttributeType;
+        public object String_Assembly;
+        public object HashSet_Assembly;
+        public object LinkedList_Assembly;
+        public object UnityMemberGetters;
+        public object UnityMemberSetters;
+        public object UnityWillSerializeMembersCache;
+        public object UnityWillSerializeTypesCache;
+        public object UnityNeverSerializesTypes;
+        public object UnityNeverSerializesTypeNames;
+        public object UnityPolicy;
+        public object EverythingPolicy;
+        public object StrictPolicy;
+        public object OdinWillSerializeCache_UnityPolicy;
+        public object OdinWillSerializeCache_EverythingPolicy;
+        public object OdinWillSerializeCache_StrictPolicy;
+        public object OdinWillSerializeCache_CustomPolicies;
+
         // ── Methods ──
         public void OdinWillSerialize(){} // RVA: 0x84CEC70
         public void CalculateOdinWillSerialize(){} // RVA: 0x84CF4A0

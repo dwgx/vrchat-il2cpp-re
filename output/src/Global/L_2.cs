@@ -1,10 +1,12 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 578
+// Methods: 575
 
 public class LabelExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70493E0
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -15,28 +17,10 @@ public class LabelExpressionProxy : Object
     public void get_Type(){} // RVA: 0x10ACB60
 }
 
-public class Label[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
-}
-
 public class LambdaExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70494C0
     public void get_Body(){} // RVA: 0x13F9340
@@ -50,8 +34,22 @@ public class LambdaExpressionProxy : Object
     public void get_Type(){} // RVA: 0x10ACB60
 }
 
+public class LambdaSignature`1 : Object
+{
+    public object s_instance;
+    public object Parameters;
+    public object ReturnLabel;
+
+    // ── Methods ──
+    public void get_Instance(){} // RVA: 0x87C0D0
+    public void .ctor(){} // RVA: 0x894290
+}
+
 public class LastActiveSpanTracker : Object
 {
+    public object _lock;
+    public object _trackedSpans;
+
     // ── Methods ──
     public void get_TrackedSpans(){} // RVA: 0x6E3A420
     public void Push(){} // RVA: 0x6E3A470
@@ -62,24 +60,71 @@ public class LastActiveSpanTracker : Object
 
 public class LaterInitParam : Object
 {
+    public object useAsync;
+    public object inputStream;
+    public object inputBytes;
+    public object inputByteCount;
+    public object inputbaseUri;
+    public object inputUriStr;
+    public object inputUriResolver;
+    public object inputContext;
+    public object inputTextReader;
+    public object initType;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x748CF20
 }
 
 public class Layer : Object
 {
+    public object Weight;
+    public object Hash;
+    public object NormalizedTime;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class LayerDesc : ValueType
 {
+    public object Shape;
+    public object Layout;
+    public object TextureSize;
+    public object MipLevels;
+    public object SampleCount;
+    public object Format;
+    public object LayerFlags;
+    public object Fov;
+    public object VisibleRect;
+    public object MaxViewportSize;
+    public object DepthFormat;
+    public object MotionVectorFormat;
+    public object MotionVectorDepthFormat;
+    public object MotionVectorTextureSize;
+
     // ── Methods ──
     public void ToString(){} // RVA: 0x8CB300
 }
 
 public class LayerDescInternal : ValueType
 {
+    public object Shape;
+    public object Layout;
+    public object TextureSize;
+    public object MipLevels;
+    public object SampleCount;
+    public object Format;
+    public object LayerFlags;
+    public object Fov0;
+    public object Fov1;
+    public object VisibleRect0;
+    public object VisibleRect1;
+    public object MaxViewportSize;
+    public object DepthFormat;
+    public object MotionVectorFormat;
+    public object MotionVectorDepthFormat;
+    public object MotionVectorTextureSize;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x8CB310
     public void ToLayerDesc(){} // RVA: 0x8CB360
@@ -125,16 +170,23 @@ public class Layer[] : Array
     public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
 }
 
-public class LayoutCache : Object
-{
-    // ── Methods ──
-    public void set_id(){} // RVA: 0xB460A0
-    public void .ctor(){} // RVA: 0x7C7D540
-    public void ResetCursor(){} // RVA: 0x7C7D730
-}
-
 public class LayoutJson : ValueType
 {
+    public object name;
+    public object extend;
+    public object extendMultiple;
+    public object format;
+    public object beforeRender;
+    public object runInBackground;
+    public object commonUsages;
+    public object displayName;
+    public object description;
+    public object type;
+    public object variant;
+    public object isGenericTypeOfDevice;
+    public object hideInUI;
+    public object controls;
+
     // ── Methods ──
     public void ToLayout(){} // RVA: 0x93E410
     public void FromLayout(){} // RVA: 0x7945CC0
@@ -142,22 +194,21 @@ public class LayoutJson : ValueType
 
 public class LayoutLogData : Object
 {
+    public object node;
+    public object eventType;
+    public object message;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class LayoutNotFoundException : Exception
 {
+    public object _layout;
+
     // ── Methods ──
     public void get_layout(){} // RVA: 0x1069350
     public void .ctor(){} // RVA: 0x7815D80
-}
-
-public class LayoutedWindow : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7C79070
-    public void DoWindow(){} // RVA: 0x7C79180
 }
 
 public class LeftShiftByte : LeftShiftInstruction
@@ -218,6 +269,40 @@ public class LeftShiftUInt64 : LeftShiftInstruction
 
 public class Leg : BodyPart
 {
+    public object target;
+    public object bendGoal;
+    public object positionWeight;
+    public object rotationWeight;
+    public object bendGoalWeight;
+    public object swivelOffset;
+    public object bendToTargetWeight;
+    public object legLengthMlp;
+    public object stretchCurve;
+    public object IKPosition;
+    public object IKRotation;
+    public object footPositionOffset;
+    public object heelPositionOffset;
+    public object footRotationOffset;
+    public object currentMag;
+    public object useAnimatedBendNormal;
+    public object _position;
+    public object _rotation;
+    public object _hasToes;
+    public object VrcAllowToes;
+    public object _thighRelativeToPelvis;
+    public object vrcUseKneeTarget;
+    public object vrcUseForcedBendNormal;
+    public object vrcForcedBendNormal;
+    public object footPosition;
+    public object footRotation;
+    public object bendNormal;
+    public object calfRelToThigh;
+    public object thighRelToFoot;
+    public object bendNormalRelToPelvis;
+    public object bendNormalRelToTarget;
+    public object vrcBendNormalRelToFoot;
+    public object vrcLegTwistFromBendDir;
+
     // ── Methods ──
     public void get_position(){} // RVA: 0xC77DF0
     public void set_position(){} // RVA: 0xC77E10
@@ -248,6 +333,28 @@ public class Leg : BodyPart
 
 public class Leg : Object
 {
+    public object _isGrounded;
+    public object _iKPosition;
+    public object rotationOffset;
+    public object _initiated;
+    public object _heightFromGround;
+    public object _velocity;
+    public object _transform;
+    public object _iKOffset;
+    public object invertFootCenter;
+    public object _heelHit;
+    public object _capsuleHit;
+    public object grounding;
+    public object lastTime;
+    public object deltaTime;
+    public object lastPosition;
+    public object toHitNormal;
+    public object r;
+    public object up;
+    public object doOverrideFootPosition;
+    public object overrideFootPosition;
+    public object transformPosition;
+
     // ── Methods ──
     public void get_isGrounded(){} // RVA: 0xC120A0
     public void set_isGrounded(){} // RVA: 0xC120B0
@@ -328,6 +435,22 @@ public class Leg[] : Array
 
 public class LegacyInputProcessor : Object
 {
+    public object m_SendingTouchEvents;
+    public object m_SendingPenEvent;
+    public object m_CurrentModifiers;
+    public object m_LastMousePressButton;
+    public object m_NextMousePressTime;
+    public object m_LastMouseClickCount;
+    public object m_LastMousePosition;
+    public object m_MouseProcessedAtLeastOnce;
+    public object m_Input;
+    public object m_Event;
+    public object m_EventSystem;
+    public object m_ConsecutiveMoveCount;
+    public object m_LastMoveVector;
+    public object m_PrevActionTime;
+    public object m_IsMoveFromKeyboard;
+
     // ── Methods ──
     public void get_m_CurrentPointerModifiers(){} // RVA: 0x8043000
     public void get_input(){} // RVA: 0x8043010
@@ -500,6 +623,9 @@ public class LessThanUInt64 : LessThanInstruction
 
 public class LicFileLicense : License
 {
+    public object _owner;
+    public object _licenseKey;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x17C92C0
     public void get_LicenseKey(){} // RVA: 0xB465B0
@@ -508,12 +634,16 @@ public class LicFileLicense : License
 
 public class LifetimeByEmitterSpeedModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
 }
 
 public class LightsModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x980C50
@@ -554,12 +684,19 @@ public class LightsModule : ValueType
 
 public class LimbOrientation : Object
 {
+    public object upperBoneForwardAxis;
+    public object lowerBoneForwardAxis;
+    public object lastBoneLeftAxis;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB8B840
 }
 
 public class LimitPoint : Object
 {
+    public object point;
+    public object tangentWeight;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xCB6C90
 }
@@ -586,6 +723,8 @@ public class LimitPoint[] : Array
 
 public class LimitVelocityOverLifetimeModule : ValueType
 {
+    public object m_ParticleSystem;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_enabled(){} // RVA: 0x97B120
@@ -642,26 +781,49 @@ public class LimitVelocityOverLifetimeModule : ValueType
     public void set_dragBlittable_Injected(){} // RVA: 0x7CC7F80
 }
 
+public class Limits : ValueType
+{
+    public object minSwing;
+    public object maxSwing;
+    public object swing2;
+    public object twist;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4FE0
+}
+
 public class LineBreakingTable : Object
 {
+    public object leadingCharacters;
+    public object followingCharacters;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xB43310
 }
 
 public class LineInfoAnnotation : Object
 {
+    public object LineNumber;
+    public object LinePosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F358F0
 }
 
 public class LineInfoAnnotation : Object
 {
+    public object LineNumber;
+    public object LinePosition;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x4F358F0
 }
 
 public class LineSegment : ValueType
 {
+    public object Point1;
+    public object Point2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x30D0
 }
@@ -688,6 +850,8 @@ public class LinkImage[] : Array
 
 public class Linked1CancellationTokenSource : CancellationTokenSource
 {
+    public object _reg1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x699F330
     public void Dispose(){} // RVA: 0x699F4B0
@@ -695,6 +859,9 @@ public class Linked1CancellationTokenSource : CancellationTokenSource
 
 public class Linked2CancellationTokenSource : CancellationTokenSource
 {
+    public object _reg1;
+    public object _reg2;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x699F4F0
     public void Dispose(){} // RVA: 0x699F760
@@ -702,6 +869,9 @@ public class Linked2CancellationTokenSource : CancellationTokenSource
 
 public class LinkedNCancellationTokenSource : CancellationTokenSource
 {
+    public object s_linkedTokenCancelDelegate;
+    public object _linkingRegistrations;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x699F7B0
     public void Dispose(){} // RVA: 0x699F9E0
@@ -710,6 +880,9 @@ public class LinkedNCancellationTokenSource : CancellationTokenSource
 
 public class LinqEnumerator : Object
 {
+    public object m_Node;
+    public object m_Enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6C45660
     public void get_Current(){} // RVA: 0x6C45790
@@ -730,12 +903,18 @@ public class ListBuffer16 : MemoryStream
 
 public class ListEntry : Object
 {
+    public object _next;
+    public object _key;
+    public object _handler;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x76AFAA0
 }
 
 public class ListInitExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70495C0
     public void get_CanReduce(){} // RVA: 0x10AD460
@@ -748,6 +927,10 @@ public class ListInitExpressionProxy : Object
 
 public class ListIterator`1 : ValueType
 {
+    public object isNull;
+    public object list;
+    public object enumerator;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void GetEnumerator(){} // RVA: 0xA94080
@@ -758,6 +941,8 @@ public class ListIterator`1 : ValueType
 
 public class ListOfTWrapper`1 : Object
 {
+    public object _collection;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void get_Count(){} // RVA: 0x87C130
@@ -775,8 +960,18 @@ public class ListPlayersDelegate : MulticastDelegate
     public void EndInvoke(){} // RVA: 0xB44BE0
 }
 
+public class ListPoolImpl`1 : Object
+{
+    public object Pool;
+
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x35CF860
+}
+
 public class ListQueryMatcher`1 : UQueryMatcher
 {
+    public object _matches;
+
     // ── Methods ──
     public void get_matches(){} // RVA: 0x87C0A0
     public void set_matches(){} // RVA: 0x894320
@@ -787,6 +982,11 @@ public class ListQueryMatcher`1 : UQueryMatcher
 
 public class LoadOptions : ValueType
 {
+    public object _storageLocation;
+    public object _maxAnchorCount;
+    public object _timeout;
+    public object _uuids;
+
     // ── Methods ──
     public void get_StorageLocation(){} // RVA: 0x77E60
     public void set_StorageLocation(){} // RVA: 0x29580
@@ -826,6 +1026,19 @@ public class LocalityName : AttributeTypeAndValue
 
 public class Location : Object
 {
+    public object _parser;
+    public object _unknownFields;
+    public object _repeated_path_codec;
+    public object path_;
+    public object _repeated_span_codec;
+    public object span_;
+    public object LeadingCommentsDefaultValue;
+    public object leadingComments_;
+    public object TrailingCommentsDefaultValue;
+    public object trailingComments_;
+    public object _repeated_leadingDetachedComments_codec;
+    public object leadingDetachedComments_;
+
     // ── Methods ──
     public void get_Parser(){} // RVA: 0x64F3B30
     public void get_Descriptor(){} // RVA: 0x64F3B90
@@ -856,6 +1069,8 @@ public class Location : Object
 
 public class LockedScope : Object
 {
+    public object _scope;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x6D16A10
     public void Dispose(){} // RVA: 0x6D16C30
@@ -863,6 +1078,35 @@ public class LockedScope : Object
 
 public class Locomotion : Object
 {
+    public object weight;
+    public object footDistance;
+    public object stepThreshold;
+    public object angleThreshold;
+    public object comAngleMlp;
+    public object maxVelocity;
+    public object velocityFactor;
+    public object maxLegStretch;
+    public object rootSpeed;
+    public object stepSpeed;
+    public object stepHeight;
+    public object heelHeight;
+    public object relaxLegTwistMinAngle;
+    public object relaxLegTwistSpeed;
+    public object stepInterpolation;
+    public object offset;
+    public object blockingEnabled;
+    public object blockingLayers;
+    public object raycastRadius;
+    public object raycastHeight;
+    public object onLeftFootstep;
+    public object onRightFootstep;
+    public object _centerOfMass;
+    public object footsteps;
+    public object lastComPosition;
+    public object comVelocity;
+    public object leftFootIndex;
+    public object rightFootIndex;
+
     // ── Methods ──
     public void get_centerOfMass(){} // RVA: 0xC7CEC0
     public void set_centerOfMass(){} // RVA: 0xC7CEE0
@@ -881,13 +1125,6 @@ public class Locomotion : Object
     public void CanStep(){} // RVA: 0xC80B10
     public void GetLineSphereCollision(){} // RVA: 0xC80B90
     public void .ctor(){} // RVA: 0xC80EE0
-}
-
-public class LogCallback : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x26E1340
-    public void Invoke(){} // RVA: 0xCA8BF0
 }
 
 public class LogCallback : MulticastDelegate
@@ -932,6 +1169,9 @@ public class LogHandler : MulticastDelegate
 
 public class LogValues : ValueType
 {
+    public object Callback;
+    public object _formatter;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x47F10
     public void get_Item(){} // RVA: 0x8AA430
@@ -944,6 +1184,10 @@ public class LogValues : ValueType
 
 public class LogValues`1 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Item(){} // RVA: 0x87BF40
@@ -956,6 +1200,11 @@ public class LogValues`1 : ValueType
 
 public class LogValues`2 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+    public object _value1;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0xA94080
     public void get_Item(){} // RVA: 0x87BF40
@@ -968,6 +1217,12 @@ public class LogValues`2 : ValueType
 
 public class LogValues`3 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+    public object _value1;
+    public object _value2;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void get_Item(){} // RVA: 0x87BF40
@@ -980,6 +1235,13 @@ public class LogValues`3 : ValueType
 
 public class LogValues`4 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+    public object _value1;
+    public object _value2;
+    public object _value3;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void get_Item(){} // RVA: 0x87BF40
@@ -993,6 +1255,14 @@ public class LogValues`4 : ValueType
 
 public class LogValues`5 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+    public object _value1;
+    public object _value2;
+    public object _value3;
+    public object _value4;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void get_Item(){} // RVA: 0x87BF40
@@ -1006,6 +1276,15 @@ public class LogValues`5 : ValueType
 
 public class LogValues`6 : ValueType
 {
+    public object Callback;
+    public object _formatter;
+    public object _value0;
+    public object _value1;
+    public object _value2;
+    public object _value3;
+    public object _value4;
+    public object _value5;
+
     // ── Methods ──
     public void get_Count(){} // RVA: 0x87C130
     public void get_Item(){} // RVA: 0x87BF40
@@ -1038,14 +1317,41 @@ public class LongInput : TextValueInput
     public void StringToValue(){} // RVA: 0x7FF5DB0
 }
 
+public class LookAtBone[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
 public class LookCommonShaderIds : Object
 {
+    public object _LocalTransformInverse;
+    public object _LocalTransform;
+    public object _DebugKeyword;
+
     // ── Methods ──
     public void .cctor(){} // RVA: 0x26BE300
 }
 
 public class Lookup`2 : Object
 {
+    public object empty;
+    public object dict;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x894320
     public void CreateEmpty(){} // RVA: 0x87C0D0
@@ -1061,6 +1367,8 @@ public class Lookup`2 : Object
 
 public class LoopExpressionProxy : Object
 {
+    public object _node;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x70496A0
     public void get_Body(){} // RVA: 0x13F9340
@@ -1074,6 +1382,9 @@ public class LoopExpressionProxy : Object
 
 public class LowLevelStack : Object
 {
+    public object _arr;
+    public object _count;
+
     // ── Methods ──
     public void .ctor(){} // RVA: 0x698B690
     public void Pop(){} // RVA: 0x698B720

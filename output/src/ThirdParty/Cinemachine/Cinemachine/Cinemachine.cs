@@ -7,12 +7,38 @@ namespace ThirdParty.Cinemachine.Cinemachine
 {
     public class AxisBase : ValueType
     {
+        public object m_Value;
+        public object m_MinValue;
+        public object m_MaxValue;
+        public object m_Wrap;
+
         // ── Methods ──
         public void Validate(){} // RVA: 0x88A30
     }
 
     public class AxisState : ValueType
     {
+        public object Value;
+        public object m_SpeedMode;
+        public object m_MaxSpeed;
+        public object m_AccelTime;
+        public object m_DecelTime;
+        public object m_InputAxisName;
+        public object m_InputAxisValue;
+        public object m_InvertInput;
+        public object m_MinValue;
+        public object m_MaxValue;
+        public object m_Wrap;
+        public object m_Recentering;
+        public object m_CurrentSpeed;
+        public object m_LastUpdateTime;
+        public object m_LastUpdateFrame;
+        public object Epsilon;
+        public object m_InputAxisProvider;
+        public object m_InputAxisIndex;
+        public object _valueRangeLocked;
+        public object _hasRecentering;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x87870
         public void Validate(){} // RVA: 0x87890
@@ -37,6 +63,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class BlendSourceVirtualCamera : Object
     {
+        public object _blend;
+        public object _priority;
+        public object _lookAt;
+        public object _follow;
+        public object _state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void get_Blend(){} // RVA: 0xB5DBF0
@@ -64,6 +96,24 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CameraState : ValueType
     {
+        public object Lens;
+        public object ReferenceUp;
+        public object ReferenceLookAt;
+        public object kNoPoint;
+        public object RawPosition;
+        public object RawOrientation;
+        public object PositionDampingBypass;
+        public object ShotQuality;
+        public object PositionCorrection;
+        public object OrientationCorrection;
+        public object BlendHint;
+        public object mCustom0;
+        public object mCustom1;
+        public object mCustom2;
+        public object mCustom3;
+        public object m_CustomOverflow;
+        public object _numCustomBlendables;
+
         // ── Methods ──
         public void get_HasLookAt(){} // RVA: 0x87C30
         public void get_CorrectedPosition(){} // RVA: 0x87C90
@@ -86,6 +136,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class Cinemachine3rdPersonAim : CinemachineExtension
     {
+        public object AimCollisionFilter;
+        public object IgnoreTag;
+        public object AimDistance;
+        public object AimTargetReticle;
+        public object _aimTarget;
+
         // ── Methods ──
         public void get_AimTarget(){} // RVA: 0xBA9CC0
         public void set_AimTarget(){} // RVA: 0xBA9CE0
@@ -101,6 +157,20 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class Cinemachine3rdPersonFollow : CinemachineComponentBase
     {
+        public object Damping;
+        public object ShoulderOffset;
+        public object VerticalArmLength;
+        public object CameraSide;
+        public object CameraDistance;
+        public object CameraCollisionFilter;
+        public object IgnoreTag;
+        public object CameraRadius;
+        public object DampingIntoCollision;
+        public object DampingFromCollision;
+        public object m_PreviousFollowTargetPosition;
+        public object m_DampingCorrection;
+        public object m_CamPosCollisionCorrection;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25A8DB0
         public void Reset(){} // RVA: 0x25A8E30
@@ -120,6 +190,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBasicMultiChannelPerlin : CinemachineComponentBase
     {
+        public object m_NoiseProfile;
+        public object m_PivotOffset;
+        public object m_AmplitudeGain;
+        public object m_FrequencyGain;
+        public object mInitialized;
+        public object mNoiseTime;
+        public object mNoiseOffsets;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x25AA890
         public void get_Stage(){} // RVA: 0xC50A80
@@ -131,6 +209,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlend : Object
     {
+        public object CamA;
+        public object CamB;
+        public object BlendCurve;
+        public object TimeInBlend;
+        public object Duration;
+
         // ── Methods ──
         public void get_BlendWeight(){} // RVA: 0x25C6050
         public void get_IsValid(){} // RVA: 0x25C6150
@@ -144,6 +228,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlendDefinition : ValueType
     {
+        public object m_Style;
+        public object m_Time;
+        public object m_CustomCurve;
+        public object sStandardCurves;
+
         // ── Methods ──
         public void get_BlendTime(){} // RVA: 0x88050
         public void .ctor(){} // RVA: 0x88060
@@ -159,6 +248,19 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlendListCamera : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Follow;
+        public object m_ShowDebugText;
+        public object m_Loop;
+        public object m_ChildCameras;
+        public object m_Instructions;
+        public object _liveChild;
+        public object m_TransitioningFrom;
+        public object m_State;
+        public object mActivationTime;
+        public object mCurrentInstruction;
+        public object mActiveBlend;
+
         // ── Methods ──
         public void get_Description(){} // RVA: 0x2578540
         public void Reset(){} // RVA: 0x2578680
@@ -189,6 +291,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBlenderSettings : ScriptableObject
     {
+        public object m_CustomBlends;
+        public object kBlendFromAnyCameraLabel;
+
         // ── Methods ──
         public void GetBlendForVirtualCameras(){} // RVA: 0x25C7A00
         public void .ctor(){} // RVA: 0xDD1AC0
@@ -196,6 +301,30 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineBrain : MonoBehaviour
     {
+        public object m_ShowDebugText;
+        public object m_ShowCameraFrustum;
+        public object m_IgnoreTimeScale;
+        public object m_WorldUpOverride;
+        public object m_UpdateMethod;
+        public object m_BlendUpdateMethod;
+        public object m_DefaultBlend;
+        public object m_CustomBlends;
+        public object m_OutputCamera;
+        public object m_TargetOverride;
+        public object m_CameraCutEvent;
+        public object m_CameraActivatedEvent;
+        public object mSoloCamera;
+        public object mPhysicsCoroutine;
+        public object m_LastFrameUpdated;
+        public object mWaitForFixedUpdate;
+        public object mFrameStack;
+        public object mNextFrameId;
+        public object mCurrentLiveCameras;
+        public object mDefaultLinearAnimationCurve;
+        public object mActiveCameraPreviousFrame;
+        public object mActiveCameraPreviousFrameGameObject;
+        public object _currentCameraState;
+
         // ── Methods ──
         public void get_OutputCamera(){} // RVA: 0x257AA60
         public void get_ControlledObject(){} // RVA: 0x257ABD0
@@ -260,6 +389,25 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineClearShot : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Follow;
+        public object m_ShowDebugText;
+        public object m_ChildCameras;
+        public object m_ActivateAfter;
+        public object m_MinDuration;
+        public object m_RandomizeChoice;
+        public object m_DefaultBlend;
+        public object m_CustomBlends;
+        public object _liveChild;
+        public object m_State;
+        public object mActivationTime;
+        public object mPendingActivationTime;
+        public object mPendingCamera;
+        public object mActiveBlend;
+        public object mRandomizeNow;
+        public object m_RandomizedChilden;
+        public object m_TransitioningFrom;
+
         // ── Methods ──
         public void get_Description(){} // RVA: 0x2580730
         public void get_LiveChild(){} // RVA: 0xBAE5A0
@@ -292,6 +440,25 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineCollider : CinemachineExtension
     {
+        public object m_CollideAgainst;
+        public object m_IgnoreTag;
+        public object m_TransparentLayers;
+        public object m_MinimumDistanceFromTarget;
+        public object m_AvoidObstacles;
+        public object m_DistanceLimit;
+        public object m_MinimumOcclusionTime;
+        public object m_CameraRadius;
+        public object m_Strategy;
+        public object m_MaximumEffort;
+        public object m_SmoothingTime;
+        public object m_Damping;
+        public object m_DampingWhenOccluded;
+        public object m_OptimalTargetDistance;
+        public object k_PrecisionSlush;
+        public object m_CornerBuffer;
+        public object k_AngleThreshold;
+        public object s_ColliderBuffer;
+
         // ── Methods ──
         public void IsTargetObscured(){} // RVA: 0x25836C0
         public void CameraWasDisplaced(){} // RVA: 0x2583720
@@ -317,6 +484,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineCollisionImpulseSource : CinemachineImpulseSource
     {
+        public object m_LayerMask;
+        public object m_IgnoreTag;
+        public object m_UseImpactDirection;
+        public object m_ScaleImpactWithMass;
+        public object m_ScaleImpactWithSpeed;
+        public object mRigidBody;
+        public object mRigidBody2D;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x25DD400
         public void OnEnable(){} // RVA: 0xB43310
@@ -333,6 +508,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineComponentBase : MonoBehaviour
     {
+        public object Epsilon;
+        public object m_vcamOwner;
+
         // ── Methods ──
         public void get_VirtualCamera(){} // RVA: 0x25C7D50
         public void get_FollowTarget(){} // RVA: 0x25C8070
@@ -381,6 +559,29 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineComposer : CinemachineComponentBase
     {
+        public object m_TrackedObjectOffset;
+        public object m_LookaheadTime;
+        public object m_LookaheadSmoothing;
+        public object m_LookaheadIgnoreY;
+        public object m_HorizontalDamping;
+        public object m_VerticalDamping;
+        public object m_ScreenX;
+        public object m_ScreenY;
+        public object m_DeadZoneWidth;
+        public object m_DeadZoneHeight;
+        public object m_SoftZoneWidth;
+        public object m_SoftZoneHeight;
+        public object m_BiasX;
+        public object m_BiasY;
+        public object m_CenterOnActivate;
+        public object _trackedPoint;
+        public object m_CameraPosPrevFrame;
+        public object m_LookAtPrevFrame;
+        public object m_ScreenOffsetPrevFrame;
+        public object m_CameraOrientationPrevFrame;
+        public object m_Predictor;
+        public object mCache;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x25AB910
         public void get_Stage(){} // RVA: 0xC3CCE0
@@ -403,6 +604,15 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineConfiner : CinemachineExtension
     {
+        public object m_ConfineMode;
+        public object m_BoundingVolume;
+        public object m_BoundingShape2D;
+        public object m_BoundingShape2DCache;
+        public object m_ConfineScreenEdges;
+        public object m_Damping;
+        public object m_pathCache;
+        public object m_pathTotalPointCount;
+
         // ── Methods ──
         public void CameraWasDisplaced(){} // RVA: 0x2589CE0
         public void GetCameraDisplacementDistance(){} // RVA: 0x2589D50
@@ -420,6 +630,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineConfiner2D : CinemachineExtension
     {
+        public object m_BoundingShape2D;
+        public object m_Damping;
+        public object m_MaxWindowSize;
+        public object m_Padding;
+        public object m_MaxComputationTimePerFrameInSeconds;
+        public object k_cornerAngleTreshold;
+        public object m_shapeCache;
+
         // ── Methods ──
         public void InvalidateCache(){} // RVA: 0x258BBE0
         public void ValidateCache(){} // RVA: 0x258BBF0
@@ -432,6 +650,27 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineCore : Object
     {
+        public object kStreamingVersion;
+        public object sInstance;
+        public object sShowHiddenObjects;
+        public object GetInputAxis;
+        public object UniformDeltaTimeOverride;
+        public object CurrentTimeOverride;
+        public object GetBlendOverride;
+        public object CameraUpdatedEvent;
+        public object CameraCutEvent;
+        public object mActiveBrains;
+        public object FrameDeltaCompensationEnabled;
+        public object mActiveCameras;
+        public object m_ActiveCamerasAreSorted;
+        public object m_ActivationSequence;
+        public object mAllCameras;
+        public object mRoundRobinVcamLastFrame;
+        public object s_LastUpdateTime;
+        public object s_FixedFrameCount;
+        public object mUpdateStatus;
+        public object m_CurrentUpdateFilter;
+
         // ── Methods ──
         public void get_Instance(){} // RVA: 0x25C91E0
         public void get_DeltaTime(){} // RVA: 0x25C9310
@@ -464,6 +703,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineDollyCart : MonoBehaviour
     {
+        public object m_Path;
+        public object m_UpdateMethod;
+        public object m_PositionUnits;
+        public object m_Speed;
+        public object m_Position;
+
         // ── Methods ──
         public void FixedUpdate(){} // RVA: 0x258D930
         public void Update(){} // RVA: 0x258D9C0
@@ -474,12 +719,18 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineEmbeddedAssetPropertyAttribute : PropertyAttribute
     {
+        public object WarnIfNull;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25CE550
     }
 
     public class CinemachineExtension : MonoBehaviour
     {
+        public object Epsilon;
+        public object m_vcamOwner;
+        public object mExtraState;
+
         // ── Methods ──
         public void get_VirtualCamera(){} // RVA: 0x25CC580
         public void Awake(){} // RVA: 0x25CC6C0
@@ -522,6 +773,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineExternalCamera : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Camera;
+        public object m_State;
+        public object _follow;
+        public object m_BlendHint;
+
         // ── Methods ──
         public void get_State(){} // RVA: 0x258DE20
         public void get_LookAt(){} // RVA: 0x12EB090
@@ -534,6 +791,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFixedSignal : SignalSourceAsset
     {
+        public object m_XCurve;
+        public object m_YCurve;
+        public object m_ZCurve;
+
         // ── Methods ──
         public void get_SignalDuration(){} // RVA: 0x25DE720
         public void AxisDuration(){} // RVA: 0x25DE780
@@ -544,6 +805,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFollowZoom : CinemachineExtension
     {
+        public object m_Width;
+        public object m_Damping;
+        public object m_MinFOV;
+        public object m_MaxFOV;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x258ECB0
         public void GetMaxDampTime(){} // RVA: 0xC120F0
@@ -553,6 +819,48 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFramingTransposer : CinemachineComponentBase
     {
+        public object m_TrackedObjectOffset;
+        public object m_LookaheadTime;
+        public object m_LookaheadSmoothing;
+        public object m_LookaheadIgnoreY;
+        public object m_XDamping;
+        public object m_YDamping;
+        public object m_ZDamping;
+        public object m_TargetMovementOnly;
+        public object m_ScreenX;
+        public object m_ScreenY;
+        public object m_CameraDistance;
+        public object m_DeadZoneWidth;
+        public object m_DeadZoneHeight;
+        public object m_DeadZoneDepth;
+        public object m_UnlimitedSoftZone;
+        public object m_SoftZoneWidth;
+        public object m_SoftZoneHeight;
+        public object m_BiasX;
+        public object m_BiasY;
+        public object m_CenterOnActivate;
+        public object m_GroupFramingMode;
+        public object m_AdjustmentMode;
+        public object m_GroupFramingSize;
+        public object m_MaxDollyIn;
+        public object m_MaxDollyOut;
+        public object m_MinimumDistance;
+        public object m_MaximumDistance;
+        public object m_MinimumFOV;
+        public object m_MaximumFOV;
+        public object m_MinimumOrthoSize;
+        public object m_MaximumOrthoSize;
+        public object kMinimumCameraDistance;
+        public object kMinimumGroupSize;
+        public object m_PreviousCameraPosition;
+        public object m_Predictor;
+        public object _trackedPoint;
+        public object m_InheritingPosition;
+        public object m_prevFOV;
+        public object m_prevRotation;
+        public object _lastBounds;
+        public object _lastBoundsMatrix;
+
         // ── Methods ──
         public void get_SoftGuideRect(){} // RVA: 0x25AE750
         public void set_SoftGuideRect(){} // RVA: 0x25AE7A0
@@ -583,6 +891,38 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineFreeLook : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Follow;
+        public object m_CommonLens;
+        public object m_Lens;
+        public object m_Transitions;
+        public object m_LegacyBlendHint;
+        public object m_YAxis;
+        public object m_YAxisRecentering;
+        public object m_XAxis;
+        public object m_Heading;
+        public object m_RecenterToTargetHeading;
+        public object m_BindingMode;
+        public object m_SplineCurvature;
+        public object m_Orbits;
+        public object m_LegacyHeadingBias;
+        public object mUseLegacyRigDefinitions;
+        public object mIsDestroyed;
+        public object m_State;
+        public object m_Rigs;
+        public object mOrbitals;
+        public object mBlendA;
+        public object mBlendB;
+        public object CreateRigOverride;
+        public object DestroyRigOverride;
+        public object m_CachedXAxisHeading;
+        public object m_LastHeadingUpdateFrame;
+        public object m_CachedOrbits;
+        public object m_CachedTension;
+        public object m_CachedKnots;
+        public object m_CachedCtrl1;
+        public object m_CachedCtrl2;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x258F160
         public void GetRig(){} // RVA: 0x258F440
@@ -629,6 +969,23 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineGroupComposer : CinemachineComposer
     {
+        public object m_GroupFramingSize;
+        public object m_FramingMode;
+        public object m_FrameDamping;
+        public object m_AdjustmentMode;
+        public object m_MaxDollyIn;
+        public object m_MaxDollyOut;
+        public object m_MinimumDistance;
+        public object m_MaximumDistance;
+        public object m_MinimumFOV;
+        public object m_MaximumFOV;
+        public object m_MinimumOrthoSize;
+        public object m_MaximumOrthoSize;
+        public object m_prevFramingDistance;
+        public object m_prevFOV;
+        public object _lastBounds;
+        public object _lastBoundsMatrix;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25B2200
         public void get_LastBounds(){} // RVA: 0x25B22D0
@@ -644,6 +1001,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineHardLockToTarget : CinemachineComponentBase
     {
+        public object m_Damping;
+        public object m_PreviousTargetPosition;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x25B3D30
         public void get_Stage(){} // RVA: 0xDAC980
@@ -669,6 +1029,25 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseDefinition : Object
     {
+        public object m_ImpulseChannel;
+        public object m_ImpulseShape;
+        public object m_CustomImpulseShape;
+        public object m_ImpulseDuration;
+        public object m_ImpulseType;
+        public object m_DissipationRate;
+        public object m_RawSignal;
+        public object m_AmplitudeGain;
+        public object m_FrequencyGain;
+        public object m_RepeatMode;
+        public object m_Randomize;
+        public object m_TimeEnvelope;
+        public object m_ImpactRadius;
+        public object m_DirectionMode;
+        public object m_DissipationMode;
+        public object m_DissipationDistance;
+        public object m_PropagationSpeed;
+        public object sStandardShapes;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25DEB30
         public void CreateStandardShapes(){} // RVA: 0x25DEC20
@@ -694,6 +1073,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseListener : CinemachineExtension
     {
+        public object m_ApplyAfter;
+        public object m_ChannelMask;
+        public object m_Gain;
+        public object m_Use2DDistance;
+        public object m_UseCameraSpace;
+        public object m_ReactionSettings;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x25E08C0
         public void PostPipelineStageCallback(){} // RVA: 0x25E0980
@@ -702,6 +1088,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseManager : Object
     {
+        public object sInstance;
+        public object Epsilon;
+        public object m_ExpiredEvents;
+        public object m_ActiveEvents;
+        public object IgnoreTimeScale;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void get_Instance(){} // RVA: 0x25E1670
@@ -716,6 +1108,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineImpulseSource : MonoBehaviour
     {
+        public object m_ImpulseDefinition;
+        public object m_DefaultVelocity;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25E2FE0
         public void Reset(){} // RVA: 0x25E30F0
@@ -729,6 +1124,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineIndependentImpulseListener : MonoBehaviour
     {
+        public object impulsePosLastFrame;
+        public object impulseRotLastFrame;
+        public object m_ChannelMask;
+        public object m_Gain;
+        public object m_Use2DDistance;
+        public object m_UseLocalSpace;
+        public object m_ReactionSettings;
+
         // ── Methods ──
         public void Reset(){} // RVA: 0x25E36D0
         public void OnEnable(){} // RVA: 0x25E3780
@@ -739,6 +1142,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineInputAxisDriver : ValueType
     {
+        public object multiplier;
+        public object accelTime;
+        public object decelTime;
+        public object name;
+        public object inputValue;
+        public object mCurrentSpeed;
+        public object Epsilon;
+
         // ── Methods ──
         public void Validate(){} // RVA: 0x87A80
         public void Update(){} // RVA: 0x88BC0
@@ -747,6 +1158,13 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineInputProvider : MonoBehaviour
     {
+        public object PlayerIndex;
+        public object AutoEnableInputs;
+        public object XYAxis;
+        public object ZAxis;
+        public object NUM_AXES;
+        public object m_cachedActions;
+
         // ── Methods ──
         public void GetAxisValue(){} // RVA: 0x25DACA0
         public void ResolveForPlayer(){} // RVA: 0x25DAE30
@@ -757,6 +1175,22 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineMixingCamera : CinemachineVirtualCameraBase
     {
+        public object MaxCameras;
+        public object m_Weight0;
+        public object m_Weight1;
+        public object m_Weight2;
+        public object m_Weight3;
+        public object m_Weight4;
+        public object m_Weight5;
+        public object m_Weight6;
+        public object m_Weight7;
+        public object m_State;
+        public object _liveChild;
+        public object _lookAt;
+        public object _follow;
+        public object m_ChildCameras;
+        public object m_indexMap;
+
         // ── Methods ──
         public void GetWeight(){} // RVA: 0x25961F0
         public void SetWeight(){} // RVA: 0x2596530
@@ -783,6 +1217,21 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineOrbitalTransposer : CinemachineTransposer
     {
+        public object m_Heading;
+        public object m_RecenterToTargetHeading;
+        public object m_XAxis;
+        public object m_LegacyRadius;
+        public object m_LegacyHeightOffset;
+        public object m_LegacyHeadingBias;
+        public object m_HeadingIsSlave;
+        public object HeadingUpdater;
+        public object m_LastTargetPosition;
+        public object mHeadingTracker;
+        public object m_TargetRigidBody;
+        public object m_PreviousTarget;
+        public object m_LastCameraPosition;
+        public object m_LastHeading;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25B45C0
         public void UpdateHeading(){} // RVA: 0x25B47F0
@@ -821,6 +1270,14 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachinePOV : CinemachineComponentBase
     {
+        public object m_RecenterTarget;
+        public object m_VerticalAxis;
+        public object m_VerticalRecentering;
+        public object m_HorizontalAxis;
+        public object m_HorizontalRecentering;
+        public object m_ApplyBeforeBody;
+        public object m_PreviousCameraRotation;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0xBA9AB0
         public void get_Stage(){} // RVA: 0xC3CCE0
@@ -840,6 +1297,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachinePath : CinemachinePathBase
     {
+        public object m_Looped;
+        public object m_Waypoints;
+
         // ── Methods ──
         public void get_MinPos(){} // RVA: 0x13CD2E0
         public void get_MaxPos(){} // RVA: 0x2597DF0
@@ -858,6 +1318,15 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachinePathBase : MonoBehaviour
     {
+        public object m_Resolution;
+        public object m_Appearance;
+        public object m_DistanceToPos;
+        public object m_PosToDistance;
+        public object m_CachedSampleSteps;
+        public object m_PathLength;
+        public object m_cachedPosStepSize;
+        public object m_cachedDistanceStepSize;
+
         // ── Methods ──
         public void get_MinPos(){} // RVA: 0x890F90
         public void get_MaxPos(){} // RVA: 0x890F90
@@ -901,6 +1370,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineSameAsFollowTarget : CinemachineComponentBase
     {
+        public object m_Damping;
+        public object m_PreviousReferenceOrientation;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x25BA0B0
         public void get_Stage(){} // RVA: 0xC3CCE0
@@ -911,6 +1383,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineSmoothPath : CinemachinePathBase
     {
+        public object m_Looped;
+        public object m_Waypoints;
+        public object m_ControlPoints1;
+        public object m_ControlPoints2;
+        public object m_IsLoopedCache;
+
         // ── Methods ──
         public void get_MinPos(){} // RVA: 0x13CD2E0
         public void get_MaxPos(){} // RVA: 0x2597DF0
@@ -930,6 +1408,29 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineStateDrivenCamera : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Follow;
+        public object m_AnimatedTarget;
+        public object m_LayerIndex;
+        public object m_ShowDebugText;
+        public object m_ChildCameras;
+        public object m_Instructions;
+        public object m_DefaultBlend;
+        public object m_CustomBlends;
+        public object m_ParentHash;
+        public object _liveChild;
+        public object m_TransitioningFrom;
+        public object m_State;
+        public object mHashCache;
+        public object mActivationTime;
+        public object mActiveInstruction;
+        public object mPendingActivationTime;
+        public object mPendingInstruction;
+        public object mActiveBlend;
+        public object mInstructionDictionary;
+        public object mStateParentLookup;
+        public object m_clipInfoList;
+
         // ── Methods ──
         public void get_Description(){} // RVA: 0x259A190
         public void get_LiveChild(){} // RVA: 0x135A7B0
@@ -964,6 +1465,22 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineStoryboard : CinemachineExtension
     {
+        public object s_StoryboardGlobalMute;
+        public object m_ShowImage;
+        public object m_Image;
+        public object m_Aspect;
+        public object m_Alpha;
+        public object m_Center;
+        public object m_Rotation;
+        public object m_Scale;
+        public object m_SyncScale;
+        public object m_MuteCamera;
+        public object m_SplitView;
+        public object m_RenderMode;
+        public object m_SortingOrder;
+        public object m_PlaneDistance;
+        public object mCanvasInfo;
+
         // ── Methods ──
         public void PostPipelineStageCallback(){} // RVA: 0x259D500
         public void UpdateRenderCanvas(){} // RVA: 0x259D720
@@ -981,6 +1498,19 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTargetGroup : MonoBehaviour
     {
+        public object m_PositionMode;
+        public object m_RotationMode;
+        public object m_UpdateMethod;
+        public object m_Targets;
+        public object m_MaxWeight;
+        public object m_WeightSum;
+        public object m_AveragePos;
+        public object m_BoundingBox;
+        public object m_BoundingSphere;
+        public object m_LastUpdateFrame;
+        public object m_ValidMembers;
+        public object m_MemberValidity;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25A0960
         public void Reset(){} // RVA: 0x25A09F0
@@ -1013,6 +1543,22 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTrackedDolly : CinemachineComponentBase
     {
+        public object m_Path;
+        public object m_PathPosition;
+        public object m_PositionUnits;
+        public object m_PathOffset;
+        public object m_XDamping;
+        public object m_YDamping;
+        public object m_ZDamping;
+        public object m_CameraUp;
+        public object m_PitchDamping;
+        public object m_YawDamping;
+        public object m_RollDamping;
+        public object m_AutoDolly;
+        public object m_PreviousPathPosition;
+        public object m_PreviousOrientation;
+        public object m_PreviousCameraPosition;
+
         // ── Methods ──
         public void get_IsValid(){} // RVA: 0x25BA5E0
         public void get_Stage(){} // RVA: 0xDAC980
@@ -1025,6 +1571,23 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTransposer : CinemachineComponentBase
     {
+        public object m_BindingMode;
+        public object m_FollowOffset;
+        public object m_XDamping;
+        public object m_YDamping;
+        public object m_ZDamping;
+        public object m_AngularDampingMode;
+        public object m_PitchDamping;
+        public object m_YawDamping;
+        public object m_RollDamping;
+        public object m_AngularDamping;
+        public object _hideOffsetInInspector;
+        public object m_PreviousTargetPosition;
+        public object m_PreviousReferenceOrientation;
+        public object m_targetOrientationOnAssign;
+        public object m_PreviousOffset;
+        public object m_previousTarget;
+
         // ── Methods ──
         public void OnValidate(){} // RVA: 0x25BC350
         public void get_HideOffsetInInspector(){} // RVA: 0xE3F480
@@ -1048,6 +1611,15 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineTriggerAction : MonoBehaviour
     {
+        public object m_LayerMask;
+        public object m_WithTag;
+        public object m_WithoutTag;
+        public object m_SkipFirst;
+        public object m_Repeating;
+        public object m_OnObjectEnter;
+        public object m_OnObjectExit;
+        public object m_ActiveTriggerObjects;
+
         // ── Methods ──
         public void Filter(){} // RVA: 0x25DBC00
         public void InternalDoTriggerEnter(){} // RVA: 0x25DBD30
@@ -1066,6 +1638,20 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineVirtualCamera : CinemachineVirtualCameraBase
     {
+        public object m_LookAt;
+        public object m_Follow;
+        public object m_Lens;
+        public object m_Transitions;
+        public object m_LegacyBlendHint;
+        public object PipelineName;
+        public object CreatePipelineOverride;
+        public object DestroyPipelineOverride;
+        public object m_State;
+        public object m_ComponentPipeline;
+        public object m_ComponentOwner;
+        public object mCachedLookAtTarget;
+        public object mCachedLookAtTargetVcam;
+
         // ── Methods ──
         public void get_State(){} // RVA: 0x259A300
         public void get_LookAt(){} // RVA: 0x25788C0
@@ -1101,6 +1687,32 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class CinemachineVirtualCameraBase : MonoBehaviour
     {
+        public object m_ExcludedPropertiesInInspector;
+        public object m_LockStageInInspector;
+        public object m_ValidatingStreamVersion;
+        public object m_OnValidateCalled;
+        public object m_StreamingVersion;
+        public object m_Priority;
+        public object m_ActivationId;
+        public object FollowTargetAttachment;
+        public object LookAtTargetAttachment;
+        public object m_StandbyUpdate;
+        public object _mExtensions;
+        public object _previousStateIsValid;
+        public object m_WasStarted;
+        public object mSlaveStatusUpdated;
+        public object m_parentVcam;
+        public object m_QueuePriority;
+        public object m_blendStartPosition;
+        public object m_CachedFollowTarget;
+        public object m_CachedFollowTargetVcam;
+        public object m_CachedFollowTargetGroup;
+        public object m_CachedLookAtTarget;
+        public object m_CachedLookAtTargetVcam;
+        public object m_CachedLookAtTargetGroup;
+        public object _followTargetChanged;
+        public object _lookAtTargetChanged;
+
         // ── Methods ──
         public void get_ValidatingStreamVersion(){} // RVA: 0x25CE560
         public void set_ValidatingStreamVersion(){} // RVA: 0xB9E090
@@ -1213,6 +1825,21 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class ConfinerOven : Object
     {
+        public object m_MinFrustumHeightWithBones;
+        public object m_SkeletonPadding;
+        public object m_OriginalPolygon;
+        public object m_MidPoint;
+        public object m_Skeleton;
+        public object k_FloatToIntScaler;
+        public object k_IntToFloatScaler;
+        public object k_MinStepSize;
+        public object m_PolygonRect;
+        public object m_AspectStretcher;
+        public object m_MaxComputationTimeForFullSkeletonBakeInSeconds;
+        public object _state;
+        public object bakeProgress;
+        public object m_Cache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25D22C0
         public void GetBakedSolution(){} // RVA: 0x25D23F0
@@ -1227,6 +1854,8 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class DocumentationSortingAttribute : Attribute
     {
+        public object _category;
+
         // ── Methods ──
         public void get_Category(){} // RVA: 0xB8F8F0
         public void set_Category(){} // RVA: 0xB460A0
@@ -1235,6 +1864,16 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class GroupWeightManipulator : MonoBehaviour
     {
+        public object m_Weight0;
+        public object m_Weight1;
+        public object m_Weight2;
+        public object m_Weight3;
+        public object m_Weight4;
+        public object m_Weight5;
+        public object m_Weight6;
+        public object m_Weight7;
+        public object m_group;
+
         // ── Methods ──
         public void Start(){} // RVA: 0x25DCFC0
         public void OnValidate(){} // RVA: 0x25DD050
@@ -1293,6 +1932,20 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class LensSettings : ValueType
     {
+        public object Default;
+        public object FieldOfView;
+        public object OrthographicSize;
+        public object NearClipPlane;
+        public object FarClipPlane;
+        public object Dutch;
+        public object ModeOverride;
+        public object LensShift;
+        public object GateFit;
+        public object FocusDistance;
+        public object m_SensorSize;
+        public object m_OrthoFromCamera;
+        public object m_PhysicalFromCamera;
+
         // ── Methods ──
         public void get_Orthographic(){} // RVA: 0x89010
         public void set_Orthographic(){} // RVA: 0x89030
@@ -1323,6 +1976,9 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class NoiseSettings : SignalSourceAsset
     {
+        public object PositionNoise;
+        public object OrientationNoise;
+
         // ── Methods ──
         public void GetCombinedFilterResults(){} // RVA: 0x25D59B0
         public void get_SignalDuration(){} // RVA: 0x13CD2E0
@@ -1338,6 +1994,12 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class NotNullAttribute : Object
     {
+        public object _name;
+        public object _priority;
+        public object _lookAt;
+        public object _follow;
+        public object _state;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x25C73F0
         public void SetState(){} // RVA: 0x25C74F0
@@ -1370,6 +2032,11 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class RuntimeUtility : Object
     {
+        public object s_HitBuffer;
+        public object s_PenetrationIndexBuffer;
+        public object s_ScratchCollider;
+        public object s_ScratchColliderGameObject;
+
         // ── Methods ──
         public void DestroyObject(){} // RVA: 0x25D5F20
         public void IsPrefab(){} // RVA: 0xB43320
@@ -1403,6 +2070,16 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class TargetPositionCache : Object
     {
+        public object UseCache;
+        public object CacheStepSize;
+        public object m_CacheMode;
+        public object CurrentTime;
+        public object CurrentFrame;
+        public object IsCameraCut;
+        public object m_Cache;
+        public object m_CacheTimeRange;
+        public object kWraparoundSlush;
+
         // ── Methods ──
         public void get_CacheMode(){} // RVA: 0x25D7B20
         public void set_CacheMode(){} // RVA: 0x25D7B60
@@ -1420,6 +2097,10 @@ namespace ThirdParty.Cinemachine.Cinemachine
 
     public class UpdateTracker : Object
     {
+        public object mUpdateStatus;
+        public object sToDelete;
+        public object mLastUpdateTime;
+
         // ── Methods ──
         public void InitializeModule(){} // RVA: 0x25D9F60
         public void UpdateTargets(){} // RVA: 0x25D9FE0

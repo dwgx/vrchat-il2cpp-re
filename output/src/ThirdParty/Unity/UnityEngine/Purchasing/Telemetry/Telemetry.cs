@@ -46,12 +46,17 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryDiagnosticParams : ValueType
     {
+        public object name;
+        public object exception;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x76310
     }
 
     public class TelemetryDiagnostics : Object
     {
+        public object m_TelemetryDiagnosticsInstanceWrapper;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void SendDiagnostic(){} // RVA: 0x7D6D380
@@ -59,6 +64,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryDiagnosticsInstanceWrapper : Object
     {
+        public object m_Instance;
+        public object m_Logger;
+        public object m_Util;
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D6D4A0
         public void SetDiagnosticsInstance(){} // RVA: 0x7D6D760
@@ -69,6 +79,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryMetricDefinition : ValueType
     {
+        public object _metricType;
+        public object _metricName;
+
         // ── Methods ──
         public void get_MetricType(){} // RVA: 0x77E60
         public void get_MetricName(){} // RVA: 0x77ED0
@@ -78,12 +91,33 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryMetricDefinitions : Object
     {
+        public object confirmSubscriptionPriceChangeName;
+        public object continuePromotionalPurchasesName;
+        public object dequeueQueryProductsTimeName;
+        public object dequeueQueryPurchasesTimeName;
+        public object fetchStorePromotionOrderName;
+        public object fetchStorePromotionVisibilityName;
+        public object initPurchaseName;
+        public object packageInitTimeName;
+        public object presentCodeRedemptionSheetName;
+        public object refreshAppReceiptName;
+        public object restoreTransactionName;
+        public object retrieveProductsName;
+        public object setStorePromotionOrderName;
+        public object setStorePromotionVisibilityName;
+        public object upgradeDowngradeSubscriptionName;
+
         // ── Methods ──
         public void .cctor(){} // RVA: 0x7D6DFB0
     }
 
     public class TelemetryMetricEvent : Object
     {
+        public object m_TelemetryMetricsInstanceWrapper;
+        public object m_MetricType;
+        public object m_MetricName;
+        public object m_Stopwatch;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D6EE00
         public void StartMetric(){} // RVA: 0x7D6EF60
@@ -92,12 +126,21 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryMetricParams : ValueType
     {
+        public object type;
+        public object name;
+        public object timeSeconds;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x989FE0
     }
 
     public class TelemetryMetricsInstanceWrapper : Object
     {
+        public object m_Instance;
+        public object m_Logger;
+        public object m_Util;
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D6F2D0
         public void SetMetricsInstance(){} // RVA: 0x7D6F590
@@ -109,6 +152,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryMetricsService : Object
     {
+        public object m_TelemetryMetricsInstanceWrapper;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void ExecuteTimedAction(){} // RVA: 0x7D6FE40
@@ -117,6 +162,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Telemetry
 
     public class TelemetryQueue`1 : Object
     {
+        public object m_SendTelemetryEvent;
+        public object m_Queue;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x894320
         public void QueueEvent(){} // RVA: 0xA94080

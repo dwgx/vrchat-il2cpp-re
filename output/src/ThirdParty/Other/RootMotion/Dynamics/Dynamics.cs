@@ -14,6 +14,37 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourBase : MonoBehaviour
     {
+        public object puppetMaster;
+        public object OnPreActivate;
+        public object OnPreInitiate;
+        public object OnPreFixedUpdate;
+        public object OnPreUpdate;
+        public object OnPreLateUpdate;
+        public object OnPreDeactivate;
+        public object OnPreFixTransforms;
+        public object OnPreRead;
+        public object OnPreWrite;
+        public object OnPreMuscleHit;
+        public object OnPreMuscleCollision;
+        public object OnPreMuscleCollisionExit;
+        public object OnHierarchyChanged;
+        public object OnPostActivate;
+        public object OnPostInitiate;
+        public object OnPostFixedUpdate;
+        public object OnPostUpdate;
+        public object OnPostLateUpdate;
+        public object OnPostDeactivate;
+        public object OnPostDrawGizmos;
+        public object OnPostFixTransforms;
+        public object OnPostRead;
+        public object OnPostWrite;
+        public object OnPostMuscleHit;
+        public object OnPostMuscleCollision;
+        public object OnPostMuscleCollisionExit;
+        public object deactivated;
+        public object _forceActive;
+        public object initiated;
+
         // ── Methods ──
         public void OnReactivate(){} // RVA: 0x894290
         public void Resurrect(){} // RVA: 0xB43310
@@ -85,6 +116,23 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourFall : BehaviourBase
     {
+        public object stateName;
+        public object transitionDuration;
+        public object layer;
+        public object fixedTime;
+        public object raycastLayers;
+        public object blendParameter;
+        public object writheHeight;
+        public object writheYVelocity;
+        public object blendSpeed;
+        public object blendMappingSpeed;
+        public object canEnd;
+        public object minTime;
+        public object maxEndVelocity;
+        public object onEnd;
+        public object timer;
+        public object endTriggered;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -103,6 +151,62 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourPuppet : BehaviourBase
     {
+        public object masterProps;
+        public object groundLayers;
+        public object collisionLayers;
+        public object collisionThreshold;
+        public object collisionResistance;
+        public object collisionResistanceMultipliers;
+        public object maxCollisions;
+        public object regainPinSpeed;
+        public object boostFalloff;
+        public object defaults;
+        public object groupOverrides;
+        public object knockOutDistance;
+        public object unpinnedMuscleWeightMlp;
+        public object maxRigidbodyVelocity;
+        public object pinWeightThreshold;
+        public object unpinnedMuscleKnockout;
+        public object dropProps;
+        public object canGetUp;
+        public object getUpDelay;
+        public object blendToAnimationTime;
+        public object maxGetUpVelocity;
+        public object minGetUpDuration;
+        public object getUpCollisionResistanceMlp;
+        public object getUpRegainPinSpeedMlp;
+        public object getUpKnockOutDistanceMlp;
+        public object getUpOffsetProne;
+        public object getUpOffsetSupine;
+        public object onGetUpProne;
+        public object onGetUpSupine;
+        public object onLoseBalance;
+        public object onLoseBalanceFromPuppet;
+        public object onLoseBalanceFromGetUp;
+        public object onRegainBalance;
+        public object OnCollision;
+        public object OnCollisionImpulse;
+        public object _state;
+        public object canMoveTarget;
+        public object unpinnedTimer;
+        public object getUpTimer;
+        public object hipsForward;
+        public object hipsUp;
+        public object getupAnimationBlendWeight;
+        public object getupAnimationBlendWeightV;
+        public object getUpTargetFixed;
+        public object lastNormalMode;
+        public object collisions;
+        public object eventsEnabled;
+        public object lastKnockOutDistance;
+        public object knockOutDistanceSqr;
+        public object getupDisabled;
+        public object hasCollidedSinceGetUp;
+        public object hasBoosted;
+        public object broadcaster;
+        public object getUpPosition;
+        public object dropPropFlag;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -151,6 +255,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BehaviourTemplate : BehaviourBase
     {
+        public object centerOfMass;
+        public object groundLayers;
+        public object onLoseBalance;
+        public object loseBalanceAngle;
+
         // ── Methods ──
         public void OnInitiate(){} // RVA: 0xBA9A30
         public void OnActivate(){} // RVA: 0xB43310
@@ -165,6 +274,10 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BipedRagdollCreator : RagdollCreator
     {
+        public object canBuild;
+        public object references;
+        public object options;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -187,6 +300,24 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class BipedRagdollReferences : ValueType
     {
+        public object root;
+        public object hips;
+        public object spine;
+        public object chest;
+        public object head;
+        public object leftUpperLeg;
+        public object leftLowerLeg;
+        public object leftFoot;
+        public object rightUpperLeg;
+        public object rightLowerLeg;
+        public object rightFoot;
+        public object leftUpperArm;
+        public object leftLowerArm;
+        public object leftHand;
+        public object rightUpperArm;
+        public object rightLowerArm;
+        public object rightHand;
+
         // ── Methods ──
         public void IsValid(){} // RVA: 0x4E60
         public void IsChildRecursive(){} // RVA: 0x4E70
@@ -199,6 +330,15 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Booster : Object
     {
+        public object fullBody;
+        public object muscles;
+        public object groups;
+        public object immunity;
+        public object impulseMlp;
+        public object boostParents;
+        public object boostChildren;
+        public object delay;
+
         // ── Methods ──
         public void Boost(){} // RVA: 0xBADCE0
         public void .ctor(){} // RVA: 0xBAE120
@@ -206,6 +346,9 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class JointBreakBroadcaster : MonoBehaviour
     {
+        public object puppetMaster;
+        public object muscleIndex;
+
         // ── Methods ──
         public void OnJointBreak(){} // RVA: 0xBAE240
         public void .ctor(){} // RVA: 0xB43D60
@@ -229,6 +372,83 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Muscle : Object
     {
+        public object name;
+        public object joint;
+        public object target;
+        public object props;
+        public object state;
+        public object parentIndexes;
+        public object childIndexes;
+        public object childFlags;
+        public object kinshipDegrees;
+        public object broadcaster;
+        public object jointBreakBroadcaster;
+        public object positionOffset;
+        public object _transform;
+        public object _rigidbody;
+        public object _connectedBodyTarget;
+        public object _targetAnimatedPosition;
+        public object _targetAnimatedWorldRotation;
+        public object _targetVelocity;
+        public object _additionalRigidbody;
+        public object additionalPin;
+        public object additionalPinTarget;
+        public object additionalPinWeight;
+        public object mappedVelocity;
+        public object mappedAngularVelocity;
+        public object isPropMuscle;
+        public object index;
+        public object _targetRotationRelative;
+        public object _rebuildConnectedBody;
+        public object _rebuildTargetParent;
+        public object _defaultTargetPosRelToMuscle;
+        public object _defaultTargetRotRelToMuscle;
+        public object _defaultMuscleRotRelToTarget;
+        public object rebuildParent;
+        public object rebuildPosition;
+        public object rebuildRotation;
+        public object rebuildTargetPosition;
+        public object rebuildTargetRotation;
+        public object rebuildAngularXMotion;
+        public object rebuildAngularYMotion;
+        public object rebuildAngularZMotion;
+        public object targetMappedPosition;
+        public object targetMappedRotation;
+        public object targetSampledPosition;
+        public object targetSampledRotation;
+        public object slerpDrive;
+        public object lastJointDriveRotationWeight;
+        public object lastRotationDamper;
+        public object defaultPosition;
+        public object defaultTargetLocalPosition;
+        public object lastMappedPosition;
+        public object defaultLocalRotation;
+        public object localRotationConvert;
+        public object toParentSpace;
+        public object toJointSpaceInverse;
+        public object toJointSpaceDefault;
+        public object targetAnimatedRotation;
+        public object defaultRotation;
+        public object rotationRelativeToTarget;
+        public object defaultTargetLocalRotation;
+        public object lastMappedRotation;
+        public object targetParent;
+        public object connectedBodyTransform;
+        public object angularXMotionDefault;
+        public object angularYMotionDefault;
+        public object angularZMotionDefault;
+        public object directTargetParent;
+        public object initiated;
+        public object _colliders;
+        public object lastReadTime;
+        public object lastWriteTime;
+        public object disabledColliders;
+        public object targetChildren;
+        public object additionalTargetVelocity;
+        public object targetAnimatedCenterOfMass;
+        public object additionalPinTargetAnimatedCenterOfMass;
+        public object defaultTargetRotRelToMuscleInverse;
+
         // ── Methods ──
         public void get_transform(){} // RVA: 0xBAE340
         public void set_transform(){} // RVA: 0xBAE350
@@ -299,12 +519,23 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class MuscleCollision : ValueType
     {
+        public object muscleIndex;
+        public object collision;
+        public object isStay;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4AA0
     }
 
     public class MuscleCollisionBroadcaster : MonoBehaviour
     {
+        public object puppetMaster;
+        public object muscleIndex;
+        public object onMuscleHit;
+        public object onMuscleCollision;
+        public object onMuscleCollisionExit;
+        public object otherBroadcaster;
+
         // ── Methods ──
         public void Hit(){} // RVA: 0xBBAC40
         public void OnCollisionEnter(){} // RVA: 0xBBAF20
@@ -335,6 +566,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class MuscleHit : ValueType
     {
+        public object muscleIndex;
+        public object unPin;
+        public object force;
+        public object position;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4B00
     }
@@ -379,6 +615,16 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PressureSensor : MonoBehaviour
     {
+        public object visualize;
+        public object layers;
+        public object _center;
+        public object _inContact;
+        public object _bottom;
+        public object _r;
+        public object fixedFrame;
+        public object P;
+        public object count;
+
         // ── Methods ──
         public void get_center(){} // RVA: 0xBBF8C0
         public void set_center(){} // RVA: 0xBBF8E0
@@ -401,6 +647,25 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Prop : MonoBehaviour
     {
+        public object propType;
+        public object muscle;
+        public object muscleProps;
+        public object forceLayers;
+        public object additionalPin;
+        public object additionalPinTarget;
+        public object additionalPinWeight;
+        public object pickedUpMaterial;
+        public object droppedMaterial;
+        public object _propRoot;
+        public object _initiated;
+        public object xMotion;
+        public object yMotion;
+        public object zMotion;
+        public object angularXMotion;
+        public object angularYMotion;
+        public object angularZMotion;
+        public object colliders;
+
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0xBBFEC0
         public void get_propRoot(){} // RVA: 0xBBFF90
@@ -422,6 +687,17 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PropMuscle : MonoBehaviour
     {
+        public object puppetMaster;
+        public object currentProp;
+        public object additionalPinOffset;
+        public object _activeProp;
+        public object OnPickUpProp;
+        public object OnDropProp;
+        public object _muscle;
+        public object lastProp;
+        public object targetDefaultLocalPos;
+        public object lastAdditionalPinOffset;
+
         // ── Methods ──
         public void get_muscle(){} // RVA: 0xBC1A40
         public void get_activeProp(){} // RVA: 0xBC1B30
@@ -457,6 +733,12 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PropRoot : MonoBehaviour
     {
+        public object puppetMaster;
+        public object connectTo;
+        public object currentProp;
+        public object lastProp;
+        public object fixedUpdateCalled;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -479,6 +761,91 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMaster : MonoBehaviour
     {
+        public object humanoidConfig;
+        public object targetRoot;
+        public object state;
+        public object stateSettings;
+        public object mode;
+        public object blendTime;
+        public object fixTargetTransforms;
+        public object solverIterationCount;
+        public object visualizeTargetPose;
+        public object mappingWeight;
+        public object pinWeight;
+        public object muscleWeight;
+        public object muscleSpring;
+        public object muscleDamper;
+        public object pinPow;
+        public object pinDistanceFalloff;
+        public object angularPinning;
+        public object updateJointAnchors;
+        public object supportTranslationAnimation;
+        public object angularLimits;
+        public object internalCollisions;
+        public object muscles;
+        public object propMuscles;
+        public object OnPostInitiate;
+        public object OnRead;
+        public object OnWrite;
+        public object OnPostLateUpdate;
+        public object OnFixTransforms;
+        public object OnHierarchyChanged;
+        public object OnMuscleRemoved;
+        public object OnMuscleDisconnected;
+        public object OnMuscleReconnected;
+        public object _targetAnimator;
+        public object _targetAnimation;
+        public object _behaviours;
+        public object _initiated;
+        public object solvers;
+        public object manualInternalCollisionControl;
+        public object manualAngularLimitControl;
+        public object mapDisconnectedMuscles;
+        public object internalCollisionsEnabled;
+        public object angularLimitsEnabled;
+        public object fixedFrame;
+        public object lastSolverIterationCount;
+        public object isLegacy;
+        public object animatorDisabled;
+        public object awakeFailed;
+        public object interpolated;
+        public object freezeFlag;
+        public object hasBeenDisabled;
+        public object hierarchyIsFlat;
+        public object teleport;
+        public object teleportPosition;
+        public object teleportRotation;
+        public object teleportMoveToTarget;
+        public object rebuildFlag;
+        public object onPostRebuildFlag;
+        public object disconnectMuscleFlags;
+        public object muscleDisconnectModes;
+        public object disconnectDeactivateFlags;
+        public object reconnectMuscleFlags;
+        public object defaultMuscles;
+        public object rebuildPelvisPos;
+        public object rebuildPelvisRot;
+        public object readInFixedUpdate;
+        public object _isSwitchingMode;
+        public object activeMode;
+        public object lastMode;
+        public object mappingBlend;
+        public object _isKilling;
+        public object OnFreeze;
+        public object OnUnfreeze;
+        public object OnDeath;
+        public object OnResurrection;
+        public object activeState;
+        public object lastState;
+        public object angularLimitsEnabledOnKill;
+        public object internalCollisionsEnabledOnKill;
+        public object animationDisabledbyStates;
+        public object storeTargetMappedState;
+        public object targetMappedStateStored;
+        public object targetMappedStateSampled;
+        public object sampleTargetMappedState;
+        public object hasProp;
+
         // ── Methods ──
         public void OpenUserManualSetup(){} // RVA: 0xB43310
         public void OpenUserManualComponent(){} // RVA: 0xB43310
@@ -622,6 +989,27 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterHumanoidConfig : ScriptableObject
     {
+        public object state;
+        public object stateSettings;
+        public object mode;
+        public object blendTime;
+        public object fixTargetTransforms;
+        public object solverIterationCount;
+        public object visualizeTargetPose;
+        public object mappingWeight;
+        public object pinWeight;
+        public object muscleWeight;
+        public object muscleSpring;
+        public object muscleDamper;
+        public object pinPow;
+        public object pinDistanceFalloff;
+        public object angularPinning;
+        public object updateJointAnchors;
+        public object supportTranslationAnimation;
+        public object angularLimits;
+        public object internalCollisions;
+        public object muscles;
+
         // ── Methods ──
         public void ApplyTo(){} // RVA: 0xBE23A0
         public void GetMuscle(){} // RVA: 0xBE2830
@@ -630,6 +1018,32 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterProp : MonoBehaviour
     {
+        public object meshRoot;
+        public object muscleProps;
+        public object forceLayers;
+        public object mass;
+        public object propType;
+        public object pickedUpMaterial;
+        public object additionalPinOffsetAdd;
+        public object additionalPinWeight;
+        public object additionalPinMass;
+        public object _isPickedUp;
+        public object _propMuscle;
+        public object defaultLayer;
+        public object defaultParent;
+        public object colliders;
+        public object droppedMaterials;
+        public object r;
+        public object _mass;
+        public object _drag;
+        public object _angularDrag;
+        public object _useGravity;
+        public object _isKinematic;
+        public object _interpolation;
+        public object _collisionDetectionMode;
+        public object _constraints;
+        public object emptyColliders;
+
         // ── Methods ──
         public void get_isPickedUp(){} // RVA: 0xBE2B30
         public void set_isPickedUp(){} // RVA: 0xBE2B40
@@ -651,6 +1065,17 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class PuppetMasterSettings : Singleton`1
     {
+        public object kinematicCollidersUpdateLimit;
+        public object freeUpdateLimit;
+        public object fixedUpdateLimit;
+        public object collisionStayMessages;
+        public object collisionExitMessages;
+        public object activePuppetCollisionThresholdMlp;
+        public object _currentlyActivePuppets;
+        public object _currentlyKinematicPuppets;
+        public object _currentlyDisabledPuppets;
+        public object _puppets;
+
         // ── Methods ──
         public void get_currentlyActivePuppets(){} // RVA: 0xBE5850
         public void set_currentlyActivePuppets(){} // RVA: 0xBE5860
@@ -719,6 +1144,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class RagdollEditor : MonoBehaviour
     {
+        public object selectedRigidbody;
+        public object selectedCollider;
+        public object symmetry;
+        public object mode;
+
         // ── Methods ──
         public void OpenUserManual(){} // RVA: 0xB43310
         public void OpenScriptReference(){} // RVA: 0xB43310
@@ -728,6 +1158,20 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourBalancer : SubBehaviourBase
     {
+        public object _joint;
+        public object _dir;
+        public object _dirVel;
+        public object _cop;
+        public object _com;
+        public object _comV;
+        public object settings;
+        public object rigidbodies;
+        public object copPoints;
+        public object pressureSensor;
+        public object Ibody;
+        public object I;
+        public object toJointSpace;
+
         // ── Methods ──
         public void get_joint(){} // RVA: 0xB465B0
         public void set_joint(){} // RVA: 0xBA9BA0
@@ -748,6 +1192,8 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourBase : Object
     {
+        public object behaviour;
+
         // ── Methods ──
         public void XZ(){} // RVA: 0xBAB3A0
         public void XYZ(){} // RVA: 0xBAB3C0
@@ -758,6 +1204,25 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class SubBehaviourCOM : SubBehaviourBase
     {
+        public object mode;
+        public object velocityDamper;
+        public object velocityLerpSpeed;
+        public object velocityMax;
+        public object centerOfPressureSpeed;
+        public object offset;
+        public object _position;
+        public object _direction;
+        public object _angle;
+        public object _velocity;
+        public object _centerOfPressure;
+        public object _rotation;
+        public object _inverseRotation;
+        public object _isGrounded;
+        public object _lastGroundedTime;
+        public object groundContacts;
+        public object groundContactPoints;
+        public object groundLayers;
+
         // ── Methods ──
         public void get_position(){} // RVA: 0xBA9C60
         public void set_position(){} // RVA: 0xBA9C80
@@ -796,6 +1261,11 @@ namespace ThirdParty.Other.RootMotion.Dynamics
 
     public class Weight : Object
     {
+        public object mode;
+        public object floatValue;
+        public object curve;
+        public object tooltip;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xBE8680
         public void GetValue(){} // RVA: 0xBE8780

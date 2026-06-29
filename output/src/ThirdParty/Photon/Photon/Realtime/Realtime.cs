@@ -7,6 +7,25 @@ namespace ThirdParty.Photon.Photon.Realtime
 {
     public class AppSettings : Object
     {
+        public object AppIdRealtime;
+        public object AppIdFusion;
+        public object AppIdQuantum;
+        public object AppIdChat;
+        public object AppIdVoice;
+        public object AppVersion;
+        public object UseNameServer;
+        public object FixedRegion;
+        public object BestRegionSummaryFromStorage;
+        public object Server;
+        public object Port;
+        public object ProxyServer;
+        public object Protocol;
+        public object EnableProtocolFallback;
+        public object AuthMode;
+        public object EnableLobbyStatistics;
+        public object NetworkLogging;
+        public object ClientLogging;
+
         // ── Methods ──
         public void set_IsMasterServerAddress(){} // RVA: 0x234C8D0
         public void get_IsMasterServerAddress(){} // RVA: 0x234C8F0
@@ -30,6 +49,8 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class AsyncSetup : Object
     {
+        public object _asyncSetup;
+
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x234E330
         public void Startup(){} // RVA: 0x234E380
@@ -45,6 +66,24 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class ConnectionHandler : MonoBehaviour
     {
+        public object _m_CancellationTokenSource;
+        public object f_CD4;
+        public object f_051;
+        public object f_160;
+        public object f_4DC;
+        public object f_C3E;
+        public object f_6CD;
+        public object f_804;
+        public object f_D1B;
+        public object f_7BB;
+        public object f_6BE;
+        public object f_2D4;
+        public object f_DBE;
+        public object f_E2B;
+        public object f_AD4;
+        public object f_A17;
+        public object f_918;
+
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x23856C0
         public void OnApplicationPause(){} // RVA: 0x2385760
@@ -82,6 +121,30 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class MatchmakingArguments : ValueType
     {
+        public object PhotonSettings;
+        public object PlayerTtlInSeconds;
+        public object EmptyRoomTtlInSeconds;
+        public object RoomName;
+        public object MaxPlayers;
+        public object CanOnlyJoin;
+        public object AsyncConfig;
+        public object NetworkClient;
+        public object AuthValues;
+        public object PluginName;
+        public object ReconnectInformation;
+        public object CustomProperties;
+        public object ExpectedUsers;
+        public object Lobby;
+        public object CustomLobbyProperties;
+        public object SqlLobbyFilter;
+        public object Ticket;
+        public object RandomMatchingType;
+        public object CustomRoomOptions;
+        public object IsRoomVisible;
+        public object IsRoomOpen;
+        public object EnableCrc;
+        public object FastReconnectDisabled;
+
         // ── Methods ──
         public void Equals(){} // RVA: 0x7CFE0
         public void set_UserId(){} // RVA: 0x7CFF0
@@ -102,6 +165,13 @@ namespace ThirdParty.Photon.Photon.Realtime
 
     public class MatchmakingReconnectInformation : Object
     {
+        public object Room;
+        public object Region;
+        public object AppVersion;
+        public object UserId;
+        public object TimeoutInTicks;
+        public object DefaultTimeout;
+
         // ── Methods ──
         public void set_Timeout(){} // RVA: 0x23A0160
         public void Equals(){} // RVA: 0x23A0200

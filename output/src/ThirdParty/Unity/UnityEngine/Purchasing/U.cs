@@ -13,6 +13,9 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPBindings : Object
     {
+        public object m_Bridge;
+        public object m_RetrieveProductsCallbackCache;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D855F0
         public void Initialize(){} // RVA: 0x7D856F0
@@ -25,6 +28,12 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPImpl : JSONStore
     {
+        public object m_Bindings;
+        public object m_UserInfo;
+        public object m_LastInitError;
+        public object m_Initialized;
+        public object m_DeferredCallback;
+
         // ── Methods ──
         public void SetNativeStore(){} // RVA: 0xBBF900
         public void Initialize(){} // RVA: 0xB44D60
@@ -38,6 +47,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UDPReflectionUtils : Object
     {
+        public object s_assemblyTypeCache;
+        public object s_typeCache;
+        public object k_whiteListedAssemblies;
+
         // ── Methods ──
         public void GetTypeByName(){} // RVA: 0x7D88F80
         public void GetAllAssemblies(){} // RVA: 0x7D89670
@@ -47,6 +60,11 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStore : FakeStore
     {
+        public object m_CurrentDialog;
+        public object m_LastSelectedDropdownIndex;
+        public object m_UIFakeStoreWindowObject;
+        public object m_EventSystem;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7D92A90
         public void StartUI(){} // RVA: 0x7D92AA0
@@ -69,6 +87,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStoreDropdown : Object
     {
+        public object m_Options;
+        public object m_OnDropdown;
+        public object scrollPosition;
+
         // ── Methods ──
         public void DoPopup(){} // RVA: 0x7D94360
         public void OnOptionSelected(){} // RVA: 0x7D94620
@@ -79,6 +101,20 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UIFakeStoreWindow : MonoBehaviour
     {
+        public object m_QueryText;
+        public object m_OkText;
+        public object m_CancelText;
+        public object m_LastSelectedOptionText;
+        public object m_OnOk;
+        public object m_OnCancel;
+        public object m_OnDropdown;
+        public object m_CancelEnabled;
+        public object m_DropdownEnabled;
+        public object m_DoDropdown;
+        public object m_Dropdown;
+        public object scrollPosition;
+        public object k_MenuScreenRatio;
+
         // ── Methods ──
         public void OnGUI(){} // RVA: 0x7D94780
         public void CreateCenteredWindowRect(){} // RVA: 0x7D94A70
@@ -95,6 +131,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UdpIapBridgeInterface : Object
     {
+        public object s_typeCache;
+
         // ── Methods ──
         public void GetClassType(){} // RVA: 0x7D8AA20
         public void GetInitMethod(){} // RVA: 0x7D8AB50
@@ -105,6 +143,10 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnifiedReceipt : Object
     {
+        public object Payload;
+        public object Store;
+        public object TransactionID;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
     }
@@ -117,6 +159,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnityActivity : Object
     {
+        public object s_UnityPlayerClass;
+
         // ── Methods ──
         public void GetUnityPlayerClass(){} // RVA: 0x7D70F10
         public void GetCurrentActivity(){} // RVA: 0x7D71020
@@ -140,6 +184,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UnityServicesInitializationChecker : Object
     {
+        public object m_Logger;
+
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB44D60
         public void CheckAndLogWarning(){} // RVA: 0x7D67320
@@ -149,6 +195,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
 
     public class UserInfoInterface : Object
     {
+        public object s_typeCache;
+
         // ── Methods ──
         public void GetClassType(){} // RVA: 0x7D8AED0
     }

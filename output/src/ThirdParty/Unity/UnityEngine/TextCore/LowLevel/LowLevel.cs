@@ -7,9 +7,19 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 {
     public class FontEngine : Object
     {
+        public object s_Glyphs;
+        public object s_GlyphIndexes_MarshallingArray_A;
+        public object s_GlyphMarshallingStruct_IN;
+        public object s_GlyphMarshallingStruct_OUT;
+        public object s_FreeGlyphRects;
+        public object s_UsedGlyphRects;
+        public object s_LigatureSubstitutionRecords_MarshallingArray;
+        public object s_PairAdjustmentRecords_MarshallingArray;
+        public object s_MarkToBaseAdjustmentRecords_MarshallingArray;
+        public object s_MarkToMarkAdjustmentRecords_MarshallingArray;
+        public object s_GlyphLookupDictionary;
+
         // ── Methods ──
-        public void SetMarshallingArraySize(){} // RVA: 0x89AB50
-        public void GenericListToMarshallingArray(){} // RVA: 0x8945C0
         public void LoadFontFace(){} // RVA: 0x7DBBD20
         public void LoadFontFace_Internal(){} // RVA: 0x7DBB6E0
         public void LoadFontFace_With_Size_And_FaceIndex_Internal(){} // RVA: 0x7DBB940
@@ -54,6 +64,8 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
         public void PopulateMarkToMarkAdjustmentRecordMarshallingArray(){} // RVA: 0x7DC0950
         public void GetMarkToMarkAdjustmentRecordsFromMarshallingArray(){} // RVA: 0x7DC0A60
         public void GlyphIndexToMarshallingArray(){} // RVA: 0x7DC0B30
+        public void GenericListToMarshallingArray(){} // RVA: 0x30D9E10
+        public void SetMarshallingArraySize(){} // RVA: 0x30DA340
         public void ResetAtlasTexture(){} // RVA: 0x7DC0C10
         public void .cctor(){} // RVA: 0x7DC0CD0
         public void LoadFontFace_Internal_Injected(){} // RVA: 0x7DC1070
@@ -105,6 +117,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphAdjustmentRecord : ValueType
     {
+        public object m_GlyphIndex;
+        public object m_GlyphValueRecord;
+
         // ── Methods ──
         public void get_glyphIndex(){} // RVA: 0x454FE0
         public void get_glyphValueRecord(){} // RVA: 0x98C0F0
@@ -135,6 +150,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphAnchorPoint : ValueType
     {
+        public object m_XCoordinate;
+        public object m_YCoordinate;
+
         // ── Methods ──
         public void get_xCoordinate(){} // RVA: 0x459690
         public void set_xCoordinate(){} // RVA: 0xD1B20
@@ -224,6 +242,10 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphPairAdjustmentRecord : ValueType
     {
+        public object m_FirstAdjustmentRecord;
+        public object m_SecondAdjustmentRecord;
+        public object m_FeatureLookupFlags;
+
         // ── Methods ──
         public void get_firstAdjustmentRecord(){} // RVA: 0x98C260
         public void set_firstAdjustmentRecord(){} // RVA: 0x935860
@@ -276,6 +298,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class GlyphValueRecord : ValueType
     {
+        public object m_XPlacement;
+        public object m_YPlacement;
+        public object m_XAdvance;
+        public object m_YAdvance;
+
         // ── Methods ──
         public void get_xPlacement(){} // RVA: 0x459690
         public void set_xPlacement(){} // RVA: 0xD1B20
@@ -312,6 +339,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class LigatureSubstitutionRecord : ValueType
     {
+        public object m_ComponentGlyphIDs;
+        public object m_LigatureGlyphID;
+
         // ── Methods ──
         public void get_componentGlyphIDs(){} // RVA: 0x44D9F0
         public void set_componentGlyphIDs(){} // RVA: 0x47F10
@@ -344,6 +374,9 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkPositionAdjustment : ValueType
     {
+        public object m_XPositionAdjustment;
+        public object m_YPositionAdjustment;
+
         // ── Methods ──
         public void get_xPositionAdjustment(){} // RVA: 0x459690
         public void set_xPositionAdjustment(){} // RVA: 0xD1B20
@@ -373,6 +406,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkToBaseAdjustmentRecord : ValueType
     {
+        public object m_BaseGlyphID;
+        public object m_BaseGlyphAnchorPoint;
+        public object m_MarkGlyphID;
+        public object m_MarkPositionAdjustment;
+
         // ── Methods ──
         public void get_baseGlyphID(){} // RVA: 0x454FE0
         public void set_baseGlyphID(){} // RVA: 0x29580
@@ -406,6 +444,11 @@ namespace ThirdParty.Unity.UnityEngine.TextCore.LowLevel
 
     public class MarkToMarkAdjustmentRecord : ValueType
     {
+        public object m_BaseMarkGlyphID;
+        public object m_BaseMarkGlyphAnchorPoint;
+        public object m_CombiningMarkGlyphID;
+        public object m_CombiningMarkPositionAdjustment;
+
         // ── Methods ──
         public void get_baseMarkGlyphID(){} // RVA: 0x454FE0
         public void set_baseMarkGlyphID(){} // RVA: 0x29580
