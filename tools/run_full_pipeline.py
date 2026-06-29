@@ -1659,6 +1659,26 @@ Stages:
         except Exception as e:
             print(f'    WARN: field-type class names skipped: {e}')
 
+    # ── Stage 2d: Field-signature class names (workflow + A1) ──────────
+    # output/{workflow,a1}_class_names.json map {original_obf_name: SemanticName},
+    # produced by parallel agents reading field/method signatures. These are NOT
+    # part of the vocab stages, so without this step a pipeline rerun would drop
+    # them (stage 1 regenerates the dump). apply_class_names.py is idempotent and
+    # only fills weak/obfuscated names — it never overrides a good pipeline name.
+    if 3 in stages and (OUTPUT_DIR / 'a1_class_names.json').exists():
+        print('\n  [2d] Applying field-signature class names (workflow + A1) ...')
+        try:
+            import subprocess
+            r = subprocess.run([sys.executable, str(TOOLS_DIR / 'apply_class_names.py')],
+                               capture_output=True, text=True, encoding='utf-8', errors='replace')
+            for line in (r.stdout or '').splitlines():
+                if 'applied/refreshed' in line or 'skipped' in line:
+                    print(f'  {line.strip()}')
+            if r.returncode != 0:
+                print(f'    WARN: apply_class_names exited {r.returncode}')
+        except Exception as e:
+            print(f'    WARN: field-signature class names skipped: {e}')
+
     # ── Stage 3 ───────────────────────────────────────────────────────
     if 3 in stages:
         if check_stage_cache(3, cache, force=args.force):
