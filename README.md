@@ -1,44 +1,38 @@
 # VRChat IL2CPP Reverse Engineering
 
-> **2026-06-05 build** — 88,400 classes, 528,135 methods, 2,870 fields
-> GameAssembly.dll (210 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte Obfuscation
+> **2026-06-29 build — Unity 6 (6000.0.60f1)** — 64,773 classes, 569,859 methods, 188,384 fields
+> GameAssembly.dll (222 MB) | IL2CPP | **Unity 6 6000.0.60f1** | Beebyte Obfuscation
+> 🔒 **Baseline frozen** — see [`BASELINE.md`](BASELINE.md). Held stable until VRChat changes Unity version or obfuscator.
 
-## Coverage (June 5 build, quality-audited)
+## Coverage (Unity 6 baseline, official criterion)
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
-| Methods (named) | 478,923 / 528,135 | **90.7%** semantic |
-| Methods (hash remaining) | 49,212 | 9.3% fallback (m_XXX) |
-| Fields (typed) | 66,282 / 71,972 | **92.1%** typed (was 2,870 — see note) |
-| cross_version entries | 39,623 | quality-audited |
-| Pipeline runtime | ~27s full run | — |
+| Classes (semantic) | 6,223 / 9,928 obfuscated | **62.7%** semantic class names |
+| Methods (semantic) | 532,986 / 569,859 | **93.5%** semantic |
+| Methods (hash remaining) | 36,873 | 6.5% fallback (m_XXX) |
+| Fields (semantic) | 155,841 / 188,384 | **82.7%** semantic |
+| cross_version entries | 40,223 | reusable across builds |
+| Pipeline runtime | ~30s full run | — |
 
-Naming sources: RVA propagation (15.5K), LLM mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts. A full 122-batch quality audit removed ~13.8K low-confidence predictions (precision over raw coverage). Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run).
+Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run via `tools/compute_final_stats.py` — the single authoritative criterion). The 1,212 field-signature class names (workflow + A1 parallel-agent passes) are re-applied reproducibly by pipeline **stage 2d** (`tools/apply_class_names.py`, idempotent), so a rerun never drops them.
 
-**v2.4 — runtime field recovery (25x).** Fields jumped from 2,870 to **71,972** by walking
-live `FieldInfo` → `Il2CppType` from the memory dump. Obfuscated VRChat classes now carry
-real field types (e.g. `VRCPlayer_F618` → `VRC.SDKBase.VRCPlayerApi`,
-`PlayerNet` → `VRC.Core.Networking.PositionEvent`). The extractor lives in a companion
-runtime project; the pipeline folds its `output/field_types.json` in automatically
-(VA-matched) before source generation.
+**Why Unity 6 was a full re-crack.** VRChat upgraded from Unity 2022 to Unity 6, which reshuffled the entire IL2CPP runtime layout — the old extractor failed completely. Metadata is encrypted and export symbols are stripped, so static tools (Il2CppDumper) do not work. The extractor uses **reverse MethodInfo enumeration**: scan all MethodInfo in the heap, resolve their klass, rebuild the type tree. Verified against ground truth (Vector3=x/y/z, Color=r/g/b/a, Transform=157 methods).
 
-## Beebyte struct layout (June 5 build)
+## IL2CPP struct layout (Unity 6 6000.0.60f1, ground-truth verified)
 
-Beebyte shuffles `Il2CppClass`/`FieldInfo`/`MethodInfo` field positions every release.
-The pipeline re-discovers them with `tools/reverse_struct_layout.py`.
+| Field | June-13 (Unity 2022) | **Unity 6** |
+|--------|-------:|----------:|
+| MethodInfo.name | 0x10 | **0x10** |
+| MethodInfo → klass | 0x18 | **0x20** |
+| klass.name | 0xA8 | **0x98** |
+| klass.namespace | 0x18 | **0x18** |
+| klass.parent | varies | **0xA0** (runtime consensus) |
+| klass.fields | — | **0xA8** |
+| FieldInfo stride | 0x30 | **0x20** |
+| FieldInfo.name | 0x10 | **0x08** |
 
-| Offset | Apr 18 | May 2 | **Jun 5** |
-|--------|-------:|------:|----------:|
-| OFF_NAME | 0x10 | 0x50 | **0x50** |
-| OFF_ELEM | — | 0x40 | **0x10** |
-| OFF_CAST | 0x48 | 0x80 | **0x40** |
-| OFF_FIELDS | 0xA8 | 0x10 | **0x1D8** |
-| OFF_METHODS | 0x78 | 0x90 | **0x88** |
-| OFF_PARENT | — | 0xA0 | **0x80** |
-| MI_NAME | 0x28 | 0x18 | **0x18** |
-| FI_STRIDE | 0x30 | 0x28 | **0x30** |
-| FI_NAME | 0x10 | 0x00 | **0x08** |
+The extractor (`tools/extract_reverse_unity6.py`) is self-checking: ASLR heap-band auto-detect, Transform offset self-verify, parent-offset runtime consensus. If a future build shifts the layout, it errors loudly instead of emitting garbage.
 
 ## Quick Start
 
@@ -115,15 +109,15 @@ run_full_pipeline.py (orchestrator)
 ## Obfuscation: Beebyte
 
 Beebyte Obfuscator renames identifiers to `ÌÍÎÏ` strings (U+00CC-00CF) and **shuffles
-the `Il2CppClass`/`FieldInfo`/`MethodInfo` field layout every release** (see the offset
-table above for the June 5 values vs prior builds). Key invariants:
+the `Il2CppClass`/`FieldInfo`/`MethodInfo` field layout every release** (see the Unity 6
+offset table above vs the prior Unity 2022 build). Key invariants:
 
 | Property | Value |
 |----------|-------|
 | Obfuscated identifier regex | `^[Ì-Ï]{3,}$` |
-| IL2CPP exports | 264 total, only 3 keep their real names |
-| Struct layout | re-discovered per build via `reverse_struct_layout.py` |
-| `global-metadata.dat` | XOR-encrypted (see Metadata Decryption below) |
+| IL2CPP exports | stripped — static dumpers do not work |
+| Struct layout | re-discovered per build via `tools/extract_reverse_unity6.py` (self-checking) |
+| `global-metadata.dat` | encrypted (see Metadata Decryption below) |
 
 ## Network Layer
 

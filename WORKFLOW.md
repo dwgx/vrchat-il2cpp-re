@@ -1,8 +1,9 @@
 # VRChat IL2CPP RE — 完整工作流文档
 
-> 最后更新: 2026-06-15 (v2.5) | 覆盖率: 90.7% 方法 / 92.1% 字段 / 68.0% 类 | cross_version: 39,623 条
+> 最后更新: 2026-06-29 (Unity 6 baseline) | 覆盖率: **93.5% 方法 / 82.7% 字段 / 62.7% 类** | cross_version: 40,223 条
 > 本文档面向**接手的 AI 或开发者**，记录项目全貌、已验证的策略、踩过的坑。
 > 权威数字以 `output/coverage_stats.json` 为准（每次 pipeline 自动刷新）。
+> ⚠️ **Unity 6 (6000.0.60f1) 基线已冻结**。接手请优先读 [`BASELINE.md`](BASELINE.md)（冻结状态+复现步骤）和 [`HANDOFF.md`](HANDOFF.md)（Unity6 结构图谱+下一步）。本文档下方的部分历史 v2.x 细节针对旧 Unity 2022 build，结构方法论仍可参考。
 
 ---
 

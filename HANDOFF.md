@@ -4,6 +4,12 @@
 > 所有数字均为实测(`tools/compute_final_stats.py` 官方口径),非估计。
 > 最后更新:2026-06-29
 
+> **📖 文档导航（接手按此顺序读）**
+> 1. [`BASELINE.md`](BASELINE.md) — Unity 6 基线冻结状态 + 一键复现步骤（先读这个）
+> 2. **本文件 HANDOFF.md** — Unity 6 结构图谱、关键诊断、下一步 P2/P3/P4
+> 3. [`README.md`](README.md) — 项目门面、覆盖率、偏移表（公开版）
+> 4. [`WORKFLOW.md`](WORKFLOW.md) / [`HANDOFF_REPORT.md`](HANDOFF_REPORT.md) — 历史 Unity 2022 细节（方法论可参考，数字已过期）
+
 ---
 
 ## 0. 一句话现状
