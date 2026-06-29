@@ -1,0 +1,284 @@
+[
+  {
+    "original_name": "ÌÏÎÏÏÍÌÏÏÏÏÌÍÎÍÎÍÏÍÌÏÍÎ",
+    "proposed_name": "AccountSettingsMenuPanel",
+    "confidence": "high",
+    "reason": "字段 _upgradeAccount/_exit/_logout/_linkDiscord 明确指向账号设置菜单 UI 面板"
+  },
+  {
+    "original_name": "ÎÍÍÌÍÏÌÌÎÏÌÏÏÏÏÏÏÏÍÎÏÎÎ",
+    "proposed_name": "HomeWorldButtonController",
+    "confidence": "high",
+    "reason": "字段 _buttonText/_buttonImage/_setHomeSprite/_resetHomeSprite 指向设置/重置家园世界的按钮控件"
+  },
+  {
+    "original_name": "ÎÌÌÎÎÌÍÎÌÏÍÍÏÍÎÍÌÍÎÌÏÌÎ",
+    "proposed_name": "SubscriptionOfferPanel",
+    "confidence": "high",
+    "reason": "字段 _durationText/_costText/_discountText/_discountBanner/_addSubscriptionButton 明确指向订阅购买/优惠展示面板"
+  },
+  {
+    "original_name": "ÍÎÌÏÌÎÌÌÌÌÏÎÏÏÌÎÌÏÌÍÎÌÏ",
+    "proposed_name": "ApiInfoPushSystemEnumerator",
+    "confidence": "high",
+    "reason": "实现了 IEnumerator<VRC.Core.ApiInfoPushSystem>，是 ApiInfoPushSystem 集合的迭代器"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÎÏÍÌÌÎÍÍÍÍÌÎÍÎÌÍÎÏ",
+    "proposed_name": "ColorPickerGradientController",
+    "confidence": "high",
+    "reason": "字段 gradientDisplay/gradientIndicator/hueDisplay/hueIndicator/indicatorOffsetMulti 指向色相饱和度颜色选择器渐变控件"
+  },
+  {
+    "original_name": "ÏÎÌÍÏÎÏÍÏÏÌÏÌÎÎÍÍÍÍÏÏÍÌ",
+    "proposed_name": "MenuCanvasContainerController",
+    "confidence": "medium",
+    "reason": "字段 _menuCanvas/_containerHeight 指向管理菜单画布容器的组件"
+  },
+  {
+    "original_name": "ÌÎÍÌÏÍÏÏÍÍÎÍÏÏÏÎÌÌÎÏÍÍÏ",
+    "proposed_name": "ResponsiveLayoutPositioner",
+    "confidence": "high",
+    "reason": "字段 landscapePos/landscapeScale/portraitPos/portraitScale 指向横竖屏自适应布局定位组件"
+  },
+  {
+    "original_name": "ÍÌÏÎÌÏÎÌÏÌÌÍÍÌÏÎÍÍÌÍÎÎÍ",
+    "proposed_name": "PrivacyPolicyConsentPanel",
+    "confidence": "high",
+    "reason": "字段 _firstCheckBox/_secondCheckBox/_privacyPolicyLinkButton 指向隐私政策同意双勾选确认面板"
+  },
+  {
+    "original_name": "ÏÍÌÍÎÍÏÌÍÎÏÏÏÏÎÎÍÍÌÍÎÍÎ",
+    "proposed_name": "IconTabButtonItem",
+    "confidence": "medium",
+    "reason": "字段 _text/_button/_selectedIconBG/_selectedIcon/_image 指向带选中态图标的标签页按钮列表项"
+  },
+  {
+    "original_name": "ÏÍÏÏÎÏÌÍÌÏÏÍÌÏÏÌÌÎÍÌÎÏÏ",
+    "proposed_name": "NewsAnnouncementCard",
+    "confidence": "high",
+    "reason": "字段 _title/_body/_imageBinding/_readMorePreview/_imageButton 明确指向新闻/公告展示卡片"
+  },
+  {
+    "original_name": "ÏÍÏÌÌÌÎÎÏÌÌÎÌÏÍÎÎÏÏÍÎÏÎ",
+    "proposed_name": "AccountRegistrationFormPanel",
+    "confidence": "high",
+    "reason": "字段 _displayNameInputField/_dateOfBirthField/_promotionsSubscribeButton/_createButton/_existingAccountButton 指向账号注册表单面板"
+  },
+  {
+    "original_name": "ÎÍÎÌÍÎÏÎÏÌÌÍÎÍÌÍÍÎÎÍÍÎÌ",
+    "proposed_name": "NetworkSignalIndicatorView",
+    "confidence": "high",
+    "reason": "字段 signalIndicatorImage/wifiImage/wifiSegmentImages/signalSegmentImages 明确指向网络信号强度分段图标 UI"
+  },
+  {
+    "original_name": "ÌÏÌÎÍÌÍÏÌÎÎÌÎÌÎÍÌÌÏÍÌÏÎ",
+    "proposed_name": "InstanceJoinPriorityPanel",
+    "confidence": "high",
+    "reason": "字段 LocationPrioButton/PrioritizeNonSubsToggle/RandomInInstanceButton 指向实例加入优先级选择面板"
+  },
+  {
+    "original_name": "ÎÎÍÎÌÌÏÎÌÏÎÌÍÍÍÏÌÍÎÎÎÎÌ",
+    "proposed_name": "AccountRegistrationFormPanelImpl",
+    "confidence": "high",
+    "reason": "与注册表单面板同字段结构（_displayNameInputField/_dateOfBirthField/_createButton），注册面板另一实现变体"
+  },
+  {
+    "original_name": "ÏÌÏÎÍÍÍÌÍÎÎÎÍÌÏÍÌÏÏÍÏÍÌ",
+    "proposed_name": "ToggleSwitchWithOptions",
+    "confidence": "medium",
+    "reason": "字段 toggle/handle/leftOptionImage/rightOptionImage 指向带左右选项图标的自定义开关切换控件"
+  },
+  {
+    "original_name": "ÌÌÌÎÍÍÎÍÍÏÍÏÎÍÎÎÌÎÍÎÍÍÍ",
+    "proposed_name": "MediaPlayerController",
+    "confidence": "high",
+    "reason": "字段 playImage/playPauseButton/target/timeSlider 明确指向媒体播放控制器"
+  },
+  {
+    "original_name": "ÏÍÌÏÎÌÌÎÎÍÌÌÌÌÌÎÎÏÌÏÍÎÌ",
+    "proposed_name": "CampaignBannerPanel",
+    "confidence": "high",
+    "reason": "字段 campaignTitleText/campaignInfoText/learnMoreToMM/confetti/context 指向营销活动横幅展示面板"
+  },
+  {
+    "original_name": "ÎÏÎÍÏÌÏÎÌÌÎÎÎÍÏÌÌÎÍÍÍÎÍ",
+    "proposed_name": "CameraFovSettingsPanel",
+    "confidence": "high",
+    "reason": "字段 _portraitFOVSlider/_portraitFOVText/_landscapeFOVSlider/_landscapeFOVText 指向横竖屏 FOV 相机设置面板"
+  },
+  {
+    "original_name": "ÌÏÌÌÍÌÍÏÎÏÌÌÏÍÌÏÎÍÍÌÎÎÍ",
+    "proposed_name": "GroupTabNavigationButton",
+    "confidence": "medium",
+    "reason": "字段 _clickType/_groupTabToOpenTo 指向打开特定群组标签页的导航按钮"
+  },
+  {
+    "original_name": "ÍÎÎÎÍÌÏÎÍÍÍÍÌÏÏÎÍÌÍÏÍÎÎ",
+    "proposed_name": "BackgroundAnimationController",
+    "confidence": "medium",
+    "reason": "字段 backgroundTransform + Update 指向对背景变换做动态更新的动画控制器"
+  },
+  {
+    "original_name": "ÌÏÍÌÍÍÎÏÎÍÎÏÍÎÏÎÌÎÎÍÌÍÎ",
+    "proposed_name": "GroupInstanceFilterPanel",
+    "confidence": "high",
+    "reason": "字段 groupListBinding/instanceTypeSelectAllButton/deselectAllButton/applyButton 指向群组实例类型过滤选择面板"
+  },
+  {
+    "original_name": "ÍÌÏÏÌÍÎÍÏÌÏÎÎÏÎÏÎÏÏÏÎÏÌ",
+    "proposed_name": "SafetySettingsSearchPanel",
+    "confidence": "high",
+    "reason": "字段 _safetyPage/_settingCategories/_searchTextField/_learnMoreSafetyArticleButton 指向安全设置搜索分类面板"
+  },
+  {
+    "original_name": "ÏÏÎÍÍÏÍÍÍÍÎÍÍÍÎÎÍÌÌÌÎÌÏ",
+    "proposed_name": "GroupSearchListPanel",
+    "confidence": "high",
+    "reason": "字段 joiningGroupsMoreInfo/creatingGroupsMoreInfo/groupList/groupElementPrefab/filterResultsButton 指向群组搜索结果列表面板"
+  },
+  {
+    "original_name": "ÎÎÎÍÌÌÌÎÎÌÎÍÍÎÏÎÏÏÍÍÏÎÍ",
+    "proposed_name": "SocialLinksIconBar",
+    "confidence": "high",
+    "reason": "字段 _socialIconsContainer/_vrcFriendsIcon/_discordIcon 指向 VRChat 好友与 Discord 社交图标栏"
+  },
+  {
+    "original_name": "ÎÌÏÍÍÌÏÍÌÏÌÍÎÌÎÏÍÏÏÍÌÎÌ",
+    "proposed_name": "WorldContextActionPanel",
+    "confidence": "high",
+    "reason": "字段 _worldInformationPanel/_addToPlaylistHeaderButton/_reportWorldButton/_goToAuthorButton 指向世界详情操作菜单面板"
+  },
+  {
+    "original_name": "ÏÍÎÎÏÍÏÎÎÎÍÎÍÍÎÍÌÌÎÎÏÍÍ",
+    "proposed_name": "RecentlyVisitedUsersPanel",
+    "confidence": "high",
+    "reason": "字段 recentlyVisitedUsersLabel/recentlyVisitedUsersListBinding/userCellPrefab/viewMorePrefab 指向最近访问用户列表面板"
+  },
+  {
+    "original_name": "ÍÏÏÏÏÍÍÏÎÍÎÏÌÏÌÌÌÌÏÌÍÌÌ",
+    "proposed_name": "FillBarProgressWidget",
+    "confidence": "medium",
+    "reason": "字段 minWidth/text/fill/fillGraphic + LateUpdate 指向带文字和填充图形的进度条控件"
+  },
+  {
+    "original_name": "ÍÎÏÏÌÍÎÏÍÌÏÏÌÌÏÌÎÎÏÍÌÎÏ",
+    "proposed_name": "LongPressSubMenuController",
+    "confidence": "high",
+    "reason": "字段 _autoHide/_submenu/_longPressButtons/_subMenuButtons 指向长按触发子菜单控制器"
+  },
+  {
+    "original_name": "ÏÌÍÍÍÌÌÌÍÏÌÏÎÎÎÌÏÎÌÍÏÌÍ",
+    "proposed_name": "AvatarCollectionListOptions",
+    "confidence": "medium",
+    "reason": "字段 _allowRenaming/_showSortingDropddown/_showCellSizeToggle 指向 Avatar 收藏列表显示选项配置"
+  },
+  {
+    "original_name": "ÌÎÌÎÍÏÏÍÌÌÍÏÏÏÎÌÎÌÍÏÌÍÌ",
+    "proposed_name": "BadgeButtonShowcaseItem",
+    "confidence": "medium",
+    "reason": "字段 _button/_badge/_hiddenElementsCanvasGroup/_showcasedHighlightCanvasGroup/_hoverHighlight 指向带徽章和高亮的展示按钮项"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÎÎÎÌÏÍÏÏÍÎÍÏÍÌÍÍÍÌ",
+    "proposed_name": "GroupTabListView",
+    "confidence": "high",
+    "reason": "字段 group/tabListBinding/contentContainer/tabPrefab 指向群组标签页列表视图组件"
+  },
+  {
+    "original_name": "ÌÎÎÏÏÌÏÏÌÌÎÎÏÍÌÎÍÌÍÎÏÎÍ",
+    "proposed_name": "QueueJoinPanel",
+    "confidence": "high",
+    "reason": "字段 root/header/joinButton/timeLeftQueue + Update 指向排队加入实例的等候面板"
+  },
+  {
+    "original_name": "ÍÏÍÎÎÌÍÎÎÌÌÎÌÌÌÍÎÎÎÌÌÏÍ",
+    "proposed_name": "EventDateListPanel",
+    "confidence": "high",
+    "reason": "字段 _dateHeader/_eventList/_listEntryPrefab/_dateHeaderStyle/_dividerStyle 指向按日期分组的事件列表面板"
+  },
+  {
+    "original_name": "ÌÏÌÏÌÍÍÎÌÍÍÍÏÎÍÎÎÍÍÌÍÌÌ",
+    "proposed_name": "KeybindingEntry",
+    "confidence": "high",
+    "reason": "字段 key/target/vrcPlusOnly/reset/supportedDevices + Update 指向按键绑定设置项"
+  },
+  {
+    "original_name": "ÍÍÏÍÏÏÌÍÍÏÌÌÎÍÎÌÍÍÌÍÏÎÏ",
+    "proposed_name": "LeaderboardTopThreePanel",
+    "confidence": "medium",
+    "reason": "字段 linkButton/firstPlace/secondPlace/thirdPlace 指向排行榜前三名展示面板"
+  },
+  {
+    "original_name": "ÌÌÌÌÌÏÌÏÎÍÍÌÍÏÍÎÌÏÏÏÎÌÍ",
+    "proposed_name": "PropDisplayCard",
+    "confidence": "high",
+    "reason": "字段 propNameLabel/vrcPlusExclusiveBadge/propImage/propImageParent/userData 指向道具/物品展示卡片"
+  },
+  {
+    "original_name": "ÎÍÏÍÏÎÌÎÏÍÎÎÎÎÏÍÍÍÍÍÌÏÍ",
+    "proposed_name": "BadgeTooltipItem",
+    "confidence": "medium",
+    "reason": "字段 _badgeImage/_tooltip/_quantityParent/_quantityText 指向带徽章图标、数量和工具提示的 UI 项"
+  },
+  {
+    "original_name": "ÌÍÌÍÎÌÍÌÌÌÌÍÎÌÎÌÎÍÏÌÏÍÍ",
+    "proposed_name": "RadioButtonSelectorGroup",
+    "confidence": "high",
+    "reason": "字段 _radioButtonParent/_radioButtonPrefab/_radioButtonPrefabVrcPlus/_group 指向含 VRC+ 专属选项的单选按钮组控件"
+  },
+  {
+    "original_name": "ÍÎÍÍÍÍÍÏÏÏÍÌÍÏÎÎÍÍÏÍÍÍÎ",
+    "proposed_name": "HapticsSettingsPanel",
+    "confidence": "high",
+    "reason": "字段 _strengthSlider/_sensitivitySlider/_uiHapticsToggle/_interactHapticsToggle/_avatarHapticsToggle/_scrollRect 指向触觉反馈设置面板"
+  },
+  {
+    "original_name": "ÍÍÏÌÍÌÍÎÌÍÎÏÎÏÌÌÎÍÍÌÌÏÍ",
+    "proposed_name": "DroneContactReceiverController",
+    "confidence": "high",
+    "reason": "父类 ContactReceiver，字段 animator/droneParameterName/_useFaceProximity/_receiverType 指向无人机动画接触接收器控制器"
+  },
+  {
+    "original_name": "ÌÌÎÎÌÍÏÍÎÎÌÌÍÏÍÌÍÍÎÍÍÌÌ",
+    "proposed_name": "AnimatedStickerDefinition",
+    "confidence": "high",
+    "reason": "字段 _isAnimated/_isPremium，方法 get_Frames/get_FPS/get_LoopStyle/get_SpawnablePrefabName/get_Sprite 指向动画贴纸定义数据类"
+  },
+  {
+    "original_name": "ÍÍÌÏÎÌÏÎÍÌÌÌÏÌÍÎÌÍÌÎÎÎÌ",
+    "proposed_name": "KeyboardInputFieldDefinition",
+    "confidence": "high",
+    "reason": "方法 get_Title/get_PlaceholderText/get_InputType/get_ContentType/get_CharacterLimit/get_KeyboardType/get_Multiline/get_ReadOnly 指向键盘输入字段定义"
+  },
+  {
+    "original_name": "ÌÏÎÎÍÏÎÌÍÎÏÍÎÎÌÎÎÍÌÌÎÍÌ",
+    "proposed_name": "ColorPickerInspectorPanel",
+    "confidence": "high",
+    "reason": "字段 colorPickerCanvasGroup/inspectorCanvasGroup/sidebarCanvasGroup/colorPicker/prevButton/nextButton/quantityInfo/abilityWarning 指向颜色选择器检视面板"
+  },
+  {
+    "original_name": "ÎÎÎÏÎÌÏÏÌÎÎÏÌÎÏÌÌÎÎÎÏÏÌ",
+    "proposed_name": "ColorPickerScrollableList",
+    "confidence": "medium",
+    "reason": "父类 UIk__BackingFieldComponentImpl，字段 _scrollRect/_radioButtonSelectorGroup 指向颜色选择器可滚动列表"
+  },
+  {
+    "original_name": "ÏÍÎÍÎÎÌÏÌÍÎÎÎÍÍÌÏÌÍÏÏÏÌ",
+    "proposed_name": "NetworkSyncSerializableHandler",
+    "confidence": "high",
+    "reason": "父类 NetworkReadyHandler，字段 _typeId/_uniqueHash，方法 Encode/Decode/NeedsSync/CanSerialize8Bit/CanSerialize32Bit 指向网络同步序列化消息处理器"
+  },
+  {
+    "original_name": "ÌÎÌÎÍÌÌÍÎÌÌÎÍÌÏÌÌÍÌÌÎÎÌ",
+    "proposed_name": "ViewRadiusFadeController",
+    "confidence": "medium",
+    "reason": "字段 viewRadius/viewFalloff/alpha 指向基于视野半径做渐隐的视图控制器"
+  },
+  {
+    "original_name": "ÍÏÏÏÏÍÍÏÎÍÎÏÌÏÌÎÏÏÍÎÍ",
+    "proposed_name": "AvatarTabSelectorPanel",
+    "confidence": "high",
+    "reason": "字段 _selectedAvatarPanel/_avatarName/_exploreAvatarsPanel/_avatarCollectionsPanel/_currentAvatarPanel/_tabSelector 指向 Avatar 标签页选择器主面板"
+  }
+]

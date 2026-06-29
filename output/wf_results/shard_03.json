@@ -1,0 +1,302 @@
+[
+  {
+    "original_name": "ÌÌÍÎÍÏÎÎÏÍÎÍÎÌÍÎÌÌÎÏÎÏÌ",
+    "proposed_name": "PopupPageView",
+    "confidence": "high",
+    "reason": "fields: popupCanvasGroup/popupPage/headerText/closeButton/titlePrefab -- generic popup UI page."
+  },
+  {
+    "original_name": "ÍÍÎÏÎÎÌÏÎÏÌÎÌÌÏÎÎÏÍÏÏÏÍ",
+    "proposed_name": "AvatarStyleFilterPanel",
+    "confidence": "high",
+    "reason": "fields: _stylesListBinding/_activeStylesListBinding/_performanceDropdown/marketplaceToggle/publicToggle/applyButton -- avatar style filter panel."
+  },
+  {
+    "original_name": "ÌÎÎÌÍÍÌÎÏÍÏÍÌÏÎÏÍÌÎÏÌÎÏ",
+    "proposed_name": "VrcPlusIconView",
+    "confidence": "medium",
+    "reason": "fields: _icon/_vrcPlusIcon/_vrcPlusLockIcon -- shows VRC+ icons and lock state."
+  },
+  {
+    "original_name": "ÌÍÏÌÎÌÍÏÎÌÏÏÎÏÎÌÎÏÍÏÍÌÎ",
+    "proposed_name": "InputFieldHoverHandler",
+    "confidence": "medium",
+    "reason": "fields: _inputField; methods: OnPointerEnter/OnPointerExit -- hover handler for input field."
+  },
+  {
+    "original_name": "ÎÎÌÌÏÌÎÎÍÏÌÍÎÏÏÍÎÎÏÌÍÍÏ",
+    "proposed_name": "VrcPlusSettingsPanel",
+    "confidence": "high",
+    "reason": "fields: infoWithVRCPlusPrefab/unlockWithVRCPlusPrefab/categoryPrefab/buttonPrefab/togglePrefab -- VRC+ settings panel."
+  },
+  {
+    "original_name": "ÌÍÌÏÍÌÍÎÌÎÌÌÍÎÍÎÍÎÍÎÌÍÎ",
+    "proposed_name": "InstanceQueuePanel",
+    "confidence": "high",
+    "reason": "fields: exitQueueButton/instanceQueueButton/timeInQueueText/queuePositionText -- instance queue wait UI."
+  },
+  {
+    "original_name": "ÏÍÌÌÏÎÌÌÍÍÌÏÎÎÍÏÍÏÌÎÍÎÎ",
+    "proposed_name": "SelectableButtonItem",
+    "confidence": "medium",
+    "reason": "fields: nameText/tooltipText/selectedObj/button/hoverButtons/enabledObj/loadingObj/lockedObj -- generic selectable button with states."
+  },
+  {
+    "original_name": "ÍÍÎÎÍÎÌÎÏÏÎÍÌÎÌÎÌÍÍÎÍÎÍ",
+    "proposed_name": "TypingIndicatorView",
+    "confidence": "high",
+    "reason": "fields: _typingIndicatorOffset/_indicatorText/_indicatorTextSpeed/_fadeInOutSpeed -- chat typing indicator UI."
+  },
+  {
+    "original_name": "ÍÏÍÍÏÏÌÍÎÏÎÌÍÌÏÌÏÌÍÏÏÎÌ",
+    "proposed_name": "CollectionNameEditView",
+    "confidence": "high",
+    "reason": "fields: _collectionNameDisplay/_editName/_radioButtonSelector/_listCountBinding/_lockIcon -- collection name edit UI."
+  },
+  {
+    "original_name": "ÏÍÎÌÎÌÍÌÏÎÏÏÎÎÏÌÍÍÌÎÎÏÌ",
+    "proposed_name": "LabeledToggle",
+    "confidence": "medium",
+    "reason": "inherits Toggle; fields: _text/_controlName/_sendAnalytics -- labeled toggle with analytics."
+  },
+  {
+    "original_name": "ÎÍÏÏÍÎÌÎÍÏÎÎÎÎÍÌÌÎÌÍÎÍÎ",
+    "proposed_name": "MicrophoneSettingsPanel",
+    "confidence": "high",
+    "reason": "fields: _changeMicrophone/_micOutputVolume/_noiseSuppression/_micTestButton/_micTestVisualizer -- microphone settings panel."
+  },
+  {
+    "original_name": "ÎÌÏÏÏÏÌÌÌÏÌÎÎÍÌÍÎÏÌÌÎÌÎ",
+    "proposed_name": "SubscriptionListView",
+    "confidence": "high",
+    "reason": "fields: recurringSubscriptions/giftedSubscriptions/recurringSubscriptionsList/recurringSubscriptionPrefab -- subscription list UI."
+  },
+  {
+    "original_name": "ÌÌÏÌÎÍÎÌÎÎÏÎÎÏÍÏÏÍÌÏÎÍÌ",
+    "proposed_name": "BlockedUsersPanel",
+    "confidence": "high",
+    "reason": "fields: _blockedUsersFoldout/_blockedUsers/_blockedByUsersFoldout/_blockedByUsers -- blocked users management panel."
+  },
+  {
+    "original_name": "ÏÎÎÏÍÎÍÍÍÍÌÎÏÌÏÌÏÌÌÎÎÏÌ",
+    "proposed_name": "PhysBonesController",
+    "confidence": "medium",
+    "reason": "methods: ReleaseBones/Initialize -- manages physics bone lifecycle."
+  },
+  {
+    "original_name": "ÎÌÌÍÎÌÌÌÍÎÌÏÍÏÍÎÌÎÌÍÍÌÌ",
+    "proposed_name": "LaserPointerCursor",
+    "confidence": "high",
+    "reason": "fields: cursor/arrow/invalid/outline/lineRenderer/denySound/raycastDistance -- VR laser pointer cursor."
+  },
+  {
+    "original_name": "ÏÏÏÎÍÌÌÏÏÎÏÎÍÍÌÌÍÍÍÌÌÏÌ",
+    "proposed_name": "InvalidAvatarDisplay",
+    "confidence": "high",
+    "reason": "fields: invalidAvatarGraphics/loadingTexture; methods: OnNetworkReady/RefreshAvatar -- invalid avatar display component."
+  },
+  {
+    "original_name": "ÎÌÌÍÌÎÌÏÍÌÏÎÎÎÌÏÌÎÍÌÎÎÌ",
+    "proposed_name": "UdonVariablesPanel",
+    "confidence": "high",
+    "reason": "fields: tabbedPanel/variablesContainer/sliderPrefab/checkboxPrefab/colorPrefab/colorPickerPanel -- Udon variable inspector panel."
+  },
+  {
+    "original_name": "ÏÎÏÍÍÍÍÎÎÍÏÌÌÏÌÌÍÎÌÍÏÎÌ",
+    "proposed_name": "HoverableButtonView",
+    "confidence": "medium",
+    "reason": "fields: buttonType/button/image/text; methods: OnPointerEnter/OnPointerExit/OnPointerDown -- generic hoverable button."
+  },
+  {
+    "original_name": "ÏÎÎÌÏÌÌÍÎÎÌÏÍÏÌÎÍÎÍÎÏÏÎ",
+    "proposed_name": "LoadingScreenView",
+    "confidence": "high",
+    "reason": "fields: initializingWorldTextureGray/joiningTextureGray/loadingScreenWidthInMeters/worldImageMask -- world loading transition screen."
+  },
+  {
+    "original_name": "ÌÎÌÌÎÍÎÏÎÌÎÌÌÌÎÍÏÍÍÌÍÌÍ",
+    "proposed_name": "GraphicsQualitySettingsPopup",
+    "confidence": "high",
+    "reason": "fields: acceptButton/nextGraphicsQualitySettingButton/graphicsSettingText/antialiasingSettingText -- graphics and antialiasing settings popup."
+  },
+  {
+    "original_name": "ÎÎÍÏÎÏÍÍÍÏÌÌÎÌÌÎÌÍÎÍÍÏÏ",
+    "proposed_name": "PrintPhotoDisplay",
+    "confidence": "high",
+    "reason": "fields: photoDisplay/existingPrintDisplay/authorLabel/worldLabel/dateLabel/aspectRatioFitter -- VRChat photo print display."
+  },
+  {
+    "original_name": "ÍÌÏÌÌÌÍÎÏÍÍÌÏÌÍÌÎÍÍÌÏÍÌ",
+    "proposed_name": "ListItemThemeBinding",
+    "confidence": "medium",
+    "reason": "fields: highlights/icons/backgrounds/text/subtext/spriteHighlights/spriteIcons/hoverButtons -- multi-layer list item theme binding."
+  },
+  {
+    "original_name": "ÏÏÌÎÏÏÎÎÌÍÍÍÌÍÍÍÌÏÎÏÍÌÏ",
+    "proposed_name": "UserCardIconView",
+    "confidence": "medium",
+    "reason": "fields: _nameText/_taglineBG/_taglineText/_imageBG/_imageIcon/_tooltip/iconStyle -- user card with tagline and icon."
+  },
+  {
+    "original_name": "ÌÍÍÎÌÍÏÎÎÏÏÌÌÎÌÌÎÏÍÏÏÌÍ",
+    "proposed_name": "FingerTouchSphere",
+    "confidence": "medium",
+    "reason": "fields: radius/eyeTexture/fingerPressTexture; method: OnDrawGizmos -- finger touch sphere interaction component."
+  },
+  {
+    "original_name": "ÏÌÌÌÏÍÎÌÎÌÍÍÌÍÏÌÌÍÏÍÌÍÍ",
+    "proposed_name": "ScreenSpaceCanvasController",
+    "confidence": "medium",
+    "reason": "fields: _screenSpaceCanvas; methods: Initialize/LateUpdate -- screen space canvas management."
+  },
+  {
+    "original_name": "ÍÏÏÌÏÎÏÎÍÏÍÌÍÎÎÌÍÍÏÎÏÏÌ",
+    "proposed_name": "CreditPurchasePanel",
+    "confidence": "high",
+    "reason": "fields: walletBalanceText/addCreditsTitle/creditBundlesList/creditBundlePrefab/creditPurchasesCurrentlyUnavailableMessage -- credit purchase UI panel."
+  },
+  {
+    "original_name": "ÏÏÍÏÌÍÏÌÌÍÌÌÌÌÏÎÍÌÌÎÍÍÎ",
+    "proposed_name": "WorldListPanel",
+    "confidence": "high",
+    "reason": "fields: _sortByDropdown/_editNameButton/_worldCellPrefab/_viewMorePrefab/_listBinding/_maxCells -- world list with sort and edit options."
+  },
+  {
+    "original_name": "ÏÎÏÏÍÍÍÏÍÎÏÍÍÎÏÎÎÌÎÏÍÌÍ",
+    "proposed_name": "EventListPanel",
+    "confidence": "high",
+    "reason": "fields: _nameText/_eventCellPrefab/_eventListBinding -- event list display panel."
+  },
+  {
+    "original_name": "ÍÌÎÏÏÎÎÎÌÍÍÏÎÎÎÎÌÎÌÏÌÍÌ",
+    "proposed_name": "ShowcaseTogglePanel",
+    "confidence": "high",
+    "reason": "fields: _subtitle/_closeButton/_showcaseToggle/_hideToggle/_showcaseToggleButton -- showcase/hide toggle panel."
+  },
+  {
+    "original_name": "ÎÌÎÎÍÌÏÏÌÎÍÌÌÍÎÎÍÎÎÌÌÎÏ",
+    "proposed_name": "AvatarEarmuffAnimator",
+    "confidence": "high",
+    "reason": "fields: regularCatFront/earmuffCatFront/regularRatFront/earmuffRatFront/imageBack/imageFront -- avatar earmuff visual state switcher."
+  },
+  {
+    "original_name": "ÎÏÌÌÏÌÌÍÌÍÌÏÌÌÏÎÍÍÏÏÍÌÍ",
+    "proposed_name": "MicSensitivityPanel",
+    "confidence": "high",
+    "reason": "fields: _micSensitivityAndIndicator/_noiseGateText/sensitivitySlider/inverseSensitivitySlider/volumeSliderSmoothed/volumeSliderRaw -- mic sensitivity indicator panel."
+  },
+  {
+    "original_name": "ÌÏÎÍÍÏÎÌÍÍÌÌÎÌÏÌÌÏÌÏÏÏÏ",
+    "proposed_name": "StoreSkinsCategory",
+    "confidence": "high",
+    "reason": "fields: _droneSkinsCategory/_portalSkinsCategory/_loadingScreensCategory/_warpEffectsCategory/_uiThemesCategory/_backgroundsCategory -- store cosmetics categories panel."
+  },
+  {
+    "original_name": "ÏÏÎÌÎÏÎÌÍÌÏÎÏÏÎÌÍÍÍÍÎÎÍ",
+    "proposed_name": "StripedMaskableGraphic",
+    "confidence": "medium",
+    "reason": "inherits MaskableGraphic; fields: ShaderFeatureStripes/ShaderFeatureRectOffsetChannel/ShaderFeatureMasking/yOffset/_sprite -- custom UI graphic with stripe shader."
+  },
+  {
+    "original_name": "ÍÏÌÏÎÏÎÍÌÍÌÍÏÏÌÍÏÌÏÎÏÏÏ",
+    "proposed_name": "CreditBundlePurchaseView",
+    "confidence": "high",
+    "reason": "fields: _creditsNeededForPurchaseText/_currentCreditBalanceText/_allCreditBundleOptionsPanel/_bestCreditBundle/_cancelProcessingButton/_processingOverlay -- credit bundle purchase flow UI."
+  },
+  {
+    "original_name": "ÌÍÌÌÌÍÌÌÏÌÎÍÌÎÎÏÎÍÎÌÏÎÍ",
+    "proposed_name": "PaginatedScrollView",
+    "confidence": "medium",
+    "reason": "fields: pageUpButton/pageDownButton -- paginated scroll view controller."
+  },
+  {
+    "original_name": "ÍÌÏÏÎÌÎÏÌÎÍÏÎÌÍÌÌÌÌÍÍÌÎ",
+    "proposed_name": "SubscriptionPriceView",
+    "confidence": "high",
+    "reason": "fields: subscriptionPricePerMonthText -- subscription monthly price display."
+  },
+  {
+    "original_name": "ÏÌÏÍÌÍÏÍÏÎÏÍÌÍÌÌÍÍÏÌÎÏÌ",
+    "proposed_name": "WorldInstanceFlowController",
+    "confidence": "high",
+    "reason": "fields: loadingDisplay/worldInstanceFlowHandler -- world instance join flow controller."
+  },
+  {
+    "original_name": "ÎÍÎÌÏÏÎÎÎÍÏÌÌÌÍÏÎÎÌÎÍÌÏ",
+    "proposed_name": "ColorPickerWheel",
+    "confidence": "high",
+    "reason": "fields: ColorWheel/Indicator/ValueBackground/ValueSlider -- HSV color picker wheel component."
+  },
+  {
+    "original_name": "ÌÍÍÏÎÎÌÌÍÍÍÏÍÎÎÎÏÏÎÍÎÏÌ",
+    "proposed_name": "PlaylistPrivacyPanel",
+    "confidence": "high",
+    "reason": "fields: _public/_friendsOnly/_private/_clearPlaylist/_editPlaylistInputField -- playlist privacy settings panel."
+  },
+  {
+    "original_name": "ÏÏÏÎÍÎÍÍÎÌÏÏÍÏÌÍÌÎÎÍÏÎÎ",
+    "proposed_name": "LabeledSlider",
+    "confidence": "medium",
+    "reason": "inherits Slider; fields: _controlName/_sendAnalytics -- labeled slider with analytics reporting."
+  },
+  {
+    "original_name": "ÌÎÌÌÍÎÍÍÎÍÏÎÎÌÌÌÌÎÍÌÏÏÏ",
+    "proposed_name": "TransactionHistoryView",
+    "confidence": "high",
+    "reason": "fields: transactionList/transactionElementPrefab/filterDropdown/scrollRect/noTransactionsFoundMessage -- transaction history UI."
+  },
+  {
+    "original_name": "ÍÎÌÎÎÏÍÍÏÎÏÎÌÍÍÍÎÎÏÏÏÎÎ",
+    "proposed_name": "GroupPostListItem",
+    "confidence": "medium",
+    "reason": "fields: _nameText/privacyText/_imageIcon/_tooltip/_ownerCrown/postbadge -- group post list item with privacy and badge."
+  },
+  {
+    "original_name": "ÍÍÍÏÎÏÏÌÏÍÌÎÌÎÎÍÏÎÌÎÏÎÎ",
+    "proposed_name": "AvatarPedestalEditor",
+    "confidence": "high",
+    "reason": "fields: _pedestal/_applyButton/_editButton/_nameText/_subText -- avatar pedestal edit UI in world."
+  },
+  {
+    "original_name": "ÏÏÌÎÍÏÌÏÏÍÌÍÏÌÎÌÏÍÌÍÎÏÌ",
+    "proposed_name": "FoldoutSectionView",
+    "confidence": "high",
+    "reason": "fields: title/description/count/foldout/container/descriptionContainer -- collapsible section with count badge."
+  },
+  {
+    "original_name": "ÎÍÎÍÎÍÍÍÌÎÎÎÎÌÍÎÍÎÍÍÏÏÌ",
+    "proposed_name": "StoreItemPurchaseView",
+    "confidence": "high",
+    "reason": "fields: _itemNameLabel/_itemImage/_purchaseInfoContainer/_purchaseButton/_priceText/_userData -- store item purchase card."
+  },
+  {
+    "original_name": "ÏÌÎÌÌÌÎÏÍÍÌÍÍÎÏÍÌÏÍÍÏÎÌ",
+    "proposed_name": "CommentModerationRow",
+    "confidence": "high",
+    "reason": "fields: ownerLabel/ownerIconBinding/showButton/reportButton/removeButton/parent -- comment row with show/report/remove actions."
+  },
+  {
+    "original_name": "ÌÏÏÎÌÍÎÎÏÍÍÏÌÏÌÏÍÍÎÍÌÌÍ",
+    "proposed_name": "SubscriptionOptionsPanel",
+    "confidence": "high",
+    "reason": "fields: _productTitleText/_expirationText/_addSubscriptionHeader/_updateSubscriptionHeader/_subscriptionOptionsListBinding/_subscriptionPrefab -- subscription add/update options panel."
+  },
+  {
+    "original_name": "ÎÎÍÍÌÌÎÏÌÌÎÏÌÎÏÍÍÌÏÍÏÏÏ",
+    "proposed_name": "RepStatusIndicator",
+    "confidence": "high",
+    "reason": "fields: reppingIcon/notReppingIcon/displayText/iconCanvasGroup/tooltip/raycastBlockingObject -- rep (representative) status icon display."
+  },
+  {
+    "original_name": "ÎÌÏÎÎÏÎÏÎÌÏÏÍÌÍÏÌÏÌÍÏÎÍ",
+    "proposed_name": "LockedPrintsContentView",
+    "confidence": "high",
+    "reason": "fields: increaseYourLimitText/lockedPrintsSeparator/vrcplusButton/nonVRCPlusOverflowListBinding/hiddenPrintsLabel/lockedPrintPrefab -- VRC+ locked prints overflow view."
+  },
+  {
+    "original_name": "ÏÏÍÍÍÌÎÏÍÍÍÎÎÎÎÍÍÍÏÎÍÌÍ",
+    "proposed_name": "ProductSortedListPanel",
+    "confidence": "high",
+    "reason": "fields: _listBinding/_listCountBinding/_productPrefab/_sortProductsDropdown -- sortable product list panel."
+  }
+]

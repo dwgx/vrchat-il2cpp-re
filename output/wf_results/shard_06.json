@@ -1,0 +1,164 @@
+[
+  {
+    "original_name": "ÍÏÍÍÍÍÌÌÎÍÌÍÍÏÍÌÌÎÎÎÍÍÎ",
+    "proposed_name": "AvatarListSection",
+    "confidence": "high",
+    "reason": "字段 _name/_avatars/_viewAllButton/_maxItems 明确是 Avatar 列表 UI 区段组件"
+  },
+  {
+    "original_name": "ÍÍÎÌÏÏÌÏÎÏÍÏÌÎÍÌÌÎÍÌÎÌÎ",
+    "proposed_name": "ImageCrossFadeController",
+    "confidence": "high",
+    "reason": "字段 _previousImage/_targetImage/_newImageFadeInDuration/_oldImageFadeOutDuration 是图片淡入淡出过渡控制器"
+  },
+  {
+    "original_name": "ÎÏÌÏÏÌÏÍÌÌÏÎÎÏÌÌÌÏÎÏÏÎÏ",
+    "proposed_name": "ItemListCellView",
+    "confidence": "high",
+    "reason": "字段 countText/itemsBinding/canvasGroup/itemCellPrefab 是带数量绑定的列表单元格视图"
+  },
+  {
+    "original_name": "ÎÎÍÏÎÍÏÌÍÎÌÎÎÏÍÏÌÏÍÌÏÎÌ",
+    "proposed_name": "PinnedCategoryScrollView",
+    "confidence": "high",
+    "reason": "字段 _scrollRect/_pinnedCategoryHeader/_pinnedCategoryHeaderText/_graphic/_canvasGroup 是带置顶分类标头的滚动视图"
+  },
+  {
+    "original_name": "ÍÏÎÏÍÎÎÌÍÎÌÌÍÍÎÏÎÌÍÎÌÎÍ",
+    "proposed_name": "SpawnedPropEnumerator",
+    "confidence": "high",
+    "reason": "方法签名含 IEnumerator<VRC.DataModel.ISpawnedProp> 和 IEnumerable<VRC.DataModel.ISpawnedProp>，是 SpawnedProp 集合枚举器"
+  },
+  {
+    "original_name": "ÎÎÎÌÎÌÏÍÌÎÏÌÏÍÏÌÌÌÍÎÏÏÏ",
+    "proposed_name": "ExpandableTextDisplay",
+    "confidence": "high",
+    "reason": "字段 _primaryTextBox/_readMoreButton/_readMoreModalTitle/_maxTextLength 是带展开/读更多功能的文本显示组件"
+  },
+  {
+    "original_name": "ÌÎÎÏÌÎÍÍÏÍÏÍÍÍÌÌÍÏÏÍÍÌÏ",
+    "proposed_name": "ToggleButtonGroupWithUpdateWindow",
+    "confidence": "medium",
+    "reason": "字段 toggleButtons/updateWindow 是含更新窗口的切换按钮组"
+  },
+  {
+    "original_name": "ÎÏÎÌÏÍÏÌÎÌÏÌÍÎÎÏÍÌÌÍÏÌÌ",
+    "proposed_name": "PlaylistHeaderUI",
+    "confidence": "medium",
+    "reason": "字段 _titleText/_backButton/_shuffleButton，带随机播放按钮和返回按钮的播放列表标题 UI"
+  },
+  {
+    "original_name": "ÏÎÌÌÌÏÎÏÎÎÏÏÎÏÎÍÎÌÏÎÍÍÏ",
+    "proposed_name": "ListHeaderWithCountBinding",
+    "confidence": "medium",
+    "reason": "字段 _listCountBinding/_header/_emptyHeader 是带数量绑定和空状态标头的列表头组件"
+  },
+  {
+    "original_name": "ÍÎÌÏÏÏÏÌÏÌÌÍÌÏÍÎÍÌÎÎÍÌÏ",
+    "proposed_name": "StringCollectionEnumerator",
+    "confidence": "medium",
+    "reason": "方法签名含 IEnumerable<System.String>/IEnumerator<System.String> 是字符串集合枚举器"
+  },
+  {
+    "original_name": "ÏÎÍÍÍÌÍÌÍÎÌÌÏÎÏÍÍÎÏÌÏÏÌ",
+    "proposed_name": "StringCollectionEnumerator2",
+    "confidence": "medium",
+    "reason": "与 [22] 相同签名，另一个字符串集合枚举器实现"
+  },
+  {
+    "original_name": "ÎÏÏÌÍÍÍÎÍÌÍÍÎÍÏÍÏÌÍÏÌÏÍ",
+    "proposed_name": "GroupListBindingPanel",
+    "confidence": "high",
+    "reason": "字段 groupListBinding/groupButtonPrefab/loadingDisplay 是组列表绑定面板，含 IndexOf/OnPointerXxx 交互"
+  },
+  {
+    "original_name": "ÍÍÍÍÌÏÏÌÍÎÏÌÏÌÏÏÌÍÎÎÌÏÌ",
+    "proposed_name": "ExpandableTextWithSeeMore",
+    "confidence": "high",
+    "reason": "字段 _textLayoutElement/_text/_seeMoreButton/_seeLessButton 是带展开/收起按钮的文本组件"
+  },
+  {
+    "original_name": "ÏÍÍÎÎÏÏÍÎÌÎÏÏÎÌÍÏÌÌÌÏÍÌ",
+    "proposed_name": "GalleryItemCell",
+    "confidence": "high",
+    "reason": "字段 galleryIcon/checkmarkIcon/loadingDisplay/button 是图库条目单元格"
+  },
+  {
+    "original_name": "ÎÏÍÍÍÍÎÌÍÎÏÏÍÍÎÏÎÏÌÍÌÎÏ",
+    "proposed_name": "MultilanguageFontAssetLoader",
+    "confidence": "high",
+    "reason": "字段含 _mainFontAsset/_japaneseChineseFontAsset/_koreanChineseFontAsset/_simplifiedChineseFontAsset/_traditionalChineseFontAsset，多语言字体资产加载器"
+  },
+  {
+    "original_name": "ÎÎÍÌÍÎÍÏÏÎÎÍÏÌÏÏÏÌÏÍÏÍÌ",
+    "proposed_name": "SpriteToggleButton",
+    "confidence": "high",
+    "reason": "字段 _isOn/_offSprite/_onSprite，带开/关 Sprite 的图片切换按钮，含 OnPointerClick"
+  },
+  {
+    "original_name": "ÍÏÏÎÎÏÍÎÍÏÌÎÎÏÏÏÌÍÎÍÏÎÏ",
+    "proposed_name": "ToggleLabelButton",
+    "confidence": "high",
+    "reason": "字段 _labelText/_enabledIcon/_disabledIcon/_touchButton/_toggle 是带启用/禁用图标的标签切换按钮"
+  },
+  {
+    "original_name": "ÍÏÏÎÍÎÎÍÌÏÍÎÎÍÌÎÏÏÎÏÎÍÍ",
+    "proposed_name": "GroupBannerInfoCard",
+    "confidence": "high",
+    "reason": "字段 bannerImage/iconImage/onlineCountText/memberCountText/privacyText 是群组横幅信息卡片"
+  },
+  {
+    "original_name": "ÍÎÍÏÍÌÎÌÏÍÍÎÎÎÌÌÌÎÎÍÎÌÎ",
+    "proposed_name": "AvatarListItemCell",
+    "confidence": "high",
+    "reason": "字段 image/nameText/nameFade/textureSheetPlayer/tooltip 是头像列表条目单元格，含纹理动画播放"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÎÍÍÏÎÍÌÏÌÌÎÍÌÏÏÏÌÌ",
+    "proposed_name": "PageCollectionEnumerator",
+    "confidence": "high",
+    "reason": "方法签名含 IEnumerable<VRC.UI.Shared.IPage>，是 VRC UI 页面集合枚举器"
+  },
+  {
+    "original_name": "ÎÎÎÎÏÎÍÎÎÎÎÎÏÌÍÏÌÎÏÎÍÎÎ",
+    "proposed_name": "GradientGraphic",
+    "confidence": "high",
+    "reason": "字段 _direction/_firstColor/_secondColor，继承 MaskableGraphic，含 OnPopulateMesh/GetModifiedMaterial，是方向性双色渐变 UI 图形"
+  },
+  {
+    "original_name": "ÎÎÍÍÍÌÍÍÎÎÌÌÏÎÍÎÎÍÎÍÏÍÏ",
+    "proposed_name": "QuickSearchPanel",
+    "confidence": "high",
+    "reason": "字段 _quickSearchList/_quickSearchHeader/_quickSearchCellPrefab 是快速搜索面板组件"
+  },
+  {
+    "original_name": "ÏÌÌÎÍÏÌÎÍÌÍÎÏÏÌÍÌÍÏÎÏÏÎ",
+    "proposed_name": "EditableButtonWithTooltip",
+    "confidence": "high",
+    "reason": "字段 _button/_editIndicator/_toolTip/_style，含 OnPointerEnter/Exit，是带编辑指示器和提示的可交互按钮"
+  },
+  {
+    "original_name": "ÌÌÍÍÌÍÏÍÍÏÏÍÏÍÌÏÍÏÍÎÏÎÏ",
+    "proposed_name": "UIElementComboCell",
+    "confidence": "medium",
+    "reason": "字段 _text/_button/_toggle/_image，是通用 UI 复合单元格，包含文本/按钮/切换/图片四种元素"
+  },
+  {
+    "original_name": "ÏÌÏÏÌÎÍÎÍÎÎÎÌÍÎÍÏÍÌÌÎÎÍ",
+    "proposed_name": "PhotonSocketImpl",
+    "confidence": "high",
+    "reason": "继承 PhotonSocket，字段 _peerBase/_protocol，方法含 Connect/Disconnect/Receive/get_MTU，是 Photon 底层 Socket 实现"
+  },
+  {
+    "original_name": "ÏÌÎÌÏÌÎÍÍÍÎÍÏÏÌÌÌÏÌÏÌÎÌ",
+    "proposed_name": "PurchaseHistoryPanel",
+    "confidence": "high",
+    "reason": "字段 _oneTimePurchases/_purchasesScroll/_purchasedItemElementPrefab/_sortDropdown/_purchasesFilterButton/_canvas/_raycaster，是一次性购买记录面板"
+  },
+  {
+    "original_name": "ÍÌÌÎÎÌÎÏÌÍÌÎÏÌÌÌÎÍÏÏÌÎÎ",
+    "proposed_name": "SpawnedBadgeInteractable",
+    "confidence": "high",
+    "reason": "字段 _customizeButton/spawnedBadge，方法含 OnSpawn/OnPointerEnter/Exit/Click，是可交互徽章生成 UI 组件"
+  }
+]

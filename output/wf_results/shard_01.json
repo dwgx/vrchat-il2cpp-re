@@ -1,0 +1,314 @@
+[
+  {
+    "original_name": "ÎÎÍÌÎÍÌÎÎÍÎÏÌÎÎÍÏÌÍÏÍÏÏ",
+    "proposed_name": "NumericStepperInputField",
+    "confidence": "high",
+    "reason": "Extends InputField: _min/_max/_step/_value/_plusButton/_minusButton."
+  },
+  {
+    "original_name": "ÎÎÎÎÎÏÏÌÎÏÌÌÏÎÍÍÏÍÌÌÏÍÏ",
+    "proposed_name": "GiftTimerIconWidget",
+    "confidence": "high",
+    "reason": "Fields iconImage/giftIconTransform/giftText/timerText/timerMomentumCriticalColor."
+  },
+  {
+    "original_name": "ÏÏÏÍÎÍÌÍÍÌÏÏÌÎÎÌÌÍÏÎÏÌÌ",
+    "proposed_name": "BundleOpeningAnimationPanel",
+    "confidence": "high",
+    "reason": "Fields _bundleOpeningPanel/_bundleScaleDuration/_bundleClaimedClip."
+  },
+  {
+    "original_name": "ÍÌÏÏÏÍÏÍÎÎÌÍÍÌÌÎÍÍÍÍÌÍÏ",
+    "proposed_name": "WorldCustomizerEditorPanel",
+    "confidence": "high",
+    "reason": "Fields title/editTitleButton/highlightTab/iconTab/buttonsTab/colorPicker/save/close."
+  },
+  {
+    "original_name": "ÍÌÍÌÏÎÌÏÍÍÎÏÎÌÏÎÏÎÍÎÍÎÏ",
+    "proposed_name": "UdonTriggerController",
+    "confidence": "high",
+    "reason": "Fields target/dataStorage/_collider/hasTimerTriggers/hasColliderTriggers/hasKeyTriggers+OnSpawn."
+  },
+  {
+    "original_name": "ÌÎÍÌÎÌÏÌÌÍÏÎÎÌÍÍÌÌÍÍÍÍÌ",
+    "proposed_name": "VRCCompanionController",
+    "confidence": "high",
+    "reason": "Extends VRCCompanionApi: GetSpeed/SetPlacementMode/TriggerReaction/SetFollowStyle/LookAt."
+  },
+  {
+    "original_name": "ÎÍÌÍÌÎÎÎÍÍÎÎÍÌÏÌÍÏÏÍÏÌÌ",
+    "proposed_name": "LookCellsMarketplacePanel",
+    "confidence": "high",
+    "reason": "Fields lookCellsBinding/previewPanel/exploreMarketplaceButton/addCellPrefab/lookCellPrefab."
+  },
+  {
+    "original_name": "ÎÏÌÎÏÌÍÍÌÎÌÎÏÌÎÌÎÎÌÎÏÍÏ",
+    "proposed_name": "GhostHandsVisualController",
+    "confidence": "high",
+    "reason": "Fields GhostHandsRig/GhostHandLeftMesh/GhostHandRightMesh/transparentHandMaterial."
+  },
+  {
+    "original_name": "ÎÍÌÍÍÏÎÏÍÏÌÎÌÏÏÎÌÎÏÏÏÎÎ",
+    "proposed_name": "FingertipInteractionIndicator",
+    "confidence": "high",
+    "reason": "Fields _fingertipIndicators/_pinchCenterObject/_pinchSnapUpperObject/_pinchCentroidFill."
+  },
+  {
+    "original_name": "ÏÏÎÎÌÎÎÍÎÏÏÏÌÌÏÏÌÏÍÏÏÎÎ",
+    "proposed_name": "AvatarManagerReference",
+    "confidence": "medium",
+    "reason": "Single _avatarManager field MonoBehaviour wrapper."
+  },
+  {
+    "original_name": "ÏÌÏÌÌÌÏÌÎÌÍÎÎÏÏÎÏÎÌÎÏÏÌ",
+    "proposed_name": "BundleClaimPanel",
+    "confidence": "high",
+    "reason": "Fields bundleImage/bundleName/bundleExpirationDate/claimButton/noBundlesOverlay."
+  },
+  {
+    "original_name": "ÌÏÍÌÎÎÎÎÍÎÍÎÌÏÎÎÌÍÎÌÌÎÏ",
+    "proposed_name": "AnimatedSpriteEffectData",
+    "confidence": "high",
+    "reason": "Extends BackingFieldBase: _isSpecialFX/_loopStyle/_animationStyle/_frames/_isAnimated/_sprite."
+  },
+  {
+    "original_name": "ÌÌÍÎÏÍÌÎÎÌÎÍÍÌÌÍÎÏÍÌÎÏÌ",
+    "proposed_name": "AvatarListCell",
+    "confidence": "high",
+    "reason": "Fields _nameField/_thumbnail/_button/_selected/_playing/_contentWarningBanner/_vrcPlusExclusiveBadge."
+  },
+  {
+    "original_name": "ÏÏÎÏÎÎÌÏÍÏÏÍÍÏÌÌÌÌÌÌÎÎÎ",
+    "proposed_name": "SubscriptionListPanel",
+    "confidence": "high",
+    "reason": "Fields _activeSubscriptions/_expiredSubscriptions/_subscriptionElementPrefab/sortActiveDropdown."
+  },
+  {
+    "original_name": "ÍÎÎÏÍÏÎÎÍÎÎÏÏÍÌÍÎÎÎÏÏÎÏ",
+    "proposed_name": "ControlledScrollRect",
+    "confidence": "high",
+    "reason": "Extends ScrollRect: _controlName/minimumSpeed/_allowPropagationToParent/_autoClampScroll."
+  },
+  {
+    "original_name": "ÌÍÍÎÍÍÏÏÎÌÏÏÏÌÍÏÌÏÌÏÏÌÍ",
+    "proposed_name": "SocialNotificationMenuPanel",
+    "confidence": "high",
+    "reason": "Fields friendsButton/invitesButton/friendRequestsButton/onlineFriendsCount/inviteCount."
+  },
+  {
+    "original_name": "ÍÌÌÎÎÏÏÍÎÌÏÎÎÏÏÏÏÎÌÌÌÏÌ",
+    "proposed_name": "CustomDropdownMenu",
+    "confidence": "high",
+    "reason": "Fields optionPrefab/dividerPrefab/optionsCanvasGroup/selectionGraphic+OnEndDrag."
+  },
+  {
+    "original_name": "ÎÎÏÎÌÎÌÎÍÎÌÏÏÎÌÍÎÍÎÎÏÏÎ",
+    "proposed_name": "WorldDownloadProgressCell",
+    "confidence": "high",
+    "reason": "Fields worldImage/worldName/progressSlider/cancelText/goText/actionButton/infoButton."
+  },
+  {
+    "original_name": "ÍÍÍÎÎÌÎÏÌÍÏÌÎÏÍÌÍÍÏÎÍÌÌ",
+    "proposed_name": "CameraUITooltipController",
+    "confidence": "high",
+    "reason": "Fields Manager/Target/TargetButton/CloseButton/Alignment/CameraUIUprightElement/TargetMode."
+  },
+  {
+    "original_name": "ÍÌÍÍÍÍÎÏÍÏÎÎÎÏÏÎÎÏÍÎÏÌÍ",
+    "proposed_name": "GroupBannerCardWidget",
+    "confidence": "high",
+    "reason": "Fields _groupBannerImageBinding/_groupIconImageBinding/_groupNameText/_onlineMembersText."
+  },
+  {
+    "original_name": "ÌÍÌÎÏÌÎÏÌÌÍÏÎÌÎÌÌÏÍÌÍÏÎ",
+    "proposed_name": "LocalizableTextMeshPro",
+    "confidence": "high",
+    "reason": "Extends TextMeshProUGUI: _localizableString/_prefSizeMode/_forceMinWidthToMatchPreferredWidth."
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÎÍÏÍÏÏÎÌÍÌÍÎÏÎÌÎÌ",
+    "proposed_name": "UserProfileEditorPanel",
+    "confidence": "high",
+    "reason": "Fields _profileAvatarImage/_profileIconImage/_editIconModalPrefab/_bioField/_bioScrollView."
+  },
+  {
+    "original_name": "ÌÌÏÏÏÍÏÌÌÌÎÌÎÎÍÏÏÍÌÏÌÍÎ",
+    "proposed_name": "AuthSessionController",
+    "confidence": "high",
+    "reason": "Methods PassLoginInfo/Logout."
+  },
+  {
+    "original_name": "ÌÍÌÎÏÌÍÌÍÏÍÎÌÍÍÏÍÌÏÏÏÎÎ",
+    "proposed_name": "ContactReceiverCustomizationView",
+    "confidence": "high",
+    "reason": "Fields controller/meshRenderer/trailRenderer/audioVisual/contactReceiver/insideCustomizationView."
+  },
+  {
+    "original_name": "ÍÍÌÍÏÍÏÌÍÍÎÍÏÌÍÍÍÍÏÍÎÏÌ",
+    "proposed_name": "CameraMenuPanel",
+    "confidence": "high",
+    "reason": "Fields TakeScreenshot/ToggleDynamicLight/EnablePhotoMode/EnableStreamMode/IconCamera/GalleryCamera."
+  },
+  {
+    "original_name": "ÍÍÎÎÏÎÎÍÏÏÌÎÌÌÎÏÍÏÍÌÌÌÍ",
+    "proposed_name": "GalleryImageSliderPanel",
+    "confidence": "high",
+    "reason": "Fields _mainImageBinding/_previousImageButton/_nextImageButton/_galleryImagePrefab/_scrollRect."
+  },
+  {
+    "original_name": "ÏÎÎÏÏÏÌÏÌÏÍÎÍÌÏÎÎÏÎÏÌÏÍ",
+    "proposed_name": "CollapsibleMenuButton",
+    "confidence": "high",
+    "reason": "Fields collapseWhenClicked/parentButton/childrenButtons/text/icon/selectedDisplay."
+  },
+  {
+    "original_name": "ÏÌÎÌÍÍÎÌÌÍÏÏÍÎÎÍÏÍÍÎÌÌÍ",
+    "proposed_name": "InventoryItemPanel",
+    "confidence": "high",
+    "reason": "Fields icons/addItemPrefab/builder/content/inventoryInfoPanel/upsellPanel/storeButton."
+  },
+  {
+    "original_name": "ÏÏÎÌÎÌÎÏÎÌÍÏÍÍÌÏÍÎÍÎÍÎ",
+    "proposed_name": "GroupFriendInvitePanel",
+    "confidence": "high",
+    "reason": "Fields groupListBinding/groupButtonPrefab/groupTabButton/friendListBinding/friendTabButton."
+  },
+  {
+    "original_name": "ÍÌÍÌÏÎÌÎÎÌÏÏÎÌÌÎÏÍÍÎÌÍÎ",
+    "proposed_name": "EmojiPreviewPlayer",
+    "confidence": "high",
+    "reason": "Fields playButton/stopButton/fullPreview/superBadge/imagePreview/textureSheetPlayer/rotator."
+  },
+  {
+    "original_name": "ÍÌÍÏÏÎÍÏÌÏÍÌÎÌÍÏÌÌÍÌÌÌÏ",
+    "proposed_name": "GroupManagementOptionsPanel",
+    "confidence": "high",
+    "reason": "Fields closeButton/moveUpButton/moveDownButton/nameplateToggle/leaveGroupButton/reportGroupButton."
+  },
+  {
+    "original_name": "ÍÍÍÏÌÍÎÌÎÎÌÏÍÌÍÌÎÍÏÏÏÎÍ",
+    "proposed_name": "UserInvitePickerPanel",
+    "confidence": "high",
+    "reason": "Fields loadingOverlay/closeButton/cancelButton/confirmButton/friendsTab/instancesTab/userCellPrefab/searchUsersButton."
+  },
+  {
+    "original_name": "ÎÏÎÍÏÎÌÎÌÍÍÍÍÎÎÌÏÎÍÏÎÌÎ",
+    "proposed_name": "AnimatedTextureSheetPlayer",
+    "confidence": "high",
+    "reason": "Fields rawImage/_frame/_numFrames/_totalFrames/_fps/_loopStyle/_paused+Initialize."
+  },
+  {
+    "original_name": "ÍÎÎÌÍÎÏÌÌÍÏÎÏÍÌÍÎÍÌÏÍÍÌ",
+    "proposed_name": "NamedTMPDropdown",
+    "confidence": "high",
+    "reason": "Extends TMP_Dropdown with _controlName/_k_EverythingOption/_k_MixedOption."
+  },
+  {
+    "original_name": "ÍÌÍÏÌÎÌÎÎÍÍÏÍÎÏÌÍÎÌÍÎÍÌ",
+    "proposed_name": "PhotoGalleryActionPanel",
+    "confidence": "high",
+    "reason": "Fields saveToGalleryButton/downloadButton/viewWorldButton/visibilityButton/viewUserProfileButton/reportButton."
+  },
+  {
+    "original_name": "ÏÏÎÍÎÎÎÍÏÍÌÏÌÎÏÌÎÏÍÍÍÍÌ",
+    "proposed_name": "VRCPlusMigrationWizard",
+    "confidence": "high",
+    "reason": "Fields _steps/_nextButton/_prevButton/_startUpgradeButton/_copyButton/_launchWebsiteButton/_logoutButton/_tokenText."
+  },
+  {
+    "original_name": "ÏÌÏÏÏÌÎÍÌÎÏÎÎÏÍÌÏÎÏÏÍÎÌ",
+    "proposed_name": "PhotonNetworkEventSyncHandler",
+    "confidence": "high",
+    "reason": "Extends NetworkReadyHandler: _targets/_isSparse/_lastEncoding/_eventCode/_syncMethod+OnSpawn/set_Targets/get_IsSparse."
+  },
+  {
+    "original_name": "ÍÏÎÍÍÍÍÌÍÎÍÎÎÌÍÎÏÌÏÏÏÍÍ",
+    "proposed_name": "VRCStandaloneInputModule",
+    "confidence": "high",
+    "reason": "Extends PointerInputModule: _kMouseLeftId/_kMouseRightId/m_HorizontalAxis/m_ForceModuleActive."
+  },
+  {
+    "original_name": "ÏÌÎÏÌÏÎÎÎÏÌÌÎÏÎÍÏÎÍÏÍÍÍ",
+    "proposed_name": "AvatarSelectorPanel",
+    "confidence": "high",
+    "reason": "Fields _selectedAvatarPanel/_selectedAvatarName/_title/_closeButton/_scrollRect/_avatarDetailsButton/_avatarListView/_sortDropdown."
+  },
+  {
+    "original_name": "ÍÌÎÏÏÍÎÎÌÌÍÍÎÎÎÍÌÏÌÌÏÎÏ",
+    "proposed_name": "CurvedRaycastPointer",
+    "confidence": "high",
+    "reason": "Fields _maximumDistance/_heightLimitAngle/_triggerInteraction/_curveRenderer/_curveOffset/_curveFrequency/_hitColor."
+  },
+  {
+    "original_name": "ÎÍÏÍÌÌÍÎÍÍÍÎÌÏÌÎÍÎÏÌÍÏÌ",
+    "proposed_name": "GroupInstanceListGroup",
+    "confidence": "high",
+    "reason": "Fields _groupName/_groupIcon/_gridLayoutGroup/_instances/_canvas/_foldout/_groupInstanceContentPrefab/_viewMoreButtonPrefab/_groupInfoButton."
+  },
+  {
+    "original_name": "ÍÌÍÍÎÏÎÌÏÌÏÌÍÌÍÏÌÍÌÍÌÏÍ",
+    "proposed_name": "WorldSidePanelController",
+    "confidence": "high",
+    "reason": "Fields _sidePanelButtonPrefab/_dataContextSelectorGroup/_worldsPanel/_worldLandingMM/_sidePanelButtonsBinding/_varietyButton."
+  },
+  {
+    "original_name": "ÏÏÎÏÏÎÎÏÍÏÌÏÏÏÏÎÍÏÏÎÍÌÎ",
+    "proposed_name": "PresetSettingsBehaviour",
+    "confidence": "medium",
+    "reason": "Fields _m_CancellationTokenSource/preset_ - preset settings component."
+  },
+  {
+    "original_name": "ÏÏÏÍÏÏÎÎÌÍÏÎÌÏÌÎÏÍÌÏÎÏÏ",
+    "proposed_name": "MarketplaceProductListPanel",
+    "confidence": "high",
+    "reason": "Fields _listBinding/_gridLayoutGroup/_listingFullPrefab/_listingCompactPrefab/_cellSizeToggle/_sortProductsDropdown."
+  },
+  {
+    "original_name": "ÍÎÍÍÏÍÎÍÌÎÌÏÌÎÍÎÌÏÌÍÏÎÏ",
+    "proposed_name": "DebugSettingsPanel",
+    "confidence": "high",
+    "reason": "Fields _reportBugButtons/_clearProfileDataButtons/_openLogsFolderButtons/_loggingSetting/_avatarDebug/_contentCacheButtons/_resetAllUserDataButton."
+  },
+  {
+    "original_name": "ÌÌÌÏÌÏÏÌÏÏÎÍÎÌÌÏÌÏÎÌÍÎÍ",
+    "proposed_name": "VRPointerManager",
+    "confidence": "high",
+    "reason": "Extends ControllerRightBase: leftPointerGeneric/rightPointerGeneric/leftPointerPico/rightPointerPico+Initialize."
+  },
+  {
+    "original_name": "ÍÎÌÏÎÎÏÎÍÎÌÍÏÏÍÎÌÏÏÏÎÏÌ",
+    "proposed_name": "UdonBehaviour",
+    "confidence": "high",
+    "reason": "Extends AbstractUdonBehaviour: Interact/RunEvent/RequestSerialization/SendCustomNetworkEvent/TryGetProgramVariable/set_DisableEventProcessing."
+  },
+  {
+    "original_name": "ÎÏÎÌÌÏÍÏÎÍÏÍÍÍÏÍÍÍÌÍÏÏÍ",
+    "proposed_name": "SubscriptionPurchasePeriodPanel",
+    "confidence": "high",
+    "reason": "Fields _productTitle/_enterPeriodText/_periodText/_costText/_discountText/_periodInputField/_decrementButton/_incrementButton/_submitButton/_cancelButton."
+  },
+  {
+    "original_name": "ÌÎÎÌÏÎÌÍÏÏÍÎÎÏÍÎÎÏÌÌÍÌÌ",
+    "proposed_name": "ChatBubbleWidget",
+    "confidence": "high",
+    "reason": "Fields _canvasGroup/_chatText/_fadeInOutSpeed/_heightFitter/_typingIndicator/_chatBubblePositioner."
+  },
+  {
+    "original_name": "ÍÍÎÌÌÎÍÎÎÎÏÏÌÌÎÌÍÏÌÏÎÏÌ",
+    "proposed_name": "WorldFriendsListGroup",
+    "confidence": "high",
+    "reason": "Fields _worldName/_gridLayoutGroup/_friends/_worldInstance/_friendPrefab/_canvas/_foldout."
+  },
+  {
+    "original_name": "ÎÎÌÌÍÌÌÌÍÎÎÏÏÏÍÏÏÎÌÌÌÏÌ",
+    "proposed_name": "ExpandableNavButton",
+    "confidence": "high",
+    "reason": "Fields parentButton/children/text/icon/padding/transitionDuration/collapsedText/backgroundCollapsedColor/expandedText."
+  },
+  {
+    "original_name": "ÎÌÏÏÏÎÌÏÍÎÌÎÏÍÌÏÏÌÍÍÎÍÍ",
+    "proposed_name": "WorldPortalLoadingPanel",
+    "confidence": "high",
+    "reason": "Extends ProgressDisclaimerBase: _portalIcon/_progressBarFill/_progressBarBackground/_progressPercentText/_returnToHomeButton/_goButton._thumbnailSection."
+  }
+]

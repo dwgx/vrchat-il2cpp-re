@@ -1,0 +1,146 @@
+[
+  {
+    "original_name": "ÏÎÎÌÍÍÏÍÍÌÏÏÎÌÎÏÎÏÌÎÍÏÍ",
+    "proposed_name": "TooltipAmountUIItem",
+    "confidence": "medium",
+    "reason": "字段 _title/_amountText/_uiTooltip 指向带数量文本和 tooltip 的 UI 条目"
+  },
+  {
+    "original_name": "ÏÌÍÌÎÌÌÏÌÏÏÌÌÏÌÍÏÌÌÌÏÎÎ",
+    "proposed_name": "StoreBundlePricePanel",
+    "confidence": "high",
+    "reason": "字段 cost/bundleSize/discount/discountPanel/button 明确指向商店捆绑包定价面板"
+  },
+  {
+    "original_name": "ÎÎÎÏÌÎÎÌÌÌÍÌÌÎÌÎÏÏÎÌÏÎÏ",
+    "proposed_name": "AvatarPanelToggle",
+    "confidence": "high",
+    "reason": "字段 _selectedAvatarPanel + OnEnable/OnDisable 指向 Avatar 选中面板开关控制"
+  },
+  {
+    "original_name": "ÍÍÏÎÍÌÍÏÏÌÍÏÏÎÎÍÍÏÏÍÍÌÍ",
+    "proposed_name": "ColorSelectorItem",
+    "confidence": "high",
+    "reason": "字段 colorDisplay/selectedIndicator/button 典型颜色选择条目 UI 模式"
+  },
+  {
+    "original_name": "ÎÌÌÍÎÏÏÌÎÍÏÌÍÌÌÍÏÏÍÎÎÏÌ",
+    "proposed_name": "SupportedPlatformTagsPanel",
+    "confidence": "high",
+    "reason": "字段 _supportedPlatformsListBinding/_supportedPlatformTags/_platformPrefab 平台兼容性标签列表面板"
+  },
+  {
+    "original_name": "ÏÏÌÌÎÍÏÌÌÏÌÎÌÍÌÍÌÌÎÍÎÏÎ",
+    "proposed_name": "UserCardPrintView",
+    "confidence": "high",
+    "reason": "字段 printImage/userData/streamerModeOverlay 用户卡片打印视图含主播模式遮罩"
+  },
+  {
+    "original_name": "ÍÏÌÍÏÎÌÍÍÍÍÏÏÍÌÎÎÍÌÏÏÎÌ",
+    "proposed_name": "DialogButtonGroupPanel",
+    "confidence": "medium",
+    "reason": "字段 _bottomRow/_label/_buttonsGroup/closeButtons + OnPointer/OnSelect 对话框按钮组面板"
+  },
+  {
+    "original_name": "ÍÎÌÍÍÍÏÎÍÎÌÍÍÏÌÌÍÌÌÎÏÎÍ",
+    "proposed_name": "ConditionalLogger",
+    "confidence": "high",
+    "reason": "方法 get/set_IsEnabled + Log/LogWarning/LogError/LogOnceEvery 条件日志器接口"
+  },
+  {
+    "original_name": "ÏÍÎÍÏÍÎÏÌÍÌÍÌÏÎÏÏÏÌÏÏÌÌ",
+    "proposed_name": "NetworkSerializableTypeHandler",
+    "confidence": "high",
+    "reason": "继承 NetworkReadyHandler，含 Encode/Decode/NeedsImportant/CanSerialize32Bit/SerializedName"
+  },
+  {
+    "original_name": "ÏÍÍÌÏÏÏÌÌÌÎÍÌÌÎÏÏÏÍÏÎÎÏ",
+    "proposed_name": "NetworkSyncTypeHandler",
+    "confidence": "high",
+    "reason": "继承 NetworkReadyHandler，含 NeedsSync/Encode/Decode/OnEnable/OnDisable"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÌÍÌÏÏÍÎÏÌÍÎÎÍÎÍÌÎÏ",
+    "proposed_name": "ContentWarningBannerController",
+    "confidence": "high",
+    "reason": "字段 _contentWarningBanner 直接命名内容警告横幅控制器"
+  },
+  {
+    "original_name": "ÌÌÍÏÎÏÌÏÍÌÎÎÏÏÎÌÍÏÌÍÎÏÎ",
+    "proposed_name": "LocalPlayerRpcOverrideHandler",
+    "confidence": "medium",
+    "reason": "方法 OnPlayerJoined/InternalApplyOverrideRPC 本地玩家 RPC 覆写处理器"
+  },
+  {
+    "original_name": "ÎÍÌÎÏÌÏÍÎÌÌÏÍÍÍÌÌÌÎÍÍÍÍ",
+    "proposed_name": "CalendarDayListController",
+    "confidence": "high",
+    "reason": "字段 _calendarDaysList/_calendarDatePrefab 日历天列表控制器"
+  },
+  {
+    "original_name": "ÍÎÍÍÌÌÏÍÏÌÍÍÍÌÌÌÍÍÏÍÌÎÎ",
+    "proposed_name": "CalendarMonthPanelController",
+    "confidence": "high",
+    "reason": "字段 _monthToView/_calendarMonthPanel/_calendarSideList/_searchButton/_calendarEventsFilterButton 完整月历面板"
+  },
+  {
+    "original_name": "ÎÌÏÎÏÎÏÌÎÍÌÌÍÌÏÏÍÏÍÏÍÎÏ",
+    "proposed_name": "ClippingMaskableGraphic",
+    "confidence": "high",
+    "reason": "继承 MaskableGraphic，含 SetClipRect/SetClipSoftness/OnPopulateMesh 可裁剪遮罩图形"
+  },
+  {
+    "original_name": "ÎÌÏÏÍÌÏÍÎÌÏÌÏÎÍÎÌÏÍÍÎÌÏ",
+    "proposed_name": "KeyboardKeyRenderer",
+    "confidence": "high",
+    "reason": "字段 keyParent/keyRenderer/keyTextRenderer + Update 虚拟键盘按键渲染器"
+  },
+  {
+    "original_name": "ÏÌÍÍÌÍÎÏÌÌÎÌÌÎÌÎÍÏÎÏÌÏÌ",
+    "proposed_name": "OrientationScaleAdapter",
+    "confidence": "high",
+    "reason": "字段 landscapeScale/portraitScale 横竖屏缩放适配器"
+  },
+  {
+    "original_name": "ÍÌÎÏÏÏÏÏÎÍÎÍÍÌÏÍÌÎÍÍÌÏÎ",
+    "proposed_name": "SoftClippingRectMask",
+    "confidence": "high",
+    "reason": "继承 RectMask2D，含 UpdateClipSoftness/PerformClipping/get_softness 软边缘裁剪矩形遮罩"
+  },
+  {
+    "original_name": "ÏÌÏÌÏÍÎÌÎÎÏÌÍÎÌÍÍÏÌÍÍÍÌ",
+    "proposed_name": "TrustVerifiedIconDisplay",
+    "confidence": "high",
+    "reason": "字段 trustIcon/verifiedIcon 信任等级与认证图标显示组件"
+  },
+  {
+    "original_name": "ÌÍÏÏÏÌÏÏÌÎÌÎÎÍÏÍÏÍÍÌÌÌÍ",
+    "proposed_name": "TypedIconLayoutItem",
+    "confidence": "medium",
+    "reason": "字段 type/icon/layoutElement + OnEnable/OnDisable 带类型标识的图标布局元素"
+  },
+  {
+    "original_name": "ÌÍÌÎÌÌÌÏÍÍÌÎÍÍÏÌÌÌÌÍÏÎÎ",
+    "proposed_name": "MarketplaceButtonListItem",
+    "confidence": "high",
+    "reason": "继承 UIObservableListk__BackingField，字段 _marketPlaceButton + 完整 OnPointer 事件"
+  },
+  {
+    "original_name": "ÌÎÎÍÍÍÏÎÏÎÍÏÌÍÍÌÍÌÌÏÏÏÌ",
+    "proposed_name": "JoystickDirectionIndicator",
+    "confidence": "high",
+    "reason": "字段 _joystickDirIndicator/_joystickDirIndicatorLine/maxDistanceUnits/adjustment 摇杆方向指示器"
+  },
+  {
+    "original_name": "ÍÌÎÎÏÏÍÏÍÏÎÏÌÌÍÏÏÍÌÌÏÏÏ",
+    "proposed_name": "MemberListScrollPanel",
+    "confidence": "high",
+    "reason": "字段 _listBinding/_memberItemPrefab/_scrollRect 成员列表滚动面板"
+  },
+  {
+    "original_name": "ÌÎÎÍÏÏÌÏÍÎÎÏÍÌÏÌÍÌÏÏÌÍÍ",
+    "proposed_name": "NotificationTweenController",
+    "confidence": "high",
+    "reason": "字段 notificationPrefab/tweenInPoint/tweenOutPoint + Update 通知动画进出控制器"
+  }
+]

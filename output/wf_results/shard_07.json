@@ -1,0 +1,158 @@
+[
+  {
+    "original_name": "ÎÏÏÍÏÌÎÎÎÌÌÏÏÌÎÏÍÍÍÎÎÍÏ",
+    "proposed_name": "EmojiPreviewCropController",
+    "confidence": "high",
+    "reason": "字段 previewDrag/zoom/previewImage/preview/bounds/animatedEmojiCropMaterial 明确指向带动画 Emoji 的预览裁剪 UI 控制器"
+  },
+  {
+    "original_name": "ÏÏÏÍÍÍÎÌÍÎÎÎÎÍÎÍÍÍÏÍÍÌÌ",
+    "proposed_name": "OnScreenJoystick",
+    "confidence": "high",
+    "reason": "继承 OnScreenControl，字段 m_MovementRange/m_ControlPath/_s_OnScreenDevices 加上 OnDrag/OnPointerDown/OnPointerUp 是 Unity 标准虚拟摇杆实现"
+  },
+  {
+    "original_name": "ÌÏÌÎÌÍÎÍÌÌÎÏÍÍÌÌÎÏÌÌÏÌÌ",
+    "proposed_name": "ReticleCanvasController",
+    "confidence": "high",
+    "reason": "字段 reticleCanvas/_canvasScaler/_mobileReticle/_rectTransform 加上 Initialize/LateUpdate 是 VRChat 瞄准十字准心 UI 组件"
+  },
+  {
+    "original_name": "ÌÏÍÍÏÎÍÏÏÍÌÏÌÎÌÎÏÍÌÎÌÍÏ",
+    "proposed_name": "PreviewNavigationButton",
+    "confidence": "medium",
+    "reason": "字段 previewStyle/dragHandler/rotator，继承于包含 previousImageBu 的导航按钮基类，处理完整指针和导航事件"
+  },
+  {
+    "original_name": "ÏÏÍÏÎÌÍÏÏÍÎÏÌÎÍÎÎÏÎÏÌÌÏ",
+    "proposed_name": "VrcPlusItemButton",
+    "confidence": "high",
+    "reason": "字段 holdProgressImage/_vrcPlusExclusiveBadge/_vrcPlusExclusiveLockedIcon/_defaultMaterial/_grayScaleMaterial 明确指向 VRC+ 专属内容按钮，带长按进度和锁定状态"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÏÎÍÎÌÍÌÍÎÎÎÍÏÏÌÍÌÎ",
+    "proposed_name": "PlatformIconContextHandler",
+    "confidence": "medium",
+    "reason": "字段 _platformIconContext，方法 Initialize/OnEnable/OnDisable/OnDestroy 是平台图标上下文绑定组件"
+  },
+  {
+    "original_name": "ÍÍÌÌÌÎÌÌÎÎÌÏÏÏÌÏÏÌÍÎÎÎÎ",
+    "proposed_name": "AlertSpinnerPanel",
+    "confidence": "high",
+    "reason": "字段 alertText/alertSpinner/_canvasGroup 是带文字和旋转加载指示器的提示面板"
+  },
+  {
+    "original_name": "ÏÍÍÌÎÎÍÌÍÎÎÏÎÍÌÍÎÏÌÏÎÍÏ",
+    "proposed_name": "StoreItemRowView",
+    "confidence": "medium",
+    "reason": "字段 _nameText/_purchaseOrViewButton/_detailsButton/_giftButton 是商城/物品列表行，含购买、查看详情、赠送按钮"
+  },
+  {
+    "original_name": "ÎÎÌÌÍÌÏÍÌÏÍÎÌÌÎÏÍÏÌÎÏÌÏ",
+    "proposed_name": "LabeledInputFieldRow",
+    "confidence": "medium",
+    "reason": "字段 _label/_button/_vrcInputField 是带标签和按钮的 VRC 输入框行组件"
+  },
+  {
+    "original_name": "ÎÌÍÌÍÎÍÍÏÏÏÌÎÏÎÏÏÍÌÌÏÍÏ",
+    "proposed_name": "VoiceSpeakingIndicator",
+    "confidence": "high",
+    "reason": "字段 _notSpeakingIconAlpha/_speakingIndicatorAmplitudeThreshold/_speakingIndicatorSmoothingSpeed/canvasGroup 是语音说话状态指示器，带振幅阈值和平滑速度"
+  },
+  {
+    "original_name": "ÍÍÎÌÎÎÏÎÎÎÎÎÍÏÍÏÎÏÏÍÌÏÎ",
+    "proposed_name": "SupportedPlatformTagsDisplay",
+    "confidence": "high",
+    "reason": "字段 richPlatformCanvas/supportedPlatformsListBinding/supportedPlatformTags/platformPrefab 是支持平台标签列表展示组件"
+  },
+  {
+    "original_name": "ÌÏÎÎÎÏÍÌÎÏÌÎÌÏÎÏÍÍÎÏÌÌÍ",
+    "proposed_name": "SingleButtonInvoker",
+    "confidence": "medium",
+    "reason": "只有字段 _button 和方法 Invoke，是最简单的单按钮调用包装组件"
+  },
+  {
+    "original_name": "ÏÌÏÌÌÌÏÌÍÌÍÎÍÍÏÍÎÍÏÍÍÌÎ",
+    "proposed_name": "DebugShapeRenderer",
+    "confidence": "medium",
+    "reason": "字段 _alpha，方法 Line/Sphere/get_Alpha/set_Alpha 是用于调试渲染线和球体的辅助组件"
+  },
+  {
+    "original_name": "ÍÍÍÍÎÏÍÍÏÏÎÌÍÍÎÎÌÎÎÍÏÏÍ",
+    "proposed_name": "IconTextButtonItem",
+    "confidence": "medium",
+    "reason": "字段 _text/_button/_image 是带文字、按钮和图片的通用列表项组件"
+  },
+  {
+    "original_name": "ÌÌÎÍÎÍÌÎÌÌÏÌÌÏÌÎÎÏÍÎÌÍÍ",
+    "proposed_name": "HighlightBannerController",
+    "confidence": "medium",
+    "reason": "字段 _highlightBanners/_defaultBanner 加 Update 方法是管理高亮横幅切换的控制器"
+  },
+  {
+    "original_name": "ÎÌÌÎÎÎÍÎÌÌÌÍÎÌÎÎÌÍÍÍÏÎÏ",
+    "proposed_name": "ImageGroupTooltipButton",
+    "confidence": "medium",
+    "reason": "字段 _imageBinding/_button/_groupName/_tooltip 是带图片绑定、分组名和提示的按钮组件"
+  },
+  {
+    "original_name": "ÌÎÎÌÌÌÍÍÍÍÎÎÍÌÎÍÏÏÌÌÌÏÍ",
+    "proposed_name": "InputMethodCompatibilityToggle",
+    "confidence": "high",
+    "reason": "字段 targetButton/disabledState/targetToggle/incompatibleInputMethods/disabledAlertText 是处理输入方式兼容性的按钮/开关禁用逻辑"
+  },
+  {
+    "original_name": "ÌÎÌÌÏÎÏÌÌÍÏÌÎÏÎÍÍÎÌÌÍÌÌ",
+    "proposed_name": "AgeVerificationStatusButton",
+    "confidence": "high",
+    "reason": "字段 _button/_ageVerificationStatus/_icon 是年龄验证状态显示按钮"
+  },
+  {
+    "original_name": "ÌÍÍÍÍÏÌÍÎÏÌÌÏÍÌÎÍÌÏÍÌÌÍ",
+    "proposed_name": "SortByDropdownController",
+    "confidence": "high",
+    "reason": "字段 _sortByDropdown 是排序下拉框控制器"
+  },
+  {
+    "original_name": "ÌÏÎÏÌÏÍÍÍÍÍÌÌÌÏÌÍÎÏÍÍÏÌ",
+    "proposed_name": "ScreenSwitcherController",
+    "confidence": "medium",
+    "reason": "字段 _screen 加 Initialize 方法是屏幕/面板切换控制器"
+  },
+  {
+    "original_name": "ÌÌÍÍÎÏÍÎÌÌÌÎÎÏÌÌÏÍÍÍÏÌÍ",
+    "proposed_name": "ImageTooltipButtonItem",
+    "confidence": "medium",
+    "reason": "字段 _imageBinding/_defaultIconText/_tooltip/_button 是带图片绑定、默认图标文字和提示的按钮项"
+  },
+  {
+    "original_name": "ÏÍÍÎÎÌÎÏÏÎÍÍÍÍÏÌÎÏÌÏÌÌÌ",
+    "proposed_name": "HudNotificationButton",
+    "confidence": "high",
+    "reason": "字段 _button/_hudNotification/_hudIconNotification 是 HUD 通知区域的按钮组件，带图标通知"
+  },
+  {
+    "original_name": "ÌÌÏÍÍÏÌÏÎÎÌÌÍÌÌÍÎÌÌÍÌÌÌ",
+    "proposed_name": "NetworkSyncComponent",
+    "confidence": "high",
+    "reason": "继承 NetworkReadyHandler，字段 _typeId/_uniqueHash，方法 Encode/Decode/NeedsSync/CanSerialize8Bit/CanSerialize32Bit/GenerateComponentInfo 是网络同步序列化组件"
+  },
+  {
+    "original_name": "ÎÌÍÍÎÏÌÌÍÍÏÍÌÍÌÎÌÍÍÎÏÌÍ",
+    "proposed_name": "ToggleSwitchWithLabel",
+    "confidence": "high",
+    "reason": "字段 textOnOff/toggleSwitch 加 OnEnable/OnDisable/OnDestroy 是带开关文字标签的 Toggle 组件"
+  },
+  {
+    "original_name": "ÍÌÏÌÎÌÏÎÍÍÎÏÏÎÏÎÎÌÍÏÌÌÎ",
+    "proposed_name": "StyleElementButton",
+    "confidence": "medium",
+    "reason": "字段 _button/_styleElement 是绑定样式元素的按钮组件"
+  },
+  {
+    "original_name": "ÎÏÌÍÍÌÎÏÏÏÎÎÌÏÍÍÏÏÎÍÍÏÌ",
+    "proposed_name": "SelectedAvatarPanelController",
+    "confidence": "high",
+    "reason": "字段 _selectedAvatarPanel 加 Initialize/OnDisable 是已选中 Avatar 面板的控制器"
+  }
+]

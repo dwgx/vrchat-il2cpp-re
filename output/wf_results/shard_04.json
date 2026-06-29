@@ -1,0 +1,314 @@
+[
+  {
+    "original_name": "ÍÎÌÍÍÌÏÍÏÎÍÎÌÌÏÎÏÏÍÍÎÌÏ",
+    "proposed_name": "WorldPreloadDownloadButton",
+    "confidence": "high",
+    "reason": "fields preloadWorldGroup/downloadingWorldGroup/downloadingProgressBar indicate world preload download UI"
+  },
+  {
+    "original_name": "ÏÎÏÌÍÍÏÍÍÌÎÍÏÎÎÌÎÍÏÎÎÌÏ",
+    "proposed_name": "PortalInfoPanel",
+    "confidence": "high",
+    "reason": "fields instanceName/instanceDescription/_regionIcon/_ageGateIcon/portalSubtext map to portal info panel"
+  },
+  {
+    "original_name": "ÌÎÍÌÎÎÌÌÍÏÎÌÍÍÎÎÏÎÎÎÌÎÍ",
+    "proposed_name": "MilestoneProgressBar",
+    "confidence": "high",
+    "reason": "fields _milestoneValues/_barGraphic/_milestoneObject/_MilestoneContainer/_handle indicate milestone progress bar"
+  },
+  {
+    "original_name": "ÎÍÍÎÏÏÎÎÌÍÎÍÌÌÏÏÍÎÍÏÏÏÎ",
+    "proposed_name": "TexturePanTweenController",
+    "confidence": "high",
+    "reason": "fields _tweenTime/_tweenCurve/_enableTexturePanning/_panSpeed/_panTarget indicate texture pan tween controller"
+  },
+  {
+    "original_name": "ÎÎÎÏÏÏÎÍÎÌÍÏÏÌÏÍÍÌÏÍÌÍÍ",
+    "proposed_name": "ChatInputPromptPanel",
+    "confidence": "high",
+    "reason": "fields _preview/_promptField/_submitButton/_cancelButton/_historyButton with OnSubmit/OnCancel indicate chat input panel with history"
+  },
+  {
+    "original_name": "ÎÌÍÏÍÏÏÍÎÌÎÌÍÍÍÏÍÏÏÏÌÌÌ",
+    "proposed_name": "UserListEntryItem",
+    "confidence": "high",
+    "reason": "fields userData/visibilityButton/viewUserProfileButton/reportButton/vrcPlusButton indicate user list entry UI item"
+  },
+  {
+    "original_name": "ÍÎÏÎÎÌÏÌÎÏÏÏÎÎÎÎÎÏÍÏÏÏÎ",
+    "proposed_name": "VrLoadingOverlayManager",
+    "confidence": "high",
+    "reason": "fields steamVR/oculusVR/openXRLoadingOverlayResource/_flatLoadingOverlayResource indicate multi-platform VR loading overlay manager"
+  },
+  {
+    "original_name": "ÏÌÎÎÎÌÎÏÌÏÌÍÎÏÌÍÌÏÎÎÎÌÎ",
+    "proposed_name": "PlaylistToggleScrollList",
+    "confidence": "high",
+    "reason": "fields _playlistTogglePrefab/_vrcPlusPlaylistTogglePrefab/_playlistToggleClassicPrefab/_listBinding indicate playlist toggle scroll list"
+  },
+  {
+    "original_name": "ÎÎÏÌÎÌÌÏÏÎÎÌÌÍÍÌÍÍÍÌÌÎÍ",
+    "proposed_name": "StorePurchaseHistoryItem",
+    "confidence": "high",
+    "reason": "fields _thumbnailImage/_itemName/_itemSeller/_dateTimestamp/_amount/_balance/_type indicate store purchase history list item"
+  },
+  {
+    "original_name": "ÏÍÍÌÍÏÏÌÌÏÍÎÍÍÌÍÏÎÎÏÏÏÏ",
+    "proposed_name": "UserProfileEntryWidget",
+    "confidence": "high",
+    "reason": "fields userProfileButton/userIconImage/userNameText/userStatusText/userStatusIcon indicate user profile entry widget"
+  },
+  {
+    "original_name": "ÍÎÎÍÌÏÎÎÍÍÏÎÎÌÏÏÏÍÌÍÎÌÏ",
+    "proposed_name": "EventListPanel",
+    "confidence": "high",
+    "reason": "fields _header/_headerText/_eventCountBinding/_eventListBinding/_instancePrefab/_canvas indicate event list panel"
+  },
+  {
+    "original_name": "ÎÌÎÍÍÍÌÎÎÏÌÌÏÏÌÌÏÎÎÌÏÌÎ",
+    "proposed_name": "CameraCaptureMenuPanel",
+    "confidence": "high",
+    "reason": "fields takePictureButton/galleryButton/uploadOnWebButton/closeButton indicate camera capture menu panel"
+  },
+  {
+    "original_name": "ÎÍÍÌÏÏÌÍÌÍÍÎÎÏÏÍÍÍÍÎÍÏÌ",
+    "proposed_name": "CollapsablePanelController",
+    "confidence": "medium",
+    "reason": "fields _collapsableStyleComponentController/_contentPanel/_parentContainer indicate collapsable panel style controller"
+  },
+  {
+    "original_name": "ÎÍÏÌÍÏÍÍÏÌÏÎÎÏÏÌÌÎÎÌÌÎÌ",
+    "proposed_name": "GiftBoxAnimationController",
+    "confidence": "high",
+    "reason": "fields giftBoxMain/giftBoxLoop/gifterPrefab/giftedToPrefab/giftedToPrefabLoop explicitly indicate gift box animation controller"
+  },
+  {
+    "original_name": "ÍÌÌÏÍÍÍÏÏÎÎÍÍÌÌÌÌÏÎÍÍÏÌ",
+    "proposed_name": "MinimizablePanelController",
+    "confidence": "high",
+    "reason": "fields _panelRectTransform/_disableWhenMinimized/_enableWhenMinimized/_minimizeButton/_arrow indicate minimizable panel controller"
+  },
+  {
+    "original_name": "ÏÎÎÍÎÌÍÌÎÏÍÍÎÎÎÌÎÎÎÍÍÎÏ",
+    "proposed_name": "SliderHandleWidget",
+    "confidence": "medium",
+    "reason": "fields slider/target/handle/canvasGroup indicate slider drag handle widget"
+  },
+  {
+    "original_name": "ÌÎÍÏÌÍÎÎÍÍÌÌÍÍÎÎÎÌÌÏÍÏÍ",
+    "proposed_name": "PurchaseTypeFilterPanel",
+    "confidence": "high",
+    "reason": "fields purchaseTypeSelectionToggles/applyButton/cancelButton/closeButton indicate purchase type filter panel"
+  },
+  {
+    "original_name": "ÎÏÍÍÍÌÌÌÎÌÎÎÍÎÎÌÍÏÌÌÍÎÎ",
+    "proposed_name": "TransactionHistoryItem",
+    "confidence": "high",
+    "reason": "fields _dateTimestamp/_timeTimestamp/_reason/_itemName/_itemToOrFromUser/_amount/_balance indicate transaction history item"
+  },
+  {
+    "original_name": "ÌÏÍÎÍÌÍÍÏÍÎÌÏÌÏÎÏÏÍÏÌÏÎ",
+    "proposed_name": "GroupRoleToggleItem",
+    "confidence": "high",
+    "reason": "fields toggle/label/groupOwnerIcon/moderatorIcon/managerIcon/forcedOnIcon indicate group role permission toggle list item"
+  },
+  {
+    "original_name": "ÌÌÎÏÍÌÏÍÏÎÍÏÌÏÌÌÌÌÍÏÏÏÎ",
+    "proposed_name": "HudLayoutController",
+    "confidence": "high",
+    "reason": "fields LeftLayout/CenterLayout/RightLayout/DesktopLayoutMenuOpen/PopupNotification indicate HUD layout controller"
+  },
+  {
+    "original_name": "ÏÌÏÍÏÏÏÏÌÍÍÎÍÎÎÎÌÎÍÏÌÌÏ",
+    "proposed_name": "MidiInputDevice",
+    "confidence": "high",
+    "reason": "methods add_OnMidiVoiceMessage/remove_OnMidiVoiceMessage/Close explicitly indicate MIDI input device"
+  },
+  {
+    "original_name": "ÌÍÌÏÍÌÎÎÍÌÌÍÍÏÎÍÌÍÎÎÌÌÏ",
+    "proposed_name": "SafeZoneDistanceSelector",
+    "confidence": "medium",
+    "reason": "fields _quarter/_half/_default/_unlimited indicate four-tier safe zone distance selector"
+  },
+  {
+    "original_name": "ÌÏÏÍÎÍÏÌÎÎÌÍÌÍÎÏÌÏÍÏÎÍÏ",
+    "proposed_name": "GroupInstanceTypeSelector",
+    "confidence": "high",
+    "reason": "fields groupInstanceTypeButton/groupPlusInstanceTypeButton/groupPublicInstanceTypeButton indicate group instance type selector"
+  },
+  {
+    "original_name": "ÎÍÎÏÌÍÏÌÏÎÍÍÍÍÍÎÏÍÍÌÍÎÏ",
+    "proposed_name": "ThumbnailFadeTransitionController",
+    "confidence": "high",
+    "reason": "fields front/back/left/right/top/bottom/fadeOutTime/fadeInTime/loadingScreenFadeInTime indicate thumbnail fade transition controller"
+  },
+  {
+    "original_name": "ÌÎÌÎÌÎÍÌÏÎÎÎÎÍÎÍÍÌÌÏÎÏÎ",
+    "proposed_name": "UserStatusFilterPanel",
+    "confidence": "high",
+    "reason": "fields statusListBinding/statusTogglePrefab/statusSelectAllButton/availabilitySelectAllButton/applyButton indicate user status filter panel"
+  },
+  {
+    "original_name": "ÎÎÍÌÏÎÍÍÏÌÏÎÍÍÍÎÌÌÍÎÏÏÍ",
+    "proposed_name": "RecommendedSearchList",
+    "confidence": "high",
+    "reason": "fields _recommendedSearchList/_recommendedSearchCellPrefab explicitly indicate recommended search list"
+  },
+  {
+    "original_name": "ÍÌÏÌÍÍÍÌÎÍÏÎÌÎÎÏÎÏÏÎÌÎÎ",
+    "proposed_name": "MicrophoneInputMonitor",
+    "confidence": "high",
+    "reason": "fields micInputVolume/micFrequency with OnApplicationFocus/OnGUI indicate microphone input monitor"
+  },
+  {
+    "original_name": "ÏÏÌÍÍÍÍÎÌÏÏÍÎÎÎÎÌÍÎÌÎÎÎ",
+    "proposed_name": "FlowLayoutGroup",
+    "confidence": "medium",
+    "reason": "parent LayoutGroup with m_StartAxis and SetLayoutVertical/SetLayoutHorizontal indicate a flow layout group"
+  },
+  {
+    "original_name": "ÎÎÍÏÏÍÍÌÍÍÍÎÏÍÎÏÍÌÎÏÌÌÎ",
+    "proposed_name": "PositionerComponent",
+    "confidence": "medium",
+    "reason": "field positioner with Dispose/Cleanup/Initialize indicate a positioning helper component"
+  },
+  {
+    "original_name": "ÌÎÍÌÌÍÍÎÌÍÍÏÌÍÏÍÎÏÍÍÏÍÏ",
+    "proposed_name": "SettingButtonElement",
+    "confidence": "medium",
+    "reason": "fields setting/styleElement/tooltip/button indicate a styled setting button UI element"
+  },
+  {
+    "original_name": "ÍÌÏÏÎÍÌÏÎÍÌÌÎÌÌÎÍÌÍÏÍÍÍ",
+    "proposed_name": "IconButtonWidget",
+    "confidence": "medium",
+    "reason": "fields text/icon/border/background/canvasGroup indicate a generic icon button widget"
+  },
+  {
+    "original_name": "ÍÎÎÏÎÎÌÏÍÏÍÏÍÎÌÏÍÌÍÎÎÎÍ",
+    "proposed_name": "PlayerLeftEventHandler",
+    "confidence": "medium",
+    "reason": "method OnPlayerLeft indicates a player-left event handler"
+  },
+  {
+    "original_name": "ÍÍÏÍÏÏÏÎÌÍÍÏÍÏÍÍÎÎÎÍÍÍÎ",
+    "proposed_name": "GroupBannerPageController",
+    "confidence": "high",
+    "reason": "fields groupBannerPrefab/groupButtonParent/page indicate group banner page controller"
+  },
+  {
+    "original_name": "ÌÎÎÏÍÍÍÍÎÏÏÍÍÌÎÌÍÌÏÌÌÍÌ",
+    "proposed_name": "EventListBinding",
+    "confidence": "high",
+    "reason": "fields _listBinding/_listItemPrefab/_noEventsText indicate event list binding component"
+  },
+  {
+    "original_name": "ÍÏÎÍÍÏÎÎÎÌÍÌÍÌÌÎÎÍÌÎÎÏÍ",
+    "proposed_name": "SliderLabelController",
+    "confidence": "medium",
+    "reason": "fields labelText/slider/sliderDrag/sliderPointer with pointer events indicate slider with label controller"
+  },
+  {
+    "original_name": "ÍÎÏÍÏÏÍÏÏÌÏÏÏÎÍÍÏÍÌÏÍÏÎ",
+    "proposed_name": "LocalizedCountTextField",
+    "confidence": "high",
+    "reason": "fields textField/_localizableFormat/_localizableEmptyText/_countFormat/_hideIfEmpty indicate localized count text field"
+  },
+  {
+    "original_name": "ÌÏÌÌÎÎÍÎÎÏÍÍÌÏÏÍÌÌÏÍÌÌÎ",
+    "proposed_name": "SavedSearchItem",
+    "confidence": "high",
+    "reason": "fields _titleText/_termButton/_removeSavedSearchButton/_savedSearchIcon indicate saved search list item"
+  },
+  {
+    "original_name": "ÏÌÍÏÌÍÎÍÏÏÏÏÌÏÎÍÎÍÎÎÍÍÏ",
+    "proposed_name": "EventCardItem",
+    "confidence": "high",
+    "reason": "fields _imageBinding/_button/_titleText/_eventDateText/_liveIndicator indicate event card list item"
+  },
+  {
+    "original_name": "ÏÏÎÍÎÎÎÌÎÎÎÏÎÍÏÎÍÍÍÍÎÎÏ",
+    "proposed_name": "DroneCustomizationPanelController",
+    "confidence": "high",
+    "reason": "fields dollyMain/dollySide/droneCustomizationMain/droneCustomizationSide indicate drone camera customization panel"
+  },
+  {
+    "original_name": "ÏÌÏÏÏÏÍÌÌÌÌÏÎÍÎÎÍÍÏÎÎÌÎ",
+    "proposed_name": "StoreListingItem",
+    "confidence": "high",
+    "reason": "fields _listingTypeLabel/_nameText/_priceText/_productImage/_purchaseButton indicate store product listing item"
+  },
+  {
+    "original_name": "ÌÌÏÎÌÎÌÎÎÎÏÍÌÍÏÎÌÍÍÏÏÏÎ",
+    "proposed_name": "AnimatedImageButton",
+    "confidence": "medium",
+    "reason": "fields _button/_image/_animatedImage/_textureSheetPlayer/_style/defaultImage indicate animated image button widget"
+  },
+  {
+    "original_name": "ÎÎÎÏÌÎÍÎÌÎÍÏÏÍÏÏÌÍÌÌÏÍÍ",
+    "proposed_name": "AvatarParameterEnumerator",
+    "confidence": "high",
+    "reason": "method get_Current typed as VRC.Playables.AvatarParameter with MoveNext/GetEnumerator indicate avatar parameter enumerator"
+  },
+  {
+    "original_name": "ÍÍÌÌÏÌÏÌÎÎÎÏÍÎÏÏÎÎÌÌÍÌÏ",
+    "proposed_name": "ColorPickerTabButton",
+    "confidence": "high",
+    "reason": "fields colorPickerModal/tabType/styleElement/colorDisplay/colorOutline/button indicate color picker tab button"
+  },
+  {
+    "original_name": "ÎÏÎÍÌÍÌÎÏÏÌÍÌÍÎÎÍÎÏÎÏÎÌ",
+    "proposed_name": "AvatarPanelEntryItem",
+    "confidence": "high",
+    "reason": "fields _layout/_avatarPanel/_avatarUnavailableBanner/_favoriteButton indicate avatar panel selectable entry item"
+  },
+  {
+    "original_name": "ÎÏÌÌÍÏÌÍÍÎÏÎÎÎÎÏÌÎÏÍÎÎÎ",
+    "proposed_name": "ColorStyleButtonLabel",
+    "confidence": "medium",
+    "reason": "fields parent/styleElement/colorDisplay/colorOutline/button/label indicate a color style button with label"
+  },
+  {
+    "original_name": "ÎÎÍÏÏÍÏÌÏÎÍÌÎÎÍÍÏÎÏÎÍÍÎ",
+    "proposed_name": "NumericSliderToggleControl",
+    "confidence": "high",
+    "reason": "fields _slider/_numberText/_infiniteSymbol/_toggleSwitch/_toggleButton/_buttonIconStyle indicate numeric slider with toggle control"
+  },
+  {
+    "original_name": "ÍÍÏÏÎÍÍÌÎÍÌÍÌÌÏÌÏÎÌÌÎÌÍ",
+    "proposed_name": "ConsentBannerPanelController",
+    "confidence": "high",
+    "reason": "fields _consentInfoPanels/_downloadProgressPanels/_bannerControllers/_communityLabsPanels indicate consent/banner panel controller"
+  },
+  {
+    "original_name": "ÌÌÍÍÎÍÏÏÌÌÍÎÍÍÎÍÍÌÍÏÍÌÏ",
+    "proposed_name": "RemoteBackgroundImageController",
+    "confidence": "high",
+    "reason": "fields _remoteBackgroundContainer/_remoteBackgroundImage indicate remote background image controller"
+  },
+  {
+    "original_name": "ÍÌÍÎÏÍÍÌÌÍÌÍÌÎÍÍÍÌÌÏÏÏÎ",
+    "proposed_name": "VRCPropApiWrapper",
+    "confidence": "high",
+    "reason": "parent VRCPropApi with methods GetPlayersInRange/GetScale/GetPosition/RequestDespawn/RequestConsume indicate VRCProp API wrapper"
+  },
+  {
+    "original_name": "ÎÏÌÍÏÏÏÏÎÍÌÌÌÎÎÌÌÎÏÌÏÏÍ",
+    "proposed_name": "ShareableListItemWidget",
+    "confidence": "high",
+    "reason": "fields nameDisplay/highlightDisplay/iconDisplay/buttonsDisplay/textDisplay/subtextDisplay/selectionBinding/shareButton indicate shareable list item widget"
+  },
+  {
+    "original_name": "ÎÏÌÍÌÍÏÎÎÎÍÍÍÌÎÎÌÎÍÌÌÏÌ",
+    "proposed_name": "ShowMoreListController",
+    "confidence": "high",
+    "reason": "fields _maxCellCount/_content/_cellPrefab/_showMoreLessButton indicate show-more expandable list controller"
+  },
+  {
+    "original_name": "ÏÏÍÌÏÎÏÌÏÎÎÎÏÎÏÍÌÍÎÏÍÍÏ",
+    "proposed_name": "NameplateTextResizer",
+    "confidence": "high",
+    "reason": "fields _rectTransform/_text/_textRectTransform/_extraHeightPadding/_updateNameplate indicate nameplate text auto-resize component"
+  }
+]

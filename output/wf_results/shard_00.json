@@ -1,0 +1,332 @@
+[
+  {
+    "original_name": "ÏÎÎÏÍÌÎÌÌÏÌÍÎÌÏÏÏÎÎÎÎÏÎ",
+    "proposed_name": "AvatarDetailsPanel",
+    "confidence": "high",
+    "reason": "fields _selectedAvatarPanel/_avatarPriceContainer/_primaryPurchaseButton/_avatarNameText/_performanceRankText"
+  },
+  {
+    "original_name": "ÏÎÎÌÌÏÍÏÎÍÎÎÏÍÍÏÎÎÎÌÎÏÍ",
+    "proposed_name": "AvatarListItemCell",
+    "confidence": "high",
+    "reason": "fields _avatarPanel/_authorCell/_image/_nameField/_favoriteButtonText with UpdateHeight method"
+  },
+  {
+    "original_name": "ÏÏÏÌÌÏÏÎÍÍÍÍÎÍÏÏÍÌÍÌÌÌÏ",
+    "proposed_name": "SearchResultsTabBar",
+    "confidence": "high",
+    "reason": "fields _searchAllButton/_searchWorldsButton/_searchAvatarsButton/_searchUsersButton each with CountText"
+  },
+  {
+    "original_name": "ÎÍÎÌÍÏÏÏÏÌÎÎÏÌÏÍÍÏÏÌÍÎÌ",
+    "proposed_name": "SearchFilterSourcePanel",
+    "confidence": "high",
+    "reason": "fields _sourceFoldoutToggle/_sourceListBinding/_sourceSelectAllButton/_sourceDeselectAllButton/_accessTypeFoldoutToggle"
+  },
+  {
+    "original_name": "ÍÌÏÍÍÎÎÌÌÌÍÏÌÏÌÎÏÌÏÍÍÏÏ",
+    "proposed_name": "NotificationActionCell",
+    "confidence": "high",
+    "reason": "fields _NotificationActions/_AcceptButton/_DeclineButton/_RespondButton/_ViewProfileButton/_ReportButton/_WalletButton"
+  },
+  {
+    "original_name": "ÏÍÍÌÏÌÎÎÌÏÎÎÏÏÍÏÌÌÍÍÍÏÏ",
+    "proposed_name": "GeneralSettingsPanel",
+    "confidence": "high",
+    "reason": "inherits TrackingCalibrationBase; fields _showTooltips/_preferredLanguage/_afkDetection/_oneHandedMovement/_wingPersistence"
+  },
+  {
+    "original_name": "ÌÌÍÏÍÎÍÍÌÌÌÎÌÎÌÍÏÌÍÏÌÏÎ",
+    "proposed_name": "MarketplaceListingCell",
+    "confidence": "high",
+    "reason": "inherits UIscrollRectfootnote; fields _listingTitleText/_listingAuthorText/_limitedAvailabilityPanel/_limitedTimeContainer"
+  },
+  {
+    "original_name": "ÏÎÏÌÌÏÏÌÌÍÍÍÎÌÎÍÏÎÍÍÏÎÎ",
+    "proposed_name": "EmojiPickerGrid",
+    "confidence": "high",
+    "reason": "fields pickers/pickerPrefab/content/scrollRect/searchQuery/searchUserTags/expandedCount/collapsedCount/collapseRows"
+  },
+  {
+    "original_name": "ÎÎÌÌÎÏÎÌÍÎÎÍÌÏÎÏÎÏÌÎÍÍÎ",
+    "proposed_name": "WorldDetailPanel",
+    "confidence": "high",
+    "reason": "fields _worldInstanceInfoPane/_instancesListBinding/_tagsListBinding/_contentWarningsListBinding/_instancePrefab/_worldPrefab"
+  },
+  {
+    "original_name": "ÎÏÎÍÎÍÌÍÏÏÎÏÌÎÌÏÍÌÎÍÍÏÍ",
+    "proposed_name": "PhotonPeerExtended",
+    "confidence": "medium",
+    "reason": "inherits PhotonPeer; fields _debugBuild/_clientVersion/_useInitV3/_enableEncryptedFlag/_nativeEncryptorApiVersion"
+  },
+  {
+    "original_name": "ÍÏÌÏÏÍÎÎÎÍÌÏÎÌÌÏÌÍÎÍÍÍÍ",
+    "proposed_name": "MarketplaceListingDetailCell",
+    "confidence": "high",
+    "reason": "inherits UIscrollRectfootnote; fields _modalPanel/_bundleBanner/_listingTypeKeyText/_productTypeIconLabel/_subscriptionPanel/_subscriptionExpirationText"
+  },
+  {
+    "original_name": "ÎÎÍÍÍÏÌÎÌÎÍÌÎÎÎÏÏÍÍÌÎÏÎ",
+    "proposed_name": "CreateInstancePanel",
+    "confidence": "high",
+    "reason": "fields createInstanceButton/changeGroupButton/changeRolesButton/changeInstanceTypeButton/selectedGroupText/queueEnabledToggle"
+  },
+  {
+    "original_name": "ÍÏÍÎÍÏÎÍÏÏÎÍÎÏÏÍÎÌÍÌÏÎÌ",
+    "proposed_name": "CameraAvatarOverlayUI",
+    "confidence": "high",
+    "reason": "fields avatarImage/dragHandler/cameraButton/cameraButtonText/nameButton/nameText/reparentPanel"
+  },
+  {
+    "original_name": "ÏÍÎÎÌÌÌÎÌÏÍÍÎÍÌÎÎÎÏÌÏÍÍ",
+    "proposed_name": "AvatarPerformanceDetailsPanel",
+    "confidence": "high",
+    "reason": "fields _avatarPanel/_overallPerformanceRatingIcon/_overallPerformance/_trianglesField/_boundsField/_skinnedMeshesField/_textureMemoryField"
+  },
+  {
+    "original_name": "ÌÎÎÍÍÌÎÏÌÎÌÍÍÍÏÌÌÍÏÍÏÎÍ",
+    "proposed_name": "ShareContentPanel",
+    "confidence": "high",
+    "reason": "fields shareDirect/dropPrintCanvasGroup/dropPrint/printAsPrint/copyUrlButton/shareAsPedestal/selectShareMethodCanvasGroup"
+  },
+  {
+    "original_name": "ÍÎÎÏÌÌÎÎÍÏÎÎÌÌÏÏÌÎÍÏÌÏÌ",
+    "proposed_name": "CreateInstanceSettingsPanel",
+    "confidence": "high",
+    "reason": "fields parent/createInstanceButton/changeGroupButton/changeRolesButton/setDefaultSettingsToggle/queueEnabledToggle/selectedGroupText"
+  },
+  {
+    "original_name": "ÎÎÏÎÏÌÌÎÏÍÏÎÌÏÌÌÎÎÍÍÏÏÎ",
+    "proposed_name": "EventDetailPanel",
+    "confidence": "high",
+    "reason": "fields _eventTitleText/_eventDateText/_eventImageBinding/_livePill/_categoryPill/_reportButton/_backButton"
+  },
+  {
+    "original_name": "ÌÍÍÌÌÍÏÍÌÌÏÏÏÍÎÏÌÍÌÎÍÎÏ",
+    "proposed_name": "MarketplaceProductCell",
+    "confidence": "high",
+    "reason": "fields _nameText/_itemCost/_purchaseButton/_previewButton/_ownedBanner/_premiumBanner/_styleElement/_descriptionPanel"
+  },
+  {
+    "original_name": "ÎÌÎÏÌÎÌÎÏÌÏÎÏÌÍÎÎÌÎÎÏÌÏ",
+    "proposed_name": "SubscriptionPurchasePanel",
+    "confidence": "high",
+    "reason": "field subscribeMonthlyButton with OnApplicationFocus, inherits UIk__BackingField"
+  },
+  {
+    "original_name": "ÏÎÏÍÍÍÌÏÏÌÌÏÎÎÌÍÏÏÎÌÎÎÎ",
+    "proposed_name": "GiftPurchaseConfirmPanel",
+    "confidence": "high",
+    "reason": "inherits UIscrollRectfootnote; fields _recipientUserIcon/_recipientNameText/_purchaseSubtitleText/_subscriptionPanel/_thumbnailQuantityText"
+  },
+  {
+    "original_name": "ÌÏÏÍÍÌÌÏÍÎÏÍÎÏÏÌÎÍÌÎÌÍÏ",
+    "proposed_name": "AvatarPurchasePanel",
+    "confidence": "high",
+    "reason": "fields _titleText/_purchaseButton/_giftButton/_avatarUnavailableBanner/_priceAndPurchaseButtonContainer"
+  },
+  {
+    "original_name": "ÏÎÌÌÎÎÏÏÏÌÎÌÍÌÌÎÎÌÍÏÎÍÍ",
+    "proposed_name": "WorldCell",
+    "confidence": "high",
+    "reason": "fields ThumbnailImage/Name/UserCount/FriendCount/IconFriendCount/_contentWarningBanner/_platformPrefab/_toolTip"
+  },
+  {
+    "original_name": "ÍÎÍÏÎÏÎÏÌÍÍÏÏÏÎÌÎÍÎÍÍÍÍ",
+    "proposed_name": "PhotoCapturePanel",
+    "confidence": "high",
+    "reason": "fields cancelButton/retakeButton/addNoteButton/printAndSaveButton/printCreationCameraPrefab/printPositionTransform"
+  },
+  {
+    "original_name": "ÍÏÏÍÍÍÍÏÍÍÏÎÌÍÍÎÌÍÎÏÌÌÌ",
+    "proposed_name": "ReportSubmitPanel",
+    "confidence": "high",
+    "reason": "fields _submitButton/_closeButton/_reportingInfoObject/_whatsReportedText/_togglePrefab/_categoryList"
+  },
+  {
+    "original_name": "ÎÍÍÎÍÎÎÏÌÎÎÎÏÌÎÏÍÏÎÏÌÏÏ",
+    "proposed_name": "EmojiPickerCell",
+    "confidence": "medium",
+    "reason": "fields image/nameText/nameFade/newBadgeHover/selectedOutline/buttonHover/animationPlayer/exclusiveBackground"
+  },
+  {
+    "original_name": "ÍÌÍÎÎÏÌÌÌÍÍÎÌÎÍÍÌÌÏÎÍÏÍ",
+    "proposed_name": "MarketplaceOrderHistoryCell",
+    "confidence": "high",
+    "reason": "fields _name/_itemCost/_purchaseDateValueText/_viewProductButton/_renewSubButton/_cancelSubButton/_resubscribeButton/_giftInformation"
+  },
+  {
+    "original_name": "ÏÌÏÏÌÌÌÏÏÎÏÍÍÍÏÏÌÌÏÏÍÏÎ",
+    "proposed_name": "WorldInstanceCell",
+    "confidence": "high",
+    "reason": "fields InstanceName/InstanceType/UserCount/FriendCount/WorldName/HypeTrainIcon/RegionIcon/FavoriteIcon/AgeGateIcon"
+  },
+  {
+    "original_name": "ÍÌÍÌÌÌÍÏÌÌÌÏÎÍÌÍÍÌÍÍÍÍÌ",
+    "proposed_name": "AvatarSidebarPanel",
+    "confidence": "high",
+    "reason": "inherits UIk__BackingField; fields _avatarSidePanel/_avatarListView/_searchButton/_currentAvatarButton/_VRCPlusGetMoreAvatars"
+  },
+  {
+    "original_name": "ÏÌÌÌÏÌÌÌÎÌÎÎÏÍÌÍÏÌÏÎÌÎÎ",
+    "proposed_name": "PrintEditorPanel",
+    "confidence": "high",
+    "reason": "fields itemsPanel/previewPanel/transformPanel/variablesPanel/cancelButton/acceptButton/undoButton/redoButton/resetButton/itemCellPrefab"
+  },
+  {
+    "original_name": "ÍÍÏÌÌÏÏÏÌÎÌÏÌÌÌÏÎÍÍÎÎÎÍ",
+    "proposed_name": "GroupAnnouncementCell",
+    "confidence": "high",
+    "reason": "fields headerText/announcementDateText/imageBinding/imageButton/groupImage/groupName/announcementText"
+  },
+  {
+    "original_name": "ÎÍÎÍÌÌÏÌÏÍÌÌÍÍÌÍÍÎÌÌÍÎÎ",
+    "proposed_name": "QuickMenuHandCoachPanel",
+    "confidence": "high",
+    "reason": "fields handCoachAnimator/handCoachHeadTransform/leftCoachWristTransform/rightCoachWristTransform/hmdRenderer/qmPinchForwardAngle with OnDrawGizmos"
+  },
+  {
+    "original_name": "ÌÎÌÌÏÎÏÌÌÎÌÎÏÌÌÍÌÏÏÌÎÎÌ",
+    "proposed_name": "UdonActionMenuPanel",
+    "confidence": "high",
+    "reason": "fields titleText/contextText/closeButton/groupPrevButton/groupNextButton/groupInputField/groupContainer/actionMenu"
+  },
+  {
+    "original_name": "ÏÌÎÏÌÍÏÎÎÌÏÌÎÎÌÌÌÎÏÏÌÌÏ",
+    "proposed_name": "JoinInstancePanel",
+    "confidence": "high",
+    "reason": "fields _closeButton/_joinButton/_historyButton/_dropPortalButton/_instanceNameInputField/_groupInstanceFields/_worldNameText/_instanceTypeText"
+  },
+  {
+    "original_name": "ÌÍÌÍÍÎÏÏÌÌÌÍÌÏÎÎÌÎÏÌÍÎÌ",
+    "proposed_name": "DroneControllerSettingsPanel",
+    "confidence": "high",
+    "reason": "fields canvasGroup/presetSubmenuButton/scrollRect/cameraTilt/maxAngleSlider/expoPitchSlider/expoRollSlider/expoYawSlider/expoThrottleSlider"
+  },
+  {
+    "original_name": "ÏÎÏÎÎÏÍÏÎÌÎÏÎÌÏÍÌÏÎÎÎÎÍ",
+    "proposed_name": "EmojiEditorPanel",
+    "confidence": "high",
+    "reason": "fields headerText/zoomSlider/mirrorButton/acceptTextureButton/cancelButton/previewImage/emojiParticleSystemSelection/emojiMaskPicker/fpsSlider"
+  },
+  {
+    "original_name": "ÏÌÌÏÎÎÍÏÌÍÎÌÏÌÎÎÏÏÍÌÎÏÏ",
+    "proposed_name": "WorldFavoritesPanel",
+    "confidence": "high",
+    "reason": "fields _filterButton/_avatarCategoriesList/_avatarCategoryPrefab/_avatarCellPrefab/_selectedAvatarPanel/_sortDropdown"
+  },
+  {
+    "original_name": "ÌÌÎÎÎÌÌÍÍÌÌÍÎÍÏÌÍÎÎÎÌÏÏ",
+    "proposed_name": "ReportTypeSelectionPanel",
+    "confidence": "high",
+    "reason": "fields ReportUser/ReportAvatar/ReportWorld/ReportGroup/ReportInstance/ReportSticker/ReportEmoji/ReportPrint/ButtonSection/UserSection"
+  },
+  {
+    "original_name": "ÏÌÌÍÎÏÏÎÏÎÏÏÎÎÏÏÎÌÍÏÌÍÌ",
+    "proposed_name": "ImageCarouselPanel",
+    "confidence": "high",
+    "reason": "fields _leftButton/_rightButton/_rightPos/_leftPos/_centerPos/_imageContainer/_scrollTime/_displayImage/_slideImage"
+  },
+  {
+    "original_name": "ÏÌÍÍÍÎÏÌÏÍÍÏÏÌÎÏÌÌÎÌÌÎÌ",
+    "proposed_name": "AvatarCollectionPanel",
+    "confidence": "high",
+    "reason": "fields _avatarListSelectorListBinding/_collectionSelectorGroup/_avatarListView/_avatarListLockedBanner/_sortDropdown/_looksFoldout/_avatarsFoldout"
+  },
+  {
+    "original_name": "ÎÎÍÏÌÌÎÍÏÎÌÎÎÏÌÌÎÏÎÍÏÎÎ",
+    "proposed_name": "VRCPlusSubscriptionPanel",
+    "confidence": "high",
+    "reason": "inherits UIk__BackingField; fields scrollRect/NonSubParent/CampaignPanel/GiftingLeaderboard/VRCPlusBanners/RewardPanel/ManageSubscriptionLink"
+  },
+  {
+    "original_name": "ÌÎÍÌÎÏÌÌÏÎÎÍÌÏÌÎÍÏÍÏÌÏÏ",
+    "proposed_name": "UserProfileTabsPanel",
+    "confidence": "high",
+    "reason": "fields editProfileButton/userProfilePanelButtonWithIndicator/userWalletPanelButtonWithIndicator/userMediaPanelButtonWithIndicator/userWalletPanel"
+  },
+  {
+    "original_name": "ÌÏÍÍÍÍÏÍÎÎÍÍÌÏÍÎÎÎÏÎÏÌÌ",
+    "proposed_name": "VRCPlusCampaignPanel",
+    "confidence": "high",
+    "reason": "fields giftToFriend/giftDrop/contributionInfoParent/participatingCount/contributedFriendCount/friendParticipantImageBindings/campaignEndDate/campaignTitleText"
+  },
+  {
+    "original_name": "ÏÏÎÍÍÍÍÍÏÎÍÍÎÎÎÌÎÏÍÏÌÍÏ",
+    "proposed_name": "GraphicsSettingsPanel",
+    "confidence": "high",
+    "reason": "inherits TrackingCalibrationBase; fields _graphicsQuality/_antiAliasing/_mirrorResolution/_shadowQuality/_lodQuality/_thirdPersonView"
+  },
+  {
+    "original_name": "ÌÌÏÎÌÎÎÍÍÌÎÌÏÎÏÌÌÌÎÌÏÎÏ",
+    "proposed_name": "AvatarBrowsePanel",
+    "confidence": "high",
+    "reason": "fields _filterButton/_scrollRect/_avatarCategoriesList/_avatarCategoryPrefab/_selectedAvatarPanel/_timeToRefresh/_sortDropdown"
+  },
+  {
+    "original_name": "ÌÏÏÍÎÏÌÏÏÏÌÌÎÎÌÏÎÍÏÍÏÌÏ",
+    "proposed_name": "FriendListPanel",
+    "confidence": "medium",
+    "reason": "inherits UIk__BackingFieldComponentImpl; fields _scrollRect/_status/_statusIcon/search/_buttonGroup/_buttons/_headerText/_cellSizeToggle"
+  },
+  {
+    "original_name": "ÌÏÌÏÌÍÎÌÎÍÌÏÌÌÌÏÎÌÏÎÎÍÎ",
+    "proposed_name": "WorldInstanceListPanel",
+    "confidence": "high",
+    "reason": "fields _friendListBinding/_nonFriendListBinding/_friendWorldInstancePrefab/_worldInstancePrefab/_sortDropdown/emptyObject/emptyLabel"
+  },
+  {
+    "original_name": "ÍÎÏÎÎÏÍÎÍÎÏÎÍÌÎÎÍÏÎÏÎÏÎ",
+    "proposed_name": "WorldSearchFilterPanel",
+    "confidence": "high",
+    "reason": "inherits UIk__BackingField; fields _myStuffFoldout/_worldsMyStuff/_worldsMyStuffPlaylists/_worldCategoryPicker/_dropdownFilter"
+  },
+  {
+    "original_name": "ÏÌÎÎÏÌÎÎÏÌÏÏÌÎÍÍÎÌÎÌÍÍÎ",
+    "proposed_name": "AvatarPreviewCamera",
+    "confidence": "high",
+    "reason": "fields renderCamera/previewScene/previewSceneRenderSet/avatarContainer/cameraReplacementShader/blitDepthMaterial/lookThumbnailPostProcessor"
+  },
+  {
+    "original_name": "ÌÌÍÍÌÌÍÌÎÎÏÍÎÎÌÍÎÍÏÏÍÌÏ",
+    "proposed_name": "StorePurchaseItemPanel",
+    "confidence": "high",
+    "reason": "fields PurchaseButtonGameObject/OwnedPanel/ProcessingGameObject/SubscribedBanner/NameText/DescriptionText/PriceText/ExpireText/PuchaseButtonText"
+  },
+  {
+    "original_name": "ÌÍÏÏÏÌÎÍÏÌÌÌÏÍÏÍÍÍÏÏÏÌÎ",
+    "proposed_name": "SearchSortOptionsPanel",
+    "confidence": "high",
+    "reason": "inherits UIscrollRectfootnote; fields _searchTypeRelevance/_searchTypeCustom/_sortByLastUpdated/_sortByPopular/_sortByTrust/_sortByLastLoggedIn"
+  },
+  {
+    "original_name": "ÎÎÎÌÌÏÏÎÍÍÌÎÌÍÍÌÍÎÎÎÏÏÌ",
+    "proposed_name": "GroupInfoPanel",
+    "confidence": "high",
+    "reason": "inherits ButtonIndicatorBase; fields reportGroupButton/shareButton/groupNameText/showGalleryButtonWithIndicator/showMembersButtonWithIndicator"
+  },
+  {
+    "original_name": "ÎÌÏÍÌÍÌÏÏÌÌÏÌÍÍÍÏÏÎÌÍÍÍ",
+    "proposed_name": "ControllerSettingsPanel",
+    "confidence": "high",
+    "reason": "fields canvasGroup/mainControllerTypeLabel/keyboardAndMouseControllerTypeLabel/deadzoneSlider/controllerKBSensitivitySlider/controllerMouseSensitivitySlider"
+  },
+  {
+    "original_name": "ÍÏÎÎÏÏÌÏÌÌÎÌÏÍÌÎÎÌÍÍÏÏÍ",
+    "proposed_name": "BundlePurchasePanel",
+    "confidence": "high",
+    "reason": "inherits UIk__BackingField; fields buyMenu/processingTransactionMenu/purchaseBundlesParent/buyBundleButtonPrefab/ownedBundleButton"
+  },
+  {
+    "original_name": "ÌÌÎÍÌÎÌÎÎÎÌÏÌÎÎÎÍÍÏÌÍÍÏ",
+    "proposed_name": "MarketplaceInventoryPanel",
+    "confidence": "high",
+    "reason": "fields previewPanel/itemsBinding/exploreMarketplaceButton/itemCellPrefab/infoIcon"
+  },
+  {
+    "original_name": "ÏÎÎÍÍÏÎÍÏÏÎÏÌÏÎÏÏÏÏÍÎÎÍ",
+    "proposed_name": "ContentThumbnailCell",
+    "confidence": "high",
+    "reason": "inherits ContainerPromptBaseImpl; fields _noThumbnailTexture/_image/_title/_favoriteIcon/_platformPrefab/_contentWarningBanner/_scanStatusFailed/_scanStatusPending"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "original_name": "ÍÌÌÎÍÎÌÍÎÏÏÎÎÍÎÎÎÌÏÍÌÌÌ",
+    "proposed_name": "LabelStyleElement",
+    "confidence": "medium",
+    "reason": "字段 _label 和 _styleElement 明确指向带样式的 UI 标签组件"
+  },
+  {
+    "original_name": "ÍÎÍÍÎÏÏÌÌÍÍÌÌÏÎÌÍÍÎÎÌÏÍ",
+    "proposed_name": "BillboardAlignmentController",
+    "confidence": "high",
+    "reason": "字段 RotateZOnly/FaceAway/FlatAlignment/AlignWithTarget 是经典 billboard 面朝目标对齐参数，LateUpdate 驱动"
+  },
+  {
+    "original_name": "ÎÎÌÌÌÎÌÌÎÏÌÌÌÌÎÌÌÎÎÏÎÎÎ",
+    "proposed_name": "MaskedOverlayListView",
+    "confidence": "medium",
+    "reason": "字段 buttonPrefab/maskedListBinding/overlayDisplay 指向带遮罩绑定和 overlay 的列表 UI"
+  },
+  {
+    "original_name": "ÎÏÎÌÏÌÌÎÎÍÍÎÎÎÎÎÎÌÎÍÎÎÍ",
+    "proposed_name": "SafetyTooltipHandler",
+    "confidence": "high",
+    "reason": "字段 _safetyLevel 和 tooltipText 明确对应 VRChat 安全等级显示的 tooltip 组件"
+  },
+  {
+    "original_name": "ÍÌÏÍÏÎÍÌÍÏÍÏÍÍÎÍÌÌÍÍÍÍÌ",
+    "proposed_name": "ConsumableItemInfoView",
+    "confidence": "high",
+    "reason": "字段 _nameText/_typeText/_typeIcon/_consumableInfoText 明确指向可消耗道具信息展示 UI"
+  },
+  {
+    "original_name": "ÌÏÍÏÎÏÌÏÏÍÌÏÌÏÍÏÏÌÎÍÎÌÍ",
+    "proposed_name": "FpsCounterDisplay",
+    "confidence": "high",
+    "reason": "字段 text_fps/textUpdateFequency/prefix/suffix/colorizeText 明确是帧率计数器文本显示组件"
+  },
+  {
+    "original_name": "ÎÏÍÏÍÎÍÍÌÎÏÌÎÍÍÎÎÍÌÏÍÎÏ",
+    "proposed_name": "ModalDialogView",
+    "confidence": "high",
+    "reason": "字段 header/description/closeButton/buttons/buttonPrefab 是标准模态对话框结构"
+  },
+  {
+    "original_name": "ÏÌÏÏÎÌÍÎÏÎÍÍÍÍÎÌÍÎÌÌÍÌÍ",
+    "proposed_name": "ScreenResolutionController",
+    "confidence": "medium",
+    "reason": "字段 _screen/_width/_height/_fps 指向管理屏幕分辨率和帧率的组件"
+  },
+  {
+    "original_name": "ÎÏÏÍÍÎÌÏÌÏÏÍÏÌÎÎÍÍÏÍÎÌÌ",
+    "proposed_name": "ImageTextButtonListItem",
+    "confidence": "medium",
+    "reason": "字段 image/text/button 是标准图文按钮列表项结构"
+  },
+  {
+    "original_name": "ÌÎÏÌÌÎÏÍÏÎÌÌÌÎÍÌÌÎÍÏÏÎÌ",
+    "proposed_name": "PaginatedLanguageSelectorView",
+    "confidence": "high",
+    "reason": "字段 labelLanguage/nextButton/previousButton 明确指向支持上下翻页的语言选择 UI"
+  },
+  {
+    "original_name": "ÎÎÏÎÎÎÍÍÌÌÏÎÎÎÌÍÍÍÎÍÏÍÏ",
+    "proposed_name": "AvatarTryWearButtonView",
+    "confidence": "high",
+    "reason": "字段 _button/_tryAvatarSprite/_wearAvatarSprite 明确对应试穿/穿戴 Avatar 按钮 UI"
+  },
+  {
+    "original_name": "ÏÏÍÎÌÏÍÌÏÌÌÍÎÍÏÌÎÏÌÌÏÎÍ",
+    "proposed_name": "ColorPickerItemView",
+    "confidence": "high",
+    "reason": "字段 labelText/colorButton/colorPreview 是颜色选择器列表项的标准结构"
+  },
+  {
+    "original_name": "ÌÌÎÎÎÏÍÍÍÍÎÍÏÎÌÏÌÍÎÍÌÎÍ",
+    "proposed_name": "ScrollbarWithIconView",
+    "confidence": "medium",
+    "reason": "字段 _scrollbar/_icon/_alwaysShow 指向带图标可控显示的滚动条组件"
+  },
+  {
+    "original_name": "ÌÎÏÎÍÎÏÌÎÌÌÍÍÏÏÍÎÏÍÏÏÍÎ",
+    "proposed_name": "ValidatedButtonItem",
+    "confidence": "medium",
+    "reason": "字段 image/tooltip/button/validationHandler 指向带验证回调的按钮列表项"
+  },
+  {
+    "original_name": "ÏÍÎÏÌÌÍÌÏÌÍÍÎÏÍÍÏÌÍÏÍÏÍ",
+    "proposed_name": "ReportGroupPanelView",
+    "confidence": "high",
+    "reason": "字段 _panel/_title/_reportGroupButton 明确指向举报分组面板 UI，带指针事件处理"
+  },
+  {
+    "original_name": "ÏÏÎÎÍÏÌÍÍÌÌÍÍÏÍÎÏÏÌÏÏÍÏ",
+    "proposed_name": "TabButtonItem",
+    "confidence": "high",
+    "reason": "字段 _button/_index/_tabController 是 TabController 驱动的标签按钮项标准结构"
+  },
+  {
+    "original_name": "ÏÌÍÏÎÏÏÎÏÍÏÏÏÍÌÏÌÌÍÌÍÌÌ",
+    "proposed_name": "NetworkedVideoSyncMessage",
+    "confidence": "high",
+    "reason": "方法 Encode/Decode/RemoteSetVideos/NeedsSync/SerializedName 明确是网络同步的视频消息数据包"
+  },
+  {
+    "original_name": "ÎÍÍÏÏÏÍÍÌÎÌÏÏÏÎÌÌÌÍÌÎÍÍ",
+    "proposed_name": "DepthOfFieldSliderView",
+    "confidence": "high",
+    "reason": "字段 cam/dofManager/slider/sliderValue/formatString/useLogScaling 明确指向景深效果的滑块控制 UI"
+  },
+  {
+    "original_name": "ÎÌÌÍÍÍÍÌÍÍÌÌÍÍÎÏÌÏÌÎÏÍÎ",
+    "proposed_name": "PropContextMenuView",
+    "confidence": "high",
+    "reason": "字段 repositionButton/visibilityButton/removePropButton/putAwayPropButton/customizePropButton/spawnYourVRCExclusivePropButton 明确是 VRChat Prop 道具上下文菜单 UI"
+  },
+  {
+    "original_name": "ÍÏÍÌÍÎÌÍÌÏÎÏÍÏÎÏÌÏÍÏÍÌÎ",
+    "proposed_name": "AgreementButtonHandler",
+    "confidence": "medium",
+    "reason": "字段 agreeButton 加 OnPointerClick/OnSubmit/OnSelect 等指针事件处理，指向用户协议确认按钮逻辑"
+  },
+  {
+    "original_name": "ÏÏÏÍÏÌÍÎÌÏÎÍÎÏÍÌÎÍÍÎÏÎÍ",
+    "proposed_name": "WorldSearchTypeFilterView",
+    "confidence": "high",
+    "reason": "字段 _searchTypeSize/_searchTypeActivity/_searchTypeEngagement/_searchTypeContent 明确是世界搜索分类过滤 UI"
+  },
+  {
+    "original_name": "ÏÏÏÌÌÎÌÏÌÍÏÏÏÎÌÎÎÌÏÎÍÍÍ",
+    "proposed_name": "VRChatInputModule",
+    "confidence": "medium",
+    "reason": "继承 BaseInputModule，含 HandlePointerExitAndEnter/FindCommonRoot/ActivateModule，是 VRChat 定制的 EventSystem 输入模块"
+  },
+  {
+    "original_name": "ÏÌÍÌÏÌÍÏÎÌÌÍÎÍÏÎÍÏÎÏÎÌÎ",
+    "proposed_name": "TitledListPanelView",
+    "confidence": "medium",
+    "reason": "字段 listBuilder/title/closeButton 指向带标题和关闭按钮的列表面板 UI"
+  }
+]

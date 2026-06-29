@@ -1,0 +1,56 @@
+[
+  {
+    "original_name": "ÎÍÏÌÌÌÍÌÎÏÏÌÎÏÏÍÏÏÍÏÌÍÏ",
+    "proposed_name": "CustomMaterialGraphicsManager",
+    "confidence": "high",
+    "reason": "字段 CustomMaterialGraphics 和 ManagedRoots 直接揭示该类管理自定义材质图形及其根节点列表。"
+  },
+  {
+    "original_name": "ÎÌÍÌÌÌÎÏÎÎÍÍÍÎÎÎÍÌÌÌÎÌÍ",
+    "proposed_name": "PooledObjectManager",
+    "confidence": "medium",
+    "reason": "字段 _poolSize 结合 Initialize/InvokeRepeating 方法，表明这是一个管理对象池大小和生命周期的 MonoBehaviour。"
+  },
+  {
+    "original_name": "ÌÍÌÍÎÌÏÎÍÍÎÎÍÌÌÍÎÎÌÌÏÍÎ",
+    "proposed_name": "BannerDisplayController",
+    "confidence": "high",
+    "reason": "字段 _bannerDisplayDuration 和 _bannerDisplay 直接指向横幅显示时长控制逻辑，方法含 Update 用于计时驱动。"
+  },
+  {
+    "original_name": "ÎÏÏÌÍÎÎÌÌÍÌÎÏÎÌÎÏÍÌÎÎÎÌ",
+    "proposed_name": "MobileLayoutGroupController",
+    "confidence": "high",
+    "reason": "字段 _layoutGroup 和 _mobileYPosition 表明该类负责移动端 UI 布局组定位管理。"
+  },
+  {
+    "original_name": "ÌÎÌÎÍÌÌÍÏÌÏÍÍÍÎÏÏÎÏÏÎÏÍ",
+    "proposed_name": "FpsSampler",
+    "confidence": "high",
+    "reason": "字段 fpsSamplesCount 直接表明此类采样帧率数据，配合 Update 方法持续采集。"
+  },
+  {
+    "original_name": "ÌÌÍÏÍÎÎÎÌÌÍÍÍÍÍÎÎÌÌÍÎÍÌ",
+    "proposed_name": "AuthorWorldListView",
+    "confidence": "high",
+    "reason": "字段 _authorWorldsListBinding、_viewMorePrefab、_authorCell、_worldPrefab 完整描述了作者世界列表 UI 视图组件。"
+  },
+  {
+    "original_name": "ÌÏÍÌÌÌÏÌÌÎÎÎÍÌÎÏÍÍÌÏÏÏÌ",
+    "proposed_name": "AvatarEquipCellInputHandler",
+    "confidence": "medium",
+    "reason": "继承自 UIshowMoreLessButton 组件，字段含 randomCellPrefab/unequipCellPrefab，方法覆盖全套 Pointer/Select 事件，处理Avatar装备单元格交互。"
+  },
+  {
+    "original_name": "ÌÏÍÌÍÏÍÏÏÍÏÌÎÌÏÏÌÌÎÍÍÍÍ",
+    "proposed_name": "CharacterStepController",
+    "confidence": "high",
+    "reason": "字段 maxStepHeight、stepUpThreshold、offsetDistance、distanceFromOrigin、groundedLayers 完整描述角色步伐/台阶检测逻辑，FixedUpdate 驱动物理。"
+  },
+  {
+    "original_name": "ÍÍÌÎÌÍÏÎÎÍÌÏÌÎÏÏÏÏÌÌÍÏÍ",
+    "proposed_name": "LodBiasFovCompensator",
+    "confidence": "high",
+    "reason": "字段 referenceFOV、currentLODBias、enableCompensation 加上 OnPreCull/OnPostRender 回调，表明该类根据 FOV 动态补偿 LOD Bias。"
+  }
+]

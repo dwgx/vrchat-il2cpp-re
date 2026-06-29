@@ -1,0 +1,110 @@
+[
+  {
+    "original_name": "ÎÌÍÎÌÌÌÎÎÍÎÌÍÌÏÏÌÌÏÏÌÌÏ",
+    "proposed_name": "SliderProgressBar",
+    "confidence": "high",
+    "reason": "fields canvasGroup+slider 是标准 UI 进度条/滑动条组件组合"
+  },
+  {
+    "original_name": "ÏÏÍÎÌÍÏÌÎÎÍÍÍÏÎÌÎÎÏÌÏÌÌ",
+    "proposed_name": "OutlineSphereCastDetector",
+    "confidence": "medium",
+    "reason": "fields outline+ignoreLayerMasks+spherecastForwardOffset 指向带 outline 高亮的球形射线检测组件（常见于 VRChat 可交互对象轮廓检测）"
+  },
+  {
+    "original_name": "ÎÎÍÎÍÍÎÏÎÌÍÌÍÌÎÏÏÎÎÍÍÍÌ",
+    "proposed_name": "HelpMenuNotificationBadge",
+    "confidence": "high",
+    "reason": "fields _unreadIcon+switchToHelpMenuOnClick 明确指向帮助菜单入口的未读通知图标组件"
+  },
+  {
+    "original_name": "ÎÏÍÏÌÏÍÌÎÍÎÍÍÎÍÌÎÎÎÌÏÍÌ",
+    "proposed_name": "PasswordVisibilityToggle",
+    "confidence": "high",
+    "reason": "fields _hiddenPasswordDisplay+_shownPasswordDisplay+OnPointerClick 是密码显示/隐藏切换的标准实现"
+  },
+  {
+    "original_name": "ÍÍÏÏÎÍÎÍÌÌÍÌÏÎÌÏÌÍÌÏÏÍÎ",
+    "proposed_name": "TextOverflowController",
+    "confidence": "high",
+    "reason": "fields _maxLineCount+_overflowMode+_autoTruncate 明确指向文本溢出/截断控制组件"
+  },
+  {
+    "original_name": "ÌÌÍÏÍÍÍÍÎÎÍÌÎÏÍÏÏÌÍÎÍÌÌ",
+    "proposed_name": "TooltipTrigger",
+    "confidence": "high",
+    "reason": "field _tooltip+Initialize 是标准 tooltip 触发器组件"
+  },
+  {
+    "original_name": "ÏÏÌÏÏÏÎÏÌÏÎÌÎÎÍÍÏÌÌÌÎÏÎ",
+    "proposed_name": "BoundedContentSizeFitter",
+    "confidence": "high",
+    "reason": "parent ContentSizeFitter+fields _maxWidth+_maxHeight+_maxFootprint 是带最大尺寸限制的布局适配器"
+  },
+  {
+    "original_name": "ÎÌÏÍÏÏÎÍÏÏÌÍÎÏÎÏÏÍÍÌÏÎÏ",
+    "proposed_name": "AvatarPerformanceConfirmDialog",
+    "confidence": "high",
+    "reason": "fields confirmButton+performanceRatingGroup 指向 Avatar 性能等级确认弹窗"
+  },
+  {
+    "original_name": "ÍÎÎÏÏÎÏÍÍÏÌÎÎÏÏÏÏÍÎÌÍÎÌ",
+    "proposed_name": "GroupRoleBadgeDisplay",
+    "confidence": "high",
+    "reason": "fields ownerIcon+moderatorIcon+managerIcon+roleLabel 明确指向群组角色/权限徽章展示组件"
+  },
+  {
+    "original_name": "ÏÎÏÍÏÎÎÎÍÍÏÌÍÌÌÍÏÌÏÏÏÎÎ",
+    "proposed_name": "ContentNewCountBadge",
+    "confidence": "high",
+    "reason": "fields newCountBinding+newCountContainer+contentType 指向内容新增数量角标（如好友/通知/世界更新数量）"
+  },
+  {
+    "original_name": "ÏÍÌÎÌÎÍÌÎÏÍÎÎÏÏÌÎÍÎÎÌÏÏ",
+    "proposed_name": "RadiusSettingRow",
+    "confidence": "medium",
+    "reason": "fields root+header+disableButton+radiusText 指向带禁用按钮和半径文本的设置面板行（常见于安全/语音半径设置）"
+  },
+  {
+    "original_name": "ÍÏÏÎÌÍÌÏÌÏÏÍÌÎÍÌÌÏÌÍÌÌÍ",
+    "proposed_name": "ToggleTextLabel",
+    "confidence": "high",
+    "reason": "fields _textMesh+_toggleBinding+_onText+_offText 是开关状态文字标签组件，根据 toggle 值切换显示文本"
+  },
+  {
+    "original_name": "ÎÌÍÍÎÌÎÍÎÍÌÍÌÏÏÏÏÌÍÎÍÎÍ",
+    "proposed_name": "VideoPlayerNetworkSyncHandler",
+    "confidence": "high",
+    "reason": "parent NetworkReadyHandler+methods RemoteSetVideos+RemoteSetPlaylist+RemoteClear+Encode+Decode 明确指向视频播放器的网络同步序列化处理器"
+  },
+  {
+    "original_name": "ÍÏÍÏÎÌÏÍÎÍÏÎÏÌÏÎÍÎÎÌÍÎÎ",
+    "proposed_name": "MultiPlatformLoginController",
+    "confidence": "high",
+    "reason": "methods AuthenticateWithOculus+AuthenticateWithDiscord+AuthenticateWithSteam+AuthenticateWithPico+AccountLoginPressed+AccountCreatePressed+OnSubmitAuthenticationCodeIsRecovery 明确是多平台登录控制器"
+  },
+  {
+    "original_name": "ÍÌÍÏÎÌÎÏÌÏÎÏÍÎÍÌÌÍÌÎÌÍÍ",
+    "proposed_name": "AvatarPedestalSpinController",
+    "confidence": "high",
+    "reason": "fields _pedestalHook+_avatarBounds+_avatarPartBounds+_startYawOffset+_spinDirection+OnBeginDrag+OnDrag 指向 Avatar 展示台拖拽旋转控制器"
+  },
+  {
+    "original_name": "ÍÎÎÎÏÌÌÌÍÏÌÏÍÌÏÎÍÎÏÍÌÏÌ",
+    "proposed_name": "FaceDetectionTaskOptions",
+    "confidence": "high",
+    "reason": "parent ConfidenceInputBase+fields _numFacesInput+_minFaceDetectionConfidenceInput+_minFacePresenceConfidenceInput+_outputFaceBlendshapesInput+_outputFacialTransformationMatrixesInput 是 MediaPipe 人脸检测任务选项"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÍÌÎÍÌÏÌÌÎÌÌÎÌÍÏÎÏÌ",
+    "proposed_name": "PoseDetectionTaskOptions",
+    "confidence": "high",
+    "reason": "parent ConfidenceInputBase+fields _numPosesInput+_minPoseDetectionConfidenceInput+_minPosePresenceConfidenceInput+_outputSegmentationMasksInput+_modelSelectionInput 是 MediaPipe 姿态检测任务选项"
+  },
+  {
+    "original_name": "ÏÎÌÎÏÍÎÏÌÎÎÎÌÌÌÏÌÌÌÎÏÎÏ",
+    "proposed_name": "SortableListPanelView",
+    "confidence": "high",
+    "reason": "fields _title+_closeButton+_settingsButton+_scrollRect+_sectionElements+_sortDropdown+_dropdownPersistence 是带排序下拉框的可滚动列表面板视图"
+  }
+]

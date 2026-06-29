@@ -1,0 +1,2582 @@
+[
+ {
+  "original_name": "ÏÎÎÏÍÌÎÌÌÏÌÍÎÌÏÏÏÎÎÎÎÏÎ",
+  "final_name": "AvatarDetailsPanel",
+  "confidence": "high",
+  "reason": "fields _selectedAvatarPanel/_avatarPriceContainer/_primaryPurchaseButton/_avatarNameText/_performanceRankText"
+ },
+ {
+  "original_name": "ÏÎÎÌÌÏÍÏÎÍÎÎÏÍÍÏÎÎÎÌÎÏÍ",
+  "final_name": "AvatarListItemCell_1",
+  "confidence": "high",
+  "reason": "fields _avatarPanel/_authorCell/_image/_nameField/_favoriteButtonText with UpdateHeight method"
+ },
+ {
+  "original_name": "ÏÏÏÌÌÏÏÎÍÍÍÍÎÍÏÏÍÌÍÌÌÌÏ",
+  "final_name": "SearchResultsTabBar",
+  "confidence": "high",
+  "reason": "fields _searchAllButton/_searchWorldsButton/_searchAvatarsButton/_searchUsersButton each with CountText"
+ },
+ {
+  "original_name": "ÎÍÎÌÍÏÏÏÏÌÎÎÏÌÏÍÍÏÏÌÍÎÌ",
+  "final_name": "SearchFilterSourcePanel",
+  "confidence": "high",
+  "reason": "fields _sourceFoldoutToggle/_sourceListBinding/_sourceSelectAllButton/_sourceDeselectAllButton/_accessTypeFoldoutToggle"
+ },
+ {
+  "original_name": "ÍÌÏÍÍÎÎÌÌÌÍÏÌÏÌÎÏÌÏÍÍÏÏ",
+  "final_name": "NotificationActionCell",
+  "confidence": "high",
+  "reason": "fields _NotificationActions/_AcceptButton/_DeclineButton/_RespondButton/_ViewProfileButton/_ReportButton/_WalletButton"
+ },
+ {
+  "original_name": "ÏÍÍÌÏÌÎÎÌÏÎÎÏÏÍÏÌÌÍÍÍÏÏ",
+  "final_name": "GeneralSettingsPanel",
+  "confidence": "high",
+  "reason": "inherits TrackingCalibrationBase; fields _showTooltips/_preferredLanguage/_afkDetection/_oneHandedMovement/_wingPersistence"
+ },
+ {
+  "original_name": "ÌÌÍÏÍÎÍÍÌÌÌÎÌÎÌÍÏÌÍÏÌÏÎ",
+  "final_name": "MarketplaceListingCell",
+  "confidence": "high",
+  "reason": "inherits UIscrollRectfootnote; fields _listingTitleText/_listingAuthorText/_limitedAvailabilityPanel/_limitedTimeContainer"
+ },
+ {
+  "original_name": "ÏÎÏÌÌÏÏÌÌÍÍÍÎÌÎÍÏÎÍÍÏÎÎ",
+  "final_name": "EmojiPickerGrid",
+  "confidence": "high",
+  "reason": "fields pickers/pickerPrefab/content/scrollRect/searchQuery/searchUserTags/expandedCount/collapsedCount/collapseRows"
+ },
+ {
+  "original_name": "ÎÎÌÌÎÏÎÌÍÎÎÍÌÏÎÏÎÏÌÎÍÍÎ",
+  "final_name": "WorldDetailPanel",
+  "confidence": "high",
+  "reason": "fields _worldInstanceInfoPane/_instancesListBinding/_tagsListBinding/_contentWarningsListBinding/_instancePrefab/_worldPrefab"
+ },
+ {
+  "original_name": "ÎÏÎÍÎÍÌÍÏÏÎÏÌÎÌÏÍÌÎÍÍÏÍ",
+  "final_name": "PhotonPeerExtended",
+  "confidence": "medium",
+  "reason": "inherits PhotonPeer; fields _debugBuild/_clientVersion/_useInitV3/_enableEncryptedFlag/_nativeEncryptorApiVersion"
+ },
+ {
+  "original_name": "ÍÏÌÏÏÍÎÎÎÍÌÏÎÌÌÏÌÍÎÍÍÍÍ",
+  "final_name": "MarketplaceListingDetailCell",
+  "confidence": "high",
+  "reason": "inherits UIscrollRectfootnote; fields _modalPanel/_bundleBanner/_listingTypeKeyText/_productTypeIconLabel/_subscriptionPanel/_subscriptionExpirationText"
+ },
+ {
+  "original_name": "ÎÎÍÍÍÏÌÎÌÎÍÌÎÎÎÏÏÍÍÌÎÏÎ",
+  "final_name": "CreateInstancePanel",
+  "confidence": "high",
+  "reason": "fields createInstanceButton/changeGroupButton/changeRolesButton/changeInstanceTypeButton/selectedGroupText/queueEnabledToggle"
+ },
+ {
+  "original_name": "ÍÏÍÎÍÏÎÍÏÏÎÍÎÏÏÍÎÌÍÌÏÎÌ",
+  "final_name": "CameraAvatarOverlayUI",
+  "confidence": "high",
+  "reason": "fields avatarImage/dragHandler/cameraButton/cameraButtonText/nameButton/nameText/reparentPanel"
+ },
+ {
+  "original_name": "ÏÍÎÎÌÌÌÎÌÏÍÍÎÍÌÎÎÎÏÌÏÍÍ",
+  "final_name": "AvatarPerformanceDetailsPanel",
+  "confidence": "high",
+  "reason": "fields _avatarPanel/_overallPerformanceRatingIcon/_overallPerformance/_trianglesField/_boundsField/_skinnedMeshesField/_textureMemoryField"
+ },
+ {
+  "original_name": "ÌÎÎÍÍÌÎÏÌÎÌÍÍÍÏÌÌÍÏÍÏÎÍ",
+  "final_name": "ShareContentPanel",
+  "confidence": "high",
+  "reason": "fields shareDirect/dropPrintCanvasGroup/dropPrint/printAsPrint/copyUrlButton/shareAsPedestal/selectShareMethodCanvasGroup"
+ },
+ {
+  "original_name": "ÍÎÎÏÌÌÎÎÍÏÎÎÌÌÏÏÌÎÍÏÌÏÌ",
+  "final_name": "CreateInstanceSettingsPanel",
+  "confidence": "high",
+  "reason": "fields parent/createInstanceButton/changeGroupButton/changeRolesButton/setDefaultSettingsToggle/queueEnabledToggle/selectedGroupText"
+ },
+ {
+  "original_name": "ÎÎÏÎÏÌÌÎÏÍÏÎÌÏÌÌÎÎÍÍÏÏÎ",
+  "final_name": "EventDetailPanel",
+  "confidence": "high",
+  "reason": "fields _eventTitleText/_eventDateText/_eventImageBinding/_livePill/_categoryPill/_reportButton/_backButton"
+ },
+ {
+  "original_name": "ÌÍÍÌÌÍÏÍÌÌÏÏÏÍÎÏÌÍÌÎÍÎÏ",
+  "final_name": "MarketplaceProductCell",
+  "confidence": "high",
+  "reason": "fields _nameText/_itemCost/_purchaseButton/_previewButton/_ownedBanner/_premiumBanner/_styleElement/_descriptionPanel"
+ },
+ {
+  "original_name": "ÎÌÎÏÌÎÌÎÏÌÏÎÏÌÍÎÎÌÎÎÏÌÏ",
+  "final_name": "SubscriptionPurchasePanel_1",
+  "confidence": "high",
+  "reason": "field subscribeMonthlyButton with OnApplicationFocus, inherits UIk__BackingField"
+ },
+ {
+  "original_name": "ÏÎÏÍÍÍÌÏÏÌÌÏÎÎÌÍÏÏÎÌÎÎÎ",
+  "final_name": "GiftPurchaseConfirmPanel",
+  "confidence": "high",
+  "reason": "inherits UIscrollRectfootnote; fields _recipientUserIcon/_recipientNameText/_purchaseSubtitleText/_subscriptionPanel/_thumbnailQuantityText"
+ },
+ {
+  "original_name": "ÌÏÏÍÍÌÌÏÍÎÏÍÎÏÏÌÎÍÌÎÌÍÏ",
+  "final_name": "AvatarPurchasePanel",
+  "confidence": "high",
+  "reason": "fields _titleText/_purchaseButton/_giftButton/_avatarUnavailableBanner/_priceAndPurchaseButtonContainer"
+ },
+ {
+  "original_name": "ÏÎÌÌÎÎÏÏÏÌÎÌÍÌÌÎÎÌÍÏÎÍÍ",
+  "final_name": "WorldCell",
+  "confidence": "high",
+  "reason": "fields ThumbnailImage/Name/UserCount/FriendCount/IconFriendCount/_contentWarningBanner/_platformPrefab/_toolTip"
+ },
+ {
+  "original_name": "ÍÎÍÏÎÏÎÏÌÍÍÏÏÏÎÌÎÍÎÍÍÍÍ",
+  "final_name": "PhotoCapturePanel",
+  "confidence": "high",
+  "reason": "fields cancelButton/retakeButton/addNoteButton/printAndSaveButton/printCreationCameraPrefab/printPositionTransform"
+ },
+ {
+  "original_name": "ÍÏÏÍÍÍÍÏÍÍÏÎÌÍÍÎÌÍÎÏÌÌÌ",
+  "final_name": "ReportSubmitPanel",
+  "confidence": "high",
+  "reason": "fields _submitButton/_closeButton/_reportingInfoObject/_whatsReportedText/_togglePrefab/_categoryList"
+ },
+ {
+  "original_name": "ÎÍÍÎÍÎÎÏÌÎÎÎÏÌÎÏÍÏÎÏÌÏÏ",
+  "final_name": "EmojiPickerCell",
+  "confidence": "medium",
+  "reason": "fields image/nameText/nameFade/newBadgeHover/selectedOutline/buttonHover/animationPlayer/exclusiveBackground"
+ },
+ {
+  "original_name": "ÍÌÍÎÎÏÌÌÌÍÍÎÌÎÍÍÌÌÏÎÍÏÍ",
+  "final_name": "MarketplaceOrderHistoryCell",
+  "confidence": "high",
+  "reason": "fields _name/_itemCost/_purchaseDateValueText/_viewProductButton/_renewSubButton/_cancelSubButton/_resubscribeButton/_giftInformation"
+ },
+ {
+  "original_name": "ÏÌÏÏÌÌÌÏÏÎÏÍÍÍÏÏÌÌÏÏÍÏÎ",
+  "final_name": "WorldInstanceCell",
+  "confidence": "high",
+  "reason": "fields InstanceName/InstanceType/UserCount/FriendCount/WorldName/HypeTrainIcon/RegionIcon/FavoriteIcon/AgeGateIcon"
+ },
+ {
+  "original_name": "ÍÌÍÌÌÌÍÏÌÌÌÏÎÍÌÍÍÌÍÍÍÍÌ",
+  "final_name": "AvatarSidebarPanel",
+  "confidence": "high",
+  "reason": "inherits UIk__BackingField; fields _avatarSidePanel/_avatarListView/_searchButton/_currentAvatarButton/_VRCPlusGetMoreAvatars"
+ },
+ {
+  "original_name": "ÏÌÌÌÏÌÌÌÎÌÎÎÏÍÌÍÏÌÏÎÌÎÎ",
+  "final_name": "PrintEditorPanel",
+  "confidence": "high",
+  "reason": "fields itemsPanel/previewPanel/transformPanel/variablesPanel/cancelButton/acceptButton/undoButton/redoButton/resetButton/itemCellPrefab"
+ },
+ {
+  "original_name": "ÍÍÏÌÌÏÏÏÌÎÌÏÌÌÌÏÎÍÍÎÎÎÍ",
+  "final_name": "GroupAnnouncementCell",
+  "confidence": "high",
+  "reason": "fields headerText/announcementDateText/imageBinding/imageButton/groupImage/groupName/announcementText"
+ },
+ {
+  "original_name": "ÎÍÎÍÌÌÏÌÏÍÌÌÍÍÌÍÍÎÌÌÍÎÎ",
+  "final_name": "QuickMenuHandCoachPanel",
+  "confidence": "high",
+  "reason": "fields handCoachAnimator/handCoachHeadTransform/leftCoachWristTransform/rightCoachWristTransform/hmdRenderer/qmPinchForwardAngle with OnDrawGizmos"
+ },
+ {
+  "original_name": "ÌÎÌÌÏÎÏÌÌÎÌÎÏÌÌÍÌÏÏÌÎÎÌ",
+  "final_name": "UdonActionMenuPanel",
+  "confidence": "high",
+  "reason": "fields titleText/contextText/closeButton/groupPrevButton/groupNextButton/groupInputField/groupContainer/actionMenu"
+ },
+ {
+  "original_name": "ÏÌÎÏÌÍÏÎÎÌÏÌÎÎÌÌÌÎÏÏÌÌÏ",
+  "final_name": "JoinInstancePanel",
+  "confidence": "high",
+  "reason": "fields _closeButton/_joinButton/_historyButton/_dropPortalButton/_instanceNameInputField/_groupInstanceFields/_worldNameText/_instanceTypeText"
+ },
+ {
+  "original_name": "ÌÍÌÍÍÎÏÏÌÌÌÍÌÏÎÎÌÎÏÌÍÎÌ",
+  "final_name": "DroneControllerSettingsPanel",
+  "confidence": "high",
+  "reason": "fields canvasGroup/presetSubmenuButton/scrollRect/cameraTilt/maxAngleSlider/expoPitchSlider/expoRollSlider/expoYawSlider/expoThrottleSlider"
+ },
+ {
+  "original_name": "ÏÎÏÎÎÏÍÏÎÌÎÏÎÌÏÍÌÏÎÎÎÎÍ",
+  "final_name": "EmojiEditorPanel",
+  "confidence": "high",
+  "reason": "fields headerText/zoomSlider/mirrorButton/acceptTextureButton/cancelButton/previewImage/emojiParticleSystemSelection/emojiMaskPicker/fpsSlider"
+ },
+ {
+  "original_name": "ÏÌÌÏÎÎÍÏÌÍÎÌÏÌÎÎÏÏÍÌÎÏÏ",
+  "final_name": "WorldFavoritesPanel",
+  "confidence": "high",
+  "reason": "fields _filterButton/_avatarCategoriesList/_avatarCategoryPrefab/_avatarCellPrefab/_selectedAvatarPanel/_sortDropdown"
+ },
+ {
+  "original_name": "ÌÌÎÎÎÌÌÍÍÌÌÍÎÍÏÌÍÎÎÎÌÏÏ",
+  "final_name": "ReportTypeSelectionPanel",
+  "confidence": "high",
+  "reason": "fields ReportUser/ReportAvatar/ReportWorld/ReportGroup/ReportInstance/ReportSticker/ReportEmoji/ReportPrint/ButtonSection/UserSection"
+ },
+ {
+  "original_name": "ÏÌÌÍÎÏÏÎÏÎÏÏÎÎÏÏÎÌÍÏÌÍÌ",
+  "final_name": "ImageCarouselPanel",
+  "confidence": "high",
+  "reason": "fields _leftButton/_rightButton/_rightPos/_leftPos/_centerPos/_imageContainer/_scrollTime/_displayImage/_slideImage"
+ },
+ {
+  "original_name": "ÏÌÍÍÍÎÏÌÏÍÍÏÏÌÎÏÌÌÎÌÌÎÌ",
+  "final_name": "AvatarCollectionPanel_1",
+  "confidence": "high",
+  "reason": "fields _avatarListSelectorListBinding/_collectionSelectorGroup/_avatarListView/_avatarListLockedBanner/_sortDropdown/_looksFoldout/_avatarsFoldout"
+ },
+ {
+  "original_name": "ÎÎÍÏÌÌÎÍÏÎÌÎÎÏÌÌÎÏÎÍÏÎÎ",
+  "final_name": "VRCPlusSubscriptionPanel",
+  "confidence": "high",
+  "reason": "inherits UIk__BackingField; fields scrollRect/NonSubParent/CampaignPanel/GiftingLeaderboard/VRCPlusBanners/RewardPanel/ManageSubscriptionLink"
+ },
+ {
+  "original_name": "ÌÎÍÌÎÏÌÌÏÎÎÍÌÏÌÎÍÏÍÏÌÏÏ",
+  "final_name": "UserProfileTabsPanel",
+  "confidence": "high",
+  "reason": "fields editProfileButton/userProfilePanelButtonWithIndicator/userWalletPanelButtonWithIndicator/userMediaPanelButtonWithIndicator/userWalletPanel"
+ },
+ {
+  "original_name": "ÌÏÍÍÍÍÏÍÎÎÍÍÌÏÍÎÎÎÏÎÏÌÌ",
+  "final_name": "VRCPlusCampaignPanel",
+  "confidence": "high",
+  "reason": "fields giftToFriend/giftDrop/contributionInfoParent/participatingCount/contributedFriendCount/friendParticipantImageBindings/campaignEndDate/campaignTitleText"
+ },
+ {
+  "original_name": "ÏÏÎÍÍÍÍÍÏÎÍÍÎÎÎÌÎÏÍÏÌÍÏ",
+  "final_name": "GraphicsSettingsPanel",
+  "confidence": "high",
+  "reason": "inherits TrackingCalibrationBase; fields _graphicsQuality/_antiAliasing/_mirrorResolution/_shadowQuality/_lodQuality/_thirdPersonView"
+ },
+ {
+  "original_name": "ÌÌÏÎÌÎÎÍÍÌÎÌÏÎÏÌÌÌÎÌÏÎÏ",
+  "final_name": "AvatarBrowsePanel",
+  "confidence": "high",
+  "reason": "fields _filterButton/_scrollRect/_avatarCategoriesList/_avatarCategoryPrefab/_selectedAvatarPanel/_timeToRefresh/_sortDropdown"
+ },
+ {
+  "original_name": "ÌÏÏÍÎÏÌÏÏÏÌÌÎÎÌÏÎÍÏÍÏÌÏ",
+  "final_name": "FriendListPanel",
+  "confidence": "medium",
+  "reason": "inherits UIk__BackingFieldComponentImpl; fields _scrollRect/_status/_statusIcon/search/_buttonGroup/_buttons/_headerText/_cellSizeToggle"
+ },
+ {
+  "original_name": "ÌÏÌÏÌÍÎÌÎÍÌÏÌÌÌÏÎÌÏÎÎÍÎ",
+  "final_name": "WorldInstanceListPanel",
+  "confidence": "high",
+  "reason": "fields _friendListBinding/_nonFriendListBinding/_friendWorldInstancePrefab/_worldInstancePrefab/_sortDropdown/emptyObject/emptyLabel"
+ },
+ {
+  "original_name": "ÍÎÏÎÎÏÍÎÍÎÏÎÍÌÎÎÍÏÎÏÎÏÎ",
+  "final_name": "WorldSearchFilterPanel",
+  "confidence": "high",
+  "reason": "inherits UIk__BackingField; fields _myStuffFoldout/_worldsMyStuff/_worldsMyStuffPlaylists/_worldCategoryPicker/_dropdownFilter"
+ },
+ {
+  "original_name": "ÏÌÎÎÏÌÎÎÏÌÏÏÌÎÍÍÎÌÎÌÍÍÎ",
+  "final_name": "AvatarPreviewCamera",
+  "confidence": "high",
+  "reason": "fields renderCamera/previewScene/previewSceneRenderSet/avatarContainer/cameraReplacementShader/blitDepthMaterial/lookThumbnailPostProcessor"
+ },
+ {
+  "original_name": "ÌÌÍÍÌÌÍÌÎÎÏÍÎÎÌÍÎÍÏÏÍÌÏ",
+  "final_name": "StorePurchaseItemPanel",
+  "confidence": "high",
+  "reason": "fields PurchaseButtonGameObject/OwnedPanel/ProcessingGameObject/SubscribedBanner/NameText/DescriptionText/PriceText/ExpireText/PuchaseButtonText"
+ },
+ {
+  "original_name": "ÌÍÏÏÏÌÎÍÏÌÌÌÏÍÏÍÍÍÏÏÏÌÎ",
+  "final_name": "SearchSortOptionsPanel",
+  "confidence": "high",
+  "reason": "inherits UIscrollRectfootnote; fields _searchTypeRelevance/_searchTypeCustom/_sortByLastUpdated/_sortByPopular/_sortByTrust/_sortByLastLoggedIn"
+ },
+ {
+  "original_name": "ÎÎÎÌÌÏÏÎÍÍÌÎÌÍÍÌÍÎÎÎÏÏÌ",
+  "final_name": "GroupInfoPanel",
+  "confidence": "high",
+  "reason": "inherits ButtonIndicatorBase; fields reportGroupButton/shareButton/groupNameText/showGalleryButtonWithIndicator/showMembersButtonWithIndicator"
+ },
+ {
+  "original_name": "ÎÌÏÍÌÍÌÏÏÌÌÏÌÍÍÍÏÏÎÌÍÍÍ",
+  "final_name": "ControllerSettingsPanel",
+  "confidence": "high",
+  "reason": "fields canvasGroup/mainControllerTypeLabel/keyboardAndMouseControllerTypeLabel/deadzoneSlider/controllerKBSensitivitySlider/controllerMouseSensitivitySlider"
+ },
+ {
+  "original_name": "ÍÏÎÎÏÏÌÏÌÌÎÌÏÍÌÎÎÌÍÍÏÏÍ",
+  "final_name": "BundlePurchasePanel",
+  "confidence": "high",
+  "reason": "inherits UIk__BackingField; fields buyMenu/processingTransactionMenu/purchaseBundlesParent/buyBundleButtonPrefab/ownedBundleButton"
+ },
+ {
+  "original_name": "ÌÌÎÍÌÎÌÎÎÎÌÏÌÎÎÎÍÍÏÌÍÍÏ",
+  "final_name": "MarketplaceInventoryPanel",
+  "confidence": "high",
+  "reason": "fields previewPanel/itemsBinding/exploreMarketplaceButton/itemCellPrefab/infoIcon"
+ },
+ {
+  "original_name": "ÏÎÎÍÍÏÎÍÏÏÎÏÌÏÎÏÏÏÏÍÎÎÍ",
+  "final_name": "ContentThumbnailCell",
+  "confidence": "high",
+  "reason": "inherits ContainerPromptBaseImpl; fields _noThumbnailTexture/_image/_title/_favoriteIcon/_platformPrefab/_contentWarningBanner/_scanStatusFailed/_scanStatusPending"
+ },
+ {
+  "original_name": "ÎÎÍÌÎÍÌÎÎÍÎÏÌÎÎÍÏÌÍÏÍÏÏ",
+  "final_name": "NumericStepperInputField",
+  "confidence": "high",
+  "reason": "Extends InputField: _min/_max/_step/_value/_plusButton/_minusButton."
+ },
+ {
+  "original_name": "ÎÎÎÎÎÏÏÌÎÏÌÌÏÎÍÍÏÍÌÌÏÍÏ",
+  "final_name": "GiftTimerIconWidget",
+  "confidence": "high",
+  "reason": "Fields iconImage/giftIconTransform/giftText/timerText/timerMomentumCriticalColor."
+ },
+ {
+  "original_name": "ÏÏÏÍÎÍÌÍÍÌÏÏÌÎÎÌÌÍÏÎÏÌÌ",
+  "final_name": "BundleOpeningAnimationPanel",
+  "confidence": "high",
+  "reason": "Fields _bundleOpeningPanel/_bundleScaleDuration/_bundleClaimedClip."
+ },
+ {
+  "original_name": "ÍÌÏÏÏÍÏÍÎÎÌÍÍÌÌÎÍÍÍÍÌÍÏ",
+  "final_name": "WorldCustomizerEditorPanel",
+  "confidence": "high",
+  "reason": "Fields title/editTitleButton/highlightTab/iconTab/buttonsTab/colorPicker/save/close."
+ },
+ {
+  "original_name": "ÍÌÍÌÏÎÌÏÍÍÎÏÎÌÏÎÏÎÍÎÍÎÏ",
+  "final_name": "UdonTriggerController",
+  "confidence": "high",
+  "reason": "Fields target/dataStorage/_collider/hasTimerTriggers/hasColliderTriggers/hasKeyTriggers+OnSpawn."
+ },
+ {
+  "original_name": "ÌÎÍÌÎÌÏÌÌÍÏÎÎÌÍÍÌÌÍÍÍÍÌ",
+  "final_name": "VRCCompanionController",
+  "confidence": "high",
+  "reason": "Extends VRCCompanionApi: GetSpeed/SetPlacementMode/TriggerReaction/SetFollowStyle/LookAt."
+ },
+ {
+  "original_name": "ÎÍÌÍÌÎÎÎÍÍÎÎÍÌÏÌÍÏÏÍÏÌÌ",
+  "final_name": "LookCellsMarketplacePanel",
+  "confidence": "high",
+  "reason": "Fields lookCellsBinding/previewPanel/exploreMarketplaceButton/addCellPrefab/lookCellPrefab."
+ },
+ {
+  "original_name": "ÎÏÌÎÏÌÍÍÌÎÌÎÏÌÎÌÎÎÌÎÏÍÏ",
+  "final_name": "GhostHandsVisualController",
+  "confidence": "high",
+  "reason": "Fields GhostHandsRig/GhostHandLeftMesh/GhostHandRightMesh/transparentHandMaterial."
+ },
+ {
+  "original_name": "ÎÍÌÍÍÏÎÏÍÏÌÎÌÏÏÎÌÎÏÏÏÎÎ",
+  "final_name": "FingertipInteractionIndicator",
+  "confidence": "high",
+  "reason": "Fields _fingertipIndicators/_pinchCenterObject/_pinchSnapUpperObject/_pinchCentroidFill."
+ },
+ {
+  "original_name": "ÏÌÏÌÌÌÏÌÎÌÍÎÎÏÏÎÏÎÌÎÏÏÌ",
+  "final_name": "BundleClaimPanel",
+  "confidence": "high",
+  "reason": "Fields bundleImage/bundleName/bundleExpirationDate/claimButton/noBundlesOverlay."
+ },
+ {
+  "original_name": "ÌÏÍÌÎÎÎÎÍÎÍÎÌÏÎÎÌÍÎÌÌÎÏ",
+  "final_name": "AnimatedSpriteEffectData",
+  "confidence": "high",
+  "reason": "Extends BackingFieldBase: _isSpecialFX/_loopStyle/_animationStyle/_frames/_isAnimated/_sprite."
+ },
+ {
+  "original_name": "ÌÌÍÎÏÍÌÎÎÌÎÍÍÌÌÍÎÏÍÌÎÏÌ",
+  "final_name": "AvatarListCell",
+  "confidence": "high",
+  "reason": "Fields _nameField/_thumbnail/_button/_selected/_playing/_contentWarningBanner/_vrcPlusExclusiveBadge."
+ },
+ {
+  "original_name": "ÏÏÎÏÎÎÌÏÍÏÏÍÍÏÌÌÌÌÌÌÎÎÎ",
+  "final_name": "SubscriptionListPanel",
+  "confidence": "high",
+  "reason": "Fields _activeSubscriptions/_expiredSubscriptions/_subscriptionElementPrefab/sortActiveDropdown."
+ },
+ {
+  "original_name": "ÍÎÎÏÍÏÎÎÍÎÎÏÏÍÌÍÎÎÎÏÏÎÏ",
+  "final_name": "ControlledScrollRect",
+  "confidence": "high",
+  "reason": "Extends ScrollRect: _controlName/minimumSpeed/_allowPropagationToParent/_autoClampScroll."
+ },
+ {
+  "original_name": "ÌÍÍÎÍÍÏÏÎÌÏÏÏÌÍÏÌÏÌÏÏÌÍ",
+  "final_name": "SocialNotificationMenuPanel",
+  "confidence": "high",
+  "reason": "Fields friendsButton/invitesButton/friendRequestsButton/onlineFriendsCount/inviteCount."
+ },
+ {
+  "original_name": "ÍÌÌÎÎÏÏÍÎÌÏÎÎÏÏÏÏÎÌÌÌÏÌ",
+  "final_name": "CustomDropdownMenu",
+  "confidence": "high",
+  "reason": "Fields optionPrefab/dividerPrefab/optionsCanvasGroup/selectionGraphic+OnEndDrag."
+ },
+ {
+  "original_name": "ÎÎÏÎÌÎÌÎÍÎÌÏÏÎÌÍÎÍÎÎÏÏÎ",
+  "final_name": "WorldDownloadProgressCell",
+  "confidence": "high",
+  "reason": "Fields worldImage/worldName/progressSlider/cancelText/goText/actionButton/infoButton."
+ },
+ {
+  "original_name": "ÍÍÍÎÎÌÎÏÌÍÏÌÎÏÍÌÍÍÏÎÍÌÌ",
+  "final_name": "CameraUITooltipController",
+  "confidence": "high",
+  "reason": "Fields Manager/Target/TargetButton/CloseButton/Alignment/CameraUIUprightElement/TargetMode."
+ },
+ {
+  "original_name": "ÍÌÍÍÍÍÎÏÍÏÎÎÎÏÏÎÎÏÍÎÏÌÍ",
+  "final_name": "GroupBannerCardWidget",
+  "confidence": "high",
+  "reason": "Fields _groupBannerImageBinding/_groupIconImageBinding/_groupNameText/_onlineMembersText."
+ },
+ {
+  "original_name": "ÌÍÌÎÏÌÎÏÌÌÍÏÎÌÎÌÌÏÍÌÍÏÎ",
+  "final_name": "LocalizableTextMeshPro",
+  "confidence": "high",
+  "reason": "Extends TextMeshProUGUI: _localizableString/_prefSizeMode/_forceMinWidthToMatchPreferredWidth."
+ },
+ {
+  "original_name": "ÏÎÍÎÌÍÎÍÏÍÏÏÎÌÍÌÍÎÏÎÌÎÌ",
+  "final_name": "UserProfileEditorPanel",
+  "confidence": "high",
+  "reason": "Fields _profileAvatarImage/_profileIconImage/_editIconModalPrefab/_bioField/_bioScrollView."
+ },
+ {
+  "original_name": "ÌÌÏÏÏÍÏÌÌÌÎÌÎÎÍÏÏÍÌÏÌÍÎ",
+  "final_name": "AuthSessionController",
+  "confidence": "high",
+  "reason": "Methods PassLoginInfo/Logout."
+ },
+ {
+  "original_name": "ÌÍÌÎÏÌÍÌÍÏÍÎÌÍÍÏÍÌÏÏÏÎÎ",
+  "final_name": "ContactReceiverCustomizationView",
+  "confidence": "high",
+  "reason": "Fields controller/meshRenderer/trailRenderer/audioVisual/contactReceiver/insideCustomizationView."
+ },
+ {
+  "original_name": "ÍÍÌÍÏÍÏÌÍÍÎÍÏÌÍÍÍÍÏÍÎÏÌ",
+  "final_name": "CameraMenuPanel",
+  "confidence": "high",
+  "reason": "Fields TakeScreenshot/ToggleDynamicLight/EnablePhotoMode/EnableStreamMode/IconCamera/GalleryCamera."
+ },
+ {
+  "original_name": "ÍÍÎÎÏÎÎÍÏÏÌÎÌÌÎÏÍÏÍÌÌÌÍ",
+  "final_name": "GalleryImageSliderPanel",
+  "confidence": "high",
+  "reason": "Fields _mainImageBinding/_previousImageButton/_nextImageButton/_galleryImagePrefab/_scrollRect."
+ },
+ {
+  "original_name": "ÏÎÎÏÏÏÌÏÌÏÍÎÍÌÏÎÎÏÎÏÌÏÍ",
+  "final_name": "CollapsibleMenuButton",
+  "confidence": "high",
+  "reason": "Fields collapseWhenClicked/parentButton/childrenButtons/text/icon/selectedDisplay."
+ },
+ {
+  "original_name": "ÏÌÎÌÍÍÎÌÌÍÏÏÍÎÎÍÏÍÍÎÌÌÍ",
+  "final_name": "InventoryItemPanel",
+  "confidence": "high",
+  "reason": "Fields icons/addItemPrefab/builder/content/inventoryInfoPanel/upsellPanel/storeButton."
+ },
+ {
+  "original_name": "ÍÌÍÌÏÎÌÎÎÌÏÏÎÌÌÎÏÍÍÎÌÍÎ",
+  "final_name": "EmojiPreviewPlayer",
+  "confidence": "high",
+  "reason": "Fields playButton/stopButton/fullPreview/superBadge/imagePreview/textureSheetPlayer/rotator."
+ },
+ {
+  "original_name": "ÍÌÍÏÏÎÍÏÌÏÍÌÎÌÍÏÌÌÍÌÌÌÏ",
+  "final_name": "GroupManagementOptionsPanel",
+  "confidence": "high",
+  "reason": "Fields closeButton/moveUpButton/moveDownButton/nameplateToggle/leaveGroupButton/reportGroupButton."
+ },
+ {
+  "original_name": "ÍÍÍÏÌÍÎÌÎÎÌÏÍÌÍÌÎÍÏÏÏÎÍ",
+  "final_name": "UserInvitePickerPanel",
+  "confidence": "high",
+  "reason": "Fields loadingOverlay/closeButton/cancelButton/confirmButton/friendsTab/instancesTab/userCellPrefab/searchUsersButton."
+ },
+ {
+  "original_name": "ÎÏÎÍÏÎÌÎÌÍÍÍÍÎÎÌÏÎÍÏÎÌÎ",
+  "final_name": "AnimatedTextureSheetPlayer",
+  "confidence": "high",
+  "reason": "Fields rawImage/_frame/_numFrames/_totalFrames/_fps/_loopStyle/_paused+Initialize."
+ },
+ {
+  "original_name": "ÍÎÎÌÍÎÏÌÌÍÏÎÏÍÌÍÎÍÌÏÍÍÌ",
+  "final_name": "NamedTMPDropdown",
+  "confidence": "high",
+  "reason": "Extends TMP_Dropdown with _controlName/_k_EverythingOption/_k_MixedOption."
+ },
+ {
+  "original_name": "ÍÌÍÏÌÎÌÎÎÍÍÏÍÎÏÌÍÎÌÍÎÍÌ",
+  "final_name": "PhotoGalleryActionPanel",
+  "confidence": "high",
+  "reason": "Fields saveToGalleryButton/downloadButton/viewWorldButton/visibilityButton/viewUserProfileButton/reportButton."
+ },
+ {
+  "original_name": "ÏÏÎÍÎÎÎÍÏÍÌÏÌÎÏÌÎÏÍÍÍÍÌ",
+  "final_name": "VRCPlusMigrationWizard",
+  "confidence": "high",
+  "reason": "Fields _steps/_nextButton/_prevButton/_startUpgradeButton/_copyButton/_launchWebsiteButton/_logoutButton/_tokenText."
+ },
+ {
+  "original_name": "ÏÌÏÏÏÌÎÍÌÎÏÎÎÏÍÌÏÎÏÏÍÎÌ",
+  "final_name": "PhotonNetworkEventSyncHandler",
+  "confidence": "high",
+  "reason": "Extends NetworkReadyHandler: _targets/_isSparse/_lastEncoding/_eventCode/_syncMethod+OnSpawn/set_Targets/get_IsSparse."
+ },
+ {
+  "original_name": "ÍÏÎÍÍÍÍÌÍÎÍÎÎÌÍÎÏÌÏÏÏÍÍ",
+  "final_name": "VRCStandaloneInputModule",
+  "confidence": "high",
+  "reason": "Extends PointerInputModule: _kMouseLeftId/_kMouseRightId/m_HorizontalAxis/m_ForceModuleActive."
+ },
+ {
+  "original_name": "ÏÌÎÏÌÏÎÎÎÏÌÌÎÏÎÍÏÎÍÏÍÍÍ",
+  "final_name": "AvatarSelectorPanel",
+  "confidence": "high",
+  "reason": "Fields _selectedAvatarPanel/_selectedAvatarName/_title/_closeButton/_scrollRect/_avatarDetailsButton/_avatarListView/_sortDropdown."
+ },
+ {
+  "original_name": "ÍÌÎÏÏÍÎÎÌÌÍÍÎÎÎÍÌÏÌÌÏÎÏ",
+  "final_name": "CurvedRaycastPointer",
+  "confidence": "high",
+  "reason": "Fields _maximumDistance/_heightLimitAngle/_triggerInteraction/_curveRenderer/_curveOffset/_curveFrequency/_hitColor."
+ },
+ {
+  "original_name": "ÎÍÏÍÌÌÍÎÍÍÍÎÌÏÌÎÍÎÏÌÍÏÌ",
+  "final_name": "GroupInstanceListGroup",
+  "confidence": "high",
+  "reason": "Fields _groupName/_groupIcon/_gridLayoutGroup/_instances/_canvas/_foldout/_groupInstanceContentPrefab/_viewMoreButtonPrefab/_groupInfoButton."
+ },
+ {
+  "original_name": "ÍÌÍÍÎÏÎÌÏÌÏÌÍÌÍÏÌÍÌÍÌÏÍ",
+  "final_name": "WorldSidePanelController",
+  "confidence": "high",
+  "reason": "Fields _sidePanelButtonPrefab/_dataContextSelectorGroup/_worldsPanel/_worldLandingMM/_sidePanelButtonsBinding/_varietyButton."
+ },
+ {
+  "original_name": "ÍÎÍÍÏÍÎÍÌÎÌÏÌÎÍÎÌÏÌÍÏÎÏ",
+  "final_name": "DebugSettingsPanel",
+  "confidence": "high",
+  "reason": "Fields _reportBugButtons/_clearProfileDataButtons/_openLogsFolderButtons/_loggingSetting/_avatarDebug/_contentCacheButtons/_resetAllUserDataButton."
+ },
+ {
+  "original_name": "ÌÌÌÏÌÏÏÌÏÏÎÍÎÌÌÏÌÏÎÌÍÎÍ",
+  "final_name": "VRPointerManager",
+  "confidence": "high",
+  "reason": "Extends ControllerRightBase: leftPointerGeneric/rightPointerGeneric/leftPointerPico/rightPointerPico+Initialize."
+ },
+ {
+  "original_name": "ÍÎÌÏÎÎÏÎÍÎÌÍÏÏÍÎÌÏÏÏÎÏÌ",
+  "final_name": "UdonBehaviour",
+  "confidence": "high",
+  "reason": "Extends AbstractUdonBehaviour: Interact/RunEvent/RequestSerialization/SendCustomNetworkEvent/TryGetProgramVariable/set_DisableEventProcessing."
+ },
+ {
+  "original_name": "ÎÏÎÌÌÏÍÏÎÍÏÍÍÍÏÍÍÍÌÍÏÏÍ",
+  "final_name": "SubscriptionPurchasePeriodPanel",
+  "confidence": "high",
+  "reason": "Fields _productTitle/_enterPeriodText/_periodText/_costText/_discountText/_periodInputField/_decrementButton/_incrementButton/_submitButton/_cancelButton."
+ },
+ {
+  "original_name": "ÌÎÎÌÏÎÌÍÏÏÍÎÎÏÍÎÎÏÌÌÍÌÌ",
+  "final_name": "ChatBubbleWidget",
+  "confidence": "high",
+  "reason": "Fields _canvasGroup/_chatText/_fadeInOutSpeed/_heightFitter/_typingIndicator/_chatBubblePositioner."
+ },
+ {
+  "original_name": "ÍÍÎÌÌÎÍÎÎÎÏÏÌÌÎÌÍÏÌÏÎÏÌ",
+  "final_name": "WorldFriendsListGroup",
+  "confidence": "high",
+  "reason": "Fields _worldName/_gridLayoutGroup/_friends/_worldInstance/_friendPrefab/_canvas/_foldout."
+ },
+ {
+  "original_name": "ÎÎÌÌÍÌÌÌÍÎÎÏÏÏÍÏÏÎÌÌÌÏÌ",
+  "final_name": "ExpandableNavButton",
+  "confidence": "high",
+  "reason": "Fields parentButton/children/text/icon/padding/transitionDuration/collapsedText/backgroundCollapsedColor/expandedText."
+ },
+ {
+  "original_name": "ÎÌÏÏÏÎÌÏÍÎÌÎÏÍÌÏÏÌÍÍÎÍÍ",
+  "final_name": "WorldPortalLoadingPanel",
+  "confidence": "high",
+  "reason": "Extends ProgressDisclaimerBase: _portalIcon/_progressBarFill/_progressBarBackground/_progressPercentText/_returnToHomeButton/_goButton._thumbnailSection."
+ },
+ {
+  "original_name": "ÎÍÏÌÏÍÍÌÎÏÎÏÎÌÍÌÍÏÎÌÌÌÍ",
+  "final_name": "EmailCaptureView",
+  "confidence": "high",
+  "reason": "Fields: emailCaptureView/emailInstructionsView/marketingToggle/emailInputField — email registration capture UI"
+ },
+ {
+  "original_name": "ÎÏÎÏÏÌÎÍÍÍÎÎÏÌÍÎÍÎÎÌÎÎÍ",
+  "final_name": "NumericStepperControl",
+  "confidence": "high",
+  "reason": "Fields: increaseButton/decreaseButton/increaseButtonIconStyle/onValueChanged — numeric stepper UI"
+ },
+ {
+  "original_name": "ÎÌÎÎÌÏÏÍÍÌÎÌÏÌÌÎÍÎÎÏÎÏÎ",
+  "final_name": "CalendarEventListItem",
+  "confidence": "high",
+  "reason": "Fields: timeDisplay/imageBinding/onEventClick/addedPill/featuredPill/livePill/categoryPill"
+ },
+ {
+  "original_name": "ÌÌÌÌÍÌÎÎÌÏÏÎÎÏÌÏÌÎÎÏÏÌÌ",
+  "final_name": "GroupsNavigationPanel",
+  "confidence": "high",
+  "reason": "Fields: groupLandingPageButton/groupActivityButton/groupEventsButton/groupsLandingPage/groupsDiscoveryPanel/groupEventsFilterButton"
+ },
+ {
+  "original_name": "ÍÌÎÌÎÎÎÎÌÏÏÍÌÎÏÍÎÏÎÌÍÌÌ",
+  "final_name": "GestureIndicatorBar",
+  "confidence": "high",
+  "reason": "Fields: gestureImages/leftGestureDisplay/rightGestureDisplay/gestureBarPosDesktop/posLeftOnDesktopCameraOpen"
+ },
+ {
+  "original_name": "ÎÎÌÌÎÏÌÍÍÍÎÌÍÌÎÍÎÍÌÎÏÏÌ",
+  "final_name": "AvatarExplorePanel",
+  "confidence": "medium",
+  "reason": "Fields: _exploreAvatarsPanel/_selectedAvatarPanel/_avatarName"
+ },
+ {
+  "original_name": "ÎÎÍÍÎÍÏÎÎÎÌÎÌÏÏÎÏÎÌÎÏÏÏ",
+  "final_name": "PlaylistSettingsPanel",
+  "confidence": "high",
+  "reason": "Fields: _namePlaylistInputField/_renamePlaylistButton/_clearPlaylistButton/_setPrivacyPrivateButton/_setPrivacyPublicButton"
+ },
+ {
+  "original_name": "ÌÌÍÌÎÏÍÎÍÍÍÌÎÌÌÍÌÌÎÍÍÍÏ",
+  "final_name": "LinkEntryItem",
+  "confidence": "medium",
+  "reason": "Fields: _linkImages/_addLinkTexture/_hoverTrashCan/_label/_tooltip — link list entry with add/delete"
+ },
+ {
+  "original_name": "ÏÍÍÍÎÎÎÎÍÍÎÍÍÌÏÎÎÎÏÍÏÎÍ",
+  "final_name": "VrcPlusInventoryPanel",
+  "confidence": "high",
+  "reason": "Fields: inventoryInfoPanel/upsellPanel/vrcplusSubscribeButton/buttonFooter"
+ },
+ {
+  "original_name": "ÏÌÌÍÏÍÌÎÏÏÌÍÎÎÍÏÏÏÍÎÎÏÌ",
+  "final_name": "UdonParameterTestPanel",
+  "confidence": "high",
+  "reason": "Fields: _doTestMode/buttonParent/toggleParent/floatParent/multiFloatParent/vector2Parent — Udon param inspector"
+ },
+ {
+  "original_name": "ÌÌÍÏÏÍÎÎÏÍÍÏÎÍÎÍÏÍÎÏÍÎÎ",
+  "final_name": "StyledButton",
+  "confidence": "medium",
+  "reason": "parent=Button; fields: _tooltip/_style/_disabled/_controlName/_sendAnalytics"
+ },
+ {
+  "original_name": "ÌÍÍÏÏÎÏÍÌÏÏÏÌÍÌÌÌÍÎÍÎÎÌ",
+  "final_name": "WorldListCell",
+  "confidence": "medium",
+  "reason": "Fields: _nameField/_thumbnail/_unavailableOverlay/_platformIconContext/_securityCheckFailedIcon/_contentWarningBanner"
+ },
+ {
+  "original_name": "ÏÍÌÎÍÎÍÎÍÏÎÏÌÏÍÍÍÎÏÎÎÍÍ",
+  "final_name": "AvatarPickerCell",
+  "confidence": "medium",
+  "reason": "Fields: _nameText/_thumbnail/_selectionBinding/_vrcPlusIcon/_vrcPlusButton/editButton"
+ },
+ {
+  "original_name": "ÌÎÍÎÍÎÌÍÌÏÍÍÏÎÌÍÌÌÏÎÌÎÌ",
+  "final_name": "ReportListPanel",
+  "confidence": "high",
+  "reason": "Fields: NoReportsMessage/TotalReportsText/reportContentView/showMore/statusFilter"
+ },
+ {
+  "original_name": "ÎÎÍÍÏÌÌÍÎÏÍÎÎÎÍÌÌÍÎÍÌÏÏ",
+  "final_name": "CheckboxSettingsItem",
+  "confidence": "medium",
+  "reason": "Fields: toggle/checkboxText/checkboxSubtext/toolTip/toggleId/_canvasGroup"
+ },
+ {
+  "original_name": "ÎÎÌÍÌÏÌÌÎÌÎÎÎÍÌÎÌÎÍÎÏÍÍ",
+  "final_name": "ButtonRingHoverEffect",
+  "confidence": "medium",
+  "reason": "Field: buttonRingHoverScale + Update/OnDrawGizmos — hover ring scale effect"
+ },
+ {
+  "original_name": "ÍÎÏÍÏÏÏÌÍÌÍÌÏÎÍÌÍÏÎÌÎÎÌ",
+  "final_name": "PortalControlPanel",
+  "confidence": "high",
+  "reason": "Fields: _dropPortalButton/_securePortalButton/_portalLockedDisplay/_portalUnlockedDisplay/_securePortalTooltip"
+ },
+ {
+  "original_name": "ÏÏÍÌÍÍÍÍÍÏÏÏÌÌÍÌÏÎÎÍÍÎÍ",
+  "final_name": "MarketplacePurchaseItemCell",
+  "confidence": "high",
+  "reason": "Fields: PurchaseButton/NameText/DescriptionText/PriceText/PurchaseButtonText/ViewDetailsLinkButton"
+ },
+ {
+  "original_name": "ÍÌÎÍÍÎÍÌÎÍÏÏÎÍÍÏÏÍÌÌÍÏÏ",
+  "final_name": "StoreCategorySection",
+  "confidence": "high",
+  "reason": "Fields: sectionNames/categoryName/listBinding/worldCellPrefab/groupCellPrefab/storeType"
+ },
+ {
+  "original_name": "ÍÍÌÌÎÍÌÍÎÎÎÎÎÌÏÍÎÏÎÌÍÍÎ",
+  "final_name": "CalendarDayCell",
+  "confidence": "high",
+  "reason": "Fields: _date/_followingCount/_featuredCount/_groupsCount/_eventHighlight/_dateHighlight/_badge"
+ },
+ {
+  "original_name": "ÎÍÏÏÎÎÍÍÌÎÏÌÍÎÏÍÎÍÌÍÏÍÌ",
+  "final_name": "ContextualTooltipAnchor",
+  "confidence": "medium",
+  "reason": "Fields: _key/_targetPage/_primaryTarget/_fallbackTarget/_alignment/_offset/_supportedDevices + OnEnable/Update"
+ },
+ {
+  "original_name": "ÌÌÌÎÍÍÏÍÎÍÏÏÎÎÏÎÏÌÌÍÌÏÎ",
+  "final_name": "ContentSizeFitterLayoutGroup",
+  "confidence": "medium",
+  "reason": "Fields: m_Padding/m_Spacing/m_ChildControlWidth/m_HorizontalFit + SetLayoutHorizontal/Vertical"
+ },
+ {
+  "original_name": "ÎÌÌÎÎÌÎÏÎÍÎÏÍÏÍÏÍÌÎÏÍÌÎ",
+  "final_name": "AvatarListNavigationPanel",
+  "confidence": "high",
+  "reason": "Fields: _personalListsButton/_recentButton/_uploadedButton/_wishlistButton/_allButton/_personalListsPanel"
+ },
+ {
+  "original_name": "ÌÏÏÌÌÏÍÎÏÏÌÎÏÍÏÍÍÍÎÌÏÍÌ",
+  "final_name": "GroupSearchPanel",
+  "confidence": "medium",
+  "reason": "Fields: _groupsListBinding/_groupCell/_searchButton"
+ },
+ {
+  "original_name": "ÏÍÌÌÏÏÏÍÏÎÌÎÌÎÌÎÎÎÎÍÌÍÌ",
+  "final_name": "ButtonStyleBackground",
+  "confidence": "medium",
+  "reason": "Fields: background/backgroundInnerStroke/backgroundOuterStroke"
+ },
+ {
+  "original_name": "ÎÏÎÌÎÏÎÍÍÍÏÍÍÏÍÍÍÌÍÌÎÎÌ",
+  "final_name": "GroupMembershipButtonPanel",
+  "confidence": "high",
+  "reason": "Fields: requestToJoinGroupButton/joinGroupButton/cancelRequestButton/acceptInviteButton/declineInviteButton/joinPendingDisplay"
+ },
+ {
+  "original_name": "ÍÌÍÍÍÎÌÍÏÎÎÏÎÌÏÍÏÏÍÏÌÌÎ",
+  "final_name": "ProgressNotificationItem",
+  "confidence": "medium",
+  "reason": "Fields: displayTime/descriptionText/progressText/progressSlider/icon/checkmark"
+ },
+ {
+  "original_name": "ÌÎÍÏÍÎÏÌÌÏÏÍÎÌÏÍÏÌÏÎÍÍÍ",
+  "final_name": "ExpandableDescriptionPanel",
+  "confidence": "high",
+  "reason": "Fields: _preferredHeightExpanded/_preferredHeightCollapsed/_descriptionText/_toggleButton/_descriptionViewMoreIcon"
+ },
+ {
+  "original_name": "ÍÌÏÍÌÌÌÌÌÍÏÏÎÍÌÏÌÍÏÏÏÏÏ",
+  "final_name": "VRKeyboardInputOptions",
+  "confidence": "high",
+  "reason": "Props: OnInputCanceled/OnInputChanged/PlaceholderText/ReadOnly/KeyboardType/SubmitButtonText"
+ },
+ {
+  "original_name": "ÏÍÍÌÍÏÎÏÏÌÌÍÏÎÏÍÏÎÍÎÍÌÌ",
+  "final_name": "FaceTrackingSettingsPanel",
+  "confidence": "high",
+  "reason": "Fields: tryWebcamFaceTrackingButton/cameraTrackingSettingsButton/notificationTransform/notificationImage"
+ },
+ {
+  "original_name": "ÏÎÏÍÌÏÌÏÎÎÌÎÎÎÍÌÎÌÎÌÏÍÍ",
+  "final_name": "PortalVisualController",
+  "confidence": "medium",
+  "reason": "Fields: portalMesh/portalRootOverride/expandingRingFx/mobileOpaqueShader/dynamic"
+ },
+ {
+  "original_name": "ÍÏÏÎÍÍÍÎÏÌÍÏÍÍÎÏÌÏÏÏÍÏÎ",
+  "final_name": "ToggleSwitchControl",
+  "confidence": "high",
+  "reason": "Fields: _Toggle/SwitchSprite/SwitchBackground/SwitchOffTarget/SwitchOnTarget/EaseMode/TimeToAnimate"
+ },
+ {
+  "original_name": "ÍÏÍÌÍÍÍÎÌÎÎÎÏÎÌÍÏÎÍÌÍÍÎ",
+  "final_name": "PortalPreviewUI",
+  "confidence": "medium",
+  "reason": "Fields: isInsidePreview/portalUITransform/portalPlatformBadgeTransform/portalLabsBadgeTransform"
+ },
+ {
+  "original_name": "ÎÎÌÍÎÏÏÌÌÏÍÍÎÍÏÎÌÎÍÎÌÎÎ",
+  "final_name": "SearchResultsSectionView",
+  "confidence": "high",
+  "reason": "Fields: foldoutToggleTemplate/articleCellPrefab/worldCellPrefab/groupCellPrefab/avatarCellPrefab/viewMorePrefab"
+ },
+ {
+  "original_name": "ÎÎÎÎÌÌÌÎÌÌÏÎÌÌÏÎÍÏÏÍÎÍÏ",
+  "final_name": "StoreItemDetailCard",
+  "confidence": "high",
+  "reason": "Fields: _nameText/_descriptionText/_priceText/_discountText/_typeText/_quantityText/_expireText"
+ },
+ {
+  "original_name": "ÏÌÎÎÏÌÍÎÍÌÍÎÍÍÏÎÎÌÏÍÌÌÍ",
+  "final_name": "GroupAnnouncementsPanel",
+  "confidence": "high",
+  "reason": "Fields: groupAnnouncementPanel/announcementsListBinding/announcementPrefab/noAnnouncementDisplay/announcementsCanvasToggle"
+ },
+ {
+  "original_name": "ÌÌÎÌÍÍÌÏÍÎÎÍÏÍÍÌÎÌÎÍÏÌÌ",
+  "final_name": "AvatarPlatformPerformanceBadge",
+  "confidence": "high",
+  "reason": "Fields: _platform/_platformSprites/_performanceRankSprite/_performanceRankText/_currentPlatformText"
+ },
+ {
+  "original_name": "ÎÍÌÏÏÏÏÌÌÌÎÎÏÌÌÍÍÌÍÍÌÎÌ",
+  "final_name": "StoreItemListCell",
+  "confidence": "high",
+  "reason": "Fields: _title/_username/_price/_thumbnailBinding/_expirationTextHolder/_expireText/_discountTextHolder/_discountText"
+ },
+ {
+  "original_name": "ÎÌÍÍÌÍÏÎÎÎÌÏÎÌÎÍÍÍÏÏÎÌÍ",
+  "final_name": "WorldHomeFeedPanel",
+  "confidence": "high",
+  "reason": "Fields: _showcaseLayoutElement/_featuredEvents/_featuredEventCell/_liveEvents/_friendLocations/_friendLocationsShelf"
+ },
+ {
+  "original_name": "ÍÎÎÍÎÎÏÏÏÎÎÏÍÌÎÎÎÌÏÌÌÍÎ",
+  "final_name": "MarketplaceTabNavigator",
+  "confidence": "high",
+  "reason": "Fields: _vrchatStoreTab/_avatarsSpotlightTab/_accessoriesTab/_worldStoresTab/_groupStoresTab/_marketplaceTabSelectorGroup"
+ },
+ {
+  "original_name": "ÏÏÎÏÏÏÌÏÌÍÏÌÌÍÍÏÎÍÎÍÍÌÍ",
+  "final_name": "AvatarCollectionPanel_2",
+  "confidence": "high",
+  "reason": "Fields: _selectedAvatarPanel/_avatarCollectionsPanel/_shopButton/_compactToggle/_avatarListView/_tabSelector/_avatarLooksPanel"
+ },
+ {
+  "original_name": "ÏÍÌÎÏÌÌÌÎÏÍÏÍÎÍÏÎÏÌÎÌÍÎ",
+  "final_name": "GroupInstanceBrowser",
+  "confidence": "high",
+  "reason": "Fields: groupInstanceList/groupSelectionDropdown/worldPrefab/userPrefab"
+ },
+ {
+  "original_name": "ÍÌÏÎÌÎÌÎÍÍÍÍÏÌÍÎÎÏÌÌÍÍÎ",
+  "final_name": "ColorPickerPanel",
+  "confidence": "high",
+  "reason": "Fields: canvasGroup/hexButton/pickerTypeToggle/colorPicker/colorPickerHSV"
+ },
+ {
+  "original_name": "ÍÎÍÎÎÌÌÎÏÍÎÍÌÎÍÎÎÎÎÌÏÍÎ",
+  "final_name": "CalendarEventDateSection",
+  "confidence": "high",
+  "reason": "Fields: _dateHeaderText/_gridLayoutGroup/_eventsListBinding/_canvas/_raycaster/_headerLayoutElement/_foldout/_eventPrefab"
+ },
+ {
+  "original_name": "ÏÌÌÏÍÌÌÎÌÎÎÌÏÏÏÌÍÌÎÌÎÌÌ",
+  "final_name": "WorldInstanceMembersPanel",
+  "confidence": "high",
+  "reason": "Fields: _worldName/_gridLayoutGroup/_members/_worldInstance/_memberPrefab/_canvas/_raycaster/_headerLayoutElement"
+ },
+ {
+  "original_name": "ÌÍÎÎÎÍÍÏÏÍÍÌÎÌÏÌÎÌÏÍÌÍÌ",
+  "final_name": "UserFilterPanel",
+  "confidence": "medium",
+  "reason": "Fields: _chooseButton/_vrcPlusButton/_vrcPlusButtonTooltip/_sendBoopButtonTooltip/_filterListBinding/_gridPanel/_filterPrefab"
+ },
+ {
+  "original_name": "ÎÏÎÎÌÌÏÍÍÍÏÎÌÎÏÏÍÏÍÌÌÏÏ",
+  "final_name": "UserReportActionPanel",
+  "confidence": "high",
+  "reason": "Fields: blockUserButton/reportButton/reportText/viewUserProfileButton/viewWorldInstanceButton/dismissNotificationButton/skrim"
+ },
+ {
+  "original_name": "ÎÍÍÌÍÍÌÎÎÎÎÎÎÎÍÍÌÌÍÌÍÌÎ",
+  "final_name": "PlaylistSidebarPanel",
+  "confidence": "high",
+  "reason": "Fields: _vrcPlusPlaylistSidebarItemPrefab/_classicPlaylistSidebarItemPrefab/_settingsButtonSprite/_resultsPage/_listBinding/_scrollRect/_dataContextSelectorGroup"
+ },
+ {
+  "original_name": "ÌÎÏÌÍÏÌÍÍÌÎÍÌÏÏÌÌÍÌÏÏÍÏ",
+  "final_name": "PlaylistSidebarItem",
+  "confidence": "high",
+  "reason": "Fields: _label/_button/_editIndicator/_hoverTrashCan/_tooltip/_styleElement"
+ },
+ {
+  "original_name": "ÏÎÌÎÏÏÍÌÏÏÍÌÎÌÏÌÎÏÍÍÌÌÏ",
+  "final_name": "HelpArticleView",
+  "confidence": "high",
+  "reason": "Fields: _title/_content/_contentBlockPrefab/_scrollRect/_backToTheTopButton/_sectionLinks/_articleBody"
+ },
+ {
+  "original_name": "ÍÍÍÌÎÏÌÎÏÏÏÎÎÍÏÌÌÍÏÎÏÏÎ",
+  "final_name": "SubscriptionPurchasePanel_2",
+  "confidence": "high",
+  "reason": "Fields: _processingOverlay/purchasesPanel/_cancelProcessingButton/_radioButtonSelectorGroup/_subscriptionNotifier"
+ },
+ {
+  "original_name": "ÏÏÍÍÏÌÍÏÎÍÏÎÍÍÌÍÌÌÌÌÌÌÏ",
+  "final_name": "WorldDetailTabPanel",
+  "confidence": "high",
+  "reason": "Fields: detailsTab/storeTab/authorTab/detailsPanel/storePanel/authorPanel/originalWorldStorePanel/centralMarketplaceWorldStorePanel"
+ },
+ {
+  "original_name": "ÌÌÍÎÍÏÎÎÏÍÎÍÎÌÍÎÌÌÎÏÎÏÌ",
+  "final_name": "PopupPageView",
+  "confidence": "high",
+  "reason": "fields: popupCanvasGroup/popupPage/headerText/closeButton/titlePrefab -- generic popup UI page."
+ },
+ {
+  "original_name": "ÍÍÎÏÎÎÌÏÎÏÌÎÌÌÏÎÎÏÍÏÏÏÍ",
+  "final_name": "AvatarStyleFilterPanel",
+  "confidence": "high",
+  "reason": "fields: _stylesListBinding/_activeStylesListBinding/_performanceDropdown/marketplaceToggle/publicToggle/applyButton -- avatar style filter panel."
+ },
+ {
+  "original_name": "ÌÎÎÌÍÍÌÎÏÍÏÍÌÏÎÏÍÌÎÏÌÎÏ",
+  "final_name": "VrcPlusIconView",
+  "confidence": "medium",
+  "reason": "fields: _icon/_vrcPlusIcon/_vrcPlusLockIcon -- shows VRC+ icons and lock state."
+ },
+ {
+  "original_name": "ÌÍÏÌÎÌÍÏÎÌÏÏÎÏÎÌÎÏÍÏÍÌÎ",
+  "final_name": "InputFieldHoverHandler",
+  "confidence": "medium",
+  "reason": "fields: _inputField; methods: OnPointerEnter/OnPointerExit -- hover handler for input field."
+ },
+ {
+  "original_name": "ÎÎÌÌÏÌÎÎÍÏÌÍÎÏÏÍÎÎÏÌÍÍÏ",
+  "final_name": "VrcPlusSettingsPanel",
+  "confidence": "high",
+  "reason": "fields: infoWithVRCPlusPrefab/unlockWithVRCPlusPrefab/categoryPrefab/buttonPrefab/togglePrefab -- VRC+ settings panel."
+ },
+ {
+  "original_name": "ÌÍÌÏÍÌÍÎÌÎÌÌÍÎÍÎÍÎÍÎÌÍÎ",
+  "final_name": "InstanceQueuePanel",
+  "confidence": "high",
+  "reason": "fields: exitQueueButton/instanceQueueButton/timeInQueueText/queuePositionText -- instance queue wait UI."
+ },
+ {
+  "original_name": "ÏÍÌÌÏÎÌÌÍÍÌÏÎÎÍÏÍÏÌÎÍÎÎ",
+  "final_name": "SelectableButtonItem",
+  "confidence": "medium",
+  "reason": "fields: nameText/tooltipText/selectedObj/button/hoverButtons/enabledObj/loadingObj/lockedObj -- generic selectable button with states."
+ },
+ {
+  "original_name": "ÍÍÎÎÍÎÌÎÏÏÎÍÌÎÌÎÌÍÍÎÍÎÍ",
+  "final_name": "TypingIndicatorView",
+  "confidence": "high",
+  "reason": "fields: _typingIndicatorOffset/_indicatorText/_indicatorTextSpeed/_fadeInOutSpeed -- chat typing indicator UI."
+ },
+ {
+  "original_name": "ÍÏÍÍÏÏÌÍÎÏÎÌÍÌÏÌÏÌÍÏÏÎÌ",
+  "final_name": "CollectionNameEditView",
+  "confidence": "high",
+  "reason": "fields: _collectionNameDisplay/_editName/_radioButtonSelector/_listCountBinding/_lockIcon -- collection name edit UI."
+ },
+ {
+  "original_name": "ÏÍÎÌÎÌÍÌÏÎÏÏÎÎÏÌÍÍÌÎÎÏÌ",
+  "final_name": "LabeledToggle",
+  "confidence": "medium",
+  "reason": "inherits Toggle; fields: _text/_controlName/_sendAnalytics -- labeled toggle with analytics."
+ },
+ {
+  "original_name": "ÎÍÏÏÍÎÌÎÍÏÎÎÎÎÍÌÌÎÌÍÎÍÎ",
+  "final_name": "MicrophoneSettingsPanel",
+  "confidence": "high",
+  "reason": "fields: _changeMicrophone/_micOutputVolume/_noiseSuppression/_micTestButton/_micTestVisualizer -- microphone settings panel."
+ },
+ {
+  "original_name": "ÎÌÏÏÏÏÌÌÌÏÌÎÎÍÌÍÎÏÌÌÎÌÎ",
+  "final_name": "SubscriptionListView",
+  "confidence": "high",
+  "reason": "fields: recurringSubscriptions/giftedSubscriptions/recurringSubscriptionsList/recurringSubscriptionPrefab -- subscription list UI."
+ },
+ {
+  "original_name": "ÌÌÏÌÎÍÎÌÎÎÏÎÎÏÍÏÏÍÌÏÎÍÌ",
+  "final_name": "BlockedUsersPanel",
+  "confidence": "high",
+  "reason": "fields: _blockedUsersFoldout/_blockedUsers/_blockedByUsersFoldout/_blockedByUsers -- blocked users management panel."
+ },
+ {
+  "original_name": "ÏÎÎÏÍÎÍÍÍÍÌÎÏÌÏÌÏÌÌÎÎÏÌ",
+  "final_name": "PhysBonesController",
+  "confidence": "medium",
+  "reason": "methods: ReleaseBones/Initialize -- manages physics bone lifecycle."
+ },
+ {
+  "original_name": "ÎÌÌÍÎÌÌÌÍÎÌÏÍÏÍÎÌÎÌÍÍÌÌ",
+  "final_name": "LaserPointerCursor",
+  "confidence": "high",
+  "reason": "fields: cursor/arrow/invalid/outline/lineRenderer/denySound/raycastDistance -- VR laser pointer cursor."
+ },
+ {
+  "original_name": "ÏÏÏÎÍÌÌÏÏÎÏÎÍÍÌÌÍÍÍÌÌÏÌ",
+  "final_name": "InvalidAvatarDisplay",
+  "confidence": "high",
+  "reason": "fields: invalidAvatarGraphics/loadingTexture; methods: OnNetworkReady/RefreshAvatar -- invalid avatar display component."
+ },
+ {
+  "original_name": "ÎÌÌÍÌÎÌÏÍÌÏÎÎÎÌÏÌÎÍÌÎÎÌ",
+  "final_name": "UdonVariablesPanel",
+  "confidence": "high",
+  "reason": "fields: tabbedPanel/variablesContainer/sliderPrefab/checkboxPrefab/colorPrefab/colorPickerPanel -- Udon variable inspector panel."
+ },
+ {
+  "original_name": "ÏÎÏÍÍÍÍÎÎÍÏÌÌÏÌÌÍÎÌÍÏÎÌ",
+  "final_name": "HoverableButtonView",
+  "confidence": "medium",
+  "reason": "fields: buttonType/button/image/text; methods: OnPointerEnter/OnPointerExit/OnPointerDown -- generic hoverable button."
+ },
+ {
+  "original_name": "ÏÎÎÌÏÌÌÍÎÎÌÏÍÏÌÎÍÎÍÎÏÏÎ",
+  "final_name": "LoadingScreenView",
+  "confidence": "high",
+  "reason": "fields: initializingWorldTextureGray/joiningTextureGray/loadingScreenWidthInMeters/worldImageMask -- world loading transition screen."
+ },
+ {
+  "original_name": "ÌÎÌÌÎÍÎÏÎÌÎÌÌÌÎÍÏÍÍÌÍÌÍ",
+  "final_name": "GraphicsQualitySettingsPopup",
+  "confidence": "high",
+  "reason": "fields: acceptButton/nextGraphicsQualitySettingButton/graphicsSettingText/antialiasingSettingText -- graphics and antialiasing settings popup."
+ },
+ {
+  "original_name": "ÎÎÍÏÎÏÍÍÍÏÌÌÎÌÌÎÌÍÎÍÍÏÏ",
+  "final_name": "PrintPhotoDisplay",
+  "confidence": "high",
+  "reason": "fields: photoDisplay/existingPrintDisplay/authorLabel/worldLabel/dateLabel/aspectRatioFitter -- VRChat photo print display."
+ },
+ {
+  "original_name": "ÍÌÏÌÌÌÍÎÏÍÍÌÏÌÍÌÎÍÍÌÏÍÌ",
+  "final_name": "ListItemThemeBinding",
+  "confidence": "medium",
+  "reason": "fields: highlights/icons/backgrounds/text/subtext/spriteHighlights/spriteIcons/hoverButtons -- multi-layer list item theme binding."
+ },
+ {
+  "original_name": "ÏÏÌÎÏÏÎÎÌÍÍÍÌÍÍÍÌÏÎÏÍÌÏ",
+  "final_name": "UserCardIconView",
+  "confidence": "medium",
+  "reason": "fields: _nameText/_taglineBG/_taglineText/_imageBG/_imageIcon/_tooltip/iconStyle -- user card with tagline and icon."
+ },
+ {
+  "original_name": "ÌÍÍÎÌÍÏÎÎÏÏÌÌÎÌÌÎÏÍÏÏÌÍ",
+  "final_name": "FingerTouchSphere",
+  "confidence": "medium",
+  "reason": "fields: radius/eyeTexture/fingerPressTexture; method: OnDrawGizmos -- finger touch sphere interaction component."
+ },
+ {
+  "original_name": "ÏÌÌÌÏÍÎÌÎÌÍÍÌÍÏÌÌÍÏÍÌÍÍ",
+  "final_name": "ScreenSpaceCanvasController",
+  "confidence": "medium",
+  "reason": "fields: _screenSpaceCanvas; methods: Initialize/LateUpdate -- screen space canvas management."
+ },
+ {
+  "original_name": "ÍÏÏÌÏÎÏÎÍÏÍÌÍÎÎÌÍÍÏÎÏÏÌ",
+  "final_name": "CreditPurchasePanel",
+  "confidence": "high",
+  "reason": "fields: walletBalanceText/addCreditsTitle/creditBundlesList/creditBundlePrefab/creditPurchasesCurrentlyUnavailableMessage -- credit purchase UI panel."
+ },
+ {
+  "original_name": "ÏÏÍÏÌÍÏÌÌÍÌÌÌÌÏÎÍÌÌÎÍÍÎ",
+  "final_name": "WorldListPanel",
+  "confidence": "high",
+  "reason": "fields: _sortByDropdown/_editNameButton/_worldCellPrefab/_viewMorePrefab/_listBinding/_maxCells -- world list with sort and edit options."
+ },
+ {
+  "original_name": "ÏÎÏÏÍÍÍÏÍÎÏÍÍÎÏÎÎÌÎÏÍÌÍ",
+  "final_name": "EventListPanel_1",
+  "confidence": "high",
+  "reason": "fields: _nameText/_eventCellPrefab/_eventListBinding -- event list display panel."
+ },
+ {
+  "original_name": "ÍÌÎÏÏÎÎÎÌÍÍÏÎÎÎÎÌÎÌÏÌÍÌ",
+  "final_name": "ShowcaseTogglePanel",
+  "confidence": "high",
+  "reason": "fields: _subtitle/_closeButton/_showcaseToggle/_hideToggle/_showcaseToggleButton -- showcase/hide toggle panel."
+ },
+ {
+  "original_name": "ÎÌÎÎÍÌÏÏÌÎÍÌÌÍÎÎÍÎÎÌÌÎÏ",
+  "final_name": "AvatarEarmuffAnimator",
+  "confidence": "high",
+  "reason": "fields: regularCatFront/earmuffCatFront/regularRatFront/earmuffRatFront/imageBack/imageFront -- avatar earmuff visual state switcher."
+ },
+ {
+  "original_name": "ÎÏÌÌÏÌÌÍÌÍÌÏÌÌÏÎÍÍÏÏÍÌÍ",
+  "final_name": "MicSensitivityPanel",
+  "confidence": "high",
+  "reason": "fields: _micSensitivityAndIndicator/_noiseGateText/sensitivitySlider/inverseSensitivitySlider/volumeSliderSmoothed/volumeSliderRaw -- mic sensitivity indicator panel."
+ },
+ {
+  "original_name": "ÌÏÎÍÍÏÎÌÍÍÌÌÎÌÏÌÌÏÌÏÏÏÏ",
+  "final_name": "StoreSkinsCategory",
+  "confidence": "high",
+  "reason": "fields: _droneSkinsCategory/_portalSkinsCategory/_loadingScreensCategory/_warpEffectsCategory/_uiThemesCategory/_backgroundsCategory -- store cosmetics categories panel."
+ },
+ {
+  "original_name": "ÏÏÎÌÎÏÎÌÍÌÏÎÏÏÎÌÍÍÍÍÎÎÍ",
+  "final_name": "StripedMaskableGraphic",
+  "confidence": "medium",
+  "reason": "inherits MaskableGraphic; fields: ShaderFeatureStripes/ShaderFeatureRectOffsetChannel/ShaderFeatureMasking/yOffset/_sprite -- custom UI graphic with stripe shader."
+ },
+ {
+  "original_name": "ÍÏÌÏÎÏÎÍÌÍÌÍÏÏÌÍÏÌÏÎÏÏÏ",
+  "final_name": "CreditBundlePurchaseView",
+  "confidence": "high",
+  "reason": "fields: _creditsNeededForPurchaseText/_currentCreditBalanceText/_allCreditBundleOptionsPanel/_bestCreditBundle/_cancelProcessingButton/_processingOverlay -- credit bundle purchase flow UI."
+ },
+ {
+  "original_name": "ÌÍÌÌÌÍÌÌÏÌÎÍÌÎÎÏÎÍÎÌÏÎÍ",
+  "final_name": "PaginatedScrollView",
+  "confidence": "medium",
+  "reason": "fields: pageUpButton/pageDownButton -- paginated scroll view controller."
+ },
+ {
+  "original_name": "ÍÌÏÏÎÌÎÏÌÎÍÏÎÌÍÌÌÌÌÍÍÌÎ",
+  "final_name": "SubscriptionPriceView",
+  "confidence": "high",
+  "reason": "fields: subscriptionPricePerMonthText -- subscription monthly price display."
+ },
+ {
+  "original_name": "ÏÌÏÍÌÍÏÍÏÎÏÍÌÍÌÌÍÍÏÌÎÏÌ",
+  "final_name": "WorldInstanceFlowController",
+  "confidence": "high",
+  "reason": "fields: loadingDisplay/worldInstanceFlowHandler -- world instance join flow controller."
+ },
+ {
+  "original_name": "ÎÍÎÌÏÏÎÎÎÍÏÌÌÌÍÏÎÎÌÎÍÌÏ",
+  "final_name": "ColorPickerWheel",
+  "confidence": "high",
+  "reason": "fields: ColorWheel/Indicator/ValueBackground/ValueSlider -- HSV color picker wheel component."
+ },
+ {
+  "original_name": "ÌÍÍÏÎÎÌÌÍÍÍÏÍÎÎÎÏÏÎÍÎÏÌ",
+  "final_name": "PlaylistPrivacyPanel",
+  "confidence": "high",
+  "reason": "fields: _public/_friendsOnly/_private/_clearPlaylist/_editPlaylistInputField -- playlist privacy settings panel."
+ },
+ {
+  "original_name": "ÏÏÏÎÍÎÍÍÎÌÏÏÍÏÌÍÌÎÎÍÏÎÎ",
+  "final_name": "LabeledSlider",
+  "confidence": "medium",
+  "reason": "inherits Slider; fields: _controlName/_sendAnalytics -- labeled slider with analytics reporting."
+ },
+ {
+  "original_name": "ÌÎÌÌÍÎÍÍÎÍÏÎÎÌÌÌÌÎÍÌÏÏÏ",
+  "final_name": "TransactionHistoryView",
+  "confidence": "high",
+  "reason": "fields: transactionList/transactionElementPrefab/filterDropdown/scrollRect/noTransactionsFoundMessage -- transaction history UI."
+ },
+ {
+  "original_name": "ÍÎÌÎÎÏÍÍÏÎÏÎÌÍÍÍÎÎÏÏÏÎÎ",
+  "final_name": "GroupPostListItem",
+  "confidence": "medium",
+  "reason": "fields: _nameText/privacyText/_imageIcon/_tooltip/_ownerCrown/postbadge -- group post list item with privacy and badge."
+ },
+ {
+  "original_name": "ÍÍÍÏÎÏÏÌÏÍÌÎÌÎÎÍÏÎÌÎÏÎÎ",
+  "final_name": "AvatarPedestalEditor",
+  "confidence": "high",
+  "reason": "fields: _pedestal/_applyButton/_editButton/_nameText/_subText -- avatar pedestal edit UI in world."
+ },
+ {
+  "original_name": "ÏÏÌÎÍÏÌÏÏÍÌÍÏÌÎÌÏÍÌÍÎÏÌ",
+  "final_name": "FoldoutSectionView",
+  "confidence": "high",
+  "reason": "fields: title/description/count/foldout/container/descriptionContainer -- collapsible section with count badge."
+ },
+ {
+  "original_name": "ÎÍÎÍÎÍÍÍÌÎÎÎÎÌÍÎÍÎÍÍÏÏÌ",
+  "final_name": "StoreItemPurchaseView",
+  "confidence": "high",
+  "reason": "fields: _itemNameLabel/_itemImage/_purchaseInfoContainer/_purchaseButton/_priceText/_userData -- store item purchase card."
+ },
+ {
+  "original_name": "ÏÌÎÌÌÌÎÏÍÍÌÍÍÎÏÍÌÏÍÍÏÎÌ",
+  "final_name": "CommentModerationRow",
+  "confidence": "high",
+  "reason": "fields: ownerLabel/ownerIconBinding/showButton/reportButton/removeButton/parent -- comment row with show/report/remove actions."
+ },
+ {
+  "original_name": "ÌÏÏÎÌÍÎÎÏÍÍÏÌÏÌÏÍÍÎÍÌÌÍ",
+  "final_name": "SubscriptionOptionsPanel",
+  "confidence": "high",
+  "reason": "fields: _productTitleText/_expirationText/_addSubscriptionHeader/_updateSubscriptionHeader/_subscriptionOptionsListBinding/_subscriptionPrefab -- subscription add/update options panel."
+ },
+ {
+  "original_name": "ÎÎÍÍÌÌÎÏÌÌÎÏÌÎÏÍÍÌÏÍÏÏÏ",
+  "final_name": "RepStatusIndicator",
+  "confidence": "high",
+  "reason": "fields: reppingIcon/notReppingIcon/displayText/iconCanvasGroup/tooltip/raycastBlockingObject -- rep (representative) status icon display."
+ },
+ {
+  "original_name": "ÎÌÏÎÎÏÎÏÎÌÏÏÍÌÍÏÌÏÌÍÏÎÍ",
+  "final_name": "LockedPrintsContentView",
+  "confidence": "high",
+  "reason": "fields: increaseYourLimitText/lockedPrintsSeparator/vrcplusButton/nonVRCPlusOverflowListBinding/hiddenPrintsLabel/lockedPrintPrefab -- VRC+ locked prints overflow view."
+ },
+ {
+  "original_name": "ÏÏÍÍÍÌÎÏÍÍÍÎÎÎÎÍÍÍÏÎÍÌÍ",
+  "final_name": "ProductSortedListPanel",
+  "confidence": "high",
+  "reason": "fields: _listBinding/_listCountBinding/_productPrefab/_sortProductsDropdown -- sortable product list panel."
+ },
+ {
+  "original_name": "ÍÎÌÍÍÌÏÍÏÎÍÎÌÌÏÎÏÏÍÍÎÌÏ",
+  "final_name": "WorldPreloadDownloadButton",
+  "confidence": "high",
+  "reason": "fields preloadWorldGroup/downloadingWorldGroup/downloadingProgressBar indicate world preload download UI"
+ },
+ {
+  "original_name": "ÏÎÏÌÍÍÏÍÍÌÎÍÏÎÎÌÎÍÏÎÎÌÏ",
+  "final_name": "PortalInfoPanel",
+  "confidence": "high",
+  "reason": "fields instanceName/instanceDescription/_regionIcon/_ageGateIcon/portalSubtext map to portal info panel"
+ },
+ {
+  "original_name": "ÌÎÍÌÎÎÌÌÍÏÎÌÍÍÎÎÏÎÎÎÌÎÍ",
+  "final_name": "MilestoneProgressBar",
+  "confidence": "high",
+  "reason": "fields _milestoneValues/_barGraphic/_milestoneObject/_MilestoneContainer/_handle indicate milestone progress bar"
+ },
+ {
+  "original_name": "ÎÍÍÎÏÏÎÎÌÍÎÍÌÌÏÏÍÎÍÏÏÏÎ",
+  "final_name": "TexturePanTweenController",
+  "confidence": "high",
+  "reason": "fields _tweenTime/_tweenCurve/_enableTexturePanning/_panSpeed/_panTarget indicate texture pan tween controller"
+ },
+ {
+  "original_name": "ÎÎÎÏÏÏÎÍÎÌÍÏÏÌÏÍÍÌÏÍÌÍÍ",
+  "final_name": "ChatInputPromptPanel",
+  "confidence": "high",
+  "reason": "fields _preview/_promptField/_submitButton/_cancelButton/_historyButton with OnSubmit/OnCancel indicate chat input panel with history"
+ },
+ {
+  "original_name": "ÎÌÍÏÍÏÏÍÎÌÎÌÍÍÍÏÍÏÏÏÌÌÌ",
+  "final_name": "UserListEntryItem",
+  "confidence": "high",
+  "reason": "fields userData/visibilityButton/viewUserProfileButton/reportButton/vrcPlusButton indicate user list entry UI item"
+ },
+ {
+  "original_name": "ÍÎÏÎÎÌÏÌÎÏÏÏÎÎÎÎÎÏÍÏÏÏÎ",
+  "final_name": "VrLoadingOverlayManager",
+  "confidence": "high",
+  "reason": "fields steamVR/oculusVR/openXRLoadingOverlayResource/_flatLoadingOverlayResource indicate multi-platform VR loading overlay manager"
+ },
+ {
+  "original_name": "ÏÌÎÎÎÌÎÏÌÏÌÍÎÏÌÍÌÏÎÎÎÌÎ",
+  "final_name": "PlaylistToggleScrollList",
+  "confidence": "high",
+  "reason": "fields _playlistTogglePrefab/_vrcPlusPlaylistTogglePrefab/_playlistToggleClassicPrefab/_listBinding indicate playlist toggle scroll list"
+ },
+ {
+  "original_name": "ÎÎÏÌÎÌÌÏÏÎÎÌÌÍÍÌÍÍÍÌÌÎÍ",
+  "final_name": "StorePurchaseHistoryItem",
+  "confidence": "high",
+  "reason": "fields _thumbnailImage/_itemName/_itemSeller/_dateTimestamp/_amount/_balance/_type indicate store purchase history list item"
+ },
+ {
+  "original_name": "ÏÍÍÌÍÏÏÌÌÏÍÎÍÍÌÍÏÎÎÏÏÏÏ",
+  "final_name": "UserProfileEntryWidget",
+  "confidence": "high",
+  "reason": "fields userProfileButton/userIconImage/userNameText/userStatusText/userStatusIcon indicate user profile entry widget"
+ },
+ {
+  "original_name": "ÍÎÎÍÌÏÎÎÍÍÏÎÎÌÏÏÏÍÌÍÎÌÏ",
+  "final_name": "EventListPanel_2",
+  "confidence": "high",
+  "reason": "fields _header/_headerText/_eventCountBinding/_eventListBinding/_instancePrefab/_canvas indicate event list panel"
+ },
+ {
+  "original_name": "ÎÌÎÍÍÍÌÎÎÏÌÌÏÏÌÌÏÎÎÌÏÌÎ",
+  "final_name": "CameraCaptureMenuPanel",
+  "confidence": "high",
+  "reason": "fields takePictureButton/galleryButton/uploadOnWebButton/closeButton indicate camera capture menu panel"
+ },
+ {
+  "original_name": "ÎÍÍÌÏÏÌÍÌÍÍÎÎÏÏÍÍÍÍÎÍÏÌ",
+  "final_name": "CollapsablePanelController",
+  "confidence": "medium",
+  "reason": "fields _collapsableStyleComponentController/_contentPanel/_parentContainer indicate collapsable panel style controller"
+ },
+ {
+  "original_name": "ÎÍÏÌÍÏÍÍÏÌÏÎÎÏÏÌÌÎÎÌÌÎÌ",
+  "final_name": "GiftBoxAnimationController",
+  "confidence": "high",
+  "reason": "fields giftBoxMain/giftBoxLoop/gifterPrefab/giftedToPrefab/giftedToPrefabLoop explicitly indicate gift box animation controller"
+ },
+ {
+  "original_name": "ÍÌÌÏÍÍÍÏÏÎÎÍÍÌÌÌÌÏÎÍÍÏÌ",
+  "final_name": "MinimizablePanelController",
+  "confidence": "high",
+  "reason": "fields _panelRectTransform/_disableWhenMinimized/_enableWhenMinimized/_minimizeButton/_arrow indicate minimizable panel controller"
+ },
+ {
+  "original_name": "ÏÎÎÍÎÌÍÌÎÏÍÍÎÎÎÌÎÎÎÍÍÎÏ",
+  "final_name": "SliderHandleWidget",
+  "confidence": "medium",
+  "reason": "fields slider/target/handle/canvasGroup indicate slider drag handle widget"
+ },
+ {
+  "original_name": "ÌÎÍÏÌÍÎÎÍÍÌÌÍÍÎÎÎÌÌÏÍÏÍ",
+  "final_name": "PurchaseTypeFilterPanel",
+  "confidence": "high",
+  "reason": "fields purchaseTypeSelectionToggles/applyButton/cancelButton/closeButton indicate purchase type filter panel"
+ },
+ {
+  "original_name": "ÎÏÍÍÍÌÌÌÎÌÎÎÍÎÎÌÍÏÌÌÍÎÎ",
+  "final_name": "TransactionHistoryItem",
+  "confidence": "high",
+  "reason": "fields _dateTimestamp/_timeTimestamp/_reason/_itemName/_itemToOrFromUser/_amount/_balance indicate transaction history item"
+ },
+ {
+  "original_name": "ÌÏÍÎÍÌÍÍÏÍÎÌÏÌÏÎÏÏÍÏÌÏÎ",
+  "final_name": "GroupRoleToggleItem",
+  "confidence": "high",
+  "reason": "fields toggle/label/groupOwnerIcon/moderatorIcon/managerIcon/forcedOnIcon indicate group role permission toggle list item"
+ },
+ {
+  "original_name": "ÌÌÎÏÍÌÏÍÏÎÍÏÌÏÌÌÌÌÍÏÏÏÎ",
+  "final_name": "HudLayoutController",
+  "confidence": "high",
+  "reason": "fields LeftLayout/CenterLayout/RightLayout/DesktopLayoutMenuOpen/PopupNotification indicate HUD layout controller"
+ },
+ {
+  "original_name": "ÏÌÏÍÏÏÏÏÌÍÍÎÍÎÎÎÌÎÍÏÌÌÏ",
+  "final_name": "MidiInputDevice",
+  "confidence": "high",
+  "reason": "methods add_OnMidiVoiceMessage/remove_OnMidiVoiceMessage/Close explicitly indicate MIDI input device"
+ },
+ {
+  "original_name": "ÌÍÌÏÍÌÎÎÍÌÌÍÍÏÎÍÌÍÎÎÌÌÏ",
+  "final_name": "SafeZoneDistanceSelector",
+  "confidence": "medium",
+  "reason": "fields _quarter/_half/_default/_unlimited indicate four-tier safe zone distance selector"
+ },
+ {
+  "original_name": "ÌÏÏÍÎÍÏÌÎÎÌÍÌÍÎÏÌÏÍÏÎÍÏ",
+  "final_name": "GroupInstanceTypeSelector",
+  "confidence": "high",
+  "reason": "fields groupInstanceTypeButton/groupPlusInstanceTypeButton/groupPublicInstanceTypeButton indicate group instance type selector"
+ },
+ {
+  "original_name": "ÎÍÎÏÌÍÏÌÏÎÍÍÍÍÍÎÏÍÍÌÍÎÏ",
+  "final_name": "ThumbnailFadeTransitionController",
+  "confidence": "high",
+  "reason": "fields front/back/left/right/top/bottom/fadeOutTime/fadeInTime/loadingScreenFadeInTime indicate thumbnail fade transition controller"
+ },
+ {
+  "original_name": "ÌÎÌÎÌÎÍÌÏÎÎÎÎÍÎÍÍÌÌÏÎÏÎ",
+  "final_name": "UserStatusFilterPanel",
+  "confidence": "high",
+  "reason": "fields statusListBinding/statusTogglePrefab/statusSelectAllButton/availabilitySelectAllButton/applyButton indicate user status filter panel"
+ },
+ {
+  "original_name": "ÎÎÍÌÏÎÍÍÏÌÏÎÍÍÍÎÌÌÍÎÏÏÍ",
+  "final_name": "RecommendedSearchList",
+  "confidence": "high",
+  "reason": "fields _recommendedSearchList/_recommendedSearchCellPrefab explicitly indicate recommended search list"
+ },
+ {
+  "original_name": "ÍÌÏÌÍÍÍÌÎÍÏÎÌÎÎÏÎÏÏÎÌÎÎ",
+  "final_name": "MicrophoneInputMonitor",
+  "confidence": "high",
+  "reason": "fields micInputVolume/micFrequency with OnApplicationFocus/OnGUI indicate microphone input monitor"
+ },
+ {
+  "original_name": "ÏÏÌÍÍÍÍÎÌÏÏÍÎÎÎÎÌÍÎÌÎÎÎ",
+  "final_name": "FlowLayoutGroup",
+  "confidence": "medium",
+  "reason": "parent LayoutGroup with m_StartAxis and SetLayoutVertical/SetLayoutHorizontal indicate a flow layout group"
+ },
+ {
+  "original_name": "ÎÎÍÏÏÍÍÌÍÍÍÎÏÍÎÏÍÌÎÏÌÌÎ",
+  "final_name": "PositionerComponent",
+  "confidence": "medium",
+  "reason": "field positioner with Dispose/Cleanup/Initialize indicate a positioning helper component"
+ },
+ {
+  "original_name": "ÌÎÍÌÌÍÍÎÌÍÍÏÌÍÏÍÎÏÍÍÏÍÏ",
+  "final_name": "SettingButtonElement",
+  "confidence": "medium",
+  "reason": "fields setting/styleElement/tooltip/button indicate a styled setting button UI element"
+ },
+ {
+  "original_name": "ÍÌÏÏÎÍÌÏÎÍÌÌÎÌÌÎÍÌÍÏÍÍÍ",
+  "final_name": "IconButtonWidget",
+  "confidence": "medium",
+  "reason": "fields text/icon/border/background/canvasGroup indicate a generic icon button widget"
+ },
+ {
+  "original_name": "ÍÎÎÏÎÎÌÏÍÏÍÏÍÎÌÏÍÌÍÎÎÎÍ",
+  "final_name": "PlayerLeftEventHandler",
+  "confidence": "medium",
+  "reason": "method OnPlayerLeft indicates a player-left event handler"
+ },
+ {
+  "original_name": "ÍÍÏÍÏÏÏÎÌÍÍÏÍÏÍÍÎÎÎÍÍÍÎ",
+  "final_name": "GroupBannerPageController",
+  "confidence": "high",
+  "reason": "fields groupBannerPrefab/groupButtonParent/page indicate group banner page controller"
+ },
+ {
+  "original_name": "ÌÎÎÏÍÍÍÍÎÏÏÍÍÌÎÌÍÌÏÌÌÍÌ",
+  "final_name": "EventListBinding",
+  "confidence": "high",
+  "reason": "fields _listBinding/_listItemPrefab/_noEventsText indicate event list binding component"
+ },
+ {
+  "original_name": "ÍÏÎÍÍÏÎÎÎÌÍÌÍÌÌÎÎÍÌÎÎÏÍ",
+  "final_name": "SliderLabelController",
+  "confidence": "medium",
+  "reason": "fields labelText/slider/sliderDrag/sliderPointer with pointer events indicate slider with label controller"
+ },
+ {
+  "original_name": "ÍÎÏÍÏÏÍÏÏÌÏÏÏÎÍÍÏÍÌÏÍÏÎ",
+  "final_name": "LocalizedCountTextField",
+  "confidence": "high",
+  "reason": "fields textField/_localizableFormat/_localizableEmptyText/_countFormat/_hideIfEmpty indicate localized count text field"
+ },
+ {
+  "original_name": "ÌÏÌÌÎÎÍÎÎÏÍÍÌÏÏÍÌÌÏÍÌÌÎ",
+  "final_name": "SavedSearchItem",
+  "confidence": "high",
+  "reason": "fields _titleText/_termButton/_removeSavedSearchButton/_savedSearchIcon indicate saved search list item"
+ },
+ {
+  "original_name": "ÏÌÍÏÌÍÎÍÏÏÏÏÌÏÎÍÎÍÎÎÍÍÏ",
+  "final_name": "EventCardItem",
+  "confidence": "high",
+  "reason": "fields _imageBinding/_button/_titleText/_eventDateText/_liveIndicator indicate event card list item"
+ },
+ {
+  "original_name": "ÏÏÎÍÎÎÎÌÎÎÎÏÎÍÏÎÍÍÍÍÎÎÏ",
+  "final_name": "DroneCustomizationPanelController",
+  "confidence": "high",
+  "reason": "fields dollyMain/dollySide/droneCustomizationMain/droneCustomizationSide indicate drone camera customization panel"
+ },
+ {
+  "original_name": "ÏÌÏÏÏÏÍÌÌÌÌÏÎÍÎÎÍÍÏÎÎÌÎ",
+  "final_name": "StoreListingItem",
+  "confidence": "high",
+  "reason": "fields _listingTypeLabel/_nameText/_priceText/_productImage/_purchaseButton indicate store product listing item"
+ },
+ {
+  "original_name": "ÌÌÏÎÌÎÌÎÎÎÏÍÌÍÏÎÌÍÍÏÏÏÎ",
+  "final_name": "AnimatedImageButton",
+  "confidence": "medium",
+  "reason": "fields _button/_image/_animatedImage/_textureSheetPlayer/_style/defaultImage indicate animated image button widget"
+ },
+ {
+  "original_name": "ÎÎÎÏÌÎÍÎÌÎÍÏÏÍÏÏÌÍÌÌÏÍÍ",
+  "final_name": "AvatarParameterEnumerator",
+  "confidence": "high",
+  "reason": "method get_Current typed as VRC.Playables.AvatarParameter with MoveNext/GetEnumerator indicate avatar parameter enumerator"
+ },
+ {
+  "original_name": "ÍÍÌÌÏÌÏÌÎÎÎÏÍÎÏÏÎÎÌÌÍÌÏ",
+  "final_name": "ColorPickerTabButton",
+  "confidence": "high",
+  "reason": "fields colorPickerModal/tabType/styleElement/colorDisplay/colorOutline/button indicate color picker tab button"
+ },
+ {
+  "original_name": "ÎÏÎÍÌÍÌÎÏÏÌÍÌÍÎÎÍÎÏÎÏÎÌ",
+  "final_name": "AvatarPanelEntryItem",
+  "confidence": "high",
+  "reason": "fields _layout/_avatarPanel/_avatarUnavailableBanner/_favoriteButton indicate avatar panel selectable entry item"
+ },
+ {
+  "original_name": "ÎÏÌÌÍÏÌÍÍÎÏÎÎÎÎÏÌÎÏÍÎÎÎ",
+  "final_name": "ColorStyleButtonLabel",
+  "confidence": "medium",
+  "reason": "fields parent/styleElement/colorDisplay/colorOutline/button/label indicate a color style button with label"
+ },
+ {
+  "original_name": "ÎÎÍÏÏÍÏÌÏÎÍÌÎÎÍÍÏÎÏÎÍÍÎ",
+  "final_name": "NumericSliderToggleControl",
+  "confidence": "high",
+  "reason": "fields _slider/_numberText/_infiniteSymbol/_toggleSwitch/_toggleButton/_buttonIconStyle indicate numeric slider with toggle control"
+ },
+ {
+  "original_name": "ÍÍÏÏÎÍÍÌÎÍÌÍÌÌÏÌÏÎÌÌÎÌÍ",
+  "final_name": "ConsentBannerPanelController",
+  "confidence": "high",
+  "reason": "fields _consentInfoPanels/_downloadProgressPanels/_bannerControllers/_communityLabsPanels indicate consent/banner panel controller"
+ },
+ {
+  "original_name": "ÌÌÍÍÎÍÏÏÌÌÍÎÍÍÎÍÍÌÍÏÍÌÏ",
+  "final_name": "RemoteBackgroundImageController",
+  "confidence": "high",
+  "reason": "fields _remoteBackgroundContainer/_remoteBackgroundImage indicate remote background image controller"
+ },
+ {
+  "original_name": "ÍÌÍÎÏÍÍÌÌÍÌÍÌÎÍÍÍÌÌÏÏÏÎ",
+  "final_name": "VRCPropApiWrapper",
+  "confidence": "high",
+  "reason": "parent VRCPropApi with methods GetPlayersInRange/GetScale/GetPosition/RequestDespawn/RequestConsume indicate VRCProp API wrapper"
+ },
+ {
+  "original_name": "ÎÏÌÍÏÏÏÏÎÍÌÌÌÎÎÌÌÎÏÌÏÏÍ",
+  "final_name": "ShareableListItemWidget",
+  "confidence": "high",
+  "reason": "fields nameDisplay/highlightDisplay/iconDisplay/buttonsDisplay/textDisplay/subtextDisplay/selectionBinding/shareButton indicate shareable list item widget"
+ },
+ {
+  "original_name": "ÎÏÌÍÌÍÏÎÎÎÍÍÍÌÎÎÌÎÍÌÌÏÌ",
+  "final_name": "ShowMoreListController",
+  "confidence": "high",
+  "reason": "fields _maxCellCount/_content/_cellPrefab/_showMoreLessButton indicate show-more expandable list controller"
+ },
+ {
+  "original_name": "ÏÏÍÌÏÎÏÌÏÎÎÎÏÎÏÍÌÍÎÏÍÍÏ",
+  "final_name": "NameplateTextResizer",
+  "confidence": "high",
+  "reason": "fields _rectTransform/_text/_textRectTransform/_extraHeightPadding/_updateNameplate indicate nameplate text auto-resize component"
+ },
+ {
+  "original_name": "ÌÏÎÏÏÍÌÏÏÏÏÌÍÎÍÎÍÏÍÌÏÍÎ",
+  "final_name": "AccountSettingsMenuPanel",
+  "confidence": "high",
+  "reason": "字段 _upgradeAccount/_exit/_logout/_linkDiscord 明确指向账号设置菜单 UI 面板"
+ },
+ {
+  "original_name": "ÎÍÍÌÍÏÌÌÎÏÌÏÏÏÏÏÏÏÍÎÏÎÎ",
+  "final_name": "HomeWorldButtonController",
+  "confidence": "high",
+  "reason": "字段 _buttonText/_buttonImage/_setHomeSprite/_resetHomeSprite 指向设置/重置家园世界的按钮控件"
+ },
+ {
+  "original_name": "ÎÌÌÎÎÌÍÎÌÏÍÍÏÍÎÍÌÍÎÌÏÌÎ",
+  "final_name": "SubscriptionOfferPanel",
+  "confidence": "high",
+  "reason": "字段 _durationText/_costText/_discountText/_discountBanner/_addSubscriptionButton 明确指向订阅购买/优惠展示面板"
+ },
+ {
+  "original_name": "ÍÎÌÏÌÎÌÌÌÌÏÎÏÏÌÎÌÏÌÍÎÌÏ",
+  "final_name": "ApiInfoPushSystemEnumerator",
+  "confidence": "high",
+  "reason": "实现了 IEnumerator<VRC.Core.ApiInfoPushSystem>，是 ApiInfoPushSystem 集合的迭代器"
+ },
+ {
+  "original_name": "ÏÍÌÌÌÎÏÍÌÌÎÍÍÍÍÌÎÍÎÌÍÎÏ",
+  "final_name": "ColorPickerGradientController",
+  "confidence": "high",
+  "reason": "字段 gradientDisplay/gradientIndicator/hueDisplay/hueIndicator/indicatorOffsetMulti 指向色相饱和度颜色选择器渐变控件"
+ },
+ {
+  "original_name": "ÏÎÌÍÏÎÏÍÏÏÌÏÌÎÎÍÍÍÍÏÏÍÌ",
+  "final_name": "MenuCanvasContainerController",
+  "confidence": "medium",
+  "reason": "字段 _menuCanvas/_containerHeight 指向管理菜单画布容器的组件"
+ },
+ {
+  "original_name": "ÌÎÍÌÏÍÏÏÍÍÎÍÏÏÏÎÌÌÎÏÍÍÏ",
+  "final_name": "ResponsiveLayoutPositioner",
+  "confidence": "high",
+  "reason": "字段 landscapePos/landscapeScale/portraitPos/portraitScale 指向横竖屏自适应布局定位组件"
+ },
+ {
+  "original_name": "ÍÌÏÎÌÏÎÌÏÌÌÍÍÌÏÎÍÍÌÍÎÎÍ",
+  "final_name": "PrivacyPolicyConsentPanel",
+  "confidence": "high",
+  "reason": "字段 _firstCheckBox/_secondCheckBox/_privacyPolicyLinkButton 指向隐私政策同意双勾选确认面板"
+ },
+ {
+  "original_name": "ÏÍÌÍÎÍÏÌÍÎÏÏÏÏÎÎÍÍÌÍÎÍÎ",
+  "final_name": "IconTabButtonItem",
+  "confidence": "medium",
+  "reason": "字段 _text/_button/_selectedIconBG/_selectedIcon/_image 指向带选中态图标的标签页按钮列表项"
+ },
+ {
+  "original_name": "ÏÍÏÏÎÏÌÍÌÏÏÍÌÏÏÌÌÎÍÌÎÏÏ",
+  "final_name": "NewsAnnouncementCard",
+  "confidence": "high",
+  "reason": "字段 _title/_body/_imageBinding/_readMorePreview/_imageButton 明确指向新闻/公告展示卡片"
+ },
+ {
+  "original_name": "ÏÍÏÌÌÌÎÎÏÌÌÎÌÏÍÎÎÏÏÍÎÏÎ",
+  "final_name": "AccountRegistrationFormPanel",
+  "confidence": "high",
+  "reason": "字段 _displayNameInputField/_dateOfBirthField/_promotionsSubscribeButton/_createButton/_existingAccountButton 指向账号注册表单面板"
+ },
+ {
+  "original_name": "ÎÍÎÌÍÎÏÎÏÌÌÍÎÍÌÍÍÎÎÍÍÎÌ",
+  "final_name": "NetworkSignalIndicatorView",
+  "confidence": "high",
+  "reason": "字段 signalIndicatorImage/wifiImage/wifiSegmentImages/signalSegmentImages 明确指向网络信号强度分段图标 UI"
+ },
+ {
+  "original_name": "ÌÏÌÎÍÌÍÏÌÎÎÌÎÌÎÍÌÌÏÍÌÏÎ",
+  "final_name": "InstanceJoinPriorityPanel",
+  "confidence": "high",
+  "reason": "字段 LocationPrioButton/PrioritizeNonSubsToggle/RandomInInstanceButton 指向实例加入优先级选择面板"
+ },
+ {
+  "original_name": "ÎÎÍÎÌÌÏÎÌÏÎÌÍÍÍÏÌÍÎÎÎÎÌ",
+  "final_name": "AccountRegistrationFormPanelImpl",
+  "confidence": "high",
+  "reason": "与注册表单面板同字段结构（_displayNameInputField/_dateOfBirthField/_createButton），注册面板另一实现变体"
+ },
+ {
+  "original_name": "ÏÌÏÎÍÍÍÌÍÎÎÎÍÌÏÍÌÏÏÍÏÍÌ",
+  "final_name": "ToggleSwitchWithOptions",
+  "confidence": "medium",
+  "reason": "字段 toggle/handle/leftOptionImage/rightOptionImage 指向带左右选项图标的自定义开关切换控件"
+ },
+ {
+  "original_name": "ÌÌÌÎÍÍÎÍÍÏÍÏÎÍÎÎÌÎÍÎÍÍÍ",
+  "final_name": "MediaPlayerController",
+  "confidence": "high",
+  "reason": "字段 playImage/playPauseButton/target/timeSlider 明确指向媒体播放控制器"
+ },
+ {
+  "original_name": "ÏÍÌÏÎÌÌÎÎÍÌÌÌÌÌÎÎÏÌÏÍÎÌ",
+  "final_name": "CampaignBannerPanel",
+  "confidence": "high",
+  "reason": "字段 campaignTitleText/campaignInfoText/learnMoreToMM/confetti/context 指向营销活动横幅展示面板"
+ },
+ {
+  "original_name": "ÎÏÎÍÏÌÏÎÌÌÎÎÎÍÏÌÌÎÍÍÍÎÍ",
+  "final_name": "CameraFovSettingsPanel",
+  "confidence": "high",
+  "reason": "字段 _portraitFOVSlider/_portraitFOVText/_landscapeFOVSlider/_landscapeFOVText 指向横竖屏 FOV 相机设置面板"
+ },
+ {
+  "original_name": "ÌÏÌÌÍÌÍÏÎÏÌÌÏÍÌÏÎÍÍÌÎÎÍ",
+  "final_name": "GroupTabNavigationButton",
+  "confidence": "medium",
+  "reason": "字段 _clickType/_groupTabToOpenTo 指向打开特定群组标签页的导航按钮"
+ },
+ {
+  "original_name": "ÍÎÎÎÍÌÏÎÍÍÍÍÌÏÏÎÍÌÍÏÍÎÎ",
+  "final_name": "BackgroundAnimationController",
+  "confidence": "medium",
+  "reason": "字段 backgroundTransform + Update 指向对背景变换做动态更新的动画控制器"
+ },
+ {
+  "original_name": "ÌÏÍÌÍÍÎÏÎÍÎÏÍÎÏÎÌÎÎÍÌÍÎ",
+  "final_name": "GroupInstanceFilterPanel",
+  "confidence": "high",
+  "reason": "字段 groupListBinding/instanceTypeSelectAllButton/deselectAllButton/applyButton 指向群组实例类型过滤选择面板"
+ },
+ {
+  "original_name": "ÍÌÏÏÌÍÎÍÏÌÏÎÎÏÎÏÎÏÏÏÎÏÌ",
+  "final_name": "SafetySettingsSearchPanel",
+  "confidence": "high",
+  "reason": "字段 _safetyPage/_settingCategories/_searchTextField/_learnMoreSafetyArticleButton 指向安全设置搜索分类面板"
+ },
+ {
+  "original_name": "ÏÏÎÍÍÏÍÍÍÍÎÍÍÍÎÎÍÌÌÌÎÌÏ",
+  "final_name": "GroupSearchListPanel",
+  "confidence": "high",
+  "reason": "字段 joiningGroupsMoreInfo/creatingGroupsMoreInfo/groupList/groupElementPrefab/filterResultsButton 指向群组搜索结果列表面板"
+ },
+ {
+  "original_name": "ÎÎÎÍÌÌÌÎÎÌÎÍÍÎÏÎÏÏÍÍÏÎÍ",
+  "final_name": "SocialLinksIconBar",
+  "confidence": "high",
+  "reason": "字段 _socialIconsContainer/_vrcFriendsIcon/_discordIcon 指向 VRChat 好友与 Discord 社交图标栏"
+ },
+ {
+  "original_name": "ÎÌÏÍÍÌÏÍÌÏÌÍÎÌÎÏÍÏÏÍÌÎÌ",
+  "final_name": "WorldContextActionPanel",
+  "confidence": "high",
+  "reason": "字段 _worldInformationPanel/_addToPlaylistHeaderButton/_reportWorldButton/_goToAuthorButton 指向世界详情操作菜单面板"
+ },
+ {
+  "original_name": "ÏÍÎÎÏÍÏÎÎÎÍÎÍÍÎÍÌÌÎÎÏÍÍ",
+  "final_name": "RecentlyVisitedUsersPanel",
+  "confidence": "high",
+  "reason": "字段 recentlyVisitedUsersLabel/recentlyVisitedUsersListBinding/userCellPrefab/viewMorePrefab 指向最近访问用户列表面板"
+ },
+ {
+  "original_name": "ÍÏÏÏÏÍÍÏÎÍÎÏÌÏÌÌÌÌÏÌÍÌÌ",
+  "final_name": "FillBarProgressWidget",
+  "confidence": "medium",
+  "reason": "字段 minWidth/text/fill/fillGraphic + LateUpdate 指向带文字和填充图形的进度条控件"
+ },
+ {
+  "original_name": "ÍÎÏÏÌÍÎÏÍÌÏÏÌÌÏÌÎÎÏÍÌÎÏ",
+  "final_name": "LongPressSubMenuController",
+  "confidence": "high",
+  "reason": "字段 _autoHide/_submenu/_longPressButtons/_subMenuButtons 指向长按触发子菜单控制器"
+ },
+ {
+  "original_name": "ÏÌÍÍÍÌÌÌÍÏÌÏÎÎÎÌÏÎÌÍÏÌÍ",
+  "final_name": "AvatarCollectionListOptions",
+  "confidence": "medium",
+  "reason": "字段 _allowRenaming/_showSortingDropddown/_showCellSizeToggle 指向 Avatar 收藏列表显示选项配置"
+ },
+ {
+  "original_name": "ÌÎÌÎÍÏÏÍÌÌÍÏÏÏÎÌÎÌÍÏÌÍÌ",
+  "final_name": "BadgeButtonShowcaseItem",
+  "confidence": "medium",
+  "reason": "字段 _button/_badge/_hiddenElementsCanvasGroup/_showcasedHighlightCanvasGroup/_hoverHighlight 指向带徽章和高亮的展示按钮项"
+ },
+ {
+  "original_name": "ÏÏÌÎÎÎÎÎÌÏÍÏÏÍÎÍÏÍÌÍÍÍÌ",
+  "final_name": "GroupTabListView",
+  "confidence": "high",
+  "reason": "字段 group/tabListBinding/contentContainer/tabPrefab 指向群组标签页列表视图组件"
+ },
+ {
+  "original_name": "ÌÎÎÏÏÌÏÏÌÌÎÎÏÍÌÎÍÌÍÎÏÎÍ",
+  "final_name": "QueueJoinPanel",
+  "confidence": "high",
+  "reason": "字段 root/header/joinButton/timeLeftQueue + Update 指向排队加入实例的等候面板"
+ },
+ {
+  "original_name": "ÍÏÍÎÎÌÍÎÎÌÌÎÌÌÌÍÎÎÎÌÌÏÍ",
+  "final_name": "EventDateListPanel",
+  "confidence": "high",
+  "reason": "字段 _dateHeader/_eventList/_listEntryPrefab/_dateHeaderStyle/_dividerStyle 指向按日期分组的事件列表面板"
+ },
+ {
+  "original_name": "ÌÏÌÏÌÍÍÎÌÍÍÍÏÎÍÎÎÍÍÌÍÌÌ",
+  "final_name": "KeybindingEntry",
+  "confidence": "high",
+  "reason": "字段 key/target/vrcPlusOnly/reset/supportedDevices + Update 指向按键绑定设置项"
+ },
+ {
+  "original_name": "ÍÍÏÍÏÏÌÍÍÏÌÌÎÍÎÌÍÍÌÍÏÎÏ",
+  "final_name": "LeaderboardTopThreePanel",
+  "confidence": "medium",
+  "reason": "字段 linkButton/firstPlace/secondPlace/thirdPlace 指向排行榜前三名展示面板"
+ },
+ {
+  "original_name": "ÌÌÌÌÌÏÌÏÎÍÍÌÍÏÍÎÌÏÏÏÎÌÍ",
+  "final_name": "PropDisplayCard",
+  "confidence": "high",
+  "reason": "字段 propNameLabel/vrcPlusExclusiveBadge/propImage/propImageParent/userData 指向道具/物品展示卡片"
+ },
+ {
+  "original_name": "ÎÍÏÍÏÎÌÎÏÍÎÎÎÎÏÍÍÍÍÍÌÏÍ",
+  "final_name": "BadgeTooltipItem",
+  "confidence": "medium",
+  "reason": "字段 _badgeImage/_tooltip/_quantityParent/_quantityText 指向带徽章图标、数量和工具提示的 UI 项"
+ },
+ {
+  "original_name": "ÌÍÌÍÎÌÍÌÌÌÌÍÎÌÎÌÎÍÏÌÏÍÍ",
+  "final_name": "RadioButtonSelectorGroup",
+  "confidence": "high",
+  "reason": "字段 _radioButtonParent/_radioButtonPrefab/_radioButtonPrefabVrcPlus/_group 指向含 VRC+ 专属选项的单选按钮组控件"
+ },
+ {
+  "original_name": "ÍÎÍÍÍÍÍÏÏÏÍÌÍÏÎÎÍÍÏÍÍÍÎ",
+  "final_name": "HapticsSettingsPanel",
+  "confidence": "high",
+  "reason": "字段 _strengthSlider/_sensitivitySlider/_uiHapticsToggle/_interactHapticsToggle/_avatarHapticsToggle/_scrollRect 指向触觉反馈设置面板"
+ },
+ {
+  "original_name": "ÍÍÏÌÍÌÍÎÌÍÎÏÎÏÌÌÎÍÍÌÌÏÍ",
+  "final_name": "DroneContactReceiverController",
+  "confidence": "high",
+  "reason": "父类 ContactReceiver，字段 animator/droneParameterName/_useFaceProximity/_receiverType 指向无人机动画接触接收器控制器"
+ },
+ {
+  "original_name": "ÌÌÎÎÌÍÏÍÎÎÌÌÍÏÍÌÍÍÎÍÍÌÌ",
+  "final_name": "AnimatedStickerDefinition",
+  "confidence": "high",
+  "reason": "字段 _isAnimated/_isPremium，方法 get_Frames/get_FPS/get_LoopStyle/get_SpawnablePrefabName/get_Sprite 指向动画贴纸定义数据类"
+ },
+ {
+  "original_name": "ÍÍÌÏÎÌÏÎÍÌÌÌÏÌÍÎÌÍÌÎÎÎÌ",
+  "final_name": "KeyboardInputFieldDefinition",
+  "confidence": "high",
+  "reason": "方法 get_Title/get_PlaceholderText/get_InputType/get_ContentType/get_CharacterLimit/get_KeyboardType/get_Multiline/get_ReadOnly 指向键盘输入字段定义"
+ },
+ {
+  "original_name": "ÌÏÎÎÍÏÎÌÍÎÏÍÎÎÌÎÎÍÌÌÎÍÌ",
+  "final_name": "ColorPickerInspectorPanel",
+  "confidence": "high",
+  "reason": "字段 colorPickerCanvasGroup/inspectorCanvasGroup/sidebarCanvasGroup/colorPicker/prevButton/nextButton/quantityInfo/abilityWarning 指向颜色选择器检视面板"
+ },
+ {
+  "original_name": "ÎÎÎÏÎÌÏÏÌÎÎÏÌÎÏÌÌÎÎÎÏÏÌ",
+  "final_name": "ColorPickerScrollableList",
+  "confidence": "medium",
+  "reason": "父类 UIk__BackingFieldComponentImpl，字段 _scrollRect/_radioButtonSelectorGroup 指向颜色选择器可滚动列表"
+ },
+ {
+  "original_name": "ÏÍÎÍÎÎÌÏÌÍÎÎÎÍÍÌÏÌÍÏÏÏÌ",
+  "final_name": "NetworkSyncSerializableHandler",
+  "confidence": "high",
+  "reason": "父类 NetworkReadyHandler，字段 _typeId/_uniqueHash，方法 Encode/Decode/NeedsSync/CanSerialize8Bit/CanSerialize32Bit 指向网络同步序列化消息处理器"
+ },
+ {
+  "original_name": "ÌÎÌÎÍÌÌÍÎÌÌÎÍÌÏÌÌÍÌÌÎÎÌ",
+  "final_name": "ViewRadiusFadeController",
+  "confidence": "medium",
+  "reason": "字段 viewRadius/viewFalloff/alpha 指向基于视野半径做渐隐的视图控制器"
+ },
+ {
+  "original_name": "ÍÏÍÍÍÍÌÌÎÍÌÍÍÏÍÌÌÎÎÎÍÍÎ",
+  "final_name": "AvatarListSection",
+  "confidence": "high",
+  "reason": "字段 _name/_avatars/_viewAllButton/_maxItems 明确是 Avatar 列表 UI 区段组件"
+ },
+ {
+  "original_name": "ÍÍÎÌÏÏÌÏÎÏÍÏÌÎÍÌÌÎÍÌÎÌÎ",
+  "final_name": "ImageCrossFadeController",
+  "confidence": "high",
+  "reason": "字段 _previousImage/_targetImage/_newImageFadeInDuration/_oldImageFadeOutDuration 是图片淡入淡出过渡控制器"
+ },
+ {
+  "original_name": "ÎÏÌÏÏÌÏÍÌÌÏÎÎÏÌÌÌÏÎÏÏÎÏ",
+  "final_name": "ItemListCellView",
+  "confidence": "high",
+  "reason": "字段 countText/itemsBinding/canvasGroup/itemCellPrefab 是带数量绑定的列表单元格视图"
+ },
+ {
+  "original_name": "ÎÎÍÏÎÍÏÌÍÎÌÎÎÏÍÏÌÏÍÌÏÎÌ",
+  "final_name": "PinnedCategoryScrollView",
+  "confidence": "high",
+  "reason": "字段 _scrollRect/_pinnedCategoryHeader/_pinnedCategoryHeaderText/_graphic/_canvasGroup 是带置顶分类标头的滚动视图"
+ },
+ {
+  "original_name": "ÍÏÎÏÍÎÎÌÍÎÌÌÍÍÎÏÎÌÍÎÌÎÍ",
+  "final_name": "SpawnedPropEnumerator",
+  "confidence": "high",
+  "reason": "方法签名含 IEnumerator<VRC.DataModel.ISpawnedProp> 和 IEnumerable<VRC.DataModel.ISpawnedProp>，是 SpawnedProp 集合枚举器"
+ },
+ {
+  "original_name": "ÎÎÎÌÎÌÏÍÌÎÏÌÏÍÏÌÌÌÍÎÏÏÏ",
+  "final_name": "ExpandableTextDisplay",
+  "confidence": "high",
+  "reason": "字段 _primaryTextBox/_readMoreButton/_readMoreModalTitle/_maxTextLength 是带展开/读更多功能的文本显示组件"
+ },
+ {
+  "original_name": "ÌÎÎÏÌÎÍÍÏÍÏÍÍÍÌÌÍÏÏÍÍÌÏ",
+  "final_name": "ToggleButtonGroupWithUpdateWindow",
+  "confidence": "medium",
+  "reason": "字段 toggleButtons/updateWindow 是含更新窗口的切换按钮组"
+ },
+ {
+  "original_name": "ÎÏÎÌÏÍÏÌÎÌÏÌÍÎÎÏÍÌÌÍÏÌÌ",
+  "final_name": "PlaylistHeaderUI",
+  "confidence": "medium",
+  "reason": "字段 _titleText/_backButton/_shuffleButton，带随机播放按钮和返回按钮的播放列表标题 UI"
+ },
+ {
+  "original_name": "ÏÎÌÌÌÏÎÏÎÎÏÏÎÏÎÍÎÌÏÎÍÍÏ",
+  "final_name": "ListHeaderWithCountBinding",
+  "confidence": "medium",
+  "reason": "字段 _listCountBinding/_header/_emptyHeader 是带数量绑定和空状态标头的列表头组件"
+ },
+ {
+  "original_name": "ÍÎÌÏÏÏÏÌÏÌÌÍÌÏÍÎÍÌÎÎÍÌÏ",
+  "final_name": "StringCollectionEnumerator",
+  "confidence": "medium",
+  "reason": "方法签名含 IEnumerable<System.String>/IEnumerator<System.String> 是字符串集合枚举器"
+ },
+ {
+  "original_name": "ÏÎÍÍÍÌÍÌÍÎÌÌÏÎÏÍÍÎÏÌÏÏÌ",
+  "final_name": "StringCollectionEnumerator2",
+  "confidence": "medium",
+  "reason": "与 [22] 相同签名，另一个字符串集合枚举器实现"
+ },
+ {
+  "original_name": "ÎÏÏÌÍÍÍÎÍÌÍÍÎÍÏÍÏÌÍÏÌÏÍ",
+  "final_name": "GroupListBindingPanel",
+  "confidence": "high",
+  "reason": "字段 groupListBinding/groupButtonPrefab/loadingDisplay 是组列表绑定面板，含 IndexOf/OnPointerXxx 交互"
+ },
+ {
+  "original_name": "ÍÍÍÍÌÏÏÌÍÎÏÌÏÌÏÏÌÍÎÎÌÏÌ",
+  "final_name": "ExpandableTextWithSeeMore",
+  "confidence": "high",
+  "reason": "字段 _textLayoutElement/_text/_seeMoreButton/_seeLessButton 是带展开/收起按钮的文本组件"
+ },
+ {
+  "original_name": "ÏÍÍÎÎÏÏÍÎÌÎÏÏÎÌÍÏÌÌÌÏÍÌ",
+  "final_name": "GalleryItemCell",
+  "confidence": "high",
+  "reason": "字段 galleryIcon/checkmarkIcon/loadingDisplay/button 是图库条目单元格"
+ },
+ {
+  "original_name": "ÎÏÍÍÍÍÎÌÍÎÏÏÍÍÎÏÎÏÌÍÌÎÏ",
+  "final_name": "MultilanguageFontAssetLoader",
+  "confidence": "high",
+  "reason": "字段含 _mainFontAsset/_japaneseChineseFontAsset/_koreanChineseFontAsset/_simplifiedChineseFontAsset/_traditionalChineseFontAsset，多语言字体资产加载器"
+ },
+ {
+  "original_name": "ÎÎÍÌÍÎÍÏÏÎÎÍÏÌÏÏÏÌÏÍÏÍÌ",
+  "final_name": "SpriteToggleButton",
+  "confidence": "high",
+  "reason": "字段 _isOn/_offSprite/_onSprite，带开/关 Sprite 的图片切换按钮，含 OnPointerClick"
+ },
+ {
+  "original_name": "ÍÏÏÎÎÏÍÎÍÏÌÎÎÏÏÏÌÍÎÍÏÎÏ",
+  "final_name": "ToggleLabelButton",
+  "confidence": "high",
+  "reason": "字段 _labelText/_enabledIcon/_disabledIcon/_touchButton/_toggle 是带启用/禁用图标的标签切换按钮"
+ },
+ {
+  "original_name": "ÍÏÏÎÍÎÎÍÌÏÍÎÎÍÌÎÏÏÎÏÎÍÍ",
+  "final_name": "GroupBannerInfoCard",
+  "confidence": "high",
+  "reason": "字段 bannerImage/iconImage/onlineCountText/memberCountText/privacyText 是群组横幅信息卡片"
+ },
+ {
+  "original_name": "ÍÎÍÏÍÌÎÌÏÍÍÎÎÎÌÌÌÎÎÍÎÌÎ",
+  "final_name": "AvatarListItemCell_2",
+  "confidence": "high",
+  "reason": "字段 image/nameText/nameFade/textureSheetPlayer/tooltip 是头像列表条目单元格，含纹理动画播放"
+ },
+ {
+  "original_name": "ÏÎÍÎÌÎÍÍÏÎÍÌÏÌÌÎÍÌÏÏÏÌÌ",
+  "final_name": "PageCollectionEnumerator",
+  "confidence": "high",
+  "reason": "方法签名含 IEnumerable<VRC.UI.Shared.IPage>，是 VRC UI 页面集合枚举器"
+ },
+ {
+  "original_name": "ÎÎÎÎÏÎÍÎÎÎÎÎÏÌÍÏÌÎÏÎÍÎÎ",
+  "final_name": "GradientGraphic",
+  "confidence": "high",
+  "reason": "字段 _direction/_firstColor/_secondColor，继承 MaskableGraphic，含 OnPopulateMesh/GetModifiedMaterial，是方向性双色渐变 UI 图形"
+ },
+ {
+  "original_name": "ÎÎÍÍÍÌÍÍÎÎÌÌÏÎÍÎÎÍÎÍÏÍÏ",
+  "final_name": "QuickSearchPanel",
+  "confidence": "high",
+  "reason": "字段 _quickSearchList/_quickSearchHeader/_quickSearchCellPrefab 是快速搜索面板组件"
+ },
+ {
+  "original_name": "ÏÌÌÎÍÏÌÎÍÌÍÎÏÏÌÍÌÍÏÎÏÏÎ",
+  "final_name": "EditableButtonWithTooltip",
+  "confidence": "high",
+  "reason": "字段 _button/_editIndicator/_toolTip/_style，含 OnPointerEnter/Exit，是带编辑指示器和提示的可交互按钮"
+ },
+ {
+  "original_name": "ÌÌÍÍÌÍÏÍÍÏÏÍÏÍÌÏÍÏÍÎÏÎÏ",
+  "final_name": "UIElementComboCell",
+  "confidence": "medium",
+  "reason": "字段 _text/_button/_toggle/_image，是通用 UI 复合单元格，包含文本/按钮/切换/图片四种元素"
+ },
+ {
+  "original_name": "ÏÌÏÏÌÎÍÎÍÎÎÎÌÍÎÍÏÍÌÌÎÎÍ",
+  "final_name": "PhotonSocketImpl",
+  "confidence": "high",
+  "reason": "继承 PhotonSocket，字段 _peerBase/_protocol，方法含 Connect/Disconnect/Receive/get_MTU，是 Photon 底层 Socket 实现"
+ },
+ {
+  "original_name": "ÏÌÎÌÏÌÎÍÍÍÎÍÏÏÌÌÌÏÌÏÌÎÌ",
+  "final_name": "PurchaseHistoryPanel",
+  "confidence": "high",
+  "reason": "字段 _oneTimePurchases/_purchasesScroll/_purchasedItemElementPrefab/_sortDropdown/_purchasesFilterButton/_canvas/_raycaster，是一次性购买记录面板"
+ },
+ {
+  "original_name": "ÍÌÌÎÎÌÎÏÌÍÌÎÏÌÌÌÎÍÏÏÌÎÎ",
+  "final_name": "SpawnedBadgeInteractable",
+  "confidence": "high",
+  "reason": "字段 _customizeButton/spawnedBadge，方法含 OnSpawn/OnPointerEnter/Exit/Click，是可交互徽章生成 UI 组件"
+ },
+ {
+  "original_name": "ÎÏÏÍÏÌÎÎÎÌÌÏÏÌÎÏÍÍÍÎÎÍÏ",
+  "final_name": "EmojiPreviewCropController",
+  "confidence": "high",
+  "reason": "字段 previewDrag/zoom/previewImage/preview/bounds/animatedEmojiCropMaterial 明确指向带动画 Emoji 的预览裁剪 UI 控制器"
+ },
+ {
+  "original_name": "ÏÏÏÍÍÍÎÌÍÎÎÎÎÍÎÍÍÍÏÍÍÌÌ",
+  "final_name": "OnScreenJoystick",
+  "confidence": "high",
+  "reason": "继承 OnScreenControl，字段 m_MovementRange/m_ControlPath/_s_OnScreenDevices 加上 OnDrag/OnPointerDown/OnPointerUp 是 Unity 标准虚拟摇杆实现"
+ },
+ {
+  "original_name": "ÌÏÌÎÌÍÎÍÌÌÎÏÍÍÌÌÎÏÌÌÏÌÌ",
+  "final_name": "ReticleCanvasController",
+  "confidence": "high",
+  "reason": "字段 reticleCanvas/_canvasScaler/_mobileReticle/_rectTransform 加上 Initialize/LateUpdate 是 VRChat 瞄准十字准心 UI 组件"
+ },
+ {
+  "original_name": "ÌÏÍÍÏÎÍÏÏÍÌÏÌÎÌÎÏÍÌÎÌÍÏ",
+  "final_name": "PreviewNavigationButton",
+  "confidence": "medium",
+  "reason": "字段 previewStyle/dragHandler/rotator，继承于包含 previousImageBu 的导航按钮基类，处理完整指针和导航事件"
+ },
+ {
+  "original_name": "ÏÏÍÏÎÌÍÏÏÍÎÏÌÎÍÎÎÏÎÏÌÌÏ",
+  "final_name": "VrcPlusItemButton",
+  "confidence": "high",
+  "reason": "字段 holdProgressImage/_vrcPlusExclusiveBadge/_vrcPlusExclusiveLockedIcon/_defaultMaterial/_grayScaleMaterial 明确指向 VRC+ 专属内容按钮，带长按进度和锁定状态"
+ },
+ {
+  "original_name": "ÏÎÎÍÏÏÎÍÎÌÍÌÍÎÎÎÍÏÏÌÍÌÎ",
+  "final_name": "PlatformIconContextHandler",
+  "confidence": "medium",
+  "reason": "字段 _platformIconContext，方法 Initialize/OnEnable/OnDisable/OnDestroy 是平台图标上下文绑定组件"
+ },
+ {
+  "original_name": "ÍÍÌÌÌÎÌÌÎÎÌÏÏÏÌÏÏÌÍÎÎÎÎ",
+  "final_name": "AlertSpinnerPanel",
+  "confidence": "high",
+  "reason": "字段 alertText/alertSpinner/_canvasGroup 是带文字和旋转加载指示器的提示面板"
+ },
+ {
+  "original_name": "ÏÍÍÌÎÎÍÌÍÎÎÏÎÍÌÍÎÏÌÏÎÍÏ",
+  "final_name": "StoreItemRowView",
+  "confidence": "medium",
+  "reason": "字段 _nameText/_purchaseOrViewButton/_detailsButton/_giftButton 是商城/物品列表行，含购买、查看详情、赠送按钮"
+ },
+ {
+  "original_name": "ÎÎÌÌÍÌÏÍÌÏÍÎÌÌÎÏÍÏÌÎÏÌÏ",
+  "final_name": "LabeledInputFieldRow",
+  "confidence": "medium",
+  "reason": "字段 _label/_button/_vrcInputField 是带标签和按钮的 VRC 输入框行组件"
+ },
+ {
+  "original_name": "ÎÌÍÌÍÎÍÍÏÏÏÌÎÏÎÏÏÍÌÌÏÍÏ",
+  "final_name": "VoiceSpeakingIndicator",
+  "confidence": "high",
+  "reason": "字段 _notSpeakingIconAlpha/_speakingIndicatorAmplitudeThreshold/_speakingIndicatorSmoothingSpeed/canvasGroup 是语音说话状态指示器，带振幅阈值和平滑速度"
+ },
+ {
+  "original_name": "ÍÍÎÌÎÎÏÎÎÎÎÎÍÏÍÏÎÏÏÍÌÏÎ",
+  "final_name": "SupportedPlatformTagsDisplay",
+  "confidence": "high",
+  "reason": "字段 richPlatformCanvas/supportedPlatformsListBinding/supportedPlatformTags/platformPrefab 是支持平台标签列表展示组件"
+ },
+ {
+  "original_name": "ÌÏÎÎÎÏÍÌÎÏÌÎÌÏÎÏÍÍÎÏÌÌÍ",
+  "final_name": "SingleButtonInvoker",
+  "confidence": "medium",
+  "reason": "只有字段 _button 和方法 Invoke，是最简单的单按钮调用包装组件"
+ },
+ {
+  "original_name": "ÏÌÏÌÌÌÏÌÍÌÍÎÍÍÏÍÎÍÏÍÍÌÎ",
+  "final_name": "DebugShapeRenderer",
+  "confidence": "medium",
+  "reason": "字段 _alpha，方法 Line/Sphere/get_Alpha/set_Alpha 是用于调试渲染线和球体的辅助组件"
+ },
+ {
+  "original_name": "ÍÍÍÍÎÏÍÍÏÏÎÌÍÍÎÎÌÎÎÍÏÏÍ",
+  "final_name": "IconTextButtonItem",
+  "confidence": "medium",
+  "reason": "字段 _text/_button/_image 是带文字、按钮和图片的通用列表项组件"
+ },
+ {
+  "original_name": "ÌÌÎÍÎÍÌÎÌÌÏÌÌÏÌÎÎÏÍÎÌÍÍ",
+  "final_name": "HighlightBannerController",
+  "confidence": "medium",
+  "reason": "字段 _highlightBanners/_defaultBanner 加 Update 方法是管理高亮横幅切换的控制器"
+ },
+ {
+  "original_name": "ÎÌÌÎÎÎÍÎÌÌÌÍÎÌÎÎÌÍÍÍÏÎÏ",
+  "final_name": "ImageGroupTooltipButton",
+  "confidence": "medium",
+  "reason": "字段 _imageBinding/_button/_groupName/_tooltip 是带图片绑定、分组名和提示的按钮组件"
+ },
+ {
+  "original_name": "ÌÎÎÌÌÌÍÍÍÍÎÎÍÌÎÍÏÏÌÌÌÏÍ",
+  "final_name": "InputMethodCompatibilityToggle",
+  "confidence": "high",
+  "reason": "字段 targetButton/disabledState/targetToggle/incompatibleInputMethods/disabledAlertText 是处理输入方式兼容性的按钮/开关禁用逻辑"
+ },
+ {
+  "original_name": "ÌÎÌÌÏÎÏÌÌÍÏÌÎÏÎÍÍÎÌÌÍÌÌ",
+  "final_name": "AgeVerificationStatusButton",
+  "confidence": "high",
+  "reason": "字段 _button/_ageVerificationStatus/_icon 是年龄验证状态显示按钮"
+ },
+ {
+  "original_name": "ÌÍÍÍÍÏÌÍÎÏÌÌÏÍÌÎÍÌÏÍÌÌÍ",
+  "final_name": "SortByDropdownController",
+  "confidence": "high",
+  "reason": "字段 _sortByDropdown 是排序下拉框控制器"
+ },
+ {
+  "original_name": "ÌÏÎÏÌÏÍÍÍÍÍÌÌÌÏÌÍÎÏÍÍÏÌ",
+  "final_name": "ScreenSwitcherController",
+  "confidence": "medium",
+  "reason": "字段 _screen 加 Initialize 方法是屏幕/面板切换控制器"
+ },
+ {
+  "original_name": "ÌÌÍÍÎÏÍÎÌÌÌÎÎÏÌÌÏÍÍÍÏÌÍ",
+  "final_name": "ImageTooltipButtonItem",
+  "confidence": "medium",
+  "reason": "字段 _imageBinding/_defaultIconText/_tooltip/_button 是带图片绑定、默认图标文字和提示的按钮项"
+ },
+ {
+  "original_name": "ÏÍÍÎÎÌÎÏÏÎÍÍÍÍÏÌÎÏÌÏÌÌÌ",
+  "final_name": "HudNotificationButton",
+  "confidence": "high",
+  "reason": "字段 _button/_hudNotification/_hudIconNotification 是 HUD 通知区域的按钮组件，带图标通知"
+ },
+ {
+  "original_name": "ÌÌÏÍÍÏÌÏÎÎÌÌÍÌÌÍÎÌÌÍÌÌÌ",
+  "final_name": "NetworkSyncComponent",
+  "confidence": "high",
+  "reason": "继承 NetworkReadyHandler，字段 _typeId/_uniqueHash，方法 Encode/Decode/NeedsSync/CanSerialize8Bit/CanSerialize32Bit/GenerateComponentInfo 是网络同步序列化组件"
+ },
+ {
+  "original_name": "ÎÌÍÍÎÏÌÌÍÍÏÍÌÍÌÎÌÍÍÎÏÌÍ",
+  "final_name": "ToggleSwitchWithLabel",
+  "confidence": "high",
+  "reason": "字段 textOnOff/toggleSwitch 加 OnEnable/OnDisable/OnDestroy 是带开关文字标签的 Toggle 组件"
+ },
+ {
+  "original_name": "ÍÌÏÌÎÌÏÎÍÍÎÏÏÎÏÎÎÌÍÏÌÌÎ",
+  "final_name": "StyleElementButton",
+  "confidence": "medium",
+  "reason": "字段 _button/_styleElement 是绑定样式元素的按钮组件"
+ },
+ {
+  "original_name": "ÎÏÌÍÍÌÎÏÏÏÎÎÌÏÍÍÏÏÎÍÍÏÌ",
+  "final_name": "SelectedAvatarPanelController",
+  "confidence": "high",
+  "reason": "字段 _selectedAvatarPanel 加 Initialize/OnDisable 是已选中 Avatar 面板的控制器"
+ },
+ {
+  "original_name": "ÍÌÌÎÍÎÌÍÎÏÏÎÎÍÎÎÎÌÏÍÌÌÌ",
+  "final_name": "LabelStyleElement",
+  "confidence": "medium",
+  "reason": "字段 _label 和 _styleElement 明确指向带样式的 UI 标签组件"
+ },
+ {
+  "original_name": "ÍÎÍÍÎÏÏÌÌÍÍÌÌÏÎÌÍÍÎÎÌÏÍ",
+  "final_name": "BillboardAlignmentController",
+  "confidence": "high",
+  "reason": "字段 RotateZOnly/FaceAway/FlatAlignment/AlignWithTarget 是经典 billboard 面朝目标对齐参数，LateUpdate 驱动"
+ },
+ {
+  "original_name": "ÎÎÌÌÌÎÌÌÎÏÌÌÌÌÎÌÌÎÎÏÎÎÎ",
+  "final_name": "MaskedOverlayListView",
+  "confidence": "medium",
+  "reason": "字段 buttonPrefab/maskedListBinding/overlayDisplay 指向带遮罩绑定和 overlay 的列表 UI"
+ },
+ {
+  "original_name": "ÎÏÎÌÏÌÌÎÎÍÍÎÎÎÎÎÎÌÎÍÎÎÍ",
+  "final_name": "SafetyTooltipHandler",
+  "confidence": "high",
+  "reason": "字段 _safetyLevel 和 tooltipText 明确对应 VRChat 安全等级显示的 tooltip 组件"
+ },
+ {
+  "original_name": "ÍÌÏÍÏÎÍÌÍÏÍÏÍÍÎÍÌÌÍÍÍÍÌ",
+  "final_name": "ConsumableItemInfoView",
+  "confidence": "high",
+  "reason": "字段 _nameText/_typeText/_typeIcon/_consumableInfoText 明确指向可消耗道具信息展示 UI"
+ },
+ {
+  "original_name": "ÌÏÍÏÎÏÌÏÏÍÌÏÌÏÍÏÏÌÎÍÎÌÍ",
+  "final_name": "FpsCounterDisplay",
+  "confidence": "high",
+  "reason": "字段 text_fps/textUpdateFequency/prefix/suffix/colorizeText 明确是帧率计数器文本显示组件"
+ },
+ {
+  "original_name": "ÎÏÍÏÍÎÍÍÌÎÏÌÎÍÍÎÎÍÌÏÍÎÏ",
+  "final_name": "ModalDialogView",
+  "confidence": "high",
+  "reason": "字段 header/description/closeButton/buttons/buttonPrefab 是标准模态对话框结构"
+ },
+ {
+  "original_name": "ÏÌÏÏÎÌÍÎÏÎÍÍÍÍÎÌÍÎÌÌÍÌÍ",
+  "final_name": "ScreenResolutionController",
+  "confidence": "medium",
+  "reason": "字段 _screen/_width/_height/_fps 指向管理屏幕分辨率和帧率的组件"
+ },
+ {
+  "original_name": "ÎÏÏÍÍÎÌÏÌÏÏÍÏÌÎÎÍÍÏÍÎÌÌ",
+  "final_name": "ImageTextButtonListItem",
+  "confidence": "medium",
+  "reason": "字段 image/text/button 是标准图文按钮列表项结构"
+ },
+ {
+  "original_name": "ÌÎÏÌÌÎÏÍÏÎÌÌÌÎÍÌÌÎÍÏÏÎÌ",
+  "final_name": "PaginatedLanguageSelectorView",
+  "confidence": "high",
+  "reason": "字段 labelLanguage/nextButton/previousButton 明确指向支持上下翻页的语言选择 UI"
+ },
+ {
+  "original_name": "ÎÎÏÎÎÎÍÍÌÌÏÎÎÎÌÍÍÍÎÍÏÍÏ",
+  "final_name": "AvatarTryWearButtonView",
+  "confidence": "high",
+  "reason": "字段 _button/_tryAvatarSprite/_wearAvatarSprite 明确对应试穿/穿戴 Avatar 按钮 UI"
+ },
+ {
+  "original_name": "ÏÏÍÎÌÏÍÌÏÌÌÍÎÍÏÌÎÏÌÌÏÎÍ",
+  "final_name": "ColorPickerItemView",
+  "confidence": "high",
+  "reason": "字段 labelText/colorButton/colorPreview 是颜色选择器列表项的标准结构"
+ },
+ {
+  "original_name": "ÌÌÎÎÎÏÍÍÍÍÎÍÏÎÌÏÌÍÎÍÌÎÍ",
+  "final_name": "ScrollbarWithIconView",
+  "confidence": "medium",
+  "reason": "字段 _scrollbar/_icon/_alwaysShow 指向带图标可控显示的滚动条组件"
+ },
+ {
+  "original_name": "ÌÎÏÎÍÎÏÌÎÌÌÍÍÏÏÍÎÏÍÏÏÍÎ",
+  "final_name": "ValidatedButtonItem",
+  "confidence": "medium",
+  "reason": "字段 image/tooltip/button/validationHandler 指向带验证回调的按钮列表项"
+ },
+ {
+  "original_name": "ÏÍÎÏÌÌÍÌÏÌÍÍÎÏÍÍÏÌÍÏÍÏÍ",
+  "final_name": "ReportGroupPanelView",
+  "confidence": "high",
+  "reason": "字段 _panel/_title/_reportGroupButton 明确指向举报分组面板 UI，带指针事件处理"
+ },
+ {
+  "original_name": "ÏÏÎÎÍÏÌÍÍÌÌÍÍÏÍÎÏÏÌÏÏÍÏ",
+  "final_name": "TabButtonItem",
+  "confidence": "high",
+  "reason": "字段 _button/_index/_tabController 是 TabController 驱动的标签按钮项标准结构"
+ },
+ {
+  "original_name": "ÏÌÍÏÎÏÏÎÏÍÏÏÏÍÌÏÌÌÍÌÍÌÌ",
+  "final_name": "NetworkedVideoSyncMessage",
+  "confidence": "high",
+  "reason": "方法 Encode/Decode/RemoteSetVideos/NeedsSync/SerializedName 明确是网络同步的视频消息数据包"
+ },
+ {
+  "original_name": "ÎÍÍÏÏÏÍÍÌÎÌÏÏÏÎÌÌÌÍÌÎÍÍ",
+  "final_name": "DepthOfFieldSliderView",
+  "confidence": "high",
+  "reason": "字段 cam/dofManager/slider/sliderValue/formatString/useLogScaling 明确指向景深效果的滑块控制 UI"
+ },
+ {
+  "original_name": "ÎÌÌÍÍÍÍÌÍÍÌÌÍÍÎÏÌÏÌÎÏÍÎ",
+  "final_name": "PropContextMenuView",
+  "confidence": "high",
+  "reason": "字段 repositionButton/visibilityButton/removePropButton/putAwayPropButton/customizePropButton/spawnYourVRCExclusivePropButton 明确是 VRChat Prop 道具上下文菜单 UI"
+ },
+ {
+  "original_name": "ÍÏÍÌÍÎÌÍÌÏÎÏÍÏÎÏÌÏÍÏÍÌÎ",
+  "final_name": "AgreementButtonHandler",
+  "confidence": "medium",
+  "reason": "字段 agreeButton 加 OnPointerClick/OnSubmit/OnSelect 等指针事件处理，指向用户协议确认按钮逻辑"
+ },
+ {
+  "original_name": "ÏÏÏÍÏÌÍÎÌÏÎÍÎÏÍÌÎÍÍÎÏÎÍ",
+  "final_name": "WorldSearchTypeFilterView",
+  "confidence": "high",
+  "reason": "字段 _searchTypeSize/_searchTypeActivity/_searchTypeEngagement/_searchTypeContent 明确是世界搜索分类过滤 UI"
+ },
+ {
+  "original_name": "ÏÏÏÌÌÎÌÏÌÍÏÏÏÎÌÎÎÌÏÎÍÍÍ",
+  "final_name": "VRChatInputModule",
+  "confidence": "medium",
+  "reason": "继承 BaseInputModule，含 HandlePointerExitAndEnter/FindCommonRoot/ActivateModule，是 VRChat 定制的 EventSystem 输入模块"
+ },
+ {
+  "original_name": "ÏÌÍÌÏÌÍÏÎÌÌÍÎÍÏÎÍÏÎÏÎÌÎ",
+  "final_name": "TitledListPanelView",
+  "confidence": "medium",
+  "reason": "字段 listBuilder/title/closeButton 指向带标题和关闭按钮的列表面板 UI"
+ },
+ {
+  "original_name": "ÎÌÍÎÌÌÌÎÎÍÎÌÍÌÏÏÌÌÏÏÌÌÏ",
+  "final_name": "SliderProgressBar",
+  "confidence": "high",
+  "reason": "fields canvasGroup+slider 是标准 UI 进度条/滑动条组件组合"
+ },
+ {
+  "original_name": "ÏÏÍÎÌÍÏÌÎÎÍÍÍÏÎÌÎÎÏÌÏÌÌ",
+  "final_name": "OutlineSphereCastDetector",
+  "confidence": "medium",
+  "reason": "fields outline+ignoreLayerMasks+spherecastForwardOffset 指向带 outline 高亮的球形射线检测组件（常见于 VRChat 可交互对象轮廓检测）"
+ },
+ {
+  "original_name": "ÎÎÍÎÍÍÎÏÎÌÍÌÍÌÎÏÏÎÎÍÍÍÌ",
+  "final_name": "HelpMenuNotificationBadge",
+  "confidence": "high",
+  "reason": "fields _unreadIcon+switchToHelpMenuOnClick 明确指向帮助菜单入口的未读通知图标组件"
+ },
+ {
+  "original_name": "ÎÏÍÏÌÏÍÌÎÍÎÍÍÎÍÌÎÎÎÌÏÍÌ",
+  "final_name": "PasswordVisibilityToggle",
+  "confidence": "high",
+  "reason": "fields _hiddenPasswordDisplay+_shownPasswordDisplay+OnPointerClick 是密码显示/隐藏切换的标准实现"
+ },
+ {
+  "original_name": "ÍÍÏÏÎÍÎÍÌÌÍÌÏÎÌÏÌÍÌÏÏÍÎ",
+  "final_name": "TextOverflowController",
+  "confidence": "high",
+  "reason": "fields _maxLineCount+_overflowMode+_autoTruncate 明确指向文本溢出/截断控制组件"
+ },
+ {
+  "original_name": "ÌÌÍÏÍÍÍÍÎÎÍÌÎÏÍÏÏÌÍÎÍÌÌ",
+  "final_name": "TooltipTrigger",
+  "confidence": "high",
+  "reason": "field _tooltip+Initialize 是标准 tooltip 触发器组件"
+ },
+ {
+  "original_name": "ÏÏÌÏÏÏÎÏÌÏÎÌÎÎÍÍÏÌÌÌÎÏÎ",
+  "final_name": "BoundedContentSizeFitter",
+  "confidence": "high",
+  "reason": "parent ContentSizeFitter+fields _maxWidth+_maxHeight+_maxFootprint 是带最大尺寸限制的布局适配器"
+ },
+ {
+  "original_name": "ÎÌÏÍÏÏÎÍÏÏÌÍÎÏÎÏÏÍÍÌÏÎÏ",
+  "final_name": "AvatarPerformanceConfirmDialog",
+  "confidence": "high",
+  "reason": "fields confirmButton+performanceRatingGroup 指向 Avatar 性能等级确认弹窗"
+ },
+ {
+  "original_name": "ÍÎÎÏÏÎÏÍÍÏÌÎÎÏÏÏÏÍÎÌÍÎÌ",
+  "final_name": "GroupRoleBadgeDisplay",
+  "confidence": "high",
+  "reason": "fields ownerIcon+moderatorIcon+managerIcon+roleLabel 明确指向群组角色/权限徽章展示组件"
+ },
+ {
+  "original_name": "ÏÎÏÍÏÎÎÎÍÍÏÌÍÌÌÍÏÌÏÏÏÎÎ",
+  "final_name": "ContentNewCountBadge",
+  "confidence": "high",
+  "reason": "fields newCountBinding+newCountContainer+contentType 指向内容新增数量角标（如好友/通知/世界更新数量）"
+ },
+ {
+  "original_name": "ÏÍÌÎÌÎÍÌÎÏÍÎÎÏÏÌÎÍÎÎÌÏÏ",
+  "final_name": "RadiusSettingRow",
+  "confidence": "medium",
+  "reason": "fields root+header+disableButton+radiusText 指向带禁用按钮和半径文本的设置面板行（常见于安全/语音半径设置）"
+ },
+ {
+  "original_name": "ÍÏÏÎÌÍÌÏÌÏÏÍÌÎÍÌÌÏÌÍÌÌÍ",
+  "final_name": "ToggleTextLabel",
+  "confidence": "high",
+  "reason": "fields _textMesh+_toggleBinding+_onText+_offText 是开关状态文字标签组件，根据 toggle 值切换显示文本"
+ },
+ {
+  "original_name": "ÎÌÍÍÎÌÎÍÎÍÌÍÌÏÏÏÏÌÍÎÍÎÍ",
+  "final_name": "VideoPlayerNetworkSyncHandler",
+  "confidence": "high",
+  "reason": "parent NetworkReadyHandler+methods RemoteSetVideos+RemoteSetPlaylist+RemoteClear+Encode+Decode 明确指向视频播放器的网络同步序列化处理器"
+ },
+ {
+  "original_name": "ÍÏÍÏÎÌÏÍÎÍÏÎÏÌÏÎÍÎÎÌÍÎÎ",
+  "final_name": "MultiPlatformLoginController",
+  "confidence": "high",
+  "reason": "methods AuthenticateWithOculus+AuthenticateWithDiscord+AuthenticateWithSteam+AuthenticateWithPico+AccountLoginPressed+AccountCreatePressed+OnSubmitAuthenticationCodeIsRecovery 明确是多平台登录控制器"
+ },
+ {
+  "original_name": "ÍÌÍÏÎÌÎÏÌÏÎÏÍÎÍÌÌÍÌÎÌÍÍ",
+  "final_name": "AvatarPedestalSpinController",
+  "confidence": "high",
+  "reason": "fields _pedestalHook+_avatarBounds+_avatarPartBounds+_startYawOffset+_spinDirection+OnBeginDrag+OnDrag 指向 Avatar 展示台拖拽旋转控制器"
+ },
+ {
+  "original_name": "ÍÎÎÎÏÌÌÌÍÏÌÏÍÌÏÎÍÎÏÍÌÏÌ",
+  "final_name": "FaceDetectionTaskOptions",
+  "confidence": "high",
+  "reason": "parent ConfidenceInputBase+fields _numFacesInput+_minFaceDetectionConfidenceInput+_minFacePresenceConfidenceInput+_outputFaceBlendshapesInput+_outputFacialTransformationMatrixesInput 是 MediaPipe 人脸检测任务选项"
+ },
+ {
+  "original_name": "ÏÏÌÎÎÍÌÎÍÌÏÌÌÎÌÌÎÌÍÏÎÏÌ",
+  "final_name": "PoseDetectionTaskOptions",
+  "confidence": "high",
+  "reason": "parent ConfidenceInputBase+fields _numPosesInput+_minPoseDetectionConfidenceInput+_minPosePresenceConfidenceInput+_outputSegmentationMasksInput+_modelSelectionInput 是 MediaPipe 姿态检测任务选项"
+ },
+ {
+  "original_name": "ÏÎÌÎÏÍÎÏÌÎÎÎÌÌÌÏÌÌÌÎÏÎÏ",
+  "final_name": "SortableListPanelView",
+  "confidence": "high",
+  "reason": "fields _title+_closeButton+_settingsButton+_scrollRect+_sectionElements+_sortDropdown+_dropdownPersistence 是带排序下拉框的可滚动列表面板视图"
+ },
+ {
+  "original_name": "ÎÍÏÌÌÌÍÌÎÏÏÌÎÏÏÍÏÏÍÏÌÍÏ",
+  "final_name": "CustomMaterialGraphicsManager",
+  "confidence": "high",
+  "reason": "字段 CustomMaterialGraphics 和 ManagedRoots 直接揭示该类管理自定义材质图形及其根节点列表。"
+ },
+ {
+  "original_name": "ÎÌÍÌÌÌÎÏÎÎÍÍÍÎÎÎÍÌÌÌÎÌÍ",
+  "final_name": "PooledObjectManager",
+  "confidence": "medium",
+  "reason": "字段 _poolSize 结合 Initialize/InvokeRepeating 方法，表明这是一个管理对象池大小和生命周期的 MonoBehaviour。"
+ },
+ {
+  "original_name": "ÌÍÌÍÎÌÏÎÍÍÎÎÍÌÌÍÎÎÌÌÏÍÎ",
+  "final_name": "BannerDisplayController",
+  "confidence": "high",
+  "reason": "字段 _bannerDisplayDuration 和 _bannerDisplay 直接指向横幅显示时长控制逻辑，方法含 Update 用于计时驱动。"
+ },
+ {
+  "original_name": "ÎÏÏÌÍÎÎÌÌÍÌÎÏÎÌÎÏÍÌÎÎÎÌ",
+  "final_name": "MobileLayoutGroupController",
+  "confidence": "high",
+  "reason": "字段 _layoutGroup 和 _mobileYPosition 表明该类负责移动端 UI 布局组定位管理。"
+ },
+ {
+  "original_name": "ÌÎÌÎÍÌÌÍÏÌÏÍÍÍÎÏÏÎÏÏÎÏÍ",
+  "final_name": "FpsSampler",
+  "confidence": "high",
+  "reason": "字段 fpsSamplesCount 直接表明此类采样帧率数据，配合 Update 方法持续采集。"
+ },
+ {
+  "original_name": "ÌÌÍÏÍÎÎÎÌÌÍÍÍÍÍÎÎÌÌÍÎÍÌ",
+  "final_name": "AuthorWorldListView",
+  "confidence": "high",
+  "reason": "字段 _authorWorldsListBinding、_viewMorePrefab、_authorCell、_worldPrefab 完整描述了作者世界列表 UI 视图组件。"
+ },
+ {
+  "original_name": "ÌÏÍÌÌÌÏÌÌÎÎÎÍÌÎÏÍÍÌÏÏÏÌ",
+  "final_name": "AvatarEquipCellInputHandler",
+  "confidence": "medium",
+  "reason": "继承自 UIshowMoreLessButton 组件，字段含 randomCellPrefab/unequipCellPrefab，方法覆盖全套 Pointer/Select 事件，处理Avatar装备单元格交互。"
+ },
+ {
+  "original_name": "ÌÏÍÌÍÏÍÏÏÍÏÌÎÌÏÏÌÌÎÍÍÍÍ",
+  "final_name": "CharacterStepController",
+  "confidence": "high",
+  "reason": "字段 maxStepHeight、stepUpThreshold、offsetDistance、distanceFromOrigin、groundedLayers 完整描述角色步伐/台阶检测逻辑，FixedUpdate 驱动物理。"
+ },
+ {
+  "original_name": "ÍÍÌÎÌÍÏÎÎÍÌÏÌÎÏÏÏÏÌÌÍÏÍ",
+  "final_name": "LodBiasFovCompensator",
+  "confidence": "high",
+  "reason": "字段 referenceFOV、currentLODBias、enableCompensation 加上 OnPreCull/OnPostRender 回调，表明该类根据 FOV 动态补偿 LOD Bias。"
+ },
+ {
+  "original_name": "ÏÎÎÌÍÍÏÍÍÌÏÏÎÌÎÏÎÏÌÎÍÏÍ",
+  "final_name": "TooltipAmountUIItem",
+  "confidence": "medium",
+  "reason": "字段 _title/_amountText/_uiTooltip 指向带数量文本和 tooltip 的 UI 条目"
+ },
+ {
+  "original_name": "ÏÌÍÌÎÌÌÏÌÏÏÌÌÏÌÍÏÌÌÌÏÎÎ",
+  "final_name": "StoreBundlePricePanel",
+  "confidence": "high",
+  "reason": "字段 cost/bundleSize/discount/discountPanel/button 明确指向商店捆绑包定价面板"
+ },
+ {
+  "original_name": "ÎÎÎÏÌÎÎÌÌÌÍÌÌÎÌÎÏÏÎÌÏÎÏ",
+  "final_name": "AvatarPanelToggle",
+  "confidence": "high",
+  "reason": "字段 _selectedAvatarPanel + OnEnable/OnDisable 指向 Avatar 选中面板开关控制"
+ },
+ {
+  "original_name": "ÍÍÏÎÍÌÍÏÏÌÍÏÏÎÎÍÍÏÏÍÍÌÍ",
+  "final_name": "ColorSelectorItem",
+  "confidence": "high",
+  "reason": "字段 colorDisplay/selectedIndicator/button 典型颜色选择条目 UI 模式"
+ },
+ {
+  "original_name": "ÎÌÌÍÎÏÏÌÎÍÏÌÍÌÌÍÏÏÍÎÎÏÌ",
+  "final_name": "SupportedPlatformTagsPanel",
+  "confidence": "high",
+  "reason": "字段 _supportedPlatformsListBinding/_supportedPlatformTags/_platformPrefab 平台兼容性标签列表面板"
+ },
+ {
+  "original_name": "ÏÏÌÌÎÍÏÌÌÏÌÎÌÍÌÍÌÌÎÍÎÏÎ",
+  "final_name": "UserCardPrintView",
+  "confidence": "high",
+  "reason": "字段 printImage/userData/streamerModeOverlay 用户卡片打印视图含主播模式遮罩"
+ },
+ {
+  "original_name": "ÍÏÌÍÏÎÌÍÍÍÍÏÏÍÌÎÎÍÌÏÏÎÌ",
+  "final_name": "DialogButtonGroupPanel",
+  "confidence": "medium",
+  "reason": "字段 _bottomRow/_label/_buttonsGroup/closeButtons + OnPointer/OnSelect 对话框按钮组面板"
+ },
+ {
+  "original_name": "ÍÎÌÍÍÍÏÎÍÎÌÍÍÏÌÌÍÌÌÎÏÎÍ",
+  "final_name": "ConditionalLogger",
+  "confidence": "high",
+  "reason": "方法 get/set_IsEnabled + Log/LogWarning/LogError/LogOnceEvery 条件日志器接口"
+ },
+ {
+  "original_name": "ÏÍÎÍÏÍÎÏÌÍÌÍÌÏÎÏÏÏÌÏÏÌÌ",
+  "final_name": "NetworkSerializableTypeHandler",
+  "confidence": "high",
+  "reason": "继承 NetworkReadyHandler，含 Encode/Decode/NeedsImportant/CanSerialize32Bit/SerializedName"
+ },
+ {
+  "original_name": "ÏÍÍÌÏÏÏÌÌÌÎÍÌÌÎÏÏÏÍÏÎÎÏ",
+  "final_name": "NetworkSyncTypeHandler",
+  "confidence": "high",
+  "reason": "继承 NetworkReadyHandler，含 NeedsSync/Encode/Decode/OnEnable/OnDisable"
+ },
+ {
+  "original_name": "ÎÎÌÏÏÌÍÌÏÏÍÎÏÌÍÎÎÍÎÍÌÎÏ",
+  "final_name": "ContentWarningBannerController",
+  "confidence": "high",
+  "reason": "字段 _contentWarningBanner 直接命名内容警告横幅控制器"
+ },
+ {
+  "original_name": "ÌÌÍÏÎÏÌÏÍÌÎÎÏÏÎÌÍÏÌÍÎÏÎ",
+  "final_name": "LocalPlayerRpcOverrideHandler",
+  "confidence": "medium",
+  "reason": "方法 OnPlayerJoined/InternalApplyOverrideRPC 本地玩家 RPC 覆写处理器"
+ },
+ {
+  "original_name": "ÎÍÌÎÏÌÏÍÎÌÌÏÍÍÍÌÌÌÎÍÍÍÍ",
+  "final_name": "CalendarDayListController",
+  "confidence": "high",
+  "reason": "字段 _calendarDaysList/_calendarDatePrefab 日历天列表控制器"
+ },
+ {
+  "original_name": "ÍÎÍÍÌÌÏÍÏÌÍÍÍÌÌÌÍÍÏÍÌÎÎ",
+  "final_name": "CalendarMonthPanelController",
+  "confidence": "high",
+  "reason": "字段 _monthToView/_calendarMonthPanel/_calendarSideList/_searchButton/_calendarEventsFilterButton 完整月历面板"
+ },
+ {
+  "original_name": "ÎÌÏÎÏÎÏÌÎÍÌÌÍÌÏÏÍÏÍÏÍÎÏ",
+  "final_name": "ClippingMaskableGraphic",
+  "confidence": "high",
+  "reason": "继承 MaskableGraphic，含 SetClipRect/SetClipSoftness/OnPopulateMesh 可裁剪遮罩图形"
+ },
+ {
+  "original_name": "ÎÌÏÏÍÌÏÍÎÌÏÌÏÎÍÎÌÏÍÍÎÌÏ",
+  "final_name": "KeyboardKeyRenderer",
+  "confidence": "high",
+  "reason": "字段 keyParent/keyRenderer/keyTextRenderer + Update 虚拟键盘按键渲染器"
+ },
+ {
+  "original_name": "ÏÌÍÍÌÍÎÏÌÌÎÌÌÎÌÎÍÏÎÏÌÏÌ",
+  "final_name": "OrientationScaleAdapter",
+  "confidence": "high",
+  "reason": "字段 landscapeScale/portraitScale 横竖屏缩放适配器"
+ },
+ {
+  "original_name": "ÍÌÎÏÏÏÏÏÎÍÎÍÍÌÏÍÌÎÍÍÌÏÎ",
+  "final_name": "SoftClippingRectMask",
+  "confidence": "high",
+  "reason": "继承 RectMask2D，含 UpdateClipSoftness/PerformClipping/get_softness 软边缘裁剪矩形遮罩"
+ },
+ {
+  "original_name": "ÏÌÏÌÏÍÎÌÎÎÏÌÍÎÌÍÍÏÌÍÍÍÌ",
+  "final_name": "TrustVerifiedIconDisplay",
+  "confidence": "high",
+  "reason": "字段 trustIcon/verifiedIcon 信任等级与认证图标显示组件"
+ },
+ {
+  "original_name": "ÌÍÏÏÏÌÏÏÌÎÌÎÎÍÏÍÏÍÍÌÌÌÍ",
+  "final_name": "TypedIconLayoutItem",
+  "confidence": "medium",
+  "reason": "字段 type/icon/layoutElement + OnEnable/OnDisable 带类型标识的图标布局元素"
+ },
+ {
+  "original_name": "ÌÍÌÎÌÌÌÏÍÍÌÎÍÍÏÌÌÌÌÍÏÎÎ",
+  "final_name": "MarketplaceButtonListItem",
+  "confidence": "high",
+  "reason": "继承 UIObservableListk__BackingField，字段 _marketPlaceButton + 完整 OnPointer 事件"
+ },
+ {
+  "original_name": "ÌÎÎÍÍÍÏÎÏÎÍÏÌÍÍÌÍÌÌÏÏÏÌ",
+  "final_name": "JoystickDirectionIndicator",
+  "confidence": "high",
+  "reason": "字段 _joystickDirIndicator/_joystickDirIndicatorLine/maxDistanceUnits/adjustment 摇杆方向指示器"
+ },
+ {
+  "original_name": "ÍÌÎÎÏÏÍÏÍÏÎÏÌÌÍÏÏÍÌÌÏÏÏ",
+  "final_name": "MemberListScrollPanel",
+  "confidence": "high",
+  "reason": "字段 _listBinding/_memberItemPrefab/_scrollRect 成员列表滚动面板"
+ },
+ {
+  "original_name": "ÌÎÎÍÏÏÌÏÍÎÎÏÍÌÏÌÍÌÏÏÌÍÍ",
+  "final_name": "NotificationTweenController",
+  "confidence": "high",
+  "reason": "字段 notificationPrefab/tweenInPoint/tweenOutPoint + Update 通知动画进出控制器"
+ }
+]
