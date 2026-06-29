@@ -8,7 +8,7 @@
 
 ## 0. 一句话现状
 
-VRChat 升级到 **Unity 6 (6000.0.60f1)**,旧 IL2CPP 提取器全部失效。本项目已**重新破解 Unity 6 的类/方法/字段内存布局**并跑通命名 pipeline。当前覆盖率:**方法 93.5% / 类 62.6% / 字段 82.7%**。正在做"用字段签名给混淆类命名"的质量提升,刚发现目标筛选口径有 bug 需修正(见 §5)。
+VRChat 升级到 **Unity 6 (6000.0.60f1)**,旧 IL2CPP 提取器全部失效。本项目已**重新破解 Unity 6 的类/方法/字段内存布局**并跑通命名 pipeline。当前覆盖率:**方法 93.5% / 类 62.6% / 字段 82.7%**。P1(修 9 个 weak 命名)已完成;**做 P2 前必先解决 §5.5 的命名持久性隐患**(命名是手动 patch、不在 pipeline 内,重跑会丢)。
 
 ---
 
@@ -98,15 +98,19 @@ dumps/VRChat_32984_20260629_180349_full.dmp  # 当前高质量 Unity6 dump(4.1GB
 
 3. **计划书 UPGRADE_PLAN.md 里的 7118 是错的**。用官方口径,**真实待命名缺口只有 2383 个**(已存到 `output/rename_targets_clean.json`),其中强信号8 / 中信号16 / **2359 个靠方法签名**。
 
-4. **遗留待修**:dump 里有 **8 个 A1 命名撞了官方 weak 前缀**(`UnknownObjectWrapper60` 等 Unknown 前缀)。上一条修正命令(Unknown→Generic)**未执行成功**(会话切断),dump 里这 8 个仍是 weak 名,需重做。
+4. ~~遗留待修:8 个 A1 命名撞 weak 前缀~~ **✅ 已修(commit 8ef8abc9)**:实际 9 个。2 个 `Typed*` 是真名误伤(撞 `Type` 前缀)→ 改 `IconLayoutItem`/`TitledDescriptionPanel`;7 个 `Unknown*` 无真实信号(纯 hex 字段 + 样板方法)→ 诚实降级为 fallback(从源文件删除,不伪造名骗 weak 检测)。类 semantic 6214→6216。
+
+5. **⚠️ 持久性隐患(新发现,重要)**:`a1_class_names.json`/`workflow_class_names.json` 等命名结果是**手动 patch 进 `output/deobfuscated_dump.json` 的,没有任何 pipeline 脚本引用它们**(grep `field_signature_a1` 在 tools/ 下零命中)。→ **重跑 `run_full_pipeline.py` 会覆盖 dump、丢失全部 1212 个混淆类命名**。P1 修复已同步写回所有源文件(a1/workflow 的 class_names+final_names+rename_targets),但**根本解法**是写一个 apply 脚本把这些命名源纳入 pipeline 的 stage,或在 pipeline 末尾自动 re-apply。下一个 AI 做 P2 前务必先解决这个,否则命名成果不稳。
 
 ---
 
 ## 6. 下一步建议(按优先级)
 
-**P0 — 先 push 锁住成果**:6 个提交未 push,机器有反复 KMODE 蓝屏史(见§7),`git push -u origin master` 防丢。push 是 outward 操作,先跟用户确认。
+**P0 — 先 push 锁住成果**:9 个提交未 push,机器有反复 KMODE 蓝屏史(见§7),`git push -u origin master` 防丢。push 是 outward 操作,先跟用户确认。
 
-**P1 — 修那 8 个 weak 名**:用 `tools/compute_final_stats.py` 的 `is_weak_name` 找出 dump 里 `semantic_source` 含 `field_signature` 且名字仍 weak 的,重命名(去掉 Unknown/Type 等前缀)。
+**P1 — ~~修那 8 个 weak 名~~ ✅ 已完成(commit 8ef8abc9)**。
+
+**P1.5 — 修持久性隐患(新增,做 P2 前必做)**:见§5.5,命名是手动 patch 不在 pipeline 内,重跑会丢。需把命名源纳入 pipeline 或末尾 re-apply。
 
 **P2 — 用干净目标集做命名**:`output/rename_targets_clean.json`(2383 个,官方口径)。注意 2359 个靠方法签名(字段弱),命名指令要:
    - 避免泛化名(`XxxWrapper/XxxSubtype/XxxEnumerator`)和 `_数字` 后缀(会被官方判 weak 或低质)。
