@@ -1,10 +1,37 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 3
-// Methods: 61
+// Classes: 4
+// Methods: 73
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÎÏÍÎÍÌÏÌÍÏÌÏÏÍÍÌÏÏÎÎÎÌÌ</summary>
+    public class AchievementUnlockUI : MonoBehaviour
+    {
+        public object lockIcon;
+        public object checkIcon;
+        public object preUnlockTexts;
+        public object postUnlockTexts;
+        public object icon;
+        public object canvasGroup;
+        public object progressSlider;
+        public object progressSliderText;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x97D4BB0
+        public void RaiseCancellation(){} // RVA: 0x97D4C50
+        public void IsInvoking(){} // RVA: 0x97D4CF0
+        public void CancelInvoke(){} // RVA: 0x97D4D90
+        public void Invoke(){} // RVA: 0x97D4E50
+        public void InvokeRepeating(){} // RVA: 0x97D5140
+        public void StartCoroutine(){} // RVA: 0x97D51E0
+        public void StartCoroutine_Auto(){} // RVA: 0x97D52A0
+        public void StopCoroutine(){} // RVA: 0x97D5580
+        public void StopAllCoroutines(){} // RVA: 0x97D5860
+        public void get_useGUILayout(){} // RVA: 0x97D5B40
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
     public class AvatarProxySettings : Object
     {
         public object _kInstanceID_None;

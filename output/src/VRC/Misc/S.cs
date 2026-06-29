@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 47
-// Methods: 661
+// Classes: 48
+// Methods: 678
 
 namespace VRC.Misc
 {
@@ -631,6 +631,36 @@ namespace VRC.Misc
         public void m_1D3(){} // RVA: 0x9B8DBD0
         public void m_1BC(){} // RVA: 0x9B8E000
         public void m_A4B(){} // RVA: 0x9B8E3A0
+    }
+
+    /// <summary>Originally: ÍÏÏÏÌÌÏÏÎÌÍÌÏÏÏÌÍÎÌÏÌÏÍ</summary>
+    public class ShopPrefabProvider : Mono15m_CD5D
+    {
+        public object categoryPrefab;
+        public object gridContainerPrefab;
+        public object itemCellPrefab;
+        public object shopUpsellPrefab;
+        public object vrcPlusWarningPrefab;
+        public object filterPanelPrefab;
+        public object f_A6A;
+        public object f_DDE;
+        public object f_1D2;
+        public object f_E29;
+        public object f_4C7;
+        public object f_730;
+        public object f_261;
+        public object f_A55;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x981A830
+        public void Initialize(){} // RVA: 0x981A840
+        // ── 15 unresolved (hash) ──
+        public void m_79A(){} // RVA: 0x98194B0
+        public void m_B4B(){} // RVA: 0x9819510
+        public void m_90B(){} // RVA: 0x9819770
+        public void m_C16(){} // RVA: 0x98197E0
+        public void m_637(){} // RVA: 0x98198F0
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÌÏÌÎÏÎÌÏÍÌÍÍÎÌÍÍÎÌÌÍÎ</summary>

@@ -3,9 +3,9 @@
   "classes": {
     "total": 64773,
     "obfuscated": 9928,
-    "semantic": 6216,
-    "fallback": 3712,
-    "semantic_pct": 62.6
+    "semantic": 6223,
+    "fallback": 3705,
+    "semantic_pct": 62.7
   },
   "methods": {
     "total": 569859,

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 3
-// Methods: 48
+// Classes: 4
+// Methods: 59
 
 namespace VRC.UI
 {
@@ -60,6 +60,37 @@ namespace VRC.UI
         // ── Unresolved (hash) ──
         public void m_2D9(){} // RVA: 0x99958B0
         public void m_568(){} // RVA: 0x9995E20
+    }
+
+    /// <summary>Originally: ÎÍÎÏÏÍÏÎÌÍÌÌÏÌÌÎÎÏÎÏÍÎÎ</summary>
+    public class ShopItemIconUI : MonoBehaviour
+    {
+        public object _icon;
+        public object _label;
+        public object _background;
+        public object _roleSprite;
+        public object _udonSprite;
+        public object _avatarSprite;
+        public object _itemSprite;
+        public object _stickerSprite;
+        public object _emojiSprite;
+        public object _cosmeticSprite;
+        public object _creditsSprite;
+        public object _accessorySprite;
+        public object _abilityPlayerMovementSprite;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x99DC290
+        public void RaiseCancellation(){} // RVA: 0x99DC810
+        public void IsInvoking(){} // RVA: 0x99DCBF0
+        public void CancelInvoke(){} // RVA: 0x99DCE90
+        public void Invoke(){} // RVA: 0x99DD060
+        public void InvokeRepeating(){} // RVA: 0x99DD230
+        public void StartCoroutine(){} // RVA: 0x99DD4D0
+        public void StartCoroutine_Auto(){} // RVA: 0x99DDA90
+        public void StopCoroutine(){} // RVA: 0x99DDD30
+        public void StopAllCoroutines(){} // RVA: 0x99DE190
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
     /// <summary>Originally: ÎÍÏÍÌÌÍÎÍÍÍÎÌÏÌÎÍÎÏÌÍÏÌ</summary>

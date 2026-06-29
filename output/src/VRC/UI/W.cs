@@ -1,10 +1,41 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 5
-// Methods: 94
+// Classes: 6
+// Methods: 109
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÍÎÌÎÌÎÌÌÎÌÎÍÌÌÌÎÌÎÎÌÎÌÍ</summary>
+    public class WorldInstanceActionMenuUI : MonoBehaviour
+    {
+        public object buttonSpacing;
+        public object center;
+        public object allButtons;
+        public object ownerButtons;
+        public object ownerNonAuthorButtons;
+        public object nonOwnerButtons;
+        public object instanceModeratorButtons;
+        public object worldDetailsButton;
+        public object f_7B1;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0xB6B1B0
+        public void RaiseCancellation(){} // RVA: 0xB6B1A0
+        public void IsInvoking(){} // RVA: 0x22E9DB0
+        public void CancelInvoke(){} // RVA: 0x22E9EF0
+        public void Invoke(){} // RVA: 0x22EA020
+        public void InvokeRepeating(){} // RVA: 0x22EA250
+        public void .ctor(){} // RVA: 0x22EA390
+        public void Initialize(){} // RVA: 0x22EA3E0
+        public void StopCoroutine(){} // RVA: 0x22EA950
+        public void StopAllCoroutines(){} // RVA: 0x22EAC00
+        public void get_useGUILayout(){} // RVA: 0x22EAD40
+        public void set_useGUILayout(){} // RVA: 0x22EAE70
+        public void get_didStart(){} // RVA: 0xB6B1A0
+        public void get_didAwake(){} // RVA: 0x22EB170
+        public void print(){} // RVA: 0xB6B1A0
+    }
+
     /// <summary>Originally: ÍÌÌÎÎÌÎÏÌÍÌÎÏÌÌÌÎÍÏÏÌÎÎ</summary>
     public class WorldcustomizeButtonSpawn_4032 : UIk__BackingFieldComponent_51D2
     {

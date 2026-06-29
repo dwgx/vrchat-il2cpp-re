@@ -1,10 +1,82 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 3
-// Methods: 39
+// Classes: 4
+// Methods: 89
 
 namespace VRC.Misc
 {
+    /// <summary>Originally: ÌÌÍÎÏÎÍÏÎÌÌÏÍÌÌÍÎÌÍÌÎÍÍ</summary>
+    public class WriteOnlyNameObject : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DFF;
+        public object f_434;
+        public object f_A73;
+        public object f_448;
+        public object f_CC6;
+        public object f_07D;
+        public object f_153;
+        public object f_749;
+        public object f_EE3;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xDD7A00
+        public void Equals(){} // RVA: 0x2401A40
+        public void GetHashCode(){} // RVA: 0xBC1B30
+        public void op_Implicit(){} // RVA: 0x2401C70
+        public void CompareBaseObjects(){} // RVA: 0x2401D00
+        public void IsNativeObjectAlive(){} // RVA: 0x2401D70
+        public void GetCachedPtr(){} // RVA: 0xBE5890
+        public void .cctor(){} // RVA: 0x2401E00
+        public void set_name(){} // RVA: 0x2401E10
+        public void Instantiate(){} // RVA: 0x2401EA0
+        public void Destroy(){} // RVA: 0xDD5C50
+        public void DestroyImmediate(){} // RVA: 0x2401F40
+        public void FindObjectsOfType(){} // RVA: 0x2401FD0
+        public void FindObjectsByType(){} // RVA: 0x24020A0
+        public void DontDestroyOnLoad(){} // RVA: 0x2402130
+        public void get_hideFlags(){} // RVA: 0x24021C0
+        public void set_hideFlags(){} // RVA: 0x2402320
+        public void FindObjectOfType(){} // RVA: 0x2402380
+        public void .ctor(){} // RVA: 0x2402490
+        public void Initialize(){} // RVA: 0x24026E0
+        public void ToString(){} // RVA: 0x2402760
+        public void op_Equality(){} // RVA: 0x2402800
+        public void op_Inequality(){} // RVA: 0x24028B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x24029D0
+        public void Internal_CloneSingle(){} // RVA: 0x2402AA0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x2402B30
+        public void Internal_InstantiateSingle(){} // RVA: 0x2402C20
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x2402CD0
+        public void GetName(){} // RVA: 0x2402D10
+        public void IsPersistent(){} // RVA: 0xBE5890
+        public void SetName(){} // RVA: 0xC120A0
+        public void FindObjectFromInstanceID(){} // RVA: 0x2402DB0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x2402EA0
+        public void Destroy_Injected(){} // RVA: 0x24031A0
+        public void DestroyImmediate_Injected(){} // RVA: 0x24032A0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xC120B0
+        public void get_hideFlags_Injected(){} // RVA: 0x2403330
+        public void set_hideFlags_Injected(){} // RVA: 0x24033C0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x24032A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x2403560
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x24035F0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x2403600
+        public void ToString_Injected(){} // RVA: 0x2403690
+        public void GetName_Injected(){} // RVA: 0x22201E0
+        public void IsPersistent_Injected(){} // RVA: 0x2403950
+        public void SetName_Injected(){} // RVA: 0x2403A90
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x2403B90
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x24044C0
+        // ── Unresolved (hash) ──
+        public void m_C78(){} // RVA: 0x2402F40
+        public void m_116(){} // RVA: 0x2403110
+    }
+
     /// <summary>Originally: ÌÎÏÎÎÍÌÌÌÍÏÏÎÎÎÍÍÌÎÌÌÍÍ</summary>
     public class walletContentsTextComponent_FEFB : MonoBehaviour
     {

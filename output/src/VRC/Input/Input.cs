@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Input
-// Classes: 21
-// Methods: 450
+// Classes: 22
+// Methods: 451
 
 namespace VRC.Input
 {
@@ -322,6 +322,22 @@ namespace VRC.Input
         public void StartCoroutine_Auto(){} // RVA: 0x2270F50
         public void StopCoroutine(){} // RVA: 0x2270F50
         public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÍÍÎÏÎÌÏÏÎÌÏÏÌÌÏÎÎÌÏÍÏÏÏ</summary>
+    public class InputActionEventBinding : MonoBehaviour
+    {
+        public object text_inputName;
+        public object inputDown;
+        public object inputPress;
+        public object inputUp;
+        public object f_358;
+        public object f_460;
+        public object f_35C;
+        public object f_48B;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x24F5F60
     }
 
     /// <summary>Originally: ÌÎÏÏÍÏÎÎÏÏÌÍÏÍÌÏÏÌÍÌÏÍÏ</summary>

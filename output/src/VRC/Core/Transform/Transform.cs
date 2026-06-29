@@ -1,10 +1,22 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
-// Classes: 8
-// Methods: 136
+// Classes: 9
+// Methods: 137
 
 namespace VRC.Core.Transform
 {
+    /// <summary>Originally: ÎÎÎÏÌÏÎÎÍÎÏÍÌÌÍÍÌÏÏÌÌÎÌ</summary>
+    public class OrientationAdaptiveTransform : MonoBehaviour
+    {
+        public object landscapePos;
+        public object landscapeScale;
+        public object portraitPos;
+        public object portraitScale;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
     /// <summary>Originally: ÏÎÌÍÌÏÏÏÎÌÍÎÍÌÌÍÎÏÏÌÎÌÏ</summary>
     public class RectTransformDimensionsCh_3B42 : UIBehaviour
     {

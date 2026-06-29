@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 19
-// Methods: 280
+// Classes: 30
+// Methods: 422
 
 namespace VRC.Misc
 {
@@ -289,6 +289,36 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x20BC470
     }
 
+    /// <summary>Originally: ÏÌÏÏÌÍÎÏÏÌÎÌÍÎÍÏÌÎÌÌÌÎÎ</summary>
+    public class DestroyableInitObject : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_5D6;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x8944F0
+        public void GetHashCode(){} // RVA: 0x87C130
+        public void op_Implicit(){} // RVA: 0x894320
+        public void CompareBaseObjects(){} // RVA: 0x87C0A0
+        public void IsNativeObjectAlive(){} // RVA: 0x894320
+        public void .ctor(){} // RVA: 0x899AC0
+        public void Initialize(){} // RVA: 0x895F20
+        public void set_name(){} // RVA: 0x8943B0
+        public void Instantiate(){} // RVA: 0x87C0A0
+        public void Destroy(){} // RVA: 0x87C0A0
+        public void DestroyImmediate(){} // RVA: 0x894320
+        public void FindObjectsOfType(){} // RVA: 0x87C0A0
+        public void FindObjectsByType(){} // RVA: 0x894320
+        public void DontDestroyOnLoad(){} // RVA: 0x8943B0
+        public void get_hideFlags(){} // RVA: 0x8943B0
+        public void set_hideFlags(){} // RVA: 0x87C0A0
+    }
+
     /// <summary>Originally: ÍÎÎÍÎÍÏÍÌÏÎÌÌÏÌÌÏÌÎÌÎÏÎ</summary>
     public class DirectToUpdaterequirements_D994 : UpdateComponent_E28C
     {
@@ -308,6 +338,20 @@ namespace VRC.Misc
         public void m_899(){} // RVA: 0x21A69D0
         public void m_782(){} // RVA: 0x21A6A70
         public void m_823(){} // RVA: 0x21A6BA0
+    }
+
+    /// <summary>Originally: ÌÌÏÍÍÎÏÎÏÍÏÍÏÍÎÍÏÎÍÏÎÏÌ</summary>
+    public class DirectionalArrowIndicator : MonoBehaviour
+    {
+        public object _arrowContainer;
+        public object _textMeshProUGUI;
+        public object _canvasGroup;
+        public object _fadeDuration;
+        public object _screenBorderMinimumDistance;
+        public object offset;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9B1D570
     }
 
     /// <summary>Originally: ÏÌÏÏÌÎÍÎÍÎÎÎÌÍÎÍÏÍÌÌÎÎÍ</summary>
@@ -421,6 +465,284 @@ namespace VRC.Misc
         public void set_CountDiscarded(){} // RVA: 0x167E7C0
         public void set_DeltaUnreliableNumber(){} // RVA: 0x167E840
         public void get_QueuedOutgoingCommands(){} // RVA: 0x167EA10
+    }
+
+    /// <summary>Originally: ÌÌÏÎÎÌÎÍÌÏÎÏÌÎÎÍÌÎÎÌÍÏÎ</summary>
+    public class DisposableManagedObjectFull_02 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_699;
+        public object f_A12;
+        public object f_AE9;
+        public object f_A69;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x199EFD0
+        public void Equals(){} // RVA: 0x199F020
+        public void .ctor(){} // RVA: 0x199F0B0
+        public void Initialize(){} // RVA: 0x199F4B0
+        public void CompareBaseObjects(){} // RVA: 0x199EFD0
+        public void IsNativeObjectAlive(){} // RVA: 0x199F530
+        public void Dispose(){} // RVA: 0x199F840
+        public void GetHashCode(){} // RVA: 0x1269730
+        public void set_name(){} // RVA: 0x199F8D0
+        public void Instantiate(){} // RVA: 0x19A01B0
+        public void Destroy(){} // RVA: 0x19A0230
+        public void .cctor(){} // RVA: 0x19A03F0
+        public void FindObjectsOfType(){} // RVA: 0x19A0580
+        public void FindObjectsByType(){} // RVA: 0x19A0760
+        public void DontDestroyOnLoad(){} // RVA: 0x19A07F0
+        public void get_hideFlags(){} // RVA: 0x19A09F0
+        public void set_hideFlags(){} // RVA: 0x19A0BD0
+        public void FindObjectOfType(){} // RVA: 0x19A0D90
+        public void FindFirstObjectByType(){} // RVA: 0x19A0230
+    }
+
+    /// <summary>Originally: ÏÌÍÏÍÏÍÎÎÏÌÌÌÎÌÌÍÎÎÏÎÎÎ</summary>
+    public class DisposableNativeObject_01 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_E37;
+        public object f_BAD;
+        public object f_7FC;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1AAF870
+        public void Equals(){} // RVA: 0x1AAFA70
+        public void GetHashCode(){} // RVA: 0x1AAFB60
+        public void op_Implicit(){} // RVA: 0x1AAFDE0
+        public void Dispose(){} // RVA: 0x1AAFE60
+        public void Cleanup(){} // RVA: 0xF43F30
+        public void GetCachedPtr(){} // RVA: 0x1AAFF70
+        public void get_name(){} // RVA: 0x1AB0050
+        public void set_name(){} // RVA: 0x1AB01A0
+        public void Instantiate(){} // RVA: 0x1AB0290
+        public void Destroy(){} // RVA: 0x1AB0480
+        public void .ctor(){} // RVA: 0x1AB0630
+        public void Initialize(){} // RVA: 0x1AB09E0
+        public void FindObjectsByType(){} // RVA: 0x1AB09F0
+        public void DontDestroyOnLoad(){} // RVA: 0x1AB0B70
+        public void .cctor(){} // RVA: 0x1AB0CD0
+        public void set_hideFlags(){} // RVA: 0x1AB0DF0
+        public void FindObjectOfType(){} // RVA: 0x1AB0EB0
+        public void FindFirstObjectByType(){} // RVA: 0x1AB0FE0
+        public void CheckNullArgument(){} // RVA: 0xF43F30
+        public void ToString(){} // RVA: 0x1AB1190
+        public void op_Equality(){} // RVA: 0x1AB13A0
+    }
+
+    /// <summary>Originally: ÎÏÏÎÏÌÎÌÎÎÌÏÍÍÌÌÌÌÏÎÎÍÍ</summary>
+    public class DisposableObjectBinding : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_E0E;
+        public object f_48F;
+        public object f_F8C;
+        public object f_523;
+        public object f_12D;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xE58A50
+        public void Dispose(){} // RVA: 0xE58F10
+        public void .ctor(){} // RVA: 0xE58F80
+        public void Initialize(){} // RVA: 0xE59260
+        public void CompareBaseObjects(){} // RVA: 0xE595E0
+        public void IsNativeObjectAlive(){} // RVA: 0xE59750
+        public void GetCachedPtr(){} // RVA: 0xE59AD0
+        public void get_name(){} // RVA: 0xE59B50
+        public void set_name(){} // RVA: 0xE59BE0
+        public void Instantiate(){} // RVA: 0xE59EC0
+        public void Destroy(){} // RVA: 0xE5A240
+        public void DestroyImmediate(){} // RVA: 0xE5A5C0
+        public void FindObjectsOfType(){} // RVA: 0xE5A940
+        public void FindObjectsByType(){} // RVA: 0xE5AE00
+        public void DontDestroyOnLoad(){} // RVA: 0xE5AEE0
+    }
+
+    /// <summary>Originally: ÎÏÍÎÎÌÍÏÌÌÌÍÏÏÏÏÌÍÏÍÎÍÌ</summary>
+    public class DisposableObjectManager : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_773;
+        public object f_445;
+        public object f_857;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xFDD660
+        public void Dispose(){} // RVA: 0xFDE060
+        public void Cleanup(){} // RVA: 0xFDE510
+        public void .ctor(){} // RVA: 0xFDEEE0
+        public void Initialize(){} // RVA: 0xFDF300
+        public void IsNativeObjectAlive(){} // RVA: 0xFDF450
+        public void GetCachedPtr(){} // RVA: 0xFDF5A0
+        public void .cctor(){} // RVA: 0xFDFA40
+        public void set_name(){} // RVA: 0xFDFBA0
+        public void Instantiate(){} // RVA: 0xFDFCF0
+        public void Destroy(){} // RVA: 0xFDFE40
+        public void DestroyImmediate(){} // RVA: 0xFE02F0
+    }
+
+    /// <summary>Originally: ÌÎÌÏÌÌÏÌÏÎÍÍÏÏÎÏÌÎÍÏÏÍÍ</summary>
+    public class DisposableObjectWrapper : Object
+    {
+        public object _9357;
+        public object _93572;
+        public object _93573;
+        public object _93574;
+        public object _93575;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xE9E8B0
+        public void Equals(){} // RVA: 0x11E1400
+        public void GetHashCode(){} // RVA: 0x11E1470
+        public void op_Implicit(){} // RVA: 0x11E1480
+        public void Dispose(){} // RVA: 0x11E1770
+        public void Cleanup(){} // RVA: 0x11E1400
+        public void GetCachedPtr(){} // RVA: 0x11E1400
+        public void get_name(){} // RVA: 0x11E1400
+        public void set_name(){} // RVA: 0xBC1B30
+        public void Instantiate(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x11E17A0
+        public void Initialize(){} // RVA: 0xE32C80
+        public void FindObjectsOfType(){} // RVA: 0x11E18A0
+        public void FindObjectsByType(){} // RVA: 0x11E1770
+        public void DontDestroyOnLoad(){} // RVA: 0xBC1B30
+        public void get_hideFlags(){} // RVA: 0xE32C80
+        public void set_hideFlags(){} // RVA: 0x11E18C0
+    }
+
+    /// <summary>Originally: ÎÌÎÏÎÍÍÍÏÌÏÌÏÎÏÏÍÌÎÎÎÎÍ</summary>
+    public class DisposableObjectWrapper_01 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_884;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB708C0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xFEA5C0
+        public void op_Implicit(){} // RVA: 0xFEA760
+        public void CompareBaseObjects(){} // RVA: 0xFEA900
+        public void IsNativeObjectAlive(){} // RVA: 0xD33E60
+        public void .ctor(){} // RVA: 0xFEB180
+        public void Initialize(){} // RVA: 0xFEAE90
+        public void set_name(){} // RVA: 0xFEAEA0
+        public void Instantiate(){} // RVA: 0xB708C0
+        public void Dispose(){} // RVA: 0xFEB040
+        public void Cleanup(){} // RVA: 0xFEAE90
+        public void Finalize(){} // RVA: 0xFEB2C0
+        public void FindObjectsByType(){} // RVA: 0xFEB420
+        public void DontDestroyOnLoad(){} // RVA: 0xFEB580
+        public void get_hideFlags(){} // RVA: 0xB70160
+        public void set_hideFlags(){} // RVA: 0xFEB720
+        public void FindObjectOfType(){} // RVA: 0xB70160
+    }
+
+    /// <summary>Originally: ÏÎÍÌÌÌÎÎÌÌÌÎÍÏÍÌÌÍÏÏÌÎÎ</summary>
+    public class DisposableUnityResource_1 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_A2D;
+        public object f_A3E;
+        public object f_A43;
+        public object f_835;
+        public object f_41D;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x81D9230
+        public void Dispose(){} // RVA: 0x81D9290
+        public void Cleanup(){} // RVA: 0x81D98B0
+        public void op_Implicit(){} // RVA: 0xB47B50
+        public void CompareBaseObjects(){} // RVA: 0x81D9CB0
+        public void .ctor(){} // RVA: 0x81DA0C0
+        public void Initialize(){} // RVA: 0xB47B50
+        public void get_name(){} // RVA: 0x81DA310
+        public void set_name(){} // RVA: 0xC152E0
+        public void Instantiate(){} // RVA: 0x81DA580
+        public void Destroy(){} // RVA: 0xC152D0
+        public void DestroyImmediate(){} // RVA: 0xB47B50
+        public void FindObjectsOfType(){} // RVA: 0x81DA860
+        public void FindObjectsByType(){} // RVA: 0xC152D0
+        public void DontDestroyOnLoad(){} // RVA: 0xC152E0
+        public void get_hideFlags(){} // RVA: 0x81DAB40
+        public void set_hideFlags(){} // RVA: 0x81DAD10
+        public void FindObjectOfType(){} // RVA: 0xB5DD40
+        public void FindFirstObjectByType(){} // RVA: 0xB47B50
+    }
+
+    /// <summary>Originally: ÏÏÎÌÎÍÏÌÎÌÌÎÎÍÌÌÍÏÎÍÍÌÏ</summary>
+    public class DroneControllerConfig : Object
+    {
+        public object controllerType;
+        public object keyboardAndMouseControllerType;
+        public object droneScreenMode;
+        public object controllerInversion;
+        public object controllerDeadzone;
+        public object angleCenteredThrottleBehavior;
+        public object acroCenteredThrottleBehavior;
+        public object controllerKeyboardSensitivity;
+        public object controllerRelativeMouseMode;
+        public object controllerMouseSensitivity;
+        public object controllerMouseRelativeRate;
+        public object controllerMouseRelativeCurve;
+        public object controllerMousePowerCurve;
+        public object fpvScreenSize;
+        public object fpvScreenDimming;
+        public object audioFeedbackVolume;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÌÌÍÏÌÎÏÍÎÌÌÏÍÎÏÌÎÏÍÍÎÏÌ</summary>
+    public class DroneFlightStickConfig : Object
+    {
+        public object cameraTilt;
+        public object maxAngle;
+        public object expoPitch;
+        public object expoRoll;
+        public object expoYaw;
+        public object expoThrottle;
+        public object centerSensitivityPitch;
+        public object centerSensitivityRoll;
+        public object centerSensitivityYaw;
+        public object centerSensitivityThrottle;
+        public object maxRatePitch;
+        public object maxRateRoll;
+        public object maxRateYaw;
+        public object maxRateThrottle;
+        public object modeChangeSmoothingTime;
+        public object mass;
+        public object drag;
+        public object crossSectionArea;
+        public object motorPower;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     /// <summary>Originally: ÌÌÎÎÎÍÎÍÍÏÎÏÎÍÎÌÎÎÏÍÎÏÏ</summary>

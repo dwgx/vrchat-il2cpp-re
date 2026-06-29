@@ -1,1686 +1,1789 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 884
+// Methods: 909
 
 namespace VRC.Misc
 {
-    /// <summary>Originally: ÌÍÎÍÍÌÏÍÏÍÎÎÌÏÏÎÌÏÍÎÌÏÍ</summary>
-    public class Type10m1f_3E8C : Object
+    /// <summary>Originally: ÎÏÏÎÏÏÍÍÍÍÌÍÍÏÌÏÎÎÌÏÌÌÌ</summary>
+    public class Type10m1f_0302 : Object
     {
-        public object _3E8C;
+        public object _0302;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x14FDC80
-        public void Equals(){} // RVA: 0x14FDD20
-        public void GetHashCode(){} // RVA: 0x14FDD80
-        public void op_Implicit(){} // RVA: 0x14FDDE0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x14FDE80
-        public void GetCachedPtr(){} // RVA: 0x14FDF20
-        public void get_name(){} // RVA: 0x14FDFC0
-        public void set_name(){} // RVA: 0x14FE020
-        public void Instantiate(){} // RVA: 0x14FE080
+        public void .ctor(){} // RVA: 0x170F060
+        public void Initialize(){} // RVA: 0x170F360
+        public void Equals(){} // RVA: 0x170F3C0
+        public void op_Implicit(){} // RVA: 0x170F420
+        public void CompareBaseObjects(){} // RVA: 0x170F480
+        public void IsNativeObjectAlive(){} // RVA: 0x170F4E0
+        public void GetCachedPtr(){} // RVA: 0x170F540
+        public void get_name(){} // RVA: 0x170F5A0
+        public void set_name(){} // RVA: 0x170F600
+        public void Instantiate(){} // RVA: 0x170F660
     }
 
-    /// <summary>Originally: ÏÍÏÏÌÎÎÏÍÌÎÍÏÏÌÏÌÍÍÍÌÍÎ</summary>
-    public class Type10m1f_7C5E : Object
+    /// <summary>Originally: ÎÎÍÍÌÍÍÎÍÎÏÍÌÏÌÎÌÎÎÏÌÏÍ</summary>
+    public class Type10m1f_0CF7 : Object
     {
-        public object _7C5E;
+        public object _0CF7;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15709C0
-        public void Equals(){} // RVA: 0x1570CC0
-        public void GetHashCode(){} // RVA: 0x1570FC0
-        public void op_Implicit(){} // RVA: 0x15712C0
-        public void CompareBaseObjects(){} // RVA: 0x15715C0
-        public void IsNativeObjectAlive(){} // RVA: 0x15718C0
-        public void GetCachedPtr(){} // RVA: 0x1571BC0
-        public void get_name(){} // RVA: 0x1571EC0
-        public void set_name(){} // RVA: 0x15721C0
+        public void GetInstanceID(){} // RVA: 0x17CC120
+        public void Equals(){} // RVA: 0x17CC120
+        public void GetHashCode(){} // RVA: 0x17CC120
         public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17CC120
+        public void IsNativeObjectAlive(){} // RVA: 0x17CC120
+        public void GetCachedPtr(){} // RVA: 0x17CC120
+        public void get_name(){} // RVA: 0x17CC120
+        public void set_name(){} // RVA: 0x17CC120
+        public void Instantiate(){} // RVA: 0x17CC120
     }
 
-    /// <summary>Originally: ÌÍÏÌÎÎÏÌÎÎÎÎÌÌÍÌÍÌÌÎÏÏÎ</summary>
-    public class Type10m1f_8E62 : Object
+    /// <summary>Originally: ÍÍÌÏÌÌÎÏÍÍÎÎÌÌÌÍÌÏÎÏÍÍÌ</summary>
+    public class Type10m1f_5889 : Object
     {
-        public object _8E62;
+        public object _5889;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F7B30
-        public void Equals(){} // RVA: 0x15F7BB0
-        public void GetHashCode(){} // RVA: 0x15F7C30
-        public void op_Implicit(){} // RVA: 0x15F7CB0
-        public void CompareBaseObjects(){} // RVA: 0x15F7D30
-        public void IsNativeObjectAlive(){} // RVA: 0x15F7DB0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F7E30
-        public void set_name(){} // RVA: 0x15F7EB0
-        public void Instantiate(){} // RVA: 0x15F7F30
-    }
-
-    /// <summary>Originally: ÌÏÏÍÎÍÏÏÎÌÏÌÌÎÏÏÎÍÏÎÍÍÎ</summary>
-    public class Type10m1f_91D3 : Object
-    {
-        public object _91D3;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15740A0
-        public void Equals(){} // RVA: 0x1574370
-        public void GetHashCode(){} // RVA: 0x1574630
-        public void op_Implicit(){} // RVA: 0x15748F0
-        public void CompareBaseObjects(){} // RVA: 0x1574BB0
-        public void IsNativeObjectAlive(){} // RVA: 0x1574E70
-        public void GetCachedPtr(){} // RVA: 0x1575140
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1575400
-        public void Instantiate(){} // RVA: 0x15756D0
-    }
-
-    /// <summary>Originally: ÎÎÎÎÌÎÌÎÎÍÍÏÍÏÏÏÌÌÌÎÏÎÎ</summary>
-    public class Type10m1f_A63E : Object
-    {
-        public object _a63E;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x158FF50
-        public void Equals(){} // RVA: 0x1590010
-        public void GetHashCode(){} // RVA: 0x15900D0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1590190
-        public void IsNativeObjectAlive(){} // RVA: 0x1590250
-        public void GetCachedPtr(){} // RVA: 0x1590310
-        public void get_name(){} // RVA: 0x15903D0
-        public void set_name(){} // RVA: 0x1590490
-        public void Instantiate(){} // RVA: 0x1590550
-    }
-
-    /// <summary>Originally: ÎÏÌÏÍÌÎÏÍÌÍÍÏÎÌÎÌÌÌÎÍÎÍ</summary>
-    public class Type10m1f_C452 : Object
-    {
-        public object _c452;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x152F1D0
-        public void Equals(){} // RVA: 0x152F660
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x152FAF0
-        public void CompareBaseObjects(){} // RVA: 0x152FF80
-        public void IsNativeObjectAlive(){} // RVA: 0x1530410
-        public void GetCachedPtr(){} // RVA: 0x15308A0
-        public void get_name(){} // RVA: 0x1530D30
-        public void set_name(){} // RVA: 0x15311C0
-        public void Instantiate(){} // RVA: 0x1531650
-    }
-
-    /// <summary>Originally: ÍÍÍÏÏÏÎÌÍÏÎÏÎÍÍÍÎÏÍÎÌÌÎ</summary>
-    public class Type10m1f_E947 : Object
-    {
-        public object _e947;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x157A570
-        public void Equals(){} // RVA: 0x157A570
-        public void GetHashCode(){} // RVA: 0x157A570
-        public void op_Implicit(){} // RVA: 0x157A570
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x157A570
-        public void GetCachedPtr(){} // RVA: 0x157A570
-        public void get_name(){} // RVA: 0x157A570
-        public void set_name(){} // RVA: 0x157A570
-        public void Instantiate(){} // RVA: 0x157A570
-    }
-
-    /// <summary>Originally: ÏÍÏÍÏÌÍÍÌÏÎÌÏÌÌÌÏÏÏÏÎÌÌ</summary>
-    public class Type10m1f_ED4C : Object
-    {
-        public object _eD4C;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156ADC0
-        public void Equals(){} // RVA: 0x156AE30
-        public void GetHashCode(){} // RVA: 0x156AEA0
-        public void op_Implicit(){} // RVA: 0x156AF10
-        public void CompareBaseObjects(){} // RVA: 0x156AF80
-        public void IsNativeObjectAlive(){} // RVA: 0x156AFF0
-        public void GetCachedPtr(){} // RVA: 0x156B060
-        public void get_name(){} // RVA: 0x156B0D0
-        public void set_name(){} // RVA: 0x156B140
+        public void GetInstanceID(){} // RVA: 0x17F7D70
+        public void Equals(){} // RVA: 0x17F7E10
+        public void GetHashCode(){} // RVA: 0x17F7E70
+        public void op_Implicit(){} // RVA: 0x17F7ED0
+        public void CompareBaseObjects(){} // RVA: 0x17F7F30
+        public void IsNativeObjectAlive(){} // RVA: 0x17F7F90
+        public void GetCachedPtr(){} // RVA: 0x17F8030
+        public void get_name(){} // RVA: 0x17F80D0
+        public void set_name(){} // RVA: 0x17F8170
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÌÍÎÏÍÎÎÌÌÍÍÌÌÎÍÏÌÎÎÌÎÌÍ</summary>
-    public class Type10m1f_F11E : Object
+    /// <summary>Originally: ÎÎÌÌÍÍÍÌÍÍÎÏÍÍÍÏÍÎÌÍÍÌÍ</summary>
+    public class Type10m1f_867E : Object
     {
-        public object _f11E;
+        public object _867E;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x14FEFE0
-        public void Equals(){} // RVA: 0x14FF080
-        public void GetHashCode(){} // RVA: 0x14FF120
+        public void GetInstanceID(){} // RVA: 0x175FF50
+        public void Equals(){} // RVA: 0x1760010
+        public void GetHashCode(){} // RVA: 0x17600D0
+        public void op_Implicit(){} // RVA: 0x1760190
+        public void CompareBaseObjects(){} // RVA: 0x1760250
+        public void IsNativeObjectAlive(){} // RVA: 0x1760310
+        public void GetCachedPtr(){} // RVA: 0x17603D0
+        public void get_name(){} // RVA: 0x1760490
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x14FF180
-        public void IsNativeObjectAlive(){} // RVA: 0x14FF220
-        public void GetCachedPtr(){} // RVA: 0x14FF280
-        public void get_name(){} // RVA: 0x14FF2E0
-        public void set_name(){} // RVA: 0x14FF380
-        public void Instantiate(){} // RVA: 0x14FF420
+        public void Initialize(){} // RVA: 0x1760550
     }
 
-    /// <summary>Originally: ÍÍÏÏÌÍÍÏÏÍÌÏÌÍÏÌÏÍÍÍÎÎÍ</summary>
-    public class Type10m2f_2461 : Object
+    /// <summary>Originally: ÎÏÎÍÍÌÍÌÏÍÏÎÌÌÌÍÍÍÌÌÎÏÌ</summary>
+    public class Type10m1f_D2A7 : Object
+    {
+        public object _d2A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x12818D0
+        public void Equals(){} // RVA: 0x12818D0
+        public void GetHashCode(){} // RVA: 0x12818D0
+        public void op_Implicit(){} // RVA: 0x12818D0
+        public void CompareBaseObjects(){} // RVA: 0x12818D0
+        public void IsNativeObjectAlive(){} // RVA: 0x12818D0
+        public void GetCachedPtr(){} // RVA: 0x12818D0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x12818D0
+        public void Instantiate(){} // RVA: 0x12818D0
+    }
+
+    /// <summary>Originally: ÍÍÏÌÎÍÍÌÏÏÏÏÌÎÍÍÍÌÏÍÌÌÌ</summary>
+    public class Type10m1f_F5F2 : Object
+    {
+        public object _f5F2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1733180
+        public void Equals(){} // RVA: 0x1733240
+        public void GetHashCode(){} // RVA: 0x1733300
+        public void op_Implicit(){} // RVA: 0x17333C0
+        public void CompareBaseObjects(){} // RVA: 0x1733480
+        public void IsNativeObjectAlive(){} // RVA: 0x1733540
+        public void GetCachedPtr(){} // RVA: 0x1733600
+        public void get_name(){} // RVA: 0x17336C0
+        public void set_name(){} // RVA: 0x1733780
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÎÏÌÏÏÌÏÍÏÏÌÍÌÎÌÌÍÎÏÎÌÏÎ</summary>
+    public class Type10m2f_0A4A : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15C0EF0
-        public void Equals(){} // RVA: 0x15C0EF0
-        public void GetHashCode(){} // RVA: 0x15C0EF0
-        public void op_Implicit(){} // RVA: 0x15C0EF0
-        public void CompareBaseObjects(){} // RVA: 0x15C0F20
-        public void IsNativeObjectAlive(){} // RVA: 0x15C0F20
-        public void GetCachedPtr(){} // RVA: 0x15C0EF0
-        public void get_name(){} // RVA: 0x15C0F20
-        public void set_name(){} // RVA: 0x15C0F20
+        public void GetInstanceID(){} // RVA: 0x17D3480
+        public void Equals(){} // RVA: 0x17D3480
+        public void GetHashCode(){} // RVA: 0x17D3480
+        public void op_Implicit(){} // RVA: 0x17D3480
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17D3480
+        public void GetCachedPtr(){} // RVA: 0x17D3480
+        public void get_name(){} // RVA: 0x17D3480
+        public void set_name(){} // RVA: 0x17D3480
+        public void Instantiate(){} // RVA: 0x17D3480
+    }
+
+    /// <summary>Originally: ÏÌÎÍÏÍÍÎÌÎÌÎÌÍÎÍÎÌÎÏÍÏÏ</summary>
+    public class Type10m2f_0A98 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16A4AE0
+        public void Equals(){} // RVA: 0x16A4C10
+        public void GetHashCode(){} // RVA: 0x16A4D40
+        public void op_Implicit(){} // RVA: 0x16A4E70
+        public void CompareBaseObjects(){} // RVA: 0x16A4FA0
+        public void IsNativeObjectAlive(){} // RVA: 0x16A50D0
+        public void GetCachedPtr(){} // RVA: 0x16A5200
+        public void get_name(){} // RVA: 0x16A5330
+        public void set_name(){} // RVA: 0x16A5460
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÏÏÏÏÌÌÏÏÏÎÌÎÍÍÎÏÍÏÍÏÎÏÎ</summary>
-    public class Type10m2f_723E : Object
+    /// <summary>Originally: ÏÏÍÎÎÎÍÍÌÎÏÌÏÌÌÍÏÍÍÌÍÍÍ</summary>
+    public class Type10m2f_0E03 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1551010
-        public void Equals(){} // RVA: 0x1551320
-        public void GetHashCode(){} // RVA: 0x1551630
-        public void op_Implicit(){} // RVA: 0x1551940
-        public void CompareBaseObjects(){} // RVA: 0x1551C50
-        public void IsNativeObjectAlive(){} // RVA: 0x1551F60
-        public void GetCachedPtr(){} // RVA: 0x1552270
-        public void get_name(){} // RVA: 0x1552580
+        public void GetInstanceID(){} // RVA: 0x16EF4D0
+        public void Equals(){} // RVA: 0x16EF910
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1552890
+        public void Initialize(){} // RVA: 0x16EFD20
+        public void CompareBaseObjects(){} // RVA: 0x16F0150
+        public void IsNativeObjectAlive(){} // RVA: 0x16F0580
+        public void GetCachedPtr(){} // RVA: 0x16F0F10
+        public void get_name(){} // RVA: 0x16F1350
+        public void set_name(){} // RVA: 0x16F1D40
+        public void Instantiate(){} // RVA: 0x16F2720
     }
 
-    /// <summary>Originally: ÍÍÍÏÎÌÌÌÎÏÍÏÏÌÎÏÌÎÍÎÌÏÎ</summary>
-    public class Type10m2f_CE2A : Object
+    /// <summary>Originally: ÍÏÏÌÎÍÎÍÍÍÍÏÍÌÍÏÍÏÏÌÌÎÎ</summary>
+    public class Type10m2f_153B : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1546E60
-        public void Equals(){} // RVA: 0x1546F90
-        public void GetHashCode(){} // RVA: 0x15470C0
-        public void op_Implicit(){} // RVA: 0x15471F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1547320
-        public void GetCachedPtr(){} // RVA: 0x1547450
-        public void get_name(){} // RVA: 0x1547580
-        public void set_name(){} // RVA: 0x15476B0
-        public void Instantiate(){} // RVA: 0x15477E0
-    }
-
-    /// <summary>Originally: ÎÏÏÎÌÏÌÏÎÍÎÍÎÏÎÌÍÍÌÎÏÎÌ</summary>
-    public class Type10m2f_ED01 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB465B0
-        public void Equals(){} // RVA: 0xB5DBF0
-        public void GetHashCode(){} // RVA: 0xB465B0
-        public void op_Implicit(){} // RVA: 0xB5DBF0
-        public void .ctor(){} // RVA: 0x14FB0D0
-        public void Initialize(){} // RVA: 0xB5DBF0
-        public void GetCachedPtr(){} // RVA: 0xB465B0
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB465B0
-        public void Instantiate(){} // RVA: 0xB5DBF0
-    }
-
-    /// <summary>Originally: ÌÌÌÏÎÎÎÏÌÌÍÍÏÍÎÎÎÌÍÏÏÎÌ</summary>
-    public class Type10m2f_FFA1 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1554480
-        public void Equals(){} // RVA: 0x1554550
-        public void GetHashCode(){} // RVA: 0x1554620
-        public void op_Implicit(){} // RVA: 0x15546F0
-        public void CompareBaseObjects(){} // RVA: 0x15547C0
-        public void IsNativeObjectAlive(){} // RVA: 0x1554890
-        public void GetCachedPtr(){} // RVA: 0x1554960
-        public void get_name(){} // RVA: 0x1554A30
-        public void set_name(){} // RVA: 0x1554B00
+        public void GetInstanceID(){} // RVA: 0x17BD2E0
+        public void Equals(){} // RVA: 0x17BD970
+        public void GetHashCode(){} // RVA: 0x17BE000
+        public void op_Implicit(){} // RVA: 0x17BE690
+        public void CompareBaseObjects(){} // RVA: 0x17BED20
+        public void IsNativeObjectAlive(){} // RVA: 0x17BF3B0
+        public void GetCachedPtr(){} // RVA: 0x17BFA40
+        public void get_name(){} // RVA: 0x17C00D0
+        public void set_name(){} // RVA: 0x17C0760
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÌÏÏÌÌÌÌÍÌÌÍÏÎÎÌÍÏÏÌÍÏÏÍ</summary>
-    public class Type10m3f_D723 : Object
+    /// <summary>Originally: ÍÏÍÌÌÏÌÎÍÎÏÎÎÏÏÌÏÏÏÎÌÌÏ</summary>
+    public class Type10m2f_1C48 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F2A10
-        public void Equals(){} // RVA: 0x15F2E30
-        public void GetHashCode(){} // RVA: 0x15F3260
+        public void GetInstanceID(){} // RVA: 0x17A71A0
+        public void Equals(){} // RVA: 0x17A7310
+        public void GetHashCode(){} // RVA: 0x17A7480
+        public void op_Implicit(){} // RVA: 0x17A75F0
+        public void CompareBaseObjects(){} // RVA: 0x17A7760
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F3690
-        public void IsNativeObjectAlive(){} // RVA: 0x15F3AC0
-        public void GetCachedPtr(){} // RVA: 0x15F3EF0
-        public void get_name(){} // RVA: 0x15F4320
-        public void set_name(){} // RVA: 0x15F4730
-        public void Instantiate(){} // RVA: 0x15F4B60
+        public void Initialize(){} // RVA: 0x17A78D0
+        public void get_name(){} // RVA: 0x17A7A40
+        public void set_name(){} // RVA: 0x17A7BB0
+        public void Instantiate(){} // RVA: 0x17A7D20
     }
 
-    /// <summary>Originally: ÍÌÍÍÍÌÏÎÌÍÍÌÏÌÌÌÍÌÍÏÍÎÍ</summary>
-    public class Type10m4f_0849 : Object
+    /// <summary>Originally: ÏÌÏÎÍÎÌÍÍÏÍÍÎÎÏÏÌÎÌÍÏÌÌ</summary>
+    public class Type10m2f_2744 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x153D950
-        public void Equals(){} // RVA: 0x153DB60
-        public void GetHashCode(){} // RVA: 0x153DD60
+        public void GetInstanceID(){} // RVA: 0x17CADF0
+        public void Equals(){} // RVA: 0x17CADF0
+        public void GetHashCode(){} // RVA: 0x17CADF0
+        public void op_Implicit(){} // RVA: 0x17CADF0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x153E4B0
-        public void IsNativeObjectAlive(){} // RVA: 0x153E6C0
-        public void GetCachedPtr(){} // RVA: 0x153EE10
-        public void get_name(){} // RVA: 0x153F010
-        public void set_name(){} // RVA: 0x153F760
-        public void Instantiate(){} // RVA: 0x153FEB0
+        public void Initialize(){} // RVA: 0x17CADF0
+        public void GetCachedPtr(){} // RVA: 0x17CADF0
+        public void get_name(){} // RVA: 0x17CADF0
+        public void set_name(){} // RVA: 0x17CADF0
+        public void Instantiate(){} // RVA: 0x17CADF0
     }
 
-    /// <summary>Originally: ÎÏÌÌÌÍÌÏÏÎÌÎÌÌÏÏÏÏÍÍÎÍÌ</summary>
-    public class Type10m4f_C042 : Object
+    /// <summary>Originally: ÎÍÌÌÎÏÌÏÌÏÍÎÌÌÌÏÎÎÍÏÏÍÎ</summary>
+    public class Type10m2f_4D83 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15C0F50
+        public void GetInstanceID(){} // RVA: 0x16BE7E0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15C0FD0
-        public void op_Implicit(){} // RVA: 0x15C12D0
-        public void CompareBaseObjects(){} // RVA: 0x15C15D0
-        public void IsNativeObjectAlive(){} // RVA: 0x15C1650
-        public void GetCachedPtr(){} // RVA: 0x15C16D0
-        public void get_name(){} // RVA: 0x15C1750
-        public void set_name(){} // RVA: 0x15C17D0
-        public void Instantiate(){} // RVA: 0x15C1850
+        public void Initialize(){} // RVA: 0x16BEAE0
+        public void op_Implicit(){} // RVA: 0x16BED80
+        public void CompareBaseObjects(){} // RVA: 0x16BF080
+        public void IsNativeObjectAlive(){} // RVA: 0x16BF330
+        public void GetCachedPtr(){} // RVA: 0x16BF630
+        public void get_name(){} // RVA: 0x16BF940
+        public void set_name(){} // RVA: 0x16BFBF0
+        public void Instantiate(){} // RVA: 0x16BFEA0
     }
 
-    /// <summary>Originally: ÍÏÎÎÎÌÎÍÍÍÌÍÏÍÌÎÎÎÌÎÏÍÏ</summary>
-    public class Type10m4f_CA8C : Object
+    /// <summary>Originally: ÌÎÌÎÌÍÏÏÌÍÏÏÏÍÍÎÌÌÌÌÎÌÏ</summary>
+    public class Type10m2f_59A7 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15804D0
-        public void Equals(){} // RVA: 0x1580590
-        public void GetHashCode(){} // RVA: 0x1580790
-        public void op_Implicit(){} // RVA: 0x1580980
+        public void GetInstanceID(){} // RVA: 0x17418B0
+        public void Equals(){} // RVA: 0x17418B0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1580A40
-        public void GetCachedPtr(){} // RVA: 0x1580B00
-        public void get_name(){} // RVA: 0x1580BC0
-        public void set_name(){} // RVA: 0x1580C80
-        public void Instantiate(){} // RVA: 0x1580D40
+        public void Initialize(){} // RVA: 0x17418B0
+        public void CompareBaseObjects(){} // RVA: 0x17418B0
+        public void IsNativeObjectAlive(){} // RVA: 0x17418B0
+        public void GetCachedPtr(){} // RVA: 0x17418B0
+        public void get_name(){} // RVA: 0x17418B0
+        public void set_name(){} // RVA: 0x17418B0
+        public void Instantiate(){} // RVA: 0x17418B0
     }
 
-    /// <summary>Originally: ÏÎÎÎÍÏÍÏÎÍÏÍÎÏÎÏÎÍÍÎÌÏÌ</summary>
-    public class Type10m8f_00B6 : Object
+    /// <summary>Originally: ÌÎÏÌÏÏÍÏÍÍÌÌÏÌÏÎÏÌÍÎÎÎÍ</summary>
+    public class Type10m2f_842F : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_9FB;
-        public object f_9BC;
-        public object f_73F;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15CADA0
-        public void Equals(){} // RVA: 0x15CAE80
-        public void GetHashCode(){} // RVA: 0x15CAF50
-        public void op_Implicit(){} // RVA: 0x15CB020
+        public void GetInstanceID(){} // RVA: 0x17356F0
+        public void Equals(){} // RVA: 0x1735A10
+        public void GetHashCode(){} // RVA: 0x1735CE0
+        public void op_Implicit(){} // RVA: 0x1736000
+        public void CompareBaseObjects(){} // RVA: 0x1736320
+        public void IsNativeObjectAlive(){} // RVA: 0x1736600
+        public void GetCachedPtr(){} // RVA: 0x1736930
+        public void get_name(){} // RVA: 0x1736C00
+        public void .ctor(){} // RVA: 0x1736F10
+        public void Initialize(){} // RVA: 0x1737370
+    }
+
+    /// <summary>Originally: ÎÌÎÏÌÏÍÎÍÍÌÎÏÌÎÍÏÏÍÍÌÌÌ</summary>
+    public class Type10m2f_8A93 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x179F840
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15CB0E0
-        public void GetCachedPtr(){} // RVA: 0x15CB180
-        public void get_name(){} // RVA: 0x15CB220
-        public void set_name(){} // RVA: 0x15CB2C0
-        public void Instantiate(){} // RVA: 0x15CB360
+        public void Initialize(){} // RVA: 0x179F840
+        public void op_Implicit(){} // RVA: 0x179F840
+        public void CompareBaseObjects(){} // RVA: 0x179F840
+        public void IsNativeObjectAlive(){} // RVA: 0x179F840
+        public void GetCachedPtr(){} // RVA: 0x179F840
+        public void get_name(){} // RVA: 0x179F840
+        public void set_name(){} // RVA: 0x179F840
+        public void Instantiate(){} // RVA: 0x179F840
     }
 
-    /// <summary>Originally: ÌÎÎÌÌÏÍÏÏÌÌÎÎÍÌÎÍÏÍÏÌÌÎ</summary>
-    public class Type11m2f_755B : Object
+    /// <summary>Originally: ÏÎÍÌÏÌÌÎÎÏÎÌÌÏÎÎÎÍÍÎÏÏÌ</summary>
+    public class Type10m2f_8EC9 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1553E30
-        public void Initialize(){} // RVA: 0xB465B0
-        public void Equals(){} // RVA: 0x15542A0
-        public void op_Implicit(){} // RVA: 0xB465B0
-        public void CompareBaseObjects(){} // RVA: 0xB5DBF0
-        public void IsNativeObjectAlive(){} // RVA: 0x1554340
-        public void GetCachedPtr(){} // RVA: 0xB5DBF0
-        public void get_name(){} // RVA: 0xB465B0
-        public void set_name(){} // RVA: 0xB5DBF0
-        public void Instantiate(){} // RVA: 0xB465B0
-        public void Destroy(){} // RVA: 0x15543E0
-    }
-
-    /// <summary>Originally: ÎÏÎÍÏÌÌÍÍÏÎÍÏÏÍÌÌÍÍÏÎÍÎ</summary>
-    public class Type11m3f_C054 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1535580
-        public void Equals(){} // RVA: 0x1535990
-        public void GetHashCode(){} // RVA: 0x1535B70
-        public void op_Implicit(){} // RVA: 0x1535D60
-        public void CompareBaseObjects(){} // RVA: 0x1536170
-        public void IsNativeObjectAlive(){} // RVA: 0x1536580
-        public void GetCachedPtr(){} // RVA: 0x1536990
-        public void get_name(){} // RVA: 0x1536B80
+        public void GetInstanceID(){} // RVA: 0x17EAFC0
+        public void Equals(){} // RVA: 0x17EB2E0
+        public void GetHashCode(){} // RVA: 0x17EB600
+        public void op_Implicit(){} // RVA: 0x17EB920
+        public void CompareBaseObjects(){} // RVA: 0x17EBC40
+        public void IsNativeObjectAlive(){} // RVA: 0x17EBF60
+        public void GetCachedPtr(){} // RVA: 0x17EC280
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1536F90
-        public void Destroy(){} // RVA: 0x15373A0
+        public void Initialize(){} // RVA: 0x17EC5A0
+        public void Instantiate(){} // RVA: 0x17EC8C0
     }
 
-    /// <summary>Originally: ÎÍÎÏÍÏÎÍÌÏÌÎÏÏÎÌÌÍÍÌÌÌÏ</summary>
-    public class Type11m4f_8012 : Object
+    /// <summary>Originally: ÏÎÍÍÏÍÍÍÏÏÎÍÌÌÌÍÍÌÎÌÍÏÌ</summary>
+    public class Type10m2f_A07C : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x16020C0
-        public void Equals(){} // RVA: 0x1602100
-        public void GetHashCode(){} // RVA: 0x1602140
-        public void op_Implicit(){} // RVA: 0x1602340
-        public void CompareBaseObjects(){} // RVA: 0x16020C0
-        public void IsNativeObjectAlive(){} // RVA: 0x16023F0
-        public void GetCachedPtr(){} // RVA: 0x1602680
-        public void get_name(){} // RVA: 0x16026F0
-        public void set_name(){} // RVA: 0x1602980
+        public void GetInstanceID(){} // RVA: 0x17B9900
+        public void Equals(){} // RVA: 0x17B9900
+        public void GetHashCode(){} // RVA: 0x17B9900
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1602BC0
+        public void Initialize(){} // RVA: 0x17B9900
+        public void IsNativeObjectAlive(){} // RVA: 0x17B9900
+        public void GetCachedPtr(){} // RVA: 0x17B9900
+        public void get_name(){} // RVA: 0x17B9900
+        public void set_name(){} // RVA: 0x17B9900
+        public void Instantiate(){} // RVA: 0x17B9900
     }
 
-    /// <summary>Originally: ÎÌÎÎÌÎÏÍÍÏÎÌÍÌÌÏÎÎÎÎÏÍÌ</summary>
-    public class Type11m4f_EDA9 : Object
+    /// <summary>Originally: ÎÌÏÌÌÌÍÎÍÌÌÌÌÌÍÌÏÌÍÏÎÎÎ</summary>
+    public class Type10m2f_A49A : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156DB90
-        public void Equals(){} // RVA: 0x156DC70
-        public void GetHashCode(){} // RVA: 0x156DF90
-        public void op_Implicit(){} // RVA: 0x156E070
-        public void CompareBaseObjects(){} // RVA: 0x156E150
-        public void IsNativeObjectAlive(){} // RVA: 0x156E470
-        public void GetCachedPtr(){} // RVA: 0x156E790
+        public void GetInstanceID(){} // RVA: 0x16FE8A0
+        public void Equals(){} // RVA: 0x16FEB50
+        public void GetHashCode(){} // RVA: 0x16FEE00
+        public void op_Implicit(){} // RVA: 0x16FEF50
+        public void CompareBaseObjects(){} // RVA: 0x16FF200
+        public void IsNativeObjectAlive(){} // RVA: 0x16FF350
+        public void GetCachedPtr(){} // RVA: 0x16FF4A0
+        public void get_name(){} // RVA: 0x16FF5F0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156EAB0
-        public void Instantiate(){} // RVA: 0x156EDD0
-        public void Destroy(){} // RVA: 0x156F0F0
+        public void Initialize(){} // RVA: 0x16FF740
     }
 
-    /// <summary>Originally: ÌÏÍÏÍÏÎÍÍÎÏÏÏÌÌÍÏÎÍÏÏÍÏ</summary>
-    public class Type11m5f_94D0 : Object
+    /// <summary>Originally: ÎÎÍÌÍÏÍÎÍÎÍÍÎÌÌÎÏÌÌÎÏÍÏ</summary>
+    public class Type10m2f_B0C7 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1552BA0
-        public void Equals(){} // RVA: 0x1552BE0
-        public void GetHashCode(){} // RVA: 0x1552D40
-        public void op_Implicit(){} // RVA: 0x1552D80
-        public void CompareBaseObjects(){} // RVA: 0x1553190
-        public void IsNativeObjectAlive(){} // RVA: 0x15532F0
-        public void GetCachedPtr(){} // RVA: 0x1552BA0
-        public void get_name(){} // RVA: 0x1552D40
-        public void set_name(){} // RVA: 0x1553320
+        public void GetInstanceID(){} // RVA: 0x17E8630
+        public void Equals(){} // RVA: 0x17E8630
+        public void GetHashCode(){} // RVA: 0x17E8630
+        public void op_Implicit(){} // RVA: 0x17E8630
+        public void CompareBaseObjects(){} // RVA: 0x17E8630
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1552BA0
+        public void Initialize(){} // RVA: 0x17E8630
+        public void get_name(){} // RVA: 0x17E8630
+        public void set_name(){} // RVA: 0x17E8630
+        public void Instantiate(){} // RVA: 0x17E8630
     }
 
-    /// <summary>Originally: ÌÍÌÎÍÌÌÍÌÌÏÏÍÎÍÍÌÌÎÎÍÏÏ</summary>
-    public class Type11m6f_C116 : Object
+    /// <summary>Originally: ÍÍÎÎÍÏÍÍÍÍÍÎÏÏÏÍÌÍÎÏÌÍÍ</summary>
+    public class Type10m2f_B701 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_F7C;
 
         // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17ED340
+        public void Equals(){} // RVA: 0x17ED560
+        public void GetHashCode(){} // RVA: 0x17ED780
+        public void op_Implicit(){} // RVA: 0x17ED9A0
+        public void CompareBaseObjects(){} // RVA: 0x17EDBC0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15C1B50
-        public void Equals(){} // RVA: 0x15C1EC0
-        public void op_Implicit(){} // RVA: 0x15C2080
-        public void CompareBaseObjects(){} // RVA: 0xF73960
-        public void IsNativeObjectAlive(){} // RVA: 0xF73960
-        public void GetCachedPtr(){} // RVA: 0x15C23F0
-        public void get_name(){} // RVA: 0xF73960
-        public void set_name(){} // RVA: 0x15C2730
-        public void Instantiate(){} // RVA: 0x15C28F0
-        public void Destroy(){} // RVA: 0xF73960
+        public void Initialize(){} // RVA: 0x17EDDE0
+        public void get_name(){} // RVA: 0x17EE000
+        public void set_name(){} // RVA: 0x17EE220
+        public void Instantiate(){} // RVA: 0x17EE440
     }
 
-    /// <summary>Originally: ÌÌÏÏÍÍÏÏÍÌÏÌÏÍÌÎÍÍÎÍÍÍÍ</summary>
-    public class Type12m5f_3988 : Object
+    /// <summary>Originally: ÌÌÏÏÎÌÎÌÎÏÍÌÏÏÌÏÍÏÌÏÏÎÌ</summary>
+    public class Type10m2f_C414 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1590610
-        public void Equals(){} // RVA: 0x1590700
-        public void GetHashCode(){} // RVA: 0x15908C0
-        public void op_Implicit(){} // RVA: 0x15909B0
-        public void CompareBaseObjects(){} // RVA: 0x1590AA0
-        public void IsNativeObjectAlive(){} // RVA: 0x1590C60
-        public void GetCachedPtr(){} // RVA: 0x1591070
-        public void get_name(){} // RVA: 0x1591160
-        public void set_name(){} // RVA: 0x1591320
-        public void Instantiate(){} // RVA: 0x15914E0
+        public void GetInstanceID(){} // RVA: 0x16C4190
+        public void Equals(){} // RVA: 0x16C4440
+        public void GetHashCode(){} // RVA: 0x16C4BD0
+        public void op_Implicit(){} // RVA: 0x16C53B0
+        public void CompareBaseObjects(){} // RVA: 0x16C5660
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15916A0
+        public void Initialize(){} // RVA: 0x16C5E30
+        public void get_name(){} // RVA: 0x16C60E0
+        public void set_name(){} // RVA: 0x16C6390
+        public void Instantiate(){} // RVA: 0x16C6B70
     }
 
-    /// <summary>Originally: ÏÏÎÎÍÏÎÏÎÏÏÍÌÌÌÎÍÌÌÍÏÏÌ</summary>
-    public class Type14m5f_DF0E : Object
+    /// <summary>Originally: ÌÎÎÌÎÏÎÌÌÏÎÏÎÍÏÏÏÏÎÌÌÏÌ</summary>
+    public class Type10m2f_EA2C : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1602DC0
-        public void Equals(){} // RVA: 0x1602E70
-        public void GetHashCode(){} // RVA: 0x1602F20
-        public void op_Implicit(){} // RVA: 0x1602F80
-        public void CompareBaseObjects(){} // RVA: 0x16031F0
-        public void IsNativeObjectAlive(){} // RVA: 0x1603250
+        public void GetInstanceID(){} // RVA: 0x16C07B0
+        public void Equals(){} // RVA: 0x16C0F30
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1603450
-        public void set_name(){} // RVA: 0x16036C0
-        public void Instantiate(){} // RVA: 0x1603930
-        public void Destroy(){} // RVA: 0x1603AF0
-        public void DestroyImmediate(){} // RVA: 0x1603D80
-        public void FindObjectsOfType(){} // RVA: 0x1604010
-        public void FindObjectsByType(){} // RVA: 0x1604080
+        public void Initialize(){} // RVA: 0x16C16B0
+        public void CompareBaseObjects(){} // RVA: 0x16C1E30
+        public void IsNativeObjectAlive(){} // RVA: 0x16C20E0
+        public void GetCachedPtr(){} // RVA: 0x16C2860
+        public void get_name(){} // RVA: 0x16C2FE0
+        public void set_name(){} // RVA: 0x16C3760
+        public void Instantiate(){} // RVA: 0x16C3A10
     }
 
-    /// <summary>Originally: ÏÌÎÍÍÍÎÌÍÌÎÏÌÌÍÍÌÌÍÏÍÏÍ</summary>
-    public class Type17m3f_0459 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x154A150
-        public void Equals(){} // RVA: 0xB44D60
-        public void GetHashCode(){} // RVA: 0x154A400
-        public void op_Implicit(){} // RVA: 0x154A4D0
-        public void CompareBaseObjects(){} // RVA: 0x154A820
-        public void IsNativeObjectAlive(){} // RVA: 0x154AA20
-        public void GetCachedPtr(){} // RVA: 0x154AAD0
-        public void get_name(){} // RVA: 0x154AE90
-        public void set_name(){} // RVA: 0x154B0D0
-        public void Instantiate(){} // RVA: 0x154B1A0
-        public void Destroy(){} // RVA: 0xB5DBF0
-        public void DestroyImmediate(){} // RVA: 0x154B1B0
-        public void FindObjectsOfType(){} // RVA: 0x154B500
-        public void .ctor(){} // RVA: 0x154B1A0
-        public void Initialize(){} // RVA: 0x154B850
-        public void get_hideFlags(){} // RVA: 0x154BB20
-        public void set_hideFlags(){} // RVA: 0xB44D60
-    }
-
-    /// <summary>Originally: ÍÎÌÌÌÍÏÏÎÌÍÌÏÏÎÏÍÍÍÍÌÎÎ</summary>
-    public class Type18m2f_5CAA : Object
+    /// <summary>Originally: ÌÏÌÎÎÍÎÍÍÍÍÏÌÎÍÎÌÌÌÎÎÎÌ</summary>
+    public class Type10m2f_F7F5 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1631550
-        public void Initialize(){} // RVA: 0x1630EB0
-        public void Equals(){} // RVA: 0x1631760
-        public void op_Implicit(){} // RVA: 0x1631020
-        public void CompareBaseObjects(){} // RVA: 0x1631070
-        public void IsNativeObjectAlive(){} // RVA: 0x1631300
-        public void GetCachedPtr(){} // RVA: 0x1631380
-        public void get_name(){} // RVA: 0x1631230
-        public void Dispose(){} // RVA: 0x1631290
-        public void Cleanup(){} // RVA: 0x1631380
-        public void Destroy(){} // RVA: 0x16313E0
-        public void DestroyImmediate(){} // RVA: 0x1631230
-        public void FindObjectsOfType(){} // RVA: 0x1631870
-        public void FindObjectsByType(){} // RVA: 0x1631230
-        public void DontDestroyOnLoad(){} // RVA: 0x16314D0
-        public void get_hideFlags(){} // RVA: 0x16313E0
-        public void set_hideFlags(){} // RVA: 0x1631650
-        public void FindObjectOfType(){} // RVA: 0x1631230
-    }
-
-    /// <summary>Originally: ÌÎÌÎÍÍÏÍÌÏÌÏÍÏÍÏÌÏÌÏÌÌÎ</summary>
-    public class Type2m3f_BCFE : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x16321D0
-        public void .cctor(){} // RVA: 0x1632340
-    }
-
-    /// <summary>Originally: ÏÍÌÎÎÏÏÎÎÍÎÎÎÌÎÍÌÌÎÌÏÎÍ</summary>
-    public class Type3m6f_4062 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_5BA;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15FEAB0
-        public void Equals(){} // RVA: 0x15FF830
-        public void .cctor(){} // RVA: 0x16004D0
-    }
-
-    /// <summary>Originally: ÎÎÎÎÏÌÌÎÍÍÏÏÍÍÏÌÌÍÏÌÎÎÌ</summary>
-    public class Type7m1f_1BD4 : Object
-    {
-        public object _1BD4;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1541F20
-        public void Equals(){} // RVA: 0x1542020
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1542120
-        public void CompareBaseObjects(){} // RVA: 0x1542220
-        public void IsNativeObjectAlive(){} // RVA: 0x1542320
-        public void GetCachedPtr(){} // RVA: 0x1542420
-    }
-
-    /// <summary>Originally: ÍÍÎÍÍÎÍÍÏÏÎÌÎÎÎÍÏÌÏÎÏÍÍ</summary>
-    public class Type7m1f_4A96 : Object
-    {
-        public object _kInstanceID_None;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x153C690
-        public void Initialize(){} // RVA: 0xB5DBF0
-        public void Equals(){} // RVA: 0xB5DBF0
-        public void op_Implicit(){} // RVA: 0xB5DBF0
-        public void CompareBaseObjects(){} // RVA: 0xB5DBF0
-        public void IsNativeObjectAlive(){} // RVA: 0xB5DBF0
-        public void GetCachedPtr(){} // RVA: 0xB5DBF0
-    }
-
-    /// <summary>Originally: ÎÌÌÌÍÏÏÏÍÏÏÌÏÎÏÌÌÎÏÎÎÍÍ</summary>
-    public class Type7m1f_6071 : Object
-    {
-        public object _6071;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x152C9F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x152CC00
-        public void op_Implicit(){} // RVA: 0x152CE10
-        public void CompareBaseObjects(){} // RVA: 0x152D020
-        public void IsNativeObjectAlive(){} // RVA: 0x152D230
-        public void GetCachedPtr(){} // RVA: 0x152D440
-    }
-
-    /// <summary>Originally: ÌÎÍÏÌÌÏÌÎÍÏÍÍÎÏÌÏÏÍÍÎÏÍ</summary>
-    public class Type7m1f_75CE : Object
-    {
-        public object _75CE;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xEB0F90
+        public void GetInstanceID(){} // RVA: 0x10DF0F0
         public void Equals(){} // RVA: 0xEB0F90
+        public void GetHashCode(){} // RVA: 0x10DF0F0
+        public void op_Implicit(){} // RVA: 0x10DF0F0
+        public void CompareBaseObjects(){} // RVA: 0x10DF0F0
+        public void IsNativeObjectAlive(){} // RVA: 0x10DF0F0
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0xEB0F90
-        public void CompareBaseObjects(){} // RVA: 0xEB0F90
-        public void IsNativeObjectAlive(){} // RVA: 0xEB0F90
-        public void GetCachedPtr(){} // RVA: 0xEB0F90
+        public void set_name(){} // RVA: 0xEB0F90
+        public void Instantiate(){} // RVA: 0xEB0F90
     }
 
-    /// <summary>Originally: ÌÏÌÌÍÍÏÏÎÍÎÎÏÌÌÎÏÍÎÍÎÍÏ</summary>
-    public class Type7m1f_8498 : Object
+    /// <summary>Originally: ÏÎÌÏÎÍÏÏÏÍÍÎÌÌÌÌÏÌÍÍÏÏÎ</summary>
+    public class Type10m3f_9289 : Object
     {
-        public object _8498;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1570480
-        public void Equals(){} // RVA: 0x1570560
-        public void GetHashCode(){} // RVA: 0x1570640
+        public void GetInstanceID(){} // RVA: 0x1743F40
+        public void Equals(){} // RVA: 0x17440F0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1570720
-        public void IsNativeObjectAlive(){} // RVA: 0x1570800
-        public void GetCachedPtr(){} // RVA: 0x15708E0
+        public void Initialize(){} // RVA: 0x17440F0
+        public void CompareBaseObjects(){} // RVA: 0x1744160
+        public void IsNativeObjectAlive(){} // RVA: 0x17440F0
+        public void GetCachedPtr(){} // RVA: 0x17440F0
+        public void get_name(){} // RVA: 0x1744310
+        public void set_name(){} // RVA: 0x17440F0
+        public void Instantiate(){} // RVA: 0x17444C0
     }
 
-    /// <summary>Originally: ÍÏÏÍÌÌÎÌÍÎÏÌÏÎÏÌÌÍÎÍÍÏÎ</summary>
-    public class Type7m1f_890E : Object
+    /// <summary>Originally: ÌÍÍÎÏÎÌÏÏÎÎÍÍÏÎÍÏÍÏÏÍÏÌ</summary>
+    public class Type10m3f_97DD : Object
     {
-        public object _890E;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15469E0
-        public void Equals(){} // RVA: 0x1546AA0
-        public void GetHashCode(){} // RVA: 0x1546B60
-        public void op_Implicit(){} // RVA: 0x1546C20
-        public void CompareBaseObjects(){} // RVA: 0x1546CE0
-        public void IsNativeObjectAlive(){} // RVA: 0x1546DA0
         public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17CD2E0
+        public void Equals(){} // RVA: 0x17CD720
+        public void op_Implicit(){} // RVA: 0x17CDB60
+        public void CompareBaseObjects(){} // RVA: 0x17CE050
+        public void IsNativeObjectAlive(){} // RVA: 0x17CE490
+        public void GetCachedPtr(){} // RVA: 0x17CE970
+        public void get_name(){} // RVA: 0x17CEE60
+        public void set_name(){} // RVA: 0x17CF2A0
+        public void Instantiate(){} // RVA: 0x17CF790
     }
 
-    /// <summary>Originally: ÌÍÍÎÌÏÏÎÌÏÌÏÌÌÏÏÏÏÌÌÍÍÍ</summary>
-    public class Type7m1f_979C : Object
+    /// <summary>Originally: ÌÏÍÎÎÎÏÌÌÏÏÏÏÌÏÌÍÌÎÌÌÏÍ</summary>
+    public class Type11m1f_2DD0 : Object
     {
-        public object _979C;
+        public object _2DD0;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1570460
-        public void Equals(){} // RVA: 0x1570460
+        public void GetInstanceID(){} // RVA: 0x173FEE0
+        public void Equals(){} // RVA: 0x1740200
+        public void GetHashCode(){} // RVA: 0x1740640
+        public void op_Implicit(){} // RVA: 0x17407D0
+        public void CompareBaseObjects(){} // RVA: 0x17408A0
+        public void IsNativeObjectAlive(){} // RVA: 0x1740A30
+        public void GetCachedPtr(){} // RVA: 0x1740BF0
+        public void get_name(){} // RVA: 0x1740CC0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1570460
-        public void CompareBaseObjects(){} // RVA: 0x1570460
-        public void IsNativeObjectAlive(){} // RVA: 0x1570460
-        public void GetCachedPtr(){} // RVA: 0x1570460
+        public void Initialize(){} // RVA: 0x1740D90
+        public void Destroy(){} // RVA: 0x1740F60
     }
 
-    /// <summary>Originally: ÏÎÌÏÌÎÍÎÍÌÍÍÌÌÎÍÌÏÍÍÏÍÎ</summary>
-    public class Type7m2f_1546 : Object
+    /// <summary>Originally: ÎÎÏÍÌÎÍÌÏÎÎÍÎÍÎÍÍÌÌÍÎÏÎ</summary>
+    public class Type11m1f_AA38 : Object
+    {
+        public object _aA38;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1765110
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x10AF7D0
+        public void op_Implicit(){} // RVA: 0x1765190
+        public void CompareBaseObjects(){} // RVA: 0x10AF7D0
+        public void IsNativeObjectAlive(){} // RVA: 0x1765210
+        public void GetCachedPtr(){} // RVA: 0x1765290
+        public void get_name(){} // RVA: 0x1765310
+        public void set_name(){} // RVA: 0x1765390
+        public void Instantiate(){} // RVA: 0x10AF7D0
+        public void Destroy(){} // RVA: 0x10AF7D0
+    }
+
+    /// <summary>Originally: ÎÍÌÎÍÍÌÎÎÌÍÏÏÏÍÎÎÏÌÍÏÏÏ</summary>
+    public class Type11m2f_08F1 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1550C50
-        public void Equals(){} // RVA: 0x1550CF0
-        public void GetHashCode(){} // RVA: 0x1550D90
-        public void op_Implicit(){} // RVA: 0x1550E30
+        public void GetInstanceID(){} // RVA: 0x16F5010
+        public void Equals(){} // RVA: 0x16F59B0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1550ED0
-        public void GetCachedPtr(){} // RVA: 0x1550F70
+        public void Initialize(){} // RVA: 0x16F5DC0
+        public void CompareBaseObjects(){} // RVA: 0x16F61F0
+        public void IsNativeObjectAlive(){} // RVA: 0x16F6BF0
+        public void GetCachedPtr(){} // RVA: 0x16F75F0
+        public void get_name(){} // RVA: 0x16F7A30
+        public void set_name(){} // RVA: 0x16F8420
+        public void Instantiate(){} // RVA: 0x16F8E20
+        public void Destroy(){} // RVA: 0x16F9260
     }
 
-    /// <summary>Originally: ÏÌÏÍÍÎÎÍÎÍÍÏÍÌÏÏÎÍÍÎÍÍÌ</summary>
-    public class Type7m2f_20C8 : Object
+    /// <summary>Originally: ÎÌÎÎÎÎÏÌÌÍÍÏÌÎÏÎÌÌÌÎÎÏÌ</summary>
+    public class Type11m2f_6AAD : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F7FB0
-        public void Equals(){} // RVA: 0x15F8060
+        public void GetInstanceID(){} // RVA: 0x16C01B0
+        public void Equals(){} // RVA: 0x16C02B0
+        public void GetHashCode(){} // RVA: 0x16C03B0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F8110
-        public void CompareBaseObjects(){} // RVA: 0x15F81C0
-        public void IsNativeObjectAlive(){} // RVA: 0x15F8270
-        public void GetCachedPtr(){} // RVA: 0x15F8320
+        public void Initialize(){} // RVA: 0x14A7950
+        public void IsNativeObjectAlive(){} // RVA: 0x16C04B0
+        public void GetCachedPtr(){} // RVA: 0x16C05B0
+        public void get_name(){} // RVA: 0x14A7950
+        public void set_name(){} // RVA: 0x16C06B0
+        public void Instantiate(){} // RVA: 0x14A7950
+        public void Destroy(){} // RVA: 0x14A7950
     }
 
-    /// <summary>Originally: ÎÌÏÌÎÌÍÍÌÍÌÍÎÎÏÏÍÏÍÎÎÌÏ</summary>
-    public class Type7m2f_2FAB : Object
+    /// <summary>Originally: ÌÌÌÎÍÏÎÎÌÏÏÏÎÍÌÍÎÍÎÏÎÏÏ</summary>
+    public class Type11m2f_7B41 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1504F70
-        public void Equals(){} // RVA: 0x15054C0
+        public void GetInstanceID(){} // RVA: 0x177ED40
+        public void Equals(){} // RVA: 0x14A7950
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1505A40
-        public void CompareBaseObjects(){} // RVA: 0x1505FD0
-        public void IsNativeObjectAlive(){} // RVA: 0x1506510
-        public void GetCachedPtr(){} // RVA: 0x1506AA0
+        public void Initialize(){} // RVA: 0x14A7950
+        public void CompareBaseObjects(){} // RVA: 0x177EED0
+        public void IsNativeObjectAlive(){} // RVA: 0x14A7950
+        public void GetCachedPtr(){} // RVA: 0x177F060
+        public void get_name(){} // RVA: 0x177F1F0
+        public void set_name(){} // RVA: 0x177F380
+        public void Instantiate(){} // RVA: 0x177F510
+        public void Destroy(){} // RVA: 0x177F6A0
     }
 
-    /// <summary>Originally: ÌÌÌÌÏÍÏÎÌÏÏÎÍÍÏÍÎÍÍÍÎÌÏ</summary>
-    public class Type7m2f_71C8 : Object
+    /// <summary>Originally: ÎÌÏÎÌÎÎÍÎÏÍÏÎÎÌÌÍÏÌÏÍÌÎ</summary>
+    public class Type11m2f_CC6A : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x161F300
-        public void Equals(){} // RVA: 0x161F430
-        public void GetHashCode(){} // RVA: 0x161F560
-        public void op_Implicit(){} // RVA: 0x161F690
+        public void GetInstanceID(){} // RVA: 0x17FE760
+        public void Equals(){} // RVA: 0x17FEBA0
+        public void GetHashCode(){} // RVA: 0x17FEBA0
+        public void op_Implicit(){} // RVA: 0x17FEBC0
+        public void CompareBaseObjects(){} // RVA: 0x17FEBA0
+        public void IsNativeObjectAlive(){} // RVA: 0x17FF000
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x161F7C0
-        public void GetCachedPtr(){} // RVA: 0x161F8F0
+        public void Initialize(){} // RVA: 0x17FF440
+        public void set_name(){} // RVA: 0x17FEBA0
+        public void Instantiate(){} // RVA: 0x17FEBA0
+        public void Destroy(){} // RVA: 0x17FF880
     }
 
-    /// <summary>Originally: ÌÎÎÏÎÍÍÌÍÎÏÍÎÏÏÏÍÏÌÏÌÎÌ</summary>
-    public class Type7m2f_9D34 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1582520
-        public void Equals(){} // RVA: 0x15828E0
-        public void GetHashCode(){} // RVA: 0x1582CA0
-        public void op_Implicit(){} // RVA: 0x1583060
-        public void CompareBaseObjects(){} // RVA: 0x1583420
-        public void IsNativeObjectAlive(){} // RVA: 0x15837E0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÍÎÏÏÌÌÍÍÍÍÏÎÎÍÍÏÎÍÍÍÌÌÍ</summary>
-    public class Type7m2f_A32E : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1581F40
-        public void Equals(){} // RVA: 0x1581FE0
-        public void GetHashCode(){} // RVA: 0x1582190
-        public void op_Implicit(){} // RVA: 0x1582340
-        public void CompareBaseObjects(){} // RVA: 0x15823E0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1582480
-    }
-
-    /// <summary>Originally: ÎÌÏÎÎÍÌÎÎÌÏÎÏÌÎÎÏÌÍÎÌÏÌ</summary>
-    public class Type7m2f_AF50 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1563960
-        public void Equals(){} // RVA: 0x1564170
-        public void GetHashCode(){} // RVA: 0x1564980
-        public void op_Implicit(){} // RVA: 0x1565190
-        public void CompareBaseObjects(){} // RVA: 0x15659A0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15661B0
-    }
-
-    /// <summary>Originally: ÍÌÎÌÎÌÎÌÎÎÏÌÏÎÍÍÌÌÏÍÍÎÌ</summary>
-    public class Type7m2f_C4CD : Object
+    /// <summary>Originally: ÌÎÌÍÎÌÌÏÏÎÍÏÌÍÏÍÎÍÍÎÏÌÌ</summary>
+    public class Type11m2f_E565 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F5690
-        public void Equals(){} // RVA: 0x15F5820
-        public void op_Implicit(){} // RVA: 0x15F59B0
-        public void CompareBaseObjects(){} // RVA: 0x15F5B40
-        public void IsNativeObjectAlive(){} // RVA: 0x15F5CD0
-        public void GetCachedPtr(){} // RVA: 0x15F5E60
+        public void Initialize(){} // RVA: 0x16FA7D0
+        public void Equals(){} // RVA: 0x16FAC10
+        public void op_Implicit(){} // RVA: 0x16FB050
+        public void CompareBaseObjects(){} // RVA: 0x16FB460
+        public void IsNativeObjectAlive(){} // RVA: 0x16FBDF0
+        public void GetCachedPtr(){} // RVA: 0x16FC7E0
+        public void get_name(){} // RVA: 0x16FCC20
+        public void set_name(){} // RVA: 0x16FD060
+        public void Instantiate(){} // RVA: 0x16FDA60
+        public void Destroy(){} // RVA: 0x16FDEA0
     }
 
-    /// <summary>Originally: ÏÌÎÎÎÎÏÎÍÌÍÎÎÍÏÍÍÏÏÍÏÌÍ</summary>
-    public class Type7m2f_CAC2 : Object
+    /// <summary>Originally: ÍÍÍÌÎÌÎÍÏÌÍÎÍÌÏÍÍÎÏÍÎÏÏ</summary>
+    public class Type11m3f_13AC : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17FDED0
+        public void Equals(){} // RVA: 0x149CB60
+        public void op_Implicit(){} // RVA: 0x17FDF40
+        public void CompareBaseObjects(){} // RVA: 0x17FE130
+        public void IsNativeObjectAlive(){} // RVA: 0x17FE320
+        public void GetCachedPtr(){} // RVA: 0x17FDED0
+        public void get_name(){} // RVA: 0x17FDED0
+        public void set_name(){} // RVA: 0x17FE510
+        public void Instantiate(){} // RVA: 0x149CB60
+        public void Destroy(){} // RVA: 0x149CB60
+    }
+
+    /// <summary>Originally: ÍÍÏÌÍÏÍÍÏÎÎÎÎÍÏÎÎÍÏÏÏÌÍ</summary>
+    public class Type11m3f_944D : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16A1ED0
+        public void Equals(){} // RVA: 0x16A1ED0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x16A1EF0
+        public void CompareBaseObjects(){} // RVA: 0x16A1ED0
+        public void IsNativeObjectAlive(){} // RVA: 0x16A1ED0
+        public void GetCachedPtr(){} // RVA: 0x16A1FC0
+        public void get_name(){} // RVA: 0x16A2090
+        public void set_name(){} // RVA: 0x16A2160
+        public void Instantiate(){} // RVA: 0x16A1ED0
+        public void Destroy(){} // RVA: 0x16A2230
+    }
+
+    /// <summary>Originally: ÌÌÎÎÎÎÌÎÍÍÌÍÍÌÎÏÏÌÌÌÌÌÍ</summary>
+    public class Type11m3f_9655 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17CB940
+        public void Equals(){} // RVA: 0x17CBA60
+        public void GetHashCode(){} // RVA: 0x17CBB80
+        public void op_Implicit(){} // RVA: 0x17CBCA0
+        public void CompareBaseObjects(){} // RVA: 0x17CBDC0
+        public void IsNativeObjectAlive(){} // RVA: 0xF15890
+        public void GetCachedPtr(){} // RVA: 0xF15890
+        public void get_name(){} // RVA: 0x17CBEE0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0xF15890
+        public void Destroy(){} // RVA: 0x17CC000
+    }
+
+    /// <summary>Originally: ÌÍÌÎÎÏÎÏÍÌÍÍÌÍÎÍÎÍÍÍÍÎÏ</summary>
+    public class Type11m3f_B845 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17DA320
+        public void Equals(){} // RVA: 0x17DA540
+        public void GetHashCode(){} // RVA: 0x17DA540
+        public void op_Implicit(){} // RVA: 0x17DA540
+        public void CompareBaseObjects(){} // RVA: 0x17DA5A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17DA540
+        public void get_name(){} // RVA: 0x17DA7D0
+        public void set_name(){} // RVA: 0x17DA540
+        public void Instantiate(){} // RVA: 0x17DA540
+        public void Destroy(){} // RVA: 0x17DA9F0
+    }
+
+    /// <summary>Originally: ÎÎÏÍÌÌÌÎÌÏÏÌÍÍÎÏÏÏÎÏÏÏÌ</summary>
+    public class Type11m4f_DE9B : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x179B550
+        public void Equals(){} // RVA: 0x179B610
+        public void GetHashCode(){} // RVA: 0x179B6D0
+        public void op_Implicit(){} // RVA: 0x179B8A0
+        public void CompareBaseObjects(){} // RVA: 0x179B960
+        public void IsNativeObjectAlive(){} // RVA: 0x179BA20
+        public void GetCachedPtr(){} // RVA: 0x179BBF0
+        public void get_name(){} // RVA: 0x179BCB0
+        public void set_name(){} // RVA: 0x179BD70
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x179BE30
+    }
+
+    /// <summary>Originally: ÍÌÎÏÎÍÏÍÍÌÌÍÌÏÍÌÍÌÌÍÌÍÎ</summary>
+    public class Type12m1f_8D4B : Object
+    {
+        public object _8D4B;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x16BACC0
+        public void Equals(){} // RVA: 0x16BACC0
+        public void op_Implicit(){} // RVA: 0x16BACF0
+        public void CompareBaseObjects(){} // RVA: 0x16BACF0
+        public void IsNativeObjectAlive(){} // RVA: 0x16BACC0
+        public void GetCachedPtr(){} // RVA: 0x16BACC0
+        public void get_name(){} // RVA: 0x16BACF0
+        public void set_name(){} // RVA: 0x16BACF0
+        public void Instantiate(){} // RVA: 0x16BACC0
+        public void Destroy(){} // RVA: 0x16BACF0
+        public void DestroyImmediate(){} // RVA: 0x16BACC0
+    }
+
+    /// <summary>Originally: ÍÌÍÏÎÍÏÏÎÍÏÍÍÏÌÎÏÍÎÍÏÌÍ</summary>
+    public class Type12m1f_F65E : Object
+    {
+        public object _kInstanceID_None;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x170FC10
+        public void Equals(){} // RVA: 0x170FE20
+        public void GetHashCode(){} // RVA: 0x170FE60
+        public void op_Implicit(){} // RVA: 0x170FEA0
+        public void CompareBaseObjects(){} // RVA: 0x170FEE0
+        public void IsNativeObjectAlive(){} // RVA: 0x170FF20
+        public void GetCachedPtr(){} // RVA: 0x1710130
+        public void get_name(){} // RVA: 0x1710170
+        public void set_name(){} // RVA: 0x17101B0
+        public void Instantiate(){} // RVA: 0x17103C0
+        public void Destroy(){} // RVA: 0x1710400
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÍÌÌÍÏÍÌÎÏÎÎÎÏÏÍÏÏÎÏÌÌÎÌ</summary>
+    public class Type12m3f_B057 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x178F490
+        public void Equals(){} // RVA: 0x178F600
+        public void GetHashCode(){} // RVA: 0x178F770
+        public void op_Implicit(){} // RVA: 0x178F8E0
+        public void CompareBaseObjects(){} // RVA: 0x178FA50
+        public void IsNativeObjectAlive(){} // RVA: 0x178FBC0
+        public void GetCachedPtr(){} // RVA: 0x178FD30
+        public void get_name(){} // RVA: 0x178FEA0
+        public void set_name(){} // RVA: 0x1790010
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1790180
+        public void DestroyImmediate(){} // RVA: 0x17902F0
+    }
+
+    /// <summary>Originally: ÎÎÏÍÌÌÎÏÏÍÌÌÌÌÌÌÏÌÌÎÏÎÎ</summary>
+    public class Type15m3f_81E0 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17C8C40
+        public void Equals(){} // RVA: 0x17C8C60
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0x17C8C80
+        public void .ctor(){} // RVA: 0x17C8CB0
+        public void Initialize(){} // RVA: 0x17C8E80
+        public void GetCachedPtr(){} // RVA: 0x17C8EA0
+        public void get_name(){} // RVA: 0x17C90B0
+        public void set_name(){} // RVA: 0x17C8C60
+        public void Instantiate(){} // RVA: 0x17C8E80
+        public void Destroy(){} // RVA: 0x17C90C0
+        public void DestroyImmediate(){} // RVA: 0x17C90E0
+        public void FindObjectsOfType(){} // RVA: 0xB700F0
+        public void FindObjectsByType(){} // RVA: 0x17C91B0
+        public void DontDestroyOnLoad(){} // RVA: 0x17C8C40
+    }
+
+    /// <summary>Originally: ÎÏÌÌÍÌÍÎÏÎÏÍÍÍÌÏÏÌÍÏÍÏÌ</summary>
+    public class Type17m1f_C5CA : Object
+    {
+        public object _c5CA;
+
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x1741E30
+        public void Cleanup(){} // RVA: 0x1741E90
+        public void Equals(){} // RVA: 0xB5DBF0
+        public void op_Implicit(){} // RVA: 0x87D3C0
+        public void CompareBaseObjects(){} // RVA: 0x1741F00
+        public void IsNativeObjectAlive(){} // RVA: 0x1741F70
+        public void GetCachedPtr(){} // RVA: 0x1741FE0
+        public void get_name(){} // RVA: 0xB5DBF0
+        public void Finalize(){} // RVA: 0x1742090
+        public void Instantiate(){} // RVA: 0x17421F0
+        public void .ctor(){} // RVA: 0x1742270
+        public void Initialize(){} // RVA: 0x17424E0
+        public void FindObjectsOfType(){} // RVA: 0xB43310
+        public void FindObjectsByType(){} // RVA: 0x1742540
+        public void DontDestroyOnLoad(){} // RVA: 0x1742630
+        public void get_hideFlags(){} // RVA: 0x17426B0
+        public void set_hideFlags(){} // RVA: 0x1742760
+    }
+
+    /// <summary>Originally: ÏÍÏÍÏÍÏÏÏÌÍÏÌÌÎÍÏÍÏÏÎÌÎ</summary>
+    public class Type17m3f_A607 : Object
+    {
+        public object _a607;
+        public object _a6072;
+        public object _a6073;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB70100
+        public void Equals(){} // RVA: 0x175DDC0
+        public void GetHashCode(){} // RVA: 0x175E140
+        public void op_Implicit(){} // RVA: 0xB5DBF0
+        public void .ctor(){} // RVA: 0x175E8B0
+        public void Initialize(){} // RVA: 0x175E970
+        public void GetCachedPtr(){} // RVA: 0xB700F0
+        public void get_name(){} // RVA: 0xBA9BA0
+        public void set_name(){} // RVA: 0x175ECF0
+        public void Instantiate(){} // RVA: 0xB5DBF0
+        public void Destroy(){} // RVA: 0x175ED00
+        public void DestroyImmediate(){} // RVA: 0xB465B0
+        public void FindObjectsOfType(){} // RVA: 0xBA9BA0
+        public void FindObjectsByType(){} // RVA: 0x175F470
+        public void DontDestroyOnLoad(){} // RVA: 0x175ECF0
+        public void get_hideFlags(){} // RVA: 0x175F7F0
+        public void set_hideFlags(){} // RVA: 0x175ECF0
+    }
+
+    /// <summary>Originally: ÏÎÎÍÎÏÍÌÌÍÏÍÌÏÌÎÌÌÌÌÍÎÎ</summary>
+    public class Type2m1f_3657 : Object
+    {
+        public object _3657;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x178A4D0
+    }
+
+    /// <summary>Originally: ÌÏÌÌÌÎÌÌÍÌÏÍÍÍÌÏÏÎÍÌÏÏÎ</summary>
+    public class Type2m1f_39AF : Object
+    {
+        public object _39AF;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÎÎÍÍÏÎÍÎÎÎÏÌÏÎÌÌÎÏÏÌÌÍÌ</summary>
+    public class Type2m1f_E7B2 : Object
+    {
+        public object _e7B2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1742D90
+        public void .cctor(){} // RVA: 0x1743010
+    }
+
+    /// <summary>Originally: ÏÌÍÍÏÌÏÏÌÍÏÏÏÍÍÍÏÍÏÏÌÌÏ</summary>
+    public class Type5m2f_95F0 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1622240
-        public void Equals(){} // RVA: 0x1622370
-        public void GetHashCode(){} // RVA: 0x16224A0
-        public void op_Implicit(){} // RVA: 0x16225D0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1622700
-        public void GetCachedPtr(){} // RVA: 0x1622830
+        public void GetInstanceID(){} // RVA: 0x173F6B0
+        public void Equals(){} // RVA: 0x173F7B0
+        public void GetHashCode(){} // RVA: 0x173F9E0
+        public void op_Implicit(){} // RVA: 0x173FBC0
+        public void .cctor(){} // RVA: 0x173FCB0
     }
 
-    /// <summary>Originally: ÏÍÏÎÏÎÍÏÍÎÎÏÌÏÎÌÌÌÎÎÎÌÏ</summary>
-    public class Type8m1f_385C : Object
+    /// <summary>Originally: ÌÏÏÌÌÌÎÎÍÏÌÍÌÏÍÍÌÎÏÍÎÏÍ</summary>
+    public class Type6m6f_D83F : Object
     {
-        public object _385C;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_823;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1716270
+        public void Equals(){} // RVA: 0x1716600
+        public void GetHashCode(){} // RVA: 0x1716F40
+        public void op_Implicit(){} // RVA: 0x1717380
+        public void CompareBaseObjects(){} // RVA: 0x1717610
+        public void .cctor(){} // RVA: 0x17179E0
+    }
+
+    /// <summary>Originally: ÌÍÌÌÏÍÌÍÎÏÏÏÎÎÍÍÏÌÎÌÎÎÌ</summary>
+    public class Type7m1f_11C8 : Object
+    {
+        public object _11C8;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1745D20
+        public void Equals(){} // RVA: 0x1745DA0
+        public void GetHashCode(){} // RVA: 0x1745E20
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1745EA0
+        public void IsNativeObjectAlive(){} // RVA: 0x1745F20
+        public void GetCachedPtr(){} // RVA: 0x1745FA0
+    }
+
+    /// <summary>Originally: ÎÍÏÎÍÍÎÌÏÍÌÎÌÍÌÍÌÎÏÌÏÎÌ</summary>
+    public class Type7m1f_64CB : Object
+    {
+        public object _64CB;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17418D0
+        public void Equals(){} // RVA: 0x17419B0
+        public void GetHashCode(){} // RVA: 0x1741A90
+        public void op_Implicit(){} // RVA: 0x1741B70
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1741C50
+        public void GetCachedPtr(){} // RVA: 0x1741D30
+    }
+
+    /// <summary>Originally: ÌÏÌÏÎÎÎÌÌÍÏÌÎÎÏÍÍÏÎÌÌÏÎ</summary>
+    public class Type7m1f_9FDA : Object
+    {
+        public object _9FDA;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17832C0
+        public void Equals(){} // RVA: 0x1783370
+        public void GetHashCode(){} // RVA: 0x1783420
+        public void op_Implicit(){} // RVA: 0x17834D0
+        public void CompareBaseObjects(){} // RVA: 0x1783580
+        public void IsNativeObjectAlive(){} // RVA: 0x1783630
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÏÍÍÌÏÎÌÍÌÍÎÏÎÌÌÏÎÍÍÎÎÌÍ</summary>
+    public class Type7m1f_DA94 : Object
+    {
+        public object _dA94;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1767570
+        public void Equals(){} // RVA: 0x1767620
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17676D0
+        public void CompareBaseObjects(){} // RVA: 0x1767780
+        public void IsNativeObjectAlive(){} // RVA: 0x1767830
+        public void GetCachedPtr(){} // RVA: 0x17678E0
+    }
+
+    /// <summary>Originally: ÌÍÎÎÌÎÍÌÌÌÏÏÏÏÌÏÌÌÍÍÍÏÎ</summary>
+    public class Type7m1f_DB4B : Object
+    {
+        public object _dB4B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16B4AA0
+        public void Equals(){} // RVA: 0x16B5B00
+        public void GetHashCode(){} // RVA: 0x16B6B60
+        public void op_Implicit(){} // RVA: 0x16B7BB0
+        public void CompareBaseObjects(){} // RVA: 0x16B8C10
+        public void IsNativeObjectAlive(){} // RVA: 0x16B9C70
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÌÎÍÎÎÎÎÎÏÌÍÌÎÎÏÍÎÎÍÏÌÏÏ</summary>
+    public class Type7m1f_F8E8 : Object
+    {
+        public object _f8E8;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17836E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1783790
+        public void op_Implicit(){} // RVA: 0x1783840
+        public void CompareBaseObjects(){} // RVA: 0x17838F0
+        public void IsNativeObjectAlive(){} // RVA: 0x17839A0
+        public void GetCachedPtr(){} // RVA: 0x1783A50
+    }
+
+    /// <summary>Originally: ÍÌÏÏÍÏÍÌÏÌÌÌÎÏÍÌÍÎÌÏÌÎÍ</summary>
+    public class Type7m2f_901D : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17B28B0
+        public void Equals(){} // RVA: 0x17B2AD0
+        public void GetHashCode(){} // RVA: 0x17B2CF0
+        public void op_Implicit(){} // RVA: 0x17B2F10
+        public void CompareBaseObjects(){} // RVA: 0x17B3130
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17B3350
+    }
+
+    /// <summary>Originally: ÍÍÍÍÌÍÎÎÏÎÎÏÌÏÌÎÍÍÍÍÍÎÍ</summary>
+    public class Type7m2f_A057 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17E9D40
+        public void Equals(){} // RVA: 0x17E9D40
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17E9D40
+        public void CompareBaseObjects(){} // RVA: 0x17E9D40
+        public void IsNativeObjectAlive(){} // RVA: 0x17E9D40
+        public void GetCachedPtr(){} // RVA: 0x17E9D40
+    }
+
+    /// <summary>Originally: ÎÌÍÌÍÎÍÍÏÌÏÌÌÍÍÌÎÌÏÍÎÌÍ</summary>
+    public class Type7m3f_C52C : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17E8A40
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17E8BD0
+        public void op_Implicit(){} // RVA: 0x17E8D60
+        public void CompareBaseObjects(){} // RVA: 0x17E8EF0
+        public void IsNativeObjectAlive(){} // RVA: 0x17E9080
+        public void GetCachedPtr(){} // RVA: 0x17E9210
+    }
+
+    /// <summary>Originally: ÍÌÎÍÍÎÌÍÏÎÎÎÏÌÌÌÎÍÎÎÍÏÌ</summary>
+    public class Type8m1f_4983 : Object
+    {
+        public object _4983;
 
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0xEB0F90
         public void Equals(){} // RVA: 0xEB0F90
         public void GetHashCode(){} // RVA: 0xEB0F90
-        public void op_Implicit(){} // RVA: 0xEB0F90
-        public void CompareBaseObjects(){} // RVA: 0xEB0F90
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0xEB0F90
+        public void IsNativeObjectAlive(){} // RVA: 0xEB0F90
+        public void GetCachedPtr(){} // RVA: 0xEB0F90
         public void get_name(){} // RVA: 0xEB0F90
     }
 
-    /// <summary>Originally: ÏÍÌÌÍÍÏÏÍÍÏÏÏÎÍÏÌÌÍÏÏÎÌ</summary>
-    public class Type8m1f_55BD : Object
+    /// <summary>Originally: ÍÎÏÏÌÌÏÎÍÎÏÏÏÏÌÍÎÌÍÍÏÍÌ</summary>
+    public class Type8m1f_89D0 : Object
     {
-        public object _55BD;
+        public object _89D0;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15B0220
+        public void GetInstanceID(){} // RVA: 0x1761C80
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15B02E0
-        public void op_Implicit(){} // RVA: 0x15B03A0
-        public void CompareBaseObjects(){} // RVA: 0x15B0460
-        public void IsNativeObjectAlive(){} // RVA: 0x15B0520
-        public void GetCachedPtr(){} // RVA: 0x15B05E0
-        public void get_name(){} // RVA: 0x15B06A0
+        public void Initialize(){} // RVA: 0x1761D30
+        public void op_Implicit(){} // RVA: 0x1761DE0
+        public void CompareBaseObjects(){} // RVA: 0x1761E90
+        public void IsNativeObjectAlive(){} // RVA: 0x1761F40
+        public void GetCachedPtr(){} // RVA: 0x1761FF0
+        public void get_name(){} // RVA: 0x17620A0
     }
 
-    /// <summary>Originally: ÌÍÏÍÌÏÍÏÌÍÏÍÍÎÎÏÌÍÎÍÏÍÌ</summary>
-    public class Type8m1f_6025 : Object
+    /// <summary>Originally: ÌÌÎÍÍÍÏÍÌÏÎÎÍÍÏÎÎÍÏÍÌÏÎ</summary>
+    public class Type8m2f_26D5 : Object
     {
-        public object _6025;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15400C0
-        public void Equals(){} // RVA: 0x1540120
-        public void GetHashCode(){} // RVA: 0x15401C0
+        public void GetInstanceID(){} // RVA: 0x17B82B0
+        public void Equals(){} // RVA: 0x17B85E0
+        public void GetHashCode(){} // RVA: 0x17B8910
+        public void op_Implicit(){} // RVA: 0x17B8C40
+        public void CompareBaseObjects(){} // RVA: 0x17B8F70
+        public void IsNativeObjectAlive(){} // RVA: 0x17B92A0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1540260
-        public void IsNativeObjectAlive(){} // RVA: 0x15402C0
-        public void GetCachedPtr(){} // RVA: 0x1540360
-        public void get_name(){} // RVA: 0x1540400
+        public void Initialize(){} // RVA: 0x17B95D0
     }
 
-    /// <summary>Originally: ÍÎÏÍÎÎÏÌÍÍÍÍÎÍÌÏÍÏÏÎÏÍÍ</summary>
-    public class Type8m1f_6D9F : Object
+    /// <summary>Originally: ÎÏÍÍÍÎÌÏÏÏÏÍÍÍÎÎÍÏÎÍÌÎÌ</summary>
+    public class Type8m2f_3813 : Object
     {
-        public object _6D9F;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
 
         // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17CAE40
+        public void Equals(){} // RVA: 0x17CAE40
+        public void GetHashCode(){} // RVA: 0x17CAE40
+        public void op_Implicit(){} // RVA: 0x17CAE40
+        public void CompareBaseObjects(){} // RVA: 0x17CAE40
+        public void IsNativeObjectAlive(){} // RVA: 0x17CAE40
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156A7A0
-        public void Equals(){} // RVA: 0x156A880
-        public void op_Implicit(){} // RVA: 0x156A960
-        public void CompareBaseObjects(){} // RVA: 0x156AA40
-        public void IsNativeObjectAlive(){} // RVA: 0x156AB20
-        public void GetCachedPtr(){} // RVA: 0x156AC00
-        public void get_name(){} // RVA: 0x156ACE0
+        public void Initialize(){} // RVA: 0x17CAE40
     }
 
-    /// <summary>Originally: ÏÏÍÍÏÍÏÌÏÌÍÌÎÍÌÍÎÎÎÍÏÎÎ</summary>
-    public class Type8m1f_7098 : Object
+    /// <summary>Originally: ÎÎÎÍÍÎÌÌÍÍÍÍÌÌÌÎÍÌÎÌÎÎÌ</summary>
+    public class Type8m2f_3BBA : Object
     {
-        public object _7098;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
 
         // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16ECC40
+        public void Equals(){} // RVA: 0x16ECF20
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15326E0
-        public void Equals(){} // RVA: 0x1532AC0
-        public void op_Implicit(){} // RVA: 0x1532EA0
-        public void CompareBaseObjects(){} // RVA: 0x1533280
-        public void IsNativeObjectAlive(){} // RVA: 0x1533660
-        public void GetCachedPtr(){} // RVA: 0x1533A40
-        public void get_name(){} // RVA: 0x1533E20
+        public void Initialize(){} // RVA: 0x16ED8F0
+        public void CompareBaseObjects(){} // RVA: 0x16EE260
+        public void IsNativeObjectAlive(){} // RVA: 0x16EE540
+        public void GetCachedPtr(){} // RVA: 0x16EE820
+        public void get_name(){} // RVA: 0x16EEB00
     }
 
-    /// <summary>Originally: ÌÎÎÎÌÍÌÎÏÌÍÍÌÏÍÎÏÎÌÌÍÌÍ</summary>
-    public class Type8m1f_7C08 : Object
+    /// <summary>Originally: ÍÍÎÌÎÏÍÎÌÌÎÎÌÌÎÏÎÍÏÎÍÌÍ</summary>
+    public class Type8m2f_55E1 : Object
     {
-        public object _7C08;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
 
         // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17BCC50
+        public void Equals(){} // RVA: 0x17BCD40
+        public void GetHashCode(){} // RVA: 0x17BCE30
+        public void op_Implicit(){} // RVA: 0x17BCF20
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156B1B0
-        public void Equals(){} // RVA: 0x156B220
-        public void op_Implicit(){} // RVA: 0x156B290
-        public void CompareBaseObjects(){} // RVA: 0x156B300
-        public void IsNativeObjectAlive(){} // RVA: 0x156B370
-        public void GetCachedPtr(){} // RVA: 0x156B3E0
-        public void get_name(){} // RVA: 0x156B450
+        public void Initialize(){} // RVA: 0x17BD010
+        public void GetCachedPtr(){} // RVA: 0x17BD100
+        public void get_name(){} // RVA: 0x17BD1F0
     }
 
-    /// <summary>Originally: ÎÍÍÎÌÌÍÎÍÎÌÌÎÌÎÏÏÏÍÏÍÏÌ</summary>
-    public class Type8m1f_DB56 : Object
+    /// <summary>Originally: ÎÎÌÎÍÍÌÏÍÌÍÏÏÌÎÌÏÏÍÍÌÎÎ</summary>
+    public class Type8m2f_5899 : Object
     {
-        public object _dB56;
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x158F590
-        public void Equals(){} // RVA: 0x158F640
+        public void GetInstanceID(){} // RVA: 0x17205B0
+        public void Equals(){} // RVA: 0x17205B0
+        public void GetHashCode(){} // RVA: 0x17205B0
+        public void op_Implicit(){} // RVA: 0x17205B0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x158F6F0
-        public void CompareBaseObjects(){} // RVA: 0x158F7A0
-        public void IsNativeObjectAlive(){} // RVA: 0x158F850
-        public void GetCachedPtr(){} // RVA: 0x158F900
-        public void get_name(){} // RVA: 0x158F9B0
+        public void Initialize(){} // RVA: 0x17205B0
+        public void GetCachedPtr(){} // RVA: 0x17205B0
+        public void get_name(){} // RVA: 0x17205B0
     }
 
-    /// <summary>Originally: ÎÎÍÏÌÌÎÍÎÍÏÏÏÎÌÌÌÏÍÌÍÌÍ</summary>
-    public class Type8m1f_FEC5 : Object
-    {
-        public object _fEC5;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1541740
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1541860
-        public void op_Implicit(){} // RVA: 0x1541980
-        public void CompareBaseObjects(){} // RVA: 0x1541AA0
-        public void IsNativeObjectAlive(){} // RVA: 0x1541BC0
-        public void GetCachedPtr(){} // RVA: 0x1541CE0
-        public void get_name(){} // RVA: 0x1541E00
-    }
-
-    /// <summary>Originally: ÏÎÌÌÍÎÍÌÏÌÎÎÎÍÎÎÏÍÏÌÌÌÍ</summary>
-    public class Type8m2f_460E : Object
+    /// <summary>Originally: ÎÎÌÌÌÎÍÎÎÍÌÎÏÏÎÌÍÎÍÏÌÌÍ</summary>
+    public class Type8m2f_753A : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15E65D0
-        public void Equals(){} // RVA: 0x15E6640
-        public void op_Implicit(){} // RVA: 0x15E66B0
-        public void CompareBaseObjects(){} // RVA: 0x15E6720
-        public void IsNativeObjectAlive(){} // RVA: 0x15E6790
-        public void GetCachedPtr(){} // RVA: 0x15E67F0
-        public void get_name(){} // RVA: 0x15E6860
+        public void Initialize(){} // RVA: 0x179F840
+        public void Equals(){} // RVA: 0x179F840
+        public void op_Implicit(){} // RVA: 0x179F840
+        public void CompareBaseObjects(){} // RVA: 0x179F840
+        public void IsNativeObjectAlive(){} // RVA: 0x179F840
+        public void GetCachedPtr(){} // RVA: 0x179F840
+        public void get_name(){} // RVA: 0x179F840
     }
 
-    /// <summary>Originally: ÍÍÏÍÌÌÍÍÎÏÏÎÍÌÎÍÎÍÏÌÌÏÎ</summary>
-    public class Type8m2f_4D74 : Object
+    /// <summary>Originally: ÏÌÌÍÎÍÏÏÏÍÍÏÎÍÏÏÍÌÎÌÏÍÌ</summary>
+    public class Type8m2f_9308 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1574040
-        public void Equals(){} // RVA: 0x1574040
-        public void op_Implicit(){} // RVA: 0x1574040
-        public void CompareBaseObjects(){} // RVA: 0x1574040
-        public void IsNativeObjectAlive(){} // RVA: 0x1574040
-        public void GetCachedPtr(){} // RVA: 0x1574040
-        public void get_name(){} // RVA: 0x1574040
+        public void Initialize(){} // RVA: 0x16F9690
+        public void Equals(){} // RVA: 0x16F98F0
+        public void op_Implicit(){} // RVA: 0x16F9BA0
+        public void CompareBaseObjects(){} // RVA: 0x16F9E50
+        public void IsNativeObjectAlive(){} // RVA: 0x16FA0B0
+        public void GetCachedPtr(){} // RVA: 0x16FA310
+        public void get_name(){} // RVA: 0x16FA570
     }
 
-    /// <summary>Originally: ÍÎÏÍÏÏÍÎÌÍÏÎÍÎÎÍÌÎÏÎÌÍÍ</summary>
-    public class Type8m2f_6190 : Object
+    /// <summary>Originally: ÍÎÍÌÍÌÍÌÎÏÍÎÎÍÍÎÌÍÎÏÏÍÌ</summary>
+    public class Type8m2f_B3F4 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F8410
-        public void Equals(){} // RVA: 0x15F8750
-        public void op_Implicit(){} // RVA: 0x15F8B40
-        public void CompareBaseObjects(){} // RVA: 0x15F8F30
-        public void IsNativeObjectAlive(){} // RVA: 0x15F9270
-        public void GetCachedPtr(){} // RVA: 0x15F9660
-        public void get_name(){} // RVA: 0x15F99A0
+        public void Initialize(){} // RVA: 0x17E8680
+        public void Equals(){} // RVA: 0x17E8740
+        public void op_Implicit(){} // RVA: 0x17E8800
+        public void CompareBaseObjects(){} // RVA: 0x17E8860
+        public void IsNativeObjectAlive(){} // RVA: 0x17E88C0
+        public void GetCachedPtr(){} // RVA: 0x17E8920
+        public void get_name(){} // RVA: 0x17E89E0
     }
 
-    /// <summary>Originally: ÏÍÌÍÌÍÌÏÌÎÎÍÍÍÍÏÎÌÏÍÍÍÍ</summary>
-    public class Type8m2f_6B4C : Object
+    /// <summary>Originally: ÏÎÍÏÍÎÌÎÌÌÍÍÏÎÍÍÏÎÏÎÍÌÍ</summary>
+    public class Type8m2f_BF73 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156F430
-        public void Equals(){} // RVA: 0x156F680
+        public void GetInstanceID(){} // RVA: 0x1700180
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156F8D0
-        public void CompareBaseObjects(){} // RVA: 0x156FB20
-        public void IsNativeObjectAlive(){} // RVA: 0x156FD70
-        public void GetCachedPtr(){} // RVA: 0x156FFC0
-        public void get_name(){} // RVA: 0x1570210
+        public void Initialize(){} // RVA: 0x1700240
+        public void op_Implicit(){} // RVA: 0x1700300
+        public void CompareBaseObjects(){} // RVA: 0x17003C0
+        public void IsNativeObjectAlive(){} // RVA: 0x1700480
+        public void GetCachedPtr(){} // RVA: 0x1700540
+        public void get_name(){} // RVA: 0x1700600
     }
 
-    /// <summary>Originally: ÎÎÍÎÍÌÎÏÏÏÌÍÏÍÏÌÍÍÏÏÏÍÌ</summary>
-    public class Type8m2f_7082 : Object
+    /// <summary>Originally: ÍÏÏÍÍÏÍÎÍÌÏÌÌÍÍÌÍÍÏÍÏÍÎ</summary>
+    public class Type8m2f_F6AA : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x177FD00
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1780090
+        public void op_Implicit(){} // RVA: 0x1780420
+        public void CompareBaseObjects(){} // RVA: 0x17807B0
+        public void IsNativeObjectAlive(){} // RVA: 0x1780B40
+        public void GetCachedPtr(){} // RVA: 0x1780ED0
+        public void get_name(){} // RVA: 0x1781260
+    }
+
+    /// <summary>Originally: ÏÌÍÍÌÎÌÎÍÌÌÌÍÏÌÎÍÌÎÎÌÎÌ</summary>
+    public class Type8m3f_6A4B : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16BC560
+        public void Equals(){} // RVA: 0x16BCCE0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x16BCFE0
+        public void CompareBaseObjects(){} // RVA: 0x16BD2E0
+        public void IsNativeObjectAlive(){} // RVA: 0x16BD5E0
+        public void GetCachedPtr(){} // RVA: 0x16BD8E0
+        public void get_name(){} // RVA: 0x16BE060
+    }
+
+    /// <summary>Originally: ÌÌÎÎÍÍÍÏÏÏÎÎÍÌÍÎÍÍÍÎÎÌÏ</summary>
+    public class Type8m3f_8814 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17B3570
+        public void Equals(){} // RVA: 0x17B3A60
+        public void GetHashCode(){} // RVA: 0x17B3F50
+        public void op_Implicit(){} // RVA: 0x17B4440
+        public void CompareBaseObjects(){} // RVA: 0x17B4550
+        public void IsNativeObjectAlive(){} // RVA: 0x17B4660
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17B4B50
+    }
+
+    /// <summary>Originally: ÏÎÎÏÍÏÎÌÏÎÌÍÍÏÎÍÎÏÎÍÏÍÏ</summary>
+    public class Type8m3f_BA84 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1782370
+        public void Equals(){} // RVA: 0x1782430
+        public void op_Implicit(){} // RVA: 0x17824F0
+        public void CompareBaseObjects(){} // RVA: 0x17825B0
+        public void IsNativeObjectAlive(){} // RVA: 0x1782670
+        public void GetCachedPtr(){} // RVA: 0x1782730
+        public void get_name(){} // RVA: 0x17827F0
+    }
+
+    /// <summary>Originally: ÌÌÌÌÏÌÎÍÍÌÎÏÎÎÏÎÎÌÍÎÍÏÎ</summary>
+    public class Type8m3f_D18C : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x16BAD20
+        public void Equals(){} // RVA: 0x16BB450
+        public void GetHashCode(){} // RVA: 0x16BBB70
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x16BBC20
+        public void IsNativeObjectAlive(){} // RVA: 0x16BC350
+        public void GetCachedPtr(){} // RVA: 0x16BC400
+        public void get_name(){} // RVA: 0x16BC4B0
+    }
+
+    /// <summary>Originally: ÌÏÍÏÎÏÎÎÌÏÏÏÏÎÍÌÎÎÏÎÌÏÎ</summary>
+    public class Type8m3f_D60F : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17FFCC0
+        public void Equals(){} // RVA: 0x17FFEC0
+        public void GetHashCode(){} // RVA: 0x17FFF80
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1800040
+        public void IsNativeObjectAlive(){} // RVA: 0x1800240
+        public void GetCachedPtr(){} // RVA: 0x1800440
+        public void get_name(){} // RVA: 0x1800500
+    }
+
+    /// <summary>Originally: ÏÌÎÍÍÏÍÎÎÏÍÎÍÎÌÍÌÍÌÏÍÎÎ</summary>
+    public class Type8m3f_FD47 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1737680
+        public void Initialize(){} // RVA: 0x1737E90
+        public void Equals(){} // RVA: 0x17383C0
+        public void op_Implicit(){} // RVA: 0x17388F0
+        public void CompareBaseObjects(){} // RVA: 0x1738E20
+        public void IsNativeObjectAlive(){} // RVA: 0x1739350
+        public void GetCachedPtr(){} // RVA: 0x1739880
+        public void get_name(){} // RVA: 0x1739DB0
+    }
+
+    /// <summary>Originally: ÏÌÎÍÎÎÌÌÎÌÍÏÎÌÍÎÍÏÍÎÌÏÌ</summary>
+    public class Type8m4f_2784 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1037E20
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17B2070
+        public void op_Implicit(){} // RVA: 0x17B2280
+        public void CompareBaseObjects(){} // RVA: 0x17B2490
+        public void IsNativeObjectAlive(){} // RVA: 0x1037E20
+        public void GetCachedPtr(){} // RVA: 0x1037E20
+        public void get_name(){} // RVA: 0x17B26A0
+    }
+
+    /// <summary>Originally: ÌÎÌÌÍÏÍÍÍÏÏÍÎÍÌÍÌÏÌÏÍÍÎ</summary>
+    public class Type8m4f_7915 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17B7350
+        public void Equals(){} // RVA: 0x17B7580
+        public void GetHashCode(){} // RVA: 0x17B77C0
+        public void op_Implicit(){} // RVA: 0x17B79F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17B7C20
+        public void GetCachedPtr(){} // RVA: 0x17B7E50
+        public void get_name(){} // RVA: 0x17B8080
+    }
+
+    /// <summary>Originally: ÎÍÎÌÍÎÎÍÍÏÌÌÏÎÍÌÌÍÌÌÍÏÎ</summary>
+    public class Type9m1f_1089 : Object
+    {
+        public object _1089;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1747050
+        public void Equals(){} // RVA: 0x17470E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1747170
+        public void CompareBaseObjects(){} // RVA: 0x1747200
+        public void IsNativeObjectAlive(){} // RVA: 0x1747290
+        public void GetCachedPtr(){} // RVA: 0x1747320
+        public void get_name(){} // RVA: 0x17473B0
+        public void set_name(){} // RVA: 0x1747440
+    }
+
+    /// <summary>Originally: ÏÍÌÎÌÍÏÌÍÌÌÍÌÏÎÏÌÎÍÍÏÎÍ</summary>
+    public class Type9m1f_510E : Object
+    {
+        public object _510E;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17BC450
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17BC550
+        public void op_Implicit(){} // RVA: 0x17BC650
+        public void CompareBaseObjects(){} // RVA: 0x17BC750
+        public void IsNativeObjectAlive(){} // RVA: 0x17BC850
+        public void GetCachedPtr(){} // RVA: 0x17BC950
+        public void get_name(){} // RVA: 0x17BCA50
+        public void set_name(){} // RVA: 0x17BCB50
+    }
+
+    /// <summary>Originally: ÎÍÎÍÎÏÍÎÎÌÎÍÍÍÏÏÌÎÏÌÍÎÏ</summary>
+    public class Type9m1f_7B03 : Object
+    {
+        public object _7B03;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x171D2B0
+        public void Equals(){} // RVA: 0x171D2B0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x171D2B0
+        public void CompareBaseObjects(){} // RVA: 0x171D2B0
+        public void IsNativeObjectAlive(){} // RVA: 0x171D2B0
+        public void GetCachedPtr(){} // RVA: 0x171D2B0
+        public void get_name(){} // RVA: 0x171D2B0
+        public void set_name(){} // RVA: 0x171D2B0
+    }
+
+    /// <summary>Originally: ÏÏÎÍÏÌÍÌÍÍÌÌÍÏÌÎÎÎÎÎÌÍÌ</summary>
+    public class Type9m1f_A7DA : Object
+    {
+        public object _a7DA;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17C0DF0
+        public void Equals(){} // RVA: 0x17C0ED0
+        public void GetHashCode(){} // RVA: 0x17C0FB0
+        public void op_Implicit(){} // RVA: 0x17C1090
+        public void CompareBaseObjects(){} // RVA: 0x17C1170
+        public void IsNativeObjectAlive(){} // RVA: 0x17C1250
+        public void GetCachedPtr(){} // RVA: 0x17C1330
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17C1410
+    }
+
+    /// <summary>Originally: ÏÍÌÏÍÌÍÌÍÌÏÏÌÏÍÏÎÌÍÍÍÎÌ</summary>
+    public class Type9m2f_1305 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17828B0
+        public void Equals(){} // RVA: 0x1782A80
+        public void GetHashCode(){} // RVA: 0x1782AE0
+        public void op_Implicit(){} // RVA: 0x1782B40
+        public void CompareBaseObjects(){} // RVA: 0x1782A80
+        public void IsNativeObjectAlive(){} // RVA: 0x1782D20
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1782F00
+        public void set_name(){} // RVA: 0x17830E0
+    }
+
+    /// <summary>Originally: ÎÎÌÏÌÍÎÍÌÌÏÌÌÎÎÍÍÌÎÎÎÎÌ</summary>
+    public class Type9m2f_18F7 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1550160
-        public void Equals(){} // RVA: 0x15502F0
-        public void op_Implicit(){} // RVA: 0x1550480
-        public void CompareBaseObjects(){} // RVA: 0x1550610
-        public void IsNativeObjectAlive(){} // RVA: 0x15507A0
-        public void GetCachedPtr(){} // RVA: 0x1550930
-        public void get_name(){} // RVA: 0x1550AC0
+        public void Initialize(){} // RVA: 0x179F840
+        public void Equals(){} // RVA: 0x179F840
+        public void op_Implicit(){} // RVA: 0x179F840
+        public void CompareBaseObjects(){} // RVA: 0x179F840
+        public void IsNativeObjectAlive(){} // RVA: 0x179F840
+        public void GetCachedPtr(){} // RVA: 0x179F840
+        public void get_name(){} // RVA: 0x179F840
+        public void set_name(){} // RVA: 0x179F840
     }
 
-    /// <summary>Originally: ÏÌÌÍÎÏÌÎÌÏÏÏÍÍÍÎÍÍÎÏÏÎÌ</summary>
-    public class Type8m2f_B3D2 : Object
+    /// <summary>Originally: ÏÍÌÌÍÎÍÏÍÎÏÌÍÎÏÌÏÎÌÎÌÍÍ</summary>
+    public class Type9m2f_4B6E : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15669C0
-        public void Equals(){} // RVA: 0x1567270
-        public void GetHashCode(){} // RVA: 0x1567B50
+        public void GetInstanceID(){} // RVA: 0x1741E10
+        public void Equals(){} // RVA: 0x1741E10
+        public void GetHashCode(){} // RVA: 0x1741E10
+        public void op_Implicit(){} // RVA: 0x1741E10
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1568420
-        public void IsNativeObjectAlive(){} // RVA: 0x1568D00
-        public void GetCachedPtr(){} // RVA: 0x15695E0
-        public void get_name(){} // RVA: 0x1569EC0
+        public void Initialize(){} // RVA: 0x1741E10
+        public void GetCachedPtr(){} // RVA: 0x1741E10
+        public void get_name(){} // RVA: 0x1741E10
+        public void set_name(){} // RVA: 0x1741E10
     }
 
-    /// <summary>Originally: ÎÍÌÏÌÎÌÎÌÌÍÎÍÎÍÍÍÌÍÏÌÍÎ</summary>
-    public class Type8m2f_B441 : Object
+    /// <summary>Originally: ÍÌÍÍÍÌÎÍÍÏÌÍÌÎÌÍÍÍÍÎÌÍÌ</summary>
+    public class Type9m2f_7F07 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156B9C0
-        public void Equals(){} // RVA: 0x156B9C0
-        public void op_Implicit(){} // RVA: 0x156B9C0
-        public void CompareBaseObjects(){} // RVA: 0x156B9C0
-        public void IsNativeObjectAlive(){} // RVA: 0x156B9C0
-        public void GetCachedPtr(){} // RVA: 0x156B9C0
-        public void get_name(){} // RVA: 0x156BA30
-    }
-
-    /// <summary>Originally: ÌÏÏÍÏÌÍÎÍÌÌÍÎÍÍÍÎÏÏÏÎÌÎ</summary>
-    public class Type8m2f_B54C : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1583BA0
-        public void Equals(){} // RVA: 0x1583CB0
-        public void GetHashCode(){} // RVA: 0x1583DC0
-        public void op_Implicit(){} // RVA: 0x1583ED0
-        public void CompareBaseObjects(){} // RVA: 0x1583FE0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15840F0
-        public void get_name(){} // RVA: 0x1584200
-    }
-
-    /// <summary>Originally: ÏÎÍÏÏÍÎÎÌÍÏÏÏÍÎÌÎÍÏÍÏÍÏ</summary>
-    public class Type8m2f_BB1D : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15E6350
-        public void Equals(){} // RVA: 0x15E63C0
-        public void GetHashCode(){} // RVA: 0x15E63F0
-        public void op_Implicit(){} // RVA: 0x15E6460
-        public void CompareBaseObjects(){} // RVA: 0x15E64D0
-        public void IsNativeObjectAlive(){} // RVA: 0x15E6530
-        public void GetCachedPtr(){} // RVA: 0x15E6560
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÏÌÌÌÎÌÏÎÍÏÍÏÍÌÌÍÎÎÏÏÌÎÌ</summary>
-    public class Type8m2f_C71B : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xEB0F90
+        public void Equals(){} // RVA: 0x17DAC20
+        public void GetHashCode(){} // RVA: 0x17DAE50
+        public void op_Implicit(){} // RVA: 0x17DB080
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0xEB0F90
-        public void Equals(){} // RVA: 0xEB0F90
-        public void op_Implicit(){} // RVA: 0xEB0F90
-        public void CompareBaseObjects(){} // RVA: 0x1592070
-        public void IsNativeObjectAlive(){} // RVA: 0xEB0F90
-        public void GetCachedPtr(){} // RVA: 0xEB0F90
-        public void get_name(){} // RVA: 0x1592250
+        public void GetCachedPtr(){} // RVA: 0x17DB2A0
+        public void get_name(){} // RVA: 0xEB0F90
+        public void set_name(){} // RVA: 0xEB0F90
     }
 
-    /// <summary>Originally: ÍÌÍÏÌÏÎÍÎÏÍÏÏÌÎÍÎÏÏÍÌÎÌ</summary>
-    public class Type8m3f_0C3E : Object
+    /// <summary>Originally: ÏÌÎÎÏÏÍÎÏÎÎÏÌÏÌÎÍÏÍÍÎÏÌ</summary>
+    public class Type9m2f_837C : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x179C000
+        public void Equals(){} // RVA: 0x179C080
+        public void GetHashCode(){} // RVA: 0x179C100
+        public void op_Implicit(){} // RVA: 0x179C180
+        public void CompareBaseObjects(){} // RVA: 0x179C200
+        public void IsNativeObjectAlive(){} // RVA: 0x179C280
+        public void GetCachedPtr(){} // RVA: 0x179C300
+        public void get_name(){} // RVA: 0x179C380
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÍÎÌÍÎÍÌÌÎÎÍÏÎÎÌÌÌÍÍÏÌÍÌ</summary>
+    public class Type9m2f_93D0 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17B9950
+        public void Equals(){} // RVA: 0x17B9EB0
+        public void GetHashCode(){} // RVA: 0x17BA410
+        public void op_Implicit(){} // RVA: 0x17BA970
+        public void CompareBaseObjects(){} // RVA: 0x17BAED0
+        public void IsNativeObjectAlive(){} // RVA: 0x17BB430
+        public void GetCachedPtr(){} // RVA: 0x17BB990
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17BBEF0
+    }
+
+    /// <summary>Originally: ÍÌÍÏÌÏÏÍÍÌÎÏÎÎÍÍÍÏÎÍÍÎÏ</summary>
+    public class Type9m2f_9D9B : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17B4DE0
+        public void Equals(){} // RVA: 0x17B5280
+        public void GetHashCode(){} // RVA: 0x17B5790
+        public void op_Implicit(){} // RVA: 0x17B5C30
+        public void CompareBaseObjects(){} // RVA: 0x17B60D0
+        public void IsNativeObjectAlive(){} // RVA: 0x17B6570
+        public void GetCachedPtr(){} // RVA: 0x17B6A10
+        public void get_name(){} // RVA: 0x17B6EB0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÏÌÎÍÌÎÎÏÍÏÍÏÏÎÍÏÏÎÌÎÎÏÏ</summary>
+    public class Type9m2f_EA0E : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17E93A0
+        public void Equals(){} // RVA: 0x17E9560
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x17E9720
+        public void CompareBaseObjects(){} // RVA: 0x17E97C0
+        public void IsNativeObjectAlive(){} // RVA: 0x17E9860
+        public void GetCachedPtr(){} // RVA: 0x17E9A20
+        public void get_name(){} // RVA: 0x17E9BE0
+        public void set_name(){} // RVA: 0x17E9C90
+    }
+
+    /// <summary>Originally: ÏÏÎÏÏÏÌÌÌÎÍÌÌÎÏÏÎÏÌÏÎÎÌ</summary>
+    public class Type9m2f_F9E8 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x17E3F80
+        public void Equals(){} // RVA: 0x17E4390
+        public void GetHashCode(){} // RVA: 0x17E4790
+        public void op_Implicit(){} // RVA: 0x17E4BA0
+        public void CompareBaseObjects(){} // RVA: 0x17E4FA0
+        public void IsNativeObjectAlive(){} // RVA: 0x17E53A0
+        public void GetCachedPtr(){} // RVA: 0x17E57B0
+        public void get_name(){} // RVA: 0x17E5BB0
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÌÎÍÍÏÎÏÏÍÍÎÏÎÎÏÌÎÍÍÏÏÌÌ</summary>
+    public class Type9m3f_0760 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F19C0
-        public void Equals(){} // RVA: 0x15F1AF0
-        public void GetHashCode(){} // RVA: 0x15F1C20
-        public void op_Implicit(){} // RVA: 0x15F1D50
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F1E80
-        public void GetCachedPtr(){} // RVA: 0x15F1FB0
-        public void get_name(){} // RVA: 0x15F20E0
+        public void Initialize(){} // RVA: 0x17815F0
+        public void Equals(){} // RVA: 0x1781800
+        public void op_Implicit(){} // RVA: 0x1781910
+        public void CompareBaseObjects(){} // RVA: 0x1781A20
+        public void IsNativeObjectAlive(){} // RVA: 0x1781C30
+        public void GetCachedPtr(){} // RVA: 0x1781E40
+        public void get_name(){} // RVA: 0x1782050
+        public void set_name(){} // RVA: 0x1782260
     }
 
-    /// <summary>Originally: ÍÏÏÍÎÎÎÍÎÌÎÌÍÍÎÎÍÌÌÌÌÍÌ</summary>
-    public class Type8m3f_411B : Object
+    /// <summary>Originally: ÌÎÍÎÍÌÍÌÎÌÌÏÌÌÌÎÎÍÌÌÌÎÍ</summary>
+    public class Type9m3f_20E3 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15BCD60
+        public void GetInstanceID(){} // RVA: 0x17E2C00
+        public void Equals(){} // RVA: 0x17E2E70
+        public void GetHashCode(){} // RVA: 0x17E30E0
+        public void op_Implicit(){} // RVA: 0x17E3350
+        public void CompareBaseObjects(){} // RVA: 0x17E35C0
+        public void IsNativeObjectAlive(){} // RVA: 0x17E3830
+        public void GetCachedPtr(){} // RVA: 0x17E3AA0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15BCF30
-        public void op_Implicit(){} // RVA: 0x15BD100
-        public void CompareBaseObjects(){} // RVA: 0x15BD5B0
-        public void IsNativeObjectAlive(){} // RVA: 0x15BDA60
-        public void GetCachedPtr(){} // RVA: 0x15BDF10
-        public void get_name(){} // RVA: 0x15BE3C0
+        public void Initialize(){} // RVA: 0x17E3D10
     }
 
-    /// <summary>Originally: ÎÌÍÏÎÎÍÌÏÌÎÍÏÌÎÍÏÌÏÏÎÍÏ</summary>
-    public class Type8m3f_42C3 : Object
+    /// <summary>Originally: ÏÎÎÌÏÌÍÎÍÏÍÏÍÎÍÌÌÍÌÌÍÌÎ</summary>
+    public class Type9m3f_407A : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15BFC00
-        public void Equals(){} // RVA: 0x15BFF10
+        public void GetInstanceID(){} // RVA: 0x17C14F0
+        public void Equals(){} // RVA: 0x17C1A40
+        public void GetHashCode(){} // RVA: 0x17C1F90
+        public void op_Implicit(){} // RVA: 0x17C24E0
+        public void CompareBaseObjects(){} // RVA: 0x17C2A30
+        public void IsNativeObjectAlive(){} // RVA: 0x17C2F80
+        public void GetCachedPtr(){} // RVA: 0x17C34D0
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15C0220
-        public void CompareBaseObjects(){} // RVA: 0x15C02B0
-        public void IsNativeObjectAlive(){} // RVA: 0x15C05C0
-        public void GetCachedPtr(){} // RVA: 0x15C08D0
-        public void get_name(){} // RVA: 0x15C0BE0
+        public void Initialize(){} // RVA: 0x17C3A20
     }
 
-    /// <summary>Originally: ÍÎÍÏÏÍÏÎÏÏÍÎÎÏÎÏÌÏÍÌÎÎÏ</summary>
-    public class Type8m3f_78CD : Object
+    /// <summary>Originally: ÏÌÍÏÏÌÌÌÏÏÍÌÌÍÌÎÏÎÍÌÎÏÎ</summary>
+    public class Type9m3f_96F0 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15759A0
-        public void Equals(){} // RVA: 0x1575A60
-        public void GetHashCode(){} // RVA: 0x1575B20
-        public void op_Implicit(){} // RVA: 0x1575BE0
-        public void CompareBaseObjects(){} // RVA: 0x1575CA0
+        public void GetInstanceID(){} // RVA: 0x17AA7E0
+        public void Equals(){} // RVA: 0x17AA880
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1575D60
-        public void get_name(){} // RVA: 0x1575E20
+        public void Initialize(){} // RVA: 0x17AA920
+        public void CompareBaseObjects(){} // RVA: 0x17AA9E0
+        public void IsNativeObjectAlive(){} // RVA: 0x17AAA80
+        public void GetCachedPtr(){} // RVA: 0x17AAB20
+        public void get_name(){} // RVA: 0x17AABE0
+        public void set_name(){} // RVA: 0x17AAC80
     }
 
-    /// <summary>Originally: ÏÍÎÎÎÌÏÏÍÏÎÎÏÌÎÌÌÍÌÏÌÎÌ</summary>
-    public class Type8m3f_7E41 : Object
+    /// <summary>Originally: ÏÍÎÌÎÌÍÍÍÏÍÎÌÏÎÎÍÏÏÏÏÌÍ</summary>
+    public class Type9m3f_9E2E : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1592430
-        public void Equals(){} // RVA: 0x15924F0
-        public void GetHashCode(){} // RVA: 0x15925B0
-        public void op_Implicit(){} // RVA: 0x1592670
+        public void GetInstanceID(){} // RVA: 0x1741130
+        public void Equals(){} // RVA: 0x1741220
+        public void GetHashCode(){} // RVA: 0x1741310
+        public void op_Implicit(){} // RVA: 0x1741400
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1592730
-        public void GetCachedPtr(){} // RVA: 0x15927F0
-        public void get_name(){} // RVA: 0x15928B0
+        public void Initialize(){} // RVA: 0x17414F0
+        public void GetCachedPtr(){} // RVA: 0x17415E0
+        public void get_name(){} // RVA: 0x17416D0
+        public void set_name(){} // RVA: 0x17417C0
     }
 
-    /// <summary>Originally: ÍÏÌÍÍÎÏÌÎÎÌÎÏÌÌÎÎÍÍÍÌÎÌ</summary>
-    public class Type8m3f_BE75 : Object
+    /// <summary>Originally: ÌÏÏÌÎÌÌÏÏÌÎÍÏÎÌÍÏÎÍÎÏÎÌ</summary>
+    public class Type9m3f_B3F7 : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
         public object _offsetOfInstanceIDInCPlusPlusObject;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F07D0
-        public void Equals(){} // RVA: 0x15F0A60
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F0CF0
-        public void CompareBaseObjects(){} // RVA: 0x15F0F80
-        public void IsNativeObjectAlive(){} // RVA: 0x15F1210
-        public void GetCachedPtr(){} // RVA: 0x15F14A0
-        public void get_name(){} // RVA: 0x15F1730
-    }
-
-    /// <summary>Originally: ÏÌÎÎÏÎÎÎÏÏÌÏÏÌÏÍÍÍÍÎÍÌÎ</summary>
-    public class Type8m3f_EFB3 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F4F90
-        public void Equals(){} // RVA: 0x15F5090
-        public void GetHashCode(){} // RVA: 0x15F5190
-        public void op_Implicit(){} // RVA: 0x15F5290
-        public void CompareBaseObjects(){} // RVA: 0x15F5390
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F5490
-        public void get_name(){} // RVA: 0x15F5590
-    }
-
-    /// <summary>Originally: ÏÌÎÎÏÎÎÎÏÏÎÎÏÎÌÎÍÎÏÏÌÌÏ</summary>
-    public class Type8m4f_EFC0 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x154DDF0
-        public void Equals(){} // RVA: 0x154E300
-        public void GetHashCode(){} // RVA: 0x154E810
-        public void op_Implicit(){} // RVA: 0x154ED20
-        public void CompareBaseObjects(){} // RVA: 0x154F230
-        public void IsNativeObjectAlive(){} // RVA: 0x154F740
-        public void GetCachedPtr(){} // RVA: 0x154FC50
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÍÏÌÎÎÎÏÍÎÌÍÌÏÍÏÌÌÌÎÍÏÌÍ</summary>
-    public class Type8m5f_95A3 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x14FC170
-        public void Equals(){} // RVA: 0x14FC6C0
-        public void GetHashCode(){} // RVA: 0x14FCC10
-        public void op_Implicit(){} // RVA: 0x14FD160
-        public void CompareBaseObjects(){} // RVA: 0x14FD6B0
-        public void IsNativeObjectAlive(){} // RVA: 0x14FD6F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x14FDC40
-    }
-
-    /// <summary>Originally: ÏÎÎÏÌÌÌÍÎÎÎÍÍÍÍÏÍÏÌÏÌÏÏ</summary>
-    public class Type9m1f_013A : Object
-    {
-        public object _013A;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1591AB0
-        public void Equals(){} // RVA: 0x1591B70
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1591C30
-        public void CompareBaseObjects(){} // RVA: 0x1591CE0
-        public void IsNativeObjectAlive(){} // RVA: 0x1591D90
-        public void GetCachedPtr(){} // RVA: 0x1591E40
-        public void get_name(){} // RVA: 0x1591F00
-        public void set_name(){} // RVA: 0x1591FB0
-    }
-
-    /// <summary>Originally: ÎÎÏÌÍÌÎÏÏÏÌÎÎÏÏÌÎÏÏÏÍÍÌ</summary>
-    public class Type9m1f_28B0 : Object
-    {
-        public object _kInstanceID_None;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB5DBF0
-        public void Equals(){} // RVA: 0xB5DBF0
-        public void GetHashCode(){} // RVA: 0xB5DBF0
-        public void .ctor(){} // RVA: 0x14F90B0
-        public void Initialize(){} // RVA: 0xB5DBF0
-        public void IsNativeObjectAlive(){} // RVA: 0xB5DBF0
-        public void GetCachedPtr(){} // RVA: 0xB5DBF0
-        public void get_name(){} // RVA: 0xB5DBF0
-        public void set_name(){} // RVA: 0xB5DBF0
-    }
-
-    /// <summary>Originally: ÏÍÎÎÌÎÎÌÌÎÏÏÌÍÍÌÌÎÏÌÍÏÎ</summary>
-    public class Type9m1f_2D83 : Object
-    {
-        public object _2D83;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156D290
-        public void Equals(){} // RVA: 0x156D3A0
-        public void GetHashCode(){} // RVA: 0x156D4B0
-        public void op_Implicit(){} // RVA: 0x156D5C0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156D6D0
-        public void GetCachedPtr(){} // RVA: 0x156D7E0
-        public void get_name(){} // RVA: 0x156D8F0
-        public void set_name(){} // RVA: 0x156DA00
-    }
-
-    /// <summary>Originally: ÌÏÌÏÎÌÎÏÏÍÎÏÏÌÍÎÏÌÌÌÎÎÏ</summary>
-    public class Type9m1f_7A94 : Object
-    {
-        public object _7A94;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1553730
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1553810
-        public void op_Implicit(){} // RVA: 0x15538F0
-        public void CompareBaseObjects(){} // RVA: 0x15539D0
-        public void IsNativeObjectAlive(){} // RVA: 0x1553AB0
-        public void GetCachedPtr(){} // RVA: 0x1553B90
-        public void get_name(){} // RVA: 0x1553C70
-        public void set_name(){} // RVA: 0x1553D50
-    }
-
-    /// <summary>Originally: ÌÎÍÍÌÎÌÎÎÍÎÏÌÍÏÌÍÌÍÎÍÏÎ</summary>
-    public class Type9m1f_959D : Object
-    {
-        public object _959D;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x894320
-        public void Equals(){} // RVA: 0x894320
-        public void GetHashCode(){} // RVA: 0x894320
-        public void op_Implicit(){} // RVA: 0x894320
-        public void CompareBaseObjects(){} // RVA: 0x894320
+        public void Equals(){} // RVA: 0x87D280
         public void .ctor(){} // RVA: 0x894290
-        public void Initialize(){} // RVA: 0x894320
-        public void get_name(){} // RVA: 0x894320
-        public void set_name(){} // RVA: 0x894320
+        public void op_Implicit(){} // RVA: 0x87D280
+        public void CompareBaseObjects(){} // RVA: 0x87D910
+        public void IsNativeObjectAlive(){} // RVA: 0x87D910
+        public void GetCachedPtr(){} // RVA: 0x87D280
+        public void get_name(){} // RVA: 0x87D910
+        public void Initialize(){} // RVA: 0x87D280
+        public void set_name(){} // RVA: 0x87D280
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÏÌÌÏÍÏÍÎÍÍÍÍÌÏÌÍÎÍ</summary>
-    public class Type9m1f_9B72 : Object
+    /// <summary>Originally: ÌÎÍÎÎÎÍÎÍÏÎÍÎÎÎÌÎÏÎÏÏÍÍ</summary>
+    public class Type9m4fImpl_FA31 : Type9m4f_29FA
     {
-        public object _9B72;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1547910
-        public void Equals(){} // RVA: 0x1547910
-        public void GetHashCode(){} // RVA: 0x1547910
-        public void op_Implicit(){} // RVA: 0x1547910
-        public void CompareBaseObjects(){} // RVA: 0x1547910
-        public void IsNativeObjectAlive(){} // RVA: 0x1547910
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1547910
-        public void set_name(){} // RVA: 0x1547910
+        public void .ctor(){} // RVA: 0x17F7D30
+        // ── Unresolved (hash) ──
+        public void m_F29(){} // RVA: 0x17F7AF0
+        public void m_650(){} // RVA: 0x17F7C70
     }
 
-    /// <summary>Originally: ÎÎÌÏÌÌÌÌÌÌÏÏÏÌÏÎÍÍÌÎÍÌÎ</summary>
-    public class Type9m1f_AB1A : Object
-    {
-        public object _aB1A;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15724C0
-        public void Equals(){} // RVA: 0x1572830
-        public void GetHashCode(){} // RVA: 0x1572BA0
-        public void op_Implicit(){} // RVA: 0x1572F10
-        public void CompareBaseObjects(){} // RVA: 0x1573280
-        public void IsNativeObjectAlive(){} // RVA: 0x15735F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1573960
-        public void set_name(){} // RVA: 0x1573CD0
-    }
-
-    /// <summary>Originally: ÍÎÏÍÎÌÍÍÎÌÌÍÎÍÎÌÎÎÌÎÎÎÎ</summary>
-    public class Type9m1f_B6D3 : Object
-    {
-        public object _b6D3;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1561B20
-        public void Equals(){} // RVA: 0x1561C00
-        public void GetHashCode(){} // RVA: 0x1561CE0
-        public void op_Implicit(){} // RVA: 0x1561DC0
-        public void CompareBaseObjects(){} // RVA: 0x1561EA0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1561F80
-        public void get_name(){} // RVA: 0x1562060
-        public void set_name(){} // RVA: 0x1562140
-    }
-
-    /// <summary>Originally: ÎÎÎÏÌÎÏÌÌÌÏÎÍÌÎÍÎÎÏÏÌÎÌ</summary>
-    public class Type9m1f_E0BD : Object
-    {
-        public object _e0BD;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15BE590
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15BE5F0
-        public void op_Implicit(){} // RVA: 0x15BE650
-        public void CompareBaseObjects(){} // RVA: 0x15BE6F0
-        public void IsNativeObjectAlive(){} // RVA: 0x15BE750
-        public void GetCachedPtr(){} // RVA: 0x15BE7B0
-        public void get_name(){} // RVA: 0x15BE850
-        public void set_name(){} // RVA: 0x15BE8B0
-    }
-
-    /// <summary>Originally: ÍÍÌÍÍÍÎÍÌÍÏÌÍÏÏÏÌÏÎÌÍÎÍ</summary>
-    public class Type9m1f_EDCA : Object
-    {
-        public object _eDCA;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156B4C0
-        public void Equals(){} // RVA: 0x156B560
-        public void GetHashCode(){} // RVA: 0x156B600
-        public void op_Implicit(){} // RVA: 0x156B6A0
-        public void CompareBaseObjects(){} // RVA: 0x156B740
-        public void IsNativeObjectAlive(){} // RVA: 0x156B7E0
-        public void GetCachedPtr(){} // RVA: 0x156B880
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156B920
-    }
-
-    /// <summary>Originally: ÍÎÌÍÎÏÌÎÌÍÍÍÌÏÎÏÏÍÌÍÎÎÏ</summary>
-    public class Type9m2f_0606 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15F83D0
-        public void Equals(){} // RVA: 0x15F83E0
-        public void GetHashCode(){} // RVA: 0x15F83D0
-        public void op_Implicit(){} // RVA: 0x15F83F0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15F83D0
-        public void GetCachedPtr(){} // RVA: 0x15F83F0
-        public void get_name(){} // RVA: 0x15F83D0
-        public void set_name(){} // RVA: 0x15F8400
-    }
-
-    /// <summary>Originally: ÎÍÍÎÎÍÍÎÎÎÌÎÍÏÍÌÏÌÏÍÏÍÍ</summary>
-    public class Type9m2f_4CFF : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1580E00
-        public void Equals(){} // RVA: 0x1580EA0
-        public void GetHashCode(){} // RVA: 0x1580F40
-        public void op_Implicit(){} // RVA: 0x1580FE0
-        public void CompareBaseObjects(){} // RVA: 0x1581080
-        public void IsNativeObjectAlive(){} // RVA: 0x1581120
-        public void GetCachedPtr(){} // RVA: 0x15811C0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1581260
-    }
-
-    /// <summary>Originally: ÏÏÏÍÎÍÎÎÍÏÎÌÌÍÏÎÌÍÏÍÏÏÏ</summary>
-    public class Type9m2f_4EAB : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1562220
-        public void Equals(){} // RVA: 0x1562360
-        public void GetHashCode(){} // RVA: 0x15624A0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x15625E0
-        public void IsNativeObjectAlive(){} // RVA: 0x15627D0
-        public void GetCachedPtr(){} // RVA: 0x1562910
-        public void get_name(){} // RVA: 0x1562A50
-        public void set_name(){} // RVA: 0x1562C40
-    }
-
-    /// <summary>Originally: ÏÎÍÏÏÎÍÌÏÌÌÏÌÌÏÏÌÏÌÏÎÍÎ</summary>
-    public class Type9m2f_74D2 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156F410
-        public void Equals(){} // RVA: 0x156F410
-        public void GetHashCode(){} // RVA: 0x156F410
-        public void op_Implicit(){} // RVA: 0x156F410
-        public void CompareBaseObjects(){} // RVA: 0x156F410
-        public void IsNativeObjectAlive(){} // RVA: 0x156F410
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156F410
-        public void set_name(){} // RVA: 0x156F410
-    }
-
-    /// <summary>Originally: ÍÏÏÌÏÌÍÏÍÍÎÍÌÎÏÏÎÏÏÏÎÌÏ</summary>
-    public class Type9m2f_771F : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x154D970
-        public void Equals(){} // RVA: 0x154DA00
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x154DA90
-        public void CompareBaseObjects(){} // RVA: 0x154DB20
-        public void IsNativeObjectAlive(){} // RVA: 0x154DBB0
-        public void GetCachedPtr(){} // RVA: 0x154DC40
-        public void get_name(){} // RVA: 0x154DCD0
-        public void set_name(){} // RVA: 0x154DD60
-    }
-
-    /// <summary>Originally: ÌÌÎÏÏÌÏÍÌÌÍÏÎÎÌÏÏÎÏÏÏÎÏ</summary>
-    public class Type9m2f_9F22 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x154C4F0
-        public void Equals(){} // RVA: 0x154C780
-        public void GetHashCode(){} // RVA: 0x154CA10
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x154CCA0
-        public void IsNativeObjectAlive(){} // RVA: 0x154CF30
-        public void GetCachedPtr(){} // RVA: 0x154D1C0
-        public void get_name(){} // RVA: 0x154D450
-        public void set_name(){} // RVA: 0x154D6E0
-    }
-
-    /// <summary>Originally: ÎÍÌÌÌÌÍÏÏÏÎÎÌÏÎÏÏÏÎÏÌÎÏ</summary>
-    public class Type9m2f_E3E6 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x152D650
-        public void Equals(){} // RVA: 0x152D9C0
-        public void GetHashCode(){} // RVA: 0x152DD30
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x152E0A0
-        public void IsNativeObjectAlive(){} // RVA: 0x152E410
-        public void GetCachedPtr(){} // RVA: 0x152E780
-        public void get_name(){} // RVA: 0x152EAF0
-        public void set_name(){} // RVA: 0x152EE60
-    }
-
-    /// <summary>Originally: ÎÍÌÌÌÎÌÍÍÎÌÌÏÎÎÍÍÎÏÏÍÌÌ</summary>
-    public class Type9m2f_F96F : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x156BB10
-        public void Equals(){} // RVA: 0x156BE00
-        public void GetHashCode(){} // RVA: 0x156C0F0
-        public void op_Implicit(){} // RVA: 0x156C3E0
-        public void CompareBaseObjects(){} // RVA: 0x156C6D0
-        public void IsNativeObjectAlive(){} // RVA: 0x156C9C0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156CCB0
-        public void set_name(){} // RVA: 0x156CFA0
-    }
-
-    /// <summary>Originally: ÏÏÏÍÌÏÏÎÌÍÏÎÍÎÎÌÌÌÎÎÎÌÌ</summary>
-    public class Type9m3f_ED7D : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1534200
-        public void Equals(){} // RVA: 0x1534310
-        public void GetHashCode(){} // RVA: 0x1534420
-        public void op_Implicit(){} // RVA: 0x1534530
-        public void CompareBaseObjects(){} // RVA: 0x1534640
-        public void IsNativeObjectAlive(){} // RVA: 0x1534750
-        public void GetCachedPtr(){} // RVA: 0x1534860
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1534970
-    }
-
-    /// <summary>Originally: ÌÍÌÌÎÍÌÍÍÎÍÌÍÌÍÏÏÎÍÏÍÏÍ</summary>
-    public class Type9m4f_0EF0 : Object
+    /// <summary>Originally: ÎÍÏÏÍÍÍÌÌÌÌÏÏÎÍÌÍÍÍÎÍÌÌ</summary>
+    public class Type9m4f_29FA : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
@@ -1688,19 +1791,19 @@ namespace VRC.Misc
         public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x156DB10
-        public void Equals(){} // RVA: 0x156DB50
-        public void op_Implicit(){} // RVA: 0x156DB10
-        public void CompareBaseObjects(){} // RVA: 0x156DB10
-        public void IsNativeObjectAlive(){} // RVA: 0x156DB50
-        public void GetCachedPtr(){} // RVA: 0x156DB50
-        public void get_name(){} // RVA: 0x156DB50
-        public void set_name(){} // RVA: 0x156DB10
+        public void .ctor(){} // RVA: 0x894290
+        public void Initialize(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x8943B0
+        public void op_Implicit(){} // RVA: 0x87BEB0
+        public void CompareBaseObjects(){} // RVA: 0xA94080
+        public void IsNativeObjectAlive(){} // RVA: 0x894320
+        public void GetCachedPtr(){} // RVA: 0xA94080
+        public void get_name(){} // RVA: 0xA94080
+        public void set_name(){} // RVA: 0x87BF80
     }
 
-    /// <summary>Originally: ÎÎÏÌÎÎÎÏÍÌÎÎÏÎÌÎÍÌÍÍÎÎÏ</summary>
-    public class Type9m4f_6C91 : Object
+    /// <summary>Originally: ÎÍÏÏÍÍÍÌÌÌÌÏÏÎÍÌÍÍÍÎÍÌÌ</summary>
+    public class Type9m4f_29FA : Object
     {
         public object _kInstanceID_None;
         public object _m_CachedPtr;
@@ -1708,120 +1811,15 @@ namespace VRC.Misc
         public object _objectIsNullMessage;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x16210E0
-        public void Equals(){} // RVA: 0x1621210
-        public void GetHashCode(){} // RVA: 0x1621340
-        public void op_Implicit(){} // RVA: 0x1621470
-        public void CompareBaseObjects(){} // RVA: 0x16215A0
-        public void IsNativeObjectAlive(){} // RVA: 0x16216D0
-        public void GetCachedPtr(){} // RVA: 0x1621800
-        public void get_name(){} // RVA: 0x1621930
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÌÌÍÍÏÌÏÌÎÏÍÎÌÌÍÏÏÏÎÍÍÍÌ</summary>
-    public class Type9m4f_74F2 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1562D80
-        public void Equals(){} // RVA: 0x1562F80
-        public void GetHashCode(){} // RVA: 0x1563020
-        public void op_Implicit(){} // RVA: 0x1563220
-        public void CompareBaseObjects(){} // RVA: 0x15632C0
-        public void IsNativeObjectAlive(){} // RVA: 0x1563360
-        public void GetCachedPtr(){} // RVA: 0x1563560
-        public void get_name(){} // RVA: 0x1563760
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÎÎÌÌÌÍÎÌÌÍÍÌÌÏÎÎÏÏÏÏÌÌÏ</summary>
-    public class Type9m4f_C9A5 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1581300
-        public void Equals(){} // RVA: 0x1581420
-        public void GetHashCode(){} // RVA: 0x1581610
-        public void op_Implicit(){} // RVA: 0x1581730
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x1581850
-        public void GetCachedPtr(){} // RVA: 0x1581A40
-        public void get_name(){} // RVA: 0x1581C30
-        public void set_name(){} // RVA: 0x1581E20
-    }
-
-    /// <summary>Originally: ÎÏÏÏÌÏÌÍÍÍÏÎÌÌÍÍÎÍÍÍÍÏÌ</summary>
-    public class Type9m5f_E2A1 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1531AE0
-        public void Equals(){} // RVA: 0x1531CE0
-        public void GetHashCode(){} // RVA: 0x14A7950
-        public void op_Implicit(){} // RVA: 0x1531EE0
-        public void CompareBaseObjects(){} // RVA: 0x15320E0
-        public void IsNativeObjectAlive(){} // RVA: 0x15322E0
-        public void GetCachedPtr(){} // RVA: 0x14A7950
-        public void get_name(){} // RVA: 0x15324E0
-        public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÎÍÎÍÌÎÎÏÎÍÏÍÌÌÏÏÌÍÍÏÍÌÏ</summary>
-    public class Type9m5f_FC60 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x15FD770
-        public void Equals(){} // RVA: 0x15FD830
-        public void GetHashCode(){} // RVA: 0x15FD910
-        public void op_Implicit(){} // RVA: 0x15FDF60
-        public void CompareBaseObjects(){} // RVA: 0x15FE070
-        public void IsNativeObjectAlive(){} // RVA: 0x15FE6E0
-        public void GetCachedPtr(){} // RVA: 0x15FE8C0
-        public void get_name(){} // RVA: 0x15FE980
-        public void .cctor(){} // RVA: 0x15FEA50
-    }
-
-    /// <summary>Originally: ÌÌÌÎÎÍÌÍÍÏÏÍÌÍÌÏÍÌÌÍÍÌÏ</summary>
-    public class Type9m7f_E5B7 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_9D8;
-        public object f_6E5;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1617CB0
-        public void Equals(){} // RVA: 0x1617E90
-        public void GetHashCode(){} // RVA: 0x1618B70
-        public void op_Implicit(){} // RVA: 0x161A210
-        public void .ctor(){} // RVA: 0x161B8A0
-        public void Initialize(){} // RVA: 0x161BCC0
-        public void GetCachedPtr(){} // RVA: 0x161BEA0
-        public void get_name(){} // RVA: 0x161D4D0
-        public void set_name(){} // RVA: 0x161D6B0
+        public void .ctor(){} // RVA: 0x5A7CB40
+        public void Initialize(){} // RVA: 0xB70160
+        public void Equals(){} // RVA: 0x5A7CDE0
+        public void op_Implicit(){} // RVA: 0x87BEB0
+        public void CompareBaseObjects(){} // RVA: 0x5A7CEC0
+        public void IsNativeObjectAlive(){} // RVA: 0x5A7D060
+        public void GetCachedPtr(){} // RVA: 0x5A7D130
+        public void get_name(){} // RVA: 0x87C540
+        public void set_name(){} // RVA: 0x5A7D2D0
     }
 
 }

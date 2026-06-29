@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 21
-// Methods: 213
+// Classes: 24
+// Methods: 236
 
 namespace VRC.Misc
 {
@@ -96,6 +96,71 @@ namespace VRC.Misc
         public void Start(){} // RVA: 0x20DBF70
         public void Awake(){} // RVA: 0x20DC010
         public void OnDestroy(){} // RVA: 0x20DC150
+    }
+
+    /// <summary>Originally: ÌÏÎÍÏÎÍÏÏÍÌÍÎÏÎÌÍÎÎÍÏÌÎ</summary>
+    public class AnonymousInitializableObject_1 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_867;
+        public object f_3B6;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1A9DEA0
+        public void Initialize(){} // RVA: 0x23897C0
+        public void Equals(){} // RVA: 0x23899D0
+        public void op_Implicit(){} // RVA: 0x2389BE0
+        public void CompareBaseObjects(){} // RVA: 0x2389DF0
+        public void IsNativeObjectAlive(){} // RVA: 0x238A000
+        public void GetCachedPtr(){} // RVA: 0x238A210
+    }
+
+    /// <summary>Originally: ÍÍÏÌÍÌÌÌÌÏÎÏÏÎÏÏÍÍÎÍÎÍÏ</summary>
+    public class AnonymousNamedObject : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_130;
+        public object f_C1F;
+        public object f_DD2;
+
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x238F7D0
+        public void Equals(){} // RVA: 0x2390960
+        public void GetHashCode(){} // RVA: 0x2390D00
+        public void op_Implicit(){} // RVA: 0x23915A0
+        public void CompareBaseObjects(){} // RVA: 0x23916B0
+        public void IsNativeObjectAlive(){} // RVA: 0x2391780
+        public void GetCachedPtr(){} // RVA: 0x2391850
+        public void get_name(){} // RVA: 0x2391920
+    }
+
+    /// <summary>Originally: ÏÌÌÍÎÏÍÎÌÏÍÍÏÌÌÎÌÎÏÌÏÎÏ</summary>
+    public class AnonymousObjectReference : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_9BC;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xF13890
+        public void Equals(){} // RVA: 0xF13AA0
+        public void GetHashCode(){} // RVA: 0xF13CB0
+        public void op_Implicit(){} // RVA: 0xF13EC0
+        public void CompareBaseObjects(){} // RVA: 0xF14030
+        public void IsNativeObjectAlive(){} // RVA: 0xF141A0
+        public void GetCachedPtr(){} // RVA: 0xF14310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     /// <summary>Originally: ÍÍÌÏÍÍÏÏÍÍÏÍÌÏÍÎÍÎÍÎÏÍÎ</summary>

@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Animation
-// Classes: 9
-// Methods: 177
+// Classes: 10
+// Methods: 190
 
 namespace VRC.Animation
 {
@@ -27,8 +27,8 @@ namespace VRC.Animation
         public void get_FileId(){} // RVA: 0x1242460
         public void get_FullResolutionTexture(){} // RVA: 0xB70160
         public void set_FullResolutionTexture(){} // RVA: 0x188A6F0
-        public void set_FileId(){} // RVA: 0x2463A70
-        public void set_IsBuiltIn(){} // RVA: 0x2463B00
+        public void set_IsBuiltIn(){} // RVA: 0x2463A70
+        public void set_FileId(){} // RVA: 0x2463B00
         public void .ctor(){} // RVA: 0x2463CD0
         public void Initialize(){} // RVA: 0xB700F0
         public void get_IsBuiltIn(){} // RVA: 0xB43320
@@ -233,6 +233,31 @@ namespace VRC.Animation
         public void StartCoroutineManaged(){} // RVA: 0x1CEA1B0
         public void StartCoroutineManaged2(){} // RVA: 0x1CEA440
         public void StopCoroutineManaged(){} // RVA: 0x1CEA5D0
+    }
+
+    /// <summary>Originally: ÍÏÍÌÍÏÏÍÌÌÎÎÍÍÎÏÍÏÎÏÍÍÍ</summary>
+    public class ImageAnimationBinding : MonoBehaviour
+    {
+        public object _imageBinding;
+        public object _imageRectTransform;
+        public object _animateOutProperties;
+        public object _animateInProperties;
+        public object _61EC;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x20A6510
+        public void RaiseCancellation(){} // RVA: 0x20A65F0
+        public void IsInvoking(){} // RVA: 0x20A6750
+        public void CancelInvoke(){} // RVA: 0x20A6770
+        public void Invoke(){} // RVA: 0x20A67A0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x20A6750
+        public void StartCoroutine_Auto(){} // RVA: 0x20A6770
+        public void StopCoroutine(){} // RVA: 0x20A67C0
+        public void StopAllCoroutines(){} // RVA: 0x20A6750
+        public void get_useGUILayout(){} // RVA: 0x20A6910
+        public void set_useGUILayout(){} // RVA: 0x20A67A0
+        public void get_didStart(){} // RVA: 0x20A6930
     }
 
     /// <summary>Originally: ÍÎÍÍÌÎÌÍÌÏÏÏÏÎÎÍÍÎÌÍÌÌÏ</summary>

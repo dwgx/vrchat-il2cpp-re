@@ -27,8 +27,8 @@ namespace ThirdParty.Mediapipe.Mediapipe.Unity.Sample
         public void GetNameServerAddress(){} // RVA: 0xE62D00
         public void set_logLevel(){} // RVA: 0xE62D00
         public void get_logLevel(){} // RVA: 0x15AF000
-        public void set_assetLoaderType(){} // RVA: 0x2244CB0
-        public void set_defaultImageSource(){} // RVA: 0x2244D10
+        public void set_defaultImageSource(){} // RVA: 0x2244CB0
+        public void set_assetLoaderType(){} // RVA: 0x2244D10
         public void get_defaultImageSource(){} // RVA: 0xE62D00
         public void get_assetLoaderType(){} // RVA: 0xFEAE90
         public void set_preferableInferenceMode(){} // RVA: 0x2244F40

@@ -29,30 +29,30 @@
       "llm_predicted_names.json": "7e17864d0285b99909b2e8d1e5a5cf55be119adb83f940f9ddc24590549a5ec9",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7"
     },
-    "output_hash": "62d634bcf986cc58c32149ac71d7e7c068f8c89f3d4784cd94e0ac2dd6d73e4d",
-    "timestamp": "2026-06-29 18:41:44",
+    "output_hash": "aad1fe74ff506e43c6781f046354725fb72841af736b45bd0330030c4e4dbdf2",
+    "timestamp": "2026-06-29 21:04:44",
     "completed": true
   },
   "stage_2": {
     "input_hashes": {
-      "deobfuscated_dump.json": "63c7575594d3360a680c3717646454e9f1b38723b7608225d354467edf8ab98b",
-      "name_mapping.json": "8884ddea15b0090bd388dd123d4c4ab346f202c44a5017c9f3f19a1e78248683",
+      "deobfuscated_dump.json": "4a2223ac171439738e3fc073bef32c2cdf7fea7b837137981ea825690c70022c",
+      "name_mapping.json": "ca291c43110debb592d29d54be88a9b47074efdd82f70b00f1b7db177b47a044",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7",
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
       "photon_protocol_analysis.md": "170dbaffa5f33c4221f6f569539fa2ddaabba6cd265ea8c8bc684307fbe42f9e"
     },
-    "output_hash": "63c7575594d3360a680c3717646454e9f1b38723b7608225d354467edf8ab98b",
-    "timestamp": "2026-06-29 18:41:46",
+    "output_hash": "4a2223ac171439738e3fc073bef32c2cdf7fea7b837137981ea825690c70022c",
+    "timestamp": "2026-06-29 21:04:46",
     "completed": true
   },
   "stage_3": {
     "input_hashes": {
-      "deobfuscated_dump.json": "63c7575594d3360a680c3717646454e9f1b38723b7608225d354467edf8ab98b"
+      "deobfuscated_dump.json": "c8383047538d3c14d46cc5292b02ddb61dfbe4e4fd80c107a1dfbb66d1862d0b"
     },
     "output_hash": null,
-    "timestamp": "2026-06-29 18:41:49",
+    "timestamp": "2026-06-29 21:04:50",
     "completed": true
   },
   "stage_4": {

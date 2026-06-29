@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Component
-// Classes: 9
-// Methods: 75
+// Classes: 12
+// Methods: 121
 
 namespace VRC.Core.Component
 {
@@ -121,6 +121,36 @@ namespace VRC.Core.Component
         public void op_Implicit(){} // RVA: 0x269CDF0
     }
 
+    /// <summary>Originally: ÏÌÍÌÍÌÎÎÍÏÎÏÏÌÎÏÎÏÏÌÎÌÌ</summary>
+    public class LifecycleComponentSibling_F2A0 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_83F;
+        public object f_9C1;
+        public object f_2A1;
+        public object f_CA3;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1018310
+        public void Equals(){} // RVA: 0x1018610
+        public void GetHashCode(){} // RVA: 0x1018820
+        public void op_Implicit(){} // RVA: 0x1018A80
+        public void .cctor(){} // RVA: 0x1018B20
+        public void IsNativeObjectAlive(){} // RVA: 0x1018B70
+        public void GetCachedPtr(){} // RVA: 0x10191F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1019870
+        public void Instantiate(){} // RVA: 0xC763E0
+        public void Destroy(){} // RVA: 0x1019A80
+        public void DestroyImmediate(){} // RVA: 0x1019D90
+        public void FindObjectsOfType(){} // RVA: 0x101A410
+        public void FindObjectsByType(){} // RVA: 0x101A620
+    }
+
     /// <summary>Originally: ÌÍÎÎÎÏÎÏÎÎÏÏÍÍÎÎÎÏÍÌÍÏÌ</summary>
     public class LifecycleComponentSibling_F9DD : BackingFieldBase_k__BackingField_F7DC
     {
@@ -135,6 +165,61 @@ namespace VRC.Core.Component
         public void m_BE7(){} // RVA: 0x17D5210
         public void m_8D8(){} // RVA: 0x17D52C0
         public void m_249(){} // RVA: 0x17D5370
+    }
+
+    /// <summary>Originally: ÌÍÏÍÏÏÏÎÍÏÏÌÎÍÎÏÏÏÍÎÎÏÌ</summary>
+    public class LifecycleComponent_3641 : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_9B2;
+        public object f_EA0;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x172C510
+        public void OnEnable(){} // RVA: 0x172C590
+        public void CancelInvoke(){} // RVA: 0x172C610
+        public void OnDisable(){} // RVA: 0x172C620
+        public void InvokeRepeating(){} // RVA: 0x172C6A0
+        public void Start(){} // RVA: 0x172C960
+        public void StartCoroutine_Auto(){} // RVA: 0x172CC20
+        public void StopCoroutine(){} // RVA: 0x172CCA0
+        public void StopAllCoroutines(){} // RVA: 0x172CCB0
+        public void get_useGUILayout(){} // RVA: 0x172CE30
+        public void set_useGUILayout(){} // RVA: 0x172CFB0
+        public void get_didStart(){} // RVA: 0x172D130
+        public void get_didAwake(){} // RVA: 0x172D2B0
+        public void print(){} // RVA: 0x172D430
+    }
+
+    /// <summary>Originally: ÎÎÏÏÎÎÏÍÏÏÏÌÍÎÍÎÎÎÌÎÎÍÎ</summary>
+    public class LifecycleUnityObject_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_630;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x976D4C0
+        public void Equals(){} // RVA: 0x976D600
+        public void GetHashCode(){} // RVA: 0x976D7A0
+        public void op_Implicit(){} // RVA: 0xB700F0
+        public void CompareBaseObjects(){} // RVA: 0x976D850
+        public void IsNativeObjectAlive(){} // RVA: 0x976D930
+        public void GetCachedPtr(){} // RVA: 0x976DC90
+        public void get_name(){} // RVA: 0x976DDD0
+        public void .ctor(){} // RVA: 0x976DE20
+        public void Initialize(){} // RVA: 0xB700F0
+        public void Destroy(){} // RVA: 0x976DF80
+        public void DestroyImmediate(){} // RVA: 0x976DFE0
+        public void FindObjectsOfType(){} // RVA: 0x976E030
+        public void FindObjectsByType(){} // RVA: 0x976E390
+        public void DontDestroyOnLoad(){} // RVA: 0x976E410
+        public void get_hideFlags(){} // RVA: 0x976E5B0
+        public void set_hideFlags(){} // RVA: 0x976E630
     }
 
 }

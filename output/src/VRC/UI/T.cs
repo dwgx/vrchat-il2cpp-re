@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 8
-// Methods: 189
+// Classes: 10
+// Methods: 200
 
 namespace VRC.UI
 {
@@ -366,6 +366,43 @@ namespace VRC.UI
         public void StartCoroutineManaged(){} // RVA: 0x9B46690
         public void StartCoroutineManaged2(){} // RVA: 0x9B467D0
         public void Start(){} // RVA: 0x9B46AE0
+    }
+
+    /// <summary>Originally: ÌÍÏÎÍÎÏÎÌÍÌÏÌÎÍÎÍÌÌÍÌÍÌ</summary>
+    public class ToastNotificationUI : MonoBehaviour
+    {
+        public object _textMeshProUGUI;
+        public object _canvas;
+        public object _canvasGroup;
+        public object _container;
+        public object _backgroundImage;
+        public object _fadeDuration;
+        public object _notchOffset;
+        public object f_951;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9B1D5D0
+    }
+
+    /// <summary>Originally: ÏÏÌÎÎÎÍÎÌÍÏÌÌÎÏÎÌÌÍÌÍÏÏ</summary>
+    public class TooltipButtonTextItem : MonoBehaviour
+    {
+        public object text;
+        public object button;
+        public object tooltip;
+        public object buttonText;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x9F1AAB0
+        public void RaiseCancellation(){} // RVA: 0x9F1AD20
+        public void IsInvoking(){} // RVA: 0x9F1AF90
+        public void CancelInvoke(){} // RVA: 0x9F1B200
+        public void Invoke(){} // RVA: 0x9F1B470
+        public void InvokeRepeating(){} // RVA: 0x9F1B6E0
+        public void StartCoroutine(){} // RVA: 0x9F1B950
+        public void StartCoroutine_Auto(){} // RVA: 0x9F1BBC0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9F1BE30
     }
 
 }
