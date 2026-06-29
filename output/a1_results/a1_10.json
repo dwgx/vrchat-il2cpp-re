@@ -1,0 +1,362 @@
+[
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÏÍÍÏÍÏÌÌÎÌÏÌÍÍÍÎÎÎÌÎÎÏÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÏÍÍÍÍÍÍÍÌÏÎÎÍÏÍÌÎÌÎÍÏÏÍ",
+    "proposed_name": "UIPooledResourceEnumerator",
+    "confidence": "high",
+    "reason": "IEnumerator<KeyValuePair<Object,UIPooledResource>>方法签名明确指向VRC.DataModel.Core.UIPooledResource字典枚举器。"
+  },
+  {
+    "original_name": "ÌÌÎÌÏÎÍÎÏÍÏÏÏÍÎÍÌÍÎÏÎÌÍ",
+    "proposed_name": "LifecycleUnityObject",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy+get_name表明完整生命周期管理的命名Unity对象。"
+  },
+  {
+    "original_name": "ÎÍÏÎÍÌÍÏÎÏÍÍÎÍÌÏÌÏÎÏÍÌÍ",
+    "proposed_name": "InitializationParameters",
+    "confidence": "medium",
+    "reason": "全部字段为_7BDB编译器生成符号,仅有Initialize方法,推测为初始化参数结构体。"
+  },
+  {
+    "original_name": "ÌÌÌÎÍÏÌÏÌÌÎÎÍÍÌÏÌÍÎÏÌÎÌ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate+get/set_name表明带初始化的可实例化Unity对象。"
+  },
+  {
+    "original_name": "ÌÍÎÎÎÏÍÏÎÏÍÌÏÍÏÍÎÎÎÍÏÍÎ",
+    "proposed_name": "MinimalUnityIdentity",
+    "confidence": "medium",
+    "reason": "方法极少(≤2),仅保留最小Unity对象身份标识接口。"
+  },
+  {
+    "original_name": "ÍÎÎÎÎÍÎÍÍÏÌÍÏÌÎÍÍÎÌÍÌÍÏ",
+    "proposed_name": "InitializableNamedObject",
+    "confidence": "medium",
+    "reason": "Initialize+get_name但无Instantiate/Destroy,轻量命名对象初始化器。"
+  },
+  {
+    "original_name": "ÍÌÎÍÌÏÏÎÍÌÏÍÍÍÍÏÏÏÏÍÎÌÍ",
+    "proposed_name": "MinimalUnityIdentity",
+    "confidence": "medium",
+    "reason": "方法极少(≤2),仅保留最小Unity对象身份标识接口。"
+  },
+  {
+    "original_name": "ÍÎÍÍÍÎÏÍÏÍÎÍÏÌÌÍÌÌÏÌÌÎÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÎÎÏÏÎÎÏÍÏÏÏÌÍÎÍÎÎÎÌÎÎÍÎ",
+    "proposed_name": "LifecycleUnityObject",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy+get_name表明完整生命周期管理的命名Unity对象。"
+  },
+  {
+    "original_name": "ÍÎÍÎÌÏÎÌÌÍÍÏÏÏÌÌÍÍÎÍÏÎÎ",
+    "proposed_name": "InitializableNamedObject",
+    "confidence": "medium",
+    "reason": "Initialize+get_name但无Instantiate/Destroy,轻量命名对象初始化器。"
+  },
+  {
+    "original_name": "ÍÌÍÏÍÌÌÍÎÍÎÏÍÏÏÍÌÏÎÌÏÎÍ",
+    "proposed_name": "UnityObjectFinder",
+    "confidence": "medium",
+    "reason": "FindObjectsOfType+Initialize+ToString,具备对象查找/注册功能的Unity资源类。"
+  },
+  {
+    "original_name": "ÍÎÎÍÌÌÏÎÎÍÌÎÎÍÌÏÏÏÎÏÎÍÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÎÎÍÌÌÏÎÎÍÌÎÎÍÌÏÏÏÎÏÎÍÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÏÌÏÏÌÍÎÏÏÌÎÌÍÎÍÏÌÎÌÌÌÎÎ",
+    "proposed_name": "DestroyableInitObject",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy而无get_name,推测为无名称的可销毁初始化对象。"
+  },
+  {
+    "original_name": "ÍÍÍÌÎÎÌÎÎÏÎÍÍÍÌÎÎÎÏÏÏÍÍ",
+    "proposed_name": "DisposableUnityResource",
+    "confidence": "high",
+    "reason": "Dispose+Cleanup+Initialize+Destroy四者共存,完整托管资源生命周期。"
+  },
+  {
+    "original_name": "ÏÍÍÌÍÍÌÎÌÎÍÍÎÎÎÌÎÌÏÏÍÎÌ",
+    "proposed_name": "DisposableUnityObject",
+    "confidence": "high",
+    "reason": "Dispose+Cleanup共存是Unity托管资源包装的典型模式。"
+  },
+  {
+    "original_name": "ÍÌÍÍÍÎÏÍÌÏÍÌÍÏÏÌÏÎÍÍÎÏÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÌÍÏÏÍÎÎÌÌÌÍÏÏÏÌÏÏÎÏÎÌÎ",
+    "proposed_name": "DisposableUnityObject",
+    "confidence": "high",
+    "reason": "Dispose+Cleanup共存是Unity托管资源包装的典型模式。"
+  },
+  {
+    "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+    "proposed_name": "LifecycleUnityObject",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy+get_name表明完整生命周期管理的命名Unity对象。"
+  },
+  {
+    "original_name": "ÎÎÎÍÎÎÎÎÎÌÌÌÏÍÏÎÏÎÎÏÌÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÍÌÏÍÍÏÏÌÍÍÍÌÏÌÌÍÏÎÏÌÏÏÍ",
+    "proposed_name": "UnityObjectIdentity",
+    "confidence": "medium",
+    "reason": "仅GetInstanceID/Equals/GetHashCode三方法,极简Unity对象标识类型。"
+  },
+  {
+    "original_name": "ÏÎÎÏÌÌÎÎÌÍÎÎÏÌÎÎÍÌÎÍÍÌÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+  },
+  {
+    "original_name": "ÎÏÌÏÏÌÎÏÎÍÌÎÍÌÎÍÏÏÌÍÍÎÎ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr无name/Instantiate,轻量原生对象初始化包装。"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "UnityObjectEnumerable",
+    "confidence": "medium",
+    "reason": "实现IEnumerable<T>/IEnumerator接口并携带IsNativeObjectAlive/Initialize,是可迭代Unity对象集合。"
+  }
+]

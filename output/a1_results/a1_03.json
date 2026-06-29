@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÎÌÍÌÎÏÏÏÍÍÏÍÌÎÍÌÍÎÌÌÏÎÌ",
+    "proposed_name": "InitializedObjectBase_01",
+    "confidence": "medium",
+    "reason": "Initialize present: base initialized object wrapper"
+  },
+  {
+    "original_name": "ÍÏÌÏÎÍÎÏÎÍÏÏÎÎÎÏÏÌÏÏÍÏÏ",
+    "proposed_name": "InitializedNamedNativeObject_01",
+    "confidence": "medium",
+    "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+  },
+  {
+    "original_name": "ÎÍÎÍÍÌÎÌÏÎÎÍÎÎÍÌÌÍÎÏÌÏÎ",
+    "proposed_name": "FullNativeObjectProxy_01",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÌÌÏÌÏÌÍÍÍÎÍÍÍÌÍÌÏÍÎÎÎÍÏ",
+    "proposed_name": "NativeObjectStub_01",
+    "confidence": "medium",
+    "reason": "No methods: empty Object-derived stub class"
+  },
+  {
+    "original_name": "ÎÏÏÎÍÌÌÌÌÏÍÏÏÏÍÌÌÌÌÎÎÏÎ",
+    "proposed_name": "InitializedNativeObjectCached_01",
+    "confidence": "medium",
+    "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+  },
+  {
+    "original_name": "ÌÏÏÎÏÍÏÎÌÍÌÌÍÍÏÏÍÎÏÏÍÎÍ",
+    "proposed_name": "InitializedNamedInstantiatable_01",
+    "confidence": "medium",
+    "reason": "Initialize+name+Instantiate: initialized named instantiatable object"
+  },
+  {
+    "original_name": "ÌÏÏÌÍÎÏÌÍÍÌÎÍÎÎÍÏÎÌÍÏÍÏ",
+    "proposed_name": "InitializedNativeObjectCached_02",
+    "confidence": "medium",
+    "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+  },
+  {
+    "original_name": "ÏÎÌÎÌÏÎÍÍÏÍÎÎÎÎÏÏÏÎÎÍÏÏ",
+    "proposed_name": "FullNativeObjectProxy_02",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÏÌÍÌÎÍÍÎÍÍÏÌÏÍÎÌÌÌÌÍÌÏÎ",
+    "proposed_name": "ManagedNativeObjectFull_01",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÎÏÌÍÌÎÎÎÍÎÎÏÌÎÍÏÏÌÎÍÎÏÎ",
+    "proposed_name": "InitializedCachedNamedObject_01",
+    "confidence": "medium",
+    "reason": "Initialize+GetCachedPtr+name: cached initialized named object"
+  },
+  {
+    "original_name": "ÏÍÍÏÏÏÏÌÌÎÌÍÌÍÎÌÍÌÏÏÎÎÌ",
+    "proposed_name": "FullNativeObjectProxy_03",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÍÎÌÍÌÌÎÎÌÎÏÍÌÏÏÎÎÌÎÌÍÌÍ",
+    "proposed_name": "NativeObjectStub_02",
+    "confidence": "medium",
+    "reason": "No methods: empty Object-derived stub class"
+  },
+  {
+    "original_name": "ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ",
+    "proposed_name": "BackingFieldStore_01",
+    "confidence": "high",
+    "reason": "BackingFieldBase parent with opaque hex-indexed fields, backing field container"
+  },
+  {
+    "original_name": "ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ",
+    "proposed_name": "BackingFieldStore_02",
+    "confidence": "high",
+    "reason": "BackingFieldBase parent with opaque hex-indexed fields, backing field container"
+  },
+  {
+    "original_name": "ÏÍÎÍÌÍÍÎÌÎÌÍÎÍÎÍÍÌÎÏÍÍÌ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_01",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÍÎÏÏÌÍÍÌÍÏÏÎÏÎÍÌÎÎÎÌÌÎÍ",
+    "proposed_name": "ManagedNamedNativeObject_01",
+    "confidence": "medium",
+    "reason": "Destroy+Initialize+name+Instantiate: managed named native object"
+  },
+  {
+    "original_name": "ÌÏÌÌÎÏÍÍÏÌÍÏÏÎÌÏÍÍÎÏÌÌÎ",
+    "proposed_name": "ManagedNativeObjectFull_02",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÏÎÍÌÍÏÌÎÍÎÎÍÌÏÏÏÏÌÏÏÏÎÎ",
+    "proposed_name": "InitializedNativeObjectLight_01",
+    "confidence": "medium",
+    "reason": "Initialize+IsNativeObjectAlive without cached ptr: lightweight native init wrapper"
+  },
+  {
+    "original_name": "ÎÌÏÍÏÍÎÌÌÍÏÍÌÍÌÍÌÌÎÌÍÍÍ",
+    "proposed_name": "InitializedObjectBase_02",
+    "confidence": "medium",
+    "reason": "Initialize present: base initialized object wrapper"
+  },
+  {
+    "original_name": "ÌÌÌÍÎÏÎÎÌÌÌÏÎÍÍÌÎÎÌÏÎÎÎ",
+    "proposed_name": "NativeObjectStub_03",
+    "confidence": "medium",
+    "reason": "No methods: empty Object-derived stub class"
+  },
+  {
+    "original_name": "ÏÏÍÎÎÌÌÎÌÎÎÍÍÌÌÍÌÍÏÌÎÏÌ",
+    "proposed_name": "DisposableManagedObjectFull_01",
+    "confidence": "high",
+    "reason": "Dispose+Destroy+Initialize: fully managed lifecycle disposable object"
+  },
+  {
+    "original_name": "ÌÌÏÎÎÌÎÍÌÏÎÏÌÎÎÍÌÎÎÌÍÏÎ",
+    "proposed_name": "DisposableManagedObjectFull_02",
+    "confidence": "high",
+    "reason": "Dispose+Destroy+Initialize: fully managed lifecycle disposable object"
+  },
+  {
+    "original_name": "ÌÍÏÏÎÎÌÌÎÍÌÎÌÎÎÍÍÎÌÏÍÎÌ",
+    "proposed_name": "DisposableCoroutineEnumerator_01",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÎÌÌÍÎÍÏÌÎÌÏÏÌÎÍÎÎÎÍÎÎÌÏ",
+    "proposed_name": "EnumerableCoroutineCollection_01",
+    "confidence": "high",
+    "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+  },
+  {
+    "original_name": "ÎÌÌÏÌÌÌÌÌÍÏÎÎÎÎÍÌÌÏÏÌÍÍ",
+    "proposed_name": "ManagedNativeObject_01",
+    "confidence": "medium",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive: managed native object lifecycle"
+  },
+  {
+    "original_name": "ÏÌÍÏÍÏÍÎÎÏÌÌÌÎÌÌÍÎÎÏÎÎÎ",
+    "proposed_name": "DisposableNativeObject_01",
+    "confidence": "medium",
+    "reason": "IDisposable: disposable native Unity object wrapper"
+  },
+  {
+    "original_name": "ÏÌÏÌÍÏÌÍÌÎÎÍÎÏÏÏÏÌÏÍÎÏÌ",
+    "proposed_name": "DisposableDestroyableObject_01",
+    "confidence": "medium",
+    "reason": "Dispose+Destroy: disposable and destroyable Unity object"
+  },
+  {
+    "original_name": "ÌÍÎÍÌÎÏÍÏÌÌÎÎÏÍÌÏÏÏÌÎÏÌ",
+    "proposed_name": "InitializedNamedInstantiatable_02",
+    "confidence": "medium",
+    "reason": "Initialize+name+Instantiate: initialized named instantiatable object"
+  },
+  {
+    "original_name": "ÌÎÍÎÏÍÎÍÍÎÍÌÏÏÎÎÏÌÌÌÏÎÎ",
+    "proposed_name": "NativeObjectProxy_01",
+    "confidence": "medium",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+Instantiate: native object proxy without init"
+  },
+  {
+    "original_name": "ÏÌÍÌÌÌÎÌÍÌÏÍÏÏÎÌÍÎÏÌÍÏÍ",
+    "proposed_name": "InitializedNamedNativeObject_02",
+    "confidence": "medium",
+    "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+  },
+  {
+    "original_name": "ÎÎÎÌÏÍÍÌÍÎÌÍÎÎÌÍÍÌÏÌÎÏÏ",
+    "proposed_name": "FullNativeObjectProxy_04",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÍÏÌÌÎÍÎÌÌÍÍÏÌÏÌÍÎÍÍÏÍÎÎ",
+    "proposed_name": "ManagedNativeObjectFull_03",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÏÌÌÏÌÌÍÎÎÏÎÌÍÏÏÏÏÎÍÏÍÎÍ",
+    "proposed_name": "ManagedNativeObject_02",
+    "confidence": "medium",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive: managed native object lifecycle"
+  },
+  {
+    "original_name": "ÎÍÍÎÌÏÍÎÎÏÎÏÎÎÌÌÏÎÏÌÏÍÎ",
+    "proposed_name": "DisposableCoroutineEnumerator_02",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÍÌÏÌÌÍÌÎÍÎÏÍÏÌÍÍÏÎÍÎÌÎÏ",
+    "proposed_name": "DisposableCoroutineEnumerator_03",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÌÌÏÍÌÎÍÍÌÏÎÍÏÎÍÌÏÎÌÎÏÎÍ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_02",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÎÏÎÌÏÎÎÌÍÎÎÌÎÏÏÌÏÎÏÎÏÏÎ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_03",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÍÏÏÎÍÎÌÌÏÎÌÍÍÍÌÍÏÍÍÍÍÏÌ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_04",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÏÍÏÏÍÍÍÌÍÏÍÏÍÍÎÏÌÍÌÎÍÏÎ",
+    "proposed_name": "DisposableCoroutineEnumerator_04",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÌÌÌÎÌÏÎÎÎÍÏÌÍÌÎÌÎÍÌÌÎÏÏ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_05",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÎÌÎÌÎÎÌÍÎÌÌÏÏÍÎÌÌÌ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_06",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÏÍÏÏÌÎÎÏÌÏÎÍÎÏÏÍÌÎÍÌÏÌÌ",
+    "proposed_name": "DisposableCoroutineEnumerator_05",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÏÏÏÍÎÏÏÏÎÎÏÏÎÌÌÌÏÍÌÏÌÏÍ",
+    "proposed_name": "FullNativeObjectProxy_05",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÍÍÏÌÌÌÍÏÌÏÎÎÎÌÌÍÌÌÏÍÍÎÏ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_07",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÏÎÏÌÏÍÏÎÎÎÍÌÌÎÌÎÎÌÍÏÍÏÏ",
+    "proposed_name": "DisposableCoroutineEnumerator_06",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÍÌÏÎÎÍÎÏÎÌÌÏÌÍÍÎÍÏÌÎÏÎÌ",
+    "proposed_name": "DisposableCoroutineEnumerator_07",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÏÏÍÎÏÎÏÌÎÎÏÌÌÍÌÏÏÎÍÏÍÎÍ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_08",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÌÌÍÍÌÎÎÎÍÎÌÌÎÍÌÍÏÏÌÎÍÎÏ",
+    "proposed_name": "CoroutineEnumerator_01",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator methods: coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÎÎÍÎÎÎÌÌÏÎÏÏÎÎÍÍÌÌÎÏÏÎÏ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_09",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÎÌÏÏÍÍÎÎÎÎÎÎÍÎÎÎÌÍÎÏÎÎÎ",
+    "proposed_name": "DisposableCoroutineEnumerator_08",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÏÍÍÎÍÌÎÎÏÌÌÍÏÎÎÎÎÍÍÏÎÌÎ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_10",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÏÎÏÍÌÏÎÏÎÍÌÎÍÏÎÍÏÎÏÎÍÏÌ",
+    "proposed_name": "EnumerableCoroutineCollection_02",
+    "confidence": "high",
+    "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+  },
+  {
+    "original_name": "ÌÌÏÍÍÍÍÏÌÎÎÏÏÎÌÎÍÌÍÎÎÍÍ",
+    "proposed_name": "DisposableDestroyableObject_02",
+    "confidence": "medium",
+    "reason": "Dispose+Destroy: disposable and destroyable Unity object"
+  },
+  {
+    "original_name": "ÏÏÍÍÌÎÏÍÎÌÍÎÎÌÏÏÎÍÌÌÏÍÍ",
+    "proposed_name": "FullNativeObjectProxy_06",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÌÍÏÏÏÎÍÍÏÌÎÎÎÎÎÏÎÌÏÌÍÍÎ",
+    "proposed_name": "FullNativeObjectProxy_07",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÎÌÌÎÍÍÍÏÎÍÎÏÍÌÎÌÏÍ",
+    "proposed_name": "UnityObjectVariant_01",
+    "confidence": "medium",
+    "reason": "Unity Object subclass variant with partial method set"
+  },
+  {
+    "original_name": "ÍÏÎÌÌÏÍÌÍÏÌÎÎÎÌÌÎÍÍÎÏÌÌ",
+    "proposed_name": "ManagedNativeObjectFull_04",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_05",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_06",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_07",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_08",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_09",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_10",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÏÌÌÏÎÎÎÍÏÎÌÏÌÎÏÍÎÌÎÍÍÏÎ",
+    "proposed_name": "CoroutineEnumerator_02",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator methods: coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÎÎÏÌÍÎÎÎÌÍÎÎÍÎÎÌÏÍ",
+    "proposed_name": "DisposableCoroutineEnumerator_09",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÎÌÏÌÌÍÍÌÌÏÍÎÍÌÎÏÏÍÍÎÏÏÎ",
+    "proposed_name": "FullNativeObjectProxy_08",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÏÏÍÏÍÏÌÎÎÏÍÏÏÌÏÏÍÎÎÎÏÌÌ",
+    "proposed_name": "ValueObjectBase_01",
+    "confidence": "medium",
+    "reason": "Equals+GetHashCode without native ptr: value-type-like object base"
+  },
+  {
+    "original_name": "ÎÌÌÎÌÌÎÎÍÎÍÌÎÍÍÍÎÌÏÌÎÍÎ",
+    "proposed_name": "InitializedNativeObjectCached_03",
+    "confidence": "medium",
+    "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "EnumerableCoroutineCollection_03",
+    "confidence": "high",
+    "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+  },
+  {
+    "original_name": "ÌÏÍÎÌÏÍÏÏÌÏÌÍÍÎÏÎÎÎÏÌÏÏ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_11",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  },
+  {
+    "original_name": "ÌÎÍÎÏÍÏÏÏÎÎÎÎÌÌÍÎÎÌÎÎÍÍ",
+    "proposed_name": "DisposableCoroutineEnumerator_10",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÏÌÌÍÍÏÎÏÏÌÎÎÎÎÏÏÏÍÌÍÍÏÏ",
+    "proposed_name": "DisposableCoroutineEnumerator_11",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÍÎÎÍÏÏÌÌÌÌÏÎÏÏÏÌÎÍÌÏÏÎÏ",
+    "proposed_name": "ManagedNativeObjectFull_11",
+    "confidence": "high",
+    "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+  },
+  {
+    "original_name": "ÎÌÏÎÏÍÏÌÌÏÍÎÎÍÍÎÌÌÏÍÌÎÏ",
+    "proposed_name": "FullNativeObjectProxy_09",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÌÏÌÍÌÍÍÏÍÍÌÍÏÎÎÍÎÌÏÍÏÏÌ",
+    "proposed_name": "InitializedNamedNativeObject_03",
+    "confidence": "medium",
+    "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+  },
+  {
+    "original_name": "ÏÏÎÎÍÏÏÏÎÎÎÎÌÍÌÎÏÎÏÍÎÍÎ",
+    "proposed_name": "NativeObjectStub_04",
+    "confidence": "medium",
+    "reason": "No methods: empty Object-derived stub class"
+  },
+  {
+    "original_name": "ÍÍÍÍÌÎÍÌÏÎÎÏÏÌÌÌÎÌÏÎÏÏÍ",
+    "proposed_name": "FullNativeObjectProxy_10",
+    "confidence": "high",
+    "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+  },
+  {
+    "original_name": "ÌÌÎÍÎÎÌÌÎÎÍÎÏÍÍÎÍÎÍÎÌÍÍ",
+    "proposed_name": "NativeObjectStub_05",
+    "confidence": "medium",
+    "reason": "No methods: empty Object-derived stub class"
+  },
+  {
+    "original_name": "ÎÎÎÌÏÌÌÏÍÏÎÏÍÏÎÎÍÏÎÏÍÍÍ",
+    "proposed_name": "DisposableCoroutineEnumerator_12",
+    "confidence": "medium",
+    "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+  },
+  {
+    "original_name": "ÌÍÏÍÎÏÏÎÍÎÌÍÏÎÎÌÍÌÏÌÍÍÌ",
+    "proposed_name": "CoroutineEnumeratorWithCleanup_12",
+    "confidence": "high",
+    "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+  }
+]

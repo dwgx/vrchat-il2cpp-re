@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÏÏÌÏÍÍÌÏÍÎÏÌÍÌÏÏÍÎÌÍÏÍÏ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÌÏÎÍÏÎÍÏÏÍÌÍÎÏÎÌÍÎÎÍÏÌÎ",
+    "proposed_name": "AnonymousInitializableObject",
+    "confidence": "medium",
+    "reason": "Initialize present but no get_name/set_name means anonymous (not user-visible) native object"
+  },
+  {
+    "original_name": "ÍÎÎÍÏÌÎÍÍÍÌÌÏÎÌÏÎÏÍÏÍÌÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÍÌÍÍÌÌÏÏÌÏÍÌÍÏÍÎÏÍÍÏÎÍÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÌÌÍÍÌÎÏÌÎÍÎÍÏÎÍÌÎÎÏÍÍÌÍ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÍÍÎÌÍÏÎÌÍÍÍÏÍÏÌÏÎÏÍÎÍÏÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÎÌÍÍÌÌÍÏÍÌÎÌÏÍÎÎÌÎÍÎÏÌÏ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÏÌÎÌÍÌÏÌÎÏÌÍÍÏÏÌÍÌÏÌÍÏÎ",
+    "proposed_name": "NativeResourceHandle",
+    "confidence": "medium",
+    "reason": "opaque _4A35 numeric fields with Dispose/Cleanup/Initialize lifecycle signals disposable native resource handle"
+  },
+  {
+    "original_name": "ÍÎÏÍÏÍÏÌÍÏÎÍÏÌÍÏÏÎÏÍÎÎÍ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÏÏÌÏÎÍÏÍÏÍÎÌÌÏÏÍÏÍÌÏÎÎÏ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÍÍÏÌÍÌÌÌÌÏÎÏÏÎÏÏÍÍÎÍÎÍÏ",
+    "proposed_name": "AnonymousNamedObject",
+    "confidence": "medium",
+    "reason": "has get/set_name but no GetInstanceID, likely an interface implementation shim"
+  },
+  {
+    "original_name": "ÏÏÏÏÌÎÏÏÏÏÏÏÌÌÌÍÏÍÏÎÏÍÍ",
+    "proposed_name": "DisposableNativeObject",
+    "confidence": "medium",
+    "reason": "Dispose+Cleanup pair without IEnumerator indicates explicit resource-release lifecycle object"
+  },
+  {
+    "original_name": "ÎÌÌÌÎÎÍÏÎÌÌÍÍÏÍÍÏÏÌÎÏÌÍ",
+    "proposed_name": "ImmediateDestroyableObject",
+    "confidence": "medium",
+    "reason": "DestroyImmediate without Initialize signals a Unity Object requiring synchronous destruction"
+  },
+  {
+    "original_name": "ÍÏÎÍÌÌÌÍÎÏÎÏÍÏÏÏÎÏÍÌÍÎÏ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÏÌÍÏÍÎÌÍÎÍÍÎÍÎÎÌÍÎÏÍÏÌ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÍÎÎÎÍÍÍÍÏÍÌÍÍÌÏÍÌÎÎÎÎÍÌ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÌÍÌÎÍÎÎÍÎÏÌÎÏÎÏÍÏÍÏÍÍÌÏ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÌÎÏÎÍÌÎÍÍÏÎÎÏÌÍÎÏÎÎÌÍÍÌ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÏÏÏÎÌÎÌÌÎÏÍÏÎÌÏÎÎÌÍÌÎÍÍ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÌÍÎÎÎÌÏÌÍÍÍÌÌÍÎÌÌÎÏÎÌÍÍ",
+    "proposed_name": "LifecycleManagedObject",
+    "confidence": "medium",
+    "reason": "Initialize+Finalize pair signals an object with explicit creation and GC finalization lifecycle"
+  },
+  {
+    "original_name": "ÏÍÎÎÍÍÌÏÌÎÏÍÏÍÍÍÍÎÏÏÏÍÏ",
+    "proposed_name": "FinalizableDisposableResource",
+    "confidence": "medium",
+    "reason": "Finalize+Dispose+Cleanup together indicate full GC-finalizable disposable resource"
+  },
+  {
+    "original_name": "ÎÏÌÏÏÍÍÍÎÎÌÎÎÍÍÍÎÍÍÎÍÏÎ",
+    "proposed_name": "NativeCollectionItemWrapper",
+    "confidence": "high",
+    "reason": "_item field + IList.Contains + IDictionary.Add indicates hybrid collection item binding"
+  },
+  {
+    "original_name": "ÍÌÏÌÏÎÎÍÍÌÍÍÎÌÏÎÎÌÎÌÍÍÏ",
+    "proposed_name": "InitializableImmediateDestroyObject",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+  },
+  {
+    "original_name": "ÍÌÏÏÍÌÌÍÍÏÎÏÏÎÌÍÌÏÍÎÌÎÏ",
+    "proposed_name": "InitializableImmediateDestroyObject",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+  },
+  {
+    "original_name": "ÏÍÏÏÏÎÏÎÌÎÏÎÍÎÍÌÏÎÍÍÌÎÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÏÌÎÏÍÌÍÌÍÌÏÌÍÍÏÍÎÎÍÍÌÍÏ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÌÌÍÎÏÎÍÏÎÌÌÏÍÌÌÍÎÌÍÌÎÍÍ",
+    "proposed_name": "WriteOnlyNameObject",
+    "confidence": "medium",
+    "reason": "set_name present without get_name indicates write-only name binding"
+  },
+  {
+    "original_name": "ÏÎÍÎÏÏÍÌÎÍÍÌÎÌÍÏÏÏÏÏÎÎÎ",
+    "proposed_name": "InitializableImmediateDestroyObject",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+  },
+  {
+    "original_name": "ÌÌÍÎÎÎÌÎÎÏÎÌÎÌÎÍÏÏÌÏÍÌÌ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÌÌÏÍÎÏÏÏÏÌÏÏÏÎÏÏÏ",
+    "proposed_name": "IndexableObjectWrapper",
+    "confidence": "medium",
+    "reason": "IndexOf method signals list/indexed collection wrapper over Unity Object"
+  },
+  {
+    "original_name": "ÍÎÏÌÍÏÍÎÎÎÎÍÎÏÎÎÍÎÍÍÍÎÎ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÎÏÍÍÍÌÏÌÍÌÎÌÏÌÎÌÍÏÍÏÍÎÏ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÌÍÏÌÏÎÎÎÍÎÌÏÍÍÍÎÌÎÍÏÎÍÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÍÏÎÏÍÏÌÍÍÌÎÌÍÏÏÏÎÍÏÏÎÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÏÍÏÎÍÍÎÏÌÎÎÍÎÍÎÎÍÌÏÌÌÏÍ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÎÎÎÍÎÍÏÍÌÎÌÏÌÍÍÏÌÏÌÌÏÎÌ",
+    "proposed_name": "NativeObjectIterator",
+    "confidence": "medium",
+    "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+  },
+  {
+    "original_name": "ÌÏÌÌÍÎÌÍÌÍÌÌÍÌÌÌÎÏÍÍÎÏÍ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÌÎÌÍÎÏÎÎÎÍÎÎÏÌÍÎÎÎÎÏÌÌÏ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÌÎÏÍÌÎÎÌÍÎÏÎÎÏÌÎÌÌÏÍÎÍÏ",
+    "proposed_name": "SampleHistoryEnumerator",
+    "confidence": "high",
+    "reason": "IEnumerator<VRC.SampleHistory<T>.Sample>.get_Current in method signature directly names the type"
+  },
+  {
+    "original_name": "ÍÌÏÌÎÏÍÏÍÍÎÌÎÌÌÍÌÏÎÎÍÍÎ",
+    "proposed_name": "FinalizableDisposableObject",
+    "confidence": "medium",
+    "reason": "Dispose+Finalize without Cleanup indicates GC-finalizable but manually disposable object"
+  },
+  {
+    "original_name": "ÎÎÏÌÍÌÌÍÏÎÎÎÌÍÎÏÌÍÎÌÎÌÍ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÍÏÍÍÌÏÏÎÏÍÍÌÏÍÍÏÏÍÌÍÏÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÏÍÏÎÎÌÎÍÌÍÏÎÌÍÌÎÌÍÏÏÎÍ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÏÌÏÎÌÏÍÎÍÍÏÌÌÌÏÌÎÏÌÎÏÌ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÎÌÎÎÏÎÌÌÌÍÌÌÌÎÌÌÏÎÏÍÏÍÎ",
+    "proposed_name": "MinimalObjectBinding",
+    "confidence": "medium",
+    "reason": "only GetInstanceID present: minimal IL2CPP Object binding with essentially no interface"
+  },
+  {
+    "original_name": "ÍÌÏÏÎÍÌÏÎÎÌÌÎÍÌÎÌÏÍÏÍÎÍ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÎÏÍÍÏÍÌÌÌÏÍÎÏÌÍÏÏÌÌÏÎÍÏ",
+    "proposed_name": "AnonymousInitializableObject",
+    "confidence": "medium",
+    "reason": "Initialize present but no get_name/set_name means anonymous (not user-visible) native object"
+  },
+  {
+    "original_name": "ÏÏÏÌÌÍÍÏÌÎÎÎÎÎÏÎÏÍÎÌÌÎÏ",
+    "proposed_name": "InitializableImmediateDestroyObject",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+  },
+  {
+    "original_name": "ÌÎÎÌÍÏÎÏÍÍÏÌÏÍÌÎÌÌÏÌÎÍÎ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÏÏÍÍÍÏÌÏÌÏÍÎÏÎÏÍÍÍÏÍÎÎÍ",
+    "proposed_name": "IAPPurchaseListener",
+    "confidence": "high",
+    "reason": "OnPurchaseFailed and OnInitialized callbacks signal IAP/store purchase listener interface"
+  },
+  {
+    "original_name": "ÍÏÍÍÌÍÌÎÍÏÏÍÏÎÎÏÏÌÌÍÍÏÏ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÏÌÎÎÌÍÍÌÏÎÏÍÏÎÍÎÎÍÏÎÏÍÏ",
+    "proposed_name": "AnonymousObjectReference",
+    "confidence": "medium",
+    "reason": "no get_name/set_name methods, anonymous native object reference without user-visible name"
+  },
+  {
+    "original_name": "ÍÎÌÍÏÍÍÎÌÌÏÎÎÏÎÍÏÌÎÌÏÌÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÌÎÌÏÌÍÌÎÌÌÌÎÎÎÌÎÏÌÌÎÌÏÍ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÏÍÎÏÌÌÏÎÎÏÍÍÎÌÌÎÎÏÏÎÏÍÍ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÎÏÎÍÌÏÏÌÎÏÎÌÍÌÎÍÌÍÎÏÎÏÌ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÍÏÍÎÍÌÍÏÌÍÌÏÌÏÏÍÍÏÌÍÏÍÎ",
+    "proposed_name": "NativeObjectIterator",
+    "confidence": "medium",
+    "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+  },
+  {
+    "original_name": "ÍÎÎÍÌÌÍÍÎÎÏÎÌÍÍÎÏÍÍÏÎÍÎ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÌÎÎÎÍÍÌÍÎÏÏÎÏÎÏÌÏÌÍÏÌÎÏ",
+    "proposed_name": "NativeObjectIterator",
+    "confidence": "medium",
+    "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+  },
+  {
+    "original_name": "ÍÎÌÍÏÍÏÏÍÍÎÏÍÏÍÎÌÍÌÎÎÍÎ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÏÍÌÌÍÍÍÎÏÍÎÍÏÎÌÏÎÍÍÍÏÏÎ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÌÍÏÍÎÍÏÏÏÌÌÎÏÏÌÏÏÎÍÎÎÏÌ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÌÍÏÌÍÍÎÏÍÏÏÍÍÏÎÎÍÍÏÏÏÎÍ",
+    "proposed_name": "NativeObjectIterator",
+    "confidence": "medium",
+    "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+  },
+  {
+    "original_name": "ÎÍÎÌÌÌÌÏÏÌÌÍÏÌÎÏÍÏÌÌÏÍÎ",
+    "proposed_name": "InitializableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+  },
+  {
+    "original_name": "ÏÌÎÏÌÏÏÎÏÎÌÏÎÏÌÍÍÍÏÏÏÎÏ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÏÍÎÍÏÏÏÌÎÌÍÍÍÏÌÌÏÍÏÏÎÌÎ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÏÍÍÍÏÎÏÌÏÍÎÌÎÌÎÍÏÌÎÏÎÏÎ",
+    "proposed_name": "NativeObjectIterator",
+    "confidence": "medium",
+    "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+  },
+  {
+    "original_name": "ÍÎÌÏÎÍÍÎÍÏÌÍÍÎÌÍÌÎÌÍÌÌÌ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÍÎÍÍÌÎÎÌÍÏÌÍÏÌÏÌÌÎÏÏÌÏÏ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÍÏÎÌÏÏÍÌÍÍÌÌÏÏÍÎÍÎÎÏÏÎÍ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÎÏÏÎÏÌÎÌÎÎÌÏÍÍÌÌÌÌÏÎÎÍÍ",
+    "proposed_name": "DisposableObjectBinding",
+    "confidence": "medium",
+    "reason": "Dispose present without IEnumerator context signals a directly disposable Unity Object binding"
+  },
+  {
+    "original_name": "ÍÍÍÌÎÏÏÌÌÌÏÏÍÍÏÏÍÎÍÌÍÏÏ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÌÎÎÍÎÎÎÍÏÏÌÌÎÍÎÌÌÍ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÎÎÍÍÍÌÏÎÍÌÏÎÌÎÏÏÌÎÎÏÍÏÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+  },
+  {
+    "original_name": "ÏÎÏÍÎÎÏÏÍÍÎÍÌÍÍÎÏÍÍÎÌÍÍ",
+    "proposed_name": "DisposableObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+  },
+  {
+    "original_name": "ÏÎÎÎÍÍÎÍÌÍÎÎÏÌÎÌÏÌÎÏÌÌÎ",
+    "proposed_name": "InitializableNativeObject",
+    "confidence": "medium",
+    "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+  },
+  {
+    "original_name": "ÏÏÎÍÎÏÌÏÏÏÍÎÏÌÍÌÍÏÏÌÌÌÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÌÌÏÏÌÍÍÌÏÏÎÎÎÎÎÍÍÏÎÎÍÏÎ",
+    "proposed_name": "UnityObjectStub",
+    "confidence": "medium",
+    "reason": "only standard Object fields and no methods, cannot distinguish domain role"
+  },
+  {
+    "original_name": "ÎÍÌÌÌÎÌÌÌÍÎÎÎÍÏÍÏÍÏÏÌÍÎ",
+    "proposed_name": "LifecycleManagedObject",
+    "confidence": "medium",
+    "reason": "Initialize+Finalize pair signals an object with explicit creation and GC finalization lifecycle"
+  },
+  {
+    "original_name": "ÏÌÌÍÎÏÍÎÌÏÍÍÏÌÌÎÌÎÏÌÏÎÏ",
+    "proposed_name": "AnonymousObjectReference",
+    "confidence": "medium",
+    "reason": "no get_name/set_name methods, anonymous native object reference without user-visible name"
+  }
+]

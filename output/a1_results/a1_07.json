@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÍÌÎÎÏÍÌÎÌÍÏÌÍÎÍÌÌÌÏÎÏÏÎ",
+    "proposed_name": "InitDestroyObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Initialize和Destroy无Instantiate"
+  },
+  {
+    "original_name": "ÍÏÏÏÎÍÌÎÍÍÎÏÍÌÍÎÌÍÏÏÌÏÎ",
+    "proposed_name": "InitializableInstantiableObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Initialize和Instantiate"
+  },
+  {
+    "original_name": "ÎÏÍÎÎÏÍÍÌÏÏÎÍÍÍÏÎÍÌÏÏÍÎ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÌÎÏÏÎÌÏÏÌÍÌÍÍÌÏÏÎÍÍÍÎÍ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÏÌÏÌÌÎÎÌÏÌÌÌÍÌÏÍÏÍÎÍÍÎÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÍÍÍÏÍÌÎÎÎÎÌÌÍÌÌÌÏÍÏÏÍÏÍ",
+    "proposed_name": "OpaqueOffsetFieldContainer",
+    "confidence": "medium",
+    "reason": "字段为十六进制偏移命名的不透明字段容器"
+  },
+  {
+    "original_name": "ÍÌÌÌÏÍÎÏÎÎÎÎÏÍÏÍÏÌÏÍÏÎÎ",
+    "proposed_name": "OpaqueOffsetFieldContainer",
+    "confidence": "medium",
+    "reason": "字段为十六进制偏移命名的不透明字段容器"
+  },
+  {
+    "original_name": "ÎÌÎÏÌÎÌÍÍÎÍÎÎÍÏÌÏÎÌÌÏÏÎ",
+    "proposed_name": "EmptyObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity Object子类，无方法，空包装壳"
+  },
+  {
+    "original_name": "ÎÏÌÎÎÏÌÍÏÎÍÍÎÍÎÏÍÍÏÌÎÎÎ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÏÍÏÎÍÌÏÏÍÏÎÎÌÌÎÏÏÌÍÌÎÎÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÌÌÏÎÎÎÍÎÎÎÏÍÎÏÏÏÏÌÏÏÍÌÎ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÍÍÍÌÎÌÎÌÌÎÎÌÍÏÎÎÍÌÏÎÌÎÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÍÍÌÎÌÌÏÍÏÌÌÍÌÎÏÏÎÌÎÎÏÎ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÏÍÎÏÍÏÎÎÏÏÎÍÍÌÌÏÏÍÍÌÌÍÌ",
+    "proposed_name": "StringEnumerableWrapper",
+    "confidence": "high",
+    "reason": "含IEnumerable<String>.GetEnumerator方法的字符串可枚举包装"
+  },
+  {
+    "original_name": "ÌÌÍÌÌÏÍÎÍÏÎÍÎÏÌÎÌÌÌÏÎÏÌ",
+    "proposed_name": "InitializableObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+  },
+  {
+    "original_name": "ÏÍÏÎÍÎÎÏÎÎÏÎÌÌÎÎÍÌÎÎÏÏÍ",
+    "proposed_name": "InitializableObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+  },
+  {
+    "original_name": "ÎÍÏÍÌÍÎÌÌÍÍÌÍÏÌÏÏÎÎÌÏÌÎ",
+    "proposed_name": "InitializableInstantiableObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Initialize和Instantiate"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÎÍÏÍÌÌÍÎÎÏÍÏÍÏÍÍÍÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÎÏÏÍÏÎÎÍÎÏÍÎÎÌÌÏÌÎÏÎÎÌ",
+    "proposed_name": "InitializableObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+  },
+  {
+    "original_name": "ÎÌÌÌÏÌÌÍÌÍÍÏÎÎÌÏÎÎÎÍÌÏÎ",
+    "proposed_name": "InitDestroyObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Initialize和Destroy无Instantiate"
+  },
+  {
+    "original_name": "ÌÏÏÏÍÌÍÎÍÎÌÍÎÏÍÌÏÍÏÌÍÌÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÌÍÌÎÏÏÏÏÌÌÏÌÌÎÌÍÏÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÍÍÌÏÎÎÎÍÌÌÎÌÌÏÎÏÏÎÍÌÍÍ",
+    "proposed_name": "InstantiableDestroyableObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Instantiate和Destroy"
+  },
+  {
+    "original_name": "ÎÍÎÎÎÍÍÍÎÌÏÎÏÍÎÌÍÍÏÌÍÍÏ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÎÍÏÍÍÎÎÍÌÌÎÎÍÏÍÎÌÍÏÌÎÌÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÍÎÍÏÏÌÎÏÎÎÎÍÌÍÎÏÌÎÍÏÌÎÏ",
+    "proposed_name": "ManagedObjectEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+  },
+  {
+    "original_name": "ÎÏÌÍÌÎÏÍÎÍÎÏÌÌÌÍÏÏÏÏÏÎÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÍÎÍÌÎÏÌÌÌÎÏÍÏÎÍÍÌÍÏÎÏÏ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÎÏÎÌÎÎÍÍÏÌÍÎÍÏÎÍÌÍÌÏÌÏÍ",
+    "proposed_name": "ManagedObjectEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+  },
+  {
+    "original_name": "ÍÎÍÎÎÎÏÌÎÍÎÏÍÌÌÏÏÌÏÎÍÏÎ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÌÌÌÍÎÍÎÎÌÍÎÍÎÏÏÌÌÍÏÎÍÎÌ",
+    "proposed_name": "ManagedObjectEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+  },
+  {
+    "original_name": "ÎÌÍÍÏÎÍÌÌÎÍÍÏÎÎÍÌÏÌÍÍÏÏ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize"
+  },
+  {
+    "original_name": "ÌÏÍÏÎÎÎÎÌÏÌÌÏÏÌÏÏÍÏÎÌÍÏ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize"
+  },
+  {
+    "original_name": "ÎÏÎÏÌÍÏÍÌÌÍÏÏÍÌÏÌÍÎÎÎÎÍ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÍÍÏÍÌÍÍÍÎÌÎÎÍÌÍÍÍÎÍÎÏÏÍ",
+    "proposed_name": "InitializableObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+  },
+  {
+    "original_name": "ÏÍÎÎÍÌÍÏÏÏÌÌÎÎÎÍÏÏÎÍÍÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÏÎÌÏÎÍÏÎÎÍÍÌÏÍÎÌÌÏÏÏÏÌÏ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÌÎÎÍÎÏÌÏÏÎÎÏÍÎÏÍÌÏÎÍÏÌÍ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÍÏÌÎÎÎÏÍÎÌÍÌÏÍÏÌÌÌÎÍÏÌÍ",
+    "proposed_name": "InitializableObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+  },
+  {
+    "original_name": "ÎÏÏÏÌÏÌÍÍÍÏÎÌÌÍÍÎÍÍÍÍÏÌ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÌÏÏÌÎÍÎÎÏÍÏÎÎÎÏÏÍÏÏÌÎÏÎ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÏÏÎÍÏÎÎÏÏÌÌÍÎÍÍÏÍÏÍÏÎÏÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÍÏÏÍÍÌÎÍÌÌÍÌÍÏÎÎÏÏÏÌÎÎÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÌÏÍÏÍÏÎÍÍÎÏÏÏÌÌÍÏÎÍÏÏÍÏ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ",
+    "proposed_name": "BackingFieldStore",
+    "confidence": "medium",
+    "reason": "继承BackingFieldBase的字段存储容器"
+  },
+  {
+    "original_name": "ÌÌÏÏÍÍÏÏÍÌÏÌÏÍÌÎÍÍÎÍÍÍÍ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÍÎÍÏÍÍÏÍÎÌÏÍÏÏÍÍÎÌÍÎÌÌ",
+    "proposed_name": "CloneableNativeObject",
+    "confidence": "medium",
+    "reason": "含Clone方法的可克隆Native对象"
+  },
+  {
+    "original_name": "ÎÍÌÎÎÎÍÎÎÏÎÏÎÏÏÌÏÌÌÍÌÍÍ",
+    "proposed_name": "CloneableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含Clone和Instantiate的可克隆实例化Unity对象"
+  },
+  {
+    "original_name": "ÌÍÌÎÍÌÌÍÌÌÏÏÍÎÍÍÌÌÎÎÍÏÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÎÌÏÍÌÏÏÏÍÎÌÏÎÏÎÎÍÎÌÎÍÎ",
+    "proposed_name": "ManagedObjectEnumerator",
+    "confidence": "medium",
+    "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+  },
+  {
+    "original_name": "ÏÎÎÎÍÏÍÏÎÍÏÍÎÏÎÏÎÍÍÎÌÏÌ",
+    "proposed_name": "InitializableInstantiableObject",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含Initialize和Instantiate"
+  },
+  {
+    "original_name": "ÎÍÎÍÌÎÎÏÎÍÏÍÌÌÏÏÌÍÍÏÍÌÏ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÏÏÎÎÍÏÎÏÎÏÏÍÌÌÌÎÍÌÌÍÏÏÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÏÍÌÎÎÏÏÎÎÍÎÎÎÌÎÍÌÌÎÌÏÎÍ",
+    "proposed_name": "MinimalUnityObjectStub",
+    "confidence": "medium",
+    "reason": "极简Unity Object子类，仅有少量基础方法"
+  },
+  {
+    "original_name": "ÌÌÌÎÎÍÌÍÍÏÏÍÌÍÌÏÍÌÌÍÍÌÏ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÏÏÎÌÎÌÎÏÍÏÌÎÏÌÏÌÌÎÏÏÍÎÍ",
+    "proposed_name": "GenericEnumerableWrapper",
+    "confidence": "high",
+    "reason": "泛型IEnumerable<T>包装枚举器"
+  },
+  {
+    "original_name": "ÎÌÍÏÏÌÌÏÎÎÌÌÏÏÏÎÍÎÎÏÍÏÎ",
+    "proposed_name": "GenericEnumerableWrapper",
+    "confidence": "medium",
+    "reason": "含GetEnumerator的可枚举包装类"
+  },
+  {
+    "original_name": "ÌÍÎÍÎÎÏÏÌÏÌÎÍÏÍÌÌÏÏÏÍÎÎ",
+    "proposed_name": "ObjectEnumeratorImpl",
+    "confidence": "medium",
+    "reason": "IEnumerator<object>实现类"
+  },
+  {
+    "original_name": "ÌÏÍÌÍÎÌÎÎÌÌÍÌÎÎÍÌÌÏÌÎÎÎ",
+    "proposed_name": "EmptyObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity Object子类，无方法，空包装壳"
+  },
+  {
+    "original_name": "ÎÏÍÏÏÎÍÎÌÍÏÌÌÎÍÌÍÎÍÏÎÎÌ",
+    "proposed_name": "FinalizableUnityObject",
+    "confidence": "high",
+    "reason": "含Finalize和DestroyImmediate的强制销毁Unity对象"
+  },
+  {
+    "original_name": "ÏÏÎÍÎÌÎÌÏÍÍÎÌÎÌÌÌÌÍÍÏÍÌ",
+    "proposed_name": "ComparableOrderedObject",
+    "confidence": "medium",
+    "reason": "含CompareTo的可排序比较Unity对象"
+  },
+  {
+    "original_name": "ÌÌÍÌÍÏÎÎÎÏÍÍÏÎÏÌÌÍÌÍÌÍÍ",
+    "proposed_name": "IntStringListMapEnumerator",
+    "confidence": "high",
+    "reason": "IEnumerable<KeyValuePair<int,List<string>>>枚举器"
+  },
+  {
+    "original_name": "ÌÍÏÏÍÏÌÌÎÎÏÏÌÎÏÏÍÍÌÏÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÏÎÏÌÌÌÏÌÎÌÌÏÌÍÎÌÌÏÍÍÌÌÌ",
+    "proposed_name": "ValueTypeObjectBase",
+    "confidence": "medium",
+    "reason": "仅含Equals/GetHashCode/op_Implicit的值类型基类"
+  },
+  {
+    "original_name": "ÌÎÏÌÎÏÌÎÎÌÎÎÎÎÏÏÏÍÌÎÏÎÍ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÏÎÎÌÏÍÌÏÌÏÏÍÏÌÍÎÍÍÌÎÍÍÏ",
+    "proposed_name": "NameableInitializableObject",
+    "confidence": "medium",
+    "reason": "含Initialize和set_name的可命名初始化对象"
+  },
+  {
+    "original_name": "ÌÍÌÎÎÍÎÎÏÌÌÌÌÌÍÏÍÌÌÎÎÎÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÍÍÎÏÏÎÍÏÌÌÏÍÍÏÍÏÍÎÍÎÍÍÎ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÌÏÏÌÌÌÎÎÍÏÌÍÌÏÍÍÌÎÏÍÎÏÍ",
+    "proposed_name": "NativeObjectBase",
+    "confidence": "medium",
+    "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+  },
+  {
+    "original_name": "ÏÍÎÏÎÍÏÏÏÍÌÎÏÎÍÌÌÏÌÌÏÎÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÌÍÎÎÎÏÏÏÍÌÌÌÏÎÍÎÏÎÏÏÍÎÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÍÏÎÍÌÏÎÎÎÌÍÌÌÏÍÎÎÏÎÏÏÎÌ",
+    "proposed_name": "ObjectEnumeratorImpl",
+    "confidence": "medium",
+    "reason": "IEnumerator<object>实现类"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "ComparableInstantiableObject",
+    "confidence": "medium",
+    "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+  },
+  {
+    "original_name": "ÍÍÍÎÏÌÎÌÍÌÌÌÌÌÌÏÌÌÌÏÎÎÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+  },
+  {
+    "original_name": "ÎÎÍÎÏÍÎÏÍÍÏÌÎÌÎÎÌÏÍÎÍÏÎ",
+    "proposed_name": "AsyncDisposableObject",
+    "confidence": "high",
+    "reason": "含DisposeAsync/Dispose/Cleanup/Finalize的异步资源管理类"
+  }
+]

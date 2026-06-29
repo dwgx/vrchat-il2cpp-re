@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÎÎÎÎÏÎÏÌÌÏÌÍÍÌÌÍÌÎÏÌÏÎÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÎÌÌÍÎÍÏÌÎÌÏÏÌÎÍÎÎÎÍÎÎÌÏ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator<T> with MoveNext/get_Current, Unity Object collection enumerator"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÎÏÌÏÏÌÎÏÎÍÌÎÍÌÎÍÏÏÌÍÍÎÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÌÌÏÍÍÍÍÏÌÎÎÏÏÎÌÎÍÌÍÎÎÍÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÏÌÌÍÎÌÎÏÏÌÎÏÍÍÌÍÏÎÏÎÎÌÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÎÍÍÎÎÍÍÎÌÎÌÍÎÎÍÏÏÏÎÎÌÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÏÎÍÌÌÌÎÎÌÌÌÎÍÏÍÌÌÍÏÏÌÎÎ",
+    "proposed_name": "DisposableUnityResource",
+    "confidence": "medium",
+    "reason": "Dispose+Cleanup lifecycle indicates managed/disposable Unity resource wrapper"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÍÍÏÏÍÎÎÏÌÏÌÍÏÏÎÎÎÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÏÏÍÌÍÌÏÎÎÍÌÌÍÏÎÎÏÏÍÌÌÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÌÏÏÌÎÏÎÎÍÍÏÏÌÍÏÍÍÎÍÏÎÏÍ",
+    "proposed_name": "UnityObjectWithImmediateDestroy",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate lifecycle pattern, likely scene object with immediate cleanup"
+  },
+  {
+    "original_name": "ÎÍÎÏÏÎÍÏÎÍÌÍÍÎÌÏÍÎÏÌÌÍÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÎÍÌÏÏÎÍÏÎÏÎÏÏÎÏÍÎÏÍÎÌÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÌÏÏÌÎÍÍÏÌÏÍÏÍÍÎÏÎÍÌÏÍÏÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÎÍÍÍÏÌÍÍÌÏÌÎÏÎÌÎÍÌÍÌÎÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÍÏÌÎÎÌÌÏÎÍÏÍÍÏÍÎÍÍÍÌÌÍÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÌÍÍÏÎÎÎÏÎÏÌÎÌÍÏÍÍÎÎÏÎÎÌ",
+    "proposed_name": "UnityObjectRegistry",
+    "confidence": "medium",
+    "reason": "FindObjectsOfType+ToString suggests object lookup/registry utility base"
+  },
+  {
+    "original_name": "ÌÎÎÎÌÏÏÏÌÏÏÎÌÏÌÌÌÏÏÍÎÎÎ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÎÏÍÎÏÏÍÎÍÍÎÍÍÌÍÎÎÏÌÎÏÎÍ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÌÏÏÎÍÏÌÎÌÎÌÌÌÎÎÍÍÏÏÌÌÌÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÏÌÍÌÌÍÎÌÎÎÌÎÎÎÏÌÌÏÎÎÏÍÌ",
+    "proposed_name": "UnityObjectRegistry",
+    "confidence": "medium",
+    "reason": "FindObjectsOfType+ToString suggests object lookup/registry utility base"
+  },
+  {
+    "original_name": "ÎÍÍÍÌÍÌÎÎÍÍÎÎÎÍÎÌÍÎÎÍÍÌ",
+    "proposed_name": "UnityObjectWithImmediateDestroy",
+    "confidence": "medium",
+    "reason": "Initialize+DestroyImmediate lifecycle pattern, likely scene object with immediate cleanup"
+  },
+  {
+    "original_name": "ÌÏÎÏÏÍÌÌÍÍÍÍÌÎÎÎÎÌÍÎÍÎÌ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÎÏÍÎÍÏÍÌÎÌÍÌÍÎÍÎÍÎÍÍÏÏÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÏÍÍÍÍÎÌÏÍÏÌÍÏÍÎÎÌÏÍÎÏÎÏ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÎÎÎÍÍÏÏÎÎÌÌÌÌÎÎÎÍÏÌÍÏÎÎ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÍÌÏÍÏÍÌÎÏÎÌÏÎÏÍÏÎÌÎÎÎÍÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÍÌÏÍÏÍÌÎÏÎÌÏÎÏÍÏÎÌÎÎÎÍÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÌÎÏÌÏÌÎÌÏÎÌÍÌÏÎÏÏÌÍÍÌÎÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÌÍÏÏÌÏÏÌÍÎÏÏÌÍÎÍÍÎÍÍÎÍÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÌÏÍÏÍÌÎÏÎÌÏÎÏÍÏÎÌÎÎÎÍÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÎÌÎÏÌÌÏÏÍÍÎÎÎÏÏÌÎÏÌÍÍÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÌÏÎÏÎÍÏÍÎÏÍÎÍÏÍÏÌÍÎÎÍÏÌ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÌÏÌÎÎÍÎÍÍÍÍÏÌÏÏÍÌÍÍÏÍÏÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÏÏÎÎÌÌÎÎÍÎÎÎÎÏÍÎÍÎÎÌÏÎÎ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÏÌÍÍÍÏÍÏÍÎÍÎÌÏÍÏÎÏÍÌÎÍÍ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÏÍÌÍÌÏÏÏÏÌÍÍÍÎÏÌÏÎÍÏÍÌÎ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÌÏÏÎÍÌÌÌÌÍÎÌÏÌÌÎÏÌÏÎÏÌÏ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÍÏÌÏÎÌÍÍÎÏÎÍÏÏÎÎÏÏÎÌÏÍÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÌÍÍÌÎÌÏÌÌÏÏÌÍÌÌÌÎÌÍÏÎÎÍ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÏÏÎÎÍÏÏÌÎÎÌÏÎÎÎÎÏÎÍÎÌÏÌ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÎÎÏÏÍÏÎÌÏÏÏÏÏÎÎÌÍÍÏÎÏÍÌ",
+    "proposed_name": "UnityObjectBase",
+    "confidence": "medium",
+    "reason": "minimal Unity Object wrapper with only identity methods (GetInstanceID/Equals/GetHashCode/op_Implicit)"
+  },
+  {
+    "original_name": "ÌÎÎÍÌÍÌÌÎÏÍÍÏÌÏÌÎÎÌÌÌÌÍ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÎÏÌÍÏÏÎÎÏÎÍÌÏÌÏÎÏÏÌÌÌÍÌ",
+    "proposed_name": "StringEnumerable",
+    "confidence": "medium",
+    "reason": "IEnumerable<string>/IEnumerator<string> generic instantiation with Initialize/Destroy lifecycle"
+  },
+  {
+    "original_name": "ÍÎÎÎÌÍÏÎÏÌÍÏÍÍÍÌÎÎÍÍÍÏÎ",
+    "proposed_name": "StringEnumerable",
+    "confidence": "medium",
+    "reason": "IEnumerable<string>/IEnumerator<string> generic instantiation with Initialize/Destroy lifecycle"
+  },
+  {
+    "original_name": "ÏÏÏÎÏÎÎÏÌÏÏÏÍÎÌÏÌÏÎÏÍÏÌ",
+    "proposed_name": "UnityObjectBase",
+    "confidence": "medium",
+    "reason": "minimal Unity Object wrapper with only identity methods (GetInstanceID/Equals/GetHashCode/op_Implicit)"
+  },
+  {
+    "original_name": "ÎÏÎÍÍÌÍÎÌÏÍÌÌÎÎÍÏÍÌÌÍÌÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÎÍÍÌÍÍÎÍÍÌÍÍÌÍÌÏÌÏÍÍÏÍÌ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÍÍÌÎÎÌÏÍÌÌÎÏÏÌÌÌÏÌÏÌÌÌÌ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÌÎÏÍÍÏÍÌÌÏÍÎÏÏÍÏÍÏ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÏÌÏÍÍÍÍÍÌÏÌÍÏÎÏÌÍÌÍÍÌÍÏ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÎÍÎÏÍÌÌÏÏÎÏÍÏÍÏÎÍÎÎÎÏÌÏ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÎÌÏÍÏÎÎÎÏÍÎÏÏÌÏÌÎÎÎÏÍÏÍ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÏÎÌÏÌÍÏÎÏÌÌÌÍÍÍÎÍÎÍÍÏÎÌ",
+    "proposed_name": "UnityObjectTypeDescriptor",
+    "confidence": "medium",
+    "reason": "empty method set, pure Unity Object base type descriptor"
+  },
+  {
+    "original_name": "ÎÏÍÎÏÏÍÏÏÌÌÏÎÍÍÌÌÎÎÌÎÏÎ",
+    "proposed_name": "InitializableUnityObject",
+    "confidence": "medium",
+    "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+  },
+  {
+    "original_name": "ÌÍÎÏÏÌÍÏÏÎÌÎÌÏÎÎÏÎÏÏÎÌÏ",
+    "proposed_name": "ManagedUnityObject",
+    "confidence": "medium",
+    "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+  },
+  {
+    "original_name": "ÏÎÌÎÎÍÏÍÍÍÌÎÎÌÌÎÏÍÌÍÌÌÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  },
+  {
+    "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+  }
+]

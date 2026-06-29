@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÏÏÏÍÍÌÍÌÌÎÍÌÌÏÌÎÍÎÎÏÍÍÌ",
+    "proposed_name": "TetheredLabelWidget",
+    "confidence": "high",
+    "reason": "fields Tether/Label/Text/TextSecondary/Icon/IconSecondary labeled widget with tether, typical VRChat nameplate component"
+  },
+  {
+    "original_name": "ÎÍÎÌÌÎÎÌÎÎÎÎÌÎÌÏÌÏÌÎÎÏÌ",
+    "proposed_name": "OptionSelectorControl",
+    "confidence": "high",
+    "reason": "fields _currentOptionText/_leftButton/_rightButton/_optionTooltip/_onValueChanged left-right option selector UI control"
+  },
+  {
+    "original_name": "ÏÏÏÌÍÎÏÍÏÏÍÏÌÎÏÌÏÌÍÌÌÌÎ",
+    "proposed_name": "SeparatorGroupWithTooltips",
+    "confidence": "high",
+    "reason": "extends SeparatorsVisibilityBase; fields _title/_messages/_separators/_tooltips grouped UI with separators and tooltips"
+  },
+  {
+    "original_name": "ÏÎÏÌÎÏÏÏÏÍÌÌÏÌÏÌÍÌÌÌÍÍÌ",
+    "proposed_name": "NamedToggleItem",
+    "confidence": "high",
+    "reason": "fields _ID/_name/_nameField/_targetObjectToEnable/_targetObjectToDisable/_toggle named toggle list item enabling/disabling objects"
+  },
+  {
+    "original_name": "ÏÏÍÍÌÍÍÏÎÎÏÏÍÏÏÎÍÎÏÏÎÍÌ",
+    "proposed_name": "AudioRaycastScaledIconRenderer",
+    "confidence": "high",
+    "reason": "extends AudioraycastDistancelineRendererComponent; imageRenderer/raycastOffset/minObjectSize/maxObjectSizeDistance scale icons by distance"
+  },
+  {
+    "original_name": "ÌÍÍÌÍÏÎÍÍÏÍÍÏÏÏÌÏÌÍÎÎÎÌ",
+    "proposed_name": "ActionMenuDragController",
+    "confidence": "high",
+    "reason": "fields _quantizedDistance/_maxDistance/_actionMenu/_dragMenuPanel control drag distance for action menu"
+  },
+  {
+    "original_name": "ÍÍÍÎÌÎÍÏÎÌÎÌÌÏÏÌÌÎÍÏÌÎÎ",
+    "proposed_name": "WorldThumbnailFade",
+    "confidence": "high",
+    "reason": "extends ThumbnailFadeBase; fields _worldThumbnail/_fadeThumbnail/_thumbnailFadeTime world thumbnail fade component"
+  },
+  {
+    "original_name": "ÌÎÍÌÌÎÎÍÏÍÍÌÏÎÍÌÏÏÌÍÍÌÎ",
+    "proposed_name": "AvatarPlatformSupportPanel",
+    "confidence": "high",
+    "reason": "fields _contentWarningBanner/_supportedPlatformTags/_avatarPerformanceLimitIcon show avatar platform support and perf limits"
+  },
+  {
+    "original_name": "ÌÌÏÌÏÌÎÎÏÎÏÍÍÍÌÍÍÎÎÌÎÌÎ",
+    "proposed_name": "SortableContentListPanel",
+    "confidence": "high",
+    "reason": "fields _title/_closeButton/_contentList/_scrollRect/_sortDropdown plus pointer events sortable content list panel"
+  },
+  {
+    "original_name": "ÌÏÎÏÌÍÎÏÎÏÌÌÌÌÍÎÎÍÍÏÍÏÎ",
+    "proposed_name": "SidebarPanelLayoutController",
+    "confidence": "high",
+    "reason": "fields parentPanel/sidePanel/mainPanel/sidebarWidthExpanded/sidebarWidthCollapsed/animationDuration plus SetLayout methods sidebar layout"
+  },
+  {
+    "original_name": "ÍÍÌÏÌÏÍÌÎÌÍÎÌÎÏÌÏÎÌÍÌÌÌ",
+    "proposed_name": "DebugUIManager",
+    "confidence": "high",
+    "reason": "fields debugUIHolder/debugUIRootTransform/debugDrawHMDHolder/debugNetworkObjectInfo/debugPlayerInfo/debugVRCUiShapes VRChat debug UI manager"
+  },
+  {
+    "original_name": "ÍÍÎÏÌÎÏÎÌÏÌÌÌÌÏÌÏÎÎÍÌÌÎ",
+    "proposed_name": "WorldInstanceListBinding",
+    "confidence": "high",
+    "reason": "extends UIlistBindinglayoutGroupComponent; fields _prefabCompact/_prefabFull/_worldInstancePrefab/_shouldSortList/_sortingType"
+  },
+  {
+    "original_name": "ÍÎÏÌÌÏÌÌÏÍÏÌÎÍÌÌÏÎÌÍÌÎÌ",
+    "proposed_name": "SidebarListItemDisplay",
+    "confidence": "high",
+    "reason": "fields _taglineBG/_imageBG/_imageIcon/_tooltip/_sidebarListItem/iconStyle sidebar list item display"
+  },
+  {
+    "original_name": "ÍÏÏÏÌÌÏÏÎÌÍÌÏÏÏÌÍÎÌÏÌÏÍ",
+    "proposed_name": "ShopPrefabProvider",
+    "confidence": "high",
+    "reason": "fields categoryPrefab/gridContainerPrefab/itemCellPrefab/shopUpsellPrefab/vrcPlusWarningPrefab/filterPanelPrefab VRChat store UI prefab provider"
+  },
+  {
+    "original_name": "ÌÍÎÍÌÍÌÎÍÎÏÎÎÌÌÎÎÎÏÍÌÎÎ",
+    "proposed_name": "CollapsibleSectionWithTitle",
+    "confidence": "high",
+    "reason": "extends SeparatorsVisibilityBase; fields _visibilityButton/_elementsHiddenWhenCollapsed/_collapsedTitle/_expandedTitle collapsible titled section"
+  },
+  {
+    "original_name": "ÏÏÍÌÍÎÌÎÏÌÏÎÍÌÍÍÎÎÎÏÎÏÍ",
+    "proposed_name": "AvatarPerformanceLimitTextDisplay",
+    "confidence": "high",
+    "reason": "extends UIscrollRectfootnote; fields _instancePerformanceLimitText/avatarPerformanceLimitText/_instancePerformanceLimitIcon perf limit text display"
+  },
+  {
+    "original_name": "ÏÍÌÌÏÍÏÏÌÏÏÍÍÎÍÌÍÏÏÍÌÎÍ",
+    "proposed_name": "CalendarEventListDisplay",
+    "confidence": "high",
+    "reason": "fields _eventList/_headerPrefab/_noEventsPanel/_noEventsText/_iconBinding/_loadingOverlay event list display"
+  },
+  {
+    "original_name": "ÎÍÍÍÏÏÏÏÏÎÎÌÍÌÎÌÏÌÎÍÍÎÌ",
+    "proposed_name": "HandTrackingConfidenceSettings",
+    "confidence": "high",
+    "reason": "extends ConfidenceInputBase; fields _numHandsInput/_minHandDetectionConfidenceInput/_minTrackingConfidenceInput hand tracking confidence"
+  },
+  {
+    "original_name": "ÍÍÎÍÌÎÌÍÎÌÍÏÌÎÍÏÎÍÎÏÏÌÏ",
+    "proposed_name": "AvatarPanelTabController",
+    "confidence": "high",
+    "reason": "fields _selectedAvatarPanel/_avatarName/_exploreAvatarsPanel/_avatarCollectionsPanel/_currentAvatarPanel/_tabSelector avatar panel tab controller"
+  },
+  {
+    "original_name": "ÏÍÌÏÏÏÏÎÎÌÍÏÎÏÎÌÎÍÎÎÏÎÌ",
+    "proposed_name": "PropPlacementPreviewRenderer",
+    "confidence": "high",
+    "reason": "extends AudioraycastDistancelineRendererComponent; fields propPreview/propPreviewMaterial/propPreviewSuccessColor/propPreviewFailColor prop placement preview"
+  },
+  {
+    "original_name": "ÌÌÏÍÍÎÏÎÏÍÏÍÏÍÎÍÏÎÍÏÎÏÌ",
+    "proposed_name": "DirectionalArrowIndicator",
+    "confidence": "high",
+    "reason": "fields _arrowContainer/_textMeshProUGUI/_screenBorderMinimumDistance/offset screen-edge directional arrow indicator"
+  },
+  {
+    "original_name": "ÎÏÏÎÎÍÌÎÍÌÌÌÎÏÏÌÍÍÍÍÏÌÍ",
+    "proposed_name": "CameraPhotoButton",
+    "confidence": "high",
+    "reason": "fields iconTakePhoto/iconStopPhoto/button/icon/disabled/label camera photo button component"
+  },
+  {
+    "original_name": "ÎÏÍÏÎÏÎÌÎÏÏÌÍÎÎÌÏÎÌÏÌÍÌ",
+    "proposed_name": "GamepadIconLibraryProvider",
+    "confidence": "high",
+    "reason": "fields _genericGamepadIconLibrary/_switchProGamepadIconLibrary/_playStationGamepadIconLibrary/_mouseKeyboardIcons per-platform gamepad icon library"
+  },
+  {
+    "original_name": "ÏÌÏÌÍÌÏÎÌÏÌÎÏÍÎÎÏÍÎÌÌÎÌ",
+    "proposed_name": "InputMethodDisplayController",
+    "confidence": "high",
+    "reason": "fields inputNames/inputRowDisplayPrefab/layout_inputList/minTimeToDisplayInput/text_presentEnabledInputMethods display active input methods"
+  },
+  {
+    "original_name": "ÌÌÌÌÍÎÌÎÏÎÎÍÎÍÏÏÌÍÎÎÍÏÎ",
+    "proposed_name": "NotificationBadgeItem",
+    "confidence": "high",
+    "reason": "extends UIstyleElementbuttonComponent; fields _countBG/_titleText/_subtitleText/_numberText/_selectedBG/_forceBadgeHidden notification badge item"
+  },
+  {
+    "original_name": "ÍÌÌÌÌÌÏÎÌÏÍÍÎÎÍÏÏÎÏÏÎÎÏ",
+    "proposed_name": "FeaturedShelfScrollController",
+    "confidence": "high",
+    "reason": "fields _scrollRect/_featuredButton/_featuredRadioButtonSelector/_shelfScrollOffset/_expandToggleButton featured shelf scroll"
+  },
+  {
+    "original_name": "ÏÍÌÏÌÎÌÏÍÏÏÎÎÎÎÌÎÎÏÎÎÍÏ",
+    "proposed_name": "AvatarCloningAndGestureSettings",
+    "confidence": "high",
+    "reason": "extends PlayerheaderText; fields _allowAvatarCloningSetting/_avatarGesturesSetting/_avatarItemInteractionsSetting avatar cloning/gesture permissions"
+  },
+  {
+    "original_name": "ÎÏÍÍÏÌÏÍÏÏÎÌÍÍÍÌÎÏÏÍÌÍÌ",
+    "proposed_name": "FaceDetectionConfidenceSettings",
+    "confidence": "high",
+    "reason": "extends ConfidenceInputBase; fields _modelSelectionInput/_minDetectionConfidenceInput/_minSuppressionThresholdInput/_numFacesInput face detection"
+  },
+  {
+    "original_name": "ÍÎÌÍÌÌÏÌÎÍÎÍÎÏÌÌÌÌÌÎÍÍÍ",
+    "proposed_name": "HandMenuPlacementSettings",
+    "confidence": "high",
+    "reason": "fields offset/autoSelectHand/preferLeft/tweenToFaceUser/disableOnGrasperHeld/graspDisableOppositeHand hand menu placement settings"
+  },
+  {
+    "original_name": "ÎÏÏÍÎÏÍÌÏÎÎÏÎÎÍÎÏÌÍÏÎÌÎ",
+    "proposed_name": "NetworkEventMessage",
+    "confidence": "high",
+    "reason": "extends Object; fields _instigator/_serialize/_shouldBroadcast/_time/_sender/_store network broadcast event message"
+  },
+  {
+    "original_name": "ÏÍÌÍÍÏÍÍÌÏÌÍÏÍÍÏÌÎÎÍÍÏÍ",
+    "proposed_name": "AvatarIconButtonWidget",
+    "confidence": "high",
+    "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields iconWidget/textWidget/vrcPlusIconWidget/button/canvasGroup avatar icon button widget"
+  },
+  {
+    "original_name": "ÍÏÍÍÎÎÎÍÌÍÍÍÌÌÍÏÍÎÌÏÌÍÍ",
+    "proposed_name": "GroupBannerInfoDisplay",
+    "confidence": "high",
+    "reason": "fields bannerImage/iconImage/onlineCountText/memberCountText/privacyText group banner info display"
+  },
+  {
+    "original_name": "ÏÌÌÍÍÍÎÏÌÎÌÌÎÌÎÌÎÍÏÏÏÍÏ",
+    "proposed_name": "AvatarPreviewCarouselController",
+    "confidence": "high",
+    "reason": "fields _primaryImageBinding/_avatar3DPreviewObjects/_previewButtons/_leftButton/_rightButton avatar 3D preview carousel"
+  },
+  {
+    "original_name": "ÏÎÍÌÍÏÍÎÎÌÏÏÍÌÏÏÎÌÏÍÏÌÎ",
+    "proposed_name": "TooltipIconTextDisplay",
+    "confidence": "high",
+    "reason": "extends Pointerk__BackingFieldImplImpl; fields _text/_icon/_roundedRect/_defaultText/_defaultIcon tooltip or popover icon text display"
+  },
+  {
+    "original_name": "ÎÏÍÎÎÍÍÌÍÌÌÌÌÌÍÍÍÎÏÎÎÏÎ",
+    "proposed_name": "WorldBrowseGridView",
+    "confidence": "high",
+    "reason": "fields _topBanner/_list/_gridLayoutGroup/_worldCellPrefab/_randomizeButton world browse grid view"
+  },
+  {
+    "original_name": "ÌÌÎÌÌÎÌÍÎÏÏÎÏÍÍÎÌÌÍÎÏÏÌ",
+    "proposed_name": "HorizonAdjustSettings",
+    "confidence": "high",
+    "reason": "extends PlayerheaderText; fields _allowHorizonAdjustSetting/_horizonAdjustWarningMessageSetting/_horizonAdjustSnapSetting/_setHorizonAdjustSetting horizon adjust settings"
+  },
+  {
+    "original_name": "ÌÍÍÍÌÎÏÎÎÌÏÎÌÏÌÎÏÌÌÏÎÍÌ",
+    "proposed_name": "LabeledOutlineButtonItem",
+    "confidence": "high",
+    "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields display/label/outline/button labeled outline button item"
+  },
+  {
+    "original_name": "ÏÏÎÎÌÍÌÌÍÏÌÏÏÎÏÌÎÌÌÍÍÍÏ",
+    "proposed_name": "SidePanelToggleButton",
+    "confidence": "high",
+    "reason": "fields _sidePanelToggleButton/_sidePanelToggleButtonImage/_collapsedIconTexture/_expandedIconTexture/_navBtnToggleTooltip side panel toggle button"
+  },
+  {
+    "original_name": "ÍÏÎÌÌÍÌÎÏÏÌÎÏÏÏÏÏÍÍÏÍÏÌ",
+    "proposed_name": "MouseAndFingerTrackingSettings",
+    "confidence": "high",
+    "reason": "extends PlayerheaderText; fields _mouseSensitivity/_invertedMouseLook/_fingerTrackingExclusiveMode/_searchModeDependantObjects mouse and finger tracking settings"
+  },
+  {
+    "original_name": "ÏÎÌÌÌÎÎÏÍÌÎÎÎÎÍÌÏÏÎÏÎÏÌ",
+    "proposed_name": "SubscriptionCancellationPanel",
+    "confidence": "high",
+    "reason": "extends UIscrollRectfootnote; fields _noRefundAvailable/_detailsInformation/_detailsPanel/_toggleCancelImmediately subscription cancellation panel"
+  },
+  {
+    "original_name": "ÏÌÍÎÍÍÎÌÍÍÏÍÎÏÍÍÌÏÏÏÌÌÏ",
+    "proposed_name": "ToggleBindingControl",
+    "confidence": "high",
+    "reason": "extends UIk__BackingField; fields _toggleBinding/_toggleSwitch/_toggle/_canvasGroup/_onValueChanged toggle binding control"
+  },
+  {
+    "original_name": "ÍÎÍÎÌÌÌÍÏÏÌÎÎÌÌÍÎÌÍÎÎÌÌ",
+    "proposed_name": "NetworkSyncedPickup",
+    "confidence": "high",
+    "reason": "extends NetworkReadyHandler; fields _lastPosition/_typeId/_uniqueHash/hideChildCanvasesOnBlockedUserHeld/forceKinematicOnRemote plus Decode/Encode methods synced pickup/rigidbody"
+  },
+  {
+    "original_name": "ÌÏÎÏÌÏÍÏÌÌÌÍÍÍÎÏÌÎÌÏÏÍÏ",
+    "proposed_name": "AvatarCategoryIconSet",
+    "confidence": "high",
+    "reason": "fields _favoriteIcon/_authoredIcon/_licensedIcon/_recentIcon/_vrcPlusFavoriteIcon avatar category icon set"
+  },
+  {
+    "original_name": "ÍÎÍÍÌÌÏÍÎÎÌÏÌÍÍÍÏÌÌÏÏÎÍ",
+    "proposed_name": "EmojiParticleSystem",
+    "confidence": "high",
+    "reason": "fields pausedAnimatedEmojiOverlayMaterial/emojiSpriteMaterial/maskMaterial/customEmoji_ParticleSystemList/masks emoji particle system with mask support"
+  },
+  {
+    "original_name": "ÌÌÏÏÌÌÌÏÌÎÎÏÎÍÏÍÎÏÎÏÍÍÏ",
+    "proposed_name": "KeyboardInputDisplay",
+    "confidence": "high",
+    "reason": "extends manualTriggerclearDisplaySibling; fields _placeholder/_displayText/_clearDisplay/_keyboardData/_manualTrigger keyboard input display"
+  },
+  {
+    "original_name": "ÎÏÍÏÏÍÌÏÌÏÌÏÎÌÌÍÍÏÌÍÏÌÌ",
+    "proposed_name": "StoreBannerCalloutPanel",
+    "confidence": "high",
+    "reason": "extends UIk__BackingFieldComponent; fields _bannerCarousel/_storeNewShelfBadge/_accessoriesShopCallout/_newContentShopCallout/_vrcPlusExclusiveItemsCallout store banner/callout panel"
+  },
+  {
+    "original_name": "ÌÎÍÏÎÌÎÌÏÌÏÎÏÏÏÎÍÏÍÍÌÎÌ",
+    "proposed_name": "DisclaimerSectionWithLinks",
+    "confidence": "high",
+    "reason": "extends ProgressDisclaimerBase; fields _disclaimerTitleText/_disclaimerText/_sectionBorders/_links/_linkTexts disclaimer section with clickable links"
+  },
+  {
+    "original_name": "ÍÌÍÏÍÌÎÍÏÎÌÏÎÍÎÎÍÎÎÍÎÏÎ",
+    "proposed_name": "GenericIconButtonItem",
+    "confidence": "high",
+    "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields button/text/image/canvasGroup generic icon button item"
+  },
+  {
+    "original_name": "ÏÎÏÌÎÍÏÏÍÍÏÏÍÏÏÎÏÎÍÏÍÍÎ",
+    "proposed_name": "WorldInfoDisclaimerPanel",
+    "confidence": "high",
+    "reason": "fields _worldNameText/_authorNameText/_disclaimerText/_links/_linkTexts world info disclaimer panel with links"
+  },
+  {
+    "original_name": "ÏÍÎÎÎÎÎÌÎÎÍÌÏÏÏÌÌÌÎÎÌÌÍ",
+    "proposed_name": "WingCanvasPanel",
+    "confidence": "high",
+    "reason": "extends BackingCanvasBase; fields _wingType/_canvasGroup/_mask/_canvas/_graphicRaycaster VRChat wing-panel canvas"
+  },
+  {
+    "original_name": "ÍÍÌÏÏÏÍÍÌÍÍÍÏÏÌÎÎÏÎÎÏÍÌ",
+    "proposed_name": "StyledTextSeparatorElement",
+    "confidence": "high",
+    "reason": "extends SeparatorsVisibilityBase; fields _layoutElement/_styleElement/_text/_separators/_pixelsPerLine styled text separator element"
+  },
+  {
+    "original_name": "ÏÎÍÌÎÏÎÎÏÏÏÏÏÍÍÏÍÏÏÍÌÎÌ",
+    "proposed_name": "RoundedRectBorderImage",
+    "confidence": "high",
+    "reason": "extends Image; fields _sides/_radius/_thickness/_uvRangeX/_useRadialFill plus OnPopulateMesh custom rounded-rect border UI mesh"
+  },
+  {
+    "original_name": "ÏÍÏÏÌÍÍÌÏÍÌÎÌÏÌÎÌÌÏÎÍÌÏ",
+    "proposed_name": "AutoFocusCameraController",
+    "confidence": "high",
+    "reason": "fields AutoFocusCalibrateButton/AutoFocusCursorRing/AutoFocusCursorFill/ScreenCanvas/aspectRatio auto-focus camera controller"
+  },
+  {
+    "original_name": "ÏÏÍÎÎÏÏÏÏÍÍÏÌÌÎÌÌÎÏÏÍÏÏ",
+    "proposed_name": "PortalConfirmationDialog",
+    "confidence": "high",
+    "reason": "fields _canvasGroup/_controlsText/_portalFailureText/_okButtonImage/_cancelButtonImage portal confirmation dialog"
+  },
+  {
+    "original_name": "ÍÏÍÌÍÏÏÍÌÌÎÎÍÍÎÏÍÏÎÏÍÍÍ",
+    "proposed_name": "ImageAnimationBinding",
+    "confidence": "high",
+    "reason": "fields _imageBinding/_imageRectTransform/_animateOutProperties/_animateInProperties image animate-in/out binding"
+  },
+  {
+    "original_name": "ÍÏÏÏÌÌÍÎÍÏÏÏÏÌÌÎÏÎÎÌÌÏÏ",
+    "proposed_name": "KeyboardKeyDisplay",
+    "confidence": "high",
+    "reason": "fields _type/_lowerCaseValue/_upperCaseValue/_lowerCaseAlignment/_upperCaseAlignment keyboard key display with case variants"
+  },
+  {
+    "original_name": "ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ",
+    "proposed_name": "BlurRenderTextureSettings",
+    "confidence": "high",
+    "reason": "extends k__BackingField; fields renderTextureWidth/renderTextureHeight/blurDownsampleFactor/blurSize/blurIterations blur render texture settings"
+  },
+  {
+    "original_name": "ÌÌÎÏÌÌÎÍÍÏÏÌÌÌÎÎÎÏÏÎÌÌÎ",
+    "proposed_name": "DynamicStyleContainerElement",
+    "confidence": "high",
+    "reason": "fields _styleElements/_swapCollapseAndExpand/_addToParentOnStart dynamic style container element"
+  },
+  {
+    "original_name": "ÏÌÏÎÏÏÍÌÌÏÎÌÍÏÎÏÍÍÎÏÌÌÎ",
+    "proposed_name": "ColorFilterSettings",
+    "confidence": "high",
+    "reason": "extends PlayerheaderText; fields _colorFilters/_filterIntensity/_applyToWorld/_simulateColorBlindness/_colorFilter color filter / color blindness settings"
+  },
+  {
+    "original_name": "ÏÏÌÎÍÍÏÏÍÎÎÏÍÏÌÏÍÎÎÍÍÏÎ",
+    "proposed_name": "ActionMenuControl",
+    "confidence": "high",
+    "reason": "extends Control; fields _name/_icon/_type/_parameter/_value plus GetSubParameter/GetLabel action menu control entry"
+  },
+  {
+    "original_name": "ÌÌÌÍÍÍÌÎÌÏÌÍÌÏÎÎÍÌÎÎÍÎÌ",
+    "proposed_name": "UnknownObjectWrapper60",
+    "confidence": "medium",
+    "reason": "fields _66A6/_66A62/_66A63/_66A64/_66A65 are all obfuscated hex names with no domain signal; likely internal Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÎÌÏÌÌÏÌÏÎÍÍÏÏÎÏÌÎÍÏÏÍÍ",
+    "proposed_name": "DisposableObjectWrapper",
+    "confidence": "medium",
+    "reason": "extends Object; fields _9357 etc obfuscated, but methods Dispose/Cleanup suggest a disposable resource wrapper"
+  },
+  {
+    "original_name": "ÍÏÏÏÍÌÍÍÎÏÍÎÍÏÏÏÍÎÏÎÍÌÎ",
+    "proposed_name": "InputActionAsset",
+    "confidence": "high",
+    "reason": "extends Object; fields _bindings/_devices/_controlSchemes/_bindingMask plus set_bindings/FindBinding/Contains/GetEnumerator Unity InputSystem InputActionAsset or similar"
+  },
+  {
+    "original_name": "ÏÏÏÍÎÏÏÌÎÎÍÍÌÏÌÌÌÎÍÎÍÏÌ",
+    "proposed_name": "MemoryStream",
+    "confidence": "high",
+    "reason": "extends Stream; fields _canSeek/_canRead/_length/_position/_canWrite plus BeginRead/EndRead/Dispose/Cleanup MemoryStream or BufferedStream implementation"
+  },
+  {
+    "original_name": "ÌÍÏÍÎÍÏÎÎÍÌÍÏÌÎÌÎÌÌÍÌÌÍ",
+    "proposed_name": "UnknownObjectWrapper64",
+    "confidence": "medium",
+    "reason": "fields _c729 etc all obfuscated hex names; extends Object with no domain signal; internal wrapper"
+  },
+  {
+    "original_name": "ÎÎÎÎÏÎÎÏÍÌÎÎÏÍÎÎÍÎÌÌÍÌÌ",
+    "proposed_name": "UdonVideoPlayer",
+    "confidence": "high",
+    "reason": "extends Object; fields _videoWidth/_isReady/_loop plus Pause/Stop/LoadURL/get_VideoWidth/get_VideoHeight/set_Loop UdonVideoPlayer API object"
+  },
+  {
+    "original_name": "ÎÏÍÌÎÍÎÎÎÎÎÎÏÏÍÏÏÌÏÎÍÍÌ",
+    "proposed_name": "UdonHttpResult",
+    "confidence": "high",
+    "reason": "extends Object; fields _result/_udonBehaviour/_errorCode/_resultBytes/_url plus get/set_Result/UdonBehaviour UdonSharp HTTP request result"
+  },
+  {
+    "original_name": "ÎÏÏÏÍÍÎÎÎÏÌÍÌÌÌÌÎÍÌÍÏÎÌ",
+    "proposed_name": "UdonSyncedVariableStore",
+    "confidence": "medium",
+    "reason": "extends Object; fields _intVal/_boolVal/_floatVal/_objectIsNullMessage/_cloneDestroyedMessage synced variable store; _cloneDestroyedMessage suggests UnityEngine.Object subclass"
+  },
+  {
+    "original_name": "ÎÍÌÍÌÍÌÍÎÎÎÍÏÏÏÏÎÍÌÎÎÍÌ",
+    "proposed_name": "UnknownObjectWrapper68",
+    "confidence": "medium",
+    "reason": "fields _2883/_28832 etc all obfuscated hex names; extends Object; insufficient domain signal"
+  },
+  {
+    "original_name": "ÎÌÍÌÎÎÎÎÏÍÎÎÏÍÌÍÍÏÍÌÎÍÍ",
+    "proposed_name": "UnknownBackingFieldWrapper69",
+    "confidence": "medium",
+    "reason": "extends BackingFieldBase_k__BackingField; fields _eF67 etc all obfuscated; minimal domain signal"
+  },
+  {
+    "original_name": "ÍÍÌÎÌÌÍÍÏÌÎÌÎÌÌÎÎÏÌÏÏÏÏ",
+    "proposed_name": "UnknownObjectWrapper70",
+    "confidence": "medium",
+    "reason": "extends Object; fields _aB0A etc all obfuscated hex names; insufficient domain signal"
+  },
+  {
+    "original_name": "ÍÍÍÎÌÌÌÍÎÌÎÎÏÍÏÌÍÎÌÌÏÏÍ",
+    "proposed_name": "UnknownBackingFieldWrapper71",
+    "confidence": "medium",
+    "reason": "extends BackingFieldBase; fields _3034 etc all obfuscated; insufficient domain signal"
+  },
+  {
+    "original_name": "ÍÏÍÏÍÌÍÎÍÏÎÍÏÎÌÌÌÌÎÍÏÌÏ",
+    "proposed_name": "UnknownBackingFieldWrapper72",
+    "confidence": "medium",
+    "reason": "extends BackingFieldBase; fields _2FD8 etc all obfuscated; insufficient domain signal"
+  },
+  {
+    "original_name": "ÎÌÍÎÌÌÍÎÎÌÌÍÎÌÎÌÏÏÎÍÍÌÍ",
+    "proposed_name": "UnityObjectMetadata",
+    "confidence": "high",
+    "reason": "extends Object; fields _kInstanceID_None/_offsetOfInstanceIDInCPlusPlusObject/_objectIsNullMessage/_cloneDestroyedMessage are Unity Object internal metadata fields"
+  },
+  {
+    "original_name": "ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ",
+    "proposed_name": "ClickableTooltipElement",
+    "confidence": "high",
+    "reason": "extends UIBehaviour; fields _id/_visibility/_isClickable/_tooltip plus full layout/canvas lifecycle methods UI element with id, visibility, click and tooltip"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "fields label/button/toggle/isOnDisplay label+button+toggle display item"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "fields label/button/toggle/isOnDisplay label+button+toggle display item (duplicate entry)"
+  },
+  {
+    "original_name": "ÎÎÎÏÌÏÎÎÍÎÏÍÌÌÍÍÌÏÏÌÌÎÌ",
+    "proposed_name": "OrientationAdaptiveTransform",
+    "confidence": "high",
+    "reason": "fields landscapePos/landscapeScale/portraitPos/portraitScale portrait/landscape orientation adaptive transform"
+  },
+  {
+    "original_name": "ÌÏÏÍÍÎÍÏÏÎÍÎÍÏÎÌÏÏÏÎÎÏÎ",
+    "proposed_name": "ModalPanelSettings",
+    "confidence": "high",
+    "reason": "fields _isModal/_isTransparent/_clearContextWhenClosed/_transitionSortOrder modal panel transition settings"
+  },
+  {
+    "original_name": "ÍÎÍÍÎÌÌÏÏÎÎÍÏÏÍÌÏÍÍÍÏÍÎ",
+    "proposed_name": "OpaqueTransparentShaderSwitcher",
+    "confidence": "high",
+    "reason": "fields _renderer/_shaderOpaque/_shaderTransparent switches between opaque and transparent shaders on a renderer"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÎÎÏÍÏÌÏÌÍÏÍÌÏÎÌÍÎÍÏÏÏÏÏ",
+    "proposed_name": "UnityObjectEnumerator_01",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+  },
+  {
+    "original_name": "ÎÎÏÌÎÏÏÎÎÌÏÌÏÏÌÌÎÎÌÎÍÏÌ",
+    "proposed_name": "UnityObjectInstantiatable_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÏÏÌÌÏÌÌÎÍÏÍÍÌÍÌÏÍÍÏÏÍÏ",
+    "proposed_name": "ManagedUnityObject_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÎÌÍÎÍÎÌÌÎÏÏÌÍÎÏÎÎÌÎÎÏÍÎ",
+    "proposed_name": "ManagedUnityObject_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÏÏÌÎÍÎÎÏÏÍÎÎÌÌÎÏÍÎÌÌÎÏÏ",
+    "proposed_name": "ManagedUnityObject_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÏÍÍÌÏÌÎÍÌÏÎÍÎÎÏÍÌÏÎÍÌÌÍ",
+    "proposed_name": "InitializableNamedObject_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÏÎÏÍÍÎÌÌÏÌÌÏÏÌÌÍÏÌÏÎÍÎÍ",
+    "proposed_name": "UnityObjectInstantiatable_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÎÍÍÎÏÍÏÍÌÏÏÏÌÎÏÍÍÌÌÏÌÏÏ",
+    "proposed_name": "UnityObjectInstantiatable_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÎÎÍÍÏÌÌÌÏÍÍÌÎÏÍÌÏÏÏÎÎÍ",
+    "proposed_name": "ManagedUnityObject_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÌÎÌÎÍÌÎÌÍÌÍÏÏÌÏÎÎÌÏÍÎÎÏ",
+    "proposed_name": "UnityObjectInstantiatable_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÌÍÎÌÏÌÎÌÌÍÌÌÎÏÌÎÍÎÍÌÌÍÍ",
+    "proposed_name": "InstantiatableObject_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+  },
+  {
+    "original_name": "ÏÏÏÍÌÎÏÌÍÏÏÌÏÍÎÎÏÌÌÏÍÍÎ",
+    "proposed_name": "UnityObjectInstantiatable_05",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÎÍÏÏÍÎÏÍÌÎÌÍÎÎÌÏÍÏÎÏÎÌÏ",
+    "proposed_name": "UnityObjectInstantiatable_06",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÏÍÏÌÍÎÌÎÌÍÏÏÍÌÎÎÏÏÍÍÎÍÍ",
+    "proposed_name": "InitializableNamedObject_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÎÎÍÏÍÎÏÎÎÌÌÍÎÎÍÎÌÏÏÍÍÌÎ",
+    "proposed_name": "ManagedUnityObject_05",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÎÏÍÎÎÌÍÏÌÌÌÍÏÏÏÏÌÍÏÍÎÍÌ",
+    "proposed_name": "DisposableObjectManager",
+    "confidence": "high",
+    "reason": "标准4字段 + Dispose+Cleanup+DestroyImmediate，资源清理/即时销毁管理器"
+  },
+  {
+    "original_name": "ÎÌÎÏÎÍÍÍÏÌÏÌÏÎÏÏÍÌÎÎÎÎÍ",
+    "proposed_name": "DisposableObjectWrapper_01",
+    "confidence": "high",
+    "reason": "标准4字段 + Initialize+Dispose+Instantiate，可释放对象包装变体"
+  },
+  {
+    "original_name": "ÌÎÌÌÌÍÌÏÌÍÏÍÌÎÌÏÏÌÌÎÌÏÎ",
+    "proposed_name": "UnityObjectStub_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÍÌÏÌÍÌÌÍÏÌÎÌÎÍÍÍÍÌÎÎÍÎÍ",
+    "proposed_name": "ManagedUnityObjectAnon_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+    "proposed_name": "UnityObjectInstantiatable_07",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+    "proposed_name": "UnityObjectInstantiatable_08",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÏÌÍÎÎÍÎÍÍÌÏÍÏÌÌÍÌÍÌÎÌÌÍ",
+    "proposed_name": "UnityObjectInstantiatable_09",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÌÌÏÌÏÌÏÍÎÏÍÌÎÏÌÌÎÍÍÎÍÎÏ",
+    "proposed_name": "ManagedUnityObjectAnon_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+  },
+  {
+    "original_name": "ÏÍÏÏÏÏÌÎÎÎÌÌÎÍÎÍÌÎÌÌÎÎÍ",
+    "proposed_name": "UnityObjectInstantiatable_10",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÏÌÍÌÍÌÎÎÍÏÎÏÏÌÎÏÎÏÏÌÎÌÌ",
+    "proposed_name": "ImmediateDestroyObject_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+  },
+  {
+    "original_name": "ÎÏÏÍÏÌÍÍÌÎÌÌÎÎÎÎÌÌÎÌÎÌÎ",
+    "proposed_name": "DisposableObjectWrapper_02",
+    "confidence": "high",
+    "reason": "标准4字段 + Initialize+Dispose+Instantiate，可释放对象包装变体"
+  },
+  {
+    "original_name": "ÌÌÍÌÎÎÏÎÌÍÎÏÌÎÌÎÎÎÏÎÌÎÌ",
+    "proposed_name": "ManagedUnityObject_06",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ",
+    "proposed_name": "NativeMemoryBlob0F4C",
+    "confidence": "medium",
+    "reason": "字段 _0F4C/_0F4C2-4，无方法，原生内存布局存根"
+  },
+  {
+    "original_name": "ÌÎÌÍÏÎÍÍÏÌÎÎÍÏÏÌÎÎÏÍÏÌÌ",
+    "proposed_name": "UnityObjectInstantiatable_11",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÌÎÎÎÏÍÎÏÍÎÏÎÍÌÍÏÏÍÎÍÍÍ",
+    "proposed_name": "SpawnedPropEnumerator",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<ISpawnedProp>+IEnumerable，VRChat 世界生成道具集合迭代器"
+  },
+  {
+    "original_name": "ÍÎÏÍÏÍÎÍÏÌÌÎÎÎÏÎÏÏÏÏÎÎÎ",
+    "proposed_name": "UnityObjectStub_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÎÎÍÎÏÌÌÏÏÌÏÏÍÌÌÌÌÎÌÌÌÎÌ",
+    "proposed_name": "ManagedUnityObject_07",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÏÎÍÏÌÌÏÏÎÍÏÌÌÎÌÎÏÍÌÍÏÍÏ",
+    "proposed_name": "CleanupableObjectWrapper",
+    "confidence": "high",
+    "reason": "标准4字段 + Dispose+Cleanup+Destroy+Instantiate，可清理/可释放对象包装器"
+  },
+  {
+    "original_name": "ÍÎÎÍÎÌÌÌÎÍÌÎÏÍÌÍÏÍÎÏÌÌÏ",
+    "proposed_name": "ManagedUnityObject_08",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÍÌÌÍÍÌÏÏÎÌÍÏÍÍÍÍÌÌÏÌÏÎÏ",
+    "proposed_name": "InitializableNamedObject_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÍÎÎÎÍÎÏÎÍÏÎÍÏÎÎÍÎÎÍÍÎÎÎ",
+    "proposed_name": "ManagedUnityObjectAnon_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+  },
+  {
+    "original_name": "ÏÌÌÍÎÎÍÏÍÍÍÏÌÎÍÌÍÏÎÎÍÍÍ",
+    "proposed_name": "UnityObjectInstantiatable_12",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÌÎÌÌÍÌÏÌÌÎÍÍÏÍÍÏÏÍÍÌÎÎÍ",
+    "proposed_name": "UnityObjectStub_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÍÏÏÍÍÎÍÍÎÏÌÍÍÌÎÌÎÎÍÏÌÌÏ",
+    "proposed_name": "InitializableNamedObject_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÍÎÏÏÍÍÍÎÍÍÌÍÍÍÎÎÌÎÏÏÍÍÌ",
+    "proposed_name": "UnityObjectEnumerator_02",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+  },
+  {
+    "original_name": "ÌÏÌÏÏÍÎÍÌÎÎÎÌÏÍÌÌÏÎÍÍÎÌ",
+    "proposed_name": "UnityObjectIteratorDisposable_01",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÌÌÍÍÍÌÏÎÍÌÏÏÍÌÌÏÌÎÌÎÎÎÌ",
+    "proposed_name": "ImmediateDestroyObject_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+  },
+  {
+    "original_name": "ÎÎÍÍÎÏÍÎÎÏÍÏÎÏÏÎÍÍÌÏÍÏÌ",
+    "proposed_name": "UnityObjectStub_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÏÍÌÏÌÎÍÏÏÎÎÌÎÎÍÍÌÌÍÎÍÌÍ",
+    "proposed_name": "UnityObjectIterator_01",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+MoveNext，Unity Object 迭代器"
+  },
+  {
+    "original_name": "ÏÍÍÏÌÍÍÍÍÎÍÏÏÏÏÌÏÍÏÏÌÎÍ",
+    "proposed_name": "UnityObjectStub_05",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÌÏÌÌÏÎÏÌÌÏÍÏÍÏÌÎÍÌÏÎÏÎÍ",
+    "proposed_name": "ManagedUnityObject_09",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÏÍÌÎÌÎÌÍÎÏÌÍÎÏÏÏÌÎÌÎÎÏÍ",
+    "proposed_name": "UnityObjectEnumerator_03",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+  },
+  {
+    "original_name": "ÍÎÌÎÌÎÌÎÍÎÍÎÎÎÍÏÎÏÎÌÏÍÏ",
+    "proposed_name": "UnityObjectEnumerator_04",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+  },
+  {
+    "original_name": "ÌÌÍÏÏÍÏÍÍÏÍÎÍÏÍÌÏÎÎÍÏÍÌ",
+    "proposed_name": "UnityObjectIteratorDisposable_02",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÏÌÏÏÍÎÎÌÎÏÎÎÏÏÌÏÍÌÏÍÏÌÌ",
+    "proposed_name": "UnityObjectEnumerator_05",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+  },
+  {
+    "original_name": "ÍÏÌÎÏÎÌÏÍÍÌÌÍÍÎÏÌÏÌÍÎÎÎ",
+    "proposed_name": "UnityObjectIteratorDisposable_03",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÍÍÍÌÍÍÍÌÌÏÏÎÍÏÌÎÌÎÏÌÎÌÌ",
+    "proposed_name": "UnityObjectIterator_02",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+MoveNext，Unity Object 迭代器"
+  },
+  {
+    "original_name": "ÌÎÏÍÍÍÏÍÎÌÍÍÌÍÎÎÍÏÎÍÌÌÍ",
+    "proposed_name": "UnityObjectIteratorDisposable_04",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÌÌÏÌÏÎÌÍÏÏÌÏÏÎÌÎÏÌÎÎÌÏÌ",
+    "proposed_name": "UnityObjectIteratorDisposable_05",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÏÎÎÍÌÍÌÏÏÏÎÎÍÏÏÎÍÍÎÍÎÏÎ",
+    "proposed_name": "UnityObjectIteratorDisposable_06",
+    "confidence": "high",
+    "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+  },
+  {
+    "original_name": "ÌÌÌÍÍÏÍÏÎÌÏÌÎÏÎÎÍÌÎÏÍÏÏ",
+    "proposed_name": "InitializableAnonObject_01",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize，无 Instantiate/Destroy/get_name，最小初始化变体"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+    "proposed_name": "UnityObjectInstantiatable_13",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÌÎÌÌÏÎÎÌÎÏÍÏÏÎÏÌÍÏÎÏÍÍ",
+    "proposed_name": "UnityObjectVariant",
+    "confidence": "medium",
+    "reason": "标准4字段方法集未匹配已知模式的 UnityEngine.Object 子类变体"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+    "proposed_name": "UnityObjectInstantiatable_14",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÎÏÌÏÍÍÎÏÎÏÏÍÎÎÍÎÌÎÌÍÏÎ",
+    "proposed_name": "NamedUnityObject",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+ToString，支持字符串表示的 Unity Object"
+  },
+  {
+    "original_name": "ÎÏÍÏÌÏÌÏÍÌÎÎÏÏÍÍÍÎÌÌÍÎÏ",
+    "proposed_name": "InstantiatableObject_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+  },
+  {
+    "original_name": "ÏÌÍÎÎÍÍÍÏÎÌÏÍÏÍÎÏÎÎÌÌÌÌ",
+    "proposed_name": "InitializableNamedObject_05",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎÌÏÌ",
+    "proposed_name": "DataProduct",
+    "confidence": "high",
+    "reason": "实现 IDataProduct: Purchase/get_ID/get_Description/CompareTo，VRChat 商店数据商品实体"
+  },
+  {
+    "original_name": "ÌÏÏÍÍÍÌÏÏÍÍÎÏÏÎÍÌÎÌÌÍÍÌ",
+    "proposed_name": "InitializableAnonObject_02",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize，无 Instantiate/Destroy/get_name，最小初始化变体"
+  },
+  {
+    "original_name": "ÎÌÎÌÎÌÎÎÌÎÎÎÎÌÌÏÌÏÍÎÎÏÌ",
+    "proposed_name": "ImmediateDestroyObject_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+  },
+  {
+    "original_name": "ÌÏÎÎÌÍÏÍÏÎÍÌÏÌÌÎÎÍÏÍÎÍÎ",
+    "proposed_name": "UnityObjectInstantiatable_15",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÎÎÎÏÍÍÎÌÎÏÎÍÌÏÍÏÎÎÌÏÌÏ",
+    "proposed_name": "ManagedUnityObject_10",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+  },
+  {
+    "original_name": "ÎÏÍÏÍÏÎÌÌÎÍÎÏÍÌÌÍÏÍÏÍÍÎ",
+    "proposed_name": "UnityObjectStub_06",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+    "proposed_name": "UnityObjectInstantiatable_16",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÍÌÍÏÏÍÌÌÏÎÌÏÌÎÍÍÌÍÌÎÎÍÍ",
+    "proposed_name": "InitializableNamedObject_06",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÏÎÎÌÏÎÌÍÍÍÌÎÎÎÏÎÌÏÌÎÎÌÎ",
+    "proposed_name": "ImmediateDestroyObject_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+  },
+  {
+    "original_name": "ÏÌÍÌÌÍÏÍÏÎÏÎÍÎÏÌÍÌÍÏÏÏÎ",
+    "proposed_name": "UnityObjectNamed",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+Destroy+get_name，无 Initialize，命名可实例化 Object"
+  },
+  {
+    "original_name": "ÌÎÍÏÍÎÏÌÌÎÎÌÏÏÏÏÍÍÎÎÏÏÌ",
+    "proposed_name": "UnityObjectStub_07",
+    "confidence": "medium",
+    "reason": "标准4字段 + 无方法，纯 UnityEngine.Object 空存根"
+  },
+  {
+    "original_name": "ÌÎÏÍÍÍÏÍÎÏÌÍÍÌÌÎÍÏÏÏÍÌÍ",
+    "proposed_name": "ManagedUnityObjectAnon_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+  },
+  {
+    "original_name": "ÎÎÍÌÍÏÏÏÎÏÏÎÏÍÌÏÏÍÏÎÎÌÎ",
+    "proposed_name": "UnityObjectInstantiatable_17",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÎÏÎÎÏÍÍÌÏÌÎÌÎÌÍÌÎÌÍÌÌÎÏ",
+    "proposed_name": "NativeBlobObject",
+    "confidence": "medium",
+    "reason": "字段 _b0FC/_b0FC2-4 + Initialize/Destroy，原生字节块封装 Object"
+  },
+  {
+    "original_name": "ÎÎÌÏÍÌÌÏÌÏÍÎÎÌÏÍÏÍÎÎÌÎÏ",
+    "proposed_name": "UnityObjectInstantiatable_18",
+    "confidence": "medium",
+    "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+  },
+  {
+    "original_name": "ÌÍÎÏÌÎÍÎÍÎÏÎÍÍÎÌÏÎÌÏÌÎÎ",
+    "proposed_name": "InitializableNamedObject_07",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+  },
+  {
+    "original_name": "ÌÏÎÎÎÍÌÏÌÌÎÎÎÍÏÏÌÍÍÏÌÎÌ",
+    "proposed_name": "InstantiatableObject_03",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+  },
+  {
+    "original_name": "ÎÏÏÌÎÍÍÏÍÍÌÎÎÏÌÏÏÍÎÎÍÍÌ",
+    "proposed_name": "InstantiatableObject_04",
+    "confidence": "medium",
+    "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+  }
+]

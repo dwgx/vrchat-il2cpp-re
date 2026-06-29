@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÍÍÍÏÍÎÍÌÏÍÎÎÎÏÎÍÌÏÍÌÍÍÏ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÌÏÎÏÎÍÍÎÍÎÏÎÎÌÍÍÎÍÎÌÍÏÎ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÍÏÎÌÏÌÎÏÍÌÎÎÎÍÎÏÎÎÏÎÏÍÌ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÌÌÌÍÍÍÎÌÏÏÏÏÏÎÏÌÏÎÍÏÎÎÍ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÎÌÎÌÏÏÏÍÏÌÍÌÍÏÌÏÍÍÏÎÏÌÍ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÌÍÍÌÎÏÌÎÍÏÍÎÏÎÍÍÎÏÎÍÎÏÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÎÍÎÍÏÌÏÌÏÏÎÏÏÏÌÎÎÌÎÍÎÌÌ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÌÎÍÌÍÍÌÍÏÌÌÌÎÏÍÎÏÍÌÍÎÏÍ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize without IDisposable: initializable iterator state machine"
+  },
+  {
+    "original_name": "ÎÍÎÌÏÍÎÍÏÌÏÍÍÏÎÎÍÍÍÌÍÌÌ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÌÌÌÎÏÌÍÌÍÎÌÏÎÌÌÎÏÍÍÏÌÍÏ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÎÌÎÏÍÌÍÏÌÍÌÍÌÏÏÎÌÌÏÌÏÍÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÍÌÎÏÍÎÍÏÌÎÎÏÌÌÍÍÎÎÎÏÌÍÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext present without Initialize: iterator/enumerator state machine over Object"
+  },
+  {
+    "original_name": "ÍÎÏÍÏÎÌÌÌÏÎÍÍÍÎÎÏÏÍÌÍÎÏ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÍÎÎÍÍÏÏÎÎÎÎÍÌÏÏÏÍÎÎÍÏÎÍ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÌÍÎÎÍÎÏÎÌÍÍÌÏÌÏÏÌÎÎÍÍÌ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÍÌÎÎÍÎÍÌÎÎÍÌÎÎÍÏÎÏÍÌÏÌÏ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÏÍÎÏÌÍÏÎÍÏÏÎÎÍÏÏÎÍÎÎÍÎÍ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÎÍÌÍÏÌÏÎÎÏÎÌÍÌÍÍÍÎÏÌÍÍÌ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÍÍÍÏÎÌÍÍÌÍÎÌÍÏÍÏÌÌÌÍÍÎÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÏÌÏÎÌÍÍÍÍÏÌÌÍÌÏÌÏÍÍÍÌÍÎ",
+    "proposed_name": "InstantiableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÍÍÏÏÎÍÎÌÎÏÏÌÌÍÍÌÍÎÌÌÎÍ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÌÍÌÍÏÌÍÍÍÍÏÏÎÌÎÎÌÌÎÌÍÏÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÍÍÎÌÍÍÏÎÍÎÏÎÌÍÏÏÌÌÏÎÍÎÌ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÏÍÌÏÌÎÌÌÍÌÏÏÏÍÎÌÏÎÎÌÏÍÍ",
+    "proposed_name": "ResourceLifecycleManager",
+    "confidence": "medium",
+    "reason": "Initialize/Dispose/Cleanup lifecycle methods indicate managed resource pool pattern"
+  },
+  {
+    "original_name": "ÎÎÎÍÍÎÎÌÎÌÌÎÎÍÏÌÌÎÎÎÌÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÌÏÎÍÏÎÍÌÍÏÍÏÌÎÌÏÏÍÎÎÎÌ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÏÎÍÌÎÎÏÍÍÎÌÍÌÌÏÎÌÏÍÎÌÌÌ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÍÏÎÎÍÌÍÎÎÎÍÌÍÌÍÍÌÍÏÌÎÌ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÏÍÍÍÎÍÎÏÎÌÍÏÏÌÏÌÌÎÎÎÏÍ",
+    "proposed_name": "InstantiableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÎÏÏÏÎÍÍÎÍÌÌÌÌÎÏÏÍÎÏÎÍÌ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÎÌÎÎÏÎÎÎÌÌÎÍÌÍÍÏÏÎÍÎÏÏÍ",
+    "proposed_name": "InstantiableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÎÏÌÌÏÌÌÏÌÌÌÏÎÌÎÍÍÎÌÍÌÏÍ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÍÏÍÏÎÌÎÎÌÌÎÏÌÏÌÌÍÎÍÏÏÎ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÌÎÏÍÏÌÌÌÌÎÎÌÎÍÌÌÎÍÍÍÌÍ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÍÏÎÍÏÎÌÏÎÎÏÎÌÌÏÎÎÏÌÌÍÏÌ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÍÎÌÏÏÎÎÍÍÌÏÌÎÏÎÍÌÏÏÏÎÎ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÎÌÌÎÎÍÍÎÎÎÏÎÎÍÌÏÏÍÍÌÏÌÎ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÌÏÎÎÌÏÏÍÎÌÍÎÍÏÍÏÏÌÌÍÍÎÍ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÍÏÍÎÍÍÌÍÎÏÏÌÏÏÌÌÏÎÏÎÌÌÌ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÎÎÍÏÍÎÏÏÍÌÎÌÎÎÎÌÍÌÎÍÏÌ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÏÍÍÏÎÎÌÌÏÍÎÍÏÎÎÌÌÏÎÏÏÌÎ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÎÌÏÍÌÎÌÏÏÎÎÏÌÎÌÍÏÏÌÌÍÌÎ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÏÎÌÌÏÎÌÏÏÍÎÏÎÍÍÎÎÏÍÎÌÎÏ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÌÏÎÏÎÌÎÍÍÍÎÎÎÏÎÏÎÏÍÍÏÏÏ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÎÍÎÌÍÏÏÏÏÌÍÏÌÎÍÎÍÏÌÎÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÍÏÍÎÎÎÌÏÏÍÏÎÌÍÏÌÍÍÏÌÍÏÎ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÍÌÌÌÎÎÎÍÌÍÏÏÌÎÌÌÌÌÌÍÍÍÎ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÍÌÍÎÎÌÍÏÌÎÌÏÍÏÌÌÎÌÌÍÌÍÍ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÎÍÍÎÏÌÌÏÍÌÍÏÏÍÏÌÏÍÏÌÌÎ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÏÏÏÎÍÍÏÍÏÎÍÌÍÍÎÌÌÍÎÎÌÍÏ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+  },
+  {
+    "original_name": "ÎÎÏÎÍÍÏÎÍÏÎÏÍÏÌÏÏÍÏÍÌÍÍ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+  },
+  {
+    "original_name": "ÎÏÌÏÌÎÎÏÍÍÍÎÎÎÏÍÌÌÍÎÍÌÌ",
+    "proposed_name": "CloneableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+  },
+  {
+    "original_name": "ÌÍÎÏÌÏÏÌÍÏÌÎÎÌÍÎÍÌÏÌÍÎÍ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÎÎÏÎÏÌÎÎÎÎÌÏÌÎÏÍÎÏÎÏÏÎ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÎÍÏÏÏÌÏÍÎÎÎÏÏÏÍÌÍÏÌÎÎÌ",
+    "proposed_name": "InstantiableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÍÏÍÎÍÎÎÏÏÌÌÍÍÌÏÍÍÍÍÎÍÍ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÎÎÏÌÏÎÌÎÌÌÏÎÌÍÌÌÌÎÏÌÍÍÏ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÏÌÎÏÏÍÎÍÎÌÌÏÎÎÎÎÎÌÍÎÍÎ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+  },
+  {
+    "original_name": "ÎÌÎÍÏÌÌÌÌÏÏÏÎÌÌÍÌÏÌÌÌÌÎ",
+    "proposed_name": "InitializableEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+  },
+  {
+    "original_name": "ÏÏÌÍÏÍÌÍÍÏÍÍÍÌÍÎÎÏÍÌÎÎÌ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÎÍÍÎÌÌÎÌÎÌÏÎÍÏÏÏÌÎÏÏÏÏÏ",
+    "proposed_name": "ObjectEnumerator",
+    "confidence": "medium",
+    "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+  },
+  {
+    "original_name": "ÌÏÍÎÍÌÍÏÌÎÌÍÍÍÎÍÏÌÏÌÎÍÎ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÎÍÍÍÎÌÍÏÏÌÏÌÍÏÍÏÎÌÏÍÎÌ",
+    "proposed_name": "UnityObjectWrapper",
+    "confidence": "medium",
+    "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+  },
+  {
+    "original_name": "ÌÎÎÍÌÌÌÏÌÍÌÏÌÍÍÍÌÏÎÎÌÌÏ",
+    "proposed_name": "InstantiableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÌÏÌÌÍÌÎÏÏÌÍÌÏÍÌÏÏÍÍÌÏÍ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÌÍÌÎÍÏÍÌÎÌÎÍÌÍÍÎÍÍÌÌÌÎ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÍÎÍÏÏÎÍÍÏÌÏÏÌÌÏÌÍÏÎÏÌÏÏ",
+    "proposed_name": "InitializableObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+  },
+  {
+    "original_name": "ÌÍÏÌÏÎÍÍÏÌÎÎÎÎÌÏÌÍÏÌÎÍÏ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  },
+  {
+    "original_name": "ÏÎÏÌÏÍÍÌÍÍÎÌÎÍÌÏÎÏÏÌÌÌÏ",
+    "proposed_name": "ObjectSubtype",
+    "confidence": "medium",
+    "reason": "No methods beyond base Object fields: plain Unity Object subtype/tag class"
+  },
+  {
+    "original_name": "ÎÎÎÌÎÏÏÏÏÌÌÎÌÍÏÎÏÎÌÏÎÏÌ",
+    "proposed_name": "ManagedObjectWrapper",
+    "confidence": "medium",
+    "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+  }
+]

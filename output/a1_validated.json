@@ -1,0 +1,4022 @@
+[
+ {
+  "original_name": "ÍÍÍÏÌÏÏÏÏÏÎÌÏÎÍÌÎÎÏÎÌÎÍ",
+  "proposed_name": "UserProfilePanel",
+  "confidence": "high",
+  "reason": "fields _username/_status/_pronouns/_profileAvatarImage/_walletContentsButton"
+ },
+ {
+  "original_name": "ÏÎÍÍÎÌÌÏÍÎÌÎÏÍÏÍÎÏÍÍÎÏÍ",
+  "proposed_name": "CameraStreamMenuController",
+  "confidence": "high",
+  "reason": "fields cameraAlert/desktopStreamToggle/cameraEarsToggle/streamResolutionMenu/flipButton"
+ },
+ {
+  "original_name": "ÎÎÍÌÌÍÍÏÏÌÌÎÎÏÌÌÎÌÍÍÌÏÎ",
+  "proposed_name": "AvatarDetailsPanelUI",
+  "confidence": "high",
+  "reason": "fields ContentWarnings/_favoriteButton/_avatarStats/_overallPerformanceRatingIcon/_polygonsField"
+ },
+ {
+  "original_name": "ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ",
+  "proposed_name": "CameraPickupInteractable",
+  "confidence": "high",
+  "reason": "parent VRC_Interactable + fields SpeedSlider/ZoomSlider/ExposureSlider/FocalDistanceSlider/ApertureSlider"
+ },
+ {
+  "original_name": "ÌÏÌÍÌÍÎÎÌÏÍÏÌÏÍÌÏÍÍÎÏÏÎ",
+  "proposed_name": "BodyTrackingCalibrationSettings",
+  "confidence": "high",
+  "reason": "parent TrackingCalibrationBase + fields _bodyTrackingSection/_useLegacyIKSolving/_trackerPrediction/_wristAngle/_kneeAngle"
+ },
+ {
+  "original_name": "ÏÏÍÍÎÎÌÌÍÌÏÏÏÍÏÏÎÎÌÎÌÎÌ",
+  "proposed_name": "PhotoPrintPickupHandler",
+  "confidence": "high",
+  "reason": "parent NetworkReadyHandler + fields printRenderer/printCollider/streamerModeTexture/printDuration"
+ },
+ {
+  "original_name": "ÌÌÎÌÏÌÌÍÎÍÌÏÏÍÏÍÍÏÌÎÌÏÍ",
+  "proposed_name": "CameraPathEditorUI",
+  "confidence": "high",
+  "reason": "fields controlPointPrefab/curvePointPrefab/streamCamPrefab/playPathButton/clearAllButton/importModal"
+ },
+ {
+  "original_name": "ÎÌÌÎÍÌÍÏÎÏÎÌÌÍÏÍÌÍÍÍÍÌÎ",
+  "proposed_name": "AvatarPedestalDisplay",
+  "confidence": "high",
+  "reason": "fields _avatarPedestalObj/_avatarName/_heightText/_prices/_useButton/_previewButton/_avatarUnavailableBanner"
+ },
+ {
+  "original_name": "ÍÍÎÎÍÌÌÎÎÍÏÎÏÏÎÎÌÌÍÍÌÎÌ",
+  "proposed_name": "ComfortAndSafetySettings",
+  "confidence": "high",
+  "reason": "parent TrackingCalibrationBase + fields _comfortTurning/_personalSpace/_afkDetection/_streamerMode/_portalPrompt"
+ },
+ {
+  "original_name": "ÍÎÏÎÏÌÍÎÎÎÏÎÌÍÌÍÎÎÌÌÍÍÎ",
+  "proposed_name": "HypeTrainEventUI",
+  "confidence": "high",
+  "reason": "fields primaryHypeTrainBanner/countdownIcon/progressSlider/giftCountText/gifterCountText/statsAmountRaisedText"
+ },
+ {
+  "original_name": "ÌÌÎÌÌÏÌÌÏÍÏÌÏÎÌÌÍÏÍÎÎÍÎ",
+  "proposed_name": "GroupMemberPanelUI",
+  "confidence": "high",
+  "reason": "fields bannerPanel_Member/memberLanding/openGroupActionMenuButton/groupInstances/groupProducts/groupGallery"
+ },
+ {
+  "original_name": "ÏÏÍÏÍÏÍÌÏÌÍÌÎÍÎÍÌÍÍÌÌÏÎ",
+  "proposed_name": "RemoteCameraController",
+  "confidence": "high",
+  "reason": "fields remoteShape/lensMesh/screenshotSound/timerSound/nameplate/timerCanvas/timerCircle"
+ },
+ {
+  "original_name": "ÌÌÍÍÎÏÏÎÌÍÌÍÍÌÌÏÌÎÍÏÍÌÌ",
+  "proposed_name": "AvatarPedestalWorldObject",
+  "confidence": "high",
+  "reason": "fields sphere/pedestalParent/contentSphereAnimator/vrcPlusCalloutParent/typeLabel/ownerLabel"
+ },
+ {
+  "original_name": "ÍÍÏÎÎÌÎÌÌÏÍÌÌÍÍÌÎÏÏÌÏÏÏ",
+  "proposed_name": "GroupNonMemberPanelUI",
+  "confidence": "high",
+  "reason": "fields bannerPanel_NonMember/nonMemberLanding/groupJoinButtons/groupRules/groupPublicGallery"
+ },
+ {
+  "original_name": "ÏÏÎÌÍÏÍÍÎÏÏÎÏÍÍÎÍÌÎÍÎÍÏ",
+  "proposed_name": "FingerSocketDetector",
+  "confidence": "high",
+  "reason": "parent Mono7m + fields fingerDebugPlaceForwardOffset/zoneAngle/socketImage/socketRadius/socketActivationRadius"
+ },
+ {
+  "original_name": "ÍÌÎÎÍÏÏÍÌÍÎÌÏÏÏÎÎÏÌÎÌÍÍ",
+  "proposed_name": "GraphicsSettingsUI",
+  "confidence": "high",
+  "reason": "fields text_skybox/text_canvases/text_animations/text_vsync/buttons_AA/text_lights/text_shaders*"
+ },
+ {
+  "original_name": "ÌÏÌÍÏÎÏÎÍÏÍÏÎÌÌÏÏÏÏÌÌÌÎ",
+  "proposed_name": "WorldBrowserListUI",
+  "confidence": "high",
+  "reason": "fields _worldsList/_cellPrefab/_filterCategory/_filterSortBy/_playlist1-6RadioButton"
+ },
+ {
+  "original_name": "ÍÏÎÌÍÌÏÏÎÌÍÌÍÎÌÍÏÍÏÎÌÎÌ",
+  "proposed_name": "VRCScrollableLayoutGroup",
+  "confidence": "high",
+  "reason": "parent Pointerk__BackingFieldImpl + fields _scrollbarPrefab/_layoutMode/_shouldWrap/_cullingEnabled"
+ },
+ {
+  "original_name": "ÌÏÏÌÏÌÌÍÌÏÏÍÍÎÎÌÏÍÍÎÌÌÍ",
+  "proposed_name": "AvatarSafetySettings",
+  "confidence": "high",
+  "reason": "parent TrackingCalibrationBase + fields _allowAvatarCloning/_blockPoorlyOptimizedAvatars/_maxAvatarDownloadSize"
+ },
+ {
+  "original_name": "ÌÍÏÍÍÎÎÌÌÌÍÍÏÎÎÍÏÏÏÍÍÏÏ",
+  "proposed_name": "VRCMainMenuSidebarPanel",
+  "confidence": "high",
+  "reason": "fields SidebarTabPrefab/SidebarTabParent/ContentView/RootCanvas/CloseButton/BackgroundOpacitySlider"
+ },
+ {
+  "original_name": "ÌÌÍÏÌÎÏÍÎÌÌÏÍÎÏÌÎÏÍÍÎÏÌ",
+  "proposed_name": "DroneFlightStickConfig",
+  "confidence": "high",
+  "reason": "parent Object + fields expoPitch/expoRoll/expoYaw/expoThrottle/maxRatePitch/maxRateYaw/cameraTilt"
+ },
+ {
+  "original_name": "ÏÍÌÌÍÎÍÎÏÏÌÏÌÍÏÌÏÎÍÎÌÍÍ",
+  "proposed_name": "PersonalMirrorSettings",
+  "confidence": "high",
+  "reason": "parent TrackingCalibrationBase + fields _personalMirror/_personalMirrorOpacity/_mirrorSnap/_faceMirror"
+ },
+ {
+  "original_name": "ÎÌÎÎÍÎÎÌÏÎÎÏÍÏÎÏÍÏÏÏÏÏÍ",
+  "proposed_name": "OVRSpatialAudioManager",
+  "confidence": "high",
+  "reason": "fields _mixer/_referenceONSPConversionVoiceSource/_nearFieldILDNudge/_perEarDirectionality (ONSP audio)"
+ },
+ {
+  "original_name": "ÎÌÎÍÌÌÍÏÍÌÌÎÎÏÎÍÏÏÎÌÌÎÎ",
+  "proposed_name": "VRCInputFieldUI",
+  "confidence": "high",
+  "reason": "parent Pointerk__BackingFieldImpl + fields _vrcInputField/_directInputField/_placeholderLabel/_keyboardTitleText"
+ },
+ {
+  "original_name": "ÏÏÏÏÏÏÍÍÌÏÍÏÏÏÍÌÍÍÌÎÏÏÎ",
+  "proposed_name": "WorldInstanceCellUI",
+  "confidence": "high",
+  "reason": "parent UIRectTransformDimensionsChBeforeTransform + fields _worldName/_userCount/_friendCount/_thumbnailImage/_joinButton"
+ },
+ {
+  "original_name": "ÎÌÍÏÏÌÎÎÌÎÎÎÌÎÍÏÌÍÎÌÏÍÌ",
+  "proposed_name": "WorldHomePageUI",
+  "confidence": "high",
+  "reason": "fields _bannerCarousel/_ipsBannerCarousel/_worldCellPrefab/_randomizeButton/_optInPanel/_contentGridPanel"
+ },
+ {
+  "original_name": "ÌÍÎÏÌÌÎÏÌÏÏÏÌÌÌÌÎÏÏÌÍÏÍ",
+  "proposed_name": "AvatarContextMenuUI",
+  "confidence": "high",
+  "reason": "fields _favoriteFlow/_selectAvatar/_wearAvatar/_avatarDetails/_addToFavorites/_resetHeight/_vrcplusIndicator"
+ },
+ {
+  "original_name": "ÍÎÏÎÍÏÍÌÌÏÌÌÎÌÌÍÍÏÎÌÍÍÏ",
+  "proposed_name": "AvatarCellIconBindings",
+  "confidence": "high",
+  "reason": "fields bindingMode/_defaultMaterial/_favoriteIcon/_contentWarningBanner/_performanceExcellent/_performancePoor"
+ },
+ {
+  "original_name": "ÏÌÌÏÍÍÌÎÏÏÏÎÎÌÍÌÍÍÏÏÎÍÌ",
+  "proposed_name": "WorldSearchResultsUI",
+  "confidence": "high",
+  "reason": "fields _content/_worldCellPrefab/_worldInstanceCellPrefab/_gridLayoutGroup/_noResultsText/_browseWorldsButton"
+ },
+ {
+  "original_name": "ÌÎÎÍÍÌÍÏÏÌÍÎÍÎÏÌÎÍÌÎÌÏÏ",
+  "proposed_name": "WorldInstancePortalUI",
+  "confidence": "high",
+  "reason": "fields _selector/clElements/invalidDestinationElements/_warningBannerTexture/cosmeticsHandler/_worldText/_playerCountText"
+ },
+ {
+  "original_name": "ÏÏÎÌÎÍÏÌÎÌÌÎÎÍÌÌÍÏÎÍÍÌÏ",
+  "proposed_name": "DroneControllerConfig",
+  "confidence": "high",
+  "reason": "parent Object + fields controllerType/droneScreenMode/controllerDeadzone/fpvScreenSize/controllerKeyboardSensitivity"
+ },
+ {
+  "original_name": "ÎÍÍÍÌÎÎÏÍÎÌÍÍÎÌÎÍÏÌÌÎÍÎ",
+  "proposed_name": "VRCToggleSwitchUI",
+  "confidence": "high",
+  "reason": "parent PointerEnterPointerExitHandler + fields _Toggle/SwitchSprite/SwitchBackground/Switch/SwitchOnTarget/SwitchOffTarget"
+ },
+ {
+  "original_name": "ÎÍÎÏÌÏÏÍÎÏÍÏÍÎÌÌÍÍÌÎÏÌÎ",
+  "proposed_name": "ColorPickerUI",
+  "confidence": "high",
+  "reason": "fields tabPrefab/colorPicker/colorPickerHSV/apply/cancel/hexInputButton/twoOptionToggle/previewImage"
+ },
+ {
+  "original_name": "ÌÏÍÍÏÎÏÎÎÎÏÍÏÎÎÏÍÎÍÏÌÎÏ",
+  "proposed_name": "InspectorPanelUI",
+  "confidence": "high",
+  "reason": "fields labelPrefab/spacePrefab/buttonPrefab/horizontalPrefab/verticalPrefab/togglePrefab/scrollViewParent/topBarParent"
+ },
+ {
+  "original_name": "ÎÍÎÏÏÍÏÎÌÍÌÌÏÌÌÎÎÏÎÏÍÎÎ",
+  "proposed_name": "ShopItemIconUI",
+  "confidence": "high",
+  "reason": "fields _icon/_label/_roleSprite/_udonSprite/_avatarSprite/_cosmeticSprite/_creditsSprite/_accessorySprite"
+ },
+ {
+  "original_name": "ÌÎÍÏÍÌÏÎÌÍÍÎÌÎÍÎÍÎÌÌÏÌÏ",
+  "proposed_name": "HapticsCalibrationSettings",
+  "confidence": "high",
+  "reason": "parent TrackingCalibrationBase + fields _uiHaptics/_pickupHaptics/_avatarTouchHaptics/_avatarTouchStrength"
+ },
+ {
+  "original_name": "ÌÎÎÎÍÌÏÍÍÎÎÎÍÍÏÎÎÎÍÎÌÎÎ",
+  "proposed_name": "NotificationToastUI",
+  "confidence": "high",
+  "reason": "fields image/text/canvasGroup/animatedImage/controlsContainer/buttonA/buttonB/buttonC/buttonImageA"
+ },
+ {
+  "original_name": "ÌÎÍÌÎÌÎÎÎÍÍÏÍÌÏÎÏÎÍÏÎÎÌ",
+  "proposed_name": "VRCatMenuController",
+  "confidence": "high",
+  "reason": "parent k__BackingField_5C0C + fields _vrCatFrontCanvas/_vrCatDialogCanvas/_vrcPlusButtonSubscribed/_clockControl"
+ },
+ {
+  "original_name": "ÏÏÎÌÌÎÌÎÏÎÌÍÏÍÍÌÏÍÎÍÎÍÎ",
+  "proposed_name": "FriendGroupListSelectorUI",
+  "confidence": "high",
+  "reason": "parent UIk__BackingFieldComponent + fields groupListBinding/groupButtonPrefab/groupTabButton/friendListBinding/friendButtonPrefab"
+ },
+ {
+  "original_name": "ÌÍÏÏÌÎÍÎÎÎÌÍÌÏÏÌÌÌÍÎÎÌÎ",
+  "proposed_name": "DroneControlInputTooltipUI",
+  "confidence": "high",
+  "reason": "fields twinStickTooltip1/twinStickTooltip2/leftStickTextY/rightStickTextX/mouseAndKeyboardTooltip1/wsText"
+ },
+ {
+  "original_name": "ÌÏÎÌÏÍÌÎÍÏÏÌÌÍÌÎÍÍÌÏÌÌÌ",
+  "proposed_name": "MaskedProgressImage",
+  "confidence": "high",
+  "reason": "parent MaskableGraphic + fields _sprite/_mainTexture/ShaderFeatureStripes/ShaderFeatureMasking/_gradientColor/_useGradient"
+ },
+ {
+  "original_name": "ÎÌÍÎÍÌÍÏÌÍÏÏÌÌÍÏÎÌÏÌÌÍÎ",
+  "proposed_name": "ChatboxCalibrationSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _chatboxFunctionTitle/_chatboxFunctionSetting/_chatboxPositionSetting/_chatboxDisplayDurationSetting"
+ },
+ {
+  "original_name": "ÌÏÎÏÍÎÎÏÎÏÏÍÎÍÌÌÏÎÍÍÎÍÌ",
+  "proposed_name": "AvatarFolderCellUI",
+  "confidence": "high",
+  "reason": "fields folderImage/statusImage/textField/playingObj/cancelObj/vrcPlusExclusiveIcon/grayScaleMaterial/_imageBinding"
+ },
+ {
+  "original_name": "ÎÏÏÏÌÌÎÍÌÌÌÍÌÍÌÏÍÎÏÎÍÏÍ",
+  "proposed_name": "AvatarStoreCellUI",
+  "confidence": "high",
+  "reason": "parent UIRectTransformDimensionsChBeforeTransform + fields _displayNameText/_priceText/_tryOnButton/_favoriteAvatarButton/_impostorToggle"
+ },
+ {
+  "original_name": "ÌÏÍÌÏÎÌÍÍÎÌÌÎÌÏÌÌÍÎÌÌÌÍ",
+  "proposed_name": "PlayerHUDController",
+  "confidence": "high",
+  "reason": "fields notification/move/userEventCarousel/hudCanvasGroup/_gestureOnIcon/_gestureOffIcon/hypeTrainPanel/notificationSound"
+ },
+ {
+  "original_name": "ÍÌÎÎÎÌÍÍÍÌÍÌÌÍÎÎÏÎÍÏÎÏÏ",
+  "proposed_name": "EmoteCategoryBrowserUI",
+  "confidence": "high",
+  "reason": "fields ContentList/ContentPrefab/CategoryFilter/CategoryList/CategoryToolbar/CategoryScrollRect/PageDownButton/CategoryLabel"
+ },
+ {
+  "original_name": "ÏÎÍÏÍÎÍÎÏÏÏÏÍÏÏÌÎÍÌÏÌÎÌ",
+  "proposed_name": "FullBodyTrackingSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _userRealHeightSetting/_allowFBTSetting/_calibrateFBTSetting/_fbtSpineModeSetting/_autoCenterOSCTrackersSetting"
+ },
+ {
+  "original_name": "ÍÌÏÍÏÌÌÍÌÍÌÏÎÌÎÍÏÎÌÌÎÏÎ",
+  "proposed_name": "ChatboxRuntimeSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _localChatboxVisibility/_chatboxPositions/_chatboxHeight/_chatboxOpacity/_chatboxDisplayDuration/_chatboxAutoSendSetting"
+ },
+ {
+  "original_name": "ÏÌÌÌÏÏÎÍÎÍÍÍÏÏÎÏÌÏÏÏÎÌÎ",
+  "proposed_name": "SocialListFilterUI",
+  "confidence": "high",
+  "reason": "parent ButtonIndicatorBase + fields _online/_recents/_activeOnAnotherPlatform/_offline/_discord/_offlineFoldout"
+ },
+ {
+  "original_name": "ÍÏÌÌÌÎÎÏÎÌÎÎÎÏÏÎÌÍÌÌÌÎÎ",
+  "proposed_name": "VRCMainMenuController",
+  "confidence": "high",
+  "reason": "parent k__BackingField_5C0C + fields _menuPlacementController/_graphicRaycaster/_menuBehaviours/_mainMenuCanvasGroup/_vrcPlusButtonSubscribed"
+ },
+ {
+  "original_name": "ÎÍÎÎÌÌÍÏÌÏÏÎÎÍÏÍÎÍÍÎÏÏÍ",
+  "proposed_name": "AudioEarmuffSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _earmuffMode/_distance/_falloffDistance/_outsideVolume/_includeAvatarAudio/_forwardCone"
+ },
+ {
+  "original_name": "ÎÍÎÌÎÏÏÎÌÌÍÌÏÍÎÎÏÎÌÌÎÌÌ",
+  "proposed_name": "StoreProductListUI",
+  "confidence": "high",
+  "reason": "fields _listBinding/_gridLayoutGroup/_listingFullPrefab/_listingCompactPrefab/_cellSizeToggle/_sortProductsDropdown"
+ },
+ {
+  "original_name": "ÌÌÍÏÍÎÎÌÏÎÎÌÏÌÌÌÏÍÍÌÍÏÌ",
+  "proposed_name": "SidebarTabItemUI",
+  "confidence": "high",
+  "reason": "fields _label/_button/_radioButtonSelector/_newIndicator/_defaultIcon/_remoteIconContainer/_remoteIconImage"
+ },
+ {
+  "original_name": "ÌÏÍÍÌÌÍÌÍÏÌÌÎÌÌÏÍÏÌÌÌÍÍ",
+  "proposed_name": "CameraSettingsTransformPanel",
+  "confidence": "high",
+  "reason": "fields settingsTransform/slidersTransform/dollyConfigTransform/tooltipsTransform/zoomSliderTransform/exposureSliderTransform"
+ },
+ {
+  "original_name": "ÍÏÎÌÎÌÌÌÍÍÎÎÌÎÎÏÏÌÌÏÎÏÏ",
+  "proposed_name": "GestureLocomotionController",
+  "confidence": "high",
+  "reason": "parent GestureLocomotionBase + fields gestureIcons/actionMenuGestureIcon/locomotionStart/gestureEnd/handPinchUIPrefab/circleKeyMenuOpenerPrefab"
+ },
+ {
+  "original_name": "ÌÍÌÍÍÎÌÎÎÍÌÏÌÎÍÎÏÎÏÏÎÎÎ",
+  "proposed_name": "WorldSidebarNavigationUI",
+  "confidence": "high",
+  "reason": "fields _recentlyVisited/_recentlyUpdatedFavorites/_authoredSidebarItem/_savedSearchSidebarItems/_scrollRect/_contentPanel"
+ },
+ {
+  "original_name": "ÏÏÍÍÏÏÏÏÍÎÏÏÌÎÌÎÍÍÎÍÏÏÎ",
+  "proposed_name": "CameraLensViewfinderUI",
+  "confidence": "high",
+  "reason": "fields lensUpIndicator/lensRenderer/printLensRenderer/lensParent/speakerOnViewfinder/TimerButton"
+ },
+ {
+  "original_name": "ÌÍÎÌÍÎÌÌÍÏÍÏÌÎÌÎÍÏÏÏÎÏÍ",
+  "proposed_name": "GroupRoleSelectorUI",
+  "confidence": "high",
+  "reason": "fields selectAllButton/managementRolesHeader/vanityRolesHeader/roleListBinding/roleButtonPrefab/selectRolesButton/createWorldInstanceFlowHandler"
+ },
+ {
+  "original_name": "ÎÏÍÎÍÌÏÌÍÏÌÏÏÍÍÌÏÏÎÎÎÌÌ",
+  "proposed_name": "AchievementUnlockUI",
+  "confidence": "high",
+  "reason": "fields lockIcon/checkIcon/preUnlockTexts/postUnlockTexts/icon/canvasGroup/progressSlider/progressSliderText"
+ },
+ {
+  "original_name": "ÏÌÎÎÏÍÎÏÎÌÍÎÎÌÌÎÏÌÏÏÌÎÎ",
+  "proposed_name": "GroupActivityFeedUI",
+  "confidence": "high",
+  "reason": "parent ButtonIndicatorBase + fields groupActivityCellPrefab/groupActivityCellParent/sortDropdown/groupLocationsFilterButton/groupNameInputField"
+ },
+ {
+  "original_name": "ÍÎÌÎÌÎÌÌÎÌÎÍÌÌÌÎÌÎÎÌÎÌÍ",
+  "proposed_name": "WorldInstanceActionMenuUI",
+  "confidence": "high",
+  "reason": "fields buttonSpacing/center/allButtons/ownerButtons/nonOwnerButtons/instanceModeratorButtons/worldDetailsButton"
+ },
+ {
+  "original_name": "ÌÏÏÎÍÎÍÌÌÏÌÍÏÌÎÏÍÍÏÍÍÌÏ",
+  "proposed_name": "InventoryPanelUI",
+  "confidence": "high",
+  "reason": "fields icons/addItemPrefab/builder/content/inventoryInfoPanel/upsellPanel/storeButton/buttonFooter"
+ },
+ {
+  "original_name": "ÎÎÎÌÌÏÎÏÍÎÎÌÌÌÍÏÏÏÏÍÏÏÎ",
+  "proposed_name": "TrackingOriginModeUI",
+  "confidence": "high",
+  "reason": "fields m_RecenteredImage/m_CurrentTrackingOriginMode/m_DesiredTrackingOriginMode/m_SupportedTrackingOriginModes"
+ },
+ {
+  "original_name": "ÍÌÌÍÎÌÍÏÍÏÌÎÎÎÌÌÎÏÎÎÌÏÎ",
+  "proposed_name": "CollapsibleSectionUI",
+  "confidence": "high",
+  "reason": "fields _toggle/_arrow/_prefsKey/_visibleByDefault/_invokeActionOnEnable/_invokeActionOnDisable"
+ },
+ {
+  "original_name": "ÎÏÏÍÌÏÎÏÌÌÎÍÏÌÌÌÍÏÍÏÍÏÌ",
+  "proposed_name": "AvatarResourcePreloader",
+  "confidence": "high",
+  "reason": "fields _filteredAvatarPrefab/_errorAvatarPrefab/_loadingAvatarPrefab/_safetyAvatarPrefab/_maleAvatarAnims/_femaleAvatarAnims"
+ },
+ {
+  "original_name": "ÎÎÏÍÌÎÏÌÌÌÎÍÌÎÏÌÎÌÎÏÎÎÎ",
+  "proposed_name": "ConfirmDialogUI",
+  "confidence": "high",
+  "reason": "parent UpdateComponent + fields _titleText/_topText/_confirmButton/_cancelButton/_confirmText/_cancelText"
+ },
+ {
+  "original_name": "ÌÎÎÌÏÍÌÌÎÍÌÎÍÏÍÍÍÎÍÍÍÎÏ",
+  "proposed_name": "DesktopLocomotionSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _lookSensitivity/_screenEdgeRotateSpeed/_enableAutoWalk/_enableAutoHold/_invertedLook/_enableFocusView"
+ },
+ {
+  "original_name": "ÎÍÌÎÌÎÏÏÎÍÌÌÎÎÍÏÍÏÏÎÎÏÍ",
+  "proposed_name": "MenuToggleKeyBinding",
+  "confidence": "high",
+  "reason": "fields _key/_target/_button/_toggle/_isVRCPlusOnly/_alignment/_offset"
+ },
+ {
+  "original_name": "ÍÌÏÏÎÍÎÎÌÌÍÍÏÌÏÏÍÍÎÏÏÍÌ",
+  "proposed_name": "HeadpatPhysicsConfig",
+  "confidence": "high",
+  "reason": "fields velocityScalar/accelScalar/accelMixFactor/accelSmoothingTimeSeconds/headpatSpeedLimit"
+ },
+ {
+  "original_name": "ÎÎÏÏÍÌÎÏÎÏÏÏÏÏÎÎÍÌÎÌÌÏÍ",
+  "proposed_name": "AudioVolumeSettings",
+  "confidence": "high",
+  "reason": "parent PlayerheaderText + fields _masterVolumeSetting/_uiMenuVolumeSetting/_worldVolumeSetting/_voicesVolumeSetting/_avatarsVolumeSetting"
+ },
+ {
+  "original_name": "ÍÏÏÏÏÎÌÍÏÌÌÏÍÏÌÎÌÌÌÍÌÍÎ",
+  "proposed_name": "TransformGizmoPanel",
+  "confidence": "high",
+  "reason": "fields canvasGroup/tabbedPanel/posPanel/rotPanel/scalePanel/sliderPrefab/buttonPrefab"
+ },
+ {
+  "original_name": "ÍÍÏÏÎÎÎÌÎÍÌÍÎÍÎÏÍÍÏÎÍÌÏ",
+  "proposed_name": "FilterOptionsUI",
+  "confidence": "high",
+  "reason": "fields filterContainer/activeContainer/labelPrefab/optionPrefab/checkboxPrefab/activeFilterPrefab/spacerFilter"
+ },
+ {
+  "original_name": "ÌÍÏÎÍÎÏÎÌÍÌÏÌÎÍÎÍÌÌÍÌÍÌ",
+  "proposed_name": "ToastNotificationUI",
+  "confidence": "medium",
+  "reason": "fields _textMeshProUGUI/_canvas/_canvasGroup/_container/_backgroundImage/_fadeDuration/_notchOffset (generic toast)"
+ },
+ {
+  "original_name": "ÎÍÏÌÏÌÍÌÏÌÏÎÏÏÎÌÏÌÏÍÍÍÎ",
+  "proposed_name": "PoseHolisticAnnotationController",
+  "confidence": "high",
+  "reason": "parent k__BackingFieldbootstrapPrefabComponent + fields _holisticAnnotationController/_poseDetectionAnnotationController/_segmentationMaskAnnotationController"
+ },
+ {
+  "original_name": "ÌÎÎÏÎÍÎÌÎÏÍÍÌÏÎÌÌÏÏÌÏÏÌ",
+  "proposed_name": "VRCToggleBindingUI",
+  "confidence": "high",
+  "reason": "fields _handle/_turnedOffCanvasGroup/_turnedOnCanvasGroup/_handleCanvasGroup/_tooltip/_toggleBinding"
+ },
+ {
+  "original_name": "ÍÏÎÍÍÍÎÍÍÏÌÏÏÍÎÌÎÏÏÌÍÎÍ",
+  "proposed_name": "PoseLandmarksAnnotationController",
+  "confidence": "high",
+  "reason": "parent k__BackingFieldbootstrapPrefabComponent + fields _poseLandmarksAnnotationController/_poseWorldLandmarksAnnotationController/_roiFromLandmarksAnnotationController"
+ },
+ {
+  "original_name": "ÏÍÍÎÏÎÌÏÌÍÍÍÎÎÌÎÌÌÏÍÌÌÌ",
+  "proposed_name": "WorldPropSpawnerUI",
+  "confidence": "high",
+  "reason": "fields spawnPrefab/loadingVisualizerPrefab/orbitRingPrefab/propPlacementCursor/placementLayerMask/localPropIcon"
+ },
+ {
+  "original_name": "ÏÏÏÍÍÌÍÌÌÎÍÌÌÏÌÎÍÎÎÏÍÍÌ",
+  "proposed_name": "TetheredLabelWidget",
+  "confidence": "high",
+  "reason": "fields Tether/Label/Text/TextSecondary/Icon/IconSecondary labeled widget with tether, typical VRChat nameplate component"
+ },
+ {
+  "original_name": "ÎÍÎÌÌÎÎÌÎÎÎÎÌÎÌÏÌÏÌÎÎÏÌ",
+  "proposed_name": "OptionSelectorControl",
+  "confidence": "high",
+  "reason": "fields _currentOptionText/_leftButton/_rightButton/_optionTooltip/_onValueChanged left-right option selector UI control"
+ },
+ {
+  "original_name": "ÏÏÏÌÍÎÏÍÏÏÍÏÌÎÏÌÏÌÍÌÌÌÎ",
+  "proposed_name": "SeparatorGroupWithTooltips",
+  "confidence": "high",
+  "reason": "extends SeparatorsVisibilityBase; fields _title/_messages/_separators/_tooltips grouped UI with separators and tooltips"
+ },
+ {
+  "original_name": "ÏÎÏÌÎÏÏÏÏÍÌÌÏÌÏÌÍÌÌÌÍÍÌ",
+  "proposed_name": "NamedToggleItem",
+  "confidence": "high",
+  "reason": "fields _ID/_name/_nameField/_targetObjectToEnable/_targetObjectToDisable/_toggle named toggle list item enabling/disabling objects"
+ },
+ {
+  "original_name": "ÏÏÍÍÌÍÍÏÎÎÏÏÍÏÏÎÍÎÏÏÎÍÌ",
+  "proposed_name": "AudioRaycastScaledIconRenderer",
+  "confidence": "high",
+  "reason": "extends AudioraycastDistancelineRendererComponent; imageRenderer/raycastOffset/minObjectSize/maxObjectSizeDistance scale icons by distance"
+ },
+ {
+  "original_name": "ÌÍÍÌÍÏÎÍÍÏÍÍÏÏÏÌÏÌÍÎÎÎÌ",
+  "proposed_name": "ActionMenuDragController",
+  "confidence": "high",
+  "reason": "fields _quantizedDistance/_maxDistance/_actionMenu/_dragMenuPanel control drag distance for action menu"
+ },
+ {
+  "original_name": "ÍÍÍÎÌÎÍÏÎÌÎÌÌÏÏÌÌÎÍÏÌÎÎ",
+  "proposed_name": "WorldThumbnailFade",
+  "confidence": "high",
+  "reason": "extends ThumbnailFadeBase; fields _worldThumbnail/_fadeThumbnail/_thumbnailFadeTime world thumbnail fade component"
+ },
+ {
+  "original_name": "ÌÎÍÌÌÎÎÍÏÍÍÌÏÎÍÌÏÏÌÍÍÌÎ",
+  "proposed_name": "AvatarPlatformSupportPanel",
+  "confidence": "high",
+  "reason": "fields _contentWarningBanner/_supportedPlatformTags/_avatarPerformanceLimitIcon show avatar platform support and perf limits"
+ },
+ {
+  "original_name": "ÌÌÏÌÏÌÎÎÏÎÏÍÍÍÌÍÍÎÎÌÎÌÎ",
+  "proposed_name": "SortableContentListPanel",
+  "confidence": "high",
+  "reason": "fields _title/_closeButton/_contentList/_scrollRect/_sortDropdown plus pointer events sortable content list panel"
+ },
+ {
+  "original_name": "ÌÏÎÏÌÍÎÏÎÏÌÌÌÌÍÎÎÍÍÏÍÏÎ",
+  "proposed_name": "SidebarPanelLayoutController",
+  "confidence": "high",
+  "reason": "fields parentPanel/sidePanel/mainPanel/sidebarWidthExpanded/sidebarWidthCollapsed/animationDuration plus SetLayout methods sidebar layout"
+ },
+ {
+  "original_name": "ÍÍÌÏÌÏÍÌÎÌÍÎÌÎÏÌÏÎÌÍÌÌÌ",
+  "proposed_name": "DebugUIManager",
+  "confidence": "high",
+  "reason": "fields debugUIHolder/debugUIRootTransform/debugDrawHMDHolder/debugNetworkObjectInfo/debugPlayerInfo/debugVRCUiShapes VRChat debug UI manager"
+ },
+ {
+  "original_name": "ÍÍÎÏÌÎÏÎÌÏÌÌÌÌÏÌÏÎÎÍÌÌÎ",
+  "proposed_name": "WorldInstanceListBinding",
+  "confidence": "high",
+  "reason": "extends UIlistBindinglayoutGroupComponent; fields _prefabCompact/_prefabFull/_worldInstancePrefab/_shouldSortList/_sortingType"
+ },
+ {
+  "original_name": "ÍÎÏÌÌÏÌÌÏÍÏÌÎÍÌÌÏÎÌÍÌÎÌ",
+  "proposed_name": "SidebarListItemDisplay",
+  "confidence": "high",
+  "reason": "fields _taglineBG/_imageBG/_imageIcon/_tooltip/_sidebarListItem/iconStyle sidebar list item display"
+ },
+ {
+  "original_name": "ÍÏÏÏÌÌÏÏÎÌÍÌÏÏÏÌÍÎÌÏÌÏÍ",
+  "proposed_name": "ShopPrefabProvider",
+  "confidence": "high",
+  "reason": "fields categoryPrefab/gridContainerPrefab/itemCellPrefab/shopUpsellPrefab/vrcPlusWarningPrefab/filterPanelPrefab VRChat store UI prefab provider"
+ },
+ {
+  "original_name": "ÌÍÎÍÌÍÌÎÍÎÏÎÎÌÌÎÎÎÏÍÌÎÎ",
+  "proposed_name": "CollapsibleSectionWithTitle",
+  "confidence": "high",
+  "reason": "extends SeparatorsVisibilityBase; fields _visibilityButton/_elementsHiddenWhenCollapsed/_collapsedTitle/_expandedTitle collapsible titled section"
+ },
+ {
+  "original_name": "ÏÏÍÌÍÎÌÎÏÌÏÎÍÌÍÍÎÎÎÏÎÏÍ",
+  "proposed_name": "AvatarPerformanceLimitTextDisplay",
+  "confidence": "high",
+  "reason": "extends UIscrollRectfootnote; fields _instancePerformanceLimitText/avatarPerformanceLimitText/_instancePerformanceLimitIcon perf limit text display"
+ },
+ {
+  "original_name": "ÏÍÌÌÏÍÏÏÌÏÏÍÍÎÍÌÍÏÏÍÌÎÍ",
+  "proposed_name": "CalendarEventListDisplay",
+  "confidence": "high",
+  "reason": "fields _eventList/_headerPrefab/_noEventsPanel/_noEventsText/_iconBinding/_loadingOverlay event list display"
+ },
+ {
+  "original_name": "ÎÍÍÍÏÏÏÏÏÎÎÌÍÌÎÌÏÌÎÍÍÎÌ",
+  "proposed_name": "HandTrackingConfidenceSettings",
+  "confidence": "high",
+  "reason": "extends ConfidenceInputBase; fields _numHandsInput/_minHandDetectionConfidenceInput/_minTrackingConfidenceInput hand tracking confidence"
+ },
+ {
+  "original_name": "ÍÍÎÍÌÎÌÍÎÌÍÏÌÎÍÏÎÍÎÏÏÌÏ",
+  "proposed_name": "AvatarPanelTabController",
+  "confidence": "high",
+  "reason": "fields _selectedAvatarPanel/_avatarName/_exploreAvatarsPanel/_avatarCollectionsPanel/_currentAvatarPanel/_tabSelector avatar panel tab controller"
+ },
+ {
+  "original_name": "ÏÍÌÏÏÏÏÎÎÌÍÏÎÏÎÌÎÍÎÎÏÎÌ",
+  "proposed_name": "PropPlacementPreviewRenderer",
+  "confidence": "high",
+  "reason": "extends AudioraycastDistancelineRendererComponent; fields propPreview/propPreviewMaterial/propPreviewSuccessColor/propPreviewFailColor prop placement preview"
+ },
+ {
+  "original_name": "ÌÌÏÍÍÎÏÎÏÍÏÍÏÍÎÍÏÎÍÏÎÏÌ",
+  "proposed_name": "DirectionalArrowIndicator",
+  "confidence": "high",
+  "reason": "fields _arrowContainer/_textMeshProUGUI/_screenBorderMinimumDistance/offset screen-edge directional arrow indicator"
+ },
+ {
+  "original_name": "ÎÏÏÎÎÍÌÎÍÌÌÌÎÏÏÌÍÍÍÍÏÌÍ",
+  "proposed_name": "CameraPhotoButton",
+  "confidence": "high",
+  "reason": "fields iconTakePhoto/iconStopPhoto/button/icon/disabled/label camera photo button component"
+ },
+ {
+  "original_name": "ÎÏÍÏÎÏÎÌÎÏÏÌÍÎÎÌÏÎÌÏÌÍÌ",
+  "proposed_name": "GamepadIconLibraryProvider",
+  "confidence": "high",
+  "reason": "fields _genericGamepadIconLibrary/_switchProGamepadIconLibrary/_playStationGamepadIconLibrary/_mouseKeyboardIcons per-platform gamepad icon library"
+ },
+ {
+  "original_name": "ÏÌÏÌÍÌÏÎÌÏÌÎÏÍÎÎÏÍÎÌÌÎÌ",
+  "proposed_name": "InputMethodDisplayController",
+  "confidence": "high",
+  "reason": "fields inputNames/inputRowDisplayPrefab/layout_inputList/minTimeToDisplayInput/text_presentEnabledInputMethods display active input methods"
+ },
+ {
+  "original_name": "ÌÌÌÌÍÎÌÎÏÎÎÍÎÍÏÏÌÍÎÎÍÏÎ",
+  "proposed_name": "NotificationBadgeItem",
+  "confidence": "high",
+  "reason": "extends UIstyleElementbuttonComponent; fields _countBG/_titleText/_subtitleText/_numberText/_selectedBG/_forceBadgeHidden notification badge item"
+ },
+ {
+  "original_name": "ÍÌÌÌÌÌÏÎÌÏÍÍÎÎÍÏÏÎÏÏÎÎÏ",
+  "proposed_name": "FeaturedShelfScrollController",
+  "confidence": "high",
+  "reason": "fields _scrollRect/_featuredButton/_featuredRadioButtonSelector/_shelfScrollOffset/_expandToggleButton featured shelf scroll"
+ },
+ {
+  "original_name": "ÏÍÌÏÌÎÌÏÍÏÏÎÎÎÎÌÎÎÏÎÎÍÏ",
+  "proposed_name": "AvatarCloningAndGestureSettings",
+  "confidence": "high",
+  "reason": "extends PlayerheaderText; fields _allowAvatarCloningSetting/_avatarGesturesSetting/_avatarItemInteractionsSetting avatar cloning/gesture permissions"
+ },
+ {
+  "original_name": "ÎÏÍÍÏÌÏÍÏÏÎÌÍÍÍÌÎÏÏÍÌÍÌ",
+  "proposed_name": "FaceDetectionConfidenceSettings",
+  "confidence": "high",
+  "reason": "extends ConfidenceInputBase; fields _modelSelectionInput/_minDetectionConfidenceInput/_minSuppressionThresholdInput/_numFacesInput face detection"
+ },
+ {
+  "original_name": "ÍÎÌÍÌÌÏÌÎÍÎÍÎÏÌÌÌÌÌÎÍÍÍ",
+  "proposed_name": "HandMenuPlacementSettings",
+  "confidence": "high",
+  "reason": "fields offset/autoSelectHand/preferLeft/tweenToFaceUser/disableOnGrasperHeld/graspDisableOppositeHand hand menu placement settings"
+ },
+ {
+  "original_name": "ÎÏÏÍÎÏÍÌÏÎÎÏÎÎÍÎÏÌÍÏÎÌÎ",
+  "proposed_name": "NetworkEventMessage",
+  "confidence": "high",
+  "reason": "extends Object; fields _instigator/_serialize/_shouldBroadcast/_time/_sender/_store network broadcast event message"
+ },
+ {
+  "original_name": "ÏÍÌÍÍÏÍÍÌÏÌÍÏÍÍÏÌÎÎÍÍÏÍ",
+  "proposed_name": "AvatarIconButtonWidget",
+  "confidence": "high",
+  "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields iconWidget/textWidget/vrcPlusIconWidget/button/canvasGroup avatar icon button widget"
+ },
+ {
+  "original_name": "ÍÏÍÍÎÎÎÍÌÍÍÍÌÌÍÏÍÎÌÏÌÍÍ",
+  "proposed_name": "GroupBannerInfoDisplay",
+  "confidence": "high",
+  "reason": "fields bannerImage/iconImage/onlineCountText/memberCountText/privacyText group banner info display"
+ },
+ {
+  "original_name": "ÏÌÌÍÍÍÎÏÌÎÌÌÎÌÎÌÎÍÏÏÏÍÏ",
+  "proposed_name": "AvatarPreviewCarouselController",
+  "confidence": "high",
+  "reason": "fields _primaryImageBinding/_avatar3DPreviewObjects/_previewButtons/_leftButton/_rightButton avatar 3D preview carousel"
+ },
+ {
+  "original_name": "ÏÎÍÌÍÏÍÎÎÌÏÏÍÌÏÏÎÌÏÍÏÌÎ",
+  "proposed_name": "TooltipIconTextDisplay",
+  "confidence": "high",
+  "reason": "extends Pointerk__BackingFieldImplImpl; fields _text/_icon/_roundedRect/_defaultText/_defaultIcon tooltip or popover icon text display"
+ },
+ {
+  "original_name": "ÎÏÍÎÎÍÍÌÍÌÌÌÌÌÍÍÍÎÏÎÎÏÎ",
+  "proposed_name": "WorldBrowseGridView",
+  "confidence": "high",
+  "reason": "fields _topBanner/_list/_gridLayoutGroup/_worldCellPrefab/_randomizeButton world browse grid view"
+ },
+ {
+  "original_name": "ÌÌÎÌÌÎÌÍÎÏÏÎÏÍÍÎÌÌÍÎÏÏÌ",
+  "proposed_name": "HorizonAdjustSettings",
+  "confidence": "high",
+  "reason": "extends PlayerheaderText; fields _allowHorizonAdjustSetting/_horizonAdjustWarningMessageSetting/_horizonAdjustSnapSetting/_setHorizonAdjustSetting horizon adjust settings"
+ },
+ {
+  "original_name": "ÌÍÍÍÌÎÏÎÎÌÏÎÌÏÌÎÏÌÌÏÎÍÌ",
+  "proposed_name": "LabeledOutlineButtonItem",
+  "confidence": "high",
+  "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields display/label/outline/button labeled outline button item"
+ },
+ {
+  "original_name": "ÏÏÎÎÌÍÌÌÍÏÌÏÏÎÏÌÎÌÌÍÍÍÏ",
+  "proposed_name": "SidePanelToggleButton",
+  "confidence": "high",
+  "reason": "fields _sidePanelToggleButton/_sidePanelToggleButtonImage/_collapsedIconTexture/_expandedIconTexture/_navBtnToggleTooltip side panel toggle button"
+ },
+ {
+  "original_name": "ÍÏÎÌÌÍÌÎÏÏÌÎÏÏÏÏÏÍÍÏÍÏÌ",
+  "proposed_name": "MouseAndFingerTrackingSettings",
+  "confidence": "high",
+  "reason": "extends PlayerheaderText; fields _mouseSensitivity/_invertedMouseLook/_fingerTrackingExclusiveMode/_searchModeDependantObjects mouse and finger tracking settings"
+ },
+ {
+  "original_name": "ÏÎÌÌÌÎÎÏÍÌÎÎÎÎÍÌÏÏÎÏÎÏÌ",
+  "proposed_name": "SubscriptionCancellationPanel",
+  "confidence": "high",
+  "reason": "extends UIscrollRectfootnote; fields _noRefundAvailable/_detailsInformation/_detailsPanel/_toggleCancelImmediately subscription cancellation panel"
+ },
+ {
+  "original_name": "ÏÌÍÎÍÍÎÌÍÍÏÍÎÏÍÍÌÏÏÏÌÌÏ",
+  "proposed_name": "ToggleBindingControl",
+  "confidence": "high",
+  "reason": "extends UIk__BackingField; fields _toggleBinding/_toggleSwitch/_toggle/_canvasGroup/_onValueChanged toggle binding control"
+ },
+ {
+  "original_name": "ÍÎÍÎÌÌÌÍÏÏÌÎÎÌÌÍÎÌÍÎÎÌÌ",
+  "proposed_name": "NetworkSyncedPickup",
+  "confidence": "high",
+  "reason": "extends NetworkReadyHandler; fields _lastPosition/_typeId/_uniqueHash/hideChildCanvasesOnBlockedUserHeld/forceKinematicOnRemote plus Decode/Encode methods synced pickup/rigidbody"
+ },
+ {
+  "original_name": "ÌÏÎÏÌÏÍÏÌÌÌÍÍÍÎÏÌÎÌÏÏÍÏ",
+  "proposed_name": "AvatarCategoryIconSet",
+  "confidence": "high",
+  "reason": "fields _favoriteIcon/_authoredIcon/_licensedIcon/_recentIcon/_vrcPlusFavoriteIcon avatar category icon set"
+ },
+ {
+  "original_name": "ÍÎÍÍÌÌÏÍÎÎÌÏÌÍÍÍÏÌÌÏÏÎÍ",
+  "proposed_name": "EmojiParticleSystem",
+  "confidence": "high",
+  "reason": "fields pausedAnimatedEmojiOverlayMaterial/emojiSpriteMaterial/maskMaterial/customEmoji_ParticleSystemList/masks emoji particle system with mask support"
+ },
+ {
+  "original_name": "ÌÌÏÏÌÌÌÏÌÎÎÏÎÍÏÍÎÏÎÏÍÍÏ",
+  "proposed_name": "KeyboardInputDisplay",
+  "confidence": "high",
+  "reason": "extends manualTriggerclearDisplaySibling; fields _placeholder/_displayText/_clearDisplay/_keyboardData/_manualTrigger keyboard input display"
+ },
+ {
+  "original_name": "ÎÏÍÏÏÍÌÏÌÏÌÏÎÌÌÍÍÏÌÍÏÌÌ",
+  "proposed_name": "StoreBannerCalloutPanel",
+  "confidence": "high",
+  "reason": "extends UIk__BackingFieldComponent; fields _bannerCarousel/_storeNewShelfBadge/_accessoriesShopCallout/_newContentShopCallout/_vrcPlusExclusiveItemsCallout store banner/callout panel"
+ },
+ {
+  "original_name": "ÌÎÍÏÎÌÎÌÏÌÏÎÏÏÏÎÍÏÍÍÌÎÌ",
+  "proposed_name": "DisclaimerSectionWithLinks",
+  "confidence": "high",
+  "reason": "extends ProgressDisclaimerBase; fields _disclaimerTitleText/_disclaimerText/_sectionBorders/_links/_linkTexts disclaimer section with clickable links"
+ },
+ {
+  "original_name": "ÍÌÍÏÍÌÎÍÏÎÌÏÎÍÎÎÍÎÎÍÎÏÎ",
+  "proposed_name": "GenericIconButtonItem",
+  "confidence": "high",
+  "reason": "extends UIRectTransformDimensionsChBeforeTransform; fields button/text/image/canvasGroup generic icon button item"
+ },
+ {
+  "original_name": "ÏÎÏÌÎÍÏÏÍÍÏÏÍÏÏÎÏÎÍÏÍÍÎ",
+  "proposed_name": "WorldInfoDisclaimerPanel",
+  "confidence": "high",
+  "reason": "fields _worldNameText/_authorNameText/_disclaimerText/_links/_linkTexts world info disclaimer panel with links"
+ },
+ {
+  "original_name": "ÏÍÎÎÎÎÎÌÎÎÍÌÏÏÏÌÌÌÎÎÌÌÍ",
+  "proposed_name": "WingCanvasPanel",
+  "confidence": "high",
+  "reason": "extends BackingCanvasBase; fields _wingType/_canvasGroup/_mask/_canvas/_graphicRaycaster VRChat wing-panel canvas"
+ },
+ {
+  "original_name": "ÍÍÌÏÏÏÍÍÌÍÍÍÏÏÌÎÎÏÎÎÏÍÌ",
+  "proposed_name": "StyledTextSeparatorElement",
+  "confidence": "high",
+  "reason": "extends SeparatorsVisibilityBase; fields _layoutElement/_styleElement/_text/_separators/_pixelsPerLine styled text separator element"
+ },
+ {
+  "original_name": "ÏÎÍÌÎÏÎÎÏÏÏÏÏÍÍÏÍÏÏÍÌÎÌ",
+  "proposed_name": "RoundedRectBorderImage",
+  "confidence": "high",
+  "reason": "extends Image; fields _sides/_radius/_thickness/_uvRangeX/_useRadialFill plus OnPopulateMesh custom rounded-rect border UI mesh"
+ },
+ {
+  "original_name": "ÏÍÏÏÌÍÍÌÏÍÌÎÌÏÌÎÌÌÏÎÍÌÏ",
+  "proposed_name": "AutoFocusCameraController",
+  "confidence": "high",
+  "reason": "fields AutoFocusCalibrateButton/AutoFocusCursorRing/AutoFocusCursorFill/ScreenCanvas/aspectRatio auto-focus camera controller"
+ },
+ {
+  "original_name": "ÏÏÍÎÎÏÏÏÏÍÍÏÌÌÎÌÌÎÏÏÍÏÏ",
+  "proposed_name": "PortalConfirmationDialog",
+  "confidence": "high",
+  "reason": "fields _canvasGroup/_controlsText/_portalFailureText/_okButtonImage/_cancelButtonImage portal confirmation dialog"
+ },
+ {
+  "original_name": "ÍÏÍÌÍÏÏÍÌÌÎÎÍÍÎÏÍÏÎÏÍÍÍ",
+  "proposed_name": "ImageAnimationBinding",
+  "confidence": "high",
+  "reason": "fields _imageBinding/_imageRectTransform/_animateOutProperties/_animateInProperties image animate-in/out binding"
+ },
+ {
+  "original_name": "ÍÏÏÏÌÌÍÎÍÏÏÏÏÌÌÎÏÎÎÌÌÏÏ",
+  "proposed_name": "KeyboardKeyDisplay",
+  "confidence": "high",
+  "reason": "fields _type/_lowerCaseValue/_upperCaseValue/_lowerCaseAlignment/_upperCaseAlignment keyboard key display with case variants"
+ },
+ {
+  "original_name": "ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ",
+  "proposed_name": "BlurRenderTextureSettings",
+  "confidence": "high",
+  "reason": "extends k__BackingField; fields renderTextureWidth/renderTextureHeight/blurDownsampleFactor/blurSize/blurIterations blur render texture settings"
+ },
+ {
+  "original_name": "ÌÌÎÏÌÌÎÍÍÏÏÌÌÌÎÎÎÏÏÎÌÌÎ",
+  "proposed_name": "DynamicStyleContainerElement",
+  "confidence": "high",
+  "reason": "fields _styleElements/_swapCollapseAndExpand/_addToParentOnStart dynamic style container element"
+ },
+ {
+  "original_name": "ÏÌÏÎÏÏÍÌÌÏÎÌÍÏÎÏÍÍÎÏÌÌÎ",
+  "proposed_name": "ColorFilterSettings",
+  "confidence": "high",
+  "reason": "extends PlayerheaderText; fields _colorFilters/_filterIntensity/_applyToWorld/_simulateColorBlindness/_colorFilter color filter / color blindness settings"
+ },
+ {
+  "original_name": "ÏÏÌÎÍÍÏÏÍÎÎÏÍÏÌÏÍÎÎÍÍÏÎ",
+  "proposed_name": "ActionMenuControl",
+  "confidence": "high",
+  "reason": "extends Control; fields _name/_icon/_type/_parameter/_value plus GetSubParameter/GetLabel action menu control entry"
+ },
+ {
+  "original_name": "ÌÌÌÍÍÍÌÎÌÏÌÍÌÏÎÎÍÌÎÎÍÎÌ",
+  "proposed_name": "UnknownObjectWrapper60",
+  "confidence": "medium",
+  "reason": "fields _66A6/_66A62/_66A63/_66A64/_66A65 are all obfuscated hex names with no domain signal; likely internal Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÎÌÏÌÌÏÌÏÎÍÍÏÏÎÏÌÎÍÏÏÍÍ",
+  "proposed_name": "DisposableObjectWrapper",
+  "confidence": "medium",
+  "reason": "extends Object; fields _9357 etc obfuscated, but methods Dispose/Cleanup suggest a disposable resource wrapper"
+ },
+ {
+  "original_name": "ÍÏÏÏÍÌÍÍÎÏÍÎÍÏÏÏÍÎÏÎÍÌÎ",
+  "proposed_name": "InputActionAsset",
+  "confidence": "high",
+  "reason": "extends Object; fields _bindings/_devices/_controlSchemes/_bindingMask plus set_bindings/FindBinding/Contains/GetEnumerator Unity InputSystem InputActionAsset or similar"
+ },
+ {
+  "original_name": "ÏÏÏÍÎÏÏÌÎÎÍÍÌÏÌÌÌÎÍÎÍÏÌ",
+  "proposed_name": "MemoryStream",
+  "confidence": "high",
+  "reason": "extends Stream; fields _canSeek/_canRead/_length/_position/_canWrite plus BeginRead/EndRead/Dispose/Cleanup MemoryStream or BufferedStream implementation"
+ },
+ {
+  "original_name": "ÌÍÏÍÎÍÏÎÎÍÌÍÏÌÎÌÎÌÌÍÌÌÍ",
+  "proposed_name": "UnknownObjectWrapper64",
+  "confidence": "medium",
+  "reason": "fields _c729 etc all obfuscated hex names; extends Object with no domain signal; internal wrapper"
+ },
+ {
+  "original_name": "ÎÎÎÎÏÎÎÏÍÌÎÎÏÍÎÎÍÎÌÌÍÌÌ",
+  "proposed_name": "UdonVideoPlayer",
+  "confidence": "high",
+  "reason": "extends Object; fields _videoWidth/_isReady/_loop plus Pause/Stop/LoadURL/get_VideoWidth/get_VideoHeight/set_Loop UdonVideoPlayer API object"
+ },
+ {
+  "original_name": "ÎÏÍÌÎÍÎÎÎÎÎÎÏÏÍÏÏÌÏÎÍÍÌ",
+  "proposed_name": "UdonHttpResult",
+  "confidence": "high",
+  "reason": "extends Object; fields _result/_udonBehaviour/_errorCode/_resultBytes/_url plus get/set_Result/UdonBehaviour UdonSharp HTTP request result"
+ },
+ {
+  "original_name": "ÎÏÏÏÍÍÎÎÎÏÌÍÌÌÌÌÎÍÌÍÏÎÌ",
+  "proposed_name": "UdonSyncedVariableStore",
+  "confidence": "medium",
+  "reason": "extends Object; fields _intVal/_boolVal/_floatVal/_objectIsNullMessage/_cloneDestroyedMessage synced variable store; _cloneDestroyedMessage suggests UnityEngine.Object subclass"
+ },
+ {
+  "original_name": "ÎÍÌÍÌÍÌÍÎÎÎÍÏÏÏÏÎÍÌÎÎÍÌ",
+  "proposed_name": "UnknownObjectWrapper68",
+  "confidence": "medium",
+  "reason": "fields _2883/_28832 etc all obfuscated hex names; extends Object; insufficient domain signal"
+ },
+ {
+  "original_name": "ÎÌÍÌÎÎÎÎÏÍÎÎÏÍÌÍÍÏÍÌÎÍÍ",
+  "proposed_name": "UnknownBackingFieldWrapper69",
+  "confidence": "medium",
+  "reason": "extends BackingFieldBase_k__BackingField; fields _eF67 etc all obfuscated; minimal domain signal"
+ },
+ {
+  "original_name": "ÍÍÌÎÌÌÍÍÏÌÎÌÎÌÌÎÎÏÌÏÏÏÏ",
+  "proposed_name": "UnknownObjectWrapper70",
+  "confidence": "medium",
+  "reason": "extends Object; fields _aB0A etc all obfuscated hex names; insufficient domain signal"
+ },
+ {
+  "original_name": "ÍÍÍÎÌÌÌÍÎÌÎÎÏÍÏÌÍÎÌÌÏÏÍ",
+  "proposed_name": "UnknownBackingFieldWrapper71",
+  "confidence": "medium",
+  "reason": "extends BackingFieldBase; fields _3034 etc all obfuscated; insufficient domain signal"
+ },
+ {
+  "original_name": "ÍÏÍÏÍÌÍÎÍÏÎÍÏÎÌÌÌÌÎÍÏÌÏ",
+  "proposed_name": "UnknownBackingFieldWrapper72",
+  "confidence": "medium",
+  "reason": "extends BackingFieldBase; fields _2FD8 etc all obfuscated; insufficient domain signal"
+ },
+ {
+  "original_name": "ÎÌÍÎÌÌÍÎÎÌÌÍÎÌÎÌÏÏÎÍÍÌÍ",
+  "proposed_name": "UnityObjectMetadata",
+  "confidence": "high",
+  "reason": "extends Object; fields _kInstanceID_None/_offsetOfInstanceIDInCPlusPlusObject/_objectIsNullMessage/_cloneDestroyedMessage are Unity Object internal metadata fields"
+ },
+ {
+  "original_name": "ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ",
+  "proposed_name": "ClickableTooltipElement",
+  "confidence": "high",
+  "reason": "extends UIBehaviour; fields _id/_visibility/_isClickable/_tooltip plus full layout/canvas lifecycle methods UI element with id, visibility, click and tooltip"
+ },
+ {
+  "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+  "proposed_name": "LabelButtonToggleItem",
+  "confidence": "high",
+  "reason": "fields label/button/toggle/isOnDisplay label+button+toggle display item"
+ },
+ {
+  "original_name": "ÎÎÎÏÌÏÎÎÍÎÏÍÌÌÍÍÌÏÏÌÌÎÌ",
+  "proposed_name": "OrientationAdaptiveTransform",
+  "confidence": "high",
+  "reason": "fields landscapePos/landscapeScale/portraitPos/portraitScale portrait/landscape orientation adaptive transform"
+ },
+ {
+  "original_name": "ÌÏÏÍÍÎÍÏÏÎÍÎÍÏÎÌÏÏÏÎÎÏÎ",
+  "proposed_name": "ModalPanelSettings",
+  "confidence": "high",
+  "reason": "fields _isModal/_isTransparent/_clearContextWhenClosed/_transitionSortOrder modal panel transition settings"
+ },
+ {
+  "original_name": "ÍÎÍÍÎÌÌÏÏÎÎÍÏÏÍÌÏÍÍÍÏÍÎ",
+  "proposed_name": "OpaqueTransparentShaderSwitcher",
+  "confidence": "high",
+  "reason": "fields _renderer/_shaderOpaque/_shaderTransparent switches between opaque and transparent shaders on a renderer"
+ },
+ {
+  "original_name": "ÍÍÌÌÎÌÍÍÌÎÌÏÎÎÌÎÏÍÌÍÍÌÎ",
+  "proposed_name": "SelectToggleItem",
+  "confidence": "medium",
+  "reason": "selectButton+toggle，UI选择切换项"
+ },
+ {
+  "original_name": "ÏÏÍÌÏÎÌÍÌÌÍÍÏÏÏÌÌÏÎÌÏÍÏ",
+  "proposed_name": "SelectorTooltipItem",
+  "confidence": "medium",
+  "reason": "selector+title+tooltip，带标题和提示的选择器组件"
+ },
+ {
+  "original_name": "ÍÍÍÍÎÏÌÎÏÌÏÍÌÏÍÎÎÍÍÎÎÌÏ",
+  "proposed_name": "VisualizerExpandablePanel",
+  "confidence": "high",
+  "reason": "_visualizer+_parentLayoutElement+隐藏/显示高度字段，可收缩高度动画的可视化面板"
+ },
+ {
+  "original_name": "ÍÌÏÏÎÌÎÏÏÌÌÍÍÎÍÏÏÎÏÎÏÎÍ",
+  "proposed_name": "LocalizedButtonWidget",
+  "confidence": "medium",
+  "reason": "_text+_localizedText+_button，带本地化文本的按钮组件"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÌÏÍÌÎÍÌÌÌÎÍÍÏÎÍÏÍÎ",
+  "proposed_name": "ImagePreviewButtonOverlay",
+  "confidence": "medium",
+  "reason": "_rawImageBinding+_styleElement+_button+_previewOverlay，图片预览叠加层"
+ },
+ {
+  "original_name": "ÍÍÏÌÏÏÍÌÌÎÏÎÎÌÍÍÍÌÍÌÏÏÏ",
+  "proposed_name": "GraphicsPerformanceConfig",
+  "confidence": "high",
+  "reason": "_cpuConfig+_gpuConfig+_openGlEsConfig+_timeoutMicrosec，图形性能配置管理器"
+ },
+ {
+  "original_name": "ÏÏÍÌÌÎÎÎÍÎÌÍÎÏÏÎÌÌÏÌÍÍÍ",
+  "proposed_name": "ControlContainerLayoutGroup",
+  "confidence": "high",
+  "reason": "_controlName+_container+_enableWhenEmpty+_forceLayoutRebuild，命名容器动态布局控制器"
+ },
+ {
+  "original_name": "ÏÏÌÏÏÏÌÌÌÍÏÍÍÍÌÎÎÏÍÏÍÎÍ",
+  "proposed_name": "GroupInfoHeaderItem",
+  "confidence": "high",
+  "reason": "_groupName+_groupIcon+_groupInfoButton，群组名称/图标/信息按钮标题组件"
+ },
+ {
+  "original_name": "ÌÌÌÏÍÏÏÎÍÏÏÎÍÏÌÌÏÍÎÍÌÍÏ",
+  "proposed_name": "ScrollArrowNavigator",
+  "confidence": "high",
+  "reason": "Scroll+LeftArrow+RightArrow+axis，带左右箭头和轴向的滚动导航器"
+ },
+ {
+  "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+  "proposed_name": "PreviewImageRotatorPanel",
+  "confidence": "high",
+  "reason": "previewImage+rotator+loadingPanel+errorPanel，预览图加旋转动画加状态面板"
+ },
+ {
+  "original_name": "ÏÏÌÎÎÎÍÎÌÍÏÌÌÎÏÎÌÌÍÌÍÏÏ",
+  "proposed_name": "TooltipButtonTextItem",
+  "confidence": "high",
+  "reason": "text+button+tooltip+buttonText，带提示的文本按钮UI项"
+ },
+ {
+  "original_name": "ÏÎÏÌÎÌÏÌÏÍÌÏÎÎÎÌÍÏÏÏÍÌÌ",
+  "proposed_name": "SelectableItemWithActions",
+  "confidence": "high",
+  "reason": "selectedOutline+lockedIcon+deleteButtonWidget+canvasGroup+OnPointer，可选中带锁/删除的UI元素"
+ },
+ {
+  "original_name": "ÎÍÎÍÍÏÍÍÏÌÏÌÎÍÍÍÏÏÎÍÍÍÎ",
+  "proposed_name": "MenuSectionWithSubButtons",
+  "confidence": "medium",
+  "reason": "titleLabel+mainButton+subButtons+separators，带主按钮/子按钮的菜单区域"
+ },
+ {
+  "original_name": "ÌÏÍÎÍÌÍÏÏÌÏÎÎÍÌÏÍÍÏÌÎÎÏ",
+  "proposed_name": "UserListItemContextMenu",
+  "confidence": "high",
+  "reason": "_visibilityButton+_viewUserProfileButton+_removeItemButton+_detailsPanel，用户列表项操作菜单"
+ },
+ {
+  "original_name": "ÏÏÍÎÌÌÍÌÍÏÌÍÍÎÌÍÌÏÏÍÏÏÎ",
+  "proposed_name": "TabControlNavigator",
+  "confidence": "medium",
+  "reason": "_controlTabName+_controlChildTabName+_source，标签/子标签导航控制组件"
+ },
+ {
+  "original_name": "ÏÍÌÎÌÎÎÏÏÌÌÌÍÎÌÍÎÎÎÍÏÏÍ",
+  "proposed_name": "ObscuredQuadFieldBinding",
+  "confidence": "low",
+  "reason": "四字段均为混淆编码_e26D系列，无法推断语义"
+ },
+ {
+  "original_name": "ÏÎÏÍÏÎÌÎÍÌÎÎÏÎÌÍÍÏÍÌÌÍÏ",
+  "proposed_name": "AvatarSharingPrivacySettings",
+  "confidence": "high",
+  "reason": "allowDirectSharing+directSharingVisibility+allowPedestalSharing+pedestalSharingVisibility，头像分享权限设置"
+ },
+ {
+  "original_name": "ÌÏÌÏÎÎÍÎÌÍÍÏÏÏÍÍÍÍÏÎÎÏÏ",
+  "proposed_name": "FingerTrackingInputSettings",
+  "confidence": "high",
+  "reason": "_fingerTrackingType+_showPinchUI+_useRecommendedSettings+_qmOpenerMode，手指追踪输入配置"
+ },
+ {
+  "original_name": "ÍÌÎÌÏÌÌÌÎÍÎÌÏÏÍÏÎÎÎÎÌÎÌ",
+  "proposed_name": "IconLabelButtonWidget",
+  "confidence": "high",
+  "reason": "_label+_button+_icon+_labelLayoutElement，带图标/标签/按钮的标准UI小部件"
+ },
+ {
+  "original_name": "ÏÏÎÍÎÌÌÌÍÎÌÏÎÌÌÏÌÏÏÍÏÎÍ",
+  "proposed_name": "AvatarScrollContentPanel",
+  "confidence": "medium",
+  "reason": "_avatarPanel+_contentPanel+_scrollRect+_viewport，头像内容滚动视图"
+ },
+ {
+  "original_name": "ÎÍÏÎÏÌÌÍÌÍÏÍÏÍÍÍÌÏÎÎÏÌÎ",
+  "proposed_name": "IconStyleToggleBinding",
+  "confidence": "high",
+  "reason": "_onIconStyle+_offIconStyle+_tooltip+_toggleBinding，开/关图标样式绑定组件"
+ },
+ {
+  "original_name": "ÍÌÌÎÎÌÌÏÎÏÍÌÏÏÌÍÍÎÎÌÍÌÏ",
+  "proposed_name": "GalleryListContentView",
+  "confidence": "high",
+  "reason": "noGalleryPanel+noGalleryText+iconBinding+_observableList，图库列表内容视图"
+ },
+ {
+  "original_name": "ÍÍÎÏÎÌÏÏÎÌÏÏÌÌÏÎÎÌÏÍÏÏÏ",
+  "proposed_name": "InputActionEventBinding",
+  "confidence": "medium",
+  "reason": "text_inputName+inputDown+inputPress+inputUp，输入动作名称与事件绑定"
+ },
+ {
+  "original_name": "ÌÏÎÌÍÍÏÌÏÌÏÌÏÍÌÍÍÌÌÏÎÎÎ",
+  "proposed_name": "ClockDisplayWidget",
+  "confidence": "high",
+  "reason": "clockText+clockDesignatorText+clockTextBackwards+clockDesignatorTextBackwards，正反向时钟文本显示组件"
+ },
+ {
+  "original_name": "ÌÏÍÏÎÎÌÌÍÎÍÎÏÌÍÌÏÌÏÏÎÏÍ",
+  "proposed_name": "CompactLayoutListView",
+  "confidence": "high",
+  "reason": "_layoutGroup+_prefabCompact+_fadeTarget+_observableList，带淡入/紧凑布局的可观察列表视图"
+ },
+ {
+  "original_name": "ÍÌÏÏÌÌÎÌÌÏÎÏÎÌÏÌÎÎÍÌÎÎÌ",
+  "proposed_name": "ExpandCollapseContainer",
+  "confidence": "high",
+  "reason": "_expandButton+_collapseButton+_contentContainer+_isExpandedByDefault，可展开折叠内容容器"
+ },
+ {
+  "original_name": "ÌÌÌÏÎÌÍÎÌÌÎÌÍÏÎÌÎÎÍÍÌÏÏ",
+  "proposed_name": "MediapipeFaceAnnotationController",
+  "confidence": "high",
+  "reason": "_faceDetectionsAnnotationController+_multiFaceLandmarksAnnotationController+faceRects系列，MediaPipe人脸检测标注控制器"
+ },
+ {
+  "original_name": "ÎÎÏÍÏÍÌÏÍÏÏÏÌÍÍÌÎÌÏÌÏÌÏ",
+  "proposed_name": "ProductContentListPanel",
+  "confidence": "high",
+  "reason": "_title+_productCellPrefab+_contentBinding，带标题和产品格子预制件的内容列表面板"
+ },
+ {
+  "original_name": "ÌÍÍÍÍÍÌÎÏÍÏÎÎÎÏÏÍÌÎÌÎÌÍ",
+  "proposed_name": "CameraFOVSensitivitySettings",
+  "confidence": "high",
+  "reason": "_lookSensitivitySetting+_portraitFOVSetting+_landscapeFOVSetting+_autoRotateSpeedSetting，摄像机FOV与灵敏度设置"
+ },
+ {
+  "original_name": "ÏÍÎÎÌÍÎÏÍÎÍÏÌÌÏÎÌÎÏÌÏÏÍ",
+  "proposed_name": "ObscuredQuadFieldBinding2",
+  "confidence": "low",
+  "reason": "四字段均为混淆编码_2C89系列，无法推断语义"
+ },
+ {
+  "original_name": "ÍÍÎÎÏÌÏÌÍÌÌÍÎÌÎÍÌÏÎÎÌÎÌ",
+  "proposed_name": "PlatformSpriteSelector",
+  "confidence": "high",
+  "reason": "_steamSprite+_mobileVRSprite+_mobileSprite，按平台类型(Steam/MobileVR/Mobile)选择精灵图的组件"
+ },
+ {
+  "original_name": "ÏÍÎÏÌÏÎÍÌÏÏÎÏÎÎÍÍÍÏÏÌÎÏ",
+  "proposed_name": "FingerTrackingAdvancedSettings",
+  "confidence": "high",
+  "reason": "_steamBindings+_fingerTrackingExclusiveMode+_avatarsUseFingerTracking+_doubleTapForMainMenu，Steam手指追踪高级设置"
+ },
+ {
+  "original_name": "ÎÎÌÍÎÏÌÏÌÌÎÏÌÏÏÍÌÎÏÌÎÍÏ",
+  "proposed_name": "PromptDialogOverlay",
+  "confidence": "medium",
+  "reason": "_canvasGroup+_promptText，带提示文本的对话框叠加层"
+ },
+ {
+  "original_name": "ÍÏÍÎÎÎÍÌÏÎÏÌÏÍÏÎÍÌÍÍÏÏÏ",
+  "proposed_name": "MediapipeHandAnnotationController",
+  "confidence": "high",
+  "reason": "_palmDetectionsAnnotationController+_handRectsFromPalmDetectionsAnnotationController+_handLandmarksAnnotationController，MediaPipe手部检测标注控制器"
+ },
+ {
+  "original_name": "ÏÎÌÍÌÍÍÏÏÍÍÎÏÌÍÍÌÎÍÌÍÍÍ",
+  "proposed_name": "InteractableTouchMoveSelector",
+  "confidence": "high",
+  "reason": "_interactableMask+_playerMask+_touchMove+_selectRightButton，可交互物体触摸移动选择器"
+ },
+ {
+  "original_name": "ÏÎÌÌÍÍÎÏÌÏÍÌÏÌÌÎÌÏÌÍÌÎÌ",
+  "proposed_name": "AvatarVisibilityBehaviorSettings",
+  "confidence": "high",
+  "reason": "_hideBeyondSetting+_showNearestSetting+_alwaysShowFriendAvatarsSetting+_allowOverrideWithShowAvatarSetting，头像可见性行为设置"
+ },
+ {
+  "original_name": "ÎÏÍÏÍÍÌÎÎÍÏÌÌÍÍÍÏÎÏÍÌÍÎ",
+  "proposed_name": "TypedDescriptionPanel",
+  "confidence": "medium",
+  "reason": "_type+_titleText+_descriptionText，带类型/标题/描述的信息面板"
+ },
+ {
+  "original_name": "ÎÍÍÍÏÏÎÏÎÍÎÎÌÎÌÏÌÏÎÍÌÌÌ",
+  "proposed_name": "WorldContextMenuPanel",
+  "confidence": "high",
+  "reason": "_worldInformationPanel+_addToPlaylistHeaderButton+_reportWorldButton+_goToAuthorButton，世界信息上下文菜单面板"
+ },
+ {
+  "original_name": "ÏÏÍÍÍÏÏÏÌÏÌÏÎÏÏÍÍÎÌÎÏÍÌ",
+  "proposed_name": "VRCUiShapeCanvas",
+  "confidence": "high",
+  "reason": "_getEventCamera+_allowFocusView+__uiCanvas+__localRectTransform，VRC UI形状画布根组件"
+ },
+ {
+  "original_name": "ÍÎÏÎÏÏÍÏÎÏÎÏÌÏÍÏÍÏÏÌÎÎÍ",
+  "proposed_name": "PointerHandleCanvasGroup",
+  "confidence": "high",
+  "reason": "_handle+_turnedOffCanvasGroup+_turnedOnCanvasGroup+_handleCanvasGroup，指针开关句柄CanvasGroup"
+ },
+ {
+  "original_name": "ÏÏÌÎÎÏÏÍÍÎÎÎÌÎÍÏÏÎÏÎÌÌÏ",
+  "proposed_name": "ButtonIconTooltipTextItem",
+  "confidence": "high",
+  "reason": "button+icon+tooltip+text，带图标/提示/文本的按钮UI项"
+ },
+ {
+  "original_name": "ÏÏÏÎÎÌÌÏÎÏÌÎÍÌÌÎÌÍÏÏÌÌÏ",
+  "proposed_name": "AppSettingsBinding",
+  "confidence": "medium",
+  "reason": "_appSettings字段存在，应用配置绑定组件，其余字段混淆"
+ },
+ {
+  "original_name": "ÎÎÍÍÏÏÏÏÍÌÏÎÍÎÎÌÏÍÌÎÍÍÏ",
+  "proposed_name": "NameplateVisibilitySettings",
+  "confidence": "high",
+  "reason": "_nameplateVisibilitySetting+_showGroupBannerSetting+_showAdditionalInfoSetting+_hudDetailLevelSetting，名牌/HUD可见性设置"
+ },
+ {
+  "original_name": "ÎÏÍÍÌÎÍÏÍÍÍÌÏÌÏÏÌÌÌÍÏÍÏ",
+  "proposed_name": "DebugLoggingSettings",
+  "confidence": "high",
+  "reason": "_loggingSetting+_pinFPSAndPingSetting+_debugButtons，调试日志与FPS/Ping固定设置"
+ },
+ {
+  "original_name": "ÍÎÏÌÍÏÌÍÎÎÌÎÌÌÏÌÌÌÏÏÍÍÎ",
+  "proposed_name": "UnityObjectNamedWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+Initialize+get_name方法，有初始化和名称访问的Unity Object包装类"
+ },
+ {
+  "original_name": "ÍÏÎÍÍÎÎÌÌÍÌÍÎÌÌÌÌÏÍÌÍÌÌ",
+  "proposed_name": "UnityObjectEquatableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+Initialize+Equals+GetHashCode，带初始化和等值比较的Unity Object包装"
+ },
+ {
+  "original_name": "ÌÎÍÏÌÏÍÎÌÍÍÎÎÍÍÌÏÌÏÌÏÎÎ",
+  "proposed_name": "UnityObjectEnumeratorWithName",
+  "confidence": "medium",
+  "reason": "parent=Object+MoveNext+get_Current+IDisposable+Initialize+set_name，带名称设置的协程/枚举器包装类"
+ },
+ {
+  "original_name": "ÌÎÎÌÍÍÌÌÏÍÏÎÍÏÏÍÎÌÍÏÌÍÌ",
+  "proposed_name": "UnityObjectEnumerator",
+  "confidence": "medium",
+  "reason": "parent=Object+MoveNext+IEnumerator接口+IDisposable+Initialize+Instantiate，协程枚举器包装类"
+ },
+ {
+  "original_name": "ÎÏÌÌÍÌÌÍÍÎÏÌÍÎÍÍÎÏÍÍÏÌÏ",
+  "proposed_name": "UnityObjectEnumeratorWithDestroy",
+  "confidence": "medium",
+  "reason": "parent=Object+MoveNext+get_Current+IDisposable+Destroy，带销毁的协程枚举器包装类"
+ },
+ {
+  "original_name": "ÌÏÎÌÎÎÍÌÍÎÎÌÎÎÎÏÏÏÌÌÍÏÏ",
+  "proposed_name": "UnityObjectDestroyableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+Instantiate+Destroy+get_name+set_name，支持实例化和销毁的Unity Object包装"
+ },
+ {
+  "original_name": "ÎÌÍÍÎÌÍÌÏÌÎÌÎÎÍÍÍÎÎÏÏÏÍ",
+  "proposed_name": "UnityObjectEnumeratorNamed",
+  "confidence": "medium",
+  "reason": "parent=Object+MoveNext+IEnumerator接口+Initialize+set_name，带名称和枚举的Unity Object包装"
+ },
+ {
+  "original_name": "ÏÍÌÎÏÏÌÏÏÌÏÏÎÌÎÎÌÎÏÏÍÌÏ",
+  "proposed_name": "UnityObjectInstantiableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，支持实例化的Unity Object包装"
+ },
+ {
+  "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+  "proposed_name": "UnityObjectInstantiableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+ },
+ {
+  "original_name": "ÌÎÎÍÍÎÌÎÌÍÎÌÎÎÌÍÎÎÎÌÌÎÌ",
+  "proposed_name": "UnityObjectInstantiableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+ },
+ {
+  "original_name": "ÏÌÏÏÎÏÍÍÏÍÌÍÏÌÌÍÎÎÎÌÎÏÏ",
+  "proposed_name": "UnityObjectInstantiableWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+ },
+ {
+  "original_name": "ÍÏÍÎÏÍÌÏÎÎÎÍÏÌÍÏÏÎÌÍÍÍÌ",
+  "proposed_name": "UnityObjectDestroyableInitWrapper",
+  "confidence": "medium",
+  "reason": "parent=Object+Initialize+Destroy+GetInstanceID，带初始化和销毁的Unity Object包装"
+ },
+ {
+  "original_name": "ÍÌÍÎÌÌÎÌÌÏÌÏÎÏÍÏÌÏÏÌÎÌÏ",
+  "proposed_name": "UnityObjectEnumeratorDestroyable",
+  "confidence": "medium",
+  "reason": "parent=Object+MoveNext+get_Current+IEnumerator接口+IDisposable+Initialize+Destroy，可销毁协程枚举器"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÍÏÍÍÌÎÎÎÍÌÍÍÏÍÎÎÌÌ",
+  "proposed_name": "UnityObjectDestroyableWrapper2",
+  "confidence": "medium",
+  "reason": "parent=Object+Equals+GetHashCode+Instantiate+Destroy，带实例化/销毁的Unity Object包装"
+ },
+ {
+  "original_name": "ÎÌÍÌÎÏÏÏÍÍÏÍÌÎÍÌÍÎÌÌÏÎÌ",
+  "proposed_name": "InitializedObjectBase_01",
+  "confidence": "medium",
+  "reason": "Initialize present: base initialized object wrapper"
+ },
+ {
+  "original_name": "ÍÏÌÏÎÍÎÏÎÍÏÏÎÎÎÏÏÌÏÏÍÏÏ",
+  "proposed_name": "InitializedNamedNativeObject_01",
+  "confidence": "medium",
+  "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+ },
+ {
+  "original_name": "ÎÍÎÍÍÌÎÌÏÎÎÍÎÎÍÌÌÍÎÏÌÏÎ",
+  "proposed_name": "FullNativeObjectProxy_01",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÎÏÏÎÍÌÌÌÌÏÍÏÏÏÍÌÌÌÌÎÎÏÎ",
+  "proposed_name": "InitializedNativeObjectCached_01",
+  "confidence": "medium",
+  "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+ },
+ {
+  "original_name": "ÌÏÏÎÏÍÏÎÌÍÌÌÍÍÏÏÍÎÏÏÍÎÍ",
+  "proposed_name": "InitializedNamedInstantiatable_01",
+  "confidence": "medium",
+  "reason": "Initialize+name+Instantiate: initialized named instantiatable object"
+ },
+ {
+  "original_name": "ÌÏÏÌÍÎÏÌÍÍÌÎÍÎÎÍÏÎÌÍÏÍÏ",
+  "proposed_name": "InitializedNativeObjectCached_02",
+  "confidence": "medium",
+  "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+ },
+ {
+  "original_name": "ÏÎÌÎÌÏÎÍÍÏÍÎÎÎÎÏÏÏÎÎÍÏÏ",
+  "proposed_name": "FullNativeObjectProxy_02",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÏÌÍÌÎÍÍÎÍÍÏÌÏÍÎÌÌÌÌÍÌÏÎ",
+  "proposed_name": "ManagedNativeObjectFull_01",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÎÏÌÍÌÎÎÎÍÎÎÏÌÎÍÏÏÌÎÍÎÏÎ",
+  "proposed_name": "InitializedCachedNamedObject_01",
+  "confidence": "medium",
+  "reason": "Initialize+GetCachedPtr+name: cached initialized named object"
+ },
+ {
+  "original_name": "ÏÍÍÏÏÏÏÌÌÎÌÍÌÍÎÌÍÌÏÏÎÎÌ",
+  "proposed_name": "FullNativeObjectProxy_03",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ",
+  "proposed_name": "BackingFieldStore_01",
+  "confidence": "high",
+  "reason": "BackingFieldBase parent with opaque hex-indexed fields, backing field container"
+ },
+ {
+  "original_name": "ÏÍÎÍÌÍÍÎÌÎÌÍÎÍÎÍÍÌÎÏÍÍÌ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_01",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÍÎÏÏÌÍÍÌÍÏÏÎÏÎÍÌÎÎÎÌÌÎÍ",
+  "proposed_name": "ManagedNamedNativeObject_01",
+  "confidence": "medium",
+  "reason": "Destroy+Initialize+name+Instantiate: managed named native object"
+ },
+ {
+  "original_name": "ÌÏÌÌÎÏÍÍÏÌÍÏÏÎÌÏÍÍÎÏÌÌÎ",
+  "proposed_name": "ManagedNativeObjectFull_02",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÏÎÍÌÍÏÌÎÍÎÎÍÌÏÏÏÏÌÏÏÏÎÎ",
+  "proposed_name": "InitializedNativeObjectLight_01",
+  "confidence": "medium",
+  "reason": "Initialize+IsNativeObjectAlive without cached ptr: lightweight native init wrapper"
+ },
+ {
+  "original_name": "ÎÌÏÍÏÍÎÌÌÍÏÍÌÍÌÍÌÌÎÌÍÍÍ",
+  "proposed_name": "InitializedObjectBase_02",
+  "confidence": "medium",
+  "reason": "Initialize present: base initialized object wrapper"
+ },
+ {
+  "original_name": "ÏÏÍÎÎÌÌÎÌÎÎÍÍÌÌÍÌÍÏÌÎÏÌ",
+  "proposed_name": "DisposableManagedObjectFull_01",
+  "confidence": "high",
+  "reason": "Dispose+Destroy+Initialize: fully managed lifecycle disposable object"
+ },
+ {
+  "original_name": "ÌÌÏÎÎÌÎÍÌÏÎÏÌÎÎÍÌÎÎÌÍÏÎ",
+  "proposed_name": "DisposableManagedObjectFull_02",
+  "confidence": "high",
+  "reason": "Dispose+Destroy+Initialize: fully managed lifecycle disposable object"
+ },
+ {
+  "original_name": "ÌÍÏÏÎÎÌÌÎÍÌÎÌÎÎÍÍÎÌÏÍÎÌ",
+  "proposed_name": "DisposableCoroutineEnumerator_01",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÎÌÌÍÎÍÏÌÎÌÏÏÌÎÍÎÎÎÍÎÎÌÏ",
+  "proposed_name": "EnumerableCoroutineCollection_01",
+  "confidence": "high",
+  "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+ },
+ {
+  "original_name": "ÎÌÌÏÌÌÌÌÌÍÏÎÎÎÎÍÌÌÏÏÌÍÍ",
+  "proposed_name": "ManagedNativeObject_01",
+  "confidence": "medium",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive: managed native object lifecycle"
+ },
+ {
+  "original_name": "ÏÌÍÏÍÏÍÎÎÏÌÌÌÎÌÌÍÎÎÏÎÎÎ",
+  "proposed_name": "DisposableNativeObject_01",
+  "confidence": "medium",
+  "reason": "IDisposable: disposable native Unity object wrapper"
+ },
+ {
+  "original_name": "ÏÌÏÌÍÏÌÍÌÎÎÍÎÏÏÏÏÌÏÍÎÏÌ",
+  "proposed_name": "DisposableDestroyableObject_01",
+  "confidence": "medium",
+  "reason": "Dispose+Destroy: disposable and destroyable Unity object"
+ },
+ {
+  "original_name": "ÌÍÎÍÌÎÏÍÏÌÌÎÎÏÍÌÏÏÏÌÎÏÌ",
+  "proposed_name": "InitializedNamedInstantiatable_02",
+  "confidence": "medium",
+  "reason": "Initialize+name+Instantiate: initialized named instantiatable object"
+ },
+ {
+  "original_name": "ÌÎÍÎÏÍÎÍÍÎÍÌÏÏÎÎÏÌÌÌÏÎÎ",
+  "proposed_name": "NativeObjectProxy_01",
+  "confidence": "medium",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+Instantiate: native object proxy without init"
+ },
+ {
+  "original_name": "ÏÌÍÌÌÌÎÌÍÌÏÍÏÏÎÌÍÎÏÌÍÏÍ",
+  "proposed_name": "InitializedNamedNativeObject_02",
+  "confidence": "medium",
+  "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+ },
+ {
+  "original_name": "ÎÎÎÌÏÍÍÌÍÎÌÍÎÎÌÍÍÌÏÌÎÏÏ",
+  "proposed_name": "FullNativeObjectProxy_04",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÍÏÌÌÎÍÎÌÌÍÍÏÌÏÌÍÎÍÍÏÍÎÎ",
+  "proposed_name": "ManagedNativeObjectFull_03",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÏÌÌÏÌÌÍÎÎÏÎÌÍÏÏÏÏÎÍÏÍÎÍ",
+  "proposed_name": "ManagedNativeObject_02",
+  "confidence": "medium",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive: managed native object lifecycle"
+ },
+ {
+  "original_name": "ÎÍÍÎÌÏÍÎÎÏÎÏÎÎÌÌÏÎÏÌÏÍÎ",
+  "proposed_name": "DisposableCoroutineEnumerator_02",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÍÌÏÌÌÍÌÎÍÎÏÍÏÌÍÍÏÎÍÎÌÎÏ",
+  "proposed_name": "DisposableCoroutineEnumerator_03",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÌÌÏÍÌÎÍÍÌÏÎÍÏÎÍÌÏÎÌÎÏÎÍ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_02",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÎÏÎÌÏÎÎÌÍÎÎÌÎÏÏÌÏÎÏÎÏÏÎ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_03",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÍÏÏÎÍÎÌÌÏÎÌÍÍÍÌÍÏÍÍÍÍÏÌ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_04",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÏÍÏÏÍÍÍÌÍÏÍÏÍÍÎÏÌÍÌÎÍÏÎ",
+  "proposed_name": "DisposableCoroutineEnumerator_04",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÌÌÌÎÌÏÎÎÎÍÏÌÍÌÎÌÎÍÌÌÎÏÏ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_05",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÏÎÎÍÏÎÌÎÌÎÎÌÍÎÌÌÏÏÍÎÌÌÌ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_06",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÏÍÏÏÌÎÎÏÌÏÎÍÎÏÏÍÌÎÍÌÏÌÌ",
+  "proposed_name": "DisposableCoroutineEnumerator_05",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÏÏÏÍÎÏÏÏÎÎÏÏÎÌÌÌÏÍÌÏÌÏÍ",
+  "proposed_name": "FullNativeObjectProxy_05",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÍÍÏÌÌÌÍÏÌÏÎÎÎÌÌÍÌÌÏÍÍÎÏ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_07",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÏÎÏÌÏÍÏÎÎÎÍÌÌÎÌÎÎÌÍÏÍÏÏ",
+  "proposed_name": "DisposableCoroutineEnumerator_06",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÍÌÏÎÎÍÎÏÎÌÌÏÌÍÍÎÍÏÌÎÏÎÌ",
+  "proposed_name": "DisposableCoroutineEnumerator_07",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÏÏÍÎÏÎÏÌÎÎÏÌÌÍÌÏÏÎÍÏÍÎÍ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_08",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÌÌÍÍÌÎÎÎÍÎÌÌÎÍÌÍÏÏÌÎÍÎÏ",
+  "proposed_name": "CoroutineEnumerator_01",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator methods: coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÎÎÍÎÎÎÌÌÏÎÏÏÎÎÍÍÌÌÎÏÏÎÏ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_09",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÎÌÏÏÍÍÎÎÎÎÎÎÍÎÎÎÌÍÎÏÎÎÎ",
+  "proposed_name": "DisposableCoroutineEnumerator_08",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÏÍÍÎÍÌÎÎÏÌÌÍÏÎÎÎÎÍÍÏÎÌÎ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_10",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÏÎÏÍÌÏÎÏÎÍÌÎÍÏÎÍÏÎÏÎÍÏÌ",
+  "proposed_name": "EnumerableCoroutineCollection_02",
+  "confidence": "high",
+  "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+ },
+ {
+  "original_name": "ÌÌÏÍÍÍÍÏÌÎÎÏÏÎÌÎÍÌÍÎÎÍÍ",
+  "proposed_name": "DisposableDestroyableObject_02",
+  "confidence": "medium",
+  "reason": "Dispose+Destroy: disposable and destroyable Unity object"
+ },
+ {
+  "original_name": "ÏÏÍÍÌÎÏÍÎÌÍÎÎÌÏÏÎÍÌÌÏÍÍ",
+  "proposed_name": "FullNativeObjectProxy_06",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÌÍÏÏÏÎÍÍÏÌÎÎÎÎÎÏÎÌÏÌÍÍÎ",
+  "proposed_name": "FullNativeObjectProxy_07",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÏÏÌÎÎÎÌÌÎÍÍÍÏÎÍÎÏÍÌÎÌÏÍ",
+  "proposed_name": "UnityObjectVariant_01",
+  "confidence": "medium",
+  "reason": "Unity Object subclass variant with partial method set"
+ },
+ {
+  "original_name": "ÍÏÎÌÌÏÍÌÍÏÌÎÎÎÌÌÎÍÍÎÏÌÌ",
+  "proposed_name": "ManagedNativeObjectFull_04",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ",
+  "proposed_name": "ManagedNativeObjectFull_05",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÏÌÌÏÎÎÎÍÏÎÌÏÌÎÏÍÎÌÎÍÍÏÎ",
+  "proposed_name": "CoroutineEnumerator_02",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator methods: coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÌÌÍÍÍÎÎÏÌÍÎÎÎÌÍÎÎÍÎÎÌÏÍ",
+  "proposed_name": "DisposableCoroutineEnumerator_09",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÎÌÏÌÌÍÍÌÌÏÍÎÍÌÎÏÏÍÍÎÏÏÎ",
+  "proposed_name": "FullNativeObjectProxy_08",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÎÌÌÎÌÌÎÎÍÎÍÌÎÍÍÍÎÌÏÌÎÍÎ",
+  "proposed_name": "InitializedNativeObjectCached_03",
+  "confidence": "medium",
+  "reason": "Initialize+IsNativeObjectAlive+GetCachedPtr: initialized cached native object"
+ },
+ {
+  "original_name": "ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ",
+  "proposed_name": "EnumerableCoroutineCollection_03",
+  "confidence": "high",
+  "reason": "MoveNext+GetEnumerator+IEnumerable: iterable coroutine collection wrapper"
+ },
+ {
+  "original_name": "ÌÏÍÎÌÏÍÏÏÌÏÌÍÍÎÏÎÎÎÏÌÏÏ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_11",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÌÎÍÎÏÍÏÏÏÎÎÎÎÌÌÍÎÎÌÎÎÍÍ",
+  "proposed_name": "DisposableCoroutineEnumerator_10",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÏÌÌÍÍÏÎÏÏÌÎÎÎÎÏÏÏÍÌÍÍÏÏ",
+  "proposed_name": "DisposableCoroutineEnumerator_11",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÍÎÎÍÏÏÌÌÌÌÏÎÏÏÏÌÎÍÌÏÏÎÏ",
+  "proposed_name": "ManagedNativeObjectFull_11",
+  "confidence": "high",
+  "reason": "Destroy+Initialize+IsNativeObjectAlive+GetCachedPtr+name+Instantiate: full lifecycle native object"
+ },
+ {
+  "original_name": "ÎÌÏÎÏÍÏÌÌÏÍÎÎÍÍÎÌÌÏÍÌÎÏ",
+  "proposed_name": "FullNativeObjectProxy_09",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÌÏÌÍÌÍÍÏÍÍÌÍÏÎÎÍÎÌÏÍÏÏÌ",
+  "proposed_name": "InitializedNamedNativeObject_03",
+  "confidence": "medium",
+  "reason": "Initialize+name_rw+IsNativeObjectAlive+GetCachedPtr: initialized named native object"
+ },
+ {
+  "original_name": "ÍÍÍÍÌÎÍÌÏÎÎÏÏÌÌÌÎÌÏÎÏÏÍ",
+  "proposed_name": "FullNativeObjectProxy_10",
+  "confidence": "high",
+  "reason": "IsNativeObjectAlive+GetCachedPtr+name_rw+Instantiate: full native object proxy"
+ },
+ {
+  "original_name": "ÎÎÎÌÏÌÌÏÍÏÎÏÍÏÎÎÍÏÎÏÍÍÍ",
+  "proposed_name": "DisposableCoroutineEnumerator_12",
+  "confidence": "medium",
+  "reason": "MoveNext+IEnumerator+IDisposable: disposable coroutine enumerator state machine"
+ },
+ {
+  "original_name": "ÌÍÏÍÎÏÏÎÍÎÌÍÏÎÎÌÍÌÏÌÍÍÌ",
+  "proposed_name": "CoroutineEnumeratorWithCleanup_12",
+  "confidence": "high",
+  "reason": "MoveNext+IEnumerator+Destroy+IDisposable: coroutine enumerator with full cleanup"
+ },
+ {
+  "original_name": "ÍÍÍÏÍÎÍÌÏÍÎÎÎÏÎÍÌÏÍÌÍÍÏ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÌÏÎÏÎÍÍÎÍÎÏÎÎÌÍÍÎÍÎÌÍÏÎ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÍÏÎÌÏÌÎÏÍÌÎÎÎÍÎÏÎÎÏÎÏÍÌ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÌÌÌÍÍÍÎÌÏÏÏÏÏÎÏÌÏÎÍÏÎÎÍ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÎÌÎÌÏÏÏÍÏÌÍÌÍÏÌÏÍÍÏÎÏÌÍ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÎÍÎÍÏÌÏÌÏÏÎÏÏÏÌÎÎÌÎÍÎÌÌ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÌÎÍÌÍÍÌÍÏÌÌÌÎÏÍÎÏÍÌÍÎÏÍ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize without IDisposable: initializable iterator state machine"
+ },
+ {
+  "original_name": "ÎÍÎÌÏÍÎÍÏÌÏÍÍÏÎÎÍÍÍÌÍÌÌ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÌÌÌÎÏÌÍÌÍÎÌÏÎÌÌÎÏÍÍÏÌÍÏ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÎÌÎÏÍÌÍÏÌÍÌÍÌÏÏÎÌÌÏÌÏÍÎ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÍÌÎÏÍÎÍÏÌÎÎÏÌÌÍÍÎÎÎÏÌÍÎ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext present without Initialize: iterator/enumerator state machine over Object"
+ },
+ {
+  "original_name": "ÍÎÎÍÍÏÏÎÎÎÎÍÌÏÏÏÍÎÎÍÏÎÍ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÌÍÎÎÍÎÏÎÌÍÍÌÏÌÏÏÌÎÎÍÍÌ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÍÌÎÎÍÎÍÌÎÎÍÌÎÎÍÏÎÏÍÌÏÌÏ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÏÍÎÏÌÍÏÎÍÏÏÎÎÍÏÏÎÍÎÎÍÎÍ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÎÍÌÍÏÌÏÎÎÏÎÌÍÌÍÍÍÎÏÌÍÍÌ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÍÍÍÏÎÌÍÍÌÍÎÌÍÏÍÏÌÌÌÍÍÎÎ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÏÌÏÎÌÍÍÍÍÏÌÌÍÌÏÌÏÍÍÍÌÍÎ",
+  "proposed_name": "InstantiableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÍÍÏÏÎÍÎÌÎÏÏÌÌÍÍÌÍÎÌÌÎÍ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÌÍÌÍÏÌÍÍÍÍÏÏÎÌÎÎÌÌÎÌÍÏÎ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÍÍÎÌÍÍÏÎÍÎÏÎÌÍÏÏÌÌÏÎÍÎÌ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÏÍÌÏÌÎÌÌÍÌÏÏÏÍÎÌÏÎÎÌÏÍÍ",
+  "proposed_name": "ResourceLifecycleManager",
+  "confidence": "medium",
+  "reason": "Initialize/Dispose/Cleanup lifecycle methods indicate managed resource pool pattern"
+ },
+ {
+  "original_name": "ÏÌÏÎÍÏÎÍÌÍÏÍÏÌÎÌÏÏÍÎÎÎÌ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÏÎÍÌÎÎÏÍÍÎÌÍÌÌÏÎÌÏÍÎÌÌÌ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÍÏÎÎÍÌÍÎÎÎÍÌÍÌÍÍÌÍÏÌÎÌ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÏÍÍÍÎÍÎÏÎÌÍÏÏÌÏÌÌÎÎÎÏÍ",
+  "proposed_name": "InstantiableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÎÏÏÏÎÍÍÎÍÌÌÌÌÎÏÏÍÎÏÎÍÌ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÎÌÎÎÏÎÎÎÌÌÎÍÌÍÍÏÏÎÍÎÏÏÍ",
+  "proposed_name": "InstantiableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÎÏÌÌÏÌÌÏÌÌÌÏÎÌÎÍÍÎÌÍÌÏÍ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÍÏÍÏÎÌÎÎÌÌÎÏÌÏÌÌÍÎÍÏÏÎ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÌÎÏÍÏÌÌÌÌÎÎÌÎÍÌÌÎÍÍÍÌÍ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÍÏÎÍÏÎÌÏÎÎÏÎÌÌÏÎÎÏÌÌÍÏÌ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÍÎÌÏÏÎÎÍÍÌÏÌÎÏÎÍÌÏÏÏÎÎ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÎÌÌÎÎÍÍÎÎÎÏÎÎÍÌÏÏÍÍÌÏÌÎ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÌÏÎÎÌÏÏÍÎÌÍÎÍÏÍÏÏÌÌÍÍÎÍ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÍÏÍÎÍÍÌÍÎÏÏÌÏÏÌÌÏÎÏÎÌÌÌ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÎÎÍÏÍÎÏÏÍÌÎÌÎÎÎÌÍÌÎÍÏÌ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÏÍÍÏÎÎÌÌÏÍÎÍÏÎÎÌÌÏÎÏÏÌÎ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÎÌÏÍÌÎÌÏÏÎÎÏÌÎÌÍÏÏÌÌÍÌÎ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÏÎÌÌÏÎÌÏÏÍÎÏÎÍÍÎÎÏÍÎÌÎÏ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÌÏÎÏÎÌÎÍÍÍÎÎÎÏÎÏÎÏÍÍÏÏÏ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÍÏÍÎÎÎÌÏÏÍÏÎÌÍÏÌÍÍÏÌÍÏÎ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÍÌÌÌÎÎÎÍÌÍÏÏÌÎÌÌÌÌÌÍÍÍÎ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÍÌÍÎÎÌÍÏÌÎÌÏÍÏÌÌÎÌÌÍÌÍÍ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÏÏÎÍÍÏÍÏÎÍÌÍÍÎÌÌÍÎÎÌÍÏ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+ },
+ {
+  "original_name": "ÎÏÌÏÌÎÎÏÍÍÍÎÎÎÏÍÌÌÍÎÍÌÌ",
+  "proposed_name": "CloneableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Instantiate without Initialize: clonable Unity Object utility wrapper"
+ },
+ {
+  "original_name": "ÌÍÎÏÌÏÏÌÍÏÌÎÎÌÍÎÍÌÏÌÍÎÍ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÎÎÏÎÏÌÎÎÎÎÌÏÌÎÏÍÎÏÎÏÏÎ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÎÍÏÏÏÌÏÍÎÎÎÏÏÏÍÌÍÏÌÎÎÌ",
+  "proposed_name": "InstantiableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÍÏÍÎÍÎÎÏÏÌÌÍÍÌÏÍÍÍÍÎÍÍ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÎÎÏÌÏÎÌÎÌÌÏÎÌÍÌÌÌÎÏÌÍÍÏ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÏÌÎÏÏÍÎÍÎÌÌÏÎÎÎÎÎÌÍÎÍÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+ },
+ {
+  "original_name": "ÎÌÎÍÏÌÌÌÌÏÏÏÎÌÌÍÌÏÌÌÌÌÎ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+Initialize+IDisposable.Dispose: initializable coroutine/enumerator wrapper"
+ },
+ {
+  "original_name": "ÏÏÌÍÏÍÌÍÍÏÍÍÍÌÍÎÎÏÍÌÎÎÌ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÎÍÍÎÌÌÎÌÎÌÏÎÍÏÏÏÌÎÏÏÏÏÏ",
+  "proposed_name": "ObjectEnumerator",
+  "confidence": "medium",
+  "reason": "MoveNext+IDisposable.Dispose implements IEnumerator<Object> coroutine/iteration pattern"
+ },
+ {
+  "original_name": "ÌÏÍÎÍÌÍÏÌÎÌÍÍÍÎÍÏÌÏÌÎÍÎ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÎÍÍÍÎÌÍÏÏÌÏÌÍÏÍÏÎÌÏÍÎÌ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "Unity base Object fields only; method signature does not map to a more specific category"
+ },
+ {
+  "original_name": "ÌÎÎÍÌÌÌÏÌÍÌÏÌÍÍÍÌÏÎÎÌÌÏ",
+  "proposed_name": "InstantiableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate: factory-initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÌÏÌÌÍÌÎÏÏÌÍÌÏÍÌÏÏÍÍÌÏÍ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÌÍÌÎÍÏÍÌÎÌÎÍÌÍÍÎÍÍÌÌÌÎ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÍÎÍÏÏÎÍÍÏÌÏÏÌÌÏÌÍÏÎÏÌÏÏ",
+  "proposed_name": "InitializableObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize-only lifecycle: simple initializable Unity Object wrapper"
+ },
+ {
+  "original_name": "ÌÍÏÌÏÎÍÍÏÌÎÎÎÎÌÏÌÍÏÌÎÍÏ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÎÎÎÌÎÏÏÏÏÌÌÎÌÍÏÎÏÎÌÏÎÏÌ",
+  "proposed_name": "ManagedObjectWrapper",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy lifecycle without iteration: managed Unity Object wrapper"
+ },
+ {
+  "original_name": "ÏÏÌÏÍÍÌÏÍÎÏÌÍÌÏÏÍÎÌÍÏÍÏ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÌÏÎÍÏÎÍÏÏÍÌÍÎÏÎÌÍÎÎÍÏÌÎ",
+  "proposed_name": "AnonymousInitializableObject",
+  "confidence": "medium",
+  "reason": "Initialize present but no get_name/set_name means anonymous (not user-visible) native object"
+ },
+ {
+  "original_name": "ÏÌÎÌÍÌÏÌÎÏÌÍÍÏÏÌÍÌÏÌÍÏÎ",
+  "proposed_name": "NativeResourceHandle",
+  "confidence": "medium",
+  "reason": "opaque _4A35 numeric fields with Dispose/Cleanup/Initialize lifecycle signals disposable native resource handle"
+ },
+ {
+  "original_name": "ÍÎÏÍÏÍÏÌÍÏÎÍÏÌÍÏÏÎÏÍÎÎÍ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÍÍÏÌÍÌÌÌÌÏÎÏÏÎÏÏÍÍÎÍÎÍÏ",
+  "proposed_name": "AnonymousNamedObject",
+  "confidence": "medium",
+  "reason": "has get/set_name but no GetInstanceID, likely an interface implementation shim"
+ },
+ {
+  "original_name": "ÎÌÌÌÎÎÍÏÎÌÌÍÍÏÍÍÏÏÌÎÏÌÍ",
+  "proposed_name": "ImmediateDestroyableObject",
+  "confidence": "medium",
+  "reason": "DestroyImmediate without Initialize signals a Unity Object requiring synchronous destruction"
+ },
+ {
+  "original_name": "ÍÏÎÍÌÌÌÍÎÏÎÏÍÏÏÏÎÏÍÌÍÎÏ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÏÌÍÏÍÎÌÍÎÍÍÎÍÎÎÌÍÎÏÍÏÌ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÍÎÎÎÍÍÍÍÏÍÌÍÍÌÏÍÌÎÎÎÎÍÌ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÌÍÌÎÍÎÎÍÎÏÌÎÏÎÏÍÏÍÏÍÍÌÏ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÌÎÏÎÍÌÎÍÍÏÎÎÏÌÍÎÏÎÎÌÍÍÌ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÏÏÏÎÌÎÌÌÎÏÍÏÎÌÏÎÎÌÍÌÎÍÍ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÌÍÎÎÎÌÏÌÍÍÍÌÌÍÎÌÌÎÏÎÌÍÍ",
+  "proposed_name": "LifecycleManagedObject",
+  "confidence": "medium",
+  "reason": "Initialize+Finalize pair signals an object with explicit creation and GC finalization lifecycle"
+ },
+ {
+  "original_name": "ÏÍÎÎÍÍÌÏÌÎÏÍÏÍÍÍÍÎÏÏÏÍÏ",
+  "proposed_name": "FinalizableDisposableResource",
+  "confidence": "medium",
+  "reason": "Finalize+Dispose+Cleanup together indicate full GC-finalizable disposable resource"
+ },
+ {
+  "original_name": "ÎÏÌÏÏÍÍÍÎÎÌÎÎÍÍÍÎÍÍÎÍÏÎ",
+  "proposed_name": "NativeCollectionItemWrapper",
+  "confidence": "high",
+  "reason": "_item field + IList.Contains + IDictionary.Add indicates hybrid collection item binding"
+ },
+ {
+  "original_name": "ÍÌÏÌÏÎÎÍÍÌÍÍÎÌÏÎÎÌÎÌÍÍÏ",
+  "proposed_name": "InitializableImmediateDestroyObject",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+ },
+ {
+  "original_name": "ÍÌÏÏÍÌÌÍÍÏÎÏÏÎÌÍÌÏÍÎÌÎÏ",
+  "proposed_name": "InitializableImmediateDestroyObject",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+ },
+ {
+  "original_name": "ÏÌÎÏÍÌÍÌÍÌÏÌÍÍÏÍÎÎÍÍÌÍÏ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÌÌÍÎÏÎÍÏÎÌÌÏÍÌÌÍÎÌÍÌÎÍÍ",
+  "proposed_name": "WriteOnlyNameObject",
+  "confidence": "medium",
+  "reason": "set_name present without get_name indicates write-only name binding"
+ },
+ {
+  "original_name": "ÏÎÍÎÏÏÍÌÎÍÍÌÎÌÍÏÏÏÏÏÎÎÎ",
+  "proposed_name": "InitializableImmediateDestroyObject",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+ },
+ {
+  "original_name": "ÌÌÍÎÎÎÌÎÎÏÎÌÎÌÎÍÏÏÌÏÍÌÌ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÍÏÎÍÏÌÌÌÏÍÎÏÏÏÏÌÏÏÏÎÏÏÏ",
+  "proposed_name": "IndexableObjectWrapper",
+  "confidence": "medium",
+  "reason": "IndexOf method signals list/indexed collection wrapper over Unity Object"
+ },
+ {
+  "original_name": "ÍÎÏÌÍÏÍÎÎÎÎÍÎÏÎÎÍÎÍÍÍÎÎ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÎÏÍÍÍÌÏÌÍÌÎÌÏÌÎÌÍÏÍÏÍÎÏ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÌÍÏÌÏÎÎÎÍÎÌÏÍÍÍÎÌÎÍÏÎÍÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÍÏÎÏÍÏÌÍÍÌÎÌÍÏÏÏÎÍÏÏÎÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÏÍÏÎÍÍÎÏÌÎÎÍÎÍÎÎÍÌÏÌÌÏÍ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÎÎÎÍÎÍÏÍÌÎÌÏÌÍÍÏÌÏÌÌÏÎÌ",
+  "proposed_name": "NativeObjectIterator",
+  "confidence": "medium",
+  "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+ },
+ {
+  "original_name": "ÌÏÌÌÍÎÌÍÌÍÌÌÍÌÌÌÎÏÍÍÎÏÍ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÌÎÌÍÎÏÎÎÎÍÎÎÏÌÍÎÎÎÎÏÌÌÏ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÌÎÏÍÌÎÎÌÍÎÏÎÎÏÌÎÌÌÏÍÎÍÏ",
+  "proposed_name": "SampleHistoryEnumerator",
+  "confidence": "high",
+  "reason": "IEnumerator<VRC.SampleHistory<T>.Sample>.get_Current in method signature directly names the type"
+ },
+ {
+  "original_name": "ÍÌÏÌÎÏÍÏÍÍÎÌÎÌÌÍÌÏÎÎÍÍÎ",
+  "proposed_name": "FinalizableDisposableObject",
+  "confidence": "medium",
+  "reason": "Dispose+Finalize without Cleanup indicates GC-finalizable but manually disposable object"
+ },
+ {
+  "original_name": "ÎÎÏÌÍÌÌÍÏÎÎÎÌÍÎÏÌÍÎÌÎÌÍ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÍÏÍÍÌÏÏÎÏÍÍÌÏÍÍÏÏÍÌÍÏÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÏÍÏÎÎÌÎÍÌÍÏÎÌÍÌÎÌÍÏÏÎÍ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÏÌÏÎÌÏÍÎÍÍÏÌÌÌÏÌÎÏÌÎÏÌ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÍÌÏÏÎÍÌÏÎÎÌÌÎÍÌÎÌÏÍÏÍÎÍ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÎÏÍÍÏÍÌÌÌÏÍÎÏÌÍÏÏÌÌÏÎÍÏ",
+  "proposed_name": "AnonymousInitializableObject",
+  "confidence": "medium",
+  "reason": "Initialize present but no get_name/set_name means anonymous (not user-visible) native object"
+ },
+ {
+  "original_name": "ÏÏÏÌÌÍÍÏÌÎÎÎÎÎÏÎÏÍÎÌÌÎÏ",
+  "proposed_name": "InitializableImmediateDestroyObject",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate pair suggests a short-lived object needing synchronous destroy"
+ },
+ {
+  "original_name": "ÌÎÎÌÍÏÎÏÍÍÏÌÏÍÌÎÌÌÏÌÎÍÎ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÏÏÍÍÍÏÌÏÌÏÍÎÏÎÏÍÍÍÏÍÎÎÍ",
+  "proposed_name": "IAPPurchaseListener",
+  "confidence": "high",
+  "reason": "OnPurchaseFailed and OnInitialized callbacks signal IAP/store purchase listener interface"
+ },
+ {
+  "original_name": "ÍÎÌÍÏÍÍÎÌÌÏÎÎÏÎÍÏÌÎÌÏÌÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÌÎÌÏÌÍÌÎÌÌÌÎÎÎÌÎÏÌÌÎÌÏÍ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÏÍÎÏÌÌÏÎÎÏÍÍÎÌÌÎÎÏÏÎÏÍÍ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÎÏÎÍÌÏÏÌÎÏÎÌÍÌÎÍÌÍÎÏÎÏÌ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÍÏÍÎÍÌÍÏÌÍÌÏÌÏÏÍÍÏÌÍÏÍÎ",
+  "proposed_name": "NativeObjectIterator",
+  "confidence": "medium",
+  "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+ },
+ {
+  "original_name": "ÍÎÎÍÌÌÍÍÎÎÏÎÌÍÍÎÏÍÍÏÎÍÎ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÌÎÎÎÍÍÌÍÎÏÏÎÏÎÏÌÏÌÍÏÌÎÏ",
+  "proposed_name": "NativeObjectIterator",
+  "confidence": "medium",
+  "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+ },
+ {
+  "original_name": "ÍÎÌÍÏÍÏÏÍÍÎÏÍÏÍÎÌÍÌÎÎÍÎ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÏÍÌÌÍÍÍÎÏÍÎÍÏÎÌÏÎÍÍÍÏÏÎ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÌÍÏÍÎÍÏÏÏÌÌÎÏÏÌÏÏÎÍÎÎÏÌ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÌÍÏÌÍÍÎÏÍÏÏÍÍÏÎÎÍÍÏÏÏÎÍ",
+  "proposed_name": "NativeObjectIterator",
+  "confidence": "medium",
+  "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+ },
+ {
+  "original_name": "ÎÍÎÌÌÌÌÏÏÌÌÍÏÌÎÏÍÏÌÌÏÍÎ",
+  "proposed_name": "InitializableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+Initialize+IDisposable pattern identifies initializable coroutine/iteration wrapper"
+ },
+ {
+  "original_name": "ÏÌÎÏÌÏÏÎÏÎÌÏÎÏÌÍÍÍÏÏÏÎÏ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÏÍÎÍÏÏÏÌÎÌÍÍÍÏÌÌÏÍÏÏÎÌÎ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÏÍÍÍÏÎÏÌÏÍÎÌÎÌÎÍÏÌÎÏÎÏÎ",
+  "proposed_name": "NativeObjectIterator",
+  "confidence": "medium",
+  "reason": "IEnumerator methods (MoveNext/get_Current/Reset) without Dispose mark a bare iterator over Unity Objects"
+ },
+ {
+  "original_name": "ÍÎÌÏÎÍÍÎÍÏÌÍÍÎÌÍÌÎÌÍÌÌÌ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÍÎÍÍÌÎÎÌÍÏÌÍÏÌÏÌÌÎÏÏÌÏÏ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÍÏÎÌÏÏÍÌÍÍÌÌÏÏÍÎÍÎÎÏÏÎÍ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÎÏÏÎÏÌÎÌÎÎÌÏÍÍÌÌÌÌÏÎÎÍÍ",
+  "proposed_name": "DisposableObjectBinding",
+  "confidence": "medium",
+  "reason": "Dispose present without IEnumerator context signals a directly disposable Unity Object binding"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÌÎÎÍÎÎÎÍÏÏÌÌÎÍÎÌÌÍ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÎÎÍÍÍÌÏÎÍÌÏÎÌÎÏÏÌÎÎÏÍÏÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper pattern: GetInstanceID/name/Instantiate/Destroy with no domain-specific signals"
+ },
+ {
+  "original_name": "ÏÎÏÍÎÎÏÏÍÍÎÍÌÍÍÎÏÍÍÎÌÍÍ",
+  "proposed_name": "DisposableObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator+IDisposable without Initialize is standard foreach-compatible disposable iterator"
+ },
+ {
+  "original_name": "ÏÎÎÎÍÍÎÍÌÍÎÎÏÌÎÌÏÌÎÏÌÌÎ",
+  "proposed_name": "InitializableNativeObject",
+  "confidence": "medium",
+  "reason": "Initialize method alongside standard Unity Object lifecycle marks a native object requiring explicit init"
+ },
+ {
+  "original_name": "ÎÍÌÌÌÎÌÌÌÍÎÎÎÍÏÍÏÍÏÏÌÍÎ",
+  "proposed_name": "LifecycleManagedObject",
+  "confidence": "medium",
+  "reason": "Initialize+Finalize pair signals an object with explicit creation and GC finalization lifecycle"
+ },
+ {
+  "original_name": "ÏÌÌÍÎÏÍÎÌÏÍÍÏÌÌÎÌÎÏÌÏÎÏ",
+  "proposed_name": "AnonymousObjectReference",
+  "confidence": "medium",
+  "reason": "no get_name/set_name methods, anonymous native object reference without user-visible name"
+ },
+ {
+  "original_name": "ÎÎÏÍÏÌÏÌÍÏÍÌÏÎÌÍÎÍÏÏÏÏÏ",
+  "proposed_name": "UnityObjectEnumerator_01",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+ },
+ {
+  "original_name": "ÎÎÏÌÎÏÏÎÎÌÏÌÏÏÌÌÎÎÌÎÍÏÌ",
+  "proposed_name": "UnityObjectInstantiatable_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÍÏÏÌÌÏÌÌÎÍÏÍÍÌÍÌÏÍÍÏÏÍÏ",
+  "proposed_name": "ManagedUnityObject_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÎÌÍÎÍÎÌÌÎÏÏÌÍÎÏÎÎÌÎÎÏÍÎ",
+  "proposed_name": "ManagedUnityObject_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÏÏÌÎÍÎÎÏÏÍÎÎÌÌÎÏÍÎÌÌÎÏÏ",
+  "proposed_name": "ManagedUnityObject_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÏÍÍÌÏÌÎÍÌÏÎÍÎÎÏÍÌÏÎÍÌÌÍ",
+  "proposed_name": "InitializableNamedObject_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÏÎÏÍÍÎÌÌÏÌÌÏÏÌÌÍÏÌÏÎÍÎÍ",
+  "proposed_name": "UnityObjectInstantiatable_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÎÍÍÎÏÍÏÍÌÏÏÏÌÎÏÍÍÌÌÏÌÏÏ",
+  "proposed_name": "UnityObjectInstantiatable_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÍÎÎÍÍÏÌÌÌÏÍÍÌÎÏÍÌÏÏÏÎÎÍ",
+  "proposed_name": "ManagedUnityObject_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÌÎÌÎÍÌÎÌÍÌÍÏÏÌÏÎÎÌÏÍÎÎÏ",
+  "proposed_name": "UnityObjectInstantiatable_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÌÍÎÌÏÌÎÌÌÍÌÌÎÏÌÎÍÎÍÌÌÍÍ",
+  "proposed_name": "InstantiatableObject_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+ },
+ {
+  "original_name": "ÏÏÏÍÌÎÏÌÍÏÏÌÏÍÎÎÏÌÌÏÍÍÎ",
+  "proposed_name": "UnityObjectInstantiatable_05",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÎÍÏÏÍÎÏÍÌÎÌÍÎÎÌÏÍÏÎÏÎÌÏ",
+  "proposed_name": "UnityObjectInstantiatable_06",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÏÍÏÌÍÎÌÎÌÍÏÏÍÌÎÎÏÏÍÍÎÍÍ",
+  "proposed_name": "InitializableNamedObject_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÎÎÍÏÍÎÏÎÎÌÌÍÎÎÍÎÌÏÏÍÍÌÎ",
+  "proposed_name": "ManagedUnityObject_05",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÎÏÍÎÎÌÍÏÌÌÌÍÏÏÏÏÌÍÏÍÎÍÌ",
+  "proposed_name": "DisposableObjectManager",
+  "confidence": "high",
+  "reason": "标准4字段 + Dispose+Cleanup+DestroyImmediate，资源清理/即时销毁管理器"
+ },
+ {
+  "original_name": "ÎÌÎÏÎÍÍÍÏÌÏÌÏÎÏÏÍÌÎÎÎÎÍ",
+  "proposed_name": "DisposableObjectWrapper_01",
+  "confidence": "high",
+  "reason": "标准4字段 + Initialize+Dispose+Instantiate，可释放对象包装变体"
+ },
+ {
+  "original_name": "ÍÌÏÌÍÌÌÍÏÌÎÌÎÍÍÍÍÌÎÎÍÎÍ",
+  "proposed_name": "ManagedUnityObjectAnon_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+ },
+ {
+  "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+  "proposed_name": "UnityObjectInstantiatable_07",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÏÌÍÎÎÍÎÍÍÌÏÍÏÌÌÍÌÍÌÎÌÌÍ",
+  "proposed_name": "UnityObjectInstantiatable_09",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÌÌÏÌÏÌÏÍÎÏÍÌÎÏÌÌÎÍÍÎÍÎÏ",
+  "proposed_name": "ManagedUnityObjectAnon_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+ },
+ {
+  "original_name": "ÏÍÏÏÏÏÌÎÎÎÌÌÎÍÎÍÌÎÌÌÎÎÍ",
+  "proposed_name": "UnityObjectInstantiatable_10",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÏÌÍÌÍÌÎÎÍÏÎÏÏÌÎÏÎÏÏÌÎÌÌ",
+  "proposed_name": "ImmediateDestroyObject_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+ },
+ {
+  "original_name": "ÎÏÏÍÏÌÍÍÌÎÌÌÎÎÎÎÌÌÎÌÎÌÎ",
+  "proposed_name": "DisposableObjectWrapper_02",
+  "confidence": "high",
+  "reason": "标准4字段 + Initialize+Dispose+Instantiate，可释放对象包装变体"
+ },
+ {
+  "original_name": "ÌÌÍÌÎÎÏÎÌÍÎÏÌÎÌÎÎÎÏÎÌÎÌ",
+  "proposed_name": "ManagedUnityObject_06",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÌÎÌÍÏÎÍÍÏÌÎÎÍÏÏÌÎÎÏÍÏÌÌ",
+  "proposed_name": "UnityObjectInstantiatable_11",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÍÌÎÎÎÏÍÎÏÍÎÏÎÍÌÍÏÏÍÎÍÍÍ",
+  "proposed_name": "SpawnedPropEnumerator",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<ISpawnedProp>+IEnumerable，VRChat 世界生成道具集合迭代器"
+ },
+ {
+  "original_name": "ÎÎÍÎÏÌÌÏÏÌÏÏÍÌÌÌÌÎÌÌÌÎÌ",
+  "proposed_name": "ManagedUnityObject_07",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÏÎÍÏÌÌÏÏÎÍÏÌÌÎÌÎÏÍÌÍÏÍÏ",
+  "proposed_name": "CleanupableObjectWrapper",
+  "confidence": "high",
+  "reason": "标准4字段 + Dispose+Cleanup+Destroy+Instantiate，可清理/可释放对象包装器"
+ },
+ {
+  "original_name": "ÍÎÎÍÎÌÌÌÎÍÌÎÏÍÌÍÏÍÎÏÌÌÏ",
+  "proposed_name": "ManagedUnityObject_08",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÍÌÌÍÍÌÏÏÎÌÍÏÍÍÍÍÌÌÏÌÏÎÏ",
+  "proposed_name": "InitializableNamedObject_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÍÎÎÎÍÎÏÎÍÏÎÍÏÎÎÍÎÎÍÍÎÎÎ",
+  "proposed_name": "ManagedUnityObjectAnon_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+ },
+ {
+  "original_name": "ÏÌÌÍÎÎÍÏÍÍÍÏÌÎÍÌÍÏÎÎÍÍÍ",
+  "proposed_name": "UnityObjectInstantiatable_12",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÍÏÏÍÍÎÍÍÎÏÌÍÍÌÎÌÎÎÍÏÌÌÏ",
+  "proposed_name": "InitializableNamedObject_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÍÎÏÏÍÍÍÎÍÍÌÍÍÍÎÎÌÎÏÏÍÍÌ",
+  "proposed_name": "UnityObjectEnumerator_02",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+ },
+ {
+  "original_name": "ÌÏÌÏÏÍÎÍÌÎÎÎÌÏÍÌÌÏÎÍÍÎÌ",
+  "proposed_name": "UnityObjectIteratorDisposable_01",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÌÌÍÍÍÌÏÎÍÌÏÏÍÌÌÏÌÎÌÎÎÎÌ",
+  "proposed_name": "ImmediateDestroyObject_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+ },
+ {
+  "original_name": "ÏÍÌÏÌÎÍÏÏÎÎÌÎÎÍÍÌÌÍÎÍÌÍ",
+  "proposed_name": "UnityObjectIterator_01",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+MoveNext，Unity Object 迭代器"
+ },
+ {
+  "original_name": "ÌÏÌÌÏÎÏÌÌÏÍÏÍÏÌÎÍÌÏÎÏÎÍ",
+  "proposed_name": "ManagedUnityObject_09",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÏÍÌÎÌÎÌÍÎÏÌÍÎÏÏÏÌÎÌÎÎÏÍ",
+  "proposed_name": "UnityObjectEnumerator_03",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+ },
+ {
+  "original_name": "ÍÎÌÎÌÎÌÎÍÎÍÎÎÎÍÏÎÏÎÌÏÍÏ",
+  "proposed_name": "UnityObjectEnumerator_04",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+ },
+ {
+  "original_name": "ÌÌÍÏÏÍÏÍÍÏÍÎÍÏÍÌÏÎÎÍÏÍÌ",
+  "proposed_name": "UnityObjectIteratorDisposable_02",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÏÌÏÏÍÎÎÌÎÏÎÎÏÏÌÏÍÌÏÍÏÌÌ",
+  "proposed_name": "UnityObjectEnumerator_05",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext+Initialize，Unity Object 迭代器封装"
+ },
+ {
+  "original_name": "ÍÏÌÎÏÎÌÏÍÍÌÌÍÍÎÏÌÏÌÍÎÎÎ",
+  "proposed_name": "UnityObjectIteratorDisposable_03",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÍÍÍÌÍÍÍÌÌÏÏÎÍÏÌÎÌÎÏÌÎÌÌ",
+  "proposed_name": "UnityObjectIterator_02",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+MoveNext，Unity Object 迭代器"
+ },
+ {
+  "original_name": "ÌÎÏÍÍÍÏÍÎÌÍÍÌÍÎÎÍÏÎÍÌÌÍ",
+  "proposed_name": "UnityObjectIteratorDisposable_04",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÌÌÏÌÏÎÌÍÏÏÌÏÏÎÌÎÏÌÎÎÌÏÌ",
+  "proposed_name": "UnityObjectIteratorDisposable_05",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÏÎÎÍÌÍÌÏÏÏÎÎÍÏÏÎÍÍÎÍÎÏÎ",
+  "proposed_name": "UnityObjectIteratorDisposable_06",
+  "confidence": "high",
+  "reason": "实现 IEnumerator<Object>+IDisposable+MoveNext，无 Initialize，Object 迭代器变体"
+ },
+ {
+  "original_name": "ÌÌÌÍÍÏÍÏÎÌÏÌÎÏÎÎÍÌÎÏÍÏÏ",
+  "proposed_name": "InitializableAnonObject_01",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize，无 Instantiate/Destroy/get_name，最小初始化变体"
+ },
+ {
+  "original_name": "ÍÌÎÌÌÏÎÎÌÎÏÍÏÏÎÏÌÍÏÎÏÍÍ",
+  "proposed_name": "UnityObjectVariant",
+  "confidence": "medium",
+  "reason": "标准4字段方法集未匹配已知模式的 UnityEngine.Object 子类变体"
+ },
+ {
+  "original_name": "ÍÎÏÌÏÍÍÎÏÎÏÏÍÎÎÍÎÌÎÌÍÏÎ",
+  "proposed_name": "NamedUnityObject",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+ToString，支持字符串表示的 Unity Object"
+ },
+ {
+  "original_name": "ÎÏÍÏÌÏÌÏÍÌÎÎÏÏÍÍÍÎÌÌÍÎÏ",
+  "proposed_name": "InstantiatableObject_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+ },
+ {
+  "original_name": "ÏÌÍÎÎÍÍÍÏÎÌÏÍÏÍÎÏÎÎÌÌÌÌ",
+  "proposed_name": "InitializableNamedObject_05",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎÌÏÌ",
+  "proposed_name": "DataProduct",
+  "confidence": "high",
+  "reason": "实现 IDataProduct: Purchase/get_ID/get_Description/CompareTo，VRChat 商店数据商品实体"
+ },
+ {
+  "original_name": "ÌÏÏÍÍÍÌÏÏÍÍÎÏÏÎÍÌÎÌÌÍÍÌ",
+  "proposed_name": "InitializableAnonObject_02",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize，无 Instantiate/Destroy/get_name，最小初始化变体"
+ },
+ {
+  "original_name": "ÎÌÎÌÎÌÎÎÌÎÎÎÎÌÌÏÌÏÍÎÎÏÌ",
+  "proposed_name": "ImmediateDestroyObject_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+ },
+ {
+  "original_name": "ÌÏÎÎÌÍÏÍÏÎÍÌÏÌÌÎÎÍÏÍÎÍÎ",
+  "proposed_name": "UnityObjectInstantiatable_15",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÍÎÎÎÏÍÍÎÌÎÏÎÍÌÏÍÏÎÎÌÏÌÏ",
+  "proposed_name": "ManagedUnityObject_10",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate+get_name，完整生命周期托管 Object"
+ },
+ {
+  "original_name": "ÍÌÍÏÏÍÌÌÏÎÌÏÌÎÍÍÌÍÌÎÎÍÍ",
+  "proposed_name": "InitializableNamedObject_06",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÏÎÎÌÏÎÌÍÍÍÌÎÎÎÏÎÌÏÌÎÎÌÎ",
+  "proposed_name": "ImmediateDestroyObject_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+DestroyImmediate，支持即时销毁的 Object 变体"
+ },
+ {
+  "original_name": "ÏÌÍÌÌÍÏÍÏÎÏÎÍÎÏÌÍÌÍÏÏÏÎ",
+  "proposed_name": "UnityObjectNamed",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+Destroy+get_name，无 Initialize，命名可实例化 Object"
+ },
+ {
+  "original_name": "ÌÎÏÍÍÍÏÍÎÏÌÍÍÌÌÎÍÏÏÏÍÌÍ",
+  "proposed_name": "ManagedUnityObjectAnon_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Destroy+Instantiate（无 get_name），匿名托管 Object"
+ },
+ {
+  "original_name": "ÎÎÍÌÍÏÏÏÎÏÏÎÏÍÌÏÏÍÏÎÎÌÎ",
+  "proposed_name": "UnityObjectInstantiatable_17",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÎÏÎÎÏÍÍÌÏÌÎÌÎÌÍÌÎÌÍÌÌÎÏ",
+  "proposed_name": "NativeBlobObject",
+  "confidence": "medium",
+  "reason": "字段 _b0FC/_b0FC2-4 + Initialize/Destroy，原生字节块封装 Object"
+ },
+ {
+  "original_name": "ÎÎÌÏÍÌÌÏÌÏÍÎÎÌÏÍÏÍÎÎÌÎÏ",
+  "proposed_name": "UnityObjectInstantiatable_18",
+  "confidence": "medium",
+  "reason": "标准4字段 + Instantiate+get_name，无 Initialize/Destroy，可实例化 Object"
+ },
+ {
+  "original_name": "ÌÍÎÏÌÎÍÎÍÎÏÎÍÍÎÌÏÎÌÏÌÎÎ",
+  "proposed_name": "InitializableNamedObject_07",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+get_name，仅命名初始化无生命周期方法"
+ },
+ {
+  "original_name": "ÌÏÎÎÎÍÌÏÌÌÎÎÎÍÏÏÌÍÍÏÌÎÌ",
+  "proposed_name": "InstantiatableObject_03",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+ },
+ {
+  "original_name": "ÎÏÏÌÎÍÍÏÍÍÌÎÎÏÌÏÏÍÎÎÍÍÌ",
+  "proposed_name": "InstantiatableObject_04",
+  "confidence": "medium",
+  "reason": "标准4字段 + Initialize+Instantiate，无 Destroy，可实例化 Object 变体"
+ },
+ {
+  "original_name": "ÍÌÎÎÏÍÌÎÌÍÏÌÍÎÍÌÌÌÏÎÏÏÎ",
+  "proposed_name": "InitDestroyObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Initialize和Destroy无Instantiate"
+ },
+ {
+  "original_name": "ÍÏÏÏÎÍÌÎÍÍÎÏÍÌÍÎÌÍÏÏÌÏÎ",
+  "proposed_name": "InitializableInstantiableObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Initialize和Instantiate"
+ },
+ {
+  "original_name": "ÎÏÍÎÎÏÍÍÌÏÏÎÍÍÍÏÎÍÌÏÏÍÎ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÎÌÎÏÏÎÌÏÏÌÍÌÍÍÌÏÏÎÍÍÍÎÍ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÏÌÏÌÌÎÎÌÏÌÌÌÍÌÏÍÏÍÎÍÍÎÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÍÍÍÏÍÌÎÎÎÎÌÌÍÌÌÌÏÍÏÏÍÏÍ",
+  "proposed_name": "OpaqueOffsetFieldContainer",
+  "confidence": "medium",
+  "reason": "字段为十六进制偏移命名的不透明字段容器"
+ },
+ {
+  "original_name": "ÍÌÌÌÏÍÎÏÎÎÎÎÏÍÏÍÏÌÏÍÏÎÎ",
+  "proposed_name": "OpaqueOffsetFieldContainer",
+  "confidence": "medium",
+  "reason": "字段为十六进制偏移命名的不透明字段容器"
+ },
+ {
+  "original_name": "ÎÏÌÎÎÏÌÍÏÎÍÍÎÍÎÏÍÍÏÌÎÎÎ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÏÍÏÎÍÌÏÏÍÏÎÎÌÌÎÏÏÌÍÌÎÎÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÌÌÏÎÎÎÍÎÎÎÏÍÎÏÏÏÏÌÏÏÍÌÎ",
+  "proposed_name": "NativeObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+ },
+ {
+  "original_name": "ÍÍÍÌÎÌÎÌÌÎÎÌÍÏÎÎÍÌÏÎÌÎÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÎÍÍÌÎÌÌÏÍÏÌÌÍÌÎÏÏÎÌÎÎÏÎ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÏÍÎÏÍÏÎÎÏÏÎÍÍÌÌÏÏÍÍÌÌÍÌ",
+  "proposed_name": "StringEnumerableWrapper",
+  "confidence": "high",
+  "reason": "含IEnumerable<String>.GetEnumerator方法的字符串可枚举包装"
+ },
+ {
+  "original_name": "ÌÌÍÌÌÏÍÎÍÏÎÍÎÏÌÎÌÌÌÏÎÏÌ",
+  "proposed_name": "InitializableObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+ },
+ {
+  "original_name": "ÏÍÏÎÍÎÎÏÎÎÏÎÌÌÎÎÍÌÎÎÏÏÍ",
+  "proposed_name": "InitializableObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+ },
+ {
+  "original_name": "ÎÍÏÍÌÍÎÌÌÍÍÌÍÏÌÏÏÎÎÌÏÌÎ",
+  "proposed_name": "InitializableInstantiableObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Initialize和Instantiate"
+ },
+ {
+  "original_name": "ÏÎÎÍÏÎÍÏÍÌÌÍÎÎÏÍÏÍÏÍÍÍÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÎÎÏÏÍÏÎÎÍÎÏÍÎÎÌÌÏÌÎÏÎÎÌ",
+  "proposed_name": "InitializableObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+ },
+ {
+  "original_name": "ÎÌÌÌÏÌÌÍÌÍÍÏÎÎÌÏÎÎÎÍÌÏÎ",
+  "proposed_name": "InitDestroyObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Initialize和Destroy无Instantiate"
+ },
+ {
+  "original_name": "ÌÏÏÏÍÌÍÎÍÎÌÍÎÏÍÌÏÍÏÌÍÌÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÎÌÎÌÍÌÍÌÎÏÏÏÏÌÌÏÌÌÎÌÍÏÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÎÍÍÌÏÎÎÎÍÌÌÎÌÌÏÎÏÏÎÍÌÍÍ",
+  "proposed_name": "InstantiableDestroyableObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Instantiate和Destroy"
+ },
+ {
+  "original_name": "ÎÍÎÎÎÍÍÍÎÌÏÎÏÍÎÌÍÍÏÌÍÍÏ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÎÍÏÍÍÎÎÍÌÌÎÎÍÏÍÎÌÍÏÌÎÌÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÍÎÍÏÏÌÎÏÎÎÎÍÌÍÎÏÌÎÍÏÌÎÏ",
+  "proposed_name": "ManagedObjectEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+ },
+ {
+  "original_name": "ÎÏÌÍÌÎÏÍÎÍÎÏÌÌÌÍÏÏÏÏÏÎÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÎÍÎÍÌÎÏÌÌÌÎÏÍÏÎÍÍÌÍÏÎÏÏ",
+  "proposed_name": "NativeObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+ },
+ {
+  "original_name": "ÎÏÎÌÎÎÍÍÏÌÍÎÍÏÎÍÌÍÌÏÌÏÍ",
+  "proposed_name": "ManagedObjectEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+ },
+ {
+  "original_name": "ÍÎÍÎÎÎÏÌÎÍÎÏÍÌÌÏÏÌÏÎÍÏÎ",
+  "proposed_name": "NativeObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+ },
+ {
+  "original_name": "ÌÌÌÍÎÍÎÎÌÍÎÍÎÏÏÌÌÍÏÎÍÎÌ",
+  "proposed_name": "ManagedObjectEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+ },
+ {
+  "original_name": "ÎÌÍÍÏÎÍÌÌÎÍÍÏÎÎÍÌÏÌÍÍÏÏ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize"
+ },
+ {
+  "original_name": "ÌÏÍÏÎÎÎÎÌÏÌÌÏÏÌÏÏÍÏÎÌÍÏ",
+  "proposed_name": "InitializableEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize"
+ },
+ {
+  "original_name": "ÎÏÎÏÌÍÏÍÌÌÍÏÏÍÌÏÌÍÎÎÎÎÍ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÍÍÏÍÌÍÍÍÎÌÎÎÍÌÍÍÍÎÍÎÏÏÍ",
+  "proposed_name": "InitializableObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+ },
+ {
+  "original_name": "ÏÍÎÎÍÌÍÏÏÏÌÌÎÎÎÍÏÏÎÍÍÎÌ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÏÎÌÏÎÍÏÎÎÍÍÌÏÍÎÌÌÏÏÏÏÌÏ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÌÎÎÍÎÏÌÏÏÎÎÏÍÎÏÍÌÏÎÍÏÌÍ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÍÏÌÎÎÎÏÍÎÌÍÌÏÍÏÌÌÌÎÍÏÌÍ",
+  "proposed_name": "InitializableObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，仅含Initialize，无Instantiate/Destroy"
+ },
+ {
+  "original_name": "ÎÏÏÏÌÏÌÍÍÍÏÎÌÌÍÍÎÍÍÍÍÏÌ",
+  "proposed_name": "NativeObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+ },
+ {
+  "original_name": "ÌÏÏÌÎÍÎÎÏÍÏÎÎÎÏÏÍÏÏÌÎÏÎ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÏÏÎÍÏÎÎÏÏÌÌÍÎÍÍÏÍÏÍÏÎÏÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÍÏÏÍÍÌÎÍÌÌÍÌÍÏÎÎÏÏÏÌÎÎÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÌÏÍÏÍÏÎÍÍÎÏÏÏÌÌÍÏÎÍÏÏÍÏ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÌÌÏÏÍÍÏÏÍÌÏÌÏÍÌÎÍÍÎÍÍÍÍ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÎÍÎÍÏÍÍÏÍÎÌÏÍÏÏÍÍÎÌÍÎÌÌ",
+  "proposed_name": "CloneableNativeObject",
+  "confidence": "medium",
+  "reason": "含Clone方法的可克隆Native对象"
+ },
+ {
+  "original_name": "ÎÍÌÎÎÎÍÎÎÏÎÏÎÏÏÌÏÌÌÍÌÍÍ",
+  "proposed_name": "CloneableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含Clone和Instantiate的可克隆实例化Unity对象"
+ },
+ {
+  "original_name": "ÌÍÌÎÍÌÌÍÌÌÏÏÍÎÍÍÌÌÎÎÍÏÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÎÎÌÏÍÌÏÏÏÍÎÌÏÎÏÎÎÍÎÌÎÍÎ",
+  "proposed_name": "ManagedObjectEnumerator",
+  "confidence": "medium",
+  "reason": "Unity Object枚举器，含Initialize/Destroy生命周期"
+ },
+ {
+  "original_name": "ÏÎÎÎÍÏÍÏÎÍÏÍÎÏÎÏÎÍÍÎÌÏÌ",
+  "proposed_name": "InitializableInstantiableObject",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含Initialize和Instantiate"
+ },
+ {
+  "original_name": "ÎÍÎÍÌÎÎÏÎÍÏÍÌÌÏÏÌÍÍÏÍÌÏ",
+  "proposed_name": "NativeObjectBase",
+  "confidence": "medium",
+  "reason": "Unity Object子类，含CompareBaseObjects，无扩展生命周期"
+ },
+ {
+  "original_name": "ÏÏÎÎÍÏÎÏÎÏÏÍÌÌÌÎÍÌÌÍÏÏÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÌÌÌÎÎÍÌÍÍÏÏÍÌÍÌÏÍÌÌÍÍÌÏ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÏÏÎÌÎÌÎÏÍÏÌÎÏÌÏÌÌÎÏÏÍÎÍ",
+  "proposed_name": "GenericEnumerableWrapper",
+  "confidence": "high",
+  "reason": "泛型IEnumerable<T>包装枚举器"
+ },
+ {
+  "original_name": "ÎÌÍÏÏÌÌÏÎÎÌÌÏÏÏÎÍÎÎÏÍÏÎ",
+  "proposed_name": "GenericEnumerableWrapper",
+  "confidence": "medium",
+  "reason": "含GetEnumerator的可枚举包装类"
+ },
+ {
+  "original_name": "ÌÍÎÍÎÎÏÏÌÏÌÎÍÏÍÌÌÏÏÏÍÎÎ",
+  "proposed_name": "ObjectEnumeratorImpl",
+  "confidence": "medium",
+  "reason": "IEnumerator<object>实现类"
+ },
+ {
+  "original_name": "ÎÏÍÏÏÎÍÎÌÍÏÌÌÎÍÌÍÎÍÏÎÎÌ",
+  "proposed_name": "FinalizableUnityObject",
+  "confidence": "high",
+  "reason": "含Finalize和DestroyImmediate的强制销毁Unity对象"
+ },
+ {
+  "original_name": "ÏÏÎÍÎÌÎÌÏÍÍÎÌÎÌÌÌÌÍÍÏÍÌ",
+  "proposed_name": "ComparableOrderedObject",
+  "confidence": "medium",
+  "reason": "含CompareTo的可排序比较Unity对象"
+ },
+ {
+  "original_name": "ÌÌÍÌÍÏÎÎÎÏÍÍÏÎÏÌÌÍÌÍÌÍÍ",
+  "proposed_name": "IntStringListMapEnumerator",
+  "confidence": "high",
+  "reason": "IEnumerable<KeyValuePair<int,List<string>>>枚举器"
+ },
+ {
+  "original_name": "ÌÍÏÏÍÏÌÌÎÎÏÏÌÎÏÏÍÍÌÏÌÎÌ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÌÎÏÌÎÏÌÎÎÌÎÎÎÎÏÏÏÍÌÎÏÎÍ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÏÎÎÌÏÍÌÏÌÏÏÍÏÌÍÎÍÍÌÎÍÍÏ",
+  "proposed_name": "NameableInitializableObject",
+  "confidence": "medium",
+  "reason": "含Initialize和set_name的可命名初始化对象"
+ },
+ {
+  "original_name": "ÌÍÌÎÎÍÎÎÏÌÌÌÌÌÍÏÍÌÌÎÎÎÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÍÍÎÏÏÎÍÏÌÌÏÍÍÏÍÏÍÎÍÎÍÍÎ",
+  "proposed_name": "ComparableInstantiableObject",
+  "confidence": "medium",
+  "reason": "含CompareBaseObjects和Instantiate的可比较实例化对象"
+ },
+ {
+  "original_name": "ÏÍÎÏÎÍÏÏÏÍÌÎÏÎÍÌÌÏÌÌÏÎÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÌÍÎÎÎÏÏÏÍÌÌÌÏÎÍÎÏÎÏÏÍÎÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÍÏÎÍÌÏÎÎÎÌÍÌÌÏÍÎÎÏÎÏÏÎÌ",
+  "proposed_name": "ObjectEnumeratorImpl",
+  "confidence": "medium",
+  "reason": "IEnumerator<object>实现类"
+ },
+ {
+  "original_name": "ÍÍÍÎÏÌÎÌÍÌÌÌÌÌÌÏÌÌÌÏÎÎÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "标准Unity Object托管子类，含Initialize/Instantiate/Destroy完整生命周期"
+ },
+ {
+  "original_name": "ÎÎÍÎÏÍÎÏÍÍÏÌÎÌÎÎÌÏÍÎÍÏÎ",
+  "proposed_name": "AsyncDisposableObject",
+  "confidence": "high",
+  "reason": "含DisposeAsync/Dispose/Cleanup/Finalize的异步资源管理类"
+ },
+ {
+  "original_name": "ÎÎÍÎÏÍÎÎÏÏÎÏÎÌÌÍÏÍÏÏÏÏÍ",
+  "proposed_name": "NativeObjectCreateDestroyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: Instantiate+Destroy+GetCachedPtr, no GetInstanceID"
+ },
+ {
+  "original_name": "ÎÎÏÎÏÌÍÎÌÎÎÎÍÏÍÌÌÎÎÌÎÏÍ",
+  "proposed_name": "NativeObjectReadonlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+ },
+ {
+  "original_name": "ÌÏÏÎÌÏÎÍÏÍÍÍÌÏÎÌÎÍÍÎÏÍÏ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÌÍÎÎÏÍÎÎÎÌÏÏÍÍÏÍÏÌÌÌÎÏÍ",
+  "proposed_name": "NativeObjectInstantiateOnlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+GetCachedPtr, no Destroy/GetHashCode"
+ },
+ {
+  "original_name": "ÍÍÌÌÏÍÎÏÏÌÍÌÏÌÍÎÎÌÌÍÍÍÏ",
+  "proposed_name": "NativeObjectCachedPtrWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+ },
+ {
+  "original_name": "ÍÌÎÌÎÏÏÍÍÎÏÎÎÏÏÎÌÌÎÎÎÎÌ",
+  "proposed_name": "BackingFieldStore0287",
+  "confidence": "medium",
+  "reason": "Inherits BackingFieldBase_0287 with 4 opaque _dA66 backing fields"
+ },
+ {
+  "original_name": "ÌÏÏÎÏÎÏÏÍÏÌÎÎÌÎÏÎÌÎÏÍÌÏ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÍÏÌÍÍÌÎÌÌÌÍÎÍÍÏÍÍÍÎÎÎÎÍ",
+  "proposed_name": "NativeObjectEqualityWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÍÌÍÌÍÌÎÎÍÌÍÏÏÎÌÌÎÍÏÌÌÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÍÎÌÍÎÎÏÎÌÌÌÏÌÌÎÌÏÍÏÍÍÎ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÏÍÏÌÌÏÍÎÌÎÏÎÏÌÎÏÌÍÍÌÏÏÏ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÎÌÌÍÌÏÎÌÍÎÎÏÌÎÏÏÎÌÎÍÏÍÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÎÎÎÎÎÏÌÌÍÎÏÌÎÏÌÏÏÏÏÏÍÎ",
+  "proposed_name": "NativeObjectSlimLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+ },
+ {
+  "original_name": "ÌÌÏÌÏÏÏÏÍÌÍÎÎÌÏÍÍÍÌÎÎÌÏ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÎÍÌÎÌÏÎÌÎÏÏÏÎÏÏÍÏÎÍÏÎÍÌ",
+  "proposed_name": "NativeObjectReadonlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+ },
+ {
+  "original_name": "ÍÌÎÌÌÏÍÌÎÌÎÏÍÍÌÌÌÌÌÏÌÏÎ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÍÎÍÎÍÌÍÎÌÏÌÏÏÎÍÎÍÏÍÌÌÎ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÌÏÏÎÎÏÎÍÎÌÍÍÎÎÌÏÍÎÎÌÍÍ",
+  "proposed_name": "NativeObjectComparableWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge with CompareTo — IComparable native object reference"
+ },
+ {
+  "original_name": "ÍÍÌÏÌÍÌÏÌÍÏÍÌÎÍÏÏÍÎÎÌÌÏ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÏÍÍÌÏÌÍÏÏÎÌÌÌÍÏÍÎÍÏÌÌÎ",
+  "proposed_name": "NativeObjectEnumeratorWithInstantiate",
+  "confidence": "medium",
+  "reason": "IEnumerator/IDisposable with MoveNext+Instantiate — native object sequence enumerator with factory"
+ },
+ {
+  "original_name": "ÎÏÌÍÌÏÎÎÎÍÌÎÌÍÌÍÎÌÎÌÎÍÏ",
+  "proposed_name": "NativeObjectSlimLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÎÏÎÏÍÌÌÌÎÏÍÌÎÏÍÍÏÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÍÏÎÏÍÍÎÌÌÎÍÎÍÎÏÎÌÏÌÌÎÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÍÏÌÌÍÎÎÎÌÎÎÏÏÍÎÎÏÌÌÎÎÍ",
+  "proposed_name": "NativeObjectEqualityWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÍÍÎÌÎÏÏÎÍÌÌÌÍÏÏÌÎÌÏÍÌÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÏÏÍÍÎÎÍÌÎÌÍÌÏÏÏÌÌÍÏÍÌÎ",
+  "proposed_name": "NativeObjectEqualityWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÎÎÎÍÌÏÍÌÌÍÎÏÌÌÎÎÌÏÍÎÍÎ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÌÏÍÎÎÎÏÍÍÎÍÌÍÏÍÍÎÍÌÏÎÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÎÏÏÌÍÌÎÏÎÌÍÌÏÎÏÌÏÏÌÌÏÍÍ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÌÏÏÎÏÍÏÏÏÌÍÏÏÌÏÎÌÍÏÌÌÍÌ",
+  "proposed_name": "NativeObjectReadonlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+ },
+ {
+  "original_name": "ÍÍÍÏÎÏÍÎÍÍÎÎÎÏÌÏÍÎÏÎÍÏÍ",
+  "proposed_name": "NativeObjectSlimLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+ },
+ {
+  "original_name": "ÌÍÏÏÎÌÎÍÍÎÏÎÏÏÍÎÌÌÍÎÌÎÏ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÍÍÍÍÎÌÏÍÏÌÍÏÍÎÎÌÏÍÎÏÎÏ",
+  "proposed_name": "NativeObjectCachedPtrWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+ },
+ {
+  "original_name": "ÌÍÎÎÏÎÎÏÍÎÎÏÍÏÌÎÌÏÌÍÍÍÎ",
+  "proposed_name": "NativeObjectCachedPtrWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+ },
+ {
+  "original_name": "ÏÎÏÏÎÎÍÍÎÍÍÍÏÌÌÌÏÍÏÌÎÏÏ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÌÎÏÌÏÌÎÌÏÎÌÍÌÏÎÏÏÌÍÍÌÎÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÌÏÍÎÌÍÎÍÌÍÏÍÏÎÎÎÌÍÍÌÎÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÌÎÍÍÎÏÍÏÎÎÍÍÍÍÏÎÏÎÎÌÍÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÌÍÌÌÍÍÎÎÌÍÏÌÍÎÌÍÏÎÏÍÏÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÎÌÌÍÎÍÌÏÏÎÍÍÏÎÏÎÍÎÏÍÍÌ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÎÎÍÎÎÏÌÎÏÎÏÎÏÎÌÍÏÏÎÎÌÏ",
+  "proposed_name": "NativeObjectReadonlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+ },
+ {
+  "original_name": "ÎÌÍÎÌÌÍÎÎÎÌÏÎÍÏÏÎÎÏÎÌÍÌ",
+  "proposed_name": "NativeObjectWrapper",
+  "confidence": "medium",
+  "reason": "IL2CPP native Object bridge variant with standard _kInstanceID/_objectIsNullMessage fields"
+ },
+ {
+  "original_name": "ÎÍÌÍÏÌÍÍÌÎÌÎÎÏÌÌÌÍÍÎÍÌÌ",
+  "proposed_name": "NativeObjectReadonlyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+ },
+ {
+  "original_name": "ÌÎÍÍÌÍÌÎÎÏÍÎÌÎÎÏÏÍÌÏÎÎÏ",
+  "proposed_name": "NativeObjectEnumerator",
+  "confidence": "medium",
+  "reason": "IEnumerator/IDisposable with MoveNext+Destroy — native object sequence enumerator"
+ },
+ {
+  "original_name": "ÎÎÍÌÍÎÏÌÌÏÏÏÎÎÏÌÏÌÍÍÎÍÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÌÏÎÏÌÍÍÎÌÎÎÌÌÎÎÌÎÏÌÍÍÎ",
+  "proposed_name": "NativeObjectEnumeratorWithInstantiate",
+  "confidence": "medium",
+  "reason": "IEnumerator/IDisposable with MoveNext+Instantiate — native object sequence enumerator with factory"
+ },
+ {
+  "original_name": "ÌÎÎÌÌÌÍÌÍÌÍÎÍÌÏÎÏÏÍÍÏÎÍ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÏÌÌÏÎÎÌÎÍÌÏÌÎÌÍÎÏÌÍÎÌÍÌ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÍÌÌÌÍÌÎÏÏÎÎÏÎÏÍÏÍÏÏÏÎÍÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÍÎÍÎÎÌÎÏÌÌÍÏÎÎÌÌÍÎÎÏÌÏÎ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÍÌÍÎÍÏÏÎÍÎÍÏÎÎÎÎÌÎÍÎÌÌÌ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÌÍÍÍÍÍÏÎÌÎÍÏÍÎÍÎÏÌ",
+  "proposed_name": "NativePointerStruct",
+  "confidence": "medium",
+  "reason": "ValueType with GetHashCodeOfPtr and x accessor — native pointer/IntPtr value struct"
+ },
+ {
+  "original_name": "ÌÏÎÌÍÌÏÎÎÎÏÍÌÏÎÌÎÍÎÍÎÍÏ",
+  "proposed_name": "NativeObjectCreateDestroyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: Instantiate+Destroy+GetCachedPtr, no GetInstanceID"
+ },
+ {
+  "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÎÍÎÍÌÌÏÍÍÏÍÏÌÎÎÏÎÎÏÌÌÏÎ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÌÌÌÏÎÎÎÎÌÎÍÏÏÎÏÏÌÌÎÎÌÍÏ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÍÌÏÍÌÏÎÍÍÌÌÎÍÏÍÏÌÌÎÏÌÎÏ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÎÌÍÎÌÍÌÌÎÍÏÌÍÌÎÏÍÏÏÌÎÌÎ",
+  "proposed_name": "NativeObjectLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+ },
+ {
+  "original_name": "ÎÏÌÏÏÏÍÎÌÎÏÍÌÏÍÌÏÏÏÍÎÏÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÍÏÍÏÎÎÍÌÌÌÍÏÎÌÌÍÌÍÌÌÎÎÍ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÏÏÎÎÍÎÍÌÎÍÌÎÎÎÍÎÌÍÎÏÍÌÍ",
+  "proposed_name": "NativeObjectImmediateDestroyWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge with DestroyImmediate — non-deferred object destruction shim"
+ },
+ {
+  "original_name": "ÌÍÍÍÌÍÍÌÍÌÎÎÍÌÎÏÎÏÌÍÍÏÏ",
+  "proposed_name": "NativeObjectDisposableWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge with Dispose+Cleanup lifecycle — disposable native object wrapper"
+ },
+ {
+  "original_name": "ÌÏÎÎÌÎÍÏÏÌÍÍÏÏÎÏÏÎÍÍÌÎÎ",
+  "proposed_name": "NativeObjectInstantiateWrapper",
+  "confidence": "medium",
+  "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+ },
+ {
+  "original_name": "ÌÍÎÍÎÌÎÎÍÍÌÎÍÍÎÎÍÌÏÌÏÍÏ",
+  "proposed_name": "NativeObjectPairEnumerator",
+  "confidence": "medium",
+  "reason": "Implements IEnumerable<(DataType,BoundType)> with MoveNext — typed pair collection enumerator"
+ },
+ {
+  "original_name": "ÍÌÎÏÌÌÍÎÍÎÎÌÎÎÍÍÎÍÍÌÎÏÌ",
+  "proposed_name": "NativeObjectFullLifecycleWrapper",
+  "confidence": "medium",
+  "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+ },
+ {
+  "original_name": "ÎÎÎÎÏÎÏÌÌÏÌÍÍÌÌÍÌÎÏÌÏÎÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÎÏÌÏÏÌÎÏÎÍÌÎÍÌÎÍÏÏÌÍÍÎÎ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÏÌÌÍÎÌÎÏÏÌÎÏÍÍÌÍÏÎÏÎÎÌÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÎÎÍÍÎÎÍÍÎÌÎÌÍÎÎÍÏÏÏÎÎÌÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÏÎÍÌÌÌÎÎÌÌÌÎÍÏÍÌÌÍÏÏÌÎÎ",
+  "proposed_name": "DisposableUnityResource",
+  "confidence": "medium",
+  "reason": "Dispose+Cleanup lifecycle indicates managed/disposable Unity resource wrapper"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÍÍÏÏÍÎÎÏÌÏÌÍÏÏÎÎÎÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÎÏÏÍÌÍÌÏÎÎÍÌÌÍÏÎÎÏÏÍÌÌÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÌÏÏÌÎÏÎÎÍÍÏÏÌÍÏÍÍÎÍÏÎÏÍ",
+  "proposed_name": "UnityObjectWithImmediateDestroy",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate lifecycle pattern, likely scene object with immediate cleanup"
+ },
+ {
+  "original_name": "ÎÍÎÏÏÎÍÏÎÍÌÍÍÎÌÏÍÎÏÌÌÍÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÎÎÍÌÏÏÎÍÏÎÏÎÏÏÎÏÍÎÏÍÎÌÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÌÏÏÌÎÍÍÏÌÏÍÏÍÍÎÏÎÍÌÏÍÏÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÎÎÍÍÍÏÌÍÍÌÏÌÎÏÎÌÎÍÌÍÌÎÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÍÏÌÎÎÌÌÏÎÍÏÍÍÏÍÎÍÍÍÌÌÍÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÌÍÍÏÎÎÎÏÎÏÌÎÌÍÏÍÍÎÎÏÎÎÌ",
+  "proposed_name": "UnityObjectRegistry",
+  "confidence": "medium",
+  "reason": "FindObjectsOfType+ToString suggests object lookup/registry utility base"
+ },
+ {
+  "original_name": "ÎÏÍÎÏÏÍÎÍÍÎÍÍÌÍÎÎÏÌÎÏÎÍ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÌÏÏÎÍÏÌÎÌÎÌÌÌÎÎÍÍÏÏÌÌÌÎ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÏÌÍÌÌÍÎÌÎÎÌÎÎÎÏÌÌÏÎÎÏÍÌ",
+  "proposed_name": "UnityObjectRegistry",
+  "confidence": "medium",
+  "reason": "FindObjectsOfType+ToString suggests object lookup/registry utility base"
+ },
+ {
+  "original_name": "ÎÍÍÍÌÍÌÎÎÍÍÎÎÎÍÎÌÍÎÎÍÍÌ",
+  "proposed_name": "UnityObjectWithImmediateDestroy",
+  "confidence": "medium",
+  "reason": "Initialize+DestroyImmediate lifecycle pattern, likely scene object with immediate cleanup"
+ },
+ {
+  "original_name": "ÌÏÎÏÏÍÌÌÍÍÍÍÌÎÎÎÎÌÍÎÍÎÌ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÎÏÍÎÍÏÍÌÎÌÍÌÍÎÍÎÍÎÍÍÏÏÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÍÌÏÍÏÍÌÎÏÎÌÏÎÏÍÏÎÌÎÎÎÍÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÌÍÏÏÌÏÏÌÍÎÏÏÌÍÎÍÍÎÍÍÎÍÎ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÎÎÌÎÏÌÌÏÏÍÍÎÎÎÏÏÌÎÏÌÍÍÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÌÏÎÏÎÍÏÍÎÏÍÎÍÏÍÏÌÍÎÎÍÏÌ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÌÏÌÎÎÍÎÍÍÍÍÏÌÏÏÍÌÍÍÏÍÏÎ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÌÏÏÎÍÌÌÌÌÍÎÌÏÌÌÎÏÌÏÎÏÌÏ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÍÏÌÏÎÌÍÍÎÏÎÍÏÏÎÎÏÏÎÌÏÍÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÌÍÍÌÎÌÏÌÌÏÏÌÍÌÌÌÎÌÍÏÎÎÍ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÏÏÎÎÍÏÏÌÎÎÌÏÎÎÎÎÏÎÍÎÌÏÌ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÎÎÏÏÍÏÎÌÏÏÏÏÏÎÎÌÍÍÏÎÏÍÌ",
+  "proposed_name": "UnityObjectBase",
+  "confidence": "medium",
+  "reason": "minimal Unity Object wrapper with only identity methods (GetInstanceID/Equals/GetHashCode/op_Implicit)"
+ },
+ {
+  "original_name": "ÌÎÎÍÌÍÌÌÎÏÍÍÏÌÏÌÎÎÌÌÌÌÍ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÎÏÌÍÏÏÎÎÏÎÍÌÏÌÏÎÏÏÌÌÌÍÌ",
+  "proposed_name": "StringEnumerable",
+  "confidence": "medium",
+  "reason": "IEnumerable<string>/IEnumerator<string> generic instantiation with Initialize/Destroy lifecycle"
+ },
+ {
+  "original_name": "ÍÎÎÎÌÍÏÎÏÌÍÏÍÍÍÌÎÎÍÍÍÏÎ",
+  "proposed_name": "StringEnumerable",
+  "confidence": "medium",
+  "reason": "IEnumerable<string>/IEnumerator<string> generic instantiation with Initialize/Destroy lifecycle"
+ },
+ {
+  "original_name": "ÏÏÏÎÏÎÎÏÌÏÏÏÍÎÌÏÌÏÎÏÍÏÌ",
+  "proposed_name": "UnityObjectBase",
+  "confidence": "medium",
+  "reason": "minimal Unity Object wrapper with only identity methods (GetInstanceID/Equals/GetHashCode/op_Implicit)"
+ },
+ {
+  "original_name": "ÎÏÎÍÍÌÍÎÌÏÍÌÌÎÎÍÏÍÌÌÍÌÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÎÏÍÎÏÏÍÏÏÌÌÏÎÍÍÌÌÎÎÌÎÏÎ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Unity Object with Initialize but no Destroy, persistent or externally managed lifetime"
+ },
+ {
+  "original_name": "ÌÍÎÏÏÌÍÏÏÎÌÎÌÏÎÎÏÎÏÏÎÌÏ",
+  "proposed_name": "ManagedUnityObject",
+  "confidence": "medium",
+  "reason": "full Unity Object lifecycle: Initialize+Destroy with identity methods"
+ },
+ {
+  "original_name": "ÏÎÌÎÎÍÏÍÍÍÌÎÎÌÌÎÏÍÌÍÌÌÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "standard Unity Object wrapper with full identity/lifecycle method set"
+ },
+ {
+  "original_name": "ÏÍÍÏÍÏÌÌÎÌÏÌÍÍÍÎÎÎÌÎÎÏÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ },
+ {
+  "original_name": "ÏÍÍÍÍÍÍÍÌÏÎÎÍÏÍÌÎÌÎÍÏÏÍ",
+  "proposed_name": "UIPooledResourceEnumerator",
+  "confidence": "high",
+  "reason": "IEnumerator<KeyValuePair<Object,UIPooledResource>>方法签名明确指向VRC.DataModel.Core.UIPooledResource字典枚举器。"
+ },
+ {
+  "original_name": "ÌÌÎÌÏÎÍÎÏÍÏÏÏÍÎÍÌÍÎÏÎÌÍ",
+  "proposed_name": "LifecycleUnityObject",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy+get_name表明完整生命周期管理的命名Unity对象。"
+ },
+ {
+  "original_name": "ÎÍÏÎÍÌÍÏÎÏÍÍÎÍÌÏÌÏÎÏÍÌÍ",
+  "proposed_name": "InitializationParameters",
+  "confidence": "medium",
+  "reason": "全部字段为_7BDB编译器生成符号,仅有Initialize方法,推测为初始化参数结构体。"
+ },
+ {
+  "original_name": "ÌÌÌÎÍÏÌÏÌÌÎÎÍÍÌÏÌÍÎÏÌÎÌ",
+  "proposed_name": "InitializableUnityObject",
+  "confidence": "medium",
+  "reason": "Initialize+Instantiate+get/set_name表明带初始化的可实例化Unity对象。"
+ },
+ {
+  "original_name": "ÍÎÎÎÎÍÎÍÍÏÌÍÏÌÎÍÍÎÌÍÌÍÏ",
+  "proposed_name": "InitializableNamedObject",
+  "confidence": "medium",
+  "reason": "Initialize+get_name但无Instantiate/Destroy,轻量命名对象初始化器。"
+ },
+ {
+  "original_name": "ÍÎÍÍÍÎÏÍÏÍÎÍÏÌÌÍÌÌÏÌÌÎÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ },
+ {
+  "original_name": "ÎÎÏÏÎÎÏÍÏÏÏÌÍÎÍÎÎÎÌÎÎÍÎ",
+  "proposed_name": "LifecycleUnityObject",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy+get_name表明完整生命周期管理的命名Unity对象。"
+ },
+ {
+  "original_name": "ÍÎÍÎÌÏÎÌÌÍÍÏÏÏÌÌÍÍÎÍÏÎÎ",
+  "proposed_name": "InitializableNamedObject",
+  "confidence": "medium",
+  "reason": "Initialize+get_name但无Instantiate/Destroy,轻量命名对象初始化器。"
+ },
+ {
+  "original_name": "ÍÌÍÏÍÌÌÍÎÍÎÏÍÏÏÍÌÏÎÌÏÎÍ",
+  "proposed_name": "UnityObjectFinder",
+  "confidence": "medium",
+  "reason": "FindObjectsOfType+Initialize+ToString,具备对象查找/注册功能的Unity资源类。"
+ },
+ {
+  "original_name": "ÍÎÎÍÌÌÏÎÎÍÌÎÎÍÌÏÏÏÎÏÎÍÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ },
+ {
+  "original_name": "ÏÌÏÏÌÍÎÏÏÌÎÌÍÎÍÏÌÎÌÌÌÎÎ",
+  "proposed_name": "DestroyableInitObject",
+  "confidence": "medium",
+  "reason": "Initialize+Destroy而无get_name,推测为无名称的可销毁初始化对象。"
+ },
+ {
+  "original_name": "ÍÍÍÌÎÎÌÎÎÏÎÍÍÍÌÎÎÎÏÏÏÍÍ",
+  "proposed_name": "DisposableUnityResource",
+  "confidence": "high",
+  "reason": "Dispose+Cleanup+Initialize+Destroy四者共存,完整托管资源生命周期。"
+ },
+ {
+  "original_name": "ÏÍÍÌÍÍÌÎÌÎÍÍÎÎÎÌÎÌÏÏÍÎÌ",
+  "proposed_name": "DisposableUnityObject",
+  "confidence": "high",
+  "reason": "Dispose+Cleanup共存是Unity托管资源包装的典型模式。"
+ },
+ {
+  "original_name": "ÍÌÍÍÍÎÏÍÌÏÍÌÍÏÏÌÏÎÍÍÎÏÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ },
+ {
+  "original_name": "ÍÌÍÏÏÍÎÎÌÌÌÍÏÏÏÌÏÏÎÏÎÌÎ",
+  "proposed_name": "DisposableUnityObject",
+  "confidence": "high",
+  "reason": "Dispose+Cleanup共存是Unity托管资源包装的典型模式。"
+ },
+ {
+  "original_name": "ÎÎÎÍÎÎÎÎÎÌÌÌÏÍÏÎÏÎÎÏÌÎÎ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ },
+ {
+  "original_name": "ÏÎÎÏÌÌÎÎÌÍÎÎÏÌÎÎÍÌÎÍÍÌÍ",
+  "proposed_name": "UnityObjectWrapper",
+  "confidence": "medium",
+  "reason": "字段为标准Unity Object内部字段,方法集含GetInstanceID/get_name/Instantiate,是Unity对象的通用包装。"
+ }
+]

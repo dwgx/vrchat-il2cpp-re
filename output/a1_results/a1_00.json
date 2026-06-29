@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÍÍÍÏÌÏÏÏÏÏÎÌÏÎÍÌÎÎÏÎÌÎÍ",
+    "proposed_name": "UserProfilePanel",
+    "confidence": "high",
+    "reason": "fields _username/_status/_pronouns/_profileAvatarImage/_walletContentsButton"
+  },
+  {
+    "original_name": "ÏÎÍÍÎÌÌÏÍÎÌÎÏÍÏÍÎÏÍÍÎÏÍ",
+    "proposed_name": "CameraStreamMenuController",
+    "confidence": "high",
+    "reason": "fields cameraAlert/desktopStreamToggle/cameraEarsToggle/streamResolutionMenu/flipButton"
+  },
+  {
+    "original_name": "ÎÎÍÌÌÍÍÏÏÌÌÎÎÏÌÌÎÌÍÍÌÏÎ",
+    "proposed_name": "AvatarDetailsPanelUI",
+    "confidence": "high",
+    "reason": "fields ContentWarnings/_favoriteButton/_avatarStats/_overallPerformanceRatingIcon/_polygonsField"
+  },
+  {
+    "original_name": "ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ",
+    "proposed_name": "CameraPickupInteractable",
+    "confidence": "high",
+    "reason": "parent VRC_Interactable + fields SpeedSlider/ZoomSlider/ExposureSlider/FocalDistanceSlider/ApertureSlider"
+  },
+  {
+    "original_name": "ÌÏÌÍÌÍÎÎÌÏÍÏÌÏÍÌÏÍÍÎÏÏÎ",
+    "proposed_name": "BodyTrackingCalibrationSettings",
+    "confidence": "high",
+    "reason": "parent TrackingCalibrationBase + fields _bodyTrackingSection/_useLegacyIKSolving/_trackerPrediction/_wristAngle/_kneeAngle"
+  },
+  {
+    "original_name": "ÏÏÍÍÎÎÌÌÍÌÏÏÏÍÏÏÎÎÌÎÌÎÌ",
+    "proposed_name": "PhotoPrintPickupHandler",
+    "confidence": "high",
+    "reason": "parent NetworkReadyHandler + fields printRenderer/printCollider/streamerModeTexture/printDuration"
+  },
+  {
+    "original_name": "ÌÌÎÌÏÌÌÍÎÍÌÏÏÍÏÍÍÏÌÎÌÏÍ",
+    "proposed_name": "CameraPathEditorUI",
+    "confidence": "high",
+    "reason": "fields controlPointPrefab/curvePointPrefab/streamCamPrefab/playPathButton/clearAllButton/importModal"
+  },
+  {
+    "original_name": "ÎÌÌÎÍÌÍÏÎÏÎÌÌÍÏÍÌÍÍÍÍÌÎ",
+    "proposed_name": "AvatarPedestalDisplay",
+    "confidence": "high",
+    "reason": "fields _avatarPedestalObj/_avatarName/_heightText/_prices/_useButton/_previewButton/_avatarUnavailableBanner"
+  },
+  {
+    "original_name": "ÍÍÎÎÍÌÌÎÎÍÏÎÏÏÎÎÌÌÍÍÌÎÌ",
+    "proposed_name": "ComfortAndSafetySettings",
+    "confidence": "high",
+    "reason": "parent TrackingCalibrationBase + fields _comfortTurning/_personalSpace/_afkDetection/_streamerMode/_portalPrompt"
+  },
+  {
+    "original_name": "ÍÎÏÎÏÌÍÎÎÎÏÎÌÍÌÍÎÎÌÌÍÍÎ",
+    "proposed_name": "HypeTrainEventUI",
+    "confidence": "high",
+    "reason": "fields primaryHypeTrainBanner/countdownIcon/progressSlider/giftCountText/gifterCountText/statsAmountRaisedText"
+  },
+  {
+    "original_name": "ÌÌÎÌÌÏÌÌÏÍÏÌÏÎÌÌÍÏÍÎÎÍÎ",
+    "proposed_name": "GroupMemberPanelUI",
+    "confidence": "high",
+    "reason": "fields bannerPanel_Member/memberLanding/openGroupActionMenuButton/groupInstances/groupProducts/groupGallery"
+  },
+  {
+    "original_name": "ÏÏÍÏÍÏÍÌÏÌÍÌÎÍÎÍÌÍÍÌÌÏÎ",
+    "proposed_name": "RemoteCameraController",
+    "confidence": "high",
+    "reason": "fields remoteShape/lensMesh/screenshotSound/timerSound/nameplate/timerCanvas/timerCircle"
+  },
+  {
+    "original_name": "ÌÌÍÍÎÏÏÎÌÍÌÍÍÌÌÏÌÎÍÏÍÌÌ",
+    "proposed_name": "AvatarPedestalWorldObject",
+    "confidence": "high",
+    "reason": "fields sphere/pedestalParent/contentSphereAnimator/vrcPlusCalloutParent/typeLabel/ownerLabel"
+  },
+  {
+    "original_name": "ÍÍÏÎÎÌÎÌÌÏÍÌÌÍÍÌÎÏÏÌÏÏÏ",
+    "proposed_name": "GroupNonMemberPanelUI",
+    "confidence": "high",
+    "reason": "fields bannerPanel_NonMember/nonMemberLanding/groupJoinButtons/groupRules/groupPublicGallery"
+  },
+  {
+    "original_name": "ÏÏÎÌÍÏÍÍÎÏÏÎÏÍÍÎÍÌÎÍÎÍÏ",
+    "proposed_name": "FingerSocketDetector",
+    "confidence": "high",
+    "reason": "parent Mono7m + fields fingerDebugPlaceForwardOffset/zoneAngle/socketImage/socketRadius/socketActivationRadius"
+  },
+  {
+    "original_name": "ÍÌÎÎÍÏÏÍÌÍÎÌÏÏÏÎÎÏÌÎÌÍÍ",
+    "proposed_name": "GraphicsSettingsUI",
+    "confidence": "high",
+    "reason": "fields text_skybox/text_canvases/text_animations/text_vsync/buttons_AA/text_lights/text_shaders*"
+  },
+  {
+    "original_name": "ÌÏÌÍÏÎÏÎÍÏÍÏÎÌÌÏÏÏÏÌÌÌÎ",
+    "proposed_name": "WorldBrowserListUI",
+    "confidence": "high",
+    "reason": "fields _worldsList/_cellPrefab/_filterCategory/_filterSortBy/_playlist1-6RadioButton"
+  },
+  {
+    "original_name": "ÍÏÎÌÍÌÏÏÎÌÍÌÍÎÌÍÏÍÏÎÌÎÌ",
+    "proposed_name": "VRCScrollableLayoutGroup",
+    "confidence": "high",
+    "reason": "parent Pointerk__BackingFieldImpl + fields _scrollbarPrefab/_layoutMode/_shouldWrap/_cullingEnabled"
+  },
+  {
+    "original_name": "ÌÏÏÌÏÌÌÍÌÏÏÍÍÎÎÌÏÍÍÎÌÌÍ",
+    "proposed_name": "AvatarSafetySettings",
+    "confidence": "high",
+    "reason": "parent TrackingCalibrationBase + fields _allowAvatarCloning/_blockPoorlyOptimizedAvatars/_maxAvatarDownloadSize"
+  },
+  {
+    "original_name": "ÌÍÏÍÍÎÎÌÌÌÍÍÏÎÎÍÏÏÏÍÍÏÏ",
+    "proposed_name": "VRCMainMenuSidebarPanel",
+    "confidence": "high",
+    "reason": "fields SidebarTabPrefab/SidebarTabParent/ContentView/RootCanvas/CloseButton/BackgroundOpacitySlider"
+  },
+  {
+    "original_name": "ÌÌÍÏÌÎÏÍÎÌÌÏÍÎÏÌÎÏÍÍÎÏÌ",
+    "proposed_name": "DroneFlightStickConfig",
+    "confidence": "high",
+    "reason": "parent Object + fields expoPitch/expoRoll/expoYaw/expoThrottle/maxRatePitch/maxRateYaw/cameraTilt"
+  },
+  {
+    "original_name": "ÏÍÌÌÍÎÍÎÏÏÌÏÌÍÏÌÏÎÍÎÌÍÍ",
+    "proposed_name": "PersonalMirrorSettings",
+    "confidence": "high",
+    "reason": "parent TrackingCalibrationBase + fields _personalMirror/_personalMirrorOpacity/_mirrorSnap/_faceMirror"
+  },
+  {
+    "original_name": "ÎÌÎÎÍÎÎÌÏÎÎÏÍÏÎÏÍÏÏÏÏÏÍ",
+    "proposed_name": "OVRSpatialAudioManager",
+    "confidence": "high",
+    "reason": "fields _mixer/_referenceONSPConversionVoiceSource/_nearFieldILDNudge/_perEarDirectionality (ONSP audio)"
+  },
+  {
+    "original_name": "ÎÌÎÍÌÌÍÏÍÌÌÎÎÏÎÍÏÏÎÌÌÎÎ",
+    "proposed_name": "VRCInputFieldUI",
+    "confidence": "high",
+    "reason": "parent Pointerk__BackingFieldImpl + fields _vrcInputField/_directInputField/_placeholderLabel/_keyboardTitleText"
+  },
+  {
+    "original_name": "ÏÏÏÏÏÏÍÍÌÏÍÏÏÏÍÌÍÍÌÎÏÏÎ",
+    "proposed_name": "WorldInstanceCellUI",
+    "confidence": "high",
+    "reason": "parent UIRectTransformDimensionsChBeforeTransform + fields _worldName/_userCount/_friendCount/_thumbnailImage/_joinButton"
+  },
+  {
+    "original_name": "ÎÌÍÏÏÌÎÎÌÎÎÎÌÎÍÏÌÍÎÌÏÍÌ",
+    "proposed_name": "WorldHomePageUI",
+    "confidence": "high",
+    "reason": "fields _bannerCarousel/_ipsBannerCarousel/_worldCellPrefab/_randomizeButton/_optInPanel/_contentGridPanel"
+  },
+  {
+    "original_name": "ÌÍÎÏÌÌÎÏÌÏÏÏÌÌÌÌÎÏÏÌÍÏÍ",
+    "proposed_name": "AvatarContextMenuUI",
+    "confidence": "high",
+    "reason": "fields _favoriteFlow/_selectAvatar/_wearAvatar/_avatarDetails/_addToFavorites/_resetHeight/_vrcplusIndicator"
+  },
+  {
+    "original_name": "ÍÎÏÎÍÏÍÌÌÏÌÌÎÌÌÍÍÏÎÌÍÍÏ",
+    "proposed_name": "AvatarCellIconBindings",
+    "confidence": "high",
+    "reason": "fields bindingMode/_defaultMaterial/_favoriteIcon/_contentWarningBanner/_performanceExcellent/_performancePoor"
+  },
+  {
+    "original_name": "ÏÌÌÏÍÍÌÎÏÏÏÎÎÌÍÌÍÍÏÏÎÍÌ",
+    "proposed_name": "WorldSearchResultsUI",
+    "confidence": "high",
+    "reason": "fields _content/_worldCellPrefab/_worldInstanceCellPrefab/_gridLayoutGroup/_noResultsText/_browseWorldsButton"
+  },
+  {
+    "original_name": "ÌÎÎÍÍÌÍÏÏÌÍÎÍÎÏÌÎÍÌÎÌÏÏ",
+    "proposed_name": "WorldInstancePortalUI",
+    "confidence": "high",
+    "reason": "fields _selector/clElements/invalidDestinationElements/_warningBannerTexture/cosmeticsHandler/_worldText/_playerCountText"
+  },
+  {
+    "original_name": "ÏÏÎÌÎÍÏÌÎÌÌÎÎÍÌÌÍÏÎÍÍÌÏ",
+    "proposed_name": "DroneControllerConfig",
+    "confidence": "high",
+    "reason": "parent Object + fields controllerType/droneScreenMode/controllerDeadzone/fpvScreenSize/controllerKeyboardSensitivity"
+  },
+  {
+    "original_name": "ÎÍÍÍÌÎÎÏÍÎÌÍÍÎÌÎÍÏÌÌÎÍÎ",
+    "proposed_name": "VRCToggleSwitchUI",
+    "confidence": "high",
+    "reason": "parent PointerEnterPointerExitHandler + fields _Toggle/SwitchSprite/SwitchBackground/Switch/SwitchOnTarget/SwitchOffTarget"
+  },
+  {
+    "original_name": "ÎÍÎÏÌÏÏÍÎÏÍÏÍÎÌÌÍÍÌÎÏÌÎ",
+    "proposed_name": "ColorPickerUI",
+    "confidence": "high",
+    "reason": "fields tabPrefab/colorPicker/colorPickerHSV/apply/cancel/hexInputButton/twoOptionToggle/previewImage"
+  },
+  {
+    "original_name": "ÌÏÍÍÏÎÏÎÎÎÏÍÏÎÎÏÍÎÍÏÌÎÏ",
+    "proposed_name": "InspectorPanelUI",
+    "confidence": "high",
+    "reason": "fields labelPrefab/spacePrefab/buttonPrefab/horizontalPrefab/verticalPrefab/togglePrefab/scrollViewParent/topBarParent"
+  },
+  {
+    "original_name": "ÎÍÎÏÏÍÏÎÌÍÌÌÏÌÌÎÎÏÎÏÍÎÎ",
+    "proposed_name": "ShopItemIconUI",
+    "confidence": "high",
+    "reason": "fields _icon/_label/_roleSprite/_udonSprite/_avatarSprite/_cosmeticSprite/_creditsSprite/_accessorySprite"
+  },
+  {
+    "original_name": "ÌÎÍÏÍÌÏÎÌÍÍÎÌÎÍÎÍÎÌÌÏÌÏ",
+    "proposed_name": "HapticsCalibrationSettings",
+    "confidence": "high",
+    "reason": "parent TrackingCalibrationBase + fields _uiHaptics/_pickupHaptics/_avatarTouchHaptics/_avatarTouchStrength"
+  },
+  {
+    "original_name": "ÌÎÎÎÍÌÏÍÍÎÎÎÍÍÏÎÎÎÍÎÌÎÎ",
+    "proposed_name": "NotificationToastUI",
+    "confidence": "high",
+    "reason": "fields image/text/canvasGroup/animatedImage/controlsContainer/buttonA/buttonB/buttonC/buttonImageA"
+  },
+  {
+    "original_name": "ÌÎÍÌÎÌÎÎÎÍÍÏÍÌÏÎÏÎÍÏÎÎÌ",
+    "proposed_name": "VRCatMenuController",
+    "confidence": "high",
+    "reason": "parent k__BackingField_5C0C + fields _vrCatFrontCanvas/_vrCatDialogCanvas/_vrcPlusButtonSubscribed/_clockControl"
+  },
+  {
+    "original_name": "ÏÏÎÌÌÎÌÎÏÎÌÍÏÍÍÌÏÍÎÍÎÍÎ",
+    "proposed_name": "FriendGroupListSelectorUI",
+    "confidence": "high",
+    "reason": "parent UIk__BackingFieldComponent + fields groupListBinding/groupButtonPrefab/groupTabButton/friendListBinding/friendButtonPrefab"
+  },
+  {
+    "original_name": "ÌÍÏÏÌÎÍÎÎÎÌÍÌÏÏÌÌÌÍÎÎÌÎ",
+    "proposed_name": "DroneControlInputTooltipUI",
+    "confidence": "high",
+    "reason": "fields twinStickTooltip1/twinStickTooltip2/leftStickTextY/rightStickTextX/mouseAndKeyboardTooltip1/wsText"
+  },
+  {
+    "original_name": "ÌÏÎÌÏÍÌÎÍÏÏÌÌÍÌÎÍÍÌÏÌÌÌ",
+    "proposed_name": "MaskedProgressImage",
+    "confidence": "high",
+    "reason": "parent MaskableGraphic + fields _sprite/_mainTexture/ShaderFeatureStripes/ShaderFeatureMasking/_gradientColor/_useGradient"
+  },
+  {
+    "original_name": "ÎÌÍÎÍÌÍÏÌÍÏÏÌÌÍÏÎÌÏÌÌÍÎ",
+    "proposed_name": "ChatboxCalibrationSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _chatboxFunctionTitle/_chatboxFunctionSetting/_chatboxPositionSetting/_chatboxDisplayDurationSetting"
+  },
+  {
+    "original_name": "ÌÏÎÏÍÎÎÏÎÏÏÍÎÍÌÌÏÎÍÍÎÍÌ",
+    "proposed_name": "AvatarFolderCellUI",
+    "confidence": "high",
+    "reason": "fields folderImage/statusImage/textField/playingObj/cancelObj/vrcPlusExclusiveIcon/grayScaleMaterial/_imageBinding"
+  },
+  {
+    "original_name": "ÎÏÏÏÌÌÎÍÌÌÌÍÌÍÌÏÍÎÏÎÍÏÍ",
+    "proposed_name": "AvatarStoreCellUI",
+    "confidence": "high",
+    "reason": "parent UIRectTransformDimensionsChBeforeTransform + fields _displayNameText/_priceText/_tryOnButton/_favoriteAvatarButton/_impostorToggle"
+  },
+  {
+    "original_name": "ÌÏÍÌÏÎÌÍÍÎÌÌÎÌÏÌÌÍÎÌÌÌÍ",
+    "proposed_name": "PlayerHUDController",
+    "confidence": "high",
+    "reason": "fields notification/move/userEventCarousel/hudCanvasGroup/_gestureOnIcon/_gestureOffIcon/hypeTrainPanel/notificationSound"
+  },
+  {
+    "original_name": "ÍÌÎÎÎÌÍÍÍÌÍÌÌÍÎÎÏÎÍÏÎÏÏ",
+    "proposed_name": "EmoteCategoryBrowserUI",
+    "confidence": "high",
+    "reason": "fields ContentList/ContentPrefab/CategoryFilter/CategoryList/CategoryToolbar/CategoryScrollRect/PageDownButton/CategoryLabel"
+  },
+  {
+    "original_name": "ÍÌÎÎÎÌÍÍÍÌÍÌÌÍÎÎÏÎÍÏÎÏÏ",
+    "proposed_name": "EmoteCategoryBrowserUI2",
+    "confidence": "medium",
+    "reason": "same structure as index 45 - fields ContentList/ContentPrefab/CategoryFilter/CategoryList/CategoryScrollRect/PageDownButton"
+  },
+  {
+    "original_name": "ÍÌÎÎÎÌÍÍÍÌÍÌÌÍÎÎÏÎÍÏÎÏÏ",
+    "proposed_name": "EmoteCategoryBrowserUI3",
+    "confidence": "medium",
+    "reason": "same structure as index 45-46 - fields ContentList/ContentPrefab/CategoryFilter/CategoryScrollRect/PageDownButton"
+  },
+  {
+    "original_name": "ÍÌÎÎÎÌÍÍÍÌÍÌÌÍÎÎÏÎÍÏÎÏÏ",
+    "proposed_name": "EmoteCategoryBrowserUI4",
+    "confidence": "medium",
+    "reason": "same structure as index 45-47 - fields ContentList/ContentPrefab/CategoryFilter/CategoryScrollRect/PageDownButton"
+  },
+  {
+    "original_name": "ÏÎÍÏÍÎÍÎÏÏÏÏÍÏÏÌÎÍÌÏÌÎÌ",
+    "proposed_name": "FullBodyTrackingSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _userRealHeightSetting/_allowFBTSetting/_calibrateFBTSetting/_fbtSpineModeSetting/_autoCenterOSCTrackersSetting"
+  },
+  {
+    "original_name": "ÍÌÏÍÏÌÌÍÌÍÌÏÎÌÎÍÏÎÌÌÎÏÎ",
+    "proposed_name": "ChatboxRuntimeSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _localChatboxVisibility/_chatboxPositions/_chatboxHeight/_chatboxOpacity/_chatboxDisplayDuration/_chatboxAutoSendSetting"
+  },
+  {
+    "original_name": "ÏÌÌÌÏÏÎÍÎÍÍÍÏÏÎÏÌÏÏÏÎÌÎ",
+    "proposed_name": "SocialListFilterUI",
+    "confidence": "high",
+    "reason": "parent ButtonIndicatorBase + fields _online/_recents/_activeOnAnotherPlatform/_offline/_discord/_offlineFoldout"
+  },
+  {
+    "original_name": "ÍÏÌÌÌÎÎÏÎÌÎÎÎÏÏÎÌÍÌÌÌÎÎ",
+    "proposed_name": "VRCMainMenuController",
+    "confidence": "high",
+    "reason": "parent k__BackingField_5C0C + fields _menuPlacementController/_graphicRaycaster/_menuBehaviours/_mainMenuCanvasGroup/_vrcPlusButtonSubscribed"
+  },
+  {
+    "original_name": "ÎÍÎÎÌÌÍÏÌÏÏÎÎÍÏÍÎÍÍÎÏÏÍ",
+    "proposed_name": "AudioEarmuffSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _earmuffMode/_distance/_falloffDistance/_outsideVolume/_includeAvatarAudio/_forwardCone"
+  },
+  {
+    "original_name": "ÎÍÎÌÎÏÏÎÌÌÍÌÏÍÎÎÏÎÌÌÎÌÌ",
+    "proposed_name": "StoreProductListUI",
+    "confidence": "high",
+    "reason": "fields _listBinding/_gridLayoutGroup/_listingFullPrefab/_listingCompactPrefab/_cellSizeToggle/_sortProductsDropdown"
+  },
+  {
+    "original_name": "ÌÌÍÏÍÎÎÌÏÎÎÌÏÌÌÌÏÍÍÌÍÏÌ",
+    "proposed_name": "SidebarTabItemUI",
+    "confidence": "high",
+    "reason": "fields _label/_button/_radioButtonSelector/_newIndicator/_defaultIcon/_remoteIconContainer/_remoteIconImage"
+  },
+  {
+    "original_name": "ÌÏÍÍÌÌÍÌÍÏÌÌÎÌÌÏÍÏÌÌÌÍÍ",
+    "proposed_name": "CameraSettingsTransformPanel",
+    "confidence": "high",
+    "reason": "fields settingsTransform/slidersTransform/dollyConfigTransform/tooltipsTransform/zoomSliderTransform/exposureSliderTransform"
+  },
+  {
+    "original_name": "ÍÏÎÌÎÌÌÌÍÍÎÎÌÎÎÏÏÌÌÏÎÏÏ",
+    "proposed_name": "GestureLocomotionController",
+    "confidence": "high",
+    "reason": "parent GestureLocomotionBase + fields gestureIcons/actionMenuGestureIcon/locomotionStart/gestureEnd/handPinchUIPrefab/circleKeyMenuOpenerPrefab"
+  },
+  {
+    "original_name": "ÌÍÌÍÍÎÌÎÎÍÌÏÌÎÍÎÏÎÏÏÎÎÎ",
+    "proposed_name": "WorldSidebarNavigationUI",
+    "confidence": "high",
+    "reason": "fields _recentlyVisited/_recentlyUpdatedFavorites/_authoredSidebarItem/_savedSearchSidebarItems/_scrollRect/_contentPanel"
+  },
+  {
+    "original_name": "ÏÏÍÍÏÏÏÏÍÎÏÏÌÎÌÎÍÍÎÍÏÏÎ",
+    "proposed_name": "CameraLensViewfinderUI",
+    "confidence": "high",
+    "reason": "fields lensUpIndicator/lensRenderer/printLensRenderer/lensParent/speakerOnViewfinder/TimerButton"
+  },
+  {
+    "original_name": "ÌÍÎÌÍÎÌÌÍÏÍÏÌÎÌÎÍÏÏÏÎÏÍ",
+    "proposed_name": "GroupRoleSelectorUI",
+    "confidence": "high",
+    "reason": "fields selectAllButton/managementRolesHeader/vanityRolesHeader/roleListBinding/roleButtonPrefab/selectRolesButton/createWorldInstanceFlowHandler"
+  },
+  {
+    "original_name": "ÎÏÍÎÍÌÏÌÍÏÌÏÏÍÍÌÏÏÎÎÎÌÌ",
+    "proposed_name": "AchievementUnlockUI",
+    "confidence": "high",
+    "reason": "fields lockIcon/checkIcon/preUnlockTexts/postUnlockTexts/icon/canvasGroup/progressSlider/progressSliderText"
+  },
+  {
+    "original_name": "ÏÌÎÎÏÍÎÏÎÌÍÎÎÌÌÎÏÌÏÏÌÎÎ",
+    "proposed_name": "GroupActivityFeedUI",
+    "confidence": "high",
+    "reason": "parent ButtonIndicatorBase + fields groupActivityCellPrefab/groupActivityCellParent/sortDropdown/groupLocationsFilterButton/groupNameInputField"
+  },
+  {
+    "original_name": "ÍÎÌÎÌÎÌÌÎÌÎÍÌÌÌÎÌÎÎÌÎÌÍ",
+    "proposed_name": "WorldInstanceActionMenuUI",
+    "confidence": "high",
+    "reason": "fields buttonSpacing/center/allButtons/ownerButtons/nonOwnerButtons/instanceModeratorButtons/worldDetailsButton"
+  },
+  {
+    "original_name": "ÌÏÏÎÍÎÍÌÌÏÌÍÏÌÎÏÍÍÏÍÍÌÏ",
+    "proposed_name": "InventoryPanelUI",
+    "confidence": "high",
+    "reason": "fields icons/addItemPrefab/builder/content/inventoryInfoPanel/upsellPanel/storeButton/buttonFooter"
+  },
+  {
+    "original_name": "ÎÎÎÌÌÏÎÏÍÎÎÌÌÌÍÏÏÏÏÍÏÏÎ",
+    "proposed_name": "TrackingOriginModeUI",
+    "confidence": "high",
+    "reason": "fields m_RecenteredImage/m_CurrentTrackingOriginMode/m_DesiredTrackingOriginMode/m_SupportedTrackingOriginModes"
+  },
+  {
+    "original_name": "ÍÌÌÍÎÌÍÏÍÏÌÎÎÎÌÌÎÏÎÎÌÏÎ",
+    "proposed_name": "CollapsibleSectionUI",
+    "confidence": "high",
+    "reason": "fields _toggle/_arrow/_prefsKey/_visibleByDefault/_invokeActionOnEnable/_invokeActionOnDisable"
+  },
+  {
+    "original_name": "ÎÏÏÍÌÏÎÏÌÌÎÍÏÌÌÌÍÏÍÏÍÏÌ",
+    "proposed_name": "AvatarResourcePreloader",
+    "confidence": "high",
+    "reason": "fields _filteredAvatarPrefab/_errorAvatarPrefab/_loadingAvatarPrefab/_safetyAvatarPrefab/_maleAvatarAnims/_femaleAvatarAnims"
+  },
+  {
+    "original_name": "ÎÎÏÍÌÎÏÌÌÌÎÍÌÎÏÌÎÌÎÏÎÎÎ",
+    "proposed_name": "ConfirmDialogUI",
+    "confidence": "high",
+    "reason": "parent UpdateComponent + fields _titleText/_topText/_confirmButton/_cancelButton/_confirmText/_cancelText"
+  },
+  {
+    "original_name": "ÌÎÎÌÏÍÌÌÎÍÌÎÍÏÍÍÍÎÍÍÍÎÏ",
+    "proposed_name": "DesktopLocomotionSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _lookSensitivity/_screenEdgeRotateSpeed/_enableAutoWalk/_enableAutoHold/_invertedLook/_enableFocusView"
+  },
+  {
+    "original_name": "ÎÍÌÎÌÎÏÏÎÍÌÌÎÎÍÏÍÏÏÎÎÏÍ",
+    "proposed_name": "MenuToggleKeyBinding",
+    "confidence": "high",
+    "reason": "fields _key/_target/_button/_toggle/_isVRCPlusOnly/_alignment/_offset"
+  },
+  {
+    "original_name": "ÍÌÏÏÎÍÎÎÌÌÍÍÏÌÏÏÍÍÎÏÏÍÌ",
+    "proposed_name": "HeadpatPhysicsConfig",
+    "confidence": "high",
+    "reason": "fields velocityScalar/accelScalar/accelMixFactor/accelSmoothingTimeSeconds/headpatSpeedLimit"
+  },
+  {
+    "original_name": "ÎÎÏÏÍÌÎÏÎÏÏÏÏÏÎÎÍÌÎÌÌÏÍ",
+    "proposed_name": "AudioVolumeSettings",
+    "confidence": "high",
+    "reason": "parent PlayerheaderText + fields _masterVolumeSetting/_uiMenuVolumeSetting/_worldVolumeSetting/_voicesVolumeSetting/_avatarsVolumeSetting"
+  },
+  {
+    "original_name": "ÍÏÏÏÏÎÌÍÏÌÌÏÍÏÌÎÌÌÌÍÌÍÎ",
+    "proposed_name": "TransformGizmoPanel",
+    "confidence": "high",
+    "reason": "fields canvasGroup/tabbedPanel/posPanel/rotPanel/scalePanel/sliderPrefab/buttonPrefab"
+  },
+  {
+    "original_name": "ÍÍÏÏÎÎÎÌÎÍÌÍÎÍÎÏÍÍÏÎÍÌÏ",
+    "proposed_name": "FilterOptionsUI",
+    "confidence": "high",
+    "reason": "fields filterContainer/activeContainer/labelPrefab/optionPrefab/checkboxPrefab/activeFilterPrefab/spacerFilter"
+  },
+  {
+    "original_name": "ÌÍÏÎÍÎÏÎÌÍÌÏÌÎÍÎÍÌÌÍÌÍÌ",
+    "proposed_name": "ToastNotificationUI",
+    "confidence": "medium",
+    "reason": "fields _textMeshProUGUI/_canvas/_canvasGroup/_container/_backgroundImage/_fadeDuration/_notchOffset (generic toast)"
+  },
+  {
+    "original_name": "ÎÍÏÌÏÌÍÌÏÌÏÎÏÏÎÌÏÌÏÍÍÍÎ",
+    "proposed_name": "PoseHolisticAnnotationController",
+    "confidence": "high",
+    "reason": "parent k__BackingFieldbootstrapPrefabComponent + fields _holisticAnnotationController/_poseDetectionAnnotationController/_segmentationMaskAnnotationController"
+  },
+  {
+    "original_name": "ÌÎÎÏÎÍÎÌÎÏÍÍÌÏÎÌÌÏÏÌÏÏÌ",
+    "proposed_name": "VRCToggleBindingUI",
+    "confidence": "high",
+    "reason": "fields _handle/_turnedOffCanvasGroup/_turnedOnCanvasGroup/_handleCanvasGroup/_tooltip/_toggleBinding"
+  },
+  {
+    "original_name": "ÍÏÎÍÍÍÎÍÍÏÌÏÏÍÎÌÎÏÏÌÍÎÍ",
+    "proposed_name": "PoseLandmarksAnnotationController",
+    "confidence": "high",
+    "reason": "parent k__BackingFieldbootstrapPrefabComponent + fields _poseLandmarksAnnotationController/_poseWorldLandmarksAnnotationController/_roiFromLandmarksAnnotationController"
+  },
+  {
+    "original_name": "ÏÍÍÎÏÎÌÏÌÍÍÍÎÎÌÎÌÌÏÍÌÌÌ",
+    "proposed_name": "WorldPropSpawnerUI",
+    "confidence": "high",
+    "reason": "fields spawnPrefab/loadingVisualizerPrefab/orbitRingPrefab/propPlacementCursor/placementLayerMask/localPropIcon"
+  }
+]

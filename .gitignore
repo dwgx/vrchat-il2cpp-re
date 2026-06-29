@@ -244,3 +244,5 @@ tools/extract_jun13_probe.py
 提示词.txt
 data/precise_dump_prev_nofields_*.json
 output/wf_shards/
+output/a1_shards/
+data/precise_dump_unity6_hq.json

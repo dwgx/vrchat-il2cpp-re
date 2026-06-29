@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÍÍÌÌÎÌÍÍÌÎÌÏÎÎÌÎÏÍÌÍÍÌÎ",
+    "proposed_name": "SelectToggleItem",
+    "confidence": "medium",
+    "reason": "selectButton+toggle，UI选择切换项"
+  },
+  {
+    "original_name": "ÏÏÍÌÏÎÌÍÌÌÍÍÏÏÏÌÌÏÎÌÏÍÏ",
+    "proposed_name": "SelectorTooltipItem",
+    "confidence": "medium",
+    "reason": "selector+title+tooltip，带标题和提示的选择器组件"
+  },
+  {
+    "original_name": "ÍÍÍÍÎÏÌÎÏÌÏÍÌÏÍÎÎÍÍÎÎÌÏ",
+    "proposed_name": "VisualizerExpandablePanel",
+    "confidence": "high",
+    "reason": "_visualizer+_parentLayoutElement+隐藏/显示高度字段，可收缩高度动画的可视化面板"
+  },
+  {
+    "original_name": "ÍÌÏÏÎÌÎÏÏÌÌÍÍÎÍÏÏÎÏÎÏÎÍ",
+    "proposed_name": "LocalizedButtonWidget",
+    "confidence": "medium",
+    "reason": "_text+_localizedText+_button，带本地化文本的按钮组件"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÌÏÍÌÎÍÌÌÌÎÍÍÏÎÍÏÍÎ",
+    "proposed_name": "ImagePreviewButtonOverlay",
+    "confidence": "medium",
+    "reason": "_rawImageBinding+_styleElement+_button+_previewOverlay，图片预览叠加层"
+  },
+  {
+    "original_name": "ÍÍÏÌÏÏÍÌÌÎÏÎÎÌÍÍÍÌÍÌÏÏÏ",
+    "proposed_name": "GraphicsPerformanceConfig",
+    "confidence": "high",
+    "reason": "_cpuConfig+_gpuConfig+_openGlEsConfig+_timeoutMicrosec，图形性能配置管理器"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，含标签/按钮/开关/显示状态的标准UI列表项"
+  },
+  {
+    "original_name": "ÏÏÍÌÌÎÎÎÍÎÌÍÎÏÏÎÌÌÏÌÍÍÍ",
+    "proposed_name": "ControlContainerLayoutGroup",
+    "confidence": "high",
+    "reason": "_controlName+_container+_enableWhenEmpty+_forceLayoutRebuild，命名容器动态布局控制器"
+  },
+  {
+    "original_name": "ÏÏÌÏÏÏÌÌÌÍÏÍÍÍÌÎÎÏÍÏÍÎÍ",
+    "proposed_name": "GroupInfoHeaderItem",
+    "confidence": "high",
+    "reason": "_groupName+_groupIcon+_groupInfoButton，群组名称/图标/信息按钮标题组件"
+  },
+  {
+    "original_name": "ÌÌÌÏÍÏÏÎÍÏÏÎÍÏÌÌÏÍÎÍÌÍÏ",
+    "proposed_name": "ScrollArrowNavigator",
+    "confidence": "high",
+    "reason": "Scroll+LeftArrow+RightArrow+axis，带左右箭头和轴向的滚动导航器"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，预览图加旋转动画加状态面板"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÎÍÎÌÍÏÌÌÎÏÎÌÌÍÌÍÏÏ",
+    "proposed_name": "TooltipButtonTextItem",
+    "confidence": "high",
+    "reason": "text+button+tooltip+buttonText，带提示的文本按钮UI项"
+  },
+  {
+    "original_name": "ÏÎÏÌÎÌÏÌÏÍÌÏÎÎÎÌÍÏÏÏÍÌÌ",
+    "proposed_name": "SelectableItemWithActions",
+    "confidence": "high",
+    "reason": "selectedOutline+lockedIcon+deleteButtonWidget+canvasGroup+OnPointer，可选中带锁/删除的UI元素"
+  },
+  {
+    "original_name": "ÎÍÎÍÍÏÍÍÏÌÏÌÎÍÍÍÏÏÎÍÍÍÎ",
+    "proposed_name": "MenuSectionWithSubButtons",
+    "confidence": "medium",
+    "reason": "titleLabel+mainButton+subButtons+separators，带主按钮/子按钮的菜单区域"
+  },
+  {
+    "original_name": "ÌÏÍÎÍÌÍÏÏÌÏÎÎÍÌÏÍÍÏÌÎÎÏ",
+    "proposed_name": "UserListItemContextMenu",
+    "confidence": "high",
+    "reason": "_visibilityButton+_viewUserProfileButton+_removeItemButton+_detailsPanel，用户列表项操作菜单"
+  },
+  {
+    "original_name": "ÌÏÍÎÍÌÍÏÏÌÏÎÎÍÌÏÍÍÏÌÎÎÏ",
+    "proposed_name": "UserListItemContextMenu",
+    "confidence": "high",
+    "reason": "同前重复类，_visibilityButton+_viewUserProfileButton+_removeItemButton"
+  },
+  {
+    "original_name": "ÏÏÍÎÌÌÍÌÍÏÌÍÍÎÌÍÌÏÏÍÏÏÎ",
+    "proposed_name": "TabControlNavigator",
+    "confidence": "medium",
+    "reason": "_controlTabName+_controlChildTabName+_source，标签/子标签导航控制组件"
+  },
+  {
+    "original_name": "ÏÍÌÎÌÎÎÏÏÌÌÌÍÎÌÍÎÎÎÍÏÏÍ",
+    "proposed_name": "ObscuredQuadFieldBinding",
+    "confidence": "low",
+    "reason": "四字段均为混淆编码_e26D系列，无法推断语义"
+  },
+  {
+    "original_name": "ÏÎÏÍÏÎÌÎÍÌÎÎÏÎÌÍÍÏÍÌÌÍÏ",
+    "proposed_name": "AvatarSharingPrivacySettings",
+    "confidence": "high",
+    "reason": "allowDirectSharing+directSharingVisibility+allowPedestalSharing+pedestalSharingVisibility，头像分享权限设置"
+  },
+  {
+    "original_name": "ÌÏÌÏÎÎÍÎÌÍÍÏÏÏÍÍÍÍÏÎÎÏÏ",
+    "proposed_name": "FingerTrackingInputSettings",
+    "confidence": "high",
+    "reason": "_fingerTrackingType+_showPinchUI+_useRecommendedSettings+_qmOpenerMode，手指追踪输入配置"
+  },
+  {
+    "original_name": "ÍÌÎÌÏÌÌÌÎÍÎÌÏÏÍÏÎÎÎÎÌÎÌ",
+    "proposed_name": "IconLabelButtonWidget",
+    "confidence": "high",
+    "reason": "_label+_button+_icon+_labelLayoutElement，带图标/标签/按钮的标准UI小部件"
+  },
+  {
+    "original_name": "ÏÏÎÍÎÌÌÌÍÎÌÏÎÌÌÏÌÏÏÍÏÎÍ",
+    "proposed_name": "AvatarScrollContentPanel",
+    "confidence": "medium",
+    "reason": "_avatarPanel+_contentPanel+_scrollRect+_viewport，头像内容滚动视图"
+  },
+  {
+    "original_name": "ÎÍÏÎÏÌÌÍÌÍÏÍÏÍÍÍÌÏÎÎÏÌÎ",
+    "proposed_name": "IconStyleToggleBinding",
+    "confidence": "high",
+    "reason": "_onIconStyle+_offIconStyle+_tooltip+_toggleBinding，开/关图标样式绑定组件"
+  },
+  {
+    "original_name": "ÍÌÌÎÎÌÌÏÎÏÍÌÏÏÌÍÍÎÎÌÍÌÏ",
+    "proposed_name": "GalleryListContentView",
+    "confidence": "high",
+    "reason": "noGalleryPanel+noGalleryText+iconBinding+_observableList，图库列表内容视图"
+  },
+  {
+    "original_name": "ÍÍÎÏÎÌÏÏÎÌÏÏÌÌÏÎÎÌÏÍÏÏÏ",
+    "proposed_name": "InputActionEventBinding",
+    "confidence": "medium",
+    "reason": "text_inputName+inputDown+inputPress+inputUp，输入动作名称与事件绑定"
+  },
+  {
+    "original_name": "ÌÏÎÌÍÍÏÌÏÌÏÌÏÍÌÍÍÌÌÏÎÎÎ",
+    "proposed_name": "ClockDisplayWidget",
+    "confidence": "high",
+    "reason": "clockText+clockDesignatorText+clockTextBackwards+clockDesignatorTextBackwards，正反向时钟文本显示组件"
+  },
+  {
+    "original_name": "ÌÏÍÏÎÎÌÌÍÎÍÎÏÌÍÌÏÌÏÏÎÏÍ",
+    "proposed_name": "CompactLayoutListView",
+    "confidence": "high",
+    "reason": "_layoutGroup+_prefabCompact+_fadeTarget+_observableList，带淡入/紧凑布局的可观察列表视图"
+  },
+  {
+    "original_name": "ÍÌÏÏÌÌÎÌÌÏÎÏÎÌÏÌÎÎÍÌÎÎÌ",
+    "proposed_name": "ExpandCollapseContainer",
+    "confidence": "high",
+    "reason": "_expandButton+_collapseButton+_contentContainer+_isExpandedByDefault，可展开折叠内容容器"
+  },
+  {
+    "original_name": "ÌÌÌÏÎÌÍÎÌÌÎÌÍÏÎÌÎÎÍÍÌÏÏ",
+    "proposed_name": "MediapipeFaceAnnotationController",
+    "confidence": "high",
+    "reason": "_faceDetectionsAnnotationController+_multiFaceLandmarksAnnotationController+faceRects系列，MediaPipe人脸检测标注控制器"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÎÎÏÍÏÍÌÏÍÏÏÏÌÍÍÌÎÌÏÌÏÌÏ",
+    "proposed_name": "ProductContentListPanel",
+    "confidence": "high",
+    "reason": "_title+_productCellPrefab+_contentBinding，带标题和产品格子预制件的内容列表面板"
+  },
+  {
+    "original_name": "ÌÍÍÍÍÍÌÎÏÍÏÎÎÎÏÏÍÌÎÌÎÌÍ",
+    "proposed_name": "CameraFOVSensitivitySettings",
+    "confidence": "high",
+    "reason": "_lookSensitivitySetting+_portraitFOVSetting+_landscapeFOVSetting+_autoRotateSpeedSetting，摄像机FOV与灵敏度设置"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÎÎÌÍÎÏÍÎÍÏÌÌÏÎÌÎÏÌÏÏÍ",
+    "proposed_name": "ObscuredQuadFieldBinding2",
+    "confidence": "low",
+    "reason": "四字段均为混淆编码_2C89系列，无法推断语义"
+  },
+  {
+    "original_name": "ÍÍÎÎÏÌÏÌÍÌÌÍÎÌÎÍÌÏÎÎÌÎÌ",
+    "proposed_name": "PlatformSpriteSelector",
+    "confidence": "high",
+    "reason": "_steamSprite+_mobileVRSprite+_mobileSprite，按平台类型(Steam/MobileVR/Mobile)选择精灵图的组件"
+  },
+  {
+    "original_name": "ÏÍÎÏÌÏÎÍÌÏÏÎÏÎÎÍÍÍÏÏÌÎÏ",
+    "proposed_name": "FingerTrackingAdvancedSettings",
+    "confidence": "high",
+    "reason": "_steamBindings+_fingerTrackingExclusiveMode+_avatarsUseFingerTracking+_doubleTapForMainMenu，Steam手指追踪高级设置"
+  },
+  {
+    "original_name": "ÎÎÌÍÎÏÌÏÌÌÎÏÌÏÏÍÌÎÏÌÎÍÏ",
+    "proposed_name": "PromptDialogOverlay",
+    "confidence": "medium",
+    "reason": "_canvasGroup+_promptText，带提示文本的对话框叠加层"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÍÏÍÎÎÎÍÌÏÎÏÌÏÍÏÎÍÌÍÍÏÏÏ",
+    "proposed_name": "MediapipeHandAnnotationController",
+    "confidence": "high",
+    "reason": "_palmDetectionsAnnotationController+_handRectsFromPalmDetectionsAnnotationController+_handLandmarksAnnotationController，MediaPipe手部检测标注控制器"
+  },
+  {
+    "original_name": "ÏÎÌÍÌÍÍÏÏÍÍÎÏÌÍÍÌÎÍÌÍÍÍ",
+    "proposed_name": "InteractableTouchMoveSelector",
+    "confidence": "high",
+    "reason": "_interactableMask+_playerMask+_touchMove+_selectRightButton，可交互物体触摸移动选择器"
+  },
+  {
+    "original_name": "ÏÎÌÌÍÍÎÏÌÏÍÌÏÌÌÎÌÏÌÍÌÎÌ",
+    "proposed_name": "AvatarVisibilityBehaviorSettings",
+    "confidence": "high",
+    "reason": "_hideBeyondSetting+_showNearestSetting+_alwaysShowFriendAvatarsSetting+_allowOverrideWithShowAvatarSetting，头像可见性行为设置"
+  },
+  {
+    "original_name": "ÎÏÍÏÍÍÌÎÎÍÏÌÌÍÍÍÏÎÏÍÌÍÎ",
+    "proposed_name": "TypedDescriptionPanel",
+    "confidence": "medium",
+    "reason": "_type+_titleText+_descriptionText，带类型/标题/描述的信息面板"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÎÍÍÍÏÏÎÏÎÍÎÎÌÎÌÏÌÏÎÍÌÌÌ",
+    "proposed_name": "WorldContextMenuPanel",
+    "confidence": "high",
+    "reason": "_worldInformationPanel+_addToPlaylistHeaderButton+_reportWorldButton+_goToAuthorButton，世界信息上下文菜单面板"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÎÎÌÏÏÏÍÎÏÍÍÎÏÍÎÎÎÌÎÍÍÎÌ",
+    "proposed_name": "PreviewImageRotatorPanel",
+    "confidence": "high",
+    "reason": "previewImage+rotator+loadingPanel+errorPanel，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÌÌÌÍÍÍÎÏÌÏÏÎÏÏÏÌÎÏÎÏÏ",
+    "proposed_name": "LabelButtonToggleItem",
+    "confidence": "high",
+    "reason": "label+button+toggle+isOnDisplay，同前重复类"
+  },
+  {
+    "original_name": "ÏÏÍÍÍÏÏÏÌÏÌÏÎÏÏÍÍÎÌÎÏÍÌ",
+    "proposed_name": "VRCUiShapeCanvas",
+    "confidence": "high",
+    "reason": "_getEventCamera+_allowFocusView+__uiCanvas+__localRectTransform，VRC UI形状画布根组件"
+  },
+  {
+    "original_name": "ÍÎÏÎÏÏÍÏÎÏÎÏÌÏÍÏÍÏÏÌÎÎÍ",
+    "proposed_name": "PointerHandleCanvasGroup",
+    "confidence": "high",
+    "reason": "_handle+_turnedOffCanvasGroup+_turnedOnCanvasGroup+_handleCanvasGroup，指针开关句柄CanvasGroup"
+  },
+  {
+    "original_name": "ÏÏÌÎÎÏÏÍÍÎÎÎÌÎÍÏÏÎÏÎÌÌÏ",
+    "proposed_name": "ButtonIconTooltipTextItem",
+    "confidence": "high",
+    "reason": "button+icon+tooltip+text，带图标/提示/文本的按钮UI项"
+  },
+  {
+    "original_name": "ÏÏÏÎÎÌÌÏÎÏÌÎÍÌÌÎÌÍÏÏÌÌÏ",
+    "proposed_name": "AppSettingsBinding",
+    "confidence": "medium",
+    "reason": "_appSettings字段存在，应用配置绑定组件，其余字段混淆"
+  },
+  {
+    "original_name": "ÎÎÍÍÏÏÏÏÍÌÏÎÍÎÎÌÏÍÌÎÍÍÏ",
+    "proposed_name": "NameplateVisibilitySettings",
+    "confidence": "high",
+    "reason": "_nameplateVisibilitySetting+_showGroupBannerSetting+_showAdditionalInfoSetting+_hudDetailLevelSetting，名牌/HUD可见性设置"
+  },
+  {
+    "original_name": "ÎÏÍÍÌÎÍÏÍÍÍÌÏÌÏÏÌÌÌÍÏÍÏ",
+    "proposed_name": "DebugLoggingSettings",
+    "confidence": "high",
+    "reason": "_loggingSetting+_pinFPSAndPingSetting+_debugButtons，调试日志与FPS/Ping固定设置"
+  },
+  {
+    "original_name": "ÍÏÍÎÎÍÏÎÌÎÏÍÎÏÏÎÏÌÏÌÎÍÏ",
+    "proposed_name": "UnityObjectWrapperBase",
+    "confidence": "low",
+    "reason": "parent=Object，标准Unity Object包装基类字段，无业务方法可区分"
+  },
+  {
+    "original_name": "ÍÎÏÌÍÏÌÍÎÎÌÎÌÌÏÌÌÌÏÏÍÍÎ",
+    "proposed_name": "UnityObjectNamedWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+Initialize+get_name方法，有初始化和名称访问的Unity Object包装类"
+  },
+  {
+    "original_name": "ÍÏÎÍÍÎÎÌÌÍÌÍÎÌÌÌÌÏÍÌÍÌÌ",
+    "proposed_name": "UnityObjectEquatableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+Initialize+Equals+GetHashCode，带初始化和等值比较的Unity Object包装"
+  },
+  {
+    "original_name": "ÌÎÍÏÌÏÍÎÌÍÍÎÎÍÍÌÏÌÏÌÏÎÎ",
+    "proposed_name": "UnityObjectEnumeratorWithName",
+    "confidence": "medium",
+    "reason": "parent=Object+MoveNext+get_Current+IDisposable+Initialize+set_name，带名称设置的协程/枚举器包装类"
+  },
+  {
+    "original_name": "ÌÎÎÌÍÍÌÌÏÍÏÎÍÏÏÍÎÌÍÏÌÍÌ",
+    "proposed_name": "UnityObjectEnumerator",
+    "confidence": "medium",
+    "reason": "parent=Object+MoveNext+IEnumerator接口+IDisposable+Initialize+Instantiate，协程枚举器包装类"
+  },
+  {
+    "original_name": "ÎÏÌÌÍÌÌÍÍÎÏÌÍÎÍÍÎÏÍÍÏÌÏ",
+    "proposed_name": "UnityObjectEnumeratorWithDestroy",
+    "confidence": "medium",
+    "reason": "parent=Object+MoveNext+get_Current+IDisposable+Destroy，带销毁的协程枚举器包装类"
+  },
+  {
+    "original_name": "ÎÌÍÎÏÌÎÏÍÏÍÎÌÎÎÎÍÍÏÎÍÏÏ",
+    "proposed_name": "UnityObjectPlainWrapper",
+    "confidence": "low",
+    "reason": "parent=Object，标准Unity Object包装类，无业务方法"
+  },
+  {
+    "original_name": "ÌÏÎÌÎÎÍÌÍÎÎÌÎÎÎÏÏÏÌÌÍÏÏ",
+    "proposed_name": "UnityObjectDestroyableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+Instantiate+Destroy+get_name+set_name，支持实例化和销毁的Unity Object包装"
+  },
+  {
+    "original_name": "ÎÌÍÍÎÌÍÌÏÌÎÌÎÎÍÍÍÎÎÏÏÏÍ",
+    "proposed_name": "UnityObjectEnumeratorNamed",
+    "confidence": "medium",
+    "reason": "parent=Object+MoveNext+IEnumerator接口+Initialize+set_name，带名称和枚举的Unity Object包装"
+  },
+  {
+    "original_name": "ÏÍÌÎÏÏÌÏÏÌÏÏÎÌÎÎÌÎÏÏÍÌÏ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，支持实例化的Unity Object包装"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+  },
+  {
+    "original_name": "ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+  },
+  {
+    "original_name": "ÌÎÎÍÍÎÌÎÌÍÎÌÎÎÌÍÎÎÎÌÌÎÌ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+  },
+  {
+    "original_name": "ÏÌÏÏÎÏÍÍÏÍÌÍÏÌÌÍÎÎÎÌÎÏÏ",
+    "proposed_name": "UnityObjectInstantiableWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+GetInstanceID+Instantiate+get/set_name，同前重复类"
+  },
+  {
+    "original_name": "ÏÍÎÎÍÍÎÎÏÍÌÏÍÏÏÎÌÏÏÎÎÎÌ",
+    "proposed_name": "UnityObjectPlainWrapper",
+    "confidence": "low",
+    "reason": "parent=Object，无方法，标准Unity Object包装基类"
+  },
+  {
+    "original_name": "ÍÏÍÎÏÍÌÏÎÎÎÍÏÌÍÏÏÎÌÍÍÍÌ",
+    "proposed_name": "UnityObjectDestroyableInitWrapper",
+    "confidence": "medium",
+    "reason": "parent=Object+Initialize+Destroy+GetInstanceID，带初始化和销毁的Unity Object包装"
+  },
+  {
+    "original_name": "ÍÌÍÎÌÌÎÌÌÏÌÏÎÏÍÏÌÏÏÌÎÌÏ",
+    "proposed_name": "UnityObjectEnumeratorDestroyable",
+    "confidence": "medium",
+    "reason": "parent=Object+MoveNext+get_Current+IEnumerator接口+IDisposable+Initialize+Destroy，可销毁协程枚举器"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÍÏÍÍÌÎÎÎÍÌÍÍÏÍÎÎÌÌ",
+    "proposed_name": "UnityObjectDestroyableWrapper2",
+    "confidence": "medium",
+    "reason": "parent=Object+Equals+GetHashCode+Instantiate+Destroy，带实例化/销毁的Unity Object包装"
+  },
+  {
+    "original_name": "ÏÏÍÎÍÌÌÌÌÌÎÌÌÎÌÌÎÎÎÌÏÏÏ",
+    "proposed_name": "UnityObjectPlainWrapper",
+    "confidence": "low",
+    "reason": "parent=Object，无方法，标准Unity Object包装基类"
+  },
+  {
+    "original_name": "ÏÎÌÏÌÏÌÎÏÎÍÍÌÎÏÍÏÌÏÎÏÎÏ",
+    "proposed_name": "UnityObjectPlainWrapper",
+    "confidence": "low",
+    "reason": "parent=Object，无方法，标准Unity Object包装基类"
+  }
+]

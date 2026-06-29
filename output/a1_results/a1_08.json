@@ -1,0 +1,482 @@
+[
+  {
+    "original_name": "ÎÎÍÎÏÍÎÎÏÏÎÏÎÌÌÍÏÍÏÏÏÏÍ",
+    "proposed_name": "NativeObjectCreateDestroyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: Instantiate+Destroy+GetCachedPtr, no GetInstanceID"
+  },
+  {
+    "original_name": "ÎÎÏÎÏÌÍÎÌÎÎÎÍÏÍÌÌÎÎÌÎÏÍ",
+    "proposed_name": "NativeObjectReadonlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+  },
+  {
+    "original_name": "ÌÏÏÎÌÏÎÍÏÍÍÍÌÏÎÌÎÍÍÎÏÍÏ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÌÍÎÎÏÍÎÎÎÌÏÏÍÍÏÍÏÌÌÌÎÏÍ",
+    "proposed_name": "NativeObjectInstantiateOnlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+GetCachedPtr, no Destroy/GetHashCode"
+  },
+  {
+    "original_name": "ÍÍÌÌÏÍÎÏÏÌÍÌÏÌÍÎÎÌÌÍÍÍÏ",
+    "proposed_name": "NativeObjectCachedPtrWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+  },
+  {
+    "original_name": "ÍÌÎÌÎÏÏÍÍÎÏÎÎÏÏÎÌÌÎÎÎÎÌ",
+    "proposed_name": "BackingFieldStore0287",
+    "confidence": "medium",
+    "reason": "Inherits BackingFieldBase_0287 with 4 opaque _dA66 backing fields"
+  },
+  {
+    "original_name": "ÌÏÏÎÏÎÏÏÍÏÌÎÎÌÎÏÎÌÎÏÍÌÏ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÏÌÍÍÌÎÌÌÌÍÎÍÍÏÍÍÍÎÎÎÎÍ",
+    "proposed_name": "NativeObjectEqualityWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+  },
+  {
+    "original_name": "ÏÍÌÍÌÍÌÎÎÍÌÍÏÏÎÌÌÎÍÏÌÌÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÍÎÌÍÎÎÏÎÌÌÌÏÌÌÎÌÏÍÏÍÍÎ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÏÍÏÌÌÏÍÎÌÎÏÎÏÌÎÏÌÍÍÌÏÏÏ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÎÌÌÍÌÏÎÌÍÎÎÏÌÎÏÏÎÌÎÍÏÍÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÎÎÎÎÎÏÌÌÍÎÏÌÎÏÌÏÏÏÏÏÍÎ",
+    "proposed_name": "NativeObjectSlimLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+  },
+  {
+    "original_name": "ÌÌÏÌÏÏÏÏÍÌÍÎÎÌÏÍÍÍÌÎÎÌÏ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÎÍÌÎÌÏÎÌÎÏÏÏÎÏÏÍÏÎÍÏÎÍÌ",
+    "proposed_name": "NativeObjectReadonlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+  },
+  {
+    "original_name": "ÍÌÎÌÌÏÍÌÎÌÎÏÍÍÌÌÌÌÌÏÌÏÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÍÎÍÎÍÌÍÎÌÏÌÏÏÎÍÎÍÏÍÌÌÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÌÏÏÎÎÏÎÍÎÌÍÍÎÎÌÏÍÎÎÌÍÍ",
+    "proposed_name": "NativeObjectComparableWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with CompareTo — IComparable native object reference"
+  },
+  {
+    "original_name": "ÍÍÌÏÌÍÌÏÌÍÏÍÌÎÍÏÏÍÎÎÌÌÏ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÏÏÍÍÌÏÌÍÏÏÎÌÌÌÍÏÍÎÍÏÌÌÎ",
+    "proposed_name": "NativeObjectEnumeratorWithInstantiate",
+    "confidence": "medium",
+    "reason": "IEnumerator/IDisposable with MoveNext+Instantiate — native object sequence enumerator with factory"
+  },
+  {
+    "original_name": "ÎÏÌÍÌÏÎÎÎÍÌÎÌÍÌÍÎÌÎÌÎÍÏ",
+    "proposed_name": "NativeObjectSlimLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+  },
+  {
+    "original_name": "ÍÎÌÎÎÏÍÍÍÍÎÍÎÎÎÎÌÍÍÎÍÌÍ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÎÏÎÏÍÌÌÌÎÏÍÌÎÏÍÍÏÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÍÏÎÏÍÍÎÌÌÎÍÎÍÎÏÎÌÏÌÌÎÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÍÏÌÌÍÎÎÎÌÎÎÏÏÍÎÎÏÌÌÎÎÍ",
+    "proposed_name": "NativeObjectEqualityWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+  },
+  {
+    "original_name": "ÌÏÎÌÏÎÍÌÎÎÍÌÍÌÌÏÎÌÏÎÌÎÎ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÍÍÎÌÎÏÏÎÍÌÌÌÍÏÏÌÎÌÏÍÌÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÏÏÍÍÎÎÍÌÎÌÍÌÏÏÏÌÌÍÏÍÌÎ",
+    "proposed_name": "NativeObjectEqualityWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode, no Instantiate/GetCachedPtr"
+  },
+  {
+    "original_name": "ÏÎÎÎÍÌÏÍÌÌÍÎÏÌÌÎÎÌÏÍÎÍÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÌÏÍÎÎÎÏÍÍÎÍÌÍÏÍÍÎÍÌÏÎÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÎÎÎÍÍÍÍÌÌÏÍÍÌÎÎÌÎÍÎÎÌÌ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÍÎÌÍÏÌÎÏÎÌÎÎÌÍÎÍÌÍÏÍÎÍ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÍÏÍÎÎÎÌÍÍÏÍÍÏÌÎÍÎÏÌÌÍÏ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÎÏÏÌÍÌÎÏÎÌÍÌÏÎÏÌÏÏÌÌÏÍÍ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÌÏÏÎÏÍÏÏÏÌÍÏÏÌÏÎÌÍÏÌÌÍÌ",
+    "proposed_name": "NativeObjectReadonlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+  },
+  {
+    "original_name": "ÍÍÍÏÎÏÍÎÍÍÎÎÎÏÌÏÍÎÏÎÍÏÍ",
+    "proposed_name": "NativeObjectSlimLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy, no GetCachedPtr"
+  },
+  {
+    "original_name": "ÌÍÏÏÎÌÎÍÍÎÏÎÏÏÍÎÌÌÍÎÌÎÏ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÍÍÍÍÎÌÏÍÏÌÍÏÍÎÎÌÏÍÎÏÎÏ",
+    "proposed_name": "NativeObjectCachedPtrWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+  },
+  {
+    "original_name": "ÌÍÎÎÏÎÎÏÍÎÎÏÍÏÌÎÌÏÌÍÍÍÎ",
+    "proposed_name": "NativeObjectCachedPtrWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetCachedPtr, no GetHashCode/Instantiate"
+  },
+  {
+    "original_name": "ÏÎÏÏÎÎÍÍÎÍÍÍÏÌÌÌÏÍÏÌÎÏÏ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÌÎÏÌÏÌÎÌÏÎÌÍÌÏÎÏÏÌÍÍÌÎÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÌÏÍÎÌÍÎÍÌÍÏÍÏÎÎÎÌÍÍÌÎÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÌÎÍÍÎÏÍÏÎÎÍÍÍÍÏÎÏÎÎÌÍÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÌÍÌÌÍÍÎÎÌÍÏÌÍÎÌÍÏÎÏÍÏÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÎÎÌÌÌÍÌÎÏÍÏÏÍÍÍÏÏÎÏÌÍÍÌ",
+    "proposed_name": "NativeObjectIdOnlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with only GetInstanceID — minimal ID accessor shim"
+  },
+  {
+    "original_name": "ÏÎÏÌÍÌÌÍÎÍÏÏÌÌÏÌÎÍÎÌÍÎÌ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÎÌÌÍÎÍÌÏÏÎÍÍÏÎÏÎÍÎÏÍÍÌ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÍÏÌÏÌÍÏÏÌÎÍÍÍÌÏÎÍÏÎÍÎÌÏ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÍÎÍÍÎÎÌÌÎÏÌÏÎÏÏÍÏÏÍÍÏÌÏ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÎÎÍÎÎÏÌÎÏÎÏÎÏÎÌÍÏÏÎÎÌÏ",
+    "proposed_name": "NativeObjectReadonlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+  },
+  {
+    "original_name": "ÎÌÍÎÌÌÍÎÎÎÌÏÎÍÏÏÎÎÏÎÌÍÌ",
+    "proposed_name": "NativeObjectWrapper",
+    "confidence": "medium",
+    "reason": "IL2CPP native Object bridge variant with standard _kInstanceID/_objectIsNullMessage fields"
+  },
+  {
+    "original_name": "ÎÍÌÍÏÌÍÍÌÎÌÎÎÏÌÌÌÍÍÎÍÌÌ",
+    "proposed_name": "NativeObjectReadonlyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+GetCachedPtr, no Instantiate"
+  },
+  {
+    "original_name": "ÌÎÍÍÌÍÌÎÎÏÍÎÌÎÎÏÏÍÌÏÎÎÏ",
+    "proposed_name": "NativeObjectEnumerator",
+    "confidence": "medium",
+    "reason": "IEnumerator/IDisposable with MoveNext+Destroy — native object sequence enumerator"
+  },
+  {
+    "original_name": "ÎÎÍÌÍÎÏÌÌÏÏÏÎÎÏÌÏÌÍÍÎÍÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÌÍÎÎÍÏÏÌÏÌÏÍÏÏÍÎÏÎÍÎÎÎ",
+    "proposed_name": "NativeObjectStubWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with no methods — empty stub or marker class"
+  },
+  {
+    "original_name": "ÏÌÏÎÏÌÍÍÎÌÎÎÌÌÎÎÌÎÏÌÍÍÎ",
+    "proposed_name": "NativeObjectEnumeratorWithInstantiate",
+    "confidence": "medium",
+    "reason": "IEnumerator/IDisposable with MoveNext+Instantiate — native object sequence enumerator with factory"
+  },
+  {
+    "original_name": "ÌÎÎÌÌÌÍÌÍÌÍÎÍÌÏÎÏÏÍÍÏÎÍ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  },
+  {
+    "original_name": "ÏÌÌÏÎÎÌÎÍÌÏÌÎÌÍÎÏÌÍÎÌÍÌ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÌÌÌÍÌÎÏÏÎÎÏÎÏÍÏÍÏÏÏÎÍÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÎÍÎÎÌÎÏÌÌÍÏÎÎÌÌÍÎÎÏÌÏÎ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÍÌÍÎÍÏÏÎÍÎÍÏÎÎÎÎÌÎÍÎÌÌÌ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÌÎÎÌÎÌÍÍÍÍÍÏÎÌÎÍÏÍÎÍÎÏÌ",
+    "proposed_name": "NativePointerStruct",
+    "confidence": "medium",
+    "reason": "ValueType with GetHashCodeOfPtr and x accessor — native pointer/IntPtr value struct"
+  },
+  {
+    "original_name": "ÌÏÎÌÍÌÏÎÎÎÏÍÌÏÎÌÎÍÎÍÎÍÏ",
+    "proposed_name": "NativeObjectCreateDestroyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: Instantiate+Destroy+GetCachedPtr, no GetInstanceID"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÎÍÎÍÌÌÏÍÍÏÍÏÌÎÎÏÎÎÏÌÌÏÎ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÌÌÌÏÎÎÎÎÌÎÍÏÏÎÏÏÌÌÎÎÌÍÏ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÌÏÍÌÏÎÍÍÌÌÎÍÏÍÏÌÌÎÏÌÎÏ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÎÌÍÎÌÍÌÌÎÍÏÌÍÌÎÏÍÏÏÌÎÌÎ",
+    "proposed_name": "NativeObjectLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+Instantiate+Destroy+GetCachedPtr, no GetHashCode"
+  },
+  {
+    "original_name": "ÎÏÌÏÏÏÍÎÌÎÏÍÌÏÍÌÏÏÏÍÎÏÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÍÏÍÏÎÎÍÌÌÌÍÏÎÌÌÍÌÍÌÌÎÎÍ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÏÏÎÎÍÎÍÌÎÍÌÎÎÎÍÎÌÍÎÏÍÌÍ",
+    "proposed_name": "NativeObjectImmediateDestroyWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with DestroyImmediate — non-deferred object destruction shim"
+  },
+  {
+    "original_name": "ÎÎÌÎÏÌÍÌÎÏÏÎÎÍÏÏÏÏÌÎÎÌÍ",
+    "proposed_name": "NativeObjectMinimalEqualityWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with only GetInstanceID+Equals+GetHashCode — equality-only shim"
+  },
+  {
+    "original_name": "ÌÍÍÍÌÍÍÌÍÌÎÎÍÌÎÏÎÏÌÍÍÏÏ",
+    "proposed_name": "NativeObjectDisposableWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with Dispose+Cleanup lifecycle — disposable native object wrapper"
+  },
+  {
+    "original_name": "ÌÍÍÍÌÍÍÌÍÌÎÎÍÌÎÏÎÏÌÍÍÏÏ",
+    "proposed_name": "NativeObjectDisposableWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge with Dispose+Cleanup lifecycle — disposable native object wrapper"
+  },
+  {
+    "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÏÎÎÌÎÍÏÏÌÍÍÏÏÎÏÏÎÍÍÌÎÎ",
+    "proposed_name": "NativeObjectInstantiateWrapper",
+    "confidence": "medium",
+    "reason": "Native Object bridge: GetInstanceID+GetHashCode+Instantiate+GetCachedPtr, no Destroy"
+  },
+  {
+    "original_name": "ÌÍÎÍÎÌÎÎÍÍÌÎÍÍÎÎÍÌÏÌÏÍÏ",
+    "proposed_name": "NativeObjectPairEnumerator",
+    "confidence": "medium",
+    "reason": "Implements IEnumerable<(DataType,BoundType)> with MoveNext — typed pair collection enumerator"
+  },
+  {
+    "original_name": "ÏÏÎÌÎÌÎÏÍÏÌÎÏÌÏÌÌÎÏÏÍÎÍ",
+    "proposed_name": "NativeObjectGenericEnumerator",
+    "confidence": "medium",
+    "reason": "Implements IEnumerable<T> with MoveNext+IDisposable — generic native object enumerator"
+  },
+  {
+    "original_name": "ÍÌÎÏÌÌÍÎÍÎÎÌÎÎÍÍÎÍÍÌÎÏÌ",
+    "proposed_name": "NativeObjectFullLifecycleWrapper",
+    "confidence": "medium",
+    "reason": "Full native Object bridge: GetInstanceID+GetHashCode+Instantiate+Destroy+GetCachedPtr"
+  }
+]
