@@ -424,7 +424,7 @@
  "ÏÌÍÍÌÍÎÏÌÌÎÌÌÎÌÎÍÏÎÏÌÏÌ": "OrientationScaleAdapter",
  "ÍÌÎÏÏÏÏÏÎÍÎÍÍÌÏÍÌÎÍÍÌÏÎ": "SoftClippingRectMask",
  "ÏÌÏÌÏÍÎÌÎÎÏÌÍÎÌÍÍÏÌÍÍÍÌ": "TrustVerifiedIconDisplay",
- "ÌÍÏÏÏÌÏÏÌÎÌÎÎÍÏÍÏÍÍÌÌÌÍ": "TypedIconLayoutItem",
+ "ÌÍÏÏÏÌÏÏÌÎÌÎÎÍÏÍÏÍÍÌÌÌÍ": "IconLayoutItem",
  "ÌÍÌÎÌÌÌÏÍÍÌÎÍÍÏÌÌÌÌÍÏÎÎ": "MarketplaceButtonListItem",
  "ÌÎÎÍÍÍÏÎÏÎÍÏÌÍÍÌÍÌÌÏÏÏÌ": "JoystickDirectionIndicator",
  "ÍÌÎÎÏÏÍÏÍÏÎÏÌÌÍÏÏÍÌÌÏÏÏ": "MemberListScrollPanel",

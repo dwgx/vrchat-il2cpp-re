@@ -2551,7 +2551,7 @@
  },
  {
   "original_name": "ÌÍÏÏÏÌÏÏÌÎÌÎÎÍÏÍÏÍÍÌÌÌÍ",
-  "final_name": "TypedIconLayoutItem",
+  "final_name": "IconLayoutItem",
   "confidence": "medium",
   "reason": "字段 type/icon/layoutElement + OnEnable/OnDisable 带类型标识的图标布局元素"
  },
