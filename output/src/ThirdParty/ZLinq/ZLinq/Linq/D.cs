@@ -8,45 +8,45 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
     public class DefaultIfEmpty`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class DistinctBy`3 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x25A150
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x25A190
+        public void Dispose(){} // RVA: 0x25A1A0
     }
 
     public class DistinctBy`3 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A781B610
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A781B650
-        public void Dispose(){} // RVA: 0x7A781B660
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class Distinct`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
 }

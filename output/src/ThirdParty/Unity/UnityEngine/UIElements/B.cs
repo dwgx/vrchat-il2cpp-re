@@ -1,2108 +1,2364 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
 // Classes: 100
-// Methods: 1600
+// Methods: 1856
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Background : ValueType
     {
         // ── Methods ──
-        public void get_texture(){} // RVA: 0x7A79E3DA0
-        public void set_texture(){} // RVA: 0x7A7F066C0
-        public void get_sprite(){} // RVA: 0x7A7E42C20
-        public void set_sprite(){} // RVA: 0x7A7F066D0
-        public void get_renderTexture(){} // RVA: 0x7A7EEBC40
-        public void set_renderTexture(){} // RVA: 0x7A7F066E0
-        public void get_vectorImage(){} // RVA: 0x7A7832DC0
-        public void set_vectorImage(){} // RVA: 0x7A7F066F0
-        public void FromTexture2D(){} // RVA: 0x7AF21C040
-        public void FromRenderTexture(){} // RVA: 0x7AF21C090
-        public void FromSprite(){} // RVA: 0x7AF21C0E0
-        public void FromVectorImage(){} // RVA: 0x7AF21C130
-        public void FromObject(){} // RVA: 0x7AF21C180
-        public void op_Equality(){} // RVA: 0x7AF21C5D0
-        public void op_Inequality(){} // RVA: 0x7AF21C9A0
-        public void Equals(){} // RVA: 0x7A7F06740
-        public void GetHashCode(){} // RVA: 0x7A7F06750
-        public void ToString(){} // RVA: 0x7A7F06760
+        public void get_texture(){} // RVA: 0x44D9F0
+        public void set_texture(){} // RVA: 0x9AA1E0
+        public void get_sprite(){} // RVA: 0x8C0C50
+        public void set_sprite(){} // RVA: 0x9AA1F0
+        public void get_renderTexture(){} // RVA: 0x979230
+        public void set_renderTexture(){} // RVA: 0x9AA200
+        public void get_vectorImage(){} // RVA: 0x26E640
+        public void set_vectorImage(){} // RVA: 0x9AA210
+        public void FromTexture2D(){} // RVA: 0x80B26C0
+        public void FromRenderTexture(){} // RVA: 0x80B2710
+        public void FromSprite(){} // RVA: 0x80B2760
+        public void FromVectorImage(){} // RVA: 0x80B27B0
+        public void FromObject(){} // RVA: 0x80B2800
+        public void IsEmpty(){} // RVA: 0x9AA220
+        public void op_Equality(){} // RVA: 0x80B2EB0
+        public void op_Inequality(){} // RVA: 0x80B3280
+        public void op_Implicit(){} // RVA: 0x80B26C0
+        public void Equals(){} // RVA: 0x9AA270
+        public void GetHashCode(){} // RVA: 0x9AA280
+        public void ToString(){} // RVA: 0x9AA290
     }
 
     public class BackgroundPosition : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7909990
-        public void Initial(){} // RVA: 0x7AF0C57F0
-        public void Equals(){} // RVA: 0x7A7EFC8E0
-        public void GetHashCode(){} // RVA: 0x7A7EFC950
-        public void op_Equality(){} // RVA: 0x7AF0C5960
-        public void op_Inequality(){} // RVA: 0x7AF0C59C0
-        public void ToString(){} // RVA: 0x7A7EFC980
+        public void .ctor(){} // RVA: 0x3608B0
+        public void Initial(){} // RVA: 0x7E50640
+        public void Equals(){} // RVA: 0x9905A0
+        public void GetHashCode(){} // RVA: 0x990610
+        public void op_Equality(){} // RVA: 0x7E507B0
+        public void op_Inequality(){} // RVA: 0x7E50810
+        public void ToString(){} // RVA: 0x990640
     }
 
     public class BackgroundPropertyHelper : Object
     {
         // ── Methods ──
-        public void ConvertScaleModeToBackgroundPosition(){} // RVA: 0x7AF0C5B20
-        public void ConvertScaleModeToBackgroundRepeat(){} // RVA: 0x7AF0C5B50
-        public void ConvertScaleModeToBackgroundSize(){} // RVA: 0x7AF0C5B60
-        public void ResolveUnityBackgroundScaleMode(){} // RVA: 0x7AF0C5C40
+        public void ConvertScaleModeToBackgroundPosition(){} // RVA: 0x7E50E80
+        public void ConvertScaleModeToBackgroundRepeat(){} // RVA: 0x4880A90
+        public void ConvertScaleModeToBackgroundSize(){} // RVA: 0x7E50EB0
+        public void ResolveUnityBackgroundScaleMode(){} // RVA: 0x7E50F90
     }
 
     public class BackgroundRepeat : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7615330
-        public void Initial(){} // RVA: 0x7AE6105D0
-        public void Equals(){} // RVA: 0x7A7EFCAF0
-        public void GetHashCode(){} // RVA: 0x7A7EFCB10
-        public void op_Equality(){} // RVA: 0x7AF0C61B0
-        public void op_Inequality(){} // RVA: 0x7AF0C61D0
-        public void ToString(){} // RVA: 0x7A7EFCB30
+        public void .ctor(){} // RVA: 0x2B100
+        public void Initial(){} // RVA: 0x4F6B1A0
+        public void Equals(){} // RVA: 0x96F410
+        public void GetHashCode(){} // RVA: 0x9907B0
+        public void op_Equality(){} // RVA: 0x7E514E0
+        public void op_Inequality(){} // RVA: 0x7E51500
+        public void ToString(){} // RVA: 0x9907D0
     }
 
     public class BackgroundSize : ValueType
     {
         // ── Methods ──
-        public void get_sizeType(){} // RVA: 0x7A79EAED0
-        public void set_sizeType(){} // RVA: 0x7A7EFCC00
-        public void get_x(){} // RVA: 0x7A7E42C50
-        public void set_x(){} // RVA: 0x7A7EFCC30
-        public void get_y(){} // RVA: 0x7A7EFCC40
-        public void set_y(){} // RVA: 0x7A7EFCC50
-        public void .ctor(){} // RVA: 0x7A7EFCC00
-        public void Initial(){} // RVA: 0x7AF0C6330
-        public void Equals(){} // RVA: 0x7A7EFCC80
-        public void GetHashCode(){} // RVA: 0x7A7EFCD10
-        public void op_Equality(){} // RVA: 0x7AF0C6580
-        public void op_Inequality(){} // RVA: 0x7AF0C6610
-        public void ToString(){} // RVA: 0x7A7EFCD20
+        public void get_sizeType(){} // RVA: 0x454FE0
+        public void set_sizeType(){} // RVA: 0x9908A0
+        public void get_x(){} // RVA: 0x8C0C80
+        public void set_x(){} // RVA: 0x9908D0
+        public void get_y(){} // RVA: 0x9908E0
+        public void set_y(){} // RVA: 0x9908F0
+        public void .ctor(){} // RVA: 0x9908A0
+        public void Initial(){} // RVA: 0x7E519B0
+        public void Equals(){} // RVA: 0x990920
+        public void GetHashCode(){} // RVA: 0x9909B0
+        public void op_Equality(){} // RVA: 0x7E51C00
+        public void op_Inequality(){} // RVA: 0x7E51C90
+        public void ToString(){} // RVA: 0x9909C0
     }
 
     public class BaseBoolField : BaseField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF0D8070
-        public void OnNavigationSubmit(){} // RVA: 0x7AF0D8590
-        public void get_text(){} // RVA: 0x7AF0D85D0
-        public void set_text(){} // RVA: 0x7AF0D8600
-        public void InitLabel(){} // RVA: 0x7AF0D86F0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AF0D8800
-        public void OnClickEvent(){} // RVA: 0x7AF0D8950
-        public void ToggleValue(){} // RVA: 0x7AF0D8B60
-        public void UpdateMixedValueContent(){} // RVA: 0x7AF0D8BA0
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AF0D8D90
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AF0D8E90
+        public void set_acceptClicksIfDisabled(){} // RVA: 0x7E91C40
+        public void get_toggleOnLabelClick(){} // RVA: 0x7E91CB0
+        public void set_toggleOnLabelClick(){} // RVA: 0x7E91CC0
+        public void get_toggleOnTextClick(){} // RVA: 0x7E91CD0
+        public void set_toggleOnTextClick(){} // RVA: 0x7E91CE0
+        public void .ctor(){} // RVA: 0x7E91CF0
+        public void OnNavigationSubmit(){} // RVA: 0x7E92260
+        public void get_text(){} // RVA: 0x7E922A0
+        public void set_text(){} // RVA: 0x7E922D0
+        public void InitLabel(){} // RVA: 0x7E92400
+        public void SetValueWithoutNotify(){} // RVA: 0x7E92560
+        public void OnClickEvent(){} // RVA: 0x7E926B0
+        public void ShouldIgnoreClick(){} // RVA: 0x7E92970
+        public void ToggleValue(){} // RVA: 0x7E92AB0
+        public void UpdateMixedValueContent(){} // RVA: 0x7E92AF0
+        public void RegisterEditingCallbacks(){} // RVA: 0x7E92CE0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7E92DE0
+        public void .cctor(){} // RVA: 0x7E93060
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7A7E00680
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A7E1D590
-        public void UpdateDisplay(){} // RVA: 0x7A7E18770
-        public void SetValueWithoutNotify(){} // RVA: 0x7A8051B10
-        public void OnViewDataReady(){} // RVA: 0x7A7E18770
-        public void UpdateMixedValueContent(){} // RVA: 0x7A7E18770
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void GetSpacer(){} // RVA: 0x87C0A0
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x899290
+        public void UpdateDisplay(){} // RVA: 0x894290
+        public void SetValueWithoutNotify(){} // RVA: 0xA94080
+        public void OnViewDataReady(){} // RVA: 0x894290
+        public void UpdateMixedValueContent(){} // RVA: 0x894290
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD382AF0
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD382BD0
-        public void UpdateDisplay(){} // RVA: 0x7AD383730
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD383870
-        public void OnViewDataReady(){} // RVA: 0x7AD3839D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD3839F0
-        public void .cctor(){} // RVA: 0x7AD383B40
+        public void GetSpacer(){} // RVA: 0x60CEA10
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60CEB00
+        public void UpdateDisplay(){} // RVA: 0x60CF660
+        public void SetValueWithoutNotify(){} // RVA: 0x60CF7A0
+        public void OnViewDataReady(){} // RVA: 0x60CF900
+        public void UpdateMixedValueContent(){} // RVA: 0x60CF920
+        public void .cctor(){} // RVA: 0x60CFB50
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD384560
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD384640
-        public void UpdateDisplay(){} // RVA: 0x7AD3851A0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3852E0
-        public void OnViewDataReady(){} // RVA: 0x7AD385440
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD3839F0
-        public void .cctor(){} // RVA: 0x7AD385460
+        public void GetSpacer(){} // RVA: 0x60D0570
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D0660
+        public void UpdateDisplay(){} // RVA: 0x60D11C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60D1300
+        public void OnViewDataReady(){} // RVA: 0x60D1460
+        public void UpdateMixedValueContent(){} // RVA: 0x60CF920
+        public void .cctor(){} // RVA: 0x60D1480
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD385E80
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD385F60
-        public void UpdateDisplay(){} // RVA: 0x7AD386AC0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD386C00
-        public void OnViewDataReady(){} // RVA: 0x7AD386CD0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD386CF0
-        public void .cctor(){} // RVA: 0x7AD386E40
+        public void GetSpacer(){} // RVA: 0x60D1EA0
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D1F90
+        public void UpdateDisplay(){} // RVA: 0x60D2AF0
+        public void SetValueWithoutNotify(){} // RVA: 0x60D2C30
+        public void OnViewDataReady(){} // RVA: 0x60D2D00
+        public void UpdateMixedValueContent(){} // RVA: 0x60D2D20
+        public void .cctor(){} // RVA: 0x60D2F50
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD389130
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD389210
-        public void UpdateDisplay(){} // RVA: 0x7AD389D70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD389EB0
-        public void OnViewDataReady(){} // RVA: 0x7AD38A040
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD3839F0
-        public void .cctor(){} // RVA: 0x7AD38A060
+        public void GetSpacer(){} // RVA: 0x60D5250
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D5340
+        public void UpdateDisplay(){} // RVA: 0x60D5EA0
+        public void SetValueWithoutNotify(){} // RVA: 0x60D5FE0
+        public void OnViewDataReady(){} // RVA: 0x60D6170
+        public void UpdateMixedValueContent(){} // RVA: 0x60CF920
+        public void .cctor(){} // RVA: 0x60D6190
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD38C3D0
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD38C4B0
-        public void UpdateDisplay(){} // RVA: 0x7AD383730
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD38D010
-        public void OnViewDataReady(){} // RVA: 0x7AD38D170
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD3839F0
-        public void .cctor(){} // RVA: 0x7AD38D190
+        public void GetSpacer(){} // RVA: 0x60D8510
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D8600
+        public void UpdateDisplay(){} // RVA: 0x60CF660
+        public void SetValueWithoutNotify(){} // RVA: 0x60D9160
+        public void OnViewDataReady(){} // RVA: 0x60D92C0
+        public void UpdateMixedValueContent(){} // RVA: 0x60CF920
+        public void .cctor(){} // RVA: 0x60D92E0
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD387860
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD387940
-        public void UpdateDisplay(){} // RVA: 0x7AD3884A0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3885B0
-        public void OnViewDataReady(){} // RVA: 0x7AD3886F0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD386CF0
-        public void .cctor(){} // RVA: 0x7AD388710
+        public void GetSpacer(){} // RVA: 0x60D3970
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D3A60
+        public void UpdateDisplay(){} // RVA: 0x60D45C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60D46D0
+        public void OnViewDataReady(){} // RVA: 0x60D4810
+        public void UpdateMixedValueContent(){} // RVA: 0x60D2D20
+        public void .cctor(){} // RVA: 0x60D4830
     }
 
     public class BaseCompositeField`3 : BaseField`1
     {
         // ── Methods ──
-        public void GetSpacer(){} // RVA: 0x7AD38AA80
-        public void DescribeFields(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AD38AB60
-        public void UpdateDisplay(){} // RVA: 0x7AD38B6C0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD38B800
-        public void OnViewDataReady(){} // RVA: 0x7AD38B990
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD3839F0
-        public void .cctor(){} // RVA: 0x7AD38B9B0
+        public void GetSpacer(){} // RVA: 0x60D6BB0
+        public void DescribeFields(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x60D6CA0
+        public void UpdateDisplay(){} // RVA: 0x60D7800
+        public void SetValueWithoutNotify(){} // RVA: 0x60D7940
+        public void OnViewDataReady(){} // RVA: 0x60D7AD0
+        public void UpdateMixedValueContent(){} // RVA: 0x60CF920
+        public void .cctor(){} // RVA: 0x60D7AF0
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7A7E1DDC0
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Init(){} // RVA: 0x8954D0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD392F50
-        public void .ctor(){} // RVA: 0x7AD393150
+        public void Init(){} // RVA: 0x60DEBD0
+        public void .ctor(){} // RVA: 0x60DEE10
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD391000
-        public void .ctor(){} // RVA: 0x7AD3912A0
+        public void Init(){} // RVA: 0x60DEBD0
+        public void .ctor(){} // RVA: 0x60DEE10
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD392520
-        public void .ctor(){} // RVA: 0x7AD3926B0
+        public void Init(){} // RVA: 0x60DCD30
+        public void .ctor(){} // RVA: 0x60DD010
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD391510
-        public void .ctor(){} // RVA: 0x7AD391830
+        public void Init(){} // RVA: 0x60DCD30
+        public void .ctor(){} // RVA: 0x60DE480
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD392260
-        public void .ctor(){} // RVA: 0x7AD3923F0
+        public void Init(){} // RVA: 0x60DD280
+        public void .ctor(){} // RVA: 0x60DD5F0
     }
 
     public class BaseFieldTraits`2 : UxmlTraits
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7AD391AA0
-        public void .ctor(){} // RVA: 0x7AD391C30
-    }
-
-    public class BaseFieldTraits`2 : UxmlTraits
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x7AD391D60
-        public void .ctor(){} // RVA: 0x7AD391FF0
+        public void Init(){} // RVA: 0x60DE1A0
+        public void .ctor(){} // RVA: 0x60DE350
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7A7E00680
-        public void set_visualInput(){} // RVA: 0x7A7E18800
-        public void get_rawValue(){} // RVA: 0x7A8051B10
-        public void set_rawValue(){} // RVA: 0x7A8051B10
-        public void add_onValidateValue(){} // RVA: 0x7A7E18800
-        public void remove_onValidateValue(){} // RVA: 0x7A7E18800
-        public void get_value(){} // RVA: 0x7A8051B10
-        public void set_value(){} // RVA: 0x7A8051B10
-        public void get_labelElement(){} // RVA: 0x7A7E00680
-        public void set_labelElement(){} // RVA: 0x7A7E18800
-        public void get_label(){} // RVA: 0x7A7E00680
-        public void set_label(){} // RVA: 0x7A7E18800
-        public void get_showMixedValue(){} // RVA: 0x7A7E01900
-        public void set_showMixedValue(){} // RVA: 0x7A7E18C30
-        public void get_mixedValueLabel(){} // RVA: 0x7A7E00680
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A7E00680
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A7E18890
-        public void OnAttachToPanel(){} // RVA: 0x7A7E18800
-        public void OnDetachFromPanel(){} // RVA: 0x7A7E18800
-        public void RegisterEditingCallbacks(){} // RVA: 0x7A7E18770
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7A7E18770
-        public void StartEditing(){} // RVA: 0x7A7E18800
-        public void EndEditing(){} // RVA: 0x7A7E18800
-        public void OnCustomStyleResolved(){} // RVA: 0x7A7E18800
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7A7E18800
-        public void AlignLabel(){} // RVA: 0x7A7E18770
-        public void ValidatedValue(){} // RVA: 0x7A8051B10
-        public void UpdateMixedValueContent(){} // RVA: 0x7A7E18770
-        public void SetValueWithoutNotify(){} // RVA: 0x7A8051B10
-        public void OnViewDataReady(){} // RVA: 0x7A7E18770
-        public void GetTooltipRect(){} // RVA: 0x7A7E00490
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void add_viewDataRestored(){} // RVA: 0x894320
+        public void remove_viewDataRestored(){} // RVA: 0x894320
+        public void get_visualInput(){} // RVA: 0x87C0A0
+        public void set_visualInput(){} // RVA: 0x894320
+        public void get_rawValue(){} // RVA: 0xA94080
+        public void set_rawValue(){} // RVA: 0xA94080
+        public void add_onValidateValue(){} // RVA: 0x894320
+        public void remove_onValidateValue(){} // RVA: 0x894320
+        public void get_dispatchMode(){} // RVA: 0x87C130
+        public void set_dispatchMode(){} // RVA: 0x8944F0
+        public void get_value(){} // RVA: 0xA94080
+        public void set_value(){} // RVA: 0xA94080
+        public void get_labelElement(){} // RVA: 0x87C0A0
+        public void set_labelElement(){} // RVA: 0x894320
+        public void get_label(){} // RVA: 0x87C0A0
+        public void set_label(){} // RVA: 0x894320
+        public void get_showMixedValue(){} // RVA: 0x87D280
+        public void set_showMixedValue(){} // RVA: 0x894750
+        public void get_canSwitchToMixedValue(){} // RVA: 0x87D280
+        public void get_mixedValueLabel(){} // RVA: 0x87C0A0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x87C0A0
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x8943B0
+        public void EqualsCurrentValue(){} // RVA: 0xA94080
+        public void OnAttachToPanel(){} // RVA: 0x894320
+        public void OnDetachFromPanel(){} // RVA: 0x894320
+        public void RegisterEditingCallbacks(){} // RVA: 0x894290
+        public void UnregisterEditingCallbacks(){} // RVA: 0x894290
+        public void StartEditing(){} // RVA: 0x894320
+        public void EndEditing(){} // RVA: 0x894320
+        public void OnCustomStyleResolved(){} // RVA: 0x894320
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x894320
+        public void AlignLabel(){} // RVA: 0x894290
+        public void ComputeTooltipRect(){} // RVA: 0x87BEB0
+        public void GetTooltipRect(){} // RVA: 0x87BEB0
+        public void ValidatedValue(){} // RVA: 0xA94080
+        public void HandleEventBubbleUp(){} // RVA: 0x894320
+        public void UpdateMixedValueContent(){} // RVA: 0x894290
+        public void SetValueWithoutNotify(){} // RVA: 0xA94080
+        public void OnViewDataReady(){} // RVA: 0x894290
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3932A0
-        public void get_rawValue(){} // RVA: 0x7AD393990
-        public void set_rawValue(){} // RVA: 0x7AD3939A0
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD393990
-        public void set_value(){} // RVA: 0x7AD393BF0
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD394070
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD394630
-        public void OnAttachToPanel(){} // RVA: 0x7AD394690
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3949C0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD394AD0
-        public void StartEditing(){} // RVA: 0x7AD394C30
-        public void EndEditing(){} // RVA: 0x7AD394CA0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD394D10
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3951C0
-        public void AlignLabel(){} // RVA: 0x7AD3951E0
-        public void ValidatedValue(){} // RVA: 0x7AD3955E0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD395610
-        public void OnViewDataReady(){} // RVA: 0x7AD3956C0
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD395930
+        public void add_viewDataRestored(){} // RVA: 0x60DEF50
+        public void remove_viewDataRestored(){} // RVA: 0x60DF050
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60DF160
+        public void get_rawValue(){} // RVA: 0x60DF890
+        public void set_rawValue(){} // RVA: 0x60DF8A0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60DF890
+        public void set_value(){} // RVA: 0x60DFB10
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60E0190
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x60E07A0
+        public void EqualsCurrentValue(){} // RVA: 0x60E0800
+        public void OnAttachToPanel(){} // RVA: 0x60E0860
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x60E0CD0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60E0DE0
+        public void StartEditing(){} // RVA: 0x60E1070
+        public void EndEditing(){} // RVA: 0x60E10E0
+        public void OnCustomStyleResolved(){} // RVA: 0x60E1150
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60E1510
+        public void AlignLabel(){} // RVA: 0x60E1530
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60E1AD0
+        public void HandleEventBubbleUp(){} // RVA: 0x60E1B00
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60E1C00
+        public void OnViewDataReady(){} // RVA: 0x60E1CB0
+        public void .cctor(){} // RVA: 0x60E1EC0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3973C0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3967B0
-        public void get_rawValue(){} // RVA: 0x7AD396EA0
-        public void set_rawValue(){} // RVA: 0x7AD396EC0
-        public void add_onValidateValue(){} // RVA: 0x7AD396EE0
-        public void remove_onValidateValue(){} // RVA: 0x7AD397000
-        public void get_value(){} // RVA: 0x7AD396EA0
-        public void set_value(){} // RVA: 0x7AD397120
-        public void get_labelElement(){} // RVA: 0x7A8B798E0
-        public void set_labelElement(){} // RVA: 0x7A8B5E050
-        public void get_label(){} // RVA: 0x7AD397390
-        public void get_showMixedValue(){} // RVA: 0x7AD397600
-        public void set_showMixedValue(){} // RVA: 0x7AD397610
-        public void get_mixedValueLabel(){} // RVA: 0x7AD397640
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B526C0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B5E0F0
-        public void .ctor(){} // RVA: 0x7AD397C00
-        public void OnAttachToPanel(){} // RVA: 0x7AD397C60
-        public void OnDetachFromPanel(){} // RVA: 0x7AD397F10
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD397F90
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3980A0
-        public void StartEditing(){} // RVA: 0x7AD398200
-        public void EndEditing(){} // RVA: 0x7AD398270
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3982E0
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD398790
-        public void AlignLabel(){} // RVA: 0x7AD3987B0
-        public void ValidatedValue(){} // RVA: 0x7AD398BB0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD398C50
-        public void OnViewDataReady(){} // RVA: 0x7AD398D60
-        public void GetTooltipRect(){} // RVA: 0x7AD399000
-        public void .cctor(){} // RVA: 0x7AD399080
+        public void set_label(){} // RVA: 0x60E41C0
+        public void add_viewDataRestored(){} // RVA: 0x60E3270
+        public void remove_viewDataRestored(){} // RVA: 0x60E3370
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60E3470
+        public void get_rawValue(){} // RVA: 0x60E3BA0
+        public void set_rawValue(){} // RVA: 0x60E3BC0
+        public void add_onValidateValue(){} // RVA: 0x60E3BE0
+        public void remove_onValidateValue(){} // RVA: 0x60E3D00
+        public void get_dispatchMode(){} // RVA: 0x60E3E20
+        public void set_dispatchMode(){} // RVA: 0x60E3E30
+        public void get_value(){} // RVA: 0x60E3BA0
+        public void set_value(){} // RVA: 0x60E3E40
+        public void get_labelElement(){} // RVA: 0x16594C0
+        public void set_labelElement(){} // RVA: 0x164DD40
+        public void get_label(){} // RVA: 0x60E4190
+        public void get_showMixedValue(){} // RVA: 0x1EB32D0
+        public void set_showMixedValue(){} // RVA: 0x60E4460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60E4540
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x166DF20
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x16495F0
+        public void .ctor(){} // RVA: 0x60E4B50
+        public void EqualsCurrentValue(){} // RVA: 0x60E4BB0
+        public void OnAttachToPanel(){} // RVA: 0x60E4C40
+        public void OnDetachFromPanel(){} // RVA: 0x60E5030
+        public void RegisterEditingCallbacks(){} // RVA: 0x60E50B0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60E51C0
+        public void StartEditing(){} // RVA: 0x60E5450
+        public void EndEditing(){} // RVA: 0x60E54C0
+        public void OnCustomStyleResolved(){} // RVA: 0x60E5530
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60E58F0
+        public void AlignLabel(){} // RVA: 0x60E5910
+        public void ComputeTooltipRect(){} // RVA: 0x60E5D80
+        public void GetTooltipRect(){} // RVA: 0x60E5E20
+        public void ValidatedValue(){} // RVA: 0x60E5EB0
+        public void HandleEventBubbleUp(){} // RVA: 0x60E5F50
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60E6050
+        public void OnViewDataReady(){} // RVA: 0x60E6160
+        public void .cctor(){} // RVA: 0x60E6420
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3973C0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD399F00
-        public void get_rawValue(){} // RVA: 0x7AD396EA0
-        public void set_rawValue(){} // RVA: 0x7AD396EC0
-        public void add_onValidateValue(){} // RVA: 0x7AD396EE0
-        public void remove_onValidateValue(){} // RVA: 0x7AD397000
-        public void get_value(){} // RVA: 0x7AD396EA0
-        public void set_value(){} // RVA: 0x7AD39A5F0
-        public void get_labelElement(){} // RVA: 0x7A8B798E0
-        public void set_labelElement(){} // RVA: 0x7A8B5E050
-        public void get_label(){} // RVA: 0x7AD397390
-        public void get_showMixedValue(){} // RVA: 0x7AD397600
-        public void set_showMixedValue(){} // RVA: 0x7AD397610
-        public void get_mixedValueLabel(){} // RVA: 0x7AD39A860
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B526C0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B5E0F0
-        public void .ctor(){} // RVA: 0x7AD39AE20
-        public void OnAttachToPanel(){} // RVA: 0x7AD39AE80
-        public void OnDetachFromPanel(){} // RVA: 0x7AD397F10
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD39B130
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD39B240
-        public void StartEditing(){} // RVA: 0x7AD39B3A0
-        public void EndEditing(){} // RVA: 0x7AD39B410
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD39B480
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD39B930
-        public void AlignLabel(){} // RVA: 0x7AD39B950
-        public void ValidatedValue(){} // RVA: 0x7AD398BB0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD398C50
-        public void OnViewDataReady(){} // RVA: 0x7AD39BD50
-        public void GetTooltipRect(){} // RVA: 0x7AD399000
-        public void .cctor(){} // RVA: 0x7AD39BFF0
+        public void set_label(){} // RVA: 0x60E41C0
+        public void add_viewDataRestored(){} // RVA: 0x60E7BD0
+        public void remove_viewDataRestored(){} // RVA: 0x60E7CD0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60E7DD0
+        public void get_rawValue(){} // RVA: 0x60E3BA0
+        public void set_rawValue(){} // RVA: 0x60E3BC0
+        public void add_onValidateValue(){} // RVA: 0x60E3BE0
+        public void remove_onValidateValue(){} // RVA: 0x60E3D00
+        public void get_dispatchMode(){} // RVA: 0x60E3E20
+        public void set_dispatchMode(){} // RVA: 0x60E3E30
+        public void get_value(){} // RVA: 0x60E3BA0
+        public void set_value(){} // RVA: 0x60E8500
+        public void get_labelElement(){} // RVA: 0x16594C0
+        public void set_labelElement(){} // RVA: 0x164DD40
+        public void get_label(){} // RVA: 0x60E4190
+        public void get_showMixedValue(){} // RVA: 0x1EB32D0
+        public void set_showMixedValue(){} // RVA: 0x60E4460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60E8850
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x166DF20
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x16495F0
+        public void .ctor(){} // RVA: 0x60E8E60
+        public void EqualsCurrentValue(){} // RVA: 0x60E8EC0
+        public void OnAttachToPanel(){} // RVA: 0x60E8F50
+        public void OnDetachFromPanel(){} // RVA: 0x60E5030
+        public void RegisterEditingCallbacks(){} // RVA: 0x60E9340
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60E9450
+        public void StartEditing(){} // RVA: 0x60E96E0
+        public void EndEditing(){} // RVA: 0x60E9750
+        public void OnCustomStyleResolved(){} // RVA: 0x60E97C0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60E9B80
+        public void AlignLabel(){} // RVA: 0x60E9BA0
+        public void ComputeTooltipRect(){} // RVA: 0x60E5D80
+        public void GetTooltipRect(){} // RVA: 0x60E5E20
+        public void ValidatedValue(){} // RVA: 0x60E5EB0
+        public void HandleEventBubbleUp(){} // RVA: 0x60EA010
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60E6050
+        public void OnViewDataReady(){} // RVA: 0x60EA110
+        public void .cctor(){} // RVA: 0x60EA3D0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3A3380
-        public void get_rawValue(){} // RVA: 0x7AD3A3A70
-        public void set_rawValue(){} // RVA: 0x7AD3A3A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3A3A70
-        public void set_value(){} // RVA: 0x7AD3A3A90
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3A3C50
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3A4210
-        public void OnAttachToPanel(){} // RVA: 0x7AD3A4270
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3A4520
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3A4630
-        public void StartEditing(){} // RVA: 0x7AD3A4790
-        public void EndEditing(){} // RVA: 0x7AD3A4800
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3A4870
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3A4D20
-        public void AlignLabel(){} // RVA: 0x7AD3A4D40
-        public void ValidatedValue(){} // RVA: 0x7AD3A5140
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A5170
-        public void OnViewDataReady(){} // RVA: 0x7AD3A5220
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3A5410
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x60F36E0
+        public void remove_viewDataRestored(){} // RVA: 0x60F37E0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60F38E0
+        public void get_rawValue(){} // RVA: 0x60F4010
+        public void set_rawValue(){} // RVA: 0x60F4020
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60F4010
+        public void set_value(){} // RVA: 0x60F4030
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60F4250
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x60F4860
+        public void EqualsCurrentValue(){} // RVA: 0x60F48C0
+        public void OnAttachToPanel(){} // RVA: 0x60F4920
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x60F4D10
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60F4E20
+        public void StartEditing(){} // RVA: 0x60F50B0
+        public void EndEditing(){} // RVA: 0x60F5120
+        public void OnCustomStyleResolved(){} // RVA: 0x60F5190
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60F5550
+        public void AlignLabel(){} // RVA: 0x60F5570
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60F59E0
+        public void HandleEventBubbleUp(){} // RVA: 0x60F5A10
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F5B10
+        public void OnViewDataReady(){} // RVA: 0x60F5BC0
+        public void .cctor(){} // RVA: 0x60F5DC0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3AC120
-        public void get_rawValue(){} // RVA: 0x7AD3A0470
-        public void set_rawValue(){} // RVA: 0x7AD3A0480
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3A0470
-        public void set_value(){} // RVA: 0x7AD3AC810
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3ACA20
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3ACFE0
-        public void OnAttachToPanel(){} // RVA: 0x7AD3AD040
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3AD2F0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3AD400
-        public void StartEditing(){} // RVA: 0x7AD3AD560
-        public void EndEditing(){} // RVA: 0x7AD3AD5D0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3AD640
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3ADAF0
-        public void AlignLabel(){} // RVA: 0x7AD3ADB10
-        public void ValidatedValue(){} // RVA: 0x7AD3A2100
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A2170
-        public void OnViewDataReady(){} // RVA: 0x7AD3ADF10
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3AE140
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x60FE7A0
+        public void remove_viewDataRestored(){} // RVA: 0x60FE8A0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60FE9A0
+        public void get_rawValue(){} // RVA: 0x60EFC00
+        public void set_rawValue(){} // RVA: 0x60EFC10
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x60EFC00
+        public void set_value(){} // RVA: 0x60FF0D0
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60FF3D0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x60FF9E0
+        public void EqualsCurrentValue(){} // RVA: 0x60FFA40
+        public void OnAttachToPanel(){} // RVA: 0x60FFAC0
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x60FFEB0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60FFFC0
+        public void StartEditing(){} // RVA: 0x6100250
+        public void EndEditing(){} // RVA: 0x61002C0
+        public void OnCustomStyleResolved(){} // RVA: 0x6100330
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x61006F0
+        public void AlignLabel(){} // RVA: 0x6100710
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x60F1EA0
+        public void HandleEventBubbleUp(){} // RVA: 0x6100B80
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F2010
+        public void OnViewDataReady(){} // RVA: 0x6100C80
+        public void .cctor(){} // RVA: 0x6100EC0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3B3C20
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3B1E60
-        public void get_rawValue(){} // RVA: 0x7AD3B2550
-        public void set_rawValue(){} // RVA: 0x7AD3B2560
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3B2550
-        public void set_value(){} // RVA: 0x7AD3B2570
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3B2730
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3B2CF0
-        public void OnAttachToPanel(){} // RVA: 0x7AD3B2D50
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3B3000
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3B3110
-        public void StartEditing(){} // RVA: 0x7AD3B3270
-        public void EndEditing(){} // RVA: 0x7AD3B32E0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3B3350
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3B3800
-        public void AlignLabel(){} // RVA: 0x7AD3B3820
-        public void ValidatedValue(){} // RVA: 0x7AD39EC30
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void OnViewDataReady(){} // RVA: 0x7AD3B3CD0
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3B3EC0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void SetValueWithoutNotify(){} // RVA: 0x6108170
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void add_viewDataRestored(){} // RVA: 0x6105D40
+        public void remove_viewDataRestored(){} // RVA: 0x6105E40
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x6105F40
+        public void get_rawValue(){} // RVA: 0x6106670
+        public void set_rawValue(){} // RVA: 0x6106680
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x6106670
+        public void set_value(){} // RVA: 0x6106690
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x61068E0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x6106EF0
+        public void EqualsCurrentValue(){} // RVA: 0x6106F50
+        public void OnAttachToPanel(){} // RVA: 0x6106FB0
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x61073A0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x61074B0
+        public void StartEditing(){} // RVA: 0x6107740
+        public void EndEditing(){} // RVA: 0x61077B0
+        public void OnCustomStyleResolved(){} // RVA: 0x6107820
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6107BE0
+        public void AlignLabel(){} // RVA: 0x6107C00
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60EDB40
+        public void HandleEventBubbleUp(){} // RVA: 0x6108070
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void OnViewDataReady(){} // RVA: 0x6108220
+        public void .cctor(){} // RVA: 0x6108420
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3AEFC0
-        public void get_rawValue(){} // RVA: 0x7AD3A0470
-        public void set_rawValue(){} // RVA: 0x7AD3A0480
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3A0470
-        public void set_value(){} // RVA: 0x7AD3AF6B0
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3AF8C0
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3AFE80
-        public void OnAttachToPanel(){} // RVA: 0x7AD3AFEE0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3B0190
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3B02A0
-        public void StartEditing(){} // RVA: 0x7AD3B0400
-        public void EndEditing(){} // RVA: 0x7AD3B0470
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3B04E0
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3B0990
-        public void AlignLabel(){} // RVA: 0x7AD3B09B0
-        public void ValidatedValue(){} // RVA: 0x7AD3A2100
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A2170
-        public void OnViewDataReady(){} // RVA: 0x7AD3B0DB0
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3B0FE0
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x6102270
+        public void remove_viewDataRestored(){} // RVA: 0x6102370
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x6102470
+        public void get_rawValue(){} // RVA: 0x60EFC00
+        public void set_rawValue(){} // RVA: 0x60EFC10
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x60EFC00
+        public void set_value(){} // RVA: 0x6102BA0
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6102EA0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x61034B0
+        public void EqualsCurrentValue(){} // RVA: 0x6103510
+        public void OnAttachToPanel(){} // RVA: 0x6103590
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x6103980
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6103A90
+        public void StartEditing(){} // RVA: 0x6103D20
+        public void EndEditing(){} // RVA: 0x6103D90
+        public void OnCustomStyleResolved(){} // RVA: 0x6103E00
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x61041C0
+        public void AlignLabel(){} // RVA: 0x61041E0
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x60F1EA0
+        public void HandleEventBubbleUp(){} // RVA: 0x6104650
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F2010
+        public void OnViewDataReady(){} // RVA: 0x6104750
+        public void .cctor(){} // RVA: 0x6104990
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3BA960
-        public void get_rawValue(){} // RVA: 0x7AD3BB050
-        public void set_rawValue(){} // RVA: 0x7AD3A6990
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3BB050
-        public void set_value(){} // RVA: 0x7AD3BB070
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3BB2B0
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3BB870
-        public void OnAttachToPanel(){} // RVA: 0x7AD3BB8D0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3BBB80
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3BBC90
-        public void StartEditing(){} // RVA: 0x7AD3BBDF0
-        public void EndEditing(){} // RVA: 0x7AD3BBE60
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3BBED0
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3BC380
-        public void AlignLabel(){} // RVA: 0x7AD3BC3A0
-        public void ValidatedValue(){} // RVA: 0x7AD3A8050
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3BC7A0
-        public void OnViewDataReady(){} // RVA: 0x7AD3BC880
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3BCAD0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x61146E0
+        public void remove_viewDataRestored(){} // RVA: 0x61147E0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x61148E0
+        public void get_rawValue(){} // RVA: 0x6115010
+        public void set_rawValue(){} // RVA: 0x60F7AB0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x6115010
+        public void set_value(){} // RVA: 0x6115030
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6115350
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x6115960
+        public void EqualsCurrentValue(){} // RVA: 0x61159C0
+        public void OnAttachToPanel(){} // RVA: 0x6115A40
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x6115E30
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6115F40
+        public void StartEditing(){} // RVA: 0x61161D0
+        public void EndEditing(){} // RVA: 0x6116240
+        public void OnCustomStyleResolved(){} // RVA: 0x61162B0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6116670
+        public void AlignLabel(){} // RVA: 0x6116690
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60F9500
+        public void HandleEventBubbleUp(){} // RVA: 0x6116B00
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x6116C00
+        public void OnViewDataReady(){} // RVA: 0x6116CE0
+        public void .cctor(){} // RVA: 0x6116F50
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3C0760
-        public void get_rawValue(){} // RVA: 0x7AD3C0E50
-        public void set_rawValue(){} // RVA: 0x7AD3C0E70
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3C0E50
-        public void set_value(){} // RVA: 0x7AD3C0E90
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3C10D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3C1690
-        public void OnAttachToPanel(){} // RVA: 0x7AD3C16F0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3C19A0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3C1AB0
-        public void StartEditing(){} // RVA: 0x7AD3C1C10
-        public void EndEditing(){} // RVA: 0x7AD3C1C80
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3C1CF0
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3C21A0
-        public void AlignLabel(){} // RVA: 0x7AD3C21C0
-        public void ValidatedValue(){} // RVA: 0x7AD3C25C0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3C2650
-        public void OnViewDataReady(){} // RVA: 0x7AD3C2750
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3C29C0
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x611BD20
+        public void remove_viewDataRestored(){} // RVA: 0x611BE20
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x611BF20
+        public void get_rawValue(){} // RVA: 0x611C650
+        public void set_rawValue(){} // RVA: 0x611C670
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x611C650
+        public void set_value(){} // RVA: 0x611C690
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x611C940
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x611CF50
+        public void EqualsCurrentValue(){} // RVA: 0x611CFB0
+        public void OnAttachToPanel(){} // RVA: 0x611D040
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x611D430
+        public void UnregisterEditingCallbacks(){} // RVA: 0x611D540
+        public void StartEditing(){} // RVA: 0x611D7D0
+        public void EndEditing(){} // RVA: 0x611D840
+        public void OnCustomStyleResolved(){} // RVA: 0x611D8B0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x611DC70
+        public void AlignLabel(){} // RVA: 0x611DC90
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x611E100
+        public void HandleEventBubbleUp(){} // RVA: 0x611E190
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x611E290
+        public void OnViewDataReady(){} // RVA: 0x611E390
+        public void .cctor(){} // RVA: 0x611E610
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3C6750
-        public void get_rawValue(){} // RVA: 0x7AD3A0470
-        public void set_rawValue(){} // RVA: 0x7AD3A0480
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3A0470
-        public void set_value(){} // RVA: 0x7AD3C6E40
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3C7050
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3C7610
-        public void OnAttachToPanel(){} // RVA: 0x7AD3C7670
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3C7920
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3C7A30
-        public void StartEditing(){} // RVA: 0x7AD3C7B90
-        public void EndEditing(){} // RVA: 0x7AD3C7C00
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3C7C70
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3C8120
-        public void AlignLabel(){} // RVA: 0x7AD3C8140
-        public void ValidatedValue(){} // RVA: 0x7AD3A2100
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A2170
-        public void OnViewDataReady(){} // RVA: 0x7AD3C8540
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3C8770
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x6123490
+        public void remove_viewDataRestored(){} // RVA: 0x6123590
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x6123690
+        public void get_rawValue(){} // RVA: 0x60EFC00
+        public void set_rawValue(){} // RVA: 0x60EFC10
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x60EFC00
+        public void set_value(){} // RVA: 0x6123DC0
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x61240C0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x61246D0
+        public void EqualsCurrentValue(){} // RVA: 0x6124730
+        public void OnAttachToPanel(){} // RVA: 0x61247B0
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x6124BA0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6124CB0
+        public void StartEditing(){} // RVA: 0x6124F40
+        public void EndEditing(){} // RVA: 0x6124FB0
+        public void OnCustomStyleResolved(){} // RVA: 0x6125020
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x61253E0
+        public void AlignLabel(){} // RVA: 0x6125400
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x60F1EA0
+        public void HandleEventBubbleUp(){} // RVA: 0x6125870
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F2010
+        public void OnViewDataReady(){} // RVA: 0x6125970
+        public void .cctor(){} // RVA: 0x6125BB0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3BD950
-        public void get_rawValue(){} // RVA: 0x7AD3A6980
-        public void set_rawValue(){} // RVA: 0x7AD3A6990
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3A6980
-        public void set_value(){} // RVA: 0x7AD3BE040
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3BE200
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3BE7C0
-        public void OnAttachToPanel(){} // RVA: 0x7AD3BE820
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3BEAD0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3BEBE0
-        public void StartEditing(){} // RVA: 0x7AD3BED40
-        public void EndEditing(){} // RVA: 0x7AD3BEDB0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3BEE20
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3BF2D0
-        public void AlignLabel(){} // RVA: 0x7AD3BF2F0
-        public void ValidatedValue(){} // RVA: 0x7AD3A8050
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A8080
-        public void OnViewDataReady(){} // RVA: 0x7AD3BF6F0
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3BF8E0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x6118300
+        public void remove_viewDataRestored(){} // RVA: 0x6118400
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x6118500
+        public void get_rawValue(){} // RVA: 0x60F7AA0
+        public void set_rawValue(){} // RVA: 0x60F7AB0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60F7AA0
+        public void set_value(){} // RVA: 0x6118C30
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6118EE0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x61194F0
+        public void EqualsCurrentValue(){} // RVA: 0x6119550
+        public void OnAttachToPanel(){} // RVA: 0x61195B0
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x61199A0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6119AB0
+        public void StartEditing(){} // RVA: 0x6119D40
+        public void EndEditing(){} // RVA: 0x6119DB0
+        public void OnCustomStyleResolved(){} // RVA: 0x6119E20
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x611A1E0
+        public void AlignLabel(){} // RVA: 0x611A200
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60F9500
+        public void HandleEventBubbleUp(){} // RVA: 0x611A670
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F9630
+        public void OnViewDataReady(){} // RVA: 0x611A770
+        public void .cctor(){} // RVA: 0x611A970
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3C3840
-        public void get_rawValue(){} // RVA: 0x7AD3C0E50
-        public void set_rawValue(){} // RVA: 0x7AD3C0E70
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3C0E50
-        public void set_value(){} // RVA: 0x7AD3C3F30
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3C4170
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3C4730
-        public void OnAttachToPanel(){} // RVA: 0x7AD3C4790
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3C4A40
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3C4B50
-        public void StartEditing(){} // RVA: 0x7AD3C4CB0
-        public void EndEditing(){} // RVA: 0x7AD3C4D20
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3C4D90
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3C5240
-        public void AlignLabel(){} // RVA: 0x7AD3C5260
-        public void ValidatedValue(){} // RVA: 0x7AD3C25C0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3C2650
-        public void OnViewDataReady(){} // RVA: 0x7AD3C5660
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3C58D0
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x611F9C0
+        public void remove_viewDataRestored(){} // RVA: 0x611FAC0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x611FBC0
+        public void get_rawValue(){} // RVA: 0x611C650
+        public void set_rawValue(){} // RVA: 0x611C670
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x611C650
+        public void set_value(){} // RVA: 0x61202F0
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x61205A0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x6120BB0
+        public void EqualsCurrentValue(){} // RVA: 0x6120C10
+        public void OnAttachToPanel(){} // RVA: 0x6120CA0
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x6121090
+        public void UnregisterEditingCallbacks(){} // RVA: 0x61211A0
+        public void StartEditing(){} // RVA: 0x6121430
+        public void EndEditing(){} // RVA: 0x61214A0
+        public void OnCustomStyleResolved(){} // RVA: 0x6121510
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x61218D0
+        public void AlignLabel(){} // RVA: 0x61218F0
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x611E100
+        public void HandleEventBubbleUp(){} // RVA: 0x6121D60
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x611E290
+        public void OnViewDataReady(){} // RVA: 0x6121E60
+        public void .cctor(){} // RVA: 0x61220E0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD39CE70
-        public void get_rawValue(){} // RVA: 0x7AD39D560
-        public void set_rawValue(){} // RVA: 0x7AD39D570
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD39D560
-        public void set_value(){} // RVA: 0x7AD39D580
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD39D740
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD39DD00
-        public void OnAttachToPanel(){} // RVA: 0x7AD39DD60
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD39E010
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD39E120
-        public void StartEditing(){} // RVA: 0x7AD39E280
-        public void EndEditing(){} // RVA: 0x7AD39E2F0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD39E360
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD39E810
-        public void AlignLabel(){} // RVA: 0x7AD39E830
-        public void ValidatedValue(){} // RVA: 0x7AD39EC30
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD39EC60
-        public void OnViewDataReady(){} // RVA: 0x7AD39ED10
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD39EF00
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x60EB780
+        public void remove_viewDataRestored(){} // RVA: 0x60EB880
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60EB980
+        public void get_rawValue(){} // RVA: 0x60EC0B0
+        public void set_rawValue(){} // RVA: 0x60EC0C0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60EC0B0
+        public void set_value(){} // RVA: 0x60EC0D0
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60EC3B0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x60EC9C0
+        public void EqualsCurrentValue(){} // RVA: 0x60ECA20
+        public void OnAttachToPanel(){} // RVA: 0x60ECA80
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x60ECE70
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60ECF80
+        public void StartEditing(){} // RVA: 0x60ED210
+        public void EndEditing(){} // RVA: 0x60ED280
+        public void OnCustomStyleResolved(){} // RVA: 0x60ED2F0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60ED6B0
+        public void AlignLabel(){} // RVA: 0x60ED6D0
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60EDB40
+        public void HandleEventBubbleUp(){} // RVA: 0x60EDB70
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60EDC70
+        public void OnViewDataReady(){} // RVA: 0x60EDD20
+        public void .cctor(){} // RVA: 0x60EDF20
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3A91A0
-        public void get_rawValue(){} // RVA: 0x7AD3A6980
-        public void set_rawValue(){} // RVA: 0x7A8B67AD0
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3A6980
-        public void set_value(){} // RVA: 0x7AD3A9890
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3A9A50
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3AA010
-        public void OnAttachToPanel(){} // RVA: 0x7AD3AA070
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3AA320
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3AA430
-        public void StartEditing(){} // RVA: 0x7AD3AA590
-        public void EndEditing(){} // RVA: 0x7AD3AA600
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3AA670
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3AAB20
-        public void AlignLabel(){} // RVA: 0x7AD3AAB40
-        public void ValidatedValue(){} // RVA: 0x7AD3A8050
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3AAF40
-        public void OnViewDataReady(){} // RVA: 0x7AD3AB0B0
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3AB2A0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x60FAC90
+        public void remove_viewDataRestored(){} // RVA: 0x60FAD90
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60FAE90
+        public void get_rawValue(){} // RVA: 0x60F7AA0
+        public void set_rawValue(){} // RVA: 0x163F4D0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60F7AA0
+        public void set_value(){} // RVA: 0x60FB5C0
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60FB7F0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x60FBE00
+        public void EqualsCurrentValue(){} // RVA: 0x60FBE60
+        public void OnAttachToPanel(){} // RVA: 0x60FBEC0
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x60FC2B0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60FC3C0
+        public void StartEditing(){} // RVA: 0x60FC650
+        public void EndEditing(){} // RVA: 0x60FC6C0
+        public void OnCustomStyleResolved(){} // RVA: 0x60FC730
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60FCAF0
+        public void AlignLabel(){} // RVA: 0x60FCB10
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60F9500
+        public void HandleEventBubbleUp(){} // RVA: 0x60FCF80
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60FD080
+        public void OnViewDataReady(){} // RVA: 0x60FD1F0
+        public void .cctor(){} // RVA: 0x60FD3F0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void get_visualInput(){} // RVA: 0x7AD3C95F0
-        public void set_visualInput(){} // RVA: 0x7AD3C9630
-        public void get_rawValue(){} // RVA: 0x7A80804D0
-        public void set_rawValue(){} // RVA: 0x7AD3C9A80
-        public void add_onValidateValue(){} // RVA: 0x7AD3C9B40
-        public void remove_onValidateValue(){} // RVA: 0x7AD3C9CB0
-        public void get_value(){} // RVA: 0x7A80804D0
-        public void set_value(){} // RVA: 0x7AD3C9E20
-        public void get_labelElement(){} // RVA: 0x7AD3CA2D0
-        public void set_labelElement(){} // RVA: 0x7AD3CA310
-        public void get_label(){} // RVA: 0x7AD3CA390
-        public void set_label(){} // RVA: 0x7AD3CA3D0
-        public void get_showMixedValue(){} // RVA: 0x7AD3CA6A0
-        public void set_showMixedValue(){} // RVA: 0x7AD3CA6E0
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3CA770
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7AD3CA9D0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7AD3CAA10
-        public void .ctor(){} // RVA: 0x7AD3CAE40
-        public void OnAttachToPanel(){} // RVA: 0x7AD3CAEA0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3CB230
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3CB2E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3CB3F0
-        public void StartEditing(){} // RVA: 0x7AD3CB550
-        public void EndEditing(){} // RVA: 0x7AD3CB5C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3CB630
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3CBB60
-        public void AlignLabel(){} // RVA: 0x7AD3CBB80
-        public void ValidatedValue(){} // RVA: 0x7A80804D0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3CC350
-        public void OnViewDataReady(){} // RVA: 0x7AD3CC560
-        public void GetTooltipRect(){} // RVA: 0x7AD3CC9D0
-        public void .cctor(){} // RVA: 0x7AD3CCA70
+        public void add_viewDataRestored(){} // RVA: 0x6126F60
+        public void remove_viewDataRestored(){} // RVA: 0x61270B0
+        public void get_visualInput(){} // RVA: 0x6127200
+        public void set_visualInput(){} // RVA: 0x6127240
+        public void get_rawValue(){} // RVA: 0xAD0950
+        public void set_rawValue(){} // RVA: 0x6127670
+        public void add_onValidateValue(){} // RVA: 0x6127730
+        public void remove_onValidateValue(){} // RVA: 0x61278A0
+        public void get_dispatchMode(){} // RVA: 0x6127A10
+        public void set_dispatchMode(){} // RVA: 0x6127A50
+        public void get_value(){} // RVA: 0xAD0950
+        public void set_value(){} // RVA: 0x6127AD0
+        public void get_labelElement(){} // RVA: 0x6127F50
+        public void set_labelElement(){} // RVA: 0x6127F90
+        public void get_label(){} // RVA: 0x6128010
+        public void set_label(){} // RVA: 0x6128050
+        public void get_showMixedValue(){} // RVA: 0x6128390
+        public void set_showMixedValue(){} // RVA: 0x61283D0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x6128500
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x6128790
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x61287D0
+        public void .ctor(){} // RVA: 0x6128CB0
+        public void EqualsCurrentValue(){} // RVA: 0x6128D10
+        public void OnAttachToPanel(){} // RVA: 0x6128E90
+        public void OnDetachFromPanel(){} // RVA: 0x61292B0
+        public void RegisterEditingCallbacks(){} // RVA: 0x6129360
+        public void UnregisterEditingCallbacks(){} // RVA: 0x6129470
+        public void StartEditing(){} // RVA: 0x6129700
+        public void EndEditing(){} // RVA: 0x6129770
+        public void OnCustomStyleResolved(){} // RVA: 0x61297E0
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x6129BF0
+        public void AlignLabel(){} // RVA: 0x6129C10
+        public void ComputeTooltipRect(){} // RVA: 0x612A240
+        public void GetTooltipRect(){} // RVA: 0x612A320
+        public void ValidatedValue(){} // RVA: 0xAD0950
+        public void HandleEventBubbleUp(){} // RVA: 0x612A570
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x612A6D0
+        public void OnViewDataReady(){} // RVA: 0x612A8E0
+        public void .cctor(){} // RVA: 0x612AD70
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3A91A0
-        public void get_rawValue(){} // RVA: 0x7AD3A6980
-        public void set_rawValue(){} // RVA: 0x7A8B67AD0
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3A6980
-        public void set_value(){} // RVA: 0x7AD3A9890
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3A9A50
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3AA010
-        public void OnAttachToPanel(){} // RVA: 0x7AD3AA070
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3AA320
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3AA430
-        public void StartEditing(){} // RVA: 0x7AD3AA590
-        public void EndEditing(){} // RVA: 0x7AD3AA600
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3AA670
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3AAB20
-        public void AlignLabel(){} // RVA: 0x7AD3AAB40
-        public void ValidatedValue(){} // RVA: 0x7AD3A8050
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3AAF40
-        public void OnViewDataReady(){} // RVA: 0x7AD3AB0B0
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3AB2A0
+        public void set_label(){} // RVA: 0x60DFE00
+        public void add_viewDataRestored(){} // RVA: 0x60FAC90
+        public void remove_viewDataRestored(){} // RVA: 0x60FAD90
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60FAE90
+        public void get_rawValue(){} // RVA: 0x60F7AA0
+        public void set_rawValue(){} // RVA: 0x163F4D0
+        public void add_onValidateValue(){} // RVA: 0x60DF8B0
+        public void remove_onValidateValue(){} // RVA: 0x60DF9D0
+        public void get_dispatchMode(){} // RVA: 0x60DFAF0
+        public void set_dispatchMode(){} // RVA: 0x60DFB00
+        public void get_value(){} // RVA: 0x60F7AA0
+        public void set_value(){} // RVA: 0x60FB5C0
+        public void get_labelElement(){} // RVA: 0x163BC90
+        public void set_labelElement(){} // RVA: 0x164D6F0
+        public void get_label(){} // RVA: 0x60DFDD0
+        public void get_showMixedValue(){} // RVA: 0x60E00A0
+        public void set_showMixedValue(){} // RVA: 0x60E00B0
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60FB7F0
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x165D560
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x164D680
+        public void .ctor(){} // RVA: 0x60FBE00
+        public void EqualsCurrentValue(){} // RVA: 0x60FBE60
+        public void OnAttachToPanel(){} // RVA: 0x60FBEC0
+        public void OnDetachFromPanel(){} // RVA: 0x60E0C50
+        public void RegisterEditingCallbacks(){} // RVA: 0x60FC2B0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60FC3C0
+        public void StartEditing(){} // RVA: 0x60FC650
+        public void EndEditing(){} // RVA: 0x60FC6C0
+        public void OnCustomStyleResolved(){} // RVA: 0x60FC730
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60FCAF0
+        public void AlignLabel(){} // RVA: 0x60FCB10
+        public void ComputeTooltipRect(){} // RVA: 0x60E19A0
+        public void GetTooltipRect(){} // RVA: 0x60E1A40
+        public void ValidatedValue(){} // RVA: 0x60F9500
+        public void HandleEventBubbleUp(){} // RVA: 0x60FCF80
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60FD080
+        public void OnViewDataReady(){} // RVA: 0x60FD1F0
+        public void .cctor(){} // RVA: 0x60FD3F0
     }
 
     public class BaseField`1 : BindableElement
     {
         // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD3A0910
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD39FD80
-        public void get_rawValue(){} // RVA: 0x7AD3A0470
-        public void set_rawValue(){} // RVA: 0x7AD3A0480
-        public void add_onValidateValue(){} // RVA: 0x7AD3A0490
-        public void remove_onValidateValue(){} // RVA: 0x7AD3A05B0
-        public void get_value(){} // RVA: 0x7AD3A0470
-        public void set_value(){} // RVA: 0x7AD3A06D0
-        public void get_labelElement(){} // RVA: 0x7A8B7A130
-        public void set_labelElement(){} // RVA: 0x7A8B4BBA0
-        public void get_label(){} // RVA: 0x7AD3A08E0
-        public void get_showMixedValue(){} // RVA: 0x7AD3A0B50
-        public void set_showMixedValue(){} // RVA: 0x7AD3A0B60
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3A0B90
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B597A0
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B526C0
-        public void .ctor(){} // RVA: 0x7AD3A1150
-        public void OnAttachToPanel(){} // RVA: 0x7AD3A11B0
-        public void OnDetachFromPanel(){} // RVA: 0x7AD3A1460
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3A14E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3A15F0
-        public void StartEditing(){} // RVA: 0x7AD3A1750
-        public void EndEditing(){} // RVA: 0x7AD3A17C0
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3A1830
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3A1CE0
-        public void AlignLabel(){} // RVA: 0x7AD3A1D00
-        public void ValidatedValue(){} // RVA: 0x7AD3A2100
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A2170
-        public void OnViewDataReady(){} // RVA: 0x7AD3A2250
-        public void GetTooltipRect(){} // RVA: 0x7AD3A2480
-        public void .cctor(){} // RVA: 0x7AD3A2500
-    }
-
-    public class BaseField`1 : BindableElement
-    {
-        // ── Methods ──
-        public void set_label(){} // RVA: 0x7AD393DF0
-        public void get_visualInput(){} // RVA: 0x7AD393290
-        public void set_visualInput(){} // RVA: 0x7AD3A6290
-        public void get_rawValue(){} // RVA: 0x7AD3A6980
-        public void set_rawValue(){} // RVA: 0x7AD3A6990
-        public void add_onValidateValue(){} // RVA: 0x7AD3939B0
-        public void remove_onValidateValue(){} // RVA: 0x7AD393AD0
-        public void get_value(){} // RVA: 0x7AD3A6980
-        public void set_value(){} // RVA: 0x7AD3A69A0
-        public void get_labelElement(){} // RVA: 0x7A8B4F050
-        public void set_labelElement(){} // RVA: 0x7A8B57980
-        public void get_label(){} // RVA: 0x7AD393DC0
-        public void get_showMixedValue(){} // RVA: 0x7AD394030
-        public void set_showMixedValue(){} // RVA: 0x7AD394040
-        public void get_mixedValueLabel(){} // RVA: 0x7AD3A6B60
-        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x7A8B5AF80
-        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x7A8B597A0
-        public void .ctor(){} // RVA: 0x7AD3A7120
-        public void OnAttachToPanel(){} // RVA: 0x7AD3A7180
-        public void OnDetachFromPanel(){} // RVA: 0x7AD394940
-        public void RegisterEditingCallbacks(){} // RVA: 0x7AD3A7430
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7AD3A7540
-        public void StartEditing(){} // RVA: 0x7AD3A76A0
-        public void EndEditing(){} // RVA: 0x7AD3A7710
-        public void OnCustomStyleResolved(){} // RVA: 0x7AD3A7780
-        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x7AD3A7C30
-        public void AlignLabel(){} // RVA: 0x7AD3A7C50
-        public void ValidatedValue(){} // RVA: 0x7AD3A8050
-        public void UpdateMixedValueContent(){} // RVA: 0x7AB136F70
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD3A8080
-        public void OnViewDataReady(){} // RVA: 0x7AD3A8130
-        public void GetTooltipRect(){} // RVA: 0x7AD3958B0
-        public void .cctor(){} // RVA: 0x7AD3A8320
+        public void set_label(){} // RVA: 0x60F01B0
+        public void add_viewDataRestored(){} // RVA: 0x60EF2D0
+        public void remove_viewDataRestored(){} // RVA: 0x60EF3D0
+        public void get_visualInput(){} // RVA: 0x60DF150
+        public void set_visualInput(){} // RVA: 0x60EF4D0
+        public void get_rawValue(){} // RVA: 0x60EFC00
+        public void set_rawValue(){} // RVA: 0x60EFC10
+        public void add_onValidateValue(){} // RVA: 0x60EFC20
+        public void remove_onValidateValue(){} // RVA: 0x60EFD40
+        public void get_dispatchMode(){} // RVA: 0x60EFE60
+        public void set_dispatchMode(){} // RVA: 0x60EFE70
+        public void get_value(){} // RVA: 0x60EFC00
+        public void set_value(){} // RVA: 0x60EFE80
+        public void get_labelElement(){} // RVA: 0x1651990
+        public void set_labelElement(){} // RVA: 0x166B590
+        public void get_label(){} // RVA: 0x60F0180
+        public void get_showMixedValue(){} // RVA: 0x60F0450
+        public void set_showMixedValue(){} // RVA: 0x60F0460
+        public void get_canSwitchToMixedValue(){} // RVA: 0xC2E4C0
+        public void get_mixedValueLabel(){} // RVA: 0x60F0540
+        public void UnityEngine.UIElements.IEditableElement.get_editingStarted(){} // RVA: 0x164D680
+        public void UnityEngine.UIElements.IEditableElement.get_editingEnded(){} // RVA: 0x166DF20
+        public void .ctor(){} // RVA: 0x60F0B50
+        public void EqualsCurrentValue(){} // RVA: 0x60F0BB0
+        public void OnAttachToPanel(){} // RVA: 0x60F0C30
+        public void OnDetachFromPanel(){} // RVA: 0x60F1020
+        public void RegisterEditingCallbacks(){} // RVA: 0x60F10A0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x60F11B0
+        public void StartEditing(){} // RVA: 0x60F1440
+        public void EndEditing(){} // RVA: 0x60F14B0
+        public void OnCustomStyleResolved(){} // RVA: 0x60F1520
+        public void OnInspectorFieldGeometryChanged(){} // RVA: 0x60F18E0
+        public void AlignLabel(){} // RVA: 0x60F1900
+        public void ComputeTooltipRect(){} // RVA: 0x60F1D70
+        public void GetTooltipRect(){} // RVA: 0x60F1E10
+        public void ValidatedValue(){} // RVA: 0x60F1EA0
+        public void HandleEventBubbleUp(){} // RVA: 0x60F1F10
+        public void UpdateMixedValueContent(){} // RVA: 0x40066C0
+        public void SetValueWithoutNotify(){} // RVA: 0x60F2010
+        public void OnViewDataReady(){} // RVA: 0x60F20F0
+        public void .cctor(){} // RVA: 0x60F2330
     }
 
     public class BaseListView : BaseVerticalCollectionView
     {
         // ── Methods ──
-        public void get_showBoundCollectionSize(){} // RVA: 0x7AF0D8FC0
-        public void set_showBoundCollectionSize(){} // RVA: 0x7AF0D8FD0
-        public void get_showFoldoutHeader(){} // RVA: 0x7AF0D8FF0
-        public void set_showFoldoutHeader(){} // RVA: 0x7AF0D9000
-        public void SetupArraySizeField(){} // RVA: 0x7AF0D9430
-        public void set_headerTitle(){} // RVA: 0x7AF0D98B0
-        public void get_showAddRemoveFooter(){} // RVA: 0x7AF0D9930
-        public void set_showAddRemoveFooter(){} // RVA: 0x7AF0D9940
-        public void EnableFooter(){} // RVA: 0x7AF0D9950
-        public void AddItems(){} // RVA: 0x7AF0DA040
-        public void OnArraySizeFieldChanged(){} // RVA: 0x7AF0DA080
-        public void UpdateArraySizeField(){} // RVA: 0x7AF0DA3A0
-        public void UpdateListViewLabel(){} // RVA: 0x7AF0DA4A0
-        public void OnAddClicked(){} // RVA: 0x7AF0DA760
-        public void OnRemoveClicked(){} // RVA: 0x7AF0DA940
-        public void get_footer(){} // RVA: 0x7A8B4D9A0
-        public void get_viewController(){} // RVA: 0x7AF0DABB0
-        public void CreateVirtualizationController(){} // RVA: 0x7AF0DAC30
-        public void SetViewController(){} // RVA: 0x7AF0DAC70
-        public void OnItemAdded(){} // RVA: 0x7AF0DB4A0
-        public void OnItemsRemoved(){} // RVA: 0x7AF0DB4C0
-        public void OnItemsSourceSizeChanged(){} // RVA: 0x7AF0DB4E0
-        public void add_reorderModeChanged(){} // RVA: 0x7AF0DB5B0
-        public void remove_reorderModeChanged(){} // RVA: 0x7AF0DB6B0
-        public void get_reorderMode(){} // RVA: 0x7AF0DB7B0
-        public void set_reorderMode(){} // RVA: 0x7AF0DB7C0
-        public void CreateDragger(){} // RVA: 0x7AF0DB820
-        public void CreateDragAndDropController(){} // RVA: 0x7AF0DB8A0
-        public void .ctor(){} // RVA: 0x7AF0DB940
-        public void PostRefresh(){} // RVA: 0x7AF0DBA20
-        public void HandleItemNavigation(){} // RVA: 0x7AF0DBB00
-        public void .cctor(){} // RVA: 0x7AF0DBE60
-        public void <OnAddClicked>b__36_0(){} // RVA: 0x7AF0DCB60
+        public void get_showBoundCollectionSize(){} // RVA: 0x7E932E0
+        public void set_showBoundCollectionSize(){} // RVA: 0x7E932F0
+        public void get_showFoldoutHeader(){} // RVA: 0x7E93380
+        public void set_showFoldoutHeader(){} // RVA: 0x7E93390
+        public void AddFoldout(){} // RVA: 0x7E93700
+        public void RemoveFoldout(){} // RVA: 0x7E939C0
+        public void SetupArraySizeField(){} // RVA: 0x7E93AF0
+        public void get_headerTitle(){} // RVA: 0x1639E30
+        public void set_headerTitle(){} // RVA: 0x7E93F90
+        public void get_makeHeader(){} // RVA: 0x165AA70
+        public void set_makeHeader(){} // RVA: 0x7E940D0
+        public void get_makeFooter(){} // RVA: 0x164C750
+        public void set_makeFooter(){} // RVA: 0x7E94600
+        public void get_showAddRemoveFooter(){} // RVA: 0x7E94A10
+        public void set_showAddRemoveFooter(){} // RVA: 0x7E94A20
+        public void EnableFooter(){} // RVA: 0x7E94B40
+        public void get_trackItemCount(){} // RVA: 0x7E95200
+        public void get_trackCount(){} // RVA: 0x7E95510
+        public void get_untilManualBindingSourceSelectionMode(){} // RVA: 0x7E955E0
+        public void get_bindingSourceSelectionMode(){} // RVA: 0x7E956B0
+        public void set_bindingSourceSelectionMode(){} // RVA: 0x7E956C0
+        public void get_autoAssignSource(){} // RVA: 0x7E95790
+        public void AddItems(){} // RVA: 0x7E957A0
+        public void OnArraySizeFieldChanged(){} // RVA: 0x7E95860
+        public void UpdateArraySizeField(){} // RVA: 0x7E95B80
+        public void UpdateListViewLabel(){} // RVA: 0x7E95C70
+        public void OnAddClicked(){} // RVA: 0x7E96540
+        public void OnAfterAddClicked(){} // RVA: 0x7E96880
+        public void OnRemoveClicked(){} // RVA: 0x7E969F0
+        public void get_footer(){} // RVA: 0x1640A20
+        public void get_viewController(){} // RVA: 0x7E96CA0
+        public void CreateVirtualizationController(){} // RVA: 0x7E96D20
+        public void SetViewController(){} // RVA: 0x7E96D60
+        public void OnItemAdded(){} // RVA: 0x7E974E0
+        public void OnItemsRemoved(){} // RVA: 0x7E97500
+        public void OnItemsSourceSizeChanged(){} // RVA: 0x7E97520
+        public void add_reorderModeChanged(){} // RVA: 0x7E975A0
+        public void remove_reorderModeChanged(){} // RVA: 0x7E976A0
+        public void get_reorderMode(){} // RVA: 0x7E977A0
+        public void set_reorderMode(){} // RVA: 0x7E977B0
+        public void get_makeNoneElement(){} // RVA: 0x165F420
+        public void set_makeNoneElement(){} // RVA: 0x7E97870
+        public void get_allowAdd(){} // RVA: 0x7E97A00
+        public void set_allowAdd(){} // RVA: 0x7E97A10
+        public void get_overridingAddButtonBehavior(){} // RVA: 0x165BAD0
+        public void set_overridingAddButtonBehavior(){} // RVA: 0x7E97AB0
+        public void get_onAdd(){} // RVA: 0x164F460
+        public void set_onAdd(){} // RVA: 0x7E97BC0
+        public void get_allowRemove(){} // RVA: 0x7E97CD0
+        public void set_allowRemove(){} // RVA: 0x7E97CE0
+        public void get_onRemove(){} // RVA: 0x164E1B0
+        public void set_onRemove(){} // RVA: 0x7E97D80
+        public void CreateDragger(){} // RVA: 0x7E97E90
+        public void CreateDragAndDropController(){} // RVA: 0x7E97F10
+        public void .ctor(){} // RVA: 0x7E97FD0
+        public void PostRefresh(){} // RVA: 0x7E983B0
+        public void HandleItemNavigation(){} // RVA: 0x7E98490
+        public void .cctor(){} // RVA: 0x7E98800
+        public void <get_trackCount>b__65_0(){} // RVA: 0x7E9A490
+        public void <get_untilManualBindingSourceSelectionMode>b__68_0(){} // RVA: 0x7E9A570
     }
 
     public class BaseListViewController : CollectionViewController
     {
         // ── Methods ──
-        public void add_itemsSourceSizeChanged(){} // RVA: 0x7AF0CC3A0
-        public void remove_itemsSourceSizeChanged(){} // RVA: 0x7AF0CC490
-        public void add_itemsAdded(){} // RVA: 0x7AF0CC580
-        public void remove_itemsAdded(){} // RVA: 0x7AF0CC690
-        public void add_itemsRemoved(){} // RVA: 0x7AF0CC7A0
-        public void remove_itemsRemoved(){} // RVA: 0x7AF0CC8B0
-        public void get_baseListView(){} // RVA: 0x7AF0CC9C0
-        public void InvokeMakeItem(){} // RVA: 0x7AF0CCA40
-        public void PostInitRegistration(){} // RVA: 0x7AF0CCC40
-        public void InvokeBindItem(){} // RVA: 0x7AF0CCF60
-        public void NeedsDragHandle(){} // RVA: 0x7A9EEB150
-        public void AddItems(){} // RVA: 0x7AF0CD1F0
-        public void Move(){} // RVA: 0x7AF0CD820
-        public void RemoveItem(){} // RVA: 0x7AF0CDA70
-        public void RemoveItems(){} // RVA: 0x7AF0CDF20
-        public void ClearItems(){} // RVA: 0x7AF0CE0F0
-        public void RaiseOnSizeChanged(){} // RVA: 0x7AF0CE210
-        public void RaiseItemsAdded(){} // RVA: 0x7AF0CE230
-        public void RaiseItemsRemoved(){} // RVA: 0x7ACDEF340
-        public void AddToArray(){} // RVA: 0x7AF0CE250
-        public void RemoveFromArray(){} // RVA: 0x7AF0CE430
-        public void Swap(){} // RVA: 0x7AF0CE5E0
-        public void EnsureItemSourceCanBeResized(){} // RVA: 0x7AF0CE720
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void <AddItems>g__IsGenericList|15_0(){} // RVA: 0x7AF0CE850
+        public void add_itemsSourceSizeChanged(){} // RVA: 0x7E81720
+        public void remove_itemsSourceSizeChanged(){} // RVA: 0x7E81810
+        public void add_itemsAdded(){} // RVA: 0x7E81900
+        public void remove_itemsAdded(){} // RVA: 0x7E81A10
+        public void add_itemsRemoved(){} // RVA: 0x7E81B20
+        public void remove_itemsRemoved(){} // RVA: 0x7E81C30
+        public void get_baseListView(){} // RVA: 0x7E81D40
+        public void InvokeMakeItem(){} // RVA: 0x7E81DC0
+        public void PostInitRegistration(){} // RVA: 0x7E81FD0
+        public void SetBindingContext(){} // RVA: 0x7E822F0
+        public void InvokeBindItem(){} // RVA: 0x7E82490
+        public void NeedsDragHandle(){} // RVA: 0x295D5B0
+        public void AddItems(){} // RVA: 0x7E82730
+        public void Move(){} // RVA: 0x7E82D10
+        public void RemoveItem(){} // RVA: 0x7E82F60
+        public void RemoveItems(){} // RVA: 0x7E83400
+        public void ClearItems(){} // RVA: 0x7E835D0
+        public void RaiseOnSizeChanged(){} // RVA: 0x7ADB170
+        public void RaiseItemsAdded(){} // RVA: 0x7E836F0
+        public void RaiseItemsRemoved(){} // RVA: 0x5A630D0
+        public void AddToArray(){} // RVA: 0x7E83710
+        public void RemoveFromArray(){} // RVA: 0x7E838D0
+        public void Swap(){} // RVA: 0x7E83A80
+        public void EnsureItemSourceCanBeResized(){} // RVA: 0x7E83BC0
+        public void .ctor(){} // RVA: 0xB43310
+        public void <AddItems>g__IsGenericList|19_0(){} // RVA: 0x7E83D30
     }
 
     public class BasePopupField`2 : BaseField`1
     {
         // ── Methods ──
-        public void get_textElement(){} // RVA: 0x7A7E00680
-        public void GetValueToDisplay(){} // RVA: 0x7A7E00680
-        public void GetListItemToDisplay(){} // RVA: 0x7A8051B10
-        public void AddMenuItems(){} // RVA: 0x7A7E18800
-        public void set_choices(){} // RVA: 0x7A7E18800
-        public void SetValueWithoutNotify(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void OnPointerDownEvent(){} // RVA: 0x7A7E18800
-        public void OnPointerMoveEvent(){} // RVA: 0x7A7E18800
-        public void ContainsPointer(){} // RVA: 0x7A7E01F00
-        public void ProcessPointerDown(){} // RVA: 0x7A7E18800
-        public void OnNavigationSubmit(){} // RVA: 0x7A7E18800
-        public void ShowMenu(){} // RVA: 0x7A7E18770
-        public void UpdateMixedValueContent(){} // RVA: 0x7A7E18770
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void get_textElement(){} // RVA: 0x87C0A0
+        public void GetValueToDisplay(){} // RVA: 0x87C0A0
+        public void GetListItemToDisplay(){} // RVA: 0xA94080
+        public void AddMenuItems(){} // RVA: 0x894320
+        public void get_choices(){} // RVA: 0x87C0A0
+        public void set_choices(){} // RVA: 0x894320
+        public void SetValueWithoutNotify(){} // RVA: 0xA94080
+        public void get_text(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x894320
+        public void OnPointerDownEvent(){} // RVA: 0x894320
+        public void OnPointerUpEvent(){} // RVA: 0x894320
+        public void OnPointerMoveEvent(){} // RVA: 0x894320
+        public void ContainsPointer(){} // RVA: 0x87DD20
+        public void ProcessPointerDown(){} // RVA: 0x894320
+        public void OnNavigationSubmit(){} // RVA: 0x894320
+        public void ShowMenu(){} // RVA: 0x894290
+        public void UpdateMixedValueContent(){} // RVA: 0x894290
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class BasePopupField`2 : BaseField`1
     {
         // ── Methods ──
-        public void get_textElement(){} // RVA: 0x7AD4DE4F0
-        public void GetValueToDisplay(){} // RVA: 0x7A7E00680
-        public void GetListItemToDisplay(){} // RVA: 0x7A8051B10
-        public void AddMenuItems(){} // RVA: 0x7A7E18800
-        public void set_choices(){} // RVA: 0x7AD4DE520
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD4DE670
-        public void .ctor(){} // RVA: 0x7AD4DE7E0
-        public void OnPointerDownEvent(){} // RVA: 0x7AD4DF0D0
-        public void OnPointerMoveEvent(){} // RVA: 0x7AD4DF0F0
-        public void ContainsPointer(){} // RVA: 0x7AD4DF190
-        public void ProcessPointerDown(){} // RVA: 0x7A7E18800
-        public void OnNavigationSubmit(){} // RVA: 0x7AD4DF220
-        public void ShowMenu(){} // RVA: 0x7AD4DF260
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD4DF400
-        public void .cctor(){} // RVA: 0x7AD4DF690
+        public void get_textElement(){} // RVA: 0x62331C0
+        public void GetValueToDisplay(){} // RVA: 0x87C0A0
+        public void GetListItemToDisplay(){} // RVA: 0xA94080
+        public void AddMenuItems(){} // RVA: 0x894320
+        public void get_choices(){} // RVA: 0x62331F0
+        public void set_choices(){} // RVA: 0x6233220
+        public void SetValueWithoutNotify(){} // RVA: 0x62333D0
+        public void get_text(){} // RVA: 0x6233540
+        public void .ctor(){} // RVA: 0x62335A0
+        public void OnPointerDownEvent(){} // RVA: 0x4846FE0
+        public void OnPointerUpEvent(){} // RVA: 0x6233F40
+        public void OnPointerMoveEvent(){} // RVA: 0x6233FE0
+        public void ContainsPointer(){} // RVA: 0x6234080
+        public void ProcessPointerDown(){} // RVA: 0x894320
+        public void OnNavigationSubmit(){} // RVA: 0x6234110
+        public void ShowMenu(){} // RVA: 0x6234150
+        public void UpdateMixedValueContent(){} // RVA: 0x62343A0
+        public void .cctor(){} // RVA: 0x6234590
     }
 
     public class BasePopupField`2 : BaseField`1
     {
         // ── Methods ──
-        public void get_textElement(){} // RVA: 0x7AD4DD120
-        public void GetValueToDisplay(){} // RVA: 0x7A7E00680
-        public void GetListItemToDisplay(){} // RVA: 0x7A7E00B20
-        public void AddMenuItems(){} // RVA: 0x7A7E18800
-        public void set_choices(){} // RVA: 0x7AD4DD130
-        public void SetValueWithoutNotify(){} // RVA: 0x7AD4DD200
-        public void .ctor(){} // RVA: 0x7AD4DD2B0
-        public void OnPointerDownEvent(){} // RVA: 0x7AD4DDA90
-        public void OnPointerMoveEvent(){} // RVA: 0x7AD4DDB40
-        public void ContainsPointer(){} // RVA: 0x7AD4DDC40
-        public void ProcessPointerDown(){} // RVA: 0x7AA18B1C0
-        public void OnNavigationSubmit(){} // RVA: 0x7AD4DDCA0
-        public void ShowMenu(){} // RVA: 0x7AD4DDCD0
-        public void UpdateMixedValueContent(){} // RVA: 0x7AD4DDDF0
-        public void .cctor(){} // RVA: 0x7AD4DDF60
+        public void get_textElement(){} // RVA: 0x6231860
+        public void GetValueToDisplay(){} // RVA: 0x87C0A0
+        public void GetListItemToDisplay(){} // RVA: 0x87C540
+        public void AddMenuItems(){} // RVA: 0x894320
+        public void get_choices(){} // RVA: 0x6231870
+        public void set_choices(){} // RVA: 0x6231880
+        public void SetValueWithoutNotify(){} // RVA: 0x62319C0
+        public void get_text(){} // RVA: 0x6231A70
+        public void .ctor(){} // RVA: 0x6231AA0
+        public void OnPointerDownEvent(){} // RVA: 0x62322A0
+        public void OnPointerUpEvent(){} // RVA: 0x62322C0
+        public void OnPointerMoveEvent(){} // RVA: 0x6232370
+        public void ContainsPointer(){} // RVA: 0x6232410
+        public void ProcessPointerDown(){} // RVA: 0x2D4D430
+        public void OnNavigationSubmit(){} // RVA: 0x6232480
+        public void ShowMenu(){} // RVA: 0x62324C0
+        public void UpdateMixedValueContent(){} // RVA: 0x62326B0
+        public void .cctor(){} // RVA: 0x6232830
     }
 
     public class BaseRuntimePanel : Panel
     {
         // ── Methods ──
-        public void get_selectableGameObject(){} // RVA: 0x7A863E8E0
-        public void set_selectableGameObject(){} // RVA: 0x7AF1F21A0
-        public void get_sortingPriority(){} // RVA: 0x7AF1F2340
-        public void set_sortingPriority(){} // RVA: 0x7AF1F2350
-        public void add_destroyed(){} // RVA: 0x7AF1F2420
-        public void remove_destroyed(){} // RVA: 0x7AF1F2520
-        public void .ctor(){} // RVA: 0x7AF1F2620
-        public void Dispose(){} // RVA: 0x7AF1F2820
-        public void get_standardWorldSpaceShader(){} // RVA: 0x7AF046050
-        public void get_drawToCameras(){} // RVA: 0x7AF1F29D0
-        public void set_drawToCameras(){} // RVA: 0x7AF1F29E0
-        public void get_targetDisplay(){} // RVA: 0x7AF1F2A90
-        public void set_targetDisplay(){} // RVA: 0x7AF1F2AA0
-        public void get_screenRenderingWidth(){} // RVA: 0x7AF1F2AB0
-        public void get_screenRenderingHeight(){} // RVA: 0x7AF1F2B10
-        public void getScreenRenderingHeight(){} // RVA: 0x7AF1F2B70
-        public void getScreenRenderingWidth(){} // RVA: 0x7AF1F2C60
-        public void Repaint(){} // RVA: 0x7AF1F2D50
-        public void get_screenToPanelSpace(){} // RVA: 0x7A8688280
-        public void set_screenToPanelSpace(){} // RVA: 0x7AF1F3350
-        public void ScreenToPanel(){} // RVA: 0x7AF1F3480
-        public void AssignPanelToComponents(){} // RVA: 0x7AF1F3720
-        public void PointerLeavesPanel(){} // RVA: 0x7AF1F3B20
-        public void PointerEntersPanel(){} // RVA: 0x7AF1F3BF0
-        public void .cctor(){} // RVA: 0x7AF1F3C90
+        public void get_selectableGameObject(){} // RVA: 0x1659CB0
+        public void set_selectableGameObject(){} // RVA: 0x8088700
+        public void get_sortingPriority(){} // RVA: 0x80888A0
+        public void set_sortingPriority(){} // RVA: 0x80888B0
+        public void add_destroyed(){} // RVA: 0x8088980
+        public void remove_destroyed(){} // RVA: 0x8088A80
+        public void .ctor(){} // RVA: 0x8088B80
+        public void Dispose(){} // RVA: 0x8088D30
+        public void add_drawsInCamerasChanged(){} // RVA: 0x8088D90
+        public void remove_drawsInCamerasChanged(){} // RVA: 0x8088E90
+        public void InvokeDrawsInCamerasChanged(){} // RVA: 0x8088F90
+        public void get_drawsInCameras(){} // RVA: 0x8088FB0
+        public void set_drawsInCameras(){} // RVA: 0x8088FC0
+        public void get_pixelsPerUnit(){} // RVA: 0x8089000
+        public void set_pixelsPerUnit(){} // RVA: 0x8089010
+        public void get_targetDisplay(){} // RVA: 0x2548D00
+        public void set_targetDisplay(){} // RVA: 0x2548D10
+        public void get_screenRenderingWidth(){} // RVA: 0x8089020
+        public void get_screenRenderingHeight(){} // RVA: 0x8089080
+        public void Update(){} // RVA: 0x80890E0
+        public void getScreenRenderingHeight(){} // RVA: 0x80891A0
+        public void getScreenRenderingWidth(){} // RVA: 0x8089290
+        public void Render(){} // RVA: 0x8089380
+        public void get_screenToPanelSpace(){} // RVA: 0x136ECA0
+        public void set_screenToPanelSpace(){} // RVA: 0x8089910
+        public void ScreenToPanel(){} // RVA: 0x8089A40
+        public void AssignPanelToComponents(){} // RVA: 0x8089CE0
+        public void PointerLeavesPanel(){} // RVA: 0x808A0B0
+        public void PointerEntersPanel(){} // RVA: 0x808A180
+        public void .cctor(){} // RVA: 0x808A220
     }
 
     public class BaseSlider`1 : BaseField`1
     {
         // ── Methods ──
-        public void get_dragContainer(){} // RVA: 0x7A7E00680
-        public void set_dragContainer(){} // RVA: 0x7A7E18800
-        public void get_dragElement(){} // RVA: 0x7A7E00680
-        public void set_dragElement(){} // RVA: 0x7A7E18800
-        public void get_trackElement(){} // RVA: 0x7A7E00680
-        public void set_trackElement(){} // RVA: 0x7A7E18800
-        public void get_dragBorderElement(){} // RVA: 0x7A7E00680
-        public void set_dragBorderElement(){} // RVA: 0x7A7E18800
-        public void get_inputTextField(){} // RVA: 0x7A7E00680
-        public void set_inputTextField(){} // RVA: 0x7A7E18800
-        public void get_lowValue(){} // RVA: 0x7A8051B10
-        public void set_lowValue(){} // RVA: 0x7A8051B10
-        public void get_highValue(){} // RVA: 0x7A8051B10
-        public void set_highValue(){} // RVA: 0x7A8051B10
-        public void SetHighValueWithoutNotify(){} // RVA: 0x7A8051B10
-        public void get_pageSize(){} // RVA: 0x7A7E155B0
-        public void set_pageSize(){} // RVA: 0x7A7E262C0
-        public void get_showInputField(){} // RVA: 0x7A7E01900
-        public void set_showInputField(){} // RVA: 0x7A7E18C30
-        public void get_clamped(){} // RVA: 0x7A7E01900
-        public void set_clamped(){} // RVA: 0x7A7E18C30
-        public void get_clampedDragger(){} // RVA: 0x7A7E00680
-        public void set_clampedDragger(){} // RVA: 0x7A7E18800
-        public void Clamp(){} // RVA: 0x7A8051B10
-        public void GetClampedValue(){} // RVA: 0x7A8051B10
-        public void get_value(){} // RVA: 0x7A8051B10
-        public void set_value(){} // RVA: 0x7A8051B10
-        public void ApplyInputDeviceDelta(){} // RVA: 0x7A8051B10
-        public void UnityEngine.UIElements.IValueField<TValueType>.StartDragging(){} // RVA: 0x7A7E18770
-        public void UnityEngine.UIElements.IValueField<TValueType>.StopDragging(){} // RVA: 0x7A7E18770
-        public void SetValueWithoutNotify(){} // RVA: 0x7A8051B10
-        public void get_direction(){} // RVA: 0x7A7E00710
-        public void set_direction(){} // RVA: 0x7A7E189D0
-        public void get_inverted(){} // RVA: 0x7A7E01900
-        public void set_inverted(){} // RVA: 0x7A7E18C30
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void GetClosestPowerOfTen(){} // RVA: 0x7A7E16790
-        public void ClampValue(){} // RVA: 0x7A7E18770
-        public void SliderLerpUnclamped(){} // RVA: 0x7A8051B10
-        public void SliderNormalizeValue(){} // RVA: 0x7A8051B10
-        public void ParseStringToValue(){} // RVA: 0x7A8051B10
-        public void ComputeValueFromKey(){} // RVA: 0x7A8051B10
-        public void SliderLerpDirectionalUnclamped(){} // RVA: 0x7A8051B10
-        public void SetSliderValueFromDrag(){} // RVA: 0x7A7E18770
-        public void ComputeValueAndDirectionFromDrag(){} // RVA: 0x7A7E26960
-        public void SetSliderValueFromClick(){} // RVA: 0x7A7E18770
-        public void OnKeyDown(){} // RVA: 0x7A7E18800
-        public void OnNavigationMove(){} // RVA: 0x7A7E18800
-        public void ComputeValueAndDirectionFromClick(){} // RVA: 0x7A7E26A20
-        public void AdjustDragElement(){} // RVA: 0x7A7E262C0
-        public void UpdateDragElementPosition(){} // RVA: 0x7A7E18770
-        public void OnViewDataReady(){} // RVA: 0x7A7E18770
-        public void SameValues(){} // RVA: 0x7A8051B10
-        public void ExecuteDefaultAction(){} // RVA: 0x7A7E18800
-        public void UpdateTextFieldVisibility(){} // RVA: 0x7A7E18770
-        public void UpdateTextFieldValue(){} // RVA: 0x7A7E18770
-        public void OnTextFieldFocusIn(){} // RVA: 0x7A7E18800
-        public void OnTextFieldFocusOut(){} // RVA: 0x7A7E18800
-        public void OnInputNavigationMoveEvent(){} // RVA: 0x7A7E18800
-        public void OnTextFieldValueChange(){} // RVA: 0x7A7E18800
-        public void UpdateMixedValueContent(){} // RVA: 0x7A7E18770
-        public void RegisterEditingCallbacks(){} // RVA: 0x7A7E18770
-        public void UnregisterEditingCallbacks(){} // RVA: 0x7A7E18770
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void get_dragContainer(){} // RVA: 0x87C0A0
+        public void set_dragContainer(){} // RVA: 0x894320
+        public void get_dragElement(){} // RVA: 0x87C0A0
+        public void set_dragElement(){} // RVA: 0x894320
+        public void get_trackElement(){} // RVA: 0x87C0A0
+        public void set_trackElement(){} // RVA: 0x894320
+        public void get_dragBorderElement(){} // RVA: 0x87C0A0
+        public void set_dragBorderElement(){} // RVA: 0x894320
+        public void get_inputTextField(){} // RVA: 0x87C0A0
+        public void set_inputTextField(){} // RVA: 0x894320
+        public void get_fillElement(){} // RVA: 0x87C0A0
+        public void set_fillElement(){} // RVA: 0x894320
+        public void get_canSwitchToMixedValue(){} // RVA: 0x87D280
+        public void get_lowValue(){} // RVA: 0xA94080
+        public void set_lowValue(){} // RVA: 0xA94080
+        public void get_highValue(){} // RVA: 0xA94080
+        public void set_highValue(){} // RVA: 0xA94080
+        public void SetHighValueWithoutNotify(){} // RVA: 0xA94080
+        public void get_range(){} // RVA: 0xA94080
+        public void get_pageSize(){} // RVA: 0x890F90
+        public void set_pageSize(){} // RVA: 0x8A23A0
+        public void get_showInputField(){} // RVA: 0x87D280
+        public void set_showInputField(){} // RVA: 0x894750
+        public void get_fill(){} // RVA: 0x87D280
+        public void set_fill(){} // RVA: 0x894750
+        public void get_clamped(){} // RVA: 0x87D280
+        public void set_clamped(){} // RVA: 0x894750
+        public void get_clampedDragger(){} // RVA: 0x87C0A0
+        public void set_clampedDragger(){} // RVA: 0x894320
+        public void Clamp(){} // RVA: 0xA94080
+        public void GetClampedValue(){} // RVA: 0xA94080
+        public void get_value(){} // RVA: 0xA94080
+        public void set_value(){} // RVA: 0xA94080
+        public void ApplyInputDeviceDelta(){} // RVA: 0xA94080
+        public void UnityEngine.UIElements.IValueField<TValueType>.StartDragging(){} // RVA: 0x894290
+        public void UnityEngine.UIElements.IValueField<TValueType>.StopDragging(){} // RVA: 0x894290
+        public void add_onSetValueWithoutNotify(){} // RVA: 0x894320
+        public void remove_onSetValueWithoutNotify(){} // RVA: 0x894320
+        public void SetValueWithoutNotify(){} // RVA: 0xA94080
+        public void get_direction(){} // RVA: 0x87C130
+        public void set_direction(){} // RVA: 0x8944F0
+        public void get_inverted(){} // RVA: 0x87D280
+        public void set_inverted(){} // RVA: 0x894750
+        public void .ctor(){} // RVA: 0xA94080
+        public void GetClosestPowerOfTen(){} // RVA: 0x892170
+        public void ClampValue(){} // RVA: 0x894290
+        public void SliderLerpUnclamped(){} // RVA: 0xA94080
+        public void SliderNormalizeValue(){} // RVA: 0xA94080
+        public void SliderRange(){} // RVA: 0xA94080
+        public void ParseStringToValue(){} // RVA: 0xA94080
+        public void ComputeValueFromKey(){} // RVA: 0xA94080
+        public void SliderLerpDirectionalUnclamped(){} // RVA: 0xA94080
+        public void SetSliderValueFromDrag(){} // RVA: 0x894290
+        public void ComputeValueAndDirectionFromDrag(){} // RVA: 0x8A2B40
+        public void SetSliderValueFromClick(){} // RVA: 0x894290
+        public void OnKeyDown(){} // RVA: 0x894320
+        public void OnNavigationMove(){} // RVA: 0x894320
+        public void OnNavigationSubmit(){} // RVA: 0x894320
+        public void ComputeValueAndDirectionFromClick(){} // RVA: 0x8A2C00
+        public void AdjustDragElement(){} // RVA: 0x8A23A0
+        public void UpdateDragElementPosition(){} // RVA: 0x894290
+        public void OnViewDataReady(){} // RVA: 0x894290
+        public void SameValues(){} // RVA: 0xA94080
+        public void UpdateFill(){} // RVA: 0x8A23A0
+        public void HandleEventBubbleUp(){} // RVA: 0x894320
+        public void ExecuteDefaultAction(){} // RVA: 0x894320
+        public void UpdateTextFieldVisibility(){} // RVA: 0x894290
+        public void UpdateTextFieldValue(){} // RVA: 0x894290
+        public void OnFocusIn(){} // RVA: 0x894320
+        public void OnFocusOut(){} // RVA: 0x894320
+        public void OnTextFieldFocusIn(){} // RVA: 0x894320
+        public void OnTextFieldFocusOut(){} // RVA: 0x894320
+        public void OnTextFieldValueChange(){} // RVA: 0x894320
+        public void UpdateMixedValueContent(){} // RVA: 0x894290
+        public void RegisterEditingCallbacks(){} // RVA: 0x894290
+        public void UnregisterEditingCallbacks(){} // RVA: 0x894290
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class BaseTreeView : BaseVerticalCollectionView
     {
         // ── Methods ──
-        public void get_itemsSource(){} // RVA: 0x7AF0DD5B0
-        public void get_viewController(){} // RVA: 0x7AF0DD5F0
-        public void CreateVirtualizationController(){} // RVA: 0x7AF0DD670
-        public void SetViewController(){} // RVA: 0x7AF0DD6B0
-        public void OnItemIndexChanged(){} // RVA: 0x7AF0DD7D0
-        public void CreateDragAndDropController(){} // RVA: 0x7AF0DD7E0
-        public void get_autoExpand(){} // RVA: 0x7AF0D8FC0
-        public void set_autoExpand(){} // RVA: 0x7AF0DD9B0
-        public void get_expandedItemIds(){} // RVA: 0x7A8B4D050
-        public void set_expandedItemIds(){} // RVA: 0x7A8B50A80
-        public void .ctor(){} // RVA: 0x7AF0DDA00
-        public void OnViewDataReady(){} // RVA: 0x7AF0DDC20
-        public void HandleItemNavigation(){} // RVA: 0x7AF0DDCA0
-        public void SetSelectionById(){} // RVA: 0x7AF0DE410
-        public void SetSelectionInternalById(){} // RVA: 0x7AF0DE560
-        public void GetItemIndex(){} // RVA: 0x7AF0DE6C0
-        public void IsExpanded(){} // RVA: 0x7AF0DE890
-        public void CollapseItem(){} // RVA: 0x7AF0DE8C0
-        public void ExpandItem(){} // RVA: 0x7AF0DE920
-        public void OnTreeViewPointerUp(){} // RVA: 0x7AF0DE970
-        public void IsExpandedByIndex(){} // RVA: 0x7AF0DE9C0
-        public void CollapseItemByIndex(){} // RVA: 0x7AF0DE9F0
-        public void ExpandItemByIndex(){} // RVA: 0x7AF0DEA70
-        public void .cctor(){} // RVA: 0x7AF0DEB00
-        public void <SetSelectionInternalById>b__47_0(){} // RVA: 0x7AF0DEEE0
+        public void get_itemsSource(){} // RVA: 0x7FBE6F0
+        public void set_itemsSource(){} // RVA: 0x7FBE720
+        public void get_viewController(){} // RVA: 0x7FBE7A0
+        public void CreateVirtualizationController(){} // RVA: 0x7FBE820
+        public void SetViewController(){} // RVA: 0x7FBE860
+        public void OnItemIndexChanged(){} // RVA: 0x7FBEC00
+        public void OnItemExpandedChanged(){} // RVA: 0x7FBEC10
+        public void CreateDragAndDropController(){} // RVA: 0x7FBEC30
+        public void get_autoExpand(){} // RVA: 0x7FBEE00
+        public void set_autoExpand(){} // RVA: 0x7FBEE10
+        public void get_expandedItemIds(){} // RVA: 0x16624D0
+        public void set_expandedItemIds(){} // RVA: 0x164F470
+        public void get_customIdent(){} // RVA: 0x165AA70
+        public void set_customIdent(){} // RVA: 0x7FBEEA0
+        public void .ctor(){} // RVA: 0x7FBEEC0
+        public void OnCustomStyleResolved(){} // RVA: 0x7FBF0E0
+        public void OnViewDataReady(){} // RVA: 0x7FBF2B0
+        public void HandleItemNavigation(){} // RVA: 0x7FBF330
+        public void SetSelectionById(){} // RVA: 0x7FBFA80
+        public void SetSelectionInternalById(){} // RVA: 0x7FBFBD0
+        public void GetItemIndex(){} // RVA: 0x7FBFD30
+        public void IsExpanded(){} // RVA: 0x7FBFF90
+        public void CollapseItem(){} // RVA: 0x7FBFFC0
+        public void ExpandItem(){} // RVA: 0x7FC0100
+        public void IsExpandedByIndex(){} // RVA: 0x7FC0160
+        public void CollapseItemByIndex(){} // RVA: 0x7FC01D0
+        public void ExpandItemByIndex(){} // RVA: 0x7FC0260
+        public void .cctor(){} // RVA: 0x7FC02F0
+        public void <SetSelectionInternalById>b__60_0(){} // RVA: 0x7FC0910
     }
 
     public class BaseTreeViewController : CollectionViewController
     {
         // ── Methods ──
-        public void get_baseTreeView(){} // RVA: 0x7AF0CE920
-        public void get_itemsSource(){} // RVA: 0x7A80DA7B0
-        public void set_itemsSource(){} // RVA: 0x7AF0CE9A0
-        public void RebuildTree(){} // RVA: 0x7AF0CE9F0
-        public void GetRootItemIds(){} // RVA: 0x7AEF66F80
-        public void GetAllItemIds(){} // RVA: 0x7A7E00B20
-        public void GetParentId(){} // RVA: 0x7A7E062A0
-        public void GetChildrenIds(){} // RVA: 0x7A7E00740
-        public void Move(){} // RVA: 0x7A7E1AE40
-        public void InvokeMakeItem(){} // RVA: 0x7AF0CED70
-        public void InvokeBindItem(){} // RVA: 0x7AF0CEE20
-        public void InvokeDestroyItem(){} // RVA: 0x7AF0CEF30
-        public void PostInitRegistration(){} // RVA: 0x7AF0CF260
-        public void OnItemPointerUp(){} // RVA: 0x7AF0CF6E0
-        public void OnToggleValueChanged(){} // RVA: 0x7AF0CFD40
-        public void GetIndexForId(){} // RVA: 0x7AF0CFEF0
-        public void GetIdForIndex(){} // RVA: 0x7AF0CFFD0
-        public void HasChildren(){} // RVA: 0x7AF0D0080
-        public void Exists(){} // RVA: 0x7AF0D0130
-        public void HasChildrenByIndex(){} // RVA: 0x7AF0D01A0
-        public void GetChildrenIdsByIndex(){} // RVA: 0x7AF0D02A0
-        public void GetChildIndexForId(){} // RVA: 0x7AF0D0350
-        public void GetIndentationDepth(){} // RVA: 0x7AF0D0530
-        public void GetIndentationDepthByIndex(){} // RVA: 0x7AF0D0590
-        public void CanChangeExpandedState(){} // RVA: 0x7A9EEB150
-        public void IsExpanded(){} // RVA: 0x7AF0D0600
-        public void IsExpandedByIndex(){} // RVA: 0x7AF0D06C0
-        public void ExpandItemByIndex(){} // RVA: 0x7AF0D0780
-        public void ExpandItem(){} // RVA: 0x7AF0D1050
-        public void CollapseItemByIndex(){} // RVA: 0x7AF0D1230
-        public void CollapseItem(){} // RVA: 0x7AF0D1750
-        public void RegenerateWrappers(){} // RVA: 0x7AF0D18D0
-        public void CreateWrappers(){} // RVA: 0x7AF0D1A20
-        public void IsIndexValid(){} // RVA: 0x7AF0D1F60
-        public void RaiseItemParentChanged(){} // RVA: 0x7AF0D1FD0
-        public void .ctor(){} // RVA: 0x7AF0D1FF0
-        public void .cctor(){} // RVA: 0x7AF0D2360
+        public void get_baseTreeView(){} // RVA: 0x7E846C0
+        public void add_itemExpandedChanged(){} // RVA: 0x7E84740
+        public void remove_itemExpandedChanged(){} // RVA: 0x7E84850
+        public void .ctor(){} // RVA: 0x7E84960
+        public void Finalize(){} // RVA: 0x7E84AD0
+        public void get_hierarchy(){} // RVA: 0xD33E60
+        public void set_hierarchy(){} // RVA: 0x7E84B10
+        public void DisposeHierarchy(){} // RVA: 0x7E84FA0
+        public void get_itemsSource(){} // RVA: 0xB465B0
+        public void set_itemsSource(){} // RVA: 0x7E85210
+        public void GetAllItemIds(){} // RVA: 0x7E85260
+        public void GetParentId(){} // RVA: 0x7E85370
+        public void GetChildrenIds(){} // RVA: 0x7E85600
+        public void Move(){} // RVA: 0x7E856C0
+        public void InvokeMakeItem(){} // RVA: 0x7E85980
+        public void InvokeBindItem(){} // RVA: 0x7E85A30
+        public void InvokeDestroyItem(){} // RVA: 0x7E85BB0
+        public void PostInitRegistration(){} // RVA: 0x7E85EE0
+        public void OnItemPointerUp(){} // RVA: 0x7E86190
+        public void RaiseItemExpandedChanged(){} // RVA: 0x7E86980
+        public void OnToggleValueChanged(){} // RVA: 0x7E86A20
+        public void GetIndexForId(){} // RVA: 0x7E86BD0
+        public void GetIdForIndex(){} // RVA: 0x7E86D30
+        public void HasChildren(){} // RVA: 0x7E86E40
+        public void Exists(){} // RVA: 0x7E86FF0
+        public void HasChildrenByIndex(){} // RVA: 0x7E87060
+        public void GetChildrenIdsByIndex(){} // RVA: 0x7E87120
+        public void GetChildIndexForId(){} // RVA: 0x7E871E0
+        public void GetIndentationDepth(){} // RVA: 0x7E874F0
+        public void GetIndentationDepthByIndex(){} // RVA: 0x7E875B0
+        public void CanChangeExpandedState(){} // RVA: 0x295D5B0
+        public void IsExpanded(){} // RVA: 0x7E875E0
+        public void IsExpandedByIndex(){} // RVA: 0x7E877A0
+        public void ExpandItemByIndex(){} // RVA: 0x7E877F0
+        public void ExpandItem(){} // RVA: 0x7E87970
+        public void CollapseItemByIndex(){} // RVA: 0x7E87A80
+        public void CollapseItem(){} // RVA: 0x7E87B20
+        public void ExpandItemByNode(){} // RVA: 0x7E87C30
+        public void CollapseItemByNode(){} // RVA: 0x7E880C0
+        public void GetExpandedItemIds(){} // RVA: 0x7E88490
+        public void IsViewDataKeyEnabled(){} // RVA: 0x7E88A40
+        public void PreRefresh(){} // RVA: 0x7E88AA0
+        public void IsIndexValid(){} // RVA: 0x7E88AB0
+        public void IsChildOf(){} // RVA: 0x7E88AE0
+        public void RaiseItemParentChanged(){} // RVA: 0x7E88CB0
+        public void CreateNode(){} // RVA: 0x7E88CD0
+        public void UpdateIdToNodeDictionary(){} // RVA: 0x7E88DD0
+        public void ClearIdToNodeDictionary(){} // RVA: 0x7E88F40
+        public void UpdateSortOrder(){} // RVA: 0x7E88FD0
+        public void OnViewDataReadyUpdateNodes(){} // RVA: 0x7E89370
+        public void UpdateHierarchy(){} // RVA: 0x7E89650
+        public void GetHierarchyNodeById(){} // RVA: 0x7E898E0
+        public void GetHierarchyNodeByIndex(){} // RVA: 0x7E89A50
+        public void .cctor(){} // RVA: 0x7E89AC0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void get_uxmlName(){} // RVA: 0x7A7E00680
-        public void get_uxmlNamespace(){} // RVA: 0x7A7E00680
-        public void get_uxmlQualifiedName(){} // RVA: 0x7A7E00680
-        public void get_uxmlType(){} // RVA: 0x7A7E00680
-        public void AcceptsAttributeBag(){} // RVA: 0x7A7E01A40
+        public void .ctor(){} // RVA: 0x894290
+        public void get_uxmlName(){} // RVA: 0x87C0A0
+        public void get_uxmlNamespace(){} // RVA: 0x87C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x87C0A0
+        public void get_uxmlType(){} // RVA: 0x87C0A0
+        public void AcceptsAttributeBag(){} // RVA: 0x87D3C0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EEC90
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EED60
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEE50
-        public void get_uxmlType(){} // RVA: 0x7AD4EEF20
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EEC90
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EED60
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEE50
-        public void get_uxmlType(){} // RVA: 0x7AD4EEF20
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlFactory`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EE950
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EEA20
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEB10
-        public void get_uxmlType(){} // RVA: 0x7AD4EEBE0
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EEC90
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EED60
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEE50
-        public void get_uxmlType(){} // RVA: 0x7AD4EEF20
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EEC90
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EED60
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEE50
-        public void get_uxmlType(){} // RVA: 0x7AD4EEF20
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
-    }
-
-    public class BaseUxmlFactory`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD4EE8E0
-        public void get_uxmlName(){} // RVA: 0x7AD4EEC90
-        public void get_uxmlNamespace(){} // RVA: 0x7AD4EED60
-        public void get_uxmlQualifiedName(){} // RVA: 0x7AD4EEE50
-        public void get_uxmlType(){} // RVA: 0x7AD4EEF20
-        public void AcceptsAttributeBag(){} // RVA: 0x7A9EEB150
+        public void .ctor(){} // RVA: 0x624BFB0
+        public void get_uxmlName(){} // RVA: 0x624C020
+        public void get_uxmlNamespace(){} // RVA: 0x624C0A0
+        public void get_uxmlQualifiedName(){} // RVA: 0x624C140
+        public void get_uxmlType(){} // RVA: 0x624C1C0
+        public void AcceptsAttributeBag(){} // RVA: 0x295D5B0
     }
 
     public class BaseUxmlTraits : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A847A240
-        public void set_canHaveAnyAttribute(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xF482F0
+        public void set_canHaveAnyAttribute(){} // RVA: 0xC120B0
     }
 
     public class BaseVerticalCollectionView : BindableElement
     {
         // ── Methods ──
-        public void HasCanStartDrag(){} // RVA: 0x7AF0DF190
-        public void RaiseCanStartDrag(){} // RVA: 0x7AF0DF1A0
-        public void RaiseSetupDragAndDrop(){} // RVA: 0x7AF0DF260
-        public void RaiseHandleDragAndDrop(){} // RVA: 0x7AF0DF370
-        public void RaiseDrop(){} // RVA: 0x7AF0DF450
-        public void get_itemsSource(){} // RVA: 0x7AF0DF530
-        public void set_itemsSource(){} // RVA: 0x7AF0DF560
-        public void get_contentContainer(){} // RVA: 0x7A82D1450
-        public void get_selectionType(){} // RVA: 0x7AF0DF5E0
-        public void set_selectionType(){} // RVA: 0x7AF0DF5F0
-        public void get_selectedIndex(){} // RVA: 0x7AF0DF6A0
-        public void set_selectedIndex(){} // RVA: 0x7AF0DF720
-        public void get_selectedIndices(){} // RVA: 0x7A8B4ABF0
-        public void get_selectedIds(){} // RVA: 0x7A8B507A0
-        public void get_activeItems(){} // RVA: 0x7AF0DF730
-        public void get_scrollView(){} // RVA: 0x7A8B526C0
-        public void get_dragger(){} // RVA: 0x7A8B53A20
-        public void get_virtualizationController(){} // RVA: 0x7AF0DF7B0
-        public void get_viewController(){} // RVA: 0x7A8B5E0F0
-        public void ResolveItemHeight(){} // RVA: 0x7AF0DF7F0
-        public void set_showBorder(){} // RVA: 0x7AF0DF840
-        public void get_reorderable(){} // RVA: 0x7AF0DF8E0
-        public void set_reorderable(){} // RVA: 0x7AF0DF980
-        public void set_horizontalScrollingEnabled(){} // RVA: 0x7AF0DFA20
-        public void get_showAlternatingRowBackgrounds(){} // RVA: 0x7AF0DFA90
-        public void set_showAlternatingRowBackgrounds(){} // RVA: 0x7AF0DFAA0
-        public void get_virtualizationMethod(){} // RVA: 0x7AA3F5900
-        public void set_virtualizationMethod(){} // RVA: 0x7AF0DFAC0
-        public void get_fixedItemHeight(){} // RVA: 0x7AF0DFB10
-        public void set_fixedItemHeight(){} // RVA: 0x7AF0DFB20
-        public void get_lastHeight(){} // RVA: 0x7AF0DFC20
-        public void CreateVirtualizationController(){} // RVA: 0x7A7E18770
-        public void GetOrCreateVirtualizationController(){} // RVA: 0x7AF0DF7B0
-        public void GetOrCreateViewController(){} // RVA: 0x7AF0DFC70
-        public void CreateViewController(){} // RVA: 0x7A7E00680
-        public void SetViewController(){} // RVA: 0x7AF0DFCD0
-        public void CreateDragger(){} // RVA: 0x7AF0E00E0
-        public void InitializeDragAndDropController(){} // RVA: 0x7AF0E0140
-        public void CreateDragAndDropController(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7AF0E0E00
-        public void GetRootElementForId(){} // RVA: 0x7AF0E0F00
-        public void HasValidDataAndBindings(){} // RVA: 0x7AF0E1010
-        public void OnItemIndexChanged(){} // RVA: 0x7AF0E1050
-        public void OnItemsSourceChanged(){} // RVA: 0x7AF0E1090
-        public void RefreshItems(){} // RVA: 0x7AF0E10B0
-        public void Rebuild(){} // RVA: 0x7AF0E1220
-        public void RefreshSelection(){} // RVA: 0x7AF0E13A0
-        public void PostRefresh(){} // RVA: 0x7AF0E1630
-        public void ScrollToItem(){} // RVA: 0x7AF0E16F0
-        public void ScrollToItemById(){} // RVA: 0x7AF0E1770
-        public void OnScroll(){} // RVA: 0x7AF0E1810
-        public void Resize(){} // RVA: 0x7AF0E1890
-        public void OnAttachToPanel(){} // RVA: 0x7AF0E1950
-        public void OnDetachFromPanel(){} // RVA: 0x7AF0E1DA0
-        public void Apply(){} // RVA: 0x7AF0E2560
-        public void HandleItemNavigation(){} // RVA: 0x7AA57AB40
-        public void OnPointerMove(){} // RVA: 0x7AF0E2700
-        public void OnPointerDown(){} // RVA: 0x7AF0E2790
-        public void OnPointerCancel(){} // RVA: 0x7AF0E2900
-        public void OnPointerUp(){} // RVA: 0x7AF0E2980
-        public void ProcessPointerDown(){} // RVA: 0x7AF0E2AF0
-        public void ProcessPointerUp(){} // RVA: 0x7AF0E2D10
-        public void DoSelect(){} // RVA: 0x7AF0E3090
-        public void DoRangeSelection(){} // RVA: 0x7AF0E35B0
-        public void ProcessSingleClick(){} // RVA: 0x7AF0DF720
-        public void SelectAll(){} // RVA: 0x7AF0E3750
-        public void AddToSelection(){} // RVA: 0x7AF0E3B30
-        public void AddToSelectionWithoutValidation(){} // RVA: 0x7AF0E3DE0
-        public void RemoveFromSelection(){} // RVA: 0x7AF0E4220
-        public void RemoveFromSelectionWithoutValidation(){} // RVA: 0x7AF0E4280
-        public void SetSelection(){} // RVA: 0x7AF0E4680
-        public void SetSelectionWithoutNotify(){} // RVA: 0x7AF0E4690
-        public void SetSelectionInternal(){} // RVA: 0x7AF0E46A0
-        public void MatchesExistingSelection(){} // RVA: 0x7AF0E48F0
-        public void NotifyOfSelectionChange(){} // RVA: 0x7AF0E4B90
-        public void ClearSelection(){} // RVA: 0x7AF0E4C00
-        public void ClearSelectionWithoutValidation(){} // RVA: 0x7AF0E4C80
-        public void OnViewDataReady(){} // RVA: 0x7AF0E4EE0
-        public void ExecuteDefaultAction(){} // RVA: 0x7AF0E4F20
-        public void OnSizeChanged(){} // RVA: 0x7AF0E5320
-        public void OnCustomStyleResolved(){} // RVA: 0x7AF0E53C0
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7A80D7310
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7AF0DD7D0
-        public void .cctor(){} // RVA: 0x7AF0E5580
-        public void <.ctor>b__158_0(){} // RVA: 0x7AF0E5E40
-        public void <Apply>g__HandleSelectionAndScroll|181_0(){} // RVA: 0x7AF0E5ED0
+        public void HasCanStartDrag(){} // RVA: 0x7FC0C40
+        public void RaiseCanStartDrag(){} // RVA: 0x7FC0C50
+        public void RaiseSetupDragAndDrop(){} // RVA: 0x7FC0D60
+        public void RaiseHandleDragAndDrop(){} // RVA: 0x7FC0EB0
+        public void RaiseDrop(){} // RVA: 0x7FC0F90
+        public void get_itemsSource(){} // RVA: 0x7FC1070
+        public void set_itemsSource(){} // RVA: 0x7FC10A0
+        public void get_contentContainer(){} // RVA: 0xDAC980
+        public void get_selectionType(){} // RVA: 0x7FC11E0
+        public void set_selectionType(){} // RVA: 0x7FC11F0
+        public void get_selectedItem(){} // RVA: 0x7FC1300
+        public void get_selectedItems(){} // RVA: 0x7FC13A0
+        public void get_selectedIndex(){} // RVA: 0x7FC1450
+        public void set_selectedIndex(){} // RVA: 0x7FC14D0
+        public void get_selectedIndices(){} // RVA: 0x7FC14E0
+        public void get_selectedIds(){} // RVA: 0x7FC1500
+        public void get_activeItems(){} // RVA: 0x7FC1520
+        public void get_scrollView(){} // RVA: 0x163E5A0
+        public void get_dragger(){} // RVA: 0x166CFA0
+        public void get_virtualizationController(){} // RVA: 0x7FC15B0
+        public void get_viewController(){} // RVA: 0x165D560
+        public void ResolveItemHeight(){} // RVA: 0x7FC15F0
+        public void get_showBorder(){} // RVA: 0x7FC1610
+        public void set_showBorder(){} // RVA: 0x7FC1690
+        public void get_reorderable(){} // RVA: 0x7FC1790
+        public void set_reorderable(){} // RVA: 0x7FC1830
+        public void get_horizontalScrollingEnabled(){} // RVA: 0x7FC19D0
+        public void set_horizontalScrollingEnabled(){} // RVA: 0x7FC19E0
+        public void get_showAlternatingRowBackgrounds(){} // RVA: 0x7FC1AA0
+        public void set_showAlternatingRowBackgrounds(){} // RVA: 0x7FC1AB0
+        public void get_virtualizationMethod(){} // RVA: 0x3014D00
+        public void set_virtualizationMethod(){} // RVA: 0x7FC1B40
+        public void get_fixedItemHeight(){} // RVA: 0x7FC1BF0
+        public void set_fixedItemHeight(){} // RVA: 0x7FC1C00
+        public void get_lastHeight(){} // RVA: 0x7FC1D50
+        public void get_isRebuildScheduled(){} // RVA: 0x7FC1D60
+        public void CreateVirtualizationController(){} // RVA: 0x894290
+        public void GetOrCreateVirtualizationController(){} // RVA: 0x7FC15B0
+        public void GetOrCreateViewController(){} // RVA: 0x7FC1E00
+        public void CreateViewController(){} // RVA: 0x87C0A0
+        public void SetViewController(){} // RVA: 0x7FC1E60
+        public void CreateDragger(){} // RVA: 0x7FC21B0
+        public void InitializeDragAndDropController(){} // RVA: 0x7FC2210
+        public void CreateDragAndDropController(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x7FC3090
+        public void GetRootElementForId(){} // RVA: 0x7FC3250
+        public void HasValidDataAndBindings(){} // RVA: 0x7FC3360
+        public void OnItemIndexChanged(){} // RVA: 0x7FC33A0
+        public void OnItemsSourceChanged(){} // RVA: 0x7FC33E0
+        public void RefreshItems(){} // RVA: 0x7FC34F0
+        public void Rebuild(){} // RVA: 0x7FC36E0
+        public void ScheduleRebuild(){} // RVA: 0x7FC38B0
+        public void RefreshSelection(){} // RVA: 0x7FC39F0
+        public void PostRefresh(){} // RVA: 0x7FC4250
+        public void ScrollToItem(){} // RVA: 0x7FC4320
+        public void ScrollToItemById(){} // RVA: 0x7FC43A0
+        public void OnScroll(){} // RVA: 0x7FC4440
+        public void Resize(){} // RVA: 0x7FC44C0
+        public void OnAttachToPanel(){} // RVA: 0x7FC4580
+        public void OnDetachFromPanel(){} // RVA: 0x7FC49D0
+        public void Apply(){} // RVA: 0x7FC5500
+        public void HandleItemNavigation(){} // RVA: 0x263B110
+        public void OnPointerMove(){} // RVA: 0x7FC56B0
+        public void OnPointerDown(){} // RVA: 0x7FC5740
+        public void OnPointerCancel(){} // RVA: 0x7FC5750
+        public void OnPointerUp(){} // RVA: 0x7FC57D0
+        public void ProcessPointerDown(){} // RVA: 0x7FC57E0
+        public void ProcessPointerUp(){} // RVA: 0x7FC5AA0
+        public void DoSelect(){} // RVA: 0x7FC5EB0
+        public void DoRangeSelection(){} // RVA: 0x7FC6400
+        public void ProcessSingleClick(){} // RVA: 0x7FC14D0
+        public void SelectAll(){} // RVA: 0x7FC65D0
+        public void AddToSelection(){} // RVA: 0x7FC6950
+        public void AddToSelectionWithoutValidation(){} // RVA: 0x7FC6B90
+        public void RemoveFromSelection(){} // RVA: 0x7FC6EA0
+        public void RemoveFromSelectionWithoutValidation(){} // RVA: 0x7FC6F00
+        public void SetSelection(){} // RVA: 0x7FC7350
+        public void SetSelectionWithoutNotify(){} // RVA: 0x7FC7360
+        public void SetSelectionInternal(){} // RVA: 0x7FC7370
+        public void MatchesExistingSelection(){} // RVA: 0x7FC77A0
+        public void NotifyOfSelectionChange(){} // RVA: 0x7FC7AC0
+        public void ClearSelection(){} // RVA: 0x7FC7B50
+        public void ClearSelectionWithoutValidation(){} // RVA: 0x7FC7BE0
+        public void OnViewDataReady(){} // RVA: 0x7FC7EB0
+        public void HandleEventBubbleUp(){} // RVA: 0x7FC7EF0
+        public void ExecuteDefaultAction(){} // RVA: 0xB43310
+        public void OnSizeChanged(){} // RVA: 0x7FC8290
+        public void OnCustomStyleResolved(){} // RVA: 0x7FC8320
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0xB43310
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FC84F0
+        public void .cctor(){} // RVA: 0x7FC8570
+        public void <.ctor>b__179_0(){} // RVA: 0x7FC9BA0
+        public void <RefreshSelection>g__NotifyIfChanged|193_0(){} // RVA: 0x7FC9C30
+        public void <Apply>g__HandleSelectionAndScroll|204_0(){} // RVA: 0x7FC9CB0
     }
 
     public class BaseVisualElementPanel : Object
     {
         // ── Methods ──
-        public void get_IMGUIEventInterests(){} // RVA: 0x7A7E00490
-        public void set_IMGUIEventInterests(){} // RVA: 0x7A7E18800
-        public void get_ownerObject(){} // RVA: 0x7A7E00680
-        public void set_ownerObject(){} // RVA: 0x7A7E18800
-        public void get_saveViewData(){} // RVA: 0x7A7E00680
-        public void get_getViewDataDictionary(){} // RVA: 0x7A7E00680
-        public void get_IMGUIContainersCount(){} // RVA: 0x7A7E00710
-        public void set_IMGUIContainersCount(){} // RVA: 0x7A7E189D0
-        public void get_focusController(){} // RVA: 0x7A7E00680
-        public void set_focusController(){} // RVA: 0x7A7E18800
-        public void get_rootIMGUIContainer(){} // RVA: 0x7A7E00680
-        public void add_panelDisposed(){} // RVA: 0x7AF1EDF20
-        public void remove_panelDisposed(){} // RVA: 0x7AF1EE030
-        public void get_uiElementsBridge(){} // RVA: 0x7AF1EE140
-        public void .ctor(){} // RVA: 0x7AF1EE1B0
-        public void Dispose(){} // RVA: 0x7AF1EE570
-        public void Repaint(){} // RVA: 0x7A7E18800
-        public void ValidateFocus(){} // RVA: 0x7A7E18770
-        public void ValidateLayout(){} // RVA: 0x7A7E18770
-        public void UpdateAnimations(){} // RVA: 0x7A7E18770
-        public void UpdateBindings(){} // RVA: 0x7A7E18770
-        public void ApplyStyles(){} // RVA: 0x7A7E18770
-        public void get_scale(){} // RVA: 0x7AEE58D50
-        public void set_scale(){} // RVA: 0x7AF1EE930
-        public void set_pixelsPerPoint(){} // RVA: 0x7AF1EEA10
-        public void get_scaledPixelsPerPoint(){} // RVA: 0x7AF1EEAF0
-        public void get_referenceSpritePixelsPerUnit(){} // RVA: 0x7A81A2250
-        public void set_referenceSpritePixelsPerUnit(){} // RVA: 0x7A81A2260
-        public void get_clearSettings(){} // RVA: 0x7AF1EEB00
-        public void set_clearSettings(){} // RVA: 0x7AF1EEB20
-        public void get_duringLayoutPhase(){} // RVA: 0x7A9471CE0
-        public void set_duringLayoutPhase(){} // RVA: 0x7A9478060
-        public void get_version(){} // RVA: 0x7A7E00710
-        public void get_hierarchyVersion(){} // RVA: 0x7A7E00710
-        public void OnVersionChanged(){} // RVA: 0x7A7E1D590
-        public void get_repaintData(){} // RVA: 0x7A8178B90
-        public void set_repaintData(){} // RVA: 0x7A8230620
-        public void get_cursorManager(){} // RVA: 0x7A81A0050
-        public void set_cursorManager(){} // RVA: 0x7A81A0060
-        public void get_contextualMenuManager(){} // RVA: 0x7A8175DF0
-        public void set_contextualMenuManager(){} // RVA: 0x7A8175E00
-        public void get_visualTree(){} // RVA: 0x7A7E00680
-        public void get_dispatcher(){} // RVA: 0x7A7E00680
-        public void set_dispatcher(){} // RVA: 0x7A7E18800
-        public void SendEvent(){} // RVA: 0x7AF1EEB30
-        public void get_scheduler(){} // RVA: 0x7A7E00680
-        public void get_styleAnimationSystem(){} // RVA: 0x7A7E00680
-        public void set_styleAnimationSystem(){} // RVA: 0x7A7E18800
-        public void get_contextType(){} // RVA: 0x7A7E00710
-        public void set_contextType(){} // RVA: 0x7A7E189D0
-        public void Pick(){} // RVA: 0x7A7E150A0
-        public void PickAll(){} // RVA: 0x7A7E15120
-        public void get_disposed(){} // RVA: 0x7A81A00C0
-        public void set_disposed(){} // RVA: 0x7A81A00D0
-        public void GetUpdater(){} // RVA: 0x7A7E00740
-        public void GetTopElementUnderPointer(){} // RVA: 0x7AF1EEC00
-        public void RecomputeTopElementUnderPointer(){} // RVA: 0x7AF1EEC40
-        public void ClearCachedElementUnderPointer(){} // RVA: 0x7AF1EED80
-        public void CommitElementUnderPointers(){} // RVA: 0x7AF1EEDC0
-        public void get_standardShader(){} // RVA: 0x7A7E00680
-        public void get_standardWorldSpaceShader(){} // RVA: 0x7ABC0A600
-        public void add_standardShaderChanged(){} // RVA: 0x7AF1EEE30
-        public void remove_standardShaderChanged(){} // RVA: 0x7AF1EEF20
-        public void add_standardWorldSpaceShaderChanged(){} // RVA: 0x7AF1EF010
-        public void remove_standardWorldSpaceShaderChanged(){} // RVA: 0x7AF1EF110
-        public void add_atlasChanged(){} // RVA: 0x7AF1EF210
-        public void remove_atlasChanged(){} // RVA: 0x7AF1EF310
-        public void InvokeAtlasChanged(){} // RVA: 0x7AF1EF410
-        public void get_atlas(){} // RVA: 0x7A7E00680
-        public void set_atlas(){} // RVA: 0x7A7E18800
-        public void InvokeUpdateMaterial(){} // RVA: 0x7AF1EF430
-        public void add_hierarchyChanged(){} // RVA: 0x7AF1EF450
-        public void remove_hierarchyChanged(){} // RVA: 0x7AF1EF550
-        public void InvokeHierarchyChanged(){} // RVA: 0x7AF1EF650
-        public void InvokeBeforeUpdate(){} // RVA: 0x7AF1EF680
-        public void UpdateElementUnderPointers(){} // RVA: 0x7AF1EF6A0
-        public void UnityEngine.UIElements.IGroupBox.OnOptionAdded(){} // RVA: 0x7A80D7310
-        public void UnityEngine.UIElements.IGroupBox.OnOptionRemoved(){} // RVA: 0x7A80D7310
-        public void Update(){} // RVA: 0x7AF1EF970
+        public void get_IMGUIEventInterests(){} // RVA: 0x87BEB0
+        public void set_IMGUIEventInterests(){} // RVA: 0x894320
+        public void get_ownerObject(){} // RVA: 0x87C0A0
+        public void set_ownerObject(){} // RVA: 0x894320
+        public void get_saveViewData(){} // RVA: 0x87C0A0
+        public void get_getViewDataDictionary(){} // RVA: 0x87C0A0
+        public void get_IMGUIContainersCount(){} // RVA: 0x87C130
+        public void set_IMGUIContainersCount(){} // RVA: 0x8944F0
+        public void get_focusController(){} // RVA: 0x87C0A0
+        public void set_focusController(){} // RVA: 0x894320
+        public void get_rootIMGUIContainer(){} // RVA: 0x87C0A0
+        public void add_panelDisposed(){} // RVA: 0x8084850
+        public void remove_panelDisposed(){} // RVA: 0x8084960
+        public void get_uiElementsBridge(){} // RVA: 0x8084A70
+        public void .ctor(){} // RVA: 0x8084AE0
+        public void Dispose(){} // RVA: 0x8084D50
+        public void Repaint(){} // RVA: 0x894320
+        public void ValidateFocus(){} // RVA: 0x894290
+        public void ValidateLayout(){} // RVA: 0x894290
+        public void UpdateAnimations(){} // RVA: 0x894290
+        public void UpdateBindings(){} // RVA: 0x894290
+        public void ApplyStyles(){} // RVA: 0x894290
+        public void get_scale(){} // RVA: 0x7B149F0
+        public void set_scale(){} // RVA: 0x8085140
+        public void get_scaledPixelsPerPoint(){} // RVA: 0x8085220
+        public void get_referenceSpritePixelsPerUnit(){} // RVA: 0xB6B180
+        public void set_referenceSpritePixelsPerUnit(){} // RVA: 0xB6B190
+        public void get_clearSettings(){} // RVA: 0x6E3DC40
+        public void set_clearSettings(){} // RVA: 0x6E3DC60
+        public void get_duringLayoutPhase(){} // RVA: 0xE3F400
+        public void set_duringLayoutPhase(){} // RVA: 0xE3CFC0
+        public void get_version(){} // RVA: 0x87C130
+        public void get_hierarchyVersion(){} // RVA: 0x87C130
+        public void OnVersionChanged(){} // RVA: 0x899290
+        public void SetUpdater(){} // RVA: 0x899290
+        public void get_repaintData(){} // RVA: 0xB813B0
+        public void set_repaintData(){} // RVA: 0xD5CBB0
+        public void get_cursorManager(){} // RVA: 0x1069350
+        public void set_cursorManager(){} // RVA: 0xD5CC10
+        public void get_contextualMenuManager(){} // RVA: 0x106A7D0
+        public void set_contextualMenuManager(){} // RVA: 0xD5CC70
+        public void get_dataBindingManager(){} // RVA: 0x106A050
+        public void set_dataBindingManager(){} // RVA: 0xD5CCD0
+        public void get_visualTree(){} // RVA: 0x87C0A0
+        public void get_dispatcher(){} // RVA: 0x87C0A0
+        public void set_dispatcher(){} // RVA: 0x894320
+        public void SendEvent(){} // RVA: 0x8085230
+        public void get_scheduler(){} // RVA: 0x87C0A0
+        public void get_styleAnimationSystem(){} // RVA: 0x87C0A0
+        public void set_styleAnimationSystem(){} // RVA: 0x894320
+        public void get_contextType(){} // RVA: 0x87C130
+        public void Pick(){} // RVA: 0x890A80
+        public void PickAll(){} // RVA: 0x890B00
+        public void get_disposed(){} // RVA: 0xE3F3E0
+        public void set_disposed(){} // RVA: 0xE3EB10
+        public void GetUpdater(){} // RVA: 0x87C160
+        public void GetTopElementUnderPointer(){} // RVA: 0x8085310
+        public void RecomputeTopElementUnderPointer(){} // RVA: 0x8085350
+        public void ClearCachedElementUnderPointer(){} // RVA: 0x80855B0
+        public void CommitElementUnderPointers(){} // RVA: 0x80855F0
+        public void add_isFlatChanged(){} // RVA: 0x8085670
+        public void remove_isFlatChanged(){} // RVA: 0x8085770
+        public void get_isFlat(){} // RVA: 0xB63970
+        public void set_isFlat(){} // RVA: 0x8085870
+        public void SetSpecializedHierarchyFlagsUpdater(){} // RVA: 0x80858C0
+        public void add_atlasChanged(){} // RVA: 0x8085A30
+        public void remove_atlasChanged(){} // RVA: 0x8085B30
+        public void InvokeAtlasChanged(){} // RVA: 0x8085C30
+        public void get_atlas(){} // RVA: 0x87C0A0
+        public void set_atlas(){} // RVA: 0x894320
+        public void add_hierarchyChanged(){} // RVA: 0x8085C50
+        public void remove_hierarchyChanged(){} // RVA: 0x8085D50
+        public void InvokeHierarchyChanged(){} // RVA: 0x8085E50
+        public void InvokeBeforeUpdate(){} // RVA: 0x8085E80
+        public void UpdateElementUnderPointers(){} // RVA: 0x8085EA0
+        public void UnityEngine.UIElements.IGroupBox.OnOptionAdded(){} // RVA: 0xB43310
+        public void UnityEngine.UIElements.IGroupBox.OnOptionRemoved(){} // RVA: 0xB43310
+        public void Render(){} // RVA: 0x8086170
+        public void CreateMenu(){} // RVA: 0x80861C0
     }
 
     public class BaseVisualTreeHierarchyTrackerUpdater : BaseVisualTreeUpdater
     {
         // ── Methods ──
-        public void OnHierarchyChange(){} // RVA: 0x7A7E1D590
-        public void OnVersionChanged(){} // RVA: 0x7AF10C470
-        public void Update(){} // RVA: 0x7AF10C6A0
-        public void ProcessNewChange(){} // RVA: 0x7AF10C7F0
-        public void ProcessAddOrMove(){} // RVA: 0x7AF10C920
-        public void ProcessRemove(){} // RVA: 0x7AF10C9E0
-        public void .ctor(){} // RVA: 0x7AF036640
+        public void OnHierarchyChange(){} // RVA: 0x899290
+        public void OnVersionChanged(){} // RVA: 0x7F333D0
+        public void Update(){} // RVA: 0x7F33600
+        public void ProcessNewChange(){} // RVA: 0x7F33750
+        public void ProcessAddOrMove(){} // RVA: 0x7F33880
+        public void ProcessRemove(){} // RVA: 0x7F33940
+        public void .ctor(){} // RVA: 0x6EB5FC0
     }
 
     public class BaseVisualTreeUpdater : Object
     {
         // ── Methods ──
-        public void add_panelChanged(){} // RVA: 0x7AF111CF0
-        public void remove_panelChanged(){} // RVA: 0x7AF111E00
-        public void get_panel(){} // RVA: 0x7AACE3A80
-        public void set_panel(){} // RVA: 0x7AF111F10
-        public void get_visualTree(){} // RVA: 0x7ADB7CFE0
-        public void get_profilerMarker(){} // RVA: 0x7A7E00680
-        public void Dispose(){} // RVA: 0x7A80D7310
-        public void Update(){} // RVA: 0x7A7E18770
-        public void OnVersionChanged(){} // RVA: 0x7A7E1D590
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount(){} // RVA: 0x3E42230
+        public void UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount(){} // RVA: 0x2230E30
+        public void add_panelChanged(){} // RVA: 0x7F38C40
+        public void remove_panelChanged(){} // RVA: 0x7F38D50
+        public void get_panel(){} // RVA: 0x7489A40
+        public void set_panel(){} // RVA: 0x7F38E60
+        public void get_visualTree(){} // RVA: 0x7F38ED0
+        public void get_profilerMarker(){} // RVA: 0x87C0A0
+        public void Dispose(){} // RVA: 0xB43310
+        public void Update(){} // RVA: 0x894290
+        public void OnVersionChanged(){} // RVA: 0x899290
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class BindableElement : VisualElement
     {
         // ── Methods ──
-        public void get_binding(){} // RVA: 0x7A8B5AB10
-        public void set_bindingPath(){} // RVA: 0x7A8B63960
-        public void .ctor(){} // RVA: 0x7AF0C67D0
+        public void get_binding(){} // RVA: 0x1667E80
+        public void set_bindingPath(){} // RVA: 0x1657E60
+        public void .ctor(){} // RVA: 0x7E52440
+    }
+
+    public class BindablePropertyChangedEventArgs : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x992540
+        public void get_propertyName(){} // RVA: 0x35CA60
+    }
+
+    public class Binding : Object
+    {
+        // ── Methods ──
+        public void SetGlobalLogLevel(){} // RVA: 0x7E52740
+        public void SetPanelLogLevel(){} // RVA: 0x7E527A0
+        public void ResetPanelLogLevel(){} // RVA: 0x7E52870
+        public void get_isDirty(){} // RVA: 0xC120A0
+        public void get_updateTrigger(){} // RVA: 0x116A650
+        public void set_updateTrigger(){} // RVA: 0x116BB10
+        public void .ctor(){} // RVA: 0xF482F0
+        public void MarkDirty(){} // RVA: 0xF482F0
+        public void ClearDirty(){} // RVA: 0xF48510
+        public void OnActivated(){} // RVA: 0xB43310
+        public void OnDeactivated(){} // RVA: 0xB43310
+        public void OnDataSourceChanged(){} // RVA: 0xB43310
+    }
+
+    public class BindingActivationContext : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x990BB0
+    }
+
+    public class BindingContext : ValueType
+    {
+        // ── Methods ──
+        public void get_targetElement(){} // RVA: 0x77900
+        public void get_bindingId(){} // RVA: 0x364170
+        public void get_dataSourcePath(){} // RVA: 0x990C80
+        public void get_dataSource(){} // RVA: 0x990CF0
+        public void .ctor(){} // RVA: 0x990D00
+    }
+
+    public class BindingId : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x99BD00
+        public void op_Implicit(){} // RVA: 0x7F2D200
+        public void ToString(){} // RVA: 0x99BD10
+        public void Equals(){} // RVA: 0x99BDA0
+        public void GetHashCode(){} // RVA: 0x99BDB0
+        public void op_Equality(){} // RVA: 0x7F2D650
+        public void op_Inequality(){} // RVA: 0x7F2D720
+        public void .cctor(){} // RVA: 0x7F2D790
+    }
+
+    public class BindingInfo : ValueType
+    {
+        // ── Methods ──
+        public void get_binding(){} // RVA: 0x3518C0
+        public void .ctor(){} // RVA: 0x991730
+        public void FromRequest(){} // RVA: 0x7E77370
+        public void FromBindingData(){} // RVA: 0x7E77520
+    }
+
+    public class BindingResult : ValueType
+    {
+        // ── Methods ──
+        public void get_status(){} // RVA: 0x77E60
+        public void get_message(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
+    }
+
+    public class BindingTarget : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x990BB0
+    }
+
+    public class BindingUpdater : Object
+    {
+        // ── Methods ──
+        public void ShouldProcessBindingAtStage(){} // RVA: 0x7E531A0
+        public void UpdateUI(){} // RVA: 0x7E53CF0
+        public void UpdateSource(){} // RVA: 0x7E53430
+        public void UpdateDataSource(){} // RVA: 0x7E54350
+        public void TryUpdateUIWithNonContainer(){} // RVA: 0x7E543D0
+        public void VisitRoot(){} // RVA: 0x7E550E0
+        public void VisitAtPath(){} // RVA: 0xA94080
+        public void GetVisitationErrorString(){} // RVA: 0x7E55510
+        public void GetExtractValueErrorString(){} // RVA: 0x7E557C0
+        public void GetRootDataSourceError(){} // RVA: 0x7E55A50
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x7E55AE0
     }
 
     public class BoundsField : BaseField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF0E6D90
-        public void SetValueWithoutNotify(){} // RVA: 0x7AF0E7370
-        public void UpdateMixedValueContent(){} // RVA: 0x7AF0E7530
-        public void .cctor(){} // RVA: 0x7AF0E75F0
-        public void <.ctor>b__10_0(){} // RVA: 0x7AF0E7930
-        public void <.ctor>b__10_1(){} // RVA: 0x7AF0E79F0
+        public void .ctor(){} // RVA: 0x7FCC100
+        public void SetValueWithoutNotify(){} // RVA: 0x7FCC6F0
+        public void UpdateMixedValueContent(){} // RVA: 0x7FCC8B0
+        public void .cctor(){} // RVA: 0x7FCC940
+        public void <.ctor>b__11_0(){} // RVA: 0x7FCCC80
+        public void <.ctor>b__11_1(){} // RVA: 0x7FCCD30
     }
 
     public class BoundsIntField : BaseField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF0E8630
-        public void SetValueWithoutNotify(){} // RVA: 0x7AF0E8C10
-        public void UpdateMixedValueContent(){} // RVA: 0x7AF0E8DD0
-        public void .cctor(){} // RVA: 0x7AF0E8E90
-        public void <.ctor>b__10_0(){} // RVA: 0x7AF0E91D0
-        public void <.ctor>b__10_1(){} // RVA: 0x7AF0E9290
+        public void .ctor(){} // RVA: 0x7FCDA10
+        public void SetValueWithoutNotify(){} // RVA: 0x7FCE000
+        public void UpdateMixedValueContent(){} // RVA: 0x7FCE1C0
+        public void .cctor(){} // RVA: 0x7FCE250
+        public void <.ctor>b__11_0(){} // RVA: 0x7FCE590
+        public void <.ctor>b__11_1(){} // RVA: 0x7FCE640
     }
 
     public class Box : VisualElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF0E9E50
-        public void .cctor(){} // RVA: 0x7AF0E9EF0
+        public void .ctor(){} // RVA: 0x7FCF2A0
+        public void .cctor(){} // RVA: 0x7FCF340
     }
 
     public class Button : TextElement
     {
         // ── Methods ──
-        public void get_clickable(){} // RVA: 0x7AF0EA000
-        public void set_clickable(){} // RVA: 0x7AF0EA010
-        public void .ctor(){} // RVA: 0x7AF0EA140
-        public void OnNavigationSubmit(){} // RVA: 0x7AF0EA380
-        public void DoMeasure(){} // RVA: 0x7AF0EA4D0
-        public void .cctor(){} // RVA: 0x7AF0EA5A0
+        public void get_clickable(){} // RVA: 0x7FCF450
+        public void set_clickable(){} // RVA: 0x7FCF460
+        public void get_iconImage(){} // RVA: 0x7FCF580
+        public void set_iconImage(){} // RVA: 0x7FCF5A0
+        public void get_text(){} // RVA: 0x7FCFA70
+        public void set_text(){} // RVA: 0x7FCFA90
+        public void .ctor(){} // RVA: 0x7FCFDE0
+        public void OnNavigationSubmit(){} // RVA: 0x7FD00D0
+        public void DoMeasure(){} // RVA: 0x7FD0270
+        public void UpdateButtonHierarchy(){} // RVA: 0x7FD0340
+        public void ResetButtonHierarchy(){} // RVA: 0x7FD06A0
+        public void .cctor(){} // RVA: 0x7FD0890
     }
 
     public class ButtonStripField : BaseField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF0EA770
-        public void SetValueWithoutNotify(){} // RVA: 0x7AF0EA880
-        public void RefreshButtonsState(){} // RVA: 0x7AF0EA9D0
+        public void .ctor(){} // RVA: 0x7FD1050
+        public void SetValueWithoutNotify(){} // RVA: 0x7FD1160
+        public void RefreshButtonsState(){} // RVA: 0x7FD12A0
     }
 
 }

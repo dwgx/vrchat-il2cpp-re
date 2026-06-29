@@ -5,16 +5,16 @@
 
 namespace VRC.Misc
 {
-    /// <summary>Originally: ÍÌÏÏÏÌÎÏÎÍÏÍÌÍÏÌÍÌÎÏÍÎÌ</summary>
-    public class MicrophoneManagerSibling_9F07
+    /// <summary>Originally: ÏÌÎÌÎÏÎÌÏÌÍÌÎÍÎÎÍÍÏÎÏÎÍ</summary>
+    public class MicrophoneManagerSibling_595D
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7A7E00680
-        public void Shutdown(){} // RVA: 0x7A7E00680
-        public void Register(){} // RVA: 0x7A7E262C0
-        public void Unregister(){} // RVA: 0x7A7E00680
+        public void Initialize(){} // RVA: 0x87C0A0
+        public void Shutdown(){} // RVA: 0x87C0A0
+        public void Register(){} // RVA: 0x8A23A0
+        public void Unregister(){} // RVA: 0x87C0A0
         // ── Unresolved (hash) ──
-        public void m_547(){} // RVA: 0x7A7E192B0
+        public void m_1FF(){} // RVA: 0x894D90
     }
 
 }

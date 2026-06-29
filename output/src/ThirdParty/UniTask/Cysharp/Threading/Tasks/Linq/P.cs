@@ -8,17 +8,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class Pairwise`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x894320
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
     public class Publish`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void Connect(){} // RVA: 0x7A7E00680
-        public void ConsumeEnumerator(){} // RVA: 0x7A7E01900
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x894320
+        public void Connect(){} // RVA: 0x87C0A0
+        public void ConsumeEnumerator(){} // RVA: 0x87D280
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
 }

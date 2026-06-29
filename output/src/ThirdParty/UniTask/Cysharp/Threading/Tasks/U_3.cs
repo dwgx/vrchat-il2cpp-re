@@ -1,920 +1,911 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
 // Classes: 100
-// Methods: 412
+// Methods: 403
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskAsyncEnumerableExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void WithCancellation(){} // RVA: 0xA94080
+    }
+
+    public class UniTaskCancelableAsyncEnumerable`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x899C90
+        public void GetAsyncEnumerator(){} // RVA: 0xA94080
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5022F00
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5028DC0
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetResult(){} // RVA: 0x5028E20
+        public void TrySetCanceled(){} // RVA: 0x5028E50
+        public void TrySetException(){} // RVA: 0x5028EC0
+        public void GetResult(){} // RVA: 0x50290D0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x50292C0
+        public void TrySignalCompletion(){} // RVA: 0x50296B0
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+    }
+
+    public class UniTaskStatusExtensions : Object
+    {
+        // ── Methods ──
+        public void IsCompleted(){} // RVA: 0x67F67A0
+        public void IsCompletedSuccessfully(){} // RVA: 0x22403A0
+        public void IsCanceled(){} // RVA: 0x7746690
+        public void IsFaulted(){} // RVA: 0x77466A0
     }
 
     public class UniTaskSynchronizationContext : SynchronizationContext
     {
         // ── Methods ──
-        public void Send(){} // RVA: 0x7AB10E320
-        public void Post(){} // RVA: 0x7AEB20930
-        public void OperationStarted(){} // RVA: 0x7AEB21100
-        public void OperationCompleted(){} // RVA: 0x7AEB21160
-        public void CreateCopy(){} // RVA: 0x7A97F8BA0
-        public void Run(){} // RVA: 0x7AEB211C0
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7AEB215C0
+        public void Send(){} // RVA: 0x3DC7FC0
+        public void Post(){} // RVA: 0x778FCC0
+        public void OperationStarted(){} // RVA: 0x7790490
+        public void OperationCompleted(){} // RVA: 0x77904F0
+        public void CreateCopy(){} // RVA: 0x2303260
+        public void Run(){} // RVA: 0x7790550
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x7790950
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
+        public void get_Status(){} // RVA: 0x560F60
+        public void GetAwaiter(){} // RVA: 0x560F70
+        public void Preserve(){} // RVA: 0x561020
+        public void AsUniTask(){} // RVA: 0x59F920
+        public void op_Implicit(){} // RVA: 0x5083D10
+        public void SuppressCancellationThrow(){} // RVA: 0x59F5A0
+        public void ToString(){} // RVA: 0x59F950
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
-        public void get_Status(){} // RVA: 0x7A7AF0230
-        public void GetAwaiter(){} // RVA: 0x7A7AF0240
-        public void Preserve(){} // RVA: 0x7A7AF02F0
-        public void AsUniTask(){} // RVA: 0x7A7B31150
-        public void op_Implicit(){} // RVA: 0x7AC374190
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B30DD0
-        public void ToString(){} // RVA: 0x7A7B31180
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5936D0
+        public void get_Status(){} // RVA: 0x5863A0
+        public void GetAwaiter(){} // RVA: 0x571AC0
+        public void Preserve(){} // RVA: 0x593740
+        public void AsUniTask(){} // RVA: 0x59FBF0
+        public void op_Implicit(){} // RVA: 0x506FBB0
+        public void SuppressCancellationThrow(){} // RVA: 0x593910
+        public void ToString(){} // RVA: 0x59FC20
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x586340
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B23AA0
-        public void get_Status(){} // RVA: 0x7A7B15C50
-        public void GetAwaiter(){} // RVA: 0x7A7B016D0
-        public void Preserve(){} // RVA: 0x7A7B23B10
-        public void AsUniTask(){} // RVA: 0x7A7B31420
-        public void op_Implicit(){} // RVA: 0x7AC35FDD0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B23CE0
-        public void ToString(){} // RVA: 0x7A7B31450
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B15BF0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560A50
+        public void get_Status(){} // RVA: 0x560A60
+        public void GetAwaiter(){} // RVA: 0x560A70
+        public void Preserve(){} // RVA: 0x560B40
+        public void AsUniTask(){} // RVA: 0x59FE90
+        public void op_Implicit(){} // RVA: 0x50335A0
+        public void SuppressCancellationThrow(){} // RVA: 0x561B50
+        public void ToString(){} // RVA: 0x59FEC0
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x561E40
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
-        public void get_Status(){} // RVA: 0x7A7AEFD30
-        public void GetAwaiter(){} // RVA: 0x7A7AEFD40
-        public void Preserve(){} // RVA: 0x7A7AEFE10
-        public void AsUniTask(){} // RVA: 0x7A7B316C0
-        public void op_Implicit(){} // RVA: 0x7AC2E39C0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7AF0E20
-        public void ToString(){} // RVA: 0x7A7B316F0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0FD0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x563690
+        public void get_Status(){} // RVA: 0x5636A0
+        public void GetAwaiter(){} // RVA: 0x5636B0
+        public void Preserve(){} // RVA: 0x5637A0
+        public void AsUniTask(){} // RVA: 0x5A3BB0
+        public void op_Implicit(){} // RVA: 0x508C540
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3BE0
+        public void ToString(){} // RVA: 0x5A3C30
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x562290
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF7200
-        public void get_Status(){} // RVA: 0x7A7AF7210
-        public void GetAwaiter(){} // RVA: 0x7A7AF7220
-        public void Preserve(){} // RVA: 0x7A7AF7310
-        public void AsUniTask(){} // RVA: 0x7A7B356B0
-        public void op_Implicit(){} // RVA: 0x7AC37C970
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B356E0
-        public void ToString(){} // RVA: 0x7A7B35730
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF1420
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
+        public void get_Status(){} // RVA: 0x560F60
+        public void GetAwaiter(){} // RVA: 0x560F70
+        public void Preserve(){} // RVA: 0x561020
+        public void AsUniTask(){} // RVA: 0x59F920
+        public void op_Implicit(){} // RVA: 0x5083D10
+        public void SuppressCancellationThrow(){} // RVA: 0x59F5A0
+        public void ToString(){} // RVA: 0x59F950
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
-        public void get_Status(){} // RVA: 0x7A7AF0230
-        public void GetAwaiter(){} // RVA: 0x7A7AF0240
-        public void Preserve(){} // RVA: 0x7A7AF02F0
-        public void AsUniTask(){} // RVA: 0x7A7B31150
-        public void op_Implicit(){} // RVA: 0x7AC374190
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B30DD0
-        public void ToString(){} // RVA: 0x7A7B31180
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x560F00
+        public void get_Status(){} // RVA: 0x560F60
+        public void GetAwaiter(){} // RVA: 0x560F70
+        public void Preserve(){} // RVA: 0x561020
+        public void AsUniTask(){} // RVA: 0x59D320
+        public void op_Implicit(){} // RVA: 0x507E8B0
+        public void SuppressCancellationThrow(){} // RVA: 0x59D350
+        public void ToString(){} // RVA: 0x59D390
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560A50
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
-        public void get_Status(){} // RVA: 0x7A7AF0230
-        public void GetAwaiter(){} // RVA: 0x7A7AF0240
-        public void Preserve(){} // RVA: 0x7A7AF02F0
-        public void AsUniTask(){} // RVA: 0x7A7B2EB50
-        public void op_Implicit(){} // RVA: 0x7AC36ED30
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B2EB80
-        public void ToString(){} // RVA: 0x7A7B2EBC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x561420
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A04A0
+        public void op_Implicit(){} // RVA: 0x5032500
+        public void SuppressCancellationThrow(){} // RVA: 0x561560
+        public void ToString(){} // RVA: 0x5A04D0
     }
 
 }

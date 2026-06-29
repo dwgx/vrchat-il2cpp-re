@@ -8,695 +8,695 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB44E5D0
-        public void WriteCore(){} // RVA: 0x7AB44EBD0
-        public void .ctor(){} // RVA: 0x7AB44EE50
-        public void CanConvert(){} // RVA: 0x7AB44F020
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB44F0F0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB44F2D0
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB44F410
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB44F550
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB44F690
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB44F7E0
-        public void TryWriteAsObject(){} // RVA: 0x7AB44F920
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB431680
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB44FA70
-        public void OnTryReadAsObject(){} // RVA: 0x7AB44FDD0
-        public void TryReadAsObject(){} // RVA: 0x7AB44FF80
-        public void ReadAsObject(){} // RVA: 0x7AB431BB0
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB431C00
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB431C50
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB431CA0
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB450140
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB4504A0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1E190
-        public void ReadAsPropertyName(){} // RVA: 0x7AB450750
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB450800
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB4508B0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB4509D0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40D46A0
+        public void WriteCore(){} // RVA: 0x40D4A80
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40D4B90
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40D4D40
+        public void OnTryWriteAsObject(){} // RVA: 0x40D4E70
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40D4FA0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40D50D0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40D5200
+        public void TryWriteAsObject(){} // RVA: 0x40D5330
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40BCD80
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x40D5470
+        public void OnTryReadAsObject(){} // RVA: 0x40D57D0
+        public void TryReadAsObject(){} // RVA: 0x40D5980
+        public void ReadAsObject(){} // RVA: 0x40BD2B0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40BD300
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40BD350
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40BD3A0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x40D5B40
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40D5EA0
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x899E40
+        public void ReadAsPropertyName(){} // RVA: 0x40D6150
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x40D6200
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40BDB80
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40D62B0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB45ABB0
-        public void WriteCore(){} // RVA: 0x7AB45B0D0
-        public void .ctor(){} // RVA: 0x7AB45B350
-        public void CanConvert(){} // RVA: 0x7AB45B520
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB45B5F0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB45B670
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB45B790
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB45B8B0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45B9D0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45BAF0
-        public void TryWriteAsObject(){} // RVA: 0x7AB45BC10
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB45BD40
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB45BDB0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB45C110
-        public void TryReadAsObject(){} // RVA: 0x7AB45C1B0
-        public void ReadAsObject(){} // RVA: 0x7AB45C260
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB406F40
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45C280
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45C2A0
-        public void IsNull(){} // RVA: 0x7AB45A1A0
-        public void TryWrite(){} // RVA: 0x7AB45C2C0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB45C5C0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1DDC0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB45C870
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB45C920
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB45C9D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB45CAF0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40DE6C0
+        public void WriteCore(){} // RVA: 0x40DE9C0
+        public void .ctor(){} // RVA: 0x40DEAD0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40DEC40
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40DECC0
+        public void OnTryWriteAsObject(){} // RVA: 0x40DEDC0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40DEEC0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40DEFC0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF0D0
+        public void TryWriteAsObject(){} // RVA: 0x40DF1D0
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40DF2E0
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x40DF350
+        public void OnTryReadAsObject(){} // RVA: 0x40DF6B0
+        public void TryReadAsObject(){} // RVA: 0x40DF750
+        public void ReadAsObject(){} // RVA: 0x40DF800
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x409B7C0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40DF820
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF840
+        public void IsNull(){} // RVA: 0x40DDDC0
+        public void TryWrite(){} // RVA: 0x40DF860
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40DFB60
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8954D0
+        public void ReadAsPropertyName(){} // RVA: 0x40DFE10
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x40DFEC0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40DFF70
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40E0080
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB4540F0
-        public void WriteCore(){} // RVA: 0x7AB454660
-        public void .ctor(){} // RVA: 0x7AB4548E0
-        public void CanConvert(){} // RVA: 0x7AB454AB0
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB454B80
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB454D60
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB454EB0
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB455010
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB455160
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB4552C0
-        public void TryWriteAsObject(){} // RVA: 0x7AB455410
-        public void OnTryWrite(){} // RVA: 0x7AB40EF60
-        public void OnTryRead(){} // RVA: 0x7AB40EFA0
-        public void Read(){} // RVA: 0x7A7E00630
-        public void TryRead(){} // RVA: 0x7AB455570
-        public void OnTryReadAsObject(){} // RVA: 0x7AB40F490
-        public void TryReadAsObject(){} // RVA: 0x7AB4559D0
-        public void ReadAsObject(){} // RVA: 0x7AB40F630
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB40F690
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB40F6F0
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB40F750
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB455AB0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB455E50
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1DDC0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB456120
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB40FFE0
-        public void WriteAsPropertyName(){} // RVA: 0x7AB4561F0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB4562B0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB4563E0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA30
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40D8F40
+        public void WriteCore(){} // RVA: 0x40D9290
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40D93A0
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40D9550
+        public void OnTryWriteAsObject(){} // RVA: 0x40D9680
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40D97C0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40D98F0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40D9A30
+        public void TryWriteAsObject(){} // RVA: 0x40D9B60
+        public void OnTryWrite(){} // RVA: 0x40A2B00
+        public void OnTryRead(){} // RVA: 0x40A2B40
+        public void Read(){} // RVA: 0x87C050
+        public void TryRead(){} // RVA: 0x40D9CA0
+        public void OnTryReadAsObject(){} // RVA: 0x40A3030
+        public void TryReadAsObject(){} // RVA: 0x40DA100
+        public void ReadAsObject(){} // RVA: 0x40A31D0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40A3230
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40A3290
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40A32F0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x40DA1E0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40DA580
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8954D0
+        public void ReadAsPropertyName(){} // RVA: 0x40DA850
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40A3B80
+        public void WriteAsPropertyName(){} // RVA: 0x40DA920
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40A3CD0
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40DA9E0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B00
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7A80804D0
-        public void WriteCore(){} // RVA: 0x7AB47E1E0
-        public void .ctor(){} // RVA: 0x7AB47E460
-        public void CanConvert(){} // RVA: 0x7AB47E710
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB47E7E0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB47E860
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB47EA20
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB47EBF0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB47EDB0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB47EF80
-        public void TryWriteAsObject(){} // RVA: 0x7AB47F140
-        public void OnTryWrite(){} // RVA: 0x7A80804D0
-        public void OnTryRead(){} // RVA: 0x7AB47F380
-        public void Read(){} // RVA: 0x7A80804D0
-        public void TryRead(){} // RVA: 0x7AB47F490
-        public void OnTryReadAsObject(){} // RVA: 0x7AB47F910
-        public void TryReadAsObject(){} // RVA: 0x7AB47FA70
-        public void ReadAsObject(){} // RVA: 0x7AB47FBD0
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB47FD10
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB47FE50
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB47FF90
-        public void IsNull(){} // RVA: 0x7A80804D0
-        public void TryWrite(){} // RVA: 0x7AB4800D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7A80804D0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A80804D0
-        public void ReadAsPropertyName(){} // RVA: 0x7A80804D0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7A80804D0
-        public void WriteAsPropertyName(){} // RVA: 0x7A80804D0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7A80804D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB481000
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7A80804D0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7A80804D0
+        public void ReadCore(){} // RVA: 0xAD0950
+        public void WriteCore(){} // RVA: 0x4118160
+        public void .ctor(){} // RVA: 0x4118270
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x41184C0
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x4118540
+        public void OnTryWriteAsObject(){} // RVA: 0x4118700
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x41188D0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4118A90
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x4118C60
+        public void TryWriteAsObject(){} // RVA: 0x4118E20
+        public void OnTryWrite(){} // RVA: 0xAD0950
+        public void OnTryRead(){} // RVA: 0x4119060
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4119170
+        public void OnTryReadAsObject(){} // RVA: 0x41195F0
+        public void TryReadAsObject(){} // RVA: 0x4119750
+        public void ReadAsObject(){} // RVA: 0x41198B0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x41199F0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x4119B30
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x4119C70
+        public void IsNull(){} // RVA: 0xAD0950
+        public void TryWrite(){} // RVA: 0x4119DB0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0xAD0950
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0xAD0950
+        public void WriteAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x411ACD0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0xAD0950
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB45E720
-        public void WriteCore(){} // RVA: 0x7AB45ED20
-        public void .ctor(){} // RVA: 0x7AB45EFA0
-        public void CanConvert(){} // RVA: 0x7AB45F170
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB45F240
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB45F420
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB45F560
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB45F6A0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45F7E0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45F930
-        public void TryWriteAsObject(){} // RVA: 0x7AB45FA70
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB41DF50
-        public void Read(){} // RVA: 0x7A7E01D90
-        public void TryRead(){} // RVA: 0x7AB45FBC0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB41E2E0
-        public void TryReadAsObject(){} // RVA: 0x7AB45FF20
-        public void ReadAsObject(){} // RVA: 0x7AB41E670
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB41E6C0
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB41E710
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB41E760
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB4600F0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB460450
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1E800
-        public void ReadAsPropertyName(){} // RVA: 0x7AB460700
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB4607B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB460860
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB460980
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40FE8C0
+        public void WriteCore(){} // RVA: 0x40FECA0
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40FEDB0
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40FEF60
+        public void OnTryWriteAsObject(){} // RVA: 0x40FF090
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40FF1C0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40FF2F0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40FF420
+        public void TryWriteAsObject(){} // RVA: 0x40FF550
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40AD030
+        public void Read(){} // RVA: 0x87D710
+        public void TryRead(){} // RVA: 0x40FF690
+        public void OnTryReadAsObject(){} // RVA: 0x40AD3C0
+        public void TryReadAsObject(){} // RVA: 0x40FF9F0
+        public void ReadAsObject(){} // RVA: 0x40AD750
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40AD7A0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40AD7F0
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40AD840
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x40FFBC0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40FFF20
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x89A3D0
+        public void ReadAsPropertyName(){} // RVA: 0x41001D0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x4100280
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40AE060
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x4100330
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB4625F0
-        public void WriteCore(){} // RVA: 0x7AB462B40
-        public void .ctor(){} // RVA: 0x7AB462DC0
-        public void CanConvert(){} // RVA: 0x7AB462F90
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB463060
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB463240
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB463380
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB4634C0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB463600
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB463750
-        public void TryWriteAsObject(){} // RVA: 0x7AB463890
-        public void OnTryWrite(){} // RVA: 0x7AB43D520
-        public void OnTryRead(){} // RVA: 0x7AB4639F0
-        public void Read(){} // RVA: 0x7A7E16130
-        public void TryRead(){} // RVA: 0x7AB463A20
-        public void OnTryReadAsObject(){} // RVA: 0x7AB463D80
-        public void TryReadAsObject(){} // RVA: 0x7AB463E40
-        public void ReadAsObject(){} // RVA: 0x7AB463F20
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB463F70
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB463FC0
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB464010
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB464060
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB4643E0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E25710
-        public void ReadAsPropertyName(){} // RVA: 0x7AB4646A0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB43E2B0
-        public void WriteAsPropertyName(){} // RVA: 0x7AB464750
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB464800
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB464920
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x4101C00
+        public void WriteCore(){} // RVA: 0x4101F30
+        public void .ctor(){} // RVA: 0x40C5D40
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x4102040
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x41021F0
+        public void OnTryWriteAsObject(){} // RVA: 0x4102320
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x4102450
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4102580
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x41026B0
+        public void TryWriteAsObject(){} // RVA: 0x41027E0
+        public void OnTryWrite(){} // RVA: 0x40C6790
+        public void OnTryRead(){} // RVA: 0x4102920
+        public void Read(){} // RVA: 0x891B10
+        public void TryRead(){} // RVA: 0x4102950
+        public void OnTryReadAsObject(){} // RVA: 0x4102CB0
+        public void TryReadAsObject(){} // RVA: 0x4102D70
+        public void ReadAsObject(){} // RVA: 0x4102E50
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x4102EA0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x4102EF0
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x4102F40
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x4102F90
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4103310
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8A1730
+        public void ReadAsPropertyName(){} // RVA: 0x41035D0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40C7520
+        public void WriteAsPropertyName(){} // RVA: 0x4103680
+        public void WriteAsPropertyNameCore(){} // RVA: 0x4103730
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x4103810
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB45ABB0
-        public void WriteCore(){} // RVA: 0x7AB45B0D0
-        public void .ctor(){} // RVA: 0x7AB45B350
-        public void CanConvert(){} // RVA: 0x7AB45B520
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB45B5F0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB45B670
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB45B790
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB45B8B0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45B9D0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45BAF0
-        public void TryWriteAsObject(){} // RVA: 0x7AB45BC10
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB45BD40
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB45BDB0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB45C110
-        public void TryReadAsObject(){} // RVA: 0x7AB45C1B0
-        public void ReadAsObject(){} // RVA: 0x7AB45C260
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB406F40
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45C280
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45C2A0
-        public void IsNull(){} // RVA: 0x7AB45A1A0
-        public void TryWrite(){} // RVA: 0x7AB45C2C0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB45C5C0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1DDC0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB45C870
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB45C920
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB45C9D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB45CAF0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40DE6C0
+        public void WriteCore(){} // RVA: 0x40DE9C0
+        public void .ctor(){} // RVA: 0x40DEAD0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40DEC40
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40DECC0
+        public void OnTryWriteAsObject(){} // RVA: 0x40DEDC0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40DEEC0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40DEFC0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF0D0
+        public void TryWriteAsObject(){} // RVA: 0x40DF1D0
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40DF2E0
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x40DF350
+        public void OnTryReadAsObject(){} // RVA: 0x40DF6B0
+        public void TryReadAsObject(){} // RVA: 0x40DF750
+        public void ReadAsObject(){} // RVA: 0x40DF800
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x409B7C0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40DF820
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF840
+        public void IsNull(){} // RVA: 0x40DDDC0
+        public void TryWrite(){} // RVA: 0x40DF860
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40DFB60
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8954D0
+        public void ReadAsPropertyName(){} // RVA: 0x40DFE10
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x40DFEC0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40DFF70
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40E0080
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB466490
-        public void WriteCore(){} // RVA: 0x7AB4669D0
-        public void .ctor(){} // RVA: 0x7AB466C50
-        public void CanConvert(){} // RVA: 0x7AB466E20
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB466EF0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB4670D0
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB467210
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB467350
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB467490
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB4675E0
-        public void TryWriteAsObject(){} // RVA: 0x7AB467720
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB431680
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB467870
-        public void OnTryReadAsObject(){} // RVA: 0x7AB431A10
-        public void TryReadAsObject(){} // RVA: 0x7AB467BD0
-        public void ReadAsObject(){} // RVA: 0x7AB431BB0
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB431C00
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB431C50
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB431CA0
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB467CB0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB468020
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1E190
-        public void ReadAsPropertyName(){} // RVA: 0x7AB4682E0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB468390
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB468440
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB468560
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x4104E40
+        public void WriteCore(){} // RVA: 0x4105160
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x4105270
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x4105420
+        public void OnTryWriteAsObject(){} // RVA: 0x4105550
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x4105680
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x41057B0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x41058E0
+        public void TryWriteAsObject(){} // RVA: 0x4105A10
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40BCD80
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x4105B50
+        public void OnTryReadAsObject(){} // RVA: 0x40BD110
+        public void TryReadAsObject(){} // RVA: 0x4105EB0
+        public void ReadAsObject(){} // RVA: 0x40BD2B0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40BD300
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40BD350
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40BD3A0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x4105F90
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4106300
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x899E40
+        public void ReadAsPropertyName(){} // RVA: 0x41065C0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x4106670
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40BDB80
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x4106720
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB46A1A0
-        public void WriteCore(){} // RVA: 0x7AB46A7A0
-        public void .ctor(){} // RVA: 0x7AB46AA20
-        public void CanConvert(){} // RVA: 0x7AB46ABF0
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB46ACC0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB46AEA0
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB46AFE0
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB46B120
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB46B260
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB46B3B0
-        public void TryWriteAsObject(){} // RVA: 0x7AB46B4F0
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB428590
-        public void Read(){} // RVA: 0x7A7E073F0
-        public void TryRead(){} // RVA: 0x7AB46B640
-        public void OnTryReadAsObject(){} // RVA: 0x7AB428920
-        public void TryReadAsObject(){} // RVA: 0x7AB46B9A0
-        public void ReadAsObject(){} // RVA: 0x7AB428C90
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB428CE0
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB428D30
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB428D80
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB46BB60
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB46BEC0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1F700
-        public void ReadAsPropertyName(){} // RVA: 0x7AB46C170
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB46C220
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB46C2D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB46C3F0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x4107E20
+        public void WriteCore(){} // RVA: 0x4108200
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x4108310
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x41084C0
+        public void OnTryWriteAsObject(){} // RVA: 0x41085F0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x4108720
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4108850
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x4108980
+        public void TryWriteAsObject(){} // RVA: 0x4108AB0
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40B5700
+        public void Read(){} // RVA: 0x882DB0
+        public void TryRead(){} // RVA: 0x4108BF0
+        public void OnTryReadAsObject(){} // RVA: 0x40B5A90
+        public void TryReadAsObject(){} // RVA: 0x4108F50
+        public void ReadAsObject(){} // RVA: 0x40B5E00
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40B5E50
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40B5EA0
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40B5EF0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x4109110
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x4109470
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x89B370
+        public void ReadAsPropertyName(){} // RVA: 0x4109720
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x41097D0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40B66B0
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x4109880
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB46E030
-        public void WriteCore(){} // RVA: 0x7AB46E630
-        public void .ctor(){} // RVA: 0x7AB46E8B0
-        public void CanConvert(){} // RVA: 0x7AB46EA80
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB46EB50
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB46ED30
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB46EE70
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB46EFB0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB46F0F0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB46F240
-        public void TryWriteAsObject(){} // RVA: 0x7AB46F380
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB419A40
-        public void Read(){} // RVA: 0x7A7E018B0
-        public void TryRead(){} // RVA: 0x7AB46F4D0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB449870
-        public void TryReadAsObject(){} // RVA: 0x7AB46F830
-        public void ReadAsObject(){} // RVA: 0x7AB419F70
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB419FC0
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB41A010
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB41A060
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB46F9F0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB46FD50
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E18AE0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB470000
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB4700B0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB470160
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB470280
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x410AF80
+        public void WriteCore(){} // RVA: 0x410B350
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x410B460
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x410B610
+        public void OnTryWriteAsObject(){} // RVA: 0x410B740
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x410B870
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x410B9A0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x410BAD0
+        public void TryWriteAsObject(){} // RVA: 0x410BC00
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40D0210
+        public void Read(){} // RVA: 0x887390
+        public void TryRead(){} // RVA: 0x410BD40
+        public void OnTryReadAsObject(){} // RVA: 0x40D0580
+        public void TryReadAsObject(){} // RVA: 0x410C0A0
+        public void ReadAsObject(){} // RVA: 0x40D08F0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40D0940
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40D0990
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40D09E0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x410C260
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x410C5C0
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x894600
+        public void ReadAsPropertyName(){} // RVA: 0x410C870
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x410C920
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40D11A0
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x410C9D0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB471EC0
-        public void WriteCore(){} // RVA: 0x7AB4724C0
-        public void .ctor(){} // RVA: 0x7AB472740
-        public void CanConvert(){} // RVA: 0x7AB472910
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB4729E0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB472BC0
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB472D00
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB472E40
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB472F80
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB4730D0
-        public void TryWriteAsObject(){} // RVA: 0x7AB473210
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB431680
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB473360
-        public void OnTryReadAsObject(){} // RVA: 0x7AB44FDD0
-        public void TryReadAsObject(){} // RVA: 0x7AB4736C0
-        public void ReadAsObject(){} // RVA: 0x7AB431BB0
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB431C00
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB431C50
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB431CA0
-        public void IsNull(){} // RVA: 0x7A80D7320
-        public void TryWrite(){} // RVA: 0x7AB473880
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB473BE0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1E190
-        public void ReadAsPropertyName(){} // RVA: 0x7AB473E90
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB473F40
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB473FF0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB474110
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x410E0D0
+        public void WriteCore(){} // RVA: 0x410E4B0
+        public void .ctor(){} // RVA: 0x40A1FE0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x410E5C0
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x410E770
+        public void OnTryWriteAsObject(){} // RVA: 0x410E8A0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x410E9D0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x410EB00
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x410EC30
+        public void TryWriteAsObject(){} // RVA: 0x410ED60
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40BCD80
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x410EEA0
+        public void OnTryReadAsObject(){} // RVA: 0x40D57D0
+        public void TryReadAsObject(){} // RVA: 0x410F200
+        public void ReadAsObject(){} // RVA: 0x40BD2B0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x40BD300
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40BD350
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40BD3A0
+        public void IsNull(){} // RVA: 0xB43320
+        public void TryWrite(){} // RVA: 0x410F3C0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x410F720
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x899E40
+        public void ReadAsPropertyName(){} // RVA: 0x410F9D0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x410FA80
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40BDB80
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x410FB30
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7A80804D0
-        public void WriteCore(){} // RVA: 0x7AB47E1E0
-        public void .ctor(){} // RVA: 0x7AB47E460
-        public void CanConvert(){} // RVA: 0x7AB47E710
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB47E7E0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB47E860
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB47EA20
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB47EBF0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB47EDB0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB47EF80
-        public void TryWriteAsObject(){} // RVA: 0x7AB47F140
-        public void OnTryWrite(){} // RVA: 0x7AB47F290
-        public void OnTryRead(){} // RVA: 0x7AB47F380
-        public void Read(){} // RVA: 0x7A80804D0
-        public void TryRead(){} // RVA: 0x7AB47F490
-        public void OnTryReadAsObject(){} // RVA: 0x7AB47F910
-        public void TryReadAsObject(){} // RVA: 0x7AB47FA70
-        public void ReadAsObject(){} // RVA: 0x7AB47FBD0
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB47FD10
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB47FE50
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB47FF90
-        public void IsNull(){} // RVA: 0x7AB47C250
-        public void TryWrite(){} // RVA: 0x7AB4800D0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB480680
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A8051B10
-        public void ReadAsPropertyName(){} // RVA: 0x7A80804D0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7A80804D0
-        public void WriteAsPropertyName(){} // RVA: 0x7AB480C40
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB480DA0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB481000
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7A80804D0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0xAD0950
+        public void WriteCore(){} // RVA: 0x4118160
+        public void .ctor(){} // RVA: 0x4118270
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x41184C0
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x4118540
+        public void OnTryWriteAsObject(){} // RVA: 0x4118700
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x41188D0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x4118A90
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x4118C60
+        public void TryWriteAsObject(){} // RVA: 0x4118E20
+        public void OnTryWrite(){} // RVA: 0x4118F70
+        public void OnTryRead(){} // RVA: 0x4119060
+        public void Read(){} // RVA: 0xA94080
+        public void TryRead(){} // RVA: 0x4119170
+        public void OnTryReadAsObject(){} // RVA: 0x41195F0
+        public void TryReadAsObject(){} // RVA: 0x4119750
+        public void ReadAsObject(){} // RVA: 0x41198B0
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x41199F0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x4119B30
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x4119C70
+        public void IsNull(){} // RVA: 0x41164C0
+        public void TryWrite(){} // RVA: 0x4119DB0
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x411A360
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void ReadAsPropertyNameCore(){} // RVA: 0xAD0950
+        public void WriteAsPropertyName(){} // RVA: 0x411A920
+        public void WriteAsPropertyNameCore(){} // RVA: 0x411AA80
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x411ACD0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0xAD0950
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB45ABB0
-        public void WriteCore(){} // RVA: 0x7AB45B0D0
-        public void .ctor(){} // RVA: 0x7AB45B350
-        public void CanConvert(){} // RVA: 0x7AB45B520
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB45B5F0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB45B670
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB45B790
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB45B8B0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45B9D0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45BAF0
-        public void TryWriteAsObject(){} // RVA: 0x7AB45BC10
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB45BD40
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB45BDB0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB45C110
-        public void TryReadAsObject(){} // RVA: 0x7AB45C1B0
-        public void ReadAsObject(){} // RVA: 0x7AB45C260
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB406F40
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45C280
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45C2A0
-        public void IsNull(){} // RVA: 0x7AB45A1A0
-        public void TryWrite(){} // RVA: 0x7AB45C2C0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB45C5C0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1DDC0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB45C870
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB45C920
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB45C9D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB45CAF0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40DE6C0
+        public void WriteCore(){} // RVA: 0x40DE9C0
+        public void .ctor(){} // RVA: 0x40DEAD0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40DEC40
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40DECC0
+        public void OnTryWriteAsObject(){} // RVA: 0x40DEDC0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40DEEC0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40DEFC0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF0D0
+        public void TryWriteAsObject(){} // RVA: 0x40DF1D0
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40DF2E0
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x40DF350
+        public void OnTryReadAsObject(){} // RVA: 0x40DF6B0
+        public void TryReadAsObject(){} // RVA: 0x40DF750
+        public void ReadAsObject(){} // RVA: 0x40DF800
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x409B7C0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40DF820
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF840
+        public void IsNull(){} // RVA: 0x40DDDC0
+        public void TryWrite(){} // RVA: 0x40DF860
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40DFB60
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8954D0
+        public void ReadAsPropertyName(){} // RVA: 0x40DFE10
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x40DFEC0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40DFF70
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40E0080
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonConverter`1 : JsonConverter
     {
         // ── Methods ──
-        public void ReadCore(){} // RVA: 0x7AB45ABB0
-        public void WriteCore(){} // RVA: 0x7AB45B0D0
-        public void .ctor(){} // RVA: 0x7AB45B350
-        public void CanConvert(){} // RVA: 0x7AB45B520
-        public void GetDefaultConverterStrategy(){} // RVA: 0x7AB40BF50
-        public void CreateJsonTypeInfo(){} // RVA: 0x7AB45B5F0
-        public void get_KeyType(){} // RVA: 0x7A82D1450
-        public void get_ElementType(){} // RVA: 0x7A82D1450
-        public void get_HandleNull(){} // RVA: 0x7AB40E730
-        public void WriteAsObject(){} // RVA: 0x7AB45B670
-        public void OnTryWriteAsObject(){} // RVA: 0x7AB45B790
-        public void WriteAsPropertyNameAsObject(){} // RVA: 0x7AB45B8B0
-        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45B9D0
-        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45BAF0
-        public void TryWriteAsObject(){} // RVA: 0x7AB45BC10
-        public void OnTryWrite(){} // RVA: 0x7AB419A10
-        public void OnTryRead(){} // RVA: 0x7AB45BD40
-        public void Read(){} // RVA: 0x7A7E06710
-        public void TryRead(){} // RVA: 0x7AB45BDB0
-        public void OnTryReadAsObject(){} // RVA: 0x7AB45C110
-        public void TryReadAsObject(){} // RVA: 0x7AB45C1B0
-        public void ReadAsObject(){} // RVA: 0x7AB45C260
-        public void ReadAsPropertyNameAsObject(){} // RVA: 0x7AB406F40
-        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x7AB45C280
-        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x7AB45C2A0
-        public void IsNull(){} // RVA: 0x7AB45A1A0
-        public void TryWrite(){} // RVA: 0x7AB45C2C0
-        public void TryWriteDataExtensionProperty(){} // RVA: 0x7AB45C5C0
-        public void get_Type(){} // RVA: 0x7A8105330
-        public void VerifyRead(){} // RVA: 0x7AB40FE20
-        public void VerifyWrite(){} // RVA: 0x7AB40FEE0
-        public void Write(){} // RVA: 0x7A7E1DDC0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB45C870
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AB41A790
-        public void WriteAsPropertyName(){} // RVA: 0x7AB45C920
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AB45C9D0
-        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x7AB45CAF0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AB40DA70
+        public void ReadCore(){} // RVA: 0x40DE6C0
+        public void WriteCore(){} // RVA: 0x40DE9C0
+        public void .ctor(){} // RVA: 0x40DEAD0
+        public void CanConvert(){} // RVA: 0x40A2150
+        public void GetDefaultConverterStrategy(){} // RVA: 0x40A00B0
+        public void CreateJsonTypeInfo(){} // RVA: 0x40DEC40
+        public void get_KeyType(){} // RVA: 0xDAC980
+        public void get_ElementType(){} // RVA: 0xDAC980
+        public void get_HandleNull(){} // RVA: 0x40A2390
+        public void WriteAsObject(){} // RVA: 0x40DECC0
+        public void OnTryWriteAsObject(){} // RVA: 0x40DEDC0
+        public void WriteAsPropertyNameAsObject(){} // RVA: 0x40DEEC0
+        public void WriteAsPropertyNameCoreAsObject(){} // RVA: 0x40DEFC0
+        public void WriteNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF0D0
+        public void TryWriteAsObject(){} // RVA: 0x40DF1D0
+        public void OnTryWrite(){} // RVA: 0x40AD000
+        public void OnTryRead(){} // RVA: 0x40DF2E0
+        public void Read(){} // RVA: 0x882090
+        public void TryRead(){} // RVA: 0x40DF350
+        public void OnTryReadAsObject(){} // RVA: 0x40DF6B0
+        public void TryReadAsObject(){} // RVA: 0x40DF750
+        public void ReadAsObject(){} // RVA: 0x40DF800
+        public void ReadAsPropertyNameAsObject(){} // RVA: 0x409B7C0
+        public void ReadAsPropertyNameCoreAsObject(){} // RVA: 0x40DF820
+        public void ReadNumberWithCustomHandlingAsObject(){} // RVA: 0x40DF840
+        public void IsNull(){} // RVA: 0x40DDDC0
+        public void TryWrite(){} // RVA: 0x40DF860
+        public void TryWriteDataExtensionProperty(){} // RVA: 0x40DFB60
+        public void get_Type(){} // RVA: 0xB70160
+        public void VerifyRead(){} // RVA: 0x40A39C0
+        public void VerifyWrite(){} // RVA: 0x40A3A80
+        public void Write(){} // RVA: 0x8954D0
+        public void ReadAsPropertyName(){} // RVA: 0x40DFE10
+        public void ReadAsPropertyNameCore(){} // RVA: 0x40ADF50
+        public void WriteAsPropertyName(){} // RVA: 0x40DFEC0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x40DFF70
+        public void GetFallbackConverterForPropertyNameSerialization(){} // RVA: 0x40E0080
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x40A1B40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x40A1B40
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E03A70
+        public void OnWriteResume(){} // RVA: 0x880310
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E041F0
+        public void OnWriteResume(){} // RVA: 0x87FAD0
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
+        public void OnWriteResume(){} // RVA: 0x87D760
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
+        public void OnWriteResume(){} // RVA: 0x87D760
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E040A0
+        public void OnWriteResume(){} // RVA: 0x87F930
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E057A0
+        public void OnWriteResume(){} // RVA: 0x881120
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
+        public void OnWriteResume(){} // RVA: 0x87D760
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E041F0
+        public void OnWriteResume(){} // RVA: 0x87FAD0
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E04530
+        public void OnWriteResume(){} // RVA: 0x87FE10
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E03A70
+        public void OnWriteResume(){} // RVA: 0x880310
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E041F0
+        public void OnWriteResume(){} // RVA: 0x87FAD0
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
+        public void OnWriteResume(){} // RVA: 0x87D760
     }
 
     public class JsonDictionaryConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
+        public void OnWriteResume(){} // RVA: 0x87D760
     }
 
 }

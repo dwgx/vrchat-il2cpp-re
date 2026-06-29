@@ -1,882 +1,1191 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.TextCore.Text
-// Classes: 52
-// Methods: 614
+// Classes: 66
+// Methods: 853
 
 namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 {
     public class Character : TextElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AED804C0
+        public void .ctor(){} // RVA: 0x79EDB50
     }
 
     public class CharacterSubstitution : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7615330
+        public void .ctor(){} // RVA: 0x2B100
     }
 
     public class Character[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class ColorUtilities : Object
     {
         // ── Methods ──
-        public void CompareColors(){} // RVA: 0x7AF045A00
-        public void MultiplyColors(){} // RVA: 0x7AF045A40
+        public void CompareColors(){} // RVA: 0x7DC9170
+        public void MultiplyColors(){} // RVA: 0x7DC91B0
     }
 
     public class Extents : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A7EF9F80
+        public void ToString(){} // RVA: 0x98CE40
+    }
+
+    public class FastAction : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7DC9290
+    }
+
+    public class FastAction`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x894290
+    }
+
+    public class FastAction`2 : Object
+    {
+        // ── Methods ──
+        public void Call(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
+    }
+
+    public class FastAction`3 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class FontAsset : TextAsset
     {
         // ── Methods ──
-        public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7AF045B20
-        public void set_fontAssetCreationEditorSettings(){} // RVA: 0x7AF045B60
-        public void get_sourceFontFile(){} // RVA: 0x7AEF67580
-        public void set_sourceFontFile(){} // RVA: 0x7A8744720
-        public void get_atlasPopulationMode(){} // RVA: 0x7AF045BF0
-        public void set_atlasPopulationMode(){} // RVA: 0x7A8A67200
-        public void get_faceInfo(){} // RVA: 0x7AF045C00
-        public void set_faceInfo(){} // RVA: 0x7AF045C50
-        public void get_familyNameHashCode(){} // RVA: 0x7AF045CE0
-        public void set_familyNameHashCode(){} // RVA: 0x7A98A24D0
-        public void get_styleNameHashCode(){} // RVA: 0x7AF045D20
-        public void set_styleNameHashCode(){} // RVA: 0x7AED8BDC0
-        public void get_glyphTable(){} // RVA: 0x7AF045D60
-        public void set_glyphTable(){} // RVA: 0x7A864C880
-        public void get_glyphLookupTable(){} // RVA: 0x7AF045D70
-        public void get_characterTable(){} // RVA: 0x7AF045DB0
-        public void set_characterTable(){} // RVA: 0x7A8ADA650
-        public void get_characterLookupTable(){} // RVA: 0x7AF045DC0
-        public void get_atlasTexture(){} // RVA: 0x7AF045E00
-        public void get_atlasTextures(){} // RVA: 0x7AF045F50
-        public void set_atlasTextures(){} // RVA: 0x7A8142BD0
-        public void get_atlasTextureCount(){} // RVA: 0x7AF045F60
-        public void get_isMultiAtlasTexturesEnabled(){} // RVA: 0x7AF045F70
-        public void set_isMultiAtlasTexturesEnabled(){} // RVA: 0x7AF045F80
-        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7AF045F90
-        public void set_clearDynamicDataOnBuild(){} // RVA: 0x7AF045FA0
-        public void get_atlasWidth(){} // RVA: 0x7AF045FB0
-        public void set_atlasWidth(){} // RVA: 0x7A8F9B560
-        public void get_atlasHeight(){} // RVA: 0x7AF045FC0
-        public void set_atlasHeight(){} // RVA: 0x7AE194230
-        public void get_atlasPadding(){} // RVA: 0x7AF045FD0
-        public void set_atlasPadding(){} // RVA: 0x7AF045FE0
-        public void get_atlasRenderMode(){} // RVA: 0x7AF045FF0
-        public void set_atlasRenderMode(){} // RVA: 0x7AF046000
-        public void get_usedGlyphRects(){} // RVA: 0x7AF046010
-        public void set_usedGlyphRects(){} // RVA: 0x7A86357B0
-        public void get_freeGlyphRects(){} // RVA: 0x7AF046020
-        public void set_freeGlyphRects(){} // RVA: 0x7A8B578B0
-        public void get_fontFeatureTable(){} // RVA: 0x7AF046030
-        public void set_fontFeatureTable(){} // RVA: 0x7A8B51A20
-        public void get_fallbackFontAssetTable(){} // RVA: 0x7AF046040
-        public void set_fallbackFontAssetTable(){} // RVA: 0x7A8B4A0C0
-        public void get_fontWeightTable(){} // RVA: 0x7AF046050
-        public void set_fontWeightTable(){} // RVA: 0x7A8B4AC60
-        public void get_regularStyleWeight(){} // RVA: 0x7AF046060
-        public void set_regularStyleWeight(){} // RVA: 0x7AF046070
-        public void get_regularStyleSpacing(){} // RVA: 0x7AF046080
-        public void set_regularStyleSpacing(){} // RVA: 0x7AF046090
-        public void get_boldStyleWeight(){} // RVA: 0x7AF0460A0
-        public void set_boldStyleWeight(){} // RVA: 0x7AF0460B0
-        public void get_boldStyleSpacing(){} // RVA: 0x7AF0460C0
-        public void set_boldStyleSpacing(){} // RVA: 0x7AF0460D0
-        public void get_italicStyleSlant(){} // RVA: 0x7AF0460E0
-        public void set_italicStyleSlant(){} // RVA: 0x7AE194420
-        public void get_tabMultiple(){} // RVA: 0x7AF0460F0
-        public void set_tabMultiple(){} // RVA: 0x7AE29B0C0
-        public void CreateFontAsset(){} // RVA: 0x7AF046780
-        public void CreateFontAssetInstance(){} // RVA: 0x7AF0469B0
-        public void Awake(){} // RVA: 0x7A80D7310
-        public void OnDestroy(){} // RVA: 0x7AF047300
-        public void ReadFontAssetDefinition(){} // RVA: 0x7AF0474B0
-        public void InitializeDictionaryLookupTables(){} // RVA: 0x7AF0478D0
-        public void InitializeGlyphLookupDictionary(){} // RVA: 0x7AF047920
-        public void InitializeCharacterLookupDictionary(){} // RVA: 0x7AF047CE0
-        public void InitializeLigatureSubstitutionLookupDictionary(){} // RVA: 0x7AF047F60
-        public void InitializeGlyphPaidAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF0482D0
-        public void InitializeMarkToBaseAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF0485E0
-        public void InitializeMarkToMarkAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF048910
-        public void AddSynthesizedCharactersAndFaceMetrics(){} // RVA: 0x7AF048C40
-        public void AddSynthesizedCharacter(){} // RVA: 0x7AF048E50
-        public void AddCharacterToLookupCache(){} // RVA: 0x7AF049130
-        public void LoadFontFace(){} // RVA: 0x7AF0491C0
-        public void SortCharacterTable(){} // RVA: 0x7AF049380
-        public void SortGlyphTable(){} // RVA: 0x7AF049620
-        public void SortFontFeatureTable(){} // RVA: 0x7AF0498C0
-        public void SortAllTables(){} // RVA: 0x7AF049910
-        public void HasCharacter(){} // RVA: 0x7AF049A10
-        public void HasCharacter_Internal(){} // RVA: 0x7AF049EA0
-        public void HasCharacters(){} // RVA: 0x7AF04AA30
-        public void GetCharacters(){} // RVA: 0x7AF04AB00
-        public void GetCharactersArray(){} // RVA: 0x7AF04AC90
-        public void GetGlyphIndex(){} // RVA: 0x7AF04AD80
-        public void RegisterFontAssetForFontFeatureUpdate(){} // RVA: 0x7AF04AEC0
-        public void UpdateFontFeaturesForFontAssetsInQueue(){} // RVA: 0x7AF04B020
-        public void RegisterAtlasTextureForApply(){} // RVA: 0x7AF04B290
-        public void UpdateAtlasTexturesInQueue(){} // RVA: 0x7AF04B390
-        public void UpdateFontAssetsInUpdateQueue(){} // RVA: 0x7AF04B5C0
-        public void TryAddCharacters(){} // RVA: 0x7AF04C550
-        public void TryAddGlyphInternal(){} // RVA: 0x7AF04D4B0
-        public void TryAddCharacterInternal(){} // RVA: 0x7AF04DD90
-        public void TryGetCharacter_and_QueueRenderToTexture(){} // RVA: 0x7AF04E860
-        public void TryAddGlyphsToAtlasTextures(){} // RVA: 0x7A80D7310
-        public void TryAddGlyphsToNewAtlasTexture(){} // RVA: 0x7AF04ED50
-        public void SetupNewAtlasTexture(){} // RVA: 0x7AF04F220
-        public void UpdateAllFontFeatures(){} // RVA: 0x7AF04F540
-        public void UpdateGlyphAdjustmentRecords(){} // RVA: 0x7A80D7310
-        public void CopyListDataToArray(){} // RVA: 0x7A7E18890
-        public void ClearFontAssetData(){} // RVA: 0x7AF04FE50
-        public void ClearFontAssetDataInternal(){} // RVA: 0x7AF04FF80
-        public void UpdateFontAssetData(){} // RVA: 0x7AF04FFB0
-        public void ClearFontAssetTables(){} // RVA: 0x7AF050200
-        public void ClearAtlasTextures(){} // RVA: 0x7AF050520
-        public void DestroyAtlasTextures(){} // RVA: 0x7AF0508D0
-        public void .ctor(){} // RVA: 0x7AF050A40
-        public void .cctor(){} // RVA: 0x7AF051180
+        public void EnsureAdditionalCapacity(){} // RVA: 0x89AB50
+        public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7DCD620
+        public void set_fontAssetCreationEditorSettings(){} // RVA: 0x7DCD660
+        public void get_sourceFontFile(){} // RVA: 0x7C7E530
+        public void set_sourceFontFile(){} // RVA: 0xD5CC70
+        public void get_atlasPopulationMode(){} // RVA: 0x7DCD6F0
+        public void set_atlasPopulationMode(){} // RVA: 0x158BEC0
+        public void get_faceInfo(){} // RVA: 0x7DCD700
+        public void set_faceInfo(){} // RVA: 0x7DCD750
+        public void get_familyNameHashCode(){} // RVA: 0x7DCD970
+        public void set_familyNameHashCode(){} // RVA: 0x23A4120
+        public void get_styleNameHashCode(){} // RVA: 0x7DCD9B0
+        public void set_styleNameHashCode(){} // RVA: 0x7DCD9F0
+        public void get_glyphTable(){} // RVA: 0x7DCDA00
+        public void set_glyphTable(){} // RVA: 0xD9D570
+        public void get_glyphLookupTable(){} // RVA: 0x7DCDA10
+        public void get_characterTable(){} // RVA: 0x7DCDA50
+        public void set_characterTable(){} // RVA: 0xE3D020
+        public void get_characterLookupTable(){} // RVA: 0x7DCDA60
+        public void get_atlasTexture(){} // RVA: 0x7DCDAA0
+        public void get_atlasTextures(){} // RVA: 0xBAE8F0
+        public void set_atlasTextures(){} // RVA: 0xBAE900
+        public void get_atlasTextureCount(){} // RVA: 0x7DCDBF0
+        public void get_isMultiAtlasTexturesEnabled(){} // RVA: 0x7DCDC00
+        public void set_isMultiAtlasTexturesEnabled(){} // RVA: 0x7DCDC10
+        public void get_getFontFeatures(){} // RVA: 0x7DCDC20
+        public void set_getFontFeatures(){} // RVA: 0x7DCDC30
+        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7DCDC40
+        public void set_clearDynamicDataOnBuild(){} // RVA: 0x7DCDC50
+        public void get_atlasWidth(){} // RVA: 0x7DCDC60
+        public void set_atlasWidth(){} // RVA: 0x6E15260
+        public void get_atlasHeight(){} // RVA: 0x7DCDC70
+        public void set_atlasHeight(){} // RVA: 0x6E15280
+        public void get_atlasPadding(){} // RVA: 0x7DCDC80
+        public void set_atlasPadding(){} // RVA: 0x7DCDC90
+        public void get_atlasRenderMode(){} // RVA: 0x7DCDCA0
+        public void set_atlasRenderMode(){} // RVA: 0x7DCDCB0
+        public void get_usedGlyphRects(){} // RVA: 0x7DCDCC0
+        public void set_usedGlyphRects(){} // RVA: 0x113E310
+        public void get_freeGlyphRects(){} // RVA: 0x7DCDCD0
+        public void set_freeGlyphRects(){} // RVA: 0x16601C0
+        public void get_fontFeatureTable(){} // RVA: 0x7DCDCE0
+        public void set_fontFeatureTable(){} // RVA: 0x1659C50
+        public void get_fallbackFontAssetTable(){} // RVA: 0x7DCDCF0
+        public void set_fallbackFontAssetTable(){} // RVA: 0x1651590
+        public void get_fontWeightTable(){} // RVA: 0x7DCDD00
+        public void set_fontWeightTable(){} // RVA: 0x1669D30
+        public void get_regularStyleWeight(){} // RVA: 0x7DCDD10
+        public void set_regularStyleWeight(){} // RVA: 0x7DCDD20
+        public void get_regularStyleSpacing(){} // RVA: 0x7DCDD30
+        public void set_regularStyleSpacing(){} // RVA: 0x7DCDD40
+        public void get_boldStyleWeight(){} // RVA: 0x7DCDD50
+        public void set_boldStyleWeight(){} // RVA: 0x7DCDD60
+        public void get_boldStyleSpacing(){} // RVA: 0x7DCDD70
+        public void set_boldStyleSpacing(){} // RVA: 0x7DCDD80
+        public void get_italicStyleSlant(){} // RVA: 0x7DCDD90
+        public void set_italicStyleSlant(){} // RVA: 0x7DCDDA0
+        public void get_tabMultiple(){} // RVA: 0x7DCDDB0
+        public void set_tabMultiple(){} // RVA: 0x7DCDDC0
+        public void CreateFontAsset(){} // RVA: 0x7DCEE80
+        public void CreateFontAssetInternal(){} // RVA: 0x7DCE100
+        public void CreateFontAssetOSFallbackList(){} // RVA: 0x7DCE380
+        public void CreateFontAssetWithOSFallbackList(){} // RVA: 0x7DCE540
+        public void CreateFontAssetFromFamilyName(){} // RVA: 0x7DCE7D0
+        public void CreateFontAssetInstance(){} // RVA: 0x7DCF310
+        public void GetFontAssetByID(){} // RVA: 0x7DD0040
+        public void RegisterCallbackInstance(){} // RVA: 0x7DD00D0
+        public void OnDestroy(){} // RVA: 0x7DD0520
+        public void ReadFontAssetDefinition(){} // RVA: 0x7DD07A0
+        public void InitializeDictionaryLookupTables(){} // RVA: 0x7DD0DB0
+        public void InitializeLookup(){} // RVA: 0x89DC30
+        public void InitializeList(){} // RVA: 0x89DC30
+        public void InitializeGlyphLookupDictionary(){} // RVA: 0x7DD0F50
+        public void InitializeCharacterLookupDictionary(){} // RVA: 0x7DD11C0
+        public void ClearFallbackCharacterTable(){} // RVA: 0x7DD14C0
+        public void InitializeLigatureSubstitutionLookupDictionary(){} // RVA: 0x7DD1A30
+        public void InitializeGlyphPairAdjustmentRecordsLookupDictionary(){} // RVA: 0x7DD1DD0
+        public void InitializeMarkToBaseAdjustmentRecordsLookupDictionary(){} // RVA: 0x7DD21B0
+        public void InitializeMarkToMarkAdjustmentRecordsLookupDictionary(){} // RVA: 0x7DD2470
+        public void AddSynthesizedCharactersAndFaceMetrics(){} // RVA: 0x7DD2730
+        public void AddSynthesizedCharacter(){} // RVA: 0x7DD2940
+        public void AddCharacterToLookupCache(){} // RVA: 0x7DD32B0
+        public void GetCharacterInLookupCache(){} // RVA: 0x7DD33A0
+        public void RemoveCharacterInLookupCache(){} // RVA: 0x7DD3470
+        public void ContainsCharacterInLookupCache(){} // RVA: 0x7DD3540
+        public void CreateCompositeKey(){} // RVA: 0x7DD3630
+        public void LoadFontFace(){} // RVA: 0x7DD36A0
+        public void SortCharacterTable(){} // RVA: 0x7DD37C0
+        public void SortGlyphTable(){} // RVA: 0x7DD3A60
+        public void SortFontFeatureTable(){} // RVA: 0x7DD3D00
+        public void SortAllTables(){} // RVA: 0x7DD3D50
+        public void HasCharacter(){} // RVA: 0x7DD3E70
+        public void HasCharacterWithStyle_Internal(){} // RVA: 0x7DD4370
+        public void HasCharacter_Internal(){} // RVA: 0x7DD43A0
+        public void HasCharacters(){} // RVA: 0x7DD4FC0
+        public void GetCharacters(){} // RVA: 0x7DD50A0
+        public void GetCharactersArray(){} // RVA: 0x7DD51F0
+        public void GetGlyphIndex(){} // RVA: 0x7DD5300
+        public void GetGlyphVariantIndex(){} // RVA: 0x7DD5430
+        public void UpdateFontAssetData(){} // RVA: 0x7DD54F0
+        public void ClearFontAssetData(){} // RVA: 0x7DD5680
+        public void ClearCharacterAndGlyphTablesInternal(){} // RVA: 0x7DD5AE0
+        public void ClearCharacterAndGlyphTables(){} // RVA: 0x7DD5B10
+        public void ClearFontFeaturesTables(){} // RVA: 0x7DD5D30
+        public void ClearAtlasTextures(){} // RVA: 0x7DD5E40
+        public void DestroyAtlasTextures(){} // RVA: 0x7DD62D0
+        public void RegisterFontAssetForFontFeatureUpdate(){} // RVA: 0x7DD64E0
+        public void RegisterFontAssetForKerningUpdate(){} // RVA: 0x7DD65F0
+        public void UpdateFontFeaturesForFontAssetsInQueue(){} // RVA: 0x7DD6710
+        public void RegisterAtlasTextureForApply(){} // RVA: 0x7DD6B50
+        public void UpdateAtlasTexturesInQueue(){} // RVA: 0x7DD6CA0
+        public void UpdateFontAssetsInUpdateQueue(){} // RVA: 0x7DD6EE0
+        public void TryAddCharacters(){} // RVA: 0x7DD85A0
+        public void TryAddGlyphVariantIndexInternal(){} // RVA: 0x7DD8840
+        public void TryGetGlyphVariantIndexInternal(){} // RVA: 0x7DD88F0
+        public void TryAddGlyphInternal(){} // RVA: 0x7DD89D0
+        public void TryAddCharacterInternal(){} // RVA: 0x7DD8C10
+        public void TryAddGlyphToAtlas(){} // RVA: 0x7DD9080
+        public void TryAddGlyphToTexture(){} // RVA: 0x7DD94F0
+        public void TryAddGlyphsToNewAtlasTexture(){} // RVA: 0x7DD9B80
+        public void SetupNewAtlasTexture(){} // RVA: 0x7DDA070
+        public void CreateCharacterAndAddToCache(){} // RVA: 0x7DDA3D0
+        public void UpdateFontFeaturesForNewlyAddedGlyphs(){} // RVA: 0x7DDA580
+        public void UpdateGlyphAdjustmentRecordsForNewGlyphs(){} // RVA: 0x7DDA650
+        public void UpdateGPOSFontFeaturesForNewlyAddedGlyphs(){} // RVA: 0x7DDA6B0
+        public void ImportFontFeatures(){} // RVA: 0x7DDA710
+        public void UpdateGSUBFontFeaturesForNewGlyphIndex(){} // RVA: 0x7DDA850
+        public void UpdateLigatureSubstitutionRecords(){} // RVA: 0x7DDA8C0
+        public void AddLigatureSubstitutionRecords(){} // RVA: 0x7DDA940
+        public void UpdateGlyphAdjustmentRecords(){} // RVA: 0x7DDAEE0
+        public void AddPairAdjustmentRecords(){} // RVA: 0x7DDAF60
+        public void UpdateDiacriticalMarkAdjustmentRecords(){} // RVA: 0x7DDB260
+        public void AddMarkToBaseAdjustmentRecords(){} // RVA: 0x7DDB3E0
+        public void AddMarkToMarkAdjustmentRecords(){} // RVA: 0x7DDB680
+        public void get_nativeFontAsset(){} // RVA: 0x7DDB920
+        public void EnsureNativeFontAssetIsCreated(){} // RVA: 0x7DDB940
+        public void UpdateFallbacks(){} // RVA: 0x7DDCE50
+        public void UpdateWeightFallbacks(){} // RVA: 0x7DDCF60
+        public void UpdateFaceInfo(){} // RVA: 0x7DDD480
+        public void GetFallbacks(){} // RVA: 0x7DDC020
+        public void HasRecursion(){} // RVA: 0x7DDC400
+        public void HasRecursionInternal(){} // RVA: 0x7DDC4E0
+        public void GetWeightFallbacks(){} // RVA: 0x7DDC9E0
+        public void CreateHbFaceIfNeeded(){} // RVA: 0x7DDCE00
+        public void Create(){} // RVA: 0x7DDD0C0
+        public void Destroy(){} // RVA: 0x7DDD520
+        public void .ctor(){} // RVA: 0x7DDD570
+        public void .cctor(){} // RVA: 0x7DDDDC0
+        public void UpdateFallbacks_Injected(){} // RVA: 0x7DDE6B0
+        public void UpdateWeightFallbacks_Injected(){} // RVA: 0x7DDE710
+        public void Create_Injected(){} // RVA: 0x7DDE780
+        public void UpdateFaceInfo_Injected(){} // RVA: 0x7DDE810
+    }
+
+    public class FontAssetFactory : Object
+    {
+        // ── Methods ──
+        public void ConvertFontToFontAsset(){} // RVA: 0x7DDE910
+        public void SetupFontAssetSettings(){} // RVA: 0x7DDEC30
+        public void SetHideFlags(){} // RVA: 0x7DDED30
+        public void .cctor(){} // RVA: 0x7DDEE50
     }
 
     public class FontAssetUtilities : Object
     {
         // ── Methods ──
-        public void GetCharacterFromFontAsset(){} // RVA: 0x7AF0519E0
-        public void GetCharacterFromFontAsset_Internal(){} // RVA: 0x7AF051B50
-        public void GetCharacterFromFontAssets(){} // RVA: 0x7AF052250
-        public void GetSpriteCharacterFromSpriteAsset(){} // RVA: 0x7AF0524F0
-        public void GetSpriteCharacterFromSpriteAsset_Internal(){} // RVA: 0x7AF0528F0
+        public void GetCharacterFromFontAsset(){} // RVA: 0x7DDEF30
+        public void GetCharacterFromFontAsset_Internal(){} // RVA: 0x7DDF0B0
+        public void GetCharacterFromFontAssetsInternal(){} // RVA: 0x7DDFB90
+        public void GetTextElementFromTextAssets(){} // RVA: 0x7DDFE40
+        public void GetSpriteCharacterFromSpriteAsset(){} // RVA: 0x7DE0210
+        public void GetSpriteCharacterFromSpriteAsset_Internal(){} // RVA: 0x7DE0640
+        public void GetCodePoint(){} // RVA: 0x7DE0A00
     }
 
     public class FontAsset[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class FontFeatureTable : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF052B80
-        public void SortGlyphPairAdjustmentRecords(){} // RVA: 0x7AF053020
-        public void SortMarkToBaseAdjustmentRecords(){} // RVA: 0x7AF053520
-        public void SortMarkToMarkAdjustmentRecords(){} // RVA: 0x7AF053A20
+        public void get_glyphPairAdjustmentRecords(){} // RVA: 0xB700F0
+        public void get_MarkToBaseAdjustmentRecords(){} // RVA: 0x7C246A0
+        public void get_MarkToMarkAdjustmentRecords(){} // RVA: 0x7C24F60
+        public void .ctor(){} // RVA: 0x7DC93E0
+        public void SortGlyphPairAdjustmentRecords(){} // RVA: 0x7DC9980
+        public void SortMarkToBaseAdjustmentRecords(){} // RVA: 0x7DC9D20
+        public void SortMarkToMarkAdjustmentRecords(){} // RVA: 0x7DCA220
     }
 
     public class FontStyleStack : ValueType
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x7A7EC1440
-        public void Add(){} // RVA: 0x7A7EC1450
-        public void Remove(){} // RVA: 0x7A7EC1460
+        public void Clear(){} // RVA: 0x9455F0
+        public void Add(){} // RVA: 0x945600
+        public void Remove(){} // RVA: 0x945610
     }
 
     public class FontWeightPair[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class HighlightState : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A790A3D0
-        public void op_Equality(){} // RVA: 0x7AF0829C0
-        public void op_Inequality(){} // RVA: 0x7AF082B00
-        public void GetHashCode(){} // RVA: 0x7A7EFACF0
-        public void Equals(){} // RVA: 0x7A7EFAD50
+        public void .ctor(){} // RVA: 0x3612F0
+        public void op_Equality(){} // RVA: 0x7E0C270
+        public void op_Inequality(){} // RVA: 0x7E0C3B0
+        public void GetHashCode(){} // RVA: 0x98EDF0
+        public void Equals(){} // RVA: 0x98EE50
     }
 
     public class LinkInfo : ValueType
     {
         // ── Methods ──
-        public void SetLinkId(){} // RVA: 0x7A7EFA490
-        public void GetLinkText(){} // RVA: 0x7A7EFA4A0
-        public void GetLinkId(){} // RVA: 0x7A7EFA4B0
+        public void SetLinkId(){} // RVA: 0x98D350
+        public void GetLinkText(){} // RVA: 0x98D360
+        public void GetLinkId(){} // RVA: 0x98D370
     }
 
     public class MaterialManager : Object
     {
         // ── Methods ──
-        public void GetFallbackMaterial(){} // RVA: 0x7AF054B00
-        public void CopyMaterialPresetProperties(){} // RVA: 0x7AF054E30
-        public void .cctor(){} // RVA: 0x7AF055430
+        public void GetFallbackMaterial(){} // RVA: 0x7DCB2E0
+        public void CopyMaterialPresetProperties(){} // RVA: 0x7DCB670
+        public void .cctor(){} // RVA: 0x7DCB970
     }
 
     public class MaterialReference : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7EFA4C0
-        public void AddMaterialReference(){} // RVA: 0x7AF055A90
+        public void .ctor(){} // RVA: 0x98D440
+        public void AddMaterialReference(){} // RVA: 0x7DCBF10
     }
 
     public class MaterialReferenceManager : Object
     {
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x7AF055E20
-        public void AddFontAsset(){} // RVA: 0x7AF055F00
-        public void AddFontAssetInternal(){} // RVA: 0x7AF055F30
-        public void AddSpriteAsset(){} // RVA: 0x7AF056170
-        public void AddSpriteAssetInternal(){} // RVA: 0x7AF056290
-        public void AddFontMaterial(){} // RVA: 0x7AF0563A0
-        public void AddFontMaterialInternal(){} // RVA: 0x7AF056430
-        public void AddColorGradientPreset(){} // RVA: 0x7AF0564C0
-        public void AddColorGradientPreset_Internal(){} // RVA: 0x7AF056590
-        public void TryGetFontAsset(){} // RVA: 0x7AF056650
-        public void TryGetFontAssetInternal(){} // RVA: 0x7AF056710
-        public void TryGetSpriteAsset(){} // RVA: 0x7AF0567C0
-        public void TryGetSpriteAssetInternal(){} // RVA: 0x7AF056880
-        public void TryGetColorGradientPreset(){} // RVA: 0x7AF056930
-        public void TryGetColorGradientPresetInternal(){} // RVA: 0x7AF0569F0
-        public void TryGetMaterial(){} // RVA: 0x7AF056AA0
-        public void TryGetMaterialInternal(){} // RVA: 0x7AF056B60
-        public void .ctor(){} // RVA: 0x7AF056C10
+        public void get_instance(){} // RVA: 0x7DCC270
+        public void AddFontAsset(){} // RVA: 0x7DCC350
+        public void AddFontAssetInternal(){} // RVA: 0x7DCC380
+        public void AddSpriteAsset(){} // RVA: 0x7DCC5C0
+        public void AddSpriteAssetInternal(){} // RVA: 0x7DCC710
+        public void AddFontMaterial(){} // RVA: 0x7DCC850
+        public void AddFontMaterialInternal(){} // RVA: 0x7DCC8E0
+        public void AddColorGradientPreset(){} // RVA: 0x7DCC970
+        public void AddColorGradientPreset_Internal(){} // RVA: 0x7DCCA40
+        public void TryGetFontAsset(){} // RVA: 0x7DCCB00
+        public void TryGetFontAssetInternal(){} // RVA: 0x7DCCBC0
+        public void TryGetSpriteAsset(){} // RVA: 0x7DCCC70
+        public void TryGetSpriteAssetInternal(){} // RVA: 0x7DCCD30
+        public void TryGetColorGradientPreset(){} // RVA: 0x7DCCDE0
+        public void TryGetColorGradientPresetInternal(){} // RVA: 0x7DCCEA0
+        public void TryGetMaterial(){} // RVA: 0x7DCCF50
+        public void TryGetMaterialInternal(){} // RVA: 0x7DCD010
+        public void .ctor(){} // RVA: 0x7DCD0C0
     }
 
     public class MeshInfo : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7EFA4F0
-        public void ResizeMeshInfo(){} // RVA: 0x7A7EFA500
-        public void Clear(){} // RVA: 0x7A7EFA510
-        public void ClearUnusedVertices(){} // RVA: 0x7A7EFA550
-        public void SortGeometry(){} // RVA: 0x7A7EFA590
-        public void SwapVertexData(){} // RVA: 0x7A7EFA5A0
-        public void .cctor(){} // RVA: 0x7AF058160
+        public void .ctor(){} // RVA: 0x98D5D0
+        public void ResizeMeshInfo(){} // RVA: 0x98D5E0
+        public void Clear(){} // RVA: 0x98D5F0
+        public void ClearUnusedVertices(){} // RVA: 0x98D640
+    }
+
+    public class MeshInfoBindings[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class Offset : ValueType
     {
         // ── Methods ──
-        public void get_left(){} // RVA: 0x7A79EF510
-        public void get_right(){} // RVA: 0x7A7ED4380
-        public void get_top(){} // RVA: 0x7A7ED4390
-        public void get_bottom(){} // RVA: 0x7A7ED43A0
-        public void get_zero(){} // RVA: 0x7AF082840
-        public void .ctor(){} // RVA: 0x7A75F5650
-        public void op_Equality(){} // RVA: 0x7AE5D14C0
-        public void op_Multiply(){} // RVA: 0x7AEEEF2D0
-        public void GetHashCode(){} // RVA: 0x7A7EFAC20
-        public void Equals(){} // RVA: 0x7A7EFAC80
-        public void .cctor(){} // RVA: 0x7AF082980
+        public void get_left(){} // RVA: 0x459690
+        public void get_right(){} // RVA: 0x958940
+        public void get_top(){} // RVA: 0x958950
+        public void get_bottom(){} // RVA: 0x958960
+        public void get_zero(){} // RVA: 0x7E0C0F0
+        public void .ctor(){} // RVA: 0x4FE0
+        public void op_Equality(){} // RVA: 0x7247EC0
+        public void op_Multiply(){} // RVA: 0x7BE0F10
+        public void GetHashCode(){} // RVA: 0x98ED20
+        public void Equals(){} // RVA: 0x98ED80
+        public void .cctor(){} // RVA: 0x7E0C230
+    }
+
+    public class RenderedText : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x98E7F0
+        public void get_CharacterCount(){} // RVA: 0x98E800
+        public void GetEnumerator(){} // RVA: 0x98E820
+        public void CreateString(){} // RVA: 0x98E8C0
+        public void Equals(){} // RVA: 0x98E910
+        public void GetHashCode(){} // RVA: 0x98EA00
     }
 
     public class SpriteAsset : TextAsset
     {
         // ── Methods ──
-        public void get_faceInfo(){} // RVA: 0x7AF0581F0
-        public void set_faceInfo(){} // RVA: 0x7AEDDD5D0
-        public void get_spriteSheet(){} // RVA: 0x7AEF67660
-        public void set_spriteSheet(){} // RVA: 0x7A8881790
-        public void get_spriteCharacterTable(){} // RVA: 0x7AF058230
-        public void set_spriteCharacterTable(){} // RVA: 0x7A8142620
-        public void get_spriteCharacterLookupTable(){} // RVA: 0x7AF058270
-        public void set_spriteCharacterLookupTable(){} // RVA: 0x7A8142690
-        public void get_spriteGlyphTable(){} // RVA: 0x7AEF677B0
-        public void set_spriteGlyphTable(){} // RVA: 0x7A8142700
-        public void Awake(){} // RVA: 0x7A80D7310
-        public void UpdateLookupTables(){} // RVA: 0x7AF0582B0
-        public void GetSpriteIndexFromHashcode(){} // RVA: 0x7AF058AA0
-        public void GetSpriteIndexFromUnicode(){} // RVA: 0x7AF058B50
-        public void GetSpriteIndexFromName(){} // RVA: 0x7AF058BF0
-        public void SearchForSpriteByUnicode(){} // RVA: 0x7AF058C30
-        public void SearchForSpriteByUnicodeInternal(){} // RVA: 0x7AF059150
-        public void SearchForSpriteByHashCode(){} // RVA: 0x7AF059210
-        public void SearchForSpriteByHashCodeInternal(){} // RVA: 0x7AF0599F0
-        public void SortGlyphTable(){} // RVA: 0x7AF059AB0
-        public void SortCharacterTable(){} // RVA: 0x7AF059D50
-        public void SortGlyphAndCharacterTables(){} // RVA: 0x7AF059FF0
-        public void .ctor(){} // RVA: 0x7AF05A010
+        public void get_faceInfo(){} // RVA: 0x7E01730
+        public void set_faceInfo(){} // RVA: 0x7E01770
+        public void get_spriteSheet(){} // RVA: 0x7C7E610
+        public void set_spriteSheet(){} // RVA: 0x7E017F0
+        public void get_width(){} // RVA: 0x1BFC910
+        public void set_width(){} // RVA: 0x2540B90
+        public void get_height(){} // RVA: 0x2540BA0
+        public void set_height(){} // RVA: 0x2540BB0
+        public void get_spriteCharacterTable(){} // RVA: 0x7E018B0
+        public void set_spriteCharacterTable(){} // RVA: 0xBAE3C0
+        public void get_spriteCharacterLookupTable(){} // RVA: 0x7E018F0
+        public void set_spriteCharacterLookupTable(){} // RVA: 0xBAE430
+        public void get_spriteGlyphTable(){} // RVA: 0x7C7E7D0
+        public void set_spriteGlyphTable(){} // RVA: 0xCA4D90
+        public void Awake(){} // RVA: 0xB43310
+        public void UpdateLookupTables(){} // RVA: 0x7E01930
+        public void GetSpriteIndexFromHashcode(){} // RVA: 0x7E02160
+        public void GetSpriteIndexFromUnicode(){} // RVA: 0x7E02210
+        public void GetSpriteIndexFromName(){} // RVA: 0x7E022B0
+        public void SearchForSpriteByUnicode(){} // RVA: 0x7E022F0
+        public void SearchForSpriteByUnicodeInternal(){} // RVA: 0x7E02780
+        public void SearchForSpriteByHashCode(){} // RVA: 0x7E02850
+        public void SearchForSpriteByHashCodeInternal(){} // RVA: 0x7E02FD0
+        public void SortGlyphTable(){} // RVA: 0x7E030A0
+        public void SortCharacterTable(){} // RVA: 0x7E03340
+        public void SortGlyphAndCharacterTables(){} // RVA: 0x7E035E0
+        public void .ctor(){} // RVA: 0x7E03600
     }
 
     public class SpriteAsset[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class SpriteCharacter : TextElement
     {
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7AEF24D90
-        public void .ctor(){} // RVA: 0x7AEDDFFE0
+        public void get_name(){} // RVA: 0x7C24F60
+        public void .ctor(){} // RVA: 0x7A696C0
     }
 
     public class SpriteCharacter[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class SpriteGlyph : Glyph
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEDE0220
+        public void .ctor(){} // RVA: 0x7A69900
     }
 
     public class SpriteGlyph[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class TextAsset : ScriptableObject
     {
         // ── Methods ──
-        public void get_version(){} // RVA: 0x7AACE3A80
-        public void set_version(){} // RVA: 0x7A813E420
-        public void get_instanceID(){} // RVA: 0x7AF05A230
-        public void get_hashCode(){} // RVA: 0x7AF05A260
-        public void set_hashCode(){} // RVA: 0x7A94794D0
-        public void get_material(){} // RVA: 0x7A8105330
-        public void set_material(){} // RVA: 0x7A80D8E80
-        public void get_materialHashCode(){} // RVA: 0x7AF05A2A0
-        public void set_materialHashCode(){} // RVA: 0x7A8133110
-        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void get_version(){} // RVA: 0x3926770
+        public void set_version(){} // RVA: 0xBA9BA0
+        public void get_instanceID(){} // RVA: 0x79ED340
+        public void get_hashCode(){} // RVA: 0x7E03820
+        public void set_hashCode(){} // RVA: 0x1FAA840
+        public void get_material(){} // RVA: 0xB70160
+        public void set_material(){} // RVA: 0xB44DC0
+        public void get_materialHashCode(){} // RVA: 0x7E03860
+        public void set_materialHashCode(){} // RVA: 0xB9E090
+        public void .ctor(){} // RVA: 0xDD1AC0
     }
 
     public class TextBackingContainer : ValueType
     {
         // ── Methods ──
-        public void get_Capacity(){} // RVA: 0x7A78D5A30
-        public void get_Count(){} // RVA: 0x7A79D4850
-        public void set_Count(){} // RVA: 0x7A767FBC0
-        public void get_Item(){} // RVA: 0x7A78CDD60
-        public void set_Item(){} // RVA: 0x7A7EFAB90
-        public void .ctor(){} // RVA: 0x7A7EFAC00
-        public void Resize(){} // RVA: 0x7A7EFAC10
+        public void get_Capacity(){} // RVA: 0x318730
+        public void get_Count(){} // RVA: 0x438050
+        public void set_Count(){} // RVA: 0x92DD0
+        public void get_Item(){} // RVA: 0x310190
+        public void set_Item(){} // RVA: 0x98EC90
+        public void .ctor(){} // RVA: 0x98ED00
+        public void Resize(){} // RVA: 0x98ED10
     }
 
     public class TextColorGradient : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AED80E00
-        public void .cctor(){} // RVA: 0x7AF05A470
+        public void .ctor(){} // RVA: 0x79EE490
+        public void .cctor(){} // RVA: 0x7E03A30
+    }
+
+    public class TextCoreVertex[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7E320
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A900
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC4160
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E345E0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A900
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class TextElement : Object
     {
         // ── Methods ──
-        public void get_elementType(){} // RVA: 0x7AEF669C0
-        public void get_unicode(){} // RVA: 0x7AACD6DF0
-        public void set_unicode(){} // RVA: 0x7A8669360
-        public void get_textAsset(){} // RVA: 0x7AACE3A80
-        public void set_textAsset(){} // RVA: 0x7A813E420
-        public void get_glyph(){} // RVA: 0x7AE8145B0
-        public void set_glyph(){} // RVA: 0x7A81052D0
-        public void get_glyphIndex(){} // RVA: 0x7AC1CA480
-        public void set_glyphIndex(){} // RVA: 0x7A8810F60
-        public void get_scale(){} // RVA: 0x7AEF875C0
-        public void set_scale(){} // RVA: 0x7A868BCB0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_elementType(){} // RVA: 0x7C7D9A0
+        public void get_unicode(){} // RVA: 0x3922B50
+        public void set_unicode(){} // RVA: 0x116BB10
+        public void get_textAsset(){} // RVA: 0x3926770
+        public void set_textAsset(){} // RVA: 0xBA9BA0
+        public void get_glyph(){} // RVA: 0x7489A40
+        public void set_glyph(){} // RVA: 0xB70100
+        public void get_glyphIndex(){} // RVA: 0x4ED9AC0
+        public void set_glyphIndex(){} // RVA: 0x13233D0
+        public void get_scale(){} // RVA: 0x7CA9120
+        public void set_scale(){} // RVA: 0x1186FB0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TextElementInfo : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A7EFA5D0
+        public void ToString(){} // RVA: 0x98E4B0
+    }
+
+    public class TextEventManager : Object
+    {
+        // ── Methods ──
+        public void ON_FONT_PROPERTY_CHANGED(){} // RVA: 0x7E08390
+        public void .cctor(){} // RVA: 0x7E08480
+    }
+
+    public class TextGenerationInfo : Object
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7E11B10
+        public void Destroy(){} // RVA: 0x7E11B60
     }
 
     public class TextGenerationSettings : Object
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AF05CBE0
-        public void GetHashCode(){} // RVA: 0x7AF05CCF0
-        public void op_Equality(){} // RVA: 0x7AF05DF60
-        public void ToString(){} // RVA: 0x7AF05DFA0
-        public void .ctor(){} // RVA: 0x7AF060450
+        public void get_renderedText(){} // RVA: 0x26FAD00
+        public void set_renderedText(){} // RVA: 0x7E090E0
+        public void get_text(){} // RVA: 0x7E091A0
+        public void set_text(){} // RVA: 0x7E09230
+        public void .ctor(){} // RVA: 0x7E092A0
+        public void Equals(){} // RVA: 0x7E09600
+        public void GetHashCode(){} // RVA: 0x7E09700
+        public void op_Inequality(){} // RVA: 0x7E0A140
+        public void ToString(){} // RVA: 0x7E0A190
+        public void .cctor(){} // RVA: 0x7E0B3C0
     }
 
     public class TextGenerator : Object
     {
         // ── Methods ──
-        public void GetTextGenerator(){} // RVA: 0x7AF06DAC0
-        public void GenerateText(){} // RVA: 0x7AF06DBA0
-        public void GetPreferredValues(){} // RVA: 0x7AF06DE00
-        public void get_isTextTruncated(){} // RVA: 0x7AF06E1B0
-        public void Prepare(){} // RVA: 0x7AF06E1F0
-        public void GenerateTextMesh(){} // RVA: 0x7AF060500
-        public void SaveWordWrappingState(){} // RVA: 0x7AF06E440
-        public void RestoreWordWrappingState(){} // RVA: 0x7AF06EF00
-        public void ValidateHtmlTag(){} // RVA: 0x7AF06F9A0
-        public void SaveGlyphVertexInfo(){} // RVA: 0x7AF075810
-        public void SaveSpriteVertexInfo(){} // RVA: 0x7AF076B90
-        public void DrawUnderlineMesh(){} // RVA: 0x7AF0776C0
-        public void DrawTextHighlight(){} // RVA: 0x7AF0788A0
-        public void ClearMesh(){} // RVA: 0x7AF078F80
-        public void SetArraySizes(){} // RVA: 0x7AF079070
-        public void GetTextElement(){} // RVA: 0x7AF07AD00
-        public void ComputeMarginSize(){} // RVA: 0x7AF07B240
-        public void GetSpecialCharacters(){} // RVA: 0x7AF07B340
-        public void GetEllipsisSpecialCharacter(){} // RVA: 0x7AF07B370
-        public void GetUnderlineSpecialCharacter(){} // RVA: 0x7AF07B6D0
-        public void GetPreferredValuesInternal(){} // RVA: 0x7AF07B850
-        public void CalculatePreferredValues(){} // RVA: 0x7AF07BA70
-        public void PopulateTextBackingArray(){} // RVA: 0x7AF07F340
-        public void PopulateTextProcessingArray(){} // RVA: 0x7AF07F4E0
-        public void InsertNewLine(){} // RVA: 0x7AF080510
-        public void DoMissingGlyphCallback(){} // RVA: 0x7AF080D50
-        public void ClearMarkupTagAttributes(){} // RVA: 0x7AF080DE0
-        public void .ctor(){} // RVA: 0x7AF080E40
+        public void get_IsExecutingJob(){} // RVA: 0x7DE0B40
+        public void set_IsExecutingJob(){} // RVA: 0x7DE0B80
+        public void GenerateText(){} // RVA: 0x7DE0BD0
+        public void get_isTextTruncated(){} // RVA: 0x7DE0E10
+        public void GenerateTextMesh(){} // RVA: 0x7DE0E20
+        public void ValidateHtmlTag(){} // RVA: 0x7DE11D0
+        public void CloseLastLinkTag(){} // RVA: 0x7DE7200
+        public void CloseAllLinkTags(){} // RVA: 0x7DE7290
+        public void CloseLinkTag(){} // RVA: 0x7DE7300
+        public void ClearMarkupTagAttributes(){} // RVA: 0x7DE7370
+        public void SaveWordWrappingState(){} // RVA: 0x7DE73D0
+        public void RestoreWordWrappingState(){} // RVA: 0x7DE7E90
+        public void SaveGlyphVertexInfo(){} // RVA: 0x7DE8930
+        public void SaveSpriteVertexInfo(){} // RVA: 0x7DE9560
+        public void DrawUnderlineMesh(){} // RVA: 0x7DE9C90
+        public void DrawTextHighlight(){} // RVA: 0x7DEA780
+        public void ClearMesh(){} // RVA: 0x7DEACD0
+        public void LayoutPhase(){} // RVA: 0x7DEADA0
+        public void ParsingPhase(){} // RVA: 0x7DEEEF0
+        public void InsertNewLine(){} // RVA: 0x7DF5B80
+        public void GetPreferredValues(){} // RVA: 0x7DF63F0
+        public void GetPreferredValuesInternal(){} // RVA: 0x7DF6780
+        public void CalculatePreferredValues(){} // RVA: 0x7DF6960
+        public void Prepare(){} // RVA: 0x7DFA240
+        public void PrepareFontAsset(){} // RVA: 0x7DFA4E0
+        public void SetArraySizes(){} // RVA: 0x7DFA600
+        public void GetTextElement(){} // RVA: 0x7DFC540
+        public void PopulateTextBackingArray(){} // RVA: 0x7DFCC20
+        public void PopulateTextProcessingArray(){} // RVA: 0x7DFCEC0
+        public void PopulateFontAsset(){} // RVA: 0x7DFDF80
+        public void ComputeMarginSize(){} // RVA: 0x7DFF5D0
+        public void GetSpecialCharacters(){} // RVA: 0x7DFF6D0
+        public void GetEllipsisSpecialCharacter(){} // RVA: 0x7DFF730
+        public void GetUnderlineSpecialCharacter(){} // RVA: 0x7DFFC00
+        public void DoMissingGlyphCallback(){} // RVA: 0x7E00070
+        public void .ctor(){} // RVA: 0x7E00100
     }
 
     public class TextGeneratorUtilities : Object
     {
         // ── Methods ──
-        public void Approximately(){} // RVA: 0x7AF082D20
-        public void HexCharsToColor(){} // RVA: 0x7AF083410
-        public void HexToInt(){} // RVA: 0x7AF0836A0
-        public void ConvertToFloat(){} // RVA: 0x7AF083840
-        public void PackUV(){} // RVA: 0x7AF0839C0
-        public void ResizeInternalArray(){} // RVA: 0x7A7E1E1E0
-        public void InsertOpeningTextStyle(){} // RVA: 0x7AF083A00
-        public void InsertClosingTextStyle(){} // RVA: 0x7AF083B00
-        public void ReplaceOpeningStyleTag(){} // RVA: 0x7AF083E00
-        public void ReplaceClosingStyleTag(){} // RVA: 0x7AF084000
-        public void InsertOpeningStyleTag(){} // RVA: 0x7AF084130
-        public void InsertClosingStyleTag(){} // RVA: 0x7AF084230
-        public void InsertTextStyleInTextProcessingArray(){} // RVA: 0x7AF084330
-        public void GetStyle(){} // RVA: 0x7AF084810
-        public void GetStyleHashCode(){} // RVA: 0x7AF084AC0
-        public void GetUTF16(){} // RVA: 0x7AF084CA0
-        public void GetUTF32(){} // RVA: 0x7AF084F00
-        public void FillCharacterVertexBuffers(){} // RVA: 0x7AF0850B0
-        public void FillSpriteVertexBuffers(){} // RVA: 0x7AF085CA0
-        public void AdjustLineOffset(){} // RVA: 0x7AF0867A0
-        public void ResizeLineExtents(){} // RVA: 0x7AF086B40
-        public void LegacyStyleToNewStyle(){} // RVA: 0x7AF086DD0
-        public void LegacyAlignmentToNewAlignment(){} // RVA: 0x7AF086E00
-        public void ConvertToUTF32(){} // RVA: 0x7AF086E80
-        public void GetMarkupTagHashCode(){} // RVA: 0x7AF086F90
-        public void ToUpperASCIIFast(){} // RVA: 0x7AF087100
-        public void ToUpperFast(){} // RVA: 0x7AF087170
-        public void GetAttributeParameters(){} // RVA: 0x7AF0871E0
-        public void IsBitmapRendering(){} // RVA: 0x7AF0872D0
-        public void IsBaseGlyph(){} // RVA: 0x7AF087300
-        public void MinAlpha(){} // RVA: 0x7AF087410
-        public void GammaToLinear(){} // RVA: 0x7AF087500
-        public void IsValidUTF16(){} // RVA: 0x7AF0875B0
-        public void IsValidUTF32(){} // RVA: 0x7AF087620
-        public void IsHangul(){} // RVA: 0x7AF087690
-        public void IsCJK(){} // RVA: 0x7AF0876F0
-        public void .cctor(){} // RVA: 0x7AF0877B0
+        public void Approximately(){} // RVA: 0x7E0C5D0
+        public void HexCharsToColor(){} // RVA: 0x7E0C600
+        public void HexToInt(){} // RVA: 0x7A79940
+        public void ConvertToFloat(){} // RVA: 0x7E0CAA0
+        public void ResizeInternalArray(){} // RVA: 0x89AB50
+        public void InsertOpeningTextStyle(){} // RVA: 0x7E0CC20
+        public void InsertClosingTextStyle(){} // RVA: 0x7E0CD20
+        public void ReplaceOpeningStyleTag(){} // RVA: 0x7E0D020
+        public void ReplaceClosingStyleTag(){} // RVA: 0x7E0D220
+        public void InsertOpeningStyleTag(){} // RVA: 0x7E0D350
+        public void InsertClosingStyleTag(){} // RVA: 0x7E0D450
+        public void InsertTextStyleInTextProcessingArray(){} // RVA: 0x7E0D550
+        public void GetStyle(){} // RVA: 0x7E0DA70
+        public void GetStyleHashCode(){} // RVA: 0x7E0DCD0
+        public void GetUTF16(){} // RVA: 0x7E0DEB0
+        public void GetUTF32(){} // RVA: 0x7E0E110
+        public void FillCharacterVertexBuffers(){} // RVA: 0x7E0E2C0
+        public void FillSpriteVertexBuffers(){} // RVA: 0x7E0EC40
+        public void AdjustLineOffset(){} // RVA: 0x7E0F560
+        public void ResizeLineExtents(){} // RVA: 0x7E0F8F0
+        public void LegacyStyleToNewStyle(){} // RVA: 0x7E0FB60
+        public void LegacyAlignmentToNewAlignment(){} // RVA: 0x7E0FB90
+        public void GetHorizontalAlignment(){} // RVA: 0x7E0FC10
+        public void GetVerticalAlignment(){} // RVA: 0x7E0FC60
+        public void ConvertToUTF32(){} // RVA: 0x7E0FCB0
+        public void GetMarkupTagHashCode(){} // RVA: 0x7E0FDC0
+        public void ToUpperASCIIFast(){} // RVA: 0x7E0FF30
+        public void ToUpperFast(){} // RVA: 0x7E0FFA0
+        public void GetAttributeParameters(){} // RVA: 0x7E10010
+        public void IsBitmapRendering(){} // RVA: 0x7E10100
+        public void IsBaseGlyph(){} // RVA: 0x7E10130
+        public void MinAlpha(){} // RVA: 0x7E10240
+        public void GammaToLinear(){} // RVA: 0x7E10330
+        public void IsValidUTF16(){} // RVA: 0x7E103E0
+        public void IsValidUTF32(){} // RVA: 0x7E10450
+        public void IsEmoji(){} // RVA: 0x7E104C0
+        public void IsEmojiPresentationForm(){} // RVA: 0x7E10550
+        public void IsHangul(){} // RVA: 0x7E105E0
+        public void IsCJK(){} // RVA: 0x7E10640
+        public void .cctor(){} // RVA: 0x7E10700
     }
 
     public class TextHandle : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF087820
-        public void get_textInfo(){} // RVA: 0x7AF087950
-        public void get_layoutTextInfo(){} // RVA: 0x7AF087A00
-        public void IsDirty(){} // RVA: 0x7AF087B40
-        public void GetCursorPositionFromStringIndexUsingCharacterHeight(){} // RVA: 0x7AF087B90
-        public void GetCursorPositionFromStringIndexUsingLineHeight(){} // RVA: 0x7AF087E10
-        public void GetCursorIndexFromPosition(){} // RVA: 0x7AF088090
-        public void LineDownCharacterPosition(){} // RVA: 0x7AF088430
-        public void LineUpCharacterPosition(){} // RVA: 0x7AF088900
-        public void FindNearestLine(){} // RVA: 0x7AF088DB0
-        public void FindNearestCharacterOnLine(){} // RVA: 0x7AF088EF0
-        public void FindIntersectingLink(){} // RVA: 0x7AF089820
-        public void PointIntersectRectangle(){} // RVA: 0x7AF089DF0
-        public void DistanceToLine(){} // RVA: 0x7AF089F70
-        public void GetLineNumber(){} // RVA: 0x7AF08A160
-        public void GetLineHeight(){} // RVA: 0x7AF08A1F0
-        public void GetLineHeightFromCharacterIndex(){} // RVA: 0x7AF08A280
-        public void GetCharacterHeightFromIndex(){} // RVA: 0x7AF08A310
-        public void IsElided(){} // RVA: 0x7AF08A4A0
-        public void Substring(){} // RVA: 0x7AF08A520
-        public void IndexOf(){} // RVA: 0x7AF08A6E0
-        public void LastIndexOf(){} // RVA: 0x7AF08A800
-        public void ComputeTextWidth(){} // RVA: 0x7AF08A8E0
-        public void ComputeTextHeight(){} // RVA: 0x7AF08A900
-        public void UpdatePreferredValues(){} // RVA: 0x7AF08A920
-        public void Update(){} // RVA: 0x7AF08AAC0
-        public void .cctor(){} // RVA: 0x7AF08ABA0
+        public void .ctor(){} // RVA: 0x7E12830
+        public void Finalize(){} // RVA: 0x7E12900
+        public void InitThreadArrays(){} // RVA: 0x7E12950
+        public void get_settingsArray(){} // RVA: 0x7E12E60
+        public void get_generators(){} // RVA: 0x7E13080
+        public void get_textInfosCommon(){} // RVA: 0x7E132A0
+        public void InitArray(){} // RVA: 0x8945C0
+        public void get_textInfoCommon(){} // RVA: 0x7E134C0
+        public void get_generator(){} // RVA: 0x7E13570
+        public void get_settings(){} // RVA: 0x7E13620
+        public void get_preferredSize(){} // RVA: 0x6297350
+        public void set_preferredSize(){} // RVA: 0x278E9C0
+        public void get_TextInfoNode(){} // RVA: 0x106A7D0
+        public void set_TextInfoNode(){} // RVA: 0xD5CC70
+        public void get_IsCachedPermanent(){} // RVA: 0x2443C20
+        public void set_IsCachedPermanent(){} // RVA: 0x143D170
+        public void get_IsCachedTemporary(){} // RVA: 0x25D1680
+        public void set_IsCachedTemporary(){} // RVA: 0x25D1690
+        public void get_useAdvancedText(){} // RVA: 0x254FA90
+        public void get_characterCount(){} // RVA: 0x7E136D0
+        public void AddTextInfoToPermanentCache(){} // RVA: 0x7E13720
+        public void AddTextInfoToTemporaryCache(){} // RVA: 0x7E13800
+        public void RemoveTextInfoFromTemporaryCache(){} // RVA: 0x7E138A0
+        public void RemoveTextInfoFromPermanentCache(){} // RVA: 0x7E13920
+        public void UpdateCurrentFrame(){} // RVA: 0x7E13A00
+        public void get_textInfo(){} // RVA: 0x7E13AB0
+        public void SetDirty(){} // RVA: 0x5A14070
+        public void IsDirty(){} // RVA: 0x7E13B30
+        public void get_IsPlaceholder(){} // RVA: 0xBAB4F0
+        public void UpdatePreferredValues(){} // RVA: 0x7E13B70
+        public void Update(){} // RVA: 0x7E13C20
+        public void UpdateWithHash(){} // RVA: 0x7E13CA0
+        public void PrepareFontAsset(){} // RVA: 0x7E13F60
+        public void UpdatePreferredSize(){} // RVA: 0x7E14200
+        public void ConvertPixelUnitsToTextCoreRelativeUnits(){} // RVA: 0x7E146E0
+        public void GetLineHeightDefault(){} // RVA: 0x7E14730
+        public void GetCursorPositionFromStringIndexUsingCharacterHeight(){} // RVA: 0x7E14870
+        public void GetCursorPositionFromStringIndexUsingLineHeight(){} // RVA: 0x7E14930
+        public void GetHighlightRectangles(){} // RVA: 0x7E14AD0
+        public void GetCursorIndexFromPosition(){} // RVA: 0x7E14BB0
+        public void LineDownCharacterPosition(){} // RVA: 0x7E14DD0
+        public void LineUpCharacterPosition(){} // RVA: 0x7E14E80
+        public void FindIntersectingLink(){} // RVA: 0x7E14F30
+        public void GetCorrespondingStringIndex(){} // RVA: 0x7E15030
+        public void GetLineInfoFromCharacterIndex(){} // RVA: 0x7E150D0
+        public void GetLineNumber(){} // RVA: 0x7E15270
+        public void GetLineHeight(){} // RVA: 0x7E15350
+        public void GetLineHeightFromCharacterIndex(){} // RVA: 0x7E15430
+        public void GetCharacterHeightFromIndex(){} // RVA: 0x7E15550
+        public void Substring(){} // RVA: 0x7E15650
+        public void PreviousCodePointIndex(){} // RVA: 0x7E15830
+        public void NextCodePointIndex(){} // RVA: 0x7E15910
+        public void GetStartOfNextWord(){} // RVA: 0x7E159F0
+        public void GetEndOfPreviousWord(){} // RVA: 0x7E15AD0
+        public void GetFirstCharacterIndexOnLine(){} // RVA: 0x7E15BB0
+        public void GetLastCharacterIndexOnLine(){} // RVA: 0x7E15C90
+        public void IndexOf(){} // RVA: 0x7E15D70
+        public void LastIndexOf(){} // RVA: 0x7E15EE0
+        public void SelectCurrentWord(){} // RVA: 0x7E16030
+        public void SelectCurrentParagraph(){} // RVA: 0x7E16130
+        public void SelectToPreviousParagraph(){} // RVA: 0x7E16230
+        public void SelectToNextParagraph(){} // RVA: 0x7E16310
+        public void SelectToStartOfParagraph(){} // RVA: 0x7E163F0
+        public void SelectToEndOfParagraph(){} // RVA: 0x7E164D0
+        public void IsAdvancedTextEnabledForElement(){} // RVA: 0x263B110
+        public void .cctor(){} // RVA: 0x7E165B0
+    }
+
+    public class TextHandlePermanentCache : Object
+    {
+        // ── Methods ──
+        public void AddTextInfoToCache(){} // RVA: 0x7E16C40
+        public void RemoveTextInfoFromCache(){} // RVA: 0x7E16EE0
+        public void .ctor(){} // RVA: 0x7E170D0
+    }
+
+    public class TextHandleTemporaryCache : Object
+    {
+        // ── Methods ──
+        public void ClearTemporaryCache(){} // RVA: 0x7E17200
+        public void AddTextInfoToCache(){} // RVA: 0x7E17360
+        public void RemoveTextInfoFromCache(){} // RVA: 0x7E179F0
+        public void RefreshCaching(){} // RVA: 0x7E17CE0
+        public void RecycleTextInfoFromCache(){} // RVA: 0x7E17ED0
+        public void UpdateCurrentFrame(){} // RVA: 0x7E18210
+        public void .ctor(){} // RVA: 0x7E18260
     }
 
     public class TextInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF08AD00
-        public void Clear(){} // RVA: 0x7AF08AFE0
-        public void ClearMeshInfo(){} // RVA: 0x7AF08B050
-        public void ClearLineInfo(){} // RVA: 0x7AF08B130
-        public void ClearPageInfo(){} // RVA: 0x7AF08B400
-        public void Resize(){} // RVA: 0x7A7E1F880
-        public void .cctor(){} // RVA: 0x7AF08B540
+        public void RemoveFromCache(){} // RVA: 0x7E18390
+        public void .ctor(){} // RVA: 0x7E18410
+        public void Clear(){} // RVA: 0x7E18730
+        public void ClearMeshInfo(){} // RVA: 0x7E187A0
+        public void ClearLineInfo(){} // RVA: 0x7E18860
+        public void Resize(){} // RVA: 0x89B4F0
+        public void GetCursorPositionFromStringIndexUsingCharacterHeight(){} // RVA: 0x7E18B30
+        public void GetCursorPositionFromStringIndexUsingLineHeight(){} // RVA: 0x7E18C20
+        public void GetCursorIndexFromPosition(){} // RVA: 0x7E18D50
+        public void LineDownCharacterPosition(){} // RVA: 0x7E18EF0
+        public void LineUpCharacterPosition(){} // RVA: 0x7E190C0
+        public void FindNearestLine(){} // RVA: 0x7E19290
+        public void FindNearestCharacterOnLine(){} // RVA: 0x7E19360
+        public void FindIntersectingLink(){} // RVA: 0x7E197C0
+        public void GetCorrespondingStringIndex(){} // RVA: 0x7E19D00
+        public void GetLineInfoFromCharacterIndex(){} // RVA: 0x7E19D60
+        public void PointIntersectRectangle(){} // RVA: 0x7E19E30
+        public void DistanceToLine(){} // RVA: 0x7E1A0E0
+        public void GetLineNumber(){} // RVA: 0x7E1A350
+        public void GetLineHeight(){} // RVA: 0x7E1A3A0
+        public void GetLineHeightFromCharacterIndex(){} // RVA: 0x7E1A400
+        public void GetCharacterHeightFromIndex(){} // RVA: 0x7E1A490
+        public void Substring(){} // RVA: 0x7E1A4F0
+        public void IndexOf(){} // RVA: 0x7E1A6A0
+        public void LastIndexOf(){} // RVA: 0x7E1A750
+        public void .cctor(){} // RVA: 0x7E1A800
+    }
+
+    public class TextLib : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7E10990
+        public void GetInstance(){} // RVA: 0x7E10A70
+        public void GenerateText(){} // RVA: 0x7E10B40
+        public void ProcessMeshInfos(){} // RVA: 0x7E10CC0
+        public void GenerateTextInternal(){} // RVA: 0x7E117C0
+        public void MeasureText(){} // RVA: 0x7E11860
+        public void FindIntersectingLink(){} // RVA: 0x7E11900
+        public void GetInstance_Injected(){} // RVA: 0x7E11960
+        public void GenerateTextInternal_Injected(){} // RVA: 0x7E119B0
+        public void MeasureText_Injected(){} // RVA: 0x7E11A30
+        public void FindIntersectingLink_Injected(){} // RVA: 0x7E11AB0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1ABE0
-        public void get_Count(){} // RVA: 0x7A7E00710
-        public void get_current(){} // RVA: 0x7A8051B10
-        public void SetDefault(){} // RVA: 0x7A8051B10
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void Add(){} // RVA: 0x7A8051B10
-        public void Remove(){} // RVA: 0x7A8051B10
-        public void Push(){} // RVA: 0x7A8051B10
-        public void Pop(){} // RVA: 0x7A8051B10
-        public void Peek(){} // RVA: 0x7A8051B10
-        public void CurrentItem(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x8965E0
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_current(){} // RVA: 0xA94080
+        public void SetDefault(){} // RVA: 0xA94080
+        public void Clear(){} // RVA: 0x894290
+        public void Add(){} // RVA: 0xA94080
+        public void Remove(){} // RVA: 0xA94080
+        public void Push(){} // RVA: 0xA94080
+        public void Pop(){} // RVA: 0xA94080
+        public void Peek(){} // RVA: 0xA94080
+        public void CurrentItem(){} // RVA: 0xA94080
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3B070
-        public void get_Count(){} // RVA: 0x7A7AD2220
-        public void get_current(){} // RVA: 0x7A7A3B160
-        public void SetDefault(){} // RVA: 0x7A7AD2230
-        public void Clear(){} // RVA: 0x7A7A3B210
-        public void Add(){} // RVA: 0x7A7A3B260
-        public void Remove(){} // RVA: 0x7A7AD2270
-        public void Push(){} // RVA: 0x7A7AD22B0
-        public void Pop(){} // RVA: 0x7A7A3B430
-        public void Peek(){} // RVA: 0x7A7A3B590
-        public void CurrentItem(){} // RVA: 0x7A7A3B160
+        public void .ctor(){} // RVA: 0x4AA260
+        public void get_Count(){} // RVA: 0x53FBE0
+        public void get_current(){} // RVA: 0x4AA350
+        public void SetDefault(){} // RVA: 0x4AA410
+        public void Clear(){} // RVA: 0x4AA400
+        public void Add(){} // RVA: 0x4AA450
+        public void Remove(){} // RVA: 0x53FBF0
+        public void Push(){} // RVA: 0x53FC30
+        public void Pop(){} // RVA: 0x4AA620
+        public void Peek(){} // RVA: 0x4AA780
+        public void CurrentItem(){} // RVA: 0x4AA350
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A3E0
-        public void get_Count(){} // RVA: 0x7A7AD1FC0
-        public void get_current(){} // RVA: 0x7A7A3BBE0
-        public void SetDefault(){} // RVA: 0x7A7AD2430
-        public void Clear(){} // RVA: 0x7A7A3A500
-        public void Add(){} // RVA: 0x7A7A3BC40
-        public void Remove(){} // RVA: 0x7A7AD2440
-        public void Push(){} // RVA: 0x7A7AD2450
-        public void Pop(){} // RVA: 0x7A7A3BCF0
-        public void Peek(){} // RVA: 0x7A7A3BD00
-        public void CurrentItem(){} // RVA: 0x7A7A3BBE0
+        public void .ctor(){} // RVA: 0x4A9610
+        public void get_Count(){} // RVA: 0x53FA00
+        public void get_current(){} // RVA: 0x4AAD80
+        public void SetDefault(){} // RVA: 0x4AADD0
+        public void Clear(){} // RVA: 0x4A9730
+        public void Add(){} // RVA: 0x4AADE0
+        public void Remove(){} // RVA: 0x4AAE20
+        public void Push(){} // RVA: 0x53FD90
+        public void Pop(){} // RVA: 0x4AAE40
+        public void Peek(){} // RVA: 0x4AAE50
+        public void CurrentItem(){} // RVA: 0x4AAD80
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A3E0
-        public void get_Count(){} // RVA: 0x7A7AD1FC0
-        public void get_current(){} // RVA: 0x7A7A3A4B0
-        public void SetDefault(){} // RVA: 0x7A7AD2200
-        public void Clear(){} // RVA: 0x7A7A3A500
-        public void Add(){} // RVA: 0x7A7A3A520
-        public void Remove(){} // RVA: 0x7A7AD2210
-        public void Push(){} // RVA: 0x7A7A3ADB0
-        public void Pop(){} // RVA: 0x7A7A3AE70
-        public void Peek(){} // RVA: 0x7A7A3A720
-        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+        public void .ctor(){} // RVA: 0x4A9610
+        public void get_Count(){} // RVA: 0x53FA00
+        public void get_current(){} // RVA: 0x4A96E0
+        public void SetDefault(){} // RVA: 0x4A9F80
+        public void Clear(){} // RVA: 0x4A9730
+        public void Add(){} // RVA: 0x4A9750
+        public void Remove(){} // RVA: 0x4A9F90
+        public void Push(){} // RVA: 0x4A9FA0
+        public void Pop(){} // RVA: 0x4AA060
+        public void Peek(){} // RVA: 0x4A9900
+        public void CurrentItem(){} // RVA: 0x4A96E0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A3E0
-        public void get_Count(){} // RVA: 0x7A7AD1FC0
-        public void get_current(){} // RVA: 0x7A7A3A4B0
-        public void SetDefault(){} // RVA: 0x7A7AD2200
-        public void Clear(){} // RVA: 0x7A7A3A500
-        public void Add(){} // RVA: 0x7A7A3A520
-        public void Remove(){} // RVA: 0x7A7AD2210
-        public void Push(){} // RVA: 0x7A7A3ADB0
-        public void Pop(){} // RVA: 0x7A7A3AE70
-        public void Peek(){} // RVA: 0x7A7A3A720
-        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+        public void .ctor(){} // RVA: 0x4A9610
+        public void get_Count(){} // RVA: 0x53FA00
+        public void get_current(){} // RVA: 0x4A96E0
+        public void SetDefault(){} // RVA: 0x4A9F80
+        public void Clear(){} // RVA: 0x4A9730
+        public void Add(){} // RVA: 0x4A9750
+        public void Remove(){} // RVA: 0x4A9F90
+        public void Push(){} // RVA: 0x4A9FA0
+        public void Pop(){} // RVA: 0x4AA060
+        public void Peek(){} // RVA: 0x4A9900
+        public void CurrentItem(){} // RVA: 0x4A96E0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A3E0
-        public void get_Count(){} // RVA: 0x7A7AD1FC0
-        public void get_current(){} // RVA: 0x7A7A3A4B0
-        public void SetDefault(){} // RVA: 0x7A7AD1FD0
-        public void Clear(){} // RVA: 0x7A7A3A500
-        public void Add(){} // RVA: 0x7A7A3A520
-        public void Remove(){} // RVA: 0x7A7AD1FE0
-        public void Push(){} // RVA: 0x7A7AD1FF0
-        public void Pop(){} // RVA: 0x7A7A3A680
-        public void Peek(){} // RVA: 0x7A7A3A720
-        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+        public void .ctor(){} // RVA: 0x4A9610
+        public void get_Count(){} // RVA: 0x53FA00
+        public void get_current(){} // RVA: 0x4A96E0
+        public void SetDefault(){} // RVA: 0x4A9740
+        public void Clear(){} // RVA: 0x4A9730
+        public void Add(){} // RVA: 0x4A9750
+        public void Remove(){} // RVA: 0x4A9790
+        public void Push(){} // RVA: 0x53FA10
+        public void Pop(){} // RVA: 0x4A9860
+        public void Peek(){} // RVA: 0x4A9900
+        public void CurrentItem(){} // RVA: 0x4A96E0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A900
-        public void get_Count(){} // RVA: 0x7A7AD20B0
-        public void get_current(){} // RVA: 0x7A7A3A9D0
-        public void SetDefault(){} // RVA: 0x7A7AD20C0
-        public void Clear(){} // RVA: 0x7A7A3AA50
-        public void Add(){} // RVA: 0x7A7A3AA90
-        public void Remove(){} // RVA: 0x7A7AD20F0
-        public void Push(){} // RVA: 0x7A7A3AB70
-        public void Pop(){} // RVA: 0x7A7A3ABA0
-        public void Peek(){} // RVA: 0x7A7AD2180
-        public void CurrentItem(){} // RVA: 0x7A7A3A9D0
+        public void .ctor(){} // RVA: 0x4A9AE0
+        public void get_Count(){} // RVA: 0x53FAD0
+        public void get_current(){} // RVA: 0x4A9BB0
+        public void SetDefault(){} // RVA: 0x4A9C40
+        public void Clear(){} // RVA: 0x4A9C30
+        public void Add(){} // RVA: 0x4A9C70
+        public void Remove(){} // RVA: 0x53FAE0
+        public void Push(){} // RVA: 0x4A9D50
+        public void Pop(){} // RVA: 0x4A9D80
+        public void Peek(){} // RVA: 0x53FB70
+        public void CurrentItem(){} // RVA: 0x4A9BB0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3A3E0
-        public void get_Count(){} // RVA: 0x7A7AD1FC0
-        public void get_current(){} // RVA: 0x7A7A3A4B0
-        public void SetDefault(){} // RVA: 0x7A7AD21F0
-        public void Clear(){} // RVA: 0x7A7A3A500
-        public void Add(){} // RVA: 0x7A7A3A520
-        public void Remove(){} // RVA: 0x7A7AD1FE0
-        public void Push(){} // RVA: 0x7A7A3AD70
-        public void Pop(){} // RVA: 0x7A7A3AD80
-        public void Peek(){} // RVA: 0x7A7A3A720
-        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+        public void .ctor(){} // RVA: 0x4A9610
+        public void get_Count(){} // RVA: 0x53FA00
+        public void get_current(){} // RVA: 0x4A96E0
+        public void SetDefault(){} // RVA: 0x4A9F40
+        public void Clear(){} // RVA: 0x4A9730
+        public void Add(){} // RVA: 0x4A9750
+        public void Remove(){} // RVA: 0x4A9790
+        public void Push(){} // RVA: 0x4A9F50
+        public void Pop(){} // RVA: 0x4A9F60
+        public void Peek(){} // RVA: 0x4A9900
+        public void CurrentItem(){} // RVA: 0x4A96E0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7A3B7E0
-        public void get_Count(){} // RVA: 0x7A7AD2400
-        public void get_current(){} // RVA: 0x7A7A3B8B0
-        public void SetDefault(){} // RVA: 0x7A7AD2410
-        public void Clear(){} // RVA: 0x7A7A3B900
-        public void Add(){} // RVA: 0x7A7A3B920
-        public void Remove(){} // RVA: 0x7A7AD2420
-        public void Push(){} // RVA: 0x7A7A3B9C0
-        public void Pop(){} // RVA: 0x7A7A3BA80
-        public void Peek(){} // RVA: 0x7A7A3BB40
-        public void CurrentItem(){} // RVA: 0x7A7A3B8B0
+        public void .ctor(){} // RVA: 0x4AA9D0
+        public void get_Count(){} // RVA: 0x53FD80
+        public void get_current(){} // RVA: 0x4AAAA0
+        public void SetDefault(){} // RVA: 0x4AAB00
+        public void Clear(){} // RVA: 0x4AAAF0
+        public void Add(){} // RVA: 0x4AAB10
+        public void Remove(){} // RVA: 0x4AAB50
+        public void Push(){} // RVA: 0x4AAB60
+        public void Pop(){} // RVA: 0x4AAC20
+        public void Peek(){} // RVA: 0x4AACE0
+        public void CurrentItem(){} // RVA: 0x4AAAA0
     }
 
     public class TextProcessingStack`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AD25D0
-        public void get_Count(){} // RVA: 0x7A7AD25E0
-        public void get_current(){} // RVA: 0x7A7AD25F0
-        public void SetDefault(){} // RVA: 0x7A7AD27C0
-        public void Clear(){} // RVA: 0x7A7AD27B0
-        public void Add(){} // RVA: 0x7A7AD2860
-        public void Remove(){} // RVA: 0x7A7AD2920
-        public void Push(){} // RVA: 0x7A7AD2B00
-        public void Pop(){} // RVA: 0x7A7AD2BA0
-        public void Peek(){} // RVA: 0x7A7AD2C40
-        public void CurrentItem(){} // RVA: 0x7A7AD25F0
+        public void .ctor(){} // RVA: 0x53FF10
+        public void get_Count(){} // RVA: 0x53FF20
+        public void get_current(){} // RVA: 0x53FF30
+        public void SetDefault(){} // RVA: 0x540100
+        public void Clear(){} // RVA: 0x5400F0
+        public void Add(){} // RVA: 0x5401A0
+        public void Remove(){} // RVA: 0x540260
+        public void Push(){} // RVA: 0x540440
+        public void Pop(){} // RVA: 0x5404E0
+        public void Peek(){} // RVA: 0x540580
+        public void CurrentItem(){} // RVA: 0x53FF30
     }
 
     public class TextResourceManager : Object
     {
         // ── Methods ──
-        public void AddFontAsset(){} // RVA: 0x7AF08B5B0
-        public void .cctor(){} // RVA: 0x7AF08BF50
+        public void AddFontAsset(){} // RVA: 0x7E1A870
+        public void .cctor(){} // RVA: 0x7E1B210
+    }
+
+    public class TextSelectionService : Object
+    {
+        // ── Methods ──
+        public void Substring(){} // RVA: 0x7E11BB0
+        public void SelectCurrentWord(){} // RVA: 0x7E11CA0
+        public void PreviousCodePointIndex(){} // RVA: 0x7E11D20
+        public void NextCodePointIndex(){} // RVA: 0x7E11D80
+        public void GetCursorLogicalIndexFromPosition(){} // RVA: 0x7E11DE0
+        public void GetCursorPositionFromLogicalIndex(){} // RVA: 0x7E11E40
+        public void LineUpCharacterPosition(){} // RVA: 0x7E11EB0
+        public void LineDownCharacterPosition(){} // RVA: 0x7E11F10
+        public void GetHighlightRectangles(){} // RVA: 0x7E11F70
+        public void GetCharacterHeightFromIndex(){} // RVA: 0x7E121D0
+        public void GetStartOfNextWord(){} // RVA: 0x7E12230
+        public void GetEndOfPreviousWord(){} // RVA: 0x7E12290
+        public void GetFirstCharacterIndexOnLine(){} // RVA: 0x7E122F0
+        public void GetLastCharacterIndexOnLine(){} // RVA: 0x7E12350
+        public void GetLineHeight(){} // RVA: 0x7E123B0
+        public void GetLineNumber(){} // RVA: 0x7E12410
+        public void SelectToPreviousParagraph(){} // RVA: 0x7E12470
+        public void SelectToStartOfParagraph(){} // RVA: 0x7E124D0
+        public void SelectToEndOfParagraph(){} // RVA: 0x7E12530
+        public void SelectToNextParagraph(){} // RVA: 0x7E12590
+        public void SelectCurrentParagraph(){} // RVA: 0x7E125F0
+        public void Substring_Injected(){} // RVA: 0x7E12660
+        public void GetCursorLogicalIndexFromPosition_Injected(){} // RVA: 0x7E126E0
+        public void GetCursorPositionFromLogicalIndex_Injected(){} // RVA: 0x7E12740
+        public void GetHighlightRectangles_Injected(){} // RVA: 0x7E127B0
     }
 
     public class TextSettings : ScriptableObject
     {
         // ── Methods ──
-        public void get_version(){} // RVA: 0x7A80DA7B0
-        public void set_version(){} // RVA: 0x7A813E420
-        public void get_defaultFontAsset(){} // RVA: 0x7A81052C0
-        public void set_defaultFontAsset(){} // RVA: 0x7A81052D0
-        public void get_defaultFontAssetPath(){} // RVA: 0x7A8105330
-        public void set_defaultFontAssetPath(){} // RVA: 0x7A80D8E80
-        public void get_fallbackFontAssets(){} // RVA: 0x7A83F69F0
-        public void set_fallbackFontAssets(){} // RVA: 0x7A8105A90
-        public void get_matchMaterialPreset(){} // RVA: 0x7A82A20A0
-        public void set_matchMaterialPreset(){} // RVA: 0x7A82A2C90
-        public void get_missingCharacterUnicode(){} // RVA: 0x7A864E8D0
-        public void set_missingCharacterUnicode(){} // RVA: 0x7A9ABBD00
-        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7A8193790
-        public void set_clearDynamicDataOnBuild(){} // RVA: 0x7A81937A0
-        public void get_defaultSpriteAsset(){} // RVA: 0x7A8152D80
-        public void set_defaultSpriteAsset(){} // RVA: 0x7A8152D90
-        public void get_defaultSpriteAssetPath(){} // RVA: 0x7A8178B90
-        public void set_defaultSpriteAssetPath(){} // RVA: 0x7A8230620
-        public void get_fallbackSpriteAssets(){} // RVA: 0x7A81A0050
-        public void set_fallbackSpriteAssets(){} // RVA: 0x7A81A0060
-        public void get_missingSpriteCharacterUnicode(){} // RVA: 0x7A83562E0
-        public void set_missingSpriteCharacterUnicode(){} // RVA: 0x7A8355940
-        public void get_defaultStyleSheet(){} // RVA: 0x7A8153390
-        public void set_defaultStyleSheet(){} // RVA: 0x7A81533A0
-        public void get_styleSheetsResourcePath(){} // RVA: 0x7A81A00E0
-        public void set_styleSheetsResourcePath(){} // RVA: 0x7A81A00F0
-        public void get_defaultColorGradientPresetsPath(){} // RVA: 0x7A82C2060
-        public void set_defaultColorGradientPresetsPath(){} // RVA: 0x7A82C0530
-        public void get_lineBreakingRules(){} // RVA: 0x7AF08C3F0
-        public void set_lineBreakingRules(){} // RVA: 0x7A825F860
-        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x7AF08C4B0
-        public void set_useModernHangulLineBreakingRules(){} // RVA: 0x7A90F9520
-        public void get_displayWarnings(){} // RVA: 0x7A9101D50
-        public void set_displayWarnings(){} // RVA: 0x7A90FAED0
-        public void OnEnable(){} // RVA: 0x7AF08C4C0
-        public void InitializeFontReferenceLookup(){} // RVA: 0x7AF08C4F0
-        public void GetCachedFontAssetInternal(){} // RVA: 0x7AF08C8E0
-        public void .ctor(){} // RVA: 0x7AF08CD60
+        public void get_version(){} // RVA: 0xB465B0
+        public void set_version(){} // RVA: 0xBA9BA0
+        public void get_defaultFontAsset(){} // RVA: 0xB700F0
+        public void set_defaultFontAsset(){} // RVA: 0xB70100
+        public void get_defaultFontAssetPath(){} // RVA: 0xB70160
+        public void set_defaultFontAssetPath(){} // RVA: 0xB44DC0
+        public void get_fallbackFontAssets(){} // RVA: 0xD33E60
+        public void set_fallbackFontAssets(){} // RVA: 0x7E03A80
+        public void get_fallbackOSFontAssets(){} // RVA: 0x7E03AF0
+        public void GetStaticFallbackOSFontAsset(){} // RVA: 0x7E03BE0
+        public void SetStaticFallbackOSFontAsset(){} // RVA: 0x7E03C20
+        public void GetFallbackFontAssets(){} // RVA: 0x7C24F60
+        public void get_matchMaterialPreset(){} // RVA: 0xD16660
+        public void set_matchMaterialPreset(){} // RVA: 0xD14C10
+        public void get_missingCharacterUnicode(){} // RVA: 0x114DAD0
+        public void set_missingCharacterUnicode(){} // RVA: 0x25671C0
+        public void get_clearDynamicDataOnBuild(){} // RVA: 0xC02470
+        public void set_clearDynamicDataOnBuild(){} // RVA: 0xC02480
+        public void get_enableEmojiSupport(){} // RVA: 0x7E03CC0
+        public void set_enableEmojiSupport(){} // RVA: 0xEEA000
+        public void get_emojiFallbackTextAssets(){} // RVA: 0xBBF8F0
+        public void set_emojiFallbackTextAssets(){} // RVA: 0x7E03CD0
+        public void get_defaultSpriteAsset(){} // RVA: 0xBE58B0
+        public void set_defaultSpriteAsset(){} // RVA: 0xCA4DF0
+        public void get_defaultSpriteAssetPath(){} // RVA: 0xC0FFC0
+        public void set_defaultSpriteAssetPath(){} // RVA: 0xC0FFD0
+        public void get_fallbackSpriteAssets(){} // RVA: 0xBE2C60
+        public void set_fallbackSpriteAssets(){} // RVA: 0xBE2C70
+        public void set_s_GlobalSpriteAsset(){} // RVA: 0x7E03D40
+        public void get_s_GlobalSpriteAsset(){} // RVA: 0x7E03DE0
+        public void get_missingSpriteCharacterUnicode(){} // RVA: 0x2536460
+        public void set_missingSpriteCharacterUnicode(){} // RVA: 0x25406E0
+        public void get_defaultStyleSheet(){} // RVA: 0xC10050
+        public void set_defaultStyleSheet(){} // RVA: 0xC10060
+        public void get_styleSheetsResourcePath(){} // RVA: 0xCD3320
+        public void set_styleSheetsResourcePath(){} // RVA: 0xCD4740
+        public void get_defaultColorGradientPresetsPath(){} // RVA: 0xCD48B0
+        public void set_defaultColorGradientPresetsPath(){} // RVA: 0xCD3600
+        public void get_lineBreakingRules(){} // RVA: 0x7E03E20
+        public void set_lineBreakingRules(){} // RVA: 0xD5CBB0
+        public void get_displayWarnings(){} // RVA: 0x1C4D9A0
+        public void set_displayWarnings(){} // RVA: 0x1C4DB10
+        public void OnEnable(){} // RVA: 0x7E03EE0
+        public void OnDestroy(){} // RVA: 0x7E040D0
+        public void InitializeFontReferenceLookup(){} // RVA: 0x7E04140
+        public void GetCachedFontAsset(){} // RVA: 0x7E04540
+        public void GetOSFontAssetList(){} // RVA: 0x7E04930
+        public void CreateNativeObject(){} // RVA: 0x7E049D0
+        public void DestroyNativeObject(){} // RVA: 0x7E04AA0
+        public void UpdateFallbacks(){} // RVA: 0x7E04AF0
+        public void get_nativeTextSettings(){} // RVA: 0x7E04BD0
+        public void GetGlobalFallbacks(){} // RVA: 0x7E04BF0
+        public void UpdateNativeTextSettings(){} // RVA: 0x7E04E50
+        public void .ctor(){} // RVA: 0x7E05050
+        public void CreateNativeObject_Injected(){} // RVA: 0x7E05310
+        public void UpdateFallbacks_Injected(){} // RVA: 0x7E05360
     }
 
     public class TextShaderUtilities : Object
     {
         // ── Methods ──
-        public void get_ShaderRef_MobileSDF(){} // RVA: 0x7AF08D010
-        public void get_ShaderRef_MobileBitmap(){} // RVA: 0x7AF08D4B0
-        public void .cctor(){} // RVA: 0x7AF08D950
-        public void GetShaderPropertyIDs(){} // RVA: 0x7AF08DF70
+        public void get_ShaderRef_MobileSDF(){} // RVA: 0x7E1B630
+        public void get_ShaderRef_MobileBitmap(){} // RVA: 0x7E1B770
+        public void get_ShaderRef_Sprite(){} // RVA: 0x7E1B940
+        public void .cctor(){} // RVA: 0x7E1BC80
+        public void GetShaderPropertyIDs(){} // RVA: 0x7E1C440
     }
 
     public class TextStyle : Object
     {
         // ── Methods ──
-        public void get_hashCode(){} // RVA: 0x7ABB8C660
-        public void get_styleOpeningTagArray(){} // RVA: 0x7AEF24D90
-        public void get_styleClosingTagArray(){} // RVA: 0x7AEF66F80
-        public void .ctor(){} // RVA: 0x7AF08F9E0
-        public void RefreshStyle(){} // RVA: 0x7AF08FB40
+        public void get_hashCode(){} // RVA: 0x47FDFF0
+        public void get_styleOpeningTagArray(){} // RVA: 0x7C24F60
+        public void get_styleClosingTagArray(){} // RVA: 0x7C7DF30
+        public void .ctor(){} // RVA: 0x7E05950
+        public void RefreshStyle(){} // RVA: 0x7E05AB0
     }
 
     public class TextStyleSheet : ScriptableObject
     {
         // ── Methods ──
-        public void get_styles(){} // RVA: 0x7AACE3A80
-        public void Reset(){} // RVA: 0x7AF08FE90
-        public void GetStyle(){} // RVA: 0x7AF08FF30
-        public void RefreshStyles(){} // RVA: 0x7AF08FE90
-        public void LoadStyleDictionaryInternal(){} // RVA: 0x7AF08FFD0
-        public void .ctor(){} // RVA: 0x7AF0904D0
+        public void get_styles(){} // RVA: 0x3926770
+        public void Reset(){} // RVA: 0x7E05E00
+        public void GetStyle(){} // RVA: 0x7E05FB0
+        public void RefreshStyles(){} // RVA: 0x7E05E00
+        public void LoadStyleDictionaryInternal(){} // RVA: 0x7E06050
+        public void .ctor(){} // RVA: 0x7E06540
     }
 
     public class TextStyle[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class TextUtilities : Object
     {
         // ── Methods ──
-        public void ToUpperFast(){} // RVA: 0x7AF090610
-        public void GetHashCodeCaseInSensitive(){} // RVA: 0x7AF090680
-        public void UintToString(){} // RVA: 0x7AF090760
+        public void ToUpperFast(){} // RVA: 0x7E1D060
+        public void GetHashCodeCaseInSensitive(){} // RVA: 0x7E1D0D0
+        public void GetTextFontWeightIndex(){} // RVA: 0x7E1D1B0
     }
 
     public class UnicodeLineBreakingRules : Object
     {
         // ── Methods ──
-        public void get_leadingCharacters(){} // RVA: 0x7A80DA7B0
-        public void get_followingCharacters(){} // RVA: 0x7A81052C0
-        public void get_leadingCharactersLookup(){} // RVA: 0x7AF090830
-        public void get_followingCharactersLookup(){} // RVA: 0x7AF090870
-        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x7A84A5BD0
-        public void LoadLineBreakingRules(){} // RVA: 0x7AF090D60
-        public void GetCharacters(){} // RVA: 0x7AF091180
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_leadingCharactersLookup(){} // RVA: 0x7E1D240
+        public void get_followingCharactersLookup(){} // RVA: 0x7E1D270
+        public void get_useModernHangulLineBreakingRules(){} // RVA: 0xF73960
+        public void LoadLineBreakingRules(){} // RVA: 0x7E1D2A0
+        public void GetCharacters(){} // RVA: 0x7E1D750
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

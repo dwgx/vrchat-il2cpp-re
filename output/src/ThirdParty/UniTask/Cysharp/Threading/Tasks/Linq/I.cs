@@ -8,14 +8,14 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class IAsyncWriter`1
     {
         // ── Methods ──
-        public void YieldAsync(){} // RVA: 0x7A8051B10
+        public void YieldAsync(){} // RVA: 0xA94080
     }
 
     public class Intersect`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DDC0
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x8954D0
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
 }

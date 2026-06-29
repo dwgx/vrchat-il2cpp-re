@@ -1,194 +1,193 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.PhysSound
 // Classes: 10
-// Methods: 140
+// Methods: 141
 
 namespace ThirdParty.Other.PhysSound
 {
     public class PhysSoundAudioContainer : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A98323D0
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void Initialize(){} // RVA: 0x7A9832970
-        public void op_Implicit(){} // RVA: 0x7A85210C0
-        public void CompareBaseObjects(){} // RVA: 0x7A9832A90
-        public void IsNativeObjectAlive(){} // RVA: 0x7A9832C00
-        public void GetCachedPtr(){} // RVA: 0x7A9832DB0
-        public void get_name(){} // RVA: 0x7A98330B0
-        public void set_name(){} // RVA: 0x7A85210C0
-        public void Instantiate(){} // RVA: 0x7A98332F0
-        public void Destroy(){} // RVA: 0x7A98335F0
-        public void DestroyImmediate(){} // RVA: 0x7A98337A0
-        public void FindObjectsOfType(){} // RVA: 0x7A98339E0
-        public void FindObjectsByType(){} // RVA: 0x7A9833F70
+        public void GetInstanceID(){} // RVA: 0x233C590
+        public void Equals(){} // RVA: 0x233C710
+        public void GetHashCode(){} // RVA: 0x233C8D0
+        public void op_Implicit(){} // RVA: 0x233CA00
+        public void CompareBaseObjects(){} // RVA: 0x233CB30
+        public void IsNativeObjectAlive(){} // RVA: 0xFEE6E0
+        public void ToString(){} // RVA: 0x233CC30
+        public void get_name(){} // RVA: 0x233CDB0
+        public void set_name(){} // RVA: 0x233CEA0
+        public void .ctor(){} // RVA: 0xB460A0
+        public void Initialize(){} // RVA: 0x233D420
+        public void DestroyImmediate(){} // RVA: 0x233D5F0
+        public void FindObjectsOfType(){} // RVA: 0x233DC30
+        public void FindObjectsByType(){} // RVA: 0x233DD20
+        public void DontDestroyOnLoad(){} // RVA: 0x233DEA0
+        public void get_hideFlags(){} // RVA: 0x233DF90
     }
 
     public class PhysSoundAudioContainer[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class PhysSoundAudioSet : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A982C5A0
-        public void Equals(){} // RVA: 0x7A982C5B0
-        public void GetHashCode(){} // RVA: 0x7A982C5A0
-        public void .ctor(){} // RVA: 0x7A982C6C0
-        public void Initialize(){} // RVA: 0x7A982C5A0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A982C5A0
-        public void GetCachedPtr(){} // RVA: 0x7A982C780
-        public void get_name(){} // RVA: 0x7A982C5A0
-        public void set_name(){} // RVA: 0x7A982C5A0
+        public void GetInstanceID(){} // RVA: 0x2335D40
+        public void Equals(){} // RVA: 0x2335D40
+        public void GetHashCode(){} // RVA: 0x2335D50
+        public void op_Implicit(){} // RVA: 0x2335D40
+        public void CompareBaseObjects(){} // RVA: 0x2335E60
+        public void .ctor(){} // RVA: 0x2335F60
+        public void Initialize(){} // RVA: 0x2335D40
+        public void get_name(){} // RVA: 0x2336020
+        public void set_name(){} // RVA: 0x2335D40
     }
 
     public class PhysSoundAudioSet[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class PhysSoundBase : MonoBehaviour
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A7E00B20
-        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void get_destroyCancellationToken(){} // RVA: 0x87C540
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
     public class PhysSoundMaterial : ScriptableObject
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A9829EF0
-        public void CreateInstance(){} // RVA: 0x7A982A390
-        public void CreateScriptableObject(){} // RVA: 0x7A982A4A0
-        public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7A982A570
-        public void GetHashCode(){} // RVA: 0x7A982A670
-        public void OnEnable(){} // RVA: 0x7A982A7A0
-        public void OnDisable(){} // RVA: 0x7A982AC40
-        public void ToString(){} // RVA: 0x7A982ADB0
-        public void .ctor_D79224867DB2(){} // RVA: 0x7A982C140
-        public void .ctor(){} // RVA: 0x7A982C340
-        public void Initialize(){} // RVA: 0x7A982C430
+        public void Equals(){} // RVA: 0x2333EB0
+        public void CreateInstance(){} // RVA: 0x2334020
+        public void CreateScriptableObject(){} // RVA: 0x23340F0
+        public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x2334460
+        public void OnEnable(){} // RVA: 0x2334660
+        public void OnDisable(){} // RVA: 0x2334B00
+        public void GetHashCode(){} // RVA: 0x2334BE0
+        public void .ctor(){} // RVA: 0x2334CF0
+        public void Initialize(){} // RVA: 0x2334DE0
+        public void ToString(){} // RVA: 0x2334EF0
         // ── Unresolved (hash) ──
-        public void m_E14(){} // RVA: 0x7A982AEE0
-        public void m_091(){} // RVA: 0x7A982B0E0
-        public void m_537(){} // RVA: 0x7A982B490
-        public void m_B9C(){} // RVA: 0x7A982B930
-        public void m_976(){} // RVA: 0x7A982BCA0
+        public void m_354(){} // RVA: 0x2335000
+        public void m_FD9(){} // RVA: 0x2335100
+        public void m_29E(){} // RVA: 0x2335270
+        public void m_851(){} // RVA: 0x2335370
+        public void m_FBF(){} // RVA: 0x23354E0
+        public void m_526(){} // RVA: 0x23355E0
     }
 
     public class PhysSoundMaterial[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class PhysSoundObject : PhysSoundBase
     {
         // ── Methods ──
-        public void _playImpactSound(){} // RVA: 0x7A982CBC0
-        public void OnCollisionEnter(){} // RVA: 0x7A982D220
-        public void Start(){} // RVA: 0x7A982D680
-        public void OnCollisionStay(){} // RVA: 0x7A982F1A0
-        public void Update(){} // RVA: 0x7A982FDD0
-        public void _SetTargetVolumeAndPitch(){} // RVA: 0x7A98306B0
-        public void OnCollisionExit2D(){} // RVA: 0x7A9830D80
-        public void OnCollisionStay2D(){} // RVA: 0x7A9831680
-        public void OnCollisionEnter2D(){} // RVA: 0x7A9831AB0
-        public void .ctor(){} // RVA: 0x7A9831D60
-        public void Initialize(){} // RVA: 0x7A9831EA0
-        public void OnCollisionExit(){} // RVA: 0x7A98320A0
-        // ── 14 unresolved (hash) ──
-        public void m_EED(){} // RVA: 0x7A982C890
-        public void m_018(){} // RVA: 0x7A982E2D0
-        public void m_6B0(){} // RVA: 0x7A81052C0
-        public void m_3B2(){} // RVA: 0x7A982E760
-        public void m_A40(){} // RVA: 0x7A982EEF0
-        // ... 9 more unresolved methods
+        public void .ctor(){} // RVA: 0x2336C00
+        public void OnCollisionEnter2D(){} // RVA: 0x2336D40
+        public void Start(){} // RVA: 0x2336F80
+        public void _playImpactSound(){} // RVA: 0x23387A0
+        public void OnCollisionEnter(){} // RVA: 0x2338AD0
+        public void OnCollisionStay(){} // RVA: 0x23391F0
+        public void OnCollisionExit2D(){} // RVA: 0x23398C0
+        public void OnCollisionStay2D(){} // RVA: 0x2339FD0
+        public void Update(){} // RVA: 0x233AE80
+        public void _SetTargetVolumeAndPitch(){} // RVA: 0x233BA90
+        public void OnCollisionExit(){} // RVA: 0x233BCF0
+        // ── 16 unresolved (hash) ──
+        public void m_F6F(){} // RVA: 0x2336130
+        public void m_30F(){} // RVA: 0xB700F0
+        public void m_8AB(){} // RVA: 0x23365F0
+        public void m_E06(){} // RVA: 0x2336920
+        public void m_951(){} // RVA: 0x2336A00
+        // ... 11 more unresolved methods
     }
 
     public class PhysSoundTerrain : PhysSoundBase
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7A98384A0
-        public void .ctor(){} // RVA: 0x7A983A2F0
-        public void Initialize(){} // RVA: 0x7A983A480
+        public void .ctor(){} // RVA: 0x2341F10
+        public void Initialize(){} // RVA: 0x23420A0
+        public void Start(){} // RVA: 0x2342B20
         // ── Unresolved (hash) ──
-        public void m_40E(){} // RVA: 0x7A98381A0
-        public void m_2F9(){} // RVA: 0x7A9838850
-        public void m_D62(){} // RVA: 0x7A9838C00
-        public void m_598(){} // RVA: 0x7A9838FB0
-        public void m_A53(){} // RVA: 0x7A9839020
-        public void m_BDB(){} // RVA: 0x7A9839310
-        public void m_C03(){} // RVA: 0x7A9839600
-        public void m_F17(){} // RVA: 0x7A9839A10
-        public void m_0B3(){} // RVA: 0x7A9839E20
-        public void m_6B0(){} // RVA: 0x7A983A110
+        public void m_57C(){} // RVA: 0x2341B40
+        public void m_ED3(){} // RVA: 0x2341EB0
+        public void m_9C4(){} // RVA: 0x23423F0
+        public void m_409(){} // RVA: 0x2342710
+        public void m_4B0(){} // RVA: 0x2342E90
+        public void m_88D(){} // RVA: 0x23431D0
+        public void m_30F(){} // RVA: 0x2343230
+        public void m_080(){} // RVA: 0x2343410
+        public void m_145(){} // RVA: 0x2343490
     }
 
     public class Range : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A76630F0
-        public void InternalEquals(){} // RVA: 0x7A7663120
-        public void DefaultEquals(){} // RVA: 0x7A7663140
-        public void GetHashCode(){} // RVA: 0x7A7663160
-        public void InternalGetHashCode(){} // RVA: 0x7A7663180
-        public void ToString(){} // RVA: 0x7A76631C0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7663160
-        public void InternalEquals_49874A14DFBF(){} // RVA: 0x7A7663200
-        public void .ctor(){} // RVA: 0x7A7663240
+        public void Equals(){} // RVA: 0x7C400
+        public void InternalEquals(){} // RVA: 0x7C420
+        public void DefaultEquals(){} // RVA: 0x7C440
+        public void GetHashCode(){} // RVA: 0x7C470
+        public void InternalGetHashCode(){} // RVA: 0x7C420
+        public void ToString(){} // RVA: 0x7C4A0
+        public void GetHashCodeOfPtr(){} // RVA: 0x7C4C0
+        public void x(){} // RVA: 0x7C520
+        public void .ctor(){} // RVA: 0x7C540
+        public void Initialize(){} // RVA: 0x7C420
         // ── Unresolved (hash) ──
-        public void m_FF8(){} // RVA: 0x7A7663200
-        public void m_911(){} // RVA: 0x7A7663200
-        public void m_91E(){} // RVA: 0x7A7663200
-        public void m_D48(){} // RVA: 0x7A7663220
-        public void m_4FB(){} // RVA: 0x7A7663200
-        public void m_91C(){} // RVA: 0x7A7663200
+        public void m_A02(){} // RVA: 0x7C4F0
+        public void m_49F(){} // RVA: 0x7C400
+        public void m_730(){} // RVA: 0x7C550
+        public void m_696(){} // RVA: 0x7C570
     }
 
 }

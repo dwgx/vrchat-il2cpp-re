@@ -8,126 +8,126 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class UInt16Converter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE154BA0
-        public void Read(){} // RVA: 0x7AE154BF0
-        public void Write(){} // RVA: 0x7AE154C50
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE154C80
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE154C90
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE154CC0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE154D40
+        public void .ctor(){} // RVA: 0x6DD5760
+        public void Read(){} // RVA: 0x6DD57B0
+        public void Write(){} // RVA: 0x6DD5810
+        public void ReadAsPropertyNameCore(){} // RVA: 0x6DD5840
+        public void WriteAsPropertyNameCore(){} // RVA: 0x6DD5850
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x6DD5880
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x6DD5900
     }
 
     public class UInt16Converter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D4500
-        public void Read(){} // RVA: 0x7AE6D4560
-        public void Write(){} // RVA: 0x7AE6D45A0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D4600
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D4650
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D4680
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D4700
+        public void .ctor(){} // RVA: 0x734A670
+        public void Read(){} // RVA: 0x734A6D0
+        public void Write(){} // RVA: 0x734A710
+        public void ReadAsPropertyNameCore(){} // RVA: 0x734A770
+        public void WriteAsPropertyNameCore(){} // RVA: 0x734A7C0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x734A7F0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x734A870
     }
 
     public class UInt32Converter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE154D80
-        public void Read(){} // RVA: 0x7AE154DD0
-        public void Write(){} // RVA: 0x7AE154E30
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE154E60
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE154E70
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE154EA0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE154F20
+        public void .ctor(){} // RVA: 0x6DD5940
+        public void Read(){} // RVA: 0x6DD5990
+        public void Write(){} // RVA: 0x6DD59F0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x6DD5A20
+        public void WriteAsPropertyNameCore(){} // RVA: 0x6DD5A30
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x6DD5A60
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x6DD5AE0
     }
 
     public class UInt32Converter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D4780
-        public void Read(){} // RVA: 0x7AE6D47E0
-        public void Write(){} // RVA: 0x7AE6D4820
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D4880
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D48D0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D4900
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D4980
+        public void .ctor(){} // RVA: 0x734A8F0
+        public void Read(){} // RVA: 0x734A950
+        public void Write(){} // RVA: 0x734A990
+        public void ReadAsPropertyNameCore(){} // RVA: 0x734A9F0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x734AA40
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x734AA70
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x734AAF0
     }
 
     public class UInt64Converter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE154F60
-        public void Read(){} // RVA: 0x7AE154FB0
-        public void Write(){} // RVA: 0x7AE155010
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE155040
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE155050
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE155080
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE155100
+        public void .ctor(){} // RVA: 0x6DD5B20
+        public void Read(){} // RVA: 0x6DD5B70
+        public void Write(){} // RVA: 0x6DD5BD0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x6DD5C00
+        public void WriteAsPropertyNameCore(){} // RVA: 0x6DD5C10
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x6DD5C40
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x6DD5CC0
     }
 
     public class UInt64Converter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D4A00
-        public void Read(){} // RVA: 0x7AE6D4A60
-        public void Write(){} // RVA: 0x7AE6D4AA0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D4B00
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D4B50
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D4B80
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D4C00
+        public void .ctor(){} // RVA: 0x734AB70
+        public void Read(){} // RVA: 0x734ABD0
+        public void Write(){} // RVA: 0x734AC10
+        public void ReadAsPropertyNameCore(){} // RVA: 0x734AC70
+        public void WriteAsPropertyNameCore(){} // RVA: 0x734ACC0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x734ACF0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x734AD70
     }
 
     public class UnsupportedTypeConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x7AE155140
-        public void CreateConverter(){} // RVA: 0x7AE155330
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CanConvert(){} // RVA: 0x6DD5D00
+        public void CreateConverter(){} // RVA: 0x6DD5EE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UnsupportedTypeConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x7AE6D4C80
-        public void CreateConverter(){} // RVA: 0x7AE6D4E90
-        public void CreateUnsupportedConverterForType(){} // RVA: 0x7AE6D4EA0
-        public void .ctor(){} // RVA: 0x7AB490F90
+        public void CanConvert(){} // RVA: 0x734ADF0
+        public void CreateConverter(){} // RVA: 0x734B000
+        public void CreateUnsupportedConverterForType(){} // RVA: 0x734B010
+        public void .ctor(){} // RVA: 0x4127AC0
     }
 
     public class UnsupportedTypeConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7A8051B10
-        public void Write(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Read(){} // RVA: 0xA94080
+        public void Write(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class UnsupportedTypeConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void get_ErrorMessage(){} // RVA: 0x7A7E00680
-        public void Read(){} // RVA: 0x7A8051B10
-        public void Write(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x894320
+        public void get_ErrorMessage(){} // RVA: 0x87C0A0
+        public void Read(){} // RVA: 0xA94080
+        public void Write(){} // RVA: 0xA94080
     }
 
     public class UriConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE155510
-        public void Write(){} // RVA: 0x7AE155590
-        public void .ctor(){} // RVA: 0x7AE1556B0
+        public void Read(){} // RVA: 0x6DD6090
+        public void Write(){} // RVA: 0x6DD6110
+        public void .ctor(){} // RVA: 0x6DD6230
     }
 
     public class UriConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE6D50F0
-        public void Write(){} // RVA: 0x7AE6D5110
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D5220
-        public void ReadCore(){} // RVA: 0x7AE6D5230
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D52B0
-        public void .ctor(){} // RVA: 0x7AE6D5380
+        public void Read(){} // RVA: 0x734B230
+        public void Write(){} // RVA: 0x734B250
+        public void ReadAsPropertyNameCore(){} // RVA: 0x734B360
+        public void ReadCore(){} // RVA: 0x734B370
+        public void WriteAsPropertyNameCore(){} // RVA: 0x734B3F0
+        public void .ctor(){} // RVA: 0x734B4C0
     }
 
 }

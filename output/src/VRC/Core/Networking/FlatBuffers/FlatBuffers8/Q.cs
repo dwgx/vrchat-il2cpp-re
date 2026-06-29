@@ -1,125 +1,124 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers8
 // Classes: 9
-// Methods: 72
+// Methods: 71
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
     public class Quaternion : ValueType
     {
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7A765F080
-        public void __init(){} // RVA: 0x7A7F12470
-        public void __assign(){} // RVA: 0x7A7F12480
-        public void get_X(){} // RVA: 0x7A7F12600
-        public void get_Y(){} // RVA: 0x7A7F13420
-        public void get_Z(){} // RVA: 0x7A7F13520
-        public void get_W(){} // RVA: 0x7A7F13600
-        public void CreateQuaternion(){} // RVA: 0x7AF3CAA50
-        public void UnPack(){} // RVA: 0x7A7F13670
-        public void UnPackTo(){} // RVA: 0x7A7F13640
-        public void Pack(){} // RVA: 0x7AF3CAC40
+        public void get_ByteBuffer(){} // RVA: 0x77ED0
+        public void __init(){} // RVA: 0x9B5420
+        public void __assign(){} // RVA: 0x9B5430
+        public void get_X(){} // RVA: 0x9B56F0
+        public void get_Y(){} // RVA: 0x9B6D30
+        public void get_Z(){} // RVA: 0x9B6F70
+        public void get_W(){} // RVA: 0x9B70F0
+        public void CreateQuaternion(){} // RVA: 0x8222F30
+        public void UnPack(){} // RVA: 0x9B7200
+        public void UnPackTo(){} // RVA: 0x9B7130
+        public void Pack(){} // RVA: 0x8223120
     }
 
     public class QuaternionArray : ValueType
     {
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7A765F080
-        public void ValidateVersion(){} // RVA: 0x7A80D7310
-        public void GetRootAsQuaternionArray(){} // RVA: 0x7AF3BF190
-        public void __init(){} // RVA: 0x7A7F12470
-        public void __assign(){} // RVA: 0x7A7F12480
-        public void Value(){} // RVA: 0x7A7F15780
-        public void get_ValueLength(){} // RVA: 0x7A7F12820
-        public void CreateQuaternionArray(){} // RVA: 0x7AF3E0E10
-        public void StartQuaternionArray(){} // RVA: 0x7AF3BF400
-        public void AddValue(){} // RVA: 0x7AF3BF420
-        public void StartValueVector(){} // RVA: 0x7AF3E06A0
-        public void EndQuaternionArray(){} // RVA: 0x7AF3E0ED0
-        public void UnPack(){} // RVA: 0x7A7F157B0
-        public void UnPackTo(){} // RVA: 0x7A7F157C0
-        public void Pack(){} // RVA: 0x7AF3E1220
+        public void get_ByteBuffer(){} // RVA: 0x77ED0
+        public void ValidateVersion(){} // RVA: 0xB43310
+        public void GetRootAsQuaternionArray(){} // RVA: 0x8217320
+        public void __init(){} // RVA: 0x9B5420
+        public void __assign(){} // RVA: 0x9B5430
+        public void Value(){} // RVA: 0x9BB270
+        public void get_ValueLength(){} // RVA: 0x9B5A50
+        public void CreateQuaternionArray(){} // RVA: 0x823A710
+        public void StartQuaternionArray(){} // RVA: 0x8217590
+        public void AddValue(){} // RVA: 0x82175B0
+        public void StartValueVector(){} // RVA: 0x8239FA0
+        public void EndQuaternionArray(){} // RVA: 0x823A7D0
+        public void UnPack(){} // RVA: 0x9BB2A0
+        public void UnPackTo(){} // RVA: 0x9BB2B0
+        public void Pack(){} // RVA: 0x823AB20
     }
 
     public class QuaternionArrayT : Object
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A80F2570
-        public void set_Value(){} // RVA: 0x7A80D8E20
-        public void .ctor(){} // RVA: 0x7AD51EC30
+        public void get_Value(){} // RVA: 0xB5DBF0
+        public void set_Value(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0x627C9E0
     }
 
     public class QuaternionArrayVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7AF3E0C40
+        public void Verify(){} // RVA: 0x823A540
     }
 
     public class QuaternionHalf : ValueType
     {
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7A765F080
-        public void __init(){} // RVA: 0x7A7F12470
-        public void __assign(){} // RVA: 0x7A7F12480
-        public void Data(){} // RVA: 0x7A7F12D70
-        public void CreateQuaternionHalf(){} // RVA: 0x7AF3CB8B0
-        public void UnPack(){} // RVA: 0x7A7F13760
-        public void UnPackTo(){} // RVA: 0x7A7F13840
-        public void Pack(){} // RVA: 0x7AF3CBBC0
+        public void get_ByteBuffer(){} // RVA: 0x77ED0
+        public void __init(){} // RVA: 0x9B5420
+        public void __assign(){} // RVA: 0x9B5430
+        public void Data(){} // RVA: 0x9B6360
+        public void CreateQuaternionHalf(){} // RVA: 0x8223D90
+        public void UnPack(){} // RVA: 0x9B7570
+        public void UnPackTo(){} // RVA: 0x9B7650
+        public void Pack(){} // RVA: 0x82240A0
     }
 
     public class QuaternionHalfT : Object
     {
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void set_Data(){} // RVA: 0x7A80D8E20
-        public void .ctor(){} // RVA: 0x7AF3CBD00
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void set_Data(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0x82241E0
     }
 
     public class QuaternionT : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF3BDA20
-        public void CopyFrom(){} // RVA: 0x7AF3BD440
-        public void ToNumerics(){} // RVA: 0x7AF3BD460
-        public void op_Implicit(){} // RVA: 0x7AF3BD480
-        public void op_Explicit(){} // RVA: 0x7AF3BD4B0
-        public void get_identity(){} // RVA: 0x7AF3BD510
-        public void get_magnitude(){} // RVA: 0x7AF3BD560
-        public void get_sqrMagnitude(){} // RVA: 0x7AF3BD610
-        public void IsBad(){} // RVA: 0x7AF3BD650
-        public void Normalize(){} // RVA: 0x7AF3BD6D0
-        public void ToString(){} // RVA: 0x7AF3BD7D0
-        public void get_X(){} // RVA: 0x7A82023C0
-        public void set_X(){} // RVA: 0x7A82023D0
-        public void get_Y(){} // RVA: 0x7A82023E0
-        public void set_Y(){} // RVA: 0x7A82023F0
-        public void get_Z(){} // RVA: 0x7A80DBCE0
-        public void set_Z(){} // RVA: 0x7A80F26C0
-        public void get_W(){} // RVA: 0x7A81A5180
-        public void set_W(){} // RVA: 0x7A81A5190
-        public void <X>k__BackingField(){} // RVA: 0x7B3FAD6B8
+        public void .ctor(){} // RVA: 0x8215970
+        public void CopyFrom(){} // RVA: 0x82153A0
+        public void ToNumerics(){} // RVA: 0x82153C0
+        public void op_Implicit(){} // RVA: 0x82153E0
+        public void op_Explicit(){} // RVA: 0x8215410
+        public void get_identity(){} // RVA: 0x8215470
+        public void get_magnitude(){} // RVA: 0x82154C0
+        public void get_sqrMagnitude(){} // RVA: 0x8215570
+        public void IsBad(){} // RVA: 0x82155B0
+        public void Normalize(){} // RVA: 0x8215630
+        public void ToString(){} // RVA: 0x8215730
+        public void get_X(){} // RVA: 0xC763E0
+        public void set_X(){} // RVA: 0xC763F0
+        public void get_Y(){} // RVA: 0xC76400
+        public void set_Y(){} // RVA: 0xC76410
+        public void get_Z(){} // RVA: 0xB47B50
+        public void set_Z(){} // RVA: 0xB5DD40
+        public void get_W(){} // RVA: 0xC152D0
+        public void set_W(){} // RVA: 0xC152E0
     }
 
     public class QuaternionTenBit : ValueType
     {
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7A765F080
-        public void __init(){} // RVA: 0x7A7F12470
-        public void __assign(){} // RVA: 0x7A7F12480
-        public void Data(){} // RVA: 0x7A7F12D70
-        public void CreateQuaternionTenBit(){} // RVA: 0x7AF3CAFD0
-        public void UnPack(){} // RVA: 0x7A7F136E0
-        public void UnPackTo(){} // RVA: 0x7A7F136F0
-        public void Pack(){} // RVA: 0x7AF3CB270
+        public void get_ByteBuffer(){} // RVA: 0x77ED0
+        public void __init(){} // RVA: 0x9B5420
+        public void __assign(){} // RVA: 0x9B5430
+        public void Data(){} // RVA: 0x9B6360
+        public void CreateQuaternionTenBit(){} // RVA: 0x82234B0
+        public void UnPack(){} // RVA: 0x9B73B0
+        public void UnPackTo(){} // RVA: 0x9B73C0
+        public void Pack(){} // RVA: 0x8223750
     }
 
     public class QuaternionTenBitT : Object
     {
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void set_Data(){} // RVA: 0x7A80D8E20
-        public void .ctor(){} // RVA: 0x7AF3CB3B0
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void set_Data(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0x8223890
     }
 
 }

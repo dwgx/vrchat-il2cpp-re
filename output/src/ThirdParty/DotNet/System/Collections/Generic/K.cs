@@ -1,898 +1,870 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 390
+// Methods: 362
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
+        public void .ctor(){} // RVA: 0x2B100
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77E50
+        public void Deconstruct(){} // RVA: 0x361450
+        public void ToString(){} // RVA: 0x3614C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F0A0
-        public void .ctor(){} // RVA: 0x7A7615330
-        public void Deconstruct(){} // RVA: 0x7A790A530
-        public void ToString(){} // RVA: 0x7A790A5A0
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
+        public void get_Key(){} // RVA: 0x77E60
+        public void ToString(){} // RVA: 0x362300
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void ToString(){} // RVA: 0x7A790B500
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_Key(){} // RVA: 0x7A8051B10
-        public void get_Value(){} // RVA: 0x7A8051B10
-        public void ToString(){} // RVA: 0x7A7E00680
-        public void Deconstruct(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_Key(){} // RVA: 0xA94080
+        public void get_Value(){} // RVA: 0xA94080
+        public void ToString(){} // RVA: 0x87C0A0
+        public void Deconstruct(){} // RVA: 0x8943B0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
-        public void ToString(){} // RVA: 0x7A7907EF0
-        public void Deconstruct(){} // RVA: 0x7A7907F80
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A76B8870
-        public void .ctor(){} // RVA: 0x7A790BD40
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A76B8870
-        public void .ctor(){} // RVA: 0x7A790BD40
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
-        public void ToString(){} // RVA: 0x7A7907EF0
-        public void Deconstruct(){} // RVA: 0x7A7907F80
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x14790
+        public void .ctor(){} // RVA: 0x28E70
+        public void ToString(){} // RVA: 0x364610
+        public void Deconstruct(){} // RVA: 0x364620
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
-        public void ToString(){} // RVA: 0x7A7907EF0
-        public void Deconstruct(){} // RVA: 0x7A7907F80
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
+        public void ToString(){} // RVA: 0x35C0E0
+        public void Deconstruct(){} // RVA: 0x35C170
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0xD1A70
+        public void .ctor(){} // RVA: 0x362B00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0xD1A70
+        public void .ctor(){} // RVA: 0x362B00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
+        public void ToString(){} // RVA: 0x35C0E0
+        public void Deconstruct(){} // RVA: 0x35C170
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
+        public void ToString(){} // RVA: 0x35C0E0
+        public void Deconstruct(){} // RVA: 0x35C170
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7907ED0
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void ToString(){} // RVA: 0x7A7907EF0
-        public void Deconstruct(){} // RVA: 0x7A7907F80
+        public void .ctor(){} // RVA: 0x3616C0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x361720
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A76A6DB0
-        public void get_Value(){} // RVA: 0x7A767FF40
-        public void .ctor(){} // RVA: 0x7A7910230
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
+        public void ToString(){} // RVA: 0x361720
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A75FEFA0
-        public void .ctor(){} // RVA: 0x7A7613470
-        public void ToString(){} // RVA: 0x7A790D6E0
-        public void Deconstruct(){} // RVA: 0x7A790D6F0
+        public void .ctor(){} // RVA: 0x76310
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x364630
+        public void Deconstruct(){} // RVA: 0x364690
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A76B2030
-        public void .ctor(){} // RVA: 0x7A79084C0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+        public void ToString(){} // RVA: 0x364630
+        public void Deconstruct(){} // RVA: 0x364690
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7668B90
+        public void .ctor(){} // RVA: 0x76310
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x364630
+        public void Deconstruct(){} // RVA: 0x364690
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A79085F0
+        public void .ctor(){} // RVA: 0x3616C0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x361720
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7668B90
+        public void .ctor(){} // RVA: 0x3616C0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0x361720
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7668B90
+        public void .ctor(){} // RVA: 0x35C0C0
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void ToString(){} // RVA: 0x35C0E0
+        public void Deconstruct(){} // RVA: 0x35C170
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F0A0
-        public void .ctor(){} // RVA: 0x7A7615330
+        public void get_Key(){} // RVA: 0x8E1D0
+        public void get_Value(){} // RVA: 0x931A0
+        public void .ctor(){} // RVA: 0x367100
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A7687090
-        public void .ctor(){} // RVA: 0x7A7613500
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77E50
+        public void .ctor(){} // RVA: 0x2B100
+        public void ToString(){} // RVA: 0x361440
+        public void Deconstruct(){} // RVA: 0x361450
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0xCB720
+        public void .ctor(){} // RVA: 0x35C7F0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x81F00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35CD70
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x81F00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x81F00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77E50
+        public void .ctor(){} // RVA: 0x2B100
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F0A0
-        public void .ctor(){} // RVA: 0x7A7615330
-        public void ToString(){} // RVA: 0x7A790A520
-        public void Deconstruct(){} // RVA: 0x7A790A530
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x9B0B0
+        public void .ctor(){} // RVA: 0x295B0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A75FEFA0
-        public void .ctor(){} // RVA: 0x7A7613470
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A76A6DB0
-        public void get_Value(){} // RVA: 0x7A767FF40
-        public void .ctor(){} // RVA: 0x7A790F2E0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x14790
+        public void .ctor(){} // RVA: 0x28E70
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A76A6DB0
-        public void get_Value(){} // RVA: 0x7A767FF40
-        public void .ctor(){} // RVA: 0x7A790F2E0
+        public void get_Key(){} // RVA: 0x8E1D0
+        public void get_Value(){} // RVA: 0x931A0
+        public void .ctor(){} // RVA: 0x3660E0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A76B8870
-        public void .ctor(){} // RVA: 0x7A790BD40
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A76B8870
-        public void .ctor(){} // RVA: 0x7A790F4D0
+        public void get_Key(){} // RVA: 0x8E1D0
+        public void get_Value(){} // RVA: 0x931A0
+        public void .ctor(){} // RVA: 0x3660E0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0xD1A70
+        public void .ctor(){} // RVA: 0x362B00
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0xD1A70
+        public void .ctor(){} // RVA: 0x3662D0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
+        public void get_Key(){} // RVA: 0x77E60
+        public void ToString(){} // RVA: 0x361720
+        public void Deconstruct(){} // RVA: 0x361730
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A76B8960
-        public void .ctor(){} // RVA: 0x7A7613510
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+        public void ToString(){} // RVA: 0x364630
+        public void Deconstruct(){} // RVA: 0x364690
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A76B2030
-        public void .ctor(){} // RVA: 0x7A790C970
-        public void ToString(){} // RVA: 0x7A790C990
-        public void Deconstruct(){} // RVA: 0x7A790CA20
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0xD1B60
+        public void .ctor(){} // RVA: 0x295C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0xCB720
+        public void .ctor(){} // RVA: 0x363660
+        public void ToString(){} // RVA: 0x363680
+        public void Deconstruct(){} // RVA: 0x363710
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F0A0
-        public void .ctor(){} // RVA: 0x7A7615330
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77E50
+        public void .ctor(){} // RVA: 0x2B100
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77E60
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x3616C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A7909FD0
-        public void .ctor(){} // RVA: 0x7A7909FC0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A790CB70
-        public void Deconstruct(){} // RVA: 0x7A790EB90
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A76C4680
-        public void .ctor(){} // RVA: 0x7A790EB50
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A7662BE0
-        public void get_Value(){} // RVA: 0x7A7664CF0
-        public void .ctor(){} // RVA: 0x7A7907ED0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7613470
-        public void ToString(){} // RVA: 0x7A790D400
-        public void Deconstruct(){} // RVA: 0x7A790D490
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A75FEFA0
+        public void get_Key(){} // RVA: 0x7BF80
+        public void get_Value(){} // RVA: 0x7E450
+        public void .ctor(){} // RVA: 0x35C0C0
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A7664BF0
-        public void .ctor(){} // RVA: 0x7A76236F0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void ToString(){} // RVA: 0x7A790A800
-        public void Deconstruct(){} // RVA: 0x7A790A810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
-        public void ToString(){} // RVA: 0x7A790D7B0
-        public void Deconstruct(){} // RVA: 0x7A790D810
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7910220
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void Deconstruct(){} // RVA: 0x7A790A810
-        public void ToString(){} // RVA: 0x7A790A800
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A790A7A0
-        public void get_Key(){} // RVA: 0x7A765F070
-        public void Deconstruct(){} // RVA: 0x7A790A810
-        public void ToString(){} // RVA: 0x7A790A800
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2 : ValueType
     {
         // ── Methods ──
-        public void get_Key(){} // RVA: 0x7A765F710
-        public void get_Value(){} // RVA: 0x7A765F080
-        public void .ctor(){} // RVA: 0x7A7661E00
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x77900
+        public void get_Value(){} // RVA: 0x77ED0
+        public void .ctor(){} // RVA: 0x76310
     }
 
     public class KeyValuePair`2[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class KeyValuePair`2[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-    }
-
-    public class KeyValuePair`2[] : Array
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
 }

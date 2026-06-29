@@ -8,33 +8,33 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization
     public class PreserveReferenceHandler : ReferenceHandler
     {
         // ── Methods ──
-        public void CreateResolver(){} // RVA: 0x7AE142170
-        public void .ctor(){} // RVA: 0x7AE1423A0
+        public void CreateResolver(){} // RVA: 0x6DC2E70
+        public void .ctor(){} // RVA: 0x6DC30A0
     }
 
     public class PreserveReferenceHandler : ReferenceHandler
     {
         // ── Methods ──
-        public void CreateResolver(){} // RVA: 0x7AE6B5DE0
-        public void .ctor(){} // RVA: 0x7AE6B6010
+        public void CreateResolver(){} // RVA: 0x732C2D0
+        public void .ctor(){} // RVA: 0x732C500
     }
 
     public class PreserveReferenceResolver : ReferenceResolver
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE1423F0
-        public void AddReference(){} // RVA: 0x7AE1425F0
-        public void GetReference(){} // RVA: 0x7AE142700
-        public void ResolveReference(){} // RVA: 0x7AE1427E0
+        public void .ctor(){} // RVA: 0x6DC30F0
+        public void AddReference(){} // RVA: 0x6DC32F0
+        public void GetReference(){} // RVA: 0x6DC3400
+        public void ResolveReference(){} // RVA: 0x6DC34E0
     }
 
     public class PreserveReferenceResolver : ReferenceResolver
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6B6060
-        public void AddReference(){} // RVA: 0x7AE6B6260
-        public void GetReference(){} // RVA: 0x7AE6B62D0
-        public void ResolveReference(){} // RVA: 0x7AE6B63B0
+        public void .ctor(){} // RVA: 0x732C550
+        public void AddReference(){} // RVA: 0x732C750
+        public void GetReference(){} // RVA: 0x732C7C0
+        public void ResolveReference(){} // RVA: 0x732C8A0
     }
 
 }

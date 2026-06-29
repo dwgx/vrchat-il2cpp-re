@@ -8,12 +8,12 @@ namespace ThirdParty.Other.RootMotion.FinalIK
     public class ShoulderRotator : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7A82507B0
-        public void RotateShoulders(){} // RVA: 0x7A8250980
-        public void RotateShoulder(){} // RVA: 0x7A8250AE0
-        public void GetParentBoneMap(){} // RVA: 0x7A82511A0
-        public void OnDestroy(){} // RVA: 0x7A82512D0
-        public void .ctor(){} // RVA: 0x7A82514D0
+        public void Start(){} // RVA: 0xCC53A0
+        public void RotateShoulders(){} // RVA: 0xCC5570
+        public void RotateShoulder(){} // RVA: 0xCC56D0
+        public void GetParentBoneMap(){} // RVA: 0xCC5E70
+        public void OnDestroy(){} // RVA: 0xCC5FA0
+        public void .ctor(){} // RVA: 0xCC61A0
     }
 
 }

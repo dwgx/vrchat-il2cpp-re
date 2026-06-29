@@ -8,9 +8,9 @@ namespace VRC.Core.Pool
     public class GenericPool : Object
     {
         // ── Methods ──
-        public void GetObjectPool(){} // RVA: 0x7A7E006B0
-        public void Get(){} // RVA: 0x7AA4B22C0
-        public void Release(){} // RVA: 0x7AA4B2510
+        public void GetObjectPool(){} // RVA: 0x87C0D0
+        public void Get(){} // RVA: 0x30DC220
+        public void Release(){} // RVA: 0x30DC470
     }
 
 }

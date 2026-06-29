@@ -8,15 +8,15 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class BufferSkip`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1E220
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x89B9B0
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
     public class Buffer`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1D590
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x899290
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
 }

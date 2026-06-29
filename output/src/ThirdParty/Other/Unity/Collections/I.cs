@@ -8,13 +8,13 @@ namespace ThirdParty.Other.Unity.Collections
     public class IIndexable`1
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A7E00710
+        public void get_Length(){} // RVA: 0x87C130
     }
 
     public class IUTF8Bytes
     {
         // ── Methods ──
-        public void GetUnsafePtr(){} // RVA: 0x7A8051B10
+        public void GetUnsafePtr(){} // RVA: 0xA94080
     }
 
 }

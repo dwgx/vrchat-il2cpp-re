@@ -8,8 +8,8 @@ namespace VRC.UI
     public class RawImageEx : RawImage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF29FF80
-        public void Raycast(){} // RVA: 0x7B08DDFD0
+        public void Raycast(){} // RVA: 0x975C380
+        public void .ctor(){} // RVA: 0x80ED950
     }
 
 }

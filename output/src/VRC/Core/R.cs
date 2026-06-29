@@ -8,8 +8,8 @@ namespace VRC.Core
     public class RemoteConfig : BaseConfig
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1769BC0
-        public void FetchConfig(){} // RVA: 0x7B1769C10
+        public void .ctor(){} // RVA: 0xA5D5D60
+        public void FetchConfig(){} // RVA: 0xA5D5DB0
     }
 
 }

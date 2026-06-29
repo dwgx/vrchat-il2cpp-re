@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     public class CommonUsages : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7AEBD8B70
+        public void .cctor(){} // RVA: 0x7847DA0
     }
 
 }

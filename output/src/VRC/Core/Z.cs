@@ -8,13 +8,13 @@ namespace VRC.Core
     public class ZLoggerHandlerLogger : Object
     {
         // ── Methods ──
-        public void get_UnityHandler(){} // RVA: 0x7AF4BF4A0
-        public void EnsureCapturedUnityHandler(){} // RVA: 0x7AF4BF500
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void SetUnityInterceptActive(){} // RVA: 0x7AF4BF640
-        public void LogFormat(){} // RVA: 0x7AF4BF740
-        public void LogException(){} // RVA: 0x7AF4BFDF0
-        public void .cctor(){} // RVA: 0x7AF4C0000
+        public void get_UnityHandler(){} // RVA: 0x831F610
+        public void EnsureCapturedUnityHandler(){} // RVA: 0x831F670
+        public void .ctor(){} // RVA: 0xB44D60
+        public void SetUnityInterceptActive(){} // RVA: 0x831F7B0
+        public void LogFormat(){} // RVA: 0x831F8B0
+        public void LogException(){} // RVA: 0x831FF60
+        public void .cctor(){} // RVA: 0x8320170
     }
 
 }

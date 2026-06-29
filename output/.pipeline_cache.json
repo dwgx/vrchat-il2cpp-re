@@ -14,14 +14,14 @@
       "cross_version_method_names.json": "36e822cdc6e8ea0c091e6598898ca1fb134edf32ec25ea2d9534c76f3a387bd7",
       "apr25_lifted_vocab.json": "75fc703dae66a414512249aa498d39cbc557a7c76e4b064b41a040a4d28534a3"
     },
-    "output_hash": "4f82e4e0e0331315a7f9a557f812437905eadfb6b913228b267e545223729330",
-    "timestamp": "2026-06-29 14:42:34",
+    "output_hash": "dd704ecc74bfc2cbb971602b075b4aa823c7a37732ec240ebc3d953260b0331b",
+    "timestamp": "2026-06-29 17:18:09",
     "completed": true
   },
   "stage_1": {
     "input_hashes": {
-      "precise_dump.json": "2013d5025cd1b813f80f5a33797a6f6356b857f37d58a6c19e90a06a49195301",
-      "unified_vocabulary.json": "4f82e4e0e0331315a7f9a557f812437905eadfb6b913228b267e545223729330",
+      "precise_dump.json": "22174bcb253b698e5702424baad4236ef172bc4e6495ccd3705e6e43d6f1033c",
+      "unified_vocabulary.json": "dd704ecc74bfc2cbb971602b075b4aa823c7a37732ec240ebc3d953260b0331b",
       "va_propagation_names.json": "cbde7403a8a921b97066afe975a1bfa0bc3b1752fc124ff63c93da668603619f",
       "callgraph_method_names.json": "9eb20febb55326e93fc813d981286be77b63af835a7d5b9ceb9fee141b3ea9a2",
       "string_api_method_names.json": "1c84b9c8d4ace90b3b17562a3bb9cd79ff386a3de23ca422d6a30a9b375d92d0",
@@ -29,39 +29,39 @@
       "llm_predicted_names.json": "7e17864d0285b99909b2e8d1e5a5cf55be119adb83f940f9ddc24590549a5ec9",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7"
     },
-    "output_hash": "487476243567091b6f0342a047121a602a697ae51ebf1a126a3634973586c30f",
-    "timestamp": "2026-06-29 14:42:47",
+    "output_hash": "3801d344f65c3cf388af484f48179777fcda9a52038606b545b49b48e653612d",
+    "timestamp": "2026-06-29 17:18:34",
     "completed": true
   },
   "stage_2": {
     "input_hashes": {
-      "deobfuscated_dump.json": "4f5da6d1663896f4b1e54b8d051218b64b8c91788347ef029cc1ba5c5278dc65",
-      "name_mapping.json": "19f6f7540af813269bf557e0643bf4ad48e7ddd70e347bcdb5b880b62f167023",
+      "deobfuscated_dump.json": "3e92e4013ccddce824c2925ab6681a473c6d3956ad57f8a50a2584e031213d58",
+      "name_mapping.json": "185b34cffd6acedd07484003bde170f8afeccf4f4a348d6593e34ce356db603a",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7",
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
       "photon_protocol_analysis.md": "170dbaffa5f33c4221f6f569539fa2ddaabba6cd265ea8c8bc684307fbe42f9e"
     },
-    "output_hash": "4f5da6d1663896f4b1e54b8d051218b64b8c91788347ef029cc1ba5c5278dc65",
-    "timestamp": "2026-06-29 14:42:49",
+    "output_hash": "3e92e4013ccddce824c2925ab6681a473c6d3956ad57f8a50a2584e031213d58",
+    "timestamp": "2026-06-29 17:18:36",
     "completed": true
   },
   "stage_3": {
     "input_hashes": {
-      "deobfuscated_dump.json": "4f5da6d1663896f4b1e54b8d051218b64b8c91788347ef029cc1ba5c5278dc65"
+      "deobfuscated_dump.json": "3e92e4013ccddce824c2925ab6681a473c6d3956ad57f8a50a2584e031213d58"
     },
     "output_hash": null,
-    "timestamp": "2026-06-29 14:42:53",
+    "timestamp": "2026-06-29 17:18:41",
     "completed": true
   },
   "stage_4": {
     "input_hashes": {
-      "deobfuscated_dump.json": "4f5da6d1663896f4b1e54b8d051218b64b8c91788347ef029cc1ba5c5278dc65",
-      "name_mapping.json": "19f6f7540af813269bf557e0643bf4ad48e7ddd70e347bcdb5b880b62f167023"
+      "deobfuscated_dump.json": "3e92e4013ccddce824c2925ab6681a473c6d3956ad57f8a50a2584e031213d58",
+      "name_mapping.json": "185b34cffd6acedd07484003bde170f8afeccf4f4a348d6593e34ce356db603a"
     },
-    "output_hash": "4dadff6e0f42a72aea4f9d91ec170bf3ec5d62eceb51a94552ade0f0de0a1a6c",
-    "timestamp": "2026-06-29 14:42:53",
+    "output_hash": "7a03bd304ebe55b192a2a1cc1c81ce2df2a29a45180d0eec6783f64797211f00",
+    "timestamp": "2026-06-29 17:18:42",
     "completed": true
   }
 }

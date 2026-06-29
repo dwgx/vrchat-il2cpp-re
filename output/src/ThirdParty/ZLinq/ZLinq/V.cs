@@ -1,716 +1,724 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.ZLinq.ZLinq
 // Classes: 100
-// Methods: 208
+// Methods: 216
 
 namespace ThirdParty.ZLinq.ZLinq
 {
     public class ValueEnumerable : Object
     {
         // ── Methods ──
-        public void AsValueEnumerable(){} // RVA: 0x7A9F2F7F0
-        public void Range(){} // RVA: 0x7B1949720
+        public void AsValueEnumerable(){} // RVA: 0x2B08560
+        public void Range(){} // RVA: 0xA7B5C90
     }
 
     public class ValueEnumerableExtensions : Object
     {
         // ── Methods ──
-        public void Max(){} // RVA: 0x7A8051B10
-        public void Select(){} // RVA: 0x7A9F63020
-        public void Aggregate(){} // RVA: 0x7A9F31D00
-        public void AggregateBy(){} // RVA: 0x7A8051B10
-        public void All(){} // RVA: 0x7A9F347E0
-        public void Any(){} // RVA: 0x7A9F353F0
-        public void Append(){} // RVA: 0x7A9F37070
-        public void Average(){} // RVA: 0x7A8051B10
-        public void Chunk(){} // RVA: 0x7A8051B10
-        public void Concat(){} // RVA: 0x7A9F46020
-        public void Contains(){} // RVA: 0x7A9F46610
-        public void ContainsCore(){} // RVA: 0x7A9F47970
-        public void Count(){} // RVA: 0x7A9F48B50
-        public void CountBy(){} // RVA: 0x7A8051B10
-        public void DefaultIfEmpty(){} // RVA: 0x7A8051B10
-        public void Distinct(){} // RVA: 0x7A8051B10
-        public void DistinctBy(){} // RVA: 0x7A9F4B040
-        public void ElementAt(){} // RVA: 0x7A9F4BB80
-        public void ElementAtOrDefault(){} // RVA: 0x7A8051B10
-        public void TryGetElementAt(){} // RVA: 0x7A9FA30E0
-        public void Except(){} // RVA: 0x7A9F4CD90
-        public void ExceptBy(){} // RVA: 0x7A8051B10
-        public void First(){} // RVA: 0x7A9F4F0E0
-        public void FirstOrDefault(){} // RVA: 0x7A9F4F980
-        public void TryGetFirst(){} // RVA: 0x7A9FA38C0
-        public void GroupBy(){} // RVA: 0x7A8051B10
-        public void GroupJoin(){} // RVA: 0x7A8051B10
-        public void Index(){} // RVA: 0x7A8051B10
-        public void Intersect(){} // RVA: 0x7A8051B10
-        public void IntersectBy(){} // RVA: 0x7A8051B10
-        public void Join(){} // RVA: 0x7A8051B10
-        public void JoinToString(){} // RVA: 0x7A9F55CF0
-        public void Last(){} // RVA: 0x7A9F59A50
-        public void LastOrDefault(){} // RVA: 0x7A8051B10
-        public void TryGetLast(){} // RVA: 0x7A9FA5D90
-        public void LeftJoin(){} // RVA: 0x7A8051B10
-        public void LongCount(){} // RVA: 0x7A8051B10
-        public void MaxBy(){} // RVA: 0x7A8051B10
-        public void Min(){} // RVA: 0x7A8051B10
-        public void MinBy(){} // RVA: 0x7A8051B10
-        public void Order(){} // RVA: 0x7A8051B10
-        public void OrderDescending(){} // RVA: 0x7A8051B10
-        public void OrderBy(){} // RVA: 0x7A9F60E10
-        public void OrderByDescending(){} // RVA: 0x7A9F619E0
-        public void ThenBy(){} // RVA: 0x7A9F76D00
-        public void Take(){} // RVA: 0x7A9F760E0
-        public void Prepend(){} // RVA: 0x7A8051B10
-        public void Reverse(){} // RVA: 0x7A9F628B0
-        public void RightJoin(){} // RVA: 0x7A8051B10
-        public void Where(){} // RVA: 0x7A9FA92C0
-        public void SelectMany(){} // RVA: 0x7A9F64E10
-        public void SequenceEqual(){} // RVA: 0x7A8051B10
-        public void Shuffle(){} // RVA: 0x7A8051B10
-        public void Single(){} // RVA: 0x7A8051B10
-        public void SingleOrDefault(){} // RVA: 0x7A8051B10
-        public void TryGetSingle(){} // RVA: 0x7A7E05210
-        public void Skip(){} // RVA: 0x7A9F67D50
-        public void SkipLast(){} // RVA: 0x7A9F680C0
-        public void SkipWhile(){} // RVA: 0x7A8051B10
-        public void Sum(){} // RVA: 0x7A8051B10
-        public void TakeLast(){} // RVA: 0x7A8051B10
-        public void TakeWhile(){} // RVA: 0x7A8051B10
-        public void ToArray(){} // RVA: 0x7A9F7DAD0
-        public void ToArrayPool(){} // RVA: 0x7A9F89530
-        public void ToDictionary(){} // RVA: 0x7A8051B10
-        public void ToHashSet(){} // RVA: 0x7A9F90F00
-        public void ToHashSetSlim(){} // RVA: 0x7A9F91DD0
-        public void ToList(){} // RVA: 0x7A9F97BA0
-        public void ToLookup(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A8051B10
-        public void Union(){} // RVA: 0x7A8051B10
-        public void UnionBy(){} // RVA: 0x7A8051B10
-        public void Zip(){} // RVA: 0x7A8051B10
-        public void GetEnumerator(){} // RVA: 0x7A9F51F10
-        public void <All>g__All|8_0(){} // RVA: 0x7A9F30AD0
-        public void <Any>g__Any|11_0(){} // RVA: 0x7A9F30C80
-        public void <Count>g__Count|37_0(){} // RVA: 0x7A7E06360
-        public void <LongCount>g__LongCount|110_0(){} // RVA: 0x7A7E00C10
+        public void Max(){} // RVA: 0xA94080
+        public void Select(){} // RVA: 0x2B3ABC0
+        public void Count(){} // RVA: 0x2B209F0
+        public void Skip(){} // RVA: 0x2B3F8F0
+        public void First(){} // RVA: 0x2B26BB0
+        public void Aggregate(){} // RVA: 0x2B09E50
+        public void AggregateBy(){} // RVA: 0xA94080
+        public void All(){} // RVA: 0x2B0CA10
+        public void Any(){} // RVA: 0x2B0DBD0
+        public void Append(){} // RVA: 0x2B0F1A0
+        public void Average(){} // RVA: 0xA94080
+        public void Chunk(){} // RVA: 0xA94080
+        public void Concat(){} // RVA: 0x2B1DEC0
+        public void Contains(){} // RVA: 0x2B1E5A0
+        public void ContainsCore(){} // RVA: 0x2B1FAA0
+        public void CountBy(){} // RVA: 0xA94080
+        public void DefaultIfEmpty(){} // RVA: 0xA94080
+        public void Distinct(){} // RVA: 0xA94080
+        public void DistinctBy(){} // RVA: 0x2B22EA0
+        public void ElementAt(){} // RVA: 0x2B239E0
+        public void ElementAtOrDefault(){} // RVA: 0xA94080
+        public void TryGetElementAt(){} // RVA: 0x2B7A9D0
+        public void Except(){} // RVA: 0x2B24FE0
+        public void ExceptBy(){} // RVA: 0xA94080
+        public void FirstOrDefault(){} // RVA: 0x2B28A30
+        public void TryGetFirst(){} // RVA: 0x2B7CAC0
+        public void GroupBy(){} // RVA: 0xA94080
+        public void GroupJoin(){} // RVA: 0xA94080
+        public void Index(){} // RVA: 0xA94080
+        public void Intersect(){} // RVA: 0xA94080
+        public void IntersectBy(){} // RVA: 0xA94080
+        public void Join(){} // RVA: 0xA94080
+        public void JoinToString(){} // RVA: 0x2B2DDE0
+        public void Last(){} // RVA: 0x2B31B40
+        public void LastOrDefault(){} // RVA: 0xA94080
+        public void TryGetLast(){} // RVA: 0x2B7D680
+        public void LeftJoin(){} // RVA: 0xA94080
+        public void LongCount(){} // RVA: 0xA94080
+        public void MaxBy(){} // RVA: 0xA94080
+        public void Min(){} // RVA: 0xA94080
+        public void MinBy(){} // RVA: 0xA94080
+        public void Order(){} // RVA: 0xA94080
+        public void OrderDescending(){} // RVA: 0xA94080
+        public void OrderBy(){} // RVA: 0x2B389B0
+        public void OrderByDescending(){} // RVA: 0x2B39580
+        public void ThenBy(){} // RVA: 0xA94080
+        public void Take(){} // RVA: 0x2B4DA10
+        public void Prepend(){} // RVA: 0xA94080
+        public void Reverse(){} // RVA: 0x2B3A5C0
+        public void RightJoin(){} // RVA: 0xA94080
+        public void Where(){} // RVA: 0x2B80BB0
+        public void SelectMany(){} // RVA: 0x2B3C9B0
+        public void SequenceEqual(){} // RVA: 0xA94080
+        public void Shuffle(){} // RVA: 0xA94080
+        public void Single(){} // RVA: 0xA94080
+        public void SingleOrDefault(){} // RVA: 0xA94080
+        public void TryGetSingle(){} // RVA: 0x880B90
+        public void SkipLast(){} // RVA: 0x2B3FC60
+        public void SkipWhile(){} // RVA: 0xA94080
+        public void Sum(){} // RVA: 0xA94080
+        public void TakeLast(){} // RVA: 0xA94080
+        public void TakeWhile(){} // RVA: 0xA94080
+        public void ToArray(){} // RVA: 0x2B535B0
+        public void ToArrayPool(){} // RVA: 0x2B63A50
+        public void ToDictionary(){} // RVA: 0xA94080
+        public void ToHashSet(){} // RVA: 0x2B687F0
+        public void ToHashSetSlim(){} // RVA: 0x2B699E0
+        public void ToList(){} // RVA: 0x2B6F430
+        public void ToLookup(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0xA94080
+        public void Union(){} // RVA: 0xA94080
+        public void UnionBy(){} // RVA: 0xA94080
+        public void Zip(){} // RVA: 0xA94080
+        public void GetEnumerator(){} // RVA: 0x2B2A0A0
+        public void <All>g__All|8_0(){} // RVA: 0x2B08C20
+        public void <Any>g__Any|11_0(){} // RVA: 0x2B08DD0
+        public void <Count>g__Count|37_0(){} // RVA: 0x881CE0
+        public void <LongCount>g__LongCount|110_0(){} // RVA: 0x87C630
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xA94080
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x2169B0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC660
+        public void .ctor(){} // RVA: 0x216AC0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC300
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void Cast(){} // RVA: 0x7A774AAE0
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void Cast(){} // RVA: 0x192A70
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x2172C0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x7BE90
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC950
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7662BD0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x2169B0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void Cast(){} // RVA: 0x192A20
+        public void .ctor(){} // RVA: 0x216E20
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x216AC0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x216E20
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0x11E4F0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x216E20
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void Cast(){} // RVA: 0x7A774AA90
-        public void .ctor(){} // RVA: 0x7A77DC660
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC300
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC660
+        public void .ctor(){} // RVA: 0x216F90
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x216E20
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x216E20
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x217110
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x217110
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x216F90
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DCB00
+        public void .ctor(){} // RVA: 0x216F90
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x2169B0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x216AC0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC7D0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC660
+        public void .ctor(){} // RVA: 0x2169B0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x216CD0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x11E4F0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC660
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC950
+        public void .ctor(){} // RVA: 0x2169B0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC950
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x2169B0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC7D0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC300
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x2169B0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x2169B0
+        public void Cast(){} // RVA: 0xA94080
+        public void OfType(){} // RVA: 0xA94080
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x5B41D0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC1F0
-        public void Cast(){} // RVA: 0x7A8051B10
-        public void OfType(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B461A0
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void .ctor(){} // RVA: 0x216AC0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
     public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
-    }
-
-    public class ValueEnumerable`2 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0xD3E60
     }
 
     public class ValueEnumerator`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_Current(){} // RVA: 0x7A8051B10
-        public void MoveNext(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void Dispose(){} // RVA: 0x22FB90
+        public void MoveNext(){} // RVA: 0x5B4880
+        public void get_Current(){} // RVA: 0x931A0
     }
 
     public class ValueEnumerator`2 : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A77F5000
-        public void MoveNext(){} // RVA: 0x7A7B46850
-        public void get_Current(){} // RVA: 0x7A767FF40
+        public void Dispose(){} // RVA: 0x22FB90
+        public void MoveNext(){} // RVA: 0x5B4880
+        public void get_Current(){} // RVA: 0x931A0
     }
 
     public class ValueEnumerator`2 : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A77F5000
-        public void MoveNext(){} // RVA: 0x7A7B46850
-        public void get_Current(){} // RVA: 0x7A767FF40
+        public void Dispose(){} // RVA: 0x22FB90
+        public void MoveNext(){} // RVA: 0x5B4880
+        public void get_Current(){} // RVA: 0x931A0
     }
 
     public class ValueEnumerator`2 : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A77F5000
-        public void MoveNext(){} // RVA: 0x7A7B46430
-        public void get_Current(){} // RVA: 0x7A7677A70
-        public void .ctor(){} // RVA: 0x7A7B463C0
+        public void Dispose(){} // RVA: 0x22FB90
+        public void MoveNext(){} // RVA: 0x5B4460
+        public void get_Current(){} // RVA: 0x8C630
+        public void .ctor(){} // RVA: 0x5B43F0
+    }
+
+    public class ValueEnumerator`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_Current(){} // RVA: 0xA94080
+        public void MoveNext(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
     }
 
 }

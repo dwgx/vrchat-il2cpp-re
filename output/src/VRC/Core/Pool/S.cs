@@ -8,10 +8,10 @@ namespace VRC.Core.Pool
     public class StringBuilderPool : Object
     {
         // ── Methods ──
-        public void GetObjectPool(){} // RVA: 0x7B1778920
-        public void Get(){} // RVA: 0x7B1778A00
-        public void Release(){} // RVA: 0x7B1778AA0
-        public void .cctor(){} // RVA: 0x7B1778B30
+        public void GetObjectPool(){} // RVA: 0xA5E4B60
+        public void Get(){} // RVA: 0xA5E4C40
+        public void Release(){} // RVA: 0xA5E4CE0
+        public void .cctor(){} // RVA: 0xA5E4D70
     }
 
 }

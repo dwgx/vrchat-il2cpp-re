@@ -1,108 +1,125 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Physics
-// Classes: 5
-// Methods: 126
+// Classes: 6
+// Methods: 138
 
 namespace VRC.Physics
 {
-    /// <summary>Originally: ÏÌÎÎÎÎÎÏÍÌÎÌÌÎÎÎÍÍÏÏÎÌÌ</summary>
-    public class ParticleCollisionHandler_CCCB : MonoBehaviour
+    /// <summary>Originally: ÏÌÌÎÌÏÌÍÏÏÎÌÎÌÎÌÎÎÍÌÏÎÍ</summary>
+    public class ParticleCollisionHandler_C62B : MonoBehaviour
     {
         // ── Methods ──
-        public void OnParticleCollision(){} // RVA: 0x7A9517340
-        public void RaiseCancellation(){} // RVA: 0x7A9517540
-        public void IsInvoking(){} // RVA: 0x7A9517740
-        public void CancelInvoke(){} // RVA: 0x7A9517940
-        public void Invoke(){} // RVA: 0x7A9517B40
-        public void InvokeRepeating(){} // RVA: 0x7A9517D40
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A9517F40
+        public void get_destroyCancellationToken(){} // RVA: 0x202D240
+        public void RaiseCancellation(){} // RVA: 0x202D470
+        public void IsInvoking(){} // RVA: 0x202D6A0
+        public void CancelInvoke(){} // RVA: 0x202D8D0
+        public void OnParticleCollision(){} // RVA: 0x202DB00
+        public void InvokeRepeating(){} // RVA: 0x202DD30
+        public void StartCoroutine(){} // RVA: 0x202DF60
+        public void StartCoroutine_Auto(){} // RVA: 0x202E190
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
-    /// <summary>Originally: ÏÌÍÏÏÎÎÎÌÍÏÏÍÏÏÌÏÌÎÏÍÍÌ</summary>
-    public class PhysicsCollisionEnterCollisionExitHandler_D9C8 : MonoBehaviour
+    /// <summary>Originally: ÎÎÍÌÍÌÎÏÎÎÏÌÍÎÍÎÏÌÏÎÌÍÎ</summary>
+    public class PhysicsBackgroundNameIsVRCPlus_2B39
     {
         // ── Methods ──
-        public void Handle(){} // RVA: 0x7A9518290
-        public void OnCollisionExit(){} // RVA: 0x7A95182C0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void OnTriggerStay(){} // RVA: 0x7A9518310
-        public void OnCollisionEnter(){} // RVA: 0x7A9518620
-        public void OnCollisionStay(){} // RVA: 0x7A9518670
-        public void OnTriggerEnter(){} // RVA: 0x7A95189E0
-        public void OnTriggerExit(){} // RVA: 0x7A9518A10
-        public void Process(){} // RVA: 0x7A9518A40
-        public void OnReceive(){} // RVA: 0x7A9518DB0
-        public void OnEvent(){} // RVA: 0x7A9518E00
-        public void set_useGUILayout(){} // RVA: 0x7A9518DB0
+        public void get_Id(){} // RVA: 0x87C0A0
+        public void get_BackgroundName(){} // RVA: 0x87BEB0
+        public void get_Preview(){} // RVA: 0x87C0A0
+        public void get_IsVRCPlus(){} // RVA: 0x87D280
+        public void get_Type(){} // RVA: 0x87C130
+        public void set_Type(){} // RVA: 0x87C0A0
+        public void set_IsVRCPlus(){} // RVA: 0x894290
     }
 
-    /// <summary>Originally: ÍÎÍÍÎÏÌÏÎÍÎÍÎÎÎÎÍÌÍÍÌÍÌ</summary>
-    public class PhysicsDescriptionPurchase_85DD
+    /// <summary>Originally: ÍÏÍÏÌÎÎÎÎÌÍÍÌÌÎÎÎÎÎÍÎÏÍ</summary>
+    public class PhysicsCollisionEnterCollisionExitHandler_E428 : MonoBehaviour
     {
         // ── Methods ──
-        public void get_ID(){} // RVA: 0x7A7E00680
-        public void get_Name(){} // RVA: 0x7A7E00680
-        public void set_Name(){} // RVA: 0x7A7E18800
-        public void get_Description(){} // RVA: 0x7A7E00680
-        public void set_Description(){} // RVA: 0x7A7E18800
-        public void set_Buyer(){} // RVA: 0x7A7E00680
-        public void get_Buyer(){} // RVA: 0x7A7E00680
-        public void Purchase(){} // RVA: 0x7A7E11ED0
-        // ── 62 unresolved (hash) ──
-        public void m_C03(){} // RVA: 0x7A7E00680
-        public void m_E32(){} // RVA: 0x7A7E00680
-        public void m_0E7(){} // RVA: 0x7A7E18800
-        public void m_11E(){} // RVA: 0x7A7E00740
-        public void m_210(){} // RVA: 0x7A7E00710
-        // ... 57 more unresolved methods
+        public void get_destroyCancellationToken(){} // RVA: 0x202E510
+        public void OnTriggerStay(){} // RVA: 0x202E540
+        public void IsInvoking(){} // RVA: 0x202E850
+        public void CancelInvoke(){} // RVA: 0x202E890
+        public void OnCollisionExit(){} // RVA: 0x202EBA0
+        public void OnCollisionStay(){} // RVA: 0x202EBE0
+        public void OnCollisionEnter(){} // RVA: 0x202E850
+        public void StartCoroutine_Auto(){} // RVA: 0x202EF30
+        public void StopCoroutine(){} // RVA: 0x202F240
+        public void StopAllCoroutines(){} // RVA: 0x202EBA0
+        public void OnTriggerExit(){} // RVA: 0x202E510
+        public void set_useGUILayout(){} // RVA: 0x202F280
+        public void OnTriggerEnter(){} // RVA: 0x202F590
+        public void get_didAwake(){} // RVA: 0x202F5C0
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
-    /// <summary>Originally: ÎÎÍÌÌÌÍÍÌÌÍÍÏÌÏÏÍÍÏÌÏÌÎ</summary>
-    public class PhysicsTriggerEnterTriggerStayHandler_0FF0 : MonoBehaviour
+    /// <summary>Originally: ÍÍÎÍÎÏÌÏÍÍÏÎÌÌÎÏÌÏÍÏÎÏÎ</summary>
+    public class PhysicsDescriptionPurchase_A09E
     {
         // ── Methods ──
-        public void Update(){} // RVA: 0x7A94B7520
-        public void RaiseCancellation(){} // RVA: 0x7A94B7660
-        public void Awake(){} // RVA: 0x7A94B76D0
-        public void CancelInvoke(){} // RVA: 0x7A94B77E0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void OnTriggerEnter(){} // RVA: 0x7A94B7960
-        public void Start(){} // RVA: 0x7A94B7AE0
-        public void OnDestroy(){} // RVA: 0x7A94B7C20
-        public void StopCoroutine(){} // RVA: 0x7A94B7CB0
-        public void OnTriggerStay(){} // RVA: 0x7A94B7D20
-        public void get_useGUILayout(){} // RVA: 0x7A94B7F80
-        public void set_useGUILayout(){} // RVA: 0x7A94B80C0
-        public void OnTriggerExit(){} // RVA: 0x7A94B8200
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A94B8360
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A828F580
-        public void InvokeDelayed(){} // RVA: 0x7A94B8430
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A94B8660
-        public void StartCoroutineManaged(){} // RVA: 0x7A94B87A0
-        public void StartCoroutineManaged2(){} // RVA: 0x7A94B8B30
-        public void StopCoroutineManaged(){} // RVA: 0x7A94B8C00
-        public void OnEnable(){} // RVA: 0x7A94B8D40
-        public void OnDisable(){} // RVA: 0x7A94B8E40
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A94B8FB0
+        public void get_ID(){} // RVA: 0x87C0A0
+        public void get_Name(){} // RVA: 0x87C0A0
+        public void set_Name(){} // RVA: 0x894320
+        public void get_Description(){} // RVA: 0x87C0A0
+        public void set_Description(){} // RVA: 0x894320
+        public void set_Buyer(){} // RVA: 0x87C0A0
+        public void get_Buyer(){} // RVA: 0x87C0A0
+        public void Purchase(){} // RVA: 0x88D960
+        // ── 64 unresolved (hash) ──
+        public void m_0F3(){} // RVA: 0x87C0A0
+        public void m_872(){} // RVA: 0x87C0A0
+        public void m_054(){} // RVA: 0x894320
+        public void m_D6B(){} // RVA: 0x87C0A0
+        public void m_B42(){} // RVA: 0x87C130
+        // ... 59 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÌÎÍÌÌÍÏÍÍÏÏÌÎÏÍÏÏÏÍÎÎÎ</summary>
-    public class PhysicsTryConsumeOnTriggerEnterTryConsumeOnTrig_6B32 : Object
+    /// <summary>Originally: ÏÎÍÍÍÌÏÏÍÎÍÍÌÎÍÎÎÏÌÎÏÌÍ</summary>
+    public class PhysicsTriggerEnterTriggerStayHandler_C273 : MonoBehaviour
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A81BD750
-        public void TryConsumeOnTriggerStay(){} // RVA: 0x7A80D7320
-        public void TryConsumeOnTriggerExit(){} // RVA: 0x7A8589D20
-        public void op_Implicit(){} // RVA: 0x7A80D7320
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void Initialize(){} // RVA: 0x7A8589F10
-        public void GetCachedPtr(){} // RVA: 0x7A858A080
-        public void get_name(){} // RVA: 0x7A858A1F0
-        public void set_name(){} // RVA: 0x7A858A3E0
-        public void Instantiate(){} // RVA: 0x7A858A5D0
-        public void TryConsumeOnTriggerEnter(){} // RVA: 0x7A858A770
-        public void get_Priority(){} // RVA: 0x7A858A960
+        public void OnTriggerEnter(){} // RVA: 0x1FD4E90
+        public void OnEnable(){} // RVA: 0x1FD5060
+        public void IsInvoking(){} // RVA: 0x1FD5160
+        public void CancelInvoke(){} // RVA: 0x1FD5230
+        public void Invoke(){} // RVA: 0x1FD5300
+        public void OnTriggerStay(){} // RVA: 0x1FD5480
+        public void StartCoroutine(){} // RVA: 0x1FD56E0
+        public void Start(){} // RVA: 0x1FD58D0
+        public void StopCoroutine(){} // RVA: 0xD027B0
+        public void Update(){} // RVA: 0x1FD5A10
+        public void get_useGUILayout(){} // RVA: 0x1FD5B50
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1FD5E70
+        public void Awake(){} // RVA: 0x1FD5F40
+        public void print(){} // RVA: 0x1FD6020
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1FD61A0
+        public void OnDestroy(){} // RVA: 0x1FD6210
+        public void OnDisable(){} // RVA: 0x1FD62A0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1FD6410
+        public void StartCoroutineManaged(){} // RVA: 0x1FD6480
+        public void OnTriggerExit(){} // RVA: 0x1FD65E0
+        public void StopCoroutineManaged(){} // RVA: 0x1FD6740
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1FD6A50
+    }
+
+    /// <summary>Originally: ÌÏÍÌÏÍÏÍÏÌÏÌÎÌÏÍÏÌÌÎÍÌÌ</summary>
+    public class PhysicsTryConsumeOnTriggerEnterTryConsumeOnTrig_FACB : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x10ABA40
+        public void set_Priority(){} // RVA: 0x10ABA50
+        public void get_Priority(){} // RVA: 0x10ABBC0
+        public void op_Implicit(){} // RVA: 0x10ABBD0
+        public void TryConsumeOnTriggerEnter(){} // RVA: 0x10ABD70
+        public void TryConsumeOnTriggerStay(){} // RVA: 0xB43320
+        public void GetCachedPtr(){} // RVA: 0xB43320
+        public void get_name(){} // RVA: 0xC2E4C0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void TryConsumeOnTriggerExit(){} // RVA: 0x10ABEF0
+        public void Destroy(){} // RVA: 0x10AC070
+        public void DestroyImmediate(){} // RVA: 0x10AC210
     }
 
 }

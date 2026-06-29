@@ -1,411 +1,414 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.InteropServices
 // Classes: 40
-// Methods: 203
+// Methods: 206
 
 namespace ThirdParty.DotNet.System.Runtime.InteropServices
 {
     public class AddrofIntrinsics : Object
     {
         // ── Methods ──
-        public void AddrOf(){} // RVA: 0x7A8051B10
+        public void AddrOf(){} // RVA: 0xA94080
     }
 
     public class COMException : ExternalException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
-        public void ToString(){} // RVA: 0x7ADB2C800
+        public void .ctor(){} // RVA: 0x23022F0
+        public void ToString(){} // RVA: 0x67B6F80
     }
 
     public class ClassInterfaceAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class CollectionsMarshal : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7B1949450
-        public void AsSpan(){} // RVA: 0x7AA410C70
-        public void UnsafeSetCount(){} // RVA: 0x7AA4118C0
+        public void AsSpan(){} // RVA: 0x3030D40
     }
 
     public class CollectionsMarshal : Object
     {
         // ── Methods ──
-        public void AsSpan(){} // RVA: 0x7AA411E50
+        public void AsSpan(){} // RVA: 0x302FBE0
+        public void UnsafeSetCount(){} // RVA: 0x30307B0
+        public void .cctor(){} // RVA: 0xA7B59F0
     }
 
     public class ComCompatibleVersionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADB2CE80
+        public void .ctor(){} // RVA: 0x67B7600
     }
 
     public class ComDefaultInterfaceAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class ComImportAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ComVisibleAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class DefaultDllImportSearchPathsAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class DllImportAttribute : Attribute
     {
         // ── Methods ──
-        public void GetCustomAttribute(){} // RVA: 0x7ADB2CAE0
-        public void IsDefined(){} // RVA: 0x7ADB2CD60
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_Value(){} // RVA: 0x7A80F2570
+        public void GetCustomAttribute(){} // RVA: 0x67B7260
+        public void IsDefined(){} // RVA: 0x67B74E0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_Value(){} // RVA: 0xB5DBF0
     }
 
     public class ExternalException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
-        public void get_ErrorCode(){} // RVA: 0x7A83562E0
-        public void ToString(){} // RVA: 0x7ADB2B4A0
+        public void .ctor(){} // RVA: 0x23022F0
+        public void get_ErrorCode(){} // RVA: 0xD347A0
+        public void ToString(){} // RVA: 0x67B5C70
     }
 
     public class FieldOffsetAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class GCHandle : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E31BF0
-        public void get_IsAllocated(){} // RVA: 0x7A78CF330
-        public void get_Target(){} // RVA: 0x7A7E31D90
-        public void set_Target(){} // RVA: 0x7A7E31DA0
-        public void AddrOfPinnedObject(){} // RVA: 0x7A7E31DB0
-        public void Alloc(){} // RVA: 0x7ADB2E550
-        public void Free(){} // RVA: 0x7A7E31DC0
-        public void op_Explicit(){} // RVA: 0x7ADB2E770
-        public void CheckCurrentDomain(){} // RVA: 0x7A81BD750
-        public void GetTarget(){} // RVA: 0x7AD87BE20
-        public void GetTargetHandle(){} // RVA: 0x7ADB2E7E0
-        public void FreeHandle(){} // RVA: 0x7ADB2E8E0
-        public void GetAddrOfPinnedObject(){} // RVA: 0x7ADB2E8F0
-        public void op_Equality(){} // RVA: 0x7AA68A530
-        public void Equals(){} // RVA: 0x7A7E31DD0
-        public void GetHashCode(){} // RVA: 0x7A765F070
-        public void FromIntPtr(){} // RVA: 0x7ADB2E770
-        public void ToIntPtr(){} // RVA: 0x7A97F8BA0
+        public void .ctor(){} // RVA: 0x8AEC30
+        public void get_IsAllocated(){} // RVA: 0x311760
+        public void GetRef(){} // RVA: 0x239A590
+        public void SetRef(){} // RVA: 0x173E760
+        public void CanDereferenceHandle(){} // RVA: 0x67B8AA0
+        public void get_Target(){} // RVA: 0x8AEDC0
+        public void set_Target(){} // RVA: 0x8AEDD0
+        public void AddrOfPinnedObject(){} // RVA: 0x8AEDE0
+        public void Alloc(){} // RVA: 0x67B8CC0
+        public void Free(){} // RVA: 0x8AEDF0
+        public void op_Explicit(){} // RVA: 0x67B8ED0
+        public void CheckCurrentDomain(){} // RVA: 0xC2E4C0
+        public void GetTarget(){} // RVA: 0x6509330
+        public void GetTargetHandle(){} // RVA: 0x67B8F40
+        public void FreeHandle(){} // RVA: 0x67B9040
+        public void GetAddrOfPinnedObject(){} // RVA: 0x67B9050
+        public void op_Equality(){} // RVA: 0x2AFB5A0
+        public void Equals(){} // RVA: 0x8AEE00
+        public void GetHashCode(){} // RVA: 0x77E60
+        public void FromIntPtr(){} // RVA: 0x67B8ED0
+        public void ToIntPtr(){} // RVA: 0x2303260
     }
 
     public class GCHandle[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D0FE0
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA27FAF0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EAF320
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3CA0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6B380
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class GuidAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class HandleRef : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A760FA90
-        public void get_Handle(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x260A0
+        public void get_Handle(){} // RVA: 0x77ED0
     }
 
     public class ICustomMarshaler
     {
         // ── Methods ──
-        public void MarshalNativeToManaged(){} // RVA: 0x7A7E063E0
-        public void MarshalManagedToNative(){} // RVA: 0x7A7E00B20
-        public void CleanUpNativeData(){} // RVA: 0x7A7E188D0
-        public void CleanUpManagedData(){} // RVA: 0x7A7E18800
-        public void GetNativeDataSize(){} // RVA: 0x7A7E00710
+        public void MarshalNativeToManaged(){} // RVA: 0x881D60
+        public void MarshalManagedToNative(){} // RVA: 0x87C540
+        public void CleanUpNativeData(){} // RVA: 0x8943F0
+        public void CleanUpManagedData(){} // RVA: 0x894320
+        public void GetNativeDataSize(){} // RVA: 0x87C130
     }
 
     public class InAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class InterfaceTypeAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0xB460A0
     }
 
     public class LibraryImportAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_LibraryName(){} // RVA: 0x7A80F2570
-        public void get_EntryPoint(){} // RVA: 0x7A80DA7B0
-        public void set_EntryPoint(){} // RVA: 0x7A813E420
-        public void get_StringMarshalling(){} // RVA: 0x7A851DB90
-        public void set_StringMarshalling(){} // RVA: 0x7A8738180
-        public void get_StringMarshallingCustomType(){} // RVA: 0x7A8105330
-        public void set_StringMarshallingCustomType(){} // RVA: 0x7A80D8E80
-        public void get_SetLastError(){} // RVA: 0x7A80FD690
-        public void set_SetLastError(){} // RVA: 0x7A80FD6A0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_LibraryName(){} // RVA: 0xB5DBF0
+        public void get_EntryPoint(){} // RVA: 0xB465B0
+        public void set_EntryPoint(){} // RVA: 0xBA9BA0
+        public void get_StringMarshalling(){} // RVA: 0xFEAE90
+        public void set_StringMarshalling(){} // RVA: 0x1269760
+        public void get_StringMarshallingCustomType(){} // RVA: 0xB70160
+        public void set_StringMarshallingCustomType(){} // RVA: 0xB44DC0
+        public void get_SetLastError(){} // RVA: 0xB68DF0
+        public void set_SetLastError(){} // RVA: 0xB68E00
     }
 
     public class LibraryImportAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void get_LibraryName(){} // RVA: 0x7A80F2570
-        public void get_EntryPoint(){} // RVA: 0x7A80DA7B0
-        public void set_EntryPoint(){} // RVA: 0x7A813E420
-        public void get_StringMarshalling(){} // RVA: 0x7A851DB90
-        public void set_StringMarshalling(){} // RVA: 0x7A8738180
-        public void get_StringMarshallingCustomType(){} // RVA: 0x7A8105330
-        public void set_StringMarshallingCustomType(){} // RVA: 0x7A80D8E80
-        public void get_SetLastError(){} // RVA: 0x7A80FD690
-        public void set_SetLastError(){} // RVA: 0x7A80FD6A0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void get_LibraryName(){} // RVA: 0xB5DBF0
+        public void get_EntryPoint(){} // RVA: 0xB465B0
+        public void set_EntryPoint(){} // RVA: 0xBA9BA0
+        public void get_StringMarshalling(){} // RVA: 0xFEAE90
+        public void set_StringMarshalling(){} // RVA: 0x1269760
+        public void get_StringMarshallingCustomType(){} // RVA: 0xB70160
+        public void set_StringMarshallingCustomType(){} // RVA: 0xB44DC0
+        public void get_SetLastError(){} // RVA: 0xB68DF0
+        public void set_SetLastError(){} // RVA: 0xB68E00
     }
 
     public class Marshal : Object
     {
         // ── Methods ──
-        public void AllocCoTaskMem(){} // RVA: 0x7ADB2E9E0
-        public void AllocHGlobal(){} // RVA: 0x7ADB2EA00
-        public void copy_to_unmanaged(){} // RVA: 0x7ADB2EB50
-        public void copy_to_unmanaged_fixed(){} // RVA: 0x7ADB2EAE0
-        public void skip_fixed(){} // RVA: 0x7ADB2EB10
-        public void Copy(){} // RVA: 0x7ADB2F770
-        public void copy_from_unmanaged(){} // RVA: 0x7ADB2F1B0
-        public void copy_from_unmanaged_fixed(){} // RVA: 0x7ADB2F240
-        public void FreeBSTR(){} // RVA: 0x7ADB2F870
-        public void FreeCoTaskMem(){} // RVA: 0x7ADB2F880
-        public void FreeHGlobal(){} // RVA: 0x7ADB2F890
-        public void ClearBSTR(){} // RVA: 0x7ADB2F8A0
-        public void ZeroFreeBSTR(){} // RVA: 0x7ADB2F960
-        public void ClearUnicode(){} // RVA: 0x7ADB2FA60
-        public void ZeroFreeGlobalAllocUnicode(){} // RVA: 0x7ADB2FB50
-        public void GetHRForException(){} // RVA: 0x7ADB2FC70
-        public void IsComObject(){} // RVA: 0x7ADB2FC80
-        public void GetLastWin32Error(){} // RVA: 0x7ADB2FCC0
-        public void OffsetOf(){} // RVA: 0x7ADB2FD30
-        public void PtrToStringAnsi(){} // RVA: 0x7ADB2FD60
-        public void PtrToStringUTF8(){} // RVA: 0x7ADB2FD90
-        public void PtrToStringUni(){} // RVA: 0x7ADB2FE80
-        public void PtrToStructure(){} // RVA: 0x7AA5288D0
-        public void ReadByte(){} // RVA: 0x7A9F256C0
-        public void ReadInt16(){} // RVA: 0x7ADB2FFB0
-        public void ReadInt32(){} // RVA: 0x7ADB30030
-        public void ReadInt64(){} // RVA: 0x7ADB30070
-        public void ReadIntPtr(){} // RVA: 0x7ADB300B0
-        public void ReleaseInternal(){} // RVA: 0x7ADB30130
-        public void Release(){} // RVA: 0x7ADB30140
-        public void SizeOf(){} // RVA: 0x7AA529500
-        public void StringToHGlobalAnsi(){} // RVA: 0x7ADB30470
-        public void StringToHGlobalUni(){} // RVA: 0x7ADB30640
-        public void SecureStringToBSTR(){} // RVA: 0x7ADB306F0
-        public void SecureStringGlobalAllocator(){} // RVA: 0x7ADB30840
-        public void SecureStringToUnicode(){} // RVA: 0x7ADB308D0
-        public void SecureStringToGlobalAllocUnicode(){} // RVA: 0x7ADB30BB0
-        public void StructureToPtr(){} // RVA: 0x7AA529890
-        public void BufferToBSTR(){} // RVA: 0x7ADB30E70
-        public void UnsafeAddrOfPinnedArrayElement(){} // RVA: 0x7AA52A270
-        public void WriteByte(){} // RVA: 0x7A9F26290
-        public void WriteInt16(){} // RVA: 0x7ADB30EA0
-        public void GetDelegateForFunctionPointerInternal(){} // RVA: 0x7ADB30EE0
-        public void GetDelegateForFunctionPointer(){} // RVA: 0x7A8051B10
-        public void GetFunctionPointerForDelegateInternal(){} // RVA: 0x7ADB311A0
-        public void GetFunctionPointerForDelegate(){} // RVA: 0x7AA528630
-        public void GetCustomMarshalerInstance(){} // RVA: 0x7ADB31250
-        public void StringToCoTaskMemUTF8(){} // RVA: 0x7ADB31D00
-        public void .cctor(){} // RVA: 0x7ADB31DF0
+        public void AllocCoTaskMem(){} // RVA: 0x67B9150
+        public void AllocHGlobal(){} // RVA: 0x67B9170
+        public void copy_to_unmanaged(){} // RVA: 0x67B92C0
+        public void copy_to_unmanaged_fixed(){} // RVA: 0x67B9250
+        public void skip_fixed(){} // RVA: 0x67B9280
+        public void Copy(){} // RVA: 0x67B9EE0
+        public void copy_from_unmanaged(){} // RVA: 0x67B9920
+        public void copy_from_unmanaged_fixed(){} // RVA: 0x67B99B0
+        public void FreeBSTR(){} // RVA: 0x67B9FE0
+        public void FreeCoTaskMem(){} // RVA: 0x67B9FF0
+        public void FreeHGlobal(){} // RVA: 0x67BA000
+        public void ClearBSTR(){} // RVA: 0x67BA010
+        public void ZeroFreeBSTR(){} // RVA: 0x67BA0D0
+        public void ClearUnicode(){} // RVA: 0x67BA1D0
+        public void ZeroFreeGlobalAllocUnicode(){} // RVA: 0x67BA2C0
+        public void GetHRForException(){} // RVA: 0x67BA3E0
+        public void IsComObject(){} // RVA: 0x67BA3F0
+        public void GetLastWin32Error(){} // RVA: 0x67BA430
+        public void OffsetOf(){} // RVA: 0x67BA4A0
+        public void PtrToStringAnsi(){} // RVA: 0x67BA4D0
+        public void PtrToStringUTF8(){} // RVA: 0x67BA500
+        public void PtrToStringUni(){} // RVA: 0x67BA5F0
+        public void PtrToStructure(){} // RVA: 0x3153890
+        public void ReadByte(){} // RVA: 0x2AFE9C0
+        public void ReadInt16(){} // RVA: 0x67BA720
+        public void ReadInt32(){} // RVA: 0x67BA7A0
+        public void ReadInt64(){} // RVA: 0x67BA7E0
+        public void ReadIntPtr(){} // RVA: 0x67BA820
+        public void ReleaseInternal(){} // RVA: 0x67BA8A0
+        public void Release(){} // RVA: 0x67BA8B0
+        public void SizeOf(){} // RVA: 0x3154340
+        public void StringToHGlobalAnsi(){} // RVA: 0x67BABE0
+        public void StringToHGlobalUni(){} // RVA: 0x67BADB0
+        public void SecureStringToBSTR(){} // RVA: 0x67BAE60
+        public void SecureStringGlobalAllocator(){} // RVA: 0x67BAFB0
+        public void SecureStringToUnicode(){} // RVA: 0x67BB040
+        public void SecureStringToGlobalAllocUnicode(){} // RVA: 0x67BB320
+        public void StructureToPtr(){} // RVA: 0x3154690
+        public void BufferToBSTR(){} // RVA: 0x67BB5E0
+        public void UnsafeAddrOfPinnedArrayElement(){} // RVA: 0x3155070
+        public void WriteByte(){} // RVA: 0x2AFF640
+        public void WriteInt16(){} // RVA: 0x67BB610
+        public void GetDelegateForFunctionPointerInternal(){} // RVA: 0x67BB650
+        public void GetDelegateForFunctionPointer(){} // RVA: 0xA94080
+        public void GetFunctionPointerForDelegateInternal(){} // RVA: 0x67BB940
+        public void GetFunctionPointerForDelegate(){} // RVA: 0x31535F0
+        public void GetCustomMarshalerInstance(){} // RVA: 0x67BB9F0
+        public void StringToCoTaskMemUTF8(){} // RVA: 0x67BC4D0
+        public void .cctor(){} // RVA: 0x67BC5C0
     }
 
     public class MarshalAsAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8133110
-        public void get_Value(){} // RVA: 0x7A8133100
-        public void Copy(){} // RVA: 0x7ADB32100
+        public void .ctor(){} // RVA: 0xB9E090
+        public void get_Value(){} // RVA: 0xB9E080
+        public void Copy(){} // RVA: 0x67BC8D0
     }
 
     public class MarshalDirectiveException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class MemoryMarshal : Object
     {
         // ── Methods ──
-        public void TryGetArray(){} // RVA: 0x7A8051B10
-        public void Read(){} // RVA: 0x7A8051B10
-        public void Write(){} // RVA: 0x7A8051B10
-        public void TryWrite(){} // RVA: 0x7A8051B10
-        public void AsBytes(){} // RVA: 0x7A8051B10
-        public void GetReference(){} // RVA: 0x7A8051B10
-        public void Cast(){} // RVA: 0x7A8051B10
+        public void AsBytes(){} // RVA: 0x3163230
+        public void AsMemory(){} // RVA: 0xA94080
+        public void GetReference(){} // RVA: 0x239A590
+        public void GetNonNullPinnableReference(){} // RVA: 0x3163BD0
+        public void Cast(){} // RVA: 0x3163650
+        public void CreateSpan(){} // RVA: 0x3163B80
+        public void CreateReadOnlySpan(){} // RVA: 0x3163B80
+        public void TryGetArray(){} // RVA: 0xA94080
+        public void ToEnumerable(){} // RVA: 0xA94080
+        public void Read(){} // RVA: 0x3163E50
+        public void Write(){} // RVA: 0x3164D70
+        public void TryWrite(){} // RVA: 0x3164AD0
     }
 
     public class MemoryMarshal : Object
     {
         // ── Methods ──
-        public void AsBytes(){} // RVA: 0x7AA538770
-        public void AsMemory(){} // RVA: 0x7A8051B10
-        public void GetReference(){} // RVA: 0x7A988E2C0
-        public void GetNonNullPinnableReference(){} // RVA: 0x7AA5392B0
-        public void Cast(){} // RVA: 0x7AA538CF0
-        public void CreateSpan(){} // RVA: 0x7AA539260
-        public void CreateReadOnlySpan(){} // RVA: 0x7AA539260
-        public void TryGetArray(){} // RVA: 0x7A8051B10
-        public void ToEnumerable(){} // RVA: 0x7A8051B10
-        public void Read(){} // RVA: 0x7AA539530
-        public void Write(){} // RVA: 0x7AA53BAF0
-        public void TryWrite(){} // RVA: 0x7AA53B840
+        public void TryGetArray(){} // RVA: 0xA94080
+        public void Read(){} // RVA: 0xA94080
+        public void Write(){} // RVA: 0xA94080
+        public void TryWrite(){} // RVA: 0xA94080
+        public void AsBytes(){} // RVA: 0xA94080
+        public void GetReference(){} // RVA: 0xA94080
+        public void Cast(){} // RVA: 0xA94080
     }
 
     public class NativeCallableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class OSPlatform : ValueType
     {
         // ── Methods ──
-        public void get_Linux(){} // RVA: 0x7ADB2B890
-        public void get_OSX(){} // RVA: 0x7ADB2B8F0
-        public void get_Windows(){} // RVA: 0x7ADB2B950
-        public void .ctor(){} // RVA: 0x7A7E31AC0
-        public void Create(){} // RVA: 0x7ADB2BAD0
-        public void Equals(){} // RVA: 0x7A7E31AF0
-        public void GetHashCode(){} // RVA: 0x7A7E2FA60
-        public void ToString(){} // RVA: 0x7A7E31B90
-        public void op_Equality(){} // RVA: 0x7ADB2BE50
-        public void .cctor(){} // RVA: 0x7ADB2BEB0
+        public void get_Linux(){} // RVA: 0x67B6060
+        public void get_OSX(){} // RVA: 0x67B60C0
+        public void get_Windows(){} // RVA: 0x67B6120
+        public void .ctor(){} // RVA: 0x8AEB50
+        public void Create(){} // RVA: 0x67B62A0
+        public void Equals(){} // RVA: 0x8AEB80
+        public void GetHashCode(){} // RVA: 0x8AC630
+        public void ToString(){} // RVA: 0x8AC510
+        public void op_Equality(){} // RVA: 0x67B65D0
+        public void .cctor(){} // RVA: 0x67B6630
     }
 
     public class OptionalAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class OutAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class PreserveSigAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class RuntimeInformation : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7ADB2D610
-        public void GetRuntimeArchitecture(){} // RVA: 0x7ADB2E030
-        public void GetOSName(){} // RVA: 0x7ADB2E050
-        public void get_FrameworkDescription(){} // RVA: 0x7ADB2E070
-        public void IsOSPlatform(){} // RVA: 0x7ADB2E0F0
-        public void get_OSDescription(){} // RVA: 0x7ADB2E1D0
+        public void .cctor(){} // RVA: 0x67B7D90
+        public void GetRuntimeArchitecture(){} // RVA: 0x67B87B0
+        public void GetOSName(){} // RVA: 0x67B87D0
+        public void get_FrameworkDescription(){} // RVA: 0x67B87F0
+        public void IsOSPlatform(){} // RVA: 0x67B8870
+        public void get_OSDescription(){} // RVA: 0x67B8950
     }
 
     public class SafeBuffer : SafeHandleZeroOrMinusOneIsInvalid
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADB2C3C0
-        public void Initialize(){} // RVA: 0x7ADB2C440
-        public void AcquirePointer(){} // RVA: 0x7ADB2C510
-        public void ReleasePointer(){} // RVA: 0x7ADB2C5F0
-        public void get_ByteLength(){} // RVA: 0x7ADB2C6A0
-        public void NotInitialized(){} // RVA: 0x7ADB2C750
-        public void .cctor(){} // RVA: 0x7ADB2C7C0
+        public void .ctor(){} // RVA: 0x67B6B40
+        public void Initialize(){} // RVA: 0x67B6BC0
+        public void AcquirePointer(){} // RVA: 0x67B6C90
+        public void ReleasePointer(){} // RVA: 0x67B6D70
+        public void get_ByteLength(){} // RVA: 0x67B6E20
+        public void NotInitialized(){} // RVA: 0x67B6ED0
+        public void .cctor(){} // RVA: 0x67B6F40
     }
 
     public class SafeHandle : CriticalFinalizerObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADB2CEA0
-        public void Finalize(){} // RVA: 0x7ADB2CF30
-        public void SetHandle(){} // RVA: 0x7A97242F0
-        public void DangerousGetHandle(){} // RVA: 0x7A80F2570
-        public void get_IsClosed(){} // RVA: 0x7AD848D40
-        public void get_IsInvalid(){} // RVA: 0x7A7E01900
-        public void Close(){} // RVA: 0x7AD89F110
-        public void Dispose(){} // RVA: 0x7ADB2CFA0
-        public void ReleaseHandle(){} // RVA: 0x7A7E01900
-        public void SetHandleAsInvalid(){} // RVA: 0x7ADB2D060
-        public void DangerousAddRef(){} // RVA: 0x7ADB2D170
-        public void DangerousRelease(){} // RVA: 0x7ADB2D2E0
-        public void InternalDispose(){} // RVA: 0x7ADB2D2F0
-        public void InternalFinalize(){} // RVA: 0x7ADB2D390
-        public void DangerousReleaseInternal(){} // RVA: 0x7ADB2D3B0
+        public void .ctor(){} // RVA: 0x67B7620
+        public void Finalize(){} // RVA: 0x67B76B0
+        public void SetHandle(){} // RVA: 0x2230E30
+        public void DangerousGetHandle(){} // RVA: 0xB5DBF0
+        public void get_IsClosed(){} // RVA: 0x64D65D0
+        public void get_IsInvalid(){} // RVA: 0x87D280
+        public void Close(){} // RVA: 0x652C5D0
+        public void Dispose(){} // RVA: 0x67B7720
+        public void ReleaseHandle(){} // RVA: 0x87D280
+        public void SetHandleAsInvalid(){} // RVA: 0x67B77E0
+        public void DangerousAddRef(){} // RVA: 0x67B78F0
+        public void DangerousRelease(){} // RVA: 0x67B7A60
+        public void InternalDispose(){} // RVA: 0x67B7A70
+        public void InternalFinalize(){} // RVA: 0x67B7B10
+        public void DangerousReleaseInternal(){} // RVA: 0x67B7B30
     }
 
     public class SequenceMarshal : Object
     {
         // ── Methods ──
-        public void TryGetString(){} // RVA: 0x7AE0AE410
+        public void TryGetString(){} // RVA: 0x6D2F500
     }
 
     public class SequenceMarshal : Object
     {
         // ── Methods ──
-        public void TryGetString(){} // RVA: 0x7ADB2B7F0
+        public void TryGetString(){} // RVA: 0x67B5FC0
     }
 
     public class SuppressGCTransitionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UnmanagedCallersOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class UnmanagedFunctionPointerAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0xB460A0
     }
 
 }

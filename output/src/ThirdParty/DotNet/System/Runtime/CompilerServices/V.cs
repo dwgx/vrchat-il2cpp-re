@@ -8,76 +8,76 @@ namespace ThirdParty.DotNet.System.Runtime.CompilerServices
     public class ValueTaskAwaiter : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
-        public void get_IsCompleted(){} // RVA: 0x7A7E32060
-        public void GetResult(){} // RVA: 0x7A7E320B0
-        public void OnCompleted(){} // RVA: 0x7A7E32100
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7E32110
-        public void .cctor(){} // RVA: 0x7ADB33C80
+        public void .ctor(){} // RVA: 0xD3E60
+        public void get_IsCompleted(){} // RVA: 0x8AF130
+        public void GetResult(){} // RVA: 0x8AF180
+        public void OnCompleted(){} // RVA: 0x8AF1D0
+        public void UnsafeOnCompleted(){} // RVA: 0x8AF1E0
+        public void .cctor(){} // RVA: 0x67BE3E0
     }
 
     public class ValueTaskAwaiter : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
-        public void get_IsCompleted(){} // RVA: 0x7A7E73540
-        public void GetResult(){} // RVA: 0x7A7E73590
-        public void OnCompleted(){} // RVA: 0x7A7E735E0
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7E735F0
-        public void .cctor(){} // RVA: 0x7AE1576E0
+        public void .ctor(){} // RVA: 0xD3E60
+        public void get_IsCompleted(){} // RVA: 0x8F2B10
+        public void GetResult(){} // RVA: 0x8F2B60
+        public void OnCompleted(){} // RVA: 0x8F2BB0
+        public void UnsafeOnCompleted(){} // RVA: 0x8F2BC0
+        public void .cctor(){} // RVA: 0x6DD8260
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_IsCompleted(){} // RVA: 0x7A7E01900
-        public void GetResult(){} // RVA: 0x7A8051B10
-        public void OnCompleted(){} // RVA: 0x7A7E18800
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_IsCompleted(){} // RVA: 0x87D280
+        public void GetResult(){} // RVA: 0xA94080
+        public void OnCompleted(){} // RVA: 0x894320
+        public void UnsafeOnCompleted(){} // RVA: 0x894320
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void OnCompleted(){} // RVA: 0x7A7E18800
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x216AC0
+        public void get_IsCompleted(){} // RVA: 0x219850
+        public void GetResult(){} // RVA: 0x219890
+        public void OnCompleted(){} // RVA: 0x5B7770
+        public void UnsafeOnCompleted(){} // RVA: 0x5B7780
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A77DC300
-        public void get_IsCompleted(){} // RVA: 0x7A77DEDB0
-        public void GetResult(){} // RVA: 0x7A77DEDF0
-        public void OnCompleted(){} // RVA: 0x7A7B49740
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49750
+        public void .ctor(){} // RVA: 0xD3E60
+        public void get_IsCompleted(){} // RVA: 0x229E10
+        public void GetResult(){} // RVA: 0x22B250
+        public void OnCompleted(){} // RVA: 0x5B7990
+        public void UnsafeOnCompleted(){} // RVA: 0x5B79A0
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
-        public void get_IsCompleted(){} // RVA: 0x7A77E53B0
-        public void GetResult(){} // RVA: 0x7A77E6B50
-        public void OnCompleted(){} // RVA: 0x7A7B49980
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49990
+        public void OnCompleted(){} // RVA: 0x894320
+        public void UnsafeOnCompleted(){} // RVA: 0x894320
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76BA6C0
-        public void get_IsCompleted(){} // RVA: 0x7A77E35C0
-        public void GetResult(){} // RVA: 0x7A77E3600
-        public void OnCompleted(){} // RVA: 0x7A7B49B00
-        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49B10
+        public void .ctor(){} // RVA: 0xD3E60
+        public void get_IsCompleted(){} // RVA: 0x228030
+        public void GetResult(){} // RVA: 0x228070
+        public void OnCompleted(){} // RVA: 0x5B7B10
+        public void UnsafeOnCompleted(){} // RVA: 0x5B7B20
     }
 
     public class ValueTaskAwaiter`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76FC390
+        public void .ctor(){} // RVA: 0x11E4F0
     }
 
 }

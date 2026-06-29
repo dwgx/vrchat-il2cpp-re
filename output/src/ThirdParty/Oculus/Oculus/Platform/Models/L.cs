@@ -8,103 +8,103 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class LanguagePackInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5080
+        public void .ctor(){} // RVA: 0x6B5BFF0
     }
 
     public class LaunchBlockFlowResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED53D0
+        public void .ctor(){} // RVA: 0x6B5C340
     }
 
     public class LaunchDetails : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5510
+        public void .ctor(){} // RVA: 0x6B5C480
     }
 
     public class LaunchFriendRequestFlowResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5B90
+        public void .ctor(){} // RVA: 0x6B5CB00
     }
 
     public class LaunchInvitePanelFlowResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5CD0
+        public void .ctor(){} // RVA: 0x6B5CC40
     }
 
     public class LaunchReportFlowResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5E20
+        public void .ctor(){} // RVA: 0x6B5CD90
     }
 
     public class LaunchUnblockFlowResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED5F60
+        public void .ctor(){} // RVA: 0x6B5CED0
     }
 
     public class Leaderboard : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED60A0
+        public void .ctor(){} // RVA: 0x6B5D010
     }
 
     public class LeaderboardEntry : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED6800
+        public void .ctor(){} // RVA: 0x6B5D770
     }
 
     public class LeaderboardEntryList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED6F90
+        public void .ctor(){} // RVA: 0x6B5DF00
     }
 
     public class LeaderboardList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED6420
+        public void .ctor(){} // RVA: 0x6B5D390
     }
 
     public class LinkedAccount : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED74C0
+        public void .ctor(){} // RVA: 0x6B5E430
     }
 
     public class LinkedAccountList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED7770
+        public void .ctor(){} // RVA: 0x6B5E6E0
     }
 
     public class LivestreamingApplicationStatus : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED7A40
+        public void .ctor(){} // RVA: 0x6B5E9B0
     }
 
     public class LivestreamingStartResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED7B10
+        public void .ctor(){} // RVA: 0x6B5EA80
     }
 
     public class LivestreamingStatus : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED7BD0
+        public void .ctor(){} // RVA: 0x6B5EB40
     }
 
     public class LivestreamingVideoStats : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED7E20
+        public void .ctor(){} // RVA: 0x6B5ED90
     }
 
 }

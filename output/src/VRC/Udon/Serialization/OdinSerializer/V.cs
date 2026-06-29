@@ -1,148 +1,128 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 15
-// Methods: 65
+// Classes: 13
+// Methods: 55
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
     public class VRCUrlFormatter : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8D96DE0
+        public void .ctor(){} // RVA: 0x18B01E0
     }
 
     public class ValueTupleFormatter`1 : BaseFormatter`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A7E187D0
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void GetUninitializedObject(){} // RVA: 0x7A8051B10
-        public void DeserializeImplementation(){} // RVA: 0x7A7E18890
-        public void SerializeImplementation(){} // RVA: 0x7A7E18890
+        public void .cctor(){} // RVA: 0x8942F0
+        public void .ctor(){} // RVA: 0x894290
+        public void GetUninitializedObject(){} // RVA: 0xA94080
+        public void DeserializeImplementation(){} // RVA: 0x8943B0
+        public void SerializeImplementation(){} // RVA: 0x8943B0
     }
 
     public class ValueTupleFormatter`2 : BaseFormatter`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A7E187D0
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void GetUninitializedObject(){} // RVA: 0x7A8051B10
-        public void DeserializeImplementation(){} // RVA: 0x7A7E18890
-        public void SerializeImplementation(){} // RVA: 0x7A7E18890
+        public void .cctor(){} // RVA: 0x8942F0
+        public void .ctor(){} // RVA: 0x894290
+        public void GetUninitializedObject(){} // RVA: 0xA94080
+        public void DeserializeImplementation(){} // RVA: 0x8943B0
+        public void SerializeImplementation(){} // RVA: 0x8943B0
     }
 
     public class ValueTupleFormatter`3 : BaseFormatter`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A7E187D0
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void GetUninitializedObject(){} // RVA: 0x7A8051B10
-        public void DeserializeImplementation(){} // RVA: 0x7A7E18890
-        public void SerializeImplementation(){} // RVA: 0x7A7E18890
-    }
-
-    public class ValueTupleFormatter`3 : BaseFormatter`1
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x7AC617390
-        public void .ctor(){} // RVA: 0x7AAC30FB0
-        public void GetUninitializedObject(){} // RVA: 0x7ABD32370
-        public void DeserializeImplementation(){} // RVA: 0x7AC617720
-        public void SerializeImplementation(){} // RVA: 0x7AC617920
-    }
-
-    public class ValueTupleFormatter`3 : BaseFormatter`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC30FB0
-        public void .cctor(){} // RVA: 0x7AC616D20
-        public void GetUninitializedObject(){} // RVA: 0x7AC6170B0
-        public void DeserializeImplementation(){} // RVA: 0x7AC6170C0
-        public void SerializeImplementation(){} // RVA: 0x7AC617230
+        public void .cctor(){} // RVA: 0x8942F0
+        public void .ctor(){} // RVA: 0x894290
+        public void GetUninitializedObject(){} // RVA: 0xA94080
+        public void DeserializeImplementation(){} // RVA: 0x8943B0
+        public void SerializeImplementation(){} // RVA: 0x8943B0
     }
 
     public class Vector2DictionaryKeyPathProvider : BaseDictionaryKeyPathProvider`1
     {
         // ── Methods ──
-        public void get_ProviderID(){} // RVA: 0x7AF66B280
-        public void Compare(){} // RVA: 0x7AF66B2C0
-        public void GetKeyFromPathString(){} // RVA: 0x7AF66B390
-        public void GetPathStringFromKey(){} // RVA: 0x7AF66B460
-        public void .ctor(){} // RVA: 0x7AF66B680
+        public void get_ProviderID(){} // RVA: 0x84C7580
+        public void Compare(){} // RVA: 0x84C75C0
+        public void GetKeyFromPathString(){} // RVA: 0x84C7690
+        public void GetPathStringFromKey(){} // RVA: 0x84C7760
+        public void .ctor(){} // RVA: 0x84C7980
     }
 
     public class Vector2Formatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AF66FF40
-        public void Write(){} // RVA: 0x7AF670000
-        public void .ctor(){} // RVA: 0x7AF6700E0
-        public void .cctor(){} // RVA: 0x7AF670140
+        public void Read(){} // RVA: 0x84CC080
+        public void Write(){} // RVA: 0x84CC140
+        public void .ctor(){} // RVA: 0x84CC220
+        public void .cctor(){} // RVA: 0x84CC280
     }
 
     public class Vector2IntFormatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AF670940
-        public void Write(){} // RVA: 0x7AF670A00
-        public void .ctor(){} // RVA: 0x7AF670AE0
-        public void .cctor(){} // RVA: 0x7AF670B40
+        public void Read(){} // RVA: 0x84CCA80
+        public void Write(){} // RVA: 0x84CCB40
+        public void .ctor(){} // RVA: 0x84CCC20
+        public void .cctor(){} // RVA: 0x84CCC80
     }
 
     public class Vector3DictionaryKeyPathProvider : BaseDictionaryKeyPathProvider`1
     {
         // ── Methods ──
-        public void get_ProviderID(){} // RVA: 0x7AF66B6B0
-        public void Compare(){} // RVA: 0x7AF66B6F0
-        public void GetKeyFromPathString(){} // RVA: 0x7AF66B800
-        public void GetPathStringFromKey(){} // RVA: 0x7AF66B970
-        public void .ctor(){} // RVA: 0x7AF66BC20
+        public void get_ProviderID(){} // RVA: 0x84C79B0
+        public void Compare(){} // RVA: 0x84C79F0
+        public void GetKeyFromPathString(){} // RVA: 0x84C7B00
+        public void GetPathStringFromKey(){} // RVA: 0x84C7C70
+        public void .ctor(){} // RVA: 0x84C7F20
     }
 
     public class Vector3Formatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AF670220
-        public void Write(){} // RVA: 0x7AF670310
-        public void .ctor(){} // RVA: 0x7AF670430
-        public void .cctor(){} // RVA: 0x7AF670490
+        public void Read(){} // RVA: 0x84CC360
+        public void Write(){} // RVA: 0x84CC450
+        public void .ctor(){} // RVA: 0x84CC570
+        public void .cctor(){} // RVA: 0x84CC5D0
     }
 
     public class Vector3IntFormatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AF670C20
-        public void Write(){} // RVA: 0x7AF670D10
-        public void .ctor(){} // RVA: 0x7AF670E30
-        public void .cctor(){} // RVA: 0x7AF670E90
+        public void Read(){} // RVA: 0x84CCD60
+        public void Write(){} // RVA: 0x84CCE50
+        public void .ctor(){} // RVA: 0x84CCF70
+        public void .cctor(){} // RVA: 0x84CCFD0
     }
 
     public class Vector4DictionaryKeyPathProvider : BaseDictionaryKeyPathProvider`1
     {
         // ── Methods ──
-        public void get_ProviderID(){} // RVA: 0x7AF66BC50
-        public void Compare(){} // RVA: 0x7AF66BC90
-        public void GetKeyFromPathString(){} // RVA: 0x7AF66BDC0
-        public void GetPathStringFromKey(){} // RVA: 0x7AF66BFA0
-        public void .ctor(){} // RVA: 0x7AF66C2E0
+        public void get_ProviderID(){} // RVA: 0x84C7F50
+        public void Compare(){} // RVA: 0x84C7F90
+        public void GetKeyFromPathString(){} // RVA: 0x84C80C0
+        public void GetPathStringFromKey(){} // RVA: 0x84C82A0
+        public void .ctor(){} // RVA: 0x84C85E0
     }
 
     public class Vector4Formatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AF670570
-        public void Write(){} // RVA: 0x7AF6706A0
-        public void .ctor(){} // RVA: 0x7AF670800
-        public void .cctor(){} // RVA: 0x7AF670860
+        public void Read(){} // RVA: 0x84CC6B0
+        public void Write(){} // RVA: 0x84CC7E0
+        public void .ctor(){} // RVA: 0x84CC940
+        public void .cctor(){} // RVA: 0x84CC9A0
     }
 
     public class VersionFormatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
-        public void Read(){} // RVA: 0x7AF63EA00
-        public void Write(){} // RVA: 0x7AF63EDC0
-        public void .ctor(){} // RVA: 0x7AF63EEB0
+        public void GetUninitializedObject(){} // RVA: 0xDAC980
+        public void Read(){} // RVA: 0x849C4B0
+        public void Write(){} // RVA: 0x849C870
+        public void .ctor(){} // RVA: 0x849C960
     }
 
 }

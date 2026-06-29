@@ -5,79 +5,79 @@
 
 namespace ThirdParty.DotNet.System
 {
-    public class HashCode : Object
-    {
-        // ── Methods ──
-        public void Combine(){} // RVA: 0x7A8051B10
-    }
-
     public class HashCode : ValueType
     {
         // ── Methods ──
-        public void GenerateGlobalSeed(){} // RVA: 0x7ADC85970
-        public void Combine(){} // RVA: 0x7AA4B4680
-        public void Rol(){} // RVA: 0x7ADC859A0
-        public void Initialize(){} // RVA: 0x7ADC859C0
-        public void Round(){} // RVA: 0x7ADC85A90
-        public void QueueRound(){} // RVA: 0x7ADC85B00
-        public void MixState(){} // RVA: 0x7ADC85B70
-        public void MixEmptyState(){} // RVA: 0x7ADC85C10
-        public void MixFinal(){} // RVA: 0x7ADC85C70
-        public void Add(){} // RVA: 0x7A7E3B400
-        public void ToHashCode(){} // RVA: 0x7A7E3B410
-        public void GetHashCode(){} // RVA: 0x7A7E3B420
-        public void Equals(){} // RVA: 0x7A7E3B430
-        public void .cctor(){} // RVA: 0x7ADC85FE0
+        public void Combine(){} // RVA: 0x30DF680
+        public void GenerateGlobalSeed(){} // RVA: 0x69104A0
+        public void Rol(){} // RVA: 0x69104D0
+        public void Initialize(){} // RVA: 0x69104F0
+        public void Round(){} // RVA: 0x69105C0
+        public void QueueRound(){} // RVA: 0x6910630
+        public void MixState(){} // RVA: 0x69106A0
+        public void MixEmptyState(){} // RVA: 0x6910740
+        public void MixFinal(){} // RVA: 0x69107A0
+        public void Add(){} // RVA: 0x8B9350
+        public void ToHashCode(){} // RVA: 0x8B9360
+        public void GetHashCode(){} // RVA: 0x8B9370
+        public void Equals(){} // RVA: 0x8B9380
+        public void .cctor(){} // RVA: 0x6910B10
+    }
+
+    public class HashCode : Object
+    {
+        // ── Methods ──
+        public void Combine(){} // RVA: 0xA94080
     }
 
     public class HexConverter : Object
     {
         // ── Methods ──
-        public void ToCharUpper(){} // RVA: 0x7AE0DDF50
-        public void FromChar(){} // RVA: 0x7AE0DDF70
-        public void IsHexChar(){} // RVA: 0x7AE0DE0C0
-        public void get_CharToHexLookup(){} // RVA: 0x7AE0DE0E0
+        public void ToCharUpper(){} // RVA: 0x6D5EE80
+        public void FromChar(){} // RVA: 0x6D5EEA0
+        public void IsHexChar(){} // RVA: 0x6D5EFF0
+        public void get_CharToHexLookup(){} // RVA: 0x6D5F010
     }
 
     public class HexConverter : Object
     {
         // ── Methods ──
-        public void ToBytesBuffer(){} // RVA: 0x7AE0D78D0
-        public void ToCharsBuffer(){} // RVA: 0x7AE0D79C0
+        public void ToBytesBuffer(){} // RVA: 0x6D588C0
+        public void ToCharsBuffer(){} // RVA: 0x6D589B0
     }
 
     public class HexConverter : Object
     {
         // ── Methods ──
-        public void ToBytesBuffer(){} // RVA: 0x7ADBFEB10
-        public void ToCharsBuffer(){} // RVA: 0x7AE5C7FB0
-        public void EncodeToUtf16(){} // RVA: 0x7AE628EC0
-        public void ToString(){} // RVA: 0x7AE628FD0
-        public void ToCharUpper(){} // RVA: 0x7AE0DDF50
-        public void ToCharLower(){} // RVA: 0x7AE6291E0
-        public void TryDecodeFromUtf16(){} // RVA: 0x7AE629330
-        public void FromChar(){} // RVA: 0x7AE629440
-        public void FromUpperChar(){} // RVA: 0x7AE629500
-        public void FromLowerChar(){} // RVA: 0x7AE5C8030
-        public void IsHexChar(){} // RVA: 0x7AE629570
-        public void IsHexUpperChar(){} // RVA: 0x7AE6295A0
-        public void IsHexLowerChar(){} // RVA: 0x7AE5C8050
-        public void get_CharToHexLookup(){} // RVA: 0x7AE6295C0
+        public void ToBytesBuffer(){} // RVA: 0x6889D60
+        public void ToCharsBuffer(){} // RVA: 0x723E940
+        public void EncodeToUtf16(){} // RVA: 0x729FE40
+        public void ToString(){} // RVA: 0x729FF50
+        public void ToCharUpper(){} // RVA: 0x6D5EE80
+        public void ToCharLower(){} // RVA: 0x72A0160
+        public void TryDecodeFromUtf16(){} // RVA: 0x72A02B0
+        public void FromChar(){} // RVA: 0x72A03C0
+        public void FromUpperChar(){} // RVA: 0x72A0480
+        public void FromLowerChar(){} // RVA: 0x723E9C0
+        public void IsHexChar(){} // RVA: 0x72A04F0
+        public void IsHexUpperChar(){} // RVA: 0x72A0520
+        public void IsHexLowerChar(){} // RVA: 0x723E9E0
+        public void get_CharToHexLookup(){} // RVA: 0x72A0540
     }
 
     public class HexConverter : Object
     {
         // ── Methods ──
-        public void ToBytesBuffer(){} // RVA: 0x7ADBFEB10
-        public void ToCharsBuffer(){} // RVA: 0x7AE5C7FB0
+        public void ToBytesBuffer(){} // RVA: 0x6889D60
+        public void ToCharsBuffer(){} // RVA: 0x723E940
     }
 
     public class HexConverter : Object
     {
         // ── Methods ──
-        public void ToCharsBuffer(){} // RVA: 0x7AE5C7FB0
-        public void FromLowerChar(){} // RVA: 0x7AE5C8030
-        public void IsHexLowerChar(){} // RVA: 0x7AE5C8050
+        public void ToCharsBuffer(){} // RVA: 0x723E940
+        public void FromLowerChar(){} // RVA: 0x723E9C0
+        public void IsHexLowerChar(){} // RVA: 0x723E9E0
     }
 
 }

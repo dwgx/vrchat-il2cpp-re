@@ -8,62 +8,62 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class OfType`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x894320
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
     public class OrderedAsyncEnumerableAwaitWithCancellation`2 : OrderedAsyncEnumerable`1
     {
         // ── Methods ──
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
     }
 
     public class OrderedAsyncEnumerableAwait`2 : OrderedAsyncEnumerable`1
     {
         // ── Methods ──
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
     }
 
     public class OrderedAsyncEnumerable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void CreateOrderedEnumerable(){} // RVA: 0x7A7E12480
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .ctor(){} // RVA: 0x894320
+        public void CreateOrderedEnumerable(){} // RVA: 0x88DF10
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
     }
 
     public class OrderedAsyncEnumerable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void CreateOrderedEnumerable(){} // RVA: 0x7A7E12480
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
-        public void GetAsyncEnumerator(){} // RVA: 0x7ABBCF780
+        public void .ctor(){} // RVA: 0xB44D60
+        public void CreateOrderedEnumerable(){} // RVA: 0x88DF10
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
+        public void GetAsyncEnumerator(){} // RVA: 0x4841E30
     }
 
     public class OrderedAsyncEnumerable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void CreateOrderedEnumerable(){} // RVA: 0x7A7E12480
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
-        public void GetAsyncEnumerator(){} // RVA: 0x7ABBCF780
+        public void .ctor(){} // RVA: 0xB44D60
+        public void CreateOrderedEnumerable(){} // RVA: 0x88DF10
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
+        public void GetAsyncEnumerator(){} // RVA: 0x4841E30
     }
 
     public class OrderedAsyncEnumerable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
-        public void CreateOrderedEnumerable(){} // RVA: 0x7A7E12480
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
-        public void GetAsyncEnumerator(){} // RVA: 0x7ABBCF780
+        public void .ctor(){} // RVA: 0xB44D60
+        public void CreateOrderedEnumerable(){} // RVA: 0x88DF10
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
+        public void GetAsyncEnumerator(){} // RVA: 0x4841E30
     }
 
     public class OrderedAsyncEnumerable`2 : OrderedAsyncEnumerable`1
     {
         // ── Methods ──
-        public void GetAsyncEnumerableSorter(){} // RVA: 0x7A7E06640
+        public void GetAsyncEnumerableSorter(){} // RVA: 0x881FC0
     }
 
 }

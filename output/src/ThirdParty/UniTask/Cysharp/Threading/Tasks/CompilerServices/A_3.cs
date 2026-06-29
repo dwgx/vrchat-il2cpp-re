@@ -1,1807 +1,1884 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 // Classes: 100
-// Methods: 1299
+// Methods: 1376
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void Start(){} // RVA: 0x1A2770
+        public void get_Task(){} // RVA: 0x743FE0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x744020
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A1C30
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void Start(){} // RVA: 0x1A2770
+        public void get_Task(){} // RVA: 0x743FE0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x744020
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x1A1C30
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void get_Task(){} // RVA: 0x743FE0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x744020
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void get_Task(){} // RVA: 0x743FE0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x744020
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Create(){} // RVA: 0x1D970D0
+        public void Start(){} // RVA: 0x18D410
+        public void get_Task(){} // RVA: 0x743570
+        public void SetException(){} // RVA: 0x743340
+        public void SetResult(){} // RVA: 0x7435B0
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x18D3C0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void get_Task(){} // RVA: 0x743660
+        public void SetException(){} // RVA: 0x743340
+        public void SetResult(){} // RVA: 0x743690
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x59D5BF0
+        public void get_Task(){} // RVA: 0x743700
+        public void SetException(){} // RVA: 0x743340
+        public void SetResult(){} // RVA: 0x743750
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7758BE0
-        public void get_Task(){} // RVA: 0x7A7CD2FF0
+        public void Create(){} // RVA: 0x49DF8B0
+        public void Start(){} // RVA: 0x1A2670
+        public void get_Task(){} // RVA: 0x743FE0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7A7E18800
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
-        public void Create(){} // RVA: 0x7ABD32370
-        public void get_Task(){} // RVA: 0x7A7CD3110
-        public void SetException(){} // RVA: 0x7A7CD2820
-        public void SetResult(){} // RVA: 0x7A7CD3150
-        public void AwaitOnCompleted(){} // RVA: 0x7A7E18890
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
+        public void Create(){} // RVA: 0x59D5BC0
+        public void Start(){} // RVA: 0x1A4B90
+        public void get_Task(){} // RVA: 0x7442E0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7A7745AF0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A77459F0
-        public void Create(){} // RVA: 0x7A92FA0D0
-        public void get_Task(){} // RVA: 0x7A7CD2BF0
-        public void SetException(){} // RVA: 0x7A7CD2820
-        public void SetResult(){} // RVA: 0x7A7CD2B80
-        public void AwaitOnCompleted(){} // RVA: 0x7A7E18890
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x59D5BE0
+        public void get_Task(){} // RVA: 0x7436A0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x7436E0
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskMethodBuilder`1 : ValueType
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7A7E18800
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
-        public void Create(){} // RVA: 0x7ABD32370
-        public void get_Task(){} // RVA: 0x7A7CD3110
-        public void SetException(){} // RVA: 0x7A7CD2820
-        public void SetResult(){} // RVA: 0x7A7CD3150
-        public void AwaitOnCompleted(){} // RVA: 0x7A7E18890
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-    }
-
-    public class AsyncUniTaskMethodBuilder`1 : ValueType
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x7ABD32370
-        public void Start(){} // RVA: 0x7A7759B60
-        public void get_Task(){} // RVA: 0x7A7CD3110
-    }
-
-    public class AsyncUniTaskMethodBuilder`1 : ValueType
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0x7ACE85BA0
-        public void Start(){} // RVA: 0x7A775C0A0
-        public void get_Task(){} // RVA: 0x7A7CD34C0
+        public void Start(){} // RVA: 0x894320
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x8943B0
+        public void Create(){} // RVA: 0x1D970D0
+        public void get_Task(){} // RVA: 0x7435E0
+        public void SetException(){} // RVA: 0x743620
+        public void SetResult(){} // RVA: 0x743630
+        public void AwaitOnCompleted(){} // RVA: 0x8943B0
+        public void SetStateMachine(){} // RVA: 0x3FC0
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD148890
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD148750
-        public void .cctor(){} // RVA: 0x7AD148BE0
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD148DC0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E656C0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE2C60
+        public void .ctor(){} // RVA: 0x5E65580
+        public void .cctor(){} // RVA: 0x5E65A20
+        public void get_NextNode(){} // RVA: 0x5E65BC0
+        public void Return(){} // RVA: 0x5E65BD0
+        public void Run(){} // RVA: 0x5E65C80
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD18A170
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8292C30
-        public void .ctor(){} // RVA: 0x7AD18A030
-        public void .cctor(){} // RVA: 0x7AD18A4B0
-        public void get_NextNode(){} // RVA: 0x7AD110770
-        public void Return(){} // RVA: 0x7AD110780
-        public void Run(){} // RVA: 0x7AD18A690
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EC12A0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5EC1160
+        public void .cctor(){} // RVA: 0x5EC15F0
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5EC1790
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10FBC0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD10FA80
-        public void .cctor(){} // RVA: 0x7AD10FF10
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD1100F0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EACEC0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5EACD80
+        public void .cctor(){} // RVA: 0x5EAD210
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5EAD3B0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD154EE0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8152D80
-        public void .ctor(){} // RVA: 0x7AD154DA0
-        public void .cctor(){} // RVA: 0x7AD155220
-        public void get_NextNode(){} // RVA: 0x7AD140300
-        public void Return(){} // RVA: 0x7AD140310
-        public void Run(){} // RVA: 0x7AD155400
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EA5D50
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xCD3320
+        public void .ctor(){} // RVA: 0x5EA5C10
+        public void .cctor(){} // RVA: 0x5EA60B0
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void Return(){} // RVA: 0x5E757C0
+        public void Run(){} // RVA: 0x5EA6250
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD198000
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8292C30
-        public void .ctor(){} // RVA: 0x7AD197EC0
-        public void .cctor(){} // RVA: 0x7AD198340
-        public void get_NextNode(){} // RVA: 0x7AD110770
-        public void Return(){} // RVA: 0x7AD110780
-        public void Run(){} // RVA: 0x7AD198520
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E71900
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5E717C0
+        public void .cctor(){} // RVA: 0x5E71C50
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5E71DF0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD17C220
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD17C0E0
-        public void .cctor(){} // RVA: 0x7AD17C570
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD17C750
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E67B00
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5E679C0
+        public void .cctor(){} // RVA: 0x5E67E50
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5E680A0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1803C0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A81A0050
-        public void .ctor(){} // RVA: 0x7AD180280
-        public void .cctor(){} // RVA: 0x7AD180710
-        public void get_NextNode(){} // RVA: 0x7AD10B9B0
-        public void Return(){} // RVA: 0x7AD10B9C0
-        public void Run(){} // RVA: 0x7AD1808F0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E67B00
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5E679C0
+        public void .cctor(){} // RVA: 0x5E67E50
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5E680A0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD16AD20
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD16ABE0
-        public void .cctor(){} // RVA: 0x7AD16B070
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD16B250
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E67B00
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5E679C0
+        public void .cctor(){} // RVA: 0x5E67E50
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5E680A0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD155570
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A81163D0
-        public void .ctor(){} // RVA: 0x7AD155420
-        public void .cctor(){} // RVA: 0x7AD1558E0
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void Return(){} // RVA: 0x7AD10B270
-        public void Run(){} // RVA: 0x7AD155AC0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E67B00
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5E679C0
+        public void .cctor(){} // RVA: 0x5E67E50
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5E680A0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD14E470
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD14E330
-        public void .cctor(){} // RVA: 0x7AD14E7C0
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD14E9A0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E7B4A0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xC0FFC0
+        public void .ctor(){} // RVA: 0x5E7B360
+        public void .cctor(){} // RVA: 0x5E7B7F0
+        public void get_NextNode(){} // RVA: 0x5E66A10
+        public void Return(){} // RVA: 0x5E66A20
+        public void Run(){} // RVA: 0x5E7B990
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1648B0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD164770
-        public void .cctor(){} // RVA: 0x7AD164C00
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD164DE0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E656C0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE2C60
+        public void .ctor(){} // RVA: 0x5E65580
+        public void .cctor(){} // RVA: 0x5E65A20
+        public void get_NextNode(){} // RVA: 0x5E65BC0
+        public void Return(){} // RVA: 0x5E65BD0
+        public void Run(){} // RVA: 0x5E65C80
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD18B510
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AD18B3D0
-        public void .cctor(){} // RVA: 0x7AD18B860
-        public void get_NextNode(){} // RVA: 0x7AD109D00
-        public void Return(){} // RVA: 0x7AD109D10
-        public void Run(){} // RVA: 0x7AD18BA40
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E8C490
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5E8C350
+        public void .cctor(){} // RVA: 0x5E8C7E0
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5E8C980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD111D60
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD111C20
-        public void .cctor(){} // RVA: 0x7AD1120B0
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD112290
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E87280
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xC0FFC0
+        public void .ctor(){} // RVA: 0x5E87140
+        public void .cctor(){} // RVA: 0x5E875D0
+        public void get_NextNode(){} // RVA: 0x5E66A10
+        public void Return(){} // RVA: 0x5E66A20
+        public void Run(){} // RVA: 0x5E87770
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD18A7F0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD18A6B0
-        public void .cctor(){} // RVA: 0x7AD18AB40
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD18AD20
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EA7050
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5EA6F10
+        public void .cctor(){} // RVA: 0x5EA73A0
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5EA7540
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10C9B0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD10C870
-        public void .cctor(){} // RVA: 0x7AD10CD00
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD10CF90
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5ECE860
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xD05CA0
+        public void .ctor(){} // RVA: 0x5ECE720
+        public void .cctor(){} // RVA: 0x5ECEBA0
+        public void get_NextNode(){} // RVA: 0x5E6BC30
+        public void Return(){} // RVA: 0x5E6BC40
+        public void Run(){} // RVA: 0x5ECED40
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10C9B0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD10C870
-        public void .cctor(){} // RVA: 0x7AD10CD00
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD10CF90
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EBBA10
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE2C60
+        public void .ctor(){} // RVA: 0x5EBB8D0
+        public void .cctor(){} // RVA: 0x5EBBD70
+        public void get_NextNode(){} // RVA: 0x5E65BC0
+        public void Return(){} // RVA: 0x5E65BD0
+        public void Run(){} // RVA: 0x5EBBF10
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10C9B0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD10C870
-        public void .cctor(){} // RVA: 0x7AD10CD00
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD10CF90
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E8F0F0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5E8EFB0
+        public void .cctor(){} // RVA: 0x5E8F440
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5E8F5E0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10C9B0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD10C870
-        public void .cctor(){} // RVA: 0x7AD10CD00
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD10CF90
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EB6E40
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBC1B30
+        public void .ctor(){} // RVA: 0x5EB6D00
+        public void .cctor(){} // RVA: 0x5EB7190
+        public void get_NextNode(){} // RVA: 0x5E67FF0
+        public void Return(){} // RVA: 0x5E68000
+        public void Run(){} // RVA: 0x5EB7330
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1676C0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A81A0050
-        public void .ctor(){} // RVA: 0x7AD167580
-        public void .cctor(){} // RVA: 0x7AD167A10
-        public void get_NextNode(){} // RVA: 0x7AD10B9B0
-        public void Return(){} // RVA: 0x7AD10B9C0
-        public void Run(){} // RVA: 0x7AD167BF0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EA3780
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBE58B0
+        public void .ctor(){} // RVA: 0x5EA3640
+        public void .cctor(){} // RVA: 0x5EA3AD0
+        public void get_NextNode(){} // RVA: 0x5E64E60
+        public void Return(){} // RVA: 0x5E64E70
+        public void Run(){} // RVA: 0x5EA3C70
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD178700
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A81A0050
-        public void .ctor(){} // RVA: 0x7AD1785C0
-        public void .cctor(){} // RVA: 0x7AD178A50
-        public void get_NextNode(){} // RVA: 0x7AD10B9B0
-        public void Return(){} // RVA: 0x7AD10B9C0
-        public void Run(){} // RVA: 0x7AD178C30
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EAD510
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xD05CA0
+        public void .ctor(){} // RVA: 0x5EAD3D0
+        public void .cctor(){} // RVA: 0x5EAD850
+        public void get_NextNode(){} // RVA: 0x5E6BC30
+        public void Return(){} // RVA: 0x5E6BC40
+        public void Run(){} // RVA: 0x5EAD9F0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD13C290
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A825E100
-        public void .ctor(){} // RVA: 0x7AD13C140
-        public void .cctor(){} // RVA: 0x7AD13C600
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void Return(){} // RVA: 0x7AD107FE0
-        public void Run(){} // RVA: 0x7AD13C7E0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5EB61A0
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBBF8F0
+        public void .ctor(){} // RVA: 0x5EB6060
+        public void .cctor(){} // RVA: 0x5EB64E0
+        public void get_NextNode(){} // RVA: 0x5E6C320
+        public void Return(){} // RVA: 0x5E6C330
+        public void Run(){} // RVA: 0x5EB6680
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTaskVoid`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD10A5A0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8175DF0
-        public void .ctor(){} // RVA: 0x7AD10A460
-        public void .cctor(){} // RVA: 0x7AD10A900
-        public void get_NextNode(){} // RVA: 0x7AD10AAE0
-        public void Return(){} // RVA: 0x7AD10AAF0
-        public void Run(){} // RVA: 0x7AD10ABA0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD146140
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AD146000
-        public void .cctor(){} // RVA: 0x7AD146490
-        public void get_NextNode(){} // RVA: 0x7AD109D00
-        public void Return(){} // RVA: 0x7AD109D10
-        public void Run(){} // RVA: 0x7AD146670
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD198D00
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8292C30
-        public void .ctor(){} // RVA: 0x7AD198BC0
-        public void .cctor(){} // RVA: 0x7AD199040
-        public void get_NextNode(){} // RVA: 0x7AD110770
-        public void Return(){} // RVA: 0x7AD110780
-        public void Run(){} // RVA: 0x7AD199220
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1655E0
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8154D80
-        public void .ctor(){} // RVA: 0x7AD1654A0
-        public void .cctor(){} // RVA: 0x7AD165930
-        public void get_NextNode(){} // RVA: 0x7AD10CEE0
-        public void Return(){} // RVA: 0x7AD10CEF0
-        public void Run(){} // RVA: 0x7AD165B10
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD165C70
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8153390
-        public void .ctor(){} // RVA: 0x7AD165B30
-        public void .cctor(){} // RVA: 0x7AD165FD0
-        public void get_NextNode(){} // RVA: 0x7AD10C100
-        public void Return(){} // RVA: 0x7AD10C110
-        public void Run(){} // RVA: 0x7AD1661B0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD16FC50
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8178B90
-        public void .ctor(){} // RVA: 0x7AD16FB10
-        public void .cctor(){} // RVA: 0x7AD16FFA0
-        public void get_NextNode(){} // RVA: 0x7AD109D00
-        public void Return(){} // RVA: 0x7AD109D10
-        public void Run(){} // RVA: 0x7AD170180
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
-    }
-
-    public class AsyncUniTaskVoid`1 : Object
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD164F40
-        public void get_ReturnAction(){} // RVA: 0x7A80F2570
-        public void get_MoveNext(){} // RVA: 0x7A8175DF0
-        public void .ctor(){} // RVA: 0x7AD164E00
-        public void .cctor(){} // RVA: 0x7AD1652A0
-        public void get_NextNode(){} // RVA: 0x7AD10AAE0
-        public void Return(){} // RVA: 0x7AD10AAF0
-        public void Run(){} // RVA: 0x7AD165480
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A82D1450
-        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A80D7310
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A80D7310
+        public void SetStateMachine(){} // RVA: 0x5E67350
+        public void get_ReturnAction(){} // RVA: 0xB5DBF0
+        public void get_MoveNext(){} // RVA: 0xBAE340
+        public void .ctor(){} // RVA: 0x5E67200
+        public void .cctor(){} // RVA: 0x5E67720
+        public void get_NextNode(){} // RVA: 0x5E678C0
+        public void Return(){} // RVA: 0x5E678D0
+        public void Run(){} // RVA: 0x5E679A0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0xDAC980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0xB43310
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0xB43310
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1CDD60
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1CDC00
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD1CE0C0
-        public void Return(){} // RVA: 0x7AD1CE2A0
-        public void TryReturn(){} // RVA: 0x7AD1CE380
-        public void Run(){} // RVA: 0x7AD1CE460
-        public void get_Task(){} // RVA: 0x7AD1CE480
-        public void SetResult(){} // RVA: 0x7AD1CE520
-        public void SetException(){} // RVA: 0x7AD1CE5A0
-        public void GetResult(){} // RVA: 0x7AD1CE5F0
-        public void GetStatus(){} // RVA: 0x7AD1CE6B0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1CE700
-        public void OnCompleted(){} // RVA: 0x7AD1CE740
+        public void SetStateMachine(){} // RVA: 0x5ED97B0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5ED9650
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5ED9B00
+        public void Return(){} // RVA: 0x5ED9CA0
+        public void TryReturn(){} // RVA: 0x5ED9D80
+        public void Run(){} // RVA: 0x5ED9E60
+        public void get_Task(){} // RVA: 0x5ED9E80
+        public void SetResult(){} // RVA: 0x5ED9F20
+        public void SetException(){} // RVA: 0x5ED9FA0
+        public void GetResult(){} // RVA: 0x5ED9FF0
+        public void GetStatus(){} // RVA: 0x5EDA0B0
+        public void UnsafeGetStatus(){} // RVA: 0x5EDA100
+        public void OnCompleted(){} // RVA: 0x5EDA140
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1EFA10
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1EF8B0
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD1EFD70
-        public void Return(){} // RVA: 0x7AD1EFF50
-        public void TryReturn(){} // RVA: 0x7AD1F0030
-        public void Run(){} // RVA: 0x7AD1F0110
-        public void get_Task(){} // RVA: 0x7AD1F0130
-        public void SetResult(){} // RVA: 0x7AD1F01D0
-        public void SetException(){} // RVA: 0x7AD1F0250
-        public void GetResult(){} // RVA: 0x7AD1F02A0
-        public void GetStatus(){} // RVA: 0x7AD1F0360
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1F03B0
-        public void OnCompleted(){} // RVA: 0x7AD1F03F0
+        public void SetStateMachine(){} // RVA: 0x5EDD0F0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5EDCF90
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x5EDD450
+        public void Return(){} // RVA: 0x5EDD5F0
+        public void TryReturn(){} // RVA: 0x5EDD6D0
+        public void Run(){} // RVA: 0x5EDD7B0
+        public void get_Task(){} // RVA: 0x5EDD7D0
+        public void SetResult(){} // RVA: 0x5EDD880
+        public void SetException(){} // RVA: 0x5EDD900
+        public void GetResult(){} // RVA: 0x5EDD950
+        public void GetStatus(){} // RVA: 0x5EDDA10
+        public void UnsafeGetStatus(){} // RVA: 0x5EDDA60
+        public void OnCompleted(){} // RVA: 0x5EDDAA0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD23A190
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD23A030
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD23A4D0
-        public void Return(){} // RVA: 0x7AD23A6B0
-        public void TryReturn(){} // RVA: 0x7AD23A780
-        public void Run(){} // RVA: 0x7AD23A850
-        public void get_Task(){} // RVA: 0x7AD23A870
-        public void SetResult(){} // RVA: 0x7AD23A910
-        public void SetException(){} // RVA: 0x7AD23A990
-        public void GetResult(){} // RVA: 0x7AD23A9E0
-        public void GetStatus(){} // RVA: 0x7AD23AAA0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD23AAF0
-        public void OnCompleted(){} // RVA: 0x7AD23AB30
+        public void SetStateMachine(){} // RVA: 0x5ED97B0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5ED9650
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5ED9B00
+        public void Return(){} // RVA: 0x5ED9CA0
+        public void TryReturn(){} // RVA: 0x5ED9D80
+        public void Run(){} // RVA: 0x5ED9E60
+        public void get_Task(){} // RVA: 0x5ED9E80
+        public void SetResult(){} // RVA: 0x5ED9F20
+        public void SetException(){} // RVA: 0x5ED9FA0
+        public void GetResult(){} // RVA: 0x5ED9FF0
+        public void GetStatus(){} // RVA: 0x5EDA0B0
+        public void UnsafeGetStatus(){} // RVA: 0x5EDA100
+        public void OnCompleted(){} // RVA: 0x5EDA140
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD264720
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2645C0
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD264A70
-        public void Return(){} // RVA: 0x7AD264C50
-        public void TryReturn(){} // RVA: 0x7AD264D30
-        public void Run(){} // RVA: 0x7AD264E10
-        public void get_Task(){} // RVA: 0x7AD264E30
-        public void SetResult(){} // RVA: 0x7AD264ED0
-        public void SetException(){} // RVA: 0x7AD264F50
-        public void GetResult(){} // RVA: 0x7AD264FA0
-        public void GetStatus(){} // RVA: 0x7AD265060
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2650B0
-        public void OnCompleted(){} // RVA: 0x7AD2650F0
+        public void SetStateMachine(){} // RVA: 0x5EDD0F0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5EDCF90
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x5EDD450
+        public void Return(){} // RVA: 0x5EDD5F0
+        public void TryReturn(){} // RVA: 0x5EDD6D0
+        public void Run(){} // RVA: 0x5EDD7B0
+        public void get_Task(){} // RVA: 0x5EDD7D0
+        public void SetResult(){} // RVA: 0x5EDD880
+        public void SetException(){} // RVA: 0x5EDD900
+        public void GetResult(){} // RVA: 0x5EDD950
+        public void GetStatus(){} // RVA: 0x5EDDA10
+        public void UnsafeGetStatus(){} // RVA: 0x5EDDA60
+        public void OnCompleted(){} // RVA: 0x5EDDAA0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2898B0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD289750
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD289BF0
-        public void Return(){} // RVA: 0x7AD289DD0
-        public void TryReturn(){} // RVA: 0x7AD289EA0
-        public void Run(){} // RVA: 0x7AD289F70
-        public void get_Task(){} // RVA: 0x7AD289F90
-        public void SetResult(){} // RVA: 0x7AD28A030
-        public void SetException(){} // RVA: 0x7AD28A0B0
-        public void GetResult(){} // RVA: 0x7AD28A100
-        public void GetStatus(){} // RVA: 0x7AD28A1C0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD28A210
-        public void OnCompleted(){} // RVA: 0x7AD28A250
+        public void SetStateMachine(){} // RVA: 0x5ED97B0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5ED9650
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5ED9B00
+        public void Return(){} // RVA: 0x5ED9CA0
+        public void TryReturn(){} // RVA: 0x5ED9D80
+        public void Run(){} // RVA: 0x5ED9E60
+        public void get_Task(){} // RVA: 0x5ED9E80
+        public void SetResult(){} // RVA: 0x5ED9F20
+        public void SetException(){} // RVA: 0x5ED9FA0
+        public void GetResult(){} // RVA: 0x5ED9FF0
+        public void GetStatus(){} // RVA: 0x5EDA0B0
+        public void UnsafeGetStatus(){} // RVA: 0x5EDA100
+        public void OnCompleted(){} // RVA: 0x5EDA140
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD24DE30
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD24DCD0
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD24E180
-        public void Return(){} // RVA: 0x7AD24E360
-        public void TryReturn(){} // RVA: 0x7AD24E430
-        public void Run(){} // RVA: 0x7AD24E500
-        public void get_Task(){} // RVA: 0x7AD24E520
-        public void SetResult(){} // RVA: 0x7AD24E5C0
-        public void SetException(){} // RVA: 0x7AD24E640
-        public void GetResult(){} // RVA: 0x7AD24E690
-        public void GetStatus(){} // RVA: 0x7AD24E750
-        public void UnsafeGetStatus(){} // RVA: 0x7AD24E7A0
-        public void OnCompleted(){} // RVA: 0x7AD24E7E0
+        public void SetStateMachine(){} // RVA: 0x5EDD0F0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5EDCF90
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x5EDD450
+        public void Return(){} // RVA: 0x5EDD5F0
+        public void TryReturn(){} // RVA: 0x5EDD6D0
+        public void Run(){} // RVA: 0x5EDD7B0
+        public void get_Task(){} // RVA: 0x5EDD7D0
+        public void SetResult(){} // RVA: 0x5EDD880
+        public void SetException(){} // RVA: 0x5EDD900
+        public void GetResult(){} // RVA: 0x5EDD950
+        public void GetStatus(){} // RVA: 0x5EDDA10
+        public void UnsafeGetStatus(){} // RVA: 0x5EDDA60
+        public void OnCompleted(){} // RVA: 0x5EDDAA0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD240AE0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD240980
-        public void get_NextNode(){} // RVA: 0x7AD108780
-        public void .cctor(){} // RVA: 0x7AD240E40
-        public void Return(){} // RVA: 0x7AD241020
-        public void TryReturn(){} // RVA: 0x7AD241100
-        public void Run(){} // RVA: 0x7AD2411E0
-        public void get_Task(){} // RVA: 0x7AD241200
-        public void SetResult(){} // RVA: 0x7AD2412B0
-        public void SetException(){} // RVA: 0x7AD241330
-        public void GetResult(){} // RVA: 0x7AD241380
-        public void GetStatus(){} // RVA: 0x7AD241440
-        public void UnsafeGetStatus(){} // RVA: 0x7AD241490
-        public void OnCompleted(){} // RVA: 0x7AD2414D0
+        public void SetStateMachine(){} // RVA: 0x5F5FF30
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F5FDD0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5F60290
+        public void Return(){} // RVA: 0x5F60430
+        public void TryReturn(){} // RVA: 0x5F60510
+        public void Run(){} // RVA: 0x5F605F0
+        public void get_Task(){} // RVA: 0x5F60610
+        public void SetResult(){} // RVA: 0x5F606C0
+        public void SetException(){} // RVA: 0x5F60740
+        public void GetResult(){} // RVA: 0x5F60790
+        public void GetStatus(){} // RVA: 0x5F60850
+        public void UnsafeGetStatus(){} // RVA: 0x5F608A0
+        public void OnCompleted(){} // RVA: 0x5F608E0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1DEAB0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1DE950
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD1DEE00
-        public void Return(){} // RVA: 0x7AD1DEFE0
-        public void TryReturn(){} // RVA: 0x7AD1DF0B0
-        public void Run(){} // RVA: 0x7AD1DF180
-        public void get_Task(){} // RVA: 0x7AD1DF1A0
-        public void SetResult(){} // RVA: 0x7AD1DF240
-        public void SetException(){} // RVA: 0x7AD1DF2C0
-        public void GetResult(){} // RVA: 0x7AD1DF310
-        public void GetStatus(){} // RVA: 0x7AD1DF3D0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1DF420
-        public void OnCompleted(){} // RVA: 0x7AD1DF460
+        public void SetStateMachine(){} // RVA: 0x5F43CB0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F43B50
+        public void get_NextNode(){} // RVA: 0x5E67120
+        public void .cctor(){} // RVA: 0x5F44000
+        public void Return(){} // RVA: 0x5F441A0
+        public void TryReturn(){} // RVA: 0x5F44270
+        public void Run(){} // RVA: 0x5F44340
+        public void get_Task(){} // RVA: 0x5F44360
+        public void SetResult(){} // RVA: 0x5F44400
+        public void SetException(){} // RVA: 0x5F44480
+        public void GetResult(){} // RVA: 0x5F444D0
+        public void GetStatus(){} // RVA: 0x5F44590
+        public void UnsafeGetStatus(){} // RVA: 0x5F445E0
+        public void OnCompleted(){} // RVA: 0x5F44620
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD207F80
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD207E20
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD2082E0
-        public void Return(){} // RVA: 0x7AD2084C0
-        public void TryReturn(){} // RVA: 0x7AD2085A0
-        public void Run(){} // RVA: 0x7AD208680
-        public void get_Task(){} // RVA: 0x7AD2086A0
-        public void SetResult(){} // RVA: 0x7AD208750
-        public void SetException(){} // RVA: 0x7AD2087D0
-        public void GetResult(){} // RVA: 0x7AD208820
-        public void GetStatus(){} // RVA: 0x7AD2088E0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD208930
-        public void OnCompleted(){} // RVA: 0x7AD208970
+        public void SetStateMachine(){} // RVA: 0x5FAC420
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FAC2C0
+        public void get_NextNode(){} // RVA: 0x5EE9B80
+        public void .cctor(){} // RVA: 0x5FAC7F0
+        public void Return(){} // RVA: 0x5FAC990
+        public void TryReturn(){} // RVA: 0x5FACA90
+        public void Run(){} // RVA: 0x5FACB90
+        public void get_Task(){} // RVA: 0x5FACBB0
+        public void SetResult(){} // RVA: 0x5FACC60
+        public void SetException(){} // RVA: 0x5FACCE0
+        public void GetResult(){} // RVA: 0x5FACD40
+        public void GetStatus(){} // RVA: 0x5FACE00
+        public void UnsafeGetStatus(){} // RVA: 0x5FACE60
+        public void OnCompleted(){} // RVA: 0x5FACEA0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1F05D0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1F0470
-        public void get_NextNode(){} // RVA: 0x7AD108780
-        public void .cctor(){} // RVA: 0x7AD1F0930
-        public void Return(){} // RVA: 0x7AD1F0B10
-        public void TryReturn(){} // RVA: 0x7AD1F0BF0
-        public void Run(){} // RVA: 0x7AD1F0CD0
-        public void get_Task(){} // RVA: 0x7AD1F0CF0
-        public void SetResult(){} // RVA: 0x7AD1F0DA0
-        public void SetException(){} // RVA: 0x7AD1F0E20
-        public void GetResult(){} // RVA: 0x7AD1F0E70
-        public void GetStatus(){} // RVA: 0x7AD1F0F30
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1F0F80
-        public void OnCompleted(){} // RVA: 0x7AD1F0FC0
+        public void SetStateMachine(){} // RVA: 0x5F68A70
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F68910
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F68DC0
+        public void Return(){} // RVA: 0x5F68F60
+        public void TryReturn(){} // RVA: 0x5F69030
+        public void Run(){} // RVA: 0x5F69100
+        public void get_Task(){} // RVA: 0x5F69120
+        public void SetResult(){} // RVA: 0x5F691C0
+        public void SetException(){} // RVA: 0x5F69240
+        public void GetResult(){} // RVA: 0x5F69290
+        public void GetStatus(){} // RVA: 0x5F69350
+        public void UnsafeGetStatus(){} // RVA: 0x5F693A0
+        public void OnCompleted(){} // RVA: 0x5F693E0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD25BBE0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD25BA80
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD25BF40
-        public void Return(){} // RVA: 0x7AD25C120
-        public void TryReturn(){} // RVA: 0x7AD25C200
-        public void Run(){} // RVA: 0x7AD25C2E0
-        public void get_Task(){} // RVA: 0x7AD25C300
-        public void SetResult(){} // RVA: 0x7AD25C3A0
-        public void SetException(){} // RVA: 0x7AD25C420
-        public void GetResult(){} // RVA: 0x7AD25C470
-        public void GetStatus(){} // RVA: 0x7AD25C530
-        public void UnsafeGetStatus(){} // RVA: 0x7AD25C580
-        public void OnCompleted(){} // RVA: 0x7AD25C5C0
+        public void SetStateMachine(){} // RVA: 0x5F7AA90
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F7A930
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x5F7ADF0
+        public void Return(){} // RVA: 0x5F7AF90
+        public void TryReturn(){} // RVA: 0x5F7B070
+        public void Run(){} // RVA: 0x5F7B150
+        public void get_Task(){} // RVA: 0x5F7B170
+        public void SetResult(){} // RVA: 0x5F7B220
+        public void SetException(){} // RVA: 0x5F7B2A0
+        public void GetResult(){} // RVA: 0x5F7B2F0
+        public void GetStatus(){} // RVA: 0x5F7B3B0
+        public void UnsafeGetStatus(){} // RVA: 0x5F7B400
+        public void OnCompleted(){} // RVA: 0x5F7B440
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD21A560
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD21A400
-        public void get_NextNode(){} // RVA: 0x7AD10E5E0
-        public void .cctor(){} // RVA: 0x7AD21A8C0
-        public void Return(){} // RVA: 0x7AD21AAA0
-        public void TryReturn(){} // RVA: 0x7AD21AB80
-        public void Run(){} // RVA: 0x7AD21AC60
-        public void get_Task(){} // RVA: 0x7AD21AC80
-        public void SetResult(){} // RVA: 0x7AD21AD30
-        public void SetException(){} // RVA: 0x7AD21ADB0
-        public void GetResult(){} // RVA: 0x7AD21AE10
-        public void GetStatus(){} // RVA: 0x7AD21AED0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD21AF30
-        public void OnCompleted(){} // RVA: 0x7AD21AF70
+        public void SetStateMachine(){} // RVA: 0x5F83EA0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F83D40
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F841F0
+        public void Return(){} // RVA: 0x5F84390
+        public void TryReturn(){} // RVA: 0x5F84470
+        public void Run(){} // RVA: 0x5F84550
+        public void get_Task(){} // RVA: 0x5F84570
+        public void SetResult(){} // RVA: 0x5F84610
+        public void SetException(){} // RVA: 0x5F84690
+        public void GetResult(){} // RVA: 0x5F846E0
+        public void GetStatus(){} // RVA: 0x5F847A0
+        public void UnsafeGetStatus(){} // RVA: 0x5F847F0
+        public void OnCompleted(){} // RVA: 0x5F84830
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1F59A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1F5840
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD1F5D00
-        public void Return(){} // RVA: 0x7AD1F5EE0
-        public void TryReturn(){} // RVA: 0x7AD1F5FC0
-        public void Run(){} // RVA: 0x7AD1F60A0
-        public void get_Task(){} // RVA: 0x7AD1F60C0
-        public void SetResult(){} // RVA: 0x7AD1F6160
-        public void SetException(){} // RVA: 0x7AD1F61E0
-        public void GetResult(){} // RVA: 0x7AD1F6230
-        public void GetStatus(){} // RVA: 0x7AD1F62F0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1F6340
-        public void OnCompleted(){} // RVA: 0x7AD1F6380
+        public void SetStateMachine(){} // RVA: 0x5F85590
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F85430
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x5F858F0
+        public void Return(){} // RVA: 0x5F85A90
+        public void TryReturn(){} // RVA: 0x5F85B70
+        public void Run(){} // RVA: 0x5F85C50
+        public void get_Task(){} // RVA: 0x5F85C70
+        public void SetResult(){} // RVA: 0x5F85D20
+        public void SetException(){} // RVA: 0x5F85DA0
+        public void GetResult(){} // RVA: 0x5F85DF0
+        public void GetStatus(){} // RVA: 0x5F85EB0
+        public void UnsafeGetStatus(){} // RVA: 0x5F85F00
+        public void OnCompleted(){} // RVA: 0x5F85F40
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD218200
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2180A0
-        public void get_NextNode(){} // RVA: 0x7AD10E5E0
-        public void .cctor(){} // RVA: 0x7AD218560
-        public void Return(){} // RVA: 0x7AD218740
-        public void TryReturn(){} // RVA: 0x7AD218820
-        public void Run(){} // RVA: 0x7AD218900
-        public void get_Task(){} // RVA: 0x7AD218920
-        public void SetResult(){} // RVA: 0x7AD2189D0
-        public void SetException(){} // RVA: 0x7AD218A50
-        public void GetResult(){} // RVA: 0x7AD218AB0
-        public void GetStatus(){} // RVA: 0x7AD218B70
-        public void UnsafeGetStatus(){} // RVA: 0x7AD218BD0
-        public void OnCompleted(){} // RVA: 0x7AD218C10
+        public void SetStateMachine(){} // RVA: 0x5F72010
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F71EB0
+        public void get_NextNode(){} // RVA: 0x5E792F0
+        public void .cctor(){} // RVA: 0x5F723B0
+        public void Return(){} // RVA: 0x5F72550
+        public void TryReturn(){} // RVA: 0x5F72640
+        public void Run(){} // RVA: 0x5F72730
+        public void get_Task(){} // RVA: 0x5F72750
+        public void SetResult(){} // RVA: 0x5F72800
+        public void SetException(){} // RVA: 0x5F72880
+        public void GetResult(){} // RVA: 0x5F728E0
+        public void GetStatus(){} // RVA: 0x5F729A0
+        public void UnsafeGetStatus(){} // RVA: 0x5F72A00
+        public void OnCompleted(){} // RVA: 0x5F72A40
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD21C8C0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD21C760
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD21CC10
-        public void Return(){} // RVA: 0x7AD21CDF0
-        public void TryReturn(){} // RVA: 0x7AD21CED0
-        public void Run(){} // RVA: 0x7AD21CFB0
-        public void get_Task(){} // RVA: 0x7AD21CFD0
-        public void SetResult(){} // RVA: 0x7AD21D070
-        public void SetException(){} // RVA: 0x7AD21D0F0
-        public void GetResult(){} // RVA: 0x7AD21D140
-        public void GetStatus(){} // RVA: 0x7AD21D200
-        public void UnsafeGetStatus(){} // RVA: 0x7AD21D250
-        public void OnCompleted(){} // RVA: 0x7AD21D290
+        public void SetStateMachine(){} // RVA: 0x5F91890
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F91730
+        public void get_NextNode(){} // RVA: 0x5E640D0
+        public void .cctor(){} // RVA: 0x5F91BD0
+        public void Return(){} // RVA: 0x5F91D70
+        public void TryReturn(){} // RVA: 0x5F91E40
+        public void Run(){} // RVA: 0x5F91F10
+        public void get_Task(){} // RVA: 0x5F91F30
+        public void SetResult(){} // RVA: 0x5F91FD0
+        public void SetException(){} // RVA: 0x5F92050
+        public void GetResult(){} // RVA: 0x5F920A0
+        public void GetStatus(){} // RVA: 0x5F92160
+        public void UnsafeGetStatus(){} // RVA: 0x5F921B0
+        public void OnCompleted(){} // RVA: 0x5F921F0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD22B5B0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD22B450
-        public void get_NextNode(){} // RVA: 0x7AD22BA00
-        public void .cctor(){} // RVA: 0x7AD22BA10
-        public void Return(){} // RVA: 0x7AD22BBF0
-        public void TryReturn(){} // RVA: 0x7AD22BCC0
-        public void Run(){} // RVA: 0x7AD22BD90
-        public void get_Task(){} // RVA: 0x7AD22BDB0
-        public void SetResult(){} // RVA: 0x7AD22BE60
-        public void SetException(){} // RVA: 0x7AD22BEE0
-        public void GetResult(){} // RVA: 0x7AD22BF40
-        public void GetStatus(){} // RVA: 0x7AD22C000
-        public void UnsafeGetStatus(){} // RVA: 0x7AD22C060
-        public void OnCompleted(){} // RVA: 0x7AD22C0A0
+        public void SetStateMachine(){} // RVA: 0x5F8D430
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F8D2D0
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F8D780
+        public void Return(){} // RVA: 0x5F8D920
+        public void TryReturn(){} // RVA: 0x5F8DA00
+        public void Run(){} // RVA: 0x5F8DAE0
+        public void get_Task(){} // RVA: 0x5F8DB00
+        public void SetResult(){} // RVA: 0x5F8DBA0
+        public void SetException(){} // RVA: 0x5F8DC20
+        public void GetResult(){} // RVA: 0x5F8DC70
+        public void GetStatus(){} // RVA: 0x5F8DD30
+        public void UnsafeGetStatus(){} // RVA: 0x5F8DD80
+        public void OnCompleted(){} // RVA: 0x5F8DDC0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD201450
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2012F0
-        public void get_NextNode(){} // RVA: 0x7AD108780
-        public void .cctor(){} // RVA: 0x7AD2017B0
-        public void Return(){} // RVA: 0x7AD201990
-        public void TryReturn(){} // RVA: 0x7AD201A70
-        public void Run(){} // RVA: 0x7AD201B50
-        public void get_Task(){} // RVA: 0x7AD201B70
-        public void SetResult(){} // RVA: 0x7AD201C20
-        public void SetException(){} // RVA: 0x7AD201CA0
-        public void GetResult(){} // RVA: 0x7AD201CF0
-        public void GetStatus(){} // RVA: 0x7AD201DB0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD201E00
-        public void OnCompleted(){} // RVA: 0x7AD201E40
+        public void SetStateMachine(){} // RVA: 0x5F43140
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F42FE0
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F43490
+        public void Return(){} // RVA: 0x5F43630
+        public void TryReturn(){} // RVA: 0x5F43710
+        public void Run(){} // RVA: 0x5F437F0
+        public void get_Task(){} // RVA: 0x5F43810
+        public void SetResult(){} // RVA: 0x5F438B0
+        public void SetException(){} // RVA: 0x5F43930
+        public void GetResult(){} // RVA: 0x5F43980
+        public void GetStatus(){} // RVA: 0x5F43A40
+        public void UnsafeGetStatus(){} // RVA: 0x5F43A90
+        public void OnCompleted(){} // RVA: 0x5F43AD0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD22C280
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD22C120
-        public void get_NextNode(){} // RVA: 0x7AD14F7B0
-        public void .cctor(){} // RVA: 0x7AD22C620
-        public void Return(){} // RVA: 0x7AD22C800
-        public void TryReturn(){} // RVA: 0x7AD22C8F0
-        public void Run(){} // RVA: 0x7AD22C9E0
-        public void get_Task(){} // RVA: 0x7AD22CA00
-        public void SetResult(){} // RVA: 0x7AD22CAB0
-        public void SetException(){} // RVA: 0x7AD22CB30
-        public void GetResult(){} // RVA: 0x7AD22CB90
-        public void GetStatus(){} // RVA: 0x7AD22CC50
-        public void UnsafeGetStatus(){} // RVA: 0x7AD22CCB0
-        public void OnCompleted(){} // RVA: 0x7AD22CCF0
+        public void SetStateMachine(){} // RVA: 0x5F9BA30
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F9B8D0
+        public void get_NextNode(){} // RVA: 0x5E67120
+        public void .cctor(){} // RVA: 0x5F9BD80
+        public void Return(){} // RVA: 0x5F9BF20
+        public void TryReturn(){} // RVA: 0x5F9BFF0
+        public void Run(){} // RVA: 0x5F9C0C0
+        public void get_Task(){} // RVA: 0x5F9C0E0
+        public void SetResult(){} // RVA: 0x5F9C180
+        public void SetException(){} // RVA: 0x5F9C200
+        public void GetResult(){} // RVA: 0x5F9C250
+        public void GetStatus(){} // RVA: 0x5F9C310
+        public void UnsafeGetStatus(){} // RVA: 0x5F9C360
+        public void OnCompleted(){} // RVA: 0x5F9C3A0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD215380
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD215220
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD2156C0
-        public void Return(){} // RVA: 0x7AD2158A0
-        public void TryReturn(){} // RVA: 0x7AD215970
-        public void Run(){} // RVA: 0x7AD215A40
-        public void get_Task(){} // RVA: 0x7AD215A60
-        public void SetResult(){} // RVA: 0x7AD215B00
-        public void SetException(){} // RVA: 0x7AD215B80
-        public void GetResult(){} // RVA: 0x7AD215BD0
-        public void GetStatus(){} // RVA: 0x7AD215C90
-        public void UnsafeGetStatus(){} // RVA: 0x7AD215CE0
-        public void OnCompleted(){} // RVA: 0x7AD215D20
+        public void SetStateMachine(){} // RVA: 0x5F5A3B0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F5A250
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F5A710
+        public void Return(){} // RVA: 0x5F5A8B0
+        public void TryReturn(){} // RVA: 0x5F5A990
+        public void Run(){} // RVA: 0x5F5AA70
+        public void get_Task(){} // RVA: 0x5F5AA90
+        public void SetResult(){} // RVA: 0x5F5AB30
+        public void SetException(){} // RVA: 0x5F5ABB0
+        public void GetResult(){} // RVA: 0x5F5AC00
+        public void GetStatus(){} // RVA: 0x5F5ACC0
+        public void UnsafeGetStatus(){} // RVA: 0x5F5AD10
+        public void OnCompleted(){} // RVA: 0x5F5AD50
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1F9FA0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1F9E40
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD1FA2F0
-        public void Return(){} // RVA: 0x7AD1FA4D0
-        public void TryReturn(){} // RVA: 0x7AD1FA5B0
-        public void Run(){} // RVA: 0x7AD1FA690
-        public void get_Task(){} // RVA: 0x7AD1FA6B0
-        public void SetResult(){} // RVA: 0x7AD1FA750
-        public void SetException(){} // RVA: 0x7AD1FA7D0
-        public void GetResult(){} // RVA: 0x7AD1FA820
-        public void GetStatus(){} // RVA: 0x7AD1FA8E0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1FA930
-        public void OnCompleted(){} // RVA: 0x7AD1FA970
+        public void SetStateMachine(){} // RVA: 0x5F88FB0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F88E50
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F89300
+        public void Return(){} // RVA: 0x5F894A0
+        public void TryReturn(){} // RVA: 0x5F89570
+        public void Run(){} // RVA: 0x5F89640
+        public void get_Task(){} // RVA: 0x5F89660
+        public void SetResult(){} // RVA: 0x5F89700
+        public void SetException(){} // RVA: 0x5F89780
+        public void GetResult(){} // RVA: 0x5F897D0
+        public void GetStatus(){} // RVA: 0x5F89890
+        public void UnsafeGetStatus(){} // RVA: 0x5F898E0
+        public void OnCompleted(){} // RVA: 0x5F89920
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD242E00
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD242CA0
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD243150
-        public void Return(){} // RVA: 0x7AD243330
-        public void TryReturn(){} // RVA: 0x7AD243410
-        public void Run(){} // RVA: 0x7AD2434F0
-        public void get_Task(){} // RVA: 0x7AD243510
-        public void SetResult(){} // RVA: 0x7AD2435B0
-        public void SetException(){} // RVA: 0x7AD243630
-        public void GetResult(){} // RVA: 0x7AD243680
-        public void GetStatus(){} // RVA: 0x7AD243740
-        public void UnsafeGetStatus(){} // RVA: 0x7AD243790
-        public void OnCompleted(){} // RVA: 0x7AD2437D0
+        public void SetStateMachine(){} // RVA: 0x5F5BA70
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F5B910
+        public void get_NextNode(){} // RVA: 0x5E67120
+        public void .cctor(){} // RVA: 0x5F5BDC0
+        public void Return(){} // RVA: 0x5F5BF60
+        public void TryReturn(){} // RVA: 0x5F5C030
+        public void Run(){} // RVA: 0x5F5C100
+        public void get_Task(){} // RVA: 0x5F5C120
+        public void SetResult(){} // RVA: 0x5F5C1C0
+        public void SetException(){} // RVA: 0x5F5C240
+        public void GetResult(){} // RVA: 0x5F5C290
+        public void GetStatus(){} // RVA: 0x5F5C350
+        public void UnsafeGetStatus(){} // RVA: 0x5F5C3A0
+        public void OnCompleted(){} // RVA: 0x5F5C3E0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD25D330
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD25D1D0
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD25D680
-        public void Return(){} // RVA: 0x7AD25D860
-        public void TryReturn(){} // RVA: 0x7AD25D930
-        public void Run(){} // RVA: 0x7AD25DA00
-        public void get_Task(){} // RVA: 0x7AD25DA20
-        public void SetResult(){} // RVA: 0x7AD25DAC0
-        public void SetException(){} // RVA: 0x7AD25DB40
-        public void GetResult(){} // RVA: 0x7AD25DB90
-        public void GetStatus(){} // RVA: 0x7AD25DC50
-        public void UnsafeGetStatus(){} // RVA: 0x7AD25DCA0
-        public void OnCompleted(){} // RVA: 0x7AD25DCE0
+        public void SetStateMachine(){} // RVA: 0x5F46B70
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F46A10
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F46ED0
+        public void Return(){} // RVA: 0x5F47070
+        public void TryReturn(){} // RVA: 0x5F47150
+        public void Run(){} // RVA: 0x5F47230
+        public void get_Task(){} // RVA: 0x5F47250
+        public void SetResult(){} // RVA: 0x5F472F0
+        public void SetException(){} // RVA: 0x5F47370
+        public void GetResult(){} // RVA: 0x5F473C0
+        public void GetStatus(){} // RVA: 0x5F47480
+        public void UnsafeGetStatus(){} // RVA: 0x5F474D0
+        public void OnCompleted(){} // RVA: 0x5F47510
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD25C7A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD25C640
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD25CAF0
-        public void Return(){} // RVA: 0x7AD25CCD0
-        public void TryReturn(){} // RVA: 0x7AD25CDA0
-        public void Run(){} // RVA: 0x7AD25CE70
-        public void get_Task(){} // RVA: 0x7AD25CE90
-        public void SetResult(){} // RVA: 0x7AD25CF30
-        public void SetException(){} // RVA: 0x7AD25CFB0
-        public void GetResult(){} // RVA: 0x7AD25D000
-        public void GetStatus(){} // RVA: 0x7AD25D0C0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD25D110
-        public void OnCompleted(){} // RVA: 0x7AD25D150
+        public void SetStateMachine(){} // RVA: 0x5F666E0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F66580
+        public void get_NextNode(){} // RVA: 0x5E640D0
+        public void .cctor(){} // RVA: 0x5F66A20
+        public void Return(){} // RVA: 0x5F66BC0
+        public void TryReturn(){} // RVA: 0x5F66C90
+        public void Run(){} // RVA: 0x5F66D60
+        public void get_Task(){} // RVA: 0x5F66D80
+        public void SetResult(){} // RVA: 0x5F66E20
+        public void SetException(){} // RVA: 0x5F66EA0
+        public void GetResult(){} // RVA: 0x5F66EF0
+        public void GetStatus(){} // RVA: 0x5F66FB0
+        public void UnsafeGetStatus(){} // RVA: 0x5F67000
+        public void OnCompleted(){} // RVA: 0x5F67040
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1F93F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1F9290
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD1F9740
-        public void Return(){} // RVA: 0x7AD1F9920
-        public void TryReturn(){} // RVA: 0x7AD1F9A00
-        public void Run(){} // RVA: 0x7AD1F9AE0
-        public void get_Task(){} // RVA: 0x7AD1F9B00
-        public void SetResult(){} // RVA: 0x7AD1F9BA0
-        public void SetException(){} // RVA: 0x7AD1F9C20
-        public void GetResult(){} // RVA: 0x7AD1F9C70
-        public void GetStatus(){} // RVA: 0x7AD1F9D30
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1F9D80
-        public void OnCompleted(){} // RVA: 0x7AD1F9DC0
+        public void SetStateMachine(){} // RVA: 0x5FC3530
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FC33D0
+        public void get_NextNode(){} // RVA: 0x5E639A0
+        public void .cctor(){} // RVA: 0x5FC3890
+        public void Return(){} // RVA: 0x5FC3A30
+        public void TryReturn(){} // RVA: 0x5FC3B10
+        public void Run(){} // RVA: 0x5FC3BF0
+        public void get_Task(){} // RVA: 0x5FC3C10
+        public void SetResult(){} // RVA: 0x5FC3CC0
+        public void SetException(){} // RVA: 0x5FC3D40
+        public void GetResult(){} // RVA: 0x5FC3DA0
+        public void GetStatus(){} // RVA: 0x5FC3E60
+        public void UnsafeGetStatus(){} // RVA: 0x5FC3EC0
+        public void OnCompleted(){} // RVA: 0x5FC3F00
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD25EA50
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD25E8F0
-        public void get_NextNode(){} // RVA: 0x7AD10C100
-        public void .cctor(){} // RVA: 0x7AD25EDA0
-        public void Return(){} // RVA: 0x7AD25EF80
-        public void TryReturn(){} // RVA: 0x7AD25F050
-        public void Run(){} // RVA: 0x7AD25F120
-        public void get_Task(){} // RVA: 0x7AD25F140
-        public void SetResult(){} // RVA: 0x7AD25F1E0
-        public void SetException(){} // RVA: 0x7AD25F260
-        public void GetResult(){} // RVA: 0x7AD25F2B0
-        public void GetStatus(){} // RVA: 0x7AD25F370
-        public void UnsafeGetStatus(){} // RVA: 0x7AD25F3C0
-        public void OnCompleted(){} // RVA: 0x7AD25F400
+        public void UnsafeGetStatus(){} // RVA: 0x5F3BBE0
+        public void OnCompleted(){} // RVA: 0x5F3BC20
+        public void SetStateMachine(){} // RVA: 0x5F3B290
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F3B130
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F3B5E0
+        public void Return(){} // RVA: 0x5F3B780
+        public void TryReturn(){} // RVA: 0x5F3B860
+        public void Run(){} // RVA: 0x5F3B940
+        public void get_Task(){} // RVA: 0x5F3B960
+        public void SetResult(){} // RVA: 0x5F3BA00
+        public void SetException(){} // RVA: 0x5F3BA80
+        public void GetResult(){} // RVA: 0x5F3BAD0
+        public void GetStatus(){} // RVA: 0x5F3BB90
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD21B150
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD21AFF0
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD21B4B0
-        public void Return(){} // RVA: 0x7AD21B690
-        public void TryReturn(){} // RVA: 0x7AD21B770
-        public void Run(){} // RVA: 0x7AD21B850
-        public void get_Task(){} // RVA: 0x7AD21B870
-        public void SetResult(){} // RVA: 0x7AD21B910
-        public void SetException(){} // RVA: 0x7AD21B990
-        public void GetResult(){} // RVA: 0x7AD21B9E0
-        public void GetStatus(){} // RVA: 0x7AD21BAA0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD21BAF0
-        public void OnCompleted(){} // RVA: 0x7AD21BB30
+        public void SetStateMachine(){} // RVA: 0x5F3E110
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F3DFB0
+        public void get_NextNode(){} // RVA: 0x5E67120
+        public void .cctor(){} // RVA: 0x5F3E460
+        public void Return(){} // RVA: 0x5F3E600
+        public void TryReturn(){} // RVA: 0x5F3E6D0
+        public void Run(){} // RVA: 0x5F3E7A0
+        public void get_Task(){} // RVA: 0x5F3E7C0
+        public void SetResult(){} // RVA: 0x5F3E860
+        public void SetException(){} // RVA: 0x5F3E8E0
+        public void GetResult(){} // RVA: 0x5F3E930
+        public void GetStatus(){} // RVA: 0x5F3E9F0
+        public void UnsafeGetStatus(){} // RVA: 0x5F3EA40
+        public void OnCompleted(){} // RVA: 0x5F3EA80
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD27F510
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD27F3B0
-        public void get_NextNode(){} // RVA: 0x7AD10E5E0
-        public void .cctor(){} // RVA: 0x7AD27F870
-        public void Return(){} // RVA: 0x7AD27FA50
-        public void TryReturn(){} // RVA: 0x7AD27FB30
-        public void Run(){} // RVA: 0x7AD27FC10
-        public void get_Task(){} // RVA: 0x7AD27FC30
-        public void SetResult(){} // RVA: 0x7AD27FCE0
-        public void SetException(){} // RVA: 0x7AD27FD60
-        public void GetResult(){} // RVA: 0x7AD27FDC0
-        public void GetStatus(){} // RVA: 0x7AD27FE80
-        public void UnsafeGetStatus(){} // RVA: 0x7AD27FEE0
-        public void OnCompleted(){} // RVA: 0x7AD27FF20
+        public void SetStateMachine(){} // RVA: 0x5F7E380
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F7E220
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F7E6E0
+        public void Return(){} // RVA: 0x5F7E880
+        public void TryReturn(){} // RVA: 0x5F7E960
+        public void Run(){} // RVA: 0x5F7EA40
+        public void get_Task(){} // RVA: 0x5F7EA60
+        public void SetResult(){} // RVA: 0x5F7EB00
+        public void SetException(){} // RVA: 0x5F7EB80
+        public void GetResult(){} // RVA: 0x5F7EBD0
+        public void GetStatus(){} // RVA: 0x5F7EC90
+        public void UnsafeGetStatus(){} // RVA: 0x5F7ECE0
+        public void OnCompleted(){} // RVA: 0x5F7ED20
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1FB6D0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1FB570
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD1FBA10
-        public void Return(){} // RVA: 0x7AD1FBBF0
-        public void TryReturn(){} // RVA: 0x7AD1FBCC0
-        public void Run(){} // RVA: 0x7AD1FBD90
-        public void get_Task(){} // RVA: 0x7AD1FBDB0
-        public void SetResult(){} // RVA: 0x7AD1FBE50
-        public void SetException(){} // RVA: 0x7AD1FBED0
-        public void GetResult(){} // RVA: 0x7AD1FBF20
-        public void GetStatus(){} // RVA: 0x7AD1FBFE0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1FC030
-        public void OnCompleted(){} // RVA: 0x7AD1FC070
+        public void SetStateMachine(){} // RVA: 0x5F56AA0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F56940
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F56E00
+        public void Return(){} // RVA: 0x5F56FA0
+        public void TryReturn(){} // RVA: 0x5F57080
+        public void Run(){} // RVA: 0x5F57160
+        public void get_Task(){} // RVA: 0x5F57180
+        public void SetResult(){} // RVA: 0x5F57220
+        public void SetException(){} // RVA: 0x5F572A0
+        public void GetResult(){} // RVA: 0x5F572F0
+        public void GetStatus(){} // RVA: 0x5F573B0
+        public void UnsafeGetStatus(){} // RVA: 0x5F57400
+        public void OnCompleted(){} // RVA: 0x5F57440
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD24D2A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD24D140
-        public void get_NextNode(){} // RVA: 0x7AD10C100
-        public void .cctor(){} // RVA: 0x7AD24D5F0
-        public void Return(){} // RVA: 0x7AD24D7D0
-        public void TryReturn(){} // RVA: 0x7AD24D8A0
-        public void Run(){} // RVA: 0x7AD24D970
-        public void get_Task(){} // RVA: 0x7AD24D990
-        public void SetResult(){} // RVA: 0x7AD24DA30
-        public void SetException(){} // RVA: 0x7AD24DAB0
-        public void GetResult(){} // RVA: 0x7AD24DB00
-        public void GetStatus(){} // RVA: 0x7AD24DBC0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD24DC10
-        public void OnCompleted(){} // RVA: 0x7AD24DC50
+        public void SetStateMachine(){} // RVA: 0x5F7CCA0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F7CB40
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F7CFF0
+        public void Return(){} // RVA: 0x5F7D190
+        public void TryReturn(){} // RVA: 0x5F7D270
+        public void Run(){} // RVA: 0x5F7D350
+        public void get_Task(){} // RVA: 0x5F7D370
+        public void SetResult(){} // RVA: 0x5F7D410
+        public void SetException(){} // RVA: 0x5F7D490
+        public void GetResult(){} // RVA: 0x5F7D4E0
+        public void GetStatus(){} // RVA: 0x5F7D5A0
+        public void UnsafeGetStatus(){} // RVA: 0x5F7D5F0
+        public void OnCompleted(){} // RVA: 0x5F7D630
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD260D20
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD260BC0
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD261080
-        public void Return(){} // RVA: 0x7AD261260
-        public void TryReturn(){} // RVA: 0x7AD261340
-        public void Run(){} // RVA: 0x7AD261420
-        public void get_Task(){} // RVA: 0x7AD261440
-        public void SetResult(){} // RVA: 0x7AD2614E0
-        public void SetException(){} // RVA: 0x7AD261560
-        public void GetResult(){} // RVA: 0x7AD2615B0
-        public void GetStatus(){} // RVA: 0x7AD261670
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2616C0
-        public void OnCompleted(){} // RVA: 0x7AD261700
+        public void SetStateMachine(){} // RVA: 0x5F57620
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F574C0
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F57970
+        public void Return(){} // RVA: 0x5F57B10
+        public void TryReturn(){} // RVA: 0x5F57BE0
+        public void Run(){} // RVA: 0x5F57CB0
+        public void get_Task(){} // RVA: 0x5F57CD0
+        public void SetResult(){} // RVA: 0x5F57D70
+        public void SetException(){} // RVA: 0x5F57DF0
+        public void GetResult(){} // RVA: 0x5F57E40
+        public void GetStatus(){} // RVA: 0x5F57F00
+        public void UnsafeGetStatus(){} // RVA: 0x5F57F50
+        public void OnCompleted(){} // RVA: 0x5F57F90
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1F70F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1F6F90
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD1F7440
-        public void Return(){} // RVA: 0x7AD1F7620
-        public void TryReturn(){} // RVA: 0x7AD1F76F0
-        public void Run(){} // RVA: 0x7AD1F77C0
-        public void get_Task(){} // RVA: 0x7AD1F77E0
-        public void SetResult(){} // RVA: 0x7AD1F7880
-        public void SetException(){} // RVA: 0x7AD1F7900
-        public void GetResult(){} // RVA: 0x7AD1F7950
-        public void GetStatus(){} // RVA: 0x7AD1F7A10
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1F7A60
-        public void OnCompleted(){} // RVA: 0x7AD1F7AA0
+        public void SetStateMachine(){} // RVA: 0x5F37990
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F37830
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F37CE0
+        public void Return(){} // RVA: 0x5F37E80
+        public void TryReturn(){} // RVA: 0x5F37F50
+        public void Run(){} // RVA: 0x5F38020
+        public void get_Task(){} // RVA: 0x5F38040
+        public void SetResult(){} // RVA: 0x5F380E0
+        public void SetException(){} // RVA: 0x5F38160
+        public void GetResult(){} // RVA: 0x5F381B0
+        public void GetStatus(){} // RVA: 0x5F38270
+        public void UnsafeGetStatus(){} // RVA: 0x5F382C0
+        public void OnCompleted(){} // RVA: 0x5F38300
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD23B8A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD23B740
-        public void get_NextNode(){} // RVA: 0x7AD19DF10
-        public void .cctor(){} // RVA: 0x7AD23BC20
-        public void Return(){} // RVA: 0x7AD23BE00
-        public void TryReturn(){} // RVA: 0x7AD23BEF0
-        public void Run(){} // RVA: 0x7AD23BFE0
-        public void get_Task(){} // RVA: 0x7AD23C000
-        public void SetResult(){} // RVA: 0x7AD23C0B0
-        public void SetException(){} // RVA: 0x7AD23C130
-        public void GetResult(){} // RVA: 0x7AD23C190
-        public void GetStatus(){} // RVA: 0x7AD23C250
-        public void UnsafeGetStatus(){} // RVA: 0x7AD23C2B0
-        public void OnCompleted(){} // RVA: 0x7AD23C2F0
+        public void SetStateMachine(){} // RVA: 0x5F384E0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F38380
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F38830
+        public void Return(){} // RVA: 0x5F389D0
+        public void TryReturn(){} // RVA: 0x5F38AA0
+        public void Run(){} // RVA: 0x5F38B70
+        public void get_Task(){} // RVA: 0x5F38B90
+        public void SetResult(){} // RVA: 0x5F38C30
+        public void SetException(){} // RVA: 0x5F38CB0
+        public void GetResult(){} // RVA: 0x5F38D00
+        public void GetStatus(){} // RVA: 0x5F38DC0
+        public void UnsafeGetStatus(){} // RVA: 0x5F38E10
+        public void OnCompleted(){} // RVA: 0x5F38E50
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1E9060
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1E8F00
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD1E93B0
-        public void Return(){} // RVA: 0x7AD1E9590
-        public void TryReturn(){} // RVA: 0x7AD1E9670
-        public void Run(){} // RVA: 0x7AD1E9750
-        public void get_Task(){} // RVA: 0x7AD1E9770
-        public void SetResult(){} // RVA: 0x7AD1E9810
-        public void SetException(){} // RVA: 0x7AD1E9890
-        public void GetResult(){} // RVA: 0x7AD1E98E0
-        public void GetStatus(){} // RVA: 0x7AD1E99A0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1E99F0
-        public void OnCompleted(){} // RVA: 0x7AD1E9A30
+        public void SetStateMachine(){} // RVA: 0x5F36E10
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F36CB0
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F37170
+        public void Return(){} // RVA: 0x5F37310
+        public void TryReturn(){} // RVA: 0x5F373F0
+        public void Run(){} // RVA: 0x5F374D0
+        public void get_Task(){} // RVA: 0x5F374F0
+        public void SetResult(){} // RVA: 0x5F37590
+        public void SetException(){} // RVA: 0x5F37610
+        public void GetResult(){} // RVA: 0x5F37660
+        public void GetStatus(){} // RVA: 0x5F37720
+        public void UnsafeGetStatus(){} // RVA: 0x5F37770
+        public void OnCompleted(){} // RVA: 0x5F377B0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD238A90
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD238930
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD238DD0
-        public void Return(){} // RVA: 0x7AD238FB0
-        public void TryReturn(){} // RVA: 0x7AD239080
-        public void Run(){} // RVA: 0x7AD239150
-        public void get_Task(){} // RVA: 0x7AD239170
-        public void SetResult(){} // RVA: 0x7AD239210
-        public void SetException(){} // RVA: 0x7AD239290
-        public void GetResult(){} // RVA: 0x7AD2392E0
-        public void GetStatus(){} // RVA: 0x7AD2393A0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2393F0
-        public void OnCompleted(){} // RVA: 0x7AD239430
+        public void SetStateMachine(){} // RVA: 0x5F1AB00
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F1A9A0
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x5F1AE60
+        public void Return(){} // RVA: 0x5F1B000
+        public void TryReturn(){} // RVA: 0x5F1B0E0
+        public void Run(){} // RVA: 0x5F1B1C0
+        public void get_Task(){} // RVA: 0x5F1B1E0
+        public void SetResult(){} // RVA: 0x5F1B280
+        public void SetException(){} // RVA: 0x5F1B300
+        public void GetResult(){} // RVA: 0x5F1B350
+        public void GetStatus(){} // RVA: 0x5F1B410
+        public void UnsafeGetStatus(){} // RVA: 0x5F1B460
+        public void OnCompleted(){} // RVA: 0x5F1B4A0
     }
 
     public class AsyncUniTask`1 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD1FC250
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD1FC0F0
-        public void get_NextNode(){} // RVA: 0x7AD19DF10
-        public void .cctor(){} // RVA: 0x7AD1FC5D0
-        public void Return(){} // RVA: 0x7AD1FC7B0
-        public void TryReturn(){} // RVA: 0x7AD1FC8A0
-        public void Run(){} // RVA: 0x7AD1FC990
-        public void get_Task(){} // RVA: 0x7AD1FC9B0
-        public void SetResult(){} // RVA: 0x7AD1FCA60
-        public void SetException(){} // RVA: 0x7AD1FCAE0
-        public void GetResult(){} // RVA: 0x7AD1FCB40
-        public void GetStatus(){} // RVA: 0x7AD1FCC00
-        public void UnsafeGetStatus(){} // RVA: 0x7AD1FCC60
-        public void OnCompleted(){} // RVA: 0x7AD1FCCA0
+        public void SetStateMachine(){} // RVA: 0x5F6FD70
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F6FC10
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5F700D0
+        public void Return(){} // RVA: 0x5F70270
+        public void TryReturn(){} // RVA: 0x5F70350
+        public void Run(){} // RVA: 0x5F70430
+        public void get_Task(){} // RVA: 0x5F70450
+        public void SetResult(){} // RVA: 0x5F70500
+        public void SetException(){} // RVA: 0x5F70580
+        public void GetResult(){} // RVA: 0x5F705D0
+        public void GetStatus(){} // RVA: 0x5F70690
+        public void UnsafeGetStatus(){} // RVA: 0x5F706E0
+        public void OnCompleted(){} // RVA: 0x5F70720
+    }
+
+    public class AsyncUniTask`1 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x5F18820
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F186C0
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x5F18B70
+        public void Return(){} // RVA: 0x5F18D10
+        public void TryReturn(){} // RVA: 0x5F18DF0
+        public void Run(){} // RVA: 0x5F18ED0
+        public void get_Task(){} // RVA: 0x5F18EF0
+        public void SetResult(){} // RVA: 0x5F18F90
+        public void SetException(){} // RVA: 0x5F19010
+        public void GetResult(){} // RVA: 0x5F19060
+        public void GetStatus(){} // RVA: 0x5F19120
+        public void UnsafeGetStatus(){} // RVA: 0x5F19170
+        public void OnCompleted(){} // RVA: 0x5F191B0
+    }
+
+    public class AsyncUniTask`1 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x5F30720
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F305C0
+        public void get_NextNode(){} // RVA: 0x5E62AA0
+        public void .cctor(){} // RVA: 0x5F30A70
+        public void Return(){} // RVA: 0x5F30C10
+        public void TryReturn(){} // RVA: 0x5F30CE0
+        public void Run(){} // RVA: 0x5F30DB0
+        public void get_Task(){} // RVA: 0x5F30DD0
+        public void SetResult(){} // RVA: 0x5F30E70
+        public void SetException(){} // RVA: 0x5F30EF0
+        public void GetResult(){} // RVA: 0x5F30F40
+        public void GetStatus(){} // RVA: 0x5F31000
+        public void UnsafeGetStatus(){} // RVA: 0x5F31050
+        public void OnCompleted(){} // RVA: 0x5F31090
+    }
+
+    public class AsyncUniTask`1 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x5F60AC0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5F60960
+        public void get_NextNode(){} // RVA: 0x5E67120
+        public void .cctor(){} // RVA: 0x5F60E10
+        public void Return(){} // RVA: 0x5F60FB0
+        public void TryReturn(){} // RVA: 0x5F61080
+        public void Run(){} // RVA: 0x5F61150
+        public void get_Task(){} // RVA: 0x5F61170
+        public void SetResult(){} // RVA: 0x5F61210
+        public void SetException(){} // RVA: 0x5F61290
+        public void GetResult(){} // RVA: 0x5F612E0
+        public void GetStatus(){} // RVA: 0x5F613A0
+        public void UnsafeGetStatus(){} // RVA: 0x5F613F0
+        public void OnCompleted(){} // RVA: 0x5F61430
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2C8830
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2C86D0
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD2C8B70
-        public void Return(){} // RVA: 0x7AD2C8D50
-        public void TryReturn(){} // RVA: 0x7AD2C8E10
-        public void Run(){} // RVA: 0x7AD2C8ED0
-        public void get_Task(){} // RVA: 0x7AD2C8EF0
-        public void SetResult(){} // RVA: 0x7AD2C8F70
-        public void SetException(){} // RVA: 0x7AD2C8F90
-        public void GetResult(){} // RVA: 0x7AD2C8FB0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2C90A0
-        public void GetStatus(){} // RVA: 0x7AD2C90D0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2C90F0
-        public void OnCompleted(){} // RVA: 0x7AD2C9100
+        public void SetStateMachine(){} // RVA: 0x5FDAF10
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FDADB0
+        public void get_NextNode(){} // RVA: 0x5E639A0
+        public void .cctor(){} // RVA: 0x5FDB270
+        public void Return(){} // RVA: 0x5FCECD0
+        public void TryReturn(){} // RVA: 0x5FCECD0
+        public void Run(){} // RVA: 0x5FDB410
+        public void get_Task(){} // RVA: 0x5FCEDC0
+        public void SetResult(){} // RVA: 0x5FCEE30
+        public void SetException(){} // RVA: 0x5FCEE50
+        public void GetResult(){} // RVA: 0x5FDB430
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FDB510
+        public void GetStatus(){} // RVA: 0x5FCEF70
+        public void UnsafeGetStatus(){} // RVA: 0x5FCEF90
+        public void OnCompleted(){} // RVA: 0x5FCEFB0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2E5A60
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2E5900
-        public void get_NextNode(){} // RVA: 0x7AD14F7B0
-        public void .cctor(){} // RVA: 0x7AD2E5DE0
-        public void Return(){} // RVA: 0x7AD2E5FC0
-        public void TryReturn(){} // RVA: 0x7AD2E5FC0
-        public void Run(){} // RVA: 0x7AD2E6090
-        public void get_Task(){} // RVA: 0x7AD2CA0A0
-        public void SetResult(){} // RVA: 0x7AD2E60B0
-        public void SetException(){} // RVA: 0x7AD2E60E0
-        public void GetResult(){} // RVA: 0x7AD2E6100
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2E6200
-        public void GetStatus(){} // RVA: 0x7AD2E6230
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2E6250
-        public void OnCompleted(){} // RVA: 0x7AD2E6260
+        public void SetStateMachine(){} // RVA: 0x5FDAF10
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FDADB0
+        public void get_NextNode(){} // RVA: 0x5E639A0
+        public void .cctor(){} // RVA: 0x5FDB270
+        public void Return(){} // RVA: 0x5FCECD0
+        public void TryReturn(){} // RVA: 0x5FCECD0
+        public void Run(){} // RVA: 0x5FDB410
+        public void get_Task(){} // RVA: 0x5FCEDC0
+        public void SetResult(){} // RVA: 0x5FCEE30
+        public void SetException(){} // RVA: 0x5FCEE50
+        public void GetResult(){} // RVA: 0x5FDB430
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FDB510
+        public void GetStatus(){} // RVA: 0x5FCEF70
+        public void UnsafeGetStatus(){} // RVA: 0x5FCEF90
+        public void OnCompleted(){} // RVA: 0x5FCEFB0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2FFBF0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2FFA90
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD2FFF40
-        public void Return(){} // RVA: 0x7AD293D70
-        public void TryReturn(){} // RVA: 0x7AD293D70
-        public void Run(){} // RVA: 0x7AD300120
-        public void get_Task(){} // RVA: 0x7AD293E50
-        public void SetResult(){} // RVA: 0x7AD293EC0
-        public void SetException(){} // RVA: 0x7AD293EE0
-        public void GetResult(){} // RVA: 0x7AD300140
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD300220
-        public void GetStatus(){} // RVA: 0x7AD294000
-        public void UnsafeGetStatus(){} // RVA: 0x7AD294020
-        public void OnCompleted(){} // RVA: 0x7AD294040
+        public void SetStateMachine(){} // RVA: 0x5FDAF10
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FDADB0
+        public void get_NextNode(){} // RVA: 0x5E639A0
+        public void .cctor(){} // RVA: 0x5FDB270
+        public void Return(){} // RVA: 0x5FCECD0
+        public void TryReturn(){} // RVA: 0x5FCECD0
+        public void Run(){} // RVA: 0x5FDB410
+        public void get_Task(){} // RVA: 0x5FCEDC0
+        public void SetResult(){} // RVA: 0x5FCEE30
+        public void SetException(){} // RVA: 0x5FCEE50
+        public void GetResult(){} // RVA: 0x5FDB430
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FDB510
+        public void GetStatus(){} // RVA: 0x5FCEF70
+        public void UnsafeGetStatus(){} // RVA: 0x5FCEF90
+        public void OnCompleted(){} // RVA: 0x5FCEFB0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2C7E80
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2C7D20
-        public void get_NextNode(){} // RVA: 0x7AD19DF10
-        public void .cctor(){} // RVA: 0x7AD2C8200
-        public void Return(){} // RVA: 0x7AD2C83E0
-        public void TryReturn(){} // RVA: 0x7AD2C83E0
-        public void Run(){} // RVA: 0x7AD2C84B0
-        public void get_Task(){} // RVA: 0x7AD2C84D0
-        public void SetResult(){} // RVA: 0x7AD2C8540
-        public void SetException(){} // RVA: 0x7AD2C8550
-        public void GetResult(){} // RVA: 0x7AD2C8570
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2C8650
-        public void GetStatus(){} // RVA: 0x7AD2C8670
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2C8690
-        public void OnCompleted(){} // RVA: 0x7AD2C86A0
+        public void SetStateMachine(){} // RVA: 0x60896C0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6089560
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x6089A20
+        public void Return(){} // RVA: 0x5FD1390
+        public void TryReturn(){} // RVA: 0x5FD1390
+        public void Run(){} // RVA: 0x6089BC0
+        public void get_Task(){} // RVA: 0x5FD1470
+        public void SetResult(){} // RVA: 0x5FD14E0
+        public void SetException(){} // RVA: 0x5FD1500
+        public void GetResult(){} // RVA: 0x6089BE0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6089CC0
+        public void GetStatus(){} // RVA: 0x5FD1620
+        public void UnsafeGetStatus(){} // RVA: 0x5FD1640
+        public void OnCompleted(){} // RVA: 0x5FD1660
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD308AF0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD308990
-        public void get_NextNode(){} // RVA: 0x7AD107FD0
-        public void .cctor(){} // RVA: 0x7AD308E40
-        public void Return(){} // RVA: 0x7AD309020
-        public void TryReturn(){} // RVA: 0x7AD309020
-        public void Run(){} // RVA: 0x7AD3090E0
-        public void get_Task(){} // RVA: 0x7AD309100
-        public void SetResult(){} // RVA: 0x7AD309180
-        public void SetException(){} // RVA: 0x7AD3091A0
-        public void GetResult(){} // RVA: 0x7AD3091C0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD3092B0
-        public void GetStatus(){} // RVA: 0x7AD3092E0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD309300
-        public void OnCompleted(){} // RVA: 0x7AD309310
+        public void SetStateMachine(){} // RVA: 0x6088F40
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6088DE0
+        public void get_NextNode(){} // RVA: 0x5E63210
+        public void .cctor(){} // RVA: 0x60892A0
+        public void Return(){} // RVA: 0x5FD1390
+        public void TryReturn(){} // RVA: 0x5FD1390
+        public void Run(){} // RVA: 0x6089440
+        public void get_Task(){} // RVA: 0x5FD1470
+        public void SetResult(){} // RVA: 0x5FD14E0
+        public void SetException(){} // RVA: 0x5FD1500
+        public void GetResult(){} // RVA: 0x6089460
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6089540
+        public void GetStatus(){} // RVA: 0x5FD1620
+        public void UnsafeGetStatus(){} // RVA: 0x5FD1640
+        public void OnCompleted(){} // RVA: 0x5FD1660
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x6010760
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6010600
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x6010AC0
+        public void Return(){} // RVA: 0x5FDC310
+        public void TryReturn(){} // RVA: 0x5FDC310
+        public void Run(){} // RVA: 0x6010C60
+        public void get_Task(){} // RVA: 0x5FDC400
+        public void SetResult(){} // RVA: 0x5FDC470
+        public void SetException(){} // RVA: 0x5FDC490
+        public void GetResult(){} // RVA: 0x6010C80
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6010D60
+        public void GetStatus(){} // RVA: 0x5FDC5B0
+        public void UnsafeGetStatus(){} // RVA: 0x5FDC5D0
+        public void OnCompleted(){} // RVA: 0x5FDC5F0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2FF1F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2FF090
-        public void get_NextNode(){} // RVA: 0x7AD16AB10
-        public void .cctor(){} // RVA: 0x7AD2FF5C0
-        public void Return(){} // RVA: 0x7AD2FF7A0
-        public void TryReturn(){} // RVA: 0x7AD2FF7A0
-        public void Run(){} // RVA: 0x7AD2FF890
-        public void get_Task(){} // RVA: 0x7AD2B0A90
-        public void SetResult(){} // RVA: 0x7AD2FF8B0
-        public void SetException(){} // RVA: 0x7AD2FF8E0
-        public void GetResult(){} // RVA: 0x7AD2FF900
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2FFA00
-        public void GetStatus(){} // RVA: 0x7AD2FFA30
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2FFA50
-        public void OnCompleted(){} // RVA: 0x7AD2FFA60
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD3289A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD328840
-        public void get_NextNode(){} // RVA: 0x7AD1A5750
-        public void .cctor(){} // RVA: 0x7AD328E00
-        public void Return(){} // RVA: 0x7AD328FE0
-        public void TryReturn(){} // RVA: 0x7AD328FE0
-        public void Run(){} // RVA: 0x7AD3290A0
-        public void get_Task(){} // RVA: 0x7AD3290C0
-        public void SetResult(){} // RVA: 0x7AD3290F0
-        public void SetException(){} // RVA: 0x7AD329120
-        public void GetResult(){} // RVA: 0x7AD329140
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD329240
-        public void GetStatus(){} // RVA: 0x7AD329270
-        public void UnsafeGetStatus(){} // RVA: 0x7AD329290
-        public void OnCompleted(){} // RVA: 0x7AD3292A0
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2972F0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD297190
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD297650
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD297900
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2979D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD297AB0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FD9740
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FD95E0
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x5FD9AA0
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x5FD9C40
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x5FD9C60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD9D40
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2A9530
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2A93D0
-        public void get_NextNode(){} // RVA: 0x7AD1A4A20
-        public void .cctor(){} // RVA: 0x7AD2A98D0
-        public void Return(){} // RVA: 0x7AD2A9AB0
-        public void TryReturn(){} // RVA: 0x7AD2A9AB0
-        public void Run(){} // RVA: 0x7AD2A9B90
-        public void get_Task(){} // RVA: 0x7AD2A9BB0
-        public void SetResult(){} // RVA: 0x7AD2A9C20
-        public void SetException(){} // RVA: 0x7AD2A9C40
-        public void GetResult(){} // RVA: 0x7AD2A9C60
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2A9D40
-        public void GetStatus(){} // RVA: 0x7AD2A9D60
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2A9D80
-        public void OnCompleted(){} // RVA: 0x7AD2A9DA0
+        public void SetStateMachine(){} // RVA: 0x6066070
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6065F10
+        public void get_NextNode(){} // RVA: 0x5ED3E00
+        public void .cctor(){} // RVA: 0x60663F0
+        public void Return(){} // RVA: 0x6035F10
+        public void TryReturn(){} // RVA: 0x6035F10
+        public void Run(){} // RVA: 0x6066590
+        public void get_Task(){} // RVA: 0x6036000
+        public void SetResult(){} // RVA: 0x6036070
+        public void SetException(){} // RVA: 0x6036090
+        public void GetResult(){} // RVA: 0x60665B0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6066690
+        public void GetStatus(){} // RVA: 0x60361B0
+        public void UnsafeGetStatus(){} // RVA: 0x60361D0
+        public void OnCompleted(){} // RVA: 0x60361F0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2A8D70
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2A8C10
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD2A90D0
-        public void Return(){} // RVA: 0x7AD29D770
-        public void TryReturn(){} // RVA: 0x7AD29D770
-        public void Run(){} // RVA: 0x7AD2A92B0
-        public void get_Task(){} // RVA: 0x7AD29D860
-        public void SetResult(){} // RVA: 0x7AD29D8D0
-        public void SetException(){} // RVA: 0x7AD29D8F0
-        public void GetResult(){} // RVA: 0x7AD2A92D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2A93B0
-        public void GetStatus(){} // RVA: 0x7AD29DA10
-        public void UnsafeGetStatus(){} // RVA: 0x7AD29DA30
-        public void OnCompleted(){} // RVA: 0x7AD29DA50
+        public void SetStateMachine(){} // RVA: 0x606B640
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x606B4E0
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x606B9A0
+        public void Return(){} // RVA: 0x5FD0A40
+        public void TryReturn(){} // RVA: 0x5FD0A40
+        public void Run(){} // RVA: 0x606BB40
+        public void get_Task(){} // RVA: 0x5FD0B30
+        public void SetResult(){} // RVA: 0x5FD0BA0
+        public void SetException(){} // RVA: 0x5FD0BB0
+        public void GetResult(){} // RVA: 0x606BB60
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x606BC40
+        public void GetStatus(){} // RVA: 0x5FD0CD0
+        public void UnsafeGetStatus(){} // RVA: 0x5FD0CF0
+        public void OnCompleted(){} // RVA: 0x5FD0D00
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2A6E20
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2A6CC0
-        public void get_NextNode(){} // RVA: 0x7AD210FB0
-        public void .cctor(){} // RVA: 0x7AD2A71D0
-        public void Return(){} // RVA: 0x7AD295A60
-        public void TryReturn(){} // RVA: 0x7AD295A60
-        public void Run(){} // RVA: 0x7AD2A73B0
-        public void get_Task(){} // RVA: 0x7AD295B60
-        public void SetResult(){} // RVA: 0x7AD295BD0
-        public void SetException(){} // RVA: 0x7AD295BF0
-        public void GetResult(){} // RVA: 0x7AD2A73D0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2A74B0
-        public void GetStatus(){} // RVA: 0x7AD295D10
-        public void UnsafeGetStatus(){} // RVA: 0x7AD295D30
-        public void OnCompleted(){} // RVA: 0x7AD295D50
+        public void SetStateMachine(){} // RVA: 0x60773E0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6077280
+        public void get_NextNode(){} // RVA: 0x5ED55A0
+        public void .cctor(){} // RVA: 0x6077740
+        public void Return(){} // RVA: 0x5FD92D0
+        public void TryReturn(){} // RVA: 0x5FD92D0
+        public void Run(){} // RVA: 0x60778E0
+        public void get_Task(){} // RVA: 0x5FD93C0
+        public void SetResult(){} // RVA: 0x5FD9430
+        public void SetException(){} // RVA: 0x5FD9450
+        public void GetResult(){} // RVA: 0x6077900
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x60779E0
+        public void GetStatus(){} // RVA: 0x5FD9570
+        public void UnsafeGetStatus(){} // RVA: 0x5FD9590
+        public void OnCompleted(){} // RVA: 0x5FD95B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2A7630
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2A74D0
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD2A7990
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD2A7B70
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD2A7B90
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2A7C70
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x5FCFBE0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x5FCFA80
+        public void get_NextNode(){} // RVA: 0x5ED3E00
+        public void .cctor(){} // RVA: 0x5FCFF40
+        public void Return(){} // RVA: 0x5FD00E0
+        public void TryReturn(){} // RVA: 0x5FD00E0
+        public void Run(){} // RVA: 0x5FD01B0
+        public void get_Task(){} // RVA: 0x5FD01D0
+        public void SetResult(){} // RVA: 0x5FD0200
+        public void SetException(){} // RVA: 0x5FD0230
+        public void GetResult(){} // RVA: 0x5FD0250
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x5FD0350
+        public void GetStatus(){} // RVA: 0x5FD0380
+        public void UnsafeGetStatus(){} // RVA: 0x5FD03A0
+        public void OnCompleted(){} // RVA: 0x5FD03B0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2ED660
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2ED500
-        public void get_NextNode(){} // RVA: 0x7AD14F7B0
-        public void .cctor(){} // RVA: 0x7AD2EDA00
-        public void Return(){} // RVA: 0x7AD2CEB50
-        public void TryReturn(){} // RVA: 0x7AD2CEB50
-        public void Run(){} // RVA: 0x7AD2EDBE0
-        public void get_Task(){} // RVA: 0x7AD2CEC50
-        public void SetResult(){} // RVA: 0x7AD2CECC0
-        public void SetException(){} // RVA: 0x7AD2CECE0
-        public void GetResult(){} // RVA: 0x7AD2EDC00
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2EDCE0
-        public void GetStatus(){} // RVA: 0x7AD2CEE00
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2CEE20
-        public void OnCompleted(){} // RVA: 0x7AD2CEE40
+        public void SetStateMachine(){} // RVA: 0x6087EA0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6087D40
+        public void get_NextNode(){} // RVA: 0x5E757B0
+        public void .cctor(){} // RVA: 0x60881F0
+        public void Return(){} // RVA: 0x5FDCC70
+        public void TryReturn(){} // RVA: 0x5FDCC70
+        public void Run(){} // RVA: 0x6088390
+        public void get_Task(){} // RVA: 0x5FDCD50
+        public void SetResult(){} // RVA: 0x5FDCDC0
+        public void SetException(){} // RVA: 0x5FDCDD0
+        public void GetResult(){} // RVA: 0x60883B0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6088490
+        public void GetStatus(){} // RVA: 0x5FDCEF0
+        public void UnsafeGetStatus(){} // RVA: 0x5FDCF10
+        public void OnCompleted(){} // RVA: 0x5FDCF20
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2A2C00
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2A2AA0
-        public void get_NextNode(){} // RVA: 0x7AD108EF0
-        public void .cctor(){} // RVA: 0x7AD2A2F40
-        public void Return(){} // RVA: 0x7AD2A3120
-        public void TryReturn(){} // RVA: 0x7AD2A31E0
-        public void Run(){} // RVA: 0x7AD2A32A0
-        public void get_Task(){} // RVA: 0x7AD2A32C0
-        public void SetResult(){} // RVA: 0x7AD2A3330
-        public void SetException(){} // RVA: 0x7AD2A3350
-        public void GetResult(){} // RVA: 0x7AD2A3370
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2A3450
-        public void GetStatus(){} // RVA: 0x7AD2A3470
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2A3490
-        public void OnCompleted(){} // RVA: 0x7AD2A34B0
+        public void SetStateMachine(){} // RVA: 0x6021130
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6020FD0
+        public void get_NextNode(){} // RVA: 0x5E66300
+        public void .cctor(){} // RVA: 0x6021490
+        public void Return(){} // RVA: 0x6021630
+        public void TryReturn(){} // RVA: 0x6021630
+        public void Run(){} // RVA: 0x6021700
+        public void get_Task(){} // RVA: 0x5FDC400
+        public void SetResult(){} // RVA: 0x6021720
+        public void SetException(){} // RVA: 0x6021730
+        public void GetResult(){} // RVA: 0x6021750
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6021830
+        public void GetStatus(){} // RVA: 0x6021850
+        public void UnsafeGetStatus(){} // RVA: 0x6021870
+        public void OnCompleted(){} // RVA: 0x6021880
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2E17B0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2E1650
-        public void get_NextNode(){} // RVA: 0x7AD19DF10
-        public void .cctor(){} // RVA: 0x7AD2E1B30
-        public void Return(){} // RVA: 0x7AD2E1D10
-        public void TryReturn(){} // RVA: 0x7AD2E1D10
-        public void Run(){} // RVA: 0x7AD2E1DE0
-        public void get_Task(){} // RVA: 0x7AD2E1E00
-        public void SetResult(){} // RVA: 0x7AD2E1E70
-        public void SetException(){} // RVA: 0x7AD2E1E90
-        public void GetResult(){} // RVA: 0x7AD2E1EB0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2E1F90
-        public void GetStatus(){} // RVA: 0x7AD2E1FB0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD2E1FD0
-        public void OnCompleted(){} // RVA: 0x7AD2E1FF0
+        public void SetStateMachine(){} // RVA: 0x6059F30
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6059DD0
+        public void get_NextNode(){} // RVA: 0x6038FE0
+        public void .cctor(){} // RVA: 0x605A340
+        public void Return(){} // RVA: 0x605A4E0
+        public void TryReturn(){} // RVA: 0x605A4E0
+        public void Run(){} // RVA: 0x605A5A0
+        public void get_Task(){} // RVA: 0x605A5C0
+        public void SetResult(){} // RVA: 0x605A640
+        public void SetException(){} // RVA: 0x605A670
+        public void GetResult(){} // RVA: 0x605A690
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x605A790
+        public void GetStatus(){} // RVA: 0x605A7C0
+        public void UnsafeGetStatus(){} // RVA: 0x605A7E0
+        public void OnCompleted(){} // RVA: 0x605A7F0
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD3003A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD300240
-        public void get_NextNode(){} // RVA: 0x7AD19F730
-        public void .cctor(){} // RVA: 0x7AD300700
-        public void Return(){} // RVA: 0x7AD297830
-        public void TryReturn(){} // RVA: 0x7AD297830
-        public void Run(){} // RVA: 0x7AD3008E0
-        public void get_Task(){} // RVA: 0x7AD297920
-        public void SetResult(){} // RVA: 0x7AD297990
-        public void SetException(){} // RVA: 0x7AD2979B0
-        public void GetResult(){} // RVA: 0x7AD300900
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD3009E0
-        public void GetStatus(){} // RVA: 0x7AD297AD0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD297AF0
-        public void OnCompleted(){} // RVA: 0x7AD297B10
+        public void SetStateMachine(){} // RVA: 0x6057260
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6057100
+        public void get_NextNode(){} // RVA: 0x5EE83A0
+        public void .cctor(){} // RVA: 0x60575E0
+        public void Return(){} // RVA: 0x6057780
+        public void TryReturn(){} // RVA: 0x6057780
+        public void Run(){} // RVA: 0x6057850
+        public void get_Task(){} // RVA: 0x6013AA0
+        public void SetResult(){} // RVA: 0x6057870
+        public void SetException(){} // RVA: 0x60578A0
+        public void GetResult(){} // RVA: 0x60578C0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x60579C0
+        public void GetStatus(){} // RVA: 0x60579F0
+        public void UnsafeGetStatus(){} // RVA: 0x6057A10
+        public void OnCompleted(){} // RVA: 0x6057A20
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD28EED0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD28ED70
-        public void get_NextNode(){} // RVA: 0x7AD19DF10
-        public void .cctor(){} // RVA: 0x7AD28F230
-        public void Return(){} // RVA: 0x7AD28F410
-        public void TryReturn(){} // RVA: 0x7AD28F410
-        public void Run(){} // RVA: 0x7AD28F4E0
-        public void get_Task(){} // RVA: 0x7AD28F500
-        public void SetResult(){} // RVA: 0x7AD28F530
-        public void SetException(){} // RVA: 0x7AD28F560
-        public void GetResult(){} // RVA: 0x7AD28F580
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD28F680
-        public void GetStatus(){} // RVA: 0x7AD28F6B0
-        public void UnsafeGetStatus(){} // RVA: 0x7AD28F6D0
-        public void OnCompleted(){} // RVA: 0x7AD28F6E0
+        public void SetStateMachine(){} // RVA: 0x603C440
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x603C2E0
+        public void get_NextNode(){} // RVA: 0x5E678C0
+        public void .cctor(){} // RVA: 0x603C7C0
+        public void Return(){} // RVA: 0x6022990
+        public void TryReturn(){} // RVA: 0x6022990
+        public void Run(){} // RVA: 0x603C960
+        public void get_Task(){} // RVA: 0x6014DF0
+        public void SetResult(){} // RVA: 0x6022A80
+        public void SetException(){} // RVA: 0x6022AA0
+        public void GetResult(){} // RVA: 0x603C980
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x603CA60
+        public void GetStatus(){} // RVA: 0x6022BC0
+        public void UnsafeGetStatus(){} // RVA: 0x6022BE0
+        public void OnCompleted(){} // RVA: 0x6022C00
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD2FDAE0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD2FD980
-        public void get_NextNode(){} // RVA: 0x7AD10B260
-        public void .cctor(){} // RVA: 0x7AD2FDE40
-        public void Return(){} // RVA: 0x7AD28FDB0
-        public void TryReturn(){} // RVA: 0x7AD28FDB0
-        public void Run(){} // RVA: 0x7AD2FE020
-        public void get_Task(){} // RVA: 0x7AD28FEA0
-        public void SetResult(){} // RVA: 0x7AD28FF10
-        public void SetException(){} // RVA: 0x7AD28FF20
-        public void GetResult(){} // RVA: 0x7AD2FE040
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD2FE120
-        public void GetStatus(){} // RVA: 0x7AD290040
-        public void UnsafeGetStatus(){} // RVA: 0x7AD290060
-        public void OnCompleted(){} // RVA: 0x7AD290070
+        public void SetStateMachine(){} // RVA: 0x603B500
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x603B3A0
+        public void get_NextNode(){} // RVA: 0x5E678C0
+        public void .cctor(){} // RVA: 0x603B880
+        public void Return(){} // RVA: 0x6022990
+        public void TryReturn(){} // RVA: 0x6022990
+        public void Run(){} // RVA: 0x603BA20
+        public void get_Task(){} // RVA: 0x6014DF0
+        public void SetResult(){} // RVA: 0x6022A80
+        public void SetException(){} // RVA: 0x6022AA0
+        public void GetResult(){} // RVA: 0x603BA40
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x603BB20
+        public void GetStatus(){} // RVA: 0x6022BC0
+        public void UnsafeGetStatus(){} // RVA: 0x6022BE0
+        public void OnCompleted(){} // RVA: 0x6022C00
     }
 
     public class AsyncUniTask`2 : Object
     {
         // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7AD3242A0
-        public void get_MoveNext(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AD324140
-        public void get_NextNode(){} // RVA: 0x7AD144510
-        public void .cctor(){} // RVA: 0x7AD3245F0
-        public void Return(){} // RVA: 0x7AD2981D0
-        public void TryReturn(){} // RVA: 0x7AD2981D0
-        public void Run(){} // RVA: 0x7AD3247D0
-        public void get_Task(){} // RVA: 0x7AD2982B0
-        public void SetResult(){} // RVA: 0x7AD298320
-        public void SetException(){} // RVA: 0x7AD298330
-        public void GetResult(){} // RVA: 0x7AD3247F0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD3248D0
-        public void GetStatus(){} // RVA: 0x7AD298450
-        public void UnsafeGetStatus(){} // RVA: 0x7AD298470
-        public void OnCompleted(){} // RVA: 0x7AD298480
+        public void SetStateMachine(){} // RVA: 0x60359F0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6035890
+        public void get_NextNode(){} // RVA: 0x5ED3E00
+        public void .cctor(){} // RVA: 0x6035D70
+        public void Return(){} // RVA: 0x6035F10
+        public void TryReturn(){} // RVA: 0x6035F10
+        public void Run(){} // RVA: 0x6035FE0
+        public void get_Task(){} // RVA: 0x6036000
+        public void SetResult(){} // RVA: 0x6036070
+        public void SetException(){} // RVA: 0x6036090
+        public void GetResult(){} // RVA: 0x60360B0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6036190
+        public void GetStatus(){} // RVA: 0x60361B0
+        public void UnsafeGetStatus(){} // RVA: 0x60361D0
+        public void OnCompleted(){} // RVA: 0x60361F0
+    }
+
+    public class AsyncUniTask`2 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x6031110
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6030FB0
+        public void get_NextNode(){} // RVA: 0x6031580
+        public void .cctor(){} // RVA: 0x6031590
+        public void Return(){} // RVA: 0x6031730
+        public void TryReturn(){} // RVA: 0x6031730
+        public void Run(){} // RVA: 0x60317F0
+        public void get_Task(){} // RVA: 0x6031810
+        public void SetResult(){} // RVA: 0x6031840
+        public void SetException(){} // RVA: 0x6031870
+        public void GetResult(){} // RVA: 0x6031890
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6031990
+        public void GetStatus(){} // RVA: 0x60319C0
+        public void UnsafeGetStatus(){} // RVA: 0x60319E0
+        public void OnCompleted(){} // RVA: 0x60319F0
+    }
+
+    public class AsyncUniTask`2 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x6032540
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x60323E0
+        public void get_NextNode(){} // RVA: 0x60329A0
+        public void .cctor(){} // RVA: 0x60329B0
+        public void Return(){} // RVA: 0x6032B50
+        public void TryReturn(){} // RVA: 0x6032B50
+        public void Run(){} // RVA: 0x6032C10
+        public void get_Task(){} // RVA: 0x6032C30
+        public void SetResult(){} // RVA: 0x6032CB0
+        public void SetException(){} // RVA: 0x6032CE0
+        public void GetResult(){} // RVA: 0x6032D00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6032E00
+        public void GetStatus(){} // RVA: 0x6032E30
+        public void UnsafeGetStatus(){} // RVA: 0x6032E50
+        public void OnCompleted(){} // RVA: 0x6032E60
+    }
+
+    public class AsyncUniTask`2 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x602C1D0
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x602C070
+        public void get_NextNode(){} // RVA: 0x5EE9B80
+        public void .cctor(){} // RVA: 0x602C580
+        public void Return(){} // RVA: 0x5FD77C0
+        public void TryReturn(){} // RVA: 0x5FD77C0
+        public void Run(){} // RVA: 0x602C720
+        public void get_Task(){} // RVA: 0x5FD78C0
+        public void SetResult(){} // RVA: 0x5FD7940
+        public void SetException(){} // RVA: 0x5FD7970
+        public void GetResult(){} // RVA: 0x602C740
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x602C840
+        public void GetStatus(){} // RVA: 0x5FD7AC0
+        public void UnsafeGetStatus(){} // RVA: 0x5FD7AE0
+        public void OnCompleted(){} // RVA: 0x5FD7AF0
+    }
+
+    public class AsyncUniTask`2 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x602B780
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x602B620
+        public void get_NextNode(){} // RVA: 0x5F26740
+        public void .cctor(){} // RVA: 0x602BBC0
+        public void Return(){} // RVA: 0x602BD60
+        public void TryReturn(){} // RVA: 0x602BD60
+        public void Run(){} // RVA: 0x602BE20
+        public void get_Task(){} // RVA: 0x602BE40
+        public void SetResult(){} // RVA: 0x602BE70
+        public void SetException(){} // RVA: 0x602BEB0
+        public void GetResult(){} // RVA: 0x602BED0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x602BFE0
+        public void GetStatus(){} // RVA: 0x602C010
+        public void UnsafeGetStatus(){} // RVA: 0x602C030
+        public void OnCompleted(){} // RVA: 0x602C040
+    }
+
+    public class AsyncUniTask`2 : Object
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x602AD50
+        public void get_MoveNext(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x602ABF0
+        public void get_NextNode(){} // RVA: 0x5F05290
+        public void .cctor(){} // RVA: 0x602B170
+        public void Return(){} // RVA: 0x602B310
+        public void TryReturn(){} // RVA: 0x602B310
+        public void Run(){} // RVA: 0x602B3D0
+        public void get_Task(){} // RVA: 0x602B3F0
+        public void SetResult(){} // RVA: 0x602B420
+        public void SetException(){} // RVA: 0x602B460
+        public void GetResult(){} // RVA: 0x602B480
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x602B590
+        public void GetStatus(){} // RVA: 0x602B5C0
+        public void UnsafeGetStatus(){} // RVA: 0x602B5E0
+        public void OnCompleted(){} // RVA: 0x602B5F0
     }
 
 }

@@ -8,24 +8,24 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class ArrayConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x7A7E01900
-        public void Add(){} // RVA: 0x7A7E18890
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void ConvertCollection(){} // RVA: 0x7A7E18890
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_CanHaveIdMetadata(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0x8943B0
+        public void OnWriteResume(){} // RVA: 0x87D760
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class ArrayConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x7A7E01900
-        public void Add(){} // RVA: 0x7A7E18890
-        public void get_SupportsCreateObjectDelegate(){} // RVA: 0x7A7E01900
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void ConvertCollection(){} // RVA: 0x7A7E18890
-        public void OnWriteResume(){} // RVA: 0x7A7E01DE0
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_CanHaveMetadata(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x8943B0
+        public void get_SupportsCreateObjectDelegate(){} // RVA: 0x87D280
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void ConvertCollection(){} // RVA: 0x8943B0
+        public void OnWriteResume(){} // RVA: 0x87D760
+        public void .ctor(){} // RVA: 0x894290
     }
 
 }

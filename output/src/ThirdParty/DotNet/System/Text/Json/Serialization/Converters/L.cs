@@ -8,80 +8,80 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class LargeJsonObjectExtensionDataSerializationState : Object
     {
         // ── Methods ──
-        public void get_Destination(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7AE14D3A0
-        public void AddProperty(){} // RVA: 0x7AE14D5A0
-        public void Complete(){} // RVA: 0x7AE14D630
+        public void get_Destination(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x6DCE030
+        public void AddProperty(){} // RVA: 0x6DCE230
+        public void Complete(){} // RVA: 0x6DCE2C0
     }
 
     public class LargeObjectWithParameterizedConstructorConverterWithReflection`1 : LargeObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void get_RequiresDynamicMemberAccessors(){} // RVA: 0x7A7E01900
-        public void Initialize(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x894290
+        public void get_RequiresDynamicMemberAccessors(){} // RVA: 0x87D280
+        public void Initialize(){} // RVA: 0x8943B0
     }
 
     public class LargeObjectWithParameterizedConstructorConverterWithReflection`1 : LargeObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void ConfigureJsonTypeInfoUsingReflection(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x894290
+        public void ConfigureJsonTypeInfoUsingReflection(){} // RVA: 0x8943B0
     }
 
     public class LargeObjectWithParameterizedConstructorConverter`1 : ObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void ReadAndCacheConstructorArgument(){} // RVA: 0x7A7E01D90
-        public void CreateObject(){} // RVA: 0x7A7E00B20
-        public void InitializeConstructorArgumentCaches(){} // RVA: 0x7A7E18890
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void ReadAndCacheConstructorArgument(){} // RVA: 0x87D710
+        public void CreateObject(){} // RVA: 0x87C540
+        public void InitializeConstructorArgumentCaches(){} // RVA: 0x8943B0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class LargeObjectWithParameterizedConstructorConverter`1 : ObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void ReadAndCacheConstructorArgument(){} // RVA: 0x7A7E01D90
-        public void CreateObject(){} // RVA: 0x7A7E00B20
-        public void InitializeConstructorArgumentCaches(){} // RVA: 0x7A7E18890
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void ReadAndCacheConstructorArgument(){} // RVA: 0x426F550
+        public void CreateObject(){} // RVA: 0x426F750
+        public void InitializeConstructorArgumentCaches(){} // RVA: 0x426F9B0
+        public void .ctor(){} // RVA: 0x426FC40
     }
 
     public class LargeObjectWithParameterizedConstructorConverter`1 : ObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void ReadAndCacheConstructorArgument(){} // RVA: 0x7AB5C4000
-        public void CreateObject(){} // RVA: 0x7AB5C4200
-        public void InitializeConstructorArgumentCaches(){} // RVA: 0x7AB5C4460
-        public void .ctor(){} // RVA: 0x7AB5C46F0
+        public void ReadAndCacheConstructorArgument(){} // RVA: 0x87D710
+        public void CreateObject(){} // RVA: 0x87C540
+        public void InitializeConstructorArgumentCaches(){} // RVA: 0x8943B0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class LargeObjectWithParameterizedConstructorConverter`1 : ObjectWithParameterizedConstructorConverter`1
     {
         // ── Methods ──
-        public void ReadAndCacheConstructorArgument(){} // RVA: 0x7AB5C4710
-        public void CreateObject(){} // RVA: 0x7AB5C4970
-        public void InitializeConstructorArgumentCaches(){} // RVA: 0x7AB5C4BD0
-        public void .ctor(){} // RVA: 0x7AB5C46F0
+        public void ReadAndCacheConstructorArgument(){} // RVA: 0x426FC60
+        public void CreateObject(){} // RVA: 0x426FEC0
+        public void InitializeConstructorArgumentCaches(){} // RVA: 0x4270120
+        public void .ctor(){} // RVA: 0x426FC40
     }
 
     public class ListOfTConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7A7E18890
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void OnWriteResume(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class ListOfTConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void get_CanPopulate(){} // RVA: 0x7A7E01900
-        public void Add(){} // RVA: 0x7A7E18890
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void OnWriteResume(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_CanPopulate(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void OnWriteResume(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
 }

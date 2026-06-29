@@ -8,767 +8,767 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A7E00710
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A7E01900
-        public void IndexOf(){} // RVA: 0x7A8051B10
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void Add(){} // RVA: 0x7A8051B10
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void Contains(){} // RVA: 0x7A8051B10
-        public void CopyTo(){} // RVA: 0x7A7E1D590
-        public void GetEnumerator(){} // RVA: 0x7A7E00680
-        public void Insert(){} // RVA: 0x7A8051B10
-        public void Remove(){} // RVA: 0x7A8051B10
-        public void RemoveAt(){} // RVA: 0x7A7E189D0
-        public void GetEnumerator1(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void get_Data(){} // RVA: 0x7A7E00680
-        public void get_HasNextPage(){} // RVA: 0x7A7E01900
-        public void get_HasPreviousPage(){} // RVA: 0x7A7E01900
-        public void get_NextUrl(){} // RVA: 0x7A7E00680
-        public void get_PreviousUrl(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_Count(){} // RVA: 0x87C130
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x87D280
+        public void IndexOf(){} // RVA: 0xA94080
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void Add(){} // RVA: 0xA94080
+        public void Clear(){} // RVA: 0x894290
+        public void Contains(){} // RVA: 0xA94080
+        public void CopyTo(){} // RVA: 0x899290
+        public void GetEnumerator(){} // RVA: 0x87C0A0
+        public void Insert(){} // RVA: 0xA94080
+        public void Remove(){} // RVA: 0xA94080
+        public void RemoveAt(){} // RVA: 0x8944F0
+        public void GetEnumerator1(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void get_Data(){} // RVA: 0x87C0A0
+        public void get_HasNextPage(){} // RVA: 0x87D280
+        public void get_HasPreviousPage(){} // RVA: 0x87D280
+        public void get_NextUrl(){} // RVA: 0x87C0A0
+        public void get_PreviousUrl(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class DeserializableList`1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A8D0A110
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7AA9C0220
-        public void IndexOf(){} // RVA: 0x7AA9C0270
-        public void get_Item(){} // RVA: 0x7AA8C3790
-        public void set_Item(){} // RVA: 0x7AA9C02C0
-        public void Add(){} // RVA: 0x7AA9C0300
-        public void Clear(){} // RVA: 0x7AA9C0380
-        public void Contains(){} // RVA: 0x7AA9C03C0
-        public void CopyTo(){} // RVA: 0x7AA8C31B0
-        public void GetEnumerator(){} // RVA: 0x7AA9C0440
-        public void Insert(){} // RVA: 0x7AA9C0510
-        public void Remove(){} // RVA: 0x7AA9C0540
-        public void RemoveAt(){} // RVA: 0x7AA9C0570
-        public void GetEnumerator1(){} // RVA: 0x7AA9C05A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AA9C0680
-        public void get_Data(){} // RVA: 0x7A80F2570
-        public void get_HasNextPage(){} // RVA: 0x7AA9C0770
-        public void get_HasPreviousPage(){} // RVA: 0x7A96238A0
-        public void get_NextUrl(){} // RVA: 0x7A80DA7B0
-        public void get_PreviousUrl(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x17F0080
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x35B9EF0
+        public void IndexOf(){} // RVA: 0x35B9F40
+        public void get_Item(){} // RVA: 0x34BCE10
+        public void set_Item(){} // RVA: 0x35B9F90
+        public void Add(){} // RVA: 0x35B9FD0
+        public void Clear(){} // RVA: 0x35BA050
+        public void Contains(){} // RVA: 0x35BA090
+        public void CopyTo(){} // RVA: 0x34BC850
+        public void GetEnumerator(){} // RVA: 0x35BA110
+        public void Insert(){} // RVA: 0x35BA1E0
+        public void Remove(){} // RVA: 0x35BA210
+        public void RemoveAt(){} // RVA: 0x35BA240
+        public void GetEnumerator1(){} // RVA: 0x35BA270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x35BA350
+        public void get_Data(){} // RVA: 0xB5DBF0
+        public void get_HasNextPage(){} // RVA: 0x35BA440
+        public void get_HasPreviousPage(){} // RVA: 0x2152970
+        public void get_NextUrl(){} // RVA: 0xB465B0
+        public void get_PreviousUrl(){} // RVA: 0xB700F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Destination : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED36C0
+        public void .ctor(){} // RVA: 0x6B5A630
     }
 
     public class DestinationList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED3A10
+        public void .ctor(){} // RVA: 0x6B5A980
     }
 
 }

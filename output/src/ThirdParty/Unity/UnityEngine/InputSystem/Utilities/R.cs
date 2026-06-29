@@ -8,172 +8,172 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class ReadOnlyArrayExtensions : Object
     {
         // ── Methods ──
-        public void Contains(){} // RVA: 0x7A8051B10
-        public void ContainsReference(){} // RVA: 0x7A8051B10
-        public void IndexOfReference(){} // RVA: 0x7A8051B10
-        public void HaveEqualReferences(){} // RVA: 0x7A8051B10
+        public void Contains(){} // RVA: 0xA94080
+        public void ContainsReference(){} // RVA: 0xA94080
+        public void IndexOfReference(){} // RVA: 0xA94080
+        public void HaveEqualReferences(){} // RVA: 0xA94080
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1E220
-        public void ToArray(){} // RVA: 0x7A7E00680
-        public void IndexOf(){} // RVA: 0x7A7E01630
-        public void GetEnumerator(){} // RVA: 0x7A8051B10
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void op_Implicit(){} // RVA: 0x7A8051B10
-        public void get_Count(){} // RVA: 0x7A7E00710
-        public void get_Item(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x489BD0
+        public void IndexOf(){} // RVA: 0x48A850
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A940
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1E3A0
-        public void IndexOf(){} // RVA: 0x7A7A1E3B0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void get_Item(){} // RVA: 0x48A5C0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void .ctor(){} // RVA: 0x489B60
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void .ctor(){} // RVA: 0x7A7A1D680
-        public void ToArray(){} // RVA: 0x7A7A1E3A0
-        public void IndexOf(){} // RVA: 0x7A7A1E3B0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x48A4C0
+        public void IndexOf(){} // RVA: 0x48A4D0
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A5C0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void .ctor(){} // RVA: 0x7A7A1D680
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void .ctor(){} // RVA: 0x89B9B0
+        public void ToArray(){} // RVA: 0x87C0A0
+        public void IndexOf(){} // RVA: 0x87D050
+        public void GetEnumerator(){} // RVA: 0xA94080
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void op_Implicit(){} // RVA: 0xA94080
+        public void get_Count(){} // RVA: 0x87C130
+        public void get_Item(){} // RVA: 0xA94080
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1E3A0
-        public void IndexOf(){} // RVA: 0x7A7A1E3B0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x48A4C0
+        public void IndexOf(){} // RVA: 0x48A4D0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A5C0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1E3A0
-        public void IndexOf(){} // RVA: 0x7A7A1E3B0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void .ctor(){} // RVA: 0x489B60
+        public void ToArray(){} // RVA: 0x48A4C0
+        public void IndexOf(){} // RVA: 0x48A4D0
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A5C0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1DDC0
-        public void .ctor(){} // RVA: 0x7A7A1D680
-        public void ToArray(){} // RVA: 0x7A7A1DAE0
-        public void IndexOf(){} // RVA: 0x7A7A1DCC0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x48A4C0
+        public void IndexOf(){} // RVA: 0x48A4D0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A5C0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void ToArray(){} // RVA: 0x7A7A1DAE0
-        public void IndexOf(){} // RVA: 0x7A7A1DDF0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1DB80
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E2D0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A2A0
+        public void .ctor(){} // RVA: 0x489B60
+        public void ToArray(){} // RVA: 0x489FC0
+        public void IndexOf(){} // RVA: 0x48A1A0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1E3A0
-        public void IndexOf(){} // RVA: 0x7A7A1E3B0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E4A0
+        public void .ctor(){} // RVA: 0x426050
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void ToArray(){} // RVA: 0x489FC0
+        public void IndexOf(){} // RVA: 0x48A2D0
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x48A060
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A3F0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1D6F0
-        public void IndexOf(){} // RVA: 0x7A7A1E730
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1E820
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x48A4C0
+        public void IndexOf(){} // RVA: 0x48A4D0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A5C0
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1D6F0
-        public void IndexOf(){} // RVA: 0x7A7A1D700
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1DA80
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x489BD0
+        public void IndexOf(){} // RVA: 0x489BE0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x489F60
     }
 
     public class ReadOnlyArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C13D0
-        public void ToArray(){} // RVA: 0x7A7A1DAE0
-        public void IndexOf(){} // RVA: 0x7A7A1DDF0
-        public void GetEnumerator(){} // RVA: 0x7A7A1D890
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7A1D960
-        public void op_Implicit(){} // RVA: 0x7ABC49C20
-        public void get_Count(){} // RVA: 0x7A767FBD0
-        public void get_Item(){} // RVA: 0x7A7A1DB90
+        public void .ctor(){} // RVA: 0x426050
+        public void ToArray(){} // RVA: 0x489FC0
+        public void IndexOf(){} // RVA: 0x48A2D0
+        public void GetEnumerator(){} // RVA: 0x489D70
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x489E40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x489E40
+        public void op_Implicit(){} // RVA: 0x48F06B0
+        public void get_Count(){} // RVA: 0x92DE0
+        public void get_Item(){} // RVA: 0x48A070
     }
 
 }

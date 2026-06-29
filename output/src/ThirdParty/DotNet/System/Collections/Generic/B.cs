@@ -8,20 +8,20 @@ namespace ThirdParty.DotNet.System.Collections.Generic
     public class BitHelper : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE291C00
-        public void MarkBit(){} // RVA: 0x7AE46C070
-        public void IsMarked(){} // RVA: 0x7AE46C0E0
-        public void ToIntArrayLength(){} // RVA: 0x7AE46C160
+        public void .ctor(){} // RVA: 0x6F10C90
+        public void MarkBit(){} // RVA: 0x70E8170
+        public void IsMarked(){} // RVA: 0x70E81E0
+        public void ToIntArrayLength(){} // RVA: 0x70E8260
     }
 
     public class ByteEqualityComparer : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7ADBFD440
-        public void GetHashCode(){} // RVA: 0x7ADBFD4C0
-        public void IndexOf(){} // RVA: 0x7ADBFD190
-        public void LastIndexOf(){} // RVA: 0x7AB260310
-        public void .ctor(){} // RVA: 0x7ADBFD520
+        public void Equals(){} // RVA: 0x68886B0
+        public void GetHashCode(){} // RVA: 0x6888730
+        public void IndexOf(){} // RVA: 0x6888400
+        public void LastIndexOf(){} // RVA: 0x3F0F1F0
+        public void .ctor(){} // RVA: 0x6888790
     }
 
 }

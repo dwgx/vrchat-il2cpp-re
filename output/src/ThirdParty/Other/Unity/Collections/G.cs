@@ -8,8 +8,8 @@ namespace ThirdParty.Other.Unity.Collections
     public class GenerateTestsForBurstCompatibilityAttribute : Attribute
     {
         // ── Methods ──
-        public void set_GenericTypeArguments(){} // RVA: 0x7A80D8E20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void set_GenericTypeArguments(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

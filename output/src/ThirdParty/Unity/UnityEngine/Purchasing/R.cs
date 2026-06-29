@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     public class ReceiptParserException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF02A310
+        public void .ctor(){} // RVA: 0x7D9D4B0
     }
 
 }

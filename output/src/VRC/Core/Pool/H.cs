@@ -8,9 +8,9 @@ namespace VRC.Core.Pool
     public class HashSetPool : Object
     {
         // ── Methods ──
-        public void GetObjectPool(){} // RVA: 0x7A7E006B0
-        public void Get(){} // RVA: 0x7AA439630
-        public void Release(){} // RVA: 0x7A7E18830
+        public void Get(){} // RVA: 0xA94080
+        public void GetObjectPool(){} // RVA: 0x87C0D0
+        public void Release(){} // RVA: 0x894350
     }
 
 }

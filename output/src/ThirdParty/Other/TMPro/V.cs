@@ -8,7 +8,7 @@ namespace ThirdParty.Other.TMPro
     public class VertexGradient : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7EBD1F0
+        public void .ctor(){} // RVA: 0x93FBC0
     }
 
 }

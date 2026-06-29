@@ -8,9 +8,9 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class Never`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void .ctor(){} // RVA: 0x894290
+        public void GetAsyncEnumerator(){} // RVA: 0x881D60
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
 }

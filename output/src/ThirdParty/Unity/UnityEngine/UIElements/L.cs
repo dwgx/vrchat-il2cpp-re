@@ -1,147 +1,165 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 11
-// Methods: 84
+// Classes: 12
+// Methods: 97
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
     public class Label : TextElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF186080
-        public void .cctor(){} // RVA: 0x7AF186140
+        public void .ctor(){} // RVA: 0x7FF3500
+        public void .cctor(){} // RVA: 0x7FF35C0
+    }
+
+    public class LanguageDirectionExtensions : Object
+    {
+        // ── Methods ──
+        public void toTextCore(){} // RVA: 0x7F2C250
     }
 
     public class LayoutData : ValueType
     {
         // ── Methods ──
-        public void Copy(){} // RVA: 0x7A7F074E0
-        public void CopyFrom(){} // RVA: 0x7A7F07570
-        public void op_Equality(){} // RVA: 0x7AF23E1B0
-        public void Equals(){} // RVA: 0x7A7F07720
-        public void GetHashCode(){} // RVA: 0x7A7F07850
+        public void Copy(){} // RVA: 0x9960C0
+        public void CopyFrom(){} // RVA: 0x996150
+        public void op_Equality(){} // RVA: 0x7ECFB00
+        public void Equals(){} // RVA: 0x996300
+        public void GetHashCode(){} // RVA: 0x996430
     }
 
     public class Length : ValueType
     {
         // ── Methods ──
-        public void Percent(){} // RVA: 0x7AF244690
-        public void Auto(){} // RVA: 0x7AF2446D0
-        public void None(){} // RVA: 0x7AF2446F0
-        public void get_value(){} // RVA: 0x7A7673D20
-        public void set_value(){} // RVA: 0x7A7F080A0
-        public void get_unit(){} // RVA: 0x7A765F0A0
-        public void IsAuto(){} // RVA: 0x7A7F080D0
-        public void IsNone(){} // RVA: 0x7A7F080E0
-        public void .ctor(){} // RVA: 0x7A7F08120
-        public void op_Implicit(){} // RVA: 0x7AF2447C0
-        public void op_Equality(){} // RVA: 0x7AF21B340
-        public void op_Inequality(){} // RVA: 0x7AF244800
-        public void Equals(){} // RVA: 0x7A7F08150
-        public void GetHashCode(){} // RVA: 0x7A7F06660
-        public void ToString(){} // RVA: 0x7A7F08160
+        public void Percent(){} // RVA: 0x7ED6870
+        public void Auto(){} // RVA: 0x7ED68B0
+        public void None(){} // RVA: 0x7ED68D0
+        public void get_value(){} // RVA: 0x88D10
+        public void set_value(){} // RVA: 0x996E30
+        public void get_unit(){} // RVA: 0x77E50
+        public void set_unit(){} // RVA: 0x77EE0
+        public void IsAuto(){} // RVA: 0x996E60
+        public void IsNone(){} // RVA: 0x996E70
+        public void .ctor(){} // RVA: 0x996EB0
+        public void op_Implicit(){} // RVA: 0x7ED69A0
+        public void op_Equality(){} // RVA: 0x7ED69E0
+        public void op_Inequality(){} // RVA: 0x7ED6A10
+        public void Equals(){} // RVA: 0x996F10
+        public void GetHashCode(){} // RVA: 0x996F20
+        public void ToString(){} // RVA: 0x996F50
     }
 
     public class ListView : BaseListView
     {
         // ── Methods ──
-        public void get_makeItem(){} // RVA: 0x7A8B65870
-        public void get_bindItem(){} // RVA: 0x7A8B67720
-        public void get_unbindItem(){} // RVA: 0x7A8B76290
-        public void get_destroyItem(){} // RVA: 0x7A8B54620
-        public void HasValidDataAndBindings(){} // RVA: 0x7AF186250
-        public void CreateViewController(){} // RVA: 0x7AF1862B0
-        public void .ctor(){} // RVA: 0x7AF1862F0
+        public void get_makeItem(){} // RVA: 0x164ECC0
+        public void set_makeItem(){} // RVA: 0x7FF36D0
+        public void get_itemTemplate(){} // RVA: 0x165DB50
+        public void set_itemTemplate(){} // RVA: 0x7FF37E0
+        public void TemplateMakeItem(){} // RVA: 0x7FF3B00
+        public void get_bindItem(){} // RVA: 0x7FF3C60
+        public void set_bindItem(){} // RVA: 0x7FF3C70
+        public void get_unbindItem(){} // RVA: 0x7FF3D80
+        public void set_unbindItem(){} // RVA: 0x7FF3D90
+        public void get_destroyItem(){} // RVA: 0x7FF3EA0
+        public void set_destroyItem(){} // RVA: 0x7FF3EB0
+        public void HasValidDataAndBindings(){} // RVA: 0x7FF3FC0
+        public void CreateViewController(){} // RVA: 0x7FF4040
+        public void .ctor(){} // RVA: 0x7FF4080
+        public void .cctor(){} // RVA: 0x7FF41A0
     }
 
     public class ListViewController : BaseListViewController
     {
         // ── Methods ──
-        public void get_listView(){} // RVA: 0x7AF0D2E00
-        public void MakeItem(){} // RVA: 0x7AF0D2E80
-        public void BindItem(){} // RVA: 0x7AF0D2FC0
-        public void UnbindItem(){} // RVA: 0x7AF0D3220
-        public void DestroyItem(){} // RVA: 0x7AF0D3270
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_listView(){} // RVA: 0x7E8B980
+        public void MakeItem(){} // RVA: 0x7E8BA00
+        public void BindItem(){} // RVA: 0x7E8BB10
+        public void UnbindItem(){} // RVA: 0x7E8BDA0
+        public void DestroyItem(){} // RVA: 0x7E8BDF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class ListViewDragger : DragEventsProcessor
     {
         // ── Methods ──
-        public void get_targetView(){} // RVA: 0x7AF1B97E0
-        public void get_targetScrollView(){} // RVA: 0x7AF1B9860
-        public void get_dragAndDropController(){} // RVA: 0x7A81A00E0
-        public void set_dragAndDropController(){} // RVA: 0x7A81A00F0
-        public void .ctor(){} // RVA: 0x7AF1B9890
-        public void CanStartDrag(){} // RVA: 0x7AF1B9A20
-        public void StartDrag(){} // RVA: 0x7AF1B9D60
-        public void UpdateDrag(){} // RVA: 0x7AF1BA040
-        public void GetVisualMode(){} // RVA: 0x7AF1BA350
-        public void OnDrop(){} // RVA: 0x7AF1BA570
-        public void HandleDragAndScroll(){} // RVA: 0x7AF1BA820
-        public void HandleAutoExpansion(){} // RVA: 0x7AF1BAA60
-        public void ApplyDragAndDropUI(){} // RVA: 0x7AF1BAB70
-        public void TryGetDragPosition(){} // RVA: 0x7AF1BB510
-        public void HandleTreePosition(){} // RVA: 0x7AF1BB920
-        public void HandleSiblingInsertionAtAvailableDepthsAndChangeTargetIfNeeded(){} // RVA: 0x7AF1BBA40
-        public void GetPreviousAndNextItemsIgnoringDraggedItems(){} // RVA: 0x7AF1BC1B0
-        public void MakeDragAndDropArgs(){} // RVA: 0x7AF1BC3A0
-        public void GetHoverBarTopPosition(){} // RVA: 0x7AF1BC590
-        public void PlaceHoverBarAtElement(){} // RVA: 0x7AF1BC760
-        public void PlaceHoverBarAt(){} // RVA: 0x7AF1BC950
-        public void ClearDragAndDropUI(){} // RVA: 0x7AF1BD060
-        public void GetRecycledItem(){} // RVA: 0x7AF1BD4E0
-        public void <ApplyDragAndDropUI>g__GeometryChangedCallback|27_0(){} // RVA: 0x7AF1BD710
+        public void get_targetView(){} // RVA: 0x804A010
+        public void get_targetScrollView(){} // RVA: 0x804A090
+        public void get_dragAndDropController(){} // RVA: 0xCD3320
+        public void set_dragAndDropController(){} // RVA: 0xCD4740
+        public void get_enabled(){} // RVA: 0xBC03E0
+        public void set_enabled(){} // RVA: 0x804A0C0
+        public void .ctor(){} // RVA: 0x804A390
+        public void CanStartDrag(){} // RVA: 0x804A520
+        public void StartDrag(){} // RVA: 0x804A8C0
+        public void UpdateDrag(){} // RVA: 0x804ACB0
+        public void GetVisualMode(){} // RVA: 0x804AFC0
+        public void OnDrop(){} // RVA: 0x804B1E0
+        public void HandleDragAndScroll(){} // RVA: 0x804B4A0
+        public void HandleAutoExpansion(){} // RVA: 0x804B6E0
+        public void ApplyDragAndDropUI(){} // RVA: 0x804B7F0
+        public void TryGetDragPosition(){} // RVA: 0x804C130
+        public void HandleTreePosition(){} // RVA: 0x804C4F0
+        public void HandleSiblingInsertionAtAvailableDepthsAndChangeTargetIfNeeded(){} // RVA: 0x804C610
+        public void GetPreviousAndNextItemsIgnoringDraggedItems(){} // RVA: 0x804CE40
+        public void MakeDragAndDropArgs(){} // RVA: 0x804D030
+        public void GetHoverBarTopPosition(){} // RVA: 0x804D220
+        public void PlaceHoverBarAtElement(){} // RVA: 0x804D3F0
+        public void PlaceHoverBarAt(){} // RVA: 0x804D5E0
+        public void ClearDragAndDropUI(){} // RVA: 0x804DCF0
+        public void GetRecycledItem(){} // RVA: 0x804E170
+        public void IsDraggingDisabled(){} // RVA: 0x804E3A0
+        public void <ApplyDragAndDropUI>g__GeometryChangedCallback|31_0(){} // RVA: 0x804E460
     }
 
     public class ListViewDraggerAnimated : ListViewDragger
     {
         // ── Methods ──
-        public void get_isDragging(){} // RVA: 0x7A835F4E0
-        public void set_isDragging(){} // RVA: 0x7A8357960
-        public void get_draggedItem(){} // RVA: 0x7A87D9C10
-        public void get_supportsDragEvents(){} // RVA: 0x7A80D7320
-        public void .ctor(){} // RVA: 0x7AF1BDDA0
-        public void StartDrag(){} // RVA: 0x7AF1BDDB0
-        public void UpdateDrag(){} // RVA: 0x7AF1BE710
-        public void Animate(){} // RVA: 0x7AF1BEEC0
-        public void OnDrop(){} // RVA: 0x7AF1BF2E0
-        public void ClearDragAndDropUI(){} // RVA: 0x7A80D7310
-        public void TryGetDragPosition(){} // RVA: 0x7AF1BF7F0
+        public void get_isDragging(){} // RVA: 0x2009180
+        public void set_isDragging(){} // RVA: 0x20097F0
+        public void get_draggedItem(){} // RVA: 0x106A050
+        public void get_supportsDragEvents(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x804EAF0
+        public void StartDrag(){} // RVA: 0x804EB00
+        public void UpdateDrag(){} // RVA: 0x804F420
+        public void Animate(){} // RVA: 0x804FC30
+        public void OnDrop(){} // RVA: 0x8050010
+        public void ClearDragAndDropUI(){} // RVA: 0xB43310
+        public void TryGetDragPosition(){} // RVA: 0x8050540
     }
 
     public class ListViewDraggerExtension : Object
     {
         // ── Methods ──
-        public void GetRecycledItemFromId(){} // RVA: 0x7AF1BDA80
-        public void GetRecycledItemFromIndex(){} // RVA: 0x7AF1BDC10
+        public void GetRecycledItemFromId(){} // RVA: 0x804E7D0
+        public void GetRecycledItemFromIndex(){} // RVA: 0x804E960
     }
 
     public class ListViewReorderableDragAndDropController : BaseReorderableDragAndDropController
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF1BF860
-        public void HandleDragAndDrop(){} // RVA: 0x7AF1BF8D0
-        public void OnDrop(){} // RVA: 0x7AF1BF9A0
+        public void .ctor(){} // RVA: 0x80505B0
+        public void HandleDragAndDrop(){} // RVA: 0x8050620
+        public void OnDrop(){} // RVA: 0x80506F0
     }
 
     public class LoadResourceFunction : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AF1EFA30
-        public void Invoke(){} // RVA: 0x7AB1A8400
+        public void .ctor(){} // RVA: 0x8086210
+        public void Invoke(){} // RVA: 0x3E3DC60
     }
 
     public class LongField : TextValueField`1
     {
         // ── Methods ──
-        public void get_longInput(){} // RVA: 0x7AF1863C0
-        public void ValueToString(){} // RVA: 0x7AF186450
-        public void StringToValue(){} // RVA: 0x7AF186660
-        public void .ctor(){} // RVA: 0x7AF186750
-        public void CanTryParse(){} // RVA: 0x7AF186A50
-        public void ApplyInputDeviceDelta(){} // RVA: 0x7AF186B20
-        public void .cctor(){} // RVA: 0x7AF186C10
+        public void get_longInput(){} // RVA: 0x7FF4A60
+        public void ValueToString(){} // RVA: 0x7FF4AF0
+        public void StringToValue(){} // RVA: 0x7FF4D00
+        public void .ctor(){} // RVA: 0x7FF4F90
+        public void CanTryParse(){} // RVA: 0x7FF52B0
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7FF5380
+        public void .cctor(){} // RVA: 0x7FF5470
     }
 
 }

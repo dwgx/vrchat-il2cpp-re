@@ -8,37 +8,37 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class SdkAccount : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDE9A0
+        public void .ctor(){} // RVA: 0x6B65910
     }
 
     public class SdkAccountList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDEAD0
+        public void .ctor(){} // RVA: 0x6B65A40
     }
 
     public class SendInvitesResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDEE90
+        public void .ctor(){} // RVA: 0x6B65E00
     }
 
     public class ShareMediaResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDEFE0
+        public void .ctor(){} // RVA: 0x6B65F50
     }
 
     public class SupplementaryMetric : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDF0A0
+        public void .ctor(){} // RVA: 0x6B66010
     }
 
     public class SystemVoipState : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDF1D0
+        public void .ctor(){} // RVA: 0x6B66140
     }
 
 }

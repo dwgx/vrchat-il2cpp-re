@@ -8,18 +8,18 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class QueueOfTConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7A7E18890
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class QueueOfTConverter`2 : IEnumerableDefaultConverter`2
     {
         // ── Methods ──
-        public void get_CanPopulate(){} // RVA: 0x7A7E01900
-        public void Add(){} // RVA: 0x7A7E18890
-        public void CreateCollection(){} // RVA: 0x7A7E1DDC0
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_CanPopulate(){} // RVA: 0x87D280
+        public void Add(){} // RVA: 0x8943B0
+        public void CreateCollection(){} // RVA: 0x8954D0
+        public void .ctor(){} // RVA: 0x894290
     }
 
 }

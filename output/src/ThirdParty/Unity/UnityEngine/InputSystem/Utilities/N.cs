@@ -8,89 +8,89 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class NameAndParameters : ValueType
     {
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7A765F710
-        public void set_name(){} // RVA: 0x7A7637E60
-        public void get_parameters(){} // RVA: 0x7A76B2030
-        public void set_parameters(){} // RVA: 0x7A76B2040
-        public void ToString(){} // RVA: 0x7A7EAE030
-        public void ParseMultiple(){} // RVA: 0x7AEBC0FA0
-        public void ParseName(){} // RVA: 0x7AEBC1230
-        public void Parse(){} // RVA: 0x7AEBC12C0
-        public void ParseNameAndParameters(){} // RVA: 0x7AEBC1350
+        public void get_name(){} // RVA: 0x77900
+        public void set_name(){} // RVA: 0x47F10
+        public void get_parameters(){} // RVA: 0xCB720
+        public void set_parameters(){} // RVA: 0xCB730
+        public void ToString(){} // RVA: 0x92EF20
+        public void ParseMultiple(){} // RVA: 0x7830620
+        public void ParseName(){} // RVA: 0x78308B0
+        public void Parse(){} // RVA: 0x7830940
+        public void ParseNameAndParameters(){} // RVA: 0x78309D0
     }
 
     public class NameAndParameters[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DD60
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E34170
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NamedValue : ValueType
     {
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7A765F710
-        public void set_name(){} // RVA: 0x7A7637E60
-        public void get_value(){} // RVA: 0x7A76B2030
-        public void set_value(){} // RVA: 0x7A76B6E30
-        public void get_type(){} // RVA: 0x7A75FEFA0
-        public void ConvertTo(){} // RVA: 0x7A7EAE1B0
-        public void From(){} // RVA: 0x7A8051B10
-        public void ToString(){} // RVA: 0x7A7EAE260
-        public void Equals(){} // RVA: 0x7A7EAE2A0
-        public void GetHashCode(){} // RVA: 0x7A7EAE2B0
-        public void op_Equality(){} // RVA: 0x7AEBC1D40
-        public void op_Inequality(){} // RVA: 0x7AEBC1D70
-        public void ParseMultiple(){} // RVA: 0x7AEBC1DA0
-        public void Parse(){} // RVA: 0x7AEBC2000
-        public void ParseParameter(){} // RVA: 0x7AEBC2040
-        public void ApplyToObject(){} // RVA: 0x7A7EAE2C0
-        public void ApplyAllToObject(){} // RVA: 0x7A8051B10
+        public void get_name(){} // RVA: 0x77900
+        public void set_name(){} // RVA: 0x47F10
+        public void get_value(){} // RVA: 0xCB720
+        public void set_value(){} // RVA: 0xCFB00
+        public void get_type(){} // RVA: 0x14790
+        public void ConvertTo(){} // RVA: 0x92F0A0
+        public void From(){} // RVA: 0xA94080
+        public void ToString(){} // RVA: 0x92F150
+        public void Equals(){} // RVA: 0x92F190
+        public void GetHashCode(){} // RVA: 0x92F1A0
+        public void op_Equality(){} // RVA: 0x7831470
+        public void op_Inequality(){} // RVA: 0x78314A0
+        public void ParseMultiple(){} // RVA: 0x78314D0
+        public void Parse(){} // RVA: 0x7831730
+        public void ParseParameter(){} // RVA: 0x7831770
+        public void ApplyToObject(){} // RVA: 0x92F1B0
+        public void ApplyAllToObject(){} // RVA: 0xA94080
     }
 
     public class NamedValue[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D5EA0
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2831C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB47D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3EE0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6EE50
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A7A0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NumberHelpers : Object
     {
         // ── Methods ──
-        public void AlignToMultipleOf(){} // RVA: 0x7AEBC26D0
-        public void Approximately(){} // RVA: 0x7AEBC26F0
-        public void IntToNormalizedFloat(){} // RVA: 0x7AEBC27C0
-        public void NormalizedFloatToInt(){} // RVA: 0x7AEBC2810
-        public void UIntToNormalizedFloat(){} // RVA: 0x7AEBC2860
-        public void NormalizedFloatToUInt(){} // RVA: 0x7AEBC28B0
-        public void RemapUIntBitsToNormalizeFloatToUIntBits(){} // RVA: 0x7AEBC2920
+        public void AlignToMultipleOf(){} // RVA: 0x7831F60
+        public void Approximately(){} // RVA: 0x7831F80
+        public void IntToNormalizedFloat(){} // RVA: 0x7832050
+        public void NormalizedFloatToInt(){} // RVA: 0x78320A0
+        public void UIntToNormalizedFloat(){} // RVA: 0x78320F0
+        public void NormalizedFloatToUInt(){} // RVA: 0x7832140
+        public void RemapUIntBitsToNormalizeFloatToUIntBits(){} // RVA: 0x78321B0
     }
 
 }

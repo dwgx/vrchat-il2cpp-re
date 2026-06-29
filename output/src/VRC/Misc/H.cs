@@ -5,11 +5,11 @@
 
 namespace VRC.Misc
 {
-    /// <summary>Originally: ÍÎÏÌÏÏÎÍÍÎÌÏÍÏÌÏÎÎÍÎÎÌÎ</summary>
-    public class Height_EF37
+    /// <summary>Originally: ÏÌÎÌÍÌÏÌÎÌÍÍÍÏÌÌÍÌÎÏÌÌÏ</summary>
+    public class Height_32B7
     {
         // ── Methods ──
-        public void get_Height(){} // RVA: 0x7A7E155B0
+        public void get_Height(){} // RVA: 0x890F90
     }
 
 }

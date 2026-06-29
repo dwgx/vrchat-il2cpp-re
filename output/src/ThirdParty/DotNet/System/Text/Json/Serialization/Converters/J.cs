@@ -8,709 +8,709 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class JsonArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Write(){} // RVA: 0x7AE14F540
-        public void Read(){} // RVA: 0x7AE14F580
-        public void ReadList(){} // RVA: 0x7AE14F680
-        public void .ctor(){} // RVA: 0x7AE14F710
+        public void Write(){} // RVA: 0x6DD0210
+        public void Read(){} // RVA: 0x6DD0250
+        public void ReadList(){} // RVA: 0x6DD0350
+        public void .ctor(){} // RVA: 0x6DD03E0
     }
 
     public class JsonArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Write(){} // RVA: 0x7AE6CF220
-        public void Read(){} // RVA: 0x7AE6CF270
-        public void ReadList(){} // RVA: 0x7AE6CF390
-        public void .ctor(){} // RVA: 0x7AE6CF420
+        public void Write(){} // RVA: 0x7345500
+        public void Read(){} // RVA: 0x7345550
+        public void ReadList(){} // RVA: 0x7345670
+        public void .ctor(){} // RVA: 0x7345700
     }
 
     public class JsonDocumentConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE152FC0
-        public void Write(){} // RVA: 0x7AE153000
-        public void .ctor(){} // RVA: 0x7AE153120
+        public void Read(){} // RVA: 0x6DD3BE0
+        public void Write(){} // RVA: 0x6DD3C20
+        public void .ctor(){} // RVA: 0x6DD3D40
     }
 
     public class JsonDocumentConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE6D30F0
-        public void Write(){} // RVA: 0x7AE6D3130
-        public void .ctor(){} // RVA: 0x7AE6D3290
+        public void Read(){} // RVA: 0x73492C0
+        public void Write(){} // RVA: 0x7349300
+        public void .ctor(){} // RVA: 0x7349460
     }
 
     public class JsonElementConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE153160
-        public void Write(){} // RVA: 0x7AE153190
-        public void .ctor(){} // RVA: 0x7AE153240
+        public void Read(){} // RVA: 0x6DD3D80
+        public void Write(){} // RVA: 0x6DD3DB0
+        public void .ctor(){} // RVA: 0x6DD3E60
     }
 
     public class JsonElementConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE6D32D0
-        public void Write(){} // RVA: 0x7AE6D3300
-        public void .ctor(){} // RVA: 0x7AE6D33A0
+        public void Read(){} // RVA: 0x73494A0
+        public void Write(){} // RVA: 0x73494D0
+        public void .ctor(){} // RVA: 0x7349570
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A7E00680
-        public void get_ConverterStrategy(){} // RVA: 0x7A7E01900
-        public void get_KeyType(){} // RVA: 0x7A7E00680
-        public void get_ElementType(){} // RVA: 0x7A7E00680
-        public void get_ConstructorIsParameterized(){} // RVA: 0x7A7E01900
-        public void .ctor(){} // RVA: 0x7A7E1D550
-        public void OnTryRead(){} // RVA: 0x7A7E03940
-        public void OnTryWrite(){} // RVA: 0x7A8051B10
+        public void get_Converter(){} // RVA: 0x87C0A0
+        public void get_ConverterStrategy(){} // RVA: 0x87D280
+        public void get_KeyType(){} // RVA: 0x87C0A0
+        public void get_ElementType(){} // RVA: 0x87C0A0
+        public void get_ConstructorIsParameterized(){} // RVA: 0x87D280
+        public void .ctor(){} // RVA: 0x899250
+        public void OnTryRead(){} // RVA: 0x87F2C0
+        public void OnTryWrite(){} // RVA: 0xA94080
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A7E00680
-        public void get_KeyType(){} // RVA: 0x7A7E00680
-        public void get_ElementType(){} // RVA: 0x7A7E00680
-        public void get_HandleNull(){} // RVA: 0x7A7E01900
-        public void get_ConstructorIsParameterized(){} // RVA: 0x7A7E01900
-        public void get_SupportsCreateObjectDelegate(){} // RVA: 0x7A7E01900
-        public void get_CanHaveMetadata(){} // RVA: 0x7A7E01900
-        public void get_CanPopulate(){} // RVA: 0x7A7E01900
-        public void .ctor(){} // RVA: 0x7A7E18800
-        public void OnTryRead(){} // RVA: 0x7A7E03940
-        public void OnTryWrite(){} // RVA: 0x7A8051B10
-        public void ConfigureJsonTypeInfo(){} // RVA: 0x7A7E18890
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x4123270
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7AB48AB10
+        public void get_Converter(){} // RVA: 0x87C0A0
+        public void get_KeyType(){} // RVA: 0x87C0A0
+        public void get_ElementType(){} // RVA: 0x87C0A0
+        public void get_HandleNull(){} // RVA: 0x87D280
+        public void get_ConstructorIsParameterized(){} // RVA: 0x87D280
+        public void get_SupportsCreateObjectDelegate(){} // RVA: 0x87D280
+        public void get_CanHaveMetadata(){} // RVA: 0x87D280
+        public void get_CanPopulate(){} // RVA: 0x87D280
+        public void .ctor(){} // RVA: 0x894320
+        public void OnTryRead(){} // RVA: 0x87F2C0
+        public void OnTryWrite(){} // RVA: 0xA94080
+        public void ConfigureJsonTypeInfo(){} // RVA: 0x8943B0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonMetadataServicesConverter`1 : JsonResumableConverter`1
     {
         // ── Methods ──
-        public void get_Converter(){} // RVA: 0x7A8292C30
+        public void get_Converter(){} // RVA: 0xD05CA0
     }
 
     public class JsonNodeConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7AE14F750
-        public void get_ArrayConverter(){} // RVA: 0x7AE14F840
-        public void get_ObjectConverter(){} // RVA: 0x7AE14F950
-        public void get_ValueConverter(){} // RVA: 0x7AE14FA60
-        public void Write(){} // RVA: 0x7AE14FB70
-        public void Read(){} // RVA: 0x7AE14FD00
-        public void Create(){} // RVA: 0x7AE14FE00
-        public void .ctor(){} // RVA: 0x7AE14FF70
+        public void get_Instance(){} // RVA: 0x6DD0420
+        public void get_ArrayConverter(){} // RVA: 0x6DD0510
+        public void get_ObjectConverter(){} // RVA: 0x6DD0620
+        public void get_ValueConverter(){} // RVA: 0x6DD0730
+        public void Write(){} // RVA: 0x6DD0840
+        public void Read(){} // RVA: 0x6DD09D0
+        public void Create(){} // RVA: 0x6DD0AD0
+        public void .ctor(){} // RVA: 0x6DD0C40
     }
 
     public class JsonNodeConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7AE6CF460
-        public void get_ArrayConverter(){} // RVA: 0x7AE6CF550
-        public void get_ObjectConverter(){} // RVA: 0x7AE6CF660
-        public void get_ValueConverter(){} // RVA: 0x7AE6CF770
-        public void Write(){} // RVA: 0x7AE6CF220
-        public void Read(){} // RVA: 0x7AE6CF880
-        public void Create(){} // RVA: 0x7AE6CF990
-        public void .ctor(){} // RVA: 0x7AE6CFB00
+        public void get_Instance(){} // RVA: 0x7345740
+        public void get_ArrayConverter(){} // RVA: 0x7345830
+        public void get_ObjectConverter(){} // RVA: 0x7345940
+        public void get_ValueConverter(){} // RVA: 0x7345A50
+        public void Write(){} // RVA: 0x7345500
+        public void Read(){} // RVA: 0x7345B60
+        public void Create(){} // RVA: 0x7345C70
+        public void .ctor(){} // RVA: 0x7345DE0
     }
 
     public class JsonNodeConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void CreateConverter(){} // RVA: 0x7AE14FFB0
-        public void CanConvert(){} // RVA: 0x7AE150150
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateConverter(){} // RVA: 0x6DD0C80
+        public void CanConvert(){} // RVA: 0x6DD0E50
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class JsonNodeConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void CreateConverter(){} // RVA: 0x7AE6CFB40
-        public void CanConvert(){} // RVA: 0x7AE6CFCE0
-        public void .ctor(){} // RVA: 0x7AB490F90
+        public void CreateConverter(){} // RVA: 0x7345E20
+        public void CanConvert(){} // RVA: 0x7345FF0
+        public void .ctor(){} // RVA: 0x4127AC0
     }
 
     public class JsonObjectConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void CreateObject(){} // RVA: 0x7AE150250
-        public void ReadElementAndSetProperty(){} // RVA: 0x7AE1502D0
-        public void Write(){} // RVA: 0x7AE14F540
-        public void Read(){} // RVA: 0x7AE1505C0
-        public void ReadObject(){} // RVA: 0x7AE1506C0
-        public void .ctor(){} // RVA: 0x7AE150750
+        public void CreateObject(){} // RVA: 0x6DD0F60
+        public void ReadElementAndSetProperty(){} // RVA: 0x6DD0FE0
+        public void Write(){} // RVA: 0x6DD0210
+        public void Read(){} // RVA: 0x6DD1290
+        public void ReadObject(){} // RVA: 0x6DD1390
+        public void .ctor(){} // RVA: 0x6DD1420
     }
 
     public class JsonObjectConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void ConfigureJsonTypeInfo(){} // RVA: 0x7AE6CFDC0
-        public void ReadElementAndSetProperty(){} // RVA: 0x7AE6CFF40
-        public void Write(){} // RVA: 0x7AE6CF220
-        public void Read(){} // RVA: 0x7AE6D0140
-        public void ReadObject(){} // RVA: 0x7AE6D0260
-        public void .ctor(){} // RVA: 0x7AE6D02F0
+        public void ConfigureJsonTypeInfo(){} // RVA: 0x73460A0
+        public void ReadElementAndSetProperty(){} // RVA: 0x7346220
+        public void Write(){} // RVA: 0x7345500
+        public void Read(){} // RVA: 0x73463F0
+        public void ReadObject(){} // RVA: 0x7346510
+        public void .ctor(){} // RVA: 0x73465A0
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7A8051B10
-        public void ReadAsPropertyName(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void WriteAsPropertyName(){} // RVA: 0xA94080
+        public void ReadAsPropertyName(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494B30
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494B50
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494B70
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494B90
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494BB0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494BF0
-        public void .ctor(){} // RVA: 0x7AB494C60
+        public void WriteAsPropertyName(){} // RVA: 0x412B680
+        public void ReadAsPropertyName(){} // RVA: 0x412B6C0
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494BB0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494BF0
-        public void .ctor(){} // RVA: 0x7AB494C80
+        public void WriteAsPropertyName(){} // RVA: 0x412B680
+        public void ReadAsPropertyName(){} // RVA: 0x412B6C0
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494CA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494CE0
+        public void WriteAsPropertyName(){} // RVA: 0x412B730
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B770
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494F00
-        public void ReadAsPropertyName(){} // RVA: 0x7A80804D0
-        public void .ctor(){} // RVA: 0x7AACBE020
+        public void WriteAsPropertyName(){} // RVA: 0x412B850
+        public void ReadAsPropertyName(){} // RVA: 0xAD0950
+        public void .ctor(){} // RVA: 0x3905580
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494BB0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494BF0
-        public void .ctor(){} // RVA: 0x7AB494D00
+        public void WriteAsPropertyName(){} // RVA: 0x412B680
+        public void ReadAsPropertyName(){} // RVA: 0x412B6C0
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494D20
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494D40
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494D60
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E40
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494CA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E60
+        public void WriteAsPropertyName(){} // RVA: 0x412B730
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B770
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494D80
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E20
+        public void WriteAsPropertyName(){} // RVA: 0x412B790
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B830
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E80
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494EA0
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494EC0
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494AA0
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494EE0
+        public void WriteAsPropertyName(){} // RVA: 0x412B5D0
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B660
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494D80
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E20
+        public void WriteAsPropertyName(){} // RVA: 0x412B790
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B830
     }
 
     public class JsonPrimitiveConverter`1 : JsonConverter`1
     {
         // ── Methods ──
-        public void WriteAsPropertyName(){} // RVA: 0x7AB494D80
-        public void ReadAsPropertyName(){} // RVA: 0x7AB494AE0
-        public void .ctor(){} // RVA: 0x7AB494E20
+        public void WriteAsPropertyName(){} // RVA: 0x412B790
+        public void ReadAsPropertyName(){} // RVA: 0x412B610
+        public void .ctor(){} // RVA: 0x412B830
     }
 
     public class JsonValueConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Write(){} // RVA: 0x7AE14F540
-        public void Read(){} // RVA: 0x7AE150790
-        public void .ctor(){} // RVA: 0x7AE150860
+        public void Write(){} // RVA: 0x6DD0210
+        public void Read(){} // RVA: 0x6DD1460
+        public void .ctor(){} // RVA: 0x6DD1530
     }
 
     public class JsonValueConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Write(){} // RVA: 0x7AE6CF220
-        public void Read(){} // RVA: 0x7AE6D03B0
-        public void .ctor(){} // RVA: 0x7AE6D04B0
+        public void Write(){} // RVA: 0x7345500
+        public void Read(){} // RVA: 0x7346660
+        public void .ctor(){} // RVA: 0x7346760
     }
 
 }

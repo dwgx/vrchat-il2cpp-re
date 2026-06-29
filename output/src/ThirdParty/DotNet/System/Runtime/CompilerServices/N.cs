@@ -1,500 +1,512 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.CompilerServices
-// Classes: 82
-// Methods: 82
+// Classes: 84
+// Methods: 84
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
     public class NativeIntegerAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NativeIntegerAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D7820
+        public void .ctor(){} // RVA: 0x6D58810
     }
 
     public class NativeIntegerAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE623770
+        public void .ctor(){} // RVA: 0x729A650
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0BE740
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x6D3F7D0
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEFF2060
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE0D7760
+        public void .ctor(){} // RVA: 0x7D65670
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x6D58750
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE1783A0
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x6DF8DD0
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD976660
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE4B0BF0
+        public void .ctor(){} // RVA: 0x6602580
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x712C580
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6236B0
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x729A590
     }
 
     public class NullableAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0xB44D60
+    }
+
+    public class NullableAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB44D60
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullableContextAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
+    }
+
+    public class NullableContextAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
     public class NullablePublicOnlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0xC120B0
     }
 
 }

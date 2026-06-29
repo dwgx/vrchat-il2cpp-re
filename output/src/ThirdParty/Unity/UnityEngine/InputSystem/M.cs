@@ -8,45 +8,45 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem
     public class MagneticFieldSensor : Sensor
     {
         // ── Methods ──
-        public void get_magneticField(){} // RVA: 0x7A884DD70
-        public void set_magneticField(){} // RVA: 0x7A8B5ADA0
-        public void get_current(){} // RVA: 0x7AEC4CA50
-        public void set_current(){} // RVA: 0x7AEC4CA90
-        public void MakeCurrent(){} // RVA: 0x7AEC4CB30
-        public void OnRemoved(){} // RVA: 0x7AEC4CB40
-        public void FinishSetup(){} // RVA: 0x7AEC4CB90
-        public void .ctor(){} // RVA: 0x7AEB6BB90
+        public void get_magneticField(){} // RVA: 0x13659D0
+        public void set_magneticField(){} // RVA: 0x166D270
+        public void get_current(){} // RVA: 0x78BB580
+        public void set_current(){} // RVA: 0x78BB5C0
+        public void MakeCurrent(){} // RVA: 0x78BB660
+        public void OnRemoved(){} // RVA: 0x78BB670
+        public void FinishSetup(){} // RVA: 0x78BB6C0
+        public void .ctor(){} // RVA: 0x77D4F00
     }
 
     public class Mouse : Pointer
     {
         // ── Methods ──
-        public void get_scroll(){} // RVA: 0x7A8815B70
-        public void set_scroll(){} // RVA: 0x7A8B58420
-        public void get_leftButton(){} // RVA: 0x7A8B6AFA0
-        public void set_leftButton(){} // RVA: 0x7A8B58B30
-        public void get_middleButton(){} // RVA: 0x7A8B79060
-        public void set_middleButton(){} // RVA: 0x7A8B49820
-        public void get_rightButton(){} // RVA: 0x7A8B5ED30
-        public void set_rightButton(){} // RVA: 0x7A8B5E380
-        public void get_backButton(){} // RVA: 0x7A8688280
-        public void set_backButton(){} // RVA: 0x7A8B797E0
-        public void get_forwardButton(){} // RVA: 0x7A8B7A210
-        public void set_forwardButton(){} // RVA: 0x7A8B48CD0
-        public void get_clickCount(){} // RVA: 0x7A8B562C0
-        public void set_clickCount(){} // RVA: 0x7A8B4A930
-        public void get_current(){} // RVA: 0x7AEBED510
-        public void set_current(){} // RVA: 0x7AEBED550
-        public void MakeCurrent(){} // RVA: 0x7AEBED5F0
-        public void OnAdded(){} // RVA: 0x7AEBED610
-        public void OnRemoved(){} // RVA: 0x7AEBED6C0
-        public void WarpCursorPosition(){} // RVA: 0x7AEBED750
-        public void FinishSetup(){} // RVA: 0x7AEBED7E0
-        public void OnNextUpdate(){} // RVA: 0x7AEBEDC50
-        public void OnStateEvent(){} // RVA: 0x7AEBEDD20
-        public void UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate(){} // RVA: 0x7AEBEDC50
-        public void UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent(){} // RVA: 0x7AEBEDDD0
-        public void .ctor(){} // RVA: 0x7AEB6BB90
+        public void get_scroll(){} // RVA: 0x1344890
+        public void set_scroll(){} // RVA: 0x1662780
+        public void get_leftButton(){} // RVA: 0x1655DD0
+        public void set_leftButton(){} // RVA: 0x16694D0
+        public void get_middleButton(){} // RVA: 0x1654670
+        public void set_middleButton(){} // RVA: 0x16612E0
+        public void get_rightButton(){} // RVA: 0x165AD10
+        public void set_rightButton(){} // RVA: 0x1667130
+        public void get_backButton(){} // RVA: 0x1184410
+        public void set_backButton(){} // RVA: 0x163ACA0
+        public void get_forwardButton(){} // RVA: 0x164FF50
+        public void set_forwardButton(){} // RVA: 0x16529A0
+        public void get_clickCount(){} // RVA: 0x1659260
+        public void set_clickCount(){} // RVA: 0x165DAA0
+        public void get_current(){} // RVA: 0x785C230
+        public void set_current(){} // RVA: 0x785C270
+        public void MakeCurrent(){} // RVA: 0x785C310
+        public void OnAdded(){} // RVA: 0x785C330
+        public void OnRemoved(){} // RVA: 0x785C3E0
+        public void WarpCursorPosition(){} // RVA: 0x785C470
+        public void FinishSetup(){} // RVA: 0x785C500
+        public void OnNextUpdate(){} // RVA: 0x785C970
+        public void OnStateEvent(){} // RVA: 0x785CA40
+        public void UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate(){} // RVA: 0x785C970
+        public void UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent(){} // RVA: 0x785CAF0
+        public void .ctor(){} // RVA: 0x77D4F00
     }
 
 }

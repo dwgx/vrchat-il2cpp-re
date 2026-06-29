@@ -8,36 +8,36 @@ namespace ThirdParty.Unity.UnityEngine.Events
     public class CachedInvokableCall`1 : InvokableCall`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Invoke(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x627AB00
+        public void Invoke(){} // RVA: 0x627AB80
     }
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD51CD50
-        public void Invoke(){} // RVA: 0x7AD51CDD0
+        public void .ctor(){} // RVA: 0x627A9E0
+        public void Invoke(){} // RVA: 0x627AA20
     }
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD51CC30
-        public void Invoke(){} // RVA: 0x7AD51CC70
+        public void .ctor(){} // RVA: 0x627ABD0
+        public void Invoke(){} // RVA: 0x627AC10
     }
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD51CE20
-        public void Invoke(){} // RVA: 0x7AD51CE60
+        public void .ctor(){} // RVA: 0x627AA70
+        public void Invoke(){} // RVA: 0x627AAB0
     }
 
     public class CachedInvokableCall`1 : InvokableCall`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AD51CCC0
-        public void Invoke(){} // RVA: 0x7AD51CD00
+        public void .ctor(){} // RVA: 0xA94080
+        public void Invoke(){} // RVA: 0xA94080
     }
 
 }

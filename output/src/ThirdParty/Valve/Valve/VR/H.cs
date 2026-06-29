@@ -8,10 +8,10 @@ namespace ThirdParty.Valve.Valve.VR
     public class HmdMatrix34_t : ValueType
     {
         // ── Methods ──
-        public void GetPosition(){} // RVA: 0x7A7ED3280
-        public void IsRotationValid(){} // RVA: 0x7A7ED32B0
-        public void GetRotation(){} // RVA: 0x7A7ED3310
-        public void _copysign(){} // RVA: 0x7AEE46900
+        public void GetPosition(){} // RVA: 0x9571E0
+        public void IsRotationValid(){} // RVA: 0x957210
+        public void GetRotation(){} // RVA: 0x957270
+        public void _copysign(){} // RVA: 0x7AC8FB0
     }
 
 }

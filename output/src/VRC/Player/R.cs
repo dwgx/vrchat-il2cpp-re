@@ -5,23 +5,23 @@
 
 namespace VRC.Player
 {
-    /// <summary>Originally: ÌÍÌÍÍÍÍÌÌÏÌÏÍÍÍÏÎÎÏÏÌÎÎ</summary>
-    public class RemovePlayerModsAddPlayerModsComponent_D394 : MonoBehaviour
+    /// <summary>Originally: ÏÏÏÏÎÏÎÌÌÎÎÌÌÍÍÏÌÍÍÍÏÌÎ</summary>
+    public class RemovePlayerModsAddPlayerModsComponent_39AD : MonoBehaviour
     {
         // ── Methods ──
-        public void AddPlayerMods(){} // RVA: 0x7A91E3860
-        public void RaiseCancellation(){} // RVA: 0x7A91E3980
-        public void RemovePlayerMods(){} // RVA: 0x7A91E3A10
-        public void CancelInvoke(){} // RVA: 0x7A91E3B30
-        public void Invoke(){} // RVA: 0x7A91E3C50
-        public void Start(){} // RVA: 0x7A91E3CE0
-        public void OnDestroy(){} // RVA: 0x7A91E3F10
-        public void StartCoroutine_Auto(){} // RVA: 0x7A91E3FA0
-        public void StopCoroutine(){} // RVA: 0x7A91E41D0
-        public void .cctor(){} // RVA: 0x7A91E4260
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A91E4340
-        public void print(){} // RVA: 0x7A91E43D0
+        public void get_destroyCancellationToken(){} // RVA: 0x1CF9650
+        public void RaiseCancellation(){} // RVA: 0x1CF96E0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Start(){} // RVA: 0x1CF9770
+        public void Invoke(){} // RVA: 0x1CF9930
+        public void AddPlayerMods(){} // RVA: 0x1CF9AF0
+        public void RemovePlayerMods(){} // RVA: 0x1CF9C10
+        public void StartCoroutine_Auto(){} // RVA: 0x1CF9D30
+        public void StopCoroutine(){} // RVA: 0x1CF9EF0
+        public void StopAllCoroutines(){} // RVA: 0x1CFA010
+        public void get_useGUILayout(){} // RVA: 0x1CFA0A0
+        public void .cctor(){} // RVA: 0x1CFA130
+        public void OnDestroy(){} // RVA: 0x1CFA210
     }
 
 }

@@ -8,61 +8,61 @@ namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
     public class BooleanConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE151190
-        public void Write(){} // RVA: 0x7AE1511A0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE1511D0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE151300
-        public void .ctor(){} // RVA: 0x7AE151330
+        public void Read(){} // RVA: 0x6DD1E90
+        public void Write(){} // RVA: 0x6DD1EA0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x6DD1ED0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x6DD2000
+        public void .ctor(){} // RVA: 0x6DD2030
     }
 
     public class BooleanConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE6D1230
-        public void Write(){} // RVA: 0x7AE6D1270
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D12A0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D1380
-        public void .ctor(){} // RVA: 0x7AE6D13B0
+        public void Read(){} // RVA: 0x73474E0
+        public void Write(){} // RVA: 0x7347520
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7347550
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7347630
+        public void .ctor(){} // RVA: 0x7347660
     }
 
     public class ByteArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE151370
-        public void Write(){} // RVA: 0x7AE1513E0
-        public void .ctor(){} // RVA: 0x7AE151570
+        public void Read(){} // RVA: 0x6DD2070
+        public void Write(){} // RVA: 0x6DD20E0
+        public void .ctor(){} // RVA: 0x6DD2270
     }
 
     public class ByteArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7AE6D1400
-        public void Write(){} // RVA: 0x7AE6D1450
-        public void .ctor(){} // RVA: 0x7AE6D1540
+        public void Read(){} // RVA: 0x73476B0
+        public void Write(){} // RVA: 0x7347700
+        public void .ctor(){} // RVA: 0x73477F0
     }
 
     public class ByteConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE1515B0
-        public void Read(){} // RVA: 0x7AE151600
-        public void Write(){} // RVA: 0x7AE151660
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE151690
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE1516A0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE1516D0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE151750
+        public void .ctor(){} // RVA: 0x6DD22B0
+        public void Read(){} // RVA: 0x6DD2300
+        public void Write(){} // RVA: 0x6DD2360
+        public void ReadAsPropertyNameCore(){} // RVA: 0x6DD2390
+        public void WriteAsPropertyNameCore(){} // RVA: 0x6DD23A0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x6DD23D0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x6DD2450
     }
 
     public class ByteConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE6D1580
-        public void Read(){} // RVA: 0x7AE6D15E0
-        public void Write(){} // RVA: 0x7AE6D1620
-        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D1680
-        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D16D0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D1700
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D1770
+        public void .ctor(){} // RVA: 0x7347830
+        public void Read(){} // RVA: 0x7347890
+        public void Write(){} // RVA: 0x73478D0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7347930
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7347980
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x73479B0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7347A20
     }
 
 }

@@ -8,54 +8,54 @@ namespace VRC.Core
     public class UnityEventFilter : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A8BFA590
-        public void Equals(){} // RVA: 0x7A8BFA610
-        public void GetHashCode(){} // RVA: 0x7A8BFA690
-        public void op_Implicit(){} // RVA: 0x7A8BFA710
-        public void InitializeLazy(){} // RVA: 0x7A8BFA7E0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A8BFA950
-        public void GetCachedPtr(){} // RVA: 0x7A8BFAD40
-        public void get_name(){} // RVA: 0x7A8BFAF70
-        public void set_name(){} // RVA: 0x7A8BFBA70
-        public void Instantiate(){} // RVA: 0x7A8BFC260
-        public void Destroy(){} // RVA: 0x7A8BFC740
-        public void DestroyImmediate(){} // RVA: 0x7A8BFC7E0
-        public void FindObjectsOfType(){} // RVA: 0x7A8BFC880
-        public void FindObjectsByType(){} // RVA: 0x7A8BFCAC0
-        public void DontDestroyOnLoad(){} // RVA: 0x7A8BFCDD0
-        public void .cctor(){} // RVA: 0x7A8BFD0E0
-        public void set_hideFlags(){} // RVA: 0x7A8C01B00
-        public void FindObjectOfType(){} // RVA: 0x7A8C01C20
+        public void GetInstanceID(){} // RVA: 0x17072F0
+        public void Equals(){} // RVA: 0x1707370
+        public void GetHashCode(){} // RVA: 0x17073F0
+        public void op_Implicit(){} // RVA: 0x1707470
+        public void InitializeLazy(){} // RVA: 0x1707540
+        public void IsNativeObjectAlive(){} // RVA: 0x17076B0
+        public void GetCachedPtr(){} // RVA: 0x1707A90
+        public void get_name(){} // RVA: 0x1707CC0
+        public void set_name(){} // RVA: 0x17087C0
+        public void Instantiate(){} // RVA: 0x1708FB0
+        public void Destroy(){} // RVA: 0x1709490
+        public void DestroyImmediate(){} // RVA: 0x1709530
+        public void FindObjectsOfType(){} // RVA: 0x17095D0
+        public void FindObjectsByType(){} // RVA: 0x1709810
+        public void DontDestroyOnLoad(){} // RVA: 0x1709B00
+        public void .cctor(){} // RVA: 0x1709E10
+        public void set_hideFlags(){} // RVA: 0x170E830
+        public void FindObjectOfType(){} // RVA: 0x170E950
     }
 
     public class UnityVersion : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7FC5C20
-        public void CompareTo(){} // RVA: 0x7A7FC5C40
-        public void Parse(){} // RVA: 0x7B1775290
-        public void TryParse(){} // RVA: 0x7B17756D0
-        public void ToString(){} // RVA: 0x7A7FC5C70
-        public void .cctor(){} // RVA: 0x7B1775D90
+        public void .ctor(){} // RVA: 0xA74400
+        public void CompareTo(){} // RVA: 0xA74420
+        public void Parse(){} // RVA: 0xA5E1560
+        public void TryParse(){} // RVA: 0xA5E19A0
+        public void ToString(){} // RVA: 0xA744C0
+        public void .cctor(){} // RVA: 0xA5E2050
     }
 
     public class UpdateDelegator : Object
     {
         // ── Methods ──
-        public void Dispatch(){} // RVA: 0x7B1775E70
-        public void DispatchAfter(){} // RVA: 0x7B1776160
-        public void ManagedUpdate(){} // RVA: 0x7B1776390
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7B1776760
+        public void Dispatch(){} // RVA: 0xA5E2130
+        public void DispatchAfter(){} // RVA: 0xA5E2420
+        public void ManagedUpdate(){} // RVA: 0xA5E2650
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0xA5E2A20
     }
 
     public class UrlAllowlistConfig : Object
     {
         // ── Methods ──
-        public void GetRemoteLists(){} // RVA: 0x7B176A570
-        public void get_DomainExplicitAllowlist(){} // RVA: 0x7B176AA90
-        public void get_DomainWildcardAllowlist(){} // RVA: 0x7B176AB20
-        public void .cctor(){} // RVA: 0x7B176ABB0
+        public void GetRemoteLists(){} // RVA: 0xA5D6710
+        public void get_DomainExplicitAllowlist(){} // RVA: 0xA5D6C30
+        public void get_DomainWildcardAllowlist(){} // RVA: 0xA5D6CC0
+        public void .cctor(){} // RVA: 0xA5D6D50
     }
 
 }

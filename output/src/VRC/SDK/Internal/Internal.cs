@@ -8,32 +8,32 @@ namespace VRC.SDK.Internal
     public class VRCJokeJamTracker : VRCCustomAction
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A9A036B0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A9A03BE0
+        public void Execute(){} // RVA: 0x251EBA0
+        public void .ctor(){} // RVA: 0xB43D60
         // ── Unresolved (hash) ──
-        public void m_3EA(){} // RVA: 0x7A9A03410
-        public void m_F36(){} // RVA: 0x7A9A03560
-        public void m_D8F(){} // RVA: 0x7A9A03940
-        public void m_F2D(){} // RVA: 0x7A9A03A90
-        public void m_8CD(){} // RVA: 0x7A9A03D30
-        public void m_3FD(){} // RVA: 0x7A9A03E80
+        public void m_777(){} // RVA: 0x251EA50
+        public void m_BCF(){} // RVA: 0x251EE30
+        public void m_EA0(){} // RVA: 0x251EF80
+        public void m_B1A(){} // RVA: 0x251F0D0
+        public void m_9AE(){} // RVA: 0x251F220
+        public void m_86F(){} // RVA: 0x251F370
+        public void m_AD2(){} // RVA: 0x251F4C0
+        public void m_E6D(){} // RVA: 0x251F610
     }
 
     public class VRCUdonAnalytics : VRCCustomAction
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A9A04F70
-        public void .ctor(){} // RVA: 0x7A9A05050
-        public void Initialize(){} // RVA: 0x7A9A05120
+        public void Execute(){} // RVA: 0x25205D0
+        public void .ctor(){} // RVA: 0x251FEF0
+        public void Initialize(){} // RVA: 0x251FFC0
         // ── Unresolved (hash) ──
-        public void m_F36(){} // RVA: 0x7A9A04460
-        public void m_3FD(){} // RVA: 0x7A9A045B0
-        public void m_D8F(){} // RVA: 0x7A9A04A30
-        public void m_2DD(){} // RVA: 0x7A9A04B80
-        public void m_AC8(){} // RVA: 0x7A9A04CD0
-        public void m_8CD(){} // RVA: 0x7A9A04E20
-        public void m_3EA(){} // RVA: 0x7A9A05260
+        public void m_AD2(){} // RVA: 0x251F7D0
+        public void m_777(){} // RVA: 0x251F920
+        public void m_9AE(){} // RVA: 0x251FA70
+        public void m_BCF(){} // RVA: 0x25201F0
+        public void m_B1A(){} // RVA: 0x2520340
+        public void m_E6D(){} // RVA: 0x2520490
     }
 
 }

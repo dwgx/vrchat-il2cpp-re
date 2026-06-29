@@ -8,53 +8,53 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class NetSyncConnection : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED9AC0
+        public void .ctor(){} // RVA: 0x6B60A30
     }
 
     public class NetSyncSession : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED9D90
+        public void .ctor(){} // RVA: 0x6B60D00
     }
 
     public class NetSyncSessionList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDA060
+        public void .ctor(){} // RVA: 0x6B60FD0
     }
 
     public class NetSyncSessionsChangedNotification : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDA330
+        public void .ctor(){} // RVA: 0x6B612A0
     }
 
     public class NetSyncSetSessionPropertyResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDA4E0
+        public void .ctor(){} // RVA: 0x6B61450
     }
 
     public class NetSyncVoipAttenuationValue : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDA630
+        public void .ctor(){} // RVA: 0x6B615A0
     }
 
     public class NetSyncVoipAttenuationValueList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDA760
+        public void .ctor(){} // RVA: 0x6B616D0
     }
 
     public class NetworkingPeer : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9725F90
-        public void get_ID(){} // RVA: 0x7A80F2570
-        public void set_ID(){} // RVA: 0x7A97242F0
-        public void get_State(){} // RVA: 0x7A83782A0
-        public void set_State(){} // RVA: 0x7A84385B0
+        public void .ctor(){} // RVA: 0x2232610
+        public void get_ID(){} // RVA: 0xB5DBF0
+        public void set_ID(){} // RVA: 0x2230E30
+        public void get_State(){} // RVA: 0xE62D00
+        public void set_State(){} // RVA: 0x1033F40
     }
 
 }

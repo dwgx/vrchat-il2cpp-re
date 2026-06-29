@@ -8,31 +8,31 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class RejoinDialogResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDD0C0
+        public void .ctor(){} // RVA: 0x6B64030
     }
 
     public class Room : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDD190
+        public void .ctor(){} // RVA: 0x6B64100
     }
 
     public class RoomInviteNotification : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDE390
+        public void .ctor(){} // RVA: 0x6B65300
     }
 
     public class RoomInviteNotificationList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDE5C0
+        public void .ctor(){} // RVA: 0x6B65530
     }
 
     public class RoomList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADEDDFB0
+        public void .ctor(){} // RVA: 0x6B64F20
     }
 
 }

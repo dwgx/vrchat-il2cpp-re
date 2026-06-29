@@ -1,1188 +1,1183 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Network
 // Classes: 54
-// Methods: 1012
+// Methods: 1002
 
 namespace VRC.Network
 {
-    /// <summary>Originally: ÎÌÎÍÌÎÎÍÍÌÎÍÌÍÌÎÌÎÍÌÌÎÍ</summary>
-    public class FlatBufferNetworkSerializer : NetworkReadyHandler_6CE9
+    /// <summary>Originally: ÍÌÎÍÎÌÌÍÌÎÌÏÎÍÌÏÏÏÎÏÏÏÏ</summary>
+    public class FlatBufferNetworkSerializer : NetworkReadyHandler_D8EE
     {
         // ── Methods ──
-        public void Encode(){} // RVA: 0x7A83FF160
-        public void Awake(){} // RVA: 0x7A83FC390
-        public void Decode(){} // RVA: 0x7A8401590
-        public void CanProcessDataPart(){} // RVA: 0x7A83FCAD0
-        public void CanSerialize32Bit(){} // RVA: 0x7A80D7320
-        public void .ctor(){} // RVA: 0x7A83FF250
-        public void Initialize(){} // RVA: 0x7A83FF930
-        public void Reset(){} // RVA: 0x7A8400430
-        public void NeedsSync(){} // RVA: 0x7A8401410
-        public void SerializedName(){} // RVA: 0x7A8401430
-        public void set_UseDirectPoseCodec(){} // RVA: 0x7A84017D0
-        public void get_UseDirectPoseCodec(){} // RVA: 0x7A8401420
-        public void UpdatePuppetChannelTypes(){} // RVA: 0x7A84017E0
-        public void CanSerialize8Bit(){} // RVA: 0x7A81BD750
-        public void set_TypeId(){} // RVA: 0x7A84018E0
-        public void get_TypeId(){} // RVA: 0x7A8401A30
-        public void Start(){} // RVA: 0x7A8402920
-        public void NeedsImportant(){} // RVA: 0x7A81BD750
-        public void OnDestroy(){} // RVA: 0x7A8403740
-        // ── 22 unresolved (hash) ──
-        public void m_715(){} // RVA: 0x7A83FC090
-        public void m_B10(){} // RVA: 0x7A83FC2A0
-        public void m_F23(){} // RVA: 0x7A83FC340
-        public void m_A1A(){} // RVA: 0x7A80D7320
-        public void m_144(){} // RVA: 0x7A83FC760
-        // ... 17 more unresolved methods
+        public void Encode(){} // RVA: 0xEF25F0
+        public void Awake(){} // RVA: 0xEF2E60
+        public void set_UseDirectPoseCodec(){} // RVA: 0xEF3230
+        public void CanSerialize8Bit(){} // RVA: 0xC2E4C0
+        public void UpdatePuppetChannelTypes(){} // RVA: 0xEF37C0
+        public void CanSerialize32Bit(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0xEF3A30
+        public void get_TypeId(){} // RVA: 0xEF4110
+        public void Start(){} // RVA: 0xEF4120
+        public void Decode(){} // RVA: 0xEF52E0
+        public void set_TypeId(){} // RVA: 0xEF43F0
+        public void NeedsImportant(){} // RVA: 0xC2E4C0
+        public void SerializedName(){} // RVA: 0xEF4F60
+        public void get_UseDirectPoseCodec(){} // RVA: 0xEF50C0
+        public void CheckAndGetSerializedData(){} // RVA: 0xEF7240
+        public void Reset(){} // RVA: 0xEF9270
+        public void NeedsSync(){} // RVA: 0xEFA120
+        public void OnDestroy(){} // RVA: 0xEFA1D0
+        // ── 25 unresolved (hash) ──
+        public void m_815(){} // RVA: 0xEF1A70
+        public void m_2E7(){} // RVA: 0xE37BF0
+        public void m_B26(){} // RVA: 0xEF26E0
+        public void m_B5E(){} // RVA: 0xEF28E0
+        public void m_DC7(){} // RVA: 0xEF2A90
+        // ... 20 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÍÌÌÌÎÌÍÍÌÌÌÏÎÏÌÎÌÏÎÎÎÏ</summary>
-    public class FlatBufferNetworkSerializerSibSibling_2850
+    /// <summary>Originally: ÎÍÌÎÎÎÍÌÏÎÏÍÍÏÏÍÎÎÌÎÎÍÌ</summary>
+    public class NetworkCancelRPCComponent_5DF9 : MonoBehaviour
     {
         // ── Methods ──
-        public void Serialize(){} // RVA: 0x7A7E18800
-        public void Deserialize(){} // RVA: 0x7A7E18C30
-        public void Read(){} // RVA: 0x7A7E18770
-        public void Write(){} // RVA: 0x7A7E18770
-    }
-
-    /// <summary>Originally: ÍÍÏÎÏÏÌÎÌÌÏÏÎÎÌÍÍÎÏÎÎÎÍ</summary>
-    public class FlatBufferNetworkSerializerSibSibling_74EA : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A83F8E80
-        public void Equals(){} // RVA: 0x7A83F8F80
-        public void GetHashCode(){} // RVA: 0x7A83F9AA0
-        public void op_Implicit(){} // RVA: 0x7A83F9D60
-        public void CompareBaseObjects(){} // RVA: 0x7A83FA1D0
-        public void Dispose(){} // RVA: 0x7A83FA640
-        public void Cleanup(){} // RVA: 0x7A8154D80
-        public void get_name(){} // RVA: 0x7A83FA8F0
-        public void set_name(){} // RVA: 0x7A83FA910
-        public void Instantiate(){} // RVA: 0x7A83FAA10
-        public void Destroy(){} // RVA: 0x7A83FAE90
-        public void .ctor(){} // RVA: 0x7A83FAEE0
-        public void Initialize(){} // RVA: 0x7A80FF440
-        public void FindObjectsByType(){} // RVA: 0x7A83FB820
-        public void DontDestroyOnLoad(){} // RVA: 0x7A83FBDB0
-        public void get_hideFlags(){} // RVA: 0x7A818F860
-        public void set_hideFlags(){} // RVA: 0x7A83FA8F0
-        public void FindObjectOfType(){} // RVA: 0x7A818F850
-        public void FindFirstObjectByType(){} // RVA: 0x7A83FBDE0
-    }
-
-    /// <summary>Originally: ÍÌÎÌÍÍÍÏÎÍÎÎÌÎÎÌÏÌÎÌÏÌÌ</summary>
-    public class FlatBufferNetworkSerializerSibling_980A : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80D7310
-        public void Equals(){} // RVA: 0x7A83F47F0
-        public void GetHashCode(){} // RVA: 0x7A82A20A0
-        public void .ctor(){} // RVA: 0x7A83F5820
-        public void Initialize(){} // RVA: 0x7A8105A90
-        public void IsNativeObjectAlive(){} // RVA: 0x7A82A2C90
-        public void GetCachedPtr(){} // RVA: 0x7A83F5990
-        public void get_name(){} // RVA: 0x7A83F59B0
-        public void Dispose(){} // RVA: 0x7A80D7310
-        public void Cleanup(){} // RVA: 0x7A83F69F0
-        public void Destroy(){} // RVA: 0x7A83F69F0
-        public void DestroyImmediate(){} // RVA: 0x7A83F6A00
-        public void FindObjectsOfType(){} // RVA: 0x7A80D7310
-        public void FindObjectsByType(){} // RVA: 0x7A82A2C90
-        public void DontDestroyOnLoad(){} // RVA: 0x7A83F5990
-        public void get_hideFlags(){} // RVA: 0x7A83F5990
-        public void set_hideFlags(){} // RVA: 0x7A83F5990
-    }
-
-    /// <summary>Originally: ÎÎÎÎÏÌÌÎÌÍÌÌÎÍÏÌÎÌÍÏÌÏÏ</summary>
-    public class NetworkCancelRPCComponent_4A51 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A8E8D460
-        public void RaiseCancellation(){} // RVA: 0x7A8E8D5B0
-        public void IsInvoking(){} // RVA: 0x7A8E8D6E0
-        public void CancelInvoke(){} // RVA: 0x7A8E8D6F0
-        public void OnDestroy(){} // RVA: 0x7A8E8DD00
-        public void InvokeRepeating(){} // RVA: 0x7A80D7320
-        public void Awake(){} // RVA: 0x7A8E8DD50
-        public void StartCoroutine_Auto(){} // RVA: 0x7A8E8DD60
-        public void StopCoroutine(){} // RVA: 0x7A8E8DD00
-        public void .ctor(){} // RVA: 0x7A8E8DDB0
-        public void Initialize(){} // RVA: 0x7A8E8DE10
-        public void set_useGUILayout(){} // RVA: 0x7A8E8DF10
-        public void print(){} // RVA: 0x7A8E8E140
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A8E8E400
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A8E8E540
-        public void InvokeDelayed(){} // RVA: 0x7A8E8E560
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A8E8E820
-        public void StartCoroutineManaged(){} // RVA: 0x7A8E8EF80
-        public void StartCoroutineManaged2(){} // RVA: 0x7A8E8D6E0
-        public void StopCoroutineManaged(){} // RVA: 0x7A8E8F080
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A8E8DD60
-        public void CancelRPC(){} // RVA: 0x7A8E8F220
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A8E8F320
-        public void OnTriggerExit(){} // RVA: 0x7A8E8F6D0
+        public void get_destroyCancellationToken(){} // RVA: 0x19A64E0
+        public void RaiseCancellation(){} // RVA: 0xB43320
+        public void IsInvoking(){} // RVA: 0xC2E4C0
+        public void OnDestroy(){} // RVA: 0x19A6660
+        public void Invoke(){} // RVA: 0x19A66B0
+        public void InvokeRepeating(){} // RVA: 0x19A6850
+        public void StartCoroutine(){} // RVA: 0x19A6950
+        public void StartCoroutine_Auto(){} // RVA: 0x19A6970
+        public void StopCoroutine(){} // RVA: 0x19A6A70
+        public void StopAllCoroutines(){} // RVA: 0x19A6B80
+        public void get_useGUILayout(){} // RVA: 0x19A7130
+        public void set_useGUILayout(){} // RVA: 0x19A7140
+        public void get_didStart(){} // RVA: 0x19A7850
+        public void get_didAwake(){} // RVA: 0x19A7950
+        public void print(){} // RVA: 0x19A7F60
+        public void Internal_CancelInvokeAll(){} // RVA: 0x19A8220
+        public void Internal_IsInvokingAll(){} // RVA: 0x19A6660
+        public void InvokeDelayed(){} // RVA: 0x19A8220
+        public void IsObjectMonoBehaviour(){} // RVA: 0x19A8230
+        public void CancelRPC(){} // RVA: 0x19A85D0
+        public void StartCoroutineManaged2(){} // RVA: 0x19A86D0
+        public void .ctor(){} // RVA: 0x19A8C80
+        public void Initialize(){} // RVA: 0x19A8CE0
+        public void GetScriptClassName(){} // RVA: 0x19A8F10
+        public void OnCancellationTokenCreated(){} // RVA: 0x19A94C0
+        public void StopCoroutine_Injected(){} // RVA: 0x19A9970
+        public void Awake(){} // RVA: 0x19A99C0
         // ── Unresolved (hash) ──
-        public void m_86C(){} // RVA: 0x7A8E8F7D0
-        public void m_619(){} // RVA: 0x7A8E8F7E0
-        public void m_986(){} // RVA: 0x7A8E8F800
+        public void m_31C(){} // RVA: 0x19A95C0
     }
 
-    /// <summary>Originally: ÌÎÌÎÍÏÌÎÌÍÍÌÏÏÌÏÌÍÌÌÎÎÏ</summary>
-    public class NetworkDeserializeImplementationSerializeImplem_BEEC : BaseFormatter`1
+    /// <summary>Originally: ÍÎÍÍÌÏÎÍÏÏÏÍÏÎÏÏÏÍÎÍÍÌÍ</summary>
+    public class NetworkDeserializeImplementationSerializeImplem_F1B4 : BaseFormatter`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7A82D1140
-        public void DeserializeImplementation(){} // RVA: 0x7A82D1270
-        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
-        public void .ctor(){} // RVA: 0x7A82D1460
-        public void SerializeImplementation(){} // RVA: 0x7A82D14C0
+        public void GetUninitializedObject(){} // RVA: 0xDAC980
+        public void SerializeImplementation(){} // RVA: 0xDAC990
+        public void .ctor(){} // RVA: 0xDACA40
+        public void .cctor(){} // RVA: 0xDACAA0
+        public void DeserializeImplementation(){} // RVA: 0xDACBD0
     }
 
-    /// <summary>Originally: ÎÌÎÎÍÎÎÌÍÎÎÍÏÎÎÌÏÏÏÍÌÎÌ</summary>
-    public class NetworkDisposeAsyncImplSibling_2597
+    /// <summary>Originally: ÏÍÏÏÍÌÎÏÏÏÍÏÌÍÏÎÎÍÎÌÏÏÎ</summary>
+    public class NetworkDisposeAsyncImplSibling_12FB
     {
         // ── Unresolved (hash) ──
-        public void m_A3D(){} // RVA: 0x7A7E00680
-        public void m_BFA(){} // RVA: 0x7A7E00680
-        public void m_97C(){} // RVA: 0x7A7E18770
-        public void m_3E5(){} // RVA: 0x7A7E00710
-        public void m_C5E(){} // RVA: 0x7A7E00680
+        public void m_8C6(){} // RVA: 0x87C0A0
+        public void m_44E(){} // RVA: 0x87C0A0
+        public void m_D1F(){} // RVA: 0x894290
+        public void m_9D4(){} // RVA: 0x87C130
+        public void m_B49(){} // RVA: 0x87C0A0
     }
 
-    /// <summary>Originally: ÏÎÎÎÍÌÍÌÎÏÏÌÍÌÍÎÎÌÍÏÍÎÍ</summary>
-    public class NetworkDisposeAsyncImplSibling_DBF2
+    /// <summary>Originally: ÌÏÍÏÎÏÎÌÌÎÍÍÎÍÎÍÌÌÍÌÌÍÍ</summary>
+    public class NetworkDisposeAsyncImplSibling_6F38
     {
         // ── Unresolved (hash) ──
-        public void m_C6C(){} // RVA: 0x7A7E00680
-        public void m_23D(){} // RVA: 0x7A7E18800
-        public void m_80C(){} // RVA: 0x7A7E18800
-        public void m_C5E(){} // RVA: 0x7A7E00680
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
     }
 
-    /// <summary>Originally: ÏÎÍÎÍÌÎÌÌÍÌÌÍÏÌÎÏÌÍÏÎÍÌ</summary>
-    public class NetworkDisposeAsyncImplSibling_E255
+    /// <summary>Originally: ÍÎÎÌÍÏÍÌÎÌÏÍÎÎÏÌÎÏÏÍÌÏÎ</summary>
+    public class NetworkDisposeAsyncImplSibling_CC8B
     {
         // ── Unresolved (hash) ──
-        public void m_C6C(){} // RVA: 0x7A7E00680
-        public void m_02F(){} // RVA: 0x7A7E00710
-        public void m_72C(){} // RVA: 0x7A7E00680
-        public void m_D8F(){} // RVA: 0x7A7E00680
-        public void m_1A6(){} // RVA: 0x7A7E1D590
-        public void m_23D(){} // RVA: 0x7A7E18800
-        public void m_80C(){} // RVA: 0x7A7E18800
-        public void m_C5E(){} // RVA: 0x7A7E00680
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_7CC(){} // RVA: 0x87C130
+        public void m_B36(){} // RVA: 0x87C0A0
+        public void m_358(){} // RVA: 0x87C0A0
+        public void m_192(){} // RVA: 0x899290
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
     }
 
-    /// <summary>Originally: ÏÍÎÏÍÏÍÎÏÎÍÍÌÌÎÌÍÌÎÎÏÌÍ</summary>
-    public class NetworkDisposeAsyncImpl_53CB : NetworkDisposeAsync_122A
+    /// <summary>Originally: ÍÌÍÍÍÎÎÏÎÍÎÍÎÎÎÎÍÌÌÎÏÍÎ</summary>
+    public class NetworkDisposeAsyncImplSibling_CF98
+    {
+        // ── Unresolved (hash) ──
+        public void m_244(){} // RVA: 0x87C0A0
+        public void m_E86(){} // RVA: 0x894320
+        public void m_161(){} // RVA: 0x894320
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÎÎÌÍÏÏÌÍÍÏÌÎÎÎÌÌÍÍÏÍÍÎÏ</summary>
+    public class NetworkDisposeAsyncImpl_3424 : NetworkDisposeAsync_C6C4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A997E3D0
-        public void Initialize(){} // RVA: 0x7A997E410
+        public void .ctor(){} // RVA: 0x249AA50
+        public void Initialize(){} // RVA: 0x249AA90
+        // ── 18 unresolved (hash) ──
+        public void m_437(){} // RVA: 0x249A690
+        public void m_358(){} // RVA: 0x249A7D0
+        public void m_E86(){} // RVA: 0x249A850
+        public void m_233(){} // RVA: 0x249A8F0
+        public void m_C3C(){} // RVA: 0x249ABF0
+        // ... 13 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÌÎÏÍÌÍÎÍÏÎÏÌÏÏÏÍÏÏÍÍÍ</summary>
+    public class NetworkDisposeAsyncImpl_641A : NetworkDisposeAsync_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x24A2F60
+        // ── 12 unresolved (hash) ──
+        public void m_A86(){} // RVA: 0x24A2AF0
+        public void m_E68(){} // RVA: 0x24A2AF0
+        public void m_490(){} // RVA: 0x24A2C00
+        public void m_5CE(){} // RVA: 0x24A2DA0
+        public void m_161(){} // RVA: 0x24A2EB0
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÏÎÏÏÍÎÎÏÌÎÎÎÌÌÏÍÍÏÎÎÏ</summary>
+    public class NetworkDisposeAsyncImpl_BA26 : NetworkDisposeAsync_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x1B482A0
+        // ── 11 unresolved (hash) ──
+        public void m_6E8(){} // RVA: 0x1B47D40
+        public void m_8C6(){} // RVA: 0x1B47D50
+        public void m_D91(){} // RVA: 0x1B47EF0
+        public void m_15F(){} // RVA: 0x1B48000
+        public void m_44E(){} // RVA: 0x1B48110
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÎÎÏÏÍÍÌÏÍÎÎÍÌÌÍÌÎÏÌÌÍ</summary>
+    public class NetworkDisposeAsyncImpl_BF4E : NetworkDisposeAsync_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x1ADA0C0
+        // ── Unresolved (hash) ──
+        public void m_664(){} // RVA: 0x1AD92A0
+        public void m_3C2(){} // RVA: 0x1AD9440
+        public void m_B49(){} // RVA: 0x1AD95E0
+        public void m_FB2(){} // RVA: 0x1AD96F0
+        public void m_218(){} // RVA: 0x1AD9890
+        public void m_589(){} // RVA: 0x1AD9A30
+        public void m_301(){} // RVA: 0x1AD9BD0
+        public void m_AC5(){} // RVA: 0x1AD9D70
+        public void m_DBD(){} // RVA: 0x1AD9F10
+    }
+
+    /// <summary>Originally: ÏÎÌÍÏÌÍÍÎÌÌÌÎÎÎÌÍÏÌÏÎÌÎ</summary>
+    public class NetworkDisposeAsyncImpl_C193 : NetworkDisposeAsync_C6C4
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1ADA0B0
+        public void Initialize(){} // RVA: 0x249B880
+        // ── Unresolved (hash) ──
+        public void m_AFF(){} // RVA: 0x249B520
+        public void m_B40(){} // RVA: 0x249B5D0
+        public void m_5CE(){} // RVA: 0x249B770
+        public void m_B49(){} // RVA: 0x249B920
+        public void m_8B8(){} // RVA: 0x249B920
+        public void m_B7A(){} // RVA: 0x249B930
+        public void m_E86(){} // RVA: 0x249BA40
+        public void m_D37(){} // RVA: 0x249BAE0
+        public void m_244(){} // RVA: 0x249BC80
+        public void m_161(){} // RVA: 0x249BE20
+    }
+
+    /// <summary>Originally: ÍÌÏÎÎÍÎÎÎÌÏÍÎÏÍÍÎÏÌÌÏÌÍ</summary>
+    public class NetworkDisposeAsyncSibling_4E6F
+    {
+        // ── Unresolved (hash) ──
+        public void m_399(){} // RVA: 0x87C0A0
+        public void m_B62(){} // RVA: 0x87C0A0
+        public void m_0ED(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÎÏÌÎÍÏÏÍÏÍÎÍÍÏÌÌÌÍÎÏÍÎÎ</summary>
+    public class NetworkDisposeAsyncSibling_73C8
+    {
+        // ── Unresolved (hash) ──
+        public void m_437(){} // RVA: 0x87C130
+        public void m_233(){} // RVA: 0x87C130
+        public void m_51E(){} // RVA: 0x87C0A0
+        public void m_C89(){} // RVA: 0x87BEB0
+        public void m_327(){} // RVA: 0x87BEB0
+        public void m_4A1(){} // RVA: 0x87BEB0
+        public void m_B49(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÏÏÌÌÎÎÎÏÎÍÌÏÏÎÍÌÌÍÎÎÎÎÌ</summary>
+    public class NetworkDisposeAsync_C6C4 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xC38360
+        public void op_Implicit(){} // RVA: 0xC38370
+        public void CompareBaseObjects(){} // RVA: 0x249BED0
+        public void IsNativeObjectAlive(){} // RVA: 0x249BFE0
+        public void GetCachedPtr(){} // RVA: 0x249C0F0
+        public void get_name(){} // RVA: 0x249C200
+        public void set_name(){} // RVA: 0x249C3E0
+        public void Instantiate(){} // RVA: 0x249C580
+        public void Destroy(){} // RVA: 0x87C0A0
+        public void .ctor(){} // RVA: 0x249C750
+        public void Initialize(){} // RVA: 0x249C890
+        public void Dispose(){} // RVA: 0x249C9E0
+        public void DisposeAsync(){} // RVA: 0x249CA60
+        public void Finalize(){} // RVA: 0x249CBF0
+    }
+
+    /// <summary>Originally: ÎÎÍÎÏÍÎÏÍÍÏÌÎÌÎÎÌÏÍÎÍÏÎ</summary>
+    public class NetworkDisposeAsync_EB3E : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB70160
+        public void Equals(){} // RVA: 0x1765410
+        public void Finalize(){} // RVA: 0x1765620
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x1765810
+        public void IsNativeObjectAlive(){} // RVA: 0x17658D0
+        public void DisposeAsync(){} // RVA: 0x1765B30
+        public void get_name(){} // RVA: 0x1765CC0
+        public void Dispose(){} // RVA: 0x1765F20
+        public void Cleanup(){} // RVA: 0xB700F0
+        public void Destroy(){} // RVA: 0x1765FC0
+        public void .ctor(){} // RVA: 0x17660F0
+        public void Initialize(){} // RVA: 0x1766980
+        public void FindObjectsByType(){} // RVA: 0x1766A40
+        public void DontDestroyOnLoad(){} // RVA: 0x1766CA0
+        public void get_hideFlags(){} // RVA: 0xB44DC0
+        public void set_hideFlags(){} // RVA: 0x1766D60
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB44DC0
+        public void CheckNullArgument(){} // RVA: 0x1766E90
+    }
+
+    /// <summary>Originally: ÌÏÌÍÌÎÎÏÎÏÎÍÎÍÏÍÌÍÌÍÌÍÏ</summary>
+    public class NetworkEnableMeshRPCSetPresetRPCComponent_8E22 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void EnableMeshRPC(){} // RVA: 0x13064B0
+        public void RaiseCancellation(){} // RVA: 0x1306580
+        public void IsInvoking(){} // RVA: 0x1306C70
+        public void Start(){} // RVA: 0x1306DA0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1306FF0
+        public void StartCoroutine(){} // RVA: 0x13072D0
+        public void StartCoroutine_Auto(){} // RVA: 0x13074E0
+        public void Use(){} // RVA: 0x13076F0
+        public void StopAllCoroutines(){} // RVA: 0x13079D0
+        public void Drop(){} // RVA: 0x13080C0
+        public void set_useGUILayout(){} // RVA: 0x1308330
+        public void SetPresetRPC(){} // RVA: 0x1308A20
+        public void Pickup(){} // RVA: 0x1308A70
+    }
+
+    /// <summary>Originally: ÍÌÎÌÌÍÌÏÎÏÌÏÏÎÍÌÏÏÍÌÌÌÌ</summary>
+    public class NetworkEnumeratorContainsSibling_87E0
+    {
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0x87D280
+        public void get_Current(){} // RVA: 0x87D280
+        // ── 18 unresolved (hash) ──
+        public void m_73F(){} // RVA: 0x87D280
+        public void m_F7A(){} // RVA: 0x87D280
+        public void m_55E(){} // RVA: 0x87D280
+        public void m_B44(){} // RVA: 0x87D280
+        public void m_C5C(){} // RVA: 0x87D280
+        // ... 13 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÌÍÏÎÏÌÏÍÌÎÎÏÏÎÌÍÏÌÍÎÏÎ</summary>
+    public class NetworkInternalApplyOverrideRPCPlayerJoinedHandler_264D : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1F97B70
+        public void RaiseCancellation(){} // RVA: 0x1F97F60
+        public void OnDestroy(){} // RVA: 0x1F98450
+        public void .ctor(){} // RVA: 0x1F98560
+        public void Initialize(){} // RVA: 0x1F98630
+        public void Start(){} // RVA: 0x1F98740
+        public void StartCoroutine(){} // RVA: 0x1F98B30
+        public void OnPlayerJoined(){} // RVA: 0x1F99030
+        public void StopCoroutine(){} // RVA: 0x1F992D0
+        public void StopAllCoroutines(){} // RVA: 0x1F997D0
+        public void get_useGUILayout(){} // RVA: 0x1F998E0
+        public void set_useGUILayout(){} // RVA: 0x1F99CD0
+        public void InternalApplyOverrideRPC(){} // RVA: 0x1F99E70
+        public void get_didAwake(){} // RVA: 0x1F9A290
+        public void print(){} // RVA: 0x1F9A780
+        public void Awake(){} // RVA: 0x1F9A8C0
+        public void Internal_IsInvokingAll(){} // RVA: 0x1F9AC80
+    }
+
+    /// <summary>Originally: ÍÎÌÎÌÏÏÍÎÏÌÍÏÍÌÎÏÏÎÍÏÎÌ</summary>
+    public class NetworkReadyHandlerImplSibling_AA97
+    {
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x87C0A0
+        public void Process(){} // RVA: 0x87C0A0
+        public void OnReceive(){} // RVA: 0x87C0A0
+        public void OnEvent(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÍÍÌÎÌÎÍÍÎÌÎÏÏÏÍÎÏÏÌÌÍÏÍ</summary>
+    public class NetworkReadyHandlerImpl_5D72 : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1C8B2A0
+        public void .cctor(){} // RVA: 0x1C8B5B0
+        public void Reset(){} // RVA: 0x1C8D620
+        public void OnDestroy(){} // RVA: 0x1C8F3A0
+        public void .ctor(){} // RVA: 0x1C8F5E0
+        public void Initialize(){} // RVA: 0x1C8F820
+        // ── 27 unresolved (hash) ──
+        public void m_058(){} // RVA: 0x1C8A110
+        public void m_FB8(){} // RVA: 0x1C8A370
+        public void m_7A4(){} // RVA: 0x1C8A410
+        public void m_688(){} // RVA: 0x1C8A740
+        public void m_7EA(){} // RVA: 0x1C8A790
+        // ... 22 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÌÌÎÎÌÌÌÌÌÍÏÌÎÌÎÌÍÍÍÌÏÍ</summary>
+    public class NetworkReadyHandlerRelated_0025 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x166EEC0
+        public void Equals(){} // RVA: 0x166F630
+        public void GetHashCode(){} // RVA: 0x166F8C0
+        public void op_Implicit(){} // RVA: 0x166F930
+        public void CompareBaseObjects(){} // RVA: 0x166FDE0
+        public void IsNativeObjectAlive(){} // RVA: 0x1670250
+        public void GetCachedPtr(){} // RVA: 0x1670B70
+        public void .cctor(){} // RVA: 0x1670C40
+    }
+
+    /// <summary>Originally: ÌÌÎÎÌÎÎÏÎÌÎÎÎÏÌÏÌÎÎÍÎÎÍ</summary>
+    public class NetworkReadyHandler_2E70 : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x1A405F0
+        public void .ctor(){} // RVA: 0x1A422B0
+        public void Initialize(){} // RVA: 0x1A400B0
+        public void OnNetworkReady(){} // RVA: 0x1A447E0
+        public void .cctor(){} // RVA: 0x1A44E40
+        public void OnDestroy(){} // RVA: 0x1A400B0
+        public void LateUpdate(){} // RVA: 0x1A46D00
+        // ── 36 unresolved (hash) ──
+        public void m_EF9(){} // RVA: 0x1A400B0
+        public void m_3F8(){} // RVA: 0x1A40100
+        public void m_036(){} // RVA: 0x1A40C90
+        public void m_3E2(){} // RVA: 0x1A41240
+        public void m_F31(){} // RVA: 0x1A415B0
+        // ... 31 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÍÌÏÎÌÏÍÍÎÏÎÌÏÎÏÎÍÎÍÎÏ</summary>
+    public class NetworkReadyHandler_3819 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x2024350
+        public void RaiseCancellation(){} // RVA: 0x2024430
+        public void IsInvoking(){} // RVA: 0x2024450
+        public void CancelInvoke(){} // RVA: 0x20248D0
+        public void Invoke(){} // RVA: 0x2024900
+        public void InvokeRepeating(){} // RVA: 0x2024AD0
+        public void StartCoroutine(){} // RVA: 0x2024CF0
+        public void StartCoroutine_Auto(){} // RVA: 0x2024D40
+        public void StopCoroutine(){} // RVA: 0x2024D70
+        public void StopAllCoroutines(){} // RVA: 0x2024DA0
+        public void OnSpawn(){} // RVA: 0x2025630
+        public void set_useGUILayout(){} // RVA: 0x2025660
+        public void OnDestroy(){} // RVA: 0x20257A0
+        public void get_didAwake(){} // RVA: 0x2026030
+        public void print(){} // RVA: 0x2026170
+        public void Internal_CancelInvokeAll(){} // RVA: 0x2026330
+        public void Internal_IsInvokingAll(){} // RVA: 0x2026500
+        public void OnDisable(){} // RVA: 0x2026BB0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x2026D90
+        public void StartCoroutineManaged(){} // RVA: 0x2027230
+        public void StartCoroutineManaged2(){} // RVA: 0x2027670
+        public void StopCoroutineManaged(){} // RVA: 0x2027850
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x2027E30
+        public void GetScriptClassName(){} // RVA: 0x2027E60
+        public void .ctor(){} // RVA: 0x2027EC0
+        public void Initialize(){} // RVA: 0x20281F0
+        public void OnEnable(){} // RVA: 0x2028220
+        public void StopAllCoroutines_Injected(){} // RVA: 0x2028400
+        public void OnNetworkReady(){} // RVA: 0x2028430
+        public void set_useGUILayout_Injected(){} // RVA: 0x2028780
+        public void get_didStart_Injected(){} // RVA: 0x2029440
+        public void get_didAwake_Injected(){} // RVA: 0x2024D70
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x2029A20
+        public void Start(){} // RVA: 0x2029C80
+        public void InvokeDelayed_Injected(){} // RVA: 0x202B690
+        public void Awake(){} // RVA: 0x202BBB0
+        public void IsInvoking_Injected(){} // RVA: 0x202C150
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x202C750
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x202C850
+    }
+
+    /// <summary>Originally: ÍÎÌÏÏÏÍÌÎÍÍÌÌÎÍÍÏÌÍÎÌÍÎ</summary>
+    public class NetworkReadyHandler_739B : WorldProximityExitStation_6D00
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1FEDF40
+        public void OnNetworkReady(){} // RVA: 0x1FEDF90
+        // ── Unresolved (hash) ──
+        public void m_A55(){} // RVA: 0x1FEDFB0
+        public void m_AAE(){} // RVA: 0x1FEE520
+        public void m_F8A(){} // RVA: 0x1FEEA00
+        public void m_FAF(){} // RVA: 0x1FEEEE0
+        public void m_DE8(){} // RVA: 0x1FEF3C0
+        public void m_F29(){} // RVA: 0x1FEF8A0
+        public void m_A2E(){} // RVA: 0x1FEFD80
+        public void m_2D6(){} // RVA: 0x1FF0260
+        public void m_643(){} // RVA: 0x1FF0740
+    }
+
+    /// <summary>Originally: ÏÍÎÌÎÍÍÎÍÌÏÏÏÍÏÌÎÎÍÎÌÍÎ</summary>
+    public class NetworkReadyHandler_9E00 : WorldProximityExitStation_6D00
+    {
+        // ── Methods ──
+        public void ProvideEvents(){} // RVA: 0x1FE92F0
+        public void .ctor(){} // RVA: 0x1FE9AB0
+        public void Initialize(){} // RVA: 0x1FE9B00
+        public void OnNetworkReady(){} // RVA: 0x1FE9F00
+        // ── Unresolved (hash) ──
+        public void m_23F(){} // RVA: 0x1FE7DB0
+        public void m_3B7(){} // RVA: 0x1FE96C0
+        public void m_828(){} // RVA: 0x1FE9F20
+        public void m_851(){} // RVA: 0x1FEB430
+        public void m_123(){} // RVA: 0x1FEB830
+    }
+
+    /// <summary>Originally: ÍÏÍÌÍÍÍÎÌÎÎÎÏÎÌÍÏÎÍÌÍÍÎ</summary>
+    public class NetworkReadyHandler_D8EE : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1C57760
+        public void RaiseCancellation(){} // RVA: 0xC38360
+        public void IsInvoking(){} // RVA: 0xC38370
+        public void CancelInvoke(){} // RVA: 0xB70160
+        public void Invoke(){} // RVA: 0xB44DC0
+        public void InvokeRepeating(){} // RVA: 0x1C57840
+        public void StartCoroutine(){} // RVA: 0xB43310
+        public void OnEnable(){} // RVA: 0x1C57930
+        public void Awake(){} // RVA: 0xCADE00
+        public void Start(){} // RVA: 0x1C579A0
+        public void get_useGUILayout(){} // RVA: 0x1C57A40
+        public void set_useGUILayout(){} // RVA: 0x1C57AE0
+        public void get_didStart(){} // RVA: 0x2BC99B0
+        public void OnNetworkReady(){} // RVA: 0x1C584D0
+        public void print(){} // RVA: 0x1C58680
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1C58800
+        public void Internal_IsInvokingAll(){} // RVA: 0x1C58A80
+        public void InvokeDelayed(){} // RVA: 0xBC1B30
+        public void IsObjectMonoBehaviour(){} // RVA: 0xB6A8C0
+        public void StartCoroutineManaged(){} // RVA: 0x1C58B70
+        public void StartCoroutineManaged2(){} // RVA: 0x1C58B70
+        public void StopCoroutineManaged(){} // RVA: 0x1C58B80
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1C58B90
+        public void GetScriptClassName(){} // RVA: 0xBFDA40
+        public void OnCancellationTokenCreated(){} // RVA: 0xBFDA50
+        public void OnTriggerExit(){} // RVA: 0x1C58C80
+        public void StopCoroutine_Injected(){} // RVA: 0x1C58C90
+        public void StopAllCoroutines_Injected(){} // RVA: 0x1C58CA0
+        public void get_useGUILayout_Injected(){} // RVA: 0xBE58B0
+        public void set_useGUILayout_Injected(){} // RVA: 0xCA4DF0
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÏÏÏÎÍÌÌÏÏÎÏÎÍÍÌÌÍÍÍÌÌÏÌ</summary>
+    public class NetworkReadyHandler_FE35 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1F9D430
+        public void OnNetworkReady(){} // RVA: 0x1F9D510
+        public void RefreshAvatar(){} // RVA: 0x1F9D520
+        public void CancelInvoke(){} // RVA: 0x1C4D9A0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1F9DB20
+        public void StartCoroutine(){} // RVA: 0x1F9DCF0
+        public void StartCoroutine_Auto(){} // RVA: 0x1F9DF70
+        public void Update(){} // RVA: 0x1F9E4A0
+        public void StopAllCoroutines(){} // RVA: 0xB43310
+        public void get_useGUILayout(){} // RVA: 0x1F9E5D0
+        public void set_useGUILayout(){} // RVA: 0x1F9E6B0
+        public void get_didStart(){} // RVA: 0x1F9E750
+        public void Start(){} // RVA: 0x1F9E880
+        public void print(){} // RVA: 0x1F9F060
+        public void Awake(){} // RVA: 0x1F9F140
+        public void Internal_IsInvokingAll(){} // RVA: 0x1F9F170
+        public void InvokeDelayed(){} // RVA: 0x1F9F1A0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1F9F240
+        public void StartCoroutineManaged(){} // RVA: 0x1F9F4E0
+        public void OnDestroy(){} // RVA: 0x1F9FAF0
+        public void StopCoroutineManaged(){} // RVA: 0x1F9FB90
+        public void SetAvatarUse(){} // RVA: 0x1F9FD60
+        public void GetScriptClassName(){} // RVA: 0x1F9FEE0
+        public void OnCancellationTokenCreated(){} // RVA: 0x1F9FF70
+        public void OnCollisionExit(){} // RVA: 0x1F9F170
+    }
+
+    /// <summary>Originally: ÎÏÏÍÎÏÍÌÏÎÎÏÎÎÍÎÏÌÍÏÎÌÎ</summary>
+    public class NetworkShouldBroadcastInstigator_CC98 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1C914E0
+        public void Equals(){} // RVA: 0x116A650
+        public void GetHashCode(){} // RVA: 0x1C91540
+        public void get_Instigator(){} // RVA: 0xE62D00
+        public void CompareBaseObjects(){} // RVA: 0x1C915F0
+        public void IsNativeObjectAlive(){} // RVA: 0x1C916B0
+        public void .ctor(){} // RVA: 0x1C91790
+        public void Initialize(){} // RVA: 0x1C917A0
+        public void set_name(){} // RVA: 0x1C91800
+        public void Instantiate(){} // RVA: 0xE62D00
+        public void Destroy(){} // RVA: 0xB700F0
+        public void DestroyImmediate(){} // RVA: 0xE62D00
+        public void FindObjectsOfType(){} // RVA: 0xCD64A0
+        public void FindObjectsByType(){} // RVA: 0x1C918C0
+        public void set_Serialize(){} // RVA: 0x1C914E0
+        public void get_Serialize(){} // RVA: 0x1C919A0
+        public void get_ShouldBroadcast(){} // RVA: 0x1C91A50
+        public void set_ShouldBroadcast(){} // RVA: 0x1C91BD0
+        public void get_Time(){} // RVA: 0x1C91DD0
+        public void set_Time(){} // RVA: 0x1C91EC0
+        public void set_Instigator(){} // RVA: 0x1C91EC0
+        public void ToString(){} // RVA: 0x1C91FD0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x1C924C0
+        public void Internal_CloneSingle(){} // RVA: 0x1C925C0
+        public void DeepClone(){} // RVA: 0x1C92670
+        public void set_Sender(){} // RVA: 0xEEA060
+        public void get_Sender(){} // RVA: 0xE32C80
+        public void get_Store(){} // RVA: 0x1C92870
+        public void set_Store(){} // RVA: 0xB70160
+        public void SetName(){} // RVA: 0x1C914E0
+        // ── Unresolved (hash) ──
+        public void m_20F(){} // RVA: 0x1C91F20
+    }
+
+    /// <summary>Originally: ÎÌÏÍÎÎÏÏÎÎÍÍÏÎÍÍÎÎÌÎÏÍÏ</summary>
+    public class NetworkSyncableRelated_47F8 : LifecycleComponentSibling_1706
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x19DD9E0
+        public void Initialize(){} // RVA: 0x19DDD50
+        // ── 11 unresolved (hash) ──
+        public void m_9D1(){} // RVA: 0x19DD040
+        public void m_2A6(){} // RVA: 0x19DD240
+        public void m_513(){} // RVA: 0x19DD330
+        public void m_95C(){} // RVA: 0x19DD480
+        public void m_E79(){} // RVA: 0x19DD680
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÏÍÏÎÌÍÎÌÏÌÌÏÏÏÏÏÎÏÍÍÏ</summary>
+    public class NetworkSyncableSibling_202E : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F31540
+        public void Initialize(){} // RVA: 0x9F31660
+        public void Equals(){} // RVA: 0x9F31710
+        public void op_Implicit(){} // RVA: 0x9F317C0
+        public void CompareBaseObjects(){} // RVA: 0x9F31880
+        public void IsNativeObjectAlive(){} // RVA: 0x9F31940
+        public void GetCachedPtr(){} // RVA: 0xB5DBF0
+        public void get_name(){} // RVA: 0x9F31A00
+        public void set_name(){} // RVA: 0x9F31AC0
+        public void Instantiate(){} // RVA: 0x9F31B70
+        public void Destroy(){} // RVA: 0x9F31C20
+        public void DestroyImmediate(){} // RVA: 0x9F31CF0
+        public void .cctor(){} // RVA: 0x9F31DB0
+        public void FindObjectsByType(){} // RVA: 0x9F31E90
+        public void DontDestroyOnLoad(){} // RVA: 0xB44D60
+    }
+
+    /// <summary>Originally: ÎÏÍÏÏÎÍÎÌÍÏÌÌÎÍÌÍÎÍÏÎÎÌ</summary>
+    public class NetworkSyncableSibling_4255 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1634100
+        public void Equals(){} // RVA: 0x1634480
+        public void GetHashCode(){} // RVA: 0x16345A0
+        public void op_Implicit(){} // RVA: 0x1320080
+        public void CompareBaseObjects(){} // RVA: 0x1320140
+        public void IsNativeObjectAlive(){} // RVA: 0x1634600
+        public void Finalize(){} // RVA: 0x1634890
+        public void get_name(){} // RVA: 0x1320140
+        public void set_name(){} // RVA: 0x1634950
+        public void .ctor(){} // RVA: 0x1634CD0
+        public void .cctor(){} // RVA: 0x1634F00
+        public void DestroyImmediate(){} // RVA: 0x1635080
+        public void FindObjectsOfType(){} // RVA: 0x1635220
+        public void FindObjectsByType(){} // RVA: 0x16354B0
+        public void DontDestroyOnLoad(){} // RVA: 0x1635740
+        public void get_hideFlags(){} // RVA: 0x1635850
+        public void set_hideFlags(){} // RVA: 0x1635970
+    }
+
+    /// <summary>Originally: ÍÍÎÌÎÍÍÎÏÌÍÌÍÎÏÍÌÎÍÏÍÍÎ</summary>
+    public class NetworkSyncableSibling_42AB
+    {
+        // ── Unresolved (hash) ──
+        public void m_057(){} // RVA: 0x87C0A0
+        public void m_503(){} // RVA: 0x894320
+        public void m_727(){} // RVA: 0x894320
+        public void m_FC5(){} // RVA: 0x87D280
+        public void m_782(){} // RVA: 0x894750
+    }
+
+    /// <summary>Originally: ÌÍÏÏÎÍÌÏÌÍÍÌÌÏÌÌÎÏÏÎÏÏÌ</summary>
+    public class NetworkSyncableSibling_F173 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xE62E70
+        public void Equals(){} // RVA: 0xE65360
+        public void GetHashCode(){} // RVA: 0xE658C0
+        public void op_Implicit(){} // RVA: 0xE65970
+        public void CompareBaseObjects(){} // RVA: 0xE65A10
+        public void IsNativeObjectAlive(){} // RVA: 0xE65A60
+        public void GetCachedPtr(){} // RVA: 0xE65B10
+        public void get_name(){} // RVA: 0xE65B80
+        public void set_name(){} // RVA: 0xE65C30
+        public void Instantiate(){} // RVA: 0xE65CA0
+        public void Destroy(){} // RVA: 0xE65D50
+        public void DestroyImmediate(){} // RVA: 0xE65DC0
+        public void FindObjectsOfType(){} // RVA: 0xE65E70
+        public void FindObjectsByType(){} // RVA: 0xE65F40
+        public void DontDestroyOnLoad(){} // RVA: 0xE65FF0
+        public void get_hideFlags(){} // RVA: 0xE66070
+        public void set_hideFlags(){} // RVA: 0xE66120
+        public void FindObjectOfType(){} // RVA: 0xE661D0
+        public void FindFirstObjectByType(){} // RVA: 0xE66240
+        public void CheckNullArgument(){} // RVA: 0xE662B0
+        public void ToString(){} // RVA: 0xE66360
+        public void op_Equality(){} // RVA: 0xE66410
+        public void op_Inequality(){} // RVA: 0xE66490
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xE66510
+        public void Internal_CloneSingle(){} // RVA: 0xE665C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0xE66640
+        public void Internal_InstantiateSingle(){} // RVA: 0xE666F0
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xE66770
+        public void GetName(){} // RVA: 0xE66820
+        public void IsPersistent(){} // RVA: 0xE66890
+        public void SetName(){} // RVA: 0xE66940
+        public void FindObjectFromInstanceID(){} // RVA: 0xE669B0
+        public void ForceLoadFromInstanceID(){} // RVA: 0xE66A60
+        public void Destroy_Injected(){} // RVA: 0xE66D00
+        public void DestroyImmediate_Injected(){} // RVA: 0xE66DB0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xE66F00
+        public void get_hideFlags_Injected(){} // RVA: 0xE66FB0
+        public void set_hideFlags_Injected(){} // RVA: 0xE67100
+        public void Internal_CloneSingle_Injected(){} // RVA: 0xE671B0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0xE67300
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0xE673B0
+        // ── Unresolved (hash) ──
+        public void m_F32(){} // RVA: 0xE66B30
+        public void m_7C7(){} // RVA: 0xE66BF0
+    }
+
+    /// <summary>Originally: ÏÍÍÌÏÏÏÌÌÌÎÍÌÌÎÏÏÏÍÏÎÎÏ</summary>
+    public class NetworkSyncable_4C00 : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void set_TypeId(){} // RVA: 0xE855D0
+        public void get_TypeId(){} // RVA: 0xD354C0
+        public void Encode(){} // RVA: 0xE85A90
+        public void NeedsSync(){} // RVA: 0xBC03E0
+        public void OnEnable(){} // RVA: 0xE86080
+        public void SerializedName(){} // RVA: 0xE86840
+        public void CanSerialize32Bit(){} // RVA: 0xC2E4C0
+        public void Start(){} // RVA: 0xE86880
+        public void CanSerialize8Bit(){} // RVA: 0xB43320
+        public void OnDisable(){} // RVA: 0xE86A80
+        public void Decode(){} // RVA: 0xE873F0
+        public void NeedsImportant(){} // RVA: 0xBC03E0
+        public void .ctor(){} // RVA: 0xE878B0
+        public void Initialize(){} // RVA: 0xE87A40
+        public void OnDestroy(){} // RVA: 0xE85630
+        // ── 18 unresolved (hash) ──
+        public void m_530(){} // RVA: 0xE85630
+        public void m_3C3(){} // RVA: 0xBC03E0
+        public void m_C9C(){} // RVA: 0xE85680
+        public void m_5D5(){} // RVA: 0xE857A0
+        public void m_571(){} // RVA: 0xE85800
+        // ... 13 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÎÍÎÎÌÏÌÍÎÎÎÍÍÌÏÌÍÏÏÏÌ</summary>
+    public class NetworkSyncable_73F9 : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void set_TypeId(){} // RVA: 0xED3280
+        public void Start(){} // RVA: 0xED3640
+        public void get_TypeId(){} // RVA: 0xED36E0
+        public void Decode(){} // RVA: 0xED7090
+        public void OnDestroy(){} // RVA: 0xED3E10
+        public void SerializedName(){} // RVA: 0xED55F0
+        public void Encode(){} // RVA: 0xED5E10
+        public void CanUsePersistenceHashes(){} // RVA: 0xED64E0
+        public void CanSerialize8Bit(){} // RVA: 0xED6D40
+        public void Awake(){} // RVA: 0xED72B0
+        public void NeedsSync(){} // RVA: 0xED73E0
+        public void CanSerialize32Bit(){} // RVA: 0xC2E4C0
+        public void NeedsImportant(){} // RVA: 0xB43320
+        public void set_UniqueHash(){} // RVA: 0xED7550
+        public void get_UniqueHash(){} // RVA: 0xED7750
+        public void .ctor(){} // RVA: 0xED7760
+        public void Initialize(){} // RVA: 0xED7910
+        public void GenerateComponentInfo(){} // RVA: 0xED7DD0
+        // ── 27 unresolved (hash) ──
+        public void m_FFD(){} // RVA: 0xED2C80
+        public void m_2AA(){} // RVA: 0xED33B0
+        public void m_02C(){} // RVA: 0xED34B0
+        public void m_8EC(){} // RVA: 0xED39A0
+        public void m_B28(){} // RVA: 0xED3AD0
+        // ... 22 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÎÍÏÎÍÌÎÍÍÏÍÌÎÌÌÏÎÍÌÌÎ</summary>
+    public class NetworkSyncable_AE24 : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x172F200
+        public void Decode(){} // RVA: 0x1732CF0
+        public void NeedsImportant(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0x172F370
+        public void Initialize(){} // RVA: 0x172F750
+        public void CanSerialize32Bit(){} // RVA: 0xC2E4C0
+        public void CanSerialize8Bit(){} // RVA: 0xB43320
+        public void Encode(){} // RVA: 0x1731950
+        public void Start(){} // RVA: 0x1731A60
+        public void NeedsSync(){} // RVA: 0xC10030
+        public void set_TypeId(){} // RVA: 0x1731B00
+        public void get_TypeId(){} // RVA: 0x17321B0
+        public void Update(){} // RVA: 0x17323E0
+        public void SerializedName(){} // RVA: 0x1732B90
         // ── 20 unresolved (hash) ──
-        public void m_1A6(){} // RVA: 0x7A997DAD0
-        public void m_47A(){} // RVA: 0x7A997DC50
-        public void m_A1C(){} // RVA: 0x7A997DD90
-        public void m_C6C(){} // RVA: 0x7A997DDA0
-        public void m_6A1(){} // RVA: 0x7A997DF40
+        public void m_2E7(){} // RVA: 0xE37BF0
+        public void m_78B(){} // RVA: 0x172FA20
+        public void m_687(){} // RVA: 0x1730980
+        public void m_99F(){} // RVA: 0x1731550
+        public void m_037(){} // RVA: 0xE37BF0
         // ... 15 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÌÏÏÏÏÍÏÏÌÎÍÌÍÏÍÎÏÌÏÌÌÍ</summary>
-    public class NetworkDisposeAsyncImpl_5E9C : NetworkDisposeAsync_122A
+    /// <summary>Originally: ÎÌÌÌÌÍÍÍÍÎÍÏÍÏÌÌÍÏÍÍÌÌÎ</summary>
+    public class NetworkSyncable_C803 : NetworkReadyHandler_D8EE
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F8C970
+        public void .ctor(){} // RVA: 0x1FFFE10
+        public void Initialize(){} // RVA: 0x1FFFFC0
+        public void Awake(){} // RVA: 0x2000510
+        public void Encode(){} // RVA: 0x2004350
+        public void NeedsImportant(){} // RVA: 0xB43320
+        public void Decode(){} // RVA: 0x2003DA0
+        public void CanSerialize32Bit(){} // RVA: 0xB43320
+        public void NeedsSync(){} // RVA: 0xC2E4C0
+        public void SerializedName(){} // RVA: 0x2004100
+        public void set_TypeId(){} // RVA: 0x2004260
+        public void Start(){} // RVA: 0x20042B0
+        public void get_TypeId(){} // RVA: 0x13510C0
+        public void OnDestroy(){} // RVA: 0x2004260
+        public void CanSerialize8Bit(){} // RVA: 0xC2E4C0
         // ── 12 unresolved (hash) ──
-        public void m_97C(){} // RVA: 0x7A9018210
-        public void m_B0B(){} // RVA: 0x7A9018320
-        public void m_A1A(){} // RVA: 0x7A9018430
-        public void m_1E5(){} // RVA: 0x7A90185D0
-        public void m_BFA(){} // RVA: 0x7A90185E0
+        public void m_904(){} // RVA: 0x1FFFDD0
+        public void m_F31(){} // RVA: 0x2000060
+        public void m_2E7(){} // RVA: 0xE37BF0
+        public void m_C90(){} // RVA: 0x20019A0
+        public void m_DC5(){} // RVA: 0x20019F0
         // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÏÏÎÎÏÍÍÌÎÏÏÎÍÍÍÏÌÍÏÎÍÏ</summary>
-    public class NetworkDisposeAsyncImpl_5F32 : NetworkDisposeAsync_122A
+    /// <summary>Originally: ÌÎÎÏÍÏÎÎÎÎÏÍÍÌÍÍÌÍÍÏÌÍÎ</summary>
+    public class OVRLipSyncContextCannedSibling_813C : ComplexComponentImpl_D8C9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F8C970
-        // ── 11 unresolved (hash) ──
-        public void m_C5E(){} // RVA: 0x7A9986AB0
-        public void m_977(){} // RVA: 0x7A9986AC0
-        public void m_63B(){} // RVA: 0x7A9986AB0
-        public void m_681(){} // RVA: 0x7A9986AB0
-        public void m_F2B(){} // RVA: 0x7A9986AB0
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÍÍÏÍÎÍÏÎÏÍÌÌÍÏÍÌÍÍÎÍÌÍ</summary>
-    public class NetworkDisposeAsyncImpl_6971 : NetworkDisposeAsync_122A
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F8C970
-        public void Initialize(){} // RVA: 0x7A997F420
-        // ── 12 unresolved (hash) ──
-        public void m_CCC(){} // RVA: 0x7A997ED30
-        public void m_C6C(){} // RVA: 0x7A997EDD0
-        public void m_0B1(){} // RVA: 0x7A997EF70
-        public void m_80C(){} // RVA: 0x7A997EF80
-        public void m_BB5(){} // RVA: 0x7A997F030
-        // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÏÏÏÎÌÎÏÌÍÏÍÍÏÍÎÌÏÏÏÏÌÍ</summary>
-    public class NetworkDisposeAsyncImpl_B157 : NetworkDisposeAsync_122A
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F8C970
-        public void Initialize(){} // RVA: 0x7A8F8C980
+        public void .ctor(){} // RVA: 0x9E17130
+        public void Initialize(){} // RVA: 0x9E171A0
+        public void Update(){} // RVA: 0x9E17350
         // ── Unresolved (hash) ──
-        public void m_A03(){} // RVA: 0x7A8F8C630
-        public void m_8E1(){} // RVA: 0x7A8F8C7D0
-        public void m_D3F(){} // RVA: 0x7A8F8CB20
-        public void m_31A(){} // RVA: 0x7A8F8CCC0
-        public void m_DBF(){} // RVA: 0x7A8F8CE60
-        public void m_C5E(){} // RVA: 0x7A8F8D000
+        public void m_1A5(){} // RVA: 0x9E17230
+        public void m_582(){} // RVA: 0x9E172C0
+        public void m_0A6(){} // RVA: 0x9E173E0
+        public void m_27D(){} // RVA: 0x9E17470
+        public void m_155(){} // RVA: 0x9E17530
+        public void m_79A(){} // RVA: 0x9E175C0
+        public void m_FD2(){} // RVA: 0x9E17650
+        public void m_828(){} // RVA: 0x9E176E0
     }
 
-    /// <summary>Originally: ÍÌÍÍÏÎÌÌÍÌÎÏÌÍÌÌÎÌÎÌÏÌÍ</summary>
-    public class NetworkDisposeAsyncSibling_4298
-    {
-        // ── Unresolved (hash) ──
-        public void m_47A(){} // RVA: 0x7A7E00710
-        public void m_431(){} // RVA: 0x7A7E00710
-        public void m_252(){} // RVA: 0x7A7E00680
-        public void m_8E2(){} // RVA: 0x7A7E00490
-        public void m_696(){} // RVA: 0x7A7E00490
-        public void m_DAE(){} // RVA: 0x7A7E00490
-        public void m_C5E(){} // RVA: 0x7A7E00680
-    }
-
-    /// <summary>Originally: ÌÏÌÎÍÌÏÌÏÌÍÏÍÎÏÍÏÌÌÌÍÏÍ</summary>
-    public class NetworkDisposeAsyncSibling_F8DA
-    {
-        // ── Unresolved (hash) ──
-        public void m_3E1(){} // RVA: 0x7A7E00680
-        public void m_880(){} // RVA: 0x7A7E00680
-        public void m_C37(){} // RVA: 0x7A7E00680
-    }
-
-    /// <summary>Originally: ÏÏÌÌÏÏÌÏÎÌÍÏÌÏÎÏÌÎÌÌÏÎÎ</summary>
-    public class NetworkDisposeAsync_122A : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
-        public void Equals(){} // RVA: 0x7A813E420
-        public void GetHashCode(){} // RVA: 0x7A81C68D0
-        public void op_Implicit(){} // RVA: 0x7A81C68E0
-        public void CompareBaseObjects(){} // RVA: 0x7A997F670
-        public void IsNativeObjectAlive(){} // RVA: 0x7A997F780
-        public void GetCachedPtr(){} // RVA: 0x7A997F890
-        public void get_name(){} // RVA: 0x7A997F9A0
-        public void set_name(){} // RVA: 0x7A997FB80
-        public void Instantiate(){} // RVA: 0x7A997FD20
-        public void Destroy(){} // RVA: 0x7A7E00680
-        public void .ctor(){} // RVA: 0x7A997FEF0
-        public void Initialize(){} // RVA: 0x7A9980030
-        public void Dispose(){} // RVA: 0x7A9980180
-        public void DisposeAsync(){} // RVA: 0x7A9980200
-        public void Finalize(){} // RVA: 0x7A9980390
-    }
-
-    /// <summary>Originally: ÌÏÍÍÏÏÎÎÍÏÍÏÍÏÎÌÏÏÌÏÏÏÎ</summary>
-    public class NetworkDisposeAsync_7DD9 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A8105330
-        public void .ctor(){} // RVA: 0x7A8C83920
-        public void Initialize(){} // RVA: 0x7A81052D0
-        public void op_Implicit(){} // RVA: 0x7A8C841B0
-        public void CompareBaseObjects(){} // RVA: 0x7A8C842E0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A8C843A0
-        public void GetCachedPtr(){} // RVA: 0x7A8C84600
-        public void get_name(){} // RVA: 0x7A80D8E80
-        public void DisposeAsync(){} // RVA: 0x7A8C84730
-        public void Instantiate(){} // RVA: 0x7A80D8E80
-        public void Destroy(){} // RVA: 0x7A8C848C0
-        public void DestroyImmediate(){} // RVA: 0x7A8C84980
-        public void FindObjectsOfType(){} // RVA: 0x7A8C84BE0
-        public void Dispose(){} // RVA: 0x7A8C84E50
-        public void Cleanup(){} // RVA: 0x7A8C84EF0
-        public void get_hideFlags(){} // RVA: 0x7A81052C0
-        public void set_hideFlags(){} // RVA: 0x7A8C84F90
-        public void Finalize(){} // RVA: 0x7A8C851F0
-        public void FindFirstObjectByType(){} // RVA: 0x7A8C853E0
-        public void CheckNullArgument(){} // RVA: 0x7A8C854A0
-    }
-
-    /// <summary>Originally: ÍÌÌÌÎÏÍÎÎÍÎÎÏÎÌÎÍÍÏÎÎÎÏ</summary>
-    public class NetworkEnableMeshRPCSetPresetRPCComponent_8409 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A87FA130
-        public void SetPresetRPC(){} // RVA: 0x7A87FA7E0
-        public void IsInvoking(){} // RVA: 0x7A87FA870
-        public void CancelInvoke(){} // RVA: 0x7A87FAB30
-        public void Invoke(){} // RVA: 0x7A87FAD60
-        public void InvokeRepeating(){} // RVA: 0x7A87FB410
-        public void StartCoroutine(){} // RVA: 0x7A87FB6D0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A87FBA00
-        public void EnableMeshRPC(){} // RVA: 0x7A87FBB80
-        public void Pickup(){} // RVA: 0x7A87FBD00
-        public void get_useGUILayout(){} // RVA: 0x7A87FBF30
-        public void Use(){} // RVA: 0x7A87FC260
-        public void print(){} // RVA: 0x7A87FC590
-        public void Drop(){} // RVA: 0x7A87FC6C0
-        public void Start(){} // RVA: 0x7A87FC980
-        public void InvokeDelayed(){} // RVA: 0x7A87FCBD0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-    }
-
-    /// <summary>Originally: ÎÎÌÎÌÍÍÍÌÌÎÌÎÎÍÍÌÌÏÏÌÌÏ</summary>
-    public class NetworkEnumeratorContainsSibling_2C44
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7A7E01900
-        public void get_Current(){} // RVA: 0x7A7E01900
-        // ── 18 unresolved (hash) ──
-        public void m_E75(){} // RVA: 0x7A7E01900
-        public void m_744(){} // RVA: 0x7A7E01900
-        public void m_607(){} // RVA: 0x7A7E01900
-        public void m_B07(){} // RVA: 0x7A7E01900
-        public void m_AB1(){} // RVA: 0x7A7E01900
-        // ... 13 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÎÍÏÎÌÍÌÍÌÍÍÍÌÎÌÎÍÌÌÌÌÎ</summary>
-    public class NetworkInternalApplyOverrideRPCPlayerJoinedHandler_3DEC : MonoBehaviour
-    {
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7A9462870
-        public void Start(){} // RVA: 0x7A9462980
-        public void Awake(){} // RVA: 0x7A9462D70
-        public void InternalApplyOverrideRPC(){} // RVA: 0x7A9463170
-        public void Invoke(){} // RVA: 0x7A9463590
-        public void InvokeRepeating(){} // RVA: 0x7A94637A0
-        public void StartCoroutine(){} // RVA: 0x7A94638B0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A9463B50
-        public void StopCoroutine(){} // RVA: 0x7A9464120
-        public void StopAllCoroutines(){} // RVA: 0x7A94644B0
-        public void .ctor(){} // RVA: 0x7A9464750
-        public void Initialize(){} // RVA: 0x7A9464820
-        public void print(){} // RVA: 0x7A9464E00
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A9464F90
-        public void OnPlayerJoined(){} // RVA: 0x7A9465190
-    }
-
-    /// <summary>Originally: ÏÍÌÍÎÏÌÏÍÌÌÎÌÎÍÌÏÏÍÍÎÍÎ</summary>
-    public class NetworkReadyHandlerImplSibling_AFC4
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x7A7E00680
-        public void Process(){} // RVA: 0x7A7E00680
-        public void OnReceive(){} // RVA: 0x7A7E00680
-        public void OnEvent(){} // RVA: 0x7A7E00680
-    }
-
-    /// <summary>Originally: ÏÍÎÌÏÌÎÍÍÏÎÎÏÍÎÏÏÌÏÏÍÌÏ</summary>
-    public class NetworkReadyHandlerImpl_9267 : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7A9165BC0
-        public void Reset(){} // RVA: 0x7A9165EB0
-        public void Awake(){} // RVA: 0x7A9167B10
-        public void .cctor(){} // RVA: 0x7A9169000
-        public void .ctor(){} // RVA: 0x7A9169420
-        public void Initialize(){} // RVA: 0x7A9169660
-        // ── 29 unresolved (hash) ──
-        public void m_FBA(){} // RVA: 0x7A9165BB0
-        public void m_3C2(){} // RVA: 0x7A9165E00
-        public void m_634(){} // RVA: 0x7A9165E50
-        public void m_0E3(){} // RVA: 0x7A9165EA0
-        public void m_9F5(){} // RVA: 0x7A91663C0
-        // ... 24 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÎÌÏÍÍÌÎÌÎÍÌÍÏÎÎÎÍÏÏÎÏÎ</summary>
-    public class NetworkReadyHandlerRelated_9374 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A8B42BF0
-        public void Equals(){} // RVA: 0x7A8B43360
-        public void GetHashCode(){} // RVA: 0x7A8B435F0
-        public void op_Implicit(){} // RVA: 0x7A8B43660
-        public void CompareBaseObjects(){} // RVA: 0x7A8B43B10
-        public void IsNativeObjectAlive(){} // RVA: 0x7A8B43F80
-        public void GetCachedPtr(){} // RVA: 0x7A8B448B0
-        public void .cctor(){} // RVA: 0x7A8B44980
-    }
-
-    /// <summary>Originally: ÌÎÌÌÍÍÏÌÎÌÌÏÎÎÎÏÏÎÏÏÏÎÌ</summary>
-    public class NetworkReadyHandler_031C : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x7A8F27320
-        public void OnDestroy(){} // RVA: 0x7A8F26C90
-        public void .ctor(){} // RVA: 0x7A8F295D0
-        public void Initialize(){} // RVA: 0x7A8F29860
-        public void .cctor(){} // RVA: 0x7A8F29960
-        public void OnNetworkReady(){} // RVA: 0x7A8F2C130
-        public void LateUpdate(){} // RVA: 0x7A8F2C4A0
-        // ── 32 unresolved (hash) ──
-        public void m_AF8(){} // RVA: 0x7A8F23FD0
-        public void m_DF4(){} // RVA: 0x7A8F24190
-        public void m_F30(){} // RVA: 0x7A8F242C0
-        public void m_80B(){} // RVA: 0x7A80D7320
-        public void m_1D0(){} // RVA: 0x7A8F26C00
-        // ... 27 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÌÏÍÍÍÎÌÍÍÍÍÎÏÏÍÎÎÍÏÍÎ</summary>
-    public class NetworkReadyHandler_0A13 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A9467450
-        public void RaiseCancellation(){} // RVA: 0x7A9467A30
-        public void IsInvoking(){} // RVA: 0x7A9467F60
-        public void CancelInvoke(){} // RVA: 0x7A80D7310
-        public void OnNetworkReady(){} // RVA: 0x7A9467FF0
-        public void InvokeRepeating(){} // RVA: 0x7A9468000
-        public void StartCoroutine(){} // RVA: 0x7A9468080
-        public void StartCoroutine_Auto(){} // RVA: 0x7A9468330
-        public void SetAvatarUse(){} // RVA: 0x7A9468590
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void OnDestroy(){} // RVA: 0x7A9468710
-        public void set_useGUILayout(){} // RVA: 0x7A9468840
-        public void Awake(){} // RVA: 0x7A94688E0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A94688E0
-        public void Update(){} // RVA: 0x7A9468910
-        public void InvokeDelayed(){} // RVA: 0x7A9468A40
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A9468A50
-        public void Start(){} // RVA: 0x7A9468CF0
-        public void RefreshAvatar(){} // RVA: 0x7A9469370
-        public void StopCoroutineManaged(){} // RVA: 0x7A9101D40
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A9469920
-        public void GetScriptClassName(){} // RVA: 0x7A9469B90
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A9469CC0
-        public void OnBecameInvisible(){} // RVA: 0x7A9469DA0
-        public void OnCollisionEnter(){} // RVA: 0x7A946A420
-        public void OnCollisionStay(){} // RVA: 0x7A9101D40
-    }
-
-    /// <summary>Originally: ÌÍÍÌÎÍÏÍÌÍÎÎÍÏÎÎÌÍÏÍÌÍÏ</summary>
-    public class NetworkReadyHandler_3FBA : WorldProximityExitStation_7D8E
-    {
-        // ── Methods ──
-        public void OnNetworkReady(){} // RVA: 0x7A94D3200
-        public void .ctor(){} // RVA: 0x7A94D4210
-        public void Initialize(){} // RVA: 0x7A94D4260
-        // ── Unresolved (hash) ──
-        public void m_DEC(){} // RVA: 0x7A94D2210
-        public void m_325(){} // RVA: 0x7A94D2760
-        public void m_290(){} // RVA: 0x7A94D2CB0
-        public void m_6A7(){} // RVA: 0x7A94D3220
-        public void m_BEA(){} // RVA: 0x7A94D3770
-        public void m_D52(){} // RVA: 0x7A94D3CC0
-        public void m_A47(){} // RVA: 0x7A94D47B0
-        public void m_513(){} // RVA: 0x7A94D4D00
-    }
-
-    /// <summary>Originally: ÌÌÏÎÎÎÌÎÍÎÌÌÏÍÌÌÌÍÍÏÍÌÎ</summary>
-    public class NetworkReadyHandler_494C : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A950DCC0
-        public void RaiseCancellation(){} // RVA: 0x7A950E100
-        public void .cctor(){} // RVA: 0x7A950E130
-        public void CancelInvoke(){} // RVA: 0x7A950E210
-        public void Awake(){} // RVA: 0x7A950E8C0
-        public void InvokeRepeating(){} // RVA: 0x7A950EE80
-        public void StartCoroutine(){} // RVA: 0x7A950F340
-        public void StartCoroutine_Auto(){} // RVA: 0x7A9510070
-        public void StopCoroutine(){} // RVA: 0x7A9510170
-        public void StopAllCoroutines(){} // RVA: 0x7A95102B0
-        public void get_useGUILayout(){} // RVA: 0x7A9510510
-        public void OnEnable(){} // RVA: 0x7A95106E0
-        public void print(){} // RVA: 0x7A9510880
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A9510D40
-        public void OnDisable(){} // RVA: 0x7A9510F60
-        public void InvokeDelayed(){} // RVA: 0x7A9511100
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A9511240
-        public void StartCoroutineManaged(){} // RVA: 0x7A9511420
-        public void StartCoroutineManaged2(){} // RVA: 0x7A9511980
-        public void StopCoroutineManaged(){} // RVA: 0x7A95119B0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A9511AF0
-        public void GetScriptClassName(){} // RVA: 0x7A9511F80
-        public void Start(){} // RVA: 0x7A9511FB0
-        public void Update(){} // RVA: 0x7A9513A30
-        public void OnDestroy(){} // RVA: 0x7A9513BF0
-        public void OnTriggerEnter(){} // RVA: 0x7A9514450
-        public void OnTriggerStay(){} // RVA: 0x7A9514620
-        public void OnTriggerExit(){} // RVA: 0x7A9514680
-        public void OnSpawn(){} // RVA: 0x7A95146A0
-        public void OnApplicationQuit(){} // RVA: 0x7A95146D0
-        public void OnBecameVisible(){} // RVA: 0x7A9514810
-        public void OnBecameInvisible(){} // RVA: 0x7A9514680
-        public void OnCollisionEnter(){} // RVA: 0x7A9515540
-        public void OnCollisionStay(){} // RVA: 0x7A9515B40
-        public void OnNetworkReady(){} // RVA: 0x7A9515B70
-        public void .ctor(){} // RVA: 0x7A95164B0
-        // ── Unresolved (hash) ──
-        public void m_E20(){} // RVA: 0x7A9515E80
-        public void m_753(){} // RVA: 0x7A9516460
-    }
-
-    /// <summary>Originally: ÏÍÎÎÍÎÍÎÎÍÏÏÏÍÍÎÏÌÌÍÎÌÎ</summary>
-    public class NetworkReadyHandler_5724 : WorldProximityExitStation_7D8E
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A94CE1F0
-        public void ProvideEvents(){} // RVA: 0x7A94CE240
-        public void OnNetworkReady(){} // RVA: 0x7A94CEB20
-        // ── Unresolved (hash) ──
-        public void m_A2A(){} // RVA: 0x7A94CB4F0
-        public void m_B72(){} // RVA: 0x7A94CCB70
-        public void m_094(){} // RVA: 0x7A94CE6A0
-        public void m_1C0(){} // RVA: 0x7A94CEB40
-        public void m_845(){} // RVA: 0x7A94CEFA0
-        public void m_9F9(){} // RVA: 0x7A94D0610
-        public void m_19D(){} // RVA: 0x7A94D0A90
-    }
-
-    /// <summary>Originally: ÎÍÎÍÌÏÎÍÎÎÍÌÏÏÌÎÌÌÍÌÏÎÍ</summary>
-    public class NetworkReadyHandler_6CE9 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A91064B0
-        public void RaiseCancellation(){} // RVA: 0x7A81C68D0
-        public void IsInvoking(){} // RVA: 0x7A81C68E0
-        public void CancelInvoke(){} // RVA: 0x7A8105330
-        public void Invoke(){} // RVA: 0x7A80D8E80
-        public void InvokeRepeating(){} // RVA: 0x7A9106590
-        public void StartCoroutine(){} // RVA: 0x7A80D7310
-        public void OnEnable(){} // RVA: 0x7A9106680
-        public void Awake(){} // RVA: 0x7A82393C0
-        public void Start(){} // RVA: 0x7A91066F0
-        public void get_useGUILayout(){} // RVA: 0x7A9106790
-        public void set_useGUILayout(){} // RVA: 0x7A9106830
-        public void print(){} // RVA: 0x7AA0626F0
-        public void OnNetworkReady(){} // RVA: 0x7A9107390
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A9107570
-        public void InvokeDelayed(){} // RVA: 0x7A91076F0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A91079A0
-        public void StartCoroutineManaged(){} // RVA: 0x7A8154D80
-        public void StartCoroutineManaged2(){} // RVA: 0x7A80FF440
-        public void StopCoroutineManaged(){} // RVA: 0x7A9107AB0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A9107AB0
-        public void GetScriptClassName(){} // RVA: 0x7A9107AC0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A9107AD0
-        public void OnTriggerExit(){} // RVA: 0x7A818F850
-        public void OnTriggerStay(){} // RVA: 0x7A818F860
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        // ── Unresolved (hash) ──
-        public void m_E01(){} // RVA: 0x7A9107BC0
-        public void m_212(){} // RVA: 0x7A9107BD0
-        public void m_566(){} // RVA: 0x7A9107BE0
-        public void m_2F1(){} // RVA: 0x7A8178B90
-        public void m_4B2(){} // RVA: 0x7A8230620
-    }
-
-    /// <summary>Originally: ÌÎÌÍÎÎÏÌÌÏÎÍÌÌÎÍÌÏÏÌÌÎÎ</summary>
-    public class NetworkShouldBroadcastInstigator_175F : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A81052C0
-        public void get_Sender(){} // RVA: 0x7A8355950
-        public void Equals(){} // RVA: 0x7A8261690
-        public void op_Implicit(){} // RVA: 0x7A916EA20
-        public void CompareBaseObjects(){} // RVA: 0x7A916EAD0
-        public void .ctor(){} // RVA: 0x7A916EB30
-        public void DeepClone(){} // RVA: 0x7A916EB40
-        public void ToString(){} // RVA: 0x7A916ED40
-        public void set_name(){} // RVA: 0x7A916F230
-        public void Instantiate(){} // RVA: 0x7A916F2E0
-        public void Destroy(){} // RVA: 0x7A916F340
-        public void DestroyImmediate(){} // RVA: 0x7A8355950
-        public void FindObjectsOfType(){} // RVA: 0x7A8668BC0
-        public void FindObjectsByType(){} // RVA: 0x7A916F2E0
-        public void DontDestroyOnLoad(){} // RVA: 0x7A916EA20
-        public void get_hideFlags(){} // RVA: 0x7A916F430
-        public void set_Time(){} // RVA: 0x7A916F4E0
-        public void get_Time(){} // RVA: 0x7A916F5C0
-        public void set_Serialize(){} // RVA: 0x7A916F6B0
-        public void get_Serialize(){} // RVA: 0x7A916F710
-        public void GetHashCode(){} // RVA: 0x7A916F7C0
-        public void op_Equality(){} // RVA: 0x7A916F880
-        public void op_Inequality(){} // RVA: 0x7A8105330
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A83782A0
-        public void get_Instigator(){} // RVA: 0x7A83782A0
-        public void set_Sender(){} // RVA: 0x7A83F4180
-        public void set_Instigator(){} // RVA: 0x7A916F6B0
-        public void set_Store(){} // RVA: 0x7A916EA20
-        public void get_Store(){} // RVA: 0x7A916F940
-        public void get_ShouldBroadcast(){} // RVA: 0x7A916FA40
-    }
-
-    /// <summary>Originally: ÍÎÏÏÌÏÏÍÏÏÏÌÎÎÍÏÍÍÏÎÏÎÍ</summary>
-    public class NetworkSyncableSiblingSibling_1B4F : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A813E420
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Initialize(){} // RVA: 0x7A80F2570
-        public void op_Implicit(){} // RVA: 0x7A80F2570
-        public void CompareBaseObjects(){} // RVA: 0x7A80D8E20
-        public void IsNativeObjectAlive(){} // RVA: 0x7A80DA7B0
-        public void GetCachedPtr(){} // RVA: 0x7A80F2570
-        public void get_name(){} // RVA: 0x7A80D8E20
-        public void set_name(){} // RVA: 0x7A80D8E20
-        public void Instantiate(){} // RVA: 0x7A80F2570
-        public void Destroy(){} // RVA: 0x7A813E420
-        public void DestroyImmediate(){} // RVA: 0x7A80D8E20
-    }
-
-    /// <summary>Originally: ÌÏÌÏÍÌÌÌÏÍÌÍÍÎÎÎÏÏÌÍÎÌÌ</summary>
-    public class NetworkSyncableSibling_14E2 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A8387EA0
-        public void Equals(){} // RVA: 0x7A838A740
-        public void GetHashCode(){} // RVA: 0x7A838ACA0
-        public void op_Implicit(){} // RVA: 0x7A838AD50
-        public void CompareBaseObjects(){} // RVA: 0x7A838ADF0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A838AE40
-        public void GetCachedPtr(){} // RVA: 0x7A838AEF0
-        public void get_name(){} // RVA: 0x7A838AF90
-        public void set_name(){} // RVA: 0x7A838B040
-        public void Instantiate(){} // RVA: 0x7A838B0E0
-        public void Destroy(){} // RVA: 0x7A838B190
-        public void DestroyImmediate(){} // RVA: 0x7A838B230
-        public void FindObjectsOfType(){} // RVA: 0x7A838B2E0
-        public void FindObjectsByType(){} // RVA: 0x7A838B3D0
-        public void DontDestroyOnLoad(){} // RVA: 0x7A838B480
-        public void get_hideFlags(){} // RVA: 0x7A838B530
-        public void set_hideFlags(){} // RVA: 0x7A838B5E0
-        public void FindObjectOfType(){} // RVA: 0x7A838B690
-        public void FindFirstObjectByType(){} // RVA: 0x7A838B730
-        public void CheckNullArgument(){} // RVA: 0x7A838B7D0
-        public void ToString(){} // RVA: 0x7A838B880
-        public void op_Equality(){} // RVA: 0x7A838B930
-        public void op_Inequality(){} // RVA: 0x7A838B9E0
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A838BA90
-        public void Internal_CloneSingle(){} // RVA: 0x7A838BB40
-        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A838BBF0
-        public void Internal_InstantiateSingle(){} // RVA: 0x7A838BCA0
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A838BD50
-        public void GetName(){} // RVA: 0x7A838BE00
-        public void SetName(){} // RVA: 0x7A838BEA0
-        public void FindObjectFromInstanceID(){} // RVA: 0x7A838BF50
-        public void ForceLoadFromInstanceID(){} // RVA: 0x7A838BFF0
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7A838C280
-        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x7A838C430
-        // ── Unresolved (hash) ──
-        public void m_B83(){} // RVA: 0x7A838C0A0
-        public void m_AE2(){} // RVA: 0x7A838C1C0
-        public void m_753(){} // RVA: 0x7A838C4E0
-        public void m_77E(){} // RVA: 0x7A838C6F0
-        public void m_7E8(){} // RVA: 0x7A838C7A0
-        public void m_201(){} // RVA: 0x7A838C9B0
-        public void m_028(){} // RVA: 0x7A838CA60
-        public void m_F9C(){} // RVA: 0x7A838CC70
-        public void m_D01(){} // RVA: 0x7A838CD20
-    }
-
-    /// <summary>Originally: ÌÏÎÎÍÍÏÌÏÍÍÌÌÍÌÍÎÍÌÎÏÎÌ</summary>
-    public class NetworkSyncableSibling_75E6
-    {
-        // ── Unresolved (hash) ──
-        public void m_83C(){} // RVA: 0x7A7E00680
-        public void m_88F(){} // RVA: 0x7A7E18800
-        public void m_DAC(){} // RVA: 0x7A7E18800
-        public void m_7CB(){} // RVA: 0x7A7E01900
-        public void m_467(){} // RVA: 0x7A7E18C30
-    }
-
-    /// <summary>Originally: ÎÎÏÎÏÏÍÏÍÏÍÏÍÎÍÌÎÍÌÎÌÎÍ</summary>
-    public class NetworkSyncableSibling_DA7F : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80D8E20
-        public void Equals(){} // RVA: 0x7B10FF0F0
-        public void GetHashCode(){} // RVA: 0x7B10FF1B0
-        public void op_Implicit(){} // RVA: 0x7B10FF270
-        public void CompareBaseObjects(){} // RVA: 0x7B10FF350
-        public void IsNativeObjectAlive(){} // RVA: 0x7A80F2570
-        public void .cctor(){} // RVA: 0x7B10FF420
-        public void get_name(){} // RVA: 0x7B10FF500
-        public void .ctor(){} // RVA: 0x7B10FF5D0
-        public void Initialize(){} // RVA: 0x7B10FF6F0
-        public void Destroy(){} // RVA: 0x7B10FF7C0
-        public void DestroyImmediate(){} // RVA: 0x7A80D8E20
-        public void FindObjectsOfType(){} // RVA: 0x7B10FF890
-        public void FindObjectsByType(){} // RVA: 0x7B10FF960
-        public void DontDestroyOnLoad(){} // RVA: 0x7A80F2570
-        public void get_hideFlags(){} // RVA: 0x7A80D8E20
-    }
-
-    /// <summary>Originally: ÎÎÏÍÌÌÌÏÍÏÎÎÏÍÍÎÌÍÌÏÌÏÏ</summary>
-    public class NetworkSyncable_267B : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void Update(){} // RVA: 0x7A8C4F5D0
-        public void NeedsImportant(){} // RVA: 0x7A80D7320
-        public void Decode(){} // RVA: 0x7A8C4FDB0
-        public void CanSerialize32Bit(){} // RVA: 0x7A81BD750
-        public void set_TypeId(){} // RVA: 0x7A8C4FDF0
-        public void CanSerialize8Bit(){} // RVA: 0x7A80D7320
-        public void get_TypeId(){} // RVA: 0x7A8C50BC0
-        public void SerializedName(){} // RVA: 0x7A8C511A0
-        public void Start(){} // RVA: 0x7A8C522A0
-        public void Encode(){} // RVA: 0x7A8C52FB0
-        public void .ctor(){} // RVA: 0x7A8C52810
-        public void NeedsSync(){} // RVA: 0x7A81A00C0
-        public void OnDestroy(){} // RVA: 0x7A8C52BF0
-        // ── 22 unresolved (hash) ──
-        public void m_0C5(){} // RVA: 0x7A8C4F2C0
-        public void m_80B(){} // RVA: 0x7A8C4F390
-        public void m_7B4(){} // RVA: 0x7A8C4F610
-        public void m_7D2(){} // RVA: 0x7A8C4F680
-        public void m_BA8(){} // RVA: 0x7A8C4FBD0
-        // ... 17 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÏÍÍÍÍÎÍÌÌÏÌÌÏÎÍÍÍÍÍÎÏÏ</summary>
-    public class NetworkSyncable_A848 : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7A94E44D0
-        public void Encode(){} // RVA: 0x7A94E91E0
-        public void CanSerialize32Bit(){} // RVA: 0x7A80D7320
-        public void NeedsSync(){} // RVA: 0x7A81BD750
-        public void SerializedName(){} // RVA: 0x7A94E53B0
-        public void Decode(){} // RVA: 0x7A94E6A20
-        public void .ctor(){} // RVA: 0x7A94E5550
-        public void Initialize(){} // RVA: 0x7A94E44D0
-        public void CanSerialize8Bit(){} // RVA: 0x7A81BD750
-        public void set_TypeId(){} // RVA: 0x7A94E5B90
-        public void Start(){} // RVA: 0x7A94E6980
-        public void get_TypeId(){} // RVA: 0x7A8842E60
-        public void NeedsImportant(){} // RVA: 0x7A80D7320
-        public void Awake(){} // RVA: 0x7A94E8A20
-        // ── 14 unresolved (hash) ──
-        public void m_929(){} // RVA: 0x7A94E44D0
-        public void m_B13(){} // RVA: 0x7A94E5700
-        public void m_1C8(){} // RVA: 0x7A94E5210
-        public void m_F1C(){} // RVA: 0x7A94E5250
-        public void m_86C(){} // RVA: 0x7A94E59B0
-        // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÎÏÎÌÏÎÌÌÍÎÏÏÏÏÍÍÏÎÏÌÎÎ</summary>
-    public class NetworkSyncable_A87F : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void CanSerialize8Bit(){} // RVA: 0x7A80D7320
-        public void NeedsSync(){} // RVA: 0x7A8153980
-        public void Decode(){} // RVA: 0x7A83B2350
-        public void Start(){} // RVA: 0x7A83B2820
-        public void .ctor(){} // RVA: 0x7A83B28C0
-        public void Initialize(){} // RVA: 0x7A83B2A50
-        public void OnEnable(){} // RVA: 0x7A83B2AB0
-        public void NeedsImportant(){} // RVA: 0x7A8153980
-        public void Encode(){} // RVA: 0x7A83B3300
-        public void SerializedName(){} // RVA: 0x7A83B2E50
-        public void CanSerialize32Bit(){} // RVA: 0x7A81BD750
-        public void OnDisable(){} // RVA: 0x7A83B2E90
-        public void set_TypeId(){} // RVA: 0x7A83B38F0
-        public void OnDestroy(){} // RVA: 0x7A83B2DC0
-        public void get_TypeId(){} // RVA: 0x7A83B4040
-        // ── 18 unresolved (hash) ──
-        public void m_464(){} // RVA: 0x7A80D7320
-        public void m_3DB(){} // RVA: 0x7A83B1890
-        public void m_C13(){} // RVA: 0x7A83B18D0
-        public void m_1D0(){} // RVA: 0x7A83B1A30
-        public void m_206(){} // RVA: 0x7A83B1C10
-        // ... 13 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÍÏÎÌÎÍÏÌÏÎÌÎÏÍÌÎÌÏÎÌÌÍ</summary>
-    public class NetworkSyncable_F112 : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void GenerateComponentInfo(){} // RVA: 0x7A83DCB10
-        public void Start(){} // RVA: 0x7A83DD020
-        public void Decode(){} // RVA: 0x7A83DE1A0
-        public void .ctor(){} // RVA: 0x7A83DD2E0
-        public void Initialize(){} // RVA: 0x7A83DD490
-        public void Awake(){} // RVA: 0x7A83DD890
-        public void set_UniqueHash(){} // RVA: 0x7A83DD8C0
-        public void get_UniqueHash(){} // RVA: 0x7A83DE350
-        public void NeedsSync(){} // RVA: 0x7A83DE360
-        public void NeedsImportant(){} // RVA: 0x7A80D7320
-        public void SerializedName(){} // RVA: 0x7A83DF890
-        public void Encode(){} // RVA: 0x7A83E07D0
-        public void set_TypeId(){} // RVA: 0x7A83E0410
-        public void OnDestroy(){} // RVA: 0x7A83DC780
-        public void get_TypeId(){} // RVA: 0x7A83E0880
-        public void CanSerialize8Bit(){} // RVA: 0x7A83E0CD0
-        public void CanSerialize32Bit(){} // RVA: 0x7A81BD750
-        public void CanUsePersistenceHashes(){} // RVA: 0x7A83E1710
-        // ── 26 unresolved (hash) ──
-        public void m_CFB(){} // RVA: 0x7A83DC5E0
-        public void m_D66(){} // RVA: 0x7A83DC780
-        public void m_1DB(){} // RVA: 0x7A81C68E0
-        public void m_923(){} // RVA: 0x7A83DC7D0
-        public void m_428(){} // RVA: 0x7A83DC8C0
-        // ... 21 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÏÍÍÎÍÌÎÍÏÎÏÎÎÌÏÎÏÍÏÎÎÌ</summary>
-    public class PhotonConnectionHandlerSibling_2CF9 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80F2570
-        public void Equals(){} // RVA: 0x7A8154D80
-        public void GetHashCode(){} // RVA: 0x7A80FF440
-        public void op_Implicit(){} // RVA: 0x7A8175DF0
-        public void CompareBaseObjects(){} // RVA: 0x7A80D8E80
-        public void IsNativeObjectAlive(){} // RVA: 0x7A8152D90
-        public void GetCachedPtr(){} // RVA: 0x7A8152D80
-        public void get_name(){} // RVA: 0x7A8154D80
-        public void set_name(){} // RVA: 0x7A88C4B10
-        public void Instantiate(){} // RVA: 0x7A8105A90
-        public void Destroy(){} // RVA: 0x7A8154D80
-        public void DestroyImmediate(){} // RVA: 0x7A813E420
-        public void FindObjectsOfType(){} // RVA: 0x7A83F69F0
-        public void FindObjectsByType(){} // RVA: 0x7A88C4B60
-        public void DontDestroyOnLoad(){} // RVA: 0x7A81052C0
-        public void get_hideFlags(){} // RVA: 0x7A81BD750
-        public void set_hideFlags(){} // RVA: 0x7A8296DE0
-        public void FindObjectOfType(){} // RVA: 0x7A80D7310
-        public void FindFirstObjectByType(){} // RVA: 0x7A8175E00
-        public void CheckNullArgument(){} // RVA: 0x7A8178B90
-        public void ToString(){} // RVA: 0x7A8292C30
-        public void .ctor(){} // RVA: 0x7A88C4BA0
-        public void Initialize(){} // RVA: 0x7A80D8E20
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A8296DE0
-        public void Internal_CloneSingle(){} // RVA: 0x7A81A0050
-        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A80D8E20
-        public void Internal_InstantiateSingle(){} // RVA: 0x7A81052D0
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A8175E00
-        public void GetName(){} // RVA: 0x7A8105A90
-        public void SetName(){} // RVA: 0x7A8230620
-        public void FindObjectFromInstanceID(){} // RVA: 0x7A8152D80
-        public void ForceLoadFromInstanceID(){} // RVA: 0x7A81A0060
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7A8105330
-        // ── Unresolved (hash) ──
-        public void m_944(){} // RVA: 0x7A80DA7B0
-        public void m_0EB(){} // RVA: 0x7A80D8E80
-    }
-
-    /// <summary>Originally: ÏÍÎÏÎÍÍÌÌÎÎÏÏÌÎÍÍÌÍÌÏÌÏ</summary>
-    public class PhotonConnectionHandlerSibling_B41C
+    /// <summary>Originally: ÌÌÌÌÎÏÍÎÌÎÍÌÌÌÌÌÌÌÏÎÍÏÎ</summary>
+    public class PhotonConnectionHandlerSibling_5A31
     {
         // ── 17 unresolved (hash) ──
-        public void m_48A(){} // RVA: 0x7A7E00680
-        public void m_94F(){} // RVA: 0x7A7E00680
-        public void m_944(){} // RVA: 0x7A7E00680
-        public void m_C05(){} // RVA: 0x7A7E00680
-        public void m_9F5(){} // RVA: 0x7A7E00680
+        public void m_91A(){} // RVA: 0x87C0A0
+        public void m_65C(){} // RVA: 0x87C0A0
+        public void m_281(){} // RVA: 0x87C0A0
+        public void m_7A3(){} // RVA: 0x87C0A0
+        public void m_5E7(){} // RVA: 0x87C0A0
         // ... 12 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÏÌÍÏÌÍÎÌÌÌÌÌÍÍÏÏÏÍÏÍÏÍ</summary>
-    public class PhotonConnectionHandler_66A6
+    /// <summary>Originally: ÏÌÏÌÌÎÎÌÏÌÌÌÍÌÏÍÏÍÎÍÍÎÎ</summary>
+    public class PhotonConnectionHandlerSibling_81C7 : Object
     {
         // ── Methods ──
-        public void Handle(){} // RVA: 0x7A7E18770
-        public void OnConnectedToMaster(){} // RVA: 0x7A7E18770
-        public void Process(){} // RVA: 0x7A7E189D0
-        public void OnReceive(){} // RVA: 0x7A7E18800
-        public void OnCustomAuthenticationResponse(){} // RVA: 0x7A7E18800
-        public void OnCustomAuthenticationFailed(){} // RVA: 0x7A7E18800
-    }
-
-    /// <summary>Originally: ÎÌÌÎÏÎÍÌÍÌÍÌÍÏÏÌÏÍÏÌÏÎÍ</summary>
-    public class PhotonConnectionHandler_DC2D : List`1
-    {
-        // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7A986DB90
-        public void get_Capacity(){} // RVA: 0x7A986DEB0
-        public void set_Capacity(){} // RVA: 0x7A986E290
-        public void OnCustomAuthenticationResponse(){} // RVA: 0x7A986E510
-        public void OnConnectedToMaster(){} // RVA: 0x7A986E820
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A986EAA0
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7A80D7310
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A986EE20
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A986F200
-        public void get_Item(){} // RVA: 0x7A986F5E0
-        public void OnCustomAuthenticationFailed(){} // RVA: 0x7A986F860
-        public void IsCompatibleObject(){} // RVA: 0x7A986FBE0
-        public void System.Collections.IList.get_Item(){} // RVA: 0x7A986FF00
-        public void .ctor(){} // RVA: 0x7A9870280
-        public void Initialize(){} // RVA: 0x7A9870340
-    }
-
-    /// <summary>Originally: ÎÍÎÍÎÏÎÍÎÌÍÎÎÏÎÎÍÌÍÌÎÏÏ</summary>
-    public class PhotonConnectionHandler_F9DD : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A90897C0
-        public void RaiseCancellation(){} // RVA: 0x7A9089900
-        public void IsInvoking(){} // RVA: 0x7A9089940
-        public void CancelInvoke(){} // RVA: 0x7A8A08E60
-        public void Invoke(){} // RVA: 0x7A90899C0
-        public void InvokeRepeating(){} // RVA: 0x7A908AA00
-        public void StartCoroutine(){} // RVA: 0x7A908AAA0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A908AC50
-        public void Awake(){} // RVA: 0x7A908CAB0
-        public void StopAllCoroutines(){} // RVA: 0x7A908CCA0
-        public void get_useGUILayout(){} // RVA: 0x7A908CEC0
-        public void set_useGUILayout(){} // RVA: 0x7A908CFC0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A908EC00
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A908F140
-        public void InvokeDelayed(){} // RVA: 0x7A908F940
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A908F980
-        public void StartCoroutineManaged(){} // RVA: 0x7A908FA30
-        public void OnDestroy(){} // RVA: 0x7A908FA90
-        public void StopCoroutineManaged(){} // RVA: 0x7A90901E0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A90902E0
-        public void GetScriptClassName(){} // RVA: 0x7A90903F0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A90904B0
-        public void OnDisable(){} // RVA: 0x7A9090760
-        public void OnTriggerStay(){} // RVA: 0x7A90907C0
-        public void OnTriggerExit(){} // RVA: 0x7A9090880
-        public void OnTriggerEnter(){} // RVA: 0x7A9090A10
-        public void OnConnectedToMaster(){} // RVA: 0x7A9090A20
-        public void OnCustomAuthenticationFailed(){} // RVA: 0x7A9090BD0
-        public void OnCollisionEnter(){} // RVA: 0x7A9090D70
-        public void OnCollisionStay(){} // RVA: 0x7A8178B70
-        public void Start(){} // RVA: 0x7A9090DC0
-        public void Update(){} // RVA: 0x7A9090E60
-        public void OnEnable(){} // RVA: 0x7A9090F20
-        public void LateUpdate(){} // RVA: 0x7A9090F80
-        public void FixedUpdate(){} // RVA: 0x7A9091110
-        public void OnApplicationPause(){} // RVA: 0x7A90912E0
-        public void OnApplicationQuit(){} // RVA: 0x7A9091400
-        public void OnBecameVisible(){} // RVA: 0x7A8178B80
-        public void OnBecameInvisible(){} // RVA: 0x7A9091850
-        public void OnCollisionExit(){} // RVA: 0x7A9091CC0
+        public void GetInstanceID(){} // RVA: 0x13F2C70
+        public void Equals(){} // RVA: 0xBBF900
+        public void GetHashCode(){} // RVA: 0xBBF8F0
+        public void op_Implicit(){} // RVA: 0xC2E4C0
+        public void CompareBaseObjects(){} // RVA: 0xBC1B30
+        public void IsNativeObjectAlive(){} // RVA: 0xD05CA0
+        public void GetCachedPtr(){} // RVA: 0xC0FFD0
+        public void get_name(){} // RVA: 0xB708C0
+        public void set_name(){} // RVA: 0x13F2CC0
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0xB70100
+        public void DestroyImmediate(){} // RVA: 0xD33E60
+        public void FindObjectsOfType(){} // RVA: 0xCA4DF0
+        public void FindObjectsByType(){} // RVA: 0xB708C0
+        public void DontDestroyOnLoad(){} // RVA: 0x13F2D00
+        public void get_hideFlags(){} // RVA: 0xBE58B0
+        public void set_hideFlags(){} // RVA: 0xD09D70
+        public void FindObjectOfType(){} // RVA: 0xBE2C70
+        public void FindFirstObjectByType(){} // RVA: 0xBE58B0
+        public void CheckNullArgument(){} // RVA: 0xB5DBF0
+        public void ToString(){} // RVA: 0xBA9BA0
+        public void op_Equality(){} // RVA: 0xBBF900
+        public void .ctor(){} // RVA: 0x13F2D40
+        public void Initialize(){} // RVA: 0xB44DC0
+        public void Internal_CloneSingle(){} // RVA: 0xB465B0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0xBE2C60
+        public void Internal_InstantiateSingle(){} // RVA: 0xB44D60
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB700F0
+        public void GetName(){} // RVA: 0xBE2C60
+        public void IsPersistent(){} // RVA: 0xB6A8C0
+        public void SetName(){} // RVA: 0xB70160
+        public void FindObjectFromInstanceID(){} // RVA: 0xBE2C70
+        public void ForceLoadFromInstanceID(){} // RVA: 0xB43310
         // ── Unresolved (hash) ──
-        public void m_036(){} // RVA: 0x7A8A092E0
-        public void m_408(){} // RVA: 0x7A9091960
-        public void m_D58(){} // RVA: 0x7A9091B30
-        public void m_BE5(){} // RVA: 0x7A90924C0
-        public void m_485(){} // RVA: 0x7A8178B70
-        public void m_94F(){} // RVA: 0x7A9092530
+        public void m_2CD(){} // RVA: 0xC0FFC0
     }
 
-    /// <summary>Originally: ÍÌÎÏÏÏÏÌÌÍÍÌÌÎÌÏÌÍÏÏÎÌÍ</summary>
-    public class PhotonHashtableDerived_B3A4 : PhotonHashtable
+    /// <summary>Originally: ÎÏÎÏÍÍÍÌÌÌÌÌÎÌÎÍÏÏÎÎÏÍÎ</summary>
+    public class PhotonConnectionHandler_7EEA
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98B2AE0
+        public void Handle(){} // RVA: 0x894290
+        public void OnConnectedToMaster(){} // RVA: 0x894290
+        public void Process(){} // RVA: 0x8944F0
+        public void OnReceive(){} // RVA: 0x894320
+        public void OnCustomAuthenticationResponse(){} // RVA: 0x894320
+        public void OnCustomAuthenticationFailed(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÎÍÎÎÍÏÌÌÏÏÎÎÎÏÌÍÍÎÌÍÎÌÍ</summary>
-    public class PhotonMasterHandler_145B : ConnectionHandler
+    /// <summary>Originally: ÍÍÍÏÍÍÌÎÍÎÎÌÍÏÏÌÎÌÎÏÎÍÎ</summary>
+    public class PhotonConnectionHandler_A349 : List`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A983DE60
-        public void FixedUpdate(){} // RVA: 0x7A983DF40
-        public void .cctor(){} // RVA: 0x7A983E360
-        public void LateUpdate(){} // RVA: 0x7A983E5C0
-        public void OnMasterClientSwitched(){} // RVA: 0x7A80D7310
-        public void OnApplicationFocus(){} // RVA: 0x7A80D7310
-        public void OnApplicationPause(){} // RVA: 0x7A80D7310
-        public void Start(){} // RVA: 0x7A983E900
-        public void OnJoinedRoom(){} // RVA: 0x7A80D7310
-        public void OnLeftRoom(){} // RVA: 0x7A80D7310
-        public void OnDisable(){} // RVA: 0x7A983EDB0
-        public void Awake(){} // RVA: 0x7A983EE10
-        public void OnDestroy(){} // RVA: 0x7A80D7310
-        public void OnCreatedRoom(){} // RVA: 0x7A80D7310
-        public void OnEnable(){} // RVA: 0x7A983F360
-        // ── 11 unresolved (hash) ──
-        public void m_AD4(){} // RVA: 0x7A80D7310
-        public void m_C84(){} // RVA: 0x7A80D7310
-        public void m_F31(){} // RVA: 0x7A80D7310
-        public void m_01E(){} // RVA: 0x7A80D7310
-        public void m_F24(){} // RVA: 0x7A80D7310
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÌÏÍÏÎÌÍÌÎÏÏÍÎÌÏÎÏÍÍÍÎ</summary>
-    public class PhotonMasterHandler_AAAC
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x7A7E18800
-        public void Process(){} // RVA: 0x7A7E18800
-        public void OnReceive(){} // RVA: 0x7A7E18800
-        public void OnEvent(){} // RVA: 0x7A7E18890
-        public void OnMasterClientSwitched(){} // RVA: 0x7A7E18800
-    }
-
-    /// <summary>Originally: ÎÍÏÍÍÏÌÏÌÍÏÌÌÏÍÌÎÏÎÎÏÌÏ</summary>
-    public class PhotonMasterHandler_C125 : List`1
-    {
-        // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7A98731E0
-        public void .ctor(){} // RVA: 0x7A98734E0
-        public void Initialize(){} // RVA: 0x7A98735A0
-        public void get_Count(){} // RVA: 0x7A98738A0
-        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x7A9873B90
-        public void OnMasterClientSwitched(){} // RVA: 0x7A9873E90
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7A9874190
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A9874450
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A9874750
-        public void get_Item(){} // RVA: 0x7A9874A10
-        public void set_Item(){} // RVA: 0x7A9874D00
-        public void IsCompatibleObject(){} // RVA: 0x7A9875000
-        public void System.Collections.IList.get_Item(){} // RVA: 0x7A9875300
-        public void System.Collections.IList.set_Item(){} // RVA: 0x7A98755F0
-    }
-
-    /// <summary>Originally: ÎÍÏÏÏÎÎÍÍÏÎÌÎÏÏÏÌÎÍÌÌÌÎ</summary>
-    public class PhotonRoomHandlerSibling_44D7 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A81052C0
-        public void Equals(){} // RVA: 0x7A813E420
-        public void GetHashCode(){} // RVA: 0x7A81052C0
-        public void .ctor(){} // RVA: 0x7A88F28F0
-        public void Initialize(){} // RVA: 0x7A81052C0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A81052D0
-        public void GetCachedPtr(){} // RVA: 0x7A88F2AA0
-        public void get_name(){} // RVA: 0x7A80DA7B0
-        public void set_name(){} // RVA: 0x7A81052D0
-        public void Instantiate(){} // RVA: 0x7A88F2AC0
-        public void Destroy(){} // RVA: 0x7A80F2570
-        public void DestroyImmediate(){} // RVA: 0x7A813E420
-        public void FindObjectsOfType(){} // RVA: 0x7A81052C0
-        public void FindObjectsByType(){} // RVA: 0x7A88F2BB0
-        public void DontDestroyOnLoad(){} // RVA: 0x7A80D8E20
-        public void get_hideFlags(){} // RVA: 0x7A88F2CA0
-    }
-
-    /// <summary>Originally: ÌÌÏÎÎÎÌÎÌÏÍÍÏÎÌÍÎÍÏÌÏÎÌ</summary>
-    public class PhotonRoomHandlerSibling_718B
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x7A7E18800
-        public void Process(){} // RVA: 0x7A7E18800
-        public void OnReceive(){} // RVA: 0x7A7E00680
-        public void OnEvent(){} // RVA: 0x7A7E00680
+        public void RemoveAt(){} // RVA: 0x237A600
+        public void get_Count(){} // RVA: 0x237A910
+        public void OnCustomAuthenticationFailed(){} // RVA: 0x237AC20
+        public void .ctor(){} // RVA: 0x237AFA0
+        public void Initialize(){} // RVA: 0xB43310
+        public void OnCustomAuthenticationResponse(){} // RVA: 0x237B060
+        public void IndexOf(){} // RVA: 0xB43310
+        public void OnConnectedToMaster(){} // RVA: 0x237C460
         // ── Unresolved (hash) ──
-        public void m_902(){} // RVA: 0x7A7E00680
+        public void m_153(){} // RVA: 0x237B370
+        public void m_BAD(){} // RVA: 0x237B690
+        public void m_903(){} // RVA: 0xB43310
+        public void m_C02(){} // RVA: 0xB43310
+        public void m_901(){} // RVA: 0x237BA20
+        public void m_5FC(){} // RVA: 0x237BD40
+        public void m_584(){} // RVA: 0x237C0D0
     }
 
-    /// <summary>Originally: ÍÌÏÍÌÎÏÍÌÌÍÎÍÍÎÍÌÌÍÎÏÍÌ</summary>
-    public class PhotonRoomHandler_88A4 : List`1
+    /// <summary>Originally: ÌÎÍÍÍÌÍÏÎÍÌÎÍÏÏÏÍÍÍÌÌÎÍ</summary>
+    public class PhotonConnectionHandler_BE8D : MonoBehaviour
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7A9870660
-        public void get_Capacity(){} // RVA: 0x7A9870A70
-        public void set_Capacity(){} // RVA: 0x7A9870E80
-        public void OnJoinedRoom(){} // RVA: 0x7A9871100
-        public void OnCreatedRoom(){} // RVA: 0x7A9871380
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A9871600
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7A9871A10
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A9871C90
-        public void OnLeftRoom(){} // RVA: 0x7A9871F80
-        public void get_Item(){} // RVA: 0x7A9872200
-        public void set_Item(){} // RVA: 0x7A9872480
-        public void IsCompatibleObject(){} // RVA: 0x7A9872770
-        public void System.Collections.IList.get_Item(){} // RVA: 0x7A9872A90
-        public void .ctor(){} // RVA: 0x7A9872EA0
-        public void Initialize(){} // RVA: 0x7A9872F60
-    }
-
-    /// <summary>Originally: ÏÎÏÎÏÌÏÎÏÍÎÌÌÌÏÎÍÍÏÎÏÌÎ</summary>
-    public class PhotonRoomHandler_8F6F
-    {
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x7A7E18800
-        public void OnCreatedRoom(){} // RVA: 0x7A7E18770
-        public void Process(){} // RVA: 0x7A7E1A5A0
-        public void OnJoinedRoom(){} // RVA: 0x7A7E18770
-        public void OnReceive(){} // RVA: 0x7A7E1A5A0
-        public void OnEvent(){} // RVA: 0x7A7E1A5A0
-        public void OnLeftRoom(){} // RVA: 0x7A7E18770
-    }
-
-    /// <summary>Originally: ÎÏÌÎÍÎÍÍÍÌÎÎÌÌÎÍÎÎÍÌÎÏÏ</summary>
-    public class VRCNetworkBehaviour : NetworkReadyHandler_6CE9
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A7E18800
-        public void SerializedName(){} // RVA: 0x7A95094B0
-        public void set_TypeId(){} // RVA: 0x7A9509610
-        public void get_TypeId(){} // RVA: 0x7A95096B0
-        public void CanSerialize8Bit(){} // RVA: 0x7A81BD750
-        public void CanSerialize32Bit(){} // RVA: 0x7A80D7320
-        public void Decode(){} // RVA: 0x7A950C7E0
-        public void Awake(){} // RVA: 0x7A950B190
-        public void OnNetworkReady(){} // RVA: 0x7A950B1D0
-        public void Start(){} // RVA: 0x7A950B250
-        public void OnDestroy(){} // RVA: 0x7A950B2F0
-        public void Update(){} // RVA: 0x7A950B330
-        public void LateUpdate(){} // RVA: 0x7A950B930
-        public void OnDisable(){} // RVA: 0x7A8051B10
-        public void OnApplicationPause(){} // RVA: 0x7A950BF40
-        public void NeedsSync(){} // RVA: 0x7A8153980
-        public void OnBecameVisible(){} // RVA: 0x7A950BFE0
-        public void NeedsImportant(){} // RVA: 0x7A80D7320
-        public void Encode(){} // RVA: 0x7A950D750
+        public void get_destroyCancellationToken(){} // RVA: 0x1BBBC60
+        public void OnConnectedToMaster(){} // RVA: 0x1BBC1A0
+        public void IsInvoking(){} // RVA: 0x1BBC350
+        public void CancelInvoke(){} // RVA: 0x1BBC460
+        public void Invoke(){} // RVA: 0x1503EB0
+        public void InvokeRepeating(){} // RVA: 0xBE58A0
+        public void StartCoroutine(){} // RVA: 0x1BBE0D0
+        public void StartCoroutine_Auto(){} // RVA: 0x1BBE280
+        public void StopCoroutine(){} // RVA: 0x1BBE410
+        public void Start(){} // RVA: 0x1BBE530
+        public void OnDestroy(){} // RVA: 0x1BBE5D0
+        public void set_useGUILayout(){} // RVA: 0x1BBED20
+        public void get_didStart(){} // RVA: 0x1BBFD40
+        public void get_didAwake(){} // RVA: 0x1BBFDF0
+        public void print(){} // RVA: 0x1BBFE40
+        public void Internal_CancelInvokeAll(){} // RVA: 0x1BBFEB0
+        public void Internal_IsInvokingAll(){} // RVA: 0x1BC0080
+        public void InvokeDelayed(){} // RVA: 0x1BC0140
+        public void IsObjectMonoBehaviour(){} // RVA: 0x1BC0250
+        public void StartCoroutineManaged(){} // RVA: 0x1BC0360
+        public void StartCoroutineManaged2(){} // RVA: 0x1BC0400
+        public void StopCoroutineManaged(){} // RVA: 0x1BC0B80
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x1BC0CA0
+        public void GetScriptClassName(){} // RVA: 0x1BC0E70
+        public void OnCancellationTokenCreated(){} // RVA: 0x1BC1000
+        public void OnDisable(){} // RVA: 0x1BC1040
+        public void Awake(){} // RVA: 0x1BC10A0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x1BC12C0
+        public void get_useGUILayout_Injected(){} // RVA: 0x1BC1300
+        public void OnCustomAuthenticationFailed(){} // RVA: 0x1BC1310
+        public void get_didStart_Injected(){} // RVA: 0x1BC14B0
+        public void get_didAwake_Injected(){} // RVA: 0x1BC1510
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x1BC1730
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0xBE5890
+        public void InvokeDelayed_Injected(){} // RVA: 0x1BC1B80
+        public void CancelInvoke_Injected(){} // RVA: 0x1BC1BE0
+        public void IsInvoking_Injected(){} // RVA: 0x1BC1C60
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x1BC1D10
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x1BC1FB0
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x1BC20F0
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x1BC2170
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1BC2230
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x15035D0
+        public void OnEnable(){} // RVA: 0x1BC3F50
         // ── Unresolved (hash) ──
-        public void m_CF2(){} // RVA: 0x7A95096C0
-        public void m_E0A(){} // RVA: 0x7A9509900
-        public void m_751(){} // RVA: 0x7A9509C50
-        public void m_053(){} // RVA: 0x7A950A220
-        public void m_F20(){} // RVA: 0x7A950A7F0
-        public void m_205(){} // RVA: 0x7A950B430
-        public void m_180(){} // RVA: 0x7A8051B10
-        public void m_9E4(){} // RVA: 0x7A8358D90
-        public void m_8F2(){} // RVA: 0x7A950AA00
-        public void m_C06(){} // RVA: 0x7A950B970
+        public void m_665(){} // RVA: 0x1BC3E50
     }
 
-    /// <summary>Originally: ÏÌÌÌÏÎÏÏÏÏÏÍÌÍÏÎÏÌÏÌÍÎÎ</summary>
-    public class VRCNetworkBehaviourBase : NetworkReadyHandler_6CE9
+    /// <summary>Originally: ÍÍÎÎÍÎÍÌÍÎÏÎÏÌÍÍÌÌÍÌÏÏÌ</summary>
+    public class PhotonHashtableDerived_E2EE : PhotonHashtable
     {
         // ── Methods ──
-        public void CanSerialize8Bit(){} // RVA: 0x7A81BD750
-        public void CanUsePersistenceHashes(){} // RVA: 0x7A94B90F0
-        public void CanSerialize32Bit(){} // RVA: 0x7A81BD750
-        public void Awake(){} // RVA: 0x7A94B9D10
-        public void Decode(){} // RVA: 0x7A94BA490
-        public void Start(){} // RVA: 0x7A94BA350
-        public void Update(){} // RVA: 0x7A94BA3F0
-        public void NeedsSync(){} // RVA: 0x7A81A00C0
-        public void Encode(){} // RVA: 0x7A94BBD70
-        public void OnDestroy(){} // RVA: 0x7A81BD750
-        public void SerializedName(){} // RVA: 0x7A94BAB90
-        public void OnApplicationQuit(){} // RVA: 0x7A94BACF0
-        public void OnBecameVisible(){} // RVA: 0x7A8358D90
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void GenerateComponentInfo(){} // RVA: 0x7A94BB3F0
-        public void OnCollisionStay(){} // RVA: 0x7A94BB580
-        public void OnCollisionExit(){} // RVA: 0x7A94BB9B0
-        public void OnTriggerEnter(){} // RVA: 0x7A81BD750
-        public void set_TypeId(){} // RVA: 0x7A94BBE10
-        public void set_UniqueHash(){} // RVA: 0x7A94BBF40
-        public void NeedsImportant(){} // RVA: 0x7A80D7320
-        public void get_TypeId(){} // RVA: 0x7A94BC410
-        public void get_UniqueHash(){} // RVA: 0x7A94BC410
+        public void .ctor(){} // RVA: 0x23E22C0
+    }
+
+    /// <summary>Originally: ÎÍÌÌÌÌÏÌÍÏÍÏÎÏÍÌÍÎÌÏÍÎÎ</summary>
+    public class PhotonMasterHandler_26A5 : List`1
+    {
+        // ── Methods ──
+        public void RemoveAt(){} // RVA: 0x237F300
+        public void get_Count(){} // RVA: 0x237F5F0
+        public void get_Item(){} // RVA: 0x237F8F0
+        public void IndexOf(){} // RVA: 0x237FBF0
+        public void OnMasterClientSwitched(){} // RVA: 0x2380550
+        public void .ctor(){} // RVA: 0x2381140
+        public void Initialize(){} // RVA: 0x2381200
         // ── Unresolved (hash) ──
-        public void m_144(){} // RVA: 0x7A94B9520
-        public void m_037(){} // RVA: 0x7A94B9830
-        public void m_1DF(){} // RVA: 0x7A94BA7B0
-        public void m_EEE(){} // RVA: 0x7A94BC150
+        public void m_7A0(){} // RVA: 0x237FF60
+        public void m_1C6(){} // RVA: 0x2380250
+        public void m_225(){} // RVA: 0x2380850
+        public void m_075(){} // RVA: 0x2380B50
+        public void m_AF1(){} // RVA: 0x2380E40
+        public void m_FA5(){} // RVA: 0x23814F0
+    }
+
+    /// <summary>Originally: ÏÏÍÎÍÍÍÎÎÎÌÎÍÏÌÏÍÍÎÏÎÏÌ</summary>
+    public class PhotonMasterHandler_7985
+    {
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x894320
+        public void Process(){} // RVA: 0x894320
+        public void OnReceive(){} // RVA: 0x894320
+        public void OnEvent(){} // RVA: 0x8943B0
+        public void OnMasterClientSwitched(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÏÌÌÍÌÍÌÎÎÌÏÏÍÍÏÏÌÌÍÌÍÌÏ</summary>
+    public class PhotonRoomHandlerSibling_0E0B
+    {
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x894320
+        public void Process(){} // RVA: 0x894320
+        public void OnReceive(){} // RVA: 0x87C0A0
+        public void OnEvent(){} // RVA: 0x87C0A0
+        // ── Unresolved (hash) ──
+        public void m_F97(){} // RVA: 0x87C0A0
+    }
+
+    /// <summary>Originally: ÍÍÍÏÍÌÎÎÎÎÌÌÍÌÌÌÏÍÏÏÍÏÍ</summary>
+    public class PhotonRoomHandlerSibling_10F3 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB5DBF0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB465B0
+        public void op_Implicit(){} // RVA: 0x13F8510
+        public void CompareBaseObjects(){} // RVA: 0xB465B0
+        public void IsNativeObjectAlive(){} // RVA: 0xB465B0
+        public void GetCachedPtr(){} // RVA: 0xBA9BA0
+        public void get_name(){} // RVA: 0x101EE20
+        public void set_name(){} // RVA: 0xB5DBF0
+        public void Instantiate(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0x13F8600
+        public void Initialize(){} // RVA: 0xB44D60
+        public void FindObjectsOfType(){} // RVA: 0xB700F0
+        public void FindObjectsByType(){} // RVA: 0xB70100
+        public void DontDestroyOnLoad(){} // RVA: 0xB465B0
+        public void get_hideFlags(){} // RVA: 0x13F87B0
+    }
+
+    /// <summary>Originally: ÌÏÍÌÌÎÍÎÎÌÏÍÏÎÌÌÎÏÌÏÎÏÍ</summary>
+    public class PhotonRoomHandler_3D91 : ConnectionHandler
+    {
+        // ── Methods ──
+        public void FixedUpdate(){} // RVA: 0x23472A0
+        public void OnLeftRoom(){} // RVA: 0xB43310
+        public void LateUpdate(){} // RVA: 0x23476C0
+        public void .ctor(){} // RVA: 0x2347A00
+        public void .cctor(){} // RVA: 0x2347AE0
+        public void OnDisable(){} // RVA: 0x2347D40
+        public void OnEnable(){} // RVA: 0x2347DA0
+        public void OnJoinedRoom(){} // RVA: 0xB43310
+        public void Awake(){} // RVA: 0x23483B0
+        public void OnDestroy(){} // RVA: 0xB43310
+        public void Start(){} // RVA: 0x23488C0
+        public void OnMasterClientSwitched(){} // RVA: 0xB43310
+        public void OnCreatedRoom(){} // RVA: 0xB43310
+        // ── 12 unresolved (hash) ──
+        public void m_7C9(){} // RVA: 0xB43310
+        public void m_96E(){} // RVA: 0xB43310
+        public void m_AF2(){} // RVA: 0xB43310
+        public void m_721(){} // RVA: 0xB43310
+        public void m_7A0(){} // RVA: 0xB43310
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÏÍÏÏÏÍÎÏÍÏÍÎÎÏÏÎÍÌÏÏÍ</summary>
+    public class PhotonRoomHandler_5EAB
+    {
+        // ── Methods ──
+        public void Handle(){} // RVA: 0x894320
+        public void OnCreatedRoom(){} // RVA: 0x894290
+        public void Process(){} // RVA: 0x896110
+        public void OnJoinedRoom(){} // RVA: 0x894290
+        public void OnReceive(){} // RVA: 0x896110
+        public void OnEvent(){} // RVA: 0x896110
+        public void OnLeftRoom(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÏÎÏÏÌÏÌÌÌÌÍÎÏÌÏÍÍÌÌÎÍÎÏ</summary>
+    public class PhotonRoomHandler_FAEE : List`1
+    {
+        // ── Methods ──
+        public void OnJoinedRoom(){} // RVA: 0x237C6E0
+        public void get_Count(){} // RVA: 0x237C960
+        public void get_Item(){} // RVA: 0x237CC50
+        public void OnLeftRoom(){} // RVA: 0x237D050
+        public void IndexOf(){} // RVA: 0x237D2D0
+        public void OnCreatedRoom(){} // RVA: 0x237E8D0
+        public void .ctor(){} // RVA: 0x237EB50
+        public void Initialize(){} // RVA: 0x237EC10
+        // ── Unresolved (hash) ──
+        public void m_AF2(){} // RVA: 0x237D550
+        public void m_47C(){} // RVA: 0x237D950
+        public void m_CD6(){} // RVA: 0x237DC70
+        public void m_09E(){} // RVA: 0x237DEF0
+        public void m_96E(){} // RVA: 0x237E1E0
+        public void m_894(){} // RVA: 0x237E4D0
+        public void m_565(){} // RVA: 0x237EF00
+    }
+
+    /// <summary>Originally: ÎÏÌÏÌÌÍÏÎÌÍÌÎÎÏÏÎÌÍÍÌÍÌ</summary>
+    public class VRCNetworkBehaviour : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void Encode(){} // RVA: 0x2023730
+        public void OnNetworkReady(){} // RVA: 0x2021B30
+        public void Decode(){} // RVA: 0x2022360
+        public void NeedsSync(){} // RVA: 0xBC03E0
+        public void Awake(){} // RVA: 0xBC03E0
+        public void OnEnable(){} // RVA: 0x2022AB0
+        public void Start(){} // RVA: 0x2022DC0
+        public void Update(){} // RVA: 0x2022E60
+        public void LateUpdate(){} // RVA: 0x2023630
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0xB43320
+        public void NeedsImportant(){} // RVA: 0xB43320
+        public void set_TypeId(){} // RVA: 0xBC03E0
+        public void get_TypeId(){} // RVA: 0x20237F0
+        public void CanSerialize8Bit(){} // RVA: 0xC2E4C0
+        public void OnCollisionEnter(){} // RVA: 0x2023800
+        public void CanSerialize32Bit(){} // RVA: 0xB43320
+        public void OnCollisionExit(){} // RVA: 0xE37BF0
+        public void OnDisable(){} // RVA: 0x20238A0
+        public void SerializedName(){} // RVA: 0x2023BB0
+        // ── Unresolved (hash) ──
+        public void m_4D3(){} // RVA: 0x894320
+        public void m_876(){} // RVA: 0x2023770
+        public void m_3C9(){} // RVA: 0xA94080
+        public void m_24E(){} // RVA: 0xA94080
+        public void m_502(){} // RVA: 0x2021BC0
+        public void m_65F(){} // RVA: 0x2022320
+        public void m_B89(){} // RVA: 0x20235F0
+    }
+
+    /// <summary>Originally: ÎÏÌÍÎÌÌÎÍÏÌÏÏÏÏÍÏÎÍÌÎÏÍ</summary>
+    public class VRCNetworkBehaviourBase : NetworkReadyHandler_D8EE
+    {
+        // ── Methods ──
+        public void Decode(){} // RVA: 0x1FD9050
+        public void set_TypeId(){} // RVA: 0x1FD6E00
+        public void get_TypeId(){} // RVA: 0x1FD7BE0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1FD7BF0
+        public void CanSerialize8Bit(){} // RVA: 0xC2E4C0
+        public void CanSerialize32Bit(){} // RVA: 0xC2E4C0
+        public void GenerateComponentInfo(){} // RVA: 0x1FD85B0
+        public void Encode(){} // RVA: 0x1FD9A50
+        public void NeedsSync(){} // RVA: 0xC10030
+        public void set_UniqueHash(){} // RVA: 0x1FD8CD0
+        public void get_UniqueHash(){} // RVA: 0x1FD7BE0
+        public void NeedsImportant(){} // RVA: 0xB43320
+        public void SerializedName(){} // RVA: 0x1FD9AF0
+        public void Awake(){} // RVA: 0x1FD9C50
+        public void OnEnable(){} // RVA: 0x1FD9C60
+        public void Start(){} // RVA: 0x1FDA080
+        public void Update(){} // RVA: 0xE37BF0
+        public void CanUsePersistenceHashes(){} // RVA: 0x1FDA120
+        // ── Unresolved (hash) ──
+        public void m_E2A(){} // RVA: 0x1FD7010
+        public void m_5B7(){} // RVA: 0x1FD7710
+        public void m_FBA(){} // RVA: 0x1FD77B0
+        public void m_BDF(){} // RVA: 0x1FD7F70
+        public void m_501(){} // RVA: 0x1FD8450
+        public void m_707(){} // RVA: 0x1FD8740
+        public void m_599(){} // RVA: 0x1FD8B40
+        public void m_083(){} // RVA: 0xC2E4C0
+        public void m_646(){} // RVA: 0x1FD9370
+        public void m_A56(){} // RVA: 0x1FD8A60
     }
 
 }

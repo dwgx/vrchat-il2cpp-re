@@ -8,13 +8,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class Vector2MagnitudeComparer : ValueType
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7A7EAD350
+        public void Compare(){} // RVA: 0x92E140
     }
 
     public class Vector3MagnitudeComparer : ValueType
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7A7EAD3B0
+        public void Compare(){} // RVA: 0x92E1A0
     }
 
 }

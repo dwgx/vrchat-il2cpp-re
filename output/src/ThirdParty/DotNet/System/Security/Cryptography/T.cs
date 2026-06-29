@@ -8,67 +8,67 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
     public class TailStream : Stream
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA6ED70
-        public void Clear(){} // RVA: 0x7ADA5D520
-        public void Dispose(){} // RVA: 0x7ADA6EE30
-        public void get_Buffer(){} // RVA: 0x7ADA6EF00
-        public void get_CanRead(){} // RVA: 0x7A80D7320
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7AD854AF0
-        public void get_Length(){} // RVA: 0x7ADA6EF80
-        public void get_Position(){} // RVA: 0x7ADA6EFE0
-        public void set_Position(){} // RVA: 0x7ADA6F040
-        public void Flush(){} // RVA: 0x7A80D7310
-        public void Seek(){} // RVA: 0x7ADA6F0A0
-        public void SetLength(){} // RVA: 0x7ADA6F100
-        public void Read(){} // RVA: 0x7ADA6F160
-        public void Write(){} // RVA: 0x7ADA6F1C0
+        public void .ctor(){} // RVA: 0x66F93B0
+        public void Clear(){} // RVA: 0x66E7B30
+        public void Dispose(){} // RVA: 0x66F9470
+        public void get_Buffer(){} // RVA: 0x66F9540
+        public void get_CanRead(){} // RVA: 0xB43320
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0x64E22A0
+        public void get_Length(){} // RVA: 0x66F95C0
+        public void get_Position(){} // RVA: 0x66F9620
+        public void set_Position(){} // RVA: 0x66F9680
+        public void Flush(){} // RVA: 0xB43310
+        public void Seek(){} // RVA: 0x66F96E0
+        public void SetLength(){} // RVA: 0x66F9740
+        public void Read(){} // RVA: 0x66F97A0
+        public void Write(){} // RVA: 0x66F9800
     }
 
     public class ToBase64Transform : Object
     {
         // ── Methods ──
-        public void get_InputBlockSize(){} // RVA: 0x7A87EE0F0
-        public void get_OutputBlockSize(){} // RVA: 0x7A883BE70
-        public void get_CanTransformMultipleBlocks(){} // RVA: 0x7A80D7320
-        public void get_CanReuseTransform(){} // RVA: 0x7A81BD750
-        public void TransformBlock(){} // RVA: 0x7ADA64960
-        public void TransformFinalBlock(){} // RVA: 0x7ADA64C60
-        public void Dispose(){} // RVA: 0x7A80D7310
-        public void Clear(){} // RVA: 0x7ADA64F20
-        public void Finalize(){} // RVA: 0x7ADA64F90
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_InputBlockSize(){} // RVA: 0x12FC4A0
+        public void get_OutputBlockSize(){} // RVA: 0x1347420
+        public void get_CanTransformMultipleBlocks(){} // RVA: 0xB43320
+        public void get_CanReuseTransform(){} // RVA: 0xC2E4C0
+        public void TransformBlock(){} // RVA: 0x66EEF40
+        public void TransformFinalBlock(){} // RVA: 0x66EF240
+        public void Dispose(){} // RVA: 0xB43310
+        public void Clear(){} // RVA: 0x66EF500
+        public void Finalize(){} // RVA: 0x66EF570
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class TripleDES : SymmetricAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA8C730
-        public void get_Key(){} // RVA: 0x7ADA8C860
-        public void set_Key(){} // RVA: 0x7ADA8C940
-        public void Create(){} // RVA: 0x7ADA8CBC0
-        public void IsWeakKey(){} // RVA: 0x7ADA8CCA0
-        public void EqualBytes(){} // RVA: 0x7ADA8CE20
-        public void IsLegalKeySize(){} // RVA: 0x7ADA8D080
-        public void .cctor(){} // RVA: 0x7ADA8D0A0
+        public void .ctor(){} // RVA: 0x6716E10
+        public void get_Key(){} // RVA: 0x6716F40
+        public void set_Key(){} // RVA: 0x6717020
+        public void Create(){} // RVA: 0x67172A0
+        public void IsWeakKey(){} // RVA: 0x6717380
+        public void EqualBytes(){} // RVA: 0x6717500
+        public void IsLegalKeySize(){} // RVA: 0x6717760
+        public void .cctor(){} // RVA: 0x6717780
     }
 
     public class TripleDESCryptoServiceProvider : TripleDES
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA8D320
-        public void CreateEncryptor(){} // RVA: 0x7ADA8D4C0
-        public void CreateDecryptor(){} // RVA: 0x7ADA8D5E0
-        public void GenerateKey(){} // RVA: 0x7ADA8D700
-        public void GenerateIV(){} // RVA: 0x7ADA8D850
+        public void .ctor(){} // RVA: 0x6717A00
+        public void CreateEncryptor(){} // RVA: 0x6717BA0
+        public void CreateDecryptor(){} // RVA: 0x6717CC0
+        public void GenerateKey(){} // RVA: 0x6717DE0
+        public void GenerateIV(){} // RVA: 0x6717F30
     }
 
     public class TripleDESTransform : SymmetricTransform
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA9CAD0
-        public void ECB(){} // RVA: 0x7ADA9D410
-        public void GetStrongKey(){} // RVA: 0x7ADA9D580
+        public void .ctor(){} // RVA: 0x67273F0
+        public void ECB(){} // RVA: 0x6727D30
+        public void GetStrongKey(){} // RVA: 0x6727EA0
     }
 
 }

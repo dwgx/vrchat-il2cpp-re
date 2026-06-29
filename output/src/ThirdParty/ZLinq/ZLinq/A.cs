@@ -8,8 +8,8 @@ namespace ThirdParty.ZLinq.ZLinq
     public class ArgumentNullException : Object
     {
         // ── Methods ──
-        public void ThrowIfNull(){} // RVA: 0x7B19496B0
-        public void Throw(){} // RVA: 0x7B19496D0
+        public void ThrowIfNull(){} // RVA: 0xA7B5C20
+        public void Throw(){} // RVA: 0xA7B5C40
     }
 
 }

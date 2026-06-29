@@ -1,949 +1,946 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Internal.Delegate
 // Classes: 100
-// Methods: 341
+// Methods: 338
 
 namespace VRC.Internal.Delegate
 {
-    /// <summary>Originally: ÏÏÌÏÏÌÌÎÏÌÏÍÎÎÍÌÏÎÏÏÌÍÌ</summary>
-    public class Delegate_223E : MulticastDelegate
+    /// <summary>Originally: ÌÍÌÏÌÍÍÍÎÏÌÎÌÎÌÏÌÎÏÎÎÌÎ</summary>
+    public class Delegate_047C : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x23E7D60
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÍÎÌÍÍÌÏÌÎÌÍÌÎÍÍÏÎÏÎÍÍÌ</summary>
-    public class Delegate_33B9 : MulticastDelegate
+    /// <summary>Originally: ÍÍÎÍÌÏÌÌÎÏÎÍÏÌÌÎÏÍÌÎÌÎÍ</summary>
+    public class Delegate_0800 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97ED0B0
-        public void Invoke(){} // RVA: 0x7A97ED1A0
-        public void BeginInvoke(){} // RVA: 0x7A97ED1C0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xED1C40
+        public void Invoke(){} // RVA: 0xCA8D60
+        public void BeginInvoke(){} // RVA: 0xED1D10
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÏÏÏÌÎÍÍÎÎÎÎÎÍÌÌÎÌÏÍÍÏÎ</summary>
-    public class Delegate_3715 : MulticastDelegate
+    /// <summary>Originally: ÏÏÌÏÌÎÏÌÏÎÌÎÍÌÌÍÏÌÏÏÍÌÎ</summary>
+    public class Delegate_1072 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8DEF410
-        public void Invoke(){} // RVA: 0x7A8DEF4E0
-        public void BeginInvoke(){} // RVA: 0x7A8DEF550
-        public void EndInvoke(){} // RVA: 0x7A8DEF650
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0xA94080
     }
 
-    /// <summary>Originally: ÍÎÏÎÍÌÌÍÍÌÏÎÌÎÍÌÎÍÍÏÎÏÏ</summary>
-    public class Delegate_4312 : MulticastDelegate
+    /// <summary>Originally: ÏÏÍÏÍÍÍÎÏÎÍÌÏÎÎÎÍÍÌÎÎÍÎ</summary>
+    public class Delegate_1672 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÍÎÏÏÎÌÏÎÎÍÍÏÍÎÍÏÏÍÎÌÌ</summary>
-    public class Delegate_4475 : MulticastDelegate
+    /// <summary>Originally: ÏÍÏÍÌÎÏÍÏÏÍÎÏÍÌÌÌÍÌÍÎÌÏ</summary>
+    public class Delegate_1AB1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98C11F0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÌÍÌÌÍÍÎÌÏÏÌÏÏÌÎÎÏÌÍÎÎÌ</summary>
-    public class Delegate_4E04 : MulticastDelegate
+    /// <summary>Originally: ÎÏÎÌÎÎÍÎÍÎÍÍÌÏÎÍÏÎÎÏÎÍÌ</summary>
+    public class Delegate_4746 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F603C0
-        public void Invoke(){} // RVA: 0x7A8F60490
-        public void BeginInvoke(){} // RVA: 0x7A8F604F0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xEEA710
+        public void Invoke(){} // RVA: 0xEEA800
+        public void BeginInvoke(){} // RVA: 0xEEA820
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÏÍÎÏÎÎÌÍÏÏÏÎÏÌÍÎÎÌÎÌÌÌ</summary>
-    public class Delegate_5A20 : MulticastDelegate
+    /// <summary>Originally: ÎÌÏÍÏÏÍÌÏÍÍÍÏÎÌÏÌÏÎÍÌÎÎ</summary>
+    public class Delegate_4B53 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A7E18800
-        public void BeginInvoke(){} // RVA: 0x7A7E06710
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x14CC900
+        public void Invoke(){} // RVA: 0x14CC9D0
+        public void BeginInvoke(){} // RVA: 0x14CC9F0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÏÍÎÏÎÎÌÍÏÏÏÎÏÌÍÎÎÌÎÌÌÌ</summary>
-    public class Delegate_5A20 : MulticastDelegate
+    /// <summary>Originally: ÎÏÎÏÌÏÏÏÏÌÌÏÎÎÎÌÎÌÌÌÍÏÏ</summary>
+    public class Delegate_523C : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x192AA50
+        public void Invoke(){} // RVA: 0x192AB20
+        public void BeginInvoke(){} // RVA: 0x192AB90
+        public void EndInvoke(){} // RVA: 0x192AC80
     }
 
-    /// <summary>Originally: ÎÍÏÍÏÌÏÌÎÍÏÌÌÌÌÍÍÎÏÍÏÎÌ</summary>
-    public class Delegate_5F0C : MulticastDelegate
+    /// <summary>Originally: ÍÎÎÌÍÏÎÎÏÏÍÎÏÎÎÌÌÎÎÏÌÍÌ</summary>
+    public class Delegate_587E : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8132FA0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xB9DF20
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÌÍÌÏÌÍÏÌÏÏÌÎÍÎÍÌÏÏÌÎÍ</summary>
-    public class Delegate_6209 : MulticastDelegate
+    /// <summary>Originally: ÎÌÏÍÌÍÎÎÌÍÏÌÌÌÌÏÌÎÏÏÎÌÍ</summary>
+    public class Delegate_5D37 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9426AB0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A9426C20
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x23F1BA0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÎÎÏÌÏÌÍÏÍÌÎÏÍÌÌÍÌÏÌÌÌÏÏ</summary>
-    public class Delegate_6B18 : MulticastDelegate
+    /// <summary>Originally: ÍÏÏÎÍÍÍÌÌÌÎÎÎÌÏÏÎÌÌÌÍÍÎ</summary>
+    public class Delegate_6222 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÎÎÌÎÍÏÍÏÍÍÍÍÍÎÎÍÌÌÎÎÌÎ</summary>
-    public class Delegate_6CAA : MulticastDelegate
+    /// <summary>Originally: ÍÌÌÏÌÎÏÍÌÎÍÍÌÏÎÍÌÎÎÍÌÎÍ</summary>
+    public class Delegate_634F : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÌÍÌÍÏÍÎÎÌÏÎÏÏÍÌÎÌÍÌÎÏÍ</summary>
-    public class Delegate_6CFC : MulticastDelegate
+    /// <summary>Originally: ÍÏÌÌÌÎÍÍÏÎÌÌÏÎÍÍÎÏÏÍÍÍÌ</summary>
+    public class Delegate_66CC : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0xB9DF20
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÎÏÎÍÍÏÍÎÎÍÌÍÏÎÌÌÍÏÌÌÎÏÎ</summary>
-    public class Delegate_6EF0 : MulticastDelegate
+    /// <summary>Originally: ÌÍÎÎÍÍÍÌÏÏÏÏÎÏÍÎÎÌÏÏÌÏÏ</summary>
+    public class Delegate_6C1B : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9CE2500
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A9E17550
-        public void EndInvoke(){} // RVA: 0x7A9CE2680
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÌÌÎÌÏÏÎÍÍÎÎÏÎÌÎÌÌÎÌÍÏÎ</summary>
-    public class Delegate_6F65 : MulticastDelegate
+    /// <summary>Originally: ÎÍÌÏÌÍÏÍÍÌÍÍÏÌÌÏÎÎÌÍÏÍÎ</summary>
+    public class Delegate_70D0 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÎÌÏÌÎÎÌÏÍÏÌÌÌÏÌÍÍÎÏÌÍÏ</summary>
-    public class Delegate_729D : MulticastDelegate
+    /// <summary>Originally: ÏÎÍÌÌÍÍÏÎÍÏÎÍÏÎÌÏÏÏÌÍÌÎ</summary>
+    public class Delegate_7290 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A93C45D0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A93C46A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x23F1A30
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÎÍÎÎÎÎÎÏÏÎÏÍÏÏÏÎÏÌÌÏÎÍ</summary>
-    public class Delegate_752A : MulticastDelegate
+    /// <summary>Originally: ÎÍÍÏÌÎÌÎÍÎÎÍÌÎÍÏÍÏÏÎÍÍÏ</summary>
+    public class Delegate_72B1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8132FA0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xCA8D60
+        public void .ctor(){} // RVA: 0x5A793C0
+        public void BeginInvoke(){} // RVA: 0x1A4D0B0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÍÌÏÌÌÌÍÏÍÍÍÎÎÍÏÍÏÎÏÌÎÍÏ</summary>
+    public class Delegate_7E79 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x87D350
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÍÌÏÌÌÌÍÏÍÍÍÎÎÍÏÍÏÎÏÌÎÍÏ</summary>
+    public class Delegate_7E79 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0x24046F0
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0x2404860
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÎÏÌÌÌÎÌÍÌÎÎÌÍÏÌÎÏÌÏÎÍÎÌ</summary>
+    public class Delegate_8229 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÎÏÎÎÍÍÍÌÎÏÎÎÎÌÎÎÌÎÍÍÌ</summary>
-    public class Delegate_7B66 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÍÏÎÏÏÏÌÍÏÍÌÎÍÍÎÍÎÎÌÍÎÎ</summary>
-    public class Delegate_84E1 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÏÏÍÍÌÏÍÌÌÏÎÎÌÎÍÏÎÌÎÎÏÏÏ</summary>
-    public class Delegate_86F7 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A83F4600
-        public void Invoke(){} // RVA: 0x7A83F46F0
-        public void BeginInvoke(){} // RVA: 0x7A83F4710
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÌÎÍÏÌÎÏÌÍÏÏÌÏÏÎÎÍÎÏÎÎÏ</summary>
-    public class Delegate_8960 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÏÍÌÌÏÍÍÎÏÍÏÌÌÏÍÌÌÏÎÏÌÍÏ</summary>
-    public class Delegate_8E70 : MulticastDelegate
+    /// <summary>Originally: ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ</summary>
+    public class Delegate_8342 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9726900
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A97269D0
-        public void EndInvoke(){} // RVA: 0x7A9726A50
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÍÍÏÍÎÎÎÌÌÌÎÎÎÏÎÎÏÌÌÏÌÏÌ</summary>
-    public class Delegate_8E91 : MulticastDelegate
+    /// <summary>Originally: ÍÌÍÏÍÍÎÍÎÍÍÎÎÌÏÎÎÏÍÍÌÌÎ</summary>
+    public class Delegate_854D : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A89D0750
-        public void Invoke(){} // RVA: 0x7A89D0820
-        public void BeginInvoke(){} // RVA: 0x7A89D0840
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÏÍÌÎÌÌÍÍÎÍÏÏÍÎÏÌÍÍÍÎÌÍ</summary>
+    public class Delegate_8DAC : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xB9DF20
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÍÌÍÎÍÏÌÍÎÍÌÏÏÏÌÏÏÏÍÍÎÏÏ</summary>
+    public class Delegate_8E2A : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÏÌÎÎÍÌÌÌÏÍÌÍÏÏÎÏÎÌÎÌÏÏÎ</summary>
+    public class Delegate_906E : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2486100
+        public void Invoke(){} // RVA: 0x24861D0
+        public void BeginInvoke(){} // RVA: 0x2486220
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÌÍÎÍÌÍÌÍÏÌÍÌÌÏÌÏÎÎÌÏÌÌÏ</summary>
+    public class Delegate_9AF7 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A7E18890
-        public void BeginInvoke(){} // RVA: 0x7A7E12DE0
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÎÎÎÍÎÎÎÎÍÍÌÌÍÏÎÍÍÎÎÎÏÌ</summary>
+    public class Delegate_9CA5 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x23F18C0
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÏÏÍÍÏÍÏÌÍÍÎÏÌÎÍÌÌÍÏÎÍÏÍ</summary>
+    public class Delegate_A209 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x14CC900
+        public void Invoke(){} // RVA: 0x14CC9D0
+        public void BeginInvoke(){} // RVA: 0x14CC9F0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÏÍÌÍÎÍÌÍÍÍÍÍÎÎÌÏÌÎÎÏÌÏÏ</summary>
+    public class Delegate_A3DF : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÌÏÌÍÏÏÎÌÌÍÌÌÎÏÏÎÌÎÎÌÍÌ</summary>
+    public class Delegate_AEEB : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0x894320
+        public void BeginInvoke(){} // RVA: 0x882090
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÌÏÌÍÏÏÎÌÌÍÌÌÎÏÏÎÌÎÎÌÍÌ</summary>
+    public class Delegate_AEEB : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÏÎÏÏÎÍÌÎÌÌÏÎÎÏÎÏÌÎÎÌÌÏ</summary>
+    public class Delegate_AFAD : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x1F62250
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x1F623C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÌÎÎÏÍÏÏÌÏÏÍÌÏÎÏÏÌÏÌÎÏÏÎ</summary>
+    public class Delegate_B347 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÍÏÍÏÎÏÎÏÌÌÍÌÎÎÌÍÏÎÎÍÎÏÌ</summary>
+    public class Delegate_B934 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x23E2FF0
+        public void Invoke(){} // RVA: 0xCA8D60
+        public void BeginInvoke(){} // RVA: 0x23E30C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÌÏÎÍÍÌÏÏÏÍÎÎÎÌÏÏÏÏÏÍÍÌÏ</summary>
+    public class Delegate_D110 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÌÎÏÎÎÌÍÌÏÏÏÍÍÎÎÏÍÏÏÌÎÍÌ</summary>
+    public class Delegate_D606 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x9A63C90
+        public void Invoke(){} // RVA: 0x9A63D60
+        public void BeginInvoke(){} // RVA: 0x9A63DB0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÌÌÌÏÍÌÌÌÍÎÍÍÌÌÍÏÎÍÍÍÏÎÎ</summary>
+    public class Delegate_D8F6 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÏÍÎÍÎÏÍÏÍÎÏÌÌÌÏÎÏÍÎÎÌÍÏ</summary>
+    public class Delegate_DABD : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0x8943B0
+        public void BeginInvoke(){} // RVA: 0x88D2C0
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
-    /// <summary>Originally: ÌÎÏÍÎÎÎÌÌÌÍÌÍÏÍÎÏÏÏÎÌÌÍ</summary>
-    public class Delegate_8EB9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9C160C0
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÏÏÎÍÌÏÏÎÌÌÍÌÌÎÌÍÏÎÍÍÎÌ</summary>
-    public class Delegate_963D : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÏÏÍÎÌÎÎÎÏÍÍÍÌÎÌÏÎÍÎÏÏÏ</summary>
-    public class Delegate_98CC : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9CE2500
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A9E171B0
-        public void EndInvoke(){} // RVA: 0x7A9CE2680
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÌÌÏÍÎÌÌÍÏÌÍÍÏÏÌÎÍÍÌÌÏ</summary>
-    public class Delegate_9BA9 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÏÏÌÎÍÍÎÎÌÍÏÎÎÍÌÏÌÌÎÎÌ</summary>
-    public class Delegate_9F43 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÌÏÎÎÏÌÌÏÎÏÌÏÌÏÌÌÏÎÎÍÏÎ</summary>
-    public class Delegate_A6AC : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9307B20
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A9307BF0
-        public void EndInvoke(){} // RVA: 0x7A9307C80
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÍÍÌÏÌÌÏÏÌÌÎÍÍÏÎÌÍÌÏÍÌÍ</summary>
-    public class Delegate_B0BA : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÍÍÍÏÏÌÎÌÍÍÍÏÎÌÏÌÎÍÍÌÌÌ</summary>
-    public class Delegate_B2D8 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A996DE10
-        public void Invoke(){} // RVA: 0x7A996DEE0
-        public void BeginInvoke(){} // RVA: 0x7A996DF30
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÌÎÍÎÎÎÍÎÌÍÏÍÎÍÌÍÎÏÌÎÍÍ</summary>
-    public class Delegate_BC3C : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98B8320
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void BeginInvoke(){} // RVA: 0x7A98B8490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÌÌÌÍÌÍÎÎÎÍÏÍÌÍÍÏÏÎÎÏÏÎ</summary>
-    public class Delegate_C0FF : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A7E18890
-        public void BeginInvoke(){} // RVA: 0x7A7E12DE0
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÎÌÌÏÌÍÍÌÌÏÎÎÏÏÍÍÏÎÌÏÎÎ</summary>
-    public class Delegate_C2EE : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E019D0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÎÌÌÏÌÍÍÌÌÏÎÎÏÏÍÍÏÎÌÏÎÎ</summary>
-    public class Delegate_C2EE : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A98D5420
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A98D5590
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÌÍÏÍÍÍÏÎÎÍÏÌÏÌÌÌÍÌÍÏÏ</summary>
-    public class Delegate_C3E7 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98D5420
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A98D5590
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÎÍÍÎÎÌÍÎÍÍÏÎÎÌÏÌÌÍÎÍÎÏÎ</summary>
-    public class Delegate_C451 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8132FA0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÏÏÏÏÍÎÌÌÏÍÏÏÎÎÏÎÌÌÏÍÎÎ</summary>
-    public class Delegate_C5DB : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A89D0750
-        public void Invoke(){} // RVA: 0x7A89D0820
-        public void BeginInvoke(){} // RVA: 0x7A89D08F0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÍÏÏÎÏÍÎÍÏÏÌÍÎÎÎÍÌÏÏÌÎÎ</summary>
-    public class Delegate_C9CF : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8F31550
-        public void Invoke(){} // RVA: 0x7A8234660
-        public void BeginInvoke(){} // RVA: 0x7A8F31640
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÏÌÌÌÍÎÎÏÏÌÎÌÌÏÎÏÎÌÌÏÏÎ</summary>
-    public class Delegate_CBC3 : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A83DB3A0
-        public void Invoke(){} // RVA: 0x7A8234660
-        public void BeginInvoke(){} // RVA: 0x7A83DB470
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÍÏÌÎÏÎÏÍÎÎÎÎÌÍÏÎÍÏÎÎÎÍ</summary>
-    public class Delegate_CFAA : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÌÏÎÏÍÎÌÍÏÎÎÏÎÍÏÍÏÍÏÌÎÎ</summary>
-    public class Delegate_D8DD : MulticastDelegate
+    /// <summary>Originally: ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ</summary>
+    public class Delegate_DD17 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98C14D0
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x2697880
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void BeginInvoke(){} // RVA: 0x23E7ED0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÌÎÏÌÌÌÎÌÍÍÎÍÌÎÏÌÌÏÍÍÌÎÏ</summary>
-    public class Delegate_D987 : MulticastDelegate
+    /// <summary>Originally: ÍÌÌÏÎÌÍÎÏÌÌÍÍÍÎÍÌÍÍÎÎÌÍ</summary>
+    public class Delegate_DE06 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x22334F0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x22335C0
+        public void EndInvoke(){} // RVA: 0x2233620
     }
 
-    /// <summary>Originally: ÍÍÎÎÎÎÌÍÌÎÍÏÎÌÏÌÍÏÍÏÎÎÏ</summary>
-    public class Delegate_DDE9 : MulticastDelegate
+    /// <summary>Originally: ÌÍÎÍÏÍÌÏÏÎÎÏÍÏÍÎÎÌÌÍÍÏÏ</summary>
+    public class Delegate_DE78 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9CE2500
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A9E17240
-        public void EndInvoke(){} // RVA: 0x7A9CE2680
+        public void .ctor(){} // RVA: 0x1ED7FE0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x1ED80B0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÏÏÍÎÏÏÍÎÍÎÏÏÎÏÌÌÍÍÍÏÍÎ</summary>
-    public class Delegate_DFC9 : MulticastDelegate
+    /// <summary>Originally: ÌÏÏÏÌÏÎÏÏÎÎÍÌÍÌÎÎÍÎÍÏÍÍ</summary>
+    public class Delegate_DE90 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98C1360
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x24046F0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0x2404860
     }
 
-    /// <summary>Originally: ÌÌÌÍÏÎÌÌÍÏÏÎÌÏÍÎÏÏÌÏÎÎÎ</summary>
-    public class Delegate_E135 : MulticastDelegate
+    /// <summary>Originally: ÏÎÏÎÏÌÍÏÎÏÌÏÍÌÌÎÌÏÌÍÎÍÍ</summary>
+    public class Delegate_E3A7 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x1A4CFC0
+        public void Invoke(){} // RVA: 0xCA8D60
+        public void BeginInvoke(){} // RVA: 0x1A4D0B0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÍÎÎÏÌÏÍÎÍÍÍÎÌÍÍÏÌÍÎÌÎÎÏ</summary>
-    public class Delegate_EB5D : MulticastDelegate
+    /// <summary>Originally: ÎÏÏÍÎÌÍÏÏÌÎÏÎÎÍÍÎÎÎÌÌÌÌ</summary>
+    public class Delegate_EA48 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x899C90
+        public void Invoke(){} // RVA: 0xA94080
+        public void BeginInvoke(){} // RVA: 0xA94080
+        public void EndInvoke(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÏÌÍÌÎÍÌÏÎÍÎÎÏÎÏÎÎÌÌÍÏÌ</summary>
-    public class Delegate_F00E : MulticastDelegate
+    /// <summary>Originally: ÎÎÌÌÏÏÍÌÌÏÏÏÍÍÌÌÌÏÎÏÏÎÌ</summary>
+    public class Delegate_EA79 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8135E00
-        public void Invoke(){} // RVA: 0x7A8135ED0
-        public void BeginInvoke(){} // RVA: 0x7A8135EE0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x22F9510
+        public void Invoke(){} // RVA: 0x22F9600
+        public void BeginInvoke(){} // RVA: 0x22F9620
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÏÌÌÎÏÎÍÌÎÏÏÍÏÎÌÎÌÍÍÌÎÍ</summary>
-    public class Delegate_F273 : MulticastDelegate
+    /// <summary>Originally: ÎÌÎÏÌÎÌÏÍÎÍÌÍÌÎÍÌÌÎÌÍÌÏ</summary>
+    public class Delegate_EDFF : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A98B3800
-        public void Invoke(){} // RVA: 0x7A8234660
-        public void BeginInvoke(){} // RVA: 0x7A98B38D0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÎÍÎÎÏÌÌÍÌÎÎÏÍÌÎÌÌÌÌÎÌÍ</summary>
-    public class Delegate_F79D : MulticastDelegate
+    /// <summary>Originally: ÏÌÍÎÎÎÎÏÍÎÍÏÌÎÌÍÍÌÎÌÎÏÏ</summary>
+    public class Delegate_EFB0 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B0C158C0
-        public void Invoke(){} // RVA: 0x7B0C15990
-        public void BeginInvoke(){} // RVA: 0x7B0C159E0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÏÌÌÏÎÏÌÎÎÍÏÏÍÏÎÎÌÌÌÎÍÏ</summary>
-    public class Delegate_FE68 : MulticastDelegate
+    /// <summary>Originally: ÎÏÏÎÏÏÎÎÏÏÌÌÌÎÍÏÌÏÏÍÍÍÎ</summary>
+    public class Delegate_F321 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8234660
-        public void .ctor(){} // RVA: 0x7ACF3D290
-        public void BeginInvoke(){} // RVA: 0x7A8F31640
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x1AA7070
+        public void Invoke(){} // RVA: 0x1AA7140
+        public void BeginInvoke(){} // RVA: 0x1AA71A0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
-    /// <summary>Originally: ÏÏÌÌÏÎÏÌÎÎÍÏÏÍÏÎÎÌÌÌÎÍÏ</summary>
-    public class Delegate_FE68 : MulticastDelegate
+    /// <summary>Originally: ÌÍÌÏÏÌÏÍÏÎÎÏÎÍÌÎÎÌÌÌÏÍÍ</summary>
+    public class Delegate_F5FA : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DFE0
-        public void Invoke(){} // RVA: 0x7A8051B10
-        public void BeginInvoke(){} // RVA: 0x7A8051B10
-        public void EndInvoke(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0xBA0FE0
+        public void Invoke(){} // RVA: 0xBA10B0
+        public void BeginInvoke(){} // RVA: 0xBA10C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
 }

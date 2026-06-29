@@ -8,22 +8,22 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class ForDeviceEventObservable : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AEBC29C0
-        public void Subscribe(){} // RVA: 0x7AEBC2AC0
+        public void .ctor(){} // RVA: 0x7832250
+        public void Subscribe(){} // RVA: 0x7832350
     }
 
     public class FourCC : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7EAD460
-        public void op_Implicit(){} // RVA: 0x7A9ED9B50
-        public void ToString(){} // RVA: 0x7A7EAD470
-        public void Equals(){} // RVA: 0x7A7EAD480
-        public void GetHashCode(){} // RVA: 0x7A765F070
-        public void op_Equality(){} // RVA: 0x7A9F252F0
-        public void op_Inequality(){} // RVA: 0x7AEBBA8D0
-        public void FromInt32(){} // RVA: 0x7A9ED9B50
-        public void ToInt32(){} // RVA: 0x7A9ED9B50
+        public void .ctor(){} // RVA: 0x92E250
+        public void op_Implicit(){} // RVA: 0x294E720
+        public void ToString(){} // RVA: 0x92E260
+        public void Equals(){} // RVA: 0x92E270
+        public void GetHashCode(){} // RVA: 0x77E60
+        public void op_Equality(){} // RVA: 0x2AFE580
+        public void op_Inequality(){} // RVA: 0x782A060
+        public void FromInt32(){} // RVA: 0x294E720
+        public void ToInt32(){} // RVA: 0x294E720
     }
 
 }

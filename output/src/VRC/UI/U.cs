@@ -1,2076 +1,2147 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 2786
+// Methods: 2875
 
 namespace VRC.UI
 {
-    /// <summary>Originally: ÌÏÎÏÏÌÎÏÎÌÏÍÏÍÍÌÎÏÏÏÏÎÏ</summary>
-    public class UIBeginScopeIsEnabled_F329 : Object
+    /// <summary>Originally: ÏÍÍÌÍÏÏÌÌÏÍÎÍÍÌÍÏÎÎÏÏÏÏ</summary>
+    public class UICanvasHierarchyChanged_555D : UIBehaviour
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80D7320
-        public void Equals(){} // RVA: 0x7A80D7320
-        public void GetHashCode(){} // RVA: 0x7A80D7320
-        public void op_Implicit(){} // RVA: 0x7A80D7320
-        public void BeginScope(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void Initialize(){} // RVA: 0x7A80D7320
-        public void Log(){} // RVA: 0x7A8051B10
-        public void set_name(){} // RVA: 0x7A81BD750
-        public void IsEnabled(){} // RVA: 0x7A81BD750
-        public void Destroy(){} // RVA: 0x7A81BD750
-    }
-
-    /// <summary>Originally: ÌÌÏÌÌÎÌÎÎÌÏÍÍÏÍÌÍÍÏÏÍÍÎ</summary>
-    public class UICanvasHierarchyChanged_3447 : UIBehaviour
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7B0D36D40
-        public void OnDisable(){} // RVA: 0x7B0D378F0
-        public void Awake(){} // RVA: 0x7B0D37EC0
-        public void IsActive(){} // RVA: 0x7B0D384A0
-        public void Start(){} // RVA: 0x7B0D38A80
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7B0D39150
-        public void OnTransformParentChanged(){} // RVA: 0x7B0D39720
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7B0D39D00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7B0D3A2D0
-        public void OnDestroy(){} // RVA: 0x7B0D3A400
+        public void Awake(){} // RVA: 0x9B8E540
+        public void OnEnable(){} // RVA: 0x9B8EAA0
+        public void OnDisable(){} // RVA: 0x9B8F560
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9B8FAB0
+        public void Start(){} // RVA: 0x9B90000
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x9B906A0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x9B90C00
+        public void OnDestroy(){} // RVA: 0x9B90CF0
+        public void OnCanvasGroupChanged(){} // RVA: 0x9B90DF0
+        public void OnApplicationQuit(){} // RVA: 0x9B91350
         // ── Unresolved (hash) ──
-        public void m_222(){} // RVA: 0x7B0D37320
+        public void m_BB3(){} // RVA: 0x9B8F000
     }
 
-    /// <summary>Originally: ÏÎÎÌÏÏÏÍÍÎÏÏÍÌÌÏÍÌÏÌÍÎÏ</summary>
-    public class UIDestroyDropdownListCreateDropdownList_04EA : TMP_Dropdown
+    /// <summary>Originally: ÏÎÎÎÏÍÎÌÏÌÎÎÏÍÍÎÍÍÍÌÌÏÍ</summary>
+    public class UIDestroyDropdownListCreateDropdownList_786D : TMP_Dropdown
     {
         // ── Methods ──
-        public void CreateDropdownList(){} // RVA: 0x7B0958E10
-        public void .ctor(){} // RVA: 0x7B0959080
-        public void DestroyDropdownList(){} // RVA: 0x7B09590D0
+        public void CreateDropdownList(){} // RVA: 0x97D71A0
+        public void .ctor(){} // RVA: 0x97D7410
+        public void DestroyDropdownList(){} // RVA: 0x97D7460
     }
 
-    /// <summary>Originally: ÍÏÏÏÌÏÌÌÍÌÍÎÎÌÍÍÏÍÎÎÌÏÌ</summary>
-    public class UIDirectToUpdate_834D : UpdateComponent_CFCF
+    /// <summary>Originally: ÍÎÎÍÎÍÏÍÌÏÎÌÌÏÌÌÏÌÎÌÎÏÎ</summary>
+    public class UIDirectToUpdate_D994 : UpdateComponent_E28C
     {
         // ── Methods ──
-        public void OnDirectToUpdate(){} // RVA: 0x7A96A5A60
-        public void OnEnable(){} // RVA: 0x7A96A5E10
-        public void OnDisable(){} // RVA: 0x7A96A5EC0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A96A5F60
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x21A6630
+        public void OnDirectToUpdate(){} // RVA: 0x21A6930
+        public void OnEnable(){} // RVA: 0x21A6CD0
+        public void OnDisable(){} // RVA: 0x21A6D80
         // ── Unresolved (hash) ──
-        public void m_E95(){} // RVA: 0x7A96A59C0
-        public void m_D95(){} // RVA: 0x7A96A5B00
-        public void m_8E2(){} // RVA: 0x7A96A5C30
-        public void m_43E(){} // RVA: 0x7A96A5CD0
-        public void m_06B(){} // RVA: 0x7A96A5D70
+        public void m_A43(){} // RVA: 0x21A6760
+        public void m_1C7(){} // RVA: 0x21A6890
+        public void m_899(){} // RVA: 0x21A69D0
+        public void m_782(){} // RVA: 0x21A6A70
+        public void m_823(){} // RVA: 0x21A6BA0
     }
 
-    /// <summary>Originally: ÏÍÏÌÏÌÎÍÎÌÌÏÎÍÌÎÍÍÎÏÍÌÌ</summary>
-    public class UIHeightDownHeightUpComponent_1CDD : MonoBehaviour
+    /// <summary>Originally: ÏÏÎÎÍÍÎÌÏÏÌÎÏÌÌÏÎÏÎÎÌÌÎ</summary>
+    public class UIHeightDownHeightUpComponent_A821 : MonoBehaviour
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A9603500
-        public void RaiseCancellation(){} // RVA: 0x7A9603560
-        public void IsInvoking(){} // RVA: 0x7A96035D0
-        public void HeightDown(){} // RVA: 0x7A9603780
-        public void Invoke(){} // RVA: 0x7A96037E0
-        public void InvokeRepeating(){} // RVA: 0x7A9603840
-        public void HeightUp(){} // RVA: 0x7A96038B0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A9603910
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void Initialize(){} // RVA: 0x7A9603980
-        public void get_useGUILayout(){} // RVA: 0x7A9603BF0
-        public void OnEnable(){} // RVA: 0x7A9603C60
-        public void OnDisable(){} // RVA: 0x7A9603CC0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A9603D30
+        public void get_destroyCancellationToken(){} // RVA: 0x2132990
+        public void OnEnable(){} // RVA: 0x2132A00
+        public void HeightUp(){} // RVA: 0x2132A60
+        public void CancelInvoke(){} // RVA: 0x2132AC0
+        public void Invoke(){} // RVA: 0x2132B20
+        public void HeightDown(){} // RVA: 0x2132B80
+        public void StartCoroutine(){} // RVA: 0x2132BE0
+        public void StartCoroutine_Auto(){} // RVA: 0x2132E20
+        public void StopCoroutine(){} // RVA: 0x2133060
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x21330C0
     }
 
-    /// <summary>Originally: ÍÌÏÍÍÏÏÎÌÍÎÍÌÎÍÍÎÌÍÏÏÏÏ</summary>
-    public class UIMaxContentCountObservableList_59B2 : HeaderElementContentView`1
+    /// <summary>Originally: ÎÌÏÎÎÏÎÏÎÌÏÏÍÌÍÏÌÏÌÍÏÎÍ</summary>
+    public class UIMaxContentCountObservableList_6C0D : HeaderElementContentView`1
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7A87D9C10
-        public void set_ObservableList(){} // RVA: 0x7B0EC02F0
-        public void Start(){} // RVA: 0x7B0EC07D0
-        public void .ctor(){} // RVA: 0x7B0EC0A40
-        public void get_ObservableList(){} // RVA: 0x7B0EC0C60
-        public void OnEnable(){} // RVA: 0x7B0EC0CE0
-        public void OnDestroy(){} // RVA: 0x7B0EC0F10
-        public void get_MaxContentCount(){} // RVA: 0x7B0EC1080
-        public void set_MaxContentCount(){} // RVA: 0x7B0EC1110
-        public void OnDisable(){} // RVA: 0x7B0EC2370
-        // ── 12 unresolved (hash) ──
-        public void m_5C2(){} // RVA: 0x7B0EBFEA0
-        public void m_BBC(){} // RVA: 0x7B0EC0740
-        public void m_386(){} // RVA: 0x7B0EC12D0
-        public void m_1EE(){} // RVA: 0x7B0EC1490
-        public void m_051(){} // RVA: 0x7B0EC17A0
-        // ... 7 more unresolved methods
+        public void IndexOf(){} // RVA: 0x9D046C0
+        public void set_ObservableList(){} // RVA: 0x9D04980
+        public void get_ObservableList(){} // RVA: 0x9D04A10
+        public void OnDisable(){} // RVA: 0x9D04A90
+        public void set_MaxContentCount(){} // RVA: 0x9D04BF0
+        public void OnDestroy(){} // RVA: 0x9D05090
+        public void get_MaxContentCount(){} // RVA: 0x9D05290
+        public void Start(){} // RVA: 0x9D06180
+        public void .ctor(){} // RVA: 0x9D06930
+        public void Initialize(){} // RVA: 0x106A7D0
+        public void OnEnable(){} // RVA: 0x9D06B50
+        // ── Unresolved (hash) ──
+        public void m_920(){} // RVA: 0x9D04D80
+        public void m_3AC(){} // RVA: 0x9D05200
+        public void m_216(){} // RVA: 0x9D05320
+        public void m_FFD(){} // RVA: 0x9D05790
+        public void m_8C5(){} // RVA: 0x9D05B00
+        public void m_0AA(){} // RVA: 0x9D05E10
+        public void m_CD3(){} // RVA: 0x9D063F0
+        public void m_0EE(){} // RVA: 0x106A7D0
+        public void m_BB1(){} // RVA: 0x9D067A0
+        public void m_176(){} // RVA: 0x9D06D40
     }
 
-    /// <summary>Originally: ÌÌÍÍÎÌÏÍÏÌÏÍÌÍÌÎÌÌÏÌÎÍÍ</summary>
-    public class UIMiddleButtonRightBImpl_9EBD : UIMiddleButtonRightButton_24E6
+    /// <summary>Originally: ÌÍÎÍÌÎÍÎÌÏÍÍÎÍÏÎÌÎÏÏÍÏÎ</summary>
+    public class UIMiddleButtonRightBImpl_16ED : UIMiddleButtonRightButton_0DD8
     {
         // ── Methods ──
-        public void OnPointerEnter(){} // RVA: 0x7A968FBB0
-        public void OnDisable(){} // RVA: 0x7A968FCD0
-        public void OnPointerExit(){} // RVA: 0x7A968FD70
-        public void OnPointerDown(){} // RVA: 0x7A968FF80
-        public void OnPointerUp(){} // RVA: 0x7A9690080
-        public void OnPointerClick(){} // RVA: 0x7A96900F0
-        public void OnSelect(){} // RVA: 0x7A9690140
-        public void OnDeselect(){} // RVA: 0x7A96901D0
-        public void OnSubmit(){} // RVA: 0x7A9690240
-        public void OnCancel(){} // RVA: 0x7A9690340
-        public void OnMove(){} // RVA: 0x7A96903F0
-        public void OnScroll(){} // RVA: 0x7A96904C0
-        public void OnValueChanged(){} // RVA: 0x7A96905C0
-        public void OnEndEdit(){} // RVA: 0x7A96906B0
-        public void Start(){} // RVA: 0x7A9691A20
-        public void .ctor(){} // RVA: 0x7A9692910
-        public void Initialize(){} // RVA: 0x7A9693330
+        public void OnPointerEnter(){} // RVA: 0x2192A40
+        public void OnPointerExit(){} // RVA: 0x2192AF0
+        public void OnPointerDown(){} // RVA: 0x2193290
+        public void OnPointerUp(){} // RVA: 0x2193400
+        public void OnPointerClick(){} // RVA: 0x21934F0
+        public void OnSelect(){} // RVA: 0x2193690
+        public void OnDeselect(){} // RVA: 0x2193720
+        public void OnSubmit(){} // RVA: 0x21938C0
+        public void OnCancel(){} // RVA: 0x21939E0
+        public void OnMove(){} // RVA: 0x2193BF0
+        public void OnScroll(){} // RVA: 0x2193C80
+        public void OnValueChanged(){} // RVA: 0x2193D80
+        public void OnEndEdit(){} // RVA: 0x2193E60
+        public void OnDisable(){} // RVA: 0x2194040
+        public void .ctor(){} // RVA: 0x2194640
+        public void Initialize(){} // RVA: 0x2195060
+        public void Start(){} // RVA: 0x2195520
         // ── 14 unresolved (hash) ──
-        public void m_517(){} // RVA: 0x7A9690E60
-        public void m_077(){} // RVA: 0x7A9690EB0
-        public void m_643(){} // RVA: 0x7A9690F90
-        public void m_852(){} // RVA: 0x7A9691080
-        public void m_3AF(){} // RVA: 0x7A96911B0
+        public void m_DB5(){} // RVA: 0x2193ED0
+        public void m_519(){} // RVA: 0x2193F50
+        public void m_E7D(){} // RVA: 0x2193D80
+        public void m_AD0(){} // RVA: 0x21940E0
+        public void m_97C(){} // RVA: 0x2193690
         // ... 9 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÎÌÍÏÏÏÏÎÏÌÌÌÎÌÌÍÏÎÌÎÏÎ</summary>
-    public class UIMiddleButtonRightButton_24E6 : Close_9C7F
+    /// <summary>Originally: ÌÏÎÍÌÏÍÎÍÎÏÎÍÏÍÌÎÍÌÏÍÎÍ</summary>
+    public class UIMiddleButtonRightButton_0DD8 : Close_CB1B
     {
         // ── Methods ──
-        public void OnPointerEnter(){} // RVA: 0x7A969D7D0
-        public void OnMiddleButton(){} // RVA: 0x7A969D800
-        public void OnPointerExit(){} // RVA: 0x7A969D800
-        public void OnLeftButton(){} // RVA: 0x7A969D7D0
-        public void OnPointerDown(){} // RVA: 0x7A969D7D0
-        public void OnPointerUp(){} // RVA: 0x7A969D830
-        public void OnPointerClick(){} // RVA: 0x7A969DA70
-        public void OnRightButton(){} // RVA: 0x7A969DCB0
-        public void OnSelect(){} // RVA: 0x7A969DCB0
-        public void OnDeselect(){} // RVA: 0x7A969DCE0
-        public void OnSubmit(){} // RVA: 0x7A969E5B0
-        public void OnCancel(){} // RVA: 0x7A969E730
-        public void OnMove(){} // RVA: 0x7A969E8B0
-        public void OnScroll(){} // RVA: 0x7A969D7D0
-        public void .ctor(){} // RVA: 0x7A88817F0
+        public void OnRightButton(){} // RVA: 0x219EF20
+        public void OnPointerEnter(){} // RVA: 0x219EF20
+        public void OnPointerExit(){} // RVA: 0x219EF50
+        public void OnPointerDown(){} // RVA: 0x219EF80
+        public void OnPointerUp(){} // RVA: 0x219F590
+        public void OnLeftButton(){} // RVA: 0x219F690
+        public void OnPointerClick(){} // RVA: 0x219F590
+        public void OnSelect(){} // RVA: 0x219F690
+        public void .ctor(){} // RVA: 0x13B10F0
+        public void Initialize(){} // RVA: 0x219F6C0
+        public void OnDeselect(){} // RVA: 0x219F7C0
+        public void OnMiddleButton(){} // RVA: 0x219EF50
+        public void OnSubmit(){} // RVA: 0x219F980
     }
 
-    /// <summary>Originally: ÏÎÍÍÏÍÎÎÎÍÍÎÍÏÌÎÌÎÌÍÏÌÌ</summary>
-    public class UIObservableList_2699 : ListContentView1Derived_35E6
+    /// <summary>Originally: ÍÎÎÎÎÍÌÍÌÏÎÎÎÍÎÏÎÍÍÎÏÎÎ</summary>
+    public class UIObservableList_295B : ListContentView1Derived_2B2B
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7B0BB4E10
-        public void set_ObservableList(){} // RVA: 0x7B0BB4F90
-        public void get_ObservableList(){} // RVA: 0x7A81163D0
-        public void Start(){} // RVA: 0x7B0BB58F0
-        public void .ctor(){} // RVA: 0x7B0BB6090
-        public void Initialize(){} // RVA: 0x7B0BB61C0
+        public void IndexOf(){} // RVA: 0x9E5FD70
+        public void .ctor(){} // RVA: 0x9E5FDD0
+        public void Initialize(){} // RVA: 0x9E5FE40
+        public void set_ObservableList(){} // RVA: 0xB43310
+        public void get_ObservableList(){} // RVA: 0x9E5FF30
+    }
+
+    /// <summary>Originally: ÌÏÍÏÎÎÌÌÍÎÍÎÏÌÍÌÏÌÏÏÎÏÍ</summary>
+    public class UIObservableList_9B4F : ListContentView`1
+    {
+        // ── Methods ──
+        public void get_CountFormat(){} // RVA: 0x9CDAC50
+        public void get_MaxContentCount(){} // RVA: 0x9CDB290
+        public void IndexOf(){} // RVA: 0x9CDB3D0
+        public void Start(){} // RVA: 0x9CDB4F0
+        public void OnEnable(){} // RVA: 0x9CDB610
+        public void OnDisable(){} // RVA: 0x9CDCDD0
+        public void set_ObservableList(){} // RVA: 0x9CDBB00
+        public void get_ObservableList(){} // RVA: 0x12EB090
+        public void .ctor(){} // RVA: 0x9CDC300
+        public void Initialize(){} // RVA: 0x9CDC600
         // ── Unresolved (hash) ──
-        public void m_C21(){} // RVA: 0x7B0BB5110
-        public void m_A26(){} // RVA: 0x7B0BB5200
-        public void m_AFA(){} // RVA: 0x7B0BB5370
-        public void m_36C(){} // RVA: 0x7B0BB5780
-        public void m_00A(){} // RVA: 0x7B0BB59F0
-        public void m_809(){} // RVA: 0x7B0BB65C0
-        public void m_733(){} // RVA: 0x7B0BB6650
-        public void m_288(){} // RVA: 0x7B0BB67D0
-        public void m_DE7(){} // RVA: 0x7B0BB6BE0
+        public void m_DF0(){} // RVA: 0x9CDB890
+        public void m_053(){} // RVA: 0x9CDB9E0
+        public void m_D09(){} // RVA: 0x9CDBBC0
+        public void m_A81(){} // RVA: 0x9CDBCE0
+        public void m_0E9(){} // RVA: 0x9CDC150
+        public void m_712(){} // RVA: 0x9CDC750
+        public void m_34A(){} // RVA: 0x9CDCBC0
+        public void m_CA2(){} // RVA: 0x9CDCC80
+        public void m_40F(){} // RVA: 0x9CDCF20
     }
 
-    /// <summary>Originally: ÌÍÌÎÏÍÌÎÌÌÏÎÎÎÌÏÍÍÍÌÍÍÌ</summary>
-    public class UIObservableList_5D2E : ListContentView`1
+    /// <summary>Originally: ÍÌÌÎÎÌÌÏÎÏÍÌÏÏÌÍÍÎÎÌÍÌÏ</summary>
+    public class UIObservableList_E02B : ListContentView1Derived_2B2B
     {
         // ── Methods ──
-        public void get_ObservableList(){} // RVA: 0x7A87D9480
-        public void set_ObservableList(){} // RVA: 0x7B0E93930
-        public void IndexOf(){} // RVA: 0x7B0E93A50
-        public void Start(){} // RVA: 0x7B0E940C0
-        public void .ctor(){} // RVA: 0x7B0E941E0
-        public void Initialize(){} // RVA: 0x7B0E944E0
-        // ── 12 unresolved (hash) ──
-        public void m_2D2(){} // RVA: 0x7B0E94630
-        public void m_65A(){} // RVA: 0x7B0E94AA0
-        public void m_060(){} // RVA: 0x7B0E94EB0
-        public void m_120(){} // RVA: 0x7B0E94D40
-        public void m_E0F(){} // RVA: 0x7B0E94E60
-        // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÎÍÍÌÍÌÌÏÏÏÍÌÏÎÍÍÎÏÏÌÎ</summary>
-    public class UIObservableList_5DAB : ListContentView1Derived_35E6
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B102DFB0
-        public void Initialize(){} // RVA: 0x7B102E020
-        public void set_ObservableList(){} // RVA: 0x7B102E080
-        public void get_ObservableList(){} // RVA: 0x7B102E170
-        public void IndexOf(){} // RVA: 0x7A80D7310
-    }
-
-    /// <summary>Originally: ÎÍÎÎÍÍÎÌÌÎÌÎÎÎÎÏÍÍÏÏÌÌÍ</summary>
-    public class UIReceiveAnalyticsSessionIdLaunchClientToTComponent_2468 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7A96EC670
-        public void Awake(){} // RVA: 0x7A96EC7E0
-        public void IsInvoking(){} // RVA: 0x7A96EC830
-        public void RequestIntegrityToken(){} // RVA: 0x7A96EC890
-        public void SetWatchWorldsBool(){} // RVA: 0x7A96EC9B0
-        public void InvokeRepeating(){} // RVA: 0x7A96ECBE0
-        public void StartCoroutine(){} // RVA: 0x7A96ECDE0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A96ECFE0
-        public void SetClientLanguage(){} // RVA: 0x7A96ED040
-        public void StopAllCoroutines(){} // RVA: 0x7A96ED1F0
-        public void ReceiveAnalyticsSessionId(){} // RVA: 0x7A96ED3F0
-        public void Logout(){} // RVA: 0x7A8B5B160
-        public void print(){} // RVA: 0x7A96ED5F0
-        public void .cctor(){} // RVA: 0x7A96ED7F0
-        public void LaunchClientToLocation(){} // RVA: 0x7A96ED970
-        public void InvokeDelayed(){} // RVA: 0x7A96EDBC0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A96EDDF0
-        public void StartCoroutineManaged(){} // RVA: 0x7A96EDFF0
-        public void StartCoroutineManaged2(){} // RVA: 0x7A96EE2D0
-        public void StopCoroutineManaged(){} // RVA: 0x7A96EE3F0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A96EE750
-        public void GetScriptClassName(){} // RVA: 0x7A96EE7E0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A96EE930
-        public void OnEnable(){} // RVA: 0x7A96F0420
-        public void Start(){} // RVA: 0x7A96F0620
-        public void Update(){} // RVA: 0x7A96F07C0
-        public void SetClientFocus(){} // RVA: 0x7A96F0B80
-        public void PassLoginInfo(){} // RVA: 0x7A96F0CB0
-        public void OnDisable(){} // RVA: 0x7A9574650
-        public void ReceiveIntegrityToken(){} // RVA: 0x7A96F0D80
-        public void OnApplicationPause(){} // RVA: 0x7A96F12E0
-        public void OnApplicationQuit(){} // RVA: 0x7A96F1510
-        public void OnBecameVisible(){} // RVA: 0x7A96F1710
-        public void OnBecameInvisible(){} // RVA: 0x7A96F1930
-        public void LaunchClientIntoHome(){} // RVA: 0x7A96F1AA0
-        public void OnCollisionStay(){} // RVA: 0x7A96F1BC0
-        public void OnCollisionExit(){} // RVA: 0x7A96F1DC0
-        public void LaunchClientToTestWorld(){} // RVA: 0x7A96F1FC0
-        public void OnTriggerStay(){} // RVA: 0x7A96F2050
-        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void IndexOf(){} // RVA: 0x9A06640
+        public void set_ObservableList(){} // RVA: 0x9A06A50
+        public void get_ObservableList(){} // RVA: 0xB813B0
+        public void .ctor(){} // RVA: 0x9A08060
+        public void Start(){} // RVA: 0x9A08190
         // ── Unresolved (hash) ──
-        public void m_4D9(){} // RVA: 0x7A96EEB50
-        public void m_800(){} // RVA: 0x7A96EED70
-        public void m_B43(){} // RVA: 0x7A96EF450
-        public void m_56D(){} // RVA: 0x7A96EF650
-        public void m_10D(){} // RVA: 0x7A96EFA30
-        public void m_BAC(){} // RVA: 0x7A96EFAC0
-        public void m_13C(){} // RVA: 0x7A96EFE20
-        public void m_B29(){} // RVA: 0x7A96F0000
-        public void m_827(){} // RVA: 0x7A96F0200
+        public void m_BDB(){} // RVA: 0x9A06B80
+        public void m_38D(){} // RVA: 0x9A06CB0
+        public void m_12F(){} // RVA: 0x9A06DA0
+        public void m_F20(){} // RVA: 0x9A07440
+        public void m_897(){} // RVA: 0x9A07840
+        public void m_BFC(){} // RVA: 0x9A078D0
+        public void m_F99(){} // RVA: 0x9A07A00
+        public void m_762(){} // RVA: 0x9A07B30
+        public void m_B72(){} // RVA: 0x9A07F30
     }
 
-    /// <summary>Originally: ÏÎÎÎÏÌÌÍÍÏÌÌÍÎÌÏÌÏÌÎÍÎÌ</summary>
-    public class UIRectTransformDimensionsChBefSibling_000F
+    /// <summary>Originally: ÌÌÏÏÏÍÏÌÌÌÎÌÎÎÍÏÏÍÌÏÌÍÎ</summary>
+    public class UIReceiveAnalyticsSessionIdLaunchClientToTComponent_6AED : MonoBehaviour
     {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x21F3880
+        public void RaiseCancellation(){} // RVA: 0x21F3A80
+        public void IsInvoking(){} // RVA: 0x21F3C80
+        public void CancelInvoke(){} // RVA: 0x21F4330
+        public void Invoke(){} // RVA: 0x21F4560
+        public void PassLoginInfo(){} // RVA: 0x21F4780
+        public void StartCoroutine(){} // RVA: 0x21F4850
+        public void StartCoroutine_Auto(){} // RVA: 0x21F48E0
+        public void Logout(){} // RVA: 0x164E2F0
+        public void StopAllCoroutines(){} // RVA: 0x21F4970
+        public void OnDestroy(){} // RVA: 0x21F4D50
+        public void set_useGUILayout(){} // RVA: 0x21F4EC0
+        public void get_didStart(){} // RVA: 0x21F5010
+        public void get_didAwake(){} // RVA: 0x21F52F0
+        public void print(){} // RVA: 0x21F54F0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x21F56A0
+        public void Internal_IsInvokingAll(){} // RVA: 0x21F5A60
+        public void SetClientLanguage(){} // RVA: 0x21F5DC0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x21F5F70
+        public void SetWatchWorldsBool(){} // RVA: 0x21F6170
+        public void ReceiveAnalyticsSessionId(){} // RVA: 0x21F63A0
+        public void StopCoroutineManaged(){} // RVA: 0x21F65A0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x21F67A0
+        public void GetScriptClassName(){} // RVA: 0x21F69A0
+        public void LaunchClientToTestWorld(){} // RVA: 0x21F6BA0
+        public void ReceiveIntegrityToken(){} // RVA: 0x21F6C90
+        public void Awake(){} // RVA: 0x21F71E0
+        public void LaunchClientIntoHome(){} // RVA: 0x21F7230
+        public void set_useGUILayout_Injected(){} // RVA: 0x21F7350
+        public void .cctor(){} // RVA: 0x21F7570
+        public void get_didAwake_Injected(){} // RVA: 0x21F76F0
+        public void LaunchClientToLocation(){} // RVA: 0x21F7750
+        public void RequestIntegrityToken(){} // RVA: 0x21F79A0
+        public void InvokeDelayed_Injected(){} // RVA: 0x21F7AC0
+        public void CancelInvoke_Injected(){} // RVA: 0x21F7CE0
+        public void Start(){} // RVA: 0x21F7EF0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x21F8090
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x21F83F0
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x2088D10
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x21F8780
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x21F8980
+        public void GetScriptClassName_Injected(){} // RVA: 0x21F8BA0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x21F8D80
+        public void OnTriggerExit(){} // RVA: 0x21F8E10
+        public void .ctor(){} // RVA: 0xB43D60
+        public void SetClientFocus(){} // RVA: 0x21F9030
         // ── Unresolved (hash) ──
-        public void m_2D5(){} // RVA: 0x7A8051B10
-        public void m_B47(){} // RVA: 0x7A8051B10
-        public void m_B13(){} // RVA: 0x7A8051B10
+        public void m_0F7(){} // RVA: 0x21F6C30
     }
 
-    /// <summary>Originally: ÍÏÏÍÌÌÌÏÏÍÌÌÍÎÎÎÍÏÌÎÎÌÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_0742 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÍÍÏÎÍÌÍÏÏÌÍÏÏÎÎÍÍÏÏÍÍÌÍ</summary>
+    public class UIRectTransformDimensionsChBefSibling_6680 : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11774C0
-        public void Initialize(){} // RVA: 0x7B1177500
-        // ── 13 unresolved (hash) ──
-        public void m_0EE(){} // RVA: 0x7B1176A10
-        public void m_645(){} // RVA: 0x7B1176B10
-        public void m_52D(){} // RVA: 0x7B115DE30
-        public void m_023(){} // RVA: 0x7B1176C10
-        public void m_9DD(){} // RVA: 0x7B1176D10
-        // ... 8 more unresolved methods
+        public void get_destroyCancellationToken(){} // RVA: 0x12CA4D0
+        public void RaiseCancellation(){} // RVA: 0x12CA530
+        public void IsInvoking(){} // RVA: 0x12CA530
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x12CA570
+        public void InvokeRepeating(){} // RVA: 0x12CA530
+        public void StartCoroutine(){} // RVA: 0x12CA530
+        public void StartCoroutine_Auto(){} // RVA: 0x12CA570
+        public void StopCoroutine(){} // RVA: 0x12CA530
+        public void StopAllCoroutines(){} // RVA: 0x12CA570
+        public void get_useGUILayout(){} // RVA: 0x12CA4D0
+        public void set_useGUILayout(){} // RVA: 0x12CA4D0
     }
 
-    /// <summary>Originally: ÎÌÌÌÌÍÌÏÏÌÍÌÍÏÏÌÏÍÏÏÌÎÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_08A5 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÍÏÍÌÌÏÎÏÎÎÏÏÏÌÎÎÍÍÎÎÏÍÎ</summary>
+    public class UIRectTransformDimensionsChBefSibling_A079 : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1170D40
-        public void Initialize(){} // RVA: 0x7A80D7310
-        // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B1170D80
-        public void m_C3D(){} // RVA: 0x7B1170E50
+        public void get_destroyCancellationToken(){} // RVA: 0x9F1E620
+        public void RaiseCancellation(){} // RVA: 0x9F1E680
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x9F1E730
+        public void Invoke(){} // RVA: 0x9F1E8E0
+        public void InvokeRepeating(){} // RVA: 0x9F1E940
+        public void StartCoroutine(){} // RVA: 0x9F1EAF0
+        public void StartCoroutine_Auto(){} // RVA: 0x9F1EBA0
+        public void StopCoroutine(){} // RVA: 0x9F1ED50
+        public void StopAllCoroutines(){} // RVA: 0xA94080
     }
 
-    /// <summary>Originally: ÏÎÍÌÌÎÍÎÏÍÏÏÌÏÏÎÎÎÌÎÌÍÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_0E95 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÎÍÍÎÌÎÌÍÎÏÌÌÎÍÎÎÌÍÍÏÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_0164 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11897A0
-        public void Awake(){} // RVA: 0x7B1189960
-        public void OnDestroy(){} // RVA: 0x7B118A8E0
+        public void .ctor(){} // RVA: 0x9FB6790
+        public void Initialize(){} // RVA: 0x9FB6800
         // ── 16 unresolved (hash) ──
-        public void m_743(){} // RVA: 0x7B11893C0
-        public void m_BF9(){} // RVA: 0x7B11893F0
-        public void m_056(){} // RVA: 0x7B1189420
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_9AA(){} // RVA: 0x7B11894B0
+        public void m_542(){} // RVA: 0x9FB62E0
+        public void m_865(){} // RVA: 0x9FB63E0
+        public void m_987(){} // RVA: 0x9FB6470
+        public void m_60C(){} // RVA: 0x9FB6570
+        public void m_9EA(){} // RVA: 0x9FB6590
         // ... 11 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÍÍÍÎÌÌÎÌÏÌÏÍÌÎÏÏÎÌÏÎÍÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_1124 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÏÍÏÎÌÎÌÍÍÏÍÍÍÏÍÌÌÎÏÍÎÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_028C : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11871F0
-        public void Initialize(){} // RVA: 0x7B11873D0
-        // ── 17 unresolved (hash) ──
-        public void m_A9C(){} // RVA: 0x7B1185580
-        public void m_37E(){} // RVA: 0x7B1185610
-        public void m_CF2(){} // RVA: 0x7B1186010
-        public void m_B47(){} // RVA: 0x7B1186140
-        public void m_938(){} // RVA: 0x7B11865A0
-        // ... 12 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÏÏÎÍÍÍÏÏÍÏÌÎÌÍÏÍÍÏÍÍÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_143D : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11721B0
-        public void Initialize(){} // RVA: 0x7B11721F0
-        // ── 15 unresolved (hash) ──
-        public void m_140(){} // RVA: 0x7B1172510
-        public void m_37E(){} // RVA: 0x7B1172640
-        public void m_9FE(){} // RVA: 0x7B11728C0
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_C3D(){} // RVA: 0x7B11729F0
-        // ... 10 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÌÏÎÏÎÍÏÍÎÌÍÍÎÌÌÌÌÏÌÏÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_25B6 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115D530
-        public void Initialize(){} // RVA: 0x7B115D570
-        // ── 15 unresolved (hash) ──
-        public void m_378(){} // RVA: 0x7B115D300
-        public void m_201(){} // RVA: 0x7B115D480
-        public void m_D21(){} // RVA: 0x7B115D500
-        public void m_CC6(){} // RVA: 0x7B115D500
-        public void m_209(){} // RVA: 0x7A8ADAEF0
-        // ... 10 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÏÎÍÌÎÏÏÎÎÌÍÌÏÍÎÎÎÌÍÌÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_2BD9 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1178420
-        public void Initialize(){} // RVA: 0x7B1178460
-        // ── 17 unresolved (hash) ──
-        public void m_E70(){} // RVA: 0x7B11776B0
-        public void m_12A(){} // RVA: 0x7B11777B0
-        public void m_740(){} // RVA: 0x7B11778B0
-        public void m_3EB(){} // RVA: 0x7B11778F0
-        public void m_2C1(){} // RVA: 0x7B11779F0
-        // ... 12 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÌÏÎÍÎÏÏÍÎÏÎÎÎÌÌÎÌÍÌÎÍÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_30E0 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115F2F0
-        public void Initialize(){} // RVA: 0x7B115F330
+        public void .ctor(){} // RVA: 0x9FCB660
+        public void Initialize(){} // RVA: 0x9FCB6D0
         // ── Unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_37E(){} // RVA: 0x7B115F3E0
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_102(){} // RVA: 0x59D5D50
+        public void m_77E(){} // RVA: 0x9FCB400
     }
 
-    /// <summary>Originally: ÌÏÏÌÏÌÎÌÌÌÏÍÏÌÎÎÎÌÏÏÌÏÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_352A : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÌÏÏÏÍÌÎÏÎÍÌÌÍÎÍÏÌÌÌÍÍÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_043C : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B117A280
-        public void Initialize(){} // RVA: 0x7B117A2C0
-        // ── 13 unresolved (hash) ──
-        public void m_CAB(){} // RVA: 0x7B1179A60
-        public void m_E13(){} // RVA: 0x7B1179AE0
-        public void m_209(){} // RVA: 0x7A8ADAEF0
-        public void m_2CE(){} // RVA: 0x7B1179B60
-        public void m_869(){} // RVA: 0x7B1179C60
-        // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÎÎÍÌÌÌÌÏÏÎÎÏÌÎÎÎÍÌÌÎÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_363B : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B118D080
-        public void Initialize(){} // RVA: 0x7B118D0C0
-        // ── Unresolved (hash) ──
-        public void m_B47(){} // RVA: 0x7ACE66E80
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_C3D(){} // RVA: 0x7B118CAF0
-    }
-
-    /// <summary>Originally: ÍÍÌÍÍÍÌÎÌÌÎÍÌÎÎÌÎÏÌÏÌÌÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_37A9 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11706D0
-        public void Initialize(){} // RVA: 0x7B1170710
+        public void .ctor(){} // RVA: 0x9F9C5F0
+        public void Initialize(){} // RVA: 0x9F9C720
         // ── 12 unresolved (hash) ──
-        public void m_4B0(){} // RVA: 0x7B11703A0
-        public void m_C3D(){} // RVA: 0x7B11704A0
-        public void m_7A1(){} // RVA: 0x7B11705D0
-        public void m_209(){} // RVA: 0x7A8ADAEF0
-        public void m_FA0(){} // RVA: 0x7B1170810
+        public void m_B0D(){} // RVA: 0x9F9BC30
+        public void m_77E(){} // RVA: 0x9F9BD10
+        public void m_064(){} // RVA: 0x9F9C130
+        public void m_A3C(){} // RVA: 0x9F9C150
+        public void m_5DF(){} // RVA: 0xB43310
         // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÍÌÌÍÌÏÍÌÍÍÏÌÍÏÌÍÌÏÍÏÏÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_490E : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÎÏÌÎÌÏÌÏÍÌÏÎÎÎÌÍÏÏÏÍÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_10D1 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1160380
-        public void Initialize(){} // RVA: 0x7B1160490
+        public void .ctor(){} // RVA: 0x9FA64A0
+        public void Initialize(){} // RVA: 0x9FA07A0
         // ── 15 unresolved (hash) ──
-        public void m_427(){} // RVA: 0x7B115F460
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_6C2(){} // RVA: 0x7B115F4D0
-        public void m_01E(){} // RVA: 0x7B115F6A0
-        public void m_872(){} // RVA: 0x7B115FCB0
+        public void m_530(){} // RVA: 0x9FA62A0
+        public void m_8C3(){} // RVA: 0x9FA63A0
+        public void m_536(){} // RVA: 0x9FA6510
+        public void m_C9C(){} // RVA: 0x9FA65B0
+        public void m_5DF(){} // RVA: 0x9FA06E0
         // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÎÏÌÏÌÌÏÌÌÍÍÌÍÌÍÏÍÎÏÏÏÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_4A2E : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÎÌÌÏÎÏÎÏÌÏÎÏÏÍÍÍÌÌÏÍÌÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_22E2 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1164FF0
+        public void .ctor(){} // RVA: 0x9F9FAA0
         // ── Unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_37E(){} // RVA: 0x7B11646E0
-        public void m_C3D(){} // RVA: 0x7B1164B00
+        public void m_E02(){} // RVA: 0x9F9F570
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_77E(){} // RVA: 0x9F9F8C0
     }
 
-    /// <summary>Originally: ÍÍÎÎÌÌÌÌÌÏÌÎÏÌÏÏÌÏÍÎÏÍÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_4D73 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÏÏÎÏÍÌÎÎÎÏÍÍÍÌÎÏÏÏÎÍÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_278A : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1164600
-        public void Initialize(){} // RVA: 0x7B1164640
-        // ── Unresolved (hash) ──
-        public void m_C3D(){} // RVA: 0x7B1164550
-        public void m_209(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x9FC48E0
+        public void Initialize(){} // RVA: 0x9FC4AF0
+        // ── 15 unresolved (hash) ──
+        public void m_BE1(){} // RVA: 0x9FC2A70
+        public void m_31F(){} // RVA: 0x9FC2D00
+        public void m_E02(){} // RVA: 0x9FC2DF0
+        public void m_17A(){} // RVA: 0x9FC3890
+        public void m_99B(){} // RVA: 0x9FC3B20
+        // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÌÎÏÏÌÍÍÏÍÌÍÍÏÏÍÏÎÎÍÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_598C : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÌÏÏÏÌÍÏÏÍÏÍÏÌÎÏÍÎÍÌÎÎÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_2C40 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B117B8C0
-        public void Initialize(){} // RVA: 0x7B117B900
-        // ── 20 unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7B117A750
-        public void m_541(){} // RVA: 0x7B117A870
-        public void m_84B(){} // RVA: 0x7B117A970
-        public void m_37E(){} // RVA: 0x7B117AA70
-        public void m_4AD(){} // RVA: 0x7B115DE30
-        // ... 15 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÌÌÌÍÍÌÏÍÏÍÎÏÌÏÍÏÍÎÍÏÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_60D6 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B118F060
-        // ── Unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_C3D(){} // RVA: 0x7B118EB90
-        public void m_B47(){} // RVA: 0x7ACE56FB0
-        public void m_37E(){} // RVA: 0x7B118EDF0
-    }
-
-    /// <summary>Originally: ÍÌÎÏÏÌÍÏÍÍÏÍÌÍÎÌÏÍÏÍÎÎÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_69A4 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11715D0
-        public void Initialize(){} // RVA: 0x7B1171610
+        public void .ctor(){} // RVA: 0x9FA17D0
+        public void Initialize(){} // RVA: 0x9FA1840
         // ── 13 unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A8ADAEF0
-        public void m_60E(){} // RVA: 0x7B1171270
-        public void m_449(){} // RVA: 0x7B1171390
-        public void m_7E3(){} // RVA: 0x7B11714B0
-        public void m_B47(){} // RVA: 0x7B1171730
+        public void m_94F(){} // RVA: 0x9F90F10
+        public void m_8C3(){} // RVA: 0x9FA16D0
+        public void m_085(){} // RVA: 0x9FA1A70
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_536(){} // RVA: 0x9F90F10
         // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÍÏÌÏÍÏÍÎÌÎÍÏÏÎÏÍÌÌÎÌÌÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_7AC1 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÌÏÍÍÎÌÌÌÌÎÌÎÎÍÍÏÍÏÏÌÌÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_2C64 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1163F40
-        public void Initialize(){} // RVA: 0x7B1164020
-        // ── Unresolved (hash) ──
-        public void m_C3D(){} // RVA: 0x7B1164370
-        public void m_209(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x9FA0620
+        public void Initialize(){} // RVA: 0x9FA0690
+        // ── 13 unresolved (hash) ──
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_635(){} // RVA: 0x9F9FBA0
+        public void m_085(){} // RVA: 0x9F9FCA0
+        public void m_49C(){} // RVA: 0x9F9FDA0
+        public void m_03F(){} // RVA: 0x9F90F10
+        // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÎÎÏÎÍÌÍÏÌÏÏÏÎÎÍÌÌÌÍÌÌÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_7E5C : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÍÌÏÏÎÌÎÏÏÌÌÍÍÎÍÏÏÎÏÎÏÎÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3019 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11702B0
-        public void Initialize(){} // RVA: 0x7B1170070
+        public void .ctor(){} // RVA: 0x9FC0AF0
+        public void Initialize(){} // RVA: 0x9FC0B60
         // ── 11 unresolved (hash) ──
-        public void m_C95(){} // RVA: 0x7B1170070
-        public void m_829(){} // RVA: 0x7B1170070
-        public void m_B47(){} // RVA: 0x7B11700F0
-        public void m_227(){} // RVA: 0x7B1170070
-        public void m_37E(){} // RVA: 0x7B11701D0
+        public void m_109(){} // RVA: 0x9FC0650
+        public void m_536(){} // RVA: 0x9FC0770
+        public void m_77E(){} // RVA: 0x9FC0800
+        public void m_E28(){} // RVA: 0x9FC08B0
+        public void m_087(){} // RVA: 0x9FC09D0
         // ... 6 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÌÎÌÎÌÌÎÏÎÏÎÎÎÍÏÍÌÎÍÎÌÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_7E67 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÎÏÎÏÎÌÌÎÌÎÎÎÌÎÍÍÍÌÍÌÌÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3263 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B116F5E0
-        public void Initialize(){} // RVA: 0x7B116F620
-        // ── 13 unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B116F720
-        public void m_F94(){} // RVA: 0x7B115DE30
-        public void m_F4F(){} // RVA: 0x7B116F940
-        public void m_FA6(){} // RVA: 0x7B116FA40
-        public void m_29B(){} // RVA: 0x7B115DE30
-        // ... 8 more unresolved methods
+        public void .ctor(){} // RVA: 0x9F99990
+        public void Initialize(){} // RVA: 0x9F90F10
+        // ── 11 unresolved (hash) ──
+        public void m_E02(){} // RVA: 0x9F99560
+        public void m_536(){} // RVA: 0x9F90F10
+        public void m_B2C(){} // RVA: 0x9F995B0
+        public void m_B23(){} // RVA: 0x9F996B0
+        public void m_77E(){} // RVA: 0x9F997B0
+        // ... 6 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÏÎÌÌÌÏÌÏÎÏÏÌÍÍÎÎÍÏÎÌÌÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_8604 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÌÎÌÍÏÎÍÍÎÌÍÎÌÌÏÌÌÏÍÎÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3360 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B117EDF0
-        public void Initialize(){} // RVA: 0x7B117EC30
-        // ── 14 unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B117EC30
-        public void m_981(){} // RVA: 0x7B117EC40
-        public void m_2FF(){} // RVA: 0x7B117F010
-        public void m_77D(){} // RVA: 0x7B117F190
-        public void m_F10(){} // RVA: 0x7B117FB00
-        // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÌÎÌÌÎÎÌÎÏÌÍÎÏÍÏÍÏÍÏÌÎÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_8FBA : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11883A0
-        public void Initialize(){} // RVA: 0x7B11883E0
-        // ── Unresolved (hash) ──
-        public void m_B47(){} // RVA: 0x7B1188E90
-        public void m_C3D(){} // RVA: 0x7A80D7310
-        public void m_209(){} // RVA: 0x7A80D7310
-    }
-
-    /// <summary>Originally: ÏÏÏÎÍÎÎÏÎÌÏÏÏÌÎÌÏÎÍÍÏÌÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_919A : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115F2B0
-        // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B115F110
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_C3D(){} // RVA: 0x7B115F1E0
-    }
-
-    /// <summary>Originally: ÌÏÍÍÌÌÍÏÍÏÍÎÎÍÎÏÌÍÎÎÏÌÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_9329 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11837C0
-        public void Initialize(){} // RVA: 0x7B1183800
-        public void Awake(){} // RVA: 0x7B1183B30
-        public void OnDestroy(){} // RVA: 0x7B1183BE0
+        public void .cctor(){} // RVA: 0x9FBFF40
+        public void .ctor(){} // RVA: 0x9FC05E0
         // ── 12 unresolved (hash) ──
-        public void m_355(){} // RVA: 0x7B1183040
-        public void m_A21(){} // RVA: 0x7B1183160
-        public void m_7E2(){} // RVA: 0x7B1183280
-        public void m_BD4(){} // RVA: 0x7B1183340
-        public void m_532(){} // RVA: 0x7B1183460
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_277(){} // RVA: 0x9FBF6B0
+        public void m_77E(){} // RVA: 0x9FBF780
+        public void m_536(){} // RVA: 0x9FBF930
+        public void m_5CD(){} // RVA: 0x9FBFA90
         // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÏÍÍÎÏÍÍÌÍÏÎÍÏÎÍÏÌÏÏÍÍÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_9A1D : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÎÏÏÍÍÏÌÏÎÎÌÎÏÎÎÎÏÏÌÏÌÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3534 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B117CA10
-        public void Initialize(){} // RVA: 0x7B117CAF0
-        // ── 17 unresolved (hash) ──
-        public void m_9E7(){} // RVA: 0x7B117C5B0
-        public void m_BDF(){} // RVA: 0x7B117C6D0
-        public void m_125(){} // RVA: 0x7B117C730
-        public void m_C0D(){} // RVA: 0x7B1174840
-        public void m_86C(){} // RVA: 0x7B117C750
-        // ... 12 more unresolved methods
+        public void .ctor(){} // RVA: 0x9F9B190
+        // ── Unresolved (hash) ──
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_E02(){} // RVA: 0x9F9B070
+        public void m_77E(){} // RVA: 0x9F9B0E0
     }
 
-    /// <summary>Originally: ÎÏÏÎÏÍÏÏÍÍÌÍÌÍÌÍÏÌÌÏÏÌÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_9F21 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÍÏÎÍÍÏÏÏÌÍÍÍÏÍÍÌÌÏÍÎÏÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3AC6 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1165760
-        public void Initialize(){} // RVA: 0x7B11657A0
+        public void .ctor(){} // RVA: 0x9F919F0
+        public void Initialize(){} // RVA: 0x9F91A60
+        public void Update(){} // RVA: 0x9F94F90
+        // ── 31 unresolved (hash) ──
+        public void m_E02(){} // RVA: 0x9F91F30
+        public void m_A0F(){} // RVA: 0x9F93E70
+        public void m_18F(){} // RVA: 0x9F93FD0
+        public void m_451(){} // RVA: 0x9F945B0
+        public void m_69B(){} // RVA: 0x9F95110
+        // ... 26 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÌÏÍÏÍÏÌÏÍÍÏÍÎÎÏÍÎÎÎÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_3FE2 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FB4550
+        public void Initialize(){} // RVA: 0x9FB45C0
+        // ── 11 unresolved (hash) ──
+        public void m_4DD(){} // RVA: 0x9FB3D70
+        public void m_F19(){} // RVA: 0x9FB4050
+        public void m_00E(){} // RVA: 0x9FB4330
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_E02(){} // RVA: 0x9FB48A0
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÏÎÌÎÌÍÌÏÎÌÏÎÌÎÌÎÏÌÌÍÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_443A : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xA0BA4B0
+        public void Initialize(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_102(){} // RVA: 0xB43320
+    }
+
+    /// <summary>Originally: ÏÏÏÏÏÏÍÍÌÏÍÏÏÏÍÌÍÍÌÎÏÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_447A : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FBAFC0
+        public void Initialize(){} // RVA: 0x9F90F10
+        // ── 22 unresolved (hash) ──
+        public void m_5D9(){} // RVA: 0x9FB9AD0
+        public void m_2AC(){} // RVA: 0x9FB9BD0
+        public void m_023(){} // RVA: 0x9FB9CD0
+        public void m_D13(){} // RVA: 0x9FA07A0
+        public void m_35D(){} // RVA: 0x9FB9DC0
+        // ... 17 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÌÏÍÍÏÏÌÏÎÎÌÏÌÏÎÎÏÎÎÏÌÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_51A8 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FA4A80
+        public void Initialize(){} // RVA: 0x9FA4AF0
+        // ── Unresolved (hash) ──
+        public void m_102(){} // RVA: 0x9FA49C0
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_E02(){} // RVA: 0x9FA4C50
+    }
+
+    /// <summary>Originally: ÎÏÍÍÍÌÌÎÌÍÏÏÏÎÎÏÌÌÏÏÍÏÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_592E : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F9EF90
+        public void Initialize(){} // RVA: 0x9F9F000
+        // ── Unresolved (hash) ──
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_77E(){} // RVA: 0x9F9EEC0
+    }
+
+    /// <summary>Originally: ÌÎÎÏÎÏÍÍÍÍÍÌÌÍÌÏÍÍÍÏÎÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_5A99 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FAEA00
+        public void Initialize(){} // RVA: 0x9FAEA70
+        // ── 11 unresolved (hash) ──
+        public void m_536(){} // RVA: 0x9F90F10
+        public void m_8DE(){} // RVA: 0x9FAE900
+        public void m_E02(){} // RVA: 0x9FAEB70
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_49C(){} // RVA: 0x9FAED60
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÏÎÎÏÎÏÍÏÎÍÍÎÍÏÎÏÎÌÌÏÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_5BB7 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FBEF70
+        public void Initialize(){} // RVA: 0x9FBF1B0
+        // ── 15 unresolved (hash) ──
+        public void m_77E(){} // RVA: 0x9FBD790
+        public void m_0F8(){} // RVA: 0x9FBDC60
+        public void m_5B6(){} // RVA: 0x9FBDDE0
+        public void m_444(){} // RVA: 0x9FBE740
+        public void m_5A2(){} // RVA: 0x9FBE750
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÍÌÌÍÏÌÏÍÏÎÏÍÏÎÍÌÎÌÎÎÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_5D0D : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FA3EA0
+        public void Initialize(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_77E(){} // RVA: 0x9FA3F10
+        public void m_E02(){} // RVA: 0x9FA3FC0
+    }
+
+    /// <summary>Originally: ÎÏÌÎÍÍÏÍÍÍÍÌÏÏÍÌÌÍÍÏÏÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_5ECC : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F9A2D0
+        public void Initialize(){} // RVA: 0x9F9A360
+        // ── 12 unresolved (hash) ──
+        public void m_2ED(){} // RVA: 0x9F90F10
+        public void m_681(){} // RVA: 0x9F90F10
+        public void m_845(){} // RVA: 0x9F99D00
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_E02(){} // RVA: 0x9F9A460
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÏÍÏÏÏÏÏÍÏÎÏÎÎÎÏÌÏÍÏÏÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_6605 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FB15E0
+        public void Initialize(){} // RVA: 0x9FB1650
+        // ── 13 unresolved (hash) ──
+        public void m_074(){} // RVA: 0x9FB14B0
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_D9F(){} // RVA: 0x9FB1890
+        public void m_CDE(){} // RVA: 0x9FB1920
+        public void m_4E6(){} // RVA: 0x9FB1C60
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÌÌÌÌÌÍÎÎÌÏÎÏÎÎÌÍÎÎÌÏÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_7818 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FC9B80
+        public void Initialize(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_E02(){} // RVA: 0x9FC9770
+        public void m_102(){} // RVA: 0x59D5B90
+        public void m_77E(){} // RVA: 0x9FC9BF0
+    }
+
+    /// <summary>Originally: ÍÌÏÏÌÍÍÍÍÏÍÏÌÏÍÎÎÎÌÍÍÏÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_7F64 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F9AE60
+        public void Initialize(){} // RVA: 0x9F9AED0
+        // ── Unresolved (hash) ──
+        public void m_77E(){} // RVA: 0x9F9AFA0
+        public void m_5DF(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÏÌÌÍÏÌÎÏÍÌÍÏÎÏÎÌÍÌÌÎÍÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_824B : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FC8510
+        // ── 18 unresolved (hash) ──
+        public void m_170(){} // RVA: 0x9FC68B0
+        public void m_8D7(){} // RVA: 0x9FC69C0
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_39A(){} // RVA: 0x9FC6AD0
+        public void m_F4A(){} // RVA: 0x9FC6B20
+        // ... 13 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÍÍÍÌÎÏÎÎÌÏÎÌÏÌÎÏÌÌÏÎÍÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_8723 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F91900
+        public void Initialize(){} // RVA: 0x9F91970
+        // ── 14 unresolved (hash) ──
+        public void m_015(){} // RVA: 0x9F90DD0
+        public void m_271(){} // RVA: 0x9F90E10
+        public void m_6D7(){} // RVA: 0x9F90F10
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_B13(){} // RVA: 0x9F90F30
+        // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÎÎÌÌÍÌÍÎÎÍÍÍÌÌÎÍÌÏÍÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_9570 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FA22E0
+        public void Initialize(){} // RVA: 0x9FA07A0
         // ── 16 unresolved (hash) ──
-        public void m_4B0(){} // RVA: 0x7B11655C0
-        public void m_CA6(){} // RVA: 0x7B11656C0
-        public void m_C3D(){} // RVA: 0x7B1165B60
-        public void m_209(){} // RVA: 0x7B1165D90
-        public void m_381(){} // RVA: 0x7B0F87980
+        public void m_5EC(){} // RVA: 0x9FA20E0
+        public void m_536(){} // RVA: 0x9F90F10
+        public void m_7C8(){} // RVA: 0x9FA21E0
+        public void m_82B(){} // RVA: 0x9FA2350
+        public void m_96B(){} // RVA: 0x9FA2450
         // ... 11 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÌÏÎÎÎÏÌÏÏÍÌÍÌÎÏÎÍÍÌÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_A21F : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÎÌÍÏÌÍÌÍÌÍÌÌÌÏÏÎÍÏÍÌÍÍÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_A6C5 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1165040
-        public void Initialize(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x9F9B830
+        public void Initialize(){} // RVA: 0x9F9B8A0
+        // ── 15 unresolved (hash) ──
+        public void m_32F(){} // RVA: 0x9F9B3B0
+        public void m_FAC(){} // RVA: 0x9F9B4B0
+        public void m_ED4(){} // RVA: 0x9F9B5B0
+        public void m_CD5(){} // RVA: 0x9F9B5E0
+        public void m_E02(){} // RVA: 0x9F9B620
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÎÌÌÏÎÎÍÎÎÎÌÌÏÏÏÍÎÍÍÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_A6D0 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FC2250
+        public void Initialize(){} // RVA: 0x9FC22C0
         // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B1165080
-        public void m_B47(){} // RVA: 0x7B1165360
-        public void m_C3D(){} // RVA: 0x7B1165460
+        public void m_A4D(){} // RVA: 0x9FC1300
+        public void m_BEB(){} // RVA: 0x9FC13E0
+        public void m_77E(){} // RVA: 0x9FC14C0
+        public void m_F5A(){} // RVA: 0x9FC1AC0
+        public void m_D66(){} // RVA: 0x9FC1BA0
+        public void m_102(){} // RVA: 0x9FC1C80
+        public void m_530(){} // RVA: 0x9FC1EA0
+        public void m_E02(){} // RVA: 0x9FC1F80
+        public void m_4D1(){} // RVA: 0x9FC23A0
+        public void m_5DF(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÌÏÏÌÏÌÍÌÏÎÌÎÎÏÏÍÎÌÌÍÏÎÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_B0EA : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÎÎÌÍÍÎÍÎÌÌÎÍÍÏÎÍÍÌÎÎÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_ADD2 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115E3C0
-        public void Initialize(){} // RVA: 0x7B115E400
-        // ── 14 unresolved (hash) ──
-        public void m_6D1(){} // RVA: 0x7B115DD60
-        public void m_810(){} // RVA: 0x7B115DE30
-        public void m_37E(){} // RVA: 0x7B115DE50
-        public void m_C3D(){} // RVA: 0x7B115E000
-        public void m_209(){} // RVA: 0x7A8ADAEF0
-        // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÍÎÏÍÍÎÌÍÌÏÏÍÍÎÎÌÌÍÌÎÏÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_BA42 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1184E40
-        // ── 11 unresolved (hash) ──
-        public void m_334(){} // RVA: 0x7B1183EF0
-        public void m_B63(){} // RVA: 0x7B1183FD0
-        public void m_CA7(){} // RVA: 0x7B11840B0
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_F6C(){} // RVA: 0x7B1184190
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÍÌÍÍÎÎÏÌÎÌÍÏÍÏÍÏÍÌÍÌÍÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_D0A2 : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B11828D0
-        public void Initialize(){} // RVA: 0x7B1182910
-        public void .cctor(){} // RVA: 0x7B1182F60
-        // ── 13 unresolved (hash) ──
-        public void m_29B(){} // RVA: 0x7B11820A0
-        public void m_31C(){} // RVA: 0x7B1182200
-        public void m_37E(){} // RVA: 0x7B11822D0
-        public void m_835(){} // RVA: 0x7B11823E0
-        public void m_CA6(){} // RVA: 0x7B11824B0
-        // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÎÎÏÏÌÌÏÎÎÏÎÍÎÎÌÎÍÏÍÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_D10A : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B124F410
-        public void Initialize(){} // RVA: 0x7A80D7320
+        public void .ctor(){} // RVA: 0x9F9B200
+        public void Initialize(){} // RVA: 0xB43310
         // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7A80D7310
-        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_77E(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÌÏÌÎÏÎÍÎÏÍÌÍÍÌÏÌÎÎÏÌÎÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_D5F7 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÌÏÎÎÏÎÏÍÏÎÏÍÏÌÍÍÍÎÏÎÏÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_B745 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1162FF0
-        public void Initialize(){} // RVA: 0x7B1163030
+        public void .ctor(){} // RVA: 0x9FA5360
+        public void Initialize(){} // RVA: 0x9FA53F0
+        // ── 17 unresolved (hash) ──
+        public void m_39A(){} // RVA: 0x9FA4F40
+        public void m_EC5(){} // RVA: 0x9FA5040
+        public void m_73D(){} // RVA: 0x9FA5140
+        public void m_5DF(){} // RVA: 0x9FA5240
+        public void m_494(){} // RVA: 0x9FA5970
+        // ... 12 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÌÎÎÌÏÌÎÎÎÏÍÏÌÎÎÌÌÏÏÎÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_C2BE : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FB7740
+        public void Initialize(){} // RVA: 0x9FB77B0
+        // ── 15 unresolved (hash) ──
+        public void m_38A(){} // RVA: 0x9FB78D0
+        public void m_17A(){} // RVA: 0x9FB7920
+        public void m_15B(){} // RVA: 0x9FB7970
+        public void m_7F1(){} // RVA: 0x1672940
+        public void m_BE1(){} // RVA: 0x9FB7980
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÎÌÎÍÏÍÎÏÍÏÍÏÌÏÌÌÍÌÌÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D1E7 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F9F3E0
+        public void Initialize(){} // RVA: 0xB43310
         // ── Unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_37E(){} // RVA: 0x7B1163100
+        public void m_77E(){} // RVA: 0x9F9F450
+        public void m_E02(){} // RVA: 0x9F9F520
     }
 
-    /// <summary>Originally: ÍÎÎÌÎÎÌÏÌÍÎÎÏÎÏÌÌÎÌÎÏÍÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_E3E8 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÌÎÍÎÏÎÍÏÌÍÎÌÍÌÏÏÏÎÎÍÌÎÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D391 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115E8A0
-        public void Initialize(){} // RVA: 0x7B115E8E0
-        // ── 13 unresolved (hash) ──
-        public void m_F94(){} // RVA: 0x7B115DE30
-        public void m_3F1(){} // RVA: 0x7B115EAC0
-        public void m_826(){} // RVA: 0x7B115DE30
-        public void m_B59(){} // RVA: 0x7B115EBC0
-        public void m_2E7(){} // RVA: 0x7B115ECC0
-        // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÎÎÎÌÍÌÏÍÏÏÍÏÌÍÌÏÍÏÎÏÏÌ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_EA3F : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1178E80
-        public void Initialize(){} // RVA: 0x7B1178EC0
-        // ── 14 unresolved (hash) ──
-        public void m_DC6(){} // RVA: 0x7B1178AA0
-        public void m_852(){} // RVA: 0x7B1178BC0
-        public void m_BBE(){} // RVA: 0x7B1178CE0
-        public void m_CFD(){} // RVA: 0x7AE066460
-        public void m_142(){} // RVA: 0x7B1178FE0
-        // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÏÎÍÏÎÏÍÌÌÎÏÍÌÎÏÌÌÎÍÍÍÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_F2CF : UIRectTransformDimensionsChBeforeTransform_9980
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1163F00
+        public void .ctor(){} // RVA: 0x9F9B270
+        public void Initialize(){} // RVA: 0x9F99D00
         // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7B1163E00
-        public void m_C3D(){} // RVA: 0x7B1163E30
-        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_BB9(){} // RVA: 0x9F99D00
+        public void m_9AB(){} // RVA: 0x9F99D00
+        public void m_77E(){} // RVA: 0x9F9B2E0
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_97B(){} // RVA: 0x9F99D00
+        public void m_9A2(){} // RVA: 0x9F99D00
+        public void m_E02(){} // RVA: 0x9F9B380
+        public void m_58C(){} // RVA: 0x9F99D00
+        public void m_02A(){} // RVA: 0x9F99D00
     }
 
-    /// <summary>Originally: ÌÏÌÎÎÍÌÏÍÏÍÎÌÍÍÍÍÍÌÏÌÍÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_F2D4 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÍÍÎÏÍÌÎÏÌÌÌÌÌÌÏÌÌÍÏÍÌÌÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D9AA : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1176120
-        public void Initialize(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x9FB02C0
+        public void Initialize(){} // RVA: 0x9FB0330
+        // ── Unresolved (hash) ──
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_E02(){} // RVA: 0x9FB0270
+        public void m_77E(){} // RVA: 0x9FB0490
+    }
+
+    /// <summary>Originally: ÏÎÏÌÌÌÌÏÏÌÏÍÌÌÍÎÏÍÍÍÎÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_E41B : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9F90900
+        public void Initialize(){} // RVA: 0x9F90810
+        // ── 15 unresolved (hash) ──
+        public void m_303(){} // RVA: 0x9F905D0
+        public void m_350(){} // RVA: 0x9F906F0
+        public void m_FC9(){} // RVA: 0x9F90810
+        public void m_C02(){} // RVA: 0x9F90890
+        public void m_76F(){} // RVA: 0x9F90970
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÎÌÍÍÎÌÎÏÏÎÌÌÎÍÎÏÍÍÎÎÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F4BC : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FB6270
         // ── 12 unresolved (hash) ──
-        public void m_CA4(){} // RVA: 0x7B11749C0
-        public void m_305(){} // RVA: 0x7B1174C70
-        public void m_EB1(){} // RVA: 0x7B1174E90
-        public void m_804(){} // RVA: 0x7B1175140
-        public void m_574(){} // RVA: 0x7B1175350
+        public void m_17A(){} // RVA: 0x9F90F10
+        public void m_E02(){} // RVA: 0x9FB5A10
+        public void m_203(){} // RVA: 0x9F90F10
+        public void m_243(){} // RVA: 0x9F90F10
+        public void m_8DA(){} // RVA: 0x9FB5B60
         // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÎÍÌÏÎÌÍÎÏÏÏÌÍÎÍÌÎÍÏÎÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_F43A : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÏÍÌÍÍÏÍÍÌÏÌÍÏÍÍÏÌÎÎÍÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F611 : UIRectTransformDimensionsChBeforeTransform_08BD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B115F420
-        public void Initialize(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x9FB9070
+        public void Initialize(){} // RVA: 0x9FB90E0
+        // ── 13 unresolved (hash) ──
+        public void m_7C8(){} // RVA: 0x9FB8E70
+        public void m_3F5(){} // RVA: 0x9FB8F70
+        public void m_5DF(){} // RVA: 0x9F90D70
+        public void m_E02(){} // RVA: 0x9FB9160
+        public void m_94F(){} // RVA: 0x9FB93B0
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÎÌÌÍÍÏÎÏÎÏÎÌÌÍÏÎÍÏÍÎÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_FE76 : UIRectTransformDimensionsChBeforeTransform_08BD
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x9FC6840
         // ── Unresolved (hash) ──
-        public void m_C3D(){} // RVA: 0x7A80D7310
-        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_77E(){} // RVA: 0xB43310
+        public void m_5DF(){} // RVA: 0xB43310
+        public void m_E02(){} // RVA: 0x9FC5840
+        public void m_102(){} // RVA: 0x9FC6310
     }
 
-    /// <summary>Originally: ÍÏÎÏÎÏÎÌÌÏÍÏÍÍÌÏÌÏÌÌÌÏÎ</summary>
-    public class UIRectTransformDimensionsChBeforeTransformImpl_F7B6 : UIRectTransformDimensionsChBeforeTransform_9980
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7B1170FD0
-        public void Initialize(){} // RVA: 0x7B1171010
-        // ── Unresolved (hash) ──
-        public void m_209(){} // RVA: 0x7A80D7310
-        public void m_C3D(){} // RVA: 0x7B1171060
-        public void m_B47(){} // RVA: 0x7B1171110
-    }
-
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
-    {
-        // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7A7E18770
-        public void OnDisable(){} // RVA: 0x7A7E18770
-        public void OnDestroy(){} // RVA: 0x7A7E18770
-        public void Start(){} // RVA: 0x7A7E18770
-        public void IsActive(){} // RVA: 0x7A7E01900
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7A7E18770
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7A7E18770
-        public void OnTransformParentChanged(){} // RVA: 0x7A7E18770
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7A7E18770
-        public void OnCanvasGroupChanged(){} // RVA: 0x7A7E18770
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7A7E18770
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void OnEnable(){} // RVA: 0x894290
+        public void OnDisable(){} // RVA: 0x894290
+        public void OnDestroy(){} // RVA: 0x894290
+        public void Start(){} // RVA: 0x894290
+        public void IsActive(){} // RVA: 0x87D280
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x894290
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x894290
+        public void OnTransformParentChanged(){} // RVA: 0x894290
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x894290
+        public void OnCanvasGroupChanged(){} // RVA: 0x894290
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0x894290
+        public void .cctor(){} // RVA: 0x8942F0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7A7E00680
-        public void m_FEC(){} // RVA: 0x7A7E00680
-        public void m_2D5(){} // RVA: 0x7A8051B10
-        public void m_420(){} // RVA: 0x7A8051B10
-        public void m_D22(){} // RVA: 0x7A7E00680
+        public void m_814(){} // RVA: 0x87C0A0
+        public void m_CCA(){} // RVA: 0x87C0A0
+        public void m_BBA(){} // RVA: 0xA94080
+        public void m_975(){} // RVA: 0xA94080
+        public void m_658(){} // RVA: 0x87C0A0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE4E2B0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE4E9C0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5ACD070
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5ACD730
+        public void .cctor(){} // RVA: 0x5ACDD40
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE4C720
-        public void m_2D5(){} // RVA: 0x7ACE4C880
-        public void m_420(){} // RVA: 0x7ACE4C8E0
-        public void m_D22(){} // RVA: 0x7ACE4C940
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AC9EA0
+        public void m_BBA(){} // RVA: 0x5ACA000
+        public void m_975(){} // RVA: 0x5ACA060
+        public void m_658(){} // RVA: 0x5ACA0C0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE68B50
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE69260
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B43E90
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B44550
+        public void .cctor(){} // RVA: 0x5B44B60
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE66AB0
-        public void m_2D5(){} // RVA: 0x7ACE66CB0
-        public void m_420(){} // RVA: 0x7ACE66D50
-        public void m_D22(){} // RVA: 0x7ACE66DF0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B408D0
+        public void m_BBA(){} // RVA: 0x5B40AD0
+        public void m_975(){} // RVA: 0x5B40B70
+        public void m_658(){} // RVA: 0x5B40C10
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE75710
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE75E20
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B3FAD0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B40190
+        public void .cctor(){} // RVA: 0x5B407A0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE73B80
-        public void m_2D5(){} // RVA: 0x7ACE73CE0
-        public void m_420(){} // RVA: 0x7ACE73D40
-        public void m_D22(){} // RVA: 0x7ACE73DA0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B3C900
+        public void m_BBA(){} // RVA: 0x5B3CA60
+        public void m_975(){} // RVA: 0x5B3CAC0
+        public void m_658(){} // RVA: 0x5B3CB20
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE634B0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE63BC0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B12590
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B12C50
+        public void .cctor(){} // RVA: 0x5B13260
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE61640
-        public void m_2D5(){} // RVA: 0x7ACE617F0
-        public void m_420(){} // RVA: 0x7ACE61870
-        public void m_D22(){} // RVA: 0x7ACE618E0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B0F3C0
+        public void m_BBA(){} // RVA: 0x5B0F520
+        public void m_975(){} // RVA: 0x5B0F580
+        public void m_658(){} // RVA: 0x5B0F5E0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE84C00
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE85310
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AE99B0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AEA070
+        public void .cctor(){} // RVA: 0x5AEA680
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE82EB0
-        public void m_2D5(){} // RVA: 0x7ACE83040
-        public void m_420(){} // RVA: 0x7ACE830B0
-        public void m_D22(){} // RVA: 0x7ACE83120
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AE65E0
+        public void m_BBA(){} // RVA: 0x5AE6790
+        public void m_975(){} // RVA: 0x5AE6810
+        public void m_658(){} // RVA: 0x5AE6880
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE77F50
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE78660
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AEDAD0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AEE190
+        public void .cctor(){} // RVA: 0x5AEE7A0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE763A0
-        public void m_2D5(){} // RVA: 0x7ACE764F0
-        public void m_420(){} // RVA: 0x7ACE76530
-        public void m_D22(){} // RVA: 0x7ACE76580
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AEA7B0
+        public void m_BBA(){} // RVA: 0x5AEA940
+        public void m_975(){} // RVA: 0x5AEA9B0
+        public void m_658(){} // RVA: 0x5AEAA20
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE7FAF0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE80200
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AB8E00
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AB94C0
+        public void .cctor(){} // RVA: 0x5AB9AD0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE7DE60
-        public void m_2D5(){} // RVA: 0x7ACE7DFD0
-        public void m_420(){} // RVA: 0x7ACE7E040
-        public void m_D22(){} // RVA: 0x7ACE7E0A0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AB5B90
+        public void m_BBA(){} // RVA: 0x5AB5CE0
+        public void m_975(){} // RVA: 0x5AB5D20
+        public void m_658(){} // RVA: 0x5AB5D70
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACEACD80
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACEAD490
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AD5360
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AD5A20
+        public void .cctor(){} // RVA: 0x5AD6030
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACEAB050
-        public void m_2D5(){} // RVA: 0x7ACEAB1E0
-        public void m_420(){} // RVA: 0x7ACEAB250
-        public void m_D22(){} // RVA: 0x7ACEAB2C0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AD2070
+        public void m_BBA(){} // RVA: 0x5AD21E0
+        public void m_975(){} // RVA: 0x5AD2250
+        public void m_658(){} // RVA: 0x5AD22B0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE55F60
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE56670
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AE57E0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AE5EA0
+        public void .cctor(){} // RVA: 0x5AE64B0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE543D0
-        public void m_2D5(){} // RVA: 0x7ACE54530
-        public void m_420(){} // RVA: 0x7ACE54590
-        public void m_D22(){} // RVA: 0x7ACE545F0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AE24B0
+        public void m_BBA(){} // RVA: 0x5AE2640
+        public void m_975(){} // RVA: 0x5AE26B0
+        public void m_658(){} // RVA: 0x5AE2720
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE6B3D0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE6BAE0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AB4D90
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AB5450
+        public void .cctor(){} // RVA: 0x5AB5A60
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE697E0
-        public void m_2D5(){} // RVA: 0x7ACE69930
-        public void m_420(){} // RVA: 0x7ACE69970
-        public void m_D22(){} // RVA: 0x7ACE699C0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AB1C40
+        public void m_BBA(){} // RVA: 0x5AB1D90
+        public void m_975(){} // RVA: 0x5AB1DD0
+        public void m_658(){} // RVA: 0x5AB1E20
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE9CCD0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE9D3E0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B0E5C0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B0EC80
+        public void .cctor(){} // RVA: 0x5B0F290
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE9ACF0
-        public void m_2D5(){} // RVA: 0x7ACE9AEF0
-        public void m_420(){} // RVA: 0x7ACE9AF90
-        public void m_D22(){} // RVA: 0x7ACE9B030
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B0B4B0
+        public void m_BBA(){} // RVA: 0x5B0B600
+        public void m_975(){} // RVA: 0x5B0B640
+        public void m_658(){} // RVA: 0x5B0B690
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE82220
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE82930
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AF9DA0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AFA460
+        public void .cctor(){} // RVA: 0x5AFAA70
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE80780
-        public void m_2D5(){} // RVA: 0x7ACE808D0
-        public void m_420(){} // RVA: 0x7ACE80910
-        public void m_D22(){} // RVA: 0x7ACE80960
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AF6BD0
+        public void m_BBA(){} // RVA: 0x5AF6D30
+        public void m_975(){} // RVA: 0x5AF6D90
+        public void m_658(){} // RVA: 0x5AF6DF0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACEAA3C0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACEAAAD0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B22B40
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B23200
+        public void .cctor(){} // RVA: 0x5B23810
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACEA7F70
-        public void m_2D5(){} // RVA: 0x7ACEA81B0
-        public void m_420(){} // RVA: 0x7ACEA8280
-        public void m_D22(){} // RVA: 0x7ACEA8340
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B1F910
+        public void m_BBA(){} // RVA: 0x5B1FA60
+        public void m_975(){} // RVA: 0x5B1FAA0
+        public void m_658(){} // RVA: 0x5B1FAF0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE65E20
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE66530
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5A98820
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5A98EE0
+        public void .cctor(){} // RVA: 0x5A994F0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE64140
-        public void m_2D5(){} // RVA: 0x7ACE642B0
-        public void m_420(){} // RVA: 0x7ACE64320
-        public void m_D22(){} // RVA: 0x7ACE64380
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5A95120
+        public void m_BBA(){} // RVA: 0x5A95320
+        public void m_975(){} // RVA: 0x5A953C0
+        public void m_658(){} // RVA: 0x5A95460
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE9A060
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE9A770
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AE16B0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AE1D70
+        public void .cctor(){} // RVA: 0x5AE2380
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE983F0
-        public void m_2D5(){} // RVA: 0x7ACE98560
-        public void m_420(){} // RVA: 0x7ACE985D0
-        public void m_D22(){} // RVA: 0x7ACE98630
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5ADE5A0
+        public void m_BBA(){} // RVA: 0x5ADE6F0
+        public void m_975(){} // RVA: 0x5ADE730
+        public void m_658(){} // RVA: 0x5ADE780
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE5B920
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE5C030
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B829E0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B830A0
+        public void .cctor(){} // RVA: 0x5B836B0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE598C0
-        public void m_2D5(){} // RVA: 0x7ACE59AC0
-        public void m_420(){} // RVA: 0x7ACE59B50
-        public void m_D22(){} // RVA: 0x7ACE59BE0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B7EFB0
+        public void m_BBA(){} // RVA: 0x5B7F1F0
+        public void m_975(){} // RVA: 0x5B7F2C0
+        public void m_658(){} // RVA: 0x5B7F380
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE58C30
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE59340
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AA8A80
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AA9140
+        public void .cctor(){} // RVA: 0x5AA9750
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE56BF0
-        public void m_2D5(){} // RVA: 0x7ACE56DD0
-        public void m_420(){} // RVA: 0x7ACE56E60
-        public void m_D22(){} // RVA: 0x7ACE56EF0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AA57B0
+        public void m_BBA(){} // RVA: 0x5AA5920
+        public void m_975(){} // RVA: 0x5AA5990
+        public void m_658(){} // RVA: 0x5AA59F0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE5E050
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE5E760
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B8AB60
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B8B220
+        public void .cctor(){} // RVA: 0x5B8B830
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE5C5B0
-        public void m_2D5(){} // RVA: 0x7ACE5C700
-        public void m_420(){} // RVA: 0x7ACE5C740
-        public void m_D22(){} // RVA: 0x7ACE5C790
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B878F0
+        public void m_BBA(){} // RVA: 0x5B87A60
+        public void m_975(){} // RVA: 0x5B87AD0
+        public void m_658(){} // RVA: 0x5B87B30
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE43560
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE43C70
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B1EB10
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B1F1D0
+        public void .cctor(){} // RVA: 0x5B1F7E0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE40F90
-        public void m_2D5(){} // RVA: 0x7ACE411E0
-        public void m_420(){} // RVA: 0x7ACE412B0
-        public void m_D22(){} // RVA: 0x7ACE41380
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B1B4F0
+        public void m_BBA(){} // RVA: 0x5B1B6F0
+        public void m_975(){} // RVA: 0x5B1B780
+        public void m_658(){} // RVA: 0x5B1B810
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE9F4F0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE9FC00
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B8EF30
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B8F5F0
+        public void .cctor(){} // RVA: 0x5B8FC00
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE9D960
-        public void m_2D5(){} // RVA: 0x7ACE9DAC0
-        public void m_420(){} // RVA: 0x7ACE9DB20
-        public void m_D22(){} // RVA: 0x7ACE9DB80
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B8B960
+        public void m_BBA(){} // RVA: 0x5B8BB40
+        public void m_975(){} // RVA: 0x5B8BBD0
+        public void m_658(){} // RVA: 0x5B8BC60
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACEA4870
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACEA4F80
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B2ACD0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B2B390
+        public void .cctor(){} // RVA: 0x5B2B9A0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACEA2B40
-        public void m_2D5(){} // RVA: 0x7ACEA2CD0
-        public void m_420(){} // RVA: 0x7ACEA2D40
-        public void m_D22(){} // RVA: 0x7ACEA2DB0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B27BC0
+        public void m_BBA(){} // RVA: 0x5B27D10
+        public void m_975(){} // RVA: 0x5B27D50
+        public void m_658(){} // RVA: 0x5B27DA0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE7A990
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE7B0A0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B50D40
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B51400
+        public void .cctor(){} // RVA: 0x5B51A10
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE78BE0
-        public void m_2D5(){} // RVA: 0x7ACE78D70
-        public void m_420(){} // RVA: 0x7ACE78DE0
-        public void m_D22(){} // RVA: 0x7ACE78E50
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B4D210
+        public void m_BBA(){} // RVA: 0x5B4D460
+        public void m_975(){} // RVA: 0x5B4D530
+        public void m_658(){} // RVA: 0x5B4D600
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE50A20
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE51130
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AA49B0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AA5070
+        public void .cctor(){} // RVA: 0x5AA5680
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE4EF40
-        public void m_2D5(){} // RVA: 0x7ACE4F090
-        public void m_420(){} // RVA: 0x7ACE4F0D0
-        public void m_D22(){} // RVA: 0x7ACE4F120
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AA17E0
+        public void m_BBA(){} // RVA: 0x5AA1940
+        public void m_975(){} // RVA: 0x5AA19A0
+        public void m_658(){} // RVA: 0x5AA1A00
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE94470
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE94B80
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B377E0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B37EA0
+        public void .cctor(){} // RVA: 0x5B384B0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE929D0
-        public void m_2D5(){} // RVA: 0x7ACE92B20
-        public void m_420(){} // RVA: 0x7ACE92B60
-        public void m_D22(){} // RVA: 0x7ACE92BB0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B344B0
+        public void m_BBA(){} // RVA: 0x5B34640
+        public void m_975(){} // RVA: 0x5B346B0
+        public void m_658(){} // RVA: 0x5B34720
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE8F2F0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE8FA00
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AB0E40
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AB1500
+        public void .cctor(){} // RVA: 0x5AB1B10
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE8D5C0
-        public void m_2D5(){} // RVA: 0x7ACE8D750
-        public void m_420(){} // RVA: 0x7ACE8D7C0
-        public void m_D22(){} // RVA: 0x7ACE8D830
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AADAC0
+        public void m_BBA(){} // RVA: 0x5AADC50
+        public void m_975(){} // RVA: 0x5AADCC0
+        public void m_658(){} // RVA: 0x5AADD30
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACEA72E0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACEA79F0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B2ED00
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B2F3C0
+        public void .cctor(){} // RVA: 0x5B2F9D0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACEA5500
-        public void m_2D5(){} // RVA: 0x7ACEA56B0
-        public void m_420(){} // RVA: 0x7ACEA5730
-        public void m_D22(){} // RVA: 0x7ACEA57A0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B2BAD0
+        public void m_BBA(){} // RVA: 0x5B2BC20
+        public void m_975(){} // RVA: 0x5B2BC60
+        public void m_658(){} // RVA: 0x5B2BCB0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE7D1D0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE7D8E0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AA09E0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AA10A0
+        public void .cctor(){} // RVA: 0x5AA16B0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE7B620
-        public void m_2D5(){} // RVA: 0x7ACE7B770
-        public void m_420(){} // RVA: 0x7ACE7B7B0
-        public void m_D22(){} // RVA: 0x7ACE7B800
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5A9D7C0
+        public void m_BBA(){} // RVA: 0x5A9D920
+        public void m_975(){} // RVA: 0x5A9D980
+        public void m_658(){} // RVA: 0x5A9D9E0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE87650
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE87D60
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B0A6B0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B0AD70
+        public void .cctor(){} // RVA: 0x5B0B380
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE85890
-        public void m_2D5(){} // RVA: 0x7ACE85A20
-        public void m_420(){} // RVA: 0x7ACE85A90
-        public void m_D22(){} // RVA: 0x7ACE85B00
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B075A0
+        public void m_BBA(){} // RVA: 0x5B076F0
+        public void m_975(){} // RVA: 0x5B07730
+        public void m_658(){} // RVA: 0x5B07780
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE4BA90
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE4C1A0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B067A0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B06E60
+        public void .cctor(){} // RVA: 0x5B07470
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE49930
-        public void m_2D5(){} // RVA: 0x7ACE49B40
-        public void m_420(){} // RVA: 0x7ACE49BE0
-        public void m_D22(){} // RVA: 0x7ACE49C80
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B02BE0
+        public void m_BBA(){} // RVA: 0x5B02E40
+        public void m_975(){} // RVA: 0x5B02F20
+        public void m_658(){} // RVA: 0x5B02FF0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE609B0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE610C0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B01DE0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B024A0
+        public void .cctor(){} // RVA: 0x5B02AB0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE5ECE0
-        public void m_2D5(){} // RVA: 0x7ACE5EE40
-        public void m_420(){} // RVA: 0x7ACE5EEA0
-        public void m_D22(){} // RVA: 0x7ACE5EF00
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AFECD0
+        public void m_BBA(){} // RVA: 0x5AFEE20
+        public void m_975(){} // RVA: 0x5AFEE60
+        public void m_658(){} // RVA: 0x5AFEEB0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE48CA0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE493B0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AFDED0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AFE590
+        public void .cctor(){} // RVA: 0x5AFEBA0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE470C0
-        public void m_2D5(){} // RVA: 0x7ACE47220
-        public void m_420(){} // RVA: 0x7ACE47280
-        public void m_D22(){} // RVA: 0x7ACE472E0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AFABA0
+        public void m_BBA(){} // RVA: 0x5AFAD30
+        public void m_975(){} // RVA: 0x5AFADA0
+        public void m_658(){} // RVA: 0x5AFAE10
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACEA1EB0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACEA25C0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B93380
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B93A40
+        public void .cctor(){} // RVA: 0x5B94050
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACEA0180
-        public void m_2D5(){} // RVA: 0x7ACEA0310
-        public void m_420(){} // RVA: 0x7ACEA0380
-        public void m_D22(){} // RVA: 0x7ACEA03F0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B8FD30
+        public void m_BBA(){} // RVA: 0x5B8FF40
+        public void m_975(){} // RVA: 0x5B8FFE0
+        public void m_658(){} // RVA: 0x5B90080
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE8C930
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE8D040
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B86AF0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B871B0
+        public void .cctor(){} // RVA: 0x5B877C0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE8AC00
-        public void m_2D5(){} // RVA: 0x7ACE8AD90
-        public void m_420(){} // RVA: 0x7ACE8AE00
-        public void m_D22(){} // RVA: 0x7ACE8AE70
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B837E0
+        public void m_BBA(){} // RVA: 0x5B83940
+        public void m_975(){} // RVA: 0x5B839A0
+        public void m_658(){} // RVA: 0x5B83A00
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE46430
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE46B40
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AC0F00
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AC15C0
+        public void .cctor(){} // RVA: 0x5AC1BD0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE441F0
-        public void m_2D5(){} // RVA: 0x7ACE44420
-        public void m_420(){} // RVA: 0x7ACE444D0
-        public void m_D22(){} // RVA: 0x7ACE44580
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5ABDD30
+        public void m_BBA(){} // RVA: 0x5ABDE90
+        public void m_975(){} // RVA: 0x5ABDEF0
+        public void m_658(){} // RVA: 0x5ABDF50
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE6DD50
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE6E460
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B26DC0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B27480
+        public void .cctor(){} // RVA: 0x5B27A90
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE6C060
-        public void m_2D5(){} // RVA: 0x7ACE6C1D0
-        public void m_420(){} // RVA: 0x7ACE6C240
-        public void m_D22(){} // RVA: 0x7ACE6C2A0
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B23940
+        public void m_BBA(){} // RVA: 0x5B23AC0
+        public void m_975(){} // RVA: 0x5B23B30
+        public void m_658(){} // RVA: 0x5B23BA0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE707C0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE70ED0
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5A9C9C0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5A9D080
+        public void .cctor(){} // RVA: 0x5A9D690
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE6E9E0
-        public void m_2D5(){} // RVA: 0x7ACE6EB90
-        public void m_420(){} // RVA: 0x7ACE6EC10
-        public void m_D22(){} // RVA: 0x7ACE6EC80
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5A99620
+        public void m_BBA(){} // RVA: 0x5A997B0
+        public void m_975(){} // RVA: 0x5A99820
+        public void m_658(){} // RVA: 0x5A99890
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE89F70
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE8A680
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5ABCF30
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5ABD5F0
+        public void .cctor(){} // RVA: 0x5ABDC00
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE882E0
-        public void m_2D5(){} // RVA: 0x7ACE88450
-        public void m_420(){} // RVA: 0x7ACE884C0
-        public void m_D22(){} // RVA: 0x7ACE88520
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AB9C00
+        public void m_BBA(){} // RVA: 0x5AB9D90
+        public void m_975(){} // RVA: 0x5AB9E00
+        public void m_658(){} // RVA: 0x5AB9E70
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7ACE40250
-        public void OnDisable(){} // RVA: 0x7ACE402A0
-        public void OnDestroy(){} // RVA: 0x7ACE72EF0
-        public void Start(){} // RVA: 0x7ACE3DE00
-        public void IsActive(){} // RVA: 0x7ACE3DE20
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
-        public void .ctor(){} // RVA: 0x7ACE73600
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B4C410
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B4CAD0
+        public void .cctor(){} // RVA: 0x5B4D0E0
         // ── 35 unresolved (hash) ──
-        public void m_0F6(){} // RVA: 0x7ACE3B2B0
-        public void m_FEC(){} // RVA: 0x7ACE71450
-        public void m_2D5(){} // RVA: 0x7ACE715A0
-        public void m_420(){} // RVA: 0x7ACE715E0
-        public void m_D22(){} // RVA: 0x7ACE71630
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B49180
+        public void m_BBA(){} // RVA: 0x5B492F0
+        public void m_975(){} // RVA: 0x5B49360
+        public void m_658(){} // RVA: 0x5B493C0
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÍÎÌÏÍÏÌÍÌÎÌÌÏÌÏÎÍÏÏÏÎÍ</summary>
-    public class UIScrollHandler_FF63 : MonoBehaviour
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7B0DFABF0
-        public void RaiseCancellation(){} // RVA: 0x7B0DFB270
-        public void IsInvoking(){} // RVA: 0x7B0DFB3C0
-        public void CancelInvoke(){} // RVA: 0x7B0DFB780
-        public void Invoke(){} // RVA: 0x7B0DFB8B0
-        public void InvokeRepeating(){} // RVA: 0x7B0DFBD70
-        public void StartCoroutine(){} // RVA: 0x7B0DFBEA0
-        public void StartCoroutine_Auto(){} // RVA: 0x7B0DFBEF0
-        public void StopCoroutine(){} // RVA: 0x7B0DFBFA0
-        public void StopAllCoroutines(){} // RVA: 0x7B0DFC000
-        public void OnScroll(){} // RVA: 0x7B0DFC120
-        public void set_useGUILayout(){} // RVA: 0x7B0DFC210
-        public void print(){} // RVA: 0x7AED9C8A0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7B0E04B10
-        public void Internal_IsInvokingAll(){} // RVA: 0x7B0DFC4F0
-        public void InvokeDelayed(){} // RVA: 0x7B0DFCD50
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7B0DFD340
-        public void StartCoroutineManaged(){} // RVA: 0x7B0DFD6D0
-        public void StartCoroutineManaged2(){} // RVA: 0x7B0DFD6F0
-        public void StopCoroutineManaged(){} // RVA: 0x7B0DFD760
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7B0DFDD10
-        public void GetScriptClassName(){} // RVA: 0x7B0DFDE00
-        public void OnCancellationTokenCreated(){} // RVA: 0x7B0DFE020
-        public void .cctor(){} // RVA: 0x7B0DFEEF0
-        public void Awake(){} // RVA: 0x7B0E00580
-        public void OnDestroy(){} // RVA: 0x7B0E00B80
-        public void Start(){} // RVA: 0x7B0E00EA0
-        public void FixedUpdate(){} // RVA: 0x7B0E00EB0
-        public void Update(){} // RVA: 0x7B0E01120
-        public void OnDisable(){} // RVA: 0x7B0E01400
-        public void OnApplicationPause(){} // RVA: 0x7B0E01700
-        public void OnApplicationQuit(){} // RVA: 0x7B0E01800
-        public void OnBecameVisible(){} // RVA: 0x7B0E01D40
-        public void OnBecameInvisible(){} // RVA: 0x7B0E01EA0
-        public void OnCollisionEnter(){} // RVA: 0x7B0E01FD0
-        public void OnCollisionStay(){} // RVA: 0x7B0E026F0
-        public void OnCollisionExit(){} // RVA: 0x7A81F6590
-        public void OnTriggerEnter(){} // RVA: 0x7B0E027E0
-        public void OnTriggerStay(){} // RVA: 0x7B0E027F0
-        public void OnTriggerExit(){} // RVA: 0x7B0E02800
-        public void OnEnable(){} // RVA: 0x7B0E06240
-        public void LateUpdate(){} // RVA: 0x7B0E06630
-        public void .ctor(){} // RVA: 0x7B0E09370
-        public void Initialize(){} // RVA: 0x7B0E096C0
-        // ── 53 unresolved (hash) ──
-        public void m_A13(){} // RVA: 0x7B0DFE050
-        public void m_421(){} // RVA: 0x7B0DFE680
-        public void m_A96(){} // RVA: 0x7B0DFE780
-        public void m_DD2(){} // RVA: 0x7B0DFE890
-        public void m_05C(){} // RVA: 0x7B0DFED20
-        // ... 48 more unresolved methods
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B9BA20
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B9C0E0
+        public void .cctor(){} // RVA: 0x5B9C6F0
+        // ── 35 unresolved (hash) ──
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B98210
+        public void m_BBA(){} // RVA: 0x5B98440
+        public void m_975(){} // RVA: 0x5B984F0
+        public void m_658(){} // RVA: 0x5B985A0
+        // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÎÍÍÍÏÌÌÌÎÍÍÏÎÍÏÌÍÏÌÎÍÌ</summary>
-    public class UISensitivitySliderChangeComponent_3045 : MonoBehaviour
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : PointerEnterPointerClick_8B17
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7A9600CA0
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void SensitivitySliderChange(){} // RVA: 0x7A9600D60
-        public void CancelInvoke(){} // RVA: 0x7A9600E20
-        public void Invoke(){} // RVA: 0x7A9600EE0
-        public void InvokeRepeating(){} // RVA: 0x7A9600FA0
-        public void StartCoroutine(){} // RVA: 0x7A9601060
-        public void StartCoroutine_Auto(){} // RVA: 0x7A9601120
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5B3BB00
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5B3C1C0
+        public void .cctor(){} // RVA: 0x5B3C7D0
+        // ── 35 unresolved (hash) ──
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5B385E0
+        public void m_BBA(){} // RVA: 0x5B387C0
+        public void m_975(){} // RVA: 0x5B38850
+        public void m_658(){} // RVA: 0x5B388E0
+        // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÌÍÎÏÌÏÌÎÌÎÌÍÏÎÎÎÍÎÏÏÎÏ</summary>
-    public class UIShowScreenButtonHiImpl_DD4D : UIShowScreenButtonHideScreenComponent_4509
+    /// <summary>Originally: ÎÍÏÌÎÏÏÌÍÍÌÎÎÍÎÍÏÏÏÍÏÌÍ</summary>
+    public class UIShowScreenButtonHiImpl_7101 : UIShowScreenButtonHideScreenComponent_F3EE
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A9619CA0
+        public void .ctor(){} // RVA: 0x2149BF0
     }
 
-    /// <summary>Originally: ÏÏÎÏÎÎÎÎÏÏÎÎÌÏÍÌÎÏÎÏÎÍÌ</summary>
-    public class UIShowScreenButtonHideScreenComponent_4509 : MonoBehaviour
+    /// <summary>Originally: ÌÍÍÌÍÏÎÍÍÏÍÍÏÏÏÌÏÌÍÎÎÎÌ</summary>
+    public class UIShowScreenButtonHideScreenComponent_F3EE : MonoBehaviour
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A9665B90
-        public void Start(){} // RVA: 0x7A965D690
-        public void IsInvoking(){} // RVA: 0x7A965D730
-        public void LateUpdate(){} // RVA: 0x7A965D840
-        public void Invoke(){} // RVA: 0x7A965DD60
-        public void InvokeRepeating(){} // RVA: 0x7A965DE80
-        public void StartCoroutine(){} // RVA: 0x7A965DEE0
-        public void StartCoroutine_Auto(){} // RVA: 0x7A81A0050
-        public void StopCoroutine(){} // RVA: 0x7A965E000
-        public void HideScreen(){} // RVA: 0x7A965E080
-        public void Update(){} // RVA: 0x7A965E1F0
-        public void set_useGUILayout(){} // RVA: 0x7A90226D0
-        public void print(){} // RVA: 0x7A87C5850
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A965F0D0
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A965F170
-        public void InvokeDelayed(){} // RVA: 0x7A87446C0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A965F1B0
-        public void StartCoroutineManaged(){} // RVA: 0x7A965F220
-        public void StartCoroutineManaged2(){} // RVA: 0x7A965F5E0
-        public void StopCoroutineManaged(){} // RVA: 0x7A965F620
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A9660F40
-        public void GetScriptClassName(){} // RVA: 0x7A96611A0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A96611E0
-        public void OnTriggerExit(){} // RVA: 0x7A96611F0
-        public void OnPointerEnter(){} // RVA: 0x7A9661310
-        public void OnPointerExit(){} // RVA: 0x7A9661650
-        public void OnPointerDown(){} // RVA: 0x7A9661690
-        public void OnPointerUp(){} // RVA: 0x7A96617D0
-        public void OnPointerClick(){} // RVA: 0x7A9661810
-        public void OnSelect(){} // RVA: 0x7A9661880
-        public void OnEnable(){} // RVA: 0x7A9661940
-        public void OnDeselect(){} // RVA: 0x7A90226D0
-        public void FixedUpdate(){} // RVA: 0x7A96619A0
-        public void Awake(){} // RVA: 0x7A9661EA0
-        public void OnSubmit(){} // RVA: 0x7A9662110
-        public void OnDisable(){} // RVA: 0x7A9663A40
-        public void OnDestroy(){} // RVA: 0x7A9663AC0
-        public void OnApplicationPause(){} // RVA: 0x7A9663E10
-        public void OnApplicationQuit(){} // RVA: 0x7A9664D00
-        public void OnBecameVisible(){} // RVA: 0x7A9021760
-        public void OnBecameInvisible(){} // RVA: 0x7A9664F10
-        public void OnCollisionEnter(){} // RVA: 0x7A81A0060
-        public void OnCollisionStay(){} // RVA: 0x7A9665030
-        public void OnCollisionExit(){} // RVA: 0x7A9665450
-        public void OnTriggerEnter(){} // RVA: 0x7A96654D0
-        public void ShowScreenButton(){} // RVA: 0x7A9665580
-        public void OnCancel(){} // RVA: 0x7A96655B0
-        public void OnMove(){} // RVA: 0x7A96655C0
-        public void OnScroll(){} // RVA: 0x7A9665860
-        public void .ctor(){} // RVA: 0x7A9665870
-        public void Initialize(){} // RVA: 0x7A9665D80
-        public void OnValueChanged(){} // RVA: 0x7A9021760
-        public void OnEndEdit(){} // RVA: 0x7A9665DA0
-        // ── Unresolved (hash) ──
-        public void m_E44(){} // RVA: 0x7A96655B0
-        public void m_99F(){} // RVA: 0x7A9665DF0
-        public void m_063(){} // RVA: 0x7A9665F00
-        public void m_4F5(){} // RVA: 0x7A9666020
-        public void m_59F(){} // RVA: 0x7A96660E0
-        public void m_FFF(){} // RVA: 0x7A841D680
+        public void get_destroyCancellationToken(){} // RVA: 0x21655B0
+        public void RaiseCancellation(){} // RVA: 0x21655D0
+        public void IsInvoking(){} // RVA: 0x21656F0
+        public void CancelInvoke(){} // RVA: 0x2165700
+        public void Invoke(){} // RVA: 0x2165780
+        public void InvokeRepeating(){} // RVA: 0x1C11610
+        public void StartCoroutine(){} // RVA: 0x21659E0
+        public void StartCoroutine_Auto(){} // RVA: 0x2165B00
+        public void StopCoroutine(){} // RVA: 0x1C10980
+        public void StopAllCoroutines(){} // RVA: 0x2165C20
+        public void get_useGUILayout(){} // RVA: 0x2165C40
+        public void Awake(){} // RVA: 0x2165CC0
+        public void get_didStart(){} // RVA: 0x1C11610
+        public void get_didAwake(){} // RVA: 0x2165F60
+        public void print(){} // RVA: 0xC0FFC0
+        public void LateUpdate(){} // RVA: 0x2166020
+        public void Internal_IsInvokingAll(){} // RVA: 0xF128C0
+        public void OnDestroy(){} // RVA: 0x2166510
+        public void IsObjectMonoBehaviour(){} // RVA: 0x2166860
+        public void StartCoroutineManaged(){} // RVA: 0x2166B00
+        public void StartCoroutineManaged2(){} // RVA: 0x2166C10
+        public void StopCoroutineManaged(){} // RVA: 0x2166F10
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0xD5CCD0
+        public void GetScriptClassName(){} // RVA: 0xC0FFD0
+        public void OnCancellationTokenCreated(){} // RVA: 0x1C10980
+        public void OnCollisionExit(){} // RVA: 0x2167020
+        public void StopCoroutine_Injected(){} // RVA: 0x21671A0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x2167250
+        public void Update(){} // RVA: 0x2168B80
+        public void set_useGUILayout_Injected(){} // RVA: 0x2169A20
+        public void HideScreen(){} // RVA: 0x2169A60
+        public void get_didAwake_Injected(){} // RVA: 0x2169BD0
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x2169F90
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x216A000
+        public void Start(){} // RVA: 0x216A040
+        public void CancelInvoke_Injected(){} // RVA: 0x216A0E0
+        public void IsInvoking_Injected(){} // RVA: 0xD5CCD0
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x216A110
+        public void ShowScreenButton(){} // RVA: 0x216A0E0
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x216A170
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x216A2B0
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x216A2C0
+        public void GetScriptClassName_Injected(){} // RVA: 0x216A6D0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x216B630
+        public void OnCollisionEnter(){} // RVA: 0x216AA90
+        public void OnCollisionStay(){} // RVA: 0x216AB00
+        public void OnPointerEnter(){} // RVA: 0xC0FFD0
+        public void OnTriggerEnter(){} // RVA: 0x106A050
+        public void OnTriggerStay(){} // RVA: 0x216AB10
+        public void OnTriggerExit(){} // RVA: 0x216AFA0
+        public void OnPointerExit(){} // RVA: 0x216B020
+        public void OnPointerDown(){} // RVA: 0x216B070
+        public void OnPointerUp(){} // RVA: 0x216B110
+        public void OnPointerClick(){} // RVA: 0x216B820
+        public void OnSelect(){} // RVA: 0x216B960
+        public void OnDeselect(){} // RVA: 0x216BA10
+        public void OnSubmit(){} // RVA: 0x216BA50
+        public void OnCancel(){} // RVA: 0x216BA90
+        public void OnMove(){} // RVA: 0x216BAC0
+        public void .ctor(){} // RVA: 0x216BBE0
+        public void Initialize(){} // RVA: 0x216BF00
     }
 
-    /// <summary>Originally: ÎÍÎÎÍÍÏÍÏÍÎÍÌÌÏÎÏÎÎÎÎÍÏ</summary>
-    public class UIShowTabContentComponent_D317 : MonoBehaviour
+    /// <summary>Originally: ÌÍÍÏÏÌÌÍÎÏÌÎÌÏÎÌÎÍÏÏÌÏÌ</summary>
+    public class UIShowTabContentComponent_E464 : MonoBehaviour
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7B0A013F0
-        public void RaiseCancellation(){} // RVA: 0x7B0A06DC0
-        public void IsInvoking(){} // RVA: 0x7B0A01970
-        public void CancelInvoke(){} // RVA: 0x7B0A022C0
-        public void Invoke(){} // RVA: 0x7B0A05E80
-        public void InvokeRepeating(){} // RVA: 0x7B0A062C0
-        public void StartCoroutine(){} // RVA: 0x7B0A026F0
-        public void StartCoroutine_Auto(){} // RVA: 0x7B0A02E90
-        public void StopCoroutine(){} // RVA: 0x7B0A04BC0
-        public void StopAllCoroutines(){} // RVA: 0x7B0A02CE0
-        public void get_useGUILayout(){} // RVA: 0x7B0A02DE0
-        public void set_useGUILayout(){} // RVA: 0x7B0A02F90
-        public void print(){} // RVA: 0x7A8D333A0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A81A0050
-        public void Internal_IsInvokingAll(){} // RVA: 0x7B0A026F0
-        public void InvokeDelayed(){} // RVA: 0x7B0A05CA0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7B0A02FF0
-        public void .ctor(){} // RVA: 0x7B0A032C0
-        public void Initialize(){} // RVA: 0x7B0A03B10
-        public void StopCoroutineManaged(){} // RVA: 0x7B0A03BC0
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7B0A03CD0
-        public void GetScriptClassName(){} // RVA: 0x7B0A03DE0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7B0A04010
-        public void ShowTabContent(){} // RVA: 0x7B0A05C70
-        public void OnEnable(){} // RVA: 0x7B0A063E0
-        public void Start(){} // RVA: 0x7B0A06470
-        public void FixedUpdate(){} // RVA: 0x7B0A064D0
-        public void Update(){} // RVA: 0x7B0A06540
-        public void LateUpdate(){} // RVA: 0x7B0A067E0
-        public void OnDisable(){} // RVA: 0x7B0A068B0
-        public void OnDestroy(){} // RVA: 0x7B0A06970
-        public void OnApplicationPause(){} // RVA: 0x7B0A06B80
-        public void OnApplicationQuit(){} // RVA: 0x7B0A06C00
-        public void OnBecameVisible(){} // RVA: 0x7B0A04B50
-        public void Awake(){} // RVA: 0x7B0A06C10
-        public void OnCollisionEnter(){} // RVA: 0x7B0A06F10
-        public void OnCollisionStay(){} // RVA: 0x7B0A07020
-        public void OnCollisionExit(){} // RVA: 0x7B0A070D0
-        // ── 23 unresolved (hash) ──
-        public void m_6C0(){} // RVA: 0x7A8178B90
-        public void m_D0F(){} // RVA: 0x7A8153390
-        public void m_E2D(){} // RVA: 0x7B0A040B0
-        public void m_F74(){} // RVA: 0x7A843D4E0
-        public void m_665(){} // RVA: 0x7B0A041F0
-        // ... 18 more unresolved methods
+        public void get_destroyCancellationToken(){} // RVA: 0x987D5E0
+        public void RaiseCancellation(){} // RVA: 0x64D1450
+        public void IsInvoking(){} // RVA: 0x987F570
+        public void CancelInvoke(){} // RVA: 0x987AF50
+        public void Invoke(){} // RVA: 0x987B920
+        public void InvokeRepeating(){} // RVA: 0xBBFF90
+        public void StartCoroutine(){} // RVA: 0x987BB30
+        public void StartCoroutine_Auto(){} // RVA: 0x987BE00
+        public void StopCoroutine(){} // RVA: 0x987BE70
+        public void .ctor(){} // RVA: 0x987C0A0
+        public void Initialize(){} // RVA: 0x987C2D0
+        public void set_useGUILayout(){} // RVA: 0x987C3C0
+        public void get_didStart(){} // RVA: 0x987C430
+        public void get_didAwake(){} // RVA: 0xBBFF90
+        public void print(){} // RVA: 0x987C4C0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x987C6F0
+        public void Internal_IsInvokingAll(){} // RVA: 0xC0FFC0
+        public void InvokeDelayed(){} // RVA: 0x987C800
+        public void IsObjectMonoBehaviour(){} // RVA: 0xCA4DF0
+        public void StartCoroutineManaged(){} // RVA: 0x987C9D0
+        public void StartCoroutineManaged2(){} // RVA: 0x987CA80
+        public void StopCoroutineManaged(){} // RVA: 0x987CB00
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x987CB10
+        public void GetScriptClassName(){} // RVA: 0x987CBA0
+        public void OnCancellationTokenCreated(){} // RVA: 0xBBFF90
+        public void Start(){} // RVA: 0x987CCB0
+        public void StopCoroutine_Injected(){} // RVA: 0x987CDC0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x987C3C0
+        public void get_useGUILayout_Injected(){} // RVA: 0x987CE20
+        public void OnDisable(){} // RVA: 0x987D220
+        public void get_didStart_Injected(){} // RVA: 0x106A7D0
+        public void Awake(){} // RVA: 0x987D2D0
+        public void OnDestroy(){} // RVA: 0x987D480
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x987D4B0
+        public void InvokeDelayed_Injected(){} // RVA: 0x987D700
+        public void CancelInvoke_Injected(){} // RVA: 0x987D880
+        public void IsInvoking_Injected(){} // RVA: 0x987D990
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x9880600
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x987DBC0
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x987DF20
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x987F6E0
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x987EA00
+        public void GetScriptClassName_Injected(){} // RVA: 0x987ECA0
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x181C510
+        public void OnCollisionStay(){} // RVA: 0x987F310
+        public void OnCollisionExit(){} // RVA: 0x987F400
+        public void OnTriggerEnter(){} // RVA: 0x9880E30
+        public void OnTriggerStay(){} // RVA: 0x987F560
+        public void OnTriggerExit(){} // RVA: 0x9880AF0
+        public void ShowTabContent(){} // RVA: 0x9880750
+        // ── 16 unresolved (hash) ──
+        public void m_F83(){} // RVA: 0x987BE00
+        public void m_EF9(){} // RVA: 0x987F620
+        public void m_F43(){} // RVA: 0x987F6D0
+        public void m_931(){} // RVA: 0x1037E20
+        public void m_6EF(){} // RVA: 0x987FA30
+        // ... 11 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÌÏÌÎÎÌÏÏÌÍÎÏÌÌÍÍÏÍÏÌÏÎ</summary>
-    public class UISubscribeToVariableTryGetVariable_2B8A : Object
+    /// <summary>Originally: ÌÏÍÎÌÌÏÍÌÍÏÌÏÏÌÏÏÏÎÏÌÍÎ</summary>
+    public class UIToggleExtendComponentSibling_C2E1 : UIToggleExtendComponent_3091
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7AA0C4F80
-        public void SubscribeToVariable(){} // RVA: 0x7AA0C2FE0
-        public void TryGetVariable(){} // RVA: 0x7AA0C3BA0
-        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void OnPointerEnter(){} // RVA: 0x21206A0
+        public void OnPointerExit(){} // RVA: 0x21206E0
+        public void OnPointerDown(){} // RVA: 0x2120950
+        public void OnPointerUp(){} // RVA: 0xBAE970
+        public void OnPointerClick(){} // RVA: 0x2120BC0
+        public void OnSelect(){} // RVA: 0x2120F10
+        public void OnDeselect(){} // RVA: 0x2121260
+        public void Awake(){} // RVA: 0x2121340
+        public void OnDestroy(){} // RVA: 0x2121350
+        public void OnSubmit(){} // RVA: 0x21214E0
+        public void FixedUpdate(){} // RVA: 0x21215F0
+        public void Update(){} // RVA: 0x2121870
+        public void LateUpdate(){} // RVA: 0x21218B0
+        public void OnDisable(){} // RVA: 0x164A230
+        public void OnCancel(){} // RVA: 0x2121A40
+        public void OnApplicationPause(){} // RVA: 0x2121AB0
+        public void OnEnable(){} // RVA: 0x2121F60
+        public void OnBecameVisible(){} // RVA: 0x2122060
+        public void OnBecameInvisible(){} // RVA: 0x2122220
+        public void .ctor(){} // RVA: 0x21223A0
+        public void Initialize(){} // RVA: 0xBAE970
+        public void OnCollisionExit(){} // RVA: 0x2122490
+        public void OnTriggerEnter(){} // RVA: 0x2122940
+        public void OnTriggerStay(){} // RVA: 0x2122A20
+        public void OnTriggerExit(){} // RVA: 0x2122D70
+        public void Start(){} // RVA: 0x21235E0
     }
 
-    /// <summary>Originally: ÍÍÏÌÍÌÏÏÎÍÎÏÏÎÌÌÎÍÎÍÍÍÎ</summary>
-    public class UISubscribeToVariableTryGetVariable_83B5 : Object
+    /// <summary>Originally: ÏÎÏÌÌÏÏÌÌÍÍÍÎÌÎÍÏÎÍÍÏÎÎ</summary>
+    public class UIToggleExtendComponent_3091 : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void TryGetVariable(){} // RVA: 0x7A7E01A40
-        public void SubscribeToVariable(){} // RVA: 0x7A7E12480
+        public void get_destroyCancellationToken(){} // RVA: 0x19C6270
+        public void RaiseCancellation(){} // RVA: 0x213D1A0
+        public void Awake(){} // RVA: 0x213D1D0
+        public void OnEnable(){} // RVA: 0x213D710
+        public void Invoke(){} // RVA: 0x213D7F0
+        public void InvokeRepeating(){} // RVA: 0x213D8F0
+        public void StartCoroutine(){} // RVA: 0x213D990
+        public void StartCoroutine_Auto(){} // RVA: 0x213DC60
+        public void OnDisable(){} // RVA: 0x213DC80
+        public void StopAllCoroutines(){} // RVA: 0x213DD00
+        public void get_useGUILayout(){} // RVA: 0x213DDC0
+        public void set_useGUILayout(){} // RVA: 0x213DE80
+        public void get_didStart(){} // RVA: 0x213E280
+        public void get_didAwake(){} // RVA: 0x213E4A0
+        public void print(){} // RVA: 0x213EB30
+        public void Internal_CancelInvokeAll(){} // RVA: 0x213EBD0
+        public void Internal_IsInvokingAll(){} // RVA: 0x213EC00
+        public void InvokeDelayed(){} // RVA: 0x8944F0
+        public void IsObjectMonoBehaviour(){} // RVA: 0xA94080
+        public void StartCoroutineManaged(){} // RVA: 0x213EC30
+        public void StartCoroutineManaged2(){} // RVA: 0x213ED90
+        public void StopCoroutineManaged(){} // RVA: 0x213F300
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x87D350
+        public void GetScriptClassName(){} // RVA: 0x8943B0
+        public void OnCancellationTokenCreated(){} // RVA: 0x213F320
+        public void OnPointerEnter(){} // RVA: 0x213F550
+        public void StopCoroutine_Injected(){} // RVA: 0x213F5C0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x213F750
+        public void ToggleExtend(){} // RVA: 0x213F920
+        public void set_useGUILayout_Injected(){} // RVA: 0x213F9A0
+        public void get_didStart_Injected(){} // RVA: 0x213FC70
+        public void get_didAwake_Injected(){} // RVA: 0x213FFD0
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0x21401F0
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x2140380
+        public void InvokeDelayed_Injected(){} // RVA: 0x21404D0
+        public void .ctor(){} // RVA: 0x2140860
+        public void .cctor(){} // RVA: 0x2140A90
     }
 
-    /// <summary>Originally: ÏÌÍÍÏÌÌÎÏÍÌÎÌÎÎÎÌÏÌÏÏÍÏ</summary>
-    public class UIToggleExtendComponentSibling_DC02 : UIToggleExtendComponent_3FB7
+    /// <summary>Originally: ÏÍÎÎÏÏÎÌÎÌÏÍÌÌÏÏÎÍÎÏÌÍÌ</summary>
+    public class UIUpdateEnumLabelUpdateLabel_D818 : MonoBehaviour
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7A95F3240
-        public void OnDisable(){} // RVA: 0x7A95F3370
-        public void Start(){} // RVA: 0x7A95F35F0
-        public void Update(){} // RVA: 0x7A95F37B0
-        public void LateUpdate(){} // RVA: 0x7A8142C40
-        public void OnPointerEnter(){} // RVA: 0x7A95F3C70
-        public void OnDestroy(){} // RVA: 0x7A8142C40
-        public void OnApplicationPause(){} // RVA: 0x7A95F44E0
-        public void OnApplicationQuit(){} // RVA: 0x7A95F4660
-        public void OnBecameVisible(){} // RVA: 0x7A95F47F0
-        public void .ctor(){} // RVA: 0x7A95F4830
-        public void Initialize(){} // RVA: 0x7A95F4920
-        public void OnCollisionStay(){} // RVA: 0x7A95F4C70
-        public void OnCollisionExit(){} // RVA: 0x7A95F4CE0
-        public void OnTriggerEnter(){} // RVA: 0x7A8142C40
-        public void OnTriggerStay(){} // RVA: 0x7A95F4DF0
-        public void OnTriggerExit(){} // RVA: 0x7A95F4F80
-        public void Awake(){} // RVA: 0x7A95F4FC0
-        public void OnPointerExit(){} // RVA: 0x7A95F4FD0
-        public void OnPointerDown(){} // RVA: 0x7A95F50B0
-        public void FixedUpdate(){} // RVA: 0x7A95F5320
-        public void OnPointerUp(){} // RVA: 0x7A95F55A0
-        public void OnPointerClick(){} // RVA: 0x7A95F5730
-        public void OnSelect(){} // RVA: 0x7A8B52120
-    }
-
-    /// <summary>Originally: ÎÎÎÏÎÌÎÎÍÎÌÍÏÏÌÎÍÌÎÎÍÍÎ</summary>
-    public class UIToggleExtendComponent_3FB7 : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A8EA8210
-        public void RaiseCancellation(){} // RVA: 0x7A960C1C0
-        public void Awake(){} // RVA: 0x7A960C1F0
-        public void OnEnable(){} // RVA: 0x7A960C820
-        public void Invoke(){} // RVA: 0x7A960C930
-        public void InvokeRepeating(){} // RVA: 0x7A960CA60
-        public void StartCoroutine(){} // RVA: 0x7A960CB00
-        public void StartCoroutine_Auto(){} // RVA: 0x7A960CE90
-        public void OnDisable(){} // RVA: 0x7A960CEB0
-        public void StopAllCoroutines(){} // RVA: 0x7A960CF30
-        public void get_useGUILayout(){} // RVA: 0x7A960CFF0
-        public void set_useGUILayout(){} // RVA: 0x7A960D0B0
-        public void print(){} // RVA: 0x7A960D4B0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7A960D6D0
-        public void Internal_IsInvokingAll(){} // RVA: 0x7A960DE00
-        public void InvokeDelayed(){} // RVA: 0x7A960DEA0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x7A960DED0
-        public void StartCoroutineManaged(){} // RVA: 0x7A7E189D0
-        public void StartCoroutineManaged2(){} // RVA: 0x7A8051B10
-        public void StopCoroutineManaged(){} // RVA: 0x7A960DF00
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A960E120
-        public void GetScriptClassName(){} // RVA: 0x7A960E6E0
-        public void OnCancellationTokenCreated(){} // RVA: 0x7A7E019D0
-        public void OnPointerEnter(){} // RVA: 0x7A7E18890
-        public void OnPointerExit(){} // RVA: 0x7A960E700
-        public void OnPointerDown(){} // RVA: 0x7A960E930
-        public void OnPointerUp(){} // RVA: 0x7A960E9A0
-        public void OnPointerClick(){} // RVA: 0x7A960EB60
-        public void ToggleExtend(){} // RVA: 0x7A960ED30
-        public void OnSelect(){} // RVA: 0x7A960EDB0
-        public void OnDeselect(){} // RVA: 0x7A960F080
-        public void OnSubmit(){} // RVA: 0x7A960F3E0
-        public void OnCancel(){} // RVA: 0x7A960F600
-        public void OnMove(){} // RVA: 0x7A960F790
-        public void OnScroll(){} // RVA: 0x7A960F8E0
-        public void .ctor(){} // RVA: 0x7A960FC70
-        public void .cctor(){} // RVA: 0x7A960FEA0
-    }
-
-    /// <summary>Originally: ÏÎÌÏÏÎÍÌÏÌÏÌÌÏÍÏÌÌÎÏÍÎÍ</summary>
-    public class UIUpdateEnumLabelUpdateLabel_6A3D : MonoBehaviour
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7A95E0300
-        public void RaiseCancellation(){} // RVA: 0x7A95E0460
-        public void IsInvoking(){} // RVA: 0x7A95E05C0
-        public void UpdateLabel(){} // RVA: 0x7A95E07E0
-        public void Invoke(){} // RVA: 0x7A95E0A00
-        public void InvokeRepeating(){} // RVA: 0x7A95E0C20
-        public void StartCoroutine(){} // RVA: 0x7A95E0E40
-        public void .ctor(){} // RVA: 0x7A80D7D60
-        public void UpdateEnumLabel(){} // RVA: 0x7A95E1060
+        public void get_destroyCancellationToken(){} // RVA: 0x2111A60
+        public void RaiseCancellation(){} // RVA: 0x2111C80
+        public void IsInvoking(){} // RVA: 0x2111EA0
+        public void CancelInvoke(){} // RVA: 0x21120C0
+        public void Invoke(){} // RVA: 0x21122E0
+        public void UpdateLabel(){} // RVA: 0x2112440
+        public void StartCoroutine(){} // RVA: 0x2112660
+        public void StartCoroutine_Auto(){} // RVA: 0x2112880
+        public void UpdateEnumLabel(){} // RVA: 0x21129E0
+        public void StopAllCoroutines(){} // RVA: 0x2112B40
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
 }

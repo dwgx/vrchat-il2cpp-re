@@ -8,33 +8,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class MemoryHelpers : Object
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AEBBFA90
-        public void ComputeFollowingByteOffset(){} // RVA: 0x7AEBBFB10
-        public void WriteSingleBit(){} // RVA: 0x7AEBBFB30
-        public void ReadSingleBit(){} // RVA: 0x7AEBBFB60
-        public void MemCpyBitRegion(){} // RVA: 0x7AEBBFB90
-        public void MemCmpBitRegion(){} // RVA: 0x7AEBBFC90
-        public void MemSet(){} // RVA: 0x7AEBBFE10
-        public void MemCpyMasked(){} // RVA: 0x7AEBBFEE0
-        public void ReadMultipleBitsAsUInt(){} // RVA: 0x7AEBBFFF0
-        public void WriteUIntAsMultipleBits(){} // RVA: 0x7AEBC01C0
-        public void ReadTwosComplementMultipleBitsAsInt(){} // RVA: 0x7AEBC03C0
-        public void WriteIntAsTwosComplementMultipleBits(){} // RVA: 0x7AEBC03D0
-        public void ReadExcessKMultipleBitsAsInt(){} // RVA: 0x7AEBC03E0
-        public void WriteIntAsExcessKMultipleBits(){} // RVA: 0x7AEBC0410
-        public void ReadMultipleBitsAsNormalizedUInt(){} // RVA: 0x7AEBC0440
-        public void WriteNormalizedUIntAsMultipleBits(){} // RVA: 0x7AEBC04B0
-        public void SetBitsInBuffer(){} // RVA: 0x7AEBC0520
-        public void Swap(){} // RVA: 0x7A7E18AA0
-        public void AlignNatural(){} // RVA: 0x7AEBC07B0
+        public void Compare(){} // RVA: 0x782F130
+        public void ComputeFollowingByteOffset(){} // RVA: 0x782F1B0
+        public void WriteSingleBit(){} // RVA: 0x782F1D0
+        public void ReadSingleBit(){} // RVA: 0x782F200
+        public void MemCpyBitRegion(){} // RVA: 0x782F230
+        public void MemCmpBitRegion(){} // RVA: 0x782F330
+        public void MemSet(){} // RVA: 0x782F4B0
+        public void MemCpyMasked(){} // RVA: 0x782F580
+        public void ReadMultipleBitsAsUInt(){} // RVA: 0x782F690
+        public void WriteUIntAsMultipleBits(){} // RVA: 0x782F860
+        public void ReadTwosComplementMultipleBitsAsInt(){} // RVA: 0x782FA60
+        public void WriteIntAsTwosComplementMultipleBits(){} // RVA: 0x782FA70
+        public void ReadExcessKMultipleBitsAsInt(){} // RVA: 0x782FA80
+        public void WriteIntAsExcessKMultipleBits(){} // RVA: 0x782FAB0
+        public void ReadMultipleBitsAsNormalizedUInt(){} // RVA: 0x782FAE0
+        public void WriteNormalizedUIntAsMultipleBits(){} // RVA: 0x782FB50
+        public void SetBitsInBuffer(){} // RVA: 0x782FBC0
+        public void Swap(){} // RVA: 0x3161630
+        public void AlignNatural(){} // RVA: 0x782FE50
     }
 
     public class MiscHelpers : Object
     {
         // ── Methods ──
-        public void GetValueOrDefault(){} // RVA: 0x7A8051B10
-        public void EveryNth(){} // RVA: 0x7A7E11C10
-        public void IndexOf(){} // RVA: 0x7A8051B10
+        public void GetValueOrDefault(){} // RVA: 0xA94080
+        public void EveryNth(){} // RVA: 0x88D6A0
+        public void IndexOf(){} // RVA: 0xA94080
     }
 
 }

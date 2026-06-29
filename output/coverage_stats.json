@@ -1,18 +1,18 @@
 {
   "build": "2026-06-05",
   "classes": {
-    "total": 61810,
-    "obfuscated": 9801,
-    "semantic": 6079,
-    "fallback": 3722,
-    "semantic_pct": 62.0
+    "total": 65042,
+    "obfuscated": 9942,
+    "semantic": 5993,
+    "fallback": 3949,
+    "semantic_pct": 60.3
   },
   "methods": {
-    "total": 542658,
-    "semantic": 503163,
-    "hash_fallback": 39495,
+    "total": 571678,
+    "semantic": 535153,
+    "hash_fallback": 36525,
     "obfuscated": 0,
-    "semantic_pct": 92.7
+    "semantic_pct": 93.6
   },
   "fields": {
     "total": 0,

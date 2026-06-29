@@ -8,10 +8,10 @@ namespace VRC.Core.Pool
     public class ArrayPool : Object
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7AA390F70
-        public void Contains(){} // RVA: 0x7A7E01A10
-        public void Release(){} // RVA: 0x7AA3917F0
-        public void Exchange(){} // RVA: 0x7AA390AF0
+        public void Get(){} // RVA: 0x2F7C770
+        public void Contains(){} // RVA: 0x87D390
+        public void Release(){} // RVA: 0x2F7D090
+        public void Exchange(){} // RVA: 0x2F7C2F0
     }
 
 }

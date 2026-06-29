@@ -1,539 +1,541 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 54
-// Methods: 261
+// Methods: 263
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7A8051B10
-        public void Equals(){} // RVA: 0x7A7E019D0
-        public void GetHashCode(){} // RVA: 0x7A7E00710
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Compare(){} // RVA: 0xA94080
+        public void Equals(){} // RVA: 0x87D350
+        public void GetHashCode(){} // RVA: 0x87C130
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB2324D0
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC7730
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB232260
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC74C0
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB2322D0
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC7530
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB2322D0
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC71A0
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB232280
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC7530
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericComparer`1 : Comparer`1
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB231F40
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
-    }
-
-    public class GenericComparer`1 : Comparer`1
-    {
-        // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB2324B0
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
-    }
-
-    public class GenericComparer`1 : Comparer`1
-    {
-        // ── Methods ──
-        public void Compare(){} // RVA: 0x7AB232360
-        public void Equals(){} // RVA: 0x7AB22BD50
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Compare(){} // RVA: 0x3EC74E0
+        public void Equals(){} // RVA: 0x3EC0FE0
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
-        public void GetHashCode(){} // RVA: 0x7A7E00710
-        public void IndexOf(){} // RVA: 0x7A8051B10
-        public void LastIndexOf(){} // RVA: 0x7A8051B10
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Equals(){} // RVA: 0x87D350
+        public void GetHashCode(){} // RVA: 0x87C130
+        public void IndexOf(){} // RVA: 0xA94080
+        public void LastIndexOf(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263E00
-        public void LastIndexOf(){} // RVA: 0x7AB263E70
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12C60
+        public void LastIndexOf(){} // RVA: 0x3F12CD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263BE0
-        public void LastIndexOf(){} // RVA: 0x7AB263C50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12E80
+        public void LastIndexOf(){} // RVA: 0x3F12EF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB269C70
-        public void LastIndexOf(){} // RVA: 0x7AB269D30
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1C670
+        public void LastIndexOf(){} // RVA: 0x3F1C730
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB262D50
-        public void LastIndexOf(){} // RVA: 0x7AB262DE0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F11C80
+        public void LastIndexOf(){} // RVA: 0x3F11D10
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263CE0
-        public void LastIndexOf(){} // RVA: 0x7AB263D50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12D60
+        public void LastIndexOf(){} // RVA: 0x3F12DD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB266440
-        public void LastIndexOf(){} // RVA: 0x7AB266500
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F16390
+        public void LastIndexOf(){} // RVA: 0x3F16450
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB266610
-        public void LastIndexOf(){} // RVA: 0x7AB2666C0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F16560
+        public void LastIndexOf(){} // RVA: 0x3F16610
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB233180
-        public void LastIndexOf(){} // RVA: 0x7AB233270
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB269AD0
-        public void LastIndexOf(){} // RVA: 0x7AB269B70
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3EC86F0
+        public void LastIndexOf(){} // RVA: 0x3EC87E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1C4D0
+        public void LastIndexOf(){} // RVA: 0x3F1C570
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F05620
+        public void LastIndexOf(){} // RVA: 0x3F056C0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB232D10
-        public void LastIndexOf(){} // RVA: 0x7AB232D90
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3EC7FD0
+        public void LastIndexOf(){} // RVA: 0x3EC8050
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB267A50
-        public void LastIndexOf(){} // RVA: 0x7AB267AE0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1A320
+        public void LastIndexOf(){} // RVA: 0x3F1A3B0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263B00
-        public void LastIndexOf(){} // RVA: 0x7AB263B70
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12B80
+        public void LastIndexOf(){} // RVA: 0x3F12BF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263CE0
-        public void LastIndexOf(){} // RVA: 0x7AB263D50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12D60
+        public void LastIndexOf(){} // RVA: 0x3F12DD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB233180
-        public void LastIndexOf(){} // RVA: 0x7AB233270
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB260AA0
-        public void LastIndexOf(){} // RVA: 0x7AB260B60
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0F940
+        public void LastIndexOf(){} // RVA: 0x3F0F9F0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB257080
-        public void LastIndexOf(){} // RVA: 0x7AB257120
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0E4C0
+        public void LastIndexOf(){} // RVA: 0x3F0E570
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB2691C0
-        public void LastIndexOf(){} // RVA: 0x7AB269290
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3EC86F0
+        public void LastIndexOf(){} // RVA: 0x3EC87E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB259AF0
-        public void LastIndexOf(){} // RVA: 0x7AB259B90
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F05EA0
+        public void LastIndexOf(){} // RVA: 0x3F05F40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB260FC0
-        public void LastIndexOf(){} // RVA: 0x7AB261100
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F077A0
+        public void LastIndexOf(){} // RVA: 0x3F07850
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB269E50
-        public void LastIndexOf(){} // RVA: 0x7AB269F10
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB265460
-        public void LastIndexOf(){} // RVA: 0x7AB265570
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3EC86F0
+        public void LastIndexOf(){} // RVA: 0x3EC87E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB26A030
-        public void LastIndexOf(){} // RVA: 0x7AB26A0F0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F08470
+        public void LastIndexOf(){} // RVA: 0x3F08510
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB259030
-        public void LastIndexOf(){} // RVA: 0x7AB2590E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0FE00
+        public void LastIndexOf(){} // RVA: 0x3F0FF40
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263CE0
-        public void LastIndexOf(){} // RVA: 0x7AB263D50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1CE60
+        public void LastIndexOf(){} // RVA: 0x3F1CF20
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB25FCE0
-        public void LastIndexOf(){} // RVA: 0x7AB25FDA0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F149D0
+        public void LastIndexOf(){} // RVA: 0x3F14AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB257730
-        public void LastIndexOf(){} // RVA: 0x7AB2577D0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0F650
+        public void LastIndexOf(){} // RVA: 0x3F0F790
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263BE0
-        public void LastIndexOf(){} // RVA: 0x7AB263C50
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12D60
+        public void LastIndexOf(){} // RVA: 0x3F12DD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB2667C0
-        public void LastIndexOf(){} // RVA: 0x7AB266850
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0EC00
+        public void LastIndexOf(){} // RVA: 0x3F0ECA0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB268F00
-        public void LastIndexOf(){} // RVA: 0x7AB268FC0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12C60
+        public void LastIndexOf(){} // RVA: 0x3F12CD0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB263B00
-        public void LastIndexOf(){} // RVA: 0x7AB263B70
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F16710
+        public void LastIndexOf(){} // RVA: 0x3F167A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB261660
-        public void LastIndexOf(){} // RVA: 0x7AB261740
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F057F0
+        public void LastIndexOf(){} // RVA: 0x3F05890
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB267680
-        public void LastIndexOf(){} // RVA: 0x7AB267750
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1B7E0
+        public void LastIndexOf(){} // RVA: 0x3F1B8A0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB26A270
-        public void LastIndexOf(){} // RVA: 0x7AB26A350
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F12B80
+        public void LastIndexOf(){} // RVA: 0x3F12BF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB260DB0
-        public void LastIndexOf(){} // RVA: 0x7AB260E20
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F10590
+        public void LastIndexOf(){} // RVA: 0x3F10670
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB233180
-        public void LastIndexOf(){} // RVA: 0x7AB233270
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F19A10
+        public void LastIndexOf(){} // RVA: 0x3F19AE0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class GenericEqualityComparer`1 : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7AB232C40
-        public void GetHashCode(){} // RVA: 0x7AACBA850
-        public void IndexOf(){} // RVA: 0x7AB260770
-        public void LastIndexOf(){} // RVA: 0x7AB2608B0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1C8B0
+        public void LastIndexOf(){} // RVA: 0x3F1C990
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F0FAF0
+        public void LastIndexOf(){} // RVA: 0x3F0FB60
+        public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class GenericEqualityComparer`1 : EqualityComparer`1
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3EC7F00
+        public void GetHashCode(){} // RVA: 0x3902600
+        public void IndexOf(){} // RVA: 0x3F1BAA0
+        public void LastIndexOf(){} // RVA: 0x3F1BB70
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

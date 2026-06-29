@@ -8,279 +8,279 @@ namespace ThirdParty.ZLinq.ZLinq.Linq
     public class AggregateBy2`4 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Initialize(){} // RVA: 0x7A7E18770
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Initialize(){} // RVA: 0x894290
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class AggregateBy`4 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Initialize(){} // RVA: 0x7A7E18770
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Initialize(){} // RVA: 0x894290
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class Append`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x35AD70
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x35AD90
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x35ADA0
+        public void TryGetNext(){} // RVA: 0x35ADC0
+        public void Dispose(){} // RVA: 0x35ADD0
     }
 
     public class Append`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79375A0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A79375D0
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A7937660
-        public void TryGetNext(){} // RVA: 0x7A7937680
-        public void Dispose(){} // RVA: 0x7A7937690
+        public void .ctor(){} // RVA: 0x35AEB0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x35AEE0
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x35AF70
+        public void TryGetNext(){} // RVA: 0x35AF90
+        public void Dispose(){} // RVA: 0x35AFA0
     }
 
     public class Append`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79374E0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7937550
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A7937560
-        public void TryGetNext(){} // RVA: 0x7A7937580
-        public void Dispose(){} // RVA: 0x7A7937590
+        public void .ctor(){} // RVA: 0x35ADF0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x35AE60
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x35AE70
+        public void TryGetNext(){} // RVA: 0x35AE90
+        public void Dispose(){} // RVA: 0x35AEA0
     }
 
     public class Append`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7937460
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7937480
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A7937490
-        public void TryGetNext(){} // RVA: 0x7A79374B0
-        public void Dispose(){} // RVA: 0x7A79374C0
+        public void .ctor(){} // RVA: 0xA94080
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class ArrayIterator`1 : CollectionIterator`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18770
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E01A40
-        public void TryGetSpan(){} // RVA: 0x7A7E01A40
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E01A40
-        public void .cctor(){} // RVA: 0x7A7E187D0
+        public void .ctor(){} // RVA: 0xB43310
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x42E2030
+        public void TryGetSpan(){} // RVA: 0x434B810
+        public void TryCopyTo(){} // RVA: 0x434CDD0
+        public void TryGetNext(){} // RVA: 0x434CF20
+        public void .cctor(){} // RVA: 0x434BA70
     }
 
     public class ArrayIterator`1 : CollectionIterator`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7AB6582F0
-        public void TryGetSpan(){} // RVA: 0x7AB79DDC0
-        public void TryCopyTo(){} // RVA: 0x7AB79F380
-        public void TryGetNext(){} // RVA: 0x7AB79F4D0
-        public void .cctor(){} // RVA: 0x7AB79E020
+        public void .ctor(){} // RVA: 0x894290
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D3C0
+        public void TryGetSpan(){} // RVA: 0x87D3C0
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D3C0
+        public void .cctor(){} // RVA: 0x8942F0
     }
 
     public class ArraySelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E18890
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x8943B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class ArraySelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79238B0
+        public void .ctor(){} // RVA: 0x36C5C0
     }
 
     public class ArraySelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79238B0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A798F3F0
-        public void TryGetNext(){} // RVA: 0x7A798F410
-        public void Dispose(){} // RVA: 0x7A75F4910
+        public void .ctor(){} // RVA: 0x36C5C0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x416760
+        public void TryGetNext(){} // RVA: 0x416780
+        public void Dispose(){} // RVA: 0x3FC0
     }
 
     public class ArraySelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79238B0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A798F3F0
-        public void TryGetNext(){} // RVA: 0x7A798F410
-        public void Dispose(){} // RVA: 0x7A75F4910
+        public void .ctor(){} // RVA: 0x36C5C0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x2AA380
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x416760
+        public void TryGetNext(){} // RVA: 0x416780
+        public void Dispose(){} // RVA: 0x3FC0
     }
 
     public class ArrayWhereSelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1DDC0
-        public void GetSource(){} // RVA: 0x7A7E00680
-        public void get_Predicate(){} // RVA: 0x7A7E00680
-        public void get_Selector(){} // RVA: 0x7A7E00680
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x36C720
+        public void GetSource(){} // RVA: 0x931A0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void get_Selector(){} // RVA: 0x77ED0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5980
+        public void Dispose(){} // RVA: 0x3FC0
     }
 
     public class ArrayWhereSelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A10
-        public void GetSource(){} // RVA: 0x7A767FF40
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void get_Selector(){} // RVA: 0x7A765F080
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87A70
-        public void Dispose(){} // RVA: 0x7A75F4910
+        public void .ctor(){} // RVA: 0x36C720
+        public void GetSource(){} // RVA: 0x931A0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void get_Selector(){} // RVA: 0x77ED0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5980
+        public void Dispose(){} // RVA: 0x3FC0
     }
 
     public class ArrayWhereSelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A10
-        public void GetSource(){} // RVA: 0x7A767FF40
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void get_Selector(){} // RVA: 0x7A765F080
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87A70
-        public void Dispose(){} // RVA: 0x7A75F4910
+        public void .ctor(){} // RVA: 0x36C720
+        public void get_Predicate(){} // RVA: 0x77900
+        public void get_Selector(){} // RVA: 0x77ED0
+        public void GetSource(){} // RVA: 0x931A0
     }
 
     public class ArrayWhereSelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A10
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void get_Selector(){} // RVA: 0x7A765F080
-        public void GetSource(){} // RVA: 0x7A767FF40
+        public void .ctor(){} // RVA: 0x36C720
+        public void GetSource(){} // RVA: 0x931A0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void get_Selector(){} // RVA: 0x77ED0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5970
+        public void Dispose(){} // RVA: 0x3FC0
     }
 
     public class ArrayWhereSelect`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A10
-        public void GetSource(){} // RVA: 0x7A767FF40
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void get_Selector(){} // RVA: 0x7A765F080
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87A60
-        public void Dispose(){} // RVA: 0x7A75F4910
+        public void .ctor(){} // RVA: 0x8954D0
+        public void GetSource(){} // RVA: 0x87C0A0
+        public void get_Predicate(){} // RVA: 0x87C0A0
+        public void get_Selector(){} // RVA: 0x87C0A0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void GetSource(){} // RVA: 0x7A7E00680
-        public void get_Predicate(){} // RVA: 0x7A7E00680
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
-        public void TryGetSpan(){} // RVA: 0x7A7E019D0
-        public void TryCopyTo(){} // RVA: 0x7A8051B10
-        public void TryGetNext(){} // RVA: 0x7A7E019D0
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void Select(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5A60
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0xA94080
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A40
-        public void GetSource(){} // RVA: 0x7A765F080
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87B50
-        public void Dispose(){} // RVA: 0x7A75F4910
-        public void Select(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5A60
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0xA94080
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A40
-        public void GetSource(){} // RVA: 0x7A765F080
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87B50
-        public void Dispose(){} // RVA: 0x7A75F4910
-        public void Select(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5A60
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0x152F70
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A40
-        public void GetSource(){} // RVA: 0x7A765F080
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87B50
-        public void Dispose(){} // RVA: 0x7A75F4910
-        public void Select(){} // RVA: 0x7A772CA70
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5A60
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0x152F70
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A40
-        public void GetSource(){} // RVA: 0x7A765F080
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87B50
-        public void Dispose(){} // RVA: 0x7A75F4910
-        public void Select(){} // RVA: 0x7A772CA70
+        public void .ctor(){} // RVA: 0x36C750
+        public void GetSource(){} // RVA: 0x77ED0
+        public void get_Predicate(){} // RVA: 0x77900
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x22CC80
+        public void TryGetSpan(){} // RVA: 0x20C450
+        public void TryCopyTo(){} // RVA: 0x20C460
+        public void TryGetNext(){} // RVA: 0x6F5A60
+        public void Dispose(){} // RVA: 0x3FC0
+        public void Select(){} // RVA: 0x152F70
     }
 
     public class ArrayWhere`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7923A40
-        public void GetSource(){} // RVA: 0x7A765F080
-        public void get_Predicate(){} // RVA: 0x7A765F710
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A77E8280
-        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
-        public void TryCopyTo(){} // RVA: 0x7A77CFDD0
-        public void TryGetNext(){} // RVA: 0x7A7C87B50
-        public void Dispose(){} // RVA: 0x7A75F4910
-        public void Select(){} // RVA: 0x7A772CA70
+        public void .ctor(){} // RVA: 0xA94080
+        public void GetSource(){} // RVA: 0x87C0A0
+        public void get_Predicate(){} // RVA: 0x87C0A0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x87D350
+        public void TryGetSpan(){} // RVA: 0x87D350
+        public void TryCopyTo(){} // RVA: 0xA94080
+        public void TryGetNext(){} // RVA: 0x87D350
+        public void Dispose(){} // RVA: 0x894290
+        public void Select(){} // RVA: 0xA94080
     }
 
 }

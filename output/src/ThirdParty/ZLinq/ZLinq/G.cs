@@ -8,7 +8,7 @@ namespace ThirdParty.ZLinq.ZLinq
     public class GC : Object
     {
         // ── Methods ──
-        public void AllocateUninitializedArray(){} // RVA: 0x7AA4B04D0
+        public void AllocateUninitializedArray(){} // RVA: 0x30DA8E0
     }
 
 }

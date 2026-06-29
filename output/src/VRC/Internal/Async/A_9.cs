@@ -1,293 +1,341 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Internal.Async
-// Classes: 19
-// Methods: 161
+// Classes: 23
+// Methods: 190
 
 namespace VRC.Internal.Async
 {
-    /// <summary>Originally: ÎÍÍÍÌÎÍÌÍÏÏÏÌÍÎÎÌÍÍÌÏÍÌ</summary>
-    public class AsyncStateMachine_03FE : ValueType
+    /// <summary>Originally: ÏÎÎÏÍÎÏÌÏÏÎÏÍÏÏÌÎÍÍÏÌÏÏ</summary>
+    public class AsyncStateMachine_057B : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FA7590
-        public void MoveNext(){} // RVA: 0x7A7FA75C0
-        public void DefaultEquals(){} // RVA: 0x7A7FA75D0
-        public void GetHashCode(){} // RVA: 0x7A7FA75E0
-        public void SetStateMachine(){} // RVA: 0x7A7FA75F0
-        public void ToString(){} // RVA: 0x7A7FA7620
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FA7650
+        public void MoveNext(){} // RVA: 0x894290
+        public void InternalEquals(){} // RVA: 0x894320
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void Equals(){} // RVA: 0x894320
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void GetHashCode(){} // RVA: 0x894320
+        public void GetHashCodeOfPtr(){} // RVA: 0x894290
+        public void ToString(){} // RVA: 0x894320
+        public void x(){} // RVA: 0x894290
     }
 
-    /// <summary>Originally: ÎÎÎÎÏÎÎÍÌÎÎÍÎÏÎÏÍÎÎÏÌÎÏ</summary>
-    public class AsyncStateMachine_0CD3 : ValueType
+    /// <summary>Originally: ÏÌÌÍÍÌÎÏÌÎÎÎÏÎÏÍÏÍÎÍÌÎÍ</summary>
+    public class AsyncStateMachine_0B06 : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7CA6B00
-        public void InternalEquals(){} // RVA: 0x7A7CA6B10
-        public void DefaultEquals(){} // RVA: 0x7A77D5FF0
-        public void MoveNext(){} // RVA: 0x7A7CA6B20
-        public void InternalGetHashCode(){} // RVA: 0x7A77D5FF0
-        public void GetHashCode(){} // RVA: 0x7A77D5FF0
-        public void SetStateMachine(){} // RVA: 0x7A77D5FF0
-        public void ToString(){} // RVA: 0x7A77D5FF0
+        public void Equals(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void DefaultEquals(){} // RVA: 0x9B2D30
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void InternalGetHashCode(){} // RVA: 0x9B2D40
+        public void MoveNext(){} // RVA: 0x9B2D50
+        public void GetHashCodeOfPtr(){} // RVA: 0x3FC0
+        public void ToString(){} // RVA: 0x9B2D60
+    }
+
+    /// <summary>Originally: ÌÎÌÎÍÏÌÎÌÎÏÍÎÌÍÏÍÎÍÏÏÍÏ</summary>
+    public class AsyncStateMachine_0B96 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x701BB0
+        public void InternalEquals(){} // RVA: 0x20A760
+        public void MoveNext(){} // RVA: 0x701BC0
+        public void SetStateMachine(){} // RVA: 0x20A760
+        public void InternalGetHashCode(){} // RVA: 0x701BD0
+        public void GetHashCode(){} // RVA: 0x20A760
+        public void GetHashCodeOfPtr(){} // RVA: 0x701BE0
+    }
+
+    /// <summary>Originally: ÏÎÌÏÏÏÌÌÏÍÏÍÏÎÎÍÌÌÌÎÍÏÌ</summary>
+    public class AsyncStateMachine_0D09 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0xA51420
+        public void InternalEquals(){} // RVA: 0x3FC0
+        public void MoveNext(){} // RVA: 0xA51430
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void InternalGetHashCode(){} // RVA: 0xA51440
+        public void ToString(){} // RVA: 0xA51450
+        public void GetHashCodeOfPtr(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+    }
+
+    /// <summary>Originally: ÏÏÏÍÍÍÎÎÎÏÍÍÎÏÏÌÎÍÏÎÏÏÎ</summary>
+    public class AsyncStateMachine_1954 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x894320
+        public void InternalEquals(){} // RVA: 0x894320
+        public void DefaultEquals(){} // RVA: 0x894290
+        public void GetHashCode(){} // RVA: 0x894290
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void MoveNext(){} // RVA: 0x894290
+        public void ToString(){} // RVA: 0x894320
+        public void x(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÌÏÌÏÏÍÌÏÎÍÎÎÏÏÌÌÎÏÍÍÌÎÏ</summary>
+    public class AsyncStateMachine_2F21 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3FC0
+        public void InternalEquals(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void MoveNext(){} // RVA: 0xA66C40
+        public void InternalGetHashCode(){} // RVA: 0x3FC0
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void GetHashCodeOfPtr(){} // RVA: 0x3FC0
+        public void ToString(){} // RVA: 0x3FC0
+    }
+
+    /// <summary>Originally: ÏÎÎÌÎÌÏÌÌÍÎÏÌÌÌÍÌÎÏÌÍÎÍ</summary>
+    public class AsyncStateMachine_30A3 : ValueType
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void InternalEquals(){} // RVA: 0x894320
+        public void MoveNext(){} // RVA: 0x894290
+        public void Equals(){} // RVA: 0x894320
+        public void InternalGetHashCode(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x894320
+        public void GetHashCodeOfPtr(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÌÏÍÎÎÎÌÎÏÌÎÎÍÌÏÌÍÏÎÎÍÌÍ</summary>
+    public class AsyncStateMachine_389B : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x894290
+        public void InternalEquals(){} // RVA: 0x894290
+        public void DefaultEquals(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x894320
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void GetHashCodeOfPtr(){} // RVA: 0x894320
+        public void MoveNext(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÌÎÍÍÎÍÏÎÏÌÍÌÏÎÏÌÏÏÎÌÏÌÏ</summary>
+    public class AsyncStateMachine_3EBB : ValueType
+    {
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÍÌÍÌÏÌÌÎÌÎÏÍÎÎÎÍÏÏÎÎÎÌÌ</summary>
+    public class AsyncStateMachine_4BEA : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x9B2BF0
+        public void InternalEquals(){} // RVA: 0x9B2C00
+        public void DefaultEquals(){} // RVA: 0x3FC0
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void ToString(){} // RVA: 0x9B2C10
+        public void MoveNext(){} // RVA: 0x9B2C20
         // ── Unresolved (hash) ──
-        public void m_C40(){} // RVA: 0x7A7CA6B30
+        public void m_D3F(){} // RVA: 0x9B2C30
     }
 
-    /// <summary>Originally: ÍÎÌÌÏÏÍÏÌÏÍÌÏÍÍÎÎÏÌÍÎÌÎ</summary>
-    public class AsyncStateMachine_10B0 : ValueType
+    /// <summary>Originally: ÏÍÌÎÏÎÍÌÏÍÎÌÏÎÎÎÍÎÎÎÎÎÍ</summary>
+    public class AsyncStateMachine_5451 : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FBE8D0
-        public void InternalEquals(){} // RVA: 0x7A7FBE8E0
-        public void DefaultEquals(){} // RVA: 0x7A7FBE910
-        public void SetStateMachine(){} // RVA: 0x7A7FBE940
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBE970
-        public void GetHashCode(){} // RVA: 0x7A7FBE980
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBE990
-        public void MoveNext(){} // RVA: 0x7A7FBE9A0
-        public void ToString(){} // RVA: 0x7A7FBE9B0
+        public void MoveNext(){} // RVA: 0x894290
+        public void InternalEquals(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void Equals(){} // RVA: 0x894290
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void GetHashCode(){} // RVA: 0x894320
+        public void GetHashCodeOfPtr(){} // RVA: 0x894320
+        public void ToString(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÎÌÍÏÏÎÍÍÍÎÏÌÎÍÍÎÎÏÌÍÏÌÎ</summary>
+    public class AsyncStateMachine_5870 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x3FC0
+        public void InternalEquals(){} // RVA: 0xA64D70
+        public void DefaultEquals(){} // RVA: 0xA64D80
+        public void MoveNext(){} // RVA: 0xA64D90
+        public void InternalGetHashCode(){} // RVA: 0x3FC0
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void ToString(){} // RVA: 0xA64DA0
+        public void x(){} // RVA: 0x3FC0
         // ── Unresolved (hash) ──
-        public void m_052(){} // RVA: 0x7A7FBE9C0
+        public void m_6CE(){} // RVA: 0xA64DB0
     }
 
-    /// <summary>Originally: ÎÍÍÌÎÏÏÏÌÍÏÌÏÍÍÎÎÍÏÌÌÎÌ</summary>
-    public class AsyncStateMachine_323B : ValueType
+    /// <summary>Originally: ÌÎÎÎÌÏÎÍÍÌÌÍÌÍÌÎÍÌÏÎÌÏÌ</summary>
+    public class AsyncStateMachine_711B : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FA7550
-        public void InternalEquals(){} // RVA: 0x7A7FA7560
-        public void DefaultEquals(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7FA7570
-        public void InternalGetHashCode(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7FA7580
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
+        public void Equals(){} // RVA: 0xA51100
+        public void InternalEquals(){} // RVA: 0x3FC0
+        public void DefaultEquals(){} // RVA: 0xA51110
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void MoveNext(){} // RVA: 0xA51120
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void GetHashCodeOfPtr(){} // RVA: 0xA51130
+        public void ToString(){} // RVA: 0xA51140
+        public void x(){} // RVA: 0x3FC0
     }
 
-    /// <summary>Originally: ÎÌÎÎÌÍÌÍÏÌÍÍÌÌÌÌÌÍÎÍÌÎÍ</summary>
-    public class AsyncStateMachine_39A3 : ValueType
+    /// <summary>Originally: ÏÏÎÏÎÎÌÌÍÌÏÌÌÎÌÌÎÎÏÌÎÏÍ</summary>
+    public class AsyncStateMachine_815B : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void InternalEquals(){} // RVA: 0x7A7FBC270
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBC280
-        public void MoveNext(){} // RVA: 0x7A7FBC290
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBC2A0
-        public void ToString(){} // RVA: 0x7A7FBC2B0
+        public void Equals(){} // RVA: 0x894290
+        public void InternalEquals(){} // RVA: 0x894320
+        public void DefaultEquals(){} // RVA: 0x894290
+        public void MoveNext(){} // RVA: 0x894290
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void GetHashCode(){} // RVA: 0x894290
+        public void GetHashCodeOfPtr(){} // RVA: 0x894290
+        public void ToString(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÌÏÍÌÍÍÌÏÌÌÎÌÏÌÎÎÎÌÍÏÌÏÍ</summary>
+    public class AsyncStateMachine_81C1 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x707310
+        public void InternalEquals(){} // RVA: 0x707320
+        public void MoveNext(){} // RVA: 0x707330
+        public void GetHashCode(){} // RVA: 0x707340
+        public void InternalGetHashCode(){} // RVA: 0x707350
+        public void SetStateMachine(){} // RVA: 0x9A60
+        public void GetHashCodeOfPtr(){} // RVA: 0x707360
+        public void ToString(){} // RVA: 0x9A60
+    }
+
+    /// <summary>Originally: ÎÎÍÍÍÍÍÎÏÌÌÏÌÎÍÍÌÎÍÎÍÏÍ</summary>
+    public class AsyncStateMachine_8C17 : ValueType
+    {
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0x894290
+        public void InternalEquals(){} // RVA: 0x894320
+        public void DefaultEquals(){} // RVA: 0x894320
+        public void Equals(){} // RVA: 0x894290
+        public void InternalGetHashCode(){} // RVA: 0x894290
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void GetHashCodeOfPtr(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x894290
+        public void x(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÌÎÎÌÍÎÍÌÎÎÏÎÍÌÍÏÍÌÍÍÍÎÎ</summary>
+    public class AsyncStateMachine_B9F0 : ValueType
+    {
+        // ── Methods ──
+        public void SetStateMachine(){} // RVA: 0xA51150
+        public void InternalEquals(){} // RVA: 0xA51180
+        public void DefaultEquals(){} // RVA: 0xA511B0
+        public void Equals(){} // RVA: 0xA511C0
+        public void InternalGetHashCode(){} // RVA: 0xA511D0
+        public void GetHashCode(){} // RVA: 0xA511E0
+        public void GetHashCodeOfPtr(){} // RVA: 0xA511F0
+        public void ToString(){} // RVA: 0xA51220
+        public void MoveNext(){} // RVA: 0xA51250
         // ── Unresolved (hash) ──
-        public void m_8AB(){} // RVA: 0x7A75F4910
+        public void m_D3F(){} // RVA: 0xA51260
     }
 
-    /// <summary>Originally: ÌÍÎÌÌÏÍÍÏÎÌÏÏÍÌÏÍÍÎÌÏÍÍ</summary>
-    public class AsyncStateMachine_3D9B : ValueType
+    /// <summary>Originally: ÌÍÎÌÏÎÏÏÎÌÏÏÌÍÏÏÌÎÎÍÎÌÌ</summary>
+    public class AsyncStateMachine_D8E9 : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7F0FAE0
-        public void InternalEquals(){} // RVA: 0x7A7F0FAF0
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7F0FB00
-        public void InternalGetHashCode(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7F0FB10
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7F0FB20
-        public void ToString(){} // RVA: 0x7A7F0FB30
+        public void Equals(){} // RVA: 0x9B2B10
+        public void InternalEquals(){} // RVA: 0x3FC0
+        public void DefaultEquals(){} // RVA: 0x3FC0
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void MoveNext(){} // RVA: 0x9B2B20
+        public void GetHashCode(){} // RVA: 0x3FC0
+        public void GetHashCodeOfPtr(){} // RVA: 0x3FC0
+    }
+
+    /// <summary>Originally: ÎÎÎÏÎÍÍÌÎÌÍÌÏÍÎÎÌÎÌÏÏÌÎ</summary>
+    public class AsyncStateMachine_D90C : ValueType
+    {
+        // ── Methods ──
+        public void MoveNext(){} // RVA: 0xA66C50
+        public void InternalEquals(){} // RVA: 0xA66C60
+        public void DefaultEquals(){} // RVA: 0x3FC0
+        public void Equals(){} // RVA: 0x3FC0
+        public void InternalGetHashCode(){} // RVA: 0x3FC0
+        public void GetHashCode(){} // RVA: 0xA66C70
+        public void GetHashCodeOfPtr(){} // RVA: 0x3FC0
+        public void ToString(){} // RVA: 0xA66C80
+        public void SetStateMachine(){} // RVA: 0x3FC0
+    }
+
+    /// <summary>Originally: ÎÍÎÎÌÎÏÌÏÏÍÎÏÎÍÍÍÌÏÏÌÏÏ</summary>
+    public class AsyncStateMachine_DAB9 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x894320
+        public void SetStateMachine(){} // RVA: 0x894320
+        public void DefaultEquals(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x894290
+        public void InternalGetHashCode(){} // RVA: 0x894320
+        public void MoveNext(){} // RVA: 0x894290
+        public void GetHashCodeOfPtr(){} // RVA: 0x894320
+        public void ToString(){} // RVA: 0x894290
+        public void x(){} // RVA: 0x894320
         // ── Unresolved (hash) ──
-        public void m_E69(){} // RVA: 0x7A75F4910
+        public void m_CEC(){} // RVA: 0x894320
     }
 
-    /// <summary>Originally: ÌÌÌÍÌÏÎÏÌÏÎÏÏÌÏÍÍÍÍÌÌÌÌ</summary>
-    public class AsyncStateMachine_8186 : ValueType
+    /// <summary>Originally: ÍÎÌÏÎÏÍÍÎÏÌÍÏÏÌÌÏÌÍÎÏÍÎ</summary>
+    public class AsyncStateMachine_EAFD : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FBEA90
-        public void InternalEquals(){} // RVA: 0x7A7FBEAA0
-        public void DefaultEquals(){} // RVA: 0x7A7FBEAB0
-        public void GetHashCode(){} // RVA: 0x7A7FBEAC0
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBEAD0
-        public void MoveNext(){} // RVA: 0x7A7FBEB00
-        public void SetStateMachine(){} // RVA: 0x7A7FBEB10
-        public void ToString(){} // RVA: 0x7A7FBEB40
+        public void Equals(){} // RVA: 0x20A760
+        public void InternalEquals(){} // RVA: 0x20A760
+        public void MoveNext(){} // RVA: 0x707C80
+        public void SetStateMachine(){} // RVA: 0x20A760
+        public void InternalGetHashCode(){} // RVA: 0x20A760
+        public void GetHashCode(){} // RVA: 0x20A760
+        public void GetHashCodeOfPtr(){} // RVA: 0x707C90
+        public void ToString(){} // RVA: 0x20A760
+        public void x(){} // RVA: 0x707CA0
         // ── Unresolved (hash) ──
-        public void m_E69(){} // RVA: 0x7A7FBEB50
-        public void m_052(){} // RVA: 0x7A7FBEB80
+        public void m_B72(){} // RVA: 0x20A760
     }
 
-    /// <summary>Originally: ÏÏÍÏÍÏÍÏÌÎÌÏÏÎÌÍÎÌÌÏÏÎÏ</summary>
-    public class AsyncStateMachine_84E1 : ValueType
+    /// <summary>Originally: ÍÌÏÌÍÌÌÎÍÍÌÌÏÌÎÍÌÏÏÏÌÍÎ</summary>
+    public class AsyncStateMachine_EC51 : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FBF0A0
-        public void InternalEquals(){} // RVA: 0x7A7FBF0D0
-        public void DefaultEquals(){} // RVA: 0x7A7FBF0E0
-        public void GetHashCode(){} // RVA: 0x7A7FBF110
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBF140
-        public void ToString(){} // RVA: 0x7A7FBF150
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBF160
-        public void SetStateMachine(){} // RVA: 0x7A7FBF170
-        public void MoveNext(){} // RVA: 0x7A7FBF1A0
-        // ── Unresolved (hash) ──
-        public void m_7CC(){} // RVA: 0x7A7FBF1B0
+        public void Equals(){} // RVA: 0xA659F0
+        public void InternalEquals(){} // RVA: 0x3FC0
+        public void DefaultEquals(){} // RVA: 0xA65A00
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void InternalGetHashCode(){} // RVA: 0xA65A10
+        public void GetHashCode(){} // RVA: 0xA65A20
+        public void MoveNext(){} // RVA: 0xA65A30
+        public void ToString(){} // RVA: 0x3FC0
+        public void x(){} // RVA: 0x3FC0
     }
 
-    /// <summary>Originally: ÍÍÌÌÍÍÏÎÏÎÍÍÍÍÍÎÍÏÌÏÎÏÌ</summary>
-    public class AsyncStateMachine_874F : ValueType
+    /// <summary>Originally: ÎÎÏÎÌÎÌÍÌÎÍÌÎÎÍÏÎÌÏÍÌÏÎ</summary>
+    public class AsyncStateMachine_FA04 : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7F0F9E0
-        public void InternalEquals(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7F0F9F0
-        public void GetHashCode(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A7F0FA00
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7F0FA10
-        public void ToString(){} // RVA: 0x7A75F4910
-    }
-
-    /// <summary>Originally: ÎÏÌÍÎÍÎÎÌÎÎÎÏÎÍÏÍÍÌÍÏÌÌ</summary>
-    public class AsyncStateMachine_9D6C : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void InternalEquals(){} // RVA: 0x7A7CA6D40
-        public void MoveNext(){} // RVA: 0x7A7CA6D50
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7CA6D60
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7CA6D70
-    }
-
-    /// <summary>Originally: ÏÎÌÍÏÎÏÏÎÍÏÎÌÎÏÎÌÍÎÏÏÍÌ</summary>
-    public class AsyncStateMachine_A474 : ValueType
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void InternalEquals(){} // RVA: 0x7A7FBE770
-        public void DefaultEquals(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7FBE780
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBE790
-        public void Equals(){} // RVA: 0x7A7FBE7A0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBE7B0
-    }
-
-    /// <summary>Originally: ÍÌÍÎÎÍÌÎÍÌÌÍÌÍÍÌÍÏÏÏÏÏÎ</summary>
-    public class AsyncStateMachine_A685 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FBE7C0
-        public void SetStateMachine(){} // RVA: 0x7A7FBE7F0
-        public void DefaultEquals(){} // RVA: 0x7A7FBE820
-        public void GetHashCode(){} // RVA: 0x7A7FBE830
-        public void MoveNext(){} // RVA: 0x7A7FBE840
-        public void ToString(){} // RVA: 0x7A7FBE850
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBE860
-        // ── Unresolved (hash) ──
-        public void m_274(){} // RVA: 0x7A7FBE870
-        public void m_4D1(){} // RVA: 0x7A7FBE8A0
-    }
-
-    /// <summary>Originally: ÏÏÏÏÍÏÌÍÍÌÌÌÌÍÍÏÎÎÍÌÎÏÎ</summary>
-    public class AsyncStateMachine_AD37 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7FA7810
-        public void DefaultEquals(){} // RVA: 0x7A7FA7820
-        public void GetHashCode(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A75F4910
-        public void ToString(){} // RVA: 0x7A7FA7830
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FA7840
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-    }
-
-    /// <summary>Originally: ÏÎÎÌÌÍÎÍÏÎÎÏÍÏÍÎÏÎÏÍÌÏÏ</summary>
-    public class AsyncStateMachine_C6BB : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void InternalEquals(){} // RVA: 0x7A75F4910
-        public void DefaultEquals(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7FB9BF0
-        public void MoveNext(){} // RVA: 0x7A7FB9C00
-        public void ToString(){} // RVA: 0x7A7FB9C10
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FB9C20
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        // ── Unresolved (hash) ──
-        public void m_D30(){} // RVA: 0x7A7FB9C30
-        public void m_F38(){} // RVA: 0x7A75F4910
-    }
-
-    /// <summary>Originally: ÌÌÏÌÎÎÌÎÏÏÍÍÎÌÏÍÏÍÎÍÏÌÎ</summary>
-    public class AsyncStateMachine_D060 : ValueType
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7A7FBA330
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void DefaultEquals(){} // RVA: 0x7A7FBA340
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7FBA350
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A75F4910
-        public void ToString(){} // RVA: 0x7A75F4910
-        // ── Unresolved (hash) ──
-        public void m_CAF(){} // RVA: 0x7A7FBA360
-    }
-
-    /// <summary>Originally: ÌÎÎÎÍÏÎÏÍÎÌÎÏÎÍÎÌÌÍÎÏÌÌ</summary>
-    public class AsyncStateMachine_D86C : ValueType
-    {
-        // ── Methods ──
-        public void SetStateMachine(){} // RVA: 0x7A7FBF1E0
-        public void InternalEquals(){} // RVA: 0x7A7FBF210
-        public void DefaultEquals(){} // RVA: 0x7A7FBF220
-        public void Equals(){} // RVA: 0x7A7FBF230
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBF240
-        public void GetHashCode(){} // RVA: 0x7A7FBF270
-        public void MoveNext(){} // RVA: 0x7A7FBF280
-    }
-
-    /// <summary>Originally: ÏÌÌÏÎÍÏÍÍÏÍÌÍÎÎÏÍÍÍÌÍÌÎ</summary>
-    public class AsyncStateMachine_F244 : ValueType
-    {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7A7FBA2F0
-        public void InternalEquals(){} // RVA: 0x7A75F4910
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void Equals(){} // RVA: 0x7A75F4910
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBA300
-        public void GetHashCode(){} // RVA: 0x7A7FBA310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A75F4910
-        public void ToString(){} // RVA: 0x7A75F4910
-        // ── Unresolved (hash) ──
-        public void m_E25(){} // RVA: 0x7A7FBA320
-    }
-
-    /// <summary>Originally: ÎÎÍÏÎÍÏÏÍÍÌÏÍÌÏÌÍÎÍÌÏÌÍ</summary>
-    public class AsyncStateMachine_F8C4 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7F0FE00
-        public void InternalEquals(){} // RVA: 0x7A7F0FE10
-        public void DefaultEquals(){} // RVA: 0x7A75F4910
-        public void GetHashCode(){} // RVA: 0x7A7F0FE20
-        public void SetStateMachine(){} // RVA: 0x7A75F4910
-        public void ToString(){} // RVA: 0x7A7F0FE30
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A75F4910
-        public void MoveNext(){} // RVA: 0x7A7F0FE40
-    }
-
-    /// <summary>Originally: ÏÏÎÎÏÏÌÌÌÍÎÌÌÍÍÌÌÍÍÏÍÌÎ</summary>
-    public class AsyncStateMachine_FA37 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7FBE9D0
-        public void MoveNext(){} // RVA: 0x7A7FBE9E0
-        public void DefaultEquals(){} // RVA: 0x7A7FBE9F0
-        public void GetHashCode(){} // RVA: 0x7A7FBEA00
-        public void InternalGetHashCode(){} // RVA: 0x7A7FBEA30
-        public void SetStateMachine(){} // RVA: 0x7A7FBEA40
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A7FBEA70
-        public void ToString(){} // RVA: 0x7A7FBEA80
+        public void SetStateMachine(){} // RVA: 0x3FC0
+        public void InternalEquals(){} // RVA: 0xA69730
+        public void DefaultEquals(){} // RVA: 0x3FC0
+        public void Equals(){} // RVA: 0xA69740
+        public void InternalGetHashCode(){} // RVA: 0x3FC0
+        public void MoveNext(){} // RVA: 0xA69750
+        public void GetHashCodeOfPtr(){} // RVA: 0xA69760
+        public void GetHashCode(){} // RVA: 0xA69770
     }
 
 }

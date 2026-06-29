@@ -1,730 +1,726 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 222
+// Methods: 218
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class CollectionExtensions : Object
+    public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void GetValueOrDefault(){} // RVA: 0x7AA409A70
-        public void Remove(){} // RVA: 0x7AA409B90
+        public void get_Default(){} // RVA: 0x62B4160
+        public void CreateComparer(){} // RVA: 0x62B42B0
+        public void Compare(){} // RVA: 0x881CA0
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x62AE4E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void CreateComparer(){} // RVA: 0x637FD40
+        public void Compare(){} // RVA: 0x8830B0
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x6308D10
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void defaultComparer(){} // RVA: 0x7A8051B10
-        public void get_Default(){} // RVA: 0x7AD559480
-        public void CreateComparer(){} // RVA: 0x7AD5595D0
-        public void Compare(){} // RVA: 0x7A7E06320
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD553800
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void CreateComparer(){} // RVA: 0x7AD621460
-        public void Compare(){} // RVA: 0x7A7E076F0
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD5AC3A0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x87C0D0
+        public void CreateComparer(){} // RVA: 0x87C0D0
+        public void Compare(){} // RVA: 0xA94080
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x881CA0
+        public void .ctor(){} // RVA: 0x894290
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7A7E006B0
-        public void CreateComparer(){} // RVA: 0x7A7E006B0
-        public void Compare(){} // RVA: 0x7A8051B10
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7A7E06320
-        public void .ctor(){} // RVA: 0x7A7E18770
+        public void get_Default(){} // RVA: 0x63C2630
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD65E3F0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63B1D10
+        public void Compare(){} // RVA: 0x888F10
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD64F1E0
-        public void Compare(){} // RVA: 0x7A7E0D4B0
-        public void CreateComparer(){} // RVA: 0x7AD64F330
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD64F8E0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x6365C00
+        public void Compare(){} // RVA: 0x883060
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6083A0
-        public void Compare(){} // RVA: 0x7A7E076A0
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
+        public void CreateComparer(){} // RVA: 0x639B640
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x639BBF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
-        public void CreateComparer(){} // RVA: 0x7AD63AA60
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD63B010
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x63BD930
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD65A4F0
-        public void Compare(){} // RVA: 0x7A7E076F0
-        public void CreateComparer(){} // RVA: 0x7AD65A640
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD5AC3A0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637F4F0
+        public void Compare(){} // RVA: 0x8830B0
+        public void CreateComparer(){} // RVA: 0x637F640
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x6308D10
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD620C10
-        public void Compare(){} // RVA: 0x7A7E076F0
-        public void CreateComparer(){} // RVA: 0x7AD620D60
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD5AC3A0
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x63BEE30
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD65B2F0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6414100
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6B5AF0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6341CA0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD5E5BB0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6371480
+        public void Compare(){} // RVA: 0x882E80
+        public void CreateComparer(){} // RVA: 0x63715D0
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x62B21E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63B9820
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD613C20
-        public void Compare(){} // RVA: 0x7A7E074C0
-        public void CreateComparer(){} // RVA: 0x7AD613D70
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD557500
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x634C4A0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD5EEEB0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x634C4A0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD5EEEB0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63A6520
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6440F0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x638DBF0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD62EC10
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x62C6D40
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD56AB60
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD567F10
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x62C39F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6471F0
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63A9620
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD65D5F0
-        public void Compare(){} // RVA: 0x7A7E07C10
+        public void get_Default(){} // RVA: 0x63C1830
+        public void Compare(){} // RVA: 0x8835D0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6974A0
+        public void get_Default(){} // RVA: 0x63F7A00
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD65ABF0
-        public void CreateComparer(){} // RVA: 0x7AD65AD40
-        public void Compare(){} // RVA: 0x7A7E074C0
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD557500
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x63BE730
+        public void CreateComparer(){} // RVA: 0x63BE880
+        public void Compare(){} // RVA: 0x882E80
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x62B21E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x62B2340
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD557660
+        public void get_Default(){} // RVA: 0x3C76B00
+        public void CreateComparer(){} // RVA: 0x63C75E0
+        public void Compare(){} // RVA: 0xA94080
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x63C7BC0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63A8F20
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AAFF2860
-        public void CreateComparer(){} // RVA: 0x7AD6633A0
-        public void Compare(){} // RVA: 0x7A8051B10
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD663990
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD646AF0
+        public void get_Default(){} // RVA: 0x3C76B00
+        public void CreateComparer(){} // RVA: 0x63C75E0
+        public void Compare(){} // RVA: 0xA94080
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x63C7BC0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6A00A0
+        public void get_Default(){} // RVA: 0x62B2340
+        public void CreateComparer(){} // RVA: 0x62B2490
+        public void Compare(){} // RVA: 0x881CA0
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x62AE4E0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6367800
+        public void Compare(){} // RVA: 0x883060
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x63FFF00
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void defaultComparer(){} // RVA: 0x7A8051B10
-        public void get_Default(){} // RVA: 0x7AD557660
-        public void CreateComparer(){} // RVA: 0x7AD5577B0
-        public void Compare(){} // RVA: 0x7A7E06320
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD553800
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x6400600
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AAFF2860
-        public void CreateComparer(){} // RVA: 0x7AD6633A0
-        public void Compare(){} // RVA: 0x7A80804D0
-        public void System.Collections.IComparer.Compare(){} // RVA: 0x7AD663990
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD621310
-        public void Compare(){} // RVA: 0x7A7E076F0
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD69EBA0
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD69F2A0
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD66B260
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x637FBF0
+        public void Compare(){} // RVA: 0x8830B0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6401400
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void Compare(){} // RVA: 0x881CA0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD66CE60
-        public void Compare(){} // RVA: 0x7A7E06320
+        public void get_Default(){} // RVA: 0x6338E00
+        public void Compare(){} // RVA: 0x882F20
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
+        public void CreateComparer(){} // RVA: 0x639B640
+        public void Compare(){} // RVA: 0x881CA0
+        public void System.Collections.IComparer.Compare(){} // RVA: 0x639BBF0
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD63A910
+        public void get_Default(){} // RVA: 0x63BCB30
+        public void Compare(){} // RVA: 0x882F20
     }
 
     public class Comparer`1 : Object
     {
         // ── Methods ──
-        public void get_Default(){} // RVA: 0x7AD6596F0
-        public void Compare(){} // RVA: 0x7A7E07560
+        public void get_Default(){} // RVA: 0x639B4F0
     }
 
 }

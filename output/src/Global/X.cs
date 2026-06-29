@@ -1,226 +1,315 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 27
-// Methods: 87
+// Classes: 35
+// Methods: 136
 
 public class X509CertificateEnumerator : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AD9BADB0
-    public void get_Current(){} // RVA: 0x7AD9BAE60
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7AD9BAF00
-    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7AD9BAF50
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AD9BAFA0
-    public void MoveNext(){} // RVA: 0x7AD9BAFF0
+    public void .ctor(){} // RVA: 0x6645BE0
+    public void get_Current(){} // RVA: 0x6645C90
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x6645D30
+    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x6645D80
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x6645DD0
+    public void MoveNext(){} // RVA: 0x6645E20
 }
 
 public class X509CertificateEnumerator : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AEA2D470
-    public void get_Current(){} // RVA: 0x7AEA2D520
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7AEA2D5C0
-    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7AEA2D610
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AEA2D660
-    public void MoveNext(){} // RVA: 0x7AEA2D6B0
+    public void .ctor(){} // RVA: 0x769F100
+    public void get_Current(){} // RVA: 0x769F1B0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x769F250
+    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x769F2A0
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x769F2F0
+    public void MoveNext(){} // RVA: 0x769F340
 }
 
 public class X509CrlEntry : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AD9B7AD0
-    public void get_SerialNumber(){} // RVA: 0x7AD9B7CE0
-    public void get_RevocationDate(){} // RVA: 0x7A80DA7B0
-    public void get_Extensions(){} // RVA: 0x7A81052C0
+    public void .ctor(){} // RVA: 0x6642900
+    public void get_SerialNumber(){} // RVA: 0x6642B10
+    public void get_RevocationDate(){} // RVA: 0xB465B0
+    public void get_Extensions(){} // RVA: 0xB700F0
 }
 
 public class XHashtableState : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E1D590
-    public void Resize(){} // RVA: 0x7A7E00680
-    public void TryGetValue(){} // RVA: 0x7A7E04800
-    public void TryAdd(){} // RVA: 0x7A8051B10
-    public void FindEntry(){} // RVA: 0x7A8051B10
-    public void ComputeHashCode(){} // RVA: 0x7A7E09D50
+    public void .ctor(){} // RVA: 0x899290
+    public void Resize(){} // RVA: 0x87C0A0
+    public void TryGetValue(){} // RVA: 0x880120
+    public void TryAdd(){} // RVA: 0xA94080
+    public void FindEntry(){} // RVA: 0xA94080
+    public void ComputeHashCode(){} // RVA: 0x885770
 }
 
 public class XProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7AEFEDD20
-    public void .ctor(){} // RVA: 0x7AEFEDD60
+    public void get_Name(){} // RVA: 0x7D60740
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x246D2C0
+    public void SetValue(){} // RVA: 0x7D60470
+    public void .ctor(){} // RVA: 0x7D60780
 }
 
 public class XProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7AEFEDF60
-    public void .ctor(){} // RVA: 0x7AEFEDFA0
+    public void get_Name(){} // RVA: 0x7D60980
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x246D2C0
+    public void SetValue(){} // RVA: 0x7D60470
+    public void .ctor(){} // RVA: 0x7D609C0
 }
 
 public class XProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7AEFEE260
-    public void .ctor(){} // RVA: 0x7AEFEE2A0
+    public void get_Name(){} // RVA: 0x7D60C80
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x246D2C0
+    public void SetValue(){} // RVA: 0x7D60470
+    public void .ctor(){} // RVA: 0x7D60CC0
 }
 
 public class XProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7AEFEE5D0
-    public void .ctor(){} // RVA: 0x7AEFEE610
+    public void get_Name(){} // RVA: 0x7D60F50
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x3F18830
+    public void SetValue(){} // RVA: 0x426C260
+    public void .ctor(){} // RVA: 0x7D60F90
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7D61190
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x3F18830
+    public void SetValue(){} // RVA: 0x426C260
+    public void .ctor(){} // RVA: 0x7D611D0
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7D61490
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x7D614D0
+    public void SetValue(){} // RVA: 0x7D60470
+    public void .ctor(){} // RVA: 0x7D614E0
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7D61840
+    public void get_IsReadOnly(){} // RVA: 0xB43320
+    public void GetValue(){} // RVA: 0x3F18830
+    public void SetValue(){} // RVA: 0x426C260
+    public void .ctor(){} // RVA: 0x7D61880
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x1C39410
+    public void SetValue(){} // RVA: 0x426C260
+    public void .ctor(){} // RVA: 0x7E517F0
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x7E522C0
+    public void SetValue(){} // RVA: 0x7E522D0
+    public void .ctor(){} // RVA: 0x7E522E0
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x31CA9F0
+    public void SetValue(){} // RVA: 0x7ED7CF0
+    public void .ctor(){} // RVA: 0x7EDDD60
+}
+
+public class XProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0xB465B0
+    public void get_IsReadOnly(){} // RVA: 0xC38360
+    public void GetValue(){} // RVA: 0x31CA9F0
+    public void SetValue(){} // RVA: 0x7ED7CF0
+    public void .ctor(){} // RVA: 0x7EDE7B0
 }
 
 public class XSODictionaryEnumerator : XSOEnumerator
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE79B380
-    public void get_Entry(){} // RVA: 0x7AE79B910
-    public void get_Key(){} // RVA: 0x7AE79BAB0
-    public void get_Value(){} // RVA: 0x7AE79BC40
+    public void .ctor(){} // RVA: 0x74124C0
+    public void get_Entry(){} // RVA: 0x7412A40
+    public void get_Key(){} // RVA: 0x7412BD0
+    public void get_Value(){} // RVA: 0x7412D50
 }
 
 public class XSOEnumerator : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE79B380
-    public void get_Current(){} // RVA: 0x7AE79B3F0
-    public void MoveNext(){} // RVA: 0x7AE79B610
-    public void Reset(){} // RVA: 0x7AE79B850
+    public void .ctor(){} // RVA: 0x74124C0
+    public void get_Current(){} // RVA: 0x7412530
+    public void MoveNext(){} // RVA: 0x7412740
+    public void Reset(){} // RVA: 0x7412980
 }
 
 public class XdrAttributeEntry : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE787830
+    public void .ctor(){} // RVA: 0x73FE860
 }
 
 public class XdrBeginChildFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8132FA0
-    public void Invoke(){} // RVA: 0x7A8133090
+    public void .ctor(){} // RVA: 0xB9DF20
+    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class XdrBuildFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8F31550
-    public void Invoke(){} // RVA: 0x7A8234660
+    public void .ctor(){} // RVA: 0x1A4CFC0
+    public void Invoke(){} // RVA: 0xCA8D60
 }
 
 public class XdrEndChildFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8132FA0
-    public void Invoke(){} // RVA: 0x7A8133090
+    public void .ctor(){} // RVA: 0xB9DF20
+    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class XdrEntry : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE787920
+    public void .ctor(){} // RVA: 0x73FE950
 }
 
 public class XdrInitFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A9C160C0
-    public void Invoke(){} // RVA: 0x7A82344F0
+    public void .ctor(){} // RVA: 0x2697880
+    public void Invoke(){} // RVA: 0xCA8BF0
 }
 
 public class XmlContext : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE817FD0
+    public void .ctor(){} // RVA: 0x748D3B0
 }
 
 public class XmlEvent : ValueType
 {
     // ── Methods ──
-    public void InitEvent(){} // RVA: 0x7A7E951E0
-    public void get_EventType(){} // RVA: 0x7A765F070
-    public void get_String1(){} // RVA: 0x7A765F080
-    public void get_String2(){} // RVA: 0x7A7664CF0
-    public void get_String3(){} // RVA: 0x7A767FF40
-    public void get_Object(){} // RVA: 0x7A7677A70
+    public void InitEvent(){} // RVA: 0x915300
+    public void get_EventType(){} // RVA: 0x77E60
+    public void get_String1(){} // RVA: 0x77ED0
+    public void get_String2(){} // RVA: 0x7E450
+    public void get_String3(){} // RVA: 0x931A0
+    public void get_Object(){} // RVA: 0x8C630
 }
 
 public class XmlNodeIdHashtable : Hashtable
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE54C430
-    public void get_Item(){} // RVA: 0x7AE54C940
+    public void .ctor(){} // RVA: 0x71C48F0
+    public void get_Item(){} // RVA: 0x71C4DE0
 }
 
 public class XmlNodeIdentety : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8CE4080
-    public void GetHashCode(){} // RVA: 0x7A8738190
-    public void Equals(){} // RVA: 0x7AE54C250
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void GetHashCode(){} // RVA: 0x1269730
+    public void Equals(){} // RVA: 0x71C4710
 }
 
 public class XmlSchemaObjectEntry : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7661E00
+    public void .ctor(){} // RVA: 0x76310
 }
 
 public class Xnnpack : Object
 {
     // ── Methods ──
-    public void get_Parser(){} // RVA: 0x7AD8D6A70
-    public void get_Descriptor(){} // RVA: 0x7AD8D6AD0
-    public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD8D6B50
-    public void .ctor(){} // RVA: 0x7AD8D6C00
-    public void Clone(){} // RVA: 0x7AD8D6CF0
-    public void get_NumThreads(){} // RVA: 0x7AD8D6E10
-    public void set_NumThreads(){} // RVA: 0x7AD848D30
-    public void get_HasNumThreads(){} // RVA: 0x7AD848D40
-    public void ClearNumThreads(){} // RVA: 0x7AD848D50
-    public void Equals(){} // RVA: 0x7AD8D6F60
-    public void GetHashCode(){} // RVA: 0x7AD8D6FF0
-    public void ToString(){} // RVA: 0x7AD8D7050
-    public void WriteTo(){} // RVA: 0x7AD825C30
-    public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD8D70A0
-    public void CalculateSize(){} // RVA: 0x7AD8D7100
-    public void MergeFrom(){} // RVA: 0x7AD825F70
-    public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD8D7290
-    public void .cctor(){} // RVA: 0x7AD8D7320
+    public void get_Parser(){} // RVA: 0x6563C10
+    public void get_Descriptor(){} // RVA: 0x6563C70
+    public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x6563CF0
+    public void .ctor(){} // RVA: 0x6563DA0
+    public void Clone(){} // RVA: 0x6563E90
+    public void get_NumThreads(){} // RVA: 0x6563FB0
+    public void set_NumThreads(){} // RVA: 0x64D65C0
+    public void get_HasNumThreads(){} // RVA: 0x64D65D0
+    public void ClearNumThreads(){} // RVA: 0x64D65E0
+    public void Equals(){} // RVA: 0x6564100
+    public void GetHashCode(){} // RVA: 0x6564190
+    public void ToString(){} // RVA: 0x65641F0
+    public void WriteTo(){} // RVA: 0x64B3910
+    public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x6564240
+    public void CalculateSize(){} // RVA: 0x65642A0
+    public void MergeFrom(){} // RVA: 0x64B3C50
+    public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x6564430
+    public void .cctor(){} // RVA: 0x65644C0
+}
+
+public class XrInitializeAnalytic : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB45C0
+    public void TryGatherData(){} // RVA: 0x7AB46F0
 }
 
 public class XsdAttributeEntry : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A9AC8120
+    public void .ctor(){} // RVA: 0x2574280
 }
 
 public class XsdBuildFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A9C160C0
-    public void Invoke(){} // RVA: 0x7A82344F0
+    public void .ctor(){} // RVA: 0x2697880
+    public void Invoke(){} // RVA: 0xCA8BF0
 }
 
 public class XsdEndChildFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8132FA0
-    public void Invoke(){} // RVA: 0x7A8133090
+    public void .ctor(){} // RVA: 0xB9DF20
+    public void Invoke(){} // RVA: 0xB9E010
 }
 
 public class XsdEntry : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE7ECD80
+    public void .ctor(){} // RVA: 0x74623F0
 }
 
 public class XsdInitFunction : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A9C160C0
-    public void Invoke(){} // RVA: 0x7A82344F0
+    public void .ctor(){} // RVA: 0x2697880
+    public void Invoke(){} // RVA: 0xCA8BF0
 }

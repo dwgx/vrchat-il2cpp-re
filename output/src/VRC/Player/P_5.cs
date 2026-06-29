@@ -1,615 +1,520 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Player
-// Classes: 32
-// Methods: 420
+// Classes: 26
+// Methods: 362
 
 namespace VRC.Player
 {
-    /// <summary>Originally: ÌÌÌÌÌÍÎÍÏÍÎÎÎÍÎÍÎÍÍÍÍÌÏ</summary>
-    public class PlayerBackgroundNameIsVRCPlus_EEC5
-    {
-        // ── Methods ──
-        public void get_BackgroundName(){} // RVA: 0x7A7E00490
-        public void get_Preview(){} // RVA: 0x7A7E00680
-        public void get_IsVRCPlus(){} // RVA: 0x7A7E01900
-        public void set_IsVRCPlus(){} // RVA: 0x7A7E00680
-        public void set_Preview(){} // RVA: 0x7A7E18770
-    }
-
-    /// <summary>Originally: ÎÎÌÏÏÌÏÏÏÏÎÍÍÎÎÎÎÎÎÌÌÏÌ</summary>
-    public class PlayerLeftHandlerSibling_A167
+    /// <summary>Originally: ÎÏÌÍÍÍÏÌÌÍÏÎÎÏÌÏÌÎÌÏÏÍÍ</summary>
+    public class PlayerLeftHandlerSibling_0461
     {
         // ── 13 unresolved (hash) ──
-        public void m_D73(){} // RVA: 0x7A7E00680
-        public void m_0F7(){} // RVA: 0x7A7E18800
-        public void m_D98(){} // RVA: 0x7A7E01900
-        public void m_C5B(){} // RVA: 0x7A7E01900
-        public void m_007(){} // RVA: 0x7A7E01900
+        public void m_38A(){} // RVA: 0x87C0A0
+        public void m_1F2(){} // RVA: 0x894320
+        public void m_559(){} // RVA: 0x87D280
+        public void m_E9C(){} // RVA: 0x87D280
+        public void m_FA3(){} // RVA: 0x87D280
         // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÌÍÍÍÌÎÍÎÏÍÏÎÏÍÍÍÎÎÎÎÏÎ</summary>
-    public class PlayerLeftSibling_F2CA
+    /// <summary>Originally: ÍÌÍÍÏÏÌÍÏÍÏÍÍÎÎÎÌÎÏÏÎÍÎ</summary>
+    public class PlayerLeftSibling_F914
     {
         // ── Unresolved (hash) ──
-        public void m_55B(){} // RVA: 0x7A7E01780
-        public void m_72E(){} // RVA: 0x7A7E01780
-        public void m_20B(){} // RVA: 0x7A7E18800
-        public void m_D3F(){} // RVA: 0x7A7E00520
+        public void m_00A(){} // RVA: 0x87D1A0
+        public void m_AE3(){} // RVA: 0x87D1A0
+        public void m_781(){} // RVA: 0x894320
+        public void m_9DD(){} // RVA: 0x87BF40
     }
 
-    /// <summary>Originally: ÏÏÌÏÎÎÏÍÌÎÍÍÏÎÍÎÌÎÏÏÍÍÌ</summary>
-    public class PlayerMoveNext_07B9 : Object
+    /// <summary>Originally: ÏÍÏÏÎÏÍÍÌÍÎÌÎÌÎÏÎÏÏÍÍÍÌ</summary>
+    public class PlayerMoveNext_1A67 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void Initialize(){} // RVA: 0x7A80D7310
-        public void get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void CompareBaseObjects(){} // RVA: 0x7A80DA7B0
-        public void IsNativeObjectAlive(){} // RVA: 0x7B11152F0
-        public void GetCachedPtr(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7B1115390
-        public void Instantiate(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B1115460
-        public void FindObjectsOfType(){} // RVA: 0x7A80DA7B0
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void GetEnumerator(){} // RVA: 0xB465B0
+        public void get_Current(){} // RVA: 0x2638F40
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x2638F50
+        public void CompareBaseObjects(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x2638F90
+        public void get_name(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x2639060
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x2638F40
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x2639180
+        public void FindObjectsByType(){} // RVA: 0x26392B0
+        public void DontDestroyOnLoad(){} // RVA: 0xB43310
+        public void MoveNext(){} // RVA: 0x26393D0
     }
 
-    /// <summary>Originally: ÌÍÍÍÌÍÏÏÍÏÍÎÎÍÎÎÏÌÍÏÏÏÌ</summary>
-    public class PlayerMoveNext_1216 : Object
+    /// <summary>Originally: ÏÍÍÍÍÍÍÍÌÏÎÎÍÏÍÌÎÌÎÍÏÏÍ</summary>
+    public class PlayerMoveNext_43EE : Object
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7B1192F60
-        public void GetEnumerator(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7B11930C0
-        public void System.Collections.Generic.IEnumerator<System.Reflection.Assembly>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void GetCachedPtr(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerable<System.Reflection.Assembly>.GetEnumerator(){} // RVA: 0x7B11930C0
-        public void set_name(){} // RVA: 0x7B1193150
-        public void Instantiate(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B11931E0
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7A80DA7B0
+        public void GetInstanceID(){} // RVA: 0x125EE60
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9F42D20
+        public void GetEnumerator(){} // RVA: 0x9F42DF0
+        public void op_Implicit(){} // RVA: 0xB43310
+        public void CompareBaseObjects(){} // RVA: 0x9F42E00
+        public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Object,VRC.DataModel.Core.UIPooledResource>>.get_Current(){} // RVA: 0x125EE60
+        public void GetCachedPtr(){} // RVA: 0x9F42ED0
+        public void get_name(){} // RVA: 0x9F42DF0
+        public void MoveNext(){} // RVA: 0x9F42F10
+        public void Instantiate(){} // RVA: 0x125EE60
+        public void Destroy(){} // RVA: 0x9F43340
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Object,VRC.DataModel.Core.UIPooledResource>>.GetEnumerator(){} // RVA: 0x9F42D20
+        public void .ctor(){} // RVA: 0x16877B0
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x9F43380
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x9F433D0
     }
 
-    /// <summary>Originally: ÎÌÏÏÌÌÏÏÍÍÍÏÌÎÍÍÎÏÏÏÎÍÎ</summary>
-    public class PlayerMoveNext_271B : Object
+    /// <summary>Originally: ÌÍÌÍÍÌÏÍÍÎÎÍÏÏÎÌÎÎÎÎÍÏÎ</summary>
+    public class PlayerMoveNext_704C : Object
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A9B890B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A9B89170
-        public void GetEnumerator(){} // RVA: 0x7A9B89180
-        public void op_Implicit(){} // RVA: 0x7A9B891C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A9B89220
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7A9B89170
-        public void set_name(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7A9B89260
-        public void Destroy(){} // RVA: 0x7A9B89650
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7A9B896B0
-        public void MoveNext(){} // RVA: 0x7A9B89780
-        public void FindObjectsByType(){} // RVA: 0x7A9B89B20
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A9B89B80
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void get_Current(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x81D6E40
+        public void CompareBaseObjects(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x81D78D0
+        public void GetCachedPtr(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0xB460A0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0xB43310
+        public void DestroyImmediate(){} // RVA: 0xB43310
+        public void FindObjectsOfType(){} // RVA: 0x81D7910
     }
 
-    /// <summary>Originally: ÌÌÍÎÏÏÌÏÎÎÎÍÍÎÎÎÌÎÎÏÌÌÍ</summary>
-    public class PlayerMoveNext_37C0 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7ACC71D80
-        public void GetEnumerator(){} // RVA: 0x7ACC71DA0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACC71E00
-        public void MoveNext(){} // RVA: 0x7ACC71E20
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AAB5A9F0
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void set_name(){} // RVA: 0x7ACC72400
-        public void Instantiate(){} // RVA: 0x7ACC729B0
-        public void Destroy(){} // RVA: 0x7ACC729C0
-        public void DestroyImmediate(){} // RVA: 0x7ACC71E00
-        public void FindObjectsOfType(){} // RVA: 0x7ACC72A20
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7ACC72A40
-        public void get_hideFlags(){} // RVA: 0x7ACC72C70
-        public void set_hideFlags(){} // RVA: 0x7ACC72E00
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x16756E0
+        public void GetEnumerator(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x5A03470
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A03630
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A03630
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A03650
+        public void System.IDisposable.Dispose(){} // RVA: 0x371F630
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÌÎÎÍÎÌÍÍÎÍÎÍÎÍÌÌÎÏÏÌÏÏÌ</summary>
-    public class PlayerMoveNext_4891 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7B11114D0
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Object,VRC.DataModel.Core.UIPooledResource>>.GetEnumerator(){} // RVA: 0x7B1111520
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7B11115F0
-        public void CompareBaseObjects(){} // RVA: 0x7B1111640
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B1111710
-        public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Object,VRC.DataModel.Core.UIPooledResource>>.get_Current(){} // RVA: 0x7A872EEF0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7B1111520
-        public void set_name(){} // RVA: 0x7B1111750
-        public void MoveNext(){} // RVA: 0x7B11117A0
-        public void Destroy(){} // RVA: 0x7B1111BD0
-        public void .ctor(){} // RVA: 0x7A8B94660
-        public void Initialize(){} // RVA: 0x7A872EEF0
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x5A02360
+        public void GetEnumerator(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x5A02390
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A025C0
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A025C0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A025E0
+        public void System.IDisposable.Dispose(){} // RVA: 0x5A026D0
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÎÍÌÌÌÏÍÎÌÌÏÎÏÏÍÎÎÌÍÍÌÍÎ</summary>
-    public class PlayerMoveNext_8D6C : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7AF380A50
-        public void CompareBaseObjects(){} // RVA: 0x7A80DA7B0
-        public void IsNativeObjectAlive(){} // RVA: 0x7AF381530
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void set_name(){} // RVA: 0x7AF381570
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AF382040
-        public void Destroy(){} // RVA: 0x7AF382080
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x5A027D0
+        public void GetEnumerator(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x5A027F0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A02A30
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A02A30
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A02A50
+        public void System.IDisposable.Dispose(){} // RVA: 0x5A02B40
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÍÏÍÌÌÌÍÌÍÎÏÌÎÍÏÎÏÎÎÍÍÌÌ</summary>
-    public class PlayerMoveNext_8F06 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7A9B86090
-        public void GetEnumerator(){} // RVA: 0x7A9B86160
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A9B86090
-        public void CompareBaseObjects(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A9B862F0
-        public void GetCachedPtr(){} // RVA: 0x7A9B86330
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void MoveNext(){} // RVA: 0x7A9B86370
-        public void FindObjectsOfType(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7A8572EF0
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x5A04F50
+        public void GetEnumerator(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x5A04F80
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A03C80
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A03C80
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A03CA0
+        public void System.IDisposable.Dispose(){} // RVA: 0x5A051D0
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÎÏÌÎÍÎÏÍÌÎÌÍÌÏÍÎÍÌÏÎÎÎÎ</summary>
-    public class PlayerMoveNext_A2A2 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7B1022A30
-        public void get_Current(){} // RVA: 0x7A80DA7B0
-        public void Equals(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void GetCachedPtr(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B1022BC0
-        public void Instantiate(){} // RVA: 0x7B1022C00
-        public void Destroy(){} // RVA: 0x7B1022C40
-        public void DestroyImmediate(){} // RVA: 0x7B1022CE0
+        public void .ctor(){} // RVA: 0x33C7050
+        public void Initialize(){} // RVA: 0x5A03740
+        public void GetEnumerator(){} // RVA: 0x3722200
+        public void MoveNext(){} // RVA: 0x5A03760
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A030F0
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3722200
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A030F0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A03110
+        public void System.IDisposable.Dispose(){} // RVA: 0x5A03920
+        public void FindObjectsOfType(){} // RVA: 0x3722200
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x116A650
     }
 
-    /// <summary>Originally: ÎÌÍÍÍÍÍÎÍÏÌÌÍÍÌÌÍÎÎÎÏÏÎ</summary>
-    public class PlayerMoveNext_B897 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7AF38A520
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void Initialize(){} // RVA: 0x7AF38A890
-        public void IsNativeObjectAlive(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void get_name(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AF38A8D0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void Destroy(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x33C7050
+        public void Initialize(){} // RVA: 0x16756E0
+        public void GetEnumerator(){} // RVA: 0x3722200
+        public void MoveNext(){} // RVA: 0x5A03200
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A03360
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3722200
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A03360
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A03380
+        public void System.IDisposable.Dispose(){} // RVA: 0x371F630
+        public void FindObjectsOfType(){} // RVA: 0x3722200
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x116A650
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÍÏÎÍÏÌÍÎÎÏÏÌÌÌÌÏÍÏÍÏÍÍÎ</summary>
+    public class PlayerMoveNext_7CA9 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7ACD8ABA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD8ABC0
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD89F50
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7ACD8ACB0
-        public void get_name(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7ACD8AE70
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD8ABA0
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7AAB61DC0
-        public void FindObjectsByType(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void .ctor(){} // RVA: 0x33C7050
+        public void Initialize(){} // RVA: 0x16756E0
+        public void GetEnumerator(){} // RVA: 0x3722200
+        public void MoveNext(){} // RVA: 0x5A02F90
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void IsNativeObjectAlive(){} // RVA: 0x5A030F0
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x3722200
+        public void set_name(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A030F0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x5A03110
+        public void System.IDisposable.Dispose(){} // RVA: 0x371F630
+        public void FindObjectsOfType(){} // RVA: 0x3722200
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x116A650
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÌÍÎÍÎÌÎÎÍÍÌÎÍÍÎÎÍÌÏÌÏÍÏ</summary>
+    public class PlayerMoveNext_91BA : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA866740
-        public void Initialize(){} // RVA: 0x7ACD8A3D0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD8A3F0
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD8B050
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7ACD8A4E0
-        public void MoveNext(){} // RVA: 0x7ACD8B130
-        public void get_name(){} // RVA: 0x7ACD8B2F0
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A8668BC0
-        public void Instantiate(){} // RVA: 0x7ACD8B310
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD8A3D0
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7ACD8B4A0
-        public void FindObjectsByType(){} // RVA: 0x7ACD8B2F0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void System.Collections.Generic.IEnumerable<(DataType,BoundType)>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void GetEnumerator(){} // RVA: 0x87D280
+        public void System.IDisposable.Dispose(){} // RVA: 0x894290
+        public void System.Collections.Generic.IEnumerator<(DataType,BoundType)>.get_Current(){} // RVA: 0xA94080
+        public void CompareBaseObjects(){} // RVA: 0x894290
+        public void MoveNext(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x894290
+        public void set_name(){} // RVA: 0x894290
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void Destroy(){} // RVA: 0x894290
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x894290
+        public void FindObjectsByType(){} // RVA: 0x894290
+        public void DontDestroyOnLoad(){} // RVA: 0x894290
+        public void get_hideFlags(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0x8944F0
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÎÏÌÍÏÏÎÎÏÎÍÌÏÌÏÎÏÏÌÌÌÍÌ</summary>
+    public class PlayerMoveNext_95D0 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7ACD89730
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD89750
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD89840
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7ACD89920
-        public void get_name(){} // RVA: 0x7ACD89B60
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7ACD89B80
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD89730
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7ACD89DA0
-        public void FindObjectsByType(){} // RVA: 0x7ACD89B60
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x263B2D0
+        public void GetEnumerator(){} // RVA: 0x263B310
+        public void MoveNext(){} // RVA: 0x263B6C0
+        public void op_Implicit(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x1093150
+        public void Initialize(){} // RVA: 0x263BA60
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x263BAC0
+        public void get_name(){} // RVA: 0x263BB90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x263BFC0
+        public void System.IDisposable.Dispose(){} // RVA: 0x263BFD0
+        public void Destroy(){} // RVA: 0x263C090
+        public void DestroyImmediate(){} // RVA: 0x263C4C0
+        public void FindObjectsOfType(){} // RVA: 0x263BFC0
+        public void FindObjectsByType(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÎÌÌÍÎÍÏÌÎÌÏÏÌÎÍÎÎÎÍÎÎÌÏ</summary>
+    public class PlayerMoveNext_9ABA : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA866740
-        public void Initialize(){} // RVA: 0x7ACD8A7D0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD8A7F0
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD89F50
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7ACD8A4E0
-        public void MoveNext(){} // RVA: 0x7ACD8A8E0
-        public void get_name(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A8668BC0
-        public void Instantiate(){} // RVA: 0x7ACD8AA40
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD8A7D0
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7AAB61DC0
-        public void FindObjectsByType(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void .ctor(){} // RVA: 0x1093150
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void GetEnumerator(){} // RVA: 0x31EA210
+        public void op_Implicit(){} // RVA: 0x31EA210
+        public void CompareBaseObjects(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5A59640
+        public void GetCachedPtr(){} // RVA: 0x31EA210
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void MoveNext(){} // RVA: 0x5A59730
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
+        public void Destroy(){} // RVA: 0x5A597B0
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x33C79F0
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÏÏÎÌÎÌÎÏÍÏÌÎÏÌÏÌÌÎÏÏÍÎÍ</summary>
+    public class PlayerMoveNext_C204 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7ACD89000
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD89020
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD89110
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7ACD89210
-        public void get_name(){} // RVA: 0x7ACD89440
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7ACD89470
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD89000
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7ACD89680
-        public void FindObjectsByType(){} // RVA: 0x7ACD89440
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void .ctor(){} // RVA: 0x1093150
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x3717D00
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void op_Implicit(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0xB465B0
+        public void IsNativeObjectAlive(){} // RVA: 0x5C93910
+        public void MoveNext(){} // RVA: 0x5C93970
+        public void System.IDisposable.Dispose(){} // RVA: 0x5C93F50
+        public void set_name(){} // RVA: 0x5C94190
+        public void Instantiate(){} // RVA: 0x5C941C0
+        public void Destroy(){} // RVA: 0x5C94760
+        public void DestroyImmediate(){} // RVA: 0x5C94770
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void FindObjectsByType(){} // RVA: 0x5C947A0
+        public void DontDestroyOnLoad(){} // RVA: 0x5C947D0
+        public void get_hideFlags(){} // RVA: 0x5C947E0
+        public void set_hideFlags(){} // RVA: 0x5C94810
+        public void FindObjectOfType(){} // RVA: 0x5C94830
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5C94810
     }
 
-    /// <summary>Originally: ÌÎÍÏÎÌÏÏÏÍÌÍÍÍÎÎÏÎÎÌÎÎÏ</summary>
-    public class PlayerMoveNext_BA49 : Object
+    /// <summary>Originally: ÌÌÌÏÏÍÌÍÍÏÍÏÌÍÎÎÏÎÎÎÍÍÌ</summary>
+    public class PlayerMoveNext_CA90 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA866740
-        public void Initialize(){} // RVA: 0x7ACD8A3D0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7ACD8A3F0
-        public void op_Implicit(){} // RVA: 0x7AA6AFF20
-        public void CompareBaseObjects(){} // RVA: 0x7ACD89F50
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7ACD8A4E0
-        public void MoveNext(){} // RVA: 0x7ACD8A510
-        public void get_name(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A8668BC0
-        public void Instantiate(){} // RVA: 0x7ACD8A670
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACD8A3D0
-        public void DestroyImmediate(){} // RVA: 0x7AA6AFF20
-        public void System.IDisposable.Dispose(){} // RVA: 0x7AAB61DC0
-        public void FindObjectsByType(){} // RVA: 0x7A8B7F8D0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
+        public void GetInstanceID(){} // RVA: 0x9FCF4D0
+        public void System.Collections.Generic.IEnumerable<System.Reflection.Assembly>.GetEnumerator(){} // RVA: 0x9FCF4E0
+        public void System.Collections.Generic.IEnumerator<System.Reflection.Assembly>.get_Current(){} // RVA: 0xB465B0
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void MoveNext(){} // RVA: 0x9FCF570
+        public void IsNativeObjectAlive(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x9FCF6A0
+        public void get_name(){} // RVA: 0xB465B0
+        public void set_name(){} // RVA: 0x9FCF6E0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void Destroy(){} // RVA: 0xB465B0
+        public void DestroyImmediate(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9FCF4D0
+        public void .ctor(){} // RVA: 0x1093150
     }
 
-    /// <summary>Originally: ÎÎÌÎÍÏÎÎÏÍÍÍÍÍÎÏÌÎÍÌÏÎÏ</summary>
-    public class PlayerMoveNext_CD3C : Object
+    /// <summary>Originally: ÍÎÎÎÌÍÏÎÏÌÍÏÍÍÍÌÎÎÍÍÍÏÎ</summary>
+    public class PlayerMoveNext_D254 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B104F230
-        public void op_Implicit(){} // RVA: 0x7B104F270
-        public void CompareBaseObjects(){} // RVA: 0x7B104F4E0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void get_name(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7B104F4E0
-        public void Instantiate(){} // RVA: 0x7B104F760
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void DestroyImmediate(){} // RVA: 0x7B104F7A0
-        public void FindObjectsOfType(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void GetEnumerator(){} // RVA: 0x263C520
+        public void get_Current(){} // RVA: 0x263C580
+        public void op_Implicit(){} // RVA: 0xB465B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x263C650
+        public void IsNativeObjectAlive(){} // RVA: 0x263C710
+        public void GetCachedPtr(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x263C770
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x263C7B0
+        public void .ctor(){} // RVA: 0x1093150
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0xB465B0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x263C880
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x263C7B0
     }
 
-    /// <summary>Originally: ÍÏÎÎÌÎÎÌÍÌÌÍÌÏÏÌÏÏÍÍÏÍÎ</summary>
-    public class PlayerMoveNext_CE89 : Object
+    /// <summary>Originally: ÍÍÌÌÎÏÌÏÍÏÏÎÌÎÏÍÌÌÌÌÌÏÌ</summary>
+    public class PlayerMoveNext_DCF7 : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A9B86AD0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A9B86AE0
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7A9B86B20
-        public void MoveNext(){} // RVA: 0x7A9B86B60
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7A9B86C80
-        public void Instantiate(){} // RVA: 0x7A9B86D50
-        public void Destroy(){} // RVA: 0x7A80DA7B0
-        public void DestroyImmediate(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A9B86AD0
+        public void GetInstanceID(){} // RVA: 0x2638460
+        public void GetEnumerator(){} // RVA: 0x26384A0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0xB465B0
+        public void .ctor(){} // RVA: 0x1093150
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x2638630
+        public void MoveNext(){} // RVA: 0x2638700
+        public void get_name(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x2638890
+        public void Instantiate(){} // RVA: 0xB43310
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x2638630
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void FindObjectsByType(){} // RVA: 0xB465B0
     }
 
-    /// <summary>Originally: ÌÏÎÍÌÌÍÌÌÍÌÌÎÍÎÌÏÍÎÎÎÏÍ</summary>
-    public class PlayerMoveNext_E13B : Object
+    /// <summary>Originally: ÍÌÍÌÏÏÌÌÏÏÌÏÍÌÍÎÌÏÍÌÍÎÍ</summary>
+    public class PlayerMoveNext_F7AD : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AA866740
-        public void MoveNext(){} // RVA: 0x7ACDBC250
-        public void GetEnumerator(){} // RVA: 0x7AA6AFF20
-        public void op_Implicit(){} // RVA: 0x7ACDBC5C0
-        public void CompareBaseObjects(){} // RVA: 0x7ACDBC620
-        public void IsNativeObjectAlive(){} // RVA: 0x7ACDBC620
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A8668BC0
-        public void get_name(){} // RVA: 0x7ACDBC650
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
-        public void Instantiate(){} // RVA: 0x7ACDBC6B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7ACDBC620
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AA866B00
-        public void System.IDisposable.Dispose(){} // RVA: 0x7ACDBC9F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACDBCAC0
+        public void .ctor(){} // RVA: 0xB460A0
+        public void Initialize(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x81E1650
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x81E19C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
+        public void get_name(){} // RVA: 0x81E1A00
+        public void set_name(){} // RVA: 0xB465B0
+        public void Instantiate(){} // RVA: 0xB465B0
+        public void Destroy(){} // RVA: 0x81E1A40
+        public void DestroyImmediate(){} // RVA: 0x81E1A80
     }
 
-    /// <summary>Originally: ÍÌÎÍÏÎÍÏÏÌÎÍÎÌÌÌÍÎÌÎÏÌÎ</summary>
-    public class PlayerMoveNext_ED0D : Object
+    /// <summary>Originally: ÌÌÏÍÍÍÍÏÌÎÎÏÏÎÌÎÍÌÍÎÎÍÍ</summary>
+    public class PlayerMoveNext_F929 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void MoveNext(){} // RVA: 0x7ACDD0340
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7AA6AFF20
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AA8670E0
-        public void IsNativeObjectAlive(){} // RVA: 0x7ACDD03C0
-        public void GetCachedPtr(){} // RVA: 0x7ACDD0430
-        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void set_name(){} // RVA: 0x7A80D7310
-        public void Instantiate(){} // RVA: 0x7A80D7310
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ACDD0430
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void FindObjectsOfType(){} // RVA: 0x7A80D7310
-        public void FindObjectsByType(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x33C7050
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x31EA210
+        public void System.Collections.Generic.IEnumerator<T>.get_Current(){} // RVA: 0x116A650
+        public void System.IDisposable.Dispose(){} // RVA: 0x5955D70
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5955E40
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x5955E60
+        public void GetCachedPtr(){} // RVA: 0x5955E60
+        public void get_name(){} // RVA: 0x5955E90
+        public void set_name(){} // RVA: 0x31EA210
+        public void Instantiate(){} // RVA: 0x5955EF0
+        public void Destroy(){} // RVA: 0x59561D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x33C7410
+        public void FindObjectsOfType(){} // RVA: 0x5955E40
+        public void FindObjectsByType(){} // RVA: 0x5956230
+        public void MoveNext(){} // RVA: 0x5956290
     }
 
-    /// <summary>Originally: ÎÏÍÎÎÏÎÌÏÏÏÎÍÌÏÎÎÌÎÏÍÏÌ</summary>
-    public class PlayerMoveNext_EE41 : Object
+    /// <summary>Originally: ÎÎÎÎÎÌÌÏÎÌÌÎÌÌÍÍÌÌÍÏÏÌÎ</summary>
+    public class PlayerMoveNext_FC0A : Object
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B0F85990
-        public void get_Current(){} // RVA: 0x7B0F859D0
-        public void op_Implicit(){} // RVA: 0x7B0F85A10
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void GetCachedPtr(){} // RVA: 0x7B0F85A50
-        public void MoveNext(){} // RVA: 0x7B0F85A90
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void Initialize(){} // RVA: 0x7A80D7310
-        public void Destroy(){} // RVA: 0x7A80DA7B0
-        public void DestroyImmediate(){} // RVA: 0x7A80DA7B0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xB465B0
+        public void MoveNext(){} // RVA: 0x9F481B0
+        public void get_Current(){} // RVA: 0x9F48280
+        public void op_Implicit(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x9F48350
+        public void System.IDisposable.Dispose(){} // RVA: 0xB43310
+        public void .ctor(){} // RVA: 0xB460A0
+        public void Initialize(){} // RVA: 0x9F48390
+        public void set_name(){} // RVA: 0xB43310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xB465B0
+        public void Destroy(){} // RVA: 0xB465B0
+        public void DestroyImmediate(){} // RVA: 0x9F483D0
     }
 
-    /// <summary>Originally: ÎÍÍÌÏÍÏÍÌÎÎÌÌÍÍÍÍÏÏÌÍÌÏ</summary>
-    public class PlayerMoveNext_F096 : Object
+    /// <summary>Originally: ÌÌÎÎÌÍÏÍÎÎÌÌÍÏÍÌÍÍÎÍÍÌÌ</summary>
+    public class PlayerOwnerCanUseAnimatedEmoji_7FB4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80DA0C0
-        public void Initialize(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A80D7310
-        public void CompareBaseObjects(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7B0F652B0
-        public void GetCachedPtr(){} // RVA: 0x7A80D7310
-        public void get_name(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7B0F656E0
-        public void Instantiate(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7A80DA7B0
+        public void get_IsAnimated(){} // RVA: 0x87D280
+        public void get_IsPremium(){} // RVA: 0x87D280
+        public void get_LoadFrom(){} // RVA: 0x87C130
+        public void get_Frames(){} // RVA: 0x87C130
+        public void get_FPS(){} // RVA: 0x87C130
+        public void get_LoopStyle(){} // RVA: 0x87C0A0
+        public void set_LoopStyle(){} // RVA: 0x894320
+        public void get_SpawnablePrefabName(){} // RVA: 0x87C0A0
+        public void get_DisplayTexture(){} // RVA: 0x87C0A0
+        public void get_FullResolutionTexture(){} // RVA: 0x87C0A0
+        public void get_Sprite(){} // RVA: 0x87C0A0
+        public void get_MaskTag(){} // RVA: 0x87C0A0
+        public void get_AnimationStyle(){} // RVA: 0x87C0A0
+        public void set_AnimationStyle(){} // RVA: 0x894320
+        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x87D280
+        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x894750
+        public void get_FileId(){} // RVA: 0x87C0A0
+        public void get_IsBuiltIn(){} // RVA: 0x87D280
     }
 
-    /// <summary>Originally: ÌÍÎÎÏÏÍÎÍÍÌÎÏÌÎÌÏÏÍÍÏÍÏ</summary>
-    public class PlayerMoveNext_F4CC : Object
+    /// <summary>Originally: ÍÌÍÎÍÏÏÎÍÎÍÏÎÎÎÎÌÎÍÎÌÌÌ</summary>
+    public class PlayerRectTransformDimensRelated_2317 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7A80DA7B0
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7A9B89BC0
-        public void .ctor(){} // RVA: 0x7A8572EF0
-        public void Initialize(){} // RVA: 0x7A9B89C90
-        public void CompareBaseObjects(){} // RVA: 0x7A9B89CF0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A9B89DC0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A9B89E20
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A9B89E60
-        public void set_name(){} // RVA: 0x7A80DA7B0
-        public void Instantiate(){} // RVA: 0x7A80DA7B0
-        public void Destroy(){} // RVA: 0x7A9B89E60
-        public void DestroyImmediate(){} // RVA: 0x7A9B89E70
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A80DA7B0
-        public void MoveNext(){} // RVA: 0x7A9B89ED0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7A9B8A280
+        public void GetInstanceID(){} // RVA: 0xA092090
+        public void Equals(){} // RVA: 0xA092150
+        public void .ctor(){} // RVA: 0xA092220
+        public void Initialize(){} // RVA: 0x2230E30
+        public void CompareBaseObjects(){} // RVA: 0x3926E10
+        public void IsNativeObjectAlive(){} // RVA: 0xA092380
+        public void GetCachedPtr(){} // RVA: 0x3926E10
+        public void get_name(){} // RVA: 0x3926E10
+        public void set_name(){} // RVA: 0x2230E30
+        public void Instantiate(){} // RVA: 0xA093350
+        public void Destroy(){} // RVA: 0xA093420
+        public void DestroyImmediate(){} // RVA: 0x2230E30
+        public void FindObjectsOfType(){} // RVA: 0xA0934F0
     }
 
-    /// <summary>Originally: ÎÏÌÍÎÏÏÍÎÌÎÏÍÎÍÍÏÎÌÌÌÎÏ</summary>
-    public class PlayerNetSibling_CFE3
+    /// <summary>Originally: ÍÎÍÏÏÌÍÎÎÍÌÏÏÍÌÌÌÎÍÎÏÍÍ</summary>
+    public class PlayerRectTransformDimensRelated_34A3 : ValueType
     {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x92FC0
+        public void .ctor(){} // RVA: 0x92FD0
+        public void Initialize(){} // RVA: 0x77ED0
+        public void GetHashCode(){} // RVA: 0x93030
+        public void InternalGetHashCode(){} // RVA: 0x77E60
+        public void ToString(){} // RVA: 0x29580
+        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
+        public void x(){} // RVA: 0x77ED0
         // ── Unresolved (hash) ──
-        public void m_6C2(){} // RVA: 0x7A7E00490
-        public void m_4B2(){} // RVA: 0x7A7E00680
-        public void m_6D6(){} // RVA: 0x7A7E00680
-        public void m_2F3(){} // RVA: 0x7A7E00680
-        public void m_1C4(){} // RVA: 0x7A7E18770
+        public void m_10A(){} // RVA: 0x77E70
+        public void m_43C(){} // RVA: 0x77E70
+        public void m_8F4(){} // RVA: 0x77E70
+        public void m_E4C(){} // RVA: 0x92FC0
+        public void m_1A0(){} // RVA: 0x29580
+        public void m_1DE(){} // RVA: 0x93030
     }
 
-    /// <summary>Originally: ÎÍÎÍÎÏÌÍÎÏÏÎÏÎÍÏÎÏÍÎÍÏÏ</summary>
-    public class PlayerOwnerCanUseAnimatedEmoji_75F6
+    /// <summary>Originally: ÍÎÍÎÎÌÎÏÌÌÍÏÎÎÌÌÍÎÎÏÌÏÎ</summary>
+    public class PlayerRectTransformDimensRelated_E8FA : Object
     {
         // ── Methods ──
-        public void get_IsAnimated(){} // RVA: 0x7A7E01900
-        public void get_IsPremium(){} // RVA: 0x7A7E01900
-        public void get_LoadFrom(){} // RVA: 0x7A7E00710
-        public void get_Frames(){} // RVA: 0x7A7E00710
-        public void get_FPS(){} // RVA: 0x7A7E00710
-        public void get_LoopStyle(){} // RVA: 0x7A7E00680
-        public void set_LoopStyle(){} // RVA: 0x7A7E18800
-        public void get_SpawnablePrefabName(){} // RVA: 0x7A7E00680
-        public void get_DisplayTexture(){} // RVA: 0x7A7E00680
-        public void get_FullResolutionTexture(){} // RVA: 0x7A7E00680
-        public void get_Sprite(){} // RVA: 0x7A7E00680
-        public void get_MaskTag(){} // RVA: 0x7A7E00680
-        public void get_AnimationStyle(){} // RVA: 0x7A7E00680
-        public void set_AnimationStyle(){} // RVA: 0x7A7E18800
-        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7A7E01900
-        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7A7E18C30
-        public void get_FileId(){} // RVA: 0x7A7E00680
-        public void get_IsBuiltIn(){} // RVA: 0x7A7E01900
-    }
-
-    /// <summary>Originally: ÍÎÎÎÌÎÎÏÌÌÏÍÌÍÌÌÌÍÎÌÏÍÍ</summary>
-    public class PlayerRectTransformDimensRelated_3761 : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A765F080
-        public void InternalEquals(){} // RVA: 0x7A767FE70
-        public void DefaultEquals(){} // RVA: 0x7A765F070
-        public void .ctor(){} // RVA: 0x7A767FE80
-        public void Initialize(){} // RVA: 0x7A76134D0
-        public void GetHashCode(){} // RVA: 0x7A76134D0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A767FEE0
-        public void ToString(){} // RVA: 0x7A765F080
-        // ── Unresolved (hash) ──
-        public void m_48A(){} // RVA: 0x7A76134D0
-        public void m_B0D(){} // RVA: 0x7A765F070
-        public void m_520(){} // RVA: 0x7A767FEE0
-        public void m_8A4(){} // RVA: 0x7A767FE70
-        public void m_354(){} // RVA: 0x7A767FE70
-        public void m_2EC(){} // RVA: 0x7A767FEE0
-        public void m_4EE(){} // RVA: 0x7A765F010
-    }
-
-    /// <summary>Originally: ÌÏÎÍÎÏÍÌÎÌÏÎÌÌÌÏÎÏÌÏÏÎÎ</summary>
-    public class PlayerRectTransformDimensRelated_747A : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7B1228690
-        public void Equals(){} // RVA: 0x7B1228760
-        public void .ctor(){} // RVA: 0x7B1229740
-        public void Initialize(){} // RVA: 0x7A97242F0
-        public void CompareBaseObjects(){} // RVA: 0x7A97242F0
-        public void IsNativeObjectAlive(){} // RVA: 0x7AACD8DF0
-        public void GetCachedPtr(){} // RVA: 0x7AACD8DF0
-        public void get_name(){} // RVA: 0x7B12298A0
-        public void set_name(){} // RVA: 0x7AACD8DF0
-        public void Instantiate(){} // RVA: 0x7AACD8DF0
-        public void Destroy(){} // RVA: 0x7A97242F0
-    }
-
-    /// <summary>Originally: ÍÌÎÎÍÏÌÍÌÏÍÌÏÎÎÎÎÏÏÍÍÏÏ</summary>
-    public class PlayerRectTransformDimensRelated_A30E : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A767FBC0
-        public void InternalEquals(){} // RVA: 0x7A767FBC0
-        public void DefaultEquals(){} // RVA: 0x7A75FEFA0
-        public void GetHashCode(){} // RVA: 0x7A7637E60
-        public void InternalGetHashCode(){} // RVA: 0x7A75FEFA0
-        public void ToString(){} // RVA: 0x7A75FEFA0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A765F710
-        // ── Unresolved (hash) ──
-        public void m_1BA(){} // RVA: 0x7A75FEFA0
-        public void m_114(){} // RVA: 0x7A765F710
-        public void m_364(){} // RVA: 0x7A7637E60
-        public void m_30E(){} // RVA: 0x7A765F710
-        public void m_EE5(){} // RVA: 0x7A7637E60
-    }
-
-    /// <summary>Originally: ÍÍÎÎÍÍÎÏÌÌÍÎÌÎÍÏÍÎÎÏÌÏÌ</summary>
-    public class PlayerRectTransformDimensRelated_C716 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A97242F0
-        public void Equals(){} // RVA: 0x7AACD8DF0
-        public void .ctor(){} // RVA: 0x7B1227440
-        public void Initialize(){} // RVA: 0x7B12275A0
-        public void CompareBaseObjects(){} // RVA: 0x7B1228500
-        public void IsNativeObjectAlive(){} // RVA: 0x7B12285C0
-        public void GetCachedPtr(){} // RVA: 0x7AACD8DF0
-        public void get_name(){} // RVA: 0x7A97242F0
-        public void set_name(){} // RVA: 0x7AACD8DF0
-        public void Instantiate(){} // RVA: 0x7A97242F0
-    }
-
-    /// <summary>Originally: ÍÌÌÎÎÎÎÌÏÏÏÏÏÏÌÌÏÎÌÎÏÍÌ</summary>
-    public class PlayerRectTransformDimensRelated_E032 : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7AAD06300
-        public void .ctor(){} // RVA: 0x7B1226AE0
-        public void Initialize(){} // RVA: 0x7A82FDB30
-        public void op_Implicit(){} // RVA: 0x7A9739200
-        public void CompareBaseObjects(){} // RVA: 0x7B1226B40
-        public void IsNativeObjectAlive(){} // RVA: 0x7AAD06300
-        public void GetCachedPtr(){} // RVA: 0x7A80DA0C0
-        public void get_name(){} // RVA: 0x7A9739200
-        public void set_name(){} // RVA: 0x7A8124910
-        public void Instantiate(){} // RVA: 0x7AAD06300
-        public void Destroy(){} // RVA: 0x7A9739200
-        public void DestroyImmediate(){} // RVA: 0x7A96B3750
-        public void FindObjectsOfType(){} // RVA: 0x7A8669350
-        public void FindObjectsByType(){} // RVA: 0x7A9746990
-        public void DontDestroyOnLoad(){} // RVA: 0x7B1227230
-        public void get_hideFlags(){} // RVA: 0x7AAD06300
-        public void set_hideFlags(){} // RVA: 0x7A9746990
-        public void FindObjectOfType(){} // RVA: 0x7A851DB90
-        public void FindFirstObjectByType(){} // RVA: 0x7A80F29B0
-        public void CheckNullArgument(){} // RVA: 0x7A9727920
-        public void Equals(){} // RVA: 0x7A80F29B0
-        public void op_Equality(){} // RVA: 0x7A8738180
-        public void op_Inequality(){} // RVA: 0x7A8669350
+        public void GetInstanceID(){} // RVA: 0x2230E30
+        public void .ctor(){} // RVA: 0xA08E7E0
+        public void Initialize(){} // RVA: 0xA08E940
+        public void op_Implicit(){} // RVA: 0x2230E30
+        public void CompareBaseObjects(){} // RVA: 0x2230E30
+        public void IsNativeObjectAlive(){} // RVA: 0x2230E30
+        public void GetCachedPtr(){} // RVA: 0x3926E10
+        public void get_name(){} // RVA: 0xA08F680
+        public void set_name(){} // RVA: 0xA0905E0
+        public void Instantiate(){} // RVA: 0xA0906A0
+        public void Destroy(){} // RVA: 0xA091370
     }
 
 }

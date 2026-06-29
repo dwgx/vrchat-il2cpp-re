@@ -1,139 +1,378 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 16
-// Methods: 55
+// Classes: 41
+// Methods: 169
 
 public class MD5 : Object
 {
     // ── Methods ──
-    public void TryParse(){} // RVA: 0x7AE608B80
-    public void .cctor(){} // RVA: 0x7AE608CE0
+    public void TryParse(){} // RVA: 0x727F590
+    public void .cctor(){} // RVA: 0x727F6F0
+}
+
+public class Map : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x360710
+}
+
+public class MemberDescriptorComparer : Object
+{
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x77096D0
+    public void .ctor(){} // RVA: 0xB43310
+    public void .cctor(){} // RVA: 0x77098E0
+}
+
+public class MemberExpressionProxy : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7049780
+    public void get_CanReduce(){} // RVA: 0x10AD460
+    public void get_DebugView(){} // RVA: 0x7048AD0
+    public void get_Expression(){} // RVA: 0x13F9340
+    public void get_Member(){} // RVA: 0x678C250
+    public void get_NodeType(){} // RVA: 0x10AD380
+    public void get_Type(){} // RVA: 0x10ACB60
+}
+
+public class MemberInitExpressionProxy : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7049860
+    public void get_Bindings(){} // RVA: 0x13F9400
+    public void get_CanReduce(){} // RVA: 0x10AD460
+    public void get_DebugView(){} // RVA: 0x7048AD0
+    public void get_NewExpression(){} // RVA: 0x13F9340
+    public void get_NodeType(){} // RVA: 0x10AD380
+    public void get_Type(){} // RVA: 0x10ACB60
 }
 
 public class MemoizeSource : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A80D8E20
+    public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MemoizeSource : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A80D8E20
-}
-
-public class MemoizeSource : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A80D8E20
+    public void .ctor(){} // RVA: 0xB44D60
 }
 
 public class MergedRestriction : BindingRestrictions
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE44EC80
-    public void GetExpression(){} // RVA: 0x7AE44ED90
+    public void .ctor(){} // RVA: 0x70CB470
+    public void GetExpression(){} // RVA: 0x70CB580
 }
 
 public class MergedRuntimeVariables : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A81B7C50
-    public void get_Count(){} // RVA: 0x7AC20CEC0
-    public void get_Item(){} // RVA: 0x7AE44CE40
-    public void set_Item(){} // RVA: 0x7AE44CED0
+    public void .ctor(){} // RVA: 0xC27FD0
+    public void get_Count(){} // RVA: 0x4F208B0
+    public void get_Item(){} // RVA: 0x70C9670
+    public void set_Item(){} // RVA: 0x70C9700
+}
+
+public class MergedTypeDescriptor : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x17C92C0
+    public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x7709980
+    public void System.ComponentModel.ICustomTypeDescriptor.GetClassName(){} // RVA: 0x77099E0
+    public void System.ComponentModel.ICustomTypeDescriptor.GetComponentName(){} // RVA: 0x7709A50
+    public void System.ComponentModel.ICustomTypeDescriptor.GetConverter(){} // RVA: 0x7709AC0
+    public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent(){} // RVA: 0x7709B20
+    public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty(){} // RVA: 0x7709B80
+    public void System.ComponentModel.ICustomTypeDescriptor.GetEditor(){} // RVA: 0x7709BE0
+    public void System.ComponentModel.ICustomTypeDescriptor.GetEvents(){} // RVA: 0x7709D30
+    public void System.ComponentModel.ICustomTypeDescriptor.GetProperties(){} // RVA: 0x7709E00
+    public void System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(){} // RVA: 0x7709E70
+}
+
+public class MetaDynamic : DynamicMetaObject
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x70CE700
+    public void GetDynamicMemberNames(){} // RVA: 0x70CE7C0
+    public void BindGetMember(){} // RVA: 0x70CE800
+    public void BindSetMember(){} // RVA: 0x70CEA90
+    public void BindDeleteMember(){} // RVA: 0x70CECE0
+    public void BindConvert(){} // RVA: 0x70CEF70
+    public void BindInvokeMember(){} // RVA: 0x70CF200
+    public void BindCreateInstance(){} // RVA: 0x70CF540
+    public void BindInvoke(){} // RVA: 0x70CF770
+    public void BindBinaryOperation(){} // RVA: 0x70CF9A0
+    public void BindUnaryOperation(){} // RVA: 0x70CFC10
+    public void BindGetIndex(){} // RVA: 0x70CFEA0
+    public void BindSetIndex(){} // RVA: 0x70D00D0
+    public void BindDeleteIndex(){} // RVA: 0x70D0380
+    public void GetConvertedArgs(){} // RVA: 0x70D05B0
+    public void ReferenceArgAssign(){} // RVA: 0x70D0870
+    public void BuildCallArgs(){} // RVA: 0xA94080
+    public void Constant(){} // RVA: 0xA94080
+    public void CallMethodWithResult(){} // RVA: 0xA94080
+    public void BuildCallMethodWithResult(){} // RVA: 0xA94080
+    public void CallMethodReturnLast(){} // RVA: 0xA94080
+    public void CallMethodNoResult(){} // RVA: 0xA94080
+    public void IsOverridden(){} // RVA: 0x70D0B00
+    public void GetRestrictions(){} // RVA: 0x70D0D30
+    public void GetLimitedSelf(){} // RVA: 0x70D0D80
+    public void get_Value(){} // RVA: 0x70D0F40
+    public void .cctor(){} // RVA: 0x70D0FC0
 }
 
 public class MetaExpando : DynamicMetaObject
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7AE459AF0
-    public void BindGetOrInvokeMember(){} // RVA: 0x7AE459BB0
-    public void BindGetMember(){} // RVA: 0x7AE45A4B0
-    public void BindInvokeMember(){} // RVA: 0x7AE45A590
-    public void BindSetMember(){} // RVA: 0x7AE45A7C0
-    public void BindDeleteMember(){} // RVA: 0x7AE45AE00
-    public void GetDynamicMemberNames(){} // RVA: 0x7AE45B310
-    public void AddDynamicTestAndDefer(){} // RVA: 0x7AE45B3C0
-    public void GetClassEnsureIndex(){} // RVA: 0x7AE45B800
-    public void GetLimitedSelf(){} // RVA: 0x7AE45BA30
-    public void GetRestrictions(){} // RVA: 0x7AE45BB80
-    public void get_Value(){} // RVA: 0x7AE45BBD0
+    public void .ctor(){} // RVA: 0x70D5F80
+    public void BindGetOrInvokeMember(){} // RVA: 0x70D6040
+    public void BindGetMember(){} // RVA: 0x70D68C0
+    public void BindInvokeMember(){} // RVA: 0x70D69A0
+    public void BindSetMember(){} // RVA: 0x70D6BD0
+    public void BindDeleteMember(){} // RVA: 0x70D71B0
+    public void GetDynamicMemberNames(){} // RVA: 0x70D7680
+    public void AddDynamicTestAndDefer(){} // RVA: 0x70D7730
+    public void GetClassEnsureIndex(){} // RVA: 0x70D7B80
+    public void GetLimitedSelf(){} // RVA: 0x70D7DB0
+    public void GetRestrictions(){} // RVA: 0x70D7EE0
+    public void get_Value(){} // RVA: 0x70D7F30
+}
+
+public class MetadataDb : ValueType
+{
+    // ── Methods ──
+    public void get_Length(){} // RVA: 0x77E60
+    public void set_Length(){} // RVA: 0x29580
+    public void .ctor(){} // RVA: 0x8ED700
+    public void CreateRented(){} // RVA: 0x72BD7D0
+    public void CreateLocked(){} // RVA: 0x72BD900
+    public void Dispose(){} // RVA: 0x90CB60
+    public void CompleteAllocations(){} // RVA: 0x90CB70
+    public void Append(){} // RVA: 0x90CB80
+    public void Enlarge(){} // RVA: 0x90CB90
+    public void AssertValidIndex(){} // RVA: 0x3FC0
+    public void SetLength(){} // RVA: 0x90CBA0
+    public void SetNumberOfRows(){} // RVA: 0x90CBB0
+    public void SetHasComplexChildren(){} // RVA: 0x90CBC0
+    public void FindIndexOfFirstUnsetSizeOrLength(){} // RVA: 0x90CBD0
+    public void FindOpenElement(){} // RVA: 0x90CBE0
+    public void Get(){} // RVA: 0x90CBF0
+    public void GetJsonTokenType(){} // RVA: 0x90CC20
+    public void CopySegment(){} // RVA: 0x90CC30
+}
+
+public class MethodCallExpressionProxy : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7049940
+    public void get_Arguments(){} // RVA: 0x10AD020
+    public void get_CanReduce(){} // RVA: 0x10AD460
+    public void get_DebugView(){} // RVA: 0x7048AD0
+    public void get_Method(){} // RVA: 0x13F9340
+    public void get_NodeType(){} // RVA: 0x10AD380
+    public void get_Object(){} // RVA: 0x7048FE0
+    public void get_Type(){} // RVA: 0x10ACB60
+}
+
+public class ModifierCollection : ConfigurationList`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7332C20
+    public void get_IsReadOnly(){} // RVA: 0x7332D80
+    public void OnCollectionModifying(){} // RVA: 0x7332DA0
+}
+
+public class ModuloDouble : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5010
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloInt16 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B47D0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloInt32 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4900
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloInt64 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4A30
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloSingle : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4EE0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloUInt16 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4B60
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloUInt32 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4C90
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class ModuloUInt64 : ModuloInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B4DB0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulDouble : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5EA0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulInt16 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5690
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulInt32 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B57C0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulInt64 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B58E0
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulOvfInt16 : MulOvfInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B6460
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MulOvfInt32 : MulOvfInstruction
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7AE438CA0
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Run(){} // RVA: 0x70B6670
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MulOvfInt64 : MulOvfInstruction
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7AE438E40
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Run(){} // RVA: 0x70B6800
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MulOvfUInt16 : MulOvfInstruction
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7AE439010
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Run(){} // RVA: 0x70B69C0
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MulOvfUInt32 : MulOvfInstruction
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7AE439220
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Run(){} // RVA: 0x70B6BC0
+    public void .ctor(){} // RVA: 0xB43310
 }
 
 public class MulOvfUInt64 : MulOvfInstruction
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7AE4393F0
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Run(){} // RVA: 0x70B6D80
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulSingle : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5D70
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulUInt16 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5A00
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulUInt32 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5B30
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MulUInt64 : MulInstruction
+{
+    // ── Methods ──
+    public void Run(){} // RVA: 0x70B5C50
+    public void .ctor(){} // RVA: 0xB43310
+}
+
+public class MutableBox : InitializeLocalInstruction
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2574280
+    public void Run(){} // RVA: 0x70B3000
+    public void get_InstructionName(){} // RVA: 0x70B3140
+}
+
+public class MutableValue : InitializeLocalInstruction
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2574280
+    public void Run(){} // RVA: 0x70B2E60
+    public void BoxIfIndexMatches(){} // RVA: 0x70B2F10
+    public void get_InstructionName(){} // RVA: 0x70B2FC0
 }
 
 public class MutationInput : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A79C5340
-    public void get_KeyComparer(){} // RVA: 0x7A79C5350
-    public void get_Root(){} // RVA: 0x7A765F710
-    public void get_Comparers(){} // RVA: 0x7A765F080
-    public void get_ValueComparer(){} // RVA: 0x7A79C5390
-    public void get_KeyOnlyComparer(){} // RVA: 0x7A79C53D0
-    public void get_HashBucketComparer(){} // RVA: 0x7A79C53D0
-}
-
-public class MutationInput : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A79C5340
-    public void get_KeyComparer(){} // RVA: 0x7A79C5350
-    public void get_Root(){} // RVA: 0x7A765F710
-    public void get_Comparers(){} // RVA: 0x7A765F080
-    public void get_ValueComparer(){} // RVA: 0x7A79C5390
-    public void get_KeyOnlyComparer(){} // RVA: 0x7A79C53D0
-    public void get_HashBucketComparer(){} // RVA: 0x7A79C53D0
+    public void .ctor(){} // RVA: 0x894320
+    public void get_Root(){} // RVA: 0x87C0A0
+    public void get_Comparers(){} // RVA: 0x87C0A0
+    public void get_KeyComparer(){} // RVA: 0x87C0A0
+    public void get_KeyOnlyComparer(){} // RVA: 0x87C0A0
+    public void get_ValueComparer(){} // RVA: 0x87C0A0
+    public void get_HashBucketComparer(){} // RVA: 0x87C0A0
 }
 
 public class MutationResult : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A79C5640
-    public void Finalize(){} // RVA: 0x7A79C5650
-    public void get_Root(){} // RVA: 0x7A765F710
-    public void get_CountAdjustment(){} // RVA: 0x7A75FEFA0
-}
-
-public class MutationResult : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A79C5660
-    public void Finalize(){} // RVA: 0x7A79C5670
-    public void get_Root(){} // RVA: 0x7A765F710
-    public void get_CountAdjustment(){} // RVA: 0x7A75FEFA0
+    public void .ctor(){} // RVA: 0x899290
+    public void get_Root(){} // RVA: 0x87C0A0
+    public void get_CountAdjustment(){} // RVA: 0x87C130
+    public void Finalize(){} // RVA: 0x87C540
 }

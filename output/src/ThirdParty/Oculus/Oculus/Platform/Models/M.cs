@@ -8,61 +8,61 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class MatchmakingAdminSnapshot : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED8030
+        public void .ctor(){} // RVA: 0x6B5EFA0
     }
 
     public class MatchmakingAdminSnapshotCandidate : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED81F0
+        public void .ctor(){} // RVA: 0x6B5F160
     }
 
     public class MatchmakingAdminSnapshotCandidateList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED84C0
+        public void .ctor(){} // RVA: 0x6B5F430
     }
 
     public class MatchmakingBrowseResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED8790
+        public void .ctor(){} // RVA: 0x6B5F700
     }
 
     public class MatchmakingEnqueueResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED8FA0
+        public void .ctor(){} // RVA: 0x6B5FF10
     }
 
     public class MatchmakingEnqueueResultAndRoom : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED9500
+        public void .ctor(){} // RVA: 0x6B60470
     }
 
     public class MatchmakingEnqueuedUser : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED89E0
+        public void .ctor(){} // RVA: 0x6B5F950
     }
 
     public class MatchmakingEnqueuedUserList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED8CD0
+        public void .ctor(){} // RVA: 0x6B5FC40
     }
 
     public class MatchmakingStats : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED9750
+        public void .ctor(){} // RVA: 0x6B606C0
     }
 
     public class MicrophoneAvailabilityState : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED99F0
+        public void .ctor(){} // RVA: 0x6B60960
     }
 
 }

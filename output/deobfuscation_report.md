@@ -4,28 +4,28 @@
 
 | Metric | Count |
 |--------|-------|
-| Total obfuscated classes | 8121 |
-| Semantically named | 4883 (60.1%) |
-| Fallback-named (hash only) | 3238 |
-| Methods renamed | 108040 |
+| Total obfuscated classes | 8211 |
+| Semantically named | 4781 (58.2%) |
+| Fallback-named (hash only) | 3430 |
+| Methods renamed | 109801 |
 | Fields renamed | 0 |
 
 ## Phase Breakdown
 
 | Phase | Description | Count |
 |-------|-------------|-------|
-| P1: Async State Machines | 784 |
+| P1: Async State Machines | 789 |
 | P1: Delegates | 450 |
 | P2: Known Method Semantics | 26 |
-| P2: Semantic Word Analysis | 657 |
-| P4: Unity Components | 892 |
-| P5: Inheritance Base Classes | 46 |
-| P5: Inheritance Children | 783 |
+| P2: Semantic Word Analysis | 654 |
+| P4: Unity Components | 882 |
+| P5: Inheritance Base Classes | 45 |
+| P5: Inheritance Children | 801 |
 | P6: Known Parent Derivation | 41 |
-| P6b: Shared Method Siblings | 864 |
-| P6b: Method Frequency Clusters | 320 |
+| P6b: Shared Method Siblings | 708 |
+| P6b: Method Frequency Clusters | 365 |
 | P6c: Binary String References | 1930 |
-| P7: Fallback Structural | 3238 |
+| P7: Fallback Structural | 3430 |
 
 ## Notable Renames
 
@@ -33,33 +33,33 @@ Top renamed classes by method count:
 
 | New Name | Methods | Original (truncated) |
 |----------|---------|----------------------|
-| `VRC_Main` | 962 | `ÌÌÎÏÍÏÌÎÌÌÍÏÌÌÎÌÏÌÎÏ...` |
-| `Static625m_94DB` | 625 | `ÍÍÍÌÎÍÍÌÌÌÏÏÍÎÎÌÎÌÍÏ...` |
-| `VRC_Secondary` | 497 | `ÍÌÍÌÏÏÏÏÍÎÎÍÍÎÏÎÍÏÍÏ...` |
-| `VRC_MainSibling_FE14` | 351 | `ÏÍÏÌÎÌÌÌÎÎÎÍÍÌÍÏÍÌÌÎ...` |
-| `MajorSystem_CC40` | 289 | `ÍÌÎÏÍÌÎÌÌÌÌÍÌÍÍÌÎÍÏÍ...` |
-| `NetworkManager` | 267 | `ÏÏÌÍÏÌÍÌÏÎÍÏÌÌÍÌÍÌÍÎ...` |
-| `VRCUiManager` | 261 | `ÎÌÏÍÏÍÎÌÏÌÍÌÍÏÏÎÌÎÌÍ...` |
-| `VRCPlayer` | 253 | `ÎÏÎÍÍÏÍÌÌÍÌÍÏÍÌÎÌÍÎÌ...` |
-| `AnimatedTextureBaseImpl_7236` | 232 | `ÍÍÏÎÏÏÏÎÏÎÎÌÏÍÏÎÎÎÎÌ...` |
-| `VRC_MainSibling_4F73` | 195 | `ÍÏÌÎÍÍÎÍÍÎÌÍÌÍÎÌÍÏÎÍ...` |
-| `VRCUiManagerSibling_4574` | 183 | `ÎÍÏÏÏÎÌÍÏÌÍÌÍÍÌÍÌÎÏÏ...` |
-| `ComplexComponent_7A09` | 179 | `ÏÌÎÏÌÎÏÌÏÎÎÌÎÎÌÌÌÍÌÎ...` |
-| `VRCUiManagerSiblingSibling_AD4E` | 161 | `ÌÌÏÏÌÌÌÌÎÎÏÍÎÌÍÌÎÍÎÍ...` |
-| `ComplexComponent_01CC` | 157 | `ÏÍÌÌÏÌÍÌÎÏÍÏÎÎÌÌÍÎÌÌ...` |
-| `AnimatedTextureBaseImplSibling_FBD6` | 153 | `ÎÎÎÏÎÎÏÎÎÍÏÌÌÎÏÌÎÌÌÌ...` |
-| `Static152m_56E4` | 152 | `ÏÏÎÌÏÎÍÎÍÏÍÎÎÍÎÌÏÎÌÍ...` |
-| `ComplexComponent_AD14` | 143 | `ÍÏÎÌÎÏÌÌÎÌÎÏÏÏÍÌÎÍÌÎ...` |
-| `PlayerNet` | 142 | `ÎÍÎÍÍÎÍÎÎÌÏÌÍÍÎÎÌÏÍÏ...` |
-| `VRC_MainSibling_B0C9` | 139 | `ÌÌÎÎÌÏÏÎÎÎÎÏÏÎÌÏÍÎÏÌ...` |
-| `UdonOperationResponseDisconnectMessage_E3D6` | 138 | `ÎÌÌÏÍÏÍÌÏÌÌÍÎÌÍÎÍÎÌÏ...` |
-| `ComplexComponent_C3CA` | 133 | `ÍÍÎÎÌÏÏÏÍÍÎÏÌÍÌÌÍÍÌÌ...` |
-| `NetworkReadyHandler_CE56` | 128 | `ÍÎÏÎÎÍÏÌÎÌÌÏÍÍÍÏÌÎÏÏ...` |
-| `ComplexComponent_D0A2` | 123 | `ÏÏÎÌÌÏÏÏÏÌÏÍÍÏÌÎÏÍÎÎ...` |
-| `AnimatedTextureBaseImpl_C87D` | 122 | `ÌÍÏÍÏÍÍÍÎÌÌÍÌÎÏÌÎÏÏÏ...` |
-| `UpdateComponentImpl_F5D9` | 119 | `ÎÎÎÍÍÏÌÍÏÏÌÌÎÎÌÎÍÎÎÍ...` |
-| `UIDescriptionPurchase_88A1` | 117 | `ÎÎÍÎÏÎÍÌÎÌÎÌÎÌÎÏÎÍÌÎ...` |
-| `NetworkSyncable_DBC8` | 114 | `ÍÌÎÍÏÌÎÌÏÏÎÌÎÏÌÎÍÌÌÏ...` |
-| `ComplexComponent_9C28` | 111 | `ÌÎÎÍÎÍÌÍÌÏÌÌÌÌÌÎÌÏÌÌ...` |
-| `ComplexComponent_AF1E` | 111 | `ÍÍÌÌÍÍÌÌÏÍÌÎÎÏÍÎÌÎÌÍ...` |
-| `ComplexComponent_2748` | 111 | `ÎÎÌÍÎÎÎÌÎÎÎÏÏÎÌÏÌÌÌÏ...` |
+| `VRC_Main` | 965 | `ÌÍÌÎÌÏÏÍÎÍÌÌÍÍÍÍÎÎÏÍ...` |
+| `Static625m_5D5E` | 625 | `ÍÍÍÎÍÌÏÌÍÏÎÏÎÏÎÍÎÎÍÌ...` |
+| `VRC_Secondary` | 498 | `ÍÏÌÏÍÌÎÍÌÍÎÏÌÏÍÎÌÎÌÎ...` |
+| `VRC_MainSibling_98B4` | 355 | `ÌÎÎÎÌÍÌÎÌÍÎÏÌÏÏÎÌÍÎÎ...` |
+| `MajorSystem_4634` | 291 | `ÌÍÍÏÎÍÌÏÏÌÌÌÍÏÍÌÎÏÎÏ...` |
+| `NetworkManager` | 267 | `ÍÏÌÎÎÎÎÍÍÏÍÍÌÍÎÍÏÎÌÏ...` |
+| `VRCUiManager` | 259 | `ÍÎÌÍÎÍÎÌÌÎÍÌÏÍÏÏÌÏÏÎ...` |
+| `VRCPlayer` | 257 | `ÌÏÌÍÏÏÎÎÍÌÍÍÍÍÌÏÎÎÏÏ...` |
+| `AnimatedTextureBaseImpl_62B6` | 241 | `ÎÌÍÌÍÍÌÏÍÏÌÎÌÌÎÍÏÏÍÍ...` |
+| `VRC_MainSiblingSibling_9DC6` | 194 | `ÌÎÏÌÎÏÌÎÎÌÎÎÎÎÏÏÏÍÌÎ...` |
+| `ComplexComponent_B588` | 182 | `ÏÌÌÌÎÍÌÍÎÌÎÏÎÌÎÏÎÍÎÏ...` |
+| `VRCUiManagerSibling_FAA7` | 180 | `ÏÌÌÏÎÎÍÏÌÍÎÌÏÌÎÎÏÏÍÌ...` |
+| `VRCUiManagerSiblingSibling_A721` | 160 | `ÍÎÍÏÌÍÍÎÌÏÎÏÍÌÏÏÍÎÍÏ...` |
+| `ComplexComponent_031C` | 158 | `ÌÏÍÍÎÍÌÍÌÏÏÎÎÍÌÏÍÏÌÏ...` |
+| `AnimatedTextureBaseImplSibling_3C51` | 155 | `ÍÍÎÍÌÌÎÏÍÍÏÎÏÎÌÍÍÌÌÌ...` |
+| `Static153m_7407` | 153 | `ÍÍÎÏÏÎÍÏÌÌÏÍÍÏÍÏÍÎÍÎ...` |
+| `ComplexComponent_65C4` | 146 | `ÏÌÏÍÏÍÍÍÎÏÎÏÌÌÏÎÌÌÌÎ...` |
+| `PlayerNet` | 142 | `ÌÏÏÎÍÌÏÏÌÏÎÏÍÍÌÏÎÌÏÍ...` |
+| `VRC_MainSibling_F8DA` | 139 | `ÎÎÏÌÎÏÏÎÎÌÏÌÏÏÌÌÎÎÌÎ...` |
+| `UdonOperationResponseDisconnectMessage_1EC0` | 138 | `ÍÏÎÍÌÌÌÍÎÏÎÏÍÏÏÏÎÏÍÌ...` |
+| `ComplexComponent_F1B2` | 132 | `ÌÏÍÏÍÍÌÍÎÎÍÎÍÏÏÍÎÌÌÎ...` |
+| `AnimatedTextureBaseImpl_E1A7` | 127 | `ÌÌÍÌÍÏÌÍÎÏÏÌÏÍÌÏÏÎÍÌ...` |
+| `NetworkReadyHandler_E98B` | 126 | `ÏÌÏÏÏÌÎÍÌÎÏÎÎÏÍÌÏÎÏÏ...` |
+| `ComplexComponent_D3AA` | 122 | `ÎÏÏÎÌÍÌÎÏÌÌÎÍÏÎÏÎÍÏÌ...` |
+| `UpdateComponentImpl_28FF` | 119 | `ÏÎÏÎÍÏÎÍÌÏÍÎÍÌÏÏÌÍÍÍ...` |
+| `UIDescriptionPurchase_4413` | 117 | `ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎ...` |
+| `NetworkSyncable_F480` | 116 | `ÍÎÍÎÌÌÌÍÏÏÌÎÎÌÌÍÎÌÍÎ...` |
+| `ComplexComponent_38C8` | 114 | `ÌÏÏÍÍÎÍÏÏÎÍÎÍÏÎÌÏÏÏÎ...` |
+| `PlayerRectTransformDimensionsChCalculateLayout_BB74` | 113 | `ÍÏÎÌÍÌÏÏÎÌÍÌÍÎÌÍÏÍÏÎ...` |
+| `ComplexComponent_FE47` | 111 | `ÏÏÍÍÏÏÏÏÍÎÏÏÌÎÌÎÍÍÎÍ...` |

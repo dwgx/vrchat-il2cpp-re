@@ -1,663 +1,679 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 155
+// Methods: 171
 
 namespace ThirdParty.DotNet.System
 {
     public class IAsyncDisposable
     {
         // ── Methods ──
-        public void DisposeAsync(){} // RVA: 0x7A7E00490
+        public void DisposeAsync(){} // RVA: 0x87BEB0
     }
 
     public class IAsyncResult
     {
         // ── Methods ──
-        public void get_IsCompleted(){} // RVA: 0x7A7E01900
-        public void get_AsyncWaitHandle(){} // RVA: 0x7A7E00680
-        public void get_AsyncState(){} // RVA: 0x7A7E00680
-        public void get_CompletedSynchronously(){} // RVA: 0x7A7E01900
+        public void get_IsCompleted(){} // RVA: 0x87D280
+        public void get_AsyncWaitHandle(){} // RVA: 0x87C0A0
+        public void get_AsyncState(){} // RVA: 0x87C0A0
+        public void get_CompletedSynchronously(){} // RVA: 0x87D280
     }
 
     public class ICloneable
     {
         // ── Methods ──
-        public void Clone(){} // RVA: 0x7A7E00680
+        public void Clone(){} // RVA: 0x87C0A0
     }
 
     public class IComparable`1
     {
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7A7E01630
+        public void CompareTo(){} // RVA: 0xA94080
     }
 
     public class IComparable`1
     {
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7A8051B10
-    }
-
-    public class IComparable`1
-    {
-        // ── Methods ──
-        public void CompareTo(){} // RVA: 0x7A7E0D3E0
+        public void CompareTo(){} // RVA: 0x888E40
     }
 
     public class IConsoleDriver
     {
         // ── Methods ──
-        public void ReadKey(){} // RVA: 0x7A7E00E20
+        public void ReadKey(){} // RVA: 0x87C840
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01F00
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x881520
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01F00
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01F00
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E02010
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01990
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01B10
+        public void Equals(){} // RVA: 0x87D910
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01B10
+        public void Equals(){} // RVA: 0x87D490
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D910
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87DD20
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D310
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D490
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D490
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01F00
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E02010
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E01F00
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E02010
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E02010
+        public void Equals(){} // RVA: 0x87D910
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D910
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A80804D0
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A80804D0
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A80804D0
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7A7E019D0
+        public void Equals(){} // RVA: 0x87D350
     }
 
     public class IOAsyncCallback : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class IOAsyncResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8CE4080
-        public void Init(){} // RVA: 0x7AE9E95F0
-        public void get_AsyncCallback(){} // RVA: 0x7A80F2570
-        public void get_AsyncState(){} // RVA: 0x7A80DA7B0
-        public void get_AsyncWaitHandle(){} // RVA: 0x7AE9E96C0
-        public void get_CompletedSynchronously(){} // RVA: 0x7A84A5BD0
-        public void set_CompletedSynchronously(){} // RVA: 0x7A84A5CD0
-        public void get_IsCompleted(){} // RVA: 0x7A89FCA90
-        public void set_IsCompleted(){} // RVA: 0x7AE9E9890
-        public void CompleteDisposed(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x17C92C0
+        public void Init(){} // RVA: 0x765B630
+        public void get_AsyncCallback(){} // RVA: 0xB5DBF0
+        public void get_AsyncState(){} // RVA: 0xB465B0
+        public void get_AsyncWaitHandle(){} // RVA: 0x765B700
+        public void get_CompletedSynchronously(){} // RVA: 0xF73960
+        public void set_CompletedSynchronously(){} // RVA: 0xF73A60
+        public void get_IsCompleted(){} // RVA: 0x14F7430
+        public void set_IsCompleted(){} // RVA: 0x765B8D0
+        public void CompleteDisposed(){} // RVA: 0x894290
     }
 
     public class IOSelector : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7AE9E99E0
+        public void Add(){} // RVA: 0x765BA20
     }
 
     public class IOSelectorJob : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAC6DFD0
-        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7AE9E99B0
-        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7A80D7310
-        public void MarkDisposed(){} // RVA: 0x7A88B8F30
+        public void .ctor(){} // RVA: 0x38BA2E0
+        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x765B9F0
+        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0xB43310
+        public void MarkDisposed(){} // RVA: 0x13E8D50
+    }
+
+    public class IObservable`1
+    {
+        // ── Methods ──
+        public void Subscribe(){} // RVA: 0x87C540
+    }
+
+    public class IObserver`1
+    {
+        // ── Methods ──
+        public void OnNext(){} // RVA: 0xA94080
+        public void OnError(){} // RVA: 0x894320
+        public void OnCompleted(){} // RVA: 0x894290
+    }
+
+    public class IProgress`1
+    {
+        // ── Methods ──
+        public void Report(){} // RVA: 0xA94080
     }
 
     public class IPv4AddressHelper : Object
     {
         // ── Methods ──
-        public void ParseHostNumber(){} // RVA: 0x7AE9DCA00
-        public void IsValid(){} // RVA: 0x7AE9DCAD0
-        public void ParseCanonical(){} // RVA: 0x7AE9DCC60
-        public void IsValidCanonical(){} // RVA: 0x7AE9DCCF0
-        public void ParseNonCanonical(){} // RVA: 0x7AE9DCE30
-        public void ParseCanonicalName(){} // RVA: 0x7AE9DD0D0
-        public void Parse(){} // RVA: 0x7AE9DD410
+        public void ParseHostNumber(){} // RVA: 0x764EB40
+        public void IsValid(){} // RVA: 0x764EC10
+        public void ParseCanonical(){} // RVA: 0x764EDA0
+        public void IsValidCanonical(){} // RVA: 0x764EE30
+        public void ParseNonCanonical(){} // RVA: 0x764EF70
+        public void ParseCanonicalName(){} // RVA: 0x764F210
+        public void Parse(){} // RVA: 0x764F550
     }
 
     public class IPv6AddressHelper : Object
     {
         // ── Methods ──
-        public void FindCompressionRange(){} // RVA: 0x7AE9DD480
-        public void ShouldHaveIpv4Embedded(){} // RVA: 0x7AE9DD560
-        public void IsValidStrict(){} // RVA: 0x7AE9DD640
-        public void Parse(){} // RVA: 0x7AE9DDA50
-        public void ParseCanonicalName(){} // RVA: 0x7AE9DDF20
-        public void IsLoopback(){} // RVA: 0x7AE9DE790
-        public void InternalIsValid(){} // RVA: 0x7AE9DE870
-        public void IsValid(){} // RVA: 0x7AE9DEB60
+        public void FindCompressionRange(){} // RVA: 0x764F5C0
+        public void ShouldHaveIpv4Embedded(){} // RVA: 0x764F6A0
+        public void IsValidStrict(){} // RVA: 0x764F780
+        public void Parse(){} // RVA: 0x764FB90
+        public void ParseCanonicalName(){} // RVA: 0x7650060
+        public void IsLoopback(){} // RVA: 0x76508D0
+        public void InternalIsValid(){} // RVA: 0x76509B0
+        public void IsValid(){} // RVA: 0x7650CA0
     }
 
     public class ITupleInternal
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7A7E00B20
+        public void ToString(){} // RVA: 0x87C540
     }
 
     public class IValueTupleInternal
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7A7E01630
-        public void ToStringEnd(){} // RVA: 0x7A7E00680
+        public void GetHashCode(){} // RVA: 0x87D050
+        public void ToStringEnd(){} // RVA: 0x87C0A0
     }
 
     public class Index : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76134D0
-        public void get_Start(){} // RVA: 0x7A82D1450
-        public void get_End(){} // RVA: 0x7A85193D0
-        public void FromStart(){} // RVA: 0x7AE239E10
-        public void FromEnd(){} // RVA: 0x7AE239E80
-        public void get_Value(){} // RVA: 0x7A7E3B460
-        public void get_IsFromEnd(){} // RVA: 0x7A7E3B470
-        public void GetOffset(){} // RVA: 0x7A7E794F0
-        public void Equals(){} // RVA: 0x7A7729660
-        public void GetHashCode(){} // RVA: 0x7A765F070
-        public void op_Implicit(){} // RVA: 0x7AE239E10
-        public void ToString(){} // RVA: 0x7A7E79590
-        public void ToStringFromEnd(){} // RVA: 0x7A7E795A0
+        public void .ctor(){} // RVA: 0x29580
+        public void get_Start(){} // RVA: 0xDAC980
+        public void get_End(){} // RVA: 0xFE6B70
+        public void FromStart(){} // RVA: 0x6EBC930
+        public void FromEnd(){} // RVA: 0x6EBC9A0
+        public void get_Value(){} // RVA: 0x8B93B0
+        public void get_IsFromEnd(){} // RVA: 0x8B93C0
+        public void GetOffset(){} // RVA: 0x8F8B00
+        public void Equals(){} // RVA: 0x14FC80
+        public void GetHashCode(){} // RVA: 0x77E60
+        public void op_Implicit(){} // RVA: 0x6EBC930
+        public void ToString(){} // RVA: 0x8F8BA0
+        public void ToStringFromEnd(){} // RVA: 0x8F8BB0
     }
 
     public class Index : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A76134D0
-        public void FromStart(){} // RVA: 0x7ADC86060
-        public void get_Value(){} // RVA: 0x7A7E3B460
-        public void get_IsFromEnd(){} // RVA: 0x7A7E3B470
-        public void GetOffset(){} // RVA: 0x7A7E3B480
-        public void Equals(){} // RVA: 0x7A7729660
-        public void GetHashCode(){} // RVA: 0x7A765F070
-        public void op_Implicit(){} // RVA: 0x7ADC86060
-        public void ToString(){} // RVA: 0x7A7E3B520
-        public void ToStringFromEnd(){} // RVA: 0x7A7E3B5E0
+        public void .ctor(){} // RVA: 0x29580
+        public void FromStart(){} // RVA: 0x6910B90
+        public void get_Value(){} // RVA: 0x8B93B0
+        public void get_IsFromEnd(){} // RVA: 0x8B93C0
+        public void GetOffset(){} // RVA: 0x8B93D0
+        public void Equals(){} // RVA: 0x14FC80
+        public void GetHashCode(){} // RVA: 0x77E60
+        public void op_Implicit(){} // RVA: 0x6910B90
+        public void ToString(){} // RVA: 0x8B9470
+        public void ToStringFromEnd(){} // RVA: 0x8B9530
     }
 
     public class IndexOutOfRangeException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class InsufficientExecutionStackException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
+    }
+
+    public class Int64[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB2570
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8560
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6D740
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class InvalidCastException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class InvalidOperationException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class InvalidProgramException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class InvalidTimeZoneException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADC89ED0
+        public void .ctor(){} // RVA: 0x69148B0
     }
 
     public class InvariantComparer : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AE9E2080
-        public void Compare(){} // RVA: 0x7AE9E2180
-        public void .cctor(){} // RVA: 0x7AE9E2280
+        public void .ctor(){} // RVA: 0x7654110
+        public void Compare(){} // RVA: 0x7654210
+        public void .cctor(){} // RVA: 0x7654300
     }
 
     public class IriHelper : Object
     {
         // ── Methods ──
-        public void CheckIriUnicodeRange(){} // RVA: 0x7AE9E2480
-        public void CheckIsReserved(){} // RVA: 0x7AE9E3080
-        public void EscapeUnescapeIri(){} // RVA: 0x7AE9E31B0
+        public void CheckIriUnicodeRange(){} // RVA: 0x7654500
+        public void CheckIsReserved(){} // RVA: 0x76550F0
+        public void EscapeUnescapeIri(){} // RVA: 0x7655220
     }
 
 }

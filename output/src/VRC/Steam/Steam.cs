@@ -1,25 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Steam
 // Classes: 1
-// Methods: 12
+// Methods: 17
 
 namespace VRC.Steam
 {
     public class SteamManager : Object
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7A82EDA70
-        public void Equals(){} // RVA: 0x7A82EDB40
-        public void GetHashCode(){} // RVA: 0x7A82EDBE0
-        public void op_Implicit(){} // RVA: 0x7A82EDC40
-        public void CompareBaseObjects(){} // RVA: 0x7A82EDCA0
-        public void IsNativeObjectAlive(){} // RVA: 0x7A82EDE50
-        public void GetCachedPtr(){} // RVA: 0x7A82EDF10
-        public void get_name(){} // RVA: 0x7A82EDF50
-        public void set_name(){} // RVA: 0x7A82EE1A0
-        public void Instantiate(){} // RVA: 0x7A82EE2A0
-        public void Destroy(){} // RVA: 0x7A82EE870
-        public void .cctor(){} // RVA: 0x7A82EE9E0
+        public void GetInstanceID(){} // RVA: 0xDC84F0
+        public void Equals(){} // RVA: 0xDC8C70
+        public void GetHashCode(){} // RVA: 0xDC8CB0
+        public void op_Implicit(){} // RVA: 0xDC8D00
+        public void CompareBaseObjects(){} // RVA: 0xDC8D40
+        public void IsNativeObjectAlive(){} // RVA: 0xDC8D90
+        public void GetCachedPtr(){} // RVA: 0xDC8F40
+        public void get_name(){} // RVA: 0xDC9040
+        public void set_name(){} // RVA: 0xDC9120
+        public void Instantiate(){} // RVA: 0xDC9180
+        public void Destroy(){} // RVA: 0xDC91C0
+        public void DestroyImmediate(){} // RVA: 0xDC9200
+        public void FindObjectsOfType(){} // RVA: 0xDC94C0
+        public void FindObjectsByType(){} // RVA: 0xDC9580
+        public void DontDestroyOnLoad(){} // RVA: 0xDC9650
+        public void get_hideFlags(){} // RVA: 0xDCA380
+        public void set_hideFlags(){} // RVA: 0xDCA520
     }
 
 }

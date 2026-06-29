@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
     public class KernelSizeParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AECF85A0
+        public void .ctor(){} // RVA: 0x7965D70
     }
 
 }

@@ -1,1132 +1,1160 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
 // Classes: 100
-// Methods: 624
+// Methods: 652
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
     public class UniTaskCompletionSource : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void MarkHandled(){} // RVA: 0x7AEAEF020
-        public void get_Task(){} // RVA: 0x7AEAEF030
-        public void TrySetResult(){} // RVA: 0x7AEAEF090
-        public void TrySetCanceled(){} // RVA: 0x7AEAEF0A0
-        public void TrySetException(){} // RVA: 0x7AEAEF110
-        public void GetResult(){} // RVA: 0x7AEAEF300
-        public void GetStatus(){} // RVA: 0x7A8178B30
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B30
-        public void OnCompleted(){} // RVA: 0x7AEAEF400
-        public void TrySignalCompletion(){} // RVA: 0x7AEAEF7F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void MarkHandled(){} // RVA: 0x775E2B0
+        public void get_Task(){} // RVA: 0x775E2C0
+        public void TrySetResult(){} // RVA: 0x775E320
+        public void TrySetCanceled(){} // RVA: 0x775E330
+        public void TrySetException(){} // RVA: 0x775E3A0
+        public void GetResult(){} // RVA: 0x775E590
+        public void GetStatus(){} // RVA: 0xBE5850
+        public void UnsafeGetStatus(){} // RVA: 0xBE5850
+        public void OnCompleted(){} // RVA: 0x775E690
+        public void TrySignalCompletion(){} // RVA: 0x775EA80
     }
 
     public class UniTaskCompletionSourceCoreShared : Object
     {
         // ── Methods ──
-        public void CompletionSentinel(){} // RVA: 0x7AEAEE440
-        public void .cctor(){} // RVA: 0x7AEAEE490
+        public void CompletionSentinel(){} // RVA: 0x775D710
+        public void .cctor(){} // RVA: 0x775D760
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x559FF0
+        public void ReportUnhandledError(){} // RVA: 0x55A000
+        public void MarkHandled(){} // RVA: 0x54C6C0
+        public void TrySetResult(){} // RVA: 0x55A010
+        public void TrySetException(){} // RVA: 0x55A030
+        public void TrySetCanceled(){} // RVA: 0x55A040
+        public void get_Version(){} // RVA: 0x54C840
+        public void GetStatus(){} // RVA: 0x55A050
+        public void UnsafeGetStatus(){} // RVA: 0x55A060
+        public void GetResult(){} // RVA: 0x54C870
+        public void OnCompleted(){} // RVA: 0x55A070
+        public void ValidateToken(){} // RVA: 0x54A150
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x894290
+        public void ReportUnhandledError(){} // RVA: 0x894290
+        public void MarkHandled(){} // RVA: 0x894290
+        public void TrySetResult(){} // RVA: 0xA94080
+        public void TrySetException(){} // RVA: 0x87D350
+        public void TrySetCanceled(){} // RVA: 0xA94080
+        public void get_Version(){} // RVA: 0x87C100
+        public void GetStatus(){} // RVA: 0x87D010
+        public void UnsafeGetStatus(){} // RVA: 0x87C130
+        public void GetResult(){} // RVA: 0xA94080
+        public void OnCompleted(){} // RVA: 0x89DD60
+        public void ValidateToken(){} // RVA: 0x894470
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55A080
+        public void ReportUnhandledError(){} // RVA: 0x55A090
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55A0A0
+        public void TrySetException(){} // RVA: 0x55A0B0
+        public void TrySetCanceled(){} // RVA: 0x55A0C0
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55A0D0
+        public void UnsafeGetStatus(){} // RVA: 0x55A0E0
+        public void GetResult(){} // RVA: 0x55A0F0
+        public void OnCompleted(){} // RVA: 0x55A100
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x557840
+        public void ReportUnhandledError(){} // RVA: 0x557850
+        public void MarkHandled(){} // RVA: 0x54C6C0
+        public void TrySetResult(){} // RVA: 0x557860
+        public void TrySetException(){} // RVA: 0x557880
+        public void TrySetCanceled(){} // RVA: 0x557890
+        public void get_Version(){} // RVA: 0x54C840
+        public void GetStatus(){} // RVA: 0x5578A0
+        public void UnsafeGetStatus(){} // RVA: 0x5578B0
+        public void GetResult(){} // RVA: 0x54C870
+        public void OnCompleted(){} // RVA: 0x5578C0
+        public void ValidateToken(){} // RVA: 0x54A150
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x560820
+        public void ReportUnhandledError(){} // RVA: 0x560830
+        public void MarkHandled(){} // RVA: 0x54C6C0
+        public void TrySetResult(){} // RVA: 0x560840
+        public void TrySetException(){} // RVA: 0x560860
+        public void TrySetCanceled(){} // RVA: 0x560870
+        public void get_Version(){} // RVA: 0x54C840
+        public void GetStatus(){} // RVA: 0x5609B0
+        public void UnsafeGetStatus(){} // RVA: 0x5609C0
+        public void GetResult(){} // RVA: 0x54C870
+        public void OnCompleted(){} // RVA: 0x5609D0
+        public void ValidateToken(){} // RVA: 0x54A150
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x558900
+        public void ReportUnhandledError(){} // RVA: 0x558A40
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x558A50
+        public void TrySetException(){} // RVA: 0x558A60
+        public void TrySetCanceled(){} // RVA: 0x558A70
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x558BB0
+        public void UnsafeGetStatus(){} // RVA: 0x558BC0
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x558BD0
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEEE40
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEEE50
-        public void MarkHandled(){} // RVA: 0x7A7AE49C0
-        public void TrySetResult(){} // RVA: 0x7A7AEEE60
-        public void TrySetException(){} // RVA: 0x7A7AEEE90
-        public void TrySetCanceled(){} // RVA: 0x7A7AEEEA0
-        public void get_Version(){} // RVA: 0x7A7AE4B50
-        public void GetStatus(){} // RVA: 0x7A7AEEFE0
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEEFF0
-        public void GetResult(){} // RVA: 0x7A7AE4B80
-        public void OnCompleted(){} // RVA: 0x7A7AEF000
-        public void ValidateToken(){} // RVA: 0x7A7ADBEF0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AE8A70
-        public void ReportUnhandledError(){} // RVA: 0x7A7AE8A80
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AE8A90
-        public void TrySetException(){} // RVA: 0x7A7AE8AA0
-        public void TrySetCanceled(){} // RVA: 0x7A7AE8AB0
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AE8AC0
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AE8AD0
-        public void GetResult(){} // RVA: 0x7A7AE8A50
-        public void OnCompleted(){} // RVA: 0x7A7AE8AE0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AEE440
-        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AEE460
-        public void TrySetException(){} // RVA: 0x7A7AEE470
-        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AEE490
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
-        public void GetResult(){} // RVA: 0x7A7ADB3D0
-        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AE89E0
-        public void ReportUnhandledError(){} // RVA: 0x7A7AE89F0
-        public void MarkHandled(){} // RVA: 0x7A7ADB240
-        public void TrySetResult(){} // RVA: 0x7A7AE8A00
-        public void TrySetException(){} // RVA: 0x7A7AE8A10
-        public void TrySetCanceled(){} // RVA: 0x7A7AE8A20
-        public void get_Version(){} // RVA: 0x7A767FEE0
-        public void GetStatus(){} // RVA: 0x7A7AE8A30
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AE8A40
-        public void GetResult(){} // RVA: 0x7A7AE8A50
-        public void OnCompleted(){} // RVA: 0x7A7AE8A60
-        public void ValidateToken(){} // RVA: 0x7A7AD91E0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSourceCore`1 : ValueType
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7A7AE5FF0
-        public void ReportUnhandledError(){} // RVA: 0x7A7AE6000
-        public void MarkHandled(){} // RVA: 0x7A7ADAFD0
-        public void TrySetResult(){} // RVA: 0x7A7AE6010
-        public void TrySetException(){} // RVA: 0x7A7AE6030
-        public void TrySetCanceled(){} // RVA: 0x7A7AE6040
-        public void get_Version(){} // RVA: 0x7A7ADB150
-        public void GetStatus(){} // RVA: 0x7A7AE6050
-        public void UnsafeGetStatus(){} // RVA: 0x7A7AE6060
-        public void GetResult(){} // RVA: 0x7A7ADB180
-        public void OnCompleted(){} // RVA: 0x7A7AE6070
-        public void ValidateToken(){} // RVA: 0x7A7ADB1C0
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
+    }
+
+    public class UniTaskCompletionSourceCore`1 : ValueType
+    {
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x55AAE0
+        public void ReportUnhandledError(){} // RVA: 0x55AAF0
+        public void MarkHandled(){} // RVA: 0x54C8D0
+        public void TrySetResult(){} // RVA: 0x55AB00
+        public void TrySetException(){} // RVA: 0x55AB10
+        public void TrySetCanceled(){} // RVA: 0x55AB20
+        public void get_Version(){} // RVA: 0x93030
+        public void GetStatus(){} // RVA: 0x55AB30
+        public void UnsafeGetStatus(){} // RVA: 0x55AB40
+        public void GetResult(){} // RVA: 0x54CA60
+        public void OnCompleted(){} // RVA: 0x55AB50
+        public void ValidateToken(){} // RVA: 0x5481A0
     }
 
     public class UniTaskCompletionSource[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void TrySetException(){} // RVA: 0x7AC2DBC00
-        public void TrySetResult(){} // RVA: 0x7AC2DBB20
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
-        public void GetResult(){} // RVA: 0x7AC2DB120
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2DBE10
-        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x5026580
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D41E0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D91E0
-        public void MarkHandled(){} // RVA: 0x7AC2D91D0
-        public void TrySetResult(){} // RVA: 0x7AC2D9240
-        public void TrySetCanceled(){} // RVA: 0x7AC2D9270
-        public void TrySetException(){} // RVA: 0x7AC2D92E0
-        public void GetResult(){} // RVA: 0x7AC2D94F0
-        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
-        public void GetStatus(){} // RVA: 0x7A8178B70
-        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
-        public void OnCompleted(){} // RVA: 0x7AC2D96E0
-        public void TrySignalCompletion(){} // RVA: 0x7AC2D9AD0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
     }
 
     public class UniTaskCompletionSource`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void .ctor(){} // RVA: 0xB43310
+        public void get_Task(){} // RVA: 0x502A960
+        public void MarkHandled(){} // RVA: 0x5028DB0
+        public void TrySetResult(){} // RVA: 0x502B700
+        public void TrySetCanceled(){} // RVA: 0x502B770
+        public void TrySetException(){} // RVA: 0x502B7E0
+        public void GetResult(){} // RVA: 0x502AD00
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x50291C0
+        public void GetStatus(){} // RVA: 0xBE5890
+        public void UnsafeGetStatus(){} // RVA: 0xBE5890
+        public void OnCompleted(){} // RVA: 0x502B9F0
+        public void TrySignalCompletion(){} // RVA: 0x502BDE0
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void AsUniTask(){} // RVA: 0x775EFA0
+        public void AsTask(){} // RVA: 0x775F220
+        public void ToAsyncLazy(){} // RVA: 0xA94080
+        public void AttachExternalCancellation(){} // RVA: 0x2AE9F40
+        public void ToCoroutine(){} // RVA: 0x775F8F0
+        public void Timeout(){} // RVA: 0xA94080
+        public void TimeoutWithoutException(){} // RVA: 0x2AF68C0
+        public void Forget(){} // RVA: 0x2AED610
+        public void ForgetCoreWithCatch(){} // RVA: 0xA94080
+        public void ContinueWith(){} // RVA: 0x2AEBB50
+        public void Unwrap(){} // RVA: 0x7760E70
+        public void GetAwaiter(){} // RVA: 0x7766440
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskObservableExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void ToUniTask(){} // RVA: 0xA94080
+        public void ToObservable(){} // RVA: 0x778EA90
+        public void Fire(){} // RVA: 0x778EF80
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskScheduler : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
+        public void add_UnobservedTaskException(){} // RVA: 0x778F470
+        public void remove_UnobservedTaskException(){} // RVA: 0x778F5D0
+        public void InvokeUnobservedTaskException(){} // RVA: 0x778F730
+        public void PublishUnobservedTaskException(){} // RVA: 0x778F800
+        public void .cctor(){} // RVA: 0x778FBB0
     }
 
-    public class UniTaskCompletionSource`1 : Object
+    public class UniTaskVoid : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2D69A0
-    }
-
-    public class UniTaskCompletionSource`1 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void get_Task(){} // RVA: 0x7AC2DAD80
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-    }
-
-    public class UniTask`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void Forget(){} // RVA: 0x3FC0
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x562B90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B35880
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B35880
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B35880
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x59F550
+        public void GetAwaiter(){} // RVA: 0x560F70
+        public void get_Status(){} // RVA: 0x560F60
+        public void Preserve(){} // RVA: 0x561020
+        public void AsUniTask(){} // RVA: 0x59F920
+        public void op_Implicit(){} // RVA: 0x5083D10
+        public void SuppressCancellationThrow(){} // RVA: 0x59F5A0
+        public void ToString(){} // RVA: 0x59F950
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void .ctor(){} // RVA: 0x5A3D80
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x50335A0
+        public void .ctor(){} // RVA: 0x560A50
+        public void get_Status(){} // RVA: 0x560A60
+        public void GetAwaiter(){} // RVA: 0x560A70
+        public void Preserve(){} // RVA: 0x560B40
+        public void AsUniTask(){} // RVA: 0x561B20
+        public void SuppressCancellationThrow(){} // RVA: 0x561B50
+        public void ToString(){} // RVA: 0x561B90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void op_Implicit(){} // RVA: 0x508CB90
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5A3D80
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5A3D80
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CB90
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5A3D80
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CB90
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void .ctor(){} // RVA: 0x7A7B35880
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AEFD20
-        public void get_Status(){} // RVA: 0x7A7AEFD30
-        public void GetAwaiter(){} // RVA: 0x7A7AEFD40
-        public void Preserve(){} // RVA: 0x7A7AEFE10
-        public void AsUniTask(){} // RVA: 0x7A7AF0DF0
-        public void op_Implicit(){} // RVA: 0x7AC2E3960
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7AF0E20
-        public void ToString(){} // RVA: 0x7A7AF0E60
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0FD0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF0690
-        public void get_Status(){} // RVA: 0x7A7B35890
-        public void GetAwaiter(){} // RVA: 0x7A7AF0700
-        public void Preserve(){} // RVA: 0x7A7AF07C0
-        public void AsUniTask(){} // RVA: 0x7A7B358A0
-        public void op_Implicit(){} // RVA: 0x7AC37D020
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
-        public void ToString(){} // RVA: 0x7A7B35910
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7AF01D0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x560F00
     }
 
     public class UniTask`1 : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void .ctor(){} // RVA: 0x5613C0
+        public void get_Status(){} // RVA: 0x5A3D90
+        public void GetAwaiter(){} // RVA: 0x561430
+        public void Preserve(){} // RVA: 0x5614F0
+        public void AsUniTask(){} // RVA: 0x5A3DA0
+        public void op_Implicit(){} // RVA: 0x508CBF0
+        public void SuppressCancellationThrow(){} // RVA: 0x5A3DD0
+        public void ToString(){} // RVA: 0x5A3E10
     }
 
-    public class UniTask`1 : ValueType
+    public class UniTask`1[][] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7B30D80
-        public void GetAwaiter(){} // RVA: 0x7A7AF0240
-        public void get_Status(){} // RVA: 0x7A7AF0230
-        public void Preserve(){} // RVA: 0x7A7AF02F0
-        public void AsUniTask(){} // RVA: 0x7A7B31150
-        public void op_Implicit(){} // RVA: 0x7AC374190
-        public void SuppressCancellationThrow(){} // RVA: 0x7A7B30DD0
-        public void ToString(){} // RVA: 0x7A7B31180
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
-    public class UniTask`1[] : Array
+    public class UnityAsyncExtensions : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void AwaitForAllAssets(){} // RVA: 0x7790C70
+        public void GetAwaiter(){} // RVA: 0x77927C0
+        public void WithCancellation(){} // RVA: 0x7792280
+        public void ToUniTask(){} // RVA: 0x77929C0
+        public void WaitAsync(){} // RVA: 0x7792640
+        public void StartAsyncCoroutine(){} // RVA: 0x7792AF0
+        public void GetAsyncEventHandler(){} // RVA: 0x882000
+        public void OnInvokeAsync(){} // RVA: 0xA94080
+        public void OnInvokeAsAsyncEnumerable(){} // RVA: 0x882000
+        public void GetAsyncClickEventHandler(){} // RVA: 0x7792D70
+        public void OnClickAsync(){} // RVA: 0x7792EC0
+        public void OnClickAsAsyncEnumerable(){} // RVA: 0x7793000
+        public void GetAsyncValueChangedEventHandler(){} // RVA: 0x7794AF0
+        public void OnValueChangedAsync(){} // RVA: 0x7794C70
+        public void OnValueChangedAsAsyncEnumerable(){} // RVA: 0x7794DF0
+        public void GetAsyncEndEditEventHandler(){} // RVA: 0x7794230
+        public void OnEndEditAsync(){} // RVA: 0x77943C0
+        public void OnEndEditAsAsyncEnumerable(){} // RVA: 0x7794550
+    }
+
+    public class UnityBindingExtensions : Object
+    {
+        // ── Methods ──
+        public void BindTo(){} // RVA: 0xA94080
+        public void BindToCore(){} // RVA: 0xA94080
+    }
+
+    public class UnityWebRequestException : Exception
+    {
+        // ── Methods ──
+        public void get_UnityWebRequest(){} // RVA: 0x1069350
+        public void get_Result(){} // RVA: 0x262A930
+        public void get_Error(){} // RVA: 0x106A050
+        public void get_Text(){} // RVA: 0x12EB090
+        public void get_ResponseCode(){} // RVA: 0xBAE340
+        public void get_ResponseHeaders(){} // RVA: 0xBAE3B0
+        public void .ctor(){} // RVA: 0x77A1ED0
+        public void get_Message(){} // RVA: 0x77A21F0
     }
 
 }

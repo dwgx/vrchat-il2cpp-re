@@ -1,24 +1,24 @@
 # VRChat IL2CPP Pipeline Coverage Report
-Generated: 2026-06-29 14:42:52
+Generated: 2026-06-29 17:18:40
 
 ## Overall Coverage
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
-| Total classes | 61,810 | - |
-| Renamed (obfuscated) | 9,801 | 15.9% of total |
-| Semantic names | 6,079 | 62.0% of renamed |
-| Fallback names | 3,722 | 38.0% of renamed |
-| Total methods | 542,658 | - |
-| Renamed methods | 39,521 | - |
+| Total classes | 65,042 | - |
+| Renamed (obfuscated) | 9,942 | 15.3% of total |
+| Semantic names | 5,993 | 60.3% of renamed |
+| Fallback names | 3,949 | 39.7% of renamed |
+| Total methods | 571,678 | - |
+| Renamed methods | 36,525 | - |
 | Total fields | 0 | - |
 | Renamed fields | 0 | - |
 
 ## Quality Metrics
 
-- **Semantic naming rate**: 62.0%
-- Classes with meaningful names that reveal purpose: 6,079
-- Classes with only structural/hash names: 3,722
+- **Semantic naming rate**: 60.3%
+- Classes with meaningful names that reveal purpose: 5,993
+- Classes with only structural/hash names: 3,949
 
 ## Output Files
 

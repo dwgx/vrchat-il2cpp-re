@@ -1,1686 +1,1357 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Collections
-// Classes: 100
-// Methods: 1178
+// Classes: 86
+// Methods: 919
 
 namespace ThirdParty.Other.Unity.Collections
 {
     public class NativeArrayDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EDA4F0
+        public void Dispose(){} // RVA: 0x95F6D0
     }
 
     public class NativeArrayDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EDA550
-        public void RegisterNativeArrayDisposeJobReflectionData(){} // RVA: 0x7AEE971D0
+        public void Execute(){} // RVA: 0x95F730
+        public void RegisterNativeArrayDisposeJobReflectionData(){} // RVA: 0x7B4B160
     }
 
     public class NativeArrayDisposeJob[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0xAD0950
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NativeArrayExtensions : Object
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x7AA5497C0
-        public void Initialize(){} // RVA: 0x7A8051B10
+        public void IndexOf(){} // RVA: 0xA94080
+        public void Initialize(){} // RVA: 0xA94080
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E1D590
-        public void Allocate(){} // RVA: 0x7A7E1A510
-        public void get_Length(){} // RVA: 0x7A7E00710
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void CopyFrom(){} // RVA: 0x7A8051B10
-        public void ToArray(){} // RVA: 0x7A7E00680
-        public void GetEnumerator(){} // RVA: 0x7A8051B10
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void Equals(){} // RVA: 0x7A7E019D0
-        public void GetHashCode(){} // RVA: 0x7A7E00710
-        public void Copy(){} // RVA: 0x7A8051B10
-        public void CopySafe(){} // RVA: 0x7A8051B10
-        public void GetSubArray(){} // RVA: 0x7A8051B10
-        public void AsReadOnly(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x899290
+        public void Allocate(){} // RVA: 0x896080
+        public void get_Length(){} // RVA: 0x87C130
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void CopyFrom(){} // RVA: 0xA94080
+        public void CopyTo(){} // RVA: 0xA94080
+        public void ToArray(){} // RVA: 0x87C0A0
+        public void GetEnumerator(){} // RVA: 0xA94080
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x87D350
+        public void GetHashCode(){} // RVA: 0x87C130
+        public void Copy(){} // RVA: 0xA94080
+        public void CopySafe(){} // RVA: 0xA94080
+        public void GetSubArray(){} // RVA: 0xA94080
+        public void AsReadOnly(){} // RVA: 0xA94080
+        public void AsSpan(){} // RVA: 0xA94080
+        public void op_Implicit(){} // RVA: 0xA94080
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD660
-        public void Allocate(){} // RVA: 0x7ABA50130
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD710
-        public void set_Item(){} // RVA: 0x7A79CD740
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CD7C0
-        public void ToArray(){} // RVA: 0x7A79CD880
-        public void GetEnumerator(){} // RVA: 0x7A79CD890
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CD8E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CD960
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA50BC0
-        public void CopySafe(){} // RVA: 0x7ABA50E70
-        public void GetSubArray(){} // RVA: 0x7A79CDA00
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x437A20
+        public void Allocate(){} // RVA: 0x46E44D0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x437AD0
+        public void set_Item(){} // RVA: 0x437B00
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x437B80
+        public void CopyTo(){} // RVA: 0x437C40
+        public void ToArray(){} // RVA: 0x437D10
+        public void GetEnumerator(){} // RVA: 0x437D20
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x437D70
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x437DF0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46E5030
+        public void CopySafe(){} // RVA: 0x46E52E0
+        public void GetSubArray(){} // RVA: 0x437E90
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C6DE0
-        public void Allocate(){} // RVA: 0x7ABA41990
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6F40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6FB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7050
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x4313F0
+        public void Allocate(){} // RVA: 0x46D7C30
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430EA0
+        public void set_Item(){} // RVA: 0x430EC0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x430F30
+        public void CopyTo(){} // RVA: 0x430FF0
+        public void ToArray(){} // RVA: 0x4310C0
+        public void GetEnumerator(){} // RVA: 0x431550
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4315C0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x431660
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D7660
+        public void CopySafe(){} // RVA: 0x46D7900
+        public void GetSubArray(){} // RVA: 0x4312A0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CAA90
-        public void Allocate(){} // RVA: 0x7ABA47C00
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CAB40
-        public void set_Item(){} // RVA: 0x7A79CAB90
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79CAC30
-        public void ToArray(){} // RVA: 0x7A79CACF0
-        public void GetEnumerator(){} // RVA: 0x7A79CAD00
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CAD70
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CAE80
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA48880
-        public void CopySafe(){} // RVA: 0x7ABA48B30
-        public void GetSubArray(){} // RVA: 0x7A79CAF60
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x442C20
+        public void Allocate(){} // RVA: 0x46F16A0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x431EC0
+        public void set_Item(){} // RVA: 0x431EF0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x431F70
+        public void CopyTo(){} // RVA: 0x432030
+        public void ToArray(){} // RVA: 0x432100
+        public void GetEnumerator(){} // RVA: 0x442CD0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x442D50
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x442E10
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D9D60
+        public void CopySafe(){} // RVA: 0x46DA010
+        public void GetSubArray(){} // RVA: 0x432340
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C6860
-        public void Allocate(){} // RVA: 0x7ABA3F880
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C64F0
-        public void set_Item(){} // RVA: 0x7A79C6500
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C6870
-        public void ToArray(){} // RVA: 0x7A79C6890
-        public void GetEnumerator(){} // RVA: 0x7A79C6630
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6690
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C6720
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA402C0
-        public void CopySafe(){} // RVA: 0x7ABA40540
-        public void GetSubArray(){} // RVA: 0x7A79C67D0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x430D80
+        public void Allocate(){} // RVA: 0x46D47B0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430320
+        public void set_Item(){} // RVA: 0x430330
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x430D90
+        public void CopyTo(){} // RVA: 0x430DB0
+        public void ToArray(){} // RVA: 0x430DD0
+        public void GetEnumerator(){} // RVA: 0x430520
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x430580
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x430610
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D52B0
+        public void CopySafe(){} // RVA: 0x46D5530
+        public void GetSubArray(){} // RVA: 0x4306C0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D8970
-        public void Allocate(){} // RVA: 0x7ABA5D420
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C9A60
-        public void set_Item(){} // RVA: 0x7A79C9A90
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C9B10
-        public void ToArray(){} // RVA: 0x7A79C9BD0
-        public void GetEnumerator(){} // RVA: 0x7A79D8A20
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D8AA0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D8B60
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA45160
-        public void CopySafe(){} // RVA: 0x7ABA45410
-        public void GetSubArray(){} // RVA: 0x7A79C9E10
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x433FF0
+        public void Allocate(){} // RVA: 0x46D80D0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x4375C0
+        public void set_Item(){} // RVA: 0x4375D0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x4318F0
+        public void CopyTo(){} // RVA: 0x4319B0
+        public void ToArray(){} // RVA: 0x431A80
+        public void GetEnumerator(){} // RVA: 0x431B30
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431B90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x431C20
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D8B30
+        public void CopySafe(){} // RVA: 0x46D8DF0
+        public void GetSubArray(){} // RVA: 0x431CD0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CB4E0
-        public void Allocate(){} // RVA: 0x7ABA41E30
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD2E0
-        public void set_Item(){} // RVA: 0x7A79CD2F0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C72E0
-        public void ToArray(){} // RVA: 0x7A79C73A0
-        public void GetEnumerator(){} // RVA: 0x7A79C7450
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C74B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7540
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA427C0
-        public void CopySafe(){} // RVA: 0x7ABA42A80
-        public void GetSubArray(){} // RVA: 0x7A79C75F0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x436200
+        public void Allocate(){} // RVA: 0x46E04D0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x433600
+        public void set_Item(){} // RVA: 0x433610
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x433670
+        public void CopyTo(){} // RVA: 0x433730
+        public void ToArray(){} // RVA: 0x433800
+        public void GetEnumerator(){} // RVA: 0x436210
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x436270
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x436300
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DDB60
+        public void CopySafe(){} // RVA: 0x46DDE20
+        public void GetSubArray(){} // RVA: 0x4339B0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CC1C0
-        public void Allocate(){} // RVA: 0x7ABA4C410
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CC1D0
-        public void set_Item(){} // RVA: 0x7A79CC1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CC240
-        public void ToArray(){} // RVA: 0x7A79CC300
-        public void GetEnumerator(){} // RVA: 0x7A79CC310
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CC370
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CC400
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4CEA0
-        public void CopySafe(){} // RVA: 0x7ABA4D160
-        public void GetSubArray(){} // RVA: 0x7A79CC4B0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x433FF0
+        public void Allocate(){} // RVA: 0x46D80D0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x431880
+        public void set_Item(){} // RVA: 0x431890
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x4318F0
+        public void CopyTo(){} // RVA: 0x4319B0
+        public void ToArray(){} // RVA: 0x433490
+        public void GetEnumerator(){} // RVA: 0x431B30
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431B90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x431C20
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D8B30
+        public void CopySafe(){} // RVA: 0x46D8DF0
+        public void GetSubArray(){} // RVA: 0x431CD0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CB4E0
-        public void Allocate(){} // RVA: 0x7ABA41E30
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C7270
-        public void set_Item(){} // RVA: 0x7A79C7280
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C72E0
-        public void ToArray(){} // RVA: 0x7A79CB4F0
-        public void GetEnumerator(){} // RVA: 0x7A79C7450
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C74B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7540
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA427C0
-        public void CopySafe(){} // RVA: 0x7ABA42A80
-        public void GetSubArray(){} // RVA: 0x7A79C75F0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CA540
-        public void Allocate(){} // RVA: 0x7ABA46AB0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CA5F0
-        public void set_Item(){} // RVA: 0x7A79CA620
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CA6A0
-        public void ToArray(){} // RVA: 0x7A79CA760
-        public void GetEnumerator(){} // RVA: 0x7A79CA770
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CA7C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CA890
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA47610
-        public void CopySafe(){} // RVA: 0x7ABA478C0
-        public void GetSubArray(){} // RVA: 0x7A79CA940
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D54D0
-        public void Allocate(){} // RVA: 0x7ABA53DA0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D5580
-        public void set_Item(){} // RVA: 0x7A79D5620
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79D5720
-        public void ToArray(){} // RVA: 0x7A79D57E0
-        public void GetEnumerator(){} // RVA: 0x7A79D57F0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D5890
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D59A0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA54AC0
-        public void CopySafe(){} // RVA: 0x7ABA54D70
-        public void GetSubArray(){} // RVA: 0x7A79D5A90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
+        public void .ctor(){} // RVA: 0x433AF0
+        public void Allocate(){} // RVA: 0x46DE150
+        public void get_Item(){} // RVA: 0x433BA0
+        public void set_Item(){} // RVA: 0x433BB0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x433C10
+        public void CopyTo(){} // RVA: 0x433CD0
+        public void ToArray(){} // RVA: 0x433DA0
+        public void GetEnumerator(){} // RVA: 0x433DB0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x433E10
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x433EA0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DECA0
+        public void CopySafe(){} // RVA: 0x46DEF40
+        public void GetSubArray(){} // RVA: 0x433F50
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void .ctor(){} // RVA: 0x7A79CB0B0
-        public void Allocate(){} // RVA: 0x7ABA48E70
-        public void get_Item(){} // RVA: 0x7A79CB160
-        public void set_Item(){} // RVA: 0x7A79CB170
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CB1D0
-        public void ToArray(){} // RVA: 0x7A79CB290
-        public void GetEnumerator(){} // RVA: 0x7A79CB2A0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CB300
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CB390
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA49900
-        public void CopySafe(){} // RVA: 0x7ABA49BA0
-        public void GetSubArray(){} // RVA: 0x7A79CB440
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x438EE0
+        public void Allocate(){} // RVA: 0x46E84E0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x438F90
+        public void set_Item(){} // RVA: 0x439030
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x439130
+        public void CopyTo(){} // RVA: 0x4391F0
+        public void ToArray(){} // RVA: 0x4392C0
+        public void GetEnumerator(){} // RVA: 0x4392D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x439370
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x439480
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46E92D0
+        public void CopySafe(){} // RVA: 0x46E9580
+        public void GetSubArray(){} // RVA: 0x439570
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C68B0
-        public void Allocate(){} // RVA: 0x7ABA40900
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6AC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6B30
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C6BD0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x430DF0
+        public void Allocate(){} // RVA: 0x46D6AD0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430EA0
+        public void set_Item(){} // RVA: 0x430EC0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x430F30
+        public void CopyTo(){} // RVA: 0x430FF0
+        public void ToArray(){} // RVA: 0x4310C0
+        public void GetEnumerator(){} // RVA: 0x4310D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431140
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4311E0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D7660
+        public void CopySafe(){} // RVA: 0x46D7900
+        public void GetSubArray(){} // RVA: 0x4312A0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
+        public void .ctor(){} // RVA: 0x432B50
+        public void Allocate(){} // RVA: 0x46DB740
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x432C00
+        public void set_Item(){} // RVA: 0x432C30
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x432CB0
+        public void CopyTo(){} // RVA: 0x432D70
+        public void ToArray(){} // RVA: 0x432E40
+        public void GetEnumerator(){} // RVA: 0x432E50
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x432EA0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x432F70
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DC370
+        public void CopySafe(){} // RVA: 0x46DC620
+        public void GetSubArray(){} // RVA: 0x433020
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
+        public void .ctor(){} // RVA: 0x4317D0
+        public void Allocate(){} // RVA: 0x46D80D0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x431880
+        public void set_Item(){} // RVA: 0x431890
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x434010
+        public void CopyFrom(){} // RVA: 0x4318F0
+        public void CopyTo(){} // RVA: 0x4319B0
+        public void ToArray(){} // RVA: 0x433490
+        public void GetEnumerator(){} // RVA: 0x431B30
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431B90
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x431C20
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D8B30
+        public void CopySafe(){} // RVA: 0x46D8DF0
+        public void GetSubArray(){} // RVA: 0x431CD0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D7DE0
-        public void Allocate(){} // RVA: 0x7ABA5AFF0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D7E90
-        public void set_Item(){} // RVA: 0x7A79D7ED0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79D7F50
-        public void ToArray(){} // RVA: 0x7A79D8010
-        public void GetEnumerator(){} // RVA: 0x7A79D8020
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D8070
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D8150
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA5BB50
-        public void CopySafe(){} // RVA: 0x7ABA5BDF0
-        public void GetSubArray(){} // RVA: 0x7A79D8200
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
+        public void set_Item(){} // RVA: 0x433610
+        public void .ctor(){} // RVA: 0x433550
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void Allocate(){} // RVA: 0x46DD000
+        public void get_Item(){} // RVA: 0x433600
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void CopyFrom(){} // RVA: 0x433670
+        public void CopyTo(){} // RVA: 0x433730
+        public void ToArray(){} // RVA: 0x433800
+        public void GetEnumerator(){} // RVA: 0x433810
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x433870
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x433900
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DDB60
+        public void CopySafe(){} // RVA: 0x46DDE20
+        public void GetSubArray(){} // RVA: 0x4339B0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D7670
-        public void Allocate(){} // RVA: 0x7ABA59C90
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D7720
-        public void set_Item(){} // RVA: 0x7A79D77C0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79D78B0
-        public void ToArray(){} // RVA: 0x7A79D7970
-        public void GetEnumerator(){} // RVA: 0x7A79D7980
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D7A30
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D7B70
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA5AA10
-        public void CopySafe(){} // RVA: 0x7ABA5ACC0
-        public void GetSubArray(){} // RVA: 0x7A79D7C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D6ED0
-        public void Allocate(){} // RVA: 0x7ABA588F0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D6F80
-        public void set_Item(){} // RVA: 0x7A79D7020
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79D7120
-        public void ToArray(){} // RVA: 0x7A79D71E0
-        public void GetEnumerator(){} // RVA: 0x7A79D71F0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D72C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D7400
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA596A0
-        public void CopySafe(){} // RVA: 0x7ABA59950
-        public void GetSubArray(){} // RVA: 0x7A79D7520
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D8340
-        public void Allocate(){} // RVA: 0x7ABA5C120
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D83F0
-        public void set_Item(){} // RVA: 0x7A79D8460
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79D8530
-        public void ToArray(){} // RVA: 0x7A79D85F0
-        public void GetEnumerator(){} // RVA: 0x7A79D8600
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D86A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D87C0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA5CE30
-        public void CopySafe(){} // RVA: 0x7ABA5D0E0
-        public void GetSubArray(){} // RVA: 0x7A79D88C0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C71C0
-        public void Allocate(){} // RVA: 0x7ABA41E30
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C7270
-        public void set_Item(){} // RVA: 0x7A79C7280
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79CB510
-        public void CopyFrom(){} // RVA: 0x7A79C72E0
-        public void ToArray(){} // RVA: 0x7A79CB4F0
-        public void GetEnumerator(){} // RVA: 0x7A79C7450
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C74B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7540
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA427C0
-        public void CopySafe(){} // RVA: 0x7ABA42A80
-        public void GetSubArray(){} // RVA: 0x7A79C75F0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CB5D0
-        public void Allocate(){} // RVA: 0x7ABA4A060
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CB680
-        public void set_Item(){} // RVA: 0x7A79CB6C0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CB750
-        public void ToArray(){} // RVA: 0x7A79CB810
-        public void GetEnumerator(){} // RVA: 0x7A79CB820
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CB880
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CB980
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4AC30
-        public void CopySafe(){} // RVA: 0x7ABA4AED0
-        public void GetSubArray(){} // RVA: 0x7A79CBA40
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C68B0
-        public void Allocate(){} // RVA: 0x7ABA40900
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6AC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6B30
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C6BD0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void get_Length(){} // RVA: 0x14790
+        public void set_Item(){} // RVA: 0x430EC0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD320
-        public void Allocate(){} // RVA: 0x7ABA4FCF0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CC1D0
-        public void set_Item(){} // RVA: 0x7A79CC1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CC240
-        public void ToArray(){} // RVA: 0x7A79CC300
-        public void GetEnumerator(){} // RVA: 0x7A79CD3D0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CD430
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CD4C0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4CEA0
-        public void CopySafe(){} // RVA: 0x7ABA4D160
-        public void GetSubArray(){} // RVA: 0x7A79CC4B0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void GetSubArray(){} // RVA: 0x436F20
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
+        public void AsReadOnly(){} // RVA: 0x42F410
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void set_Item(){} // RVA: 0x7A79C6980
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void .ctor(){} // RVA: 0x42EC80
+        public void Allocate(){} // RVA: 0x46D0C60
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x42ED30
+        public void set_Item(){} // RVA: 0x42ED90
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void CopyFrom(){} // RVA: 0x42EE50
+        public void CopyTo(){} // RVA: 0x42EF10
+        public void ToArray(){} // RVA: 0x42EFE0
+        public void GetEnumerator(){} // RVA: 0x42EFF0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x42F060
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x42F170
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D1B80
+        public void CopySafe(){} // RVA: 0x46D1E20
+        public void GetSubArray(){} // RVA: 0x42F380
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void GetSubArray(){} // RVA: 0x7A79CA940
+        public void .ctor(){} // RVA: 0x439620
+        public void Allocate(){} // RVA: 0x46E98C0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x432C00
+        public void set_Item(){} // RVA: 0x432C30
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x4396D0
+        public void CopyTo(){} // RVA: 0x432D70
+        public void ToArray(){} // RVA: 0x432E40
+        public void GetEnumerator(){} // RVA: 0x437740
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x437790
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x437870
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DC370
+        public void CopySafe(){} // RVA: 0x46DC620
+        public void GetSubArray(){} // RVA: 0x433020
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D5B40
-        public void Allocate(){} // RVA: 0x7ABA550B0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CA5F0
-        public void set_Item(){} // RVA: 0x7A79CA620
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79D5BF0
-        public void ToArray(){} // RVA: 0x7A79CA760
-        public void GetEnumerator(){} // RVA: 0x7A79CCBC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CCC10
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CCCF0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA47610
-        public void CopySafe(){} // RVA: 0x7ABA478C0
-        public void GetSubArray(){} // RVA: 0x7A79CA940
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x439700
+        public void Allocate(){} // RVA: 0x46E9AD0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x4397B0
+        public void set_Item(){} // RVA: 0x439800
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x439890
+        public void CopyTo(){} // RVA: 0x4398B0
+        public void ToArray(){} // RVA: 0x439980
+        public void GetEnumerator(){} // RVA: 0x439990
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4399F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x439AE0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46EA7B0
+        public void CopySafe(){} // RVA: 0x46EAA60
+        public void GetSubArray(){} // RVA: 0x439BB0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D5C20
-        public void Allocate(){} // RVA: 0x7ABA552C0
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79D5CD0
-        public void set_Item(){} // RVA: 0x7A79D5D20
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79D5DB0
-        public void ToArray(){} // RVA: 0x7A79D5DD0
-        public void GetEnumerator(){} // RVA: 0x7A79D5DE0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79D5E40
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79D5F30
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA55ED0
-        public void CopySafe(){} // RVA: 0x7ABA56180
-        public void GetSubArray(){} // RVA: 0x7A79D6000
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x4340E0
+        public void Allocate(){} // RVA: 0x46DF260
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x434190
+        public void set_Item(){} // RVA: 0x4341D0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x434260
+        public void CopyTo(){} // RVA: 0x434320
+        public void ToArray(){} // RVA: 0x4343F0
+        public void GetEnumerator(){} // RVA: 0x434400
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x434460
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x434560
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46DFF00
+        public void CopySafe(){} // RVA: 0x46E01A0
+        public void GetSubArray(){} // RVA: 0x434620
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C68B0
-        public void Allocate(){} // RVA: 0x7ABA40900
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6AC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6B30
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C6BD0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x430DF0
+        public void Allocate(){} // RVA: 0x46D6AD0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430EA0
+        public void set_Item(){} // RVA: 0x430EC0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x430F30
+        public void CopyTo(){} // RVA: 0x430FF0
+        public void ToArray(){} // RVA: 0x4310C0
+        public void GetEnumerator(){} // RVA: 0x4310D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431140
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4311E0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D7660
+        public void CopySafe(){} // RVA: 0x46D7900
+        public void GetSubArray(){} // RVA: 0x4312A0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void .ctor(){} // RVA: 0x7A79CCB10
-        public void Allocate(){} // RVA: 0x7ABA4E6E0
-        public void get_Item(){} // RVA: 0x7A79CA5F0
-        public void set_Item(){} // RVA: 0x7A79CA620
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CA6A0
-        public void ToArray(){} // RVA: 0x7A79CA760
-        public void GetEnumerator(){} // RVA: 0x7A79CCBC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CCC10
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CCCF0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA47610
-        public void CopySafe(){} // RVA: 0x7ABA478C0
-        public void GetSubArray(){} // RVA: 0x7A79CA940
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x430DF0
+        public void Allocate(){} // RVA: 0x46D6AD0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430EA0
+        public void set_Item(){} // RVA: 0x430EC0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x430F30
+        public void CopyTo(){} // RVA: 0x430FF0
+        public void ToArray(){} // RVA: 0x4310C0
+        public void GetEnumerator(){} // RVA: 0x4310D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x431140
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x4311E0
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D7660
+        public void CopySafe(){} // RVA: 0x46D7900
+        public void GetSubArray(){} // RVA: 0x4312A0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void .ctor(){} // RVA: 0x7A79C6DE0
-        public void Allocate(){} // RVA: 0x7ABA41990
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6F40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6FB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7050
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x440250
+        public void Allocate(){} // RVA: 0x46EB1B0
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x440300
+        public void set_Item(){} // RVA: 0x4403B0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42EDF0
+        public void CopyFrom(){} // RVA: 0x4404B0
+        public void CopyTo(){} // RVA: 0x440570
+        public void ToArray(){} // RVA: 0x440640
+        public void GetEnumerator(){} // RVA: 0x440650
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x440720
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x440860
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46EC040
+        public void CopySafe(){} // RVA: 0x46EC2F0
+        public void GetSubArray(){} // RVA: 0x440980
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C71C0
-        public void Allocate(){} // RVA: 0x7ABA41E30
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C7270
-        public void set_Item(){} // RVA: 0x7A79C7280
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79C72E0
-        public void ToArray(){} // RVA: 0x7A79C73A0
-        public void GetEnumerator(){} // RVA: 0x7A79C7450
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C74B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7540
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA427C0
-        public void CopySafe(){} // RVA: 0x7ABA42A80
-        public void GetSubArray(){} // RVA: 0x7A79C75F0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C6DE0
-        public void Allocate(){} // RVA: 0x7ABA41990
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6E90
-        public void GetEnumerator(){} // RVA: 0x7A79C6F40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6FB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7050
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CB5D0
-        public void Allocate(){} // RVA: 0x7ABA4A060
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CB680
-        public void set_Item(){} // RVA: 0x7A79CB6C0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CB750
-        public void ToArray(){} // RVA: 0x7A79CB810
-        public void GetEnumerator(){} // RVA: 0x7A79CB820
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CB880
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CB980
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4AC30
-        public void CopySafe(){} // RVA: 0x7ABA4AED0
-        public void GetSubArray(){} // RVA: 0x7A79CBA40
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD660
-        public void Allocate(){} // RVA: 0x7ABA50130
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD710
-        public void set_Item(){} // RVA: 0x7A79CD740
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CD7C0
-        public void ToArray(){} // RVA: 0x7A79CD880
-        public void GetEnumerator(){} // RVA: 0x7A79CD890
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CD8E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CD960
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA50BC0
-        public void CopySafe(){} // RVA: 0x7ABA50E70
-        public void GetSubArray(){} // RVA: 0x7A79CDA00
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C6DE0
-        public void Allocate(){} // RVA: 0x7ABA41990
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6F40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6FB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7050
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C5840
-        public void Allocate(){} // RVA: 0x7ABA3D400
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C58F0
-        public void set_Item(){} // RVA: 0x7A79C5930
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79C5A60
-        public void ToArray(){} // RVA: 0x7A79C5B20
-        public void GetEnumerator(){} // RVA: 0x7A79C5B30
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C5B80
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C5C60
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA3E150
-        public void CopySafe(){} // RVA: 0x7ABA3E3F0
-        public void GetSubArray(){} // RVA: 0x7A79C5E40
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD580
-        public void Allocate(){} // RVA: 0x7ABA4C410
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD630
-        public void set_Item(){} // RVA: 0x7A79CC1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79CC240
-        public void ToArray(){} // RVA: 0x7A79CC300
-        public void GetEnumerator(){} // RVA: 0x7A79CC310
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CC370
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CC400
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4CEA0
-        public void CopySafe(){} // RVA: 0x7ABA4D160
-        public void GetSubArray(){} // RVA: 0x7A79CC4B0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C5F40
-        public void Allocate(){} // RVA: 0x7ABA3E780
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C5FF0
-        public void set_Item(){} // RVA: 0x7A79C6020
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C60A0
-        public void ToArray(){} // RVA: 0x7A79C6160
-        public void GetEnumerator(){} // RVA: 0x7A79C6170
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C61F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C62B0
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA3F2C0
-        public void CopySafe(){} // RVA: 0x7ABA3F560
-        public void GetSubArray(){} // RVA: 0x7A79C6390
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD660
-        public void Allocate(){} // RVA: 0x7ABA50130
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD710
-        public void set_Item(){} // RVA: 0x7A79CD740
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79CD7C0
-        public void ToArray(){} // RVA: 0x7A79CD880
-        public void GetEnumerator(){} // RVA: 0x7A79CD890
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CD8E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CD960
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA50BC0
-        public void CopySafe(){} // RVA: 0x7ABA50E70
-        public void GetSubArray(){} // RVA: 0x7A79CDA00
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79CD580
-        public void Allocate(){} // RVA: 0x7ABA4C410
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CD630
-        public void set_Item(){} // RVA: 0x7A79CC1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79CC240
-        public void ToArray(){} // RVA: 0x7A79CC300
-        public void GetEnumerator(){} // RVA: 0x7A79CC310
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CC370
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CC400
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4CEA0
-        public void CopySafe(){} // RVA: 0x7ABA4D160
-        public void GetSubArray(){} // RVA: 0x7A79CC4B0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C6DE0
-        public void Allocate(){} // RVA: 0x7ABA41990
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C6960
-        public void set_Item(){} // RVA: 0x7A79C6980
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79C69F0
-        public void ToArray(){} // RVA: 0x7A79C6AB0
-        public void GetEnumerator(){} // RVA: 0x7A79C6F40
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C6FB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7050
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA413C0
-        public void CopySafe(){} // RVA: 0x7ABA41660
-        public void GetSubArray(){} // RVA: 0x7A79C6C90
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D5410
-        public void Allocate(){} // RVA: 0x7ABA53B90
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79CC1D0
-        public void set_Item(){} // RVA: 0x7A79CC1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C5970
-        public void CopyFrom(){} // RVA: 0x7A79CC240
-        public void ToArray(){} // RVA: 0x7A79CC300
-        public void GetEnumerator(){} // RVA: 0x7A79CC310
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79CC370
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79CC400
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA4CEA0
-        public void CopySafe(){} // RVA: 0x7ABA4D160
-        public void GetSubArray(){} // RVA: 0x7A79CC4B0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
-    }
-
-    public class NativeArray`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79C71C0
-        public void Allocate(){} // RVA: 0x7ABA41E30
-        public void get_Length(){} // RVA: 0x7A75FEFA0
-        public void get_Item(){} // RVA: 0x7A79C7270
-        public void set_Item(){} // RVA: 0x7A79C7280
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79C6040
-        public void CopyFrom(){} // RVA: 0x7A79C72E0
-        public void ToArray(){} // RVA: 0x7A79CB4F0
-        public void GetEnumerator(){} // RVA: 0x7A79C7450
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79C74B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79C7540
-        public void Equals(){} // RVA: 0x7A79C5D30
-        public void GetHashCode(){} // RVA: 0x7A79C5E30
-        public void Copy(){} // RVA: 0x7ABA427C0
-        public void CopySafe(){} // RVA: 0x7ABA42A80
-        public void GetSubArray(){} // RVA: 0x7A79C75F0
-        public void AsReadOnly(){} // RVA: 0x7A79C5ED0
+        public void .ctor(){} // RVA: 0x4313F0
+        public void Allocate(){} // RVA: 0x46D7C30
+        public void get_Length(){} // RVA: 0x14790
+        public void get_Item(){} // RVA: 0x430EA0
+        public void set_Item(){} // RVA: 0x430EC0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x42F6E0
+        public void CopyFrom(){} // RVA: 0x430F30
+        public void CopyTo(){} // RVA: 0x430FF0
+        public void ToArray(){} // RVA: 0x4314A0
+        public void GetEnumerator(){} // RVA: 0x431550
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x4315C0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x431660
+        public void Equals(){} // RVA: 0x42F270
+        public void GetHashCode(){} // RVA: 0x42F370
+        public void Copy(){} // RVA: 0x46D7660
+        public void CopySafe(){} // RVA: 0x46D7900
+        public void GetSubArray(){} // RVA: 0x4312A0
+        public void AsReadOnly(){} // RVA: 0x42F410
+        public void AsSpan(){} // RVA: 0x42F470
+        public void op_Implicit(){} // RVA: 0x46D20C0
     }
 
     public class NativeBitArrayDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3BF0
+        public void Dispose(){} // RVA: 0x9242E0
     }
 
     public class NativeBitArrayDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3C00
+        public void Execute(){} // RVA: 0x9242F0
     }
 
     public class NativeDisableParallelForRestrictionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xB43310
     }
 
     public class NativeDisableParallelForRestrictionAttribute[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NativeFixedLengthAttribute[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NativeHashMapDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3C10
+        public void Dispose(){} // RVA: 0x924300
     }
 
     public class NativeHashMapDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3C20
+        public void Execute(){} // RVA: 0x924310
     }
 
     public class NativeHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void TryAdd(){} // RVA: 0x7A8051B10
-        public void Add(){} // RVA: 0x7A8051B10
-        public void Remove(){} // RVA: 0x7A8051B10
-        public void TryGetValue(){} // RVA: 0x7A8051B10
-        public void ContainsKey(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void GetKeyArray(){} // RVA: 0x7A8051B10
-        public void GetValueArray(){} // RVA: 0x7A8051B10
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0xA94080
+        public void Dispose(){} // RVA: 0x894290
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Clear(){} // RVA: 0x894290
+        public void TryAdd(){} // RVA: 0xA94080
+        public void Add(){} // RVA: 0xA94080
+        public void Remove(){} // RVA: 0xA94080
+        public void TryGetValue(){} // RVA: 0xA94080
+        public void ContainsKey(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void GetKeyArray(){} // RVA: 0xA94080
+        public void GetValueArray(){} // RVA: 0xA94080
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
     }
 
     public class NativeHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D8F70
-        public void Dispose(){} // RVA: 0x7A79D8F80
-        public void get_IsCreated(){} // RVA: 0x7A79D8C70
-        public void Clear(){} // RVA: 0x7A79D8CB0
-        public void TryAdd(){} // RVA: 0x7A79D8F90
-        public void Add(){} // RVA: 0x7A79D8FC0
-        public void Remove(){} // RVA: 0x7A79D9020
-        public void TryGetValue(){} // RVA: 0x7A79D9090
-        public void ContainsKey(){} // RVA: 0x7A79D90F0
-        public void set_Item(){} // RVA: 0x7A79D9150
-        public void GetKeyArray(){} // RVA: 0x7A79D9180
-        public void GetValueArray(){} // RVA: 0x7A79D8F00
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
+        public void .ctor(){} // RVA: 0x443230
+        public void Dispose(){} // RVA: 0x443240
+        public void get_IsCreated(){} // RVA: 0x442F20
+        public void Clear(){} // RVA: 0x442F60
+        public void TryAdd(){} // RVA: 0x443250
+        public void Add(){} // RVA: 0x443280
+        public void Remove(){} // RVA: 0x4432E0
+        public void TryGetValue(){} // RVA: 0x443350
+        public void ContainsKey(){} // RVA: 0x4433B0
+        public void set_Item(){} // RVA: 0x443410
+        public void GetKeyArray(){} // RVA: 0x443440
+        public void GetValueArray(){} // RVA: 0x4431B0
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
     }
 
     public class NativeHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D8C50
-        public void Dispose(){} // RVA: 0x7A79D8C60
-        public void get_IsCreated(){} // RVA: 0x7A79D8C70
-        public void Clear(){} // RVA: 0x7A79D8CB0
-        public void TryAdd(){} // RVA: 0x7A79D8CE0
-        public void Add(){} // RVA: 0x7A79D8D80
-        public void Remove(){} // RVA: 0x7A79D8DA0
-        public void TryGetValue(){} // RVA: 0x7A79D8E00
-        public void ContainsKey(){} // RVA: 0x7A79D8E20
-        public void set_Item(){} // RVA: 0x7A79D8E70
-        public void GetKeyArray(){} // RVA: 0x7A79D8E90
-        public void GetValueArray(){} // RVA: 0x7A79D8F00
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
+        public void .ctor(){} // RVA: 0x442F00
+        public void Dispose(){} // RVA: 0x442F10
+        public void get_IsCreated(){} // RVA: 0x442F20
+        public void Clear(){} // RVA: 0x442F60
+        public void TryAdd(){} // RVA: 0x442F90
+        public void Add(){} // RVA: 0x443030
+        public void Remove(){} // RVA: 0x443050
+        public void TryGetValue(){} // RVA: 0x4430B0
+        public void ContainsKey(){} // RVA: 0x4430D0
+        public void set_Item(){} // RVA: 0x443120
+        public void GetKeyArray(){} // RVA: 0x443140
+        public void GetValueArray(){} // RVA: 0x4431B0
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.KVPair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
     }
 
     public class NativeListDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3C30
+        public void Dispose(){} // RVA: 0x924320
     }
 
     public class NativeListDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3C70
+        public void Execute(){} // RVA: 0x924360
     }
 
     public class NativeListExtensions : Object
     {
         // ── Methods ──
-        public void Contains(){} // RVA: 0x7AA54A380
-        public void IndexOf(){} // RVA: 0x7AA54A550
+        public void Contains(){} // RVA: 0xA94080
+        public void IndexOf(){} // RVA: 0xA94080
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Initialize(){} // RVA: 0x7A7E19BE0
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void get_Length(){} // RVA: 0x7A7E00710
-        public void set_Length(){} // RVA: 0x7A7E189D0
-        public void get_Capacity(){} // RVA: 0x7A7E00710
-        public void Add(){} // RVA: 0x7A7E18800
-        public void AddRange(){} // RVA: 0x7A8051B10
-        public void RemoveAtSwapBack(){} // RVA: 0x7A7E189D0
-        public void RemoveAt(){} // RVA: 0x7A7E189D0
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void AsArray(){} // RVA: 0x7A8051B10
-        public void GetEnumerator(){} // RVA: 0x7A8051B10
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void SetCapacity(){} // RVA: 0x7A7E189D0
+        public void .ctor(){} // RVA: 0xA94080
+        public void Initialize(){} // RVA: 0x895750
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void get_Length(){} // RVA: 0x87C130
+        public void set_Length(){} // RVA: 0x8944F0
+        public void get_Capacity(){} // RVA: 0x87C130
+        public void Add(){} // RVA: 0x894320
+        public void AddRange(){} // RVA: 0xA94080
+        public void RemoveAtSwapBack(){} // RVA: 0x8944F0
+        public void RemoveAt(){} // RVA: 0x8944F0
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void Clear(){} // RVA: 0x894290
+        public void AsArray(){} // RVA: 0xA94080
+        public void GetEnumerator(){} // RVA: 0xA94080
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void SetCapacity(){} // RVA: 0x8944F0
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D99B0
-        public void Initialize(){} // RVA: 0x7A7748AD0
-        public void get_Item(){} // RVA: 0x7A79D9A10
-        public void set_Item(){} // RVA: 0x7A79D9A50
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79D9AD0
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79D9B50
-        public void AddRange(){} // RVA: 0x7A79D9C40
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79D9CA0
-        public void RemoveAt(){} // RVA: 0x7A79D9CF0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79D9D60
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79D9E30
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79D9E60
+        public void .ctor(){} // RVA: 0x445C40
+        public void Initialize(){} // RVA: 0x191460
+        public void get_Item(){} // RVA: 0x445CA0
+        public void set_Item(){} // RVA: 0x445CE0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x445D30
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x445D80
+        public void AddRange(){} // RVA: 0x445DF0
+        public void RemoveAtSwapBack(){} // RVA: 0x445E50
+        public void RemoveAt(){} // RVA: 0x445EA0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x445F10
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x445F20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x446010
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DA450
-        public void Initialize(){} // RVA: 0x7A7748AF0
-        public void get_Item(){} // RVA: 0x7A79DA4B0
-        public void set_Item(){} // RVA: 0x7A79DA4F0
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DA540
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DA590
-        public void AddRange(){} // RVA: 0x7A79DA680
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DA6E0
-        public void RemoveAt(){} // RVA: 0x7A79DA730
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DA7A0
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DA7B0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DA8A0
+        public void .ctor(){} // RVA: 0x445740
+        public void Initialize(){} // RVA: 0x191450
+        public void get_Item(){} // RVA: 0x4457A0
+        public void set_Item(){} // RVA: 0x445820
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x445880
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x4458D0
+        public void AddRange(){} // RVA: 0x4459C0
+        public void RemoveAtSwapBack(){} // RVA: 0x445A20
+        public void RemoveAt(){} // RVA: 0x445AA0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x445AE0
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x445AF0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x445B50
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DB980
-        public void Initialize(){} // RVA: 0x7A7748B70
-        public void get_Item(){} // RVA: 0x7A79DB9E0
-        public void set_Item(){} // RVA: 0x7A79DBA20
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DBA70
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DBAC0
-        public void AddRange(){} // RVA: 0x7A79DBB30
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DBB90
-        public void RemoveAt(){} // RVA: 0x7A79DBBE0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DBC50
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DBC60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DBD50
+        public void .ctor(){} // RVA: 0x443C70
+        public void Initialize(){} // RVA: 0x1913C0
+        public void get_Item(){} // RVA: 0x443CD0
+        public void set_Item(){} // RVA: 0x443D10
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x443D90
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x443E10
+        public void AddRange(){} // RVA: 0x443F00
+        public void RemoveAtSwapBack(){} // RVA: 0x443F60
+        public void RemoveAt(){} // RVA: 0x443FB0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x444020
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x4440F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x444120
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DB480
-        public void Initialize(){} // RVA: 0x7A7748B60
-        public void get_Item(){} // RVA: 0x7A79DB4E0
-        public void set_Item(){} // RVA: 0x7A79DB560
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DB5C0
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DB610
-        public void AddRange(){} // RVA: 0x7A79DB700
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DB760
-        public void RemoveAt(){} // RVA: 0x7A79DB7E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DB820
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DB830
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DB890
+        public void .ctor(){} // RVA: 0x444710
+        public void Initialize(){} // RVA: 0x1913E0
+        public void get_Item(){} // RVA: 0x444770
+        public void set_Item(){} // RVA: 0x4447B0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x444800
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x444850
+        public void AddRange(){} // RVA: 0x444940
+        public void RemoveAtSwapBack(){} // RVA: 0x4449A0
+        public void RemoveAt(){} // RVA: 0x4449F0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x444A60
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x444A70
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x444B60
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DC3E0
-        public void Initialize(){} // RVA: 0x7A7748B90
-        public void get_Item(){} // RVA: 0x7A79DC440
-        public void set_Item(){} // RVA: 0x7A79DC500
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DC5C0
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DC610
-        public void AddRange(){} // RVA: 0x7A79DC700
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DC760
-        public void RemoveAt(){} // RVA: 0x7A79DC7A0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DC7E0
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DC7F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DC9A0
+        public void .ctor(){} // RVA: 0x446D50
+        public void Initialize(){} // RVA: 0x191490
+        public void get_Item(){} // RVA: 0x446DB0
+        public void set_Item(){} // RVA: 0x446E50
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x446F00
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x446F50
+        public void AddRange(){} // RVA: 0x447040
+        public void RemoveAtSwapBack(){} // RVA: 0x4470A0
+        public void RemoveAt(){} // RVA: 0x4470E0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x447120
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x447130
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x4471E0
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DD620
-        public void Initialize(){} // RVA: 0x7A7748BC0
-        public void get_Item(){} // RVA: 0x7A79DD680
-        public void set_Item(){} // RVA: 0x7A79DD730
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DD7D0
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DD820
-        public void AddRange(){} // RVA: 0x7A79DD910
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DD970
-        public void RemoveAt(){} // RVA: 0x7A79DD9B0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DD9F0
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DDA00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DDB90
+        public void .ctor(){} // RVA: 0x446100
+        public void Initialize(){} // RVA: 0x191470
+        public void get_Item(){} // RVA: 0x446160
+        public void set_Item(){} // RVA: 0x4461C0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x446220
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x446270
+        public void AddRange(){} // RVA: 0x446360
+        public void RemoveAtSwapBack(){} // RVA: 0x4463C0
+        public void RemoveAt(){} // RVA: 0x446420
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x446490
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x4464A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x4465B0
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79D9EF0
-        public void Initialize(){} // RVA: 0x7A7748AE0
-        public void get_Item(){} // RVA: 0x7A79D9F50
-        public void set_Item(){} // RVA: 0x7A79D9FA0
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79D9FF0
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DA040
-        public void AddRange(){} // RVA: 0x7A79DA130
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DA190
-        public void RemoveAt(){} // RVA: 0x7A79DA1E0
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DA250
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DA260
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DA360
+        public void .ctor(){} // RVA: 0x4472D0
+        public void Initialize(){} // RVA: 0x1914A0
+        public void get_Item(){} // RVA: 0x447330
+        public void set_Item(){} // RVA: 0x4473A0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x447400
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x447450
+        public void AddRange(){} // RVA: 0x447540
+        public void RemoveAtSwapBack(){} // RVA: 0x4475A0
+        public void RemoveAt(){} // RVA: 0x447610
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x447690
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x4476A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x4477F0
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DCA90
-        public void Initialize(){} // RVA: 0x7A7748BA0
-        public void get_Item(){} // RVA: 0x7A79DCAF0
-        public void set_Item(){} // RVA: 0x7A79DCB90
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DCC40
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DCC90
-        public void AddRange(){} // RVA: 0x7A79DCD80
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DCDE0
-        public void RemoveAt(){} // RVA: 0x7A79DCE20
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DCE60
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DCE70
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DCF20
+        public void .ctor(){} // RVA: 0x444130
+        public void Initialize(){} // RVA: 0x1913D0
+        public void get_Item(){} // RVA: 0x444210
+        public void set_Item(){} // RVA: 0x444260
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x4442B0
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x444300
+        public void AddRange(){} // RVA: 0x4443F0
+        public void RemoveAtSwapBack(){} // RVA: 0x444450
+        public void RemoveAt(){} // RVA: 0x4444A0
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x444510
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x444520
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x444620
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DBE40
-        public void Initialize(){} // RVA: 0x7A7748B80
-        public void get_Item(){} // RVA: 0x7A79DBEA0
-        public void set_Item(){} // RVA: 0x7A79DBF00
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DBF60
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DBFB0
-        public void AddRange(){} // RVA: 0x7A79DC0A0
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DC100
-        public void RemoveAt(){} // RVA: 0x7A79DC160
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DC1D0
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DC1E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DC2F0
+        public void .ctor(){} // RVA: 0x446620
+        public void Initialize(){} // RVA: 0x191480
+        public void get_Item(){} // RVA: 0x446700
+        public void set_Item(){} // RVA: 0x4467C0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x446880
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x4468D0
+        public void AddRange(){} // RVA: 0x4469C0
+        public void RemoveAtSwapBack(){} // RVA: 0x446A20
+        public void RemoveAt(){} // RVA: 0x446A60
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x446AA0
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x446AB0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x446C60
     }
 
     public class NativeList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DD010
-        public void Initialize(){} // RVA: 0x7A7748BB0
-        public void get_Item(){} // RVA: 0x7A79DD070
-        public void set_Item(){} // RVA: 0x7A79DD0E0
-        public void get_Length(){} // RVA: 0x7A79D9AA0
-        public void set_Length(){} // RVA: 0x7A79DD140
-        public void get_Capacity(){} // RVA: 0x7A79D9B20
-        public void Add(){} // RVA: 0x7A79DD190
-        public void AddRange(){} // RVA: 0x7A79DD280
-        public void RemoveAtSwapBack(){} // RVA: 0x7A79DD2E0
-        public void RemoveAt(){} // RVA: 0x7A79DD350
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A79DD3D0
-        public void Clear(){} // RVA: 0x7A79D9D70
-        public void AsArray(){} // RVA: 0x7A79D9DA0
-        public void GetEnumerator(){} // RVA: 0x7A79DD3E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void SetCapacity(){} // RVA: 0x7A79DD530
+        public void .ctor(){} // RVA: 0x447860
+        public void Initialize(){} // RVA: 0x1914B0
+        public void get_Item(){} // RVA: 0x447940
+        public void set_Item(){} // RVA: 0x4479F0
+        public void get_Length(){} // RVA: 0x443D60
+        public void set_Length(){} // RVA: 0x447A90
+        public void get_Capacity(){} // RVA: 0x443DE0
+        public void Add(){} // RVA: 0x447AE0
+        public void AddRange(){} // RVA: 0x447BD0
+        public void RemoveAtSwapBack(){} // RVA: 0x447C30
+        public void RemoveAt(){} // RVA: 0x447C70
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x447CB0
+        public void Clear(){} // RVA: 0x444030
+        public void AsArray(){} // RVA: 0x444060
+        public void GetEnumerator(){} // RVA: 0x447CC0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x443220
+        public void SetCapacity(){} // RVA: 0x447E50
     }
 
     public class NativeMatchesParallelForLengthAttribute[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class NativeParallelHashMapExtensions : Object
     {
         // ── Methods ──
-        public void Remove(){} // RVA: 0x7A8051B10
+        public void Remove(){} // RVA: 0xA94080
     }
 
     public class NativeParallelHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void AsParallelWriter(){} // RVA: 0x7A8051B10
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0xA94080
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void AsParallelWriter(){} // RVA: 0xA94080
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
     }
 
     public class NativeParallelHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DDE40
-        public void get_IsCreated(){} // RVA: 0x7A79DDE50
-        public void Dispose(){} // RVA: 0x7A79DDE80
-        public void AsParallelWriter(){} // RVA: 0x7A79DDE90
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
+        public void .ctor(){} // RVA: 0x448100
+        public void get_IsCreated(){} // RVA: 0x448110
+        public void Dispose(){} // RVA: 0x448140
+        public void AsParallelWriter(){} // RVA: 0x448150
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
     }
 
     public class NativeParallelMultiHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Initialize(){} // RVA: 0x7A7E19BE0
-        public void Add(){} // RVA: 0x7A8051B10
-        public void TryGetFirstValue(){} // RVA: 0x7A8051B10
-        public void TryGetNextValue(){} // RVA: 0x7A7E01A40
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0xA94080
+        public void Initialize(){} // RVA: 0x895750
+        public void Add(){} // RVA: 0xA94080
+        public void TryGetFirstValue(){} // RVA: 0xA94080
+        public void TryGetNextValue(){} // RVA: 0x87D3C0
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
     }
 
     public class NativeParallelMultiHashMap`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DDEE0
-        public void Initialize(){} // RVA: 0x7A7748BD0
-        public void Add(){} // RVA: 0x7A79DDF40
-        public void TryGetFirstValue(){} // RVA: 0x7A79DDF70
-        public void TryGetNextValue(){} // RVA: 0x7A79DDFB0
-        public void get_IsCreated(){} // RVA: 0x7A79DDE50
-        public void Dispose(){} // RVA: 0x7A79DDFC0
-        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A785E360
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A785E360
+        public void .ctor(){} // RVA: 0x4481A0
+        public void Initialize(){} // RVA: 0x1914C0
+        public void Add(){} // RVA: 0x448200
+        public void TryGetFirstValue(){} // RVA: 0x448230
+        public void TryGetNextValue(){} // RVA: 0x448270
+        public void get_IsCreated(){} // RVA: 0x448110
+        public void Dispose(){} // RVA: 0x448280
+        public void System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator(){} // RVA: 0x443220
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x443220
     }
 
     public class NativeQueueDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3C80
+        public void Dispose(){} // RVA: 0x924370
     }
 
     public class NativeQueueDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3CC0
+        public void Execute(){} // RVA: 0x9243B0
     }
 
     public class NativeQueue`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void Enqueue(){} // RVA: 0x7A8051B10
-        public void TryDequeue(){} // RVA: 0x7A7E019D0
-        public void Clear(){} // RVA: 0x7A7E18770
-        public void get_IsCreated(){} // RVA: 0x7A7E01900
-        public void Dispose(){} // RVA: 0x7A7E18770
-        public void AsParallelWriter(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0xA94080
+        public void Enqueue(){} // RVA: 0xA94080
+        public void TryDequeue(){} // RVA: 0x87D350
+        public void Clear(){} // RVA: 0x894290
+        public void get_IsCreated(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void AsParallelWriter(){} // RVA: 0xA94080
     }
 
     public class NativeQueue`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DE8B0
-        public void Enqueue(){} // RVA: 0x7A79DE8C0
-        public void TryDequeue(){} // RVA: 0x7A79DE8F0
-        public void Clear(){} // RVA: 0x7A79DE940
-        public void get_IsCreated(){} // RVA: 0x7A79D8C70
-        public void Dispose(){} // RVA: 0x7A79DE480
-        public void AsParallelWriter(){} // RVA: 0x7A79DE350
+        public void .ctor(){} // RVA: 0x448520
+        public void Enqueue(){} // RVA: 0x448530
+        public void TryDequeue(){} // RVA: 0x448580
+        public void Clear(){} // RVA: 0x4485D0
+        public void get_IsCreated(){} // RVA: 0x442F20
+        public void Dispose(){} // RVA: 0x448600
+        public void AsParallelWriter(){} // RVA: 0x448610
     }
 
     public class NativeQueue`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DE260
-        public void Enqueue(){} // RVA: 0x7A79DE270
-        public void TryDequeue(){} // RVA: 0x7A79DE2C0
-        public void Clear(){} // RVA: 0x7A79DE310
-        public void get_IsCreated(){} // RVA: 0x7A79D8C70
-        public void Dispose(){} // RVA: 0x7A79DE340
-        public void AsParallelWriter(){} // RVA: 0x7A79DE350
+        public void .ctor(){} // RVA: 0x448660
+        public void Enqueue(){} // RVA: 0x448670
+        public void TryDequeue(){} // RVA: 0x4486C0
+        public void Clear(){} // RVA: 0x448710
+        public void get_IsCreated(){} // RVA: 0x442F20
+        public void Dispose(){} // RVA: 0x448740
+        public void AsParallelWriter(){} // RVA: 0x448610
     }
 
     public class NativeQueue`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DE3A0
-        public void Enqueue(){} // RVA: 0x7A79DE3B0
-        public void TryDequeue(){} // RVA: 0x7A79DE400
-        public void Clear(){} // RVA: 0x7A79DE450
-        public void get_IsCreated(){} // RVA: 0x7A79D8C70
-        public void Dispose(){} // RVA: 0x7A79DE480
-        public void AsParallelWriter(){} // RVA: 0x7A79DE350
+        public void .ctor(){} // RVA: 0x448B70
+        public void Enqueue(){} // RVA: 0x448B80
+        public void TryDequeue(){} // RVA: 0x448BB0
+        public void Clear(){} // RVA: 0x448C00
+        public void get_IsCreated(){} // RVA: 0x442F20
+        public void Dispose(){} // RVA: 0x448740
+        public void AsParallelWriter(){} // RVA: 0x448610
     }
 
     public class NativeReferenceDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3CD0
+        public void Dispose(){} // RVA: 0x9243C0
     }
 
     public class NativeReferenceDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3D10
+        public void Execute(){} // RVA: 0x924400
     }
 
     public class NativeRingQueueDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3D20
+        public void Dispose(){} // RVA: 0x924410
     }
 
     public class NativeRingQueueDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3D30
+        public void Execute(){} // RVA: 0x924420
     }
 
     public class NativeSliceExtensions : Object
     {
         // ── Methods ──
-        public void Slice(){} // RVA: 0x7AA54A9F0
+        public void Slice(){} // RVA: 0x3175510
     }
 
     public class NativeSlice`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A8051B10
-        public void op_Implicit(){} // RVA: 0x7A8051B10
-        public void get_Item(){} // RVA: 0x7A8051B10
-        public void set_Item(){} // RVA: 0x7A8051B10
-        public void CopyFrom(){} // RVA: 0x7A7E18800
-        public void get_Stride(){} // RVA: 0x7A7E00710
-        public void get_Length(){} // RVA: 0x7A7E00710
-        public void GetEnumerator(){} // RVA: 0x7A8051B10
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
-        public void Equals(){} // RVA: 0x7A7E019D0
-        public void GetHashCode(){} // RVA: 0x7A7E00710
+        public void .ctor(){} // RVA: 0xA94080
+        public void op_Implicit(){} // RVA: 0xA94080
+        public void get_Item(){} // RVA: 0xA94080
+        public void set_Item(){} // RVA: 0xA94080
+        public void CopyFrom(){} // RVA: 0xA94080
+        public void get_Stride(){} // RVA: 0x87C130
+        public void get_Length(){} // RVA: 0x87C130
+        public void GetEnumerator(){} // RVA: 0xA94080
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x87C0A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x87D350
+        public void GetHashCode(){} // RVA: 0x87C130
     }
 
     public class NativeSlice`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79E2290
-        public void op_Implicit(){} // RVA: 0x7ABA6B5C0
-        public void get_Item(){} // RVA: 0x7A79E2300
-        public void set_Item(){} // RVA: 0x7A79E2380
-        public void CopyFrom(){} // RVA: 0x7A79E2420
-        public void get_Stride(){} // RVA: 0x7A75FEFA0
-        public void get_Length(){} // RVA: 0x7A79DED90
-        public void GetEnumerator(){} // RVA: 0x7A79DEDA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79DEE00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79DEE80
-        public void Equals(){} // RVA: 0x7A79DEF60
-        public void GetHashCode(){} // RVA: 0x7A79DF060
+        public void .ctor(){} // RVA: 0x44BD30
+        public void op_Implicit(){} // RVA: 0x46FFF60
+        public void get_Item(){} // RVA: 0x44BDA0
+        public void set_Item(){} // RVA: 0x44BE20
+        public void CopyFrom(){} // RVA: 0x44BEA0
+        public void get_Stride(){} // RVA: 0x14790
+        public void get_Length(){} // RVA: 0x448F30
+        public void GetEnumerator(){} // RVA: 0x448F40
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x448FA0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x449020
+        public void Equals(){} // RVA: 0x449520
+        public void GetHashCode(){} // RVA: 0x449200
     }
 
     public class NativeSlice`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79E1D30
-        public void op_Implicit(){} // RVA: 0x7ABA6AD40
-        public void get_Item(){} // RVA: 0x7A79E1DA0
-        public void set_Item(){} // RVA: 0x7A79E1DF0
-        public void CopyFrom(){} // RVA: 0x7A79E1E70
-        public void get_Stride(){} // RVA: 0x7A75FEFA0
-        public void get_Length(){} // RVA: 0x7A79DED90
-        public void GetEnumerator(){} // RVA: 0x7A79DEDA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79DEE00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79DEE80
-        public void Equals(){} // RVA: 0x7A79DEF60
-        public void GetHashCode(){} // RVA: 0x7A79DF060
+        public void .ctor(){} // RVA: 0x44B900
+        public void op_Implicit(){} // RVA: 0x46FF920
+        public void get_Item(){} // RVA: 0x44B970
+        public void set_Item(){} // RVA: 0x44B9C0
+        public void CopyFrom(){} // RVA: 0x44BA20
+        public void get_Stride(){} // RVA: 0x14790
+        public void get_Length(){} // RVA: 0x448F30
+        public void GetEnumerator(){} // RVA: 0x448F40
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x448FA0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x449020
+        public void Equals(){} // RVA: 0x449520
+        public void GetHashCode(){} // RVA: 0x449200
     }
 
     public class NativeSlice`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79E1210
-        public void op_Implicit(){} // RVA: 0x7ABA69FB0
-        public void get_Item(){} // RVA: 0x7A79E1280
-        public void set_Item(){} // RVA: 0x7A79E12F0
-        public void CopyFrom(){} // RVA: 0x7A79E1430
-        public void get_Stride(){} // RVA: 0x7A75FEFA0
-        public void get_Length(){} // RVA: 0x7A79DED90
-        public void GetEnumerator(){} // RVA: 0x7A79DEDA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79DEE00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79DEE80
-        public void Equals(){} // RVA: 0x7A79DEF60
-        public void GetHashCode(){} // RVA: 0x7A79DF060
-    }
-
-    public class NativeSlice`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79E15C0
-        public void op_Implicit(){} // RVA: 0x7ABA6A420
-        public void get_Item(){} // RVA: 0x7A79E1630
-        public void set_Item(){} // RVA: 0x7A79E1690
-        public void CopyFrom(){} // RVA: 0x7A79E17C0
-        public void get_Stride(){} // RVA: 0x7A75FEFA0
-        public void get_Length(){} // RVA: 0x7A79DED90
-        public void GetEnumerator(){} // RVA: 0x7A79DEDA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79DEE00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79DEE80
-        public void Equals(){} // RVA: 0x7A79DEF60
-        public void GetHashCode(){} // RVA: 0x7A79DF060
-    }
-
-    public class NativeSlice`1 : ValueType
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A79DEA90
-        public void op_Implicit(){} // RVA: 0x7ABA69390
-        public void get_Item(){} // RVA: 0x7A79DEAF0
-        public void set_Item(){} // RVA: 0x7A79DEB40
-        public void CopyFrom(){} // RVA: 0x7A79DEC70
-        public void get_Stride(){} // RVA: 0x7A75FEFA0
-        public void get_Length(){} // RVA: 0x7A79DED90
-        public void GetEnumerator(){} // RVA: 0x7A79DEDA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A79DEE00
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A79DEE80
-        public void Equals(){} // RVA: 0x7A79DEF60
-        public void GetHashCode(){} // RVA: 0x7A79DF060
+        public void .ctor(){} // RVA: 0x448D50
+        public void op_Implicit(){} // RVA: 0x46FE540
+        public void get_Item(){} // RVA: 0x448DB0
+        public void set_Item(){} // RVA: 0x448E00
+        public void CopyFrom(){} // RVA: 0x448E60
+        public void get_Stride(){} // RVA: 0x14790
+        public void get_Length(){} // RVA: 0x448F30
+        public void GetEnumerator(){} // RVA: 0x448F40
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x448FA0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x449020
+        public void Equals(){} // RVA: 0x449100
+        public void GetHashCode(){} // RVA: 0x449200
     }
 
     public class NativeStream : ValueType
     {
         // ── Methods ──
-        public void get_IsCreated(){} // RVA: 0x7A78CF330
-        public void Dispose(){} // RVA: 0x7A7EA3D40
-        public void AllocateForEach(){} // RVA: 0x7A7EA3D60
+        public void get_IsCreated(){} // RVA: 0x311760
+        public void Dispose(){} // RVA: 0x924430
+        public void AllocateForEach(){} // RVA: 0x924450
     }
 
     public class NativeStreamDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3D40
+        public void Dispose(){} // RVA: 0x924430
     }
 
     public class NativeStreamDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3D90
+        public void Execute(){} // RVA: 0x924480
     }
 
     public class NativeTextDispose : ValueType
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x7A7EA3DA0
+        public void Dispose(){} // RVA: 0x924490
     }
 
     public class NativeTextDisposeJob : ValueType
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7A7EA3DB0
+        public void Execute(){} // RVA: 0x9244A0
     }
 
 }

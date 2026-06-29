@@ -1,34 +1,39 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.PlayerDrone
 // Classes: 2
-// Methods: 15
+// Methods: 19
 
 namespace VRC.PlayerDrone
 {
     public class PIDController : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A761BBF0
-        public void InternalEquals(){} // RVA: 0x7A761BC00
-        public void DefaultEquals(){} // RVA: 0x7A761BC10
-        public void GetHashCode(){} // RVA: 0x7A761BC20
-        public void InternalGetHashCode(){} // RVA: 0x7A761BC40
-        public void ToString(){} // RVA: 0x7A761BC50
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A761BD10
+        public void Equals(){} // RVA: 0x31BB0
+        public void InternalEquals(){} // RVA: 0x31C70
+        public void DefaultEquals(){} // RVA: 0x31C80
+        public void GetHashCode(){} // RVA: 0x31CA0
+        public void InternalGetHashCode(){} // RVA: 0x31D60
+        public void ToString(){} // RVA: 0x31D70
+        public void GetHashCodeOfPtr(){} // RVA: 0x31D90
+        public void x(){} // RVA: 0x31DD0
+        // ── Unresolved (hash) ──
+        public void m_D53(){} // RVA: 0x31DB0
+        public void m_EAA(){} // RVA: 0x31E90
     }
 
     public class PIDControllerQuaternion : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7A761BD20
-        public void InternalEquals(){} // RVA: 0x7A761BDB0
-        public void DefaultEquals(){} // RVA: 0x7A761BDB0
-        public void GetHashCode(){} // RVA: 0x7A761BDB0
-        public void InternalGetHashCode(){} // RVA: 0x7A761BE40
-        public void ToString(){} // RVA: 0x7A761BE50
-        public void GetHashCodeOfPtr(){} // RVA: 0x7A761BE40
+        public void Equals(){} // RVA: 0x31EB0
+        public void InternalEquals(){} // RVA: 0x31EC0
+        public void DefaultEquals(){} // RVA: 0x31F50
+        public void GetHashCode(){} // RVA: 0x31FE0
+        public void InternalGetHashCode(){} // RVA: 0x32070
+        public void ToString(){} // RVA: 0x32100
+        public void GetHashCodeOfPtr(){} // RVA: 0x31EC0
+        public void x(){} // RVA: 0x32190
         // ── Unresolved (hash) ──
-        public void m_97C(){} // RVA: 0x7A761BEE0
+        public void m_D10(){} // RVA: 0x31EC0
     }
 
 }

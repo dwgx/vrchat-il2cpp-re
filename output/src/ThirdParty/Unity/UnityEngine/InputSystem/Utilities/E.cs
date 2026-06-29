@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
     public class ExceptionHelpers : Object
     {
         // ── Methods ──
-        public void IsExceptionIndicatingBugInCode(){} // RVA: 0x7AEBBA380
+        public void IsExceptionIndicatingBugInCode(){} // RVA: 0x7829B30
     }
 
 }

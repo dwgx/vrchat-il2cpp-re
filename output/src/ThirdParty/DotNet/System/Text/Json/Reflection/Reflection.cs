@@ -8,51 +8,51 @@ namespace ThirdParty.DotNet.System.Text.Json.Reflection
     public class ReflectionExtensions : Object
     {
         // ── Methods ──
-        public void GetCompatibleGenericBaseClass(){} // RVA: 0x7AE6B0500
-        public void GetCompatibleGenericInterface(){} // RVA: 0x7AE6B0670
-        public void IsImmutableDictionaryType(){} // RVA: 0x7AE6B07F0
-        public void IsImmutableEnumerableType(){} // RVA: 0x7AE6B0AF0
-        public void GetImmutableDictionaryConstructingTypeName(){} // RVA: 0x7AE6B0F70
-        public void GetImmutableEnumerableConstructingTypeName(){} // RVA: 0x7AE6B1130
-        public void GetBaseNameFromGenericType(){} // RVA: 0x7AE6B1670
-        public void IsVirtual(){} // RVA: 0x7AE6B16C0
-        public void IsKeyValuePair(){} // RVA: 0x7AE6B1760
-        public void TryGetDeserializationConstructor(){} // RVA: 0x7AE6B1820
-        public void GetDefaultValue(){} // RVA: 0x7AE6B1BA0
-        public void GetSortedTypeHierarchy(){} // RVA: 0x7AE6B1D80
-        public void IsNullableOfT(){} // RVA: 0x7AE6B2020
-        public void IsAssignableFromInternal(){} // RVA: 0x7AE6B2100
-        public void IsInSubtypeRelationshipWith(){} // RVA: 0x7AE6B21F0
-        public void HasJsonConstructorAttribute(){} // RVA: 0x7AE6B23E0
-        public void HasRequiredMemberAttribute(){} // RVA: 0x7AE6B2430
-        public void HasSetsRequiredMembersAttribute(){} // RVA: 0x7AE6B2580
-        public void HasCustomAttributeWithName(){} // RVA: 0x7AE6B26D0
-        public void GetUniqueCustomAttribute(){} // RVA: 0x7A8051B10
-        public void CreateInstanceNoWrapExceptions(){} // RVA: 0x7AE6B27D0
-        public void .cctor(){} // RVA: 0x7AE6B2890
+        public void GetCompatibleGenericBaseClass(){} // RVA: 0x6DBE750
+        public void GetCompatibleGenericInterface(){} // RVA: 0x6DBE920
+        public void IsImmutableDictionaryType(){} // RVA: 0x6DBEA70
+        public void IsImmutableEnumerableType(){} // RVA: 0x6DBED30
+        public void GetImmutableDictionaryConstructingTypeName(){} // RVA: 0x6DBF180
+        public void GetImmutableEnumerableConstructingTypeName(){} // RVA: 0x6DBF320
+        public void OpenGenericTypesHaveSamePrefix(){} // RVA: 0x6DBF850
+        public void GetBaseNameFromGenericType(){} // RVA: 0x6DBF990
+        public void GetBaseNameFromGenericTypeDef(){} // RVA: 0x6DBFAC0
+        public void IsVirtual(){} // RVA: 0x6DBFB50
+        public void IsKeyValuePair(){} // RVA: 0x6DBFBE0
+        public void TryGetDeserializationConstructor(){} // RVA: 0x6DBFCE0
+        public void GetDefaultValue(){} // RVA: 0x6DC0080
+        public void IsNullableOfT(){} // RVA: 0x6DC01C0
+        public void CanBeNull(){} // RVA: 0x6DC0290
+        public void IsAssignableFromInternal(){} // RVA: 0x6DC0310
+        public void HasJsonConstructorAttribute(){} // RVA: 0x6DC0400
+        public void .cctor(){} // RVA: 0x6DC0450
     }
 
     public class ReflectionExtensions : Object
     {
         // ── Methods ──
-        public void GetCompatibleGenericBaseClass(){} // RVA: 0x7AE13D990
-        public void GetCompatibleGenericInterface(){} // RVA: 0x7AE13DB70
-        public void IsImmutableDictionaryType(){} // RVA: 0x7AE13DCE0
-        public void IsImmutableEnumerableType(){} // RVA: 0x7AE13DFA0
-        public void GetImmutableDictionaryConstructingTypeName(){} // RVA: 0x7AE13E3F0
-        public void GetImmutableEnumerableConstructingTypeName(){} // RVA: 0x7AE13E590
-        public void OpenGenericTypesHaveSamePrefix(){} // RVA: 0x7AE13EAC0
-        public void GetBaseNameFromGenericType(){} // RVA: 0x7AE13EC00
-        public void GetBaseNameFromGenericTypeDef(){} // RVA: 0x7AE13ED30
-        public void IsVirtual(){} // RVA: 0x7AE13EDC0
-        public void IsKeyValuePair(){} // RVA: 0x7AE13EE50
-        public void TryGetDeserializationConstructor(){} // RVA: 0x7AE13EF40
-        public void GetDefaultValue(){} // RVA: 0x7AE13F2E0
-        public void IsNullableOfT(){} // RVA: 0x7AE13F3F0
-        public void CanBeNull(){} // RVA: 0x7AE13F4D0
-        public void IsAssignableFromInternal(){} // RVA: 0x7AE13F550
-        public void HasJsonConstructorAttribute(){} // RVA: 0x7AE13F640
-        public void .cctor(){} // RVA: 0x7AE13F690
+        public void GetCompatibleGenericBaseClass(){} // RVA: 0x7326B90
+        public void GetCompatibleGenericInterface(){} // RVA: 0x7326CB0
+        public void IsImmutableDictionaryType(){} // RVA: 0x7326E10
+        public void IsImmutableEnumerableType(){} // RVA: 0x7327110
+        public void GetImmutableDictionaryConstructingTypeName(){} // RVA: 0x7327590
+        public void GetImmutableEnumerableConstructingTypeName(){} // RVA: 0x7327750
+        public void GetBaseNameFromGenericType(){} // RVA: 0x7327C90
+        public void IsVirtual(){} // RVA: 0x7327CE0
+        public void IsKeyValuePair(){} // RVA: 0x7327D80
+        public void TryGetDeserializationConstructor(){} // RVA: 0x7327E70
+        public void GetDefaultValue(){} // RVA: 0x73281F0
+        public void GetSortedTypeHierarchy(){} // RVA: 0x73283D0
+        public void IsNullableOfT(){} // RVA: 0x7328660
+        public void IsAssignableFromInternal(){} // RVA: 0x7328730
+        public void IsInSubtypeRelationshipWith(){} // RVA: 0x7328820
+        public void HasJsonConstructorAttribute(){} // RVA: 0x7328A10
+        public void HasRequiredMemberAttribute(){} // RVA: 0x7328A60
+        public void HasSetsRequiredMembersAttribute(){} // RVA: 0x7328BB0
+        public void HasCustomAttributeWithName(){} // RVA: 0x7328D00
+        public void GetUniqueCustomAttribute(){} // RVA: 0xA94080
+        public void CreateInstanceNoWrapExceptions(){} // RVA: 0x7328E00
+        public void .cctor(){} // RVA: 0x7328EC0
     }
 
 }

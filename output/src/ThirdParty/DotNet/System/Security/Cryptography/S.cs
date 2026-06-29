@@ -8,181 +8,181 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
     public class SHA1 : HashAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA78190
-        public void Create(){} // RVA: 0x7ADA84730
+        public void .ctor(){} // RVA: 0x67027C0
+        public void Create(){} // RVA: 0x670EE10
     }
 
     public class SHA1CryptoServiceProvider : SHA1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA9C630
-        public void Finalize(){} // RVA: 0x7ADA96D20
-        public void Dispose(){} // RVA: 0x7ADA62070
-        public void HashCore(){} // RVA: 0x7ADA9C850
-        public void HashFinal(){} // RVA: 0x7ADA9C9A0
-        public void Initialize(){} // RVA: 0x7ADA9CAB0
+        public void .ctor(){} // RVA: 0x6726F50
+        public void Finalize(){} // RVA: 0x6721500
+        public void Dispose(){} // RVA: 0x66EC680
+        public void HashCore(){} // RVA: 0x6727170
+        public void HashFinal(){} // RVA: 0x67272C0
+        public void Initialize(){} // RVA: 0x67273D0
     }
 
     public class SHA1Internal : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA9AC90
-        public void HashCore(){} // RVA: 0x7ADA9AE10
-        public void HashFinal(){} // RVA: 0x7ADA9AF50
-        public void Initialize(){} // RVA: 0x7ADA9B050
-        public void ProcessBlock(){} // RVA: 0x7ADA9B0E0
-        public void InitialiseBuff(){} // RVA: 0x7ADA9B850
-        public void FillBuff(){} // RVA: 0x7ADA9BFD0
-        public void ProcessFinalBlock(){} // RVA: 0x7ADA9C300
-        public void AddLength(){} // RVA: 0x7ADA9C550
+        public void .ctor(){} // RVA: 0x67255B0
+        public void HashCore(){} // RVA: 0x6725730
+        public void HashFinal(){} // RVA: 0x6725870
+        public void Initialize(){} // RVA: 0x6725970
+        public void ProcessBlock(){} // RVA: 0x6725A00
+        public void InitialiseBuff(){} // RVA: 0x6726170
+        public void FillBuff(){} // RVA: 0x67268F0
+        public void ProcessFinalBlock(){} // RVA: 0x6726C20
+        public void AddLength(){} // RVA: 0x6726E70
     }
 
     public class SHA1Managed : SHA1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA84810
-        public void Initialize(){} // RVA: 0x7ADA849C0
-        public void HashCore(){} // RVA: 0x7ADA84A20
-        public void HashFinal(){} // RVA: 0x7ADA84A30
-        public void InitializeState(){} // RVA: 0x7ADA78500
-        public void _HashData(){} // RVA: 0x7ADA84A40
-        public void _EndHash(){} // RVA: 0x7ADA84D30
-        public void SHATransform(){} // RVA: 0x7ADA85000
-        public void SHAExpand(){} // RVA: 0x7ADA855E0
+        public void .ctor(){} // RVA: 0x670EEF0
+        public void Initialize(){} // RVA: 0x670F0A0
+        public void HashCore(){} // RVA: 0x670F100
+        public void HashFinal(){} // RVA: 0x670F110
+        public void InitializeState(){} // RVA: 0x6702B30
+        public void _HashData(){} // RVA: 0x670F120
+        public void _EndHash(){} // RVA: 0x670F410
+        public void SHATransform(){} // RVA: 0x670F6E0
+        public void SHAExpand(){} // RVA: 0x670FCC0
     }
 
     public class SHA256 : HashAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA85740
-        public void Create(){} // RVA: 0x7ADA85750
+        public void .ctor(){} // RVA: 0x670FE20
+        public void Create(){} // RVA: 0x670FE30
     }
 
     public class SHA256Managed : SHA256
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA85830
-        public void Initialize(){} // RVA: 0x7ADA859E0
-        public void HashCore(){} // RVA: 0x7ADA85A40
-        public void HashFinal(){} // RVA: 0x7ADA85A50
-        public void InitializeState(){} // RVA: 0x7ADA85A60
-        public void _HashData(){} // RVA: 0x7ADA85B50
-        public void _EndHash(){} // RVA: 0x7ADA85E80
-        public void SHATransform(){} // RVA: 0x7ADA86150
-        public void RotateRight(){} // RVA: 0x7ADA86DD0
-        public void Ch(){} // RVA: 0x7ADA86DF0
-        public void Maj(){} // RVA: 0x7ADA86E00
-        public void sigma_0(){} // RVA: 0x7ADA86E10
-        public void sigma_1(){} // RVA: 0x7ADA86E80
-        public void Sigma_0(){} // RVA: 0x7ADA86EF0
-        public void Sigma_1(){} // RVA: 0x7ADA86F60
-        public void SHA256Expand(){} // RVA: 0x7ADA86FD0
-        public void .cctor(){} // RVA: 0x7ADA87120
+        public void .ctor(){} // RVA: 0x670FF10
+        public void Initialize(){} // RVA: 0x67100C0
+        public void HashCore(){} // RVA: 0x6710120
+        public void HashFinal(){} // RVA: 0x6710130
+        public void InitializeState(){} // RVA: 0x6710140
+        public void _HashData(){} // RVA: 0x6710230
+        public void _EndHash(){} // RVA: 0x6710560
+        public void SHATransform(){} // RVA: 0x6710830
+        public void RotateRight(){} // RVA: 0x67114B0
+        public void Ch(){} // RVA: 0x67114D0
+        public void Maj(){} // RVA: 0x67114E0
+        public void sigma_0(){} // RVA: 0x67114F0
+        public void sigma_1(){} // RVA: 0x6711560
+        public void Sigma_0(){} // RVA: 0x67115D0
+        public void Sigma_1(){} // RVA: 0x6711640
+        public void SHA256Expand(){} // RVA: 0x67116B0
+        public void .cctor(){} // RVA: 0x6711800
     }
 
     public class SHA384 : HashAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA87200
-        public void Create(){} // RVA: 0x7ADA87210
+        public void .ctor(){} // RVA: 0x67118E0
+        public void Create(){} // RVA: 0x67118F0
     }
 
     public class SHA384Managed : SHA384
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA872F0
-        public void Initialize(){} // RVA: 0x7ADA874A0
-        public void HashCore(){} // RVA: 0x7ADA87500
-        public void HashFinal(){} // RVA: 0x7ADA87510
-        public void InitializeState(){} // RVA: 0x7ADA87520
-        public void _HashData(){} // RVA: 0x7ADA87650
-        public void _EndHash(){} // RVA: 0x7ADA879B0
-        public void SHATransform(){} // RVA: 0x7ADA87D00
-        public void RotateRight(){} // RVA: 0x7ADA88A90
-        public void Ch(){} // RVA: 0x7ADA88AB0
-        public void Maj(){} // RVA: 0x7ADA88AC0
-        public void Sigma_0(){} // RVA: 0x7ADA88AD0
-        public void Sigma_1(){} // RVA: 0x7ADA88B50
-        public void sigma_0(){} // RVA: 0x7ADA88BD0
-        public void sigma_1(){} // RVA: 0x7ADA88C40
-        public void SHA384Expand(){} // RVA: 0x7ADA88CC0
-        public void .cctor(){} // RVA: 0x7ADA88E30
+        public void .ctor(){} // RVA: 0x67119D0
+        public void Initialize(){} // RVA: 0x6711B80
+        public void HashCore(){} // RVA: 0x6711BE0
+        public void HashFinal(){} // RVA: 0x6711BF0
+        public void InitializeState(){} // RVA: 0x6711C00
+        public void _HashData(){} // RVA: 0x6711D30
+        public void _EndHash(){} // RVA: 0x6712090
+        public void SHATransform(){} // RVA: 0x67123E0
+        public void RotateRight(){} // RVA: 0x6713170
+        public void Ch(){} // RVA: 0x6713190
+        public void Maj(){} // RVA: 0x67131A0
+        public void Sigma_0(){} // RVA: 0x67131B0
+        public void Sigma_1(){} // RVA: 0x6713230
+        public void sigma_0(){} // RVA: 0x67132B0
+        public void sigma_1(){} // RVA: 0x6713320
+        public void SHA384Expand(){} // RVA: 0x67133A0
+        public void .cctor(){} // RVA: 0x6713510
     }
 
     public class SHA512 : HashAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA88F10
-        public void Create(){} // RVA: 0x7ADA88F20
+        public void .ctor(){} // RVA: 0x67135F0
+        public void Create(){} // RVA: 0x6713600
     }
 
     public class SHA512Managed : SHA512
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA89000
-        public void Initialize(){} // RVA: 0x7ADA891B0
-        public void HashCore(){} // RVA: 0x7ADA89210
-        public void HashFinal(){} // RVA: 0x7ADA89220
-        public void InitializeState(){} // RVA: 0x7ADA89230
-        public void _HashData(){} // RVA: 0x7ADA89360
-        public void _EndHash(){} // RVA: 0x7ADA896C0
-        public void SHATransform(){} // RVA: 0x7ADA89A10
-        public void RotateRight(){} // RVA: 0x7ADA88A90
-        public void Ch(){} // RVA: 0x7ADA88AB0
-        public void Maj(){} // RVA: 0x7ADA88AC0
-        public void Sigma_0(){} // RVA: 0x7ADA8A7A0
-        public void Sigma_1(){} // RVA: 0x7ADA8A820
-        public void sigma_0(){} // RVA: 0x7ADA8A8A0
-        public void sigma_1(){} // RVA: 0x7ADA8A910
-        public void SHA512Expand(){} // RVA: 0x7ADA8A990
-        public void .cctor(){} // RVA: 0x7ADA8AB00
+        public void .ctor(){} // RVA: 0x67136E0
+        public void Initialize(){} // RVA: 0x6713890
+        public void HashCore(){} // RVA: 0x67138F0
+        public void HashFinal(){} // RVA: 0x6713900
+        public void InitializeState(){} // RVA: 0x6713910
+        public void _HashData(){} // RVA: 0x6713A40
+        public void _EndHash(){} // RVA: 0x6713DA0
+        public void SHATransform(){} // RVA: 0x67140F0
+        public void RotateRight(){} // RVA: 0x6713170
+        public void Ch(){} // RVA: 0x6713190
+        public void Maj(){} // RVA: 0x67131A0
+        public void Sigma_0(){} // RVA: 0x6714E80
+        public void Sigma_1(){} // RVA: 0x6714F00
+        public void sigma_0(){} // RVA: 0x6714F80
+        public void sigma_1(){} // RVA: 0x6714FF0
+        public void SHA512Expand(){} // RVA: 0x6715070
+        public void .cctor(){} // RVA: 0x67151E0
     }
 
     public class SignatureDescription : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA8ABE0
-        public void get_KeyAlgorithm(){} // RVA: 0x7A80F2570
-        public void set_KeyAlgorithm(){} // RVA: 0x7A80D8E20
-        public void get_DigestAlgorithm(){} // RVA: 0x7A80DA7B0
-        public void set_DigestAlgorithm(){} // RVA: 0x7A813E420
-        public void get_FormatterAlgorithm(){} // RVA: 0x7A81052C0
-        public void set_FormatterAlgorithm(){} // RVA: 0x7A81052D0
-        public void get_DeformatterAlgorithm(){} // RVA: 0x7A8105330
-        public void set_DeformatterAlgorithm(){} // RVA: 0x7A80D8E80
-        public void CreateDeformatter(){} // RVA: 0x7ADA8AE40
-        public void CreateFormatter(){} // RVA: 0x7ADA8AF50
-        public void CreateDigest(){} // RVA: 0x7ADA8B060
+        public void .ctor(){} // RVA: 0x67152C0
+        public void get_KeyAlgorithm(){} // RVA: 0xB5DBF0
+        public void set_KeyAlgorithm(){} // RVA: 0xB44D60
+        public void get_DigestAlgorithm(){} // RVA: 0xB465B0
+        public void set_DigestAlgorithm(){} // RVA: 0xBA9BA0
+        public void get_FormatterAlgorithm(){} // RVA: 0xB700F0
+        public void set_FormatterAlgorithm(){} // RVA: 0xB70100
+        public void get_DeformatterAlgorithm(){} // RVA: 0xB70160
+        public void set_DeformatterAlgorithm(){} // RVA: 0xB44DC0
+        public void CreateDeformatter(){} // RVA: 0x6715520
+        public void CreateFormatter(){} // RVA: 0x6715630
+        public void CreateDigest(){} // RVA: 0x6715740
     }
 
     public class SymmetricAlgorithm : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA8B930
-        public void Dispose(){} // RVA: 0x7ADA8B9F0
-        public void Clear(){} // RVA: 0x7ADA8B9B0
-        public void get_BlockSize(){} // RVA: 0x7A8124910
-        public void set_BlockSize(){} // RVA: 0x7ADA8BB00
-        public void get_FeedbackSize(){} // RVA: 0x7A8668BC0
-        public void set_FeedbackSize(){} // RVA: 0x7ADA8BC50
-        public void get_IV(){} // RVA: 0x7ADA8BCE0
-        public void set_IV(){} // RVA: 0x7ADA8BD80
-        public void get_Key(){} // RVA: 0x7ADA8BF40
-        public void set_Key(){} // RVA: 0x7ADA8BFE0
-        public void get_LegalBlockSizes(){} // RVA: 0x7ADA8C1B0
-        public void get_LegalKeySizes(){} // RVA: 0x7ADA8C230
-        public void get_KeySize(){} // RVA: 0x7A8D863F0
-        public void set_KeySize(){} // RVA: 0x7ADA8C2B0
-        public void get_Mode(){} // RVA: 0x7A864E8D0
-        public void set_Mode(){} // RVA: 0x7ADA8C380
-        public void get_Padding(){} // RVA: 0x7A8178B30
-        public void set_Padding(){} // RVA: 0x7ADA8C400
-        public void ValidKeySize(){} // RVA: 0x7ADA8C480
-        public void Create(){} // RVA: 0x7ADA8C570
-        public void CreateEncryptor(){} // RVA: 0x7A7E00BD0
-        public void CreateDecryptor(){} // RVA: 0x7A7E00BD0
-        public void GenerateKey(){} // RVA: 0x7A7E18770
-        public void GenerateIV(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x6716010
+        public void Dispose(){} // RVA: 0x67160D0
+        public void Clear(){} // RVA: 0x6716090
+        public void get_BlockSize(){} // RVA: 0xB8F8F0
+        public void set_BlockSize(){} // RVA: 0x67161E0
+        public void get_FeedbackSize(){} // RVA: 0x116A650
+        public void set_FeedbackSize(){} // RVA: 0x6716330
+        public void get_IV(){} // RVA: 0x67163C0
+        public void set_IV(){} // RVA: 0x6716460
+        public void get_Key(){} // RVA: 0x6716620
+        public void set_Key(){} // RVA: 0x67166C0
+        public void get_LegalBlockSizes(){} // RVA: 0x6716890
+        public void get_LegalKeySizes(){} // RVA: 0x6716910
+        public void get_KeySize(){} // RVA: 0x18A0130
+        public void set_KeySize(){} // RVA: 0x6716990
+        public void get_Mode(){} // RVA: 0x114DAD0
+        public void set_Mode(){} // RVA: 0x6716A60
+        public void get_Padding(){} // RVA: 0xBE5850
+        public void set_Padding(){} // RVA: 0x6716AE0
+        public void ValidKeySize(){} // RVA: 0x6716B60
+        public void Create(){} // RVA: 0x6716C50
+        public void CreateEncryptor(){} // RVA: 0x87C5F0
+        public void CreateDecryptor(){} // RVA: 0x87C5F0
+        public void GenerateKey(){} // RVA: 0x894290
+        public void GenerateIV(){} // RVA: 0x894290
     }
 
 }

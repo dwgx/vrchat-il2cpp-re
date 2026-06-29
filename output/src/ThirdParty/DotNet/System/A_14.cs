@@ -1,659 +1,737 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 151
+// Methods: 229
 
 namespace ThirdParty.DotNet.System
 {
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0x3E012C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AB1A0860
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AB1A1140
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AB1620B0
+        public void Invoke(){} // RVA: 0x35A77C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x35A76F0
+        public void Invoke(){} // RVA: 0x35A77C0
+        public void BeginInvoke(){} // RVA: 0x402ABE0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8135FE0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xBA11C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0x3E012C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8135FE0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0x35A77C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x35A8050
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x35A81C0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0x35A77C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xBA11C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0x35A77C0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AB15F050
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x406ABF0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x406ACC0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBC4530
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x35A7CE0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x406BDD0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AB3F0970
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A81577F0
-        public void Invoke(){} // RVA: 0x7A8133090
-        public void BeginInvoke(){} // RVA: 0x7A81330A0
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8136170
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void Invoke(){} // RVA: 0xB9E010
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0x3E02460
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xBA1350
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xC3B2D0
+        public void Invoke(){} // RVA: 0xB9E010
+        public void BeginInvoke(){} // RVA: 0x4027570
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7AA988290
+        public void Invoke(){} // RVA: 0xB9E010
+        public void .ctor(){} // RVA: 0xBC4530
+        public void BeginInvoke(){} // RVA: 0xB9E020
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0xBA10F0
+        public void Invoke(){} // RVA: 0xBA11C0
+        public void BeginInvoke(){} // RVA: 0x406C2A0
+        public void EndInvoke(){} // RVA: 0xB44BE0
     }
 
     public class Action`1[] : Array
     {
         // ── Methods ──
-        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
-        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
-        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
-        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
-        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2EB5200
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC8810
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E6F580
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A660
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
     }
 
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void Invoke(){} // RVA: 0x7A82344F0
-        public void .ctor(){} // RVA: 0x7AB0FF420
+        public void .ctor(){} // RVA: 0x3DB94B0
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4C8720
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void .ctor(){} // RVA: 0x3DB94B0
     }
 
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4C82D0
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void .ctor(){} // RVA: 0x3DB94B0
     }
 
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4C7C80
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void .ctor(){} // RVA: 0x3DB94B0
     }
 
     public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4C7EF0
-        public void Invoke(){} // RVA: 0x7A82344F0
+        public void .ctor(){} // RVA: 0x406EE00
+        public void Invoke(){} // RVA: 0x3E374F0
     }
 
-    public class Action`3 : MulticastDelegate
+    public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4CBE70
-        public void Invoke(){} // RVA: 0x7A8234660
+        public void Invoke(){} // RVA: 0xCA8BF0
+        public void .ctor(){} // RVA: 0x3DB94B0
     }
 
-    public class Action`4 : MulticastDelegate
+    public class Action`2 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AB4CE340
-        public void Invoke(){} // RVA: 0x7AB4CE410
-        public void BeginInvoke(){} // RVA: 0x7AB4CE490
-        public void EndInvoke(){} // RVA: 0x7A80D8CA0
+        public void .ctor(){} // RVA: 0x406F2D0
+        public void Invoke(){} // RVA: 0xCA8BF0
     }
 
 }

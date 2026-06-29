@@ -8,15 +8,15 @@ namespace ThirdParty.Valve.Valve.VR
     public class RenderModel_TextureMap_t_Packed : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7ED34C0
-        public void Unpack(){} // RVA: 0x7A7ED3520
+        public void .ctor(){} // RVA: 0x957420
+        public void Unpack(){} // RVA: 0x957480
     }
 
     public class RenderModel_t_Packed : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A7E64C50
-        public void Unpack(){} // RVA: 0x7A7E64C90
+        public void .ctor(){} // RVA: 0x8E38C0
+        public void Unpack(){} // RVA: 0x8E3900
     }
 
 }

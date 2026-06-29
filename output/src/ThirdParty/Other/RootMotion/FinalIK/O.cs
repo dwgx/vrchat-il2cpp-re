@@ -8,33 +8,33 @@ namespace ThirdParty.Other.RootMotion.FinalIK
     public class OffsetModifier : MonoBehaviour
     {
         // ── Methods ──
-        public void get_deltaTime(){} // RVA: 0x7A824B420
-        public void OnModifyOffset(){} // RVA: 0x7A7E18770
-        public void Start(){} // RVA: 0x7A824B480
-        public void Initiate(){} // RVA: 0x7A824B530
-        public void ModifyOffset(){} // RVA: 0x7A824B5D0
-        public void ApplyLimits(){} // RVA: 0x7A824B7A0
-        public void OnDestroy(){} // RVA: 0x7A824B910
-        public void .ctor(){} // RVA: 0x7A80DF8B0
+        public void get_deltaTime(){} // RVA: 0xCBFF10
+        public void OnModifyOffset(){} // RVA: 0x894290
+        public void Start(){} // RVA: 0xCBFF70
+        public void Initiate(){} // RVA: 0xCC0020
+        public void ModifyOffset(){} // RVA: 0xCC00C0
+        public void ApplyLimits(){} // RVA: 0xCC02D0
+        public void OnDestroy(){} // RVA: 0xCC04E0
+        public void .ctor(){} // RVA: 0xB4B830
     }
 
     public class OffsetModifierVRIK : MonoBehaviour
     {
         // ── Methods ──
-        public void get_deltaTime(){} // RVA: 0x7A824B420
-        public void OnModifyOffset(){} // RVA: 0x7A7E18770
-        public void Start(){} // RVA: 0x7A824C3C0
-        public void Initiate(){} // RVA: 0x7A824C470
-        public void ModifyOffset(){} // RVA: 0x7A824C510
-        public void OnDestroy(){} // RVA: 0x7A824C6E0
-        public void .ctor(){} // RVA: 0x7A80DF8B0
+        public void get_deltaTime(){} // RVA: 0xCBFF10
+        public void OnModifyOffset(){} // RVA: 0x894290
+        public void Start(){} // RVA: 0xCC0F90
+        public void Initiate(){} // RVA: 0xCC1040
+        public void ModifyOffset(){} // RVA: 0xCC10E0
+        public void OnDestroy(){} // RVA: 0xCC12F0
+        public void .ctor(){} // RVA: 0xB4B830
     }
 
     public class OffsetPose : MonoBehaviour
     {
         // ── Methods ──
-        public void Apply(){} // RVA: 0x7A824CD60
-        public void .ctor(){} // RVA: 0x7A824CE20
+        public void Apply(){} // RVA: 0xCC19A0
+        public void .ctor(){} // RVA: 0xCC1A60
     }
 
 }

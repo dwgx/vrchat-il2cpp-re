@@ -1,1117 +1,1115 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 613
-
-public class AOTEmittedFormatter`1 : EasyBaseFormatter`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18770
-}
-
-public class ActionEventPtr : ValueType
-{
-    // ── Methods ──
-    public void get_action(){} // RVA: 0x7A7EACFC0
-    public void get_phase(){} // RVA: 0x7A7EACFF0
-    public void get_control(){} // RVA: 0x7A7EAD000
-    public void get_interaction(){} // RVA: 0x7A7EAD040
-    public void get_time(){} // RVA: 0x7A7EAD090
-    public void get_startTime(){} // RVA: 0x7A7EAD0F0
-    public void get_duration(){} // RVA: 0x7A7EAD100
-    public void get_valueSizeInBytes(){} // RVA: 0x7A7EAD110
-    public void ReadValueAsObject(){} // RVA: 0x7A7EAD120
-    public void ReadValue(){} // RVA: 0x7A8051B10
-    public void ToString(){} // RVA: 0x7A7EAD220
-}
-
-public class ActionQueryMatcher : UQueryMatcher
-{
-    // ── Methods ──
-    public void get_callBack(){} // RVA: 0x7A7E00680
-    public void OnRuleMatchedElement(){} // RVA: 0x7A7E01A40
-    public void .ctor(){} // RVA: 0x7A7E18770
-}
-
-public class Action`1 : Action
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18890
-    public void Enable(){} // RVA: 0x7A7E18C30
-}
-
-public class Action`2 : Action
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18890
-    public void Enable(){} // RVA: 0x7A7E18C30
-}
-
-public class Action`3 : Action
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18890
-    public void Enable(){} // RVA: 0x7A7E18C30
-}
-
-public class Action`4 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E1DFE0
-    public void Invoke(){} // RVA: 0x7A8051B10
-}
+// Methods: 611
 
 public class Action`5 : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E1DFE0
-    public void Invoke(){} // RVA: 0x7A8051B10
-    public void BeginInvoke(){} // RVA: 0x7A8051B10
-    public void EndInvoke(){} // RVA: 0x7A7E18800
-}
-
-public class Action`5 : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E1DFE0
-    public void Invoke(){} // RVA: 0x7A8051B10
-    public void BeginInvoke(){} // RVA: 0x7A8051B10
-    public void EndInvoke(){} // RVA: 0x7A7E18800
+    public void .ctor(){} // RVA: 0x899C90
+    public void Invoke(){} // RVA: 0xA94080
+    public void BeginInvoke(){} // RVA: 0xA94080
+    public void EndInvoke(){} // RVA: 0x894320
 }
 
 public class AlphaButtonClickMask : MonoBehaviour
 {
     // ── Methods ──
-    public void Start(){} // RVA: 0x7A80D7330
-    public void IsRaycastLocationValid(){} // RVA: 0x7A80D7790
-    public void .ctor(){} // RVA: 0x7A80D7D60
+    public void Start(){} // RVA: 0xB43330
+    public void IsRaycastLocationValid(){} // RVA: 0xB43720
+    public void .ctor(){} // RVA: 0xB43D60
 }
 
 public class AnimatedButton : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A80D7310
+    public void .ctor(){} // RVA: 0xB43310
 }
 
-public class AnimationDataSet`2 : ValueType
+public class ApplyToFarPlane_CameraApplier : MonoBehaviour
 {
     // ── Methods ──
-    public void get_capacity(){} // RVA: 0x7A7E00710
-    public void set_capacity(){} // RVA: 0x7A7E189D0
-    public void LocalInit(){} // RVA: 0x7A7E18770
-    public void Create(){} // RVA: 0x7A8051B10
-    public void IndexOf(){} // RVA: 0x7A7E04950
-    public void Add(){} // RVA: 0x7A8051B10
-    public void Remove(){} // RVA: 0x7A7E189D0
-    public void Replace(){} // RVA: 0x7A8051B10
-    public void RemoveAll(){} // RVA: 0x7A7E18770
-    public void GetActivePropertiesForElement(){} // RVA: 0x7A7E18890
-}
-
-public class AnonymousProgress`1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18800
-    public void Report(){} // RVA: 0x7A8051B10
-}
-
-public class Array : ValueType
-{
-    // ── Methods ──
-    public void IsCustom(){} // RVA: 0x7AEB643E0
-    public void CustomResize(){} // RVA: 0x7AEB66810
-    public void Resize(){} // RVA: 0x7AA0C82B0
-}
-
-public class Array32768`1 : ValueType
-{
-    // ── Methods ──
-    public void get_Length(){} // RVA: 0x7A7E00710
-    public void ElementAt(){} // RVA: 0x7A7E00740
-}
-
-public class ArrayPoolImpl`1 : Object
-{
-    // ── Methods ──
-    public void get_ObjectType(){} // RVA: 0x7A7E00680
-    public void get_CountInactive(){} // RVA: 0x7A7E00710
-    public void .ctor(){} // RVA: 0x7A7E18770
-    public void Get(){} // RVA: 0x7A8051B10
-    public void Contains(){} // RVA: 0x7A7E019D0
-    public void Release(){} // RVA: 0x7A7E18800
-    public void Cleanup(){} // RVA: 0x7A7E00710
-    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void get_Material(){} // RVA: 0xB700F0
+    public void set_Material(){} // RVA: 0xB70100
+    public void OnWillRenderObject(){} // RVA: 0x25357D0
+    public void .ctor(){} // RVA: 0xB43D60
 }
 
 public class AssetBundleRequestAwaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A763CB60
-    public void get_IsCompleted(){} // RVA: 0x7A7779510
-    public void GetResult(){} // RVA: 0x7A7EA27D0
-    public void OnCompleted(){} // RVA: 0x7A7EA2820
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA2830
+    public void .ctor(){} // RVA: 0x54A90
+    public void get_IsCompleted(){} // RVA: 0x9232C0
+    public void GetResult(){} // RVA: 0x9232D0
+    public void OnCompleted(){} // RVA: 0x9233C0
+    public void UnsafeOnCompleted(){} // RVA: 0x9233D0
 }
 
 public class AssetPreloader : Object
 {
     // ── Methods ──
-    public void GetInstanceID(){} // RVA: 0x7A8F33F30
-    public void Finalize(){} // RVA: 0x7A8F34120
-    public void Equals(){} // RVA: 0x7A8F34340
-    public void op_Implicit(){} // RVA: 0x7A80DA7B0
-    public void .ctor(){} // RVA: 0x7A8F34500
-    public void IsNativeObjectAlive(){} // RVA: 0x7A8F349D0
-    public void GetCachedPtr(){} // RVA: 0x7A8F34F20
-    public void get_name(){} // RVA: 0x7A8F35050
-    public void set_name(){} // RVA: 0x7A8F351F0
-    public void Instantiate(){} // RVA: 0x7A8F35390
-    public void Destroy(){} // RVA: 0x7A8F35580
-    public void DestroyImmediate(){} // RVA: 0x7A8F35780
-    public void FindObjectsOfType(){} // RVA: 0x7A8F35910
-    public void FindObjectsByType(){} // RVA: 0x7A8F35AE0
-    public void DontDestroyOnLoad(){} // RVA: 0x7A8F35F90
-    public void get_hideFlags(){} // RVA: 0x7A8F36060
-    public void Initialize(){} // RVA: 0x7A8F36540
-    public void FindObjectOfType(){} // RVA: 0x7A8F36650
-    public void FindFirstObjectByType(){} // RVA: 0x7A8F36780
-    public void CheckNullArgument(){} // RVA: 0x7A8F36950
-    public void Dispose(){} // RVA: 0x7A8F36A10
-    public void Cleanup(){} // RVA: 0x7A8F36AE0
-    public void op_Inequality(){} // RVA: 0x7A8F36C60
-    public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A8F36EA0
-    public void Internal_CloneSingle(){} // RVA: 0x7A8F36FD0
-    public void Internal_CloneSingleWithParent(){} // RVA: 0x7A8F37150
-    public void Internal_InstantiateSingle(){} // RVA: 0x7A8F376A0
-    public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A8F37890
+    public void Dispose(){} // RVA: 0x1A50A20
+    public void Cleanup(){} // RVA: 0x1A50AF0
+    public void Equals(){} // RVA: 0x1A50CB0
+    public void op_Implicit(){} // RVA: 0x1A51190
+    public void CompareBaseObjects(){} // RVA: 0x1A512C0
+    public void IsNativeObjectAlive(){} // RVA: 0x1A51460
+    public void GetCachedPtr(){} // RVA: 0x1A51650
+    public void Finalize(){} // RVA: 0x1A51840
+    public void set_name(){} // RVA: 0x1A51A60
+    public void Initialize(){} // RVA: 0x1A51BF0
+    public void Destroy(){} // RVA: 0x1A51D00
+    public void DestroyImmediate(){} // RVA: 0x1A52250
+    public void FindObjectsOfType(){} // RVA: 0x1A523E0
+    public void FindObjectsByType(){} // RVA: 0x1A525D0
+    public void DontDestroyOnLoad(){} // RVA: 0x1A526A0
+    public void get_hideFlags(){} // RVA: 0x1A52B10
+    public void set_hideFlags(){} // RVA: 0x1A52CD0
+    public void FindObjectOfType(){} // RVA: 0x1A52E90
+    public void FindFirstObjectByType(){} // RVA: 0x1A53010
+    public void .ctor(){} // RVA: 0x1A531E0
+    public void GetHashCode(){} // RVA: 0x1A536B0
+    public void op_Equality(){} // RVA: 0x1A538B0
+    public void op_Inequality(){} // RVA: 0x1A53D90
+    public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x1A53F80
+    public void Internal_CloneSingle(){} // RVA: 0xB465B0
+    public void Internal_CloneSingleWithParent(){} // RVA: 0x1A541C0
+    public void Internal_InstantiateSingle(){} // RVA: 0x1A543B0
 }
 
-public class AsyncInstantiateOperationConfiguredSource`1 : Object
+public class AutoScope : ValueType
 {
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x7A7E00680
-    public void .cctor(){} // RVA: 0x7A7E187D0
-    public void .ctor(){} // RVA: 0x7A7E18770
-    public void Create(){} // RVA: 0x7A8051B10
-    public void GetResult(){} // RVA: 0x7A7E00AE0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
-    public void GetStatus(){} // RVA: 0x7A7E015F0
-    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
-    public void OnCompleted(){} // RVA: 0x7A7E22030
-    public void MoveNext(){} // RVA: 0x7A7E01900
-    public void TryReturn(){} // RVA: 0x7A7E01900
-    public void Continuation(){} // RVA: 0x7A7E18800
-}
-
-public class AsyncOperationAwaiter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A763CB60
-    public void get_IsCompleted(){} // RVA: 0x7A7779510
-    public void GetResult(){} // RVA: 0x7A7EA2780
-    public void OnCompleted(){} // RVA: 0x7A7EA2790
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA27A0
-}
-
-public class AsyncTriggerEnumerator : MoveNextSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E1DFE0
-    public void OnCanceled(){} // RVA: 0x7A7E188D0
-    public void OnNext(){} // RVA: 0x7A8051B10
-    public void OnCompleted(){} // RVA: 0x7A7E18770
-    public void OnError(){} // RVA: 0x7A7E18800
-    public void CancellationCallback(){} // RVA: 0x7A7E18830
-    public void get_Current(){} // RVA: 0x7A8051B10
-    public void set_Current(){} // RVA: 0x7A8051B10
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0x7A7E00680
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x7A7E18800
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0x7A7E00680
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x7A7E18800
-    public void MoveNextAsync(){} // RVA: 0x7A7E00490
-    public void DisposeAsync(){} // RVA: 0x7A7E00490
-    public void .cctor(){} // RVA: 0x7A7E187D0
-}
-
-public class AsyncWriter : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18800
-    public void Dispose(){} // RVA: 0x7A7E18770
-    public void GetResult(){} // RVA: 0x7A7E18950
-    public void GetStatus(){} // RVA: 0x7A7E015F0
-    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
-    public void OnCompleted(){} // RVA: 0x7A7E22030
-    public void YieldAsync(){} // RVA: 0x7A8051B10
-    public void SignalWriter(){} // RVA: 0x7A7E18770
-}
-
-public class AttachExternalCancellationSource`1 : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8051B10
-    public void RunTask(){} // RVA: 0x7A8051B10
-    public void CancellationCallback(){} // RVA: 0x7A7E18830
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
-    public void GetResult(){} // RVA: 0x7A8051B10
-    public void GetStatus(){} // RVA: 0x7A7E015F0
-    public void OnCompleted(){} // RVA: 0x7A7E22030
-    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
-    public void .cctor(){} // RVA: 0x7A7E187D0
-}
-
-public class AvailableDevice[] : Array
-{
-    // ── Methods ──
-    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
-    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
-    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A7690
-    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29F040
-    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E4CF0
-    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
-    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
-    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
-    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
-    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
-    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA260100
-    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
-    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
-    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29F040
-    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void .ctor(){} // RVA: 0x95ED20
+    public void Dispose(){} // RVA: 0x95ED80
 }
 
 public class AvatarCullingMonitor : Object
 {
     // ── Methods ──
-    public void GetInstanceID(){} // RVA: 0x7A8E87A60
-    public void set_AvatarCullableShouldRun(){} // RVA: 0x7A8E87B60
-    public void .ctor(){} // RVA: 0x7A8E87C40
-    public void Dispose(){} // RVA: 0x7A8E87C50
-    public void Cleanup(){} // RVA: 0x7A8E87CD0
-    public void get_AvatarCullableShouldRun(){} // RVA: 0x7A8E87E10
-    public void GetCachedPtr(){} // RVA: 0x7A8E87E80
-    public void get_name(){} // RVA: 0x7A8E88230
-    public void set_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x7A8E883A0
-    public void get_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x7A8E884A0
-    public void Destroy(){} // RVA: 0x7A8E884B0
-    public void DestroyImmediate(){} // RVA: 0x7A8E88530
-    public void FindObjectsOfType(){} // RVA: 0x7A8E886A0
-    public void FindObjectsByType(){} // RVA: 0x7A8E886D0
-    public void set_AvatarKindValidForExecution(){} // RVA: 0x7A8E88730
-    public void get_AvatarKindValidForExecution(){} // RVA: 0x7A8E88830
+    public void GetInstanceID(){} // RVA: 0x19A0F90
+    public void .ctor(){} // RVA: 0x19A1090
+    public void Initialize(){} // RVA: 0x19A10A0
+    public void get_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x19A11A0
+    public void set_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x19A11B0
+    public void set_AvatarKindValidForExecution(){} // RVA: 0x19A12B0
+    public void get_AvatarKindValidForExecution(){} // RVA: 0x19A1390
+    public void set_AvatarCullableShouldRun(){} // RVA: 0x19A1400
+    public void get_AvatarCullableShouldRun(){} // RVA: 0x19A1460
+    public void CompareBaseObjects(){} // RVA: 0x19A14D0
+    public void Destroy(){} // RVA: 0x19A1640
+    public void DestroyImmediate(){} // RVA: 0x19A17D0
+    public void FindObjectsOfType(){} // RVA: 0x19A1B80
+    public void FindObjectsByType(){} // RVA: 0x19A1C00
+    public void Dispose(){} // RVA: 0x19A1C30
+    public void Cleanup(){} // RVA: 0x19A1CB0
 }
 
 public class AvatarOscConfig : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A8ECDC10
-    public void GetByName(){} // RVA: 0x7A8ECDAF0
+    public void .ctor(){} // RVA: 0x19EAF10
+    public void GetByName(){} // RVA: 0x19EADF0
 }
 
+public class AwaitableAndFrameIndex : ValueType
+{
+    // ── Methods ──
+    public void get_Awaitable(){} // RVA: 0x77900
+    public void get_FrameIndex(){} // RVA: 0x14790
+    public void .ctor(){} // RVA: 0x28E70
+}
+
+public class AwaitableAndFrameIndex[] : Array
+{
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x2EC3B20
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x6945450
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x2E7DF60
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x2E7A5B0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x2EC3B70
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x6942190
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0xC2E4C0
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x6945400
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x2E07DB0
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x2E342F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x2E7A410
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+}
+
+public class AwaitableHandle : ValueType
+{
+    // ── Methods ──
+    public void get_IsNull(){} // RVA: 0x88E70
+    public void get_IsManaged(){} // RVA: 0x965D50
+    public void .ctor(){} // RVA: 0x93050
+    public void op_Implicit(){} // RVA: 0x2303260
+    public void .cctor(){} // RVA: 0x7BF8E30
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x3616C0
+    public void get_IsCompleted(){} // RVA: 0x9206D0
+    public void GetResult(){} // RVA: 0x9206E0
+    public void OnCompleted(){} // RVA: 0x9206F0
+    public void UnsafeOnCompleted(){} // RVA: 0x920750
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x894320
+    public void get_IsCompleted(){} // RVA: 0x87D280
+    public void GetResult(){} // RVA: 0xA94080
+    public void OnCompleted(){} // RVA: 0x894320
+    public void UnsafeOnCompleted(){} // RVA: 0x894320
+    public void SourceOnCompleted(){} // RVA: 0x8943B0
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x768C50
+    public void GetResult(){} // RVA: 0x76FC40
+    public void OnCompleted(){} // RVA: 0x76FC50
+    public void UnsafeOnCompleted(){} // RVA: 0x76FD50
+    public void SourceOnCompleted(){} // RVA: 0x7690E0
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void get_IsCompleted(){} // RVA: 0x20C460
+    public void GetResult(){} // RVA: 0x3FC0
+    public void OnCompleted(){} // RVA: 0x920970
+    public void UnsafeOnCompleted(){} // RVA: 0x9209D0
+    public void Callback(){} // RVA: 0x775C890
+    public void .cctor(){} // RVA: 0x775C900
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x920160
+    public void GetResult(){} // RVA: 0x920170
+    public void OnCompleted(){} // RVA: 0x9201D0
+    public void UnsafeOnCompleted(){} // RVA: 0x9202B0
+    public void SourceOnCompleted(){} // RVA: 0x9202C0
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18800
-    public void get_IsCompleted(){} // RVA: 0x7A7E01900
-    public void GetResult(){} // RVA: 0x7A8051B10
-    public void OnCompleted(){} // RVA: 0x7A7E18800
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7E18800
-    public void SourceOnCompleted(){} // RVA: 0x7A7E18890
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A790A7A0
-    public void get_IsCompleted(){} // RVA: 0x7A7E9FCE0
-    public void GetResult(){} // RVA: 0x7A7E9FCF0
-    public void OnCompleted(){} // RVA: 0x7A7E9FD00
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7E9FD60
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7CF8BB0
-    public void GetResult(){} // RVA: 0x7A7CFE730
-    public void OnCompleted(){} // RVA: 0x7A7CFE740
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE840
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9040
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void get_IsCompleted(){} // RVA: 0x7A77CFDD0
-    public void GetResult(){} // RVA: 0x7A75F4910
-    public void OnCompleted(){} // RVA: 0x7A7EA0000
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA0060
-    public void Callback(){} // RVA: 0x7AEAED5C0
-    public void .cctor(){} // RVA: 0x7AEAED630
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x747D90
+    public void GetResult(){} // RVA: 0x771160
+    public void OnCompleted(){} // RVA: 0x771190
+    public void UnsafeOnCompleted(){} // RVA: 0x771290
+    public void SourceOnCompleted(){} // RVA: 0x748070
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7E9F8E0
-    public void GetResult(){} // RVA: 0x7A7E9F8F0
-    public void OnCompleted(){} // RVA: 0x7A7E9F950
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7E9FA30
-    public void SourceOnCompleted(){} // RVA: 0x7A7E9FA40
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76DDB0
+    public void UnsafeOnCompleted(){} // RVA: 0x76DEB0
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x29580
+    public void get_IsCompleted(){} // RVA: 0x20C460
+    public void GetResult(){} // RVA: 0x3FC0
+    public void OnCompleted(){} // RVA: 0x920460
+    public void UnsafeOnCompleted(){} // RVA: 0x9204C0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD7090
-    public void GetResult(){} // RVA: 0x7A7CFFC50
-    public void OnCompleted(){} // RVA: 0x7A7CFFC80
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFFD80
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD7370
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x769C70
+    public void UnsafeOnCompleted(){} // RVA: 0x769D70
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC890
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC990
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76134D0
-    public void get_IsCompleted(){} // RVA: 0x7A77CFDD0
-    public void GetResult(){} // RVA: 0x7A75F4910
-    public void OnCompleted(){} // RVA: 0x7A7E9FBD0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7E9FC30
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7467B0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x76D880
+    public void UnsafeOnCompleted(){} // RVA: 0x76D980
+    public void SourceOnCompleted(){} // RVA: 0x746A00
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x75B010
+    public void GetResult(){} // RVA: 0x7702A0
+    public void OnCompleted(){} // RVA: 0x7702B0
+    public void UnsafeOnCompleted(){} // RVA: 0x7703B0
+    public void SourceOnCompleted(){} // RVA: 0x75B2C0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x769C70
+    public void UnsafeOnCompleted(){} // RVA: 0x769D70
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7467B0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x746AD0
+    public void UnsafeOnCompleted(){} // RVA: 0x746BD0
+    public void SourceOnCompleted(){} // RVA: 0x746A00
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5C00
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFC360
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC460
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5E50
+    public void .ctor(){} // RVA: 0x746010
+    public void get_IsCompleted(){} // RVA: 0x746020
+    public void GetResult(){} // RVA: 0x746060
+    public void OnCompleted(){} // RVA: 0x7715D0
+    public void UnsafeOnCompleted(){} // RVA: 0x7716D0
+    public void SourceOnCompleted(){} // RVA: 0x746290
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7CE9C80
-    public void GetResult(){} // RVA: 0x7A7CFED90
-    public void OnCompleted(){} // RVA: 0x7A7CFEDA0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFEEA0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CE9F30
+    public void .ctor(){} // RVA: 0x7473D0
+    public void get_IsCompleted(){} // RVA: 0x747440
+    public void GetResult(){} // RVA: 0x76B7B0
+    public void OnCompleted(){} // RVA: 0x7714C0
+    public void UnsafeOnCompleted(){} // RVA: 0x7715C0
+    public void SourceOnCompleted(){} // RVA: 0x7475D0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x769C70
+    public void UnsafeOnCompleted(){} // RVA: 0x769D70
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7467B0
+    public void GetResult(){} // RVA: 0x7467F0
+    public void OnCompleted(){} // RVA: 0x7694F0
+    public void UnsafeOnCompleted(){} // RVA: 0x7695F0
+    public void SourceOnCompleted(){} // RVA: 0x746A00
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x75B010
+    public void GetResult(){} // RVA: 0x770170
+    public void OnCompleted(){} // RVA: 0x770180
+    public void UnsafeOnCompleted(){} // RVA: 0x770280
+    public void SourceOnCompleted(){} // RVA: 0x770290
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x772450
+    public void UnsafeOnCompleted(){} // RVA: 0x772550
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5C00
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CD5F20
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CD6020
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5E50
+    public void .ctor(){} // RVA: 0x47F10
+    public void OnCompleted(){} // RVA: 0x965CF0
+    public void get_IsCompleted(){} // RVA: 0x965D10
+    public void GetResult(){} // RVA: 0x965D30
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5460
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
-    public void GetResult(){} // RVA: 0x7A7CD54B0
-    public void OnCompleted(){} // RVA: 0x7A7D00210
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D00310
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD56E0
+    public void .ctor(){} // RVA: 0x746010
+    public void get_IsCompleted(){} // RVA: 0x746020
+    public void GetResult(){} // RVA: 0x747280
+    public void OnCompleted(){} // RVA: 0x76F7B0
+    public void UnsafeOnCompleted(){} // RVA: 0x76F8B0
+    public void SourceOnCompleted(){} // RVA: 0x746290
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD66D0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
-    public void GetResult(){} // RVA: 0x7A7CFBDF0
-    public void OnCompleted(){} // RVA: 0x7A7CFFFF0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D000F0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD68D0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76D660
+    public void UnsafeOnCompleted(){} // RVA: 0x76D760
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x748B30
+    public void get_IsCompleted(){} // RVA: 0x748B40
+    public void GetResult(){} // RVA: 0x764CA0
+    public void OnCompleted(){} // RVA: 0x764CE0
+    public void UnsafeOnCompleted(){} // RVA: 0x764DE0
+    public void SourceOnCompleted(){} // RVA: 0x748E30
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x748B30
+    public void get_IsCompleted(){} // RVA: 0x748B40
+    public void GetResult(){} // RVA: 0x764CA0
+    public void OnCompleted(){} // RVA: 0x771F40
+    public void UnsafeOnCompleted(){} // RVA: 0x772040
+    public void SourceOnCompleted(){} // RVA: 0x748E30
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5C00
-    public void GetResult(){} // RVA: 0x7A7CD5C40
-    public void OnCompleted(){} // RVA: 0x7A7CF9450
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9550
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5E50
+    public void .ctor(){} // RVA: 0x7473D0
+    public void get_IsCompleted(){} // RVA: 0x747440
+    public void GetResult(){} // RVA: 0x76B7B0
+    public void OnCompleted(){} // RVA: 0x76B7E0
+    public void UnsafeOnCompleted(){} // RVA: 0x76B8E0
+    public void SourceOnCompleted(){} // RVA: 0x76B8F0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7CE9C80
-    public void GetResult(){} // RVA: 0x7A7CFEC60
-    public void OnCompleted(){} // RVA: 0x7A7CFEC70
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFED70
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFED80
+    public void .ctor(){} // RVA: 0x746010
+    public void get_IsCompleted(){} // RVA: 0x746020
+    public void GetResult(){} // RVA: 0x747280
+    public void OnCompleted(){} // RVA: 0x76F7B0
+    public void UnsafeOnCompleted(){} // RVA: 0x76F8B0
+    public void SourceOnCompleted(){} // RVA: 0x746290
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7D00830
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D00930
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x75B010
+    public void GetResult(){} // RVA: 0x7702A0
+    public void OnCompleted(){} // RVA: 0x7702B0
+    public void UnsafeOnCompleted(){} // RVA: 0x7703B0
+    public void SourceOnCompleted(){} // RVA: 0x75B2C0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5460
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
-    public void GetResult(){} // RVA: 0x7A7CFCBF0
-    public void OnCompleted(){} // RVA: 0x7A7CFDF80
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE080
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD56E0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76D660
+    public void UnsafeOnCompleted(){} // RVA: 0x76D760
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC140
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC240
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x748EF0
+    public void get_IsCompleted(){} // RVA: 0x748F00
+    public void GetResult(){} // RVA: 0x7716E0
+    public void OnCompleted(){} // RVA: 0x771720
+    public void UnsafeOnCompleted(){} // RVA: 0x771820
+    public void SourceOnCompleted(){} // RVA: 0x749200
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD7C30
-    public void get_IsCompleted(){} // RVA: 0x7A7CD7C40
-    public void GetResult(){} // RVA: 0x7A7CF40D0
-    public void OnCompleted(){} // RVA: 0x7A7CF4110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF4210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD7F30
+    public void .ctor(){} // RVA: 0x7473D0
+    public void get_IsCompleted(){} // RVA: 0x747440
+    public void GetResult(){} // RVA: 0x76B7B0
+    public void OnCompleted(){} // RVA: 0x771C30
+    public void UnsafeOnCompleted(){} // RVA: 0x771D30
+    public void SourceOnCompleted(){} // RVA: 0x7475D0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD7C30
-    public void get_IsCompleted(){} // RVA: 0x7A7CD7C40
-    public void GetResult(){} // RVA: 0x7A7CF40D0
-    public void OnCompleted(){} // RVA: 0x7A7D00F40
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D01040
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD7F30
+    public void .ctor(){} // RVA: 0xD3E60
+    public void get_IsCompleted(){} // RVA: 0x768C50
+    public void GetResult(){} // RVA: 0x768FC0
+    public void OnCompleted(){} // RVA: 0x768FD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7690D0
+    public void SourceOnCompleted(){} // RVA: 0x7690E0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD66D0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
-    public void GetResult(){} // RVA: 0x7A7CFBDF0
-    public void OnCompleted(){} // RVA: 0x7A7CFBE20
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFBF20
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFBF30
+    public void .ctor(){} // RVA: 0x748B30
+    public void get_IsCompleted(){} // RVA: 0x748B40
+    public void GetResult(){} // RVA: 0x764CA0
+    public void OnCompleted(){} // RVA: 0x76A490
+    public void UnsafeOnCompleted(){} // RVA: 0x76A590
+    public void SourceOnCompleted(){} // RVA: 0x76A5A0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC780
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC880
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5460
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
-    public void GetResult(){} // RVA: 0x7A7CFCBF0
-    public void OnCompleted(){} // RVA: 0x7A7CFDF80
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE080
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD56E0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76D770
+    public void UnsafeOnCompleted(){} // RVA: 0x76D870
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7CE9C80
-    public void GetResult(){} // RVA: 0x7A7CFED90
-    public void OnCompleted(){} // RVA: 0x7A7CFEDA0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFEEA0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CE9F30
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC140
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC240
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76E000
+    public void UnsafeOnCompleted(){} // RVA: 0x76E100
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD7FF0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD8000
-    public void GetResult(){} // RVA: 0x7A7CFFEA0
-    public void OnCompleted(){} // RVA: 0x7A7CFFEE0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFFFE0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD8300
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x769C70
+    public void UnsafeOnCompleted(){} // RVA: 0x769D70
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD66D0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
-    public void GetResult(){} // RVA: 0x7A7CFBDF0
-    public void OnCompleted(){} // RVA: 0x7A7D00320
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D00420
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD68D0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76D770
+    public void UnsafeOnCompleted(){} // RVA: 0x76D870
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A76BA6C0
-    public void get_IsCompleted(){} // RVA: 0x7A7CF8BB0
-    public void GetResult(){} // RVA: 0x7A7CF8F20
-    public void OnCompleted(){} // RVA: 0x7A7CF8F30
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9030
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9040
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76D990
+    public void UnsafeOnCompleted(){} // RVA: 0x76DA90
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76DCA0
+    public void UnsafeOnCompleted(){} // RVA: 0x76DDA0
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC250
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC350
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x7473D0
+    public void get_IsCompleted(){} // RVA: 0x747440
+    public void GetResult(){} // RVA: 0x747480
+    public void OnCompleted(){} // RVA: 0x7474C0
+    public void UnsafeOnCompleted(){} // RVA: 0x7475C0
+    public void SourceOnCompleted(){} // RVA: 0x7475D0
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFCAE0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFCBE0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76DCA0
+    public void UnsafeOnCompleted(){} // RVA: 0x76DDA0
+    public void SourceOnCompleted(){} // RVA: 0x769D80
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD66D0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
-    public void GetResult(){} // RVA: 0x7A7CFBDF0
-    public void OnCompleted(){} // RVA: 0x7A7D00100
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7D00200
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD68D0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC250
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC350
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC470
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC570
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
+    public void .ctor(){} // RVA: 0x748EF0
+    public void get_IsCompleted(){} // RVA: 0x748F00
+    public void GetResult(){} // RVA: 0x76E660
+    public void OnCompleted(){} // RVA: 0x76E6B0
+    public void UnsafeOnCompleted(){} // RVA: 0x76E7B0
+    public void SourceOnCompleted(){} // RVA: 0x749200
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC780
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC880
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD66D0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
-    public void GetResult(){} // RVA: 0x7A7CD6780
-    public void OnCompleted(){} // RVA: 0x7A7CD67C0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CD68C0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD68D0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD57A0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
-    public void GetResult(){} // RVA: 0x7A7CD5840
-    public void OnCompleted(){} // RVA: 0x7A7CFC780
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC880
-    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD7FF0
-    public void get_IsCompleted(){} // RVA: 0x7A7CD8000
-    public void GetResult(){} // RVA: 0x7A7CFD290
-    public void OnCompleted(){} // RVA: 0x7A7CFD2E0
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFD3E0
-    public void SourceOnCompleted(){} // RVA: 0x7A7CD8300
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746010
+    public void get_IsCompleted(){} // RVA: 0x746020
+    public void GetResult(){} // RVA: 0x747280
+    public void OnCompleted(){} // RVA: 0x76EAD0
+    public void UnsafeOnCompleted(){} // RVA: 0x76EBD0
+    public void SourceOnCompleted(){} // RVA: 0x746290
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
 public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7CD5BA0
-    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
-    public void GetResult(){} // RVA: 0x7A7CD5F10
-    public void OnCompleted(){} // RVA: 0x7A7CFF110
-    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
-    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
 }
 
-public class AwakeMonitor : Object
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76DCA0
+    public void UnsafeOnCompleted(){} // RVA: 0x76DDA0
+    public void SourceOnCompleted(){} // RVA: 0x769D80
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x746750
+    public void get_IsCompleted(){} // RVA: 0x7705E0
+    public void GetResult(){} // RVA: 0x746AC0
+    public void OnCompleted(){} // RVA: 0x770620
+    public void UnsafeOnCompleted(){} // RVA: 0x770720
+    public void SourceOnCompleted(){} // RVA: 0x770730
+}
+
+public class Awaiter : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7A7E18800
-    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void .ctor(){} // RVA: 0x746350
+    public void get_IsCompleted(){} // RVA: 0x7463B0
+    public void GetResult(){} // RVA: 0x7463F0
+    public void OnCompleted(){} // RVA: 0x76F8C0
+    public void UnsafeOnCompleted(){} // RVA: 0x76F9C0
+    public void SourceOnCompleted(){} // RVA: 0x746690
 }

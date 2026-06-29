@@ -8,13 +8,13 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class GroupPresenceJoinIntent : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED3E60
+        public void .ctor(){} // RVA: 0x6B5ADD0
     }
 
     public class GroupPresenceLeaveIntent : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADED42A0
+        public void .ctor(){} // RVA: 0x6B5B210
     }
 
 }

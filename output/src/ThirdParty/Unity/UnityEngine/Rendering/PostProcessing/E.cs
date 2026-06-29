@@ -8,7 +8,7 @@ namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
     public class EyeAdaptationParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AECED140
+        public void .ctor(){} // RVA: 0x795A300
     }
 
 }

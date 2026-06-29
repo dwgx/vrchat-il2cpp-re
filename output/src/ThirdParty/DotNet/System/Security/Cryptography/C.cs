@@ -8,130 +8,130 @@ namespace ThirdParty.DotNet.System.Security.Cryptography
     public class CryptoAPITransform : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A847A460
-        public void get_CanReuseTransform(){} // RVA: 0x7A81BD750
-        public void get_CanTransformMultipleBlocks(){} // RVA: 0x7A81BD750
-        public void get_InputBlockSize(){} // RVA: 0x7A82D1450
-        public void get_KeyHandle(){} // RVA: 0x7A82D1450
-        public void get_OutputBlockSize(){} // RVA: 0x7A82D1450
-        public void Dispose(){} // RVA: 0x7ADA8F0A0
-        public void Clear(){} // RVA: 0x7ADA8F0A0
-        public void TransformBlock(){} // RVA: 0x7A82D1450
-        public void TransformFinalBlock(){} // RVA: 0x7A82D1450
-        public void Reset(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0xF48510
+        public void get_CanReuseTransform(){} // RVA: 0xC2E4C0
+        public void get_CanTransformMultipleBlocks(){} // RVA: 0xC2E4C0
+        public void get_InputBlockSize(){} // RVA: 0xDAC980
+        public void get_KeyHandle(){} // RVA: 0xDAC980
+        public void get_OutputBlockSize(){} // RVA: 0xDAC980
+        public void Dispose(){} // RVA: 0x6719860
+        public void Clear(){} // RVA: 0x6719860
+        public void TransformBlock(){} // RVA: 0xDAC980
+        public void TransformFinalBlock(){} // RVA: 0xDAC980
+        public void Reset(){} // RVA: 0xB43310
     }
 
     public class CryptoConfig : Object
     {
         // ── Methods ──
-        public void AddOID(){} // RVA: 0x7ADA8F0B0
-        public void CreateFromName(){} // RVA: 0x7ADA8F150
-        public void MapNameToOID(){} // RVA: 0x7ADA91CA0
-        public void Initialize(){} // RVA: 0x7ADA92730
-        public void AddAlgorithm(){} // RVA: 0x7ADA928A0
-        public void EncodeOID(){} // RVA: 0x7ADA92EC0
-        public void EncodeLongNumber(){} // RVA: 0x7ADA93400
-        public void get_AllowOnlyFipsAlgorithms(){} // RVA: 0x7A80D7320
-        public void .ctor(){} // RVA: 0x7A80D7310
-        public void .cctor(){} // RVA: 0x7ADA935B0
+        public void AddOID(){} // RVA: 0x6719870
+        public void CreateFromName(){} // RVA: 0x6719910
+        public void MapNameToOID(){} // RVA: 0x671C490
+        public void Initialize(){} // RVA: 0x671CF20
+        public void AddAlgorithm(){} // RVA: 0x671D090
+        public void EncodeOID(){} // RVA: 0x671D6A0
+        public void EncodeLongNumber(){} // RVA: 0x671DBE0
+        public void get_AllowOnlyFipsAlgorithms(){} // RVA: 0xB43320
+        public void .ctor(){} // RVA: 0xB43310
+        public void .cctor(){} // RVA: 0x671DD90
     }
 
     public class CryptoConfigForwarder : Object
     {
         // ── Methods ──
-        public void CreateFromName(){} // RVA: 0x7ADA9DAA0
-        public void CreateDefaultHashAlgorithm(){} // RVA: 0x7ADA615A0
+        public void CreateFromName(){} // RVA: 0x67283C0
+        public void CreateDefaultHashAlgorithm(){} // RVA: 0x66EBBB0
     }
 
     public class CryptoStream : Stream
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7ADA5B650
-        public void get_CanRead(){} // RVA: 0x7A8100260
-        public void get_CanSeek(){} // RVA: 0x7A80D7320
-        public void get_CanWrite(){} // RVA: 0x7A8F1FD00
-        public void get_Length(){} // RVA: 0x7ADA5BA70
-        public void get_Position(){} // RVA: 0x7ADA5BAC0
-        public void set_Position(){} // RVA: 0x7ADA5BB10
-        public void get_HasFlushedFinalBlock(){} // RVA: 0x7A810C000
-        public void FlushFinalBlock(){} // RVA: 0x7ADA5BB60
-        public void Flush(){} // RVA: 0x7A80D7310
-        public void FlushAsync(){} // RVA: 0x7ADA5BD60
-        public void Seek(){} // RVA: 0x7ADA5BF20
-        public void SetLength(){} // RVA: 0x7ADA5BF70
-        public void ReadAsync(){} // RVA: 0x7ADA5BFC0
-        public void BeginRead(){} // RVA: 0x7ADA5C020
-        public void EndRead(){} // RVA: 0x7ADA5C0D0
-        public void ReadAsyncInternal(){} // RVA: 0x7ADA5C110
-        public void ReadByte(){} // RVA: 0x7ADA5C390
-        public void WriteByte(){} // RVA: 0x7ADA5C5E0
-        public void Read(){} // RVA: 0x7ADA5C6B0
-        public void CheckReadArguments(){} // RVA: 0x7ADA5C7F0
-        public void ReadAsyncCore(){} // RVA: 0x7ADA5C9A0
-        public void WriteAsync(){} // RVA: 0x7ADA5CC20
-        public void BeginWrite(){} // RVA: 0x7ADA5CC80
-        public void EndWrite(){} // RVA: 0x7ADA5CD30
-        public void WriteAsyncInternal(){} // RVA: 0x7ADA5CD40
-        public void Write(){} // RVA: 0x7ADA5CFE0
-        public void CheckWriteArguments(){} // RVA: 0x7ADA5D0D0
-        public void WriteAsyncCore(){} // RVA: 0x7ADA5D280
-        public void Clear(){} // RVA: 0x7ADA5D520
-        public void Dispose(){} // RVA: 0x7ADA5D540
-        public void InitializeBuffer(){} // RVA: 0x7ADA5D750
-        public void get_AsyncActiveSemaphore(){} // RVA: 0x7ADA5D8B0
+        public void .ctor(){} // RVA: 0x66E5CA0
+        public void get_CanRead(){} // RVA: 0xB6B1A0
+        public void get_CanSeek(){} // RVA: 0xB43320
+        public void get_CanWrite(){} // RVA: 0x1A1E0A0
+        public void get_Length(){} // RVA: 0x66E60C0
+        public void get_Position(){} // RVA: 0x66E6110
+        public void set_Position(){} // RVA: 0x66E6160
+        public void get_HasFlushedFinalBlock(){} // RVA: 0xB76DA0
+        public void FlushFinalBlock(){} // RVA: 0x66E61B0
+        public void Flush(){} // RVA: 0xB43310
+        public void FlushAsync(){} // RVA: 0x66E63B0
+        public void Seek(){} // RVA: 0x66E6530
+        public void SetLength(){} // RVA: 0x66E6580
+        public void ReadAsync(){} // RVA: 0x66E65D0
+        public void BeginRead(){} // RVA: 0x66E6630
+        public void EndRead(){} // RVA: 0x66E66E0
+        public void ReadAsyncInternal(){} // RVA: 0x66E6720
+        public void ReadByte(){} // RVA: 0x66E69A0
+        public void WriteByte(){} // RVA: 0x66E6BF0
+        public void Read(){} // RVA: 0x66E6CC0
+        public void CheckReadArguments(){} // RVA: 0x66E6E00
+        public void ReadAsyncCore(){} // RVA: 0x66E6FB0
+        public void WriteAsync(){} // RVA: 0x66E7230
+        public void BeginWrite(){} // RVA: 0x66E7290
+        public void EndWrite(){} // RVA: 0x66E7340
+        public void WriteAsyncInternal(){} // RVA: 0x66E7350
+        public void Write(){} // RVA: 0x66E75F0
+        public void CheckWriteArguments(){} // RVA: 0x66E76E0
+        public void WriteAsyncCore(){} // RVA: 0x66E7890
+        public void Clear(){} // RVA: 0x66E7B30
+        public void Dispose(){} // RVA: 0x66E7B50
+        public void InitializeBuffer(){} // RVA: 0x66E7D60
+        public void get_AsyncActiveSemaphore(){} // RVA: 0x66E7EC0
     }
 
     public class CryptographicException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
-        public void ThrowCryptographicException(){} // RVA: 0x7ADA66160
+        public void .ctor(){} // RVA: 0x23022F0
+        public void ThrowCryptographicException(){} // RVA: 0x66F07B0
     }
 
     public class CryptographicOperations : Object
     {
         // ── Methods ──
-        public void FixedTimeEquals(){} // RVA: 0x7ADA61390
-        public void ZeroMemory(){} // RVA: 0x7ADA61550
+        public void FixedTimeEquals(){} // RVA: 0x66EB9A0
+        public void ZeroMemory(){} // RVA: 0x66EBB60
     }
 
     public class CryptographicUnexpectedOperationException : CryptographicException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A97F7860
+        public void .ctor(){} // RVA: 0x23022F0
     }
 
     public class CspKeyContainerInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7A86FFE10
-        public void get_Accessible(){} // RVA: 0x7A81BD750
-        public void get_CryptoKeySecurity(){} // RVA: 0x7A82D1450
-        public void get_Exportable(){} // RVA: 0x7A81BD750
-        public void get_HardwareDevice(){} // RVA: 0x7A80D7320
-        public void get_KeyContainerName(){} // RVA: 0x7A88F38D0
-        public void get_KeyNumber(){} // RVA: 0x7ADA93660
-        public void get_MachineKeyStore(){} // RVA: 0x7A80D7320
-        public void get_Protected(){} // RVA: 0x7A80D7320
-        public void get_ProviderName(){} // RVA: 0x7A88F4330
-        public void get_ProviderType(){} // RVA: 0x7ADA292A0
-        public void get_RandomlyGenerated(){} // RVA: 0x7A80F26D0
-        public void get_Removable(){} // RVA: 0x7A80D7320
-        public void get_UniqueKeyContainerName(){} // RVA: 0x7ADA93680
+        public void .ctor(){} // RVA: 0x12306B0
+        public void get_Accessible(){} // RVA: 0xC2E4C0
+        public void get_CryptoKeySecurity(){} // RVA: 0xDAC980
+        public void get_Exportable(){} // RVA: 0xC2E4C0
+        public void get_HardwareDevice(){} // RVA: 0xB43320
+        public void get_KeyContainerName(){} // RVA: 0x13F92B0
+        public void get_KeyNumber(){} // RVA: 0x671DE40
+        public void get_MachineKeyStore(){} // RVA: 0xB43320
+        public void get_Protected(){} // RVA: 0xB43320
+        public void get_ProviderName(){} // RVA: 0x13F9400
+        public void get_ProviderType(){} // RVA: 0x66B3620
+        public void get_RandomlyGenerated(){} // RVA: 0xB5DD50
+        public void get_Removable(){} // RVA: 0xB43320
+        public void get_UniqueKeyContainerName(){} // RVA: 0x671DE60
     }
 
     public class CspParameters : Object
     {
         // ── Methods ──
-        public void get_Flags(){} // RVA: 0x7A8F9ACE0
-        public void set_Flags(){} // RVA: 0x7ADA66350
-        public void get_CryptoKeySecurity(){} // RVA: 0x7A83F69F0
-        public void set_CryptoKeySecurity(){} // RVA: 0x7A8105A90
-        public void get_KeyPassword(){} // RVA: 0x7A8292C30
-        public void set_KeyPassword(){} // RVA: 0x7ADA66440
-        public void get_ParentWindowHandle(){} // RVA: 0x7A8154D80
-        public void set_ParentWindowHandle(){} // RVA: 0x7ADA664B0
-        public void .ctor(){} // RVA: 0x7ADA66850
+        public void get_Flags(){} // RVA: 0x1AE5AC0
+        public void set_Flags(){} // RVA: 0x66F09A0
+        public void get_CryptoKeySecurity(){} // RVA: 0xD33E60
+        public void set_CryptoKeySecurity(){} // RVA: 0xB708C0
+        public void get_KeyPassword(){} // RVA: 0xD05CA0
+        public void set_KeyPassword(){} // RVA: 0x66F0A80
+        public void get_ParentWindowHandle(){} // RVA: 0xBC1B30
+        public void set_ParentWindowHandle(){} // RVA: 0x66F0AF0
+        public void .ctor(){} // RVA: 0x66F0E90
     }
 
 }
